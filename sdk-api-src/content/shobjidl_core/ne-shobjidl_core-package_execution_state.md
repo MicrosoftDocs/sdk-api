@@ -76,7 +76,6 @@ The package was terminated.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-getpackageexecutionstate">IPackageIPackageDebugSettings::GetPackageExecutionState</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-getpackageexecutionstate">IPackageIPackageDebugSettings::GetPackageExecutionState</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackageexecutionstatechangenotification-onstatechanged">IPackageExecutionStateChangeNotification::OnStateChanged</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackageexecutionstatechangenotification-onstatechanged">IPackageExecutionStateChangeNotification::OnStateChanged</a>

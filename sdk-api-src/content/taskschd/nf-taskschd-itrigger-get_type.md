@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets the type of the trigger. The trigger type is defined when the trigger is created and cannot be changed later. For information on creating a trigger, see <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itriggercollection-create">ITriggerCollection::Create</a>.
+Gets the type of the trigger. The trigger type is defined when the trigger is created and cannot be changed later. For information on creating a trigger, see <a href="/windows/desktop/api/taskschd/nf-taskschd-itriggercollection-create">ITriggerCollection::Create</a>.
 
 This property is read-only.
 
@@ -59,17 +59,16 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itriggercollection-create">ITriggerCollection::Create</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itriggercollection-create">ITriggerCollection::Create</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/ne-taskschd-task_trigger_type2">TASK_TRIGGER_TYPE2</a>
+<a href="/windows/desktop/api/taskschd/ne-taskschd-task_trigger_type2">TASK_TRIGGER_TYPE2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

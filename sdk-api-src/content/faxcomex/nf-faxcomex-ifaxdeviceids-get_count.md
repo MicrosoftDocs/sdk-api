@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>IFaxDeviceIds::get_Count</b> property represents the number of objects in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> collection. This is the total number of device IDs associated with the fax server.
+The <b>IFaxDeviceIds::get_Count</b> property represents the number of objects in the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> collection. This is the total number of device IDs associated with the fax server.
 
 This property is read-only.
 
@@ -59,13 +59,12 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdeviceids">IFaxDeviceIds</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdeviceids">IFaxDeviceIds</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-outbound-routing-groups">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-managing-outbound-routing-groups">Visual Basic Example</a>

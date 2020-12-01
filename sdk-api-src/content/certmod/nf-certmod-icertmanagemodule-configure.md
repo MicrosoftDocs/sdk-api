@@ -58,13 +58,13 @@ The <b>Configure</b> method displays the module user interface.
 
 ### -param strConfig [in]
 
-Represents the configuration string for the Certificate Services server in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) as entered for the CA during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+Represents the configuration string for the Certificate Services server in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) as entered for the CA during Certificate Services setup. For information about the configuration string name, see 
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
 ### -param strStorageLocation [in]
 
 A location that provides storage for the property values, as described in the definition of <i>strStorageLocation</i> in 
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-getproperty">ICertManageModule::GetProperty</a>.
+<a href="/windows/desktop/api/certmod/nf-certmod-icertmanagemodule-getproperty">ICertManageModule::GetProperty</a>.
 
 ### -param Flags [in]
 
@@ -75,12 +75,12 @@ A value used to determine whether the configuration interface is to be presented
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 The <b>Configure</b> method displays the module user interface (if one exists), which allows the user to view and change the module's configurable items. A module that implements 
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a> can have its <b>Configure</b> method called when the Certificate Services Manager Policy or Exit Module property page is active and the user chooses the <b>Configure</b> button. The Certificate Services Manager will pass the location referenced by <i>strStorageLocation</i> to this module, and the implementation of this method can then use this location as needed. Note that it is possible that a module may not have configurable items (hence, a user interface would not be necessary), but it would still be necessary to implement this method. The example below does not allow a user to make a configuration change, but it does implement this method.
+<a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a> can have its <b>Configure</b> method called when the Certificate Services Manager Policy or Exit Module property page is active and the user chooses the <b>Configure</b> button. The Certificate Services Manager will pass the location referenced by <i>strStorageLocation</i> to this module, and the implementation of this method can then use this location as needed. Note that it is possible that a module may not have configurable items (hence, a user interface would not be necessary), but it would still be necessary to implement this method. The example below does not allow a user to make a configuration change, but it does implement this method.
 
 
 #### Examples
@@ -107,9 +107,8 @@ HRESULT CCertManagePolicyModule::Configure(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>
-
+<a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>

@@ -62,14 +62,13 @@ A handle to the bitmap.
 
 ### -param vpwf [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ne-shobjidl-vpwatermarkflags">VPWATERMARKFLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/shobjidl/ne-shobjidl-vpwatermarkflags">VPWATERMARKFLAGS</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ne-shobjidl-vpwatermarkflags">VPWATERMARKFLAGS</a> flags that customize the watermark.
+<a href="/windows/desktop/api/shobjidl/ne-shobjidl-vpwatermarkflags">VPWATERMARKFLAGS</a> flags that customize the watermark.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

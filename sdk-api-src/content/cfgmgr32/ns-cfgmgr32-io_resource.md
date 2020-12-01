@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The IO_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
+The IO_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
 ### -field IO_Header
 
-An [IO_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des) structure.
+An [IO_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des) structure.
 
 ### -field IO_Data
 
@@ -72,13 +72,12 @@ Zero.
 
 #### For a resource requirements list:
 
-An [IO_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range) array.
+An [IO_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range) array.
 
 ## -see-also
 
-[IO_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des)
+[IO_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_des)
 
 
 
-[IO_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range)
-
+[IO_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range)

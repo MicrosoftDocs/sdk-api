@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the  Microsoft Active Accessibility providers of  all windowless Microsoft ActiveX controls that have a Microsoft UI Automation provider implementation, and are hosted in a Microsoft Active Accessibility object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessiblehostingelementproviders">IAccessibleHostingElementProviders</a> interface.
+Retrieves the  Microsoft Active Accessibility providers of  all windowless Microsoft ActiveX controls that have a Microsoft UI Automation provider implementation, and are hosted in a Microsoft Active Accessibility object that implements the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessiblehostingelementproviders">IAccessibleHostingElementProviders</a> interface.
 
 ## -parameters
 
@@ -58,21 +58,20 @@ Retrieves the  Microsoft Active Accessibility providers of  all windowless Micro
 
 Type: <b>SAFEARRAY**</b>
 
-Receives the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a> interface pointers.
+Receives the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a> interface pointers.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-The container of windowless ActiveX controls implements this method on the same object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface.  When called, this method queries each of the contained windowless ActiveX controls for an <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a> pointer, and then adds the pointer to the safe array.  
+The container of windowless ActiveX controls implements this method on the same object that implements the <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface.  When called, this method queries each of the contained windowless ActiveX controls for an <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a> pointer, and then adds the pointer to the safe array.  
 
 This method should not include any providers that do not implement <b>IRawElementProviderFragmentRoot</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessiblehostingelementproviders">IAccessibleHostingElementProviders</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessiblehostingelementproviders">IAccessibleHostingElementProviders</a>

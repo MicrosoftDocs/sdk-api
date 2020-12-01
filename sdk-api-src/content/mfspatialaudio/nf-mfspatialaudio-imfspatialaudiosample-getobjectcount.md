@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets the count of spatial audio objects, represented by <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> objects, in the sample.
+Gets the count of spatial audio objects, represented by <a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a> objects, in the sample.
 
 ## -parameters
 
@@ -94,5 +94,4 @@ The supplied pointer is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudiosample">IMFSpatialAudioSample</a>
-
+<a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudiosample">IMFSpatialAudioSample</a>

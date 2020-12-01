@@ -45,6 +45,7 @@ api_location:
  - API-MS-Win-Shell-Associations-L1-1-0.dll
 api_name:
  - AssocCreateForClasses
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # AssocCreateForClasses function
@@ -52,15 +53,15 @@ api_name:
 
 ## -description
 
-Retrieves an object that implements an <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface.
+Retrieves an object that implements an <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface.
 
 ## -parameters
 
 ### -param rgClasses [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-associationelement">ASSOCIATIONELEMENT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/shellapi/ns-shellapi-associationelement">ASSOCIATIONELEMENT</a>*</b>
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-associationelement">ASSOCIATIONELEMENT</a> structures.
+A pointer to an array of <a href="/windows/desktop/api/shellapi/ns-shellapi-associationelement">ASSOCIATIONELEMENT</a> structures.
 
 ### -param cClasses [in]
 
@@ -78,7 +79,7 @@ Reference to the desired IID, normally IID_IQueryAssociations.
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. This is normally <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a>.
+When this method returns, contains the interface pointer requested in <i>riid</i>. This is normally <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a>.
 
 ## -returns
 
@@ -88,5 +89,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-For systems earlier than Windows Vista, use the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-assoccreate">AssocCreate</a> function.
-
+For systems earlier than Windows Vista, use the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-assoccreate">AssocCreate</a> function.

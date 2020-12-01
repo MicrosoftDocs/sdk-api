@@ -64,7 +64,7 @@ The number of items referenced in the array referenced by the <i>rgelt</i> param
 
 Type: <b>PIDLIST_ABSOLUTE*</b>
 
-On success, contains a PIDL array. The implementation must allocate these item identifiers using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. The calling application is responsible for freeing the item identifiers using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+On success, contains a PIDL array. The implementation must allocate these item identifiers using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. The calling application is responsible for freeing the item identifiers using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ### -param pceltFetched [out]
 
@@ -83,4 +83,3 @@ Returns S_OK if the method successfully retrieved the requested <i>celt</i> elem
 S_FALSE indicates that more items were requested than remained in the enumeration. The value pointed to by the <i>pceltFetched</i> parameter specifies the actual number of items retrieved. Note that the value will be 0 if there are no more items to retrieve.
 
 Returns a COM-defined error value otherwise.
-

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes a method that applications calling <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a> can use to get the result of a <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync">ISyncMgrControl::StartHandlerSync</a> or <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync">ISyncMgrControl::StartItemSync</a> call.
+Exposes a method that applications calling <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrcontrol">ISyncMgrControl</a> can use to get the result of a <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync">ISyncMgrControl::StartHandlerSync</a> or <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync">ISyncMgrControl::StartItemSync</a> call.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrSyncResult</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrSyncResult</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrSyncResult</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrSyncResult</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,12 +69,11 @@ The <b>ISyncMgrSyncResult</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncresult-result">Result</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncresult-result">Result</a>
 </td>
 <td align="left" width="63%">
-Gets the result of a <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync">ISyncMgrControl::StartHandlerSync</a> or <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync">ISyncMgrControl::StartItemSync</a> call.
+Gets the result of a <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-starthandlersync">ISyncMgrControl::StartHandlerSync</a> or <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-startitemsync">ISyncMgrControl::StartItemSync</a> call.
 
 </td>
 </tr>
 </table>
-

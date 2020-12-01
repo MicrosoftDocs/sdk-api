@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>mmioCreateChunk</b> function creates a chunk in a RIFF file that was opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function. The new chunk is created at the current file position. After the new chunk is created, the current file position is the beginning of the data portion of the new chunk.
+The <b>mmioCreateChunk</b> function creates a chunk in a RIFF file that was opened by using the <a href="/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function. The new chunk is created at the current file position. After the new chunk is created, the current file position is the beginning of the data portion of the new chunk.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ File handle of an open RIFF file.
 
 ### -param pmmcki
 
-Pointer to a buffer that receives a <a href="https://docs.microsoft.com/previous-versions/dd757312(v=vs.85)">MMCKINFO</a> structure containing information about the chunk to be created.
+Pointer to a buffer that receives a <a href="/previous-versions/dd757312(v=vs.85)">MMCKINFO</a> structure containing information about the chunk to be created.
 
 ### -param fuCreate
 
@@ -123,13 +123,12 @@ Unable to write the chunk header.
 
 This function cannot insert a chunk into the middle of a file. If an application attempts to create a chunk somewhere other than at the end of a file, <b>mmioCreateChunk</b> overwrites existing information in the file.
 
-The <a href="https://docs.microsoft.com/previous-versions/dd757312(v=vs.85)">MMCKINFO</a> structure pointed to by the <i>lpck</i> parameter should be set up as follows:
+The <a href="/previous-versions/dd757312(v=vs.85)">MMCKINFO</a> structure pointed to by the <i>lpck</i> parameter should be set up as follows:
 
 <ul>
 <li>The <b>ckid</b> member specifies the chunk identifier. If <i>wFlags</i> includes MMIO_CREATERIFF or MMIO_CREATELIST, this member will be filled by <b>mmioCreateChunk</b>.</li>
-<li>The <b>cksize</b> member specifies the size of the data portion of the chunk, including the form type or list type (if any). If this value is not correct when the <a href="https://docs.microsoft.com/previous-versions/dd757315(v=vs.85)">mmioAscend</a> function is called to mark the end of the chunk, <b>mmioAscend</b> corrects the chunk size.</li>
+<li>The <b>cksize</b> member specifies the size of the data portion of the chunk, including the form type or list type (if any). If this value is not correct when the <a href="/previous-versions/dd757315(v=vs.85)">mmioAscend</a> function is called to mark the end of the chunk, <b>mmioAscend</b> corrects the chunk size.</li>
 <li>The <b>fccType</b> member specifies the form type or list type if the chunk is a "RIFF" or "LIST" chunk. If the chunk is not a "RIFF" or "LIST" chunk, this member does not need to be filled in.</li>
 <li>The <b>dwDataOffset</b> member does not need to be filled in. The <b>mmioCreateChunk</b> function fills this member with the file offset of the data portion of the chunk.</li>
 <li>The <b>dwFlags</b> member does not need to be filled in. The <b>mmioCreateChunk</b> function sets the MMIO_DIRTY flag in <b>dwFlags</b>.</li>
 </ul>
-

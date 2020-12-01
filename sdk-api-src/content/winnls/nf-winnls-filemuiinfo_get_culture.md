@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Gets the locale name associated with the language name offset information in the <b>dwLanguageNameOffset</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-filemuiinfo">FILEMUIINFO</a> structure.
+Gets the locale name associated with the language name offset information in the <b>dwLanguageNameOffset</b> member of a <a href="/windows/desktop/api/winnls/ns-winnls-filemuiinfo">FILEMUIINFO</a> structure.
 
 ## -parameters
 
 ### -param pInfo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-filemuiinfo">FILEMUIINFO</a> structure.
+Pointer to the <a href="/windows/desktop/api/winnls/ns-winnls-filemuiinfo">FILEMUIINFO</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-filemuiinfo">FILEMUIINFO</a>
+<a href="/windows/desktop/api/winnls/ns-winnls-filemuiinfo">FILEMUIINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
+<a href="/windows/desktop/Intl/multilingual-user-interface">Multilingual User Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/multilingual-user-interface-macros">Multilingual User Interface Macros</a>
-
+<a href="/windows/desktop/Intl/multilingual-user-interface-macros">Multilingual User Interface Macros</a>

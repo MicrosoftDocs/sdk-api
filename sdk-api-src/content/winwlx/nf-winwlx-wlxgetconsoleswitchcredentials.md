@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>WlxGetConsoleSwitchCredentials</b> function must be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function to read the currently logged on user's credentials to transparently transfer them to a target session.
+The <b>WlxGetConsoleSwitchCredentials</b> function must be implemented by a replacement <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function to read the currently logged on user's credentials to transparently transfer them to a target session.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -66,4 +66,3 @@ Pointer to a <a href="/windows/win32/api/winwlx/ns-winwlx-wlx_consoleswitch_cred
 ## -returns
 
 Returns <b>TRUE</b> on success and <b>FALSE</b> on failure.
-

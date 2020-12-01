@@ -177,15 +177,15 @@ Clients can also specify that DHCP data be retrieved from the DHCP server each t
 <div class="alert"><b>Note</b>  The callers of this API must not make blocking calls to this API, since it can take up to a maximum of 2 minutes to return a code or status. UI behaviors in particular should not block on the return of this call, since it can introduce a significant delay in UI response time.</div>
 <div> </div>
 For more information about DHCP INFORM messages, and other standards-based information about DHCP, consult 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/about-dynamic-host-configuration-protocol">DHCP Standards</a>.
+<a href="/previous-versions/windows/desktop/dhcp/about-dynamic-host-configuration-protocol">DHCP Standards</a>.
 
 To see the 
 <b>DhcpRequestParams</b> function in use, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-client-api-examples">DHCP Examples</a>.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-client-api-examples">DHCP Examples</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-functions">DHCP Functions</a>
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-functions">DHCP Functions</a>
 
 
 
@@ -193,9 +193,8 @@ To see the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpcapiinitialize">DhcpCApiInitialize</a>
+<a href="/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpcapiinitialize">DhcpCApiInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpundorequestparams">DhcpUndoRequestParams</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpundorequestparams">DhcpUndoRequestParams</a>

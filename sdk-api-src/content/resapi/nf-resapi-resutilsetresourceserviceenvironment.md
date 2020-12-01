@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Adjusts the environment data for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">service</a> so that the service uses a cluster network name to identify its location. This function must be called from a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a>. The <b>PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT</b> type defines a pointer to this function.
+Adjusts the environment data for a <a href="/previous-versions/windows/desktop/mscs/s-gly">service</a> so that the service uses a cluster network name to identify its location. This function must be called from a  <a href="/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a>. The <b>PRESUTIL_SET_RESOURCE_SERVICE_ENVIRONMENT</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -60,32 +60,31 @@ Pointer a null-terminated Unicode string containing the name of the service.
 
 ### -param hResource [in]
 
-Resource handle for the service obtained from  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>.
+Resource handle for the service obtained from  <a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterresource">OpenClusterResource</a>.
 
 ### -param pfnLogEvent [in]
 
-Pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> entry point function of the resource DLL managing the service.
+Pointer to the  <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> entry point function of the resource DLL managing the service.
 
 ### -param hResourceHandle [in]
 
-Resource handle required by the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> entry point function. Use the handle passed to the DLL in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a> entry point function.
+Resource handle required by the  <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> entry point function. Use the handle passed to the DLL in the  <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a> entry point function.
 
 ## -returns
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
-<b>ResUtilSetResourceServiceEnvironment</b> calls  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetenvironmentwithnetname">ResUtilGetEnvironmentWithNetName</a> and stores the resulting environment block in a registry entry for the service. For more information about the effects of the environment block, see  <b>ResUtilGetEnvironmentWithNetName</b>.
+<b>ResUtilSetResourceServiceEnvironment</b> calls  <a href="/windows/desktop/api/resapi/nf-resapi-resutilgetenvironmentwithnetname">ResUtilGetEnvironmentWithNetName</a> and stores the resulting environment block in a registry entry for the service. For more information about the effects of the environment block, see  <b>ResUtilGetEnvironmentWithNetName</b>.
 
-If your resource DLL manages a service, create a worker thread and use  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetresourceservicestartparameters">ResUtilSetResourceServiceStartParameters</a> and  <b>ResUtilSetResourceServiceEnvironment</b> when bringing the service online.
+If your resource DLL manages a service, create a worker thread and use  <a href="/windows/desktop/api/resapi/nf-resapi-resutilsetresourceservicestartparameters">ResUtilSetResourceServiceStartParameters</a> and  <b>ResUtilSetResourceServiceEnvironment</b> when bringing the service online.
 
-Do not call  <b>ResUtilSetResourceServiceEnvironment</b> from any resource DLL entry point function.  <b>ResUtilSetResourceServiceEnvironment</b> can safely be called from a worker thread. For more information, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+Do not call  <b>ResUtilSetResourceServiceEnvironment</b> from any resource DLL entry point function.  <b>ResUtilSetResourceServiceEnvironment</b> can safely be called from a worker thread. For more information, see  <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilgetenvironmentwithnetname">ResUtilGetEnvironmentWithNetName</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilgetenvironmentwithnetname">ResUtilGetEnvironmentWithNetName</a>

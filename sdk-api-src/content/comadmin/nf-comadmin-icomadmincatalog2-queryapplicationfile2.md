@@ -60,7 +60,7 @@ The full path to the application file.
 
 ### -param ppFilesForImport [out, retval]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a> interface pointer that specifies the <a href="https://docs.microsoft.com/windows/desktop/cossdk/filesforimport">FilesForImport</a> collection for the application.
+A pointer to an <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a> interface pointer that specifies the <a href="/windows/desktop/cossdk/filesforimport">FilesForImport</a> collection for the application.
 
 ## -returns
 
@@ -68,5 +68,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>

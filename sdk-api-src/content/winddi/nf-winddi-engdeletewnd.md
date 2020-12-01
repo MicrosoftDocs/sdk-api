@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EngDeleteWnd</b> function deletes a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure.
+The <b>EngDeleteWnd</b> function deletes a <a href="/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a> structure.
 
 ## -parameters
 
@@ -64,15 +64,14 @@ None
 
 ## -remarks
 
-Because deleting a window object involves locking window resources, <b>EngDeleteWnd</b> should be called only in the context of the WNDOBJ_SETUP escape in <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>, or from an <a href="https://docs.microsoft.com/windows-hardware/drivers/">MCD</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/">ICD</a> escape.
+Because deleting a window object involves locking window resources, <b>EngDeleteWnd</b> should be called only in the context of the WNDOBJ_SETUP escape in <a href="/windows/desktop/api/winddi/nf-winddi-drvescape">DrvEscape</a>, or from an <a href="/windows-hardware/drivers/">MCD</a> or <a href="/windows-hardware/drivers/">ICD</a> escape.
 
 A driver can call <b>EngDeleteWnd</b> to remove its WNDOBJ structure associated with a window regardless of whether the window continues to exist. This is useful when the driver is being dynamically unloaded by the system while the associated window still exists.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatewnd">EngCreateWnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-wndobj">WNDOBJ</a>

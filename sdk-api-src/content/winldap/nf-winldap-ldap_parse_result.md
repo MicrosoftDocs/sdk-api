@@ -63,7 +63,7 @@ The session handle.
 ### -param ResultMessage [in]
 
 The result of an LDAP operation as returned by one of the synchronous operation calls or by 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> for an asynchronous operation.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> for an asynchronous operation.
 
 ### -param ReturnCode [out, optional]
 
@@ -88,49 +88,48 @@ This result parameter is filled in with an allocated array of controls copied fr
 ### -param Freeit [in]
 
 Determines whether the <i>ResultMessage</i> parameter is freed. You can pass any nonzero value to the <i>Freeit</i> parameter to free the <i>ResultMessage</i> pointer when it is no longer needed, or you can call 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_msgfree">ldap_msgfree</a> to free the result later.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_msgfree">ldap_msgfree</a> to free the result later.
 
 ## -returns
 
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. See 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a> for more information.
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a> for more information.
 
 ## -remarks
 
 The <b>ldap_parse_result</b> function traverses a chain of server responses looking for result messages to parse. Use this function if you want to access the referrals, matching distinguished names, or server controls returned. The function skips over messages of type <b>LDAP_RES_SEARCH_ENTRY</b> and <b>LDAP_RES_SEARCH_REFERENCE</b>.
 
 When they are no longer needed, free the <i>ErrorMessage</i> and <i>MatchedDNs</i> strings by calling 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>. Free the <i>Referrals</i> array by calling 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>. Free the <i>ServerControls</i> by calling 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_controls_free">ldap_controls_free</a>.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>. Free the <i>Referrals</i> array by calling 
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>. Free the <i>ServerControls</i> by calling 
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_controls_free">ldap_controls_free</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_controls_free">ldap_controls_free</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_controls_free">ldap_controls_free</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_msgfree">ldap_msgfree</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_msgfree">ldap_msgfree</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>

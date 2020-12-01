@@ -55,7 +55,7 @@ This interface encapsulates methods for retrieving data from the GPU asynchronou
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Asynchronous</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>. <b>ID3D10Asynchronous</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Asynchronous</b> interface inherits from <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>. <b>ID3D10Asynchronous</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10Asynchronous</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-begin">Begin</a>
+<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-begin">Begin</a>
 </td>
 <td align="left" width="63%">
 Starts the collection of GPU data.
@@ -79,7 +79,7 @@ Starts the collection of GPU data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-end">End</a>
+<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-end">End</a>
 </td>
 <td align="left" width="63%">
 Ends the collection of GPU data.
@@ -88,7 +88,7 @@ Ends the collection of GPU data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">GetData</a>
+<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">GetData</a>
 </td>
 <td align="left" width="63%">
 Get data from the GPU asynchronously.
@@ -97,10 +97,10 @@ Get data from the GPU asynchronously.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdatasize">GetDataSize</a>
+<a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdatasize">GetDataSize</a>
 </td>
 <td align="left" width="63%">
-Get the size of the data (in bytes) that is output when calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a>.
+Get the size of the data (in bytes) that is output when calling <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10asynchronous-getdata">ID3D10Asynchronous::GetData</a>.
 
 </td>
 </tr>
@@ -112,18 +112,17 @@ There are three types of asynchronous interfaces, all of which inherit this inte
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10query">ID3D10Query Interface</a> - Queries information from the GPU.</li>
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10query">ID3D10Query Interface</a> - Queries information from the GPU.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10predicate">ID3D10Predicate Interface</a> - Determines whether a piece of geometry should be processed or not depending on the results of a previous draw call.</li>
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10predicate">ID3D10Predicate Interface</a> - Determines whether a piece of geometry should be processed or not depending on the results of a previous draw call.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10counter">ID3D10Counter Interface</a> - Measures GPU performance.</li>
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10counter">ID3D10Counter Interface</a> - Measures GPU performance.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>

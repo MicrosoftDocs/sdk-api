@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Do not use. Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-srow">SRow</a> structures. Each <b>SRow</b> structure describes a row from a table.
+Do not use. Contains an array of <a href="/windows/desktop/api/wabdefs/ns-wabdefs-srow">SRow</a> structures. Each <b>SRow</b> structure describes a row from a table.
 
 ## -struct-fields
 
@@ -63,11 +63,10 @@ Do not use. Contains an array of <a href="https://docs.microsoft.com/windows/des
 
 Type: <b>ULONG</b>
 
-Variable of type <b>ULONG</b> that specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-srow">SRow</a> structures in the <b>aRow</b> member.
+Variable of type <b>ULONG</b> that specifies the number of <a href="/windows/desktop/api/wabdefs/ns-wabdefs-srow">SRow</a> structures in the <b>aRow</b> member.
 
 ### -field aRow
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-srow">SRow</a>[MAPI_DIM]</b>
+Type: <b><a href="/windows/desktop/api/wabdefs/ns-wabdefs-srow">SRow</a>[MAPI_DIM]</b>
 
-Array of variables of type <a href="https://docs.microsoft.com/windows/desktop/api/wabdefs/ns-wabdefs-srow">SRow</a> that specifies the structures that represent the rows in the table.
-
+Array of variables of type <a href="/windows/desktop/api/wabdefs/ns-wabdefs-srow">SRow</a> that specifies the structures that represent the rows in the table.

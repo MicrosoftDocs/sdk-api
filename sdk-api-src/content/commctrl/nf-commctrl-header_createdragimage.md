@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates a transparent version of an item image within an existing header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-createdragimage">HDM_CREATEDRAGIMAGE</a> message explicitly.
+Creates a transparent version of an item image within an existing header control. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-createdragimage">HDM_CREATEDRAGIMAGE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a header control.
 
@@ -65,4 +65,3 @@ A handle to a header control.
 Type: <b>int</b>
 
 A zero-based index of the item within the header control. The image assigned to this item is used as the basis for the transparent image.
-

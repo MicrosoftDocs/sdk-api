@@ -59,11 +59,10 @@ Deprecated. Requests the closing of the browser toolbars hosted by the derived c
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> to close the toolbar through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-closedw">IDockingWindow::CloseDW</a>; <b>FALSE</b> to release the toolbar.
+<b>TRUE</b> to close the toolbar through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idockingwindow-closedw">IDockingWindow::CloseDW</a>; <b>FALSE</b> to release the toolbar.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

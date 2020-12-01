@@ -56,11 +56,11 @@ The <b>SetupDiCancelDriverInfoSearch</b> function cancels a driver list search t
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for which a driver list is being built.
+A handle to the <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> for which a driver list is being built.
 
 ## -returns
 
-If a driver list search is underway for the specified device information set when this function is called, the search is terminated. <b>SetupDiCancelDriverInfoSearch</b> returns <b>TRUE</b> when the termination is confirmed. Otherwise, it returns <b>FALSE</b> and a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_INVALID_HANDLE.
+If a driver list search is underway for the specified device information set when this function is called, the search is terminated. <b>SetupDiCancelDriverInfoSearch</b> returns <b>TRUE</b> when the termination is confirmed. Otherwise, it returns <b>FALSE</b> and a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INVALID_HANDLE.
 
 ## -remarks
 
@@ -68,5 +68,4 @@ If a driver list search is underway for the specified device information set whe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdibuilddriverinfolist">SetupDiBuildDriverInfoList</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdibuilddriverinfolist">SetupDiBuildDriverInfoList</a>

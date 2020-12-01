@@ -53,6 +53,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - KillTimer
+req.apiset: ext-ms-win-ntuser-window-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # KillTimer function
@@ -69,13 +70,13 @@ Destroys the specified timer.
 Type: <b>HWND</b>
 
 A handle to the window associated with the specified timer. This value must be the same as the 
-					<i>hWnd</i> value passed to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a> function that created the timer.
+					<i>hWnd</i> value passed to the <a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a> function that created the timer.
 
 ### -param uIDEvent [in]
 
 Type: <b>UINT_PTR</b>
 
-The timer to be destroyed. If the window handle passed to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a> is valid, this parameter must be the same as the
+The timer to be destroyed. If the window handle passed to <a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a> is valid, this parameter must be the same as the
 					<i>nIDEvent</i> 
 
 value passed to <b>SetTimer</b>. If the application calls <b>SetTimer</b> with 
@@ -87,16 +88,16 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <b>KillTimer</b> function does not remove <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> messages already posted to the message queue.
+The <b>KillTimer</b> function does not remove <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> messages already posted to the message queue.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-timers">Destroying a Timer</a>.
+For an example, see <a href="/windows/desktop/winmsg/using-timers">Destroying a Timer</a>.
 
 <div class="code"></div>
 
@@ -110,13 +111,12 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-settimer">SetTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/timers">Timers</a>
+<a href="/windows/desktop/winmsg/timers">Timers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a>
-
+<a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a>

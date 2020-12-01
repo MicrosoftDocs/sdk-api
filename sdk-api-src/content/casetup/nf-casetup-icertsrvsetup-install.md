@@ -56,11 +56,10 @@ The <b>Install</b> method installs a role as configured in the <b>CCertSrvSetup<
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-initializedefaults">InitializeDefaults</a> method must be called before calling this or any other method on a <b>CCertSrvSetup</b> object.
+The <a href="/windows/desktop/api/casetup/nf-casetup-icertsrvsetup-initializedefaults">InitializeDefaults</a> method must be called before calling this or any other method on a <b>CCertSrvSetup</b> object.
 
-Unless the key already exists, the <b>Install</b> method creates a key for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificate. If the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) requires interaction, it prompts the user.
+Unless the key already exists, the <b>Install</b> method creates a key for the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificate. If the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) requires interaction, it prompts the user.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>

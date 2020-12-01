@@ -45,9 +45,6 @@ api_name:
  - IDWriteFontSet.GetMatchingFonts
 ---
 
-# IDWriteFontSet::GetMatchingFonts(WCHAR const,DWRITE_FONT_WEIGHT,DWRITE_FONT_STRETCH,DWRITE_FONT_STYLE,IDWriteFontSet)
-
-
 ## -description
 
 Returns a subset of fonts filtered by the given properties.
@@ -70,9 +67,9 @@ The font stretch value.
 
 The font style.
 
-### -param filteredSet [out]
+### -param filteredSet
 
-Type: <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset">IDWriteFontSet</a>**</b>
+Type: [out] <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset">IDWriteFontSet</a>**</b>
 
 The subset of fonts that match the properties, or nullptr on failure.
 

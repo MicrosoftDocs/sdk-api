@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfEditTransactionSink</b> interface is implemented by a text service and used by the TSF manager to support edit transactions. An edit transaction is a series of edits that use multiple document locks. A text service can optionally implement this interface. This advise sink is installed by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfEditTransactionSink.
+The <b>ITfEditTransactionSink</b> interface is implemented by a text service and used by the TSF manager to support edit transactions. An edit transaction is a series of edits that use multiple document locks. A text service can optionally implement this interface. This advise sink is installed by calling <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfEditTransactionSink.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfEditTransactionSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfEditTransactionSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfEditTransactionSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfEditTransactionSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfEditTransactionSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">OnEndEditTransaction</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">OnEndEditTransaction</a>
 </td>
 <td align="left" width="63%">
 Indicates the end of an edit transaction.
@@ -78,7 +78,7 @@ Indicates the end of an edit transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onstartedittransaction">OnStartEditTransaction</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onstartedittransaction">OnStartEditTransaction</a>
 </td>
 <td align="left" width="63%">
 Indicates the start of an edit transaction.
@@ -89,24 +89,23 @@ Indicates the start of an edit transaction.
 
 ## -remarks
 
-An edit transaction involves multiple document locks, and usually includes multiple <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit</a> method callbacks.
+An edit transaction involves multiple document locks, and usually includes multiple <a href="/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit</a> method callbacks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit
+<a href="/windows/desktop/api/msctf/nf-msctf-itftexteditsink-onendedit">ITfTextEditSink::OnEndEdit
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

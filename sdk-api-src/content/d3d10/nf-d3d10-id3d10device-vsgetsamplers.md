@@ -51,33 +51,32 @@ api_name:
 
 ## -description
 
-Get an array of sampler states from the <a href="https://docs.microsoft.com/previous-versions/bb205146(v=vs.85)">vertex shader</a> pipeline stage.
+Get an array of sampler states from the <a href="/previous-versions/bb205146(v=vs.85)">vertex shader</a> pipeline stage.
 
 ## -parameters
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Index into the device's zero-based array to begin getting samplers from.
 
 ### -param NumSamplers [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of samplers to get from the device. Each pipeline stage has a total of 16 sampler slots available.
 
 ### -param ppSamplers [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState</a>**</b>
+Type: <b><a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState</a>**</b>
 
-Arry of sampler-state interface pointers (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState</a>) to be returned by the device.
+Arry of sampler-state interface pointers (see <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10samplerstate">ID3D10SamplerState</a>) to be returned by the device.
 
 ## -remarks
 
-Any returned interfaces will have their reference count incremented by one. Applications should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
+Any returned interfaces will have their reference count incremented by one. Applications should call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>

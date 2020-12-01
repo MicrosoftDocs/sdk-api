@@ -73,5 +73,4 @@ A pointer to the information returned from the opaque query.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_opaque_query">MIB_OPAQUE_QUERY</a>
-
+<a href="/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_opaque_query">MIB_OPAQUE_QUERY</a>

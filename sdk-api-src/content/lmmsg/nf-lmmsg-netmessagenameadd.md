@@ -166,20 +166,19 @@ The forward action flag is no longer a parameter to the LAN Manager 2.<i>x</i><b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/message-functions">Message
+<a href="/windows/desktop/NetMgmt/message-functions">Message
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenamedel">NetMessageNameDel</a>
+<a href="/windows/desktop/api/lmmsg/nf-lmmsg-netmessagenamedel">NetMessageNameDel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
-

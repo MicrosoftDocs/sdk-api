@@ -68,7 +68,7 @@ Pointer to a string that identifies the creator that an application is requestin
 
 ### -param phPeerEnum [out]
 
-Receives a handle to an enumeration. Supply the handle to all calls to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnextitem">PeerGraphGetNextItem</a>. When a handle is not needed, free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphendenumeration">PeerGraphEndEnumeration</a>.
+Receives a handle to an enumeration. Supply the handle to all calls to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetnextitem">PeerGraphGetNextItem</a>. When a handle is not needed, free it by calling <a href="/windows/desktop/api/p2p/nf-p2p-peergraphendenumeration">PeerGraphEndEnumeration</a>.
 
 ## -returns
 
@@ -119,7 +119,7 @@ The handle to a peer graph is invalid.
 </dl>
 </td>
 <td width="60%">
-A graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
+A graph must be  initialized with a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -131,29 +131,28 @@ A graph must be  initialized with a call to <a href="https://docs.microsoft.com/
 <li>If both the <i>pRecordType</i> and <i>pwzPeerId</i> parameters are  <b>NULL</b>, all records are returned.</li>
 </ul>
 <ul>
-<li>For simple enumeration tasks, use the <b>PeerGraphEnumRecords</b> function, because it is more efficient than the  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphsearchrecords">PeerGraphSearchRecords</a> function. For complex enumeration and filtering tasks such as heuristic searches of the database,  use the <b>PeerGraphSearchRecords</b> function. </li>
+<li>For simple enumeration tasks, use the <b>PeerGraphEnumRecords</b> function, because it is more efficient than the  <a href="/windows/desktop/api/p2p/nf-p2p-peergraphsearchrecords">PeerGraphSearchRecords</a> function. For complex enumeration and filtering tasks such as heuristic searches of the database,  use the <b>PeerGraphSearchRecords</b> function. </li>
 </ul>
 <ul>
-<li>When <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnextitem">PeerGraphGetNextItem</a> is called with the handle that   <b>PeerGraphEnumRecords</b>  returns, <b>PeerGraphGetNextItem</b>  returns the data in the  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure.</li>
+<li>When <a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetnextitem">PeerGraphGetNextItem</a> is called with the handle that   <b>PeerGraphEnumRecords</b>  returns, <b>PeerGraphGetNextItem</b>  returns the data in the  <a href="/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a> structure.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphendenumeration">PeerGraphEndEnumeration</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphendenumeration">PeerGraphEndEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetitemcount">PeerGraphGetItemCount</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetitemcount">PeerGraphGetItemCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphgetnextitem">PeerGraphGetNextItem</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetnextitem">PeerGraphGetNextItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphsearchrecords">PeerGraphSearchRecords</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphsearchrecords">PeerGraphSearchRecords</a>

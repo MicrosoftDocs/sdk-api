@@ -54,14 +54,14 @@ The
 <b>DeviceSpecific</b> method enables service providers to provide access to features not offered by other TAPI functions. The meaning of the extensions are device specific, and taking advantage of these extensions requires the application to be fully aware of them.
 
 This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-devicespecificvariant">DeviceSpecificVariant</a> method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-devicespecificvariant">DeviceSpecificVariant</a> method.
 
 ## -parameters
 
 ### -param pCall [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface of the call object.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface of the call object.
 
 ### -param pParams [in]
 
@@ -117,17 +117,16 @@ Insufficient memory exists to perform the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-devicespecificvariant">DeviceSpecificVariant</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-devicespecificvariant">DeviceSpecificVariant</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-negotiateextversion">NegotiateExtVersion</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress2-negotiateextversion">NegotiateExtVersion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedevspecific">lineDevSpecific</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linedevspecific">lineDevSpecific</a>

@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Identifies the type of information returned by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a> function. Not all memory 
+    <a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a> function. Not all memory 
     failures will cause a callback; for example if the failure is within a stack then the failure is considered to be 
     unrecoverable and the minidump will fail.
 
@@ -244,5 +244,4 @@ The callback function allows the callee to alter the buffer contents with data f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
-
+<a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>

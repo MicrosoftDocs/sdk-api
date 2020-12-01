@@ -67,11 +67,10 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 Provided for Windows Runtime language projections.
 
-Custom IBuffer implementations are expected to be marshaled so that the remote instance eventually copies its contents back to the original instance. The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> implementation provided by this method handles the copy by marshaling the current value of the IBuffer and specifying a platform-provided unmarshal COM class that creates an instance with identical IBuffer contents, length, and capacity.  
+Custom IBuffer implementations are expected to be marshaled so that the remote instance eventually copies its contents back to the original instance. The <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> implementation provided by this method handles the copy by marshaling the current value of the IBuffer and specifying a platform-provided unmarshal COM class that creates an instance with identical IBuffer contents, length, and capacity.  
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> implementation clones its contents to the original instance when the caller sets the Length property.
+The <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a> implementation clones its contents to the original instance when the caller sets the Length property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>

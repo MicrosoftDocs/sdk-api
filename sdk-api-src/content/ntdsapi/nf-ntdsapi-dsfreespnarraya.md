@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>DsFreeSpnArray</b> function frees an array returned from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSpn</a> function.
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSpn</a> function.
 
 ## -parameters
 
@@ -63,18 +63,17 @@ Specifies the number of elements contained in <i>rpszSpn</i>.
 
 ### -param rpszSpn [in]
 
-Pointer to an array returned from <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSpn</a>.
+Pointer to an array returned from <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSpn</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSpn</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSpn</a>
 
 ## -remarks
 
 > [!NOTE]
 > The ntdsapi.h header defines DsFreeSpnArray as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

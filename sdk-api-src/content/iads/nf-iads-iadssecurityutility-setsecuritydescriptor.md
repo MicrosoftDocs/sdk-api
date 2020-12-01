@@ -151,13 +151,12 @@ Cleanup:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadssecurityutility-convertsecuritydescriptor">ConvertSecurityDescriptor</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadssecurityutility-convertsecuritydescriptor">ConvertSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>

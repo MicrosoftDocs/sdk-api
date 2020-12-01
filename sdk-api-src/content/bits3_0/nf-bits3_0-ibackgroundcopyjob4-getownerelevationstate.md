@@ -83,11 +83,10 @@ Success
 
 ## -remarks
 
-For details on elevated tokens, see <a href="https://docs.microsoft.com/windows/desktop/Bits/user-account-control-and-bits">User Account Control and BITS</a>.
+For details on elevated tokens, see <a href="/windows/desktop/Bits/user-account-control-and-bits">User Account Control and BITS</a>.
 
 Note that if the job was created with an elevated token, all subsequent updates to the job must be done with an elevated token.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyjob4">IBackgroundCopyJob4</a>
-
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyjob4">IBackgroundCopyJob4</a>

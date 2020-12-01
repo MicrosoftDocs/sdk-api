@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Provides extended information about a partition on a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resource.
+Provides extended information about a partition on a  <a href="/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resource.
 <ul>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul><h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ClusPartitionEx</b> object has these properties.
@@ -64,7 +64,7 @@ Provides extended information about a partition on a  <a href="https://docs.micr
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluspartitionex-devicenumber">DeviceNumber</a>
+<a href="/previous-versions/windows/desktop/mscs/cluspartitionex-devicenumber">DeviceNumber</a>
 
 
 </td>
@@ -80,7 +80,7 @@ Gets the device number of the partition.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluspartitionex-freespace">FreeSpace</a>
+<a href="/previous-versions/windows/desktop/mscs/cluspartitionex-freespace">FreeSpace</a>
 
 
 </td>
@@ -96,7 +96,7 @@ Gets the total disk space available to the partition in megabytes.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluspartitionex-partitionnumber">PartitionNumber</a>
+<a href="/previous-versions/windows/desktop/mscs/cluspartitionex-partitionnumber">PartitionNumber</a>
 
 
 </td>
@@ -112,7 +112,7 @@ Gets the partition number of the partition.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluspartitionex-totalsize">TotalSize</a>
+<a href="/previous-versions/windows/desktop/mscs/cluspartitionex-totalsize">TotalSize</a>
 
 
 </td>
@@ -128,7 +128,7 @@ Gets the total size of the partition in megabytes.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluspartitionex-volumeguid">VolumeGuid</a>
+<a href="/previous-versions/windows/desktop/mscs/cluspartitionex-volumeguid">VolumeGuid</a>
 
 
 </td>
@@ -145,9 +145,8 @@ Gets the volume <b>GUID</b> of the partition.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msclus/nn-msclus-iscluspartitionex">ClusPartition</a>
+<a href="/previous-versions/windows/desktop/api/msclus/nn-msclus-iscluspartitionex">ClusPartition</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/disk-management-objects">Disk Management Objects</a>
-
+<a href="/previous-versions/windows/desktop/mscs/disk-management-objects">Disk Management Objects</a>

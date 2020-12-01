@@ -88,9 +88,8 @@ This enumeration is used by the <b>TimedLevel</b> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/effects/ns-effects-timedlevel">TimedLevel</a>
+<a href="/previous-versions/windows/desktop/api/effects/ns-effects-timedlevel">TimedLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/visualization-structures-and-enumeration-types">Visualization Structures and Enumeration Types</a>
-
+<a href="/windows/desktop/WMP/visualization-structures-and-enumeration-types">Visualization Structures and Enumeration Types</a>

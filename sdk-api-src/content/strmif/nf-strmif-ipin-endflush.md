@@ -101,20 +101,19 @@ When this method is called, the filter performs the following actions:
 <ol>
 <li>Waits for all queued samples to be discarded.</li>
 <li>Frees any buffered data, including any pending end-of-stream notifications.</li>
-<li>Clears any pending <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-complete">EC_COMPLETE</a> notifications.</li>
+<li>Clears any pending <a href="/windows/desktop/DirectShow/ec-complete">EC_COMPLETE</a> notifications.</li>
 <li>Calls <code>EndFlush</code> downstream.</li>
 </ol>
 When the method returns, the pin can accept new samples.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
+<a href="/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>

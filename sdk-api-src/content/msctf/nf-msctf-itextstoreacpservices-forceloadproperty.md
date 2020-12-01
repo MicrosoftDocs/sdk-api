@@ -56,7 +56,7 @@ Forces all values of an asynchronously loaded property to be loaded.
 
 ### -param pProp [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a> object that specifies the property to load.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a> object that specifies the property to load.
 
 ## -returns
 
@@ -109,4 +109,3 @@ When calling this method, the application must be able to grant a synchronous re
 ## -see-also
 
 [ITextStoreACPServices interface](nn-msctf-itextstoreacpservices.md), [ITextStoreACPServices::Unserialize](nf-msctf-itextstoreacpservices-unserialize.md), [ITfPersistentPropertyLoaderACP interface](nn-msctf-itfpersistentpropertyloaderacp.md), [ITfProperty interface](nn-msctf-itfproperty.md)
-

@@ -60,7 +60,7 @@ The text to check.
 
 ### -param value [out, retval]
 
-The result of checking this text, returned as an <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a> object.
+The result of checking this text, returned as an <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a> object.
 
 ## -returns
 
@@ -108,13 +108,12 @@ Successful.
 
 ## -remarks
 
-The returned <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a> should contain the results of spell checking. A correct <i>text</i> should return an empty (not a null) enumeration.
+The returned <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a> should contain the results of spell checking. A correct <i>text</i> should return an empty (not a null) enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a>
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellingerror">IEnumSpellingError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
-
+<a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>

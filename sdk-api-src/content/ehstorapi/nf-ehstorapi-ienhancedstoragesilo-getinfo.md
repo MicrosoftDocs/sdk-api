@@ -56,7 +56,7 @@ Returns the descriptive information associated with the silo object.
 
 ### -param pSiloInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ehstorapi/ns-ehstorapi-silo_info">SILO_INFO</a> object containing descriptive information associated with the silo.
+Pointer to a <a href="/windows/desktop/api/ehstorapi/ns-ehstorapi-silo_info">SILO_INFO</a> object containing descriptive information associated with the silo.
 
 ## -returns
 
@@ -82,5 +82,4 @@ Silo information was retrieved successfully.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>
-
+<a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies overlay support to check for in a call to <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgioutput3-checkoverlaysupport">IDXGIOutput3::CheckOverlaySupport</a>.
+Specifies overlay support to check for in a call to <a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgioutput3-checkoverlaysupport">IDXGIOutput3::CheckOverlaySupport</a>.
 
 ## -enum-fields
 
@@ -64,5 +64,4 @@ Scaling overlay support.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
-
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>

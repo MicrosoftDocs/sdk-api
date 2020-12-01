@@ -45,9 +45,6 @@ api_name:
  - FEATURE_ENABLED_STATE
 ---
 
-# FEATURE_ENABLED_STATE enumeration
-
-
 ## -description
 
 This enumeration is intended for infrastructure use only. Do not use this enumeration.
@@ -56,9 +53,12 @@ This enumeration is intended for infrastructure use only. Do not use this enumer
 
 ### -field FEATURE_ENABLED_STATE_DEFAULT
 
+TBD
+
 ### -field FEATURE_ENABLED_STATE_DISABLED
+
+TBD
 
 ### -field FEATURE_ENABLED_STATE_ENABLED
 
-#### - FEATURE_ENABLED_STATE_HAS_NOTIFICATION
-
+TBD

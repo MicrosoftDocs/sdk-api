@@ -52,23 +52,22 @@ api_name:
 ## -description
 
 The <b>Font::Clone</b> method creates a new 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object based on this 
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object based on this 
 			<b>Font</b> object.
 
 ## -parameters
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>*</b>
+Type: <b><a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>*</b>
 
 This method returns a pointer to the new 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object.
+						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>

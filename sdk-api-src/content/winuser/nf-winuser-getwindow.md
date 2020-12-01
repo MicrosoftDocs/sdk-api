@@ -53,6 +53,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - GetWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetWindow function
@@ -60,7 +61,7 @@ api_name:
 
 ## -description
 
-Retrieves a handle to a window that has the specified relationship (<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Z-Order</a> or owner) to the specified window.
+Retrieves a handle to a window that has the specified relationship (<a href="/windows/desktop/winmsg/window-features">Z-Order</a> or owner) to the specified window.
 
 ## -parameters
 
@@ -162,7 +163,7 @@ If the specified window is a topmost window, the handle identifies a topmost win
 </dl>
 </td>
 <td width="60%">
-The retrieved handle identifies the specified window's owner window, if any. For more information, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Owned Windows</a>. 
+The retrieved handle identifies the specified window's owner window, if any. For more information, see <a href="/windows/desktop/winmsg/window-features">Owned Windows</a>. 
 
 </td>
 </tr>
@@ -172,11 +173,11 @@ The retrieved handle identifies the specified window's owner window, if any. For
 
 Type: <b>HWND</b>
 
-If the function succeeds, the return value is a window handle. If no window exists with the specified relationship to the specified window, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value is a window handle. If no window exists with the specified relationship to the specified window, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumchildwindows">EnumChildWindows</a> function is more reliable than calling <b>GetWindow</b> in a loop. An application that calls <b>GetWindow</b> to perform this task risks being caught in an infinite loop or referencing a handle to a window that has been destroyed.
+The <a href="/windows/desktop/api/winuser/nf-winuser-enumchildwindows">EnumChildWindows</a> function is more reliable than calling <b>GetWindow</b> in a loop. An application that calls <b>GetWindow</b> to perform this task risks being caught in an infinite loop or referencing a handle to a window that has been destroyed.
 
 ## -see-also
 
@@ -184,7 +185,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-e
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumchildwindows">EnumChildWindows</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumchildwindows">EnumChildWindows</a>
 
 
 
@@ -192,5 +193,4 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-e
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

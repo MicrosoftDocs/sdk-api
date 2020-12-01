@@ -56,7 +56,7 @@ The <b>RegisterSessionNotification</b> method registers the application to recei
 
 ### -param SessionNotification
 
-A pointer to the application's implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a> interface. If the method call succeeds, it calls the <b>AddRef</b> method on the application's <b>IAudioSessionNotification</b> interface.
+A pointer to the application's implementation of the <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a> interface. If the method call succeeds, it calls the <b>AddRef</b> method on the application's <b>IAudioSessionNotification</b> interface.
 
 ## -returns
 
@@ -94,14 +94,14 @@ Internal object could not be created due to insufficient memory.
 
 ## -remarks
 
-The application can register to receive a notification  when a session is created, through the methods  of the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a> interface.  The application implements the <b>IAudioSessionNotification</b> interface. The methods defined in this interface receive callbacks from the  system when a session is created. For example code that shows how to implement this interface, see 
+The application can register to receive a notification  when a session is created, through the methods  of the <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a> interface.  The application implements the <b>IAudioSessionNotification</b> interface. The methods defined in this interface receive callbacks from the  system when a session is created. For example code that shows how to implement this interface, see 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification Interface</a>.
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification Interface</a>.
 
-To begin receiving notifications, the application calls the <b>IAudioSessionManager2::RegisterSessionNotification</b> method to register its <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a> interface. When the application no longer requires notifications, it calls the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-unregistersessionnotification">IAudioSessionManager2::UnregisterSessionNotification</a> method to delete the registration.
+To begin receiving notifications, the application calls the <b>IAudioSessionManager2::RegisterSessionNotification</b> method to register its <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a> interface. When the application no longer requires notifications, it calls the <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager2-unregistersessionnotification">IAudioSessionManager2::UnregisterSessionNotification</a> method to delete the registration.
 
 > [!Important]
-> You must call [IAudioSessionEnumerator::GetCount](https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionenumerator-getcount) to begin receiving notifications. The session enumeration API discards new session notifications until the application has first retrieved the list of existing sessions. This is to prevent a race condition that can occur when a session notification arrives while the application using the session APIs is starting up. Calling **GetCount** triggers the enumeration API to begin sending session notifications.
+> You must call [IAudioSessionEnumerator::GetCount](/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionenumerator-getcount) to begin receiving notifications. The session enumeration API discards new session notifications until the application has first retrieved the list of existing sessions. This is to prevent a race condition that can occur when a session notification arrives while the application using the session APIs is starting up. Calling **GetCount** triggers the enumeration API to begin sending session notifications.
 
 <div class="alert"><b>Note</b>  Make sure that the application initializes COM with Multithreaded Apartment (MTA) model by calling <code>CoInitializeEx(NULL, COINIT_MULTITHREADED)</code> in a non-UI thread. If MTA is not initialized, the application does not receive session notifications from the session manager. 
 Threads that run the user interface of an application should be initialized apartment threading model.
@@ -111,5 +111,4 @@ Threads that run the user interface of an application should be initialized apar
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager2">IAudioSessionManager2</a>
-
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager2">IAudioSessionManager2</a>

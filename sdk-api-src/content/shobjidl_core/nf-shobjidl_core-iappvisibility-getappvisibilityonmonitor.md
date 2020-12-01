@@ -86,9 +86,8 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility">IAppVisibility</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility">IAppVisibility</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-monitor_app_visibility">MONITOR_APP_VISIBILITY</a>
-
+<a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-monitor_app_visibility">MONITOR_APP_VISIBILITY</a>

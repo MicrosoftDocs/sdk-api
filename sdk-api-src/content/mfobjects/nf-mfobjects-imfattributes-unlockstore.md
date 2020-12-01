@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Unlocks the attribute store after a call to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-lockstore">IMFAttributes::LockStore</a> method. While the object is unlocked, multiple threads can access the object's attributes.
+Unlocks the attribute store after a call to the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-lockstore">IMFAttributes::LockStore</a> method. While the object is unlocked, multiple threads can access the object's attributes.
 
 ## -parameters
 
@@ -88,9 +88,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>

@@ -114,9 +114,8 @@ The Mobile Broadband service is not running on this system.
 
 ## -remarks
 
-This is an asynchronous operation.  The Mobile Broadband service will notify the calling application by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanagerevents-onconnectionprofileremoval">OnConnectionProfileRemoval</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanagerevents">IMbnConnectionProfileManagerEvents</a> interface.
+This is an asynchronous operation.  The Mobile Broadband service will notify the calling application by calling the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanagerevents-onconnectionprofileremoval">OnConnectionProfileRemoval</a> method of the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanagerevents">IMbnConnectionProfileManagerEvents</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a>

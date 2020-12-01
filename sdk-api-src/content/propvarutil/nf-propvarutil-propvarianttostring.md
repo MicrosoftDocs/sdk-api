@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extracts a string value from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Extracts a string value from a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Extracts a string value from a <a href="https://docs.microsoft.com/windows/deskt
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Reference to a source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param psz [out]
 
@@ -120,23 +120,23 @@ The extraction failed for some other reason.
 
 ## -remarks
 
-This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a string value. For instance, an application obtaining values from a property store can use this to safely extract a string value for string properties.
+This helper function is used in places where the calling application expects a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a string value. For instance, an application obtaining values from a property store can use this to safely extract a string value for string properties.
 
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type VT_LPWSTR or <b>VT_BSTR</b>, this function extracts the string and places it into the provided buffer. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a string. If a conversion is not possible, <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostring">PropVariantToString</a> will return a failure code and set <i>psz</i> to '\0'. See <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a> for a list of possible conversions. Of note, <b>VT_EMPTY</b> is successfully converted to "".
+If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type VT_LPWSTR or <b>VT_BSTR</b>, this function extracts the string and places it into the provided buffer. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a string. If a conversion is not possible, <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostring">PropVariantToString</a> will return a failure code and set <i>psz</i> to '\0'. See <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a> for a list of possible conversions. Of note, <b>VT_EMPTY</b> is successfully converted to "".
 
-In addition to the terminating <b>NULL</b>, at most <i>cch</i>-1 characters are written into the buffer pointed to by <i>psz</i>. If the value in the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> is longer than will fit into the buffer, a truncated <b>NULL</b> Terminated copy of the string is written to the buffer and this function returns <b>STRSAFE_E_INSUFFICIENT_BUFFER</b>. The resulting string will always be <b>NULL</b> terminated.
+In addition to the terminating <b>NULL</b>, at most <i>cch</i>-1 characters are written into the buffer pointed to by <i>psz</i>. If the value in the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> is longer than will fit into the buffer, a truncated <b>NULL</b> Terminated copy of the string is written to the buffer and this function returns <b>STRSAFE_E_INSUFFICIENT_BUFFER</b>. The resulting string will always be <b>NULL</b> terminated.
 
-In addition to the conversions provided by <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a>, the following special cases apply to <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostring">PropVariantToString</a>. 
+In addition to the conversions provided by <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a>, the following special cases apply to <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostring">PropVariantToString</a>. 
             
 
 <ul>
-<li>Vector-valued <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>s are converted to strings by separating each element with using "; ". For example, <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostring">PropVariantToString</a> converts a vector of 3 integers, {3, 1, 4}, to the string "3; 1; 4". The semicolon is independent of the current locale.</li>
+<li>Vector-valued <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>s are converted to strings by separating each element with using "; ". For example, <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostring">PropVariantToString</a> converts a vector of 3 integers, {3, 1, 4}, to the string "3; 1; 4". The semicolon is independent of the current locale.</li>
 <li>VT_BLOB, VT_STREAM, VT_STREAMED_OBJECT, and VT_UNKNOWN values are converted to strings using an unsupported encoding. It is not possible to decode strings created in this way and the format may change in the future.</li>
 </ul>
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostring">PropVariantToString</a> to access a string value in a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostring">PropVariantToString</a> to access a string value in a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
 
 
 ```cpp
@@ -187,29 +187,28 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstring">InitPropVariantFromString</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstring">InitPropVariantFromString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetstringelem">PropVariantGetStringElem</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetstringelem">PropVariantGetStringElem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttobstr">PropVariantToBSTR</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttobstr">PropVariantToBSTR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostringalloc">PropVariantToStringAlloc</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostringalloc">PropVariantToStringAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostringvector">PropVariantToStringVector</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostringvector">PropVariantToStringVector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttostring">VariantToString</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttostring">VariantToString</a>

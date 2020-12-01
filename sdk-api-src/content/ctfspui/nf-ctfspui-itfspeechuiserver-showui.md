@@ -82,6 +82,5 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfspui/nn-ctfspui-itfspeechuiserver">ITfSpeechUIServer
+<a href="/windows/desktop/api/ctfspui/nn-ctfspui-itfspeechuiserver">ITfSpeechUIServer
       </a>
-

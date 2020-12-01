@@ -49,17 +49,17 @@ api_name:
 
 ## -description
 
-Test the [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox) for intersection with a <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+Test the [BoundingBox](./ns-directxcollision-boundingbox.md) for intersection with a <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ## -parameters
 
 ### -param box [in, ref]
 
-The <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> to test for intersection.
+The <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> to test for intersection.
 
 ## -returns
 
-A boolean value indicating whether the [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox) intersects the specified <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+A boolean value indicating whether the [BoundingBox](./ns-directxcollision-boundingbox.md) intersects the specified <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ## -remarks
 
@@ -68,7 +68,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-[BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox)
+[BoundingBox](./ns-directxcollision-boundingbox.md)
 
 
 
@@ -77,4 +77,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

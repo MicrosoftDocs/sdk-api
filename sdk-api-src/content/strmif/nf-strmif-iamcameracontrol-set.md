@@ -57,7 +57,7 @@ The <b>Set</b> method sets a specified property on the camera.
 
 ### -param Property [in]
 
-Specifies the property to set, as a value from the [CameraControlProperty](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-cameracontrolproperty) enumeration.
+Specifies the property to set, as a value from the [CameraControlProperty](/windows/desktop/api/strmif/ne-strmif-cameracontrolproperty) enumeration.
 
 ### -param lValue [in]
 
@@ -65,7 +65,7 @@ Specifies the new value of the property.
 
 ### -param Flags [in]
 
-Specifies the desired control setting, as a member of the [CameraControlFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-cameracontrolflags) enumeration.
+Specifies the desired control setting, as a member of the [CameraControlFlags](/windows/desktop/api/strmif/ne-strmif-cameracontrolflags) enumeration.
 
 ## -returns
 
@@ -77,17 +77,16 @@ If the <i>Flags</i> parameter is <b>CameraControl_Flags_Auto</b>, the method ign
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
+<a href="/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcameracontrol">IAMCameraControl Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamcameracontrol">IAMCameraControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamcameracontrol-get">IAMCameraControl::Get</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamcameracontrol-get">IAMCameraControl::Get</a>

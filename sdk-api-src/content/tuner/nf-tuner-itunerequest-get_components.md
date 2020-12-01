@@ -56,7 +56,7 @@ The <b>get_Components</b> method retrieves the components contained in this tune
 
 ### -param Components [out]
 
-Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponents">IComponents</a> interface pointer. The caller must release the interface.
+Receives an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponents">IComponents</a> interface pointer. The caller must release the interface.
 
 ## -returns
 
@@ -66,11 +66,10 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 A tune request always contains a collection of components, but the collection can be empty. If the component information is present in the transport stream tables, a Guide Store loader can obtain the information from the TIF and include it in the tune request at the time it creates it.
 
-If the method succeeds, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponents">IComponents</a> interface has an outstanding reference count. The caller must release the interface.
+If the method succeeds, the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponents">IComponents</a> interface has an outstanding reference count. The caller must release the interface.
 
-After a tune request is submitted to the Network Provider filter, the Network Provider updates the component lists in the tune request. You can get the updated component list by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ituner-get_tunerequest">ITuner::get_TuneRequest</a> on the Network Provider, and then calling <b>get_Components</b> on the returned tune request. (The original tune request that was submitted to the Network Provider does not get updated, because the Network Provider creates an internal copy of the tune request. Therefore, you have to call <b>get_TuneRequest</b> to get the updated component list.)
+After a tune request is submitted to the Network Provider filter, the Network Provider updates the component lists in the tune request. You can get the updated component list by calling <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ituner-get_tunerequest">ITuner::get_TuneRequest</a> on the Network Provider, and then calling <b>get_Components</b> on the returned tune request. (The original tune request that was submitted to the Network Provider does not get updated, because the Network Provider creates an internal copy of the tune request. Therefore, you have to call <b>get_TuneRequest</b> to get the updated component list.)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest Interface</a>

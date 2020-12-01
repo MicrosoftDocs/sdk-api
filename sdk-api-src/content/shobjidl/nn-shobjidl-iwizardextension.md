@@ -54,7 +54,7 @@ Used by wizards such as the Web Publishing Wizard and Online Print Ordering Wiza
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWizardExtension</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWizardExtension</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWizardExtension</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWizardExtension</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IWizardExtension</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-addpages">AddPages</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-addpages">AddPages</a>
 </td>
 <td align="left" width="63%">
-Adds extension pages to the wizard by filling an array with handles to <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structures representing those pages.
+Adds extension pages to the wizard by filling an array with handles to <a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structures representing those pages.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-getfirstpage">GetFirstPage</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-getfirstpage">GetFirstPage</a>
 </td>
 <td align="left" width="63%">
 Gets a handle to the first page of the wizard extension.
@@ -87,7 +87,7 @@ Gets a handle to the first page of the wizard extension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-getlastpage">GetLastPage</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-getlastpage">GetLastPage</a>
 </td>
 <td align="left" width="63%">
 Gets a handle to the final page of the wizard extension pages.
@@ -98,5 +98,4 @@ Gets a handle to the final page of the wizard extension pages.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iwebwizardextension">IWebWizardExtension</a>
-
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-iwebwizardextension">IWebWizardExtension</a>

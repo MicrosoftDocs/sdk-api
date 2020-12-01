@@ -58,17 +58,17 @@ The <b>FwpmCalloutAdd0</b> function adds a new callout object to the system.
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call  <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call  <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 ### -param callout [in]
 
-Type: [FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)*</b>
+Type: [FWPM_CALLOUT0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)*</b>
 
 The callout object to be added.
 
 ### -param sd [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">PSECURITY_DESCRIPTOR</a></b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">PSECURITY_DESCRIPTOR</a></b>
 
 The security information associated with the callout.
 
@@ -120,7 +120,7 @@ FWPM_TUNNEL_FLAG_POINT_TO_POINT was not set and conditions other than local/remo
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -140,32 +140,31 @@ Failure to communicate with the remote or local firewall engine.
 
 ## -remarks
 
-Some fields in the [FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0) structure are assigned by the system, not the caller, and are ignored in the call to <b>FwpmCalloutAdd0</b>. If the caller supplies a null security descriptor, the system will assign a default security descriptor.
+Some fields in the [FWPM_CALLOUT0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0) structure are assigned by the system, not the caller, and are ignored in the call to <b>FwpmCalloutAdd0</b>. If the caller supplies a null security descriptor, the system will assign a default security descriptor.
 
 This function cannot be called from within a read-only transaction. It will fail
-with <b>FWP_E_INCOMPATIBLE_TXN</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
+with <b>FWP_E_INCOMPATIBLE_TXN</b>. See <a href="/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
 
-The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_ADD</a> access to the callout's container, 
+The caller needs <a href="/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_ADD</a> access to the callout's container, 
    <b>FWPM_ACTRL_ADD_LINK </b> access to the provider (if any), and 
-   <b>FWPM_ACTRL_ADD_LINK </b> access to the applicable layer. See <a href="https://docs.microsoft.com/windows/desktop/FWP/access-control">Access Control</a> for more information.
+   <b>FWPM_ACTRL_ADD_LINK </b> access to the applicable layer. See <a href="/windows/desktop/FWP/access-control">Access Control</a> for more information.
 
 To add a filter that references a callout, invoke the functions in the following order.
 
 <ul>
-<li>Call <a href="https://msdn.microsoft.com/library/ff551140.aspx">FwpsCalloutRegister</a> (documented in the Windows Driver Kit (WDK)), to register the callout with the filter engine.</li>
+<li>Call <a href="/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister</a> (documented in the Windows Driver Kit (WDK)), to register the callout with the filter engine.</li>
 <li>Call <b>FwpmCalloutAdd0</b> to add the callout to the system.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfilteradd0">FwpmFilterAdd0</a> to add the filter that references the callout to the system.</li>
+<li>Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfilteradd0">FwpmFilterAdd0</a> to add the filter that references the callout to the system.</li>
 </ul>
   
 By default filters that reference callouts that have been added but have not yet registered with the filter engine are treated as Block filters.
 
-<b>FwpmCalloutAdd0</b> is a specific implementation of FwpmCalloutAdd. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FwpmCalloutAdd0</b> is a specific implementation of FwpmCalloutAdd. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[FWPM_CALLOUT0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)
+[FWPM_CALLOUT0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_callout0)
 
 
 
-<a href="https://msdn.microsoft.com/library/ff550067.aspx">Kernel-Mode FwpmCalloutAdd0</a>
-
+<a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutadd0">Kernel-Mode FwpmCalloutAdd0</a>

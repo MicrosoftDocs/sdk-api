@@ -58,7 +58,7 @@ Informs Windows Explorer to browse to another folder.
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> (item identifier list) structure that specifies an object's location. This value is dependent on the flag or flags set in the <i>wFlags</i> parameter.
+The address of an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> (item identifier list) structure that specifies an object's location. This value is dependent on the flag or flags set in the <i>wFlags</i> parameter.
 
 ### -param wFlags
 
@@ -312,5 +312,4 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>

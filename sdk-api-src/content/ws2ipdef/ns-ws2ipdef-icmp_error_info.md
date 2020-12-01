@@ -57,7 +57,7 @@ Used to store received ICMP error information.
 
 ### -field srcaddress
 
-Type: **[SOCKADDR_INET](/windows/win32/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet)**
+Type: **[SOCKADDR_INET](./ns-ws2ipdef-sockaddr_inet.md)**
 
 The source IP address of the ICMP error.
 
@@ -82,4 +82,3 @@ The ICMP error code.
 ## -remarks
 
 ## -see-also
-

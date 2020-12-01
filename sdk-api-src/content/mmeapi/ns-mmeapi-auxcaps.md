@@ -60,7 +60,7 @@ The <b>AUXCAPS</b> structure describes the capabilities of an auxiliary output d
 
 ### -field wMid
 
-Manufacturer identifier for the device driver for the auxiliary audio device. Manufacturer identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
+Manufacturer identifier for the device driver for the auxiliary audio device. Manufacturer identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field wPid
 
@@ -138,4 +138,3 @@ Supports volume control.
  
 
 If a device supports volume changes, the AUXCAPS_VOLUME flag will be set. If a device supports separate volume changes on the left and right channels, both AUXCAPS_VOLUME and the AUXCAPS_LRVOLUME will be set.
-

@@ -88,13 +88,12 @@ By default, <b>CM_Disable_DevNode</b> disables a device at one time, but after r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enable_devnode">CM_Enable_DevNode</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enable_devnode">CM_Enable_DevNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-propertychange">DIF_PROPERTYCHANGE</a>
+<a href="/windows-hardware/drivers/install/dif-propertychange">DIF_PROPERTYCHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>

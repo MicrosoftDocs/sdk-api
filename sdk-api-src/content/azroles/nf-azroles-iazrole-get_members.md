@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>Members</b> property retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs), in text form, of Windows  accounts that belong to the role.
+The <b>Members</b> property retrieves the <a href="/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs), in text form, of Windows  accounts that belong to the role.
 
 This property is read-only.
 
@@ -60,5 +60,4 @@ This property is read-only.
 
 ## -remarks
 
-In  JScript, the returned <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="https://docs.microsoft.com/scripting/javascript/reference/array-object-javascript">Array</a> object.
-
+In  JScript, the returned <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="/scripting/javascript/reference/array-object-javascript">Array</a> object.

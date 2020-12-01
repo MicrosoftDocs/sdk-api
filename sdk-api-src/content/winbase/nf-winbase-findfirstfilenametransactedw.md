@@ -54,11 +54,11 @@ api_name:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Creates an enumeration of all the hard links to the specified file as a transacted operation. The 
     function returns a handle to the enumeration that can be used on subsequent calls to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew">FindNextFileNameW</a> function.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew">FindNextFileNameW</a> function.
 
 ## -parameters
 
@@ -87,16 +87,16 @@ A pointer to a buffer to store the first link name found for <i>lpFileName</i>.
 ### -param hTransaction [in, optional]
 
 A handle to the transaction. This handle is returned by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
+       <a href="/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is a search handle that can be used with the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew">FindNextFileNameW</a> function or closed with the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a> function.
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew">FindNextFileNameW</a> function or closed with the 
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a> function.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b> (0xffffffff). To  
-      get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
+      get extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
       function.
 
 ## -remarks
@@ -165,17 +165,16 @@ SMB 3.0 does not support TxF.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew">FindNextFileNameW</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew">FindNextFileNameW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
-
+<a href="/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>

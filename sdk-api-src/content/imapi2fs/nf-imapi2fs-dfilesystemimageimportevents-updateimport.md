@@ -56,11 +56,11 @@ Receives import notification for every file and directory item imported from an 
 
 ### -param object [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage3">IFilesystemImage3</a> interface of a file system image object to which data is being imported.
+Pointer to an <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage3">IFilesystemImage3</a> interface of a file system image object to which data is being imported.
 
 ### -param fileSystem [in]
 
-Type of the file system currently being imported. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a> enumeration type.
+Type of the file system currently being imported. For possible values, see the <a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a> enumeration type.
 
 ### -param currentItem [in]
 
@@ -92,10 +92,10 @@ Notifications are sent in response to calling one of the following methods for i
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem">IFileSystemImage::ImportFileSystem</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem">IFileSystemImage::ImportFileSystem</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem">IFileSystemImage::ImportSpecificFileSystem</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem">IFileSystemImage::ImportSpecificFileSystem</a>
 </li>
 </ul>
 UpdateImport method receives import notifications from ISO9660, Joliet and UDF file systems. A notification is sent:
@@ -112,5 +112,4 @@ If the <i>currentItem</i> is a directory, it contains a back slash '\' at the en
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-dfilesystemimageimportevents">DFileSystemImageImportEvents</a>
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-dfilesystemimageimportevents">DFileSystemImageImportEvents</a>

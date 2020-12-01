@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information about an output stream on a Media Foundation transform (MFT). To get these values, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo">IMFTransform::GetOutputStreamInfo</a>.
+Contains information about an output stream on a Media Foundation transform (MFT). To get these values, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo">IMFTransform::GetOutputStreamInfo</a>.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ Bitwise <b>OR</b> of zero or more flags from the <a href="/windows/win32/api/mft
 
 ### -field cbSize
 
-Minimum size of each output buffer, in bytes. If the MFT does not require a specific size, the value is zero. For uncompressed audio, the value should be the audio frame size, which you can get from the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-audio-block-alignment-attribute">MF_MT_AUDIO_BLOCK_ALIGNMENT</a> attribute in the media type.
+Minimum size of each output buffer, in bytes. If the MFT does not require a specific size, the value is zero. For uncompressed audio, the value should be the audio frame size, which you can get from the <a href="/windows/desktop/medfound/mf-mt-audio-block-alignment-attribute">MF_MT_AUDIO_BLOCK_ALIGNMENT</a> attribute in the media type.
 
 If the <b>dwFlags</b> member contains the MFT_OUTPUT_STREAM_PROVIDES_SAMPLES flag, the value is zero, because the MFT allocates the output buffers.
 
@@ -74,13 +74,12 @@ The memory alignment required for output buffers. If the MFT does not require a 
 
 Before the media types are set, the only values that should be considered valid is the MFT_OUTPUT_STREAM_OPTIONAL flag in the <b>dwFlags</b> member. This flag indicates that the stream is optional and does not require a media type.
 
-After you set a media type on all of the input and output streams (not including optional streams), all of the values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo">GetOutputStreamInfo</a> method are valid. They might change if you set different media types.
+After you set a media type on all of the input and output streams (not including optional streams), all of the values returned by the <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputstreaminfo">GetOutputStreamInfo</a> method are valid. They might change if you set different media types.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
-
+<a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>

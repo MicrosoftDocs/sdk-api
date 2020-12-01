@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the render intent of the next <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a> call.
+Specifies the render intent of the next <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a> call.
 
 ## -enum-fields
 
@@ -67,4 +67,3 @@ Use normal priority mode. Balance of speed and quality.
 Use best quality mode.
 
 ### -field WICRAWRENDERMODE_FORCE_DWORD
-

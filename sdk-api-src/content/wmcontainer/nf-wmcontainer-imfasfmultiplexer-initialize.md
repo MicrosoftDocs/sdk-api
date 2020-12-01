@@ -57,7 +57,7 @@ Initializes the multiplexer with the data from an ASF ContentInfo object.
 
 ### -param pIContentInfo [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface of the <b>MFASFContentInfo</b> object that contains the header information of the new ASF file. The multiplexer will generate data packets for this file.
+Pointer to the <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface of the <b>MFASFContentInfo</b> object that contains the header information of the new ASF file. The multiplexer will generate data packets for this file.
 
 ## -returns
 
@@ -87,13 +87,12 @@ This call must be made once at the beginning of encoding, with <i>pIContentInfo<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/creating-the-multiplexer-object">Creating the Multiplexer Object</a>
+<a href="/windows/desktop/medfound/creating-the-multiplexer-object">Creating the Multiplexer Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>

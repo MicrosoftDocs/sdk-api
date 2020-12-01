@@ -118,9 +118,8 @@ The following GUIDs are defined for the <i>pType</i> parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
+<a href="/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>

@@ -94,19 +94,18 @@ The video renderer has been shut down.
 
 ## -remarks
 
-By default, if the video window straddles two monitors, the enhanced video renderer (EVR) clips the video to one monitor and draws the border color on the remaining portion of the window. (To change the clipping behavior, call <a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setrenderingprefs">IMFVideoDisplayControl::SetRenderingPrefs</a>.)
+By default, if the video window straddles two monitors, the enhanced video renderer (EVR) clips the video to one monitor and draws the border color on the remaining portion of the window. (To change the clipping behavior, call <a href="/windows/desktop/api/evr/nf-evr-imfvideodisplaycontrol-setrenderingprefs">IMFVideoDisplayControl::SetRenderingPrefs</a>.)
 
-The border color is not used for letterboxing. To change the letterbox color, call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setbackgroundcolor">IMFVideoProcessor::SetBackgroundColor</a>.
+The border color is not used for letterboxing. To change the letterbox color, call <a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setbackgroundcolor">IMFVideoProcessor::SetBackgroundColor</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
+<a href="/windows/desktop/api/evr/nn-evr-imfvideodisplaycontrol">IMFVideoDisplayControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
-
+<a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>

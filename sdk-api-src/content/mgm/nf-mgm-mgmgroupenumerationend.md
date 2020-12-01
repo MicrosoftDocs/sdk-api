@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>MgmGroupEnumerationEnd</b> function releases the specified enumeration handle that was obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>.
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>.
 
 ## -parameters
 
@@ -101,9 +101,8 @@ Invalid enumeration handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationgetnext">MgmGroupEnumerationGetNext</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationgetnext">MgmGroupEnumerationGetNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>
-
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>

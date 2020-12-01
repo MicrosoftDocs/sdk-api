@@ -54,7 +54,7 @@ Exposes methods that enable a registered application to invoke the synchronizati
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrSynchronizeInvoke</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrSynchronizeInvoke</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrSynchronizeInvoke</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrSynchronizeInvoke</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncMgrSynchronizeInvoke</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateall">UpdateAll</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateall">UpdateAll</a>
 </td>
 <td align="left" width="63%">
 Programmatically starts an update for all items.
@@ -78,7 +78,7 @@ Programmatically starts an update for all items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems">UpdateItems</a>
+<a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems">UpdateItems</a>
 </td>
 <td align="left" width="63%">
 Programmatically starts an update for specified items.
@@ -94,4 +94,3 @@ This interface is implemented by the synchronization manager.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 A registered application calls the methods of this interface to update all items or to update specific items.
-

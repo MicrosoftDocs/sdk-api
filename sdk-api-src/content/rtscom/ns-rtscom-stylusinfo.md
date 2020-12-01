@@ -68,5 +68,4 @@ Uniquely identifies the stylus.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
-
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>

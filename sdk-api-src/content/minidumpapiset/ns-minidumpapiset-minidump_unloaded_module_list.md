@@ -72,9 +72,8 @@ The number of entries in the stream. These are generally <a href="/windows/win32
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
+<a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
 
 
 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module">MINIDUMP_UNLOADED_MODULE</a>
-

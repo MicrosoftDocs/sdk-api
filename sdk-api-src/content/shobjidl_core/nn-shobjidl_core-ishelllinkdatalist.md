@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that allow an application to attach extra data blocks to a <a href="https://docs.microsoft.com/windows/desktop/shell/links">Shell link</a>. These methods add, copy, or remove data blocks.
+Exposes methods that allow an application to attach extra data blocks to a <a href="/windows/desktop/shell/links">Shell link</a>. These methods add, copy, or remove data blocks.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellLinkDataList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellLinkDataList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellLinkDataList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellLinkDataList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellLinkDataList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-adddatablock">AddDataBlock</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-adddatablock">AddDataBlock</a>
 </td>
 <td align="left" width="63%">
 Adds a data block to a link.
@@ -78,7 +78,7 @@ Adds a data block to a link.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-copydatablock">CopyDataBlock</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-copydatablock">CopyDataBlock</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of a link's data block.
@@ -87,7 +87,7 @@ Retrieves a copy of a link's data block.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-getflags">GetFlags</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the current option settings.
@@ -96,7 +96,7 @@ Gets the current option settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-removedatablock">RemoveDataBlock</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-removedatablock">RemoveDataBlock</a>
 </td>
 <td align="left" width="63%">
 Removes a data block from a link.
@@ -105,7 +105,7 @@ Removes a data block from a link.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-setflags">SetFlags</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinkdatalist-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the current option settings.
@@ -127,31 +127,31 @@ The data blocks are in the form of a structure. The first two members are the sa
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_darwin_link">EXP_DARWIN_LINK</a>
+<a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_darwin_link">EXP_DARWIN_LINK</a>
 </td>
 <td>The link's Windows Installer ID.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_special_folder">EXP_SPECIAL_FOLDER</a>
+<a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_special_folder">EXP_SPECIAL_FOLDER</a>
 </td>
 <td>Special folder information.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_sz_link">EXP_SZ_LINK</a>
+<a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-exp_sz_link">EXP_SZ_LINK</a>
 </td>
 <td>The target name.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-nt_console_props">NT_CONSOLE_PROPS</a>
+<a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-nt_console_props">NT_CONSOLE_PROPS</a>
 </td>
 <td>Console properties.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-nt_fe_console_props">NT_FE_CONSOLE_PROPS</a>
+<a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-nt_fe_console_props">NT_FE_CONSOLE_PROPS</a>
 </td>
 <td>The console's code page.</td>
 </tr>
@@ -166,4 +166,3 @@ Use this interface if your application needs to add extra data blocks to a Shell
 
 <div class="alert"><b>Note</b>  <b>Windows Vista and later.</b> Prior to Windows Vista this interface was declared in Shlobj.h.</div>
 <div> </div>
-

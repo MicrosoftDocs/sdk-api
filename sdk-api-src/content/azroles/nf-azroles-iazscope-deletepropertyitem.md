@@ -70,7 +70,7 @@ Property ID of the  list of principals from which to remove the principal specif
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-deletepolicyadministrator">DeletePolicyAdministrator</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-deletepolicyadministrator">DeletePolicyAdministrator</a> method
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-deletepolicyadministratorname">DeletePolicyAdministratorName</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-deletepolicyadministratorname">DeletePolicyAdministratorName</a> method
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-deletepolicyreader">DeletePolicyReader</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-deletepolicyreader">DeletePolicyReader</a> method
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Can also be removed using the <a href="https://docs.microsoft.com/windows/deskto
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-deletepolicyreadername">DeletePolicyReaderName</a> method
+Can also be removed using the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-deletepolicyreadername">DeletePolicyReaderName</a> method
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Principal to remove from the list of principals specified by the <i>lPropId</i> 
 
 The variant must be a <b>BSTR</b> variant.
 
-If AZ_PROP_POLICY_ADMINS or AZ_PROP_POLICY_READERS is specified for the <i>lPropId</i> parameter, the string is the text form of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the Windows account to remove from the list. If AZ_PROP_POLICY_ADMINS_NAME or AZ_PROP_POLICY_READERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to remove from the list. The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format.
+If AZ_PROP_POLICY_ADMINS or AZ_PROP_POLICY_READERS is specified for the <i>lPropId</i> parameter, the string is the text form of the <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the Windows account to remove from the list. If AZ_PROP_POLICY_ADMINS_NAME or AZ_PROP_POLICY_READERS_NAME is specified for the <i>lPropId</i> parameter, the string is the account name of the account to remove from the list. The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format.
 
 ### -param varReserved [in, optional]
 
@@ -121,4 +121,3 @@ Reserved for future use.
 ## -returns
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
-

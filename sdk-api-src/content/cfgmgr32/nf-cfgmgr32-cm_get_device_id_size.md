@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>CM_Get_Device_ID_Size</b> function retrieves the buffer size required to hold a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on the local machine.
+The <b>CM_Get_Device_ID_Size</b> function retrieves the buffer size required to hold a <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> for a <a href="/windows-hardware/drivers/">device instance</a> on the local machine.
 
 ## -parameters
 
@@ -74,23 +74,22 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-The <b>CM_Get_Device_ID_Size</b> function should be called to determine the buffer size required by <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_idw">CM_Get_Device_ID</a>.
+The <b>CM_Get_Device_ID_Size</b> function should be called to determine the buffer size required by <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_idw">CM_Get_Device_ID</a>.
 
 The size value supplied in the location pointed to by <i>pulLen</i> is less than MAX_DEVICE_ID_LEN, and does not include the identifier string's terminating <b>NULL</b>. If the specified device instance does not exist, the function supplies a size value of zero.
 
-For information about device instance IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
+For information about device instance IDs, see <a href="/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
-For information about using device instance handles that are bound to the local machine, see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>.
+For information about using device instance handles that are bound to the local machine, see <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_idw">CM_Get_Device_ID</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_idw">CM_Get_Device_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_size_ex">CM_Get_Device_ID_Size_Ex</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_size_ex">CM_Get_Device_ID_Size_Ex</a>

@@ -45,40 +45,29 @@ api_name:
  - IPSEC_KEY_MANAGER_DICTATE_KEY0
 ---
 
-# IPSEC_KEY_MANAGER_DICTATE_KEY0 callback function
-
-
 ## -description
 
 The <b>IPSEC_KEY_MANAGER_DICTATE_KEY0</b> function is used by the Trusted Intermediary Agent (TIA) to dictate keys for the SA being negotiated.
 
 ## -parameters
 
-### -param *inboundSaDetails
+### -param inboundSaDetails
 
-### -param *outboundSaDetails
+Type: [IPSEC_SA_DETAILS1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)*</b>
 
-### -param *keyingModuleGenKey
+Information about the inbound SA.
 
-#### - generateRandomKey [out]
+### -param outboundSaDetails
+
+Type: [IPSEC_SA_DETAILS1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)*</b>
+
+Information about the outbound SA.
+
+### -param keyingModuleGenKey
 
 Type: <b>BOOL*</b>
 
 True if the keying module should randomly generate keys in the event that the TIA is unable to supply keys; otherwise, false.
-
-
-#### - inboundSa [in, out]
-
-Type: [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)*</b>
-
-Information about the inbound SA.
-
-
-#### - outboundSa [in, out]
-
-Type: [IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)*</b>
-
-Information about the outbound SA.
 
 ## -returns
 
@@ -109,7 +98,7 @@ The keys were successfully dictated
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -129,21 +118,20 @@ Failure to communicate with the remote or local firewall engine.
 
 ## -remarks
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0">IPsecKeyManagerAddAndRegister0</a> to invoke this function pointer. If the weight specified in <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_key_dictation_check0">IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0</a> for a TIA is higher than that of any peer, <b>IPSEC_KEY_MANAGER_DICTATE_KEY0</b> will be invoked.
+Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0">IPsecKeyManagerAddAndRegister0</a> to invoke this function pointer. If the weight specified in <a href="/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_key_dictation_check0">IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0</a> for a TIA is higher than that of any peer, <b>IPSEC_KEY_MANAGER_DICTATE_KEY0</b> will be invoked.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_key_dictation_check0">IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0</a>
+<a href="/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_key_dictation_check0">IPSEC_KEY_MANAGER_KEY_DICTATION_CHECK0</a>
 
 
 
-[IPSEC_SA_DETAILS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)
+[IPSEC_SA_DETAILS1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0">IPsecKeyManagerAddAndRegister0</a>
+<a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0">IPsecKeyManagerAddAndRegister0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
-
+<a href="/windows/desktop/FWP/fwp-functions">WFP functions</a>

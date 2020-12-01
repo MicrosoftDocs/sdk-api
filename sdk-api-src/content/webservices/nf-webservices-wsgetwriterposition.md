@@ -92,9 +92,8 @@ One or more arguments are invalid.
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_node_position">WS_XML_NODE_POSITION</a> for more information on using positions.
+See <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_node_position">WS_XML_NODE_POSITION</a> for more information on using positions.
       
 
-It may be useful to call <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteendstartelement">WsWriteEndStartElement</a> to force an element to be committed before
+It may be useful to call <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendstartelement">WsWriteEndStartElement</a> to force an element to be committed before
         obtaining the position.
-

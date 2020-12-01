@@ -68,9 +68,8 @@ The size, in bytes, of the resource.
 
 ## -remarks
 
-This structure is used by the [ID3D12Device::GetResourceAllocationInfo1](/windows/win32/api/d3d12/nf-d3d12-id3d12device4-getresourceallocationinfo1) method.
+This structure is used by the [ID3D12Device::GetResourceAllocationInfo1](./nf-d3d12-id3d12device4-getresourceallocationinfo1.md) method.
 
 ## -see-also
 
 [Core structures](/windows/win32/direct3d12/direct3d-12-structures)
-

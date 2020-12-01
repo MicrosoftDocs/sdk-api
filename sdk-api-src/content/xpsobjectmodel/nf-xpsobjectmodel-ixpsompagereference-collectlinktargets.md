@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets an  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection">IXpsOMNameCollection</a> interface that contains the names of all the document subtree objects whose  <b>IsHyperlinkTarget</b> property is set to <b>TRUE</b>.
+Gets an  <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection">IXpsOMNameCollection</a> interface that contains the names of all the document subtree objects whose  <b>IsHyperlinkTarget</b> property is set to <b>TRUE</b>.
 
 ## -parameters
 
 ### -param linkTargets [out, retval]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection">IXpsOMNameCollection</a> interface that contains the names of all the document subtree objects whose <b>IsHyperlinkTarget</b> property is set to <b>TRUE</b>. If no such objects exist in the document, the <b>IXpsOMNameCollection</b> interface will be empty.
+A pointer to an <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection">IXpsOMNameCollection</a> interface that contains the names of all the document subtree objects whose <b>IsHyperlinkTarget</b> property is set to <b>TRUE</b>. If no such objects exist in the document, the <b>IXpsOMNameCollection</b> interface will be empty.
 
 <div class="alert"><b>Note</b>  Every time this method is called, it returns a new collection.</div>
 <div> </div>
@@ -112,7 +112,7 @@ If the page is originally loaded from a package but  is not currently loaded in 
 
 If the document does not have any link targets, the name collection returned in <i>linkTargets</i> will be empty.
 
-To get the number of elements in the collection that is returned in <i>linkTargets</i>, call the collection's <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomnamecollection-getcount">GetCount</a> method.
+To get the number of elements in the collection that is returned in <i>linkTargets</i>, call the collection's <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomnamecollection-getcount">GetCount</a> method.
 
 This method returns the pointer to a new collection every time it is called. To prevent a memory leak, the pointer to a previous collection should be released when it is no longer needed or before the pointer variable is reused for another call to this method. The following code example shows how this can be done in a program.
 
@@ -163,13 +163,12 @@ This method returns the pointer to a new collection every time it is called. To 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection">IXpsOMNameCollection</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomnamecollection">IXpsOMNameCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
 
 
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

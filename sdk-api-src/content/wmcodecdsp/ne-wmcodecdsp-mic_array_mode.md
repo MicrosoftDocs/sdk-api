@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies how the voice capture DSP performs microphone array processing. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-wmaaecma-featr-micarr-modeproperty">MFPKEY_WMAAECMA_FEATR_MICARR_MODE</a> property.
+Specifies how the voice capture DSP performs microphone array processing. This enumeration is used with the <a href="/windows/desktop/medfound/mfpkey-wmaaecma-featr-micarr-modeproperty">MFPKEY_WMAAECMA_FEATR_MICARR_MODE</a> property.
 
 ## -enum-fields
 
@@ -64,7 +64,7 @@ Sum all of the channels.
 
 ### -field MICARRAY_SINGLE_BEAM
 
-Use beam forming with a beam selected by the DSP. After processing starts, you can query which beam was selected by reading the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-wmaaecma-featr-micarr-beamproperty">MFPKEY_WMAAECMA_FEATR_MICARR_BEAM</a> property.
+Use beam forming with a beam selected by the DSP. After processing starts, you can query which beam was selected by reading the <a href="/windows/desktop/medfound/mfpkey-wmaaecma-featr-micarr-beamproperty">MFPKEY_WMAAECMA_FEATR_MICARR_BEAM</a> property.
 
 ### -field MICARRAY_FIXED_BEAM
 
@@ -76,9 +76,8 @@ Use beam forming with a beam selected by the application. If you set this value,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/voicecapturedmo">Voice Capture</a>
-
+<a href="/windows/desktop/medfound/voicecapturedmo">Voice Capture</a>

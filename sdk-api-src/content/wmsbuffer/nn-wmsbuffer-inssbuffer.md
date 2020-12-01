@@ -55,9 +55,9 @@ The <b>INSSBuffer</b> interface is the basic interface of a buffer object. A buf
 In both writing and reading ASF files, buffer objects are used to contain samples. Depending upon where you use a sample, you will obtain a reference to the <b>INSSBuffer</b> interface in one of three ways:
 
 <ul>
-<li>When passing samples to the writer, you can obtain buffer objects by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-allocatesample">IWMWriter::AllocateSample</a>.</li>
-<li>When you are receiving samples from the asynchronous reader, buffer objects are created automatically, and references to an <b>INSSBuffer</b> interface are passed with every call the reader makes to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample">IWMReaderCallback::OnSample</a> callback method.</li>
-<li>When you are receiving samples from the synchronous reader, a reference to an <b>INSSBuffer</b> interface is set with every call you make to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample">IWMSyncReader::GetNextSample</a>.</li>
+<li>When passing samples to the writer, you can obtain buffer objects by calling <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-allocatesample">IWMWriter::AllocateSample</a>.</li>
+<li>When you are receiving samples from the asynchronous reader, buffer objects are created automatically, and references to an <b>INSSBuffer</b> interface are passed with every call the reader makes to the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallback-onsample">IWMReaderCallback::OnSample</a> callback method.</li>
+<li>When you are receiving samples from the synchronous reader, a reference to an <b>INSSBuffer</b> interface is set with every call you make to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getnextsample">IWMSyncReader::GetNextSample</a>.</li>
 </ul>
 
 
@@ -69,19 +69,19 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer2">INSSBuffer2</a>
+<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer2">INSSBuffer2</a>
 </td>
 <td>IID_INSSBuffer2</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3</a>
+<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3</a>
 </td>
 <td>IID_INSSBuffer3</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4">INSSBuffer4</a>
+<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4">INSSBuffer4</a>
 </td>
 <td>IID_INSSBuffer4</td>
 </tr>
@@ -89,7 +89,7 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INSSBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INSSBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INSSBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INSSBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -104,7 +104,7 @@ The <b>INSSBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbuffer">GetBuffer</a>
+<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbuffer">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the location of the buffer.
@@ -113,7 +113,7 @@ Retrieves the location of the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbufferandlength">GetBufferAndLength</a>
+<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbufferandlength">GetBufferAndLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the location and size of the used portion of the buffer.
@@ -122,7 +122,7 @@ Retrieves the location and size of the used portion of the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength">GetLength</a>
+<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the used portion of the buffer.
@@ -131,7 +131,7 @@ Retrieves the size of the used portion of the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getmaxlength">GetMaxLength</a>
+<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getmaxlength">GetMaxLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum size to which a buffer can be set.
@@ -140,7 +140,7 @@ Retrieves the maximum size to which a buffer can be set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-setlength">SetLength</a>
+<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-setlength">SetLength</a>
 </td>
 <td align="left" width="63%">
 Specifies the size of the used portion of the buffer.
@@ -151,17 +151,16 @@ Specifies the size of the used portion of the buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/buffer-object">Buffer Object</a>
+<a href="/windows/desktop/wmformat/buffer-object">Buffer Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/reading-asf-files">Reading ASF Files</a>
+<a href="/windows/desktop/wmformat/reading-asf-files">Reading ASF Files</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writing-asf-files">Writing ASF Files</a>
-
+<a href="/windows/desktop/wmformat/writing-asf-files">Writing ASF Files</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CryptXmlGetAlgorithmInfo</b> function decodes the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure and returns information about the algorithm.
+The <b>CryptXmlGetAlgorithmInfo</b> function decodes the <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure and returns information about the algorithm.
 
 ## -parameters
 
 ### -param pXmlAlgorithm [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm about which to return information.
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm about which to return information.
 
 ### -param dwFlags
 
@@ -84,11 +84,10 @@ digest  are used.  When this flag is set, no other registered extensions are loa
 
 ### -param ppAlgInfo [out]
 
-A pointer to a pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure. When you have finished using the memory pointed to by the <i>ppAlgInfo</i> parameter, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+A pointer to a pointer to a  <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm_info">CRYPT_XML_ALGORITHM_INFO</a> structure. When you have finished using the memory pointed to by the <i>ppAlgInfo</i> parameter, free it by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
 
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-

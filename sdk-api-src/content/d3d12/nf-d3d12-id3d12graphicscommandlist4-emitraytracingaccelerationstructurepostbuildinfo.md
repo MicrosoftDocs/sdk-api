@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Emits post-build properties for a set of acceleration structures.  This enables applications to know the output resource requirements for performing acceleration structure operations via <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure</a>.
+Emits post-build properties for a set of acceleration structures.  This enables applications to know the output resource requirements for performing acceleration structure operations via <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure</a>.
 
 ## -parameters
 
@@ -66,9 +66,9 @@ Number of pointers to acceleration structure GPU virtual addresses pointed to by
 
 Pointer to array of GPU virtual addresses of size <i>NumSourceAccelerationStructures</i>.
 
-The address must be aligned to 256 bytes, defined as <a href="https://docs.microsoft.com/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BYTE_ALIGNMENT</a>. 
+The address must be aligned to 256 bytes, defined as <a href="/windows/desktop/direct3d12/constants">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_BYTE_ALIGNMENT</a>. 
 
-The memory pointed to must be in state <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE</a>.
+The memory pointed to must be in state <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RAYTRACING_ACCELERATION_STRUCTURE</a>.
 
 ## -remarks
 
@@ -77,4 +77,3 @@ This method can be called from graphics or compute command lists but not from bu
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847460(v=VS.85).aspx">ID3D12GraphicsCommandList4</a>
-

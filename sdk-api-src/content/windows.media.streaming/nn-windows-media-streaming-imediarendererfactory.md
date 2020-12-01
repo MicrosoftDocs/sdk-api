@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Encapsulates the methods needed to asynchronously create a new instance of an object that implements the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> interface.
+Encapsulates the methods needed to asynchronously create a new instance of an object that implements the <a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaRendererFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaRendererFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaRendererFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaRendererFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,21 +69,20 @@ The <b>IMediaRendererFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarendererfactory-createmediarendererasync">CreateMediaRendererAsync</a>
+<a href="/windows/desktop/mediastreaming/imediarendererfactory-createmediarendererasync">CreateMediaRendererAsync</a>
 </td>
 <td align="left" width="63%">
-Asynchronously creates a new instance of an object that implements the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> interface using the specified Unique Device Name (UDN).
+Asynchronously creates a new instance of an object that implements the <a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> interface using the specified Unique Device Name (UDN).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarendererfactory-createmediarendererfrombasicdeviceasync">CreateMediaRendererFromBasicDeviceAsync</a>
+<a href="/windows/desktop/mediastreaming/imediarendererfactory-createmediarendererfrombasicdeviceasync">CreateMediaRendererFromBasicDeviceAsync</a>
 </td>
 <td align="left" width="63%">
-Asynchronously creates a new instance of an object that implements the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> interface using the specified <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a> interface.
+Asynchronously creates a new instance of an object that implements the <a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a> interface using the specified <a href="/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a> interface.
 
 </td>
 </tr>
 </table>
-

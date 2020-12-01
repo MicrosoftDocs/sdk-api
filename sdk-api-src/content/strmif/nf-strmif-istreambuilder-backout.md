@@ -51,17 +51,17 @@ api_name:
 
 ## -description
 
-The <code>Backout</code> method undoes steps taken in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-istreambuilder-render">IStreamBuilder::Render</a> method. This includes disconnecting and removing any filters that were added inside <b>Render</b>.
+The <code>Backout</code> method undoes steps taken in the <a href="/windows/desktop/api/strmif/nf-strmif-istreambuilder-render">IStreamBuilder::Render</a> method. This includes disconnecting and removing any filters that were added inside <b>Render</b>.
 
 ## -parameters
 
 ### -param ppinOut [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of this pin.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of this pin.
 
 ### -param pGraph [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface of the Filter Graph Manager.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface of the Filter Graph Manager.
 
 ## -returns
 
@@ -115,9 +115,8 @@ STDMETHODIMP CMyOutputPin::BackOut(IPin *pPin, IGraphBuilder *pGraph)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-istreambuilder">IStreamBuilder Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-istreambuilder">IStreamBuilder Interface</a>

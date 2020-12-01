@@ -95,9 +95,8 @@ For example: ([a904e1b7-95dd-47f0-9b2e-f1007d92699b] or [ae6fcf48-c42f-4960-a61a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusterresourcedependencyexpression">GetClusterResourceDependencyExpression</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-getclusterresourcedependencyexpression">GetClusterResourceDependencyExpression</a>

@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-Application-defined callback function used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-registerwaituntiloobecompleted">RegisterWaitUntilOOBECompleted</a> function.
+Application-defined callback function used with the <a href="/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-registerwaituntiloobecompleted">RegisterWaitUntilOOBECompleted</a> function.
 
 ## -parameters
 
 ### -param CallbackContext
 
-Pointer to the callback context. This is the value passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-registerwaituntiloobecompleted">RegisterWaitUntilOOBECompleted</a> function as the <i>CallbackContext</i> parameter.
+Pointer to the callback context. This is the value passed to the <a href="/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-registerwaituntiloobecompleted">RegisterWaitUntilOOBECompleted</a> function as the <i>CallbackContext</i> parameter.
 
 ## -remarks
 
-Once the callback function has completed, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-unregisterwaituntiloobecompleted">UnregisterWaitUntilOOBECompleted</a> should be called.
-
+Once the callback function has completed, <a href="/previous-versions/windows/desktop/api/oobenotification/nf-oobenotification-unregisterwaituntiloobecompleted">UnregisterWaitUntilOOBECompleted</a> should be called.

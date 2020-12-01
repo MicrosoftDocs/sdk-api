@@ -68,13 +68,12 @@ Do not draw triangles that are back-facing.
 
 ## -remarks
 
-Cull mode is specified in a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_rasterizer_desc">D3D12_RASTERIZER_DESC</a> structure.
+Cull mode is specified in a <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_rasterizer_desc">D3D12_RASTERIZER_DESC</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-rasterizer-desc">CD3DX12_RASTERIZER_DESC</a>
+<a href="/windows/desktop/direct3d12/cd3dx12-rasterizer-desc">CD3DX12_RASTERIZER_DESC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>

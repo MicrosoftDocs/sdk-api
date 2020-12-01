@@ -57,7 +57,7 @@ Provides methods for controlling a sensor activity monitor.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorActivityMonitor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorActivityMonitor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSensorActivityMonitor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSensorActivityMonitor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFSensorActivityMonitor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitymonitor-start">Start</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitymonitor-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the sensor activity monitor.
@@ -81,7 +81,7 @@ Starts the sensor activity monitor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitymonitor-stop">Stop</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitymonitor-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the sensor activity monitor.
@@ -92,12 +92,12 @@ Stops the sensor activity monitor.
 
 ## -remarks
 
-Get an instance of this class by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatesensoractivitymonitor">MFCreateSensorActivityMonitor</a>. Sensor activity reports are delivered through the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreportcallback">IMFSensorActivitiesReportCallback</a> interface passed into this method.
+Get an instance of this class by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatesensoractivitymonitor">MFCreateSensorActivityMonitor</a>. Sensor activity reports are delivered through the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreportcallback">IMFSensorActivitiesReportCallback</a> interface passed into this method.
 
 
 #### Examples
 
-The following example shows a class declaration that implements  <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreportcallback">IMFSensorActivitiesReportCallback</a>.
+The following example shows a class declaration that implements  <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreportcallback">IMFSensorActivitiesReportCallback</a>.
 
 
 ```cpp
@@ -131,7 +131,7 @@ private:
 ```
 
 
-The next example shows the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitiesreportcallback-onactivitiesreport">OnActivitiesReport</a> callback that updates a boolean class member to indicate whether the queried sensor device is currently in use and then sets an event to signal that the status has been obtained.
+The next example shows the implementation of the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensoractivitiesreportcallback-onactivitiesreport">OnActivitiesReport</a> callback that updates a boolean class member to indicate whether the queried sensor device is currently in use and then sets an event to signal that the status has been obtained.
 
 
 ```cpp
@@ -215,7 +215,7 @@ HRESULT MyCameraNotificationCallback::IsInUse(
 ```
 
 
-The following example shows an implementation that calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatesensoractivitymonitor">MFCreateSensorActivityMonitor</a> to create the activity monitor and then calls the <b>IsInUse</b> class method shown above to determine if the specified sensor is currently in use.
+The following example shows an implementation that calls <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatesensoractivitymonitor">MFCreateSensorActivityMonitor</a> to create the activity monitor and then calls the <b>IsInUse</b> class method shown above to determine if the specified sensor is currently in use.
 
 
 ```cpp
@@ -273,4 +273,3 @@ HRESULT IsCameraInUse(
 }
 
 ```
-

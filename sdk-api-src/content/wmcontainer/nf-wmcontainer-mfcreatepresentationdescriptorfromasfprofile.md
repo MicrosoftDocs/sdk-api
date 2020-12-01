@@ -56,11 +56,11 @@ Creates a presentation descriptor from an ASF profile object.
 
 ### -param pIProfile
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a> interface of the ASF profile object.
+Pointer to the <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a> interface of the ASF profile object.
 
 ### -param ppIPD
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -87,5 +87,4 @@ The function succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

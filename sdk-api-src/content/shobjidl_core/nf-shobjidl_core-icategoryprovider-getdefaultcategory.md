@@ -62,9 +62,9 @@ Not used.
 
 ### -param pscid [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a>*</b>
+Type: <b><a href="/windows/desktop/shell/objects">SHCOLUMNID</a>*</b>
 
-When this method returns, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> structure.
+When this method returns, contains a pointer to a <a href="/windows/desktop/shell/objects">SHCOLUMNID</a> structure.
 
 ## -returns
 
@@ -92,9 +92,9 @@ There is no default group.
 
 ## -remarks
 
-<b>ICategoryProvider::GetDefaultCategory</b> returns an <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> structure that is used by the default categorizer. The method returns S_FALSE if a default group is not supported.
+<b>ICategoryProvider::GetDefaultCategory</b> returns an <a href="/windows/desktop/shell/objects">SHCOLUMNID</a> structure that is used by the default categorizer. The method returns S_FALSE if a default group is not supported.
 
-<b>ICategoryProvider::GetDefaultCategory</b> is called only when a folder is first opened. After that, the user's grouping choice is cached in the <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">property bag</a> storing the state of the view. To force a call to <b>ICategoryProvider::GetDefaultCategory</b> after the folder is first opened, the <b>Shell</b> and <b>ShellNoRoam</b> registry keys must be deleted. They are found in the following location.
+<b>ICategoryProvider::GetDefaultCategory</b> is called only when a folder is first opened. After that, the user's grouping choice is cached in the <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">property bag</a> storing the state of the view. To force a call to <b>ICategoryProvider::GetDefaultCategory</b> after the folder is first opened, the <b>Shell</b> and <b>ShellNoRoam</b> registry keys must be deleted. They are found in the following location.
 
                 <pre xml:space="preserve"><b>HKEY_CURRENT_USER</b>
    <b>Software</b>
@@ -102,4 +102,3 @@ There is no default group.
          <b>Windows</b>
             <b>Shell</b>
             <b>ShellNoRoam</b></pre>
-

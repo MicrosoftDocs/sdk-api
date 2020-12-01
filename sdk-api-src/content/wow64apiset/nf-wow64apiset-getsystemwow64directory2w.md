@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Retrieves the path of the system directory used by <a href="https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>, using the specified image file machine type. This directory is not present on 32-bit Windows.
+Retrieves the path of the system directory used by <a href="/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a>, using the specified image file machine type. This directory is not present on 32-bit Windows.
 
 ## -parameters
 
@@ -68,23 +68,23 @@ The maximum size of the buffer, in <b>TCHARs</b>.
 
 ### -param ImageFileMachineType [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/SysInfo/image-file-machine-constants">IMAGE_FILE_MACHINE_*</a> value that specifies the machine to test.
+An <a href="/windows/desktop/SysInfo/image-file-machine-constants">IMAGE_FILE_MACHINE_*</a> value that specifies the machine to test.
 
 ## -returns
 
 If the function succeeds, the return value is the length, in <b>TCHARs</b>, of the string copied to the buffer, not including the terminating null character. If the length is greater than the size of the buffer, the return value is the size of the buffer required to hold the path.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-On systems that support multiple <a href="https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a> architectures, you can use <b>GetSystemWow64Directory2</b> to retrieve appropriate system directory associated with the WOW64 architecture specified by <i>ImageFileMachineType</i>. 
+On systems that support multiple <a href="/windows/desktop/WinProg64/running-32-bit-applications">WOW64</a> architectures, you can use <b>GetSystemWow64Directory2</b> to retrieve appropriate system directory associated with the WOW64 architecture specified by <i>ImageFileMachineType</i>. 
 
 WOW64 uses the system directory to store shared 32-bit code on 64-bit Windows. Most applications have no need to access this directory explicitly.
 
 For more information on WOW64, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg64/running-32-bit-applications">Running 32-bit Applications</a>.
+<a href="/windows/desktop/WinProg64/running-32-bit-applications">Running 32-bit Applications</a>.
 
 
 
@@ -95,5 +95,4 @@ For more information on WOW64, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directorya">GetSystemWow64Directory</a>
-
+<a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directorya">GetSystemWow64Directory</a>

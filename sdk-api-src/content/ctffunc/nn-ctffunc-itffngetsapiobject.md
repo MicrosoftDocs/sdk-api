@@ -52,11 +52,11 @@ api_name:
 
 The <b>ITfFnGetSAPIObject</b> interface is implemented by the Speech API (SAPI) text service. This interface is used by the TSF manager or a client (application or other text service) to obtain various SAPI objects.
 
-A client obtains an instance of this interface by obtaining the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider</a> for the SAPI text service and calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction</a> with IID_ITfFnGetSAPIObject.
+A client obtains an instance of this interface by obtaining the <a href="/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider</a> for the SAPI text service and calling <a href="/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction</a> with IID_ITfFnGetSAPIObject.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnGetSAPIObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnGetSAPIObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnGetSAPIObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnGetSAPIObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITfFnGetSAPIObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffngetsapiobject-get">Get</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffngetsapiobject-get">Get</a>
 </td>
 <td align="left" width="63%">
 Obtains a specified SAPI object.
@@ -79,4 +79,3 @@ Obtains a specified SAPI object.
 </td>
 </tr>
 </table>
-

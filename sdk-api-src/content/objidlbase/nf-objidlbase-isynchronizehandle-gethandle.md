@@ -64,9 +64,8 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronizeevent-seteventhandle">ISynchronizeEvent::SetEventHandle</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isynchronizeevent-seteventhandle">ISynchronizeEvent::SetEventHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronizehandle">ISynchronizeHandle</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-isynchronizehandle">ISynchronizeHandle</a>

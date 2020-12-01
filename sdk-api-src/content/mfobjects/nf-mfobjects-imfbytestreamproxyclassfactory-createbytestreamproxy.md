@@ -56,7 +56,7 @@ Creates a proxy to a byte stream. The proxy enables a media source to read from 
 
 ### -param pByteStream [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface of the byte stream to proxy.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface of the byte stream to proxy.
 
 ### -param pAttributes [in]
 
@@ -76,5 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestreamproxyclassfactory">IMFByteStreamProxyClassFactory</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestreamproxyclassfactory">IMFByteStreamProxyClassFactory</a>

@@ -43,6 +43,7 @@ api_location:
  - Comctl32.dll
 api_name:
  - DPA_Grow
+req.apiset: ext-ms-win-shell-comctl32-da-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DPA_Grow function
@@ -68,11 +69,10 @@ The number of pointers desired in the DPA.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 ## -remarks
 
 If <i>cp</i> is less than the number of pointers already in the DPA, the DPA is left unchanged. If <i>cp</i> is greater than the number of pointers in the DPA, the added pointers are initialized to <b>NULL</b>.
-

@@ -68,7 +68,7 @@ A string representing the name to be queried over mDNS.
 
 ### -field QueryType
 
-A value representing the type of the records to be queried. See [DNS_RECORD_TYPE](https://docs.microsoft.com/openspecs/windows_protocols/ms-dnsp/39b03b89-2264-4063-8198-d62f62a6441a) for possible values.
+A value representing the type of the records to be queried. See [DNS_RECORD_TYPE](/openspecs/windows_protocols/ms-dnsp/39b03b89-2264-4063-8198-d62f62a6441a) for possible values.
 
 ### -field QueryOptions
 
@@ -97,4 +97,3 @@ Reserved. Do not use.
 ## -remarks
 
 ## -see-also
-

@@ -58,7 +58,7 @@ The <b>WinUsb_GetPipePolicy</b> function retrieves the policy for a specific pip
 
 An opaque handle to an interface that contains the endpoint with which the pipe is associated.
 
-To query the pipe associated with the endpoint in the first interface, use the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
+To query the pipe associated with the endpoint in the first interface, use the handle returned by <a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
 
 ### -param PipeID [in]
 
@@ -66,7 +66,7 @@ An 8-bit value that consists of a 7-bit address and a direction bit. This parame
 
 ### -param PolicyType [in]
 
-A <b>ULONG</b> variable that specifies the policy parameter to retrieve. The current value for the policy parameter is retrieved the <i>Value</i> parameter. For information about the behavior of the pipe policies, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB Functions for Pipe Policy Modification</a>.
+A <b>ULONG</b> variable that specifies the policy parameter to retrieve. The current value for the policy parameter is retrieved the <i>Value</i> parameter. For information about the behavior of the pipe policies, see <a href="/windows-hardware/drivers/ddi/content/index">WinUSB Functions for Pipe Policy Modification</a>.
 
 ### -param ValueLength [in, out]
 
@@ -105,25 +105,24 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
+<a href="/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB Functions for Pipe Policy Modification</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB Functions for Pipe Policy Modification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
+<a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_readpipe">WinUsb_ReadPipe</a>
+<a href="/windows/desktop/api/winusb/nf-winusb-winusb_readpipe">WinUsb_ReadPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_writepipe">WinUsb_WritePipe</a>
-
+<a href="/windows/desktop/api/winusb/nf-winusb-winusb_writepipe">WinUsb_WritePipe</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Posts a return code and an error message (in the form of a <a href="https://docs.microsoft.com/windows/desktop/hyperv_v2/cim-error">CIM_Error</a> object) to the server in response to a request.
+Posts a return code and an error message (in the form of a <a href="/windows/desktop/hyperv_v2/cim-error">CIM_Error</a> object) to the server in response to a request.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ A pointer to the request context.
 
 ### -param error [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/hyperv_v2/cim-error">CIM_Error</a> object to be posted to the server.
+A pointer to a <a href="/windows/desktop/hyperv_v2/cim-error">CIM_Error</a> object to be posted to the server.
 
 ## -returns
 
@@ -68,21 +68,20 @@ This function returns MI_INLINE MI_Result MI_INLINE_CALL.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/hyperv_v2/cim-error">CIM_Error</a> instance that is returned in the <i>error</i> parameter can be compiled into your provider so you can initialize and then post it. Once an error has been posted, the context must not be used, as it becomes invalid at this point.
+The <a href="/windows/desktop/hyperv_v2/cim-error">CIM_Error</a> instance that is returned in the <i>error</i> parameter can be compiled into your provider so you can initialize and then post it. Once an error has been posted, the context must not be used, as it becomes invalid at this point.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/hyperv_v2/cim-error">CIM_Error</a>
+<a href="/windows/desktop/hyperv_v2/cim-error">CIM_Error</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_context">MI_Context</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_context">MI_Context</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_writecimerror">MI_Context_WriteCimError</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_writecimerror">MI_Context_WriteCimError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>
-
+<a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>

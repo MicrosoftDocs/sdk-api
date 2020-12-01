@@ -53,10 +53,10 @@ api_name:
 A 3D vector where each component is a signed integer.
 
 For a list of more functionality such as constructors and operators that are available using <code>XMINT3</code> when you
-  are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmint3-extensions">XMINT3 Extensions</a>.
-<div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type Equivalences</a> for information about
-  equivalent <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddecltype">D3DDECLTYPE</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>, and
-  <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects.</div><div> </div>
+  are programming in C++, see <a href="/windows/desktop/dxmath/ovw-xmint3-extensions">XMINT3 Extensions</a>.
+<div class="alert"><b>Note</b>  See <a href="/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type Equivalences</a> for information about
+  equivalent <a href="/windows/desktop/direct3d9/d3ddecltype">D3DDECLTYPE</a>, <a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>, and
+  <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects.</div><div> </div>
 
 ## -struct-fields
 
@@ -82,10 +82,10 @@ TBD
 
 ## -remarks
 
-You can use <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmloadsint3">XMLoadSInt3</a> to load <code>XMINT3</code> into instances 
-   of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
+You can use <a href="/windows/desktop/api/directxmath/nf-directxmath-xmloadsint3">XMLoadSInt3</a> to load <code>XMINT3</code> into instances 
+   of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
-You can use <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmstoresint3">XMStoreSInt3</a> to store instances of <code>XMVECTOR</code> 
+You can use <a href="/windows/desktop/api/directxmath/nf-directxmath-xmstoresint3">XMStoreSInt3</a> to store instances of <code>XMVECTOR</code> 
      into an instance of <code>XMINT3</code>.
 
 <b>Namespace:</b> Use DirectX
@@ -95,9 +95,8 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmint3-extensions">XMINT3 Extensions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xmint3-extensions">XMINT3 Extensions</a>

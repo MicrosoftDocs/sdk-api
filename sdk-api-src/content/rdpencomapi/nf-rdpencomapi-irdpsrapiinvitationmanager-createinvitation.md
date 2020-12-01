@@ -82,7 +82,7 @@ The maximum number of attendees.
 
 Type: <b>IRDPSRAPIInvitation**</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a> interface pointer.
+An <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a> interface pointer.
 
 ## -returns
 
@@ -92,5 +92,4 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitationmanager">IRDPSRAPIInvitationManager</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitationmanager">IRDPSRAPIInvitationManager</a>

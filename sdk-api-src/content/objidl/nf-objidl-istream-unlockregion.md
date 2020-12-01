@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>UnlockRegion</b> method removes the access restriction on a range of bytes previously restricted with 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-lockregion">IStream::LockRegion</a>.
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-lockregion">IStream::LockRegion</a>.
 
 ## -parameters
 
@@ -74,17 +74,16 @@ This method can return one of these values.
 ## -remarks
 
 <b>IStream::UnlockRegion</b> unlocks a region previously locked with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-lockregion">IStream::LockRegion</a> method. Locked regions must later be explicitly unlocked by calling <b>IStream::UnlockRegion</b> with exactly the same values for the <i>libOffset</i>, <i>cb</i>, and <i>dwLockType</i> parameters. The region must be unlocked before the stream is released. Two adjacent regions cannot be locked separately and then unlocked with a single unlock call.
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-lockregion">IStream::LockRegion</a> method. Locked regions must later be explicitly unlocked by calling <b>IStream::UnlockRegion</b> with exactly the same values for the <i>libOffset</i>, <i>cb</i>, and <i>dwLockType</i> parameters. The region must be unlocked before the stream is released. Two adjacent regions cannot be locked separately and then unlocked with a single unlock call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
+<a href="/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-lockregion">IStream::LockRegion</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-lockregion">IStream::LockRegion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a>
-
+<a href="/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a>

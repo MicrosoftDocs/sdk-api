@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
 api_name:
  - ImageList_ReplaceIcon
+req.apiset: ext-ms-win-shell-comctl32-init-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ImageList_ReplaceIcon function
@@ -70,7 +71,7 @@ The index of the image to replace. If
 
 ### -param hicon [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HICON</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HICON</a></b>
 
 The handle to the icon or cursor that contains the bitmap and mask for the new image.
 
@@ -83,5 +84,4 @@ Returns the index of the image if successful, or -1 otherwise.
 ## -remarks
 
 Because the system does not save 
-				<i>hicon</i>, you can destroy it after the function returns if the icon or cursor was created by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createicon">CreateIcon</a> function. You do not need to destroy <i>hicon</i> if it was loaded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function; the system automatically frees an icon resource when it is no longer needed.
-
+				<i>hicon</i>, you can destroy it after the function returns if the icon or cursor was created by the <a href="/windows/desktop/api/winuser/nf-winuser-createicon">CreateIcon</a> function. You do not need to destroy <i>hicon</i> if it was loaded by the <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> function; the system automatically frees an icon resource when it is no longer needed.

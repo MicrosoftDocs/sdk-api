@@ -56,7 +56,7 @@ Retrieves the local user account concept of 'me'.
 
 ### -param ppMeContact [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>**</b>
 
 Specifies where to store a pointer to the 'me' contact.
 
@@ -83,4 +83,3 @@ Retrieval was successful.
 </td>
 </tr>
 </table>
-

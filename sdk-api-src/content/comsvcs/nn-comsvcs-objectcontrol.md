@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-If you implement this interface in your component, the COM+ run-time environment automatically calls its methods on your objects at the appropriate times. Only the COM+ run-time environment can invoke the <b>ObjectControl</b> methods; they are not accessible to an object's clients or to the object itself. If a client queries for the <b>ObjectControl</b> interface, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> returns E_NOINTERFACE.
+If you implement this interface in your component, the COM+ run-time environment automatically calls its methods on your objects at the appropriate times. Only the COM+ run-time environment can invoke the <b>ObjectControl</b> methods; they are not accessible to an object's clients or to the object itself. If a client queries for the <b>ObjectControl</b> interface, <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> returns E_NOINTERFACE.
 
-<b>ObjectControl</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontrol">IObjectControl</a> provide the same functionality, but unlike <b>IObjectControl</b>, <b>ObjectControl</b> is compatible with Automation.
+<b>ObjectControl</b> and <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontrol">IObjectControl</a> provide the same functionality, but unlike <b>IObjectControl</b>, <b>ObjectControl</b> is compatible with Automation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ObjectControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ObjectControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ObjectControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ObjectControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ObjectControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontrol-activate">Activate</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-objectcontrol-activate">Activate</a>
 </td>
 <td align="left" width="63%">
 Enables a COM+ object to perform context-specific initialization whenever it is activated.
@@ -80,7 +80,7 @@ Enables a COM+ object to perform context-specific initialization whenever it is 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontrol-canbepooled">CanBePooled</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-objectcontrol-canbepooled">CanBePooled</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the object can be pooled for reuse when it is deactivated.
@@ -89,7 +89,7 @@ Indicates whether the object can be pooled for reuse when it is deactivated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontrol-deactivate">Deactivate</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-objectcontrol-deactivate">Deactivate</a>
 </td>
 <td align="left" width="63%">
 Enables a COM+ object to perform cleanup required before it is recycled or destroyed.
@@ -100,13 +100,12 @@ Enables a COM+ object to perform cleanup required before it is recycled or destr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
+<a href="/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/context-activation">Context Activation</a>
+<a href="/windows/desktop/cossdk/context-activation">Context Activation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontrol">IObjectControl</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontrol">IObjectControl</a>

@@ -57,19 +57,19 @@ Sets the sampler state value.
 
 ### -param Sampler [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-The sampler stage index. For more info about sampler stage, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/vertex-textures-in-vs-3-0">Sampling Stage Registers in vs_3_0 (DirectX HLSL)</a>.
+The sampler stage index. For more info about sampler stage, see <a href="/windows/desktop/direct3d9/vertex-textures-in-vs-3-0">Sampling Stage Registers in vs_3_0 (DirectX HLSL)</a>.
 
 ### -param Type [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dsamplerstatetype">D3DSAMPLERSTATETYPE</a></b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dsamplerstatetype">D3DSAMPLERSTATETYPE</a></b>
 
-This parameter can be any member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dsamplerstatetype">D3DSAMPLERSTATETYPE</a> enumerated type.
+This parameter can be any member of the <a href="/windows/desktop/direct3d9/d3dsamplerstatetype">D3DSAMPLERSTATETYPE</a> enumerated type.
 
 ### -param Value [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 State value to set. The meaning of this value is determined by the Type parameter.
 
@@ -81,9 +81,8 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getsamplerstate">IDirect3DDevice9::GetSamplerState</a>
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getsamplerstate">IDirect3DDevice9::GetSamplerState</a>

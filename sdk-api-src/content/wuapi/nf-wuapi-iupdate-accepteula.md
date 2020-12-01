@@ -104,5 +104,4 @@ The Microsoft Software License Terms for the update could not be located.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

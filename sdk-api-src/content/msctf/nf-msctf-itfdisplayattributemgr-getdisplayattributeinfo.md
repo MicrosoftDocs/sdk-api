@@ -56,11 +56,11 @@ Obtains a display attribute data object.
 
 ### -param guid [in]
 
-Contains a GUID that identifies the display attribute data requested. This value is obtained by obtaining the GUID_PROP_ATTRIBUTE property for the range of text. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty">ITfContext::GetProperty</a> and <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-trackproperties">ITfContext::TrackProperties</a>.
+Contains a GUID that identifies the display attribute data requested. This value is obtained by obtaining the GUID_PROP_ATTRIBUTE property for the range of text. For more information, see <a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty">ITfContext::GetProperty</a> and <a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-trackproperties">ITfContext::TrackProperties</a>.
 
 ### -param ppInfo [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo</a> interface pointer that receives the object.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfdisplayattributeinfo">ITfDisplayAttributeInfo</a> interface pointer that receives the object.
 
 ### -param pclsidOwner [out]
 
@@ -91,4 +91,3 @@ The method was successful.
 ## -see-also
 
 [ITfDisplayAttributeMgr interface](nn-msctf-itfdisplayattributemgr.md), [IEnumTfDisplayAttributeInfo interface](nn-msctf-ienumtfdisplayattributeinfo.md), [ITfContext::GetProperty](nf-msctf-itfcontext-getproperty.md), [ITfContext::TrackProperties](nf-msctf-itfcontext-trackproperties.md)
-

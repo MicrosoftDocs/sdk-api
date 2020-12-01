@@ -52,7 +52,7 @@ api_name:
 Returns a <code>reference</code> to a matrix element of an instance <code>XMFLOAT4X3</code> as specified by row and column
   arguments.
 
-This operator returns a <code>reference</code> to a matrix element of an instance <a href="https://msdn.microsoft.com/56bf0a03-e3ea-43ed-a57e-b53f41348ffa">XMFLOAT4X3</a> as
+This operator returns a <code>reference</code> to a matrix element of an instance <a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a> as
   specified by row and column arguments.
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
@@ -99,7 +99,7 @@ will set the value of the <i>mat.m[3,2]</i> (or equivalently mat._43) to 42.0.
 
 
 
-<a href="https://msdn.microsoft.com/56bf0a03-e3ea-43ed-a57e-b53f41348ffa">XMFLOAT4X3</a>
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3">XMFLOAT4X3</a>
 
 
 

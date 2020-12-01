@@ -57,7 +57,7 @@ The <code>NotifyOwnerMessage</code> method forwards a message to the video windo
 
 ### -param hwnd [in]
 
-A handle to the window, as an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/oahwnd">OAHWND</a> value.
+A handle to the window, as an <a href="/windows/desktop/DirectShow/oahwnd">OAHWND</a> value.
 
 ### -param uMsg [in]
 
@@ -120,9 +120,8 @@ The Filter Graph Manager calls this method to pass various messages to the rende
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>

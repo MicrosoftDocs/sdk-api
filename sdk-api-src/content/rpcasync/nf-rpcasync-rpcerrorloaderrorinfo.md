@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>RpcErrorLoadErrorInfo</b> function converts a BLOB obtained by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorsaveerrorinfo">RpcErrorSaveErrorInfo</a> into extended error information.
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorsaveerrorinfo">RpcErrorSaveErrorInfo</a> into extended error information.
 
 ## -parameters
 
@@ -73,32 +73,31 @@ Pointer to the enumeration handle associated with the extended error information
 Successful completion returns RPC_S_OK. The <b>RpcErrorLoadInfo</b> function call can fail if not enough memory is available.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 The BLOB pointed to in <i>ErrorBlob</i> remains the responsibility of the caller. The resulting enumeration is ready for enumeration. EnumHandle is subject to the same requirements of the <i>EnumHandle</i> parameter for 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorstartenumeration">RpcErrorStartEnumeration</a>. Once enumeration is completed, resources allocated by the enumeration should be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorendenumeration">RpcErrorEndEnumeration</a> function.
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorstartenumeration">RpcErrorStartEnumeration</a>. Once enumeration is completed, resources allocated by the enumeration should be freed using the 
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorendenumeration">RpcErrorEndEnumeration</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/obtaining-extended-rpc-error-information">Obtaining Extended RPC Error Information</a>
+<a href="/windows/desktop/Rpc/obtaining-extended-rpc-error-information">Obtaining Extended RPC Error Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/ns-rpcasync-rpc_error_enum_handle">RPC_ERROR_ENUM_HANDLE</a>
+<a href="/windows/desktop/api/rpcasync/ns-rpcasync-rpc_error_enum_handle">RPC_ERROR_ENUM_HANDLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorendenumeration">RpcErrorEndEnumeration</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorendenumeration">RpcErrorEndEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorsaveerrorinfo">RpcErrorSaveErrorInfo</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorsaveerrorinfo">RpcErrorSaveErrorInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorstartenumeration">RpcErrorStartEnumeration</a>
-
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorstartenumeration">RpcErrorStartEnumeration</a>

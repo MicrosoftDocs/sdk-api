@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Retrieves the canonical name of the property, given its <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
+Retrieves the canonical name of the property, given its <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
 
 ## -parameters
 
@@ -57,7 +57,7 @@ Retrieves the canonical name of the property, given its <a href="https://docs.mi
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that identifies the requested property.
+Reference to a <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that identifies the requested property.
 
 ### -param ppszCanonicalName [out]
 
@@ -94,7 +94,7 @@ The property's canonical name is obtained.
 </dl>
 </td>
 <td width="60%">
-Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> does not exist in the schema subsystem cache.
+Indicates that the <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> does not exist in the schema subsystem cache.
 
 </td>
 </tr>
@@ -104,12 +104,12 @@ Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/wtype
 
 Retrieves a canonical name for a specified property key. Like property keys, canonical names uniquely identify a property. For example, <code>System.Keywords</code> is the canonical name for <code>PKEY_Keywords</code>. This function succeeds only for properties registered as part of the property schema.
 
-It is the responsibility of the calling application to use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release the string referred to by <i>ppszCanonicalName</i> when it is no longer needed.
+It is the responsibility of the calling application to use <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release the string referred to by <i>ppszCanonicalName</i> when it is no longer needed.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetnamefrompropertykey">PSGetNameFromPropertyKey</a> to read a value from serialized property storage.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propsys/nf-propsys-psgetnamefrompropertykey">PSGetNameFromPropertyKey</a> to read a value from serialized property storage.
 
 
 ```cpp
@@ -127,17 +127,16 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getcanonicalname">IPropertyDescription::GetCanonicalName</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescription-getcanonicalname">IPropertyDescription::GetCanonicalName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertydescriptionbyname">PSGetPropertyDescriptionByName</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertydescriptionbyname">PSGetPropertyDescriptionByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertykeyfromname">PSGetPropertyKeyFromName</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertykeyfromname">PSGetPropertyKeyFromName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psstringfrompropertykey">PSStringFromPropertyKey</a>
-
+<a href="/windows/desktop/api/propsys/nf-propsys-psstringfrompropertykey">PSStringFromPropertyKey</a>

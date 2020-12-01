@@ -52,13 +52,12 @@ api_name:
 
 ## -description
 
-Defines values for the type of  application.  You can retrieve these flags  from the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplication">IRDPSRAPIApplication</a> interface that represents each application.
+Defines values for the type of  application.  You can retrieve these flags  from the <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplication">IRDPSRAPIApplication</a> interface that represents each application.
 
-You can retrieve the list of applications that are running on the sharing user session  for both the sharer and the viewer through the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationfilter">IRDPSRAPIApplicationFilter</a> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiapplicationfilter-get_applications">get_Applications</a> method.
+You can retrieve the list of applications that are running on the sharing user session  for both the sharer and the viewer through the <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationfilter">IRDPSRAPIApplicationFilter</a> interface by calling the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiapplicationfilter-get_applications">get_Applications</a> method.
 
 ## -enum-fields
 
 ### -field APP_FLAG_PRIVILEGED
 
 This flag indicates that the application cannot be shared. The application runs at a higher level than the process that is using the Windows Desktop Sharing API. An application can use this flag to prevent the user from sharing it by either disabling the entry for the application in the user interface or by not showing the entry.
-

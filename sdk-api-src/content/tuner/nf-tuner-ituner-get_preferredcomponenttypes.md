@@ -56,7 +56,7 @@ The <b>get_PreferredComponentTypes</b> method gets the collection of ComponentTy
 
 ### -param ComponentTypes [out]
 
-Address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttypes">IComponentTypes</a> interface pointer that receives the collection of ComponentType objects.
+Address of an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttypes">IComponentTypes</a> interface pointer that receives the collection of ComponentType objects.
 
 ## -returns
 
@@ -68,9 +68,8 @@ When a program ends, there may be a new set of stream components available, so a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>

@@ -64,11 +64,10 @@ The maximum capacity of the color glyph cache.
 
 The color glyph cache is used to store color bitmap glyphs and SVG glyphs, enabling faster performance if the same
       glyphs are needed again. The capacity determines the amount of memory that D2D may use to store glyphs that the application does not already reference. If the
-      application references a glyph using <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-getcolorbitmapglyphimage">GetColorBitmapGlyphImage</a> or
-      <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-getsvgglyphimage">GetSvgGlyphImage</a>, after it has been evicted, this
+      application references a glyph using <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-getcolorbitmapglyphimage">GetColorBitmapGlyphImage</a> or
+      <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext4-getsvgglyphimage">GetSvgGlyphImage</a>, after it has been evicted, this
       glyph does not count toward the cache capacity.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device4">ID2D1Device4</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device4">ID2D1Device4</a>

@@ -57,7 +57,7 @@ The <b>AddPolicyAdministratorName</b> method adds the specified account name to 
 
 ### -param bstrAdmin [in]
 
-The account name to add to the list of policy administrators.  The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format. If the domain is not  in the "ExampleDomain\UserName" format, the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function is called to retrieve the domain.
+The account name to add to the list of policy administrators.  The account name can be in either user principal name (UPN) format (for example, "someone@example.com") or in the "ExampleDomain\UserName" format. If the domain is not  in the "ExampleDomain\UserName" format, the <a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a> function is called to retrieve the domain.
 
 ### -param varReserved [in, optional]
 
@@ -76,7 +76,6 @@ Policy administrators for an object can perform the following tasks:
 <li>Delete child objects of the object</li>
 <li>Create child objects of the object</li>
 </ul>
-To view the list of policy administrators in account name format, use the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyadministratorsname">PolicyAdministratorsName</a> property.
+To view the list of policy administrators in account name format, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyadministratorsname">PolicyAdministratorsName</a> property.
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-submit">Submit</a> method to persist any changes made by this method.
-
+You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-submit">Submit</a> method to persist any changes made by this method.

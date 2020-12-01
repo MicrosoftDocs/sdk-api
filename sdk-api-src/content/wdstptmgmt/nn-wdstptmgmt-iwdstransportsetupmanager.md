@@ -54,7 +54,7 @@ Manages setup tasks on a WDS transport server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportSetupManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportSetupManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportSetupManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportSetupManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IWdsTransportSetupManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsetupmanager-deregistercontentprovider">DeregisterContentProvider</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsetupmanager-deregistercontentprovider">DeregisterContentProvider</a>
 </td>
 <td align="left" width="63%">
 Deregisters a content provider DLL from use by the WDS transport server.
@@ -79,7 +79,7 @@ Deregisters a content provider DLL from use by the WDS transport server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsetupmanager-registercontentprovider">RegisterContentProvider</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsetupmanager-registercontentprovider">RegisterContentProvider</a>
 </td>
 <td align="left" width="63%">
 Registers a content provider DLL for use by the WDS transport server.
@@ -97,7 +97,7 @@ Registers a content provider DLL for use by the WDS transport server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsetupmanager-get_installedfeatures">InstalledFeatures</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsetupmanager-get_installedfeatures">InstalledFeatures</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Receives a value that indicates which WDS features are installed on the server.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsetupmanager-get_protocols">Protocols</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsetupmanager-get_protocols">Protocols</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Receives a value that indicates which transport protocols are supported by the W
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsetupmanager-get_version">Version</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportsetupmanager-get_version">Version</a>
 
 
 </td>
@@ -143,4 +143,3 @@ Receives a value that indicates the operating system version of the WDS server.
 </td>
 </tr>
 </table>
-

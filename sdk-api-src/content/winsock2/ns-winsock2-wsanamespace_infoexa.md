@@ -191,16 +191,16 @@ A provider-specific data blob associated with namespace entry.
 
 ## -remarks
 
-The <b>WSANAMESPACE_INFOEX</b>  structure is an enhanced version of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFO</a> structure that is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a> functions to return information on available namespace providers. The <b>WSANAMESPACE_INFOEX</b>  structure contains the provider-specific data blob associated with the namespace entry
-                     passed in the <i>lpProviderInfo</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex">WSCInstallNameSpaceEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex32">WSCInstallNameSpaceEx32</a> functions.
+The <b>WSANAMESPACE_INFOEX</b>  structure is an enhanced version of the <a href="/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFO</a> structure that is used by the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a> and the <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a> functions to return information on available namespace providers. The <b>WSANAMESPACE_INFOEX</b>  structure contains the provider-specific data blob associated with the namespace entry
+                     passed in the <i>lpProviderInfo</i> parameter to the <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex">WSCInstallNameSpaceEx</a> and <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex32">WSCInstallNameSpaceEx32</a> functions.
 
-  Currently, the only namespace included with Windows that uses information in the <b>ProviderSpecific</b> member of the <b>WSANAMESPACE_INFOEX</b> structure are namespace providers for the NS_EMAIL namespace. The format of the <b>ProviderSpecific</b> member for an NS_EMAIL namespace provider is a <a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure.
+  Currently, the only namespace included with Windows that uses information in the <b>ProviderSpecific</b> member of the <b>WSANAMESPACE_INFOEX</b> structure are namespace providers for the NS_EMAIL namespace. The format of the <b>ProviderSpecific</b> member for an NS_EMAIL namespace provider is a <a href="/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a> structure.
 
 When UNICODE or _UNICODE is defined, <b>WSANAMESPACE_INFOEX</b> is defined to <b>WSANAMESPACE_INFOEXW</b>, the Unicode version of this structure and the <b>lpszIdentifier</b> string member is defined to the  <b>LPWSTR</b> data type.
 
 When UNICODE or _UNICODE is not defined, <b>WSANAMESPACE_INFOEX</b> is defined to <b>WSANAMESPACE_INFOEXA</b>, the ANSI version of this structure and the <b>lpszIdentifier</b> string member is defined to the  <b>LPSTR</b> data type.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a> function is a Unicode only function and returns <b>WSANAMESPACE_INFOEXW</b> structures. 
+The <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a> function is a Unicode only function and returns <b>WSANAMESPACE_INFOEXW</b> structures. 
 
 
 
@@ -211,25 +211,24 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wsc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a>
+<a href="/windows/desktop/api/nsemail/ns-nsemail-napi_provider_installation_blob">NAPI_PROVIDER_INSTALLATION_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersexa">WSAEnumNameSpaceProvidersEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFO</a>
+<a href="/windows/desktop/api/winsock2/ns-winsock2-wsanamespace_infow">WSANAMESPACE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumnamespaceprovidersex32">WSCEnumNameSpaceProvidersEx32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex">WSCInstallNameSpaceEx</a>
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex">WSCInstallNameSpaceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex32">WSCInstallNameSpaceEx32</a>
-
+<a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex32">WSCInstallNameSpaceEx32</a>

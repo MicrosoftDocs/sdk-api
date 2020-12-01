@@ -74,7 +74,7 @@ Computer section
 ### -param hKey [out]
 
 Receives the handle to the registry key. This handle is opened with all access rights. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
+<a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 ## -returns
 
@@ -84,22 +84,21 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method r
 
 The registry handle is a handle to the root of the registry key. To get or set values in the 
 Policies key, first call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function to open the <b>Software\Policies</b> key.
+<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function to open the <b>Software\Policies</b> key.
 
 When you have finished using the registry handle, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a> function to close the handle.
+<a href="/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a> function to close the handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
     Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>
-
+<a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>

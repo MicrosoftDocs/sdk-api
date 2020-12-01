@@ -154,7 +154,7 @@ Used to disable the change-icon button in the dialog box, which is available to 
 </dl>
 </td>
 <td width="60%">
- Used in conjunction with <b>STAYONCLIPBOARDCHANGE</b> (it doesn't do anything otherwise). If the clipboard changes while the dialog box is up and <b>STAYONCLIPBOARDCHANGE</b> is specified, then <b>NOREFRESHDATAOBJECT</b> indicates that the dialog box should NOT refresh the contents of the dialog box to reflect the new contents of the clipboard. This is useful if the application is using the paste-special dialog box on an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> besides the one on the clipboard, for example, as part of a right-click drag-and-drop operation. 
+ Used in conjunction with <b>STAYONCLIPBOARDCHANGE</b> (it doesn't do anything otherwise). If the clipboard changes while the dialog box is up and <b>STAYONCLIPBOARDCHANGE</b> is specified, then <b>NOREFRESHDATAOBJECT</b> indicates that the dialog box should NOT refresh the contents of the dialog box to reflect the new contents of the clipboard. This is useful if the application is using the paste-special dialog box on an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> besides the one on the clipboard, for example, as part of a right-click drag-and-drop operation. 
 
 
 </td>
@@ -191,19 +191,19 @@ Customized template handle.
 
 ### -field lpSrcDataObj
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface of the data object to be pasted (from the clipboard). This member is filled on input. If <b>lpSrcDataObj</b> is <b>NULL</b> when <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">OleUIPasteSpecial</a> is called, then <b>OleUIPasteSpecial</b> will attempt to retrieve a pointer to an <b>IDataObject</b> from the clipboard. If <b>OleUIPasteSpecial</b> succeeds, it is the caller's responsibility to free the <b>IDataObject</b> returned in <b>lpSrcDataObj</b>.
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface of the data object to be pasted (from the clipboard). This member is filled on input. If <b>lpSrcDataObj</b> is <b>NULL</b> when <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">OleUIPasteSpecial</a> is called, then <b>OleUIPasteSpecial</b> will attempt to retrieve a pointer to an <b>IDataObject</b> from the clipboard. If <b>OleUIPasteSpecial</b> succeeds, it is the caller's responsibility to free the <b>IDataObject</b> returned in <b>lpSrcDataObj</b>.
 
 ### -field arrPasteEntries
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array which specifies acceptable formats. This member is filled on input.
+The <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array which specifies acceptable formats. This member is filled on input.
 
 ### -field cPasteEntries
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array entries. This member is filled on input.
+Number of <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a> array entries. This member is filled on input.
 
 ### -field arrLinkTypes
 
-List of link types that are acceptable. Link types are referred to using <a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a> in <b>arrPasteEntries</b>. This member is filled on input.
+List of link types that are acceptable. Link types are referred to using <a href="/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a> in <b>arrPasteEntries</b>. This member is filled on input.
 
 ### -field cLinkTypes
 
@@ -235,18 +235,17 @@ The size of object as displayed in its source, if the display aspect chosen by t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a>
+<a href="/windows/desktop/api/oledlg/ns-oledlg-oleuipasteentrya">OLEUIPASTEENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a>
+<a href="/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">OleUIPasteSpecial</a>
+<a href="/windows/desktop/api/oledlg/nf-oledlg-oleuipastespeciala">OleUIPasteSpecial</a>
 
 ## -remarks
 
 > [!NOTE]
 > The oledlg.h header defines OLEUIPASTESPECIAL as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

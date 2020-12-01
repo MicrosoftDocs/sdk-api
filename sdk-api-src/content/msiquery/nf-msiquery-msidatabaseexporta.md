@@ -53,13 +53,13 @@ api_name:
 ## -description
 
 The 
-<b>MsiDatabaseExport</b> function exports a Microsoft Installer table from an open database to a <a href="https://docs.microsoft.com/windows/desktop/Msi/text-archive-files">Text Archive File</a>.
+<b>MsiDatabaseExport</b> function exports a Microsoft Installer table from an open database to a <a href="/windows/desktop/Msi/text-archive-files">Text Archive File</a>.
 
 ## -parameters
 
 ### -param hDatabase [in]
 
-The handle to a database  from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>.
+The handle to a database  from <a href="/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>.
 
 ### -param szTableName [in]
 
@@ -146,11 +146,11 @@ If a table contains streams,
 <b>MsiDatabaseExport</b> exports each stream to a separate file.
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msidatabaseimporta">MsiDatabaseImport</a>.
+<a href="/windows/desktop/api/msiquery/nf-msiquery-msidatabaseimporta">MsiDatabaseImport</a>.
 
 This function cannot be called from custom actions. A call to this function from a custom action causes the function to fail.
 
-If the function fails, you can get extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can get extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -161,9 +161,8 @@ If the function fails, you can get extended error information by using <a href="
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Database Management Functions</a>
+<a href="/windows/desktop/Msi/database-functions">Database Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/text-archive-files">Text Archive Files</a>
-
+<a href="/windows/desktop/Msi/text-archive-files">Text Archive Files</a>

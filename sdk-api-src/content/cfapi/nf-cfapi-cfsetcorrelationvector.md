@@ -68,5 +68,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-The platform automatically assigns a correlation vector to each file when it is first opened, and provides this correlation vector with each callback to the sync provider as part of the common <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/ns-cfapi-cf_callback_info">CF_CALLBACK_INFO</a>.  It is suggested that the sync engine call this function to increment the last digit of the correlation vector “clock” as the sync provider progresses through internal stages (as defined by the sync provider) of satisfying the request.
-
+The platform automatically assigns a correlation vector to each file when it is first opened, and provides this correlation vector with each callback to the sync provider as part of the common <a href="/windows/desktop/api/cfapi/ns-cfapi-cf_callback_info">CF_CALLBACK_INFO</a>.  It is suggested that the sync engine call this function to increment the last digit of the correlation vector “clock” as the sync provider progresses through internal stages (as defined by the sync provider) of satisfying the request.

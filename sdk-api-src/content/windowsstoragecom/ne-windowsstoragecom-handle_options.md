@@ -69,25 +69,24 @@ The file is to be deleted immediately after this handle is closed.
 ### -field HO_SEQUENTIAL_SCAN
 
 Access is intended to be sequential from beginning to end. The system can use this as a hint to optimize file caching.
-For additional information, see <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">Caching Behavior</a>.
+For additional information, see <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">Caching Behavior</a>.
 
 ### -field HO_RANDOM_ACCESS
 
 Access is intended to be random. The system can use this as a hint to optimize file caching.
-For more information, see  <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">Caching Behavior</a>.
+For more information, see  <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">Caching Behavior</a>.
 
 ### -field HO_NO_BUFFERING
 
 The file is being opened with no system caching for data reads and writes. This flag does not affect hard disk caching or memory mapped files.
-There are strict requirements for successfully working with files opened with this flag. For details see  <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-buffering">File Buffering</a>.
+There are strict requirements for successfully working with files opened with this flag. For details see  <a href="/windows/desktop/FileIO/file-buffering">File Buffering</a>.
 
 ### -field HO_OVERLAPPED
 
 The file is being opened or created for asynchronous I/O.
-For information about considerations when using a file handle created with this flag, see  <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">Synchronous and Asynchronous I/O Handles</a>.
+For information about considerations when using a file handle created with this flag, see  <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">Synchronous and Asynchronous I/O Handles</a>.
 
 ### -field HO_WRITE_THROUGH
 
 Write operations will not go through any intermediate cache, they will go directly to disk.
-For additional information, see  <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">Caching Behavior</a>.
-
+For additional information, see  <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">Caching Behavior</a>.

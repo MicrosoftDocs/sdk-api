@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Defines the event types that an event logging action (see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmactiontype">FsrmActionType</a>) can log.
+    <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmactiontype">FsrmActionType</a>) can log.
 
 ## -enum-fields
 
@@ -75,13 +75,12 @@ The event is an error event.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
+<a href="/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmactioneventlog-get_eventtype">IFsrmActionEventLog::EventType</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmactioneventlog-get_eventtype">IFsrmActionEventLog::EventType</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmaction">MSFT_FSRMAction</a>
-
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmaction">MSFT_FSRMAction</a>

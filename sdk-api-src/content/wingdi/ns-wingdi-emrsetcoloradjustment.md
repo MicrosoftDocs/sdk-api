@@ -64,17 +64,16 @@ The base structure for all record types.
 
 ### -field ColorAdjustment
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-coloradjustment">COLORADJUSTMENT</a> structure.
+A <a href="/windows/desktop/api/wingdi/ns-wingdi-coloradjustment">COLORADJUSTMENT</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setcoloradjustment">SetColorAdjustment</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setcoloradjustment">SetColorAdjustment</a>

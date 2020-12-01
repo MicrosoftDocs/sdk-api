@@ -60,5 +60,4 @@ This method returns the <b>HRESULT</b> value stored in the call frame.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>

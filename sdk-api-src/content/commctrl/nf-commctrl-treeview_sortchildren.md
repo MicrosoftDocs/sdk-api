@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sorts the child items of the specified parent item in a tree-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-sortchildren">TVM_SORTCHILDREN</a> message explicitly.
+Sorts the child items of the specified parent item in a tree-view control. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-sortchildren">TVM_SORTCHILDREN</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -68,11 +68,10 @@ Handle to the parent item whose child items are to be sorted.
 
 ### -param recurse
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Value that specifies whether the sorting is recursive. Set <i>fRecurse</i> to <b>TRUE</b> to sort all levels of child items below the parent item. Otherwise, only the parent's immediate children are sorted.
 
 ## -remarks
 
-This message alphabetizes the tree items using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a> on the item name. You can use the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-sortchildrencb">TVM_SORTCHILDRENCB</a> message to customize the ordering behavior.
-
+This message alphabetizes the tree items using <a href="/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a> on the item name. You can use the <a href="/windows/desktop/Controls/tvm-sortchildrencb">TVM_SORTCHILDRENCB</a> message to customize the ordering behavior.

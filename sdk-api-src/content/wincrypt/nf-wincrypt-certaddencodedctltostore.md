@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CertAddEncodedCTLToStore</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a> from an encoded CTL and adds it to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate store</a>. The function makes a copy of the CTL context before adding it to the store.
+The <b>CertAddEncodedCTLToStore</b> function creates a <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) <a href="/windows/desktop/SecGloss/c-gly">context</a> from an encoded CTL and adds it to the <a href="/windows/desktop/SecGloss/c-gly">certificate store</a>. The function makes a copy of the CTL context before adding it to the store.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Handle of a certificate store.
 
 ### -param dwMsgAndCertEncodingType [in]
 
-Specifies the type of encoding used. Both the certificate and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">message encoding types</a> must be specified by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
+Specifies the type of encoding used. Both the certificate and <a href="/windows/desktop/SecGloss/m-gly">message encoding types</a> must be specified by combining them with a bitwise-<b>OR</b> operation as shown in the following example:
 
 X509_ASN_ENCODING | PKCS_7_ASN_ENCODING
 
@@ -108,7 +108,7 @@ Makes no check for an existing matching CTL or link to a matching CTL. A new CTL
 </td>
 <td width="60%">
 If a matching CTL or a link to a matching CTL exists, the operation fails. 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the CRYPT_E_EXISTS code.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns the CRYPT_E_EXISTS code.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ If a matching CTL or a link to a matching CTL exists, the operation fails.
 </td>
 <td width="60%">
 If a matching CTL or a link to a matching CTL exists, the <b>ThisUpdate</b> times on the CTLs are compared. If the existing CTL has a <b>ThisUpdate</b> time less than the <b>ThisUpdate</b> time on the new CTL, the old CTL or link is replaced just as with CERT_STORE_ADD_REPLACE_EXISTING. If the existing CTL has a <b>ThisUpdate</b> time greater than or equal to the <b>ThisUpdate</b> time on the CTL to be added, the function fails with 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returning the CRYPT_E_EXISTS code. 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returning the CRYPT_E_EXISTS code. 
 
 
 
@@ -178,15 +178,15 @@ If a matching CTL or a link to a matching CTL does not exist, a new CTL is added
 ### -param ppCtlContext [out, optional]
 
 A pointer to a pointer to the decoded 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure. Can be <b>NULL</b> indicating that the calling application does not require a copy of the added or existing CTL. If a copy is made, it must be freed by using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure. Can be <b>NULL</b> indicating that the calling application does not require a copy of the added or existing CTL. If a copy is made, it must be freed by using 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>.
 
 ## -returns
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 Some possible error codes follow.
 
@@ -222,18 +222,17 @@ A disposition value that is not valid was specified in the <i>dwAddDisposition</
 </table>
  
 
-If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
+If the function fails, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddctlcontexttostore">CertAddCTLContextToStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddctlcontexttostore">CertAddCTLContextToStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreectlcontext">CertFreeCTLContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the interactions to enable when configuring an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Specifies the interactions to enable when configuring an <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 ## -enum-fields
 
@@ -168,13 +168,12 @@ Maximum number of interactions exceeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_configuration">INTERACTION_CONTEXT_CONFIGURATION</a>
+<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_configuration">INTERACTION_CONTEXT_CONFIGURATION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/enumerations">Interaction Context Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setinteractionconfigurationinteractioncontext">SetInteractionConfigurationInteractionContext</a>
-
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setinteractionconfigurationinteractioncontext">SetInteractionConfigurationInteractionContext</a>

@@ -114,7 +114,7 @@ Only the signer specified by *<i>pdwSignerIndex</i> is returned. Otherwise, iter
 
 ### -param ppSigner [out, optional]
 
-If the signature is verified, <i>ppSigner</i> is updated to point to the signer's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>. When you have finished using the certificate, free the context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function. This parameter can be <b>NULL</b> if the application has no need for the signer's certificate.
+If the signature is verified, <i>ppSigner</i> is updated to point to the signer's <a href="/windows/desktop/SecGloss/c-gly">certificate context</a>. When you have finished using the certificate, free the context by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function. This parameter can be <b>NULL</b> if the application has no need for the signer's certificate.
 
 ### -param pdwSignerIndex [in, out, optional]
 
@@ -125,25 +125,24 @@ If the signature is verified, <i>pdwSigner</i> is updated to point to the index 
 If the function succeeds, the return value is nonzero (TRUE).
 
 If the function fails, the return value is zero (FALSE). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode">CryptMsgOpenToDecode</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentodecode">CryptMsgOpenToDecode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Verification Functions Using CTLs</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Verification Functions Using CTLs</a>

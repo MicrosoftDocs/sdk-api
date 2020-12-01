@@ -61,7 +61,7 @@ The <b>GetPAT</b> method retrieves the program association table (PAT).
 
 ### -param ppPAT [out]
 
-Receives an <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT</a> interface pointer. The caller must release the interface.
+Receives an <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipat">IPAT</a> interface pointer. The caller must release the interface.
 
 ## -returns
 
@@ -135,5 +135,4 @@ The method fails if the filter does not receive a matching table within a predet
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Offers  access to global spanning events and their data from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filters.  A <i>global spanning event</i> contains state information that applies to all the streams in a pipeline.
+Offers  access to global spanning events and their data from the <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filters.  A <i>global spanning event</i> contains state information that applies to all the streams in a pipeline.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2GlobalEvent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2GlobalEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2GlobalEvent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2GlobalEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>ISBE2GlobalEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2globalevent-getevent">GetEvent</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2globalevent-getevent">GetEvent</a>
 </td>
 <td align="left" width="63%">
-Gets an global spanning event and its data from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
+Gets an global spanning event and its data from a <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source</a> filter.
 
 
 </td>
@@ -82,4 +82,3 @@ Gets an global spanning event and its data from a <a href="https://docs.microsof
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(ISBE2GlobalEvent)</code>.
-

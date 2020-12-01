@@ -99,9 +99,8 @@ One or more arguments are incorrect.
 
 This method will be successful even if one or more of the category IDs specified are not registered. This method can only be called by the owner of a category, usually as part of the installation or de-installation of the operating system or application.
 
-This method does not remove the component category tags from individual classes. To do this, use the <a href="https://docs.microsoft.com/windows/desktop/api/comcat/nf-comcat-icatregister-unregisterclassreqcategories">ICatRegister::UnRegisterClassReqCategories</a> method.
+This method does not remove the component category tags from individual classes. To do this, use the <a href="/windows/desktop/api/comcat/nf-comcat-icatregister-unregisterclassreqcategories">ICatRegister::UnRegisterClassReqCategories</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>
-
+<a href="/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>

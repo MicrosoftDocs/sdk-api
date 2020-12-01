@@ -68,9 +68,8 @@ Describes a packet property that is reported by the tablet driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION Structure</a>
+<a href="/windows/desktop/api/tpcshrd/ns-tpcshrd-packet_description">PACKET_DESCRIPTION Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-property_metrics">PROPERTY_METRICS Structure</a>
-
+<a href="/windows/desktop/api/tpcshrd/ns-tpcshrd-property_metrics">PROPERTY_METRICS Structure</a>

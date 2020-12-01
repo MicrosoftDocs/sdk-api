@@ -54,7 +54,7 @@ The <b>capWaveStreamCallback</b> function is the callback function used with str
 
 
 
-To set the callback, send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-wavestream">WM_CAP_SET_CALLBACK_WAVESTREAM</a> message to the capture window or call the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonwavestream">capSetCallbackOnWaveStream</a> macro.
+To set the callback, send the <a href="/windows/desktop/Multimedia/wm-cap-set-callback-wavestream">WM_CAP_SET_CALLBACK_WAVESTREAM</a> message to the capture window or call the <a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackonwavestream">capSetCallbackOnWaveStream</a> macro.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Handle to the capture window associated with the callback function.
 
 ### -param lpWHdr
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure containing information about the captured audio data.
+Pointer to a <a href="/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure containing information about the captured audio data.
 
 ## -remarks
 
@@ -72,9 +72,8 @@ The capture window calls a wave stream callback function when an audio buffer is
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>

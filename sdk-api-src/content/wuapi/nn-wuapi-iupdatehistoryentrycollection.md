@@ -50,5 +50,4 @@ api_name:
 
 ## -description
 
-Represents an ordered read-only list of <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a> interfaces.
-
+Represents an ordered read-only list of <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a> interfaces.

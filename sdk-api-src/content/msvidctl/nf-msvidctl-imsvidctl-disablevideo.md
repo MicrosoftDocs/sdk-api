@@ -64,9 +64,8 @@ This method sets the active video renderer device to <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_videorendereractive">IMSVidCtl::put_VideoRendererActive</a>
-
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_videorendereractive">IMSVidCtl::put_VideoRendererActive</a>

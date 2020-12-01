@@ -50,27 +50,27 @@ api_name:
 
 ## -description
 
-Accepts a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> that contains or points to a string, and returns that string as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a>.
+Accepts a <a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure returned by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a> that contains or points to a string, and returns that string as a <a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a>.
 
 ## -parameters
 
 ### -param pstr [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a>*</b>
+Type: <b><a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure. When the function returns, this pointer is longer valid.
+A pointer to a <a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure. When the function returns, this pointer is longer valid.
 
 ### -param pidl [in]
 
 Type: <b>PCUITEMID_CHILD</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> that uniquely identifies a file object or subfolder relative to the parent folder. This value can be <b>NULL</b>.
+A pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> that uniquely identifies a file object or subfolder relative to the parent folder. This value can be <b>NULL</b>.
 
 ### -param pbstr [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a>*</b>
+Type: <b><a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a>*</b>
 
-A pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> that receives the converted string.
+A pointer to a variable of type <a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> that receives the converted string.
 
 ## -returns
 
@@ -80,17 +80,16 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-If the <i>uType</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure pointed to by <i>pstr</i> is set to <b>STRRET_WSTR</b>, the <i>pOleStr</i> member of that structure is freed on return.
+If the <i>uType</i> member of the <a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure pointed to by <i>pstr</i> is set to <b>STRRET_WSTR</b>, the <i>pOleStr</i> member of that structure is freed on return.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettobufa">StrRetToBuf</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strrettobufa">StrRetToBuf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>

@@ -87,7 +87,7 @@ Obtains the function provider implemented by the current application. This objec
 
 ### -param ppFuncProv [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider</a> interface that receives the function provider.
+Pointer to a <a href="/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider</a> interface that receives the function provider.
 
 ## -returns
 
@@ -135,9 +135,8 @@ GUID_SYSTEM_FUNCTIONPROVIDER was requested, but cannot be obtained.
 
 ## -remarks
 
-A function provider registers by calling the TSF manager <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink</a> method with IID_ITfFunctionProvider.
+A function provider registers by calling the TSF manager <a href="/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink</a> method with IID_ITfFunctionProvider.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>

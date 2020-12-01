@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
 api_name:
  - ImageList_Destroy
+req.apiset: ext-ms-win-shell-comctl32-init-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ImageList_Destroy function
@@ -63,7 +64,6 @@ A handle to the image list to destroy.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
-

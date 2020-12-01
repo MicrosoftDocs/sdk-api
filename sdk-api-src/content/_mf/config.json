@@ -15,6 +15,7 @@
     "dxva.h",
     "uuids.h",
     "codecapi.h",
+    "icodecapi.h",
     "dxvahd.h",
     "opmapi.h",
     "ksopmapi.h",

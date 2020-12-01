@@ -87,7 +87,7 @@ A pointer to a variable that receives the number of bytes transferred into the s
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-[GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+[GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md).
 
 The function fails if the requested read operation crosses into an area of the process that is inaccessible.
 
@@ -99,5 +99,4 @@ The entire area to be read must be accessible, and if it is not accessible, the 
 
 ## -see-also
 
-[Debugging Functions](/windows/win32/debug/debugging-functions), [OpenProcess](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocess), [Process Functions for Debugging](/windows/win32/debug/process-functions-for-debugging), [VirtualAllocEx](/windows/win32/api/memoryapi/nf-memoryapi-virtualallocex), [WriteProcessMemory](/windows/win32/api/memoryapi/nf-memoryapi-writeprocessmemory)
-
+[Debugging Functions](/windows/win32/debug/debugging-functions), [OpenProcess](../processthreadsapi/nf-processthreadsapi-openprocess.md), [Process Functions for Debugging](/windows/win32/debug/process-functions-for-debugging), [VirtualAllocEx](./nf-memoryapi-virtualallocex.md), [WriteProcessMemory](./nf-memoryapi-writeprocessmemory.md)

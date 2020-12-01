@@ -55,7 +55,7 @@ Represents a description of a video format.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoMediaType</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>. <b>IMFVideoMediaType</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoMediaType</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>. <b>IMFVideoMediaType</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,16 +70,16 @@ The <b>IMFVideoMediaType</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfvideomediatype-getvideoformat">GetVideoFormat</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfvideomediatype-getvideoformat">GetVideoFormat</a>
 </td>
 <td align="left" width="63%">
-Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure that describes the video format. (Deprecated.)
+Returns a pointer to an <a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure that describes the video format. (Deprecated.)
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfvideomediatype-getvideorepresentation">GetVideoRepresentation</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfvideomediatype-getvideorepresentation">GetVideoRepresentation</a>
 </td>
 <td align="left" width="63%">
 Retrieves an alternative representation of the media type. (Deprecated.)
@@ -92,21 +92,20 @@ Retrieves an alternative representation of the media type. (Deprecated.)
 
 If the major type of a media type is MFMediaType_Video, you can query the media type object for the <b>IMFVideoMediaType</b> interface.
 
-Applications should avoid using this interface except when a method or function requires an <b>IMFVideoMediaType</b> pointer as a parameter. You can get all of the format information from a video media type through the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface, which <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> inherits.
+Applications should avoid using this interface except when a method or function requires an <b>IMFVideoMediaType</b> pointer as a parameter. You can get all of the format information from a video media type through the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface, which <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> inherits.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-attributes">Media Type Attributes</a>
+<a href="/windows/desktop/medfound/media-type-attributes">Media Type Attributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

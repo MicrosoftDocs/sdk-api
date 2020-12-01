@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Use of ISurrogateService is not recommended; use <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a> instead.]
+<p class="CCE_Message">[Use of ISurrogateService is not recommended; use <a href="/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a> instead.]
 
 Used to initialize, launch, and release a COM+ application. You can also refresh the catalog and shut down the process.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurrogateService</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISurrogateService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurrogateService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISurrogateService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ISurrogateService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isurrogateservice-applicationfree">ApplicationFree</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isurrogateservice-applicationfree">ApplicationFree</a>
 </td>
 <td align="left" width="63%">
 Releases the application.
@@ -80,7 +80,7 @@ Releases the application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isurrogateservice-applicationlaunch">ApplicationLaunch</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isurrogateservice-applicationlaunch">ApplicationLaunch</a>
 </td>
 <td align="left" width="63%">
 Launches the application.
@@ -89,7 +89,7 @@ Launches the application.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isurrogateservice-catalogrefresh">CatalogRefresh</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isurrogateservice-catalogrefresh">CatalogRefresh</a>
 </td>
 <td align="left" width="63%">
 Refreshes the catalog.
@@ -98,7 +98,7 @@ Refreshes the catalog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isurrogateservice-init">Init</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isurrogateservice-init">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the process server.
@@ -107,7 +107,7 @@ Initializes the process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isurrogateservice-processshutdown">ProcessShutdown</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isurrogateservice-processshutdown">ProcessShutdown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the process.
@@ -118,5 +118,4 @@ Shuts down the process.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a>

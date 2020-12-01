@@ -72,5 +72,4 @@ The middle mouse button was pressed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>

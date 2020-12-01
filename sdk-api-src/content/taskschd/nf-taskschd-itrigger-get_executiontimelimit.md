@@ -62,13 +62,12 @@ This property is read/write.
 
 The format for this string is PnYnMnDTnHnMnS, where nY is the number of years, nM is the number of months, nD is the number of days, 'T' is the date/time separator, nH is the number of hours, nM is the number of minutes, and nS is the number of seconds (for example, PT5M specifies 5 minutes and P1M4DT2H5M specifies one month, four days, two hours, and five minutes).
 
-When reading or writing XML for a task, the execution time limit is specified in the  <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-executiontimelimit-triggerbasetype-element">ExecutionTimeLimit</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the execution time limit is specified in the  <a href="/windows/desktop/TaskSchd/taskschedulerschema-executiontimelimit-triggerbasetype-element">ExecutionTimeLimit</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

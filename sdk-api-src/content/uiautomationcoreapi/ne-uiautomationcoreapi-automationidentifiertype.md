@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains values used in the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uialookupid">UiaLookupId</a> function.
+Contains values used in the <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uialookupid">UiaLookupId</a> function.
 
 ## -enum-fields
 
@@ -94,4 +94,3 @@ Specifies a style ID.
 #### - AutomationIdentifierType_HeadingLevel
 
 Specifies a heading level ID.
-

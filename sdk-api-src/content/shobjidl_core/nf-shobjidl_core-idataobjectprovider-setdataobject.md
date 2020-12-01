@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Wraps an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance as a Windows Runtime <a href="https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.datatransfer.datapackage.aspx">DataPackage</a>.
+Wraps an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance as a Windows Runtime <a href="/uwp/api/Windows.ApplicationModel.DataTransfer.DataPackage">DataPackage</a>.
 
 ## -parameters
 
 ### -param dataObject [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface pointer to the data object from which to build the DataPackage object.
+An <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface pointer to the data object from which to build the DataPackage object.
 
 ## -returns
 
@@ -64,9 +64,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idataobjectprovider">IDataObjectProvider</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idataobjectprovider">IDataObjectProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idataobjectprovider-getdataobject">IDataObjectProvider::GetDataObject</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idataobjectprovider-getdataobject">IDataObjectProvider::GetDataObject</a>

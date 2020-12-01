@@ -92,17 +92,16 @@ A handle to the icon color bitmap. This member can be optional if this structure
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
+<a href="/windows/desktop/menurc/icons">Icons</a>
 
 
 
 <b>Reference</b>
-

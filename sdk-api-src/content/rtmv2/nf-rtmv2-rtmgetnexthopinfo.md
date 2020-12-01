@@ -58,7 +58,7 @@ The
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 ### -param NextHopHandle [in]
 
@@ -67,7 +67,7 @@ Handle to the next hop.
 ### -param NextHopInfo [out]
 
 On input, <i>NextHopInfo</i> a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_nexthop_info">RTM_NEXTHOP_INFO</a> structure. 
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_nexthop_info">RTM_NEXTHOP_INFO</a> structure. 
 
 
 
@@ -105,13 +105,12 @@ The handle is invalid.
 ## -remarks
 
 When the next hop handle is no longer required, release it by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeletenexthop">RtmDeleteNextHop</a>.
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeletenexthop">RtmDeleteNextHop</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_nexthop_info">RTM_NEXTHOP_INFO</a>
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_nexthop_info">RTM_NEXTHOP_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthopinfo">RtmReleaseNextHopInfo</a>
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleasenexthopinfo">RtmReleaseNextHopInfo</a>

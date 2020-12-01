@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure with a string stored in a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure.
+Initializes a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure with a string stored in a <a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure.
 
 ## -parameters
 
 ### -param pstrret [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a>*</b>
+Type: <b><a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure.
+Pointer to a <a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure.
 
 ### -param pidl [in]
 
@@ -70,7 +70,7 @@ PIDL of the item whose details are being retrieved.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ## -returns
 
@@ -82,12 +82,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 Creates a VT_BSTR variant.
 
-<div class="alert"><b>Note</b>  This function frees the resources used for the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> contents.</div>
+<div class="alert"><b>Note</b>  This function frees the resources used for the <a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> contents.</div>
 <div> </div>
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromstrret">InitVariantFromStrRet</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromstrret">InitVariantFromStrRet</a>.
 
 
 ```cpp
@@ -107,13 +107,12 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromstring">InitVariantFromString</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromstring">InitVariantFromString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttostring">VariantToString</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttostring">VariantToString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttostringwithdefault">VariantToStringWithDefault</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttostringwithdefault">VariantToStringWithDefault</a>

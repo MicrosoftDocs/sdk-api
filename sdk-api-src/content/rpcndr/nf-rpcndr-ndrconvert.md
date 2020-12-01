@@ -56,7 +56,7 @@ The <b>NdrConvert</b> function converts the network buffer from the data represe
 
 ### -param pStubMsg [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The <b>pRpcMsg</b> member points to a structure whose <b>Buffer</b> member contains the data to convert. This structure is for internal use only and should not be modified.
+Pointer to a <a href="/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The <b>pRpcMsg</b> member points to a structure whose <b>Buffer</b> member contains the data to convert. This structure is for internal use only and should not be modified.
 
 ### -param pFormat [in]
 
@@ -87,5 +87,4 @@ This function has no return values. If an error occurs, the function throws one 
 
 ## -remarks
 
-The <b>NdrConvert</b> function is used by all <a href="https://docs.microsoft.com/windows/desktop/Midl/-oi">/Oi</a>, <b>/Oic</b>, and <a href="https://docs.microsoft.com/windows/desktop/Midl/-os">/Os</a> mode  stubs.
-
+The <b>NdrConvert</b> function is used by all <a href="/windows/desktop/Midl/-oi">/Oi</a>, <b>/Oic</b>, and <a href="/windows/desktop/Midl/-os">/Os</a> mode  stubs.

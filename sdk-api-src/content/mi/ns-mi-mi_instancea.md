@@ -52,15 +52,14 @@ api_name:
 
 ## -description
 
-Represents an array of <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structures.
+Represents an array of <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structures.
 
 ## -struct-fields
 
 ### -field data
 
-An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structures.
+An array of pointers to <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structures.
 
 ### -field size
 
 Number of items in the data array.
-

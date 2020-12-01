@@ -109,5 +109,4 @@ Last item in enum. Allows device-specific additions to this enum.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphoneevent-get_event">ITPhoneEvent::get_Event</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphoneevent-get_event">ITPhoneEvent::get_Event</a>

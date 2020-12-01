@@ -67,17 +67,17 @@ Globally unique identifier (GUID) of the writer class.
 ### -param ct [in]
 
 Type of the component. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> for the possible values.
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a> for the possible values.
 
 ### -param wszLogicalPath [in]
 
 <b>Null</b>-terminated wide character string containing the logical path of the component. 
 
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
+For more information, see <a href="/windows/desktop/VSS/logical-pathing-of-components">Logical Pathing of Components</a>.
 
 The value of the string containing the logical path used here should be the same as was used when the component was added to the backup set using 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
 
 The logical path can be <b>NULL</b>.
 
@@ -91,7 +91,7 @@ There are no restrictions on the characters that can appear in a non-<b>NULL</b>
 
 
 The string cannot be <b>NULL</b> and should contain the same component name as was used when the component was added to the backup set using 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addcomponent">IVssBackupComponents::AddComponent</a>.
 
 ### -param bSucceded [in]
 
@@ -169,7 +169,7 @@ The backup component does not exist.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -181,7 +181,7 @@ The XML document is not valid. Check the event log for details. For more informa
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -192,26 +192,25 @@ Unexpected error. The error code is logged in the error log file. For more infor
 ## -remarks
 
 When working in component mode (when 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a> is called with its select components argument set to <b>true</b>), writers check the state of each components backup using 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupsucceeded">IVssComponent::GetBackupSucceeded</a>. Therefore, a well-behaved backup application (requester) must call 
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a> is called with its select components argument set to <b>true</b>), writers check the state of each components backup using 
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupsucceeded">IVssComponent::GetBackupSucceeded</a>. Therefore, a well-behaved backup application (requester) must call 
 <b>SetBackupSucceeded</b> after each component has been processed and prior to calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">IVssBackupComponents::BackupComplete</a>.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">IVssBackupComponents::BackupComplete</a>.
 
-Do not call this method if the call to <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a> failed.  For more information about how requesters use  <b>DoSnapshotSet</b>, <b>SetBackupSucceeded</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">BackupComplete</a> in a backup operation, see <a href="https://docs.microsoft.com/windows/desktop/VSS/overview-of-pre-backup-tasks">Overview of Pre-Backup Tasks</a> and <a href="https://docs.microsoft.com/windows/desktop/VSS/overview-of-actual-backup-of-files">Overview of Actual Backup Of Files</a>.
+Do not call this method if the call to <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a> failed.  For more information about how requesters use  <b>DoSnapshotSet</b>, <b>SetBackupSucceeded</b>, and <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">BackupComplete</a> in a backup operation, see <a href="/windows/desktop/VSS/overview-of-pre-backup-tasks">Overview of Pre-Backup Tasks</a> and <a href="/windows/desktop/VSS/overview-of-actual-backup-of-files">Overview of Actual Backup Of Files</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">IVssBackupComponents::BackupComplete</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-backupcomplete">IVssBackupComponents::BackupComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setbackupstate">IVssBackupComponents::SetBackupState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
-
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>

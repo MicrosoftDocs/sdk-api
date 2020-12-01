@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Returns a pointer to an   <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a> interface.
+Returns a pointer to an   <a href="/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a> interface.
 
 ## -parameters
 
 ### -param ppvObj [out]
 
-Address of the pointer variable that receives the <a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a> interface pointer of the object created.
+Address of the pointer variable that receives the <a href="/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a> interface pointer of the object created.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Address of the pointer variable that receives the <a href="https://docs.microsof
 
 ## -remarks
 
-There is no import library available that defines this function. It is necessary to manually obtain a pointer to this function using <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
-
+There is no import library available that defines this function. It is necessary to manually obtain a pointer to this function using <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.

@@ -93,7 +93,7 @@ The option value is retrieved for a specific vendor class. The vendor name is su
 
 ### -param OptionId [in]
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that contains the unique option ID number (also called an "option code") of the new option. Many of these option ID numbers are defined; a complete list of standard DHCP and BOOTP option codes can be found in  <a href="https://www.ietf.org/rfc/rfc2132.txt">DHCP Options and BOOTP Vendor Extensions</a>.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that contains the unique option ID number (also called an "option code") of the new option. Many of these option ID numbers are defined; a complete list of standard DHCP and BOOTP option codes can be found in  <a href="https://www.ietf.org/rfc/rfc2132.txt">DHCP Options and BOOTP Vendor Extensions</a>.
 
 ### -param ClassName [in, optional]
 
@@ -105,11 +105,11 @@ Unicode string that contains a vendor name string if the class specified in <i>C
 
 ### -param OptionInfo [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a> structure that contains information describing the new   DHCP option, including the name, an optional comment, and any related data items.
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a> structure that contains information describing the new   DHCP option, including the name, an optional comment, and any related data items.
 
 ## -returns
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -164,5 +164,4 @@ The specified class name is unknown or incorrectly formed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option"> DHCP_OPTION</a>
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option"> DHCP_OPTION</a>

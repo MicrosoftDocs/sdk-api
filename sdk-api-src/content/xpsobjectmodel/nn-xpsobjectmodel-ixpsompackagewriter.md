@@ -54,7 +54,7 @@ Incrementally writes the parts of an XPS document to  a package file.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPackageWriter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMPackageWriter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPackageWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsOMPackageWriter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IXpsOMPackageWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage">AddPage</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage">AddPage</a>
 </td>
 <td align="left" width="63%">
 Writes a new FixedPage part to the currently open FixedDocument part in the package.
@@ -78,7 +78,7 @@ Writes a new FixedPage part to the currently open FixedDocument part in the pack
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addresource">AddResource</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addresource">AddResource</a>
 </td>
 <td align="left" width="63%">
 Creates a new part resource in the package.
@@ -87,7 +87,7 @@ Creates a new part resource in the package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-close">Close</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes any open parts of the package, then closes the package.
@@ -96,7 +96,7 @@ Closes any open parts of the package, then closes the package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-isclosed">IsClosed</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-isclosed">IsClosed</a>
 </td>
 <td align="left" width="63%">
 Gets the status of the <b>IXpsOMPackageWriter</b> interface.
@@ -106,7 +106,7 @@ Gets the status of the <b>IXpsOMPackageWriter</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-startnewdocument">StartNewDocument</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-startnewdocument">StartNewDocument</a>
 </td>
 <td align="left" width="63%">
 Opens and initializes a new FixedDocument in the FixedDocumentSequence of the package.
@@ -120,29 +120,28 @@ Opens and initializes a new FixedDocument in the FixedDocumentSequence of the pa
 
 Progressive writing enables an application to serialize  XPS document content and resources as they become available. It does not require the application to create all elements of the document before serialization.
 
-This interface writes the pages to the package sequentially, in the order that  <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage">AddPage</a> is called. The interface does not support page writing in a non-sequential order; thus it should only be used when page content is produced or is available for writing in the order it is to appear in the XPS document.
+This interface writes the pages to the package sequentially, in the order that  <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-addpage">AddPage</a> is called. The interface does not support page writing in a non-sequential order; thus it should only be used when page content is produced or is available for writing in the order it is to appear in the XPS document.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsdocumentpackagetarget-getxpsompackagewriter">IXpsDocumentPackageTarget::GetXpsOMPackageWriter</a>
+<a href="/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsdocumentpackagetarget-getxpsompackagewriter">IXpsDocumentPackageTarget::GetXpsOMPackageWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagewriteronfile">IXpsOMObjectFactory::CreatePackageWriterOnFile</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagewriteronfile">IXpsOMObjectFactory::CreatePackageWriterOnFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagewriteronstream">IXpsOMObjectFactory::CreatePackageWriterOnStream</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomobjectfactory-createpackagewriteronstream">IXpsOMObjectFactory::CreatePackageWriterOnStream</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372920(v=vs.85)">Print an XPS OM</a>
+<a href="/previous-versions/windows/desktop/dd372920(v=vs.85)">Print an XPS OM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd464658(v=vs.85)">Using the IXpsOMPackageWriter Interface</a>
+<a href="/previous-versions/windows/desktop/dd464658(v=vs.85)">Using the IXpsOMPackageWriter Interface</a>
 
 
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

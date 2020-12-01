@@ -99,20 +99,19 @@ The system is out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 An application calls 
 <b>UuidToString</b> to convert a binary <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">UUID</a> to a string <b>UUID</b>. The RPC run-time library allocates memory for the string returned in the <i>StringUuid</i> parameter. The application is responsible for calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> to deallocate that memory.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a> to deallocate that memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-uuidfromstring">UuidFromString</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-uuidfromstring">UuidFromString</a>

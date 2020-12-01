@@ -68,7 +68,7 @@ The handle of the document context.
 
 ### -field pTransformsConfig
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_transform_chain_config">CRYPT_XML_TRANSFORM_CHAIN_CONFIG</a> structure that contains information about the transform chain engine.
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_transform_chain_config">CRYPT_XML_TRANSFORM_CHAIN_CONFIG</a> structure that contains information about the transform chain engine.
 
 ### -field cSignature
 
@@ -76,5 +76,4 @@ The number of elements in the array pointed to by the <b>rgpSignature</b> member
 
 ### -field rgpSignature
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structures that contain XML signature information.
-
+A pointer to an array of <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structures that contain XML signature information.

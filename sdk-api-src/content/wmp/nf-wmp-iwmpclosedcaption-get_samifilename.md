@@ -92,17 +92,16 @@ If you want Windows Media Player to use the default SAMI file associated with a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/adding-closed-captions-to-digital-media">Adding Closed Captions to Digital Media</a>
+<a href="/windows/desktop/WMP/adding-closed-captions-to-digital-media">Adding Closed Captions to Digital Media</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpclosedcaption">IWMPClosedCaption Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpclosedcaption">IWMPClosedCaption Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_samifilename">IWMPClosedCaption::put_SAMIFileName</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-put_samifilename">IWMPClosedCaption::put_SAMIFileName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-close">IWMPCore::close</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-close">IWMPCore::close</a>

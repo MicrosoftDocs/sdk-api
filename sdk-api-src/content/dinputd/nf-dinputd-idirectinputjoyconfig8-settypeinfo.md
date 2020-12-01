@@ -64,7 +64,7 @@ Points to a structure that receives information about the joystick type.
 
 ### -param arg3
 
-Specifies the parts of the <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/ns-dinputd-dijoytypeinfo">DIJOYTYPEINFO</a> structure pointed to by <i>pjti</i> that contain values to be set. 
+Specifies the parts of the <a href="/windows/desktop/api/dinputd/ns-dinputd-dijoytypeinfo">DIJOYTYPEINFO</a> structure pointed to by <i>pjti</i> that contain values to be set. 
 
 
 
@@ -113,7 +113,7 @@ Returns DI_OK if successful; otherwise, returns one of the following COM error v
 </dl>
 </td>
 <td width="60%">
-Joystick configuration has not been acquired. You must call <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/nf-dinputd-idirectinputjoyconfig8-acquire">IDirectInputJoyConfig8::Acquire</a> before you can notify applications and drivers of changes to joystick configuration. 
+Joystick configuration has not been acquired. You must call <a href="/windows/desktop/api/dinputd/nf-dinputd-idirectinputjoyconfig8-acquire">IDirectInputJoyConfig8::Acquire</a> before you can notify applications and drivers of changes to joystick configuration. 
 
 </td>
 </tr>
@@ -140,4 +140,3 @@ Attempted to change a predefined type.
 </td>
 </tr>
 </table>
-

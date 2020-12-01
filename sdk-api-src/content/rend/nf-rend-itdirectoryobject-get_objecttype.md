@@ -55,7 +55,7 @@ provides similar functionality.]
 
 The 
 <b>get_ObjectType</b> method gets a 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a> descriptor of the object.
+<a href="/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a> descriptor of the object.
 
 ## -parameters
 
@@ -98,9 +98,8 @@ Invalid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a>
+<a href="/windows/desktop/api/rend/ne-rend-directory_object_type">DIRECTORY_OBJECT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
-
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>

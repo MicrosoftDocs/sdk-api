@@ -68,9 +68,9 @@ Query string to be parsed, relative to that property.
 
 ### -param ppSolution [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iquerysolution">IQuerySolution</a>**</b>
+Type: <b><a href="/windows/desktop/api/structuredquery/nn-structuredquery-iquerysolution">IQuerySolution</a>**</b>
 
-Receives an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iquerysolution">IQuerySolution</a> object. The calling application must release it by calling its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
+Receives an <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iquerysolution">IQuerySolution</a> object. The calling application must release it by calling its <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method.
 
 ## -returns
 
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The input string can be anything that could have been written immediately after a property in a structured query. For example, "from:(bill OR alex)" would be a valid structured query, so passing System.StructuredQuery.Virtual.From (for which From is a keyword) in the <i>pszPropertyName</i> parameter and "(bill OR alex)" or "bill OR alex" in the <i>pszInputString</i> parameter would be valid. This would result in an <b>OR</b> of leaf nodes that relate the System.StructuredQuery.Virtual.From property with the strings "bill" and "alex".
-

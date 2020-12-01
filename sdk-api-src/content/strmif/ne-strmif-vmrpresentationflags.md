@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The [VMRPRESENTATIONINFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrpresentationinfo) structure .
+The [VMRPRESENTATIONINFO](/windows/desktop/api/strmif/ns-strmif-vmrpresentationinfo) structure .
 
 ## -enum-fields
 
@@ -74,5 +74,4 @@ Indicates that the time stamp on the sample is valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

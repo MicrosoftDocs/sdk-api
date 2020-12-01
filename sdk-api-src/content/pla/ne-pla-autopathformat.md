@@ -62,7 +62,7 @@ Do not decorate the name.
 
 ### -field plaPattern
 
-Add a pattern to the name. The pattern is specified in  the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformatpattern">IDataCollector::FileNameFormatPattern</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformatpattern">IDataCollectorSet::SubdirectoryFormatPattern</a> property.
+Add a pattern to the name. The pattern is specified in  the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformatpattern">IDataCollector::FileNameFormatPattern</a> or <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformatpattern">IDataCollectorSet::SubdirectoryFormatPattern</a> property.
 
 ### -field plaComputer
 
@@ -74,7 +74,7 @@ Append the month, day, and hour to the name, in the form MMddHH.
 
 ### -field plaSerialNumber
 
-Append the serial number specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_serialnumber">IDataCollectorSet::SerialNumber</a> property to the subdirectory name in the form NNNNNN.
+Append the serial number specified in the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_serialnumber">IDataCollectorSet::SerialNumber</a> property to the subdirectory name in the form NNNNNN.
 
 ### -field plaYearDayOfYear
 
@@ -100,13 +100,12 @@ Append the month, day, hour, and minute to the name, in the form MMddHHmm.
 
 Patterns apply to files and subdirectories in the same way.
 
-For details on patterns, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformatpattern">FileNameFormatPattern</a>.
+For details on patterns, see the Remarks section of <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformatpattern">FileNameFormatPattern</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformat">IDataCollectorSet::SubdirectoryFormat</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformat">IDataCollectorSet::SubdirectoryFormat</a>

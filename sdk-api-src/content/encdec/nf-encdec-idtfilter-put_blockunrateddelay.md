@@ -97,9 +97,8 @@ Regardless of the value of this property, the filter does not block unrated cont
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter Interface</a>
+<a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-put_blockunrated">IDTFilter::put_BlockUnRated</a>
-
+<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-put_blockunrated">IDTFilter::put_BlockUnRated</a>

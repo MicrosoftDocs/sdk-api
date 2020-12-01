@@ -59,41 +59,40 @@ The <b>Rect::GetSize</b> method gets the width and height of the rectangle.
 
 Type: <b>Size*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object that receives the width and height of the rectangle.
+Pointer to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object that receives the width and height of the rectangle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getbottom">Rect::GetBottom</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getbottom">Rect::GetBottom</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getleft">Rect::GetLeft</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getleft">Rect::GetLeft</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getright">Rect::GetRight</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-getright">Rect::GetRight</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-gettop">Rect::GetTop</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-rect-gettop">Rect::GetTop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>

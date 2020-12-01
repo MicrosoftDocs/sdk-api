@@ -69,7 +69,7 @@ Pointer to the media type to use for the connection (optional; can be <b>NULL</b
 
 ## -returns
 
-Returns one of the following values, or an error value returned by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-connect">IPin::Connect</a>.
+Returns one of the following values, or an error value returned by <a href="/windows/desktop/api/strmif/nf-strmif-ipin-connect">IPin::Connect</a>.
 
 <table>
 <tr>
@@ -124,9 +124,8 @@ The input pin is upstream of the output pin, which would result in a circular gr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>

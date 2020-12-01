@@ -59,16 +59,15 @@ This property is read-only.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmderivedobjectsresult-get_derivedobjects">IFsrmDerivedObjectsResult::DerivedObjects</a> property contains the corresponding list of derived objects.
+The <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmderivedobjectsresult-get_derivedobjects">IFsrmDerivedObjectsResult::DerivedObjects</a> property contains the corresponding list of derived objects.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/updating-a-file-screen">Updating a File Screen</a>.
+For an example, see <a href="/previous-versions/windows/desktop/fsrm/updating-a-file-screen">Updating a File Screen</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmderivedobjectsresult">IFsrmDerivedObjectsResult</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmderivedobjectsresult">IFsrmDerivedObjectsResult</a>

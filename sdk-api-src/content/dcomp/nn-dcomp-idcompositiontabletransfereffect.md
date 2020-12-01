@@ -54,7 +54,7 @@ The table transfer effect is used to map the color intensities of an image using
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionTableTransferEffect</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionTableTransferEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionTableTransferEffect</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>. <b>IDCompositionTableTransferEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionTableTransferEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setalphadisable">SetAlphaDisable</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setalphadisable">SetAlphaDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the Alpha channel.
@@ -78,7 +78,7 @@ Specifies whether to apply the transfer function to the Alpha channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setalphatable">SetAlphaTable</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setalphatable">SetAlphaTable</a>
 </td>
 <td align="left" width="63%">
 Sets the list of values used to define the transfer function for the alpha channel.
@@ -87,7 +87,7 @@ Sets the list of values used to define the transfer function for the alpha chann
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setalphatablevalue">SetAlphaTableValue</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-setalphatablevalue">SetAlphaTableValue</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets a value in the alpha table.
 
@@ -95,7 +95,7 @@ Sets the list of values used to define the transfer function for the alpha chann
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setbluedisable">SetBlueDisable</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setbluedisable">SetBlueDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the blue channel.
@@ -104,7 +104,7 @@ Specifies whether to apply the transfer function to the blue channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setbluetable">SetBlueTable</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setbluetable">SetBlueTable</a>
 </td>
 <td align="left" width="63%">
 Sets the list of values used to define the transfer function for the blue channel.
@@ -113,7 +113,7 @@ Sets the list of values used to define the transfer function for the blue channe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setbluetablevalue">SetBlueTableValue</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-setbluetablevalue">SetBlueTableValue</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets a value in the blue table.
 
@@ -121,7 +121,7 @@ Sets the list of values used to define the transfer function for the blue channe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setclampoutput">SetClampOutput</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setclampoutput">SetClampOutput</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the effect clamps color values to between 0 and 1 before the effect passes the values to the next effect in the graph.
@@ -130,7 +130,7 @@ Specifies whether the effect clamps color values to between 0 and 1 before the e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setgreendisable">SetGreenDisable</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setgreendisable">SetGreenDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the green channel.
@@ -139,7 +139,7 @@ Specifies whether to apply the transfer function to the green channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setgreentable">SetGreenTable</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setgreentable">SetGreenTable</a>
 </td>
 <td align="left" width="63%">
 Sets the list of values used to define the transfer function for the green channel.
@@ -148,7 +148,7 @@ Sets the list of values used to define the transfer function for the green chann
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setgreentablevalue">SetGreenTableValue</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-setgreentablevalue">SetGreenTableValue</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets a value in the green table.
 
@@ -156,7 +156,7 @@ Sets the list of values used to define the transfer function for the green chann
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setreddisable">SetRedDisable</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setreddisable">SetRedDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the red channel.
@@ -165,7 +165,7 @@ Specifies whether to apply the transfer function to the red channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setredtable">SetRedTable</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiontabletransfereffect-setredtable">SetRedTable</a>
 </td>
 <td align="left" width="63%">
 Sets the list of values used to define the transfer function for the red channel.
@@ -174,7 +174,7 @@ Sets the list of values used to define the transfer function for the red channel
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setredtablevalue">SetRedTableValue</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-setredtablevalue">SetRedTableValue</a>
 </td>
 <td align="left" width="63%">Overloaded. Sets a value in the red table.
 
@@ -184,5 +184,4 @@ Sets the list of values used to define the transfer function for the red channel
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionfiltereffect">IDCompositionFilterEffect</a>

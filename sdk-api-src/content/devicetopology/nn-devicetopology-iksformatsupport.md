@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IKsFormatSupport</b> interface provides information about the audio data formats that are supported by a software-configured I/O connection (typically a DMA channel) between an audio adapter device and system memory. The client obtains a reference to the <b>IKsFormatSupport</b> interface of a part by calling the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method with parameter <i>refiid</i> set to REFIID IID_IKsFormatSupport. The call to <b>IPart::Activate</b> succeeds only if the part supports the <b>IKsFormatSupport</b> interface. Only a part object that represents a connector with a Software_IO connection type will support this interface. For more information about Software_IO, see <a href="/windows/win32/api/devicetopology/ne-devicetopology-connectortype">ConnectorType Enumeration</a>.
+The <b>IKsFormatSupport</b> interface provides information about the audio data formats that are supported by a software-configured I/O connection (typically a DMA channel) between an audio adapter device and system memory. The client obtains a reference to the <b>IKsFormatSupport</b> interface of a part by calling the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method with parameter <i>refiid</i> set to REFIID IID_IKsFormatSupport. The call to <b>IPart::Activate</b> succeeds only if the part supports the <b>IKsFormatSupport</b> interface. Only a part object that represents a connector with a Software_IO connection type will support this interface. For more information about Software_IO, see <a href="/windows/win32/api/devicetopology/ne-devicetopology-connectortype">ConnectorType Enumeration</a>.
 
 Most Windows audio adapter drivers support the Windows Driver Model (WDM) and use kernel-streaming (KS) properties to represent the hardware description parameters in connectors (referred to as KS pins). The <b>IKsFormatSupport</b> interface provides convenient access to the KSPROPERTY_PIN_DATAINTERSECTION and KSPROPERTY_PIN_PROPOSEDDATAFORMAT properties of a connector to a system bus (typically, PCI or PCI Express) or an external bus (for example, USB). Not all drivers support the KSPROPERTY_PIN_PROPOSEDDATAFORMAT property. If a driver does not support this property, <b>IKsFormatSupport</b> uses the information in the KS data ranges for the connector to determine whether the connector supports the proposed format. For more information about KS properties, KS pins, and KS data ranges, see the Windows DDK documentation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsFormatSupport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsFormatSupport</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsFormatSupport</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsFormatSupport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IKsFormatSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksformatsupport-getdevicepreferredformat">GetDevicePreferredFormat</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksformatsupport-getdevicepreferredformat">GetDevicePreferredFormat</a>
 </td>
 <td align="left" width="63%">
 Gets the preferred audio stream format for the connection.
@@ -80,7 +80,7 @@ Gets the preferred audio stream format for the connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksformatsupport-isformatsupported">IsFormatSupported</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksformatsupport-isformatsupported">IsFormatSupported</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the audio adapter device supports the specified audio stream format.
@@ -91,13 +91,12 @@ Indicates whether the audio adapter device supports the specified audio stream f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
+<a href="/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a>
-
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a>

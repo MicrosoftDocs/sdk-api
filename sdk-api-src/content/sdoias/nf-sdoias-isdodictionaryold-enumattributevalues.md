@@ -62,14 +62,14 @@ Specifies the ID of the attribute.
 ### -param pValueIds [out]
 
 On successful return points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> of value IDs for the enumerable attribute. If the attribute is not enumerable, points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VT_EMPTY</a> variant.
+<a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> of value IDs for the enumerable attribute. If the attribute is not enumerable, points to a 
+<a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VT_EMPTY</a> variant.
 
 ### -param pValuesDesc [out]
 
 On successful return points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> of value descriptions for the enumerable attribute. If the attribute is not enumerable, points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VT_EMPTY</a> variant.
+<a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> of value descriptions for the enumerable attribute. If the attribute is not enumerable, points to a 
+<a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VT_EMPTY</a> variant.
 
 ## -returns
 
@@ -83,5 +83,4 @@ The return value is S_OK even if the attribute is not enumerable.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
-
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>

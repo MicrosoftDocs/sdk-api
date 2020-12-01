@@ -60,7 +60,7 @@ A pointer to a count of elements in <b>HELPER_ATTRIBUTE</b> array.
 
 ### -param rgAttributes
 
-A reference to the <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-helper_attribute">HELPER_ATTRIBUTE</a> array.
+A reference to the <a href="/windows/desktop/api/ndattrib/ns-ndattrib-helper_attribute">HELPER_ATTRIBUTE</a> array.
 
 ## -returns
 
@@ -135,5 +135,4 @@ The Initialize method is required when building a Helper Class Extension.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>

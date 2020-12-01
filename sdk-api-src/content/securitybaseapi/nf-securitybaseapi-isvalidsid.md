@@ -57,20 +57,20 @@ api_name:
 
 ## -description
 
-The <b>IsValidSid</b> function validates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) by verifying that the revision number is within a known range, and that the number of subauthorities is less than the maximum.
+The <b>IsValidSid</b> function validates a <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) by verifying that the revision number is within a known range, and that the number of subauthorities is less than the maximum.
 
 ## -parameters
 
 ### -param pSid [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure to validate. This parameter cannot be <b>NULL</b>.
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure to validate. This parameter cannot be <b>NULL</b>.
 
 ## -returns
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure is valid, the return value is nonzero.
+If the <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure is valid, the return value is nonzero.
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure is not valid, the return value is zero. There is no extended error information for this function; do not call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure is not valid, the return value is zero. There is no extended error information for this function; do not call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -78,33 +78,32 @@ If <i>pSid</i> is <b>NULL</b>, the application will fail with an access violatio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getlengthsid">GetLengthSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getlengthsid">GetLengthSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsididentifierauthority">GetSidIdentifierAuthority</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsididentifierauthority">GetSidIdentifierAuthority</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidlengthrequired">GetSidLengthRequired</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidlengthrequired">GetSidLengthRequired</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthority">GetSidSubAuthority</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthority">GetSidSubAuthority</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthoritycount">GetSidSubAuthorityCount</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthoritycount">GetSidSubAuthorityCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>

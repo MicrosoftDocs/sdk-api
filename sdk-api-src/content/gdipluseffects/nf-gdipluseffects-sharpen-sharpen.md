@@ -51,19 +51,18 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a> object.
+Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a> object.
 
 ## -parameters
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a>
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen">Sharpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-sharpen-setparameters">Sharpen::SetParameters</a>
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-sharpen-setparameters">Sharpen::SetParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-sharpenparams">SharpenParams</a>
-
+<a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-sharpenparams">SharpenParams</a>

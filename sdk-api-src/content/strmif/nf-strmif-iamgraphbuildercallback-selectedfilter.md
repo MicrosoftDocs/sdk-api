@@ -71,5 +71,4 @@ The Filter Graph Manager holds a graph-wide critical section while it calls this
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamgraphbuildercallback">IAMGraphBuilderCallback Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamgraphbuildercallback">IAMGraphBuilderCallback Interface</a>

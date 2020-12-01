@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-Provides methods for attaching buffers to <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">SpatialAudioMetadataItems</a> for in-place storage of data. Get an instance of this object by passing a pointer to the interface into <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-activatespatialaudiometadataitems">ActivateSpatialAudioMetadataItems</a>. The buffer will be associated with the returned <b>SpatialAudioMetadataItems</b>. This interface allows you to attach a  buffer and reset its contents to the empty set of metadata items  or attach a  previously-populated     buffer and retain the data stored in the buffer.
+Provides methods for attaching buffers to <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">SpatialAudioMetadataItems</a> for in-place storage of data. Get an instance of this object by passing a pointer to the interface into <a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-activatespatialaudiometadataitems">ActivateSpatialAudioMetadataItems</a>. The buffer will be associated with the returned <b>SpatialAudioMetadataItems</b>. This interface allows you to attach a  buffer and reset its contents to the empty set of metadata items  or attach a  previously-populated     buffer and retain the data stored in the buffer.
 
 
 This interface is a part of  Windows Sonic, Microsoft’s audio platform for more immersive audio which includes integrated spatial sound on Xbox and Windows.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioMetadataItemsBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpatialAudioMetadataItemsBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioMetadataItemsBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpatialAudioMetadataItemsBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,25 +72,25 @@ The <b>ISpatialAudioMetadataItemsBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-attachtobuffer">AttachToBuffer</a>
+<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-attachtobuffer">AttachToBuffer</a>
 </td>
 <td align="left" width="63%">
-Attaches caller-provided memory for storage of <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> objects.
+Attaches caller-provided memory for storage of <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> objects.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-attachtopopulatedbuffer">AttachToPopulatedBuffer</a>
+<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-attachtopopulatedbuffer">AttachToPopulatedBuffer</a>
 </td>
 <td align="left" width="63%">
-Attaches a previously populated buffer for storage of <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> objects. The metadata items already in the buffer are retained.
+Attaches a previously populated buffer for storage of <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a> objects. The metadata items already in the buffer are retained.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-detachbuffer">DetachBuffer</a>
+<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitemsbuffer-detachbuffer">DetachBuffer</a>
 </td>
 <td align="left" width="63%">
 Detaches the buffer.  Memory can only be attached to a single metadata item at a time.
@@ -98,4 +98,3 @@ Detaches the buffer.  Memory can only be attached to a single metadata item at a
 </td>
 </tr>
 </table>
-

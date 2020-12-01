@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>X509PrivateKeyProtection</b> enumeration specifies the level of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> protection supported by a cryptographic  provider. For example, if strong key protection is enabled, the user is typically prompted to enter a password when the key is created and whenever the key is used. The precise behavior is specified by the KSP or CSP being used. The  enumeration value can be specified or retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyprotection">KeyProtection</a> property on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> interface.
+The <b>X509PrivateKeyProtection</b> enumeration specifies the level of <a href="/windows/desktop/SecGloss/p-gly">private key</a> protection supported by a cryptographic  provider. For example, if strong key protection is enabled, the user is typically prompted to enter a password when the key is created and whenever the key is used. The precise behavior is specified by the KSP or CSP being used. The  enumeration value can be specified or retrieved by using the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyprotection">KeyProtection</a> property on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> interface.
 
 ## -enum-fields
 
@@ -72,13 +72,12 @@ Specifies strong key protection. The user is typically prompted to enter a passw
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

@@ -46,6 +46,7 @@ api_name:
  - GetFileTitle
  - GetFileTitleA
  - GetFileTitleW
+req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetFileTitleW function
@@ -105,7 +106,7 @@ If the  <i>lpszTitle</i> buffer is too small, <b>GetFileTitle</b> returns the si
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
+<a href="/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 
 
 
@@ -113,13 +114,12 @@ If the  <i>lpszTitle</i> buffer is too small, <b>GetFileTitle</b> returns the si
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getopenfilenamea">GetOpenFileName</a>
+<a href="/windows/desktop/api/commdlg/nf-commdlg-getopenfilenamea">GetOpenFileName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-getsavefilenamea">GetSaveFileName</a>
+<a href="/windows/desktop/api/commdlg/nf-commdlg-getsavefilenamea">GetSaveFileName</a>
 
 
 
 <b>Reference</b>
-

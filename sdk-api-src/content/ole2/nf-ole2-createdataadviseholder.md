@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - CreateDataAdviseHolder
+req.apiset: ext-ms-win-com-ole32-l1-1-3 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # CreateDataAdviseHolder function
@@ -52,13 +53,13 @@ api_name:
 
 ## -description
 
-Retrieves a pointer to the OLE implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a> on the data advise holder object.
+Retrieves a pointer to the OLE implementation of <a href="/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a> on the data advise holder object.
 
 ## -parameters
 
 ### -param ppDAHolder [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a> pointer variable that receives the interface pointer to the new advise holder object.
+Address of an <a href="/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a> pointer variable that receives the interface pointer to the new advise holder object.
 
 ## -returns
 
@@ -84,9 +85,8 @@ Insufficient memory for the operation.
 
 ## -remarks
 
-Call <b>CreateDataAdviseHolder</b> in your implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> to get a pointer to the OLE implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a> interface. With this pointer, you can then complete the implementation of <b>IDataObject::DAdvise</b> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">IDataAdviseHolder::Advise</a> method, which creates an advisory connection between the calling object and the data object.
+Call <b>CreateDataAdviseHolder</b> in your implementation of <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> to get a pointer to the OLE implementation of <a href="/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a> interface. With this pointer, you can then complete the implementation of <b>IDataObject::DAdvise</b> by calling the <a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">IDataAdviseHolder::Advise</a> method, which creates an advisory connection between the calling object and the data object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a>

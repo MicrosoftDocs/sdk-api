@@ -54,19 +54,19 @@ api_name:
 
 ## -description
 
-Contains information specific to an <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-customdraw">NM_CUSTOMDRAW</a> notification code.
+Contains information specific to an <a href="/windows/desktop/Controls/nm-customdraw">NM_CUSTOMDRAW</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification code.
+An <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification code.
 
 ### -field dwDrawStage
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The current drawing stage. This is one of the following values. 
 
@@ -190,7 +190,7 @@ Before an item is drawn.
 </dl>
 </td>
 <td width="60%">
-Flag combined with CDDS_ITEMPREPAINT or CDDS_ITEMPOSTPAINT if a subitem is being drawn. This will only be set if <a href="https://docs.microsoft.com/windows/desktop/Controls/cdrf-constants">CDRF_NOTIFYITEMDRAW</a> is returned from CDDS_PREPAINT.
+Flag combined with CDDS_ITEMPREPAINT or CDDS_ITEMPOSTPAINT if a subitem is being drawn. This will only be set if <a href="/windows/desktop/Controls/cdrf-constants">CDRF_NOTIFYITEMDRAW</a> is returned from CDDS_PREPAINT.
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ Flag combined with CDDS_ITEMPREPAINT or CDDS_ITEMPOSTPAINT if a subitem is being
 
 ### -field hdc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 A handle to the control's device context. Use this HDC to perform any GDI functions.
 
@@ -206,17 +206,17 @@ A handle to the control's device context. Use this HDC to perform any GDI functi
 
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
-The <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that describes the bounding rectangle of the area being drawn. This member is initialized only by the CDDS_ITEMPREPAINT notification. <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80.</a> This member is also initialized by the CDDS_PREPAINT notification.
+The <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that describes the bounding rectangle of the area being drawn. This member is initialized only by the CDDS_ITEMPREPAINT notification. <a href="/windows/desktop/Controls/common-control-versions">Version 5.80.</a> This member is also initialized by the CDDS_PREPAINT notification.
 
 ### -field dwItemSpec
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD_PTR</a></b>
 
-The item number. What is contained in this member will depend on the type of control that is sending the notification. See the <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-customdraw">NM_CUSTOMDRAW</a> notification reference for the specific control to determine what, if anything, is contained in this member.
+The item number. What is contained in this member will depend on the type of control that is sending the notification. See the <a href="/windows/desktop/Controls/nm-customdraw">NM_CUSTOMDRAW</a> notification reference for the specific control to determine what, if anything, is contained in this member.
 
 ### -field uItemState
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The current item state. This value is a combination of the following flags. 
 
@@ -314,7 +314,7 @@ The item is marked. The meaning of this is determined by the implementation.
 The item is selected.
                     
 
-<div class="alert"><b>Note</b>  This flag does not work correctly for owner-drawn list-view controls that have the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_SHOWSELALWAYS</a> style. For these controls, you can determine whether an item is selected by using <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitemstate">LVM_GETITEMSTATE</a> (or <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_getitemstate">ListView_GetItemState</a>) and checking for the <b>LVIS_SELECTED</b> flag.</div>
+<div class="alert"><b>Note</b>  This flag does not work correctly for owner-drawn list-view controls that have the <a href="/windows/desktop/Controls/list-view-window-styles">LVS_SHOWSELALWAYS</a> style. For these controls, you can determine whether an item is selected by using <a href="/windows/desktop/Controls/lvm-getitemstate">LVM_GETITEMSTATE</a> (or <a href="/windows/desktop/api/commctrl/nf-commctrl-listview_getitemstate">ListView_GetItemState</a>) and checking for the <b>LVIS_SELECTED</b> flag.</div>
 <div> </div>
 </td>
 </tr>
@@ -325,11 +325,11 @@ The item is selected.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 6.0.</a>The item is showing its keyboard cues. 
+<a href="/windows/desktop/Controls/common-control-versions">Version 6.0.</a>The item is showing its keyboard cues. 
 
                         
 
-Note that Comctl32 version 6 is not redistributable. operating systems. To use Comctl32.dll version 6, specify it in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+Note that Comctl32 version 6 is not redistributable. operating systems. To use Comctl32.dll version 6, specify it in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
 
 </td>
 </tr>
@@ -367,11 +367,10 @@ The item is currently the drop target of a drag-and-drop operation.
 
 ### -field lItemlParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Application-defined item data.
 
 ## -remarks
 
-The value your application returns depends on the current drawing stage. The <b>dwDrawStage</b> member of the associated <b>NMCUSTOMDRAW</b> structure holds a value that specifies the drawing stage. When the <b>dwDrawStage</b> member equals CDDS_PREPAINT and CDDS_PREERASE, some controls send the CDDS_PREERASE message first and expect the return value to indicate which subsequent messages will be sent. For a code sample that illustrates states and drawing stages, see <a href="https://docs.microsoft.com/windows/desktop/Controls/custom-draw">Customizing a Control's Appearance Using Custom Draw</a>.
-
+The value your application returns depends on the current drawing stage. The <b>dwDrawStage</b> member of the associated <b>NMCUSTOMDRAW</b> structure holds a value that specifies the drawing stage. When the <b>dwDrawStage</b> member equals CDDS_PREPAINT and CDDS_PREERASE, some controls send the CDDS_PREERASE message first and expect the return value to indicate which subsequent messages will be sent. For a code sample that illustrates states and drawing stages, see <a href="/windows/desktop/Controls/custom-draw">Customizing a Control's Appearance Using Custom Draw</a>.

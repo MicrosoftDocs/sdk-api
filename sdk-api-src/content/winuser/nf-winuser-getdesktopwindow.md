@@ -53,6 +53,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - GetDesktopWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetDesktopWindow function
@@ -76,7 +77,7 @@ The return value is a handle to the desktop window.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
 
 
 
@@ -84,5 +85,4 @@ The return value is a handle to the desktop window.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

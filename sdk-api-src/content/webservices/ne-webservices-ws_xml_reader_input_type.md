@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-The type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_input">WS_XML_READER_INPUT</a> structure.
+The type of <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_input">WS_XML_READER_INPUT</a> structure.
 
 ## -enum-fields
 
 ### -field WS_XML_READER_INPUT_TYPE_BUFFER
 
 ### -field WS_XML_READER_INPUT_TYPE_STREAM
-

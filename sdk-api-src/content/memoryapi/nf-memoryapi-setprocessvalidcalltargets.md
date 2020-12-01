@@ -82,5 +82,4 @@ A list of offsets and flags relative to the virtual memory ranges.
 
 ## -remarks
 
-This function does not succeed if Control Flow Guard is not enabled for the target process. This can be checked using [GetProcessMitigationPolicy](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy).
-
+This function does not succeed if Control Flow Guard is not enabled for the target process. This can be checked using [GetProcessMitigationPolicy](../processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy.md).

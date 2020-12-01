@@ -62,7 +62,7 @@ The width of the active cell, in twips.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -72,9 +72,8 @@ The width of the cell, and/or the entire row, must be less than 22 inches (1440 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrow-setcellwidth">ITextRow::SetCellWidth</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextrow-setcellwidth">ITextRow::SetCellWidth</a>

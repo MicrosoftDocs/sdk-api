@@ -66,7 +66,7 @@ Contains the number of characters in the <i>pszRdn</i> string.
 
 ### -param eDsMangleForDesired [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-ds_mangle_for">DS_MANGLE_FOR</a> values that specifies the type of name mangling to search for.
+Contains one of the <a href="/windows/desktop/api/dsparse/ne-dsparse-ds_mangle_for">DS_MANGLE_FOR</a> values that specifies the type of name mangling to search for.
 
 ## -returns
 
@@ -85,13 +85,12 @@ This function determines if the given relative distinguished name value is mangl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/ne-dsparse-ds_mangle_for">DS_MANGLE_FOR</a>
+<a href="/windows/desktop/api/dsparse/ne-dsparse-ds_mangle_for">DS_MANGLE_FOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsparse/nf-dsparse-dsismangleddna">DsIsMangledDn</a>
-
+<a href="/windows/desktop/api/dsparse/nf-dsparse-dsismangleddna">DsIsMangledDn</a>

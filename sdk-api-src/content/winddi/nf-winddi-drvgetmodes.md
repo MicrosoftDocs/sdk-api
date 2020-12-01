@@ -56,7 +56,7 @@ The <b>DrvGetModes</b> function lists the modes supported by a given device.
 
 ### -param hDriver [in]
 
-Handle to the driver for which the modes must be enumerated. This is the handle passed in the <i>hDriver</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function.
+Handle to the driver for which the modes must be enumerated. This is the handle passed in the <i>hDriver</i> parameter of the <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> function.
 
 ### -param cjSize
 
@@ -80,7 +80,7 @@ Window Manager dynamically loads all display drivers associated with a miniport 
 
 Refer to the <i>Permedia</i> samples to see a working implementation of <b>DrvGetModes</b>.
 
-<div class="alert"><b>Note</b>    The Microsoft Windows Driver Kit (WDK) does not contain the 3Dlabs Permedia2 (<i>3dlabs.htm</i> ) and 3Dlabs Permedia3 (<i>Perm3.htm</i>) sample display drivers. You can get these sample drivers from the Windows Server 2003 SP1 Driver Development Kit (DDK), which you can download from the <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/">DDK - Windows Driver Development Kit</a> page of the WDHC website.</div>
+<div class="alert"><b>Note</b>    The Microsoft Windows Driver Kit (WDK) does not contain the 3Dlabs Permedia2 (<i>3dlabs.htm</i> ) and 3Dlabs Permedia3 (<i>Perm3.htm</i>) sample display drivers. You can get these sample drivers from the Windows Server 2003 SP1 Driver Development Kit (DDK), which you can download from the <a href="/windows-hardware/drivers/devtest/">DDK - Windows Driver Development Kit</a> page of the WDHC website.</div>
 <div> </div>
 
 ## -see-also
@@ -89,13 +89,12 @@ Refer to the <i>Permedia</i> samples to see a working implementation of <b>DrvGe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeviceiocontrol">EngDeviceIoControl</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engdeviceiocontrol">EngDeviceIoControl</a>

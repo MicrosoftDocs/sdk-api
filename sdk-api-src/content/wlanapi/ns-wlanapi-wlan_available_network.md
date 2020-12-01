@@ -64,11 +64,11 @@ Contains the profile name associated with the network.  If the network does not 
 
 ### -field dot11Ssid
 
-A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure that contains the SSID of the visible wireless network.
+A <a href="/windows/desktop/NativeWiFi/dot11-ssid">DOT11_SSID</a> structure that contains the SSID of the visible wireless network.
 
 ### -field dot11BssType
 
-A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a> value that specifies whether the network is infrastructure or ad hoc.
+A <a href="/windows/desktop/NativeWiFi/dot11-bss-type">DOT11_BSS_TYPE</a> value that specifies whether the network is infrastructure or ad hoc.
 
 ### -field uNumberOfBssids
 
@@ -90,7 +90,7 @@ The number of PHY types supported on available networks. The maximum value of <i
 
 ### -field dot11PhyTypes
 
-Contains an array of <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-phy-type">DOT11_PHY_TYPE</a> values that represent the PHY types supported by the available networks. When <i>uNumberOfPhyTypes</i> is greater than <b>WLAN_MAX_PHY_TYPE_NUMBER</b>, this array contains only the first <b>WLAN_MAX_PHY_TYPE_NUMBER</b> PHY types.
+Contains an array of <a href="/windows/desktop/NativeWiFi/dot11-phy-type">DOT11_PHY_TYPE</a> values that represent the PHY types supported by the available networks. When <i>uNumberOfPhyTypes</i> is greater than <b>WLAN_MAX_PHY_TYPE_NUMBER</b>, this array contains only the first <b>WLAN_MAX_PHY_TYPE_NUMBER</b> PHY types.
 
 <table>
 <tr>
@@ -227,7 +227,7 @@ Specifies the end of the range that is used to define PHY types that are develop
 
 Specifies if there are more than <b>WLAN_MAX_PHY_TYPE_NUMBER</b> PHY types supported. 
 
-When this member is set to <b>TRUE</b>, an application must call <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist">WlanGetNetworkBssList</a> to get the complete list of PHY types. The returned  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> structure has an array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_entry">WLAN_BSS_ENTRY</a> structures. The <i>uPhyId</i> member of the <b>WLAN_BSS_ENTRY</b>   structure contains the PHY type for an entry.
+When this member is set to <b>TRUE</b>, an application must call <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist">WlanGetNetworkBssList</a> to get the complete list of PHY types. The returned  <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_list">WLAN_BSS_LIST</a> structure has an array of <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_bss_entry">WLAN_BSS_ENTRY</a> structures. The <i>uPhyId</i> member of the <b>WLAN_BSS_ENTRY</b>   structure contains the PHY type for an entry.
 
 ### -field wlanSignalQuality
 
@@ -239,11 +239,11 @@ Indicates whether security is enabled on the network.  A value of <b>TRUE</b> in
 
 ### -field dot11DefaultAuthAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-auth-algorithm">DOT11_AUTH_ALGORITHM</a> value that indicates the default authentication algorithm used to join this network for the first time.
+A <a href="/windows/desktop/NativeWiFi/dot11-auth-algorithm">DOT11_AUTH_ALGORITHM</a> value that indicates the default authentication algorithm used to join this network for the first time.
 
 ### -field dot11DefaultCipherAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-cipher-algorithm">DOT11_CIPHER_ALGORITHM</a> value that indicates the default cipher algorithm to be used when joining this network.
+A <a href="/windows/desktop/NativeWiFi/dot11-cipher-algorithm">DOT11_CIPHER_ALGORITHM</a> value that indicates the default cipher algorithm to be used when joining this network.
 
 ### -field dwFlags
 
@@ -282,5 +282,4 @@ Reserved for future use.  Must be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>
-
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>

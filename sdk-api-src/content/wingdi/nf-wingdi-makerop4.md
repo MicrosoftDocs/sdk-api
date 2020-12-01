@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MAKEROP4</b> macro creates a quaternary raster operation code for use with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a> function. The macro takes two ternary raster operation codes as input, one for the foreground and one for the background, and packs their Boolean operation indexes into the high-order word of a 32-bit value. The low-order word of this value will be ignored.
+The <b>MAKEROP4</b> macro creates a quaternary raster operation code for use with the <a href="/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a> function. The macro takes two ternary raster operation codes as input, one for the foreground and one for the background, and packs their Boolean operation indexes into the high-order word of a 32-bit value. The low-order word of this value will be ignored.
 
 ## -parameters
 
@@ -64,13 +64,12 @@ The background ternary raster operation code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-macros">Bitmap Macros</a>
+<a href="/windows/desktop/gdi/bitmap-macros">Bitmap Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a>

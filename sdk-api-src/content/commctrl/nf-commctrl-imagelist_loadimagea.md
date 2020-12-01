@@ -59,13 +59,13 @@ Creates an image list from the specified bitmap.
 
 ### -param hi
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 A handle to the instance that contains the resource. This parameter can be <b>NULL</b> if you are loading an image from a file or loading an OEM resource.
 
 ### -param lpbmp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 The image to load. 
 
@@ -73,7 +73,7 @@ If the <i>uFlags</i> parameter includes LR_LOADFROMFILE, <i>lpbmp</i> is the add
 
 If the <i>hi</i> parameter is non-<b>NULL</b> and LR_LOADFROMFILE is not specified, <i>lpbmp</i> is the address of a null-terminated string that contains the name of the image resource in the <i>hi</i> module.
 
-If <i>hi</i> is <b>NULL</b> and LR_LOADFROMFILE is not specified, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> of this parameter must be the identifier of an OEM image to load. To create this value, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro with one of the OEM image identifiers defined in Winuser.h. These identifiers have the following prefixes.
+If <i>hi</i> is <b>NULL</b> and LR_LOADFROMFILE is not specified, the <a href="/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> of this parameter must be the identifier of an OEM image to load. To create this value, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro with one of the OEM image identifiers defined in Winuser.h. These identifiers have the following prefixes.
 
 <table>
 <tr>
@@ -117,13 +117,13 @@ The number of images by which the image list can grow when the system needs to m
 
 ### -param crMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 The color used to generate a mask. Each pixel of this color in the specified bitmap, cursor, or icon is changed to black, and the corresponding bit in the mask is set to 1. If this parameter is the CLR_NONE value, no mask is generated. If this parameter is the CLR_DEFAULT value, the color of the pixel at the upper-left corner of the image is treated as the mask color.
 
 ### -param uType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A flag that specifies the type of image to load. This parameter must be IMAGE_BITMAP to indicate that a bitmap is being loaded. 
 
@@ -150,7 +150,7 @@ Loads a bitmap.
 
 ### -param uFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Flags that specify how to load the image. This parameter can be a combination of the following values. 
 
@@ -276,5 +276,4 @@ LR_LOADTRANSPARENT does not load the image transparently. It creates an opaque i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>

@@ -60,7 +60,7 @@ The handle to the DWM thumbnail to be updated. Null or invalid thumbnails, as we
 
 ### -param ptnProperties [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/ns-dwmapi-dwm_thumbnail_properties">DWM_THUMBNAIL_PROPERTIES</a> structure that contains the new thumbnail properties.
+A pointer to a <a href="/windows/desktop/api/dwmapi/ns-dwmapi-dwm_thumbnail_properties">DWM_THUMBNAIL_PROPERTIES</a> structure that contains the new thumbnail properties.
 
 ## -returns
 
@@ -68,7 +68,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-Thumbnail relationships created by the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmregisterthumbnail">DwmRegisterThumbnail</a> function will not be rendered to the destination window until this function is called. Subsequent calls will update the thumbnail according to the provided properties.
+Thumbnail relationships created by the <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmregisterthumbnail">DwmRegisterThumbnail</a> function will not be rendered to the destination window until this function is called. Subsequent calls will update the thumbnail according to the provided properties.
 
 
 #### Examples
@@ -115,17 +115,16 @@ HRESULT UpdateDesktop(HWND hwnd)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dwm/thumbnail-ovw">DWM Thumbnail Overview</a>
+<a href="/windows/desktop/dwm/thumbnail-ovw">DWM Thumbnail Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dwm/dwm-overview">Desktop Window Manager Overview</a>
+<a href="/windows/desktop/dwm/dwm-overview">Desktop Window Manager Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmquerythumbnailsourcesize">DwmQueryThumbnailSourceSize</a>
+<a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmquerythumbnailsourcesize">DwmQueryThumbnailSourceSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmunregisterthumbnail">DwmUnregisterThumbnail</a>
-
+<a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmunregisterthumbnail">DwmUnregisterThumbnail</a>

@@ -72,9 +72,8 @@ Timing status byte. For more information about this value, see the Display Data 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lowlevelmonitorconfigurationapi/nf-lowlevelmonitorconfigurationapi-gettimingreport">GetTimingReport</a>
+<a href="/windows/desktop/api/lowlevelmonitorconfigurationapi/nf-lowlevelmonitorconfigurationapi-gettimingreport">GetTimingReport</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Monitor/monitor-configuration-structures">Monitor Configuration Structures</a>
-
+<a href="/windows/desktop/Monitor/monitor-configuration-structures">Monitor Configuration Structures</a>

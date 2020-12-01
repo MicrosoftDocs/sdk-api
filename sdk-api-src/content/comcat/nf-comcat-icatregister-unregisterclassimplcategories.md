@@ -105,5 +105,4 @@ In case of an error, this method does not ensure that the registry is restored t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>
-
+<a href="/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>

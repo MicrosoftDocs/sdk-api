@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Verifies whether an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure is empty.
+Verifies whether an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure is empty.
 
 ## -parameters
 
@@ -58,11 +58,10 @@ Verifies whether an <a href="https://docs.microsoft.com/windows/desktop/api/shty
 
 Type: <b>PCUID_RELATIVE</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to be checked.
+A pointer to the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to be checked.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> if the <i>pidl</i> parameter is <b>NULL</b> or the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure pointed to by <i>pidl</i> is empty; otherwise <b>FALSE</b>.
-
+<b>TRUE</b> if the <i>pidl</i> parameter is <b>NULL</b> or the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure pointed to by <i>pidl</i> is empty; otherwise <b>FALSE</b>.

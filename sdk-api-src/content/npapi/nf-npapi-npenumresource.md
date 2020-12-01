@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 Performs an enumeration based on a handle returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a>.
+<a href="/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a>.
 
 ## -parameters
 
 ### -param hEnum [in]
 
 Handle obtained from an 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a> call.
+<a href="/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a> call.
 
 ### -param lpcCount [in, out]
 
@@ -67,7 +67,7 @@ Pointer to the number of entries requested. It may be 0xFFFFFFFF to request as m
 ### -param lpBuffer [out]
 
 Pointer to the buffer to receive the enumeration result, which is returned as an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> entries. The buffer is valid until the next call using <i>hEnum</i>.
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> entries. The buffer is valid until the next call using <i>hEnum</i>.
 
 ### -param lpBufferSize [in, out]
 
@@ -131,5 +131,4 @@ The network is not present. This condition is checked  before <i>hEnum</i> is te
 ## -remarks
 
 When this function is called, the provider should fill the buffer with the requested number of entries (or the maximum that can fit). The returned 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structures should be located contiguously at the head of the buffer, like an array of such structures. The pointers in these structures must point to locations within the buffer. Therefore, data referenced by these pointers should be located at the end of the buffer, after the array of structures. It is the provider's responsibility to package this information correctly.
-
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structures should be located contiguously at the head of the buffer, like an array of such structures. The pointers in these structures must point to locations within the buffer. Therefore, data referenced by these pointers should be located at the end of the buffer, after the array of structures. It is the provider's responsibility to package this information correctly.

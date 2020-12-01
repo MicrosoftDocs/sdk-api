@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Gets the count of selected items in a multiple-selection list box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getselcount">LB_GETSELCOUNT</a> message explicitly.
+Gets the count of selected items in a multiple-selection list box. You can use this macro or send the <a href="/windows/desktop/Controls/lb-getselcount">LB_GETSELCOUNT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-getselcount">LB_GETSELCOUNT</a>.
-
+For more information, see <a href="/windows/desktop/Controls/lb-getselcount">LB_GETSELCOUNT</a>.

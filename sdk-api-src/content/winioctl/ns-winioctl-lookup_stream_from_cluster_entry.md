@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Returned from the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a> control 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a> control 
     code. Zero or more of these structures follow the 
     <a href="/windows/win32/api/winioctl/ns-winioctl-lookup_stream_from_cluster_output">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a> 
     structure in the output buffer returned.
@@ -98,7 +98,7 @@ The stream is part of the system pagefile.
 </td>
 <td width="60%">
 The stream is locked from defragmentation. The <b>HandleInfo</b> member of the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-mark_handle_info">MARK_HANDLE_INFO</a> structure for this stream has 
+        <a href="/windows/desktop/api/winioctl/ns-winioctl-mark_handle_info">MARK_HANDLE_INFO</a> structure for this stream has 
         the <b>MARK_HANDLE_PROTECT_CLUSTERS</b> flag set.
 
 </td>
@@ -190,7 +190,7 @@ The name in the <b>FileName</b> member can be very long and in a format not reco
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a>
 
 
 
@@ -198,5 +198,4 @@ The name in the <b>FileName</b> member can be very long and in a format not reco
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-
+<a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>

@@ -72,7 +72,7 @@ A reference to package information.
 
 Type: <b>const UINT32</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/appxpkg/package-constants">package constants</a> that specify how package information is retrieved.
+The <a href="/windows/desktop/appxpkg/package-constants">package constants</a> that specify how package information is retrieved.
 
 ### -param bufferLength [in, out]
 
@@ -84,7 +84,7 @@ On input, the size of <i>buffer</i>, in bytes. On output, the size of the packag
 
 Type: <b>BYTE*</b>
 
-The package information, represented as an array of <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ns-appmodel-package_info">PACKAGE_INFO</a> structures.
+The package information, represented as an array of <a href="/windows/desktop/api/appmodel/ns-appmodel-package_info">PACKAGE_INFO</a> structures.
 
 ### -param count [out, optional]
 
@@ -121,17 +121,16 @@ The buffer is not large enough to hold the data. The required size is specified 
 [GetPackageInfo2](nf-appmodel-getpackageinfo2.md)
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-closepackageinfo">ClosePackageInfo</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-closepackageinfo">ClosePackageInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageinfo">GetCurrentPackageInfo</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageinfo">GetCurrentPackageInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackagepath">GetPackagePath</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getpackagepath">GetPackagePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-openpackageinfobyfullname">OpenPackageInfoByFullName</a>
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-openpackageinfobyfullname">OpenPackageInfoByFullName</a>

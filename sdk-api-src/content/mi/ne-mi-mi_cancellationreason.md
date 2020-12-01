@@ -74,5 +74,4 @@ The service is being stopped.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792316(v=vs.85)">MI_CancelCallback</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dn792316(v=vs.85)">MI_CancelCallback</a>

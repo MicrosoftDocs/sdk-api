@@ -205,16 +205,16 @@ Retrieve the signature interface.
 A pointer to a <b>ULONG</b> value that, on entry, contains the size, in bytes, of the buffer pointed to by the <i>ppBuffer</i> parameter. On exit, this value receives either the number of bytes copied to the buffer or the required size, in bytes, of the buffer.
 
 
-<div class="alert"><b>Note</b>  This is the total size, in bytes, of the entire buffer, not just the size of the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_reg">CRYPT_PROVIDER_REG</a> structure. The buffer must be able to hold other data for the providers in addition to the <b>CRYPT_PROVIDER_REG</b> structure.</div>
+<div class="alert"><b>Note</b>  This is the total size, in bytes, of the entire buffer, not just the size of the <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_reg">CRYPT_PROVIDER_REG</a> structure. The buffer must be able to hold other data for the providers in addition to the <b>CRYPT_PROVIDER_REG</b> structure.</div>
 <div> </div>
 
 ### -param ppBuffer [in, out]
 
-A pointer to a buffer pointer that receives a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_reg">CRYPT_PROVIDER_REG</a> structure and other data that describes the provider.
+A pointer to a buffer pointer that receives a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_reg">CRYPT_PROVIDER_REG</a> structure and other data that describes the provider.
 
 If this parameter is <b>NULL</b>, this function will return <b>STATUS_BUFFER_TOO_SMALL</b> and place in the value pointed to by the <i>pcbBuffer</i> parameter, the required size, in bytes, of all data.
 
-If this parameter is the address of a <b>NULL</b> pointer, this function will allocate the required memory, fill it in with the provider information, and place a pointer to this memory in this parameter. When you have finished using this memory, free it by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
+If this parameter is the address of a <b>NULL</b> pointer, this function will allocate the required memory, fill it in with the provider information, and place a pointer to this memory in this parameter. When you have finished using this memory, free it by passing this pointer to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a> function.
 
 If this parameter is the address of a non-<b>NULL</b> pointer, this function will copy the provider information into this buffer. The <i>pcbBuffer</i> parameter must contain the size, in bytes, of the entire buffer. If the buffer is not large enough to hold all of the provider information, this function will return <b>STATUS_BUFFER_TOO_SMALL</b>.
 
@@ -284,9 +284,8 @@ No provider could be found that matches the specified criteria.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptfreebuffer">BCryptFreeBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_reg">CRYPT_PROVIDER_REG</a>
-
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_reg">CRYPT_PROVIDER_REG</a>

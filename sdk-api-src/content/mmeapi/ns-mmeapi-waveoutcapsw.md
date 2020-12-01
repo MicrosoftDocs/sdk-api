@@ -61,11 +61,11 @@ The <b>WAVEOUTCAPS</b> structure describes the capabilities of a waveform-audio 
 
 ### -field wMid
 
-Manufacturer identifier for the device driver for the device. Manufacturer identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
+Manufacturer identifier for the device driver for the device. Manufacturer identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field wPid
 
-Product identifier for the device. Product identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
+Product identifier for the device. Product identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field vDriverVersion
 
@@ -202,9 +202,8 @@ If a device supports volume changes, the WAVECAPS_VOLUME flag will be set for th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
-
+<a href="/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>

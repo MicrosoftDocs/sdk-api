@@ -64,14 +64,14 @@ The application usage handle for the line portion of TAPI.
 ### -param dwRequestMode
 
 A type of request to be obtained. Be aware that <i>dwRequestMode</i> can only have one bit set. This parameter uses one and only one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linerequestmode--constants">LINEREQUESTMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/linerequestmode--constants">LINEREQUESTMODE_ Constants</a>.
 
 ### -param lpRequestBuffer
 
 A pointer to a memory buffer where the parameters of the request are to be placed. The size of the buffer and the interpretation of the data placed in the buffer depends on the request mode. The application-allocated buffer is assumed to be of sufficient size to hold the request.
 
 If <i>dwRequestMode</i> is LINEREQUESTMODE_MAKECALL, interpret the content of the request buffer using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linereqmakecall">LINEREQMAKECALL</a> structure.
+<a href="/windows/desktop/api/tapi/ns-tapi-linereqmakecall">LINEREQMAKECALL</a> structure.
 
 LINEREQUESTMODE_MEDIACALL is obsolete.  For more information, see tapiRequestMediaCall.
 
@@ -84,8 +84,8 @@ Returns zero if the request succeeds or a negative error number if an error occu
 ## -remarks
 
 A telephony-enabled application can request that a call be placed on its behalf by invoking 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-tapirequestmakecall">tapiRequestMakeCall</a>. These requests are queued by TAPI and the highest priority application that has registered to handle the request is sent a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-request">LINE_REQUEST</a> message with indication of the mode of the request that is pending. Typically, this application is the user's call-control application. The LINE_REQUEST message indicates that zero or more requests may be pending for the registered application to process; after receiving LINE_REQUEST, it is the responsibility of the recipient application to call 
+<a href="/windows/desktop/api/tapi/nf-tapi-tapirequestmakecall">tapiRequestMakeCall</a>. These requests are queued by TAPI and the highest priority application that has registered to handle the request is sent a 
+<a href="/windows/desktop/Tapi/line-request">LINE_REQUEST</a> message with indication of the mode of the request that is pending. Typically, this application is the user's call-control application. The LINE_REQUEST message indicates that zero or more requests may be pending for the registered application to process; after receiving LINE_REQUEST, it is the responsibility of the recipient application to call 
 <b>lineGetRequest</b> until LINEERR_NOREQUEST is returned, indicating that no more requests are pending.
 
 Next, the call-control application that receives this message invokes 
@@ -93,7 +93,7 @@ Next, the call-control application that receives this message invokes
 
 After execution of 
 <b>lineGetRequest</b>, TAPI purges the request from its internal queue, making room available for a subsequent request. It is therefore possible for a new 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-request">LINE_REQUEST</a> message to be received immediately upon execution of 
+<a href="/windows/desktop/Tapi/line-request">LINE_REQUEST</a> message to be received immediately upon execution of 
 <b>lineGetRequest</b>, should the same or another application issue another request. It is the responsibility of the request recipient application to handle this scenario by some mechanism; for example, by noting the additional LINE_REQUEST and deferring a subsequent 
 <b>lineGetRequest</b> until processing of the preceding request completes, by getting the subsequent request and buffer as necessary, or by another appropriate means.
 
@@ -108,21 +108,20 @@ The subsequent LINE_REQUEST should not be ignored because it is not repeated by 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linereqmakecall">LINEREQMAKECALL</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linereqmakecall">LINEREQMAKECALL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-request">LINE_REQUEST</a>
+<a href="/windows/desktop/Tapi/line-request">LINE_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-tapirequestmakecall">tapiRequestMakeCall</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-tapirequestmakecall">tapiRequestMakeCall</a>

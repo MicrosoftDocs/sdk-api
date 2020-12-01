@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Specifies whether <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> is a number.
+Specifies whether <a href="/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> is a number.
 
 ## -parameters
 
 ### -param vt [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a></b>
+Type: <b><a href="/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a></b>
 
-Specifies the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> being queried.
+Specifies the <a href="/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> being queried.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> is a number.
+Returns <b>TRUE</b> if <a href="/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> is a number.
 
 ## -remarks
 
 This is an inline function, with its source code provided in the header. It is not included in any .dll or .lib file.
-

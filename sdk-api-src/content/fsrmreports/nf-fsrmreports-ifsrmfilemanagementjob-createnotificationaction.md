@@ -51,8 +51,8 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a> class.]
+    <a href="/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a> class.]
 
 Creates a notification action and associates it with the notification value.
 
@@ -65,7 +65,7 @@ The notification value to associate with the action.
 ### -param actionType [in]
 
 The action to perform when the notification period is reached, enumerated by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmactiontype">FsrmActionType</a> enumeration.
+      <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmactiontype">FsrmActionType</a> enumeration.
 
 <div class="alert"><b>Note</b>  The <b>FsrmActionType_Report</b> type is not valid for this method.</div>
 <div> </div>
@@ -89,10 +89,10 @@ Execute a command or script.
 
 ### -param action [out]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmaction">IFsrmAction</a> interface of the newly created action. 
+An <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmaction">IFsrmAction</a> interface of the newly created action. 
       Query the interface for the action interface that you specified in the <i>actionType</i> 
       parameter. For example, if the action type is <b>FsrmActionType_Command</b>, query the 
-      interface for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmactioncommand">IFsrmActionCommand</a> interface.
+      interface for the <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmactioncommand">IFsrmActionCommand</a> interface.
 
 ## -returns
 
@@ -106,13 +106,12 @@ The action is deleted when the notification is deleted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjob">IFsrmFileManagementJob</a>
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjob">IFsrmFileManagementJob</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-enumnotificationactions">IFsrmFileManagementJob::EnumNotificationActions</a>
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfilemanagementjob-enumnotificationactions">IFsrmFileManagementJob::EnumNotificationActions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
-
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>

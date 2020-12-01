@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>PSFEATURE_OUTPUT</b> structure contains information about PostScript driver output options. This structure is used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd144954(v=vs.85)">GET_PS_FEATURESETTING</a> printer escape function.
+The <b>PSFEATURE_OUTPUT</b> structure contains information about PostScript driver output options. This structure is used with the <a href="/previous-versions/windows/desktop/legacy/dd144954(v=vs.85)">GET_PS_FEATURESETTING</a> printer escape function.
 
 ## -struct-fields
 
@@ -68,13 +68,12 @@ The <b>PSFEATURE_OUTPUT</b> structure contains information about PostScript driv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd144954(v=vs.85)">GET_PS_FEATURESETTING</a>
+<a href="/previous-versions/windows/desktop/legacy/dd144954(v=vs.85)">GET_PS_FEATURESETTING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-structures">Print Spooler API Structures</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-structures">Print Spooler API Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Defines flags for the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-transcode-topologymode">MF_TRANSCODE_TOPOLOGYMODE</a> attribute.
+Defines flags for the <a href="/windows/desktop/medfound/mf-transcode-topologymode">MF_TRANSCODE_TOPOLOGYMODE</a> attribute.
 
 ## -enum-fields
 
@@ -66,5 +66,4 @@ The topology loader may insert hardware-based transforms into the transcode topo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

@@ -51,8 +51,8 @@ api_name:
 
 ## -description
 
-The <b>SmoothingMode</b> enumeration specifies the type of smoothing (antialiasing) that is applied to lines and curves. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getsmoothingmode">Graphics::GetSmoothingMode</a> and <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setsmoothingmode">Graphics::SetSmoothingMode</a> methods of the 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> class.
+The <b>SmoothingMode</b> enumeration specifies the type of smoothing (antialiasing) that is applied to lines and curves. This enumeration is used by the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getsmoothingmode">Graphics::GetSmoothingMode</a> and <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setsmoothingmode">Graphics::SetSmoothingMode</a> methods of the 
+			<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> class.
 
 ## -enum-fields
 
@@ -94,9 +94,8 @@ Smoothing performed by an 8 X 4 box filter gives better results for nearly verti
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getsmoothingmode">Graphics::GetSmoothingMode</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-getsmoothingmode">Graphics::GetSmoothingMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setsmoothingmode">Graphics::SetSmoothingMode</a>
-
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-setsmoothingmode">Graphics::SetSmoothingMode</a>

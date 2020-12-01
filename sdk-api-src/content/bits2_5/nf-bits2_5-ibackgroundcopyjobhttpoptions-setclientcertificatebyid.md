@@ -232,7 +232,7 @@ The client certificate is applicable only for remote files that use the HTTP or 
 
 When a website accepts but does not require an SSL client certificate, and the BITS job does not specify a client certificate, the job will fail with ERROR_WINHTTP_CLIENT_AUTH_CERT_NEEDED (0x80072f0c).
 
-If you create a certificate for the job or application, you could store the certificate identifier (thumbprint) in the registry or database and use it when a job requires a certificate. You could also enumerate the certificates in the store and let the user choose the certificate. Another alternative is to call the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore">CertFindCertificateInStore</a>  function to retrieve the certificate context based on some criteria. Using the context, call the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty">CertGetCertificateContextProperty</a> function to retrieve the hash (specify CERT_HASH_PROP_ID for <i>dwPropId</i>).
+If you create a certificate for the job or application, you could store the certificate identifier (thumbprint) in the registry or database and use it when a job requires a certificate. You could also enumerate the certificates in the store and let the user choose the certificate. Another alternative is to call the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindcertificateinstore">CertFindCertificateInStore</a>  function to retrieve the certificate context based on some criteria. Using the context, call the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatecontextproperty">CertGetCertificateContextProperty</a> function to retrieve the hash (specify CERT_HASH_PROP_ID for <i>dwPropId</i>).
 
 SmartCard thumbprints are not supported.
 
@@ -281,17 +281,16 @@ cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
+<a href="/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getclientcertificate">IBackgroundCopyJobHttpOptions::GetClientCertificate</a>
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getclientcertificate">IBackgroundCopyJobHttpOptions::GetClientCertificate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-removeclientcertificate">IBackgroundCopyJobHttpOptions::RemoveClientCertificate</a>
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-removeclientcertificate">IBackgroundCopyJobHttpOptions::RemoveClientCertificate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyname">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a>
-
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyname">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a>

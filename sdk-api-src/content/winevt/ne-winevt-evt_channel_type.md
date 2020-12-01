@@ -74,17 +74,16 @@ The channel's type is Debug.
 
 ## -remarks
 
-For a description of each channel type, see the <b>type</b> attribute of the <a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-channeltype-complextype">ChannelType</a> complex type.
+For a description of each channel type, see the <b>type</b> attribute of the <a href="/windows/desktop/WES/eventmanifestschema-channeltype-complextype">ChannelType</a> complex type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WES/eventmanifestschema-channeltype-complextype">ChannelType Complex Type</a>
+<a href="/windows/desktop/WES/eventmanifestschema-channeltype-complextype">ChannelType Complex Type</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_channel_config_property_id">EVT_CHANNEL_CONFIG_PROPERTY_ID</a>
+<a href="/windows/desktop/api/winevt/ne-winevt-evt_channel_config_property_id">EVT_CHANNEL_CONFIG_PROPERTY_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetchannelconfigproperty">EvtGetChannelConfigProperty</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtgetchannelconfigproperty">EvtGetChannelConfigProperty</a>

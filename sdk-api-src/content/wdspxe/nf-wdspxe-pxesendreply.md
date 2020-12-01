@@ -57,12 +57,12 @@ Sends a packet to a client request.
 ### -param hClientRequest [in]
 
 Handle to the client request received in the 
-      <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> callback.
+      <a href="/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> callback.
 
 ### -param pPacket [in]
 
 Pointer to packet allocated by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketallocate">PxePacketAllocate</a> function.
+      <a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketallocate">PxePacketAllocate</a> function.
 
 ### -param uPacketLen [in]
 
@@ -70,7 +70,7 @@ Length of the packet pointed to by the <i>pPacket</i> parameter.
 
 ### -param pAddress [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-pxe_address">PXE_ADDRESS</a> structure that contains the 
+Pointer to a <a href="/windows/desktop/api/wdspxe/ns-wdspxe-pxe_address">PXE_ADDRESS</a> structure that contains the 
       destination address of the packet. If the <i>pAddress</i> parameter is 
       <b>NULL</b>, then the packet is sent to the source address of the client request.
 
@@ -80,17 +80,16 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/ns-wdspxe-pxe_address">PXE_ADDRESS</a>
+<a href="/windows/desktop/api/wdspxe/ns-wdspxe-pxe_address">PXE_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketallocate">PxePacketAllocate</a>
+<a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxepacketallocate">PxePacketAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
+<a href="/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
-
+<a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>

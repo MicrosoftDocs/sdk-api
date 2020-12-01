@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Defines the message parameters passed to a <b>WH_CALLWNDPROCRET</b> hook procedure, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-hookproc">CallWndRetProc</a>.
+Defines the message parameters passed to a <b>WH_CALLWNDPROCRET</b> hook procedure, <a href="/windows/desktop/api/winuser/nc-winuser-hookproc">CallWndRetProc</a>.
 
 ## -struct-fields
 
@@ -94,7 +94,7 @@ A handle to the window that processed the message specified by the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-hookproc">CallWndRetProc</a>
+<a href="/windows/desktop/api/winuser/nc-winuser-hookproc">CallWndRetProc</a>
 
 
 
@@ -102,7 +102,7 @@ A handle to the window that processed the message specified by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
+<a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
@@ -110,5 +110,4 @@ A handle to the window that processed the message specified by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>

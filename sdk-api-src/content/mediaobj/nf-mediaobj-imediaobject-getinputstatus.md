@@ -98,7 +98,7 @@ Success
 
 ## -remarks
 
-If the input stream will accept more data, the method returns the DMO_INPUT_STATUSF_ACCEPT_DATA flag in the <i>dwFlags</i> parameter. Otherwise, it sets this parameter to zero. If the stream will accept more data, the application can call the <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a> method.
+If the input stream will accept more data, the method returns the DMO_INPUT_STATUSF_ACCEPT_DATA flag in the <i>dwFlags</i> parameter. Otherwise, it sets this parameter to zero. If the stream will accept more data, the application can call the <a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a> method.
 
 The status of an input stream can change only as the result of one of the following method calls.
 
@@ -111,25 +111,25 @@ The status of an input stream can change only as the result of one of the follow
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-discontinuity">IMediaObject::Discontinuity</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-discontinuity">IMediaObject::Discontinuity</a>
 </td>
 <td>Signals a discontinuity on the specified input stream.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-flush">IMediaObject::Flush</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-flush">IMediaObject::Flush</a>
 </td>
 <td>Flushes all internally buffered data.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processinput">IMediaObject::ProcessInput</a>
 </td>
 <td>Delivers a buffer to the specified input stream.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">IMediaObject::ProcessOutput</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">IMediaObject::ProcessOutput</a>
 </td>
 <td>Generates output from the current input data.</td>
 </tr>
@@ -137,5 +137,4 @@ The status of an input stream can change only as the result of one of the follow
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
-
+<a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>

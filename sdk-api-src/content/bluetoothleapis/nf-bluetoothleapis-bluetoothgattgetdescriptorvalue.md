@@ -61,7 +61,7 @@ Handle to the service.
 
 ### -param Descriptor [in]
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a> structure containing the parent descriptor of the descriptor value to be retrieved.
+Pointer to <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a> structure containing the parent descriptor of the descriptor value to be retrieved.
 
 ### -param DescriptorValueDataSize [in]
 
@@ -69,7 +69,7 @@ The number of bytes allocated for the <i>DescriptorValue</i> parameter.
 
 ### -param DescriptorValue [out, optional]
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor_value">BTH_LE_GATT_DESCRIPTOR_VALUE</a> structure into which to return the descriptor value.
+Pointer to <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor_value">BTH_LE_GATT_DESCRIPTOR_VALUE</a> structure into which to return the descriptor value.
 
 ### -param DescriptorValueSizeRequired [out, optional]
 
@@ -469,8 +469,8 @@ Profile drivers should pre-allocate  a sufficiently large buffer for the array o
     descriptor values to be returned in.  Callers can determine the necessary buffer size by passing a non-<b>NULL</b> value in <i>DescriptorValueSizeRequired</i> and <b>NULL</b> in <i>DescriptorValue</i>.
 
 The parent service must be present in the
-    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetservices">BluetoothGATTGetServices</a> or
-    <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetincludedservices">BluetoothGATTGetIncludedServices</a>.
+    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetservices">BluetoothGATTGetServices</a> or
+    <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetincludedservices">BluetoothGATTGetIncludedServices</a>.
 
 <b>Example</b>
 
@@ -523,9 +523,8 @@ The parent service must be present in the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a>
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor">BTH_LE_GATT_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor_value">BTH_LE_GATT_DESCRIPTOR_VALUE</a>
-
+<a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_descriptor_value">BTH_LE_GATT_DESCRIPTOR_VALUE</a>

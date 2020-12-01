@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capGrabFrame</b> macro retrieves and displays a single frame from the capture driver. After capture, overlay and preview are disabled. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-grab-frame">WM_CAP_GRAB_FRAME</a> message.
+The <b>capGrabFrame</b> macro retrieves and displays a single frame from the capture driver. After capture, overlay and preview are disabled. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-grab-frame">WM_CAP_GRAB_FRAME</a> message.
 
 ## -parameters
 
@@ -60,13 +60,12 @@ Handle to a capture window.
 
 ## -remarks
 
-For information about installing callback functions, see the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonerror">capSetCallbackOnError</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonframe">capSetCallbackOnFrame</a> macros.
+For information about installing callback functions, see the <a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackonerror">capSetCallbackOnError</a> and <a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackonframe">capSetCallbackOnFrame</a> macros.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

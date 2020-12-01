@@ -60,41 +60,40 @@ The
 ### -param pGPOList [in]
 
 A pointer to the list of GPO structures. This list is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getgpolista">GetGPOList</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getappliedgpolista">GetAppliedGPOList</a> function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
+<a href="/windows/desktop/api/userenv/nf-userenv-getgpolista">GetGPOList</a> or 
+<a href="/windows/desktop/api/userenv/nf-userenv-getappliedgpolista">GetAppliedGPOList</a> function. For more information, see 
+<a href="/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>
+<a href="/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getappliedgpolista">GetAppliedGPOList</a>
+<a href="/windows/desktop/api/userenv/nf-userenv-getappliedgpolista">GetAppliedGPOList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getgpolista">GetGPOList</a>
+<a href="/windows/desktop/api/userenv/nf-userenv-getgpolista">GetGPOList</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 ## -remarks
 
 > [!NOTE]
 > The userenv.h header defines FreeGPOList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

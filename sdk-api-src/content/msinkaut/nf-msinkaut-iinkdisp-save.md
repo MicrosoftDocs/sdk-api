@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Converts the ink to the specified <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistenceformat">InkPersistenceFormat</a>, saves the ink by using the specified <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistencecompressionmode">InkPersistenceCompressionMode</a>, and returns the binary data in an array of bytes.
+Converts the ink to the specified <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistenceformat">InkPersistenceFormat</a>, saves the ink by using the specified <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistencecompressionmode">InkPersistenceCompressionMode</a>, and returns the binary data in an array of bytes.
 
 ## -parameters
 
 ### -param PersistenceFormat [in, optional]
 
-Optional. Sets one of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistenceformat">InkPersistenceFormat</a> values that indicates the format of the persisted ink. The default value is InkSerializedFormat.
+Optional. Sets one of the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistenceformat">InkPersistenceFormat</a> values that indicates the format of the persisted ink. The default value is InkSerializedFormat.
             
 
 <table>
@@ -121,7 +121,7 @@ This GIFformat is provided when ink is to be encoded directly in an XML or HTML 
 
 ### -param CompressionMode [in, optional]
 
-Optional. One of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistencecompressionmode">InkPersistenceCompressionMode</a> values that specifies the compression mode of the persisted ink.
+Optional. One of the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistencecompressionmode">InkPersistenceCompressionMode</a> values that specifies the compression mode of the persisted ink.
             The default value is IPCM_Default.
 
 <table>
@@ -167,7 +167,7 @@ Is used when save-time is more important than the amount of storage space used a
 
 When this method returns, contains the byte array that contains the persisted ink.
 
-For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
+For more information about the VARIANT structure, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ## -returns
 
@@ -248,10 +248,10 @@ Occurs if you attempt to save an empty Ink object in GIF format.
 
 ## -remarks
 
-Attempting to save an empty <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object in GIF format generates an error.
+Attempting to save an empty <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object in GIF format generates an error.
           
 
-<div class="alert"><b>Note</b>  When calling the <b>Save</b> method with an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistenceformat">InkPersistenceFormat</a> value of <b>Base64InkSerializedFormat</b>, the return value is a <b>NULL</b> -terminated byte array. To write the saved ink to an XML file, first remove the last byte from the array before converting the array to 8-bit Unicode Transformation Format (UTF-8) encoded string.
+<div class="alert"><b>Note</b>  When calling the <b>Save</b> method with an <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistenceformat">InkPersistenceFormat</a> value of <b>Base64InkSerializedFormat</b>, the return value is a <b>NULL</b> -terminated byte array. To write the saved ink to an XML file, first remove the last byte from the array before converting the array to 8-bit Unicode Transformation Format (UTF-8) encoded string.
           </div>
 <div> </div>
 
@@ -261,17 +261,16 @@ Attempting to save an empty <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistencecompressionmode">InkPersistenceCompressionMode Enumeration</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistencecompressionmode">InkPersistenceCompressionMode Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistenceformat">InkPersistenceFormat Enumeration</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistenceformat">InkPersistenceFormat Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load">Load Method</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load">Load Method</a>

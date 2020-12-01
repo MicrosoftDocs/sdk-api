@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a> object.
+Creates a new <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity-r1">TraceLoggingActivity</a> object.
 
 <b>TraceLoggingActivity</b> is a class template.
 
@@ -79,5 +79,4 @@ A reference to a <b>TraceLoggingActivity</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>
-
+<a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity-r1">TraceLoggingActivity</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SYNCMGRREGISTERFLAGS</b> enumeration values are used in methods of the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrregister">ISyncMgrRegister</a> interface to identify events for which the handler is registered to be notified.
+The <b>SYNCMGRREGISTERFLAGS</b> enumeration values are used in methods of the <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrregister">ISyncMgrRegister</a> interface to identify events for which the handler is registered to be notified.
 
 ## -enum-fields
 
@@ -71,4 +71,3 @@ Idle events.
 ## -remarks
 
 The SYNCMGRREGISTERFLAGS_MASK value can be used to identify valid <b>SYNCMGRREGISTERFLAGS</b> values.
-

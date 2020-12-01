@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IMSVidDataServices</b> interface represents the data services feature. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695122(v=vs.85)">MSVidDataServices</a> feature object exposes this interface.
+The <b>IMSVidDataServices</b> interface represents the data services feature. The <a href="/previous-versions/windows/desktop/legacy/dd695122(v=vs.85)">MSVidDataServices</a> feature object exposes this interface.
 
 ## -remarks
 
@@ -58,9 +58,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

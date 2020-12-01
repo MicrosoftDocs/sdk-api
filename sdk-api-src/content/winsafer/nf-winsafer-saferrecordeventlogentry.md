@@ -43,6 +43,7 @@ api_location:
  - Advapi32.dll
 api_name:
  - SaferRecordEventLogEntry
+req.apiset: ext-ms-win-advapi32-safer-l1-1-0 (introduced in Windows 8)
 ---
 
 # SaferRecordEventLogEntry function
@@ -69,9 +70,8 @@ Reserved for future use. This parameter should be set to <b>NULL</b>.
 ## -returns
 
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-saferidentifylevel">SaferIdentifyLevel</a> returns a SAFER_LEVEL_HANDLE with a LevelId that is anything other than SAFER_LEVELID_FULLYTRUSTED (0x40000), <b>SaferRecordEventLogEntry</b> can be called to facilitate troubleshooting. For example, clicking a button in excel.exe might attempt to launch another process that is not fully trusted. This might display an obscure error message because the program remapped the error returned from CreateProcess. To ease troubleshooting, some Safer functions call <b>SaferRecordEventLogEntry</b> to send an event to the event log.
-
+If <a href="/windows/desktop/api/winsafer/nf-winsafer-saferidentifylevel">SaferIdentifyLevel</a> returns a SAFER_LEVEL_HANDLE with a LevelId that is anything other than SAFER_LEVELID_FULLYTRUSTED (0x40000), <b>SaferRecordEventLogEntry</b> can be called to facilitate troubleshooting. For example, clicking a button in excel.exe might attempt to launch another process that is not fully trusted. This might display an obscure error message because the program remapped the error returned from CreateProcess. To ease troubleshooting, some Safer functions call <b>SaferRecordEventLogEntry</b> to send an event to the event log.

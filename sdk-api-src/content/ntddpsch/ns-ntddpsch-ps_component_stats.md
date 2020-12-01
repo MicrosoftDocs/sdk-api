@@ -79,7 +79,7 @@ This member must contain one of the following values.
 </dl>
 </td>
 <td width="60%">
-<b>Stats</b> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_adapter_stats">PS_ADAPTER_STATS</a> structure.
+<b>Stats</b> is a pointer to a <a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_adapter_stats">PS_ADAPTER_STATS</a> structure.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ This member must contain one of the following values.
 </dl>
 </td>
 <td width="60%">
-<b>Stats</b> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_flow_stats">PS_FLOW_STATS</a> structure.
+<b>Stats</b> is a pointer to a <a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_flow_stats">PS_FLOW_STATS</a> structure.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ This member must contain one of the following values.
 </dl>
 </td>
 <td width="60%">
-<b>Stats</b> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_conformer_stats">PS_CONFORMER_STATS</a> structure.
+<b>Stats</b> is a pointer to a <a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_conformer_stats">PS_CONFORMER_STATS</a> structure.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ This member must contain one of the following values.
 </dl>
 </td>
 <td width="60%">
-<b>Stats</b> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_shaper_stats">PS_SHAPER_STATS</a> structure.
+<b>Stats</b> is a pointer to a <a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_shaper_stats">PS_SHAPER_STATS</a> structure.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ This member must contain one of the following values.
 </dl>
 </td>
 <td width="60%">
-<b>Stats</b> is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_drrseq_stats">PS_DRRSEQ_STATS</a> structure.
+<b>Stats</b> is a pointer to a <a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_drrseq_stats">PS_DRRSEQ_STATS</a> structure.
 
 </td>
 </tr>
@@ -135,25 +135,24 @@ Array of structures of the type indicated in the <b>Type</b> member.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_adapter_stats">PS_ADAPTER_STATS</a>
+<a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_adapter_stats">PS_ADAPTER_STATS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_conformer_stats">PS_CONFORMER_STATS</a>
+<a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_conformer_stats">PS_CONFORMER_STATS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_drrseq_stats">PS_DRRSEQ_STATS</a>
+<a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_drrseq_stats">PS_DRRSEQ_STATS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_flow_stats">PS_FLOW_STATS</a>
+<a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_flow_stats">PS_FLOW_STATS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_shaper_stats">PS_SHAPER_STATS</a>
-
+<a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_shaper_stats">PS_SHAPER_STATS</a>

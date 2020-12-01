@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Frees an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure allocated by the Shell.
+Frees an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure allocated by the Shell.
 
 ## -parameters
 
@@ -63,28 +63,27 @@ Frees an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shty
 
 Type: <b>PIDLIST_RELATIVE</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to be freed. This parameter can be <b>NULL</b>.
+A pointer to the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to be freed. This parameter can be <b>NULL</b>.
 
 ## -remarks
 
-<b>ILFree</b> is often used with <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures allocated by one of the other IL functions, but it can be used to free any such structure returned by the Shell—for example, the <b>ITEMIDLIST</b> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shbrowseforfoldera">SHBrowseForFolder</a> or used in a call to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation">SHGetFolderLocation</a>.
+<b>ILFree</b> is often used with <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures allocated by one of the other IL functions, but it can be used to free any such structure returned by the Shell—for example, the <b>ITEMIDLIST</b> structure returned by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shbrowseforfoldera">SHBrowseForFolder</a> or used in a call to <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation">SHGetFolderLocation</a>.
 
-<div class="alert"><b>Note</b>  When using Windows 2000 or later, use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> rather than <b>ILFree</b>. <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures are always allocated with the Component Object Model (COM) task allocator on those platforms.</div>
+<div class="alert"><b>Note</b>  When using Windows 2000 or later, use <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> rather than <b>ILFree</b>. <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures are always allocated with the Component Object Model (COM) task allocator on those platforms.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilappendid">ILAppendID</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilappendid">ILAppendID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilclone">ILClone</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilclone">ILClone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilclonefirst">ILCloneFirst</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilclonefirst">ILCloneFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilcombine">ILCombine</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilcombine">ILCombine</a>

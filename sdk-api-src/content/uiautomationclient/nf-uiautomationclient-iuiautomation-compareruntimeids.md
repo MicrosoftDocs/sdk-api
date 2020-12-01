@@ -68,23 +68,23 @@ The second ID to compare
 
 ### -param areSame [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
 Receives <b>TRUE</b> if the IDs are the same, or <b>FALSE</b> otherwise.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-workingwithsafearrays">Best Practices for Using Safe Arrays</a>
+<a href="/windows/desktop/WinAuto/uiauto-workingwithsafearrays">Best Practices for Using Safe Arrays</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-compareelements">CompareElements</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-compareelements">CompareElements</a>
 
 
 
@@ -92,13 +92,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getruntimeid">GetRuntimeId</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getruntimeid">GetRuntimeId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
 
 
 
 <b>Reference</b>
-

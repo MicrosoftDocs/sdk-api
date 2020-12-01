@@ -110,23 +110,22 @@ Value: 0xC0AA0504
 
 ## -remarks
 
-You can set this property before calling the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-preparemedia">IDiscFormat2TrackAtOnce::PrepareMedia</a> method or after calling the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">IDiscFormat2TrackAtOnce::ReleaseMedia</a> method; you cannot set it during a track-writing session. 
+You can set this property before calling the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-preparemedia">IDiscFormat2TrackAtOnce::PrepareMedia</a> method or after calling the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">IDiscFormat2TrackAtOnce::ReleaseMedia</a> method; you cannot set it during a track-writing session. 
 
 This property is useful to create a multi-session CD with audio in the first session and data in the second session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-preparemedia">IDiscFormat2TrackAtOnce::PrepareMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-preparemedia">IDiscFormat2TrackAtOnce::PrepareMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">IDiscFormat2TrackAtOnce::ReleaseMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">IDiscFormat2TrackAtOnce::ReleaseMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_donotfinalizemedia">IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_donotfinalizemedia">IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia</a>

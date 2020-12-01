@@ -59,7 +59,7 @@ Describes an entry from a list that enumerates the heaps used by a specified pro
 ### -field dwSize
 
 The size of the structure, in bytes. Before calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listfirst">Heap32ListFirst</a> function, set this member to <code>sizeof(HEAPLIST32)</code>. If you do not initialize <b>dwSize</b>, 
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listfirst">Heap32ListFirst</a> function, set this member to <code>sizeof(HEAPLIST32)</code>. If you do not initialize <b>dwSize</b>, 
 <b>Heap32ListFirst</b> will fail.
 
 ### -field th32ProcessID
@@ -93,9 +93,8 @@ Process's default heap
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listfirst">Heap32ListFirst</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listfirst">Heap32ListFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listnext">Heap32ListNext</a>
-
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listnext">Heap32ListNext</a>

@@ -88,5 +88,4 @@ If this value is set to <b>TRUE</b>, the current cabinet is linked to the next c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdiiscabinet">FDIIsCabinet</a>
-
+<a href="/windows/desktop/api/fdi/nf-fdi-fdiiscabinet">FDIIsCabinet</a>

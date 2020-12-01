@@ -52,7 +52,7 @@ api_name:
 
 Divides one instance of <code>XMVECTOR</code> by a second instance, returning the result in a third instance.
 
-The <code>XMVectorDivide</code> divides each component of an instance of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> by the corresponding component in a
+The <code>XMVectorDivide</code> divides each component of an instance of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> by the corresponding component in a
   second instance of <code>XMVECTOR</code>, returning a new <code>XMVECTOR</code> instance containing the result.
 
 ## -parameters
@@ -88,5 +88,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-arithmetic">Vector Arithmetic Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-arithmetic">Vector Arithmetic Functions</a>

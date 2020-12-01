@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
  - SetupGetFieldCount
+req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupGetFieldCount function
@@ -65,17 +66,16 @@ Pointer to the context for a line in an INF file.
 ## -returns
 
 This function returns the number of fields on the line. If <i>Context</i> is invalid, 0 is returned. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetlinecounta">SetupGetLineCount</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetlinecounta">SetupGetLineCount</a>

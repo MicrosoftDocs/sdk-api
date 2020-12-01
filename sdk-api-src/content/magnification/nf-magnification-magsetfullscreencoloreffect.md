@@ -56,13 +56,13 @@ Changes the color transformation matrix  associated with the full-screen magnifi
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/magnification/ns-magnification-magcoloreffect">PMAGCOLOREFFECT</a></b>
+Type: <b><a href="/windows/desktop/api/magnification/ns-magnification-magcoloreffect">PMAGCOLOREFFECT</a></b>
 
 The new color transformation matrix. This parameter must not be NULL.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns TRUE if successful, or FALSE otherwise.
 
@@ -105,5 +105,4 @@ BOOL SetColorGrayscale(__in BOOL fGrayscaleOn)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetfullscreencoloreffect">MagGetFullscreenColorEffect</a>
-
+<a href="/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetfullscreencoloreffect">MagGetFullscreenColorEffect</a>

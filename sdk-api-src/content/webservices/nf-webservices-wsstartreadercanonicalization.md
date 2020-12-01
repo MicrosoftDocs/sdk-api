@@ -61,11 +61,11 @@ The usage pattern for canonicalization is:
 <li> Call <b>WsStartReaderCanonicalization</b>.
           </li>
 <li> Move the Reader forward to the end position.</li>
-<li> Call <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a>.
+<li> Call <a href="/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a>.
         </li>
 </ul>During this process the canonical bytes are written to the
         specified writeCallback.  <div class="alert"><b>Note</b>  Nodes advanced over
-        are canonicalized including nodes of child elements skipped using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsskipnode">WsSkipNode</a>. This is beneficial because it means that canonicalization and parsing can be done in one pass over
+        are canonicalized including nodes of child elements skipped using <a href="/windows/desktop/api/webservices/nf-webservices-wsskipnode">WsSkipNode</a>. This is beneficial because it means that canonicalization and parsing can be done in one pass over
         the XML content regardless of what functions are used to read
         the data.
       </div>
@@ -74,7 +74,7 @@ The usage pattern for canonicalization is:
 
 In order to use the XML Reader solely
         for canonicalizing an XML element node the application can
-        call <b>WsStartReaderCanonicalization</b>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsskipnode">WsSkipNode</a>and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a> when the Reader is positioned
+        call <b>WsStartReaderCanonicalization</b>, <a href="/windows/desktop/api/webservices/nf-webservices-wsskipnode">WsSkipNode</a>and <a href="/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a> when the Reader is positioned
         on the element.
       <b>WsEndReaderCanonicalization</b> must be called in order to ensure that all
         canonicalized bytes are written to the specified callback.
@@ -90,13 +90,13 @@ In order to use the XML Reader solely
 
 
 
-It is not valid to call <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmovereader">WsMoveReader</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetreaderposition">WsSetReaderPosition</a> on a Reader between calls to <b>WsStartReaderCanonicalization</b> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a>.
+It is not valid to call <a href="/windows/desktop/api/webservices/nf-webservices-wsmovereader">WsMoveReader</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetreaderposition">WsSetReaderPosition</a> on a Reader between calls to <b>WsStartReaderCanonicalization</b> and <a href="/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a>.
 
 ## -parameters
 
 ### -param reader [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object on which canonicalization is started.  The pointer must reference a valid <b>XML Reader</b> object.
+A pointer to the <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object on which canonicalization is started.  The pointer must reference a valid <b>XML Reader</b> object.
 
 ### -param writeCallback [in]
 
@@ -106,7 +106,7 @@ A  callback function invoked to write the canonical bytes as they are generated.
 
 ### -param writeCallbackState [in]
 
-A pointer to a caller-defined state that is passed when invoking the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_write_callback">WS_WRITE_CALLBACK</a>.
+A pointer to a caller-defined state that is passed when invoking the <a href="/windows/desktop/api/webservices/nc-webservices-ws_write_callback">WS_WRITE_CALLBACK</a>.
 
 ### -param properties
 
@@ -119,7 +119,7 @@ The number of properties.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -167,14 +167,13 @@ The input data was not in the expected format or did not have the expected value
 
 ## -remarks
 
-Calls to this function cannot be nested.  Consequently a call to <b>WsStartReaderCanonicalization</b> must be followed by a call to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a> before the next <b>WsStartReaderCanonicalization</b> call can be made.
+Calls to this function cannot be nested.  Consequently a call to <b>WsStartReaderCanonicalization</b> must be followed by a call to <a href="/windows/desktop/api/webservices/nf-webservices-wsendreadercanonicalization">WsEndReaderCanonicalization</a> before the next <b>WsStartReaderCanonicalization</b> call can be made.
       
 
-If a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_XML_CANONICALIZATION_ALGORITHM</a> is not specified <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
+If a <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_XML_CANONICALIZATION_ALGORITHM</a> is not specified <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
       
 
 The <b>WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> and 
         <b>WS_INCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM</b> algorithms can only be used with
         entire XML documents.  The Reader must be positioned at <b>WS_XML_NODE_TYPE_BOF</b> when
         <b>WsStartReaderCanonicalization</b> is called with these algorithms.
-

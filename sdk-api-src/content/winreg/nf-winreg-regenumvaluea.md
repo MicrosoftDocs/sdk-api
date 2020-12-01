@@ -67,15 +67,15 @@ Enumerates the values for the specified open registry key. The function copies o
 ### -param hKey [in]
 
 A handle to an open registry key. The key must have been opened with the KEY_QUERY_VALUE access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>. 
+<a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>. 
 
 
 
 
 This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function. It can also be one of the following 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<dl>
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
+<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function. It can also be one of the following 
+<a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<dl>
 <dd><b>HKEY_CLASSES_ROOT</b></dd>
 <dd><b>HKEY_CURRENT_CONFIG</b></dd>
 <dd><b>HKEY_CURRENT_USER</b></dd>
@@ -102,11 +102,13 @@ A pointer to a buffer that receives the name of the value as a <b>null</b>-termi
 This buffer must be large enough to include the terminating <b>null</b> character. 
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
+<a href="/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
 
 ### -param lpcchValueName [in, out]
 
 A pointer to a variable that specifies the size of the buffer pointed to by the <i>lpValueName</i> parameter, in characters. When the function returns, the variable receives the number of characters stored in the buffer, not including the terminating <b>null</b> character.
+
+If the buffer specified by <i>lpValueName</i> is not large enough to hold the data, the function returns ERROR_MORE_DATA and the buffer size in the variable pointed to by <i>lpValueName</i> is not changed. In this case, the contents of <i>lpcchValueName</i> are undefined.
 
 Registry value names are limited to 32,767 bytes. The ANSI version of this function treats this parameter as a <b>SHORT</b> value. Therefore, if you specify a value greater than 32,767 bytes, there is an overflow and the function may return ERROR_MORE_DATA.
 
@@ -117,7 +119,7 @@ This parameter is reserved and must be <b>NULL</b>.
 ### -param lpType [out, optional]
 
 A pointer to a variable that receives a code indicating the type of data stored in the specified value. For a list of the possible type codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>. The <i>lpType</i> parameter can be <b>NULL</b> if the type code is not required.
+<a href="/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>. The <i>lpType</i> parameter can be <b>NULL</b> if the type code is not required.
 
 ### -param lpData [out, optional]
 
@@ -143,9 +145,9 @@ If the buffer specified by <i>lpData</i> is not large enough to hold the data, t
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. If there are no more values available, the function returns ERROR_NO_MORE_ITEMS.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>. If there are no more values available, the function returns ERROR_NO_MORE_ITEMS.
 
-If the <i>lpData</i> buffer is too small to receive the value, the function returns ERROR_MORE_DATA.
+If the buffer specified by <i>lpValueName</i> or <i>lpData</i> is too small to receive the value, the function returns ERROR_MORE_DATA.
 
 ## -remarks
 
@@ -154,7 +156,7 @@ To enumerate values, an application should initially call the
 <b>RegEnumValue</b> function until there are no more values (until the function returns ERROR_NO_MORE_ITEMS).
 
 The application can also set <i>dwIndex</i> to the index of the last value on the first call to the function and decrement the index until the value with index 0 is enumerated. To retrieve the index of the last value, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a> function.
+<a href="/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a> function.
 
 While using 
 <b>RegEnumValue</b>, an application should not call any registry functions that might change the key being queried.
@@ -162,7 +164,7 @@ While using
 If the data has the REG_SZ, REG_MULTI_SZ or REG_EXPAND_SZ type, the string may not have been stored with the proper <b>null</b>-terminating characters.  Therefore, even if the function returns ERROR_SUCCESS, the application should ensure that the string is properly terminated before using it; otherwise, it may overwrite a buffer. (Note that REG_MULTI_SZ strings should have two <b>null</b>-terminating characters.)
 
 To determine the maximum size of the name and data buffers, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a> function.
+<a href="/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a> function.
 
 > [!NOTE] 
 > On legacy versions of Windows, this API is also exposed by kernel32.dll.
@@ -170,7 +172,7 @@ To determine the maximum size of the name and data buffers, use the
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/enumerating-registry-subkeys">Enumerating Registry Subkeys</a>.
+<a href="/windows/desktop/SysInfo/enumerating-registry-subkeys">Enumerating Registry Subkeys</a>.
 
 <div class="code"></div>
 
@@ -182,25 +184,24 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenumkeyexa">RegEnumKeyEx</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regenumkeyexa">RegEnumKeyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
+<a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
-
+<a href="/windows/desktop/SysInfo/registry">Registry Overview</a>

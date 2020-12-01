@@ -55,15 +55,15 @@ provides similar functionality.]
 
 The 
 <b>get_Scopes</b> method creates a collection of IMcast scopes available. This method is similar to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-enumeratescopes">EnumerateScopes</a>, but is used by scripting languages such as Visual Basic.
+<a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastaddressallocation-enumeratescopes">EnumerateScopes</a>, but is used by scripting languages such as Visual Basic.
 
 ## -parameters
 
 ### -param pVariant [out]
 
 Pointer to a <b>VARIANT</b> receiving an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a> interface pointers.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a> interface pointers.
 
 ## -returns
 
@@ -123,18 +123,17 @@ Not enough memory exists to create the required objects.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a> interface returned by <b>IMcastAddressAllocation::get_Scopes</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a> interface returned by <b>IMcastAddressAllocation::get_Scopes</b>. The application must call <b>Release</b> on the 
 <b>IMcastScope</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastaddressallocation">IMcastAddressAllocation</a>
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastaddressallocation">IMcastAddressAllocation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a>
+<a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>

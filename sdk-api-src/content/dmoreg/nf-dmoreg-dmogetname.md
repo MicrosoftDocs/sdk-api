@@ -112,5 +112,4 @@ If the method returns S_FALSE, <i>szName</i> is set to '\0'.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-functions">DMO Functions</a>
-
+<a href="/windows/desktop/DirectShow/dmo-functions">DMO Functions</a>

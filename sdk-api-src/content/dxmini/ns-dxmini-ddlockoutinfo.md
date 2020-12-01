@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The DDLOCKOUTINFO structure contains the surface information output from the <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a> function.
+The DDLOCKOUTINFO structure contains the surface information output from the <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a> function.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ Points to the surface in the frame buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a>
-
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_lock">DxLock</a>

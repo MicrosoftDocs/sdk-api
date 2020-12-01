@@ -55,7 +55,7 @@ Returns the device identifier supported by a video renderer component. This inte
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoDeviceID</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoDeviceID</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoDeviceID</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoDeviceID</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFVideoDeviceID</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideodeviceid-getdeviceid">GetDeviceID</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideodeviceid-getdeviceid">GetDeviceID</a>
 </td>
 <td align="left" width="63%">
 Returns the identifier of the video device supported by the EVR mixer or presenter.
@@ -81,9 +81,8 @@ Returns the identifier of the video device supported by the EVR mixer or present
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

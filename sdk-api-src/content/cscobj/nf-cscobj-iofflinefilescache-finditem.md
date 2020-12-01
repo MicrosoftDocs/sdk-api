@@ -103,7 +103,7 @@ Allows administrators to find items cached by any user.  If this flag is set and
 
 ### -param ppItem [out]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitem">IOfflineFilesItem</a> interface of the cache item.
+Pointer to the <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitem">IOfflineFilesItem</a> interface of the cache item.
 
 ## -returns
 
@@ -113,9 +113,8 @@ Returns <code>HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)</code> if the cache entry
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-finditemex">FindItemEx</a> is an enhanced version of <b>FindItem</b> that provides filtering capabilities similar to what is offered by cache item enumeration.  Calling <b>FindItem</b> is equivalent to calling <b>FindItemEx</b> with all four filter parameters set to <b>NULL</b>.
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-finditemex">FindItemEx</a> is an enhanced version of <b>FindItem</b> that provides filtering capabilities similar to what is offered by cache item enumeration.  Calling <b>FindItem</b> is equivalent to calling <b>FindItemEx</b> with all four filter parameters set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>

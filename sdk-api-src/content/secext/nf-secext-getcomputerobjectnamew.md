@@ -47,6 +47,7 @@ api_name:
  - GetComputerObjectName
  - GetComputerObjectNameA
  - GetComputerObjectNameW
+req.apiset: ext-ms-win-secur32-translatename-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetComputerObjectNameW function
@@ -61,7 +62,7 @@ Retrieves the local computer's name in a specified format.
 ### -param NameFormat [in]
 
 The format for the name. This parameter is a value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/secext/ne-secext-extended_name_format">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be NameUnknown.
+<a href="/windows/desktop/api/secext/ne-secext-extended_name_format">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be NameUnknown.
 
 ### -param lpNameBuffer [out]
 
@@ -81,23 +82,22 @@ On input, specifies the size of the <i>lpNameBuffer</i> buffer, in <b>TCHARs</b>
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/secext/ne-secext-extended_name_format">EXTENDED_NAME_FORMAT</a>
+<a href="/windows/desktop/api/secext/ne-secext-extended_name_format">EXTENDED_NAME_FORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa">GetComputerNameEx</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getcomputernameexa">GetComputerNameEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
+<a href="/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The secext.h header defines GetComputerObjectName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -64,13 +64,12 @@ Turn on writes to the depth-stencil buffer.
 
 ## -remarks
 
-This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc">D3D12_DEPTH_STENCIL_DESC</a> structure.
+This enum is used by the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc">D3D12_DEPTH_STENCIL_DESC</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-depth-stencil-desc">CD3DX12_DEPTH_STENCIL_DESC</a>
+<a href="/windows/desktop/direct3d12/cd3dx12-depth-stencil-desc">CD3DX12_DEPTH_STENCIL_DESC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>

@@ -56,9 +56,9 @@ Binds to an object by means of the specified handler.
 
 ### -param pbc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on a bind context object.
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a> interface on a bind context object.
 
 ### -param bhid [in]
 
@@ -70,19 +70,19 @@ One of the following values, defined in Shlguid.h, that determine the handler.
 
 #### BHID_SFUIObject
 
-Restricts usage to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">GetUIObjectOf</a>. Use this handler type only for a flat item array, where all items are in the same folder.
+Restricts usage to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">GetUIObjectOf</a>. Use this handler type only for a flat item array, where all items are in the same folder.
 
 
 
 #### BHID_DataObject
 
-<b>Introduced in Windows Vista</b>: Gets an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object for use with an item or an array of items. Use this handler type only for flat data objects or item arrays created by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject">SHCreateShellItemArrayFromDataObject</a>.
+<b>Introduced in Windows Vista</b>: Gets an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object for use with an item or an array of items. Use this handler type only for flat data objects or item arrays created by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreateshellitemarrayfromdataobject">SHCreateShellItemArrayFromDataObject</a>.
 
 
 
 #### BHID_AssociationArray
 
-<b>Introduced in Windows Vista</b>: Gets an <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> object for use with an item or an array of items. This only retrieves the association array object for the first item in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>
+<b>Introduced in Windows Vista</b>: Gets an <a href="/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> object for use with an item or an array of items. This only retrieves the association array object for the first item in the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>
 
 ### -param riid [in]
 
@@ -101,4 +101,3 @@ When this methods returns, contains the object specified in <i>riid</i> that is 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

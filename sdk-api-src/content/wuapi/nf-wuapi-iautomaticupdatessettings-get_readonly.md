@@ -73,14 +73,13 @@ This property is read-only.
 </li>
 </ul>
  
-The caller can modify the settings in the  <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a> interface only if <b>ReadOnly</b> is <b>VARIANT_FALSE</b>.
-The value of <b>ReadOnly</b> may change after calling <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-refresh">Refresh</a>.
+The caller can modify the settings in the  <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a> interface only if <b>ReadOnly</b> is <b>VARIANT_FALSE</b>.
+The value of <b>ReadOnly</b> may change after calling <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-refresh">Refresh</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-refresh">IAutomaticUpdatesSettings.Refresh</a>
-
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-refresh">IAutomaticUpdatesSettings.Refresh</a>

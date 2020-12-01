@@ -60,7 +60,7 @@ Index of the profile to retrieve.
 
 ### -param ppProfile [out]
 
-On success, returns a double pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofile">IMFSensorProfile</a> object that describes the specified sensor profile.
+On success, returns a double pointer to an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofile">IMFSensorProfile</a> object that describes the specified sensor profile.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofilecollection">IMFSensorProfileCollection</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofilecollection">IMFSensorProfileCollection</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>USB_CONTROLLER_INFO_0</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a> I/O control request to retrieve information about the USB host controller.
+The <b>USB_CONTROLLER_INFO_0</b> structure is used with the <a href="/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a> I/O control request to retrieve information about the USB host controller.
 
 ## -struct-fields
 
@@ -79,7 +79,7 @@ The number of root hub ports that the host controller has.
 
 ### -field ControllerFlavor
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ne-usb-_usb_controller_flavor">USB_CONTROLLER_FLAVOR</a>-typed enumerator  that specifies the type of controller.
+A <a href="/windows-hardware/drivers/ddi/content/usb/ne-usb-_usb_controller_flavor">USB_CONTROLLER_FLAVOR</a>-typed enumerator  that specifies the type of controller.
 
 ### -field HcFeatureFlags
 
@@ -128,13 +128,12 @@ The host controller has a legacy BIOS.
 
 ## -remarks
 
-The <b>USB_CONTROLLER_INFO_0</b> structure is used with the USBUSER_GET_CONTROLLER_INFO_0 user-mode request. For a description of this request, see <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>.
+The <b>USB_CONTROLLER_INFO_0</b> structure is used with the USBUSER_GET_CONTROLLER_INFO_0 user-mode request. For a description of this request, see <a href="/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>
+<a href="/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ne-usb-_usb_controller_flavor">USB_CONTROLLER_FLAVOR</a>
-
+<a href="/windows-hardware/drivers/ddi/content/usb/ne-usb-_usb_controller_flavor">USB_CONTROLLER_FLAVOR</a>

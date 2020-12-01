@@ -54,11 +54,10 @@ A pointer to the [DNS_SERVICE_CANCEL](ns-windns-dns_service_cancel.md) structure
 
 ## -returns
 
-If successful, returns **ERROR_SUCCESS**; otherwise, returns the appropriate DNS-specific error code as defined in `Winerror.h`. For extended error information, call [GetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+If successful, returns **ERROR_SUCCESS**; otherwise, returns the appropriate DNS-specific error code as defined in `Winerror.h`. For extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
 Canceling the query causes one further invocation of the browse callback, with status **ERROR_CANCELLED**.
 
 ## -see-also
-

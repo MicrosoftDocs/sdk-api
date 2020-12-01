@@ -46,6 +46,7 @@ api_location:
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
  - EndDialog
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 ---
 
 # EndDialog function
@@ -75,13 +76,13 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Dialog boxes created by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxparama">DialogBoxParam</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxindirecta">DialogBoxIndirect</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxindirectparama">DialogBoxIndirectParam</a> functions must be destroyed using the <b>EndDialog</b> function. An application calls <b>EndDialog</b> from within the dialog box procedure; the function must not be used for any other purpose. 
+Dialog boxes created by the <a href="/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a>, <a href="/windows/desktop/api/winuser/nf-winuser-dialogboxparama">DialogBoxParam</a>, <a href="/windows/desktop/api/winuser/nf-winuser-dialogboxindirecta">DialogBoxIndirect</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-dialogboxindirectparama">DialogBoxIndirectParam</a> functions must be destroyed using the <b>EndDialog</b> function. An application calls <b>EndDialog</b> from within the dialog box procedure; the function must not be used for any other purpose. 
 
-A dialog box procedure can call <b>EndDialog</b> at any time, even during the processing of the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message. If your application calls the function while <b>WM_INITDIALOG</b> is being processed, the dialog box is destroyed before it is shown and before the input focus is set. 
+A dialog box procedure can call <b>EndDialog</b> at any time, even during the processing of the <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message. If your application calls the function while <b>WM_INITDIALOG</b> is being processed, the dialog box is destroyed before it is shown and before the input focus is set. 
 
 <b>EndDialog</b> does not destroy the dialog box immediately. Instead, it sets a flag and allows the dialog box procedure to return control to the system. The system checks the flag before attempting to retrieve the next message from the application queue. If the flag is set, the system ends the message loop, destroys the dialog box, and uses the value in <i>nResult</i> as the return value from the function that created the dialog box.
 
@@ -91,23 +92,23 @@ A dialog box procedure can call <b>EndDialog</b> at any time, even during the pr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxindirecta">DialogBoxIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-dialogboxindirecta">DialogBoxIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxindirectparama">DialogBoxIndirectParam</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-dialogboxindirectparama">DialogBoxIndirectParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxparama">DialogBoxParam</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-dialogboxparama">DialogBoxParam</a>
 
 
 
@@ -115,5 +116,4 @@ A dialog box procedure can call <b>EndDialog</b> at any time, even during the pr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>
-
+<a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>

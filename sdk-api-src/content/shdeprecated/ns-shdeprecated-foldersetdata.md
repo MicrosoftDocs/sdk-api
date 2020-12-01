@@ -57,15 +57,15 @@ api_name:
 
 <p class="CCE_Message">[<b>FOLDERSETDATA</b> may be altered or unavailable in subsequent versions of the operating system or product.]
 
-Deprecated. Data used in <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-getfoldersetdata">IBrowserService2::GetFolderSetData</a>.
+Deprecated. Data used in <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-getfoldersetdata">IBrowserService2::GetFolderSetData</a>.
 
 ## -struct-fields
 
 ### -field _fs
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a></b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure containing folder view informtion.
+The <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure containing folder view informtion.
 
 ### -field _vidRestore
 
@@ -138,4 +138,3 @@ The last known good view supported by the window should be used.
 #### VIEW_PRIORITY_NONE
 
 No view is available at this point.
-

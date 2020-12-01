@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>get_CallHub</b> method returns a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface on which the event occurred.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface on which the event occurred.
 
 ## -parameters
 
 ### -param ppCallHub [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a> interface.
 
 ## -returns
 
@@ -107,9 +107,8 @@ The <i>pCallHubState</i> parameter is not a valid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-object">CallHub Object</a>
+<a href="/windows/desktop/Tapi/callhub-object">CallHub Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent">ITCallHubEvent</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent">ITCallHubEvent</a>

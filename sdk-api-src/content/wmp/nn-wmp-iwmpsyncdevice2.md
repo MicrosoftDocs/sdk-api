@@ -56,7 +56,7 @@ To use this interface, you must create a remoted instance of the Windows Media P
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSyncDevice2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice</a>. <b>IWMPSyncDevice2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPSyncDevice2</b> interface inherits from <a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice</a>. <b>IWMPSyncDevice2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMPSyncDevice2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice2-setiteminfo">setItemInfo</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice2-setiteminfo">setItemInfo</a>
 </td>
 <td align="left" width="63%">
 Specifies an attribute value for a device.
@@ -80,17 +80,16 @@ Specifies an attribute value for a device.
 </tr>
 </table> 
 
-Retrieve a pointer to <b>IWMPSyncDevice2</b> by calling <b>QueryInterface</b> through a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice</a>.
+Retrieve a pointer to <b>IWMPSyncDevice2</b> by calling <b>QueryInterface</b> through a pointer to <a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
-
+<a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>

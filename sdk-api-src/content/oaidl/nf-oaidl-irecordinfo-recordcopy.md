@@ -99,9 +99,8 @@ One or more of the arguments is not valid.
 
 ## -remarks
 
-<b>RecordCopy</b> will release the resources in the destination first. The caller is responsible for allocating sufficient memory in the destination by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getsize">GetSize</a> or  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreate">RecordCreate</a>. If <b>RecordCopy</b> fails to copy any of the fields then all fields will be cleared, as though <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordclear">RecordClear</a> had been called.
+<b>RecordCopy</b> will release the resources in the destination first. The caller is responsible for allocating sufficient memory in the destination by calling <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getsize">GetSize</a> or  <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreate">RecordCreate</a>. If <b>RecordCopy</b> fails to copy any of the fields then all fields will be cleared, as though <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordclear">RecordClear</a> had been called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>

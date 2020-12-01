@@ -47,41 +47,21 @@ api_name:
  - HSTRING_UserUnmarshal
 ---
 
-# HSTRING_UserUnmarshal function
-
-
 ## -description
 
-Unmarshals an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object from the RPC buffer.
+Unmarshals an <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object from the RPC buffer.
 
 ## -parameters
 
-### -param arg1
-
-TBD
-
-### -param arg2
-
-TBD
-
-### -param arg3
-
-TBD
-
-
-
-
-#### - pBuffer [in]
-
-The current buffer. This pointer may or may not be aligned on entry.
-
-
-#### - pFlags [in]
+### -param arg1 [in]
 
 The data used by RPC.
 
+### -param arg2 [in]
 
-#### - ppidl [out]
+The current buffer. This pointer may or may not be aligned on entry.
+
+### -param arg3 [out]
 
 The string.
 
@@ -120,5 +100,4 @@ Insufficient memory for this function to perform.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
-
+<a href="/windows/desktop/WinRT/hstring">HSTRING</a>

@@ -94,13 +94,12 @@ The GUID passed to <i>pContext</i> does not match a queued operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulk">IPortableDevicePropertiesBulk Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulk">IPortableDevicePropertiesBulk Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-properties-for-multiple-objects">Retrieving Properties for Multiple Objects</a>
+<a href="/windows/desktop/wpd_sdk/retrieving-properties-for-multiple-objects">Retrieving Properties for Multiple Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/setting-properties-for-multiple-objects">Setting Properties for Multiple Objects</a>
-
+<a href="/windows/desktop/wpd_sdk/setting-properties-for-multiple-objects">Setting Properties for Multiple Objects</a>

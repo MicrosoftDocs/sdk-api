@@ -56,11 +56,11 @@ The <b>CertRetrieveLogoOrBiometricInfo</b> function performs a URL retrieval of 
 
 ### -param pCertContext [in]
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate.
+The address of a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the certificate.
 
 ### -param lpszLogoOrBiometricType [in]
 
-The address of a null-terminated ANSI string that contains an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) string that identifies the type of information to retrieve.
+The address of a null-terminated ANSI string that contains an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) string that identifies the type of information to retrieve.
 
 
 This parameter may also contain one of the following predefined values.
@@ -126,7 +126,7 @@ Retrieve the signature associated with the certificate.
 
 ### -param dwRetrievalFlags [in]
 
-A set of flags that specify how the information should be retrieved. This parameter is passed as the <i>dwRetrievalFlags</i> in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> function.
+A set of flags that specify how the information should be retrieved. This parameter is passed as the <i>dwRetrievalFlags</i> in the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> function.
 
 ### -param dwTimeout [in]
 
@@ -142,7 +142,7 @@ This parameter is not used and must be <b>NULL</b>.
 
 ### -param ppbData [out]
 
-The address of a <b>BYTE</b> pointer that receives the logotype or biometric data. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
+The address of a <b>BYTE</b> pointer that receives the logotype or biometric data. This memory must be freed when it is no longer needed by passing this pointer to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
 
 ### -param pcbData [out]
 
@@ -150,7 +150,7 @@ The address of a <b>DWORD</b> variable that receives the number of bytes in the 
 
 ### -param ppwszMimeType [out]
 
-The address of a pointer to a null-terminated Unicode string that receives the Multipurpose Internet Mail Extensions (MIME) type of the data. This parameter can be <b>NULL</b> if this information is not needed. This memory must be freed when it is no longer needed by passing this pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
+The address of a pointer to a null-terminated Unicode string that receives the Multipurpose Internet Mail Extensions (MIME) type of the data. This parameter can be <b>NULL</b> if this information is not needed. This memory must be freed when it is no longer needed by passing this pointer to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a> function.
 
 This address always receives <b>NULL</b> for biometric types. You must always ensure that this parameter contains a valid memory address before attempting to access the memory.
 
@@ -159,7 +159,7 @@ This address always receives <b>NULL</b> for biometric types. You must always en
 Returns nonzero if successful or zero otherwise.
 
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes returned by the 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes returned by the 
 		       <b>GetLastError</b> function include, but are not limited to, the following.
 
 <table>
@@ -237,5 +237,4 @@ The hash algorithm OID is unknown.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemfree">CryptMemFree</a>

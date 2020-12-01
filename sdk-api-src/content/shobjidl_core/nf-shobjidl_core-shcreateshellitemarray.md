@@ -58,11 +58,11 @@ Creates a Shell item array object.
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-The ID list of the parent folder of the items specified in <i>ppidl</i>. If <i>psf</i> is specified, this parameter can be <b>NULL</b>. If this <i>pidlParent</i> is not specified, it is computed from the <i>psf</i> parameter using <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2">IPersistFolder2</a>.
+The ID list of the parent folder of the items specified in <i>ppidl</i>. If <i>psf</i> is specified, this parameter can be <b>NULL</b>. If this <i>pidlParent</i> is not specified, it is computed from the <i>psf</i> parameter using <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder2">IPersistFolder2</a>.
 
 ### -param psf [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
 The Shell data source object that is the parent of the child items specified in <i>ppidl</i>. If <i>pidlParent</i> is specified, this parameter can be <b>NULL</b>.
 
@@ -80,13 +80,12 @@ The list of child item IDs for which the array is being created. This value can 
 
 ### -param ppsiItemArray [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>**</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>**</b>
 
-When this function returns, contains the address of an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a> interface pointer.
+When this function returns, contains the address of an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a> interface pointer.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

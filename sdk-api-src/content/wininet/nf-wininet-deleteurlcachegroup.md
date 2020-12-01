@@ -61,7 +61,7 @@ ID of the cache group to be released.
 ### -param dwFlags [in]
 
 Controls the cache group deletion. This can be set to 
-any member of the <a href="https://docs.microsoft.com/windows/desktop/WinInet/cache-group-constants">cache group constants</a>. When this parameter is set to <a href="https://docs.microsoft.com/windows/desktop/WinInet/cache-group-constants">CACHEGROUP_FLAG_FLUSHURL_ONDELETE</a>, it causes 
+any member of the <a href="/windows/desktop/WinInet/cache-group-constants">cache group constants</a>. When this parameter is set to <a href="/windows/desktop/WinInet/cache-group-constants">CACHEGROUP_FLAG_FLUSHURL_ONDELETE</a>, it causes 
 <b>DeleteUrlCacheGroup</b> to delete all of the cache entries associated with this group, unless the entry belongs to another group.
 
 ### -param lpReserved [in]
@@ -71,18 +71,17 @@ This parameter is reserved and must be <b>NULL</b>.
 ## -returns
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get specific error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/caching">Caching</a>
+<a href="/windows/desktop/WinInet/caching">Caching</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Serializes an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> into a buffer in the format specified when the serializer was created.  Options can be passed into the flags to control if the class and all its parent classes are serialized, or just the child-most class.
+Serializes an <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> into a buffer in the format specified when the serializer was created.  Options can be passed into the flags to control if the class and all its parent classes are serialized, or just the child-most class.
 
 ## -parameters
 
 ### -param serializer [in, out]
 
-Serializer returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newserializer">MI_Application_NewSerializer</a>.
+Serializer returned from <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newserializer">MI_Application_NewSerializer</a>.
 
 ### -param flags
 
@@ -80,9 +80,8 @@ Returned total length the buffer needs to be.  If a buffer is passed in (via the
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newserializer">MI_Application_NewSerializer</a>
-
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newserializer">MI_Application_NewSerializer</a>

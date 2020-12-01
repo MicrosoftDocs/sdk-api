@@ -58,7 +58,7 @@ The <b>EapHostPeerUninitialize</b> function must be called after you are finishe
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerinitialize">EapHostPeerInitialize</a> and <b>EapHostPeerUninitialize</b> are always thread
+<a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerinitialize">EapHostPeerInitialize</a> and <b>EapHostPeerUninitialize</b> are always thread
 safe.
 
 <b>EapHostPeerUninitialize</b> calls <b>CoUninitialize</b>.
@@ -69,5 +69,4 @@ safe.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerinitialize">EapHostPeerInitialize</a>
-
+<a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerinitialize">EapHostPeerInitialize</a>

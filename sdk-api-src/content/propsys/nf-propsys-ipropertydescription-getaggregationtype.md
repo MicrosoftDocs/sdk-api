@@ -55,9 +55,9 @@ Gets a value that describes how the property values are displayed when multiple 
 
 ### -param paggtype [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_aggregation_type">PROPDESC_AGGREGATION_TYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_aggregation_type">PROPDESC_AGGREGATION_TYPE</a>*</b>
 
-When this method returns, contains a pointer to a value that indicates the aggregation type. See <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_aggregation_type">PROPDESC_AGGREGATION_TYPE</a>.
+When this method returns, contains a pointer to a value that indicates the aggregation type. See <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_aggregation_type">PROPDESC_AGGREGATION_TYPE</a>.
 
 ## -returns
 
@@ -67,13 +67,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The information retrieved by this method comes from the <i>aggregationType</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <i>aggregationType</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-
+<a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>

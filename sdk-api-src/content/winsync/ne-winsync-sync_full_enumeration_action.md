@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Represents the action to be taken by an application in response to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback::OnFullEnumerationNeeded</a>.
+Represents the action to be taken by an application in response to <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback::OnFullEnumerationNeeded</a>.
 
 ## -enum-fields
 
 ### -field SFEA_FULL_ENUMERATION
 
-Perform a full enumeration. This is the default option when the application does not register an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback</a> interface.
+Perform a full enumeration. This is the default option when the application does not register an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback</a> interface.
 
 ### -field SFEA_PARTIAL_SYNC
 
@@ -70,9 +70,8 @@ Cancel the synchronization session. All methods will return errors as if they we
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback-onfullenumerationneeded">ISyncCallback::OnFullEnumerationNeeded</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isynccallback-onfullenumerationneeded">ISyncCallback::OnFullEnumerationNeeded</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>

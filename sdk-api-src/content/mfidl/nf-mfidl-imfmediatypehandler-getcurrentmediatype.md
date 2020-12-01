@@ -57,7 +57,7 @@ Retrieves the current media type of the object.
 
 ### -param ppMediaType [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -105,5 +105,4 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler">IMFMediaTypeHandler</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler">IMFMediaTypeHandler</a>

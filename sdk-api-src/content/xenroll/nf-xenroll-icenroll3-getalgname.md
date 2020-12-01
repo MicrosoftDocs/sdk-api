@@ -54,7 +54,7 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>GetAlgName</b> method retrieves the name of a cryptographic algorithm given its ID. The values retrieved by this method depend on the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a> interface.
+The <b>GetAlgName</b> method retrieves the name of a cryptographic algorithm given its ID. The values retrieved by this method depend on the current <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a> interface.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A value that represents a cryptographic algorithm, as defined in Wincrypt.h. For
 
 ### -param pbstr [out]
 
-Upon success, a pointer to a <b>BSTR</b> that represents the name of the algorithm specified by <i>algID</i>. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+Upon success, a pointer to a <b>BSTR</b> that represents the name of the algorithm specified by <i>algID</i>. When you have finished using the <b>BSTR</b>, free it by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 ## -returns
 
@@ -77,7 +77,7 @@ Upon success, a pointer to a <b>BSTR</b> that represents the name of the algorit
 ## -remarks
 
 This method may be used to display the names of algorithms whose IDs are retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll3-enumalgs">EnumAlgs</a>.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll3-enumalgs">EnumAlgs</a>.
 
 Constants for the cryptographic algorithms are defined in Wincrypt.h.
 
@@ -108,17 +108,16 @@ if ( NULL != bstrAlgName )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll3-enumalgs">EnumAlgs</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll3-enumalgs">EnumAlgs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>

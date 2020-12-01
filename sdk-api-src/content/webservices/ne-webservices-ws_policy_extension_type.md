@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-The values in this enumeration are used to identify the sub-types of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_policy_extension">WS_POLICY_EXTENSION</a>.
+The values in this enumeration are used to identify the sub-types of <a href="/windows/desktop/api/webservices/ns-webservices-ws_policy_extension">WS_POLICY_EXTENSION</a>.
 
 ## -enum-fields
 
 ### -field WS_ENDPOINT_POLICY_EXTENSION_TYPE
 
-This value is used in the type field of <a href="/windows/win32/api/webservices/ns-webservices-ws_endpoint_policy_extension">WS_POLICY_EXTENSION</a>to identify a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_policy_extension">WS_ENDPOINT_POLICY_EXTENSION</a> structure.
-
+This value is used in the type field of <a href="/windows/win32/api/webservices/ns-webservices-ws_endpoint_policy_extension">WS_POLICY_EXTENSION</a>to identify a <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_policy_extension">WS_ENDPOINT_POLICY_EXTENSION</a> structure.

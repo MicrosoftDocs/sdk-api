@@ -56,11 +56,11 @@ Retrieves a list of the different types of file systems on the optical media.
 
 ### -param discRecorder [in, optional]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> interface that identifies the recording device that contains the media. If this parameter is <b>NULL</b>, the <i>discRecorder</i>  specified in <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> will be used.
+An <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a> interface that identifies the recording device that contains the media. If this parameter is <b>NULL</b>, the <i>discRecorder</i>  specified in <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> will be used.
 
 ### -param fileSystems [out]
 
-One or more files systems on the disc. For possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a> enumeration type.
+One or more files systems on the disc. For possible values, see <a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a> enumeration type.
 
 ## -returns
 
@@ -88,17 +88,16 @@ Value: 0x80004003
 
 ## -remarks
 
-Client applications can call <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-getdefaultfilesystemforimport">IFileSystemImage::GetDefaultFileSystemForImport</a> with the value returned by this method to determine the type of file system to import.
+Client applications can call <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-getdefaultfilesystemforimport">IFileSystemImage::GetDefaultFileSystemForImport</a> with the value returned by this method to determine the type of file system to import.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a>
+<a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>

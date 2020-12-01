@@ -78,7 +78,7 @@ If the specified
 ### -param ppJoinInfo [out]
 
 The join information for the tenant that the <i>pcszTenantId</i> parameter specifies. If this parameter is NULL,  the device is not joined to Azure AD and the current user added no Azure AD work accounts. You must call
-                     the <a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netfreeaadjoininformation">NetFreeAadJoinInformation</a> function to free the memory allocated for
+                     the <a href="/windows/desktop/api/lmjoin/nf-lmjoin-netfreeaadjoininformation">NetFreeAadJoinInformation</a> function to free the memory allocated for
                      this structure.
 
 ## -returns
@@ -87,5 +87,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netfreeaadjoininformation">NetFreeAadJoinInformation</a>
-
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netfreeaadjoininformation">NetFreeAadJoinInformation</a>

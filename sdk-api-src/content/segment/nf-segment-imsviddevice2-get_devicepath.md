@@ -91,5 +91,4 @@ This property is not a human-readable string, but is guaranteed to be unique per
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice2">IMSVidDevice2 Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsviddevice2">IMSVidDevice2 Interface</a>

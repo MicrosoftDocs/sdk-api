@@ -54,7 +54,7 @@ This  interface is implemented by the TSF manager and is used by an application 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfInputProcessorProfileSubstituteLayout</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfInputProcessorProfileSubstituteLayout</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfInputProcessorProfileSubstituteLayout</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfInputProcessorProfileSubstituteLayout</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfInputProcessorProfileSubstituteLayout</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilesubstitutelayout-getsubstitutekeyboardlayout">GetSubstituteKeyboardLayout</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilesubstitutelayout-getsubstitutekeyboardlayout">GetSubstituteKeyboardLayout</a>
 </td>
 <td align="left" width="63%">
 Retrieves the input locale identifier (keyboard layout).
@@ -80,9 +80,8 @@ Retrieves the input locale identifier (keyboard layout).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

@@ -60,9 +60,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-Call this function after a successful call to the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mflockdxgidevicemanager">MFLockDXGIDeviceManager</a> function.
+Call this function after a successful call to the <a href="/windows/desktop/api/mfapi/nf-mfapi-mflockdxgidevicemanager">MFLockDXGIDeviceManager</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

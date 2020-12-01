@@ -60,13 +60,12 @@ This property is read/write.
 
 ## -remarks
 
-When reading or writing XML, the data of a COM handler is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-data-comhandlertype-element">Data</a> element of the Task Scheduler schema.
+When reading or writing XML, the data of a COM handler is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-data-comhandlertype-element">Data</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-icomhandleraction">IComHandlerAction</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-icomhandleraction">IComHandlerAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

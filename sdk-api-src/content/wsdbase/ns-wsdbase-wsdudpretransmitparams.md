@@ -88,9 +88,8 @@ For details on how WSD uses these values to send messages, see Appendix I of the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdudpmessageparameters-getretransmitparams">IWSDUdpMessageParameters::GetRetransmitParams</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdudpmessageparameters-getretransmitparams">IWSDUdpMessageParameters::GetRetransmitParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdudpmessageparameters-setretransmitparams">IWSDUdpMessageParameters::SetRetransmitParams</a>
-
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdudpmessageparameters-setretransmitparams">IWSDUdpMessageParameters::SetRetransmitParams</a>

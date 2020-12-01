@@ -56,7 +56,7 @@ The <b>DrvQueryFontFile</b> function provides font file information.
 
 ### -param iFile
 
-Pointer to a driver-defined value that identifies the driver font file. This pointer is returned by a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
+Pointer to a driver-defined value that identifies the driver font file. This pointer is returned by a prior call to <a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
 
 ### -param ulMode
 
@@ -107,5 +107,4 @@ If <i>ulMode</i> is QFF_NUMFACES, then the return value is the number of faces i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>

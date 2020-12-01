@@ -134,9 +134,9 @@ Negative values indicate reverse playback. Most filters do not support negative 
 When an application calls this method on the Filter Graph Manager, the Filter Graph Manager does the following:
 
 <ol>
-<li>Calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcurrentposition">IMediaSeeking::GetCurrentPosition</a> method. This call returns the current position as calculated by the Filter Graph Manager.</li>
+<li>Calls the <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcurrentposition">IMediaSeeking::GetCurrentPosition</a> method. This call returns the current position as calculated by the Filter Graph Manager.</li>
 <li>Stops the filter graph (if the graph is paused or running).</li>
-<li>Calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-setpositions">IMediaSeeking::SetPositions</a> method on the filters, with the current position as the start time. This has the effect of resetting the stream time to zero.</li>
+<li>Calls the <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-setpositions">IMediaSeeking::SetPositions</a> method on the filters, with the current position as the start time. This has the effect of resetting the stream time to zero.</li>
 <li>Calls the <code>SetRate</code> method on the filters, with the new rate.</li>
 <li>Resumes the filter graph, if it was paused or running.</li>
 </ol>
@@ -144,7 +144,7 @@ If an error occurs in step 4, the Filter Graph Manager tries to restore the prev
 
 Filters should repond to rate changes as follows:
 
-<b>Parser and source filters: </b>The filter that originates the time stamps responds to the <code>SetRate</code> call. This is usually a parser filter, such as the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter Filter</a>, but it might be a source filter. After any seek or rate change, the filter should call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-newsegment">IPin::NewSegment</a> method with the new settings. After a rate change, it should adjust its time stamps accordingly. Because a rate change is preceded by a seek, time stamps restart from zero, so the filter can simply divide by the rate to calculate the new time stamps.
+<b>Parser and source filters: </b>The filter that originates the time stamps responds to the <code>SetRate</code> call. This is usually a parser filter, such as the <a href="/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter Filter</a>, but it might be a source filter. After any seek or rate change, the filter should call the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-newsegment">IPin::NewSegment</a> method with the new settings. After a rate change, it should adjust its time stamps accordingly. Because a rate change is preceded by a seek, time stamps restart from zero, so the filter can simply divide by the rate to calculate the new time stamps.
 
 <b>Decoder filters: </b>Decoders should not act on <code>SetRate</code> calls other than to pass them upstream. Instead, they should respond to the <b>NewSegment</b> call that the upstream parser issues. When a decoder filter receives new segment information, it should store the values and pass the <b>NewSegment</b> call downstream. Some decoders need to generate extra time stamps by interpolating their input; they should take rate changes into account when doing so.
 
@@ -152,9 +152,8 @@ Filters should repond to rate changes as follows:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>

@@ -56,11 +56,11 @@ Adds a child element.
 
 ### -param pParent
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains the parent element.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains the parent element.
 
 ### -param pChild
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains the child element.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains the child element.
 
 ## -returns
 
@@ -94,4 +94,3 @@ Method completed successfully.
 </td>
 </tr>
 </table>
-

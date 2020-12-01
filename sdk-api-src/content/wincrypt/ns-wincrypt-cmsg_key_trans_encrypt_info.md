@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CMSG_KEY_TRANS_ENCRYPT_INFO</b> structure contains encryption information for a key transport recipient of enveloped data. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_key_trans">PFN_CMSG_EXPORT_KEY_TRANS</a> function updates this structure.
+The <b>CMSG_KEY_TRANS_ENCRYPT_INFO</b> structure contains encryption information for a key transport recipient of enveloped data. The <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_key_trans">PFN_CMSG_EXPORT_KEY_TRANS</a> function updates this structure.
 
 ## -struct-fields
 
@@ -64,19 +64,19 @@ The size, in bytes, of this structure.
 
 ### -field dwRecipientIndex
 
-A value that specifies the ordinal number of a recipient in the recipient list specified by the <i>pContentEncryptInfo</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_key_trans">PFN_CMSG_EXPORT_KEY_TRANS</a> function.
+A value that specifies the ordinal number of a recipient in the recipient list specified by the <i>pContentEncryptInfo</i> parameter of the <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_key_trans">PFN_CMSG_EXPORT_KEY_TRANS</a> function.
 
 ### -field KeyEncryptionAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm of the recipient public key. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function uses the <b>pszObjId</b> member of the <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure to get the address of the function used to export the key. The function can be installed by using a Cryptography API: Next Generation (CNG) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm of the recipient public key. The <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function uses the <b>pszObjId</b> member of the <b>CRYPT_ALGORITHM_IDENTIFIER</b> structure to get the address of the function used to export the key. The function can be installed by using a Cryptography API: Next Generation (CNG) <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 ### -field EncryptedKey
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains the session key encrypted by the public key of the recipient.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains the session key encrypted by the public key of the recipient.
 
 ### -field dwFlags
 
-A value that specifies what members have been updated, and whose memory allocation must be freed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function.
+A value that specifies what members have been updated, and whose memory allocation must be freed by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a> function.
 
 <table>
 <tr>
@@ -90,7 +90,7 @@ A value that specifies what members have been updated, and whose memory allocati
 </dl>
 </td>
 <td width="60%">
-The <b>pszObjId</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>KeyEncryptionAlgorithm</b> member was updated.
+The <b>pszObjId</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>KeyEncryptionAlgorithm</b> member was updated.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ The <b>pszObjId</b> member of the <a href="https://docs.microsoft.com/windows/de
 </dl>
 </td>
 <td width="60%">
-The <b>Parameters</b> <b>pbData</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>KeyEncryptionAlgorithm</b> member was updated.
+The <b>Parameters</b> <b>pbData</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure referred to by the <b>KeyEncryptionAlgorithm</b> member was updated.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ The <b>Parameters</b> <b>pbData</b> member of the <a href="https://docs.microsof
 
 ## -remarks
 
- When called with the <i>dwMsgType</i> parameter set to <b>CMSG_ENVELOPED</b>, the <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_key_trans_recipient_encode_info">CryptMsgOpenToEncode</a> function initializes the <b>CMSG_KEY_TRANS_ENCRYPT_INFO</b> structure from the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_trans_recipient_encode_info">CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO</a> structure. The <b>CryptMsgOpenToEncode</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_key_trans">PFN_CMSG_EXPORT_KEY_TRANS</a> function to update the <b>CMSG_KEY_TRANS_ENCRYPT_INFO</b> structure. If the callback function cannot be found, the <b>CryptMsgOpenToEncode</b> function fills this structure with default key information from the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_content_encrypt_info">CMSG_CONTENT_ENCRYPT_INFO</a> structure.
+ When called with the <i>dwMsgType</i> parameter set to <b>CMSG_ENVELOPED</b>, the <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_key_trans_recipient_encode_info">CryptMsgOpenToEncode</a> function initializes the <b>CMSG_KEY_TRANS_ENCRYPT_INFO</b> structure from the  <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_trans_recipient_encode_info">CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO</a> structure. The <b>CryptMsgOpenToEncode</b> function calls the <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_key_trans">PFN_CMSG_EXPORT_KEY_TRANS</a> function to update the <b>CMSG_KEY_TRANS_ENCRYPT_INFO</b> structure. If the callback function cannot be found, the <b>CryptMsgOpenToEncode</b> function fills this structure with default key information from the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_content_encrypt_info">CMSG_CONTENT_ENCRYPT_INFO</a> structure.
 
 The following members of the <b>CMSG_KEY_TRANS_ENCRYPT_INFO</b> structure can be updated by the callback function:<dl>
 <dd><b>EncryptedKey</b></dd>
@@ -123,5 +123,4 @@ The other members are read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/encoding-enveloped-data">Encoding Enveloped Data</a>
-
+<a href="/windows/desktop/SecCrypto/encoding-enveloped-data">Encoding Enveloped Data</a>

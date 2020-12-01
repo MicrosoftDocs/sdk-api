@@ -56,11 +56,11 @@ Describes the content-protection capabilities of a graphics driver.
 
 ### -field Caps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_content_protection_caps">D3D11_CONTENT_PROTECTION_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_content_protection_caps">D3D11_CONTENT_PROTECTION_CAPS</a> enumeration.
 
 ### -field KeyExchangeTypeCount
 
-The number of cryptographic key-exchange types that are supported by the driver. To get the list of key-exchange types, call the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-checkcryptokeyexchange">ID3D11VideoDevice::CheckCryptoKeyExchange</a> method.
+The number of cryptographic key-exchange types that are supported by the driver. To get the list of key-exchange types, call the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-checkcryptokeyexchange">ID3D11VideoDevice::CheckCryptoKeyExchange</a> method.
 
 ### -field BlockAlignmentSize
 
@@ -72,9 +72,8 @@ The total amount of memory, in bytes, that can be used to hold protected surface
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
+<a href="/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getcontentprotectioncaps">ID3D11VideoDevice::GetContentProtectionCaps</a>
-
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getcontentprotectioncaps">ID3D11VideoDevice::GetContentProtectionCaps</a>

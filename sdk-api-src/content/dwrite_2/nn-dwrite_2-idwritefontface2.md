@@ -49,9 +49,8 @@ api_name:
 
 Represents an absolute reference to a font face. This interface contains font face type, appropriate file references, and face identification data. It adds the ability to check whether a color rendering path is potentially necessary.
 
-This interface extends [IDWriteFontFace1](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefontface1). Various font data such as metrics, names, and glyph outlines are obtained from **IDWriteFontFace**.
+This interface extends [IDWriteFontFace1](../dwrite_1/nn-dwrite_1-idwritefontface1.md). Various font data such as metrics, names, and glyph outlines are obtained from **IDWriteFontFace**.
 
 ## -see-also
 
-[IDWriteFontFace1](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefontface1)
-
+[IDWriteFontFace1](../dwrite_1/nn-dwrite_1-idwritefontface1.md)

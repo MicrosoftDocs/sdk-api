@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>IFaxServer::get_Security</b> property creates a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsecurity">IFaxSecurity</a> configuration interface. The interface permits the calling application to set and retrieve a security descriptor for the fax server.
+The <b>IFaxServer::get_Security</b> property creates a <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsecurity">IFaxSecurity</a> configuration interface. The interface permits the calling application to set and retrieve a security descriptor for the fax server.
 
 This property is read-only.
 
@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>

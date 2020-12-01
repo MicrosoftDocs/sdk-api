@@ -127,9 +127,8 @@ Changing the pitch does not change the playback rate, sample rate, or playback t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
-
+<a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>

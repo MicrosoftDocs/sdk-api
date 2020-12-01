@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>CancelOperation</b> method attempts to cancel a previously issued call by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync">DeviceIoControlAsync</a> method.
+The <b>CancelOperation</b> method attempts to cancel a previously issued call by using the <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync">DeviceIoControlAsync</a> method.
 
 ## -parameters
 
 ### -param cancelContext [in]
 
-The cancel context that a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync">DeviceIoControlAsync</a> returned.
+The cancel context that a previous call to <a href="/previous-versions/windows/desktop/api/deviceaccess/nf-deviceaccess-ideviceiocontrol-deviceiocontrolasync">DeviceIoControlAsync</a> returned.
 
 ## -returns
 
@@ -98,5 +98,4 @@ Regardless of whether cancellation is successful, the result of the operation is
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a>
-
+<a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-ideviceiocontrol">IDeviceIoControl</a>

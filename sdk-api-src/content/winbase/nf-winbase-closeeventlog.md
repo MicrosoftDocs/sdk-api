@@ -45,6 +45,7 @@ api_location:
  - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
  - CloseEventLog
+req.apiset: ext-ms-win-advapi32-eventlog-l1-1-0 (introduced in Windows 8)
 ---
 
 # CloseEventLog function
@@ -59,8 +60,8 @@ Closes the specified event log.
 ### -param hEventLog [in, out]
 
 A handle to the event log to be closed. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openbackupeventloga">OpenBackupEventLog</a> function returns this handle.
+<a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-openbackupeventloga">OpenBackupEventLog</a> function returns this handle.
 
 ## -returns
 
@@ -68,13 +69,12 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
+<a href="/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>

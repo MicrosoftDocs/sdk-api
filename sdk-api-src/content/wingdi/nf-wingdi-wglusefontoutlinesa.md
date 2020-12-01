@@ -56,7 +56,7 @@ The <b>wglUseFontOutlines</b> function creates a set of display lists, one for e
 
 The run of glyphs begins with thefirstglyph of the font of the specified device context. The em square size of the font, the notional grid size of the original font outline from which the font is fitted, is mapped to 1.0 in the x- and y-coordinates in the display lists. The extrusion parameter sets how much depth the font has in the z direction.
 
-Thelpgmfparameter returns a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a> structure that contains information about the placement and orientation of each glyph in a character cell.
+Thelpgmfparameter returns a <a href="/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a> structure that contains information about the placement and orientation of each glyph in a character cell.
 
 ## -parameters
 
@@ -90,13 +90,13 @@ Specifies the format, either WGL_FONT_LINES or WGL_FONT_POLYGONS, to use in the 
 
 ### -param arg8
 
-Points to an array of <i>count</i><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a> structures that is to receive the metrics of the glyphs. When <i>lpgmf</i> is <b>NULL</b>, no glyph metrics are returned.
+Points to an array of <i>count</i><a href="/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a> structures that is to receive the metrics of the glyphs. When <i>lpgmf</i> is <b>NULL</b>, no glyph metrics are returned.
 
 ## -returns
 
 When the function succeeds, the return value is <b>TRUE</b>.
 
-When the function fails, the return value is <b>FALSE</b> and no display lists are generated. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+When the function fails, the return value is <b>FALSE</b> and no display lists are generated. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -113,9 +113,9 @@ glEnable(GL_CULL_FACE);
 ```
 
 
-A <b>GLYPHMETRICSFLOAT</b> structure contains information about the placement and orientation of each glyph in a character cell. The <i>lpgmf</i> parameter is an array of <b>GLYPHMETRICSFLOAT</b> structures holding the entire set of glyphs for a font. Each display list ends with a translation specified with the <b>gmfCellIncX</b> and <b>gmfCellIncY</b> members of the corresponding <b>GLYPHMETRICSFLOAT</b> structure. The translation enables the drawing of successive characters in their natural direction with a single call to <a href="https://docs.microsoft.com/windows/desktop/OpenGL/glcalllists">glCallLists</a>.
+A <b>GLYPHMETRICSFLOAT</b> structure contains information about the placement and orientation of each glyph in a character cell. The <i>lpgmf</i> parameter is an array of <b>GLYPHMETRICSFLOAT</b> structures holding the entire set of glyphs for a font. Each display list ends with a translation specified with the <b>gmfCellIncX</b> and <b>gmfCellIncY</b> members of the corresponding <b>GLYPHMETRICSFLOAT</b> structure. The translation enables the drawing of successive characters in their natural direction with a single call to <a href="/windows/desktop/OpenGL/glcalllists">glCallLists</a>.
 
-<div class="alert"><b>Note</b>  With OpenGL for Windows, you cannot make GDI calls to a device context when a pixel format is double-buffered. You can work around this limitation by using <b>wglUseFontOutlines</b> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglusefontbitmapsa">wglUseFontBitmaps</a>, when using double-buffered device contexts.</div>
+<div class="alert"><b>Note</b>  With OpenGL for Windows, you cannot make GDI calls to a device context when a pixel format is double-buffered. You can work around this limitation by using <b>wglUseFontOutlines</b> and <a href="/windows/desktop/api/wingdi/nf-wingdi-wglusefontbitmapsa">wglUseFontBitmaps</a>, when using double-buffered device contexts.</div>
 <div> </div>
 
 #### Examples
@@ -158,29 +158,28 @@ glCallLists(24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World.");
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-glyphmetricsfloat">GLYPHMETRICSFLOAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
+<a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/wgl-functions">WGL Functions</a>
+<a href="/windows/desktop/OpenGL/wgl-functions">WGL Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/glcalllists">glCallLists</a>
+<a href="/windows/desktop/OpenGL/glcalllists">glCallLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/gllistbase">glListBase</a>
+<a href="/windows/desktop/OpenGL/gllistbase">glListBase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/gltexgen-functions">glTexGen</a>
+<a href="/windows/desktop/OpenGL/gltexgen-functions">glTexGen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglusefontbitmapsa">wglUseFontBitmaps</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglusefontbitmapsa">wglUseFontBitmaps</a>

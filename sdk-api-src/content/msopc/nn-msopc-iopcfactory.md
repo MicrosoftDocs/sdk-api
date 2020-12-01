@@ -54,7 +54,7 @@ Creates Packaging API objects and provides support for saving and loading packag
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpcFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOpcFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOpcFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IOpcFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createdigitalsignaturemanager">CreateDigitalSignatureManager</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createdigitalsignaturemanager">CreateDigitalSignatureManager</a>
 </td>
 <td align="left" width="63%">
 Creates a digital signature manager object for a package object.
@@ -78,7 +78,7 @@ Creates a digital signature manager object for a package object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createpackage">CreatePackage</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createpackage">CreatePackage</a>
 </td>
 <td align="left" width="63%">
 Creates a package object that represents an empty package.
@@ -87,7 +87,7 @@ Creates a package object that represents an empty package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createpackagerooturi">CreatePackageRootUri</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createpackagerooturi">CreatePackageRootUri</a>
 </td>
 <td align="left" width="63%">
 Creates an OPC URI object that represents the root of  a package.
@@ -96,7 +96,7 @@ Creates an OPC URI object that represents the root of  a package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createparturi">CreatePartUri</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createparturi">CreatePartUri</a>
 </td>
 <td align="left" width="63%">
 Creates a part URI object that represents a part name.
@@ -105,7 +105,7 @@ Creates a part URI object that represents a part name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createstreamonfile">CreateStreamOnFile</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-createstreamonfile">CreateStreamOnFile</a>
 </td>
 <td align="left" width="63%">
 Creates a stream over a file.
@@ -114,7 +114,7 @@ Creates a stream over a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-readpackagefromstream">ReadPackageFromStream</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-readpackagefromstream">ReadPackageFromStream</a>
 </td>
 <td align="left" width="63%">
               Deserializes package data from a stream  and creates a package object to represent the package being read.
@@ -124,7 +124,7 @@ Creates a stream over a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-writepackagetostream">WritePackageToStream</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcfactory-writepackagetostream">WritePackageToStream</a>
 </td>
 <td align="left" width="63%">
 Serializes a package  that is represented by a package object. 
@@ -139,21 +139,21 @@ Do not use a stream to serialize package data when the same stream is being used
 
 To use the Packaging API, the package must map to a ZIP archive as specified in the <i>ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)</i>.
 
-To create a factory that implements the <b>IOpcFactory</b> interface,  call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function. This factory is not tied to any particular package or Packaging API object, and it can be used for the lifetime of the application. For example code that shows how to create a factory implementing  <b>IOpcFactory</b>, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
+To create a factory that implements the <b>IOpcFactory</b> interface,  call the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function. This factory is not tied to any particular package or Packaging API object, and it can be used for the lifetime of the application. For example code that shows how to create a factory implementing  <b>IOpcFactory</b>, see the <a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 <h3><a id="IOpcFactory_Support_on_Previous_Versions_of_Windows"></a><a id="iopcfactory_support_on_previous_versions_of_windows"></a><a id="IOPCFACTORY_SUPPORT_ON_PREVIOUS_VERSIONS_OF_WINDOWS"></a>IOpcFactory Support on Previous Versions of Windows</h3>
-If an application attempts to an unsupported <b>IOpcFactory</b> method, the E_NOTIMPL error code will be returned. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>, and <a href="https://docs.microsoft.com/windows/desktop/win7ip/platform-update-for-windows-vista-portal">Platform Update for Windows Vista</a>.
+If an application attempts to an unsupported <b>IOpcFactory</b> method, the E_NOTIMPL error code will be returned. For more information, see <a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>, and <a href="/windows/desktop/win7ip/platform-update-for-windows-vista-portal">Platform Update for Windows Vista</a>.
 
 
 #### Thread Safety
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
+For more information, see the <a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
+<a href="/previous-versions/windows/desktop/opc/core-packaging-interfaces">Core Packaging Interfaces</a>
 
 
 
@@ -165,23 +165,23 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcdigitalsignaturemanager">IOpcDigitalSignatureManager</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcdigitalsignaturemanager">IOpcDigitalSignatureManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpackage">IOpcPackage</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcpackage">IOpcPackage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcparturi">IOpcPartUri</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a>
 
 
 
@@ -189,25 +189,24 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-digital-signature-interfaces">Packaging Digital Signature Interfaces</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-digital-signature-interfaces">Packaging Digital Signature Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/win7ip/platform-update-for-windows-vista-portal">Platform Update for Windows Vista</a>
+<a href="/windows/desktop/win7ip/platform-update-for-windows-vista-portal">Platform Update for Windows Vista</a>
 
 
 
 <b>Reference</b>
-

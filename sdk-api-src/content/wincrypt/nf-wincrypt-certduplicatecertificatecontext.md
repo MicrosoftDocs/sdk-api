@@ -50,28 +50,27 @@ api_name:
 
 ## -description
 
-The <b>CertDuplicateCertificateContext</b> function duplicates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a> by incrementing its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a>.
+The <b>CertDuplicateCertificateContext</b> function duplicates a <a href="/windows/desktop/SecGloss/c-gly">certificate context</a> by incrementing its <a href="/windows/desktop/SecGloss/r-gly">reference count</a>.
 
 ## -parameters
 
 ### -param pCertContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure for which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> is incremented.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure for which the <a href="/windows/desktop/SecGloss/r-gly">reference count</a> is incremented.
 
 ## -returns
 
-Currently, a copy is not made of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>, and the returned pointer to a context has the same value as the pointer to a context that was input. If the pointer passed into this function is <b>NULL</b>, <b>NULL</b> is returned. When you have finished using the duplicate context, decrease its reference count by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
+Currently, a copy is not made of the <a href="/windows/desktop/SecGloss/c-gly">context</a>, and the returned pointer to a context has the same value as the pointer to a context that was input. If the pointer passed into this function is <b>NULL</b>, <b>NULL</b> is returned. When you have finished using the duplicate context, decrease its reference count by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecrlcontext">CertDuplicateCRLContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certduplicatecrlcontext">CertDuplicateCRLContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>

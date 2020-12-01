@@ -47,9 +47,6 @@ api_name:
  - ImmRegisterWordW
 ---
 
-# ImmRegisterWordW function
-
-
 ## -description
 
 Registers a string with the dictionary of the IME associated with the specified input locale.
@@ -124,9 +121,8 @@ An IME independent software vendor (ISV) can define private styles for an IME in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

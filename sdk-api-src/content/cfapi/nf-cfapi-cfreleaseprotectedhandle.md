@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases a protected handle referenced by <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfreferenceprotectedhandle">CfReferenceProtectedHandle</a>.
+Releases a protected handle referenced by <a href="/windows/desktop/api/cfapi/nf-cfapi-cfreferenceprotectedhandle">CfReferenceProtectedHandle</a>.
 
 ## -parameters
 
@@ -59,4 +59,3 @@ Releases a protected handle referenced by <a href="https://docs.microsoft.com/wi
 The protected handle to be released.
 
 ## -returns
-

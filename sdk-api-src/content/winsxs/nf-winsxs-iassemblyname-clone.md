@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>Clone</b> method copies the  current side-by-side assembly name to a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>.
+The <b>Clone</b> method copies the  current side-by-side assembly name to a new instance of <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>.
 
 ## -parameters
 
 ### -param pName [out]
 
-Pointer to the location that contains the pointer to the new instance of <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>.
+Pointer to the location that contains the pointer to the new instance of <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>.
 
 ## -returns
 
@@ -93,5 +93,4 @@ The method did not succeed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>
-
+<a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>

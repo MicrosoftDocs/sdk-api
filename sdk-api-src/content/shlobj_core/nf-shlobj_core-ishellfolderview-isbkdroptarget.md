@@ -58,7 +58,7 @@ Checks if the target of a drag-and-drop operation is the background of the view.
 
 ### -param pDropTarget [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>*</b>
+Type: <b><a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>*</b>
 
 A pointer to the target of the drag-and-drop operation.
 
@@ -67,4 +67,3 @@ A pointer to the target of the drag-and-drop operation.
 Type: <b>HRESULT</b>
 
 Returns S_OK if the target of the drag-and-drop operation is to the background of the view, S_FALSE otherwise.
-

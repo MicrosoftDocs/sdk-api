@@ -52,45 +52,44 @@ api_name:
 
 ## -description
 
-Describes an address for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">SCSI</a> 
-    device. It is used as an entry in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists 
+Describes an address for a <a href="/previous-versions/windows/desktop/mscs/s-gly">SCSI</a> 
+    device. It is used as an entry in a <a href="/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists 
     of:
 <ul>
-<li>A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure indicating the format 
+<li>A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure indicating the format 
      and type of the resource class information.</li>
-<li>A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_scsi_address">CLUS_SCSI_ADDRESS</a> structure.</li>
-</ul>For convenience, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_scsi_address">CLUS_SCSI_ADDRESS</a> members are listed explicitly.
+<li>A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_scsi_address">CLUS_SCSI_ADDRESS</a> structure.</li>
+</ul>For convenience, the <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> and 
+    <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_scsi_address">CLUS_SCSI_ADDRESS</a> members are listed explicitly.
 
 ## -struct-fields
 
 ### -field CLUSPROP_VALUE
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>  with a value 
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>  with a value 
        of <b>CLUSPROP_SYNTAX_SCSI_ADDRESS</b> (0x00060002) and a <b>cbLength</b> field indicating 
        the count of bytes in the <b>CLUS_SCSI_ADDRESS</b> member. Padding bytes are not included in the count.
 
 ### -field CLUS_SCSI_ADDRESS
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_scsi_address">CLUS_SCSI_ADDRESS</a> structure.
+A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_scsi_address">CLUS_SCSI_ADDRESS</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_resource_class_info">CLUS_SCSI_ADDRESS</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_resource_class_info">CLUS_SCSI_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusscsiaddress-object">ClusScsiAddress</a>
+<a href="/previous-versions/windows/desktop/mscs/clusscsiaddress-object">ClusScsiAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>

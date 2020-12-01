@@ -85,7 +85,7 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-<b>GetCharWidth32</b> cannot be used on TrueType fonts. To retrieve character widths for TrueType fonts, use <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a>.
+<b>GetCharWidth32</b> cannot be used on TrueType fonts. To retrieve character widths for TrueType fonts, use <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a>.
 
 The range is inclusive; that is, the returned widths include the widths of the characters specified by the <i>iFirstChar</i> and <i>iLastChar</i> parameters.
 
@@ -94,7 +94,7 @@ If a character does not exist in the current font, it is assigned the width of t
 
 #### Examples
 
-For an example, see "Displaying Keyboard Input" in <a href="https://docs.microsoft.com/windows/desktop/inputdev/using-keyboard-input">Using Keyboard Input</a>.
+For an example, see "Displaying Keyboard Input" in <a href="/windows/desktop/inputdev/using-keyboard-input">Using Keyboard Input</a>.
 
 <div class="code"></div>
 
@@ -106,21 +106,20 @@ For an example, see "Displaying Keyboard Input" in <a href="https://docs.microso
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsfloata">GetCharABCWidthsFloat</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsfloata">GetCharABCWidthsFloat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharwidthfloata">GetCharWidthFloat</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getcharwidthfloata">GetCharWidthFloat</a>

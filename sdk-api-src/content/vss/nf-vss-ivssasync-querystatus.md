@@ -59,11 +59,11 @@ The <b>QueryStatus</b> method queries the status of an
 ### -param pHrResult [out]
 
 The status of the asynchronous operation that returned the current 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object. 
+      <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object. 
       
 
 All calls to <b>QueryStatus</b> for all 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> objects support the following status codes.
+       <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> objects support the following status codes.
 
 <table>
 <tr>
@@ -77,7 +77,7 @@ All calls to <b>QueryStatus</b> for all
 </td>
 <td width="60%">
 The asynchronous operation was canceled by a previous call to 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-cancel">IVssAsync::Cancel</a>.
+        <a href="/windows/desktop/api/vss/nf-vss-ivssasync-cancel">IVssAsync::Cancel</a>.
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ The asynchronous operation is still running.
  
 
 Additional return values can be returned, but depend on the return codes of the method that initially 
-       returned the <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object.
+       returned the <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object.
 
 ### -param pReserved [out]
 
@@ -162,7 +162,7 @@ The pointer to the variable used to hold the <i>pHrResult</i> return value is
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -174,7 +174,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 In the event of an error during the course of an asynchronous operation, 
     <b>QueryStatus</b> will return the same error code as the 
-    method that initially returned the <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object.
+    method that initially returned the <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object.
 
 To obtain a complete list of return values for an 
     <b>IVssAsync::QueryStatus</b> object returned by a 
@@ -182,33 +182,32 @@ To obtain a complete list of return values for an
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">IVssBackupComponents::GatherWriterStatus</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus">IVssBackupComponents::GatherWriterStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-importsnapshots">IVssBackupComponents::ImportSnapshots</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-importsnapshots">IVssBackupComponents::ImportSnapshots</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">IVssBackupComponents::PostRestore</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">IVssBackupComponents::PostRestore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">IVssBackupComponents::PreRestore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>

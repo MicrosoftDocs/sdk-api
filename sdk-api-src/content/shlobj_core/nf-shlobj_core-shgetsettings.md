@@ -58,7 +58,7 @@ Retrieves the current Shell option settings.
 
 Type: <b>LPSHELLFLAGSTATE</b>
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shellflagstate">SHELLFLAGSTATE</a> structure that receives the Shell option settings.
+The address of a <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shellflagstate">SHELLFLAGSTATE</a> structure that receives the Shell option settings.
 
 ### -param dwMask
 
@@ -161,5 +161,4 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings">SHGetSetSettings</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings">SHGetSetSettings</a>

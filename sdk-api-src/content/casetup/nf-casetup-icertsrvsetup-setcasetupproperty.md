@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>SetCASetupProperty</b> method sets a property value for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration.
+The <b>SetCASetupProperty</b> method sets a property value for a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration.
 
 ## -parameters
 
@@ -77,5 +77,4 @@ A pointer to a <b>VARIANT</b> that specifies the property value. The <b>VARIANT<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>

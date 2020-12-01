@@ -68,15 +68,14 @@ The number of views in the <i>pViews</i> array.
 
 ### -param pViews [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_vertex_buffer_view">D3D12_VERTEX_BUFFER_VIEW</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_vertex_buffer_view">D3D12_VERTEX_BUFFER_VIEW</a>*</b>
 
-Specifies the vertex buffer views in an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_vertex_buffer_view">D3D12_VERTEX_BUFFER_VIEW</a> structures.
+Specifies the vertex buffer views in an array of <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_vertex_buffer_view">D3D12_VERTEX_BUFFER_VIEW</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetindexbuffer">IASetIndexBuffer</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetindexbuffer">IASetIndexBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>

@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>TAPIOBJECT_EVENT</b> enum describes TAPI object events. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapiobjectevent-get_event">ITTAPIObjectEvent::get_Event</a> method returns a member of this enum to indicate the type of TAPI object event that occurred.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapiobjectevent-get_event">ITTAPIObjectEvent::get_Event</a> method returns a member of this enum to indicate the type of TAPI object event that occurred.
 
 ## -enum-fields
 
@@ -82,5 +82,4 @@ Address has been closed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapiobjectevent-get_event">ITTAPIObjectEvent::get_Event</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapiobjectevent-get_event">ITTAPIObjectEvent::get_Event</a>

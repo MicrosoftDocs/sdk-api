@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Retrieves the next set of archive extents in a log archive context.  The log archive context describes a   contiguous set of file extents that span the snapshot of the active log  captured by  <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-preparelogarchive">PrepareLogArchive</a> captures.  <b>GetNextLogArchiveExtent</b> maintains a cursor in the ordered set of log archive descriptors so that  subsequent calls allow an application to iterate through the entire set.
+Retrieves the next set of archive extents in a log archive context.  The log archive context describes a   contiguous set of file extents that span the snapshot of the active log  captured by  <a href="/windows/desktop/api/clfsw32/nf-clfsw32-preparelogarchive">PrepareLogArchive</a> captures.  <b>GetNextLogArchiveExtent</b> maintains a cursor in the ordered set of log archive descriptors so that  subsequent calls allow an application to iterate through the entire set.
 
 ## -parameters
 
 ### -param pvArchiveContext [in]
 
-A pointer to an  archive context that is obtained by a call to <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-preparelogarchive">PrepareLogArchive</a>.
+A pointer to an  archive context that is obtained by a call to <a href="/windows/desktop/api/clfsw32/nf-clfsw32-preparelogarchive">PrepareLogArchive</a>.
 
-  The context maintains  the cursor state, which allows iteration through the set of file extents in the archive.  The archive client is responsible for deallocating the context by using the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-terminatelogarchive">TerminateLogArchive</a> function.
+  The context maintains  the cursor state, which allows iteration through the set of file extents in the archive.  The archive client is responsible for deallocating the context by using the <a href="/windows/desktop/api/clfsw32/nf-clfsw32-terminatelogarchive">TerminateLogArchive</a> function.
 
 ### -param rgadExtent [in, out]
 
-A client-allocated array of <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_archive_descriptor">CLFS_ARCHIVE_DESCRIPTOR</a>  structures to be filled in by this function.
+A client-allocated array of <a href="/windows/desktop/api/clfs/ns-clfs-cls_archive_descriptor">CLFS_ARCHIVE_DESCRIPTOR</a>  structures to be filled in by this function.
 
 ### -param cDescriptors [in]
 
@@ -82,13 +82,12 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the possible error codes:
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the possible error codes:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_archive_descriptor">CLFS_ARCHIVE_DESCRIPTOR</a>
+<a href="/windows/desktop/api/clfs/ns-clfs-cls_archive_descriptor">CLFS_ARCHIVE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
-
+<a href="/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>

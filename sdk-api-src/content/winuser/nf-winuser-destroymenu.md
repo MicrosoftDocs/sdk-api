@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
  - DestroyMenu
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # DestroyMenu function
@@ -70,7 +71,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -81,7 +82,7 @@ Before closing, an application must use the <b>DestroyMenu</b> function to destr
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Displaying a Shortcut Menu</a>.
+For an example, see <a href="/windows/desktop/menurc/using-menus">Displaying a Shortcut Menu</a>.
 
 <div class="code"></div>
 
@@ -91,15 +92,15 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createmenu">CreateMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createmenu">CreateMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deletemenu">DeleteMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-deletemenu">DeleteMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -107,9 +108,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-removemenu">RemoveMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-removemenu">RemoveMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>

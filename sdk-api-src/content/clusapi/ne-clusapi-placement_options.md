@@ -52,7 +52,7 @@ api_name:
 
 Defines options for placing the cluster.
 
-This enumeration contains the values for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusters-placementoptions">PlacementOptions</a> property.
+This enumeration contains the values for the <a href="/previous-versions/windows/desktop/mscs/clusters-placementoptions">PlacementOptions</a> property.
 
 ## -enum-fields
 
@@ -98,5 +98,4 @@ Maximum value
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

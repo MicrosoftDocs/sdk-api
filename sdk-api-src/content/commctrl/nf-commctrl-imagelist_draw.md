@@ -45,6 +45,7 @@ api_location:
  - ext-ms-win-shell-comctl32-init-l1-1-1.dll
 api_name:
  - ImageList_Draw
+req.apiset: ext-ms-win-shell-comctl32-init-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ImageList_Draw function
@@ -70,7 +71,7 @@ The zero-based index of the image to draw.
 
 ### -param hdcDst
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 A handle to the destination device context.
 
@@ -88,7 +89,7 @@ The y-coordinate at which to draw within the specified device context.
 
 ### -param fStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The drawing style and, optionally, the overlay image. For information about specifying an overlay image index, see the comments section at the end of this topic. This parameter can be a combination of an overlay image index and one or more of the following values: 
 
@@ -137,7 +138,7 @@ Draws the image, blending 50 percent with the system highlight color. This value
 </dl>
 </td>
 <td width="60%">
-Set this flag if the overlay does not require a mask to be drawn. This flag causes <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_drawex">ImageList_DrawEx</a> to draw just the image, ignoring the mask.
+Set this flag if the overlay does not require a mask to be drawn. This flag causes <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_drawex">ImageList_DrawEx</a> to draw just the image, ignoring the mask.
 
 </td>
 </tr>
@@ -182,11 +183,10 @@ Draws the image transparently using the mask, regardless of the background color
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 
 ## -remarks
 
-An overlay image is drawn transparently over the primary image specified in the <i>i</i> parameter. To specify an overlay image in the <i>fStyle</i> parameter, use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a> macro to shift the one-based index of the overlay image. Use the OR operator to logically combine the return value of the macro with the drawing style flags specified in the <i>fStyle</i> parameter. You must first specify this image as an overlay image by using the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList_SetOverlayImage</a> function.
-
+An overlay image is drawn transparently over the primary image specified in the <i>i</i> parameter. To specify an overlay image in the <i>fStyle</i> parameter, use the <a href="/windows/desktop/api/commctrl/nf-commctrl-indextooverlaymask">INDEXTOOVERLAYMASK</a> macro to shift the one-based index of the overlay image. Use the OR operator to logically combine the return value of the macro with the drawing style flags specified in the <i>fStyle</i> parameter. You must first specify this image as an overlay image by using the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList_SetOverlayImage</a> function.

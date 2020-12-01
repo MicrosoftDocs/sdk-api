@@ -65,7 +65,7 @@ The y-position, in pixels, of the hit test.
 
 ### -param SelArea [out]
 
-The value from the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult</a> enumeration,which specifies which part of a selection, if any, was hit during a hit test.
+The value from the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult</a> enumeration,which specifies which part of a selection, if any, was hit during a hit test.
 
 ## -returns
 
@@ -192,9 +192,8 @@ The west side sizing handle was hit.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
+<a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult Enumeration</a>
-
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-selectionhitresult">SelectionHitResult Enumeration</a>

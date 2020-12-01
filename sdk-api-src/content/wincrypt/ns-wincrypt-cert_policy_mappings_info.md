@@ -65,5 +65,4 @@ Count of the number of elements in the <b>rgPolicyMapping</b> array.
 ### -field rgPolicyMapping
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_policy_mapping">CERT_POLICY_MAPPING</a> structures. Each element of this array provides pair of OIDs mapping the identifies of one domain to identifiers in the other domain.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_policy_mapping">CERT_POLICY_MAPPING</a> structures. Each element of this array provides pair of OIDs mapping the identifies of one domain to identifiers in the other domain.

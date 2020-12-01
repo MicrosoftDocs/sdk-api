@@ -61,7 +61,7 @@ Number of pins to retrieve.
 
 ### -param ppPins [out]
 
-Array of size <i>cPins</i> that is filled with <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> pointers. The caller must release the interfaces.
+Array of size <i>cPins</i> that is filled with <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> pointers. The caller must release the interfaces.
 
 ### -param pcFetched [out]
 
@@ -139,13 +139,12 @@ This method retrieves pointers to the specified number of pins, starting at the 
 
 If the method succeeds, the <b>IPin</b> pointers all have outstanding reference counts. Be sure to release them when you are done.
 
-If the number of pins changes, the enumerator is no longer consistent with the filter, and the method returns VFW_E_ENUM_OUT_OF_SYNC. Discard any data obtained from previous calls to the enumerator, because it might be invalid. Update the enumerator by calling the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumpins-reset">IEnumPins::Reset</a> method. You can then call the <code>Next</code> method safely.
+If the number of pins changes, the enumerator is no longer consistent with the filter, and the method returns VFW_E_ENUM_OUT_OF_SYNC. Discard any data obtained from previous calls to the enumerator, because it might be invalid. Update the enumerator by calling the <a href="/windows/desktop/api/strmif/nf-strmif-ienumpins-reset">IEnumPins::Reset</a> method. You can then call the <code>Next</code> method safely.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins Interface</a>

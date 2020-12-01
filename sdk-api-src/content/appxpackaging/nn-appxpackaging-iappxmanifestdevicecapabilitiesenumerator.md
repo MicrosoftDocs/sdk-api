@@ -54,7 +54,7 @@ Enumerates the device  capabilities defined in the package manifest.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestDeviceCapabilitiesEnumerator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestDeviceCapabilitiesEnumerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestDeviceCapabilitiesEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestDeviceCapabilitiesEnumerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxManifestDeviceCapabilitiesEnumerator</b> interface has these methods
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestdevicecapabilitiesenumerator-getcurrent">GetCurrent</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestdevicecapabilitiesenumerator-getcurrent">GetCurrent</a>
 </td>
 <td align="left" width="63%">
 Gets the device capability at the current position of the enumerator.
@@ -78,7 +78,7 @@ Gets the device capability at the current position of the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestdevicecapabilitiesenumerator-gethascurrent">GetHasCurrent</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestdevicecapabilitiesenumerator-gethascurrent">GetHasCurrent</a>
 </td>
 <td align="left" width="63%">
 Determines whether there is a device capability at the current position of the enumerator.
@@ -87,7 +87,7 @@ Determines whether there is a device capability at the current position of the e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestdevicecapabilitiesenumerator-movenext">MoveNext</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestdevicecapabilitiesenumerator-movenext">MoveNext</a>
 </td>
 <td align="left" width="63%">
 Advances the position of the enumerator to the next device capability.
@@ -98,9 +98,9 @@ Advances the position of the enumerator to the next device capability.
 
 ## -remarks
 
-Device capabilities are specified using the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-devicecapability">DeviceCapability</a> element in the package manifest.
+Device capabilities are specified using the <a href="/uwp/schemas/appxpackage/appxmanifestschema/element-devicecapability">DeviceCapability</a> element in the package manifest.
 
-This object can be retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getdevicecapabilities">IAppxManifestReader::GetDeviceCapabilities</a> method.
+This object can be retrieved using the <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getdevicecapabilities">IAppxManifestReader::GetDeviceCapabilities</a> method.
 
 
 #### Examples
@@ -127,5 +127,4 @@ for (deviceCapabilitiesEnumerator->GetHasCurrent(&hasCurrent); hasCurrent == tru
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getdevicecapabilities">IAppxManifestReader::GetDeviceCapabilities</a>
-
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getdevicecapabilities">IAppxManifestReader::GetDeviceCapabilities</a>

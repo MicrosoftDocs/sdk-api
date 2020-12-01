@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Called by an <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process">IXAPO::Process</a> implementation when an XAPO is disabled for thru processing.
+Called by an <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-process">IXAPO::Process</a> implementation when an XAPO is disabled for thru processing.
 
 ## -parameters
 
@@ -111,9 +111,8 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xapobase-cxapobase">CXAPOBase</a>
+<a href="/windows/desktop/api/xapobase/nl-xapobase-cxapobase">CXAPOBase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
-
+<a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>

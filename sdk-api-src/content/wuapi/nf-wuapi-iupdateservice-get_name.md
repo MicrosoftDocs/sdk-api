@@ -63,5 +63,4 @@ The localized properties of an update are returned in the language that correspo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>

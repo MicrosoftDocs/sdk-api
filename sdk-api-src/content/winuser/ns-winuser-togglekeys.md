@@ -60,13 +60,13 @@ Contains information about the ToggleKeys accessibility feature. When the Toggle
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the size, in bytes, of this structure.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 
 A set of bit flags that specify properties of the ToggleKeys feature. The following bit flag values are defined:
@@ -148,13 +148,12 @@ If this flag is set, the ToggleKeys feature is on.
 
 ## -remarks
 
-An application uses a <b>TOGGLEKEYS</b> structure when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to <b>SPI_GETTOGGLEKEYS</b> or <b>SPI_SETTOGGLEKEYS</b>. When using SPI_GETTOGGLEKEYS, an application must specify the <b>cbSize</b> member of the <b>TOGGLEKEYS</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. An application must specify all structure members when using the <b>SPI_SETTOGGLEKEYS</b> value.
+An application uses a <b>TOGGLEKEYS</b> structure when calling the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to <b>SPI_GETTOGGLEKEYS</b> or <b>SPI_SETTOGGLEKEYS</b>. When using SPI_GETTOGGLEKEYS, an application must specify the <b>cbSize</b> member of the <b>TOGGLEKEYS</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. An application must specify all structure members when using the <b>SPI_SETTOGGLEKEYS</b> value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
+<a href="/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

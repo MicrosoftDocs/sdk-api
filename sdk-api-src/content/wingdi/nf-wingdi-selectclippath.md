@@ -135,23 +135,22 @@ The device context identified by the <i>hdc</i> parameter must contain a closed 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-clipping">Using Clipping</a>.
+For an example, see <a href="/windows/desktop/gdi/using-clipping">Using Clipping</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
+<a href="/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping">Clipping Overview</a>
+<a href="/windows/desktop/gdi/clipping">Clipping Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>

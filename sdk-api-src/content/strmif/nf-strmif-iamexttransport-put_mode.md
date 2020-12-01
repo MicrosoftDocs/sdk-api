@@ -112,7 +112,7 @@ Specifies the transport mode. Use one of the following values.
 </tr>
 <tr>
 <td>ED_MODE_SHUTTLE</td>
-<td>Shuttle (high-speed movement with visible picture). Use with <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_rate">IAMExtTransport::put_Rate</a> to set the transport speed.</td>
+<td>Shuttle (high-speed movement with visible picture). Use with <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_rate">IAMExtTransport::put_Rate</a> to set the transport speed.</td>
 </tr>
 <tr>
 <td>ED_MODE_EDIT_CUE</td>
@@ -120,7 +120,7 @@ Specifies the transport mode. Use one of the following values.
 </tr>
 <tr>
 <td>ED_MODE_LINK_ON</td>
-<td>Link this method to the graph's <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-run">IMediaControl::Run</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-stop">IMediaControl::Stop</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-pause">IMediaControl::Pause</a> methods.</td>
+<td>Link this method to the graph's <a href="/windows/desktop/api/control/nf-control-imediacontrol-run">IMediaControl::Run</a>, <a href="/windows/desktop/api/control/nf-control-imediacontrol-stop">IMediaControl::Stop</a>, and <a href="/windows/desktop/api/control/nf-control-imediacontrol-pause">IMediaControl::Pause</a> methods.</td>
 </tr>
 <tr>
 <td>ED_MODE_LINK_OFF</td>
@@ -163,13 +163,12 @@ Success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-get_mode">IAMExtTransport::get_Mode</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-get_mode">IAMExtTransport::get_Mode</a>

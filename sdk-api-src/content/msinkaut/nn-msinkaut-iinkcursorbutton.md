@@ -55,7 +55,7 @@ Represents general information about a button on a tablet pointing and selecting
 
 ## -remarks
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor</a> can contain zero to 32 associated buttons, and these buttons are provided to an application as <b>IInkCursorButton</b> objects. Examples of cursor buttons are:
+An <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor</a> can contain zero to 32 associated buttons, and these buttons are provided to an application as <b>IInkCursorButton</b> objects. Examples of cursor buttons are:
 
 <ul>
 <li>The writing end of a pen</li>
@@ -69,13 +69,12 @@ If you define a class that implements this interface, the new class will not int
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_buttons">Buttons Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcursor-get_buttons">Buttons Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">IInkCursor Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbuttons">IInkCursorButtons Interface</a>
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursorbuttons">IInkCursorButtons Interface</a>

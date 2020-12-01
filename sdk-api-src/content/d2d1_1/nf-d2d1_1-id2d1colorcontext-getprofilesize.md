@@ -66,17 +66,16 @@ This can be used to allocate a buffer to receive the color profile bytes associa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_color_space">D2D1_COLOR_SPACE</a>
+<a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_color_space">D2D1_COLOR_SPACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-getcolorcontext">ID2D1Bitmap1::GetColorContext</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-getcolorcontext">ID2D1Bitmap1::GetColorContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1colorcontext">ID2D1ColorContext</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1colorcontext">ID2D1ColorContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1colorcontext-getprofile">ID2D1ColorContext::GetProfile</a>
-
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1colorcontext-getprofile">ID2D1ColorContext::GetProfile</a>

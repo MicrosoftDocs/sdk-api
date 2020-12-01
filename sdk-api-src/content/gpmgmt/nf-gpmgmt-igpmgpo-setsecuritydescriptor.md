@@ -46,9 +46,6 @@ api_name:
  - GPMGPO.SetSecurityDescriptor
 ---
 
-# IGPMGPO::SetSecurityDescriptor
-
-
 ## -description
 
 Sets the security descriptor for the GPO. The method replaces the existing security descriptor.
@@ -59,25 +56,17 @@ Sets the security descriptor for the GPO. The method replaces the existing secur
 
 Specifies a set of bit flags. Use this parameter to specify the parts of the security descriptor to set.
 
-
-
 #### OWNER_SECURITY_INFORMATION (1)
 
 Owner identifier of the object.
-
-
 
 #### GROUP_SECURITY_INFORMATION (2)
 
 Primary group identifier.
 
-
-
 #### DACL_SECURITY_INFORMATION (4)
 
 Discretionary ACL of the object.
-
-
 
 #### SACL_SECURITY_INFORMATION (8)
 
@@ -86,12 +75,6 @@ System ACL of the object.
 ### -param pSD [in]
 
 The security descriptor to set.
-
-
-#### - objIADsSecurityDescriptor
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> object to set.
 
 ## -returns
 
@@ -104,13 +87,12 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 ## -remarks
 
 For more information about ACLs and the security model for controlling access to Windows objects, see the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a> topic .
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control</a> topic .
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>

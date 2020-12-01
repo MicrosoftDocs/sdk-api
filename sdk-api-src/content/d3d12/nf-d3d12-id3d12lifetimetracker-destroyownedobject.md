@@ -50,7 +50,7 @@ Destroys a lifetime-tracked object.
 
 ### -param pObject [in]
 
-Type: **[ID3D12DeviceChild](/windows/win32/api/d3d12/nn-d3d12-id3d12devicechild)\***
+Type: **[ID3D12DeviceChild](./nn-d3d12-id3d12devicechild.md)\***
 
 A pointer to an **ID3D12DeviceChild** interface representing the lifetime-tracked object.
 
@@ -59,4 +59,3 @@ A pointer to an **ID3D12DeviceChild** interface representing the lifetime-tracke
 ## -remarks
 
 ## -see-also
-

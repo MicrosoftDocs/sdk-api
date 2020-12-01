@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Enumerates a table, data collection, or  log resource. To create a query, include a <i>filter</i> parameter and a <i>dialect</i> parameter in an enumeration.  You can also use an            <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object to create queries. For more information,     see <a href="https://docs.microsoft.com/windows/desktop/WinRM/enumerating-or-listing-all-instances-of-a-resource">Enumerating or Listing All the Instances of a Resource</a>.
+Enumerates a table, data collection, or  log resource. To create a query, include a <i>filter</i> parameter and a <i>dialect</i> parameter in an enumeration.  You can also use an            <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object to create queries. For more information,     see <a href="/windows/desktop/WinRM/enumerating-or-listing-all-instances-of-a-resource">Enumerating or Listing All the Instances of a Resource</a>.
 
 ## -parameters
 
@@ -61,30 +61,30 @@ The identifier of the resource to be retrieved.
 The following list contains identifiers that this parameter can contain:
 
 <ul>
-<li>URI with one or more  <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">selectors</a>. When calling the <b>Enumerate</b> method to obtain a WMI resource, use the key property or properties of the object.</li>
-<li>You can use <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">selectors</a>,  <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">fragments</a>, or <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">options</a>. For  more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>.</li>
-<li><a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">WS-Addressing</a> endpoint reference as described in the WS-Management protocol  standard.  For more information about the public specification for the WS-Management protocol, see the <a href="https://msdn.microsoft.com/library/ms951267.aspx">Management Specifications Index Page</a>.</li>
+<li>URI with one or more  <a href="/windows/desktop/WinRM/windows-remote-management-glossary">selectors</a>. When calling the <b>Enumerate</b> method to obtain a WMI resource, use the key property or properties of the object.</li>
+<li>You can use <a href="/windows/desktop/WinRM/windows-remote-management-glossary">selectors</a>,  <a href="/windows/desktop/WinRM/windows-remote-management-glossary">fragments</a>, or <a href="/windows/desktop/WinRM/windows-remote-management-glossary">options</a>. For  more information, see <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>.</li>
+<li><a href="/windows/desktop/WinRM/windows-remote-management-glossary">WS-Addressing</a> endpoint reference as described in the WS-Management protocol  standard.  For more information about the public specification for the WS-Management protocol, see the <a href="/previous-versions/dotnet/articles/ms951267(v=msdn.10)">Management Specifications Index Page</a>.</li>
 </ul>
 
 ### -param filter [in, optional]
 
 A filter that defines what items in the resource are returned by the enumeration. When the resource is enumerated,  only those items that match the filter criteria are returned. Including a <i>filter</i> parameter and a  <i>dialect</i> parameter in an enumeration converts the enumeration into a query.
 
-If you have an <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object for the <i>resourceURI</i> parameter, then this parameter should not be used. Instead, use the selector and fragment functionality of  <b>IWSManResourceLocator</b>.
+If you have an <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object for the <i>resourceURI</i> parameter, then this parameter should not be used. Instead, use the selector and fragment functionality of  <b>IWSManResourceLocator</b>.
 
 ### -param dialect [in, optional]
 
-The language used by the filter. <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL</a>, a subset of SQL used by WMI,  is the only language supported.
+The language used by the filter. <a href="/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL</a>, a subset of SQL used by WMI,  is the only language supported.
 
-If you have a <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object for the <i>resourceURI</i> parameter, then this parameter should not be used. Instead, use the selector and fragment functionality of  <b>IWSManResourceLocator</b>.
+If you have a <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a> object for the <i>resourceURI</i> parameter, then this parameter should not be used. Instead, use the selector and fragment functionality of  <b>IWSManResourceLocator</b>.
 
 ### -param flags [in]
 
-This parameter must contain a flag in the <b>__WSManEnumFlags</b> enumeration. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a>.
+This parameter must contain a flag in the <b>__WSManEnumFlags</b> enumeration. For more information, see <a href="/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a>.
 
 ### -param resultSet [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a> object that contains the results of the enumeration.
+An <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a> object that contains the results of the enumeration.
 
 ## -returns
 
@@ -92,25 +92,24 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Call <b>IWSManSession::Enumerate</b> to start an enumeration operation. Thereafter, call <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-readitem">IWSManEnumerator::ReadItem</a> using the returned <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a> object until the end of items is indicated by the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-get_atendofstream">AtEndOfStream</a> property.
+Call <b>IWSManSession::Enumerate</b> to start an enumeration operation. Thereafter, call <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-readitem">IWSManEnumerator::ReadItem</a> using the returned <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a> object until the end of items is indicated by the <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-get_atendofstream">AtEndOfStream</a> property.
 
-Be aware that if the flags include the <a href="https://docs.microsoft.com/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a> <b>WSManFlagHierarchyDeepBasePropsOnly</b> or <b>WSManFlagHierarchyShallow</b> then Windows Remote Management service returns the error code <b>ERROR_WSMAN_POLYMORPHISM_MODE_UNSUPPORTED</b>.
+Be aware that if the flags include the <a href="/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a> <b>WSManFlagHierarchyDeepBasePropsOnly</b> or <b>WSManFlagHierarchyShallow</b> then Windows Remote Management service returns the error code <b>ERROR_WSMAN_POLYMORPHISM_MODE_UNSUPPORTED</b>.
 
-For more information about limiting network calls during an enumeration, see the <a href="https://docs.microsoft.com/windows/desktop/WinRM/session-batchitems">BatchItems</a> property.
+For more information about limiting network calls during an enumeration, see the <a href="/windows/desktop/WinRM/session-batchitems">BatchItems</a> property.
 
-If a filter is specified, it must be a valid document with respect to the schema of the resource. The dialect parameter is optional. However, if the filter string begins with &lt;, but is not an XML fragment, then  either  include the <i>dialect</i> parameter or set the <b>WSManFlagNonXmlText</b> flag in the <i>flags</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a>.
+If a filter is specified, it must be a valid document with respect to the schema of the resource. The dialect parameter is optional. However, if the filter string begins with &lt;, but is not an XML fragment, then  either  include the <i>dialect</i> parameter or set the <b>WSManFlagNonXmlText</b> flag in the <i>flags</i> parameter. For more information, see <a href="/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a>.
 
-The corresponding scripting method is <a href="https://docs.microsoft.com/windows/desktop/WinRM/session-enumerate">Session.Enumerate</a>.
+The corresponding scripting method is <a href="/windows/desktop/WinRM/session-enumerate">Session.Enumerate</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/session-enumerate">Session.Enumerate</a>
-
+<a href="/windows/desktop/WinRM/session-enumerate">Session.Enumerate</a>

@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>Image::SetPalette</b> method sets the color palette of this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
+			<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
 ## -parameters
 
@@ -60,47 +60,46 @@ The <b>Image::SetPalette</b> method sets the color palette of this
 
 Type: <b>const ColorPalette*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspixelformats/ns-gdipluspixelformats-colorpalette">ColorPalette</a> structure that specifies the palette.
+Pointer to a <a href="/windows/desktop/api/gdipluspixelformats/ns-gdipluspixelformats-colorpalette">ColorPalette</a> structure that specifies the palette.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
 If the method succeeds, it returns Ok, which is an element of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspixelformats/ns-gdipluspixelformats-colorpalette">ColorPalette</a>
+<a href="/windows/desktop/api/gdipluspixelformats/ns-gdipluspixelformats-colorpalette">ColorPalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getpalette">Image::GetPalette</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getpalette">Image::GetPalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getpalettesize">Image::GetPaletteSize</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getpalettesize">Image::GetPaletteSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-images-bitmaps-and-metafiles-about">Images, Bitmaps, and Metafiles</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-images-bitmaps-and-metafiles-about">Images, Bitmaps, and Metafiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>

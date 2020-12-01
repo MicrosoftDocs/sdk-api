@@ -46,6 +46,7 @@ api_location:
  - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
  - SetupDiDestroyDeviceInfoList
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupDiDestroyDeviceInfoList function
@@ -59,17 +60,16 @@ The <b>SetupDiDestroyDeviceInfoList</b> function deletes a device information se
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> to delete.
+A handle to the <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> to delete.
 
 ## -returns
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolist">SetupDiCreateDeviceInfoList</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolist">SetupDiCreateDeviceInfoList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>

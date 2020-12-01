@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>QOSStopTrackingClient</b> function notifies the QoS subsystem to stop tracking a client that has previously used the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> function. If a flow is currently in progress, this function will not affect it.
+The <b>QOSStopTrackingClient</b> function notifies the QoS subsystem to stop tracking a client that has previously used the <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> function. If a flow is currently in progress, this function will not affect it.
 
 ## -parameters
 
 ### -param QOSHandle [in]
 
-Handle to the QOS subsystem returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
+Handle to the QOS subsystem returned by <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a>.
 
 ### -param DestAddr [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that contains the IP address of the client device.  Clients are identified by their IP address and address family.  A port number is not required and will be ignored.
+Pointer to a <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure that contains the IP address of the client device.  Clients are identified by their IP address and address family.  A port number is not required and will be ignored.
 
 ### -param Flags
 
@@ -139,7 +139,7 @@ The request could not be performed because of an I/O device error.
 </dl>
 </td>
 <td width="60%">
-The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
+The indicated device requires reinitialization due to hardware errors. The application should clean up and call <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qoscreatehandle">QOSCreateHandle</a> again.
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ The Winsock2.h header file must be included to use Winsock defined identifiers o
 
 #### Examples
 
-The following code shows this function called in an application setting.  See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> for parameter information.
+The following code shows this function called in an application setting.  See <a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a> for parameter information.
 
 
 ```cpp
@@ -184,9 +184,8 @@ else
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a>
+<a href="/previous-versions/windows/desktop/api/qos2/nf-qos2-qosstarttrackingclient">QOSStartTrackingClient</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
-
+<a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>

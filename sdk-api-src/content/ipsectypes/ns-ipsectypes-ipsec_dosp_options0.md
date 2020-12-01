@@ -205,21 +205,20 @@ Pointer to an array of internal network facing interface identifiers for which D
 
 ### -field publicV6AddrMask
 
-Optional public IPv6 address or subnet for this policy, as specified in [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask).
+Optional public IPv6 address or subnet for this policy, as specified in [FWP_V6_ADDR_AND_MASK](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask).
 
 ### -field internalV6AddrMask
 
-Optional internal IPv6 address or subnet for this policy, as specified in [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask).
+Optional internal IPv6 address or subnet for this policy, as specified in [FWP_V6_ADDR_AND_MASK](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask).
 
 ## -remarks
 
-<b>IPSEC_DOSP_OPTIONS0</b> is a specific implementation of IPSEC_DOSP_OPTIONS. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IPSEC_DOSP_OPTIONS0</b> is a specific implementation of IPSEC_DOSP_OPTIONS. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)
+[FWP_V6_ADDR_AND_MASK](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

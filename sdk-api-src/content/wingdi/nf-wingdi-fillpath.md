@@ -72,25 +72,24 @@ After its interior is filled, the path is discarded from the DC identified by th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/path-functions">Path Functions</a>
+<a href="/windows/desktop/gdi/path-functions">Path Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/paths">Paths Overview</a>
+<a href="/windows/desktop/gdi/paths">Paths Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpolyfillmode">SetPolyFillMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setpolyfillmode">SetPolyFillMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-strokeandfillpath">StrokeAndFillPath</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-strokeandfillpath">StrokeAndFillPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-strokepath">StrokePath</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-strokepath">StrokePath</a>

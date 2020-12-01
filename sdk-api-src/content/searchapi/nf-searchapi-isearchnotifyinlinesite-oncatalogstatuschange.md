@@ -90,9 +90,8 @@ If a catalog reset occurs, the search service resets the entire catalog and upda
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchnotifyinlinesite">ISearchNotifyInlineSite</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-isearchnotifyinlinesite">ISearchNotifyInlineSite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-notifyingofchanges">Notifying the Index of Changes</a>
-
+<a href="/windows/desktop/search/-search-3x-wds-notifyingofchanges">Notifying the Index of Changes</a>

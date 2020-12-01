@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpUtilVarBindCpy</b> function copies the specified 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a> structure, and allocates any memory necessary for the destination structure. The 
+<a href="/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a> structure, and allocates any memory necessary for the destination structure. The 
 <b>SnmpUtilVarBindCpy</b> function is an element of the SNMP Utility API.
 
 ## -parameters
@@ -62,12 +62,12 @@ The
 ### -param pVbDst [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a> structure to receive the copy.
+<a href="/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a> structure to receive the copy.
 
 ### -param pVbSrc [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a> structure to copy.
+<a href="/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a> structure to copy.
 
 ## -returns
 
@@ -78,22 +78,21 @@ If the function fails, the return value is zero.
 ## -remarks
 
 Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilvarbindfree">SnmpUtilVarBindFree</a> function to free memory that the 
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputilvarbindfree">SnmpUtilVarBindFree</a> function to free memory that the 
 <b>SnmpUtilVarBindCpy</b> function allocates for the destination structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
+<a href="/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilvarbindfree">SnmpUtilVarBindFree</a>
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputilvarbindfree">SnmpUtilVarBindFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a>
-
+<a href="/windows/desktop/api/snmp/ns-snmp-snmpvarbind">SnmpVarBind</a>

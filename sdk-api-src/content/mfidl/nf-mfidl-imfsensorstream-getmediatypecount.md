@@ -98,5 +98,4 @@ The <i>pdwCount</i> parameter is null.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a>

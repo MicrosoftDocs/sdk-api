@@ -103,7 +103,7 @@ The <b>HIDWORD</b> of the <b>ullArguments</b> member is always 0, with the follo
 <li>For <b>GID_PRESSANDTAP</b>, it is the distance between the two points.</li>
 </ul>
 The <b>GESTUREINFO</b> structure is retrieved by passing the handle to the gesture information structure
-  to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getgestureinfo">GetGestureInfo</a> function.
+  to the <a href="/windows/desktop/api/winuser/nf-winuser-getgestureinfo">GetGestureInfo</a> function.
 
 The following flags indicate the various states of the gestures and are stored in <b>dwFlags</b>.
   
@@ -257,13 +257,12 @@ The following type is defined to represent a constant pointer to a <b>GESTUREINF
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getgestureinfo">GetGestureInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getgestureinfo">GetGestureInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtstructures">Structures</a>
+<a href="/windows/desktop/wintouch/mtstructures">Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a>
-
+<a href="/windows/desktop/wintouch/wm-gesture">WM_GESTURE</a>

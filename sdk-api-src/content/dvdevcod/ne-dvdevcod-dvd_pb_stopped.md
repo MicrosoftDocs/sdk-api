@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The DVD_PB_STOPPED enumeration value has flags that indicate why DVD playback stopped. This flag is sent in the <i>lParam1</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-playback-stopped">EC_DVD_PLAYBACK_STOPPED</a> event.
+The DVD_PB_STOPPED enumeration value has flags that indicate why DVD playback stopped. This flag is sent in the <i>lParam1</i> parameter of the <a href="/windows/desktop/DirectShow/ec-dvd-playback-stopped">EC_DVD_PLAYBACK_STOPPED</a> event.
 
 ## -enum-fields
 
@@ -122,5 +122,4 @@ The disc cannot be played because the driver does not support checking the video
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

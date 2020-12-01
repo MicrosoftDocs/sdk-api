@@ -54,20 +54,20 @@ api_name:
 
 ## -description
 
-Contains information specific to a hit test operation. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/rb-hittest">RB_HITTEST</a> message.
+Contains information specific to a hit test operation. This structure is used with the <a href="/windows/desktop/Controls/rb-hittest">RB_HITTEST</a> message.
 
 ## -struct-fields
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that describes the point to be hit tested, in client coordinates.
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that describes the point to be hit tested, in client coordinates.
 
 ### -field flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Member that receives a flag value indicating the rebar band's component located at the point described by <b>pt</b>. This member will be one of the following:
 
@@ -143,4 +143,3 @@ The point was in the rebar band's splitter.
 Type: <b>int</b>
 
 Member that receives the rebar band's index at the point described by <b>pt</b>. This value will be the zero-based index of the band, or -1 if no band was at the hit-tested point.
-

@@ -57,7 +57,7 @@ Gets the current style from the SAMI media source.
 
 ### -param ppwszStyle [out]
 
-Receives a pointer to a null-terminated string that contains the name of the style. If no style is currently set, the method returns an empty string. The caller must free the memory for the string by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Receives a pointer to a null-terminated string that contains the name of the style. If no style is currently set, the method returns an empty string. The caller must free the memory for the string by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -65,9 +65,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsamistyle">IMFSAMIStyle</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsamistyle">IMFSAMIStyle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/sami-media-source">SAMI Media Source</a>
-
+<a href="/windows/desktop/medfound/sami-media-source">SAMI Media Source</a>

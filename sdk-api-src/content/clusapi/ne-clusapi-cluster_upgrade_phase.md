@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Describes the state of a rolling upgrade of the operating system on a cluster. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pcluster_upgrade_progress_callback">ClusterUpgradeProgressCallback</a> callback function.
+Describes the state of a rolling upgrade of the operating system on a cluster. This enumeration is used by the <a href="/windows/desktop/api/clusapi/nc-clusapi-pcluster_upgrade_progress_callback">ClusterUpgradeProgressCallback</a> callback function.
 
 ## -enum-fields
 
@@ -79,9 +79,8 @@ The upgrade is complete.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterupgradefunctionallevel">ClusterUpgradeFunctionalLevel</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterupgradefunctionallevel">ClusterUpgradeFunctionalLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

@@ -58,7 +58,7 @@ The <b>PNRP_RESOLVE_CRITERIA</b> enumeration specifies the criteria that PNRP us
 
 ### -field PNRP_RESOLVE_CRITERIA_DEFAULT
 
-Use the PNRP_RESOLVE_CRITERIA_NON_CURRENT_PROCESS_PEER_NAME criteria. This is also the default behavior if <a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-pnrpinfo_v1">PNRPINFO</a> is not specified.
+Use the PNRP_RESOLVE_CRITERIA_NON_CURRENT_PROCESS_PEER_NAME criteria. This is also the default behavior if <a href="/windows/desktop/api/pnrpns/ns-pnrpns-pnrpinfo_v1">PNRPINFO</a> is not specified.
 
 ### -field PNRP_RESOLVE_CRITERIA_REMOTE_PEER_NAME
 
@@ -86,9 +86,8 @@ Match a peer name by   finding the name with a service location closest to the s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-pnrpinfo_v1">PNRPINFO</a>
+<a href="/windows/desktop/api/pnrpns/ns-pnrpns-pnrpinfo_v1">PNRPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-and-wsalookupservicebegin">PNRP_and WSALookupServiceBegin</a>
-
+<a href="/windows/desktop/P2PSdk/pnrp-and-wsalookupservicebegin">PNRP_and WSALookupServiceBegin</a>

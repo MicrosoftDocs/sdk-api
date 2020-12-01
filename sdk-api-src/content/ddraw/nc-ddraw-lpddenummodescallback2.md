@@ -46,13 +46,13 @@ ms.custom: 19H1
 
 ## -description
 
-The <i>EnumModesCallback2</i> function is an application-defined callback function for the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes">IDirectDraw7::EnumDisplayModes</a> method.
+The <i>EnumModesCallback2</i> function is an application-defined callback function for the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes">IDirectDraw7::EnumDisplayModes</a> method.
 
 ## -parameters
 
 ### -param Arg1 [in]
 
-A pointer to a read-only <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that provides the monitor frequency and the mode that can be created.
+A pointer to a read-only <a href="/previous-versions/windows/hardware/drivers/ff550340(v=vs.85)">DDSURFACEDESC2</a> structure that provides the monitor frequency and the mode that can be created.
 
 ### -param Arg2 [in]
 

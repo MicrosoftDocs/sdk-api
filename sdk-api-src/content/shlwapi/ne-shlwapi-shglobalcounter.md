@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Identifiers for various global counters, or shared variables. Each global counter can be incremented or decremented using <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterincrement">SHGlobalCounterIncrement</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterdecrement">SHGlobalCounterDecrement</a>.
+Identifiers for various global counters, or shared variables. Each global counter can be incremented or decremented using <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterincrement">SHGlobalCounterIncrement</a> and <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterdecrement">SHGlobalCounterDecrement</a>.
 
 ## -enum-fields
 
 ### -field GLOBALCOUNTER_SEARCHMANAGER
 
-The global counter for use with the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchmanager">ISearchManager</a>.
+The global counter for use with the <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchmanager">ISearchManager</a>.
 
 ### -field GLOBALCOUNTER_SEARCHOPTIONS
 
-The global counter for use with <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a> to identify whether a query parser's settings have changed.
+The global counter for use with <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a> to identify whether a query parser's settings have changed.
 
 ### -field GLOBALCOUNTER_FOLDERSETTINGSCHANGE
 
@@ -294,7 +294,7 @@ The maximum value any shared variable can have.
 
 ## -remarks
 
-These global counters are shared variables that can help identify whether the state of a Windows component has changed over time. They can be used with these functions: <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterdecrement">SHGlobalCounterDecrement</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterincrement">SHGlobalCounterIncrement</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcountergetvalue">SHGlobalCounterGetValue</a>.
+These global counters are shared variables that can help identify whether the state of a Windows component has changed over time. They can be used with these functions: <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterdecrement">SHGlobalCounterDecrement</a>, <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterincrement">SHGlobalCounterIncrement</a>, <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcountergetvalue">SHGlobalCounterGetValue</a>.
 
 <h3><a id="Example"></a><a id="example"></a><a id="EXAMPLE"></a>Example</h3>
 The following pseudocode example shows how a global counter can be used.
@@ -326,13 +326,12 @@ void ValidateSomeSettings()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterdecrement">SHGlobalCounterDecrement</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterdecrement">SHGlobalCounterDecrement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcountergetvalue">SHGlobalCounterGetValue</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcountergetvalue">SHGlobalCounterGetValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterincrement">SHGlobalCounterIncrement</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterincrement">SHGlobalCounterIncrement</a>

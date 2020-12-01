@@ -63,9 +63,8 @@ Indicates whether the caller is holding a synchronization primitive.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/aux_ulib/nf-aux_ulib-auxulibinitialize">AuxUlibInitialize</a> function before calling this function.
-
+You must call the <a href="/windows/desktop/api/aux_ulib/nf-aux_ulib-auxulibinitialize">AuxUlibInitialize</a> function before calling this function.

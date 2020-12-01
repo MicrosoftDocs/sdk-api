@@ -53,21 +53,21 @@ api_name:
 ## -description
 
 Returns handles to the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/core-resources">core</a> <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a>, 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum</a> resources. The <b>PRESUTIL_GET_CORE_CLUSTER_RESOURCES</b> type defines a pointer to this function.
+    <a href="/previous-versions/windows/desktop/mscs/core-resources">core</a> <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a>, 
+    <a href="/previous-versions/windows/desktop/mscs/ip-address">IP Address</a> and 
+    <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum</a> resources. The <b>PRESUTIL_GET_CORE_CLUSTER_RESOURCES</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param hCluster [in]
 
-Cluster handle (see <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>).
+Cluster handle (see <a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>).
 
 ### -param phClusterNameResource [out]
 
 Pointer to a resource handle to the core 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource for the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>, which stores the cluster name.
+      <a href="/previous-versions/windows/desktop/mscs/network-name">Network Name</a> resource for the 
+      <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>, which stores the cluster name.
 
 ### -param phClusterIPAddressResource [out]
 
@@ -76,16 +76,15 @@ Not used.
 ### -param phClusterQuorumResource [out]
 
 Pointer to a resource handle to the cluster's 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>.
+      <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource</a>.
 
 ## -returns
 
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>

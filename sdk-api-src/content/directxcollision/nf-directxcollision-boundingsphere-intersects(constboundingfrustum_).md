@@ -49,17 +49,17 @@ api_name:
 
 ## -description
 
-Test the [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) for intersection with a [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
+Test the [BoundingSphere](./ns-directxcollision-boundingsphere.md) for intersection with a [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
 ## -parameters
 
 ### -param fr [in, ref]
 
-The [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) to test for intersection.
+The [BoundingSphere](./ns-directxcollision-boundingsphere.md) to test for intersection.
 
 ## -returns
 
-A bool value indicating whether the [BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere) intersects the specified <b>BoundingSphere</b>.
+A bool value indicating whether the [BoundingSphere](./ns-directxcollision-boundingsphere.md) intersects the specified <b>BoundingSphere</b>.
 
 ## -remarks
 
@@ -68,7 +68,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-[BoundingSphere](/windows/win32/api/directxcollision/ns-directxcollision-boundingsphere)
+[BoundingSphere](./ns-directxcollision-boundingsphere.md)
 
 
 
@@ -77,4 +77,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

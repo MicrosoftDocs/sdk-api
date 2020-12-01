@@ -56,12 +56,12 @@ Retrieves the <b>GPMBackup</b> or <b>GPMStarterGPOBackup</b> object with the spe
 
 ### -param bstrID [in]
 
-ID of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> or <b>GPMStarterGPOBackup</b> object to open.
+ID of the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> or <b>GPMStarterGPOBackup</b> object to open.
 
 ### -param pvarBackup [out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a> or <b>IGPMStarterGPOBackup</b> interface for the ID specified.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a> or <b>IGPMStarterGPOBackup</b> interface for the ID specified.
 
 ## -returns
 
@@ -69,22 +69,22 @@ Pointer to the
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 <h3>JScript</h3>
-Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> or <b>GPMStarterGPOBackup</b> object.
+Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> or <b>GPMStarterGPOBackup</b> object.
 
 <h3>VB</h3>
-Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> or <b>GPMStarterGPOBackup</b> object.
+Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> or <b>GPMStarterGPOBackup</b> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdirex">IGPMBackupDirEx</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdirex">IGPMBackupDirEx</a>
 
 
 
@@ -93,4 +93,3 @@ Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/w
 
 
 <b>IGPMStarterGPOBackupCollection</b>
-

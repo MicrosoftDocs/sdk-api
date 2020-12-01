@@ -56,23 +56,22 @@ Describes the level of shader caching supported in the current graphics driver.
 
 ### -field SupportFlags
 
-Type: [**D3D12_SHADER_CACHE_SUPPORT_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_support_flags)
+Type: [**D3D12_SHADER_CACHE_SUPPORT_FLAGS**](./ne-d3d12-d3d12_shader_cache_support_flags.md)
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
 
 Indicates the level of caching supported.
 
 ## -remarks
 
-Use this structure with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> to determine the level of support offered for the optional shader-caching features.
+Use this structure with <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> to determine the level of support offered for the optional shader-caching features.
 
-See the enumeration constant D3D12_FEATURE_SHADER_CACHE in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a> enumeration.
+See the enumeration constant D3D12_FEATURE_SHADER_CACHE in the <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>
-
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>

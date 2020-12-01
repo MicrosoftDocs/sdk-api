@@ -72,5 +72,4 @@ The colorspace of the sample.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
-
+<a href="/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>

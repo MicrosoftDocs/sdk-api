@@ -46,6 +46,7 @@ api_location:
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
  - GetWindowRgnBox
+req.apiset: ext-ms-win-ntuser-draw-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetWindowRgnBox function
@@ -96,23 +97,23 @@ The return value specifies the type of the region that the function obtains. It 
 
 The window region determines the area within the window where the system permits drawing. The system does not display any portion of a window that lies outside of the window region. The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.
 
-To set the window region of a window, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a> function.
+To set the window region of a window, call the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getclipbox">GetClipBox</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getclipbox">GetClipBox</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowrgn">GetWindowRgn</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindowrgn">GetWindowRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
@@ -120,5 +121,4 @@ To set the window region of a window, call the <a href="https://docs.microsoft.c
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowrgn">SetWindowRgn</a>

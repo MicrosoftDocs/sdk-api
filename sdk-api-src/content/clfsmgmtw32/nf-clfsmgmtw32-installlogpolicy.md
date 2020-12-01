@@ -60,14 +60,14 @@ A handle to a log.
 
 ### -param pPolicy [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ns-clfsmgmt-clfs_mgmt_policy">CLFS_MGMT_POLICY</a> structure that represents the desired policy to install.
+A pointer to a <a href="/windows/desktop/api/clfsmgmt/ns-clfsmgmt-clfs_mgmt_policy">CLFS_MGMT_POLICY</a> structure that represents the desired policy to install.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -76,19 +76,18 @@ Installing a log policy does not trigger an immediate change in behavior.
 
 #### Examples
 
-For an example that uses this function, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/creating-a-log-file">Creating a Log File</a>.
+For an example that uses this function, see <a href="/previous-versions/windows/desktop/clfs/creating-a-log-file">Creating a Log File</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ns-clfsmgmt-clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
+<a href="/windows/desktop/api/clfsmgmt/ns-clfsmgmt-clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ne-clfsmgmt-clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
+<a href="/windows/desktop/api/clfsmgmt/ne-clfsmgmt-clfs_mgmt_policy_type">CLFS_MGMT_POLICY_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-setlogfilesizewithpolicy">SetLogFileSizeWithPolicy</a>
-
+<a href="/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-setlogfilesizewithpolicy">SetLogFileSizeWithPolicy</a>

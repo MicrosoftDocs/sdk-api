@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>GetStream</b> method opens a stream by accessing it in a file. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avifilegetstream">AVIFileGetStream</a> function.
+The <b>GetStream</b> method opens a stream by accessing it in a file. Called when an application uses the <a href="/windows/desktop/api/vfw/nf-vfw-avifilegetstream">AVIFileGetStream</a> function.
 
 ## -parameters
 
@@ -78,7 +78,7 @@ Returns the HRESULT defined by OLE.
 
 ## -remarks
 
-It is typically easier to implement this method by creating all of the stream objects in advance by using the <a href="https://docs.microsoft.com/previous-versions/dd798007(v=vs.85)">IAVIFile::Open</a> method. Then, this method accesses the interface to the specified stream.
+It is typically easier to implement this method by creating all of the stream objects in advance by using the <a href="/previous-versions/dd798007(v=vs.85)">IAVIFile::Open</a> method. Then, this method accesses the interface to the specified stream.
 
 Remember to increment the reference count maintained by the <b>AddRef</b> method for the stream when this method is used.
 
@@ -95,9 +95,8 @@ HRESULT GetStream(PAVISTREAM *ppStream,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>

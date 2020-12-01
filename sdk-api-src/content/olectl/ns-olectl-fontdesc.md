@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains parameters used to create a font object through the <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatefontindirect">OleCreateFontIndirect</a> function.
+Contains parameters used to create a font object through the <a href="/windows/desktop/api/olectl/nf-olectl-olecreatefontindirect">OleCreateFontIndirect</a> function.
 
 ## -struct-fields
 
@@ -64,13 +64,13 @@ The size of the structure, in bytes.
 
 ### -field lpstrName
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/nf-wtypesbase-olestr">OLESTR</a> that specifies the caller-owned string specifying the font name.
+Pointer to an <a href="/windows/desktop/api/wtypesbase/nf-wtypesbase-olestr">OLESTR</a> that specifies the caller-owned string specifying the font name.
 
 cySize
 
 ### -field cySize
 
-Initial point size of the font. Use the <b>int64</b> member of the <a href="https://docs.microsoft.com/en-us/windows/win32/api/wtypes/ns-wtypes-cy~r1">CY</a> structure and scale your font size (in points) by 10000.
+Initial point size of the font. Use the <b>int64</b> member of the <a href="/windows/win32/api/wtypes/ns-wtypes-cy-r1">CY</a> structure and scale your font size (in points) by 10000.
 
 ### -field sWeight
 
@@ -94,5 +94,4 @@ Initial strikethrough state of the font.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatefontindirect">OleCreateFontIndirect</a>
-
+<a href="/windows/desktop/api/olectl/nf-olectl-olecreatefontindirect">OleCreateFontIndirect</a>

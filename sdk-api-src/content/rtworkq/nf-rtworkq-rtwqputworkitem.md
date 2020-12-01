@@ -56,7 +56,7 @@ Puts an asynchronous operation on a work queue.
 
 ### -param dwQueue [in]
 
-The identifier for the work queue. This value can specify one of the standard work queues, or a work queue created by the app. To access to a work queue, call [RtwqLockSharedWorkQueue](/windows/win32/api/rtworkq/nf-rtworkq-rtwqlocksharedworkqueue).
+The identifier for the work queue. This value can specify one of the standard work queues, or a work queue created by the app. To access to a work queue, call [RtwqLockSharedWorkQueue](./nf-rtworkq-rtwqlocksharedworkqueue.md).
 
 ### -param lPriority [in]
 
@@ -69,4 +69,3 @@ A pointer to the callback .  The caller must implement this interface.
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

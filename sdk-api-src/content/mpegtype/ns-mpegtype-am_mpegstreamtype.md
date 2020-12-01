@@ -66,7 +66,7 @@ Reserved.
 
 ### -field mt
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure describing the type for the substeam. The <b>pbFormat</b> member of this structure must <b>NULL</b>. The format data normally conveyed in <b>pbFormat</b> is stored in the <b>bFormat</b> member.
+<a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure describing the type for the substeam. The <b>pbFormat</b> member of this structure must <b>NULL</b>. The format data normally conveyed in <b>pbFormat</b> is stored in the <b>bFormat</b> member.
 
 ### -field bFormat
 
@@ -74,13 +74,12 @@ Format data. The size of this array, in bytes, is given in the <b>mt.cbFormat</b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegsystemtype">AM_MPEGSYSTEMTYPE</a>
+<a href="/previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegsystemtype">AM_MPEGSYSTEMTYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-1-media-types">MEPG-1 Media Types</a>
-
+<a href="/windows/desktop/DirectShow/mpeg-1-media-types">MEPG-1 Media Types</a>

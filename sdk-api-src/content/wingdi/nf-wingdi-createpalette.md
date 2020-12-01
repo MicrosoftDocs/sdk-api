@@ -60,7 +60,7 @@ The <b>CreatePalette</b> function creates a logical palette.
 
 ### -param plpal [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a> structure that contains information about the colors in the logical palette.
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a> structure that contains information about the colors in the logical palette.
 
 ## -returns
 
@@ -70,37 +70,36 @@ If the function fails, the return value is <b>NULL</b>.
 
 ## -remarks
 
-An application can determine whether a device supports palette operations by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
+An application can determine whether a device supports palette operations by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
 
-Once an application creates a logical palette, it can select that palette into a device context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a> function. A palette selected into a device context can be realized by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a> function.
+Once an application creates a logical palette, it can select that palette into a device context by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a> function. A palette selected into a device context can be realized by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a> function.
 
-When you no longer need the palette, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
+When you no longer need the palette, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
+<a href="/windows/desktop/gdi/color-functions">Color Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
+<a href="/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logpalette">LOGPALETTE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a>

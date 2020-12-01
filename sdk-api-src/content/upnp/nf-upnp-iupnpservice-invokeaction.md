@@ -75,19 +75,19 @@ On input, contains a reference to an empty array. On output, receives a referenc
 
 The contents of this parameter are service-specific.
 
-Free this parameter with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
+Free this parameter with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
 
 ### -param pvRetVal [in, out]
 
 On input, contains a reference to an empty array. On output, receives a reference to a <b>VARIANT</b> that contains the return value of this action.
 
-If the device returns an error after the action is invoked on it and this parameter is not set to <b>NULL</b>, this parameter will contain specific text describing the error upon return. For more information on the errors returned by devices, please refer to the <a href="https://docs.microsoft.com/windows/desktop/UPnP/device-error-codes">Device Error Codes</a> documentation.
+If the device returns an error after the action is invoked on it and this parameter is not set to <b>NULL</b>, this parameter will contain specific text describing the error upon return. For more information on the errors returned by devices, please refer to the <a href="/windows/desktop/UPnP/device-error-codes">Device Error Codes</a> documentation.
 
-Free this parameter with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
+Free this parameter with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>.
 
 ## -returns
 
-If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method returns one of the COM error codes defined in WinError.h or one of the UPnP-specific return values shown in the following table. Some of these values indicate that an error was received from a UPnP-certified device. For more information, see <a href="https://docs.microsoft.com/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.
+If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method returns one of the COM error codes defined in WinError.h or one of the UPnP-specific return values shown in the following table. Some of these values indicate that an error was received from a UPnP-certified device. For more information, see <a href="/windows/desktop/UPnP/device-error-codes">Device Error Codes</a>.
 
 <table>
 <tr>
@@ -178,7 +178,7 @@ An error occurred at the UPnP control-protocol level.
 </dl>
 </td>
 <td width="60%">
-An HTTP error occurred. Use the <a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a> property to obtain the actual HTTP status code.
+An HTTP error occurred. Use the <a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a> property to obtain the actual HTTP status code.
 
 <div class="alert"><b>Note</b>  This error code is also returned when the SOAP response exceeds 100 kilobytes.</div>
 <div> </div>
@@ -309,5 +309,4 @@ When an application invokes the method <b>InvokeAction</b>, it includes a list o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a>

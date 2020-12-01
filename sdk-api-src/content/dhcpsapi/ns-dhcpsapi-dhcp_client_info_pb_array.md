@@ -64,7 +64,7 @@ Integer that contains the number of DHCPv4 clients in <b>Clients</b>.
 
 ### -field Clients
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_pb">DHCP_CLIENT_INFO_PB</a> structures that contain DHCPv4 client information.
+Pointer to an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_pb">DHCP_CLIENT_INFO_PB</a> structures that contain DHCPv4 client information.
 
 ### -field Clients.size_is
 
@@ -72,5 +72,4 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4enumsubnetclients">DhcpV4EnumSubnetClients</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4enumsubnetclients">DhcpV4EnumSubnetClients</a>

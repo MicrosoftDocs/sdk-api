@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Frees a memory block previously allocated with <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdallocatelinkedmemory">WSDAllocateLinkedMemory</a>.
+Frees a memory block previously allocated with <a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdallocatelinkedmemory">WSDAllocateLinkedMemory</a>.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Pointer to the memory block to be freed.
 ## -remarks
 
 All children of the memory block are automatically freed.
-

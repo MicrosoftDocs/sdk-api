@@ -56,7 +56,7 @@ The  <b>WinHttpGetProxyForUrlEx</b> function retrieves the proxy data for the sp
 
 ### -param hResolver [in]
 
-The WinHTTP resolver handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcreateproxyresolver">WinHttpCreateProxyResolver</a> function.
+The WinHTTP resolver handle returned by the <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpcreateproxyresolver">WinHttpCreateProxyResolver</a> function.
 
 ### -param pcwszUrl [in]
 
@@ -97,7 +97,7 @@ The operation is continuing asynchronously.
 </dl>
 </td>
 <td width="60%">
-Returned by <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a> when a proxy for the specified URL cannot be located.
+Returned by <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurlex">WinHttpGetProxyForUrlEx</a> when a proxy for the specified URL cannot be located.
 
 </td>
 </tr>
@@ -188,19 +188,18 @@ This function implements the Web Proxy Auto-Discovery (WPAD) protocol for automa
 
 <b>WinHttpGetProxyForUrlEx</b> must be called on a per-URL basis, because the PAC file can return a different proxy server for different URLs. This is useful because the PAC file enables an IT department to implement proxy server load balancing by mapping (hashing) the target URL (specified by the <i>lpcwszUrl</i> parameter) to a certain proxy in a proxy server array.
 
-<b>WinHttpGetProxyForUrlEx</b> caches the autoproxy URL and the autoproxy script when auto-discovery is specified in the <b>dwFlags</b> member of the <i>pAutoProxyOptions</i> structure. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinHttp/autoproxy-cache">Autoproxy Cache</a>.
+<b>WinHttpGetProxyForUrlEx</b> caches the autoproxy URL and the autoproxy script when auto-discovery is specified in the <b>dwFlags</b> member of the <i>pAutoProxyOptions</i> structure. For more information, see <a href="/windows/desktop/WinHttp/autoproxy-cache">Autoproxy Cache</a>.
 
-<b>WinHttpGetProxyForUrlEx</b> provides a fully Asynchronous and cancellable API that <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForUrl</a> does not.  <b>WinHttpGetProxyForUrlEx</b> also provides the application with the full proxy list that was returned by the PAC script allowing the application to better handle failover to "DIRECT" and to understand SOCKS if desired.
+<b>WinHttpGetProxyForUrlEx</b> provides a fully Asynchronous and cancellable API that <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyforurl">WinHttpGetProxyForUrl</a> does not.  <b>WinHttpGetProxyForUrlEx</b> also provides the application with the full proxy list that was returned by the PAC script allowing the application to better handle failover to "DIRECT" and to understand SOCKS if desired.
 
-<b>WinHttpGetProxyForUrlEx</b> always executes asynchronously and returns immediately with <b>ERROR_IO_PENDING</b> on success. The callback is set by calling <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a> on the <i>hSession</i> provided by <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>.  Alternately call <b>WinHttpSetStatusCallback</b> on the <i>hResolver</i> provided by <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcreateproxyresolver">WinHttpCreateProxyResolver</a> to have a specific callback for each call. 
+<b>WinHttpGetProxyForUrlEx</b> always executes asynchronously and returns immediately with <b>ERROR_IO_PENDING</b> on success. The callback is set by calling <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a> on the <i>hSession</i> provided by <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>.  Alternately call <b>WinHttpSetStatusCallback</b> on the <i>hResolver</i> provided by <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpcreateproxyresolver">WinHttpCreateProxyResolver</a> to have a specific callback for each call. 
 
-You must call <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a> before <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpcreateproxyresolver">WinHttpCreateProxyResolver</a>. When calling <b>WinHttpSetStatusCallback</b>, use <b>WINHTTP_CALLBACK_FLAG_REQUEST_ERROR |
-                                              WINHTTP_CALLBACK_FLAG_GETPROXYFORURL_COMPLETE</b>. See <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nc-winhttp-winhttp_status_callback">WINHTTP_STATUS_CALLBACK</a> for information on the use of the callback.
+You must call <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsetstatuscallback">WinHttpSetStatusCallback</a> before <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpcreateproxyresolver">WinHttpCreateProxyResolver</a>. When calling <b>WinHttpSetStatusCallback</b>, use <b>WINHTTP_CALLBACK_FLAG_REQUEST_ERROR |
+                                              WINHTTP_CALLBACK_FLAG_GETPROXYFORURL_COMPLETE</b>. See <a href="/windows/desktop/api/winhttp/nc-winhttp-winhttp_status_callback">WINHTTP_STATUS_CALLBACK</a> for information on the use of the callback.
 
-Once a callback of status <b>WINHTTP_CALLBACK_STATUS_GETPROXYFORURL_COMPLETE</b> is returned, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a> on the resolver handle used to issue <b>WinHttpGetProxyForUrlEx</b> to receive the results of that call.
+Once a callback of status <b>WINHTTP_CALLBACK_STATUS_GETPROXYFORURL_COMPLETE</b> is returned, the application can call <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a> on the resolver handle used to issue <b>WinHttpGetProxyForUrlEx</b> to receive the results of that call.
 
 
 If the call fails after returning <b>ERROR_IO_PENDING</b> then a callback of <b>WINHTTP_CALLBACK_STATUS_REQUEST_ERROR</b> will be issued.
 
 This function always executes out-of-process.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Provides access to a new object instance that supports the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> interface.
+Provides access to a new object instance that supports the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> interface.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ The name of the file to create.
 
 ### -param ppctlib
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> interface.
+The <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> interface.
 
 ## -returns
 
@@ -140,9 +140,8 @@ This method can also return the FACILITY_STORAGE errors.
 
 ## -remarks
 
-<b>CreateTypeLib</b> sets its output parameter (ppctlib) to point to a newly created object that supports the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> interface.
+<b>CreateTypeLib</b> sets its output parameter (ppctlib) to point to a newly created object that supports the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/type-building-functions">Type Building Functions</a>
-
+<a href="/previous-versions/windows/desktop/automat/type-building-functions">Type Building Functions</a>

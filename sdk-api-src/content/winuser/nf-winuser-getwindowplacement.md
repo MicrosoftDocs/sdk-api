@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - GetWindowPlacement
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetWindowPlacement function
@@ -67,9 +68,9 @@ A handle to the window.
 
 ### -param lpwndpl [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a>*</b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a> structure that receives the show state and position information. Before calling <b>GetWindowPlacement</b>, set the <b>length</b> member to <code>sizeof(WINDOWPLACEMENT)</code>. <b>GetWindowPlacement</b> fails if <i>lpwndpl</i>-&gt; <i>length</i> is not set correctly.
+A pointer to the <a href="/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a> structure that receives the show state and position information. Before calling <b>GetWindowPlacement</b>, set the <b>length</b> member to <code>sizeof(WINDOWPLACEMENT)</code>. <b>GetWindowPlacement</b> fails if <i>lpwndpl</i>-&gt; <i>length</i> is not set correctly.
 
 ## -returns
 
@@ -77,13 +78,13 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <b>flags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a> retrieved by this function is always zero. If the window identified by the <i>hWnd</i> parameter is maximized, the <b>showCmd</b> member is SW_SHOWMAXIMIZED. If the window is minimized, <b>showCmd</b> is SW_SHOWMINIMIZED. Otherwise, it is SW_SHOWNORMAL. 
+The <b>flags</b> member of <a href="/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a> retrieved by this function is always zero. If the window identified by the <i>hWnd</i> parameter is maximized, the <b>showCmd</b> member is SW_SHOWMAXIMIZED. If the window is minimized, <b>showCmd</b> is SW_SHOWMINIMIZED. Otherwise, it is SW_SHOWNORMAL. 
 
-The <b>length</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a> must be set to sizeof(<b>WINDOWPLACEMENT</b>). If this member is not set correctly, the function returns <b>FALSE</b>. For additional remarks on the proper use of window placement coordinates, see <b>WINDOWPLACEMENT</b>.
+The <b>length</b> member of <a href="/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a> must be set to sizeof(<b>WINDOWPLACEMENT</b>). If this member is not set correctly, the function returns <b>FALSE</b>. For additional remarks on the proper use of window placement coordinates, see <b>WINDOWPLACEMENT</b>.
 
 ## -see-also
 
@@ -95,13 +96,12 @@ The <b>length</b> member of <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowplacement">SetWindowPlacement</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowplacement">SetWindowPlacement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-windowplacement">WINDOWPLACEMENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

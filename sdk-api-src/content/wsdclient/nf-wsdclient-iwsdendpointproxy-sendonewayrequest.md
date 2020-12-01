@@ -60,7 +60,7 @@ Sends a one-way request message.
 
 ### -param pOperation [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structure that specifies the operation to perform.
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structure that specifies the operation to perform.
 
 ## -returns
 
@@ -101,5 +101,4 @@ This method is normally only called by generated proxy code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>

@@ -69,5 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method is called by <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-getviewrect">IBrowserService2::GetViewRect</a>.
-
+This method is called by <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice2-getviewrect">IBrowserService2::GetViewRect</a>.

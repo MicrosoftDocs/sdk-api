@@ -58,11 +58,11 @@ The DLL entry point name for this method must be <b>WSManPluginAuthzOperation</b
 
 ### -param pluginContext [in]
 
-Specifies the context that was returned by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_startup">WSManPluginStartup</a>. This parameter represents a specific application initialization of a WinRM plug-in.
+Specifies the context that was returned by a call to <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_startup">WSManPluginStartup</a>. This parameter represents a specific application initialization of a WinRM plug-in.
 
 ### -param *senderDetails [in]
 
-A pointer  to the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that specifies the identification information of the user.
+A pointer  to the <a href="/windows/desktop/api/wsman/ns-wsman-wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that specifies the identification information of the user.
 
 ### -param flags [in]
 
@@ -182,9 +182,8 @@ This operation will have a custom string.
 
 ### -param resourceUri [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-glossary">resource URI</a> of the inbound operation.
+Specifies the <a href="/windows/desktop/WinRM/windows-remote-management-glossary">resource URI</a> of the inbound operation.
 
 ## -remarks
 
-The plug-in must call <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginauthzoperationcomplete">WSManPluginAuthzOperationComplete</a> to report either that the user was successfully authorized to perform the operation with <b>NO_ERROR</b> or that the user was not authorized with <b>ERROR_ACCESS_DENIED</b>. All other errors report a failure to the client, but no specific information is reported.
-
+The plug-in must call <a href="/windows/desktop/api/wsman/nf-wsman-wsmanpluginauthzoperationcomplete">WSManPluginAuthzOperationComplete</a> to report either that the user was successfully authorized to perform the operation with <b>NO_ERROR</b> or that the user was not authorized with <b>ERROR_ACCESS_DENIED</b>. All other errors report a failure to the client, but no specific information is reported.

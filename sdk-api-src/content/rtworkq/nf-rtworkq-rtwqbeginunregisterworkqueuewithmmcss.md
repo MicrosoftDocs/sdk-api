@@ -56,11 +56,11 @@ Unregisters a work queue from a Multimedia Class Scheduler Service (MMCSS) task.
 
 ### -param workQueueId [in]
 
-The identifier of the work queue.  For private work queues, the identifier is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function.
+The identifier of the work queue.  For private work queues, the identifier is returned by the <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function.
 
 ### -param doneCallback [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasynccallback">IRtwqAsyncCallback</a> interface of a callback object. The caller must implement this interface.
+Pointer to the <a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasynccallback">IRtwqAsyncCallback</a> interface of a callback object. The caller must implement this interface.
 
 ### -param doneState [in]
 
@@ -69,4 +69,3 @@ Pointer to the <b>IUnknown</b> interface of a state object, defined by the calle
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

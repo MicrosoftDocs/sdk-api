@@ -54,13 +54,13 @@ api_name:
 The <code>IAMDirectSound</code> interface specifies which window has focus for controlling DirectSound audio playback. DirectShow provides limited support for this interface:
 
 <ul>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directsound-renderer-filter">DirectSound Renderer</a> implements the <b>GetFocusWindow</b> and <b>SetFocusWindow</b> methods. It does not implement the other methods on the interface.</li>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-renderer--waveout--filter">Audio Renderer (WaveOut)</a> exposes the interface but does not implement any of its methods.</li>
+<li>The <a href="/windows/desktop/DirectShow/directsound-renderer-filter">DirectSound Renderer</a> implements the <b>GetFocusWindow</b> and <b>SetFocusWindow</b> methods. It does not implement the other methods on the interface.</li>
+<li>The <a href="/windows/desktop/DirectShow/audio-renderer--waveout--filter">Audio Renderer (WaveOut)</a> exposes the interface but does not implement any of its methods.</li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMDirectSound</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMDirectSound</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMDirectSound</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMDirectSound</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IAMDirectSound</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-getdirectsoundinterface">GetDirectSoundInterface</a>
+<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-getdirectsoundinterface">GetDirectSoundInterface</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -84,7 +84,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-getfocuswindow">GetFocusWindow</a>
+<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-getfocuswindow">GetFocusWindow</a>
 </td>
 <td align="left" width="63%">
 Retrieves the window that is handling sound playback for the current media file.
@@ -93,7 +93,7 @@ Retrieves the window that is handling sound playback for the current media file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-getprimarybufferinterface">GetPrimaryBufferInterface</a>
+<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-getprimarybufferinterface">GetPrimaryBufferInterface</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -102,7 +102,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-getsecondarybufferinterface">GetSecondaryBufferInterface</a>
+<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-getsecondarybufferinterface">GetSecondaryBufferInterface</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -111,7 +111,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-releasedirectsoundinterface">ReleaseDirectSoundInterface</a>
+<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-releasedirectsoundinterface">ReleaseDirectSoundInterface</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -120,7 +120,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-releaseprimarybufferinterface">ReleasePrimaryBufferInterface</a>
+<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-releaseprimarybufferinterface">ReleasePrimaryBufferInterface</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -129,7 +129,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-releasesecondarybufferinterface">ReleaseSecondaryBufferInterface</a>
+<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-releasesecondarybufferinterface">ReleaseSecondaryBufferInterface</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -138,7 +138,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-setfocuswindow">SetFocusWindow</a>
+<a href="/windows/desktop/api/amaudio/nf-amaudio-iamdirectsound-setfocuswindow">SetFocusWindow</a>
 </td>
 <td align="left" width="63%">
 Sets the window that will handle sound playback for the current media file.
@@ -149,5 +149,4 @@ Sets the window that will handle sound playback for the current media file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/interfaces">Interfaces</a>

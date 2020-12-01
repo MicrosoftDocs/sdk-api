@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-SysParams-Ext-L1-1-0.dll
 api_name:
  - EnumDisplayMonitors
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # EnumDisplayMonitors function
@@ -54,7 +55,7 @@ api_name:
 
 ## -description
 
-The <b>EnumDisplayMonitors</b> function enumerates display monitors (including invisible pseudo-monitors associated with the mirroring drivers) that intersect a region formed by the intersection of a specified clipping rectangle and the visible region of a device context. <b>EnumDisplayMonitors</b> calls an application-defined <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-monitorenumproc">MonitorEnumProc</a> callback function once for each monitor that is enumerated. Note that <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> (SM_CMONITORS) counts only the display monitors.
+The <b>EnumDisplayMonitors</b> function enumerates display monitors (including invisible pseudo-monitors associated with the mirroring drivers) that intersect a region formed by the intersection of a specified clipping rectangle and the visible region of a device context. <b>EnumDisplayMonitors</b> calls an application-defined <a href="/windows/desktop/api/winuser/nc-winuser-monitorenumproc">MonitorEnumProc</a> callback function once for each monitor that is enumerated. Note that <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> (SM_CMONITORS) counts only the display monitors.
 
 ## -parameters
 
@@ -74,11 +75,11 @@ This parameter can be <b>NULL</b> if you don't want to clip the region specified
 
 ### -param lpfnEnum [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-monitorenumproc">MonitorEnumProc</a> application-defined callback function.
+A pointer to a <a href="/windows/desktop/api/winuser/nc-winuser-monitorenumproc">MonitorEnumProc</a> application-defined callback function.
 
 ### -param dwData [in]
 
-Application-defined data that <b>EnumDisplayMonitors</b> passes directly to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-monitorenumproc">MonitorEnumProc</a> function.
+Application-defined data that <b>EnumDisplayMonitors</b> passes directly to the <a href="/windows/desktop/api/winuser/nc-winuser-monitorenumproc">MonitorEnumProc</a> function.
 
 ## -returns
 
@@ -94,7 +95,7 @@ There are two reasons to call the <b>EnumDisplayMonitors</b> function:
 <li>You want to draw optimally into a device context that spans several display monitors, and the monitors have different color formats.</li>
 <li>You want to obtain a handle and position rectangle for one or more display monitors.</li>
 </ul>
-To determine whether all the display monitors in a system share the same color format, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> (SM_SAMEDISPLAYFORMAT).
+To determine whether all the display monitors in a system share the same color format, call <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> (SM_SAMEDISPLAYFORMAT).
 
 You do not need to use the <b>EnumDisplayMonitors</b> function when a window spans display monitors that have different color formats. You can continue to paint under the assumption that the entire screen has the color properties of the primary monitor. Your windows will look fine. <b>EnumDisplayMonitors</b> just lets you make them look better.
 
@@ -193,17 +194,16 @@ EnumDisplayMonitors(NULL, NULL, MyInfoEnumProc, 0);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-monitorenumproc">MonitorEnumProc</a>
+<a href="/windows/desktop/api/winuser/nc-winuser-monitorenumproc">MonitorEnumProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors-functions">Multiple Display Monitors Functions</a>
+<a href="/windows/desktop/gdi/multiple-display-monitors-functions">Multiple Display Monitors Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>
-
+<a href="/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>

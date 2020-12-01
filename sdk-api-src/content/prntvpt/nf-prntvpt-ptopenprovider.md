@@ -61,7 +61,7 @@ A pointer to the full name of a print queue.
 
 ### -param dwVersion
 
-The version of the <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a> requested by the caller.
+The version of the <a href="/windows/desktop/printdocs/printschema">Print Schema</a> requested by the caller.
 
 ### -param phProvider [out]
 
@@ -71,7 +71,7 @@ A pointer to a handle for the provider.
 
 If the operation succeeds, the return value is S_OK, otherwise the <b>HRESULT</b> contains an error code.
 
-For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
+For more information about COM error codes, see <a href="/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 ## -remarks
 
@@ -79,19 +79,18 @@ For more information about COM error codes, see <a href="https://docs.microsoft.
 <div> </div>
 <i>pszPrinterName</i> must be the full name, not the truncated name as it may appear in a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>.
 
-The first version of the Print Schema was released with Windows Vista and is version 1. This operation fails if <i>version</i> is not supported. Contrast this with <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> which opens a provider even if it supports only versions that are earlier than requested.
+The first version of the Print Schema was released with Windows Vista and is version 1. This operation fails if <i>version</i> is not supported. Contrast this with <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> which opens a provider even if it supports only versions that are earlier than requested.
 
-To avoid a resource leak, <i>phProvider</i> must be closed with <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptcloseprovider">PTCloseProvider</a>.
+To avoid a resource leak, <i>phProvider</i> must be closed with <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptcloseprovider">PTCloseProvider</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>
+<a href="/windows/desktop/printdocs/printschema">Print Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

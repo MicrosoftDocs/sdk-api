@@ -56,7 +56,7 @@ The <b>Register</b> method registers a third-party firewall product.
 
 ### -param product [in]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a> object that defines the product to be registered.
+The <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a> object that defines the product to be registered.
 
 ### -param registration [out, retval]
 
@@ -140,9 +140,8 @@ A user mode code module using this API should be linked with the /integritycheck
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproducts">INetFwProducts</a>
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproducts">INetFwProducts</a>

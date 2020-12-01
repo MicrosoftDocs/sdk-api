@@ -56,9 +56,9 @@ Get the blend state.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1da6dc74-ff15-4707-866d-5aaf80c495f9">D3D10_BLEND_DESC1</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d10_1/ns-d3d10_1-d3d10_blend_desc1">D3D10_BLEND_DESC1</a>*</b>
 
-A pointer to the blend state (see <a href="https://msdn.microsoft.com/1da6dc74-ff15-4707-866d-5aaf80c495f9">D3D10_BLEND_DESC1</a>).
+A pointer to the blend state (see <a href="/windows/win32/api/d3d10_1/ns-d3d10_1-d3d10_blend_desc1">D3D10_BLEND_DESC1</a>).
 
 ## -remarks
 
@@ -66,5 +66,5 @@ This method requires Windows Vista Service Pack 1.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/acb41920-8090-4357-afe0-ba5a6644b984">ID3D10BlendState1 Interface</a>
+<a href="/windows/win32/api/d3d10_1/nn-d3d10_1-id3d10blendstate1">ID3D10BlendState1 Interface</a>
 

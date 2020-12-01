@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Starts a maintenance operation.
 
@@ -59,11 +59,11 @@ Starts a maintenance operation.
 
 ### -param operation [in]
 
-A maintenance operation enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_maintenance_operation">VDS_MAINTENANCE_OPERATION</a>.
+A maintenance operation enumerated by <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_maintenance_operation">VDS_MAINTENANCE_OPERATION</a>.
 
 ## -returns
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -78,7 +78,7 @@ This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFM
 </dl>
 </td>
 <td width="60%">
-This return value signals a software or communication problem inside a provider that caches information about the array. Use the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a> method followed by the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a> method to restore the cache.
+This return value signals a software or communication problem inside a provider that caches information about the array. Use the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a> method followed by the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a> method to restore the cache.
 
 </td>
 </tr>
@@ -135,33 +135,32 @@ This operation or combination of parameters is not supported by this provider.
 
 ## -remarks
 
-Once an operation begins, it runs until the caller invokes either the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-stopmaintenance">StopMaintenance</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-pulsemaintenance">PulseMaintenance</a> method. When 
+Once an operation begins, it runs until the caller invokes either the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-stopmaintenance">StopMaintenance</a> method or the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-pulsemaintenance">PulseMaintenance</a> method. When 
         <b>StopMaintenance</b> is called on a running operation, the operation stops immediately. When <b>PulseMaintenance</b> is called on a running operation, the operation pulses the specified number of times and then stops. 
 
 
-Calling <b>StartMaintenance</b> on a pulsing operation causes the operation to start and run until either <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-stopmaintenance">StopMaintenance</a> is called to stop it or <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-pulsemaintenance">PulseMaintenance</a> is called to set it pulsing it again.
+Calling <b>StartMaintenance</b> on a pulsing operation causes the operation to start and run until either <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-stopmaintenance">StopMaintenance</a> is called to stop it or <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-pulsemaintenance">PulseMaintenance</a> is called to set it pulsing it again.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-reenumerate">IVdsHwProvider::Reenumerate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsmaintenance">IVdsMaintenance</a>
+<a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsmaintenance">IVdsMaintenance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-pulsemaintenance">IVdsMaintenance::PulseMaintenance</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-pulsemaintenance">IVdsMaintenance::PulseMaintenance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-stopmaintenance">IVdsMaintenance::StopMaintenance</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsmaintenance-stopmaintenance">IVdsMaintenance::StopMaintenance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_maintenance_operation">VDS_MAINTENANCE_OPERATION</a>
-
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_maintenance_operation">VDS_MAINTENANCE_OPERATION</a>

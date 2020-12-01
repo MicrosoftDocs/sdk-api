@@ -56,21 +56,20 @@ Retrieves the specified lock.
 
 ### -param lock [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/ne-rtscom-realtimestyluslocktype">RealTimeStylusLockType Enumeration</a> value that indicates which object lock to use.
+The <a href="/windows/desktop/api/rtscom/ne-rtscom-realtimestyluslocktype">RealTimeStylusLockType Enumeration</a> value that indicates which object lock to use.
 
 ## -returns
 
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
-Use the object locks to help protect the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object's members and properties from modification.
+Use the object locks to help protect the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object's members and properties from modification.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylussynchronization">IRealTimeStylusSynchronization Interface</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylussynchronization">IRealTimeStylusSynchronization Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylussynchronization-releaselock">IRealTimeStylusSynchronization::ReleaseLock Method</a>
-
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylussynchronization-releaselock">IRealTimeStylusSynchronization::ReleaseLock Method</a>

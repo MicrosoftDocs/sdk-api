@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative">ISoftwareBitmapNative</a>  from the provided <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>.
+Creates an <a href="/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative">ISoftwareBitmapNative</a>  from the provided <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>.
 
 ## -parameters
 
@@ -66,14 +66,14 @@ Type: <b>BOOL</b>
 
 A value indicating whether the created software bitmap is read-only.
 
-<div class="alert"><b>Note</b>  The read-only access applies only to the Windows Runtime<a href="https://docs.microsoft.com/uwp/api/windows.graphics.imaging.softwarebitmap">SoftwareBitmap</a> wrapper. Access to the underlying Media Foundation buffer is not restricted.</div>
+<div class="alert"><b>Note</b>  The read-only access applies only to the Windows Runtime<a href="/uwp/api/windows.graphics.imaging.softwarebitmap">SoftwareBitmap</a> wrapper. Access to the underlying Media Foundation buffer is not restricted.</div>
 <div> </div>
 
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
-The IID of the <a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative">ISoftwareBitmapNative</a> interface.
+The IID of the <a href="/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative">ISoftwareBitmapNative</a> interface.
 
 ### -param ppv [out]
 
@@ -89,5 +89,4 @@ Returns S_OK on successful completion.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnativefactory">ISoftwareBitmapNativeFactory</a>
-
+<a href="/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnativefactory">ISoftwareBitmapNativeFactory</a>

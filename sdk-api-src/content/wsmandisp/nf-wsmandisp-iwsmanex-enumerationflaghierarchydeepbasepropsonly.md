@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-The <b>IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly</b> method returns the value of the enumeration constant <b>EnumerationFlagHierarchyDeepBasePropsOnly</b> for use in the <i>flags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
+The <b>IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly</b> method returns the value of the enumeration constant <b>EnumerationFlagHierarchyDeepBasePropsOnly</b> for use in the <i>flags</i> parameter of the <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmansession-enumerate">IWSManSession::Enumerate</a> method.
 
-<b>EnumerationFlagHierarchyDeepBasePropsOnly</b> is a constant in the <b>_WSManEnumFlags</b> enumeration and is described in <a href="https://docs.microsoft.com/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a>.
+<b>EnumerationFlagHierarchyDeepBasePropsOnly</b> is a constant in the <b>_WSManEnumFlags</b> enumeration and is described in <a href="/windows/desktop/WinRM/enumeration-constants">Enumeration Constants</a>.
 
 ## -parameters
 
@@ -66,9 +66,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex">IWSManEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
-
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>

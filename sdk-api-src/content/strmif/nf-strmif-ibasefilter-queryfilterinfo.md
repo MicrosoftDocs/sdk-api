@@ -57,7 +57,7 @@ The <code>QueryFilterInfo</code> method retrieves information about the filter.
 
 ### -param pInfo [out]
 
-Pointer to a [FILTER_INFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-filter_info) structure.
+Pointer to a [FILTER_INFO](/windows/desktop/api/strmif/ns-strmif-filter_info) structure.
 
 ## -returns
 
@@ -94,13 +94,12 @@ Success
 
 ## -remarks
 
-This method fills the <b>FILTER_INFO</b> structure with the filter information. On return, if the <b>pGraph</b> member of the <b>FILTER_INFO</b> structure is non-<b>NULL</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph</a> interface has an outstanding reference count. Be sure to release the interface when you are done.
+This method fills the <b>FILTER_INFO</b> structure with the filter information. On return, if the <b>pGraph</b> member of the <b>FILTER_INFO</b> structure is non-<b>NULL</b>, the <a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph</a> interface has an outstanding reference count. Be sure to release the interface when you are done.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>

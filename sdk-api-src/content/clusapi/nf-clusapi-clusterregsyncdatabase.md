@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Synchronizes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">Cluster Database</a> with a cluster.
+Synchronizes the <a href="/previous-versions/windows/desktop/mscs/cluster-database">Cluster Database</a> with a cluster.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ If the operation succeeds, returns <b>ERROR_SUCCESS</b> (0); otherwise, returns 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>

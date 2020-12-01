@@ -61,11 +61,11 @@ Specifies the address to which the delivery report is sent.
 
 ## -remarks
 
-The type of address will vary according to the value of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-receipttype-vb">IFaxOutgoingMessage2::ReceiptType</a> property as indicated in this table.
+The type of address will vary according to the value of the <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-receipttype-vb">IFaxOutgoingMessage2::ReceiptType</a> property as indicated in this table.
 
 <table class="clsStd">
 <tr>
-<th>Value of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-receipttype-vb">IFaxOutgoingMessage2::ReceiptType</a> property</th>
+<th>Value of <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage-receipttype-vb">IFaxOutgoingMessage2::ReceiptType</a> property</th>
 <th>Type of address</th>
 </tr>
 <tr>
@@ -80,9 +80,8 @@ The type of address will vary according to the value of the <a href="https://doc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingmessage">FaxOutgoingMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage2">IFaxOutgoingMessage2</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage2">IFaxOutgoingMessage2</a>

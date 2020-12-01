@@ -69,17 +69,16 @@ A pointer to the SRW lock.
 
 ## -remarks
 
-The SRW lock must be released by the same thread that acquired it. You can use [Application Verifier](https://docs.microsoft.com/windows-hardware/drivers/devtest/application-verifier) to help verify that your program uses SRW locks correctly (enable Locks checker from Basic group).
+The SRW lock must be released by the same thread that acquired it. You can use [Application Verifier](/windows-hardware/drivers/devtest/application-verifier) to help verify that your program uses SRW locks correctly (enable Locks checker from Basic group).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-acquiresrwlockshared">AcquireSRWLockShared</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-acquiresrwlockshared">AcquireSRWLockShared</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/slim-reader-writer--srw--locks">Slim Reader/Writer (SRW) Locks</a>
+<a href="/windows/desktop/Sync/slim-reader-writer--srw--locks">Slim Reader/Writer (SRW) Locks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

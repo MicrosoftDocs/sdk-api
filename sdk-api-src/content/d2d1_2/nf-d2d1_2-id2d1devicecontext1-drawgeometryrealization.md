@@ -56,13 +56,13 @@ Renders a given geometry realization to the target with the specified brush.
 
 ### -param geometryRealization [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1geometryrealization">ID2D1GeometryRealization</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1geometryrealization">ID2D1GeometryRealization</a>*</b>
 
 The geometry realization to be rendered.
 
 ### -param brush [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>*</b>
 
 The brush to render the realization with.
 
@@ -97,8 +97,8 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 This method respects all currently set state (transform, DPI, unit mode, target image, clips, layers); 
         however, artifacts such as faceting may appear when rendering the realizations with a large effective scale (either via the transform or the DPI). 
-        Callers should create their realizations with an appropriate flattening tolerance using either <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-constants">D2D1_DEFAULT_FLATTENING_TOLERANCE</a> 
-        or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn280327(v=vs.85)">ComputeFlatteningTolerance</a> to compensate for this.
+        Callers should create their realizations with an appropriate flattening tolerance using either <a href="/windows/desktop/Direct2D/direct2d-constants">D2D1_DEFAULT_FLATTENING_TOLERANCE</a> 
+        or <a href="/previous-versions/windows/desktop/legacy/dn280327(v=vs.85)">ComputeFlatteningTolerance</a> to compensate for this.
       
 
 Additionally, callers should be aware of the safe render bounds when creating geometry realizations. 
@@ -107,5 +107,4 @@ Additionally, callers should be aware of the safe render bounds when creating ge
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1devicecontext1">ID2D1DeviceContext1</a>
-
+<a href="/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1devicecontext1">ID2D1DeviceContext1</a>

@@ -54,7 +54,7 @@ Exposes methods for writing compressed JPEG scan data directly to the WIC encode
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICJpegFrameEncode</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICJpegFrameEncode</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICJpegFrameEncode</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICJpegFrameEncode</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICJpegFrameEncode</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-getachuffmantable">GetAcHuffmanTable</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-getachuffmantable">GetAcHuffmanTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of the AC Huffman table for the specified scan and table.
@@ -78,7 +78,7 @@ Retrieves a copy of the AC Huffman table for the specified scan and table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-getdchuffmantable">GetDcHuffmanTable</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-getdchuffmantable">GetDcHuffmanTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of the DC Huffman table for the specified scan and table.
@@ -87,7 +87,7 @@ Retrieves a copy of the DC Huffman table for the specified scan and table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-getquantizationtable">GetQuantizationTable</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-getquantizationtable">GetQuantizationTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a copy of the quantization table.
@@ -96,7 +96,7 @@ Retrieves a copy of the quantization table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-writescan">WriteScan</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframeencode-writescan">WriteScan</a>
 </td>
 <td align="left" width="63%">
 Writes scan data to a JPEG frame.
@@ -107,7 +107,7 @@ Writes scan data to a JPEG frame.
 
 ## -remarks
 
-Obtain this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on the Windows-provided <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncoder</a> interface for the JPEG encoder.
+Obtain this interface by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> on the Windows-provided <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframeencode">IWICBitmapFrameEncoder</a> interface for the JPEG encoder.
 
 The WIC JPEG encoder supports a smaller subset of JPEG features than the decoder does.
 
@@ -118,4 +118,3 @@ The WIC JPEG encoder supports a smaller subset of JPEG features than the decoder
 <li>The encoder supports 4 fixed compontent subsampling, 4:2:0, 4:2:2, 4:4:0, and 4:4:4.  This subsamples chroma only.</li>
 <li>The encoder does not support  restart markers.</li>
 </ul>
-

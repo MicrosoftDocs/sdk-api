@@ -130,5 +130,4 @@ if (FAILED(hr)) throw(hr);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontextex">ITransactionContextEx</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontextex">ITransactionContextEx</a>

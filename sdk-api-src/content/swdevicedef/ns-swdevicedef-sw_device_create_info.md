@@ -64,19 +64,19 @@ The size in bytes of this structure. Use it as a version field.  Initialize it t
 
 ### -field pszInstanceId
 
-A string that represents the instance ID portion of the device instance ID. This value is used for <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryInstanceID</b>.  Because all software devices are considered "UniqueId" devices, this string must be a unique name for all devices on this software device enumerator.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/instance-ids">Instance IDs</a>.
+A string that represents the instance ID portion of the device instance ID. This value is used for <a href="/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryInstanceID</b>.  Because all software devices are considered "UniqueId" devices, this string must be a unique name for all devices on this software device enumerator.  For more info, see <a href="/windows-hardware/drivers/install/instance-ids">Instance IDs</a>.
 
 ### -field pszzHardwareIds
 
-A list of strings for the hardware IDs for the software device. This value is used for <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryHardwareIDs</b>.  If a client expects a driver or device metadata to bind to the device, the client specifies hardware IDs.
+A list of strings for the hardware IDs for the software device. This value is used for <a href="/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryHardwareIDs</b>.  If a client expects a driver or device metadata to bind to the device, the client specifies hardware IDs.
 
 ### -field pszzCompatibleIds
 
-A list of strings for the compatible IDs for the software device. This value is used for <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryCompatibleIDs</b>.  If a client expects a class driver to load, the client specifies compatible IDs that match the class driver.  If a driver isn't needed, we recommend to specify a compatible ID to classify the type of software device.  In addition to the compatible IDs specified in this member, SWD\Generic and possibly SWD\GenericRaw will always be added as the least specific compatible IDs.
+A list of strings for the compatible IDs for the software device. This value is used for <a href="/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryCompatibleIDs</b>.  If a client expects a class driver to load, the client specifies compatible IDs that match the class driver.  If a driver isn't needed, we recommend to specify a compatible ID to classify the type of software device.  In addition to the compatible IDs specified in this member, SWD\Generic and possibly SWD\GenericRaw will always be added as the least specific compatible IDs.
 
 ### -field pContainerId
 
-A value that is used to control the base container ID for the software device.  This value will be used for <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryContainerIDs</b>.  For typical situations, we recommend to set this member to <b>NULL</b> and use the <b>SWDeviceCapabilitiesRemovable</b> flag to control whether the device inherits the parent's container ID or if PnP assigns a new random container ID.  If the client needs to explicitly control the container ID, specify a <b>GUID</b> in the variable that this member points to.
+A value that is used to control the base container ID for the software device.  This value will be used for <a href="/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a> <b>BusQueryContainerIDs</b>.  For typical situations, we recommend to set this member to <b>NULL</b> and use the <b>SWDeviceCapabilitiesRemovable</b> flag to control whether the device inherits the parent's container ID or if PnP assigns a new random container ID.  If the client needs to explicitly control the container ID, specify a <b>GUID</b> in the variable that this member points to.
 
 ### -field CapabilityFlags
 
@@ -144,7 +144,7 @@ When this bit is specified, at least one of <b>pszzHardwareIds</b> or <b>pszzCom
 
   If this bit is specified and if a driver can't be found, the device shows a yellow bang in <b>Device Manager</b> to indicate that the device has a problem, and Troubleshooters flag this as a device with a problem.  Setting this bit is equivalent to a bus driver not setting the <b>RawDeviceOK</b> member of the <b>DEVICE_CAPABILTIES</b> structure for a PDO.
 
-When this bit is specified, the driver owns creating interfaces for the device, and you can't call <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfaceregister">SwDeviceInterfaceRegister</a> for the device.
+When this bit is specified, the driver owns creating interfaces for the device, and you can't call <a href="/windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfaceregister">SwDeviceInterfaceRegister</a> for the device.
 
 </td>
 </tr>
@@ -152,25 +152,25 @@ When this bit is specified, the driver owns creating interfaces for the device, 
 
 ### -field pszDeviceDescription
 
-A string that contains the text that is displayed for the device name in the UI. This value is used for <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-text">IRP_MN_QUERY_DEVICE_TEXT</a> <b>DeviceTextDescription</b>.  
+A string that contains the text that is displayed for the device name in the UI. This value is used for <a href="/windows-hardware/drivers/kernel/irp-mn-query-device-text">IRP_MN_QUERY_DEVICE_TEXT</a> <b>DeviceTextDescription</b>.  
 
 <div class="alert"><b>Note</b>  <p class="note">When an INF is matched against the device, the name from the INF overrides this name unless steps are taken to preserve this name.
 
-<p class="note">We recommend that this string be a reference to a localizable resource. For the syntax of referencing resources, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devprop-type-string-indirect">DEVPROP_TYPE_STRING_INDIRECT</a>. 
+<p class="note">We recommend that this string be a reference to a localizable resource. For the syntax of referencing resources, see <a href="/windows-hardware/drivers/install/devprop-type-string-indirect">DEVPROP_TYPE_STRING_INDIRECT</a>. 
 
 </div>
 <div> </div>
 
 ### -field pszDeviceLocation
 
-A string that contains the text that is displayed for the device location in the UI.  This value is used for <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-text">IRP_MN_QUERY_DEVICE_TEXT</a> <b>DeviceTextLocationInformation</b>.  
+A string that contains the text that is displayed for the device location in the UI.  This value is used for <a href="/windows-hardware/drivers/kernel/irp-mn-query-device-text">IRP_MN_QUERY_DEVICE_TEXT</a> <b>DeviceTextLocationInformation</b>.  
 
 <div class="alert"><b>Note</b>  Specifying a location is uncommon.</div>
 <div> </div>
 
 ### -field pSecurityDescriptor
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the security information associated with the software device. If this member is <b>NULL</b>, the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/windows-kernel-mode-i-o-manager">I/O Manager</a> assigns the default security descriptor to the device.  If a custom security descriptor is needed, specify a self-relative security descriptor.
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the security information associated with the software device. If this member is <b>NULL</b>, the <a href="/windows-hardware/drivers/kernel/windows-kernel-mode-i-o-manager">I/O Manager</a> assigns the default security descriptor to the device.  If a custom security descriptor is needed, specify a self-relative security descriptor.
 
 ## -remarks
 
@@ -178,5 +178,4 @@ You can only specify this info at creation time, and you can't later call the So
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a>
-
+<a href="/windows/desktop/api/swdevice/nf-swdevice-swdevicecreate">SwDeviceCreate</a>

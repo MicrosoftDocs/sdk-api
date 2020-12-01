@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties the XAPO was created with.
+Returns a pointer to the <a href="/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties the XAPO was created with.
 
 ## -parameters
 
 ## -returns
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties the XAPO was created with.
+Pointer to the <a href="/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties the XAPO was created with.
 
 CXAPOBase
 
@@ -68,5 +68,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xapobase-cxapobase">CXAPOBase</a>
-
+<a href="/windows/desktop/api/xapobase/nl-xapobase-cxapobase">CXAPOBase</a>

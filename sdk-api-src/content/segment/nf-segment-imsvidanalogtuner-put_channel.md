@@ -64,13 +64,12 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtuner-put_channel">IAMTuner::put_Channel</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-put_channel">IAMTuner::put_Channel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidanalogtuner">IMSVidAnalogTuner Interface</a>
+<a href="/windows/desktop/api/segment/nn-segment-imsvidanalogtuner">IMSVidAnalogTuner Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-get_channel">IMSVidAnalogTuner::get_Channel</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidanalogtuner-get_channel">IMSVidAnalogTuner::get_Channel</a>

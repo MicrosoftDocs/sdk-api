@@ -84,7 +84,7 @@ If <i>lpAttributeList</i> is NULL, this parameter receives the required buffer s
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -94,19 +94,18 @@ First, call this function with the <i>dwAttributeCount</i> parameter set to the 
 <div> </div>
 Allocate enough space for the data in the <i>lpAttributeList</i> buffer and call the function again to initialize the buffer.
 
-To add attributes to the list, call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttribute</a> function. To specify these attributes when creating a process, specify EXTENDED_STARTUPINFO_PRESENT in the <i>dwCreationFlag</i> parameter and a <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> structure in the <i>lpStartupInfo</i> parameter. Note that you can specify the same <b>STARTUPINFOEX</b> structure to multiple child processes.
+To add attributes to the list, call the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttribute</a> function. To specify these attributes when creating a process, specify EXTENDED_STARTUPINFO_PRESENT in the <i>dwCreationFlag</i> parameter and a <a href="/windows/desktop/api/winbase/ns-winbase-startupinfoexa">STARTUPINFOEX</a> structure in the <i>lpStartupInfo</i> parameter. Note that you can specify the same <b>STARTUPINFOEX</b> structure to multiple child processes.
 
-When you have finished using the list, call the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a> function.
+When you have finished using the list, call the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-deleteprocthreadattributelist">DeleteProcThreadAttributeList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttribute</a>
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute">UpdateProcThreadAttribute</a>

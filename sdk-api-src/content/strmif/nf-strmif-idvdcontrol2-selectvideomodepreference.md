@@ -57,7 +57,7 @@ The <code>SelectVideoModePreference</code> method sets the specified video mode 
 
 ### -param ulPreferredDisplayMode [in]
 
-Value that specifies the new display mode for DVD content. Member of the [DVD_PREFERRED_DISPLAY_MODE](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_preferred_display_mode) enumeration.
+Value that specifies the new display mode for DVD content. Member of the [DVD_PREFERRED_DISPLAY_MODE](/windows/desktop/api/strmif/ne-strmif-dvd_preferred_display_mode) enumeration.
 
 ## -returns
 
@@ -152,13 +152,12 @@ The following table shows the Annex J command name to which this method name cor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>

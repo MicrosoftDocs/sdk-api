@@ -72,7 +72,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -81,7 +81,7 @@ This method is implemented by a service provider, and never called by an applica
 
 #### Examples
 
-The following method demonstrates a service provider's implementation of the <b>SACGetProtocols</b> method. It does this by calling <a href="/previous-versions/ms868517(v=msdn.10)">CSecureChannelServer::SACGetProtocols</a> on its private <a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer</a> member.
+The following method demonstrates a service provider's implementation of the <b>SACGetProtocols</b> method. It does this by calling <a href="/previous-versions/ms868517(v=msdn.10)">CSecureChannelServer::SACGetProtocols</a> on its private <a href="/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer</a> member.
 
 
 ```cpp
@@ -108,7 +108,7 @@ STDMETHODIMP CMyServiceProvider::SACGetProtocols(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-service-provider">Authenticating the Service Provider</a>
+<a href="/windows/desktop/WMDM/authenticating-the-service-provider">Authenticating the Service Provider</a>
 
 
 
@@ -116,5 +116,4 @@ STDMETHODIMP CMyServiceProvider::SACGetProtocols(
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate">IComponentAuthenticate Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate">IComponentAuthenticate Interface</a>

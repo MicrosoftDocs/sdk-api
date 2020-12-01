@@ -58,7 +58,7 @@ The
 ### -param ppAgent [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface.
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface.
 
 ## -returns
 
@@ -107,14 +107,13 @@ Insufficient memory exists to perform the operation.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface returned by <b>ITAgentEvent::get_Agent</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a> interface returned by <b>ITAgentEvent::get_Agent</b>. The application must call <b>Release</b> on the 
 <b>ITAgent</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentevent">ITAgentEvent</a>
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentevent">ITAgentEvent</a>

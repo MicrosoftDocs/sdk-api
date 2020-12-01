@@ -61,7 +61,7 @@ Sets information for the specified thread.
 
 ### -param hThread [in]
 
-A handle to the thread. The handle must have THREAD_SET_INFORMATION access right. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
+A handle to the thread. The handle must have THREAD_SET_INFORMATION access right. For more information, see  <a href="/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 ### -param ThreadInformationClass [in]
 
@@ -88,13 +88,13 @@ If the <i>ThreadInformationClass</i> parameter is <b>ThreadPowerThrottling</b>, 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 To help improve system performance, applications should use the <b>SetThreadInformation</b> function with <b>ThreadMemoryPriority</b> to lower the memory priority of threads that perform background operations or access files and data that are not expected to be accessed again soon. For example, an anti-malware application might lower the priority of threads involved in scanning files. 
 
-**Memory priority** helps to determine how long pages remain in the <a href="https://docs.microsoft.com/windows/desktop/Memory/working-set">working set</a> of a process before they are trimmed. A thread's memory priority determines the minimum priority of the physical pages that are added to the process working set by that thread. When the memory manager trims the working set, it trims lower priority pages before higher priority pages. This improves overall system performance because higher priority pages are less likely to be trimmed from the working set and then trigger a page fault when they are accessed again. 
+**Memory priority** helps to determine how long pages remain in the <a href="/windows/desktop/Memory/working-set">working set</a> of a process before they are trimmed. A thread's memory priority determines the minimum priority of the physical pages that are added to the process working set by that thread. When the memory manager trims the working set, it trims lower priority pages before higher priority pages. This improves overall system performance because higher priority pages are less likely to be trimmed from the working set and then trigger a page fault when they are accessed again. 
 
 **ProcessPowerThrottling** enables throttling policies on a thread, which can be used to balance out performance and power efficiency in cases where optimal performance is not required. When a thread opts in to throttling, the system will try to increase power efficiency through strategies such as capping CPU frequency or using more power efficient cores. Power throttling is typically used when the process is not contributing to the user experience, which provides longer battery life without obvious compromises to an application's performance. If an application doesn't explicitly handle power throttling, the system will use its own heuristics to automatically manage power throttling.
 
@@ -171,9 +171,8 @@ SetThreadInformation(GetCurrentThread(),
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadinformation">GetThreadInformation</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadinformation">GetThreadInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation">SetProcessInformation</a>
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation">SetProcessInformation</a>

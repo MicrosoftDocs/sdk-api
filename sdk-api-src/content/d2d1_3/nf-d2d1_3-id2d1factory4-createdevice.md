@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device3">ID2D1Device3</a> object.
+Creates an <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device3">ID2D1Device3</a> object.
 
 ## -parameters
 
 ### -param dxgiDevice [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a>*</b>
+Type: <b><a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a>*</b>
 
-The IDXGIDevice object used when creating the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device3">ID2D1Device3</a>.
+The IDXGIDevice object used when creating the <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device3">ID2D1Device3</a>.
 
 ### -param d2dDevice3 [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device3">ID2D1Device3</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device3">ID2D1Device3</a>**</b>
 
-The requested <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device3">ID2D1Device3</a> object.
+The requested <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device3">ID2D1Device3</a> object.
 
 ## -returns
 
@@ -74,5 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1factory4">ID2D1Factory4</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1factory4">ID2D1Factory4</a>

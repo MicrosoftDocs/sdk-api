@@ -64,5 +64,4 @@ An array of six null-terminated Unicode strings that represent the postal addres
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-
+<a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>

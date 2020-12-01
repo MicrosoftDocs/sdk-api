@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</b> structure contains information about the PVK file that contains the certificates used by the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function.
+The <b>CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</b> structure contains information about the PVK file that contains the certificates used by the <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function.
 
 ## -struct-fields
 
@@ -105,9 +105,8 @@ A pointer to a <a href="/windows/win32/api/cryptuiapi/ns-cryptuiapi-cryptui_wiz_
 
 ### -field pPvkProvInfo
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure that contains information about the PVK provider that contains the certificates. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_PROV</b> is specified for the <b>dwPvkChoice</b> member.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure that contains information about the PVK provider that contains the certificates. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK_PROV</b> is specified for the <b>dwPvkChoice</b> member.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>
-
+<a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>

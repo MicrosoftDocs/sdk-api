@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRL_DIST_POINTS_INFO</b> structure contains a list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution points a certificate user can reference to determine whether the certificate has been revoked.
+The <b>CRL_DIST_POINTS_INFO</b> structure contains a list of <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution points a certificate user can reference to determine whether the certificate has been revoked.
 
 ## -struct-fields
 
@@ -65,9 +65,8 @@ Number of elements in the <b>rgDistPoint</b> member array.
 ### -field rgDistPoint
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_dist_point">CRL_DIST_POINT</a> structures.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_dist_point">CRL_DIST_POINT</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_dist_point">CRL_DIST_POINT</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_dist_point">CRL_DIST_POINT</a>

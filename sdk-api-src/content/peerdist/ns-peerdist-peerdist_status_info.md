@@ -64,7 +64,7 @@ Size, in bytes, of the <b>PEERDIST_STATUS_INFO</b> structure.
 
 ### -field status
 
-Specifies the current status of the BranchCache service. This member should be one of following values defined in the <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ne-peerdist-peerdist_status">PEERDIST_STATUS</a> enumeration.
+Specifies the current status of the BranchCache service. This member should be one of following values defined in the <a href="/windows/desktop/api/peerdist/ne-peerdist-peerdist_status">PEERDIST_STATUS</a> enumeration.
 
 ### -field dwMinVer
 
@@ -134,9 +134,8 @@ Windows 8 content information format.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/ne-peerdist-peerdist_status">PEERDIST_STATUS</a>
+<a href="/windows/desktop/api/peerdist/ne-peerdist-peerdist_status">PEERDIST_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistgetstatusex">PeerDistGetStatusEx</a>
-
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistgetstatusex">PeerDistGetStatusEx</a>

@@ -56,11 +56,11 @@ Gets the value of a session option.
 
 ### -param session [in]
 
-Specifies the session handle returned by a  <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancreatesession">WSManCreateSession</a> call.  This parameter cannot be <b>NULL</b>.
+Specifies the session handle returned by a  <a href="/windows/desktop/api/wsman/nf-wsman-wsmancreatesession">WSManCreateSession</a> call.  This parameter cannot be <b>NULL</b>.
 
 ### -param option
 
-Specifies the option to get. Not all session options can be retrieved. The values for the options are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ne-wsman-wsmansessionoption">WSManSessionOption</a> enumeration.
+Specifies the option to get. Not all session options can be retrieved. The values for the options are defined in the <a href="/windows/desktop/api/wsman/ne-wsman-wsmansessionoption">WSManSessionOption</a> enumeration.
 
 ### -param stringLength
 
@@ -77,4 +77,3 @@ Specifies the length of the string returned in the <i>string</i> parameter.
 ## -returns
 
 This method returns zero on success. Otherwise, this method returns an error code.
-

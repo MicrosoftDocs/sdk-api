@@ -63,7 +63,7 @@ Stores a value in the calling thread's thread local storage (TLS) slot for the s
 
 ### -param dwTlsIndex [in]
 
-The TLS index that was allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a> 
+The TLS index that was allocated by the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a> 
       function.
 
 ### -param lpTlsValue [in, optional]
@@ -75,49 +75,48 @@ The value to be stored in the calling thread's TLS slot for the index.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-<b>Windows Phone 8.1:</b> This function is supported for Windows Phone Store apps on Windows Phone 8.1 and later. When a Windows Phone Store app calls this function, it is replaced with an inline call to <b>FlsSetValue</b>. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue">FlsSetValue</a> for function documentation.
+<b>Windows Phone 8.1:</b> This function is supported for Windows Phone Store apps on Windows Phone 8.1 and later. When a Windows Phone Store app calls this function, it is replaced with an inline call to <b>FlsSetValue</b>. Refer to <a href="/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue">FlsSetValue</a> for function documentation.
 
-<b>Windows 8.1</b>, <b>Windows Server 2012 R2</b>, and <b>Windows 10, version 1507</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and Windows 10, version 1507. When a Windows Store app calls this function, it is replaced with an inline call to <b>FlsSetValue</b>. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue">FlsSetValue</a> for function documentation.
+<b>Windows 8.1</b>, <b>Windows Server 2012 R2</b>, and <b>Windows 10, version 1507</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and Windows 10, version 1507. When a Windows Store app calls this function, it is replaced with an inline call to <b>FlsSetValue</b>. Refer to <a href="/windows/desktop/api/fibersapi/nf-fibersapi-flssetvalue">FlsSetValue</a> for function documentation.
 
 <b>Windows 10, version 1511</b> and <b>Windows 10, version 1607</b>: This function is fully supported for Universal Windows Platform (UWP) apps, and is no longer replaced with an inline call to <b>FlsSetValue</b>.
 
 TLS indexes are typically allocated by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a> function during process or DLL initialization. When a TLS index is allocated, its storage slots are initialized to NULL. After a TLS index is allocated, each thread of the process can use it to access its own TLS slot for that index. A thread specifies a TLS index in a call to 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a> function during process or DLL initialization. When a TLS index is allocated, its storage slots are initialized to NULL. After a TLS index is allocated, each thread of the process can use it to access its own TLS slot for that index. A thread specifies a TLS index in a call to 
 <b>TlsSetValue</b>, to store a value in its slot. The thread specifies the same index in a subsequent call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue">TlsGetValue</a>, to retrieve the stored value.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue">TlsGetValue</a>, to retrieve the stored value.
 
-<b>TlsSetValue</b> was implemented with speed as the primary goal. The function performs minimal parameter validation and error checking. In particular, it succeeds if <i>dwTlsIndex</i> is in the range 0 through (<b>TLS_MINIMUM_AVAILABLE </b>– 1). It is up to the programmer to ensure that the index is valid before calling <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue">TlsGetValue</a>.
+<b>TlsSetValue</b> was implemented with speed as the primary goal. The function performs minimal parameter validation and error checking. In particular, it succeeds if <i>dwTlsIndex</i> is in the range 0 through (<b>TLS_MINIMUM_AVAILABLE </b>– 1). It is up to the programmer to ensure that the index is valid before calling <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue">TlsGetValue</a>.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/using-thread-local-storage">Using Thread Local Storage</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/using-thread-local-storage-in-a-dynamic-link-library">Using Thread Local Storage in a Dynamic-Link Library</a>.
+<a href="/windows/desktop/ProcThread/using-thread-local-storage">Using Thread Local Storage</a> or 
+<a href="/windows/desktop/Dlls/using-thread-local-storage-in-a-dynamic-link-library">Using Thread Local Storage in a Dynamic-Link Library</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-local-storage">Thread Local Storage</a>
+<a href="/windows/desktop/ProcThread/thread-local-storage">Thread Local Storage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsalloc">TlsAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsfree">TlsFree</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsfree">TlsFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue">TlsGetValue</a>
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue">TlsGetValue</a>

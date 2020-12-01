@@ -56,9 +56,9 @@ Retrieves information about which capabilities are supported for a raw image.
 
 ### -param pInfo [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrawcapabilitiesinfo">WICRawCapabilitiesInfo</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/ns-wincodec-wicrawcapabilitiesinfo">WICRawCapabilitiesInfo</a>*</b>
 
-A pointer that receives <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrawcapabilitiesinfo">WICRawCapabilitiesInfo</a> that provides the capabilities supported by the raw image.
+A pointer that receives <a href="/windows/desktop/api/wincodec/ns-wincodec-wicrawcapabilitiesinfo">WICRawCapabilitiesInfo</a> that provides the capabilities supported by the raw image.
 
 ## -returns
 
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 It is recommended that a codec report that a capability is supported even if the results at the outer range limits are not of perfect quality.
-

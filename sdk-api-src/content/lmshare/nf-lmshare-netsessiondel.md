@@ -61,7 +61,7 @@ Pointer to a string that specifies the DNS or NetBIOS name of the remote server 
 ### -param UncClientName [in]
 
 Pointer to a string that specifies the computer name of the client to disconnect. If the <i>UncClientName</i> parameter is <b>NULL</b>, then all the sessions of the user identified by the <i>username</i> parameter will be deleted on the server specified by the <i>servername</i> parameter. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessionenum">NetSessionEnum</a>.
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsessionenum">NetSessionEnum</a>.
 
 ### -param username [in]
 
@@ -130,8 +130,8 @@ Only members of the Administrators or Server Operators local group can successfu
 <b>NetSessionDel</b> function.
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management session functions. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>.
+<a href="/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a> and 
+<a href="/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>.
 
 
 #### Examples
@@ -194,24 +194,23 @@ int wmain(int argc, wchar_t *argv[])
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessionenum">NetSessionEnum</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsessionenum">NetSessionEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsessiongetinfo">NetSessionGetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsessiongetinfo">NetSessionGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/session-functions">Session
+<a href="/windows/desktop/NetShare/session-functions">Session
 		  Functions</a>
-

@@ -66,7 +66,7 @@ api_name:
 
 The <b>KeySpec</b> property sets or retrieves the  type of key generated.
 
- Valid values are determined by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) in use. This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+ Valid values are determined by the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) in use. This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 This property is read/write.
 
@@ -74,10 +74,10 @@ This property is read/write.
 
 ## -remarks
 
-For the Microsoft Base Cryptographic Provider, the <b>KeySpec</b> property has a value of AT_KEYEXCHANGE for <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange keys</a>, or AT_SIGNATURE for signature keys. The default is AT_SIGNATURE.
+For the Microsoft Base Cryptographic Provider, the <b>KeySpec</b> property has a value of AT_KEYEXCHANGE for <a href="/windows/desktop/SecGloss/e-gly">exchange keys</a>, or AT_SIGNATURE for signature keys. The default is AT_SIGNATURE.
 
 For information about the other Microsoft CSPs, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptographic-service-providers">Cryptographic Service Providers</a> in the CryptoAPI 2.0 documentation.
+<a href="/windows/desktop/SecCrypto/cryptographic-service-providers">Cryptographic Service Providers</a> in the CryptoAPI 2.0 documentation.
 
 For information about other CSPs, see the documentation provided with the CSP.
 
@@ -86,10 +86,10 @@ The <b>KeySpec</b> property affects the behavior of the following methods:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createfilepkcs10">createFilePKCS10</a>
 </li>
 </ul>
 
@@ -118,4 +118,3 @@ if (FAILED( hr ))
 else
     printf( "KeySpec set to %d\n", AT_KEYEXCHANGE );
 ```
-

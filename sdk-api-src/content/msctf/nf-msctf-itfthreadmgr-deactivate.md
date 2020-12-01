@@ -81,7 +81,7 @@ The method was successful.
 </dl>
 </td>
 <td width="60%">
-This method was called while the thread was activating or this call had no corresponding <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate</a> call.
+This method was called while the thread was activating or this call had no corresponding <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate</a> call.
 
 </td>
 </tr>
@@ -93,10 +93,9 @@ Each call to this method must be matched with a previous call to <b>ITfThreadMgr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-activate">ITfThreadMgr::Activate
       </a>
-

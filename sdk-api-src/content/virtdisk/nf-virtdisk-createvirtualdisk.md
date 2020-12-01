@@ -66,7 +66,7 @@ A pointer to a valid string that represents the path to the new virtual disk ima
 
 ### -param VirtualDiskAccessMask [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask">VIRTUAL_DISK_ACCESS_MASK</a> value to use 
+The <a href="/windows/desktop/api/vdssys/ne-vdssys-_virtual_disk_access_mask">VIRTUAL_DISK_ACCESS_MASK</a> value to use 
      when opening the newly created virtual disk file. If the <b>Version</b> member of the 
      <i>Parameters</i> parameter is set to 
      <b>CREATE_VIRTUAL_DISK_VERSION_2</b> then only the 
@@ -75,7 +75,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdssys/ne-vdssys-_vi
 ### -param SecurityDescriptor [in, optional]
 
 An optional pointer to a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> to apply to the virtual 
+     <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> to apply to the virtual 
      disk image file. If this parameter is <b>NULL</b>, the parent directory's security descriptor 
      will be used.
 
@@ -96,8 +96,8 @@ A pointer to a valid
 
 ### -param Overlapped [in, optional]
 
-An optional pointer to a valid <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure 
-     if <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> operation 
+An optional pointer to a valid <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure 
+     if <a href="/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">asynchronous</a> operation 
      is desired.
 
 ### -param Handle [out]
@@ -111,7 +111,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b> and the
 
 If the function fails, the return value is an error code and the value of the <i>Handle</i> 
       parameter is undefined. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+      <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -172,7 +172,7 @@ The <b>CreateVirtualDisk</b> function can also be used
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
@@ -180,5 +180,4 @@ The <b>CreateVirtualDisk</b> function can also be used
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

@@ -52,10 +52,10 @@ api_name:
 
 The 
 <b>GetStaticTerminals</b> method is called by our wrapper methods (
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_staticterminals">get_StaticTerminals</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratestaticterminals">EnumerateStaticTerminals</a>) to get an array of static terminals that can be used on this address. This method updates the address' internal list of terminals by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nf-mspaddr-cmspaddress-updateterminallist">UpdateTerminalList</a> if the list is not up to date. If the <i>ppTerminals</i> parameter is <b>NULL</b> or the *<i>pdwNumTerminals</i> parameter is not large enough to hold all the terminal pointers, this method simply returns (as *<i>pdwNumTerminals</i>) the number of terminals available. If <i>ppTerminals</i> is non-<b>NULL</b> and *<i>pdwNumTerminals</i> is large enough, it <b>AddRefs</b> each terminal pointer and places the array of terminal pointers in *<i>ppTerminals</i>, setting *<i>pdwNumTerminals</i> to the number of terminal pointers returned. If the derived MSP wants to change the set of terminals returned, it will probably override 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nf-mspaddr-cmspaddress-updateterminallist">UpdateTerminalList</a> rather than overriding this method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-get_staticterminals">get_StaticTerminals</a> and 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-enumeratestaticterminals">EnumerateStaticTerminals</a>) to get an array of static terminals that can be used on this address. This method updates the address' internal list of terminals by calling 
+<a href="/windows/desktop/api/mspaddr/nf-mspaddr-cmspaddress-updateterminallist">UpdateTerminalList</a> if the list is not up to date. If the <i>ppTerminals</i> parameter is <b>NULL</b> or the *<i>pdwNumTerminals</i> parameter is not large enough to hold all the terminal pointers, this method simply returns (as *<i>pdwNumTerminals</i>) the number of terminals available. If <i>ppTerminals</i> is non-<b>NULL</b> and *<i>pdwNumTerminals</i> is large enough, it <b>AddRefs</b> each terminal pointer and places the array of terminal pointers in *<i>ppTerminals</i>, setting *<i>pdwNumTerminals</i> to the number of terminal pointers returned. If the derived MSP wants to change the set of terminals returned, it will probably override 
+<a href="/windows/desktop/api/mspaddr/nf-mspaddr-cmspaddress-updateterminallist">UpdateTerminalList</a> rather than overriding this method.
 
 ## -parameters
 
@@ -66,9 +66,8 @@ Pointer to number of static terminals.
 ### -param ppTerminals [out]
 
 Pointer to array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interfaces.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interfaces.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>
-
+<a href="/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>

@@ -43,6 +43,7 @@ api_location:
  - Ole32.dll
 api_name:
  - CoDosDateTimeToFileTime
+req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)
 ---
 
 # CoDosDateTimeToFileTime function
@@ -50,7 +51,7 @@ api_name:
 
 ## -description
 
-Converts the MS-DOS representation of the time and date to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure used by Windows.
+Converts the MS-DOS representation of the time and date to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure used by Windows.
 <div class="alert"><b>Note</b>  This function is provided for compatibility with 16-bit Windows.</div><div> </div>
 
 ## -parameters
@@ -65,7 +66,7 @@ The MS-DOS time.
 
 ### -param lpFileTime [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
+A pointer to the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 ## -returns
 
@@ -123,9 +124,8 @@ An MS-DOS time has the following format.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cofiletimenow">CoFileTimeNow</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cofiletimenow">CoFileTimeNow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cofiletimetodosdatetime">CoFileTimeToDosDateTime</a>
-
+<a href="/windows/desktop/api/objbase/nf-objbase-cofiletimetodosdatetime">CoFileTimeToDosDateTime</a>

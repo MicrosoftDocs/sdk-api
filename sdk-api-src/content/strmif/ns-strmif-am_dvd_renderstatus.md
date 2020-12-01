@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The AM_DVD_RENDERSTATUS structure contains codes indicating the status of DVD-Video playback. These codes are used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">IDvdGraphBuilder::RenderDvdVideoVolume</a> method.
+The AM_DVD_RENDERSTATUS structure contains codes indicating the status of DVD-Video playback. These codes are used in the <a href="/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">IDvdGraphBuilder::RenderDvdVideoVolume</a> method.
 
 ## -struct-fields
 
@@ -86,13 +86,12 @@ Number of streams that failed to render.
 
 ### -field dwFailedStreamsFlag
 
-Combination of [AM_DVD_STREAM_FLAGS](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-am_dvd_stream_flags) flags indicating which streams failed.
+Combination of [AM_DVD_STREAM_FLAGS](/windows/desktop/api/strmif/ne-strmif-am_dvd_stream_flags) flags indicating which streams failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">IDvdGraphBuilder::RenderDvdVideoVolume</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">IDvdGraphBuilder::RenderDvdVideoVolume</a>

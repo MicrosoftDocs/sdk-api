@@ -58,11 +58,11 @@ Initializes the Function Discovery provider object.  This method is intended to 
 
 ### -param pIFunctionDiscoveryProviderFactory [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderfactory">IFunctionDiscoveryProviderFactory</a> interface. The provider should use this interface to create new Function Discovery objects.
+A pointer to the <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderfactory">IFunctionDiscoveryProviderFactory</a> interface. The provider should use this interface to create new Function Discovery objects.
 
 ### -param pIFunctionDiscoveryNotification [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface. The provider should use this interface to send <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onupdate">OnUpdate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onevent">OnEvent</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">OnError</a> notifications to the Function Discovery notification queue. Queued notifications are sent to client programs by Function Discovery.
+A pointer to an <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface. The provider should use this interface to send <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onupdate">OnUpdate</a>, <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onevent">OnEvent</a>, and <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onerror">OnError</a> notifications to the Function Discovery notification queue. Queued notifications are sent to client programs by Function Discovery.
 
 ### -param lcidUserDefault [in]
 
@@ -72,7 +72,7 @@ The locale identifier of the caller. The provider should use <i>lcidUserDefault<
 
 Specifies the least restrictive possible access mode of the  property stores associated with the function instances created by this provider.  
 
-If the DWORD value is set to -1, <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryprovider-instancepropertystorevalidateaccess">InstancePropertyStoreValidateAccess</a> will be called every time <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore">OpenPropertyStore</a> is called on a function instance created by this provider.  Otherwise, the value specified by this parameter determines the least restrictive possible access mode for all property stores associated with all function insteances created by this provider. A more restrictive access mode will be applied to an individual property store if a client calls <b>OpenPropertyStore</b> with the <i>dwStgAccess</i> parameter set to a value that is more restrictive than the specified  <i>pdwStgAccessCapabilities</i> value.
+If the DWORD value is set to -1, <a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryprovider-instancepropertystorevalidateaccess">InstancePropertyStoreValidateAccess</a> will be called every time <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore">OpenPropertyStore</a> is called on a function instance created by this provider.  Otherwise, the value specified by this parameter determines the least restrictive possible access mode for all property stores associated with all function insteances created by this provider. A more restrictive access mode will be applied to an individual property store if a client calls <b>OpenPropertyStore</b> with the <i>dwStgAccess</i> parameter set to a value that is more restrictive than the specified  <i>pdwStgAccessCapabilities</i> value.
 
 For efficiency, specify a <i>pdwStgAccessCapabilities</i>  value whenever possible.
 
@@ -135,5 +135,4 @@ If your provider is going to create Function Discovery objects, queue notificati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
-
+<a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>

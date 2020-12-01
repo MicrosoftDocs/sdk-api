@@ -57,11 +57,11 @@ Specifies how user credentials are stored.
 
 ### -param pCred [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a> interface. Obtain this pointer by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfnetcredentialcache-getcredential">IMFNetCredentialCache::GetCredential</a>.
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a> interface. Obtain this pointer by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfnetcredentialcache-getcredential">IMFNetCredentialCache::GetCredential</a>.
 
 ### -param dwOptionsFlags [in]
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfnetcredentialoptions">MFNetCredentialOptions</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfnetcredentialoptions">MFNetCredentialOptions</a> enumeration.
 
 ## -returns
 
@@ -91,5 +91,4 @@ If no flags are specified, the credentials are cached in memory. This method can
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialcache">IMFNetCredentialCache</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialcache">IMFNetCredentialCache</a>

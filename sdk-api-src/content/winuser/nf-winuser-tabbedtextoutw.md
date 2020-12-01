@@ -52,6 +52,7 @@ api_name:
  - TabbedTextOut
  - TabbedTextOutA
  - TabbedTextOutW
+req.apiset: ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # TabbedTextOutW function
@@ -81,7 +82,7 @@ A pointer to the character string to draw. The string does not need to be zero-t
 
 ### -param chCount [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpString</i>.
+The <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpString</i>.
 
 ### -param nTabPositions [in]
 
@@ -111,7 +112,7 @@ If the <i>lpnTabStopPositions</i> array contains more than one value, a tab stop
 
 The <i>nTabOrigin</i> parameter allows an application to call the <b>TabbedTextOut</b> function several times for a single line. If the application calls <b>TabbedTextOut</b> more than once with the <i>nTabOrigin</i> set to the same value each time, the function expands all tabs relative to the position specified by <i>nTabOrigin</i>.
 
-By default, the current position is not used or updated by the <b>TabbedTextOut</b> function. If an application needs to update the current position when it calls <b>TabbedTextOut</b>, the application can call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> function with the <i>wFlags</i> parameter set to TA_UPDATECP. When this flag is set, the system ignores the <i>X</i> and <i>Y</i> parameters on subsequent calls to the <b>TabbedTextOut</b> function, using the current position instead.
+By default, the current position is not used or updated by the <b>TabbedTextOut</b> function. If an application needs to update the current position when it calls <b>TabbedTextOut</b>, the application can call the <a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a> function with the <i>wFlags</i> parameter set to TA_UPDATECP. When this flag is set, the system ignores the <i>X</i> and <i>Y</i> parameters on subsequent calls to the <b>TabbedTextOut</b> function, using the current position instead.
 
 <div class="alert"><b>Note</b>  For Windows Vista and later, <b>TabbedTextOut</b> ignores text alignment when it draws text. </div>
 <div> </div>
@@ -124,41 +125,40 @@ By default, the current position is not used or updated by the <b>TabbedTextOut<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-gettabbedtextextenta">GetTabbedTextExtent</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-gettabbedtextextenta">GetTabbedTextExtent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setbkcolor">SetBkColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-settextcolor">SetTextColor</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-settextcolor">SetTextColor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>

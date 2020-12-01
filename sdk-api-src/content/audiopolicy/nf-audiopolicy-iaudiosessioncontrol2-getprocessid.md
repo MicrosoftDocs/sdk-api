@@ -115,5 +115,4 @@ This method overwrites the value that was passed by the application in <i>pRetVa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2">IAudioSessionControl2</a>
-
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2">IAudioSessionControl2</a>

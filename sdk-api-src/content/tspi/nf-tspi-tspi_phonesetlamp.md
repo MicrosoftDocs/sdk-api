@@ -70,28 +70,27 @@ The button whose lamp is to be set.
 ### -param dwLampMode
 
 Specifies how the lamp is to be lit. The <i>dwLampMode</i> parameter can only have one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonelampmode--constants">PHONELAMPMODE_ constants</a>.
+<a href="/windows/desktop/Tapi/phonelampmode--constants">PHONELAMPMODE_ constants</a>.
 
 ## -returns
 
 Returns <i>dwRequestID</i>, or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or it is an error number if an error occurs. Possible return values are as follows:
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or it is an error number if an error occurs. Possible return values are as follows:
 
 PHONEERR_INVALPHONEHANDLE, PHONEERR_NOMEM, PHONEERR_INVALBUTTONLAMPID, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INVALPHONESTATE, PHONEERR_OPERATIONFAILED, PHONEERR_INVALLAMPMODE, PHONEERR_OPERATIONUNAVAIL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonelampmode--constants">PHONELAMPMODE_ Constants</a>
+<a href="/windows/desktop/Tapi/phonelampmode--constants">PHONELAMPMODE_ Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetlamp">TSPI_phoneGetLamp</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetlamp">TSPI_phoneGetLamp</a>

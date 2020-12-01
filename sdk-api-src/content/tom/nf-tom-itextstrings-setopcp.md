@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the character position in the source range's story that has desired character formatting attributes.  The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstrings-encodefunction">ITextStrings::EncodeFunction</a> method applies those character formatting attributes to the operators specified by the <i>Char</i>, <i>Char1</i>, and <i>Char2</i> parameters.
+Sets the character position in the source range's story that has desired character formatting attributes.  The <a href="/windows/desktop/api/tom/nf-tom-itextstrings-encodefunction">ITextStrings::EncodeFunction</a> method applies those character formatting attributes to the operators specified by the <i>Char</i>, <i>Char1</i>, and <i>Char2</i> parameters.
 
 ## -parameters
 
@@ -68,9 +68,9 @@ The character position in source range's story that has the desired character fo
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -92,5 +92,4 @@ Invalid argument.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
-
+<a href="/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>

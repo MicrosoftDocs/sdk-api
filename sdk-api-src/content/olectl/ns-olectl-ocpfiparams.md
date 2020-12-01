@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains parameters used to invoke a property sheet dialog box through the <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframeindirect">OleCreatePropertyFrameIndirect</a> function.
+Contains parameters used to invoke a property sheet dialog box through the <a href="/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframeindirect">OleCreatePropertyFrameIndirect</a> function.
 
 ## -struct-fields
 
@@ -76,7 +76,7 @@ Vertical position for the dialog box relative to <b>hWndOwner</b>, in pixels.
 
 ### -field lpszCaption
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/nf-wtypesbase-olestr">OLESTR</a> that contains the caption of the dialog.
+Pointer to an <a href="/windows/desktop/api/wtypesbase/nf-wtypesbase-olestr">OLESTR</a> that contains the caption of the dialog.
 
 ### -field cObjects
 
@@ -84,7 +84,7 @@ Number of object pointers passed in <b>lplpUnk</b>.
 
 ### -field lplpUnk
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers on the objects for which this property sheet is being invoked. The number of elements in the array is specified by <b>cObjects</b>. These pointers are passed to each property page through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-setobjects">IPropertyPage::SetObjects</a>.
+Array of <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers on the objects for which this property sheet is being invoked. The number of elements in the array is specified by <b>cObjects</b>. These pointers are passed to each property page through <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-setobjects">IPropertyPage::SetObjects</a>.
 
 ### -field cPages
 
@@ -96,7 +96,7 @@ Pointer to an array of size <b>cPages</b> containing the CLSIDs of each property
 
 ### -field lcid
 
-Locale identifier for the property sheet. This value will be returned through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypagesite-getlocaleid">IPropertyPageSite::GetLocaleID</a>.
+Locale identifier for the property sheet. This value will be returned through <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypagesite-getlocaleid">IPropertyPageSite::GetLocaleID</a>.
 
 ### -field dispidInitialProperty
 
@@ -104,17 +104,16 @@ Property that is highlighted when the dialog box is made visible.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-setobjects">IPropertyPage::SetObjects</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-setobjects">IPropertyPage::SetObjects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypagesite-getlocaleid">IPropertyPageSite::GetLocaleID</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypagesite-getlocaleid">IPropertyPageSite::GetLocaleID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/nf-wtypesbase-olestr">OLESTR</a>
+<a href="/windows/desktop/api/wtypesbase/nf-wtypesbase-olestr">OLESTR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframeindirect">OleCreatePropertyFrameIndirect</a>
-
+<a href="/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframeindirect">OleCreatePropertyFrameIndirect</a>

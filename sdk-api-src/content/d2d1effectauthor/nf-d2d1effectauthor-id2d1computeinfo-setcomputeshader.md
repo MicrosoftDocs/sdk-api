@@ -87,5 +87,4 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1computeinfo">ID2D1ComputeInfo</a>
-
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1computeinfo">ID2D1ComputeInfo</a>

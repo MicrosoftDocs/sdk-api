@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Displays a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
+Displays a <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
 
 ## -parameters
 
@@ -59,13 +59,13 @@ Displays a <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/win
 
 Type: <b>INT32</b>
 
-The absolute x-coordinate, in screen coordinates, for the upper-left corner of the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
+The absolute x-coordinate, in screen coordinates, for the upper-left corner of the <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
 
 ### -param y
 
 Type: <b>INT32</b>
 
-The absolute y-coordinate, in screen coordinates, for the upper-left corner of the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
+The absolute y-coordinate, in screen coordinates, for the upper-left corner of the <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
 
 ## -returns
 
@@ -75,17 +75,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The location of the <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a> is not based on the screen coordinates of the application window or the mouse pointer.
+The location of the <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a> is not based on the screen coordinates of the application window or the mouse pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-controls-contextpopup">Context Popup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-contextpopupsample">ContextPopup Sample</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-contextpopupsample">ContextPopup Sample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui">IUIContextualUI</a>
-
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicontextualui">IUIContextualUI</a>

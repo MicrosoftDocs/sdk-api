@@ -60,7 +60,7 @@ The <b>MSV1_0_PROFILE_BUFFER_TYPE</b> enumeration lists the kind of logon profil
 
 ### -field MsV1_0InteractiveProfile
 
-The profile describes an interactive <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>.
+The profile describes an interactive <a href="/windows/desktop/SecGloss/l-gly">logon session</a>.
 
 ### -field MsV1_0Lm20LogonProfile
 
@@ -68,5 +68,4 @@ The profile describes a network logon session.
 
 ### -field MsV1_0SmartCardProfile
 
-The profile describes a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> logon session.
-
+The profile describes a <a href="/windows/desktop/SecGloss/s-gly">smart card</a> logon session.

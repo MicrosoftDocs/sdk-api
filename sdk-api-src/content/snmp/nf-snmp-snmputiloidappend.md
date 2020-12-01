@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpUtilOidAppend</b> function appends the source object identifier to the destination object identifier. This function is an element of the SNMP Utility API.
@@ -60,7 +60,7 @@ The
 ### -param pOidDst [in, out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a> structure to receive the source structure.
+<a href="/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a> structure to receive the source structure.
 
 ### -param pOidSrc [in]
 
@@ -72,7 +72,7 @@ Pointer to an
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. This function does not generate Windows Sockets errors. The application should call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> may return the following error codes.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. <b>GetLastError</b> may return the following error codes.
 
 <table>
 <tr>
@@ -107,26 +107,25 @@ Indicates a memory allocation error
 
 The 
 <b>SnmpUtilOidAppend</b> function calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemrealloc">SnmpUtilMemReAlloc</a> function. The 
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputilmemrealloc">SnmpUtilMemReAlloc</a> function. The 
 <b>SnmpUtilMemReAlloc</b> function expands the buffer for the destination object identifier.
 
 Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloidfree">SnmpUtilOidFree</a> function to free memory that the 
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputiloidfree">SnmpUtilOidFree</a> function to free memory that the 
 <b>SnmpUtilOidAppend</b> function allocates for the destination.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
+<a href="/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputilmemrealloc">SnmpUtilMemReAlloc</a>
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputilmemrealloc">SnmpUtilMemReAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/nf-snmp-snmputiloidfree">SnmpUtilOidFree</a>
-
+<a href="/windows/desktop/api/snmp/nf-snmp-snmputiloidfree">SnmpUtilOidFree</a>

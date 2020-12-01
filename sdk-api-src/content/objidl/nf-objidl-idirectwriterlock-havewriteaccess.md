@@ -60,9 +60,8 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-releasewriteaccess">IDirectWriterLock::ReleaseWriteAccess</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-releasewriteaccess">IDirectWriterLock::ReleaseWriteAccess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>

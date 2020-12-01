@@ -60,7 +60,7 @@ Pointer to a byte stream that will be used to write the ASF stream.
 
 ### -param ppIMediaSink
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -86,13 +86,12 @@ The function succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasink">IMFMediaSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

@@ -58,14 +58,14 @@ api_name:
 ## -description
 
 Changes the size or the attributes of a specified local memory object. The size can increase or decrease.
-<div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.</div><div> </div>
 
 ## -parameters
 
 ### -param hMem [in]
 
 A handle to the local memory object to be reallocated. This handle is returned by either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
 <b>LocalReAlloc</b> function.
 
 ### -param uBytes [in]
@@ -126,7 +126,7 @@ Causes the additional memory contents to be initialized to zero if the memory ob
 
 If the function succeeds, the return value is a handle to the reallocated memory object.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -138,22 +138,21 @@ If
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
+<a href="/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
-

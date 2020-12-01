@@ -68,5 +68,4 @@ The cluster resource identifier of the data disk.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>

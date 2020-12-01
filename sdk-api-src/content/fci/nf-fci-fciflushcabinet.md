@@ -56,7 +56,7 @@ The <b>FCIFlushCabinet</b> function completes the current cabinet.
 
 ### -param hfci [in]
 
-A valid FCI context handle returned by the<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a> function.
+A valid FCI context handle returned by the<a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a> function.
 
 ### -param fGetNextCab [in]
 
@@ -64,21 +64,21 @@ Specifies whether the function pointed to by the supplied <i>GetNextCab</i> para
 
 ### -param pfnfcignc [in]
 
-Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcigetnextcabinet">FNFCIGETNEXTCABINET</a> macro.
+Pointer to an application-defined callback function to obtain specifications on the next cabinet to create. The function should be declared using the <a href="/windows/desktop/api/fci/nf-fci-fnfcigetnextcabinet">FNFCIGETNEXTCABINET</a> macro.
 
 ### -param pfnfcis [in]
 
-Pointer to an application-defined callback function to update the user. The function should be declared using the <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fnfcistatus">FNFCISTATUS</a> macro.
+Pointer to an application-defined callback function to update the user. The function should be declared using the <a href="/windows/desktop/api/fci/nf-fci-fnfcistatus">FNFCISTATUS</a> macro.
 
 ## -returns
 
 If the function succeeds, it returns <b>TRUE</b>; otherwise, <b>FALSE</b>.
 
-Extended error information is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
+Extended error information is provided in the <a href="/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
 
 ## -remarks
 
-The <b>FCIFlushCabinet</b> API forces the current cabinet under construction to be completed immediately and then written to disk. Further calls to <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fciaddfile">FCIAddFile</a> will result in files being added to another cabinet.
+The <b>FCIFlushCabinet</b> API forces the current cabinet under construction to be completed immediately and then written to disk. Further calls to <a href="/windows/desktop/api/fci/nf-fci-fciaddfile">FCIAddFile</a> will result in files being added to another cabinet.
 
  In the event the current cabinet has reached the application-specified media size limit, the pending data within an FCI's internal buffers will be placed into another cabinet.
 
@@ -86,5 +86,4 @@ The <i>fGetNextCab</i> flag determines whether the function pointed to by the <i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fciflushfolder">FCIFlushFolder</a>
-
+<a href="/windows/desktop/api/fci/nf-fci-fciflushfolder">FCIFlushFolder</a>

@@ -289,37 +289,36 @@ Specifies a list of equal-cost next hops.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_nexthop_list">RTM_NEXTHOP_LIST</a>
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_nexthop_list">RTM_NEXTHOP_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_pref_info">RTM_PREF_INFO</a>
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_pref_info">RTM_PREF_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmaddroutetodest">RtmAddRouteToDest</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmaddroutetodest">RtmAddRouteToDest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreaterouteenum">RtmCreateRouteEnum</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmcreaterouteenum">RtmCreateRouteEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetexactmatchroute">RtmGetExactMatchRoute</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetexactmatchroute">RtmGetExactMatchRoute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetrouteinfo">RtmGetRouteInfo</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetrouteinfo">RtmGetRouteInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetroutepointer">RtmGetRoutePointer</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetroutepointer">RtmGetRoutePointer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmlockroute">RtmLockRoute</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmlockroute">RtmLockRoute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaserouteinfo">RtmReleaseRouteInfo</a>
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaserouteinfo">RtmReleaseRouteInfo</a>

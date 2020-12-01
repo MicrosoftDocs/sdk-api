@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Determines how a stroke is removed from an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+Determines how a stroke is removed from an <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 ## -enum-fields
 
 ### -field IEF_CopyFromOriginal
 
-The ink is copied from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+The ink is copied from the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 ### -field IEF_RemoveFromOriginal
 
-The ink is cut from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+The ink is cut from the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 ### -field IEF_Default
 
-The ink is cut from the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+The ink is cut from the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 ## -remarks
 
@@ -72,9 +72,8 @@ This enumeration is a flag.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractstrokes">ExtractStrokes Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractstrokes">ExtractStrokes Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractwithrectangle">ExtractWithRectangle Method</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-extractwithrectangle">ExtractWithRectangle Method</a>

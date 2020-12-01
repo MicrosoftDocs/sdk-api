@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>LegacyCsp</b> property specifies  or retrieves a Boolean value that indicates whether the provider is a CryptoAPI (legacy) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). This property is web enabled for both input and output.
+The <b>LegacyCsp</b> property specifies  or retrieves a Boolean value that indicates whether the provider is a CryptoAPI (legacy) <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP). This property is web enabled for both input and output.
 
 This property is read/write.
 
@@ -64,29 +64,28 @@ Setting this property automatically sets the following properties to be consiste
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyspec">KeySpec</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyspec">KeySpec</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providertype">ProviderType</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providertype">ProviderType</a>
 </li>
 </ul>
 These properties are set in the following manner:
 
 <ul>
 <li>If the <b>LegacyCsp</b> property is set to <b>VARIANT_FALSE</b>:<ul>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providertype">ProviderType</a> is set to <b>XCN_PROV_NONE</b>.</li>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyspec">KeySpec</a> property is set to <b>XCN_AT_NONE</b>.</li>
+<li>The <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providertype">ProviderType</a> is set to <b>XCN_PROV_NONE</b>.</li>
+<li>The <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyspec">KeySpec</a> property is set to <b>XCN_AT_NONE</b>.</li>
 </ul>
 </li>
 <li>If the <b>LegacyCsp</b> property is set to <b>VARIANT_TRUE</b>:<ul>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providertype">ProviderType</a> is set to <b>XCN_PROV_RSA_FULL</b> if the current value is <b>XCN_PROV_NONE</b>.</li>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyspec">KeySpec</a> property is set to <b>XCN_AT_SIGNATURE</b> if the current property is <b>XCN_AT_NONE</b>.</li>
+<li>The <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providertype">ProviderType</a> is set to <b>XCN_PROV_RSA_FULL</b> if the current value is <b>XCN_PROV_NONE</b>.</li>
+<li>The <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyspec">KeySpec</a> property is set to <b>XCN_AT_SIGNATURE</b> if the current property is <b>XCN_AT_NONE</b>.</li>
 </ul>
 </li>
 </ul>
-Because  a previously specified <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providername">ProviderName</a> is not affected by setting the <b>LegacyCsp</b> property, setting a <b>LegacyCsp</b> that is inconsistent with the <b>ProviderName</b> property will result in undefined behavior, likely a failure when creating or opening a private key.
+Because  a previously specified <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_providername">ProviderName</a> is not affected by setting the <b>LegacyCsp</b> property, setting a <b>LegacyCsp</b> that is inconsistent with the <b>ProviderName</b> property will result in undefined behavior, likely a failure when creating or opening a private key.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

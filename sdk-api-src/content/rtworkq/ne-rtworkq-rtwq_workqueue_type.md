@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of work queue for the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function to create.
+Specifies the type of work queue for the <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function to create.
 
 ## -enum-fields
 
@@ -65,4 +65,3 @@ Create a work queue with a message loop.
 ### -field RTWQ_MULTITHREADED_WORKQUEUE
 
 Create a multithreaded work queue. This type of work queue uses a thread pool to dispatch work items. The caller is responsible for serializing the work items.
-

@@ -56,7 +56,7 @@ Returns an image handle from a completed transfer handle.  The handle is to the 
 
 ### -param hTransfer
 
-A WDS transfer handle that has completed the transfer. This can be the handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> functions.
+A WDS transfer handle that has completed the transfer. This can be the handle returned by the <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> functions.
 
 ### -param phImageHandle [out]
 
@@ -70,5 +70,4 @@ If the function succeeds, the return is <b>S_OK</b>.
 
 If the transfer is not yet complete when this function is called, it will return an error code.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliclose">WdsCliClose</a> function to close the image handle returned by this function.
-
+Use the <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliclose">WdsCliClose</a> function to close the image handle returned by this function.

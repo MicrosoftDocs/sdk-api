@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Contains information that defines a split button (<a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_SPLITBUTTON</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_DEFSPLITBUTTON</a> styles). Used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-getsplitinfo">BCM_GETSPLITINFO</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-setsplitinfo">BCM_SETSPLITINFO</a> messages.
+Contains information that defines a split button (<a href="/windows/desktop/Controls/button-styles">BS_SPLITBUTTON</a> and <a href="/windows/desktop/Controls/button-styles">BS_DEFSPLITBUTTON</a> styles). Used with the <a href="/windows/desktop/Controls/bcm-getsplitinfo">BCM_GETSPLITINFO</a> and <a href="/windows/desktop/Controls/bcm-setsplitinfo">BCM_SETSPLITINFO</a> messages.
 
 ## -struct-fields
 
 ### -field mask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A set of flags that specify which members of this structure contain data to be set or which members are being requested. Set this member to one or more of the following flags.
 
@@ -119,7 +119,7 @@ A handle to the image list. The provider retains ownership of the image list and
 
 ### -field uSplitStyle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The split button style. Value must be one or more of the following flags.
 
@@ -172,9 +172,9 @@ Stretch glyph, but try to retain aspect ratio.
 
 ### -field size
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
+Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that specifies the size of the glyph in <b>himlGlyph</b>.
+A <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that specifies the size of the glyph in <b>himlGlyph</b>.
 
 ## -remarks
 
@@ -182,5 +182,4 @@ The glyph is the image that appears on the part of the button that activates the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/buttons">Buttons Overview</a>
-
+<a href="/windows/desktop/Controls/buttons">Buttons Overview</a>

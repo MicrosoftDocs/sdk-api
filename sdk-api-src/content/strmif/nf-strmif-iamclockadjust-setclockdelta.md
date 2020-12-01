@@ -57,7 +57,7 @@ The <code>SetClockDelta</code> method adjusts the clock time.
 
 ### -param rtDelta [in]
 
-Specifies the amount by which to adjust the clock, as a <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> value. A positive value moves the clock forward, and a negative value moves the clock backward.
+Specifies the amount by which to adjust the clock, as a <a href="/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> value. A positive value moves the clock forward, and a negative value moves the clock backward.
 
 ## -returns
 
@@ -65,13 +65,12 @@ Returns S_OK or an <b>HRESULT</b> error code.
 
 ## -remarks
 
-The time values returned by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ireferenceclock-gettime">IReferenceClock::GetTime</a> are monotonically increasing. If you set the clock back, <b>GetTime</b> continues to report the old time until the internal clock catches up.
+The time values returned by <a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclock-gettime">IReferenceClock::GetTime</a> are monotonically increasing. If you set the clock back, <b>GetTime</b> continues to report the old time until the internal clock catches up.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamclockadjust">IAMClockAdjust Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamclockadjust">IAMClockAdjust Interface</a>

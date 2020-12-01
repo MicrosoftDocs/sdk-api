@@ -58,7 +58,7 @@ The
 ### -param fHold [in]
 
 If <i>fHold</i> is VARIANT_TRUE and the method succeeds, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a> transitions to the CS_HOLD state. If <i>fHold</i> is VARIANT_FALSE, the call state transitions to CS_CONNECTED.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-call_state">call state</a> transitions to the CS_HOLD state. If <i>fHold</i> is VARIANT_FALSE, the call state transitions to CS_CONNECTED.
 
 ## -returns
 
@@ -118,24 +118,23 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 ## -remarks
 
 Some service providers do not support this operation while streaming is active. The application may need to call 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream">ITStream::StopStream</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-stopsubstream">ITSubStream::StopSubStream</a> prior to the operation and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstream-startstream">ITStream::StartStream</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-startsubstream">ITSubStream::StartSubStream</a> following completion of the operation.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstream-stopstream">ITStream::StopStream</a> or 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-stopsubstream">ITSubStream::StopSubStream</a> prior to the operation and 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstream-startstream">ITStream::StartStream</a> or 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itsubstream-startsubstream">ITSubStream::StartSubStream</a> following completion of the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/hold-ovr">Hold overview</a>
+<a href="/windows/desktop/Tapi/hold-ovr">Hold overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linehold">lineHold</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linehold">lineHold</a>

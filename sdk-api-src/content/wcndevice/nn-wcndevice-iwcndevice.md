@@ -54,7 +54,7 @@ Use this interface to configure the device and initiate the session.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWCNDevice</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWCNDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWCNDevice</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWCNDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWCNDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">Connect</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Initiates the session.
@@ -78,7 +78,7 @@ Initiates the session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getattribute">GetAttribute</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getattribute">GetAttribute</a>
 </td>
 <td align="left" width="63%">
 Gets a cached attribute  from the device.
@@ -87,7 +87,7 @@ Gets a cached attribute  from the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">GetIntegerAttribute</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getintegerattribute">GetIntegerAttribute</a>
 </td>
 <td align="left" width="63%">
 Gets a cached attribute  from the device as an integer.
@@ -96,7 +96,7 @@ Gets a cached attribute  from the device as an integer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getnetworkprofile">GetNetworkProfile</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getnetworkprofile">GetNetworkProfile</a>
 </td>
 <td align="left" width="63%">
 Gets a network profile from the device.  
@@ -105,7 +105,7 @@ Gets a network profile from the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getstringattribute">GetStringAttribute</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getstringattribute">GetStringAttribute</a>
 </td>
 <td align="left" width="63%">
 Gets a cached attribute from the device as a string.
@@ -115,7 +115,7 @@ Gets a cached attribute from the device as a string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getvendorextension">GetVendorExtension</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getvendorextension">GetVendorExtension</a>
 </td>
 <td align="left" width="63%">
 Gets a cached vendor extension from the device.
@@ -125,7 +125,7 @@ Gets a cached vendor extension from the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setnetworkprofile">SetNetworkProfile</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setnetworkprofile">SetNetworkProfile</a>
 </td>
 <td align="left" width="63%">
 Queues an XML WLAN profile to be provisioned to the device.
@@ -134,7 +134,7 @@ Queues an XML WLAN profile to be provisioned to the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">SetPassword</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setpassword">SetPassword</a>
 </td>
 <td align="left" width="63%">
 Configures the authentication method value, and if required, a password used for the pending session.
@@ -143,7 +143,7 @@ Configures the authentication method value, and if required, a password used for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setvendorextension">SetVendorExtension</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-setvendorextension">SetVendorExtension</a>
 </td>
 <td align="left" width="63%">
 Queues a vendor extension for use in the pending session.
@@ -152,10 +152,10 @@ Queues a vendor extension for use in the pending session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-unadvise">Unadvise</a>
+<a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-unadvise">Unadvise</a>
 </td>
 <td align="left" width="63%">
-Removes any callback previously set via <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>.
+Removes any callback previously set via <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>.
 
 </td>
 </tr>
@@ -163,5 +163,4 @@ Removes any callback previously set via <a href="https://docs.microsoft.com/wind
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a>
-
+<a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcnconnectnotify">IWCNConnectNotify</a>

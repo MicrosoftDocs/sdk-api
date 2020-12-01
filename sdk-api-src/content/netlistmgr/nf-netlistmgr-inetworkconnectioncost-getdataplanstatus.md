@@ -56,7 +56,7 @@ The <b>GetDataPlanStatus</b> method retrieves the status of the data plan associ
 
 ### -param pDataPlanStatus [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_dataplan_status">NLM_DATAPLAN_STATUS</a> structure that describes the status of the data plan associated with the connection. The caller supplies the memory of this structure.
+Pointer to an <a href="/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_dataplan_status">NLM_DATAPLAN_STATUS</a> structure that describes the status of the data plan associated with the connection. The caller supplies the memory of this structure.
 
 ## -returns
 
@@ -93,5 +93,4 @@ Network connectivity is currently unavailable.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnectioncost">INetworkConnectionCost</a>
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnectioncost">INetworkConnectionCost</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Adds an owner to an event service, where <i>event service</i> refers to a generic Windows event service that implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEventService</a> interface. The owner is the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevents">IESEvents</a> object that the parent event service uses to pass advise events to its child event service for handling.
+Adds an owner to an event service, where <i>event service</i> refers to a generic Windows event service that implements the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventservice">IESEventService</a> interface. The owner is the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevents">IESEvents</a> object that the parent event service uses to pass advise events to its child event service for handling.
 
 ## -parameters
 
 ### -param pESEvents [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevents">IESEvents</a> interface that the  parent event service uses to advise its child.
+Pointer to the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevents">IESEvents</a> interface that the  parent event service uses to advise its child.
 
 ## -returns
 
@@ -64,13 +64,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventserviceconfiguration">IESEventServiceConfiguration</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ieseventserviceconfiguration">IESEventServiceConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevents">IESEvents</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevents">IESEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventserviceconfiguration-setparent">SetParent</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ieseventserviceconfiguration-setparent">SetParent</a>

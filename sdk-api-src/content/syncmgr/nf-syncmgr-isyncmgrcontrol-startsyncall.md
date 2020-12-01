@@ -68,7 +68,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method is analogous to <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateall">UpdateAll</a>.
+This method is analogous to <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateall">UpdateAll</a>.
 
 
 #### Examples
@@ -101,4 +101,3 @@ void CMyDeviceHandler::MiscProc(...)
 }
 
 ```
-

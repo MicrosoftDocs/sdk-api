@@ -61,7 +61,7 @@ Integer value containing the item index in the list of items to transfer.
 
 ### -param pPhotoAcquireItem [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object that is to be transferred.
+Pointer to the <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object that is to be transferred.
 
 ## -returns
 
@@ -98,5 +98,4 @@ The method is not implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>

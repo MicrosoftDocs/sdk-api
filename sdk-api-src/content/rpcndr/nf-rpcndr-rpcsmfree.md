@@ -52,15 +52,15 @@ api_name:
 
 The 
 <b>RpcSmFree</b> function releases memory allocated by 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>.
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>.
 
 ## -parameters
 
 ### -param NodeToFree
 
 Pointer to memory allocated by 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>.
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a> or 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>.
 
 ## -returns
 
@@ -87,41 +87,40 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 Applications use 
 <b>RpcSmFree</b> to free memory allocated by 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>. In cases where the stub allocates the memory for the application, 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>. In cases where the stub allocates the memory for the application, 
 <b>RpcSmFree</b> can also be used to release memory. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/memory-management">Memory Management</a>.
+<a href="/windows/desktop/Rpc/memory-management">Memory Management</a>.
 
 To improve performance, the 
 <b>RpcSmFree</b> function only marks memory for release. Memory is not actually released until your application calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmdisableallocate">RpcSmDisableAllocate</a> function. To release memory immediately, invoke the 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-free-function">midl_user_free</a> function.
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmdisableallocate">RpcSmDisableAllocate</a> function. To release memory immediately, invoke the 
+<a href="/windows/desktop/Rpc/the-midl-user-free-function">midl_user_free</a> function.
 
 Note that the handle of the thread calling 
 <b>RpcSmFree</b> must match the handle of the thread that allocated the memory by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate.</a>. Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmgetthreadhandle">RpcSmGetThreadHandle</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a> to pass handles from thread to thread.
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate.</a>. Use 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmgetthreadhandle">RpcSmGetThreadHandle</a> and 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a> to pass handles from thread to thread.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmallocate">RpcSmAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmgetthreadhandle">RpcSmGetThreadHandle</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmgetthreadhandle">RpcSmGetThreadHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmsetthreadhandle">RpcSmSetThreadHandle</a>
 
 
 
 <a href="https://msdn.microsoft.com/">midl_user_allocate</a>
-

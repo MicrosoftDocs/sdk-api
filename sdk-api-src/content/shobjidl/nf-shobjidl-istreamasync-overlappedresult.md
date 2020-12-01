@@ -58,7 +58,7 @@ Retrieves the results of an overlapped operation.
 
 Type: <b>LPOVERLAPPED*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ns-shobjidl-overlapped">OVERLAPPED</a> structure that was specified when the overlapped operation was started.
+A pointer to the <a href="/windows/desktop/api/shobjidl/ns-shobjidl-overlapped">OVERLAPPED</a> structure that was specified when the overlapped operation was started.
 
 ### -param lpNumberOfBytesTransferred [out]
 
@@ -77,4 +77,3 @@ If <b>TRUE</b> the method does not return until the operation has been completed
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

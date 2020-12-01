@@ -57,8 +57,8 @@ api_name:
 ## -description
 
 The following structure contains information about a network resource. It is used by several of the network provider functions, including 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a> 
-and <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a>.
+<a href="/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a> 
+and <a href="/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a>.
 
 ## -struct-fields
 
@@ -231,9 +231,9 @@ A bitmask that indicates how you can enumerate information about the resource. I
 </td>
 <td width="60%">
 You can connect to the resource by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a>. If <b>dwType</b> is RESOURCETYPE_DISK, then, after you have connected to the resource, you can use the file system APIs, such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>, to enumerate any files and directories the resource contains.
+<a href="/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a>. If <b>dwType</b> is RESOURCETYPE_DISK, then, after you have connected to the resource, you can use the file system APIs, such as 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>, and 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilea">FindNextFile</a>, to enumerate any files and directories the resource contains.
 
 </td>
 </tr>
@@ -244,14 +244,14 @@ You can connect to the resource by calling
 </td>
 <td width="60%">
 The resource is a container for other resources that can be enumerated by means of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npcloseenum">NPCloseEnum</a> functions. 
+<a href="/windows/desktop/api/npapi/nf-npapi-npopenenum">NPOpenEnum</a>, 
+<a href="/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a>, and 
+<a href="/windows/desktop/api/npapi/nf-npapi-npcloseenum">NPCloseEnum</a> functions. 
 
 
 
 
-The container may, however, be empty at the time  the enumeration is made. In other words, the first call to <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> may return WN_NO_MORE_ENTRIES.
+The container may, however, be empty at the time  the enumeration is made. In other words, the first call to <a href="/windows/desktop/api/npapi/nf-npapi-npenumresource">NPEnumResource</a> may return WN_NO_MORE_ENTRIES.
 
 </td>
 </tr>
@@ -269,7 +269,7 @@ If <b>dwScope</b> is not set to RESOURCE_CONNECTED, this field is undefined.
 ### -field lpRemoteName
 
 If the enumerated item is a network resource, this field contains a remote network name. This name may be then passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a> to make a network connection if <b>dwUsage</b> is set to RESOURCEUSAGE_CONNECTABLE. If the enumerated item is a current connection, this field will refer to the remote network name that <b>lpLocalName</b> is connected to.
+<a href="/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a> to make a network connection if <b>dwUsage</b> is set to RESOURCEUSAGE_CONNECTABLE. If the enumerated item is a current connection, this field will refer to the remote network name that <b>lpLocalName</b> is connected to.
 
 ### -field lpComment
 
@@ -283,4 +283,3 @@ Specifies the name of the provider that owns this enumerated item.
 
 > [!NOTE]
 > The winnetwk.h header defines NETRESOURCE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

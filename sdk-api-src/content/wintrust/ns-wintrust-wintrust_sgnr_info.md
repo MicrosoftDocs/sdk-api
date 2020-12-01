@@ -57,8 +57,8 @@ api_name:
 <p class="CCE_Message">[The  <b>WINTRUST_SGNR_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>WINTRUST_SGNR_INFO</b> structure is used when calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to verify a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_info">CMSG_SIGNER_INFO</a> structure.
+<a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to verify a 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_info">CMSG_SIGNER_INFO</a> structure.
 
 ## -struct-fields
 
@@ -73,7 +73,7 @@ String with the name representing the signer to be checked.
 ### -field psSignerInfo
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_info">CMSG_SIGNER_INFO</a> structure that includes the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">signature</a> to be verified.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_info">CMSG_SIGNER_INFO</a> structure that includes the <a href="/windows/desktop/SecGloss/d-gly">signature</a> to be verified.
 
 ### -field chStores
 
@@ -81,5 +81,4 @@ Number of store handles in <b>pahStores</b>.
 
 ### -field pahStores
 
-An array of open <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate stores</a> to be added to the list of stores that the policy provider uses to find certificates while building a trust chain.
-
+An array of open <a href="/windows/desktop/SecGloss/c-gly">certificate stores</a> to be added to the list of stores that the policy provider uses to find certificates while building a trust chain.

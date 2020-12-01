@@ -56,15 +56,15 @@ The <b>DrvQueryDeviceSupport</b> function returns requested device-specific info
 
 ### -param pso
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure.
+Caller-supplied pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure.
 
 ### -param pxlo
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure.
+Caller-supplied pointer to an <a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure.
 
 ### -param pxo
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a> structure.
+Caller-supplied pointer to an <a href="/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a> structure.
 
 ### -param iType
 
@@ -127,21 +127,20 @@ The <i>pvIn</i> parameter points to a buffer containing a JPEG-compressed or PNG
 
 </li>
 <li>
-The <i>pxlo</i> parameter is valid but the only information of interest is the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure's <b>flXlate</b> member. If either the XO_HOST_ICM or XO_DEVICE_ICM flag is set, the driver must only return <b>TRUE</b> if it can convert the image's color space to the printer's color space (or if the two color spaces are the same). For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/color-management-of-jpeg-and-png-images">Color Management of JPEG and PNG Images</a>.
+The <i>pxlo</i> parameter is valid but the only information of interest is the <a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure's <b>flXlate</b> member. If either the XO_HOST_ICM or XO_DEVICE_ICM flag is set, the driver must only return <b>TRUE</b> if it can convert the image's color space to the printer's color space (or if the two color spaces are the same). For more information, see <a href="/windows-hardware/drivers/print/color-management-of-jpeg-and-png-images">Color Management of JPEG and PNG Images</a>.
 
 </li>
 </ul>
-For more information about supporting JPEG and PNG compressed images, see the Remarks section for <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>.
+For more information about supporting JPEG and PNG compressed images, see the Remarks section for <a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a>
+<a href="/previous-versions/windows/hardware/drivers/ff570618(v=vs.85)">XFORMOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>

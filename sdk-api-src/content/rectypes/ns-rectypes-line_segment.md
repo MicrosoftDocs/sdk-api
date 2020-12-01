@@ -66,5 +66,4 @@ Point that represents the end of the line segment. The point is in ink space coo
 
 ## -see-also
 
-[LINE_METRICS Enumeration](/windows/win32/api/rectypes/ne-rectypes-line_metrics)
-
+[LINE_METRICS Enumeration](./ne-rectypes-line_metrics.md)

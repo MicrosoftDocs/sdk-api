@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The type of the certificate credential, used as a selector for
-subtypes of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_cert_credential">WS_CERT_CREDENTIAL</a>.
+subtypes of <a href="/windows/desktop/api/webservices/ns-webservices-ws_cert_credential">WS_CERT_CREDENTIAL</a>.
 
 ## -enum-fields
 
@@ -65,5 +65,4 @@ Type id for the certificate credential <a href="/windows/win32/api/webservices/n
 
 ### -field WS_CUSTOM_CERT_CREDENTIAL_TYPE
 
-Type id for the certificate credential <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.
-
+Type id for the certificate credential <a href="/windows/desktop/api/webservices/ns-webservices-ws_custom_cert_credential">WS_CUSTOM_CERT_CREDENTIAL</a>.

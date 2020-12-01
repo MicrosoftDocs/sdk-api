@@ -112,7 +112,7 @@ The <i>pLanguage</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized.
+The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized.
 
 </td>
 </tr>
@@ -160,13 +160,12 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

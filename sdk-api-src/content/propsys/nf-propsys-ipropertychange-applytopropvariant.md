@@ -58,13 +58,13 @@ Applies a change to a property value.
 
 Type: <b>REFPROPVARIANT</b>
 
-A reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+A reference to a source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param ppropvarOut [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-A pointer to a changed <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+A pointer to a changed <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -returns
 
@@ -74,9 +74,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertychange">IPropertyChange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pscreatesimplepropertychange">PSCreateSimplePropertyChange</a>
-
+<a href="/windows/desktop/api/propsys/nf-propsys-pscreatesimplepropertychange">PSCreateSimplePropertyChange</a>

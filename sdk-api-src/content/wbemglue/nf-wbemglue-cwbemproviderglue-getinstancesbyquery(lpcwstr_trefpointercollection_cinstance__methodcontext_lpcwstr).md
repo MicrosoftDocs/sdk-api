@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetInstancesByQuery</b> method retrieves a list of instances that match a particular query.
@@ -71,11 +71,11 @@ Linked list of instances that match the query specified by <i>Query</i>.
 
 ### -param pMethodContext
 
-Pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-enumerateinstances">Provider::EnumerateInstances</a> or <a href="https://docs.microsoft.com/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="https://docs.microsoft.com/windows/desktop/api/instance/nf-instance-cinstance-getmethodcontext">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
+Pointer to the current context. A context must be provided to prevent deadlocks. Either use the context passed into the provider by <a href="/windows/desktop/api/provider/nf-provider-provider-enumerateinstances">Provider::EnumerateInstances</a> or <a href="/windows/desktop/api/provider/nf-provider-provider-execquery">Provider::ExecQuery</a>, or else obtain it from the instance using <a href="/windows/desktop/api/instance/nf-instance-cinstance-getmethodcontext">CInstance::GetMethodContext</a>. This parameter must not be <b>NULL</b>.
 
 ### -param pszNamespace
 
-Pointer to the namespace that contains the instances. If <b>NULL</b>, the default namespace, root<b>\</b>cimv2, is used.
+Pointer to the namespace that contains the instances. If <b>NULL</b>, the default namespace, root<b>\\</b>cimv2, is used.
 
 ## -returns
 
@@ -86,4 +86,3 @@ The method returns <b>WBEM_S_NO_ERROR</b> if the operation was successful, <b>WB
 The <b>GetInstancesByQuery</b> method allows framework providers to access data from other providers without having to make a WMI API call. Framework providers pass a query to <b>GetInstancesByQuery</b>, which returns the appropriate instances.
 
 For performance reasons, when calling this function, specify only the properties you need (for example, specify "SELECT <i>name</i>" instead of "SELECT *").
-

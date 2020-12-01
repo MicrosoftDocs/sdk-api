@@ -46,6 +46,7 @@ api_name:
  - WTSEnumerateSessions
  - WTSEnumerateSessionsA
  - WTSEnumerateSessionsW
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 ---
 
 # WTSEnumerateSessionsA function
@@ -62,7 +63,7 @@ Retrieves a list of sessions on a Remote Desktop Session Host (RD Session Host)
 A handle to the RD Session Host server.
 
 <div class="alert"><b>Note</b>  You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenserverexa">WTSOpenServerEx</a> functions to retrieve a handle to a specific server, or  <b>WTS_CURRENT_SERVER_HANDLE</b> to use the RD Session Host server that hosts your application.</div>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> or <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenserverexa">WTSOpenServerEx</a> functions to retrieve a handle to a specific server, or  <b>WTS_CURRENT_SERVER_HANDLE</b> to use the RD Session Host server that hosts your application.</div>
 <div> </div>
 
 ### -param Reserved [in]
@@ -75,12 +76,12 @@ The version of the enumeration request. This parameter must be 1.
 
 ### -param ppSessionInfo [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_infoa">WTS_SESSION_INFO</a> structures that represent the retrieved sessions. To free the returned buffer, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> function.
+A pointer to an array of <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_infoa">WTS_SESSION_INFO</a> structures that represent the retrieved sessions. To free the returned buffer, call the 
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> function.
 
 <b>Session permissions:  </b><ul>
 <li>To enumerate a session, you must enable the query information permission. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services Permissions</a>.</li>
+<a href="/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services Permissions</a>.</li>
 <li>To change permissions on a session, use the Remote Desktop Services Configuration administrative tool.</li>
 <li>To enumerate sessions running on a virtual machine hosted on a RD Virtualization Host server, you must be a member of the Administrators group on the RD Virtualization Host server.</li>
 </ul>
@@ -95,7 +96,7 @@ A pointer to the number of
 Returns zero if this function fails. If this function succeeds, a nonzero value is returned.
 
 To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -110,5 +111,4 @@ For more information, and an extended example on how to use this function, see t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_infoa">WTS_SESSION_INFO</a>
-
+<a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_infoa">WTS_SESSION_INFO</a>

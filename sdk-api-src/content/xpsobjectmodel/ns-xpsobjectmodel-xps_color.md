@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The contents of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure when the <i>colorType</i> is <b>XPS_COLOR_TYPE_CONTEXT</b>.
+The contents of the <a href="/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a> structure when the <i>colorType</i> is <b>XPS_COLOR_TYPE_CONTEXT</b>.
 
 ## -struct-fields
 
@@ -106,9 +106,8 @@ The first element in the array, <i>channels</i>[0], contains the value for the a
 
 ## -remarks
 
-For information about how to interpret or apply the values in this structure's members, see the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.
+For information about how to interpret or apply the values in this structure's members, see the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>.
 
 ## -see-also
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

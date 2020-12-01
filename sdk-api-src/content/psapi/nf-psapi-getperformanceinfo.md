@@ -56,7 +56,7 @@ api_name:
 ## -description
 
 Retrieves the performance values contained in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-performance_information">PERFORMANCE_INFORMATION</a> 
+    <a href="/windows/desktop/api/psapi/ns-psapi-performance_information">PERFORMANCE_INFORMATION</a> 
     structure.
 
 ## -parameters
@@ -64,19 +64,19 @@ Retrieves the performance values contained in the
 ### -param pPerformanceInformation [out]
 
 A pointer to a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-performance_information">PERFORMANCE_INFORMATION</a> 
+      <a href="/windows/desktop/api/psapi/ns-psapi-performance_information">PERFORMANCE_INFORMATION</a> 
       structure that receives the performance information.
 
 ### -param cb [in]
 
 The size of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-performance_information">PERFORMANCE_INFORMATION</a> structure, in 
+      <a href="/windows/desktop/api/psapi/ns-psapi-performance_information">PERFORMANCE_INFORMATION</a> structure, in 
       bytes.
 
 ## -returns
 
 If the function succeeds, the return value is TRUE. If the function fails, the return value is FALSE. To get 
-       extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -98,13 +98,12 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
+<a href="/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-performance_information">PERFORMANCE_INFORMATION</a>
+<a href="/windows/desktop/api/psapi/ns-psapi-performance_information">PERFORMANCE_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
-
+<a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>

@@ -60,15 +60,14 @@ The IID of the interface. This parameter cannot be IID_IUnknown.
 
 ## -returns
 
-If the stub can handle the indicated interface, then this method returns an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> pointer  for that interface; otherwise, it returns <b>NULL</b>.
+If the stub can handle the indicated interface, then this method returns an <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a> pointer  for that interface; otherwise, it returns <b>NULL</b>.
 
 ## -remarks
 
 When presented with the need to remote a new IID on a given object, the RPC run time typically calls this method on all the presently-connected interface stubs in an attempt to locate one that can handle the marshaling for the request before it goes to the trouble of creating a new stub.
 
-As in <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipsfactorybuffer-createstub">IPSFactoryBuffer::CreateStub</a>, if a stub is presently connected to a server object, then not only must this method verify that the stub can handle the indicated interface, but it must also verify (using <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>) that the connected server object in fact supports the indicated interface. Depending on the IID and previous interface servicing requests, it may have already done so.
+As in <a href="/windows/desktop/api/objidl/nf-objidl-ipsfactorybuffer-createstub">IPSFactoryBuffer::CreateStub</a>, if a stub is presently connected to a server object, then not only must this method verify that the stub can handle the indicated interface, but it must also verify (using <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a>) that the connected server object in fact supports the indicated interface. Depending on the IID and previous interface servicing requests, it may have already done so.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>

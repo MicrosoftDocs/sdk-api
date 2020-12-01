@@ -52,23 +52,23 @@ api_name:
 ## -description
 
 The <b>Pen::GetPenType</b> method gets the type currently set for this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
+			<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 ## -parameters
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pentype">PenType</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pentype">PenType</a></b>
 
 This method returns an element of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pentype">PenType</a> enumeration that indicates the style of pen currently set for this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
+						<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pentype">PenType</a> enumeration that indicates the style of pen currently set for this 
+						<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 ## -remarks
 
 A 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object is created with a default pen type of <b>PenTypeSolidColor</b>, which is an element of the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pentype">PenType</a> enumeration.
+				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object is created with a default pen type of <b>PenTypeSolidColor</b>, which is an element of the 
+				<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pentype">PenType</a> enumeration.
 
 
 #### Examples
@@ -76,9 +76,9 @@ A
 
 
 The following example creates a 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush">HatchBrush</a> object and then passes the address of that 
+						<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush">HatchBrush</a> object and then passes the address of that 
 						<b>HatchBrush</b> object to a 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> constructor. The code uses the pen, which has a width of 15, to draw a line. The code calls the <b>Pen::GetPenType</b> method to determine the pen's type, and then checks to see whether the type is PenTypeHatchFill.
+						<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> constructor. The code uses the pen, which has a width of 15, to draw a line. The code calls the <b>Pen::GetPenType</b> method to determine the pen's type, and then checks to see whether the type is PenTypeHatchFill.
 
 
 ```cpp
@@ -109,21 +109,20 @@ VOID Example_GetPenType(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
+<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getbrush">Pen::GetBrush</a>
+<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-getbrush">Pen::GetBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setbrush">Pen::SetBrush</a>
+<a href="/windows/desktop/api/gdipluspen/nf-gdipluspen-pen-setbrush">Pen::SetBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>

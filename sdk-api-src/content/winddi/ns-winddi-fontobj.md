@@ -62,7 +62,7 @@ Specifies a distinct realization of the font. This value can be used by the driv
 
 ### -field iFace
 
-Specifies the device index for a device font, which was registered by a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a>. If the font is a GDI font, this member has meaning only to GDI, and the driver should ignore it.
+Specifies the device index for a device font, which was registered by a call to <a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a>. If the font is a GDI font, this member has meaning only to GDI, and the driver should ignore it.
 
 ### -field cxMax
 
@@ -220,7 +220,7 @@ Vertical font.
 </table>
  
 
-If the FO_RASTER flag is set, the glyphs written to the specified STROBJ structure are bitmaps, otherwise they are pointers to PATHOBJ structures. If the glyph images are returned in the form of PATHOBJ structures, the driver must inspect the FM_INFO_TECH_STROKE flag of the <b>flInfo</b> member of the associated <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure. If that flag is set, the paths should be stroked, otherwise the paths must be filled using the alternating mode convention.
+If the FO_RASTER flag is set, the glyphs written to the specified STROBJ structure are bitmaps, otherwise they are pointers to PATHOBJ structures. If the glyph images are returned in the form of PATHOBJ structures, the driver must inspect the FM_INFO_TECH_STROKE flag of the <b>flInfo</b> member of the associated <a href="/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a> structure. If that flag is set, the paths should be stroked, otherwise the paths must be filled using the alternating mode convention.
 
 If the FO_GRAY16 flag is set, then the font bitmaps are four bits-per-pixel blending (alpha) values. A value of zero means that the resulting pixel should have the same color as the background. If the alpha value is k, then the following table describes the attributes of the resulting pixel, using either linear alpha blending, or gamma-corrected alpha blending. In both methods, the foreground and background colors are, respectively, c<sub>f</sub> and c<sub>b</sub>.
 
@@ -297,7 +297,7 @@ Note: unlike linear alpha blending, these formulas must be applied to <i>each</i
 </table>
  
 
-GDI sets the FO_GRAY16 flag on entry to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfontdata">DrvQueryFontData</a> function when it requests that a font be grayscaled to one of 16 values. If the font driver cannot grayscale a particular font realization, then the font provider clears the FO_GRAY16 flag and sets the FO_NOGRAY16 flag to inform GDI that the grayscaling request will not be satisfied.
+GDI sets the FO_GRAY16 flag on entry to the <a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfontdata">DrvQueryFontData</a> function when it requests that a font be grayscaled to one of 16 values. If the font driver cannot grayscale a particular font realization, then the font provider clears the FO_GRAY16 flag and sets the FO_NOGRAY16 flag to inform GDI that the grayscaling request will not be satisfied.
 
 ### -field iTTUniq
 
@@ -327,45 +327,44 @@ Pointer to producer-allocated data associated with this font instance. A produce
 
 As an accelerator, the driver is allowed to access the public members of the FONTOBJ structure.
 
-A driver can be both a producer and a consumer. For example, a printer driver can act as a producer while processing a call to the driver-supplied <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfontdata">DrvQueryFontData</a> function to provide glyph metrics, and later act a consumer while processing a call to the driver-supplied <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a> function.
+A driver can be both a producer and a consumer. For example, a printer driver can act as a producer while processing a call to the driver-supplied <a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfontdata">DrvQueryFontData</a> function to provide glyph metrics, and later act a consumer while processing a call to the driver-supplied <a href="/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdestroyfont">DrvDestroyFont</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvdestroyfont">DrvDestroyFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetglyphmode">DrvGetGlyphMode</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvgetglyphmode">DrvGetGlyphMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvquerytruetypeoutline">DrvQueryTrueTypeOutline</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvquerytruetypeoutline">DrvQueryTrueTypeOutline</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_cgetallglyphhandles">FONTOBJ_cGetAllGlyphHandles</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-fontobj_cgetallglyphhandles">FONTOBJ_cGetAllGlyphHandles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_cgetglyphs">FONTOBJ_cGetGlyphs</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-fontobj_cgetglyphs">FONTOBJ_cGetGlyphs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_pifi">FONTOBJ_pifi</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-fontobj_pifi">FONTOBJ_pifi</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_pxogetxform">FONTOBJ_pxoGetXform</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-fontobj_pxogetxform">FONTOBJ_pxoGetXform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_vgetinfo">FONTOBJ_vGetInfo</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-fontobj_vgetinfo">FONTOBJ_vGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>

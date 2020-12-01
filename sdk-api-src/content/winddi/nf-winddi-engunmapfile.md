@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>EngUnmapFile</b> function unmaps the view of a file from <a href="https://docs.microsoft.com/windows-hardware/drivers/">system space</a>.
+The <b>EngUnmapFile</b> function unmaps the view of a file from <a href="/windows-hardware/drivers/">system space</a>.
 
 ## -parameters
 
 ### -param iFile [in]
 
-Pointer to the identifier of the mapped file. This identifier was obtained in a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>.
+Pointer to the identifier of the mapped file. This identifier was obtained in a prior call to <a href="/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Pointer to the identifier of the mapped file. This identifier was obtained in a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>

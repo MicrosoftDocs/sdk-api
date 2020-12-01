@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>ITfContextOwner::GetStatus</b> method obtains the status of a document. The document status is returned through the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure.
+The <b>ITfContextOwner::GetStatus</b> method obtains the status of a document. The document status is returned through the <a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure.
 
 ## -parameters
 
 ### -param pdcs [out]
 
-Receives the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure that contains the document status. Cannot be <b>NULL</b>.
+Receives the <a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure that contains the document status. Cannot be <b>NULL</b>.
 
 ## -returns
 
@@ -82,15 +82,14 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getstatus">ITextStoreACP::GetStatus
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getstatus">ITextStoreACP::GetStatus
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextowner">ITfContextOwner</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontextowner">ITfContextOwner</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
       </a>
-

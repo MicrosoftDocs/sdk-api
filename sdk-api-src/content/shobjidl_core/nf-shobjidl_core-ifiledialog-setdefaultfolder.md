@@ -56,7 +56,7 @@ Sets the folder used as a default if there is not a recently used folder value a
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to the interface that represents the folder.
 
@@ -65,4 +65,3 @@ A pointer to the interface that represents the folder.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

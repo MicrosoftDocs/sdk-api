@@ -59,7 +59,7 @@ The <b>MsiQueryComponentState</b> function returns the installed state for a com
 
 ### -param szProductCode [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a> GUID for the product that contains the component.
+Specifies the <a href="/windows/desktop/Msi/productcode">ProductCode</a> GUID for the product that contains the component.
 
 ### -param szUserSid [in]
 
@@ -139,7 +139,7 @@ Retrieves the component's state for the per-machine instance of the product.
 
 ### -param szComponentCode [in]
 
-Specifies the component being queried. Component code GUID of the component as found in the ComponentID column of the <a href="https://docs.microsoft.com/windows/desktop/Msi/component-table">Component</a> table.
+Specifies the component being queried. Component code GUID of the component as found in the ComponentID column of the <a href="/windows/desktop/Msi/component-table">Component</a> table.
 
 ### -param pdwState [out]
 
@@ -273,30 +273,29 @@ Buffer too small to get the user SID.
  
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
+<a href="/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/component-table">Component</a>
+<a href="/windows/desktop/Msi/component-table">Component</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
+<a href="/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer Selection Functions</a>
+<a href="/windows/desktop/Msi/database-functions">Installer Selection Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
+<a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/productcode">ProductCode</a>
+<a href="/windows/desktop/Msi/productcode">ProductCode</a>
 
 ## -remarks
 
 > [!NOTE]
 > The msi.h header defines MsiQueryComponentState as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

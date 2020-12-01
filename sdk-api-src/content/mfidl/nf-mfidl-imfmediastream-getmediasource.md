@@ -57,7 +57,7 @@ Retrieves a pointer to the media source that created this media stream.
 
 ### -param ppMediaSource [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> interface of the media source. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> interface of the media source. The caller must release the interface.
 
 ## -returns
 
@@ -86,7 +86,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The media source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a> method has been called.
+The media source's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -94,9 +94,8 @@ The media source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediastream">IMFMediaStream</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediastream">IMFMediaStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sources">Media Sources</a>
-
+<a href="/windows/desktop/medfound/media-sources">Media Sources</a>

@@ -61,11 +61,11 @@ Draws the border and fill defined by the visual style for the specified control 
 
 Type: <b>HTHEME</b>
 
-Handle to a window's specified theme data. Use <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
+Handle to a window's specified theme data. Use <a href="/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a> to create an HTHEME.
 
 ### -param hdc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 HDC used for drawing the theme-defined background image.
 
@@ -73,13 +73,13 @@ HDC used for drawing the theme-defined background image.
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the part to draw. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
+Value of type <b>int</b> that specifies the part to draw. See <a href="/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 ### -param iStateId [in]
 
 Type: <b>int</b>
 
-Value of type <b>int</b> that specifies the state of the part to draw. See <a href="https://docs.microsoft.com/windows/desktop/Controls/parts-and-states">Parts and States</a>.
+Value of type <b>int</b> that specifies the state of the part to draw. See <a href="/windows/desktop/Controls/parts-and-states">Parts and States</a>.
 
 ### -param pRect [in]
 
@@ -95,7 +95,7 @@ Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> struc
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -106,7 +106,7 @@ Drawing operations are scaled to fit and not exceed the rectangle specified in <
 
 #### Examples
 
-Prior to calling <b>DrawThemeBackground</b> to draw the background image for a window, you may call <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-isthemebackgroundpartiallytransparent">IsThemeBackgroundPartiallyTransparent</a>. This method determines whether <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-drawthemeparentbackground">DrawThemeParentBackground</a> should be called to draw in backgrounds behind partially-transparent or alpha-blended child controls, and is demonstrated in the following example.
+Prior to calling <b>DrawThemeBackground</b> to draw the background image for a window, you may call <a href="/windows/desktop/api/uxtheme/nf-uxtheme-isthemebackgroundpartiallytransparent">IsThemeBackgroundPartiallyTransparent</a>. This method determines whether <a href="/windows/desktop/api/uxtheme/nf-uxtheme-drawthemeparentbackground">DrawThemeParentBackground</a> should be called to draw in backgrounds behind partially-transparent or alpha-blended child controls, and is demonstrated in the following example.
 		
 
 
@@ -130,5 +130,4 @@ if (_hTheme)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/property-typedefs">Property Identifiers</a>
-
+<a href="/windows/desktop/Controls/property-typedefs">Property Identifiers</a>

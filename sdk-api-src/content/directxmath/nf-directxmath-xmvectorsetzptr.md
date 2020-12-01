@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the <code>z</code> component of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> containing floating-point data, with a value
+Sets the <code>z</code> component of an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> containing floating-point data, with a value
   contained in an instance of float referred to by a pointer.
 
 ## -parameters
@@ -61,11 +61,11 @@ A valid 4D vector storing floating-point data.
 
 ### -param z [in]
 
-Pointer to a float containing the value to be stored in the <code>z</code> element of the <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>object <code>V</code>.
+Pointer to a float containing the value to be stored in the <code>z</code> element of the <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>object <code>V</code>.
 
 ## -returns
 
-An instance of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> whose <i>z</i> component has been set to the floating-point value
+An instance of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> whose <i>z</i> component has been set to the floating-point value
        provided by the argument <i>z</i> to <code>XMVectorSetZPtr</code>. All other components of the returned
        <b>XMVECTOR Data Type</b> instance have the same value as those of the input vector <i>V</i>.
 
@@ -76,5 +76,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>

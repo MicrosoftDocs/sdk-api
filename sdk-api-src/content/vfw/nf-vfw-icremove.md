@@ -72,9 +72,8 @@ Returns <b>TRUE</b> if successful or <b>FALSE</b> otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
+<a href="/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

@@ -45,9 +45,6 @@ api_name:
  - FaxRouteMethod
 ---
 
-# PFAXROUTEMETHOD callback function
-
-
 ## -description
 
 The <b>FaxRouteMethod</b> function is a placeholder for a function name defined by the fax routing extension DLL. This function executes a defined fax routing procedure.
@@ -56,29 +53,23 @@ The fax routing extension DLL can export multiple fax routing methods. The fax r
 
 ## -parameters
 
-### -param *
-
 ### -param Arg1
 
-#### - FailureData [out]
+Type: <b>const <a href="/windows/win32/api/faxroute/ns-faxroute-fax_route">FAX_ROUTE</a>*</b>
+
+Pointer to a <a href="/windows/win32/api/faxroute/ns-faxroute-fax_route">FAX_ROUTE</a> structure that contains information about the received fax document.
+
+### -param Arg2
 
 Type: <b>PVOID*</b>
 
 Pointer to a variable that receives a pointer to a buffer that contains retry information for the fax routing method. This parameter can be equal to <b>NULL</b>. For more information, see the following Remarks section.
 
-
-#### - FailureDataSize [out]
+### -param Arg3
 
 Type: <b>LPDWORD</b>
 
 Pointer to an unsigned <b>DWORD</b> variable that receives the size, in bytes, of the buffer pointed to by the <i>FailureData</i> parameter.
-
-
-#### - FaxRoute [in]
-
-Type: <b>const <a href="https://msdn.microsoft.com/9cd01636-3b89-4b75-a3ef-317dd4b43c7a">FAX_ROUTE</a>*</b>
-
-Pointer to a <a href="https://msdn.microsoft.com/9cd01636-3b89-4b75-a3ef-317dd4b43c7a">FAX_ROUTE</a> structure that contains information about the received fax document.
 
 ## -returns
 
@@ -86,9 +77,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is a nonzero value.
 
-                    
-
-If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, described in MSDN.
+If the function fails, the return value is zero. To get extended error information, the fax service calls <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, described in MSDN.
 
 ## -remarks
 
@@ -98,14 +87,14 @@ If you want the fax service to retry a failed routing method at a later time, th
 
 <h3><a id="To_specify_that_the_fax_service_retry_a_fax_routing_method"></a><a id="to_specify_that_the_fax_service_retry_a_fax_routing_method"></a><a id="TO_SPECIFY_THAT_THE_FAX_SERVICE_RETRY_A_FAX_ROUTING_METHOD"></a>To specify that the fax service retry a fax routing method</h3>
 <ol>
-<li>Allocate a buffer to hold retry information for the fax routing method. The fax routing method must allocate the memory required for the buffer from the heap specified by the <a href="https://msdn.microsoft.com/6593762b-2a5a-4338-9958-efe0c7687729">FaxRouteInitialize</a> function.</li>
+<li>Allocate a buffer to hold retry information for the fax routing method. The fax routing method must allocate the memory required for the buffer from the heap specified by the <a href="/windows/win32/api/faxroute/nf-faxroute-faxrouteinitialize">FaxRouteInitialize</a> function.</li>
 <li>Fill <i></i>the buffer with the information required to retry the fax routing method.</li>
 <li>Set the <i>FailureData</i> parameter of the <b>FaxRouteMethod</b> function to a valid pointer value.</li>
 </ol>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/9cd01636-3b89-4b75-a3ef-317dd4b43c7a">FAX_ROUTE</a>
+<a href="/windows/win32/api/faxroute/ns-faxroute-fax_route">FAX_ROUTE</a>
 
 
 
@@ -117,25 +106,24 @@ If you want the fax service to retry a failed routing method at a later time, th
 
 
 
-<a href="https://msdn.microsoft.com/8c0e97ae-5d85-4271-a68a-7ad852b1615c">FaxRouteAddFile</a>
+<a href="/windows/win32/api/faxroute/nc-faxroute-pfaxrouteaddfile">FaxRouteAddFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/44189520-42d9-4b1c-bb5a-f8da8bfc4c27">FaxRouteDeleteFile</a>
+<a href="/windows/win32/api/faxroute/nc-faxroute-pfaxroutedeletefile">FaxRouteDeleteFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/779e7c8e-13b7-4495-b0b3-3b01594a88fb">FaxRouteEnumFiles</a>
+<a href="/windows/win32/api/faxroute/nc-faxroute-pfaxrouteenumfiles">FaxRouteEnumFiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/41acd3a8-269f-4c24-bb40-a8c5b24e1304">FaxRouteGetFile</a>
+<a href="/windows/win32/api/faxroute/nc-faxroute-pfaxroutegetfile">FaxRouteGetFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/6593762b-2a5a-4338-9958-efe0c7687729">FaxRouteInitialize</a>
+<a href="/windows/win32/api/faxroute/nf-faxroute-faxrouteinitialize">FaxRouteInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/eeb84e95-1a47-4768-9cb7-d6e7a2ee2048">FaxRouteModifyRoutingData</a>
-
+<a href="/windows/win32/api/faxroute/nc-faxroute-pfaxroutemodifyroutingdata">FaxRouteModifyRoutingData</a>

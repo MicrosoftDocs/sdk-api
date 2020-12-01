@@ -54,7 +54,7 @@ api_name:
 
 The snap-in can query for a pointer to the 
 <b>IConsoleNameSpace</b> interface during a call to its 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-initialize">IComponentData::Initialize</a> method.
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-initialize">IComponentData::Initialize</a> method.
 
 ## -inheritance
 
@@ -73,7 +73,7 @@ The <b>IConsoleNameSpace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-deleteitem">DeleteItem</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-deleteitem">DeleteItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to delete a single item from the scope pane.
@@ -82,7 +82,7 @@ Enables the snap-in to delete a single item from the scope pane.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace">GetChildItem</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsolenamespace">GetChildItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to get the handle to the first child item.
@@ -91,7 +91,7 @@ Enables the snap-in to get the handle to the first child item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/lwef/-search-2x-ipropertyfiltercollection-getitem">GetItem</a>
+<a href="/windows/desktop/lwef/-search-2x-ipropertyfiltercollection-getitem">GetItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to get the attributes of a single scope pane item.
@@ -100,7 +100,7 @@ Enables the snap-in to get the attributes of a single scope pane item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-getnextitem">GetNextItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-getnextitem">GetNextItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to get the handle to the next item.
@@ -109,7 +109,7 @@ Enables the snap-in to get the handle to the next item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/wia/-wia-iwiaitem2-getparentitem">GetParentItem</a>
+<a href="/windows/desktop/wia/-wia-iwiaitem2-getparentitem">GetParentItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to get the handle to the parent item.
@@ -118,7 +118,7 @@ Enables the snap-in to get the handle to the parent item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/dotnet/api/microsoft.clradmin.iconsolenamespace2.insertitem?view=netframework-1.1">InsertItem</a>
+<a href="/dotnet/api/microsoft.clradmin.iconsolenamespace2.insertitem?view=netframework-1.1">InsertItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to insert a single item into the scope pane.
@@ -127,7 +127,7 @@ Enables the snap-in to insert a single item into the scope pane.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setitem">SetItem</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setitem">SetItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to set the attributes of a single scope pane item.
@@ -138,9 +138,8 @@ Enables the snap-in to set the attributes of a single scope pane item.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-interfaces-and-methods">MMC 2.0 Interfaces and Methods</a>
-
+<a href="/previous-versions/windows/desktop/mmc/mmc-interfaces-and-methods">MMC 2.0 Interfaces and Methods</a>

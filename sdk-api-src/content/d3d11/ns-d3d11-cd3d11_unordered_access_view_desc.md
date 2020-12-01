@@ -218,5 +218,4 @@ struct CD3D11_UNORDERED_ACCESS_VIEW_DESC : public D3D11_UNORDERED_ACCESS_VIEW_DE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/cd3d11-helper-classes">CD3D11 Helper Structures</a>
-
+<a href="/windows/desktop/direct3d11/cd3d11-helper-classes">CD3D11 Helper Structures</a>

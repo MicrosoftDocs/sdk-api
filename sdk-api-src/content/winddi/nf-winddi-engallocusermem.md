@@ -60,23 +60,22 @@ Specifies the number of bytes to allocate.
 
 ### -param tag [in]
 
-Specifies a 4-byte <a href="https://docs.microsoft.com/windows-hardware/drivers/">pool tag</a> that uniquely identifies the driver that does the memory allocation. For more information about pool tags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
+Specifies a 4-byte <a href="/windows-hardware/drivers/">pool tag</a> that uniquely identifies the driver that does the memory allocation. For more information about pool tags, see <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
 ## -remarks
 
 A process in an NT-based operating system has 4 GB of virtual address space. The upper 2 GB is system memory that is accessible only to kernel-mode threads; this space is identical across all processes. The lower 2 GB is user memory that is accessible to both user-mode and kernel-mode threads; this space is unique to its process. The memory allocated by <b>EngAllocUserMem</b> is allocated from the unique 2 GB of user memory, and is thus accessible only when the graphics driver is called in the context of the thread in which the memory was allocated. Graphics drivers always execute in the context of the caller; that is, graphics drivers cannot switch process contexts.
 
-<b>EngAllocUserMem</b> is particularly useful to a printer driver with large bitmaps that will only be used by the current process. Rather than allocating from the system pool, this driver can instead allocate space from the current process's address space. Drivers need to exercise care with memory allocated by <b>EngAllocUserMem</b>, as it is possible for the application to alter this memory. <b>EngAllocUserMem</b> should only be used to allocate relatively large chunks of memory, as each allocation takes at least 64 KB of virtual address space. Sensitive data structures should never be allocated using this function. Also, user memory allocated by this function cannot be passed to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a> by the printer driver.
+<b>EngAllocUserMem</b> is particularly useful to a printer driver with large bitmaps that will only be used by the current process. Rather than allocating from the system pool, this driver can instead allocate space from the current process's address space. Drivers need to exercise care with memory allocated by <b>EngAllocUserMem</b>, as it is possible for the application to alter this memory. <b>EngAllocUserMem</b> should only be used to allocate relatively large chunks of memory, as each allocation takes at least 64 KB of virtual address space. Sensitive data structures should never be allocated using this function. Also, user memory allocated by this function cannot be passed to <a href="/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a> by the printer driver.
 
-When the memory is no longer needed, it can be freed by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfreeusermem">EngFreeUserMem</a> function.
+When the memory is no longer needed, it can be freed by a call to the <a href="/windows/desktop/api/winddi/nf-winddi-engfreeusermem">EngFreeUserMem</a> function.
 
-To allocate user memory from the address space of a different process, use <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engallocprivateusermem">EngAllocPrivateUserMem</a>.
+To allocate user memory from the address space of a different process, use <a href="/windows/desktop/api/winddi/nf-winddi-engallocprivateusermem">EngAllocPrivateUserMem</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engallocprivateusermem">EngAllocPrivateUserMem</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engallocprivateusermem">EngAllocPrivateUserMem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfreeusermem">EngFreeUserMem</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engfreeusermem">EngFreeUserMem</a>

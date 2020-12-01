@@ -50,6 +50,7 @@ api_location:
  - Windows.Storage.dll
 api_name:
  - SHChangeNotify
+req.apiset: ext-ms-win-shell-shell32-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # SHChangeNotify function
@@ -237,7 +238,7 @@ The <i>dwItem1</i> and <i>dwItem2</i> parameters are <b>DWORD</b> values.
 
 #### SHCNF_IDLIST
 
-<i>dwItem1</i> and <i>dwItem2</i> are the addresses of <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures that represent the item(s) affected by the change. Each <b>ITEMIDLIST</b> must be relative to the desktop folder.
+<i>dwItem1</i> and <i>dwItem2</i> are the addresses of <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structures that represent the item(s) affected by the change. Each <b>ITEMIDLIST</b> must be relative to the desktop folder.
 
 
 
@@ -286,4 +287,3 @@ Optional. Second event-dependent value.
 Applications that register new handlers of any type must call <b>SHChangeNotify</b> with the <b>SHCNE_ASSOCCHANGED</b> flag to instruct the Shell to invalidate the icon and thumbnail cache. This will also load new icon and thumbnail handlers that have been registered. Note, however, that icon overlay handlers are not reloaded.
 
 The strings pointed to by <i>dwItem1</i> and <i>dwItem2</i> can be either ANSI or Unicode.
-

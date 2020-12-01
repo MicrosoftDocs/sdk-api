@@ -54,7 +54,7 @@ The <code>IPhotoAcquireSettings</code> interface is used to work with image acqu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireSettings</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquireSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPhotoAcquireSettings</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPhotoAcquireSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPhotoAcquireSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getacquisitiontime">GetAcquisitionTime</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getacquisitiontime">GetAcquisitionTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the acquisition time of the current session.
@@ -78,7 +78,7 @@ Retrieves the acquisition time of the current session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd370746(v=vs.85)">GetDateTakenDelta</a>
+<a href="/previous-versions/dd370746(v=vs.85)">GetDateTakenDelta</a>
 </td>
 <td align="left" width="63%">
 Retrieves a length of time to add to or subtract from the acquisition time. Not implemented in this release.
@@ -87,7 +87,7 @@ Retrieves a length of time to add to or subtract from the acquisition time. Not 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd370747(v=vs.85)">GetDeleteAcquiredItems</a>
+<a href="/previous-versions/dd370747(v=vs.85)">GetDeleteAcquiredItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether items are to be deleted from the device after transfer.
@@ -96,7 +96,7 @@ Retrieves a value indicating whether items are to be deleted from the device aft
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getflags">GetFlags</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the photo acquire flags.
@@ -105,7 +105,7 @@ Retrieves the photo acquire flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getgrouptag">GetGroupTag</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getgrouptag">GetGroupTag</a>
 </td>
 <td align="left" width="63%">
 Retrieves a tag string for the group of files being downloaded from the device.
@@ -114,7 +114,7 @@ Retrieves a tag string for the group of files being downloaded from the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getoutputfilenametemplate">GetOutputFilenameTemplate</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getoutputfilenametemplate">GetOutputFilenameTemplate</a>
 </td>
 <td align="left" width="63%">
 Retrieves a format string (template) that specifies the format of file names.
@@ -123,7 +123,7 @@ Retrieves a format string (template) that specifies the format of file names.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getsequencepaddingwidth">GetSequencePaddingWidth</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getsequencepaddingwidth">GetSequencePaddingWidth</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating how wide sequential fields in file names will be.
@@ -132,7 +132,7 @@ Retrieves a value indicating how wide sequential fields in file names will be.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getsequencezeropadding">GetSequenceZeroPadding</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-getsequencezeropadding">GetSequenceZeroPadding</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether zeros or spaces will be used to pad sequential file names.
@@ -141,7 +141,7 @@ Retrieves a value indicating whether zeros or spaces will be used to pad sequent
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-initializefromregistry">InitializeFromRegistry</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-initializefromregistry">InitializeFromRegistry</a>
 </td>
 <td align="left" width="63%">
 Specifies a registry key from which to initialize settings.
@@ -150,7 +150,7 @@ Specifies a registry key from which to initialize settings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setacquisitiontime">SetAcquisitionTime</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setacquisitiontime">SetAcquisitionTime</a>
 </td>
 <td align="left" width="63%">
 Sets the acquisition time explicitly.
@@ -159,7 +159,7 @@ Sets the acquisition time explicitly.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd370755(v=vs.85)">SetDateTakenDelta</a>
+<a href="/previous-versions/dd370755(v=vs.85)">SetDateTakenDelta</a>
 </td>
 <td align="left" width="63%">
 Sets the time interval to add to or subtract from the "Date Taken" property of each acquired file.
@@ -168,7 +168,7 @@ Sets the time interval to add to or subtract from the "Date Taken" property of e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd370756(v=vs.85)">SetDeleteAcquiredItems</a>
+<a href="/previous-versions/dd370756(v=vs.85)">SetDeleteAcquiredItems</a>
 </td>
 <td align="left" width="63%">
 Sets a value indicating whether acquired items are to be deleted from the device after transfer.
@@ -177,7 +177,7 @@ Sets a value indicating whether acquired items are to be deleted from the device
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setflags">SetFlags</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the photo acquire flags.
@@ -186,7 +186,7 @@ Sets the photo acquire flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setgrouptag">SetGroupTag</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setgrouptag">SetGroupTag</a>
 </td>
 <td align="left" width="63%">
 Sets the group tag for an acquisition session.
@@ -195,7 +195,7 @@ Sets the group tag for an acquisition session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setoutputfilenametemplate">SetOutputFilenameTemplate</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setoutputfilenametemplate">SetOutputFilenameTemplate</a>
 </td>
 <td align="left" width="63%">
 Sets a format string (template) that specifies the format of filenames.
@@ -204,7 +204,7 @@ Sets a format string (template) that specifies the format of filenames.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setsequencepaddingwidth">SetSequencePaddingWidth</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setsequencepaddingwidth">SetSequencePaddingWidth</a>
 </td>
 <td align="left" width="63%">
 Sets a value indicating how wide sequential fields in filenames will be.
@@ -213,7 +213,7 @@ Sets a value indicating how wide sequential fields in filenames will be.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setsequencezeropadding">SetSequenceZeroPadding</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setsequencezeropadding">SetSequenceZeroPadding</a>
 </td>
 <td align="left" width="63%">
 Sets a value indicating whether zeros or spaces are used to pad file names.
@@ -221,4 +221,3 @@ Sets a value indicating whether zeros or spaces are used to pad file names.
 </td>
 </tr>
 </table>
-

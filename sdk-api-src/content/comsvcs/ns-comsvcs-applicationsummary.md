@@ -70,11 +70,11 @@ The application ID of the COM+ application. The special value {84ac4168-6fe5-430
 
 ### -field Type
 
-The type of COM+ application. For a list of values, see <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-complus_apptype">COMPLUS_APPTYPE</a>.
+The type of COM+ application. For a list of values, see <a href="/windows/desktop/api/comsvcs/ne-comsvcs-complus_apptype">COMPLUS_APPTYPE</a>.
 
 ### -field ApplicationName
 
-The name of the COM+ application, or an empty string for the SWC pseudo-application. Space for this string is allocated by the method called and freed by the caller (for more information, see <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>). This member is not returned by default. To return this member, specify the GATD_INCLUDE_APPLICATION_NAME flag when you call a method that returns an <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocesssummary">ApplicationProcessSummary</a> structure.
+The name of the COM+ application, or an empty string for the SWC pseudo-application. Space for this string is allocated by the method called and freed by the caller (for more information, see <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>). This member is not returned by default. To return this member, specify the GATD_INCLUDE_APPLICATION_NAME flag when you call a method that returns an <a href="/windows/desktop/api/comsvcs/ns-comsvcs-applicationprocesssummary">ApplicationProcessSummary</a> structure.
 
 ### -field NumTrackedComponents
 
@@ -86,5 +86,4 @@ The number of component instances from this COM+ application in the hosting proc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>

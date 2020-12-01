@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>MANAGEDAPPLICATION</b> structure contains information about an application. The function <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-getmanagedapplications">GetManagedApplications</a> returns an array of <b>MANAGEDAPPLICATION</b> structures.
+The <b>MANAGEDAPPLICATION</b> structure contains information about an application. The function <a href="/windows/desktop/api/appmgmt/nf-appmgmt-getmanagedapplications">GetManagedApplications</a> returns an array of <b>MANAGEDAPPLICATION</b> structures.
 
 ## -struct-fields
 
@@ -88,11 +88,11 @@ The user-friendly name for the GPO from which this application is deployed.
 
 ### -field ProductId
 
-If this application is installed by <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal">Windows Installer</a>, this member is the ProductId GUID.
+If this application is installed by <a href="/windows/desktop/Msi/windows-installer-portal">Windows Installer</a>, this member is the ProductId GUID.
 
 ### -field Language
 
-The numeric language identifier that indicates the language version of the application. For a list of language numeric identifiers, see the <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifier-constants-and-strings">Language Identifier Constants and Strings</a> topic.
+The numeric language identifier that indicates the language version of the application. For a list of language numeric identifiers, see the <a href="/windows/desktop/Intl/language-identifier-constants-and-strings">Language Identifier Constants and Strings</a> topic.
 
 ### -field pszOwner
 
@@ -122,7 +122,7 @@ Indicates the type of package used to install the application. This member can h
 
 #### MANAGED_APPTYPE_WINDOWSINSTALLER
 
-The application is installed using the <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal">Windows Installer</a>.
+The application is installed using the <a href="/windows/desktop/Msi/windows-installer-portal">Windows Installer</a>.
 
 
 
@@ -142,13 +142,12 @@ This parameter is <b>TRUE</b> if the application is currently installed and  is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-getmanagedapplications">GetManagedApplications</a>
+<a href="/windows/desktop/api/appmgmt/nf-appmgmt-getmanagedapplications">GetManagedApplications</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>
-
+<a href="/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>

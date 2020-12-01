@@ -51,39 +51,38 @@ api_name:
 
 ## -description
 
-The <b>CustomLineCap::GetStrokeCaps</b> method gets the end cap styles for both the start line cap and the end line cap. Line caps are <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> objects that end the individual lines within a path.
+The <b>CustomLineCap::GetStrokeCaps</b> method gets the end cap styles for both the start line cap and the end line cap. Line caps are <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> objects that end the individual lines within a path.
 
 ## -parameters
 
 ### -param startCap [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a>*</b>
+Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a>*</b>
 
-Pointer to a variable that receives an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> enumeration that indicates the line cap used at the start of the line to be drawn.
+Pointer to a variable that receives an element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> enumeration that indicates the line cap used at the start of the line to be drawn.
 
 ### -param endCap [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a>*</b>
+Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a>*</b>
 
-Pointer to a variable that receives an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> enumeration that indicates the line cap used at the end of the line to be drawn.
+Pointer to a variable that receives an element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> enumeration that indicates the line cap used at the end of the line to be drawn.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a>
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
-
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>

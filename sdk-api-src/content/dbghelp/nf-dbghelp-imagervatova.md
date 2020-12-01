@@ -59,12 +59,12 @@ Locates a relative virtual address (RVA) within the image header of a file that 
 
 A pointer to an 
 <a href="/windows/win32/api/winnt/ns-winnt-image_nt_headers32">IMAGE_NT_HEADERS</a> structure. This structure can be obtained by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagentheader">ImageNtHeader</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagentheader">ImageNtHeader</a> function.
 
 ### -param Base [in]
 
 The base address of an image that is mapped into memory through a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> function.
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> function.
 
 ### -param Rva [in]
 
@@ -73,14 +73,14 @@ The relative virtual address to be located.
 ### -param LastRvaSection [in, optional]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> structure that specifies the last RVA section. This is an optional parameter. When specified, it points to a variable that contains the last section value used for the specified image to translate an RVA to a VA.
+<a href="/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> structure that specifies the last RVA section. This is an optional parameter. When specified, it points to a variable that contains the last section value used for the specified image to translate an RVA to a VA.
 
 ## -returns
 
 If the function succeeds, the return value is the virtual address in the mapped file.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -91,7 +91,7 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
@@ -99,13 +99,12 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagentheader">ImageNtHeader</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagentheader">ImageNtHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>

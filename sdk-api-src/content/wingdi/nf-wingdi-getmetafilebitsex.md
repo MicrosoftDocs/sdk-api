@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>GetMetaFileBitsEx</b> function retrieves the contents of a Windows-format metafile and copies them into the specified buffer.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilebits">GetEnhMetaFileBits</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilebits">GetEnhMetaFileBits</a>.</div><div> </div>
 
 ## -parameters
 
@@ -79,33 +79,32 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-After the Windows-metafile bits are retrieved, they can be used to create a memory-based metafile by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmetafilebitsex">SetMetaFileBitsEx</a> function.
+After the Windows-metafile bits are retrieved, they can be used to create a memory-based metafile by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-setmetafilebitsex">SetMetaFileBitsEx</a> function.
 
-The <b>GetMetaFileBitsEx</b> function does not invalidate the metafile handle. An application must delete this handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletemetafile">DeleteMetaFile</a> function.
+The <b>GetMetaFileBitsEx</b> function does not invalidate the metafile handle. An application must delete this handle by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-deletemetafile">DeleteMetaFile</a> function.
 
-To convert a Windows-format metafile into an enhanced-format metafile, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a> function.
+To convert a Windows-format metafile into an enhanced-format metafile, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletemetafile">DeleteMetaFile</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deletemetafile">DeleteMetaFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilebits">GetEnhMetaFileBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getenhmetafilebits">GetEnhMetaFileBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
+<a href="/windows/desktop/gdi/metafile-functions">Metafile Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmetafilebitsex">SetMetaFileBitsEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setmetafilebitsex">SetMetaFileBitsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setwinmetafilebits">SetWinMetaFileBits</a>

@@ -64,15 +64,14 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-When removing items, note that the index for the first item in the collection is 1 and the index for the last item is the value of the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itriggercollection-get_count">Count</a> property.
+When removing items, note that the index for the first item in the collection is 1 and the index for the last item is the value of the <a href="/windows/desktop/api/taskschd/nf-taskschd-itriggercollection-get_count">Count</a> property.
 
 This method will return <b>E_INVALIDARG</b> when the value passed to the <i>index</i> parameter is not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itriggercollection">ITriggerCollection</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itriggercollection">ITriggerCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRGRADIENTFILL</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a> enhanced metafile record.
+The <b>EMRGRADIENTFILL</b> structure contains members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a> enhanced metafile record.
 
 ## -struct-fields
 
@@ -72,7 +72,7 @@ The number of vertices.
 
 ### -field nTri
 
-The number of rectangles or triangles to be passed to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a>.
+The number of rectangles or triangles to be passed to <a href="/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a>.
 
 ### -field ulMode
 
@@ -89,7 +89,7 @@ The gradient fill mode. This member can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-In this mode, two endpoints describe a rectangle. The rectangle is defined to have a constant color (specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structure) for the left and right edges. GDI interpolates the color from the left to right edge and fills the interior.
+In this mode, two endpoints describe a rectangle. The rectangle is defined to have a constant color (specified by the <a href="/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structure) for the left and right edges. GDI interpolates the color from the left to right edge and fills the interior.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ In this mode, two endpoints describe a rectangle. The rectangle is defined to ha
 </dl>
 </td>
 <td width="60%">
-In this mode, two endpoints describe a rectangle. The rectangle is defined to have a constant color (specified by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structure) for the top and bottom edges. GDI interpolates the color from the top to bottom edge and fills the interior.
+In this mode, two endpoints describe a rectangle. The rectangle is defined to have a constant color (specified by the <a href="/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structure) for the top and bottom edges. GDI interpolates the color from the top to bottom edge and fills the interior.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ In this mode, two endpoints describe a rectangle. The rectangle is defined to ha
 </dl>
 </td>
 <td width="60%">
-In this mode, an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structures is passed to GDI along with a list of array indexes that describe separate triangles. GDI performs linear interpolation between triangle vertices and fills the interior. Drawing is done directly in 24- and 32-bpp modes. Dithering is performed in 16-, 8-, 4-, and 1-bpp mode.
+In this mode, an array of <a href="/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structures is passed to GDI along with a list of array indexes that describe separate triangles. GDI performs linear interpolation between triangle vertices and fills the interior. Drawing is done directly in 24- and 32-bpp modes. Dithering is performed in 16-, 8-, 4-, and 1-bpp mode.
 
 </td>
 </tr>
@@ -117,37 +117,37 @@ In this mode, an array of <a href="https://docs.microsoft.com/windows/desktop/ap
 
 ### -field Ver
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structures that each define a vertex.
+An array of <a href="/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structures that each define a vertex.
 
 ## -remarks
 
-This is a variable-length structure. The <b>Ver</b> member designates the beginning of the variable-length area. First comes an array of <b>nVer</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structures to pass the vertices. Next comes an array of either <b>nTri</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_triangle">GRADIENT_TRIANGLE</a> structures or <b>nTri</b> <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a> structures, depending on the value of <b>ulMode</b> (triangles or rectangles).
+This is a variable-length structure. The <b>Ver</b> member designates the beginning of the variable-length area. First comes an array of <b>nVer</b> <a href="/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a> structures to pass the vertices. Next comes an array of either <b>nTri</b> <a href="/windows/desktop/api/wingdi/ns-wingdi-gradient_triangle">GRADIENT_TRIANGLE</a> structures or <b>nTri</b> <a href="/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a> structures, depending on the value of <b>ulMode</b> (triangles or rectangles).
 
 This structure is to be used during metafile playback.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_triangle">GRADIENT_TRIANGLE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-gradient_triangle">GRADIENT_TRIANGLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
@@ -155,5 +155,4 @@ Metafiles
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

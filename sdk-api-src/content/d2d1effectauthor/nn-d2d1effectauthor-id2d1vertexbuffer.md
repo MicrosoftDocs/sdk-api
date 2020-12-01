@@ -54,7 +54,7 @@ Defines a mappable single-dimensional vertex buffer.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1VertexBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1VertexBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1VertexBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1VertexBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1VertexBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1vertexbuffer-map">Map</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1vertexbuffer-map">Map</a>
 </td>
 <td align="left" width="63%">
 Maps the provided data into user memory.
@@ -78,7 +78,7 @@ Maps the provided data into user memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1vertexbuffer-unmap">Unmap</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1vertexbuffer-unmap">Unmap</a>
 </td>
 <td align="left" width="63%">
 Unmaps the vertex buffer.
@@ -89,13 +89,12 @@ Unmaps the vertex buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1renderinfo">ID2D1RenderInfo</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1renderinfo">ID2D1RenderInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

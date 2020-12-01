@@ -60,21 +60,20 @@ Contains extended font signature information, including two code page bitfields 
 
 ### -field lsUsb
 
-A 128-bit Unicode subset bitfield (USB) identifying up to 122 Unicode subranges. Each bit, except the five most significant bits, represents a single subrange. The most significant bit is always 1; the second most significant is reserved and must be 0. Unicode subsets are numbered in accordance with the <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-font-format">OpenType font specification</a>. For a list of possible bitfield values, see <a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-subset-bitfields">Unicode Subset Bitfields</a>.
+A 128-bit Unicode subset bitfield (USB) identifying up to 122 Unicode subranges. Each bit, except the five most significant bits, represents a single subrange. The most significant bit is always 1; the second most significant is reserved and must be 0. Unicode subsets are numbered in accordance with the <a href="/windows/desktop/Intl/opentype-font-format">OpenType font specification</a>. For a list of possible bitfield values, see <a href="/windows/desktop/Intl/unicode-subset-bitfields">Unicode Subset Bitfields</a>.
 
 ### -field lsCsbDefault
 
-A code page bitfield that indicates the default OEM and ANSI code pages for a locale. The code pages can be identified by separate bits or a single bit representing a common ANSI and OEM code page. For a list of possible bitfield values, see <a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-bitfields">Code Page Bitfields</a>.
+A code page bitfield that indicates the default OEM and ANSI code pages for a locale. The code pages can be identified by separate bits or a single bit representing a common ANSI and OEM code page. For a list of possible bitfield values, see <a href="/windows/desktop/Intl/code-page-bitfields">Code Page Bitfields</a>.
 
 ### -field lsCsbSupported
 
-A code page bitfield that indicates all the code pages in which the locale can be supported. For a list of possible bitfield values, see <a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-bitfields">Code Page Bitfields</a>.
+A code page bitfield that indicates all the code pages in which the locale can be supported. For a list of possible bitfield values, see <a href="/windows/desktop/Intl/code-page-bitfields">Code Page Bitfields</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/unicode-and-character-set-structures">Unicode and Character Set Structures</a>
-
+<a href="/windows/desktop/Intl/unicode-and-character-set-structures">Unicode and Character Set Structures</a>

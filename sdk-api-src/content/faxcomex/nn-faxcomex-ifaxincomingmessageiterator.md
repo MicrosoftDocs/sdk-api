@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IFaxIncomingMessageIterator</b> interface is used by a fax client application to move through the archive of inbound fax messages that the fax service has successfully received. Because the <b>IFaxIncomingMessageIterator</b> interface is a forward iterator, you can only move forward through the archive from beginning to end, and you can access only one fax message (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage">IFaxIncomingMessage</a> object) at a time.
+The <b>IFaxIncomingMessageIterator</b> interface is used by a fax client application to move through the archive of inbound fax messages that the fax service has successfully received. Because the <b>IFaxIncomingMessageIterator</b> interface is a forward iterator, you can only move forward through the archive from beginning to end, and you can access only one fax message (<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage">IFaxIncomingMessage</a> object) at a time.
 
-The <b>IFaxIncomingMessageIterator</b> interface is accessed through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingarchive">IFaxIncomingArchive</a> interface.
+The <b>IFaxIncomingMessageIterator</b> interface is accessed through the <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingarchive">IFaxIncomingArchive</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingMessageIterator</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxIncomingMessageIterator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingMessageIterator</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxIncomingMessageIterator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,19 +72,19 @@ The <b>IFaxIncomingMessageIterator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-movefirst-vb">MoveFirst</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-movefirst-vb">MoveFirst</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-movefirst-vb">MoveFirst</a> method moves the archive cursor to the first fax message in the archive of inbound faxes.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-movefirst-vb">MoveFirst</a> method moves the archive cursor to the first fax message in the archive of inbound faxes.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-movenext-vb">MoveNext</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-movenext-vb">MoveNext</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-movenext-vb">MoveNext</a> method moves the archive cursor to the next message in the archive of inbound faxes.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-movenext-vb">MoveNext</a> method moves the archive cursor to the next message in the archive of inbound faxes.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-ateof-vb">AtEOF</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-ateof-vb">AtEOF</a>
 
 
 </td>
@@ -108,14 +108,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-ateof-vb">AtEOF</a> property is the end of file marker for the archive of inbound fax messages. If this property is equal to <b>TRUE</b>, the archive cursor has moved beyond the last fax message in the inbound fax archive. If this property is equal to <b>FALSE</b>, the archive cursor has not yet reached the end of the archive.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-ateof-vb">AtEOF</a> property is the end of file marker for the archive of inbound fax messages. If this property is equal to <b>TRUE</b>, the archive cursor has moved beyond the last fax message in the inbound fax archive. If this property is equal to <b>FALSE</b>, the archive cursor has not yet reached the end of the archive.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-message-vb">Message</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-message-vb">Message</a>
 
 
 </td>
@@ -124,14 +124,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-message-vb">Message</a> property retrieves the inbound fax message under the archive cursor.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator-message-vb">Message</a> property retrieves the inbound fax message under the archive cursor.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxincomingmessageiterator-get_prefetchsize">PrefetchSize</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxincomingmessageiterator-get_prefetchsize">PrefetchSize</a>
 
 
 </td>
@@ -140,7 +140,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxincomingmessageiterator-get_prefetchsize">PrefetchSize</a> property indicates the size of the prefetch (read-ahead) buffer.
+The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxincomingmessageiterator-get_prefetchsize">PrefetchSize</a> property indicates the size of the prefetch (read-ahead) buffer.
 
 </td>
 </tr>
@@ -148,17 +148,16 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fa
 
 ## -remarks
 
-To create a <b>FaxIncomingMessageIterator</b> object in C++, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingarchive-getmessages-vb">IFaxIncomingArchive::GetMessages</a> method.
+To create a <b>FaxIncomingMessageIterator</b> object in C++, call the <a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingarchive-getmessages-vb">IFaxIncomingArchive::GetMessages</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator">FaxIncomingMessageIterator</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessageiterator">FaxIncomingMessageIterator</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingarchive">IFaxIncomingArchive</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingarchive">IFaxIncomingArchive</a>

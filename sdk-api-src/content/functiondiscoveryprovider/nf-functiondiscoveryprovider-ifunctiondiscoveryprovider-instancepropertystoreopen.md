@@ -52,13 +52,13 @@ api_name:
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Opens the property store of the provider. This method is called whenever <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore">IFunctionInstance::OpenPropertyStore</a> is called if the provider did not provide a property store at creation time.  The provider can provide the property store at this time, or handle the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderproperties">IProviderProperties</a> methods as they are called.
+Opens the property store of the provider. This method is called whenever <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstance-openpropertystore">IFunctionInstance::OpenPropertyStore</a> is called if the provider did not provide a property store at creation time.  The provider can provide the property store at this time, or handle the <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderproperties">IProviderProperties</a> methods as they are called.
 
 ## -parameters
 
 ### -param pIFunctionInstance [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface for the store that is to be opened. Each property store is associated with a function instance.
+A pointer to the <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a> interface for the store that is to be opened. Each property store is associated with a function instance.
 
 ### -param iProviderInstanceContext [in]
 
@@ -158,5 +158,4 @@ The method is unable to allocate the memory required to perform this operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
-
+<a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>

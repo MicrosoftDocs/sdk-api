@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <code>SetNotify</code> method sets or removes a callback on the allocator. The allocator calls the callback method whenever the allocator's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imemallocator-releasebuffer">IMemAllocator::ReleaseBuffer</a> method is called.
+The <code>SetNotify</code> method sets or removes a callback on the allocator. The allocator calls the callback method whenever the allocator's <a href="/windows/desktop/api/strmif/nf-strmif-imemallocator-releasebuffer">IMemAllocator::ReleaseBuffer</a> method is called.
 
 ## -parameters
 
 ### -param pNotify
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocatornotifycallbacktemp">IMemAllocatorNotifyCallbackTemp</a> interface that will be used for the callback. The caller must implement the interface. Use the value <b>NULL</b> to remove the callback.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-imemallocatornotifycallbacktemp">IMemAllocatorNotifyCallbackTemp</a> interface that will be used for the callback. The caller must implement the interface. Use the value <b>NULL</b> to remove the callback.
 
 ## -returns
 
@@ -71,9 +71,8 @@ The allocator holds a reference count on the caller's <b>IMemAllocatorNotifyCall
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocatorcallbacktemp">IMemAllocatorCallbackTemp Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imemallocatorcallbacktemp">IMemAllocatorCallbackTemp Interface</a>

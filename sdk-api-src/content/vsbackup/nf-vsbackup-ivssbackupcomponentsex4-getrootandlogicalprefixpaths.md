@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Normalizes a local volume path or UNC share path so that it can be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a> method.
+Normalizes a local volume path or UNC share path so that it can be passed to the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a> method.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The path to be normalized.
 
 ### -param ppwszRootPath [out]
 
-Receives the root path that should be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a> method.
+Receives the root path that should be passed to the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a> method.
 
 ### -param ppwszLogicalPrefix [out]
 
@@ -120,9 +120,9 @@ The caller is out of memory or other system resources.
 
 ## -remarks
 
-This method normalizes a local volume path or UNC share path and separates it into a root path and a logical prefix path. The root path can then be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a> method.
+This method normalizes a local volume path or UNC share path and separates it into a root path and a logical prefix path. The root path can then be passed to the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a> method.
 
-If <i>pwszFilePath</i> is a local volume path, the root path will be similar to a volume mount point. In this case, the root and the logical prefix paths map to the results of <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>, respectively.
+If <i>pwszFilePath</i> is a local volume path, the root path will be similar to a volume mount point. In this case, the root and the logical prefix paths map to the results of <a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a> and <a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>, respectively.
 
 If <i>pwszFilePath</i> is a UNC share path, the root and logical prefix paths map to the root path of the file share and the fully evaluated physical share path (which will take into account DFS and cluster deployment), respectively.
 
@@ -130,9 +130,8 @@ If you call this method more than once for the same shadow copy set creation ope
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-addtosnapshotset">IVssBackupComponents::AddToSnapshotSet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex4">IVssBackupComponentsEx4</a>
-
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex4">IVssBackupComponentsEx4</a>

@@ -108,26 +108,25 @@ This method is equivalent to setting the following properties:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-colorconv-srcleft">MFPKEY_COLORCONV_SRCLEFT</a>
+<a href="/windows/desktop/medfound/mfpkey-colorconv-srcleft">MFPKEY_COLORCONV_SRCLEFT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-colorconv-srctop">MFPKEY_COLORCONV_SRCTOP</a>
+<a href="/windows/desktop/medfound/mfpkey-colorconv-srctop">MFPKEY_COLORCONV_SRCTOP</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-colorconv-dstleft">MFPKEY_COLORCONV_DSTLEFT</a>
+<a href="/windows/desktop/medfound/mfpkey-colorconv-dstleft">MFPKEY_COLORCONV_DSTLEFT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-colorconv-dsttop">MFPKEY_COLORCONV_DSTTOP</a>
+<a href="/windows/desktop/medfound/mfpkey-colorconv-dsttop">MFPKEY_COLORCONV_DSTTOP</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-colorconv-width">MFPKEY_COLORCONV_WIDTH</a>
+<a href="/windows/desktop/medfound/mfpkey-colorconv-width">MFPKEY_COLORCONV_WIDTH</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mfpkey-colorconv-height">MFPKEY_COLORCONV_HEIGHT</a>
+<a href="/windows/desktop/medfound/mfpkey-colorconv-height">MFPKEY_COLORCONV_HEIGHT</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcolorconvprops">IWMColorConvProps</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcolorconvprops">IWMColorConvProps</a>

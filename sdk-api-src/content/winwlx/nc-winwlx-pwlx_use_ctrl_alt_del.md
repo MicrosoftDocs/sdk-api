@@ -50,30 +50,29 @@ api_name:
 
 ## -description
 
-Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to tell <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> to use the standard CTRL+ALT+DEL key combination as a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS).
+Called by <a href="/windows/desktop/SecGloss/g-gly">GINA</a> to tell <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> to use the standard CTRL+ALT+DEL key combination as a <a href="/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS).
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>This function has been superseded by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_option">WlxSetOption</a> function called with <i>Option</i> parameter set to WLX_OPTION_USE_CTRL_ALT_DEL.
+<a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_option">WlxSetOption</a> function called with <i>Option</i> parameter set to WLX_OPTION_USE_CTRL_ALT_DEL.
 
 ## -parameters
 
 ### -param hWlx [in]
 
-[in] Winlogon handle provided to GINA in the <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
+[in] Winlogon handle provided to GINA in the <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 ## -remarks
 
 If GINA uses this function, it is not required to use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_sas_notify">WlxSasNotify</a> function. However, if GINA is monitoring for other SASs in addition to CTRL+ALT+DEL, it must use <b>WlxSasNotify</b> to deliver the additional SAS event notifications.
+<a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_sas_notify">WlxSasNotify</a> function. However, if GINA is monitoring for other SASs in addition to CTRL+ALT+DEL, it must use <b>WlxSasNotify</b> to deliver the additional SAS event notifications.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_sas_notify">WlxSasNotify</a>
+<a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_sas_notify">WlxSasNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_option">WlxSetOption</a>
-
+<a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_option">WlxSetOption</a>

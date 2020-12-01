@@ -55,7 +55,7 @@ The <b>IVssProviderNotifications</b> interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssProviderNotifications</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssProviderNotifications</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssProviderNotifications</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssProviderNotifications</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IVssProviderNotifications</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidernotifications-onload">OnLoad</a>
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivssprovidernotifications-onload">OnLoad</a>
 </td>
 <td align="left" width="63%">
 Notifies the provider that it was just loaded.
@@ -79,7 +79,7 @@ Notifies the provider that it was just loaded.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsprov/nf-vsprov-ivssprovidernotifications-onunload">OnUnload</a>
+<a href="/windows/desktop/api/vsprov/nf-vsprov-ivssprovidernotifications-onunload">OnUnload</a>
 </td>
 <td align="left" width="63%">
 Notifies the provider that it was just unloaded.
@@ -90,5 +90,4 @@ Notifies the provider that it was just unloaded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
-
+<a href="/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>

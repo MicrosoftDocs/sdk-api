@@ -71,19 +71,19 @@ A value of <b>FALSE</b> indicates that the application is in control, and that t
 If the function succeeds, the return value is non-zero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. One way the function can fail is if the caller does not possess the SE_SYSTEMTIME_NAME privilege.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. One way the function can fail is if the caller does not possess the SE_SYSTEMTIME_NAME privilege.
 
 ## -remarks
 
 To use this function, the caller must have system-time privilege (SE_SYSTEMTIME_NAME). This privilege is disabled by default. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function to enable the privilege before calling 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> function to enable the privilege before calling 
 this function, then disable the privilege after the function call. For more information, see 
 the code example below.
 
 
 #### Examples
 
-This sample demonstrates how to enable system-time privileges, adjust the system clock using <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustmentprecise">GetSystemTimeAdjustmentPrecise</a> and <b>SetSystemTimeAdjustmentPrecise</b>, and how to neatly print the current system-time adjustments.
+This sample demonstrates how to enable system-time privileges, adjust the system clock using <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustmentprecise">GetSystemTimeAdjustmentPrecise</a> and <b>SetSystemTimeAdjustmentPrecise</b>, and how to neatly print the current system-time adjustments.
 
 
 ```cpp
@@ -268,5 +268,4 @@ RunNewAdjustmentSequence(DWORD dwPPMAdjustment)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustmentprecise">GetSystemTimeAdjustmentPrecise</a>
-
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtimeadjustmentprecise">GetSystemTimeAdjustmentPrecise</a>

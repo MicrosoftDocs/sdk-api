@@ -52,7 +52,7 @@ api_name:
 
 Enables a class factory object, in any sort of object server, to control object creation through licensing. 
 
-This interface is an extension to <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>. This extension enables a class factory executing on a licensed machine to provide a license key that can be used later to create an object instance on an unlicensed machine. Such considerations are important for objects like controls that are used to build applications on a licensed machine. Subsequently, the application built must be able to run on an unlicensed machine. The license key gives only that one client application the right to instantiate objects through <b>IClassFactory2</b> when a full machine license does not exist.
+This interface is an extension to <a href="/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>. This extension enables a class factory executing on a licensed machine to provide a license key that can be used later to create an object instance on an unlicensed machine. Such considerations are important for objects like controls that are used to build applications on a licensed machine. Subsequently, the application built must be able to run on an unlicensed machine. The license key gives only that one client application the right to instantiate objects through <b>IClassFactory2</b> when a full machine license does not exist.
 
 ## -inheritance
 
@@ -71,7 +71,7 @@ The <b>IClassFactory2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-createinstancelic">CreateInstanceLic</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-createinstancelic">CreateInstanceLic</a>
 </td>
 <td align="left" width="63%">
 Creates an instance of the licensed object for the specified license key.
@@ -80,7 +80,7 @@ Creates an instance of the licensed object for the specified license key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-getlicinfo">GetLicInfo</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-getlicinfo">GetLicInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about the licensing capabilities of this class factory.
@@ -89,7 +89,7 @@ Retrieves information about the licensing capabilities of this class factory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-requestlickey">RequestLicKey</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iclassfactory2-requestlickey">RequestLicKey</a>
 </td>
 <td align="left" width="63%">
 Creates a license key that the caller can save and use later to create an instance of the licensed object.
@@ -100,5 +100,4 @@ Creates a license key that the caller can save and use later to create an instan
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>
-
+<a href="/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>

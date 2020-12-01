@@ -56,20 +56,19 @@ This function is not supported.
 
 The <b>ldap_free_controls</b> function is an 
    obsolete function which frees an array of 
-   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapcontrola">LDAPControl</a> structures.
-<div class="alert"><b>Note</b>  Obsolete. Use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_controls_free">ldap_controls_free</a> 
+   <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapcontrola">LDAPControl</a> structures.
+<div class="alert"><b>Note</b>  Obsolete. Use the <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_controls_free">ldap_controls_free</a> 
     function.</div><div> </div>
 
 ## -parameters
 
 ### -param Controls [in]
 
-The array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapcontrola">LDAPControl</a> structures to free.
+The array of <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapcontrola">LDAPControl</a> structures to free.
 
 ## -returns
 
 If the function succeeds, <b>LDAP_SUCCESS</b> is returned.
 
 If the function fails, an error code is returned. For more information, see 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
-
+       <a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.

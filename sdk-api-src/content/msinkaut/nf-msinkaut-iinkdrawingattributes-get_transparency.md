@@ -65,20 +65,20 @@ This property is read/write.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  The transparent rendering effect may be different between dynamic and static rendering. In dynamic rendering the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object is rendered as it is drawn, as it is in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_dynamicrendering">DynamicRendering</a> property, for example. In static rendering, you use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-draw">Draw</a> method of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer</a> object to render the <b>IInkStrokeDisp</b> object.</div>
+<div class="alert"><b>Note</b>  The transparent rendering effect may be different between dynamic and static rendering. In dynamic rendering the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object is rendered as it is drawn, as it is in the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_dynamicrendering">DynamicRendering</a> property, for example. In static rendering, you use the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-draw">Draw</a> method of the <a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer</a> object to render the <b>IInkStrokeDisp</b> object.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-draw">Draw Method [InkRenderer Class]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-draw">Draw Method [InkRenderer Class]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-drawstroke">DrawStroke Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-drawstroke">DrawStroke Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_dynamicrendering">DynamicRendering Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_dynamicrendering">DynamicRendering Property</a>
 
 
 
@@ -86,9 +86,8 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
+<a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
-
+<a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>

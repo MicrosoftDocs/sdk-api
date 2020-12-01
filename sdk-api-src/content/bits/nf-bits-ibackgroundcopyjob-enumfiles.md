@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 Retrieves an 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyfiles">IEnumBackgroundCopyFiles</a> interface pointer that you use to 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/enumerating-files-in-a-job">enumerate the files</a> in a job.
+<a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyfiles">IEnumBackgroundCopyFiles</a> interface pointer that you use to 
+<a href="/windows/desktop/Bits/enumerating-files-in-a-job">enumerate the files</a> in a job.
 
 ## -parameters
 
 ### -param pEnum [out]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyfiles">IEnumBackgroundCopyFiles</a> interface pointer that you use to enumerate the files in the job. Release <i>ppEnumFiles</i> when done.
+<a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyfiles">IEnumBackgroundCopyFiles</a> interface pointer that you use to enumerate the files in the job. Release <i>ppEnumFiles</i> when done.
 
 ## -returns
 
@@ -66,9 +66,8 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-enumjobs">IBackgroundCopyManager::EnumJobs</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-enumjobs">IBackgroundCopyManager::EnumJobs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyfiles">IEnumBackgroundCopyFiles</a>
-
+<a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyfiles">IEnumBackgroundCopyFiles</a>

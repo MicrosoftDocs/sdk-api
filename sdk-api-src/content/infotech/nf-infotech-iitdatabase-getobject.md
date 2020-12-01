@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves a specified <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-based interface on the object identified by the <i>dwObjInstance</i> parameter.
+Retrieves a specified <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>-based interface on the object identified by the <i>dwObjInstance</i> parameter.
 
 ## -parameters
 
@@ -125,5 +125,4 @@ The memory required for internal structures could not be allocated.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitdatabase">IITDatabase</a>
-
+<a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitdatabase">IITDatabase</a>

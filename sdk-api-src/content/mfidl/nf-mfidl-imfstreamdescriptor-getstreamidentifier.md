@@ -78,9 +78,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfstreamdescriptor">IMFStreamDescriptor</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfstreamdescriptor">IMFStreamDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-descriptors">Presentation Descriptors</a>
-
+<a href="/windows/desktop/medfound/presentation-descriptors">Presentation Descriptors</a>

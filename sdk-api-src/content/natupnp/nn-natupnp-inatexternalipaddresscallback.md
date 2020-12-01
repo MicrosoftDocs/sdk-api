@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INATExternalIPAddressCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INATExternalIPAddressCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INATExternalIPAddressCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INATExternalIPAddressCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>INATExternalIPAddressCallback</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nf-natupnp-inatexternalipaddresscallback-newexternalipaddress">NewExternalIPAddress</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nf-natupnp-inatexternalipaddresscallback-newexternalipaddress">NewExternalIPAddress</a>
 </td>
 <td align="left" width="63%">
 Notifies application when the NAT external address has changed.</p> (Inherited from <b>INATExternalIPAddressCallback</b>)</td>
@@ -79,17 +79,16 @@ Notifies application when the NAT external address has changed.</p> (Inherited f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inateventmanager">INATEventManager</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inateventmanager">INATEventManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inatnumberofentriescallback">INATNumberOfEntriesCallback</a>
+<a href="/previous-versions/windows/desktop/api/natupnp/nn-natupnp-inatnumberofentriescallback">INATNumberOfEntriesCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-interfaces">Network Address Translation Traversal Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
-
+<a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>

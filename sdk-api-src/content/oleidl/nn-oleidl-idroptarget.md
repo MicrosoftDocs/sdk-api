@@ -57,11 +57,11 @@ The <b>IDropTarget</b> interface is one of the interfaces you implement to provi
 <li>Communicating target feedback to the source so the source application can provide appropriate visual feedback such as setting the cursor.</li>
 <li>Implementing drag scrolling.</li>
 <li>Registering and revoking its application windows as drop targets.</li>
-</ul>The <b>IDropTarget</b> interface contains methods that handle all these responsibilities except registering and revoking the application window as a drop target, for which you must call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a> functions.
+</ul>The <b>IDropTarget</b> interface contains methods that handle all these responsibilities except registering and revoking the application window as a drop target, for which you must call the <a href="/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a> and the <a href="/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a> functions.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDropTarget</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDropTarget</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDropTarget</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDropTarget</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IDropTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">DragEnter</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">DragEnter</a>
 </td>
 <td align="left" width="63%">
 Determines whether a drop can be accepted and its effect if it is accepted.
@@ -85,7 +85,7 @@ Determines whether a drop can be accepted and its effect if it is accepted.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">DragLeave</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">DragLeave</a>
 </td>
 <td align="left" width="63%">
 Causes the drop target to suspend its feedback actions.
@@ -94,16 +94,16 @@ Causes the drop target to suspend its feedback actions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">DragOver</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">DragOver</a>
 </td>
 <td align="left" width="63%">
-Provides target feedback to the user through the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function.
+Provides target feedback to the user through the <a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">Drop</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">Drop</a>
 </td>
 <td align="left" width="63%">
 Drops the data into the target window.
@@ -114,21 +114,20 @@ Drops the data into the target window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>

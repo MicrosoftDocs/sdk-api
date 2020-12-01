@@ -60,5 +60,4 @@ This method returns S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicepool">IServicePool</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicepool">IServicePool</a>

@@ -64,7 +64,7 @@ Value always set to 0. This flag is reserved.
 
 ### -field DXGI_ADAPTER_FLAG_SOFTWARE
 
-Specifies a software adapter. For more info about this flag, see <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi">new info in Windows 8 about enumerating adapters</a>.
+Specifies a software adapter. For more info about this flag, see <a href="/windows/desktop/direct3ddxgi/d3d10-graphics-programming-guide-dxgi">new info in Windows 8 about enumerating adapters</a>.
 
 <b>Direct3D 11:  </b>This enumeration value is supported starting with Windows 8.
 
@@ -75,10 +75,9 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## -remarks
 
-The <b>DXGI_ADAPTER_FLAG</b> enumerated type is used by the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/ns-dxgi-dxgi_adapter_desc1">DXGI_ADAPTER_DESC1</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_adapter_desc2">DXGI_ADAPTER_DESC2</a> structure to 
+The <b>DXGI_ADAPTER_FLAG</b> enumerated type is used by the <b>Flags</b> member of the <a href="/windows/desktop/api/dxgi/ns-dxgi-dxgi_adapter_desc1">DXGI_ADAPTER_DESC1</a> or <a href="/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_adapter_desc2">DXGI_ADAPTER_DESC2</a> structure to 
       identify the type of DXGI adapter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
-
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>

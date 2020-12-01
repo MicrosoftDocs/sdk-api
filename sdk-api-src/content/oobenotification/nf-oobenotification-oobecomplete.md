@@ -64,6 +64,5 @@ Pointer to a variable that will receive the completion of OOBE upon success.
 
 <b>TRUE</b> if the OOBE completion state was successfully set. Otherwise, 
       <b>FALSE</b> if OOBE completion state was not set. If <b>FALSE</b>, 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will retrieve extended error 
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will retrieve extended error 
       information.
-

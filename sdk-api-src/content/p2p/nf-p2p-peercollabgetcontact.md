@@ -62,9 +62,9 @@ If this parameter is <b>NULL</b>, the 'Me' contact information for the calling p
 
 ### -param ppContact [out, optional]
 
-Pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure. It receives the address of a PEER_CONTACT structure containing peer contact information for the peer name supplied in <i>pwzPeerName</i>. When this parameter is <b>NULL</b>, this function returns E_INVALIDARG.
+Pointer to a pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure. It receives the address of a PEER_CONTACT structure containing peer contact information for the peer name supplied in <i>pwzPeerName</i>. When this parameter is <b>NULL</b>, this function returns E_INVALIDARG.
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a> on the address of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure to free this data.
+Call <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a> on the address of the <a href="/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure to free this data.
 
 ## -returns
 
@@ -112,9 +112,8 @@ The Windows Peer infrastructure is not initialized. Calling the relevant initial
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
-
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>

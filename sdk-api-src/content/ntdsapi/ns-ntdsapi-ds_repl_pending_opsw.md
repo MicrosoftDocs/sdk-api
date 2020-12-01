@@ -52,14 +52,14 @@ api_name:
 
 ## -description
 
-The <b>DS_REPL_PENDING_OPS</b> structure contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_opw">DS_REPL_OP</a> structures, which in turn describe the replication tasks currently executing and queued to execute, as returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> functions. The entries in the queue are processed in priority order, and the first entry is the one currently being executed.
+The <b>DS_REPL_PENDING_OPS</b> structure contains an array of <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_opw">DS_REPL_OP</a> structures, which in turn describe the replication tasks currently executing and queued to execute, as returned by the 
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a> and <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> functions. The entries in the queue are processed in priority order, and the first entry is the one currently being executed.
 
 ## -struct-fields
 
 ### -field ftimeCurrentOpStarted
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time at which the first operation in the queue began executing.
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time at which the first operation in the queue began executing.
 
 ### -field cNumPendingOps
 
@@ -71,17 +71,16 @@ Contains the number of elements in the <b>rgPendingOps</b> array.
 
 ### -field rgPendingOp
 
-Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_opw">DS_REPL_OP</a> structures that contain the replication tasks currently executing and queued to execute.
+Contains an array of <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_opw">DS_REPL_OP</a> structures that contain the replication tasks currently executing and queued to execute.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_opw">DS_REPL_OP</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_opw">DS_REPL_OP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
-
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>

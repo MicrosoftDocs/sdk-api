@@ -104,5 +104,4 @@ If the user chooses the <b>Undo</b> command before the undo state of the object 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>

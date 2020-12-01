@@ -57,11 +57,11 @@ Creates a new part resource in the package.
 
 ### -param resource [in]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372762(v=vs.85)">IXpsOMResource</a> interface of the part resource that will be added as a new part in the package. See Remarks for the types of resources that may be passed in this parameter.
+The <a href="/previous-versions/windows/desktop/dd372762(v=vs.85)">IXpsOMResource</a> interface of the part resource that will be added as a new part in the package. See Remarks for the types of resources that may be passed in this parameter.
 
 ## -returns
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -88,7 +88,7 @@ The method succeeded.
 <td width="60%">
 A resource with the same name as the resource that is referenced by <i>resource</i> has already been added to the stream or there is no  relationship that includes the resource that is referenced by <i>resource</i>.
 
-After <b>E_INVALIDARG</b> is returned, the stream or file is no longer valid and <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-close">Close</a> will return  <b>XPS_E_UNAVAILABLE_PACKAGE</b>.
+After <b>E_INVALIDARG</b> is returned, the stream or file is no longer valid and <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompackagewriter-close">Close</a> will return  <b>XPS_E_UNAVAILABLE_PACKAGE</b>.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ A severe error occurred and the contents of the XPS OM might be unrecoverable. S
 </table>
  
 
-This method calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging">Packaging</a> API. For information about the Packaging API return values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>.
+This method calls the <a href="/previous-versions/windows/desktop/opc/packaging">Packaging</a> API. For information about the Packaging API return values, see <a href="/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>.
 
 ## -remarks
 
@@ -115,19 +115,19 @@ This method creates a new part in the document package that corresponds to <i>re
 If this method returns an error, the package writer is no longer usable.
 
 The <i>resource</i> parameter must be one of the following:<ul>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresource">IXpsOMFontResource</a> interface of a font resource that is used in the current page or a page that has already been added.</li>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a> interface of an image resource that is used in the current page or  a page that has already been added.</li>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a> interface of  color profile resource that is used in the current page or a page that has already been added.</li>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomstoryfragmentsresource">IXpsOMStoryFragmentsResource</a> interface of a story fragments resource that is used in the current page or a page that has already been added.</li>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentstructureresource">IXpsOMDocumentStructureResource</a> interface of a document structure resource that is used in the current document or a document that has already been added.</li>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomsignatureblockresource">IXpsOMSignatureBlockResource</a> interface of a signature block resource that is used in the current document or a document that has already been added.</li>
+<li>The <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresource">IXpsOMFontResource</a> interface of a font resource that is used in the current page or a page that has already been added.</li>
+<li>The <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a> interface of an image resource that is used in the current page or  a page that has already been added.</li>
+<li>The <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresource">IXpsOMColorProfileResource</a> interface of  color profile resource that is used in the current page or a page that has already been added.</li>
+<li>The <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomstoryfragmentsresource">IXpsOMStoryFragmentsResource</a> interface of a story fragments resource that is used in the current page or a page that has already been added.</li>
+<li>The <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentstructureresource">IXpsOMDocumentStructureResource</a> interface of a document structure resource that is used in the current document or a document that has already been added.</li>
+<li>The <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomsignatureblockresource">IXpsOMSignatureBlockResource</a> interface of a signature block resource that is used in the current document or a document that has already been added.</li>
 </ul>
 
 
 This method returns an error if <i>resource</i> contains one of the following:<ul>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a> interface of a remote resource dictionary.</li>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource">IXpsOMPrintTicketResource</a> interface of a print ticket.</li>
-<li>The <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a> interface of a thumbnail image.</li>
+<li>The <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresource">IXpsOMRemoteDictionaryResource</a> interface of a remote resource dictionary.</li>
+<li>The <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource">IXpsOMPrintTicketResource</a> interface of a print ticket.</li>
+<li>The <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresource">IXpsOMImageResource</a> interface of a thumbnail image.</li>
 </ul>
 
 
@@ -135,29 +135,28 @@ This method returns an error when <i>resource</i> references a resource that has
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackagewriter">IXpsOMPackageWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsompackagewriter3d">IXpsOMPackageWriter3D</a>
+<a href="/windows/desktop/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsompackagewriter3d">IXpsOMPackageWriter3D</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372762(v=vs.85)">IXpsOMResource</a>
+<a href="/previous-versions/windows/desktop/dd372762(v=vs.85)">IXpsOMResource</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd464658(v=vs.85)">Using the IXpsOMPackageWriter Interface</a>
+<a href="/previous-versions/windows/desktop/dd464658(v=vs.85)">Using the IXpsOMPackageWriter Interface</a>
 
 
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

@@ -56,9 +56,9 @@ Sets the global thumbnail for the image.
 
 ### -param pIThumbnail [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>*</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> to set as the global thumbnail.
+The <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> to set as the global thumbnail.
 
 ## -returns
 
@@ -68,4 +68,3 @@ Returns S_OK if successful, or an error value otherwise.
             
 
 Returns WINCODEC_ERR_UNSUPPORTEDOPERATION if the feature is not supported by the encoder.
-

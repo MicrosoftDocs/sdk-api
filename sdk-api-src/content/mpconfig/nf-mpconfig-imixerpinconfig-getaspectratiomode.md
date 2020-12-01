@@ -57,7 +57,7 @@ The <code>GetAspectRatioMode</code> method retrieves the aspect ratio correction
 
 ### -param pamAspectRatioMode [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/ne-mpconfig-am_aspect_ratio_mode">AM_ASPECT_RATIO_MODE</a> enumerated type member.
+Pointer to an <a href="/windows/desktop/api/mpconfig/ne-mpconfig-am_aspect_ratio_mode">AM_ASPECT_RATIO_MODE</a> enumerated type member.
 
 ## -returns
 
@@ -105,13 +105,12 @@ Success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig Interface</a>
+<a href="/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setaspectratiomode">IMixerPinConfig::SetAspectRatioMode</a>
-
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setaspectratiomode">IMixerPinConfig::SetAspectRatioMode</a>

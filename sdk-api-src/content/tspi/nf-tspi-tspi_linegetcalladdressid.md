@@ -72,12 +72,11 @@ LINEERR_NOMEM, LINEERR_OPERATIONFAILED, LINEERR_OPERATIONUNAVAIL, LINEERR_RESOUR
 ## -remarks
 
 If the service provider models lines as "pools" of channel resources and does inverse multiplexing of a call over several address identifiers it should consistently choose one of these address identifiers as the primary identifier reported by this function and in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> data structure.
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> data structure.
 
 This function has no direct correspondence at the TAPI level. It gives TAPI sufficient information to implement the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnewcalls">lineGetNewCalls</a> function invoked with the LINECALLSELECT_ADDRESS option.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetnewcalls">lineGetNewCalls</a> function invoked with the LINECALLSELECT_ADDRESS option.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
-
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>

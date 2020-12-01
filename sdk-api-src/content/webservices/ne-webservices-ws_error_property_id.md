@@ -51,15 +51,15 @@ api_name:
 ## -description
 
 A set of property values associated with the error.  They are set
-                and retrieved using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgeterrorproperty">WsGetErrorProperty</a> and 
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsseterrorproperty">WsSetErrorProperty</a>.
+                and retrieved using <a href="/windows/desktop/api/webservices/nf-webservices-wsgeterrorproperty">WsGetErrorProperty</a> and 
+                <a href="/windows/desktop/api/webservices/nf-webservices-wsseterrorproperty">WsSetErrorProperty</a>.
 
 ## -enum-fields
 
 ### -field WS_ERROR_PROPERTY_STRING_COUNT
 
 The number of error strings (ULONG) available in the error object. Error strings 
-                    might be added using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsadderrorstring">WsAddErrorString</a>. When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE</a>is present in the error object, the corresponding error text will be counted as an
+                    might be added using <a href="/windows/desktop/api/webservices/nf-webservices-wsadderrorstring">WsAddErrorString</a>. When <a href="/windows/desktop/api/webservices/ne-webservices-ws_error_property_id">WS_ERROR_PROPERTY_ORIGINAL_ERROR_CODE</a>is present in the error object, the corresponding error text will be counted as an
                     additional string in the returned number of error strings. 
                 
 
@@ -100,5 +100,4 @@ This value may not be zero.
                 
 
 This value may only be set when the error object is first created, or
-                    after it has been reset using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreseterror">WsResetError</a>.
-
+                    after it has been reset using <a href="/windows/desktop/api/webservices/nf-webservices-wsreseterror">WsResetError</a>.

@@ -57,31 +57,30 @@ The <b>MetafileHeader::GetBounds</b> method gets the bounding rectangle for the 
 
 ### -param rect [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>*</b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> object that receives the bounding rectangle.
+Pointer to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> object that receives the bounding rectangle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ms535280(v=vs.85)">GetMetafileHeader</a>
+<a href="/previous-versions/ms535280(v=vs.85)">GetMetafileHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-loading-and-displaying-metafiles-use">Loading and Displaying Metafiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nl-gdiplusmetaheader-metafileheader">MetafileHeader</a>
+<a href="/windows/desktop/api/gdiplusmetaheader/nl-gdiplusmetaheader-metafileheader">MetafileHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
-
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>

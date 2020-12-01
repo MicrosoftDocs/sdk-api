@@ -49,6 +49,7 @@ api_name:
  - CreateDesktop
  - CreateDesktopA
  - CreateDesktopW
+req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 ---
 
 # CreateDesktopW function
@@ -57,9 +58,9 @@ api_name:
 ## -description
 
 Creates a new desktop, associates it with the current window station of the calling process, and assigns it to the calling thread. The calling process must have an associated window station, either assigned by the system at process creation time or set by 
-the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocesswindowstation">SetProcessWindowStation</a> function.
+the <a href="/windows/desktop/api/winuser/nf-winuser-setprocesswindowstation">SetProcessWindowStation</a> function.
 
-To specify the size of the heap for the desktop, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopexa">CreateDesktopEx</a> function.
+To specify the size of the heap for the desktop, use the <a href="/windows/desktop/api/winuser/nf-winuser-createdesktopexa">CreateDesktopEx</a> function.
 
 ## -parameters
 
@@ -100,7 +101,7 @@ Enables processes running in other accounts on the desktop to set hooks in this 
 ### -param dwDesiredAccess [in]
 
 The access to the desktop. For a list of values, see 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/desktop-security-and-access-rights">Desktop Security and Access Rights</a>.
+<a href="/windows/desktop/winstation/desktop-security-and-access-rights">Desktop Security and Access Rights</a>.
 
 This parameter must include the <b>DESKTOP_CREATEWINDOW</b> access right, because internally 
 <b>CreateDesktop</b> uses the handle to create a window.
@@ -108,17 +109,17 @@ This parameter must include the <b>DESKTOP_CREATEWINDOW</b> access right, becaus
 ### -param lpsa [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpsa</i> is NULL, the handle cannot be inherited.
+<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that determines whether the returned handle can be inherited by child processes. If <i>lpsa</i> is NULL, the handle cannot be inherited.
 
 The <b>lpSecurityDescriptor</b> member of the structure specifies a security descriptor for the new desktop. If this parameter is NULL, the desktop inherits its security descriptor from the parent window station.
 
 ## -returns
 
 If the function succeeds, the return value is a handle to the newly created desktop. If the specified desktop already exists, the function succeeds and returns a handle to the existing desktop. When you are finished using the handle, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closedesktop">CloseDesktop</a> function to close it.
+<a href="/windows/desktop/api/winuser/nf-winuser-closedesktop">CloseDesktop</a> function to close it.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -151,29 +152,28 @@ The values for the "SharedSection" substring are described as follows:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closedesktop">CloseDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-closedesktop">CloseDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopexa">CreateDesktopEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createdesktopexa">CreateDesktopEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/desktops">Desktops</a>
+<a href="/windows/desktop/winstation/desktops">Desktops</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocesswindowstation">SetProcessWindowStation</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setprocesswindowstation">SetProcessWindowStation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-switchdesktop">SwitchDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-switchdesktop">SwitchDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
-
+<a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>

@@ -55,11 +55,11 @@ api_name:
 
 Implement the <b>IWEExtendWizard97</b> interface 
     to add Wizard97-style wizard pages to a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> wizard.
+    <a href="/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> wizard.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWEExtendWizard97</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWEExtendWizard97</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWEExtendWizard97</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWEExtendWizard97</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWEExtendWizard97</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendwizard97-createwizard97pages">CreateWizard97Pages</a>
+<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendwizard97-createwizard97pages">CreateWizard97Pages</a>
 </td>
 <td align="left" width="63%">
 Allows you to create Wizard 97 wizard pages and add them to a Failover Cluster Administrator wizard.
@@ -85,9 +85,8 @@ Allows you to create Wizard 97 wizard pages and add them to a Failover Cluster A
 
 ## -remarks
 
-To create non-Wizard97 pages, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iweextendwizard">IWEExtendWizard</a>.
+To create non-Wizard97 pages, see <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iweextendwizard">IWEExtendWizard</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator-extension-interfaces">Failover Cluster Administrator Extension Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-administrator-extension-interfaces">Failover Cluster Administrator Extension Interfaces</a>

@@ -88,7 +88,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>, typicall
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically an <a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumobjects">IEnumObjects</a> which represents a collection of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> objects (or a mix of the two) that represent the retrieved items from the list.
+When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically an <a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a> or <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumobjects">IEnumObjects</a> which represents a collection of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a> objects (or a mix of the two) that represent the retrieved items from the list.
 
 ## -returns
 
@@ -104,13 +104,12 @@ If a user pins an item in the <b>Recent</b> or <b>Frequent</b> categories, the i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists">IApplicationDocumentLists</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists">IApplicationDocumentLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-setappid">IApplicationDocumentLists::SetAppID</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-setappid">IApplicationDocumentLists::SetAppID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-
+<a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>

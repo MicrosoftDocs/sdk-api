@@ -69,13 +69,12 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-This method is provided for convenience. Effectively, this method calls the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-restore">IDirectDrawSurface7::Restore</a> method for each surface that is created by this DirectDraw object.
+This method is provided for convenience. Effectively, this method calls the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-restore">IDirectDrawSurface7::Restore</a> method for each surface that is created by this DirectDraw object.
 
 
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>RestoreAllSurfaces</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>RestoreAllSurfaces</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>

@@ -54,8 +54,8 @@ api_name:
 
 ## -description
 
-The <b>SecPkgContext_Lifespan</b> structure indicates the life span of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
+The <b>SecPkgContext_Lifespan</b> structure indicates the life span of a <a href="/windows/desktop/SecGloss/s-gly">security context</a>. The 
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
 
 ## -struct-fields
 
@@ -69,9 +69,8 @@ Time at which the context will expire.
 
 ## -remarks
 
-It is recommended that the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> always return these values in local time.
+It is recommended that the <a href="/windows/desktop/SecGloss/s-gly">security package</a> always return these values in local time.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes</a>
-
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes</a>

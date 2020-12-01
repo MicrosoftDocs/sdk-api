@@ -84,57 +84,56 @@ If the function fails, the return value is <b>NULL</b>.
 
 ## -remarks
 
-When you no longer need the <b>HRGN</b> object, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
+When you no longer need the <b>HRGN</b> object, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 Region coordinates are represented as 27-bit signed integers.
 
-Regions created by the Create&lt;shape&gt;Rgn methods (such as <b>CreateRectRgn</b> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpolygonrgn">CreatePolygonRgn</a>) only include the interior of the shape; the shape's outline is excluded from the region. This means that any point on a line between two sequential vertices is not included in the region. If you were to call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-ptinregion">PtInRegion</a> for such a point, it would return zero as the result.
+Regions created by the Create&lt;shape&gt;Rgn methods (such as <b>CreateRectRgn</b> and <a href="/windows/desktop/api/wingdi/nf-wingdi-createpolygonrgn">CreatePolygonRgn</a>) only include the interior of the shape; the shape's outline is excluded from the region. This means that any point on a line between two sequential vertices is not included in the region. If you were to call <a href="/windows/desktop/api/wingdi/nf-wingdi-ptinregion">PtInRegion</a> for such a point, it would return zero as the result.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-markers">Drawing Markers.</a>
+For an example, see <a href="/windows/desktop/gdi/drawing-markers">Drawing Markers.</a>
 
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpolypolygonrgn">CreatePolyPolygonRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpolypolygonrgn">CreatePolyPolygonRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpolygonrgn">CreatePolygonRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpolygonrgn">CreatePolygonRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createrectrgnindirect">CreateRectRgnIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createrectrgnindirect">CreateRectRgnIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createroundrectrgn">CreateRoundRectRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createroundrectrgn">CreateRoundRectRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreateregion">ExtCreateRegion</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extcreateregion">ExtCreateRegion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getregiondata">GetRegionData</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getregiondata">GetRegionData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/region-functions">Region Functions</a>
+<a href="/windows/desktop/gdi/region-functions">Region Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/regions">Regions Overview</a>
+<a href="/windows/desktop/gdi/regions">Regions Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>

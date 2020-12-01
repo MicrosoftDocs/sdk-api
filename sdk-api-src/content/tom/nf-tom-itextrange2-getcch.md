@@ -62,15 +62,14 @@ The signed count of characters.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-The count of characters is the difference between the character position of the active end of the range, and the character position of the anchor end. Some Text Object Model (TOM) implementations might include active ends only for a selection (represented by the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a> interface). The rich edit control's TOM implementation of a text range (represented by the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> interface) also has active ends.
+The count of characters is the difference between the character position of the active end of the range, and the character position of the anchor end. Some Text Object Model (TOM) implementations might include active ends only for a selection (represented by the <a href="/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a> interface). The rich edit control's TOM implementation of a text range (represented by the <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> interface) also has active ends.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
-
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>

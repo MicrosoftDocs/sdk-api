@@ -60,15 +60,15 @@ A window handle that will be the parent of any dialogs created during the proces
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for which to select a driver.
+A handle to the <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> for which to select a driver.
 
 ### -param DeviceInfoData [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies a device information element in <i>DeviceInfoSet</i>. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <b>SetupDiSelectOEMDrv</b> associates the selected driver with the specified device. If this parameter is <b>NULL</b>, <b>SetupDiSelectOEMDrv</b> associates the selected driver with the global class driver list for <i>DeviceInfoSet</i>.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies a device information element in <i>DeviceInfoSet</i>. This parameter is optional and can be <b>NULL</b>. If this parameter is specified, <b>SetupDiSelectOEMDrv</b> associates the selected driver with the specified device. If this parameter is <b>NULL</b>, <b>SetupDiSelectOEMDrv</b> associates the selected driver with the global class driver list for <i>DeviceInfoSet</i>.
 
 ## -returns
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved by a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -78,5 +78,4 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiaskforoemdisk">SetupDiAskForOEMDisk</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiaskforoemdisk">SetupDiAskForOEMDisk</a>

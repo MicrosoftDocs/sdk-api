@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The size of the largest command value defined by the metadata format for the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a>.
+The size of the largest command value defined by the metadata format for the <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a>.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ If the method succeeds, it returns S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a>
-
+<a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitems">ISpatialAudioMetadataItems</a>

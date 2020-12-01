@@ -56,7 +56,7 @@ Terminates the storyboard, releases all related animation variables, and removes
 
 ## -returns
 
-If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
+If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</b> error code. See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 ## -remarks
 
@@ -66,21 +66,20 @@ This method does not trigger any storyboard events.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-abandonallstoryboards">IUIAnimationManager2::AbandonAllStoryboards</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-abandonallstoryboards">IUIAnimationManager2::AbandonAllStoryboards</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2">IUIAnimationStoryboard2</a>
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2">IUIAnimationStoryboard2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-conclude">IUIAnimationStoryboard2::Conclude</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-conclude">IUIAnimationStoryboard2::Conclude</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-finish">IUIAnimationStoryboard2::Finish</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-finish">IUIAnimationStoryboard2::Finish</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-schedule">IUIAnimationStoryboard2::Schedule</a>
-
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-schedule">IUIAnimationStoryboard2::Schedule</a>

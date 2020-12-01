@@ -66,7 +66,7 @@ A handle to the thread that is to be suspended.
 
 
 The handle must have the THREAD_SUSPEND_RESUME access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
+<a href="/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 
 ## -returns
@@ -74,7 +74,7 @@ The handle must have the THREAD_SUSPEND_RESUME access right. For more informatio
 
 
 If the function succeeds, the return value is the thread's previous suspend count; otherwise, it is (DWORD) -1. To get extended error information, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 
@@ -92,9 +92,9 @@ Each thread has a suspend count (with a maximum value of MAXIMUM_SUSPEND_COUNT).
 <b>Wow64SuspendThread</b> causes the target thread's suspend count to be incremented. Attempting to increment past the maximum suspend count causes an error without incrementing the count.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-resumethread">ResumeThread</a> function decrements the suspend count of a suspended thread.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-resumethread">ResumeThread</a> function decrements the suspend count of a suspended thread.
 
-This function is intended for 64-bit applications. It is not supported on 32-bit Windows; such calls fail and set the last error code to ERROR_INVALID_FUNCTION. A 32-bit application can call this function on a WOW64 thread; the result is the same as calling the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a> function.
+This function is intended for 64-bit applications. It is not supported on 32-bit Windows; such calls fail and set the last error code to ERROR_INVALID_FUNCTION. A 32-bit application can call this function on a WOW64 thread; the result is the same as calling the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-suspendthread">SuspendThread</a> function.
 
 
 
@@ -104,16 +104,15 @@ This function is intended for 64-bit applications. It is not supported on 32-bit
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-resumethread">ResumeThread</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-resumethread">ResumeThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/suspending-thread-execution">Suspending Thread Execution</a>
+<a href="/windows/desktop/ProcThread/suspending-thread-execution">Suspending Thread Execution</a>
  
 
  
-

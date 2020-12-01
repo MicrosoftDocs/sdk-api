@@ -60,9 +60,9 @@ Retrieves limit and job state information from the job object.
 ### -param hJob [in, optional]
 
 A handle to the job whose information is being queried. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openjobobjecta">OpenJobObject</a> function returns this handle. The handle must have the <b>JOB_OBJECT_QUERY</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/job-object-security-and-access-rights">Job Object Security and Access Rights</a>. 
+<a href="/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-openjobobjecta">OpenJobObject</a> function returns this handle. The handle must have the <b>JOB_OBJECT_QUERY</b> access right. For more information, see 
+<a href="/windows/desktop/ProcThread/job-object-security-and-access-rights">Job Object Security and Access Rights</a>. 
 
 
 
@@ -86,7 +86,7 @@ The information class for the limits to be queried. This parameter can be one of
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_accounting_information">JOBOBJECT_BASIC_ACCOUNTING_INFORMATION</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_basic_accounting_information">JOBOBJECT_BASIC_ACCOUNTING_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_process_id_list">JOBOBJECT_BASIC_PROCESS_ID_LIST</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_basic_process_id_list">JOBOBJECT_BASIC_PROCESS_ID_LIST</a> structure.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_ui_restrictions">JOBOBJECT_BASIC_UI_RESTRICTIONS</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_basic_ui_restrictions">JOBOBJECT_BASIC_UI_RESTRICTIONS</a> structure.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_cpu_rate_control_information">JOBOBJECT_CPU_RATE_CONTROL_INFORMATION</a> structure. 
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_cpu_rate_control_information">JOBOBJECT_CPU_RATE_CONTROL_INFORMATION</a> structure. 
 
 <b>Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
@@ -160,7 +160,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -172,7 +172,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </dl>
 </td>
 <td width="60%">
-The <i>lpJobObjectInfo</i> parameter is a pointer to a buffer that receives the list of  <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor groups</a> to which the job is currently assigned. The variable pointed to by the <i>lpReturnLength</i> parameter is set to the size of the group data. Divide this value by <code>sizeof(USHORT)</code> to determine the number of groups.
+The <i>lpJobObjectInfo</i> parameter is a pointer to a buffer that receives the list of  <a href="/windows/desktop/ProcThread/processor-groups">processor groups</a> to which the job is currently assigned. The variable pointed to by the <i>lpReturnLength</i> parameter is set to the size of the group data. Divide this value by <code>sizeof(USHORT)</code> to determine the number of groups.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
@@ -196,7 +196,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a buffer that receives the 
 </dl>
 </td>
 <td width="60%">
-The <i>lpJobObjectInfo</i> parameter is a pointer to a buffer that receives an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structures that indicate the affinity of the job in the <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor groups</a> to which the job is currently assigned. The variable pointed to by the <i>lpReturnLength</i> parameter is set to the size of the group affinity data. Divide this value by <code>sizeof(GROUP_AFFINITY)</code> to determine the number of groups.
+The <i>lpJobObjectInfo</i> parameter is a pointer to a buffer that receives an array of <a href="/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a> structures that indicate the affinity of the job in the <a href="/windows/desktop/ProcThread/processor-groups">processor groups</a> to which the job is currently assigned. The variable pointed to by the <i>lpReturnLength</i> parameter is set to the size of the group affinity data. Divide this value by <code>sizeof(GROUP_AFFINITY)</code> to determine the number of groups.
 
 <b>Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
@@ -210,7 +210,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a buffer that receives an a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_limit_violation_information">JOBOBJECT_LIMIT_VIOLATION_INFORMATION</a> structure. 
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_limit_violation_information">JOBOBJECT_LIMIT_VIOLATION_INFORMATION</a> structure. 
 
 <b>Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
@@ -224,7 +224,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_limit_violation_information_2">JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2</a> 
+        <a href="/windows/desktop/api/winnt/ns-winnt-jobobject_limit_violation_information_2">JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2</a> 
         structure.
         
 
@@ -240,7 +240,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_net_rate_control_information">JOBOBJECT_NET_RATE_CONTROL_INFORMATION</a> 
+        <a href="/windows/desktop/api/winnt/ns-winnt-jobobject_net_rate_control_information">JOBOBJECT_NET_RATE_CONTROL_INFORMATION</a> 
         structure.
         
 
@@ -286,7 +286,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 This flag is not supported. Applications must set security limits individually for each process. <b>Windows Server 2003 and Windows XP:  </b>The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_security_limit_information">JOBOBJECT_SECURITY_LIMIT_INFORMATION</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_security_limit_information">JOBOBJECT_SECURITY_LIMIT_INFORMATION</a> structure.
 
 
 
@@ -311,20 +311,20 @@ A pointer to a variable that receives the length of data written to the structur
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Use 
 <b>QueryInformationJobObject</b> to obtain the current limits and modify them. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function to set new limits.
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function to set new limits.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_accounting_information">JOBOBJECT_BASIC_ACCOUNTING_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_basic_accounting_information">JOBOBJECT_BASIC_ACCOUNTING_INFORMATION</a>
 
 
 
@@ -332,39 +332,39 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_basic_limit_information">JOBOBJECT_BASIC_LIMIT_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_process_id_list">JOBOBJECT_BASIC_PROCESS_ID_LIST</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_basic_process_id_list">JOBOBJECT_BASIC_PROCESS_ID_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_basic_ui_restrictions">JOBOBJECT_BASIC_UI_RESTRICTIONS</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_basic_ui_restrictions">JOBOBJECT_BASIC_UI_RESTRICTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_cpu_rate_control_information">JOBOBJECT_CPU_RATE_CONTROL_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_cpu_rate_control_information">JOBOBJECT_CPU_RATE_CONTROL_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_end_of_job_time_information">JOBOBJECT_END_OF_JOB_TIME_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_extended_limit_information">JOBOBJECT_EXTENDED_LIMIT_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_limit_violation_information">JOBOBJECT_LIMIT_VIOLATION_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_limit_violation_information">JOBOBJECT_LIMIT_VIOLATION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_limit_violation_information_2">JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_limit_violation_information_2">JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_net_rate_control_information">JOBOBJECT_NET_RATE_CONTROL_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_net_rate_control_information">JOBOBJECT_NET_RATE_CONTROL_INFORMATION</a>
 
 
 
@@ -376,17 +376,16 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-jobobject_security_limit_information">JOBOBJECT_SECURITY_LIMIT_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-jobobject_security_limit_information">JOBOBJECT_SECURITY_LIMIT_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/job-objects">Job Objects</a>
+<a href="/windows/desktop/ProcThread/job-objects">Job Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
-
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>

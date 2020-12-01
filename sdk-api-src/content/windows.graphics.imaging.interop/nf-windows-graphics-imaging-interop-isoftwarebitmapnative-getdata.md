@@ -74,5 +74,4 @@ Returns S_OK on successful completion. Returns E_NOINTERFACE if the requested in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative">ISoftwareBitmapNative</a>
-
+<a href="/windows/desktop/api/windows.graphics.imaging.interop/nn-windows-graphics-imaging-interop-isoftwarebitmapnative">ISoftwareBitmapNative</a>

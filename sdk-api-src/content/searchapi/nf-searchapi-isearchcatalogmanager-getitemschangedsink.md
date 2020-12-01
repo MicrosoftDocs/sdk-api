@@ -56,21 +56,21 @@ Gets the change notification sink interface.
 
 ### -param pISearchNotifyInlineSite [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchnotifyinlinesite">ISearchNotifyInlineSite</a>*</b>
+Type: <b><a href="/windows/desktop/api/searchapi/nn-searchapi-isearchnotifyinlinesite">ISearchNotifyInlineSite</a>*</b>
 
-A pointer to your <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchnotifyinlinesite">ISearchNotifyInlineSite</a> interface.
+A pointer to your <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchnotifyinlinesite">ISearchNotifyInlineSite</a> interface.
 
 ### -param riid [in]
 
 Type: <b>REFIID</b>
 
-The UUID of the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchitemschangedsink">ISearchItemsChangedSink</a> interface.
+The UUID of the <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchitemschangedsink">ISearchItemsChangedSink</a> interface.
 
 ### -param ppv [out]
 
 Type: <b>void*</b>
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchitemschangedsink">ISearchItemsChangedSink</a> interface.
+Receives a pointer to the <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchitemschangedsink">ISearchItemsChangedSink</a> interface.
 
 ### -param pGUIDCatalogResetSignature [out]
 
@@ -95,4 +95,3 @@ Receives a pointer to the number indicating the last checkpoint to be saved.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes a method that adds functionality to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a>. This method sets the characteristics of a drag-and-drop operation over an <b>IDragSourceHelper</b> object.
+Exposes a method that adds functionality to <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a>. This method sets the characteristics of a drag-and-drop operation over an <b>IDragSourceHelper</b> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDragSourceHelper2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a>. <b>IDragSourceHelper2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDragSourceHelper2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a>. <b>IDragSourceHelper2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IDragSourceHelper2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-idragsourcehelper2-setflags">SetFlags</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-idragsourcehelper2-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the characteristics of a drag-and-drop operation over an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a> object.
+Sets the characteristics of a drag-and-drop operation over an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a> object.
 
 </td>
 </tr>
@@ -80,7 +80,6 @@ Sets the characteristics of a drag-and-drop operation over an <a href="https://d
 
 ## -remarks
 
-This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a> interface, from which it inherits.
 
-If you want to adjust the behavior of the drag image by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-idragsourcehelper2-setflags">IDragSourceHelper2::SetFlags</a>, that call should be made before you call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefromwindow">InitializeFromWindow</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefrombitmap">InitializeFromBitmap</a>.
-
+If you want to adjust the behavior of the drag image by calling <a href="/windows/desktop/api/shobjidl/nf-shobjidl-idragsourcehelper2-setflags">IDragSourceHelper2::SetFlags</a>, that call should be made before you call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefromwindow">InitializeFromWindow</a> or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefrombitmap">InitializeFromBitmap</a>.

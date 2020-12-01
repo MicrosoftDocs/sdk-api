@@ -78,9 +78,8 @@ The RPC server is not available. The method is unable to delete the data collect
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_status">IDataCollectorSet::Status</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_status">IDataCollectorSet::Status</a>

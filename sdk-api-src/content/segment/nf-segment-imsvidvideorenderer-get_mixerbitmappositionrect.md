@@ -56,7 +56,7 @@ The <b>get_MixerBitmapPositionRect</b> method retrieves the position of the stat
 
 ### -param rDest [out]
 
-Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect</a> interface pointer.
+Receives an <a href="/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect</a> interface pointer.
 
 ## -returns
 
@@ -66,17 +66,16 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 If the static bitmap image is set, the VMR alpha-blends the bitmap onto the video image, using the position rectangle given in <i>pprDest</i>.
 
-The returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect</a> interface has an outstanding reference count. The caller must release the interface.
+The returned <a href="/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect</a> interface has an outstanding reference count. The caller must release the interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_mixerbitmap">IMSVidVideoRenderer::get_MixerBitmap</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_mixerbitmap">IMSVidVideoRenderer::get_MixerBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmappositionrect">IMSVidVideoRenderer::put_MixerBitmapPositionRect</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmappositionrect">IMSVidVideoRenderer::put_MixerBitmapPositionRect</a>

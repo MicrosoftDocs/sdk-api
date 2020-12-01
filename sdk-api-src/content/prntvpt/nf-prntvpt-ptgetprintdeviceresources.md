@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-It retrieves the print devices resources for a printer formatted in compliance with the XML <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>.
+It retrieves the print devices resources for a printer formatted in compliance with the XML <a href="/windows/desktop/printdocs/printschema">Print Schema</a>.
 
 ## -parameters
 
 ### -param hProvider [in]
 
-A handle to an open device provider whose print device resources are to be retrieved. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
+A handle to an open device provider whose print device resources are to be retrieved. This handle is returned by the <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptopenprovider">PTOpenProvider</a> or the <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptopenproviderex">PTOpenProviderEx</a> function.
 
 ### -param pszLocaleName [in]
 
@@ -80,9 +80,8 @@ If the operation succeeds, the return value is S_OK. Otherwise, returns an error
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintcapabilities">PTGetPrintCapabilities</a>
+<a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintcapabilities">PTGetPrintCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintdevicecapabilities">PTGetPrintDeviceCapabilities</a>
-
+<a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptgetprintdevicecapabilities">PTGetPrintDeviceCapabilities</a>

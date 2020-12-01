@@ -61,5 +61,4 @@ TRUE is doubles are supported within the shaders.
 
 ## -remarks
 
-Fill this structure by passing a D2D1_FEATURE_DOUBLES structure to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-checkfeaturesupport">ID2D1EffectContext::CheckFeatureSupport</a>.
-
+Fill this structure by passing a D2D1_FEATURE_DOUBLES structure to <a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-checkfeaturesupport">ID2D1EffectContext::CheckFeatureSupport</a>.

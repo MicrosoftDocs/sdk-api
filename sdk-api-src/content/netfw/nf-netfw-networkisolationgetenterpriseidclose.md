@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This API is used for closing the handle returned by  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationgetenterpriseidasync">NetworkIsolationGetEnterpriseIdAsync</a> as well as for synchronizing the operation.
+This API is used for closing the handle returned by  <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationgetenterpriseidasync">NetworkIsolationGetEnterpriseIdAsync</a> as well as for synchronizing the operation.
 
 Example of NetworkIsolationGetEnterpriseIdClose usage: https://github.com/microsoft/EnterpriseStateClassify
 
@@ -67,4 +67,3 @@ Indicates whether to wait for synchronization.
 ## -returns
 
 Returns ERROR_SUCCESS if successful, or an error value otherwise.
-

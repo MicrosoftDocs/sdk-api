@@ -54,8 +54,8 @@ api_name:
 
 ## -description
 
-The <b>KERB_PROTOCOL_MESSAGE_TYPE</b> enumeration lists the types of messages that can be sent to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package by calling 
-the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
+The <b>KERB_PROTOCOL_MESSAGE_TYPE</b> enumeration lists the types of messages that can be sent to the <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package by calling 
+the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
 
 Each message corresponds to a dispatch routine and causes the Kerberos authentication package to perform a different task.
 
@@ -67,7 +67,7 @@ Reserved.
 
 ### -field KerbQueryTicketCacheMessage
 
-This dispatch routine returns information about all of the cached tickets for the specified user <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>.
+This dispatch routine returns information about all of the cached tickets for the specified user <a href="/windows/desktop/SecGloss/l-gly">logon session</a>.
 
 ### -field KerbChangeMachinePasswordMessage
 
@@ -145,7 +145,7 @@ This constant is reserved.
 
 ### -field KerbTransferCredentialsMessage
 
-The dispatch routine transfers credentials from one <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> to another <b>LUID</b>. The <b>SeTcbPrivilege</b> is required. 
+The dispatch routine transfers credentials from one <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> to another <b>LUID</b>. The <b>SeTcbPrivilege</b> is required. 
 
 
 <b>Windows Server 2003 and Windows XP:  </b>This constant is not supported.
@@ -166,7 +166,7 @@ The dispatch routine gets the tickets from the KDC and updates the ticket cache.
 
 ### -field KerbAddExtraCredentialsExMessage
 
-The dispatch routine adds, modifies, or deletes an extra credential in one or more <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">service principal names</a> (SPNs). The <b>SeTcbPrivilege</b> is required to change extra credentials in another user's logon session.
+The dispatch routine adds, modifies, or deletes an extra credential in one or more <a href="/windows/desktop/SecGloss/s-gly">service principal names</a> (SPNs). The <b>SeTcbPrivilege</b> is required to change extra credentials in another user's logon session.
 
 <b>Windows Server 2003 and Windows XP:  </b>This constant is not supported.
 
@@ -234,4 +234,3 @@ This message queries the proxy cache for the information about a service for use
 #### - KerbVerifyCredentialsMessage
 
 This constant is reserved.
-

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfMouseSink</b> interface is implemented by a text service to receive mouse event notifications. A mouse event sink is installed with the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink</a> method of one of the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousetracker">ITfMouseTracker</a> interfaces.
+The <b>ITfMouseSink</b> interface is implemented by a text service to receive mouse event notifications. A mouse event sink is installed with the <a href="/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink</a> method of one of the <a href="/windows/desktop/api/msctf/nn-msctf-itfmousetracker">ITfMouseTracker</a> interfaces.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMouseSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMouseSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfMouseSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfMouseSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfMouseSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousesink-onmouseevent">OnMouseEvent</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmousesink-onmouseevent">OnMouseEvent</a>
 </td>
 <td align="left" width="63%">
 Called when a mouse event occurs over a range of text.
@@ -80,15 +80,14 @@ Called when a mouse event occurs over a range of text.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetrackeracp-advisemousesink">ITfMouseTrackerACP::AdviseMouseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

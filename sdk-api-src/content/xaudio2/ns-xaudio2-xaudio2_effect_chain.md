@@ -60,7 +60,7 @@ Number of effects in the effect chain for the voice.
 
 ### -field pEffectDescriptors
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_effect_descriptor">XAUDIO2_EFFECT_DESCRIPTOR</a> structures containing pointers to XAPO instances.
+Array of <a href="/windows/desktop/api/xaudio2/ns-xaudio2-xaudio2_effect_descriptor">XAUDIO2_EFFECT_DESCRIPTOR</a> structures containing pointers to XAPO instances.
 
 ## -remarks
 
@@ -69,29 +69,28 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--create-an-effect-chain">How to: Create an Effect Chain</a>
+<a href="/windows/desktop/xaudio2/how-to--create-an-effect-chain">How to: Create an Effect Chain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice">IXAudio2::CreateMasteringVoice</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice">IXAudio2::CreateMasteringVoice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice">IXAudio2::CreateSourceVoice</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsourcevoice">IXAudio2::CreateSourceVoice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice">IXAudio2::CreateSubmixVoice</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2-createsubmixvoice">IXAudio2::CreateSubmixVoice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectchain">IXAudio2Voice::SetEffectChain</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectchain">IXAudio2Voice::SetEffectChain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>
+<a href="/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">XAudio2 Structures</a>
-
+<a href="/windows/desktop/xaudio2/structures">XAudio2 Structures</a>

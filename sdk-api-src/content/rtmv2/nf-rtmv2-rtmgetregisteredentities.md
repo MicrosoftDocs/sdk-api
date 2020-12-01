@@ -58,7 +58,7 @@ The
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 ### -param NumEntities [in, out]
 
@@ -76,7 +76,7 @@ If handles do not need to be returned: On input, <i>EntityHandles</i> is <b>NULL
 ### -param EntityInfos [out]
 
 If a pointer must be returned: On input, <i>EntityInfos</i> is a pointer to <b>NULL</b>. On output, <i>EntityInfos</i> receives a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a> structures; otherwise, <i>EntityInfos</i> remains unchanged. 
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a> structures; otherwise, <i>EntityInfos</i> remains unchanged. 
 
 
 
@@ -117,16 +117,15 @@ The
 The RTMv2 API supports only one instance of the routing table manager.
 
 When the entities are no longer required, release them by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseentities">RtmReleaseEntities</a>.
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseentities">RtmReleaseEntities</a>.
 
 For sample code using this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/enumerate-the-registered-entities">Enumerate the Registered Entities</a>.
+<a href="/windows/desktop/RRAS/enumerate-the-registered-entities">Enumerate the Registered Entities</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a>
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseentities">RtmReleaseEntities</a>
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseentities">RtmReleaseEntities</a>

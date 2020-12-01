@@ -53,35 +53,34 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>CreatePKCS7RequestFromRequest</b> method creates a PKCS #7 request from an existing certificate request. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
+The <b>CreatePKCS7RequestFromRequest</b> method creates a PKCS #7 request from an existing certificate request. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
 
 ## -parameters
 
 ### -param pRequest [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that represents the existing request.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that represents the existing request.
 
 ### -param pSigningCertContext [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that represents the certificate used to sign the request.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that represents the certificate used to sign the request.
 
 ### -param pPkcs7Blob [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that receives the returned PKCS  #7 certificate request.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that receives the returned PKCS  #7 certificate request.
 
-When you have finished using this memory, free it by passing the <b>pbData</b> member of this structure to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+When you have finished using this memory, free it by passing the <b>pbData</b> member of this structure to the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -returns
 
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>

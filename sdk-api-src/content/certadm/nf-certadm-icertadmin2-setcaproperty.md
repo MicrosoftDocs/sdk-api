@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-The <b>SetCAProperty</b> method sets a property value for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA).
+The <b>SetCAProperty</b> method sets a property value for the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA).
 
 ## -parameters
 
 ### -param strConfig [in]
 
 String value that represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.<div class="alert"><b>Important</b>  <b>SetCAProperty</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.<div class="alert"><b>Important</b>  <b>SetCAProperty</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param PropId [in]
 
 Specifies one of the following property identifiers.
 
-For information about all CA properties, including those that are read-only, see <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>.
+For information about all CA properties, including those that are read-only, see <a href="/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>.
 
 <table>
 <tr>
@@ -187,7 +187,7 @@ Binary data.
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> <b>String</b> data.
+<a href="/windows/desktop/SecGloss/u-gly">Unicode</a> <b>String</b> data.
 
 </td>
 </tr>
@@ -218,13 +218,12 @@ A <b>Variant</b> that specifies the property value.
 If the function is successful, the return value is S_OK.
 
  
-If the function fails, the return value is an <b>HRESULT</b> that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, the return value is an <b>HRESULT</b> that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>
-
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin2-getcaproperty">ICertAdmin2::GetCAProperty</a>

@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-Adds more than one word to an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> in a single operation.
+Adds more than one word to an <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a> in a single operation.
 
 ## -parameters
 
 ### -param NewWords [in]
 
-A <b>BSTR</b> of <b>NULL</b> separated words terminated by a double <b>NULL</b> containing the words to add to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a>.
+A <b>BSTR</b> of <b>NULL</b> separated words terminated by a double <b>NULL</b> containing the words to add to the <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a>.
 
-For more information about the <b>BSTR</b> data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
+For more information about the <b>BSTR</b> data type, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ## -returns
 
@@ -140,17 +140,16 @@ An exception occurred inside the method.
 
 ## -remarks
 
-To access this method, first create and instance of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>, then call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to get a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>. Use this pointer to call the <b>AddWords Method</b>.
+To access this method, first create and instance of the <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>, then call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> to get a pointer to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>. Use this pointer to call the <b>AddWords Method</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword">AddWord Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword">AddWord Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
-
+<a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>

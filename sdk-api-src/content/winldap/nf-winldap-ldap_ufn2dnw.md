@@ -65,14 +65,14 @@ Pointer to a null-terminated string that contains the user-friendly name to conv
 Pointer to a variable that receives a pointer to a null-terminated string that contains the resulting distinguished name.
 
 If the <i>pDn</i> parameter returns non-<b>NULL</b>, free it with a call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>.
 
 ## -returns
 
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 ## -remarks
 
@@ -87,13 +87,12 @@ The <b>ldap_ufn2dn</b> function attempts to normalize a user-specified name to a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>

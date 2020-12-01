@@ -54,14 +54,14 @@ The
 <b>DetectTones</b> method enables and disables the detection of inband tones on the call. Each time a specified tone is detected, a message is sent to the application.
 
 This method is intended for C/C++ applications. Visual Basic and scripting applications should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-detecttonesbycollection">DetectTonesByCollection</a> method instead.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-detecttonesbycollection">DetectTonesByCollection</a> method instead.
 
 ## -parameters
 
 ### -param pToneList [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ns-tapi3if-tapi_detecttone">TAPI_DETECTTONE</a> array that specifies the tones to detect. Each tone in the array has an application-defined tag field that is used to identify the individual tones in the list when a tone detection event of type <b>TE_TONEEVENT</b> is reported. For more information, see the following Remarks section.
+<a href="/windows/desktop/api/tapi3if/ns-tapi3if-tapi_detecttone">TAPI_DETECTTONE</a> array that specifies the tones to detect. Each tone in the array has an application-defined tag field that is used to identify the individual tones in the list when a tone detection event of type <b>TE_TONEEVENT</b> is reported. For more information, see the following Remarks section.
 
 ### -param lNumTones [in]
 
@@ -114,16 +114,15 @@ The call must be in the <i>connected</i> state.
 ## -remarks
 
 This method translates to a TAPI 2.<i>x</i>
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemonitortones">lineMonitorTones</a> call.
+<a href="/windows/desktop/api/tapi/nf-tapi-linemonitortones">lineMonitorTones</a> call.
 
 To cancel tone monitoring in progress, call the 
 <b>DetectTones</b> method and specify a <b>NULL</b><i>pToneList</i> parameter. To change the list of tones to monitor, call this method and specify a new tone list.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ns-tapi3if-tapi_detecttone">TAPI_DETECTTONE</a>
-
+<a href="/windows/desktop/api/tapi3if/ns-tapi3if-tapi_detecttone">TAPI_DETECTTONE</a>

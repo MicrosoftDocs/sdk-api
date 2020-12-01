@@ -94,9 +94,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback2">ISyncCallback2 Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback2">ISyncCallback2 Interface</a>

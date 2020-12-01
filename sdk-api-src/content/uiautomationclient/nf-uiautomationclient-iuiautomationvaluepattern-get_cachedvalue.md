@@ -59,11 +59,10 @@ This property is read-only.
 
 ## -remarks
 
-Single-line edit controls support programmatic access to their contents through <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationvaluepattern">IUIAutomationValuePattern</a>. However, multiline edit controls do not support this control pattern, and their contents must be retrieved by using <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a>.
+Single-line edit controls support programmatic access to their contents through <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationvaluepattern">IUIAutomationValuePattern</a>. However, multiline edit controls do not support this control pattern, and their contents must be retrieved by using <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a>.
 
-This property does not support the retrieval of formatting information or substring values. <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a> must be used in these scenarios as well.
+This property does not support the retrieval of formatting information or substring values. <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtextpattern">IUIAutomationTextPattern</a> must be used in these scenarios as well.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationvaluepattern">IUIAutomationValuePattern</a>
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationvaluepattern">IUIAutomationValuePattern</a>

@@ -95,15 +95,14 @@ The requested version of the Peer Collaboration Infrastructure is not supported.
 
 This function must be called before any other peer collaboration (PeerCollab*) functions are called.
 
-When the application no longer requires the Peer Collaboration infrastructure, it must make a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabshutdown">PeerCollabShutdown</a>. If <b>PeerCollabStartup</b> is called multiple times, there must be a separate corresponding call to <b>PeerCollabShutdown</b>. All of the components of the infrastructure are cleaned up only when the last call to <b>PeerCollabShutdown</b> occurs.
+When the application no longer requires the Peer Collaboration infrastructure, it must make a corresponding call to <a href="/windows/desktop/api/p2p/nf-p2p-peercollabshutdown">PeerCollabShutdown</a>. If <b>PeerCollabStartup</b> is called multiple times, there must be a separate corresponding call to <b>PeerCollabShutdown</b>. All of the components of the infrastructure are cleaned up only when the last call to <b>PeerCollabShutdown</b> occurs.
 
 The current supported version is <b>1.0</b>. Call <code>MAKEWORD(1, 0)</code> to generate this version number WORD value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabshutdown">PeerCollabShutdown</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peercollabshutdown">PeerCollabShutdown</a>

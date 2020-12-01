@@ -64,17 +64,16 @@ This property is read/write.
 
 The fax service sends a report (a delivery receipt) to the sender of the fax when the fax completes successfully or when the fax transmission fails.
 
-If an email receipt will be sent, an address has to be provided in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-receiptaddress-vb">IFaxDocument::get_ReceiptAddress</a> property. If the receipt type is set to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_receipt_type_enum">frtMSGBOX</a>, the message box will appear on the computer from which the document was sent. By default, <b>ReceiptType</b> is set to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_receipt_type_enum">frtNONE</a>, indicating that no receipt will be sent.
+If an email receipt will be sent, an address has to be provided in the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument-receiptaddress-vb">IFaxDocument::get_ReceiptAddress</a> property. If the receipt type is set to <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_receipt_type_enum">frtMSGBOX</a>, the message box will appear on the computer from which the document was sent. By default, <b>ReceiptType</b> is set to <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_receipt_type_enum">frtNONE</a>, indicating that no receipt will be sent.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>

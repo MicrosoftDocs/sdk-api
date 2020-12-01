@@ -56,11 +56,11 @@ Modifies the status of a text service property UI.
 
 ### -param refguidProp [in]
 
-Specifies the property identifier. This can be a custom identifier or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">predefined property</a> identifiers.
+Specifies the property identifier. This can be a custom identifier or one of the <a href="/windows/desktop/TSF/predefined-properties">predefined property</a> identifiers.
 
 ### -param dw [in]
 
-Contains the new property UI status. See the <i>pdw</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnpropertyuistatus-getstatus">ITfFnPropertyUIStatus::GetStatus</a> for possible values.
+Contains the new property UI status. See the <i>pdw</i> parameter of <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnpropertyuistatus-getstatus">ITfFnPropertyUIStatus::GetStatus</a> for possible values.
 
 ## -returns
 
@@ -97,15 +97,14 @@ The text service does not support this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnpropertyuistatus">ITfFnPropertyUIStatus</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnpropertyuistatus">ITfFnPropertyUIStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnpropertyuistatus-getstatus">ITfFnPropertyUIStatus::GetStatus
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnpropertyuistatus-getstatus">ITfFnPropertyUIStatus::GetStatus
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">Predefined Properties
+<a href="/windows/desktop/TSF/predefined-properties">Predefined Properties
       </a>
-

@@ -67,5 +67,4 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets Collection</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets Collection</a>

@@ -56,7 +56,7 @@ Retrieves the uncompressed size of the associated zip file item.
 
 ### -param size [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a>*</b>
 
  In a valid app package, <i>size</i> is the uncompressed size of the associated zip file item.
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapfile">IAppxBlockMapFile</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapfile">IAppxBlockMapFile</a>

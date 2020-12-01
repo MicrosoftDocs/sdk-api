@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Calls the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_geticon">ImageList_GetIcon</a> function to create an icon or cursor based on an image and mask in an image list.
+Calls the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_geticon">ImageList_GetIcon</a> function to create an icon or cursor based on an image and mask in an image list.
 
 ## -parameters
 
 ### -param hi
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HINSTANCE</a></b>
 
 This parameter is not used and should always be zero.
 
@@ -74,5 +74,4 @@ The index of the image.
 
 ## -remarks
 
-It is the responsibility of the calling application to destroy the icon returned from this function by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
-
+It is the responsibility of the calling application to destroy the icon returned from this function by using the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.

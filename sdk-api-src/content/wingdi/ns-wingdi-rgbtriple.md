@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>RGBTRIPLE</b> structure describes a color consisting of relative intensities of red, green, and blue. The <b>bmciColors</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreinfo">BITMAPCOREINFO</a> structure consists of an array of <b>RGBTRIPLE</b> structures.
+The <b>RGBTRIPLE</b> structure describes a color consisting of relative intensities of red, green, and blue. The <b>bmciColors</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreinfo">BITMAPCOREINFO</a> structure consists of an array of <b>RGBTRIPLE</b> structures.
 
 ## -struct-fields
 
@@ -72,13 +72,12 @@ The intensity of red in the color.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreinfo">BITMAPCOREINFO</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapcoreinfo">BITMAPCOREINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
+<a href="/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
-
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>

@@ -54,26 +54,25 @@ Represents a trigger that starts a task when a user logs on. When the Task Sched
 
 ## -remarks
 
-If you want a task to be triggered when any member of a group logs on to the computer rather than when  a specific user logs on, then do not assign a value to the  <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-ilogontrigger-get_userid">UserId</a> property.  Instead, create a logon trigger with an empty <b>UserId</b> property and assign a value to the principal for the task using the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_groupid">GroupId</a> property.
+If you want a task to be triggered when any member of a group logs on to the computer rather than when  a specific user logs on, then do not assign a value to the  <a href="/windows/desktop/api/taskschd/nf-taskschd-ilogontrigger-get_userid">UserId</a> property.  Instead, create a logon trigger with an empty <b>UserId</b> property and assign a value to the principal for the task using the <a href="/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_groupid">GroupId</a> property.
 
-When reading or writing XML for a task, a logon trigger is specified using the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-logontrigger-triggergroup-element">LogonTrigger</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, a logon trigger is specified using the <a href="/windows/desktop/TaskSchd/taskschedulerschema-logontrigger-triggergroup-element">LogonTrigger</a> element of the Task Scheduler schema.
 
 
 #### Examples
 
-For more information and example code for this interface, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/logon-trigger-example--c---">Logon Trigger Example (C++)</a>.
+For more information and example code for this interface, see <a href="/windows/desktop/TaskSchd/logon-trigger-example--c---">Logon Trigger Example (C++)</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itrigger">ITrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>

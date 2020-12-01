@@ -153,45 +153,44 @@ An attempt was made to modify text across a region boundary.
 
 ## -remarks
 
-Applications should start a composition by first using <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-inserttextatselection">ITextStoreAnchor::InsertTextAtSelection</a>. <b>ITextStoreAnchor::SetText</b> should be used only within an existing composition. If there is no active composition at the time <b>SetText</b> is called, the TSF manager creates a composition that lasts just long enough to wrap the call to <b>SetText</b>.
+Applications should start a composition by first using <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-inserttextatselection">ITextStoreAnchor::InsertTextAtSelection</a>. <b>ITextStoreAnchor::SetText</b> should be used only within an existing composition. If there is no active composition at the time <b>SetText</b> is called, the TSF manager creates a composition that lasts just long enough to wrap the call to <b>SetText</b>.
 
-Callers must hold a write lock obtained through <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestlock">ITextStoreAnchor::RequestLock</a>. Otherwise, <b>ITextStoreAnchor::SetText</b> will fail with TS_E_NOLOCK.
+Callers must hold a write lock obtained through <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestlock">ITextStoreAnchor::RequestLock</a>. Otherwise, <b>ITextStoreAnchor::SetText</b> will fail with TS_E_NOLOCK.
 
 If <i>paStart</i> is at the same location as <i>paEnd</i>, then the operation is an insertion, and no existing text will be removed.
 
-TS_CHAR_EMBEDDED cannot be passed into this method. For <a href="https://docs.microsoft.com/windows/desktop/TSF/embedded-objects">embedded objects</a>, use <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-insertembedded">ITextStoreAnchor::InsertEmbedded</a> instead.
+TS_CHAR_EMBEDDED cannot be passed into this method. For <a href="/windows/desktop/TSF/embedded-objects">embedded objects</a>, use <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-insertembedded">ITextStoreAnchor::InsertEmbedded</a> instead.
 
 This method will fail if the range of text replaced covers any region boundary. Instead, callers should make multiple calls to the method, one for each region.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/compositions">Compositions</a>
+<a href="/windows/desktop/TSF/compositions">Compositions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/embedded-objects">Embedded Objects</a>
+<a href="/windows/desktop/TSF/embedded-objects">Embedded Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-insertembedded">ITextStoreAnchor::InsertEmbedded
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-insertembedded">ITextStoreAnchor::InsertEmbedded
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestlock">ITextStoreAnchor::RequestLock
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestlock">ITextStoreAnchor::RequestLock
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-ontextchange">ITextStoreAnchorSink::OnTextChange
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-ontextchange">ITextStoreAnchorSink::OnTextChange
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-text-store-constants">Miscellaneous Text Store Constants
+<a href="/windows/desktop/TSF/miscellaneous-text-store-constants">Miscellaneous Text Store Constants
       </a>
-

@@ -55,7 +55,7 @@ Provides access to controls
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInvokeProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInvokeProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInvokeProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInvokeProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IInvokeProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iinvokeprovider-invoke">Invoke</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iinvokeprovider-invoke">Invoke</a>
 </td>
 <td align="left" width="63%">
 Sends a request to activate a control and initiate its single, unambiguous action.
@@ -82,16 +82,15 @@ Sends a request to activate a control and initiate its single, unambiguous actio
 ## -remarks
 
 Implemented on a Microsoft UI Automation provider that must 
-        support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementinginvoke">Invoke</a> control pattern.
+        support the <a href="/windows/desktop/WinAuto/uiauto-implementinginvoke">Invoke</a> control pattern.
 		
 
 Controls implement <b>IInvokeProvider</b> if the same behavior is not 
         exposed through another  control pattern provider. For example, if 
-        the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iinvokeprovider-invoke">Invoke</a> method of a control performs the same 
-        action as the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iexpandcollapseprovider-expand">IExpandCollapseProvider::Expand</a> or <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iexpandcollapseprovider-collapse">Collapse</a> 
+        the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iinvokeprovider-invoke">Invoke</a> method of a control performs the same 
+        action as the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iexpandcollapseprovider-expand">IExpandCollapseProvider::Expand</a> or <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iexpandcollapseprovider-collapse">Collapse</a> 
         method, the control should not also implement <b>IInvokeProvider</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

@@ -56,7 +56,7 @@ Sets the mode for the composite effect.
 
 ### -param mode [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/composite">D2D1_COMPOSITE_MODE</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/composite">D2D1_COMPOSITE_MODE</a></b>
 
 The mode for the composite effect.
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositioncompositeeffect">IDCompositionCompositeEffect</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositioncompositeeffect">IDCompositionCompositeEffect</a>

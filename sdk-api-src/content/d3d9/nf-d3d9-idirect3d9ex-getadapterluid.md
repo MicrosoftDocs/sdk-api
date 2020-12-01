@@ -57,13 +57,13 @@ This method returns a unique identifier for the adapter that is specific to the 
 
 ### -param Adapter [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Ordinal number denoting the display adapter from which to retrieve the LUID.
 
 ### -param pLUID [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549708(v=vs.85)">LUID</a>*</b>
+Type: <b><a href="/previous-versions/windows/hardware/drivers/ff549708(v=vs.85)">LUID</a>*</b>
 
 A unique identifier for the given adapter.
 
@@ -75,5 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex">IDirect3D9Ex</a>
-
+<a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex">IDirect3D9Ex</a>

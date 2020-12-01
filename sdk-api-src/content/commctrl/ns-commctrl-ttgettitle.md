@@ -60,25 +60,24 @@ Provides information about the title of a tooltip control.
 
 ### -field dwSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 <b>DWORD</b> that specifies size of structure. Set to sizeof(TTGETTITLE).
 
 ### -field uTitleBitmap
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 <b>UINT</b> that specifies the tooltip icon.
 
 ### -field cch
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 <b>UINT</b> that specifies the number of characters in the title.
 
 ### -field pszTitle
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WCHAR</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WCHAR</a>*</b>
 
 Pointer to a wide character string that contains the title.
-

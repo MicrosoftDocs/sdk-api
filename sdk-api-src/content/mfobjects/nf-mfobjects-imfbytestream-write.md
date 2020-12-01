@@ -81,7 +81,7 @@ This method is synchronous. It blocks until the write operation completes.
 
 <b>Implementation notes:</b>This method should update the current position in the stream by adding the number of bytes that were written to the stream, which is specified by the value returned in the <i>pcbWritten</i>, to the current position offset. 
 
- Other methods that can update the current position are <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-read">Read</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginread">BeginRead</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginwrite">BeginWrite</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-seek">Seek</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-setcurrentposition">SetCurrentPosition</a>.
+ Other methods that can update the current position are <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-read">Read</a>, <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginread">BeginRead</a>, <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginwrite">BeginWrite</a>, <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-seek">Seek</a>, and <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-setcurrentposition">SetCurrentPosition</a>.
 
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
@@ -93,7 +93,7 @@ This interface is available on the following platforms if the Windows Media Form
 
 #### Examples
 
-The following example writes data from a media buffer to a byte stream. For more information about media buffers, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>.
+The following example writes data from a media buffer to a byte stream. For more information about media buffers, see <a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>.
         
 
 
@@ -165,5 +165,4 @@ HRESULT WriteToStream(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
-
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>

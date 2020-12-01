@@ -189,7 +189,7 @@ The total number of MFE packets  transmitted across all associated interfaces. N
 
 ## -remarks
 
-The <b>MIB_IPMCAST_MFE_STATS_EX</b> structure extends the functionality of <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a> by including additional information on MFE packets.
+The <b>MIB_IPMCAST_MFE_STATS_EX</b> structure extends the functionality of <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a> by including additional information on MFE packets.
 
 This structure does not have a fixed size. Use the <b>SIZEOF_MIB_MFE_STATS_EX(X)</b> macro to determine the size of this structure. This macro is defined in the Iprtrmib.h header file.
 
@@ -199,9 +199,8 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_mfe_stats">MIB_IPMCAST_MFE_STATS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_mfe_stats_table_ex_xp">MIB_MFE_STATS_TABLE_EX</a>
-
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_mfe_stats_table_ex_xp">MIB_MFE_STATS_TABLE_EX</a>

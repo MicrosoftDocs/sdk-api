@@ -54,7 +54,7 @@ Implemented by monikers to enable the running object table (ROT) to compare moni
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IROTData</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IROTData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IROTData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IROTData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IROTData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irotdata-getcomparisondata">GetComparisonData</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-irotdata-getcomparisondata">GetComparisonData</a>
 </td>
 <td align="left" width="63%">
 Retrieves data from a moniker that can be used to test the moniker for equality against another moniker.
@@ -80,9 +80,8 @@ Retrieves data from a moniker that can be used to test the moniker for equality 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>

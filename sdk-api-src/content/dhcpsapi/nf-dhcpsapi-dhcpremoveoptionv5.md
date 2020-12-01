@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>DhcpRemoveOptionV5</b> function removes the definition of a specific option for a specific user class and vendor class at the default option level on the DHCP server.  This extends the functionality in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpremoveoption">DhcpRemoveOption</a> with support for specific class and vendor names.
+The <b>DhcpRemoveOptionV5</b> function removes the definition of a specific option for a specific user class and vendor class at the default option level on the DHCP server.  This extends the functionality in <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpremoveoption">DhcpRemoveOption</a> with support for specific class and vendor names.
 
 ## -parameters
 
@@ -93,7 +93,7 @@ This flag should be set if the option is removed for a specific vendor class..
 
 ### -param OptionID [in]
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies the code for the option  to remove.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_OPTION_ID</a> value that specifies the code for the option  to remove.
 
 ### -param ClassName [in]
 
@@ -105,7 +105,7 @@ Unicode string that specifies the vendor of the option. This parameter is option
 
 ## -returns
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -160,5 +160,4 @@ The supplied class name is either unknown or incorrect.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpcreateoptionv5">DhcpCreateOptionV5</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpcreateoptionv5">DhcpCreateOptionV5</a>

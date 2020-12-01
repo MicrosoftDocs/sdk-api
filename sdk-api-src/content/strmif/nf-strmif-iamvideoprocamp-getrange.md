@@ -57,7 +57,7 @@ The <code>GetRange</code> method gets the range and default value of a specified
 
 ### -param Property [in]
 
-Specifies the property to query, as a value from the [VideoProcAmpProperty](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videoprocampproperty) enumeration.
+Specifies the property to query, as a value from the [VideoProcAmpProperty](/windows/desktop/api/strmif/ne-strmif-videoprocampproperty) enumeration.
 
 ### -param pMin [out]
 
@@ -77,7 +77,7 @@ Receives the default value of the property.
 
 ### -param pCapsFlags [out]
 
-Receives a member of the [VideoProcAmpFlags](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-videoprocampflags) enumeration, indicating whether the property is controlled automatically or manually.
+Receives a member of the [VideoProcAmpFlags](/windows/desktop/api/strmif/ne-strmif-videoprocampflags) enumeration, indicating whether the property is controlled automatically or manually.
 
 ## -returns
 
@@ -136,13 +136,12 @@ No error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
+<a href="/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideoprocamp">IAMVideoProcAmp Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamvideoprocamp">IAMVideoProcAmp Interface</a>

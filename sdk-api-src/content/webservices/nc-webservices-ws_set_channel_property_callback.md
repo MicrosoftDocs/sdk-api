@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Handles the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a> call
-                for a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
+Handles the <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a> call
+                for a <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_CUSTOM_CHANNEL_BINDING</a>.
 
 ## -parameters
 
 ### -param *channelInstance [in]
 
 The pointer to the state specific to this channel instance,
-                    as created by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_channel_callback">WS_CREATE_CHANNEL_CALLBACK</a>.
+                    as created by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_channel_callback">WS_CREATE_CHANNEL_CALLBACK</a>.
 
 ### -param id [in]
 
@@ -124,7 +124,7 @@ This function may return other errors not listed above.
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a> for information about the contract
+See <a href="/windows/desktop/api/webservices/nf-webservices-wssetchannelproperty">WsSetChannelProperty</a> for information about the contract
                 of this API.
             
 
@@ -133,5 +133,4 @@ It is up to the custom channel implementation to determine the
             
 
 If a property is not supported, the <b>E_INVALIDARG </b>should be returned.
-            (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
-
+            (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)

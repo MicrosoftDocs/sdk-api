@@ -54,11 +54,11 @@ The <b>ITfFnPlayBack</b> interface is implemented by the Speech API (SAPI) text 
 
 Each spoken word or phrase has audio data stored with the text. This interface is used to obtain the range that covers the spoken text and to play back the audio data.
 
-A client obtains an instance of this interface by obtaining the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider</a> for the SAPI text service and calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction</a> with IID_ITfFnPlayBack.
+A client obtains an instance of this interface by obtaining the <a href="/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider</a> for the SAPI text service and calling <a href="/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction</a> with IID_ITfFnPlayBack.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnPlayBack</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnPlayBack</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnPlayBack</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfFnPlayBack</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ITfFnPlayBack</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnplayback-play">Play</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnplayback-play">Play</a>
 </td>
 <td align="left" width="63%">
 Causes the audio data for a range of text to be played.
@@ -82,7 +82,7 @@ Causes the audio data for a range of text to be played.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnplayback-queryrange">QueryRange</a>
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnplayback-queryrange">QueryRange</a>
 </td>
 <td align="left" width="63%">
 Obtains the range of text for a word or phrase that contains audio data.
@@ -93,15 +93,14 @@ Obtains the range of text for a word or phrase that contains audio data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider
+<a href="/windows/desktop/api/msctf/nn-msctf-itffunctionprovider">ITfFunctionProvider
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction
+<a href="/windows/desktop/api/msctf/nf-msctf-itffunctionprovider-getfunction">ITfFunctionProvider::GetFunction
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

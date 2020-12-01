@@ -61,7 +61,7 @@ api_name:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Deletes an existing empty directory as a transacted operation.
 
@@ -75,7 +75,7 @@ The path of the directory to be removed. The path must specify an empty director
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
 The directory must reside on the local computer; otherwise, the function fails and the last error code is set 
        to <b>ERROR_TRANSACTIONS_UNSUPPORTED_REMOTE</b>.
@@ -83,14 +83,14 @@ The directory must reside on the local computer; otherwise, the function fails a
 ### -param hTransaction [in]
 
 A handle to the transaction. This handle is returned by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
+      <a href="/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -99,7 +99,7 @@ The <b>RemoveDirectoryTransacted</b> function
     directory is closed.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-removedirectorya">RemoveDirectory</a> removes a directory junction, even 
+<a href="/windows/desktop/api/fileapi/nf-fileapi-removedirectorya">RemoveDirectory</a> removes a directory junction, even 
     if the contents of the target are not empty; the function removes directory junctions regardless of the state of 
     the target object.
 
@@ -175,17 +175,16 @@ SMB 3.0 does not support TxF
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createdirectorytransacteda">CreateDirectoryTransacted</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createdirectorytransacteda">CreateDirectoryTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-deleting-directories">Creating and Deleting Directories</a>
+<a href="/windows/desktop/FileIO/creating-and-deleting-directories">Creating and Deleting Directories</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
+<a href="/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
-
+<a href="/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>

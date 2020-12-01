@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Contains flags for the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemlocator-connectserver">IWbemLocator::ConnectServer</a> method.
+Contains flags for the <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemlocator-connectserver">IWbemLocator::ConnectServer</a> method.
 
 ## -enum-fields
 
@@ -66,4 +66,3 @@ The call  returns in 2 minutes or less whether successful or not.
 ### -field WBEM_FLAG_CONNECT_PROVIDERS
 
 TBD
-

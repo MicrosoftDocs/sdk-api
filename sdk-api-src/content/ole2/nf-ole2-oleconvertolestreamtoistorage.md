@@ -63,12 +63,12 @@ A pointer to a stream that contains the persistent representation of the object 
 ### -param pstg [out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the OLE 2 structured storage object.
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the OLE 2 structured storage object.
 
 ### -param ptd [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a> structure that specifies the target device for which the OLE 1 object is rendered.
+<a href="/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a> structure that specifies the target device for which the OLE 1 object is rendered.
 
 ## -returns
 
@@ -79,13 +79,13 @@ This function supports the standard return value <b>E_INVALIDARG</b>, in additio
 This function converts an OLE 1 object to an OLE 2 structured storage object. Use this function to update OLE 1 objects to OLE 2 objects when a new version of the object application supports OLE 2.
 
 On entry, the <i>lpolestm</i> parameter should be created and positioned just as it would be for an 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-oleloadfromstream">OleLoadFromStream</a> function call. On exit, the <i>lpolestm</i> parameter is positioned just as it would be on exit from an <b>OleLoadFromStream</b> function, and the <i>pstg</i> parameter contains the uncommitted persistent representation of the OLE 2 storage object.
+<a href="/windows/desktop/api/ole/nf-ole-oleloadfromstream">OleLoadFromStream</a> function call. On exit, the <i>lpolestm</i> parameter is positioned just as it would be on exit from an <b>OleLoadFromStream</b> function, and the <i>pstg</i> parameter contains the uncommitted persistent representation of the OLE 2 storage object.
 
 For OLE 1 objects that use native data for their presentation, the 
-<b>OleConvertOLESTREAMToIStorage</b> function returns <b>CONVERT10_S_NO_PRESENTATION</b>. On receiving this return value, callers should call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a> to get the presentation data so it can be written to storage.
+<b>OleConvertOLESTREAMToIStorage</b> function returns <b>CONVERT10_S_NO_PRESENTATION</b>. On receiving this return value, callers should call <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a> to get the presentation data so it can be written to storage.
 
 Applications that do not use the OLE default caching resources, but use the conversion resources, can use an alternate function, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleconvertolestreamtoistorageex">OleConvertOLESTREAMToIStorageEx</a>, which can specify the presentation data to convert. In the 
+<a href="/windows/desktop/api/ole2/nf-ole2-oleconvertolestreamtoistorageex">OleConvertOLESTREAMToIStorageEx</a>, which can specify the presentation data to convert. In the 
 <b>OleConvertOLESTREAMToIStorageEx</b> function, the presentation data read from the <b>OLESTREAM</b> structure is passed out and the newly created OLE 2 storage object does not contain a presentation stream.
 
 The following procedure describes the conversion process using 
@@ -95,12 +95,12 @@ The following procedure describes the conversion process using
 
 <ol>
 <li>Create a root 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> object by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile">StgCreateDocfile</a> function (..., &amp;<i>pstg</i>).</li>
-<li>Open the OLE 1 file (using <a href="https://docs.microsoft.com/windows/desktop/direct3dtools/ipixengine-openfile-bstr-bstr-inewframescallback-ptr-ifileiocallback-ptr-lcid">OpenFile</a> or another OLE 1 technique).</li>
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> object by calling the 
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile">StgCreateDocfile</a> function (..., &amp;<i>pstg</i>).</li>
+<li>Open the OLE 1 file (using <a href="/windows/desktop/direct3dtools/ipixengine-openfile-bstr-bstr-inewframescallback-ptr-ifileiocallback-ptr-lcid">OpenFile</a> or another OLE 1 technique).</li>
 <li>Read from the file, using the OLE 1 procedure for reading files, until an OLE object is found.</li>
 <li>Allocate an 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> object from the root 
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> object from the root 
 <b>IStorage</b> created in Step 1. 
 
 
@@ -118,29 +118,28 @@ hRes = OleLoad(pStgChild, &IID_IOleObject, pClientSite, ppvObj);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coisole1class">CoIsOle1Class</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-coisole1class">CoIsOle1Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a>
+<a href="/windows/desktop/api/objidl/ns-objidl-dvtargetdevice">DVTARGETDEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleconvertistoragetoolestream">OleConvertIStorageToOLESTREAM</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-oleconvertistoragetoolestream">OleConvertIStorageToOLESTREAM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleconvertistoragetoolestreamex">OleConvertIStorageToOLESTREAMEx</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-oleconvertistoragetoolestreamex">OleConvertIStorageToOLESTREAMEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleconvertolestreamtoistorageex">OleConvertOLESTREAMToIStorageEx</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-oleconvertolestreamtoistorageex">OleConvertOLESTREAMToIStorageEx</a>
 
 
 
-<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a>
+<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium-r1">STGMEDIUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tymed">TYMED</a>
-
+<a href="/windows/desktop/api/objidl/ne-objidl-tymed">TYMED</a>

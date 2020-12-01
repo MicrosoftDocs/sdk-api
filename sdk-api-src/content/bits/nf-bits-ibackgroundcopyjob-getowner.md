@@ -57,7 +57,7 @@ Retrieves the identity of the job's owner.
 ### -param pVal [out]
 
 Null-terminated string that contains the string version of the SID that identifies the job's owner. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppOwner</i> when done.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppOwner</i> when done.
 
 ## -returns
 
@@ -98,12 +98,11 @@ To convert the string format of the SID into a domain\user-name format, which is
 
 <ul>
 <li>To convert the string SID to a SID, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsidtosida">ConvertStringSidToSid</a> function.</li>
+<a href="/windows/desktop/api/sddl/nf-sddl-convertstringsidtosida">ConvertStringSidToSid</a> function.</li>
 <li>To retrieve the domain and user name associated with the SID, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a> function.</li>
+<a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a> function.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-takeownership">IBackgroundCopyJob::TakeOwnership</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-takeownership">IBackgroundCopyJob::TakeOwnership</a>

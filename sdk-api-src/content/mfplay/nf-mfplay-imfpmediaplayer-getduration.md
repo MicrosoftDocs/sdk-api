@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
@@ -136,15 +136,14 @@ There is no current media item.
 
 ## -remarks
 
-This method calculates the playback duration, taking into account the start and stop times for the media item. To set the start and stop times, call <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstartstopposition">IMFPMediaItem::SetStartStopPosition</a> on the media item. To get the actual duration of the underlying media file, regardless of start and stop times, call <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getduration">IMFPMediaItem::GetDuration</a>.
+This method calculates the playback duration, taking into account the start and stop times for the media item. To set the start and stop times, call <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-setstartstopposition">IMFPMediaItem::SetStartStopPosition</a> on the media item. To get the actual duration of the underlying media file, regardless of start and stop times, call <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getduration">IMFPMediaItem::GetDuration</a>.
 
-For example, suppose that you load a 30-second audio file and set the start time equal to 2 seconds and stop time equal to 10 seconds. The <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getduration">IMFPMediaItem::GetDuration</a> method will return 30 seconds, but the <b>IMFPMediaPlayer::GetDuration</b> method will return 8 seconds.
+For example, suppose that you load a 30-second audio file and set the start time equal to 2 seconds and stop time equal to 10 seconds. The <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getduration">IMFPMediaItem::GetDuration</a> method will return 30 seconds, but the <b>IMFPMediaPlayer::GetDuration</b> method will return 8 seconds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

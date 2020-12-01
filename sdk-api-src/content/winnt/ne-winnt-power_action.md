@@ -92,13 +92,12 @@ Warm eject.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-power_action_policy">POWER_ACTION_POLICY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-power_action_policy">POWER_ACTION_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-portal">Power Management</a>
+<a href="/windows/desktop/Power/power-management-portal">Power Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-enumeration-types">Power Management Enumeration Types</a>
-
+<a href="/windows/desktop/Power/power-management-enumeration-types">Power Management Enumeration Types</a>

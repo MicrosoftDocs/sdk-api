@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the copy mode used when calling <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatacopier-copymetadataforframes">ISpatialAudioMetadataCopier::CopyMetadataForFrames</a>.
+Specifies the copy mode used when calling <a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadatacopier-copymetadataforframes">ISpatialAudioMetadataCopier::CopyMetadataForFrames</a>.
 
 ## -enum-fields
 
@@ -60,7 +60,7 @@ Creates a direct copy of the number of metadata items  specified with the <i>cop
 
 ### -field SpatialAudioMetadataCopy_Append
 
-Performs an append operation which will fail if the  resulting <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitemsbuffer">ISpatialAudioMetadataItemsBuffer</a> has too many items.
+Performs an append operation which will fail if the  resulting <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitemsbuffer">ISpatialAudioMetadataItemsBuffer</a> has too many items.
 
 ### -field SpatialAudioMetadataCopy_AppendMergeWithLast
 
@@ -69,4 +69,3 @@ Performs an append operation, and if overflow occurs, extra items are merged int
 ### -field SpatialAudioMetadataCopy_AppendMergeWithFirst
 
 Performs an append operation, and if overflow occurs, extra items are merged, assigning the offset to the offset of the first non-overflow item.
-

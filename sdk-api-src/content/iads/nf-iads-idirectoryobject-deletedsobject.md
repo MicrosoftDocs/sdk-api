@@ -60,11 +60,11 @@ The relative distinguished name (relative path) of the object to be deleted.
 
 ## -returns
 
-This method returns the standard return values, including S_OK for a successful operation. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method returns the standard return values, including S_OK for a successful operation. For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-To delete a container object and its children, use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsdeleteops-deleteobject">IADsDeleteOps::DeleteObject</a> method.
+To delete a container object and its children, use the  <a href="/windows/desktop/api/iads/nf-iads-iadsdeleteops-deleteobject">IADsDeleteOps::DeleteObject</a> method.
 
 
 #### Examples
@@ -89,13 +89,12 @@ if ( SUCCEEDED(hr) )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsdeleteops-deleteobject">IADsDeleteOps::DeleteObject</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsdeleteops-deleteobject">IADsDeleteOps::DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>

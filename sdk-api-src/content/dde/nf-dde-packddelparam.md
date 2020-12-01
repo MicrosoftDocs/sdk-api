@@ -49,6 +49,7 @@ api_location:
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
  - PackDDElParam
+req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ---
 
 # PackDDElParam function
@@ -92,7 +93,7 @@ An application should call this function only for posted DDE messages.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
+<a href="/windows/desktop/dataxchg/about-dynamic-data-exchange">About Dynamic Data Exchange</a>
 
 
 
@@ -100,7 +101,7 @@ An application should call this function only for posted DDE messages.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-freeddelparam">FreeDDElParam</a>
+<a href="/windows/desktop/api/dde/nf-dde-freeddelparam">FreeDDElParam</a>
 
 
 
@@ -108,9 +109,8 @@ An application should call this function only for posted DDE messages.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-reuseddelparam">ReuseDDElParam</a>
+<a href="/windows/desktop/api/dde/nf-dde-reuseddelparam">ReuseDDElParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dde/nf-dde-unpackddelparam">UnpackDDElParam</a>
-
+<a href="/windows/desktop/api/dde/nf-dde-unpackddelparam">UnpackDDElParam</a>

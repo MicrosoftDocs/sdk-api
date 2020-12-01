@@ -57,7 +57,7 @@ api_name:
 ## -description
 
 Removes the trailing file name and backslash from a path, if they are present.
-<div class="alert"><b>Note</b>  This function is deprecated. We recommend the use of the <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchremovefilespec">PathCchRemoveFileSpec</a> function in its place.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is deprecated. We recommend the use of the <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchremovefilespec">PathCchRemoveFileSpec</a> function in its place.</div><div> </div>
 
 ## -parameters
 
@@ -77,4 +77,3 @@ Returns nonzero if something was removed, or zero otherwise.
 
 > [!NOTE]
 > The shlwapi.h header defines PathRemoveFileSpec as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

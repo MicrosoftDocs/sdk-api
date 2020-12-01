@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> object with the character attributes of the specified range.
+Gets an <a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> object with the character attributes of the specified range.
 
 ## -parameters
 
 ### -param ppFont
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>**</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>**</b>
 
-The pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> object.
+The pointer to an <a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> object.
 
 ## -returns
 
@@ -68,7 +68,7 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 ## -remarks
 
-For plain-text controls, these objects do not vary from range to range, but in rich-text solutions, they do. See the section on <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> for further details.
+For plain-text controls, these objects do not vary from range to range, but in rich-text solutions, they do. See the section on <a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> for further details.
 
 ## -see-also
 
@@ -76,11 +76,11 @@ For plain-text controls, these objects do not vary from range to range, but in r
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -88,5 +88,4 @@ For plain-text controls, these objects do not vary from range to range, but in r
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

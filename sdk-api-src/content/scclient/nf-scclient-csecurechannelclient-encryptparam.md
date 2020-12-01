@@ -72,7 +72,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -97,25 +97,24 @@ Possible values include, but are not limited to, those in the following table.
 
 ## -remarks
 
-This method is used to encrypt data before sending it to the device in <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>.
+This method is used to encrypt data before sending it to the device in <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>.
 
-Encrypt only the parameters that are specified as requiring encryption. See <a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a> for a table of methods that must use the message authentication code algorithm and encrypted parameters.
+Encrypt only the parameters that are specified as requiring encryption. See <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a> for a table of methods that must use the message authentication code algorithm and encrypted parameters.
 
-For example code, see <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>.
+For example code, see <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231586(v=vs.85)">CSecureChannelClient::DecryptParam</a>
+<a href="/previous-versions/bb231586(v=vs.85)">CSecureChannelClient::DecryptParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
-
+<a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>

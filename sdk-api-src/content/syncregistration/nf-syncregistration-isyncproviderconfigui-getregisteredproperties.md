@@ -56,7 +56,7 @@ Obtains configuration UI properties for reading and writing.
 
 ### -param ppConfigUIProperties [out]
 
-Returns the <b>IPropertyStore</b> object that contains the configuration UI properties for reading and writing. Both the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfiguiinfo">ISyncProviderConfigUIInfo</a> interfaces inherit from <b>IPropertyStore</b>.
+Returns the <b>IPropertyStore</b> object that contains the configuration UI properties for reading and writing. Both the <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> and <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfiguiinfo">ISyncProviderConfigUIInfo</a> interfaces inherit from <b>IPropertyStore</b>.
 
 ## -returns
 
@@ -82,5 +82,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>

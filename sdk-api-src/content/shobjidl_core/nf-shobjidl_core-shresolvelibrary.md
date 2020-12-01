@@ -58,9 +58,9 @@ Resolves all locations in a library, even those locations that have been moved o
 
 ### -param psiLibrary [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object that represents the library.
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object that represents the library.
 
 ## -returns
 
@@ -72,13 +72,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 This function can block the calling thread for as long as it takes to resolve all the locations in the specified library. Because it blocks the thread from which it is called, it should not be called from a thread that also handles user interface interactions.
 
-This function resolves all locations in the specified library in a single call. To resolve an individual location in a library, see the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-resolvefolder">IShellLibrary::ResolveFolder</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-shresolvefolderpathinlibrary">SHResolveFolderPathInLibrary</a> function.
+This function resolves all locations in the specified library in a single call. To resolve an individual location in a library, see the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-resolvefolder">IShellLibrary::ResolveFolder</a> method or the <a href="/windows/desktop/api/shobjidl/nf-shobjidl-shresolvefolderpathinlibrary">SHResolveFolderPathInLibrary</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-resolvefolder">IShellLibrary::ResolveFolder</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-resolvefolder">IShellLibrary::ResolveFolder</a>

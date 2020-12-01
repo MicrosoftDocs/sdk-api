@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndCanEject</b> macro determines if an MCI device can eject its media. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-eject">MCIWNDM_CAN_EJECT</a> message.
+The <b>MCIWndCanEject</b> macro determines if an MCI device can eject its media. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-can-eject">MCIWNDM_CAN_EJECT</a> message.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Handle of the MCIWnd window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-eject">MCIWNDM_CAN_EJECT</a>
-
+<a href="/windows/desktop/Multimedia/mciwndm-can-eject">MCIWNDM_CAN_EJECT</a>

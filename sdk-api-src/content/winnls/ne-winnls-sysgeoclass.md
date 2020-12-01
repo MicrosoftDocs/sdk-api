@@ -68,5 +68,4 @@ Class for region geographical location identifiers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-enumeration-types">National Language Support Enumeration Types</a>
-
+<a href="/windows/desktop/Intl/national-language-support-enumeration-types">National Language Support Enumeration Types</a>

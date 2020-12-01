@@ -113,7 +113,7 @@ The time, in seconds, <b>i64CreateTime</b> may be in error.
 
 ### -field wOriginalXid
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/windns/ns-windns-dns_header">Xid</a>  identifier of the original message.
+The <a href="/windows/desktop/api/windns/ns-windns-dns_header">Xid</a>  identifier of the original message.
 
 ### -field wError
 
@@ -192,4 +192,3 @@ The
 
 
 <a href="/windows/win32/api/windns/ns-windns-dns_tkey_dataw">DNS_TKEY_DATA</a>
-

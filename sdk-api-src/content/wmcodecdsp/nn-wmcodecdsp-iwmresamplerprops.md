@@ -54,7 +54,7 @@ Sets properties on the audio resampler DSP.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMResamplerProps</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMResamplerProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMResamplerProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMResamplerProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMResamplerProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresamplerprops-sethalffilterlength">SetHalfFilterLength</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresamplerprops-sethalffilterlength">SetHalfFilterLength</a>
 </td>
 <td align="left" width="63%">
 Specifies the quality of the output. 
@@ -78,7 +78,7 @@ Specifies the quality of the output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresamplerprops-setuserchannelmtx">SetUserChannelMtx</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresamplerprops-setuserchannelmtx">SetUserChannelMtx</a>
 </td>
 <td align="left" width="63%">
 Specifies the channel matrix.
@@ -93,5 +93,4 @@ Audio Resampler
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

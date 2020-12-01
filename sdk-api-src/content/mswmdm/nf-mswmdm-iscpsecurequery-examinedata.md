@@ -74,7 +74,7 @@ Flags describing the data offered to the secure content provider to make decisio
 
 ### -param pwszExtension [in]
 
-Pointer to the file name extension to be examined if the secure content provider asks for an extension in the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getdatademands">GetDataDemands</a> call.
+Pointer to the file name extension to be examined if the secure content provider asks for an extension in the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getdatademands">GetDataDemands</a> call.
 
 ### -param pData [in]
 
@@ -186,5 +186,4 @@ If this method does not return S_OK or WMDM_E_MOREDATA, then Windows Media Devic
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>

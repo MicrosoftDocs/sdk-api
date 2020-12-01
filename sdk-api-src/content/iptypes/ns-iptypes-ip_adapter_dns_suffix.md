@@ -69,21 +69,20 @@ The DNS suffix for this DNS suffix entry.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure is retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function. The <b>FirstDnsSuffix</b> member of the <b>IP_ADAPTER_ADDRESSES</b>structure is a pointer to a linked list of <b>IP_ADAPTER_DNS_SUFFIX</b> structures.
+The <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure is retrieved by the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function. The <b>FirstDnsSuffix</b> member of the <b>IP_ADAPTER_ADDRESSES</b>structure is a pointer to a linked list of <b>IP_ADAPTER_DNS_SUFFIX</b> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
+<a href="/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
-
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>

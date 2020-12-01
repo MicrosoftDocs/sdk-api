@@ -47,13 +47,10 @@ api_name:
  - IPSEC_TUNNEL_ENDPOINTS0
 ---
 
-# IPSEC_TUNNEL_ENDPOINTS0 structure
-
-
 ## -description
 
 The <b>IPSEC_TUNNEL_ENDPOINTS0</b> structure is used to store end points of a tunnel mode SA.
-[IPSEC_TUNNEL_ENDPOINTS2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2) is available.</div><div> </div>
+[IPSEC_TUNNEL_ENDPOINTS2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2) is available.
 
 ## -struct-fields
 
@@ -61,36 +58,13 @@ The <b>IPSEC_TUNNEL_ENDPOINTS0</b> structure is used to store end points of a tu
 
 IP version of the addresses.
 
-See [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version) for more information.
+See [FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version) for more information.
 
 ### -field localV4Address
 
-### -field localV6Address
-
-### -field remoteV4Address
-
-### -field remoteV6Address
-
- 
-
-
-
-
-#### - ( unnamed union )
-
-switch_type(FWP_IP_VERSION), switch_is(ipVersion)
-
-Tagged union containing the local tunnel end point address.
-
-
-
-#### localV4Address
-
 case(FWP_IP_VERSION_V4)
 
-
-
-#### localV6Address
+### -field localV6Address
 
 case(FWP_IP_VERSION_V6)
 
@@ -98,23 +72,20 @@ switch_type(FWP_IP_VERSION), switch_is(ipVersion)
 
 Tagged union containing the remote tunnel end point address.
 
-
-
-#### remoteV4Address
+### -field remoteV4Address
 
 case(FWP_IP_VERSION_V4)
 
-
-
-#### remoteV6Address
+### -field remoteV6Address
 
 case(FWP_IP_VERSION_V6)
 
+## -remarks
+
+For the unnamed union containing the local tunnel end point address, switch_type(FWP_IP_VERSION), switch_is(ipVersion).
+
 ## -see-also
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
+[FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform API structures</a>

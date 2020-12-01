@@ -52,23 +52,22 @@ api_name:
 
 ## -description
 
-Specifies the clipboard format. This structure included with the <a href="https://docs.microsoft.com/windows/desktop/Controls/en-clipformat">EN_CLIPFORMAT</a> notification.
+Specifies the clipboard format. This structure included with the <a href="/windows/desktop/Controls/en-clipformat">EN_CLIPFORMAT</a> notification.
 
 ## -struct-fields
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 Structure that contains information about this notification message.
 
 ### -field cf
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
-A clipboard format registered by a call to the <a href="https://msdn.microsoft.com/892add91-a937-4602-86d2-5e5550a81872">RegisterClipboardFormat</a> function.
+A clipboard format registered by a call to the <a href="/windows/win32/api/winuser/nf-winuser-registerclipboardformata">RegisterClipboardFormat</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/en-clipformat">EN_CLIPFORMAT</a>
-
+<a href="/windows/desktop/Controls/en-clipformat">EN_CLIPFORMAT</a>

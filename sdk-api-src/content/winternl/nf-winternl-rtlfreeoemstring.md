@@ -51,16 +51,15 @@ api_name:
 ## -description
 
 Frees the string buffer allocated by
-    <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtooemstring">RtlUnicodeStringToOemString</a>.
+    <a href="/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtooemstring">RtlUnicodeStringToOemString</a>.
 
 ## -parameters
 
 ### -param OemString [in, out]
 
 Address of the OEM string whose buffer
-        was previously allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtooemstring">RtlUnicodeStringToOemString</a>.
+        was previously allocated by <a href="/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtooemstring">RtlUnicodeStringToOemString</a>.
 
 ## -remarks
 
-This routine releases the <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-string">OEM_STRING</a> structure. The <b>Length</b> and <b>MaximumLength</b> members are not affected by this routine.
-
+This routine releases the <b>Buffer</b> member of the <a href="/windows/desktop/api/winternl/ns-winternl-string">OEM_STRING</a> structure. The <b>Length</b> and <b>MaximumLength</b> members are not affected by this routine.

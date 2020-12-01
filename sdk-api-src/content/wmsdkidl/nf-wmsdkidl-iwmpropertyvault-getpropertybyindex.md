@@ -71,7 +71,7 @@ On input, a pointer to a <b>DWORD</b> containing the length, in wide characters,
 
 ### -param pType [out]
 
-Pointer to a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. This parameter specifies the type of data pointed to by <i>pValue</i>.
+Pointer to a member of the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type. This parameter specifies the type of data pointed to by <i>pValue</i>.
 
 ### -param pValue [out]
 
@@ -135,13 +135,12 @@ You must make two calls to <b>GetPropertyByIndex</b> to properly retrieve all of
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-getpropertybyname">IWMPropertyVault::GetPropertyByName</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-getpropertybyname">IWMPropertyVault::GetPropertyByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty">IWMPropertyVault::SetProperty</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty">IWMPropertyVault::SetProperty</a>

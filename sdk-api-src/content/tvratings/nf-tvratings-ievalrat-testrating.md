@@ -56,15 +56,15 @@ The <b>TestRating</b> method determines whether a program with the specified rat
 
 ### -param enShowSystem [in]
 
-Specifies the rating system, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration type.
+Specifies the rating system, as an <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_system">EnTvRat_System</a> enumeration type.
 
 ### -param enShowLevel [in]
 
-Specifies the rating level, as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration type. The meaning of this value depends on the rating system.
+Specifies the rating level, as an <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-entvrat_genericlevel">EnTvRat_GenericLevel</a> enumeration type. The meaning of this value depends on the rating system.
 
 ### -param lbfEnShowAttributes [in]
 
-Bitwise combination of zero or more flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration. The flags specify content attributes, such as violence or adult language. Content attributes do not apply to all rating systems.
+Bitwise combination of zero or more flags from the <a href="/previous-versions/windows/desktop/api/tvratings/ne-tvratings-bfentvrat_genericattributes">BfEnTvRat_GenericAttributes</a> enumeration. The flags specify content attributes, such as violence or adult language. Content attributes do not apply to all rating systems.
 
 ## -returns
 
@@ -112,10 +112,10 @@ This program is allowed and should not be blocked.
 
 ## -remarks
 
-The application sets viewing permissions through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-put_blockedratingattributes">IEvalRat::put_BlockedRatingAttributes</a> method. Whenever the Decrypter/Detagger filter receives a new rating in a program, it calls <b>TestRating</b> to determine whether to block the program. If <b>TestRating</b> returns S_OK, the rating is restricted under the current set of viewing permissions, and the Decrypter/Tagger filter blocks the program.
+The application sets viewing permissions through the <a href="/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-put_blockedratingattributes">IEvalRat::put_BlockedRatingAttributes</a> method. Whenever the Decrypter/Detagger filter receives a new rating in a program, it calls <b>TestRating</b> to determine whether to block the program. If <b>TestRating</b> returns S_OK, the rating is restricted under the current set of viewing permissions, and the Decrypter/Tagger filter blocks the program.
 
 <h3><a id="Implementation_Note_"></a><a id="implementation_note_"></a><a id="IMPLEMENTATION_NOTE_"></a>Implementation Note:</h3>
-For each supported rating system, store a table that contains bitmasks for each level within that system. On object creation, initialize each bitmask to zero. Update the bitmasks in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-put_blockedratingattributes">put_BlockedRatingAttributes</a> method.
+For each supported rating system, store a table that contains bitmasks for each level within that system. On object creation, initialize each bitmask to zero. Update the bitmasks in the <a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-put_blockedratingattributes">put_BlockedRatingAttributes</a> method.
 
 In the <b>TestRating</b> method, use the <i>enShowSystem</i> and <i>enShowLevel</i> parameters to perform a table lookup and get the corresponding bitmask. Return S_FALSE if either of the following tests are true:
 
@@ -144,5 +144,4 @@ else
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ievalrat">IEvalRat Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ievalrat">IEvalRat Interface</a>

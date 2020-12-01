@@ -92,7 +92,7 @@ Callbacks of interest, which can be any subset of the following events.
 </tr>
 <tr>
 <td>ADVISE_DISPLAY_CHANGE</td>
-<td>Called on <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a>. The <b>WM_DISPLAYCHANGE</b> message is sent to all windows when the display resolution has changed.</td>
+<td>Called on <a href="/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a>. The <b>WM_DISPLAYCHANGE</b> message is sent to all windows when the display resolution has changed.</td>
 </tr>
 <tr>
 <td>ADVISE_ALL2</td>
@@ -106,15 +106,14 @@ Returns S_OK if successful. If the method fails, it returns an <b>HRESULT</b> er
 
 ## -remarks
 
-This method sets up an advise link for the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlaynotify">IOverlayNotify</a> interface to receive notifications. If one of these events occurs, the appropriate entry point in the <i>pOverlayNotify</i> parameter passed in is called (<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onclipchange">IOverlayNotify::OnClipChange</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-oncolorkeychange">IOverlayNotify::OnColorKeyChange</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onpalettechange">IOverlayNotify::OnPaletteChange</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onpositionchange">IOverlayNotify::OnPositionChange</a>).
+This method sets up an advise link for the <a href="/windows/desktop/api/strmif/nn-strmif-ioverlaynotify">IOverlayNotify</a> interface to receive notifications. If one of these events occurs, the appropriate entry point in the <i>pOverlayNotify</i> parameter passed in is called (<a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onclipchange">IOverlayNotify::OnClipChange</a>, <a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-oncolorkeychange">IOverlayNotify::OnColorKeyChange</a>, <a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onpalettechange">IOverlayNotify::OnPaletteChange</a>, or <a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onpositionchange">IOverlayNotify::OnPositionChange</a>).
 
-Only one advise link can be set on any given <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> interface. Trying to set another notification interface on second and subsequent calls returns VFW_E_ADVISE_ALREADY_SET. You can cancel an advise link by using <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlay-unadvise">IOverlay::Unadvise</a>.
+Only one advise link can be set on any given <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> interface. Trying to set another notification interface on second and subsequent calls returns VFW_E_ADVISE_ALREADY_SET. You can cancel an advise link by using <a href="/windows/desktop/api/strmif/nf-strmif-ioverlay-unadvise">IOverlay::Unadvise</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>

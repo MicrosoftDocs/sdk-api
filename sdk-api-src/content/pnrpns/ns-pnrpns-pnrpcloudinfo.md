@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>PNRPCLOUDINFO</b> structure is pointed to by the <b>lpBlob</b> member of the <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/winsock-nsp-reference-links">WSAQUERYSET</a> structure.
+The <b>PNRPCLOUDINFO</b> structure is pointed to by the <b>lpBlob</b> member of the <a href="/windows/desktop/P2PSdk/winsock-nsp-reference-links">WSAQUERYSET</a> structure.
 
 ## -struct-fields
 
@@ -64,45 +64,44 @@ Specifies the size of this structure.
 
 ### -field Cloud
 
-Specifies the network cloud information stored in a <a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ns-pnrpdef-pnrp_cloud_id">PNRP_CLOUD_ID</a> structure.
+Specifies the network cloud information stored in a <a href="/windows/desktop/api/pnrpdef/ns-pnrpdef-pnrp_cloud_id">PNRP_CLOUD_ID</a> structure.
 
 ### -field enCloudState
 
-Specifies the state of the network cloud. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_cloud_state">PNRP_CLOUD_STATE</a>.
+Specifies the state of the network cloud. Valid values are specified by <a href="/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_cloud_state">PNRP_CLOUD_STATE</a>.
 
 ### -field enCloudFlags
 
-Indicates if the cloud name is valid on the network or only valid on the current computer. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_cloud_flags">PNRP_CLOUD_FLAGS</a>.
+Indicates if the cloud name is valid on the network or only valid on the current computer. Valid values are specified by <a href="/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_cloud_flags">PNRP_CLOUD_FLAGS</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-and-blob">PNRP and BLOB</a>
+<a href="/windows/desktop/P2PSdk/pnrp-and-blob">PNRP and BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-and-wsalookupservicebegin">PNRP and WSALookupServiceBegin</a>
+<a href="/windows/desktop/P2PSdk/pnrp-and-wsalookupservicebegin">PNRP and WSALookupServiceBegin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-and-wsalookupservicenext">PNRP and WSALookupServiceNext</a>
+<a href="/windows/desktop/P2PSdk/pnrp-and-wsalookupservicenext">PNRP and WSALookupServiceNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-and-wsaqueryset">PNRP and WSAQUERYSET</a>
+<a href="/windows/desktop/P2PSdk/pnrp-and-wsaqueryset">PNRP and WSAQUERYSET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_cloud_flags">PNRP_CLOUD_FLAGS</a>
+<a href="/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_cloud_flags">PNRP_CLOUD_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ns-pnrpdef-pnrp_cloud_id">PNRP_CLOUD_ID</a>
+<a href="/windows/desktop/api/pnrpdef/ns-pnrpdef-pnrp_cloud_id">PNRP_CLOUD_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_cloud_state">PNRP_CLOUD_STATE</a>
+<a href="/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_cloud_state">PNRP_CLOUD_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/winsock-nsp-reference-links">WSAQUERYSET</a>
-
+<a href="/windows/desktop/P2PSdk/winsock-nsp-reference-links">WSAQUERYSET</a>

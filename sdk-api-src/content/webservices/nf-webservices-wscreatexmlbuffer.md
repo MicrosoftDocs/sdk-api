@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/wsw/xml-buffer">XML Buffer</a> which can be used to process XML data .
+Creates an <a href="/windows/desktop/wsw/xml-buffer">XML Buffer</a> which can be used to process XML data .
 
 ## -parameters
 
 ### -param heap [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure representing the <a href="https://docs.microsoft.com/windows/desktop/wsw/heap">heap</a> from which to allocate memory for the returned XML buffer.
+Pointer to the <a href="/windows/desktop/wsw/ws-heap">WS_HEAP</a> structure representing the <a href="/windows/desktop/wsw/heap">heap</a> from which to allocate memory for the returned XML buffer.
 
 ### -param properties
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_buffer_property">WS_XML_BUFFER_PROPERTY</a> structures containing optional properties for the XML buffer.
+An array of <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_buffer_property">WS_XML_BUFFER_PROPERTY</a> structures containing optional properties for the XML buffer.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
 
@@ -70,14 +70,14 @@ The number of properties in the <i>properties</i> array.
 
 ### -param buffer
 
-On   success, a pointer that receives the address of the  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> structure representing the created XML buffer. The memory for this buffer is released when its heap is reset or released.
+On   success, a pointer that receives the address of the  <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> structure representing the created XML buffer. The memory for this buffer is released when its heap is reset or released.
         
 
 The XML buffer is initially  empty.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
 
@@ -111,4 +111,3 @@ One or more arguments are invalid.
 </td>
 </tr>
 </table>
-

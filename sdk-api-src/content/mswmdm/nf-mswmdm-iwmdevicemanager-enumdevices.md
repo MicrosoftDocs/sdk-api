@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>EnumDevices</b> method retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice">IWMDMEnumDevice</a> interface that can be used to enumerate portable devices connected to the computer.
+The <b>EnumDevices</b> method retrieves a pointer to the <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice">IWMDMEnumDevice</a> interface that can be used to enumerate portable devices connected to the computer.
 
 ## -parameters
 
 ### -param ppEnumDevice [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice">IWMDMEnumDevice</a> interface used to enumerate devices. The caller must release this interface when done with it.
+Pointer to a pointer to an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice">IWMDMEnumDevice</a> interface used to enumerate devices. The caller must release this interface when done with it.
 
 ## -returns
 
@@ -68,25 +68,24 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
-This method returns devices based on earlier versions of Windows Media Device Manager. To get all devices, including newer devices (such as MTP devices), call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2">IWMDMDeviceManager2::EnumDevices2</a>.
+This method returns devices based on earlier versions of Windows Media Device Manager. To get all devices, including newer devices (such as MTP devices), call <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2">IWMDMDeviceManager2::EnumDevices2</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enumerating-devices">Enumerating Devices</a>
+<a href="/windows/desktop/WMDM/enumerating-devices">Enumerating Devices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice">IWMDMEnumDevice Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice">IWMDMEnumDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager">IWMDeviceManager Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2">IWMDeviceManager2::EnumDevices2</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2">IWMDeviceManager2::EnumDevices2</a>

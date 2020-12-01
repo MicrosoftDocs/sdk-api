@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>get_TotalCallsQueued</b> method gets the total number of incoming calls for this queue during the current measurement period. The measurement period is switch or implementation specific. (See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>.)
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">get_MeasurementPeriod</a>.)
 
 ## -parameters
 
@@ -117,5 +117,4 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
-
+<a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>

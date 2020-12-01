@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>SECURITY_MESSAGE</b> structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogcomplete">RasSecurityDialogComplete</a> function to indicate the results of a RAS security DLL authentication transaction.
+<a href="/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogcomplete">RasSecurityDialogComplete</a> function to indicate the results of a RAS security DLL authentication transaction.
 
 ## -struct-fields
 
@@ -106,7 +106,7 @@ An error occurred that prevented validation of the remote user. The RAS server  
 ### -field hPort
 
 Specifies the port handle that the RAS server passed to the security DLL in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogbegin">RasSecurityDialogBegin</a> call for this authentication transaction.
+<a href="/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogbegin">RasSecurityDialogBegin</a> call for this authentication transaction.
 
 ### -field dwError
 
@@ -122,17 +122,16 @@ Specifies the name of the logon domain for the remote user if <b>dwMsgId</b> is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-server-administration-structures">RAS Server Administration Structures</a>
+<a href="/windows/desktop/RRAS/ras-server-administration-structures">RAS Server Administration Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogbegin">RasSecurityDialogBegin</a>
+<a href="/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogbegin">RasSecurityDialogBegin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogcomplete">RasSecurityDialogComplete</a>
+<a href="/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogcomplete">RasSecurityDialogComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
-
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>

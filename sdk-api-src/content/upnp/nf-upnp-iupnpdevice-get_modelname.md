@@ -57,7 +57,7 @@ The
 
 ### -param pbstr [out]
 
-Receives a reference to a string that contains the model name. Release this string with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
+Receives a reference to a string that contains the model name. Release this string with <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
 
 ## -returns
 
@@ -65,13 +65,12 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelnumber">IUPnPDevice::ModelNumber</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelnumber">IUPnPDevice::ModelNumber</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelurl">IUPnPDevice::ModelURL</a>
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_modelurl">IUPnPDevice::ModelURL</a>

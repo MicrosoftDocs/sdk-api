@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Closes the asynchronous work object. Call this method after the results of the operation have been consumed but before calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>.
+Closes the asynchronous work object. Call this method after the results of the operation have been consumed but before calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>.
 
 ## -parameters
 
@@ -62,5 +62,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/asyncinfo/nn-asyncinfo-iasyncinfo">IAsyncInfo</a>
-
+<a href="/windows/desktop/api/asyncinfo/nn-asyncinfo-iasyncinfo">IAsyncInfo</a>

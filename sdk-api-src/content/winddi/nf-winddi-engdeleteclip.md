@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EngDeleteClip</b> function deletes a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateclip">EngCreateClip</a>.
+The <b>EngDeleteClip</b> function deletes a <a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure allocated by <a href="/windows/desktop/api/winddi/nf-winddi-engcreateclip">EngCreateClip</a>.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Pointer to the CLIPOBJ structure to delete.
 ## -returns
 
 None
-

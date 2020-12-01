@@ -58,8 +58,8 @@ api_name:
 
 ## -description
 
-The <b>ConvertStringSidToSid</b> function converts a string-format <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) into a valid, functional SID. You can use this function to retrieve a SID that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida">ConvertSidToStringSid</a> function converted to string format.
+The <b>ConvertStringSidToSid</b> function converts a string-format <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) into a valid, functional SID. You can use this function to retrieve a SID that the 
+<a href="/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida">ConvertSidToStringSid</a> function converted to string format.
 
 ## -parameters
 
@@ -70,19 +70,19 @@ A pointer to a null-terminated string containing the string-format SID to conver
 
 The SID string can use either the standard 
 							S-<i>R</i>-<i>I</i>-<i>S</i>-<i>S</i>… format for SID strings, or the SID string constant format, such as "BA" for  built-in administrators. For more information about SID string notation, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/sid-components">SID Components</a>.
+<a href="/windows/desktop/SecAuthZ/sid-components">SID Components</a>.
 
 ### -param Sid [out]
 
 A pointer to a variable that receives a pointer to the converted SID. To free the returned buffer, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The <b>GetLastError</b> function may return one of the following error codes.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The <b>GetLastError</b> function may return one of the following error codes.
 
 <table>
 <tr>
@@ -115,30 +115,29 @@ Invalid SID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a>
+<a href="/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora">ConvertSecurityDescriptorToStringSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida">ConvertSidToStringSid</a>
+<a href="/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida">ConvertSidToStringSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora">ConvertStringSecurityDescriptorToSecurityDescriptor</a>
+<a href="/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora">ConvertStringSecurityDescriptorToSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 ## -remarks
 
 > [!NOTE]
 > The sddl.h header defines ConvertStringSidToSid as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

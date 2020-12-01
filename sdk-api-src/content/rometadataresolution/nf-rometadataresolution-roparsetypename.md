@@ -58,7 +58,7 @@ Parses a type name and existing type parameters, in the case of parameterized ty
 
 ### -param typeName [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: <b><a href="/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 String-encoded typename. The typename can be a non-namespace-qualified type, a non-parameterized namespace-qualified type or a fully instantiated namespace-qualified parameterized type.
 
@@ -70,7 +70,7 @@ Number of elements in the <i>typenameParts</i> array.
 
 ### -param typeNameParts
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>**</b>
+Type: <b><a href="/windows/desktop/WinRT/hstring">HSTRING</a>**</b>
 
 The first element of the array is the specified type, and the remaining array elements are the type parameters (if any) in prewalk tree order.
 
@@ -237,7 +237,7 @@ Type parameters may be:
 <li>Non-parameterized namespace-qualified types.</li>
 <li>Fully-instantiated namespace-qualified parameterized interfaces.</li>
 </ul>
-On success, the caller is responsible for deallocating the <i>typenameParts</i> array returned by <b>RoParseTypeName</b> by using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free the array and <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> to free the <b>HSTRING</b> values.
+On success, the caller is responsible for deallocating the <i>typenameParts</i> array returned by <b>RoParseTypeName</b> by using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to free the array and <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a> to free the <b>HSTRING</b> values.
 
 
 #### Examples
@@ -329,4 +329,3 @@ HRESULT PrintParameterizedInterfaceParts(PCWSTR pszTypename)
 }
 
 ```
-

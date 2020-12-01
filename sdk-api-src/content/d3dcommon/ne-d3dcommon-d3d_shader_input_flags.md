@@ -65,7 +65,7 @@ Assign a shader input to a register based on the register assignment in the HLSL
 
 ### -field D3D_SIF_COMPARISON_SAMPLER
 
-Use a comparison sampler, which uses the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
+Use a comparison sampler, which uses the <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
 
 ### -field D3D_SIF_TEXTURE_COMPONENT_0
 
@@ -89,7 +89,7 @@ Assign a shader input to a register based on the register assignment in the HLSL
 
 ### -field D3D10_SIF_COMPARISON_SAMPLER
 
-Use a comparison sampler, which uses the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
+Use a comparison sampler, which uses the <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
 
 ### -field D3D10_SIF_TEXTURE_COMPONENT_0
 
@@ -115,5 +115,4 @@ Forces the enumeration to compile to 32 bits.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>

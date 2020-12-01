@@ -53,21 +53,21 @@ api_name:
 
 ## -description
 
-Generates glyph <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">advance width</a> and two-dimensional offset information from the output of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>.
+Generates glyph <a href="/windows/desktop/Intl/uniscribe-glossary">advance width</a> and two-dimensional offset information from the output of <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>.
 
 ## -parameters
 
 ### -param hdc [in]
 
-Optional. Handle to the device context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>.
+Optional. Handle to the device context. For more information, see <a href="/windows/desktop/Intl/caching">Caching</a>.
 
 ### -param psc [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
+Pointer to a <a href="/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
 
 ### -param pwGlyphs [in]
 
-Pointer to a glyph buffer obtained from an earlier call to the <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> function.
+Pointer to a glyph buffer obtained from an earlier call to the <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> function.
 
 ### -param cGlyphs [in]
 
@@ -79,7 +79,7 @@ Pointer to an array of <a href="/windows/win32/api/usp10/ns-usp10-script_visattr
 
 ### -param psa [in, out]
 
-Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure. On input, this structure is obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>. On output, this structure contains values retrieved by <b>ScriptPlace</b>.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure. On input, this structure is obtained from a previous call to <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>. On output, this structure contains values retrieved by <b>ScriptPlace</b>.
 
 ### -param piAdvance [out]
 
@@ -87,11 +87,11 @@ Pointer to an array in which this function retrieves advance width information.
 
 ### -param pGoffset [out]
 
-Optional. Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-goffset">GOFFSET</a> structures in which this function retrieves the x and y offsets of combining glyphs. This array must be of length indicated by <i>cGlyphs</i>.
+Optional. Pointer to an array of <a href="/windows/desktop/api/usp10/ns-usp10-goffset">GOFFSET</a> structures in which this function retrieves the x and y offsets of combining glyphs. This array must be of length indicated by <i>cGlyphs</i>.
 
 ### -param pABC [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-abc">ABC</a> structure in which this function retrieves the <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">ABC width</a> for the entire <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">run</a>.
+Pointer to an <a href="/windows/desktop/api/wingdi/ns-wingdi-abc">ABC</a> structure in which this function retrieves the <a href="/windows/desktop/Intl/uniscribe-glossary">ABC width</a> for the entire <a href="/windows/desktop/Intl/uniscribe-glossary">run</a>.
 
 ## -returns
 
@@ -101,9 +101,9 @@ The function returns E_PENDING if the script cache specified by the <i>psc</i> p
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
+See <a href="/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
 
-The composite ABC width for the whole item identifies how much the glyphs <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">overhang</a> to the left of the start position and to the right of the length implied by the sum of the advance widths. The total advance width of the line is exactly abcA+abcB+abcC. The abcA and abcC values are maintained as proportions of the cell height represented in 8 bits and are thus roughly +/-1 percent. The total width retrieved, which is the sum of the abcA+abcB+abcC values indicated by <i>piAdvance</i>, is accurate to the resolution of the TrueType shaping engine.
+The composite ABC width for the whole item identifies how much the glyphs <a href="/windows/desktop/Intl/uniscribe-glossary">overhang</a> to the left of the start position and to the right of the length implied by the sum of the advance widths. The total advance width of the line is exactly abcA+abcB+abcC. The abcA and abcC values are maintained as proportions of the cell height represented in 8 bits and are thus roughly +/-1 percent. The total width retrieved, which is the sum of the abcA+abcB+abcC values indicated by <i>piAdvance</i>, is accurate to the resolution of the TrueType shaping engine.
 
 All arrays are in visual order unless the <b>fLogicalOrder</b> member is set in the <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure indicated by the <i>psa</i> parameter.
 
@@ -112,11 +112,11 @@ All arrays are in visual order unless the <b>fLogicalOrder</b> member is set in 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
+<a href="/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-goffset">GOFFSET</a>
+<a href="/windows/desktop/api/usp10/ns-usp10-goffset">GOFFSET</a>
 
 
 
@@ -124,7 +124,7 @@ All arrays are in visual order unless the <b>fLogicalOrder</b> member is set in 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a>
+<a href="/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a>
 
 
 
@@ -132,21 +132,20 @@ All arrays are in visual order unless the <b>fLogicalOrder</b> member is set in 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplaceopentype">ScriptPlaceOpenType</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptplaceopentype">ScriptPlaceOpenType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

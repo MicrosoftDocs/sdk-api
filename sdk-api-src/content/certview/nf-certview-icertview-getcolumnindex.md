@@ -120,7 +120,7 @@ The address of a variable that will contain the index of the column specified in
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the zero-based index of the column.
@@ -131,13 +131,12 @@ This method is used to determine the index of the column specified by the <i>str
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
+<a href="/windows/desktop/api/certview/nn-certview-icertview">ICertView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a>
+<a href="/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certview/nf-certview-icertview-setrestriction">ICertView::SetRestriction</a>
-
+<a href="/windows/desktop/api/certview/nf-certview-icertview-setrestriction">ICertView::SetRestriction</a>

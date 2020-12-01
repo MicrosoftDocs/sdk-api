@@ -66,9 +66,8 @@ Address of an array of GUIDs. Each member of the array contains an OPL output id
 
 ## -remarks
 
-This structure is used as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_copy_opl">DRM_COPY_OPL</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_play_opl">DRM_PLAY_OPL</a> structures to identify groups of output identifiers.
+This structure is used as a member of the <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_copy_opl">DRM_COPY_OPL</a> and <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_play_opl">DRM_PLAY_OPL</a> structures to identify groups of output identifiers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

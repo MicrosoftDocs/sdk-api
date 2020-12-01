@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>HTTP_REQUEST_INFO</b> structure extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure with additional information about the request.
+The <b>HTTP_REQUEST_INFO</b> structure extends the <a href="/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure with additional information about the request.
 
 ## -struct-fields
 
 ### -field InfoType
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_request_info_type">HTTP_REQUEST_INFO_TYPE</a> enumeration specifying the type of information contained in this structure.
+A member of the <a href="/windows/desktop/api/http/ne-http-http_request_info_type">HTTP_REQUEST_INFO_TYPE</a> enumeration specifying the type of information contained in this structure.
 
 ### -field InfoLength
 
@@ -68,7 +68,7 @@ The length, in bytes,  of the <b>pInfo</b> member.
 
 ### -field pInfo
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure when the <b>InfoType</b> member is <b>HttpRequestInfoTypeAuth</b>; otherwise <b>NULL</b>.
+A pointer to the <a href="/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure when the <b>InfoType</b> member is <b>HttpRequestInfoTypeAuth</b>; otherwise <b>NULL</b>.
 
 ## -remarks
 
@@ -76,13 +76,12 @@ Starting with the HTTP Server API version 2.0, the HTTP_REQUEST structure is ext
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_v2">HTTP_REQUEST_V2</a>
-
+<a href="/windows/desktop/api/http/ns-http-http_request_v2">HTTP_REQUEST_V2</a>

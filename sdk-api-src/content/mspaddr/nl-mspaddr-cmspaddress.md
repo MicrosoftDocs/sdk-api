@@ -52,28 +52,27 @@ api_name:
 
 The 
 <b>CMSPAddress</b> class implements the MSP address object and supports the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a> interface. This class is defined in MSPaddr.h. The following documents the class.
+<a href="/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a> interface. This class is defined in MSPaddr.h. The following documents the class.
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspaddress-type-definitions">CMSPAddress Type Definitions</a>
+<a href="/windows/desktop/Tapi/cmspaddress-type-definitions">CMSPAddress Type Definitions</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspaddress-members">CMSPAddress Members</a>
+<a href="/windows/desktop/Tapi/cmspaddress-members">CMSPAddress Members</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspaddress-mspi-methods-implemented">CMSPAddress MSPI Methods Implemented</a>
+<a href="/windows/desktop/Tapi/cmspaddress-mspi-methods-implemented">CMSPAddress MSPI Methods Implemented</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspaddress-public-methods">CMSPAddress Public Methods</a>
+<a href="/windows/desktop/Tapi/cmspaddress-public-methods">CMSPAddress Public Methods</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspaddress-internal-helper-methods">CMSPAddress Internal Helper Methods</a>
+<a href="/windows/desktop/Tapi/cmspaddress-internal-helper-methods">CMSPAddress Internal Helper Methods</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspaddress-pure-virtual-methods">CMSPAddress Pure Virtual Methods</a>
+<a href="/windows/desktop/Tapi/cmspaddress-pure-virtual-methods">CMSPAddress Pure Virtual Methods</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/cmspaddress-template-helper-methods">CMSPAddress Template Helper Methods</a>
+<a href="/windows/desktop/Tapi/cmspaddress-template-helper-methods">CMSPAddress Template Helper Methods</a>
 </li>
 </ul><b xmlns:loc="http://microsoft.com/wdcml/l10n">CMSPAddress</b> has these types of members:
-

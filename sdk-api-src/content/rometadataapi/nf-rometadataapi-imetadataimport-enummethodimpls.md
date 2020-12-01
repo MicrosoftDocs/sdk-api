@@ -100,5 +100,4 @@ The actual number of methods returned in <i>rMethodBody</i> and <i>rMethodDecl</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>

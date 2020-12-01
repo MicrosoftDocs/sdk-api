@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves the backup status value for an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
+Retrieves the backup status value for an <a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
 
 > [!NOTE] 
 > **IFhConfigMgr** is deprecated and may be altered or unavailable in future releases.
@@ -60,7 +60,7 @@ Retrieves the backup status value for an <a href="https://docs.microsoft.com/win
 
 ### -param BackupStatus [out]
 
-Receives the backup status value. See the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_backup_status">FH_BACKUP_STATUS</a> enumeration for the list of possible backup status values.
+Receives the backup status value. See the <a href="/windows/desktop/api/fhcfg/ne-fhcfg-fh_backup_status">FH_BACKUP_STATUS</a> enumeration for the list of possible backup status values.
 
 ## -returns
 
@@ -68,17 +68,16 @@ Receives the backup status value. See the <a href="https://docs.microsoft.com/wi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/ne-fhcfg-fh_backup_status">FH_BACKUP_STATUS</a>
+<a href="/windows/desktop/api/fhcfg/ne-fhcfg-fh_backup_status">FH_BACKUP_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
+<a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setbackupstatus">IFhConfigMgr::SetBackupStatus</a>
-
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setbackupstatus">IFhConfigMgr::SetBackupStatus</a>

@@ -152,7 +152,7 @@ The following is the memory layout of an example <b>WLAN_RAW_DATA_LIST</b> struc
 </table>
  
 
-The <b>WLAN_RAW_DATA_LIST</b> structure is currently used by the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a> function to set the proximity service discovery (PSD) information element (IE) data list for an application. 
+The <b>WLAN_RAW_DATA_LIST</b> structure is currently used by the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a> function to set the proximity service discovery (PSD) information element (IE) data list for an application. 
 
 When used to store a PSD IE data list, the <b>DOT11_PSD_IE_MAX_ENTRY_NUMBER</b> constant defined in the <i>Wlanapi.h</i> header file is the maximum value of the <b>dwNumberOfItems</b> member for the number of blobs in the <b>WLAN_RAW_DATA_LIST</b> structure. The <b>DOT11_PSD_IE_MAX_DATA_SIZE</b> constant defined in the <i>Wlanapi.h</i> header file is the maximum value of the <b>dwDataSize</b> member for any blob.<table>
 <tr>
@@ -175,21 +175,20 @@ When used to store a PSD IE data list, the <b>DOT11_PSD_IE_MAX_ENTRY_NUMBER</b> 
 
 
 
-For more information about PSD IEs, including a discussion of the format of an IE, see <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a>.
+For more information about PSD IEs, including a discussion of the format of an IE, see <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data">WLAN_RAW_DATA</a>
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data">WLAN_RAW_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanextractpsdiedatalist">WlanExtractPsdIEDataList</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanextractpsdiedatalist">WlanExtractPsdIEDataList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanscan">WlanScan</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanscan">WlanScan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a>

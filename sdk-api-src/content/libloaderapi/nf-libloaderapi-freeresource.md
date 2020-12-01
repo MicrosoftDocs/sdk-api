@@ -53,29 +53,19 @@ api_name:
  - FreeResource
 ---
 
-# FreeResource function
-
-
 ## -description
 
-<p class="CCE_Message">[This  function is obsolete and is only supported for backward compatibility with 16-bit Windows. For 32-bit Windows applications, it is not necessary to free the resources loaded using <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a>. If used on 32 or 64-bit Windows systems, this function will return <b>FALSE</b>.]
+<p class="CCE_Message">[This  function is obsolete and is only supported for backward compatibility with 16-bit Windows. For 32-bit Windows applications, it is not necessary to free the resources loaded using <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>. If used on 32 or 64-bit Windows systems, this function will return <b>FALSE</b>.]
 
 Decrements (decreases by one) the reference count of a loaded resource. When the reference count reaches zero, the memory occupied by the resource is freed.
 
 ## -parameters
 
-### -param hResData
-
-TBD
-
-
-
-
-#### - hglbResource [in]
+### -param hResData [in]
 
 Type: <b>HGLOBAL</b>
 
-A handle of the resource. It is assumed that <i>hglbResource</i> was created by <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a>.
+A handle of the resource. It is assumed that <i>hglbResource</i> was created by <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>.
 
 ## -returns
 
@@ -97,63 +87,63 @@ For resources loaded with other functions, <b>FreeResource</b> has been replaced
 <tr>
 <td>Accelerator</td>
 <td>
-<a href="https://msdn.microsoft.com/17fd308f-c1ad-41aa-ae65-72e22a7500f3">DestroyAcceleratorTable</a>
+<a href="/windows/win32/api/winuser/nf-winuser-destroyacceleratortable">DestroyAcceleratorTable</a>
 </td>
 </tr>
 <tr>
 <td>Bitmap</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 </td>
 </tr>
 <tr>
 <td>Cursor</td>
 <td>
-<a href="https://msdn.microsoft.com/fee6d837-9fc7-4ea6-b5d7-3889a64ccdea">DestroyCursor</a>
+<a href="/windows/win32/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
 </td>
 </tr>
 <tr>
 <td>Icon</td>
 <td>
-<a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a>
+<a href="/windows/win32/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 </td>
 </tr>
 <tr>
 <td>Menu</td>
 <td>
-<a href="https://msdn.microsoft.com/4fc9e332-09a6-4877-a831-e1128144530d">DestroyMenu</a>
+<a href="/windows/win32/api/winuser/nf-winuser-destroymenu">DestroyMenu</a>
 </td>
 </tr>
 </table>
  
 
-The reference count for a resource is incremented (increased by one) each time an application calls the <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a> function for the resource.
+The reference count for a resource is incremented (increased by one) each time an application calls the <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> function for the resource.
 
-The system automatically deletes these resources when the process that created them terminates. However, calling the appropriate function saves memory.  For more information, see <a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a>.
+The system automatically deletes these resources when the process that created them terminates. However, calling the appropriate function saves memory.  For more information, see <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/17fd308f-c1ad-41aa-ae65-72e22a7500f3">DestroyAcceleratorTable</a>
+<a href="/windows/win32/api/winuser/nf-winuser-destroyacceleratortable">DestroyAcceleratorTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/fee6d837-9fc7-4ea6-b5d7-3889a64ccdea">DestroyCursor</a>
+<a href="/windows/win32/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
 
 
 
-<a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a>
+<a href="/windows/win32/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/4fc9e332-09a6-4877-a831-e1128144530d">DestroyMenu</a>
+<a href="/windows/win32/api/winuser/nf-winuser-destroymenu">DestroyMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c91f571-505d-4959-b337-8f26c91fc573">LoadResource</a>
+<a href="/windows/win32/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a>
 
 
 
@@ -162,4 +152,3 @@ The system automatically deletes these resources when the process that created t
 
 
 <b>Reference</b>
-

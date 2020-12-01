@@ -57,7 +57,7 @@ Encodes the data in the <b>MFASFContentInfo</b> object into a binary Advanced Sy
 
 ### -param pIHeader [in, out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of the buffer object that will receive the encoded header. Set to <b>NULL</b> to retrieve the size of the header.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of the buffer object that will receive the encoded header. Set to <b>NULL</b> to retrieve the size of the header.
 
 ### -param pcbHeader [out]
 
@@ -126,17 +126,16 @@ The buffer passed in <i>pIHeader</i> is not large enough to hold the ASF Header 
 
 The size received in the <i>pcbHeader</i> parameter includes the padding size. The content information shrinks or expands the padding data depending on the size of the ASF Header Objects.
 
-During this call, the stream properties are set based on the encoding properties of the profile. These properties are available through the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a> interface.
+During this call, the stream properties are set based on the encoding properties of the profile. These properties are available through the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmetadata">IMFMetadata</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a>
+<a href="/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/generating-a-new-asf-header-object">Generating a New ASF Header Object</a>
+<a href="/windows/desktop/medfound/generating-a-new-asf-header-object">Generating a New ASF Header Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>

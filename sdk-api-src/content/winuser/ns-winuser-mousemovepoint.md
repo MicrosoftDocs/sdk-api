@@ -88,13 +88,12 @@ Additional information associated with this coordinate.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmousemovepointsex">GetMouseMovePointsEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmousemovepointsex">GetMouseMovePointsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
+<a href="/windows/desktop/inputdev/mouse-input">Mouse Input</a>
 
 
 
 <b>Reference</b>
-

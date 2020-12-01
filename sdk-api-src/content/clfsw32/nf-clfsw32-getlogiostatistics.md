@@ -56,13 +56,13 @@ Retrieves  log I/O statistics for a dedicated or multiplexed log that is associa
 
 ### -param hLog [in]
 
-A handle to an open log file that <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a> gets.  The log handle can refer to either a dedicated or multiplexed log file.
+A handle to an open log file that <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a> gets.  The log handle can refer to either a dedicated or multiplexed log file.
 
 ### -param pvStatsBuffer [in, out]
 
 A pointer to a buffer to receive the I/O statistics.  
 
-This buffer must be at least as large as an I/O statistics packet header. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_io_statistics_header">CLFS_IO_STATISTICS_HEADER</a>.
+This buffer must be at least as large as an I/O statistics packet header. For more information, see  <a href="/windows/desktop/api/clfs/ns-clfs-cls_io_statistics_header">CLFS_IO_STATISTICS_HEADER</a>.
 
 ### -param cbStatsBuffer [in]
 
@@ -86,17 +86,16 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the  possible error codes:
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the  possible error codes:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ne-clfs-clfs_iostats_class">CLFS_IOSTATS_CLASS</a>
+<a href="/windows/desktop/api/clfs/ne-clfs-clfs_iostats_class">CLFS_IOSTATS_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_io_statistics_header">CLFS_IO_STATISTICS_HEADER</a>
+<a href="/windows/desktop/api/clfs/ns-clfs-cls_io_statistics_header">CLFS_IO_STATISTICS_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
-
+<a href="/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>

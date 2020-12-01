@@ -57,15 +57,15 @@ Retrieves a level description of a texture resource.
 
 ### -param Level [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Identifies a level of the texture resource. This method returns a surface description for the level specified by this parameter.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dsurface-desc">D3DSURFACE_DESC</a>*</b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dsurface-desc">D3DSURFACE_DESC</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dsurface-desc">D3DSURFACE_DESC</a> structure, describing the returned level.
+Pointer to a <a href="/windows/desktop/direct3d9/d3dsurface-desc">D3DSURFACE_DESC</a> structure, describing the returned level.
 
 ## -returns
 
@@ -75,5 +75,4 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dtexture9">IDirect3DTexture9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dtexture9">IDirect3DTexture9</a>

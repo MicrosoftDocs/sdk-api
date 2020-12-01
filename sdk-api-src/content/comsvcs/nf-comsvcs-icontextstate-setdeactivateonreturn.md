@@ -86,7 +86,7 @@ The method completed successfully.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--just-in-time-activation">Just-in-Time Activation</a> is not available to this context.
+<a href="/windows/desktop/cossdk/com--just-in-time-activation">Just-in-Time Activation</a> is not available to this context.
 
 </td>
 </tr>
@@ -99,9 +99,8 @@ The default value of the done flag is false.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/consistent-and-done-flags">Consistent and Done Flags</a>
+<a href="/windows/desktop/cossdk/consistent-and-done-flags">Consistent and Done Flags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>

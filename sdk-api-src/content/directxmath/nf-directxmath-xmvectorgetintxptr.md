@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-Retrieves the <code>x</code> component of an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> containing integer data, and stores that
+Retrieves the <code>x</code> component of an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> containing integer data, and stores that
   component's value in an instance of uint32_t referred to by a pointer.
 
 ## -parameters
 
 ### -param x [out]
 
-Pointer to a uint32_t that will receive the value of the <code>x</code> element of the <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> object
+Pointer to a uint32_t that will receive the value of the <code>x</code> element of the <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> object
         <code>V</code>.
 
 ### -param V
@@ -75,5 +75,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-accessors">DirectXMath Library Vector Accessor Functions</a>

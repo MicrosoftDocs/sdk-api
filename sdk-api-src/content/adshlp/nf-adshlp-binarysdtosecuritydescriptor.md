@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>BinarySDToSecurityDescriptor</b> function converts a binary security descriptor to an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> object.
+The <b>BinarySDToSecurityDescriptor</b> function converts a binary security descriptor to an <a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> object.
 
 ## -parameters
 
@@ -58,13 +58,13 @@ The <b>BinarySDToSecurityDescriptor</b> function converts a binary security desc
 
 Type: <b>PSECURITY_DESCRIPTOR</b>
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure to convert.
+Address of a <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure to convert.
 
 ### -param pVarsec [out]
 
 Type: <b>VARIANT*</b>
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> that receives the object. The <b>VARIANT</b> contains a <b>VT_DISPATCH</b> object that can be queried for the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> interface. The caller must release this <b>VARIANT</b> by passing the <b>VARIANT</b> to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> function.
+Address of a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> that receives the object. The <b>VARIANT</b> contains a <b>VT_DISPATCH</b> object that can be queried for the <a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> interface. The caller must release this <b>VARIANT</b> by passing the <b>VARIANT</b> to the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a> function.
 
 ### -param pszServerName [in]
 
@@ -96,19 +96,19 @@ Type: <b>HRESULT</b>
 
 This method supports  standard return values, as well as the following:
 
-If the operation fails, an ADSI error code is returned. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+If the operation fails, an ADSI error code is returned. For more information, see <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-This function is used for legacy applications that must  manually convert security descriptors to binary security descriptors. For new applications, use the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a> interface, which does this conversion automatically.
+This function is used for legacy applications that must  manually convert security descriptors to binary security descriptors. For new applications, use the <a href="/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a> interface, which does this conversion automatically.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
+<a href="/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
 
 
 
@@ -116,21 +116,20 @@ This function is used for legacy applications that must  manually convert securi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-securitydescriptortobinarysd">SecurityDescriptorToBinarySD</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-securitydescriptortobinarysd">SecurityDescriptorToBinarySD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>

@@ -60,7 +60,7 @@ Handle to the palette to be queried.
 
 ### -param piMode
 
-Pointer to a location that receives the palette mode, as originally specified in <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepalette">EngCreatePalette</a>.
+Pointer to a location that receives the palette mode, as originally specified in <a href="/windows/desktop/api/winddi/nf-winddi-engcreatepalette">EngCreatePalette</a>.
 
 ### -param cColors
 
@@ -82,13 +82,12 @@ If the palette mode is PAL_INDEXED and the buffer that <i>pulColors</i> points t
 
 A driver must test for the presence of the GCAPS_PALMANAGED flag to determine whether the colors represent a fixed or a changeable palette.
 
-<b>EngQueryPalette</b> is intended for use by mirroring drivers that need to know the color format of the primary display. A mirroring driver typically calls this function in its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> routine.
+<b>EngQueryPalette</b> is intended for use by mirroring drivers that need to know the color format of the primary display. A mirroring driver typically calls this function in its <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> routine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatepalette">EngCreatePalette</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatepalette">EngCreatePalette</a>

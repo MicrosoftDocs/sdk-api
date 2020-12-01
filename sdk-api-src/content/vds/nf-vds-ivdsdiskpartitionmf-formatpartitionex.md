@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Formats an existing OEM, ESP, or unknown partition.
 
@@ -94,11 +94,11 @@ Boolean that determines whether a file system will be created with compression e
 
 ### -param ppAsync [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface that upon successful completion receives the <b>IVdsAsync</b> interface to monitor and control this operation.  Callers must release the interface received when they are done with it.
+Pointer to an <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface that upon successful completion receives the <b>IVdsAsync</b> interface to monitor and control this operation.  Callers must release the interface received when they are done with it.
 
 ## -returns
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -191,7 +191,7 @@ The operation is not supported on non-OEM partitions.
 </table>
  
 
-In addition, the <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface can return the 
+In addition, the <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a> interface can return the 
       following related warnings and error codes.
 
 <table>
@@ -359,19 +359,18 @@ The volume size is too small to format.
 
 ## -remarks
 
-This method formats only OEM, ESP, and unknown partitions. For other partitions, you must instead format the corresponding volume by using the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-format">IVdsVolumeMF::Format</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-formatex">IVdsVolumeMF2::FormatEx</a> method. Note that OEM, ESP, and unknown partitions are not exposed as volumes and therefore cannot be formatted with <b>Format</b> or <b>FormatEx</b>.
+This method formats only OEM, ESP, and unknown partitions. For other partitions, you must instead format the corresponding volume by using the <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-format">IVdsVolumeMF::Format</a> or <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf2-formatex">IVdsVolumeMF2::FormatEx</a> method. Note that OEM, ESP, and unknown partitions are not exposed as volumes and therefore cannot be formatted with <b>Format</b> or <b>FormatEx</b>.
 
 This method cannot be used to format removable media.
 
-If an OEM partition is formatted as FAT or FAT32, the partition type does not change. If it is formatted with NTFS, the partition type changes to PARTITION_IFS (0x07). For information about partition types, see <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
+If an OEM partition is formatted as FAT or FAT32, the partition type does not change. If it is formatted with NTFS, the partition type changes to PARTITION_IFS (0x07). For information about partition types, see <a href="/windows/desktop/api/vds/ns-vds-create_partition_parameters">CREATE_PARTITION_PARAMETERS</a>.
 
-For more information about file system limits such as minimum and maximum allocation unit size (also called cluster size), see <a href="https://technet.microsoft.com/library/81cc8a8a-bd32-4786-a849-03245d68d8e4">NTFS Technical Reference</a> and <a href="https://technet.microsoft.com/library/810c3217-77bb-4553-b6ce-3ff10dbdbac9">FAT Technical Reference</a>.
+For more information about file system limits such as minimum and maximum allocation unit size (also called cluster size), see <a href="/previous-versions/windows/it-pro/windows-server-2003/cc758691(v=ws.10)">NTFS Technical Reference</a> and <a href="/previous-versions/windows/it-pro/windows-server-2003/cc758586(v=ws.10)">FAT Technical Reference</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-formatpartition">IVdsAdvancedDisk::FormatPartition</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-formatpartition">IVdsAdvancedDisk::FormatPartition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsdiskpartitionmf">IVdsDiskPartitionMF</a>
-
+<a href="/windows/desktop/api/vds/nn-vds-ivdsdiskpartitionmf">IVdsDiskPartitionMF</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the conversion function from R'G'B' to RGB. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideoinputcolortransferfunction-property">AVEncVideoInputColorTransferFunction</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideooutputcolortransferfunction-property">AVEncVideoOutputColorTransferFunction</a> properties.
+Specifies the conversion function from R'G'B' to RGB. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencvideoinputcolortransferfunction-property">AVEncVideoInputColorTransferFunction</a> and <a href="/windows/desktop/DirectShow/avencvideooutputcolortransferfunction-property">AVEncVideoOutputColorTransferFunction</a> properties.
 
 ## -enum-fields
 
@@ -92,9 +92,8 @@ True 2.8 gamma. L' = L^1/2.8..
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

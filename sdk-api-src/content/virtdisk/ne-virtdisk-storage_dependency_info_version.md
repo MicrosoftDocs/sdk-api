@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Contains the version of the virtual hard disk (VHD) [STORAGE_DEPENDENCY_INFO](/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_info) structure to use in calls to VHD functions.
+Contains the version of the virtual hard disk (VHD) [STORAGE_DEPENDENCY_INFO](./ns-virtdisk-storage_dependency_info.md) structure to use in calls to VHD functions.
 
 ## -enum-fields
 
@@ -71,9 +71,8 @@ Specifies <a href="/windows/win32/api/virtdisk/ns-virtdisk-storage_dependency_in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

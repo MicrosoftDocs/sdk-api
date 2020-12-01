@@ -55,14 +55,14 @@ api_name:
 The <b>SECPKG_NAME_TYPE</b> enumeration is used to describe the type of name specified for an account.
 
 The <b>SECPKG_NAME_TYPE</b> enumeration is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_get_auth_data_for_user">GetAuthDataForUser</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_open_sam_user">OpenSamUser</a> functions.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_get_auth_data_for_user">GetAuthDataForUser</a> and 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_open_sam_user">OpenSamUser</a> functions.
 
 ## -enum-fields
 
 ### -field SecNameSamCompatible
 
-The account name is compatible with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM). An example of a name in SAM-compatible format is <b>"</b><i>ExampleDomain</i><b>\</b><i>UserName</i><b>"</b>.
+The account name is compatible with the <a href="/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM). An example of a name in SAM-compatible format is <b>"</b><i>ExampleDomain</i><b>\\</b><i>UserName</i><b>"</b>.
 
 ### -field SecNameAlternateId
 
@@ -77,4 +77,3 @@ The account name is a flat user principal name (UPN) style account name.
 The account name is the distinguished name of the object.
 
 ### -field SecNameSPN
-

@@ -56,7 +56,7 @@ Uninstalls a mouse event sink.
 
 ### -param dwCookie [in]
 
-Specifies the mouse advise sink identifier. This value is obtained by a call to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink</a>.
+Specifies the mouse advise sink identifier. This value is obtained by a call to <a href="/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink</a>.
 
 ## -returns
 
@@ -104,10 +104,9 @@ The context owner does not support mouse event sinks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfmousetracker">ITfMouseTracker</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfmousetracker">ITfMouseTracker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfmousetracker-advisemousesink">ITfMouseTracker::AdviseMouseSink
       </a>
-

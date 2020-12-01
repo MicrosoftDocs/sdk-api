@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets the binary data at a specified property to the contents of a specified <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a>, 
+Sets the binary data at a specified property to the contents of a specified <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a>, 
 		which contains a null-terminated string (as MIME type) data.
 
 ## -parameters
@@ -77,7 +77,7 @@ Specifies null-terminated string representing MIME type to store when CGD_DEFAUL
 
 Type: <b>IStream*</b>
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a> object containing data to place at this node. 
+Pointer to <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a> object containing data to place at this node. 
 				NOTE: IStream::Read is called for the data until it succeeds with a zero-length read. 
 				Any other return value results in a failure and no change.
 
@@ -133,4 +133,3 @@ To set a single-level property, set <i>pszPropertyName</i> to the property name.
 
 To set a property from a multi-value property, set <i>pszPropertyName</i> 
 		to the form: toplevel/secondlevel[4]/thirdlevel.
-

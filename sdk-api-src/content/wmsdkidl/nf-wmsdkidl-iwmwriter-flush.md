@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The functionality of the <b>Flush</b> method has been removed, because <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-endwriting">IWMWriter::EndWriting</a> performs the needed checks internally. For compatibility with older applications, calls to flush will always return S_OK even though the call does nothing.
+The functionality of the <b>Flush</b> method has been removed, because <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-endwriting">IWMWriter::EndWriting</a> performs the needed checks internally. For compatibility with older applications, calls to flush will always return S_OK even though the call does nothing.
 
 ## -parameters
 
@@ -63,5 +63,4 @@ This method always returns S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>

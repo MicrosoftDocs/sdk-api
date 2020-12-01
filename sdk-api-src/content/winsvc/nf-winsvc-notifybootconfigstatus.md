@@ -67,7 +67,7 @@ If the <i>BootAcceptable</i> parameter is FALSE, the function does not return.
 If the last-known good configuration was successfully saved, the return value is nonzero.
 
 If an error occurs, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes may be set by the service control manager. Other error codes may be set by the registry functions that are called by the service control manager to set parameters in the configuration registry.
 
@@ -94,13 +94,12 @@ The user does not have permission to perform this operation. Only the system and
 Saving the configuration of a running system with this function is an acceptable method for saving the last-known good configuration. If the boot configuration is unacceptable, use this function to reboot the system using the existing last-known good configuration.
 
 This function call requires the caller's token to have permission to acquire the SC_MANAGER_MODIFY_BOOT_CONFIG access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
+<a href="/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/automatically-starting-services">Automatically Starting Services</a>
+<a href="/windows/desktop/Services/automatically-starting-services">Automatically Starting Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
-
+<a href="/windows/desktop/Services/service-functions">Service Functions</a>

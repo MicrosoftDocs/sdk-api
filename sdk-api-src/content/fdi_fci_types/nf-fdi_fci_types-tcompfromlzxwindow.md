@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>TCOMPfromLZXWindow</b> macro converts window size into an LXZTCOMP value for <a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fciaddfile">FCIAddFile</a>.
+The <b>TCOMPfromLZXWindow</b> macro converts window size into an LXZTCOMP value for <a href="/windows/desktop/api/fci/nf-fci-fciaddfile">FCIAddFile</a>.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ The LZX window size. Possible value range is 15-21.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fciaddfile">FCIAddFile</a>
-
+<a href="/windows/desktop/api/fci/nf-fci-fciaddfile">FCIAddFile</a>

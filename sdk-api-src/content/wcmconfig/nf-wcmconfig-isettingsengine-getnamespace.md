@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Opens an existing namespace as specified by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsidentity">ISettingsIdentity</a> parameter.
+Opens an existing namespace as specified by the <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsidentity">ISettingsIdentity</a> parameter.
 
 ## -parameters
 
 ### -param SettingsID [in]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsidentity">ISettingsIdentity</a> object that specifies an existing namespace to get.
+An <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsidentity">ISettingsIdentity</a> object that specifies an existing namespace to get.
 
 ### -param Access [in]
 
@@ -68,7 +68,7 @@ Reserved. Must be <b>NULL</b>.
 
 ### -param NamespaceItem [out]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a> object that is the result of the get operation.
+A pointer to an <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a> object that is the result of the get operation.
 
 ## -returns
 
@@ -116,5 +116,4 @@ Indicates that the provided identity does not match a namespace registered in th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>

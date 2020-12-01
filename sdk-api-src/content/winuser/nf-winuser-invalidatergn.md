@@ -46,6 +46,7 @@ api_location:
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
  - InvalidateRgn
+req.apiset: ext-ms-win-ntuser-draw-l1-1-0 (introduced in Windows 8)
 ---
 
 # InvalidateRgn function
@@ -53,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>InvalidateRgn</b> function invalidates the client area within the specified region by adding it to the current update region of a window. The invalidated region, along with all other areas in the update region, is marked for painting when the next <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message occurs.
+The <b>InvalidateRgn</b> function invalidates the client area within the specified region by adding it to the current update region of a window. The invalidated region, along with all other areas in the update region, is marked for painting when the next <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> message occurs.
 
 ## -parameters
 
@@ -67,7 +68,7 @@ A handle to the region to be added to the update region. The region is assumed t
 
 ### -param bErase [in]
 
-Specifies whether the background within the update region should be erased when the update region is processed. If this parameter is <b>TRUE</b>, the background is erased when the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function is called. If the parameter is <b>FALSE</b>, the background remains unchanged.
+Specifies whether the background within the update region should be erased when the update region is processed. If this parameter is <b>TRUE</b>, the background is erased when the <a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function is called. If the parameter is <b>FALSE</b>, the background remains unchanged.
 
 ## -returns
 
@@ -75,9 +76,9 @@ The return value is always nonzero.
 
 ## -remarks
 
-Invalidated areas accumulate in the update region until the next <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message is processed or until the region is validated by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-validaterect">ValidateRect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-validatergn">ValidateRgn</a> function.
+Invalidated areas accumulate in the update region until the next <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> message is processed or until the region is validated by using the <a href="/windows/desktop/api/winuser/nf-winuser-validaterect">ValidateRect</a> or <a href="/windows/desktop/api/winuser/nf-winuser-validatergn">ValidateRgn</a> function.
 
-The system sends a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message to a window whenever its update region is not empty and there are no other messages in the application queue for that window.
+The system sends a <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> message to a window whenever its update region is not empty and there are no other messages in the application queue for that window.
 
 The specified region must have been created by using one of the region functions.
 
@@ -85,29 +86,28 @@ If the <i>bErase</i> parameter is <b>TRUE</b> for any part of the update region,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-validaterect">ValidateRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-validaterect">ValidateRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-validatergn">ValidateRgn</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-validatergn">ValidateRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a>
-
+<a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a>

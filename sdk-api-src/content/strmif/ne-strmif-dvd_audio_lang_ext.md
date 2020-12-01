@@ -78,13 +78,12 @@ The audio stream contains "director comments 2."
 
 ## -remarks
 
-This enumeration is used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">IDvdInfo2::GetAudioAttributes</a> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdefaultaudiolanguage">IDvdInfo2::GetDefaultAudioLanguage</a> methods.
+This enumeration is used in the <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">IDvdInfo2::GetAudioAttributes</a> and <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getdefaultaudiolanguage">IDvdInfo2::GetDefaultAudioLanguage</a> methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a>

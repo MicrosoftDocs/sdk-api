@@ -66,7 +66,7 @@ The index of the button that was pressed.
 
 
 This index specifies which property dialog box was requested, starting with one for the first button returned from 
-the <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetpropertytext">NPGetPropertyText</a> function. If there are multiple file names selected, 10 is added to this number. In other words, if there is more than one file selected and the user presses the first provider-defined property button, <i>iButtonDlg</i> will be 11. If there is only one file selected and the user presses the second network property button, <i>iButtonDlg</i> will be two.
+the <a href="/windows/desktop/api/npapi/nf-npapi-npgetpropertytext">NPGetPropertyText</a> function. If there are multiple file names selected, 10 is added to this number. In other words, if there is more than one file selected and the user presses the first provider-defined property button, <i>iButtonDlg</i> will be 11. If there is only one file selected and the user presses the second network property button, <i>iButtonDlg</i> will be two.
 
 ### -param nPropSel [in]
 
@@ -116,7 +116,7 @@ A selection of multiple files, directories, or both.
 
 ### -param lpFileName [in]
 
-A pointer to the names of the items that the property dialog box should act on. The only supported items are files and directories, so the item names are file names. These should be unambiguous, contain no wildcard characters, and  be fully qualified, for example, <b>C:\Local\</b><i>Example</i><b>.doc</b>. Multiple file names should be separated with spaces. A file name that contains spaces can be enclosed in quotation marks, for example, <b>"C:\</b><i>My File</i><b>"</b>. In this case, it is treated as a single name. A caret  (^) can also be used as the quotation mechanism for single characters, for example, C:\My^"File and  "C:\My^"File" both refer to the file C:\My"File.
+A pointer to the names of the items that the property dialog box should act on. The only supported items are files and directories, so the item names are file names. These should be unambiguous, contain no wildcard characters, and  be fully qualified, for example, <b>C:\Local\\</b><i>Example</i><b>.doc</b>. Multiple file names should be separated with spaces. A file name that contains spaces can be enclosed in quotation marks, for example, <b>"C:\\</b><i>My File</i><b>"</b>. In this case, it is treated as a single name. A caret  (^) can also be used as the quotation mechanism for single characters, for example, C:\My^"File and  "C:\My^"File" both refer to the file C:\My"File.
 
 ### -param nType [in]
 
@@ -125,7 +125,7 @@ Specifies the item type, which must be WNTYPE_FILE.
 ## -returns
 
 If the function succeeds, it returns WN_SUCCESS. If the function fails, it returns an error code. Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set this extended error code, which may include the following return codes.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set this extended error code, which may include the following return codes.
 					
 
 <table>
@@ -171,7 +171,7 @@ A network error occurred.
 ## -remarks
 
 This function is  called only on sets of properties for which 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetpropertytext">NPGetPropertyText</a> has assigned a button name.
+<a href="/windows/desktop/api/npapi/nf-npapi-npgetpropertytext">NPGetPropertyText</a> has assigned a button name.
 
 This function is used in File Manager to view and modify the network properties (for example, permissions) for files on a network device. If this function is not supported, File Manager does not provide any default behavior.
 
@@ -179,9 +179,8 @@ In this version of the Network Provider interface, <i>lpFileName</i> can point t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetpropertytext">NPGetPropertyText</a>
+<a href="/windows/desktop/api/npapi/nf-npapi-npgetpropertytext">NPGetPropertyText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a>

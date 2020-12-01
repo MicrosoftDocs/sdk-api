@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IXDSToRat</b> interface parses rating information from extended data services (XDS) information in line 21. This interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> (ratings decoder) object. The XDSToRat object is implemented by third parties.
+The <b>IXDSToRat</b> interface parses rating information from extended data services (XDS) information in line 21. This interface is exposed by the <a href="/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> (ratings decoder) object. The XDSToRat object is implemented by third parties.
 
 The XDS Codec filter uses this interface. Applications do not use this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXDSToRat</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IXDSToRat</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXDSToRat</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IXDSToRat</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,16 +71,16 @@ The <b>IXDSToRat</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ixdstorat-init">Init</a>
+<a href="/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ixdstorat-init">Init</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object to its initial state.
+Sets the <a href="/previous-versions/windows/desktop/mstv/xdstorat-object">XDSToRat</a> object to its initial state.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ixdstorat-parsexdsbytepair">ParseXDSBytePair</a>
+<a href="/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ixdstorat-parsexdsbytepair">ParseXDSBytePair</a>
 </td>
 <td align="left" width="63%">
 Parses a single byte pair from an XDS stream.
@@ -95,9 +95,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-interfaces">TV Ratings Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tv-ratings-interfaces">TV Ratings Interfaces</a>

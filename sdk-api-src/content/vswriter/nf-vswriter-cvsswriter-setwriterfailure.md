@@ -55,7 +55,7 @@ The
 <b>SetWriterFailure</b> method indicates that this writer has encountered an error condition and sets an error condition.
 
 <b>SetWriterFailure</b> is a protected method implemented by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
 
 ## -parameters
 
@@ -117,7 +117,7 @@ The writer failed due to an error that would likely not occur if the entire back
 </td>
 <td width="60%">
 The writer could not complete the shadow copy creation because the time between freeze and thaw states exceeded the time-out value (<i>dwTimeoutFreeze</i>) set in 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a>.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-initialize">CVssWriter::Initialize</a>.
 
 </td>
 </tr>
@@ -129,16 +129,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method cannot be called from <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">CVssWriter::OnIdentify</a> or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-onidentifyex">CVssWriterEx::OnIdentifyEx</a>.
+This method cannot be called from <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onidentify">CVssWriter::OnIdentify</a> or <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriterex-onidentifyex">CVssWriterEx::OnIdentifyEx</a>.
 
-If a writer's event handler (such as <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>) calls this method, it must do so in the same thread that called the event handler. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/writers">Writer Event Handling</a>.
+If a writer's event handler (such as <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>) calls this method, it must do so in the same thread that called the event handler. For more information, see 
+<a href="/windows/desktop/VSS/writers">Writer Event Handling</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus">IVssBackupComponents::GetWriterStatus</a>
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus">IVssBackupComponents::GetWriterStatus</a>

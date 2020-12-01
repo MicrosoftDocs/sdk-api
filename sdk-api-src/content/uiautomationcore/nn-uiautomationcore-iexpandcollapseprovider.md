@@ -55,7 +55,7 @@ Provides
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExpandCollapseProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExpandCollapseProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExpandCollapseProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExpandCollapseProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IExpandCollapseProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iexpandcollapseprovider-collapse">Collapse</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iexpandcollapseprovider-collapse">Collapse</a>
 </td>
 <td align="left" width="63%">
 Hides all child nodes, controls, or content of this element.
@@ -80,7 +80,7 @@ Hides all child nodes, controls, or content of this element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iexpandcollapseprovider-expand">Expand</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iexpandcollapseprovider-expand">Expand</a>
 </td>
 <td align="left" width="63%">
 Displays all child nodes, controls, or content of the control.
@@ -98,7 +98,7 @@ Displays all child nodes, controls, or content of the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iexpandcollapseprovider-get_expandcollapsestate">ExpandCollapseState</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iexpandcollapseprovider-get_expandcollapsestate">ExpandCollapseState</a>
 
 
 </td>
@@ -115,7 +115,7 @@ Indicates the state, expanded or collapsed, of the control.
 
 ## -remarks
 
-Implemented on a Microsoft UI Automation provider that must support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingexpandcollapse">ExpandCollapse</a> control pattern.
+Implemented on a Microsoft UI Automation provider that must support the <a href="/windows/desktop/WinAuto/uiauto-implementingexpandcollapse">ExpandCollapse</a> control pattern.
 
 ## -see-also
 
@@ -123,7 +123,7 @@ Implemented on a Microsoft UI Automation provider that must support the <a href=
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-expandcollapsestate">ExpandCollapseState</a>
+<a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-expandcollapsestate">ExpandCollapseState</a>
 
 
 
@@ -131,5 +131,4 @@ Implemented on a Microsoft UI Automation provider that must support the <a href=
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>LSA_LAST_INTER_LOGON_INFO</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>.
+The <b>LSA_LAST_INTER_LOGON_INFO</b> structure contains information about a <a href="/windows/desktop/SecGloss/l-gly">logon session</a>.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ The time of the most recent failed attempt to log on.
 ### -field FailedAttemptCountSinceLastSuccessfulLogon
 
 The number of failed attempts to log on since the last successful log on.
-

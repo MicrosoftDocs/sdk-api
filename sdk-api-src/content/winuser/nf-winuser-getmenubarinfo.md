@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
  - GetMenuBarInfo
+req.apiset: ext-ms-win-ntuser-misc-l1-5-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # GetMenuBarInfo function
@@ -93,7 +94,7 @@ The popup menu associated with the window.
 </dl>
 </td>
 <td width="60%">
-The menu bar associated with the window (see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenu">GetMenu</a> function).
+The menu bar associated with the window (see the <a href="/windows/desktop/api/winuser/nf-winuser-getmenu">GetMenu</a> function).
 
 </td>
 </tr>
@@ -104,7 +105,7 @@ The menu bar associated with the window (see the <a href="https://docs.microsoft
 </dl>
 </td>
 <td width="60%">
-The system menu associated with the window (see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmenu">GetSystemMenu</a> function).
+The system menu associated with the window (see the <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmenu">GetSystemMenu</a> function).
 
 </td>
 </tr>
@@ -120,7 +121,7 @@ The item for which to retrieve information. If this parameter is zero, the funct
 
 Type: <b>PMENUBARINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menubarinfo">MENUBARINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(MENUBARINFO)</code> before calling this function.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-menubarinfo">MENUBARINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(MENUBARINFO)</code> before calling this function.
 
 ## -returns
 
@@ -128,7 +129,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
@@ -136,21 +137,20 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenu">GetMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenu">GetMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmenu">GetSystemMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmenu">GetSystemMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menubarinfo">MENUBARINFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-menubarinfo">MENUBARINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
 <b>Reference</b>
-

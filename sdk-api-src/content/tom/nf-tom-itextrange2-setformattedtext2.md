@@ -56,7 +56,7 @@ Sets the text of this range to the formatted text of the specified range.
 
 ### -param pRange [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>*</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>*</b>
 
 The range that contains the formatted text that replaces the text of this range.
 
@@ -64,7 +64,7 @@ The range that contains the formatted text that replaces the text of this range.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -108,9 +108,8 @@ Insufficient memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getformattedtext2">ITextRange2::GetFormattedText2</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextrange2-getformattedtext2">ITextRange2::GetFormattedText2</a>

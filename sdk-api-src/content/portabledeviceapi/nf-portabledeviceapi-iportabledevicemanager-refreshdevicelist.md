@@ -85,5 +85,4 @@ This method is less resource-intensive than instantiating a new device manager t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager Interface</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager Interface</a>

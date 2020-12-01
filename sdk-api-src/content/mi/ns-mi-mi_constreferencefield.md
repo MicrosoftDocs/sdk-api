@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Represents a property inside an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
+Represents a property inside an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
 ## -struct-fields
 
 ### -field value
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
+A pointer to an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure.
 
 ### -field exists
 
@@ -84,11 +84,10 @@ The element value is <b>NULL</b>.
 
 #### MI_FLAG_BORROW ((1 << 30))
 
-Used while adding and setting properties on an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure to indicate that the instance will not copy the value. The value must stay valid until the instance is deleted.
+Used while adding and setting properties on an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure to indicate that the instance will not copy the value. The value must stay valid until the instance is deleted.
 
 
 
 #### MI_FLAG_ADOPT ((1 << 31))
 
-Used while adding and setting properties on an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure to indicate that the instance will adopt the pointer and will be responsible for deleting it.
-
+Used while adding and setting properties on an <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> structure to indicate that the instance will adopt the pointer and will be responsible for deleting it.

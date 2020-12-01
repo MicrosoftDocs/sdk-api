@@ -78,5 +78,4 @@ Call this function to register your provider. You need to register before you ca
 
 Use the SUCCEEDED macro to see if registration was successful.
 
-This function will return an error on versions of Windows that do not support the Event Tracing for Windows (ETW) API, e.g. <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventsetinformation">EventSetInformation</a>.
-
+This function will return an error on versions of Windows that do not support the Event Tracing for Windows (ETW) API, e.g. <a href="/windows/desktop/api/evntprov/nf-evntprov-eventsetinformation">EventSetInformation</a>.

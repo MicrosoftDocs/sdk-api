@@ -61,7 +61,7 @@ The session handle.
 ### -param res [in]
 
 The search result, as obtained by a call to one of the synchronous search routines or 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>.
 
 ## -returns
 
@@ -70,19 +70,18 @@ If the search returned valid results, this function returns a pointer to the fir
 ## -remarks
 
 Use <b>ldap_first_entry</b> in conjunction with 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_entry">ldap_next_entry</a> to step through and retrieve the list of entries from a search result chain.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_entry">ldap_next_entry</a> to step through and retrieve the list of entries from a search result chain.
 
 You do not have to explicitly free the returned entry as it is freed when the message itself is freed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_entry">ldap_next_entry</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_entry">ldap_next_entry</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>

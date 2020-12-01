@@ -62,7 +62,7 @@ The <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that
 
 ### -param pHitTestingInput [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-touch_hit_testing_input">TOUCH_HIT_TESTING_INPUT</a> structure that holds the data for the touch contact area.
+The <a href="/windows/desktop/api/winuser/ns-winuser-touch_hit_testing_input">TOUCH_HIT_TESTING_INPUT</a> structure that holds the data for the touch contact area.
 
 ### -param pProximityEval [out]
 
@@ -72,11 +72,11 @@ The <a href="/windows/win32/api/winuser/ns-winuser-touch_hit_testing_proximity_e
 
 If this function succeeds, it returns TRUE.
  
-Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
-For consistency with Windows, frameworks that handle <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a> should use the following principles for targeting:
+For consistency with Windows, frameworks that handle <a href="/previous-versions/windows/desktop/inputmsg/wm-touchhittesting">WM_TOUCHHITTESTING</a> should use the following principles for targeting:
 
 <ul>
 <li>Inclusion: If the touch point is within the boundaries of a control, the touch point is not changed. 
@@ -90,5 +90,4 @@ For consistency with Windows, frameworks that handle <a href="https://docs.micro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchhittest/functions">Functions</a>
-
+<a href="/previous-versions/windows/desktop/input_touchhittest/functions">Functions</a>

@@ -57,7 +57,7 @@ Computes statistics for a counter from an array of raw values.
 ### -param hCounter [in]
 
 Handle of the counter for which you want to compute statistics. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function returns this handle.
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhaddcountera">PdhAddCounter</a> function returns this handle.
 
 ### -param dwFormat [in]
 
@@ -154,12 +154,12 @@ Number of raw counter values in the <i>lpRawValueArray</i> buffer.
 ### -param lpRawValueArray [in]
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a> structures that contain <i>dwNumEntries</i> entries.
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a> structures that contain <i>dwNumEntries</i> entries.
 
 ### -param data [out]
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_statistics">PDH_STATISTICS</a> structure that receives the counter statistics.
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_statistics">PDH_STATISTICS</a> structure that receives the counter statistics.
 
 ## -returns
 
@@ -167,8 +167,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -201,21 +201,20 @@ The counter handle is not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a>
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_raw_counter">PDH_RAW_COUNTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/ns-pdh-pdh_statistics">PDH_STATISTICS</a>
+<a href="/windows/desktop/api/pdh/ns-pdh-pdh_statistics">PDH_STATISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhcalculatecounterfromrawvalue">PdhCalculateCounterFromRawValue</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhcalculatecounterfromrawvalue">PdhCalculateCounterFromRawValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhsetcounterscalefactor">PdhSetCounterScaleFactor</a>
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhsetcounterscalefactor">PdhSetCounterScaleFactor</a>

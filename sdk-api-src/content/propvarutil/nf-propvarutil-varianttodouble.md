@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extracts a <b>DOUBLE</b> value from a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure. If no value can be extracted, then a default value is assigned.
+Extracts a <b>DOUBLE</b> value from a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure. If no value can be extracted, then a default value is assigned.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Extracts a <b>DOUBLE</b> value from a <a href="https://docs.microsoft.com/window
 
 Type: <b>REFVARIANT</b>
 
-Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
+Reference to a source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ### -param pdblRet [out]
 
@@ -74,16 +74,16 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-This helper function is used when the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to hold a <b>DOUBLE</b> value. For instance, an application that obtains values from a Shell folder can use this function to safely extract the value from one of the folder's properties whose value is stored as a <b>DOUBLE</b>.
+This helper function is used when the calling application expects a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to hold a <b>DOUBLE</b> value. For instance, an application that obtains values from a Shell folder can use this function to safely extract the value from one of the folder's properties whose value is stored as a <b>DOUBLE</b>.
 
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> is of type VT_R8, this function extracts the <b>DOUBLE</b> value.
+If the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> is of type VT_R8, this function extracts the <b>DOUBLE</b> value.
 
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> is not of type VT_R8, the function attempts to convert the value stored in the <b>VARIANT</b> structure into a <b>DOUBLE</b>. If a conversion is not possible, <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttodouble">VariantToDouble</a> returns a failure code and sets <i>pdblRet</i> to <code>0.0</code>. See <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a> for a list of possible conversions. Of note, VT_EMPTY is successfully converted to 0.0.
+If the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> is not of type VT_R8, the function attempts to convert the value stored in the <b>VARIANT</b> structure into a <b>DOUBLE</b>. If a conversion is not possible, <a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttodouble">VariantToDouble</a> returns a failure code and sets <i>pdblRet</i> to <code>0.0</code>. See <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a> for a list of possible conversions. Of note, VT_EMPTY is successfully converted to 0.0.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttodouble">VariantToDouble</a> to access a <b>DOUBLE</b> value stored in a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttodouble">VariantToDouble</a> to access a <b>DOUBLE</b> value stored in a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 
 ```cpp
@@ -106,17 +106,16 @@ else
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromdouble">InitVariantFromDouble</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromdouble">InitVariantFromDouble</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttodouble">PropVariantToDouble</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttodouble">PropVariantToDouble</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttodoublearray">VariantToDoubleArray</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttodoublearray">VariantToDoubleArray</a>

@@ -56,9 +56,9 @@ Gets general information about an application.
 
 ### -param pai [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a>*</b>
+Type: <b><a href="/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a> structure that returns the application information.
+A pointer to an <a href="/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a> structure that returns the application information.
 
 ## -returns
 
@@ -68,11 +68,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  Add/Remove Programs in the Control Panel sets the cbSize and dwMask members of the <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a> structure.</div>
+<div class="alert"><b>Note</b>  Add/Remove Programs in the Control Panel sets the cbSize and dwMask members of the <a href="/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a> structure.</div>
 <div> </div>
-  Your implementation should validate cbSize by comparing it with the size of <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a>.  If cbSize does not equal the size of <b>APPINFODATA</b>, this method should return a COM error value like E_FAIL.
+  Your implementation should validate cbSize by comparing it with the size of <a href="/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a>.  If cbSize does not equal the size of <b>APPINFODATA</b>, this method should return a COM error value like E_FAIL.
 
-Add/Remove Programs in the Control Panel will set the dwMask member of the <a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a> structure to indicate that you should return AIM_DISPLAYNAME and AIM_SUPPORTURL. For each value that you return in APPINFODATA, you must set the corresponding bit in dwMask.  All other bits should be cleared.
+Add/Remove Programs in the Control Panel will set the dwMask member of the <a href="/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a> structure to indicate that you should return AIM_DISPLAYNAME and AIM_SUPPORTURL. For each value that you return in APPINFODATA, you must set the corresponding bit in dwMask.  All other bits should be cleared.
 			
 
 
@@ -105,17 +105,16 @@ HRESULT CPubApp::GetAppInfo(APPINFODATA *pData)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a>
+<a href="/windows/desktop/api/shappmgr/ns-shappmgr-appinfodata">APPINFODATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo">IPublishedApp::GetPublishedAppInfo</a>
+<a href="/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo">IPublishedApp::GetPublishedAppInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
-
+<a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>

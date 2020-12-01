@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capPalettePaste</b> macro copies the palette from the clipboard and passes it to a capture driver. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-pal-paste">WM_CAP_PAL_PASTE</a> message.
+The <b>capPalettePaste</b> macro copies the palette from the clipboard and passes it to a capture driver. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-pal-paste">WM_CAP_PAL_PASTE</a> message.
 
 ## -parameters
 
@@ -64,9 +64,8 @@ A capture driver uses a palette when required by the specified digitized video f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

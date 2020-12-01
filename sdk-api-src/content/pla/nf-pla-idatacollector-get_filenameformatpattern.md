@@ -60,7 +60,7 @@ This property is read/write.
 
 ## -remarks
 
-PLA uses the pattern only if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a> property is set to <b>plaPattern</b>.
+PLA uses the pattern only if the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a> property is set to <b>plaPattern</b>.
 
 PLA appends the decoration to the file name. Use the following pattern characters to define your own pattern. For example, the pattern "MMMM d, yyyy \a\t h:mmTt" could yield "January 31, 2005 at 4:20AM". If the file name is MyFile, the decorated file name would be "MyFile January 31, 2005 at 4:20AM".
 
@@ -181,13 +181,12 @@ PLA appends the decoration to the file name. Use the following pattern character
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filename">IDataCollector::FileName</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filename">IDataCollector::FileName</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformat">IDataCollector::FileNameFormat</a>

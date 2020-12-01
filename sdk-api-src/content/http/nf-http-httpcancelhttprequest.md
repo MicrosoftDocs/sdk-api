@@ -64,7 +64,7 @@ The ID of the request to be canceled.
 
 ### -param Overlapped [in, optional]
 
-For asynchronous calls, set <i>pOverlapped</i> to point to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>.
+For asynchronous calls, set <i>pOverlapped</i> to point to an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>.
 
 ## -returns
 
@@ -76,9 +76,8 @@ When the **HttpCancelHttpRequest** function is used to cancel a request, the und
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/processing-requests">Processing Requests</a>
-
+<a href="/windows/desktop/Http/processing-requests">Processing Requests</a>

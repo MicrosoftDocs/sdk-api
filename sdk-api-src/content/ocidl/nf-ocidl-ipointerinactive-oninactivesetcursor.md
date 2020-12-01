@@ -109,7 +109,7 @@ The object did not set the cursor; the container should either set the cursor or
 
 ## -remarks
 
-The container calls this method to set the mouse pointer over an inactive object after checking the object's activation policy by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-getactivationpolicy">IPointerInactive::GetActivationPolicy</a> method. If the object has not requested to be activated in-place through that call, the container dispatches subsequent WM_SETCURSOR messages to the inactive object by calling <b>OnInactiveSetCursor</b> as long as the mouse pointer stays over the object.
+The container calls this method to set the mouse pointer over an inactive object after checking the object's activation policy by calling the <a href="/windows/desktop/api/ocidl/nf-ocidl-ipointerinactive-getactivationpolicy">IPointerInactive::GetActivationPolicy</a> method. If the object has not requested to be activated in-place through that call, the container dispatches subsequent WM_SETCURSOR messages to the inactive object by calling <b>OnInactiveSetCursor</b> as long as the mouse pointer stays over the object.
 
 
 
@@ -119,5 +119,4 @@ To avoid rounding errors and to make the job easier on the object implementer, t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipointerinactive">IPointerInactive</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipointerinactive">IPointerInactive</a>

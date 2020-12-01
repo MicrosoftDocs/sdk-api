@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>X509PrivateKeyUsageFlags</b> enumeration specifies the permitted uses of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a>. It is the responsibility of the cryptographic provider. The enumeration value can be set and retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyusage">KeyUsage</a> property on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> interface.
+The <b>X509PrivateKeyUsageFlags</b> enumeration specifies the permitted uses of a <a href="/windows/desktop/SecGloss/p-gly">private key</a>. It is the responsibility of the cryptographic provider. The enumeration value can be set and retrieved by using the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyusage">KeyUsage</a> property on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a> interface.
 
 ## -enum-fields
 
@@ -60,7 +60,7 @@ The permitted uses are not defined.
 
 ### -field XCN_NCRYPT_ALLOW_DECRYPT_FLAG
 
-The key can be used to decrypt content. This maps to the following <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509keyusageflags">X509KeyUsageFlags</a> values:
+The key can be used to decrypt content. This maps to the following <a href="/windows/desktop/api/certenroll/ne-certenroll-x509keyusageflags">X509KeyUsageFlags</a> values:
 
 <ul>
 <li>XCN_CERT_DATA_ENCIPHERMENT_KEY_USAGE</li>
@@ -71,7 +71,7 @@ The key can be used to decrypt content. This maps to the following <a href="http
 
 ### -field XCN_NCRYPT_ALLOW_SIGNING_FLAG
 
-The key can be used for signing. This maps to the following <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509keyusageflags">X509KeyUsageFlags</a> values:
+The key can be used for signing. This maps to the following <a href="/windows/desktop/api/certenroll/ne-certenroll-x509keyusageflags">X509KeyUsageFlags</a> values:
 
 <ul>
 <li>XCN_CERT_CRL_SIGN_KEY_USAGE</li>
@@ -91,13 +91,12 @@ All of the uses defined for this enumeration are permitted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

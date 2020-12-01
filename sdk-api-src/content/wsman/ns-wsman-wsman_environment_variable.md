@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Defines an individual environment variable by using a name and value pair. This structure  is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancreateshell">WSManCreateShell</a> method. The representation of the <b>value</b> variable is shell specific. The client and server must  agree on the format of the <b>value</b> variable.
+Defines an individual environment variable by using a name and value pair. This structure  is used by the <a href="/windows/desktop/api/wsman/nf-wsman-wsmancreateshell">WSManCreateShell</a> method. The representation of the <b>value</b> variable is shell specific. The client and server must  agree on the format of the <b>value</b> variable.
 
 ## -struct-fields
 
@@ -63,4 +63,3 @@ Defines the environment variable name. This parameter cannot be <b>NULL</b>.
 ### -field value
 
 Defines the environment variable value. <b>NULL</b> or empty string values are permitted.
-

@@ -57,7 +57,7 @@ The
 
 ### -param ForwardType [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineforwardmode--constants">Line forward mode</a>.
+<a href="/windows/desktop/Tapi/lineforwardmode--constants">Line forward mode</a>.
 
 ### -param ppDestinationAddress [out]
 
@@ -114,29 +114,28 @@ Insufficient memory exists to perform the operation.
 ## -remarks
 
 The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>ppDestinationAddress</i> and <i>ppCallerAddress</i> parameters.
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>ppDestinationAddress</i> and <i>ppCallerAddress</i> parameters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createforwardinfoobject">ITAddress::CreateForwardInfoObject</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createforwardinfoobject">ITAddress::CreateForwardInfoObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-forward">ITAddress::Forward</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-forward">ITAddress::Forward</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_currentforwardinfo">ITAddress::get_CurrentForwardInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation">ITForwardInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation2-getforwardtype2">ITForwardInformation2::GetForwardType</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation2-getforwardtype2">ITForwardInformation2::GetForwardType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
-
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>

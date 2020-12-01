@@ -64,7 +64,7 @@ The ID of the sync handler.
 
 Type: <b>REFIID</b>
 
-The IID of the requested interface. This will typically be IID_ISyncMgrHandler. If the method fails when passed IID_ISyncMgrHandler, it is recalled using IID_ISyncMgrSynchronize, the IID of the older <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a> interface. When the method returns successfully, a pointer to the requested interface is referenced in the <i>ppv</i> parameter.
+The IID of the requested interface. This will typically be IID_ISyncMgrHandler. If the method fails when passed IID_ISyncMgrHandler, it is recalled using IID_ISyncMgrSynchronize, the IID of the older <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a> interface. When the method returns successfully, a pointer to the requested interface is referenced in the <i>ppv</i> parameter.
 
 ### -param ppv [out]
 
@@ -80,13 +80,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-It is possible for this method to be called by Sync Center without it first calling <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlercollection-gethandlerenumerator">ISyncMgrHandlerCollection::GetHandlerEnumerator</a>. This is because Sync Center caches information about handlers and their items. The handler collection can return an interface pointer for an existing sync handler or it can create a new instance.
+It is possible for this method to be called by Sync Center without it first calling <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandlercollection-gethandlerenumerator">ISyncMgrHandlerCollection::GetHandlerEnumerator</a>. This is because Sync Center caches information about handlers and their items. The handler collection can return an interface pointer for an existing sync handler or it can create a new instance.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandler">ISyncMgrHandler</a>
+<a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandler">ISyncMgrHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandlercollection">ISyncMgrHandlerCollection</a>
-
+<a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandlercollection">ISyncMgrHandlerCollection</a>

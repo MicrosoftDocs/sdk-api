@@ -78,17 +78,16 @@ Dictionary copyright information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-create">IFEDictionary::Create</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-create">IFEDictionary::Create</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-getheader">IFEDictionary::GetHeader</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-getheader">IFEDictionary::GetHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-open">IFEDictionary::Open</a>
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-open">IFEDictionary::Open</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nf-msime-ifedictionary-setheader">IFEDictionary::SetHeader</a>
-
+<a href="/windows/desktop/api/msime/nf-msime-ifedictionary-setheader">IFEDictionary::SetHeader</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This method has been deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-ismoveinsamefolder">IFolderView2::IsMoveInSameFolder</a> instead.]
+<p class="CCE_Message">[This method has been deprecated. Use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-ismoveinsamefolder">IFolderView2::IsMoveInSameFolder</a> instead.]
 
 Checks whether the destination of the current drag-and-drop or cut-and-paste operation is the same as the source.
 
@@ -58,7 +58,7 @@ Checks whether the destination of the current drag-and-drop or cut-and-paste ope
 
 ### -param pDropTarget [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>*</b>
+Type: <b><a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>*</b>
 
 A pointer to a destination drop target object.
 
@@ -67,4 +67,3 @@ A pointer to a destination drop target object.
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if the destination is the same as the source.
-

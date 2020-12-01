@@ -50,17 +50,15 @@ api_name:
 
 ## -description
 
-Deletes a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.
+Deletes a <a href="/windows/desktop/SecGloss/s-gly">security context</a>.
 
 ## -parameters
 
-### -param ContextId
-
-### -param LsaContextId
-
-#### - ContextHandle [in]
+### -param ContextId [in]
 
 A handle to the security context to delete.
+
+### -param LsaContextId
 
 ## -returns
 
@@ -91,14 +89,13 @@ The handle is not valid.
 SSP/APs must implement the <b>SpDeleteContext</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpDeleteContext</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>

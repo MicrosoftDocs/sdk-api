@@ -56,7 +56,7 @@ Retrieves the property name, operation, and value from a leaf search condition n
 
 ### -param ppropkey [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
+Type: <b><a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
 Receives the name of the property of the leaf condition as a PROPERTYKEY.
 
@@ -68,9 +68,9 @@ Receives the operation of the leaf condition as a <a href="/windows/win32/api/st
 
 ### -param ppropvar [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-Receives the property value of the leaf condition as a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
+Receives the property value of the leaf condition as a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
 
 ## -returns
 
@@ -94,13 +94,12 @@ The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Sa
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>
+<a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
+<a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
 
 
 
 <b>Reference</b>
-

@@ -63,9 +63,8 @@ Index of an input stream.
 
 ## -returns
 
-Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure, or <b>NULL</b> if the media type is not set for this stream.
+Returns a pointer to a <a href="/previous-versions/windows/desktop/api/mediaobj/ns-mediaobj-dmo_media_type">DMO_MEDIA_TYPE</a> structure, or <b>NULL</b> if the media type is not set for this stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/imediaobjectimpl-class-template">IMediaObjectImpl Class Template</a>
-
+<a href="/windows/desktop/DirectShow/imediaobjectimpl-class-template">IMediaObjectImpl Class Template</a>

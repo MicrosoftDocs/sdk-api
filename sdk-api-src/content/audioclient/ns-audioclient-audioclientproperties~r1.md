@@ -58,17 +58,17 @@ An enumeration that is used to specify the category of the audio stream.
 
 ### - Options
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ne-audioclient-audclnt_streamoptions">AUDCLNT_STREAMOPTIONS</a> enumeration describing the characteristics of the stream.
+A member of the <a href="/windows/desktop/api/audioclient/ne-audioclient-audclnt_streamoptions">AUDCLNT_STREAMOPTIONS</a> enumeration describing the characteristics of the stream.
 
 Supported in Windows 8.1 and later.
 
 ## -remarks
 
-Starting with Windows 10, hardware-offloaded audio streams must be event driven. This means that if you call <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">IAudioClient2::SetClientProperties</a> and set the <i>bIsOffload</i> parameter of the <b>AudioClientProperties</b> to TRUE, you must specify the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag in the <i>StreamFlags</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>.
+Starting with Windows 10, hardware-offloaded audio streams must be event driven. This means that if you call <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">IAudioClient2::SetClientProperties</a> and set the <i>bIsOffload</i> parameter of the <b>AudioClientProperties</b> to TRUE, you must specify the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag in the <i>StreamFlags</i> parameter to <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/ne-audioclient-audclnt_streamoptions">AUDCLNT_STREAMOPTIONS</a>
+<a href="/windows/desktop/api/audioclient/ne-audioclient-audclnt_streamoptions">AUDCLNT_STREAMOPTIONS</a>
 
 
 
@@ -76,9 +76,8 @@ Starting with Windows 10, hardware-offloaded audio streams must be event driven
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
+<a href="/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">IAudioClient2::SetClientProperties</a>
-
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient2-setclientproperties">IAudioClient2::SetClientProperties</a>

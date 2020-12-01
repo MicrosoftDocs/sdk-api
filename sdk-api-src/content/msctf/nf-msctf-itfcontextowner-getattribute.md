@@ -90,21 +90,20 @@ Context owners using the default text store of the TSF manager can implement a s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextowner">ITfContextOwner</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontextowner">ITfContextOwner</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/other-predefined-attributes">Other Predefined Attributes</a>
+<a href="/windows/desktop/TSF/other-predefined-attributes">Other Predefined Attributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-font-attributes">Predefined Font Attributes</a>
+<a href="/windows/desktop/TSF/predefined-font-attributes">Predefined Font Attributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-list-attributes">Predefined List Attributes</a>
+<a href="/windows/desktop/TSF/predefined-list-attributes">Predefined List Attributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-text-attributes">Predefined Text Attributes</a>
-
+<a href="/windows/desktop/TSF/predefined-text-attributes">Predefined Text Attributes</a>

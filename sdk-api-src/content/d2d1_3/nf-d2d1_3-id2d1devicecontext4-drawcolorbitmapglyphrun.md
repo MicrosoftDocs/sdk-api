@@ -56,7 +56,7 @@ Draws a color bitmap glyph run using one of the bitmap formats.
 
 ### -param glyphImageFormat
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_glyph_image_formats">DWRITE_GLYPH_IMAGE_FORMATS</a></b>
+Type: <b><a href="/windows/desktop/api/dcommon/ne-dcommon-dwrite_glyph_image_formats">DWRITE_GLYPH_IMAGE_FORMATS</a></b>
 
 Specifies the format of the glyph image. Supported formats are DWRITE_GLYPH_IMAGE_FORMATS_PNG, DWRITE_GLYPH_IMAGE_FORMATS_JPEG,
           DWRITE_GLYPH_IMAGE_FORMATS_TIFF, or DWRITE_GLYPH_IMAGE_FORMATS_PREMULTIPLIED_B8G8R8A8.  This method will result in an error if the color glyph run does not contain the requested format.
@@ -66,29 +66,28 @@ Only one format can be specified at a time, combinations of flags are not valid 
 
 ### -param baselineOrigin
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The origin of the baseline for the glyph run.
 
 ### -param glyphRun [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_GLYPH_RUN</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/dwrite/ns-dwrite-dwrite_glyph_run">DWRITE_GLYPH_RUN</a>*</b>
 
 The glyphs to render.
 
 ### -param measuringMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
+Type: <b><a href="/windows/desktop/api/dcommon/ne-dcommon-dwrite_measuring_mode">DWRITE_MEASURING_MODE</a></b>
 
 Indicates the measuring method.
 
 ### -param bitmapSnapOption
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_color_bitmap_glyph_snap_option">D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_color_bitmap_glyph_snap_option">D2D1_COLOR_BITMAP_GLYPH_SNAP_OPTION</a></b>
 
 Specifies the pixel snapping policy when rendering color bitmap glyphs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext4">ID2D1DeviceContext4</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext4">ID2D1DeviceContext4</a>

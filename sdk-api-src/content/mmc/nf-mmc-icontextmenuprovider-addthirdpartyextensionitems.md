@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 The <b>IContextMenuProvider::AddThirdPartyExtensionItems</b> method enables third-party extensions to add items at specified insertion points in this context menu. MMC checks its list of snap-ins registered to extend objects of this node type and offers each (if there are any) the opportunity to extend the context menu by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-addmenuitems">IExtendContextMenu::AddMenuItems</a>.
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-addmenuitems">IExtendContextMenu::AddMenuItems</a>.
 
 ## -parameters
 
 ### -param piDataObject [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the object whose menu is extended.
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the object whose menu is extended.
 
 ## -returns
 
@@ -66,13 +66,12 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendcontextmenu">IExtendContextMenu</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iextendcontextmenu">IExtendContextMenu</a>

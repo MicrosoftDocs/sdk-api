@@ -56,7 +56,7 @@ api_name:
 
 The
 				<b>USER_INFO_1007</b> structure contains a comment associated with a user network account. This information level is valid only when you call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
 
 ## -struct-fields
 
@@ -67,17 +67,16 @@ Pointer to a Unicode string that contains a comment to associate with the user a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
-
+<a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>

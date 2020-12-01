@@ -55,7 +55,7 @@ api_name:
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>Reset</b> method returns the 
-certificate enrollment control  object to its initial <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> and thereby allow reuse of the control. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a> interface.
+certificate enrollment control  object to its initial <a href="/windows/desktop/SecGloss/s-gly">state</a> and thereby allow reuse of the control. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a> interface.
 
 ## -parameters
 
@@ -64,17 +64,16 @@ certificate enrollment control  object to its initial <a href="https://docs.micr
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>

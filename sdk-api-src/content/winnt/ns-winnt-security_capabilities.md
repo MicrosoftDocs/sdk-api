@@ -80,5 +80,4 @@ This member is reserved. Do not use it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/capability-sid-constants">Capability SID Constants</a>
-
+<a href="/windows/desktop/SecAuthZ/capability-sid-constants">Capability SID Constants</a>

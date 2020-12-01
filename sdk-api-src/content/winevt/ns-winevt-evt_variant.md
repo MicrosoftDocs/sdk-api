@@ -128,7 +128,7 @@ A pointer to a hexadecimal binary value.
 
 ### -field SidVal
 
-A 4-byte ASCII value. A security identifier (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>) structure that uniquely identifies a user or group.
+A 4-byte ASCII value. A security identifier (<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>) structure that uniquely identifies a user or group.
 
 ### -field SizeTVal
 
@@ -224,21 +224,20 @@ The number of elements in the array of values. Use <b>Count</b> if the <b>Type</
 
 ### -field Type
 
-A flag that specifies the data type of the variant. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_variant_type">EVT_VARIANT_TYPE</a> enumeration.
+A flag that specifies the data type of the variant. For possible values, see the <a href="/windows/desktop/api/winevt/ne-winevt-evt_variant_type">EVT_VARIANT_TYPE</a> enumeration.
 
 The variant contains an array of values, if the <b>EVT_VARIANT_TYPE_ARRAY</b> flag is set. The members that end in "Arr" contain arrays of values. For example, you would use the <b>StringArr</b> member to access the variant data if the type is EvtVarTypeString and the <b>EVT_VARIANT_TYPE_ARRAY</b> flag is set.
 
-You can use the <a href="https://docs.microsoft.com/windows/desktop/WES/windows-event-log-constants">EVT_VARIANT_TYPE_MASK</a> constant to mask out the array bit to determine the variant's type.
+You can use the <a href="/windows/desktop/WES/windows-event-log-constants">EVT_VARIANT_TYPE_MASK</a> constant to mask out the array bit to determine the variant's type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_system_property_id">EVT_SYSTEM_PROPERTY_ID</a>
+<a href="/windows/desktop/api/winevt/ne-winevt-evt_system_property_id">EVT_SYSTEM_PROPERTY_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_variant_type">EVT_VARIANT_TYPE</a>
+<a href="/windows/desktop/api/winevt/ne-winevt-evt_variant_type">EVT_VARIANT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WES/windows-event-log-constants">EVT_VARIANT_TYPE_MASK</a>
-
+<a href="/windows/desktop/WES/windows-event-log-constants">EVT_VARIANT_TYPE_MASK</a>

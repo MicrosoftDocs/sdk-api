@@ -58,7 +58,7 @@ Adds a data block to a link.
 
 Type: <b>VOID*</b>
 
-The data block structure. For a list of supported structures, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>.
+The data block structure. For a list of supported structures, see <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>.
 
 ## -returns
 
@@ -68,5 +68,4 @@ Returns S_OK if successful, or a COM error code otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>

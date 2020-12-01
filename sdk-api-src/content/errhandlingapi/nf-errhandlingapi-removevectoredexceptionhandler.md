@@ -51,8 +51,6 @@ api_name:
  - RemoveVectoredExceptionHandler
 ---
 
-# RemoveVectoredExceptionHandler function
-
 ## -description
 
 Unregisters a vectored exception handler.

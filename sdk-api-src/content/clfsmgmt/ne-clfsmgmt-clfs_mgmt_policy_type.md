@@ -76,7 +76,7 @@ Controls the rate of growth of the log.
 
 ### -field ClfsMgmtPolicyLogTail
 
-Controls the amount of space that   <a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmtw32/nc-clfsmgmtw32-plog_tail_advance_callback">LOG_TAIL_ADVANCE_CALLBACK</a> requests.
+Controls the amount of space that   <a href="/windows/desktop/api/clfsmgmtw32/nc-clfsmgmtw32-plog_tail_advance_callback">LOG_TAIL_ADVANCE_CALLBACK</a> requests.
 
 ### -field ClfsMgmtPolicyAutoShrink
 
@@ -102,5 +102,4 @@ Controls the extension given to a new container.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsmgmt/ns-clfsmgmt-clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
-
+<a href="/windows/desktop/api/clfsmgmt/ns-clfsmgmt-clfs_mgmt_policy">CLFS_MGMT_POLICY</a>

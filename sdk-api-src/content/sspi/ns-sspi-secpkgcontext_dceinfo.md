@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>SecPkgContext_DceInfo</b> structure contains authorization data used by DCE services. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a> function uses this structure.
 
 ## -struct-fields
 
@@ -69,5 +69,4 @@ Pointer to package-specific authorization data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>
-
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>

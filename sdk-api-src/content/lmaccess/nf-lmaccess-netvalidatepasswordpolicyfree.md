@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>NetValidatePasswordPolicyFree</b> function frees the memory that the <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a> function allocates for the <i>OutputArg</i> parameter, which is a <a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_output_arg">NET_VALIDATE_OUTPUT_ARG</a> structure.
+The <b>NetValidatePasswordPolicyFree</b> function frees the memory that the <a href="/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a> function allocates for the <i>OutputArg</i> parameter, which is a <a href="/windows/desktop/api/lmaccess/ns-lmaccess-net_validate_output_arg">NET_VALIDATE_OUTPUT_ARG</a> structure.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Pointer to the memory allocated for the <i>OutputArg</i> parameter by a call to 
 
 If the function frees the memory, or if there is no memory to free from a previous call to <b>NetValidatePasswordPolicy</b>, the return value is NERR_Success.
 
-If the function fails, the return value is a system error code. For a list of error codes, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+If the function fails, the return value is a system error code. For a list of error codes, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -71,15 +71,14 @@ No special group membership is required to successfully execute this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netvalidatepasswordpolicy">NetValidatePasswordPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
-

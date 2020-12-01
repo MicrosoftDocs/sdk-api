@@ -64,7 +64,7 @@ Specifies the size of the WAVEFORMATEX structure pointed to by the <i>pAudioForm
 
 ### -param ppIAudioMediaType
 
-Specifies a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> interface.
+Specifies a pointer to an <a href="/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> interface.
 
 ## -returns
 
@@ -72,17 +72,16 @@ The <code>CreateAudioMediaType</code> function returns S_OK if the call to the f
 
 ## -remarks
 
-When you implement custom audio system effects, the <code>CreateAudioMediaType</code> function works with <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a> to represent a custom audio data format and to provide information about the custom format.
+When you implement custom audio system effects, the <code>CreateAudioMediaType</code> function works with <a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a> to represent a custom audio data format and to provide information about the custom format.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a>
+<a href="/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a>
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a>
 
 
 
 <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>
-

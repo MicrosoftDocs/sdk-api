@@ -88,13 +88,12 @@ Value: 0x80004001
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-istreampseudorandombased">IStreamPseudoRandomBased</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-istreampseudorandombased">IStreamPseudoRandomBased</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-get_seed">IStreamPseudoRandomBased::get_Seed</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-get_seed">IStreamPseudoRandomBased::get_Seed</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_extendedseed">IStreamPseudoRandomBased::put_ExtendedSeed</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_extendedseed">IStreamPseudoRandomBased::put_ExtendedSeed</a>

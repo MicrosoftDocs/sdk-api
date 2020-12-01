@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>.
+Contains information about a mouse event passed to a <b>WH_MOUSE</b> hook procedure, <a href="/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>.
 
 ## -struct-fields
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 The x- and y-coordinates of the cursor, in screen coordinates.
 
@@ -74,7 +74,7 @@ A handle to the window that will receive the mouse message corresponding to the 
 
 Type: <b>UINT</b>
 
-The hit-test value. For a list of hit-test values, see the description of the <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-nchittest">WM_NCHITTEST</a> message.
+The hit-test value. For a list of hit-test values, see the description of the <a href="/windows/desktop/inputdev/wm-nchittest">WM_NCHITTEST</a> message.
 
 ### -field dwExtraInfo
 
@@ -88,11 +88,11 @@ Additional information associated with the message.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
+<a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644988(v=vs.85)">MouseProc</a>
 
 
 
@@ -100,9 +100,8 @@ Additional information associated with the message.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-nchittest">WM_NCHITTEST</a>
-
+<a href="/windows/desktop/inputdev/wm-nchittest">WM_NCHITTEST</a>

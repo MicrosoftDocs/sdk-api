@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
  - GetSubMenu
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetSubMenu function
@@ -82,17 +83,16 @@ If the function succeeds, the return value is a handle to the drop-down menu or 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createpopupmenu">CreatePopupMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createpopupmenu">CreatePopupMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenu">GetMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenu">GetMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
 <b>Reference</b>
-

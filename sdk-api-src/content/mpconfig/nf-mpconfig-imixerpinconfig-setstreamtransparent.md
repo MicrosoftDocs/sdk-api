@@ -65,13 +65,12 @@ Returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig Interface</a>
+<a href="/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig">IMixerPinConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getstreamtransparent">IMixerPinConfig::GetStreamTransparent</a>
-
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getstreamtransparent">IMixerPinConfig::GetStreamTransparent</a>

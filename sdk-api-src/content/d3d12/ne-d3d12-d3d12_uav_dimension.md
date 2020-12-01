@@ -84,9 +84,8 @@ View the resource as a 3D texture array.
 
 ## -remarks
 
-Specify one of the values in this enumeration in the <b>ViewDimension</b> member of a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_unordered_access_view_desc">D3D12_UNORDERED_ACCESS_VIEW_DESC</a> structure.
+Specify one of the values in this enumeration in the <b>ViewDimension</b> member of a <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_unordered_access_view_desc">D3D12_UNORDERED_ACCESS_VIEW_DESC</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>

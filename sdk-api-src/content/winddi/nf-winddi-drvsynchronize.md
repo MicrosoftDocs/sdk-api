@@ -56,33 +56,32 @@ The <b>DrvSynchronize</b> function informs the driver that GDI needs to access a
 
 ### -param dhpdev
 
-Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> structure that identifies the device to be synchronized with GDI. This parameter is the device handle returned to GDI by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
+Handle to the physical device's <a href="/windows-hardware/drivers/">PDEV</a> structure that identifies the device to be synchronized with GDI. This parameter is the device handle returned to GDI by <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 ### -param prcl
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure. This parameter should be ignored by the driver.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure. This parameter should be ignored by the driver.
 
 ## -remarks
 
 This function allows asynchronous drawing operations performed by a device's coprocessor to be coordinated with GDI accesses.
 
-<b>DrvSynchronize</b> can be optionally implemented in display drivers. GDI calls this function only if it is hooked by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>. GDI calls <b>DrvSynchronize</b> just before drawing directly onto the device surface. GDI will call <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsynchronizesurface">DrvSynchronizeSurface</a> instead of <b>DrvSynchronize</b> in drivers that implement both of these functions.
+<b>DrvSynchronize</b> can be optionally implemented in display drivers. GDI calls this function only if it is hooked by <a href="/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>. GDI calls <b>DrvSynchronize</b> just before drawing directly onto the device surface. GDI will call <a href="/windows/desktop/api/winddi/nf-winddi-drvsynchronizesurface">DrvSynchronizeSurface</a> instead of <b>DrvSynchronize</b> in drivers that implement both of these functions.
 
 This function should return only when it is safe for GDI to access any device-managed surface. That is, <b>DrvSynchronize</b> should delay returning from the call until all asynchronous drawing operations have been completed by the device's coprocessor, thus indicating that it is safe for GDI to access any device-managed surface.
 
-<b>DrvSynchronize</b> is intended to support devices that use a coprocessor for drawing. Such a device can treat some drawing operations as asynchronous, returning to GDI from the operation before the drawing is complete. If this is the case, it is possible that a subsequent drawing operation will be handled by GDI. In order for GDI to safely access device-managed surfaces, it must have a means of ensuring that any <a href="https://docs.microsoft.com/windows-hardware/drivers/">asynchronous rendering</a> being done by the device's coprocessor is complete. By calling this function, GDI synchronizes access to a device-managed surface with the driver.
+<b>DrvSynchronize</b> is intended to support devices that use a coprocessor for drawing. Such a device can treat some drawing operations as asynchronous, returning to GDI from the operation before the drawing is complete. If this is the case, it is possible that a subsequent drawing operation will be handled by GDI. In order for GDI to safely access device-managed surfaces, it must have a means of ensuring that any <a href="/windows-hardware/drivers/">asynchronous rendering</a> being done by the device's coprocessor is complete. By calling this function, GDI synchronizes access to a device-managed surface with the driver.
 
 GDI will never call <b>DrvSynchronize</b> for device-managed surfaces. <b>DrvSynchronize</b> is not itself an output function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsynchronizesurface">DrvSynchronizeSurface</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvsynchronizesurface">DrvSynchronizeSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>

@@ -52,14 +52,14 @@ api_name:
 
  Finds a function table entry or  frame pointer omission (FPO) record for an address.
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symfunctiontableaccess">SymFunctionTableAccess64</a> instead.
+Use <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symfunctiontableaccess">SymFunctionTableAccess64</a> instead.
 
 ## -parameters
 
 ### -param hProcess [in]
 
 A handle to the process that was originally passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function.
 
 ### -param AddrBase [in]
 
@@ -75,5 +75,4 @@ Pointer to a get module base callback function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>

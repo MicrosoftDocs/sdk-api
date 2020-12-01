@@ -65,5 +65,4 @@ Mandatory updates are updates to the Windows Update Agent (WUA) infrastructure. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>

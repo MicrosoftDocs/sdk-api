@@ -158,7 +158,7 @@ There is no class portion of the path.
 #### WBEMPATH_INFO_NATIVE_PATH
 
 Path parser was initialized using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-settext">SetText</a>.
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-settext">SetText</a>.
 
 
 
@@ -171,8 +171,8 @@ Reserved. Do not use.
 #### WBEMPATH_INFO_PATH_HAD_SERVER
 
 Server name was set by either 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-settext">SetText</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-setserver">SetServer</a>.
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-settext">SetText</a> or 
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempath-setserver">SetServer</a>.
 
 ## -returns
 
@@ -180,5 +180,4 @@ This method returns one of the following values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
-
+<a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>

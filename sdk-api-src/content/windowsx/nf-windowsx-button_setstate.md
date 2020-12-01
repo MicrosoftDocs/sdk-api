@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Sets the highlight state of a button. The highlight state indicates whether the button is highlighted as if the user had pushed it. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bm-setstate">BM_SETSTATE</a> message explicitly.
+Sets the highlight state of a button. The highlight state indicates whether the button is highlighted as if the user had pushed it. You can use this macro or send the <a href="/windows/desktop/Controls/bm-setstate">BM_SETSTATE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
 ### -param state
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to highlight the button; otherwise <b>FALSE</b>.
 
@@ -71,4 +71,3 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 Highlighting  affects only the appearance of a button. It has no effect on the check state of a radio button or check box. 
 
 A button is automatically highlighted when the user positions the cursor over it and presses and holds the left mouse button. The highlighting is removed when the user releases the mouse button.
-

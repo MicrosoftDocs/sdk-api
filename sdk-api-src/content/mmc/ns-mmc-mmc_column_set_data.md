@@ -73,25 +73,24 @@ The number of columns in the column set.
 ### -field pColData
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_column_data">MMC_COLUMN_DATA</a> structures that contains the persisted column set data.
+<a href="/windows/desktop/api/mmc/ns-mmc-mmc_column_data">MMC_COLUMN_DATA</a> structures that contains the persisted column set data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-column-set-id">CCF_COLUMN_SET_ID</a>
+<a href="/previous-versions/windows/desktop/mmc/ccf-column-set-id">CCF_COLUMN_SET_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icolumndata">IColumnData</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icolumndata">IColumnData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icolumndata-getcolumnconfigdata">IColumnData::GetColumnConfigData</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icolumndata-getcolumnconfigdata">IColumnData::GetColumnConfigData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icolumndata-setcolumnconfigdata">IColumnData::SetColumnConfigData</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icolumndata-setcolumnconfigdata">IColumnData::SetColumnConfigData</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>
-
+<a href="/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>

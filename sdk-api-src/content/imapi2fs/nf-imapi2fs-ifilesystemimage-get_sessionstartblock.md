@@ -88,18 +88,17 @@ The session starting block can be set in the following ways:
 
 <ul>
 <li>Importing a file system automatically sets the session starting block.</li>
-<li>If the previous session is not imported, the client can call <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_sessionstartblock">IFileSystemImage::put_SessionStartBlock</a> to set this property.</li>
+<li>If the previous session is not imported, the client can call <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_sessionstartblock">IFileSystemImage::put_SessionStartBlock</a> to set this property.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem">IFileSystemImage::ImportFileSystem</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem">IFileSystemImage::ImportFileSystem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem">IFileSystemImage::ImportSpecificFileSystem</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem">IFileSystemImage::ImportSpecificFileSystem</a>

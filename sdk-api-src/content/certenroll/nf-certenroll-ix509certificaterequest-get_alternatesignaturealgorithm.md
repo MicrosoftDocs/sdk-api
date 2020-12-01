@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>AlternateSignatureAlgorithm</b> property specifies and retrieves a Boolean value that indicates whether the signature algorithm <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for a PKCS #10 request or certificate signature is discrete or combined. A PKCS #10 object can be a stand-alone request or it can be contained in a CMC or PKCS #7 request object.
+The <b>AlternateSignatureAlgorithm</b> property specifies and retrieves a Boolean value that indicates whether the signature algorithm <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for a PKCS #10 request or certificate signature is discrete or combined. A PKCS #10 object can be a stand-alone request or it can be contained in a CMC or PKCS #7 request object.
 
 This property is read/write.
 
@@ -60,7 +60,7 @@ This property is read/write.
 
 ## -remarks
 
-Discrete algorithms are represented by separate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) for the hashing algorithm and the signing algorithm. Examples include the following values.<table>
+Discrete algorithms are represented by separate <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) for the hashing algorithm and the signing algorithm. Examples include the following values.<table>
 <tr>
 <th>Discrete algorithm OID</th>
 <th>Description</th>
@@ -134,29 +134,28 @@ For a PKCS #7 or a CMC request, this property retrieves a Boolean value for the 
 
 For a PKCS #10 request or certificate signature using the RSA public key algorithm, a property value of False (which indicates a combined OID) implies a version 1.5 signature and True (discrete OID) implies a version 2.1 signature.
 
-You must initialize the request object before calling this property. You can call this property before calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-encode">Encode</a> method.
+You must initialize the request object before calling this property. You can call this property before calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-encode">Encode</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>

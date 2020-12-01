@@ -54,7 +54,7 @@ Deprecated.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBrowserService4</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice3">IBrowserService3</a>. <b>IBrowserService4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBrowserService4</b> interface inherits from <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice3">IBrowserService3</a>. <b>IBrowserService4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ Deprecated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice4-activateview">ActivateView</a>
+<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice4-activateview">ActivateView</a>
 </td>
 <td align="left" width="63%">
 Deprecated.
@@ -87,7 +87,7 @@ Deprecated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice4-saveviewstate">SaveViewState</a>
+<a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice4-saveviewstate">SaveViewState</a>
 </td>
 <td align="left" width="63%">
 Deprecated.
@@ -98,5 +98,4 @@ Deprecated.
 
 ## -remarks
 
-This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice3">IBrowserService3</a> interfaces, from which it inherits.
-
+This interface also provides the methods of the <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService</a>, <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice2">IBrowserService2</a>, and <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice3">IBrowserService3</a> interfaces, from which it inherits.

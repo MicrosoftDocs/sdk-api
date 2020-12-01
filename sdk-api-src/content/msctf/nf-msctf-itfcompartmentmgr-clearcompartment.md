@@ -56,7 +56,7 @@ Removes the specified compartment.
 
 ### -param tid [in]
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client.
+Contains a <a href="/windows/desktop/TSF/tfclientid">TfClientId</a> value that identifies the client.
 
 ### -param rguid [in]
 
@@ -120,4 +120,3 @@ The owner must clear this compartment.
 ## -see-also
 
 [ITfCompartmentMgr interface](nn-msctf-itfcompartmentmgr.md), [ITfCompartment interface](nn-msctf-itfcompartment.md), [Compartments](/windows/desktop/TSF/compartments)
-

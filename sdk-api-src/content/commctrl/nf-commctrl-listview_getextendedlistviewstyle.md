@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Gets the extended styles that are currently in use for a given list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getextendedlistviewstyle">LVM_GETEXTENDEDLISTVIEWSTYLE</a> message explicitly.
+Gets the extended styles that are currently in use for a given list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getextendedlistviewstyle">LVM_GETEXTENDEDLISTVIEWSTYLE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a list-view control.
-

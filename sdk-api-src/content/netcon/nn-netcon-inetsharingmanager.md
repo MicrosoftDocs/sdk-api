@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="/previous-versions/windows/desktop/ics/windows-firewall-start-page">Windows Firewall API</a>.]
 
 The 
 <b>INetSharingManager</b> interface is the primary interface for the Manager object. 
@@ -58,7 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetSharingManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetSharingManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetSharingManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetSharingManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>INetSharingManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_enumeveryconnection">get_EnumEveryConnection</a>
+<a href="/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_enumeveryconnection">get_EnumEveryConnection</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumeration interface for all connections in the connections folder.
@@ -82,7 +82,7 @@ Retrieves an enumeration interface for all connections in the connections folder
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_enumprivateconnections">get_EnumPrivateConnections</a>
+<a href="/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_enumprivateconnections">get_EnumPrivateConnections</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumeration interface for connections that are privately shared.
@@ -91,7 +91,7 @@ Retrieves an enumeration interface for connections that are privately shared.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_enumpublicconnections">get_EnumPublicConnections</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_enumpublicconnections">get_EnumPublicConnections</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumeration interface for connections that are publicly shared.
@@ -100,17 +100,17 @@ Retrieves an enumeration interface for connections that are publicly shared.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_inetsharingconfigurationforinetconnection">get_INetSharingConfigurationForINetConnection</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_inetsharingconfigurationforinetconnection">get_INetSharingConfigurationForINetConnection</a>
 </td>
 <td align="left" width="63%">
 Retrieves an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface for a specified connection.
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface for a specified connection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_netconnectionprops">get_NetConnectionProps</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_netconnectionprops">get_NetConnectionProps</a>
 </td>
 <td align="left" width="63%">
 Returns a properties interface for a connection.
@@ -119,7 +119,7 @@ Returns a properties interface for a connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_sharinginstalled">get_SharingInstalled</a>
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_sharinginstalled">get_SharingInstalled</a>
 </td>
 <td align="left" width="63%">
 Reports whether the operating system supports connection sharing.
@@ -131,16 +131,15 @@ Reports whether the operating system supports connection sharing.
 ## -remarks
 
 To obtain an enumeration interface for port mappings, use the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_inetsharingconfigurationforinetconnection">get_INetSharingConfigurationForINetConnection</a> method to obtain an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface. Then use the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-get_enumportmappings">INetSharingConfiguration::EnumPortMappings</a> method to obtain an 
-<a href="https://docs.microsoft.com/windows/desktop/api/netcon/nn-netcon-ienumnetsharingportmapping">IEnumNetSharingPortMapping</a> interface.
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingmanager-get_inetsharingconfigurationforinetconnection">get_INetSharingConfigurationForINetConnection</a> method to obtain an 
+<a href="/previous-versions/windows/desktop/api/netcon/nn-netcon-inetsharingconfiguration">INetSharingConfiguration</a> interface. Then use the 
+<a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-get_enumportmappings">INetSharingConfiguration::EnumPortMappings</a> method to obtain an 
+<a href="/windows/desktop/api/netcon/nn-netcon-ienumnetsharingportmapping">IEnumNetSharingPortMapping</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-interfaces">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
-
+<a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>

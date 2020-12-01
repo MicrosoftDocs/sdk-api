@@ -67,13 +67,12 @@ This method can return one of these values.
 <b>IConsoleNameSpace2::Expand</b> should be used to expand a specified item for the purpose of enumerating the child items of that item. Be aware that you must call <b>IConsoleNameSpace2::Expand</b> before inserting an item as a child item in the scope pane.
 
 For example, if a snap-in must place a child item beneath a parent item at a specific position (such as the top of a child item list), the snap-in should use this method to expand the item to find the exact position in which to place a child item. The snap-in could also use this method to call 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsolenamespace-getchilditem">IConsoleNameSpace2::GetChildItem</a> on a child item of an item that has not been expanded (either by a previous call to <b>IConsoleNameSpace2::Expand</b> or by the user clicking the plus sign in the scope pane) to expand that item for the purpose of enumerating its children.
+<a href="/windows/desktop/api/mmc/nf-mmc-iconsolenamespace-getchilditem">IConsoleNameSpace2::GetChildItem</a> on a child item of an item that has not been expanded (either by a previous call to <b>IConsoleNameSpace2::Expand</b> or by the user clicking the plus sign in the scope pane) to expand that item for the purpose of enumerating its children.
 
 <b>IConsoleNameSpace2::Expand</b> does not visibly expand the item in the tree displayed in the scope pane in the console. A snap-in uses 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsole2-expand">IConsole2::Expand</a> to visibly expand or collapse an item in the scope pane. This method sends an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a> notification to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> if and only if the item has not been previously expanded.
+<a href="/windows/desktop/api/mmc/nf-mmc-iconsole2-expand">IConsole2::Expand</a> to visibly expand or collapse an item in the scope pane. This method sends an <a href="/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a> notification to 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> if and only if the item has not been previously expanded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>

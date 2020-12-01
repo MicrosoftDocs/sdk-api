@@ -69,7 +69,7 @@ A handle to the thread to impersonate the system's anonymous logon token.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 An error of ACCESS_DENIED may indicate that the token is for a restricted process. Use OpenProcessToken and IsTokenRestricted to check if the process is restricted.
 
@@ -78,17 +78,16 @@ An error of ACCESS_DENIED may indicate that the token is for a restricted proces
 Anonymous tokens do not include the Everyone Group SID unless the system default has been overridden by setting the HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\EveryoneIncludesAnonymous registry value to DWORD=1.
 
 To cancel the impersonation call 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a>.
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a>
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-reverttoself">RevertToSelf</a>

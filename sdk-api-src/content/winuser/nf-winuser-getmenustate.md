@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
  - GetMenuState
+req.apiset: ext-ms-win-ntuser-menu-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # GetMenuState function
@@ -53,7 +54,7 @@ api_name:
 ## -description
 
 Retrieves the menu flags associated with the specified menu item. If the menu item opens a submenu, this function also returns the number of items in the submenu. 
-<div class="alert"><b>Note</b>  The <b>GetMenuState</b> function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuiteminfoa">GetMenuItemInfo</a>. You can still use <b>GetMenuState</b>, however, if you do not need any of the extended features of <b>GetMenuItemInfo</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>GetMenuState</b> function has been superseded by the <a href="/windows/desktop/api/winuser/nf-winuser-getmenuiteminfoa">GetMenuItemInfo</a>. You can still use <b>GetMenuState</b>, however, if you do not need any of the extended features of <b>GetMenuItemInfo</b>.</div><div> </div>
 
 ## -parameters
 
@@ -262,7 +263,7 @@ It is possible to test an item for a flag value of <b>MF_ENABLED</b>, <b>MF_STRI
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Simulating Check Boxes in a Menu</a>.
+For an example, see <a href="/windows/desktop/menurc/using-menus">Simulating Check Boxes in a Menu</a>.
 
 <div class="code"></div>
 
@@ -272,25 +273,24 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenu">GetMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenu">GetMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuitemcount">GetMenuItemCount</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenuitemcount">GetMenuItemCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuitemid">GetMenuItemID</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenuitemid">GetMenuItemID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuiteminfoa">GetMenuItemInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenuiteminfoa">GetMenuItemInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
 <b>Reference</b>
-

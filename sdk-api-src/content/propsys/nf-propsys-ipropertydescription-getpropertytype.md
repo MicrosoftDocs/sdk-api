@@ -55,9 +55,9 @@ Gets the variant type of the property.
 
 ### -param pvartype [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a>*</b>
+Type: <b><a href="/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a>*</b>
 
-When this method returns, contains a pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> that indicates the property type. If the property is multi-valued, the value pointed to is a <b>VT_VECTOR</b> mask (<b>VT_VECTOR</b> ORed to the <b>VARTYPE</b>. The following are the possible variant types.
+When this method returns, contains a pointer to a <a href="/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a> that indicates the property type. If the property is multi-valued, the value pointed to is a <b>VT_VECTOR</b> mask (<b>VT_VECTOR</b> ORed to the <b>VARTYPE</b>. The following are the possible variant types.
 
 
 
@@ -130,7 +130,7 @@ Double
 #### VT_FILETIME
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure
 
 
 
@@ -148,14 +148,14 @@ Unspecified binary data
 
 #### VT_UNKNOWN
 
-Object that implements <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+Object that implements <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 
 #### VT_STREAM
 
-Object that implements <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
+Object that implements <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
 
 ## -returns
 
@@ -165,13 +165,12 @@ This method always returns <b>S_OK</b>.
 
 ## -remarks
 
-The information retrieved by this method comes from the <i>type</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <i>type</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-
+<a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Low-level helper for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> that provides machine independence for customized <b>Invoke</b>.
+Low-level helper for <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> that provides machine independence for customized <b>Invoke</b>.
 
 ## -parameters
 
@@ -89,4 +89,3 @@ The function result.
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

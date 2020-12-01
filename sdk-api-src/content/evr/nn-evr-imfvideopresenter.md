@@ -57,7 +57,7 @@ The video presenter receives video frames as soon as they are available from ups
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoPresenter</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>. <b>IMFVideoPresenter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoPresenter</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>. <b>IMFVideoPresenter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFVideoPresenter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideopresenter-getcurrentmediatype">GetCurrentMediaType</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideopresenter-getcurrentmediatype">GetCurrentMediaType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the presenter's media type.
@@ -81,7 +81,7 @@ Retrieves the presenter's media type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nf-evr-imfvideopresenter-processmessage">ProcessMessage</a>
+<a href="/windows/desktop/api/evr/nf-evr-imfvideopresenter-processmessage">ProcessMessage</a>
 </td>
 <td align="left" width="63%">
 Sends a message to the video presenter.
@@ -92,13 +92,12 @@ Sends a message to the video presenter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
+<a href="/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

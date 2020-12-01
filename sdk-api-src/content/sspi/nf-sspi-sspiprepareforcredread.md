@@ -52,13 +52,13 @@ api_name:
 
 Generates a target name and credential type from the specified identity structure.
 
-The values that this function generates can be passed as the values of the <i>TargetName</i> and <i>Type</i> parameters in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> function.
+The values that this function generates can be passed as the values of the <i>TargetName</i> and <i>Type</i> parameters in a call to the <a href="/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> function.
 
 ## -parameters
 
 ### -param AuthIdentity [in]
 
-The identity structure from which to generate the credentials to be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> function.
+The identity structure from which to generate the credentials to be passed to the <a href="/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> function.
 
 ### -param pszTargetName [in]
 
@@ -66,15 +66,14 @@ A target name that can be modified by this function depending on the value of th
 
 ### -param pCredmanCredentialType [out]
 
-The credential type to pass to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> function.
+The credential type to pass to the <a href="/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> function.
 
 ### -param ppszCredmanTargetName [out]
 
-The target name to pass to the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> function.
+The target name to pass to the <a href="/windows/desktop/api/wincred/nf-wincred-credreada">CredRead</a> function.
 
 ## -returns
 
 If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
-

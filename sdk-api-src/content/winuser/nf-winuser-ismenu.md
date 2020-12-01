@@ -46,6 +46,7 @@ api_location:
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
  - IsMenu
+req.apiset: ext-ms-win-ntuser-menu-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # IsMenu function
@@ -73,5 +74,4 @@ If the handle is not a menu handle, the return value is zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
-
+<a href="/windows/desktop/menurc/menus">Menus</a>

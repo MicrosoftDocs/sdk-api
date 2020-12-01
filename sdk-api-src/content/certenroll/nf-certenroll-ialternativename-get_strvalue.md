@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>StrValue</b> property retrieves a string that contains an email address, a Domain Name System (DNS) name, a URL, a registered <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID), or a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN).
+The <b>StrValue</b> property retrieves a string that contains an email address, a Domain Name System (DNS) name, a URL, a registered <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID), or a <a href="/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN).
 
 This property is read-only.
 
@@ -59,7 +59,7 @@ This property is read-only.
 
 ## -remarks
 
-You can call this property to retrieve a string if you initialized the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a> object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromstring">InitializeFromString</a> method and specifying one of the following <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-alternativenametype">AlternativeNameType</a> values.<table>
+You can call this property to retrieve a string if you initialized the <a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a> object by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-ialternativename-initializefromstring">InitializeFromString</a> method and specifying one of the following <a href="/windows/desktop/api/certenroll/ne-certenroll-alternativenametype">AlternativeNameType</a> values.<table>
 <tr>
 <th>Value</th>
 <th>Description</th>
@@ -88,5 +88,4 @@ You can call this property to retrieve a string if you initialized the <a href="
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>

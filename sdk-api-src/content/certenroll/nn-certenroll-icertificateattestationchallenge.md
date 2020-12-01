@@ -54,7 +54,7 @@ Allows applications to decrypt a key attestation challenge received from a serve
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificateAttestationChallenge</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertificateAttestationChallenge</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificateAttestationChallenge</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertificateAttestationChallenge</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,19 +70,19 @@ The <b>ICertificateAttestationChallenge</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificateattestationchallenge-decryptchallenge">DecryptChallenge</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertificateattestationchallenge-decryptchallenge">DecryptChallenge</a>
 </td>
 <td align="left" width="63%">
-Decrypts the challenge from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) response and creates a re-encrypted response to send to the CA.
+Decrypts the challenge from the <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) response and creates a re-encrypted response to send to the CA.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificateattestationchallenge-initialize">Initialize</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertificateattestationchallenge-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
-Initialize using the full <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) response returned from the CA.
+Initialize using the full <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) response returned from the CA.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Initialize using the full <a href="https://docs.microsoft.com/windows/desktop/Se
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificateattestationchallenge-get_requestid">RequestID</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertificateattestationchallenge-get_requestid">RequestID</a>
 
 
 </td>
@@ -106,7 +106,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the request ID from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) response.
+Gets the request ID from the <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) response.
 
 </td>
 </tr>
@@ -115,4 +115,3 @@ Gets the request ID from the <a href="https://docs.microsoft.com/windows/desktop
 ## -remarks
 
 If the challenge is successfully decrypted, the decrypted secret needs to be sent back to the server so that an attested end entity certificate can be issued.
-

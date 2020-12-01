@@ -54,7 +54,7 @@ Retrieves the activity identifier associated with the current object context.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectContextActivity</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectContextActivity</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectContextActivity</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectContextActivity</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IObjectContextActivity</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextactivity-getactivityid">GetActivityID</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontextactivity-getactivityid">GetActivityID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the GUID associated with the current activity.
@@ -80,7 +80,7 @@ Retrieves the GUID associated with the current activity.
 
 ## -remarks
 
-You obtain a reference to an object's <b>IObjectContextActivity</b> interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the object's context, as in the following example:
+You obtain a reference to an object's <b>IObjectContextActivity</b> interface by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the object's context, as in the following example:
 
 <pre class="syntax" xml:space="preserve"><code>hr = m_pIObjectContext-&gt;QueryInterface(
             IID_IObjectContextActivity, 
@@ -89,5 +89,4 @@ You obtain a reference to an object's <b>IObjectContextActivity</b> interface by
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>

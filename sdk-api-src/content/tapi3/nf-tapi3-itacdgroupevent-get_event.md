@@ -58,7 +58,7 @@ The
 ### -param pEvent [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-acdgroup_event">ACDGROUP_EVENT</a> descriptor of event.
+<a href="/windows/desktop/api/tapi3/ne-tapi3-acdgroup_event">ACDGROUP_EVENT</a> descriptor of event.
 
 ## -returns
 
@@ -110,9 +110,8 @@ The ACDGE_NEW_GROUP and ACDGE_REMOVE_GROUP values are not currently supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/ne-tapi3-acdgroup_event">ACDGROUP_EVENT</a>
+<a href="/windows/desktop/api/tapi3/ne-tapi3-acdgroup_event">ACDGROUP_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itacdgroupevent">ITACDGroupEvent</a>
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itacdgroupevent">ITACDGroupEvent</a>

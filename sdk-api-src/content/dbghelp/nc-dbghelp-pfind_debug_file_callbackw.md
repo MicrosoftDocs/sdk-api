@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined callback function used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-finddebuginfofileex">FindDebugInfoFileEx</a> function. It verifies whether the symbol file located by 
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-finddebuginfofileex">FindDebugInfoFileEx</a> function. It verifies whether the symbol file located by 
 <b>FindDebugInfoFileEx</b> is the correct symbol file.
 
 The <b>PFIND_DEBUG_FILE_CALLBACK</b> and <b>PFIND_DEBUG_FILE_CALLBACKW</b> types define a pointer to this callback function. 
@@ -78,8 +78,8 @@ If the symbol file is valid, return <b>TRUE</b>. Otherwise, return <b>FALSE</b>.
 ## -remarks
 
 One way to verify the symbol file is to compare its timestamp to the timestamp in the image. To retrieve the timestamp of the image, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-gettimestampforloadedlibrary">GetTimestampForLoadedLibrary</a> function. To retrieve the timestamp of the symbol file, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetmoduleinfo">SymGetModuleInfo64</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-gettimestampforloadedlibrary">GetTimestampForLoadedLibrary</a> function. To retrieve the timestamp of the symbol file, use the 
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetmoduleinfo">SymGetModuleInfo64</a> function.
 
 
 
@@ -90,17 +90,16 @@ One way to verify the symbol file is to compare its timestamp to the timestamp i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-finddebuginfofileex">FindDebugInfoFileEx</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-finddebuginfofileex">FindDebugInfoFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-gettimestampforloadedlibrary">GetTimestampForLoadedLibrary</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-gettimestampforloadedlibrary">GetTimestampForLoadedLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetmoduleinfo">SymGetModuleInfo64</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetmoduleinfo">SymGetModuleInfo64</a>

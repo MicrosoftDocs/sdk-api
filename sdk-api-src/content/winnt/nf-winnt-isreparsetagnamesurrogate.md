@@ -61,13 +61,12 @@ The reparse point tag to be tested for surrogacy.
 ## -remarks
 
 If the surrogacy bit is set, the file or directory represents another named entity in the system, such as a mounted folder that associates this directory with another volume. For more information on volume mounting, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>.
+<a href="/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point">FSCTL_GET_REPARSE_POINT</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_reparse_point">FSCTL_GET_REPARSE_POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/reparse-points">Reparse Points</a>
-
+<a href="/windows/desktop/FileIO/reparse-points">Reparse Points</a>

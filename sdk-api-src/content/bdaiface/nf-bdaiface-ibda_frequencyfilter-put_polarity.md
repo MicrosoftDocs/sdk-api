@@ -56,7 +56,7 @@ The <b>put_Polarity</b> method specifies the polarity of the signal.
 
 ### -param Polarity [in]
 
-Specifies the polarity as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/polarisation">Polarisation</a> enumerated type.
+Specifies the polarity as a member of the <a href="/previous-versions/windows/desktop/mstv/polarisation">Polarisation</a> enumerated type.
 
 ## -returns
 
@@ -64,13 +64,12 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_frequencyfilter">IBDA_FrequencyFilter Interface</a>
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_frequencyfilter">IBDA_FrequencyFilter Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-get_polarity">IBDA_FrequencyFilter::get_Polarity</a>
-
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_frequencyfilter-get_polarity">IBDA_FrequencyFilter::get_Polarity</a>

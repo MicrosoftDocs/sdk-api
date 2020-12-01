@@ -56,7 +56,7 @@ The <b>RpcServerInterfaceGroupInqBindings</b> function returns the binding handl
 
 ### -param IfGroup [in]
 
-A <b>RPC_INTERFACE_GROUP</b> from <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupcreate">RpcServerInterfaceGroupCreate</a> that defines the interface group for which the bindings should be queried.
+A <b>RPC_INTERFACE_GROUP</b> from <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupcreate">RpcServerInterfaceGroupCreate</a> that defines the interface group for which the bindings should be queried.
 
 ### -param BindingVector [out]
 
@@ -95,30 +95,29 @@ There are no bindings.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
-A server application calls <b>RpcServerInterfaceGroupInqBindings</b> to obtain a vector of server binding handles for the given interface group. The RPC run-time library creates binding handles for an interface group when a server application calls the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupactivate">RpcServerInterfaceGroupActivate</a> function.
+A server application calls <b>RpcServerInterfaceGroupInqBindings</b> to obtain a vector of server binding handles for the given interface group. The RPC run-time library creates binding handles for an interface group when a server application calls the <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupactivate">RpcServerInterfaceGroupActivate</a> function.
 
 The returned binding vector can contain binding handles with dynamic endpoints or binding handles with well-known endpoints, depending on the interface group’s endpoint specification.
 
-A server uses the vector of binding handles for exporting to the name service or for conversion to string bindings.  If there are no binding handles (no registered protocol sequences), <b>RpcServerInterfaceGroupInqBindings</b> returns <b>RPC_S_NO_BINDINGS</b>and <i>BindingVector</i> is <b>NULL</b>. The server is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingvectorfree">RpcBindingVectorFree</a> to release the vector's memory.
+A server uses the vector of binding handles for exporting to the name service or for conversion to string bindings.  If there are no binding handles (no registered protocol sequences), <b>RpcServerInterfaceGroupInqBindings</b> returns <b>RPC_S_NO_BINDINGS</b>and <i>BindingVector</i> is <b>NULL</b>. The server is responsible for calling <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingvectorfree">RpcBindingVectorFree</a> to release the vector's memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupactivate">RpcServerInterfaceGroupActivate</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupactivate">RpcServerInterfaceGroupActivate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupclose">RpcServerInterfaceGroupClose</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupclose">RpcServerInterfaceGroupClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupcreate">RpcServerInterfaceGroupCreate</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupcreate">RpcServerInterfaceGroupCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupdeactivate">RpcServerInterfaceGroupDeactivate</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupdeactivate">RpcServerInterfaceGroupDeactivate</a>

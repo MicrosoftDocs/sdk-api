@@ -58,7 +58,7 @@ Retrieves a theme handle to a window that has visual styles applied.
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle of the window.
 
@@ -66,9 +66,8 @@ Handle of the window.
 
 Type: <b>HTHEME</b>
 
-The most recent theme handle from <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a>.
+The most recent theme handle from <a href="/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a>.
 
 ## -remarks
 
-If a window has a visual style applied, the <b>GetWindowTheme</b> function returns the most recent theme handle from <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a>. If no visual style is applied, <b>GetWindowTheme</b> returns <b>NULL</b>.
-
+If a window has a visual style applied, the <b>GetWindowTheme</b> function returns the most recent theme handle from <a href="/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a>. If no visual style is applied, <b>GetWindowTheme</b> returns <b>NULL</b>.

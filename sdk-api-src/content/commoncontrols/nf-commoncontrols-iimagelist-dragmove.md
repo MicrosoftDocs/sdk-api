@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> message.
+Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a <a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a> message.
 
 ## -parameters
 
@@ -68,14 +68,13 @@ A value of type <b>int</b> that contains the y-coordinate where the drag image a
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-To begin a drag operation, use the <a href="https://docs.microsoft.com/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-begindrag">IImageList::BeginDrag</a> method. 
+To begin a drag operation, use the <a href="/windows/desktop/api/commoncontrols/nf-commoncontrols-iimagelist-begindrag">IImageList::BeginDrag</a> method. 
 		
 
-To use <b>IImageList::DragMove</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
+To use <b>IImageList::DragMove</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

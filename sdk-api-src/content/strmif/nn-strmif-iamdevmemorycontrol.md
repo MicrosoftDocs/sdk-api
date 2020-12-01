@@ -54,15 +54,15 @@ api_name:
 <div> </div>
 <div class="alert"><b>Note</b>  It was defined to support certain older hardware decoders that required AVI files to be read directly into hardware memory. The interface enables the AVI parser to allocate memory from the downstream filter but still provide its own allocator. There should be no need for any newer devices to support this interface.</div>
 <div> </div>
-A device memory control object supports <code>IAMDevMemoryControl</code>. This object is aggregated with an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a> object that is used in the connection. Typically, filters will call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-getdevmemoryobject">IAMDevMemoryAllocator::GetDevMemoryObject</a> method to obtain a pointer to this interface.
+A device memory control object supports <code>IAMDevMemoryControl</code>. This object is aggregated with an <a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a> object that is used in the connection. Typically, filters will call the <a href="/windows/desktop/api/strmif/nf-strmif-iamdevmemoryallocator-getdevmemoryobject">IAMDevMemoryAllocator::GetDevMemoryObject</a> method to obtain a pointer to this interface.
 
-Implement this interface with the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamdevmemoryallocator">IAMDevMemoryAllocator</a> interface when pins need to have greater control of memory allocation.
+Implement this interface with the <a href="/windows/desktop/api/strmif/nn-strmif-iamdevmemoryallocator">IAMDevMemoryAllocator</a> interface when pins need to have greater control of memory allocation.
 
 Use this interface to synchronize the completion of writing data to a memory allocator, and to get the device ID of the on-board memory allocator.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMDevMemoryControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMDevMemoryControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMDevMemoryControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMDevMemoryControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IAMDevMemoryControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdevmemorycontrol-getdevid">GetDevId</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamdevmemorycontrol-getdevid">GetDevId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device ID of the on-board memory allocator.
@@ -86,7 +86,7 @@ Retrieves the device ID of the on-board memory allocator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdevmemorycontrol-querywritesync">QueryWriteSync</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamdevmemorycontrol-querywritesync">QueryWriteSync</a>
 </td>
 <td align="left" width="63%">
 Checks if the memory supported by the allocator requires the use of the <b>WriteSync</b> method.
@@ -95,7 +95,7 @@ Checks if the memory supported by the allocator requires the use of the <b>Write
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamdevmemorycontrol-writesync">WriteSync</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamdevmemorycontrol-writesync">WriteSync</a>
 </td>
 <td align="left" width="63%">
 Used to synchronize with the completed write operation by returning when any data being written to the specified allocator region is fully written into the memory.
@@ -106,5 +106,4 @@ Used to synchronize with the completed write operation by returning when any dat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>

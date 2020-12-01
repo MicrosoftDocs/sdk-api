@@ -66,12 +66,12 @@ Identifier of the address for which the agent information is to be changed. An a
 ### -param dwAgentState
 
 New agent state. Must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentstate--constants">LINEAGENTSTATE_ Constants</a>, or zero to leave the agent state unchanged and modify only the next state.
+<a href="/windows/desktop/Tapi/lineagentstate--constants">LINEAGENTSTATE_ Constants</a>, or zero to leave the agent state unchanged and modify only the next state.
 
 ### -param dwNextAgentState
 
 The agent state that should be automatically set when the current call on the address becomes <i>idle</i>. For example, if it is known that after-call work must be performed, this field can be set to LINEAGENTSTATE_WORKAFTERCALL so that a new call is not assigned to the agent after the current call. Must be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineagentstate--constants">LINEAGENTSTATE_ Constants</a>, or zero to use the default next state configured for the agent.
+<a href="/windows/desktop/Tapi/lineagentstate--constants">LINEAGENTSTATE_ Constants</a>, or zero to use the default next state configured for the agent.
 
 ## -returns
 
@@ -81,9 +81,8 @@ LINEERR_INVALADDRESSID, LINEERR_INVALADDRESSSTATE, LINEERR_INVALAGENTSTATE, LINE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>

@@ -67,5 +67,4 @@ Flag to be used if the callback is invoked as a result of previously interrupted
 <b>Note</b>  This value is new for Windows 10, version 1803.
 
 Flag to be used if the callback is invoked as a 
-result of a call to <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfhydrateplaceholder">CfHydratePlaceholder</a>.
-
+result of a call to <a href="/windows/desktop/api/cfapi/nf-cfapi-cfhydrateplaceholder">CfHydratePlaceholder</a>.

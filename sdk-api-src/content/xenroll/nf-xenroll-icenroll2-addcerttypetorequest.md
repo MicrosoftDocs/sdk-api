@@ -55,7 +55,7 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>addCertTypeToRequest</b> method adds a certificate template to a request (used to support the enterprise <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA)). This method was first defined by the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll2">ICEnroll2</a> interface.
+The <b>addCertTypeToRequest</b> method adds a certificate template to a request (used to support the enterprise <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA)). This method was first defined by the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll2">ICEnroll2</a> interface.
 
 The <b>addCertTypeToRequest</b> method is an advanced topic that is associated with the Microsoft Certificate Services enterprise Policy Module. Its use is not recommended for most applications.
 
@@ -67,7 +67,7 @@ method
 
 ### -param CertType [in]
 
-The certificate template fully qualified name which is being added to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This value is interpreted by the certification authority.
+The certificate template fully qualified name which is being added to the <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>. This value is interpreted by the certification authority.
 
 ## -returns
 
@@ -77,4 +77,3 @@ The certificate template fully qualified name which is being added to the <a hre
 ## -remarks
 
 This method can be called multiple times if more than one certificate template is desired for the request.
-

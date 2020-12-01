@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-How a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> maps to or from XML when serialized
+How a <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> maps to or from XML when serialized
                 or deserialized.
 
 ## -enum-fields
@@ -155,6 +155,5 @@ WsReadType(..., WS_ANY_ELEMENT_TYPE_MAPPING, ...)</code></pre>
 
 ## -remarks
 
-See the documentation for each <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> 
+See the documentation for each <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> 
                 for which <b>WS_TYPE_MAPPING</b> values are supported.
-

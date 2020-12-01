@@ -69,5 +69,4 @@ When a share root or directory tree is suspended, all directories and files cont
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessuspend">IOfflineFilesSuspend</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessuspend">IOfflineFilesSuspend</a>

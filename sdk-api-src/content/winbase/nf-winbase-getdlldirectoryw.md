@@ -75,13 +75,13 @@ If the function succeeds, the return value is the length of the string copied to
        the path.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0502 
     or later. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+    <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -92,9 +92,8 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Dlls/dynamic-link-library-search-order">Dynamic-Link Library Search Order</a>
+<a href="/windows/desktop/Dlls/dynamic-link-library-search-order">Dynamic-Link Library Search Order</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setdlldirectorya">SetDllDirectory</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setdlldirectorya">SetDllDirectory</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the behavior mode of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object and the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
+Specifies the behavior mode of the <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object and the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control.
 
 ## -enum-fields
 
@@ -68,25 +68,24 @@ The object or control is in selection and editing mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode">EditingMode Property [InkPicture Control</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode">EditingMode Property [InkPicture Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode">EraserMode Property [InkPicture Control]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode">EraserMode Property [InkPicture Control]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth">EraserWidth Property [InkPicture Control]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth">EraserWidth Property [InkPicture Control]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
+<a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayerasermode">InkOverlayEraserMode Enumeration</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayerasermode">InkOverlayEraserMode Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture Control Reference</a>
-
+<a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture Control Reference</a>

@@ -45,6 +45,7 @@ api_name:
  - TranslateName
  - TranslateNameA
  - TranslateNameW
+req.apiset: ext-ms-win-secur32-translatename-l1-1-0 (introduced in Windows 8)
 ---
 
 # TranslateNameW function
@@ -63,12 +64,12 @@ The name to be translated.
 ### -param AccountNameFormat [in]
 
 The format of the name to be translated. This parameter is a value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/secext/ne-secext-extended_name_format">EXTENDED_NAME_FORMAT</a> enumeration type.
+<a href="/windows/desktop/api/secext/ne-secext-extended_name_format">EXTENDED_NAME_FORMAT</a> enumeration type.
 
 ### -param DesiredNameFormat [in]
 
 The format of the converted name. This parameter is a value from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/secext/ne-secext-extended_name_format">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be NameUnknown.
+<a href="/windows/desktop/api/secext/ne-secext-extended_name_format">EXTENDED_NAME_FORMAT</a> enumeration type. It cannot be NameUnknown.
 
 ### -param lpTranslatedName [out]
 
@@ -90,7 +91,7 @@ If the <i>lpTranslatedName</i> buffer is too small to hold the converted name, t
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -105,17 +106,16 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/computer-names">Computer Names</a>
+<a href="/windows/desktop/SysInfo/computer-names">Computer Names</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dscracknamesa">DsCrackNames</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/secext/ne-secext-extended_name_format">EXTENDED_NAME_FORMAT</a>
+<a href="/windows/desktop/api/secext/ne-secext-extended_name_format">EXTENDED_NAME_FORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
-
+<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>

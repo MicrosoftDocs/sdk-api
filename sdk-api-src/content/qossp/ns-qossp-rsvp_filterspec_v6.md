@@ -60,7 +60,7 @@ The <b>RSVP_FILTERSPEC_V6</b> structure  stores information for a FILTERSPEC on 
 
 ### -field Address
 
-IPv4 address for which the FILTERSPEC applies, expressed as an <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-in_addr_ipv6">IN_ADDR_IPV6</a> structure.
+IPv4 address for which the FILTERSPEC applies, expressed as an <a href="/windows/desktop/api/qossp/ns-qossp-in_addr_ipv6">IN_ADDR_IPV6</a> structure.
 
 ### -field UnUsed
 
@@ -74,13 +74,12 @@ Reserved. Set to zero.
 
 ## -remarks
 
-When working with IPv4 addresses, use <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v4">RSVP_FILTERSPEC_V4</a>.
+When working with IPv4 addresses, use <a href="/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v4">RSVP_FILTERSPEC_V4</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-in_addr_ipv6">IN_ADDR_IPV6</a>
+<a href="/windows/desktop/api/qossp/ns-qossp-in_addr_ipv6">IN_ADDR_IPV6</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v4">RSVP_FILTERSPEC_V4</a>
-
+<a href="/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v4">RSVP_FILTERSPEC_V4</a>

@@ -94,7 +94,7 @@ Activates the window and displays it in its current size and position.
 
 #### SW_SHOWDEFAULT
 
-Sets the show state based on the information specified in the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure passed to the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function that started the application. An application should call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> with this flag to set the initial visual state of its main window.
+Sets the show state based on the information specified in the <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure passed to the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function that started the application. An application should call <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> with this flag to set the initial visual state of its main window.
 
 
 
@@ -137,4 +137,3 @@ Default state. Activates and displays a window. If the window is minimized or ma
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

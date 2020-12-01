@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>SetReceiveStreamSamples</b> method specifies whether stream samples are delivered to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-onstreamsample">IWMReaderCallbackAdvanced::OnStreamSample</a> callback.
+The <b>SetReceiveStreamSamples</b> method specifies whether stream samples are delivered to the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadercallbackadvanced-onstreamsample">IWMReaderCallbackAdvanced::OnStreamSample</a> callback.
 
 ## -parameters
 
@@ -114,7 +114,7 @@ No callback interface has been specified.
 </dl>
 </td>
 <td width="60%">
-Attempted read on a file protected by <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">DRM</a>.
+Attempted read on a file protected by <a href="/windows/desktop/wmformat/wmformat-glossary">DRM</a>.
 
 </td>
 </tr>
@@ -124,13 +124,12 @@ Attempted read on a file protected by <a href="https://docs.microsoft.com/window
 
 Stream samples are samples received directly from the source file, and are not decompressed. If you receive compressed samples, you must either keep them compressed, or decompress them with your application. The Windows Media Format SDK does not provide methods to decompress samples once they have been removed from a file.
 
-The application can register itself to receive samples directly from the Windows Media streams rather than letting the reader decompress them first. To do this, the object implementing <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback">IWMReaderCallback</a> (supplied by the application) must support <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced</a>. To determine which streams are in an ASF file, and what their stream numbers are, call <b>QueryInterface</b> using the reader object to access the <a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface, and examine the streams in the profile.
+The application can register itself to receive samples directly from the Windows Media streams rather than letting the reader decompress them first. To do this, the object implementing <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback">IWMReaderCallback</a> (supplied by the application) must support <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced</a>. To determine which streams are in an ASF file, and what their stream numbers are, call <b>QueryInterface</b> using the reader object to access the <a href="/windows/desktop/wmformat/iwmprofile">IWMProfile</a> interface, and examine the streams in the profile.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getreceivestreamsamples">IWMReaderAdvanced::GetReceiveStreamSamples</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getreceivestreamsamples">IWMReaderAdvanced::GetReceiveStreamSamples</a>

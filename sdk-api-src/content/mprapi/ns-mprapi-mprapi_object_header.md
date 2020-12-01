@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The [RAS_UPDATE_CONNECTION](https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection), <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-auth_validation_ex">AUTH_VALIDATION_EX</a> structures,  and the structure version used by the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionenumex">MprAdminConnectionEnumEx</a> method.
+The [RAS_UPDATE_CONNECTION](/windows/desktop/api/mprapi/ns-mprapi-ras_update_connection), <a href="/windows/desktop/api/mprapi/ns-mprapi-auth_validation_ex">AUTH_VALIDATION_EX</a> structures,  and the structure version used by the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionenumex">MprAdminConnectionEnumEx</a> method.
 
 ## -struct-fields
 
@@ -74,7 +74,7 @@ A value that represents the version of the structure specified by <b>type</b>. P
 </dl>
 </td>
 <td width="60%">
-Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT</b>.
+Represents version 1 of the <a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT</b>.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_ex0">MPR_SERVER_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_MPR_SERVER_OBJECT</b>.
+Represents version 1 of the <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_ex0">MPR_SERVER_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_MPR_SERVER_OBJECT</b>.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/
 </dl>
 </td>
 <td width="60%">
-Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT</b>.
+Represents version 1 of the <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_set_config_ex0">MPR_SERVER_SET_CONFIG_EX</a> structure if <b>type</b> is <b>MPRAPI_OBJECT_TYPE_MPR_SERVER_SET_CONFIG_OBJECT</b>.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Represents version 1 of the <a href="https://docs.microsoft.com/windows/desktop/
 
 #### type
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-mprapi_object_type">MPRAPI_OBJECT_TYPE</a> enumeration that specifies the structure type.
+A value from the <a href="/windows/desktop/api/mprapi/ne-mprapi-mprapi_object_type">MPRAPI_OBJECT_TYPE</a> enumeration that specifies the structure type.
 
 
 
@@ -121,9 +121,8 @@ The size, in bytes,  of the structure based on <b>type</b> and <b>revision</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
-
+<a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>

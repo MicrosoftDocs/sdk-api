@@ -54,9 +54,9 @@ api_name:
 
 Removes the last element in a path string, whether that element is a file name or a directory name. The element's leading backslash is also removed.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremovefilespeca">PathRemoveFileSpec</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathremovefilespeca">PathRemoveFileSpec</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
-<div class="alert"><b>Note</b>This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathremovefilespeca">PathRemoveFileSpec</a> to prevent the possibility of a buffer overrun.</div>
+<div class="alert"><b>Note</b>This function should be used in place of <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathremovefilespeca">PathRemoveFileSpec</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
 
@@ -102,4 +102,3 @@ The following table shows the effect of this function on a selection of path str
 <td>"\"</td>
 </tr>
 </table>
-

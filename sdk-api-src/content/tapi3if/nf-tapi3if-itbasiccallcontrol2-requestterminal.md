@@ -62,17 +62,17 @@ The terminal class required for the call.
 ### -param lMediaType [in]
 
 Bitwise ORed list of 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media types</a> required for the call.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media types</a> required for the call.
 
 ### -param Direction [in]
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a> descriptor for the terminal.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a> descriptor for the terminal.
 
 ### -param ppTerminal [out]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface.
 
 ## -returns
 
@@ -81,14 +81,13 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The <b>AddRef</b> method is automatically called on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface returned by this method. The application must call the <b>Release</b> method on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface returned by this method. The application must call the <b>Release</b> method on the 
 <b>ITTerminal</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol2">ITBasicCallControl2</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol2">ITBasicCallControl2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>

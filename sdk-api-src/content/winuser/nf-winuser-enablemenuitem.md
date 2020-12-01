@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
  - EnableMenuItem
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # EnableMenuItem function
@@ -150,9 +151,9 @@ An application must use the <b>MF_BYPOSITION</b> flag to specify the correct men
 
 When an application specifies the <b>MF_BYCOMMAND</b> flag, the system checks all items that open submenus in the menu identified by the specified menu handle. Therefore, unless duplicate menu items are present, specifying the menu handle to the menu bar is sufficient. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadmenuindirecta">LoadMenuIndirect</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-modifymenua">ModifyMenu</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a> functions can also set the state (enabled, disabled, or grayed) of a menu item.
+The <a href="/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a>, <a href="/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>, <a href="/windows/desktop/api/winuser/nf-winuser-loadmenuindirecta">LoadMenuIndirect</a>, <a href="/windows/desktop/api/winuser/nf-winuser-modifymenua">ModifyMenu</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a> functions can also set the state (enabled, disabled, or grayed) of a menu item.
 
-When you change a window menu, the menu bar is not immediately updated. To force the update, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>.
+When you change a window menu, the menu bar is not immediately updated. To force the update, call <a href="/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>.
 
 ## -see-also
 
@@ -160,31 +161,31 @@ When you change a window menu, the menu bar is not immediately updated. To force
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuitemid">GetMenuItemID</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenuitemid">GetMenuItemID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadmenuindirecta">LoadMenuIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadmenuindirecta">LoadMenuIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-modifymenua">ModifyMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-modifymenua">ModifyMenu</a>
 
 
 
@@ -192,9 +193,8 @@ When you change a window menu, the menu bar is not immediately updated. To force
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
-
+<a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>

@@ -86,7 +86,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-Argument is invalid. Must be in range given by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_treblerange">IAMAudioInputMixer::get_TrebleRange</a>.
+Argument is invalid. Must be in range given by <a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_treblerange">IAMAudioInputMixer::get_TrebleRange</a>.
 
 </td>
 </tr>
@@ -98,13 +98,12 @@ This method boosts or cuts the signal's treble by a specified number of decibels
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_treble">IAMAudioInputMixer::get_Treble</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_treble">IAMAudioInputMixer::get_Treble</a>

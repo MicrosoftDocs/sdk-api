@@ -50,18 +50,17 @@ api_name:
 
 ## -description
 
-Retrieves the handle to the tab control of a property sheet. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-gettabcontrol">PSM_GETTABCONTROL</a> message explicitly.
+Retrieves the handle to the tab control of a property sheet. You can use this macro or send the <a href="/windows/desktop/Controls/psm-gettabcontrol">PSM_GETTABCONTROL</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This macro is not supported when using the Aero wizard style (<a href="/windows/desktop/api/prsht/ns-prsht-propsheetheadera_v2">PSH_AEROWIZARD</a>).</div>
 <div> </div>
-

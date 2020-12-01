@@ -74,9 +74,8 @@ The following scenario illustrates the functionality of this method:
 <li>Base process 2 uses that reference to call into object X.</li>
 <li>Object X then calls into object Y, running on server C. If object Y then calls <b>GetOriginalCallerName</b>, the name of user D is returned, not user A, who originally created the object.</li>
 </ol>
-The path to the original caller is broken if any object along the chain was created by some other means than <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-createinstance">ObjectContext::CreateInstance</a> or <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-createinstance">ITransactionContext::CreateInstance</a>. For example, if base process 1 uses <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> to create object X, when object Y calls <b>GetOriginalCallerName</b>, the name it gets back will be the name of user B, not user D. This is because the call sequence is traced back through the objects' context and COM+ can create a context only for an object that is created with either <b>ObjectContext::CreateInstance</b> or <b>ITransactionContext::CreateInstance</b>.
+The path to the original caller is broken if any object along the chain was created by some other means than <a href="/windows/desktop/api/comsvcs/nf-comsvcs-objectcontext-createinstance">ObjectContext::CreateInstance</a> or <a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontext-createinstance">ITransactionContext::CreateInstance</a>. For example, if base process 1 uses <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> to create object X, when object Y calls <b>GetOriginalCallerName</b>, the name it gets back will be the name of user B, not user D. This is because the call sequence is traced back through the objects' context and COM+ can create a context only for an object that is created with either <b>ObjectContext::CreateInstance</b> or <b>ITransactionContext::CreateInstance</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-securityproperty">SecurityProperty</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-securityproperty">SecurityProperty</a>

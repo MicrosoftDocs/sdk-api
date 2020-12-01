@@ -56,7 +56,7 @@ api_name:
 
 The
 				<b>USER_INFO_1020</b> structure contains the times during which a user can log on to the network. This information level is valid only when you call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> function.
 
 ## -struct-fields
 
@@ -68,8 +68,8 @@ Specifies a <b>DWORD</b> value that indicates the number of equal-length time un
 
 
 This value must be UNITS_PER_WEEK for LAN Manager 2.0. Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member.
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> and 
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member.
 
 For service applications, the units must be one of the following values: SAM_DAYS_PER_WEEK, SAM_HOURS_PER_WEEK, or SAM_MINUTES_PER_WEEK.
 
@@ -85,17 +85,16 @@ Each bit in the string represents a unique hour in the week, in Greenwich Mean T
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/user-functions">User Functions</a>
-
+<a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>

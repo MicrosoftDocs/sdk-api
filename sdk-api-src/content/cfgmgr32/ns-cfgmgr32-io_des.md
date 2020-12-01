@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The IO_DES structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
+The IO_DES structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the [IO_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range) array that is included in the [IO_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource) structure.
+The number of elements in the [IO_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range) array that is included in the [IO_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource) structure.
 
 ### -field IOD_Type
 
@@ -214,9 +214,8 @@ Bitmask for the bits within <b>IOD_DesFlags</b> that specify the decode value.
 
 ## -see-also
 
-[IO_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range)
+[IO_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_range)
 
 
 
-[IO_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)
-
+[IO_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)

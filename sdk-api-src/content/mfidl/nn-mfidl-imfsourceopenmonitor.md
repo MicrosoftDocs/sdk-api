@@ -55,7 +55,7 @@ Callback interface to receive notifications from a network source on the progres
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceOpenMonitor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceOpenMonitor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceOpenMonitor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFSourceOpenMonitor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFSourceOpenMonitor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsourceopenmonitor-onsourceevent">OnSourceEvent</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsourceopenmonitor-onsourceevent">OnSourceEvent</a>
 </td>
 <td align="left" width="63%">
 Called by the network source when the open operation begins or ends.
@@ -81,9 +81,8 @@ Called by the network source when the open operation begins or ends.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-get-events-from-the-network-source">How to Get Events from the Network Source</a>
+<a href="/windows/desktop/medfound/how-to-get-events-from-the-network-source">How to Get Events from the Network Source</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

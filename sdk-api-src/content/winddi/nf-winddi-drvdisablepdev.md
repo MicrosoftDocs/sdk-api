@@ -50,29 +50,28 @@ api_name:
 
 ## -description
 
-The <b>DrvDisablePDEV</b> function is used by GDI to notify a driver that the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> is no longer needed.
+The <b>DrvDisablePDEV</b> function is used by GDI to notify a driver that the specified <a href="/windows-hardware/drivers/">PDEV</a> is no longer needed.
 
 ## -parameters
 
 ### -param dhpdev
 
-Handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> of the physical device to be disabled. This value is the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
+Handle to the <a href="/windows-hardware/drivers/">PDEV</a> of the physical device to be disabled. This value is the handle returned by <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 ## -remarks
 
-If the physical device has an enabled surface, GDI calls <b>DrvDisablePDEV</b> after calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdisablesurface">DrvDisableSurface</a>. The driver should free any memory and resources used by the PDEV.
+If the physical device has an enabled surface, GDI calls <b>DrvDisablePDEV</b> after calling <a href="/windows/desktop/api/winddi/nf-winddi-drvdisablesurface">DrvDisableSurface</a>. The driver should free any memory and resources used by the PDEV.
 
 <b>DrvDisablePDEV</b> is required for graphics drivers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdisablesurface">DrvDisableSurface</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvdisablesurface">DrvDisableSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>

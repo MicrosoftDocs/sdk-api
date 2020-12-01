@@ -60,10 +60,9 @@ This property is read/write.
 
 ## -remarks
 
-If you specify a value of XCN_AT_SIGNATURE, the <b>KeySpec</b> property automatically sets the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyusage">KeyUsage</a> property to XCN_NCRYPT_ALLOW_SIGNING_FLAG. If you specify XCN_AT_KEYEXCHANGE, the <b>KeyUsage</b> property is set to XCN_NCRYPT_ALLOW_DECRYPT_FLAG |
+If you specify a value of XCN_AT_SIGNATURE, the <b>KeySpec</b> property automatically sets the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_keyusage">KeyUsage</a> property to XCN_NCRYPT_ALLOW_SIGNING_FLAG. If you specify XCN_AT_KEYEXCHANGE, the <b>KeyUsage</b> property is set to XCN_NCRYPT_ALLOW_DECRYPT_FLAG |
 				 XCN_NCRYPT_ALLOW_KEY_AGREEMENT_FLAG. The <b>KeySpec</b> property only applies to [legacy] providers created by using CryptoAPI.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

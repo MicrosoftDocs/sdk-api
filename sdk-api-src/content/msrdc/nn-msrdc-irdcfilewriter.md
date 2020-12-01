@@ -52,11 +52,11 @@ api_name:
 
 Abstract interface to read from and write to a file.
 
-The RDC application must implement this interface for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarityfileidtable-createtableindirect">ISimilarityFileIdTable::CreateTableIndirect</a>. Note that this interface does not include methods to open, close, or flush the file to disk. The application is responsible for properly opening and closing the file represented by an instance of this interface.
+The RDC application must implement this interface for use with <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilarityfileidtable-createtableindirect">ISimilarityFileIdTable::CreateTableIndirect</a>. Note that this interface does not include methods to open, close, or flush the file to disk. The application is responsible for properly opening and closing the file represented by an instance of this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcFileWriter</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilereader">IRdcFileReader</a>. <b>IRdcFileWriter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRdcFileWriter</b> interface inherits from <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> and <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilereader">IRdcFileReader</a>. <b>IRdcFileWriter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IRdcFileWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilewriter-deleteonclose">DeleteOnClose</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilewriter-deleteonclose">DeleteOnClose</a>
 </td>
 <td align="left" width="63%">
 Sets a file to be deleted (or truncated) on close.
@@ -80,7 +80,7 @@ Sets a file to be deleted (or truncated) on close.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilewriter-truncate">Truncate</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilewriter-truncate">Truncate</a>
 </td>
 <td align="left" width="63%">
 Truncates a file to zero length.
@@ -89,7 +89,7 @@ Truncates a file to zero length.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilewriter-write">Write</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-irdcfilewriter-write">Write</a>
 </td>
 <td align="left" width="63%">
 Write bytes to a file starting at a given offset.
@@ -100,9 +100,8 @@ Write bytes to a file starting at a given offset.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilereader">IRdcFileReader</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilereader">IRdcFileReader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

@@ -60,19 +60,19 @@ A string that contains the BSTR XML GMMP profile. This is little-endian Unicode 
 
 ### -param pSrcPlugIn [in]
 
-A pointer to a source <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>. If <b>NULL</b>, it indicates the source device model profile is not a plug-in profile.
+A pointer to a source <a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>. If <b>NULL</b>, it indicates the source device model profile is not a plug-in profile.
 
 ### -param pDestPlugIn [in]
 
-A pointer to a destination <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>. If <b>NULL</b>, it indicates the destination device model profile is not a plug-in profile.
+A pointer to a destination <a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>. If <b>NULL</b>, it indicates the destination device model profile is not a plug-in profile.
 
 ### -param pSrcGBD [in]
 
-A pointer to a source <a href="https://docs.microsoft.com/windows/desktop/api/wcsplugin/ns-wcsplugin-gamutboundarydescription">GamutBoundaryDescription</a>.
+A pointer to a source <a href="/windows/desktop/api/wcsplugin/ns-wcsplugin-gamutboundarydescription">GamutBoundaryDescription</a>.
 
 ### -param pDestGBD [in]
 
-A pointer to a destination <a href="https://docs.microsoft.com/windows/desktop/api/wcsplugin/ns-wcsplugin-gamutboundarydescription">GamutBoundaryDescription</a>.
+A pointer to a destination <a href="/windows/desktop/api/wcsplugin/ns-wcsplugin-gamutboundarydescription">GamutBoundaryDescription</a>.
 
 ## -returns
 
@@ -82,9 +82,8 @@ If this function fails, the return value is E_FAIL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-igamutmapmodelplugin">IGamutMapModelPlugIn</a>
-
+<a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-igamutmapmodelplugin">IGamutMapModelPlugIn</a>

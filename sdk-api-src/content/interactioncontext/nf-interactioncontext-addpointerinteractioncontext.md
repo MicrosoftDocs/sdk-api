@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Include  the specified pointer in the set of pointers processed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Include  the specified pointer in the set of pointers processed by the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 ## -parameters
 
 ### -param interactionContext [in]
 
-Handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Handle to the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 ### -param pointerId [in]
 
@@ -72,21 +72,20 @@ Otherwise, it returns an HRESULT error code.
 
 ## -remarks
 
-Turn pointer filtering on by setting INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext">SetPropertyInteractionContext</a>.
+Turn pointer filtering on by setting INTERACTION_CONTEXT_PROPERTY_FILTER_POINTERS in <a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext">SetPropertyInteractionContext</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getpropertyinteractioncontext">GetPropertyInteractionContext</a>
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-getpropertyinteractioncontext">GetPropertyInteractionContext</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-removepointerinteractioncontext">RemovePointerInteractionContext</a>
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-removepointerinteractioncontext">RemovePointerInteractionContext</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext">SetPropertyInteractionContext</a>
-
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setpropertyinteractioncontext">SetPropertyInteractionContext</a>

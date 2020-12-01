@@ -123,7 +123,7 @@ The following folder paths are replaced by their equivalent environment string.
 </table>
  
 
-<div class="alert"><b>Note</b>  %APPDATA% and %USERPROFILE% are relative to the user making the call. This function does not work if the user is being impersonated from a service. For further discussion of access control issues, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>.</div>
+<div class="alert"><b>Note</b>  %APPDATA% and %USERPROFILE% are relative to the user making the call. This function does not work if the user is being impersonated from a service. For further discussion of access control issues, see <a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>.</div>
 <div> </div>
 The environment variables listed in the above table might not all be set on all systems. If an environment variable is not set, it is not unexpanded.
 
@@ -136,5 +136,4 @@ The environment variables listed in the above table might not all be set on all 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-doenvironmentsubsta">DoEnvironmentSubst</a>
-
+<a href="/windows/desktop/api/shellapi/nf-shellapi-doenvironmentsubsta">DoEnvironmentSubst</a>

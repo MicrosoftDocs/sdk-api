@@ -90,9 +90,8 @@ If this method is called from a Windows Media Player ActiveX control embedded in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer4">IWMPPlayer4 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer4">IWMPPlayer4 Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf5a77c5-298e-48de-80cd-d7ecd9e74323">IWMPPlayerAppication::switchToPlayerApplication</a>
-
+<a href="/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerapplication-switchtoplayerapplication">IWMPPlayerAppication::switchToPlayerApplication</a>

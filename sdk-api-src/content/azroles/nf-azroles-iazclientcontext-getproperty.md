@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>GetProperty</b> method returns the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a> object property  with the specified property ID.
 
 ## -parameters
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -80,7 +80,7 @@ Determines whether the current user has permission to create child objects. This
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_roleforaccesscheck">RoleForAccessCheck</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_roleforaccesscheck">RoleForAccessCheck</a> property
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_usercanonical">UserCanonical</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_usercanonical">UserCanonical</a> property
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userdisplay">UserDisplay</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userdisplay">UserDisplay</a> property
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userdn">UserDn</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userdn">UserDn</a> property
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userdnssamcompat">UserDnsSamCompat</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userdnssamcompat">UserDnsSamCompat</a> property
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userguid">UserGuid</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userguid">UserGuid</a> property
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_usersamcompat">UserSamCompat</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_usersamcompat">UserSamCompat</a> property
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userupn">UserUpn</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_userupn">UserUpn</a> property
 
 </td>
 </tr>
@@ -162,9 +162,8 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a> object property.
+A pointer to the returned <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext">IAzClientContext</a> object property.
 
 ## -returns
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
-

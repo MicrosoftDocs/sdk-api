@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO</b> structure is used with previously distributed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">symmetric keys</a> for decrypting the content key encryption key (KEK).
+The <b>CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO</b> structure is used with previously distributed <a href="/windows/desktop/SecGloss/s-gly">symmetric keys</a> for decrypting the content key encryption key (KEK).
 
 ## -struct-fields
 
@@ -65,7 +65,7 @@ The size, in bytes, of this data structure.
 ### -field KeyEncryptionAlgorithm
 
 A 
-						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that indicates the encryption algorithm used.
+						<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that indicates the encryption algorithm used.
 
 ### -field pvKeyEncryptionAuxInfo
 
@@ -73,7 +73,7 @@ A pointer to a structure that contains any additional encryption information.
 
 ### -field hCryptProv
 
-The provider used to do the recipient key encryption and export. If <b>NULL</b>, the provider specified in <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> is used.
+The provider used to do the recipient key encryption and export. If <b>NULL</b>, the provider specified in <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_enveloped_encode_info">CMSG_ENVELOPED_ENCODE_INFO</a> is used.
 
 ### -field dwKeyChoice
 
@@ -91,7 +91,7 @@ A pointer to a void. Reserved for a future potential pointer choice.
 
 ### -field KeyId
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> key identifier of the key-encryption key that was previously distributed to the message sender and one or more recipients.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> key identifier of the key-encryption key that was previously distributed to the message sender and one or more recipients.
 
 ### -field Date
 
@@ -100,5 +100,4 @@ Optional <b>FILETIME</b> value. When present, specifies a single key encryption 
 ### -field pOtherAttr
 
 Optional pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a> structure that contains encryption attributes.
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a> structure that contains encryption attributes.

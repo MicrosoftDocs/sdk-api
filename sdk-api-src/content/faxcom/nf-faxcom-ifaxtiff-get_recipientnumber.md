@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves the <b>RecipientNumber</b> property for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxtiff">FaxTiff</a> object. The <b>RecipientNumber</b> property is a null-terminated string that contains the fax number to which a fax was transmitted.
+Retrieves the <b>RecipientNumber</b> property for a <a href="/previous-versions/windows/desktop/fax/-mfax-faxtiff">FaxTiff</a> object. The <b>RecipientNumber</b> property is a null-terminated string that contains the fax number to which a fax was transmitted.
 
 This property is read-only.
 
@@ -59,37 +59,36 @@ This property is read-only.
 
 ## -remarks
 
-A fax client application must  set the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-image-vb">Image</a> property before retrieving another property for a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxtiff">FaxTiff</a> object.
+A fax client application must  set the <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-image-vb">Image</a> property before retrieving another property for a <a href="/previous-versions/windows/desktop/fax/-mfax-faxtiff">FaxTiff</a> object.
 
-The <b>RecipientNumber</b> property has meaning only for outbound fax transmissions. This is because the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-csid-vb">Csid</a> property and the <b>RecipientNumber</b> property are identical for inbound faxes.
+The <b>RecipientNumber</b> property has meaning only for outbound fax transmissions. This is because the <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-csid-vb">Csid</a> property and the <b>RecipientNumber</b> property are identical for inbound faxes.
 
 The <b>get_RecipientNumber</b> method sets the <i>pVal</i> parameter to the fax number of the fax recipient, if it is available. If the information is not available, the method returns "Unavailable".
 
 The <b>RecipientNumber</b> property is a string that represents the fax number of the fax recipient, if it is available. If the information is not available, <b>RecipientNumber</b> is an empty string.
 
-The <b>get_RecipientNumber</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
+The <b>get_RecipientNumber</b> method allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-freeing-fax-resources">Freeing Fax Resources</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxtiff">IFaxTiff</a>
+<a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxtiff">IFaxTiff</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-csid-vb">IFaxTiff::get_Csid</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-csid-vb">IFaxTiff::get_Csid</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-image-vb">IFaxTiff::get_Image</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-image-vb">IFaxTiff::get_Image</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>

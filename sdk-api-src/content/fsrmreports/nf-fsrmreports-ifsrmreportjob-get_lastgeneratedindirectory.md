@@ -64,15 +64,14 @@ If the reports failed, this is the path where the reports would have been stored
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/running-a-report-job">Running a Report Job</a>.
+For an example, see <a href="/previous-versions/windows/desktop/fsrm/running-a-report-job">Running a Report Job</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setoutputdirectory">IFsrmReportManager::SetOutputDirectory</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setoutputdirectory">IFsrmReportManager::SetOutputDirectory</a>

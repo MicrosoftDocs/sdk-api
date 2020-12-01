@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Effect::GetAuxDataSize</b> method gets the size, in bytes, of the auxiliary data created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.
+The <b>Effect::GetAuxDataSize</b> method gets the size, in bytes, of the auxiliary data created by a previous call to the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.
 
 ## -parameters
 
@@ -63,9 +63,8 @@ This method returns the size, in bytes, of the auxiliary data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-effect">Effect</a>
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-effect">Effect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-effect-getauxdata">Effect::GetAuxData</a>
-
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-effect-getauxdata">Effect::GetAuxData</a>

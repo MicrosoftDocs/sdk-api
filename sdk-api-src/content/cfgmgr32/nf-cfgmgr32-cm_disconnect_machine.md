@@ -58,7 +58,7 @@ The <b>CM_Disconnect_Machine</b> function removes a connection to a remote machi
 
 ### -param hMachine [in, optional]
 
-Caller-supplied machine handle, obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
+Caller-supplied machine handle, obtained from a previous call to <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -70,4 +70,3 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 ## -remarks
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
-

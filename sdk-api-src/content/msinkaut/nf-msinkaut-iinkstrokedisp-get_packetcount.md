@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets the number of packets received for an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object.
+Gets the number of packets received for an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> object.
 
 
 
@@ -63,9 +63,8 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdata">GetPacketData Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdata">GetPacketData Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>

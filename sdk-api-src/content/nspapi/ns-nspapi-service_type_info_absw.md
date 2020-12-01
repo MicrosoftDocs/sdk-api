@@ -64,18 +64,18 @@ The
 ### -field lpTypeName
 
 Pointer to a zero-terminated string that is the name of the network service type. This name is the same in all namespaces, and is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-gettypebynamea">GetTypeByName</a> and 
+<a href="/windows/desktop/api/nspapi/nf-nspapi-gettypebynamea">GetTypeByName</a> and 
 <b>GetNameByType</b> functions.
 
 ### -field dwValueCount
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures in the <b>Values</b> member array that follows <b>dwValueCount</b>.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures in the <b>Values</b> member array that follows <b>dwValueCount</b>.
 
 ### -field Values
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures. 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures. 
 
 
 
@@ -83,16 +83,16 @@ Array of
 Each of these structures contains information about a service type value that the operating system or network service may need when an instance of this network service type is registered with a namespace.
 
 The information in these structures may be specific to a namespace. For example, if a network service uses the SAP namespace, but does not have a <b>GUID</b> that contains the SAP identifier (SAPID), it defines the SAPID in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structure.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structure.
 
 ## -remarks
 
 When you use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a> function to add a network service type to a namespace, the 
+<a href="/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a> function to add a network service type to a namespace, the 
 <b>SERVICE_TYPE_INFO_ABS</b> structure is passed as the <b>ServiceSpecificInfo</b> BLOB member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure. Although the <b>ServiceSpecificInfo</b> member generally should not contain pointers, an exception is made in the case of the 
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a> structure. Although the <b>ServiceSpecificInfo</b> member generally should not contain pointers, an exception is made in the case of the 
 <b>SERVICE_TYPE_INFO_ABS</b> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures.
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a> structures.
 
 
 
@@ -103,13 +103,12 @@ When you use the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a>
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_type_value_absa">SERVICE_TYPE_VALUE_ABS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a>
-
+<a href="/windows/desktop/api/nspapi/nf-nspapi-setservicea">SetService</a>

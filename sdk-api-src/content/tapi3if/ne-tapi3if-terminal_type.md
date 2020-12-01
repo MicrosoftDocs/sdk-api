@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>TERMINAL_TYPE</b> enum describes the type of the terminal. This enum is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_terminaltype">ITTerminal::get_TerminalType</a> method.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_terminaltype">ITTerminal::get_TerminalType</a> method.
 
 ## -enum-fields
 
@@ -63,9 +63,8 @@ A static terminal is a terminal that cannot be created and usually refers to har
 ### -field TT_DYNAMIC
 
 A terminal type that can be created. The application must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal">ITTerminalSupport::CreateTerminal</a> to use this type of terminal.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminalsupport-createterminal">ITTerminalSupport::CreateTerminal</a> to use this type of terminal.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_terminaltype">ITTerminal::get_TerminalType</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itterminal-get_terminaltype">ITTerminal::get_TerminalType</a>

@@ -52,7 +52,7 @@ api_name:
 
 A constructor for <code>XMFLOAT3SE</code>.
 
-A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a>.
+A constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a>.
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
@@ -66,7 +66,6 @@ A value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat3se-ctor">XMFLOAT3SE Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmfloat3se-ctor">XMFLOAT3SE Constructors</a>

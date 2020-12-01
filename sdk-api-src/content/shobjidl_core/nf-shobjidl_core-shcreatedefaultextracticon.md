@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - SHCreateDefaultExtractIcon
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SHCreateDefaultExtractIcon function
@@ -52,7 +53,7 @@ api_name:
 
 ## -description
 
-Creates a standard icon extractor, whose defaults can be further configured via the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultextracticoninit">IDefaultExtractIconInit</a> interface.
+Creates a standard icon extractor, whose defaults can be further configured via the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultextracticoninit">IDefaultExtractIconInit</a> interface.
 
 ## -parameters
 
@@ -66,7 +67,7 @@ A reference to interface ID.
 
 Type: <b>void**</b>
 
-The address of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultextracticoninit">IDefaultExtractIconInit</a> interface pointer.
+The address of <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idefaultextracticoninit">IDefaultExtractIconInit</a> interface pointer.
 
 ## -returns
 
@@ -116,4 +117,3 @@ HRESULT hr = SHCreateDefaultExtractIcon(IID_PPV_ARGS(&pdxi);
 
 }
 ```
-

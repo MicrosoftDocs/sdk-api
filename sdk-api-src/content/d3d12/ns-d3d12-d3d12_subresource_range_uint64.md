@@ -64,9 +64,8 @@ A memory range within the subresource.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint">AtomicCopyBufferUINT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint64">AtomicCopyBufferUINT64</a> methods.
+This structure is used by the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint">AtomicCopyBufferUINT</a> and <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint64">AtomicCopyBufferUINT64</a> methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

@@ -57,7 +57,7 @@ Sends a message to the video presenter. Messages are used to signal the presente
 
 ### -param eMessage [in]
 
-Specifies the message as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/evr/ne-evr-mfvp_message_type">MFVP_MESSAGE_TYPE</a> enumeration.
+Specifies the message as a member of the <a href="/windows/desktop/api/evr/ne-evr-mfvp_message_type">MFVP_MESSAGE_TYPE</a> enumeration.
 
 ### -param ulParam [in]
 
@@ -98,9 +98,8 @@ The video renderer has been shut down.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
+<a href="/windows/desktop/medfound/how-to-write-an-evr-presenter">How to Write an EVR Presenter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a>
-
+<a href="/windows/desktop/api/evr/nn-evr-imfvideopresenter">IMFVideoPresenter</a>

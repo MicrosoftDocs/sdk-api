@@ -72,19 +72,18 @@ LINEERR_NOMEM, LINEERR_OPERATIONFAILED, LINEERR_OPERATIONUNAVAIL, LINEERR_RESOUR
 ## -remarks
 
 This function is called by TAPI in response to an application calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetnumrings">lineSetNumRings</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnewcalls">lineGetNewCalls</a>. TAPI uses the retrieved value to determine if the specified address identifier is within the range supported by the service provider.
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetnumrings">lineSetNumRings</a>, 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a>, or 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetnewcalls">lineGetNewCalls</a>. TAPI uses the retrieved value to determine if the specified address identifier is within the range supported by the service provider.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnewcalls">lineGetNewCalls</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetnewcalls">lineGetNewCalls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetnumrings">lineGetNumRings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetnumrings">lineSetNumRings</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetnumrings">lineSetNumRings</a>

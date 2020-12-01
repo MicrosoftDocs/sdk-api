@@ -56,7 +56,7 @@ Retrieves an attribute whose value is a size, expressed as a width and height.
 
 ### -param pAttributes [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
 
 ### -param guidKey [in]
 
@@ -80,9 +80,8 @@ Some attributes specify a size as a packed <b>UINT64</b> value. Use this functio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfsetattributesize">MFSetAttributeSize</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mfsetattributesize">MFSetAttributeSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

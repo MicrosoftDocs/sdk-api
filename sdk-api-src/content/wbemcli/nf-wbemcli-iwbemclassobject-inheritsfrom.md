@@ -70,13 +70,12 @@ Cannot be <b>NULL</b>. It contains the class name that is being tested. If the c
 
 ## -returns
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getpropertyorigin">GetPropertyOrigin</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getpropertyorigin">GetPropertyOrigin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>
-
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a>

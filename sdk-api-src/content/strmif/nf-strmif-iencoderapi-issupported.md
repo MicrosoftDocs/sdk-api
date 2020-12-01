@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a> is no longer available for use. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>.]
+<p class="CCE_Message">[<a href="/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI</a> is no longer available for use. Instead, use <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>.]
 
 The <b>IsSupported</b> method queries whether a given parameter is supported.
 
@@ -96,16 +96,15 @@ The encoder does not support the parameter.
 
 ## -remarks
 
-The method returns S_OK if the encoder recognizes the GUID. To check whether the parameter can be read or modified, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iencoderapi-isavailable">IEncoderAPI::IsAvailable</a> method.
+The method returns S_OK if the encoder recognizes the GUID. To check whether the parameter can be read or modified, call the <a href="/windows/desktop/api/strmif/nf-strmif-iencoderapi-isavailable">IEncoderAPI::IsAvailable</a> method.
       
 
 Any errors besides those in the table above indicate an inability to process the call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
+<a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iencoderapi">IEncoderAPI Interface</a>

@@ -56,19 +56,19 @@ Adds a new payload file to the app package.
 
 ### -param fileName [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 The name of the payload file. The file name path must be relative to the root of the package.
 
 ### -param contentType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 The string specifying the <a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html">content type</a> of  <i>fileName</i>.
 
 ### -param compressionOption [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_compression_option">APPX_COMPRESSION_OPTION</a></b>
+Type: <b><a href="/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_compression_option">APPX_COMPRESSION_OPTION</a></b>
 
 The type of compression to use  to store <i>fileName</i> in the package.
 
@@ -76,8 +76,8 @@ The type of compression to use  to store <i>fileName</i> in the package.
 
 Type: <b>IStream*</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> providing the contents of <i>fileName</i>.
-          The stream must support <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">Seek</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">Stat</a>.
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> providing the contents of <i>fileName</i>.
+          The stream must support <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>, <a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">Seek</a>, and <a href="/windows/desktop/api/objidl/nf-objidl-istream-stat">Stat</a>.
 
 ## -returns
 
@@ -97,7 +97,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error c
 </dl>
 </td>
 <td width="60%">
-The compression option specified by <i>compressionOption</i> is not one of the values of the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_compression_option">APPX_COMPRESSION_OPTION</a> enumeration.
+The compression option specified by <i>compressionOption</i> is not one of the values of the <a href="/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_compression_option">APPX_COMPRESSION_OPTION</a> enumeration.
 
 </td>
 </tr>
@@ -160,15 +160,14 @@ When the <b>AddPayloadFile</b> method succeeds the contents of the specified <i>
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/how-to-create-a-package">How to create an app  package</a>.
+For an example, see <a href="/windows/desktop/appxpkg/how-to-create-a-package">How to create an app  package</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_compression_option">APPX_COMPRESSION_OPTION</a>
+<a href="/windows/desktop/api/appxpackaging/ne-appxpackaging-appx_compression_option">APPX_COMPRESSION_OPTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter">IAppxPackageWriter</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter">IAppxPackageWriter</a>

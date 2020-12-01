@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Grants or denies access to a handle to a User object to a job that has a user-interface restriction. When access is granted, all processes associated with the job can subsequently recognize and use the handle. When access is denied, the processes can no longer use the handle. For more information see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/user-objects">User Objects</a>.
+<a href="/windows/desktop/SysInfo/user-objects">User Objects</a>.
 
 ## -parameters
 
@@ -62,8 +62,8 @@ A handle to the User object.
 ### -param hJob [in]
 
 A handle to the job to be granted access to the User handle. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openjobobjecta">OpenJobObject</a> function returns this handle.
+<a href="/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-openjobobjecta">OpenJobObject</a> function returns this handle.
 
 ### -param bGrant [in]
 
@@ -74,7 +74,7 @@ If this parameter is TRUE, all processes associated with the job can recognize a
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -82,25 +82,24 @@ The
 <b>UserHandleGrantAccess</b> function can be called only from a process not associated with the job specified by the <i>hJob</i> parameter. The User handle must not be owned by a process or thread associated with the job.
 
 To create user-interface restrictions, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function with the JobObjectBasicUIRestrictions job information class.
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a> function with the JobObjectBasicUIRestrictions job information class.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createjobobjecta">CreateJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/job-objects">Job Objects</a>
+<a href="/windows/desktop/ProcThread/job-objects">Job Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openjobobjecta">OpenJobObject</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openjobobjecta">OpenJobObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
-
+<a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>

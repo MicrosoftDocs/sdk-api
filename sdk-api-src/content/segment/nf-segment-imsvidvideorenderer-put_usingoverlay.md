@@ -81,9 +81,8 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_usingoverlay">IMSVidVideoRenderer::get_UsingOverlay</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_usingoverlay">IMSVidVideoRenderer::get_UsingOverlay</a>

@@ -80,26 +80,25 @@ Contains the CLSID of the property owner.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-serialize">ITextStoreACPServices::Serialize
+<a href="/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-serialize">ITextStoreACPServices::Serialize
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-unserialize">ITextStoreACPServices::Unserialize
+<a href="/windows/desktop/api/msctf/nf-msctf-itextstoreacpservices-unserialize">ITextStoreACPServices::Unserialize
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-serialize">ITfContextOwnerServices::Serialize
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-serialize">ITfContextOwnerServices::Serialize
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-unserialize">ITfContextOwnerServices::Unserialize
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownerservices-unserialize">ITfContextOwnerServices::Unserialize
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpersistentpropertyloaderacp-loadproperty">ITfPersistentPropertyLoaderACP::LoadProperty
+<a href="/windows/desktop/api/msctf/nf-msctf-itfpersistentpropertyloaderacp-loadproperty">ITfPersistentPropertyLoaderACP::LoadProperty
       </a>
-

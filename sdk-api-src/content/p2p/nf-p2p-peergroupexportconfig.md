@@ -56,7 +56,7 @@ The <b>PeerGroupExportConfig</b> function exports the group configuration for a 
 
 ### -param hGroup [in]
 
-Handle to the group. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
+Handle to the group. This handle is returned by the <a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
 
 ### -param pwzPassword [in]
 
@@ -112,11 +112,11 @@ Access to the identity or group keys is denied. Typically, this is caused by an 
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft Base Cryptographic Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 ## -remarks
 
-After being exported, this configuration can be passed out-of-band to another peer, where the configuration of the identity can be established. To import the configuration, pass  the XML string returned by this function with the password set on it to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupimportconfig">PeerGroupImportConfig</a>.
+After being exported, this configuration can be passed out-of-band to another peer, where the configuration of the identity can be established. To import the configuration, pass  the XML string returned by this function with the password set on it to <a href="/windows/desktop/api/p2p/nf-p2p-peergroupimportconfig">PeerGroupImportConfig</a>.
 
 The configuration XML string appears in the following format:
 
@@ -140,4 +140,3 @@ The configuration XML string appears in the following format:
     &lt;!-- base64/PKCS7 encoded GMC chain --&gt;
   &lt;/GMC&gt;
 &lt;/PEERGROUPCONFIG&gt;</code></pre>
-

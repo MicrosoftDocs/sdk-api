@@ -88,7 +88,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -111,6 +111,5 @@ Resilient File System (ReFS) | Yes
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
-* [Oplock Semantics](https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics)
-* [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks)
-
+* [Oplock Semantics](/windows-hardware/drivers/ifs/oplock-semantics)
+* [Opportunistic Locks](/windows/desktop/FileIO/opportunistic-locks)

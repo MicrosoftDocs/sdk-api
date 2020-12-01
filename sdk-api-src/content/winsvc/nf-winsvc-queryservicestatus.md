@@ -57,7 +57,7 @@ api_name:
 Retrieves the current status of the specified service.
 
 This function has been superseded by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a> function. 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a> function. 
 <b>QueryServiceStatusEx</b> returns the same information 
 <b>QueryServiceStatus</b> returns, with the addition of the process identifier and additional information for the service.
 
@@ -66,21 +66,21 @@ This function has been superseded by the
 ### -param hService [in]
 
 A handle to the service. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function, and it must have the SERVICE_QUERY_STATUS access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or the 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function, and it must have the SERVICE_QUERY_STATUS access right. For more information, see 
+<a href="/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
 ### -param lpServiceStatus [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status">SERVICE_STATUS</a> structure that receives the status information.
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_status">SERVICE_STATUS</a> structure that receives the status information.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes can be set by the service control manager. Other error codes can be set by the registry functions that are called by the service control manager.
 
@@ -120,33 +120,32 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-controlservice">ControlService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status">SERVICE_STATUS</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_status">SERVICE_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
+<a href="/windows/desktop/Services/service-functions">Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-startup">Service Startup</a>
+<a href="/windows/desktop/Services/service-startup">Service Startup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
-
+<a href="/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>

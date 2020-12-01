@@ -59,7 +59,7 @@ Frees a script cache.
 
 ### -param psc [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure.
+Pointer to the <a href="/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure.
 
 ## -returns
 
@@ -67,30 +67,29 @@ Returns 0 if successful. The function returns a nonzero HRESULT value if it does
 
 ## -remarks
 
-An application can free the script cache at any time, with certain limitations if the application is multi-threaded. Uniscribe maintains reference counts in its <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">font and shaper caches</a> and frees font data only when all sizes of the font are free. It frees shaper data only when all supported fonts are freed.
+An application can free the script cache at any time, with certain limitations if the application is multi-threaded. Uniscribe maintains reference counts in its <a href="/windows/desktop/Intl/caching">font and shaper caches</a> and frees font data only when all sizes of the font are free. It frees shaper data only when all supported fonts are freed.
 
 The application should free the script cache for a style when it discards that style.
 
 <b>ScriptFreeCache</b> always sets its parameter to <b>NULL</b> to help avoid misreferencing.
 
-Uniscribe functions are re-entrant. Cache creation is interlocked through a single process-wide semaphore. <b>ScriptFreeCache</b> should not be called at a time when another thread might be accessing the particular cache to free. For performance reasons, the cache is not locked during <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> or <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>.
+Uniscribe functions are re-entrant. Cache creation is interlocked through a single process-wide semaphore. <b>ScriptFreeCache</b> should not be called at a time when another thread might be accessing the particular cache to free. For performance reasons, the cache is not locked during <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> or <a href="/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>.
 
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>
+<a href="/windows/desktop/Intl/caching">Caching</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a>
+<a href="/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

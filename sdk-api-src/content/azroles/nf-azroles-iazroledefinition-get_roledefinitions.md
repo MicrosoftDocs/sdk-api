@@ -51,9 +51,8 @@ api_name:
 
 ## -description
 
-The <b>RoleDefinitions</b> property retrieves a collection of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a> objects associated with this <b>IAzRoleDefinition</b> object.
+The <b>RoleDefinitions</b> property retrieves a collection of the <a href="/windows/desktop/api/azroles/nn-azroles-iazroledefinition">IAzRoleDefinition</a> objects associated with this <b>IAzRoleDefinition</b> object.
 
 This property is read-only.
 
 ## -parameters
-

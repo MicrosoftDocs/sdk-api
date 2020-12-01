@@ -60,9 +60,8 @@ Handle of the chain engine to be freed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatechainengine">CertCreateCertificateChainEngine</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatechainengine">CertCreateCertificateChainEngine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>

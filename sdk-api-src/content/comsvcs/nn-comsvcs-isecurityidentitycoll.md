@@ -52,13 +52,13 @@ api_name:
 
 Provides access to a collection of security information representing a caller's identity. The items available in this collection are the SID, the account name, the authentication service, the authentication level, and the impersonation level.
 
-This interface is used to find out about a particular caller in a chain of callers that is part of the security call context. For more information about how security call context information is accessed, see <a href="https://docs.microsoft.com/windows/desktop/cossdk/programmatic-component-security">Programmatic Component Security</a>. 
+This interface is used to find out about a particular caller in a chain of callers that is part of the security call context. For more information about how security call context information is accessed, see <a href="/windows/desktop/cossdk/programmatic-component-security">Programmatic Component Security</a>. 
 
-COM+ applications that do not use role-based security and base COM applications cannot call methods of <b>ISecurityIdentityColl</b> because they cannot obtain the necessary pointer to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>.
+COM+ applications that do not use role-based security and base COM applications cannot call methods of <b>ISecurityIdentityColl</b> because they cannot obtain the necessary pointer to <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>. For more information, see <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityIdentityColl</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISecurityIdentityColl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityIdentityColl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISecurityIdentityColl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ISecurityIdentityColl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityidentitycoll-get__newenum">get__NewEnum</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isecurityidentitycoll-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the security identity collection.
@@ -83,7 +83,7 @@ Retrieves an enumerator for the security identity collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityidentitycoll-get_count">get_Count</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isecurityidentitycoll-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of properties in the security identity collection.
@@ -93,7 +93,7 @@ Retrieves the number of properties in the security identity collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecurityidentitycoll-get_item">get_Item</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isecurityidentitycoll-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified property in the security identity collection.
@@ -105,13 +105,12 @@ Retrieves a specified property in the security identity collection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallerscoll">ISecurityCallersColl</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallerscoll">ISecurityCallersColl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/securityidentity">SecurityIdentity</a>
-
+<a href="/windows/desktop/cossdk/securityidentity">SecurityIdentity</a>

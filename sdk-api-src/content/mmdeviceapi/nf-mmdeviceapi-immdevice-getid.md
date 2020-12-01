@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetId</b> method retrieves an <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpoint-id-strings">endpoint ID string</a> that identifies the audio endpoint device.
+The <b>GetId</b> method retrieves an <a href="/windows/desktop/CoreAudio/endpoint-id-strings">endpoint ID string</a> that identifies the audio endpoint device.
 
 ## -parameters
 
@@ -93,24 +93,23 @@ Parameter <i>pwstrId</i> is <b>NULL</b>.
 
 ## -remarks
 
-The endpoint ID string obtained from this method identifies the audio endpoint device that is represented by the <b>IMMDevice</b> interface instance. A client can use the endpoint ID string to create an instance of the audio endpoint device at a later time or in a different process by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice">IMMDeviceEnumerator::GetDevice</a> method. Clients should treat the contents of the endpoint ID string as opaque. That is, clients should <i>not</i> attempt to parse the contents of the string to obtain information about the device. The reason is that the string format is undefined and might change from one implementation of the MMDevice API system module to the next.
+The endpoint ID string obtained from this method identifies the audio endpoint device that is represented by the <b>IMMDevice</b> interface instance. A client can use the endpoint ID string to create an instance of the audio endpoint device at a later time or in a different process by calling the <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice">IMMDeviceEnumerator::GetDevice</a> method. Clients should treat the contents of the endpoint ID string as opaque. That is, clients should <i>not</i> attempt to parse the contents of the string to obtain information about the device. The reason is that the string format is undefined and might change from one implementation of the MMDevice API system module to the next.
 
 For code examples that call the <b>GetId</b> method, see the following topics:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-properties">Device Properties</a>
+<a href="/windows/desktop/CoreAudio/device-properties">Device Properties</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-roles-for-legacy-windows-multimedia-applications">Device Roles for Legacy Windows Multimedia Applications</a>
+<a href="/windows/desktop/CoreAudio/device-roles-for-legacy-windows-multimedia-applications">Device Roles for Legacy Windows Multimedia Applications</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
+<a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice">IMMDeviceEnumerator::GetDevice</a>
-
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice">IMMDeviceEnumerator::GetDevice</a>

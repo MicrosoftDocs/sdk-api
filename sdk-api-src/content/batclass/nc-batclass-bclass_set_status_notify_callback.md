@@ -64,7 +64,7 @@ A battery tag value previously returned by <i>BatteryMiniQueryTag</i>.
 
 ### -param BatteryNotify [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/batclass/ns-batclass-battery_notify">BATTERY_NOTIFY</a> structure.
+A pointer to a <a href="/windows/desktop/api/batclass/ns-batclass-battery_notify">BATTERY_NOTIFY</a> structure.
 
 ## -returns
 
@@ -112,9 +112,9 @@ The miniclass driver cannot distinguish the target condition.
 
 ## -remarks
 
-The battery class driver calls a miniclass driver's <i>BatteryMiniSetStatusNotify</i> routine to set criteria for an acceptable range of battery conditions. When the battery's capacity or power state deviates from these criteria, the miniclass driver must call <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassstatusnotify">BatteryClassStatusNotify</a> to notify the class driver.
+The battery class driver calls a miniclass driver's <i>BatteryMiniSetStatusNotify</i> routine to set criteria for an acceptable range of battery conditions. When the battery's capacity or power state deviates from these criteria, the miniclass driver must call <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassstatusnotify">BatteryClassStatusNotify</a> to notify the class driver.
 
-In the <b>PowerState</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/batclass/ns-batclass-battery_notify">BATTERY_NOTIFY</a> structure, the class driver specifies one or more battery power states. Any time the battery enters a power state that is not in <b>PowerState</b>, the miniclass driver must notify the class driver.
+In the <b>PowerState</b> member of the <a href="/windows/desktop/api/batclass/ns-batclass-battery_notify">BATTERY_NOTIFY</a> structure, the class driver specifies one or more battery power states. Any time the battery enters a power state that is not in <b>PowerState</b>, the miniclass driver must notify the class driver.
 
 In the <b>LowCapacity</b> and <b>HighCapacity</b> members of BATTERY_NOTIFY, the class driver specifies a range of capacity. When the capacity falls above or below this range, the miniclass driver must notify the class driver. 
 
@@ -122,9 +122,8 @@ Some batteries might be unable to distinguish the precise capacities requested b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassstatusnotify">BatteryClassStatusNotify</a>
+<a href="/windows/desktop/api/batclass/nf-batclass-batteryclassstatusnotify">BatteryClassStatusNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_disable_status_notify_callback">BatteryMiniDisableStatusNotify</a>
-
+<a href="/windows/desktop/api/batclass/nc-batclass-bclass_disable_status_notify_callback">BatteryMiniDisableStatusNotify</a>

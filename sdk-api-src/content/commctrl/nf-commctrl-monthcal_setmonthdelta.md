@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Sets the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-setmonthdelta">MCM_SETMONTHDELTA</a> message explicitly.
+Sets the scroll rate for a month calendar control. The scroll rate is the number of months that the control moves its display when the user clicks a scroll button. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-setmonthdelta">MCM_SETMONTHDELTA</a> message explicitly.
 
 ## -parameters
 
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
 ### -param n
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Value representing the number of months to be set as the control's scroll rate. If this value is zero, the month delta is reset to the default, which is the number of months displayed in the control.
 
 ## -remarks
 
-The PAGE UP and PAGE DOWN keys, VK_PRIOR and VK_NEXT, change the selected month by one, regardless of the number of months displayed or the value set by <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-setmonthdelta">MCM_SETMONTHDELTA</a>.
-
+The PAGE UP and PAGE DOWN keys, VK_PRIOR and VK_NEXT, change the selected month by one, regardless of the number of months displayed or the value set by <a href="/windows/desktop/Controls/mcm-setmonthdelta">MCM_SETMONTHDELTA</a>.

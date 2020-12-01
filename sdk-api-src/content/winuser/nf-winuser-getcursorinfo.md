@@ -67,7 +67,7 @@ Retrieves information about the global cursor.
 
 Type: <b>PCURSORINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-cursorinfo">CURSORINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(CURSORINFO)</code> before calling this function.
+A pointer to a <a href="/windows/win32/api/winuser/ns-winuser-cursorinfo">CURSORINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(CURSORINFO)</code> before calling this function.
 
 ## -returns
 
@@ -75,11 +75,11 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-cursorinfo">CURSORINFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-cursorinfo">CURSORINFO</a>
 
 
 
@@ -87,13 +87,12 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
+<a href="/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getguithreadinfo">GetGUIThreadInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getguithreadinfo">GetGUIThreadInfo</a>
 
 
 
 <b>Reference</b>
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capSetCallbackOnVideoStream</b> macro sets a callback function in the application. AVICap calls this procedure during streaming capture when a video buffer is filled. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-videostream">WM_CAP_SET_CALLBACK_VIDEOSTREAM</a> message.
+The <b>capSetCallbackOnVideoStream</b> macro sets a callback function in the application. AVICap calls this procedure during streaming capture when a video buffer is filled. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-set-callback-videostream">WM_CAP_SET_CALLBACK_VIDEOSTREAM</a> message.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Handle to a capture window.
 
 ### -param fpProc
 
-Pointer to the video-stream callback function, of type <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nc-vfw-capvideocallback">capVideoStreamCallback</a>. Specify <b>NULL</b> for this parameter to disable a previously installed video-stream callback function.
+Pointer to the video-stream callback function, of type <a href="/windows/desktop/api/vfw/nc-vfw-capvideocallback">capVideoStreamCallback</a>. Specify <b>NULL</b> for this parameter to disable a previously installed video-stream callback function.
 
 ## -remarks
 
@@ -70,9 +70,8 @@ If a video stream callback function is used for streaming capture, the procedure
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

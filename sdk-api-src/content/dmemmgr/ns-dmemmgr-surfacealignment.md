@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The SURFACEALIGNMENT structure is used by a display driver to describe the alignment restrictions for a surface being allocated by <a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/nf-dmemmgr-heapvidmemallocaligned">HeapVidMemAllocAligned</a>.
+The SURFACEALIGNMENT structure is used by a display driver to describe the alignment restrictions for a surface being allocated by <a href="/windows/desktop/api/dmemmgr/nf-dmemmgr-heapvidmemallocaligned">HeapVidMemAllocAligned</a>.
 
 ## -struct-fields
 
@@ -100,5 +100,4 @@ Is reserved for system use and should be ignored by the display driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmemmgr/nf-dmemmgr-heapvidmemallocaligned">HeapVidMemAllocAligned</a>
-
+<a href="/windows/desktop/api/dmemmgr/nf-dmemmgr-heapvidmemallocaligned">HeapVidMemAllocAligned</a>

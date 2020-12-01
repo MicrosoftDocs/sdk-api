@@ -62,13 +62,12 @@ This topology is the last topology in the sequence.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-appendtopology">IMFSequencerSource::AppendTopology</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-appendtopology">IMFSequencerSource::AppendTopology</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-updatetopologyflags">IMFSequencerSource::UpdateTopologyFlags</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfsequencersource-updatetopologyflags">IMFSequencerSource::UpdateTopologyFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

@@ -60,9 +60,8 @@ The ready state of the media source.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextension">IMFMediaSourceExtension</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mse-ready">MF_MSE_READY</a>
-
+<a href="/windows/desktop/medfound/mf-mse-ready">MF_MSE_READY</a>

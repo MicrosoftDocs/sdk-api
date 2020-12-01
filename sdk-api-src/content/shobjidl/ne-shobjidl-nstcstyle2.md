@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-inamespacetreecontrol2">INameSpaceTreeControl2</a> to specify extended display styles in a Shell namespace treeview.
+Used by methods of the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-inamespacetreecontrol2">INameSpaceTreeControl2</a> to specify extended display styles in a Shell namespace treeview.
 
 ## -enum-fields
 
@@ -72,7 +72,7 @@ Inserts spacing (padding) between top-level nodes.
 
 ### -field NSTCS2_DISPLAYPINNEDONLY
 
-Filters items based on the <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> value when <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrolfoldercapabilities">INameSpaceTreeControlFolderCapabilities</a> is implemented.
+Filters items based on the <a href="/windows/desktop/properties/props-system-ispinnedtonamespacetree">System.IsPinnedToNameSpaceTree</a> value when <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrolfoldercapabilities">INameSpaceTreeControlFolderCapabilities</a> is implemented.
 
 ### -field NTSCS2_NOSINGLETONAUTOEXPAND
 
@@ -88,4 +88,3 @@ Prevents automatic expansion of singleton nodes in the tree.
 ## -remarks
 
 The value NSTCS2_ALLMASK can be used to mask for the NSTCS2_INTERRUPTNOTIFICATIONS, NSTCS2_SHOWNULLSPACEMENU, and NSTCS2_DISPLAYPADDING values.
-

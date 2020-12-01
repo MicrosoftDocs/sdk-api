@@ -46,9 +46,6 @@ api_name:
  - GPMWMIFilter.SetSecurityInfo
 ---
 
-# IGPMWMIFilter::SetSecurityInfo
-
-
 ## -description
 
 Sets the list of permissions for the current WMI filter to that specified by the object.
@@ -58,13 +55,7 @@ Sets the list of permissions for the current WMI filter to that specified by the
 ### -param pSecurityInfo [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a> interface.  This parameter is required.
-
-
-#### - objGPMSecurityInfo [in]
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">GPMSecurityInfo</a> object to set. This parameter is required.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a> interface.  This parameter is required.
 
 ## -returns
 
@@ -85,13 +76,12 @@ You should understand these considerations before changing permissions on WMI fi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifiltercollection">IGPMWMIFilterCollection</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifiltercollection">IGPMWMIFilterCollection</a>

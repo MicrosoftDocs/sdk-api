@@ -57,7 +57,7 @@ Allows an application to fill a rectangular area of a D3DPOOL_DEFAULT surface wi
 
 ### -param pSurface [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>*</b>
 
 Pointer to the surface to be filled.
 
@@ -69,7 +69,7 @@ Pointer to the source rectangle. Using <b>NULL</b> means that the entire surface
 
 ### -param color [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dcolor">D3DCOLOR</a></b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dcolor">D3DCOLOR</a></b>
 
 Color used for filling.
 
@@ -90,9 +90,8 @@ When using a DirectX 7 or DirectX 8.x driver, the only YUV formats supported are
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dpool">D3DPOOL</a>
+<a href="/windows/desktop/direct3d9/d3dpool">D3DPOOL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>

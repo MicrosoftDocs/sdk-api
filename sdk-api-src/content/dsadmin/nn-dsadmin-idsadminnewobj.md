@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IDsAdminNewObj</b> interface is used by a primary or secondary  object creation wizard extension to obtain page count data and to control the command buttons in the wizard. An instance of this interface is passed to the extension in the <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-initialize">IDsAdminNewObjExt::Initialize</a> method.
+The <b>IDsAdminNewObj</b> interface is used by a primary or secondary  object creation wizard extension to obtain page count data and to control the command buttons in the wizard. An instance of this interface is passed to the extension in the <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-initialize">IDsAdminNewObjExt::Initialize</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminNewObj</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNewObj</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDsAdminNewObj</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDsAdminNewObj</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDsAdminNewObj</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobj-getpagecounts">GetPageCounts</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobj-getpagecounts">GetPageCounts</a>
 </td>
 <td align="left" width="63%">
 Obtains the total number of pages in the wizard as well as the index of the first page of the  extension.
@@ -78,7 +78,7 @@ Obtains the total number of pages in the wizard as well as the index of the firs
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobj-setbuttons">SetButtons</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobj-setbuttons">SetButtons</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the "Next" command button in the wizard for a specific page.
@@ -89,21 +89,20 @@ Enables or disables the "Next" command button in the wizard for a specific page.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services">Admin Interfaces in Active Directory Domain Services</a>
+<a href="/windows/desktop/AD/admin-interfaces-in-active-directory-domain-services">Admin Interfaces in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadmincreateobj">IDsAdminCreateObj</a>
+<a href="/windows/desktop/api/dsadmin/nn-dsadmin-idsadmincreateobj">IDsAdminCreateObj</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjext">IDsAdminNewObjExt</a>
+<a href="/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjext">IDsAdminNewObjExt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-initialize">IDsAdminNewObjExt::Initialize</a>
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-initialize">IDsAdminNewObjExt::Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjprimarysite">IDsAdminNewObjPrimarySite</a>
-
+<a href="/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjprimarysite">IDsAdminNewObjPrimarySite</a>

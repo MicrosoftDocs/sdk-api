@@ -337,5 +337,4 @@ A flag that indicates an error. If <b>TRUE</b>, an error is present.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/extract">Extract</a>
-
+<a href="/windows/desktop/DevNotes/extract">Extract</a>

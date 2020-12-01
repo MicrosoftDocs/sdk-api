@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CryptMsgCountersign</b> function countersigns an existing signature in a message. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Countersignatures</a> are used to sign an existing signature's encrypted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of the message. Countersignatures can be used for various purposes including time stamping a message.
+The <b>CryptMsgCountersign</b> function countersigns an existing signature in a message. <a href="/windows/desktop/SecGloss/c-gly">Countersignatures</a> are used to sign an existing signature's encrypted <a href="/windows/desktop/SecGloss/h-gly">hash</a> of the message. Countersignatures can be used for various purposes including time stamping a message.
 
 ## -parameters
 
@@ -69,17 +69,17 @@ Number of countersigners in the <i>rgCountersigners</i> array.
 ### -param rgCountersigners [in]
 
 Array of countersigners' 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structures.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structures.
 
 ## -returns
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 An error can be propagated from
-								<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersignencoded">CryptMsgCountersignEncoded</a>.
+								<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersignencoded">CryptMsgCountersignEncoded</a>.
 
 The following error codes are returned most often.
 
@@ -126,22 +126,21 @@ The specified area is not large enough to hold the returned data.
 </table>
  
 
-If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
+If the function fails, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> may return an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoding/decoding error. For information about these errors, see 
+<a href="/windows/desktop/SecCrypto/asn-1-encoding-decoding-return-values">ASN.1 Encoding/Decoding Return Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersignencoded">CryptMsgCountersignEncoded</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcountersignencoded">CryptMsgCountersignEncoded</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencoded">CryptMsgVerifyCountersignatureEncoded</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgverifycountersignatureencoded">CryptMsgVerifyCountersignatureEncoded</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Low-level Message Functions</a>
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Low-level Message Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>

@@ -56,7 +56,7 @@ Specifies a custom rate for frame-rate conversion or inverse telecine (IVTC).
 
 ### -field CustomRate
 
-The ratio of the output frame rate to the input frame rate, expressed as a <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a> structure that holds a rational number.
+The ratio of the output frame rate to the input frame rate, expressed as a <a href="/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a> structure that holds a rational number.
 
 ### -field OutputFrames
 
@@ -76,9 +76,8 @@ The <b>CustomRate</b> member gives the rate conversion factor, while the remaini
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
+<a href="/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcustomrate">ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate</a>
-
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcustomrate">ID3D11VideoProcessorEnumerator::GetVideoProcessorCustomRate</a>

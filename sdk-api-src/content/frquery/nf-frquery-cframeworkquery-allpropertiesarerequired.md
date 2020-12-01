@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/frquery/nl-frquery-cframeworkquery">CFrameworkQuery</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/frquery/nl-frquery-cframeworkquery">CFrameworkQuery</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>AllPropertiesAreRequired</b> method indicates whether all of the properties for the instance are requested.
@@ -64,4 +64,3 @@ The <b>AllPropertiesAreRequired</b> method indicates whether all of the properti
 ## -returns
 
 Returns <b>TRUE</b> if all properties are required and <b>FALSE</b> if only a subset of the properties are required.
-

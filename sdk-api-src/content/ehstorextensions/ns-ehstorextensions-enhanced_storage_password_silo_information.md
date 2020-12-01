@@ -166,5 +166,4 @@ The maximum number of bytes that the device supports for challenge.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/enstor/enhanced-storage-portable-device-commands">Enhanced Storage Portable Device Commands</a>
-
+<a href="/previous-versions/windows/desktop/enstor/enhanced-storage-portable-device-commands">Enhanced Storage Portable Device Commands</a>

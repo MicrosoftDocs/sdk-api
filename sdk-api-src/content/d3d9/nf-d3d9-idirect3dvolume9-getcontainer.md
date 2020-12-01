@@ -94,5 +94,4 @@ if (SUCCEEDED(hr) && pContainer)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvolume9">IDirect3DVolume9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvolume9">IDirect3DVolume9</a>

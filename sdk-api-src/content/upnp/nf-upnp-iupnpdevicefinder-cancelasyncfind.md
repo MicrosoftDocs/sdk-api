@@ -58,7 +58,7 @@ The
 ### -param lFindData [in]
 
 Specifies the search to cancel. The value of <i>lFindData</i> is the value returned by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-createasyncfind">IUPnPDeviceFinder::CreateAsyncFind</a>.
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-createasyncfind">IUPnPDeviceFinder::CreateAsyncFind</a>.
 
 ## -returns
 
@@ -70,13 +70,12 @@ Applications can keep asynchronous searches running until the application exits.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinder">IUPnPDeviceFinder</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicefinder">IUPnPDeviceFinder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-createasyncfind">IUPnPDeviceFinder::CreateAsyncFind</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-createasyncfind">IUPnPDeviceFinder::CreateAsyncFind</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-startasyncfind">IUPnPDeviceFinder::StartAsyncFind</a>
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-startasyncfind">IUPnPDeviceFinder::StartAsyncFind</a>

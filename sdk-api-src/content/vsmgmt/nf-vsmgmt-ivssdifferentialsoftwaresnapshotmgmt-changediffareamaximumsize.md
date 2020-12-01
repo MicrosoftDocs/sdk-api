@@ -174,7 +174,7 @@ The association between the <i>pwszVolumeName</i> and
 </td>
 <td width="60%">
 Provider error - the provider logged the error in the event log. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ Provider error - the provider logged the error in the event log. For more inform
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -213,9 +213,8 @@ If the shadow copy storage area does not exist, this method creates it.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>If the shadow copy storage area does not exist, this method does not create it.
 
-To create a shadow copy storage area, use the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a> method.
+To create a shadow copy storage area, use the <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt">IVssDifferentialSoftwareSnapshotMgmt</a>
-
+<a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt">IVssDifferentialSoftwareSnapshotMgmt</a>

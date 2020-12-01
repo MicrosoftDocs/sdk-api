@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-Cancels a callback function that was set by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqaddperiodiccallback">RtwqAddPeriodicCallback</a> function.
+Cancels a callback function that was set by the <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqaddperiodiccallback">RtwqAddPeriodicCallback</a> function.
 
 ## -parameters
 
 ### -param dwKey [in]
 
-Key that identifies the callback. This value is retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqaddperiodiccallback">RtwqAddPeriodicCallback</a> function.
+Key that identifies the callback. This value is retrieved by the <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqaddperiodiccallback">RtwqAddPeriodicCallback</a> function.
 
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

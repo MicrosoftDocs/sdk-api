@@ -64,7 +64,7 @@ Set to <b>ENABLE_TRACE_PARAMETERS_VERSION_2</b>.
 
 ### -field EnableProperty
 
-Optional settings that ETW can include when writing the event. Some settings write extra data to the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">extended data item</a> section of each event. Other settings refine which events will be included. To use these optional settings, specify one or more of the following flags; otherwise, set to zero.
+Optional settings that ETW can include when writing the event. Some settings write extra data to the <a href="/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">extended data item</a> section of each event. Other settings refine which events will be included. To use these optional settings, specify one or more of the following flags; otherwise, set to zero.
 
 <table>
 <tr>
@@ -89,7 +89,7 @@ Supported on Windows 10, version 1507 and later. This is also supported on Wind
 </dl>
 </td>
 <td width="60%">
-Indicates that this call to <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> should enable a <a href="https://docs.microsoft.com/windows/desktop/ETW/provider-traits">Provider Group</a> rather than an individual Event Provider.
+Indicates that this call to <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> should enable a <a href="/windows/desktop/ETW/provider-traits">Provider Group</a> rather than an individual Event Provider.
 
 Supported on Windows 10, version 1507 and later. This is also supported on Windows 8.1 and Windows 7 with SP1 via a patch.
 
@@ -167,13 +167,13 @@ Supported on Windows Vista and later.
 </dl>
 </td>
 <td width="60%">
-Include in the extended data a call stack trace for events written using <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>.
+Include in the extended data a call stack trace for events written using <a href="/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a>.
 
 If you set <b>EVENT_ENABLE_PROPERTY_STACK_TRACE</b>, ETW will drop the event if the total event size exceeds 64K. If the provider is logging events close in size to 64K maximum, it is possible that enabling stack capture will cause the event to be lost.
 
 If the stack is longer than the maximum number of frames (192), the frames will be cut from the bottom of the stack.
 
-For consumers,  the events will include the <a href="/windows/win32/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> or <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> extended item. Note that on 64-bit computers, 32-bit processes will receive 64-bit stack traces.
+For consumers,  the events will include the <a href="/windows/win32/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> or <a href="/windows/desktop/api/evntcons/ns-evntcons-event_extended_item_stack_trace64">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> extended item. Note that on 64-bit computers, 32-bit processes will receive 64-bit stack traces.
 
 Supported on Windows 7 and later.
 
@@ -187,61 +187,60 @@ Reserved. Set to 0.
 
 ### -field SourceId
 
-A GUID that uniquely identifies the session that is enabling or disabling the provider. If the provider does not implement <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">EnableCallback</a>, the GUID is not used.
+A GUID that uniquely identifies the session that is enabling or disabling the provider. If the provider does not implement <a href="/windows/desktop/api/evntprov/nc-evntprov-penablecallback">EnableCallback</a>, the GUID is not used.
 
 ### -field EnableFilterDesc
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures that points to the filter data. The number of elements in the array is specified in the <b>FilterDescCount</b> member. There can only be one filter for a specific filter type as specified by the <b>Type</b> member of the <b>EVENT_FILTER_DESCRIPTOR</b> structure. 
+A pointer to an array of <a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures that points to the filter data. The number of elements in the array is specified in the <b>FilterDescCount</b> member. There can only be one filter for a specific filter type as specified by the <b>Type</b> member of the <b>EVENT_FILTER_DESCRIPTOR</b> structure. 
 
 For a schematized filter (a <b>Type</b> member equal to <b>EVENT_FILTER_TYPE_SCHEMATIZED</b>), the provider uses filter data to prevent events that match the filter criteria from being written to the session. The provider determines the layout of the data and how it applies the filter to the event's data. A session can pass only one schematized filter to the provider.
 
-A session can call the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a> function to determine the schematized filters that it can pass to the provider.
+A session can call the <a href="/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a> function to determine the schematized filters that it can pass to the provider.
 
 ### -field FilterDescCount
 
-The number of elements (filters) in the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> array pointed to by <b>EnableFilterDesc</b> member. 
+The number of elements (filters) in the <a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> array pointed to by <b>EnableFilterDesc</b> member. 
 
-The <b>FilterDescCount</b>  member should match the number of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures in the array pointed to by the <b>EnableFilterDesc</b> member.
+The <b>FilterDescCount</b>  member should match the number of <a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures in the array pointed to by the <b>EnableFilterDesc</b> member.
 
 .
 
 ## -remarks
 
-The <b>ENABLE_TRACE_PARAMETERS</b> structure is a version 2 structure and replaces the <a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters-v1">ENABLE_TRACE_PARAMETERS_V1</a> structure for use with the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.
+The <b>ENABLE_TRACE_PARAMETERS</b> structure is a version 2 structure and replaces the <a href="/windows/desktop/ETW/enable-trace-parameters-v1">ENABLE_TRACE_PARAMETERS_V1</a> structure for use with the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function.
 
-On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack walk filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function and the <b>ENABLE_TRACE_PARAMETERS</b> and <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures to filter on specific conditions in a logger session. For more information on event payload filters, see the <b>EnableTraceEx2</b>, <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> functions and the <b>EVENT_FILTER_DESCRIPTOR</b> and <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a> structures. 
+On Windows 8.1,Windows Server 2012 R2, and later, event payload , scope, and stack walk filters can be used by the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function and the <b>ENABLE_TRACE_PARAMETERS</b> and <a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structures to filter on specific conditions in a logger session. For more information on event payload filters, see the <b>EnableTraceEx2</b>, <a href="/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>, and <a href="/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a> functions and the <b>EVENT_FILTER_DESCRIPTOR</b> and <a href="/windows/desktop/api/tdh/ns-tdh-payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a> structures. 
 
 Typically, on 64-bit computers, you cannot capture the kernel stack in certain contexts when page faults are not allowed. To enable walking the kernel stack on x64, set the <b>DisablePagingExecutive</b> Memory Management registry value to 1. The <b>DisablePagingExecutive</b> registry value is located under the following registry key:<b>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Memory Management</b></p>You should consider the cost of setting this registry value before doing so.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enable-trace-parameters-v1">ENABLE_TRACE_PARAMETERS_V1</a>
+<a href="/windows/desktop/ETW/enable-trace-parameters-v1">ENABLE_TRACE_PARAMETERS_V1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
+<a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_event_id">EVENT_FILTER_EVENT_ID</a>
+<a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_event_id">EVENT_FILTER_EVENT_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
+<a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a>
+<a href="/windows/desktop/api/tdh/ns-tdh-payload_filter_predicate">PAYLOAD_FILTER_PREDICATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a>
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhaggregatepayloadfilters">TdhAggregatePayloadFilters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a>
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a>

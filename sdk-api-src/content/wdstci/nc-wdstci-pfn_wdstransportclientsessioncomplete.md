@@ -60,7 +60,7 @@ The handle belonging to the session that is being started.
 
 ### -param pCallerData [in]
 
-Pointer to the caller specific data for this session.  This data was specified in the call to <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientstartsession">WdsTransportClientStartSession</a> function.
+Pointer to the caller specific data for this session.  This data was specified in the call to <a href="/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientstartsession">WdsTransportClientStartSession</a> function.
 
 ### -param dwError [in]
 
@@ -69,4 +69,3 @@ The overall status of the file transfer.  If the session succeeded, this value w
 ## -remarks
 
 This will be the last callback a consumer receives.  The consumer will always receive this callback, even if the session is canceled.
-

@@ -64,9 +64,9 @@ A handle to a window that specifies the parent window to be used for any user in
 
 ### -param punkEnableModless [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface that specifies the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a> object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-enablemodeless">EnableModeless</a> method.
+A pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface that specifies the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a> object that implements the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-enablemodeless">EnableModeless</a> method.
 
 ### -param pszPath [in]
 
@@ -172,4 +172,3 @@ The primary use of this function is for a program to check a path before using i
 
 > [!NOTE]
 > The shlobj_core.h header defines SHPathPrepareForWrite as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

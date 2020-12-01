@@ -72,5 +72,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
-
+<a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>

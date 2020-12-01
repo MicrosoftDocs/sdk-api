@@ -64,7 +64,7 @@ Number of prefixes.
 
 ### -field prefixArray
 
-Pointer to a list <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefix">DHCPV6Prefix</a> structures that contain the prefixes requested or returned by the server.
+Pointer to a list <a href="/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefix">DHCPV6Prefix</a> structures that contain the prefixes requested or returned by the server.
 
 ### -field iaid
 
@@ -152,4 +152,3 @@ The length of the above DUID data.
 ## -remarks
 
 In a prefix delegation scenario, the validation of lease lifetime values (specific status codes, <b>T1</b>, <b>T2</b>, <b>MaxLeaseExpirationTime</b>, and <b>LastRenewalTime</b>) are performed by the calling API, rather than the application consuming the data, as the latter might interpret these values differently.
-

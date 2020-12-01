@@ -53,7 +53,7 @@ api_name:
 Used to get code page information or do conversion, depending on flag settings.
 
 
-<div class="alert"><b>Note</b>  Do not use this function. It can behave differently in different versions of Windows. To convert GB18030 bytes to Unicode characters or Unicode characters to GB18030 bytes, use the <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> and <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> functions.</div>
+<div class="alert"><b>Note</b>  Do not use this function. It can behave differently in different versions of Windows. To convert GB18030 bytes to Unicode characters or Unicode characters to GB18030 bytes, use the <a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> and <a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> functions.</div>
 <div> </div>
 
 ## -parameters
@@ -121,11 +121,11 @@ Character count of the Unicode buffer.
 
 ### -param lpCPInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-cpinfo">CPINFO</a> structure.
+Pointer to a <a href="/windows/desktop/api/winnls/ns-winnls-cpinfo">CPINFO</a> structure.
 
 ## -returns
 
-Returns 1 if successful. If the function does not succeed, it returns 0. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns 1 if successful. If the function does not succeed, it returns 0. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 
 <ul>
@@ -134,9 +134,8 @@ Returns 1 if successful. If the function does not succeed, it returns 0. To get 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>
-
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>

@@ -52,14 +52,14 @@ api_name:
 
 ## -description
 
-The <b>DSOP_FILTER_FLAGS</b> structure contains flags that indicate the types of objects presented to the user for a specified scope or scopes. This structure is contained in the <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a> structure when calling <a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>.
+The <b>DSOP_FILTER_FLAGS</b> structure contains flags that indicate the types of objects presented to the user for a specified scope or scopes. This structure is contained in the <a href="/windows/desktop/api/objsel/ns-objsel-dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a> structure when calling <a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>.
 
 ## -struct-fields
 
 ### -field Uplevel
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_uplevel_filter_flags">DSOP_UPLEVEL_FILTER_FLAGS</a> structure that contains the filter flags to use for up-level scopes. An up-level scope is a scope that supports the ADSI LDAP provider. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-ldap-provider">ADSI LDAP Provider</a>.
+Contains a <a href="/windows/desktop/api/objsel/ns-objsel-dsop_uplevel_filter_flags">DSOP_UPLEVEL_FILTER_FLAGS</a> structure that contains the filter flags to use for up-level scopes. An up-level scope is a scope that supports the ADSI LDAP provider. For more information, see 
+<a href="/windows/desktop/ADSI/adsi-ldap-provider">ADSI LDAP Provider</a>.
 
 ### -field flDownlevel
 
@@ -215,21 +215,20 @@ Includes "Service SIDs" of all installed services.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-ldap-provider">ADSI LDAP Provider</a>
+<a href="/windows/desktop/ADSI/adsi-ldap-provider">ADSI LDAP Provider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a>
+<a href="/windows/desktop/api/objsel/ns-objsel-dsop_scope_init_info">DSOP_SCOPE_INIT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/ns-objsel-dsop_uplevel_filter_flags">DSOP_UPLEVEL_FILTER_FLAGS</a>
+<a href="/windows/desktop/api/objsel/ns-objsel-dsop_uplevel_filter_flags">DSOP_UPLEVEL_FILTER_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/directory-object-picker">Directory Object Picker</a>
+<a href="/windows/desktop/AD/directory-object-picker">Directory Object Picker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>
-
+<a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpicker-initialize">IDsObjectPicker::Initialize</a>

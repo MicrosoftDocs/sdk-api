@@ -55,8 +55,8 @@ api_name:
 ## -description
 
 The <b>CMC_TAGGED_ATTRIBUTE</b> structure is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_data_info">CMC_DATA_INFO</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_response_info">CMC_RESPONSE_INFO</a> structures.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_data_info">CMC_DATA_INFO</a> and 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_response_info">CMC_RESPONSE_INFO</a> structures.
 
 ## -struct-fields
 
@@ -66,5 +66,4 @@ A <b>DWORD</b> value that identifies the tagged attribute.
 
 ### -field Attribute
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structure that contains the attribute.
-
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structure that contains the attribute.

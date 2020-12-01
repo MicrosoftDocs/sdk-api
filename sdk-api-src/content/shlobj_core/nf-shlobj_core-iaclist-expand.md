@@ -68,11 +68,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The autocomplete object calls this method when a delimiter is entered in the edit control. If the string pointed to by <i>pszExpand</i> matches an item in the autocompletion client's namespace, the client generates strings for those items that fall immediately under <i>pszExpand</i> in its namespace hierarchy. The client returns those strings next time the autocompletion object calls the client's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> interface.
+The autocomplete object calls this method when a delimiter is entered in the edit control. If the string pointed to by <i>pszExpand</i> matches an item in the autocompletion client's namespace, the client generates strings for those items that fall immediately under <i>pszExpand</i> in its namespace hierarchy. The client returns those strings next time the autocompletion object calls the client's <a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> interface.
 
 For example, assuming that the client's namespace consists of all the files and folders on the C: drive, and <i>pszExpand</i> is set to "C:\Program Files\", the client should generate a list of strings corresponding to the fully qualified paths of the files and subfolders of "C:\Program Files\".
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist">IACList</a>
-
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist">IACList</a>

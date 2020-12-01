@@ -56,7 +56,7 @@ Properties of a transformed image source.
 
 ### -field orientation
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_orientation">D2D1_ORIENTATION</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_orientation">D2D1_ORIENTATION</a></b>
 
 The orientation at which the image source is drawn.
 
@@ -74,13 +74,12 @@ The vertical scale factor at which the image source is drawn.
 
 ### -field interpolationMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode">D2D1_INTERPOLATION_MODE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_interpolation_mode">D2D1_INTERPOLATION_MODE</a></b>
 
 The interpolation mode used when the image source is drawn.  This is ignored if the image source is drawn using the DrawImage method, or using an image brush.
 
 ### -field options
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_transformed_image_source_options">D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1_3/ne-d2d1_3-d2d1_transformed_image_source_options">D2D1_TRANSFORMED_IMAGE_SOURCE_OPTIONS</a></b>
 
 Image sourc option flags.
-

@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Shows or hides the list in a combo box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-showdropdown">CB_SHOWDROPDOWN</a> message explicitly.
+Shows or hides the list in a combo box. You can use this macro or send the <a href="/windows/desktop/Controls/cb-showdropdown">CB_SHOWDROPDOWN</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param fShow
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to show the dropdown, or <b>FALSE</b> to hide it.
 
 ## -remarks
 
-This macro has no effect on a combo box created with the <a href="https://docs.microsoft.com/windows/desktop/Controls/combo-box-styles">CBS_SIMPLE</a> style.
-
+This macro has no effect on a combo box created with the <a href="/windows/desktop/Controls/combo-box-styles">CBS_SIMPLE</a> style.

@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[Active Accessibility Text Services is deprecated. Please see     
-<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="/windows/win32/tsf/text-services-framework">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		]
 
 Exposes methods for string manipulation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccDictionary</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccDictionary</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccDictionary</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccDictionary</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IAccDictionary</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccdictionary-convertvaluetostring">ConvertValueToString</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccdictionary-convertvaluetostring">ConvertValueToString</a>
 </td>
 <td align="left" width="63%">
 Converts a property value to a localized string.
@@ -82,7 +82,7 @@ Converts a property value to a localized string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccdictionary-getlocalizedstring">GetLocalizedString</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccdictionary-getlocalizedstring">GetLocalizedString</a>
 </td>
 <td align="left" width="63%">
 Retrieves a localized string for a system property.
@@ -91,7 +91,7 @@ Retrieves a localized string for a system property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccdictionary-getmnemonicstring">GetMnemonicString</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccdictionary-getmnemonicstring">GetMnemonicString</a>
 </td>
 <td align="left" width="63%">
 Retrieves a mnemonic string.
@@ -100,7 +100,7 @@ Retrieves a mnemonic string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccdictionary-getparentterm">GetParentTerm</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccdictionary-getparentterm">GetParentTerm</a>
 </td>
 <td align="left" width="63%">
 Retrieves the parent object of a specified property.
@@ -109,7 +109,7 @@ Retrieves the parent object of a specified property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccdictionary-lookupmnemonicterm">LookupMnemonicTerm</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccdictionary-lookupmnemonicterm">LookupMnemonicTerm</a>
 </td>
 <td align="left" width="63%">
 Retrieves the property for a given mnemonic string.
@@ -117,4 +117,3 @@ Retrieves the property for a given mnemonic string.
 </td>
 </tr>
 </table>
-

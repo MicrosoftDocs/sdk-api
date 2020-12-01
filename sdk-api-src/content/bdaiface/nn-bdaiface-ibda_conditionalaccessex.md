@@ -54,7 +54,7 @@ Provides access to a device's Conditional Access Service (CAS), which manages ac
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_ConditionalAccessEx</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_ConditionalAccessEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_ConditionalAccessEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_ConditionalAccessEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBDA_ConditionalAccessEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-checkentitlementtoken">CheckEntitlementToken</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-checkentitlementtoken">CheckEntitlementToken</a>
 </td>
 <td align="left" width="63%">
 Checks the access availability of content that is identified by an entitlement token.
@@ -78,7 +78,7 @@ Checks the access availability of content that is identified by an entitlement t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-closemmidialog">CloseMmiDialog</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-closemmidialog">CloseMmiDialog</a>
 </td>
 <td align="left" width="63%">
 Notifies the CAS that the media sink device (MSD) has closed a user interface (MMI) dialog.
@@ -87,7 +87,7 @@ Notifies the CAS that the media sink device (MSD) has closed a user interface (M
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-createdialogrequestnumber">CreateDialogRequestNumber</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-createdialogrequestnumber">CreateDialogRequestNumber</a>
 </td>
 <td align="left" width="63%">
 Gets a new dialog request number.
@@ -96,7 +96,7 @@ Gets a new dialog request number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-openbroadcastmmi">OpenBroadcastMmi</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-openbroadcastmmi">OpenBroadcastMmi</a>
 </td>
 <td align="left" width="63%">
 Responds to a BroadcastMMI event.
@@ -105,7 +105,7 @@ Responds to a BroadcastMMI event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-setcapturetoken">SetCaptureToken</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-setcapturetoken">SetCaptureToken</a>
 </td>
 <td align="left" width="63%">
 Requests special events that are identified by a capture token.
@@ -117,4 +117,3 @@ Requests special events that are identified by a capture token.
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_ConditionalAccessEx)</code>.
-

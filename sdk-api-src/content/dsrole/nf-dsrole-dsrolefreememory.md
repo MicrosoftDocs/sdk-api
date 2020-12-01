@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>DsRoleFreeMemory</b> function frees memory allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function.
+The <b>DsRoleFreeMemory</b> function frees memory allocated by the <a href="/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a> function.
 
 ## -parameters
 
@@ -60,10 +60,9 @@ Pointer to the buffer to be freed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-functions">Directory Service
+<a href="/windows/desktop/AD/directory-service-functions">Directory Service
   Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a>
-
+<a href="/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a>

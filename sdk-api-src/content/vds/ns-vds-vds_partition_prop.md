@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
    properties of a partition.
@@ -61,13 +61,13 @@ Defines the
 
 ### -field PartitionStyle
 
-The styles enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>. 
+The styles enumerated by <a href="/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>. 
       The style is either master boot record (VDS_PST_MBR) or GUID partition table (VDS_PST_GPT). This member is the
       discriminant for the union.
 
 ### -field ulFlags
 
-The partition flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_partition_flag">VDS_PARTITION_FLAG</a>.
+The partition flags enumerated by <a href="/windows/desktop/api/vds/ne-vds-vds_partition_flag">VDS_PARTITION_FLAG</a>.
 
 ### -field ulPartitionNumber
 
@@ -85,37 +85,36 @@ The size of the partition in bytes.
 
 If <b>PartitionStyle</b> is <b>VDS_PST_MBR</b>, MBR-specific partition 
        details. For more information see 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_info_mbr">VDS_PARTITION_INFO_MBR</a>.
+       <a href="/windows/desktop/api/vds/ns-vds-vds_partition_info_mbr">VDS_PARTITION_INFO_MBR</a>.
 
 ### -field Gpt
 
 If <b>PartitionStyle</b> is <b>VDS_PST_GPT</b>, GPT-specific partition 
        details. For more information see 
-       <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_partition_info_gpt">VDS_PARTITION_INFO_GPT</a>.
+       <a href="/windows/desktop/api/vds/ns-vds-vds_partition_info_gpt">VDS_PARTITION_INFO_GPT</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-getpartitionproperties">IVdsAdvancedDisk::GetPartitionProperties</a> 
-    and <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-querypartitions">IVdsAdvancedDisk::QueryPartitions</a> 
+The <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-getpartitionproperties">IVdsAdvancedDisk::GetPartitionProperties</a> 
+    and <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-querypartitions">IVdsAdvancedDisk::QueryPartitions</a> 
     methods return this structure to report the property details of a partition.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-getpartitionproperties">IVdsAdvancedDisk::GetPartitionProperties</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-getpartitionproperties">IVdsAdvancedDisk::GetPartitionProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-querypartitions">IVdsAdvancedDisk::QueryPartitions</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-querypartitions">IVdsAdvancedDisk::QueryPartitions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
+<a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_partition_flag">VDS_PARTITION_FLAG</a>
+<a href="/windows/desktop/api/vds/ne-vds-vds_partition_flag">VDS_PARTITION_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>
-
+<a href="/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>

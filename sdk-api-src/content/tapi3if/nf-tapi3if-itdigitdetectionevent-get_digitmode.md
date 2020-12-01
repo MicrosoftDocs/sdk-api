@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>get_DigitMode</b> method gets the indicator of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">line digit mode</a>, such as LINEDIGITMODE_DTMF.
+<a href="/windows/desktop/Tapi/linedigitmode--constants">line digit mode</a>, such as LINEDIGITMODE_DTMF.
 
 ## -parameters
 
@@ -106,5 +106,4 @@ The <i>pDigitMode</i> parameter is not a valid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdigitdetectionevent">ITDigitDetectionEvent</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdigitdetectionevent">ITDigitDetectionEvent</a>

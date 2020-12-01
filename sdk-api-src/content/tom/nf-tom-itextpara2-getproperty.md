@@ -68,7 +68,7 @@ The property value.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -84,9 +84,8 @@ The <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomParaPropMathAlign</a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara2-setproperty">ITextPara2::SetProperty</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextpara2-setproperty">ITextPara2::SetProperty</a>

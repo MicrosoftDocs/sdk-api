@@ -63,7 +63,7 @@ An optional pointer to the unique id that identifies the lookup table.
 
 ### -param resourceTextureProperties [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ns-d2d1effectauthor-d2d1_resource_texture_properties">D2D1_RESOURCE_TEXTURE_PROPERTIES</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d2d1effectauthor/ns-d2d1effectauthor-d2d1_resource_texture_properties">D2D1_RESOURCE_TEXTURE_PROPERTIES</a>*</b>
 
 The properties used to create the resource texture.
 
@@ -87,7 +87,7 @@ The size, in bytes, of the data.
 
 ### -param resourceTexture [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1resourcetexture">ID2D1ResourceTexture</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1resourcetexture">ID2D1ResourceTexture</a>**</b>
 
 The returned texture that can be used as a resource in a Direct2D effect.
 
@@ -118,5 +118,4 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
-
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>

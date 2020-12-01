@@ -100,9 +100,8 @@ NULL value passed to <i>pfReceivePostViewSamples</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-setreceivepostviewsamples">IWMWriterPostView::SetReceivePostViewSamples</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-setreceivepostviewsamples">IWMWriterPostView::SetReceivePostViewSamples</a>

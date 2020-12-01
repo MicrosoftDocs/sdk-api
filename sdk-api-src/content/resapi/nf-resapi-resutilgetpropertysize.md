@@ -56,15 +56,15 @@ Returns the total number of bytes required for a specified property.
 
 ### -param hkeyClusterKey [in]
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">Cluster database</a> key identifying the location of the property to size.
+<a href="/previous-versions/windows/desktop/mscs/cluster-database">Cluster database</a> key identifying the location of the property to size.
 
 ### -param pPropertyTableItem [in]
 
-Pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structure describing the property to size.
+Pointer to a  <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structure describing the property to size.
 
 ### -param pcbOutPropertyListSize [in, out]
 
-Pointer to the total number of bytes required for the property value, which includes the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure and the data.
+Pointer to the total number of bytes required for the property value, which includes the  <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure and the data.
 
 ### -param pnPropertyCount [in, out]
 
@@ -75,7 +75,7 @@ Pointer to the total number of properties. This value is incremented to include 
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
 
 <table>
 <tr>
@@ -108,9 +108,8 @@ The data type of a property specified in the property table does not match the d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
-
+<a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>

@@ -52,11 +52,11 @@ api_name:
 
 Represents items in collections on the COM+ catalog. <b>ICatalogObject</b> enables you to get and put properties exposed by objects in the catalog.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_item">ICatalogCollection::Item</a> method returns a pointer to <b>ICatalogObject</b> when it retrieves an item in the collection.
+The <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-get_item">ICatalogCollection::Item</a> method returns a pointer to <b>ICatalogObject</b> when it retrieves an item in the collection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatalogObject</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICatalogObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatalogObject</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICatalogObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,19 +72,19 @@ The <b>ICatalogObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-ispropertyreadonly">IsPropertyReadOnly</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-ispropertyreadonly">IsPropertyReadOnly</a>
 </td>
 <td align="left" width="63%">
-Indicates whether the specified property can be modified using <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_value">put_Value</a>.
+Indicates whether the specified property can be modified using <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_value">put_Value</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-ispropertywriteonly">IsPropertyWriteOnly</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-ispropertywriteonly">IsPropertyWriteOnly</a>
 </td>
 <td align="left" width="63%">
-Indicates whether the specified property can be read using <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_value">get_Value</a>.
+Indicates whether the specified property can be read using <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_value">get_Value</a>.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Indicates whether the specified property can be read using <a href="https://docs
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_key">Key</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_key">Key</a>
 
 
 </td>
@@ -115,7 +115,7 @@ The key property of the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_name">Name</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_name">Name</a>
 
 
 </td>
@@ -131,7 +131,7 @@ The name property of the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_valid">Valid</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_valid">Valid</a>
 
 
 </td>
@@ -147,7 +147,7 @@ Indicates whether all properties were successfully read from the catalog data st
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_value">Value</a>
+<a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_value">Value</a>
 
 
 </td>
@@ -161,4 +161,3 @@ The value of a named property.
 </td>
 </tr>
 </table>
-

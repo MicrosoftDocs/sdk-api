@@ -50,10 +50,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>ImmDisableTextFrameService</b> is no longer available for use as of Windows Vista. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immdisableime">ImmDisableIME</a>.
+<p class="CCE_Message">[<b>ImmDisableTextFrameService</b> is no longer available for use as of Windows Vista. Instead, use <a href="/windows/desktop/api/imm/nf-imm-immdisableime">ImmDisableIME</a>.
 ]
 
-Disables the text service for the specified thread. For details, see <a href="https://docs.microsoft.com/windows/desktop/TSF/text-services-framework">Text Services Framework</a> (TSF).
+Disables the text service for the specified thread. For details, see <a href="/windows/desktop/TSF/text-services-framework">Text Services Framework</a> (TSF).
 
 ## -parameters
 
@@ -73,9 +73,8 @@ Note that TSF functionality is provided to applications that are not specificall
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

@@ -56,18 +56,18 @@ api_name:
 
 <p class="CCE_Message">[The <b>CRYPT_PKCS8_IMPORT_PARAMS</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPT_PKCS8_IMPORT_PARAMS</b> structure contains a PKCS #8 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> and pointers to callback
-functions. <b>CRYPT_PKCS8_IMPORT_PARAMS</b> is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpkcs8">CryptImportPKCS8</a> function. The first callback supplies the algorithm <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key length</a> needed to  specify the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) into which the key will be imported. If the private key in PKCS #8 is encrypted, the <b>CRYPT_PKCS8_IMPORT_PARAMS</b> structure contains the encrypted private key, and the second callback is used to decrypt this private key.
+The <b>CRYPT_PKCS8_IMPORT_PARAMS</b> structure contains a PKCS #8 <a href="/windows/desktop/SecGloss/p-gly">private key</a> and pointers to callback
+functions. <b>CRYPT_PKCS8_IMPORT_PARAMS</b> is used by the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpkcs8">CryptImportPKCS8</a> function. The first callback supplies the algorithm <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and <a href="/windows/desktop/SecGloss/k-gly">key length</a> needed to  specify the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) into which the key will be imported. If the private key in PKCS #8 is encrypted, the <b>CRYPT_PKCS8_IMPORT_PARAMS</b> structure contains the encrypted private key, and the second callback is used to decrypt this private key.
 
 ## -struct-fields
 
 ### -field PrivateKey
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DIGEST_BLOB</a> structure that contains the PKCS #8 data.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DIGEST_BLOB</a> structure that contains the PKCS #8 data.
 
 ### -field pResolvehCryptProvFunc
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_resolve_hcryptprov_func">PCRYPT_RESOLVE_HCRYPTPROV_FUNC</a> pointer  that points to data used by a user-defined function that retrieves a handle to a CSP.
+A <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_resolve_hcryptprov_func">PCRYPT_RESOLVE_HCRYPTPROV_FUNC</a> pointer  that points to data used by a user-defined function that retrieves a handle to a CSP.
 
 ### -field pVoidResolveFunc
 
@@ -75,7 +75,7 @@ An  <b>LPVOID</b>  value that identifies the function used to retrieve the CSP p
 
 ### -field pDecryptPrivateKeyFunc
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_decrypt_private_key_func">PCRYPT_DECRYPT_PRIVATE_KEY_FUNC</a> pointer that points to  a callback function used to decrypt the private key.
+A <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_decrypt_private_key_func">PCRYPT_DECRYPT_PRIVATE_KEY_FUNC</a> pointer that points to  a callback function used to decrypt the private key.
 
 ### -field pVoidDecryptFunc
 
@@ -83,17 +83,16 @@ An <b>LPVOID</b> value that provides data used for encryption, such as key, init
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8ex">CryptExportPKCS8Ex</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptexportpkcs8ex">CryptExportPKCS8Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpkcs8">CryptImportPKCS8</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpkcs8">CryptImportPKCS8</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_decrypt_private_key_func">PCRYPT_DECRYPT_PRIVATE_KEY_FUNC</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_decrypt_private_key_func">PCRYPT_DECRYPT_PRIVATE_KEY_FUNC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_resolve_hcryptprov_func">PCRYPT_RESOLVE_HCRYPTPROV_FUNC</a>
-
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_resolve_hcryptprov_func">PCRYPT_RESOLVE_HCRYPTPROV_FUNC</a>

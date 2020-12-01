@@ -56,7 +56,7 @@ Creates the presentation clock. The presentation clock is used to schedule the t
 
 ### -param ppPresentationClock
 
-Receives a pointer to the clock's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface. The caller must release the interface.
+Receives a pointer to the clock's <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -64,19 +64,18 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-The caller must shut down the presentation clock by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">IMFShutdown::Shutdown</a> on the clock.
+The caller must shut down the presentation clock by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown">IMFShutdown::Shutdown</a> on the clock.
 
-Typically applications do not create the presentation clock. The Media Session automatically creates the presentation clock. To get a pointer to the presentation clock from the Media Session, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getclock">IMFMediaSession::GetClock</a>.
+Typically applications do not create the presentation clock. The Media Session automatically creates the presentation clock. To get a pointer to the presentation clock from the Media Session, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getclock">IMFMediaSession::GetClock</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/about-the-media-session">About the Media Session</a>
+<a href="/windows/desktop/medfound/about-the-media-session">About the Media Session</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

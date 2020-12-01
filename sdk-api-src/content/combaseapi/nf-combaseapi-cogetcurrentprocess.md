@@ -68,5 +68,4 @@ Using the value returned from a call to <b>CoGetCurrentProcess</b> can help you 
 
 <b>CoGetCurrentProcess</b> returns a value that is effectively unique, because it is not used again until 2³² more threads have been created on the current workstation or until the workstation is restarted.
 
-The value returned by <b>CoGetCurrentProcess</b> will uniquely identify the same thread for the life of the caller. Because thread IDs can be reused without notice as threads are created and destroyed, this value is more reliable than the value returned by the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadid">GetCurrentThreadId</a> function.
-
+The value returned by <b>CoGetCurrentProcess</b> will uniquely identify the same thread for the life of the caller. Because thread IDs can be reused without notice as threads are created and destroyed, this value is more reliable than the value returned by the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentthreadid">GetCurrentThreadId</a> function.

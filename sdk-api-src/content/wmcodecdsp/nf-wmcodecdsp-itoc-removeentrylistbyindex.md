@@ -83,9 +83,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ee264281(v=vs.85)">AddEntryListByIndex</a>
+<a href="/previous-versions/ee264281(v=vs.85)">AddEntryListByIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>

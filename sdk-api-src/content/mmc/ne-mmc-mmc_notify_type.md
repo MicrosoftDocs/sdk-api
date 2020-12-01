@@ -54,9 +54,9 @@ api_name:
 
 The 
 MMC_NOTIFY_TYPE enumeration defines the notifications of user actions that can be sent to a snap-in by the console's Node Manager when it calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">IComponentData::Notify</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontrolbar-controlbarnotify">IExtendControlbar::ControlbarNotify</a>. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-notifications">MMC Notifications</a>.
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">IComponentData::Notify</a>, 
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a>, or 
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendcontrolbar-controlbarnotify">IExtendControlbar::ControlbarNotify</a>. For more information, see <a href="/previous-versions/windows/desktop/mmc/mmc-notifications">MMC Notifications</a>.
 
 ## -enum-fields
 
@@ -203,5 +203,4 @@ Sent by MMC to determine whether the snap-in supports paste operations from anot
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-notifications">MMC Notifications</a>
-
+<a href="/previous-versions/windows/desktop/mmc/mmc-notifications">MMC Notifications</a>

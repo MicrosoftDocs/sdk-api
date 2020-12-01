@@ -56,7 +56,7 @@ The <b>NdrContextHandleInitialize</b> function initializes a new RPC context han
 
 ### -param pStubMsg
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that contains the current status of the RPC stub. Structure is for internal use only; do not modify.
+Pointer to a <a href="/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that contains the current status of the RPC stub. Structure is for internal use only; do not modify.
 
 ### -param pFormat
 
@@ -65,4 +65,3 @@ Pointer to a <b>FORMAT_STRING</b> structure that contains the format of the new 
 ## -returns
 
 Returns a NDR_SCONTEXT structure that provides a newly initialized context on return or raises exception upon error.
-

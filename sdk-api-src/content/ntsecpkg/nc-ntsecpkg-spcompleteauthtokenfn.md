@@ -53,8 +53,8 @@ api_name:
 The <b>SpCompleteAuthToken</b> function completes an authentication token.
 
 The <b>SpCompleteAuthToken</b> function is the dispatch function for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-completeauthtoken">CompleteAuthToken</a> function of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
+<a href="/windows/desktop/api/sspi/nf-sspi-completeauthtoken">CompleteAuthToken</a> function of the 
+<a href="/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Handle of the context to complete.
 ### -param InputBuffer [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure that contains package-specific information for the context.
+<a href="/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a> structure that contains package-specific information for the context.
 
 ## -returns
 
@@ -96,18 +96,17 @@ The handle is not valid.
 SSP/APs must implement the <b>SpCompleteAuthToken</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpCompleteAuthToken</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-completeauthtoken">CompleteAuthToken</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-completeauthtoken">CompleteAuthToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>

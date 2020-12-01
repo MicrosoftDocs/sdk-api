@@ -58,7 +58,7 @@ To create an instance of this interface, call the <b>CoCreateInstance</b> functi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSystemImage</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFileSystemImage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSystemImage</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFileSystemImage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IFileSystemImage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-chooseimagedefaults"> ChooseImageDefaults</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-chooseimagedefaults"> ChooseImageDefaults</a>
 </td>
 <td align="left" width="63%">
 Sets the default file system types and the image size based on the current media.
@@ -82,7 +82,7 @@ Sets the default file system types and the image size based on the current media
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-chooseimagedefaultsformediatype"> ChooseImageDefaultsForMediaType</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-chooseimagedefaultsformediatype"> ChooseImageDefaultsForMediaType</a>
 </td>
 <td align="left" width="63%">
 Sets the default file system types and the image size based on the specified media type.
@@ -91,7 +91,7 @@ Sets the default file system types and the image size based on the specified med
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevel"> get_ISO9660InterchangeLevel</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevel"> get_ISO9660InterchangeLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ISO9660 compatibility level to use when creating the result image.
@@ -100,7 +100,7 @@ Retrieves the ISO9660 compatibility level to use when creating the result image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevelssupported"> get_ISO9660InterchangeLevelsSupported</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_iso9660interchangelevelssupported"> get_ISO9660InterchangeLevelsSupported</a>
 </td>
 <td align="left" width="63%">
 Retrieves the supported ISO9660 compatibility levels.
@@ -109,7 +109,7 @@ Retrieves the supported ISO9660 compatibility levels.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_multisessioninterfaces"> get_MultisessionInterfaces</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_multisessioninterfaces"> get_MultisessionInterfaces</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of multi-session interfaces for the optical media.
@@ -118,7 +118,7 @@ Retrieves the list of multi-session interfaces for the optical media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_stagefiles"> get_StageFiles</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_stagefiles"> get_StageFiles</a>
 </td>
 <td align="left" width="63%">
 Determines if the file system should be staged before the burn.
@@ -127,7 +127,7 @@ Determines if the file system should be staged before the burn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_udfrevision"> get_UDFRevision</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_udfrevision"> get_UDFRevision</a>
 </td>
 <td align="left" width="63%">
 Retrieves the UDF revision level of the imported file system image.
@@ -136,7 +136,7 @@ Retrieves the UDF revision level of the imported file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_iso9660interchangelevel"> put_ISO9660InterchangeLevel</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_iso9660interchangelevel"> put_ISO9660InterchangeLevel</a>
 </td>
 <td align="left" width="63%">
 Sets the ISO9660 compatibility level of the file system image.
@@ -145,7 +145,7 @@ Sets the ISO9660 compatibility level of the file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_multisessioninterfaces"> put_MultisessionInterfaces</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_multisessioninterfaces"> put_MultisessionInterfaces</a>
 </td>
 <td align="left" width="63%">
 Sets the list of multi-session interfaces for the optical media.
@@ -154,7 +154,7 @@ Sets the list of multi-session interfaces for the optical media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_udfrevision"> put_UDFRevision</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_udfrevision"> put_UDFRevision</a>
 </td>
 <td align="left" width="63%">
 Sets the UDF revision level of the file system image.
@@ -163,7 +163,7 @@ Sets the UDF revision level of the file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-calculatediscidentifier">CalculateDiscIdentifier</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-calculatediscidentifier">CalculateDiscIdentifier</a>
 </td>
 <td align="left" width="63%">
 Retrieves a string that identifies a disc and the sessions recorded on the disc.
@@ -172,7 +172,7 @@ Retrieves a string that identifies a disc and the sessions recorded on the disc.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createdirectoryitem">CreateDirectoryItem</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createdirectoryitem">CreateDirectoryItem</a>
 </td>
 <td align="left" width="63%">
 Create a directory item with the specified name.
@@ -181,7 +181,7 @@ Create a directory item with the specified name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createfileitem">CreateFileItem</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createfileitem">CreateFileItem</a>
 </td>
 <td align="left" width="63%">
 Create a file item with the specified name.
@@ -190,7 +190,7 @@ Create a file item with the specified name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createresultimage">CreateResultImage</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-createresultimage">CreateResultImage</a>
 </td>
 <td align="left" width="63%">
 Create the result object that contains the file system and file data.
@@ -199,7 +199,7 @@ Create the result object that contains the file system and file data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-exists">Exists</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-exists">Exists</a>
 </td>
 <td align="left" width="63%">
 Checks for the existence of a given file or directory.
@@ -208,7 +208,7 @@ Checks for the existence of a given file or directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_bootimageoptions">get_BootImageOptions</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_bootimageoptions">get_BootImageOptions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the boot image that you want to add to the file-system image.
@@ -217,7 +217,7 @@ Retrieves the boot image that you want to add to the file-system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint">get_ChangePoint</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint">get_ChangePoint</a>
 </td>
 <td align="left" width="63%">
 Retrieves the change point identifier.
@@ -226,7 +226,7 @@ Retrieves the change point identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_directorycount">get_DirectoryCount</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_directorycount">get_DirectoryCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of directories in the file system image.
@@ -235,7 +235,7 @@ Retrieves the number of directories in the file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filecount">get_FileCount</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filecount">get_FileCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of files in the file system image.
@@ -244,7 +244,7 @@ Retrieves the number of files in the file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filesystemssupported">get_FileSystemsSupported</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filesystemssupported">get_FileSystemsSupported</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of file system types that a client can use to build a file system image.
@@ -253,7 +253,7 @@ Retrieves the list of file system types that a client can use to build a file sy
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filesystemstocreate">get_FileSystemsToCreate</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filesystemstocreate">get_FileSystemsToCreate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the types of file systems to create when generating the result stream.  
@@ -262,7 +262,7 @@ Retrieves the types of file systems to create when generating the result stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_freemediablocks">get_FreeMediaBlocks</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_freemediablocks">get_FreeMediaBlocks</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum number of blocks available for the image.
@@ -271,7 +271,7 @@ Retrieves the maximum number of blocks available for the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_importedvolumename">get_ImportedVolumeName</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_importedvolumename">get_ImportedVolumeName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the volume name provided from an imported file system.
@@ -280,7 +280,7 @@ Retrieves the volume name provided from an imported file system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_root">get_Root</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_root">get_Root</a>
 </td>
 <td align="left" width="63%">
 Retrieves the root directory item.
@@ -289,7 +289,7 @@ Retrieves the root directory item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_sessionstartblock">get_SessionStartBlock</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_sessionstartblock">get_SessionStartBlock</a>
 </td>
 <td align="left" width="63%">
 Retrieves the starting block address for the recording session.
@@ -298,7 +298,7 @@ Retrieves the starting block address for the recording session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_strictfilesystemcompliance">get_StrictFileSystemCompliance</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_strictfilesystemcompliance">get_StrictFileSystemCompliance</a>
 </td>
 <td align="left" width="63%">
 Determines the compliance level for creating and developing the file-system image.
@@ -307,7 +307,7 @@ Determines the compliance level for creating and developing the file-system imag
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_udfrevisionssupported">get_UDFRevisionsSupported</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_udfrevisionssupported">get_UDFRevisionsSupported</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of supported UDF revision levels.
@@ -316,7 +316,7 @@ Retrieves a list of supported UDF revision levels.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_usedblocks">get_UsedBlocks</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_usedblocks">get_UsedBlocks</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of blocks in use.
@@ -325,7 +325,7 @@ Retrieves the number of blocks in use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_userestrictedcharacterset">get_UseRestrictedCharacterSet</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_userestrictedcharacterset">get_UseRestrictedCharacterSet</a>
 </td>
 <td align="left" width="63%">
 Determines if file and directory names should be restricted to using only CP_ANSI characters.
@@ -334,7 +334,7 @@ Determines if file and directory names should be restricted to using only CP_ANS
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumename">get_VolumeName</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumename">get_VolumeName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the volume name for this file system image. 
@@ -343,7 +343,7 @@ Retrieves the volume name for this file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenameiso9660">get_VolumeNameISO9660</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenameiso9660">get_VolumeNameISO9660</a>
 </td>
 <td align="left" width="63%">
 Retrieves the volume name for the ISO9660 system image.
@@ -352,7 +352,7 @@ Retrieves the volume name for the ISO9660 system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenamejoliet">get_VolumeNameJoliet</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenamejoliet">get_VolumeNameJoliet</a>
 </td>
 <td align="left" width="63%">
 Retrieves the volume name for the Joliet system image.
@@ -361,7 +361,7 @@ Retrieves the volume name for the Joliet system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenameudf">get_VolumeNameUDF</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumenameudf">get_VolumeNameUDF</a>
 </td>
 <td align="left" width="63%">
 Retrieves the volume name for the UDF system image.
@@ -370,7 +370,7 @@ Retrieves the volume name for the UDF system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_workingdirectory">get_WorkingDirectory</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_workingdirectory">get_WorkingDirectory</a>
 </td>
 <td align="left" width="63%">
 Retrieves the temporary directory in which stash files are built.
@@ -379,7 +379,7 @@ Retrieves the temporary directory in which stash files are built.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-getdefaultfilesystemforimport">GetDefaultFileSystemForImport</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-getdefaultfilesystemforimport">GetDefaultFileSystemForImport</a>
 </td>
 <td align="left" width="63%">
 Retrieves the file system to import by default.
@@ -388,7 +388,7 @@ Retrieves the file system to import by default.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-identifyfilesystemsondisc">IdentifyFileSystemsOnDisc</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-identifyfilesystemsondisc">IdentifyFileSystemsOnDisc</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the different types of file systems on the optical media.
@@ -397,7 +397,7 @@ Retrieves a list of the different types of file systems on the optical media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem">ImportFileSystem</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importfilesystem">ImportFileSystem</a>
 </td>
 <td align="left" width="63%">
 Imports the default file system on the current disc.
@@ -406,7 +406,7 @@ Imports the default file system on the current disc.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem">ImportSpecificFileSystem</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem">ImportSpecificFileSystem</a>
 </td>
 <td align="left" width="63%">
 Import a specific file system from disc.
@@ -415,7 +415,7 @@ Import a specific file system from disc.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-lockinchangepoint">LockInChangePoint</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-lockinchangepoint">LockInChangePoint</a>
 </td>
 <td align="left" width="63%">
 Locks the file system information at the current change-point level.
@@ -424,7 +424,7 @@ Locks the file system information at the current change-point level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions">put_BootImageOptions</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions">put_BootImageOptions</a>
 </td>
 <td align="left" width="63%">
 Sets the boot image that you want to add to the file-system image.
@@ -433,7 +433,7 @@ Sets the boot image that you want to add to the file-system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_filesystemstocreate">put_FileSystemsToCreate</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_filesystemstocreate">put_FileSystemsToCreate</a>
 </td>
 <td align="left" width="63%">
 Sets the file systems to create when generating the result stream.
@@ -442,7 +442,7 @@ Sets the file systems to create when generating the result stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_freemediablocks">put_FreeMediaBlocks</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_freemediablocks">put_FreeMediaBlocks</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum number of blocks available for the image.
@@ -451,7 +451,7 @@ Sets the maximum number of blocks available for the image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_sessionstartblock">put_SessionStartBlock</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_sessionstartblock">put_SessionStartBlock</a>
 </td>
 <td align="left" width="63%">
 Sets the starting block address for the recording session.
@@ -460,7 +460,7 @@ Sets the starting block address for the recording session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_stagefiles">put_StageFiles</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_stagefiles">put_StageFiles</a>
 </td>
 <td align="left" width="63%">
 Determines if the file system should be staged before the burn.
@@ -469,7 +469,7 @@ Determines if the file system should be staged before the burn.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_strictfilesystemcompliance">put_StrictFileSystemCompliance</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_strictfilesystemcompliance">put_StrictFileSystemCompliance</a>
 </td>
 <td align="left" width="63%">
 Determines the compliance level for creating and developing the file-system image.
@@ -478,7 +478,7 @@ Determines the compliance level for creating and developing the file-system imag
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_userestrictedcharacterset">put_UseRestrictedCharacterSet</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_userestrictedcharacterset">put_UseRestrictedCharacterSet</a>
 </td>
 <td align="left" width="63%">
 Determines if file and directory names should be restricted to using only CP_ANSI characters.
@@ -487,7 +487,7 @@ Determines if file and directory names should be restricted to using only CP_ANS
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_volumename">put_VolumeName</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_volumename">put_VolumeName</a>
 </td>
 <td align="left" width="63%">
 Sets the volume name for this file system image.
@@ -496,7 +496,7 @@ Sets the volume name for this file system image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_workingdirectory">put_WorkingDirectory</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_workingdirectory">put_WorkingDirectory</a>
 </td>
 <td align="left" width="63%">
 Sets the temporary directory in which stash files are built.
@@ -505,7 +505,7 @@ Sets the temporary directory in which stash files are built.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-rollbacktochangepoint">RollbackToChangePoint</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-rollbacktochangepoint">RollbackToChangePoint</a>
 </td>
 <td align="left" width="63%">
 Reverts the image back to the specified change point.
@@ -514,7 +514,7 @@ Reverts the image back to the specified change point.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-setmaxmediablocksfromdevice">SetMaxMediaBlocksFromDevice</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-setmaxmediablocksfromdevice">SetMaxMediaBlocksFromDevice</a>
 </td>
 <td align="left" width="63%">
 Set maximum number of blocks available based on the capabilities of the recorder.
@@ -529,5 +529,4 @@ To create the <b>CFileSystemImage</b> object in a script, use IMAPI2.MsftFileSys
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-dfilesystemimageevents">DFileSystemImageEvents</a>
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-dfilesystemimageevents">DFileSystemImageEvents</a>

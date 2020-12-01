@@ -52,28 +52,27 @@ api_name:
 
 The 
 <b>InternalCreateStream</b> method is called by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream">CreateStream</a> to create a stream object (the caller does the argument checking). It creates and initializes the stream object (using 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-createstreamobject">CreateStreamObject</a>). It uses <b>CoCreateInstance</b> to create a filter graph for the stream. It calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallmultigraph-registerwaitevent">RegisterWaitEvent</a> to start waiting for events on the filter graph. It adds the stream into the call object's list of stream objects. It addrefs the stream pointer and returns it.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itstreamcontrol-createstream">CreateStream</a> to create a stream object (the caller does the argument checking). It creates and initializes the stream object (using 
+<a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-createstreamobject">CreateStreamObject</a>). It uses <b>CoCreateInstance</b> to create a filter graph for the stream. It calls 
+<a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallmultigraph-registerwaitevent">RegisterWaitEvent</a> to start waiting for events on the filter graph. It adds the stream into the call object's list of stream objects. It addrefs the stream pointer and returns it.
 
 ## -parameters
 
 ### -param dwMediaType
 
 Descriptor of 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> for stream.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media type</a> for stream.
 
 ### -param Direction
 
 Descriptor of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">terminal direction</a>.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">terminal direction</a>.
 
 ### -param ppStream
 
 Pointer to array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interfaces.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interfaces.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>
-
+<a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>

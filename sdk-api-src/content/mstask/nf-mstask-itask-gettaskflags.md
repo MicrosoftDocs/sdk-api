@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method returns the flags that modify the behavior of a <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task</a>.
+This method returns the flags that modify the behavior of a <a href="/windows/desktop/TaskSchd/t">task</a>.
 
 ## -parameters
 
@@ -107,17 +107,16 @@ Not enough memory is available.
  
 
 This method is designed to get the flags that only apply to scheduled tasks. In contrast, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getflags">IScheduledWorkItem::GetFlags</a> is used to get the flags that apply to all types of scheduled work items.
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getflags">IScheduledWorkItem::GetFlags</a> is used to get the flags that apply to all types of scheduled work items.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getflags">IScheduledWorkItem::GetFlags</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getflags">IScheduledWorkItem::GetFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-settaskflags">ITask::SetTaskFlags</a>
-
+<a href="/windows/desktop/api/mstask/nf-mstask-itask-settaskflags">ITask::SetTaskFlags</a>

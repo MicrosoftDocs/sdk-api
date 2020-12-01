@@ -57,13 +57,13 @@ Retrieves the Win32 attributes for an item.
 
 ### -param copy [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_item_copy">OFFLINEFILES_ITEM_COPY</a> enumeration value identifying which copy (local or remote) to retrieve the attributes for.
+An <a href="/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_item_copy">OFFLINEFILES_ITEM_COPY</a> enumeration value identifying which copy (local or remote) to retrieve the attributes for.
 
 <b>Windows Vista:  </b>This value must be <b>OFFLINEFILES_ITEM_COPY_LOCAL</b>.
 
 ### -param pdwAttributes [out]
 
-Receives the file attribute mask for the item.  One or more of <b>FILE_ATTRIBUTE_<i>XXXXXX</i></b> as defined in the Windows SDK. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a> function.
+Receives the file attribute mask for the item.  One or more of <b>FILE_ATTRIBUTE_<i>XXXXXX</i></b> as defined in the Windows SDK. For more information, see the <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a> function.
 
 ## -returns
 
@@ -71,5 +71,4 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesfilesysinfo">IOfflineFilesFileSysInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesfilesysinfo">IOfflineFilesFileSysInfo</a>

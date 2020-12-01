@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Provides the <a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a> an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface used to allocate and free item IDs.
+Provides the <a href="/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a> an <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface used to allocate and free item IDs.
 
 ## -parameters
 
 ### -param pmalloc [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface.
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> interface.
 
 ## -returns
 
@@ -64,9 +64,8 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
+<a href="/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder">IDelegateFolder</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder">IDelegateFolder</a>

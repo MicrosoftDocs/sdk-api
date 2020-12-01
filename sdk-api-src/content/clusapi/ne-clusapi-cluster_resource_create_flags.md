@@ -57,8 +57,8 @@ Determines which resource monitor a given resource will be assigned to.
 
 ### -field CLUSTER_RESOURCE_DEFAULT_MONITOR
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> determines the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a> to which the new resource will be 
+The <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a> determines the 
+      <a href="/previous-versions/windows/desktop/mscs/resource-monitor">Resource Monitor</a> to which the new resource will be 
       assigned.
 
 ### -field CLUSTER_RESOURCE_SEPARATE_MONITOR
@@ -69,30 +69,29 @@ Causes the Cluster service to create a separate Resource Monitor dedicated exclu
 ### -field CLUSTER_RESOURCE_VALID_FLAGS
 
 Contains all valid flags for the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_create_flags">CLUSTER_RESOURCE_CREATE_FLAGS</a> 
+      <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_create_flags">CLUSTER_RESOURCE_CREATE_FLAGS</a> 
       enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createclusterresource">CreateClusterResource</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-createclusterresource">CreateClusterResource</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusresdependencies-createitem">CreateItem Method of the ClusResDependencies Object</a>
+<a href="/previous-versions/windows/desktop/mscs/clusresdependencies-createitem">CreateItem Method of the ClusResDependencies Object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusresdependents-createitem">CreateItem Method of the ClusResDependents Object</a>
+<a href="/previous-versions/windows/desktop/mscs/clusresdependents-createitem">CreateItem Method of the ClusResDependents Object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusrestyperesources-createitem">CreateItem Method of the ClusResTypeResources Object</a>
+<a href="/previous-versions/windows/desktop/mscs/clusrestyperesources-createitem">CreateItem Method of the ClusResTypeResources Object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusresources-createitem">CreateItem Method of the ClusResources Object</a>
+<a href="/previous-versions/windows/desktop/mscs/clusresources-createitem">CreateItem Method of the ClusResources Object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

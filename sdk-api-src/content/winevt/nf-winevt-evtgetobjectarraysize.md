@@ -56,7 +56,7 @@ Gets the number of elements in the array of objects.
 
 ### -param ObjectArray [in]
 
-A handle to an array of objects that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetpublishermetadataproperty">EvtGetPublisherMetadataProperty</a> function returns.
+A handle to an array of objects that the <a href="/windows/desktop/api/winevt/nf-winevt-evtgetpublishermetadataproperty">EvtGetPublisherMetadataProperty</a> function returns.
 
 ### -param ObjectArraySize [out]
 
@@ -89,7 +89,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. To get the error code, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+The function failed. To get the error code, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 </td>
 </tr>
@@ -97,9 +97,8 @@ The function failed. To get the error code, call the <a href="https://docs.micro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetobjectarrayproperty">EvtGetObjectArrayProperty</a>
+<a href="/windows/desktop/api/winevt/nf-winevt-evtgetobjectarrayproperty">EvtGetObjectArrayProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgetpublishermetadataproperty">EvtGetPublisherMetadataProperty</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtgetpublishermetadataproperty">EvtGetPublisherMetadataProperty</a>

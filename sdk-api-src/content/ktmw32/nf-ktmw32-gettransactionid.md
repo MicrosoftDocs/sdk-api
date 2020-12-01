@@ -66,12 +66,11 @@ A pointer to a variable that receives the ID of the transaction.
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is 0 (zero). To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is 0 (zero). To get extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 
 The following list identifies the possible error codes:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
-
+<a href="/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>

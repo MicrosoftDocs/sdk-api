@@ -238,7 +238,7 @@ The connection type is demand-dial. A connection of this type comes up in respon
 
 Type: <b>UCHAR</b>
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-net_if_access_type">IF_ACCESS_TYPE</a> enumeration that specifies the access type for the interface.
+A value of the <a href="/windows/desktop/api/ifdef/ne-ifdef-net_if_access_type">IF_ACCESS_TYPE</a> enumeration that specifies the access type for the interface.
 
 
 <b>Windows Server 2003, Windows 2000 Server with SP1 and Windows XP/2000:  </b>The possible values for this member are defined in the Ipifcons.h header file.
@@ -328,9 +328,8 @@ The optional <b>InterfaceGuid</b> member is often set for dial-up interfaces, an
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-nhpallocateandgetinterfaceinfofromstack">NhpAllocateAndGetInterfaceInfoFromStack</a>
-
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-nhpallocateandgetinterfaceinfofromstack">NhpAllocateAndGetInterfaceInfoFromStack</a>

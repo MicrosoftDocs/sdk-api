@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_ENUM_OID_FUNCTION</b> callback function  is used with the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidfunction">CryptEnumOIDFunction</a> function.
+The <b>CRYPT_ENUM_OID_FUNCTION</b> callback function  is used with the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidfunction">CryptEnumOIDFunction</a> function.
 
 ## -parameters
 
@@ -107,7 +107,7 @@ Array that specifies the size, in bytes, of corresponding elements of the <i>rgp
 #### - rgdwValueType [in]
 
 Array of value types. Each entry in the array will be one of the value types 
-listed for <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionvalue">CryptGetOIDFunctionValue</a> under <i>pdwValueType</i>.
+listed for <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionvalue">CryptGetOIDFunctionValue</a> under <i>pdwValueType</i>.
 
 
 #### - rgpbValueData [in]
@@ -125,9 +125,8 @@ Returns <b>TRUE</b> if the function succeeds, <b>FALSE</b> if it fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidfunction">CryptEnumOIDFunction</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidfunction">CryptEnumOIDFunction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionvalue">CryptGetOIDFunctionValue</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetoidfunctionvalue">CryptGetOIDFunctionValue</a>

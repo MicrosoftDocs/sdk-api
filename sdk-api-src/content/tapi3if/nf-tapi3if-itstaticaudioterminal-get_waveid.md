@@ -67,11 +67,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 All MSPs must implement the 
 <b>get_WaveId</b> method on their audio terminals for TAPI's association of phone devices and audio terminals to work for calls on that MSP's addresses. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstaticaudioterminal">ITStaticAudioTerminal</a> for what to do for audio terminals that are not accessible via standard Windows audio APIs.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstaticaudioterminal">ITStaticAudioTerminal</a> for what to do for audio terminals that are not accessible via standard Windows audio APIs.
 
 All other terminals must return the correct wave ID, even if the internal implementation of the terminal does not use wave. In such cases, a mapping should be possible between the identifier used in the nonwave APIs and the wave ID. The MSP must perform this mapping.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstaticaudioterminal">ITStaticAudioTerminal</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstaticaudioterminal">ITStaticAudioTerminal</a>

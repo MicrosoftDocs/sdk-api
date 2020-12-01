@@ -6,7 +6,7 @@ helpviewer_keywords: ["WINBIO_DATA_FLAG_INTEGRITY","WINBIO_DATA_FLAG_INTERMEDIAT
 old-location: secbiomet\winbiocapturesamplewithcallback.htm
 tech.root: SecBioMet
 ms.assetid: a99296c8-89da-4b2c-9a1b-fc10700ad48d
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, WinBioCaptureSampleWithCallback, WinBioCaptureSampleWithCallback function [Windows Biometric Framework API], secbiomet.winbiocapturesamplewithcallback, winbio/WinBioCaptureSampleWithCallback
 req.header: winbio.h
 req.include-header: Winbio.h
@@ -59,10 +59,10 @@ Captures a biometric sample asynchronously and returns the raw or processed data
 <div class="alert"><b>Important</b>  <p class="note">We recommend that, beginning with Windows 8, you no longer use this function to start an asynchronous operation. Instead, do the following:
 
 <ul>
-<li>Implement a <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nc-winbio-pwinbio_async_completion_callback">PWINBIO_ASYNC_COMPLETION_CALLBACK</a> function to receive notice when the operation completes.</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a> function. Pass the address of your callback in the <i>CallbackRoutine</i> parameter. Pass  <b>WINBIO_ASYNC_NOTIFY_CALLBACK</b> in the <i>NotificationMethod</i> parameter. Retrieve an asynchronous session handle.</li>
-<li>Use the asynchronous session handle to call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesample">WinBioCaptureSample</a>. When the operation finishes, the Windows Biometric Framework will allocate and initialize a  <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure with the results and invoke your callback with a pointer to the results structure.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> from your callback implementation to release the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure after you have finished using it.</li>
+<li>Implement a <a href="/windows/desktop/api/winbio/nc-winbio-pwinbio_async_completion_callback">PWINBIO_ASYNC_COMPLETION_CALLBACK</a> function to receive notice when the operation completes.</li>
+<li>Call the <a href="/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a> function. Pass the address of your callback in the <i>CallbackRoutine</i> parameter. Pass  <b>WINBIO_ASYNC_NOTIFY_CALLBACK</b> in the <i>NotificationMethod</i> parameter. Retrieve an asynchronous session handle.</li>
+<li>Use the asynchronous session handle to call <a href="/windows/desktop/api/winbio/nf-winbio-winbiocapturesample">WinBioCaptureSample</a>. When the operation finishes, the Windows Biometric Framework will allocate and initialize a  <a href="/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure with the results and invoke your callback with a pointer to the results structure.</li>
+<li>Call <a href="/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> from your callback implementation to release the <a href="/windows/desktop/api/winbio/ns-winbio-winbio_async_result">WINBIO_ASYNC_RESULT</a> structure after you have finished using it.</li>
 </ul>
 </div>
 <div> </div>
@@ -89,29 +89,29 @@ A <b>WINBIO_BIR_PURPOSE</b> bitmask that specifies the intended use of the sampl
 
 A value that specifies the type of processing to be applied to the captured sample. This can be a bitwise <b>OR</b> of the following security and processing level flags:
 
+* **WINBIO_DATA_FLAG_PRIVACY**
 
+Encrypt the sample.
 
-##### )
+* **WINBIO_DATA_FLAG_INTEGRITY**
 
+Sign the sample or protect it by using a message authentication code (MAC).
 
+* **WINBIO_DATA_FLAG_SIGNED**
 
-##### )
+If this flag and the WINBIO_DATA_FLAG_INTEGRITYflag are set, sign the sample. If this flag is not set but the WINBIO_DATA_FLAG_INTEGRITY flag is set, compute a MAC.
 
+* **WINBIO_DATA_FLAG_RAW**
 
+Return the sample exactly as it was captured by the sensor.
 
-###### )
+* **WINBIO_DATA_FLAG_INTERMEDIATE**
 
+Return the sample after it has been cleaned and filtered.
 
+* **WINBIO_DATA_FLAG_PROCESSED**
 
-##### )
-
-
-
-##### )
-
-
-
-##### )
+Return the sample after it is ready to be used for the purpose specified by the <mark type="param">Purpose</mark> parameter.
 
 ### -param CaptureCallback [in]
 
@@ -123,7 +123,7 @@ Address of an application-defined data structure that is passed to the callback 
 
 ## -returns
 
-If the function succeeds, it returns <b>S_OK</b>. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function succeeds, it returns <b>S_OK</b>. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -193,7 +193,7 @@ The <b>WinBioCaptureSampleWithCallback</b> function captures samples asynchronou
 
 Valid combinations of the <i>Purpose</i> and <i>Flags</i> parameters depend on the capabilities of the biometric unit being used. Consult the vendor sensor  documentation to determine what combinations are supported and how they affect the captured data.
 
-Callers are responsible for releasing the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure returned by the <i>Sample</i> parameter.
+Callers are responsible for releasing the <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure returned by the <i>Sample</i> parameter.
 
 The callback routine must have the following signature:
 
@@ -348,5 +348,4 @@ e_Exit:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiocapturesample">WinBioCaptureSample</a>
-
+<a href="/windows/desktop/api/winbio/nf-winbio-winbiocapturesample">WinBioCaptureSample</a>

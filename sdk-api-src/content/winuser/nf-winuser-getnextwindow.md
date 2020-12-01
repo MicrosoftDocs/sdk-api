@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves a handle to the next or previous window in the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Z-Order</a>. The next window is below the specified window; the previous window is above.
+Retrieves a handle to the next or previous window in the <a href="/windows/desktop/winmsg/window-features">Z-Order</a>. The next window is below the specified window; the previous window is above.
 
 If the specified window is a topmost window, the function searches for a topmost window. If the specified window is a top-level window, the function searches for a top-level window. If the specified window is a child window, the function searches for a child window.
 
@@ -99,7 +99,7 @@ Returns a handle to the window above the given window.
 
 ## -remarks
 
-This function is implemented as a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a> function.
+This function is implemented as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a> function.
 
 <pre class="syntax" xml:space="preserve"><code>#define GetNextWindow(hWnd, wCmd) GetWindow(hWnd, wCmd)</code></pre>
 
@@ -109,11 +109,11 @@ This function is implemented as a call to the <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-gettopwindow">GetTopWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-gettopwindow">GetTopWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
 
 
 
@@ -121,5 +121,4 @@ This function is implemented as a call to the <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

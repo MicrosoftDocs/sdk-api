@@ -52,11 +52,11 @@ api_name:
 
 Controls the behavior of an event object, the object that fires an event to its subscribers.
 
-The <b>IEventControl</b> interface differs from the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a> interface in that it supports only one interface for the event object.
+The <b>IEventControl</b> interface differs from the <a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a> interface in that it supports only one interface for the event object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventControl</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEventControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventControl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEventControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IEventControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventcontrol-getsubscriptions">GetSubscriptions</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventcontrol-getsubscriptions">GetSubscriptions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the collection of subscriptions associated with an event method.
@@ -81,7 +81,7 @@ Retrieves the collection of subscriptions associated with an event method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventcontrol-setdefaultquery">SetDefaultQuery</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventcontrol-setdefaultquery">SetDefaultQuery</a>
 </td>
 <td align="left" width="63%">
 Sets the default query to determine subscribers.
@@ -90,7 +90,7 @@ Sets the default query to determine subscribers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventcontrol-setpublisherfilter">SetPublisherFilter</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventcontrol-setpublisherfilter">SetPublisherFilter</a>
 </td>
 <td align="left" width="63%">
 Assigns a publisher filter to an event method.
@@ -109,7 +109,7 @@ Assigns a publisher filter to an event method.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventcontrol-get_allowinprocactivation">AllowInprocActivation</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventcontrol-get_allowinprocactivation">AllowInprocActivation</a>
 
 
 </td>
@@ -123,4 +123,3 @@ Indicates whether subscribers can be activated in the publisher's process.
 </td>
 </tr>
 </table>
-

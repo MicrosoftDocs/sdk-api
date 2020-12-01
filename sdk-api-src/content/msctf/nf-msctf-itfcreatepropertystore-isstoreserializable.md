@@ -56,15 +56,15 @@ Determines if a property store can be stored as persistent data.
 
 ### -param guidProp [in]
 
-Contains the type identifier of the property. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-gettype">ITfPropertyStore::GetType</a>.
+Contains the type identifier of the property. For more information, see <a href="/windows/desktop/api/msctf/nf-msctf-itfpropertystore-gettype">ITfPropertyStore::GetType</a>.
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that contains the text covered by the property store.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that contains the text covered by the property store.
 
 ### -param pPropStore [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a> object.
+Pointer to the <a href="/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a> object.
 
 ### -param pfSerializable [out]
 
@@ -95,4 +95,3 @@ The method was successful.
 ## -see-also
 
 [ITfCreatePropertyStore interface](nn-msctf-itfcreatepropertystore.md), [ITfPropertyStore interface](nn-msctf-itfpropertystore.md), [ITfPropertyStore::GetType](nf-msctf-itfpropertystore-gettype.md), [ITfRange interface](nn-msctf-itfrange.md)
-

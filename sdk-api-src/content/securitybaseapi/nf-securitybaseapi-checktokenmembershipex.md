@@ -78,5 +78,4 @@ Flags that affect the behavior of the function. Currently the only valid flag is
 
 If the function succeeds, it returns <b>TRUE</b>.
 
-If the function fails, it returns zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+If the function fails, it returns zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

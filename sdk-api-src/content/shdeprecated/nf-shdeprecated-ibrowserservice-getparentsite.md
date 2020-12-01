@@ -57,9 +57,9 @@ Deprecated. Retrieves the browser parent's in-place client site.
 
 ### -param ppipsite [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>**</b>
+Type: <b><a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>**</b>
 
-The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> that indicates the browser parent's in-place client site.
+The address of a pointer to an <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> that indicates the browser parent's in-place client site.
 
 ## -returns
 
@@ -70,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 A client site is the display site for embedded objects and provides position and conceptual information about the object.
-

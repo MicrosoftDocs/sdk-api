@@ -72,5 +72,4 @@ Called by Windows Media Player to obtain the title of a given preset.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
-
+<a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>

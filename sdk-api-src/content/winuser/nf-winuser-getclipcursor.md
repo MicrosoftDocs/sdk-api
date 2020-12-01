@@ -69,24 +69,24 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The cursor is a shared resource. If an application confines the cursor with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a> function, it must later release the cursor by using <b>ClipCursor</b> before relinquishing control to another application. 
+The cursor is a shared resource. If an application confines the cursor with the <a href="/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a> function, it must later release the cursor by using <b>ClipCursor</b> before relinquishing control to another application. 
 
 The calling process must have <b>WINSTA_READATTRIBUTES</b> access to the window station. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-cursors">Confining a Cursor</a>.
+For an example, see <a href="/windows/desktop/menurc/using-cursors">Confining a Cursor</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a>
 
 
 
@@ -94,11 +94,11 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
+<a href="/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorpos">GetCursorPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcursorpos">GetCursorPos</a>
 
 
 
@@ -111,4 +111,3 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <b>Reference</b>
-

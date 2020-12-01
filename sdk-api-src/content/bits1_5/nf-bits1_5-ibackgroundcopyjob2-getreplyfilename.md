@@ -57,7 +57,7 @@ Retrieves the name of the file that contains the reply data from the server appl
 ### -param pReplyFileName [out]
 
 Null-terminated string that contains the full path to the reply file. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>pReplyFileName</i> when done.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>pReplyFileName</i> when done.
 
 ## -returns
 
@@ -95,11 +95,11 @@ This method is not implemented for jobs of type <b>BG_JOB_TYPE_DOWNLOAD</b> or <
 ## -remarks
 
 To specify a reply file name, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setreplyfilename">IBackgroundCopyJob2::SetReplyFileName</a> method. If you did not specify a name, the 
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setreplyfilename">IBackgroundCopyJob2::SetReplyFileName</a> method. If you did not specify a name, the 
 <b>GetReplyFileName</b> method returns the name that BITS generated for you. If you did not specify a name and you called this method before adding a file to the job, <i>pReplyFileName</i> is set to <b>NULL</b>.
 
 You must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">IBackgroundCopyJob::Complete</a> method before opening and reading the reply file; the reply file is not available to the client until you call the 
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-complete">IBackgroundCopyJob::Complete</a> method before opening and reading the reply file; the reply file is not available to the client until you call the 
 <b>Complete</b> method.
 
 The file is empty if the server application did not provide a reply.
@@ -109,15 +109,14 @@ The file is empty if the server application did not provide a reply.
 
 For an example that uses the 
 <b>GetReplyFileName</b> method, see 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/retrieving-the-reply-from-an-upload-reply-job">Retrieving the Reply From an Upload-Reply Job</a>.
+<a href="/windows/desktop/Bits/retrieving-the-reply-from-an-upload-reply-job">Retrieving the Reply From an Upload-Reply Job</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplydata">IBackgroundCopyJob2::GetReplyData</a>
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplydata">IBackgroundCopyJob2::GetReplyData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setreplyfilename">IBackgroundCopyJob2::SetReplyFileName</a>
-
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setreplyfilename">IBackgroundCopyJob2::SetReplyFileName</a>

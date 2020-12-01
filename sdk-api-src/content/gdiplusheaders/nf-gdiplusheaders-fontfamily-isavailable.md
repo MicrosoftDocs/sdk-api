@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>FontFamily::IsAvailable</b> method determines whether this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object was created successfully.
+The <b>FontFamily::IsAvailable</b> method determines whether this <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object was created successfully.
 
 ## -parameters
 
@@ -59,17 +59,16 @@ The <b>FontFamily::IsAvailable</b> method determines whether this <a href="https
 
 Type: <b>BOOL</b>
 
-If this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object was created successfully, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+If this <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object was created successfully, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-font-families-and-fonts-use">Constructing Font Families and Fonts</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-constructing-font-families-and-fonts-use">Constructing Font Families and Fonts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-getlaststatus">FontFamily::GetLastStatus</a>
-
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-fontfamily-getlaststatus">FontFamily::GetLastStatus</a>

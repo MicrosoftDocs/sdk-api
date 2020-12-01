@@ -46,6 +46,7 @@ api_location:
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
  - GetWindowDC
+req.apiset: ext-ms-win-ntuser-draw-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetWindowDC function
@@ -63,7 +64,7 @@ The <b>GetWindowDC</b> function retrieves the device context (DC) for the entire
 
 A handle to the window with a device context that is to be retrieved. If this value is <b>NULL</b>, <b>GetWindowDC</b> retrieves the device context for the entire screen.
 
-If this parameter is <b>NULL</b>, <b>GetWindowDC</b> retrieves the device context for the primary display monitor. To get the device context for other display monitors, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a> functions.
+If this parameter is <b>NULL</b>, <b>GetWindowDC</b> retrieves the device context for the primary display monitor. To get the device context for other display monitors, use the <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaymonitors">EnumDisplayMonitors</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a> functions.
 
 ## -returns
 
@@ -75,33 +76,32 @@ If the function fails, the return value is <b>NULL</b>, indicating an error or a
 
 <b>GetWindowDC</b> is intended for special painting effects within a window's nonclient area. Painting in nonclient areas of any window is not recommended.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function can be used to retrieve the dimensions of various parts of the nonclient area, such as the title bar, menu, and scroll bars.
+The <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function can be used to retrieve the dimensions of various parts of the nonclient area, such as the title bar, menu, and scroll bars.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a> function can be used to retrieve a device context for the entire screen.
+The <a href="/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a> function can be used to retrieve a device context for the entire screen.
 
-After painting is complete, the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-releasedc">ReleaseDC</a> function must be called to release the device context. Not releasing the window device context has serious effects on painting requested by applications.
+After painting is complete, the <a href="/windows/desktop/api/winuser/nf-winuser-releasedc">ReleaseDC</a> function must be called to release the device context. Not releasing the window device context has serious effects on painting requested by applications.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-releasedc">ReleaseDC</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-releasedc">ReleaseDC</a>

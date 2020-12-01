@@ -60,10 +60,9 @@ This method can return one of these values.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-showcontextmenu">IContextMenuProvider::ShowContextMenu</a> automatically clears the context menu after that displays it. Nevertheless, it is a good practice to call 
+<a href="/windows/desktop/api/mmc/nf-mmc-icontextmenuprovider-showcontextmenu">IContextMenuProvider::ShowContextMenu</a> automatically clears the context menu after that displays it. Nevertheless, it is a good practice to call 
 <b>EmptyMenuList</b> before beginning to build a context menu.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>

@@ -58,7 +58,7 @@ The <b>BCRYPT_PSS_PADDING_INFO</b> structure is used to provide options for the 
 
 ### -field pszAlgId
 
-A pointer to a null-terminated Unicode string that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic algorithm</a> to use to create the padding. This algorithm must be a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hashing algorithm</a>.
+A pointer to a null-terminated Unicode string that identifies the <a href="/windows/desktop/SecGloss/c-gly">cryptographic algorithm</a> to use to create the padding. This algorithm must be a <a href="/windows/desktop/SecGloss/h-gly">hashing algorithm</a>.
 
 ### -field cbSalt
 
@@ -66,9 +66,8 @@ The size, in bytes, of the random salt to use for the padding.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsignhash">BCryptSignHash</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsignhash">BCryptSignHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptverifysignature">BCryptVerifySignature</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptverifysignature">BCryptVerifySignature</a>

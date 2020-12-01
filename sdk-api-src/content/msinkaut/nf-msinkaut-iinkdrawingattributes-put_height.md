@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the height of the pen when drawing ink with the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object.
+Gets or sets the height of the pen when drawing ink with the <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes</a> object.
 
 
 
@@ -65,7 +65,7 @@ This property is read/write.
 
 ## -remarks
 
-This property applies only to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkpentip">Rectangle</a> pen tip. The value represents the height of the side of the rectangle. If using the <b>Ball</b> pen tip then the height of the pen tip is equal to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_width">Width</a> property, and the <b>Height</b> property is ignored.
+This property applies only to the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkpentip">Rectangle</a> pen tip. The value represents the height of the side of the rectangle. If using the <b>Ball</b> pen tip then the height of the pen tip is equal to the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_width">Width</a> property, and the <b>Height</b> property is ignored.
 
 Precision is limited to 1/1000 (three digits to the right of the decimal point). For example, if you specify a value of 2.0006, the most precise measurement is 2.001.
 
@@ -75,17 +75,16 @@ Precision is limited to 1/1000 (three digits to the right of the decimal point).
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
+<a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkpentip">InkPenTip Enumeration</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkpentip">InkPenTip Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_pentip">PenTip Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_pentip">PenTip Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_width">Width Property [InkDrawingAttributes Class]</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_width">Width Property [InkDrawingAttributes Class]</a>

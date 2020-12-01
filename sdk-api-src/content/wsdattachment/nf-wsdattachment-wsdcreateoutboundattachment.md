@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdoutboundattachment">IWSDOutboundAttachment</a> object.
+Creates an <a href="/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdoutboundattachment">IWSDOutboundAttachment</a> object.
 
 ## -parameters
 
 ### -param ppAttachment [out]
 
-Returns a reference to the initialized <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdoutboundattachment">IWSDOutboundAttachment</a> object. Cannot be <b>NULL</b>.
+Returns a reference to the initialized <a href="/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdoutboundattachment">IWSDOutboundAttachment</a> object. Cannot be <b>NULL</b>.
 
 ## -returns
 
@@ -101,4 +101,3 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
-

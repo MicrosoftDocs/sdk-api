@@ -50,5 +50,4 @@ api_name:
 
 ## -description
 
-The <b>IAzRoleAssignments</b> interface represents a collection of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> objects.
-
+The <b>IAzRoleAssignments</b> interface represents a collection of <a href="/windows/desktop/api/azroles/nn-azroles-iazroleassignment">IAzRoleAssignment</a> objects.

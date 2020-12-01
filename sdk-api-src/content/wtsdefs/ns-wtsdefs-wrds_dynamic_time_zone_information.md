@@ -68,7 +68,7 @@ A string that contains a descriptive name for standard time on the client. Examp
 
 ### -field StandardDate
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_systemtime">WTS_SYSTEMTIME</a> structure that contains the date and local time when the transition from daylight saving time to standard time occurs on the client. If this field is specified, the <b>DaylightDate</b> member should also be specified.
+A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_systemtime">WTS_SYSTEMTIME</a> structure that contains the date and local time when the transition from daylight saving time to standard time occurs on the client. If this field is specified, the <b>DaylightDate</b> member should also be specified.
 
 ### -field StandardBias
 
@@ -80,7 +80,7 @@ A string that contains a descriptive name for daylight saving time on the client
 
 ### -field DaylightDate
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_systemtime">WTS_SYSTEMTIME</a> structure that contains the date and local time when the transition from standard time to daylight saving time occurs on the client. If this field is specified, the <b>StandardDate</b> member should also be specified.
+A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_systemtime">WTS_SYSTEMTIME</a> structure that contains the date and local time when the transition from standard time to daylight saving time occurs on the client. If this field is specified, the <b>StandardDate</b> member should also be specified.
 
 ### -field DaylightBias
 
@@ -96,9 +96,8 @@ Whether DynamicDaylightTime is disabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-queryproperty">QueryProperty</a>
-
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-queryproperty">QueryProperty</a>

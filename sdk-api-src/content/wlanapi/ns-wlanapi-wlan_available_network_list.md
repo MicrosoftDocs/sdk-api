@@ -78,9 +78,8 @@ This member is not used by the wireless service. Applications can use this membe
 
 ### -field Network
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a> structures containing interface information.
+An array of <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network">WLAN_AVAILABLE_NETWORK</a> structures containing interface information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetavailablenetworklist">WlanGetAvailableNetworkList</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetavailablenetworklist">WlanGetAvailableNetworkList</a>

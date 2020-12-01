@@ -62,12 +62,12 @@ The handle to the line device for which the new filter is to be set.
 ### -param dwLineStates
 
 A bit array that identifies for which line device status changes a message is to be sent to TAPI. This parameter uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevstate--constants">LINEDEVSTATE_ constants</a>.
+<a href="/windows/desktop/Tapi/linedevstate--constants">LINEDEVSTATE_ constants</a>.
 
 ### -param dwAddressStates
 
 A bit array that identifies for which address status changes a message is to be sent to TAPI. This parameter uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddressstate--constants">LINEADDRESSSTATE_ constants</a>.
+<a href="/windows/desktop/Tapi/lineaddressstate--constants">LINEADDRESSSTATE_ constants</a>.
 
 ## -returns
 
@@ -78,7 +78,7 @@ LINEERR_INVALADDRESSSTATE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALLINEHANDLE, LI
 ## -remarks
 
 The service provider returns LINEERR_INVALLINESTATE if the <i>dwLineStates</i> parameter contains one or more bits that are not 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevstate--constants">LINEDEVSTATE_ constants</a>.
+<a href="/windows/desktop/Tapi/linedevstate--constants">LINEDEVSTATE_ constants</a>.
 
  Telephony defines a number of messages that notify applications about events occurring on lines and addresses. The sets of all change messages in which all applications are interested can be much smaller than the set of possible messages. This procedure allows TAPI to tell the service provider the reduced set of messages to deliver. The service provider delivers all of the messages it supports, within the specified set. It is permitted to deliver more (they are filtered out by TAPI), but is discouraged from doing so for performance reasons. If TAPI requests delivery of a particular message type that is not produced by the provider, the provider nevertheless accepts the request but simply does not produce the message. By default, address and line status reporting is initially disabled for a line.
 
@@ -88,21 +88,20 @@ Device state changes regarding Open and Close are not reported, because at the T
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddressstate--constants">LINEADDRESSSTATE_ Constants</a>
+<a href="/windows/desktop/Tapi/lineaddressstate--constants">LINEADDRESSSTATE_ Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevstate--constants">LINEDEVSTATE_ Constants</a>
+<a href="/windows/desktop/Tapi/linedevstate--constants">LINEDEVSTATE_ Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725215(v=vs.85)">LINE_ADDRESSSTATE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725215(v=vs.85)">LINE_ADDRESSSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725220(v=vs.85)">LINE_CLOSE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725220(v=vs.85)">LINE_CLOSE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725231(v=vs.85)">LINE_LINEDEVSTATE</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms725231(v=vs.85)">LINE_LINEDEVSTATE</a>

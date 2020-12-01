@@ -73,7 +73,7 @@ The value type for the elements
 ### -param array
 
 A void pointer to the values written to <i>writer</i>.  The size of the items is determined by  value type.
-          <div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_value_type">WS_VALUE_TYPE</a> for more information.
+          <div class="alert"><b>Note</b>  See <a href="/windows/desktop/api/webservices/ne-webservices-ws_value_type">WS_VALUE_TYPE</a> for more information.
         </div>
 <div> </div>
 
@@ -91,7 +91,7 @@ The total number of items to write from the array.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -99,6 +99,5 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-This function is semantically equivalent to using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartelement">WsWriteStartElement</a>,
-        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteendelement">WsWriteEndElement</a> in a loop, but is more efficient.
-
+This function is semantically equivalent to using <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartelement">WsWriteStartElement</a>,
+        <a href="/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendelement">WsWriteEndElement</a> in a loop, but is more efficient.

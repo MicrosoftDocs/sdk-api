@@ -69,5 +69,4 @@ Your application should check whether all input ranges are supported by the reco
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizercontext2">IInkRecognizerContext2 Interface</a>
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizercontext2">IInkRecognizerContext2 Interface</a>

@@ -60,7 +60,7 @@ The <b>WLAN_INTERFACE_CAPABILITY</b> structure contains information about the ca
 
 ### -field interfaceType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ne-wlanapi-wlan_interface_type">WLAN_INTERFACE_TYPE</a> value that indicates the type of the interface.
+A <a href="/windows/desktop/api/wlanapi/ne-wlanapi-wlan_interface_type">WLAN_INTERFACE_TYPE</a> value that indicates the type of the interface.
 
 ### -field bDot11DSupported
 
@@ -80,9 +80,8 @@ Contains the number of supported PHY types.
 
 ### -field dot11PhyTypes
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/NativeWiFi/dot11-phy-type">DOT11_PHY_TYPE</a> values that specify the supported PHY types. WLAN_MAX_PHY_INDEX is set to 64.
+An array of <a href="/windows/desktop/NativeWiFi/dot11-phy-type">DOT11_PHY_TYPE</a> values that specify the supported PHY types. WLAN_MAX_PHY_INDEX is set to 64.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlangetinterfacecapability">WlanGetInterfaceCapability</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetinterfacecapability">WlanGetInterfaceCapability</a>

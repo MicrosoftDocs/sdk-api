@@ -116,19 +116,18 @@ The allocator-presenter has not been loaded.
 
 ## -remarks
 
-Use this method on a multi-monitor system to specify to the VMR the default Direct3D device to use when connecting to an upstream filter. The default Direct3D device can be overridden for a particular connection by the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-setmonitor">SetMonitor</a> method.
+Use this method on a multi-monitor system to specify to the VMR the default Direct3D device to use when connecting to an upstream filter. The default Direct3D device can be overridden for a particular connection by the <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-setmonitor">SetMonitor</a> method.
 
 Include DShow.h and D3d9.h before Vmr9.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9 Interface</a>
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-getdefaultmonitor">IVMRMonitorConfig9::GetDefaultMonitor</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-getdefaultmonitor">IVMRMonitorConfig9::GetDefaultMonitor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

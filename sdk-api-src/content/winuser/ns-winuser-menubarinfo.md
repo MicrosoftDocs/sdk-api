@@ -100,11 +100,11 @@ If the menu item has the focus, this member is <b>TRUE</b>. Otherwise, the membe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenubarinfo">GetMenuBarInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenubarinfo">GetMenuBarInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -113,4 +113,3 @@ If the menu item has the focus, this member is <b>TRUE</b>. Otherwise, the membe
 
 
 <b>Reference</b>
-

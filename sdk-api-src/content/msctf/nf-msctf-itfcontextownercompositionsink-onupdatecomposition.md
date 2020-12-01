@@ -56,11 +56,11 @@ Called when an existing composition is changed.
 
 ### -param pComposition [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView</a> object that represents the composition updated.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView</a> object that represents the composition updated.
 
 ### -param pRangeNew [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that contains the range of text the composition will cover after the composition is updated.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that contains the range of text the composition will cover after the composition is updated.
 
 ## -returns
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-To determine what has changed within the composition, compare <i>pRangeNew</i> with the range returned from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompositionview-getrange">ITfCompositionView::GetRange</a>. The range returned by <b>ITfCompositionView::GetRange</b> is not updated until after <b>ITfContextOwnerCompositionSink::OnUpdateComposition</b> returns.
+To determine what has changed within the composition, compare <i>pRangeNew</i> with the range returned from <a href="/windows/desktop/api/msctf/nf-msctf-itfcompositionview-getrange">ITfCompositionView::GetRange</a>. The range returned by <b>ITfCompositionView::GetRange</b> is not updated until after <b>ITfContextOwnerCompositionSink::OnUpdateComposition</b> returns.
 
 ## -see-also
 
 [ITfCompositionView interface](nn-msctf-itfcompositionview.md), [ITfContextOwnerCompositionSink interface](nn-msctf-itfcontextownercompositionsink.md), [ITfCompositionView::GetRange](nf-msctf-itfcompositionview-getrange.md), [ITfRange interface](nn-msctf-itfrange.md)
-

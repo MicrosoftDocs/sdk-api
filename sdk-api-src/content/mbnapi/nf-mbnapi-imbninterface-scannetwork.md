@@ -118,15 +118,14 @@ The interface is invalid. Most likely because the Mobile Broadband device has be
 
 ## -remarks
 
-This method initiates a network scan operation. When completed successfully, it populates the operating system's cache of visible providers and applications can call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getvisibleproviders">GetVisibleProviders</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> to get a list of visible networks.
+This method initiates a network scan operation. When completed successfully, it populates the operating system's cache of visible providers and applications can call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getvisibleproviders">GetVisibleProviders</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a> to get a list of visible networks.
 
-This is a time consuming operation. Therefore, applications should first call <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getvisibleproviders">GetVisibleProviders</a> and should call <b>ScanNetwork</b> only when the cached information is old.
+This is a time consuming operation. Therefore, applications should first call <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-getvisibleproviders">GetVisibleProviders</a> and should call <b>ScanNetwork</b> only when the cached information is old.
 
-This is an asynchronous operation and <b>ScanNetwork</b> will return immediately. If this method returns successfully (with <b>S_OK</b>),  then upon completion of the scan operation, the operating system will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onscannetworkcomplete">OnScanNetworkComplete</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a> to notify the application of operation completion.
+This is an asynchronous operation and <b>ScanNetwork</b> will return immediately. If this method returns successfully (with <b>S_OK</b>),  then upon completion of the scan operation, the operating system will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onscannetworkcomplete">OnScanNetworkComplete</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a> to notify the application of operation completion.
 
 If the device is removed from the system before this operation is complete, there is no guarantee that the completion notification will be received by the application.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>

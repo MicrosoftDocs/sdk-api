@@ -100,9 +100,8 @@ One or more arguments are not valid.
 ## -remarks
 
 If the internal consumption fails then any current cache data is deleted.   
-	Subsequent calls to the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slloadapplicationpolicies">SLLoadApplicationPolicies</a> function will return     
+	Subsequent calls to the <a href="/windows/desktop/api/slpublic/nf-slpublic-slloadapplicationpolicies">SLLoadApplicationPolicies</a> function will return     
 	<b>SL_E_APPLICATION_POLICIES_MISSING</b>.
 
 The <b>SLPersistApplicationPolicies</b> function returns success if the policy update succeeds,   
 	regardless of internal consumption results.
-

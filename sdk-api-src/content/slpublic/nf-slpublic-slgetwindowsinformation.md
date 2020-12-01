@@ -60,7 +60,7 @@ A pointer to a null-terminated string that contains the name associated with the
 
 ### -param peDataType [out, optional]
 
-A pointer to a value of the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
+A pointer to a value of the <a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a> enumeration that specifies the type of data in the <i>ppbValue</i> buffer.
 
 ### -param pcbValue [out]
 
@@ -70,13 +70,13 @@ A pointer to the size, in bytes, of the <i>ppbValue</i> buffer.
 
 A pointer to an array of <b>BYTE</b> pointers that specifies the value associated with the name specified by the <i>pwszValueName</i> parameter.
 
-When you have finished using this array, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+When you have finished using this array, free it by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 This function can return the following values defined in Slerror.h.
 
@@ -110,4 +110,3 @@ The caller does not have the permissions necessary to call this function.
 </td>
 </tr>
 </table>
-

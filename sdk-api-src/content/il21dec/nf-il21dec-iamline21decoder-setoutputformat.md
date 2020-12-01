@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>SetOutputFormat</code> method sets the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter's output format.
+The <code>SetOutputFormat</code> method sets the <a href="/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter's output format.
 
 
 
@@ -69,13 +69,12 @@ Returns E_NOTIMPL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
+<a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getoutputformat">IAMLine21Decoder::GetOutputFormat</a>
-
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getoutputformat">IAMLine21Decoder::GetOutputFormat</a>

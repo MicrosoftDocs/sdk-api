@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>AuthzUnregisterSecurityEventSource</b> function unregisters a security event source with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA).
+The <b>AuthzUnregisterSecurityEventSource</b> function unregisters a security event source with the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA).
 
 ## -parameters
 
@@ -66,13 +66,12 @@ A pointer to a handle to the security event source to unregister.
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, it returns <b>FALSE</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-This function deallocates any resources and closes any RPC connections associated with a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a> function.
+This function deallocates any resources and closes any RPC connections associated with a previous call to the <a href="/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a>
-
+<a href="/windows/desktop/api/authz/nf-authz-authzregistersecurityeventsource">AuthzRegisterSecurityEventSource</a>

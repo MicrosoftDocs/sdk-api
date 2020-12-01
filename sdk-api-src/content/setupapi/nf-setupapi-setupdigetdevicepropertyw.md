@@ -47,6 +47,7 @@ api_location:
 api_name:
  - SetupDiGetDeviceProperty
  - SetupDiGetDevicePropertyW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupDiGetDevicePropertyW function
@@ -60,19 +61,19 @@ The <b>SetupDiGetDeviceProperty</b> function retrieves a device instance propert
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device instance for which to retrieve a device instance property.
+A handle to a <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device instance for which to retrieve a device instance property.
 
 ### -param DeviceInfoData [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device instance for which to retrieve a device instance property.
+A pointer to the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that represents the device instance for which to retrieve a device instance property.
 
 ### -param PropertyKey [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</a> structure that represents the device property key of the requested device instance property.
+A pointer to a <a href="/windows-hardware/drivers/install/devpropkey">DEVPROPKEY</a> structure that represents the device property key of the requested device instance property.
 
 ### -param PropertyType [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device instance property, where the property-data-type identifier is the bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
+A pointer to a <a href="/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device instance property, where the property-data-type identifier is the bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
 
 ### -param PropertyBuffer [out, optional]
 
@@ -92,7 +93,7 @@ This parameter must be set to zero.
 
 ## -returns
 
-<b>SetupDiGetDeviceProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+<b>SetupDiGetDeviceProperty</b> returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b>, and the logged error can be retrieved by calling <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following table includes some of the more common error codes that this function might log.
 
@@ -226,19 +227,18 @@ The caller does not have Administrator privileges.
 
 ## -remarks
 
-<b>SetupDiGetDeviceProperty</b> is part of the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>.
+<b>SetupDiGetDeviceProperty</b> is part of the <a href="/windows-hardware/drivers/install/unified-device-property-model--windows-vista-and-later-">unified device property model</a>.
 
 SetupAPI supports only a Unicode version of <b>SetupDiGetDeviceProperty</b>.
 
-To obtain the device property keys that represent the device properties that are set for a device instance, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdevicepropertykeys">SetupDiGetDevicePropertyKeys</a>.
+To obtain the device property keys that represent the device properties that are set for a device instance, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdevicepropertykeys">SetupDiGetDevicePropertyKeys</a>.
 
-To set a device instance property, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdevicepropertyw">SetupDiSetDeviceProperty</a>.
+To set a device instance property, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdevicepropertyw">SetupDiSetDeviceProperty</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdevicepropertykeys">SetupDiGetDevicePropertyKeys</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdevicepropertykeys">SetupDiGetDevicePropertyKeys</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdevicepropertyw">SetupDiSetDeviceProperty</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdevicepropertyw">SetupDiSetDeviceProperty</a>

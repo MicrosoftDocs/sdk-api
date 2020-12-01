@@ -75,5 +75,4 @@ The effect’s transform graph has changed.  This happens only when an effect su
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-prepareforrender">ID2D1EffectImpl::PrepareForRender</a>
-
+<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-prepareforrender">ID2D1EffectImpl::PrepareForRender</a>

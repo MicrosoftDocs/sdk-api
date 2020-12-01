@@ -72,7 +72,7 @@ An array of gesture configuration structures that specify the gesture configurat
 
 ### -param cbSize [in]
 
-The size of the gesture configuration (<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>) structure.
+The size of the gesture configuration (<a href="/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>) structure.
 
 ## -returns
 
@@ -81,16 +81,16 @@ If the function succeeds, the return value is nonzero.
 
 
 
-If the function fails, the return value is zero. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is zero. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
 If you don't expect to change the gesture configuration, call <b>SetGestureConfig</b> at window creation time.
-	 If you want to dynamically change the gesture configuration, call <b>SetGestureConfig</b> in response to <a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a> messages.
+	 If you want to dynamically change the gesture configuration, call <b>SetGestureConfig</b> in response to <a href="/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a> messages.
 	 
 
 The following table shows the identifiers for gestures that are
-  supported by the <i>dwID</i> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a> structure.  Note that setting
+  supported by the <i>dwID</i> member of the <a href="/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a> structure.  Note that setting
   <i>dwID</i> to 0 indicates that global gesture configuration flags are set.
   
 
@@ -413,21 +413,20 @@ if (!bResult){
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/mtgfunctions">Functions</a>
+<a href="/windows/desktop/wintouch/mtgfunctions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-gestureconfig">GESTURECONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getgestureconfig">GetGestureConfig</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getgestureconfig">GetGestureConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/guide-multi-touch-gestures">Programming Guide for Gestures</a>
+<a href="/windows/desktop/wintouch/guide-multi-touch-gestures">Programming Guide for Gestures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a>
-
+<a href="/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a>

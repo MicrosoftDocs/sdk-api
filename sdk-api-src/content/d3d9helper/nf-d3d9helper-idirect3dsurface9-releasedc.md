@@ -57,7 +57,7 @@ Release a device context handle.
 
 ### -param hdc [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 Handle to a device context.
 
@@ -71,13 +71,12 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 An hdc is a Windows resource. It must be released after use so Windows can return it to the pool of available resources.
 
-This method will release only the device context returned by <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-getdc">IDirect3DSurface9::GetDC</a>. Otherwise, this method will fail.
+This method will release only the device context returned by <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-getdc">IDirect3DSurface9::GetDC</a>. Otherwise, this method will fail.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-getdc">IDirect3DSurface9::GetDC</a>
-
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-getdc">IDirect3DSurface9::GetDC</a>

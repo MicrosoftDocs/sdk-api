@@ -43,6 +43,7 @@ api_location:
  - ComCtl32.dll
 api_name:
  - DPA_SetPtr
+req.apiset: ext-ms-win-shell-comctl32-da-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DPA_SetPtr function
@@ -79,7 +80,6 @@ A pointer to the value to assign to the specified DPA item.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
-

@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 The <b>DsFreePasswordCredentials</b> function frees memory allocated for a credentials structure by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a> function.
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a> function.
 
 ## -parameters
 
@@ -68,28 +68,27 @@ This function does not return a value.
 
 ## -remarks
 
-When the handle  in <i>AuthIdentity</i> is passed to <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnbind</a> must be called before freeing this handle. The normal sequence of events is:
+When the handle  in <i>AuthIdentity</i> is passed to <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a>, <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnbind</a> must be called before freeing this handle. The normal sequence of events is:
 
 <ol>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a> to obtain the credential handle.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a>, passing the credential handle.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnbind</a> when the RPC connection is no longer required.</li>
+<li>Call <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a> to obtain the credential handle.</li>
+<li>Call <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a>, passing the credential handle.</li>
+<li>Call <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnbind</a> when the RPC connection is no longer required.</li>
 <li>Call <b>DsFreePasswordCredentials</b> to free the credential handle.</li>
 </ol>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsbindwithcreda">DsBindWithCred</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa">DsMakePasswordCredentials</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnbind</a>
-
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnbind</a>

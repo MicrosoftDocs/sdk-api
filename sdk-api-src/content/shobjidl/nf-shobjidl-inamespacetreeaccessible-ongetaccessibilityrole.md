@@ -56,15 +56,15 @@ Gets the accessibility role for a Shell item.
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
+Pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
 ### -param pvarRole [out]
 
 Type: <b>VARIANT*</b>
 
-When this method returns, contains a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> that specifies the role.
+When this method returns, contains a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> that specifies the role.
 
 ## -returns
 
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method is called when the accessibility role for a Shell item is retrieved.
-

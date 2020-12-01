@@ -114,7 +114,7 @@ No padding was used when the data was encrypted. The <i>pPaddingInfo</i> paramet
 </dl>
 </td>
 <td width="60%">
-The Optimal Asymmetric Encryption Padding (OAEP) scheme was used when the data was encrypted. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_oaep_padding_info">BCRYPT_OAEP_PADDING_INFO</a> structure.
+The Optimal Asymmetric Encryption Padding (OAEP) scheme was used when the data was encrypted. The <i>pPaddingInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-bcrypt_oaep_padding_info">BCRYPT_OAEP_PADDING_INFO</a> structure.
 
 </td>
 </tr>
@@ -236,9 +236,8 @@ The key identified by the <i>hKey</i> parameter cannot be used for decryption.
 
 The <i>pbInput</i> and <i>pbOutput</i> parameters can point to the same buffer. In this case, this function will perform the decryption in place.
 
-A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptencrypt">NCryptEncrypt</a>
-
+<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptencrypt">NCryptEncrypt</a>

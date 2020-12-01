@@ -68,17 +68,16 @@ The number of bytes in the data array of a structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_certificate_data">SEC_WINNT_AUTH_CERTIFICATE_DATA</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_certificate_data">SEC_WINNT_AUTH_CERTIFICATE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_data">SEC_WINNT_AUTH_DATA</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_data">SEC_WINNT_AUTH_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_data_password">SEC_WINNT_AUTH_DATA_PASSWORD</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_data_password">SEC_WINNT_AUTH_DATA_PASSWORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_packed_credentials_ex">SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX</a>
-
+<a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_packed_credentials_ex">SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX</a>

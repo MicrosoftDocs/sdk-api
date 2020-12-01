@@ -62,7 +62,7 @@ The <b>PCHANNEL_INIT_EVENT_FN</b> type defines a pointer to this callback functi
 ### -param pInitHandle [in]
 
 Handle to the client connection. This is the handle returned in the <i>ppInitHandle</i> parameter of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a> function.
+      <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a> function.
 
 ### -param event [in]
 
@@ -129,20 +129,20 @@ This function does not return a value.
 ## -remarks
 
 The client DLL uses the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a> function to 
+     <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a> function to 
      register its <b>VirtualChannelInitEvent</b> function with Remote Desktop Services.
 
 This function is reentrant on a per-handle basis. The function may be called while it is executing, but not 
      on the same handle more than once.
 
 This function is called only after 
-     <a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a> has completed.
+     <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a> has completed.
 
 <b>CHANNEL_EVENT_CONNECTED</b> and <b>CHANNEL_EVENT_DISCONNECTED</b> event notifications will not be sent if the 
      connection is transferred to another session. However, the server-side plug-in that is administering the session 
      to which the connection is transferred will receive a reconnection notification. A server-side tool such as 
      Tscon.exe can be used to transfer connections. Refer to 
-     <a href="https://docs.microsoft.com/windows/desktop/TermServ/monitoring-session-connections-and-disconnections">Monitoring Session 
+     <a href="/windows/desktop/TermServ/monitoring-session-connections-and-disconnections">Monitoring Session 
      Connections and Disconnections</a> for more information on reconnection notifications.
 
 If the user-mode plug-in must be notified that it has been reconnected (for example, if it must reset its 
@@ -151,5 +151,4 @@ If the user-mode plug-in must be notified that it has been reconnected (for exam
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a>
-
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelinit">VirtualChannelInit</a>

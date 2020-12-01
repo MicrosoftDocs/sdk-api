@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Sets the volume 
    flags.
@@ -60,7 +60,7 @@ Sets the volume
 
 ### -param ulFlags [in]
 
-The flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_flag">VDS_VOLUME_FLAG</a>. Callers 
+The flags enumerated by <a href="/windows/desktop/api/vds/ne-vds-vds_volume_flag">VDS_VOLUME_FLAG</a>. Callers 
       can set the following flags: 
 
 * `VDS_VF_LBN_REMAP_ENABLED`
@@ -74,7 +74,7 @@ The flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/
 
 If <b>TRUE</b>, the flags are temporarily set. VDS resets each 
       flag to the previous state when the caller releases the last reference to the volume object, calls 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-clearflags">IVdsVolume::ClearFlags</a>, or dismounts the volume, 
+      <a href="/windows/desktop/api/vds/nf-vds-ivdsvolume-clearflags">IVdsVolume::ClearFlags</a>, or dismounts the volume, 
       except when the flag is set on the entire disk (see the table in the Remarks section for details). When the flag 
       is set on the entire disk, the 
       <b>IVdsVolume::ClearFlags</b> method must be called to 
@@ -82,7 +82,7 @@ If <b>TRUE</b>, the flags are temporarily set. VDS resets each
 
 ## -returns
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -200,7 +200,7 @@ The following table identifies the scope of each volume flag on MBR basic disks,
 <td><b>VDS_VF_NO_DEFAULT_DRIVE_LETTER</b></td>
 <td>Set on the entire disk.</td>
 <td>Set on partitions.</td>
-<td>See <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_flag">VDS_VOLUME_FLAG</a>.</td>
+<td>See <a href="/windows/desktop/api/vds/ne-vds-vds_volume_flag">VDS_VOLUME_FLAG</a>.</td>
 </tr>
 <tr>
 <td><b>VDS_VF_SHADOW_COPY</b></td>
@@ -219,10 +219,10 @@ The following table identifies the scope of each volume flag on MBR basic disks,
 
 If <i>bRevertOnClose</i> is <b>TRUE</b> and the disk is an MBR basic 
      disk and the volume is then deleted, the flags are still set on the entire disk and the flags will apply to any new volumes 
-     that are created on the disk. <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-clean">IVdsAdvancedDisk::Clean</a> 
+     that are created on the disk. <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-clean">IVdsAdvancedDisk::Clean</a> 
      must then be used to clear the flags.
 
-To create a boot volume on a dynamic disk, you must set the <b>VDS_VF_INSTALLABLE</b> flag for the volume and then format the volume by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolumemf-format">IVdsVolumeMF::Format</a> method.
+To create a boot volume on a dynamic disk, you must set the <b>VDS_VF_INSTALLABLE</b> flag for the volume and then format the volume by calling the <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-format">IVdsVolumeMF::Format</a> method.
 
 This method fails if the volume contains one or more of the following flags: 
      <ul>
@@ -240,17 +240,16 @@ Specifying either <b>VDS_VF_HIDDEN</b> or <b>VDS_VF_READONLY</b> will
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-clean">IVdsAdvancedDisk::Clean</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk-clean">IVdsAdvancedDisk::Clean</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsvolume">IVdsVolume</a>
+<a href="/windows/desktop/api/vds/nn-vds-ivdsvolume">IVdsVolume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsvolume-clearflags">IVdsVolume::ClearFlags</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsvolume-clearflags">IVdsVolume::ClearFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_flag">VDS_VOLUME_FLAG</a>
-
+<a href="/windows/desktop/api/vds/ne-vds-vds_volume_flag">VDS_VOLUME_FLAG</a>

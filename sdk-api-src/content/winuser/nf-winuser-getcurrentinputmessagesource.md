@@ -50,6 +50,7 @@ api_location:
  - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
  - GetCurrentInputMessageSource
+req.apiset: ext-ms-win-rtcore-ntuser-wmpointer-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetCurrentInputMessageSource function
@@ -63,16 +64,15 @@ Retrieves the source of the input message.
 
 ### -param inputMessageSource [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-input_message_source">INPUT_MESSAGE_SOURCE</a> structure that holds the device type and the ID of the input message source.
+The <a href="/windows/desktop/api/winuser/ns-winuser-input_message_source">INPUT_MESSAGE_SOURCE</a> structure that holds the device type and the ID of the input message source.
 
-<div class="alert"><b>Note</b>  <b>deviceType</b> in <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-input_message_source">INPUT_MESSAGE_SOURCE</a> is set to   <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-input_message_device_type">IMDT_UNAVAILABLE</a> when <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> is used to inject input (system generated or through messages such as <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a>). This remains true until  <b>SendMessage</b> returns.</div>
+<div class="alert"><b>Note</b>  <b>deviceType</b> in <a href="/windows/desktop/api/winuser/ns-winuser-input_message_source">INPUT_MESSAGE_SOURCE</a> is set to   <a href="/windows/desktop/api/winuser/ne-winuser-input_message_device_type">IMDT_UNAVAILABLE</a> when <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> is used to inject input (system generated or through messages such as <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a>). This remains true until  <b>SendMessage</b> returns.</div>
 <div> </div>
 
 ## -returns
 
-If this function succeeds, it returns TRUE. Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If this function succeeds, it returns TRUE. Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_sourceid/input-source-identification-reference">Input Source Identification Reference</a>
-
+<a href="/previous-versions/windows/desktop/input_sourceid/input-source-identification-reference">Input Source Identification Reference</a>

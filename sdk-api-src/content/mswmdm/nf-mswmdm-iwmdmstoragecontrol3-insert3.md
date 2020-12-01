@@ -177,19 +177,19 @@ Pointer to a wide-character, <b>null</b>-terminated string indicating where to f
 
 ### -param pwszFileDest [in]
 
-Optional name of file on the device. If not specified and the application passes an <b>IWMDMOperation</b> pointer to <i>pOperation</i>, Windows Media Device Manager will request a destination name by calling <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjectname">IWMDMOperation::GetObjectName</a>. If not specified and the application does not use <i>pOperation</i>, the original file name and extension are used (without the path).
+Optional name of file on the device. If not specified and the application passes an <b>IWMDMOperation</b> pointer to <i>pOperation</i>, Windows Media Device Manager will request a destination name by calling <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjectname">IWMDMOperation::GetObjectName</a>. If not specified and the application does not use <i>pOperation</i>, the original file name and extension are used (without the path).
 
 ### -param pOperation [in]
 
-Optional pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation</a> interface, to control the transfer of content to a media device. If specified, <i>fuMode</i> must include the WMDM_CONTENT_OPERATIONINTERFACE flag. This parameter must be <b>NULL</b> if WMDM_CONTENT_FILE or WMDM_CONTENT_FOLDER is specified in <i>fuMode</i>.
+Optional pointer to an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation</a> interface, to control the transfer of content to a media device. If specified, <i>fuMode</i> must include the WMDM_CONTENT_OPERATIONINTERFACE flag. This parameter must be <b>NULL</b> if WMDM_CONTENT_FILE or WMDM_CONTENT_FOLDER is specified in <i>fuMode</i>.
 
 ### -param pProgress [in]
 
-Optional pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress</a> interface to report action progress back to the application. This parameter can be <b>NULL</b>.
+Optional pointer to an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress</a> interface to report action progress back to the application. This parameter can be <b>NULL</b>.
 
 ### -param pMetaData [in]
 
-Optional pointer to a metadata object. Create a new metadata object by calling <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-createemptymetadataobject">IWMDMStorage3::CreateEmptyMetadataObject</a>. This parameter allows an application to specify metadata (including format) to set on the device during object creation on the device, which is more efficient than setting metadata afterward. You must set the file format (specified by g_wszWMDMFormatCode). If you do not specify the format code of a file when using this method, an MTP device will not show the file as present in its user interface, and non-MTP devices will behave unpredictably.
+Optional pointer to a metadata object. Create a new metadata object by calling <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-createemptymetadataobject">IWMDMStorage3::CreateEmptyMetadataObject</a>. This parameter allows an application to specify metadata (including format) to set on the device during object creation on the device, which is more efficient than setting metadata afterward. You must set the file format (specified by g_wszWMDMFormatCode). If you do not specify the format code of a file when using this method, an MTP device will not show the file as present in its user interface, and non-MTP devices will behave unpredictably.
 
 ### -param pUnknown [in]
 
@@ -208,7 +208,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -216,11 +216,11 @@ Although you can set metadata on a storage after sending it to the device, it is
 
 To set properties for a Windows Portable Devices (WPD) device, an application would create an <b>IPortableDeviceValues</b> object and set each property into this collection. Then, the application would serialize the collection to a binary large object (BLOB). Once the data is serialized, the application would add it to the <b>IWMDMMetaData</b> referenced by the <i>pMetadata</i> argument using the g_wszWPDPassthroughPropertyValues metadata constant.
 
-If the WMDM_MODE_THREAD flag is specified, you should obtain completion status by calling either <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress2-end2">IWMDMProgress2::End2</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-end3">IWMDMProgress3::End3</a>. These methods will ensure that the operation is complete and will also return an HRESULT with success or failure information.
+If the WMDM_MODE_THREAD flag is specified, you should obtain completion status by calling either <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress2-end2">IWMDMProgress2::End2</a> or <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-end3">IWMDMProgress3::End3</a>. These methods will ensure that the operation is complete and will also return an HRESULT with success or failure information.
 
 If an application uses WMDM_MODE_THREAD and passes a non-<b>null</b><i>pProgress</i> parameter, the application must ensure that the object to which <i>pProgress</i> belongs is not destroyed until the read operation completes, because Windows Media Device Manager will send progress notifications to this object. This object can be destroyed only after it receives an end notification. Failure to do this will result in access violations.
 
-When creating a playlist or other reference object, the object being "inserted" actually contains no data but is simply stored on the device as a group of metadata references to other objects (such as music files). Creating such an "abstract" object on the playlist is described in <a href="https://docs.microsoft.com/windows/desktop/WMDM/creating-a-playlist-on-the-device">Creating a Playlist on the Device</a>.
+When creating a playlist or other reference object, the object being "inserted" actually contains no data but is simply stored on the device as a group of metadata references to other objects (such as music files). Creating such an "abstract" object on the playlist is described in <a href="/windows/desktop/WMDM/creating-a-playlist-on-the-device">Creating a Playlist on the Device</a>.
 
 
 #### Examples
@@ -325,37 +325,36 @@ HRESULT mySendFile(LPCWSTR pwszFileName, IWMDMStorage* pStorage, IWMDMOperation*
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/creating-a-playlist-on-the-device">Creating a Playlist on the Device</a>
+<a href="/windows/desktop/WMDM/creating-a-playlist-on-the-device">Creating a Playlist on the Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getstatus">IWMDMDevice::GetStatus</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getstatus">IWMDMDevice::GetStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress">IWMDMProgress Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol2-insert2">IWMDMStorageControl2::Insert2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol2-insert2">IWMDMStorageControl2::Insert2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol3">IWMDMStorageControl3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol3">IWMDMStorageControl3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/writing-files-to-the-device">Writing Files to the Device</a>
-
+<a href="/windows/desktop/WMDM/writing-files-to-the-device">Writing Files to the Device</a>

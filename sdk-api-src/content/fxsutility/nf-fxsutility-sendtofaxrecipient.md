@@ -56,9 +56,9 @@ Called by an application to fax a file.
 
 ### -param sndMode
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/ne-fxsutility-sendtomode">SendToMode</a></b>
+Type: <b><a href="/previous-versions/windows/desktop/api/fxsutility/ne-fxsutility-sendtomode">SendToMode</a></b>
 
-A value specifying how to send the fax. For Windows Vista, this must be <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/ne-fxsutility-sendtomode">SEND_TO_FAX_RECIPIENT_ATTACHMENT</a>.
+A value specifying how to send the fax. For Windows Vista, this must be <a href="/previous-versions/windows/desktop/api/fxsutility/ne-fxsutility-sendtomode">SEND_TO_FAX_RECIPIENT_ATTACHMENT</a>.
 
 ### -param lpFileName
 
@@ -74,17 +74,16 @@ Zero, if the operation is successful.
 
 ## -remarks
 
-Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-cansendtofaxrecipient">CanSendToFaxRecipient</a> first to determine if faxing from within an application is possible on the computer.
+Call <a href="/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-cansendtofaxrecipient">CanSendToFaxRecipient</a> first to determine if faxing from within an application is possible on the computer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-cansendtofaxrecipient">CanSendToFaxRecipient</a>
+<a href="/previous-versions/windows/desktop/api/fxsutility/nf-fxsutility-cansendtofaxrecipient">CanSendToFaxRecipient</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fxsutility/ne-fxsutility-sendtomode">SendToMode</a>
+<a href="/previous-versions/windows/desktop/api/fxsutility/ne-fxsutility-sendtomode">SendToMode</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-shell-fax-extension-functions">Shell Fax Extension Functions</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-shell-fax-extension-functions">Shell Fax Extension Functions</a>

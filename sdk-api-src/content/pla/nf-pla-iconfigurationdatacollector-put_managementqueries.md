@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Retrieves or sets <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-start-page">Windows Management Instrumentation</a> (WMI) queries to run.
+Retrieves or sets <a href="/windows/desktop/WmiSdk/wmi-start-page">Windows Management Instrumentation</a> (WMI) queries to run.
 
 This property is read/write.
 
@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -remarks
 
-For details on writing WMI queries, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL (SQL for WMI)</a>.
+For details on writing WMI queries, see <a href="/windows/desktop/WmiSdk/wql-sql-for-wmi">WQL (SQL for WMI)</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>

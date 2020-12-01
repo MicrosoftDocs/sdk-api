@@ -53,14 +53,14 @@ api_name:
 
 ## -description
 
-Adds a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> to an existing cluster. The <b>PCLUSAPI_ADD_CLUSTER_NODE</b> type defines a pointer to this function.
+Adds a <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> to an existing cluster. The <b>PCLUSAPI_ADD_CLUSTER_NODE</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param hCluster [in]
 
-Handle to a cluster, returned by the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a> or 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a> function.
+Handle to a cluster, returned by the <a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a> or 
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a> function.
 
 ### -param lpszNodeName [in]
 
@@ -69,7 +69,7 @@ Name of the computer to add to the cluster.
 ### -param pfnProgressCallback [in, optional]
 
 Optional address to a 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">PCLUSTER_SETUP_PROGRESS_CALLBACK</a> 
+       <a href="/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">PCLUSTER_SETUP_PROGRESS_CALLBACK</a> 
        callback function.
 
 ### -param pvCallbackArg [in, optional]
@@ -80,24 +80,23 @@ Argument for the callback function.
 
 Handle to the new node or <b>NULL</b> to indicate that the node was not successfully added 
        to the cluster. For more information about the error, call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
-After the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a> function successfully 
+After the <a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a> function successfully 
      completes, at least 30 seconds should be allowed before the 
      <b>AddClusterNode</b> function is called to add additional 
      nodes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>
-
+<a href="/windows/desktop/api/clusapi/nc-clusapi-pcluster_setup_progress_callback">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>

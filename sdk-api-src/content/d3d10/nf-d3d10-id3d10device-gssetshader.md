@@ -57,9 +57,9 @@ Set a geometry shader to the device.
 
 ### -param pShader [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10geometryshader">ID3D10GeometryShader</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10geometryshader">ID3D10GeometryShader</a>*</b>
 
-Pointer to a geometry shader (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10geometryshader">ID3D10GeometryShader</a>). Passing in <b>NULL</b> disables the shader for this pipeline stage.
+Pointer to a geometry shader (see <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10geometryshader">ID3D10GeometryShader</a>). Passing in <b>NULL</b> disables the shader for this pipeline stage.
 
 ## -remarks
 
@@ -67,5 +67,4 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>

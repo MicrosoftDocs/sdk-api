@@ -54,7 +54,7 @@ Encapsulates the methods and events  needed to retrieve a list of cached Digital
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDeviceController</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IDeviceController</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDeviceController</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IDeviceController</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,64 +69,64 @@ The <b>IDeviceController</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828903(v=vs.85)">add_DeviceArrival</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828903(v=vs.85)">add_DeviceArrival</a>
 </td>
 <td align="left" width="63%">
-Registers an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/devicearrival">DeviceArrival</a> event.
+Registers an event handler for the <a href="/windows/desktop/mediastreaming/devicearrival">DeviceArrival</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828904(v=vs.85)">add_DeviceDeparture</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828904(v=vs.85)">add_DeviceDeparture</a>
 </td>
 <td align="left" width="63%">
-Registers an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/devicedeparture">DeviceDeparture</a> event.
+Registers an event handler for the <a href="/windows/desktop/mediastreaming/devicedeparture">DeviceDeparture</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828902(v=vs.85)">AddDevice</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828902(v=vs.85)">AddDevice</a>
 </td>
 <td align="left" width="63%">
-Adds a DLNA DMR or DMS Device, identified by its UPnP Unique Device Name (UDN), to the list of devices that is returned by the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/idevicecontroller-cacheddevices">CachedDevices</a> method.
+Adds a DLNA DMR or DMS Device, identified by its UPnP Unique Device Name (UDN), to the list of devices that is returned by the <a href="/windows/desktop/mediastreaming/idevicecontroller-cacheddevices">CachedDevices</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/idevicecontroller-cacheddevices">CachedDevices</a>
+<a href="/windows/desktop/mediastreaming/idevicecontroller-cacheddevices">CachedDevices</a>
 </td>
 <td align="left" width="63%">
-Retrieves a collection of <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a> interface pointers that represents the cached view of all discoverable DLNA devices.
+Retrieves a collection of <a href="/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a> interface pointers that represents the cached view of all discoverable DLNA devices.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828907(v=vs.85)">remove_DeviceArrival</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828907(v=vs.85)">remove_DeviceArrival</a>
 </td>
 <td align="left" width="63%">
-Unregisters an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/devicearrival">DeviceArrival</a> event.
+Unregisters an event handler for the <a href="/windows/desktop/mediastreaming/devicearrival">DeviceArrival</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828908(v=vs.85)">remove_DeviceDeparture</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828908(v=vs.85)">remove_DeviceDeparture</a>
 </td>
 <td align="left" width="63%">
-Unregisters an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/devicedeparture">DeviceDeparture</a> event.
+Unregisters an event handler for the <a href="/windows/desktop/mediastreaming/devicedeparture">DeviceDeparture</a> event.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828906(v=vs.85)">RemoveDevice</a>
+<a href="/previous-versions/windows/desktop/legacy/hh828906(v=vs.85)">RemoveDevice</a>
 </td>
 <td align="left" width="63%">
-Removes the specified device from the list of devices that is returned by the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/idevicecontroller-cacheddevices">CachedDevices</a> method.
+Removes the specified device from the list of devices that is returned by the <a href="/windows/desktop/mediastreaming/idevicecontroller-cacheddevices">CachedDevices</a> method.
 
 </td>
 </tr>
@@ -134,5 +134,4 @@ Removes the specified device from the list of devices that is returned by the <a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>

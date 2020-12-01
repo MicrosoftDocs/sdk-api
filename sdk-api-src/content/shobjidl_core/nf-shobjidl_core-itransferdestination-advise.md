@@ -56,15 +56,15 @@ Sets up an advisory connection for notifications on the status of file operation
 
 ### -param psink [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferadvisesink">ITransferAdviseSink</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferadvisesink">ITransferAdviseSink</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferadvisesink">ITransferAdviseSink</a> notification interface to update the calling application using methods on this interface.
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferadvisesink">ITransferAdviseSink</a> notification interface to update the calling application using methods on this interface.
 
 ### -param pdwCookie [out]
 
 Type: <b>DWORD*</b>
 
-A pointer to a returned token that uniquely identifies this connection. The calling application uses this token later to delete the connection by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-unadvise">ITransferDestination::Unadvise</a> method. If the connection is not successfully established, this value is zero.
+A pointer to a returned token that uniquely identifies this connection. The calling application uses this token later to delete the connection by passing it to the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-unadvise">ITransferDestination::Unadvise</a> method. If the connection is not successfully established, this value is zero.
 
 ## -returns
 
@@ -103,5 +103,4 @@ The handler can only handle one sink interface.
 
 ## -remarks
 
-Call <b>ITransferDestination::Advise</b> before calling any other <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a> methods so the handler can callback for any errors that might occur. If not set, the handler should consider it an indication that no feedback is available and do the "default" operation.
-
+Call <b>ITransferDestination::Advise</b> before calling any other <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a> methods so the handler can callback for any errors that might occur. If not set, the handler should consider it an indication that no feedback is available and do the "default" operation.

@@ -95,9 +95,8 @@ This flag is not used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptresolveproviders">BCryptResolveProviders</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptresolveproviders">BCryptResolveProviders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_ref">CRYPT_PROVIDER_REF</a>
-
+<a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_ref">CRYPT_PROVIDER_REF</a>

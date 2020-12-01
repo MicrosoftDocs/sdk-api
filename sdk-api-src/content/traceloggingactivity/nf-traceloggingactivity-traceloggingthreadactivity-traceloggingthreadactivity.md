@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of the  <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity~r1">TraceLoggingThreadActivity</a> class.
+Initializes a new instance of the  <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity-r1">TraceLoggingThreadActivity</a> class.
 
 <b>TraceLoggingThreadActivity</b> is a class template.
 
@@ -81,9 +81,8 @@ Initializes a new instance of the  <a href="https://docs.microsoft.com/windows/d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>
+<a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity-r1">TraceLoggingActivity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity~r1">TraceLoggingThreadActivity</a>
-
+<a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity-r1">TraceLoggingThreadActivity</a>

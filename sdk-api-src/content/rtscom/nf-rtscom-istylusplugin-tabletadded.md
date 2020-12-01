@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Notifies an implementing plug-in when an <a href="https://docs.microsoft.com/windows/desktop/tablet/itablet">ITablet</a> object is attached to the system.
+Notifies an implementing plug-in when an <a href="/windows/desktop/tablet/itablet">ITablet</a> object is attached to the system.
 
 ## -parameters
 
 ### -param piRtsSrc [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object that sent the notification.
+The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object that sent the notification.
 
 ### -param piTablet [in]
 
@@ -64,25 +64,24 @@ The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-cl
 
 ## -returns
 
-For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
-This method is called by the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object, whether the <b>RealTimeStylus Class</b> object is enabled or disabled.
+This method is called by the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object, whether the <b>RealTimeStylus Class</b> object is enabled or disabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-tabletremoved">IStylusPlugin::TabletRemoved Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-tabletremoved">IStylusPlugin::TabletRemoved Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
-
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>

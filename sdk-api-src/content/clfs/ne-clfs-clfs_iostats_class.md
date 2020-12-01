@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Defines types of I/O statistics reported by CLFS and is used when a client calls <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>.  Currently, log flush rates are the only type of statistic reported, but this enumeration will reflect more types of statistics in the future.
+Defines types of I/O statistics reported by CLFS and is used when a client calls <a href="/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>.  Currently, log flush rates are the only type of statistic reported, but this enumeration will reflect more types of statistics in the future.
 
 ## -enum-fields
 
@@ -68,5 +68,4 @@ The log flush rate.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>

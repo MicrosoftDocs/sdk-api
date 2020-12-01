@@ -71,7 +71,7 @@ This structure is used if the <b>Version</b> member is set to
 
 ### -field Version1.MirrorVirtualDiskPath
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Fully qualified</a> path where the mirrored 
+<a href="/windows/desktop/FileIO/naming-a-file">Fully qualified</a> path where the mirrored 
          virtual disk will be located. If the <i>Flags</i> parameter to 
          <a href="/windows/win32/api/virtdisk/nf-virtdisk-breakmirrorvirtualdisk">MirrorVirtualDisk</a> is 
          <b>MIRROR_VIRTUAL_DISK_FLAG_NONE</b> (0) then this file must not exist. If the 
@@ -85,5 +85,4 @@ This structure is used if the <b>Version</b> member is set to
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>

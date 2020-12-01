@@ -56,11 +56,11 @@ The <b>WlanSetAutoConfigParameter</b> function sets parameters for the automatic
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param OpCode [in]
 
-A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a> value that specifies the parameter to be set. Only some of the opcodes in the <b>WLAN_AUTOCONF_OPCODE</b> enumeration support set operations.
+A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode-r1">WLAN_AUTOCONF_OPCODE</a> value that specifies the parameter to be set. Only some of the opcodes in the <b>WLAN_AUTOCONF_OPCODE</b> enumeration support set operations.
 
 <table>
 <tr>
@@ -144,7 +144,7 @@ If the function fails, the return value may be one of the following return codes
 </dl>
 </td>
 <td width="60%">
-Access is denied. This error is returned if the caller does not have sufficient permissions to set the configuration parameter when the <i>OpCode</i> parameter is wlan_autoconf_opcode_show_denied_networks or wlan_autoconf_opcode_allow_virtual_station_extensibility. When the <i>OpCode</i> parameter is set to one of these values, the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetautoconfigparameter">WlanSetAutoConfigParameter</a>  function retrieves the discretionary access control list (DACL) stored for opcode object. If the DACL does not contain an access control entry (ACE) that grants WLAN_WRITE_ACCESS permission to the access token of the calling thread, then <b>WlanSetAutoConfigParameter</b>  returns <b>ERROR_ACCESS_DENIED</b>.
+Access is denied. This error is returned if the caller does not have sufficient permissions to set the configuration parameter when the <i>OpCode</i> parameter is wlan_autoconf_opcode_show_denied_networks or wlan_autoconf_opcode_allow_virtual_station_extensibility. When the <i>OpCode</i> parameter is set to one of these values, the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetautoconfigparameter">WlanSetAutoConfigParameter</a>  function retrieves the discretionary access control list (DACL) stored for opcode object. If the DACL does not contain an access control entry (ACE) that grants WLAN_WRITE_ACCESS permission to the access token of the calling thread, then <b>WlanSetAutoConfigParameter</b>  returns <b>ERROR_ACCESS_DENIED</b>.
 
 This error is also returned if the configuration parameter is set by group policy on a domain. When group policy is set for an opcode, applications are prevented from making changes. For the following <i>OpCode</i> parameters may be set by group policy: wlan_autoconf_opcode_show_denied_networks, wlan_autoconf_opcode_allow_explicit_creds, and wlan_autoconf_opcode_block_period
 
@@ -157,7 +157,7 @@ This error is also returned if the configuration parameter is set by group polic
 </dl>
 </td>
 <td width="60%">
-A parameter was bad. This error is returned if the <i>hClientHandle</i> parameter is <b>NULL</b>, the <i>pData</i> parameter is <b>NULL</b>, or the <i>pReserved</i> parameter is not <b>NULL</b>. This error is also returned if <i>OpCode</i> parameter specified is not one of the <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a> values for a configuration parameter that can be set. This error is also returned if the <i>dwDataSize</i> parameter is not set to <code>sizeof(BOOL)</code>, or the <i>dwDataSize</i> is not set to <code>sizeof(BOOL)</code> depending on the value of the <i>OpCode</i> parameter.
+A parameter was bad. This error is returned if the <i>hClientHandle</i> parameter is <b>NULL</b>, the <i>pData</i> parameter is <b>NULL</b>, or the <i>pReserved</i> parameter is not <b>NULL</b>. This error is also returned if <i>OpCode</i> parameter specified is not one of the <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode-r1">WLAN_AUTOCONF_OPCODE</a> values for a configuration parameter that can be set. This error is also returned if the <i>dwDataSize</i> parameter is not set to <code>sizeof(BOOL)</code>, or the <i>dwDataSize</i> is not set to <code>sizeof(BOOL)</code> depending on the value of the <i>OpCode</i> parameter.
 
 </td>
 </tr>
@@ -204,9 +204,8 @@ Depending on the value of the <i>OpCode</i> parameter, the data pointed to by <i
 
 ## -see-also
 
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode-r1">WLAN_AUTOCONF_OPCODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryautoconfigparameter">WlanQueryAutoConfigParameter</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryautoconfigparameter">WlanQueryAutoConfigParameter</a>

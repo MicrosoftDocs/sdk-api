@@ -58,13 +58,13 @@ Contains information about hyphenation in a Microsoft Rich Edit control.
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Size of the <b>HYPHENATEINFO</b> structure, in bytes.
 
 ### -field dxHyphenateZone
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Size, in TWIPS (one TWIP is 1/1440 inch), of the area near the margin that excludes hyphenation. If a space character is closer to the margin than this value, do not hyphenate the following word.
 
@@ -72,7 +72,7 @@ Size, in TWIPS (one TWIP is 1/1440 inch), of the area near the margin that exclu
 
 Type: <b>PFNHYPHENATEPROC</b>
 
-The client-defined <a href="https://msdn.microsoft.com/5a7333ab-4918-4d73-9ad5-a8704acab4c0">HyphenateProc</a> callback function.
+The client-defined <a href="/windows/win32/api/richedit/nf-richedit-hyphenateproc">HyphenateProc</a> callback function.
 
 ## -remarks
 
@@ -88,9 +88,8 @@ This structure is used with the <a href="https://msdn.microsoft.com/70ccb698-e44
 
 
 
-<a href="https://msdn.microsoft.com/5a7333ab-4918-4d73-9ad5-a8704acab4c0">HyphenateProc</a>
+<a href="/windows/win32/api/richedit/nf-richedit-hyphenateproc">HyphenateProc</a>
 
 
 
 <b>Reference</b>
-

@@ -76,7 +76,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -84,13 +84,12 @@ Object rights describe the usage permissions for media content. For example, the
 
 The <i>ppRights</i> array is allocated by this method, and must be freed by the application using <b>CoTaskMemFree</b>, a standard Win32 function.
 
-This method is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
+This method is optional. For more information, see <a href="/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage">IMDSPStorage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a>
-
+<a href="/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a>

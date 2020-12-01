@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>GetName</b> method retrieves the name of the current mutual exclusion object. A mutual exclusion object has a name only if a name has been assigned using the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-setname">IWMMutualExclusion2::SetName</a> method.
+The <b>GetName</b> method retrieves the name of the current mutual exclusion object. A mutual exclusion object has a name only if a name has been assigned using the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-setname">IWMMutualExclusion2::SetName</a> method.
 
 ## -parameters
 
@@ -106,5 +106,4 @@ If you pass an address as <i>pwszName</i>, and the length you specified in <i>pc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2">IWMMutualExclusion2 Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2">IWMMutualExclusion2 Interface</a>

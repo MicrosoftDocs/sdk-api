@@ -74,7 +74,7 @@ Pointer to the name of the RPC group to view.
 ### -param MemberNameSyntax
 
 Syntax of the return parameter, <i>MemberName</i>, in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta">RpcNsGroupMbrInqNext</a> function. 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta">RpcNsGroupMbrInqNext</a> function. 
 
 
 
@@ -84,8 +84,8 @@ To use the syntax specified in the registry value entry <b>HKEY_LOCAL_MACHINE\So
 ### -param InquiryContext
 
 Returns a pointer to a name-service handle for use with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta">RpcNsGroupMbrInqNext</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqdone">RpcNsGroupMbrInqDone</a> functions.
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta">RpcNsGroupMbrInqNext</a> and 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqdone">RpcNsGroupMbrInqDone</a> functions.
 
 ## -returns
 
@@ -164,16 +164,16 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 The 
 <b>RpcNsGroupMbrInqBegin</b> function creates an inquiry context for viewing the members of an RPC group. Before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta">RpcNsGroupMbrInqNext</a>, the application must first call 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta">RpcNsGroupMbrInqNext</a>, the application must first call 
 <b>RpcNsGroupMbrInqBegin</b> to create an inquiry context. When finished viewing the RPC group members, the application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqdone">RpcNsGroupMbrInqDone</a> to delete the inquiry context.
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqdone">RpcNsGroupMbrInqDone</a> to delete the inquiry context.
 
 <div class="alert"><b>Note</b>  Windows 2000 Active Directory supports this function. Earlier versions of Windows NT support the use of this function with Cell Directory Service (CDS) only.</div>
 <div> </div>
@@ -186,13 +186,12 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbradda">RpcNsGroupMbrAdd</a>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbradda">RpcNsGroupMbrAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqdone">RpcNsGroupMbrInqDone</a>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqdone">RpcNsGroupMbrInqDone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta">RpcNsGroupMbrInqNext</a>
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta">RpcNsGroupMbrInqNext</a>

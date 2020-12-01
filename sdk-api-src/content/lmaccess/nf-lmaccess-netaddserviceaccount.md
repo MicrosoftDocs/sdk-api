@@ -52,9 +52,9 @@ api_name:
 
 The <b>NetAddServiceAccount</b> function creates a standalone managed service account (sMSA) or retrieves the credentials for a group managed service account (gMSA) and stores the account information on the local computer.
 
-This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Logoncli.dll.
+This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Logoncli.dll.
 
-<b>Windows Server 2008 R2:  </b>Installing a managed service account by using the PowerShell command line interface cmdlet to call this function fails with error code  0xC0000225 when the value of the <i>AccountName</i> parameter does not match the corresponding <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM) name of the account.
+<b>Windows Server 2008 R2:  </b>Installing a managed service account by using the PowerShell command line interface cmdlet to call this function fails with error code  0xC0000225 when the value of the <i>AccountName</i> parameter does not match the corresponding <a href="/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM) name of the account.
 
 ## -parameters
 
@@ -100,13 +100,12 @@ If the function fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netenumerateserviceaccounts">NetEnumerateServiceAccounts</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netenumerateserviceaccounts">NetEnumerateServiceAccounts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netisserviceaccount">NetIsServiceAccount</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netisserviceaccount">NetIsServiceAccount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netremoveserviceaccount">NetRemoveServiceAccount</a>
-
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netremoveserviceaccount">NetRemoveServiceAccount</a>

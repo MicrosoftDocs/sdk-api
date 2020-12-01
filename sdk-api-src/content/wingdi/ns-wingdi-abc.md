@@ -76,13 +76,12 @@ The total width of a character is the summation of the A, B, and C spaces. Eithe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a>

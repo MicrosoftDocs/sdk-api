@@ -64,7 +64,7 @@ A pointer to a memory address.
 If the calling process has read access to the specified memory, the return value is zero.
 
 If the calling process does not have read access to the specified memory, the return value is nonzero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the application is compiled as a debugging version, and the process does not have read access to  the specified memory location, the function causes an assertion and breaks into the debugger. Leaving the debugger, the function continues as usual, and returns a nonzero value. This behavior is by design, as a debugging aid.
 
@@ -74,13 +74,12 @@ In a preemptive multitasking environment, it is possible for some other thread t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadreadptr">IsBadReadPtr</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-isbadreadptr">IsBadReadPtr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadstringptra">IsBadStringPtr</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-isbadstringptra">IsBadStringPtr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadwriteptr">IsBadWritePtr</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-isbadwriteptr">IsBadWritePtr</a>

@@ -57,7 +57,7 @@ The <b>UpdateAlphaBitmapParameters</b> method changes the bitmap location, size 
 
 ### -param pBmpParms [in]
 
-A pointer to a [VMRALPHABITMAP](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure.
+A pointer to a [VMRALPHABITMAP](/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure.
 
 ## -returns
 
@@ -65,21 +65,20 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -remarks
 
-The filter graph must be running for the changes to take effect. This method does not change the bitmap image. If you specify a [VMRALPHABITMAP](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure with no destination or color key set, the bitmap disappears. This behavior is by design for backward compatibility and cannot be changed.
+The filter graph must be running for the changes to take effect. This method does not change the bitmap image. If you specify a [VMRALPHABITMAP](/windows/desktop/api/strmif/ns-strmif-vmralphabitmap) structure with no destination or color key set, the bitmap disappears. This behavior is by design for backward compatibility and cannot be changed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap Interface</a>
+<a href="/windows/win32/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a>
-
+<a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a>

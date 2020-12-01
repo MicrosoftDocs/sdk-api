@@ -80,13 +80,13 @@ If no flags are specified, DirectDraw allocates memory to hold the data within t
 
 #### DDSPD_IUNKNOWNPOINTER
 
-The data at <i>lpData</i> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. DirectDraw automatically calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> method of this interface. When this data is no longer needed, DirectDraw automatically calls the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method of this interface.
+The data at <i>lpData</i> is a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. DirectDraw automatically calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> method of this interface. When this data is no longer needed, DirectDraw automatically calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method of this interface.
 
 
 
 #### DDSPD_VOLATILE
 
-The buffer at <i>lpData</i> is only valid while the surface remains unchanged. If the surface's contents change, subsequent calls to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getprivatedata">IDirectDrawSurface7::GetPrivateData</a> method return DDERR_EXPIRED.
+The buffer at <i>lpData</i> is only valid while the surface remains unchanged. If the surface's contents change, subsequent calls to the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getprivatedata">IDirectDrawSurface7::GetPrivateData</a> method return DDERR_EXPIRED.
 
 ## -returns
 
@@ -106,9 +106,8 @@ If it fails, the method can return one of the following error values:
 
 DirectDraw does not manage the memory at <i>lpData</i>. If this buffer was dynamically allocated, the caller must free the memory.
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetPrivateData</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetPrivateData</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

@@ -109,9 +109,8 @@ The balance ranges from -10,000 to 10,000. The value -10,000 means the right cha
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicaudio">IBasicAudio Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-ibasicaudio">IBasicAudio Interface</a>

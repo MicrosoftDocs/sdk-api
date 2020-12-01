@@ -52,12 +52,12 @@ api_name:
 
 ## -description
 
-This type description is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_DATETIME_TYPE</a> and is optional.
+This type description is used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_DATETIME_TYPE</a> and is optional.
                 It is used to specify constraints on the set of values
                 which can be deserialized.
             
 
-Only the <b>ticks</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> is compared.
+Only the <b>ticks</b> member of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_datetime">WS_DATETIME</a> is compared.
 
 ## -struct-fields
 
@@ -68,4 +68,3 @@ The minimum value.
 ### -field maxValue
 
 The maximum value.
-

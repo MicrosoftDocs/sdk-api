@@ -101,9 +101,8 @@ Maximum page-aligned buffer size that a device can accept for a single command. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmaximumnonpagealignedtransfersize">IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getmaximumnonpagealignedtransfersize">IDiscRecorder2Ex::GetMaximumNonPageAlignedTransferSize</a>

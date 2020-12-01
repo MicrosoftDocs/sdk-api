@@ -80,5 +80,4 @@ This function is equivalent to the following:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisa">UrlIs</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlisa">UrlIs</a>

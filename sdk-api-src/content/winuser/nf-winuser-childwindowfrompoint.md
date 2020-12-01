@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
  - ChildWindowFromPoint
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ChildWindowFromPoint function
@@ -60,7 +61,7 @@ Determines which, if any,
 			The search is restricted to immediate child windows. Grandchildren, and deeper 
 			descendant windows are not searched.
 
-To skip certain child windows, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-childwindowfrompointex">ChildWindowFromPointEx</a> function.
+To skip certain child windows, use the <a href="/windows/desktop/api/winuser/nf-winuser-childwindowfrompointex">ChildWindowFromPointEx</a> function.
 
 ## -parameters
 
@@ -72,7 +73,7 @@ A handle to the parent window.
 
 ### -param Point [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 A structure that defines the client 
 				coordinates, relative to <i>hWndParent</i>, 
@@ -97,7 +98,7 @@ The system maintains an internal list, containing the handles of the child windo
 
 <b>ChildWindowFromPoint</b> treats an <b>HTTRANSPARENT</b> area of a standard 
 			control the same as other parts of the control. In contrast, 
-			<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-realchildwindowfrompoint">RealChildWindowFromPoint</a> treats an <b>HTTRANSPARENT</b> area differently; 
+			<a href="/windows/desktop/api/winuser/nf-winuser-realchildwindowfrompoint">RealChildWindowFromPoint</a> treats an <b>HTTRANSPARENT</b> area differently; 
 			it returns the child window behind a transparent area of a control. For example, if the 
 			point is in a transparent area of a groupbox, <b>ChildWindowFromPoint</b> 
 			returns the groupbox while <b>RealChildWindowFromPoint</b> returns the 
@@ -107,13 +108,13 @@ The system maintains an internal list, containing the handles of the child windo
 
 #### Examples
 
-For an example, see "Creating a Combo Box Toolbar" in <a href="https://docs.microsoft.com/windows/desktop/Controls/using-combo-boxes">Using Combo Boxes</a>.
+For an example, see "Creating a Combo Box Toolbar" in <a href="/windows/desktop/Controls/using-combo-boxes">Using Combo Boxes</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-childwindowfrompointex">ChildWindowFromPointEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-childwindowfrompointex">ChildWindowFromPointEx</a>
 
 
 
@@ -125,11 +126,11 @@ For an example, see "Creating a Combo Box Toolbar" in <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-realchildwindowfrompoint">RealChildWindowFromPoint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-realchildwindowfrompoint">RealChildWindowFromPoint</a>
 
 
 
@@ -137,9 +138,8 @@ For an example, see "Creating a Combo Box Toolbar" in <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-windowfrompoint">WindowFromPoint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-windowfrompoint">WindowFromPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

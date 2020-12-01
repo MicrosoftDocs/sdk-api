@@ -60,7 +60,7 @@ The number of elements requested.
 
 ### -param rgElt [out]
 
-A pointer to the first element in an array of  <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a> interfaces. The array is of size <i>cElt</i>. The array must exist and be of size <i>cElt</i> (at a minimum) before the <b>Next</b> method is called, although the array need not be initialized. Upon return, the previously existing array will contain pointers to <b>IDot11AdHocNetwork</b>  objects.
+A pointer to the first element in an array of  <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a> interfaces. The array is of size <i>cElt</i>. The array must exist and be of size <i>cElt</i> (at a minimum) before the <b>Next</b> method is called, although the array need not be initialized. Upon return, the previously existing array will contain pointers to <b>IDot11AdHocNetwork</b>  objects.
 
 ### -param pcEltFetched [out]
 
@@ -145,5 +145,4 @@ A pointer passed as a parameter is not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocnetworks">IEnumDot11AdHocNetworks</a>
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocnetworks">IEnumDot11AdHocNetworks</a>

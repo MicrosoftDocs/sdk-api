@@ -56,7 +56,7 @@ The <b>DdGetAvailDriverMemory</b> callback function queries the amount of free m
 ### -param Arg1
 
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getavaildrivermemorydata">DD_GETAVAILDRIVERMEMORYDATA</a> structure that contains the information required to perform the query.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getavaildrivermemorydata">DD_GETAVAILDRIVERMEMORYDATA</a> structure that contains the information required to perform the query.
 
 ## -returns
 
@@ -68,13 +68,12 @@ This function does not need to be implemented if the memory will be managed by D
 
 <b>DdGetAvailDriverMemory</b> determines how much free memory is in the driver's private heaps for the specified surface type. The driver should check the surface capabilities specified in the <b>DDSCaps</b> member of the following structure against the heaps it is maintaining internally, to determine what heap size to query. For example, if DDSCAPS_NONLOCALVIDMEM is set, the driver should return only contributions from the AGP heaps.
 
-The driver indicates its support of <b>DdGetAvailDriverMemory</b> by implementing a response to GUID_MiscellaneousCallbacks in <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>.
+The driver indicates its support of <b>DdGetAvailDriverMemory</b> by implementing a response to GUID_MiscellaneousCallbacks in <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_getavaildrivermemorydata">DD_GETAVAILDRIVERMEMORYDATA</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getavaildrivermemorydata">DD_GETAVAILDRIVERMEMORYDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
-
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>

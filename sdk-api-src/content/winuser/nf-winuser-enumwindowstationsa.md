@@ -59,7 +59,7 @@ Enumerates all window stations in the current session. The function passes the n
 ### -param lpEnumFunc [in]
 
 A pointer to an application-defined 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms682643(v=vs.85)">EnumWindowStationProc</a> callback function.
+<a href="/previous-versions/windows/desktop/legacy/ms682643(v=vs.85)">EnumWindowStationProc</a> callback function.
 
 ### -param lParam [in]
 
@@ -70,15 +70,15 @@ An application-defined value to be passed to the callback function.
 If the function succeeds, it returns the  nonzero value returned by the callback function that was pointed to by <i>lpEnumFunc</i>.
 
 If the function is unable to perform the enumeration, the return value is zero. Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information.
 
-If the callback function fails, the return value is zero. The callback function can  call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set an error code for the caller to retrieve by calling <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the callback function fails, the return value is zero. The callback function can  call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set an error code for the caller to retrieve by calling <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The 
 <b>EnumWindowStations</b> function enumerates only those window stations for which the calling process has the WINSTA_ENUMERATE access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-security-and-access-rights">Window Station Security and Access Rights</a>.
+<a href="/windows/desktop/winstation/window-station-security-and-access-rights">Window Station Security and Access Rights</a>.
 
 <b>EnumWindowStations</b> repeatedly invokes the <i>lpEnumFunc</i> callback function until the last window station is enumerated or the callback function returns FALSE.
 
@@ -91,13 +91,12 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms682643(v=vs.85)">EnumWindowStationProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms682643(v=vs.85)">EnumWindowStationProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
+<a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-stations">Window Stations</a>
-
+<a href="/windows/desktop/winstation/window-stations">Window Stations</a>

@@ -76,7 +76,7 @@ Pointer to an optional parameter provided for the security subsystem. Used only 
 ### -param Policy
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure, which contains flags to restrict port allocation for dynamic ports and that allow multihomed computers to selectively bind to network interface cards.
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure, which contains flags to restrict port allocation for dynamic ports and that allow multihomed computers to selectively bind to network interface cards.
 
 ## -returns
 
@@ -166,19 +166,19 @@ The security descriptor is invalid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 The parameters and effects of 
 <b>RpcServerUseProtseqIfEx</b> extend those of 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif">RpcServerUseProtseqIf</a>. The difference is the <i>Policy</i> parameter, which allows you to restrict port allocation for dynamic ports and allows multihomed computers to selectively bind to network interface cards.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif">RpcServerUseProtseqIf</a>. The difference is the <i>Policy</i> parameter, which allows you to restrict port allocation for dynamic ports and allows multihomed computers to selectively bind to network interface cards.
 
 Setting the <b>NICFlags</b> field of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure to 0 makes this extended API functionally equivalent to the original 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif">RpcServerUseProtseqIf</a>, and the server will bind to NICs based on the settings in the system registry. For information on how the registry settings define the available Internet and intranet ports, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding">Configuring the Registry for Port Allocations and Selective Binding</a>.
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_policy">RPC_POLICY</a> structure to 0 makes this extended API functionally equivalent to the original 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif">RpcServerUseProtseqIf</a>, and the server will bind to NICs based on the settings in the system registry. For information on how the registry settings define the available Internet and intranet ports, see 
+<a href="/windows/desktop/Rpc/configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding">Configuring the Registry for Port Allocations and Selective Binding</a>.
 
 <div class="alert"><b>Note</b>  The flag settings in the <b>Policy</b> field are effective only when the <b>ncacn_ip_tcp</b> or <b>ncadg_ip_udp</b> protocol sequence is in use; for all other protocol sequences, the RPC run time ignores these values.</div>
 <div> </div>
@@ -198,9 +198,9 @@ When the computer is configured to use selective binding, successful return does
 
 
 To register all protocol sequences from the IDL file, a server calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsifex">RpcServerUseAllProtseqsIfEx</a>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/server-side-binding">Server-Side Binding</a>. For a list of Microsoft RPC supported protocol sequences, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/string-binding">String Binding</a>.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsifex">RpcServerUseAllProtseqsIfEx</a>. For more information, see 
+<a href="/windows/desktop/Rpc/server-side-binding">Server-Side Binding</a>. For a list of Microsoft RPC supported protocol sequences, see 
+<a href="/windows/desktop/Rpc/string-binding">String Binding</a>.
 
 
 
@@ -211,21 +211,20 @@ To register all protocol sequences from the IDL file, a server calls
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsex">RpcServerUseAllProtseqsEx</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsex">RpcServerUseAllProtseqsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsifex">RpcServerUseAllProtseqsIfEx</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseallprotseqsifex">RpcServerUseAllProtseqsIfEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqepex">RpcServerUseProtseqEpEx</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqepex">RpcServerUseProtseqEpEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqex">RpcServerUseProtseqEx</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqex">RpcServerUseProtseqEx</a>
 
 
 
 Writing a Secure RPC Client or Server
-

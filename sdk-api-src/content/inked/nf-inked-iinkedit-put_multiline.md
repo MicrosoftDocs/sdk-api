@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
- Gets or sets a value indicating whether an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control can accept and display multiple lines of text.
+ Gets or sets a value indicating whether an <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control can accept and display multiple lines of text.
 
 
 This property is read/write.
@@ -64,11 +64,11 @@ This property is read/write.
 
 ## -remarks
 
-A multiple-line <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control wraps text as the user types text extending beyond the text box.
+A multiple-line <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control wraps text as the user types text extending beyond the text box.
 
 
 
-You can also add scroll bars to a larger <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control using the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_scrollbars">ScrollBars</a> property. If no HScrollBar control (horizontal scroll bar) is specified, the text in a multiple-line InkEdit control automatically wraps.
+You can also add scroll bars to a larger <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control using the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_scrollbars">ScrollBars</a> property. If no HScrollBar control (horizontal scroll bar) is specified, the text in a multiple-line InkEdit control automatically wraps.
 
 ## -see-also
 
@@ -76,5 +76,4 @@ You can also add scroll bars to a larger <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

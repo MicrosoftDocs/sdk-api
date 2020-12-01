@@ -78,7 +78,7 @@ Length, in bytes, of the data block.
 ### -field FromFileHandle.ByteRange
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_byte_range">HTTP_BYTE_RANGE</a> structure that specifies all or part of the file. To specify the entire file, set the <b>StartingOffset</b> member to zero and the <b>Length</b> member to <b>HTTP_BYTE_RANGE_TO_EOF</b>.
+<a href="/windows/desktop/api/http/ns-http-http_byte_range">HTTP_BYTE_RANGE</a> structure that specifies all or part of the file. To specify the entire file, set the <b>StartingOffset</b> member to zero and the <b>Length</b> member to <b>HTTP_BYTE_RANGE_TO_EOF</b>.
 
 ### -field FromFileHandle.FileHandle
 
@@ -93,39 +93,38 @@ Length, in bytes, of the fragment name not including the terminating null charac
 ### -field FromFragmentCache.pFragmentName
 
 Pointer to a string that contains the fragment name assigned when the fragment was added to the response-fragment cache using 
-the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a> function.
+the <a href="/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a> function.
 
 ### -field FromFragmentCacheEx
 
 ### -field FromFragmentCacheEx.ByteRange
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_byte_range">HTTP_BYTE_RANGE</a> structure specifying the byte range in the cached fragment.
+An <a href="/windows/desktop/api/http/ns-http-http_byte_range">HTTP_BYTE_RANGE</a> structure specifying the byte range in the cached fragment.
 
 ### -field FromFragmentCacheEx.pFragmentName
 
 Pointer to a string that contains the fragment name assigned when the fragment was added to the response-fragment cache using 
-the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a> function. The length of the string cannot exceed 65532 bytes.
+the <a href="/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a> function. The length of the string cannot exceed 65532 bytes.
 
 <div class="alert"><b>Note</b>  This string must be NULL terminated.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-structures">HTTP Server API Version 1.0 Structures</a>
+<a href="/windows/desktop/Http/http-server-api-version-1-0-structures">HTTP Server API Version 1.0 Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
+<a href="/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-response">HTTP_RESPONSE</a>
+<a href="/windows/desktop/Http/http-response">HTTP_RESPONSE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a>
+<a href="/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>

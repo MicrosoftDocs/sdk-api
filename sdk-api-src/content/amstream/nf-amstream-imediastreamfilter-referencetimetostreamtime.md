@@ -99,5 +99,4 @@ Stream time equals the current reference time minus the reference time when the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>
-
+<a href="/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>

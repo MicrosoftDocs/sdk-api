@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the account name for the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
+Retrieves the account name for the <a href="/windows/desktop/TaskSchd/w">work item</a>.
 
 ## -parameters
 
@@ -140,15 +140,14 @@ The
 
 #### Examples
 
-For more information and an example of how to retrieve the account information of a task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/c-c-code-example-retrieving-task-account-information">C/C++ Code Example: Retrieving Task Account Information</a>.
+For more information and an example of how to retrieve the account information of a task, see <a href="/windows/desktop/TaskSchd/c-c-code-example-retrieving-task-account-information">C/C++ Code Example: Retrieving Task Account Information</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setaccountinformation">IScheduledWorkItem::SetAccountInformation</a>
-
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setaccountinformation">IScheduledWorkItem::SetAccountInformation</a>

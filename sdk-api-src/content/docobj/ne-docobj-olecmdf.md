@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of support provided by an object for the command specified in an <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a> structure.
+Specifies the type of support provided by an object for the command specified in an <a href="/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a> structure.
 
 ## -enum-fields
 
@@ -80,13 +80,12 @@ The command is hidden on the context menu.
 
 ## -remarks
 
-Values from the <b>OLECMDF</b> enumeration are used to fill the value of the <b>cmdf</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a> structures passed to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>.
+Values from the <b>OLECMDF</b> enumeration are used to fill the value of the <b>cmdf</b> member of <a href="/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a> structures passed to <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a>
-
+<a href="/windows/desktop/api/docobj/ns-docobj-olecmd">OLECMD</a>

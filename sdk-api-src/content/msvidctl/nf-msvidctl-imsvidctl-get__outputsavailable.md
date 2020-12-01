@@ -62,7 +62,7 @@ Pointer to a GUID that specifies the category to enumerate.
 
 ### -param pVal [out]
 
-Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidoutputdevices">IMSVidOutputDevices</a> interface pointer. The caller must release the interface.
+Receives an <a href="/previous-versions/windows/desktop/mstv/msvidoutputdevices">IMSVidOutputDevices</a> interface pointer. The caller must release the interface.
 
 ## -returns
 
@@ -70,9 +70,8 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -remarks
 
-To obtain the available renderers, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_audiorenderersavailable">get_AudioRenderersAvailable</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_videorenderersavailable">get_VideoRenderersAvailable</a> methods.
+To obtain the available renderers, use the <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_audiorenderersavailable">get_AudioRenderersAvailable</a> and <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_videorenderersavailable">get_VideoRenderersAvailable</a> methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
-
+<a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets an array of language identifiers for the languages that the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object supports.
+Gets an array of language identifiers for the languages that the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> object supports.
 
 
 
@@ -63,15 +63,14 @@ This property is read-only.
 
 ## -remarks
 
-This property can be used to search the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers</a> collection for a <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> that supports a specific language.
+This property can be used to search the <a href="/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers</a> collection for a <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer</a> that supports a specific language.
 
 This property returns the empty array for Microsoft gesture recognizer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_name">Name Property</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_name">Name Property</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Announces the presence of a network host by sending a <a href="https://docs.microsoft.com/windows/desktop/WsdApi/hello-message">Hello</a> message with extended information.
+Announces the presence of a network host by sending a <a href="/windows/desktop/WsdApi/hello-message">Hello</a> message with extended information.
 
 ## -parameters
 
@@ -87,23 +87,23 @@ This parameter may be <b>NULL</b>.
 
 ### -param pTypesList [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_name_list">WSD_NAME_LIST</a> structure that represents the list of types supported by the publishing host. May be <b>NULL</b>.
+Pointer to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_name_list">WSD_NAME_LIST</a> structure that represents the list of types supported by the publishing host. May be <b>NULL</b>.
 
 ### -param pScopesList [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_uri_list">WSD_URI_LIST</a> structure that represents the list of matching scopes supported by the publishing host. The list contains hash values in string form. May be <b>NULL</b>.
+Pointer to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_uri_list">WSD_URI_LIST</a> structure that represents the list of matching scopes supported by the publishing host. The list contains hash values in string form. May be <b>NULL</b>.
 
 ### -param pXAddrsList [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_uri_list">WSD_URI_LIST</a> structure that represents the list of transport addresses supported by the publishing host. Each transport address string contains an address and port number which can be used for connection by a remote host. May be <b>NULL</b>.
+Pointer to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_uri_list">WSD_URI_LIST</a> structure that represents the list of transport addresses supported by the publishing host. Each transport address string contains an address and port number which can be used for connection by a remote host. May be <b>NULL</b>.
 
 ### -param pHeaderAny [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains an XML element to be inserted in the "ANY" section of the header.
+Pointer to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains an XML element to be inserted in the "ANY" section of the header.
 
 ### -param pReferenceParameterAny [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains an XML element to be inserted in the "ANY" section of the reference parameter properties.
+Pointer to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains an XML element to be inserted in the "ANY" section of the reference parameter properties.
 
 ### -param pPolicyAny [in, optional]
 
@@ -111,11 +111,11 @@ Not used.
 
 ### -param pEndpointReferenceAny [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains an XML element  to be inserted in the "ANY" section of the endpoint.
+Pointer to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains an XML element  to be inserted in the "ANY" section of the endpoint.
 
 ### -param pAny [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains an XML element  to be inserted in the "ANY" section of the message body.
+Pointer to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that contains an XML element  to be inserted in the "ANY" section of the message body.
 
 ## -returns
 
@@ -160,7 +160,7 @@ One or more of the following conditions is true:
 </dl>
 </td>
 <td width="60%">
-There is no registered notification sink. To attach a sink, call <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublisher-registernotificationsink">RegisterNotificationSink</a>.
+There is no registered notification sink. To attach a sink, call <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublisher-registernotificationsink">RegisterNotificationSink</a>.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ There is no registered notification sink. To attach a sink, call <a href="https:
 </dl>
 </td>
 <td width="60%">
-The publisher has not been started. Attaching a notification sink starts the publisher. To attach a sink, call <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublisher-registernotificationsink">RegisterNotificationSink</a>.
+The publisher has not been started. Attaching a notification sink starts the publisher. To attach a sink, call <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoverypublisher-registernotificationsink">RegisterNotificationSink</a>.
 
 </td>
 </tr>
@@ -192,9 +192,8 @@ Insufficient memory to complete the operation.
 
 If successful, <b>PublishEx</b> will send a WS-Discovery Hello message to the local subnet with the provided information. 
 
-The parameters referring to <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structures can be used to extend the contents of the Hello message being sent with custom information.
+The parameters referring to <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structures can be used to extend the contents of the Hello message being sent with custom information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>

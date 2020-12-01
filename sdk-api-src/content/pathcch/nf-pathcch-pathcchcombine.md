@@ -54,13 +54,13 @@ api_name:
 
 Combines two path fragments into a single path. This function also canonicalizes any relative path elements, removing "." and ".." elements to simplify the final path.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a> in that you are restricted to a final path of length MAX_PATH.
+This function differs from <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a> in that you are restricted to a final path of length MAX_PATH.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccombine">PathAllocCombine</a> in that the caller must declare the size of the returned string, which is stored on the stack.
+This function differs from <a href="/windows/desktop/api/pathcch/nf-pathcch-pathalloccombine">PathAllocCombine</a> in that the caller must declare the size of the returned string, which is stored on the stack.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
-<div class="alert"><b>Note</b>  This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathalloccombine">PathAllocCombine</a> should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a> to prevent the possibility of a buffer overrun.</div>
+<div class="alert"><b>Note</b>  This function, <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>, or <a href="/windows/desktop/api/pathcch/nf-pathcch-pathalloccombine">PathAllocCombine</a> should be used in place of <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
 
@@ -137,9 +137,8 @@ If both <i>pszPathIn</i> and <i>pszMore</i> are <b>NULL</b> or point to empty st
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalize">PathCchCanonicalize</a>
+<a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalize">PathCchCanonicalize</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a>
+<a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>
-
+<a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>

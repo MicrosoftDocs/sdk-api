@@ -108,14 +108,14 @@ If the function succeeds, the return value is the number of <b>TCHARs</b> stored
        the buffer pointed to by <i>lpTargetPath</i>.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the buffer is too small, the function fails and the last error code is 
        <b>ERROR_INSUFFICIENT_BUFFER</b>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-definedosdevicew">DefineDosDevice</a> function enables an application 
+The <a href="/windows/desktop/api/fileapi/nf-fileapi-definedosdevicew">DefineDosDevice</a> function enables an application 
     to create and modify the junctions used to implement the MS-DOS device namespace.
 
 <b>Windows Server 2003 and Windows XP:  </b><b>QueryDosDevice</b> first searches the Local MS-DOS 
@@ -131,7 +131,7 @@ When all existing MS-DOS device names are queried, the list of device names that
 
 For more information on the Global and Local MS-DOS Device namespaces and changes to the accessibility of 
      MS-DOS device names, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS DOS Device Name</a>.
+     <a href="/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS DOS Device Name</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -199,16 +199,15 @@ SMB does not support volume management functions.
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/Memory/obtaining-a-file-name-from-a-file-handle">Obtaining a File Name From a File Handle</a> 
-     or <a href="https://docs.microsoft.com/windows/desktop/FileIO/displaying-volume-paths">Displaying Volume Paths</a>.
+     <a href="/windows/desktop/Memory/obtaining-a-file-name-from-a-file-handle">Obtaining a File Name From a File Handle</a> 
+     or <a href="/windows/desktop/FileIO/displaying-volume-paths">Displaying Volume Paths</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-definedosdevicew">DefineDosDevice</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-definedosdevicew">DefineDosDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

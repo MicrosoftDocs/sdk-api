@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CertCloseServerOcspResponse</b> function closes an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) server response handle.
+The <b>CertCloseServerOcspResponse</b> function closes an <a href="/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) server response handle.
 
 ## -parameters
 
@@ -64,9 +64,8 @@ This parameter is not used and must be zero.
 
 ## -remarks
 
-The <b>CertCloseServerOcspResponse</b> function closes a handle returned by either the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse">CertOpenServerOcspResponse</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certaddrefserverocspresponse">CertAddRefServerOcspResponse</a> function.
+The <b>CertCloseServerOcspResponse</b> function closes a handle returned by either the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse">CertOpenServerOcspResponse</a> or <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certaddrefserverocspresponse">CertAddRefServerOcspResponse</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse">CertOpenServerOcspResponse</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse">CertOpenServerOcspResponse</a>

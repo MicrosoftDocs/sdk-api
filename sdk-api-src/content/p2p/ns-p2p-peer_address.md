@@ -68,25 +68,24 @@ Specifies the IP address of the node in the Peer Infrastructure.
 
 ## -see-also
 
-[PEER_CONNECTION_INFO](/windows/win32/api/p2p/ns-p2p-peer_connection_info)
+[PEER_CONNECTION_INFO](./ns-p2p-peer_connection_info.md)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_node_info">PEER_NODE_INFO</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_node_info">PEER_NODE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphconnect">PeerGraphConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphopendirectconnection">PeerGraphOpenDirectConnection</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphopendirectconnection">PeerGraphOpenDirectConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopendirectconnection">PeerGroupOpenDirectConnection</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupopendirectconnection">PeerGroupOpenDirectConnection</a>

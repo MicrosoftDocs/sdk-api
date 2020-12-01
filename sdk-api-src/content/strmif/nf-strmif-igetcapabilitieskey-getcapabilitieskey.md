@@ -98,13 +98,12 @@ To enumerate the values for the returned key, call <b>RegEnumValue</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
+<a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igetcapabilitieskey">IGetCapabilitiesKey</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-igetcapabilitieskey">IGetCapabilitiesKey</a>

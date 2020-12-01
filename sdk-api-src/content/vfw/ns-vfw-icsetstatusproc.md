@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICSETSTATUSPROC</b> structure contains status information used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-set-status-proc">ICM_SET_STATUS_PROC</a> message.
+The <b>ICSETSTATUSPROC</b> structure contains status information used with the <a href="/windows/desktop/Multimedia/icm-set-status-proc">ICM_SET_STATUS_PROC</a> message.
 
 ## -struct-fields
 
@@ -71,21 +71,20 @@ Parameter that contains a constant to pass to the status procedure.
 
 #### - fpfnStatus
 
-Pointer to the status function. Specify <b>NULL</b> if status messages should not be sent. For more information about the callback function, see the <a href="https://docs.microsoft.com/previous-versions/dd743620(v=vs.85)">MyStatusProc</a> function.
+Pointer to the status function. Specify <b>NULL</b> if status messages should not be sent. For more information about the callback function, see the <a href="/previous-versions/dd743620(v=vs.85)">MyStatusProc</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-set-status-proc">ICM_SET_STATUS_PROC</a>
+<a href="/windows/desktop/Multimedia/icm-set-status-proc">ICM_SET_STATUS_PROC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd743620(v=vs.85)">MyStatusProc</a>
+<a href="/previous-versions/dd743620(v=vs.85)">MyStatusProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>

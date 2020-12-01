@@ -66,15 +66,15 @@ Removes a named value from the specified registry key. Note that value names are
 ### -param hKey [in]
 
 A handle to an open registry key. The key must have been opened with the KEY_SET_VALUE access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>. 
+<a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>. 
 
 
 
 
 This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function. It can also be one of the following 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
+<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function. It can also be one of the following 
+<a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:
 
 
 <pre xml:space="preserve"><b></b>
@@ -87,35 +87,34 @@ This handle is returned by the
 ### -param lpValueName [in, optional]
 
 The registry value to be removed. If this parameter is <b>NULL</b> or an empty string, the value set by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetvaluea">RegSetValue</a> function is removed. 
+<a href="/windows/win32/api/winreg/nf-winreg-regsetvalueexa">RegSetValueEx</a> function is removed. 
 
 
 
 
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
+<a href="/windows/desktop/SysInfo/registry-element-size-limits">Registry Element Size Limits</a>.
 
 ## -returns
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetvalueexa">RegSetValueEx</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regsetvalueexa">RegSetValueEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
+<a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
+<a href="/windows/desktop/SysInfo/registry">Registry Overview</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winreg.h header defines RegDeleteValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

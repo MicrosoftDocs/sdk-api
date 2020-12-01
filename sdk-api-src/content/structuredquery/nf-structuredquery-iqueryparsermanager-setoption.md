@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Changes a single option in this <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparsermanager">IQueryParserManager</a> object. For example, this method could change the name of the schema binary to load or the location of localized schema binaries.
+Changes a single option in this <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparsermanager">IQueryParserManager</a> object. For example, this method could change the name of the schema binary to load or the location of localized schema binaries.
 
 ## -parameters
 
@@ -71,4 +71,3 @@ A pointer to the value to use for the option selected.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

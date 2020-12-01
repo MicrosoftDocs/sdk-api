@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Fills a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure with information about the currently selected printer for use with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
+Fills a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure with information about the currently selected printer for use with <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>.
 
 ## -parameters
 
@@ -74,11 +74,11 @@ Type: <b>HRESULT</b>
 
 If the method is successful, the return value is <b>S_OK</b>. If no printer is currently selected, the return value is <b>S_OK</b>, the value returned in <i>pcbSize</i> is zero, and the <i>lpDevMode</i> buffer is unchanged.
 
-If an error occurs, the return value is a COM error code. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
+If an error occurs, the return value is a COM error code. For more information, see <a href="/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
+<a href="/windows/desktop/dlgbox/common-dialog-box-library">Common Dialog Box Library</a>
 
 
 
@@ -90,13 +90,12 @@ If an error occurs, the return value is a COM error code. For more information, 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices">IPrintDialogServices</a>
+<a href="/windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices">IPrintDialogServices</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>
+<a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>
 
 
 
 <b>Reference</b>
-

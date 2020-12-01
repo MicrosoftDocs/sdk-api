@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>PeerPnrpEndResolve</b> function closes the handle for an asynchronous PNRP resolution operation initiated with a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a>.
+The <b>PeerPnrpEndResolve</b> function closes the handle for an asynchronous PNRP resolution operation initiated with a previous call to <a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a>.
 
 ## -parameters
 
 ### -param hResolve [in]
 
-The handle to the asynchronous peer name resolution operation returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a>.
+The handle to the asynchronous peer name resolution operation returned by a previous call to <a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a>.
 
 ## -returns
 
@@ -93,5 +93,4 @@ There is not enough memory to perform the specified operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpstartresolve">PeerPnrpStartResolve</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Populates a new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object with known binary data.
+Populates a new <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object with known binary data.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Populates a new <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdi
 
 The stream that contains the ink data.
 
-For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
+For more information about the VARIANT structure, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ## -returns
 
@@ -129,13 +129,13 @@ An exception occurred inside the method.
 
 ## -remarks
 
-You can load ink  only into a new, empty <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object - one that hasn't collected any strokes or doesn't have any attached properties. If you try to load ink into an <b>InkDisp</b> object that has collected strokes or attached properties, even if the strokes or properties have been deleted from the <b>InkDisp</b> object, an exception is thrown. This occurs because of how stroke IDs are assigned. A stroke is assigned a unique ID, and this ID is not reused, even if the stroke has been deleted from an Ink object. This means that, if an <b>InkDisp</b> object contained a stroke with an ID of 1 and you deleted the stroke and loaded another <b>InkDisp</b> object into this <b>InkDisp</b> object, stroke IDs would start at 2. This would be confusing and therefore is not allowed.
+You can load ink  only into a new, empty <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object - one that hasn't collected any strokes or doesn't have any attached properties. If you try to load ink into an <b>InkDisp</b> object that has collected strokes or attached properties, even if the strokes or properties have been deleted from the <b>InkDisp</b> object, an exception is thrown. This occurs because of how stroke IDs are assigned. A stroke is assigned a unique ID, and this ID is not reused, even if the stroke has been deleted from an Ink object. This means that, if an <b>InkDisp</b> object contained a stroke with an ID of 1 and you deleted the stroke and loaded another <b>InkDisp</b> object into this <b>InkDisp</b> object, stroke IDs would start at 2. This would be confusing and therefore is not allowed.
 
-<div class="alert"><b>Note</b>  If you do attempt to load ink into an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object that is not empty, all data in the <b>InkDisp</b> object, including any custom strokes or extended properties, is lost when you call <b>Load</b>.</div>
+<div class="alert"><b>Note</b>  If you do attempt to load ink into an <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object that is not empty, all data in the <b>InkDisp</b> object, including any custom strokes or extended properties, is lost when you call <b>Load</b>.</div>
 <div> </div>
-The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save">Save</a> method allows you to persist the ink in an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object in Graphics Interchange Format (GIF) format, which consists of an array of byte data (the tla_gif persistence format is specified in the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistenceformat">InkPersistenceFormat</a> enumeration type). After you have the array of byte data, you can load the array of byte data into another <b>InkDisp</b> object. This means that you can load GIF-compatible byte array data into another <b>InkDisp</b> object in the same way as if you had called the <b>Save</b> method and received a byte array that was not in GIF format.
+The <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save">Save</a> method allows you to persist the ink in an <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object in Graphics Interchange Format (GIF) format, which consists of an array of byte data (the tla_gif persistence format is specified in the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkpersistenceformat">InkPersistenceFormat</a> enumeration type). After you have the array of byte data, you can load the array of byte data into another <b>InkDisp</b> object. This means that you can load GIF-compatible byte array data into another <b>InkDisp</b> object in the same way as if you had called the <b>Save</b> method and received a byte array that was not in GIF format.
 
-<div class="alert"><b>Note</b>  You cannot create an image, persist that image as a byte array, and then load that byte array into another <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. This is because, after you load byte array data as a GIF, Tablet PC cannot control the format of that data. So, after you persist the image into a byte array again, you cannot call <b>Load</b> on that data.</div>
+<div class="alert"><b>Note</b>  You cannot create an image, persist that image as a byte array, and then load that byte array into another <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. This is because, after you load byte array data as a GIF, Tablet PC cannot control the format of that data. So, after you persist the image into a byte array again, you cannot call <b>Load</b> on that data.</div>
 <div> </div>
 
 ## -see-also
@@ -144,9 +144,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save">Save Method</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save">Save Method</a>

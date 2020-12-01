@@ -56,7 +56,7 @@ Gets the security settings for the network.
 
 ### -param pAdHocSecuritySetting [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocsecuritysettings">IDot11AdHocSecuritySettings</a> interface that contains the security settings for the network.
+A pointer to an <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocsecuritysettings">IDot11AdHocSecuritySettings</a> interface that contains the security settings for the network.
 
 ## -returns
 
@@ -126,5 +126,4 @@ A pointer passed as a parameter is not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>

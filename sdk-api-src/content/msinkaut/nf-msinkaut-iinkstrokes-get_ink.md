@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object that contains a collection of strokes.
+Gets the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object that contains a collection of strokes.
 
 
 
@@ -67,9 +67,8 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

@@ -56,7 +56,7 @@ Creates a presentation time source that is based on the system time.
 
 ### -param ppSystemTimeSource
 
-Receives a pointer to the object's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationtimesource">IMFPresentationTimeSource</a> interface. The caller must release the interface.
+Receives a pointer to the object's <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationtimesource">IMFPresentationTimeSource</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -82,5 +82,4 @@ The function succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

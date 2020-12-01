@@ -57,7 +57,7 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CERT_VIEWPROPERTIES_STRUCT</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CERT_VIEWPROPERTIES_STRUCT</b> structure defines information used when  the <a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certviewpropertiesa">CertViewProperties</a> function  is called to display a certificate's properties.
+The <b>CERT_VIEWPROPERTIES_STRUCT</b> structure defines information used when  the <a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certviewpropertiesa">CertViewProperties</a> function  is called to display a certificate's properties.
 
 ## -struct-fields
 
@@ -238,7 +238,7 @@ Array of trust certificate store handles.
 
 ### -field hprov
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use for verification.
+A handle to the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) to use for verification.
 
 ### -field lCustData
 
@@ -270,10 +270,9 @@ A pointer to an array of <b>PROPSHEETPAGE</b> structures that specify the proper
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptdlg/nf-cryptdlg-certviewpropertiesa">CertViewProperties</a>
+<a href="/windows/desktop/api/cryptdlg/nf-cryptdlg-certviewpropertiesa">CertViewProperties</a>
 
 ## -remarks
 
 > [!NOTE]
 > The cryptdlg.h header defines CERT_VIEWPROPERTIES_STRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

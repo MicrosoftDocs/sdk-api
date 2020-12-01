@@ -56,7 +56,7 @@ Initializes an ATL thunk.
 
 ### -param Thunk
 
-A non-null return value from <a href="https://docs.microsoft.com/windows/desktop/api/atlthunk/nf-atlthunk-atlthunk_allocatedata">AtlThunk_AllocateData</a>.
+A non-null return value from <a href="/windows/desktop/api/atlthunk/nf-atlthunk-atlthunk_allocatedata">AtlThunk_AllocateData</a>.
 
 ### -param Proc
 
@@ -88,4 +88,3 @@ An ATL thunk has a signature of WNDPROC. See the following sample for more info 
 
 
 An arbitrary number of AtlThunk functions can be created; FirstParameter and Proc are set (differently) for each one.
-

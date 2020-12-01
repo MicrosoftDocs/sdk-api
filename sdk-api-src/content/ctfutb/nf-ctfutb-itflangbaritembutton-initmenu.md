@@ -56,7 +56,7 @@ This method is not used if the button item does not have the TF_LBI_STYLE_BTN_ME
 
 ### -param pMenu [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfmenu">ITfMenu</a> interface that the language bar button uses to add items to the menu that the language bar displays for the button.
+Pointer to an <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itfmenu">ITfMenu</a> interface that the language bar button uses to add items to the menu that the language bar displays for the button.
 
 ## -returns
 
@@ -93,10 +93,9 @@ An unspecified error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritembutton">ITfLangBarItemButton</a>
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritembutton">ITfLangBarItemButton</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfmenu">ITfMenu
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itfmenu">ITfMenu
       </a>
-

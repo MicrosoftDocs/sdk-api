@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>IPX_ADDRESS_DATA</b> structure provides information about a specific adapter to which IPX is bound. Used in conjunction with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function calls that specify IPX_ADDRESS in the <i>optname</i> parameter.
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function calls that specify IPX_ADDRESS in the <i>optname</i> parameter.
 
 ## -struct-fields
 
@@ -91,9 +91,8 @@ Link speed, returned in 100 byte-per-second increments. For example, a 9600 byte
 ## -remarks
 
 Adapter numbers are base zero, so if there are eight adapters on a given computer, they are numbered 0-7. To determine the number of adapters present on the computer, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function with IPX_MAX_ADAPTER_NUM.
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function with IPX_MAX_ADAPTER_NUM.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
-
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>

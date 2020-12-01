@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ITfContextOwnerServices::OnStatusChange</b> method is called by the context owner when the <b>dwDynamicFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure returned by the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getstatus">ITfContextOwner::GetStatus</a> method changes.
+The <b>ITfContextOwnerServices::OnStatusChange</b> method is called by the context owner when the <b>dwDynamicFlags</b> member of the <a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure returned by the <a href="/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getstatus">ITfContextOwner::GetStatus</a> method changes.
 
 ## -parameters
 
@@ -82,15 +82,14 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getstatus">ITfContextOwner::GetStatus
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getstatus">ITfContextOwner::GetStatus
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextownerservices">ITfContextOwnerServices</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontextownerservices">ITfContextOwnerServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
       </a>
-

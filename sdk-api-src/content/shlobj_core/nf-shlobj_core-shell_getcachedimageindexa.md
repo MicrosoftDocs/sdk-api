@@ -47,6 +47,7 @@ api_name:
  - Shell_GetCachedImageIndex
  - Shell_GetCachedImageIndexA
  - Shell_GetCachedImageIndexW
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # Shell_GetCachedImageIndexA function
@@ -104,5 +105,4 @@ The <b>Shell_GetCachedImageIndexA</b> and <b>Shell_GetCachedImageIndexW</b> vers
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/fileiconinit">FileIconInit</a>
-
+<a href="/windows/desktop/shell/fileiconinit">FileIconInit</a>

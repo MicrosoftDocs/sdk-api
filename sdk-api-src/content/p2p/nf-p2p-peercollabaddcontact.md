@@ -56,15 +56,15 @@ The <b>PeerCollabAddContact</b> function adds a contact to the contact list of a
 
 ### -param pwzContactData [in]
 
-Pointer to a zero-terminated Unicode string buffer that contains the contact data for the peer that is added to the contact list. This string buffer can either be obtained by passing the peer name of the endpoint to add as a contact to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabquerycontactdata">PeerCollabQueryContactData</a>, or through an out-of-band mechanism. 
+Pointer to a zero-terminated Unicode string buffer that contains the contact data for the peer that is added to the contact list. This string buffer can either be obtained by passing the peer name of the endpoint to add as a contact to <a href="/windows/desktop/api/p2p/nf-p2p-peercollabquerycontactdata">PeerCollabQueryContactData</a>, or through an out-of-band mechanism. 
 
-To  send its own contact data out-of-band, the peer can call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabexportcontact">PeerCollabExportContact</a> with a <b>NULL</b> peer name. This function returns the contact data in XML format.
+To  send its own contact data out-of-band, the peer can call <a href="/windows/desktop/api/p2p/nf-p2p-peercollabexportcontact">PeerCollabExportContact</a> with a <b>NULL</b> peer name. This function returns the contact data in XML format.
 
 ### -param ppContact [out, optional]
 
-Pointer to a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure. This parameter receives the address of a <b>PEER_CONTACT</b> structure containing peer contact information for the contact supplied in <i>pwzContactData</i>. This parameter may be <b>NULL</b>. 
+Pointer to a pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure. This parameter receives the address of a <b>PEER_CONTACT</b> structure containing peer contact information for the contact supplied in <i>pwzContactData</i>. This parameter may be <b>NULL</b>. 
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a> on the address of the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure to free this data.
+Call <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a> on the address of the <a href="/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a> structure to free this data.
 
 ## -returns
 
@@ -101,17 +101,16 @@ One of the arguments is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_contact">PEER_CONTACT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabexportcontact">PeerCollabExportContact</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peercollabexportcontact">PeerCollabExportContact</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabquerycontactdata">PeerCollabQueryContactData</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peercollabquerycontactdata">PeerCollabQueryContactData</a>

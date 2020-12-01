@@ -73,9 +73,8 @@ This property is run time only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/ne-inked-inkdisplaymode">InkDisplayMode Enumeration</a>
+<a href="/windows/desktop/api/inked/ne-inked-inkdisplaymode">InkDisplayMode Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

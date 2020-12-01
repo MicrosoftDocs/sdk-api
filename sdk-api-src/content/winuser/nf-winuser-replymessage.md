@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
  - ReplyMessage
+req.apiset: ext-ms-win-ntuser-message-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ReplyMessage function
@@ -52,7 +53,7 @@ api_name:
 
 ## -description
 
-Replies to a message sent from another thread by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function.
+Replies to a message sent from another thread by the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function.
 
 ## -parameters
 
@@ -72,14 +73,14 @@ If the calling thread was not processing a message sent from another thread or p
 
 ## -remarks
 
-By calling this function, the window procedure that receives the message allows the thread that called <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> to continue to run as though the thread receiving the message had returned control. The thread that calls the <b>ReplyMessage</b> function also continues to run. 
+By calling this function, the window procedure that receives the message allows the thread that called <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> to continue to run as though the thread receiving the message had returned control. The thread that calls the <b>ReplyMessage</b> function also continues to run. 
 
-If the message was not sent through <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> or if the message was sent by the same thread, <b>ReplyMessage</b> has no effect. 
+If the message was not sent through <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> or if the message was sent by the same thread, <b>ReplyMessage</b> has no effect. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-messages-and-message-queues">Sending a Message</a>.
+For an example, see <a href="/windows/desktop/winmsg/using-messages-and-message-queues">Sending a Message</a>.
 
 <div class="code"></div>
 
@@ -89,11 +90,11 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insendmessage">InSendMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-insendmessage">InSendMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
+<a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
@@ -101,5 +102,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>

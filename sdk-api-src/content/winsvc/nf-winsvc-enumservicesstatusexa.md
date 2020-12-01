@@ -66,13 +66,13 @@ Enumerates services in the specified service control manager database. The name 
 ### -param hSCManager [in]
 
 A handle to the service control manager database. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a> function, and must have the <b>SC_MANAGER_ENUMERATE_SERVICE</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a> function, and must have the <b>SC_MANAGER_ENUMERATE_SERVICE</b> access right. For more information, see 
+<a href="/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
 ### -param InfoLevel [in]
 
 The service attributes that are to be returned. Use <b>SC_ENUM_PROCESS_INFO</b> to retrieve the name and service status information for each service in the database. The <i>lpServices</i> parameter is a pointer to a buffer that receives an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-enum_service_status_processa">ENUM_SERVICE_STATUS_PROCESS</a> structures. The buffer must be large enough to hold the structures as well as the strings to which their members point.
+<a href="/windows/desktop/api/winsvc/ns-winsvc-enum_service_status_processa">ENUM_SERVICE_STATUS_PROCESS</a> structures. The buffer must be large enough to hold the structures as well as the strings to which their members point.
 
 Currently, no other information levels are defined.
 
@@ -147,7 +147,7 @@ Services that run in their own processes.
 </dl>
 </td>
 <td width="60%">
-Services that share a process with one or more other services. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Services/service-programs">Service Programs</a>.
+Services that share a process with one or more other services. For more information, see <a href="/windows/desktop/Services/service-programs">Service Programs</a>.
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ Combines the <b>SERVICE_ACTIVE</b> and <b>SERVICE_INACTIVE</b> states.
 
 A pointer to the buffer that receives the status information. The format of this data depends on the value of the <i>InfoLevel</i> parameter.
 
-The maximum size of this array is 256K bytes. To determine the required size, specify <b>NULL</b> for this parameter and 0 for the <i>cbBufSize</i> parameter. The function will fail and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <b>ERROR_MORE_DATA</b>. The <i>pcbBytesNeeded</i> parameter will receive the required size.
+The maximum size of this array is 256K bytes. To determine the required size, specify <b>NULL</b> for this parameter and 0 for the <i>cbBufSize</i> parameter. The function will fail and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return <b>ERROR_MORE_DATA</b>. The <i>pcbBytesNeeded</i> parameter will receive the required size.
 
 <b>Windows Server 2003 and Windows XP:  </b>The maximum size of this array is 64K bytes. This limit was increased as of Windows Server 2003 with SP1 and Windows XP with SP2.
 
@@ -221,7 +221,7 @@ A pointer to a variable that receives the number of service entries returned.
 
 A pointer to a variable that, on input, specifies the starting point of enumeration. You must set this value to zero the first time the 
 <b>EnumServicesStatusEx</b> function is called. On output, this value is zero if the function succeeds. However, if the function returns zero and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_MORE_DATA</b>, this value indicates the next service entry to be read when the 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_MORE_DATA</b>, this value indicates the next service entry to be read when the 
 <b>EnumServicesStatusEx</b> function is called to retrieve the additional data.
 
 ### -param pszGroupName [in, optional]
@@ -233,7 +233,7 @@ The load-order group name. If this parameter is a string, the only services enum
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following errors may be returned.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following errors may be returned.
 
 <table>
 <tr>
@@ -321,13 +321,12 @@ If the caller does not have the <b>SERVICE_QUERY_STATUS</b> access right to a se
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-enum_service_status_processa">ENUM_SERVICE_STATUS_PROCESS</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-enum_service_status_processa">ENUM_SERVICE_STATUS_PROCESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
+<a href="/windows/desktop/Services/service-functions">Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-installation-removal-and-enumeration">Service Installation, Removal, and Enumeration</a>
-
+<a href="/windows/desktop/Services/service-installation-removal-and-enumeration">Service Installation, Removal, and Enumeration</a>

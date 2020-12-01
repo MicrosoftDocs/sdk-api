@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The quality level of the transform for the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/color-management">Color management effect</a>.
+The quality level of the transform for the <a href="/windows/desktop/Direct2D/color-management">Color management effect</a>.
 
 ## -enum-fields
 
@@ -68,4 +68,3 @@ The best quality mode. This mode requires feature level 10_0 or above, as well a
           This mode supports floating point precision as well as extended range as defined in the ICC v4.3 specification.
 
 ### -field D2D1_COLORMANAGEMENT_QUALITY_FORCE_DWORD
-

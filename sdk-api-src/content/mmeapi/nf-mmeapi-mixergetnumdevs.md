@@ -62,9 +62,8 @@ Returns the number of mixer devices or zero if no mixer devices are available.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixer-functions">Audio Mixer Functions</a>
+<a href="/windows/desktop/Multimedia/audio-mixer-functions">Audio Mixer Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
-
+<a href="/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>

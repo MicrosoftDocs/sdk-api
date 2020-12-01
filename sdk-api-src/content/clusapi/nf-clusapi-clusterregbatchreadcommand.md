@@ -60,13 +60,13 @@ A handle to the batch notification.
 
 ### -param pBatchCommand [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a> structure 
+Pointer to a <a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a> structure 
        that will be filled with information about the command on successful return.
 
 ## -returns
 
 The function returns one of the following 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 ## -remarks
 
@@ -75,9 +75,8 @@ The <b>PCLUSTER_REG_GET_BATCH_NOTIFICATION</b> type defines a pointer to this
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_batch_command">CLUSTER_BATCH_COMMAND</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>

@@ -52,6 +52,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - WindowFromPoint
+req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # WindowFromPoint function
@@ -65,7 +66,7 @@ Retrieves a handle to the window that contains the specified point.
 
 ### -param Point [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 The point to be checked.
 
@@ -77,18 +78,18 @@ The return value is a handle to the window that contains the point. If no window
 
 ## -remarks
 
-The <b>WindowFromPoint</b> function does not retrieve a handle to a hidden or disabled window, even if the point is within the window. An application should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-childwindowfrompoint">ChildWindowFromPoint</a> function for a nonrestrictive search. 
+The <b>WindowFromPoint</b> function does not retrieve a handle to a hidden or disabled window, even if the point is within the window. An application should use the <a href="/windows/desktop/api/winuser/nf-winuser-childwindowfrompoint">ChildWindowFromPoint</a> function for a nonrestrictive search. 
 
 
 #### Examples
 
-For an example, see "Interface from Running Object Table" in <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">About Text Object Model</a>.
+For an example, see "Interface from Running Object Table" in <a href="/windows/desktop/Controls/about-text-object-model">About Text Object Model</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-childwindowfrompoint">ChildWindowFromPoint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-childwindowfrompoint">ChildWindowFromPoint</a>
 
 
 
@@ -100,7 +101,7 @@ For an example, see "Interface from Running Object Table" in <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
@@ -108,9 +109,8 @@ For an example, see "Interface from Running Object Table" in <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-windowfromdc">WindowFromDC</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-windowfromdc">WindowFromDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

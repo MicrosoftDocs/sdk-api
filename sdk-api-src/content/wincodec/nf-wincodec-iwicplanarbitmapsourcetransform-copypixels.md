@@ -58,7 +58,7 @@ If a <i>dstTransform</i>, scale, or format conversion is specified, <i>cbStride<
 
 ### -param prcSource [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrect">WICRect</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/wincodec/ns-wincodec-wicrect">WICRect</a>*</b>
 
 The source rectangle of pixels to copy.
 
@@ -66,34 +66,34 @@ The source rectangle of pixels to copy.
 
 Type: <b>UINT</b>
 
-The width to scale the source bitmap.  This parameter must be equal to a value obtainable through <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-doessupporttransform">IWICPlanarBitmapSourceTransform:: DoesSupportTransform</a>.
+The width to scale the source bitmap.  This parameter must be equal to a value obtainable through <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-doessupporttransform">IWICPlanarBitmapSourceTransform:: DoesSupportTransform</a>.
 
 ### -param uiHeight
 
 Type: <b>UINT</b>
 
-The height to scale the source bitmap.  This parameter must be equal to a value obtainable through <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-doessupporttransform">IWICPlanarBitmapSourceTransform:: DoesSupportTransform</a>.
+The height to scale the source bitmap.  This parameter must be equal to a value obtainable through <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-doessupporttransform">IWICPlanarBitmapSourceTransform:: DoesSupportTransform</a>.
 
 ### -param dstTransform
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmaptransformoptions">WICBitmapTransformOptions</a></b>
+Type: <b><a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmaptransformoptions">WICBitmapTransformOptions</a></b>
 
-The desired rotation or flip to perform prior to the pixel copy.  A rotate can be combined with a flip horizontal or a flip vertical, see <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmaptransformoptions">WICBitmapTransformOptions</a>.
+The desired rotation or flip to perform prior to the pixel copy.  A rotate can be combined with a flip horizontal or a flip vertical, see <a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmaptransformoptions">WICBitmapTransformOptions</a>.
 
 ### -param dstPlanarOptions [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicplanaroptions">WICPlanarOptions</a></b>
+Type: <b>const <a href="/windows/desktop/api/wincodec/ne-wincodec-wicplanaroptions">WICPlanarOptions</a></b>
 
-Used to specify additional configuration options for the transform.  See <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicplanaroptions">WICPlanarOptions</a> for more detail.
+Used to specify additional configuration options for the transform.  See <a href="/windows/desktop/api/wincodec/ne-wincodec-wicplanaroptions">WICPlanarOptions</a> for more detail.
 
 WIC JPEG Decoder:
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicplanaroptions">WICPlanarOptionsPreserveSubsampling</a> can be specified to retain the subsampling ratios when downscaling.  By default, the JPEG decoder attempts to preserve quality by downscaling only the Y plane in some cases, changing the image to 4:4:4 chroma subsampling.
+<a href="/windows/desktop/api/wincodec/ne-wincodec-wicplanaroptions">WICPlanarOptionsPreserveSubsampling</a> can be specified to retain the subsampling ratios when downscaling.  By default, the JPEG decoder attempts to preserve quality by downscaling only the Y plane in some cases, changing the image to 4:4:4 chroma subsampling.
 
 ### -param pDstPlanes
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicbitmapplane">WICBitmapPlane</a></b>
+Type: <b><a href="/windows/desktop/api/wincodec/ns-wincodec-wicbitmapplane">WICBitmapPlane</a></b>
 
-Specifies the pixel format and output buffer for each component plane.  The number of planes and pixel format of each plane must match values obtainable through  <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-doessupporttransform">IWICPlanarBitmapSourceTransform::DoesSupportTransform</a>.
+Specifies the pixel format and output buffer for each component plane.  The number of planes and pixel format of each plane must match values obtainable through  <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-doessupporttransform">IWICPlanarBitmapSourceTransform::DoesSupportTransform</a>.
 
 ### -param cPlanes
 
@@ -105,7 +105,7 @@ The number of component planes specified by the <i>pDstPlanes</i> parameter.
 
 Type: <b>HRESULT</b>
 
-If the specified scale, flip/rotate, and planar format configuration is not supported this method fails with <b>WINCODEC_ERR_INVALIDPARAMETER</b>.  You can check if a transform is supported by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-doessupporttransform">IWICPlanarBitmapSourceTransform::DoesSupportTransform</a>.
+If the specified scale, flip/rotate, and planar format configuration is not supported this method fails with <b>WINCODEC_ERR_INVALIDPARAMETER</b>.  You can check if a transform is supported by calling <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-doessupporttransform">IWICPlanarBitmapSourceTransform::DoesSupportTransform</a>.
 
 ## -remarks
 
@@ -177,5 +177,4 @@ The <i>pDstPlanes</i> parameter supports the following pixel formats.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicplanarbitmapsourcetransform">IWICPlanarBitmapSourceTransform</a>
-
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicplanarbitmapsourcetransform">IWICPlanarBitmapSourceTransform</a>

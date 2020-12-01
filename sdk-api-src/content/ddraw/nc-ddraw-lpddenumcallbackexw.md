@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-The <i>DDEnumCallbackEx</i> function is an application-defined callback function for the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-directdrawenumerateexa">DirectDrawEnumerateEx</a> function.
+The <i>DDEnumCallbackEx</i> function is an application-defined callback function for the <a href="/windows/desktop/api/ddraw/nf-ddraw-directdrawenumerateexa">DirectDrawEnumerateEx</a> function.
 
 ## -parameters
 
@@ -79,7 +79,7 @@ It returns zero to stop the enumeration.
 
 ## -remarks
 
-After the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-directdrawenumerateexa">DirectDrawEnumerateEx</a> function completes, the pointer to the GUID at <i>lpGUID</i> is no longer valid. You must save a copy of the GUID structure itself, not the pointer, or the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-directdrawcreateex">DirectDrawCreateEx</a> function fails.
+After the <a href="/windows/desktop/api/ddraw/nf-ddraw-directdrawenumerateexa">DirectDrawEnumerateEx</a> function completes, the pointer to the GUID at <i>lpGUID</i> is no longer valid. You must save a copy of the GUID structure itself, not the pointer, or the <a href="/windows/desktop/api/ddraw/nf-ddraw-directdrawcreateex">DirectDrawCreateEx</a> function fails.
 
 You can use the LPDDENUMCALLBACKEX data type to declare a variable that can contain a pointer to this callback function.
 

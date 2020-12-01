@@ -58,15 +58,15 @@ Contains the result from a Certified Output Protection Protocol (COPP) status re
 
 ### -field rApp
 
-A 128-bit random number that was passed by the application in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppstatusinput">AMCOPPStatusInput</a> structure.
+A 128-bit random number that was passed by the application in the <a href="/windows/desktop/api/strmif/ns-strmif-amcoppstatusinput">AMCOPPStatusInput</a> structure.
 
 ### -field dwFlags
 
-Status flag. See <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_statusflags">COPP_StatusFlags</a>.
+Status flag. See <a href="/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_statusflags">COPP_StatusFlags</a>.
 
 ### -field dwData
 
-Response to the status query. The meaning of this value depends on the status request. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/copp-query-reference">COPP Query Reference</a>.
+Response to the status query. The meaning of this value depends on the status request. For more information, see <a href="/windows/desktop/DirectShow/copp-query-reference">COPP Query Reference</a>.
 
 ### -field ExtendedInfoValidMask
 
@@ -78,9 +78,8 @@ Reserved. Must be zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
-
+<a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>

@@ -60,7 +60,7 @@ Specifies the event ID of the EAS message.
 
 ### -param ppEASObject [in, out]
 
-Pointer to a pointer variable that receives a pointer to the <b>IUnknown</b> interface of the EAS object. The caller can query this object for its <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS</a> interface.
+Pointer to a pointer variable that receives a pointer to the <b>IUnknown</b> interface of the EAS object. The caller can query this object for its <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS</a> interface.
 
 ## -returns
 
@@ -72,5 +72,4 @@ This method retrieves a counted reference to an <b>IUnknown</b> interface instan
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_easmessage">IBDA_EasMessage Interface</a>
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_easmessage">IBDA_EasMessage Interface</a>

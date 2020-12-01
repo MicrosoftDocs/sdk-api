@@ -54,7 +54,7 @@ The <b>capYieldCallback</b> function is the yield callback function used with vi
 
 
 
-To set the callback, send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-yield">WM_CAP_SET_CALLBACK_YIELD</a> message to the capture window or call the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonyield">capSetCallbackOnYield</a> macro.
+To set the callback, send the <a href="/windows/desktop/Multimedia/wm-cap-set-callback-yield">WM_CAP_SET_CALLBACK_YIELD</a> message to the capture window or call the <a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackonyield">capSetCallbackOnYield</a> macro.
 
 ## -parameters
 
@@ -68,9 +68,8 @@ The capture window calls the yield callback function at least once for every cap
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>

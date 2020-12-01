@@ -60,13 +60,12 @@ The DDBOBNEXTFIELDINFO structure contains the bob information for the surface.
 
 ### -field lpSurface
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a> structure that represents the surface.
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a> structure that represents the surface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a>
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddsurfacedata">DDSURFACEDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/nc-dxmini-pdx_bobnextfield">DxBobNextField</a>
-
+<a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_bobnextfield">DxBobNextField</a>

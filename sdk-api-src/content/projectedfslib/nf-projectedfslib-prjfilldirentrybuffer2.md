@@ -64,7 +64,7 @@ Basic information about the entry to be filled.
 
 ### -param extendedInfo [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_extended_info">PRJ_EXTENDED_INFO</a> struct specifying extended information about the entry to be filled.
+A pointer to a <a href="/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_extended_info">PRJ_EXTENDED_INFO</a> struct specifying extended information about the entry to be filled.
 
 ## -returns
 
@@ -74,21 +74,20 @@ E_INVALIDARG indicates that extendedInfo.InfoType is unrecognized.
 
 ## -remarks
 
-The provider uses this routine to service a <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback. When processing the callback, the provider calls this routine for each matching file or directory in the enumeration. This routine allows the provider to specify extended information about the file or directory, such as whether it is a symbolic link.
+The provider uses this routine to service a <a href="/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback. When processing the callback, the provider calls this routine for each matching file or directory in the enumeration. This routine allows the provider to specify extended information about the file or directory, such as whether it is a symbolic link.
 
-If this routine returns HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) when adding an entry to the enumeration, the provider returns S_OK from the callback and waits for the next <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback.
+If this routine returns HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) when adding an entry to the enumeration, the provider returns S_OK from the callback and waits for the next <a href="/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback.
 
 The provider resumes filling the enumeration with the entry it was trying to add when it got HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER).
 
-If this routine returns HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) for the first file or directory in the enumeration, the provider must return HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) from its <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback.
+If this routine returns HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) for the first file or directory in the enumeration, the provider must return HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) from its <a href="/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_get_directory_enumeration_cb">PRJ_GET_DIRECTORY_ENUMERATION_CB</a> callback.
 
 ### Symbolic Links
 
-To specify that this directory entry is for a symbolic link, the provider formats a buffer with a single <a href="https://docs.microsoft.com/en-us/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_extended_info">PRJ_EXTENDED_INFO</a> struct and passes a pointer to it in the `extendedInfo` parameter.  The provider sets the struct's fields as follows:
+To specify that this directory entry is for a symbolic link, the provider formats a buffer with a single <a href="/windows/desktop/api/projectedfslib/ns-projectedfslib-prj_extended_info">PRJ_EXTENDED_INFO</a> struct and passes a pointer to it in the `extendedInfo` parameter.  The provider sets the struct's fields as follows:
 
 * `extendedInfo.InfoType = PRJ_EXT_INFO_TYPE_SYMLINK`
 * `extendedInfo.NextInfoOffset = 0`
 * `extendedInfo.Symlink.TargetName = <path to the target of the symbolic link>`
 
 ## -see-also
-

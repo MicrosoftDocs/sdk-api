@@ -56,7 +56,7 @@ Writes an XML qualified name to the Writer.
 
 ### -param writer [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the qualified name is written.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the qualified name is written.  The pointer must reference a valid <b>XML Writer</b> object.
 
 ### -param prefix [in, optional]
 
@@ -77,7 +77,7 @@ A WS_XML_STRING pointer to the namespace used for the qualified name.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -119,11 +119,10 @@ The input data was not in the expected format or did not have the expected value
           that is bound to the specified namespace.  If an appropriate prefix is found it will be used.  If not the Writer
           will generate a prefix and insert an XMLNS attribute on the current element.  If the writer is not in an element, then the
           function will return <b>WS_E_INVALID_FORMAT</b>.
-          (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)</li>
+          (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)</li>
 <li>If the prefix is not <b>NULL</b> and the namespace is not <b>NULL</b> the Writer will verify that the prefix is currently bound to the
           specified namespace and will return <b>WS_E_INVALID_FORMAT</b> if not.
           </li>
 <li>If the prefix is not <b>NULL</b> and the namespace is <b>NULL</b> the Writer will use the prefix and local name to write the qualified name.
         </li>
 </ul>
-

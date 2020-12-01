@@ -51,20 +51,20 @@ api_name:
 ## -description
 
 The <b>Stat</b> method retrieves a 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure containing information for this byte array object.
+<a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure containing information for this byte array object.
 
 ## -parameters
 
 ### -param pstatstg [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure in which this method places information about this byte array object. The pointer is <b>NULL</b> if an error occurs.
+<a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure in which this method places information about this byte array object. The pointer is <b>NULL</b> if an error occurs.
 
 ### -param grfStatFlag [in]
 
 Specifies whether this method should supply the <b>pwcsName</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure through values taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-statflag">STATFLAG</a> enumeration. If the STATFLAG_NONAME is specified, the <b>pwcsName</b> member of 
+<a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure through values taken from the 
+<a href="/windows/desktop/api/wtypes/ne-wtypes-statflag">STATFLAG</a> enumeration. If the STATFLAG_NONAME is specified, the <b>pwcsName</b> member of 
 <b>STATSTG</b> is not supplied, thus saving a memory-allocation operation. The other possible value, STATFLAG_DEFAULT, indicates that all members of the 
 <b>STATSTG</b> structure be supplied.
 
@@ -75,21 +75,20 @@ This method can return one of these values.
 ## -remarks
 
 <b>ILockBytes::Stat</b> should supply information about the byte array object in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure.
+<a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/ilockbytes-file-based-implementation">ILockBytes - File-Based Implementation</a>
+<a href="/windows/desktop/Stg/ilockbytes-file-based-implementation">ILockBytes - File-Based Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/ilockbytes-global-memory-implementation">ILockBytes - Global Memory Implementation</a>
+<a href="/windows/desktop/Stg/ilockbytes-global-memory-implementation">ILockBytes - Global Memory Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-statflag">STATFLAG</a>
+<a href="/windows/desktop/api/wtypes/ne-wtypes-statflag">STATFLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a>
-
+<a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a>

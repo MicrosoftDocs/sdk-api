@@ -60,7 +60,7 @@ Device handle to the device bitmap to be created.
 
 ### -param sizl [in]
 
-Specifies a SIZEL structure that contains the width and height of the bitmap to be created. The <b>cx</b> and <b>cy</b> members of this structure contain respectively, the bitmap's width and height, in pixels. A SIZEL structure is identical to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
+Specifies a SIZEL structure that contains the width and height of the bitmap to be created. The <b>cx</b> and <b>cy</b> members of this structure contain respectively, the bitmap's width and height, in pixels. A SIZEL structure is identical to a <a href="/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
 
 ### -param iFormatCompat
 
@@ -72,9 +72,8 @@ The return value is a handle that identifies the bitmap if the function is succe
 
 ## -remarks
 
-The surface should be associated by using <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>. The bitmap should be deleted by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletesurface">EngDeleteSurface</a> when it is no longer needed.
+The surface should be associated by using <a href="/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>. The bitmap should be deleted by calling <a href="/windows/desktop/api/winddi/nf-winddi-engdeletesurface">EngDeleteSurface</a> when it is no longer needed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreatebitmap">EngCreateBitmap</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreatebitmap">EngCreateBitmap</a>

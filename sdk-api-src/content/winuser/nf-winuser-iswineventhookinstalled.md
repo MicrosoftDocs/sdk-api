@@ -45,6 +45,7 @@ api_location:
  - minuser.dll
 api_name:
  - IsWinEventHookInstalled
+req.apiset: ext-ms-win-ntuser-server-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # IsWinEventHookInstalled function
@@ -58,13 +59,13 @@ Determines whether there is an installed WinEvent hook that might be notified of
 
 ### -param event [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The event constant that hooks might be notified of. The function checks whether there is an installed hook for this event constant.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If there is a hook to be notified of the specified event, the return value is <b>TRUE</b>.
 
@@ -78,9 +79,8 @@ Event hooks can be installed at any time, so server developers should not cache 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwineventhook">SetWinEventHook</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwineventhook">SetWinEventHook</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unhookwinevent">UnhookWinEvent</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-unhookwinevent">UnhookWinEvent</a>

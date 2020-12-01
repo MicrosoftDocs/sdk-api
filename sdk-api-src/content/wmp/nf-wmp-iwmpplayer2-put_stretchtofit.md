@@ -90,9 +90,8 @@ This method applies to the Windows Media Player control only when embedded in a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer2">IWMPPlayer2 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer2">IWMPPlayer2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-get_stretchtofit">IWMPPlayer2::get_stretchToFit</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-get_stretchtofit">IWMPPlayer2::get_stretchToFit</a>

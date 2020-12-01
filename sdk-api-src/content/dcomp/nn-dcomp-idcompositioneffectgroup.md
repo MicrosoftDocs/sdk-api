@@ -54,7 +54,7 @@ Represents a group of bitmap effects that are applied together to modify the ras
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionEffectGroup</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositioneffect">IDCompositionEffect</a>. <b>IDCompositionEffectGroup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionEffectGroup</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositioneffect">IDCompositionEffect</a>. <b>IDCompositionEffectGroup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionEffectGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-setopacity">SetOpacity</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-setopacity">SetOpacity</a>
 </td>
 <td align="left" width="63%">Overloaded. Animates or changes the value of the Opacity property.
 
@@ -77,7 +77,7 @@ The <b>IDCompositionEffectGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositioneffectgroup-settransform3d">SetTransform3D</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositioneffectgroup-settransform3d">SetTransform3D</a>
 </td>
 <td align="left" width="63%">
 Sets the 3D transformation effect object that modifies the rasterization of the visuals that this effect group is applied to.
@@ -88,9 +88,8 @@ Sets the 3D transformation effect object that modifies the rasterization of the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositioneffect">IDCompositionEffect</a>
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositioneffect">IDCompositionEffect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
-
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>

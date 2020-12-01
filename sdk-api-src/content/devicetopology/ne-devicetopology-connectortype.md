@@ -82,19 +82,18 @@ The connector is part of a connection to a network.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iconnector-gettype">IConnector::GetType</a> method uses the constants defined in the <b>ConnectorType</b> enumeration.
+The <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iconnector-gettype">IConnector::GetType</a> method uses the constants defined in the <b>ConnectorType</b> enumeration.
 
-For more information about connector types, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
+For more information about connector types, see <a href="/windows/desktop/CoreAudio/device-topologies">Device Topologies</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-constants">Core Audio Constants</a>
+<a href="/windows/desktop/CoreAudio/core-audio-constants">Core Audio Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>
+<a href="/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iconnector-gettype">IConnector::GetType</a>
-
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iconnector-gettype">IConnector::GetType</a>

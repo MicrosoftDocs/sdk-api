@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IReferenceClockTimerControl</code> interface changes the timer period used by a reference clock. This interface is exposed by the DirectShow <a href="https://docs.microsoft.com/windows/desktop/DirectShow/system-reference-clock">System Reference Clock</a>.
+The <code>IReferenceClockTimerControl</code> interface changes the timer period used by a reference clock. This interface is exposed by the DirectShow <a href="/windows/desktop/DirectShow/system-reference-clock">System Reference Clock</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReferenceClockTimerControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReferenceClockTimerControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReferenceClockTimerControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReferenceClockTimerControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IReferenceClockTimerControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ireferenceclocktimercontrol-getdefaulttimerresolution">GetDefaultTimerResolution</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclocktimercontrol-getdefaulttimerresolution">GetDefaultTimerResolution</a>
 </td>
 <td align="left" width="63%">
 Returns the timer resolution that was requested by the reference clock.
@@ -79,7 +79,7 @@ Returns the timer resolution that was requested by the reference clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ireferenceclocktimercontrol-setdefaulttimerresolution">SetDefaultTimerResolution</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclocktimercontrol-setdefaulttimerresolution">SetDefaultTimerResolution</a>
 </td>
 <td align="left" width="63%">
 Sets the minimum timer resolution.
@@ -94,7 +94,6 @@ By default, the system reference clock in DirectShow sets the timer period to th
 
 The timer period is a global settings in Windows. A higher resolution can improve the accuracy of time-out intervals in wait functions. However, it can also reduce overall system performance, because the thread scheduler switches tasks more often. High resolutions can also prevent the CPU power management system from entering power-saving modes. Setting a higher resolution does not improve the accuracy of the high-resolution performance counter.
 
-The main purpose of this interface is to override the reference clock's default timer setting. To do so, call <b>SetDefaultTimerResolution</b> with the value zero. This can result in a lower timer resolution, which might enable the user's computer to enter a power saving mode. (The actual behavior depends on many other factors, such as what other processes are running.) The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter uses this interface as described here.
+The main purpose of this interface is to override the reference clock's default timer setting. To do so, call <b>SetDefaultTimerResolution</b> with the value zero. This can result in a lower timer resolution, which might enable the user's computer to enter a power saving mode. (The actual behavior depends on many other factors, such as what other processes are running.) The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter uses this interface as described here.
 
-If a DirectShow filter requires a higher timer resolution, it should call <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod">timeBeginPeriod</a>. Typically this requirement would apply only to renderer filters.
-
+If a DirectShow filter requires a higher timer resolution, it should call <a href="/windows/desktop/api/timeapi/nf-timeapi-timebeginperiod">timeBeginPeriod</a>. Typically this requirement would apply only to renderer filters.

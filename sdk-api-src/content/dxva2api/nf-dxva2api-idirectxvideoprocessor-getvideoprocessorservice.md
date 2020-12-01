@@ -56,7 +56,7 @@ Retrieves the DirectX Video Acceleration (DXVA) video processor service that cre
 
 ### -param ppService [out]
 
-Receives a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessorservice">IDirectXVideoProcessorService</a> interface. The caller must release the interface.
+Receives a pointer to <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessorservice">IDirectXVideoProcessorService</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -82,9 +82,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-video-processing">DXVA Video Processing</a>
+<a href="/windows/desktop/medfound/dxva-video-processing">DXVA Video Processing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessor">IDirectXVideoProcessor</a>
-
+<a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessor">IDirectXVideoProcessor</a>

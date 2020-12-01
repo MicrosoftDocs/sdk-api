@@ -54,7 +54,7 @@ Exposes property methods that you can use to set or retrieve the value of a shar
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISharedProperty</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISharedProperty</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISharedProperty</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISharedProperty</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISharedProperty</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isharedproperty-get_value">get_Value</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isharedproperty-get_value">get_Value</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a shared property.
@@ -78,7 +78,7 @@ Retrieves the value of a shared property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isharedproperty-put_value">put_Value</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isharedproperty-put_value">put_Value</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a shared property.
@@ -89,9 +89,8 @@ Sets the value of a shared property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroup">ISharedPropertyGroup</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroup">ISharedPropertyGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroupmanager">ISharedPropertyGroupManager</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroupmanager">ISharedPropertyGroupManager</a>

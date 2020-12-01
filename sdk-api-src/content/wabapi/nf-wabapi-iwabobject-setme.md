@@ -57,9 +57,9 @@ Designates a particular contact as the ME object.
 
 ### -param lpIAB
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
+Type: <b><a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
+Pointer to an <a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface 
 				that specifies the address book.
 
 ### -param ulFlags
@@ -77,9 +77,9 @@ Causes a selection dialog box to be displayed.
 
 ### -param sbEID
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a></b>
+Type: <b><a href="/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a></b>
 
-Value of type <a href="https://docs.microsoft.com/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a> that 
+Value of type <a href="/previous-versions/office/developer/office-2007/cc815817(v=office.12)">SBinary</a> that 
 				specifies the entry identifier of the contact that should be tagged 
 				as ME.
 
@@ -115,4 +115,3 @@ If the calling application specifies
  pre-selected in the contact list.
 
 Passing a combination of no flags and no entry identifiers is not valid.
-

@@ -54,6 +54,7 @@ api_name:
  - FindWindowEx
  - FindWindowExA
  - FindWindowExW
+req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # FindWindowExW function
@@ -73,7 +74,7 @@ A handle to the parent window whose child windows are to be searched.
 
 If <i>hwndParent</i> is <b>NULL</b>, the function uses the desktop window as the parent window. The function searches among windows that are child windows of the desktop. 
 
-If <i>hwndParent</i> is <b>HWND_MESSAGE</b>, the function searches all <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">message-only windows</a>.
+If <i>hwndParent</i> is <b>HWND_MESSAGE</b>, the function searches all <a href="/windows/desktop/winmsg/window-features">message-only windows</a>.
 
 ### -param hWndChildAfter [in, optional]
 
@@ -89,9 +90,9 @@ Note that if both <i>hwndParent</i> and <i>hwndChildAfter</i> are <b>NULL</b>, t
 
 Type: <b>LPCTSTR</b>
 
-The class name or a class atom created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. The atom must be placed in the low-order word of <i>lpszClass</i>; the high-order word must be zero.
+The class name or a class atom created by a previous call to the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. The atom must be placed in the low-order word of <i>lpszClass</i>; the high-order word must be zero.
 
- If <i>lpszClass</i> is a string, it specifies the window class name. The class name can be any name registered with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>, or any of the predefined control-class names, or it can be <code>MAKEINTATOM(0x8000)</code>. In this latter case, 0x8000 is the atom for a menu class. For more information, see the Remarks section of this topic.
+ If <i>lpszClass</i> is a string, it specifies the window class name. The class name can be any name registered with <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>, or any of the predefined control-class names, or it can be <code>MAKEINTATOM(0x8000)</code>. In this latter case, 0x8000 is the atom for a menu class. For more information, see the Remarks section of this topic.
 
 ### -param lpszWindow [in, optional]
 
@@ -105,11 +106,11 @@ Type: <b>HWND</b>
 
 If the function succeeds, the return value is a handle to the window that has the specified class and window names.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If the <i>lpszWindow</i> parameter is not <b>NULL</b>, <b>FindWindowEx</b> calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a> function to retrieve the window name for comparison. For a description of a potential problem that can arise, see the Remarks section of <b>GetWindowText</b>.
+If the <i>lpszWindow</i> parameter is not <b>NULL</b>, <b>FindWindowEx</b> calls the <a href="/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a> function to retrieve the window name for comparison. For a description of a potential problem that can arise, see the Remarks section of <b>GetWindowText</b>.
 
 An application can call this function in the following way.
 
@@ -130,19 +131,19 @@ Note that 0x8000 is the atom for a menu class. When an application calls this fu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumwindows">EnumWindows</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumwindows">EnumWindows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-findwindowa">FindWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-findwindowa">FindWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassname">GetClassName</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclassname">GetClassName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a>
 
 
 
@@ -150,13 +151,12 @@ Note that 0x8000 is the atom for a menu class. When an application calls this fu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

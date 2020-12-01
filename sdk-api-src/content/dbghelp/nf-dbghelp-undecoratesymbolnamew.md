@@ -277,14 +277,14 @@ If the function succeeds, the return value is the number of characters in the
        <i>UnDecoratedName</i> buffer, not including the NULL terminator.
 
 If the function fails, the return value is zero. To retrieve extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the function fails and returns zero, the content of the <i>UnDecoratedName</i> buffer 
        is undetermined.
 
 ## -remarks
 
-To use undecorated symbols, call the <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> 
+To use undecorated symbols, call the <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a> 
     function with the <b>SYMOPT_UNDNAME</b> option.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to 
@@ -297,7 +297,7 @@ To call the Unicode version of this function, define <b>DBGHELP_TRANSLATE_TCHAR<
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/Debug/retrieving-undecorated-symbol-names">Retrieving Undecorated Symbol Names</a>.
+     <a href="/windows/desktop/Debug/retrieving-undecorated-symbol-names">Retrieving Undecorated Symbol Names</a>.
 
 <div class="code"></div>
 
@@ -309,9 +309,8 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetoptions">SymSetOptions</a>

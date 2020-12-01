@@ -83,7 +83,7 @@ The value depends on the message specified in the <i>uMsg</i> parameter.
 Type: <b>LRESULT*</b>
 
 The address of the return value of the 
-					<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function.
+					<a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function.
 
 ## -returns
 
@@ -93,7 +93,7 @@ Returns <b>S_OK</b> if successful, or a COM-defined error value otherwise.
 
 ## -remarks
 
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/Controls/common-controls-intro">Common Controls</a> documentation for more information on the messages that can be sent to the toolbar or status bar control.
+Refer to the <a href="/windows/desktop/Controls/common-controls-intro">Common Controls</a> documentation for more information on the messages that can be sent to the toolbar or status bar control.
 
 <h3><a id="Notes_to_Calling_Applications"></a><a id="notes_to_calling_applications"></a><a id="NOTES_TO_CALLING_APPLICATIONS"></a>Notes to Calling Applications</h3>
 Use of this call requires diligent attention, because leaving either the status bar or toolbar in an inappropriate state will affect the performance of Windows Explorer.
@@ -103,5 +103,4 @@ If your Windows Explorer does not have these controls, you can return <b>E_NOTIM
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>

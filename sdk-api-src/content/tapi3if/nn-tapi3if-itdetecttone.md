@@ -52,13 +52,13 @@ api_name:
 
 The 
 <b>ITDetectTone</b> interface exposes methods that allow an application to specify the tones and tone characteristics that should cause the TAPI Server to generate a tone event. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-createdetecttoneobject">ITLegacyCallMediaControl2::CreateDetectToneObject</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-detecttonesbycollection">ITLegacyCallMediaControl2::DetectTonesByCollection</a> methods create the 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-createdetecttoneobject">ITLegacyCallMediaControl2::CreateDetectToneObject</a> and 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-detecttonesbycollection">ITLegacyCallMediaControl2::DetectTonesByCollection</a> methods create the 
 <b>ITDetectTone</b> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDetectTone</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDetectTone</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDetectTone</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDetectTone</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ITDetectTone</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-get_appspecific">get_AppSpecific</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-get_appspecific">get_AppSpecific</a>
 </td>
 <td align="left" width="63%">
 Gets the application-defined tag that identifies the tone to detect.
@@ -82,7 +82,7 @@ Gets the application-defined tag that identifies the tone to detect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-get_duration">get_Duration</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-get_duration">get_Duration</a>
 </td>
 <td align="left" width="63%">
 Gets the length of time during which a tone should be present before the TAPI Server generates a tone event.
@@ -91,7 +91,7 @@ Gets the length of time during which a tone should be present before the TAPI Se
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-get_frequency">get_Frequency</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-get_frequency">get_Frequency</a>
 </td>
 <td align="left" width="63%">
 Gets the frequency of the tone for which the TAPI Server generates a tone event.
@@ -100,7 +100,7 @@ Gets the frequency of the tone for which the TAPI Server generates a tone event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-put_appspecific">put_AppSpecific</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-put_appspecific">put_AppSpecific</a>
 </td>
 <td align="left" width="63%">
 Sets the application-defined tag that identifies the tone to detect.
@@ -109,7 +109,7 @@ Sets the application-defined tag that identifies the tone to detect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-put_duration">put_Duration</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-put_duration">put_Duration</a>
 </td>
 <td align="left" width="63%">
 Sets the length of time during which a tone should be present before the TAPI Server generates a tone event.
@@ -118,7 +118,7 @@ Sets the length of time during which a tone should be present before the TAPI Se
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-put_frequency">put_Frequency</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-put_frequency">put_Frequency</a>
 </td>
 <td align="left" width="63%">
 Sets the frequency of the tone for which the TAPI Server generates a tone event.
@@ -126,4 +126,3 @@ Sets the frequency of the tone for which the TAPI Server generates a tone event.
 </td>
 </tr>
 </table>
-

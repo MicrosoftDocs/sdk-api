@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - OleSetContainedObject
+req.apiset: ext-ms-win-com-ole32-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # OleSetContainedObject function
@@ -61,7 +62,7 @@ Notifies an object that it is embedded in an OLE container, which ensures that r
 
 ### -param pUnknown [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the object.
+Pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of the object.
 
 ### -param fContained [in]
 
@@ -113,9 +114,8 @@ An unexpected error occurred.
 
 ## -remarks
 
-The <b>OleSetContainedObject</b> function notifies an object that it is embedded in an OLE container. The implementation of <b>OleSetContainedObject</b> was changed in OLE 2.01 to coincide with the publication of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a> interface. You can use <b>OleSetContainedObject</b> and the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-setcontainedobject">IRunnableObject::SetContainedObject</a> method interchangeably. The <b>OleSetContainedObject</b> function queries the object for a pointer to the <b>IRunnableObject</b> interface. If successful, the function returns the results of calling <b>IRunnableObject::SetContainedObject</b>.
+The <b>OleSetContainedObject</b> function notifies an object that it is embedded in an OLE container. The implementation of <b>OleSetContainedObject</b> was changed in OLE 2.01 to coincide with the publication of the <a href="/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a> interface. You can use <b>OleSetContainedObject</b> and the <a href="/windows/desktop/api/objidl/nf-objidl-irunnableobject-setcontainedobject">IRunnableObject::SetContainedObject</a> method interchangeably. The <b>OleSetContainedObject</b> function queries the object for a pointer to the <b>IRunnableObject</b> interface. If successful, the function returns the results of calling <b>IRunnableObject::SetContainedObject</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-setcontainedobject">IRunnableObject::SetContainedObject</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-irunnableobject-setcontainedobject">IRunnableObject::SetContainedObject</a>

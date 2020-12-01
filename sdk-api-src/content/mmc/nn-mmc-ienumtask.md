@@ -58,7 +58,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTASK</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTASK</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumTASK</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumTASK</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IEnumTASK</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-clone">Clone</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-ienumtask-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Not used by MMC. Creates a new 
@@ -84,7 +84,7 @@ Not used by MMC. Creates a new
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-next">Next</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-ienumtask-next">Next</a>
 </td>
 <td align="left" width="63%">
 Enables MMC to retrieve the next task in the snap-in's list of tasks.
@@ -93,7 +93,7 @@ Enables MMC to retrieve the next task in the snap-in's list of tasks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-reset">Reset</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-ienumtask-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Enables MMC to reset the enumeration to the beginning of the list.
@@ -102,7 +102,7 @@ Enables MMC to reset the enumeration to the beginning of the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-skip">Skip</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-ienumtask-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Not used by MMC. Skips the specified number of tasks.
@@ -110,4 +110,3 @@ Not used by MMC. Skips the specified number of tasks.
 </td>
 </tr>
 </table>
-

@@ -89,30 +89,29 @@ The manager holds a lock on the document.
 
 ## -remarks
 
-<b>ITextStoreACPSink::OnSelectionChange</b> is never called when the selection is modified by one of the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> interface methods, such as <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-setselection">ITextStoreACP::SetSelection</a> or <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-inserttextatselection">ITextStoreACP::InsertTextAtSelection</a>.
+<b>ITextStoreACPSink::OnSelectionChange</b> is never called when the selection is modified by one of the <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> interface methods, such as <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-setselection">ITextStoreACP::SetSelection</a> or <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-inserttextatselection">ITextStoreACP::InsertTextAtSelection</a>.
 
-When calling this method, the application must be able to grant a <a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">document lock</a>.
+When calling this method, the application must be able to grant a <a href="/windows/desktop/TSF/document-locks">document lock</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">Document Locks</a>
+<a href="/windows/desktop/TSF/document-locks">Document Locks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-inserttextatselection">ITextStoreACP::InsertTextAtSelection
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-inserttextatselection">ITextStoreACP::InsertTextAtSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-setselection">ITextStoreACP::SetSelection
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-setselection">ITextStoreACP::SetSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>
-
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacpsink">ITextStoreACPSink</a>

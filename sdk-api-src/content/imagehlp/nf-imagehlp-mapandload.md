@@ -61,12 +61,12 @@ The file name of the image (executable file or DLL) that is loaded.
 ### -param DllPath [in]
 
 The path used to locate the image if the name provided cannot be found. If this parameter is <b>NULL</b>, then the search path rules set using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a> function apply.
+<a href="/windows/desktop/api/processenv/nf-processenv-searchpathw">SearchPath</a> function apply.
 
 ### -param LoadedImage [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a> structure that receives information about the image after it is loaded.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a> structure that receives information about the image after it is loaded.
 
 ### -param DotDll [in]
 
@@ -81,13 +81,13 @@ The access mode. If this value is <b>TRUE</b>, the file is mapped for read-acces
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The 
 <b>MapAndLoad</b> function maps an image and preloads data from the mapped file. The corresponding function, 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-unmapandload">UnMapAndLoad</a>, must be used to deallocate all resources that are allocated by the 
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-unmapandload">UnMapAndLoad</a>, must be used to deallocate all resources that are allocated by the 
 <b>MapAndLoad</b> function.
 			
 
@@ -95,13 +95,12 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-unmapandload">UnMapAndLoad</a>
-
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-unmapandload">UnMapAndLoad</a>

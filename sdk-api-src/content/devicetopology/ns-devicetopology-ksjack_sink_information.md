@@ -90,13 +90,12 @@ String containing the monitor sink name. The maximum length is defined by the co
 
 ### -field PortId
 
-Specifies the video port identifier in a <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/ns-devicetopology-luid">LUID</a> structure.
+Specifies the video port identifier in a <a href="/windows/desktop/api/devicetopology/ns-devicetopology-luid">LUID</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
+<a href="/windows/desktop/CoreAudio/core-audio-structures">Core Audio Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iksjacksinkinformation-getjacksinkinformation">IKsJackSinkInformation::GetJackSinkInformation</a>
-
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjacksinkinformation-getjacksinkinformation">IKsJackSinkInformation::GetJackSinkInformation</a>

@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>IPX_NETNUM_DATA</b> structure provides information about a specified IPX network number. Used in conjunction with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function calls that specify IPX_GETNETINFO in the <i>optname</i> parameter.
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> function calls that specify IPX_GETNETINFO in the <i>optname</i> parameter.
 
 ## -struct-fields
 
@@ -86,5 +86,4 @@ If information about the IPX network is in the computer's IPX cache, the call wi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
-
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>

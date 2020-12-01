@@ -50,12 +50,12 @@ api_name:
 
 ## -description
 
-The <b>ICertPropertySHA1Hash</b> interface represents a certificate property that contains a SHA-1 hash of the certificate.  The hash functions as a unique identifier. Typically, it is called a thumb print.<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-certenroll_propertyid">CERTENROLL_PROPERTYID</a> value is XCN_CERT_SHA1_HASH_PROP_ID.</div>
+The <b>ICertPropertySHA1Hash</b> interface represents a certificate property that contains a SHA-1 hash of the certificate.  The hash functions as a unique identifier. Typically, it is called a thumb print.<div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/certenroll/ne-certenroll-certenroll_propertyid">CERTENROLL_PROPERTYID</a> value is XCN_CERT_SHA1_HASH_PROP_ID.</div>
 <div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertySHA1Hash</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertySHA1Hash</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertySHA1Hash</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertySHA1Hash</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>ICertPropertySHA1Hash</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertysha1hash-initialize">Initialize</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertysha1hash-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from the SHA-1 hash of a certificate.
@@ -88,7 +88,7 @@ Initializes the object from the SHA-1 hash of a certificate.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertysha1hash-get_sha1hash">SHA1Hash</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertysha1hash-get_sha1hash">SHA1Hash</a>
 
 
 </td>
@@ -101,9 +101,8 @@ Retrieves the SHA-1 hash of a certificate.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>

@@ -66,7 +66,7 @@ Retrieves a gamepad input event.
 
 ### -param pKeystroke
 
-[out] Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_keystroke">XINPUT_KEYSTROKE</a> structure that receives an input event.
+[out] Pointer to an <a href="/windows/desktop/api/xinput/ns-xinput-xinput_keystroke">XINPUT_KEYSTROKE</a> structure that receives an input event.
 
 ## -returns
 
@@ -78,7 +78,7 @@ If no new keys have been pressed, the return value is <b>ERROR_EMPTY</b>.
 
 If the controller is not connected or the user has not activated it, the return value is <b>ERROR_DEVICE_NOT_CONNECTED</b>. See the Remarks section below.
 
-If the function fails, the return value is an error code defined in Winerror.h. The function does not use <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set the calling thread's last-error code.
+If the function fails, the return value is an error code defined in Winerror.h. The function does not use <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> to set the calling thread's last-error code.
 
 ## -remarks
 
@@ -89,9 +89,8 @@ Windows 8 (XInput 1.4), DirectX SDK (XInput 1.3)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_keystroke">XINPUT_KEYSTROKE</a>
+<a href="/windows/desktop/api/xinput/ns-xinput-xinput_keystroke">XINPUT_KEYSTROKE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xinput/functions">XInput Functions</a>
-
+<a href="/windows/desktop/xinput/functions">XInput Functions</a>

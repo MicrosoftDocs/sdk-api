@@ -57,7 +57,7 @@ api_name:
 
 ### -param ClassData [in]
 
-Pointer to a battery class handle previously returned by <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassinitializedevice">BatteryClassInitializeDevice</a>.
+Pointer to a battery class handle previously returned by <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassinitializedevice">BatteryClassInitializeDevice</a>.
 
 ## -returns
 
@@ -67,5 +67,4 @@ Pointer to a battery class handle previously returned by <a href="https://docs.m
 
 <b>BatteryClassUnload</b> frees the battery class handle and unloads the battery device. In essence, it undoes the registration and initialization performed by <b>BatteryClassInitializeDevice</b>.
 
-A miniclass driver should call this routine when its battery device is no longer available for use. Typically, the driver might make such a call from its Unload routine or when handling a PnP <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a> request.
-
+A miniclass driver should call this routine when its battery device is no longer available for use. Typically, the driver might make such a call from its Unload routine or when handling a PnP <a href="/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a> request.

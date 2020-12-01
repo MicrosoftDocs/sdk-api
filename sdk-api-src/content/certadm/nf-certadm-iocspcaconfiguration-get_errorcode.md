@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>ErrorCode</b> property gets a code that identifies an error condition in a CA configuration. The default implementations of <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a> set the initial error-condition value.
+The <b>ErrorCode</b> property gets a code that identifies an error condition in a CA configuration. The default implementations of <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a> and <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a> set the initial error-condition value.
 
 This property is read-only.
 
@@ -61,9 +61,8 @@ This property is read-only.
 
 The OCSP responder service returns an error code when it encounters a problem with a configuration. For the definition of a returned code, see Winerror.h in the Microsoft Windows Software Development Kit (SDK).
 
-An <b>OCSPCAConfiguration</b> object internally stores the error code as an <b>HRESULT</b> with an initial value of <b>E_PENDING</b>. When <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspadmin-setconfiguration">IOCSPAdmin::SetConfiguration</a> is called, the error code is reset to <b>E_PENDING</b>.
+An <b>OCSPCAConfiguration</b> object internally stores the error code as an <b>HRESULT</b> with an initial value of <b>E_PENDING</b>. When <a href="/windows/desktop/api/certadm/nf-certadm-iocspadmin-setconfiguration">IOCSPAdmin::SetConfiguration</a> is called, the error code is reset to <b>E_PENDING</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>

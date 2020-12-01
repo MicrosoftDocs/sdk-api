@@ -52,15 +52,15 @@ api_name:
 
 ## -description
 
-The <b>SCardIntroduceReader</b> function introduces a new name for an existing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>.
+The <b>SCardIntroduceReader</b> function introduces a new name for an existing <a href="/windows/desktop/SecGloss/s-gly">smart card</a> <a href="/windows/desktop/SecGloss/r-gly">reader</a>.
 <div class="alert"><b>Note</b>  Smart card readers are automatically introduced to the system; a smart card reader vendor's setup program can also introduce a smart card reader to the system.</div><div> </div>
 
 ## -parameters
 
 ### -param hContext [in]
 
-Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This parameter cannot be <b>NULL</b>.
+Handle that identifies the <a href="/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This parameter cannot be <b>NULL</b>.
 
 ### -param szReaderName [in]
 
@@ -98,7 +98,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -109,10 +109,10 @@ An error code. For more information, see
 All readers installed on the system are automatically introduced by their system name. Typically, <b>SCardIntroduceReader</b> is called only to change the name of an existing reader.
 
 The <b>SCardIntroduceReader</b> function is a database management function. For more information on other database management functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-database-management-functions">Smart Card Database Management Functions</a>.
+<a href="/windows/desktop/SecAuthN/smart-card-database-management-functions">Smart Card Database Management Functions</a>.
 
 To remove a reader, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardforgetreadera">SCardForgetReader</a>.
+<a href="/windows/desktop/api/winscard/nf-winscard-scardforgetreadera">SCardForgetReader</a>.
 
 
 #### Examples
@@ -175,17 +175,16 @@ lReturn = SCardFreeMemory( hContext, pbAttr );
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardforgetreadera">SCardForgetReader</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardforgetreadera">SCardForgetReader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducecardtypea">SCardIntroduceCardType</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardintroducecardtypea">SCardIntroduceCardType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducereadergroupa">SCardIntroduceReaderGroup</a>
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardintroducereadergroupa">SCardIntroduceReaderGroup</a>

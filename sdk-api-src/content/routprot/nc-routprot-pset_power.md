@@ -52,10 +52,10 @@ api_name:
 
 The 
 <b>SetPower</b> function is reserved for future use. It is not currently called by the router manager. Routing protocols should pass <b>NULL</b> as the pointer value for this function in 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
+<a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PSET_POWER</a> type defines a pointer to this callback function. <i>SetPower</i> is a placeholder for the application-defined function name.
+The <a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PSET_POWER</a> type defines a pointer to this callback function. <i>SetPower</i> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -65,5 +65,4 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pquery_power">QueryPower</a>
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pquery_power">QueryPower</a>

@@ -58,7 +58,7 @@ api_name:
 
 ## -description
 
-Directs a wait thread in the <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">thread pool</a> to wait on the object. The wait thread queues the specified callback function to the thread pool when one of the following occurs:
+Directs a wait thread in the <a href="/windows/desktop/ProcThread/thread-pooling">thread pool</a> to wait on the object. The wait thread queues the specified callback function to the thread pool when one of the following occurs:
 <ul>
 <li>The specified object is in the signaled state.</li>
 <li>The time-out interval elapses.</li>
@@ -69,7 +69,7 @@ Directs a wait thread in the <a href="https://docs.microsoft.com/windows/desktop
 ### -param phNewWaitObject [out]
 
 A pointer to a variable that receives a wait handle on return. Note that a wait handle cannot be used in functions that require an object handle, such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
 ### -param hObject [in]
 
@@ -81,12 +81,12 @@ A handle to the object. For a list of the object types whose handles can be spec
 If this handle is closed while the wait is still pending, the function's behavior is undefined.
 
 The handles must have the <b>SYNCHRONIZE</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>.
+<a href="/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>.
 
 ### -param Callback [in]
 
 A pointer to the application-defined function of type <b>WAITORTIMERCALLBACK</b> to be executed when <i>hObject</i> is in the signaled state, or <i>dwMilliseconds</i> elapses. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms687066(v=vs.85)">WaitOrTimerCallback</a>.
+<a href="/previous-versions/windows/desktop/legacy/ms687066(v=vs.85)">WaitOrTimerCallback</a>.
 
 ### -param Context [in, optional]
 
@@ -144,7 +144,7 @@ I/O worker threads were removed starting with WindowsÂ Vista and Windows ServerÂ
 The callback function is queued to a thread that never terminates. It does not guarantee that the same thread is used each time. This flag should be used only for short tasks or it could affect other wait operations. 
 
 
-This flag must be set if the thread calls functions that use APCs. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>.
+This flag must be set if the thread calls functions that use APCs. For more information, see <a href="/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>.
 
 Note that currently no worker thread is truly persistent, although no worker thread will terminate if there are any pending I/O requests.
 
@@ -163,8 +163,8 @@ The callback function is invoked by the wait thread itself. This flag should be 
 
 
 Deadlocks can occur if some other thread acquires an exclusive lock and calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-unregisterwait">UnregisterWait</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/unregisterwaitex">UnregisterWaitEx</a> function while the callback function is trying to acquire the same lock.
+<a href="/windows/desktop/api/winbase/nf-winbase-unregisterwait">UnregisterWait</a> or 
+<a href="/windows/desktop/Sync/unregisterwaitex">UnregisterWaitEx</a> function while the callback function is trying to acquire the same lock.
 
 </td>
 </tr>
@@ -210,15 +210,15 @@ Callback functions will use the current access token, whether it is a process or
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call  
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 New wait threads are created automatically when required. The wait operation is performed by a wait thread from the thread pool. The callback routine is executed by a worker thread when the object's state becomes signaled or the time-out interval elapses. If <i>dwFlags</i> is not <b>WT_EXECUTEONLYONCE</b>, the timer is reset every time the event is signaled or the time-out interval elapses.
 
 When the wait is completed, you must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-unregisterwait">UnregisterWait</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/unregisterwaitex">UnregisterWaitEx</a> function to cancel the wait operation. (Even wait operations that use <b>WT_EXECUTEONLYONCE</b> must be canceled.) Do not make a blocking call to either of these functions from within the callback function.
+<a href="/windows/desktop/api/winbase/nf-winbase-unregisterwait">UnregisterWait</a> or 
+<a href="/windows/desktop/Sync/unregisterwaitex">UnregisterWaitEx</a> function to cancel the wait operation. (Even wait operations that use <b>WT_EXECUTEONLYONCE</b> must be canceled.) Do not make a blocking call to either of these functions from within the callback function.
 
 Note that you should not pulse an event object passed to 
 <b>RegisterWaitForSingleObject</b>, because the wait thread might not detect that the event is signaled before it is reset. You should not register an object that remains signaled (such as a manual reset event or terminated process) unless you set the <b>WT_EXECUTEONLYONCE</b> or <b>WT_EXECUTEINWAITTHREAD</b> flag. For other flags,  the callback function might be called too many times before the event is reset.
@@ -240,7 +240,7 @@ The
 <li>Waitable timer</li>
 </ul>
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-objects">Synchronization Objects</a>.
+<a href="/windows/desktop/Sync/synchronization-objects">Synchronization Objects</a>.
 
 By default, the thread pool has a maximum of 500 threads. To raise this limit, use the <b>WT_SET_MAX_THREADPOOL_THREAD</b> macro defined in WinNT.h.
 
@@ -249,32 +249,31 @@ By default, the thread pool has a maximum of 500 threads. To raise this limit, u
 Use this macro when specifying the <i>dwFlags</i> parameter. The macro parameters are the desired flags and the new limit (up to (2&lt;&lt;16)-1 threads). However, note that your application can improve its performance by keeping the number of worker threads low.
 
 The work item and all functions it calls must be thread-pool safe. Therefore, you cannot call an asynchronous call that requires a persistent thread, such as the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regnotifychangekeyvalue">RegNotifyChangeKeyValue</a> function, from the default callback environment. Instead, set the thread pool maximum equal to the thread pool minimum using the <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolthreadmaximum">SetThreadpoolThreadMaximum</a> and <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolthreadminimum">SetThreadpoolThreadMinimum</a> functions, or create your own thread using the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a> function. (For the original thread pool API, specify <b>WT_EXECUTEINPERSISTENTTHREAD</b> using the <a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem">QueueUserWorkItem</a> function.)
+<a href="/windows/desktop/api/winreg/nf-winreg-regnotifychangekeyvalue">RegNotifyChangeKeyValue</a> function, from the default callback environment. Instead, set the thread pool maximum equal to the thread pool minimum using the <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolthreadmaximum">SetThreadpoolThreadMaximum</a> and <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolthreadminimum">SetThreadpoolThreadMinimum</a> functions, or create your own thread using the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a> function. (For the original thread pool API, specify <b>WT_EXECUTEINPERSISTENTTHREAD</b> using the <a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem">QueueUserWorkItem</a> function.)
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
+<a href="/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-unregisterwait">UnregisterWait</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-unregisterwait">UnregisterWait</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/unregisterwaitex">UnregisterWaitEx</a>
+<a href="/windows/desktop/Sync/unregisterwaitex">UnregisterWaitEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">Wait Functions</a>
+<a href="/windows/desktop/Sync/wait-functions">Wait Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms687066(v=vs.85)">WaitOrTimerCallback</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms687066(v=vs.85)">WaitOrTimerCallback</a>

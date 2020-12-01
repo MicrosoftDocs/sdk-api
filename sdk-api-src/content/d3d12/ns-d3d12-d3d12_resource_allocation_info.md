@@ -65,11 +65,10 @@ The alignment value for the resource; one of 4KB (4096), 64KB (65536), or 4MB (4
 
 ## -remarks
 
-This structure is used by the [ID3D12Device::GetResourceAllocationInfo](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo) and [ID3D12Device::GetResourceAllocationInfo1](/windows/win32/api/d3d12/nf-d3d12-id3d12device4-getresourceallocationinfo1) methods.
+This structure is used by the [ID3D12Device::GetResourceAllocationInfo](./nf-d3d12-id3d12device-getresourceallocationinfo.md) and [ID3D12Device::GetResourceAllocationInfo1](./nf-d3d12-id3d12device4-getresourceallocationinfo1.md) methods.
 
 ## -see-also
 
 [CD3DX12_RESOURCE_ALLOCATION_INFO](/windows/win32/direct3d12/cd3dx12-resource-allocation-info)
 
 [Core structures](/windows/win32/direct3d12/direct3d-12-structures)
-

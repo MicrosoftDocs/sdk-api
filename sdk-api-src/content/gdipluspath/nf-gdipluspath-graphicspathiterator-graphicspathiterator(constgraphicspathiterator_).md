@@ -1,7 +1,7 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.GraphicsPathIterator(constGraphicsPathIterator&)
 title: GraphicsPathIterator::GraphicsPathIterator(const GraphicsPathIterator &) (gdipluspath.h)
-description: Creates a new GraphicsPathIterator::GraphicsPathIterator object and associates it with a GraphicsPath object.
+description: Copy constructor for **GraphicsPathIterator**.
 helpviewer_keywords: ["GraphicsPathIterator","GraphicsPathIterator class [GDI+]","GraphicsPathIterator constructor","GraphicsPathIterator constructor [GDI+]","GraphicsPathIterator constructor [GDI+]","GraphicsPathIterator class","GraphicsPathIterator.GraphicsPathIterator","GraphicsPathIterator.GraphicsPathIterator(const GraphicsPathIterator &)","GraphicsPathIterator::GraphicsPathIterator","GraphicsPathIterator::GraphicsPathIterator(const GraphicsPathIterator &)","_gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_","gdiplus._gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_.htm
 tech.root: gdiplus
@@ -46,26 +46,18 @@ api_name:
  - GraphicsPathIterator.GraphicsPathIterator
 ---
 
-# GraphicsPathIterator::GraphicsPathIterator(const GraphicsPathIterator &)
-
-
 ## -description
 
-Creates a new <b>GraphicsPathIterator::GraphicsPathIterator</b> object and associates it with a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object.
+Copy constructor for **GraphicsPathIterator**.
 
 ## -parameters
 
-#### - path [in]
+### -param arg1
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
-
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object that will be associated with this <b>GraphicsPathIterator::GraphicsPathIterator</b> object.
+The object to copy to this object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>
-
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>

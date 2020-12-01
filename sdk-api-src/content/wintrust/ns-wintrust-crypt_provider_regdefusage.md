@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_PROVIDER_REGDEFUSAGE</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustadddefaultforusage">WintrustAddDefaultForUsage</a> function to register callback information about a provider's default usage.
+The <b>CRYPT_PROVIDER_REGDEFUSAGE</b> structure is used by the <a href="/windows/desktop/api/wintrust/nf-wintrust-wintrustadddefaultforusage">WintrustAddDefaultForUsage</a> function to register callback information about a provider's default usage.
 
 ## -struct-fields
 
@@ -72,21 +72,20 @@ Pointer to the name of the provider DLL.
 
 ### -field pwszLoadCallbackDataFunctionName
 
-Pointer to the name of the function that loads the callback data to be returned when the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustgetdefaultforusage">WintrustGetDefaultForUsage</a> function is called with the <i>dwAction</i> parameter set to <b>DWACTION_ALLOCANDFILL</b>. This information also exists in the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure.
+Pointer to the name of the function that loads the callback data to be returned when the <a href="/windows/desktop/api/wintrust/nf-wintrust-wintrustgetdefaultforusage">WintrustGetDefaultForUsage</a> function is called with the <i>dwAction</i> parameter set to <b>DWACTION_ALLOCANDFILL</b>. This information also exists in the <a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure.
 
 ### -field pwszFreeCallbackDataFunctionName
 
-Pointer to the name of the function that frees allocated memory when the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustgetdefaultforusage">WintrustGetDefaultForUsage</a> function is called with the <i>dwAction</i> parameter set to <b>DWACTION_FREE</b>. This information also exists in the <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure.
+Pointer to the name of the function that frees allocated memory when the <a href="/windows/desktop/api/wintrust/nf-wintrust-wintrustgetdefaultforusage">WintrustGetDefaultForUsage</a> function is called with the <i>dwAction</i> parameter set to <b>DWACTION_FREE</b>. This information also exists in the <a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_defusage">CRYPT_PROVIDER_DEFUSAGE</a>
+<a href="/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_defusage">CRYPT_PROVIDER_DEFUSAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a>
+<a href="/windows/desktop/api/wintrust/ns-wintrust-wintrust_data">WINTRUST_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-wintrustadddefaultforusage">WintrustAddDefaultForUsage</a>
-
+<a href="/windows/desktop/api/wintrust/nf-wintrust-wintrustadddefaultforusage">WintrustAddDefaultForUsage</a>

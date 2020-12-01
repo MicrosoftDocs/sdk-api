@@ -50,22 +50,22 @@ api_name:
 
 ## -description
 
-Clears the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> input and output queues of data.
+Clears the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> input and output queues of data.
 
 ## -parameters
 
 ## -returns
 
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
-The <b>ClearStylusQueues</b> method can be used to quickly clear the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> queues. This method clears the queues of all data.
+The <b>ClearStylusQueues</b> method can be used to quickly clear the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> queues. This method clears the queues of all data.
 
 
 #### Examples
 
-The following C++ example code snippet shows a button click event handler that calls <b>IRealTimeStylus::ClearStylusQueues Method</b>. It also redraws the window where a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer</a> object has been drawing ink.
+The following C++ example code snippet shows a button click event handler that calls <b>IRealTimeStylus::ClearStylusQueues Method</b>. It also redraws the window where a <a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer</a> object has been drawing ink.
 
 
 ```cpp
@@ -88,13 +88,12 @@ void CCOMRTSDlg::OnBnClickedButtonClearTestArea()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture Control Reference</a>
+<a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture Control Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
-
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>

@@ -134,7 +134,7 @@ The range specified by the <i>paStart</i> and <i>paEnd</i> parameters extends pa
 </dl>
 </td>
 <td width="60%">
-The application has not calculated a text layout. Any further calls will not succeed until the application calls <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlayoutchange">ITextStoreAnchorSink::OnLayoutChange</a>.
+The application has not calculated a text layout. Any further calls will not succeed until the application calls <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlayoutchange">ITextStoreAnchorSink::OnLayoutChange</a>.
 
 </td>
 </tr>
@@ -157,15 +157,14 @@ If the document window is minimized, or if the specified text is not currently v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-gettextext">ITfContextOwner::GetTextExt
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextowner-gettextext">ITfContextOwner::GetTextExt
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextview-gettextext">ITfContextView::GetTextExt
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-gettextext">ITfContextView::GetTextExt
       </a>
-

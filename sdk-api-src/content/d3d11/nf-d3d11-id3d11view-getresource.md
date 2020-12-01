@@ -57,9 +57,9 @@ Get the resource that is accessed through this view.
 
 ### -param ppResource [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>**</b>
+Type: <b><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>**</b>
 
-Address of a pointer to the resource that is accessed through this view. (See <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>.)
+Address of a pointer to the resource that is accessed through this view. (See <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>.)
 
 ## -remarks
 
@@ -67,5 +67,4 @@ This function increments the reference count of the resource by one, so it is ne
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11view">ID3D11View</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11view">ID3D11View</a>

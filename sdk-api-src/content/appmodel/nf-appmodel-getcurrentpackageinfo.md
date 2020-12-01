@@ -67,7 +67,7 @@ Gets the package information for the calling process.
 
 Type: <b>const UINT32</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/appxpkg/package-constants">package constants</a> that specify how package information is retrieved. The <b>PACKAGE_FILTER_*</b> flags are supported.
+The <a href="/windows/desktop/appxpkg/package-constants">package constants</a> that specify how package information is retrieved. The <b>PACKAGE_FILTER_*</b> flags are supported.
 
 ### -param bufferLength [in, out]
 
@@ -79,7 +79,7 @@ On input, the size of <i>buffer</i>, in bytes. On output, the size of the array 
 
 Type: <b>BYTE*</b>
 
-The package information, represented as an array of <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/ns-appmodel-package_info">PACKAGE_INFO</a> structures.
+The package information, represented as an array of <a href="/windows/desktop/api/appmodel/ns-appmodel-package_info">PACKAGE_INFO</a> structures.
 
 ### -param count [out, optional]
 
@@ -128,21 +128,20 @@ The buffer is not large enough to hold the data. The required size is specified 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefamilyname">GetCurrentPackageFamilyName</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefamilyname">GetCurrentPackageFamilyName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefullname">GetCurrentPackageFullName</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefullname">GetCurrentPackageFullName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageid">GetCurrentPackageId</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageid">GetCurrentPackageId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagepath">GetCurrentPackagePath</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagepath">GetCurrentPackagePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackageinfo">GetPackageInfo</a>
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getpackageinfo">GetPackageInfo</a>

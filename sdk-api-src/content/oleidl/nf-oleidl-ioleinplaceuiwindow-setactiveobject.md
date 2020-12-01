@@ -56,7 +56,7 @@ Provides a direct channel of communication between the object and each of the fr
 
 ### -param pActiveObject [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a> interface on the active in-place object.
+A pointer to the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a> interface on the active in-place object.
 
 ### -param pszObjName [in]
 
@@ -93,20 +93,19 @@ Generally, an embedded object should pass <b>NULL</b> for the <i>pszObjName</i> 
 
 When deactivating, the object calls <b>IOleInPlaceUIWindow::SetActiveObject</b>, passing <b>NULL</b> for the <i>pActiveObject</i> and pszObjName parameters.
 
-An object must call <b>IOleInPlaceUIWindow::SetActiveObject</b> before calling <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setmenu">IOleInPlaceFrame::SetMenu</a> to give the container the pointer to the active object. The container then uses this pointer in processing <b>IOleInPlaceFrame::SetMenu</b> and to pass to <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetmenudescriptor">OleSetMenuDescriptor</a>.
+An object must call <b>IOleInPlaceUIWindow::SetActiveObject</b> before calling <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setmenu">IOleInPlaceFrame::SetMenu</a> to give the container the pointer to the active object. The container then uses this pointer in processing <b>IOleInPlaceFrame::SetMenu</b> and to pass to <a href="/windows/desktop/api/ole2/nf-ole2-olesetmenudescriptor">OleSetMenuDescriptor</a>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 The Microsoft Windows User Interface Design Guide recommends that an in-place container ignore the <i>pszObjName</i> parameter passed in this method. The guide says "The title bar is not affected by in-place activation. It always displays the top-level container's name."
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setmenu">IOleInPlaceFrame::SetMenu</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setmenu">IOleInPlaceFrame::SetMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceuiwindow">IOleInPlaceUIWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesetmenudescriptor">OleSetMenuDescriptor</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-olesetmenudescriptor">OleSetMenuDescriptor</a>

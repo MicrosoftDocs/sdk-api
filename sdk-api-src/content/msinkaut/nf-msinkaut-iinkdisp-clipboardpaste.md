@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Copies the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> from the Clipboard to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+Copies the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> from the Clipboard to the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 ## -parameters
 
@@ -65,11 +65,11 @@ Optional. Specifies the y-coordinate to paste to in ink space coordinates. The d
 
 ### -param DataObject [in, optional]
 
-Optional. Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> to be used. To paste from the Clipboard, set to <b>NULL</b>. The default value is <b>NULL</b>.
+Optional. Specifies the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> to be used. To paste from the Clipboard, set to <b>NULL</b>. The default value is <b>NULL</b>.
 
 ### -param Strokes [out, retval]
 
-When this method returns, contains a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
+When this method returns, contains a pointer to the <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes</a> collection in the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object.
 
 ## -returns
 
@@ -117,7 +117,7 @@ An exception occurred inside the method.
 
 ## -remarks
 
-An error is returned if an unexpected error occurs while accessing the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>. If no error occurs but the Clipboard does not contain a format that can be pasted into <b>ink</b> -either <b>ink serialized format (ISF)</b> or a <b>text ink object (tInk)</b> -then <b>NULL</b> is returned and no exception is thrown. For more information about the Clipboard, see Clipboard in MSDN&lt;entity type="reg"/&gt;
+An error is returned if an unexpected error occurs while accessing the <a href="/windows/desktop/dataxchg/clipboard">Clipboard</a>. If no error occurs but the Clipboard does not contain a format that can be pasted into <b>ink</b> -either <b>ink serialized format (ISF)</b> or a <b>text ink object (tInk)</b> -then <b>NULL</b> is returned and no exception is thrown. For more information about the Clipboard, see Clipboard in MSDN&lt;entity type="reg"/&gt;
 
 ## -see-also
 
@@ -125,9 +125,8 @@ An error is returned if an unexpected error occurs while accessing the <a href="
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>

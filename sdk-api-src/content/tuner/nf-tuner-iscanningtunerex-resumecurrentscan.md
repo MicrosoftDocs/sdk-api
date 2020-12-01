@@ -55,7 +55,7 @@ This topic applies to Windows Vista and later.
 
 
 
-The <b>ResumeCurrentScan</b> method resumes scanning the range of frequencies specified in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-performexhaustivescan">PerformExhaustiveScan</a>.
+The <b>ResumeCurrentScan</b> method resumes scanning the range of frequencies specified in <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iscanningtunerex-performexhaustivescan">PerformExhaustiveScan</a>.
 
 ## -parameters
 
@@ -116,5 +116,4 @@ When the application calls <b>PerformExhaustiveScan</b>, the tuner scans until i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>

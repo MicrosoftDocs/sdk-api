@@ -51,17 +51,17 @@ api_name:
 
 ## -description
 
-The <code>IMixerPinConfig</code> interface is exposed on the input pins of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter and contains methods that manipulate video streams in various ways. The Overlay Mixer contains multiple input pins that are dynamically created as video input streams are added. The video stream on the first pin is known as the <i>primary stream</i> and subsequent streams are known as <i>secondary streams</i>.
+The <code>IMixerPinConfig</code> interface is exposed on the input pins of the <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter and contains methods that manipulate video streams in various ways. The Overlay Mixer contains multiple input pins that are dynamically created as video input streams are added. The video stream on the first pin is known as the <i>primary stream</i> and subsequent streams are known as <i>secondary streams</i>.
 
 Use this interface to manipulate the parameters involved in mixing various video streams. These parameters include getting and setting position, z-order, blending and transparency levels, aspect ratio correction, and color keys of streams.
 
-When setting the position of video streams in the display window, the default relative position of all secondary streams is {0, 0, 0, 0}. Therefore, use the <a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setrelativeposition">IMixerPinConfig::SetRelativePosition</a> method on secondary streams to ensure that all video streams are placed properly.
+When setting the position of video streams in the display window, the default relative position of all secondary streams is {0, 0, 0, 0}. Therefore, use the <a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setrelativeposition">IMixerPinConfig::SetRelativePosition</a> method on secondary streams to ensure that all video streams are placed properly.
 
 Applications use this interface to get and set attributes when mixing multiple video streams.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMixerPinConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMixerPinConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMixerPinConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMixerPinConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IMixerPinConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getaspectratiomode">GetAspectRatioMode</a>
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getaspectratiomode">GetAspectRatioMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the aspect ratio correction mode for window resizing.
@@ -85,7 +85,7 @@ Retrieves the aspect ratio correction mode for window resizing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getblendingparameter">GetBlendingParameter</a>
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getblendingparameter">GetBlendingParameter</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the blending parameter that defines how a secondary stream is blended with a primary stream.
@@ -94,7 +94,7 @@ Retrieves the value of the blending parameter that defines how a secondary strea
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getcolorkey">GetColorKey</a>
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getcolorkey">GetColorKey</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color key being used by a video stream.
@@ -103,7 +103,7 @@ Retrieves the color key being used by a video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getrelativeposition">GetRelativePosition</a>
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getrelativeposition">GetRelativePosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the position of the stream in the display window.
@@ -112,7 +112,7 @@ Retrieves the position of the stream in the display window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getzorder">GetZOrder</a>
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getzorder">GetZOrder</a>
 </td>
 <td align="left" width="63%">
 Retrieves the z-order of a particular video stream.
@@ -121,7 +121,7 @@ Retrieves the z-order of a particular video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setaspectratiomode">SetAspectRatioMode</a>
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setaspectratiomode">SetAspectRatioMode</a>
 </td>
 <td align="left" width="63%">
 Sets the aspect ratio correction mode for window resizing.
@@ -130,7 +130,7 @@ Sets the aspect ratio correction mode for window resizing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setblendingparameter">SetBlendingParameter</a>
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setblendingparameter">SetBlendingParameter</a>
 </td>
 <td align="left" width="63%">
 Sets the blending parameter that defines how a secondary stream is blended with a primary stream.
@@ -139,7 +139,7 @@ Sets the blending parameter that defines how a secondary stream is blended with 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setcolorkey">SetColorKey</a>
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setcolorkey">SetColorKey</a>
 </td>
 <td align="left" width="63%">
 Sets the color key being used by a video stream.
@@ -148,7 +148,7 @@ Sets the color key being used by a video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setrelativeposition">SetRelativePosition</a>
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setrelativeposition">SetRelativePosition</a>
 </td>
 <td align="left" width="63%">
 Sets the position of the stream in the display window.
@@ -157,7 +157,7 @@ Sets the position of the stream in the display window.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setstreamtransparent">SetStreamTransparent</a>
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setstreamtransparent">SetStreamTransparent</a>
 </td>
 <td align="left" width="63%">
 Sets the stream to transparent.
@@ -166,7 +166,7 @@ Sets the stream to transparent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setstreamtransparent">SetStreamTransparent</a>
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setstreamtransparent">SetStreamTransparent</a>
 </td>
 <td align="left" width="63%">
 Determines whether a stream is transparent.
@@ -175,7 +175,7 @@ Determines whether a stream is transparent.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setzorder">SetZOrder</a>
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setzorder">SetZOrder</a>
 </td>
 <td align="left" width="63%">
 Sets the z-order of a particular video stream.
@@ -183,4 +183,3 @@ Sets the z-order of a particular video stream.
 </td>
 </tr>
 </table>
-

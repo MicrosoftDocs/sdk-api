@@ -63,15 +63,15 @@ The ID for the Command,  which is specified in the markup resource file.
 
 ### -param typeID [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype">UI_COMMANDTYPE</a></b>
+Type: <b><a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype">UI_COMMANDTYPE</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype">Command type</a> that is associated with a specific control.
+The <a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype">Command type</a> that is associated with a specific control.
 
 ### -param commandHandler [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a> object. This value can be <b>NULL</b>.
+A pointer to an <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler">IUICommandHandler</a> object. This value can be <b>NULL</b>.
 
 ## -returns
 
@@ -124,9 +124,8 @@ STDMETHODIMP CApplication::OnDestroyUICommand(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication">IUIApplication</a>
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication">IUIApplication</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

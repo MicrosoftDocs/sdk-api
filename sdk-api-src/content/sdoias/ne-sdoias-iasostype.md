@@ -104,5 +104,4 @@ The SDO computer is running Windows Server 2008.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getostype">ISdoMachine::GetOSType</a>
-
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getostype">ISdoMachine::GetOSType</a>

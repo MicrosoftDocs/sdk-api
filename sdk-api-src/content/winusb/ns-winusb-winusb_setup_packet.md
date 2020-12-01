@@ -80,13 +80,12 @@ The number of bytes to transfer.
 
 ## -remarks
 
-Callers of the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_controltransfer">WinUsb_ControlTransfer</a> routine must pass in a <b>WINUSB_SETUP_PACKET</b> structure.
+Callers of the <a href="/windows/desktop/api/winusb/nf-winusb-winusb_controltransfer">WinUsb_ControlTransfer</a> routine must pass in a <b>WINUSB_SETUP_PACKET</b> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_controltransfer">WinUsb_ControlTransfer</a>
-
+<a href="/windows/desktop/api/winusb/nf-winusb-winusb_controltransfer">WinUsb_ControlTransfer</a>

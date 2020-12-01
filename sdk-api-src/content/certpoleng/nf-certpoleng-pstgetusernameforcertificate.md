@@ -56,7 +56,7 @@ Retrieves the user name associated with the specified certificate.
 
 ### -param pCertContext [in]
 
-A constant pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that specifies the certificate for which to obtain the user name.
+A constant pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that specifies the certificate for which to obtain the user name.
 
 ### -param UserName [out]
 
@@ -67,4 +67,3 @@ The user name associated with the certificate specified by the <i>pCertContext</
 If the function succeeds, return <b>STATUS_SUCCESS</b>.
 
 If the function fails, return an <b>NTSTATUS</b> code that indicates the reason it failed.
-

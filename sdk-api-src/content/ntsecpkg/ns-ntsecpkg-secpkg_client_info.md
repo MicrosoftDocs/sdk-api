@@ -54,14 +54,14 @@ api_name:
 
 ## -description
 
-The <b>SECPKG_CLIENT_INFO</b> structure holds information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package's</a> client. This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_get_client_info">GetClientInfo</a> function.
+The <b>SECPKG_CLIENT_INFO</b> structure holds information about a <a href="/windows/desktop/SecGloss/s-gly">security package's</a> client. This structure is used by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_get_client_info">GetClientInfo</a> function.
 
 ## -struct-fields
 
 ### -field LogonId
 
-The client's effective <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon identifier</a>.
+The client's effective <a href="/windows/desktop/SecGloss/l-gly">logon identifier</a>.
 
 ### -field ProcessID
 
@@ -77,7 +77,7 @@ The client's thread identifier.
 
 ### -field Impersonating
 
-<b>TRUE</b> if the client is impersonating another <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a>.
+<b>TRUE</b> if the client is impersonating another <a href="/windows/desktop/SecGloss/s-gly">security principal</a>.
 
 ### -field Restricted
 
@@ -88,4 +88,3 @@ The client is restricted in its ability to access securable objects or perform p
 ### -field ImpersonationLevel
 
 ### -field ClientToken
-

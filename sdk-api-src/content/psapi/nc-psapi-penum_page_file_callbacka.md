@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 An application-defined callback function used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumpagefilesa">EnumPageFiles</a> function.
+<a href="/windows/desktop/api/psapi/nf-psapi-enumpagefilesa">EnumPageFiles</a> function.
 
 The <b>PENUM_PAGE_FILE_CALLBACK</b> type defines a pointer to this callback function. 
 <b>EnumPageFilesProc</b> is a placeholder for the application-defined function name.
@@ -63,12 +63,12 @@ The <b>PENUM_PAGE_FILE_CALLBACK</b> type defines a pointer to this callback func
 ### -param pContext [in]
 
 The user-defined data passed from 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumpagefilesa">EnumPageFiles</a>.
+<a href="/windows/desktop/api/psapi/nf-psapi-enumpagefilesa">EnumPageFiles</a>.
 
 ### -param pPageFileInfo [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-enum_page_file_information">ENUM_PAGE_FILE_INFORMATION</a> structure.
+<a href="/windows/desktop/api/psapi/ns-psapi-enum_page_file_information">ENUM_PAGE_FILE_INFORMATION</a> structure.
 
 ### -param lpFilename [in]
 
@@ -82,18 +82,17 @@ To stop enumeration, the callback function must return FALSE.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/ns-psapi-enum_page_file_information">ENUM_PAGE_FILE_INFORMATION</a>
+<a href="/windows/desktop/api/psapi/ns-psapi-enum_page_file_information">ENUM_PAGE_FILE_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumpagefilesa">EnumPageFiles</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-enumpagefilesa">EnumPageFiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
+<a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The psapi.h header defines PENUM_PAGE_FILE_CALLBACK as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

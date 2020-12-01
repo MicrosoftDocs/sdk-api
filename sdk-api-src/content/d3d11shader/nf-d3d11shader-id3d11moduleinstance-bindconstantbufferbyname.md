@@ -56,19 +56,19 @@ Rebinds a constant buffer by name to a destination slot.
 
 ### -param pName [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The name of the constant buffer for rebinding.
 
 ### -param uDstSlot [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The destination slot number for rebinding.
 
 ### -param cbDstOffset [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The offset in bytes of the destination slot for rebinding. The offset must have 16-byte alignment.
 
@@ -85,11 +85,10 @@ Returns:
               </li>
 <li><b>E_FAIL</b> for an invalid rebinding, for example, the rebinding is out-of-bounds
               </li>
-<li>Possibly one of the other <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>
+<li>Possibly one of the other <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11moduleinstance">ID3D11ModuleInstance</a>
-
+<a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11moduleinstance">ID3D11ModuleInstance</a>

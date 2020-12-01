@@ -59,7 +59,7 @@ The <b>IWMLanguageList</b> interface is supported in the profile, writer, metada
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMLanguageList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMLanguageList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMLanguageList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMLanguageList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWMLanguageList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlanguagelist-addlanguagebyrfc1766string">AddLanguageByRFC1766String</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlanguagelist-addlanguagebyrfc1766string">AddLanguageByRFC1766String</a>
 </td>
 <td align="left" width="63%">
 Adds an entry to the list of supported languages for a file based upon a language tag compliant with RFC 1766.
@@ -83,7 +83,7 @@ Adds an entry to the list of supported languages for a file based upon a languag
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlanguagelist-getlanguagecount">GetLanguageCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlanguagelist-getlanguagecount">GetLanguageCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of supported languages in the language list.
@@ -92,7 +92,7 @@ Retrieves the total number of supported languages in the language list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlanguagelist-getlanguagedetails">GetLanguageDetails</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmlanguagelist-getlanguagedetails">GetLanguageDetails</a>
 </td>
 <td align="left" width="63%">
 Retrieves the locale identifier (LCID) and RFC 1766-compliant tag for an entry in the list of supported languages.
@@ -107,33 +107,32 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 This interface provides support for referencing languages by a string compliant with RFC 1766 – Tags for the Identification of Languages. Other interfaces in this SDK refer to the languages supported in an ASF file by language index. A language index is assigned to every language added to the language list.
 
-This interface manages the list of languages supported for the file. Individual features of the file may not support all of the languages in the list. When selecting a language for playback of an output associated with a set of streams that are mutually exclusive by language, you must get the languages that are supported in that mutual exclusion object. You can retrieve the languages supported for a particular output by using the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4</a> interface.
+This interface manages the list of languages supported for the file. Individual features of the file may not support all of the languages in the list. When selecting a language for playback of an output associated with a set of streams that are mutually exclusive by language, you must get the languages that are supported in that mutual exclusion object. You can retrieve the languages supported for a particular output by using the methods of the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4</a> interface.
 
 When using this interface to add metadata in multiple languages to an MP3 file, only the first half of the language string is important. For example, the RFC 1766 identifier "en-us" designates English in the region of the United States. When written to an MP3 file, the identifier would be "en" without a regional designation.
 
-For a list of common RFC 1766-compliant language identifiers, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/language-strings">Language Strings</a>.
+For a list of common RFC 1766-compliant language identifiers, see <a href="/windows/desktop/wmformat/language-strings">Language Strings</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/metadata-editor-object">Metadata Editor Object</a>
+<a href="/windows/desktop/wmformat/metadata-editor-object">Metadata Editor Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/profile-object">Profile Object</a>
+<a href="/windows/desktop/wmformat/profile-object">Profile Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>
+<a href="/windows/desktop/wmformat/reader-object">Reader Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/synchronous-reader-object">Synchronous Reader Object</a>
+<a href="/windows/desktop/wmformat/synchronous-reader-object">Synchronous Reader Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>
-
+<a href="/windows/desktop/wmformat/writer-object">Writer Object</a>

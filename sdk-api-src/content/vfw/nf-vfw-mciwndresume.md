@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-The <b>MCIWndResume</b> macro resumes playback or recording content from the paused mode. This macro restarts playback or recording from the current position in the content. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-resume">MCI_RESUME</a> command.
+The <b>MCIWndResume</b> macro resumes playback or recording content from the paused mode. This macro restarts playback or recording from the current position in the content. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mci-resume">MCI_RESUME</a> command.
 
 ## -parameters
 
 ### -param hwnd
 
 Handle of the MCIWnd window.
-

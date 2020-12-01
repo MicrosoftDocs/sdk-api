@@ -56,7 +56,7 @@ The <b>OnSessionCreated</b> method notifies the registered processes that the au
 
 ### -param NewSession [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a> interface of the audio session that was created.
+Pointer to the <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol">IAudioSessionControl</a> interface of the audio session that was created.
 
 ## -returns
 
@@ -64,12 +64,11 @@ If the method succeeds, it returns S_OK.
 
 ## -remarks
 
-After registering its <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a> interface, the application receives event notifications in the form of callbacks through the methods of the interface.
+After registering its <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a> interface, the application receives event notifications in the form of callbacks through the methods of the interface.
 
 The audio engine calls <b>OnSessionCreated</b> when a new session is activated on the device endpoint.
 This method is called from the session manager thread.  This method must take a reference to the session in the <i>NewSession</i> parameter if it wants to keep the reference after this call completes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a>
-
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionnotification">IAudioSessionNotification</a>

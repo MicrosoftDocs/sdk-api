@@ -54,7 +54,7 @@ Enumerates a list of change units.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSyncChangeUnits</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSyncChangeUnits</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSyncChangeUnits</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSyncChangeUnits</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumSyncChangeUnits</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumsyncchangeunits-clone">Clone</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumsyncchangeunits-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -79,7 +79,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumsyncchangeunits-next">Next</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumsyncchangeunits-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next change unit.
@@ -89,7 +89,7 @@ Gets the next change unit.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumsyncchangeunits-reset">Reset</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumsyncchangeunits-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumerator to the beginning of the list.
@@ -99,7 +99,7 @@ Resets the enumerator to the beginning of the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumsyncchangeunits-skip">Skip</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumsyncchangeunits-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -111,5 +111,4 @@ Not implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

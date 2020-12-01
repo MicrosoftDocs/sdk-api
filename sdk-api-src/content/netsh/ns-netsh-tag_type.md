@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>TAG_TYPE</b> structure specifies tags used for the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-preprocesscommand">PreprocessCommand</a> function.
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-preprocesscommand">PreprocessCommand</a> function.
 
 ## -struct-fields
 
@@ -65,13 +65,6 @@ The
 A tag string, in UNICODE.
 
 ### -field dwRequired
-
-### -field bPresent
-
-This value specifies whether the tag is present. <b>TRUE</b> indicates the tag is present.
-
-
-#### - Required
 
 Specifies whether the tag is required.
 
@@ -122,7 +115,12 @@ Multiple copies of the tag is allowed. Tag must be present.
 </tr>
 </table>
 
+### -field bPresent
+
+This value specifies whether the tag is present. <b>TRUE</b> indicates the tag is present.
+
+
+
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-preprocesscommand">PreprocessCommand</a>
-
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-preprocesscommand">PreprocessCommand</a>

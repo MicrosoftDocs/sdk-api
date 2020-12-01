@@ -61,7 +61,7 @@ Pointer to the pin to retrieve the maximum frame rate from.
 
 ### -param iIndex [in]
 
-Index of the format to query for maximum frame rate. This index corresponds to the order in which formats are enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getstreamcaps">IAMStreamConfig::GetStreamCaps</a>. The value must range between zero and the number of supported <b>VIDEO_STREAM_CONFIG_CAPS</b> structures returned by <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getnumberofcapabilities">IAMStreamConfig::GetNumberOfCapabilities</a>) minus one.
+Index of the format to query for maximum frame rate. This index corresponds to the order in which formats are enumerated by <a href="/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getstreamcaps">IAMStreamConfig::GetStreamCaps</a>. The value must range between zero and the number of supported <b>VIDEO_STREAM_CONFIG_CAPS</b> structures returned by <a href="/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getnumberofcapabilities">IAMStreamConfig::GetNumberOfCapabilities</a>) minus one.
 
 ### -param Dimensions [in]
 
@@ -77,13 +77,12 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamvideocontrol">IAMVideoControl Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamvideocontrol">IAMVideoControl Interface</a>
 
 
 
-[VIDEO_STREAM_CONFIG_CAPS Structure](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps)
-
+[VIDEO_STREAM_CONFIG_CAPS Structure](/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps)

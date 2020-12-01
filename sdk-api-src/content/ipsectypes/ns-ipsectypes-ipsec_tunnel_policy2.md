@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IPSEC_TUNNEL_POLICY2</b> structure stores the quick mode negotiation policy for tunnel mode IPsec.
-[IPSEC_TUNNEL_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1) is available. For Windows Vista, [IPSEC_TUNNEL_POLICY0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy0) is available.</div><div> </div>
+[IPSEC_TUNNEL_POLICY1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy1) is available. For Windows Vista, [IPSEC_TUNNEL_POLICY0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy0) is available.
 
 ## -struct-fields
 
@@ -200,25 +200,25 @@ Type: <b>UINT32</b>
 
 ### -field ipsecProposals
 
-Type: [IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)*</b>
+Type: [IPSEC_PROPOSAL0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)*</b>
 
 Array of quick mode proposals.
 
 ### -field tunnelEndpoints
 
-Type: [IPSEC_TUNNEL_ENDPOINTS2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)</b>
+Type: [IPSEC_TUNNEL_ENDPOINTS2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)</b>
 
 Tunnel endpoints of the IPsec security association (SA) generated from this policy.
 
 ### -field saIdleTimeout
 
-Type: [IPSEC_SA_IDLE_TIMEOUT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)</b>
+Type: [IPSEC_SA_IDLE_TIMEOUT0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)</b>
 
 Specifies the SA idle timeout in IPsec policy.
 
 ### -field emPolicy
 
-Type: [IKEEXT_EM_POLICY2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)*</b>
+Type: [IKEEXT_EM_POLICY2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)*</b>
 
 The AuthIP extended mode authentication policy.
 
@@ -230,21 +230,20 @@ The forward path SA lifetime indicating the length of time for this connection.
 
 ## -see-also
 
-[IKEEXT_EM_POLICY2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)
+[IKEEXT_EM_POLICY2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2)
 
 
 
-[IPSEC_PROPOSAL0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)
+[IPSEC_PROPOSAL0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_proposal0)
 
 
 
-[IPSEC_SA_IDLE_TIMEOUT0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)
+[IPSEC_SA_IDLE_TIMEOUT0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_idle_timeout0)
 
 
 
-[IPSEC_TUNNEL_ENDPOINTS2](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)
+[IPSEC_TUNNEL_ENDPOINTS2](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

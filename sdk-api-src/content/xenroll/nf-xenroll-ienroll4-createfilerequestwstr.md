@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>createFileRequestWStr</b> method creates a PKCS #10, PKCS #7, or full <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) format <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> and stores it in a file. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
+The <b>createFileRequestWStr</b> method creates a PKCS #10, PKCS #7, or full <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) format <a href="/windows/desktop/SecGloss/c-gly">certificate request</a> and stores it in a file. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 ## -parameters
 
@@ -109,7 +109,7 @@ PKCS #7
 
 ### -param pwszDNName [in]
 
-A pointer to a <b>null</b>-terminated wide character string that represents the distinguished name (DN) of the entity for which the request is being made. The DN name must follow the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> naming convention, for example "CN=User, O=Microsoft". If a two-letter prefix does not exist, an object identifier (OID) may be provided instead. This parameter may be <b>NULL</b>.
+A pointer to a <b>null</b>-terminated wide character string that represents the distinguished name (DN) of the entity for which the request is being made. The DN name must follow the <a href="/windows/desktop/SecGloss/x-gly">X.500</a> naming convention, for example "CN=User, O=Microsoft". If a two-letter prefix does not exist, an object identifier (OID) may be provided instead. This parameter may be <b>NULL</b>.
 
 ### -param pwszUsage [in]
 
@@ -124,9 +124,8 @@ A pointer to a <b>null</b>-terminated wide character string that contains the na
  If the method succeeds, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+<a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>

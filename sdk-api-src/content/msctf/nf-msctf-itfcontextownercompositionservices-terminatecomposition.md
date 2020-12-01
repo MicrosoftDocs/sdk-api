@@ -56,7 +56,7 @@ Terminates a composition.
 
 ### -param pComposition [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView</a> interface that represents the composition to terminate. If this value is <b>NULL</b>, all compositions in the context are terminated.
+Pointer to a <a href="/windows/desktop/api/msctf/nn-msctf-itfcompositionview">ITfCompositionView</a> interface that represents the composition to terminate. If this value is <b>NULL</b>, all compositions in the context are terminated.
 
 ## -returns
 
@@ -126,19 +126,18 @@ An unspecified error occurred.
 
 ## -remarks
 
-A text service uses <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcomposition-endcomposition">ITfComposition::EndComposition</a> to terminate a composition that it created.
+A text service uses <a href="/windows/desktop/api/msctf/nf-msctf-itfcomposition-endcomposition">ITfComposition::EndComposition</a> to terminate a composition that it created.
 
 If the context owner implements the text store, the context owner must be able to grant a synchronous write lock before calling this method.
 
 This method also does the following:
 
 <ul>
-<li>For each composition terminated, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompositionsink-oncompositionterminated">ITfCompositionSink::OnCompositionTerminated</a> is called for all installed composition advise sinks.</li>
-<li>If the context owner installed a context owner composition advise sink, <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onendcomposition">ITfContextOwnerCompositionSink::OnEndComposition</a> is called for each terminated composition.</li>
+<li>For each composition terminated, <a href="/windows/desktop/api/msctf/nf-msctf-itfcompositionsink-oncompositionterminated">ITfCompositionSink::OnCompositionTerminated</a> is called for all installed composition advise sinks.</li>
+<li>If the context owner installed a context owner composition advise sink, <a href="/windows/desktop/api/msctf/nf-msctf-itfcontextownercompositionsink-onendcomposition">ITfContextOwnerCompositionSink::OnEndComposition</a> is called for each terminated composition.</li>
 <li>The GUID_PROP_COMPOSING property will be cleared for the text covered by each terminated composition.</li>
 </ul>
 
 ## -see-also
 
 [ITfComposition::EndComposition](nf-msctf-itfcomposition-endcomposition.md), [nf-msctf-itfcompositionsink-oncompositionterminated](nf-msctf-itfcompositionsink-oncompositionterminated.md), [ITfCompositionView interface](nn-msctf-itfcompositionview.md), [ITfContextOwnerCompositionServices interface](nn-msctf-itfcontextownercompositionservices.md), [ITfContextOwnerCompositionSink::OnEndComposition](nf-msctf-itfcontextownercompositionsink-onendcomposition.md)
-

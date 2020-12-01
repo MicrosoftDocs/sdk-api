@@ -56,7 +56,7 @@ Prepares the index of a state image so that a tree-view control or list-view con
 
 ### -param i
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The index of a state image.
 
@@ -65,4 +65,3 @@ The index of a state image.
 The <b>INDEXTOSTATEIMAGEMASK</b> macro is defined as follows: 
 
 <pre class="syntax" xml:space="preserve"><code>#define INDEXTOSTATEIMAGEMASK(i) ((i) &lt;&lt; 12)</code></pre>
-

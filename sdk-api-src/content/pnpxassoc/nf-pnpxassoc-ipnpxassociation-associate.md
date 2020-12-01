@@ -95,15 +95,14 @@ The method failed.
 
 ## -remarks
 
-This method modifies the association database entry corresponding to the function instance from which the <a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxassociation">IPNPXAssociation</a> interface was obtained. 
+This method modifies the association database entry corresponding to the function instance from which the <a href="/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxassociation">IPNPXAssociation</a> interface was obtained. 
 
-Once a device is associated, the PnP-X Service IP Bus Enumerator (IPBusEnum) sends a request to the PnP component  to create the device <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-glossary">devnode</a>. The <b>Found New Hardware</b> wizard appears if user intervention is required to install a device driver after association.
+Once a device is associated, the PnP-X Service IP Bus Enumerator (IPBusEnum) sends a request to the PnP component  to create the device <a href="/previous-versions/windows/desktop/fundisc/function-discovery-glossary">devnode</a>. The <b>Found New Hardware</b> wizard appears if user intervention is required to install a device driver after association.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxassociation">IPNPXAssociation</a>
+<a href="/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxassociation">IPNPXAssociation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxdeviceassociation-associate">IPNPXDeviceAssociation::Associate</a>
-
+<a href="/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxdeviceassociation-associate">IPNPXDeviceAssociation::Associate</a>

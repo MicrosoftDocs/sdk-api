@@ -52,8 +52,8 @@ api_name:
 
 A 4D vector with x-,y-, and z- components represented as 10 bit signed integer values, and the
 	w-component as a 2 bit unsigned integer value.
-<div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type
-	Equivalences</a> for information about equivalent <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddecltype">D3DDECLTYPE</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects.
+<div class="alert"><b>Note</b>  See <a href="/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type
+	Equivalences</a> for information about equivalent <a href="/windows/desktop/direct3d9/d3ddecltype">D3DDECLTYPE</a>, <a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>, and <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects.
     </div><div> </div>
 
 ## -struct-fields
@@ -96,11 +96,11 @@ TBD
 
 ## -remarks
 
-<code>XMXDEC4</code> can be loaded into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using
-	    <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadxdec4">XMLoadXDec4</a>.
+<code>XMXDEC4</code> can be loaded into instances of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> by using
+	    <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadxdec4">XMLoadXDec4</a>.
 	
 
-Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMXDEC4</code> with <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorexdec4">XMStoreXDec4</a>.
+Instances of <code>XMVECTOR</code> can be stored into an instance of <code>XMXDEC4</code> with <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstorexdec4">XMStoreXDec4</a>.
 	
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -110,9 +110,8 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmxdec4-extensions">XMXDEC4 Extensions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xmxdec4-extensions">XMXDEC4 Extensions</a>

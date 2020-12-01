@@ -44,6 +44,7 @@ api_location:
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
  - GetDialogBaseUnits
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # GetDialogBaseUnits function
@@ -53,7 +54,7 @@ api_name:
 
 Retrieves the system's dialog base units, which are the average width and height of characters in the system font. For dialog boxes that use the system font, you can use these values to convert between dialog template units, as specified in dialog box templates, and pixels. For dialog boxes that do not use the system font, the conversion from dialog template units to pixels depends on the font used by the dialog box.
 
-For either type of dialog box, it is easier to use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapdialogrect">MapDialogRect</a> function to perform the conversion. <b>MapDialogRect</b> takes the font into account and correctly converts a rectangle from dialog template units into pixels.
+For either type of dialog box, it is easier to use the <a href="/windows/desktop/api/winuser/nf-winuser-mapdialogrect">MapDialogRect</a> function to perform the conversion. <b>MapDialogRect</b> takes the font into account and correctly converts a rectangle from dialog template units into pixels.
 
 ## -parameters
 
@@ -70,7 +71,7 @@ The horizontal base unit returned by <b>GetDialogBaseUnits</b> is equal to the a
 The system font is used only if the dialog box template fails to specify a font. Most dialog box templates specify a font; as a result, this function is not useful for most dialog boxes.
  
 
-For a dialog box that does not use the system font, the base units are the average width and height, in pixels, of the characters in the dialog's font. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextmetrics">GetTextMetrics</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextextentpoint32a">GetTextExtentPoint32</a> functions to calculate these values for a selected font. However, by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapdialogrect">MapDialogRect</a> function, you can avoid errors that might result if your calculations differ from those performed by the system.
+For a dialog box that does not use the system font, the base units are the average width and height, in pixels, of the characters in the dialog's font. You can use the <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextmetrics">GetTextMetrics</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextextentpoint32a">GetTextExtentPoint32</a> functions to calculate these values for a selected font. However, by using the <a href="/windows/desktop/api/winuser/nf-winuser-mapdialogrect">MapDialogRect</a> function, you can avoid errors that might result if your calculations differ from those performed by the system.
 
 Each horizontal base unit is equal to 4 horizontal dialog template units; each vertical base unit is equal to 8 vertical dialog template units. Therefore, to convert dialog template units to pixels, use the following formulas: 		
 				
@@ -99,7 +100,7 @@ templateunitY = MulDiv(pixelY, 8, baseunitY);
 
 #### Examples
 
-For an example, see "Creating a Combo Box Toolbar" in <a href="https://docs.microsoft.com/windows/desktop/Controls/using-combo-boxes">Using Combo Boxes</a>.
+For an example, see "Creating a Combo Box Toolbar" in <a href="/windows/desktop/Controls/using-combo-boxes">Using Combo Boxes</a>.
 
 <div class="code"></div>
 
@@ -109,13 +110,12 @@ For an example, see "Creating a Combo Box Toolbar" in <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapdialogrect">MapDialogRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-mapdialogrect">MapDialogRect</a>
 
 
 
 <b>Reference</b>
-

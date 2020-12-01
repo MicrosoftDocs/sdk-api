@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains information used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a> function.
+<a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a> function.
 
 ## -struct-fields
 
@@ -111,7 +111,7 @@ If <b>CallbackType</b> is <b>IncludeModuleCallback</b>, the union is a
 
 ### -field Io
 
-If <b>CallbackType</b> is <b>IoStartCallback</b>, <b>IoWriteAllCallback</b>, or <b>IoFinishCallback</b>, the union is a <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_io_callback">MINIDUMP_IO_CALLBACK</a> structure.
+If <b>CallbackType</b> is <b>IoStartCallback</b>, <b>IoWriteAllCallback</b>, or <b>IoFinishCallback</b>, the union is a <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_io_callback">MINIDUMP_IO_CALLBACK</a> structure.
 
 <b>DbgHelp 6.4 and earlier:  </b>This member is not available.
 
@@ -151,7 +151,7 @@ If <b>CallbackType</b> is <b>CancelCallback</b> or <b>MemoryCallback</b>, the <b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_io_callback">MINIDUMP_IO_CALLBACK</a>
+<a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_io_callback">MINIDUMP_IO_CALLBACK</a>
 
 
 
@@ -171,5 +171,4 @@ If <b>CallbackType</b> is <b>CancelCallback</b> or <b>MemoryCallback</b>, the <b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
-
+<a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>

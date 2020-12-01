@@ -50,16 +50,16 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the flags that modify the behavior of any type of <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
+Retrieves the flags that modify the behavior of any type of <a href="/windows/desktop/TaskSchd/w">work item</a>.
 
 ## -parameters
 
 ### -param pdwFlags [out]
 
 A pointer to a <b>DWORD</b> that contains the flags for the work item. For a list of these flags, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">SetFlags</a>.
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">SetFlags</a>.
 
 ## -returns
 
@@ -109,17 +109,16 @@ Not enough memory is available.
 ## -remarks
 
 This method is used to get those flags used by any type of scheduled work item. In contrast, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-gettaskflags">ITask::GetTaskFlags</a> is used only to get flags used by scheduled tasks.
+<a href="/windows/desktop/api/mstask/nf-mstask-itask-gettaskflags">ITask::GetTaskFlags</a> is used only to get flags used by scheduled tasks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-gettaskflags">ITask::GetTaskFlags</a>
-
+<a href="/windows/desktop/api/mstask/nf-mstask-itask-gettaskflags">ITask::GetTaskFlags</a>

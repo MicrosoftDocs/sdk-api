@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains strings returned from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface methods.
+Contains strings returned from the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface methods.
 
 ## -struct-fields
 
@@ -86,7 +86,7 @@ The string is at the address specified by <b>pOleStr</b> member.
 
 Type: <b>LPWSTR</b>
 
-A pointer to the string. This memory must be allocated with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. It is the calling application's responsibility to free this memory with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> when it is no longer needed.
+A pointer to the string. This memory must be allocated with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. It is the calling application's responsibility to free this memory with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> when it is no longer needed.
 
 ### -field DUMMYUNIONNAME.uOffset
 
@@ -102,5 +102,4 @@ The buffer to receive the display name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof">IShellFolder::GetDisplayNameOf</a>

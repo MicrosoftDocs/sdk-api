@@ -77,34 +77,33 @@ The system is out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 In cases where the stub memory management is not enabled by the stub itself, an application calls 
 <b>RpcSsEnableAllocate</b> to establish the stub memory–management environment. This environment must be established prior to making a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>. For server manager code called from the stub, the memory-management environment is usually established by the stub itself. Otherwise, call 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>. For server manager code called from the stub, the memory-management environment is usually established by the stub itself. Otherwise, call 
 <b>RpcSsEnableAllocate</b> before calling 
 <b>RpcSsAllocate</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/memory-management">Memory Management</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssgetthreadhandle">RpcSsGetThreadHandle</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsssetthreadhandle">RpcSsSetThreadHandle</a>.
+<a href="/windows/desktop/Rpc/memory-management">Memory Management</a>, 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssgetthreadhandle">RpcSsGetThreadHandle</a>, and 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsssetthreadhandle">RpcSsSetThreadHandle</a>.
 
 <div class="alert"><b>Note</b>  The 
 <b>RpcSsEnableAllocate</b> function raises exceptions, while the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmenableallocate">RpcSmEnableAllocate</a> function returns the error code.</div>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmenableallocate">RpcSmEnableAllocate</a> function returns the error code.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmenableallocate">RpcSmEnableAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmenableallocate">RpcSmEnableAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssdisableallocate">RpcSsDisableAllocate</a>
-
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssdisableallocate">RpcSsDisableAllocate</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>LOCALMANAGEDAPPLICATION</b> structure describes a managed application installed for a user or a computer. Returned by the <a href="https://docs.microsoft.com/windows/desktop/api/appmgmt/nf-appmgmt-getlocalmanagedapplications">GetLocalManagedApplications</a> function.
+The <b>LOCALMANAGEDAPPLICATION</b> structure describes a managed application installed for a user or a computer. Returned by the <a href="/windows/desktop/api/appmgmt/nf-appmgmt-getlocalmanagedapplications">GetLocalManagedApplications</a> function.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ This is the user-friendly name of the group policy object (GPO) from which the a
 
 ### -field pszProductId
 
-This is a Unicode string that gives the <a href="https://docs.microsoft.com/windows/desktop/Msi/windows-installer-portal">Windows Installer</a> product code GUID for the application.
+This is a Unicode string that gives the <a href="/windows/desktop/Msi/windows-installer-portal">Windows Installer</a> product code GUID for the application.
 
 ### -field dwState
 
@@ -106,9 +106,8 @@ If the policy from which this application originates is removed, the application
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>
-
+<a href="/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>

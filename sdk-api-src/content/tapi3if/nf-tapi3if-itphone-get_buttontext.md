@@ -54,7 +54,7 @@ The
 <b>get_ButtonText</b> method retrieves the button text associated with a particular button.
 
 The application must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> before invoking this method; otherwise, the invocation fails. See the TAPI 2.<i>x</i> documentation for more information about the concept of button text.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-open">ITPhone::Open</a> before invoking this method; otherwise, the invocation fails. See the TAPI 2.<i>x</i> documentation for more information about the concept of button text.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Button identifier.
 ### -param ppButtonText [out]
 
 The <b>BSTR</b> representation of the button text. The <b>BSTR</b> is allocated using 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
 
 ## -returns
 
@@ -73,9 +73,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_buttontext">put_ButtonText</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-put_buttontext">put_ButtonText</a>

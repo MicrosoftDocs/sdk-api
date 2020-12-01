@@ -46,6 +46,7 @@ api_name:
  - SetupGetLineCount
  - SetupGetLineCountA
  - SetupGetLineCountW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupGetLineCountA function
@@ -71,21 +72,20 @@ Pointer to a null-terminated string that specifies the section in which you want
 ## -returns
 
 If <i>InfHandle</i> references multiple INF files that have been appended  using 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopenappendinffilea">SetupOpenAppendInfFile</a>, this function returns the sum of the lines in all of the INF files containing the specified section. A return value of 0 specifies an empty section. If the section does not exist, the function returns –1.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupopenappendinffilea">SetupOpenAppendInfFile</a>, this function returns the sum of the lines in all of the INF files containing the specified section. A return value of 0 specifies an empty section. If the section does not exist, the function returns –1.
 
 To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 ## -remarks
 
 > [!NOTE]
 > The setupapi.h header defines SetupGetLineCount as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

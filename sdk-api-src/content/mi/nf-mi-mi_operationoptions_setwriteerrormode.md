@@ -56,11 +56,11 @@ Sets the error reporting mode.
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
+A pointer to a <a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
 
 ### -param mode [in]
 
-One of the following <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_callbackmode">MI_CallbackMode</a> values.
+One of the following <a href="/windows/desktop/api/mi/ne-mi-mi_callbackmode">MI_CallbackMode</a> values.
 
 
 
@@ -76,5 +76,4 @@ Provider will block while the client is called back to ask if the operation shou
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
-
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.

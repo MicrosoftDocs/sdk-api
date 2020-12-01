@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains data to be passed to another application by the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-copydata">WM_COPYDATA</a> message.
+Contains data to be passed to another application by the <a href="/windows/desktop/dataxchg/wm-copydata">WM_COPYDATA</a> message.
 
 ## -struct-fields
 
@@ -78,5 +78,4 @@ The data to be passed to the receiving application. This member can be <b>NULL</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-copydata">WM_COPYDATA</a>
-
+<a href="/windows/desktop/dataxchg/wm-copydata">WM_COPYDATA</a>

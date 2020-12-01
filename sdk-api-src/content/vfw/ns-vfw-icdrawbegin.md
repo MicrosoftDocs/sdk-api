@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICDRAWBEGIN</b> structure contains decompression parameters used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> message.
+The <b>ICDRAWBEGIN</b> structure contains decompression parameters used with the <a href="/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> message.
 
 ## -struct-fields
 
@@ -194,7 +194,7 @@ Height of the destination rectangle.
 
 ### -field lpbi
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the input format.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the input format.
 
 ### -field xSrc
 
@@ -222,13 +222,12 @@ Value used to scale <b>dwRate</b> to frames per second.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a>
+<a href="/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>

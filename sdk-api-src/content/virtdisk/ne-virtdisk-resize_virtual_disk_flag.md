@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Enumerates the available flags for the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-resizevirtualdisk">ResizeVirtualDisk</a> function.
+    <a href="/windows/desktop/api/virtdisk/nf-virtdisk-resizevirtualdisk">ResizeVirtualDisk</a> function.
 
 ## -enum-fields
 
@@ -70,18 +70,17 @@ If this flag is set, skip checking the virtual disk's partition table to ensure 
 
 If this flag is set, resize the disk to the smallest virtual size possible without truncating past any 
       existing partitions. If this is set, the <b>NewSize</b> member in the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ns-virtdisk-resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a> 
+      <a href="/windows/desktop/api/virtdisk/ns-virtdisk-resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a> 
       structure must be zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ns-virtdisk-resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a>
+<a href="/windows/desktop/api/virtdisk/ns-virtdisk-resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/nf-virtdisk-resizevirtualdisk">ResizeVirtualDisk</a>
+<a href="/windows/desktop/api/virtdisk/nf-virtdisk-resizevirtualdisk">ResizeVirtualDisk</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323698(v=vs.85)">VHD Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323698(v=vs.85)">VHD Enumerations</a>

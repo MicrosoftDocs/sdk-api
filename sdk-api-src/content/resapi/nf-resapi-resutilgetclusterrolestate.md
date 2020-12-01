@@ -60,7 +60,7 @@ The handle of the queried cluster.
 
 ### -param eClusterRole [in]
 
-The role the cluster was queried about.  The possible values for this parameter are enumerators from the <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-cluster_role">CLUSTER_ROLE</a> enumeration.  The following values are valid.
+The role the cluster was queried about.  The possible values for this parameter are enumerators from the <a href="/windows/desktop/api/resapi/ne-resapi-cluster_role">CLUSTER_ROLE</a> enumeration.  The following values are valid.
 
 
 
@@ -142,7 +142,7 @@ This enumerator represents the WINS Service cluster role.
 
 ## -returns
 
-The possible return values for this function are enumerators from the  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-cluster_role_state">CLUSTER_ROLE_STATE</a> enumeration.  The following values are valid.
+The possible return values for this function are enumerators from the  <a href="/windows/desktop/api/resapi/ne-resapi-cluster_role_state">CLUSTER_ROLE_STATE</a> enumeration.  The following values are valid.
 
 <table>
 <tr>
@@ -157,7 +157,7 @@ The possible return values for this function are enumerators from the  <a href="
 </dl>
 </td>
 <td width="60%">
-It is unknown whether or not the role is clustered.  If this value is returned then an error has occurred.  For more information call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+It is unknown whether or not the role is clustered.  If this value is returned then an error has occurred.  For more information call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -189,13 +189,12 @@ The role is not clustered.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-cluster_role">CLUSTER_ROLE</a>
+<a href="/windows/desktop/api/resapi/ne-resapi-cluster_role">CLUSTER_ROLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/ne-resapi-cluster_role_state">CLUSTER_ROLE_STATE</a>
+<a href="/windows/desktop/api/resapi/ne-resapi-cluster_role_state">CLUSTER_ROLE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-utility-functions">Resource Utility Functions</a>

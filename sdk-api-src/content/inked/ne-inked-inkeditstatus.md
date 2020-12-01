@@ -50,31 +50,30 @@ api_name:
 
 ## -description
 
-Specifies whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is idle, collecting ink, or recognizing ink.
+Specifies whether the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is idle, collecting ink, or recognizing ink.
 
 ## -enum-fields
 
 ### -field IES_Idle
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is neither collecting nor recognizing ink.
+The <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is neither collecting nor recognizing ink.
 
 ### -field IES_Collecting
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is collecting ink.
+The <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is collecting ink.
 
 ### -field IES_Recognizing
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is recognizing ink.
+The <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is recognizing ink.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-messages--win32-only-">InkEdit Messages</a>
+<a href="/windows/desktop/tablet/inkedit-messages--win32-only-">InkEdit Messages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status Property</a>
-
+<a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_status">Status Property</a>

@@ -58,7 +58,7 @@ Specifies an XML qualified name.
 
 ### -field Space
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_namespace">WSDXML_NAMESPACE</a> structure that specifies the namespace of the qualified name.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_namespace">WSDXML_NAMESPACE</a> structure that specifies the namespace of the qualified name.
 
 ### -field LocalName
 
@@ -67,4 +67,3 @@ The local name of the qualified name.
 ## -remarks
 
 <b>WSDXML_NAME</b> represents a single name within a namespace. The relationship between the name and namespace is circular, in that the <b>Space</b> pointer of the name points to the namespace the name belongs to, and the <b>Names</b> array of the namespace will have an entry for the name.
-

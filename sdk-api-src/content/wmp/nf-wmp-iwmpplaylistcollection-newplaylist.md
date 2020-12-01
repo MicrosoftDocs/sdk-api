@@ -92,29 +92,28 @@ Multiple playlists having the same name are permitted in the library. To avoid c
 
 Leading and trailing spaces are not permitted in playlist names, and are automatically removed from the value specified for the bstrName parameter.
 
-Before calling this method, you must have full access to the library. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMP/library-access">Library Access</a>.
+Before calling this method, you must have full access to the library. For more information, see <a href="/windows/desktop/WMP/library-access">Library Access</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-appenditem">IWMPPlaylist::appendItem</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-appenditem">IWMPPlaylist::appendItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-insertitem">IWMPPlaylist::insertItem</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-insertitem">IWMPPlaylist::insertItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistarray-get_count">IWMPPlaylistArray::get_count</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistarray-get_count">IWMPPlaylistArray::get_count</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylistcollection">IWMPPlaylistCollection Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylistcollection">IWMPPlaylistCollection Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">IWMPPlaylistCollection::getByName</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">IWMPPlaylistCollection::getByName</a>

@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - OleCreateMenuDescriptor
+req.apiset: ext-ms-win-com-ole32-l1-1-3 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # OleCreateMenuDescriptor function
@@ -70,9 +71,8 @@ Returns the handle to the descriptor, or <b>NULL</b> if insufficient memory is a
 
 ## -remarks
 
-The <b>OleCreateMenuDescriptor</b> function can be called by the object to create a descriptor for the composite menu. OLE then uses this descriptor to dispatch menu messages and commands. To free the shared menu descriptor when it is no longer needed, the container should call the companion helper function, <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oledestroymenudescriptor">OleDestroyMenuDescriptor</a>.
+The <b>OleCreateMenuDescriptor</b> function can be called by the object to create a descriptor for the composite menu. OLE then uses this descriptor to dispatch menu messages and commands. To free the shared menu descriptor when it is no longer needed, the container should call the companion helper function, <a href="/windows/desktop/api/ole2/nf-ole2-oledestroymenudescriptor">OleDestroyMenuDescriptor</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oledestroymenudescriptor">OleDestroyMenuDescriptor</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-oledestroymenudescriptor">OleDestroyMenuDescriptor</a>

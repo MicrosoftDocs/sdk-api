@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776905(v=vs.85)">drag-and-drop</a> operation.
+Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX <a href="/previous-versions/windows/desktop/legacy/bb776905(v=vs.85)">drag-and-drop</a> operation.
 
 ## -struct-fields
 
@@ -140,7 +140,7 @@ The width and height of the file icon.
 
 ### -field pointl
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a></b>
+Type: <b><a href="/previous-versions/dd162807(v=vs.85)">POINTL</a></b>
 
 The screen coordinates of the file object.
 
@@ -148,25 +148,25 @@ The screen coordinates of the file object.
 
 Type: <b>DWORD</b>
 
-File attribute flags. This will be a combination of the FILE_ATTRIBUTE_ values described in <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>.
+File attribute flags. This will be a combination of the FILE_ATTRIBUTE_ values described in <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>.
 
 ### -field ftCreationTime
 
 Type: <b>FILETIME</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time of file creation.
+The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time of file creation.
 
 ### -field ftLastAccessTime
 
 Type: <b>FILETIME</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time that the file was last accessed.
+The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time that the file was last accessed.
 
 ### -field ftLastWriteTime
 
 Type: <b>FILETIME</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time of the last write operation.
+The <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time of the last write operation.
 
 ### -field nFileSizeHigh
 
@@ -188,13 +188,12 @@ The null-terminated string that contains the name of the file.
 
 ## -remarks
 
-If the <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CFSTR_FILECONTENTS</a> format that corresponds to this structure contains the file as a global memory object, <b>nFileSizeHigh</b> and <b>nFileSizeLow</b> specify the size of the associated memory block. If they are set, they can also be used if a user-interface needs to be displayed. For example, if a file is about to be overwritten, you would typically use information from this structure to display a dialog box containing the size, data, and name of the file.
+If the <a href="/windows/desktop/shell/clipboard">CFSTR_FILECONTENTS</a> format that corresponds to this structure contains the file as a global memory object, <b>nFileSizeHigh</b> and <b>nFileSizeLow</b> specify the size of the associated memory block. If they are set, they can also be used if a user-interface needs to be displayed. For example, if a file is about to be overwritten, you would typically use information from this structure to display a dialog box containing the size, data, and name of the file.
 
-To create a zero-length file, set the <b>FD_FILESIZE</b> flag in the <b>dwFlags</b>, and set <b>nFileSizeHigh</b> and <b>nFileSizeLow</b> to zero. The <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CFSTR_FILECONTENTS</a> format should represent the file as either a stream or global memory object (<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tymed">TYMED_ISTREAM</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tymed">TYMED_HGLOBAL</a>).
+To create a zero-length file, set the <b>FD_FILESIZE</b> flag in the <b>dwFlags</b>, and set <b>nFileSizeHigh</b> and <b>nFileSizeLow</b> to zero. The <a href="/windows/desktop/shell/clipboard">CFSTR_FILECONTENTS</a> format should represent the file as either a stream or global memory object (<a href="/windows/desktop/api/objidl/ne-objidl-tymed">TYMED_ISTREAM</a> or <a href="/windows/desktop/api/objidl/ne-objidl-tymed">TYMED_HGLOBAL</a>).
 
 
 
 
 > [!NOTE]
 > The shlobj_core.h header defines FILEDESCRIPTOR as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

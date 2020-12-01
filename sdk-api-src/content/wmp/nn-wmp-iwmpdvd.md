@@ -54,7 +54,7 @@ The <b>IWMPDVD</b> interface provides methods for working with DVDs.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPDVD</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPDVD</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPDVD</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPDVD</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPDVD</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpdvd-back">back</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-back">back</a>
 </td>
 <td align="left" width="63%">
 Changes the display from a submenu to its parent menu.
@@ -78,7 +78,7 @@ Changes the display from a submenu to its parent menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpdvd-get_domain">get_domain</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-get_domain">get_domain</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current domain of the DVD.
@@ -87,7 +87,7 @@ Retrieves the current domain of the DVD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpdvd-get_isavailable">get_isAvailable</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-get_isavailable">get_isAvailable</a>
 </td>
 <td align="left" width="63%">
 Determines whether a specified type of information is available or a given action can be performed.
@@ -96,7 +96,7 @@ Determines whether a specified type of information is available or a given actio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpdvd-resume">resume</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-resume">resume</a>
 </td>
 <td align="left" width="63%">
 Changes to playback mode from menu mode, resuming at the same position as when the menu was invoked.
@@ -105,7 +105,7 @@ Changes to playback mode from menu mode, resuming at the same position as when t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpdvd-titlemenu">titleMenu</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-titlemenu">titleMenu</a>
 </td>
 <td align="left" width="63%">
 Stops playback and displays the title menu.
@@ -114,7 +114,7 @@ Stops playback and displays the title menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpdvd-topmenu">topMenu</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-topmenu">topMenu</a>
 </td>
 <td align="left" width="63%">
 Stops playback and displays the root menu.
@@ -132,15 +132,14 @@ Retrieve a pointer to an <b>IWMPDVD</b> interface with the following method.
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore2">IWMPCore2</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore2">IWMPCore2</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore2-get_dvd">get_dvd</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore2-get_dvd">get_dvd</a>
 </td>
 </tr>
 </table>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

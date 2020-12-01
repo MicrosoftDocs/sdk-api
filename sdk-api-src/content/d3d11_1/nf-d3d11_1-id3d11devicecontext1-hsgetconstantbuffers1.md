@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets the constant buffers that the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/direct3d-11-advanced-stages-tessellation">hull-shader stage</a> uses.
+Gets the constant buffers that the <a href="/windows/desktop/direct3d11/direct3d-11-advanced-stages-tessellation">hull-shader stage</a> uses.
 
 ## -parameters
 
@@ -81,5 +81,4 @@ If no buffer is bound at a slot, <i>pFirstConstant</i> and <i>pNumConstants</i> 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>

@@ -56,7 +56,7 @@ The <b>WlanDisconnect</b> function  disconnects an interface from its current ne
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param pInterfaceGuid [in]
 
@@ -136,13 +136,12 @@ The caller does not have sufficient permissions.
 
 ## -remarks
 
-When the connection was established using <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanconnect">WlanConnect</a>, a profile was specified by the <b>strProfile</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a> structure pointed to by  <i>pConnectionParameters</i>. If that profile was an all-user profile, the <b>WlanDisconnect</b>  caller must have execute access on the profile. Otherwise, the <b>WlanDisconnect</b> call will fail with return value ERROR_ACCESS_DENIED. The permissions on an all-user profile are established when the profile is created or saved using <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansavetemporaryprofile">WlanSaveTemporaryProfile</a>.
+When the connection was established using <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanconnect">WlanConnect</a>, a profile was specified by the <b>strProfile</b> member of the <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a> structure pointed to by  <i>pConnectionParameters</i>. If that profile was an all-user profile, the <b>WlanDisconnect</b>  caller must have execute access on the profile. Otherwise, the <b>WlanDisconnect</b> call will fail with return value ERROR_ACCESS_DENIED. The permissions on an all-user profile are established when the profile is created or saved using <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetprofile">WlanSetProfile</a> or <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansavetemporaryprofile">WlanSaveTemporaryProfile</a>.
 
-To perform a disconnection operation at the command line, use the <b>netsh wlan disconnect</b> command. For more information, see <a href="https://technet.microsoft.com/library/f435edbe-1d50-4774-bae2-0dda33eaeb2f">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
+To perform a disconnection operation at the command line, use the <b>netsh wlan disconnect</b> command. For more information, see <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755301(v=ws.10)">Netsh Commands for Wireless Local Area Network (wlan)</a>. 
 
-<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b><b>WlanDisconnect</b> has the side effect of modifying the profile associated with the disconnected network. A network profile becomes an on-demand profile after a <b>WlanDisconnect</b> call. The Wireless Zero Configuration service will not connect automatically to a network with an on-demand profile when the network is in range. Do not call <b>WlanDisconnect</b> before calling <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanconnect">WlanConnect</a> unless you want to change a profile to an on-demand profile. When you call <b>WlanConnect</b> to establish a network connection, any existing network connection is dropped automatically.
+<b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b><b>WlanDisconnect</b> has the side effect of modifying the profile associated with the disconnected network. A network profile becomes an on-demand profile after a <b>WlanDisconnect</b> call. The Wireless Zero Configuration service will not connect automatically to a network with an on-demand profile when the network is in range. Do not call <b>WlanDisconnect</b> before calling <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanconnect">WlanConnect</a> unless you want to change a profile to an on-demand profile. When you call <b>WlanConnect</b> to establish a network connection, any existing network connection is dropped automatically.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanconnect">WlanConnect</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanconnect">WlanConnect</a>

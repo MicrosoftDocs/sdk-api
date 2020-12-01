@@ -56,7 +56,7 @@ The <b>EngUnlockSurface</b> function causes GDI to unlock the surface.
 
 ### -param pso [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface to be unlocked.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface to be unlocked.
 
 ## -returns
 
@@ -64,13 +64,12 @@ None
 
 ## -remarks
 
-The specified surface must previously have been locked by a call to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-englocksurface">EngLockSurface</a>. The pointer to the SURFOBJ structure must not be used after this call.
+The specified surface must previously have been locked by a call to <a href="/windows/desktop/api/winddi/nf-winddi-englocksurface">EngLockSurface</a>. The pointer to the SURFOBJ structure must not be used after this call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-englocksurface">EngLockSurface</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-englocksurface">EngLockSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>

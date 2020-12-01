@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CERT_CHAIN_FIND_BY_ISSUER_PARA</b> structure contains information used in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindchaininstore">CertFindChainInStore</a> function to build certificate chains.
+The <b>CERT_CHAIN_FIND_BY_ISSUER_PARA</b> structure contains information used in the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindchaininstore">CertFindChainInStore</a> function to build certificate chains.
 
 ## -struct-fields
 
@@ -107,7 +107,7 @@ The key can be used for signing.
 
 ### -field dwAcquirePrivateKeyFlags
 
-When the <i>dwFindFlags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindchaininstore">CertFindChainInStore</a> function contains <b>CERT_CHAIN_FIND_BY_ISSUER_COMPARE_KEY_FLAG</b>, the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey">CryptAcquireCertificatePrivateKey</a> function is called to do the public key comparison. In this case, this member is passed as the <i>dwFlags</i> parameter of the <b>CryptAcquireCertificatePrivateKey</b> function. For possible values for this member and their meanings, see the <i>dwFlags</i> parameter of the <b>CryptAcquireCertificatePrivateKey</b> function.
+When the <i>dwFindFlags</i> parameter of the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindchaininstore">CertFindChainInStore</a> function contains <b>CERT_CHAIN_FIND_BY_ISSUER_COMPARE_KEY_FLAG</b>, the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey">CryptAcquireCertificatePrivateKey</a> function is called to do the public key comparison. In this case, this member is passed as the <i>dwFlags</i> parameter of the <b>CryptAcquireCertificatePrivateKey</b> function. For possible values for this member and their meanings, see the <i>dwFlags</i> parameter of the <b>CryptAcquireCertificatePrivateKey</b> function.
 
 ### -field cIssuer
 
@@ -115,15 +115,15 @@ Contains the number of elements in the <b>rgIssuer</b> array. If this member is 
 
 ### -field rgIssuer
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.509</a>, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoded issuer name <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOBs</a> to match. If this member is <b>NULL</b> or the callback function returns <b>TRUE</b>, a new element is added to the chain for the certificate having a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> with the specified KeySpec and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">enhanced key usage</a>.
+An array of <a href="/windows/desktop/SecGloss/x-gly">X.509</a>, <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) encoded issuer name <a href="/windows/desktop/SecGloss/b-gly">BLOBs</a> to match. If this member is <b>NULL</b> or the callback function returns <b>TRUE</b>, a new element is added to the chain for the certificate having a <a href="/windows/desktop/SecGloss/p-gly">private key</a> with the specified KeySpec and <a href="/windows/desktop/SecGloss/e-gly">enhanced key usage</a>.
 
 ### -field pfnFindCallback
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_chain_find_by_issuer_callback">CertChainFindByIssuerCallback</a> callback function that allows the application to filter the certificates that chains are created for. If this member is <b>NULL</b>, a chain is built for every certificate found. If this member is not <b>NULL</b>, a chain will be built for the certificate found based on the return value of the callback function.
+A pointer to a <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_chain_find_by_issuer_callback">CertChainFindByIssuerCallback</a> callback function that allows the application to filter the certificates that chains are created for. If this member is <b>NULL</b>, a chain is built for every certificate found. If this member is not <b>NULL</b>, a chain will be built for the certificate found based on the return value of the callback function.
 
 ### -field pvFindArg
 
-An application-defined value that will be passed as the <i>pvFindArg</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_chain_find_by_issuer_callback">CertChainFindByIssuerCallback</a> callback function pointed to by the <b>pfnFindCallback</b> member of this structure.
+An application-defined value that will be passed as the <i>pvFindArg</i> parameter of the <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_chain_find_by_issuer_callback">CertChainFindByIssuerCallback</a> callback function pointed to by the <b>pfnFindCallback</b> member of this structure.
 
 ### -field pdwIssuerChainIndex
 
@@ -139,7 +139,7 @@ A pointer to a <b>DWORD</b> value that receives the zero-based index of the elem
 
 If <b>cIssuer</b> is zero, this member is not used.
 
-This  member is set to the index of the found certificate plus one to provide the index of  the certificate of the issuer. Because of this, a partial chain or a self-signed certificate that matches the name BLOB may cause <b>pdwIssuerElementIndex</b> to point past the last certificate in the chain. This situation can be detected by comparing the contents of <b>pdwIssuerElementIndex</b> with the <b>cElement</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_simple_chain">CERT_SIMPLE_CHAIN</a> structure to make sure the index is valid.
+This  member is set to the index of the found certificate plus one to provide the index of  the certificate of the issuer. Because of this, a partial chain or a self-signed certificate that matches the name BLOB may cause <b>pdwIssuerElementIndex</b> to point past the last certificate in the chain. This situation can be detected by comparing the contents of <b>pdwIssuerElementIndex</b> with the <b>cElement</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_simple_chain">CERT_SIMPLE_CHAIN</a> structure to make sure the index is valid.
 
 This member is only defined if the <b>CERT_CHAIN_FIND_BY_ISSUER_PARA_HAS_EXTRA_FIELDS</b> macro is defined.
 
@@ -187,13 +187,12 @@ if(pChainContext)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_chain_find_by_issuer_callback">CertChainFindByIssuerCallback</a>
+<a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cert_chain_find_by_issuer_callback">CertChainFindByIssuerCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfindchaininstore">CertFindChainInStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindchaininstore">CertFindChainInStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey">CryptAcquireCertificatePrivateKey</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey">CryptAcquireCertificatePrivateKey</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Delivers an <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a> interface to the CRM Compensator so that it can write further log records during transaction completion. This method is the first method called on the CRM Compensator after it has been created.
+Delivers an <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a> interface to the CRM Compensator so that it can write further log records during transaction completion. This method is the first method called on the CRM Compensator after it has been created.
 
 ## -parameters
 
 ### -param pLogControl [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a> interface of the CRM clerk.
+A pointer to the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a> interface of the CRM clerk.
 
 ## -returns
 
@@ -64,9 +64,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-CRM Compensator errors cause failfast of the server process, unless this has been specifically overridden (through a registry flag) for this particular CRM Compensator CLSID. See <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--crm-registry-settings">COM+ CRM Registry Settings</a> for more information.
+CRM Compensator errors cause failfast of the server process, unless this has been specifically overridden (through a registry flag) for this particular CRM Compensator CLSID. See <a href="/windows/desktop/cossdk/com--crm-registry-settings">COM+ CRM Registry Settings</a> for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensator">ICrmCompensator</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensator">ICrmCompensator</a>

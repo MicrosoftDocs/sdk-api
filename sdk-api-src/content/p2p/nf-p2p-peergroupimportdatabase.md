@@ -56,7 +56,7 @@ The <b>PeerGroupImportDatabase</b> function imports a peer group database from a
 
 ### -param hGroup [in]
 
-Handle to a peer group whose database is imported from a local file. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
+Handle to a peer group whose database is imported from a local file. This handle is returned by the <a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>, <a href="/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>, or <a href="/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a> function. This parameter is required.
 
 ### -param pwzFilePath [in]
 
@@ -91,7 +91,7 @@ One of the parameters is not valid.
 </dl>
 </td>
 <td width="60%">
-The operation cannot be completed because the peer group database is currently in use. For example, <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a> has been called by a peer, but has not yet completed any database transactions.
+The operation cannot be completed because the peer group database is currently in use. For example, <a href="/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a> has been called by a peer, but has not yet completed any database transactions.
 
 </td>
 </tr>
@@ -109,29 +109,28 @@ The handle to the peer group is invalid.
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 ## -remarks
 
-This function must be called before <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>, and after <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>.
+This function must be called before <a href="/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>, and after <a href="/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a> or <a href="/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupconnect">PeerGroupConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupjoin">PeerGroupJoin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupopen">PeerGroupOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupexportdatabase">PerrGroupExportDatabase</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupexportdatabase">PerrGroupExportDatabase</a>

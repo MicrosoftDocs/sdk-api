@@ -52,15 +52,15 @@ api_name:
 
 Sets a spoofed device scale factor to be used for a Windows Store app running in design mode.
 
-You must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize">IInitializeWithWindow::Initialize</a> to set a proxy core window before calling this method.
+You must call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize">IInitializeWithWindow::Initialize</a> to set a proxy core window before calling this method.
 
-<b>SetScaleFactor</b> must be called before calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-computeapplicationsize">ComputeApplicationSize</a>.
+<b>SetScaleFactor</b> must be called before calling <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-computeapplicationsize">ComputeApplicationSize</a>.
 
 ## -parameters
 
 ### -param scaleFactor [in]
 
-One of the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">DEVICE_SCALE_FACTOR</a> enumeration values that indicates the device scale factor to spoof.
+One of the <a href="/windows/desktop/api/shtypes/ne-shtypes-device_scale_factor">DEVICE_SCALE_FACTOR</a> enumeration values that indicates the device scale factor to spoof.
 
 ## -returns
 
@@ -79,7 +79,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize">IInitializeWithWindow::Initialize</a> has not been called to set a proxy core window.
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize">IInitializeWithWindow::Initialize</a> has not been called to set a proxy core window.
 
 </td>
 </tr>
@@ -87,5 +87,4 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">IApplicationDesignModeSettings</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings">IApplicationDesignModeSettings</a>

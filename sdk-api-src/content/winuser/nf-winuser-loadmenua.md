@@ -49,6 +49,7 @@ api_name:
  - LoadMenu
  - LoadMenuA
  - LoadMenuW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # LoadMenuA function
@@ -70,7 +71,7 @@ A handle to the module containing the menu resource to be loaded.
 
 Type: <b>LPCTSTR</b>
 
-The name of the menu resource. Alternatively, this parameter can consist of the resource identifier in the low-order word and zero in the high-order word. To create this value, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro.
+The name of the menu resource. Alternatively, this parameter can consist of the resource identifier in the low-order word and zero in the high-order word. To create this value, use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro.
 
 ## -returns
 
@@ -78,16 +79,16 @@ Type: <b>HMENU</b>
 
 If the function succeeds, the return value is a handle to the menu resource.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a> function is used, before an application closes, to destroy the menu and free memory that the loaded menu occupied. 
+The <a href="/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a> function is used, before an application closes, to destroy the menu and free memory that the loaded menu occupied. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Displaying a Shortcut Menu</a>
+For an example, see <a href="/windows/desktop/menurc/using-menus">Displaying a Shortcut Menu</a>
 
 <div class="code"></div>
 
@@ -103,17 +104,16 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadmenuindirecta">LoadMenuIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadmenuindirecta">LoadMenuIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
 <b>Reference</b>
-

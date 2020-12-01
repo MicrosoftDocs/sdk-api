@@ -60,7 +60,7 @@ The handler to the parent window.
 
 ## -returns
 
-Returns an <a href="https://docs.microsoft.com/uwp/api/windows.foundation.hresult">HResult structure</a> with any error codes that occurred.
+Returns an <a href="/uwp/api/windows.foundation.hresult">HResult structure</a> with any error codes that occurred.
 
 ## -remarks
 
@@ -100,4 +100,3 @@ The following is a list of common error codes that this function returns:
 <td>The caller doesn’t have access to the resource (license).</td>
 </tr>
 </table>
-

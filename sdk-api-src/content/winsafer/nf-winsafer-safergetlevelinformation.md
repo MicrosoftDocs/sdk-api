@@ -43,6 +43,7 @@ api_location:
  - Advapi32.dll
 api_name:
  - SaferGetLevelInformation
+req.apiset: ext-ms-win-advapi32-safer-l1-1-0 (introduced in Windows 8)
 ---
 
 # SaferGetLevelInformation function
@@ -136,5 +137,4 @@ A pointer to return the output size of the <i>lpQueryBuffer</i> parameter.
 ## -returns
 
 <b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

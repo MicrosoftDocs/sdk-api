@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set 
    of valid types for a provider.
@@ -86,9 +86,9 @@ This value is reserved for system use.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_provider_prop">VDS_PROVIDER_PROP</a> structure includes a <b>VDS_PROVIDER_TYPE</b> 
+The <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_provider_prop">VDS_PROVIDER_PROP</a> structure includes a <b>VDS_PROVIDER_TYPE</b> 
     value as a member to report the provider type. The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsadmin-registerprovider">IVdsAdmin::RegisterProvider</a> method passes 
+    <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsadmin-registerprovider">IVdsAdmin::RegisterProvider</a> method passes 
     a <b>VDS_PROVIDER_TYPE</b> value as an argument to indicate the provider type during registration with VDS.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_PROVIDER_TYPE</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_PROVIDER_TYPE</b> enumeration constant.</div>
@@ -96,9 +96,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
+<a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_provider_prop">VDS_PROVIDER_PROP</a>
-
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_provider_prop">VDS_PROVIDER_PROP</a>

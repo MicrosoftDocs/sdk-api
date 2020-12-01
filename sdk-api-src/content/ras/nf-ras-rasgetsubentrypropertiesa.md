@@ -77,14 +77,14 @@ Specifies the one-based index of the subentry.
 ### -param arg4 [in, out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377839(v=vs.85)">RASSUBENTRY</a> structure followed by additional bytes for the alternate phone number list, if there is one. 
+<a href="/previous-versions/windows/desktop/legacy/aa377839(v=vs.85)">RASSUBENTRY</a> structure followed by additional bytes for the alternate phone number list, if there is one. 
 
 
 
 
 On output, the structure receives information about the specified subentry.
 
-On input, the <b>dwSize</b> member specifies the size of the structure. The size identifies the version of the structure. Obtain this size using sizeof(<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377839(v=vs.85)">RASSUBENTRY</a>).
+On input, the <b>dwSize</b> member specifies the size of the structure. The size identifies the version of the structure. Obtain this size using sizeof(<a href="/previous-versions/windows/desktop/legacy/aa377839(v=vs.85)">RASSUBENTRY</a>).
 
 This parameter can be <b>NULL</b>.
 
@@ -102,7 +102,7 @@ This parameter can be <b>NULL</b> if <i>lpRasSubEntry</i> is <b>NULL</b>.
 ### -param arg6 [in]
 
 Pointer to a TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter. For more information about TAPI device configuration blocks, see the function 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetdevconfig">lineGetDevConfig</a>.
 
 ### -param arg7 [in]
 
@@ -112,7 +112,7 @@ Pointer to a <b>DWORD</b> that specifies the size of the TAPI device configurati
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -181,8 +181,8 @@ The phone-book entry does not exist.
 A RAS phone-book entry can have zero or more subentries, each minimally consisting of a device and a phone number. A phone-book entry with multiple subentries can be configured to dial the first available or all subentries when the entry is dialed.
 
 Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetentrypropertiesa">RasGetEntryProperties</a> function to retrieve a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure containing information about the subentries of a phone-book entry. The <b>dwSubEntries</b> member indicates the number of subentries and the <b>dwDialMode</b> member indicates the dialing configuration.
+<a href="/windows/desktop/api/ras/nf-ras-rasgetentrypropertiesa">RasGetEntryProperties</a> function to retrieve a 
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure containing information about the subentries of a phone-book entry. The <b>dwSubEntries</b> member indicates the number of subentries and the <b>dwDialMode</b> member indicates the dialing configuration.
 
 
 
@@ -193,25 +193,24 @@ Use the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377839(v=vs.85)">RASSUBENTRY</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377839(v=vs.85)">RASSUBENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetentrypropertiesa">RasGetEntryProperties</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgetentrypropertiesa">RasGetEntryProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetsubentrypropertiesa">RasSetSubEntryProperties</a>
+<a href="/windows/desktop/api/ras/nf-ras-rassetsubentrypropertiesa">RasSetSubEntryProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

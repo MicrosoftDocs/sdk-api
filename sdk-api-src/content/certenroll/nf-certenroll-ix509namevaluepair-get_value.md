@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-initialize">Initialize</a> method before calling this property.
+You must call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509namevaluepair-initialize">Initialize</a> method before calling this property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepair">IX509NameValuePair</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepair">IX509NameValuePair</a>

@@ -153,7 +153,7 @@ A memory allocation failure occurred.
 </dl>
 </td>
 <td width="60%">
-The TSF manager holds a lock on the document. This typically indicates that the method was called from within another <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a> method, such as <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-settext">ITextStoreAnchor::SetText</a>.
+The TSF manager holds a lock on the document. This typically indicates that the method was called from within another <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a> method, such as <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-settext">ITextStoreAnchor::SetText</a>.
 
 </td>
 </tr>
@@ -161,35 +161,34 @@ The TSF manager holds a lock on the document. This typically indicates that the 
 
 ## -remarks
 
-This method is called only when the application modifies its own text, not when a client modifies text with one of the <b>ITextStoreAnchor</b> methods, such as <b>ITextStoreAnchor::SetText</b> or <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-inserttextatselection">ITextStoreAnchor::InsertTextAtSelection</a>.
+This method is called only when the application modifies its own text, not when a client modifies text with one of the <b>ITextStoreAnchor</b> methods, such as <b>ITextStoreAnchor::SetText</b> or <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-inserttextatselection">ITextStoreAnchor::InsertTextAtSelection</a>.
 
-When calling this method, the application must be able to grant a <a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">document lock</a>.
+When calling this method, the application must be able to grant a <a href="/windows/desktop/TSF/document-locks">document lock</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">Document Locks</a>
+<a href="/windows/desktop/TSF/document-locks">Document Locks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-inserttextatselection">ITextStoreAnchor::InsertTextAtSelection
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-inserttextatselection">ITextStoreAnchor::InsertTextAtSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-settext">ITextStoreAnchor::SetText
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-settext">ITextStoreAnchor::SetText
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-text-store-constants">Miscellaneous Text Store Constants
+<a href="/windows/desktop/TSF/miscellaneous-text-store-constants">Miscellaneous Text Store Constants
       </a>
-

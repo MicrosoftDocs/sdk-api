@@ -82,13 +82,12 @@ A <b>NULL</b> pointer was provided in <i>monitorID</i>.
 
 ## -remarks
 
-The count retrieved through this method includes monitors that are currently detached but that have an image assigned to them. Call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitorrect">GetMonitorRECT</a> to distinguish between attached and detached monitors.
+The count retrieved through this method includes monitors that are currently detached but that have an image assigned to them. Call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitorrect">GetMonitorRECT</a> to distinguish between attached and detached monitors.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitordevicepathat">IDesktopWallpaper::GetMonitorDevicePathAt</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitordevicepathat">IDesktopWallpaper::GetMonitorDevicePathAt</a>

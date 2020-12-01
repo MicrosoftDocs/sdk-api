@@ -91,9 +91,8 @@ The property is stored in memory, but is not written to the file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getproperty">GetProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>

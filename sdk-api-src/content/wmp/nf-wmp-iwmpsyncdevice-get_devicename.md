@@ -99,13 +99,12 @@ This method retrieves the device name that appears in the Windows XP user interf
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_friendlyname">IWMPSyncDevice::get_friendlyName</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_friendlyname">IWMPSyncDevice::get_friendlyName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-put_friendlyname">IWMPSyncDevice::put_friendlyName</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-put_friendlyname">IWMPSyncDevice::put_friendlyName</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICGetStateSize</b> macro queries a video compression driver to determine the amount of memory required to retrieve the configuration information. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-getstate">ICM_GETSTATE</a> message.
+The <b>ICGetStateSize</b> macro queries a video compression driver to determine the amount of memory required to retrieve the configuration information. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-getstate">ICM_GETSTATE</a> message.
 
 ## -parameters
 
@@ -62,13 +62,12 @@ Handle of the compressor.
 
 The structure used to represent configuration information is driver specific and is defined by the driver.
 
-Use <b>ICGetStateSize</b> before calling the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icgetstate">ICGetState</a> macro to determine the size of buffer to allocate for the call.
+Use <b>ICGetStateSize</b> before calling the <a href="/windows/desktop/api/vfw/nf-vfw-icgetstate">ICGetState</a> macro to determine the size of buffer to allocate for the call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

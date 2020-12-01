@@ -56,9 +56,8 @@ Registers a COM Server CLSID and a class factory that were previously registered
 
 ### -param token
 
-The registration token obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/comppkgsup/nf-comppkgsup-registerserverforpmp">RegisterServerForPMP</a>.
+The registration token obtained from a previous call to <a href="/windows/desktop/api/comppkgsup/nf-comppkgsup-registerserverforpmp">RegisterServerForPMP</a>.
 
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

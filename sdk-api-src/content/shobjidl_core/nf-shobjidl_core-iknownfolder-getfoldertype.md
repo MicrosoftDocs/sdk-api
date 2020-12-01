@@ -56,9 +56,9 @@ Retrieves the folder type.
 
 ### -param pftid [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/foldertypeid">FOLDERTYPEID</a>*</b>
+Type: <b><a href="/windows/desktop/shell/foldertypeid">FOLDERTYPEID</a>*</b>
 
-When this returns, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/shell/foldertypeid">FOLDERTYPEID</a> (a GUID) that identifies the known folder type.
+When this returns, contains a pointer to a <a href="/windows/desktop/shell/foldertypeid">FOLDERTYPEID</a> (a GUID) that identifies the known folder type.
 
 ## -returns
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder">IKnownFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder">IKnownFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>

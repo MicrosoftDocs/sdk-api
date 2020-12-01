@@ -72,4 +72,4 @@ Use DirectX.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-directxmath-classes">DirectXMath Library Classes</a>
+<a href="/windows/desktop/dxmath/ovw-directxmath-classes">DirectXMath Library Classes</a>

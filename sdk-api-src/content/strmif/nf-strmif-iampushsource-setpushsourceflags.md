@@ -57,7 +57,7 @@ The <code>SetPushSourceFlags</code> method sets flags that specify the behavior 
 
 ### -param Flags [in]
 
-Combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_pushsource_flags">AM_PUSHSOURCE_FLAGS</a> enumeration.
+Combination of flags from the <a href="/windows/desktop/api/strmif/ne-strmif-_am_pushsource_flags">AM_PUSHSOURCE_FLAGS</a> enumeration.
 
 ## -returns
 
@@ -65,9 +65,8 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource Interface</a>

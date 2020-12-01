@@ -65,9 +65,9 @@ This property is read/write.
 
 ## -remarks
 
-Row height is determined by the size of the drawn box. To get or set the drawn box, use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox">DrawnBox</a> property.
+Row height is determined by the size of the drawn box. To get or set the drawn box, use the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox">DrawnBox</a> property.
 
-Use the values of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns">Columns</a> and <b>Rows</b> properties to control the kind of recognition input that you use. When the <b>Columns</b> and <b>Rows</b> properties are both greater than zero, boxed input is used. The following table lists potential input modes and which values to set the <b>Columns</b> and <b>Rows</b> properties for each mode.
+Use the values of the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns">Columns</a> and <b>Rows</b> properties to control the kind of recognition input that you use. When the <b>Columns</b> and <b>Rows</b> properties are both greater than zero, boxed input is used. The following table lists potential input modes and which values to set the <b>Columns</b> and <b>Rows</b> properties for each mode.
 
 <table>
 <tr>
@@ -191,7 +191,7 @@ z
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns">Columns Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns">Columns Property</a>
 
 
 
@@ -199,5 +199,4 @@ z
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>
-
+<a href="/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>

@@ -51,13 +51,13 @@ api_name:
 ## -description
 
 When the Routing and Remote Access Service (RRAS) starts, it calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedll">MprAdminInitializeDll</a> function that is exported by the administration DLL. Use this function to perform any required initialization for the DLL and call the callback functions. This serves as a placeholder for the callback functions.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedll">MprAdminInitializeDll</a> function that is exported by the administration DLL. Use this function to perform any required initialization for the DLL and call the callback functions. This serves as a placeholder for the callback functions.
 
 ## -parameters
 
 ### -param pAdminCallbacks
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_admin_dll_callbacks">MPRAPI_ADMIN_DLL_CALLBACKS</a> structure that contains the function pointers of the callbacks being registered.
+A pointer to a <a href="/windows/desktop/api/mprapi/ns-mprapi-mprapi_admin_dll_callbacks">MPRAPI_ADMIN_DLL_CALLBACKS</a> structure that contains the function pointers of the callbacks being registered.
 
 ## -returns
 
@@ -67,21 +67,20 @@ If the function returns any value other than <b>NO_ERROR</b>, RRAS will fail to 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedll">MprAdminInitializeDll</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedll">MprAdminInitializeDll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminterminatedll">MprAdminTerminateDll</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminterminatedll">MprAdminTerminateDll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-dll">RAS Administration DLL</a>
+<a href="/windows/desktop/RRAS/ras-administration-dll">RAS Administration DLL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
+<a href="/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

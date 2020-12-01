@@ -63,13 +63,12 @@ Contains the sender's fax number associated with the inbound fax message. This p
 
 ## -remarks
 
-A received message starts with a null value for the sender's fax number when it arrives. A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-glossary">routing assistant</a> can specify the sender's fax number when the fax is reassigned.
+A received message starts with a null value for the sender's fax number when it arrives. A <a href="/previous-versions/windows/desktop/fax/-mfax-glossary">routing assistant</a> can specify the sender's fax number when the fax is reassigned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage">FaxIncomingMessage</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingmessage">FaxIncomingMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>

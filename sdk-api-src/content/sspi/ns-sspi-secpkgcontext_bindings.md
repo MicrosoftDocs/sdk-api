@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Specifies a structure that contains channel binding information for a security <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">context</a>.
+Specifies a structure that contains channel binding information for a security <a href="/windows/desktop/SecGloss/c-gly">context</a>.
 
 ## -struct-fields
 
@@ -64,9 +64,8 @@ The size, in bytes, of the structure specified by the <b>Bindings</b> member
 
 ### -field Bindings
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_channel_bindings">SEC_CHANNEL_BINDINGS</a> structure that specifies channel binding information.
+A pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-sec_channel_bindings">SEC_CHANNEL_BINDINGS</a> structure that specifies channel binding information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a>
-
+<a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a>

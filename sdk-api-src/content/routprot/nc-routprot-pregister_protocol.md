@@ -58,7 +58,7 @@ The
 ### -param pRoutingChar [in, out]
 
 On input, pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a> structure. 
+<a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a> structure. 
 
 
 
@@ -66,13 +66,13 @@ On input, pointer to an
 On output, receives pointers to functions implemented for the routing protocol.
 
 See the reference page for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a> structure for more information on how to use it with the 
+<a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a> structure for more information on how to use it with the 
 <b>RegisterProtocol</b> function.
 
 ### -param pServiceChar [in, out]
 
 On input, pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-mpr40_service_characteristics">MPR_SERVICE_CHARACTERISTICS</a> structure. 
+<a href="/windows/desktop/api/stm/ns-stm-mpr40_service_characteristics">MPR_SERVICE_CHARACTERISTICS</a> structure. 
 
 
 
@@ -80,7 +80,7 @@ On input, pointer to an
 On output, receives pointers to functions implemented for the routing protocol.
 
 See the reference page for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-mpr40_service_characteristics">MPR_SERVICE_CHARACTERISTICS</a> structure for more information on how to use it with the 
+<a href="/windows/desktop/api/stm/ns-stm-mpr40_service_characteristics">MPR_SERVICE_CHARACTERISTICS</a> structure for more information on how to use it with the 
 <b>RegisterProtocol</b> function.
 
 ## -returns
@@ -92,27 +92,26 @@ If the function fails, the return value is ERROR_NOT_SUPPORTED.
 ## -remarks
 
 All routing protocol DLLs must fill in values for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a> structure.
+<a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a> structure.
 
 Routing protocol DLLs that provide services must fill in values for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-mpr40_service_characteristics">MPR_SERVICE_CHARACTERISTICS</a> structure. If a routing protocol DLL does not provide services, it should fill in zero for the <b>fSupportedFunctionality</b> member of this structure, but need not fill in values for the other members.
+<a href="/windows/desktop/api/stm/ns-stm-mpr40_service_characteristics">MPR_SERVICE_CHARACTERISTICS</a> structure. If a routing protocol DLL does not provide services, it should fill in zero for the <b>fSupportedFunctionality</b> member of this structure, but need not fill in values for the other members.
 
 Routing protocols are implemented in user-mode DLLs. A single DLL may implement multiple routing protocols. Therefore, router manager may call 
 <b>RegisterProtocol</b> multiple times, once for each routing protocol implemented in the DLL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
+<a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">MPR_ROUTING_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-mpr40_service_characteristics">MPR_SERVICE_CHARACTERISTICS</a>
+<a href="/windows/desktop/api/stm/ns-stm-mpr40_service_characteristics">MPR_SERVICE_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
-
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>

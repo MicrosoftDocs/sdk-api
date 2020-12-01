@@ -86,7 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -99,5 +99,4 @@ You do not need to lock a volume that you are updating, nor do you need to shut 
 ## -see-also
 
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
-
+* [Disk Management Control Codes](/windows/desktop/FileIO/disk-management-control-codes)

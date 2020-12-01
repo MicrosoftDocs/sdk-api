@@ -63,65 +63,64 @@ Applications should not modify a SID directly. To create and manipulate a securi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid">AllocateAndInitializeSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocateandinitializesid">AllocateAndInitializeSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida">ConvertSidToStringSid</a>
+<a href="/windows/desktop/api/sddl/nf-sddl-convertsidtostringsida">ConvertSidToStringSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsidtosida">ConvertStringSidToSid</a>
+<a href="/windows/desktop/api/sddl/nf-sddl-convertstringsidtosida">ConvertStringSidToSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-copysid">CopySid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-copysid">CopySid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalsid">EqualSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalsid">EqualSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-freesid">FreeSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-freesid">FreeSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getlengthsid">GetLengthSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getlengthsid">GetLengthSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsididentifierauthority">GetSidIdentifierAuthority</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsididentifierauthority">GetSidIdentifierAuthority</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidlengthrequired">GetSidLengthRequired</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidlengthrequired">GetSidLengthRequired</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthority">GetSidSubAuthority</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthority">GetSidSubAuthority</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthoritycount">GetSidSubAuthorityCount</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsidsubauthoritycount">GetSidSubAuthorityCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesid">InitializeSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesid">InitializeSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsid">IsValidSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsid">IsValidSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/sid-components">SID Components</a>
-
+<a href="/windows/desktop/SecAuthZ/sid-components">SID Components</a>

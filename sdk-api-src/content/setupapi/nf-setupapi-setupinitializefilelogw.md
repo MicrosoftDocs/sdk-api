@@ -107,26 +107,25 @@ Use the system file log. The user must be an Administrator to specify this optio
 ## -returns
 
 The function returns the handle to the log file if it is successful. Otherwise, the return value is INVALID_HANDLE_VALUE and the logged error can be retrieved by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setuplogfilea">SetupLogFile</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setuplogfilea">SetupLogFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupterminatefilelog">SetupTerminateFileLog</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupterminatefilelog">SetupTerminateFileLog</a>
 
 ## -remarks
 
 > [!NOTE]
 > The setupapi.h header defines SetupInitializeFileLog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

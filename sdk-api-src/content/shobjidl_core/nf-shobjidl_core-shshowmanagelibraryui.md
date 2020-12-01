@@ -56,9 +56,9 @@ Shows the library management dialog box, which enables users to manage the libra
 
 ### -param psiLibrary [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object that represents the library that is to be managed.
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object that represents the library that is to be managed.
 
 ### -param hwndOwner [in, optional]
 
@@ -80,9 +80,9 @@ A pointer to a help string to display below the title string in the library mana
 
 ### -param lmdOptions [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-librarymanagedialogoptions">LIBRARYMANAGEDIALOGOPTIONS</a></b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-librarymanagedialogoptions">LIBRARYMANAGEDIALOGOPTIONS</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-librarymanagedialogoptions">LIBRARYMANAGEDIALOGOPTIONS</a> enumeration that specifies the behavior of the management dialog box.
+A value from the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-librarymanagedialogoptions">LIBRARYMANAGEDIALOGOPTIONS</a> enumeration that specifies the behavior of the management dialog box.
 
 ## -returns
 
@@ -92,9 +92,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-librarymanagedialogoptions">LIBRARYMANAGEDIALOGOPTIONS</a>
-
+<a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-librarymanagedialogoptions">LIBRARYMANAGEDIALOGOPTIONS</a>

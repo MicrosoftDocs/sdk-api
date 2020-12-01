@@ -63,5 +63,4 @@ The AutoDownload property indicates whether the update will be automatically dow
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate5">IUpdate5</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate5">IUpdate5</a>

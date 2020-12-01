@@ -56,7 +56,7 @@ The
 
 <div class="alert"><b>Note</b>  The 
 <b>gethostbyname</b> function has been deprecated by the introduction of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> function. Developers creating Windows Sockets 2 applications are urged to use the 
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> function. Developers creating Windows Sockets 2 applications are urged to use the 
 <b>getaddrinfo</b> function instead of 
 <b>gethostbyname</b>.</div>
 <div> </div>
@@ -78,8 +78,8 @@ A pointer to the <b>null</b>-terminated name of the host to resolve.
 
 If no error occurs, 
 <b>gethostbyname</b> returns a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a> structure described above. Otherwise, it returns a <b>null</b> pointer and a specific error number can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+<a href="/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a> structure described above. Otherwise, it returns a <b>null</b> pointer and a specific error number can be retrieved by calling 
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -89,19 +89,19 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -112,7 +112,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAHOST_NOT_FOUND</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAHOST_NOT_FOUND</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -123,7 +123,7 @@ Authoritative answer host not found.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATRY_AGAIN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATRY_AGAIN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -134,7 +134,7 @@ Nonauthoritative host not found, or server failure.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -145,7 +145,7 @@ A nonrecoverable error occurred.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -158,7 +158,7 @@ This error should not be interpreted to mean that the <i>name</i> parameter cont
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -169,7 +169,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -180,12 +180,12 @@ The <i>name</i> parameter is not a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINTR</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A blocking Windows Socket 1.1 call was canceled through 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsacancelblockingcall">WSACancelBlockingCall</a>.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsacancelblockingcall">WSACancelBlockingCall</a>.
 
 </td>
 </tr>
@@ -195,26 +195,26 @@ A blocking Windows Socket 1.1 call was canceled through
 
 The 
 <b>gethostbyname</b> function returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a> structure—a structure allocated by Windows Sockets. The 
+<a href="/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a> structure—a structure allocated by Windows Sockets. The 
 <b>hostent</b> structure contains the results of a successful search for the host specified in the <i>name</i> parameter. 
 
-If the host specified in the <i>name</i> parameter has both IPv4 and IPv6 addresses, only the IPv4 addresses will be returned. The  <b>gethostbyname</b> function can only return IPv4 addresses for the <i>name</i> parameter. The  <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> function and associated <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure should be used if IPv6 addresses for the host are required or if both IPv4 and IPv6 addresses for the host are required.
+If the host specified in the <i>name</i> parameter has both IPv4 and IPv6 addresses, only the IPv4 addresses will be returned. The  <b>gethostbyname</b> function can only return IPv4 addresses for the <i>name</i> parameter. The  <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a> function and associated <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a> structure should be used if IPv6 addresses for the host are required or if both IPv4 and IPv6 addresses for the host are required.
 
 If the <i>name</i> parameter points to an empty string or <i>name</i> is <b>NULL</b>, the returned string is the same as the string returned by a successful 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-gethostname">gethostname</a> function call (the standard host name for the local computer).
+<a href="/windows/desktop/api/winsock/nf-winsock-gethostname">gethostname</a> function call (the standard host name for the local computer).
 
-If the <i>name</i> parameter contains a string representation of a legal IPv4 address, then the binary IPv4 address that represents the string is returned in the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a> structure. The <b>h_name</b> member of the <b>hostent</b> structure contains the string representation of the IPv4 address and the <b>h_addr_list</b>  contains the binary IPv4 address. If the <i>name</i> parameter contains a string representation of an IPv6 address or an illegal IPv4 address, then the  <b>gethostbyname</b> function will fail and return <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a>.  
+If the <i>name</i> parameter contains a string representation of a legal IPv4 address, then the binary IPv4 address that represents the string is returned in the <a href="/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a> structure. The <b>h_name</b> member of the <b>hostent</b> structure contains the string representation of the IPv4 address and the <b>h_addr_list</b>  contains the binary IPv4 address. If the <i>name</i> parameter contains a string representation of an IPv6 address or an illegal IPv4 address, then the  <b>gethostbyname</b> function will fail and return <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_DATA</a>.  
 
-The memory for the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a> structure  returned by the <b>gethostbyname</b> function is allocated internally by the Winsock DLL from thread local storage. Only a single <b>hostent</b> structure is allocated and used, no matter how many times the <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr">gethostbyaddr</a> 
+The memory for the <a href="/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a> structure  returned by the <b>gethostbyname</b> function is allocated internally by the Winsock DLL from thread local storage. Only a single <b>hostent</b> structure is allocated and used, no matter how many times the <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr">gethostbyaddr</a> 
 		 or <b>gethostbyname</b> functions are called on the thread. The returned  <b>hostent</b> structure  must be copied to an application buffer if additional calls are to be made to the <b>gethostbyname</b> or <b>gethostbyaddr</b> functions on the same thread. Otherwise, the return value will be overwritten by subsequent <b>gethostbyname</b> or <b>gethostbyaddr</b> 
 		 calls on the same thread. The internal memory allocated for the returned  <b>hostent</b> structure is released by the Winsock DLL when the thread exits. 
 
-An application should not try to release the memory used by the returned <a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a> structure. The application must never attempt to modify this structure or to free any of its components. Furthermore, only one copy of this structure is allocated per thread, so the application should copy any information it needs before issuing any other function calls to <b>gethostbyname</b> or <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr">gethostbyaddr</a> 
+An application should not try to release the memory used by the returned <a href="/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a> structure. The application must never attempt to modify this structure or to free any of its components. Furthermore, only one copy of this structure is allocated per thread, so the application should copy any information it needs before issuing any other function calls to <b>gethostbyname</b> or <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr">gethostbyaddr</a> 
 		.
 
 The 
-<b>gethostbyname</b> function cannot take an IP address string as a parameter passed to it in the <i>name</i> and resolve it to a host name. Such a request is treated exactly as a string representation of an IPv4 address or an unknown host name were passed. An application can use the <a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a> to convert an IPv4 address string to a binary IPv4 address, then use another function, 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr">gethostbyaddr</a>, to resolve the IPv4 address to a host name.  
+<b>gethostbyname</b> function cannot take an IP address string as a parameter passed to it in the <i>name</i> and resolve it to a host name. Such a request is treated exactly as a string representation of an IPv4 address or an unknown host name were passed. An application can use the <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a> to convert an IPv4 address string to a binary IPv4 address, then use another function, 
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr">gethostbyaddr</a>, to resolve the IPv4 address to a host name.  
 
 
 <div class="alert"><b>Note</b>  The <b>gethostbyname</b> function does not check the size of the <i>name</i> parameter before passing the buffer. With an improperly sized <i>name</i> parameter, heap corruption can occur.</div>
@@ -332,49 +332,48 @@ int main(int argc, char **argv)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyname">WSAAsyncGetHostByName</a>
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-wsaasyncgethostbyname">WSAAsyncGetHostByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoa">addrinfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfow">addrinfoW</a>
+<a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfow">addrinfoW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr">gethostbyaddr</a>
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyaddr">gethostbyaddr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-gethostname">gethostname</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-gethostname">gethostname</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a>
+<a href="/windows/desktop/api/winsock/ns-winsock-hostent">hostent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a>
-
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a>

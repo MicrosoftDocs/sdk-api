@@ -56,7 +56,7 @@ The <b>NdrInterfacePointerFree</b> function releases the interface pointer.
 
 ### -param pStubMsg
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. This structure is for internal use only and should not be modified.
+Pointer to a <a href="/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. This structure is for internal use only and should not be modified.
 
 ### -param pMemory [in]
 
@@ -65,4 +65,3 @@ Pointer to the interface pointer to be released.
 ### -param pFormat [in]
 
 Pointer to the format string description.
-

@@ -62,5 +62,4 @@ A structure that specifies the offset from the beginning of this structure and s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_byte_vector">SEC_WINNT_AUTH_BYTE_VECTOR</a>
-
+<a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_byte_vector">SEC_WINNT_AUTH_BYTE_VECTOR</a>

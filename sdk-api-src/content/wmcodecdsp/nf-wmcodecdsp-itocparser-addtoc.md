@@ -56,11 +56,11 @@ The <b>AddToc</b> method adds a table of contents to the TOC Parser object and a
 
 ### -param arg1 [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-toc_pos_type">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://docs.microsoft.com/windows/desktop/medfound/the-position-type-of-a-table-of-contents">position type</a> of the table of contents to be added.
+A member of the <a href="/windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-toc_pos_type">TOC_POS_TYPE</a> enumeration that specifies the <a href="/windows/desktop/medfound/the-position-type-of-a-table-of-contents">position type</a> of the table of contents to be added.
 
 ### -param pToc [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a> interface that represents the table of contents to be added.
+Pointer to an <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a> interface that represents the table of contents to be added.
 
 ### -param pdwTocIndex [out]
 
@@ -90,9 +90,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-gettocbyindex">GetTocByIndex</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-gettocbyindex">GetTocByIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocparser">ITocParser</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocparser">ITocParser</a>

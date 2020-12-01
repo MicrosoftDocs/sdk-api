@@ -117,15 +117,14 @@ The video renderer filter is not connected.
 
 ## -remarks
 
-This method has the same effect as calling the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_left">IVideoWindow::put_Left</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_top">IVideoWindow::put_Top</a>, <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_width">IVideoWindow::put_Width</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_height">IVideoWindow::put_Height</a> methods.
+This method has the same effect as calling the <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_left">IVideoWindow::put_Left</a>, <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_top">IVideoWindow::put_Top</a>, <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_width">IVideoWindow::put_Width</a>, and <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_height">IVideoWindow::put_Height</a> methods.
 
-If resizing the window to the specified dimensions is impossible, this method modifies the window's size and location to make the window fit. Call the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-getwindowposition">IVideoWindow::GetWindowPosition</a> method to determine the result.
+If resizing the window to the specified dimensions is impossible, this method modifies the window's size and location to make the window fit. Call the <a href="/windows/desktop/api/control/nf-control-ivideowindow-getwindowposition">IVideoWindow::GetWindowPosition</a> method to determine the result.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Converts the glyph <a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-glossary">advance widths</a> for a specific font into logical widths.
+Converts the glyph <a href="/windows/desktop/Intl/uniscribe-glossary">advance widths</a> for a specific font into logical widths.
 
 ## -parameters
 
@@ -91,7 +91,7 @@ Currently returns S_OK in all cases.
 
 ## -remarks
 
-This function is useful for recording widths in a font-independent manner. It converts the glyph advance widths calculated for a specific font into logical widths, one per code point, in the same order as the code points. If the same string is then displayed on a different device using a different font, the logical widths can be applied by using <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptapplylogicalwidth">ScriptApplyLogicalWidth</a> to approximate the original placement. This mechanism is useful when implementing print preview. On the preview screen, it is important to match the layout and placement of the final printed result.
+This function is useful for recording widths in a font-independent manner. It converts the glyph advance widths calculated for a specific font into logical widths, one per code point, in the same order as the code points. If the same string is then displayed on a different device using a different font, the logical widths can be applied by using <a href="/windows/desktop/api/usp10/nf-usp10-scriptapplylogicalwidth">ScriptApplyLogicalWidth</a> to approximate the original placement. This mechanism is useful when implementing print preview. On the preview screen, it is important to match the layout and placement of the final printed result.
 
 <div class="alert"><b>Note</b>  Ligature glyph widths are divided evenly among the characters they represent.</div>
 <div> </div>
@@ -108,13 +108,12 @@ This function is useful for recording widths in a font-independent manner. It co
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptapplylogicalwidth">ScriptApplyLogicalWidth</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptapplylogicalwidth">ScriptApplyLogicalWidth</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

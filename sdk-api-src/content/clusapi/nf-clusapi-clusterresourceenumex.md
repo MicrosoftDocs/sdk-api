@@ -60,7 +60,7 @@ Enumerates a resource and then returns a pointer to the current  dependent resou
 ### -param hResourceEnumEx [in]
 
 A handle to a resource enumeration   that is returned from 
-       the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceopenenumex">ClusterResourceOpenEnumEx</a> function.
+       the <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceopenenumex">ClusterResourceOpenEnumEx</a> function.
 
 ### -param dwIndex [in]
 
@@ -129,7 +129,7 @@ There are no more objects to be returned.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
+<dt><b><a href="/windows/desktop/Debug/system-error-codes">System error code</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -141,9 +141,8 @@ Any other returned error code indicates that the operation failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceopenenumex">ClusterResourceOpenEnumEx</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceopenenumex">ClusterResourceOpenEnumEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>

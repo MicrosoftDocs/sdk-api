@@ -75,7 +75,7 @@ The name of the provider.
 ### -param eProviderType [in]
 
 A 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_provider_type">VSS_PROVIDER_TYPE</a> enumeration value that specifies the provider type. Note that <b>VSS_PROV_HARDWARE</b> is not a valid provider type on Windows client operating system versions. Hardware providers will run only on Windows server operating system versions.
+     <a href="/windows/desktop/api/vss/ne-vss-vss_provider_type">VSS_PROVIDER_TYPE</a> enumeration value that specifies the provider type. Note that <b>VSS_PROV_HARDWARE</b> is not a valid provider type on Windows client operating system versions. Hardware providers will run only on Windows server operating system versions.
 
 ### -param pwszProviderVersion [in]
 
@@ -160,7 +160,7 @@ The provider has already been registered on this computer.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -171,7 +171,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 ## -remarks
 
 If the hardware provider is updated, the setup application should call the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-unregisterprovider">UnregisterProvider</a> method to unregister the 
+   <a href="/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-unregisterprovider">UnregisterProvider</a> method to unregister the 
    outdated version, and then call  the 
    <b>RegisterProvider</b> method to register the 
    updated provider.
@@ -181,9 +181,8 @@ If the hardware provider is updated, the setup application should call the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsadmin/nn-vsadmin-ivssadmin">IVssAdmin</a>
+<a href="/windows/desktop/api/vsadmin/nn-vsadmin-ivssadmin">IVssAdmin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-unregisterprovider">UnregisterProvider</a>
-
+<a href="/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-unregisterprovider">UnregisterProvider</a>

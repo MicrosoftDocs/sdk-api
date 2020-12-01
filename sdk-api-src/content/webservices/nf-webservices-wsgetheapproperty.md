@@ -60,7 +60,7 @@ A pointer to the <b>Heap</b> object to that contains the desired property data.
 
 ### -param id [in]
 
-This is a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_heap_property">WS_HEAP_PROPERTY_ID</a> enumerator that identifies the desired property.
+This is a <a href="/windows/desktop/api/webservices/ns-webservices-ws_heap_property">WS_HEAP_PROPERTY_ID</a> enumerator that identifies the desired property.
 
 ### -param value
 
@@ -74,9 +74,8 @@ The buffer size allocated by the caller for the retrieved property value.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

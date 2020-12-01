@@ -52,9 +52,9 @@ api_name:
 
 ## -description
 
-Contains <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">SCSI</a> address data. It is 
-    used as the data member of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_scsi_address">CLUSPROP_SCSI_ADDRESS</a> 
-    structure and as the return value of some <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control code</a> 
+Contains <a href="/previous-versions/windows/desktop/mscs/s-gly">SCSI</a> address data. It is 
+    used as the data member of a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_scsi_address">CLUSPROP_SCSI_ADDRESS</a> 
+    structure and as the return value of some <a href="/previous-versions/windows/desktop/mscs/control-codes">control code</a> 
     operations.
 
 ## -struct-fields
@@ -66,27 +66,27 @@ Contains <a href="https://docs.microsoft.com/previous-versions/windows/desktop/m
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.PortNumber
 
 Identifies the SCSI controller. This corresponds to the 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusscsiaddress-portnumber">PortNumber</a> property of the 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusscsiaddress-object">ClusScsiAddress</a> object.
+         <a href="/previous-versions/windows/desktop/mscs/clusscsiaddress-portnumber">PortNumber</a> property of the 
+         <a href="/previous-versions/windows/desktop/mscs/clusscsiaddress-object">ClusScsiAddress</a> object.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.PathId
 
 Identifies the bus on the SCSI controller specified by <b>PortNumber</b>. This 
-         corresponds to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusscsiaddress-pathid">PathId</a> property of the 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusscsiaddress-object">ClusScsiAddress</a> object.
+         corresponds to the <a href="/previous-versions/windows/desktop/mscs/clusscsiaddress-pathid">PathId</a> property of the 
+         <a href="/previous-versions/windows/desktop/mscs/clusscsiaddress-object">ClusScsiAddress</a> object.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.TargetId
 
 Identifies the target device on the SCSI bus specified by <b>PathId</b>. This 
-         corresponds to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusscsiaddress-targetid">TargetId</a> property of 
-         the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusscsiaddress-object">ClusScsiAddress</a> object.
+         corresponds to the <a href="/previous-versions/windows/desktop/mscs/clusscsiaddress-targetid">TargetId</a> property of 
+         the <a href="/previous-versions/windows/desktop/mscs/clusscsiaddress-object">ClusScsiAddress</a> object.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.Lun
 
 Identifies the individual logical unit at the target device specified by 
          <b>TargetId</b>. This corresponds to the 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusscsiaddress-lun">Lun</a> property of the 
-         <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusscsiaddress-object">ClusScsiAddress</a> object.
+         <a href="/previous-versions/windows/desktop/mscs/clusscsiaddress-lun">Lun</a> property of the 
+         <a href="/previous-versions/windows/desktop/mscs/clusscsiaddress-object">ClusScsiAddress</a> object.
 
 ### -field DUMMYUNIONNAME.dw
 
@@ -97,43 +97,42 @@ Numeric value that describes the SCSI address as a combination of the <b>PortNum
 ## -remarks
 
 A <b>CLUS_SCSI_ADDRESS</b> structure can also be returned 
-     by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> when the 
+     by <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> when the 
      <i>dwControlCode</i> parameter is set to 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-storage-get-disk-info">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO</a> 
+     <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-storage-get-disk-info">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO</a> 
      and can be returned by 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecontrol">ClusterResourceTypeControl</a> when 
+     <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecontrol">ClusterResourceTypeControl</a> when 
      <i>dwControlCode</i> is set to 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-available-disks">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS</a>.
+     <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-available-disks">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS</a>.
 
 
 #### Examples
 
 See 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/creating-physical-disk-resources">Creating Physical Disk Resources</a>.
+      <a href="/previous-versions/windows/desktop/mscs/creating-physical-disk-resources">Creating Physical Disk Resources</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-storage-get-disk-info">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-storage-get-disk-info">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-available-disks">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-available-disks">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_scsi_address">CLUSPROP_SCSI_ADDRESS</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_scsi_address">CLUSPROP_SCSI_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusscsiaddress-object">ClusScsiAddress Object</a>
+<a href="/previous-versions/windows/desktop/mscs/clusscsiaddress-object">ClusScsiAddress Object</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecontrol">ClusterResourceTypeControl</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecontrol">ClusterResourceTypeControl</a>

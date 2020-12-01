@@ -74,33 +74,32 @@ Returns S_OK if successful, or an error value otherwise. If either parameter is 
 
 ## -remarks
 
-By itself, registering a tab thumbnail alone will not result in its being displayed. You must also call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-settaborder">ITaskbarList3::SetTabOrder</a> to instruct the group where to display it.
+By itself, registering a tab thumbnail alone will not result in its being displayed. You must also call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-settaborder">ITaskbarList3::SetTabOrder</a> to instruct the group where to display it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3">ITaskbarList3</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist3">ITaskbarList3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-settabactive">ITaskbarList3::SetTabActive</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-settabactive">ITaskbarList3::SetTabActive</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-settaborder">ITaskbarList3::SetTabOrder</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-settaborder">ITaskbarList3::SetTabOrder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-unregistertab">ITaskbarList3::UnregisterTab</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-unregistertab">ITaskbarList3::UnregisterTab</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-
+<a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>

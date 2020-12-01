@@ -48,6 +48,7 @@ api_location:
  - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
  - InitializeTouchInjection
+req.apiset: ext-ms-win-rtcore-ntuser-wmpointer-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # InitializeTouchInjection function
@@ -55,7 +56,7 @@ api_name:
 
 ## -description
 
-Configures the touch injection context for the calling application and initializes the maximum number of simultaneous contacts that the app can inject.<div class="alert"><b>Note</b>  <b>InitializeTouchInjection</b> must precede any call to  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-injecttouchinput">InjectTouchInput</a>.</div>
+Configures the touch injection context for the calling application and initializes the maximum number of simultaneous contacts that the app can inject.<div class="alert"><b>Note</b>  <b>InitializeTouchInjection</b> must precede any call to  <a href="/windows/desktop/api/winuser/nf-winuser-injecttouchinput">InjectTouchInput</a>.</div>
 <div> </div>
 
 ## -parameters
@@ -70,23 +71,22 @@ The <i>maxCount</i> parameter must be greater than 0 and less than or equal to M
 
 The contact visualization mode. 
 
-The <i>dwMode</i> parameter must be   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_DEFAULT</a>, <b>TOUCH_FEEDBACK_INDIRECT</b>, or <b>TOUCH_FEEDBACK_NONE</b>.
+The <i>dwMode</i> parameter must be   <a href="/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_DEFAULT</a>, <b>TOUCH_FEEDBACK_INDIRECT</b>, or <b>TOUCH_FEEDBACK_NONE</b>.
 
 ## -returns
 
 If the function succeeds, the return value is TRUE.
 
-If the function fails, the return value is FALSE. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is FALSE. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_DEFAULT</a> is set, the injected touch feedback may get suppressed by the end-user settings in the <b>Pen and Touch</b> control panel. 
+If <a href="/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_DEFAULT</a> is set, the injected touch feedback may get suppressed by the end-user settings in the <b>Pen and Touch</b> control panel. 
 
-If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_INDIRECT</a> is set, the injected touch feedback overrides the end-user settings in the <b>Pen and Touch</b> control panel. 
+If <a href="/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_INDIRECT</a> is set, the injected touch feedback overrides the end-user settings in the <b>Pen and Touch</b> control panel. 
 
-If <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_INDIRECT</a> or <b>TOUCH_FEEDBACK_NONE</b> are set,  touch feedback provided by applications and controls may not be affected.
+If <a href="/previous-versions/windows/desktop/input_touchinjection/constants">TOUCH_FEEDBACK_INDIRECT</a> or <b>TOUCH_FEEDBACK_NONE</b> are set,  touch feedback provided by applications and controls may not be affected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/functions">Functions</a>
-
+<a href="/previous-versions/windows/desktop/input_touchinjection/functions">Functions</a>

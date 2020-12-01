@@ -61,11 +61,10 @@ The <b>NetworkIsolationEnumerateAppContainerRules</b> function enumerates all of
 
 Type: <b>IEnumVARIANT**</b>
 
-Enumerator interface of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a> object that represents the rules enforcing app containers.
+Enumerator interface of an <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a> object that represents the rules enforcing app containers.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

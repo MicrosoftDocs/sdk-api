@@ -68,5 +68,4 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns <b>E_INV
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
-
+<a href="/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>

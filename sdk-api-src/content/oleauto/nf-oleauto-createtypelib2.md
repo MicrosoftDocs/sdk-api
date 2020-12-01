@@ -52,7 +52,7 @@ api_name:
 
 Creates a type library in the current file format.
 
-The file and in-memory format for the current version of Automation makes use of memory-mapped files. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib">CreateTypeLib</a> function is still available for creating a type library in the older format.
+The file and in-memory format for the current version of Automation makes use of memory-mapped files. The <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createtypelib">CreateTypeLib</a> function is still available for creating a type library in the older format.
 
 ## -parameters
 
@@ -66,9 +66,8 @@ The name of the file to create.
 
 ### -param ppctlib
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib2">ICreateTypeLib2</a> interface.
+The <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib2">ICreateTypeLib2</a> interface.
 
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

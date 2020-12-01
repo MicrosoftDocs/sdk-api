@@ -56,7 +56,7 @@ Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associa
 
 ### -param workQueueId [in]
 
-Identifier for the work queue. The identifier is retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function.
+Identifier for the work queue. The identifier is retrieved by the <a href="/windows/desktop/api/rtworkq/nf-rtworkq-rtwqallocateworkqueue">RtwqAllocateWorkQueue</a> function.
 
 ### -param usageClass [out]
 
@@ -69,4 +69,3 @@ On input, specifies the size of the <i>usageClass</i> buffer, in characters. On 
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

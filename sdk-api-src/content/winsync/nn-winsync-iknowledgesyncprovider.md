@@ -69,7 +69,7 @@ The <b>IKnowledgeSyncProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-beginsession">BeginSession</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-beginsession">BeginSession</a>
 </td>
 <td align="left" width="63%">
 Notifies the provider that it is joining a synchronization session.
@@ -79,7 +79,7 @@ Notifies the provider that it is joining a synchronization session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-endsession">EndSession</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-endsession">EndSession</a>
 </td>
 <td align="left" width="63%">
 Notifies the provider that a synchronization session to which it was enlisted has finished.
@@ -89,7 +89,7 @@ Notifies the provider that a synchronization session to which it was enlisted ha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-getchangebatch">GetChangeBatch</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-getchangebatch">GetChangeBatch</a>
 </td>
 <td align="left" width="63%">
 Gets a change batch that contains item metadata for items that are not contained in the specified knowledge from the destination provider.
@@ -99,7 +99,7 @@ Gets a change batch that contains item metadata for items that are not contained
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-getfullenumerationchangebatch">GetFullEnumerationChangeBatch</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-getfullenumerationchangebatch">GetFullEnumerationChangeBatch</a>
 </td>
 <td align="left" width="63%">
 Gets a change batch that contains item metadata for items that have IDs greater than the specified lower bound, as part of a full enumeration.
@@ -109,7 +109,7 @@ Gets a change batch that contains item metadata for items that have IDs greater 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-getsyncbatchparameters">GetSyncBatchParameters</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-getsyncbatchparameters">GetSyncBatchParameters</a>
 </td>
 <td align="left" width="63%">
 Gets the number of item changes that will be included in change batches, and the current knowledge for the synchronization scope.
@@ -119,7 +119,7 @@ Gets the number of item changes that will be included in change batches, and the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-processchangebatch">ProcessChangeBatch</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-processchangebatch">ProcessChangeBatch</a>
 </td>
 <td align="left" width="63%">
 Processes a set of changes by detecting conflicts and applying changes to the item store.
@@ -129,7 +129,7 @@ Processes a set of changes by detecting conflicts and applying changes to the it
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-processfullenumerationchangebatch">ProcessFullEnumerationChangeBatch</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-processfullenumerationchangebatch">ProcessFullEnumerationChangeBatch</a>
 </td>
 <td align="left" width="63%">
 Processes a set of changes for a full enumeration by applying changes to the item store.
@@ -141,9 +141,9 @@ Processes a set of changes for a full enumeration by applying changes to the ite
 
 ## -remarks
 
-Typically, the first method that is called by a synchronization  session is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-beginsession">BeginSession</a>. The last method is <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-endsession">EndSession</a>. All other <b>IKnowledgeSyncProvider</b> methods are called between these two methods.
+Typically, the first method that is called by a synchronization  session is <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-beginsession">BeginSession</a>. The last method is <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iknowledgesyncprovider-endsession">EndSession</a>. All other <b>IKnowledgeSyncProvider</b> methods are called between these two methods.
 
-For an overview of what a synchronization session is see the topic <a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-overview">Windows Sync Overview</a>.
+For an overview of what a synchronization session is see the topic <a href="/previous-versions/windows/desktop/winsync/windows-sync-overview">Windows Sync Overview</a>.
 
 ## -see-also
 
@@ -151,5 +151,4 @@ For an overview of what a synchronization session is see the topic <a href="http
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-This method wraps  <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a>, and provides a convenient entry point for callers who are annotating <b>HMENU</b>-based accessible elements.
+This method wraps  <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a>, and provides a convenient entry point for callers who are annotating <b>HMENU</b>-based accessible elements.
 
 ## -parameters
 
 ### -param hmenu [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HMENU</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HMENU</a></b>
 
 Identifies the <b>HMENU</b>-based accessible element to be annotated.
 
 ### -param idChild [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the child ID of the accessible element.
 
@@ -80,7 +80,7 @@ Specifies the number of properties in the <i>paProps</i> array.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK, even if the specified properties were never annotated on the accessible object; clearing already-cleared properties is considered a success.
 
@@ -88,7 +88,7 @@ Returns E_INVALIDARG if any of the properties in the <i>paProps</i> array are no
 
 May return other error codes under exceptional error conditions such as low memory.
 
-For descriptions of other parameters and return values, see the <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a> method.
+For descriptions of other parameters and return values, see the <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a> method.
 
 ## -remarks
 
@@ -96,21 +96,20 @@ By using this method, the caller does not have to obtain an identity string; it 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-clearprops">ClearProps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices">IAccPropServices</a>
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccpropservices">IAccPropServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethmenuprop">SetHmenuProp</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethmenuprop">SetHmenuProp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethmenupropserver">SetHmenuPropServer</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethmenupropserver">SetHmenuPropServer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethmenupropstr">SetHmenuPropStr</a>
-
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-sethmenupropstr">SetHmenuPropStr</a>

@@ -146,6 +146,14 @@ Indicates an expanded depth stencil subobject type. This expansion of the depth 
 
 Indicates a view instancing subobject type.
 
+### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_AS
+
+Indicates an amplification shader subobject type.
+
+### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_MS
+
+Indicates a mesh shader subobject type.
+
 ### -field D3D12_PIPELINE_STATE_SUBOBJECT_TYPE_MAX_VALID
 
 A sentinal value that marks the exclusive upper-bound of valid values this enumeration represents.
@@ -156,5 +164,4 @@ This enum is used in the creation of pipeline state objects using the ID3D12Devi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>

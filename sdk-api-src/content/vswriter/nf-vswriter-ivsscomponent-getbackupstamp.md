@@ -123,7 +123,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -134,26 +134,25 @@ The XML document is not valid. Check the event log for details. For more informa
 If no backup time stamp has been set, 
 <b>GetBackupStamp</b> returns S_FALSE.
 
-If the call to <b>GetBackupStamp</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrBackupStamp</i> parameter by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+If the call to <b>GetBackupStamp</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrBackupStamp</i> parameter by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 The string returned refers to all files in the component and any nonselectable subcomponents it has.
 
 The backup stamp retrieved by 
 <b>GetBackupStamp</b> is generally set by a writer by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupstamp">IVssComponent::SetBackupStamp</a> from within the <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> event handler, 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupstamp">IVssComponent::SetBackupStamp</a> from within the <a href="/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> event handler, 
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>.
 
 Requesters merely store the backup stamps in the Backup Components Document; they do not make direct use of the backup stamp, know how to generate it, or understand its format.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupstamp">IVssComponent::SetBackupStamp</a>
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupstamp">IVssComponent::SetBackupStamp</a>

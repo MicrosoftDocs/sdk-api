@@ -54,14 +54,14 @@ api_name:
 
 ## -description
 
-Contains information about the shared resource, including name of the resource, type and permissions, and the number of current connections. For more information about controlling access to securable objects, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>, <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">Privileges</a>, and <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">Securable Objects</a>.
+Contains information about the shared resource, including name of the resource, type and permissions, and the number of current connections. For more information about controlling access to securable objects, see <a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>, <a href="/windows/desktop/SecAuthZ/privileges">Privileges</a>, and <a href="/windows/desktop/SecAuthZ/securable-objects">Securable Objects</a>.
 
 ## -struct-fields
 
 ### -field shi2_netname
 
 Pointer to a Unicode string specifying the share name of a resource. Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
 
 ### -field shi2_type
 
@@ -133,7 +133,7 @@ In addition, one or both of the following values may be specified.
 </dl>
 </td>
 <td width="60%">
-Special share reserved for interprocess communication (IPC$) or remote administration of the server (ADMIN$). Can also refer to administrative shares such as C$, D$, E$, and so forth. For more information, see <a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>.
+Special share reserved for interprocess communication (IPC$) or remote administration of the server (ADMIN$). Can also refer to administrative shares such as C$, D$, E$, and so forth. For more information, see <a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>.
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ Pointer to a Unicode string that contains an optional comment about the shared r
 ### -field shi2_permissions
 
 Specifies a DWORD value that indicates the shared resource's permissions for servers running with share-level security. A server running user-level security ignores this member. This member can be one or more of the following values. Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member. 
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member. 
 
 
 
@@ -257,7 +257,7 @@ Specifies a DWORD value that indicates the maximum number of concurrent connecti
 ### -field shi2_current_uses
 
 Specifies a DWORD value that indicates the number of current connections to the resource. Calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a> function ignore this member.
 
 ### -field shi2_path
 
@@ -271,29 +271,28 @@ Pointer to a Unicode string that specifies the share's password when the server 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareadd">NetShareAdd</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netshareadd">NetShareAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netshareenum">NetShareEnum</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netshareenum">NetShareEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo">NetShareGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo">NetShareSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
-
+<a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>

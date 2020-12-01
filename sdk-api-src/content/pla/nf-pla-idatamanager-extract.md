@@ -68,9 +68,8 @@ Returns S_OK if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_actions">IFolderAction::Actions</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ifolderaction-get_actions">IFolderAction::Actions</a>

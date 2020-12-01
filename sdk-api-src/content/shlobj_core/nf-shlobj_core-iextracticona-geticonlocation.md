@@ -132,21 +132,21 @@ The physical image bits for this icon are not cached by the calling application.
 
 #### GIL_NOTFILENAME (0x0008)
 
-The location is not a file name/index pair. The values in <i>pszIconFile</i> and <i>piIndex</i> cannot be passed to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>.
+The location is not a file name/index pair. The values in <i>pszIconFile</i> and <i>piIndex</i> cannot be passed to <a href="/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a> or <a href="/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>.
 
-When this flag is omitted, the value returned in <i>pszIconFile</i> is a fully-qualified path name to either a .ico file or to a file that can contain icons. Also, the value returned in <i>piIndex</i> is an index into that file that identifies which of its icons to use. Therefore, when the GIL_NOTFILENAME flag is omitted, these values can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>.
+When this flag is omitted, the value returned in <i>pszIconFile</i> is a fully-qualified path name to either a .ico file or to a file that can contain icons. Also, the value returned in <i>piIndex</i> is an index into that file that identifies which of its icons to use. Therefore, when the GIL_NOTFILENAME flag is omitted, these values can be passed to <a href="/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a> or <a href="/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>.
 
 
 
 #### GIL_PERCLASS (0x0004)
 
-All objects of this class have the same icon. This flag is used internally by the Shell. Typical implementations of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona">IExtractIcon</a> do not require this flag because the flag implies that an icon handler is not required to resolve the icon on a per-object basis. The recommended method for implementing per-class icons is to register a DefaultIcon for the class.
+All objects of this class have the same icon. This flag is used internally by the Shell. Typical implementations of <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona">IExtractIcon</a> do not require this flag because the flag implies that an icon handler is not required to resolve the icon on a per-object basis. The recommended method for implementing per-class icons is to register a DefaultIcon for the class.
 
 
 
 #### GIL_PERINSTANCE (0x0002)
 
-Each object of this class has its own icon. This flag is used internally by the Shell to handle cases like Setup.exe, where objects with identical names can have different icons. Typical implementations of <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona">IExtractIcon</a> do not require this flag.
+Each object of this class has its own icon. This flag is used internally by the Shell to handle cases like Setup.exe, where objects with identical names can have different icons. Typical implementations of <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona">IExtractIcon</a> do not require this flag.
 
 
 
@@ -174,7 +174,6 @@ Returns S_OK if the function returned a valid location, or S_FALSE if the Shell 
 
 ## -remarks
 
-When a client sets the <b>GIL_ASYNC</b> flag in <i>uFlags</i> and receives E_PENDING as a return value, it typically creates a background thread to extract the icon. It calls <b>GetIconLocation</b> from that thread, without the <b>GIL_ASYNC</b> flag, to retrieve the icon location. It then calls <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-extract">IExtractIcon::Extract</a> to extract the icon. Returning E_PENDING implies that the object is free threaded. In other words, it can safely be called concurrently by multiple threads.
+When a client sets the <b>GIL_ASYNC</b> flag in <i>uFlags</i> and receives E_PENDING as a return value, it typically creates a background thread to extract the icon. It calls <b>GetIconLocation</b> from that thread, without the <b>GIL_ASYNC</b> flag, to retrieve the icon location. It then calls <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-extract">IExtractIcon::Extract</a> to extract the icon. Returning E_PENDING implies that the object is free threaded. In other words, it can safely be called concurrently by multiple threads.
 
 The <b>GIL_DEFAULTICON</b> flag is usually set in the case where the desired icon is found, but that icon is not present in the icon cache. Icon extraction is a low priority background process, and as such may be delayed by other processes. The default icon will be displayed in place of the final icon during the time that it takes for that final icon to be extracted, added to the cache, and made available.
-

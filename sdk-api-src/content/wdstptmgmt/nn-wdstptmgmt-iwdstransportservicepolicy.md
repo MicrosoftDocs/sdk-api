@@ -54,5 +54,4 @@ Represents the service policy part of the WDS transport server's configuration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcacheable">IWdsTransportCacheable</a>
-
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcacheable">IWdsTransportCacheable</a>

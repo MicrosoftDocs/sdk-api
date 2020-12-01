@@ -60,7 +60,7 @@ Descriptor identifying a socket.
 
 ### -param arg2
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a> structure containing the set of socket descriptors. The <b>__WSAFDIsSet</b> function determines whether the socket specified in the <i>fd</i> parameter is a member of that set.
+Pointer to an <a href="/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a> structure containing the set of socket descriptors. The <b>__WSAFDIsSet</b> function determines whether the socket specified in the <i>fd</i> parameter is a member of that set.
 
 ## -remarks
 
@@ -70,17 +70,16 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsaasyncselect">WSAAsyncSelect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaeventselect">WSAEventSelect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-fd_set">fd_set</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
-
+<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a>

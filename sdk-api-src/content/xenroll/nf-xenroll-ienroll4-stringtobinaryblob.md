@@ -52,17 +52,17 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>stringToBinaryBlob</b> method converts an encoded string to a binary data <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
+The <b>stringToBinaryBlob</b> method converts an encoded string to a binary data <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
 The <b>stringToBinaryBlob</b> method calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya">CryptStringToBinary</a> function. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya">CryptStringToBinary</a> function. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
 ## -parameters
 
 ### -param Flags [in]
 
-Value passed to the <i>dwFlags</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya">CryptStringToBinary</a> function. For valid values, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya">CryptStringToBinary</a> .
+Value passed to the <i>dwFlags</i> parameter of the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya">CryptStringToBinary</a> function. For valid values, see 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya">CryptStringToBinary</a> .
 
 ### -param pwszString [in]
 
@@ -70,7 +70,7 @@ Encoded string to be converted to a binary data BLOB.
 
 ### -param pblobBinary [out]
 
-A pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that receives the binary data.
+A pointer to a  <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that receives the binary data.
 
 ### -param pdwSkip [out]
 
@@ -82,5 +82,4 @@ A pointer to <b>LONG</b> that receives the actual format used in the conversion
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>

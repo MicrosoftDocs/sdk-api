@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves,  by name, an object of an <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a> interface. The name  should be registered with the namespace on the WDS transport server.
+Retrieves,  by name, an object of an <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a> interface. The name  should be registered with the namespace on the WDS transport server.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The name of the namespace for which an object is being returned.  The namespace 
 
 ### -param ppWdsTransportNamespace [out]
 
-A pointer to the object of an <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a> interface that matches the specified name.
+A pointer to the object of an <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a> interface that matches the specified name.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacemanager">IWdsTransportNamespaceManager</a>
-
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacemanager">IWdsTransportNamespaceManager</a>

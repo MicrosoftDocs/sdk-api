@@ -52,16 +52,16 @@ api_name:
 ## -description
 
 The <b>Size::Equals</b> method determines whether two 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> objects are equal.
+			<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> objects are equal.
 
 ## -parameters
 
 ### -param sz [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a></b>
+Type: <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a></b>
 
 Reference to a 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object that is compared to this 
+					<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> object that is compared to this 
 					<b>Size</b> object.
 
 ## -returns
@@ -71,12 +71,12 @@ Type: <b>BOOL</b>
 If the 
 						<b>Width</b> and 
 						<b>Height</b>  data members of the two 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+						<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 ## -remarks
 
 Two 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> objects are defined as equal if the 
+				<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a> objects are defined as equal if the 
 				<b>Width</b> and 
 				<b>Height</b>  data members are equal.
 
@@ -86,7 +86,7 @@ Two
 
 
 The following example creates a 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> object, gets the size of the rectangle, and determines whether the rectangles are equal.
+						<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a> object, gets the size of the rectangle, and determines whether the rectangles are equal.
 
 
 ```cpp
@@ -105,13 +105,12 @@ if(rectSize.Equals(desiredSize))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">Size</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>
-
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>

@@ -56,7 +56,7 @@ Creates a folder for related tasks.
 
 ### -param subFolderName [in]
 
-The name used to identify the folder. If "FolderName\SubFolder1\SubFolder2" is specified, the entire folder tree will be created if the folders do not exist. This parameter can be a relative path to the current <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder</a> instance. The root task folder is specified with a backslash (\). An example of a task folder path, under the root task folder,
+The name used to identify the folder. If "FolderName\SubFolder1\SubFolder2" is specified, the entire folder tree will be created if the folders do not exist. This parameter can be a relative path to the current <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder</a> instance. The root task folder is specified with a backslash (\). An example of a task folder path, under the root task folder,
  is \MyTaskFolder. The '.' character  cannot be used to specify the current task folder  and the '..' characters cannot be used to specify the parent task folder in the path.
 
 ### -param sddl [in]
@@ -65,9 +65,9 @@ The security descriptor associated with the folder, in the form of a VT_BSTR in 
 
 ### -param ppFolder [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder</a> interface that represents the new subfolder.
+An <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder</a> interface that represents the new subfolder.
 
-Pass in a reference to a <b>NULL</b> <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder</a> interface pointer. Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
+Pass in a reference to a <b>NULL</b> <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder</a> interface pointer. Referencing a non-<b>NULL</b> pointer can cause a memory leak because the pointer will be overwritten.
 
 ## -returns
 
@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-To retrieve the subfolders of the parent folder, use the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolders">GetFolders</a> method.
+To retrieve the subfolders of the parent folder, use the <a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getfolders">GetFolders</a> method.
 
 The <b>CreateFolder</b> method will return 0x800700b7 if the folder that you are trying to create already exists.
 
@@ -83,9 +83,8 @@ Specifying an invalid security descriptor in the <i>sddl</i> parameter will caus
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itaskfolder">ITaskFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

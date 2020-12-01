@@ -64,20 +64,19 @@ This property is read/write.
 
 If the time specified has passed, the fax service sends the fax as soon as a device is available. By default, <b>IFaxDocument::get_ScheduleTime</b> is set to zero, meaning that no time is specified.
 
-Note that the fax service ignores this parameter unless you set the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-scheduletype-vb">IFaxDocument::get_ScheduleType</a> property to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_schedule_type_enum">fstSpecific_TIME</a>.
+Note that the fax service ignores this parameter unless you set the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument-scheduletype-vb">IFaxDocument::get_ScheduleType</a> property to <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_schedule_type_enum">fstSpecific_TIME</a>.
 
 <div class="alert"><b>Note</b>  The value of the <b>IFaxDocument::get_ScheduleTime</b> property must include the date and time for submitting the fax.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>

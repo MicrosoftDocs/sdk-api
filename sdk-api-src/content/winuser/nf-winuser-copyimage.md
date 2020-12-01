@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
  - CopyImage
+req.apiset: ext-ms-win-ntuser-gui-l1-3-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # CopyImage function
@@ -149,7 +150,7 @@ Deletes the original image after creating the copy.
 </dl>
 </td>
 <td width="60%">
-Tries to reload an icon or cursor resource from the original resource file rather than simply copying the current image. This is useful for creating a different-sized copy when the resource file contains multiple sizes of the resource. Without this flag, <b>CopyImage</b> stretches the original image to the new size. If this flag is set, <b>CopyImage</b> uses the size in the resource file closest to the desired size. This will succeed only if <i>hImage</i> was loaded by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>, or by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> with the LR_SHARED flag.
+Tries to reload an icon or cursor resource from the original resource file rather than simply copying the current image. This is useful for creating a different-sized copy when the resource file contains multiple sizes of the resource. Without this flag, <b>CopyImage</b> stretches the original image to the new size. If this flag is set, <b>CopyImage</b> uses the size in the resource file closest to the desired size. This will succeed only if <i>hImage</i> was loaded by <a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a> or <a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>, or by <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a> with the LR_SHARED flag.
 
 </td>
 </tr>
@@ -205,7 +206,7 @@ Type: <b>HANDLE</b>
 
 If the function succeeds, the return value is the handle to the newly created image.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -219,19 +220,19 @@ When you are finished using the resource, you can release its associated memory 
 <tr>
 <td>Bitmap</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 </td>
 </tr>
 <tr>
 <td>Cursor</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
 </td>
 </tr>
 <tr>
 <td>Icon</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 </td>
 </tr>
 </table>
@@ -245,7 +246,7 @@ The system automatically deletes the resource when its process terminates, howev
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
 
 
 
@@ -253,5 +254,4 @@ The system automatically deletes the resource when its process terminates, howev
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/resources">Resources</a>
-
+<a href="/windows/desktop/menurc/resources">Resources</a>

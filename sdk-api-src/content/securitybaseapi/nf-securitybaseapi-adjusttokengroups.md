@@ -57,7 +57,7 @@ api_name:
 
 ## -description
 
-The <b>AdjustTokenGroups</b> function enables or disables groups already present in the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a>. Access to TOKEN_ADJUST_GROUPS is required to enable or disable groups in an access token.
+The <b>AdjustTokenGroups</b> function enables or disables groups already present in the specified <a href="/windows/desktop/SecGloss/a-gly">access token</a>. Access to TOKEN_ADJUST_GROUPS is required to enable or disable groups in an access token.
 
 ## -parameters
 
@@ -72,7 +72,7 @@ Boolean value that indicates whether the groups are to be set to their default e
 ### -param NewState [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that contains the groups to be enabled or disabled. If the <i>ResetToDefault</i> parameter is <b>FALSE</b>, the function sets each of the groups to the value of that group's SE_GROUP_ENABLED attribute in the <b>TOKEN_GROUPS</b> structure. If <i>ResetToDefault</i> is <b>TRUE</b>, this parameter is ignored.
+<a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that contains the groups to be enabled or disabled. If the <i>ResetToDefault</i> parameter is <b>FALSE</b>, the function sets each of the groups to the value of that group's SE_GROUP_ENABLED attribute in the <b>TOKEN_GROUPS</b> structure. If <i>ResetToDefault</i> is <b>TRUE</b>, this parameter is ignored.
 
 ### -param BufferLength [in]
 
@@ -81,7 +81,7 @@ The size, in bytes, of the buffer pointed to by the <i>PreviousState</i> paramet
 ### -param PreviousState [out, optional]
 
 A pointer to a buffer that receives a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure containing the previous state of any groups the function modifies. That is, if a group has been modified by this function, the group and its previous state are contained in the <b>TOKEN_GROUPS</b> structure referenced by <i>PreviousState</i>. If the <b>GroupCount</b> member of <b>TOKEN_GROUPS</b> is zero, then no groups have been changed by this function. This parameter can be <b>NULL</b>. 
+<a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure containing the previous state of any groups the function modifies. That is, if a group has been modified by this function, the group and its previous state are contained in the <b>TOKEN_GROUPS</b> structure referenced by <i>PreviousState</i>. If the <b>GroupCount</b> member of <b>TOKEN_GROUPS</b> is zero, then no groups have been changed by this function. This parameter can be <b>NULL</b>. 
 
 
 
@@ -97,52 +97,51 @@ A pointer to a variable that receives the actual number of bytes needed for the 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The information retrieved in the <i>PreviousState</i> parameter is formatted as a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure. This means a pointer to the buffer can be passed as the <i>NewState</i> parameter in a subsequent call to the <b>AdjustTokenGroups</b> function, restoring the original state of the groups.
+The information retrieved in the <i>PreviousState</i> parameter is formatted as a <a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure. This means a pointer to the buffer can be passed as the <i>NewState</i> parameter in a subsequent call to the <b>AdjustTokenGroups</b> function, restoring the original state of the groups.
 
 The <i>NewState</i> parameter can list groups to be changed that are not present in the access token. This does not affect the successful modification of the groups in the token.
 
-The <b>AdjustTokenGroups</b> function cannot disable groups with the SE_GROUP_MANDATORY attribute in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure. Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a> instead.
+The <b>AdjustTokenGroups</b> function cannot disable groups with the SE_GROUP_MANDATORY attribute in the <a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure. Use 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a> instead.
 
 You cannot enable a group that has the SE_GROUP_USE_FOR_DENY_ONLY attribute.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken">OpenThreadToken</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken">OpenThreadToken</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation">SetTokenInformation</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation">SetTokenInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>

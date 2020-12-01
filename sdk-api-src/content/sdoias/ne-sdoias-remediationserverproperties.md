@@ -67,5 +67,4 @@ Host-name for a Remediation Server. Used in NPS user interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
-
+<a href="/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>

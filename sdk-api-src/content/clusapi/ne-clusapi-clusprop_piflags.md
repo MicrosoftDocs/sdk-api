@@ -53,7 +53,7 @@ api_name:
 
 Represents disk partition information.  The enumeration flags identify certain properties of a disk partition, 
     which is a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">storage class resource</a>.
+    <a href="/previous-versions/windows/desktop/mscs/s-gly">storage class resource</a>.
 
 ## -enum-fields
 
@@ -68,12 +68,12 @@ The storage class resource is removable.
 ### -field CLUSPROP_PIFLAG_USABLE
 
 The storage class resource is formatted with a file system that is usable by the 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>.
+      <a href="/previous-versions/windows/desktop/mscs/cluster-service">Cluster service</a>.
 
 ### -field CLUSPROP_PIFLAG_DEFAULT_QUORUM
 
 The partition should be used to store quorum files if no partition is specified in the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterquorumresource">SetClusterQuorumResource</a> function.
+      <a href="/windows/desktop/api/clusapi/nf-clusapi-setclusterquorumresource">SetClusterQuorumResource</a> function.
 
 ### -field CLUSPROP_PIFLAG_USABLE_FOR_CSV
 
@@ -95,30 +95,29 @@ The partition uses an unknown file system type.
 
 ## -remarks
 
-For <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resources, the smallest NTFS partition 
+For <a href="/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resources, the smallest NTFS partition 
      larger than 50 MB automatically receives the <b>CLUSPROP_PIFLAG_DEFAULT_QUORUM</b> flag.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info_ex">CLUSPROP_PARTITION_INFO_EX</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info_ex">CLUSPROP_PARTITION_INFO_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info">CLUS_PARTITION_INFO</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info">CLUS_PARTITION_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info_ex">CLUS_PARTITION_INFO_EX</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info_ex">CLUS_PARTITION_INFO_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluspartition-flags">Flags Property of the ClusPartition Object</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluspartition-flags">Flags Property of the ClusPartition Object</a>

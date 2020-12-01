@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Creates a deferred context, which can record <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-command-list">command lists</a>.
+Creates a deferred context, which can record <a href="/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-command-list">command lists</a>.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Reserved for future use.  Pass 0.
 
 Type: <b>ID3D11DeviceContext3**</b>
 
-Upon completion of the method, the passed pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext3">ID3D11DeviceContext3</a> interface pointer is initialized.
+Upon completion of the method, the passed pointer to an <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext3">ID3D11DeviceContext3</a> interface pointer is initialized.
 
 ## -returns
 
@@ -80,7 +80,7 @@ Returns S_OK if successful; otherwise, returns one of the following:
               </li>
 <li>Returns <b>DXGI_ERROR_INVALID_CALL</b> if the
                 <b>CreateDeferredContext3</b>method can't be called from the current context.
-                For example, if the device was created with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_SINGLETHREADED</a> value,  <b>CreateDeferredContext3</b> returns <b>DXGI_ERROR_INVALID_CALL</b>.
+                For example, if the device was created with the <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_create_device_flag">D3D11_CREATE_DEVICE_SINGLETHREADED</a> value,  <b>CreateDeferredContext3</b> returns <b>DXGI_ERROR_INVALID_CALL</b>.
               </li>
 <li>Returns <b>E_INVALIDARG</b> if the <i>ContextFlags</i> parameter is invalid.
               </li>
@@ -90,17 +90,16 @@ Returns S_OK if successful; otherwise, returns one of the following:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11device1-createdeferredcontext1">ID3D11Device1::CreateDeferredContext1</a>
+<a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11device1-createdeferredcontext1">ID3D11Device1::CreateDeferredContext1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nf-d3d11_2-id3d11device2-createdeferredcontext2">ID3D11Device2::CreateDeferredContext2</a>
+<a href="/windows/desktop/api/d3d11_2/nf-d3d11_2-id3d11device2-createdeferredcontext2">ID3D11Device2::CreateDeferredContext2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11device3">ID3D11Device3</a>
+<a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11device3">ID3D11Device3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdeferredcontext">ID3D11Device::CreateDeferredContext</a>
-
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createdeferredcontext">ID3D11Device::CreateDeferredContext</a>

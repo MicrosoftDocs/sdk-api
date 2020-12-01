@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterlogger">IRDPSRAPIPerfCounterLogger</a> object.
+Creates a new <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterlogger">IRDPSRAPIPerfCounterLogger</a> object.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The name of the counter.
 
 ### -param ppLogger [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterlogger">IRDPSRAPIPerfCounterLogger</a> interface pointer.
+An <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterlogger">IRDPSRAPIPerfCounterLogger</a> interface pointer.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterloggingmanager">IRDPSRAPIPerfCounterLoggingManager</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiperfcounterloggingmanager">IRDPSRAPIPerfCounterLoggingManager</a>

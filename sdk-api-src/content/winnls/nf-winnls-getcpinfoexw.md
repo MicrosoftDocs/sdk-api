@@ -67,7 +67,7 @@ Retrieves information about any valid installed or available code page.
 
 ### -param CodePage [in]
 
-Identifier for the code page for which to retrieve information. The application can specify the code page identifier for any installed or available code page, or one of the following predefined values. See <a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a> for a list of identifiers for ANSI and other code pages.
+Identifier for the code page for which to retrieve information. The application can specify the code page identifier for any installed or available code page, or one of the following predefined values. See <a href="/windows/desktop/Intl/code-page-identifiers">Code Page Identifiers</a> for a list of identifiers for ANSI and other code pages.
 
 <table>
 <tr>
@@ -122,11 +122,11 @@ Reserved; must be 0.
 
 ### -param lpCPInfoEx [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a> structure that receives information about the code page.
+Pointer to a <a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a> structure that receives information about the code page.
 
 ## -returns
 
-Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 
 <ul>
@@ -135,7 +135,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 
 ## -remarks
 
-The information retrieved in the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a> structure is not always useful for all code pages. To determine buffer sizes, for example, the application should call <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> or <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> to request an accurate buffer size. If <b>CPINFOEX</b> settings indicate that a lead byte exists, the conversion function does not necessarily handle lead bytes differently, for example, in the case of a missing or illegal trail byte.
+The information retrieved in the <a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a> structure is not always useful for all code pages. To determine buffer sizes, for example, the application should call <a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> or <a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> to request an accurate buffer size. If <b>CPINFOEX</b> settings indicate that a lead byte exists, the conversion function does not necessarily handle lead bytes differently, for example, in the case of a missing or illegal trail byte.
 
 
 
@@ -146,25 +146,24 @@ The information retrieved in the <a href="https://docs.microsoft.com/windows/des
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a>
+<a href="/windows/desktop/api/winnls/ns-winnls-cpinfoexa">CPINFOEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getacp">GetACP</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getacp">GetACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcpinfo">GetCPInfo</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getcpinfo">GetCPInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

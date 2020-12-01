@@ -66,21 +66,20 @@ When an object returns <b>TRUE</b> from the <b>CanBePooled</b> method, it indica
 
 Returning <b>TRUE</b> from the <b>CanBePooled</b> method does not guarantee that objects will be recycled; it only gives the COM+ run-time environment permission to recycle them. Returning <b>FALSE</b> from the <b>CanBePooled</b> method guarantees that instances of a component are not recycled.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontrol-activate">Activate</a> method is called if a new instance is created or if a recycled instance is drawn from the pool. Similarly, the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontrol-deactivate">Deactivate</a> method is called every time the object is deactivated, whether it is being destroyed or returned to the pool for recycling.
+The <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontrol-activate">Activate</a> method is called if a new instance is created or if a recycled instance is drawn from the pool. Similarly, the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iobjectcontrol-deactivate">Deactivate</a> method is called every time the object is deactivated, whether it is being destroyed or returned to the pool for recycling.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--object-pooling">COM+ Object Pooling</a>
+<a href="/windows/desktop/cossdk/com--object-pooling">COM+ Object Pooling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/how-object-pooling-works">How Object Pooling Works</a>
+<a href="/windows/desktop/cossdk/how-object-pooling-works">How Object Pooling Works</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontrol">IObjectControl</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontrol">IObjectControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/requirements-for-poolable-objects">Requirements for Poolable Objects</a>
-
+<a href="/windows/desktop/cossdk/requirements-for-poolable-objects">Requirements for Poolable Objects</a>

@@ -56,25 +56,24 @@ Specifies NLS function capabilities.
 
 ### -field COMPARE_STRING
 
-Value indicating comparison of two strings in the manner of the <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> function or <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> with the LCMAP_SORTKEY flag specified.
+Value indicating comparison of two strings in the manner of the <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> function or <a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> with the LCMAP_SORTKEY flag specified.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnlsversion">GetNLSVersion</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getnlsversion">GetNLSVersion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isnlsdefinedstring">IsNLSDefinedString</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-isnlsdefinedstring">IsNLSDefinedString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-lcmapstringa">LCMapString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-enumeration-types">National Language Support Enumeration Types</a>
-
+<a href="/windows/desktop/Intl/national-language-support-enumeration-types">National Language Support Enumeration Types</a>

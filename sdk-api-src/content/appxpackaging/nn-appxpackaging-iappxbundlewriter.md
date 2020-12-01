@@ -54,7 +54,7 @@ Provides a write-only object model for bundle packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleWriter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleWriter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleWriter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleWriter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxBundleWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter-addpayloadpackage">AddPayloadPackage</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter-addpayloadpackage">AddPayloadPackage</a>
 </td>
 <td align="left" width="63%">
 Adds a new app package to the bundle.
@@ -78,7 +78,7 @@ Adds a new app package to the bundle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter-close">Close</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter-close">Close</a>
 </td>
 <td align="left" width="63%">
 Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream.
@@ -89,7 +89,6 @@ Finalizes the bundle package by writing footprint files at the end of the packag
 
 ## -remarks
 
-You can use the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlefactory-createbundlewriter">CreateBundleWriter</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlefactory">IAppxBundleFactory</a> interface to retrieve the <b>IAppxBundleWriter</b> object. 
+You can use the <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlefactory-createbundlewriter">CreateBundleWriter</a> method of the <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlefactory">IAppxBundleFactory</a> interface to retrieve the <b>IAppxBundleWriter</b> object. 
 
 You can add only app packages to the writer.  The writer automatically generates footprint files, such as, the bundle’s manifest and block map.
-

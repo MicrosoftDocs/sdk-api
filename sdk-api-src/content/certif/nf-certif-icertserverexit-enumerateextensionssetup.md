@@ -66,12 +66,12 @@ This parameter is reserved and must be set to zero.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 You must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a> before using this method.
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a> before using this method.
 
 
 #### Examples
@@ -99,13 +99,12 @@ if (FAILED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
+<a href="/windows/desktop/api/certif/nn-certif-icertserverexit">ICertServerExit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensions">ICertServerExit::EnumerateExtensions</a>
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensions">ICertServerExit::EnumerateExtensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionsclose">ICertServerExit::EnumerateExtensionsClose</a>
-
+<a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionsclose">ICertServerExit::EnumerateExtensionsClose</a>

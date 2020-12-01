@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the 
    set of object status values for a subsystem.
@@ -92,9 +92,9 @@ The subsystem is operating in a degraded state. This means that one or more of t
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-setstatus">IVdsSubSystem::SetStatus</a> method passes a <b>VDS_SUB_SYSTEM_STATUS</b> 
+The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-setstatus">IVdsSubSystem::SetStatus</a> method passes a <b>VDS_SUB_SYSTEM_STATUS</b> 
     value as an argument to set the status of a subsystem, and the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a> structure includes a <b>VDS_SUB_SYSTEM_STATUS</b> value 
+    <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a> structure includes a <b>VDS_SUB_SYSTEM_STATUS</b> value 
     as a member to indicate the current status.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_SUB_SYSTEM_STATUS</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_SUB_SYSTEM_STATUS</b> enumeration constant.</div>
@@ -102,9 +102,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-setstatus">IVdsSubSystem::SetStatus</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-setstatus">IVdsSubSystem::SetStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a>
-
+<a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a>

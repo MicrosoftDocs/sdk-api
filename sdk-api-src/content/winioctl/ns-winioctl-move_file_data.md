@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Contains input data for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a> 
+Contains input data for the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a> 
     control code.
 
 ## -struct-fields
@@ -61,12 +61,12 @@ Contains input data for the <a href="https://docs.microsoft.com/windows/desktop/
 A handle to the file to be moved.
 
 To retrieve a handle to a file, use 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 If the file is encrypted, the handle must have the <b>FILE_READ_DATA</b>, 
        <b>FILE_WRITE_DATA</b>, <b>FILE_APPEND_DATA</b>, or 
        <b>FILE_EXECUTE</b> access right. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+       <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 ### -field StartingVcn
 
@@ -83,8 +83,8 @@ The count of clusters to be moved.
 ## -remarks
 
 To retrieve data to fill in this structure, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a> control 
+    <a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function with the 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a> control 
     code.
 
 The first cluster of a directory on a FAT file system volume cannot be moved.
@@ -97,29 +97,28 @@ When possible, move data in blocks aligned relative to each other in 16-kilobyte
 </ul>
 The move delta is the number of bytes between the start of the source block and the start of the target block. In other words, a block starting at offset X (on-disk) can be moved to a starting offset Y if the absolute value of X minus Y is an even multiple of 16 KB. So, assuming 4-KB clusters, a move from cluster 3 to cluster 27 will be optimized,  but a move from cluster 18 to cluster 24 will not.  Note that mod(3,4) = 3 = mod(27,4).  Mod 4 is chosen because four clusters at 4 KB each is equivalent to 16 KB.  Therefore, a volume formatted to a 16-KB cluster size will result in all move files being optimized.
 
-For more information about shadow copies, see <a href="https://docs.microsoft.com/windows/desktop/VSS/about-the-volume-shadow-copy-service">Volume Shadow Copy Service</a>.
+For more information about shadow copies, see <a href="/windows/desktop/VSS/about-the-volume-shadow-copy-service">Volume Shadow Copy Service</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files">Defragmenting Files</a>
+<a href="/windows/desktop/FileIO/defragmenting-files">Defragmenting Files</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointers">FSCTL_GET_RETRIEVAL_POINTERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa">GetFileAttributesEx</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesexa">GetFileAttributesEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a>

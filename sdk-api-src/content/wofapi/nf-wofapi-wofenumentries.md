@@ -84,5 +84,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-enum-overlay">FSCTL_ENUM_OVERLAY</a>
-
+<a href="/windows-hardware/drivers/ifs/fsctl-enum-overlay">FSCTL_ENUM_OVERLAY</a>

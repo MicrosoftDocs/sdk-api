@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DS_REPL_ATTR_VALUE_META_DATA_2</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> function to provide metadata for a collection of attribute values.
+The <b>DS_REPL_ATTR_VALUE_META_DATA_2</b> structure is used with the <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> function to provide metadata for a collection of attribute values.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ Contains the number of elements in the <b>rgMetaData</b> array.
 
 ### -field dwEnumerationContext
 
-Contains the zero-based index of the next entry to retrieve if more entries are available. This value is passed for the <i>dwEnumerationContext</i> parameter in the next call to <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> to retrieve the next block of entries. If no more entries are available, this member contains -1.
+Contains the zero-based index of the next entry to retrieve if more entries are available. This value is passed for the <i>dwEnumerationContext</i> parameter in the next call to <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> to retrieve the next block of entries. If no more entries are available, this member contains -1.
 
 ### -field rgMetaData.size_is
 
@@ -70,13 +70,12 @@ Contains the zero-based index of the next entry to retrieve if more entries are 
 
 ### -field rgMetaData
 
-Contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_2">DS_REPL_VALUE_META_DATA_2</a> structures that contain the individual attribute replication values. The <b>cNumEntries</b> member contains the number of elements in this array.
+Contains an array of <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_2">DS_REPL_VALUE_META_DATA_2</a> structures that contain the individual attribute replication values. The <b>cNumEntries</b> member contains the number of elements in this array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_2">DS_REPL_VALUE_META_DATA_2</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_2">DS_REPL_VALUE_META_DATA_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
-
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>

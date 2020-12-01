@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Invalidates the contents of the system's SID-to-name cache so subsequent requests for new user objects (<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next">IEnumDiskQuotaUsers::Next</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusersid">IDiskQuotaControl::FindUserSid</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusername">IDiskQuotaControl::FindUserName</a>) must obtain user names from the domain controller. As names are obtained, they are cached.
+Invalidates the contents of the system's SID-to-name cache so subsequent requests for new user objects (<a href="/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next">IEnumDiskQuotaUsers::Next</a>, 
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusersid">IDiskQuotaControl::FindUserSid</a>, and 
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusername">IDiskQuotaControl::FindUserName</a>) must obtain user names from the domain controller. As names are obtained, they are cached.
 
 ## -parameters
 
@@ -128,13 +128,12 @@ In general, there is no reason to call this method. It is included to provide a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

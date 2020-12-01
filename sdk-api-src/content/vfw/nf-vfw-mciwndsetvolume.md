@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndSetVolume</b> macro sets the volume level of an MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setvolume">MCIWNDM_SETVOLUME</a> message.
+The <b>MCIWndSetVolume</b> macro sets the volume level of an MCI device. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-setvolume">MCIWNDM_SETVOLUME</a> message.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Handle of the MCIWnd window.
 ### -param iVol
 
 New volume level. Specify 1000 for normal volume level. Specify a higher value for a louder volume or a lower value for a quieter volume.
-

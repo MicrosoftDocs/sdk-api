@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>CreateApplication</b> method creates an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object with the specified name.
+The <b>CreateApplication</b> method creates an <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object with the specified name.
 
 ## -parameters
 
 ### -param bstrApplicationName [in]
 
-Name for the new <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object.
+Name for the new <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object.
 
 ### -param varReserved [in, optional]
 
@@ -65,7 +65,7 @@ Reserved for future use.
 
 ### -param ppApplication [out]
 
-A pointer to a pointer to the created <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object.
+A pointer to a pointer to the created <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object.
 
 ## -returns
 
@@ -75,7 +75,6 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 
 ## -remarks
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication-submit">IAzApplication::Submit</a> method to persist any changes made by the returned object.
+You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-submit">IAzApplication::Submit</a> method to persist any changes made by the returned object.
 
-The returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object is an immediate child object of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object.
-
+The returned <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object is an immediate child object of the <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object.

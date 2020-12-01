@@ -61,7 +61,7 @@ Serializing page objects to markup of the requested type - MSXPS or OpenXps.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPage1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>. <b>IXpsOMPage1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsOMPage1</b> interface inherits from <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>. <b>IXpsOMPage1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,10 +76,10 @@ The <b>IXpsOMPage1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsompage1-getdocumenttype">IXpsOMPage1::GetDocumentType</a>
+<a href="/windows/desktop/api/xpsobjectmodel_1/nf-xpsobjectmodel_1-ixpsompage1-getdocumenttype">IXpsOMPage1::GetDocumentType</a>
 </td>
 <td align="left" width="63%">
-Gets the type of FixedPage markup that was used to initialize this page. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">XPS Documents</a>.
+Gets the type of FixedPage markup that was used to initialize this page. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see <a href="/previous-versions/windows/desktop/dd316975(v=vs.85)">XPS Documents</a>.
 
 </td>
 </tr>
@@ -94,5 +94,4 @@ http://msdn.microsoft.com/en-us/library/dd372635(v=VS.85).aspx
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>
-
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompage">IXpsOMPage</a>

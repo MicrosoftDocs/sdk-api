@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Called by the Windows Biometric Framework to retrieve a copy of the most recently captured biometric sample formatted as a standard <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure.
+Called by the Windows Biometric Framework to retrieve a copy of the most recently captured biometric sample formatted as a standard <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure.
 
 ## -parameters
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param *SampleBuffer [out]
 
-Address of a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure that contains the sample.
+Address of a variable that receives a pointer to a <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure that contains the sample.
 
 ### -param SampleSize [out]
 
@@ -82,7 +82,7 @@ If the function succeeds, it returns S_OK. If the function fails, it must return
 </dl>
 </td>
 <td width="60%">
-There is not enough memory available to create the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure.
+There is not enough memory available to create the <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ A mandatory pointer parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <b>SensorContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is <b>NULL</b>.
+The <b>SensorContext</b> member of the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is <b>NULL</b>.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ This method is not currently implemented.
 
 ## -remarks
 
-You must allocate the buffer to be returned in the <i>SampleBuffer</i> parameter from the process heap by using the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function. Once created, this  buffer becomes the property of the Windows Biometric Framework. Because the Framework deallocates this memory when finished using it, your implementation of this function  must not attempt to deallocate the buffer or save a pointer to it.  By not saving the pointer, you prevent other parts of the engine adapter from attempting to use the buffer after this function returns.
+You must allocate the buffer to be returned in the <i>SampleBuffer</i> parameter from the process heap by using the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function. Once created, this  buffer becomes the property of the Windows Biometric Framework. Because the Framework deallocates this memory when finished using it, your implementation of this function  must not attempt to deallocate the buffer or save a pointer to it.  By not saving the pointer, you prevent other parts of the engine adapter from attempting to use the buffer after this function returns.
 
 
 #### Examples
@@ -219,5 +219,4 @@ SensorAdapterExportSensorData(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>

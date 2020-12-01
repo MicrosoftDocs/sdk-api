@@ -63,11 +63,11 @@ The <b>GetInputSetting</b> method retrieves a setting for a particular input by 
 
 ### -param pszName [in]
 
-Pointer to a wide-character <b>null</b>-terminated string containing the setting name. For a list of valid settings, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/input-settings">Input Settings</a>.
+Pointer to a wide-character <b>null</b>-terminated string containing the setting name. For a list of valid settings, see <a href="/windows/desktop/wmformat/input-settings">Input Settings</a>.
 
 ### -param pType [out]
 
-Pointer to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type.
+Pointer to a value from the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type.
 
 ### -param pValue [out]
 
@@ -131,17 +131,16 @@ You should make two calls to <b>GetInputSetting</b> for each setting you want to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2">IWMWriterAdvanced2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2">IWMWriterAdvanced2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting">IWMWriterAdvanced2::SetInputSetting</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-setinputsetting">IWMWriterAdvanced2::SetInputSetting</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/input-formats-input-settings-and-data-unit-extensions">Input Formats, Input Settings, and Data Unit Extensions</a>
+<a href="/windows/desktop/wmformat/input-formats-input-settings-and-data-unit-extensions">Input Formats, Input Settings, and Data Unit Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-set-input-settings">To Set Input Settings</a>
-
+<a href="/windows/desktop/wmformat/to-set-input-settings">To Set Input Settings</a>

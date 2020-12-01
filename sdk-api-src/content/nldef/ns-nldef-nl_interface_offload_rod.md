@@ -90,6 +90,10 @@ The network adapter for this network interface supports the offload of TCP check
 
 ### -field FastPathCompatible
 
+Type: <b>BOOLEAN</b>
+
+Reserved for internal use.
+
 ### -field TlLargeSendOffloadSupported
 
 Type: <b>BOOLEAN</b>
@@ -104,20 +108,7 @@ The network adapter for this network interface supports TCP Large Send Offload V
 
 
 
-#### - TlDatagramFastPathCompatible
 
-Type: <b>BOOLEAN</b>
-
-Reserved for internal use.
-
-
-
-
-#### - TlStreamFastPathCompatible
-
-Type: <b>BOOLEAN</b>
-
-Reserved for internal use.
 
 ## -remarks
 
@@ -125,5 +116,4 @@ The <b>NL_INTERFACE_OFFLOAD_ROD</b> structure is defined on Windows Vista and l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>
-
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>

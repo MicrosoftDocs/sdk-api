@@ -64,15 +64,14 @@ Pointer to the event object to be deleted.
 
 ## -remarks
 
-A display driver can call <b>EngDeleteEvent</b> only with an event object returned from the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a> function, and must not call it to delete event objects returned from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>.
+A display driver can call <b>EngDeleteEvent</b> only with an event object returned from the <a href="/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a> function, and must not call it to delete event objects returned from <a href="/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>.
 
 Before calling <b>EngDeleteEvent</b>, the display driver must notify all holders of the specified event object that it is about to become invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engcreateevent">EngCreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engmapevent">EngMapEvent</a>

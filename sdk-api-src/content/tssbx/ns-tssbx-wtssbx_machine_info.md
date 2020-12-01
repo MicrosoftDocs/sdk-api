@@ -90,5 +90,4 @@ A value of the <a href="/windows/win32/api/tssbx/ne-tssbx-wtssbx_machine_state">
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
-
+<a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>

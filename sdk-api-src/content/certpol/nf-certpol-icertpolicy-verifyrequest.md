@@ -61,8 +61,8 @@ The returned disposition value indicates whether the request has been accepted, 
 
 ### -param strConfig [in]
 
-Represents the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+Represents the name of the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
 ### -param Context [in]
 
@@ -71,7 +71,7 @@ Identifies the request and associated certificate under construction. The certif
 ### -param bNewRequest [in]
 
 If set to <b>TRUE</b>, specifies that the request is new. If set to <b>FALSE</b>, the request is being resubmitted to the policy module as a result of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-resubmitrequest">ICertAdmin::ResubmitRequest</a> call. A value of <b>FALSE</b> can be used to indicate that the administrator wants the request to be issued or that request properties set by the administrator should be examined.
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-resubmitrequest">ICertAdmin::ResubmitRequest</a> call. A value of <b>FALSE</b> can be used to indicate that the administrator wants the request to be issued or that request properties set by the administrator should be examined.
 
 Note that <b>TRUE</b> is defined (in a Microsoft header file) for C/C++ programmers as one, while  Visual Basic defines the <b>True</b> keyword as negative one. As a result, Visual Basic developers must use one (instead of <b>True</b>) to set this parameter to <b>TRUE</b>. However, to set this parameter to <b>FALSE</b>, Visual Basic developers can use zero or <b>False</b>.
 
@@ -128,7 +128,7 @@ Add the request to the queue to accept or deny the request at a later  time.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value specifies the disposition, which must be one of the following values.
@@ -176,7 +176,7 @@ Add the request to the queue to accept or deny the request at a later  time.
 ## -remarks
 
 <b>VerifyRequest</b> is free to spawn off other processes or access an external database to do the request verification. If the verification requires out-of-band processing or human intervention, <b>VerifyRequest</b> can notify another process or leave any notice of the incoming request required. After the out-of-band processing is complete, a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-icertadmin-resubmitrequest">ResubmitRequest</a> can be made, or the provided administration tool can be used to resubmit the request to the Policy Module. The policy module can examine the request again, access any necessary external data, and return a value to indicate the certificate should be issued or denied.
+<a href="/windows/desktop/api/certadm/nf-certadm-icertadmin-resubmitrequest">ResubmitRequest</a> can be made, or the provided administration tool can be used to resubmit the request to the Policy Module. The policy module can examine the request again, access any necessary external data, and return a value to indicate the certificate should be issued or denied.
 
 When you write custom policy modules, you must implement <b>VerifyRequest</b> functionality in your modules.
 
@@ -281,13 +281,12 @@ error:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a>
+<a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy">ICertPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>
-
+<a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>

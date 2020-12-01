@@ -66,29 +66,29 @@ The ID of the channel property.  The following channel
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_ENCODING</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_ENCODING</a>
 If this property constraint is not specified when using 
-                        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> the default constraint value
-                        of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_encoding">WS_ENCODING_XML_UTF8</a> will be used.
+                        <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> the default constraint value
+                        of <a href="/windows/desktop/api/webservices/ne-webservices-ws_encoding">WS_ENCODING_XML_UTF8</a> will be used.
                     
 
 If this property constraint is not specified not specified when using 
-                        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> the default constraint value of 
-                        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_encoding">WS_ENCODING_XML_BINARY_SESSION_1</a> will be used.
+                        <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a> the default constraint value of 
+                        <a href="/windows/desktop/api/webservices/ne-webservices-ws_encoding">WS_ENCODING_XML_BINARY_SESSION_1</a> will be used.
                     
 
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_ADDRESSING_VERSION</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_ADDRESSING_VERSION</a>
 If this property constraint is not specified, the default constraint
-                        value of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_1_0</a> will be used.
+                        value of <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_1_0</a> will be used.
                     
 
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_ENVELOPE_VERSION</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_ENVELOPE_VERSION</a>
 If this property constraint is not specified, the default constraint of 
-                        value of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_envelope_version">WS_ENVELOPE_VERSION_SOAP_1_2</a> will be used.
+                        value of <a href="/windows/desktop/api/webservices/ne-webservices-ws_envelope_version">WS_ENVELOPE_VERSION_SOAP_1_2</a> will be used.
                     
 
 </li>
@@ -110,8 +110,7 @@ The total size of the <b>allowedValues</b> array, in bytes.  This
 
 ### -field out
 
-When <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
+When <a href="/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalternative">WsMatchPolicyAlternative</a> returns NOERROR, the
                     entire contents of this structure will be filled out.
 
 ### -field out.channelProperty
-

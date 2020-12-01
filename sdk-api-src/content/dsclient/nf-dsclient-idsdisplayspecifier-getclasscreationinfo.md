@@ -60,7 +60,7 @@ Pointer to a null-terminated Unicode string that contains the name of the attrib
 
 ### -param ppdscci [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsclasscreationinfo">DSCLASSCREATIONINFO</a> structure pointer that receives  the class creation data. This memory is allocated by this method. The caller must free this memory using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> when it is no longer required.
+Pointer to a <a href="/windows/desktop/api/dsclient/ns-dsclient-dsclasscreationinfo">DSCLASSCREATIONINFO</a> structure pointer that receives  the class creation data. This memory is allocated by this method. The caller must free this memory using <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> when it is no longer required.
 
 ## -returns
 
@@ -68,17 +68,16 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsclasscreationinfo">DSCLASSCREATIONINFO</a>
+<a href="/windows/desktop/api/dsclient/ns-dsclient-dsclasscreationinfo">DSCLASSCREATIONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
+<a href="/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
+<a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>

@@ -70,5 +70,4 @@ Whenever playback is stopped and restarted, this property is set to zero. It is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nn-qnetwork-iamnetworkstatus">IAMNetworkStatus Interface</a>
-
+<a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamnetworkstatus">IAMNetworkStatus Interface</a>

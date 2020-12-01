@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRSETDIBITSTODEVICE</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibitstodevice">SetDIBitsToDevice</a> enhanced metafile record.
+The <b>EMRSETDIBITSTODEVICE</b> structure contains members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-setdibitstodevice">SetDIBitsToDevice</a> enhanced metafile record.
 
 ## -struct-fields
 
@@ -92,11 +92,11 @@ Height of the source rectangle, in logical units.
 
 ### -field offBmiSrc
 
-Offset to the source <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure.
+Offset to the source <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure.
 
 ### -field cbBmiSrc
 
-Size of the source <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure.
+Size of the source <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure.
 
 ### -field offBitsSrc
 
@@ -108,7 +108,7 @@ Size of source bitmap bits.
 
 ### -field iUsageSrc
 
-Value of the <b>bmiColors</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure. The <b>iUsageSrc</b> member can be either the DIB_PAL_COLORS or DIB_RGB_COLORS value.
+Value of the <b>bmiColors</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure. The <b>iUsageSrc</b> member can be either the DIB_PAL_COLORS or DIB_RGB_COLORS value.
 
 ### -field iStartScan
 
@@ -120,17 +120,16 @@ Number of scan lines.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibitstodevice">SetDIBitsToDevice</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setdibitstodevice">SetDIBitsToDevice</a>

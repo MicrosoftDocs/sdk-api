@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Gets the width of the margin (in pixels) of a bitmap in an existing header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-getbitmapmargin">HDM_GETBITMAPMARGIN</a> message explicitly.
+Gets the width of the margin (in pixels) of a bitmap in an existing header control. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-getbitmapmargin">HDM_GETBITMAPMARGIN</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a header control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-header_setbitmapmargin">Header_SetBitmapMargin</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-header_setbitmapmargin">Header_SetBitmapMargin</a>

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Deletes a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
+Deletes a <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
 
 ## -parameters
 
@@ -73,7 +73,7 @@ Pointer to a null-terminated Unicode string specifying the name of the key to de
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
@@ -85,26 +85,25 @@ Do not call <b>ClusterRegDeleteKey</b> from the
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
 </li>
 </ul>
 <b>ClusterRegDeleteKey</b> can be safely called from 
     any other resource DLL entry point function or from a worker thread. For more information, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+    <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatekey">ClusterRegCreateKey</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatekey">ClusterRegCreateKey</a>

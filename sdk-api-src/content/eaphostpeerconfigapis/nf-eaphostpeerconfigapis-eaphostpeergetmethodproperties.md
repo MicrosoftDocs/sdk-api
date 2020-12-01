@@ -64,7 +64,7 @@ A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that descr
 
 ### -param eapMethodType [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that specifies the EAP method the supplicant is to use.
+An <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that specifies the EAP method the supplicant is to use.
 
 ### -param hUserImpersonationToken [in]
 
@@ -88,19 +88,18 @@ A pointer to a byte buffer that contains the opaque user data  BLOB. This parame
 
 ### -param pMethodPropertyArray [out]
 
-A pointer to the method properties array <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property_array">EAP_METHOD_PROPERTY_ARRAY</a>. Caller should free the inner pointers using   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory">EapHostPeerFreeMemory</a> starting
+A pointer to the method properties array <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property_array">EAP_METHOD_PROPERTY_ARRAY</a>. Caller should free the inner pointers using   <a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerfreememory">EapHostPeerFreeMemory</a> starting
                 at the innermost pointer. The caller should free an <b>empvString</b> value only when the type is <b>empvtString</b>.
 
 ### -param ppEapError [out]
 
  
-A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeErrorMemory</a>.
+A pointer to a pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeErrorMemory</a>.
 
 ## -remarks
 
-<b>EapHostPeerGetMethodProperties</b> allows the user to retrieve the properties of an EAP method through the EAPHost supplicant interface. The properties returned by this API may be different from properties returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethods">EapHostPeerGetMethods</a> function. The <b>EapHostPeerGetMethodProperties</b> function returns the properties of an EAP method for a specific connection and user data.
+<b>EapHostPeerGetMethodProperties</b> allows the user to retrieve the properties of an EAP method through the EAPHost supplicant interface. The properties returned by this API may be different from properties returned by the <a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethods">EapHostPeerGetMethods</a> function. The <b>EapHostPeerGetMethodProperties</b> function returns the properties of an EAP method for a specific connection and user data.
 
 ## -see-also
 
 [EAPHost Supplicant Configuration Functions](/windows/win32/eaphost/eap-host-supplicant-configuration-functions)
-

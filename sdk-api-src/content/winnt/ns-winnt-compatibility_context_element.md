@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>COMPATIBILITY_CONTEXT_ELEMENT</b> structure is used by the <a href="/windows/win32/api/winnt/ns-winnt-activation_context_compatibility_information">QueryActCtxW</a> function as part of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-activation_context_compatibility_information">ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</a> structure.
+The <b>COMPATIBILITY_CONTEXT_ELEMENT</b> structure is used by the <a href="/windows/win32/api/winnt/ns-winnt-activation_context_compatibility_information">QueryActCtxW</a> function as part of the <a href="/windows/desktop/api/winnt/ns-winnt-activation_context_compatibility_information">ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</a> structure.
 
 ## -struct-fields
 
@@ -93,5 +93,4 @@ Windows 7
 
 ### -field Type
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-actctx_compatibility_element_type">ACTCTX_COMPATIBILITY_ELEMENT_TYPE</a> enumeration that describes the compatibility elements in the application manifest.
-
+A value of the <a href="/windows/desktop/api/winnt/ne-winnt-actctx_compatibility_element_type">ACTCTX_COMPATIBILITY_ELEMENT_TYPE</a> enumeration that describes the compatibility elements in the application manifest.

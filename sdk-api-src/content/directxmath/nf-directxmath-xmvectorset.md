@@ -72,7 +72,7 @@ The w component of the vector to return.
 
 ## -returns
 
-An instance <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> each of whose four components
+An instance <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> each of whose four components
 (<i>x</i>,<i>y</i>,<i>z</i>, and <i>w</i>) is a
 floating-point number with the same value as the corresponding input argument to
 <code>XMVectorSet</code>.
@@ -99,5 +99,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-initialization">Vector Initialization Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-initialization">Vector Initialization Functions</a>

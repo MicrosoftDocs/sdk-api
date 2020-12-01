@@ -57,7 +57,7 @@ The <b>IAtscContentAdvisoryDescriptor</b> interface enables the client to get a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAtscContentAdvisoryDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAtscContentAdvisoryDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAtscContentAdvisoryDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAtscContentAdvisoryDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IAtscContentAdvisoryDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getlength">GetLength</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Returns the length of the descriptor body.
@@ -81,7 +81,7 @@ Returns the length of the descriptor body.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getratingregioncount">GetRatingRegionCount</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getratingregioncount">GetRatingRegionCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of rating regions.
@@ -90,7 +90,7 @@ Returns the number of rating regions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordrateddimensions">GetRecordRatedDimensions</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordrateddimensions">GetRecordRatedDimensions</a>
 </td>
 <td align="left" width="63%">
 Returns the number of rating dimensions for a specified rating region.
@@ -99,7 +99,7 @@ Returns the number of rating dimensions for a specified rating region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordratingdescriptiontext">GetRecordRatingDescriptionText</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordratingdescriptiontext">GetRecordRatingDescriptionText</a>
 </td>
 <td align="left" width="63%">
 Returns the rating description for a specified rating region.
@@ -108,7 +108,7 @@ Returns the rating description for a specified rating region.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordratingdimension">GetRecordRatingDimension</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordratingdimension">GetRecordRatingDimension</a>
 </td>
 <td align="left" width="63%">
 Returns the dimension index into the rating region table (RRT) for a specified region.
@@ -117,7 +117,7 @@ Returns the dimension index into the rating region table (RRT) for a specified r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordratingregion">GetRecordRatingRegion</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordratingregion">GetRecordRatingRegion</a>
 </td>
 <td align="left" width="63%">
 Returns the rating region at a specified index.
@@ -126,7 +126,7 @@ Returns the rating region at a specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordratingvalue">GetRecordRatingValue</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordratingvalue">GetRecordRatingValue</a>
 </td>
 <td align="left" width="63%">
 Returns the rating value of a specified rating dimension.
@@ -135,7 +135,7 @@ Returns the rating value of a specified rating dimension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-gettag">GetTag</a>
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Returns the descriptor tag.
@@ -149,12 +149,11 @@ Returns the descriptor tag.
 To obtain a pointer to this interface, do the following:
 
 <ol>
-<li>Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-geteit">IAtscPsipParser::GetEIT</a> to get the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_eit">IATSC_EIT</a> interface.</li>
-<li>Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_eit-getrecorddescriptorbytag">IATSC_EIT::GetRecordDescriptorByTag</a> and pass in the content advisory descriptor tag (0x87). If the descriptor is present, the method returns an <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> pointer.</li>
+<li>Call <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-geteit">IAtscPsipParser::GetEIT</a> to get the <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_eit">IATSC_EIT</a> interface.</li>
+<li>Call <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsc_eit-getrecorddescriptorbytag">IATSC_EIT::GetRecordDescriptorByTag</a> and pass in the content advisory descriptor tag (0x87). If the descriptor is present, the method returns an <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> pointer.</li>
 <li>Query the returned <b>IGenericDescriptor</b> pointer for the <b>IAtscContentAdvisoryDescriptor</b> interface.</li>
 </ol>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

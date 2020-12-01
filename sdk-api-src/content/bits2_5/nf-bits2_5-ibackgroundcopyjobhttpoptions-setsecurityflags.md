@@ -239,7 +239,7 @@ The redirect policy applies to all files in a download job (the policy does not 
 
 <b>Prior to BITS 3.0:  </b>The redirect policies are not supported.
 
-If the policy is BG_HTTP_REDIRECT_POLICY_DISALLOW and the server redirects your request, the job is placed in the fatal error state with one of the following error codes. For descriptions of the error codes, see <a href="https://docs.microsoft.com/windows/desktop/WinHttp/http-status-codes">HTTP Status Codes</a>. 
+If the policy is BG_HTTP_REDIRECT_POLICY_DISALLOW and the server redirects your request, the job is placed in the fatal error state with one of the following error codes. For descriptions of the error codes, see <a href="/windows/desktop/WinHttp/http-status-codes">HTTP Status Codes</a>. 
 
 <ul>
 <li>HRESULT_FROM_WIN32(HTTP_STATUS_AMBIGUOUS)</li>
@@ -254,13 +254,12 @@ If peer caching is enabled and you specify BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT,
 
 If you specify  and the file is downloaded from the 
 
-Note that setting BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT may affect the result when calling the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-replaceremoteprefix">IBackgroundCopyJob3::ReplaceRemotePrefix</a> method. If a server redirected your request, BITS will have already changed the original URL to the final redirected URL, so calling the <b>ReplaceRemotePrefix</b> method will not find files with the original URL.
+Note that setting BG_HTTP_REDIRECT_POLICY_ALLOW_REPORT may affect the result when calling the <a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-replaceremoteprefix">IBackgroundCopyJob3::ReplaceRemotePrefix</a> method. If a server redirected your request, BITS will have already changed the original URL to the final redirected URL, so calling the <b>ReplaceRemotePrefix</b> method will not find files with the original URL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
+<a href="/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getsecurityflags">IBackgroundCopyJobHttpOptions::GetSecurityFlags</a>
-
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getsecurityflags">IBackgroundCopyJobHttpOptions::GetSecurityFlags</a>

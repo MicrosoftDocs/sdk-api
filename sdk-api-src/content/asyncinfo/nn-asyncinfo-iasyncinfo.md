@@ -54,7 +54,7 @@ Provides support for asynchronous operations.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAsyncInfo</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IAsyncInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAsyncInfo</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IAsyncInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IAsyncInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-cancel">Cancel</a>
+<a href="/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Requests cancellation of the asynchronous operation already in progress.
@@ -79,7 +79,7 @@ Requests cancellation of the asynchronous operation already in progress.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-close">Close</a>
+<a href="/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the asynchronous work object.
@@ -97,7 +97,7 @@ Closes the asynchronous work object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-get_errorcode">ErrorCode</a>
+<a href="/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-get_errorcode">ErrorCode</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Retrieves the termination status of the asynchronous operation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-get_id">Id</a>
+<a href="/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-get_id">Id</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Retrieves the identifier of the asynchronous operation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-get_status">Status</a>
+<a href="/windows/desktop/api/asyncinfo/nf-asyncinfo-iasyncinfo-get_status">Status</a>
 
 
 </td>
@@ -143,4 +143,3 @@ Gets a value that indicates the status of the asynchronous operation.
 </td>
 </tr>
 </table>
-

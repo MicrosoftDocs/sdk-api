@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-An <b>IInkPresenterDesktop</b> object represents an <a href="https://msdn.microsoft.com/561e2d14-288a-490a-9a3b-5a32e98b51c3">InkPresenter</a> that can be configured and inserted into the <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a> visual tree of the Classic Windows app.
+An <b>IInkPresenterDesktop</b> object represents an <a href="https://msdn.microsoft.com/561e2d14-288a-490a-9a3b-5a32e98b51c3">InkPresenter</a> that can be configured and inserted into the <a href="/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a> visual tree of the Classic Windows app.
 
 ## -see-also
 
@@ -58,21 +58,19 @@ An <b>IInkPresenterDesktop</b> object represents an <a href="https://msdn.micros
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_ink/ink-presenter-interfaces">Ink presenter interfaces</a>
+<a href="/previous-versions/windows/desktop/input_ink/ink-presenter-interfaces">Ink presenter interfaces</a>
 
 
 
-<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
+<a href="/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
 
 
 
 <b>Samples</b>
 
-
+<a href="https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex Ink sample</a>
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
-

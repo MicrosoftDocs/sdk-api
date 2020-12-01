@@ -72,5 +72,4 @@ Returns <b>ERROR_SUCCESS</b> (0), if the operation succeeds; otherwise returns a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>

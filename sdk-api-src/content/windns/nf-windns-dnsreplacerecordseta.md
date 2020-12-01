@@ -75,7 +75,7 @@ A pointer to a
 
 ### -param Options [in]
 
-A value that contains a bitmap of <a href="https://docs.microsoft.com/windows/desktop/DNS/dns-constants">DNS Update  Options</a>. Options can be combined and all options override <b>DNS_UPDATE_SECURITY_USE_DEFAULT</b>.
+A value that contains a bitmap of <a href="/windows/desktop/DNS/dns-constants">DNS Update  Options</a>. Options can be combined and all options override <b>DNS_UPDATE_SECURITY_USE_DEFAULT</b>.
 
 ### -param hContext [in, optional]
 
@@ -99,10 +99,9 @@ Returns success confirmation upon successful completion. Otherwise, returns the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsmodifyrecordsinset_a">DnsModifyRecordsInSet</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsmodifyrecordsinset_a">DnsModifyRecordsInSet</a>
 
 ## -remarks
 
 > [!NOTE]
 > The windns.h header defines DnsReplaceRecordSet as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

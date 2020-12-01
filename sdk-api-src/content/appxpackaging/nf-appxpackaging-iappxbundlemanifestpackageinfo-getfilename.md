@@ -56,7 +56,7 @@ Retrieves the file-name attribute of the package.
 
 ### -param fileName [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
 
 A string that contains the file name of the package.
 
@@ -68,11 +68,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-You can pass the package file name that  <b>GetFileName</b> outputs to the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlereader-getpayloadpackage">IAppxBundleReader::GetPayloadPackage</a> method to access the package’s contents.
+You can pass the package file name that  <b>GetFileName</b> outputs to the <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlereader-getpayloadpackage">IAppxBundleReader::GetPayloadPackage</a> method to access the package’s contents.
 
-When you're done using the file name, free the memory allocated for <i>fileName</i> by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+When you're done using the file name, free the memory allocated for <i>fileName</i> by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo">IAppxBundleManifestPackageInfo</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo">IAppxBundleManifestPackageInfo</a>

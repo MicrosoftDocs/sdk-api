@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Implements methods that get information from a Protected Broadcast Driver Architecture (PBDA) <b>IsdbCasResponse</b> event. An Integrated Services Digital Broadcasting (ISDB) PBDA media transform device (MTD) fires an <b>IsdbCasResponse</b> event after a media sink device (MSD)  calls the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_isdbconditionalaccess-setisdbcasrequest">IBDA_ISDBConditionalAccess::SetIsdbCasRequest</a> method to indicate communication with a conditional access system (CAS) card. The MTD fires the <b>IsdbCasResponse</b> event to signal that response data is available.
+Implements methods that get information from a Protected Broadcast Driver Architecture (PBDA) <b>IsdbCasResponse</b> event. An Integrated Services Digital Broadcasting (ISDB) PBDA media transform device (MTD) fires an <b>IsdbCasResponse</b> event after a media sink device (MSD)  calls the <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_isdbconditionalaccess-setisdbcasrequest">IBDA_ISDBConditionalAccess::SetIsdbCasRequest</a> method to indicate communication with a conditional access system (CAS) card. The MTD fires the <b>IsdbCasResponse</b> event to signal that response data is available.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IESIsdbCasResponseEvent</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a>. <b>IESIsdbCasResponseEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IESIsdbCasResponseEvent</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iesevent">IESEvent</a>. <b>IESIsdbCasResponseEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IESIsdbCasResponseEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesisdbcasresponseevent-getdatalength">GetDataLength</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesisdbcasresponseevent-getdatalength">GetDataLength</a>
 </td>
 <td align="left" width="63%">
 Gets the length of the response data from the response.
@@ -78,7 +78,7 @@ Gets the length of the response data from the response.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesisdbcasresponseevent-getrequestid">GetRequestId</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesisdbcasresponseevent-getrequestid">GetRequestId</a>
 </td>
 <td align="left" width="63%">
 Gets the request identifier for the MSD that originated the CAS request.
@@ -87,7 +87,7 @@ Gets the request identifier for the MSD that originated the CAS request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesisdbcasresponseevent-getresponsedata">GetResponseData</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesisdbcasresponseevent-getresponsedata">GetResponseData</a>
 </td>
 <td align="left" width="63%">
 Gets the response data.
@@ -96,7 +96,7 @@ Gets the response data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iesisdbcasresponseevent-getstatus">GetStatus</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iesisdbcasresponseevent-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Gets the status code from the response.
@@ -108,4 +108,3 @@ Gets the status code from the response.
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IESIsdbCasResponseEvent)</code>.
-

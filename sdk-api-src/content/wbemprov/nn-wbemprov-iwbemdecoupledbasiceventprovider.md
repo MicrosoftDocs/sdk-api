@@ -52,11 +52,11 @@ api_name:
 
 The 
 <b>IWbemDecoupledBasicEventProvider</b> interface is a cocreatable interface that  registers decoupled providers with WMI. The object created should be passed into the <i>pUnknown </i>argument of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register">IWbemDecoupledRegistrar::Register</a>.
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledregistrar-register">IWbemDecoupledRegistrar::Register</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemDecoupledBasicEventProvider</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemdecoupledregistrar">IWbemDecoupledRegistrar</a>. <b>IWbemDecoupledBasicEventProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemDecoupledBasicEventProvider</b> interface inherits from <a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemdecoupledregistrar">IWbemDecoupledRegistrar</a>. <b>IWbemDecoupledBasicEventProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,17 +71,17 @@ The <b>IWbemDecoupledBasicEventProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getservice">GetService</a>
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getservice">GetService</a>
 </td>
 <td align="left" width="63%">
 Retrieves an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> object for calling back to WMI.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> object for calling back to WMI.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getsink">GetSink</a>
+<a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemdecoupledbasiceventprovider-getsink">GetSink</a>
 </td>
 <td align="left" width="63%">
 Creates an object sink for event forwarding.
@@ -90,7 +90,7 @@ Creates an object sink for event forwarding.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa391480(v=vs.85)">Register</a>
+<a href="/previous-versions/windows/desktop/legacy/aa391480(v=vs.85)">Register</a>
 </td>
 <td align="left" width="63%">
 Registers an object interface with WMI.
@@ -101,13 +101,12 @@ Registers an object interface with WMI.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
+<a href="/windows/desktop/WmiSdk/com-api-for-wmi">COM API for WMI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemdecoupledregistrar">IWbemDecoupledRegistrar</a>
+<a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemdecoupledregistrar">IWbemDecoupledRegistrar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/incorporating-a-provider-in-an-application">Incorporating a Provider in an Application</a>
-
+<a href="/windows/desktop/WmiSdk/incorporating-a-provider-in-an-application">Incorporating a Provider in an Application</a>

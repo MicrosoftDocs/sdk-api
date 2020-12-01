@@ -102,9 +102,8 @@ Sample rates are specified in kilohertz. For instance, a sample rate of 8 indica
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getstatistics">IWMWriterAdvanced::GetStatistics</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getstatistics">IWMWriterAdvanced::GetStatistics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

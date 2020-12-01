@@ -53,12 +53,12 @@ api_name:
 
 Use <b>IBitsPeerCacheAdministration</b> to manage the pool of peers from which you can download content. 
 
-To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopymanager">IBackgroundCopyManager::QueryInterface</a> method, using __uuidof(IBitsPeerCacheAdministration) as the interface identifier. 
+To get this interface, call the <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopymanager">IBackgroundCopyManager::QueryInterface</a> method, using __uuidof(IBitsPeerCacheAdministration) as the interface identifier. 
 <div class="alert"><b>Note</b>  This interface is deprecated in BITS 4.0, and all of the API methods will return <b>S_FALSE</b>.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitsPeerCacheAdministration</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBitsPeerCacheAdministration</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitsPeerCacheAdministration</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBitsPeerCacheAdministration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IBitsPeerCacheAdministration</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-clearpeers">ClearPeers</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-clearpeers">ClearPeers</a>
 </td>
 <td align="left" width="63%">
 Removes all peers from the list of peers that can serve content.
@@ -82,7 +82,7 @@ Removes all peers from the list of peers that can serve content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-clearrecords">ClearRecords</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-clearrecords">ClearRecords</a>
 </td>
 <td align="left" width="63%">
 Removes all the records and files from the cache.
@@ -91,7 +91,7 @@ Removes all the records and files from the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-deleterecord">DeleteRecord</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-deleterecord">DeleteRecord</a>
 </td>
 <td align="left" width="63%">
 Deletes a record and file from the cache based on the record identifier.
@@ -100,7 +100,7 @@ Deletes a record and file from the cache based on the record identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-deleteurl">DeleteUrl</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-deleteurl">DeleteUrl</a>
 </td>
 <td align="left" width="63%">
 Deletes all cache records and the file from the cache for the given URL.
@@ -109,7 +109,7 @@ Deletes all cache records and the file from the cache for the given URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-discoverpeers">DiscoverPeers</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-discoverpeers">DiscoverPeers</a>
 </td>
 <td align="left" width="63%">
 Generates a list of peers that can serve content.
@@ -118,25 +118,25 @@ Generates a list of peers that can serve content.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-enumpeers">EnumPeers</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-enumpeers">EnumPeers</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeers">IEnumBitsPeers</a> interface pointer that you use to enumerate the peers that can serve content. 
+Gets an <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeers">IEnumBitsPeers</a> interface pointer that you use to enumerate the peers that can serve content. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-enumrecords">EnumRecords</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-enumrecords">EnumRecords</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeercacherecords">IEnumBitsPeerCacheRecords</a> interface pointer that you use to enumerate the records in the cache.
+Gets an <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeercacherecords">IEnumBitsPeerCacheRecords</a> interface pointer that you use to enumerate the records in the cache.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getconfigurationflags">GetConfigurationFlags</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getconfigurationflags">GetConfigurationFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the configuration flags that determine whether the computer serves content to peers and can download content from peers.
@@ -145,7 +145,7 @@ Gets the configuration flags that determine whether the computer serves content 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getmaximumcachesize">GetMaximumCacheSize</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getmaximumcachesize">GetMaximumCacheSize</a>
 </td>
 <td align="left" width="63%">
 Gets the maximum size of the cache.
@@ -154,7 +154,7 @@ Gets the maximum size of the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getmaximumcontentage">GetMaximumContentAge</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getmaximumcontentage">GetMaximumContentAge</a>
 </td>
 <td align="left" width="63%">
 Gets the age by when files are removed from the cache.
@@ -163,7 +163,7 @@ Gets the age by when files are removed from the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getrecord">GetRecord</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getrecord">GetRecord</a>
 </td>
 <td align="left" width="63%">
 Gets a record from the cache.
@@ -172,7 +172,7 @@ Gets a record from the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setconfigurationflags">SetConfigurationFlags</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setconfigurationflags">SetConfigurationFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the configuration flags that determine whether the computer serves content to peers and can download content from peers.
@@ -181,7 +181,7 @@ Sets the configuration flags that determine whether the computer serves content 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcachesize">SetMaximumCacheSize</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcachesize">SetMaximumCacheSize</a>
 </td>
 <td align="left" width="63%">
 Specifies the maximum size of the cache.
@@ -190,7 +190,7 @@ Specifies the maximum size of the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcontentage">SetMaximumContentAge</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcontentage">SetMaximumContentAge</a>
 </td>
 <td align="left" width="63%">
 Specifies when files are removed from the cache based on age.
@@ -207,9 +207,8 @@ You must have administrator privileges to modify the cache.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/administering-the-peer-cache">Administering the Peer Cache</a>
+<a href="/windows/desktop/Bits/administering-the-peer-cache">Administering the Peer Cache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Bits/peer-caching">Peer Caching</a>
-
+<a href="/windows/desktop/Bits/peer-caching">Peer Caching</a>

@@ -56,7 +56,7 @@ The <b>SupplyDataBuffer</b> method provides a buffer for the <b>Mpeg2Stream</b> 
 
 ### -param pStreamBuffer [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_stream_buffer">MPEG_STREAM_BUFFER</a> structure allocated by the caller. This structure contains a pointer to the buffer, also allocated by the caller. The buffer must be at least 4096 bytes.
+Pointer to an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_stream_buffer">MPEG_STREAM_BUFFER</a> structure allocated by the caller. This structure contains a pointer to the buffer, also allocated by the caller. The buffer must be at least 4096 bytes.
 
 ## -returns
 
@@ -115,7 +115,7 @@ Failure.
 
 ## -remarks
 
-The first time this method is called, it starts a worker thread that streams data to the buffer. When the data arrives, the <b>MPEG2Stream</b> object signals the event that was passed to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2stream-initialize">IMpeg2Stream::Initialize</a> method. (Typically an application specifies the event handle when it calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getstreamofsections">IMpeg2Data::GetStreamOfSections</a>.)
+The first time this method is called, it starts a worker thread that streams data to the buffer. When the data arrives, the <b>MPEG2Stream</b> object signals the event that was passed to the <a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2stream-initialize">IMpeg2Stream::Initialize</a> method. (Typically an application specifies the event handle when it calls <a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getstreamofsections">IMpeg2Data::GetStreamOfSections</a>.)
 
 When the event is signaled, examine the <b>hr</b> field of the <b>MPEG_STREAM_BUFFER</b> structure. If this value is a success code, the request was successful and the buffer contains valid data. To get more data, call the <b>SupplyDataBuffer</b> method again and wait for the event to be signaled.
 
@@ -125,5 +125,4 @@ If the object is still waiting for data, this method returns E_FAIL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2stream">IMpeg2Stream Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2stream">IMpeg2Stream Interface</a>

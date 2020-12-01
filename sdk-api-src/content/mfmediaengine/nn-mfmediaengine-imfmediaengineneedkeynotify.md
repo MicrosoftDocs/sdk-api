@@ -54,7 +54,7 @@ Represents a callback to the media engine to notify key request data.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineNeedKeyNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineNeedKeyNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineNeedKeyNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineNeedKeyNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFMediaEngineNeedKeyNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineneedkeynotify-needkey">NeedKey</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineneedkeynotify-needkey">NeedKey</a>
 </td>
 <td align="left" width="63%">
 Notifies the application that a key or keys are needed along with any initialization data.
@@ -80,5 +80,4 @@ Notifies the application that a key or keys are needed along with any initializa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

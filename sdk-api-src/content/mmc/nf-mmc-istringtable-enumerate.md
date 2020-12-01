@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IStringTable::Enumerate</b> method supplies a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> interface on an enumerator that can return the strings in a snap-in's string table. The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> interface is a standard COM interface.
+The <b>IStringTable::Enumerate</b> method supplies a pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> interface on an enumerator that can return the strings in a snap-in's string table. The <a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> interface is a standard COM interface.
 
 ## -parameters
 
 ### -param ppEnum [out]
 
-The address of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>* pointer variable that receives the interface pointer to the enumerator. If an error occurs, *<i>ppEnum</i> is set to <b>NULL</b>. If *<i>ppEnum </i>is non-<b>NULL</b>, MMC's implementation of <b>IEnumString</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> on the *<i>ppEnum</i>. The snap-in must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> when the interface is no longer required.
+The address of <a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>* pointer variable that receives the interface pointer to the enumerator. If an error occurs, *<i>ppEnum</i> is set to <b>NULL</b>. If *<i>ppEnum </i>is non-<b>NULL</b>, MMC's implementation of <b>IEnumString</b> calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> on the *<i>ppEnum</i>. The snap-in must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> when the interface is no longer required.
 
 ## -returns
 
@@ -64,15 +64,14 @@ This method can return one of these values.
 
 ## -remarks
 
-The returned <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> enumeration represents a snapshot of the collection of strings in the underlying string table the time that the enumeration was retrieved. Neither <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumstring-reset">IEnumString::Reset</a>, nor IEnumString::Clone takes a new snapshot of the collection.
+The returned <a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> enumeration represents a snapshot of the collection of strings in the underlying string table the time that the enumeration was retrieved. Neither <a href="/windows/desktop/api/objidl/nf-objidl-ienumstring-reset">IEnumString::Reset</a>, nor IEnumString::Clone takes a new snapshot of the collection.
 
-The implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> uses the default OLE task memory allocator to allocate memory for the strings it returns.
+The implementation of <a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a> uses the default OLE task memory allocator to allocate memory for the strings it returns.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-istringtable">IStringTable</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-istringtable">IStringTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-istringtable-findstring">IStringTable::FindString</a>
-
+<a href="/windows/desktop/api/mmc/nf-mmc-istringtable-findstring">IStringTable::FindString</a>

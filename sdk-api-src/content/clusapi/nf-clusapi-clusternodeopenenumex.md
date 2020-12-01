@@ -60,7 +60,7 @@ A handle to the  node.
 ### -param dwType [in]
 
 A bitmask that describes the type of objects to enumerate. This parameter  is retrieved from a 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_node_enum">CLUSTER_NODE_ENUM</a> enumeration value.
+       <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_node_enum">CLUSTER_NODE_ENUM</a> enumeration value.
 
 ### -param pOptions [in, optional] [in, optional]
 
@@ -73,9 +73,8 @@ If the operation succeeds,
        enumerator.
 
 If the operation fails, the function returns <b>NULL</b>. For more information about the 
-       error, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+       error, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>

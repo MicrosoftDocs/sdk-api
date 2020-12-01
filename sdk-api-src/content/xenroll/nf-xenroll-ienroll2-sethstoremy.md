@@ -53,7 +53,7 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>SetHStoreMy</b> method specifies the handle to use for the MY store. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
+The <b>SetHStoreMy</b> method specifies the handle to use for the MY store. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
 
 ## -parameters
 
@@ -67,9 +67,8 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a>

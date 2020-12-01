@@ -51,16 +51,16 @@ api_name:
 ## -description
 
 This operation starts writing an attribute to the current element.
-      <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartelement">WsWriteStartElement</a> must be called before an attribute can be written.
+      <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartelement">WsWriteStartElement</a> must be called before an attribute can be written.
       After the attribute has been started, the attribute value can be written
-        using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebytes">WsWriteBytes</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a>. The attribute must
-        be completed using using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a>.
+        using <a href="/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wswritebytes">WsWriteBytes</a>, or <a href="/windows/desktop/api/webservices/nf-webservices-wswritevalue">WsWriteValue</a>. The attribute must
+        be completed using using <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a>.
 
 ## -parameters
 
 ### -param writer [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the attribute is written.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the attribute is written.  The pointer must reference a valid <b>XML Writer</b> object.
 
 ### -param prefix [in, optional]
 
@@ -89,7 +89,7 @@ Determines whether to use a single or a double quote for the attribute value.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -155,10 +155,9 @@ To write an "xml:lang"  or "xml:space" attribute, specify "xml" for the prefix, 
         and "http://www.w3.org/XML/1998/namespace" for the namespace.
       
 
-If writing the attribute causes <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES</a> to be exceeded
+If writing the attribute causes <a href="/windows/desktop/api/webservices/ne-webservices-ws_xml_writer_property_id">WS_XML_WRITER_PROPERTY_MAX_ATTRIBUTES</a> to be exceeded
         then <b>WS_E_QUOTA_EXCEEDED</b> is returned.
       
 
 If a non-empty prefix is specified with an empty namespace <b>WS_E_INVALID_FORMAT</b> is returned.
-      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
-
+      (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)

@@ -52,7 +52,7 @@ api_name:
 
 Sets the current file system cache size.
 
-As of Windows Server 2003 with Service Pack 1 (SP1), this function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-setsystemfilecachesize">SetSystemFileCacheSize</a> function.
+As of Windows Server 2003 with Service Pack 1 (SP1), this function has been superseded by the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-setsystemfilecachesize">SetSystemFileCacheSize</a> function.
 
 ## -parameters
 
@@ -72,15 +72,14 @@ This parameter is reserved for future use and must be zero.
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
-If the function fails, the return value is <b>FALSE</b>. To retrieve extended information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>FALSE</b>. To retrieve extended information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/aux_ulib/nf-aux_ulib-auxulibinitialize">AuxUlibInitialize</a> function before calling this function.
+You must call the <a href="/windows/desktop/api/aux_ulib/nf-aux_ulib-auxulibinitialize">AuxUlibInitialize</a> function before calling this function.
 
 The caller must have enabled the SE_INCREASE_QUOTA_NAME privilege in the active token.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aux_ulib/nf-aux_ulib-auxulibinitialize">AuxUlibInitialize</a>
-
+<a href="/windows/desktop/api/aux_ulib/nf-aux_ulib-auxulibinitialize">AuxUlibInitialize</a>

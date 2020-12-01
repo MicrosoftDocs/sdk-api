@@ -56,6 +56,8 @@ Specifies the attributes of a recognizer. You also use this enumeration to deter
 
 ### -field IRC_DontCare
 
+Ignores all other flags that are set.
+
 ### -field IRC_Object
 
 The recognizer performs object recognition; otherwise, the recognizer performs text recognition.
@@ -126,9 +128,8 @@ The recognizer supports personalization.
 
 ### -field IRC_Beta
 
-#### - [Hidden] IRC_DontCare
 
-Ignores all other flags that are set.
+
 
 ## -remarks
 
@@ -136,13 +137,12 @@ This enumeration is a flag.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_capabilities">Capabilities Property [IInkRecognizer Interface]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer-get_capabilities">Capabilities Property [IInkRecognizer Interface]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_guide">Guide Property [InkRecognizerContext Class]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_guide">Guide Property [InkRecognizerContext Class]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer">IInkRecognizer Interface</a>

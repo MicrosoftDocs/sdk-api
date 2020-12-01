@@ -51,16 +51,16 @@ api_name:
 ## -description
 
 The <b>CreateSecurityPage</b> function creates a 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/basic-security-property-page">basic security property page</a> that enables the user to view and edit the access rights allowed or denied by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in an object's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL). Use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function or the 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/psm-addpage">PSM_ADDPAGE</a> message to add this page to a property sheet.
+<a href="/windows/desktop/SecAuthZ/basic-security-property-page">basic security property page</a> that enables the user to view and edit the access rights allowed or denied by the <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in an object's <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL). Use the 
+<a href="/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function or the 
+<a href="/windows/desktop/Controls/psm-addpage">PSM_ADDPAGE</a> message to add this page to a property sheet.
 
 ## -parameters
 
 ### -param psi [in]
 
 A pointer to your implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> interface. The system calls the interface methods to retrieve information about the object being edited and to return the user's input.
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> interface. The system calls the interface methods to retrieve information about the object being edited and to return the user's input.
 
 ## -returns
 
@@ -68,46 +68,45 @@ If the function succeeds, the function returns a handle to a basic security prop
 						
 
 If the function fails, it returns <b>NULL</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 During the property page initialization, the system calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getsecurity">ISecurityInformation::GetSecurity</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">ISecurityInformation::SetSecurity</a> methods to determine whether the user has permission to edit the object's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>. The system displays an error message if the user does not have permission.
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getsecurity">ISecurityInformation::GetSecurity</a> and 
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">ISecurityInformation::SetSecurity</a> methods to determine whether the user has permission to edit the object's <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a>. The system displays an error message if the user does not have permission.
 
 The basic security property page can include an <b>Advanced</b> button for displaying the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/advanced-security-property-sheet">advanced security property sheet</a>. This advanced security property sheet can contain three additional property pages that enable the user to view and edit the object's DACL, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL), and owner.
+<a href="/windows/desktop/SecAuthZ/advanced-security-property-sheet">advanced security property sheet</a>. This advanced security property sheet can contain three additional property pages that enable the user to view and edit the object's DACL, <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL), and owner.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
+<a href="/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-editsecurity">EditSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getsecurity">GetSecurity</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getsecurity">GetSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/psm-addpage">PSM_ADDPAGE</a>
+<a href="/windows/desktop/Controls/psm-addpage">PSM_ADDPAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a>
+<a href="/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">SetSecurity</a>
-
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">SetSecurity</a>

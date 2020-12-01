@@ -56,7 +56,7 @@ Describes the input-buffer data for the input-assembler stage.
 
 ### -field pInputElementDescs
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_input_element_desc">D3D12_INPUT_ELEMENT_DESC</a> structures that describe the data types of the input-assembler stage.
+An array of <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_input_element_desc">D3D12_INPUT_ELEMENT_DESC</a> structures that describe the data types of the input-assembler stage.
 
 ### -field NumElements
 
@@ -64,9 +64,8 @@ The number of input-data types in the array of input elements that the <b>pInput
 
 ## -remarks
 
-This structure is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> structure.
+This structure is a member of the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

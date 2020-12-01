@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>ACDQUEUE_EVENT</b> enum describes ACD queue events. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueueevent-get_event">ITQueueEvent::get_Event</a> method returns a member of this enum to indicate the type of ACD queue event that occurred.
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itqueueevent-get_event">ITQueueEvent::get_Event</a> method returns a member of this enum to indicate the type of ACD queue event that occurred.
 
 ## -enum-fields
 
@@ -66,13 +66,12 @@ An ACD queue has been removed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallnotificationevent-get_event">ITCallNotificationEvent::get_Event</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallnotificationevent-get_event">ITCallNotificationEvent::get_Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itqueueevent-get_event">ITQueueEvent::get_Event</a>
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itqueueevent-get_event">ITQueueEvent::get_Event</a>

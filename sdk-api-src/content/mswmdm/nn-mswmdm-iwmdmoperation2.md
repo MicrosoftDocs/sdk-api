@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The optional, application-implemented <b>IWMDMOperation2</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation</a> by providing methods to get and set extended attributes.
+The optional, application-implemented <b>IWMDMOperation2</b> interface extends <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation</a> by providing methods to get and set extended attributes.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMOperation2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation</a>. <b>IWMDMOperation2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMOperation2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation</a>. <b>IWMDMOperation2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMDMOperation2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation2-getobjectattributes2">GetObjectAttributes2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation2-getobjectattributes2">GetObjectAttributes2</a>
 </td>
 <td align="left" width="63%">
 Allows the application to specify attributes for an object being written to a device.
@@ -78,7 +78,7 @@ Allows the application to specify attributes for an object being written to a de
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation2-setobjectattributes2">SetObjectAttributes2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation2-setobjectattributes2">SetObjectAttributes2</a>
 </td>
 <td align="left" width="63%">
 Sets attributes of files or storages. This method is currently not called by Windows Media Device Manager.
@@ -89,17 +89,16 @@ Sets attributes of files or storages. This method is currently not called by Win
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
+<a href="/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation3">IWMDMOperation3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation3">IWMDMOperation3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Provides methods to create Advanced Systems Format (ASF) data packets. The methods of this interface process input samples into the packets that make up an ASF data section. The ASF multiplexer exposes this interface. To create the ASF multiplexer, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfmultiplexer">MFCreateASFMultiplexer</a>.
+Provides methods to create Advanced Systems Format (ASF) data packets. The methods of this interface process input samples into the packets that make up an ASF data section. The ASF multiplexer exposes this interface. To create the ASF multiplexer, call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfmultiplexer">MFCreateASFMultiplexer</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFMultiplexer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFASFMultiplexer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFMultiplexer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFASFMultiplexer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFASFMultiplexer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-end">End</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-end">End</a>
 </td>
 <td align="left" width="63%">
 Collects data from the multiplexer and updates the ASF ContentInfo object to include that information.
@@ -79,7 +79,7 @@ Collects data from the multiplexer and updates the ASF ContentInfo object to inc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-flush">Flush</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-flush">Flush</a>
 </td>
 <td align="left" width="63%">
 Signals the multiplexer to process all queued samples. Call this method after passing the last sample to the multiplexer.
@@ -88,7 +88,7 @@ Signals the multiplexer to process all queued samples. Call this method after pa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getflags">GetFlags</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves flags indicating the configured multiplexer options.
@@ -97,7 +97,7 @@ Retrieves flags indicating the configured multiplexer options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket">GetNextPacket</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getnextpacket">GetNextPacket</a>
 </td>
 <td align="left" width="63%">
 Retrieves the next output ASF packet from the multiplexer.
@@ -106,7 +106,7 @@ Retrieves the next output ASF packet from the multiplexer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getstatistics">GetStatistics</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-getstatistics">GetStatistics</a>
 </td>
 <td align="left" width="63%">
 Retrieves multiplexer statistics.
@@ -115,7 +115,7 @@ Retrieves multiplexer statistics.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-initialize">Initialize</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the multiplexer with the data from an ASF ContentInfo object.
@@ -124,7 +124,7 @@ Initializes the multiplexer with the data from an ASF ContentInfo object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample">ProcessSample</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-processsample">ProcessSample</a>
 </td>
 <td align="left" width="63%">
 Delivers input samples to the multiplexer.
@@ -133,7 +133,7 @@ Delivers input samples to the multiplexer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-setflags">SetFlags</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets multiplexer options.
@@ -142,7 +142,7 @@ Sets multiplexer options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-setsynctolerance">SetSyncTolerance</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmultiplexer-setsynctolerance">SetSyncTolerance</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum time by which samples from various streams can be out of synchronization.
@@ -153,9 +153,8 @@ Sets the maximum time by which samples from various streams can be out of synchr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-multiplexer">ASF Multiplexer</a>
+<a href="/windows/desktop/medfound/asf-multiplexer">ASF Multiplexer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

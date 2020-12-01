@@ -67,37 +67,37 @@ One of the following values that specify the property to retrieve.
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-displayname">PKEY_Identity_DisplayName</a>
+<a href="/windows/desktop/properties/props-system-identity-displayname">PKEY_Identity_DisplayName</a>
 </td>
 <td>Logon and credential UI</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-username">PKEY_Identity_UserName</a>
+<a href="/windows/desktop/properties/props-system-identity-username">PKEY_Identity_UserName</a>
 </td>
 <td>Logon and credential UI</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-qualifiedusername">PKEY_Identity_QualifiedUserName</a>
+<a href="/windows/desktop/properties/props-system-identity-qualifiedusername">PKEY_Identity_QualifiedUserName</a>
 </td>
 <td>Logon and credential UI</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-logonstatusstring">PKEY_Identity_LogonStatusString</a>
+<a href="/windows/desktop/properties/props-system-identity-logonstatusstring">PKEY_Identity_LogonStatusString</a>
 </td>
 <td>Logon UI only</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-primarysid">PKEY_Identity_PrimarySid</a>
+<a href="/windows/desktop/properties/props-system-identity-primarysid">PKEY_Identity_PrimarySid</a>
 </td>
 <td>Logon and credential UI</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/properties/props-system-identity-providerid">PKEY_Identity_ProviderID</a>
+<a href="/windows/desktop/properties/props-system-identity-providerid">PKEY_Identity_ProviderID</a>
 </td>
 <td>Logon and credential UI</td>
 </tr>
@@ -113,13 +113,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The PKEY_Identity_DisplayName, PKEY_Identity_UserName, PKEY_Identity_QualifiedUserName, and PKEY_Identity_LogonStatusString values can be retrieved directly as strings through the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getstringvalue">GetStringValue</a> method.
+The PKEY_Identity_DisplayName, PKEY_Identity_UserName, PKEY_Identity_QualifiedUserName, and PKEY_Identity_LogonStatusString values can be retrieved directly as strings through the <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getstringvalue">GetStringValue</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruser">ICredentialProviderUser</a>
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruser">ICredentialProviderUser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getstringvalue">ICredentialProviderUser::GetStringValue</a>
-
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getstringvalue">ICredentialProviderUser::GetStringValue</a>

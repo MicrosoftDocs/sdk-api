@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRARC, </b><b>EMRARCTO, </b><b>EMRCHORD, </b> and <b>EMRPIE</b> structures contain members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arc">Arc</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arcto">ArcTo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-chord">Chord</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-pie">Pie</a> enhanced metafile records.
+The <b>EMRARC, </b><b>EMRARCTO, </b><b>EMRCHORD, </b> and <b>EMRPIE</b> structures contain members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-arc">Arc</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-arcto">ArcTo</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-chord">Chord</a>, and <a href="/windows/desktop/api/wingdi/nf-wingdi-pie">Pie</a> enhanced metafile records.
 
 ## -struct-fields
 
@@ -76,9 +76,8 @@ Coordinates of second radial ending point in logical units.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

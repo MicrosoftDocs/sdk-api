@@ -50,7 +50,8 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+> [!Note]  
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 Sets the catalog state for backup or other purposes.
 
@@ -66,7 +67,7 @@ A pointer to the name of the computer where the catalog exists; for example, L".
 
 ### -param dwNewState
 
-The state of the catalog. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/cicat-constants">CICAT_* Constants</a>.
+The state of the catalog. See <a href="/previous-versions/windows/desktop/indexsrv/cicat-constants">CICAT_* Constants</a>.
 
 ### -param pdwOldState
 
@@ -169,5 +170,4 @@ For examples of changes in a catalog's state, see the ChgState sample in the Pla
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntquery/nf-ntquery-locatecatalogsa">LocateCatalogs</a>
-
+<a href="/previous-versions/windows/desktop/indexsrv/locating-the-catalog-for-the-selected-scope">LocateCatalogs</a>

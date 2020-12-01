@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-The <b>IMSVidOutputDevice</b> interface represents an output device. This interface derives from the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice</a> interface but adds no methods to it. It exists to support polymorphism.
+The <b>IMSVidOutputDevice</b> interface represents an output device. This interface derives from the <a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice</a> interface but adds no methods to it. It exists to support polymorphism.
 
-Output devices include audio and video renderers, and the Stream Buffer Sink object. Video renderers expose the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a> interface, and audio renderers exposes the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidaudiorenderer">IMSVidAudioRenderer</a> interface, both of which derive from <b>IMSVidOutputDevice</b>.
+Output devices include audio and video renderers, and the Stream Buffer Sink object. Video renderers expose the <a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer</a> interface, and audio renderers exposes the <a href="/previous-versions/windows/desktop/mstv/msvidaudiorenderer">IMSVidAudioRenderer</a> interface, both of which derive from <b>IMSVidOutputDevice</b>.
 
 ## -remarks
 
@@ -60,9 +60,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice</a>
+<a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

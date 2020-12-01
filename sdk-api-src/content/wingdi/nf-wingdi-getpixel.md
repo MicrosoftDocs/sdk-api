@@ -72,33 +72,32 @@ The y-coordinate, in logical units, of the pixel to be examined.
 
 ## -returns
 
-The return value is the <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that specifies the RGB of the pixel. If the pixel is outside of the current clipping region, the return value is CLR_INVALID (0xFFFFFFFF defined in Wingdi.h).
+The return value is the <a href="/windows/desktop/gdi/colorref">COLORREF</a> value that specifies the RGB of the pixel. If the pixel is outside of the current clipping region, the return value is CLR_INVALID (0xFFFFFFFF defined in Wingdi.h).
 
 ## -remarks
 
 The pixel must be within the boundaries of the current clipping region.
 
-Not all devices support <b>GetPixel</b>. An application should call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> to determine whether a specified device supports this function.
+Not all devices support <b>GetPixel</b>. An application should call <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> to determine whether a specified device supports this function.
 
 A bitmap must be selected within the device context, otherwise, CLR_INVALID is returned on all pixels.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixel">SetPixel</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setpixel">SetPixel</a>

@@ -61,9 +61,8 @@ S_OK is returned on success, but other success codes may be returned as a result
 ## -remarks
 
 An application should respond by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-enumdiscrecorders">IDiscMaster::EnumDiscRecorders</a> to update its list of valid recorders. If the current active recorder has been invalidated, then a new recorder should be chosen.
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscmaster-enumdiscrecorders">IDiscMaster::EnumDiscRecorders</a> to update its list of valid recorders. If the current active recorder has been invalidated, then a new recorder should be chosen.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>
-
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>

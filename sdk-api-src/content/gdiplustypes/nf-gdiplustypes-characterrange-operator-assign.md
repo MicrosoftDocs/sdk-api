@@ -51,35 +51,34 @@ api_name:
 
 ## -description
 
-The <b>CharacterRange::operator=</b> method sets this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a> object equal to the specified <b>CharacterRange</b> object.
+The <b>CharacterRange::operator=</b> method sets this <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a> object equal to the specified <b>CharacterRange</b> object.
 
 ## -parameters
 
 ### -param rhs [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a></b>
+Type: <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a></b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a> object that is assigned to this <b>CharacterRange</b> object.
+Reference to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a> object that is assigned to this <b>CharacterRange</b> object.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a></b>
 
-This method returns a reference to this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a> object to allow cascaded assignments.
+This method returns a reference to this <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a> object to allow cascaded assignments.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getmeasurablecharacterrangecount">GetMeasurableCharacterRangeCount</a>
+<a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getmeasurablecharacterrangecount">GetMeasurableCharacterRangeCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">SetMeasurableCharacterRanges</a>
-
+<a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">SetMeasurableCharacterRanges</a>

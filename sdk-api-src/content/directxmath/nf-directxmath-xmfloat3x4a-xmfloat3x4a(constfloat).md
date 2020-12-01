@@ -91,5 +91,4 @@ mat.m[2, 3] = pArray[11];
 
 ## -see-also
 
-[XMFLOAT3X4A structure](/windows/win32/api/directxmath/ns-directxmath-xmfloat3x4a)
-
+[XMFLOAT3X4A structure](./ns-directxmath-xmfloat3x4a.md)

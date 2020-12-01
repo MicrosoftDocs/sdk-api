@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class constructor overload method takes a <b>BSTR</b> parameter.
+The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> class constructor overload method takes a <b>BSTR</b> parameter.
 
 ## -parameters
 
@@ -67,23 +67,23 @@ The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTim
 
 <b>BSTR</b> in Date and Time Format. The <b>BSTR</b> is converted to GMT.
 
-Now when you use <a href="https://docs.microsoft.com/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getdmtf">WBEMTime::GetDMTF</a> to retrieve it you have only two choices:
+Now when you use <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getdmtf">WBEMTime::GetDMTF</a> to retrieve it you have only two choices:
 
 <ul>
 <li>Get as Local Time</li>
 <li>Get as GMT</li>
 </ul>
-At this point, the actual offset used in the <b>BSTR</b> to build the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object has been lost.
+At this point, the actual offset used in the <b>BSTR</b> to build the <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object has been lost.
 
 ## -remarks
 
-If you use the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a>( <b>BSTR</b> <i>bstrDMTFFormat</i>) form of the constructor, you can only retrieve the time in one of these ways:
+If you use the <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a>( <b>BSTR</b> <i>bstrDMTFFormat</i>) form of the constructor, you can only retrieve the time in one of these ways:
 
 <ul>
 <li>Get as Local Time</li>
 <li>Get as GMT</li>
 </ul>
-The actual offset used in the <b>BSTR</b> to build the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object has been lost.
+The actual offset used in the <b>BSTR</b> to build the <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object has been lost.
 
 Should an "*" appear in any location in the inbound datetime string <i>bstrDMTFFormat</i>, the * is replaced on a positional basis with the default datetime string "16010101000000.000000+000".
 
@@ -92,4 +92,3 @@ The microsecond separator "." and UTC offset sign "+/-" must be present in the c
 Example: "1979**********.000000+000"  appears as "197910101000000.000000+000".
 
 "1979**********.000000+0*1" converts to "197910101000000.000000+001". Note the "*" in the UTC offset changes to 0 in the second position. On reading this datetime field the resulting UTC of 001 impacts the minute field to yield "197910100000000.000000+000".
-

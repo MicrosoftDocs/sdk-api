@@ -64,24 +64,23 @@ Type of information to be modified. The caller can specify AuthzContextInfoGroup
 
 ### -param pSidOperations [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/authz/ne-authz-authz_sid_operation">AUTHZ_SID_OPERATION</a> enumeration values that specify the group modifications to make.
+A pointer to an array of <a href="/windows/desktop/api/authz/ne-authz-authz_sid_operation">AUTHZ_SID_OPERATION</a> enumeration values that specify the group modifications to make.
 
 ### -param pSids [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that specifies the groups to modify.
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure that specifies the groups to modify.
 
 ## -returns
 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/authz/ne-authz-authz_sid_operation">AUTHZ_SID_OPERATION</a> enumeration must have only one element if the value of that element is AUTHZ_SID_OPERATION_REPLACE_ALL. Otherwise, the array has the same number of elements as the corresponding 
+The <a href="/windows/desktop/api/authz/ne-authz-authz_sid_operation">AUTHZ_SID_OPERATION</a> enumeration must have only one element if the value of that element is AUTHZ_SID_OPERATION_REPLACE_ALL. Otherwise, the array has the same number of elements as the corresponding 
 PTOKEN_GROUPS.
 
 
 When you want to use <b>AuthzModifySids</b> to delete, the SIDs are matched but not the SID flags. If no matching SID is found, no modifications are done and the call fails.
-

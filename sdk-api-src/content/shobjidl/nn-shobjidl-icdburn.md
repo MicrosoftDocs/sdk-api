@@ -54,7 +54,7 @@ Exposes methods that determine whether a system has hardware for writing to CD, 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICDBurn</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICDBurn</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICDBurn</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICDBurn</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICDBurn</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-icdburn-burn">Burn</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-icdburn-burn">Burn</a>
 </td>
 <td align="left" width="63%">
 Instructs data to be copied from the staging area to a writable CD.
@@ -78,7 +78,7 @@ Instructs data to be copied from the staging area to a writable CD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-icdburn-getrecorderdriveletter">GetRecorderDriveLetter</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-icdburn-getrecorderdriveletter">GetRecorderDriveLetter</a>
 </td>
 <td align="left" width="63%">
 Gets the drive letter of a CD drive that has been marked as write-enabled.
@@ -87,7 +87,7 @@ Gets the drive letter of a CD drive that has been marked as write-enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-icdburn-hasrecordabledrive">HasRecordableDrive</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-icdburn-hasrecordabledrive">HasRecordableDrive</a>
 </td>
 <td align="left" width="63%">
 Scans the system for a CD drive with write-capability, returning <b>TRUE</b> if one is found.
@@ -95,4 +95,3 @@ Scans the system for a CD drive with write-capability, returning <b>TRUE</b> if 
 </td>
 </tr>
 </table>
-

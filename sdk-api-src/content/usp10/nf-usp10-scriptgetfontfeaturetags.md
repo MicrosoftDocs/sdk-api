@@ -59,21 +59,21 @@ Retrieves a list of typographic features for the defined writing system for Open
 
 ### -param hdc [in, optional]
 
-Handle to the device context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>.
+Handle to the device context. For more information, see <a href="/windows/desktop/Intl/caching">Caching</a>.
 
 ### -param psc [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
+Pointer to a <a href="/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
 
 ### -param psa [in, optional]
 
-Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine, so that the font feature tags for the appropriate font and scripts can be retrieved.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine, so that the font feature tags for the appropriate font and scripts can be retrieved.
 
 Alternatively, the application can set this parameter to <b>NULL</b> to retrieve unfiltered results.
 
 ### -param tagScript [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the script tag associated with the specified feature tags.
+An <a href="/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure defining the script tag associated with the specified feature tags.
 
 ### -param tagLangSys [in]
 
@@ -99,7 +99,7 @@ If the number of matching tags exceeds the value of <i>cMaxTags</i>, the functio
 
 ## -remarks
 
-While formally declared as a ULONG type, an <a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure contains a 4-byte array that contains four 8-bit ASCII values of space, A-Z, or a-z. For example, the feature tag for the Ligature feature is "liga".
+While formally declared as a ULONG type, an <a href="/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure contains a 4-byte array that contains four 8-bit ASCII values of space, A-Z, or a-z. For example, the feature tag for the Ligature feature is "liga".
 
 This function hides script-required or language-required features because the shaping engine controls these features. The application has no control over the shaping engine handling for language-required features. For example, <b>ScriptGetFontFeatureTags</b> hides the Arabic script features for initial, medial, and final forms.
 
@@ -108,11 +108,11 @@ This function hides script-required or language-required features because the sh
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>
+<a href="/windows/desktop/Intl/caching">Caching</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a>
+<a href="/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a>
 
 
 
@@ -120,17 +120,16 @@ This function hides script-required or language-required features because the sh
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a>
+<a href="/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

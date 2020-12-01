@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>IOCTL_EMI_GET_METADATA_SIZE</b> 
-   control code retrieves the size of the  EMI metadata object that can be obtained from the device by issuing an <a href="https://docs.microsoft.com/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a> request.
+   control code retrieves the size of the  EMI metadata object that can be obtained from the device by issuing an <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_metadata">IOCTL_EMI_GET_METADATA</a> request.
 
 ## -ioctlparameters
 
@@ -85,9 +85,8 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>
-
+<a href="/windows-hardware/drivers/powermeter/energy-meter-interface">Energy Metering Interface</a>

@@ -134,5 +134,4 @@ Signal strength, in this context, is measured on a linear scale. When <i>puStren
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>

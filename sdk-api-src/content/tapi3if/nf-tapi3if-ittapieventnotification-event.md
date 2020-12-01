@@ -57,7 +57,7 @@ The
 
 ### -param TapiEvent [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> indicator of the event.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> indicator of the event.
 
 ### -param pEvent [in]
 
@@ -110,21 +110,20 @@ Insufficient memory exists to perform the operation.
 ## -remarks
 
 You must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">ITTAPI::put_EventFilter</a> method to set the event filter mask and enable reception of events. If you do not call <b>ITTAPI::put_EventFilter</b>, your application will not receive any events.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">ITTAPI::put_EventFilter</a> method to set the event filter mask and enable reception of events. If you do not call <b>ITTAPI::put_EventFilter</b>, your application will not receive any events.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Events overview</a>
+<a href="/windows/desktop/Tapi/events">Events overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapieventnotification">ITTAPIEventNotification</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapieventnotification">ITTAPIEventNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/register-events">Register Events code snippet</a>
+<a href="/windows/desktop/Tapi/register-events">Register Events code snippet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
-
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>

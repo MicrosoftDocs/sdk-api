@@ -61,7 +61,7 @@ Retrieves information about the file system and volume associated with the speci
     file.
 
 To retrieve the current compression state of a file or directory, use 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_compression">FSCTL_GET_COMPRESSION</a>.
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_compression">FSCTL_GET_COMPRESSION</a>.
 
 ## -parameters
 
@@ -90,7 +90,7 @@ This parameter can be <b>NULL</b> if the serial number is not required.
 This function returns the volume serial number that the operating system assigns when a hard disk is 
        formatted. To programmatically obtain the hard disk's serial number that the manufacturer assigns, use the 
        Windows Management Instrumentation (WMI) 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/cimwin32a/win32-physicalmedia">Win32_PhysicalMedia</a> property 
+       <a href="/previous-versions/windows/desktop/cimwin32a/win32-physicalmedia">Win32_PhysicalMedia</a> property 
        <b>SerialNumber</b>.
 
 ### -param lpMaximumComponentLength [out, optional]
@@ -204,7 +204,7 @@ The specified volume supports a single sequential write.
 </td>
 <td width="60%">
 The specified volume supports the Encrypted File System (EFS). For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>.
+        <a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>.
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ The specified volume supports extended attributes. An extended attribute is a pi
 </td>
 <td width="60%">
 The specified volume supports hard links. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/FileIO/hard-links-and-junctions">Hard Links and Junctions</a>.
+        <a href="/windows/desktop/FileIO/hard-links-and-junctions">Hard Links and Junctions</a>.
 
 <b>Windows Vista and Windows Server 2008:  </b>This value is not supported.
 
@@ -255,7 +255,7 @@ The specified volume supports object identifiers.
 </td>
 <td width="60%">
 The file system supports open by FileID. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_both_dir_info">FILE_ID_BOTH_DIR_INFO</a>.
+        <a href="/windows/desktop/api/winbase/ns-winbase-file_id_both_dir_info">FILE_ID_BOTH_DIR_INFO</a>.
 
 <b>Windows Vista and Windows Server 2008:  </b>This value is not supported.
 
@@ -291,7 +291,7 @@ The specified volume supports sparse files.
 </td>
 <td width="60%">
 The specified volume supports transactions. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/Ktm/about-ktm">About KTM</a>.
+        <a href="/windows/desktop/Ktm/about-ktm">About KTM</a>.
 
 </td>
 </tr>
@@ -303,7 +303,7 @@ The specified volume supports transactions. For more information, see
 </td>
 <td width="60%">
 The specified volume supports update sequence number (USN) journals. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/FileIO/change-journal-records">Change Journal Records</a>.
+        <a href="/windows/desktop/FileIO/change-journal-records">Change Journal Records</a>.
 
 <b>Windows Vista and Windows Server 2008:  </b>This value is not supported.
 
@@ -342,6 +342,17 @@ The specified volume supports disk quotas.
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="FILE_SUPPORTS_BLOCK_REFCOUNTING"></a><a id="file_supports_block_refcounting"></a><dl>
+<dt><b>FILE_SUPPORTS_BLOCK_REFCOUNTING</b></dt>
+<dt>0x08000000</dt>
+</dl>
+</td>
+<td width="60%">
+The specified volume supports sharing logical clusters between files on the same volume. The file system reallocates on writes to shared clusters. Indicates that FSCTL_DUPLICATE_EXTENTS_TO_FILE is a supported operation.
+
+</td>
+</tr>
 </table>
 
 ### -param lpFileSystemNameBuffer [out, optional]
@@ -362,7 +373,7 @@ This parameter is ignored if the file system name buffer is not supplied.
 If all the requested information is retrieved, the return value is nonzero.
 
 If not all the requested information is retrieved, the return value is zero. To get extended error 
-       information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -430,33 +441,32 @@ SMB does not support volume management functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/about-ktm">About KTM</a>
+<a href="/windows/desktop/Ktm/about-ktm">About KTM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getcompressedfilesizea">GetCompressedFileSize</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getcompressedfilesizea">GetCompressedFileSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-seterrormode">SetErrorMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setvolumelabela">SetVolumeLabel</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setvolumelabela">SetVolumeLabel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

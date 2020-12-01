@@ -72,5 +72,4 @@ Specifies the value of the attribute.  This
 
 ## -remarks
 
-This structure is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_any_attributes">WS_ANY_ATTRIBUTES</a>.
-
+This structure is used with <a href="/windows/desktop/api/webservices/ns-webservices-ws_any_attributes">WS_ANY_ATTRIBUTES</a>.

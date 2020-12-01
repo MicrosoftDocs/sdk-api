@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets a string from a list in a combo box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getlbtext">CB_GETLBTEXT</a> message explicitly.
+Gets a string from a list in a combo box. You can use this macro or send the <a href="/windows/desktop/Controls/cb-getlbtext">CB_GETLBTEXT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,11 +68,10 @@ The zero-based index of the item.
 
 ### -param lpszBuffer
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
-A pointer to the buffer that will receive the string. The buffer must have sufficient space for the string and a terminating null character. Before allocating the buffer, you can call <a href="https://docs.microsoft.com/windows/desktop/api/windowsx/nf-windowsx-combobox_getlbtextlen">ComboBox_GetLBTextLen</a> to retrieve the length of the string.
+A pointer to the buffer that will receive the string. The buffer must have sufficient space for the string and a terminating null character. Before allocating the buffer, you can call <a href="/windows/desktop/api/windowsx/nf-windowsx-combobox_getlbtextlen">ComboBox_GetLBTextLen</a> to retrieve the length of the string.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getlbtext">CB_GETLBTEXT</a>.
-
+For more information, see <a href="/windows/desktop/Controls/cb-getlbtext">CB_GETLBTEXT</a>.

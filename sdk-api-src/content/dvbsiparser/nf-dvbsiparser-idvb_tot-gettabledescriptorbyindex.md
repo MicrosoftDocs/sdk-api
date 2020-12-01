@@ -61,11 +61,11 @@ The <b>GetTableDescriptorByIndex</b> method retrieves a descriptor for the TOT.
 
 ### -param dwIndex [in]
 
-Specifies which descriptor to retrieve, indexed from zero. Call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_tot-getcountoftabledescriptors">IDVB_TOT::GetCountOfTableDescriptors</a> method to get the number of table descriptors in the TOT.
+Specifies which descriptor to retrieve, indexed from zero. Call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_tot-getcountoftabledescriptors">IDVB_TOT::GetCountOfTableDescriptors</a> method to get the number of table descriptors in the TOT.
 
 ### -param ppDescriptor [out]
 
-Address of a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
+Address of a variable that receives an <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-igenericdescriptor">IGenericDescriptor</a> interface pointer. Use this interface to retrieve the information in the descriptor. The caller must release the interface.
 
 ## -returns
 
@@ -113,5 +113,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_tot">IDVB_TOT Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_tot">IDVB_TOT Interface</a>

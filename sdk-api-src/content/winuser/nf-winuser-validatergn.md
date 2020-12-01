@@ -46,6 +46,7 @@ api_location:
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
  - ValidateRgn
+req.apiset: ext-ms-win-ntuser-draw-l1-1-0 (introduced in Windows 8)
 ---
 
 # ValidateRgn function
@@ -75,37 +76,36 @@ If the function fails, the return value is zero.
 
 The specified region must have been created by a region function. The region coordinates are assumed to be client coordinates.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function automatically validates the entire client area. Neither the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-validaterect">ValidateRect</a> nor <b>ValidateRgn</b> function should be called if a portion of the update region must be validated before the next <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message is generated.
+The <a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function automatically validates the entire client area. Neither the <a href="/windows/desktop/api/winuser/nf-winuser-validaterect">ValidateRect</a> nor <b>ValidateRgn</b> function should be called if a portion of the update region must be validated before the next <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> message is generated.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-excludeupdatergn">ExcludeUpdateRgn</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-excludeupdatergn">ExcludeUpdateRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-validaterect">ValidateRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-validaterect">ValidateRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a>
-
+<a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a>

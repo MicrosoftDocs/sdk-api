@@ -72,13 +72,12 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 ## -remarks
 
-The system implementation of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationframeinfoprovider">IDirectManipulationFrameInfoProvider</a> uses <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a>. <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-getframestatistics">GetFrameStatistics</a> is used to calculate the parameter values for <b>GetNextFrameInfo</b>.
+The system implementation of <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationframeinfoprovider">IDirectManipulationFrameInfoProvider</a> uses <a href="/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a>. <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-getframestatistics">GetFrameStatistics</a> is used to calculate the parameter values for <b>GetNextFrameInfo</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcompositor">IDirectManipulationCompositor</a>
+<a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcompositor">IDirectManipulationCompositor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationframeinfoprovider">IDirectManipulationFrameInfoProvider</a>
-
+<a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationframeinfoprovider">IDirectManipulationFrameInfoProvider</a>

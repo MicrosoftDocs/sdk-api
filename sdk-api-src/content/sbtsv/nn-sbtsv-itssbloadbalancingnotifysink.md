@@ -54,7 +54,7 @@ Exposes methods that return the result of a load-balancing algorithm to Remote D
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbLoadBalancingNotifySink</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>. <b>ITsSbLoadBalancingNotifySink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbLoadBalancingNotifySink</b> interface inherits from <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>. <b>ITsSbLoadBalancingNotifySink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITsSbLoadBalancingNotifySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbloadbalancingnotifysink-ongetmostsuitabletarget">OnGetMostSuitableTarget</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbloadbalancingnotifysink-ongetmostsuitabletarget">OnGetMostSuitableTarget</a>
 </td>
 <td align="left" width="63%">
 Returns a load-balancing result to RD Connection Broker.
@@ -80,9 +80,8 @@ Returns a load-balancing result to RD Connection Broker.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
-
+<a href="/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>

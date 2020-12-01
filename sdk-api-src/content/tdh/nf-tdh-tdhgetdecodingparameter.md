@@ -63,7 +63,7 @@ A valid decoding handle.
 
 ### -param TdhContext [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-tdh_context">PTDH_CONTEXT</a></b>
+Type: <b><a href="/windows/desktop/api/tdh/ns-tdh-tdh_context">PTDH_CONTEXT</a></b>
 
 Array of context values. The array must not contain duplicate context types.
 
@@ -85,7 +85,7 @@ Returns ERROR_SUCCESS if successful. Otherwise, this function returns one of the
 </dl>
 </td>
 <td width="60%">
-One or more of the parameters is incorrect. This error is returned if the <i>Handle</i> or <i>TdhContext</i>   parameter is <b>NULL</b>. This error is also returned if the <b>ParameterValue</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-tdh_context">TDH_CONTEXT</a> struct pointed to by the <i>TdhContext</i>   parameter does not exist.
+One or more of the parameters is incorrect. This error is returned if the <i>Handle</i> or <i>TdhContext</i>   parameter is <b>NULL</b>. This error is also returned if the <b>ParameterValue</b> member of the <a href="/windows/desktop/api/tdh/ns-tdh-tdh_context">TDH_CONTEXT</a> struct pointed to by the <i>TdhContext</i>   parameter does not exist.
 
 </td>
 </tr>
@@ -104,5 +104,4 @@ Memory allocations failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/ns-tdh-tdh_context">TDH_CONTEXT</a>
-
+<a href="/windows/desktop/api/tdh/ns-tdh-tdh_context">TDH_CONTEXT</a>

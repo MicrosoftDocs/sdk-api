@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Contains the scalable metrics associated with icons. This structure is used with the  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function when the <b>SPI_GETICONMETRICS</b>  or <b>SPI_SETICONMETRICS</b> action is specified.
+Contains the scalable metrics associated with icons. This structure is used with the  <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function when the <b>SPI_GETICONMETRICS</b>  or <b>SPI_SETICONMETRICS</b> action is specified.
 
 ## -struct-fields
 
@@ -86,7 +86,7 @@ If this member is nonzero, icon titles wrap to a new line. If this member is zer
 
 ### -field lfFont
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a></b>
+Type: <b><a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a></b>
 
 The font to use for icon titles.
 
@@ -96,7 +96,7 @@ The font to use for icon titles.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
+<a href="/windows/desktop/menurc/icons">Icons</a>
 
 
 
@@ -104,10 +104,9 @@ The font to use for icon titles.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winuser.h header defines ICONMETRICS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

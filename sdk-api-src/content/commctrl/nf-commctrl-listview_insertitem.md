@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Inserts a new item in a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertitem">LVM_INSERTITEM</a> message explicitly.
+Inserts a new item in a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-insertitem">LVM_INSERTITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -64,15 +64,15 @@ A handle to the list-view control.
 
 Type: <b>const LPLVITEM</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure that specifies the attributes of the list-view item. Use the <b>iItem</b> member to specify the zero-based index at which the new item should be inserted. If this value is greater than the number of items currently contained by the listview control, the new item will be appended to the end of the list and assigned the correct index. Examine the macro's return value to determine the actual index assigned to the item.
+A pointer to an <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure that specifies the attributes of the list-view item. Use the <b>iItem</b> member to specify the zero-based index at which the new item should be inserted. If this value is greater than the number of items currently contained by the listview control, the new item will be appended to the end of the list and assigned the correct index. Examine the macro's return value to determine the actual index assigned to the item.
 
 ## -remarks
 
-You cannot use <b>ListView_InsertItem</b> or <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertitem">LVM_INSERTITEM</a> to insert subitems. The <b>iSubItem</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure must be zero. See <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setitem">LVM_SETITEM</a> for information on setting subitems.
+You cannot use <b>ListView_InsertItem</b> or <a href="/windows/desktop/Controls/lvm-insertitem">LVM_INSERTITEM</a> to insert subitems. The <b>iSubItem</b> member of the <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure must be zero. See <a href="/windows/desktop/Controls/lvm-setitem">LVM_SETITEM</a> for information on setting subitems.
 
-If a list-view control has the <a href="https://docs.microsoft.com/windows/desktop/Controls/extended-list-view-styles">LVS_EX_CHECKBOXES</a> style set, any value placed in bits 12 through 15 of the <b>state</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure will be ignored. When an item is added with this style set, it will always be set to the unchecked state.
+If a list-view control has the <a href="/windows/desktop/Controls/extended-list-view-styles">LVS_EX_CHECKBOXES</a> style set, any value placed in bits 12 through 15 of the <b>state</b> member of the <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure will be ignored. When an item is added with this style set, it will always be set to the unchecked state.
 
-If a list-view control has either the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_SORTASCENDING</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_SORTDESCENDING</a> window style, an <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertitem">LVM_INSERTITEM</a> message will fail if you try to insert an item that has LPSTR_TEXTCALLBACK as the <b>pszText</b> member of its <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure. 
+If a list-view control has either the <a href="/windows/desktop/Controls/list-view-window-styles">LVS_SORTASCENDING</a> or <a href="/windows/desktop/Controls/list-view-window-styles">LVS_SORTDESCENDING</a> window style, an <a href="/windows/desktop/Controls/lvm-insertitem">LVM_INSERTITEM</a> message will fail if you try to insert an item that has LPSTR_TEXTCALLBACK as the <b>pszText</b> member of its <a href="/windows/desktop/api/commctrl/ns-commctrl-lvitema">LVITEM</a> structure. 
 
 The <b>ListView_InsertItem</b> macro will insert the new item in the proper position in the sort order if the following conditions hold: 
 
@@ -82,4 +82,3 @@ The <b>ListView_InsertItem</b> macro will insert the new item in the proper posi
 <li>The 
 						<b>pszText</b> member of the structure pointed to by <i>pitem</i> is not set to LPSTR_TEXTCALLBACK. </li>
 </ul>
-

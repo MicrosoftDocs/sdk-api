@@ -76,9 +76,8 @@ Other values not defined here may exist. Consumers of this enumeration should no
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_platformid">IBootOptions::get_PlatformId</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-get_platformid">IBootOptions::get_PlatformId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_platformid">IBootOptions::put_PlatformId</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_platformid">IBootOptions::put_PlatformId</a>

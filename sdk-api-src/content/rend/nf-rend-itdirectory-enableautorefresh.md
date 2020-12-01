@@ -130,5 +130,4 @@ This method is not yet implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
-
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>

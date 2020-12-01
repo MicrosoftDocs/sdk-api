@@ -56,7 +56,7 @@ Creates a paint object which can be used to set the 'fill' or 'stroke' propertie
 
 ### -param paintType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_paint_type">D2D1_SVG_PAINT_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1svg/ne-d2d1svg-d2d1_svg_paint_type">D2D1_SVG_PAINT_TYPE</a></b>
 
 Specifies the type of paint object to create.
 
@@ -86,5 +86,4 @@ This method returns an HRESULT success or error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgdocument">ID2D1SvgDocument</a>
-
+<a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgdocument">ID2D1SvgDocument</a>

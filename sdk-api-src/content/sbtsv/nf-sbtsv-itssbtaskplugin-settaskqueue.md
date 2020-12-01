@@ -60,7 +60,7 @@ Updates a task in the queue of  a Remote Desktop Connection Broker plugin.
 
 ### -param pITsSbTaskInfo [in]
 
-An array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo">ITsSbTaskInfo</a> objects.
+An array of pointers to <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo">ITsSbTaskInfo</a> objects.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskplugin">ITsSbTaskPlugin</a>
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskplugin">ITsSbTaskPlugin</a>

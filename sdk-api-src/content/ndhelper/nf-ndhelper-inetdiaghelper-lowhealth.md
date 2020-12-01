@@ -68,7 +68,7 @@ A pointer to the time, in seconds, to be deferred if the diagnosis cannot be sta
 
 ### -param pStatus [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/ne-ndhelper-diagnosis_status">DIAGNOSIS_STATUS</a> that is returned from the diagnosis.
+A pointer to the <a href="/windows/desktop/api/ndhelper/ne-ndhelper-diagnosis_status">DIAGNOSIS_STATUS</a> that is returned from the diagnosis.
 
 ## -returns
 
@@ -143,11 +143,10 @@ The LowHealth method is required when building a Helper Class Extension.
 
 If LowHealth returns <b>DS_CONFIRMED</b>, <i>ppwszDescription</i> will also contain a user-friendly description of the diagnosis result. The out parameter <i>pDeferredTime</i> contains the number of seconds this diagnosis needs to be deferred if pStatus returns <b>DS_DEFERRED</b>.
 
-When LowHealth is confirmed, it may also optionally generate hypotheses in the <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getlowerhypotheses">GetLowerHypotheses</a> method for other helper classes if the problem may be caused by other components.  If not confirmed, NDF may further diagnose the problem by calling <a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-highutilization">HighUtilization</a>.
+When LowHealth is confirmed, it may also optionally generate hypotheses in the <a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-getlowerhypotheses">GetLowerHypotheses</a> method for other helper classes if the problem may be caused by other components.  If not confirmed, NDF may further diagnose the problem by calling <a href="/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-highutilization">HighUtilization</a>.
 
 LowHealth may also return <b>DS_INDETERMINATE</b> if it is unable to diagnose the problem, but cannot confirm that the component is healthy. In this case, NDF will treat it as <b>DS_CONFIRMED</b> if none of the other hypotheses are confirmed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>

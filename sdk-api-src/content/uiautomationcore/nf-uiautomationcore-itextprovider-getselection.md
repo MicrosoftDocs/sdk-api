@@ -58,19 +58,19 @@ Retrieves a collection of text ranges that represents the currently selected tex
 
 Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
-Receives the address of an array of pointers to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a> interfaces of the text ranges,
+Receives the address of an array of pointers to the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a> interfaces of the text ranges,
 				one for each selected span of text. This parameter is passed uninitialized.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
 For UI Automation providers that support text selection, 
-        the provider should implement this method and also return a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider-get_supportedtextselection">ITextProvider::SupportedTextSelection</a> value.
+        the provider should implement this method and also return a <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itextprovider-get_supportedtextselection">ITextProvider::SupportedTextSelection</a> value.
         
 
 If the control contains only a single span of selected text, the <i>pRetVal</i> array should contain a single text range. 
@@ -81,7 +81,7 @@ If the control contains a text insertion point but no text is selected,  the <i>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-workingwithsafearrays">Best Practices for Using Safe Arrays</a>
+<a href="/windows/desktop/WinAuto/uiauto-workingwithsafearrays">Best Practices for Using Safe Arrays</a>
 
 
 
@@ -89,11 +89,11 @@ If the control contains a text insertion point but no text is selected,  the <i>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider">ITextProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider">ITextProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextrangeprovider">ITextRangeProvider</a>
 
 
 
@@ -101,5 +101,4 @@ If the control contains a text insertion point but no text is selected,  the <i>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

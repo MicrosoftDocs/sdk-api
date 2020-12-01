@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>SI_OBJECT_INFO</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a> method to specify information used to initialize the access control editor.
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a> method to specify information used to initialize the access control editor.
 
 ## -struct-fields
 
@@ -82,12 +82,12 @@ A set of bit flags that determine the editing options available to the user. Thi
 </td>
 <td width="60%">
 If this flag is set, the <b>Advanced</b> button is displayed on the basic security property page. If the user clicks this button, the system displays an 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/advanced-security-property-sheet">advanced security property sheet</a> that enables advanced editing of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) of the object. 
+<a href="/windows/desktop/SecAuthZ/advanced-security-property-sheet">advanced security property sheet</a> that enables advanced editing of the <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) of the object. 
 
 
 
 
-Combine this flag with the SI_EDIT_AUDITS, SI_EDIT_OWNER, and SI_EDIT_PROPERTIES flags to enable editing of the object's SACL, owner, and object-specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs).
+Combine this flag with the SI_EDIT_AUDITS, SI_EDIT_OWNER, and SI_EDIT_PROPERTIES flags to enable editing of the object's SACL, owner, and object-specific <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs).
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Indicates that the object is a container. If this flag is set, the access contro
 </dl>
 </td>
 <td width="60%">
-If this flag is set, the system disables denying an ACE.  Clients of the access control editor must implement the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation4">ISecurityInformation4</a> interface to set this flag.
+If this flag is set, the system disables denying an ACE.  Clients of the access control editor must implement the <a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation4">ISecurityInformation4</a> interface to set this flag.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
@@ -152,7 +152,7 @@ SI_EDIT_OWNER, and SI_EDIT_AUDITS flags.
 </dl>
 </td>
 <td width="60%">
-If this flag is set and the user clicks the <b>Advanced</b> button, the system displays an advanced security property sheet that includes an <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/auditing-property-page">Auditing property page</a>for editing the object's SACL. To display the <b>Advanced</b> button, set the SI_ADVANCED flag.
+If this flag is set and the user clicks the <b>Advanced</b> button, the system displays an advanced security property sheet that includes an <a href="/windows/desktop/SecAuthZ/auditing-property-page">Auditing property page</a>for editing the object's SACL. To display the <b>Advanced</b> button, set the SI_ADVANCED flag.
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ If this flag is set and the user clicks the <b>Advanced</b> button, the system d
 </dl>
 </td>
 <td width="60%">
- If this flag is set, the <b>Effective Permissions</b> page is displayed. This flag is ignored if the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> object that initialized the access control editor does not implement the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-ieffectivepermission">IEffectivePermission</a> interface.
+ If this flag is set, the <b>Effective Permissions</b> page is displayed. This flag is ignored if the <a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> object that initialized the access control editor does not implement the <a href="/windows/desktop/api/aclui/nn-aclui-ieffectivepermission">IEffectivePermission</a> interface.
 
 </td>
 </tr>
@@ -176,7 +176,7 @@ If this flag is set and the user clicks the <b>Advanced</b> button, the system d
 </td>
 <td width="60%">
 If this flag is set and the user clicks the <b>Advanced</b> button, the system displays an advanced security property sheet that includes an 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/owner-property-page">Owner property page</a>for changing the object's owner. To display the <b>Advanced</b> button, set the SI_ADVANCED flag.
+<a href="/windows/desktop/SecAuthZ/owner-property-page">Owner property page</a>for changing the object's owner. To display the <b>Advanced</b> button, set the SI_ADVANCED flag.
 
 </td>
 </tr>
@@ -211,7 +211,7 @@ If this flag is set, the system enables controls for editing ACEs that apply to 
 </dl>
 </td>
 <td width="60%">
-If this flag is set, the system enables editing attributes.  Clients of the access control editor must implement the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation4">ISecurityInformation4</a> interface to set this flag.
+If this flag is set, the system enables editing attributes.  Clients of the access control editor must implement the <a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation4">ISecurityInformation4</a> interface to set this flag.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
@@ -224,7 +224,7 @@ If this flag is set, the system enables editing attributes.  Clients of the acce
 </dl>
 </td>
 <td width="60%">
-If this flag is set, the system enables editing attributes.  Clients of the access control editor must implement the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation4">ISecurityInformation4</a> interface to set this flag.
+If this flag is set, the system enables editing attributes.  Clients of the access control editor must implement the <a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation4">ISecurityInformation4</a> interface to set this flag.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
@@ -237,7 +237,7 @@ If this flag is set, the system enables editing attributes.  Clients of the acce
 </dl>
 </td>
 <td width="60%">
-Indicates that the access control editor cannot read the DACL but might be able to write to the DACL. If a call to the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getsecurity">ISecurityInformation::GetSecurity</a> method returns <b>AccessDenied</b>, the user can try to add a new ACE, and a more appropriate warning is displayed.
+Indicates that the access control editor cannot read the DACL but might be able to write to the DACL. If a call to the <a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getsecurity">ISecurityInformation::GetSecurity</a> method returns <b>AccessDenied</b>, the user can try to add a new ACE, and a more appropriate warning is displayed.
 
 </td>
 </tr>
@@ -329,7 +329,7 @@ If this flag is set, the user cannot change the owner of the object. Set this fl
 </td>
 <td width="60%">
 Combine this flag with SI_CONTAINER to display a check box on the owner page that indicates whether the user intends the new owner to be applied to all child objects as well as the current object. The access control editor does not perform the recursion; the recursion should be performed by the application in 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">ISecurityInformation::SetSecurity</a>.
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">ISecurityInformation::SetSecurity</a>.
 
 </td>
 </tr>
@@ -381,7 +381,7 @@ This flag cannot be combined with the <b>SI_VIEW_ONLY</b> flag.
 </td>
 <td width="60%">
 If this flag is set, the <b>Default</b> button is displayed. If the user clicks this button, the access control editor calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getsecurity">ISecurityInformation::GetSecurity</a> method to retrieve an application-defined default security descriptor. The access control editor uses this security descriptor to reinitialize the property sheet, and the user is allowed to apply the change or cancel.
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getsecurity">ISecurityInformation::GetSecurity</a> method to retrieve an application-defined default security descriptor. The access control editor uses this security descriptor to reinitialize the property sheet, and the user is allowed to apply the change or cancel.
 
 </td>
 </tr>
@@ -405,7 +405,7 @@ When set, this flag displays the <b>Reset Defaults</b> button on the <b>Permissi
 </td>
 <td width="60%">
 When set, this flag displays the Reset permissions on all child objects and enable propagation of inheritable permissions check box in the Permissions page of the Access Control Settings window. If this check box is selected when the user clicks the <b>Apply</b> button, a bitwise-<b>OR</b> operation is performed on the <i>SecurityInformation</i> parameter of 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">ISecurityInformation::SetSecurity</a> with SI_RESET_DACL_TREE. This function does not reset the permissions and enable propagation of inheritable permissions; the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> must do this.
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">ISecurityInformation::SetSecurity</a> with SI_RESET_DACL_TREE. This function does not reset the permissions and enable propagation of inheritable permissions; the implementation of <a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> must do this.
 
 </td>
 </tr>
@@ -440,7 +440,7 @@ When set, this flag displays the <b>Reset Defaults</b> button on the <b>Auditing
 </td>
 <td width="60%">
 When set, this flag displays the Reset auditing entries on all child objects and enables propagation of the inheritable auditing entries check box in the Auditing page of the Access Control Settings window. If this check box is selected when the user clicks the <b>Apply</b> button, a bitwise-<b>OR</b> operation is performed on the <i>SecurityInformation</i> parameter of 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">ISecurityInformation::SetSecurity</a> with SI_RESET_SACL_TREE. This function does not reset the permissions and enable propagation of inheritable permissions; the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> must do this.
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">ISecurityInformation::SetSecurity</a> with SI_RESET_SACL_TREE. This function does not reset the permissions and enable propagation of inheritable permissions; the implementation of <a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> must do this.
 
 </td>
 </tr>
@@ -451,7 +451,7 @@ When set, this flag displays the Reset auditing entries on all child objects and
 </dl>
 </td>
 <td width="60%">
-If this flag is set, an image of a shield is displayed on the <b>Change</b> button of the Scope attribute. For NTFS objects, this flag is requested when the user does not have READ_CONTROL or WRITE_DAC access.  Clients of the access control editor must implement the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation4">ISecurityInformation4</a> interface to set this flag.
+If this flag is set, an image of a shield is displayed on the <b>Change</b> button of the Scope attribute. For NTFS objects, this flag is requested when the user does not have READ_CONTROL or WRITE_DAC access.  Clients of the access control editor must implement the <a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation4">ISecurityInformation4</a> interface to set this flag.
 
 <b>Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
@@ -476,7 +476,7 @@ Set this flag if the <b>pszServerName</b> computer is known to be a domain contr
 </dl>
 </td>
 <td width="60%">
-This flag is set by the access control editor client to display read-only versions of the access control editor dialog boxes. These versions of the dialog boxes do not allow editing of the associated object's permissions. Clients of the access control editor must implement the <a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation3">ISecurityInformation3</a> interface to set this flag.
+This flag is set by the access control editor client to display read-only versions of the access control editor dialog boxes. These versions of the dialog boxes do not allow editing of the associated object's permissions. Clients of the access control editor must implement the <a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation3">ISecurityInformation3</a> interface to set this flag.
 
 This flag cannot be combined with the <b>SI_READONLY</b> flag.
 
@@ -489,12 +489,12 @@ This flag cannot be combined with the <b>SI_READONLY</b> flag.
 ### -field hInstance
 
 Identifies a module that contains string resources to be used in the property sheet. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights">ISecurityInformation::GetAccessRights</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes">ISecurityInformation::GetInheritTypes</a> methods can specify string resource identifiers for display names.
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights">ISecurityInformation::GetAccessRights</a> and 
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes">ISecurityInformation::GetInheritTypes</a> methods can specify string resource identifiers for display names.
 
 ### -field pszServerName
 
-A pointer to a <b>null</b>-terminated, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string that names the computer on which to look up account names and SIDs. This value can be <b>NULL</b> to specify the local computer. The access control editor does not free this pointer.
+A pointer to a <b>null</b>-terminated, <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> string that names the computer on which to look up account names and SIDs. This value can be <b>NULL</b> to specify the local computer. The access control editor does not free this pointer.
 
 ### -field pszObjectName
 
@@ -511,25 +511,24 @@ GUID for the object. This member is ignored unless the SI_OBJECT_GUID flag is se
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights">ISecurityInformation::GetAccessRights</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getaccessrights">ISecurityInformation::GetAccessRights</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes">ISecurityInformation::GetInheritTypes</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getinherittypes">ISecurityInformation::GetInheritTypes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getsecurity">ISecurityInformation::GetSecurity</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getsecurity">ISecurityInformation::GetSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">ISecurityInformation::SetSecurity</a>
-
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-setsecurity">ISecurityInformation::SetSecurity</a>

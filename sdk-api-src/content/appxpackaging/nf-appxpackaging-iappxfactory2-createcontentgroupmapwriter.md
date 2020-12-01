@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxcontentgroupmapwriter">IAppxContentGroupMapWriter</a>.
+Creates an <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxcontentgroupmapwriter">IAppxContentGroupMapWriter</a>.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfactory2">IAppxFactory2</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfactory2">IAppxFactory2</a>

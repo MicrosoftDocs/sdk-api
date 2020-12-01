@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Contains the version of the virtual disk 
-    [SET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-set_virtual_disk_info) structure to use in calls to 
+    [SET_VIRTUAL_DISK_INFO](./ns-virtdisk-set_virtual_disk_info.md) structure to use in calls to 
     VHD functions. Use the different versions of the structure to set different kinds of information for the VHD.
 
 ## -enum-fields
@@ -108,9 +108,8 @@ The parent linkage information that differencing VHDs store. Parent linkage info
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

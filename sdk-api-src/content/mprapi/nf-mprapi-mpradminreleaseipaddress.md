@@ -72,37 +72,36 @@ Pointer to a <b>DWORD</b> variable. This variable specifies the IP address to be
 An administration DLL need not implement the 
 <b>MprAdminReleaseIpAddress</b> function. However, if the DLL implements 
 <b>MprAdminReleaseIpAddress</b>, it must also implement 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmingetipaddressforuser">MprAdminGetIpAddressForUser</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmingetipaddressforuser">MprAdminGetIpAddressForUser</a>.
 
 RAS supports multiple Administration DLLs. However, RAS calls 
 <b>MprAdminReleaseIpAddress</b> only in the first DLL that implements and export it. RAS ignores implementations of these functions in the other DLLs. RAS checks the DLLs for these functions in the order in which they are listed in the 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-dll-registry-setup">registry</a>.
+<a href="/windows/desktop/RRAS/ras-administration-dll-registry-setup">registry</a>.
 
 <b>Windows 2000 Server or earlier:  </b>If RAS does not accept the new link, RAS does not call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminlinkhangupnotification">MprAdminLinkHangupNotification</a> function.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminlinkhangupnotification">MprAdminLinkHangupNotification</a> function.
 
 Do not call any of the 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-user-administration-functions">RAS User Administration Functions</a> from inside 
+<a href="/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a> or 
+<a href="/windows/desktop/RRAS/ras-user-administration-functions">RAS User Administration Functions</a> from inside 
 <b>MprAdminReleaseIpAddress</b>. Calls to these functions do not return when made from within a callout function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionhangupnotification">MprAdminConnectionHangupNotification</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionhangupnotification">MprAdminConnectionHangupNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmingetipaddressforuser">MprAdminGetIpAddressForUser</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmingetipaddressforuser">MprAdminGetIpAddressForUser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-dll">RAS Administration DLL</a>
+<a href="/windows/desktop/RRAS/ras-administration-dll">RAS Administration DLL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
+<a href="/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

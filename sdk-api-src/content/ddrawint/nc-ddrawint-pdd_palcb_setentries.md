@@ -53,7 +53,7 @@ The <i>DdSetEntries</i> callback function updates the palette entries in the spe
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_setentriesdata">DD_SETENTRIESDATA</a> structure that contains the information required to set the palette's entries.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_setentriesdata">DD_SETENTRIESDATA</a> structure that contains the information required to set the palette's entries.
 
 ## -returns
 
@@ -61,5 +61,4 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_setentriesdata">DD_SETENTRIESDATA</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_setentriesdata">DD_SETENTRIESDATA</a>

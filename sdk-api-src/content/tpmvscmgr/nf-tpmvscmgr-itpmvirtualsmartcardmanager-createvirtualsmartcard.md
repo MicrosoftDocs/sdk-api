@@ -101,7 +101,7 @@ Indicates whether the virtual smart card needs to be provisioned with all necess
 
 ### -param pStatusCallback [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanagerstatuscallback">ITpmVirtualSmartCardManagerStatusCallback</a> interface. The TPM virtual smart card manager uses this callback interface to communicate the progress or error during virtual smart card creation. If the <i>pStatusCallback</i> parameter is <b>NULL</b>, no progress is reported to the client before the operation completes.
+Pointer to a <a href="/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanagerstatuscallback">ITpmVirtualSmartCardManagerStatusCallback</a> interface. The TPM virtual smart card manager uses this callback interface to communicate the progress or error during virtual smart card creation. If the <i>pStatusCallback</i> parameter is <b>NULL</b>, no progress is reported to the client before the operation completes.
 
 ### -param ppszInstanceId [out]
 
@@ -119,9 +119,8 @@ If the method fails, it returns a Win32 error code.
 
 ## -remarks
 
-When the method succeeds, the <i>ppszInstanceId</i> parameter points to the Unicode buffer that contains the instance identifier of the newly created TPM virtual smart card reader. When you have finished using the buffer, the caller needs to free the buffer on the client by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function, as directed in the COM memory management rules.
+When the method succeeds, the <i>ppszInstanceId</i> parameter points to the Unicode buffer that contains the instance identifier of the newly created TPM virtual smart card reader. When you have finished using the buffer, the caller needs to free the buffer on the client by calling the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function, as directed in the COM memory management rules.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanager">ITpmVirtualSmartCardManager</a>
-
+<a href="/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanager">ITpmVirtualSmartCardManager</a>

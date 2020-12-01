@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_TIMESTAMP_REQUEST</b> structure defines a time stamp request structure that corresponds to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) definition of a <b>TimeStampReq</b> type. The <b>CRYPT_TIMESTAMP_REQUEST</b> structure is used internally.
+The <b>CRYPT_TIMESTAMP_REQUEST</b> structure defines a time stamp request structure that corresponds to the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) definition of a <b>TimeStampReq</b> type. The <b>CRYPT_TIMESTAMP_REQUEST</b> structure is used internally.
 
 ## -struct-fields
 
@@ -87,7 +87,7 @@ A version 1 time stamp request.
 
 ### -field HashAlgorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains information about the algorithm used to calculate the hash.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains information about the algorithm used to calculate the hash.
 
 ### -field HashedMessage
 
@@ -99,7 +99,7 @@ Optional. A pointer to a null-terminated string that specifies the Time Stamping
 
 ### -field Nonce
 
-Optional. A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the nonce value used by the client to verify the
+Optional. A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the nonce value used by the client to verify the
 timeliness of the response when no local clock is available.
 
 ### -field fCertReq
@@ -112,5 +112,4 @@ The number of elements in the array pointed to by the <b>rgExtension</b> member.
 
 ### -field rgExtension
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures that contain extension information that is passed in the request.
-
+A pointer to an array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures that contain extension information that is passed in the request.

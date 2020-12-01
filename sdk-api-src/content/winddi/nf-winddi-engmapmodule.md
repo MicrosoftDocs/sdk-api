@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EngMapModule</b> function returns the address and size of a file that was loaded by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>.
+The <b>EngMapModule</b> function returns the address and size of a file that was loaded by <a href="/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>, <a href="/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>, <a href="/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>, or <a href="/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>.
 
 ## -parameters
 
@@ -68,25 +68,24 @@ Pointer to a memory location that receives the size, in bytes, of the memory-map
 
 ## -remarks
 
-A driver can open and read a file using <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a> and <b>EngMapModule</b>.
+A driver can open and read a file using <a href="/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a> and <b>EngMapModule</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfreemodule">EngFreeModule</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engfreemodule">EngFreeModule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engloadimage">EngLoadImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engloadmodule">EngLoadModule</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engloadmoduleforwrite">EngLoadModuleForWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>

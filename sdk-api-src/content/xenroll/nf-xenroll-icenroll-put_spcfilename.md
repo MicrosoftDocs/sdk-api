@@ -64,9 +64,9 @@ api_name:
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>SPCFileName</b> property sets or retrieves the name of the file to which to write the base64-encoded PKCS #7 (in <b>BSTR</b> form) as returned from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>.
+The <b>SPCFileName</b> property sets or retrieves the name of the file to which to write the base64-encoded PKCS #7 (in <b>BSTR</b> form) as returned from the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a>.
 
-This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 This property is read/write.
 
@@ -83,10 +83,10 @@ If the file already exists, the user is notified and prompted for permission to 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
 </li>
 </ul>
 
@@ -124,4 +124,3 @@ else
 if ( NULL != bstrNewSPCFile )
     SysFreeString( bstrNewSPCFile );
 ```
-

@@ -71,7 +71,7 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 Note that if <i>cpFirst</i> is greater than the range's end position, this method sets the end position equal to <i>cpFirst</i>, making the range an insertion point. If this range is the selection, the start position becomes the active end and is scrolled into view if the display isn't frozen.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setend">ITextRange::SetEnd</a> sets the range's end position, and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setrange">ITextRange::SetRange</a> sets both range ends simultaneously. The following example shows how to convert a nondegenerate range into a degenerate one (insertion point).
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setend">ITextRange::SetEnd</a> sets the range's end position, and <a href="/windows/desktop/api/tom/nf-tom-itextrange-setrange">ITextRange::SetRange</a> sets both range ends simultaneously. The following example shows how to convert a nondegenerate range into a degenerate one (insertion point).
 
 <code>range.End = range.Start</code>
 
@@ -89,11 +89,11 @@ This also makes the end position the active end of the range, and it can turn a 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getstart">GetStart</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getstart">GetStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -101,13 +101,12 @@ This also makes the end position the active end of the range, and it can turn a 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setend">SetEnd</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setend">SetEnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-setrange">SetRange</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-setrange">SetRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

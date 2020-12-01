@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DDCOLORKEY</b> structure describes a source color key, destination color key, or color space. A color key is specified if the low and high range values are the same. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getcolorkey">IDirectDrawSurface7::GetColorKey</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setcolorkey">IDirectDrawSurface7::SetColorKey</a> methods.
+The <b>DDCOLORKEY</b> structure describes a source color key, destination color key, or color space. A color key is specified if the low and high range values are the same. This structure is used with the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-getcolorkey">IDirectDrawSurface7::GetColorKey</a> and <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-setcolorkey">IDirectDrawSurface7::SetColorKey</a> methods.
 
 ## -struct-fields
 
@@ -63,4 +63,3 @@ Low value of the color range that is to be used as the color key.
 ### -field dwColorSpaceHighValue
 
 High value of the color range that is to be used as the color key.
-

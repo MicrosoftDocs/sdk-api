@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 Skips the next specified number of tasks in the enumeration sequence.
 
@@ -107,21 +107,20 @@ The value of <i>celt</i> is less than or equal to zero.
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a> interface also provides methods for retrieving sets of tasks, resetting the enumeration sequence, and making a copy of the current state of the enumeration.
+<a href="/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a> interface also provides methods for retrieving sets of tasks, resetting the enumeration sequence, and making a copy of the current state of the enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-ienumworkitems">IEnumWorkItems</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-clone">IEnumWorkItems::Clone</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-clone">IEnumWorkItems::Clone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-next">IEnumWorkItems::Next</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-next">IEnumWorkItems::Next</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ienumworkitems-reset">IEnumWorkItems::Reset</a>
-
+<a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-reset">IEnumWorkItems::Reset</a>

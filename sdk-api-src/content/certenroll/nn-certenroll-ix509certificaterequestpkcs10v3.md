@@ -50,5 +50,4 @@ api_name:
 
 ## -description
 
-The <b>IX509CertificateRequestPkcs10V3</b> interface represents a PKCS #10 certificate request. It includes all of the methods defined by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>  and <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v2">IX509CertificateRequestPkcs10V2</a> interfaces and adds properties that enable TPM certificate attestation.
-
+The <b>IX509CertificateRequestPkcs10V3</b> interface represents a PKCS #10 certificate request. It includes all of the methods defined by the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>  and <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v2">IX509CertificateRequestPkcs10V2</a> interfaces and adds properties that enable TPM certificate attestation.

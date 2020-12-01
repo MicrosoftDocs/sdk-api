@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte4">XMUBYTE4</a> from a <code>Uuint32_t</code> variable containing component data in a packed format.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte4">XMUBYTE4</a> from a <code>Uuint32_t</code> variable containing component data in a packed format.
 
 This constructor initializes a new instance of **XMUBYTE4** from a <code>Uuint32_t</code> variable containing component data in a packed format.
 
@@ -73,7 +73,6 @@ The values of the four components of the new instance of **XMUBYTE4* are stored 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte4">XMUBYTE4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte4">XMUBYTE4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyte4-ctor">XMUBYTE4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmubyte4-ctor">XMUBYTE4 Constructors</a>

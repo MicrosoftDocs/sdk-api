@@ -52,26 +52,26 @@ api_name:
 ## -description
 
 Describes the type of notification returned. The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternotify">GetClusterNotify</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-registerclusternotify">RegisterClusterNotify</a>, and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a> functions use this enumeration.
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusternotify">GetClusterNotify</a>, 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-registerclusternotify">RegisterClusterNotify</a>, and 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a> functions use this enumeration.
 
 ## -enum-fields
 
 ### -field CLUSTER_CHANGE_NODE_STATE
 
 The queue receives a notification when a node changes state. For a list of possible node state values, see 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternodestate">GetClusterNodeState</a>.
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusternodestate">GetClusterNodeState</a>.
 
 ### -field CLUSTER_CHANGE_NODE_DELETED
 
 The queue receives a notification when a node is permanently removed from a cluster. A node can be 
        permanently deleted from an existing cluster with a call to the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-evictclusternode">EvictClusterNode</a> function.
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-evictclusternode">EvictClusterNode</a> function.
 
 ### -field CLUSTER_CHANGE_NODE_ADDED
 
-The queue receives a notification when a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> 
+The queue receives a notification when a new <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> 
        is added to the cluster. A node can be added only when the Cluster service is initially installed on the 
        node.
 
@@ -86,16 +86,16 @@ The queue receives a notification when the name of a cluster database key has ch
 ### -field CLUSTER_CHANGE_REGISTRY_ATTRIBUTES
 
 The queue receives a notification when a 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key's attributes are changed. The only 
+       <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key's attributes are changed. The only 
        currently defined cluster database key attribute is its security descriptor, which can be changed with 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetkeysecurity">ClusterRegSetKeySecurity</a>.
+       <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetkeysecurity">ClusterRegSetKeySecurity</a>.
 
 ### -field CLUSTER_CHANGE_REGISTRY_VALUE
 
 The queue receives a notification when a value of the specified cluster database key is changed or deleted. 
        Cluster database values can be changed with the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetvalue">ClusterRegSetValue</a> function and deleted with the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregdeletevalue">ClusterRegDeleteValue</a> function.
+       <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetvalue">ClusterRegSetValue</a> function and deleted with the 
+       <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregdeletevalue">ClusterRegDeleteValue</a> function.
 
 ### -field CLUSTER_CHANGE_REGISTRY_SUBTREE
 
@@ -105,7 +105,7 @@ Indicates that the other <b>CLUSTER_CHANGE_REGISTRY_*</b> events apply to the en
 ### -field CLUSTER_CHANGE_RESOURCE_STATE
 
 The queue receives a notification when a resource changes state. For a list of the possible resource state 
-       values, see <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusterresourcestate">GetClusterResourceState</a>.
+       values, see <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusterresourcestate">GetClusterResourceState</a>.
 
 ### -field CLUSTER_CHANGE_RESOURCE_DELETED
 
@@ -114,19 +114,19 @@ The queue receives a notification when a resource is deleted.
 ### -field CLUSTER_CHANGE_RESOURCE_ADDED
 
 The queue receives a notification when a new 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> is created in the cluster.
+      <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> is created in the cluster.
 
 ### -field CLUSTER_CHANGE_RESOURCE_PROPERTY
 
 The queue receives a notification when the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-common-properties">properties</a>, 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dependencies">dependencies</a>, or 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/p-gly">possible owner</a> nodes of a resource change.
+       <a href="/previous-versions/windows/desktop/mscs/resource-common-properties">properties</a>, 
+       <a href="/previous-versions/windows/desktop/mscs/resource-dependencies">dependencies</a>, or 
+       <a href="/previous-versions/windows/desktop/mscs/p-gly">possible owner</a> nodes of a resource change.
 
 ### -field CLUSTER_CHANGE_GROUP_STATE
 
 The queue receives a notification when a group changes state. For a list of the possible group state 
-       values, see <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclustergroupstate">GetClusterGroupState</a>.
+       values, see <a href="/windows/desktop/api/clusapi/nf-clusapi-getclustergroupstate">GetClusterGroupState</a>.
 
 ### -field CLUSTER_CHANGE_GROUP_DELETED
 
@@ -134,14 +134,14 @@ The queue receives a notification when an existing group is deleted.
 
 ### -field CLUSTER_CHANGE_GROUP_ADDED
 
-The queue receives a notification when a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a> is created 
+The queue receives a notification when a new <a href="/previous-versions/windows/desktop/mscs/groups">group</a> is created 
        in the cluster.
 
 ### -field CLUSTER_CHANGE_GROUP_PROPERTY
 
 The queue receives a notification when the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/group-common-properties">properties</a> of a group change or when a 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> is added or removed from a group.
+       <a href="/previous-versions/windows/desktop/mscs/group-common-properties">properties</a> of a group change or when a 
+       <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> is added or removed from a group.
 
 ### -field CLUSTER_CHANGE_RESOURCE_TYPE_DELETED
 
@@ -150,12 +150,12 @@ The queue receives a notification when an existing resource type is deleted.
 ### -field CLUSTER_CHANGE_RESOURCE_TYPE_ADDED
 
 The queue receives a notification when a new 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-types">resource type</a> is created in the cluster.
+      <a href="/previous-versions/windows/desktop/mscs/resource-types">resource type</a> is created in the cluster.
 
 ### -field CLUSTER_CHANGE_RESOURCE_TYPE_PROPERTY
 
 The queue receives a notification when the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-common-properties">properties</a> of a resource type 
+       <a href="/previous-versions/windows/desktop/mscs/resource-common-properties">properties</a> of a resource type 
        change.
 
 ### -field CLUSTER_CHANGE_CLUSTER_RECONNECT
@@ -165,7 +165,7 @@ When generated by a client, this value indicates that the RPC connection to a se
 ### -field CLUSTER_CHANGE_NETWORK_STATE
 
 The queue receives a notification when a network changes state. For a list of the possible network state 
-       values, see <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternetworkstate">GetClusterNetworkState</a>.
+       values, see <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusternetworkstate">GetClusterNetworkState</a>.
 
 ### -field CLUSTER_CHANGE_NETWORK_DELETED
 
@@ -174,18 +174,18 @@ The queue receives a notification when a network is permanently removed from the
 ### -field CLUSTER_CHANGE_NETWORK_ADDED
 
 The queue receives a notification when a new 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a> is added to the cluster environment.
+       <a href="/previous-versions/windows/desktop/mscs/networks">network</a> is added to the cluster environment.
 
 ### -field CLUSTER_CHANGE_NETWORK_PROPERTY
 
 The queue receives a notification when the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-common-properties">properties</a> of an existing network change.
+       <a href="/previous-versions/windows/desktop/mscs/network-common-properties">properties</a> of an existing network change.
 
 ### -field CLUSTER_CHANGE_NETINTERFACE_STATE
 
 The queue receives a notification when a network interface changes state. For a list of the possible network 
        interface state values, see 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternetinterfacestate">GetClusterNetInterfaceState</a>.
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusternetinterfacestate">GetClusterNetInterfaceState</a>.
 
 ### -field CLUSTER_CHANGE_NETINTERFACE_DELETED
 
@@ -194,13 +194,13 @@ The queue receives a notification when a network interface is permanently remove
 ### -field CLUSTER_CHANGE_NETINTERFACE_ADDED
 
 The queue receives a notification when a new 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a> is added to a cluster 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a>.
+       <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a> is added to a cluster 
+       <a href="/previous-versions/windows/desktop/mscs/nodes">node</a>.
 
 ### -field CLUSTER_CHANGE_NETINTERFACE_PROPERTY
 
 The queue receives a notification when the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interface-common-properties">properties</a> of an existing network 
+       <a href="/previous-versions/windows/desktop/mscs/network-interface-common-properties">properties</a> of an existing network 
        interface change.
 
 ### -field CLUSTER_CHANGE_QUORUM_STATE
@@ -215,32 +215,31 @@ The queue receives a notification when the cluster becomes unavailable, meaning 
 ### -field CLUSTER_CHANGE_CLUSTER_PROPERTY
 
 The queue receives a notification when the cluster's prioritized list of internal 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">networks</a> changes.
+       <a href="/previous-versions/windows/desktop/mscs/networks">networks</a> changes.
 
 ### -field CLUSTER_CHANGE_HANDLE_CLOSE
 
 The queue receives a notification when a handle associated with a 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster object</a> is closed.
+       <a href="/previous-versions/windows/desktop/mscs/cluster-objects">cluster object</a> is closed.
 
 ### -field CLUSTER_CHANGE_ALL
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetkeysecurity">ClusterRegSetKeySecurity</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregsetkeysecurity">ClusterRegSetKeySecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternotify">GetClusterNotify</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-getclusternotify">GetClusterNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-registerclusternotify">RegisterClusterNotify</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-registerclusternotify">RegisterClusterNotify</a>

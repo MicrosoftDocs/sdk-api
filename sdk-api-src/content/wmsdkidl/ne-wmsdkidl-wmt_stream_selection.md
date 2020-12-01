@@ -60,7 +60,7 @@ No samples will be delivered for the stream.
 
 ### -field WMT_CLEANPOINT_ONLY
 
-Only samples with <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">cleanpoints</a> will be delivered for the stream.
+Only samples with <a href="/windows/desktop/wmformat/wmformat-glossary">cleanpoints</a> will be delivered for the stream.
 
 ### -field WMT_ON
 
@@ -68,5 +68,4 @@ All samples will be delivered for the stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
-
+<a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>

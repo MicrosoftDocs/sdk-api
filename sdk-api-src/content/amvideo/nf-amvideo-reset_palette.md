@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-The <code>RESET_PALETTE</code> macro fills the palette entries in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure with zeroes.
+The <code>RESET_PALETTE</code> macro fills the palette entries in a <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure with zeroes.
 
 ## -parameters
 
 ### -param pbmi
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure.
+Pointer to a <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfo">VIDEOINFO</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>
-
+<a href="/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>

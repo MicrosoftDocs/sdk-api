@@ -69,7 +69,7 @@ A pointer to a <b>ULONG</b> that contains the size of the
 
 ### -param VirtualDiskInfo [in, out]
 
-A pointer to a valid [GET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-get_virtual_disk_info) 
+A pointer to a valid [GET_VIRTUAL_DISK_INFO](./ns-virtdisk-get_virtual_disk_info.md) 
       structure. The format of the data returned is dependent on the value passed in the 
       <b>Version</b> member by the caller.
 
@@ -86,7 +86,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b> and the
 
 If the function fails, the return value is an error code and the <i>VirtualDiskInfo</i> 
        parameter is undefined. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -96,13 +96,12 @@ The <b>GetVirtualDiskInformation</b> function
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-[GET_VIRTUAL_DISK_INFO](/windows/win32/api/virtdisk/ns-virtdisk-get_virtual_disk_info)
+[GET_VIRTUAL_DISK_INFO](./ns-virtdisk-get_virtual_disk_info.md)
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

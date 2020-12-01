@@ -54,7 +54,7 @@ The <b>ITfDisplayAttributeInfo</b> interface is implemented by a text service to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDisplayAttributeInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDisplayAttributeInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfDisplayAttributeInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfDisplayAttributeInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfDisplayAttributeInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-getattributeinfo">GetAttributeInfo</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-getattributeinfo">GetAttributeInfo</a>
 </td>
 <td align="left" width="63%">
 Obtains the display attribute data.
@@ -78,7 +78,7 @@ Obtains the display attribute data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-getdescription">GetDescription</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Obtains the description string of the display attribute.
@@ -87,7 +87,7 @@ Obtains the description string of the display attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-getguid">GetGUID</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-getguid">GetGUID</a>
 </td>
 <td align="left" width="63%">
 Obtains the GUID for the display attribute.
@@ -96,7 +96,7 @@ Obtains the GUID for the display attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-reset">Reset</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the display attribute data to its default value.
@@ -105,7 +105,7 @@ Resets the display attribute data to its default value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-setattributeinfo">SetAttributeInfo</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeinfo-setattributeinfo">SetAttributeInfo</a>
 </td>
 <td align="left" width="63%">
 Sets the new attribute data.
@@ -116,26 +116,25 @@ Sets the new attribute data.
 
 ## -remarks
 
-An application obtains an instance of this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-getdisplayattributeinfo">ITfDisplayAttributeMgr::GetDisplayAttributeInfo</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfdisplayattributeinfo-next">IEnumTfDisplayAttributeInfo::Next</a>.
+An application obtains an instance of this interface by calling <a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-getdisplayattributeinfo">ITfDisplayAttributeMgr::GetDisplayAttributeInfo</a> or <a href="/windows/desktop/api/msctf/nf-msctf-ienumtfdisplayattributeinfo-next">IEnumTfDisplayAttributeInfo::Next</a>.
 
-A text service supplies an instance of this interface in its <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeprovider-getdisplayattributeinfo">ITfDisplayAttributeProvider::GetDisplayAttributeInfo</a> method.
+A text service supplies an instance of this interface in its <a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeprovider-getdisplayattributeinfo">ITfDisplayAttributeProvider::GetDisplayAttributeInfo</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtfdisplayattributeinfo-next">IEnumTfDisplayAttributeInfo::Next
+<a href="/windows/desktop/api/msctf/nf-msctf-ienumtfdisplayattributeinfo-next">IEnumTfDisplayAttributeInfo::Next
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-getdisplayattributeinfo">ITfDisplayAttributeMgr::GetDisplayAttributeInfo
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributemgr-getdisplayattributeinfo">ITfDisplayAttributeMgr::GetDisplayAttributeInfo
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeprovider-getdisplayattributeinfo">ITfDisplayAttributeProvider::GetDisplayAttributeInfo
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdisplayattributeprovider-getdisplayattributeinfo">ITfDisplayAttributeProvider::GetDisplayAttributeInfo
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

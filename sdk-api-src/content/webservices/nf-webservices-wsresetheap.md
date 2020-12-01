@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Releases all Heap allocations.  Allocations made on the Heap
-                using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsalloc">WsAlloc</a> are no longer valid.  Allocation for the Heap object itself is not released.
+                using <a href="/windows/desktop/api/webservices/nf-webservices-wsalloc">WsAlloc</a> are no longer valid.  Allocation for the Heap object itself is not released.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ The heap object.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -75,6 +75,5 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ## -remarks
 
 The heap object can retain allocated memory even though it has been reset.  The amount of memory retained
-                can be specified using the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_heap_property_id">WS_HEAP_PROPERTY_TRIM_SIZE</a> 
+                can be specified using the <a href="/windows/desktop/api/webservices/ne-webservices-ws_heap_property_id">WS_HEAP_PROPERTY_TRIM_SIZE</a> 
                 property when creating the heap.
-

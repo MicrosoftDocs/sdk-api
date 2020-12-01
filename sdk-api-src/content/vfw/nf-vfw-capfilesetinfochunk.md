@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capFileSetInfoChunk</b> macro sets and clears information chunks. Information chunks can be inserted in an AVI file during capture to embed text strings or custom data. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-file-set-infochunk">WM_CAP_FILE_SET_INFOCHUNK</a> message.
+The <b>capFileSetInfoChunk</b> macro sets and clears information chunks. Information chunks can be inserted in an AVI file during capture to embed text strings or custom data. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-file-set-infochunk">WM_CAP_FILE_SET_INFOCHUNK</a> message.
 
 ## -parameters
 
@@ -64,13 +64,12 @@ Pointer to a CAPINFOCHUNK structure defining the information chunk to be created
 
 ## -remarks
 
-Multiple registered information chunks can be added to an AVI file. After an information chunk is set, it continues to be added to subsequent capture files until either the entry is cleared or all information chunk entries are cleared. To clear a single entry, specify the information chunk in the <b>fccInfoID</b> member and <b>NULL</b> in the <b>lpData</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-capinfochunk">CAPINFOCHUNK</a> structure. To clear all entries, specify <b>NULL</b> in <b>fccInfoID</b>.
+Multiple registered information chunks can be added to an AVI file. After an information chunk is set, it continues to be added to subsequent capture files until either the entry is cleared or all information chunk entries are cleared. To clear a single entry, specify the information chunk in the <b>fccInfoID</b> member and <b>NULL</b> in the <b>lpData</b> member of the <a href="/windows/desktop/api/vfw/ns-vfw-capinfochunk">CAPINFOCHUNK</a> structure. To clear all entries, specify <b>NULL</b> in <b>fccInfoID</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

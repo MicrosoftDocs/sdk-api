@@ -54,7 +54,7 @@ Exposes methods for registering new control patterns, properties, and events.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationRegistrar</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationRegistrar</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationRegistrar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationRegistrar</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUIAutomationRegistrar</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationregistrar-registerevent">RegisterEvent</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationregistrar-registerevent">RegisterEvent</a>
 </td>
 <td align="left" width="63%">
 Registers a third-party UI Automation event.
@@ -78,7 +78,7 @@ Registers a third-party UI Automation event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationregistrar-registerpattern">RegisterPattern</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationregistrar-registerpattern">RegisterPattern</a>
 </td>
 <td align="left" width="63%">
 Registers a third-party control pattern.
@@ -87,7 +87,7 @@ Registers a third-party control pattern.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationregistrar-registerproperty">RegisterProperty</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationregistrar-registerproperty">RegisterProperty</a>
 </td>
 <td align="left" width="63%">
 Registers a third-party property.
@@ -98,9 +98,8 @@ Registers a third-party property.
 
 ## -remarks
 
-The <b>IUIAutomationRegistrar</b> interface is exposed by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ff384837(v=vs.85)">CUIAutomationRegistrar</a> object. To obtain an instance of this object, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function with a class ID of <b>CLSID_CUIAutomationRegistrar</b>.
+The <b>IUIAutomationRegistrar</b> interface is exposed by the <a href="/previous-versions/windows/desktop/legacy/ff384837(v=vs.85)">CUIAutomationRegistrar</a> object. To obtain an instance of this object, call the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function with a class ID of <b>CLSID_CUIAutomationRegistrar</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>

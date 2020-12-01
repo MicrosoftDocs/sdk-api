@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IMSVidVideoRendererDevices</b> interface represents a collection of video renderers. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695139(v=vs.85)">MSVidVideoRendererDevices</a> object exposes this method. Applications can use this interface to enumerate the collection.
+The <b>IMSVidVideoRendererDevices</b> interface represents a collection of video renderers. The <a href="/previous-versions/windows/desktop/legacy/dd695139(v=vs.85)">MSVidVideoRendererDevices</a> object exposes this method. Applications can use this interface to enumerate the collection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidVideoRendererDevices</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidVideoRendererDevices</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidVideoRendererDevices</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMSVidVideoRendererDevices</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMSVidVideoRendererDevices</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorendererdevices-add">Add</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorendererdevices-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a video renderer to the collection.
@@ -78,7 +78,7 @@ Adds a video renderer to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorendererdevices-get__newenum">get__NewEnum</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorendererdevices-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the collection.
@@ -87,7 +87,7 @@ Retrieves an enumerator for the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorendererdevices-get_count">get_Count</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorendererdevices-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the collection.
@@ -96,7 +96,7 @@ Retrieves the number of items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorendererdevices-get_item">get_Item</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorendererdevices-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified item from the collection.
@@ -105,7 +105,7 @@ Retrieves the specified item from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorendererdevices-remove">Remove</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorendererdevices-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the collection.
@@ -120,9 +120,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

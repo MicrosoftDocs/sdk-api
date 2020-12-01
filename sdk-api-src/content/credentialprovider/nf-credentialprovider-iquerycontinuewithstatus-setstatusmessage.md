@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Enables the credential provider to set status messages as it attempts to complete <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-iconnectablecredentialprovidercredential-connect">IConnectableCredentialProviderCredential::Connect</a>.
+Enables the credential provider to set status messages as it attempts to complete <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-iconnectablecredentialprovidercredential-connect">IConnectableCredentialProviderCredential::Connect</a>.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The Logon UI will display the status message during <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-iconnectablecredentialprovidercredential-connect">Connect</a>. This is especially useful during lengthy attempt to connect to inform the user of the status and continued attempts.
-
+The Logon UI will display the status message during <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-iconnectablecredentialprovidercredential-connect">Connect</a>. This is especially useful during lengthy attempt to connect to inform the user of the status and continued attempts.

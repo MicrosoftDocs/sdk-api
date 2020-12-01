@@ -97,5 +97,4 @@ An unexpected error has occurred.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>

@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Frees the memory and references used by an array of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures.
+Frees the memory and references used by an array of <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures.
 
 ## -parameters
 
@@ -67,9 +67,9 @@ The number of elements in the array specified by <i>rgvars</i>.
 
 ### -param rgvars [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures to free. When this function successfully returns, the <b>PROPVARIANT</b> structures in the array are zeroed and their type is set to VT_EMPTY.
+Array of <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structures to free. When this function successfully returns, the <b>PROPVARIANT</b> structures in the array are zeroed and their type is set to VT_EMPTY.
 
 ## -returns
 
@@ -81,12 +81,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 This function releases the memory and references held by each structure in the array before setting the structures to zero.
 
-This function performs the same action as <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-clearpropvariantarray">ClearPropVariantArray</a>, but returns an <b>HRESULT</b>.
+This function performs the same action as <a href="/windows/desktop/api/propvarutil/nf-propvarutil-clearpropvariantarray">ClearPropVariantArray</a>, but returns an <b>HRESULT</b>.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propidl/nf-propidl-freepropvariantarray">FreePropVariantArray</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propidl/nf-propidl-freepropvariantarray">FreePropVariantArray</a>
 
 
 
@@ -96,4 +96,3 @@ The following example, to be included as part of a larger program, demonstrates 
 
 FreePropVariantArray(ARRAYSIZE(rgpropvar), rgpropvar);
 ```
-

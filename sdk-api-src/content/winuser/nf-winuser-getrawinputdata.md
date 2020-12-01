@@ -48,6 +48,7 @@ api_location:
  - MinUser.dll
 api_name:
  - GetRawInputData
+req.apiset: ext-ms-win-ntuser-rawinput-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetRawInputData function
@@ -63,8 +64,8 @@ Retrieves the raw input from the specified device.
 
 Type: <b>HRAWINPUT</b>
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure. This comes from the 
-					<i>lParam</i> in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a>.
+A handle to the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure. This comes from the 
+					<i>lParam</i> in <a href="/windows/desktop/inputdev/wm-input">WM_INPUT</a>.
 
 ### -param uiCommand [in]
 
@@ -84,7 +85,7 @@ The command flag. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Get the header information from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure.
+Get the header information from the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure.
 
 </td>
 </tr>
@@ -95,7 +96,7 @@ Get the header information from the <a href="https://docs.microsoft.com/windows/
 </dl>
 </td>
 <td width="60%">
-Get the raw data from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure.
+Get the raw data from the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure.
 
 </td>
 </tr>
@@ -105,7 +106,7 @@ Get the raw data from the <a href="https://docs.microsoft.com/windows/desktop/ap
 
 Type: <b>LPVOID</b>
 
-A pointer to the data that comes from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure. This depends on the value of 
+A pointer to the data that comes from the <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure. This depends on the value of 
 					<i>uiCommand</i>. If 
 					<i>pData</i> is <b>NULL</b>, the required size of the buffer is returned in *<i>pcbSize</i>.
 
@@ -120,7 +121,7 @@ The size, in bytes, of the data in
 
 Type: <b>UINT</b>
 
-The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> structure.
+The size, in bytes, of the <a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> structure.
 
 ## -returns
 
@@ -134,7 +135,7 @@ If there is an error, the return value is (<b>UINT</b>)-1.
 
 ## -remarks
 
-<b>GetRawInputData</b> gets the raw input one <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure at a time. In contrast, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputbuffer">GetRawInputBuffer</a> gets an array of <b>RAWINPUT</b> structures.
+<b>GetRawInputData</b> gets the raw input one <a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structure at a time. In contrast, <a href="/windows/desktop/api/winuser/nf-winuser-getrawinputbuffer">GetRawInputBuffer</a> gets an array of <b>RAWINPUT</b> structures.
 
 ## -see-also
 
@@ -142,21 +143,20 @@ If there is an error, the return value is (<b>UINT</b>)-1.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputbuffer">GetRawInputBuffer</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getrawinputbuffer">GetRawInputBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
+<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 
 
 <b>Reference</b>
-

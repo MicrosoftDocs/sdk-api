@@ -58,7 +58,7 @@ The
 ### -param hMprServer [in]
 
 Handle to the router from which information is being retrieved. This handle is obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 ### -param dwTransportId [in]
 
@@ -94,13 +94,13 @@ A <b>DWORD</b> value that describes the transport type to retrieve. Acceptable v
 ### -param ppGlobalInfo [out, optional]
 
 Pointer to a pointer variable. This variable points to an information header that receives global information for this transport. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-information-functions">Information Header Functions</a> to manipulate information headers. 
+<a href="/windows/desktop/RRAS/router-information-functions">Information Header Functions</a> to manipulate information headers. 
 
 
 
 
 Free this memory by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>.
 
 This parameter is optional. If the calling application specifies <b>NULL</b> for this parameter, the function does not retrieve the global information.
 
@@ -111,7 +111,7 @@ Pointer to a <b>DWORD</b> variable. This variable receives the size, in bytes, o
 ### -param ppClientInterfaceInfo [out, optional]
 
 Pointer to a pointer variable. This variable points to default client interface information for this transport. Free this memory by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>. 
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>. 
 
 
 
@@ -193,21 +193,20 @@ The <i>ppGlobalInfo</i> and <i>ppClientInterfaceInfo</i> parameters cannot both 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmintransportsetinfo">MprAdminTransportSetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmintransportsetinfo">MprAdminTransportSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

@@ -54,7 +54,7 @@ Exposes sync event enumeration methods.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSyncMgrEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSyncMgrEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSyncMgrEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSyncMgrEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumSyncMgrEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrevents-clone">Clone</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrevents-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Clones an <b>IEnumSyncMgrEvents</b> object.
@@ -78,7 +78,7 @@ Clones an <b>IEnumSyncMgrEvents</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrevents-next">Next</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrevents-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next batch of events from the event store.
@@ -87,7 +87,7 @@ Gets the next batch of events from the event store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrevents-reset">Reset</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrevents-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the current location in the enumeration to zero.
@@ -96,7 +96,7 @@ Resets the current location in the enumeration to zero.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrevents-skip">Skip</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-ienumsyncmgrevents-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips forward the specified number of events in the enumeration.
@@ -107,5 +107,4 @@ Skips forward the specified number of events in the enumeration.
 
 ## -remarks
 
-An event store returns a pointer to an <b>IEnumSyncMgrEvents</b> interface from <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgreventstore-geteventenumerator">ISyncMgrEventStore::GetEventEnumerator</a>.
-
+An event store returns a pointer to an <b>IEnumSyncMgrEvents</b> interface from <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgreventstore-geteventenumerator">ISyncMgrEventStore::GetEventEnumerator</a>.

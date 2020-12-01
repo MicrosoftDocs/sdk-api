@@ -51,8 +51,8 @@ api_name:
 ## -description
 
 The <b>CryptMemFree</b> function frees memory allocated by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemalloc">CryptMemAlloc</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemrealloc">CryptMemRealloc</a>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemalloc">CryptMemAlloc</a> or 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemrealloc">CryptMemRealloc</a>.
 
 ## -parameters
 
@@ -62,9 +62,8 @@ A pointer to the buffer to be freed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemalloc">CryptMemAlloc</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemalloc">CryptMemAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemrealloc">CryptMemRealloc</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmemrealloc">CryptMemRealloc</a>

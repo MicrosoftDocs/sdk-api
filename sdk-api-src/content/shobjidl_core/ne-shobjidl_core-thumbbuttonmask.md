@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-thumbbutton">THUMBBUTTON</a> structure to specify which members of that structure contain valid data.
+Used by the <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-thumbbutton">THUMBBUTTON</a> structure to specify which members of that structure contain valid data.
 
 ## -enum-fields
 
@@ -72,9 +72,8 @@ The <b>dwFlags</b> member contains valid information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-thumbbutton">THUMBBUTTON</a>
+<a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-thumbbutton">THUMBBUTTON</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-thumbbuttonflags">THUMBBUTTONFLAGS</a>
-
+<a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-thumbbuttonflags">THUMBBUTTONFLAGS</a>

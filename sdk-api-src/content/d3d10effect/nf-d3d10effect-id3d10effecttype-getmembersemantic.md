@@ -56,17 +56,16 @@ Get the semantic attached to a member.
 
 ### -param Index [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A zero-based index.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 A string that contains the semantic.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effecttype">ID3D10EffectType Interface</a>
-
+<a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effecttype">ID3D10EffectType Interface</a>

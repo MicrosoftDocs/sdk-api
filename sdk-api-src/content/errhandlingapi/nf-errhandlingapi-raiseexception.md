@@ -64,7 +64,7 @@ Raises an exception in the calling thread.
 ### -param dwExceptionCode [in]
 
 An application-defined exception code of the exception being raised. The filter expression and exception-handler block of an exception handler can use the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioncode">GetExceptionCode</a> function to retrieve this value. 
+<a href="/windows/desktop/Debug/getexceptioncode">GetExceptionCode</a> function to retrieve this value. 
 
 
 
@@ -99,41 +99,40 @@ Raising an exception causes the exception dispatcher to go through the following
 <li>If the process is not being debugged, or if the associated debugger does not handle the exception, the system attempts to locate a frame-based exception handler by searching the stack frames of the thread in which the exception occurred. The system searches the current stack frame first, then proceeds backward through preceding stack frames.</li>
 <li>If no frame-based handler can be found, or no frame-based handler handles the exception, the system makes a second attempt to notify the process's debugger.</li>
 <li>If the process is not being debugged, or if the associated debugger does not handle the exception, the system provides default handling based on the exception type. For most exceptions, the default action is to call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a> function.</li>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a> function.</li>
 </ol>
 The values specified in the <i>dwExceptionCode</i>, <i>dwExceptionFlags</i>, <i>nNumberOfArguments</i>, and <i>lpArguments</i> parameters can be retrieved in the filter expression of a frame-based exception handler by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a> function. A debugger can retrieve these values by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a> function.
+<a href="/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a> function. A debugger can retrieve these values by calling the 
+<a href="/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/using-an-exception-handler">Using an Exception Handler</a>.
+<a href="/windows/desktop/Debug/using-an-exception-handler">Using an Exception Handler</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitprocess">ExitProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioncode">GetExceptionCode</a>
+<a href="/windows/desktop/Debug/getexceptioncode">GetExceptionCode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a>
+<a href="/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/structured-exception-handling-functions">Structured Exception Handling Functions</a>
+<a href="/windows/desktop/Debug/structured-exception-handling-functions">Structured Exception Handling Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/structured-exception-handling">Structured Exception Handling Overview</a>
+<a href="/windows/desktop/Debug/structured-exception-handling">Structured Exception Handling Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a>
-
+<a href="/windows/desktop/api/debugapi/nf-debugapi-waitfordebugevent">WaitForDebugEvent</a>

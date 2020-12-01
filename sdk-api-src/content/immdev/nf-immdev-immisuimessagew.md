@@ -80,7 +80,7 @@ Returns a nonzero value if the message is processed by the IME window, or 0 othe
 
 An application typically uses this function to display a composition string or candidate list specified by the IME. If <i>hWndIME</i> is <b>NULL</b>, the function determines if the message is a user interface message.
 
-<b>Windows Me/98:</b> This function has only an ANSI version. To receive Unicode characters from a Unicode-based IME, the application should use <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immgetcompositionstringa">ImmGetCompositionString</a>.
+<b>Windows Me/98:</b> This function has only an ANSI version. To receive Unicode characters from a Unicode-based IME, the application should use <a href="/windows/desktop/api/imm/nf-imm-immgetcompositionstringa">ImmGetCompositionString</a>.
 
 
 
@@ -91,13 +91,12 @@ An application typically uses this function to display a composition string or c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immgetcompositionstringa">ImmGetCompositionString</a>
+<a href="/windows/desktop/api/imm/nf-imm-immgetcompositionstringa">ImmGetCompositionString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

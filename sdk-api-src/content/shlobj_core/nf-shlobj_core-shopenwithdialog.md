@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - SHOpenWithDialog
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SHOpenWithDialog function
@@ -64,9 +65,9 @@ The handle of the parent window. This value can be <b>NULL</b>.
 
 ### -param poainfo [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-openasinfo">OPENASINFO</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-openasinfo">OPENASINFO</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-openasinfo">OPENASINFO</a> structure, which specifies the contents of the resulting dialog.
+A pointer to an <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-openasinfo">OPENASINFO</a> structure, which specifies the contents of the resulting dialog.
 
 ## -returns
 
@@ -79,4 +80,3 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 Starting in Windows 10, the <b>OAIF_ALLOW_REGISTRATION</b>, <b>OAIF_FORCE_REGISTRATION</b>, and <b>OAIF_HIDE_REGISTRATION</b> flags will be ignored by <b>SHOpenWithDialog</b>. The <b>Open With</b> dialog box can no longer be used to change the default program used to open a file extension. You can only use <b>SHOpenWithDialog</b> to open a single file.
 
 If <b>SHOpenWithDialog</b> is called without passing <b>OAIF_EXEC</b>, the user will receive a dialog that informs them that they can change the default programs used to open file extensions in their <b>Settings</b>.
-

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Constructs a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">locale identifier</a> (LCID) from a <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">language identifier</a>, a <a href="https://docs.microsoft.com/windows/desktop/Intl/sort-order-identifiers">sort order identifier</a>, and the sort version.
+Constructs a <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a> (LCID) from a <a href="/windows/desktop/Intl/language-identifiers">language identifier</a>, a <a href="/windows/desktop/Intl/sort-order-identifiers">sort order identifier</a>, and the sort version.
 
 ## -parameters
 
 ### -param lgid
 
-Language identifier. This parameter is a combination of a primary language identifier and a sublanguage identifier and is usually created by using the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro.
+Language identifier. This parameter is a combination of a primary language identifier and a sublanguage identifier and is usually created by using the <a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a> macro.
 
 ### -param srtid
 
@@ -68,20 +68,19 @@ Reserved; must be 0.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a> represents a special locale-independent locale identifier. It is designed for system-level functions that require consistent results regardless of the locale that the user has chosen, for example, sorting in the file system. Typically, an application does not use LOCALE_INVARIANT because it expects the results of an action to depend on the rules governing each individual locale.
+<a href="/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a> represents a special locale-independent locale identifier. It is designed for system-level functions that require consistent results regardless of the locale that the user has chosen, for example, sorting in the file system. Typically, an application does not use LOCALE_INVARIANT because it expects the results of an action to depend on the rules governing each individual locale.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a> is composed of a language identifier consisting of LANG_INVARIANT for the primary language and SUBLANG_NEUTRAL for the sublanguage. SORT_DEFAULT is used for the sort order identifier.
+<a href="/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a> is composed of a language identifier consisting of LANG_INVARIANT for the primary language and SUBLANG_NEUTRAL for the sublanguage. SORT_DEFAULT is used for the sort order identifier.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-makelangid">MAKELANGID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-macros">National Language Support Macros</a>
-
+<a href="/windows/desktop/Intl/national-language-support-macros">National Language Support Macros</a>

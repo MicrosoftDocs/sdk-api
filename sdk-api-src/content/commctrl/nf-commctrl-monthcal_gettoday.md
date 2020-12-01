@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the date information for the date specified as "today" for a month calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-gettoday">MCM_GETTODAY</a> message explicitly.
+Retrieves the date information for the date specified as "today" for a month calendar control. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-gettoday">MCM_GETTODAY</a> message explicitly.
 
 ## -parameters
 
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
@@ -64,5 +64,4 @@ Handle to a month calendar control.
 
 Type: <b>LPSYSTEMTIME</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that will receive the date information. The time members of this structure will not be modified. This parameter must be a valid address and cannot be <b>NULL</b>.
-
+Pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that will receive the date information. The time members of this structure will not be modified. This parameter must be a valid address and cannot be <b>NULL</b>.

@@ -56,9 +56,8 @@ Closes the specified handle.
 
 ### -param hHandle [in]
 
-A handle to be closed. This can be a handle obtained using the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpparseinitialize">WdsBpParseInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpinitialize">WdsBpInitialize</a> functions.
+A handle to be closed. This can be a handle obtained using the <a href="/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpparseinitialize">WdsBpParseInitialize</a> or <a href="/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpinitialize">WdsBpInitialize</a> functions.
 
 ## -returns
 
 If the function succeeds, the return is <b>S_OK</b>.
-

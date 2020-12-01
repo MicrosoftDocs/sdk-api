@@ -43,7 +43,7 @@ api_name:
 ## -description
 
 Represents a 64-bit unsigned integer value.
-<div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="https://docs.microsoft.com/windows/desktop/Midl/--int64">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
+<div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="/windows/desktop/Midl/--int64">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
 
 ## -struct-fields
 
@@ -69,9 +69,8 @@ The <b>ULARGE_INTEGER</b> structure is actually a union. If your compiler has bu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
-<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>

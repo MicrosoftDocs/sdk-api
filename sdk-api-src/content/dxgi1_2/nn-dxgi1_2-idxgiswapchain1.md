@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Provides presentation capabilities that are enhanced from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>. These presentation capabilities consist of specifying dirty rectangles and scroll rectangle to optimize the presentation.
+Provides presentation capabilities that are enhanced from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>. These presentation capabilities consist of specifying dirty rectangles and scroll rectangle to optimize the presentation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGISwapChain1</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>. <b>IDXGISwapChain1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGISwapChain1</b> interface inherits from <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>. <b>IDXGISwapChain1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDXGISwapChain1</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getbackgroundcolor">GetBackgroundColor</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getbackgroundcolor">GetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the background color of the swap chain.
@@ -79,16 +79,16 @@ Retrieves the background color of the swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getcorewindow">GetCoreWindow</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getcorewindow">GetCoreWindow</a>
 </td>
 <td align="left" width="63%">
-Retrieves the underlying <a href="https://msdn.microsoft.com/sk-sk/windows/desktop/windows.ui.core.corewindow">CoreWindow</a> object for this swap-chain object.
+Retrieves the underlying <a href="/uwp/api/Windows.UI.Core.CoreWindow">CoreWindow</a> object for this swap-chain object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getdesc1">GetDesc1</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getdesc1">GetDesc1</a>
 </td>
 <td align="left" width="63%">
 Gets a description of the swap chain.
@@ -97,7 +97,7 @@ Gets a description of the swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getfullscreendesc">GetFullscreenDesc</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getfullscreendesc">GetFullscreenDesc</a>
 </td>
 <td align="left" width="63%">
 Gets a description of a full-screen swap chain.
@@ -106,16 +106,16 @@ Gets a description of a full-screen swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-gethwnd">GetHwnd</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-gethwnd">GetHwnd</a>
 </td>
 <td align="left" width="63%">
-Retrieves the underlying <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a> for this swap-chain object.
+Retrieves the underlying <a href="/windows/desktop/WinProg/windows-data-types">HWND</a> for this swap-chain object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getrestricttooutput">GetRestrictToOutput</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getrestricttooutput">GetRestrictToOutput</a>
 </td>
 <td align="left" width="63%">
 Gets the output (the display monitor) to which you can restrict the contents of a present operation.
@@ -124,7 +124,7 @@ Gets the output (the display monitor) to which you can restrict the contents of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getrotation">GetRotation</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getrotation">GetRotation</a>
 </td>
 <td align="left" width="63%">
 Gets the rotation of the back buffers for the swap chain.
@@ -133,7 +133,7 @@ Gets the rotation of the back buffers for the swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-istemporarymonosupported">IsTemporaryMonoSupported</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-istemporarymonosupported">IsTemporaryMonoSupported</a>
 </td>
 <td align="left" width="63%">
 Determines whether a swap chain supports “temporary mono.”
@@ -142,7 +142,7 @@ Determines whether a swap chain supports “temporary mono.”
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">Present1</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-present1">Present1</a>
 </td>
 <td align="left" width="63%">
 Presents a frame on the display screen. 
@@ -151,7 +151,7 @@ Presents a frame on the display screen.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-setbackgroundcolor">SetBackgroundColor</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-setbackgroundcolor">SetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Changes the background color of the swap chain.
@@ -160,7 +160,7 @@ Changes the background color of the swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-setrotation">SetRotation</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-setrotation">SetRotation</a>
 </td>
 <td align="left" width="63%">
 Sets the rotation of the back buffers for the swap chain.
@@ -172,31 +172,30 @@ Sets the rotation of the back buffers for the swap chain.
 ## -remarks
 
 You can create a swap chain by 
-calling <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd">IDXGIFactory2::CreateSwapChainForHwnd</a>, <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow">IDXGIFactory2::CreateSwapChainForCoreWindow</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition">IDXGIFactory2::CreateSwapChainForComposition</a>. You can also create a swap chain when you call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-d3d11createdeviceandswapchain">D3D11CreateDeviceAndSwapChain</a>; however, you can then only access the sub-set of swap-chain functionality that the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a> interface provides.
+calling <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd">IDXGIFactory2::CreateSwapChainForHwnd</a>, <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow">IDXGIFactory2::CreateSwapChainForCoreWindow</a>, or <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition">IDXGIFactory2::CreateSwapChainForComposition</a>. You can also create a swap chain when you call <a href="/windows/desktop/api/d3d11/nf-d3d11-d3d11createdeviceandswapchain">D3D11CreateDeviceAndSwapChain</a>; however, you can then only access the sub-set of swap-chain functionality that the <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a> interface provides.
 
-<b>IDXGISwapChain1</b> provides the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-istemporarymonosupported">IsTemporaryMonoSupported</a> method that you can use to determine whether the swap chain supports "temporary mono” presentation. This type of swap chain is a stereo swap chain that can be used to present mono content.
+<b>IDXGISwapChain1</b> provides the <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-istemporarymonosupported">IsTemporaryMonoSupported</a> method that you can use to determine whether the swap chain supports "temporary mono” presentation. This type of swap chain is a stereo swap chain that can be used to present mono content.
 
 
-<div class="alert"><b>Note</b>  Some stereo features like the advanced presentation flags are not represented by an explicit interface change.  Furthermore, the original (<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>) and new (<b>IDXGISwapChain1</b>) swap chain interfaces generally have the same behavior. For information about how <b>IDXGISwapChain</b> methods are translated into <b>IDXGISwapChain1</b> methods, see the descriptions of the <b>IDXGISwapChain1</b> methods.</div>
+<div class="alert"><b>Note</b>  Some stereo features like the advanced presentation flags are not represented by an explicit interface change.  Furthermore, the original (<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>) and new (<b>IDXGISwapChain1</b>) swap chain interfaces generally have the same behavior. For information about how <b>IDXGISwapChain</b> methods are translated into <b>IDXGISwapChain1</b> methods, see the descriptions of the <b>IDXGISwapChain1</b> methods.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition">IDXGIFactory2::CreateSwapChainForComposition</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition">IDXGIFactory2::CreateSwapChainForComposition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow">IDXGIFactory2::CreateSwapChainForCoreWindow</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow">IDXGIFactory2::CreateSwapChainForCoreWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd">IDXGIFactory2::CreateSwapChainForHwnd</a>
+<a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd">IDXGIFactory2::CreateSwapChainForHwnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>
-
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>

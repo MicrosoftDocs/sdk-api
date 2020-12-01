@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 <div class="alert"><b>Note</b>  The <b>IConsole::SetHeader</b> method is obsolete in MMC version 1.1 and later. It is no longer required by snap-ins. However, the method can still safely be used by snap-ins that already call it.</div><div> </div>Sets the header interface to use for this instance of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>. This is used only by instances of 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>. This is used only by instances of 
 <b>IComponent</b>.
 
 ## -parameters
@@ -72,9 +72,8 @@ The snap-in must instruct the console to release the
 
 The best time to release the 
 <b>IHeaderCtrl</b> interface is during a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-destroy">IComponent::Destroy</a>.
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-destroy">IComponent::Destroy</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>

@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Gets the number of lines in the text of an edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getlinecount">EM_GETLINECOUNT</a> message explicitly.
+Gets the number of lines in the text of an edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-getlinecount">EM_GETLINECOUNT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getlinecount">EM_GETLINECOUNT</a>
-
+For more information, see <a href="/windows/desktop/Controls/em-getlinecount">EM_GETLINECOUNT</a>

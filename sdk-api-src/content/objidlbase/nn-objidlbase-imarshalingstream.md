@@ -54,7 +54,7 @@ Provides additional information about the marshaling context to custom-marshaled
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMarshalingStream</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. <b>IMarshalingStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMarshalingStream</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. <b>IMarshalingStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMarshalingStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imarshalingstream-getmarshalingcontextattribute">GetMarshalingContextAttribute</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imarshalingstream-getmarshalingcontextattribute">GetMarshalingContextAttribute</a>
 </td>
 <td align="left" width="63%">
 Gets information about the marshaling context.
@@ -80,7 +80,7 @@ Gets information about the marshaling context.
 
 ## -remarks
 
-Implement <b>IMarshalingStream</b> interface if you have <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> implementations that call the marshaling APIs and provide the correct value of any of the attributes. This is essential only for <b>IStream</b> implementations that are used in hybrid policy processes.
+Implement <b>IMarshalingStream</b> interface if you have <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> implementations that call the marshaling APIs and provide the correct value of any of the attributes. This is essential only for <b>IStream</b> implementations that are used in hybrid policy processes.
 
 ## -see-also
 
@@ -88,5 +88,4 @@ Implement <b>IMarshalingStream</b> interface if you have <a href="https://docs.m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>

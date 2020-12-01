@@ -94,21 +94,20 @@ Pointer to a null-terminated wide-character string containing the instance name 
 
 ## -remarks
 
-<b>FilterDetach</b> is the Win32 equivalent of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdetachvolume">FltDetachVolume</a>. 
+<b>FilterDetach</b> is the Win32 equivalent of <a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdetachvolume">FltDetachVolume</a>. 
 
 <b>FilterDetach</b> detaches a minifilter instance from a volume and tears down the instance. 
 
-To attach a minifilter instance to a volume, call <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattach">FilterAttach</a> or <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>.
+To attach a minifilter instance to a volume, call <a href="/windows/desktop/api/fltuser/nf-fltuser-filterattach">FilterAttach</a> or <a href="/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattach">FilterAttach</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterattach">FilterAttach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdetachvolume">FltDetachVolume</a>
-
+<a href="/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdetachvolume">FltDetachVolume</a>

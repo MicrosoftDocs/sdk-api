@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The use of this interface is not recommended; use the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a> interface instead.]
+<p class="CCE_Message">[The use of this interface is not recommended; use the <a href="/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a> interface instead.]
 
-Used by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurrogateService</a> to prevent the process from terminating due to a time-out.
+Used by <a href="/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurrogateService</a> to prevent the process from terminating due to a time-out.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProcessLock</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProcessLock</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProcessLock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProcessLock</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IProcessLock</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iprocesslock-addrefonprocess">AddRefOnProcess</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iprocesslock-addrefonprocess">AddRefOnProcess</a>
 </td>
 <td align="left" width="63%">
 Increments the reference count of the process.
@@ -80,7 +80,7 @@ Increments the reference count of the process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iprocesslock-releaserefonprocess">ReleaseRefOnProcess</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iprocesslock-releaserefonprocess">ReleaseRefOnProcess</a>
 </td>
 <td align="left" width="63%">
 Decrements the reference count of the process.
@@ -91,5 +91,4 @@ Decrements the reference count of the process.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol">IProcessInitControl</a>

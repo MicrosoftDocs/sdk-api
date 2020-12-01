@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the most significant 32 bits of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize">IFsiFileItem::get_DataSize</a> property.
+Retrieves the most significant 32 bits of the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize">IFsiFileItem::get_DataSize</a> property.
 
 ## -parameters
 
 ### -param pVal [out]
 
-Most significant 32 bits of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize">IFsiFileItem::get_DataSize</a> property.
+Most significant 32 bits of the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize">IFsiFileItem::get_DataSize</a> property.
 
 ## -returns
 
@@ -84,13 +84,12 @@ Value: 0x80004003
 
 ## -remarks
 
-This property and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize32bitlow">IFsiFileItem::get_DataSize32BitLow</a> together  provide the size of the file as two 32-bit numbers for languages that do not support 64-bit values, such as VBScript and Visual Basic 6.
+This property and <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize32bitlow">IFsiFileItem::get_DataSize32BitLow</a> together  provide the size of the file as two 32-bit numbers for languages that do not support 64-bit values, such as VBScript and Visual Basic 6.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem">IFsiFileItem</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem">IFsiFileItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize">IFsiFileItem::get_DataSize</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsifileitem-get_datasize">IFsiFileItem::get_DataSize</a>

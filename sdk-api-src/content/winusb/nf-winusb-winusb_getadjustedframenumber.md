@@ -68,9 +68,8 @@ The timestamp recorded at the time the frame        number was returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Send USB isochronous transfers from a WinUSB desktop app</a>
+<a href="/windows-hardware/drivers/usbcon/">Send USB isochronous transfers from a WinUSB desktop app</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
-
+<a href="/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>

@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>StgCreatePropSetStg</b> function creates a property set storage object from a specified storage object. The property set storage object supplies the system-provided, stand-alone implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> interface.
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> interface.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ Reserved for future use; must be zero.
 ### -param ppPropSetStg [out]
 
 A pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>* pointer variable that receives the interface pointer to the property-set storage object.
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a>* pointer variable that receives the interface pointer to the property-set storage object.
 
 ## -returns
 
@@ -78,12 +78,12 @@ This function supports the standard return value <b>E_INVALIDARG</b> as well as 
 
 The 
 <b>StgCreatePropSetStg</b> function creates an 
-<a href="https://docs.microsoft.com/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> interface that will act on the given 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface specified by the <i>pStorage</i> parameter. This function does not modify this 
+<a href="/windows/desktop/api/propidl/nn-propidl-ipropertysetstorage">IPropertySetStorage</a> interface that will act on the given 
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface specified by the <i>pStorage</i> parameter. This function does not modify this 
 <b>IStorage</b> by itself, although subsequent calls to the 
 <b>IPropertySetStorage</b> interface might.
 
-<b>StgCreatePropSetStg</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> on the storage object specified by <i>pStorage</i>. The caller must release the object when it is no longer required by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>.
+<b>StgCreatePropSetStg</b> calls <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> on the storage object specified by <i>pStorage</i>. The caller must release the object when it is no longer required by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>.
 
 
 #### Examples
@@ -129,13 +129,12 @@ CreatePropertySetInStorage( IStorage *pStg, const FMTID &fmtid )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/ipropertysetstorage-stand-alone-implementation">IPropertySetStorage-Stand-alone Implementation</a>
+<a href="/windows/desktop/Stg/ipropertysetstorage-stand-alone-implementation">IPropertySetStorage-Stand-alone Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/samples">Samples</a>
+<a href="/windows/desktop/Stg/samples">Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/stgcreatepropsetstg-sample">StgCreatePropSetStg Sample</a>
-
+<a href="/windows/desktop/Stg/stgcreatepropsetstg-sample">StgCreatePropSetStg Sample</a>

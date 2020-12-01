@@ -54,7 +54,7 @@ Represents a condition made up of multiple conditions, at least one of which mus
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationOrCondition</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>. <b>IUIAutomationOrCondition</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationOrCondition</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>. <b>IUIAutomationOrCondition</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationOrCondition</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationorcondition-getchildren">GetChildren</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationorcondition-getchildren">GetChildren</a>
 </td>
 <td align="left" width="63%">
 Retrieves the conditions that make up this "or" condition.
@@ -79,7 +79,7 @@ Retrieves the conditions that make up this "or" condition.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationorcondition-getchildrenasnativearray">GetChildrenAsNativeArray</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationorcondition-getchildrenasnativearray">GetChildrenAsNativeArray</a>
 </td>
 <td align="left" width="63%">
 Retrieves the conditions that make up this "or" condition, as an ordinary array.
@@ -97,7 +97,7 @@ Retrieves the conditions that make up this "or" condition, as an ordinary array.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationorcondition-get_childcount">ChildCount</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationorcondition-get_childcount">ChildCount</a>
 
 
 </td>
@@ -114,9 +114,8 @@ Retrieves the number of conditions that make up this "or" condition.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcondition">IUIAutomationCondition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-propconditioninterfaces">Property Condition Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-client-propconditioninterfaces">Property Condition Interfaces for Clients</a>

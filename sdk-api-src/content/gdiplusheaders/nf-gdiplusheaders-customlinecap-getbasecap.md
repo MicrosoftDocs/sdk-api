@@ -51,21 +51,20 @@ api_name:
 
 ## -description
 
-The <b>CustomLineCap::GetBaseCap</b> method gets the style of the base cap. The base cap is a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> object used as a cap at the end of a line along with this <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a> object.
+The <b>CustomLineCap::GetBaseCap</b> method gets the style of the base cap. The base cap is a <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> object used as a cap at the end of a line along with this <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a> object.
 
 ## -parameters
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a></b>
 
 This method returns the value of the line cap used at the base of the line.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a>
-
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a>

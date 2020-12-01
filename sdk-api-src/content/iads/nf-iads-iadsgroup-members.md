@@ -52,21 +52,21 @@ api_name:
 
 The <b>IADsGroup::Members</b> method retrieves a collection of the immediate members of the group.  The collection does not include the members of other groups that are nested within the group.
 
-The default implementation of this method uses <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupsids">LsaLookupSids</a> to query name information for the group members. LsaLookupSids has a maximum limitation of 20480 SIDs it can convert, therefore that limitation also applies to this method.
+The default implementation of this method uses <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupsids">LsaLookupSids</a> to query name information for the group members. LsaLookupSids has a maximum limitation of 20480 SIDs it can convert, therefore that limitation also applies to this method.
 
 ## -parameters
 
 ### -param ppMembers [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a> interface pointer that receives the collection of group members. The caller must  release this interface when it is no longer required.
+Pointer to an <a href="/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a> interface pointer that receives the collection of group members. The caller must  release this interface when it is no longer required.
 
 ## -returns
 
-This method supports the standard return values, including <b>S_OK</b>. For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard return values, including <b>S_OK</b>. For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a><b>Members</b> method will use the same provider.
+The <a href="/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a><b>Members</b> method will use the same provider.
 
 
 #### Examples
@@ -123,17 +123,16 @@ Cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup">IADsGroup</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsgroup">IADsGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsgroup-property-methods">IADsGroup Property Methods</a>
+<a href="/windows/desktop/ADSI/iadsgroup-property-methods">IADsGroup Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a>

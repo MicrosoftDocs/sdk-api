@@ -54,7 +54,7 @@ A callback interface that exposes a method that receives messages from a menu ba
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellMenuCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellMenuCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellMenuCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellMenuCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellMenuCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm">CallbackSM</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm">CallbackSM</a>
 </td>
 <td align="left" width="63%">
 Receives messages from a menu band object.
@@ -80,13 +80,12 @@ Receives messages from a menu band object.
 
 ## -remarks
 
-Once you have created the menu band object, pass a pointer to this interface to the menu band object by calling <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">IShellMenu::Initialize</a>. You receive messages from the menu band through the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm">IShellMenuCallback::CallbackSM</a> method.
+Once you have created the menu band object, pass a pointer to this interface to the menu band object by calling <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">IShellMenu::Initialize</a>. You receive messages from the menu band through the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm">IShellMenuCallback::CallbackSM</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenuband">IMenuBand</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-imenuband">IMenuBand</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/profiles-directory">MenuBand</a>
-
+<a href="/windows/desktop/shell/profiles-directory">MenuBand</a>

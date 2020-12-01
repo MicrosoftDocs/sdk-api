@@ -51,21 +51,20 @@ api_name:
 
 ## -description
 
-A pixel-shader interface manages an executable program (a pixel shader) that controls the <a href="https://docs.microsoft.com/previous-versions/bb205146(v=vs.85)">pixel-shader stage</a>.
+A pixel-shader interface manages an executable program (a pixel shader) that controls the <a href="/previous-versions/bb205146(v=vs.85)">pixel-shader stage</a>.
 
 ## -remarks
 
-The pixel-shader interface has no methods; use HLSL to implement your shader functionality. All shaders in Direct3D 10 are implemented from a common set of features referred to as the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-common-core">common shader core</a>.
+The pixel-shader interface has no methods; use HLSL to implement your shader functionality. All shaders in Direct3D 10 are implemented from a common set of features referred to as the <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-common-core">common shader core</a>.
 
-To create a pixel shader interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createpixelshader">ID3D10Device::CreatePixelShader</a>. Before using a pixel shader you must bind it to the device by calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-pssetshader">ID3D10Device::PSSetShader</a>.
+To create a pixel shader interface, call <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-createpixelshader">ID3D10Device::CreatePixelShader</a>. Before using a pixel shader you must bind it to the device by calling <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-pssetshader">ID3D10Device::PSSetShader</a>.
 
 This interface is defined in D3D10.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-interfaces">Shader Interfaces</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-interfaces">Shader Interfaces</a>

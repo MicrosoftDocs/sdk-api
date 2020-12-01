@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getstringattribute">GetIntegerAttribute</a> method gets a cached attribute  from the device as an integer.
+The <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-getstringattribute">GetIntegerAttribute</a> method gets a cached attribute  from the device as an integer.
 
 ## -parameters
 
@@ -119,9 +119,8 @@ This attribute cannot be expressed as an integer. For example, if it is a string
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
+<a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
 
 
 
 <b>WCN_ATTRIBUTE_TYPE</b>
-

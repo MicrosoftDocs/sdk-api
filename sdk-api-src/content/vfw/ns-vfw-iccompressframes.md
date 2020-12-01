@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICCOMPRESSFRAMES</b> structure contains compression parameters used with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-frames-info">ICM_COMPRESS_FRAMES_INFO</a> message.
+The <b>ICCOMPRESSFRAMES</b> structure contains compression parameters used with the <a href="/windows/desktop/Multimedia/icm-compress-frames-info">ICM_COMPRESS_FRAMES_INFO</a> message.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ Applicable flags. The following value is defined: <b>ICCOMPRESSFRAMES_PADDING</b
 
 ### -field lpbiOutput
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format.
 
 ### -field lOutput
 
@@ -68,7 +68,7 @@ Reserved; do not use.
 
 ### -field lpbiInput
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the input format.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the input format.
 
 ### -field lInput
 
@@ -120,11 +120,11 @@ Reserved; do not use.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/ms532290.aspx">BITMAPINFOHEADER</a>
+<a href="/previous-versions//ms532290(v=vs.85)">BITMAPINFOHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-frames-info">ICM_COMPRESS_FRAMES_INFO</a>
+<a href="/windows/desktop/Multimedia/icm-compress-frames-info">ICM_COMPRESS_FRAMES_INFO</a>
 
 
 
@@ -132,5 +132,4 @@ Video Compression Manager
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>

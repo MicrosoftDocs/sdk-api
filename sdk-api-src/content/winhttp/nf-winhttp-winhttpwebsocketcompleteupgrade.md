@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>WinHttpWebSocketCompleteUpgrade</b> function completes a WebSocket handshake started by <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>.
+The <b>WinHttpWebSocketCompleteUpgrade</b> function completes a WebSocket handshake started by <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsendrequest">WinHttpSendRequest</a>.
 
 ## -parameters
 
@@ -70,13 +70,12 @@ Context to be associated with the new handle.
 
 Type: <b>HINTERNET</b>
 
-A new WebSocket handle. If NULL, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to determine the cause of failure.
+A new WebSocket handle. If NULL, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to determine the cause of failure.
 
 ## -remarks
 
 <b>WinHttpWebSocketCompleteUpgrade</b> can be called on an open HTTP request to get a WebSocket handle for performing other WebSocket operations.
 
-The request handle must be marked as a WebSocket upgrade by calling <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetoption">WinHttpSetOption</a> with <b>WINHTTP_OPTION_UPGRADE_TO_WEB_SOCKET</b> before sending the request.
+The request handle must be marked as a WebSocket upgrade by calling <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsetoption">WinHttpSetOption</a> with <b>WINHTTP_OPTION_UPGRADE_TO_WEB_SOCKET</b> before sending the request.
 
 The caller should check the HTTP status code returned by the server and call this function only if the status code was 101. Calling it with any other status code will result in a failure.
-

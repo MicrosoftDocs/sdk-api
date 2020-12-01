@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Adds an event handler (<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerchangedeventhandler">ISpellCheckerChangedEventHandler</a>) for the SpellCheckerChanged event.
+Adds an event handler (<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerchangedeventhandler">ISpellCheckerChangedEventHandler</a>) for the SpellCheckerChanged event.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The handler to invoke when the spell checker changes.
 
 ### -param eventCookie [out, retval]
 
-An event cookie that uniquely identifies the added handler. This cookie must be passed to <a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-remove_spellcheckerchanged">remove_SpellCheckerChanged</a> to stop this handler from being invoked by spell checker changes.
+An event cookie that uniquely identifies the added handler. This cookie must be passed to <a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-remove_spellcheckerchanged">remove_SpellCheckerChanged</a> to stop this handler from being invoked by spell checker changes.
 
 ## -returns
 
@@ -72,13 +72,12 @@ The SpellCheckerChanged event fires whenever the state of the spell checker chan
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerchangedeventhandler">ISpellCheckerChangedEventHandler</a>
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerchangedeventhandler">ISpellCheckerChangedEventHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-remove_spellcheckerchanged">remove_SpellCheckerChanged</a>
-
+<a href="/windows/desktop/api/spellcheck/nf-spellcheck-ispellchecker-remove_spellcheckerchanged">remove_SpellCheckerChanged</a>

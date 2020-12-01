@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SecPkgContext_EapPrfInfo</b> structure specifies the pseudorandom function (PRF) and extracts key data used by the Extensible Authentication Protocol (EAP) <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">Transport Layer Security protocol</a> (TLS) Authentication Protocol. For information about the EAP TLS Authentication Protocol, see <a href="https://www.ietf.org/rfc/rfc2716.txt">http://www.ietf.org/rfc/rfc2716.txt</a>.
+The <b>SecPkgContext_EapPrfInfo</b> structure specifies the pseudorandom function (PRF) and extracts key data used by the Extensible Authentication Protocol (EAP) <a href="/windows/desktop/SecGloss/t-gly">Transport Layer Security protocol</a> (TLS) Authentication Protocol. For information about the EAP TLS Authentication Protocol, see <a href="https://www.ietf.org/rfc/rfc2716.txt">http://www.ietf.org/rfc/rfc2716.txt</a>.
 
 ## -struct-fields
 
@@ -124,4 +124,3 @@ PRF(master_secret, "key expansion", server_random + client_random)
 </table>
 
 ### -field pbPrfData
-

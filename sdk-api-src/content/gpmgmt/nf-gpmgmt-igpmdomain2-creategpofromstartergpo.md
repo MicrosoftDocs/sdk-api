@@ -45,28 +45,20 @@ api_name:
  - IGPMDomain2.CreateGPOFromStarterGPO
 ---
 
-# IGPMDomain2::CreateGPOFromStarterGPO
-
-
 ## -description
 
 Creates and retrieves a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a> object from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object. This method creates a new <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a> object. Then, this method copies the contents of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object into the <b>GPMGPO</b> object. Finally, this method updates the appropriate attributes of the <b>GPMGPO</b> object to reflect the configured data.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a> object from a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object. This method creates a new <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a> object. Then, this method copies the contents of the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object into the <b>GPMGPO</b> object. Finally, this method updates the appropriate attributes of the <b>GPMGPO</b> object to reflect the configured data.
 
 ## -parameters
 
 ### -param pGPOTemplate [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object from which the new Group Policy object (GPO) will be created.
+A pointer to a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object from which the new Group Policy object (GPO) will be created.
 
 ### -param ppnewGPO [out]
 
-Address of a pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a> object that represents the new GPO.
-
-
-#### - objGPMStarterGPO [in]
-
-A reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">GPMStarterGPO</a> object from which the new GPO will be created.
+Address of a pointer to an <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a> object that represents the new GPO.
 
 ## -returns
 
@@ -74,12 +66,11 @@ A reference to a <a href="https://docs.microsoft.com/previous-versions/windows/d
 Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 <h3>JScript</h3>
-Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a>  object.
+Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a>  object.
 
 <h3>VB</h3>
-Returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a>  object.
+Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a>  object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain2">IGPMDomain2</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain2">IGPMDomain2</a>

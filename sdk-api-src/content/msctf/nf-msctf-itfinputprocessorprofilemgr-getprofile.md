@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ITfInputProcessorProfileMgr::GetProfile</b> method returns the information of the specified text service's profile or keyboard layout in <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_inputprocessorprofile">TF_INPUTPROCESSORPROFILE</a> structure.
+The <b>ITfInputProcessorProfileMgr::GetProfile</b> method returns the information of the specified text service's profile or keyboard layout in <a href="/windows/desktop/api/msctf/ns-msctf-tf_inputprocessorprofile">TF_INPUTPROCESSORPROFILE</a> structure.
 
 ## -parameters
 
@@ -103,7 +103,7 @@ This is a keyboard layout.
 
 ### -param pProfile [out]
 
-[out] The buffer to receive <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_inputprocessorprofile">TF_INPUTPROCESSORPROFILE</a>.
+[out] The buffer to receive <a href="/windows/desktop/api/msctf/ns-msctf-tf_inputprocessorprofile">TF_INPUTPROCESSORPROFILE</a>.
 
 ## -returns
 
@@ -148,4 +148,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

@@ -56,7 +56,7 @@ Copies information into a buffer that should be added to your DHCP packet option
 
 ### -param hHandle [in]
 
-A handle to the packet. This handle must have been returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpinitialize">WdsBpInitialize</a> function.
+A handle to the packet. This handle must have been returned by the <a href="/windows/desktop/api/wdsbp/nf-wdsbp-wdsbpinitialize">WdsBpInitialize</a> function.
 
 ### -param uBufferLen [in]
 
@@ -73,4 +73,3 @@ The number of bytes copied to the buffer.
 ## -returns
 
 If the function succeeds, the return is <b>S_OK</b>.
-

@@ -45,6 +45,7 @@ api_location:
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
  - WindowFromDC
+req.apiset: ext-ms-win-ntuser-draw-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # WindowFromDC function
@@ -66,21 +67,20 @@ The return value is a handle to the window associated with the specified DC. If 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdcex">GetDCEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdcex">GetDCEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdc">GetWindowDC</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindowdc">GetWindowDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
-
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>

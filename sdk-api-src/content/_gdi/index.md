@@ -26,5 +26,4 @@ To develop Windows GDI, you need these headers:
 
 For programming guidance for this technology, see:
 * [Windows GDI](/windows/desktop/gdi)
-* [Documents and Printing](https://docs.microsoft.com/windows/desktop/printdocs/documents-and-printing)
-
+* [Documents and Printing](/windows/desktop/printdocs/documents-and-printing)

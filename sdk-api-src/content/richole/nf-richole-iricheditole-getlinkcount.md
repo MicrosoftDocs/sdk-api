@@ -56,11 +56,10 @@ Returns the number of objects in a rich edit control that are links.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 This method returns the number of links.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
-
+<a href="/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>

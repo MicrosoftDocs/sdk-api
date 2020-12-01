@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
  - SetUmsThreadInformation
+req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 ---
 
 # SetUmsThreadInformation function
@@ -61,7 +62,7 @@ A pointer to a UMS thread context.
 
 ### -param UmsThreadInfoClass [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a> value that specifies the kind of information to set. This parameter must be <b>UmsThreadUserContext</b>.
+A <a href="/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a> value that specifies the kind of information to set. This parameter must be <b>UmsThreadUserContext</b>.
 
 ### -param UmsThreadInformation [in]
 
@@ -116,4 +117,3 @@ The <a href="/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">QueryUmsThreadInformation</a>
-

@@ -58,7 +58,7 @@ The <b>WriteClassStm</b> function stores the specified CLSID in the stream.
 
 ### -param pStm [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to the stream into which the CLSID is to be written.
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> pointer to the stream into which the CLSID is to be written.
 
 ### -param rclsid [in]
 
@@ -72,19 +72,18 @@ This function returns HRESULT.
 
 The 
 <b>WriteClassStm</b> function writes a CLSID to the specified stream object so it can be read by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-readclassstm">ReadClassStm</a> function. Most applications do not call 
+<a href="/windows/desktop/api/coml2api/nf-coml2api-readclassstm">ReadClassStm</a> function. Most applications do not call 
 <b>WriteClassStm</b> directly. OLE calls it before making a call to an object's 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-save">IPersistStream::Save</a> method.
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-save">IPersistStream::Save</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-readclassstg">ReadClassStg</a>
+<a href="/windows/desktop/api/coml2api/nf-coml2api-readclassstg">ReadClassStg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-readclassstm">ReadClassStm</a>
+<a href="/windows/desktop/api/coml2api/nf-coml2api-readclassstm">ReadClassStm</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a>
-
+<a href="/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a>

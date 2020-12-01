@@ -64,5 +64,4 @@ If the method skips the number of items requested, the return value is S_OK. Oth
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-ienumguid">IEnumGUID</a>
-
+<a href="/windows/desktop/api/comcat/nn-comcat-ienumguid">IEnumGUID</a>

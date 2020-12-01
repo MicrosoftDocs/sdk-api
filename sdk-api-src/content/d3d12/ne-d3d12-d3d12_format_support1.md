@@ -92,20 +92,20 @@ Cube texture resources supported.
 
 ### -field D3D12_FORMAT_SUPPORT1_SHADER_LOAD
 
-The HLSL <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load">Load</a> function for texture objects is supported.
+The HLSL <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load">Load</a> function for texture objects is supported.
 
 ### -field D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE
 
-The HLSL <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-sample">Sample</a> function for texture objects is supported.
+The HLSL <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-sample">Sample</a> function for texture objects is supported.
 
-<div class="alert"><b>Note</b>  If the device supports the format as a resource (1D, 2D, 3D, or cube map) but doesn't support this option, the resource can still use the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-sample">Sample</a> method but must use only the point filtering sampler state to perform the sample.</div>
+<div class="alert"><b>Note</b>  If the device supports the format as a resource (1D, 2D, 3D, or cube map) but doesn't support this option, the resource can still use the <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-sample">Sample</a> method but must use only the point filtering sampler state to perform the sample.</div>
 <div> </div>
 
 ### -field D3D12_FORMAT_SUPPORT1_SHADER_SAMPLE_COMPARISON
 
-The HLSL <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">SampleCmp</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero">SampleCmpLevelZero</a> functions for texture objects are supported.
+The HLSL <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">SampleCmp</a> and <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero">SampleCmpLevelZero</a> functions for texture objects are supported.
 
-<div class="alert"><b>Note</b>  Windows 8 and later might provide limited support for these functions on Direct3D <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature levels</a> 9_1, 9_2, and 9_3. For more info, see <a href="https://docs.microsoft.com/previous-versions/windows/apps/jj262110(v=win.10)">Implementing shadow buffers for Direct3D feature level 9</a>.
+<div class="alert"><b>Note</b>  Windows 8 and later might provide limited support for these functions on Direct3D <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature levels</a> 9_1, 9_2, and 9_3. For more info, see <a href="/previous-versions/windows/apps/jj262110(v=win.10)">Implementing shadow buffers for Direct3D feature level 9</a>.
 </div>
 <div> </div>
 
@@ -131,7 +131,7 @@ Depth stencils supported.
 
 ### -field D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RESOLVE
 
-Multisample antialiasing (MSAA) resolve operations are supported. For more info, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource">ID3D12GraphicsCommandList::ResolveSubresource</a>.
+Multisample antialiasing (MSAA) resolve operations are supported. For more info, see <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resolvesubresource">ID3D12GraphicsCommandList::ResolveSubresource</a>.
 
 ### -field D3D12_FORMAT_SUPPORT1_DISPLAY
 
@@ -147,7 +147,7 @@ Format can be used as a multi-sampled render target.
 
 ### -field D3D12_FORMAT_SUPPORT1_MULTISAMPLE_LOAD
 
-Format can be used as a multi-sampled texture and read into a shader with the HLSL <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load">Load</a> function.
+Format can be used as a multi-sampled texture and read into a shader with the HLSL <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load">Load</a> function.
 
 ### -field D3D12_FORMAT_SUPPORT1_SHADER_GATHER
 
@@ -183,13 +183,12 @@ Format can be used with the video encoder.
 
 ## -remarks
 
-This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_format_support">D3D12_FEATURE_DATA_FORMAT_SUPPORT</a> structure.
+This enum is used by the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_format_support">D3D12_FEATURE_DATA_FORMAT_SUPPORT</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags">D3D12_HEAP_FLAGS</a>
-
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_heap_flags">D3D12_HEAP_FLAGS</a>

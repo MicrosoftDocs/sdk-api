@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-This interface provides methods for reconnecting an input pin while the filter is still running. The Filter Graph Manager calls methods on this interface when it performs dynamic reconnections (see the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig</a> interface). Applications might also use this interface to perform dynamic pin reconnections.
+This interface provides methods for reconnecting an input pin while the filter is still running. The Filter Graph Manager calls methods on this interface when it performs dynamic reconnections (see the <a href="/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig</a> interface). Applications might also use this interface to perform dynamic pin reconnections.
 
 <b>Filter developers: </b>Implement this interface on any input pin that allows dynamic reconnection or dynamic changes in format.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPinConnection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPinConnection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPinConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPinConnection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IPinConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinconnection-dynamicdisconnect">DynamicDisconnect</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipinconnection-dynamicdisconnect">DynamicDisconnect</a>
 </td>
 <td align="left" width="63%">
 Disconnects the pin when the filter is running.
@@ -81,7 +81,7 @@ Disconnects the pin when the filter is running.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinconnection-dynamicqueryaccept">DynamicQueryAccept</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipinconnection-dynamicqueryaccept">DynamicQueryAccept</a>
 </td>
 <td align="left" width="63%">
 Queries whether the pin can accept the specified media type while the graph is running with the current connection to this pin.
@@ -90,7 +90,7 @@ Queries whether the pin can accept the specified media type while the graph is r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinconnection-isendpin">IsEndPin</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipinconnection-isendpin">IsEndPin</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a reconnection search should end at this pin.
@@ -99,7 +99,7 @@ Indicates whether a reconnection search should end at this pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipinconnection-notifyendofstream">NotifyEndOfStream</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ipinconnection-notifyendofstream">NotifyEndOfStream</a>
 </td>
 <td align="left" width="63%">
 Requests notification from the pin when the next end-of-stream condition occurs.
@@ -110,9 +110,8 @@ Requests notification from the pin when the next end-of-stream condition occurs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-graph-building">Dynamic Graph Building</a>
+<a href="/windows/desktop/DirectShow/dynamic-graph-building">Dynamic Graph Building</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>
-
+<a href="/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>

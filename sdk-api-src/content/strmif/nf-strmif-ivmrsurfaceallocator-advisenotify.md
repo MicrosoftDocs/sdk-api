@@ -61,7 +61,7 @@ If you are not using a custom allocator-presenter, the application does not have
 
 ### -param lpIVMRSurfAllocNotify [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrsurfaceallocatornotify">IVMRSurfaceAllocatorNotify</a> interface pointer that the allocator-presenter will use to pass notifications back to the VMR.
+Specifies the <a href="/windows/desktop/api/strmif/nn-strmif-ivmrsurfaceallocatornotify">IVMRSurfaceAllocatorNotify</a> interface pointer that the allocator-presenter will use to pass notifications back to the VMR.
 
 ## -returns
 
@@ -69,21 +69,20 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrsurfaceallocator">IVMRSurfaceAllocator Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrsurfaceallocator">IVMRSurfaceAllocator Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/supplying-a-custom-allocator-presenter-for-vmr-7">Supplying a Custom Allocator-Presenter for VMR-7</a>
+<a href="/windows/desktop/DirectShow/supplying-a-custom-allocator-presenter-for-vmr-7">Supplying a Custom Allocator-Presenter for VMR-7</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/vmr-renderless-playback-mode--custom-allocator-presenters">VMR Renderless Playback Mode (Custom Allocator-Presenters)</a>
-
+<a href="/windows/desktop/DirectShow/vmr-renderless-playback-mode--custom-allocator-presenters">VMR Renderless Playback Mode (Custom Allocator-Presenters)</a>

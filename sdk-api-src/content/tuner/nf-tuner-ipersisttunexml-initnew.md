@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This method is not implemented in the current release. It was created to make the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexml">IPersistTuneXml</a> interface compatible with the <b>IPersistStreamInit</b> interface and is reserved for future use.
+This method is not implemented in the current release. It was created to make the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexml">IPersistTuneXml</a> interface compatible with the <b>IPersistStreamInit</b> interface and is reserved for future use.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Always returns <b>S_OK</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexml">IPersistTuneXml</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexml">IPersistTuneXml</a>

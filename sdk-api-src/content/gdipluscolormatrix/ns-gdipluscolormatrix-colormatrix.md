@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>ColorMatrix</b> structure contains a 5×5 matrix of real numbers. Several methods of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> class adjust image colors by using a color matrix.
+The <b>ColorMatrix</b> structure contains a 5×5 matrix of real numbers. Several methods of the <a href="/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> class adjust image colors by using a color matrix.
 
 ## -struct-fields
 
@@ -67,13 +67,12 @@ A 5×5 color matrix is a homogeneous matrix for a 4-space transformation. The el
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a>
+<a href="/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-recoloring-use">Recoloring</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-recoloring-use">Recoloring</a>

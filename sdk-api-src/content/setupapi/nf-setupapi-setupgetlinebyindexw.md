@@ -47,6 +47,7 @@ api_name:
  - SetupGetLineByIndex
  - SetupGetLineByIndexA
  - SetupGetLineByIndexW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupGetLineByIndexW function
@@ -75,7 +76,7 @@ Pointer to a null-terminated string specifying the section of the INF file to se
 ### -param Index [in]
 
 Index of the line to be located. The total number of lines in a particular section can be found with a 
-      call to <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetlinecounta">SetupGetLineCount</a>.
+      call to <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetlinecounta">SetupGetLineCount</a>.
 
 ### -param Context [in, out]
 
@@ -85,12 +86,12 @@ Pointer to a variable that receives the context information for the found line.
 
 If the function succeeds, the return value is a nonzero value. If the function fails, the return value is 
        zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If <i>InfHandle</i> references multiple INF files that have been appended together using 
-    <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopenappendinffilea">SetupOpenAppendInfFile</a>, this function 
+    <a href="/windows/desktop/api/setupapi/nf-setupapi-setupopenappendinffilea">SetupOpenAppendInfFile</a>, this function 
     searches across the specified section in all files referenced by the HINF to locate the indexed line.
 
 
@@ -102,21 +103,20 @@ If <i>InfHandle</i> references multiple INF files that have been appended togeth
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupfindfirstlinea">SetupFindFirstLine</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupfindfirstlinea">SetupFindFirstLine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupfindnextline">SetupFindNextLine</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupfindnextline">SetupFindNextLine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupfindnextmatchlinea">SetupFindNextMatchLine</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupfindnextmatchlinea">SetupFindNextMatchLine</a>

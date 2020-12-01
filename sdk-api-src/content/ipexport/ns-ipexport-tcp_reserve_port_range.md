@@ -68,9 +68,8 @@ Value for the lower bound of the TCP port range to reserve.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
-
+<a href="/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>

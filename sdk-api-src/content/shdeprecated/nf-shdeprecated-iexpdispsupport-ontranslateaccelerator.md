@@ -57,19 +57,18 @@ Deprecated. Instructs the control site to process the keystroke described in <i>
 
 ### -param pMsg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>*</b>
+Type: <b><a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that describes the keystroke to be processed.
+A pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that describes the keystroke to be processed.
 
 ### -param grfModifiers
 
 Type: <b>DWORD</b>
 
-Flags describing the state of the CTRL, ALT, and SHIFT keys. The value of the flags can be any valid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683763(v=vs.85)">KEYMODIFIERS</a> enumeration value or values.
+Flags describing the state of the CTRL, ALT, and SHIFT keys. The value of the flags can be any valid <a href="/previous-versions/windows/desktop/legacy/ms683763(v=vs.85)">KEYMODIFIERS</a> enumeration value or values.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if the container processed the message, <b>S_FALSE</b> if the container did not process the message, or <b>E_NOTIMPL</b> if the container does not implement accelerator support.
-

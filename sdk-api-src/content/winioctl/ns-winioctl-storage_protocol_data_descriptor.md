@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-This structure is used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to return protocol-specific data from a storage device or adapter. .
+This structure is used in conjunction with <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to return protocol-specific data from a storage device or adapter. .
 
 ## -struct-fields
 
@@ -67,15 +67,15 @@ The total size of the descriptor, including the space for all protocol data.
 
 ### -field ProtocolSpecificData
 
-The protocol-specific data, of type <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a>.
+The protocol-specific data, of type <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a>.
 
 ## -remarks
 
-When using <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve protocol-specific information in the <b>STORAGE_PROTOCOL_DATA_DESCRIPTOR</b>, configure the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a> structure as follows:
+When using <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve protocol-specific information in the <b>STORAGE_PROTOCOL_DATA_DESCRIPTOR</b>, configure the <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a> structure as follows:
 
 <ul>
 <li>
-Allocate a buffer that can contains both a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a> and a <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure.
+Allocate a buffer that can contains both a <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a> and a <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure.
 
 </li>
 <li>
@@ -87,11 +87,11 @@ Set the <b>QueryType</b>  field to <b>PropertyStandardQuery</b>.
 
 </li>
 <li>
-Fill the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure with the desired values. The start of the <b>STORAGE_PROTOCOL_SPECIFIC_DATA</b> is the <b>AdditionalParameters</b> field of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>.
+Fill the <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure with the desired values. The start of the <b>STORAGE_PROTOCOL_SPECIFIC_DATA</b> is the <b>AdditionalParameters</b> field of <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>.
 
 </li>
 </ul>
-To specify a type of NVMe protocol-specific information,  configure the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure as follows:
+To specify a type of NVMe protocol-specific information,  configure the <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure as follows:
 
 <ul>
 <li>
@@ -99,7 +99,7 @@ Set the <b>ProtocolType</b>  field to <b>ProtocolTypeNVMe</b>.
 
 </li>
 <li>
-Set the <b>DataType</b>  field to an enumeration value defined by <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_nvme_data_type">STORAGE_PROTOCOL_NVME_DATA_TYPE</a>:<ul>
+Set the <b>DataType</b>  field to an enumeration value defined by <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_nvme_data_type">STORAGE_PROTOCOL_NVME_DATA_TYPE</a>:<ul>
 <li>Use <b>NVMeDataTypeIdentify</b> to get Identify Controller data or Identify Namespace data.</li>
 <li>Use <b>NVMeDataTypeLogPage</b> to get log pages (including SMART/health data).</li>
 <li>Use <b>NVMeDataTypeFeature</b> to get features of the NVMe drive.</li>
@@ -108,7 +108,7 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="https
 
 </li>
 </ul>
-To specify a type of ATA protocol-specific information,  configure the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure as follows:
+To specify a type of ATA protocol-specific information,  configure the <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure as follows:
 
 <ul>
 <li>
@@ -116,7 +116,7 @@ Set the <b>ProtocolType</b>  field to <b>ProtocolTypeAta</b>.
 
 </li>
 <li>
-Set the <b>DataType</b>  field to an enumeration value defined by <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_ata_data_type">STORAGE_PROTOCOL_ATA_DATA_TYPE</a>:<ul>
+Set the <b>DataType</b>  field to an enumeration value defined by <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_ata_data_type">STORAGE_PROTOCOL_ATA_DATA_TYPE</a>:<ul>
 <li>Use <b>AtaDataTypeIdentify</b> to identify the ATA drive.</li>
 <li>Use <b>AtaDataTypeLogPage</b> to get log pages from the ATA drive.</li>
 </ul>
@@ -127,13 +127,12 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="https
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a>

@@ -60,7 +60,7 @@ Specifies the number of supported attributes to obtain.
 
 ### -param paAttrVals [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_attrval">TS_ATTRVAL</a> structure that receives the supported attributes. The members of this structure depend upon the <i>dwFlags</i> parameter of the calling method.
+Pointer to the <a href="/windows/desktop/api/textstor/ns-textstor-ts_attrval">TS_ATTRVAL</a> structure that receives the supported attributes. The members of this structure depend upon the <i>dwFlags</i> parameter of the calling method.
 
 ### -param pcFetched [out]
 
@@ -90,25 +90,24 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestattrsatposition">ITextStoreACP::RequestAttrsAtPosition
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestattrsatposition">ITextStoreACP::RequestAttrsAtPosition
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestsupportedattrs">ITextStoreACP::RequestSupportedAttrs
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestsupportedattrs">ITextStoreACP::RequestSupportedAttrs
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_attrval">TS_ATTRVAL
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_attrval">TS_ATTRVAL
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestattrstransitioningatposition">TextStoreACP::RequestAttrsTransitioningAtPosition
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestattrstransitioningatposition">TextStoreACP::RequestAttrsTransitioningAtPosition
       </a>
-

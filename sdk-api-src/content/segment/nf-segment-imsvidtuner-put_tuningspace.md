@@ -56,7 +56,7 @@ The <b>put_TuningSpace</b> method specifies the tuning space.
 
 ### -param plTS [in]
 
-Specifies a pointer to the tuning space's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface.
+Specifies a pointer to the tuning space's <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface.
 
 ## -returns
 
@@ -64,13 +64,12 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidtuner">IMSVidTuner Interface</a>
+<a href="/windows/desktop/api/segment/nn-segment-imsvidtuner">IMSVidTuner Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidtuner-get_tuningspace">IMSVidTuner::get_TuningSpace</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidtuner-get_tuningspace">IMSVidTuner::get_TuningSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/the-microsoft-unified-tuning-model">The Microsoft Unified Tuning Model</a>
-
+<a href="/previous-versions/windows/desktop/mstv/the-microsoft-unified-tuning-model">The Microsoft Unified Tuning Model</a>

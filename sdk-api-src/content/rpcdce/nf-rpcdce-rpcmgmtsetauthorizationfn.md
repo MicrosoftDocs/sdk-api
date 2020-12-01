@@ -81,7 +81,7 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -97,31 +97,31 @@ Server applications call the
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqifids">RpcMgmtInqIfIds</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqifids">RpcMgmtInqIfIds</a>
 </td>
 <td>Enabled</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqserverprincname">RpcMgmtInqServerPrincName</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqserverprincname">RpcMgmtInqServerPrincName</a>
 </td>
 <td>Enabled</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>
 </td>
 <td>Enabled</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtisserverlistening">RpcMgmtIsServerListening</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtisserverlistening">RpcMgmtIsServerListening</a>
 </td>
 <td>Enabled</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a>
 </td>
 <td>Disabled</td>
 </tr>
@@ -136,21 +136,20 @@ In the preceding table, "Enabled" indicates that all clients can execute the rem
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nc-rpcdce-rpc_mgmt_authorization_fn">RPC_MGMT_AUTHORIZATION_FN</a>
+<a href="/windows/desktop/api/rpcdce/nc-rpcdce-rpc_mgmt_authorization_fn">RPC_MGMT_AUTHORIZATION_FN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqstats">RpcMgmtInqStats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtisserverlistening">RpcMgmtIsServerListening</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtisserverlistening">RpcMgmtIsServerListening</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstopserverlistening">RpcMgmtStopServerListening</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtwaitserverlisten">RpcMgmtWaitServerListen</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtwaitserverlisten">RpcMgmtWaitServerListen</a>

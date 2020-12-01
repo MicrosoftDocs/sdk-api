@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>ldap_set_option</b> function sets options on connection blocks. For more information about structures, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>.
+<a href="/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>.
 
 ## -parameters
 
@@ -74,20 +74,20 @@ A pointer to the value that the option is to be given. The actual type of this p
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 ## -remarks
 
 Call <b>ldap_set_option</b> to access the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> structure that represents an LDAP session. Do not attempt to modify the LDAP data structure directly.
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> structure that represents an LDAP session. Do not attempt to modify the LDAP data structure directly.
 
 For more information and  a description of optional settings that apply to an LDAP session, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. For more information about flags, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>.
+<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>. For more information about flags, see 
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>.
 
 It is now possible to digitally sign or encrypt all of your LDAP traffic to and from a Windows LDAP server using the Kerberos authentication protocol. This new feature provides integrity and confidentiality required by some applications. Be aware that using Secure Sockets Layer (SSL) will give you the same benefits, but requires extensive certificate enrollments for the server and, sometimes, for the client.
 
-To enable signing and sealing, you have to turn on one of the following options prior to calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind_s">ldap_bind_s</a> with <b>LDAP_AUTH_NEGOTIATE</b> for the bind method.
+To enable signing and sealing, you have to turn on one of the following options prior to calling <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind_s">ldap_bind_s</a> with <b>LDAP_AUTH_NEGOTIATE</b> for the bind method.
 
 
 ```cpp
@@ -96,31 +96,30 @@ To enable signing and sealing, you have to turn on one of the following options 
 ```
 
 
-To turn off signing and sealing, close the connection by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind()</a> on the connection handle.
+To turn off signing and sealing, close the connection by calling <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind()</a> on the connection handle.
 
 Multithreading: Calls to <b>ldap_set_option</b> are unsafe because it affects the connection as a whole. Use caution if threads share connections.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnamea">DsGetDcName</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/getting-and-setting-session-options">Getting and Setting Session Options</a>
+<a href="/previous-versions/windows/desktop/ldap/getting-and-setting-session-options">Getting and Setting Session Options</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a>
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>

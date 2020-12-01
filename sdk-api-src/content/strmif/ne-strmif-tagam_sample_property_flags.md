@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies values for the [AM_SAMPLE2_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure. These values describe the properties of media samples.
+Specifies values for the [AM_SAMPLE2_PROPERTIES](/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure. These values describe the properties of media samples.
 
 ## -enum-fields
 
@@ -76,7 +76,7 @@ Time is valid.
 
 ### -field AM_SAMPLE_TIMEDISCONTINUITY
 
-A time gap in the data starts after this sample. The [AM_SAMPLE2_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure can be <b>NULL</b> in this case.
+A time gap in the data starts after this sample. The [AM_SAMPLE2_PROPERTIES](/windows/desktop/api/strmif/ns-strmif-am_sample2_properties) structure can be <b>NULL</b> in this case.
 
 ### -field AM_SAMPLE_FLUSH_ON_PAUSE
 
@@ -106,9 +106,8 @@ For example, a video decompressor filter might receive a media sample with the <
 
 The <b>AM_SAMPLE_DATADISCONTINUITY</b> flag is set on the first sample received following a flush or a stop. In addition, you should use the <b>AM_SAMPLE_DATADISCONTINUITY</b> flag when content is switched in the source, when a channel change occurs (when there might also be a format change), or when there is missing data because of stream interruptions.
 
-The <b>AM_SAMPLE_DATADISCONTINUITY</b> flag is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample-isdiscontinuity">IMediaSample::IsDiscontinuity</a> method returning <b>S_OK</b>.
+The <b>AM_SAMPLE_DATADISCONTINUITY</b> flag is equivalent to the <a href="/windows/desktop/api/strmif/nf-strmif-imediasample-isdiscontinuity">IMediaSample::IsDiscontinuity</a> method returning <b>S_OK</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

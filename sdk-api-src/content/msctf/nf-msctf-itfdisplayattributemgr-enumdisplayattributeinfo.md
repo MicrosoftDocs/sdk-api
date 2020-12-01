@@ -56,7 +56,7 @@ Obtains a display attribute enumerator object.
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfdisplayattributeinfo">IEnumTfDisplayAttributeInfo</a> interface pointer that receives the enumerator object.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfdisplayattributeinfo">IEnumTfDisplayAttributeInfo</a> interface pointer that receives the enumerator object.
 
 ## -returns
 
@@ -116,4 +116,3 @@ The enumerator object cannot be initialized.
 ## -see-also
 
 [ITfDisplayAttributeMgr interface](nn-msctf-itfdisplayattributemgr.md), [IEnumTfDisplayAttributeInfo interface](nn-msctf-ienumtfdisplayattributeinfo.md)
-

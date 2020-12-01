@@ -92,9 +92,8 @@ The top-level collection Usage for the device.
 
 <b>Conceptual</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
+<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 <b>Reference</b>
-

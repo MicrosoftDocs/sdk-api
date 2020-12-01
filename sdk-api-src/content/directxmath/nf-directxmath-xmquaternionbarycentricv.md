@@ -83,7 +83,7 @@ Returns a quaternion in barycentric coordinates.
 The DirectXMath quaternion functions use an XMVECTOR 4-vector to represent quaternions, 
     where the X, Y, and Z components are the vector part and the W component is the scalar part.
 
-This function is identical to <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmquaternionbarycentric">XMQuaternionBaryCentric</a> except
+This function is identical to <a href="/windows/desktop/api/directxmath/nf-directxmath-xmquaternionbarycentric">XMQuaternionBaryCentric</a> except
    that <i>F</i> and <i>G</i> are supplied using a 4D vector instead of a <b>float</b> value.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
@@ -91,9 +91,8 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-quaternion">DirectXMath Library Quaternion Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-quaternion">DirectXMath Library Quaternion Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmquaternionbarycentric">XMQuaternionBaryCentric</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmquaternionbarycentric">XMQuaternionBaryCentric</a>

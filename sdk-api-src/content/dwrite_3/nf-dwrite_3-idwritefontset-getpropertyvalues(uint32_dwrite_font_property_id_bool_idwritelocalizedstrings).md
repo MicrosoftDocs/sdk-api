@@ -45,9 +45,6 @@ api_name:
  - IDWriteFontSet.GetPropertyValues
 ---
 
-# IDWriteFontSet::GetPropertyValues(UINT32,DWRITE_FONT_PROPERTY_ID,BOOL,IDWriteLocalizedStrings)
-
-
 ## -description
 
 Returns the property values of a specific font item index.
@@ -66,15 +63,15 @@ Type: <b><a href="/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_property_i
 
 Font property of interest.
 
-### -param exists [out]
+### -param exists
 
-Type: <b>BOOL*</b>
+Type: [out] <b>BOOL*</b>
 
 Receives the value TRUE if the font contains the specified property identifier or FALSE if not.
 
-### -param values [out]
+### -param values
 
-Type: <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritelocalizedstrings">IDWriteLocalizedStrings</a>**</b>
+Type: [out] <b><a href="/windows/win32/api/dwrite/nn-dwrite-idwritelocalizedstrings">IDWriteLocalizedStrings</a>**</b>
 
 Receives a pointer to the newly created localized strings object, or nullptr on failure or non-existent property.
 

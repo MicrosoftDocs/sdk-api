@@ -56,11 +56,11 @@ Updates an app package manifest.
 
 ### -param packageStream [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the app package associated with the manifest to be updated.
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the app package associated with the manifest to be updated.
 
 ### -param updatedManifestStream [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the updated app package manifest.
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of the updated app package manifest.
 
 ### -param isPackageEncrypted [in]
 
@@ -76,5 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackageeditor">IAppxPackageEditor</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackageeditor">IAppxPackageEditor</a>

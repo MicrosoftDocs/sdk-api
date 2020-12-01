@@ -60,19 +60,18 @@ A handle to the network address control that contains the address to validate.
 
 ### -param pv [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-nc_address">NC_ADDRESS</a> structure to receive network address information in parsed form, if the address format and type in the control specified by <i>hwnd</i> are validated. The calling application is responsible for allocating the memory for this structure.
+A pointer to an <a href="/windows/desktop/api/shellapi/ns-shellapi-nc_address">NC_ADDRESS</a> structure to receive network address information in parsed form, if the address format and type in the control specified by <i>hwnd</i> are validated. The calling application is responsible for allocating the memory for this structure.
 
 ## -remarks
 
-Use the <b>NetAddr_GetAddress</b> macro to validate a network address in a network address control against a preset network address type mask. To instantiate, use the class <b>msctls_netaddress</b> defined in Shellapi.h. Call <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-initnetworkaddresscontrol">InitNetworkAddressControl</a> at run time before calling this macro. This initializes the common controls library that contains the network address control.
+Use the <b>NetAddr_GetAddress</b> macro to validate a network address in a network address control against a preset network address type mask. To instantiate, use the class <b>msctls_netaddress</b> defined in Shellapi.h. Call <a href="/windows/desktop/api/shellapi/nf-shellapi-initnetworkaddresscontrol">InitNetworkAddressControl</a> at run time before calling this macro. This initializes the common controls library that contains the network address control.
 
-This macro gets the network address string from a network address control, parses the string, and checks whether the string matches a network address type mask. If the string matches the mask, the function returns S_OK and returns the string in parsed form to the calling application (including the port number, prefix length, and other address information), using the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-nc_address">NC_ADDRESS</a> structure pointed to by <i>pv</i>. This macro returns E_INVALIDARG if the calling application fails to allocate the structure pointed to by <i>pv</i>.
+This macro gets the network address string from a network address control, parses the string, and checks whether the string matches a network address type mask. If the string matches the mask, the function returns S_OK and returns the string in parsed form to the calling application (including the port number, prefix length, and other address information), using the <a href="/windows/desktop/api/shellapi/ns-shellapi-nc_address">NC_ADDRESS</a> structure pointed to by <i>pv</i>. This macro returns E_INVALIDARG if the calling application fails to allocate the structure pointed to by <i>pv</i>.
 
-Representations of Internet Protocol (IP) address versions 4 and 6 (v4/v6) for services and networks, as well as named Internet addresses and services using Domain Name System (DNS) format are parsed. If the network address string represents a named host name (DNS) or service, the value returned in the <b>PrefixLength</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/ns-shellapi-nc_address">NC_ADDRESS</a> is zero.
+Representations of Internet Protocol (IP) address versions 4 and 6 (v4/v6) for services and networks, as well as named Internet addresses and services using Domain Name System (DNS) format are parsed. If the network address string represents a named host name (DNS) or service, the value returned in the <b>PrefixLength</b> member of <a href="/windows/desktop/api/shellapi/ns-shellapi-nc_address">NC_ADDRESS</a> is zero.
 
-Set the network address type mask using the <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-netaddr_setallowtype">NetAddr_SetAllowType</a> macro before you call the <b>NetAddr_GetAddress</b> macro.
+Set the network address type mask using the <a href="/windows/desktop/api/shellapi/nf-shellapi-netaddr_setallowtype">NetAddr_SetAllowType</a> macro before you call the <b>NetAddr_GetAddress</b> macro.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-netaddr_getallowtype">NetAddr_GetAllowType</a>
-
+<a href="/windows/desktop/api/shellapi/nf-shellapi-netaddr_getallowtype">NetAddr_GetAllowType</a>

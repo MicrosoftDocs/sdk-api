@@ -56,7 +56,7 @@ The <b>WinUsb_RegisterIsochBuffer</b> function registers a buffer to be used for
 
 ### -param InterfaceHandle [in]
 
-An opaque handle to an interface in the selected configuration. That handle must be created by a previous call to  <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
+An opaque handle to an interface in the selected configuration. That handle must be created by a previous call to  <a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a> or <a href="/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
 
 ### -param PipeID [in]
 
@@ -72,7 +72,7 @@ Length, in bytes, of the transfer buffer pointed to by <i>Buffer</i>.
 
 ### -param IsochBufferHandle [out]
 
-Receives an opaque handle to the registered buffer. This handle is required by other WinUSB functions that perform isochronous transfers. To release the handle, call the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_unregisterisochbuffer">WinUsb_UnregisterIsochBuffer</a> function.
+Receives an opaque handle to the registered buffer. This handle is required by other WinUSB functions that perform isochronous transfers. To release the handle, call the <a href="/windows/desktop/api/winusb/nf-winusb-winusb_unregisterisochbuffer">WinUsb_UnregisterIsochBuffer</a> function.
 
 ## -returns
 
@@ -86,13 +86,12 @@ Prior to initiating isochronous transfers to or from a buffer, the caller must r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Send USB isochronous transfers from a WinUSB desktop app</a>
+<a href="/windows-hardware/drivers/usbcon/">Send USB isochronous transfers from a WinUSB desktop app</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
+<a href="/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_unregisterisochbuffer">WinUsb_UnregisterIsochBuffer</a>
-
+<a href="/windows/desktop/api/winusb/nf-winusb-winusb_unregisterisochbuffer">WinUsb_UnregisterIsochBuffer</a>

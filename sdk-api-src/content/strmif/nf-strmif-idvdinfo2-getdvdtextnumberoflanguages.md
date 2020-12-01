@@ -111,17 +111,16 @@ If the DVD does not contain any text strings, the method succeeds, but <i>pulNum
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-dvd-text-strings">Working with DVD Text Strings</a>
-
+<a href="/windows/desktop/DirectShow/working-with-dvd-text-strings">Working with DVD Text Strings</a>

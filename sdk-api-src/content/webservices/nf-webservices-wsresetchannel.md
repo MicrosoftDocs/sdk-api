@@ -91,8 +91,7 @@ Reusing a channel instead of creating one from scratch may improve performance.
             
 
 This function is only valid when the channel is in the either the
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE_CREATED</a> or <b>WS_CHANNEL_STATE_CLOSED</b> state.
+                <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE_CREATED</a> or <b>WS_CHANNEL_STATE_CLOSED</b> state.
             
 
 If called correctly, this function will not fail (for example, due to lack of system resources).
-

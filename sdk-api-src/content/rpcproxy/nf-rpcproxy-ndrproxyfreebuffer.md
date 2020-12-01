@@ -60,9 +60,8 @@ Pointer to the interface proxy.
 
 ### -param pStubMsg [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The <b>pRpcMsg</b> member points to a structure whose <b>Buffer</b> member is to be freed. Structure is for internal use only; do not modify.
+Pointer to a <a href="/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The <b>pRpcMsg</b> member points to a structure whose <b>Buffer</b> member is to be freed. Structure is for internal use only; do not modify.
 
 ## -remarks
 
-The <b>NdrProxyFreeBuffer</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-freebuffer">IRpcChannelBuffer::FreeBuffer</a> method to free the RPC buffer and release <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>.
-
+The <b>NdrProxyFreeBuffer</b> function calls the <a href="/windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-freebuffer">IRpcChannelBuffer::FreeBuffer</a> method to free the RPC buffer and release <a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>.

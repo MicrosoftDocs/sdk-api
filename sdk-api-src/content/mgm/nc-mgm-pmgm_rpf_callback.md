@@ -135,7 +135,7 @@ Pointer to a buffer that contains the IP header of the packet, including the IP 
 ### -param pbRoute [in, out]
 
 On input, <i>pbRoute</i> points to a buffer that contains the route towards the source. The buffer contains an 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_dest_info">RTM_DEST_INFO</a> structure. 
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_dest_info">RTM_DEST_INFO</a> structure. 
 
 
 
@@ -153,4 +153,3 @@ This callback is invoked when an MFE is created. MFEs are created when data from
 The multicast group manager invokes this callback to the routing protocol that owns the incoming interface towards the source. The multicast group manager determines the interface by looking up the source of the multicast data in the multicast view of the routing table. This interface is not always the same as the interface on which the data was actually received; this condition occurs if multicast data was received on the wrong interface.
 
 When this callback is invoked, the routing protocol can change the incoming interface if the routing protocol behavior requires it to receive the data for the group from another interface.
-

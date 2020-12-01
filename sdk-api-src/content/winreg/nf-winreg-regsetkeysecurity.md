@@ -63,18 +63,18 @@ The <b>RegSetKeySecurity</b> function sets the security of an open registry key.
 
 ### -param hKey [in]
 
-A handle to an open key for which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> is set.
+A handle to an open key for which the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> is set.
 
 ### -param SecurityInformation [in]
 
 A set of 
 bit flags that indicate the type of security information to set. This parameter can be a combination of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags.
 
 ### -param pSecurityDescriptor [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that specifies the security <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> to set for the specified key.
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that specifies the security <a href="/windows/desktop/SecGloss/a-gly">attributes</a> to set for the specified key.
 
 ## -returns
 
@@ -82,41 +82,40 @@ If the function succeeds, the function returns ERROR_SUCCESS.
 						
 
 If the function fails, it returns a nonzero error code defined in WinError.h. You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
 ## -remarks
 
-If <i>hKey</i> is one of the predefined keys, use  the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a> function to close the predefined key to  ensure that the new security information is in effect the next time the predefined key is referenced.
+If <i>hKey</i> is one of the predefined keys, use  the <a href="/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a> function to close the predefined key to  ensure that the new security information is in effect the next time the predefined key is referenced.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
+<a href="/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeya">RegDeleteKey</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regdeletekeya">RegDeleteKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-reggetkeysecurity">RegGetKeySecurity</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-reggetkeysecurity">RegGetKeySecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
-
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>

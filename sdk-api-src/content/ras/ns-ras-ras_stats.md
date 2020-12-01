@@ -136,25 +136,24 @@ The amount of time, in milliseconds, that the connection or link has been connec
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasclearconnectionstatistics">RasClearConnectionStatistics</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasclearconnectionstatistics">RasClearConnectionStatistics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasclearlinkstatistics">RasClearLinkStatistics</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasclearlinkstatistics">RasClearLinkStatistics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetconnectionstatistics">RasGetConnectionStatistics</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgetconnectionstatistics">RasGetConnectionStatistics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetlinkstatistics">RasGetLinkStatistics</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgetlinkstatistics">RasGetLinkStatistics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>

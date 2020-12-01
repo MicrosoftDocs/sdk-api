@@ -56,7 +56,7 @@ The <b>Capabilities</b> method retrieves the service capabilities.
 
 ### -param ppCapabilities [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities</a> interface specifying the capabilities of the service.
+The <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities</a> interface specifying the capabilities of the service.
 
 ## -returns
 
@@ -93,17 +93,16 @@ A <b>NULL</b> parameter was specified.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-supported-events">Retrieving Supported Service Events</a>
+<a href="/windows/desktop/wpd_sdk/retrieving-supported-events">Retrieving Supported Service Events</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-supported-formats">Retrieving Supported Service Formats</a>
+<a href="/windows/desktop/wpd_sdk/retrieving-supported-formats">Retrieving Supported Service Formats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-supported-methods">Retrieving Supported Service Methods</a>
-
+<a href="/windows/desktop/wpd_sdk/retrieving-supported-methods">Retrieving Supported Service Methods</a>

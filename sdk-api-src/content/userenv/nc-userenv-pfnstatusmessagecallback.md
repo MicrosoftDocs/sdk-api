@@ -67,14 +67,14 @@ Pointer to a buffer that contains the message string.
 ## -returns
 
 If the message was displayed successfully, return <b>ERROR_SUCCESS</b>. Otherwise, return a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
 Pass a pointer to the 
 <b>StatusMessageCallback</b> function when the system calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicy">ProcessGroupPolicy</a> or the 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicyex">ProcessGroupPolicyEx</a> callback function.
+<a href="/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicy">ProcessGroupPolicy</a> or the 
+<a href="/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicyex">ProcessGroupPolicyEx</a> callback function.
 
 The status user interface has two modes: standard and verbose. Verbose messages are displayed only when the computer is in verbose mode. To enable verbose mode, set the following registry value to 1, log out, and log on. There is no need to restart the computer.
 
@@ -89,19 +89,18 @@ The status user interface has two modes: standard and verbose. Verbose messages 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicy">ProcessGroupPolicy</a>
+<a href="/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicy">ProcessGroupPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicyex">ProcessGroupPolicyEx</a>
-
+<a href="/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicyex">ProcessGroupPolicyEx</a>

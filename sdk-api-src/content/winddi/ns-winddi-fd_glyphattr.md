@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The FD_GLYPHATTR structure is used to specify the return value for the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_pqueryglyphattrs">FONTOBJ_pQueryGlyphAttrs</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nc-winddi-pfn_drvqueryglyphattrs">DrvQueryGlyphAttrs</a> functions.
+The FD_GLYPHATTR structure is used to specify the return value for the <a href="/windows/desktop/api/winddi/nf-winddi-fontobj_pqueryglyphattrs">FONTOBJ_pQueryGlyphAttrs</a> and <a href="/windows/desktop/api/winddi/nc-winddi-pfn_drvqueryglyphattrs">DrvQueryGlyphAttrs</a> functions.
 
 ## -struct-fields
 
@@ -100,4 +100,3 @@ If <b>iMode</b> is FO_ATTR_MODE_ROTATE (the only flag currently defined), a prin
 BYTE glyphBits[8] = {0x80, 0x40, 0x20, 0x10, 0x8, 0x4, 0x2, 0x1};
 result = (pga->aGlyphAttr[hg / 8]) & (glyphBits[hg % 8]);
 ```
-

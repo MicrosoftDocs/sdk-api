@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>GetColorSpace</b> function retrieves the handle to the input <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/c">color space</a> from a specified device context.
+The <b>GetColorSpace</b> function retrieves the handle to the input <a href="/previous-versions/windows/desktop/wcs/c">color space</a> from a specified device context.
 
 ## -parameters
 
@@ -72,9 +72,8 @@ If this function fails, the return value is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
-
+<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>

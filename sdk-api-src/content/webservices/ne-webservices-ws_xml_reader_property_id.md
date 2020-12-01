@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Identifies each XML reader property is and its associated
-        value.  This enumeration is used within the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_property">WS_XML_READER_PROPERTY</a> structure, which is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetinput">WsSetInput</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetinputtobuffer">WsSetInputToBuffer</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadxmlbufferfrombytes">WsReadXmlBufferFromBytes</a>. It is also used directly as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetreaderproperty">WsGetReaderProperty</a>.
+        value.  This enumeration is used within the <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_property">WS_XML_READER_PROPERTY</a> structure, which is used as a parameter to <a href="/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wssetinput">WsSetInput</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wssetinputtobuffer">WsSetInputToBuffer</a>, and <a href="/windows/desktop/api/webservices/nf-webservices-wsreadxmlbufferfrombytes">WsReadXmlBufferFromBytes</a>. It is also used directly as a parameter to <a href="/windows/desktop/api/webservices/nf-webservices-wsgetreaderproperty">WsGetReaderProperty</a>.
 
 ## -enum-fields
 
@@ -69,7 +69,7 @@ A depth of 0 prevents any start elements from being read.
 This property defaults to 32.
         
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a> for security considerations.
+See <a href="/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a> for security considerations.
 
 ### -field WS_XML_READER_PROPERTY_ALLOW_FRAGMENT
 
@@ -88,7 +88,7 @@ A <b>ULONG</b>that specifies the maximum number of attributes the reader will pe
 This property defaults to 128.
         
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a> for security considerations.
+See <a href="/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a> for security considerations.
 
 ### -field WS_XML_READER_PROPERTY_READ_DECLARATION
 
@@ -99,13 +99,13 @@ This property defaults to <b>TRUE</b>.
 
 ### -field WS_XML_READER_PROPERTY_CHARSET
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET</a> value that returns the character set of the xml document.  This value is only available for
+A <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET</a> value that returns the character set of the xml document.  This value is only available for
           text documents.
         
 
-If the reader was initialized with a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_AUTO</a> then it will automatically determine this
+If the reader was initialized with a <a href="/windows/desktop/api/webservices/ne-webservices-ws_charset">WS_CHARSET_AUTO</a> then it will automatically determine this
           value.  The reader input source is streamed, then the reader must have enough data buffered to be able to
-          inspect initial byte order marks and the xml declaration.  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfillreader">WsFillReader</a>.
+          inspect initial byte order marks and the xml declaration.  See <a href="/windows/desktop/api/webservices/nf-webservices-wsfillreader">WsFillReader</a>.
         
 
 If the reader was initialized with any other value, then this property simply returns that value.
@@ -121,7 +121,7 @@ A <b>ULONGLONG</b> that returns the 0 based column number of the node the reader
 ### -field WS_XML_READER_PROPERTY_UTF8_TRIM_SIZE
 
 A <b>ULONG</b> that specifies the trim size of the internal buffer used by the
-          <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> for performing UTF-16 to UTF-8 conversions.  Increasing this value
+          <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> for performing UTF-16 to UTF-8 conversions.  Increasing this value
           uses more memory, but can reduce allocations when processing UTF-16 encoded documents.
         
 
@@ -129,33 +129,33 @@ This property defaults to 4096.
 
 ### -field WS_XML_READER_PROPERTY_STREAM_BUFFER_SIZE
 
-A <b>ULONG</b> that specifies the size of the buffer the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> will use when configured to use
-          <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a>.  Increasing this value uses more memory, but
-          can reduce the number of times the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_read_callback">WS_READ_CALLBACK</a> is invoked.
+A <b>ULONG</b> that specifies the size of the buffer the <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> will use when configured to use
+          <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a>.  Increasing this value uses more memory, but
+          can reduce the number of times the <a href="/windows/desktop/api/webservices/nc-webservices-ws_read_callback">WS_READ_CALLBACK</a> is invoked.
         
 
 This property defaults to 4096.
 
 ### -field WS_XML_READER_PROPERTY_IN_ATTRIBUTE
 
-Indicates that <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadstartattribute">WsReadStartAttribute</a> has been called and the reader is
+Indicates that <a href="/windows/desktop/api/webservices/nf-webservices-wsreadstartattribute">WsReadStartAttribute</a> has been called and the reader is
           positioned on attribute content.
 
 ### -field WS_XML_READER_PROPERTY_STREAM_MAX_ROOT_MIME_PART_SIZE
 
-A <b>ULONG</b>used with <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>.
+A <b>ULONG</b>used with <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>.
           This value specifies the maximum size of the root MIME part, which is the part that contains
           the xml portion of the document.  It has no effect when used with other encodings, or when used with
-          <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a>.
+          <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a>.
         
 
 This property defaults to 65536.
 
 ### -field WS_XML_READER_PROPERTY_STREAM_MAX_MIME_HEADERS_SIZE
 
-A <b>ULONG</b>used with <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>.
+A <b>ULONG</b>used with <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_mtom_encoding">WS_XML_READER_MTOM_ENCODING</a>.
           This value specifies the maximum size of any group of MIME headers that may appear in the document.
-          It has no effect when used with other encodings, or when used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a>.
+          It has no effect when used with other encodings, or when used with <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_buffer_input">WS_XML_READER_BUFFER_INPUT</a>.
         
 
 This property defaults to 256.
@@ -188,5 +188,4 @@ A <b>ULONG</b>that specifies the maximum number of xmlns unique declarations tha
 This property defaults to 32.
         
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a> for security considerations.
-
+See <a href="/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a> for security considerations.

@@ -92,12 +92,12 @@ Search the services first by interface index, then by type, and finally by name.
 ### -param ExclusionFlags [in]
 
 Specifies the limits the set of examined services to a subset defined by <i>ExclusionFlags</i> and the values in the members of the structure pointed to by the <i>Service</i> parameter. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a> for a description of the possible flags.
+<a href="/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a> for a description of the possible flags.
 
 ### -param Service [in, out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a> structure. 
+<a href="/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a> structure. 
 
 
 
@@ -147,17 +147,16 @@ One of the parameters is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a>
+<a href="/windows/desktop/api/stm/nc-stm-pcreate_service_enumeration_handle">CreateServiceEnumerationHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
+<a href="/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
+<a href="/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
-
+<a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>

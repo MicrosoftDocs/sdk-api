@@ -52,14 +52,14 @@ api_name:
 ## -description
 
 Describes the type of cluster object being enumerated by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkenum">ClusterNetworkEnum</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a> functions.
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusternetworkenum">ClusterNetworkEnum</a> and 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a> functions.
 
 ## -enum-fields
 
 ### -field CLUSTER_NETWORK_ENUM_NETINTERFACES
 
-The object is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>.
+The object is a <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interface</a>.
 
 ### -field CLUSTER_NETWORK_ENUM_ALL
 
@@ -67,13 +67,12 @@ All cluster objects on the network.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkenum">ClusterNetworkEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusternetworkenum">ClusterNetworkEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusternetworkopenenum">ClusterNetworkOpenEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

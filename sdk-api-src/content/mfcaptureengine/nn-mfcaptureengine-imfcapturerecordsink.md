@@ -54,7 +54,7 @@ Controls the recording sink. The recording sink creates compressed audio/video f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureRecordSink</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>. <b>IMFCaptureRecordSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFCaptureRecordSink</b> interface inherits from <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>. <b>IMFCaptureRecordSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFCaptureRecordSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-getrotation">GetRotation</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-getrotation">GetRotation</a>
 </td>
 <td align="left" width="63%">
 Gets the rotation that is currently being applied to the recorded video stream.
@@ -78,7 +78,7 @@ Gets the rotation that is currently being applied to the recorded video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setcustomsink">SetCustomSink</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setcustomsink">SetCustomSink</a>
 </td>
 <td align="left" width="63%">
 Sets a custom media sink for recording.
@@ -87,7 +87,7 @@ Sets a custom media sink for recording.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setoutputbytestream">SetOutputByteStream</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setoutputbytestream">SetOutputByteStream</a>
 </td>
 <td align="left" width="63%">
 Specifies a byte stream that will receive the data for the recording.
@@ -96,7 +96,7 @@ Specifies a byte stream that will receive the data for the recording.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setoutputfilename">SetOutputFileName</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setoutputfilename">SetOutputFileName</a>
 </td>
 <td align="left" width="63%">
 Specifies the name of the output file for the recording.
@@ -105,7 +105,7 @@ Specifies the name of the output file for the recording.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setrotation">SetRotation</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setrotation">SetRotation</a>
 </td>
 <td align="left" width="63%">
 Rotates the recorded video stream.
@@ -114,7 +114,7 @@ Rotates the recorded video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setsamplecallback">SetSampleCallback</a>
+<a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturerecordsink-setsamplecallback">SetSampleCallback</a>
 </td>
 <td align="left" width="63%">
 Sets a callback to receive the recording data for one stream.
@@ -136,13 +136,12 @@ The application must specify a single destination. Multiple destinations are not
 
 If the destination is a byte stream or an output file, the application specifies a container type, such as MP4 or ASF. The capture engine then multiplexes the audio and video to produce the format defined by the container type. If the destination is a callback interface, however, the capture engine does not multiplex or otherwise interleave the samples. The callback option gives you the most control over the recorded output, but requires more work by the application.
 
-To start the recording, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-startrecord">IMFCaptureEngine::StartRecord</a>.
+To start the recording, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcaptureengine-startrecord">IMFCaptureEngine::StartRecord</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

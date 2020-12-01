@@ -56,9 +56,9 @@ Gets the current value of a global counter.
 
 ### -param id [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-shglobalcounter">SHGLOBALCOUNTER</a></b>
+Type: <b>const <a href="/windows/desktop/api/shlwapi/ne-shlwapi-shglobalcounter">SHGLOBALCOUNTER</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-shglobalcounter">SHGLOBALCOUNTER</a> for which to retrieve the current value.
+The <a href="/windows/desktop/api/shlwapi/ne-shlwapi-shglobalcounter">SHGLOBALCOUNTER</a> for which to retrieve the current value.
 
 ## -returns
 
@@ -68,13 +68,12 @@ The current value of the counter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-shglobalcounter">SHGLOBALCOUNTER</a>
+<a href="/windows/desktop/api/shlwapi/ne-shlwapi-shglobalcounter">SHGLOBALCOUNTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterdecrement">SHGlobalCounterDecrement</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterdecrement">SHGlobalCounterDecrement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterincrement">SHGlobalCounterIncrement</a>
-
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-shglobalcounterincrement">SHGlobalCounterIncrement</a>

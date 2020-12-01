@@ -68,7 +68,7 @@ A pointer to an array of size <i>cidl</i> that contains the PIDLs of the items.
 
 ### -param apt [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to an array of <i>cidl</i> structures containing the locations each corresponding element in <i>apidl</i> should be positioned.
 
@@ -86,17 +86,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ne-shobjidl-folderviewoptions">FOLDERVIEWOPTIONS</a>
+<a href="/windows/desktop/api/shobjidl/ne-shobjidl-folderviewoptions">FOLDERVIEWOPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-selectitem">IFolderView::SelectItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-selectitem">IFolderView::SelectItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-selectitem">SelectItem</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellview-selectitem">SelectItem</a>

@@ -93,5 +93,4 @@ The caller is not executing in an apartment.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a>

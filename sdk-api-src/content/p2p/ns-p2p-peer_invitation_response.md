@@ -60,7 +60,7 @@ The <b>PEER_INVITATION_RESPONSE</b> structure contains a response to an invitati
 
 ### -field action
 
-[PEER_INVITATION_RESPONSE_TYPE](/windows/win32/api/p2p/ne-p2p-peer_invitation_response_type) enumeration value that specifies the action the peer takes in response to the invitation.
+[PEER_INVITATION_RESPONSE_TYPE](./ne-p2p-peer_invitation_response_type.md) enumeration value that specifies the action the peer takes in response to the invitation.
 
 ### -field pwzMessage
 
@@ -72,9 +72,8 @@ Any extended information that is part of the response. This can include an error
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_invitation">PEER_INVITATION</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_invitation">PEER_INVITATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
-
+<a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>

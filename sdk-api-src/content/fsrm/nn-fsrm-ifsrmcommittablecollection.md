@@ -56,62 +56,62 @@ Defines a collection of FSRM objects that can have the same type of objects adde
     individually.
 
 To create an empty collection, call the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-createquotacollection">IFsrmQuotaManager::CreateQuotaCollection</a> 
+    <a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-createquotacollection">IFsrmQuotaManager::CreateQuotaCollection</a> 
     method.
 
 The following methods and properties return this collection:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-importfilegroups">IFsrmExportImport::ImportFileGroups</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-importfilegroups">IFsrmExportImport::ImportFileGroups</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-importfilescreentemplates">IFsrmExportImport::ImportFileScreenTemplates</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-importfilescreentemplates">IFsrmExportImport::ImportFileScreenTemplates</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-importquotatemplates">IFsrmExportImport::ImportQuotaTemplates</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmexportimport-importquotatemplates">IFsrmExportImport::ImportQuotaTemplates</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilegroupmanager-enumfilegroups">IFsrmFileGroupManager::EnumFileGroups</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilegroupmanager-enumfilegroups">IFsrmFileGroupManager::EnumFileGroups</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilegroupmanager-importfilegroups">IFsrmFileGroupManager::ImportFileGroups</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilegroupmanager-importfilegroups">IFsrmFileGroupManager::ImportFileGroups</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-createfilescreencollection">IFsrmFileScreenManager::CreateFileScreenCollection</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-createfilescreencollection">IFsrmFileScreenManager::CreateFileScreenCollection</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-enumfilescreens">IFsrmFileScreenManager::EnumFileScreens</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-enumfilescreens">IFsrmFileScreenManager::EnumFileScreens</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-enumfilescreenexceptions">IFsrmFileScreenManager::EnumFileScreenExceptions</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenmanager-enumfilescreenexceptions">IFsrmFileScreenManager::EnumFileScreenExceptions</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-enumtemplates">IFsrmFileScreenTemplateManager::EnumTemplates</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-enumtemplates">IFsrmFileScreenTemplateManager::EnumTemplates</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-importtemplates">IFsrmFileScreenTemplateManager::ImportTemplates</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-importtemplates">IFsrmFileScreenTemplateManager::ImportTemplates</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-enumautoapplyquotas">IFsrmQuotaManager::EnumAutoApplyQuotas</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-enumautoapplyquotas">IFsrmQuotaManager::EnumAutoApplyQuotas</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-enumeffectivequotas">IFsrmQuotaManager::EnumEffectiveQuotas</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-enumeffectivequotas">IFsrmQuotaManager::EnumEffectiveQuotas</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-enumquotas">IFsrmQuotaManager::EnumQuotas</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-enumquotas">IFsrmQuotaManager::EnumQuotas</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotatemplatemanager-enumtemplates">IFsrmQuotaTemplateManager::EnumTemplates</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotatemplatemanager-enumtemplates">IFsrmQuotaTemplateManager::EnumTemplates</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotatemplatemanager-importtemplates">IFsrmQuotaTemplateManager::ImportTemplates</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotatemplatemanager-importtemplates">IFsrmQuotaTemplateManager::ImportTemplates</a>
 </li>
 </ul>The collection is empty if the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmcollection-get_count">IFsrmCollection::Count</a> property is zero.
+    <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmcollection-get_count">IFsrmCollection::Count</a> property is zero.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmCommittableCollection</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a>. <b>IFsrmCommittableCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmCommittableCollection</b> interface inherits from <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a>. <b>IFsrmCommittableCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -126,7 +126,7 @@ The <b>IFsrmCommittableCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmcommittablecollection-commit">Commit</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmcommittablecollection-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Commits all the objects of the collection and returns the commit results for each object.
@@ -137,5 +137,4 @@ Commits all the objects of the collection and returns the commit results for eac
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a>

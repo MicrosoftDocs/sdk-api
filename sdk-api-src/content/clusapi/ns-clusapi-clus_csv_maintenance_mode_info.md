@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Used with the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-set-csv-maintenance-mode">CLUSCTL_RESOURCE_SET_CSV_MAINTENANCE_MODE</a> 
+    <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-set-csv-maintenance-mode">CLUSCTL_RESOURCE_SET_CSV_MAINTENANCE_MODE</a> 
     control code to enables or disables the  maintenance mode on a cluster shared volume (CSV).
 
 ## -struct-fields
@@ -69,9 +69,8 @@ The volume <b>GUID</b> path of the CSV.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-set-csv-maintenance-mode">CLUSCTL_RESOURCE_SET_CSV_MAINTENANCE_MODE</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-set-csv-maintenance-mode">CLUSCTL_RESOURCE_SET_CSV_MAINTENANCE_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>

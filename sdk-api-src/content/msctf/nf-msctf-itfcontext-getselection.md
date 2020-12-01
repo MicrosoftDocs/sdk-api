@@ -56,7 +56,7 @@ Obtains the selection within the document.
 
 ### -param ec [in]
 
-Contains an edit cookie that identifies the edit session. This is the value passed to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
+Contains an edit cookie that identifies the edit session. This is the value passed to <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param ulIndex [in]
 
@@ -68,7 +68,7 @@ Specifies the maximum number of selections to obtain.
 
 ### -param pSelection [out]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_selection">TF_SELECTION</a> structures that receives the data for each selection. The array must be able to hold at least <i>ulCount</i> elements.
+An array of <a href="/windows/desktop/api/msctf/ns-msctf-tf_selection">TF_SELECTION</a> structures that receives the data for each selection. The array must be able to hold at least <i>ulCount</i> elements.
 
 ### -param pcFetched [out]
 
@@ -182,4 +182,3 @@ if(SUCCEEDED(hr) && (uFetched > 0))
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [TF_SELECTION structure](ns-msctf-tf_selection.md), [ITfContext::SetSelection](nf-msctf-itfcontext-setselection.md)
-

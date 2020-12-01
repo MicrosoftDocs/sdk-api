@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initiates an update to the associated <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>.
+Initiates an update to the associated <a href="/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a> or <a href="/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ IID used to lookup the object for drawing.
 
 ### -param updateObject [out]
 
-Receives a COM pointer to the drawing object. Based on <i>iid</i>, this may be either an <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>, when not using batched drawing, or a shared <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>, when using batched Direct2D drawing to improve performance when updating Direct2D content across multiple surfaces.
+Receives a COM pointer to the drawing object. Based on <i>iid</i>, this may be either an <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>, when not using batched drawing, or a shared <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>, when using batched Direct2D drawing to improve performance when updating Direct2D content across multiple surfaces.
 
 ### -param offset [out]
 
@@ -76,17 +76,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
+<a href="/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d">ISurfaceImageSourceNativeWithD2D</a>
+<a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-isurfaceimagesourcenativewithd2d">ISurfaceImageSourceNativeWithD2D</a>
 
 
 
-<a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a>
+<a href="/uwp/api/windows.ui.xaml.media.imaging.surfaceimagesource">SurfaceImageSource</a>
 
 
 
-<a href="https://docs.microsoft.com/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>
-
+<a href="/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>

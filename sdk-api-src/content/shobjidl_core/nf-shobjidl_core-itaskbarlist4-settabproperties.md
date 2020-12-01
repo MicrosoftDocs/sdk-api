@@ -58,13 +58,13 @@ Allows a tab to specify whether the main application frame window or the tab win
 
 Type: <b>HWND</b>
 
-The handle of the tab window that is to have properties set. This handle must already be registered through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-registertab">RegisterTab</a>.
+The handle of the tab window that is to have properties set. This handle must already be registered through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-registertab">RegisterTab</a>.
 
 ### -param stpFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-stpflag">STPFLAG</a></b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-stpflag">STPFLAG</a></b>
 
-One or more members of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-stpflag">STPFLAG</a> enumeration that specify the displayed thumbnail and peek image source of the tab thumbnail.
+One or more members of the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-stpflag">STPFLAG</a> enumeration that specify the displayed thumbnail and peek image source of the tab thumbnail.
 
 ## -returns
 
@@ -78,5 +78,4 @@ An application might want to use the thumbnail or peek representation of its ass
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist4">ITaskbarList4</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist4">ITaskbarList4</a>

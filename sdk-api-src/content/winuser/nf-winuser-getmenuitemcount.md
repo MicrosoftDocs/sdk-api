@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
  - GetMenuItemCount
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetMenuItemCount function
@@ -70,7 +71,7 @@ Type: <b>int</b>
 
 If the function succeeds, the return value specifies the number of items in the menu.
 
-If the function fails, the return value is -1. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is -1. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
@@ -78,13 +79,12 @@ If the function fails, the return value is -1. To get extended error information
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuitemid">GetMenuItemID</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenuitemid">GetMenuItemID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
 <b>Reference</b>
-

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Indicates whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a> or <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is interested in a particular application gesture.
+Indicates whether the <a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a> or <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object is interested in a particular application gesture.
 
 ## -parameters
 
@@ -142,16 +142,16 @@ The flag is invalid.
 
 ## -remarks
 
-This method throws an exception if the gesture parameter is set to <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_AllGestures</a>.
+This method throws an exception if the gesture parameter is set to <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">IAG_AllGestures</a>.
 
-To set the interest of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a> or <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object in a particular gesture, call the <b>InkCollector</b> or <b>InkOverlay</b> object's <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setgesturestatus">SetGestureStatus</a> method.
+To set the interest of the <a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a> or <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object in a particular gesture, call the <b>InkCollector</b> or <b>InkOverlay</b> object's <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setgesturestatus">SetGestureStatus</a> method.
 
-<div class="alert"><b>Note</b>  By default, the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a> and <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> objects do not have interest in any of the application gestures.</div>
+<div class="alert"><b>Note</b>  By default, the <a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a> and <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> objects do not have interest in any of the application gestures.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-gesture">Gesture Event</a>
+<a href="/windows/desktop/tablet/inkcollector-gesture">Gesture Event</a>
 
 
 
@@ -159,13 +159,12 @@ To set the interest of the <a href="https://docs.microsoft.com/windows/desktop/t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a>
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
+<a href="/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setgesturestatus">SetGestureStatus Method</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setgesturestatus">SetGestureStatus Method</a>

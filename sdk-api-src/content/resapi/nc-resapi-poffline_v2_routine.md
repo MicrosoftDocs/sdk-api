@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Marks a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> as unavailable for use after cleanup 
+Marks a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> as unavailable for use after cleanup 
     processing is complete. The <b>POFFLINE_V2_ROUTINE</b> type defines a pointer to 
     this function.
 
@@ -162,9 +162,8 @@ The request is still pending, and a thread has been activated to process the off
 
 If the operation was not successful for other reasons, 
        this function returns one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry Point Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry Point Functions</a>

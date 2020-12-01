@@ -43,7 +43,7 @@ api_name:
 ## -description
 
 Represents a 64-bit signed integer value.
-<div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="https://docs.microsoft.com/windows/desktop/Midl/--int64">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
+<div class="alert"><b>Note</b>  Your C compiler may support 64-bit integers natively. For example, Microsoft Visual C++ supports the <a href="/windows/desktop/Midl/--int64">__int64</a> sized integer type. For more information, see the documentation included with your C compiler.</div><div> </div>
 
 ## -struct-fields
 
@@ -70,4 +70,3 @@ The <b>LARGE_INTEGER</b> structure is actually a union. If your compiler has bui
 ## -see-also
 
 <a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a>
-

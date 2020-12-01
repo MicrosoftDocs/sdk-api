@@ -16,5 +16,4 @@ Overview of the Pointer Input Messages and Notifications technology.
 The Pointer Input Messages and Notifications technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Pointer Input Messages and Notifications](https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg)
-
+* [Pointer Input Messages and Notifications](/previous-versions/windows/desktop/inputmsg)

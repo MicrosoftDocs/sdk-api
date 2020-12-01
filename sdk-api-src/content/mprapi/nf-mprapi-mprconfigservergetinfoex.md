@@ -58,13 +58,13 @@ The
 ### -param hMprConfig [in]
 
 A handle to the router configuration. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
 
 ### -param pServerInfo [out]
 
-A pointer, on output, to  a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_ex0">MPR_SERVER_EX</a> structure that contains the port information for the RRAS server in <i>hMprConfig</i>.
+A pointer, on output, to  a <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_ex0">MPR_SERVER_EX</a> structure that contains the port information for the RRAS server in <i>hMprConfig</i>.
 
-To free this memory, call <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>.
+To free this memory, call <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminbufferfree">MprAdminBufferFree</a>.
 
 ## -returns
 
@@ -118,7 +118,7 @@ The specified procedure could not be found.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -126,25 +126,24 @@ Use
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminservergetinfoex">MprAdminServerGetInfoEx</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminservergetinfoex">MprAdminServerGetInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfoex">MprAdminServerSetInfoEx</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserversetinfoex">MprAdminServerSetInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
+<a href="/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

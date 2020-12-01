@@ -75,7 +75,7 @@ Text is centered.
 #### LVCFMT_COL_HAS_IMAGES
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.70</a>. Header item contains an image in the image list.
+<a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.70</a>. Header item contains an image in the image list.
 
 
 
@@ -101,11 +101,10 @@ The number of average-sized characters in the header.
 
 ### -field str
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a></b>
+Type: <b><a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure that includes a string with the requested information. To convert this structure to a string, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettobufa">StrRetToBuf</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>.
+An <a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure that includes a string with the requested information. To convert this structure to a string, use <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strrettobufa">StrRetToBuf</a> or <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-getdetailsof">IShellDetails::GetDetailsOf</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-getdetailsof">IShellDetails::GetDetailsOf</a>

@@ -62,7 +62,7 @@ Handle to the open phone device. The application must be the owner of the phone 
 ### -param dwRingMode
 
 Ringing pattern with which to ring the phone. This parameter must be within the range of zero to the value of the <b>dwNumRingModes</b> member in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a> structure. If <b>dwNumRingModes</b> is zero, the ring mode of the phone cannot be controlled; if <b>dwNumRingModes</b> is 1, a value of 0 for <i>dwRingMode</i> indicates that the phone should not be rung (silence), and other values from 1 to <b>dwNumRingModes</b> are valid ring modes for the phone device.
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a> structure. If <b>dwNumRingModes</b> is zero, the ring mode of the phone cannot be controlled; if <b>dwNumRingModes</b> is 1, a value of 0 for <i>dwRingMode</i> indicates that the phone should not be rung (silence), and other values from 1 to <b>dwNumRingModes</b> are valid ring modes for the phone device.
 
 ### -param dwVolume
 
@@ -71,7 +71,7 @@ Volume level with which the phone is ringing. This is a number in the range 0x00
 ## -returns
 
 Returns a positive request identifier if the function is completed asynchronously or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-reply">PHONE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
+<a href="/windows/desktop/Tapi/phone-reply">PHONE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 PHONEERR_INVALPHONEHANDLE, PHONEERR_NOMEM, PHONEERR_NOTOWNER, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INVALPHONESTATE, PHONEERR_OPERATIONFAILED, PHONEERR_INVALRINGMODE, PHONEERR_UNINITIALIZED, PHONEERR_OPERATIONUNAVAIL.
 
@@ -81,17 +81,16 @@ The service provider defines the actual audible ringing patterns corresponding t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-reply">PHONE_REPLY</a>
+<a href="/windows/desktop/Tapi/phone-reply">PHONE_REPLY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Retrieves information about a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>. This information includes the bounds on sizes of authentication information, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a>, and contexts.
+Retrieves information about a specified <a href="/windows/desktop/SecGloss/s-gly">security package</a>. This information includes the bounds on sizes of authentication information, <a href="/windows/desktop/SecGloss/c-gly">credentials</a>, and contexts.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ TBD
 ### -param ppPackageInfo [out]
 
 Pointer to a variable that receives a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure containing information about the specified security package.
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure containing information about the specified security package.
 
 
 #### - pszPackageName [in]
@@ -79,7 +79,7 @@ If the function fails, the return value is a nonzero error code.
 ## -remarks
 
 The caller must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function to free the buffer returned in <i>ppPackageInfo</i>.
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a> function to free the buffer returned in <i>ppPackageInfo</i>.
 
 
 
@@ -90,13 +90,12 @@ The caller must call the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
+<a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a>
-
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a>

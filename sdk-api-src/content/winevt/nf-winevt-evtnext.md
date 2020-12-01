@@ -57,7 +57,7 @@ Gets the next event from the query or subscription results.
 
 ### -param ResultSet [in]
 
-The handle to a query or subscription result set that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a> function returns.
+The handle to a query or subscription result set that the <a href="/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a> function or the <a href="/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a> function returns.
 
 ### -param EventsSize [in]
 
@@ -106,7 +106,7 @@ The function succeeded.
 </dl>
 </td>
 <td width="60%">
-The function failed. To get the error code, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+The function failed. To get the error code, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 </td>
 </tr>
@@ -116,26 +116,25 @@ The function failed. To get the error code, call the <a href="https://docs.micro
 
 Call this function in a loop until the function returns <b>FALSE</b> and the error code is ERROR_NO_MORE_ITEMS.
 
-For each event that you retrieve, you can then call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtrender">EvtRender</a> functions to render the event.
+For each event that you retrieve, you can then call the <a href="/windows/desktop/api/winevt/nf-winevt-evtcreaterendercontext">EvtCreateRenderContext</a> and <a href="/windows/desktop/api/winevt/nf-winevt-evtrender">EvtRender</a> functions to render the event.
 
-You must call <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> on each event handle that you receive.
+You must call <a href="/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> on each event handle that you receive.
 
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/querying-for-events">Querying for Events</a> and <a href="https://docs.microsoft.com/windows/desktop/WES/subscribing-to-events">Subscribing to Events</a>.
+For an example that shows how to use this function, see <a href="/windows/desktop/WES/querying-for-events">Querying for Events</a> and <a href="/windows/desktop/WES/subscribing-to-events">Subscribing to Events</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a>
+<a href="/windows/desktop/api/winevt/nf-winevt-evtquery">EvtQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtseek">EvtSeek</a>
+<a href="/windows/desktop/api/winevt/nf-winevt-evtseek">EvtSeek</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtsubscribe">EvtSubscribe</a>

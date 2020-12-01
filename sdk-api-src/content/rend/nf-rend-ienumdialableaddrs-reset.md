@@ -82,5 +82,4 @@ Method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a>
-
+<a href="/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a>

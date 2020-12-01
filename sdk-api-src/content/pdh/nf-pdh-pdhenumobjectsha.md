@@ -55,14 +55,14 @@ api_name:
 Returns a list of objects available on the specified computer or in the specified log file.
 
 This function is identical to 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsa">PdhEnumObjects</a>, except that it supports the use of handles to data sources.
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsa">PdhEnumObjects</a>, except that it supports the use of handles to data sources.
 
 ## -parameters
 
 ### -param hDataSource [in]
 
 Handle to a data source returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a> function.
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a> function.
 
 ### -param szMachineName [in]
 
@@ -175,8 +175,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -242,9 +242,8 @@ You should call this function twice, the first time to get the required buffer s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectitemsha">PdhEnumObjectItemsH</a>
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhenumobjectitemsha">PdhEnumObjectItemsH</a>

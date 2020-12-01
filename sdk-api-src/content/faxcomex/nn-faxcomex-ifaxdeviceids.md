@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IFaxDeviceIds</b> interface defines a configuration collection used by a fax client application to enumerate the ordered fax device IDs associated with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutinggroup">FaxOutboundRoutingGroup</a> object. The collection includes methods to add, remove, and change the order of devices. The order of the devices in the collection determines the relative order in which available fax devices send outgoing transmissions.
+The <b>IFaxDeviceIds</b> interface defines a configuration collection used by a fax client application to enumerate the ordered fax device IDs associated with a <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutinggroup">FaxOutboundRoutingGroup</a> object. The collection includes methods to add, remove, and change the order of devices. The order of the devices in the collection determines the relative order in which available fax devices send outgoing transmissions.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDeviceIds</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxDeviceIds</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxDeviceIds</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxDeviceIds</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,46 +70,46 @@ The <b>IFaxDeviceIds</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-add-vb">Add</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-add-vb">Add</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-add-vb">IFaxDeviceIds::Add</a> method adds a fax device to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> collection, using the device's ID.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-add-vb">IFaxDeviceIds::Add</a> method adds a fax device to the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> collection, using the device's ID.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdeviceids-get__newenum">get__NewEnum</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdeviceids-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdeviceids-get__newenum">IFaxDeviceIds::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> collection.
+The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdeviceids-get__newenum">IFaxDeviceIds::get__NewEnum</a> method returns a reference to an enumerator object that you can use to iterate through the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdeviceids-get_item">get_Item</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdeviceids-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdeviceids-get_item">IFaxDeviceIds::get_Item</a> method represents a device ID from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> collection.
+The <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxdeviceids-get_item">IFaxDeviceIds::get_Item</a> method represents a device ID from the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-remove-vb">Remove</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-remove-vb">Remove</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-remove-vb">IFaxDeviceIds::Remove</a> method removes an item from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> collection.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-remove-vb">IFaxDeviceIds::Remove</a> method removes an item from the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-setorder-vb">SetOrder</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-setorder-vb">SetOrder</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-setorder-vb">IFaxDeviceIds::SetOrder</a> method changes the order of a device in the ordered <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> collection.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-setorder-vb">IFaxDeviceIds::SetOrder</a> method changes the order of a device in the ordered <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> collection.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-count-vb">Count</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-count-vb">Count</a>
 
 
 </td>
@@ -133,7 +133,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-count-vb">IFaxDeviceIds::get_Count</a> property represents the number of objects in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> collection. This is the total number of device IDs associated with the fax server.
+The <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids-count-vb">IFaxDeviceIds::get_Count</a> property represents the number of objects in the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> collection. This is the total number of device IDs associated with the fax server.
 
 </td>
 </tr>
@@ -141,5 +141,4 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-m
 
 ## -remarks
 
-A default implementation of <b>IFaxDeviceIds</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> object.
-
+A default implementation of <b>IFaxDeviceIds</b> is provided as the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceids">FaxDeviceIds</a> object.

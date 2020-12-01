@@ -74,7 +74,7 @@ If this function fails, the return value is <b>FALSE</b>.
 
 ## -remarks
 
-<b>SetICMProfile</b> associates a color profile with a device context. It becomes the output profile for that device context. The color profile does not have to be associated with any particular device. Device-independent profiles such as sRGB can also be used. If the color profile is not associated with a hardware device, it will be returned by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a>, but not by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>.
+<b>SetICMProfile</b> associates a color profile with a device context. It becomes the output profile for that device context. The color profile does not have to be associated with any particular device. Device-independent profiles such as sRGB can also be used. If the color profile is not associated with a hardware device, it will be returned by <a href="/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a>, but not by <a href="/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>.
 
 Note that under Windows 95 or later, the PostScript device driver for printers assumes a CMYK color model. Therefore, all PostScript printers must use a CMYK color profile. Windows 2000 does not have this limitation.
 
@@ -91,17 +91,16 @@ Note that under Windows 95 or later, the PostScript device driver for printers a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumicmprofilesa">EnumICMProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
+<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a>

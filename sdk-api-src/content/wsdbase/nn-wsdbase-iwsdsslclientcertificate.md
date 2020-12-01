@@ -54,7 +54,7 @@ Retrieves the client SSL certificate.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDSSLClientCertificate</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDSSLClientCertificate</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDSSLClientCertificate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWSDSSLClientCertificate</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSDSSLClientCertificate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsslclientcertificate-getclientcertificate">GetClientCertificate</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsslclientcertificate-getclientcertificate">GetClientCertificate</a>
 </td>
 <td align="left" width="63%">
 Gets the client certificate.
@@ -78,7 +78,7 @@ Gets the client certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsslclientcertificate-getmappedaccesstoken">GetMappedAccessToken</a>
+<a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdsslclientcertificate-getmappedaccesstoken">GetMappedAccessToken</a>
 </td>
 <td align="left" width="63%">
 Gets the mapped access token.
@@ -89,7 +89,6 @@ Gets the mapped access token.
 
 ## -remarks
 
-An application can acquire this interface by calling the <a href="https://msdn2.microsoft.com/library/ms682521.aspx">QueryInterface</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>.  If the connection did not arrive over SSL, the call to <a href="https://msdn2.microsoft.com/library/ms682521.aspx">QueryInterface</a> will return <b>E_NOINTERFACE</b>.
+An application can acquire this interface by calling the <a href="/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>.  If the connection did not arrive over SSL, the call to <a href="/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> will return <b>E_NOINTERFACE</b>.
 
-On the device host, the generated code calls the application's service method. This service method has access to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a> interface through the <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure. The <b>IWSDSSLClientCertificate</b> provides access to the client SSL certificate.
-
+On the device host, the generated code calls the application's service method. This service method has access to the <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a> interface through the <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_event">WSD_EVENT</a> structure. The <b>IWSDSSLClientCertificate</b> provides access to the client SSL certificate.

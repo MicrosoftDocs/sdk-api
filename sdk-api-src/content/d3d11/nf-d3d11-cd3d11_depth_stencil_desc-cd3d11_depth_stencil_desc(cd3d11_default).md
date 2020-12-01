@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Instantiates a new instance of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151632(v=vs.85)">CD3D11_DEPTH_STENCIL_DESC</a> structure that is initialized with default depth-stencil-state values.
+Instantiates a new instance of a <a href="/previous-versions/windows/desktop/legacy/jj151632(v=vs.85)">CD3D11_DEPTH_STENCIL_DESC</a> structure that is initialized with default depth-stencil-state values.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ Default depth-stencil-state values.
 
 ## -remarks
 
-Here are the default depth-stencil-state values for the members of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencil_desc">D3D11_DEPTH_STENCIL_DESC</a>:
+Here are the default depth-stencil-state values for the members of <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_depth_stencil_desc">D3D11_DEPTH_STENCIL_DESC</a>:
 
 ```
 DepthEnable = TRUE;
@@ -79,5 +79,4 @@ DepthEnable = TRUE;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151632(v=vs.85)">CD3D11_DEPTH_STENCIL_DESC</a>
-
+<a href="/previous-versions/windows/desktop/legacy/jj151632(v=vs.85)">CD3D11_DEPTH_STENCIL_DESC</a>

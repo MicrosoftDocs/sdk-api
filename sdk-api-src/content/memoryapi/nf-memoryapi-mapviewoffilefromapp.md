@@ -64,7 +64,7 @@ Maps a view of a file mapping into the address space of a calling
 ### -param hFileMappingObject [in]
 
 A handle to a file mapping object. The 
-       <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-createfilemappingfromapp">CreateFileMappingFromApp</a>  function returns 
+       <a href="/windows/desktop/api/memoryapi/nf-memoryapi-createfilemappingfromapp">CreateFileMappingFromApp</a>  function returns 
        this handle.
 
 ### -param DesiredAccess [in]
@@ -158,9 +158,9 @@ When copy-on-write access is specified, the system and process commit charge tak
 </dl>
 </td>
 <td width="60%">
-Starting with Windows 10, version 1703, this flag specifies that the view should be mapped using <a href="https://docs.microsoft.com/windows/desktop/Memory/large-page-support">large page support</a>. The size of the view must be a multiple of the size of a 
+Starting with Windows 10, version 1703, this flag specifies that the view should be mapped using <a href="/windows/desktop/Memory/large-page-support">large page support</a>. The size of the view must be a multiple of the size of a 
          large page reported by the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> function, and the file-mapping object must have been created using the <b>SEC_LARGE_PAGES</b> option. If you provide a non-null value for <i>lpBaseAddress</i>, then the value must be a multiple of <b>GetLargePageMinimum</b>.
+         <a href="/windows/desktop/api/memoryapi/nf-memoryapi-getlargepageminimum">GetLargePageMinimum</a> function, and the file-mapping object must have been created using the <b>SEC_LARGE_PAGES</b> option. If you provide a non-null value for <i>lpBaseAddress</i>, then the value must be a multiple of <b>GetLargePageMinimum</b>.
 
 </td>
 </tr>
@@ -182,20 +182,20 @@ For file-mapping objects created with the <b>SEC_IMAGE</b> attribute, the
        <b>FILE_MAP_READ</b>.
 
 For more information  about access to file mapping objects, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Memory/file-mapping-security-and-access-rights">File Mapping Security and Access Rights</a>.
+       <a href="/windows/desktop/Memory/file-mapping-security-and-access-rights">File Mapping Security and Access Rights</a>.
 
 ### -param FileOffset [in]
 
 The file offset where the view is to begin. The offset must specify an offset within the file mapping. They 
        must also match the  memory allocation granularity of the system. That is, the offset must be a multiple of the 
        allocation granularity. To obtain the memory allocation granularity of the system, use the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function, which fills in the members of 
-       a <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a> structure.
+       <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function, which fills in the members of 
+       a <a href="/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a> structure.
 
 ### -param NumberOfBytesToMap [in]
 
 The number of bytes of a file mapping to map to the view. All bytes must be within the maximum size specified 
-       by <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-createfilemappingfromapp">CreateFileMappingFromApp</a>. If this 
+       by <a href="/windows/desktop/api/memoryapi/nf-memoryapi-createfilemappingfromapp">CreateFileMappingFromApp</a>. If this 
        parameter is 0 (zero), the mapping extends from the specified offset to the end of the file mapping.
 
 ## -returns
@@ -203,7 +203,7 @@ The number of bytes of a file mapping to map to the view. All bytes must be with
 If the function succeeds, the return value is the starting address of the mapped view.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, 
-       call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -221,41 +221,40 @@ The exception is related to remote files. Although
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/creating-a-file-view">Creating a File View</a>
+<a href="/windows/desktop/Memory/creating-a-file-view">Creating a File View</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfilemappinga">OpenFileMapping</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openfilemappinga">OpenFileMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a>
+<a href="/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>

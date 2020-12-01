@@ -56,13 +56,12 @@ The <b>IADsPrintQueueOperations::Resume</b> method resumes processing of suspend
 
 ## -returns
 
-This method supports the standard return values. For more information about other return values, see the  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard return values. For more information about other return values, see the  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsprintqueueoperations">IADsPrintQueueOperations</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsprintqueueoperations">IADsPrintQueueOperations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-pause">IADsPrintQueueOperations::Pause</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-pause">IADsPrintQueueOperations::Pause</a>

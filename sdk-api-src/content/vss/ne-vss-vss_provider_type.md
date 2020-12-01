@@ -86,25 +86,24 @@ A file share provider.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a>
+<a href="/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-__midl___midl_itf_vss_0000_0000_0001">VSS_OBJECT_UNION</a>
+<a href="/openspecs/windows_protocols/ms-scmp/f63af19f-bc5c-4a20-afaf-4f6e0f7c1045">VSS_OBJECT_UNION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_PROVIDER_PROP</a>
+<a href="/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_PROVIDER_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_source_type">VSS_SOURCE_TYPE</a>
-
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_source_type">VSS_SOURCE_TYPE</a>

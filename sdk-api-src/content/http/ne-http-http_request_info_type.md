@@ -54,9 +54,9 @@ api_name:
 
 ## -description
 
-The <b>HTTP_REQUEST_INFO_TYPE</b> enumeration defines the type of information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_info">HTTP_REQUEST_INFO</a> structure. 
+The <b>HTTP_REQUEST_INFO_TYPE</b> enumeration defines the type of information contained in the <a href="/windows/desktop/api/http/ns-http-http_request_info">HTTP_REQUEST_INFO</a> structure. 
 
-This enumeration is used  in the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_info">HTTP_REQUEST_INFO</a> structure.
+This enumeration is used  in the <a href="/windows/desktop/api/http/ns-http-http_request_info">HTTP_REQUEST_INFO</a> structure.
 
 ## -enum-fields
 
@@ -64,7 +64,7 @@ This enumeration is used  in the <a href="https://docs.microsoft.com/windows/des
 
 The request information type is authentication.
 
-The <b>pInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_info">HTTP_REQUEST_INFO</a> structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.
+The <b>pInfo</b> member of the <a href="/windows/desktop/api/http/ns-http-http_request_info">HTTP_REQUEST_INFO</a> structure points to a <a href="/windows/desktop/api/http/ns-http-http_request_auth_info">HTTP_REQUEST_AUTH_INFO</a> structure.
 
 ### -field HttpRequestInfoTypeChannelBind
 
@@ -76,9 +76,8 @@ The <b>pInfo</b> member of the <a href="https://docs.microsoft.com/windows/deskt
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_info">HTTP_REQUEST_INFO</a>
-
+<a href="/windows/desktop/api/http/ns-http-http_request_info">HTTP_REQUEST_INFO</a>

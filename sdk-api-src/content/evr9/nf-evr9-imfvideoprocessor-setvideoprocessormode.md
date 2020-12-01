@@ -57,7 +57,7 @@ Sets the preferred video processor mode. The EVR will attempt to use this mode w
 
 ### -param lpMode [in]
 
-Pointer to a GUID that identifies the video processor mode. To get a list of available modes, call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getavailablevideoprocessormodes">IMFVideoProcessor::GetAvailableVideoProcessorModes</a>.
+Pointer to a GUID that identifies the video processor mode. To get a list of available modes, call <a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getavailablevideoprocessormodes">IMFVideoProcessor::GetAvailableVideoProcessorModes</a>.
 
 ## -returns
 
@@ -138,9 +138,8 @@ Call this method before video playback begins.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>
-
+<a href="/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>

@@ -56,19 +56,19 @@ Retrieves a point on the element that can be clicked.
 
 ### -param clickable [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 Receives the physical screen coordinates of a point that can be used by a client to click this element.
 
 ### -param gotClickable [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
 Receives <b>TRUE</b> if a clickable point was retrieved, or <b>FALSE</b> otherwise.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -78,18 +78,17 @@ A client application can use this method to simulate clicking the left or right 
 
 <ul>
 <li>Call the <b>GetClickablePoint</b> method to find a clickable point on the control.</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function to send a right-mouse-down, right-mouse-up sequence.</li>
+<li>Call the <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> function to send a right-mouse-down, right-mouse-up sequence.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
+<a href="/windows/desktop/WinAuto/uiauto-automation-element-propids">Automation Element Property IDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a>
 
 
 
 <b>Reference</b>
-

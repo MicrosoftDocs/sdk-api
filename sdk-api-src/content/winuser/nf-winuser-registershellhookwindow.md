@@ -60,7 +60,7 @@ api_name:
 
 Registers a specified Shell window to receive certain messages for events or notifications that are useful to Shell applications.
 
-The event messages received are only those sent to the Shell window associated with the specified window's desktop. Many of the messages	are the same as those that can be received after calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a> function and specifying <b>WH_SHELL</b> for the hook type. The difference with <b>RegisterShellHookWindow</b> is that the messages are received through the specified window's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a> and not through a call back procedure.
+The event messages received are only those sent to the Shell window associated with the specified window's desktop. Many of the messages    are the same as those that can be received after calling the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a> function and specifying <b>WH_SHELL</b> for the hook type. The difference with <b>RegisterShellHookWindow</b> is that the messages are received through the specified window's <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a> and not through a call back procedure.
 
 ## -parameters
 
@@ -78,14 +78,14 @@ Type: <b>BOOL</b>
 
 ## -remarks
 
-As with normal window messages, the second parameter of the window procedure identifies the message as a <b>WM_SHELLHOOKMESSAGE</b>. However, for these Shell hook messages, the message value is not a pre-defined constant like other message IDs such as <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a>. The value must be obtained dynamically using a call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea">RegisterWindowMessage</a> as shown here:
+As with normal window messages, the second parameter of the window procedure identifies the message as a <b>WM_SHELLHOOKMESSAGE</b>. However, for these Shell hook messages, the message value is not a pre-defined constant like other message IDs such as <a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a>. The value must be obtained dynamically using a call to <a href="/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea">RegisterWindowMessage</a> as shown here:
 
                 
 
 <code>RegisterWindowMessage(TEXT("SHELLHOOK"));</code>
 
 This precludes handling these messages using a traditional switch statement which requires  ID values that are known at compile time.  For handling Shell hook messages, the normal practice is to code an If statement in the default section of your switch statement and then handle the message if the value of the message ID is the same as the value
-obtained from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea">RegisterWindowMessage</a> call.
+obtained from the <a href="/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea">RegisterWindowMessage</a> call.
 
 The following table describes the <i>wParam</i> and <i>lParam</i> parameter values passed to the window procedure for the Shell hook messages.
 
@@ -144,7 +144,7 @@ The following table describes the <i>wParam</i> and <i>lParam</i> parameter valu
 </tr>
 <tr>
 <td><b>HSHELL_APPCOMMAND</b></td>
-<td>The APPCOMMAND which has been unhandled by the application or other hooks. See <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-appcommand">WM_APPCOMMAND</a> and use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-get_appcommand_lparam">GET_APPCOMMAND_LPARAM</a> macro to retrieve this parameter.</td>
+<td>The APPCOMMAND which has been unhandled by the application or other hooks. See <a href="/windows/desktop/inputdev/wm-appcommand">WM_APPCOMMAND</a> and use the <a href="/windows/desktop/api/winuser/nf-winuser-get_appcommand_lparam">GET_APPCOMMAND_LPARAM</a> macro to retrieve this parameter.</td>
 </tr>
 <tr>
 <td><b>HSHELL_MONITORCHANGED                     </b></td>
@@ -153,7 +153,7 @@ The following table describes the <i>wParam</i> and <i>lParam</i> parameter valu
 </table>
  
 
-This function was not included in the SDK headers and libraries until Windows XP with Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
+This function was not included in the SDK headers and libraries until Windows XP with Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
 
 ## -see-also
 
@@ -161,7 +161,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deregistershellhookwindow">DeregisterShellHookWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-deregistershellhookwindow">DeregisterShellHookWindow</a>
 
 
 
@@ -173,25 +173,24 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)">ShellProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/using-messages-and-message-queues">Using Messages and Message Queues</a>
+<a href="/windows/desktop/winmsg/using-messages-and-message-queues">Using Messages and Message Queues</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/winevents-collision169">WinEvents</a>
+<a href="/windows/desktop/WinAuto/winevents-infrastructure">WinEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

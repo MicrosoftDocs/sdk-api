@@ -57,9 +57,9 @@ Reads ribbon settings from a binary stream.
 
 ### -param pStream [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object.
+Pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object.
 
 ## -returns
 
@@ -79,17 +79,16 @@ The <b>LoadSettingsFromStream </b> method is useful for persisting ribbon state,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon">IUIRibbon</a>
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiribbon">IUIRibbon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream">IUIRibbon::SaveSettingsToStream</a>
+<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiribbon-savesettingstostream">IUIRibbon::SaveSettingsToStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/ribbon-statepersistence">Persisting Ribbon State</a>
+<a href="/windows/desktop/windowsribbon/ribbon-statepersistence">Persisting Ribbon State</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

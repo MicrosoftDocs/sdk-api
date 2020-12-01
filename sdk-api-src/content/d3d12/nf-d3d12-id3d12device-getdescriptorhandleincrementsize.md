@@ -56,7 +56,7 @@ Gets the size of the handle increment for the given type of descriptor heap. Thi
 
 ### -param DescriptorHeapType [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the type of descriptor heap to get the size of the handle increment for.
+The <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_heap_type">D3D12_DESCRIPTOR_HEAP_TYPE</a>-typed value that specifies the type of descriptor heap to get the size of the handle increment for.
 
 ## -returns
 
@@ -64,12 +64,12 @@ Returns the size of the handle increment for the given type of descriptor heap, 
 
 ## -remarks
 
-The descriptor size returned by this method is used as one input to the helper structures <a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-cpu-descriptor-handle">CD3DX12_CPU_DESCRIPTOR_HANDLE</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-gpu-descriptor-handle">CD3DX12_GPU_DESCRIPTOR_HANDLE</a>.
+The descriptor size returned by this method is used as one input to the helper structures <a href="/windows/desktop/direct3d12/cd3dx12-cpu-descriptor-handle">CD3DX12_CPU_DESCRIPTOR_HANDLE</a> and <a href="/windows/desktop/direct3d12/cd3dx12-gpu-descriptor-handle">CD3DX12_GPU_DESCRIPTOR_HANDLE</a>.
 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses <b>ID3D12Device::GetDescriptorHandleIncrementSize</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses <b>ID3D12Device::GetDescriptorHandleIncrementSize</b> as follows:
         
 
 Create the descriptor heap for the resources. The <code>m_rtvDescriptorSize</code> variable stores the render target view descriptor handle increment size, and is used in the <b>Create frame resources</b> section of the code.
@@ -127,11 +127,10 @@ Create the descriptor heap for the resources. The <code>m_rtvDescriptorSize</cod
 ```
 
 
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>

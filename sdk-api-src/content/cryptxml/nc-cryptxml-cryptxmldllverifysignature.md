@@ -49,13 +49,13 @@ api_name:
 
 The <b>CryptXmlDllVerifySignature</b>  function verifies a signature.
 
-The <b>CryptXmlDllVerifySignature</b> function is exposed through the exported <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
+The <b>CryptXmlDllVerifySignature</b> function is exposed through the exported <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a>  function.
 
 ## -parameters
 
 ### -param pSignatureMethod [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm.
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that specifies the algorithm.
 
 ### -param hKey [in]
 
@@ -82,4 +82,3 @@ The size, in bytes, of the <i>pbSignature</i> buffer.
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-

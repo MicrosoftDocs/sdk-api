@@ -55,7 +55,7 @@ The <b>IMediaSample2Config</b> interface returns a pointer to a Direct3D surface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaSample2Config</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaSample2Config</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaSample2Config</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMediaSample2Config</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMediaSample2Config</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediasample2config-getsurface">GetSurface</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-imediasample2config-getsurface">GetSurface</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the Direct3D surface managed by this media sample.
@@ -85,5 +85,4 @@ If a display driver supports VRAM capture, the KsProxy filter allocates samples 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-wddm-capture-in-directshow">Using WDDM Capture in DirectShow</a>
-
+<a href="/windows/desktop/DirectShow/using-wddm-capture-in-directshow">Using WDDM Capture in DirectShow</a>

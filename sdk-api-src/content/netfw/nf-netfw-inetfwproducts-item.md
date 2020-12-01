@@ -60,7 +60,7 @@ Index of the product to retrieve.
 
 ### -param product [out, retval]
 
-Reference to the returned <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a> object.
+Reference to the returned <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a> object.
 
 ## -returns
 
@@ -132,9 +132,8 @@ The requested item does not exist.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproducts">INetFwProducts</a>
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproducts">INetFwProducts</a>

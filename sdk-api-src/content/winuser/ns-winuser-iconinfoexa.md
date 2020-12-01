@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Contains information about an icon or a cursor. Extends <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>. Used by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-geticoninfoexa">GetIconInfoEx</a>.
+Contains information about an icon or a cursor. Extends <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>. Used by <a href="/windows/desktop/api/winuser/nf-winuser-geticoninfoexa">GetIconInfoEx</a>.
 
 ## -struct-fields
 
@@ -100,7 +100,7 @@ A handle to the icon color bitmap. This member can be optional if this structure
 
 Type: <b>WORD</b>
 
-The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions.
+The icon or cursor resource bits. These bits are typically loaded by calls to the <a href="/windows/desktop/api/winuser/nf-winuser-lookupiconidfromdirectoryex">LookupIconIdFromDirectoryEx</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadresource">LoadResource</a> functions.
 
 ### -field szModName
 
@@ -120,15 +120,15 @@ The fully qualified path of the resource.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createiconindirect">CreateIconIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-geticoninfo">GetIconInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
+<a href="/windows/desktop/menurc/icons">Icons</a>
 
 
 
@@ -138,4 +138,3 @@ The fully qualified path of the resource.
 
 > [!NOTE]
 > The winuser.h header defines ICONINFOEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

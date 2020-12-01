@@ -60,7 +60,7 @@ The position at which a new interface will be inserted.
 
 ### -param value [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface that will be inserted.
+The <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a> interface that will be inserted.
 
 ## -returns
 
@@ -110,5 +110,4 @@ An index is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>

@@ -63,27 +63,27 @@ A pointer to the compiled shader.
 
 ### -param BytecodeLength [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 Size of the compiled vertex shader.
 
 ### -param pClassLinkage [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11classlinkage">ID3D11ClassLinkage</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11classlinkage">ID3D11ClassLinkage</a>*</b>
 
-A pointer to a class linkage interface (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11classlinkage">ID3D11ClassLinkage</a>); the value can be <b>NULL</b>.
+A pointer to a class linkage interface (see <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11classlinkage">ID3D11ClassLinkage</a>); the value can be <b>NULL</b>.
 
 ### -param ppVertexShader [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11vertexshader">ID3D11VertexShader</a>**</b>
+Type: <b><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11vertexshader">ID3D11VertexShader</a>**</b>
 
-Address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11vertexshader">ID3D11VertexShader</a> interface. If this is <b>NULL</b>, all other parameters will be validated, and if all parameters pass validation this API will return <b>S_FALSE</b> instead of <b>S_OK</b>.
+Address of a pointer to a <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11vertexshader">ID3D11VertexShader</a> interface. If this is <b>NULL</b>, all other parameters will be validated, and if all parameters pass validation this API will return <b>S_FALSE</b> instead of <b>S_OK</b>.
 
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
+This method returns one of the <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a>.
 
 ## -remarks
 
@@ -97,39 +97,38 @@ If you pass a compiled shader to <i>pShaderBytecode</i> that uses any of the fol
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dcl-uav-typed--sm5---asm-">dcl_uav_typed</a>
+<a href="/windows/desktop/direct3dhlsl/dcl-uav-typed--sm5---asm-">dcl_uav_typed</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dcl-uav-raw--sm5---asm-">dcl_uav_raw</a>
+<a href="/windows/desktop/direct3dhlsl/dcl-uav-raw--sm5---asm-">dcl_uav_raw</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dcl-uav-structured--sm5---asm-">dcl_uav_structured</a>
+<a href="/windows/desktop/direct3dhlsl/dcl-uav-structured--sm5---asm-">dcl_uav_structured</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/ld-raw--sm5---asm-">ld_raw</a>
+<a href="/windows/desktop/direct3dhlsl/ld-raw--sm5---asm-">ld_raw</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/ld-structured--sm5---asm-">ld_structured</a>
+<a href="/windows/desktop/direct3dhlsl/ld-structured--sm5---asm-">ld_structured</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/ld-uav-typed--sm5---asm-">ld_uav_typed</a>
+<a href="/windows/desktop/direct3dhlsl/ld-uav-typed--sm5---asm-">ld_uav_typed</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/store-raw--sm5---asm-">store_raw</a>
+<a href="/windows/desktop/direct3dhlsl/store-raw--sm5---asm-">store_raw</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/store-structured--sm5---asm-">store_structured</a>
+<a href="/windows/desktop/direct3dhlsl/store-structured--sm5---asm-">store_structured</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/store-uav-typed--sm5---asm-">store_uav_typed</a>
+<a href="/windows/desktop/direct3dhlsl/store-uav-typed--sm5---asm-">store_uav_typed</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/sync--sm5---asm-">sync_uglobal</a>
+<a href="/windows/desktop/direct3dhlsl/sync--sm5---asm-">sync_uglobal</a>
 </li>
-<li>All atomics and immediate atomics (for example, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/atomic-and--sm5---asm-">atomic_and</a> and <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/imm-atomic-and--sm5---asm-">imm_atomic_and</a>)</li>
+<li>All atomics and immediate atomics (for example, <a href="/windows/desktop/direct3dhlsl/atomic-and--sm5---asm-">atomic_and</a> and <a href="/windows/desktop/direct3dhlsl/imm-atomic-and--sm5---asm-">imm_atomic_and</a>)</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>

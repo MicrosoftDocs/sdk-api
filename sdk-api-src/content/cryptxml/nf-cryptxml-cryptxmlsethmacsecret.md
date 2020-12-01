@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>CryptXmlSetHMACSecret</b> function sets the HMAC secret on the handle before
- calling the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlsign">CryptXmlSign</a> or <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlverifysignature">CryptXmlVerify</a> function.
+ calling the <a href="/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlsign">CryptXmlSign</a> or <a href="/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlverifysignature">CryptXmlVerify</a> function.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ The handle of the XML <b>Signature</b> element.
 ### -param pbSecret [in]
 
 A pointer to a buffer that contains a block of bytes. 
-    The pointer must be valid during the call to the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlsign">CryptXmlSign</a> or <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlverifysignature">CryptXmlVerify</a> function.
+    The pointer must be valid during the call to the <a href="/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlsign">CryptXmlSign</a> or <a href="/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlverifysignature">CryptXmlVerify</a> function.
 
 ### -param cbSecret
 
@@ -73,4 +73,3 @@ The size, in bytes, of the buffer pointed to by the <i>pbSecret</i> parameter.
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-

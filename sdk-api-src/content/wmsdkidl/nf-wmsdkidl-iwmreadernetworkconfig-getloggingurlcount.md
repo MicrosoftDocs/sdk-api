@@ -67,13 +67,12 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/client">Client Logging</a>
+<a href="/windows/desktop/wmformat/client">Client Logging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getloggingurl">IWMReaderNetworkConfig::GetLoggingUrl</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getloggingurl">IWMReaderNetworkConfig::GetLoggingUrl</a>

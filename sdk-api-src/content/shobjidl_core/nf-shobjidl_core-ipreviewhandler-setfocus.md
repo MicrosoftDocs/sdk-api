@@ -64,5 +64,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method should query the state of the <b>SHIFT</b> key to decide whether to set focus to its first tab stop or its last tab stop. This is necessary because the <b>IPreviewHandler::SetFocus</b> can only succeed if the focus is being set to a window created by the calling thread.
 
-This is the extent of accelerator keys coming down from the host to the preview handler; no other accelerators are passed down. <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-translateaccelerator">IPreviewHandler::TranslateAccelerator</a> is only used for messages from the preview handler's message pump up to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler">IPreviewHandler</a> object.
-
+This is the extent of accelerator keys coming down from the host to the preview handler; no other accelerators are passed down. <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-translateaccelerator">IPreviewHandler::TranslateAccelerator</a> is only used for messages from the preview handler's message pump up to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler">IPreviewHandler</a> object.

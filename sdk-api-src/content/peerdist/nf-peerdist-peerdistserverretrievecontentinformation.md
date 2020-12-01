@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>PeerDistServerRetrieveContentInformation</b> function retrieves the encoded content information associated with a handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>.
+The <b>PeerDistServerRetrieveContentInformation</b> function retrieves the encoded content information associated with a handle returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>.
 
 ## -parameters
 
 ### -param hPeerDist [in]
 
-A PEERDIST_INSTANCE_HANDLE returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
+A PEERDIST_INSTANCE_HANDLE returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 ### -param hContentInfo [in]
 
-The handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>.
+The handle returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>.
 
 ### -param cbMaxNumberOfBytes
 
@@ -72,7 +72,7 @@ Pointer to the buffer that receives the content information data.
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure. This function does not allow the caller to specify the start Offset in the content. The offset is implicitly maintained per hContentInfo. The Offset and OffsetHigh are reserved and must be zero.
+Pointer to an <a href="/windows/win32/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. This function does not allow the caller to specify the start Offset in the content. The offset is implicitly maintained per hContentInfo. The Offset and OffsetHigh are reserved and must be zero.
 
 ## -returns
 
@@ -142,16 +142,15 @@ The service is unavailable.
 
 ## -remarks
 
-On the success of the <b>PeerDistServerRetrieveContentInformation</b> operation, the <b>Offset</b> and <b>OffsetHigh</b> fields of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure will be populated with the <b>ULONGLONG</b> offset in the content information that was retrieved. The <b>OffsetHigh</b> member will be set to the higher 32 bits of the offset and the <b>Offset</b> member will be set to the lower 32 bits of the offset.
+On the success of the <b>PeerDistServerRetrieveContentInformation</b> operation, the <b>Offset</b> and <b>OffsetHigh</b> fields of the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure will be populated with the <b>ULONGLONG</b> offset in the content information that was retrieved. The <b>OffsetHigh</b> member will be set to the higher 32 bits of the offset and the <b>Offset</b> member will be set to the lower 32 bits of the offset.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> will populate <i>lpNumberOfBytesTransferred</i> with the number of bytes transferred. In the event the caller is using a completion port to process Peer Distribution API completions, the <i>lpNumberOfBytes</i> argument of <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> will be populated with the number of bytes transferred.
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> will populate <i>lpNumberOfBytesTransferred</i> with the number of bytes transferred. In the event the caller is using a completion port to process Peer Distribution API completions, the <i>lpNumberOfBytes</i> argument of <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> will be populated with the number of bytes transferred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>
-
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>

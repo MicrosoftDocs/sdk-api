@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the types of resources that can be enumerated using the <a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a> function.
+Specifies the types of resources that can be enumerated using the <a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a> function.
 
 ## -enum-fields
 
@@ -68,9 +68,8 @@ Indicates the upper boundary of the current implementation's resource type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
+<a href="/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>
-
+<a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>

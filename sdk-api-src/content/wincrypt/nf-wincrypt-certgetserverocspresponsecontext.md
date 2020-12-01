@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CertGetServerOcspResponseContext</b> function retrieves a non-blocking, time valid <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response context for the specified handle.
+The <b>CertGetServerOcspResponseContext</b> function retrieves a non-blocking, time valid <a href="/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response context for the specified handle.
 
 ## -parameters
 
 ### -param hServerOcspResponse [in]
 
-The OCSP server response handle for which to retrieve a response context. This handle is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse">CertOpenServerOcspResponse</a> function.
+The OCSP server response handle for which to retrieve a response context. This handle is returned by the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse">CertOpenServerOcspResponse</a> function.
 
 ### -param dwFlags [in]
 
@@ -70,11 +70,10 @@ This parameter is reserved for future use and must be <b>NULL</b>.
 
 If the function succeeds, it returns a pointer to a <a href="/windows/win32/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure.
 
-For a response to be time valid, the current time on the system hosting this function call must be less than the next update time for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context. When a time valid OCSP response
+For a response to be time valid, the current time on the system hosting this function call must be less than the next update time for the <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context. When a time valid OCSP response
 is not available, this function returns <b>NULL</b> with the last error set to
 CRYPT_E_REVOCATION_OFFLINE.
 
 ## -remarks
 
-If you use the <b>CertGetServerOcspResponseContext</b> function to create multiple references to an OCSP response context, you must call <a href="/windows/win32/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CertAddRefServerOcspResponseContext</a> to increment the reference count for the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure. When you have finished using the structure, you must free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreeserverocspresponsecontext">CertFreeServerOcspResponseContext</a> function.
-
+If you use the <b>CertGetServerOcspResponseContext</b> function to create multiple references to an OCSP response context, you must call <a href="/windows/win32/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CertAddRefServerOcspResponseContext</a> to increment the reference count for the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_server_ocsp_response_context">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure. When you have finished using the structure, you must free it by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreeserverocspresponsecontext">CertFreeServerOcspResponseContext</a> function.

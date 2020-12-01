@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a> value that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
+Gets the <a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a> value that is stored in the current <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 ## -parameters
 
 ### -param value [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a>*</b>
+Type: <b><a href="/windows/desktop/api/windows.foundation/ns-windows-foundation-rect">Rect</a>*</b>
 
 The value.
 
@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createrect">IPropertyValueStatics::CreateRect</a>
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createrect">IPropertyValueStatics::CreateRect</a>

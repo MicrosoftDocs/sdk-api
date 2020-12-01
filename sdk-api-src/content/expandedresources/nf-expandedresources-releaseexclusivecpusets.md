@@ -62,9 +62,9 @@ The result of the operation.
 
 You should call this function when you want to transition to shared mode (for example, if the app is running on a low-end device).
 
-After this function is called, the app will still have access to other Game Mode resources, such as increased GPU prioritization. The app will also still get state transitions via <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/expandedresources/nf-expandedresources-hasexpandedresources">HasExpandedResources</a>.
+After this function is called, the app will still have access to other Game Mode resources, such as increased GPU prioritization. The app will also still get state transitions via <a href="/previous-versions/windows/desktop/api/expandedresources/nf-expandedresources-hasexpandedresources">HasExpandedResources</a>.
 
-As with <a href="https://docs.microsoft.com/windows/desktop/ProcThread/setprocessdefaultcpusets">SetProcessDefaultCpuSets</a>, <b>ReleaseExclusiveCpuSets</b> applies to the whole process.
+As with <a href="/windows/desktop/ProcThread/setprocessdefaultcpusets">SetProcessDefaultCpuSets</a>, <b>ReleaseExclusiveCpuSets</b> applies to the whole process.
 
 This is a Win32 API that's only supported in UWP desktop and Xbox apps. It also requires the <b>expandedResources</b> restricted capability, which you can select by opening <b>Package.appxmanifest</b> in Visual Studio and navigating to the <b>Capabilities</b> tab. Alternatively, you can edit the file's code directly:
 
@@ -86,4 +86,3 @@ IgnorableNamespaces=" rescap">
 This capability is granted on a per-title basis; contact your account manager for more information. You can publish a UWP app with this capability to the Store if it targets desktop, but if it targets Xbox it will be rejected in certification.
 
 The app must be in the foreground and have focus before exclusive resources are granted.
-

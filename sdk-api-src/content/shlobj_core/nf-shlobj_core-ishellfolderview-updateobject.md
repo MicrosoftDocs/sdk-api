@@ -72,7 +72,7 @@ The new item.
 
 Type: <b>UINT*</b>
 
-When this method returns, contains a pointer to the index of the item that was replaced. You can use this value to call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getobject">IShellFolderView::GetObject</a> on later to get back the PITEMID_CHILD that you just added.
+When this method returns, contains a pointer to the index of the item that was replaced. You can use this value to call <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getobject">IShellFolderView::GetObject</a> on later to get back the PITEMID_CHILD that you just added.
 
 ## -returns
 
@@ -82,7 +82,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-If you immediately call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getobject">IShellFolderView::GetObject</a> with the index returned by <i>puItem</i>, you will get a copy of the ITEMID_CHILD that you added.  However, the index position of an item may change over time, so code cannot trust that any specific index always returns the same ITEMID_CHILD.
+If you immediately call <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-getobject">IShellFolderView::GetObject</a> with the index returned by <i>puItem</i>, you will get a copy of the ITEMID_CHILD that you added.  However, the index position of an item may change over time, so code cannot trust that any specific index always returns the same ITEMID_CHILD.
 
 Changes made through this method can be discarded in the view by the data source at any time.
-

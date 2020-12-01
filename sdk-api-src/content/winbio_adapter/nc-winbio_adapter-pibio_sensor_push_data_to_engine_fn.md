@@ -6,7 +6,7 @@ helpviewer_keywords: ["PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN","PIBIO_SENSOR_PUSH_D
 old-location: secbiomet\sensoradapterpushdatatoengine.htm
 tech.root: SecBioMet
 ms.assetid: dea49f4b-668d-4b30-a16f-b74f260785c2
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN, PIBIO_SENSOR_PUSH_DATA_TO_ENGINE_FN callback, SensorAdapterPushDataToEngine, SensorAdapterPushDataToEngine callback function [Windows Biometric Framework API], WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, secbiomet.sensoradapterpushdatatoengine, winbio_adapter/SensorAdapterPushDataToEngine
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
@@ -56,11 +56,11 @@ Called by the Windows Biometric Framework to make the current contents of the sa
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param Purpose [in]
 
-A value that specifies the properties of the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure that will be passed to the engine. This can be a bitwise <b>OR</b> of the following security and processing level flags:
+A value that specifies the properties of the <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure that will be passed to the engine. This can be a bitwise <b>OR</b> of the following security and processing level flags:
 
 
 <ul>
@@ -76,20 +76,25 @@ A value that specifies the properties of the <a href="https://docs.microsoft.com
 A value that specifies the format of the sample. This can be a bitwise <b>OR</b> of the following security and processing level flags:
 
 
+* **WINBIO_DATA_FLAG_PRIVACY**
 
-##### )
+The sample should be encrypted.
+            
+            
+* **WINBIO_DATA_FLAG_INTEGRITY**
 
+The sample should be digitally signed or protected by a message authentication code (MAC).
+            
+            
+* **WINBIO_DATA_FLAG_SIGNED**
 
+If this flag and the <mark type="const">WINBIO_DATA_FLAG_INTEGRITY</mark> flag are set, the sample should be signed. If this flag is not set but the <mark type="const">WINBIO_DATA_FLAG_INTEGRITY</mark> flag is set, a MAC should be computed.
+            
+            
+* **WINBIO_DATA_FLAG_RAW**
 
-##### )
+The sample should be placed in the <xref targtype="struct" rid="secbiomet.winbio_bir">WINBIO_BIR</xref> object in the format in which it was captured.
 
-
-
-###### )
-
-
-
-##### )
 
 ### -param RejectDetail [out]
 
@@ -147,7 +152,7 @@ The sample data is not suitable for use. If you return this error code, you must
 </dl>
 </td>
 <td width="60%">
-The <b>SensorContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is <b>NULL</b>.
+The <b>SensorContext</b> member of the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is <b>NULL</b>.
 
 </td>
 </tr>
@@ -166,13 +171,13 @@ No capture data exists.
 
 ## -remarks
 
-Your implementation of this function should convert raw data contained in the  sample buffer into a standard <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure and push this structure to the engine  by using the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn">EngineAdapterAcceptSampleData</a> function. The correct way to do this is to call the <b>WbioEngineAcceptSampleData</b> helper function defined in Winbio_adapter.h header file.
+Your implementation of this function should convert raw data contained in the  sample buffer into a standard <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure and push this structure to the engine  by using the <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn">EngineAdapterAcceptSampleData</a> function. The correct way to do this is to call the <b>WbioEngineAcceptSampleData</b> helper function defined in Winbio_adapter.h header file.
 
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn">EngineAdapterAcceptSampleData</a> function returns WINBIO_E_BAD_CAPTURE, your implementation of <i>SensorAdapterPushDataToEngine</i> should return the <i>RejectDetail</i> value propagated by the engine adapter. 
+If the <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn">EngineAdapterAcceptSampleData</a> function returns WINBIO_E_BAD_CAPTURE, your implementation of <i>SensorAdapterPushDataToEngine</i> should return the <i>RejectDetail</i> value propagated by the engine adapter. 
 
 
-The sensor adapter retains ownership of the sample buffer passed to <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn">EngineAdapterAcceptSampleData</a>. The sensor adapter is responsible for releasing this buffer at some point after <i>EngineAdapterAcceptSampleData</i> returns.
+The sensor adapter retains ownership of the sample buffer passed to <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn">EngineAdapterAcceptSampleData</a>. The sensor adapter is responsible for releasing this buffer at some point after <i>EngineAdapterAcceptSampleData</i> returns.
 
 
 #### Examples
@@ -269,5 +274,4 @@ SensorAdapterPushDataToEngine(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>

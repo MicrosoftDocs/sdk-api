@@ -60,7 +60,7 @@ Virtual key code of the keyboard shortcut.
 
 ### -field uModifiers
 
-Modifies the preserved key. This can be zero or a combination of one or more of the <a href="https://docs.microsoft.com/windows/desktop/TSF/tf-mod--constants">TF_MOD_* constants</a>.
+Modifies the preserved key. This can be zero or a combination of one or more of the <a href="/windows/desktop/TSF/tf-mod--constants">TF_MOD_* constants</a>.
 
 ## -remarks
 
@@ -68,6 +68,5 @@ Preserved keys are registered by TSF text services and provide keyboard shortcut
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tf-mod--constants">TF_MOD_* constants
+<a href="/windows/desktop/TSF/tf-mod--constants">TF_MOD_* constants
       </a>
-

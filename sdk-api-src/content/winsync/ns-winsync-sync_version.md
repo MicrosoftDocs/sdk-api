@@ -75,45 +75,44 @@ A change that is made directly to a replica, such as a change that is made by a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumclockvector-next">IEnumClockVector::Next Method</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-ienumclockvector-next">IEnumClockVector::Next Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-iforgottenknowledge-forgettoversion">IForgottenKnowledge::ForgetToVersion Method</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-iforgottenknowledge-forgettoversion">IForgottenKnowledge::ForgetToVersion Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getchangeversion">ISyncChange::GetChangeVersion Method</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getchangeversion">ISyncChange::GetChangeVersion Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getcreationversion">ISyncChange::GetCreationVersion Method</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchange-getcreationversion">ISyncChange::GetCreationVersion Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-additemmetadatatogroup">ISyncChangeBatchBase::AddItemMetadataToGroup Method</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebatchbase-additemmetadatatogroup">ISyncChangeBatchBase::AddItemMetadataToGroup Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebuilder-addchangeunitmetadata">ISyncChangeBuilder::AddChangeUnitMetadata Method</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangebuilder-addchangeunitmetadata">ISyncChangeBuilder::AddChangeUnitMetadata Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangeunit-getchangeunitversion">ISyncChangeUnit::GetChangeUnitVersion Method</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncchangeunit-getchangeunitversion">ISyncChangeUnit::GetChangeUnitVersion Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-containschange">ISyncKnowledge::ContainsChange Method</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-containschange">ISyncKnowledge::ContainsChange Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-containschangeunit">ISyncKnowledge::ContainsChangeUnit Method</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-containschangeunit">ISyncKnowledge::ContainsChangeUnit Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-convertversion">ISyncKnowledge::ConvertVersion Method</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-convertversion">ISyncKnowledge::ConvertVersion Method</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>

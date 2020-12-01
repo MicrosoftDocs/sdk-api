@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
  - SetupDiOpenDevRegKey
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupDiOpenDevRegKey function
@@ -57,11 +58,11 @@ The <b>SetupDiOpenDevRegKey</b> function opens a registry key for device-specifi
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to open a registry key.
+A handle to the <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains a device information element that represents the device for which to open a registry key.
 
 ### -param DeviceInfoData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that specifies the device information element in <i>DeviceInfoSet</i>.
 
 ### -param Scope [in]
 
@@ -110,15 +111,15 @@ The type of registry storage key to open, which can be one of the following valu
 
 #### DIREG_DEV
 
-Open a <a href="https://docs.microsoft.com/windows-hardware/drivers/">hardware key</a> for the device. 
+Open a <a href="/windows-hardware/drivers/">hardware key</a> for the device. 
 
 
 
 #### DIREG_DRV
 
-Open a <a href="https://docs.microsoft.com/windows-hardware/drivers/">software key</a> for the device. 
+Open a <a href="/windows-hardware/drivers/">software key</a> for the device. 
 
-For more information about a device's hardware and software keys, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/registry-trees-and-keys">Registry Trees and Keys for Devices and Drivers</a>.
+For more information about a device's hardware and software keys, see <a href="/windows-hardware/drivers/install/registry-trees-and-keys">Registry Trees and Keys for Devices and Drivers</a>.
 
 ### -param samDesired [in]
 
@@ -128,29 +129,28 @@ The registry security access that is required for the requested key. For informa
 
 If the function is successful, it returns a handle to an opened registry key where private configuration data about this device instance can be stored/retrieved.
 
-If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Depending on the value that is passed in the <i>samDesired</i> parameter, it might be necessary for the caller of this function to be a member of the Administrators group.
 
-Close the handle returned from this function by calling <a href="https://msdn.microsoft.com/library/ms724837(VS.85).aspx">RegCloseKey</a>.
+Close the handle returned from this function by calling <a href="/windows/win32/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>.
 
-The specified device instance must be registered before this function is called. However, be aware that the operating system automatically registers PnP device instances. For information about how to register non-PnP device instances, see <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiregisterdeviceinfo">SetupDiRegisterDeviceInfo</a>.
+The specified device instance must be registered before this function is called. However, be aware that the operating system automatically registers PnP device instances. For information about how to register non-PnP device instances, see <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiregisterdeviceinfo">SetupDiRegisterDeviceInfo</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedevregkeya">SetupDiCreateDevRegKey</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedevregkeya">SetupDiCreateDevRegKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfoa">SetupDiCreateDeviceInfo</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfoa">SetupDiCreateDeviceInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelist">SetupDiGetHwProfileList</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelist">SetupDiGetHwProfileList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiregisterdeviceinfo">SetupDiRegisterDeviceInfo</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiregisterdeviceinfo">SetupDiRegisterDeviceInfo</a>

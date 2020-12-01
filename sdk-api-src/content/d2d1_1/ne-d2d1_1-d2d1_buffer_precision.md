@@ -92,13 +92,12 @@ Do not use this value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_rendering_controls">D2D1_RENDERING_CONTROLS</a>
+<a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_rendering_controls">D2D1_RENDERING_CONTROLS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-getrenderingcontrols">ID2D1DeviceContext::GetRenderingControls</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-getrenderingcontrols">ID2D1DeviceContext::GetRenderingControls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setrenderingcontrols(constd2d1_rendering_controls_)">ID2D1DeviceContext::SetRenderingControls</a>
-
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setrenderingcontrols(constd2d1_rendering_controls_)">ID2D1DeviceContext::SetRenderingControls</a>

@@ -45,9 +45,6 @@ api_name:
  - DML_RECURRENT_NETWORK_DIRECTION
 ---
 
-# DML_RECURRENT_NETWORK_DIRECTION enumeration
-
-
 ## -description
 
 Defines constants that specify a direction for a recurrent DirectML operator.

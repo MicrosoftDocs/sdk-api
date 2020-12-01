@@ -54,7 +54,7 @@ Provides a way to represent the current object as a string.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStringable</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IStringable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStringable</b> interface inherits from <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>. <b>IStringable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IStringable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-istringable-tostring">ToString</a>
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-istringable-tostring">ToString</a>
 </td>
 <td align="left" width="63%">
 Gets a string that represents the current object.
@@ -80,14 +80,13 @@ Gets a string that represents the current object.
 
 ## -remarks
 
-<div class="alert"><b>Important</b>  Managed types should not implement the <b>IStringable</b> interface. For more info, see <a href="https://msdn.microsoft.com/library/system.object.tostring.aspx">Object.ToString Method</a>.</div>
+<div class="alert"><b>Important</b>  Managed types should not implement the <b>IStringable</b> interface. For more info, see <a href="/dotnet/api/system.object.tostring">Object.ToString Method</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
+<a href="/windows/desktop/WinRT/hstring">HSTRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>

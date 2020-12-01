@@ -62,8 +62,8 @@ Enables features for a specified heap.
 ### -param HeapHandle [in, optional]
 
 A handle to the heap where information is to be set. This handle is returned by either the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
+      <a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a> or 
+      <a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function.
 
 ### -param HeapInformationClass [in]
 
@@ -83,7 +83,7 @@ The class of information to be set. This parameter can be one of the following v
 </td>
 <td width="60%">
 Enables heap features. Only the 
-        <a href="https://docs.microsoft.com/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> (LFH) is supported. 
+        <a href="/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> (LFH) is supported. 
         However, it is not necessary for applications to enable the LFH because the system uses the LFH as needed to 
         service memory allocation requests.
         
@@ -94,7 +94,7 @@ Enables heap features. Only the
 
 The LFH cannot be enabled for heaps created with <b>HEAP_NO_SERIALIZE</b> or for heaps 
            created with a fixed size. The LFH also cannot be enabled if you are using the heap debugging tools in 
-           <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/">Debugging Tools for Windows</a> 
+           <a href="/windows-hardware/drivers/debugger/">Debugging Tools for Windows</a> 
            or 
            <a href="https://www.microsoft.com/downloads/details.aspx?FamilyID=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18&displaylang=en">Microsoft Application Verifier</a>.
 
@@ -132,7 +132,7 @@ After a process enables this feature, it cannot be disabled.
 </dl>
 </td>
 <td width="60%">
-If HeapSetInformation is called with <i>HeapHandle</i> set to NULL, then all heaps in the process with a <a href="https://docs.microsoft.com/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> (LFH) will have their caches optimized,  and the memory will be decommitted if possible.  
+If HeapSetInformation is called with <i>HeapHandle</i> set to NULL, then all heaps in the process with a <a href="/windows/desktop/Memory/low-fragmentation-heap">low-fragmentation heap</a> (LFH) will have their caches optimized,  and the memory will be decommitted if possible.  
 
 If a heap pointer is supplied in <i>HeapHandle</i>, then only that heap will be optimized.
 
@@ -167,12 +167,12 @@ The size of the <i>HeapInformation</i> buffer, in bytes.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 To retrieve the current settings for the heap, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapqueryinformation">HeapQueryInformation</a> function.
+    <a href="/windows/desktop/api/heapapi/nf-heapapi-heapqueryinformation">HeapQueryInformation</a> function.
 
 Setting the <b>HeapEnableTerminateOnCorruption</b> option is strongly recommended because 
     it reduces an application's exposure to security exploits that take advantage of a corrupted heap.
@@ -253,21 +253,20 @@ int __cdecl _tmain()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
+<a href="/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapcreate">HeapCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapqueryinformation">HeapQueryInformation</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapqueryinformation">HeapQueryInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
-
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>

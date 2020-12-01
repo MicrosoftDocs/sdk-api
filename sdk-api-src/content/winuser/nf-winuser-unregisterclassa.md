@@ -53,6 +53,7 @@ api_name:
  - UnregisterClass
  - UnregisterClassA
  - UnregisterClassW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # UnregisterClassA function
@@ -68,7 +69,7 @@ Unregisters a window class, freeing the memory required for the class.
 
 Type: <b>LPCTSTR</b>
 
-A null-terminated string or a class atom. If <i>lpClassName</i> is a string, it specifies the window class name. This class name must have been registered by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. System classes, such as dialog box controls, cannot be unregistered. If this parameter is an atom, it must be a class atom created by a previous call to the <b>RegisterClass</b> or <b>RegisterClassEx</b> function. The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero.
+A null-terminated string or a class atom. If <i>lpClassName</i> is a string, it specifies the window class name. This class name must have been registered by a previous call to the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. System classes, such as dialog box controls, cannot be unregistered. If this parameter is an atom, it must be a class atom created by a previous call to the <b>RegisterClass</b> or <b>RegisterClassEx</b> function. The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero.
 
 ### -param hInstance [in, optional]
 
@@ -82,7 +83,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero. 
 
-If the class could not be found or if a window still exists that was created with the class, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the class could not be found or if a window still exists that was created with the class, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -90,7 +91,7 @@ Before calling this function, an application must destroy all windows created wi
 
 All window classes that an application registers are unregistered when it terminates. 
 
-Class atoms are special atoms returned only by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>. 
+Class atoms are special atoms returned only by <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> and <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>. 
 
 No window classes registered by a DLL are unregistered when the .dll is unloaded. 
 
@@ -111,13 +112,12 @@ No window classes registered by a DLL are unregistered when the .dll is unloaded
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
-
+<a href="/windows/desktop/winmsg/window-classes">Window Classes</a>

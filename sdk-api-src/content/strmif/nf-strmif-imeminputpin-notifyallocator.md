@@ -57,7 +57,7 @@ The <code>NotifyAllocator</code> method specifies an allocator for the connectio
 
 ### -param pAllocator [in]
 
-Pointer to the allocator's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a> interface.
+Pointer to the allocator's <a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a> interface.
 
 ### -param bReadOnly [out]
 
@@ -69,15 +69,14 @@ Returns S_OK if successful, or an <b>HRESULT</b> value indicating the cause of t
 
 ## -remarks
 
-During the pin connection, the output pin chooses an allocator and calls this method to notify the input pin. The output pin might use the allocator that the input pin proposed in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imeminputpin-getallocator">IMemInputPin::GetAllocator</a> method, or it might provide its own allocator.
+During the pin connection, the output pin chooses an allocator and calls this method to notify the input pin. The output pin might use the allocator that the input pin proposed in the <a href="/windows/desktop/api/strmif/nf-strmif-imeminputpin-getallocator">IMemInputPin::GetAllocator</a> method, or it might provide its own allocator.
 
 If the <i>bReadOnly</i> parameter is <b>TRUE</b>, all samples in the allocator are read-only. The filter must copy them to modify the data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>

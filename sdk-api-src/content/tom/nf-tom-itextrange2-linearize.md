@@ -106,7 +106,7 @@ A combination of the following flags.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -145,9 +145,8 @@ The build-down process automatically inserts the parentheses, because the linear
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-buildupmath">ITextRange2::BuildUpMath</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextrange2-buildupmath">ITextRange2::BuildUpMath</a>

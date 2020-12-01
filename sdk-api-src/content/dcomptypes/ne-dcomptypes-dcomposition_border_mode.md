@@ -83,9 +83,8 @@ to <b>DCOMPOSITION_BORDER_MODE_HARD</b>.
 </code></li>
 <li><code>SetBitmapInterpolationMode(DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR)</code></li>
 </ul>
-If you want a visual to be drawn with antialiasing, use <a href="https://docs.microsoft.com/windows/desktop/api/dcomptypes/ne-dcomptypes-dcomposition_bitmap_interpolation_mode">DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR</a> for the content of the visual, and <b>DCOMPOSITION_BORDER_MODE_SOFT</b> for the edges.
+If you want a visual to be drawn with antialiasing, use <a href="/windows/desktop/api/dcomptypes/ne-dcomptypes-dcomposition_bitmap_interpolation_mode">DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR</a> for the content of the visual, and <b>DCOMPOSITION_BORDER_MODE_SOFT</b> for the edges.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-setbordermode">IDCompositionVisual::SetBorderMode</a>
-
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-setbordermode">IDCompositionVisual::SetBorderMode</a>

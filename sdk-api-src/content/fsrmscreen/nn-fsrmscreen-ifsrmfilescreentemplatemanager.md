@@ -53,15 +53,15 @@ api_name:
 Used to manage file screen templates.
 
 To get this interface, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
+    <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmFileScreenTemplateManager</b> as the class identifier and 
     <code>__uuidof(IFsrmFileScreenTemplateManager)</code> as the interface 
     identifier. For an example, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/using-templates-to-define-file-screens">Using Templates to Define File Screens</a>.
+    <a href="/previous-versions/windows/desktop/fsrm/using-templates-to-define-file-screens">Using Templates to Define File Screens</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileScreenTemplateManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmFileScreenTemplateManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmFileScreenTemplateManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmFileScreenTemplateManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IFsrmFileScreenTemplateManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-createtemplate">CreateTemplate</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-createtemplate">CreateTemplate</a>
 </td>
 <td align="left" width="63%">
 Creates a file screen template object.
@@ -85,7 +85,7 @@ Creates a file screen template object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-enumtemplates">EnumTemplates</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-enumtemplates">EnumTemplates</a>
 </td>
 <td align="left" width="63%">
 Enumerates the file screen templates on the server.
@@ -94,7 +94,7 @@ Enumerates the file screen templates on the server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-exporttemplates">ExportTemplates</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-exporttemplates">ExportTemplates</a>
 </td>
 <td align="left" width="63%">
 Exports the file screen templates as an XML string.
@@ -103,7 +103,7 @@ Exports the file screen templates as an XML string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-gettemplate">GetTemplate</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-gettemplate">GetTemplate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified file screen template.
@@ -112,7 +112,7 @@ Retrieves the specified file screen template.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-importtemplates">ImportTemplates</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-importtemplates">ImportTemplates</a>
 </td>
 <td align="left" width="63%">
 Imports the specified file screen templates from an XML string.
@@ -130,9 +130,8 @@ To create this object from a script, use the "Fsrm.FsrmFileScreenTemplateManager
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
+<a href="/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmfilescreentemplatemanager">FsrmFileScreenTemplateManager</a>
-
+<a href="/previous-versions/windows/desktop/fsrm/fsrmfilescreentemplatemanager">FsrmFileScreenTemplateManager</a>

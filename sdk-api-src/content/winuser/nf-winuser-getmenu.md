@@ -73,7 +73,7 @@ The return value is a handle to the menu. If the specified window has no menu, t
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Adding Lines and Graphs to a Menu</a>. 
+For an example, see <a href="/windows/desktop/menurc/using-menus">Adding Lines and Graphs to a Menu</a>. 
 
 <div class="code"></div>
 
@@ -83,11 +83,11 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsubmenu">GetSubMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -95,5 +95,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenu">SetMenu</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenu">SetMenu</a>

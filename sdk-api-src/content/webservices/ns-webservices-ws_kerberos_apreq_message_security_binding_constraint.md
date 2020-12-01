@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 A security binding constraint that corresponds to the
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>.
+                <a href="/windows/desktop/api/webservices/ns-webservices-ws_kerberos_apreq_message_security_binding">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ There are no binding-specific properties are defined for this binding constraint
 
 This specifies how the security token corresponding to this security 
                     binding should be attached to a message.
-

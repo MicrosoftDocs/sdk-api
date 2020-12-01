@@ -54,7 +54,7 @@ api_name:
 
 Retrieves a pointer to the first character in a path following the drive letter or Universal Naming Convention (UNC) server/share path elements.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathskiproota">PathSkipRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathskiproota">PathSkipRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 ## -parameters
 
@@ -69,4 +69,3 @@ The address of a pointer that, when this function returns successfully, points t
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

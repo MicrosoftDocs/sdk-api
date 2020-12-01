@@ -68,9 +68,8 @@ Memory has been freed from the stack but has not been returned to the heap yet.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
+<a href="/windows/desktop/DevNotes/resource-enumeration">Resource Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>
-
+<a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>

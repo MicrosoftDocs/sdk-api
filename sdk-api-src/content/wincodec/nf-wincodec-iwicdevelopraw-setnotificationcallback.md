@@ -56,7 +56,7 @@ Sets the notification callback method.
 
 ### -param pCallback [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicdeveloprawnotificationcallback">IWICDevelopRawNotificationCallback</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicdeveloprawnotificationcallback">IWICDevelopRawNotificationCallback</a>*</b>
 
 Pointer to the notification callback method.
 
@@ -65,4 +65,3 @@ Pointer to the notification callback method.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

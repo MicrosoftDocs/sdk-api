@@ -56,15 +56,15 @@ Creates a compute pipeline state object.
 
 ### -param pDesc [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc">D3D12_COMPUTE_PIPELINE_STATE_DESC</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc">D3D12_COMPUTE_PIPELINE_STATE_DESC</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc">D3D12_COMPUTE_PIPELINE_STATE_DESC</a> structure that describes compute pipeline state.
+A pointer to a <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc">D3D12_COMPUTE_PIPELINE_STATE_DESC</a> structure that describes compute pipeline state.
 
 ### -param riid
 
 Type: <b>REFIID</b>
 
-The globally unique identifier (<b>GUID</b>) for the pipeline state interface (<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinestate">ID3D12PipelineState</a>).
+The globally unique identifier (<b>GUID</b>) for the pipeline state interface (<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinestate">ID3D12PipelineState</a>).
             The <b>REFIID</b>, or <b>GUID</b>, of the interface to the pipeline state can be obtained by using the __uuidof() macro.
             For example, __uuidof(ID3D12PipelineState) will get the <b>GUID</b> of the interface to a pipeline state.
 
@@ -72,7 +72,7 @@ The globally unique identifier (<b>GUID</b>) for the pipeline state interface (<
 
 Type: <b>void**</b>
 
-A pointer to a memory block that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinestate">ID3D12PipelineState</a> interface for the pipeline state object.
+A pointer to a memory block that receives a pointer to the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinestate">ID3D12PipelineState</a> interface for the pipeline state object.
             The pipeline state object is an immutable state object.  It contains no methods.
 
 ## -returns
@@ -80,9 +80,8 @@ A pointer to a memory block that receives a pointer to the <a href="https://docs
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
 This method returns <b>E_OUTOFMEMORY</b> if there is insufficient memory to create the pipeline state object.
-              See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> for other possible return values.
+              See <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a> for other possible return values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>

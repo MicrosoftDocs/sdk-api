@@ -52,11 +52,11 @@ api_name:
 
 The <b>IWMOutputMediaProps</b> interface is used to retrieve the properties of an output stream.
 
-An <b>IWMOutputMediaProps</b> object is created by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat">IWMReader::GetOutputFormat</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-getoutputprops">IWMReader::GetOutputProps</a>.
+An <b>IWMOutputMediaProps</b> object is created by a call to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat">IWMReader::GetOutputFormat</a> or <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-getoutputprops">IWMReader::GetOutputProps</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMOutputMediaProps</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>. <b>IWMOutputMediaProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMOutputMediaProps</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>. <b>IWMOutputMediaProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMOutputMediaProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmoutputmediaprops-getconnectionname">GetConnectionName</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmoutputmediaprops-getconnectionname">GetConnectionName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the connection to be used for output.
@@ -80,7 +80,7 @@ Retrieves the name of the connection to be used for output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmoutputmediaprops-getstreamgroupname">GetStreamGroupName</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmoutputmediaprops-getstreamgroupname">GetStreamGroupName</a>
 </td>
 <td align="left" width="63%">
 Returns an empty string.
@@ -89,25 +89,24 @@ Returns an empty string.
 </tr>
 </table> 
 
-For information on which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/output-media-properties-object">Output Media Properties Object</a>.
+For information on which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/output-media-properties-object">Output Media Properties Object</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmediaprops">IWMMediaProps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-setoutputprops">IWMReader::SetOutputProps</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-setoutputprops">IWMReader::SetOutputProps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadertypenegotiation-tryoutputprops">IWMReaderTypeNegotiation::TryOutputProps</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadertypenegotiation-tryoutputprops">IWMReaderTypeNegotiation::TryOutputProps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>

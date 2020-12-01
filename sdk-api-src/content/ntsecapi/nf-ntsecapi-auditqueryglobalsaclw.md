@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>AuditQueryGlobalSacl</b> function retrieves  a global <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) that delegates access to the audit messages. Updating the global SACL requires the <b>SeSecurityPrivilege</b> which protects the global SACL from being updated by any user without administrator privileges.
+The <b>AuditQueryGlobalSacl</b> function retrieves  a global <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) that delegates access to the audit messages. Updating the global SACL requires the <b>SeSecurityPrivilege</b> which protects the global SACL from being updated by any user without administrator privileges.
 
 ## -parameters
 
@@ -64,14 +64,14 @@ A pointer to a null-terminated string specifying the type of object being access
 
 ### -param Acl [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure that contains the SACL information.  This should be freed later by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+A pointer to an <a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure that contains the SACL information.  This should be freed later by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 ## -returns
 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.
 
 <table>
 <tr>
@@ -113,4 +113,3 @@ To successfully call this function, the caller must have <b>SeSecurityPrivilege<
 
 > [!NOTE]
 > The ntsecapi.h header defines AuditQueryGlobalSacl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

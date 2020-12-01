@@ -53,7 +53,7 @@ api_name:
 Returns an instance of <code>uint32_t</code> containing the components of the <code>XMUDEC4</code>instance in a packed format.
     
 
-This operator returns an instance of <code>uint32_t</code> containing the components of the <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4 
+This operator returns an instance of <code>uint32_t</code> containing the components of the <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4 
 	</a> instance in a packed format.
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>
@@ -99,9 +99,8 @@ The last 4 bits (bits 30-31) of the return value are to the <b>w</b>component of
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmudec4">XMUDEC4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmudec4-operators">XMUDEC4 Operators</a>
-
+<a href="/windows/desktop/dxmath/ovw-xmudec4-operators">XMUDEC4 Operators</a>

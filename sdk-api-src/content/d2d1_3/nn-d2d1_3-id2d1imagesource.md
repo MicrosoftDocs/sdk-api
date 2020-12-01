@@ -54,7 +54,7 @@ Represents a producer of pixels that can fill an arbitrary 2D plane.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ImageSource</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>. <b>ID2D1ImageSource</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1ImageSource</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>. <b>ID2D1ImageSource</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1ImageSource</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-offerresources">OfferResources</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-offerresources">OfferResources</a>
 </td>
 <td align="left" width="63%">
 Allows the operating system to free the video memory of resources by discarding their content.
@@ -78,10 +78,10 @@ Allows the operating system to free the video memory of resources by discarding 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-tryreclaimresources">TryReclaimResources</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-tryreclaimresources">TryReclaimResources</a>
 </td>
 <td align="left" width="63%">
-Restores access to resources that were previously offered by calling <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-offerresources">OfferResources</a>.
+Restores access to resources that were previously offered by calling <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-offerresources">OfferResources</a>.
         
 
 </td>
@@ -90,17 +90,16 @@ Restores access to resources that were previously offered by calling <a href="ht
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-createimagesourcefromwic">I2D1DeviceContext2::CreateImageSourceFromWic</a>
+<a href="/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromwic(iwicbitmapsource_d2d1_image_source_loading_options_id2d1imagesourcefromwic)">I2D1DeviceContext2::CreateImageSourceFromWic</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromdxgi">ID2D1DeviceContext2::CreateImageSourceFromDxgi</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext2-createimagesourcefromdxgi">ID2D1DeviceContext2::CreateImageSourceFromDxgi</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic">ID2D1ImageSourceFromWic</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic">ID2D1ImageSourceFromWic</a>

@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Sets the calendar ID for the given calendar control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-setcalid">MCM_SETCALID</a> message explicitly.
+Sets the calendar ID for the given calendar control. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-setcalid">MCM_SETCALID</a> message explicitly.
 
 ## -parameters
 
 ### -param hmc
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a month calendar control.
 
 ### -param calid
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Calendar ID. One of the <a href="https://docs.microsoft.com/windows/desktop/Intl/calendar-identifiers">Calendar Identifiers</a> constants.
-
+Calendar ID. One of the <a href="/windows/desktop/Intl/calendar-identifiers">Calendar Identifiers</a> constants.

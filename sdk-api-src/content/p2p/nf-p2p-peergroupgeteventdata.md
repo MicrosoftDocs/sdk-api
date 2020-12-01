@@ -56,11 +56,11 @@ The <b>PeerGroupGetEventData</b> function allows an application to retrieve the 
 
 ### -param hPeerEvent [in]
 
-Handle obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupregisterevent">PeerGroupRegisterEvent</a>. This parameter is required.
+Handle obtained from a previous call to <a href="/windows/desktop/api/p2p/nf-p2p-peergroupregisterevent">PeerGroupRegisterEvent</a>. This parameter is required.
 
 ### -param ppEventData [out]
 
-Pointer to a [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1) structure that contains data about the peer event. This data structure must be freed after use with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>. This parameter is required.
+Pointer to a [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1) structure that contains data about the peer event. This data structure must be freed after use with <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>. This parameter is required.
 
 ## -returns
 
@@ -96,11 +96,11 @@ The call is successful, but there is no event data available.
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 ## -remarks
 
-When an event occurs for which a peer has requested notification, the corresponding peer event handle is signaled. The peer  calls this method until [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1) structures are retrieved. Each data structure contains the following two key pieces of data: 
+When an event occurs for which a peer has requested notification, the corresponding peer event handle is signaled. The peer  calls this method until [PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1) structures are retrieved. Each data structure contains the following two key pieces of data: 
 
 <ul>
 <li>The registration associated with a peer event.</li>
@@ -109,13 +109,12 @@ When an event occurs for which a peer has requested notification, the correspond
 
 ## -see-also
 
-[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data~r1)
+[PEER_GROUP_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_group_event_data-r1)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupregisterevent">PeerGroupRegisterEvent</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupregisterevent">PeerGroupRegisterEvent</a>

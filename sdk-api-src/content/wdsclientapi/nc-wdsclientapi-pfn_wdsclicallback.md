@@ -115,8 +115,8 @@ The informational message. The <i>lParam</i> parameter is pointer to a debugging
 ### -param wParam [in, optional]
 
 This message parameter should always be set to the value of the transfer handle returned by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> function.
+      <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or 
+      <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> function.
 
 ### -param lParam [in, optional]
 
@@ -126,14 +126,13 @@ The meaning of the value contained by this parameter depends upon the
 ### -param pvUserData [in, optional]
 
 A pointer to optional user information attached to this session by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> function.
+      <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferimage">WdsCliTransferImage</a> or 
+      <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclitransferfile">WdsCliTransferFile</a> function.
 
 ## -remarks
 
 A callback function can call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclicanceltransfer">WdsCliCancelTransfer</a> function to cancel a 
+    <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclicanceltransfer">WdsCliCancelTransfer</a> function to cancel a 
     transfer. Although a callback function can also call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliwaitfortransfer">WdsCliWaitForTransfer</a> function, this is not 
+    <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliwaitfortransfer">WdsCliWaitForTransfer</a> function, this is not 
     recommended because no additional callbacks will be received until the current callback is unblocked.
-

@@ -54,7 +54,7 @@ Exposes methods that provide access to writing metadata content. This is impleme
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataWriter</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a>. <b>IWICMetadataWriter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataWriter</b> interface inherits from <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a>. <b>IWICMetadataWriter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICMetadataWriter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-removevalue">RemoveValue</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-removevalue">RemoveValue</a>
 </td>
 <td align="left" width="63%">
 Removes the metadata item that matches the given parameters.
@@ -78,7 +78,7 @@ Removes the metadata item that matches the given parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-removevaluebyindex">RemoveValueByIndex</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-removevaluebyindex">RemoveValueByIndex</a>
 </td>
 <td align="left" width="63%">
 Removes the metadata item at the specified index.
@@ -87,7 +87,7 @@ Removes the metadata item at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-setvalue">SetValue</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the given metadata item.
@@ -96,7 +96,7 @@ Sets the given metadata item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-setvaluebyindex">SetValueByIndex</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriter-setvaluebyindex">SetValueByIndex</a>
 </td>
 <td align="left" width="63%">
 Sets the metadata item to the specified index.
@@ -107,7 +107,7 @@ Sets the metadata item to the specified index.
 
 ## -remarks
 
-A metadata writer can be used to write metadata blocks and items within a metadata block instead of using a query writer. To directly access the metadata writer, query an encoder or its frames for the <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter">IWICMetadataBlockWriter</a> interface to enumerate each metadata writer.
+A metadata writer can be used to write metadata blocks and items within a metadata block instead of using a query writer. To directly access the metadata writer, query an encoder or its frames for the <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter">IWICMetadataBlockWriter</a> interface to enumerate each metadata writer.
 
 ## -see-also
 
@@ -115,21 +115,20 @@ A metadata writer can be used to write metadata blocks and items within a metada
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a>
+<a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatareader">IWICMetadataReader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadatahandlers">Metadata Extensibility Overview</a>
+<a href="/windows/desktop/wic/-wic-codec-metadatahandlers">Metadata Extensibility Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
+<a href="/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
+<a href="/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
-
+<a href="/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>

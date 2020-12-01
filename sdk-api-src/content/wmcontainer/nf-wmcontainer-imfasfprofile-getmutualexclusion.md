@@ -61,7 +61,7 @@ Index of the mutual exclusion object in the profile.
 
 ### -param ppIMutex [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a> interface of the ASF mutual exclusion object. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a> interface of the ASF mutual exclusion object. The caller must release the interface.
 
 ## -returns
 
@@ -89,29 +89,28 @@ The method succeeded.
 
 This method does not create a copy of the mutual exclusion object. The returned pointer refers to the mutual exclusion contained in the profile object. You must not make any changes to the mutual exclusion object using this pointer, because doing so can affect the profile object in unexpected ways.
 
-To change the configuration of the mutual exclusion object in the profile, you must first clone the mutual exclusion object by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-clone">IMFASFMutualExclusion::Clone</a>. Make whatever changes are required to the clone of the object, remove the old mutual exclusion object from the profile by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removemutualexclusion">IMFASFProfile::RemoveMutualExclusion</a> method, and then add the updated object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addmutualexclusion">IMFASFProfile::AddMutualExclusion</a> method.
+To change the configuration of the mutual exclusion object in the profile, you must first clone the mutual exclusion object by calling <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-clone">IMFASFMutualExclusion::Clone</a>. Make whatever changes are required to the clone of the object, remove the old mutual exclusion object from the profile by calling the <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removemutualexclusion">IMFASFProfile::RemoveMutualExclusion</a> method, and then add the updated object by calling the <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addmutualexclusion">IMFASFProfile::AddMutualExclusion</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-profile">ASF Profile</a>
+<a href="/windows/desktop/medfound/asf-profile">ASF Profile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addmutualexclusion">IMFASFProfile::AddMutualExclusion</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addmutualexclusion">IMFASFProfile::AddMutualExclusion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getmutualexclusioncount">IMFASFProfile::GetMutualExclusionCount</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getmutualexclusioncount">IMFASFProfile::GetMutualExclusionCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removemutualexclusion">IMFASFProfile::RemoveMutualExclusion</a>
-
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removemutualexclusion">IMFASFProfile::RemoveMutualExclusion</a>

@@ -56,7 +56,7 @@ Closes a handle to a Cryptographic Service Provider (CSP). The <b>PCLOSE_CLUSTER
 
 ### -param hClusCryptProvider [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn823545(v=vs.85)">HCLUSCRYPTPROVIDER</a> structure that contains a handle to a CSP.
+A <a href="/previous-versions/windows/desktop/legacy/dn823545(v=vs.85)">HCLUSCRYPTPROVIDER</a> structure that contains a handle to a CSP.
 
 ## -returns
 
@@ -64,9 +64,8 @@ If the operation completes successfully, this function returns <b>ERROR_SUCCESS<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cryptography-functions">Cryptography Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/cryptography-functions">Cryptography Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-openclustercryptprovider">OpenClusterCryptProvider</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-openclustercryptprovider">OpenClusterCryptProvider</a>

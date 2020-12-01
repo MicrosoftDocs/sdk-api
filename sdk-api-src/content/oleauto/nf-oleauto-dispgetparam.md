@@ -56,7 +56,7 @@ Retrieves a parameter from the DISPPARAMS structure, checking both named paramet
 
 ### -param pdispparams [in]
 
-The parameters passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a>.
+The parameters passed to <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a>.
 
 ### -param position
 
@@ -72,7 +72,7 @@ the variant to pass the parameter into.
 
 ### -param puArgErr [out, optional]
 
-On return, the index of the argument that caused a DISP_E_TYPEMISMATCH error. This pointer is returned to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> to indicate the position of the argument in DISPPARAMS that caused the error.
+On return, the index of the argument that caused a DISP_E_TYPEMISMATCH error. This pointer is returned to <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a> to indicate the position of the argument in DISPPARAMS that caused the error.
 
 ## -returns
 
@@ -259,17 +259,16 @@ CPoint::Invoke(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/dispatch-functions">Creation of Dispatch API Functions</a>
+<a href="/previous-versions/windows/desktop/automat/dispatch-functions">Creation of Dispatch API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>

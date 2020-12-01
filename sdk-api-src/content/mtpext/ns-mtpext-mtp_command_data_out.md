@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>MTP_COMMAND_DATA_OUT</b> structure contains Media Transport Protocol (MTP) responses that are filled by the device driver on exiting a call to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol">IWMDMDevice3::DeviceIoControl</a>.
+The <b>MTP_COMMAND_DATA_OUT</b> structure contains Media Transport Protocol (MTP) responses that are filled by the device driver on exiting a call to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol">IWMDMDevice3::DeviceIoControl</a>.
 
 ## -struct-fields
 
@@ -80,7 +80,7 @@ Optional, first byte of data to read from the device if <b>MTP_COMMAND_DATA_IN.N
 
 ## -remarks
 
-The input buffer is expected to contain an appropriately filled out <a href="https://docs.microsoft.com/windows/desktop/api/mtpext/ns-mtpext-mtp_command_data_in">MTP_COMMAND_DATA_IN</a> structure. On exit, the device driver will fill out the <b>MTP_COMMAND_DATA_OUT</b> structure and save it to the output buffer. Therefore, any request must have an input buffer of at least SIZEOF_REQUIRED_COMMAND_DATA_IN bytes, which is defined as the following:
+The input buffer is expected to contain an appropriately filled out <a href="/windows/desktop/api/mtpext/ns-mtpext-mtp_command_data_in">MTP_COMMAND_DATA_IN</a> structure. On exit, the device driver will fill out the <b>MTP_COMMAND_DATA_OUT</b> structure and save it to the output buffer. Therefore, any request must have an input buffer of at least SIZEOF_REQUIRED_COMMAND_DATA_IN bytes, which is defined as the following:
 
 <pre class="syntax" xml:space="preserve"><code>
 #define SIZEOF_REQUIRED_COMMAND_DATA_IN (sizeof(MTP_COMMAND_DATA_IN)-1)
@@ -94,13 +94,12 @@ It is assumed that all commands are self-contained, that is, they can be process
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol">IWMDMDevice3::DeviceIoControl</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol">IWMDMDevice3::DeviceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mtpext/ns-mtpext-mtp_command_data_in">MTP_COMMAND_DATA_IN</a>
+<a href="/windows/desktop/api/mtpext/ns-mtpext-mtp_command_data_in">MTP_COMMAND_DATA_IN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/structures">Structures</a>
-
+<a href="/windows/desktop/WMDM/structures">Structures</a>

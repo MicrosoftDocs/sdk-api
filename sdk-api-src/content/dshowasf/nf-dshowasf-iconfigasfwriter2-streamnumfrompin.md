@@ -56,7 +56,7 @@ The <code>StreamNumFromPin</code> method retrieves the stream number associated 
 
 ### -param pPin [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface on the input pin.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface on the input pin.
 
 ### -param pwStreamNum [out]
 
@@ -72,9 +72,8 @@ You may need to use the Windows Media Format SDK interfaces directly to manipula
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
+<a href="/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2">IConfigAsfWriter2 Interface</a>
-
+<a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2">IConfigAsfWriter2 Interface</a>

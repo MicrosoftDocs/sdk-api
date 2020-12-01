@@ -69,7 +69,7 @@ The name must be in one of the following formats and must include a trailing bac
 
 ### -param protectionLevel [in]
 
-A value from the  <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-vss_protection_level">VSS_PROTECTION_LEVEL</a> enumeration that specifies the shadow copy protection level.
+A value from the  <a href="/windows/desktop/api/vsmgmt/ne-vsmgmt-vss_protection_level">VSS_PROTECTION_LEVEL</a> enumeration that specifies the shadow copy protection level.
 
 ## -returns
 
@@ -135,7 +135,7 @@ The provider for the volume does not support shadow copy protection.
 </dl>
 </td>
 <td width="60%">
-An expected provider error has occurred. The error code is logged in the event log. For more information, see <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+An expected provider error has occurred. The error code is logged in the event log. For more information, see <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -159,13 +159,12 @@ The <b>SetVolumeProtectLevel</b> method checks the current shadow copy protectio
 
 If the current protection level of the volume is the same as the value of the <i>protectionLevel</i> parameter, <b>SetVolumeProtectLevel</b> does nothing.
 
-If the value of the <i>protectionLevel</i> parameter is <b>VSS_PROTECTION_LEVEL_SNAPSHOT</b>, requesters must set shadow copy storage area (diff area) associations using the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a> method.
+If the value of the <i>protectionLevel</i> parameter is <b>VSS_PROTECTION_LEVEL_SNAPSHOT</b>, requesters must set shadow copy storage area (diff area) associations using the <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3">IVssDifferentialSoftwareSnapshotMgmt3</a>
+<a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3">IVssDifferentialSoftwareSnapshotMgmt3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-getvolumeprotectlevel">IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel</a>
-
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-getvolumeprotectlevel">IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel</a>

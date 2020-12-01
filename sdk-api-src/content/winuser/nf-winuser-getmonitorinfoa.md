@@ -49,6 +49,7 @@ api_name:
  - GetMonitorInfo
  - GetMonitorInfoA
  - GetMonitorInfoW
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetMonitorInfoA function
@@ -66,11 +67,11 @@ A handle to the display monitor of interest.
 
 ### -param lpmi [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfoexa">MONITORINFOEX</a> structure that receives information about the specified display monitor.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a> or <a href="/windows/desktop/api/winuser/ns-winuser-monitorinfoexa">MONITORINFOEX</a> structure that receives information about the specified display monitor.
 
 You must set the <b>cbSize</b> member of the structure to sizeof(MONITORINFO) or sizeof(MONITORINFOEX) before calling the <b>GetMonitorInfo</b> function. Doing so lets the function determine the type of structure you are passing to it.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfoexa">MONITORINFOEX</a> structure is a superset of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a> structure. It has one additional member: a string that contains a name for the display monitor. Most applications have no use for a display monitor name, and so can save some bytes by using a <b>MONITORINFO</b> structure.
+The <a href="/windows/desktop/api/winuser/ns-winuser-monitorinfoexa">MONITORINFOEX</a> structure is a superset of the <a href="/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a> structure. It has one additional member: a string that contains a name for the display monitor. Most applications have no use for a display monitor name, and so can save some bytes by using a <b>MONITORINFO</b> structure.
 
 ## -returns
 
@@ -80,22 +81,21 @@ If the function fails, the return value is zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-monitorinfo">MONITORINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-monitorinfoexa">MONITORINFOEX</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-monitorinfoexa">MONITORINFOEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors-functions">Multiple Display Monitors Functions</a>
+<a href="/windows/desktop/gdi/multiple-display-monitors-functions">Multiple Display Monitors Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>
+<a href="/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winuser.h header defines GetMonitorInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

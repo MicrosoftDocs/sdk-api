@@ -56,7 +56,7 @@ Enables adding in-place pen input to your applications.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPenInputPanel</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPenInputPanel</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPenInputPanel</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPenInputPanel</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Events</a></li>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
@@ -73,45 +73,45 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPenInputPanel</b> interface 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-inputfailed">InputFailed</a>
+<a href="/windows/desktop/tablet/peninputpanel-inputfailed">InputFailed</a>
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Occurs when input focus changes before the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object was able to insert user input into the attached control.
+Occurs when input focus changes before the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object was able to insert user input into the attached control.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-panelchanged">PanelChanged</a>
+<a href="/windows/desktop/tablet/peninputpanel-panelchanged">PanelChanged</a>
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Occurs when the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object changes between layouts.
+Occurs when the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object changes between layouts.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-panelmoving">PanelMoving</a>
+<a href="/windows/desktop/tablet/peninputpanel-panelmoving">PanelMoving</a>
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Occurs when the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is moving.
+Occurs when the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is moving.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-visiblechanged">VisibleChanged</a>
+<a href="/windows/desktop/tablet/peninputpanel-visiblechanged">VisibleChanged</a>
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Occurs when the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object has shown or hidden itself.
+Occurs when the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object has shown or hidden itself.
 
 </td>
 </tr>
@@ -124,10 +124,10 @@ Occurs when the <a href="https://docs.microsoft.com/windows/desktop/tablet/penin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-commitpendinginput">CommitPendingInput</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-commitpendinginput">CommitPendingInput</a>
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
 Sends collected ink to the recognizer and posts the recognition result.
 
@@ -135,32 +135,32 @@ Sends collected ink to the recognizer and posts the recognition result.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-enabletsf">EnableTsf</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-enabletsf">EnableTsf</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Gets or sets a Boolean value that indicates whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object attempts to send text to the attached control through the <a href="https://docs.microsoft.com/windows/desktop/TSF/text-services-framework">Text Services Framework</a> (TSF) and enables the use of the <b>correction</b> user interface.
+Deprecated. Gets or sets a Boolean value that indicates whether the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object attempts to send text to the attached control through the <a href="/windows/desktop/TSF/text-services-framework">Text Services Framework</a> (TSF) and enables the use of the <b>correction</b> user interface.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto">MoveTo</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-moveto">MoveTo</a>
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Sets the position of the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object to a static screen position.
+Sets the position of the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object to a static screen position.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh">Refresh</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh">Refresh</a>
 </td>
 <td align="left" width="63%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh">Refresh</a> is no longer available for use as of Windows XP Tablet PC Edition.
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-refresh">Refresh</a> is no longer available for use as of Windows XP Tablet PC Edition.
 
 </td>
 </tr>
@@ -175,7 +175,7 @@ Sets the position of the <a href="https://docs.microsoft.com/windows/desktop/tab
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_attachededitwindow">AttachedEditWindow</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_attachededitwindow">AttachedEditWindow</a>
 
 
 </td>
@@ -184,16 +184,16 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Sets or gets the window handle of the object that the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is attached to.
+Sets or gets the window handle of the object that the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is attached to.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_autoshow">AutoShow</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_autoshow">AutoShow</a>
 
 
 </td>
@@ -202,7 +202,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
 Gets or sets a value that indicates whether the pen input panel appears when focus is set on the attached control by using the pen.
 
@@ -211,7 +211,7 @@ Gets or sets a value that indicates whether the pen input panel appears when foc
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_busy">Busy</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_busy">Busy</a>
 
 
 </td>
@@ -220,16 +220,16 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Gets a a value that indicates whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is currently processing ink.
+Gets a a value that indicates whether the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is currently processing ink.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_currentpanel">CurrentPanel</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_currentpanel">CurrentPanel</a>
 
 
 </td>
@@ -238,16 +238,16 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Gets or sets which panel type is currently being used for input within the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object.
+Gets or sets which panel type is currently being used for input within the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_defaultpanel">DefaultPanel</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_defaultpanel">DefaultPanel</a>
 
 
 </td>
@@ -256,16 +256,16 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Gets or sets the default panel type used for input within the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object.
+Gets or sets the default panel type used for input within the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_factoid">Factoid</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_factoid">Factoid</a>
 
 
 </td>
@@ -274,16 +274,16 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Gets or sets the string name of the factoid used by the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object.
+Gets or sets the string name of the factoid used by the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_height">Height</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_height">Height</a>
 
 
 </td>
@@ -292,7 +292,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
 Gets the height of the pen input panel in client coordinates.
 
@@ -301,7 +301,7 @@ Gets the height of the pen input panel in client coordinates.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_horizontaloffset">HorizontalOffset</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_horizontaloffset">HorizontalOffset</a>
 
 
 </td>
@@ -310,7 +310,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
 Gets or sets the offset between the left edge of the pen input panel and the left edge of the control to which it is attached.
 
@@ -319,7 +319,7 @@ Gets or sets the offset between the left edge of the pen input panel and the lef
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left">Left</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_left">Left</a>
 
 
 </td>
@@ -328,16 +328,16 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Gets the horizontal, or x-axis, location of the left edge of the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object, in screen coordinates.
+Gets the horizontal, or x-axis, location of the left edge of the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object, in screen coordinates.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top">Top</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top">Top</a>
 
 
 </td>
@@ -346,16 +346,16 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Gets the vertical, or y-axis, location of the top edge of the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object, in screen coordinates.
+Gets the vertical, or y-axis, location of the top edge of the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object, in screen coordinates.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_verticaloffset">VerticalOffset</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_verticaloffset">VerticalOffset</a>
 
 
 </td>
@@ -364,7 +364,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
 Gets or sets the offset between the closest horizontal edge of the pen input panel  and the closest horizontal edge of the control to which it is attached.
 
@@ -373,7 +373,7 @@ Gets or sets the offset between the closest horizontal edge of the pen input pan
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_visible">Visible</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_visible">Visible</a>
 
 
 </td>
@@ -382,16 +382,16 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Gets or sets a value that indicates whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is visible.
+Gets or sets a value that indicates whether the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is visible.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_width">Width</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_width">Width</a>
 
 
 </td>
@@ -400,11 +400,10 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
 Gets the width of the pen input panel  in client coordinates.
 
 </td>
 </tr>
 </table>
-

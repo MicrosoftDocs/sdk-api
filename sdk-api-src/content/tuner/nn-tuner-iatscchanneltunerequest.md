@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IATSCChannelTuneRequest</b> interface provides methods for tuning to a channel in an ATSC network. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/atscchanneltunerequest-object">ATSCChannelTuneRequest</a> object implements this interface.
+The <b>IATSCChannelTuneRequest</b> interface provides methods for tuning to a channel in an ATSC network. The <a href="/previous-versions/windows/desktop/mstv/atscchanneltunerequest-object">ATSCChannelTuneRequest</a> object implements this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSCChannelTuneRequest</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ichanneltunerequest">IChannelTuneRequest</a>. <b>IATSCChannelTuneRequest</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IATSCChannelTuneRequest</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ichanneltunerequest">IChannelTuneRequest</a>. <b>IATSCChannelTuneRequest</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IATSCChannelTuneRequest</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatscchanneltunerequest-get_minorchannel">get_MinorChannel</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatscchanneltunerequest-get_minorchannel">get_MinorChannel</a>
 </td>
 <td align="left" width="63%">
 Gets the current minor channel.
@@ -78,7 +78,7 @@ Gets the current minor channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatscchanneltunerequest-put_minorchannel">put_MinorChannel</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatscchanneltunerequest-put_minorchannel">put_MinorChannel</a>
 </td>
 <td align="left" width="63%">
 Sets the minor channel to be tuned.
@@ -94,19 +94,19 @@ ATSC defines a tune request in terms of a <i>major channel</i> and a <i>minor ch
 <ul>
 <li>Major channel: <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ichanneltunerequest-get_channel">IChannelTuneRequest::get_Channel</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ichanneltunerequest-get_channel">IChannelTuneRequest::get_Channel</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ichanneltunerequest-put_channel">IChannelTuneRequest::put_Channel</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ichanneltunerequest-put_channel">IChannelTuneRequest::put_Channel</a>
 </li>
 </ul>
 </li>
 <li>Minor channel: <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatscchanneltunerequest-get_minorchannel">IATSCChannelTuneRequest::get_MinorChannel</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatscchanneltunerequest-get_minorchannel">IATSCChannelTuneRequest::get_MinorChannel</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-iatscchanneltunerequest-put_minorchannel">IATSCChannelTuneRequest::put_MinorChannel</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatscchanneltunerequest-put_minorchannel">IATSCChannelTuneRequest::put_MinorChannel</a>
 </li>
 </ul>
 </li>
@@ -115,9 +115,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ichanneltunerequest">IChannelTuneRequest</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ichanneltunerequest">IChannelTuneRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

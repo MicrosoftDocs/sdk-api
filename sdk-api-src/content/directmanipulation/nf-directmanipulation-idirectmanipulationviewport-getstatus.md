@@ -56,7 +56,7 @@ Gets the state of the viewport.
 
 ### -param status [out, retval]
 
-One of the values from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_status">DIRECTMANIPULATION_STATUS</a>.
+One of the values from <a href="/previous-versions/windows/desktop/api/directmanipulation/ne-directmanipulation-directmanipulation_status">DIRECTMANIPULATION_STATUS</a>.
 
 ## -returns
 
@@ -66,7 +66,7 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 This method returns the viewport state at the time of the call and not at the time when the return value is read.
 
-This method will fail if called after <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-abandon">Abandon</a>.
+This method will fail if called after <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-abandon">Abandon</a>.
 
 
 #### Examples
@@ -83,5 +83,4 @@ HRESULT hr = pViewport->GetStatus(&status);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
-
+<a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>

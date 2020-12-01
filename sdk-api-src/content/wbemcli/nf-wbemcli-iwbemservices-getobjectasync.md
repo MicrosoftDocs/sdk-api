@@ -66,10 +66,10 @@ api_name:
 
 The 
 <b>IWbemServices::GetObjectAsync</b> method retrieves an object, either a class definition or instance, based on its path. This is similar to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a> except that the call returns immediately, and the object is provided to the supplied object sink.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a> except that the call returns immediately, and the object is provided to the supplied object sink.
 
 Currently, this method retrieves objects only from the namespace associated with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> pointer.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> pointer.
 
 ## -parameters
 
@@ -85,7 +85,7 @@ Path of the object to retrieve. For an instance provider, <i>StrObjectPath</i> c
 Specifying the namespace before the class is optional. Object paths without namespaces refer to instances in the current namespace. If necessary, you can substitute the single-quotation mark character (') for the double-quotation mark character (") to delimit the start and end of string property types.
 
 If this is <b>NULL</b>, an empty object, which can become a new class, is returned. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-class">Creating a Class</a>.
+<a href="/windows/desktop/WmiSdk/creating-a-class">Creating a Class</a>.
 
 ### -param lFlags [in]
 
@@ -108,28 +108,28 @@ This flag causes direct access to the provider for the class specified without a
 #### WBEM_FLAG_SEND_STATUS
 
 Registers a request to receive intermediate status reports through the client's implementation of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting for this flag to change behavior.
 
 ### -param pCtx [in]
 
 Typically <b>NULL</b>. Otherwise, this is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that can be used by the provider that produces the requested class or instance. The values in the context object must be specified in the documentation for the provider in question. For more information about this parameter, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that can be used by the provider that produces the requested class or instance. The values in the context object must be specified in the documentation for the provider in question. For more information about this parameter, see 
+<a href="/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
 
 ### -param pResponseHandler [in]
 
 Pointer to the caller's implementation of 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>. This handler receives the requested object when it becomes available through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> method. The <i>pObjParam</i> parameter contains the object. If any error code is returned, then the supplied 
+<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>. This handler receives the requested object when it becomes available through the 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> method. The <i>pObjParam</i> parameter contains the object. If any error code is returned, then the supplied 
 <b>IWbemObjectSink</b> pointer is not used. If <b>WBEM_S_NO_ERROR</b> is returned, then the user's 
 <b>IWbemObjectSink</b> implementation is called to indicate the result of the operation. Windows Management only calls AddRef to the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For more information about this parameter, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+<a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 ## -returns
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-On failure, you can obtain any available information from the COM function <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a><b>GetErrorInfo</b>.
+On failure, you can obtain any available information from the COM function <a href="/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo">GetErrorInfo</a><b>GetErrorInfo</b>.
 
 COM-specific error codes can also be returned if network problems cause you to lose the remote connection to Windows Management.
 
@@ -141,13 +141,13 @@ When implementing a class provider,
 <b>GetObjectAsync</b> must determine which class is being requested by parsing the class name object path stored in the <i>strObjectPath</i> parameter. The 
 <b>GetObjectAsync</b> method then either builds the class dynamically or takes the class from a private cache. Then, 
 <b>GetObjectAsync</b> sends the class to WMI using the 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> pointer pointed to by the <i>pResponseHandler</i> parameter. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It can also be called with no intervening calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> if error conditions occur.
+<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> pointer pointed to by the <i>pResponseHandler</i> parameter. The 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method is called to indicate the end of the result set. It can also be called with no intervening calls to 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> if error conditions occur.
 
-Because the call-back might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+Because the call-back might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
-For more information about using methods semisynchronously, see <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a> and <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+For more information about using methods semisynchronously, see <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a> and <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 
 #### Examples
@@ -255,21 +255,20 @@ HRESULT CStdProvider::GetObjectAsync(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
+<a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/creating-a-class">Creating a Class</a>
+<a href="/windows/desktop/WmiSdk/creating-a-class">Creating a Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/describing-the-location-of-a-wmi-object">Describing the Location of a WMI Object</a>
+<a href="/windows/desktop/WmiSdk/describing-the-location-of-a-wmi-object">Describing the Location of a WMI Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a>
-
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a>

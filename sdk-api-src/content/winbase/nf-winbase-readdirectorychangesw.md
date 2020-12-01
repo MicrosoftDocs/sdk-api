@@ -59,7 +59,7 @@ Retrieves information that describes the changes within the specified directory.
     function does not report changes to the specified directory itself.
 
 To track changes on a volume, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/change-journals">change journals</a>.
+    <a href="/windows/desktop/FileIO/change-journals">change journals</a>.
 
 ## -parameters
 
@@ -72,7 +72,7 @@ A handle to the directory to be monitored. This directory must be opened with th
 
 A pointer to the <b>DWORD</b>-aligned formatted buffer in which the read results are 
       to be returned. The structure of this buffer is defined by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-file_notify_information">FILE_NOTIFY_INFORMATION</a> structure. This 
+      <a href="/windows/desktop/api/winnt/ns-winnt-file_notify_information">FILE_NOTIFY_INFORMATION</a> structure. This 
       buffer is filled either synchronously or asynchronously, depending on how the directory is opened and what value 
       is given to the <i>lpOverlapped</i> parameter. For more information, see the Remarks 
       section.
@@ -208,7 +208,7 @@ For synchronous calls, this parameter receives the number of bytes transferred i
 
 ### -param lpOverlapped [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that supplies 
+A pointer to an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that supplies 
       data to be used during asynchronous operation. Otherwise, this value is <b>NULL</b>. The 
       <b>Offset</b> and <b>OffsetHigh</b> members of this structure are not 
       used.
@@ -217,7 +217,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinba
 
 A pointer to a completion routine to be called when the operation has been completed or canceled and the 
       calling thread is in an alertable wait state. For more information about this completion routine, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine">FileIOCompletionRoutine</a>.
+      <a href="/windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine">FileIOCompletionRoutine</a>.
 
 ## -returns
 
@@ -225,21 +225,21 @@ If the function succeeds, the return value is nonzero. For synchronous calls, th
        succeeded. For asynchronous calls, this indicates that the operation was successfully queued.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the network redirector or the target file system does not support this operation, the function fails with 
        <b>ERROR_INVALID_FUNCTION</b>.
 
 ## -remarks
 
-To obtain a handle to a directory, use the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> 
+To obtain a handle to a directory, use the <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> 
     function with the <b>FILE_FLAG_BACKUP_SEMANTICS</b> flag.
 
 A call to <b>ReadDirectoryChangesW</b> can be 
     completed synchronously or asynchronously. To specify asynchronous completion, open the directory with 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> as shown above, but additionally specify the 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> as shown above, but additionally specify the 
     <b>FILE_FLAG_OVERLAPPED</b> attribute in the <i>dwFlagsAndAttributes</i> 
-    parameter. Then specify an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure when you 
+    parameter. Then specify an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure when you 
     call <b>ReadDirectoryChangesW</b>.
 
 When you first call **ReadDirectoryChangesW**, the system allocates a buffer to store change information. This buffer is associated with the directory handle until it is closed and its size does not change during its lifetime. Directory changes that occur between calls to this function are added to the buffer and then returned with the next call. If the buffer overflows, **ReadDirectoryChangesW** will still return **true**, but the entire contents of the buffer are discarded and the *lpBytesReturned* parameter will be zero, which indicates that your buffer was too small to hold all of the changes that occurred.
@@ -253,27 +253,27 @@ Upon successful synchronous completion, the <i>lpBuffer</i> parameter is a forma
 For asynchronous completion, you can receive notification in one of three ways:
 
 <ul>
-<li>Using the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function. To 
+<li>Using the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function. To 
       receive notification through 
       <b>GetOverlappedResult</b>, do not specify a completion 
       routine in the <i>lpCompletionRoutine</i> parameter. Be sure to set the 
       <b>hEvent</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure to a unique event.</li>
-<li>Using the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> 
+      <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure to a unique event.</li>
+<li>Using the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> 
       function. To receive notification through 
       <b>GetQueuedCompletionStatus</b>, do not specify 
       a completion routine in <i>lpCompletionRoutine</i>. Associate the directory handle 
       <i>hDirectory</i> with a completion port by calling the 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function.</li>
+      <a href="/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a> function.</li>
 <li>Using a completion routine. To receive notification through a completion routine, do not associate the 
       directory with a completion port. Specify a completion routine in <i>lpCompletionRoutine</i>. 
       This routine is called whenever the operation has been completed or canceled while the thread is in an alertable 
       wait state. The <b>hEvent</b> member of the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure is not used by the system, so you 
+      <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure is not used by the system, so you 
       can use it yourself.</li>
 </ul>
  For more information, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
+     <a href="/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>.
 
 <b>ReadDirectoryChangesW</b> fails with 
     <b>ERROR_INVALID_PARAMETER</b> when the buffer length is greater than 64 KB and the application 
@@ -353,33 +353,32 @@ If there is a transaction bound to the directory handle, then the notifications 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>
+<a href="/windows/desktop/FileIO/createiocompletionport">CreateIoCompletionPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
+<a href="/windows/desktop/FileIO/directory-management-functions">Directory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-file_notify_information">FILE_NOTIFY_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-file_notify_information">FILE_NOTIFY_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine">FileIOCompletionRoutine</a>
+<a href="/windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine">FileIOCompletionRoutine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>

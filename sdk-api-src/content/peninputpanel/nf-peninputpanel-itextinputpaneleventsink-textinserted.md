@@ -56,12 +56,12 @@ Occurs when the Tablet PC Input Panel has inserted text into the control with in
 
 ### -param Ink [in]
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">Ink</a> objects in the Input Panel.
+Array of <a href="/windows/desktop/tablet/inkdisp-class">Ink</a> objects in the Input Panel.
 
 
 #### - InkObjects [in]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">Ink</a> objects in the Ink array parameter.
+The number of <a href="/windows/desktop/tablet/inkdisp-class">Ink</a> objects in the Ink array parameter.
 
 ## -returns
 
@@ -98,17 +98,16 @@ An unspecified error occurred.
 
 ## -remarks
 
-There is a minimum of one <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">Ink</a> object for each line of the Input Panel containing text at the time of insertion.
+There is a minimum of one <a href="/windows/desktop/tablet/inkdisp-class">Ink</a> object for each line of the Input Panel containing text at the time of insertion.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
+<a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpaneleventsink">ITextInputPanelEventSink</a>
+<a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpaneleventsink">ITextInputPanelEventSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserting">ITextInputPanelEventSink::TextInserting Method</a>
-
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserting">ITextInputPanelEventSink::TextInserting Method</a>

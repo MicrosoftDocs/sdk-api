@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides access to a  control that acts as a scrollable container for a collection of child elements. The children of this element support <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationscrollitempattern">IUIAutomationScrollItemPattern</a>.
+Provides access to a  control that acts as a scrollable container for a collection of child elements. The children of this element support <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationscrollitempattern">IUIAutomationScrollItemPattern</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationScrollPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationScrollPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationScrollPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationScrollPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationScrollPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-scroll">Scroll</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-scroll">Scroll</a>
 </td>
 <td align="left" width="63%">
 Scrolls the visible region of the content area horizontally and vertically.
@@ -79,7 +79,7 @@ Scrolls the visible region of the content area horizontally and vertically.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-setscrollpercent">SetScrollPercent</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-setscrollpercent">SetScrollPercent</a>
 </td>
 <td align="left" width="63%">
 Sets the horizontal and vertical scroll positions as a percentage of the total content area within the UI Automation element.
@@ -97,7 +97,7 @@ Sets the horizontal and vertical scroll positions as a percentage of the total c
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedhorizontallyscrollable">CachedHorizontallyScrollable</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedhorizontallyscrollable">CachedHorizontallyScrollable</a>
 
 
 </td>
@@ -113,7 +113,7 @@ Retrieves a cached value that indicates whether the element can scroll horizonta
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedhorizontalscrollpercent">CachedHorizontalScrollPercent</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedhorizontalscrollpercent">CachedHorizontalScrollPercent</a>
 
 
 </td>
@@ -129,7 +129,7 @@ Retrieves the cached horizontal scroll position.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedhorizontalviewsize">CachedHorizontalViewSize</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedhorizontalviewsize">CachedHorizontalViewSize</a>
 
 
 </td>
@@ -145,7 +145,7 @@ Retrieves the cached horizontal size of the viewable region of a scrollable elem
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedverticallyscrollable">CachedVerticallyScrollable</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedverticallyscrollable">CachedVerticallyScrollable</a>
 
 
 </td>
@@ -161,7 +161,7 @@ Retrieves a cached value that indicates whether the element can scroll verticall
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedverticalscrollpercent">CachedVerticalScrollPercent</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedverticalscrollpercent">CachedVerticalScrollPercent</a>
 
 
 </td>
@@ -177,7 +177,7 @@ Retrieves the cached vertical scroll position.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedverticalviewsize">CachedVerticalViewSize</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedverticalviewsize">CachedVerticalViewSize</a>
 
 
 </td>
@@ -193,7 +193,7 @@ Retrieves the cached vertical size of the viewable region of a scrollable elemen
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currenthorizontallyscrollable">CurrentHorizontallyScrollable</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currenthorizontallyscrollable">CurrentHorizontallyScrollable</a>
 
 
 </td>
@@ -209,7 +209,7 @@ Indicates whether the element can scroll horizontally.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currenthorizontalscrollpercent">CurrentHorizontalScrollPercent</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currenthorizontalscrollpercent">CurrentHorizontalScrollPercent</a>
 
 
 </td>
@@ -225,7 +225,7 @@ Retrieves the horizontal scroll position.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currenthorizontalviewsize">CurrentHorizontalViewSize</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currenthorizontalviewsize">CurrentHorizontalViewSize</a>
 
 
 </td>
@@ -241,7 +241,7 @@ Retrieves the horizontal size of the viewable region of a scrollable element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currentverticallyscrollable">CurrentVerticallyScrollable</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currentverticallyscrollable">CurrentVerticallyScrollable</a>
 
 
 </td>
@@ -257,7 +257,7 @@ Indicates whether the element can scroll vertically.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currentverticalscrollpercent">CurrentVerticalScrollPercent</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currentverticalscrollpercent">CurrentVerticalScrollPercent</a>
 
 
 </td>
@@ -273,7 +273,7 @@ Retrieves the vertical scroll position.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currentverticalviewsize">CurrentVerticalViewSize</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currentverticalviewsize">CurrentVerticalViewSize</a>
 
 
 </td>
@@ -290,5 +290,4 @@ Retrieves the vertical size of the viewable region of a scrollable element.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>

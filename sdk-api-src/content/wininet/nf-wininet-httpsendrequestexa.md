@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Sends the specified request to the HTTP server.
-<div class="alert"><b>Note</b>  Callers that need to send extra data beyond what is normally passed to <b>HttpSendRequestEx</b> can do so by calling <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a> instead.</div><div> </div>
+<div class="alert"><b>Note</b>  Callers that need to send extra data beyond what is normally passed to <b>HttpSendRequestEx</b> can do so by calling <a href="/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a> instead.</div><div> </div>
 
 ## -parameters
 
@@ -61,12 +61,12 @@ Sends the specified request to the HTTP server.
 
 A 
 						handle returned by 
-a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
+a call to the <a href="/windows/desktop/api/wininet/nf-wininet-httpopenrequesta">HttpOpenRequest</a> function.
 
 ### -param lpBuffersIn [in]
 
 Optional. A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-internet_buffersa">INTERNET_BUFFERS</a> structure.
+<a href="/windows/desktop/api/wininet/ns-wininet-internet_buffersa">INTERNET_BUFFERS</a> structure.
 
 ### -param lpBuffersOut [out]
 
@@ -86,17 +86,17 @@ If the function succeeds, the function returns <b>TRUE</b>.
 
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-<b>HttpSendRequestEx</b> performs  both the send and the receive for the response.  This does not allow the application to send any extra data beyond the single buffer that was passed to <b>HttpSendRequestEx</b>. Callers that need to send extra data beyond what is normally passed to <b>HttpSendRequestEx</b> can do so by calling <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a> instead.   After the call to <b>HttpSendRequestEx</b>, send the remaining data by calling <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetwritefile">InternetWriteFile</a>.  Finally, follow up with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpendrequesta">HttpEndRequest</a>.  
+<b>HttpSendRequestEx</b> performs  both the send and the receive for the response.  This does not allow the application to send any extra data beyond the single buffer that was passed to <b>HttpSendRequestEx</b>. Callers that need to send extra data beyond what is normally passed to <b>HttpSendRequestEx</b> can do so by calling <a href="/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a> instead.   After the call to <b>HttpSendRequestEx</b>, send the remaining data by calling <a href="/windows/desktop/api/wininet/nf-wininet-internetwritefile">InternetWriteFile</a>.  Finally, follow up with a call to <a href="/windows/desktop/api/wininet/nf-wininet-httpendrequesta">HttpEndRequest</a>.  
 
 <div class="alert"><b>Note</b>  The <b>HttpSendRequestExA</b> function  represents data to send as ISO-8859-1 characters not ANSI characters. The <b>HttpSendRequestExW</b> function represents data to send as ISO-8859-1 characters converted to UTF-16LE  characters.   As a result, it is never safe to use the <b>HttpSendRequestExW</b> function when the headers to be added can contain non-ASCII characters.
-Instead, an application can use the <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> and <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> functions with a <i>Codepage</i> parameter set to 28591 to map between ANSI characters and  UTF-16LE characters.
+Instead, an application can use the <a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a> and <a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a> functions with a <i>Codepage</i> parameter set to 28591 to map between ANSI characters and  UTF-16LE characters.
 </div>
 <div> </div>
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -107,9 +107,8 @@ Instead, an application can use the <a href="https://docs.microsoft.com/windows/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/http-sessions">HTTP Sessions</a>
+<a href="/windows/desktop/WinInet/http-sessions">HTTP Sessions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

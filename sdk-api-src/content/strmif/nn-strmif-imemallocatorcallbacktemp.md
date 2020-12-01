@@ -57,7 +57,7 @@ The use of this interface is deprecated.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMemAllocatorCallbackTemp</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a>. <b>IMemAllocatorCallbackTemp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMemAllocatorCallbackTemp</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a>. <b>IMemAllocatorCallbackTemp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMemAllocatorCallbackTemp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imemallocatorcallbacktemp-getfreecount">GetFreeCount</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-imemallocatorcallbacktemp-getfreecount">GetFreeCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of free media samples.
@@ -81,7 +81,7 @@ Retrieves the number of free media samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imemallocatorcallbacktemp-setnotify">SetNotify</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-imemallocatorcallbacktemp-setnotify">SetNotify</a>
 </td>
 <td align="left" width="63%">
 Sets or removes a callback on the allocator.
@@ -92,5 +92,4 @@ Sets or removes a callback on the allocator.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator</a>

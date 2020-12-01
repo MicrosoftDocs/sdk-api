@@ -56,7 +56,7 @@ Gets the decoding profile of the session.
 
 ### -param pDecoderProfile [out]
 
-Receives the decoding profile. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderprofile">ID3D11VideoDevice::GetVideoDecoderProfile</a>.
+Receives the decoding profile. For a list of possible values, see <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderprofile">ID3D11VideoDevice::GetVideoDecoderProfile</a>.
 
 ## -remarks
 
@@ -64,5 +64,4 @@ The application specifies the profile when it creates the session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a>

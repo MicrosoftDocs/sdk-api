@@ -57,21 +57,20 @@ The
 
 ### -field hop_header
 
-RSVP hop header, in the form of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure
+RSVP hop header, in the form of an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a> structure
 
 ### -field hop_u
 
 #### hop_ipv4
 
-Information about the IPv4 hop, in the form of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_hop_ipv4">Rsvp_Hop_IPv4</a> structure.
+Information about the IPv4 hop, in the form of an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_hop_ipv4">Rsvp_Hop_IPv4</a> structure.
 
 ### -field hop_ipv4
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvpobjhdr">RsvpObjHdr</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_hop_ipv4">Rsvp_Hop_IPv4</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_hop_ipv4">Rsvp_Hop_IPv4</a>

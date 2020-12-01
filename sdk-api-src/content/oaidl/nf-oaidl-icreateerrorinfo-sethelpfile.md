@@ -94,9 +94,8 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-This method sets the fully qualified path of the Help file that describes the current error. Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreateerrorinfo-sethelpcontext">ICreateErrorInfo::SetHelpContext</a> to set the Help context ID for the error in the Help file.
+This method sets the fully qualified path of the Help file that describes the current error. Use <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreateerrorinfo-sethelpcontext">ICreateErrorInfo::SetHelpContext</a> to set the Help context ID for the error in the Help file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a>

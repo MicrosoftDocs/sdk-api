@@ -58,13 +58,13 @@ Sets the state for a specified column.
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that identifies the column.
+A reference to a <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that identifies the column.
 
 ### -param pcmci [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo">CM_COLUMNINFO</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo">CM_COLUMNINFO</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo">CM_COLUMNINFO</a> structure that contains the state to set for this column.
+A pointer to a <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cm_columninfo">CM_COLUMNINFO</a> structure that contains the state to set for this column.
 
 ## -returns
 
@@ -111,4 +111,3 @@ The <i>pcmci</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
-

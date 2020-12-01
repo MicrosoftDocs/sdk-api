@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>ITfRange::GetFormattedText</b> method obtains formatted content contained within a range of text. The content is packaged in an object that supports the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface.
+The <b>ITfRange::GetFormattedText</b> method obtains formatted content contained within a range of text. The content is packaged in an object that supports the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface.
 
 ## -parameters
 
 ### -param ec [in]
 
-Edit cookie obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
+Edit cookie obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param ppDataObject [out]
 
@@ -123,23 +123,22 @@ The format and storage type of the <b>IDataObject</b> are determined by the appl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
-
+<a href="/windows/desktop/TSF/text-stores">Text Stores</a>

@@ -78,13 +78,12 @@ where <i>n</i> is the magnification factor.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetwindowtransform">MagGetWindowTransform</a>
+<a href="/previous-versions/windows/desktop/api/magnification/nf-magnification-maggetwindowtransform">MagGetWindowTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetwindowtransform">MagSetWindowTransform</a>
+<a href="/previous-versions/windows/desktop/api/magnification/nf-magnification-magsetwindowtransform">MagSetWindowTransform</a>
 
 
 
 <b>Reference</b>
-

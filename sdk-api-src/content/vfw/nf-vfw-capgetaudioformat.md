@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capGetAudioFormat</b> macro obtains the audio format. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-get-audioformat">WM_CAP_GET_AUDIOFORMAT</a> message.
+The <b>capGetAudioFormat</b> macro obtains the audio format. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-get-audioformat">WM_CAP_GET_AUDIOFORMAT</a> message.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Handle to a capture window.
 
 ### -param s
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure, or <b>NULL</b>. If the value is <b>NULL</b>, the size, in bytes, required to hold the <b>WAVEFORMATEX</b> structure is returned.
+Pointer to a <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure, or <b>NULL</b>. If the value is <b>NULL</b>, the size, in bytes, required to hold the <b>WAVEFORMATEX</b> structure is returned.
 
 ### -param wSize
 
@@ -72,9 +72,8 @@ Because compressed audio formats vary in size requirements applications must fir
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

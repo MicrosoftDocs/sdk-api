@@ -51,9 +51,9 @@ api_name:
 
 ## -description
 
-The <code>IDirectDrawVideo</code> interface queries the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-renderer-filter">Video Renderer</a> filter about DirectDraw surfaces and hardware capabilities.
+The <code>IDirectDrawVideo</code> interface queries the <a href="/windows/desktop/DirectShow/video-renderer-filter">Video Renderer</a> filter about DirectDraw surfaces and hardware capabilities.
 
-Applications can use this interface to control what DirectDraw features the Video Renderer will take advantage of. For example, if you are positive that you don't want the Video Renderer to use a hardware overlay you can disable its use via the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-setswitches">SetSwitches</a> method.
+Applications can use this interface to control what DirectDraw features the Video Renderer will take advantage of. For example, if you are positive that you don't want the Video Renderer to use a hardware overlay you can disable its use via the <a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-setswitches">SetSwitches</a> method.
 
 <div class="alert"><b>Note</b>  You can't use this interface to force the Video Renderer to use a particular DirectDraw feature; you can only stop it from using that feature.</div>
 <div> </div>
@@ -63,7 +63,7 @@ The Video Renderer does not load DirectDraw until it is connected, and likewise 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawVideo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectDrawVideo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawVideo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectDrawVideo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IDirectDrawVideo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-canuseoverlaystretch">CanUseOverlayStretch</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-canuseoverlaystretch">CanUseOverlayStretch</a>
 </td>
 <td align="left" width="63%">
 Determines whether the renderer will check overlay restrictions.
@@ -87,7 +87,7 @@ Determines whether the renderer will check overlay restrictions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-canusescanline">CanUseScanLine</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-canusescanline">CanUseScanLine</a>
 </td>
 <td align="left" width="63%">
 Determines whether the renderer will check the current scan line when drawing.
@@ -96,7 +96,7 @@ Determines whether the renderer will check the current scan line when drawing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getcaps">GetCaps</a>
+<a href="/previous-versions/ms785104(v=vs.85)">GetCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves a DirectDraw-defined DDCAPS structure containing the hardware capabilities.
@@ -105,7 +105,7 @@ Retrieves a DirectDraw-defined DDCAPS structure containing the hardware capabili
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getdirectdraw">GetDirectDraw</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getdirectdraw">GetDirectDraw</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <b>IDirectDraw</b> interface.
@@ -114,7 +114,7 @@ Retrieves the <b>IDirectDraw</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getemulatedcaps">GetEmulatedCaps</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getemulatedcaps">GetEmulatedCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves a DirectDraw-defined DDCAPS structure containing the emulated capabilities.
@@ -123,7 +123,7 @@ Retrieves a DirectDraw-defined DDCAPS structure containing the emulated capabili
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getfourcccodes">GetFourCCCodes</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getfourcccodes">GetFourCCCodes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the multimedia format type <b>FOURCC DWORD</b>.
@@ -132,7 +132,7 @@ Retrieves the multimedia format type <b>FOURCC DWORD</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getsurfacedesc">GetSurfaceDesc</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getsurfacedesc">GetSurfaceDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the DirectDraw surface in use.
@@ -141,7 +141,7 @@ Retrieves a description of the DirectDraw surface in use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getsurfacetype">GetSurfaceType</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getsurfacetype">GetSurfaceType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the actual surface type.
@@ -150,7 +150,7 @@ Retrieves the actual surface type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getswitches">GetSwitches</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getswitches">GetSwitches</a>
 </td>
 <td align="left" width="63%">
 Retrieves the surface types that the renderer is allowed to use.
@@ -159,7 +159,7 @@ Retrieves the surface types that the renderer is allowed to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-setdefault">SetDefault</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-setdefault">SetDefault</a>
 </td>
 <td align="left" width="63%">
 Makes the current property settings the global default.
@@ -168,7 +168,7 @@ Makes the current property settings the global default.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-setdirectdraw">SetDirectDraw</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-setdirectdraw">SetDirectDraw</a>
 </td>
 <td align="left" width="63%">
 Passes the <b>IDirectDraw</b> interface to a loaded driver.
@@ -177,7 +177,7 @@ Passes the <b>IDirectDraw</b> interface to a loaded driver.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-setswitches">SetSwitches</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-setswitches">SetSwitches</a>
 </td>
 <td align="left" width="63%">
 Sets the surface types that the renderer is allowed to use.
@@ -186,7 +186,7 @@ Sets the surface types that the renderer is allowed to use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-useoverlaystretch">UseOverlayStretch</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-useoverlaystretch">UseOverlayStretch</a>
 </td>
 <td align="left" width="63%">
 Determines whether the renderer should check overlay stretch limitations.
@@ -195,7 +195,7 @@ Determines whether the renderer should check overlay stretch limitations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-usescanline">UseScanLine</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-usescanline">UseScanLine</a>
 </td>
 <td align="left" width="63%">
 Determines whether the renderer should check the current scan line when drawing a video.
@@ -204,7 +204,7 @@ Determines whether the renderer should check the current scan line when drawing 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-usewhenfullscreen">UseWhenFullScreen</a>
+<a href="/previous-versions/ms785118(v=vs.85)">UseWhenFullScreen</a>
 </td>
 <td align="left" width="63%">
 Determines whether DirectShow should change display mode when going to full-screen mode.
@@ -213,7 +213,7 @@ Determines whether DirectShow should change display mode when going to full-scre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-willusefullscreen">WillUseFullScreen</a>
+<a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-willusefullscreen">WillUseFullScreen</a>
 </td>
 <td align="left" width="63%">
 Determines whether DirectShow will change display mode when going to full-screen mode.
@@ -221,4 +221,3 @@ Determines whether DirectShow will change display mode when going to full-screen
 </td>
 </tr>
 </table>
-

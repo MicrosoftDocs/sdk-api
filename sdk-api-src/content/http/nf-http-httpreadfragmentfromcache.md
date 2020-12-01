@@ -58,18 +58,18 @@ The
 ### -param RequestQueueHandle [in]
 
 Handle to the request queue with which the specified response fragment is associated. A request queue is created and its handle returned by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
+<a href="/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
 
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
 ### -param UrlPrefix [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a> that contains the name of the fragment to be retrieved. This must match a UrlPrefix string used in a previous successful call to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a>.
+Pointer to a <a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix string</a> that contains the name of the fragment to be retrieved. This must match a UrlPrefix string used in a previous successful call to <a href="/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a>.
 
 ### -param ByteRange [in]
 
 Optional pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_byte_range">HTTP_BYTE_RANGE</a> structure that indicates a starting offset in the specified fragment and byte-count to be returned. <b>NULL</b> if not used, in which case the entire fragment is returned.
+<a href="/windows/desktop/api/http/ns-http-http_byte_range">HTTP_BYTE_RANGE</a> structure that indicates a starting offset in the specified fragment and byte-count to be returned. <b>NULL</b> if not used, in which case the entire fragment is returned.
 
 ### -param Buffer [out]
 
@@ -91,14 +91,14 @@ When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesRead</i>
 ### -param Overlapped [in]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, or for synchronous calls, set it to <b>NULL</b>. 
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, or for synchronous calls, set it to <b>NULL</b>. 
 
 
 
 
 A synchronous call blocks until the cache operation is complete, whereas an asynchronous call immediately returns ERROR_IO_PENDING and the calling application then uses 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structures for synchronization, see <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structures for synchronization, see <a href="/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
 
 ## -returns
 
@@ -132,7 +132,7 @@ One or more of the supplied parameters is in an unusable form.
 </td>
 <td width="60%">
 The buffer pointed to by <i>pBuffer</i> is too small to receive all the requested data; the size of buffer required is pointed to by <i>pBytesRead</i> unless it was <b>NULL</b> or the call was asynchronous. In the case of an asynchronous call, the value pointed to by the <i>lpNumberOfBytesTransferred</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverLappedResult</a> function is set to the buffer size required.
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverLappedResult</a> function is set to the buffer size required.
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ The buffer pointed to by <i>pBuffer</i> is too small to receive all the requeste
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
+A <a href="/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 </td>
 </tr>
@@ -151,13 +151,12 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a>
+<a href="/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpflushresponsecache">HttpFlushResponseCache</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpflushresponsecache">HttpFlushResponseCache</a>

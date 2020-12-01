@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Contains the output for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointer_base">FSCTL_GET_RETRIEVAL_POINTER_BASE</a> control code.
+Contains the output for the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointer_base">FSCTL_GET_RETRIEVAL_POINTER_BASE</a> control code.
 
 ## -struct-fields
 
@@ -63,5 +63,4 @@ The volume-relative sector offset to the first allocatable unit on the file syst
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointer_base">FSCTL_GET_RETRIEVAL_POINTER_BASE</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_retrieval_pointer_base">FSCTL_GET_RETRIEVAL_POINTER_BASE</a>

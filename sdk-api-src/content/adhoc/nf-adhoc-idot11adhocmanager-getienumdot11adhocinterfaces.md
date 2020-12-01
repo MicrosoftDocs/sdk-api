@@ -56,7 +56,7 @@ Returns the set of wireless network interface cards (NICs) available on the mach
 
 ### -param ppEnum [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocinterfaces">IEnumDot11AdHocInterfaces</a> interface that contains the list of NICs.
+A pointer to an <a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocinterfaces">IEnumDot11AdHocInterfaces</a> interface that contains the list of NICs.
 
 ## -returns
 
@@ -137,5 +137,4 @@ A pointer passed as a parameter is not valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>
-
+<a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Loads a DLL server into the implementing surrogate. COM calls this method when there is an activation request for the DLL server's class, if the class is registered as <a href="https://docs.microsoft.com/windows/desktop/com/dllsurrogate">DllSurrogate</a>.
+Loads a DLL server into the implementing surrogate. COM calls this method when there is an activation request for the DLL server's class, if the class is registered as <a href="/windows/desktop/com/dllsurrogate">DllSurrogate</a>.
 
 ## -parameters
 
@@ -67,24 +67,23 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 Upon receiving a load request through <b>LoadDllServer</b>, the surrogate must perform the following steps:
 
 <ol>
-<li>Create a class factory object that supports <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, <a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a> to register the new class factory object as the class factory for the requested CLSID.</li>
+<li>Create a class factory object that supports <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>, <a href="/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>, and <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>.</li>
+<li>Call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject">CoRegisterClassObject</a> to register the new class factory object as the class factory for the requested CLSID.</li>
 </ol>
-This class factory's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iclassfactory-createinstance">IClassFactory::CreateInstance</a> will create an instance of the requested CLSID method by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> to get the class factory which creates an actual object for the given CLSID.
+This class factory's implementation of <a href="/windows/desktop/api/unknwn/nf-unknwn-iclassfactory-createinstance">IClassFactory::CreateInstance</a> will create an instance of the requested CLSID method by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a> to get the class factory which creates an actual object for the given CLSID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coregistersurrogate">CoRegisterSurrogate</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-coregistersurrogate">CoRegisterSurrogate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/dllsurrogate">DllSurrogate</a>
+<a href="/windows/desktop/com/dllsurrogate">DllSurrogate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isurrogate">ISurrogate</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-isurrogate">ISurrogate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/writing-a-custom-surrogate">Writing a Custom Surrogate</a>
-
+<a href="/windows/desktop/com/writing-a-custom-surrogate">Writing a Custom Surrogate</a>

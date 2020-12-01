@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-Synthesizes a keystroke. The system can use such a synthesized keystroke to generate a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a> or <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> message. The keyboard driver's interrupt handler calls the <b>keybd_event</b> function.
-<div class="alert"><b>Note</b>  This function has been superseded. Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> instead.</div><div> </div>
+Synthesizes a keystroke. The system can use such a synthesized keystroke to generate a <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a> or <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> message. The keyboard driver's interrupt handler calls the <b>keybd_event</b> function.
+<div class="alert"><b>Note</b>  This function has been superseded. Use <a href="/windows/desktop/api/winuser/nf-winuser-sendinput">SendInput</a> instead.</div><div> </div>
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Synthesizes a keystroke. The system can use such a synthesized keystroke to gene
 
 Type: <b>BYTE</b>
 
-A virtual-key code. The code must be a value in the range 1 to 254. For a complete list, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">Virtual Key Codes</a>.
+A virtual-key code. The code must be a value in the range 1 to 254. For a complete list, see <a href="/windows/desktop/inputdev/virtual-key-codes">Virtual Key Codes</a>.
 
 ### -param bScan [in]
 
@@ -158,19 +158,19 @@ The following sample program toggles the NUM LOCK light by using <b>keybd_event<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>
 
 
 
@@ -178,9 +178,8 @@ The following sample program toggles the NUM LOCK light by using <b>keybd_event<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-keybd_event">keybd_event</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-keybd_event">keybd_event</a>

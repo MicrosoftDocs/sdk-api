@@ -56,7 +56,7 @@ Gets the time ranges that have been rendered.
 
 ### -param ppPlayed [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediatimerange">IMFMediaTimeRange</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediatimerange">IMFMediaTimeRange</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -68,5 +68,4 @@ This method corresponds to the <b>played</b> attribute of the <b>HTMLMediaElemen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>

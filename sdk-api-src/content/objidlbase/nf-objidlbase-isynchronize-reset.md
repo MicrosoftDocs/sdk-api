@@ -60,13 +60,12 @@ This method returns S_OK to indicate that the method completed successfully.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronize-wait">ISynchronize::Wait</a> method implemented on a standard event object (CLSID_StdEvent) automatically calls <b>Reset</b> when the synchronization object has been signaled.
+The <a href="/windows/desktop/api/objidl/nf-objidl-isynchronize-wait">ISynchronize::Wait</a> method implemented on a standard event object (CLSID_StdEvent) automatically calls <b>Reset</b> when the synchronization object has been signaled.
 
-The implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronize-wait">ISynchronize::Wait</a> on the manual reset event object (CLSID_ManualResetEvent) does not automatically call <b>Reset</b>. A server object usually calls <b>Reset</b> from a method that clients call after they detect that the synchronization object was signaled.
+The implementation of <a href="/windows/desktop/api/objidl/nf-objidl-isynchronize-wait">ISynchronize::Wait</a> on the manual reset event object (CLSID_ManualResetEvent) does not automatically call <b>Reset</b>. A server object usually calls <b>Reset</b> from a method that clients call after they detect that the synchronization object was signaled.
 
 In general, it is the server's responsibility to call <b>Reset</b>. If, however, the client needs to begin with the synchronization object in an unsignaled state, the client should call <b>Reset</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronize">ISynchronize</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-isynchronize">ISynchronize</a>

@@ -56,7 +56,7 @@ Gets the raw XML parsed and read by the manifest reader.
 
 ### -param manifestStream [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>**</b>
 
 The read-only stream that represents the XML content of the manifest.
 
@@ -74,9 +74,8 @@ It is recommended that you use the packaging API to get information from the man
 
 If you parse the XML, you must include XML data validation and XML security testing.
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method when you have finished using the <i>manifestStream</i> object.
+Call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method when you have finished using the <i>manifestStream</i> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>

@@ -64,7 +64,7 @@ The length of this structure, in bytes.
 
 ### -field pUserSid
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> of the user who owns the certificate.
+The <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> of the user who owns the certificate.
 
 ### -field pCertBlob
 
@@ -77,13 +77,12 @@ A pointer to an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate_list">ENCRYPTION_CERTIFICATE_LIST</a>
+<a href="/windows/desktop/api/winefs/ns-winefs-encryption_certificate_list">ENCRYPTION_CERTIFICATE_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/nf-winefs-setuserfileencryptionkey">SetUserFileEncryptionKey</a>
-
+<a href="/windows/desktop/api/winefs/nf-winefs-setuserfileencryptionkey">SetUserFileEncryptionKey</a>

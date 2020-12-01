@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>ITextStoreAnchor::GetStatus</b> method obtains the document status. The document status is returned through the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure.
+The <b>ITextStoreAnchor::GetStatus</b> method obtains the document status. The document status is returned through the <a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure.
 
 ## -parameters
 
 ### -param pdcs [out]
 
-Receives the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure that contains the document status. Cannot be <b>NULL</b>.
+Receives the <a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS</a> structure that contains the document status. Cannot be <b>NULL</b>.
 
 ## -returns
 
@@ -93,21 +93,20 @@ The pointer to the TS_STATUS parameter is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstatuschange">ITextStoreAnchorSink::OnStatusChange
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstatuschange">ITextStoreAnchorSink::OnStatusChange
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getstatus">ITfContextOwner::GetStatus
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextowner-getstatus">ITfContextOwner::GetStatus
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
       </a>
-

@@ -149,8 +149,7 @@ For better performance, a UI thread calling this method should always set <i>fOk
                 
 
 <ul>
-<li>Create another instance of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ipreviousversionsinfo">IPreviousVersionsInfo</a> on a background thread.</li>
+<li>Create another instance of <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ipreviousversionsinfo">IPreviousVersionsInfo</a> on a background thread.</li>
 <li>Call <b>IPreviousVersionsInfo::AreSnapshotsAvailable</b> with <i>fOkToBeSlow</i> set to <b>TRUE</b>.</li>
 <li>Signal the original UI thread to call <b>IPreviousVersionsInfo::AreSnapshotsAvailable</b> again. The results are then pulled from the cache.</li>
 </ul>
-

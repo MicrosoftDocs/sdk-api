@@ -103,20 +103,19 @@ Insufficient memory exists to perform the operation.
 ## -remarks
 
 The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pAppFilename</i> parameter and use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pAppFilename</i> parameter and use 
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
 
-The Priorities that are set with <b>SetApplicationPriority</b> will persist across reboots of the system or restarts of tapisrv. The <a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a> function opens the line with no specified call priorities. By default, the highest priority application will be the one that first called <b>ITTAPI::RegisterCallNotifications</b>.
+The Priorities that are set with <b>SetApplicationPriority</b> will persist across reboots of the system or restarts of tapisrv. The <a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a> function opens the line with no specified call priorities. By default, the highest priority application will be the one that first called <b>ITTAPI::RegisterCallNotifications</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-handoffindirect">ITBasicCallControl::HandoffIndirect</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-handoffindirect">ITBasicCallControl::HandoffIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI Object</a>
-
+<a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>

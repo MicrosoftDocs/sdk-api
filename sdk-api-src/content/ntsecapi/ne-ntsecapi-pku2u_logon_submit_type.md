@@ -54,11 +54,10 @@ api_name:
 
 ## -description
 
-Indicates the  type of logon message passed in a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_certificate_s4u_logon">PKU2U_CERTIFICATE_S4U_LOGON</a> structure.
+Indicates the  type of logon message passed in a <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_certificate_s4u_logon">PKU2U_CERTIFICATE_S4U_LOGON</a> structure.
 
 ## -enum-fields
 
 ### -field Pku2uCertificateS4ULogon
 
 The logon message is a PKU2U certificate.
-

@@ -58,7 +58,7 @@ api_name:
 
 The 
 <b>ACTCTX</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a> function to create the activation context.
+<a href="/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a> function to create the activation context.
 
 ## -struct-fields
 
@@ -69,7 +69,7 @@ The size, in bytes, of this structure. This is used to determine the version of 
 ### -field dwFlags
 
 Flags that indicate how the values included in this structure are to be used. Set any undefined bits in <b>dwFlags</b> to 0. If any undefined bits are not set to 0, the call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a> that creates the activation context fails and returns an invalid parameter error code. 
+<a href="/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a> that creates the activation context fails and returns an invalid parameter error code. 
 
 
 
@@ -203,8 +203,8 @@ Use this member rather than <b>lpSource</b> if you have already loaded a DLL and
 ## -remarks
 
 If the file identified by the value of the <b>lpSource</b> member is a PE image file, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a> searches for the manifest in the .manifest file located in the same directory and in the first RT_MANIFEST resource located in the PE image file. To find a specific named resource from the image, set the <b>lpResourceName</b> to the name of the resource, and add the ACTCTX_FLAG_RESOURCE_NAME_VALID to the <b>dwFlags</b> member. Refer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findresourcea">FindResource</a> for more information on specifying resource names.
+<a href="/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a> searches for the manifest in the .manifest file located in the same directory and in the first RT_MANIFEST resource located in the PE image file. To find a specific named resource from the image, set the <b>lpResourceName</b> to the name of the resource, and add the ACTCTX_FLAG_RESOURCE_NAME_VALID to the <b>dwFlags</b> member. Refer to 
+<a href="/windows/desktop/api/winbase/nf-winbase-findresourcea">FindResource</a> for more information on specifying resource names.
 
 In most cases, the caller should not set the ACTCTX_FLAG_PROCESSOR_ARCHITECTURE_VALID and ACTCTX_FLAG_LANGID_VALID flags of the <b>dwFlags</b> member. Also, in most cases, the value of the <b>lpResourceName</b> member should be set to null.
 
@@ -219,9 +219,8 @@ The values of <b>lpApplicationName</b> and <b>lpAssemblyDirectory</b> are not se
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-actctx_section_keyed_data">ACTCTX_SECTION_KEYED_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a>

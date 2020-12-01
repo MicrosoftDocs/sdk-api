@@ -68,9 +68,8 @@ Returns S_OK if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setvalue">IDataCollectorSet::SetValue</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setvalue">IDataCollectorSet::SetValue</a>

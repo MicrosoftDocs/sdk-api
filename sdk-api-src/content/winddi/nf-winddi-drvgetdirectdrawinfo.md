@@ -56,11 +56,11 @@ The <b>DrvGetDirectDrawInfo</b> function returns the capabilities of the graphic
 
 ### -param dhpdev
 
-Handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> returned by the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> routine.
+Handle to the <a href="/windows-hardware/drivers/">PDEV</a> returned by the driver's <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> routine.
 
 ### -param pHalInfo
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure in which the driver should return the hardware capabilities that it supports.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure in which the driver should return the hardware capabilities that it supports.
 
 ### -param pdwNumHeaps
 
@@ -68,7 +68,7 @@ Points to the location in which the driver should return the number of VIDEOMEMO
 
 ### -param pvmList
 
-Points to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a> structures in which the driver should return information about each display memory chunk that it controls. The driver should ignore this parameter when it is <b>NULL</b>.
+Points to an array of <a href="/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a> structures in which the driver should return information about each display memory chunk that it controls. The driver should ignore this parameter when it is <b>NULL</b>.
 
 ### -param pdwNumFourCCCodes
 
@@ -76,7 +76,7 @@ Points to the location in which the driver should return the number of DWORDs po
 
 ### -param pdwFourCC
 
-Points to an array of DWORDs in which the driver should return information about each <a href="https://docs.microsoft.com/windows-hardware/drivers/">FOURCC</a> that it supports. The driver should ignore this parameter when it is <b>NULL</b>.
+Points to an array of DWORDs in which the driver should return information about each <a href="/windows-hardware/drivers/">FOURCC</a> that it supports. The driver should ignore this parameter when it is <b>NULL</b>.
 
 ## -returns
 
@@ -94,34 +94,33 @@ The driver's <b>DrvGetDirectDrawInfo</b> routine should do the following:
 </li>
 <li>When <i>pvmList</i> and <i>pdwFourCC</i> are not <b>NULL</b>:<ol>
 <li>Write the number of driver display memory heaps and supported FOURCCs in <i>pdwNumHeaps</i> and <i>pdwNumFourCC</i>, respectively.</li>
-<li>For each <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a> structure in the list to which <i>pvmList</i> points, fill in the appropriate members to describe a particular chunk of display memory. The list of structures provides DirectDraw with a complete description of the driver's offscreen memory.</li>
+<li>For each <a href="/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a> structure in the list to which <i>pvmList</i> points, fill in the appropriate members to describe a particular chunk of display memory. The list of structures provides DirectDraw with a complete description of the driver's offscreen memory.</li>
 </ol>
 </li>
-<li>Initialize the members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure with driver-specific information as follows:<ol>
-<li>Initialize the appropriate members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemoryinfo">VIDEOMEMORYINFO</a> structure in <i>vmiData</i> to describe the general characteristics of the display's memory.</li>
-<li>Initialize the appropriate members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a> structure in <b>ddCaps</b> to describe the capabilities of the hardware.</li>
-<li>If the driver implements a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function, set <b>GetDriverInfo</b> to point to it and set <b>dwFlags</b> to DDHALINFO_GETDRIVERINFOSET.</li>
+<li>Initialize the members of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure with driver-specific information as follows:<ol>
+<li>Initialize the appropriate members of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-videomemoryinfo">VIDEOMEMORYINFO</a> structure in <i>vmiData</i> to describe the general characteristics of the display's memory.</li>
+<li>Initialize the appropriate members of the <a href="/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a> structure in <b>ddCaps</b> to describe the capabilities of the hardware.</li>
+<li>If the driver implements a <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> function, set <b>GetDriverInfo</b> to point to it and set <b>dwFlags</b> to DDHALINFO_GETDRIVERINFOSET.</li>
 </ol>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledirectdraw">DrvEnableDirectDraw</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenabledirectdraw">DrvEnableDirectDraw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-videomemoryinfo">VIDEOMEMORYINFO</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-videomemoryinfo">VIDEOMEMORYINFO</a>

@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>FILE_IN_CABINET_INFO</b> structure provides information about a file found in the cabinet. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupiteratecabineta">SetupIterateCabinet</a> function sends this structure as one of the parameters when it sends a 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/spfilenotify-fileincabinet">SPFILENOTIFY_FILEINCABINET</a> notification to the cabinet callback routine.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupiteratecabineta">SetupIterateCabinet</a> function sends this structure as one of the parameters when it sends a 
+<a href="/windows/desktop/SetupApi/spfilenotify-fileincabinet">SPFILENOTIFY_FILEINCABINET</a> notification to the cabinet callback routine.
 
 ## -struct-fields
 
@@ -71,7 +71,7 @@ Uncompressed size of the file in the cabinet, in bytes.
 
 ### -field Win32Error
 
-If an error occurs, this member is the <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. If no error has occurred, it is  NO_ERROR.
+If an error occurs, this member is the <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. If no error has occurred, it is  NO_ERROR.
 
 ### -field DosDate
 
@@ -91,18 +91,17 @@ Target path and file name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-cabinet_info_a">CABINET_INFO</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-cabinet_info_a">CABINET_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
+<a href="/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
 
 ## -remarks
 
 > [!NOTE]
 > The setupapi.h header defines FILE_IN_CABINET_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

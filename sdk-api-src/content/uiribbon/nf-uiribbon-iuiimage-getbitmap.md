@@ -69,17 +69,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-<b>IUIImage::GetBitmap</b> is called on image property callback triggered by <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand">InvalidateUICommand</a>.
+<b>IUIImage::GetBitmap</b> is called on image property callback triggered by <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand">InvalidateUICommand</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a>
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimagefrombitmap">IUIImageFromBitmap</a>
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiimagefrombitmap">IUIImageFromBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

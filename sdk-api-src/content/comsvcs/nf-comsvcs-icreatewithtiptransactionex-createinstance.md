@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The TIP service feature are deprecated and might not be available in future versions of the operating system. Consider using the WS-AtomicTransaction (WS-AT) protocol as a replacement transaction coordination and propagation technology. For more information about WS-AT support in the .Net Framework, see <a href="https://msdn2.microsoft.com/library/ms730266.aspx">Transactions</a>.]
+<p class="CCE_Message">[The TIP service feature are deprecated and might not be available in future versions of the operating system. Consider using the WS-AtomicTransaction (WS-AT) protocol as a replacement transaction coordination and propagation technology. For more information about WS-AT support in the .Net Framework, see <a href="/dotnet/framework/wcf/feature-details/transactions-in-wcf">Transactions</a>.]
 
 Creates a COM+ object that executes within the scope of the manual transaction specified by a TIP transaction URL.
 
@@ -78,5 +78,4 @@ This method can return the following values:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icreatewithtiptransactionex">ICreateWithTipTransactionEx</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icreatewithtiptransactionex">ICreateWithTipTransactionEx</a>

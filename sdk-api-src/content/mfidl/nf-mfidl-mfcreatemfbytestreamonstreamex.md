@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Creates a Microsoft Media Foundation byte stream that wraps an <a href="https://docs.microsoft.com/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a> object.
+Creates a Microsoft Media Foundation byte stream that wraps an <a href="/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a> object.
 
 ## -parameters
 
 ### -param punkStream [in]
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a> interface.
+A pointer to the <a href="/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a> interface.
 
 ### -param ppByteStream [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

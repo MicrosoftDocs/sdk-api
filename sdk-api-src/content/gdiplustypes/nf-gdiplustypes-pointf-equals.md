@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>PointF::Equals</b> method determines whether two 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> objects are equal. Two points are considered equal if they have the same 
+			<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> objects are equal. Two points are considered equal if they have the same 
 			<b>X</b> and 
 			<b>Y</b>  data members.
 
@@ -63,7 +63,7 @@ The <b>PointF::Equals</b> method determines whether two
 Type: <b>const PointF&amp;</b>
 
 Reference to a 
-					<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> object that is compared to this 
+					<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> object that is compared to this 
 					<b>PointF</b> object.
 
 ## -returns
@@ -71,21 +71,20 @@ Reference to a
 Type: <b>BOOL</b>
 
 If the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+						<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms534997(v=vs.85)">PointF::operator+</a>
+<a href="/previous-versions/ms534997(v=vs.85)">PointF::operator+</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms534998(v=vs.85)">PointF::operator-</a>
-
+<a href="/previous-versions/ms534998(v=vs.85)">PointF::operator-</a>

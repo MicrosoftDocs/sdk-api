@@ -54,7 +54,7 @@ Represents the style for timed text.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedTextStyle</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedTextStyle</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimedTextStyle</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimedTextStyle</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFTimedTextStyle</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getbackgroundcolor">GetBackgroundColor</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getbackgroundcolor">GetBackgroundColor</a>
 </td>
 <td align="left" width="63%">
 Gets the background color of the timed-text style.
@@ -78,7 +78,7 @@ Gets the background color of the timed-text style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getbold">GetBold</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getbold">GetBold</a>
 </td>
 <td align="left" width="63%">
 Determines whether the style  of timed text is bold.
@@ -87,7 +87,7 @@ Determines whether the style  of timed text is bold.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getcolor">GetColor</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getcolor">GetColor</a>
 </td>
 <td align="left" width="63%">
 Gets the color of the timed-text style.
@@ -96,7 +96,7 @@ Gets the color of the timed-text style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getfontfamily">GetFontFamily</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getfontfamily">GetFontFamily</a>
 </td>
 <td align="left" width="63%">
 Gets the font family of the timed-text style.
@@ -105,7 +105,7 @@ Gets the font family of the timed-text style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getfontsize">GetFontSize</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getfontsize">GetFontSize</a>
 </td>
 <td align="left" width="63%">
 Gets the font size  of the timed-text style.
@@ -114,7 +114,7 @@ Gets the font size  of the timed-text style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getfontstyle">GetFontStyle</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getfontstyle">GetFontStyle</a>
 </td>
 <td align="left" width="63%">
 Gets the font style of the timed-text style.
@@ -123,7 +123,7 @@ Gets the font style of the timed-text style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getname">GetName</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the timed-text style.
@@ -132,7 +132,7 @@ Gets the name of the timed-text style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getrighttoleft">GetRightToLeft</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getrighttoleft">GetRightToLeft</a>
 </td>
 <td align="left" width="63%">
 Determines whether the right to left writing mode of the timed-text style  is enabled.
@@ -141,7 +141,7 @@ Determines whether the right to left writing mode of the timed-text style  is en
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getshowbackgroundalways">GetShowBackgroundAlways</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-getshowbackgroundalways">GetShowBackgroundAlways</a>
 </td>
 <td align="left" width="63%">
 Determines whether the style  of timed text always shows the background.
@@ -150,7 +150,7 @@ Determines whether the style  of timed text always shows the background.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-gettextalignment">GetTextAlignment</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-gettextalignment">GetTextAlignment</a>
 </td>
 <td align="left" width="63%">
 Gets the text alignment of the timed-text style.
@@ -159,7 +159,7 @@ Gets the text alignment of the timed-text style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-gettextdecoration">GetTextDecoration</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-gettextdecoration">GetTextDecoration</a>
 </td>
 <td align="left" width="63%">
 Gets how text is decorated for the timed-text style.
@@ -168,7 +168,7 @@ Gets how text is decorated for the timed-text style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-gettextoutline">GetTextOutline</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-gettextoutline">GetTextOutline</a>
 </td>
 <td align="left" width="63%">
 Gets the text outline for the timed-text style.
@@ -177,7 +177,7 @@ Gets the text outline for the timed-text style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-isexternal">IsExternal</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtextstyle-isexternal">IsExternal</a>
 </td>
 <td align="left" width="63%">
 Determines whether the timed-text style is external.
@@ -188,5 +188,4 @@ Determines whether the timed-text style is external.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

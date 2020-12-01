@@ -50,9 +50,8 @@ api_name:
 
 ## -description
 
-The <b>IWSManConnectionOptionsEx</b> object is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a> method to provide the thumbprint of the client certificate used for authentication.
+The <b>IWSManConnectionOptionsEx</b> object is passed to the <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsman-createsession">IWSMan::CreateSession</a> method to provide the thumbprint of the client certificate used for authentication.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a>
-
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a>

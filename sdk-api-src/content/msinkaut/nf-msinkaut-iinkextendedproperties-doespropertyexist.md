@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves a value that indicates whether an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object exists within an <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
+Retrieves a value that indicates whether an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperty">IInkExtendedProperty</a> object exists within an <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties</a> collection.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Retrieves a value that indicates whether an <a href="https://docs.microsoft.com/
 
 Specifies the globally unique identifier (GUID) of the property to be checked.
 
-For more information about the BSTR data type, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
+For more information about the BSTR data type, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ### -param DoesPropertyExist [out, retval]
 
@@ -155,5 +155,4 @@ The stroke is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties Interface</a>
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties Interface</a>

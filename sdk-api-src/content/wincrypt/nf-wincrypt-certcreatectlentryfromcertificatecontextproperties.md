@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CertCreateCTLEntryFromCertificateContextProperties</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) entry whose attributes are the  properties of the certificate context. The SubjectIdentifier in the CTL entry is the SHA1 hash of the certificate.
+The <b>CertCreateCTLEntryFromCertificateContextProperties</b> function creates a <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) entry whose attributes are the  properties of the certificate context. The SubjectIdentifier in the CTL entry is the SHA1 hash of the certificate.
 
 The certificate properties are added as attributes. The property attribute OID is the decimal PROP_ID preceded by szOID_CERT_PROP_ID_PREFIX. Each property value is copied as a single attribute value.
 
@@ -60,7 +60,7 @@ Additional attributes can be included in the CTL entry by using the <i>cOptAttr<
 
 ### -param pCertContext [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> used to create the CTL.
+A pointer to the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> used to create the CTL.
 
 ### -param cOptAttr [in]
 
@@ -68,7 +68,7 @@ A <b>DWORD</b> that specifies the number of additional attributes to be added.
 
 ### -param rgOptAttr [in]
 
-A pointer to any array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> attributes to be added to the CTL.
+A pointer to any array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> attributes to be added to the CTL.
 
 ### -param dwFlags [in]
 
@@ -80,16 +80,15 @@ A pointer to a <b>VOID</b>. Reserved for future use.
 
 ### -param pCtlEntry [out]
 
-Address of a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_entry">CTL_ENTRY</a> structure. Call this function twice to retrieve a CTL entry. Set this parameter to <b>NULL</b> on the first call. When the function returns, use the number of bytes retrieved from the <i>pcbCtlEntry</i> parameter to allocate memory. Call the function again, setting this parameter to the address of the allocated memory.
+Address of a pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_entry">CTL_ENTRY</a> structure. Call this function twice to retrieve a CTL entry. Set this parameter to <b>NULL</b> on the first call. When the function returns, use the number of bytes retrieved from the <i>pcbCtlEntry</i> parameter to allocate memory. Call the function again, setting this parameter to the address of the allocated memory.
 
 ### -param pcbCtlEntry [in, out]
 
- Pointer to a <b>DWORD</b> that contains the number of bytes that must be allocated for the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_entry">CTL_ENTRY</a> structure.  Call this function twice to retrieve the number of bytes. For the first call, set this parameter to the address of a <b>DWORD</b> value that contains zero and set the <i>pCtlEntry</i> parameter to <b>NULL</b>. If the first call succeeds, the <b>DWORD</b> value will contain the number of bytes that you must allocate for the <b>CTL_ENTRY</b> structure. Allocate the required memory and call the function again, supplying the address of the memory in the <i>pCtlEntry</i> parameter.
+ Pointer to a <b>DWORD</b> that contains the number of bytes that must be allocated for the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_entry">CTL_ENTRY</a> structure.  Call this function twice to retrieve the number of bytes. For the first call, set this parameter to the address of a <b>DWORD</b> value that contains zero and set the <i>pCtlEntry</i> parameter to <b>NULL</b>. If the first call succeeds, the <b>DWORD</b> value will contain the number of bytes that you must allocate for the <b>CTL_ENTRY</b> structure. Allocate the required memory and call the function again, supplying the address of the memory in the <i>pCtlEntry</i> parameter.
 
 ## -returns
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns  zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

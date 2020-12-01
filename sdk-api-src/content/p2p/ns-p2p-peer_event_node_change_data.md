@@ -113,5 +113,4 @@ Specifies the peer ID of the node that has  changed.
 
 ## -see-also
 
-[PEER_GRAPH_EVENT_DATA](/windows/win32/api/p2p/ns-p2p-peer_graph_event_data)
-
+[PEER_GRAPH_EVENT_DATA](./ns-p2p-peer_graph_event_data.md)

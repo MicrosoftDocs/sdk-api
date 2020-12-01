@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>CTL_ENTRY</b> structure is an element of a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL).
+The <b>CTL_ENTRY</b> structure is an element of a <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL).
 
 ## -struct-fields
 
 ### -field SubjectIdentifier
 
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> containing a unique identifier of a subject. It can be a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> or any unique byte sequence.
+<a href="/windows/desktop/SecGloss/b-gly">BLOB</a> containing a unique identifier of a subject. It can be a <a href="/windows/desktop/SecGloss/h-gly">hash</a> or any unique byte sequence.
 
 ### -field cAttribute
 
@@ -69,17 +69,16 @@ Count of elements in the <b>rgAttribute</b> member array.
 ### -field rgAttribute
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each holding information about the subject.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a> structures, each holding information about the subject.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute">CRYPT_ATTRIBUTE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_info">CTL_INFO</a>

@@ -53,8 +53,8 @@ api_name:
 ## -description
 
 The <b>SE_OBJECT_TYPE</b> enumeration contains values that correspond to the types of Windows objects that support security. The functions, such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo">GetSecurityInfo</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a>, that set and retrieve the security information of an object, use these values to indicate the type of object.
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo">GetSecurityInfo</a> and 
+<a href="/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a>, that set and retrieve the security information of an object, use these values to indicate the type of object.
 
 ## -enum-fields
 
@@ -96,28 +96,28 @@ Indicates a network share. A share object can be local, such as <i>ShareName</i>
 ### -field SE_KERNEL_OBJECT
 
 Indicates a local 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/kernel-objects">kernel object</a>. 
+<a href="/windows/desktop/SysInfo/kernel-objects">kernel object</a>. 
 
 
 
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo">GetSecurityInfo</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a> functions support all types of kernel objects. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getnamedsecurityinfoa">GetNamedSecurityInfo</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setnamedsecurityinfoa">SetNamedSecurityInfo</a> functions work only with the following kernel objects: semaphore, event, mutex, waitable timer, and file mapping.
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo">GetSecurityInfo</a> and 
+<a href="/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a> functions support all types of kernel objects. The 
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getnamedsecurityinfoa">GetNamedSecurityInfo</a> and 
+<a href="/windows/desktop/api/aclapi/nf-aclapi-setnamedsecurityinfoa">SetNamedSecurityInfo</a> functions work only with the following kernel objects: semaphore, event, mutex, waitable timer, and file mapping.
 
 ### -field SE_WINDOW_OBJECT
 
 Indicates a window station or desktop object on the local computer. You cannot use 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getnamedsecurityinfoa">GetNamedSecurityInfo</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setnamedsecurityinfoa">SetNamedSecurityInfo</a> with these objects because the names of window stations or desktops are not unique.
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getnamedsecurityinfoa">GetNamedSecurityInfo</a> and 
+<a href="/windows/desktop/api/aclapi/nf-aclapi-setnamedsecurityinfoa">SetNamedSecurityInfo</a> with these objects because the names of window stations or desktops are not unique.
 
 ### -field SE_DS_OBJECT
 
 Indicates a directory service object or a property set or property of a directory service object. 
 
-The name string for a directory service object must be  in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> form, for example:
+The name string for a directory service object must be  in <a href="/windows/desktop/SecGloss/x-gly">X.500</a> form, for example:
 
 CN=<i>SomeObject</i>,OU=<i>ou2</i>,OU=<i>ou1</i>,DC=<i>DomainName</i>,DC=<i>CompanyName</i>,DC=com,O=internet
 
@@ -141,25 +141,24 @@ Indicates an object for a registry entry under WOW64.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-enumerations">Authorization Enumerations</a>
+<a href="/windows/desktop/SecAuthZ/authorization-enumerations">Authorization Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getnamedsecurityinfoa">GetNamedSecurityInfo</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getnamedsecurityinfoa">GetNamedSecurityInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo">GetSecurityInfo</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo">GetSecurityInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setnamedsecurityinfoa">SetNamedSecurityInfo</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-setnamedsecurityinfoa">SetNamedSecurityInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a>
-
+<a href="/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a>

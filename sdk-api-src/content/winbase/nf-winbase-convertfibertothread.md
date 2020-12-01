@@ -64,25 +64,24 @@ Converts the current fiber into a thread.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The function releases the resources allocated by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a> function. After calling this function, you cannot call any of the fiber functions from the thread.
+<a href="/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a> function. After calling this function, you cannot call any of the fiber functions from the thread.
 
 To compile an application that uses this function, define \_WIN32_WINNT as \_WIN32_WINNT_WS03 (0x0502) or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/fibers">Fibers</a>
+<a href="/windows/desktop/ProcThread/fibers">Fibers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
-
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>

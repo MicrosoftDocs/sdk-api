@@ -56,7 +56,7 @@ Creates a DirectShow <b>AM_MEDIA_TYPE</b> structure from a Media Foundation medi
 
 ### -param pMFType
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type to convert.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface of the media type to convert.
 
 ### -param guidFormatBlockType
 
@@ -64,7 +64,7 @@ Format type GUID. This value corresponds to the <b>formattype</b> member of the 
 
 ### -param ppAMType
 
-Receives a pointer to an <b>AM_MEDIA_TYPE</b> structure. The caller must release the memory allocated for the structure by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. The function also allocates memory for the format block, which the caller must release by calling <b>CoTaskMemFree</b> on the <b>pbFormat</b> member.
+Receives a pointer to an <b>AM_MEDIA_TYPE</b> structure. The caller must release the memory allocated for the structure by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. The function also allocates memory for the format block, which the caller must release by calling <b>CoTaskMemFree</b> on the <b>pbFormat</b> member.
 
 ## -returns
 
@@ -105,13 +105,12 @@ This function can also be used with the following format structures that are equ
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-conversions">Media Type Conversions</a>
+<a href="/windows/desktop/medfound/media-type-conversions">Media Type Conversions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

@@ -56,21 +56,21 @@ Gets the set of child folders that are contained in the library.
 
 ### -param lff [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-libraryfolderfilter">LIBRARYFOLDERFILTER</a></b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-libraryfolderfilter">LIBRARYFOLDERFILTER</a></b>
 
-One of the following <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-libraryfolderfilter">LIBRARYFOLDERFILTER</a>   values that determines the folders to get. These flags cannot be combined.
+One of the following <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-libraryfolderfilter">LIBRARYFOLDERFILTER</a>   values that determines the folders to get. These flags cannot be combined.
 
 
 
 #### LFF_FORCEFILESYSTEM (1)
 
-Get only file-system folders. File-system folders  are  folders that have the  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">SFGAO_FILESYSTEM</a>  attribute set.
+Get only file-system folders. File-system folders  are  folders that have the  <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">SFGAO_FILESYSTEM</a>  attribute set.
 
 
 
 #### LFF_STORAGEITEMS (2)
 
-Get all folders that can be bound to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> objects.  These folders  are   folders that have the  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">SFGAO_STORAGE</a>  or  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">SFGAO_FILESYSTEM</a> attribute set.
+Get all folders that can be bound to <a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> objects.  These folders  are   folders that have the  <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">SFGAO_STORAGE</a>  or  <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">SFGAO_FILESYSTEM</a> attribute set.
 
 
 
@@ -144,65 +144,64 @@ For best results, use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h,  for 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a>
+<a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObjectArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objectarray/nn-objectarray-iobjectcollection">IObjectCollection</a>
+<a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectcollection">IObjectCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemarray">IShellItemArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllibrary">IShellLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-addfolder">IShellLibrary::AddFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-addfolder">IShellLibrary::AddFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-loadlibraryfromitem">IShellLibrary::LoadLibraryFromItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-loadlibraryfromitem">IShellLibrary::LoadLibraryFromItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-loadlibraryfromknownfolder">IShellLibrary::LoadLibraryFromKnownFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllibrary-loadlibraryfromknownfolder">IShellLibrary::LoadLibraryFromKnownFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-libraryfolderfilter">LIBRARYFOLDERFILTER</a>
+<a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-libraryfolderfilter">LIBRARYFOLDERFILTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/library-schema-entry">Library Description Schema</a>
+<a href="/windows/desktop/shell/library-schema-entry">Library Description Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/sfgao">SFGAO</a>
+<a href="/windows/desktop/shell/sfgao">SFGAO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shaddfolderpathtolibrary">SHAddFolderPathToLibrary</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shaddfolderpathtolibrary">SHAddFolderPathToLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shloadlibraryfromitem">SHLoadLibraryFromItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shloadlibraryfromitem">SHLoadLibraryFromItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shloadlibraryfromknownfolder">SHLoadLibraryFromKnownFolder</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shloadlibraryfromknownfolder">SHLoadLibraryFromKnownFolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shloadlibraryfromparsingname">SHLoadLibraryFromParsingName</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shloadlibraryfromparsingname">SHLoadLibraryFromParsingName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shremovefolderpathfromlibrary">SHRemoveFolderPathFromLibrary</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shremovefolderpathfromlibrary">SHRemoveFolderPathFromLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>

@@ -56,25 +56,25 @@ Returns the class IDs of the currently registered effects and global effects on 
 
 ### -param effects [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/com/clsid">CLSID</a>*</b>
+Type: <b><a href="/windows/desktop/com/clsid">CLSID</a>*</b>
 
 When this method returns, contains an array of effects. <b>NULL</b> if no effects are retrieved.
 
 ### -param effectsCount
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_uint32_description">UINT32</a></b>
+Type: <b><a href="/windows/desktop/api/webservices/ns-webservices-ws_uint32_description">UINT32</a></b>
 
 The capacity of the <i>effects</i> array.
 
 ### -param effectsReturned [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_uint32_description">UINT32</a>*</b>
+Type: <b><a href="/windows/desktop/api/webservices/ns-webservices-ws_uint32_description">UINT32</a>*</b>
 
 When this method returns, contains the  number of effects copied into <i>effects</i>.
 
 ### -param effectsRegistered [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_uint32_description">UINT32</a>*</b>
+Type: <b><a href="/windows/desktop/api/webservices/ns-webservices-ws_uint32_description">UINT32</a>*</b>
 
 When this method returns, contains the number of effects currently registered in the system.
 
@@ -111,9 +111,8 @@ If <i>effectsRegistered</i> is larger than <i>effectCount</i>, the supplied arra
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">ID2D1Factory1::RegisterEffect</a>
-
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">ID2D1Factory1::RegisterEffect</a>

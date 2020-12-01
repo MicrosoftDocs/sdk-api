@@ -146,11 +146,11 @@ Type mismatch.
 
 ## -remarks
 
-The index specifies the order of the functions within the type information. The first function has an index of zero. If an index is specified that exceeds one less than the number of functions in the type information, an error is returned. Calling this function does not pass ownership of the FUNCDESC structure to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>. Therefore, the caller must still de-allocate the FUNCDESC structure.
+The index specifies the order of the functions within the type information. The first function has an index of zero. If an index is specified that exceeds one less than the number of functions in the type information, an error is returned. Calling this function does not pass ownership of the FUNCDESC structure to <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>. Therefore, the caller must still de-allocate the FUNCDESC structure.
 
 
 
-The passed-in virtual function table (VTBL) field (oVft) of the FUNCDESC is ignored if the TYPEKIND is TKIND_MODULE or if oVft is -1 or 0. This attribute is set when <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/out">ICreateTypeInfo::LayOut</a> is called. The oVft value is used if the TYPEKIND is TKIND_DISPATCH and a dual interface or if the TYPEKIND is TKIND_INTERFACE. If the oVft is used, it must be a multiple of the sizeof(VOID *) on the machine, otherwise the function fails and E_INVALIDARG is returned as the HRESULT.
+The passed-in virtual function table (VTBL) field (oVft) of the FUNCDESC is ignored if the TYPEKIND is TKIND_MODULE or if oVft is -1 or 0. This attribute is set when <a href="/previous-versions/windows/desktop/automat/out">ICreateTypeInfo::LayOut</a> is called. The oVft value is used if the TYPEKIND is TKIND_DISPATCH and a dual interface or if the TYPEKIND is TKIND_INTERFACE. If the oVft is used, it must be a multiple of the sizeof(VOID *) on the machine, otherwise the function fails and E_INVALIDARG is returned as the HRESULT.
 
 
 
@@ -158,7 +158,7 @@ The function <b>AddFuncDesc</b> uses the passed-in member identifier (<i>memid</
 
 
 
-Any HREFTYPE fields in the FUNCDESC structure must have been produced by the same instance of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> for which <b>AddFuncDesc</b> is called.
+Any HREFTYPE fields in the FUNCDESC structure must have been produced by the same instance of <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> for which <b>AddFuncDesc</b> is called.
 
 
 
@@ -166,5 +166,4 @@ The get and put accessor functions for the same property must have the same disp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>

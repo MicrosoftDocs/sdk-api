@@ -72,11 +72,10 @@ Output pointer for the priority ranking. This parameter points to a caller-alloc
 
 ## -remarks
 
-This method is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setchannelpriority">IDirectMusicSynth::SetChannelPriority</a> method to control the channel priorities and facilitate correct voice stealing.
+This method is used with the <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setchannelpriority">IDirectMusicSynth::SetChannelPriority</a> method to control the channel priorities and facilitate correct voice stealing.
 
 For more information, see the descriptions of the <b>IDirectMusicPort::GetChannelPriority</b> and <b>IDirectMusicPort::SetChannelPriority</b> methods in the Windows SDK documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setchannelpriority">IDirectMusicSynth::SetChannelPriority</a>
-
+<a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setchannelpriority">IDirectMusicSynth::SetChannelPriority</a>

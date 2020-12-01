@@ -66,17 +66,16 @@ The fractional part of the number.
 
 ## -remarks
 
-The <b>FIXED</b> structure is used to describe the elements of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-mat2">MAT2</a> structure.
+The <b>FIXED</b> structure is used to describe the elements of the <a href="/windows/desktop/api/wingdi/ns-wingdi-mat2">MAT2</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-mat2">MAT2</a>
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-mat2">MAT2</a>

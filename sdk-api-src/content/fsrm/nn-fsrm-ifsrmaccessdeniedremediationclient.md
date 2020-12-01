@@ -51,19 +51,19 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a> and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a> classes.]
+    <a href="/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a> and 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a> classes.]
 
 Used to show the Access Denied Remediation (ADR) client user interface.
 
 This interface was introduced for applications that are already using the FSRM interfaces. Where possible it is 
-    recommended to use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a> and 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a> WMI classes instead.
+    recommended to use the <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a> and 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a> WMI classes instead.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmAccessDeniedRemediationClient</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmAccessDeniedRemediationClient</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmAccessDeniedRemediationClient</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmAccessDeniedRemediationClient</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IFsrmAccessDeniedRemediationClient</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmaccessdeniedremediationclient-show">Show</a>
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmaccessdeniedremediationclient-show">Show</a>
 </td>
 <td align="left" width="63%">
 Displays the Access Denied Remediation client user interface.
@@ -89,13 +89,12 @@ Displays the Access Denied Remediation client user interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
+<a href="/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a>
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmadrsettings">MSFT_FSRMADRSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a>
-
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmadr">MSFT_FSRMAdr</a>

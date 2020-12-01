@@ -54,6 +54,7 @@ api_name:
  - RegisterWindowMessage
  - RegisterWindowMessageA
  - RegisterWindowMessageW
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # RegisterWindowMessageA function
@@ -77,7 +78,7 @@ Type: <b>UINT</b>
 
 If the message is successfully registered, the return value is a message identifier in the range 0xC000 through 0xFFFF.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -85,12 +86,12 @@ The <b>RegisterWindowMessage</b> function is typically used to register messages
 
 If two different applications register the same message string, the applications return the same message value. The message remains registered until the session ends. 
 
-Only use <b>RegisterWindowMessage</b> when more than one application must process the same message. For sending private messages within a window class, an application can use any integer in the range <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a> through 0x7FFF. (Messages in this range are private to a window class, not to an application. For example, predefined control classes such as <b>BUTTON</b>, <b>EDIT</b>, <b>LISTBOX</b>, and <b>COMBOBOX</b> may use values in this range.) 
+Only use <b>RegisterWindowMessage</b> when more than one application must process the same message. For sending private messages within a window class, an application can use any integer in the range <a href="/windows/desktop/winmsg/wm-user">WM_USER</a> through 0x7FFF. (Messages in this range are private to a window class, not to an application. For example, predefined control classes such as <b>BUTTON</b>, <b>EDIT</b>, <b>LISTBOX</b>, and <b>COMBOBOX</b> may use values in this range.) 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-common-dialog-boxes">Finding Text</a>.
+For an example, see <a href="/windows/desktop/dlgbox/using-common-dialog-boxes">Finding Text</a>.
 
 <div class="code"></div>
 
@@ -106,11 +107,11 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
+<a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a>
 
 
 
@@ -118,5 +119,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>

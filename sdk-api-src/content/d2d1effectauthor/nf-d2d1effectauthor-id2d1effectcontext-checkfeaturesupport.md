@@ -57,7 +57,7 @@ This indicates whether an optional capability is supported by the D3D device.
 
 ### -param feature
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_feature">D2D1_FEATURE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1effectauthor/ne-d2d1effectauthor-d2d1_feature">D2D1_FEATURE</a></b>
 
 The feature to query support for.
 
@@ -100,5 +100,4 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
-
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>

@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>InsertAt</b> method inserts  all of the elements of another <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> array at the index specified by <i>nStartIndex</i>.
+The <b>InsertAt</b> method inserts  all of the elements of another <a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> array at the index specified by <i>nStartIndex</i>.
 
 ## -parameters
 
@@ -65,13 +65,13 @@ The <b>InsertAt</b> method inserts  all of the elements of another <a href="http
 
 Type: <b>int</b>
 
-An integer index that can be greater than the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getupperbound">GetUpperBound</a>.
+An integer index that can be greater than the value returned by <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getupperbound">GetUpperBound</a>.
 
 ### -param pNewArray
 
 Type: <b>CHStringArray*</b>
 
-Pointer to another <a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> that contains the elements to be inserted into this array.
+Pointer to another <a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a> that contains the elements to be inserted into this array.
 
 ## -returns
 
@@ -79,17 +79,16 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
+<a href="/windows/desktop/api/chstrarr/nl-chstrarr-chstringarray">CHStringArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-add">CHStringArray::Add</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-add">CHStringArray::Add</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-removeat">CHStringArray::RemoveAt</a>
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-removeat">CHStringArray::RemoveAt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setat(int_lpcwstr)">CHStringArray::SetAt</a>
-
+<a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setat(int_lpcwstr)">CHStringArray::SetAt</a>

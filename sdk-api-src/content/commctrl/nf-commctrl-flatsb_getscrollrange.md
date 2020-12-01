@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Gets the scroll range for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollrange">GetScrollRange</a> function.
+Gets the scroll range for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="/windows/desktop/api/winuser/nf-winuser-getscrollrange">GetScrollRange</a> function.
 
 ## -parameters
 
 ### -param arg1
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a>.
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="/windows/desktop/api/commctrl/nf-commctrl-initializeflatsb">InitializeFlatSB</a>.
 
 ### -param code
 
@@ -95,19 +95,19 @@ Retrieves the scroll range of the vertical scroll bar.
 
 ### -param arg3
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPINT</a></b>
 
 A pointer to an INT value that receives the minimum scroll range value.
 
 ### -param arg4
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPINT</a></b>
 
 A pointer to an INT value that receives the maximum scroll range value.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 
@@ -115,4 +115,3 @@ Returns nonzero if successful, or zero otherwise.
 
 <div class="alert"><b>Note</b>  Flat scroll bar functions are implemented in Comctl32.dll versions 4.71 through 5.82. Comctl32.dll versions 6.00 and higher do not support flat scroll bars.</div>
 <div> </div>
-

@@ -87,7 +87,7 @@ Operation succeeded but no services are available.
 </td>
 <td width="60%">
 No services are available in the table or the operation failed. Call 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a> to obtain more information.
+<a href="/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a> to obtain more information.
 
 </td>
 </tr>
@@ -99,13 +99,12 @@ No services are available in the table or the operation failed. Call
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a>
+<a href="/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
+<a href="/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
-
+<a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>

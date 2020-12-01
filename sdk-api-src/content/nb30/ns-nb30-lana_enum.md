@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
 The <b>LANA_ENUM</b> structure contains the numbers for the current LAN adapters.
 
@@ -70,7 +70,7 @@ Specifies an array of LAN adapter numbers.
 
 ## -remarks
 
-The <b>LANA_ENUM</b> structure is pointed to by the ncb_buffer member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure when an application issues the <b>NCBENUM</b> command. The <b>NCBENUM</b> command is not part of the IBM NetBIOS 3.0 specification.
+The <b>LANA_ENUM</b> structure is pointed to by the ncb_buffer member of the <a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure when an application issues the <b>NCBENUM</b> command. The <b>NCBENUM</b> command is not part of the IBM NetBIOS 3.0 specification.
 
 ## -see-also
 
@@ -78,13 +78,12 @@ The <b>LANA_ENUM</b> structure is pointed to by the ncb_buffer member of the <a 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
+<a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
+<a href="/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
-
+<a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>

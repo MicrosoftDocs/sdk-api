@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Specifies what headers the
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsinitializemessage">WsInitializeMessage</a>should add to the message.
+                <a href="/windows/desktop/api/webservices/nf-webservices-wsinitializemessage">WsInitializeMessage</a>should add to the message.
 
 ## -enum-fields
 
@@ -65,22 +65,21 @@ The headers are initialized to be the same as the source message's headers.
 
 ### -field WS_REQUEST_MESSAGE
 
-If using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_0_9</a> or <b>WS_ADDRESSING_VERSION_1_0</b>,
+If using <a href="/windows/desktop/api/webservices/ne-webservices-ws_addressing_version">WS_ADDRESSING_VERSION_0_9</a> or <b>WS_ADDRESSING_VERSION_1_0</b>,
                     then a unique message ID is set as the MessageID header of the message.  
                     No other headers are added in the message.
 
 ### -field WS_REPLY_MESSAGE
 
-The ReplyTo header of the source message (an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>)
+The ReplyTo header of the source message (an <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>)
                     is used to address the message.  The MessageID header of the source
                     message is used to add a RelatesTo header to the message.  If the message
-                    will contain a fault reply, then <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_initialization">WS_FAULT_MESSAGE</a> should be
+                    will contain a fault reply, then <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_initialization">WS_FAULT_MESSAGE</a> should be
                     used instead.
 
 ### -field WS_FAULT_MESSAGE
 
-The FaultTo or ReplyTo header of the source message (an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>)
+The FaultTo or ReplyTo header of the source message (an <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>)
                     is used to address the message.  The MessageID header of the source message
                     is used to add a RelatesTo header to the message.  This should only be
                     used when the contents of the message will contain a fault.
-

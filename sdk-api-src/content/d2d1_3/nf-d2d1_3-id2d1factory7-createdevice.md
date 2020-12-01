@@ -74,5 +74,4 @@ This method returns an HRESULT success or error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1factory7">ID2D1Factory7</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1factory7">ID2D1Factory7</a>

@@ -54,7 +54,7 @@ Enables applications to send attachment data in a message using a MIME container
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDOutboundAttachment</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdattachment">IWSDAttachment</a>. <b>IWSDOutboundAttachment</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWSDOutboundAttachment</b> interface inherits from <a href="/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdattachment">IWSDAttachment</a>. <b>IWSDOutboundAttachment</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWSDOutboundAttachment</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-abort">Abort</a>
+<a href="/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-abort">Abort</a>
 </td>
 <td align="left" width="63%">
 Aborts the transfer of data on the attachment MIME data stream.
@@ -78,7 +78,7 @@ Aborts the transfer of data on the attachment MIME data stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-close">Close</a>
+<a href="/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes current attachment MIME data stream.
@@ -87,7 +87,7 @@ Closes current attachment MIME data stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-write">Write</a>
+<a href="/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-write">Write</a>
 </td>
 <td align="left" width="63%">
 Sends attachment data to the remote host.
@@ -98,5 +98,4 @@ Sends attachment data to the remote host.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdattachment">IWSDAttachment</a>
-
+<a href="/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdattachment">IWSDAttachment</a>

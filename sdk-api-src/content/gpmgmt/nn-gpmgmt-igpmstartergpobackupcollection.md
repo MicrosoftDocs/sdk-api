@@ -57,11 +57,11 @@ api_name:
 
 The 
 <b>IGPMStarterGPOBackupCollection</b> interface contains methods that enable applications to access a collection of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpobackup">GPMStarterGPOBackup</a> objects when using the  Group Policy Management Console (GPMC) interfaces.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpobackup">GPMStarterGPOBackup</a> objects when using the  Group Policy Management Console (GPMC) interfaces.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStarterGPOBackupCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMStarterGPOBackupCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStarterGPOBackupCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMStarterGPOBackupCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -77,7 +77,7 @@ The <b>IGPMStarterGPOBackupCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpobackupcollection-get__newenum">get__NewEnum</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmstartergpobackupcollection-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface on an enumerator object for the collection.
@@ -97,7 +97,7 @@ Retrieves an interface on an enumerator object for the collection.
 
 </td>
 <td align="left" width="63%">
-Number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMStarterGPOBackup</a> objects in the collection.
+Number of <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMStarterGPOBackup</a> objects in the collection.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/
 
 </td>
 <td align="left" width="63%">
-A specific <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMStarterGPOBackup</a> object from the collection.
+A specific <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMStarterGPOBackup</a> object from the collection.
 
 </td>
 </tr>
@@ -116,21 +116,20 @@ A specific <a href="https://docs.microsoft.com/previous-versions/windows/desktop
 ## -remarks
 
 For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackupdirex-searchbackups">SearchBackups</a>.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmbackupdirex-searchbackups">SearchBackups</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdirex">IGPMBackupDirEx</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdirex">IGPMBackupDirEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMStarterGPOBackup</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMStarterGPOBackup</a>

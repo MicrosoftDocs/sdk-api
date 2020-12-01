@@ -110,5 +110,4 @@ Stream time is defined only when the graph is running and has a reference clock.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>
-
+<a href="/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>

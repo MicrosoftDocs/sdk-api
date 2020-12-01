@@ -52,6 +52,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - GetAncestor
+req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # GetAncestor function
@@ -87,7 +88,7 @@ The ancestor to be retrieved. This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-Retrieves the parent window. This does not include the owner, as it does with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a> function. 
+Retrieves the parent window. This does not include the owner, as it does with the <a href="/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a> function. 
 
 </td>
 </tr>
@@ -109,7 +110,7 @@ Retrieves the root window by walking the chain of parent windows.
 </dl>
 </td>
 <td width="60%">
-Retrieves the owned root window by walking the chain of parent and owner windows returned by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a>. 
+Retrieves the owned root window by walking the chain of parent and owner windows returned by <a href="/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a>. 
 
 </td>
 </tr>
@@ -127,7 +128,7 @@ The return value is the handle to the ancestor window.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a>
 
 
 
@@ -135,5 +136,4 @@ The return value is the handle to the ancestor window.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

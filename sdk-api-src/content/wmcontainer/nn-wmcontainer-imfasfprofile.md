@@ -53,11 +53,11 @@ api_name:
 
 Manages an Advanced Systems Format (ASF) profile. A profile is a collection of information that describes the configuration of streams that will be included in an ASF file. Information about the relationships between streams is also included in the profile.
 
-An <b>IMFASFProfile</b> interface exists for every ASF profile object. To create an ASF profile object, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofile">MFCreateASFProfile</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofilefrompresentationdescriptor">MFCreateASFProfileFromPresentationDescriptor</a>.
+An <b>IMFASFProfile</b> interface exists for every ASF profile object. To create an ASF profile object, call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofile">MFCreateASFProfile</a> or <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofilefrompresentationdescriptor">MFCreateASFProfileFromPresentationDescriptor</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFProfile</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFASFProfile</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFProfile</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>. <b>IMFASFProfile</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IMFASFProfile</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addmutualexclusion">AddMutualExclusion</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addmutualexclusion">AddMutualExclusion</a>
 </td>
 <td align="left" width="63%">
 Adds a configured ASF mutual exclusion object to the profile.
@@ -82,7 +82,7 @@ Adds a configured ASF mutual exclusion object to the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addstreamprioritization">AddStreamPrioritization</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-addstreamprioritization">AddStreamPrioritization</a>
 </td>
 <td align="left" width="63%">
 Not supported.
@@ -91,7 +91,7 @@ Not supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-clone">Clone</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of the ASF profile object.
@@ -101,7 +101,7 @@ Creates a copy of the ASF profile object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createmutualexclusion">CreateMutualExclusion</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createmutualexclusion">CreateMutualExclusion</a>
 </td>
 <td align="left" width="63%">
 Creates a new ASF mutual exclusion object.
@@ -111,7 +111,7 @@ Creates a new ASF mutual exclusion object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createstream">CreateStream</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createstream">CreateStream</a>
 </td>
 <td align="left" width="63%">
 Creates an ASF stream configuration object.
@@ -121,7 +121,7 @@ Creates an ASF stream configuration object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createstreamprioritization">CreateStreamPrioritization</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-createstreamprioritization">CreateStreamPrioritization</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -130,7 +130,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getmutualexclusion">GetMutualExclusion</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getmutualexclusion">GetMutualExclusion</a>
 </td>
 <td align="left" width="63%">
 Retrieves an ASF mutual exclusion object from the profile.
@@ -140,7 +140,7 @@ Retrieves an ASF mutual exclusion object from the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getmutualexclusioncount">GetMutualExclusionCount</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getmutualexclusioncount">GetMutualExclusionCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of ASF mutual exclusion objects that are associated with the profile.
@@ -150,7 +150,7 @@ Retrieves the number of ASF mutual exclusion objects that are associated with th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstream">GetStream</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstream">GetStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves a stream from the profile by stream index, and/or retrieves the stream number for a stream index.
@@ -160,7 +160,7 @@ Retrieves a stream from the profile by stream index, and/or retrieves the stream
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreambynumber">GetStreamByNumber</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreambynumber">GetStreamByNumber</a>
 </td>
 <td align="left" width="63%">
 Retrieves an ASF stream configuration object for a stream in the profile. This method references the stream by stream number instead of stream index.
@@ -170,7 +170,7 @@ Retrieves an ASF stream configuration object for a stream in the profile. This m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreamcount">GetStreamCount</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreamcount">GetStreamCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of streams in the profile.
@@ -180,7 +180,7 @@ Retrieves the number of streams in the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreamprioritization">GetStreamPrioritization</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreamprioritization">GetStreamPrioritization</a>
 </td>
 <td align="left" width="63%">
 Not supported.
@@ -189,7 +189,7 @@ Not supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removemutualexclusion">RemoveMutualExclusion</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removemutualexclusion">RemoveMutualExclusion</a>
 </td>
 <td align="left" width="63%">
 Removes an ASF mutual exclusion object from the profile.
@@ -199,7 +199,7 @@ Removes an ASF mutual exclusion object from the profile.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removestream">RemoveStream</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removestream">RemoveStream</a>
 </td>
 <td align="left" width="63%">
 Removes a stream from the ASF profile object.
@@ -209,7 +209,7 @@ Removes a stream from the ASF profile object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removestreamprioritization">RemoveStreamPrioritization</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removestreamprioritization">RemoveStreamPrioritization</a>
 </td>
 <td align="left" width="63%">
 Not supported.
@@ -218,7 +218,7 @@ Not supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-setstream">SetStream</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-setstream">SetStream</a>
 </td>
 <td align="left" width="63%">
 Adds a stream to the profile or reconfigures an existing stream.
@@ -230,13 +230,12 @@ Adds a stream to the profile or reconfigures an existing stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-profile">ASF Profile</a>
+<a href="/windows/desktop/medfound/asf-profile">ASF Profile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

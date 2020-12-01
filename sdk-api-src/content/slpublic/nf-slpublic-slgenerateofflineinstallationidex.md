@@ -68,7 +68,7 @@ A pointer the product ID.
 
 ### -param pActivationInfo [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>*</b>
 
 A pointer to additional information.
 
@@ -76,7 +76,7 @@ A pointer to additional information.
 
 Type: <b>PWSTR*</b>
 
-The Installation ID string. Once you are finished, call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function to      
+The Installation ID string. Once you are finished, call the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function to      
 		free the memory.
 
 ## -returns
@@ -115,4 +115,3 @@ The product key is not available.
 </td>
 </tr>
 </table>
-

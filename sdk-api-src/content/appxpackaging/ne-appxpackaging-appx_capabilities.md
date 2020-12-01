@@ -104,5 +104,4 @@ The <b>APPX_CAPABILITIES</b> enumeration specifies privileges that a package dec
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getcapabilities">IAppxManifestReader::GetCapabilites</a>
-
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getcapabilities">IAppxManifestReader::GetCapabilites</a>

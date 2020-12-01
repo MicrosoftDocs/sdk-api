@@ -51,18 +51,18 @@ api_name:
 ## -description
 
 The <b>CertVerifySubjectCertificateContext</b> function performs the enabled verification checks on a certificate by checking the validity of the certificate's issuer. The new 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a> are recommended instead of this function.
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a> are recommended instead of this function.
 
 ## -parameters
 
 ### -param pSubject [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure containing the subject's certificate.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure containing the subject's certificate.
 
 ### -param pIssuer [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> containing the issuer's certificate. When checking just CERT_STORE_TIME_VALIDITY_FLAG, <i>pIssuer</i> can be <b>NULL</b>.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> containing the issuer's certificate. When checking just CERT_STORE_TIME_VALIDITY_FLAG, <i>pIssuer</i> can be <b>NULL</b>.
 
 ### -param pdwFlags [in, out]
 
@@ -119,7 +119,7 @@ If the function fails, the return value is <b>FALSE</b>.
 For a verification check failure, <b>TRUE</b> is still returned. <b>FALSE</b> is returned only when a bad parameter is passed in.
 
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. One possible error code is the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. One possible error code is the following.
 
 <table>
 <tr>
@@ -149,13 +149,12 @@ is placed in the <i>pdwFlags</i> <b>DWORD</b> value as an input parameter. If CE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetissuercertificatefromstore">CertGetIssuerCertificateFromStore</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetissuercertificatefromstore">CertGetIssuerCertificateFromStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Functions</a>

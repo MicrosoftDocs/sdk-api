@@ -53,7 +53,7 @@ api_name:
 
 The <b>Reset</b> method specifies the size of the string array  and the type of strings the array will contain.The values of all the elements in the string array are set to zero.
 
-You must call this method before calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-setvalue">ICertEncodeStringArray::SetValue</a> method for the first time.
+You must call this method before calling the <a href="/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-setvalue">ICertEncodeStringArray::SetValue</a> method for the first time.
 
 ## -parameters
 
@@ -176,7 +176,7 @@ An array of INT4 values (32 bit).
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> characters (16 bit).
+<a href="/windows/desktop/SecGloss/u-gly">Unicode</a> characters (16 bit).
 
 </td>
 </tr>
@@ -187,9 +187,8 @@ An array of INT4 values (32 bit).
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodestringarray">ICertEncodeStringArray</a>
-
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodestringarray">ICertEncodeStringArray</a>

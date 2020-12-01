@@ -105,5 +105,4 @@ Insufficient memory exists to perform the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
-
+<a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>

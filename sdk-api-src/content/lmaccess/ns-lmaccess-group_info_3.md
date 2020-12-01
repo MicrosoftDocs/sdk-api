@@ -67,7 +67,7 @@ Pointer to a null-terminated Unicode character string that specifies the name of
 
 
 When you call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgroupsetinfo">NetGroupSetInfo</a> function this member is ignored.
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netgroupsetinfo">NetGroupSetInfo</a> function this member is ignored.
 
 ### -field grpi3_comment
 
@@ -76,49 +76,48 @@ Pointer to a null-terminated Unicode character string that contains a remark ass
 ### -field grpi3_group_sid
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that contains the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">security identifier (SID)</a> that uniquely identifies the global group. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member.
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that contains the 
+<a href="/windows/desktop/SecAuthZ/security-identifiers">security identifier (SID)</a> that uniquely identifies the global group. The 
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netuseradd">NetUserAdd</a> and 
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusersetinfo">NetUserSetInfo</a> functions ignore this member.
 
 ### -field grpi3_attributes
 
 These attributes are hard-coded to SE_GROUP_MANDATORY, SE_GROUP_ENABLED, and SE_GROUP_ENABLED_BY_DEFAULT. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>.
+<a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/group-functions">Group Functions</a>
+<a href="/windows/desktop/NetMgmt/group-functions">Group Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgroupadd">NetGroupAdd</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netgroupadd">NetGroupAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgroupenum">NetGroupEnum</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netgroupenum">NetGroupEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgroupgetinfo">NetGroupGetInfo</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netgroupgetinfo">NetGroupGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netgroupsetinfo">NetGroupSetInfo</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netgroupsetinfo">NetGroupSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>

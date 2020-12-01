@@ -82,13 +82,12 @@ If the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamaudioinputmixer">IAMAudioInputMixer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_mono">IAMAudioInputMixer::put_Mono</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_mono">IAMAudioInputMixer::put_Mono</a>

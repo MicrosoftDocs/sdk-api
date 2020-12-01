@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PeerGraphSetPresence</b> function explicitly turns on or off the publication of presence records for a specific  node. This function can override the presence settings in the peer graph properties. Calling this function enables nodes to be enumerated with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphenumnodes">PeerGraphEnumNodes</a>.
+The <b>PeerGraphSetPresence</b> function explicitly turns on or off the publication of presence records for a specific  node. This function can override the presence settings in the peer graph properties. Calling this function enables nodes to be enumerated with <a href="/windows/desktop/api/p2p/nf-p2p-peergraphenumnodes">PeerGraphEnumNodes</a>.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Handle to a peer graph.
 
 ### -param fPresent [in]
 
-Specify <b>TRUE</b> to force the Peer Graphing Infrastructure to publish a presence record for this node, which overrides the setting specified by the <b>cPresenceMax</b> in <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_graph_properties">PEER_GRAPH_PROPERTIES</a>. Specify <b>FALSE</b> to return the node to the default behavior specified in the peer graph properties.
+Specify <b>TRUE</b> to force the Peer Graphing Infrastructure to publish a presence record for this node, which overrides the setting specified by the <b>cPresenceMax</b> in <a href="/windows/desktop/api/p2p/ns-p2p-peer_graph_properties">PEER_GRAPH_PROPERTIES</a>. Specify <b>FALSE</b> to return the node to the default behavior specified in the peer graph properties.
 
 <div class="alert"><b>Note</b>  Depending on the peer graphing presence policy, setting <i>fPresent</i> to <b>FALSE</b> does not guarantee that a peer's presence information is removed. It means that a peer's presence is not published anymore.</div>
 <div> </div>
@@ -103,7 +103,7 @@ The handle to the peer graph is invalid. The presence information cannot be publ
 </dl>
 </td>
 <td width="60%">
-The peer graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
+The peer graph must be  initialized with a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -115,5 +115,4 @@ If presence information has not been explicitly published by the peer graph,  th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphenumnodes">PeerGraphEnumNodes</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphenumnodes">PeerGraphEnumNodes</a>

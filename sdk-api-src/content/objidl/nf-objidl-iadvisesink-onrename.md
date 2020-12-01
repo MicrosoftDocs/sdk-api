@@ -56,7 +56,7 @@ Called by the server to notify all registered advisory sinks that the object has
 
 ### -param pmk [in]
 
- A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the new full moniker of the object.
+ A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the new full moniker of the object.
 
 ## -remarks
 
@@ -64,5 +64,4 @@ OLE link objects normally implement <b>IAdviseSink::OnRename</b> to receive noti
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>

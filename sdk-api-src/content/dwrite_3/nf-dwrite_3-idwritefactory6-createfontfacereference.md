@@ -52,7 +52,7 @@ Creates a reference to a specific font instance within a file.
 
 ### -param fontFile
 
-Type: **[IDWriteFontFile](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile)\***
+Type: **[IDWriteFontFile](../dwrite/nn-dwrite-idwritefontfile.md)\***
 
 A user-provided font file representing the font face.
 
@@ -64,13 +64,13 @@ The zero-based index of a font face in cases when the font file contains a colle
 
 ### -param fontSimulations
 
-Type: **[DWRITE_FONT_SIMULATIONS](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_simulations)**
+Type: **[DWRITE_FONT_SIMULATIONS](../dwrite/ne-dwrite-dwrite_font_simulations.md)**
 
 Font face simulation flags for algorithmic emboldening and italicization.
 
 ### -param fontAxisValues
 
-Type: **[DWRITE_FONT_AXIS_VALUE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value) const \***
+Type: **[DWRITE_FONT_AXIS_VALUE](./ns-dwrite_3-dwrite_font_axis_value.md) const \***
 
 A pointer to an array containing a list of font axis values. The array should be the size (the number of elements) indicated by the *fontAxisValueCount* argument.
 
@@ -82,9 +82,9 @@ The number of font axis values contained in the *fontAxisValues* array.
 
 ### -param fontFaceReference [out]
 
-Type: **[IDWriteFontFaceReference1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference1)\*\***
+Type: **[IDWriteFontFaceReference1](./nn-dwrite_3-idwritefontfacereference1.md)\*\***
 
-The address of a pointer to an [IDWriteFontFaceReference1](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontfacereference1) interface. On successful completion, the function sets the pointer to a newly created font face reference object, otherwise it sets the pointer to `nullptr`.
+The address of a pointer to an [IDWriteFontFaceReference1](./nn-dwrite_3-idwritefontfacereference1.md) interface. On successful completion, the function sets the pointer to a newly created font face reference object, otherwise it sets the pointer to `nullptr`.
 
 ## -returns
 
@@ -95,4 +95,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
-

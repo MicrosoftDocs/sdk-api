@@ -60,5 +60,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplication">IRDPSRAPIApplication</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplication">IRDPSRAPIApplication</a>

@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Gets the current zoom ratio of an edit control (the zoom ratio is always between 1/64 and 64). You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-getzoom">EM_GETZOOM</a> message explicitly.
+Gets the current zoom ratio of an edit control (the zoom ratio is always between 1/64 and 64). You can use this macro or send the <a href="/windows/desktop/Controls/em-getzoom">EM_GETZOOM</a> message explicitly.
 
 ## -parameters
 
@@ -67,4 +67,3 @@ The numerator of the ratio as a fraction.
 ### -param denominator [out]
 
 The denominator of the ratio as a fraction.
-

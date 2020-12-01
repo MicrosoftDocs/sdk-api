@@ -52,14 +52,14 @@ api_name:
 
 This operation derives the best representation for a  primitive value from the underlying encoding and passes the derived value to a Writer object.
       <div class="alert"><b>Note</b>  It is generally more efficient to use this function to write out primitive values rather than converting
-        the value to text and subsequently using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>.</div>
+        the value to text and subsequently using <a href="/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>.</div>
 <div> </div>
 
 ## -parameters
 
 ### -param writer [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the value is written.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the value is written.  The pointer must reference a valid <b>XML Writer</b> object.
 
 ### -param valueType [in]
 
@@ -77,7 +77,7 @@ The size in bytes of the value being written.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -114,6 +114,5 @@ The operation is not allowed due to the current state of the object.
 
 ## -remarks
 
-<b>WsWriteValue</b> may be called only once between <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a>.
-        It may not be combined with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebytes">WsWriteBytes</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritecharsutf8">WsWriteCharsUtf8</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritetext">WsWriteText</a>when writing an attribute.
-
+<b>WsWriteValue</b> may be called only once between <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendattribute">WsWriteEndAttribute</a>.
+        It may not be combined with <a href="/windows/desktop/api/webservices/nf-webservices-wswritechars">WsWriteChars</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wswritebytes">WsWriteBytes</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wswritecharsutf8">WsWriteCharsUtf8</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wswritetext">WsWriteText</a>when writing an attribute.

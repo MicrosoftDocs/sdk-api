@@ -79,5 +79,4 @@ The number of drives. For valid values, see the BIOS documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-disk_detection_info">DISK_DETECTION_INFO</a>
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-disk_detection_info">DISK_DETECTION_INFO</a>

@@ -86,13 +86,12 @@ If the <b>VARIANT_BOOL</b> specified in <b>put_enabled</b> is set to <b>FALSE</b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_enabled">IWMPPlayer::get_enabled</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_enabled">IWMPPlayer::get_enabled</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_enablecontextmenu">IWMPPlayer::put_enableContextMenu</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_enablecontextmenu">IWMPPlayer::put_enableContextMenu</a>

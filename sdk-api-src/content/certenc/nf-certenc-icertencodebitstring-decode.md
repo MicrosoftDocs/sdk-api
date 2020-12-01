@@ -51,9 +51,9 @@ api_name:
 
 ## -description
 
-The <b>Decode</b> method decodes an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded bit string and stores the resulting bit string in this object. You can then call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodebitstring-getbitcount">ICertEncodeBitString::GetBitCount</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodebitstring-getbitstring">ICertEncodeBitString::GetBitString</a> methods to retrieve the bit string and its size.
+The <b>Decode</b> method decodes an <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded bit string and stores the resulting bit string in this object. You can then call the 
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodebitstring-getbitcount">ICertEncodeBitString::GetBitCount</a> and 
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodebitstring-getbitstring">ICertEncodeBitString::GetBitString</a> methods to retrieve the bit string and its size.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ An ASN.1-encoded bit string.
  If the method succeeds, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+<a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
@@ -76,15 +76,14 @@ Use this method to decode an encoded bit string.
 
 #### Examples
 
-For an example that calls the <b>Decode</b> method, see the <a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodebitstring-encode">ICertEncodeBitString::Encode</a> method.
+For an example that calls the <b>Decode</b> method, see the <a href="/windows/desktop/api/certenc/nf-certenc-icertencodebitstring-encode">ICertEncodeBitString::Encode</a> method.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodebitstring">ICertEncodeBitString</a>
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodebitstring">ICertEncodeBitString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodebitstring-encode">ICertEncodeBitString::Encode</a>
-
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodebitstring-encode">ICertEncodeBitString::Encode</a>

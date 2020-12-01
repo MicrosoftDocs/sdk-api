@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - SHGetTemporaryPropertyForItem
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SHGetTemporaryPropertyForItem function
@@ -51,13 +52,13 @@ api_name:
 
 ## -description
 
-Retrieves the temporary property for the given item. A temporary property is a read/write store that holds properties only for the lifetime of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object, rather than being persisted back into the item.
+Retrieves the temporary property for the given item. A temporary property is a read/write store that holds properties only for the lifetime of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object, rather than being persisted back into the item.
 
 ## -parameters
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to the item for which the temporary property is to be retrieved.
 
@@ -69,7 +70,7 @@ The property key.
 
 ### -param ppropvar [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 A pointer to the temporary property for the item.
 
@@ -78,4 +79,3 @@ A pointer to the temporary property for the item.
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

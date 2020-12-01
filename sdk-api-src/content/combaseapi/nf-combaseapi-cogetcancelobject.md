@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Obtains a pointer to a call control interface, normally <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>, on the cancel object corresponding to an outbound COM method call pending on the same or another client thread.
+Obtains a pointer to a call control interface, normally <a href="/windows/desktop/api/objidl/nn-objidl-icancelmethodcalls">ICancelMethodCalls</a>, on the cancel object corresponding to an outbound COM method call pending on the same or another client thread.
 
 ## -parameters
 
@@ -108,4 +108,3 @@ The object on which the call is executing does not support the interface specifi
 If two or more calls are pending on the same thread through nested calls, the thread ID may not be sufficient to identify the call to be canceled. In this case, <b>CoGetCancelObject</b> returns a cancel interface corresponding to the innermost call that is pending on the thread and has registered a cancel object.
 
 This function does not locate cancel objects for asynchronous calls.
-

@@ -61,9 +61,9 @@ The
 ### -param hLineApp
 
 Handle returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>. If a TAPI 2.x application has not yet called the 
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>. If a TAPI 2.x application has not yet called the 
 <b>lineInitializeEx</b> function, it can set this parameter to <b>NULL</b>. TAPI 1.4 applications must still call 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitialize">lineInitialize</a> first.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitialize">lineInitialize</a> first.
 
 ### -param dwDeviceID
 
@@ -72,7 +72,7 @@ Device identifier of the line device upon which the call is to be dialed, so tha
 ### -param dwAPIVersion
 
 Highest version of TAPI supported by the application (not necessarily the value negotiated by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a> on some particular line device).
+<a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a> on some particular line device).
 
 ### -param lpszAddressIn
 
@@ -81,24 +81,24 @@ Pointer to a <b>null</b>-terminated string that contains the address of the info
 ### -param dwCard
 
 Credit card to be used for dialing. This parameter is only valid if the CARDOVERRIDE bit is set in <i>dwTranslateOptions</i>. This parameter specifies the permanent identifier of a Card entry in the [Cards] section in the registry (as obtained from 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">lineTranslateCaps</a>) that should be used instead of the <b>PreferredCardID</b> specified in the definition of the <b>CurrentLocation</b>. It does not cause the <i>PreferredCardID</i> parameter of the current Location entry in the registry to be modified; the override applies only to the current translation operation. This parameter is ignored if the CARDOVERRIDE bit is not set in <i>dwTranslateOptions</i>.
+<a href="/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">lineTranslateCaps</a>) that should be used instead of the <b>PreferredCardID</b> specified in the definition of the <b>CurrentLocation</b>. It does not cause the <i>PreferredCardID</i> parameter of the current Location entry in the registry to be modified; the override applies only to the current translation operation. This parameter is ignored if the CARDOVERRIDE bit is not set in <i>dwTranslateOptions</i>.
 
 ### -param dwTranslateOptions
 
 Associated operations to be performed prior to the translation of the address into a dialable string. This parameter uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetranslateoption--constants">LINETRANSLATEOPTION_ Constants</a>. 
+<a href="/windows/desktop/Tapi/linetranslateoption--constants">LINETRANSLATEOPTION_ Constants</a>. 
 
 
 
 
 If you have set the LINETRANSLATEOPTION_CANCELCALLWAITING bit, it is also advisable to set the LINECALLPARAMFLAGS_SECURE bit in the <b>dwCallParamFlags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> structure (passed in to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> through the <i>lpCallParams</i> parameter). This prevents the line device from using dialable digits to suppress call interrupts.
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a> structure (passed in to 
+<a href="/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a> through the <i>lpCallParams</i> parameter). This prevents the line device from using dialable digits to suppress call interrupts.
 
 ### -param lpTranslateOutput
 
 Pointer to an application-allocated memory area to contain the output of the translation operation, of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput">LINETRANSLATEOUTPUT</a>. Prior to calling 
+<a href="/windows/desktop/api/tapi/ns-tapi-linetranslateoutput">LINETRANSLATEOUTPUT</a>. Prior to calling 
 <b>lineTranslateAddress</b>, the application must set the <b>dwTotalSize</b> member of this structure to indicate the amount of memory available to TAPI for returning information.
 
 ## -returns
@@ -109,7 +109,7 @@ LINEERR_BADDEVICEID, LINEERR_INVALPOINTER, LINEERR_INCOMPATIBLEAPIVERSION, LINEE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
@@ -117,25 +117,24 @@ LINEERR_BADDEVICEID, LINEERR_INVALPOINTER, LINEERR_INCOMPATIBLEAPIVERSION, LINEE
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallparams">LINECALLPARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslateoutput">LINETRANSLATEOUTPUT</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linetranslateoutput">LINETRANSLATEOUTPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-version-negotiation">TAPI Version Negotiation</a>
+<a href="/windows/desktop/Tapi/tapi-version-negotiation">TAPI Version Negotiation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>

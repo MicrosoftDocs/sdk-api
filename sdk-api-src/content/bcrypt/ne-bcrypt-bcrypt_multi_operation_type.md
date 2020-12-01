@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>BCRYPT_MULTI_OPERATION_TYPE</b> enumeration specifies type of multi-operation that  is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptprocessmultioperations">BCryptProcessMultiOperations</a> function.
+The <b>BCRYPT_MULTI_OPERATION_TYPE</b> enumeration specifies type of multi-operation that  is passed to the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptprocessmultioperations">BCryptProcessMultiOperations</a> function.
 
 ## -enum-fields
 
@@ -60,5 +60,4 @@ A hash operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptprocessmultioperations">BCryptProcessMultiOperations</a>
-
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptprocessmultioperations">BCryptProcessMultiOperations</a>

@@ -93,11 +93,10 @@ The MFT specified by the <i>pClassFactory</i> parameter was not registered in th
 
 ## -remarks
 
-Use this function to unregister a local MFT that was previously registered through the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocal">MFTRegisterLocal</a> function.
+Use this function to unregister a local MFT that was previously registered through the <a href="/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocal">MFTRegisterLocal</a> function.
 
-If the <i>pClassFactory</i> parameter is <b>NULL</b>, all local MFTs in the process are unregistered. Otherwise, the function unregisters the MFT associated with the class factory specified by the <i>pClassFactory</i> parameter. In that case, the <i>pClassFactory</i> parameter should equal a pointer value that was previously passed to  the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocal">MFTRegisterLocal</a> function.
+If the <i>pClassFactory</i> parameter is <b>NULL</b>, all local MFTs in the process are unregistered. Otherwise, the function unregisters the MFT associated with the class factory specified by the <i>pClassFactory</i> parameter. In that case, the <i>pClassFactory</i> parameter should equal a pointer value that was previously passed to  the <a href="/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocal">MFTRegisterLocal</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

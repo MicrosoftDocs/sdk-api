@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Loads the File History configuration information for the current user into an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
+Loads the File History configuration information for the current user into an <a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object.
 
 > [!NOTE] 
 > **IFhConfigMgr** is deprecated and may be altered or unavailable in future releases.
@@ -64,21 +64,20 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 ## -remarks
 
-This method or the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-createdefaultconfiguration">IFhConfigMgr::CreateDefaultConfiguration</a> method must be called before any other <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a> method can be called.
+This method or the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-createdefaultconfiguration">IFhConfigMgr::CreateDefaultConfiguration</a> method must be called before any other <a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a> method can be called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
+<a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-createdefaultconfiguration">IFhConfigMgr::CreateDefaultConfiguration</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-createdefaultconfiguration">IFhConfigMgr::CreateDefaultConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-saveconfiguration">IFhConfigMgr::SaveConfiguration</a>
-
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-saveconfiguration">IFhConfigMgr::SaveConfiguration</a>

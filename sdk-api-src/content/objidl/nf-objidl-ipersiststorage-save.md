@@ -56,11 +56,11 @@ Saves an object, and any nested objects that it contains, into the specified sto
 
 ### -param pStgSave [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the storage into which the object is to be saved.
+An <a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the storage into which the object is to be saved.
 
 ### -param fSameAsLoad [in]
 
-Indicates whether the specified storage is the current one, which was passed to the object by one of the following calls: <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-initnew">IPersistStorage::InitNew</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-load">IPersistStorage::Load</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted">IPersistStorage::SaveCompleted</a>.
+Indicates whether the specified storage is the current one, which was passed to the object by one of the following calls: <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-initnew">IPersistStorage::InitNew</a>, <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-load">IPersistStorage::Load</a>, or <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted">IPersistStorage::SaveCompleted</a>.
 
 This parameter is set to <b>FALSE</b> when performing a <b>Save As</b> or <b>Save A Copy To</b> operation or when performing a full save. In the latter case, this method saves to a temporary file, deletes the original file, and renames the temporary file.
 
@@ -112,31 +112,30 @@ The object could not be saved due to errors other than a lack of disk space.
 
 ## -remarks
 
-This method saves an object, and any nested objects it contains, into the specified storage. It also places the object into NoScribble mode. Thus, the object cannot write to its storage until a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted">IPersistStorage::SaveCompleted</a> method returns the object to Normal mode.
+This method saves an object, and any nested objects it contains, into the specified storage. It also places the object into NoScribble mode. Thus, the object cannot write to its storage until a subsequent call to the <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted">IPersistStorage::SaveCompleted</a> method returns the object to Normal mode.
 
 If the storage object is the same as the one it was loaded or created from, the save operation may be able to write incremental changes to the storage object. Otherwise, a full save must be done.
 
-This method recursively calls the <b>IPersistStorage::Save</b> method, the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesave">OleSave</a> function, or the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-copyto">IStorage::CopyTo</a> method to save its nested objects.
+This method recursively calls the <b>IPersistStorage::Save</b> method, the <a href="/windows/desktop/api/ole2/nf-ole2-olesave">OleSave</a> function, or the <a href="/windows/desktop/api/objidl/nf-objidl-istorage-copyto">IStorage::CopyTo</a> method to save its nested objects.
 
-This method does not call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a> method. Nor does it write the CLSID to the storage object. Both of these tasks are the responsibilities of the caller.
+This method does not call the <a href="/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a> method. Nor does it write the CLSID to the storage object. Both of these tasks are the responsibilities of the caller.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Rather than calling <b>IPersistStorage::Save</b> directly, you typically call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesave">OleSave</a> helper function which performs the following steps:
+Rather than calling <b>IPersistStorage::Save</b> directly, you typically call the <a href="/windows/desktop/api/ole2/nf-ole2-olesave">OleSave</a> helper function which performs the following steps:
 
 <ol>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a> function to write the class identifier for the object to the storage.</li>
+<li>Call the <a href="/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a> function to write the class identifier for the object to the storage.</li>
 <li>Call the <b>IPersistStorage::Save</b> method.</li>
-<li>If needed, call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a> method on the storage object.</li>
+<li>If needed, call the <a href="/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a> method on the storage object.</li>
 </ol>
-Then, a container application performs any other operations necessary to complete the save and calls the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted">SaveCompleted</a> method for each object.
+Then, a container application performs any other operations necessary to complete the save and calls the <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted">SaveCompleted</a> method for each object.
 
-If an embedded object passes the <b>IPersistStorage::Save</b> method to its nested objects, it must receive a call to its <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted">IPersistStorage::SaveCompleted</a> method before calling this method for its nested objects.
+If an embedded object passes the <b>IPersistStorage::Save</b> method to its nested objects, it must receive a call to its <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted">IPersistStorage::SaveCompleted</a> method before calling this method for its nested objects.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesave">OleSave</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-olesave">OleSave</a>

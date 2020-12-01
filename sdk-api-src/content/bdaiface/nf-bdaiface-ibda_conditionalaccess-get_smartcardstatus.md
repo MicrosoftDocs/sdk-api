@@ -56,11 +56,11 @@ The <b>get_SmartCardStatus</b> method retrieves the status of the smart card.
 
 ### -param pCardStatus [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/ne-bdaiface-smartcardstatustype">SmartCardStatusType</a> that receives the card status type.
+Pointer to a variable of type <a href="/windows/desktop/api/bdaiface/ne-bdaiface-smartcardstatustype">SmartCardStatusType</a> that receives the card status type.
 
 ### -param pCardAssociation [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/ne-bdaiface-smartcardassociationtype">SmartCardAssociationType</a> that receives the card association type.
+Pointer to a variable of type <a href="/windows/desktop/api/bdaiface/ne-bdaiface-smartcardassociationtype">SmartCardAssociationType</a> that receives the card association type.
 
 ### -param pbstrCardError [out]
 
@@ -80,5 +80,4 @@ All three parameters must be non-NULL or the method fails and returns <b>E_POINT
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>

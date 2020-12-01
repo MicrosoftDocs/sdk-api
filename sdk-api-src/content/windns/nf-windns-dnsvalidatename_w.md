@@ -79,7 +79,7 @@ A pointer to a string that represents the DNS name to be examined.
 
 ### -param Format [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-dns_name_format">DNS_NAME_FORMAT</a> value that specifies the format of the name to be examined.
+A <a href="/windows/desktop/api/windns/ne-windns-dns_name_format">DNS_NAME_FORMAT</a> value that specifies the format of the name to be examined.
 
 ## -returns
 
@@ -141,7 +141,7 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-dns_name_format">DNS_NAME_FORMAT</a>
+<a href="/windows/desktop/api/windns/ne-windns-dns_name_format">DNS_NAME_FORMAT</a>
 
 
 
@@ -149,9 +149,8 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsnamecompare">DnsNameCompare</a>
+<a href="/windows/desktop/api/windns/nf-windns-dnsnamecompare">DnsNameCompare</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a>

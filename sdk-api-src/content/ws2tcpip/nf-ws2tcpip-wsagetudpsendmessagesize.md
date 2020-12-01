@@ -60,11 +60,10 @@ A pointer to a **DWORD**. On success, the function sets the DWORD to the message
 
 ## -returns
 
-On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/windows/win32/winsock/return-values-on-function-failure-2) is returned, and you can retrieve a specific error code by calling [WSAGetLastError](/windows/win32/api/winsock/nf-winsock-wsagetlasterror).
+On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/windows/win32/winsock/return-values-on-function-failure-2) is returned, and you can retrieve a specific error code by calling [WSAGetLastError](../winsock/nf-winsock-wsagetlasterror.md).
 
 ## -remarks
 
-UDP send segmentation is supported through the [UDP_SEND_MSG_SIZE](/windows/win32/winsock/ipproto-udp-socket-options) socket option. **WSAGetUdpSendMessageSize** is a type-safe wrapper for getting this socket option, and we recommend it over [getsockopt](/windows/win32/api/winsock/nf-winsock-getsockopt).
+UDP send segmentation is supported through the [UDP_SEND_MSG_SIZE](/windows/win32/winsock/ipproto-udp-socket-options) socket option. **WSAGetUdpSendMessageSize** is a type-safe wrapper for getting this socket option, and we recommend it over [getsockopt](../winsock/nf-winsock-getsockopt.md).
 
 ## -see-also
-

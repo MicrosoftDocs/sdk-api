@@ -60,11 +60,10 @@ The message size to be set on the socket for UDP segmentation.
 
 ## -returns
 
-On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/windows/win32/winsock/return-values-on-function-failure-2) is returned, and you can retrieve a specific error code by calling [WSAGetLastError](/windows/win32/api/winsock/nf-winsock-wsagetlasterror).
+On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/windows/win32/winsock/return-values-on-function-failure-2) is returned, and you can retrieve a specific error code by calling [WSAGetLastError](../winsock/nf-winsock-wsagetlasterror.md).
 
 ## -remarks
 
-UDP send segmentation is supported through the [UDP_SEND_MSG_SIZE](/windows/win32/winsock/ipproto-udp-socket-options) socket option. **WSASetUdpSendMessageSize** is a type-safe wrapper for setting this socket option, and we recommend it over [setsockopt](/windows/win32/api/winsock/nf-winsock-setsockopt).
+UDP send segmentation is supported through the [UDP_SEND_MSG_SIZE](/windows/win32/winsock/ipproto-udp-socket-options) socket option. **WSASetUdpSendMessageSize** is a type-safe wrapper for setting this socket option, and we recommend it over [setsockopt](../winsock/nf-winsock-setsockopt.md).
 
 ## -see-also
-

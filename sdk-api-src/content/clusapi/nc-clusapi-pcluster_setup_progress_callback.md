@@ -51,22 +51,22 @@ api_name:
 
 Callback function that receives regular updates on the progression of the setup of the 
     cluster. This callback is used during processing of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a>, and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-destroycluster">DestroyCluster</a> functions.
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>, 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a>, and 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-destroycluster">DestroyCluster</a> functions.
 
 ## -parameters
 
 ### -param pvCallbackArg [in, optional]
 
 <i>pvCallbackArg</i> parameter passed to the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>, 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a>, or 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-destroycluster">DestroyCluster</a> function.
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>, 
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a>, or 
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-destroycluster">DestroyCluster</a> function.
 
 ### -param eSetupPhase [in]
 
-Value from the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase">CLUSTER_SETUP_PHASE</a> enumeration 
+Value from the <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase">CLUSTER_SETUP_PHASE</a> enumeration 
        that gives the current setup phase. The parameter can be one of the following values.
 
 
@@ -239,7 +239,7 @@ Return failed resource to pre-clustered state.
 
 ### -param ePhaseType [in]
 
-Value from the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_type">CLUSTER_SETUP_PHASE_TYPE</a> 
+Value from the <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_type">CLUSTER_SETUP_PHASE_TYPE</a> 
        enumeration that gives the current setup phase type. The parameter can be one of the following values.
 
 
@@ -266,7 +266,7 @@ Called once at the end of every setup phase as passed in the <i>eSetupPhase</i>
 ### -param ePhaseSeverity [in]
 
 Value from the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a> enumeration 
+       <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a> enumeration 
        that gives the current setup phase severity. The parameter can be one of the following values.
 
 
@@ -309,38 +309,37 @@ TBD
 
 The <b>PCLUSTER_SETUP_PROGRESS_CALLBACK</b> type defines a pointer to this function.
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/cluswmi/mscluster-eventclustercallback">MSCluster_EventClusterCallback</a> 
+The <a href="/previous-versions/windows/desktop/cluswmi/mscluster-eventclustercallback">MSCluster_EventClusterCallback</a> 
      MOF class is used in a similar manner.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-addclusternode">AddClusterNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase">CLUSTER_SETUP_PHASE</a>
+<a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase">CLUSTER_SETUP_PHASE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a>
+<a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_severity">CLUSTER_SETUP_PHASE_SEVERITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_type">CLUSTER_SETUP_PHASE_TYPE</a>
+<a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_setup_phase_type">CLUSTER_SETUP_PHASE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Cluster Management Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-management-functions">Cluster Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-destroycluster">DestroyCluster</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-destroycluster">DestroyCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/cluswmi/mscluster-eventclustercallback">MSCluster_EventClusterCallback</a>
-
+<a href="/previous-versions/windows/desktop/cluswmi/mscluster-eventclustercallback">MSCluster_EventClusterCallback</a>

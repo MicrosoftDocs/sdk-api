@@ -43,6 +43,7 @@ api_location:
  - Comctl32.dll
 api_name:
  - GetWindowSubclass
+req.apiset: ext-ms-win-shell-comctl32-window-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetWindowSubclass function
@@ -62,7 +63,7 @@ The handle of the window being subclassed.
 
 ### -param pfnSubclass [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-subclassproc">SUBCLASSPROC</a></b>
+Type: <b><a href="/windows/desktop/api/commctrl/nc-commctrl-subclassproc">SUBCLASSPROC</a></b>
 
 A pointer to a window procedure. This pointer and the subclass ID uniquely identify this subclass callback.
 
@@ -113,17 +114,16 @@ The subclass callback was not installed.
 
 ## -remarks
 
-To use <b>GetWindowSubclass</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
+To use <b>GetWindowSubclass</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-defsubclassproc">DefSubclassProc</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-defsubclassproc">DefSubclassProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-removewindowsubclass">RemoveWindowSubclass</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-removewindowsubclass">RemoveWindowSubclass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a>

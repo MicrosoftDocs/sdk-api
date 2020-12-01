@@ -65,7 +65,7 @@ A <b>HANDLE</b> to the process from which the section
 The base address of a previously mapped
                   view that is to be unmapped.  This value must be
                   identical to the value returned by a previous call
-                  to <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile2">MapViewOfFile2</a>.
+                  to <a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile2">MapViewOfFile2</a>.
 
 ### -param UnmapFlags [in]
 
@@ -84,7 +84,7 @@ This parameter can be zero (0) or one of the following values.
 </td>
 <td width="60%">
 Specifies that the priority of the pages being unmapped should be temporarily boosted
-                 (with automatic short term decay) because the caller expects that these pages will be accessed again shortly from another thread. For more information about memory priorities, see the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadinformation">SetThreadInformation(ThreadMemoryPriority)</a> function.
+                 (with automatic short term decay) because the caller expects that these pages will be accessed again shortly from another thread. For more information about memory priorities, see the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadinformation">SetThreadInformation(ThreadMemoryPriority)</a> function.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Specifies that the priority of the pages being unmapped should be temporarily bo
 </dl>
 </td>
 <td width="60%">
-Unmaps a mapped view back to a placeholder (after you've replaced a placeholder with a mapped view using <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile2">MapViewOfFile2</a> or <b>MapViewOfFile2FromApp</b>).
+Unmaps a mapped view back to a placeholder (after you've replaced a placeholder with a mapped view using <a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile2">MapViewOfFile2</a> or <b>MapViewOfFile2FromApp</b>).
 
 </td>
 </tr>
@@ -104,17 +104,16 @@ Unmaps a mapped view back to a placeholder (after you've replaced a placeholder 
 ## -returns
 
 Returns <b>TRUE</b> if sucessful. Otherwise, returns <b>FALSE</b> and extended error status is available
-            using <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+            using <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile2">MapViewOfFile2</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile2">MapViewOfFile2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffileex">UnmapViewOfFileEx</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffileex">UnmapViewOfFileEx</a>

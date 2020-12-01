@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <b>SslFreeCertificate</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.]
+<p class="CCE_Message">[The <b>SslFreeCertificate</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a> function.]
 
-Frees a certificate that was allocated by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/nf-schannel-sslcrackcertificate">SslCrackCertificate</a> function.
+Frees a certificate that was allocated by a previous call to the <a href="/windows/desktop/api/schannel/nf-schannel-sslcrackcertificate">SslCrackCertificate</a> function.
 
-This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Schannel.dll.
+This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Schannel.dll.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ The certificate to free.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/schannel/nf-schannel-sslcrackcertificate">SslCrackCertificate</a>
-
+<a href="/windows/desktop/api/schannel/nf-schannel-sslcrackcertificate">SslCrackCertificate</a>

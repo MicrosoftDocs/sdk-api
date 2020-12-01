@@ -62,7 +62,7 @@ Context value cast to a ULONGLONG. The context value is determined by the contex
 
 ### -field ParameterType
 
-Context type. For a list of types, see the <a href="https://docs.microsoft.com/windows/desktop/api/tdh/ne-tdh-tdh_context_type">TDH_CONTEXT_TYPE</a> enumeration.
+Context type. For a list of types, see the <a href="/windows/desktop/api/tdh/ne-tdh-tdh_context_type">TDH_CONTEXT_TYPE</a> enumeration.
 
 ### -field ParameterSize
 
@@ -70,5 +70,4 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tdh/nf-tdh-tdhgeteventinformation">TdhGetEventInformation</a>
-
+<a href="/windows/desktop/api/tdh/nf-tdh-tdhgeteventinformation">TdhGetEventInformation</a>

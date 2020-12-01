@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - GetSystemMetricsForDpi
+req.apiset: ext-ms-win-ntuser-private-l1-3-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetSystemMetricsForDpi function
@@ -61,7 +62,7 @@ Retrieves the specified system metric or system configuration setting taking int
 
 ### -param nIndex [in]
 
-The system metric or configuration setting to be retrieved. See <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> for the possible values.
+The system metric or configuration setting to be retrieved. See <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> for the possible values.
 
 ### -param dpi [in]
 
@@ -71,9 +72,8 @@ The DPI to use for scaling the metric.
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-This function returns the same result as <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> but scales it according to an arbitrary DPI you provide if appropriate.
-
+This function returns the same result as <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> but scales it according to an arbitrary DPI you provide if appropriate.

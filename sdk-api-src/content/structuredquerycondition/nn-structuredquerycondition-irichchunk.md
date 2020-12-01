@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Represents a chunk of data as a string and a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> value.
+Represents a chunk of data as a string and a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> value.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRichChunk</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRichChunk</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRichChunk</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRichChunk</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,19 +69,19 @@ The <b>IRichChunk</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-irichchunk-getdata">GetData</a>
+<a href="/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-irichchunk-getdata">GetData</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
+Retrieves the <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/search/irichchunk-remotegetdata">RemoteGetData</a>
+<a href="/windows/desktop/search/irichchunk-remotegetdata">RemoteGetData</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
+Retrieves the <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> and input string that represents a chunk of data.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ In Windows 7, this interface is defined in structuredquerycondition.idl and str
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iquerysolution-geterrors">GetErrors</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iquerysolution-geterrors">GetErrors</a>
 
 
 
@@ -102,4 +102,3 @@ In Windows 7, this interface is defined in structuredquerycondition.idl and str
 
 
 <a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_parse_error">STRUCTURED_QUERY_PARSE_ERROR</a>
-

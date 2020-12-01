@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>Count</b> property retrieves the number of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> objects in the collection.
+The <b>Count</b> property retrieves the number of <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> objects in the collection.
 
 This property is read-only.
 
@@ -60,5 +60,4 @@ This property is read-only.
 
 ## -remarks
 
-The <b>Count</b> property can be used to specify the last <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object in a collection when retrieving a specific <b>IAzOperation</b> object using the  <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazoperations-get_item">IAzOperations.Item</a> property.
-
+The <b>Count</b> property can be used to specify the last <a href="/windows/desktop/api/azroles/nn-azroles-iazoperation">IAzOperation</a> object in a collection when retrieving a specific <b>IAzOperation</b> object using the  <a href="/windows/desktop/api/azroles/nf-azroles-iazoperations-get_item">IAzOperations.Item</a> property.

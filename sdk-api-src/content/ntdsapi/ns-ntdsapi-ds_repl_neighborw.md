@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>DS_REPL_NEIGHBOR</b> structure contains  inbound replication state data for a particular naming context and source server pair, as returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> functions.
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a> and <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a> functions.
 
 ## -struct-fields
 
@@ -117,7 +117,7 @@ This neighbor is in a state where it returns parent objects before children obje
 
 #### DS_REPL_NBR_FULL_SYNC_IN_PROGRESS (65536 (0x10000))
 
-The destination server is performing a full synchronization from the source server. Full synchronizations do not use vectors that create updates (<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors">DS_REPL_CURSORS</a>) for filtering updates. Full synchronizations are not used as a part of the normal replication protocol.
+The destination server is performing a full synchronization from the source server. Full synchronizations do not use vectors that create updates (<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cursors">DS_REPL_CURSORS</a>) for filtering updates. Full synchronizations are not used as a part of the normal replication protocol.
 
 
 
@@ -197,11 +197,11 @@ Contains the <b>usnLastObjChangeSynced</b> value at the end of the last complete
 
 ### -field ftimeLastSyncSuccess
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time the last successful replication cycle was completed from this source. All members of this structure are zero if the replication cycle has never been completed.
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time the last successful replication cycle was completed from this source. All members of this structure are zero if the replication cycle has never been completed.
 
 ### -field ftimeLastSyncAttempt
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the last replication attempt from this source. All members of this structure are zero if the replication  has never been attempted.
+Contains a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the date and time of the last replication attempt from this source. All members of this structure are zero if the replication  has never been attempted.
 
 ### -field dwLastSyncResult
 
@@ -213,17 +213,16 @@ Contains the number of failed replication attempts from this source since the la
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_neighborsw">DS_REPL_NEIGHBORS</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_neighborsw">DS_REPL_NEIGHBORS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>

@@ -90,9 +90,8 @@ No bitmap is currently set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap">IMFVideoMixerBitmap</a>
-
+<a href="/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap">IMFVideoMixerBitmap</a>

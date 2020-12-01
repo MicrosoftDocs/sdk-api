@@ -65,9 +65,8 @@ The size in bytes of the constant buffer.
 
 ## -remarks
 
-This structure is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createconstantbufferview">CreateConstantBufferView</a>.
+This structure is used by <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createconstantbufferview">CreateConstantBufferView</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The RASNAPSTATE structure contains information about the <a href="https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page">Network Access Protection</a> (NAP) variables for a remote access connection.
+The RASNAPSTATE structure contains information about the <a href="/windows/desktop/NAP/network-access-protection-start-page">Network Access Protection</a> (NAP) variables for a remote access connection.
 
 ## -struct-fields
 
@@ -64,11 +64,11 @@ Specifies the size of the structure in bytes.
 
 ### -field dwFlags
 
-Contains information about what members of this structure are set on the return from a call to the <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetnapstatus">RasGetNapStatus</a> function.
+Contains information about what members of this structure are set on the return from a call to the <a href="/windows/desktop/api/ras/nf-ras-rasgetnapstatus">RasGetNapStatus</a> function.
 
 ### -field isolationState
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a> value that specifies the isolation NAP state for the RAS connection.
+An <a href="/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a> value that specifies the isolation NAP state for the RAS connection.
 
 ### -field probationTime
 
@@ -76,5 +76,4 @@ Specifies the time required for the connection to come out of quarantine after w
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a> enumerated type and the ProbationTime structure are declared in naptypes.h.
-
+The <a href="/windows/desktop/api/naptypes/ne-naptypes-isolationstate">IsolationState</a> enumerated type and the ProbationTime structure are declared in naptypes.h.

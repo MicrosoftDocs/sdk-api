@@ -90,25 +90,24 @@ LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_OPERATIONUNAVAIL, LINEERR_NODRIVER, LINE
 ## -remarks
 
 When <i>dwDeviceID</i> is 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/initialize-negotiation">INITIALIZE_NEGOTIATION</a>, this function must not return LINEERR_OPERATIONUNAVAIL, because this function (with that value) is mandatory for negotiating the overall interface version even if the service provider supports no line devices.
+<a href="/windows/desktop/Tapi/initialize-negotiation">INITIALIZE_NEGOTIATION</a>, this function must not return LINEERR_OPERATIONUNAVAIL, because this function (with that value) is mandatory for negotiating the overall interface version even if the service provider supports no line devices.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/initialize-negotiation">INITIALIZE_NEGOTIATION</a>
+<a href="/windows/desktop/Tapi/initialize-negotiation">INITIALIZE_NEGOTIATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tspi-versioning">TSPI Versioning</a>
+<a href="/windows/desktop/Tapi/tspi-versioning">TSPI Versioning</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetextensionid">TSPI_lineGetExtensionID</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetextensionid">TSPI_lineGetExtensionID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiateextversion">TSPI_lineNegotiateExtVersion</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiateextversion">TSPI_lineNegotiateExtVersion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a>

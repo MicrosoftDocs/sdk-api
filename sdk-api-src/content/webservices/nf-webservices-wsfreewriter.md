@@ -56,11 +56,10 @@ Releases the memory resource associated with  an  XML Writer object.
 
 ### -param writer [in]
 
-A pointer to the <b>XML Writer</b> object to release.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object
-                    returned by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatewriter">WsCreateWriter</a> and   the referenced value may not be <b>NULL</b>.
+A pointer to the <b>XML Writer</b> object to release.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object
+                    returned by <a href="/windows/desktop/api/webservices/nf-webservices-wscreatewriter">WsCreateWriter</a> and   the referenced value may not be <b>NULL</b>.
 
 ## -remarks
 
-If necessary, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsflushwriter">WsFlushWriter</a> should be called before calling <b>WsFreeWriter</b> to guarantee
+If necessary, <a href="/windows/desktop/api/webservices/nf-webservices-wsflushwriter">WsFlushWriter</a> should be called before calling <b>WsFreeWriter</b> to guarantee
         all data is emitted.
-

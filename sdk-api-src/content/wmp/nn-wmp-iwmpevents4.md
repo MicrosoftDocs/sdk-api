@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents3">IWMPEvents4</a> interface provides access to an event originating from the Windows Media Player 12 control so that an application that has this control embedded in it can respond to the event. The event exposed by <b>IWMPEvents4</b> is also exposed by the <a href="https://docs.microsoft.com/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents</a> interface.
+The <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents3">IWMPEvents4</a> interface provides access to an event originating from the Windows Media Player 12 control so that an application that has this control embedded in it can respond to the event. The event exposed by <b>IWMPEvents4</b> is also exposed by the <a href="/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents</a> interface.
 
 ## -inheritance
 
@@ -69,10 +69,10 @@ The <b>IWMPEvents4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/WMP/iwmpevents4-syncestimationcomplete">SyncEstimationComplete</a>
+<a href="/windows/desktop/WMP/iwmpevents4-syncestimationcomplete">SyncEstimationComplete</a>
 </td>
 <td align="left" width="63%">
-Occurs when a size estimation, previously initiated by <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize">IWMPSyncDevice3::estimateSyncSize</a>, is complete.
+Occurs when a size estimation, previously initiated by <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice3-estimatesyncsize">IWMPSyncDevice3::estimateSyncSize</a>, is complete.
 
 </td>
 </tr>
@@ -80,25 +80,24 @@ Occurs when a size estimation, previously initiated by <a href="https://docs.mic
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/handling-events-in-c">Handling Events in C++</a>
+<a href="/windows/desktop/WMP/handling-events-in-c">Handling Events in C++</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents2">IWMPEvents2 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents2">IWMPEvents2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents3">IWMPEvents3 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents3">IWMPEvents3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents Interface</a>
-
+<a href="/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents Interface</a>

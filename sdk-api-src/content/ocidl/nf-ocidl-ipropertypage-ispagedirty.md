@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Indicates whether the property page has changed since it was activated or since the most recent call to <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-apply">Apply</a>.
+Indicates whether the property page has changed since it was activated or since the most recent call to <a href="/windows/desktop/api/ocidl/nf-ocidl-ipropertypage-apply">Apply</a>.
 
 ## -parameters
 
@@ -67,5 +67,4 @@ This method has no reason to return an error code, since the inability to determ
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>

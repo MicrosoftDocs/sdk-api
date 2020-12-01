@@ -58,7 +58,7 @@ dependency.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmDependency</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmDependency</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmDependency</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IMsmDependency</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,8 +75,8 @@ The <b>IMsmDependency</b> interface has these methods.
 <td align="left" width="37%"><b>get_Language</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-language">Language</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-object">Dependency</a> object.
+<a href="/windows/desktop/Msi/dependency-language">Language</a> property of the 
+<a href="/windows/desktop/Msi/dependency-object">Dependency</a> object.
 
 </td>
 </tr>
@@ -84,8 +84,8 @@ Retrieves the
 <td align="left" width="37%"><b>get_Module</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-module">Module</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-object">Dependency</a> object. 
+<a href="/windows/desktop/Msi/dependency-module">Module</a> property of the 
+<a href="/windows/desktop/Msi/dependency-object">Dependency</a> object. 
 
 </td>
 </tr>
@@ -93,8 +93,8 @@ Retrieves the
 <td align="left" width="37%"><b>get_Version</b></td>
 <td align="left" width="63%">
 Retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-version">Version</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/dependency-object">Dependency</a> object.
+<a href="/windows/desktop/Msi/dependency-version">Version</a> property of the 
+<a href="/windows/desktop/Msi/dependency-object">Dependency</a> object.
 
 </td>
 </tr>
@@ -102,9 +102,8 @@ Retrieves the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

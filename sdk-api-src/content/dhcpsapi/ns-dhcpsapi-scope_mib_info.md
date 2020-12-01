@@ -60,7 +60,7 @@ The <b>SCOPE_MIB_INFO</b> structure defines information about an available scope
 
 ### -field Subnet
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies the subnet mask for this scope.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> value that specifies the subnet mask for this scope.
 
 ### -field NumAddressesInuse
 
@@ -76,9 +76,8 @@ Contains the number of IP addresses currently in the offer state for this scope.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_mib_info">DHCP_MIB_INFO</a>
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_mib_info">DHCP_MIB_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_mib_info_v6">DHCP_MIB_INFO_V6</a>
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_mib_info_v6">DHCP_MIB_INFO_V6</a>

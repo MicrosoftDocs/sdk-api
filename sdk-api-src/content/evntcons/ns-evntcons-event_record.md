@@ -60,11 +60,11 @@ The <b>EVENT_RECORD</b> structure defines the layout of an event that ETW delive
 
 ### -field EventHeader
 
-Information about the event such as the time stamp for when it was written. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> structure.
+Information about the event such as the time stamp for when it was written. For details, see the <a href="/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> structure.
 
 ### -field BufferContext
 
-Defines information such as the session that logged the event. For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/relogger/ns-relogger-etw_buffer_context">ETW_BUFFER_CONTEXT</a> structure.
+Defines information such as the session that logged the event. For details, see the <a href="/windows/desktop/api/relogger/ns-relogger-etw_buffer_context">ETW_BUFFER_CONTEXT</a> structure.
 
 ### -field ExtendedDataCount
 
@@ -76,49 +76,48 @@ The size, in bytes, of the data in the <b>UserData</b> member.
 
 ### -field ExtendedData
 
-One or more extended data items that ETW collects.  The extended data includes some items, such as the security identifier (SID) of the user that logged the event, only if the controller sets the <i>EnableProperty</i> parameter passed to the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> or <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function. The extended data includes other items, such as the related activity identifier and decoding information for trace logging, regardless whether the controller sets the <i>EnableProperty</i> parameter passed to  <b>EnableTraceEx</b> or <b>EnableTraceEx2</b>.  For details, see the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a> structure .
+One or more extended data items that ETW collects.  The extended data includes some items, such as the security identifier (SID) of the user that logged the event, only if the controller sets the <i>EnableProperty</i> parameter passed to the <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> or <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function. The extended data includes other items, such as the related activity identifier and decoding information for trace logging, regardless whether the controller sets the <i>EnableProperty</i> parameter passed to  <b>EnableTraceEx</b> or <b>EnableTraceEx2</b>.  For details, see the <a href="/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a> structure .
 
 ### -field UserData
 
-Event specific data. To parse this data, see <a href="https://docs.microsoft.com/windows/desktop/ETW/retrieving-event-data-using-tdh">Retrieving Event Data Using TDH</a>. If the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> contains  <b>EVENT_HEADER_FLAG_STRING_ONLY</b>, the data is a null-terminated Unicode string that you do not need TDH to parse.
+Event specific data. To parse this data, see <a href="/windows/desktop/ETW/retrieving-event-data-using-tdh">Retrieving Event Data Using TDH</a>. If the <b>Flags</b> member of <a href="/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> contains  <b>EVENT_HEADER_FLAG_STRING_ONLY</b>, the data is a null-terminated Unicode string that you do not need TDH to parse.
 
 ### -field UserContext
 
-Th context specified in the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure that is passed to the <a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function.
+Th context specified in the <b>Context</b> member of the <a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a> structure that is passed to the <a href="/windows/desktop/ETW/opentrace">OpenTrace</a> function.
 
 ## -remarks
 
-The <b>EVENT_RECORD</b> structure is passed to the consumer's implementation of the <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback .
+The <b>EVENT_RECORD</b> structure is passed to the consumer's implementation of the <a href="/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> callback .
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/ns-relogger-etw_buffer_context">ETW_BUFFER_CONTEXT</a>
+<a href="/windows/desktop/api/relogger/ns-relogger-etw_buffer_context">ETW_BUFFER_CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a>
+<a href="/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
+<a href="/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
+<a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
+<a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
+<a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a>
+<a href="/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a>
-
+<a href="/windows/desktop/ETW/opentrace">OpenTrace</a>

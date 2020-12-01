@@ -56,31 +56,30 @@ The <b>CertVerifyTimeValidity</b> function verifies the time validity of a certi
 
 ### -param pTimeToVerify [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure containing the comparison time. If <b>NULL</b>, the current time is used.
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure containing the comparison time. If <b>NULL</b>, the current time is used.
 
 ### -param pCertInfo [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure of the certificate for which the time is being verified.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure of the certificate for which the time is being verified.
 
 ## -returns
 
 Returns a minus one if the comparison time is before the <b>NotBefore</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure. Returns a plus one if the comparison time is after the <b>NotAfter</b> member. Returns zero for valid time for the certificate.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_info">CERT_INFO</a> structure. Returns a plus one if the comparison time is after the <b>NotAfter</b> member. Returns zero for valid time for the certificate.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrlrevocation">CertVerifyCRLRevocation</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrlrevocation">CertVerifyCRLRevocation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrltimevalidity">CertVerifyCRLTimeValidity</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycrltimevalidity">CertVerifyCRLTimeValidity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifyvaliditynesting">CertVerifyValidityNesting</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyvaliditynesting">CertVerifyValidityNesting</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Management Functions</a>

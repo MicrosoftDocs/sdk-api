@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PeerGraphShutdown</b> function cleans up any resources allocated by the call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>.  There must be a call to <b>PeerGraphShutdown</b> for each call to <b>PeerGraphStartup</b>.
+The <b>PeerGraphShutdown</b> function cleans up any resources allocated by the call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>.  There must be a call to <b>PeerGraphShutdown</b> for each call to <b>PeerGraphStartup</b>.
 
 ## -parameters
 
@@ -70,7 +70,7 @@ Returns S_OK if the operation succeeds; otherwise, the function returns the one 
 </dl>
 </td>
 <td width="60%">
-The peer graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
+The peer graph must be  initialized with a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -82,5 +82,4 @@ When the last <b>PeerGraphShutdown</b> is called for a peer graph, all the opene
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>

@@ -64,13 +64,12 @@ The collection of servers in the RADIUS server group.
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties">IASPROPERTIES</a> enumeration type contains the value PROPERTY_IAS_RADIUSSERVERGROUPS_COLLECTION, which corresponds to the collection of RADIUS server groups.
+<a href="/windows/desktop/api/sdoias/ne-sdoias-iasproperties">IASPROPERTIES</a> enumeration type contains the value PROPERTY_IAS_RADIUSSERVERGROUPS_COLLECTION, which corresponds to the collection of RADIUS server groups.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties">IASPROPERTIES</a>
-
+<a href="/windows/desktop/api/sdoias/ne-sdoias-iasproperties">IASPROPERTIES</a>

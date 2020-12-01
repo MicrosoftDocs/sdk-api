@@ -57,7 +57,7 @@ The <code>get_AvgTimePerFrame</code> method retrieves the average time between s
 
 ### -param pAvgTimePerFrame [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reftime">REFTIME</a> that receives the average frame time, in seconds.
+Pointer to a variable of type <a href="/windows/desktop/DirectShow/reftime">REFTIME</a> that receives the average frame time, in seconds.
 
 ## -returns
 
@@ -67,13 +67,12 @@ Returns an <b>HRESULT</b> value.
 
 This method returns the authored time per frame. This value is typically set by the source filter, which obtains it from information in the video stream itself. This value is not necessarily equal to the actual time per frame at which the video is rendered.
 
-To retrieve the actual frame rate during playback, use the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-iqualprop-get_avgframerate">IQualProp::get_AvgFrameRate</a>. For more information on actual versus authored frame rates, see the Remarks section for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
+To retrieve the actual frame rate during playback, use the <a href="/previous-versions/ms786607(v=vs.85)">IQualProp::get_AvgFrameRate</a>. For more information on actual versus authored frame rates, see the Remarks section for the <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>

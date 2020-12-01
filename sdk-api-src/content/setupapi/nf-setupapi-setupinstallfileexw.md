@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>SetupInstallFileEx</b> function installs a file as specified either by an 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-infcontext">INFCONTEXT</a> returned by SetupFindXXXLine or explicitly by the filename and path information. This function is the same as 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfilea">SetupInstallFile</a>, except that a <b>BOOL</b> is returned that indicates whether  the file was in use.
+<a href="/windows/desktop/api/setupapi/ns-setupapi-infcontext">INFCONTEXT</a> returned by SetupFindXXXLine or explicitly by the filename and path information. This function is the same as 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfilea">SetupInstallFile</a>, except that a <b>BOOL</b> is returned that indicates whether  the file was in use.
 
 If a file is copied, the caller of this function is required to have privileges to write into the target directory.
 
@@ -130,7 +130,7 @@ Examine each file being copied to see if its version resources indicate that it 
 
 
 The file version information used during version checks is that specified in the <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
+<a href="/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
 If the source file is not newer or equal in version, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
 
@@ -275,9 +275,9 @@ Pointer to a variable in which this function returns a flag that indicates wheth
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns NO_ERROR, the file copy operation was not completed. The file may not have been copied because the file copy operation was unnecessary or because the file callback function returned <b>FALSE</b>.
+If <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns NO_ERROR, the file copy operation was not completed. The file may not have been copied because the file copy operation was unnecessary or because the file callback function returned <b>FALSE</b>.
 
 ## -remarks
 
@@ -295,33 +295,32 @@ If a UNC directory is specified as the target directory of a file installation, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupclosefilequeue">SetupCloseFileQueue</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupclosefilequeue">SetupCloseFileQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfilea">SetupInstallFile</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfilea">SetupInstallFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopenfilequeue">SetupOpenFileQueue</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupopenfilequeue">SetupOpenFileQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setuppromptreboot">SetupPromptReboot</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setuppromptreboot">SetupPromptReboot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueuecopya">SetupQueueCopy</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueuecopya">SetupQueueCopy</a>

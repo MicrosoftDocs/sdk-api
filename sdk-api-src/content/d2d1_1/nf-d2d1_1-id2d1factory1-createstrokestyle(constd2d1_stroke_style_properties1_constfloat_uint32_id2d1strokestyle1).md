@@ -50,31 +50,31 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a> object.
+Creates a <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a> object.
 
 ## -parameters
 
 ### -param strokeStyleProperties [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_stroke_style_properties1">D2D1_STROKE_STYLE_PROPERTIES1</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_stroke_style_properties1">D2D1_STROKE_STYLE_PROPERTIES1</a>*</b>
 
 The stroke style properties to apply.
 
 ### -param dashes [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-abcfloat">FLOAT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/wingdi/ns-wingdi-abcfloat">FLOAT</a>*</b>
 
 An array of widths for the dashes and gaps.
 
 ### -param dashesCount
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_uint64_description">UINT</a></b>
+Type: <b><a href="/windows/desktop/api/webservices/ns-webservices-ws_uint64_description">UINT</a></b>
 
 The size of the dash array.
 
 ### -param strokeStyle [out]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a>**</b>
+Type: <b>const <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a>**</b>
 
 When this method returns, contains the address of a pointer to the  newly created stroke style.
 
@@ -109,9 +109,8 @@ It is valid to specify a dash array only if D2D1_DASH_STYLE_CUSTOM is also speci
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a>

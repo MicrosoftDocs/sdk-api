@@ -64,11 +64,11 @@ The number of reserved resource regions.
 
 ### -param pResourceRegionStartCoordinates [in, optional]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_tiled_resource_coordinate">D3D12_TILED_RESOURCE_COORDINATE</a> structures that describe the starting coordinates of the reserved resource regions. The <i>NumResourceRegions</i> parameter specifies the number of <b>D3D12_TILED_RESOURCE_COORDINATE</b> structures in the array.
+An array of <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_tiled_resource_coordinate">D3D12_TILED_RESOURCE_COORDINATE</a> structures that describe the starting coordinates of the reserved resource regions. The <i>NumResourceRegions</i> parameter specifies the number of <b>D3D12_TILED_RESOURCE_COORDINATE</b> structures in the array.
 
 ### -param pResourceRegionSizes [in, optional]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_tile_region_size">D3D12_TILE_REGION_SIZE</a> structures that describe the sizes of the reserved resource regions. The <i>NumResourceRegions</i> parameter specifies the number of <b>D3D12_TILE_REGION_SIZE</b> structures in the array.
+An array of <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_tile_region_size">D3D12_TILE_REGION_SIZE</a> structures that describe the sizes of the reserved resource regions. The <i>NumResourceRegions</i> parameter specifies the number of <b>D3D12_TILE_REGION_SIZE</b> structures in the array.
 
 ### -param pHeap [in, optional]
 
@@ -80,7 +80,7 @@ The number of tile  ranges.
 
 ### -param pRangeFlags [in, optional]
 
-A pointer to an  array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_tile_range_flags">D3D12_TILE_RANGE_FLAGS</a> values that describes each tile range. The <i>NumRanges</i> parameter specifies the number of values in the array.
+A pointer to an  array of <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_tile_range_flags">D3D12_TILE_RANGE_FLAGS</a> values that describes each tile range. The <i>NumRanges</i> parameter specifies the number of values in the array.
 
 ### -param pHeapRangeStartOffsets [in, optional]
 
@@ -93,11 +93,11 @@ An array of tiles.
 
 ### -param Flags
 
-A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_tile_mapping_flags">D3D12_TILE_MAPPING_FLAGS</a> values that are combined by using a bitwise OR operation.
+A combination of <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_tile_mapping_flags">D3D12_TILE_MAPPING_FLAGS</a> values that are combined by using a bitwise OR operation.
 
 ## -remarks
 
-Use <b>UpdateTileMappings</b> to map the virtual pages of a reserved resource to the physical pages of a heap. The mapping does not have to be in order. The operation is similar to  <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nf-d3d11_2-id3d11devicecontext2-updatetilemappings">ID3D11DeviceContext2::UpdateTileMappings</a> with the one key difference that D3D12 allows a reserved resource to have tiles from multiple heaps.
+Use <b>UpdateTileMappings</b> to map the virtual pages of a reserved resource to the physical pages of a heap. The mapping does not have to be in order. The operation is similar to  <a href="/windows/desktop/api/d3d11_2/nf-d3d11_2-id3d11devicecontext2-updatetilemappings">ID3D11DeviceContext2::UpdateTileMappings</a> with the one key difference that D3D12 allows a reserved resource to have tiles from multiple heaps.
 
 In a single call to <b>UpdateTileMappings</b>, you can map one or more ranges of resource tiles to one or more ranges of heap tiles. 
       
@@ -139,7 +139,7 @@ The updates are applied from first region to last; so, if regions overlap in a s
 </ul>
 </li>
 </ul>
-Reserved resources must follow the same rules for tile aliasing, initialization, and data inheritance as placed resources. See <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a> for more details.
+Reserved resources must follow the same rules for tile aliasing, initialization, and data inheritance as placed resources. See <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource">CreatePlacedResource</a> for more details.
 
 Here are some examples of common <b>UpdateTileMappings</b> cases:
       
@@ -151,13 +151,13 @@ The examples reference the following structures and enums:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_tiled_resource_coordinate">D3D12_TILED_RESOURCE_COORDINATE</a>
+<a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_tiled_resource_coordinate">D3D12_TILED_RESOURCE_COORDINATE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_tile_region_size">D3D12_TILE_REGION_SIZE</a>
+<a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_tile_region_size">D3D12_TILE_REGION_SIZE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_tile_range_flags">D3D12_TILE_RANGE_FLAGS</a>
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_tile_range_flags">D3D12_TILE_RANGE_FLAGS</a>
 </li>
 </ul>
 Clearing an entire surface's mappings to NULL
@@ -329,13 +329,12 @@ HeapRangeStartOffsets,RangeTileCounts,D3D12_TILE_MAPPING_FLAG_NONE);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-copytilemappings">CopyTileMappings</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-copytilemappings">CopyTileMappings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12commandqueue">ID3D12CommandQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/volume-tiled-resources">Volume Tiled Resources</a>
-
+<a href="/windows/desktop/direct3d12/volume-tiled-resources">Volume Tiled Resources</a>

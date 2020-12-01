@@ -60,7 +60,7 @@ The <b>AuditEnumerateCategories</b> function enumerates the available audit-poli
 
 A pointer to a single buffer that contains both an array of pointers to <b>GUID</b> structures and the structures themselves. The <b>GUID</b> structures specify the audit-policy categories available on the computer. 
 
-When you have finished using this buffer, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditfree">AuditFree</a> function.
+When you have finished using this buffer, free it by calling the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditfree">AuditFree</a> function.
 
 ### -param pdwCountReturned [out]
 
@@ -71,9 +71,8 @@ A pointer to the number of elements in the <i>ppAuditCategoriesArray</i> array.
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditenumeratesubcategories">AuditEnumerateSubCategories</a>
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditenumeratesubcategories">AuditEnumerateSubCategories</a>

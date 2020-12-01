@@ -60,7 +60,7 @@ Specifies the number of elements to obtain.
 
 ### -param rgContext [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
+Pointer to an array of <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface pointers that receives the requested objects. This array must be at least <i>ulCount</i> elements in size.
 
 ### -param pcFetched [out]
 
@@ -113,4 +113,3 @@ The method reached the end of the enumeration before the specified number of ele
 ## -see-also
 
 [IEnumTfContexts interface](nn-msctf-ienumtfcontexts.md), [ITfContext interface](nn-msctf-itfcontext.md)
-

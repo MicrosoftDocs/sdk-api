@@ -55,14 +55,14 @@ api_name:
 The 
 <b>EnumerateTraceGuids</b> function retrieves information about registered event trace providers that are running on the computer. 
 		
-<div class="alert"><b>Note</b>  This function has been superseded by <a href="https://docs.microsoft.com/windows/desktop/ETW/enumeratetraceguidsex">EnumerateTraceGuidsEx</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has been superseded by <a href="/windows/desktop/ETW/enumeratetraceguidsex">EnumerateTraceGuidsEx</a>.</div><div> </div>
 
 ## -parameters
 
 ### -param GuidPropertiesArray [in, out]
 
 An array of pointers to 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/trace-guid-properties">TRACE_GUID_PROPERTIES</a> structures.
+<a href="/windows/desktop/ETW/trace-guid-properties">TRACE_GUID_PROPERTIES</a> structures.
 
 ### -param PropertyArrayCount [in]
 
@@ -78,7 +78,7 @@ If the function succeeds, the return value is ERROR_SUCCESS.
 						
 
 If the function fails, the return value is one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
+<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
 
 <table>
 <tr>
@@ -118,9 +118,9 @@ The property array is too small to receive information for all registered provid
 Event trace controllers call this function.
 
 For information on registering event trace providers, see 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>.
+<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>.
 
-You can use the <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-guid-properties">TRACE_GUID_PROPERTIES.LoggerId</a> member to determine which session enabled the provider if <b>TRACE_GUID_PROPERTIES.IsEnable</b> is <b>TRUE</b>.
+You can use the <a href="/windows/desktop/ETW/trace-guid-properties">TRACE_GUID_PROPERTIES.LoggerId</a> member to determine which session enabled the provider if <b>TRACE_GUID_PROPERTIES.IsEnable</b> is <b>TRUE</b>.
 
 The list will not include kernel providers.
 
@@ -318,17 +318,16 @@ cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enumeratetraceguidsex">EnumerateTraceGuidsEx</a>
+<a href="/windows/desktop/ETW/enumeratetraceguidsex">EnumerateTraceGuidsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/queryalltraces">QueryAllTraces</a>
+<a href="/windows/desktop/ETW/queryalltraces">QueryAllTraces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>
+<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/trace-guid-properties">TRACE_GUID_PROPERTIES</a>
-
+<a href="/windows/desktop/ETW/trace-guid-properties">TRACE_GUID_PROPERTIES</a>

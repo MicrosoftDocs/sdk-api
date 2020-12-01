@@ -56,21 +56,21 @@ Gets the entire list of access rights and/or the owner and group for the specifi
 
 ### -param lpProperty [in]
 
-The name of the property. If you are using the COM implementation of <a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this parameter must be <b>NULL</b>.
+The name of the property. If you are using the COM implementation of <a href="/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>, this parameter must be <b>NULL</b>.
 
 ### -param ppAccessList [out]
 
-The address of the pointer variable that receives a pointer to the access list structure. This parameter cannot be [ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a).
+The address of the pointer variable that receives a pointer to the access list structure. This parameter cannot be [ACTRL_ACCESS](../accctrl/ns-accctrl-explicit_access_a.md).
 
-If the call succeeds, the caller must free the allocated memory with the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function. Note that the memory is allocate(all_nodes), which means that all the substructures are allocated in one block. Therefore, the entire data structure must be freed by a single call to <b>CoTaskMemFree</b>.
+If the call succeeds, the caller must free the allocated memory with the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function. Note that the memory is allocate(all_nodes), which means that all the substructures are allocated in one block. Therefore, the entire data structure must be freed by a single call to <b>CoTaskMemFree</b>.
 
 ### -param ppOwner [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure that receives the owner information. If this parameter is not <b>NULL</b> and the function succeeds, the caller must free the memory with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+A pointer to a <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure that receives the owner information. If this parameter is not <b>NULL</b> and the function succeeds, the caller must free the memory with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ### -param ppGroup [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure that receives the group information. If this parameter is not <b>NULL</b> and the function succeeds, the caller must free the memory with <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+A pointer to a <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure that receives the group information. If this parameter is not <b>NULL</b> and the function succeeds, the caller must free the memory with <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -78,9 +78,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-[ACTRL_ACCESS](/windows/win32/api/accctrl/ns-accctrl-explicit_access_a)
+[ACTRL_ACCESS](../accctrl/ns-accctrl-explicit_access_a.md)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>
-
+<a href="/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>

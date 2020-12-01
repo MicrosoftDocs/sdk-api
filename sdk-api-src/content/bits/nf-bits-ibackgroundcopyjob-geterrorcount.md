@@ -72,5 +72,4 @@ BITS also increases the count each time it tries to transfer the job when the jo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-geterror">IBackgroundCopyJob::GetError</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-geterror">IBackgroundCopyJob::GetError</a>

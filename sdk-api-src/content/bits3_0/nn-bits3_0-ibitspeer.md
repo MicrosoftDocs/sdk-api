@@ -53,12 +53,12 @@ api_name:
 
 Use <b>IBitsPeer</b> to get information about a peer in the neighborhood. 
 
-To get this  interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ienumbitspeers-next">IEnumBitsPeers::Next</a> method. 
+To get this  interface, call the <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ienumbitspeers-next">IEnumBitsPeers::Next</a> method. 
 <div class="alert"><b>Note</b>  This interface is deprecated in BITS 4.0, and all of the API methods will return <b>S_FALSE</b>.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitsPeer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBitsPeer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitsPeer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBitsPeer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IBitsPeer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeer-getpeername">GetPeerName</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeer-getpeername">GetPeerName</a>
 </td>
 <td align="left" width="63%">
 Gets the server principal name that uniquely identifies the peer.
@@ -82,7 +82,7 @@ Gets the server principal name that uniquely identifies the peer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeer-isauthenticated">IsAuthenticated</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeer-isauthenticated">IsAuthenticated</a>
 </td>
 <td align="left" width="63%">
 Determines whether the peer is authenticated.
@@ -91,7 +91,7 @@ Determines whether the peer is authenticated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeer-isavailable">IsAvailable</a>
+<a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeer-isavailable">IsAvailable</a>
 </td>
 <td align="left" width="63%">
 Determines whether the peer is available (online) to serve content.
@@ -102,9 +102,8 @@ Determines whether the peer is available (online) to serve content.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacheadministration">IBitsPeerCacheAdministration</a>
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacheadministration">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeers">IEnumBitsPeers</a>
-
+<a href="/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeers">IEnumBitsPeers</a>

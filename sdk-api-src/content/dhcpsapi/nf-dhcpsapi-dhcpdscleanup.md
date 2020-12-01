@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-The <b>DhcpDsCleanup</b> function frees up directory service resources allocated for DHCP services by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdsinit">DhcpDsInit</a>. This function should be called exactly once for each corresponding DHCP service process, and only when the process is terminated.
+The <b>DhcpDsCleanup</b> function frees up directory service resources allocated for DHCP services by <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdsinit">DhcpDsInit</a>. This function should be called exactly once for each corresponding DHCP service process, and only when the process is terminated.
 
 ## -parameters
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdsinit">DhcpDsInit</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpdsinit">DhcpDsInit</a>

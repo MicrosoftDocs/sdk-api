@@ -56,7 +56,7 @@ Opens a word wheel.
 
 ### -param lpITDB [in]
 
-Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitdatabase">database object</a>.
+Pointer to <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitdatabase">database object</a>.
 
 ### -param lpszMoniker [in]
 
@@ -127,7 +127,7 @@ Word wheel is already open.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitdatabase">IITDatabase</a>* interface or <i>lpszMoniker</i> parameter was NULL.
+The <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitdatabase">IITDatabase</a>* interface or <i>lpszMoniker</i> parameter was NULL.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/in
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface errors that can occur as storage is opened.
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface errors that can occur as storage is opened.
 
 </td>
 </tr>
@@ -147,5 +147,4 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitwordwheel">IITWordWheel</a>
-
+<a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitwordwheel">IITWordWheel</a>

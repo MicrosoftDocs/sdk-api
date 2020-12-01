@@ -82,13 +82,12 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols">IWMPControls Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentpositionstring">IWMPControls::get_currentPositionString</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentpositionstring">IWMPControls::get_currentPositionString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentposition">IWMPControls::put_currentPosition</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentposition">IWMPControls::put_currentPosition</a>

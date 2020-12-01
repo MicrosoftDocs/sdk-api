@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Specifies keystroke data returned by <a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetkeystroke">XInputGetKeystroke</a>.
+Specifies keystroke data returned by <a href="/windows/desktop/api/xinput/nf-xinput-xinputgetkeystroke">XInputGetKeystroke</a>.
 
 ## -struct-fields
 
@@ -256,5 +256,4 @@ The valid virtual-key (VK_xxx) codes are defined in XInput.h. In addition to cod
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetkeystroke">XInputGetKeystroke</a>
-
+<a href="/windows/desktop/api/xinput/nf-xinput-xinputgetkeystroke">XInputGetKeystroke</a>

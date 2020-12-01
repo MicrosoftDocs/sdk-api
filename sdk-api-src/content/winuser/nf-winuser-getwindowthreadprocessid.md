@@ -53,6 +53,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - GetWindowThreadProcessId
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetWindowThreadProcessId function
@@ -84,5 +85,4 @@ The return value is the identifier of the thread that created the window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows Overview</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows Overview</a>

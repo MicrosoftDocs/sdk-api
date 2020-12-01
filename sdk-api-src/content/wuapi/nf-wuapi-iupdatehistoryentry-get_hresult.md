@@ -59,13 +59,12 @@ This property is read-only.
 
 ## -remarks
 
-The returned value is a mapped exception code. To retrieve the actual exception code, use the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_unmappedresultcode">UnmappedResultCode</a> property.
+The returned value is a mapped exception code. To retrieve the actual exception code, use the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_unmappedresultcode">UnmappedResultCode</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_unmappedresultcode">UnmappedResultCode</a>
-
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatehistoryentry-get_unmappedresultcode">UnmappedResultCode</a>

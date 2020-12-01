@@ -54,7 +54,7 @@ The <b>IInstallationJob</b> interface contains properties and methods that are a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInstallationJob</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IInstallationJob</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInstallationJob</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IInstallationJob</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IInstallationJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationjob-cleanup">CleanUp</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iinstallationjob-cleanup">CleanUp</a>
 </td>
 <td align="left" width="63%">
 Waits for an asynchronous operation to be completed and then releases all the callbacks.
@@ -79,16 +79,16 @@ Waits for an asynchronous operation to be completed and then releases all the ca
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationjob-getprogress">GetProgress</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iinstallationjob-getprogress">GetProgress</a>
 </td>
 <td align="left" width="63%">
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogress">IInstallationProgress</a> interface that describes the current progress of an installation or uninstallation.
+Returns an <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogress">IInstallationProgress</a> interface that describes the current progress of an installation or uninstallation.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationjob-requestabort">RequestAbort</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iinstallationjob-requestabort">RequestAbort</a>
 </td>
 <td align="left" width="63%">
 Makes a request to cancel an installation or uninstallation.
@@ -106,7 +106,7 @@ Makes a request to cancel an installation or uninstallation.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationjob-get_asyncstate">AsyncState</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iinstallationjob-get_asyncstate">AsyncState</a>
 
 
 </td>
@@ -115,14 +115,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the caller-specific state object that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller.BeginInstall</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-beginuninstall">IUpdateInstaller.BeginUninstall</a> method.
+Gets the caller-specific state object that is passed to the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller.BeginInstall</a> or <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-beginuninstall">IUpdateInstaller.BeginUninstall</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationjob-get_iscompleted">IsCompleted</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iinstallationjob-get_iscompleted">IsCompleted</a>
 
 
 </td>
@@ -131,14 +131,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets a value that indicates whether a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller.BeginInstall</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-beginuninstall">IUpdateInstaller.BeginUninstall</a> method is completely processed.
+Gets a value that indicates whether a call to the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller.BeginInstall</a> or <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-beginuninstall">IUpdateInstaller.BeginUninstall</a> method is completely processed.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iinstallationjob-get_updates">Updates</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iinstallationjob-get_updates">Updates</a>
 
 
 </td>
@@ -152,4 +152,3 @@ Gets an interface that contains a read-only collection of the updates that are s
 </td>
 </tr>
 </table>
-

@@ -86,7 +86,7 @@ The report that <b>EnclaveGetAttestationReport</b> generates consists of the fol
 
 <ul>
 <li>
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_pkg_header">VBS_ENCLAVE_REPORT_PKG_HEADER</a> structure
+A <a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_pkg_header">VBS_ENCLAVE_REPORT_PKG_HEADER</a> structure
 
 </li>
 <li>
@@ -94,15 +94,15 @@ A signed statement that consist of the following items:
 
 <ul>
 <li>
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report">VBS_ENCLAVE_REPORT</a> structure
+A <a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report">VBS_ENCLAVE_REPORT</a> structure
 
 </li>
 <li>
 Zero or more variable data blocks that consist of the following items:
 
 <ul>
-<li>A <a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_vardata_header">VBS_ENCLAVE_REPORT_VARDATA_HEADER</a> structure</li>
-<li>Data described by the <a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_vardata_header">VBS_ENCLAVE_REPORT_VARDATA_HEADER</a> structure</li>
+<li>A <a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_vardata_header">VBS_ENCLAVE_REPORT_VARDATA_HEADER</a> structure</li>
+<li>Data described by the <a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_vardata_header">VBS_ENCLAVE_REPORT_VARDATA_HEADER</a> structure</li>
 </ul>
 </li>
 </ul>
@@ -113,17 +113,16 @@ The enclave attestation report provide proof that specific code is running with 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclaveverifyattestationreport">EnclaveVerifyAttestationReport</a>
+<a href="/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclaveverifyattestationreport">EnclaveVerifyAttestationReport</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report">VBS_ENCLAVE_REPORT</a>
+<a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report">VBS_ENCLAVE_REPORT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_pkg_header">VBS_ENCLAVE_REPORT_PKG_HEADER</a>
+<a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_pkg_header">VBS_ENCLAVE_REPORT_PKG_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_vardata_header">VBS_ENCLAVE_REPORT_VARDATA_HEADER</a>
-
+<a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_vardata_header">VBS_ENCLAVE_REPORT_VARDATA_HEADER</a>

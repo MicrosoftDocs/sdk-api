@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Test the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) for intersection with a plane.
+Test the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) for intersection with a plane.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ A vector describing the plane.
 
 ## -returns
 
-A <a href="https://msdn.microsoft.com/66191FCC-F0A0-4435-86A9-0662A5E36D83">PlaneIntersectionType</a> value indicating the intersection status.
+A <a href="/windows/win32/api/directxcollision/ne-directxcollision-planeintersectiontype">PlaneIntersectionType</a> value indicating the intersection status.
 
 ## -remarks
 
@@ -68,7 +68,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
+[BoundingFrustum](./ns-directxcollision-boundingfrustum.md)
 
 
 
@@ -77,4 +77,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

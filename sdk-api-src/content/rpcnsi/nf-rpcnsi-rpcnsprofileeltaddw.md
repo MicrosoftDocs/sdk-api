@@ -167,7 +167,7 @@ The name service is unavailable.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -175,7 +175,7 @@ The name service is unavailable.
 The 
 <b>RpcNsProfileEltAdd</b> function adds an element to the profile attribute of the name-service entry specified by <i>ProfileName</i>. If the <i>ProfileName</i> entry does not exist, 
 <b>RpcNsProfileEltAdd</b> tries to create the entry with a profile attribute and adds the profile element specified by the <i>IfId</i>, <i>MemberName</i>, <i>Priority</i>, and <i>Annotation</i> parameters. In this case, the application must have the privilege to create the entry. Otherwise, a management application with the necessary privileges should create the entry by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a> function before the application is run.
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a> function before the application is run.
 
 If an element with the specified member name and interface identification is already in the profile, 
 <b>RpcNsProfileEltAdd</b> updates the element's priority and annotation string using the values provided in the <i>Priority</i> and <i>Annotation</i> parameters.
@@ -191,13 +191,12 @@ If an element with the specified member name and interface identification is alr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcifinqid">RpcIfInqId</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcifinqid">RpcIfInqId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltremovea">RpcNsProfileEltRemove</a>
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltremovea">RpcNsProfileEltRemove</a>

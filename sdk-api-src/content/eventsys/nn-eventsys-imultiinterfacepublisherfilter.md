@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Manages a filtered subscription cache for an event method. Only subscribers who meet the criteria specified by the filter are notified when the associated event is fired. The <b>IMultiInterfacePublisherFilter</b> interface differs from the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ipublisherfilter">IPublisherFilter</a> interface in that it supports multiple event interfaces for the event object.
+Manages a filtered subscription cache for an event method. Only subscribers who meet the criteria specified by the filter are notified when the associated event is fired. The <b>IMultiInterfacePublisherFilter</b> interface differs from the <a href="/windows/desktop/api/eventsys/nn-eventsys-ipublisherfilter">IPublisherFilter</a> interface in that it supports multiple event interfaces for the event object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiInterfacePublisherFilter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiInterfacePublisherFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiInterfacePublisherFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiInterfacePublisherFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMultiInterfacePublisherFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfacepublisherfilter-initialize">Initialize</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-imultiinterfacepublisherfilter-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Associates an event class with a publisher filter.
@@ -78,7 +78,7 @@ Associates an event class with a publisher filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfacepublisherfilter-preparetofire">PrepareToFire</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-imultiinterfacepublisherfilter-preparetofire">PrepareToFire</a>
 </td>
 <td align="left" width="63%">
 Prepares the publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.
@@ -86,4 +86,3 @@ Prepares the publisher filter to begin firing a filtered list of subscriptions u
 </td>
 </tr>
 </table>
-

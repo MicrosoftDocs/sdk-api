@@ -111,5 +111,4 @@ Specifies whether the Message-Authenticator attribute of <a href="https://www.ie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
-
+<a href="/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>

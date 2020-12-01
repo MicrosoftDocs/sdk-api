@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectinputconnector">IMILBitmapEffectInputConnector</a> associated with the output connector.
+Gets the <a href="/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectinputconnector">IMILBitmapEffectInputConnector</a> associated with the output connector.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ The index of the desired input connector.
 
 ### -param ppConnection [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectinputconnector">IMILBitmapEffectInputConnector</a>**</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectinputconnector">IMILBitmapEffectInputConnector</a>**</b>
 
 A pointer that receives a pointer to the associated input connector.
 
@@ -71,4 +71,3 @@ A pointer that receives a pointer to the associated input connector.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

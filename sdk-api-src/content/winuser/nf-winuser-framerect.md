@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
  - FrameRect
+req.apiset: ext-ms-win-ntuser-gui-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # FrameRect function
@@ -78,40 +79,39 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-The brush identified by the <i>hbr</i> parameter must have been created by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush">CreateHatchBrush</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpatternbrush">CreatePatternBrush</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush">CreateSolidBrush</a> function, or retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getstockobject">GetStockObject</a> function.
+The brush identified by the <i>hbr</i> parameter must have been created by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush">CreateHatchBrush</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-createpatternbrush">CreatePatternBrush</a>, or <a href="/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush">CreateSolidBrush</a> function, or retrieved by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-getstockobject">GetStockObject</a> function.
 
 If the <b>bottom</b> member of the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure is less than the <b>top</b> member, or if the <b>right</b> member is less than the <b>left</b> member, the function does not draw the rectangle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush">CreateHatchBrush
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createhatchbrush">CreateHatchBrush
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpatternbrush">CreatePatternBrush
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpatternbrush">CreatePatternBrush
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush">CreateSolidBrush
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush">CreateSolidBrush
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
+<a href="/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
+<a href="/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getstockobject">GetStockObject
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getstockobject">GetStockObject
       </a>
 
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT
       </a>
-

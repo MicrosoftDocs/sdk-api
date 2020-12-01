@@ -56,9 +56,9 @@ Retrieves the color table for indexed pixel formats.
 
 ### -param pIPalette [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a>*</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a>. A palette can be created using the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createpalette">CreatePalette</a> method.
+An <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicpalette">IWICPalette</a>. A palette can be created using the <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createpalette">CreatePalette</a> method.
 
 ## -returns
 
@@ -97,6 +97,5 @@ The palette was successfully copied.
 
 ## -remarks
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> is an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a>, the function may return the image's global palette if a frame-level palette is not available.
-            The global palette may also be retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-copypalette">CopyPalette</a> method.
-
+If the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> is an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a>, the function may return the image's global palette if a frame-level palette is not available.
+            The global palette may also be retrieved using the <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapdecoder-copypalette">CopyPalette</a> method.

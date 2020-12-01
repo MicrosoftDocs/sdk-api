@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Sets or removes the password character for an edit or rich edit control. When a password character is set, that character is displayed in place of the characters typed by the user. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setpasswordchar">EM_SETPASSWORDCHAR</a> message explicitly.
+Sets or removes the password character for an edit or rich edit control. When a password character is set, that character is displayed in place of the characters typed by the user. You can use this macro or send the <a href="/windows/desktop/Controls/em-setpasswordchar">EM_SETPASSWORDCHAR</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param ch
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The character to be displayed in place of the characters typed by the user. If this parameter is zero, the control removes the current password character and displays the characters typed by the user.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setpasswordchar">EM_SETPASSWORDCHAR</a>.
-
+For more information, see <a href="/windows/desktop/Controls/em-setpasswordchar">EM_SETPASSWORDCHAR</a>.

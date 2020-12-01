@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>DS_SPN_NAME_TYPE</b> enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSPN</a> function to identify the format for composing SPNs.
+The <b>DS_SPN_NAME_TYPE</b> enumeration is used by the <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSPN</a> function to identify the format for composing SPNs.
 
 ## -enum-fields
 
@@ -134,9 +134,8 @@ products.fabrikam.com
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSPN</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSPN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
-
+<a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>

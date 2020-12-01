@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>PRIVILEGE_SET</b> structure specifies a set of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">privileges</a>. It is also used to indicate which, if any, privileges are held by a user or group requesting access to an object.
+The <b>PRIVILEGE_SET</b> structure specifies a set of <a href="/windows/desktop/SecGloss/p-gly">privileges</a>. It is also used to indicate which, if any, privileges are held by a user or group requesting access to an object.
 
 ## -struct-fields
 
@@ -64,12 +64,12 @@ Specifies the number of privileges in the privilege set.
 
 ### -field Control
 
-Specifies a control flag related to the privileges. The PRIVILEGE_SET_ALL_NECESSARY control flag is currently defined. It indicates that all of the specified privileges must be held by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> requesting access. If this flag is not set, the presence of any privileges in the user's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> grants the access.
+Specifies a control flag related to the privileges. The PRIVILEGE_SET_ALL_NECESSARY control flag is currently defined. It indicates that all of the specified privileges must be held by the <a href="/windows/desktop/SecGloss/p-gly">process</a> requesting access. If this flag is not set, the presence of any privileges in the user's <a href="/windows/desktop/SecGloss/a-gly">access token</a> grants the access.
 
 ### -field Privilege
 
 Specifies an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid_and_attributes">LUID_AND_ATTRIBUTES</a> structures describing the set's privileges. The following attributes are defined for privileges. 
+<a href="/windows/desktop/api/winnt/ns-winnt-luid_and_attributes">LUID_AND_ATTRIBUTES</a> structures describing the set's privileges. The following attributes are defined for privileges. 
 
 
 
@@ -119,13 +119,12 @@ A privilege is used to control access to an object or service more strictly than
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid_and_attributes">LUID_AND_ATTRIBUTES</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-luid_and_attributes">LUID_AND_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-privilegecheck">PrivilegeCheck</a>
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-privilegecheck">PrivilegeCheck</a>

@@ -56,7 +56,7 @@ Selects the thread pool in which the work submitted through the activity is to r
 
 ### -param threadPool [in]
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/ne-comsvcs-csc_threadpool">CSC_ThreadPool</a> enumeration.
+A value from the <a href="/windows/desktop/api/comsvcs/ne-comsvcs-csc_threadpool">CSC_ThreadPool</a> enumeration.
 
 ## -returns
 
@@ -64,5 +64,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iservicethreadpoolconfig">IServiceThreadPoolConfig</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicethreadpoolconfig">IServiceThreadPoolConfig</a>

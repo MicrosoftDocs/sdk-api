@@ -77,7 +77,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies information about the transport protocol, including name, address, and location on the network. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_0">SERVER_TRANSPORT_INFO_0</a> structure.
+<a href="/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_0">SERVER_TRANSPORT_INFO_0</a> structure.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Specifies information about the transport protocol, including name, address, and
 </td>
 <td width="60%">
 Specifies information about the transport protocol, including name, address, network location, and domain. The <i>bufptr</i> parameter points to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_1">SERVER_TRANSPORT_INFO_1</a> structure.
+<a href="/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_1">SERVER_TRANSPORT_INFO_1</a> structure.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Specifies information about the transport protocol, including name, address, net
 ### -param bufptr [in]
 
 Pointer to the buffer that specifies the data. The format of this data depends on the value of the <i>level</i> parameter. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a>.
 
 ## -returns
 
@@ -174,27 +174,26 @@ Only members of the Administrators or Server Operators local group can successfu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservertransportadd">NetServerTransportAdd</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservertransportadd">NetServerTransportAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_0">SERVER_TRANSPORT_INFO_0</a>
+<a href="/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_0">SERVER_TRANSPORT_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_1">SERVER_TRANSPORT_INFO_1</a>
+<a href="/windows/desktop/api/lmserver/ns-lmserver-server_transport_info_1">SERVER_TRANSPORT_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-and-workstation-transport-functions">Server and Workstation Transport Functions</a>
-
+<a href="/windows/desktop/NetMgmt/server-and-workstation-transport-functions">Server and Workstation Transport Functions</a>

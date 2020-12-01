@@ -72,25 +72,24 @@ The logical color space.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emrcreatecolorspace">CreateColorSpace</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-emrcreatecolorspace">CreateColorSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emrcreatecolorspacew">EMRCREATECOLORSPACEW</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-emrcreatecolorspacew">EMRCREATECOLORSPACEW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logcolorspacea">LOGCOLORSPACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

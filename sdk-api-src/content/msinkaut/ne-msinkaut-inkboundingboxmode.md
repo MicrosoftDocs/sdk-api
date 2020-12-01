@@ -52,7 +52,7 @@ api_name:
 
 Specifies which characteristics of a stroke, such as drawing attributes, are used to calculate the bounding box of the ink.
 
-The bounding box is the smallest rectangle that includes all points in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The size of the rectangle varies depending on whether you use drawing attributes, Bezier curve fitting, or just the points of the stroke to calculate the rectangle.
+The bounding box is the smallest rectangle that includes all points in the <a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> object. The size of the rectangle varies depending on whether you use drawing attributes, Bezier curve fitting, or just the points of the stroke to calculate the rectangle.
 
 ## -enum-fields
 
@@ -78,9 +78,8 @@ The  Bezier curve fitting line of the strokes (apply Bezier curve fitting to all
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getboundingbox">GetBoundingBox Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getboundingbox">GetBoundingBox Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
-
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>

@@ -56,7 +56,7 @@ Retrieves the specified feature page from the device.
 
 ### -param requestedFeature [in]
 
-Feature page to retrieve. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration type.
+Feature page to retrieve. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration type.
 
 ### -param currentFeatureOnly [in]
 
@@ -386,13 +386,12 @@ Value: 0xC0AA0210
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages">IDiscRecorder2Ex::GetSupportedFeaturePages</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages">IDiscRecorder2Ex::GetSupportedFeaturePages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a>
-
+<a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a>

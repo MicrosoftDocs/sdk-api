@@ -84,9 +84,8 @@ This structure is used by the following structures:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-structures">Plug-in Structures</a>
-
+<a href="/windows/desktop/SecBioMet/plug-in-structures">Plug-in Structures</a>

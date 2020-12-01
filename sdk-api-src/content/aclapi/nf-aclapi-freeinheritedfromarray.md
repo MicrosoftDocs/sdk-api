@@ -51,13 +51,13 @@ api_name:
 ## -description
 
 The <b>FreeInheritedFromArray</b> function frees memory allocated by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcea">GetInheritanceSource</a> function.
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcea">GetInheritanceSource</a> function.
 
 ## -parameters
 
 ### -param pInheritArray [in]
 
-A pointer to the array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-inherited_froma">INHERITED_FROM</a> structures returned by <a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcea">GetInheritanceSource</a>.
+A pointer to the array of <a href="/windows/desktop/api/accctrl/ns-accctrl-inherited_froma">INHERITED_FROM</a> structures returned by <a href="/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcea">GetInheritanceSource</a>.
 
 ### -param AceCnt [in]
 
@@ -75,5 +75,4 @@ If the function fails, it returns a nonzero error code defined in WinError.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcea">GetInheritanceSource</a>
-
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getinheritancesourcea">GetInheritanceSource</a>

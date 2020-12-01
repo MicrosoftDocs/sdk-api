@@ -54,7 +54,7 @@ The <b>INetFwProducts</b> interface allows an application or service to access t
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwProducts</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwProducts</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwProducts</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwProducts</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>INetFwProducts</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwproducts-item">Item</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwproducts-item">Item</a>
 </td>
 <td align="left" width="63%">
 Gets a product with a specified index in the product collection.
@@ -79,7 +79,7 @@ Gets a product with a specified index in the product collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwproducts-register">Register</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwproducts-register">Register</a>
 </td>
 <td align="left" width="63%">
 Registers a third-party firewall product.
@@ -97,7 +97,7 @@ Registers a third-party firewall product.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwproducts-get__newenum">_NewEnum</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwproducts-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -106,14 +106,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Returns an object supporting <a href="https://msdn.microsoft.com/library/ms221053.aspx">IEnumVariant</a> to enumerate the registered firewall products. 
+Returns an object supporting <a href="/windows/win32/api/oaidl/nn-oaidl-ienumvariant">IEnumVariant</a> to enumerate the registered firewall products. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwproducts-get_count">Count</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwproducts-get_count">Count</a>
 
 
 </td>
@@ -130,5 +130,4 @@ Accesses the count of registered third-party firewall products
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

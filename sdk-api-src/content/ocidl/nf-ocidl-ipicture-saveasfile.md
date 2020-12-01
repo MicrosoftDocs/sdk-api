@@ -72,5 +72,4 @@ This method supports the standard return values E_FAIL, E_INVALIDARG, and S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>

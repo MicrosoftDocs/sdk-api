@@ -68,9 +68,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-If called before the preview handler window has been created, the new <b>RECT</b>  replaces the <b>RECT</b> previously received in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow">IPreviewHandler::SetWindow</a> call.
+If called before the preview handler window has been created, the new <b>RECT</b>  replaces the <b>RECT</b> previously received in the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-setwindow">IPreviewHandler::SetWindow</a> call.
 
 If called after the preview handler window has been created, the preview handler window must be resized.
 
 If the preview handler is already rendering, then the preview must be resized without interrupting the render process.
-

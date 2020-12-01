@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>NCRYPT_SUPPORTED_LENGTHS</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/key-storage-property-identifiers">NCRYPT_LENGTHS_PROPERTY</a> property to contain length information for a key.
+The <b>NCRYPT_SUPPORTED_LENGTHS</b> structure is used with the <a href="/windows/desktop/SecCNG/key-storage-property-identifiers">NCRYPT_LENGTHS_PROPERTY</a> property to contain length information for a key.
 
 ## -struct-fields
 
@@ -71,4 +71,3 @@ The number of bits that the key size can be incremented between <b>dwMinLength</
 ### -field dwDefaultLength
 
 The default length, in bits, of a key.
-

@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Contains parameters for the <b>DeviceDsmAction_OffloadRead</b> action for the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
     control code.
 
 ## -struct-fields
@@ -77,13 +77,12 @@ Set to 0.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
+<a href="/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_read_output">STORAGE_OFFLOAD_READ_OUTPUT</a>
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_offload_read_output">STORAGE_OFFLOAD_READ_OUTPUT</a>

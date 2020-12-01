@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-The <b>IOCSPCAConfiguration</b> interface represents a set of definitions that enable an Online Certificate Status Protocol (OCSP) service to respond to a certificate status request for a specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA).
+The <b>IOCSPCAConfiguration</b> interface represents a set of definitions that enable an Online Certificate Status Protocol (OCSP) service to respond to a certificate status request for a specific <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA).
 
-Microsoft provides a default implementation of this interface in the <b>OCSPCAConfiguration</b> class. An <b>OCSPCAConfiguration</b> object cannot be created externally. An <b>OCSPCAConfiguration</b> object can only be created by using the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-createcaconfiguration">CreateCAConfiguration</a> method.
+Microsoft provides a default implementation of this interface in the <b>OCSPCAConfiguration</b> class. An <b>OCSPCAConfiguration</b> object cannot be created externally. An <b>OCSPCAConfiguration</b> object can only be created by using the <a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-createcaconfiguration">CreateCAConfiguration</a> method.
 
- The default implementations of <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a> and <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a> methods create a <b>OCSPCAConfiguration</b> object and use its properties.
+ The default implementations of <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a> and <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a> methods create a <b>OCSPCAConfiguration</b> object and use its properties.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> that is backed by the pixels of a Windows Graphics Device Interface (GDI) section handle.
+Returns a <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> that is backed by the pixels of a Windows Graphics Device Interface (GDI) section handle.
 
 ## -parameters
 
@@ -69,7 +69,7 @@ The height of the bitmap pixels.
 
 ### -param pixelFormat
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-native-pixel-formats">REFWICPixelFormatGUID</a></b>
+Type: <b><a href="/windows/desktop/wic/-wic-codec-native-pixel-formats">REFWICPixelFormatGUID</a></b>
 
 The pixel format of the bitmap.
 
@@ -77,7 +77,7 @@ The pixel format of the bitmap.
 
 Type: <b>HANDLE</b>
 
-The section handle. This is a file mapping object handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a> function.
+The section handle. This is a file mapping object handle returned by the <a href="/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a> function.
 
 ### -param stride [in]
 
@@ -93,7 +93,7 @@ The offset into the section.
 
 ### -param ppIBitmap [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>**</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>**</b>
 
 A pointer that receives the bitmap.
 
@@ -105,5 +105,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-The <b>WICCreateBitmapFromSection</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-wiccreatebitmapfromsectionex">WICCreateBitmapFromSectionEx</a> function with the <i>desiredAccessLevel</i> parameter set to <b>WICSectionAccessLevelRead</b>.
-
+The <b>WICCreateBitmapFromSection</b> function calls the <a href="/windows/desktop/api/wincodec/nf-wincodec-wiccreatebitmapfromsectionex">WICCreateBitmapFromSectionEx</a> function with the <i>desiredAccessLevel</i> parameter set to <b>WICSectionAccessLevelRead</b>.

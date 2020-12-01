@@ -57,7 +57,7 @@ Associates a name with the DirectML device object.
 
 ### -param name
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
 
 A <b>NULL</b>-terminated <b>UNICODE</b> string that contains the name to associate with the DirectML device object.
 
@@ -69,5 +69,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IDMLObject](/windows/desktop/api/directml/nn-directml-idmlobject)
-
+[IDMLObject](/windows/win32/api/directml/nn-directml-idmlobject)

@@ -94,17 +94,16 @@ Success.
 
 ## -remarks
 
-This method is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_messagedrain">IVideoWindow::get_MessageDrain</a> method.
+This method is equivalent to the <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_messagedrain">IVideoWindow::get_MessageDrain</a> method.
 
-The Full Screen video renderer posts all mouse and keyboard messages to the window designated as a message drain. The exact list of messages that are posted is the same as the list given in <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-put_messagedrain">IVideoWindow::put_MessageDrain</a>.
+The Full Screen video renderer posts all mouse and keyboard messages to the window designated as a message drain. The exact list of messages that are posted is the same as the list given in <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_messagedrain">IVideoWindow::put_MessageDrain</a>.
 
-Applications do not need to use this method. Use the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ivideowindow-get_messagedrain">IVideoWindow::get_MessageDrain</a> method on the Filter Graph Manager instead.
+Applications do not need to use this method. Use the <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_messagedrain">IVideoWindow::get_MessageDrain</a> method on the Filter Graph Manager instead.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
-
+<a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>

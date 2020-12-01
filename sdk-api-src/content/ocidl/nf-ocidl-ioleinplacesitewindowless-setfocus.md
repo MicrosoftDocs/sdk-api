@@ -82,17 +82,16 @@ Keyboard focus was denied to the object.
 
 ## -remarks
 
-A windowless object calls this method whenever a windowed object would call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-setfocus">SetFocus</a> function. Through this call, the windowless object obtains the keyboard focus and can respond to window messages. Normally, this call is made during the UI activation process and within the notification methods <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-ondocwindowactivate">IOleInPlaceActiveObject::OnDocWindowActivate</a> with <b>TRUE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-onframewindowactivate">IOleInPlaceActiveObject::OnFrameWindowActivate</a> with <b>TRUE</b>.
+A windowless object calls this method whenever a windowed object would call the <a href="/windows/desktop/api/strmif/nf-strmif-iresourcemanager-setfocus">SetFocus</a> function. Through this call, the windowless object obtains the keyboard focus and can respond to window messages. Normally, this call is made during the UI activation process and within the notification methods <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-ondocwindowactivate">IOleInPlaceActiveObject::OnDocWindowActivate</a> with <b>TRUE</b> and <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-onframewindowactivate">IOleInPlaceActiveObject::OnFrameWindowActivate</a> with <b>TRUE</b>.
 
 In response to this call, the container sets the Windows focus to the window being used to get keyboard messages (usually the container window) and redirects any subsequent keyboard messages to the windowless object that requested the focus.
 
-A windowless object also calls the <b>IOleInPlaceSiteWindowless::SetFocus</b> method with the <i>fFocus</i> parameter set to <b>FALSE</b> to release the keyboard focus without assigning it to any other object. In this case, the container must call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-setfocus">SetFocus</a> function with a <b>NULL</b> parameter so that no window has the focus.
+A windowless object also calls the <b>IOleInPlaceSiteWindowless::SetFocus</b> method with the <i>fFocus</i> parameter set to <b>FALSE</b> to release the keyboard focus without assigning it to any other object. In this case, the container must call the <a href="/windows/desktop/api/strmif/nf-strmif-iresourcemanager-setfocus">SetFocus</a> function with a <b>NULL</b> parameter so that no window has the focus.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>

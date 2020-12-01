@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfmediasharingengine">IMFMediaSharingEngine</a>.
+Creates an instance of the <a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfmediasharingengine">IMFMediaSharingEngine</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSharingEngineClassFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSharingEngineClassFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSharingEngineClassFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaSharingEngineClassFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IMFMediaSharingEngineClassFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfmediasharingengineclassfactory-createinstance">CreateInstance</a>
+<a href="/windows/desktop/api/mfsharingengine/nf-mfsharingengine-imfmediasharingengineclassfactory-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfmediasharingengine">IMFMediaSharingEngine</a>.
+Creates an instance of the <a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfmediasharingengine">IMFMediaSharingEngine</a>.
 
 </td>
 </tr>
@@ -80,5 +80,4 @@ Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

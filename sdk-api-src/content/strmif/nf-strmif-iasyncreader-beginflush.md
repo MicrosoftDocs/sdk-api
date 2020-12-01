@@ -61,11 +61,11 @@ Returns S_OK if successful, or S_FALSE otherwise.
 
 ## -remarks
 
-This method interrupts all pending read requests. While the pin is flushing, the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-request">IAsyncReader::Request</a> method fails and the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-waitfornext">IAsyncReader::WaitForNext</a> method returns immediately, possibly with the return code VFW_E_TIMEOUT.
+This method interrupts all pending read requests. While the pin is flushing, the <a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-request">IAsyncReader::Request</a> method fails and the <a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-waitfornext">IAsyncReader::WaitForNext</a> method returns immediately, possibly with the return code VFW_E_TIMEOUT.
 
-The downstream input pin should call this method whenever the downstream filter flushes the filter graph. After calling this method, call the <b>WaitForNext</b> method until it returns <b>NULL</b> in the <i>ppSample</i> parameter, to clear out the queue of pending samples. Ignore error codes, and release each sample. Then call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-endflush">IAsyncReader::EndFlush</a> method to end the flush operation.
+The downstream input pin should call this method whenever the downstream filter flushes the filter graph. After calling this method, call the <b>WaitForNext</b> method until it returns <b>NULL</b> in the <i>ppSample</i> parameter, to clear out the queue of pending samples. Ignore error codes, and release each sample. Then call the <a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-endflush">IAsyncReader::EndFlush</a> method to end the flush operation.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/flushing">Flushing</a>.
+For more information, see <a href="/windows/desktop/DirectShow/flushing">Flushing</a>.
 
 
 #### Examples
@@ -99,9 +99,8 @@ m_pReader-&gt;EndFlush();
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>

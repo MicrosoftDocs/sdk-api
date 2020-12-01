@@ -54,7 +54,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3DInclude</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3DInclude</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3DInclude</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3DInclude</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3DInclude</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-close">Close</a>
+<a href="/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-close">Close</a>
 </td>
 <td align="left" width="63%">
 A user-implemented method for closing a shader #include file.
@@ -78,7 +78,7 @@ A user-implemented method for closing a shader #include file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-open">Open</a>
+<a href="/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-open">Open</a>
 </td>
 <td align="left" width="63%">
 A user-implemented method for opening and reading the contents of a shader #include file.
@@ -93,5 +93,4 @@ To use this interface, create an interface that inherits from <b>ID3DInclude</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-interfaces">Common Version Interfaces</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-interfaces">Common Version Interfaces</a>

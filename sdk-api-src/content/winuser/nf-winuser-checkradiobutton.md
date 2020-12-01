@@ -44,6 +44,7 @@ api_location:
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
  - CheckRadioButton
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # CheckRadioButton function
@@ -57,7 +58,7 @@ Adds a check mark to (checks) a specified radio button in a group and removes a 
 
 ### -param hDlg [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the dialog box that contains the radio button.
 
@@ -81,27 +82,26 @@ The identifier of the radio button to select.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <b>CheckRadioButton</b> function sends a <a href="https://docs.microsoft.com/windows/desktop/Controls/bm-setcheck">BM_SETCHECK</a> message to each of the radio buttons in the indicated group.
+The <b>CheckRadioButton</b> function sends a <a href="/windows/desktop/Controls/bm-setcheck">BM_SETCHECK</a> message to each of the radio buttons in the indicated group.
 
 The <i>nIDFirstButton</i> and <i>nIDLastButton</i> parameters specify a range of button identifiers (normally the resource IDs of the buttons).  The position of buttons in the tab order is irrelevant; if a button forms part of a group, but has an ID outside the specified range, it is not affected by this call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-checkdlgbutton">CheckDlgButton</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-checkdlgbutton">CheckDlgButton</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isdlgbuttonchecked">IsDlgButtonChecked</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-isdlgbuttonchecked">IsDlgButtonChecked</a>
 
 
 
 <b>Reference</b>
-

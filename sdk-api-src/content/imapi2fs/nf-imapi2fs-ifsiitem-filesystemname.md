@@ -56,11 +56,11 @@ Retrieves the name of the item as modified to conform to the specified file syst
 
 ### -param fileSystem [in]
 
-File system to which the name should conform. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a> enumeration type.
+File system to which the name should conform. For possible values, see the <a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-fsifilesystems">FsiFileSystems</a> enumeration type.
 
 ### -param pVal [out]
 
-String that contains the name of the item as it conforms to the specified file system. The name in the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_name">IFsiItem::get_Name</a> property is modified if the characters used and its length do not meet the requirements of the specified file system type.
+String that contains the name of the item as it conforms to the specified file system. The name in the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_name">IFsiItem::get_Name</a> property is modified if the characters used and its length do not meet the requirements of the specified file system type.
 
 ## -returns
 
@@ -101,5 +101,4 @@ Value: 0xC0AAB101
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a>

@@ -58,13 +58,13 @@ Gets the overlay index in the system image list.
 
 Type: <b>PCUITEMID_CHILD</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that identifies the object whose icon is being displayed.
+Pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that identifies the object whose icon is being displayed.
 
 ### -param pIndex [in, out]
 
 Type: <b>int*</b>
 
-Pointer to a value that states the overlay index (one-based) in the system image list. This index is equivalent to the <i>iOverlay</i> value that is specified when you add an overlay image to a private image list with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList::SetOverlayImage</a> function.
+Pointer to a value that states the overlay index (one-based) in the system image list. This index is equivalent to the <i>iOverlay</i> value that is specified when you add an overlay image to a private image list with the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_setoverlayimage">ImageList::SetOverlayImage</a> function.
 
 ## -returns
 
@@ -136,11 +136,10 @@ The calling application passed OI_ASYNC to signify that the operation of calcula
 
 ## -remarks
 
-To retrieve the overlay index in the system image list, call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgeticonoverlayindexa">SHGetIconOverlayIndex</a>.
+To retrieve the overlay index in the system image list, call <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgeticonoverlayindexa">SHGetIconOverlayIndex</a>.
 
-If you set <i>pIndex</i> to point to OI_ASYNC when you call this method, the Shell icon overlay handler might return E_PENDING instead of storing the overlay index in <i>pIndex</i>. This return value indicates that computing the overlay is a slow operation and should be handled in the background. When an <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a> implementation returns E_PENDING, it is called back on a background worker thread without the OI_ASYNC flag. If you do not use OI_ASYNC when you call <b>GetOverlayIndex</b>, the overlay handler must compute the overlay index and store the value in <i>pIndex</i> before returning.
+If you set <i>pIndex</i> to point to OI_ASYNC when you call this method, the Shell icon overlay handler might return E_PENDING instead of storing the overlay index in <i>pIndex</i>. This return value indicates that computing the overlay is a slow operation and should be handled in the background. When an <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a> implementation returns E_PENDING, it is called back on a background worker thread without the OI_ASYNC flag. If you do not use OI_ASYNC when you call <b>GetOverlayIndex</b>, the overlay handler must compute the overlay index and store the value in <i>pIndex</i> before returning.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a>
-
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>AMSI_ATTRIBUTE</b> enumeration specifies the types of attributes that can be requested by <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-iamsistream-getattribute">IAmsiStream::GetAttribute</a>.
+The <b>AMSI_ATTRIBUTE</b> enumeration specifies the types of attributes that can be requested by <a href="/windows/desktop/api/amsi/nf-amsi-iamsistream-getattribute">IAmsiStream::GetAttribute</a>.
 
 ## -enum-fields
 
@@ -83,4 +83,3 @@ Session is used to associate different scan calls, such as if the contents to be
 ### -field AMSI_ATTRIBUTE_ALL_ADDRESS
 
 ### -field AMSI_ATTRIBUTE_QUIET
-

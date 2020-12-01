@@ -70,13 +70,13 @@ The writer does not require restore events.
 ### -field VSS_WRE_IF_REPLACE_FAILS
 
 Indicates that the writer always expects to handle a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> 
-      (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CvssWriter::OnPreRestore</a>) event, but expects 
-      to handle a <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event 
-      (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostrestore">CvssWriter::OnPostRestore</a>) only if a restore 
+      <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> 
+      (<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CvssWriter::OnPreRestore</a>) event, but expects 
+      to handle a <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-postrestore">PostRestore</a> event 
+      (<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostrestore">CvssWriter::OnPostRestore</a>) only if a restore 
       fails when implementing either a <b>VSS_RME_RESTORE_IF_NOT_THERE</b> or 
       <b>VSS_RME_RESTORE_IF_CAN_REPLACE</b> restore method 
-      (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restoremethod_enum">VSS_RESTOREMETHOD_ENUM</a>).
+      (<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_restoremethod_enum">VSS_RESTOREMETHOD_ENUM</a>).
 
 ### -field VSS_WRE_ALWAYS
 
@@ -86,21 +86,20 @@ The writer always performs special operations during the restore operation.
 
 A writer passes a value of 
     <b>VSS_WRITERRESTORE_ENUM</b> to 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod">IVssCreateWriterMetadata::SetRestoreMethod</a> 
+    <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod">IVssCreateWriterMetadata::SetRestoreMethod</a> 
     to indicate through its metadata how it interacts with requesters during a restore operation.
 
 A requester retrieves information about a writer's participation by calling 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod">IVssExamineWriterMetadata::GetRestoreMethod</a>.
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod">IVssExamineWriterMetadata::GetRestoreMethod</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod">IVssCreateWriterMetadata::SetRestoreMethod</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setrestoremethod">IVssCreateWriterMetadata::SetRestoreMethod</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod">IVssExamineWriterMetadata::GetRestoreMethod</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getrestoremethod">IVssExamineWriterMetadata::GetRestoreMethod</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_restoremethod_enum">VSS_RESTOREMETHOD_ENUM</a>
-
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_restoremethod_enum">VSS_RESTOREMETHOD_ENUM</a>

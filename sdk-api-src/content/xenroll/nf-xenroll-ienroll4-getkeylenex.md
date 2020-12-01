@@ -52,9 +52,9 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>GetKeyLenEx</b> method retrieves size information for the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">signature</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange keys</a>. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
+The <b>GetKeyLenEx</b> method retrieves size information for the <a href="/windows/desktop/SecGloss/s-gly">signature</a> and <a href="/windows/desktop/SecGloss/e-gly">exchange keys</a>. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a> interface.
 
-The values retrieved by this method are dependent upon the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a>.
+The values retrieved by this method are dependent upon the current <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a>.
 
 ## -parameters
 
@@ -136,12 +136,11 @@ A pointer to <b>LONG</b> that receives the key size information, in bits.
 
 ## -remarks
 
-If the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> does not support this method, an error is returned.
+If the <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> does not support this method, an error is returned.
 
 For additional details on the XEKL_KEYSIZE_INC value, see PP_SIG_KEYSIZE_INC usage in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a> reference page.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetprovparam">CryptGetProvParam</a> reference page.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>

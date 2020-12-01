@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - OleDestroyMenuDescriptor
+req.apiset: ext-ms-win-com-ole32-l1-1-3 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # OleDestroyMenuDescriptor function
@@ -52,13 +53,13 @@ api_name:
 
 ## -description
 
-Called by the container to free the shared menu descriptor allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatemenudescriptor">OleCreateMenuDescriptor</a> function.
+Called by the container to free the shared menu descriptor allocated by the <a href="/windows/desktop/api/ole2/nf-ole2-olecreatemenudescriptor">OleCreateMenuDescriptor</a> function.
 
 ## -parameters
 
 ### -param holemenu [in]
 
-Handle to the shared menu descriptor that was returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatemenudescriptor">OleCreateMenuDescriptor</a> function.
+Handle to the shared menu descriptor that was returned by the <a href="/windows/desktop/api/ole2/nf-ole2-olecreatemenudescriptor">OleCreateMenuDescriptor</a> function.
 
 ## -returns
 
@@ -66,5 +67,4 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatemenudescriptor">OleCreateMenuDescriptor</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-olecreatemenudescriptor">OleCreateMenuDescriptor</a>

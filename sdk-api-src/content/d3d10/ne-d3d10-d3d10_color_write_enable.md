@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identify which components of each pixel of a render target are writable during <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">blending</a>.
+Identify which components of each pixel of a render target are writable during <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">blending</a>.
 
 ## -enum-fields
 
@@ -80,5 +80,4 @@ These flags can be combined with a bitwise OR.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>

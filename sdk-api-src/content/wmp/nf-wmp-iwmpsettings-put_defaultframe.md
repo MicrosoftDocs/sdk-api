@@ -90,13 +90,12 @@ This method is ignored when using the Netscape Navigator Java applet. In Navigat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpevents-scriptcommand">IWMPEvents::ScriptCommand</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents-scriptcommand">IWMPEvents::ScriptCommand</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpsettings">IWMPSettings Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_defaultframe">IWMPSettings::get_defaultFrame</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_defaultframe">IWMPSettings::get_defaultFrame</a>

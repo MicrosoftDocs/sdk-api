@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The DMA_DES structure is used for specifying either a resource list or a resource requirements list that describes direct memory access (DMA) channel usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
+The DMA_DES structure is used for specifying either a resource list or a resource requirements list that describes direct memory access (DMA) channel usage for a device instance. For more information about resource lists and resource requirements lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the [DMA_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource) structure.
+The number of elements in the [DMA_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource) structure.
 
 ### -field DD_Type
 
@@ -264,9 +264,8 @@ The DMA channel allocated to the device.
 
 ## -see-also
 
-[DMA_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range)
+[DMA_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range)
 
 
 
-[DMA_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource)
-
+[DMA_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource)

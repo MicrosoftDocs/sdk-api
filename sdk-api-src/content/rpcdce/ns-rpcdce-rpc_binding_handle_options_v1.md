@@ -95,7 +95,7 @@ Specifies that a socket association must be shutdown after the last binding hand
 
 ### -field ComTimeout
 
-The communication timeout value, specified in microseconds. The default value for RPC is RPC_C_BINDING_DEFAULT_TIMEOUT. This option can be changed later by calling <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout">RpcMgmtSetComTimeout</a>.
+The communication timeout value, specified in microseconds. The default value for RPC is RPC_C_BINDING_DEFAULT_TIMEOUT. This option can be changed later by calling <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout">RpcMgmtSetComTimeout</a>.
 
 ### -field CallTimeout
 
@@ -103,17 +103,16 @@ The call timeout value, specified in microseconds. The default value for RPC is 
 
 ## -remarks
 
-If this structure is not specified in a call to <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>, the default values for each option are used.
+If this structure is not specified in a call to <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>, the default values for each option are used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-binding-handle">RPC_BINDING_HANDLE</a>
+<a href="/windows/desktop/Rpc/rpc-binding-handle">RPC_BINDING_HANDLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcbindingbind">RpcBindingBind</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcbindingbind">RpcBindingBind</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>

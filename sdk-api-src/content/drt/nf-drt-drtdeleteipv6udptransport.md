@@ -107,17 +107,16 @@ The transport is still bound.
 </dl>
 </td>
 <td width="60%">
-All clients have not called <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the transport.
+All clients have not called <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the transport.
 
 </td>
 </tr>
 </table>
  
 
-<div class="alert"><b>Note</b>  This function may also surface errors returned by underlying calls to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpstartup">PeerPnrpStartup</a> or <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitygetcryptkey">PeerIdentityGetCryptKey</a>.</div>
+<div class="alert"><b>Note</b>  This function may also surface errors returned by underlying calls to <a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpstartup">PeerPnrpStartup</a> or <a href="/windows/desktop/api/p2p/nf-p2p-peeridentitygetcryptkey">PeerIdentityGetCryptKey</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreateipv6udptransport">DrtCreateIpv6UdpTransport</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtcreateipv6udptransport">DrtCreateIpv6UdpTransport</a>

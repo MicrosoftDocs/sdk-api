@@ -66,9 +66,8 @@ Reference to the next node in a linked list of <b>WSDXML_PREFIX_MAPPING</b> stru
 
 ### -field Space
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_namespace">WSDXML_NAMESPACE</a> structure.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_namespace">WSDXML_NAMESPACE</a> structure.
 
 ### -field Prefix
 
 The text of the XML prefix.
-

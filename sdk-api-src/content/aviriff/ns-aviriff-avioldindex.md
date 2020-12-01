@@ -162,9 +162,8 @@ This structure consists of the initial RIFF chunk (the <b>fcc</b> and <b>cb</b> 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
+<a href="/windows/desktop/DirectShow/avi-riff-file-reference">AVI RIFF File Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

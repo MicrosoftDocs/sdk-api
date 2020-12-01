@@ -51,8 +51,8 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[This method is supported for compatibility but it's recommended to use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a> class.]
+    <a href="/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a> class.]
 
 Applies the property values of the specified file screen template to this file screen 
     object.
@@ -70,7 +70,7 @@ The method returns the following return values.
 ## -remarks
 
 To save the changes, call the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-commit">IFsrmFileScreen::Commit</a> method.
+    <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmobject-commit">IFsrmFileScreen::Commit</a> method.
 
 The specified template must be a committed template; you cannot apply a newly created template that has not 
     been committed.
@@ -79,15 +79,14 @@ The specified template must be a committed template; you cannot apply a newly cr
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/defining-a-file-screen">Defining a File Screen</a>.
+     <a href="/previous-versions/windows/desktop/fsrm/defining-a-file-screen">Defining a File Screen</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreen">IFsrmFileScreen</a>
+<a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreen">IFsrmFileScreen</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a>
-
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a>

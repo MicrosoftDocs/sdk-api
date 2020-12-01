@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>MSP_EVENT_INFO</b> structure defines the type of event returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">GetEvent</a> method.
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">GetEvent</a> method.
 
 ## -struct-fields
 
@@ -80,7 +80,7 @@ Describes the
 ### -field MSP_ADDRESS_EVENT_INFO.pTerminal
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface.
 
 ### -field MSP_CALL_EVENT_INFO
 
@@ -96,12 +96,12 @@ Indicates type of
 ### -field MSP_CALL_EVENT_INFO.pStream
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface on which event occurred.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface on which event occurred.
 
 ### -field MSP_CALL_EVENT_INFO.pTerminal
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface on which event occurred.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interface on which event occurred.
 
 ### -field MSP_CALL_EVENT_INFO.hrError
 
@@ -133,7 +133,7 @@ MSP event.
 
 ##### pEvent.pEvent
 
-Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface of private object on which event has occurred.
+Pointer to <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface of private object on which event has occurred.
 
 ### -field MSP_PRIVATE_EVENT_INFO.lEventCode
 
@@ -174,13 +174,12 @@ Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop
 
 ###### - MSP_PRIVATE_EVENT_INFO.pEvent.pEvent
 
-Pointer to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface of private object on which event has occurred.
+Pointer to <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface of private object on which event has occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">ITMSPAddress::GetEvent</a>
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-getevent">ITMSPAddress::GetEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

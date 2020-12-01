@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the conversion matrix from the Y'Cb'Cr' color space to the R'G'B' color space. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideoinputcolortransfermatrix-property">AVEncVideoInputColorTransferMatrix</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencvideooutputcolortransfermatrix-property">AVEncVideoOutputColorTransferMatrix</a> properties.
+Specifies the conversion matrix from the Y'Cb'Cr' color space to the R'G'B' color space. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencvideoinputcolortransfermatrix-property">AVEncVideoInputColorTransferMatrix</a> and <a href="/windows/desktop/DirectShow/avencvideooutputcolortransfermatrix-property">AVEncVideoOutputColorTransferMatrix</a> properties.
 
 ## -enum-fields
 
@@ -72,9 +72,8 @@ SMPTE 240M transfer matrix.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

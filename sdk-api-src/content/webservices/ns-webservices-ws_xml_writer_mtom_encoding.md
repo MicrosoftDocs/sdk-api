@@ -60,7 +60,7 @@ Used to indicate that the reader should emit bytes in MTOM format.
 
 ### -field encoding
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_encoding">WS_XML_WRITER_ENCODING</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_encoding">WS_XML_WRITER_ENCODING</a>.
 
 ### -field textEncoding
 
@@ -85,4 +85,3 @@ Specifies the mime part that contains the xml.  This corresponds to the "start" 
 ### -field maxInlineByteCount
 
 Specifies the threshold at which the writer will not write base64 encoded text and instead write a binary mime part for binary data.
-

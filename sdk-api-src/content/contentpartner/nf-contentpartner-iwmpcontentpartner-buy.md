@@ -62,7 +62,7 @@ Pointer to a content container list that represents the content to be purchased.
 
 ### -param cookie [in]
 
-A cookie used to identify the transaction. You must store this value and pass it to <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-buycomplete">IWMPContentPartnerCallback::BuyComplete</a> when the purchase transaction is finished.
+A cookie used to identify the transaction. You must store this value and pass it to <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-buycomplete">IWMPContentPartnerCallback::BuyComplete</a> when the purchase transaction is finished.
 
 ## -returns
 
@@ -94,5 +94,4 @@ If the user has an expired license for content previously purchased, you can sim
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>

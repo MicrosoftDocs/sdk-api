@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Defines the  statistics that are reported by  <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>.  Initially, statistics packets report only flush statistics, including the frequency of data and metadata flushes on a physical log and the amount of data and metadata flushed.  The flush statistics are defined by the following I/O statistics packet types.
+Defines the  statistics that are reported by  <a href="/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>.  Initially, statistics packets report only flush statistics, including the frequency of data and metadata flushes on a physical log and the amount of data and metadata flushed.  The flush statistics are defined by the following I/O statistics packet types.
 
 ## -struct-fields
 
@@ -80,9 +80,8 @@ The cumulative number of bytes of metadata flushed in the logging session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_io_statistics_header">CLFS_IO_STATISTICS_HEADER</a>
+<a href="/windows/desktop/api/clfs/ns-clfs-cls_io_statistics_header">CLFS_IO_STATISTICS_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>

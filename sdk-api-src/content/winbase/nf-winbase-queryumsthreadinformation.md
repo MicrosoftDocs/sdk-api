@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
  - QueryUmsThreadInformation
+req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 ---
 
 # QueryUmsThreadInformation function
@@ -122,9 +123,8 @@ The underlying structures for UMS worker threads are managed by the system. Info
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setumsthreadinformation">SetUmsThreadInformation</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setumsthreadinformation">SetUmsThreadInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a>
-
+<a href="/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a>

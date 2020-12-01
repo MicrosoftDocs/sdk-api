@@ -54,7 +54,7 @@ This interface allows a custom IDD driver to be loaded in a remote session.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsWddmIddProps</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsWddmIddProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsWddmIddProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsWddmIddProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -109,4 +109,3 @@ Termsrv uses this method to tell the protocol stack that PnP unloaded the
 </td>
 </tr>
 </table>
-

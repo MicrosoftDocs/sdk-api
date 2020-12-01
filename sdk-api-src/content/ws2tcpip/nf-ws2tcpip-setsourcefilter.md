@@ -86,7 +86,7 @@ A pointer to a buffer with the  IP addresses to associate with the multicast fil
 ## -returns
 
 On success,  <b>setsourcefilter</b> returns NO_ERROR (0). Any nonzero return value indicates failure and a specific error code can be retrieved by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>.
 
 <table>
 <tr>
@@ -96,7 +96,7 @@ On success,  <b>setsourcefilter</b> returns NO_ERROR (0). Any nonzero return val
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -107,7 +107,7 @@ Insufficient buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -130,21 +130,20 @@ This function is part of socket interface extensions for multicast source filter
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2ipdef/ne-ws2ipdef-multicast_mode_type">MULTICAST_MODE_TYPE</a>
+<a href="/windows/desktop/api/ws2ipdef/ne-ws2ipdef-multicast_mode_type">MULTICAST_MODE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getipv4sourcefilter">getipv4sourcefilter</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getipv4sourcefilter">getipv4sourcefilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getsourcefilter">getsourcefilter</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getsourcefilter">getsourcefilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-setipv4sourcefilter">setipv4sourcefilter</a>
-
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-setipv4sourcefilter">setipv4sourcefilter</a>

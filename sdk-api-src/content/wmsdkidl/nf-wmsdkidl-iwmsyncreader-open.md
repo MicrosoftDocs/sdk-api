@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>Open</b> method opens a file for reading. Unlike <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-open">IWMReader::Open</a>, this method is a synchronous call.
+The <b>Open</b> method opens a file for reading. Unlike <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-open">IWMReader::Open</a>, this method is a synchronous call.
 
 ## -parameters
 
@@ -71,13 +71,12 @@ The synchronous reader does not support streaming media. Passing a URL as <i>pws
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-close">IWMSyncReader::Close</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-close">IWMSyncReader::Close</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-openstream">IWMSyncReader::OpenStream</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-openstream">IWMSyncReader::OpenStream</a>

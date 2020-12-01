@@ -58,11 +58,11 @@ The <code>GetMediaStream</code> method retrieves a media stream, specified by pu
 
 ### -param idPurpose [in]
 
-Reference to an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mspid">MSPID</a> value that specifies which stream to retrieve.
+Reference to an <a href="/windows/desktop/DirectShow/mspid">MSPID</a> value that specifies which stream to retrieve.
 
 ### -param ppMediaStream [out]
 
-Address of a variable that receives an <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a> interface pointer.
+Address of a variable that receives an <a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a> interface pointer.
 
 ## -returns
 
@@ -114,5 +114,4 @@ If the method succeeds, the caller must release the <b>IMediaStream</b> interfac
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>
-
+<a href="/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>

@@ -50,35 +50,35 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> associated with an 
+Gets the <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> associated with an 
      instance.
 
 ## -parameters
 
 ### -param self [in]
 
-A pointer to an instance whose <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> structure is 
+A pointer to an instance whose <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> structure is 
       to be retrieved.
 
 ### -param instanceClass
 
-Returned <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a>. This 
+Returned <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a>. This 
       <b>MI_Class</b> wraps the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a> field inside the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> and does not retrieve anything from the 
+      <a href="/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a> field inside the 
+      <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> and does not retrieve anything from the 
       server. This returned class should be deleted via 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a>.
+      <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a>.
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies 
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies 
       the function return code. This can be one of the following codes.
 
 ## -remarks
 
 Different types of classes exist. A dynamic instance has a very flat class declaration with no real 
     qualifiers. Certain 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/mi-flags">flags</a> in to 
+    <a href="/previous-versions/windows/desktop/wmi_v2/mi-flags">flags</a> in to 
     session objects can also change the type of runtime type information (RTTI) that is returned, such that it has 
     none (types are all strings, flat structure, no qualifiers), basic (types of properties should be correct, but 
     they are flat-structured without qualifiers), standard (best effort at creating hierarchy, but overloaded 
@@ -87,17 +87,16 @@ Different types of classes exist. A dynamic instance has a very flat class decla
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_classdecl">MI_ClassDecl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>
-
+<a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a>

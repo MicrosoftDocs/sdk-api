@@ -53,6 +53,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - ShowWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # ShowWindow function
@@ -74,7 +75,7 @@ A handle to the window.
 
 Type: <b>int</b>
 
-Controls how the window is to be shown. This parameter is ignored the first time an application calls <b>ShowWindow</b>, if the program that launched the application provides a <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure. Otherwise, the first time <b>ShowWindow</b> is called, the value should be the value obtained by the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-winmain">WinMain</a> function in its <i>nCmdShow</i> parameter. In subsequent calls, this parameter can be one of the following values. 
+Controls how the window is to be shown. This parameter is ignored the first time an application calls <b>ShowWindow</b>, if the program that launched the application provides a <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure. Otherwise, the first time <b>ShowWindow</b> is called, the value should be the value obtained by the <a href="/windows/desktop/api/winbase/nf-winbase-winmain">WinMain</a> function in its <i>nCmdShow</i> parameter. In subsequent calls, this parameter can be one of the following values. 
 
 <table>
 <tr>
@@ -154,7 +155,7 @@ Activates the window and displays it in its current size and position.
 </dl>
 </td>
 <td width="60%">
-Sets the show state based on the SW_ value specified in the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure passed to the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function by the program that started the application. 
+Sets the show state based on the SW_ value specified in the <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure passed to the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function by the program that started the application. 
 
 </td>
 </tr>
@@ -236,26 +237,26 @@ If the window was previously hidden, the return value is zero.
 
 ## -remarks
 
-To perform certain special effects when showing or hiding a window, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a>. 
+To perform certain special effects when showing or hiding a window, use <a href="/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a>. 
 
-The first time an application calls <b>ShowWindow</b>, it should use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-winmain">WinMain</a> function's <i>nCmdShow</i> parameter as its <i>nCmdShow</i> parameter. Subsequent calls to <b>ShowWindow</b> must use one of the values in the given list, instead of the one specified by the <b>WinMain</b> function's <i>nCmdShow</i> parameter. 
+The first time an application calls <b>ShowWindow</b>, it should use the <a href="/windows/desktop/api/winbase/nf-winbase-winmain">WinMain</a> function's <i>nCmdShow</i> parameter as its <i>nCmdShow</i> parameter. Subsequent calls to <b>ShowWindow</b> must use one of the values in the given list, instead of the one specified by the <b>WinMain</b> function's <i>nCmdShow</i> parameter. 
 
-As noted in the discussion of the <i>nCmdShow</i> parameter, the <i>nCmdShow</i> value is ignored in the first call to <b>ShowWindow</b> if the program that launched the application specifies startup information in the  structure. In this case, <b>ShowWindow</b> uses the information specified in the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure to show the window. On subsequent calls, the application must call <b>ShowWindow</b> with <i>nCmdShow</i> set to <b>SW_SHOWDEFAULT</b> to use the startup information provided by the program that launched the application. This behavior is designed for the following situations: 
+As noted in the discussion of the <i>nCmdShow</i> parameter, the <i>nCmdShow</i> value is ignored in the first call to <b>ShowWindow</b> if the program that launched the application specifies startup information in the  structure. In this case, <b>ShowWindow</b> uses the information specified in the <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a> structure to show the window. On subsequent calls, the application must call <b>ShowWindow</b> with <i>nCmdShow</i> set to <b>SW_SHOWDEFAULT</b> to use the startup information provided by the program that launched the application. This behavior is designed for the following situations: 
 
 <ul>
-<li>Applications create their main window by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> with the <b>WS_VISIBLE</b> flag set. </li>
-<li>Applications create their main window by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> with the <b>WS_VISIBLE</b> flag cleared, and later call <b>ShowWindow</b> with the <b>SW_SHOW</b> flag set to make it visible. </li>
+<li>Applications create their main window by calling <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> with the <b>WS_VISIBLE</b> flag set. </li>
+<li>Applications create their main window by calling <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> with the <b>WS_VISIBLE</b> flag cleared, and later call <b>ShowWindow</b> with the <b>SW_SHOW</b> flag set to make it visible. </li>
 </ul>
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-windows">Creating a Main Window</a>.
+For an example, see <a href="/windows/desktop/winmsg/using-windows">Creating a Main Window</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-animatewindow">AnimateWindow</a>
 
 
 
@@ -263,11 +264,11 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
 
 
 
@@ -279,21 +280,20 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>
+<a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showownedpopups">ShowOwnedPopups</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-showownedpopups">ShowOwnedPopups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindowasync">ShowWindowAsync</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-showwindowasync">ShowWindowAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-winmain">WinMain</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-winmain">WinMain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

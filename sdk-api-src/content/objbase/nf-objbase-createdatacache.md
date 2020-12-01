@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
 api_name:
  - CreateDataCache
+req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)
 ---
 
 # CreateDataCache function
@@ -57,7 +58,7 @@ Retrieves a pointer to a new instance of an OLE-provided implementation of a dat
 
 ### -param pUnkOuter [in]
 
- If the cache is to be created as part of an aggregate, pointer to the controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the aggregate. If not, the parameter should be <b>NULL</b>.
+ If the cache is to be created as part of an aggregate, pointer to the controlling <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> of the aggregate. If not, the parameter should be <b>NULL</b>.
 
 ### -param rclsid [in]
 
@@ -65,7 +66,7 @@ CLSID used to generate icon labels. This value is typically CLSID_NULL.
 
 ### -param iid [in]
 
-Reference to the identifier of the interface the caller wants to use to communicate with the cache. This value is typically IID_IOleCache (defined in the OLE headers to equal the interface identifier for <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>).
+Reference to the identifier of the interface the caller wants to use to communicate with the cache. This value is typically IID_IOleCache (defined in the OLE headers to equal the interface identifier for <a href="/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>).
 
 ### -param ppv [out]
 
@@ -118,17 +119,16 @@ One or more parameters are invalid.
 
 ## -remarks
 
-The cache object created by <b>CreateDataCache</b> supports the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache2">IOleCache2</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a> interfaces for controlling the cache. It also supports the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> (without advise sinks), <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a> interfaces.
+The cache object created by <b>CreateDataCache</b> supports the <a href="/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>, <a href="/windows/desktop/api/oleidl/nn-oleidl-iolecache2">IOleCache2</a>, and <a href="/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a> interfaces for controlling the cache. It also supports the <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>, <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> (without advise sinks), <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>, and <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject2">IViewObject2</a> interfaces.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache2">IOleCache2</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecache2">IOleCache2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>

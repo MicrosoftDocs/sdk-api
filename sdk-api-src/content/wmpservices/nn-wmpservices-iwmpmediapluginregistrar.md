@@ -54,7 +54,7 @@ The <b>IWMPMediaPluginRegistrar</b> interface manages plug-in registration.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMediaPluginRegistrar</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPMediaPluginRegistrar</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPMediaPluginRegistrar</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPMediaPluginRegistrar</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPMediaPluginRegistrar</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpregisterplayerplugin">WMPRegisterPlayerPlugin</a>
+<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpregisterplayerplugin">WMPRegisterPlayerPlugin</a>
 </td>
 <td align="left" width="63%">
 Adds information to the registry that identifies a Windows Media Player plug-in.
@@ -78,7 +78,7 @@ Adds information to the registry that identifies a Windows Media Player plug-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpunregisterplayerplugin">WMPUnRegisterPlayerPlugin</a>
+<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpunregisterplayerplugin">WMPUnRegisterPlayerPlugin</a>
 </td>
 <td align="left" width="63%">
 Removes information from the registry about a Windows Media Player plug-in.
@@ -89,5 +89,4 @@ Removes information from the registry about a Windows Media Player plug-in.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/dsp-plug-in-interfaces">DSP Plug-in Interfaces</a>
-
+<a href="/windows/desktop/WMP/dsp-plug-in-interfaces">DSP Plug-in Interfaces</a>

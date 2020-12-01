@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-The <b>MCIWndPlay</b> macro sends a command to an MCI device to start playing from the current position in the content. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-play">MCI_PLAY</a> command.
+The <b>MCIWndPlay</b> macro sends a command to an MCI device to start playing from the current position in the content. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mci-play">MCI_PLAY</a> command.
 
 ## -parameters
 
 ### -param hwnd
 
 Handle of the MCIWnd window.
-

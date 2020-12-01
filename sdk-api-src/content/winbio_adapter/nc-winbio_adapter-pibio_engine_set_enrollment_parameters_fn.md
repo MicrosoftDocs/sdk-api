@@ -56,11 +56,11 @@ Called by the Windows Biometric Framework to give the engine adapter additional 
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param Parameters [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-extended-enrollment-parameters">WINBIO_EXTENDED_ENROLLMENT_PARAMETERS</a> structure containing the extended enrollment parameters to use.
+Pointer to the <a href="/windows/desktop/SecBioMet/winbio-extended-enrollment-parameters">WINBIO_EXTENDED_ENROLLMENT_PARAMETERS</a> structure containing the extended enrollment parameters to use.
 
 ## -returns
 
@@ -86,7 +86,6 @@ The <i>Pipeline</i> parameter cannot be <b>NULL</b>.
 
 ## -remarks
 
-If the engine adapter successfully completes an <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_create_enrollment_fn">EngineAdapterCreateEnrollment</a> call, it will immediately receive a call to its <b>EngineAdapterSetEnrollmentParameters</b> function.
+If the engine adapter successfully completes an <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_create_enrollment_fn">EngineAdapterCreateEnrollment</a> call, it will immediately receive a call to its <b>EngineAdapterSetEnrollmentParameters</b> function.
 
  This function specifies the subfactor to be used for the new enrollment template.
-

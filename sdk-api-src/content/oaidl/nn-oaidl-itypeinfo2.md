@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used for reading information about objects. Can be cast to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> instead of using the calls <b>QueryInterface</b> and <b>Release</b> to allow quick opens and allocs. This only works for in-process cases.
+Used for reading information about objects. Can be cast to an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a> instead of using the calls <b>QueryInterface</b> and <b>Release</b> to allow quick opens and allocs. This only works for in-process cases.
 
 ## -inheritance
 
@@ -69,7 +69,7 @@ The <b>ITypeInfo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getallcustdata">GetAllCustData</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getallcustdata">GetAllCustData</a>
 </td>
 <td align="left" width="63%">
 Gets all custom data items for the library.
@@ -78,7 +78,7 @@ Gets all custom data items for the library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getallfunccustdata">GetAllFuncCustData</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getallfunccustdata">GetAllFuncCustData</a>
 </td>
 <td align="left" width="63%">
 Gets all custom data from the specified function.
@@ -87,7 +87,7 @@ Gets all custom data from the specified function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getallimpltypecustdata">GetAllImplTypeCustData</a>
+<a href="/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getallimpltypecustdata">GetAllImplTypeCustData</a>
 </td>
 <td align="left" width="63%">
 Gets all custom data for the specified implementation type.
@@ -96,7 +96,7 @@ Gets all custom data for the specified implementation type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getallparamcustdata">GetAllParamCustData</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getallparamcustdata">GetAllParamCustData</a>
 </td>
 <td align="left" width="63%">
 Gets all of the custom data for the specified function parameter.
@@ -105,7 +105,7 @@ Gets all of the custom data for the specified function parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getallvarcustdata">GetAllVarCustData</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getallvarcustdata">GetAllVarCustData</a>
 </td>
 <td align="left" width="63%">
 Gets the variable for the custom data.
@@ -114,7 +114,7 @@ Gets the variable for the custom data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getcustdata">GetCustData</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getcustdata">GetCustData</a>
 </td>
 <td align="left" width="63%">
 Gets the custom data.
@@ -123,7 +123,7 @@ Gets the custom data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getdocumentation2">GetDocumentation2</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getdocumentation2">GetDocumentation2</a>
 </td>
 <td align="left" width="63%">
 Retrieves the documentation string, the complete Help file name and path, the localization context to use, and the context ID for the library Help topic in the Help file.
@@ -132,7 +132,7 @@ Retrieves the documentation string, the complete Help file name and path, the lo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getfunccustdata">GetFuncCustData</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getfunccustdata">GetFuncCustData</a>
 </td>
 <td align="left" width="63%">
 Gets the custom data from the specified function.
@@ -141,7 +141,7 @@ Gets the custom data from the specified function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getfuncindexofmemid">GetFuncIndexOfMemId</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getfuncindexofmemid">GetFuncIndexOfMemId</a>
 </td>
 <td align="left" width="63%">
 Binds to a specific member based on a known DISPID, where the member name is not known (for example, when binding to a default member).
@@ -150,7 +150,7 @@ Binds to a specific member based on a known DISPID, where the member name is not
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getimpltypecustdata">GetImplTypeCustData</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getimpltypecustdata">GetImplTypeCustData</a>
 </td>
 <td align="left" width="63%">
 Gets the custom data of the implementation type.
@@ -159,7 +159,7 @@ Gets the custom data of the implementation type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getparamcustdata">GetParamCustData</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getparamcustdata">GetParamCustData</a>
 </td>
 <td align="left" width="63%">
 Gets the custom data of the specified parameter.
@@ -168,7 +168,7 @@ Gets the custom data of the specified parameter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-gettypeflags">GetTypeFlags</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-gettypeflags">GetTypeFlags</a>
 </td>
 <td align="left" width="63%">
 Returns the type flags without any allocations. This returns a flag that expands the type flags without growing the TYPEATTR (type attribute).
@@ -177,7 +177,7 @@ Returns the type flags without any allocations. This returns a flag that expands
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-gettypekind">GetTypeKind</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-gettypekind">GetTypeKind</a>
 </td>
 <td align="left" width="63%">
 Returns the TYPEKIND enumeration quickly, without doing any allocations.
@@ -186,7 +186,7 @@ Returns the TYPEKIND enumeration quickly, without doing any allocations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getvarcustdata">GetVarCustData</a>
+<a href="/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getvarcustdata">GetVarCustData</a>
 </td>
 <td align="left" width="63%">
 Gets the custom data of the specified variable.
@@ -195,7 +195,7 @@ Gets the custom data of the specified variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getvarindexofmemid">GetVarIndexOfMemId</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo2-getvarindexofmemid">GetVarIndexOfMemId</a>
 </td>
 <td align="left" width="63%">
 Binds to a specific member based on a known DISPID, where the member name is not known (for example, when binding to a default member).
@@ -206,5 +206,4 @@ Binds to a specific member based on a known DISPID, where the member name is not
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ms221172(v=vs.85)">Type Description Interfaces and Functions </a>
-
+<a href="/previous-versions/ms221172(v=vs.85)">Type Description Interfaces and Functions </a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends the functionality of <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>. <b>IConditionFactory2</b> provides methods for creating or resolving a condition tree that was obtained by parsing a query string.
+Extends the functionality of <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>. <b>IConditionFactory2</b> provides methods for creating or resolving a condition tree that was obtained by parsing a query string.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConditionFactory2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>. <b>IConditionFactory2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConditionFactory2</b> interface inherits from <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>. <b>IConditionFactory2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,44 +69,44 @@ The <b>IConditionFactory2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createbooleanleaf">CreateBooleanLeaf</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createbooleanleaf">CreateBooleanLeaf</a>
 </td>
 <td align="left" width="63%">
-Creates a search condition that is either <b>TRUE</b> or <b>FALSE</b>. The returned object supports <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
+Creates a search condition that is either <b>TRUE</b> or <b>FALSE</b>. The returned object supports <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createcompoundfromarray">CreateCompoundFromArray</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createcompoundfromarray">CreateCompoundFromArray</a>
 </td>
 <td align="left" width="63%">
-Creates a leaf condition node that is a conjunction (AND) or a disjunction (OR) from an array of condition nodes. The returned object supports             <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>.
+Creates a leaf condition node that is a conjunction (AND) or a disjunction (OR) from an array of condition nodes. The returned object supports             <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createcompoundfromobjectarray">CreateCompoundFromObjectArray</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createcompoundfromobjectarray">CreateCompoundFromObjectArray</a>
 </td>
 <td align="left" width="63%">
-Creates a leaf condition node that is a conjunction (AND) or a disjunction (OR) of a collection of subconditions. The returned object supports             <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>.
+Creates a leaf condition node that is a conjunction (AND) or a disjunction (OR) of a collection of subconditions. The returned object supports             <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createintegerleaf">CreateIntegerLeaf</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createintegerleaf">CreateIntegerLeaf</a>
 </td>
 <td align="left" width="63%">
-Creates a leaf condition node for an integer value. The returned object supports <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>.
+Creates a leaf condition node for an integer value. The returned object supports <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createnegation">CreateNegation</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createnegation">CreateNegation</a>
 </td>
 <td align="left" width="63%">
 Creates a condition node that is a logical negation (NOT) of another condition (a subnode of this node).
@@ -116,39 +116,39 @@ Creates a condition node that is a logical negation (NOT) of another condition (
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createstringleaf">CreateStringLeaf</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createstringleaf">CreateStringLeaf</a>
 </td>
 <td align="left" width="63%">
-Creates a leaf condition node for a string value that represents a comparison of property value and constant value. The returned object supports             <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>.
+Creates a leaf condition node for a string value that represents a comparison of property value and constant value. The returned object supports             <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createtruefalse">CreateTrueFalse</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createtruefalse">CreateTrueFalse</a>
 </td>
 <td align="left" width="63%">
-Creates a search condition that is either <b>TRUE</b> or <b>FALSE</b>. The returned object supports <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
+Creates a search condition that is either <b>TRUE</b> or <b>FALSE</b>. The returned object supports <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createleaf">MakeLeaf</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createleaf">MakeLeaf</a>
 </td>
 <td align="left" width="63%">
-Creates a leaf condition node for any value. The returned object supports <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>.
+Creates a leaf condition node for any value. The returned object supports <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-resolvecondition">ResolveCondition</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-resolvecondition">ResolveCondition</a>
 </td>
 <td align="left" width="63%">
-Performs a variety of transformations on a condition tree, and thereby the resolved condition for evaluation. The returned object supports <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>.
+Performs a variety of transformations on a condition tree, and thereby the resolved condition for evaluation. The returned object supports <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> and <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Sa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-condition_creation_options">CONDITION_CREATION_OPTIONS</a>
+<a href="/windows/desktop/api/structuredquery/ne-structuredquery-condition_creation_options">CONDITION_CREATION_OPTIONS</a>
 
 
 
@@ -172,17 +172,16 @@ The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Sa
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>
+<a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
+<a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>
+<a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>
 
 
 
 <b>Reference</b>
-

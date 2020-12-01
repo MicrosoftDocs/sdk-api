@@ -51,21 +51,21 @@ api_name:
 ## -description
 
 The type of the endpoint IDentity, used as a selector for subtypes of
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_identity">WS_ENDPOINT_IDENTITY</a>.
+                    <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_identity">WS_ENDPOINT_IDENTITY</a>.
 
 ## -enum-fields
 
 ### -field WS_DNS_ENDPOINT_IDENTITY_TYPE
 
-Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_dns_endpoint_identity">WS_DNS_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="/windows/desktop/api/webservices/ns-webservices-ws_dns_endpoint_identity">WS_DNS_ENDPOINT_IDENTITY</a>.
 
 ### -field WS_UPN_ENDPOINT_IDENTITY_TYPE
 
-Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_upn_endpoint_identity">WS_UPN_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="/windows/desktop/api/webservices/ns-webservices-ws_upn_endpoint_identity">WS_UPN_ENDPOINT_IDENTITY</a>.
 
 ### -field WS_SPN_ENDPOINT_IDENTITY_TYPE
 
-Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_spn_endpoint_identity">WS_SPN_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="/windows/desktop/api/webservices/ns-webservices-ws_spn_endpoint_identity">WS_SPN_ENDPOINT_IDENTITY</a>.
 
 ### -field WS_RSA_ENDPOINT_IDENTITY_TYPE
 
@@ -74,4 +74,3 @@ Type ID for <a href="https://docs.microsoft.com/windows/desktop/api/webservices/
 ### -field WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE
 
 Type ID for <a href="/windows/win32/api/webservices/ns-webservices-ws_unknown_endpoint_identity">WS_UNKNOWN_ENDPOINT_IDENTITY</a>.
-

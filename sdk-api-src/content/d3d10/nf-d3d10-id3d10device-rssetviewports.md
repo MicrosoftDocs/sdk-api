@@ -51,29 +51,28 @@ api_name:
 
 ## -description
 
-Bind an array of <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-getting-started">viewports</a> to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a> of the pipeline.
+Bind an array of <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage-getting-started">viewports</a> to the <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a> of the pipeline.
 
 ## -parameters
 
 ### -param NumViewports [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of viewports to bind.
 
 ### -param pViewports [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_viewport">D3D10_VIEWPORT</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_viewport">D3D10_VIEWPORT</a>*</b>
 
-An array of viewports (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ns-d3d10-d3d10_viewport">D3D10_VIEWPORT</a>) to bind to the device. Each viewport must have its extents within the allowed ranges: D3D10_VIEWPORT_BOUNDS_MIN, D3D10_VIEWPORT_BOUNDS_MAX, D3D10_MIN_DEPTH, and D3D10_MAX_DEPTH.
+An array of viewports (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d3d10_viewport">D3D10_VIEWPORT</a>) to bind to the device. Each viewport must have its extents within the allowed ranges: D3D10_VIEWPORT_BOUNDS_MIN, D3D10_VIEWPORT_BOUNDS_MAX, D3D10_MIN_DEPTH, and D3D10_MAX_DEPTH.
 
 ## -remarks
 
 All viewports must be set atomically as one operation. Any viewports not defined by the call are disabled.
 
-Which viewport to use is determined by the SV_ViewportArrayIndex semantic output by a geometry shader (see <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">shader semantic syntax</a>). If a geometry shader does not make use of the SV_ViewportArrayIndex semantic then Direct3D will use the first viewport in the array.
+Which viewport to use is determined by the SV_ViewportArrayIndex semantic output by a geometry shader (see <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics">shader semantic syntax</a>). If a geometry shader does not make use of the SV_ViewportArrayIndex semantic then Direct3D will use the first viewport in the array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>

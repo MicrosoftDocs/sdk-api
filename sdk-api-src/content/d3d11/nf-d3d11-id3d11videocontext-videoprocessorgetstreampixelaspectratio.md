@@ -56,11 +56,11 @@ Gets the pixel aspect ratio for an input stream on the video processor.
 
 ### -param pVideoProcessor [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessor">ID3D11VideoDevice::CreateVideoProcessor</a>.
+A pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessor">ID3D11VideoDevice::CreateVideoProcessor</a>.
 
 ### -param StreamIndex [in]
 
-The zero-based index of the input stream. To get the maximum number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcaps">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> and check the <b>MaxStreamStates</b> structure member.
+The zero-based index of the input stream. To get the maximum number of streams, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videoprocessorenumerator-getvideoprocessorcaps">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> and check the <b>MaxStreamStates</b> structure member.
 
 ### -param pEnabled [out]
 
@@ -68,11 +68,11 @@ Receives the value <b>TRUE</b> if the pixel aspect ratio is specified. Otherwise
 
 ### -param pSourceAspectRatio [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a> structure. If *<i>pEnabled</i> is <b>TRUE</b>, this parameter receives the pixel aspect ratio of the source rectangle.
+A pointer to a <a href="/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a> structure. If *<i>pEnabled</i> is <b>TRUE</b>, this parameter receives the pixel aspect ratio of the source rectangle.
 
 ### -param pDestinationAspectRatio [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a> structure. If *<i>pEnabled</i> is <b>TRUE</b>, this parameter receives the pixel aspect ratio of the destination rectangle.
+A pointer to a <a href="/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational">DXGI_RATIONAL</a> structure. If *<i>pEnabled</i> is <b>TRUE</b>, this parameter receives the pixel aspect ratio of the destination rectangle.
 
 ## -remarks
 
@@ -80,5 +80,4 @@ When the method returns, if <i>*pEnabled</i> is <b>TRUE</b>, the <i>pSourceAspec
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>

@@ -72,5 +72,4 @@ The root path of the CSV.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>

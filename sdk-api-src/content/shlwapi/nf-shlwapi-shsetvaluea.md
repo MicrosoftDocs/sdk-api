@@ -107,7 +107,7 @@ The address of a null-terminated string that specifies the value. This value can
 
 Type: <b>DWORD</b>
 
-Type of data to be stored. This parameter must be the <b>REG_SZ</b> type. For more information, see <a href="https://docs.microsoft.com/windows/desktop/shell/schemas">Registry Data Types</a>.
+Type of data to be stored. This parameter must be the <b>REG_SZ</b> type. For more information, see <a href="/windows/desktop/shell/hkey-type">Registry Data Types</a>.
 
 ### -param pvData [in, optional]
 
@@ -125,10 +125,9 @@ Length, in bytes, of the buffer pointed to by the <i>pvData</i> parameter. If th
 
 Type: <b>LSTATUS</b>
 
-Returns ERROR_SUCCESS if successful; otherwise, a nonzero error code defined in Winerror.h. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
+Returns ERROR_SUCCESS if successful; otherwise, a nonzero error code defined in Winerror.h. You can use the <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
 
 ## -remarks
 
 > [!NOTE]
 > The shlwapi.h header defines SHSetValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

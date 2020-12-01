@@ -62,7 +62,7 @@ api_name:
 
 Compares two character strings. The comparison is not case-sensitive.
 
-To perform a comparison that is case-sensitive, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a> function.
+To perform a comparison that is case-sensitive, use the <a href="/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a> function.
 
 ## -parameters
 
@@ -94,16 +94,16 @@ The <b>lstrcmpi</b> function compares two strings by checking the first characte
 
  Note that the <i>lpString1</i> and <i>lpString2</i> parameters must be null-terminated, otherwise the string comparison can be incorrect. 
 
-The function calls <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>, using the current thread locale, and subtracts 2 from the result, to maintain the C run-time conventions for comparing strings.
+The function calls <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>, using the current thread locale, and subtracts 2 from the result, to maintain the C run-time conventions for comparing strings.
 
-For some locales, the <b>lstrcmpi</b> function may be insufficient. If this occurs, use <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a> to ensure proper comparison. For example, in Japan call  with the <b>NORM_IGNORECASE</b>, <b>NORM_IGNOREKANATYPE</b>, and  <b>NORM_IGNOREWIDTH</b>  values to achieve the most appropriate non-exact string comparison. The <b>NORM_IGNOREKANATYPE</b> and <b>NORM_IGNOREWIDTH</b> values are ignored in non-Asian locales, so you can set these values for all locales and be guaranteed to have a culturally correct "insensitive" sorting regardless of the locale. Note that specifying these values slows performance, so use them only when necessary.
+For some locales, the <b>lstrcmpi</b> function may be insufficient. If this occurs, use <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a> to ensure proper comparison. For example, in Japan call  with the <b>NORM_IGNORECASE</b>, <b>NORM_IGNOREKANATYPE</b>, and  <b>NORM_IGNOREWIDTH</b>  values to achieve the most appropriate non-exact string comparison. The <b>NORM_IGNOREKANATYPE</b> and <b>NORM_IGNOREWIDTH</b> values are ignored in non-Asian locales, so you can set these values for all locales and be guaranteed to have a culturally correct "insensitive" sorting regardless of the locale. Note that specifying these values slows performance, so use them only when necessary.
 
 With a double-byte character set (DBCS) version of the system, this function can compare two DBCS strings. 
 
-The <b>lstrcmpi</b> function uses a word sort, rather than a string sort. A word sort treats hyphens and apostrophes differently than it treats other symbols that are not alphanumeric, in order to ensure that words such as "coop" and "co-op" stay together within a sorted list. For a detailed discussion of word sorts and string sorts, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>. 
+The <b>lstrcmpi</b> function uses a word sort, rather than a string sort. A word sort treats hyphens and apostrophes differently than it treats other symbols that are not alphanumeric, in order to ensure that words such as "coop" and "co-op" stay together within a sorted list. For a detailed discussion of word sorts and string sorts, see <a href="/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>. 
 
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
-See <a href="https://docs.microsoft.com/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a> for security considerations regarding 
+See <a href="/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a> for security considerations regarding 
 
 choice of comparison functions.
 
@@ -116,15 +116,15 @@ choice of comparison functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringordinal">CompareStringOrdinal</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringordinal">CompareStringOrdinal</a>
 
 
 
@@ -140,21 +140,20 @@ choice of comparison functions.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
+<a href="/windows/desktop/menurc/strings">Strings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcmpa">lstrcmp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>

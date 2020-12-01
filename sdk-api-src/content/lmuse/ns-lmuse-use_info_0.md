@@ -75,21 +75,20 @@ Pointer to a Unicode string that specifies the share name of the remote resource
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netuseenum">NetUseEnum</a>
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netuseenum">NetUseEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmuse/nf-lmuse-netusegetinfo">NetUseGetInfo</a>
+<a href="/windows/desktop/api/lmuse/nf-lmuse-netusegetinfo">NetUseGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/use-functions">Use Functions</a>
-
+<a href="/windows/desktop/NetMgmt/use-functions">Use Functions</a>

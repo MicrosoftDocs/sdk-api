@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes methods that get and set the parent and the parent's child ID. While <b>IParentAndItem</b> is typically implemented on IShellItems, it is not specific to <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
+Exposes methods that get and set the parent and the parent's child ID. While <b>IParentAndItem</b> is typically implemented on IShellItems, it is not specific to <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IParentAndItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IParentAndItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IParentAndItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IParentAndItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IParentAndItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iparentanditem-getparentanditem">GetParentAndItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iparentanditem-getparentanditem">GetParentAndItem</a>
 </td>
 <td align="left" width="63%">
 Gets the parent of an item and the parent's child ID.
@@ -78,7 +78,7 @@ Gets the parent of an item and the parent's child ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iparentanditem-setparentanditem">SetParentAndItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iparentanditem-setparentanditem">SetParentAndItem</a>
 </td>
 <td align="left" width="63%">
 Sets the parent of an item and the parent's child ID.
@@ -89,5 +89,4 @@ Sets the parent of an item and the parent's child ID.
 
 ## -remarks
 
-The performance improvement using this interface can be noted in comparison with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistidlist">IPersistIDList</a>, an interface that uses absolute item identifier lists. Subsequent operations on objects that implement <b>IPersistIDList</b> may require <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject">IShellFolder::BindToObject</a> calls, and these calls may impact performance.  In the case of IShellItems and participating IShellFolders that implement <b>IParentAndItem</b>, the parent <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> may already be cached. By implementing <b>IParentAndItem</b> and then getting/setting the parent <b>IShellFolder</b> directly, the call to <b>IShellFolder::BindToObject</b> on the item identifier list to retrieve the <b>IShellFolder</b> interface is eliminated.
-
+The performance improvement using this interface can be noted in comparison with <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistidlist">IPersistIDList</a>, an interface that uses absolute item identifier lists. Subsequent operations on objects that implement <b>IPersistIDList</b> may require <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-bindtoobject">IShellFolder::BindToObject</a> calls, and these calls may impact performance.  In the case of IShellItems and participating IShellFolders that implement <b>IParentAndItem</b>, the parent <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> may already be cached. By implementing <b>IParentAndItem</b> and then getting/setting the parent <b>IShellFolder</b> directly, the call to <b>IShellFolder::BindToObject</b> on the item identifier list to retrieve the <b>IShellFolder</b> interface is eliminated.

@@ -72,13 +72,12 @@ Width and height, in logical units, of the ellipse used to draw rounded corners.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-roundrect">RoundRect</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-roundrect">RoundRect</a>

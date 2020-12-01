@@ -56,7 +56,7 @@ Creates a session object.
 
 ### -param apiHandle [in]
 
-Specifies the API handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmaninitialize">WSManInitialize</a> call. This parameter cannot be <b>NULL</b>.
+Specifies the API handle returned by the <a href="/windows/desktop/api/wsman/nf-wsman-wsmaninitialize">WSManInitialize</a> call. This parameter cannot be <b>NULL</b>.
 
 ### -param connection [in, optional]
 
@@ -121,17 +121,16 @@ Reserved for future use. Must be zero.
 
 Defines the authentication method such as Negotiate, Kerberos, Digest, Basic, or client certificate. If the authentication mechanism is Negotiate, Kerberos, Digest, or Basic, the structure can also contain the credentials used for authentication. If  client certificate authentication is used, the certificate thumbprint must be specified.
 
-If credentials are specified, this parameter contains the user name and password of a local account or domain account. If this parameter is <b>NULL</b>, the default credentials are used. The default credentials are the credentials that the current thread is executing under. The client must explicitly specify the credentials when Basic or Digest authentication is used. If explicit credentials are used, both the user name and the password must be valid. For more information about the authentication credentials, see the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_authentication_credentials">WSMAN_AUTHENTICATION_CREDENTIALS</a> structure.
+If credentials are specified, this parameter contains the user name and password of a local account or domain account. If this parameter is <b>NULL</b>, the default credentials are used. The default credentials are the credentials that the current thread is executing under. The client must explicitly specify the credentials when Basic or Digest authentication is used. If explicit credentials are used, both the user name and the password must be valid. For more information about the authentication credentials, see the <a href="/windows/desktop/api/wsman/ns-wsman-wsman_authentication_credentials">WSMAN_AUTHENTICATION_CREDENTIALS</a> structure.
 
 ### -param proxyInfo [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_proxy_info">WSMAN_PROXY_INFO</a> structure that specifies proxy information. This value can be <b>NULL</b>.
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_proxy_info">WSMAN_PROXY_INFO</a> structure that specifies proxy information. This value can be <b>NULL</b>.
 
 ### -param session [out]
 
-Defines the session handle that uniquely identifies the session. This parameter cannot be <b>NULL</b>. This handle  should be closed by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanclosesession">WSManCloseSession</a> method.
+Defines the session handle that uniquely identifies the session. This parameter cannot be <b>NULL</b>. This handle  should be closed by calling the <a href="/windows/desktop/api/wsman/nf-wsman-wsmanclosesession">WSManCloseSession</a> method.
 
 ## -returns
 
 If the function succeeds, the return value is zero. Otherwise, the return value is an error code.
-

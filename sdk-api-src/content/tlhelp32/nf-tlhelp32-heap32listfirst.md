@@ -59,52 +59,51 @@ Retrieves information about the first heap that has been allocated by a specifie
 ### -param hSnapshot [in]
 
 A handle to the snapshot returned from a previous call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a> function.
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a> function.
 
 ### -param lphl [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-heaplist32">HEAPLIST32</a> structure.
+<a href="/windows/desktop/api/tlhelp32/ns-tlhelp32-heaplist32">HEAPLIST32</a> structure.
 
 ## -returns
 
 Returns <b>TRUE</b> if the first entry of the heap list has been copied to the buffer or <b>FALSE</b> otherwise. The <b>ERROR_NO_MORE_FILES</b> error value is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function when no heap list exists or the snapshot does not contain heap list information.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function when no heap list exists or the snapshot does not contain heap list information.
 
 ## -remarks
 
 The calling application must set the <b>dwSize</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-heapentry32">HEAPLIST32</a> to the size, in bytes, of the structure. 
+<a href="/windows/desktop/api/tlhelp32/ns-tlhelp32-heapentry32">HEAPLIST32</a> to the size, in bytes, of the structure. 
 <b>Heap32ListFirst</b> changes <b>dwSize</b> to the number of bytes written to the structure. This will never be greater than the initial value of <b>dwSize</b>, but it may be smaller. If the value is smaller, do not rely on the values of any members whose offsets are greater than this value.
 
 To retrieve information about other heaps in the heap list, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listnext">Heap32ListNext</a> function.
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listnext">Heap32ListNext</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/traversing-the-heap-list">Traversing the Heap List</a>.
+<a href="/windows/desktop/ToolHelp/traversing-the-heap-list">Traversing the Heap List</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-createtoolhelp32snapshot">CreateToolhelp32Snapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/ns-tlhelp32-heaplist32">HEAPLIST32</a>
+<a href="/windows/desktop/api/tlhelp32/ns-tlhelp32-heaplist32">HEAPLIST32</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/heap-lists-and-heap-walking">Heap Lists and Heap Walking</a>
+<a href="/windows/desktop/ToolHelp/heap-lists-and-heap-walking">Heap Lists and Heap Walking</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listnext">Heap32ListNext</a>
+<a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listnext">Heap32ListNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
-
+<a href="/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>

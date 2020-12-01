@@ -102,5 +102,4 @@ This enumeration is used in custom painting.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/math-input-control-reference">Math Input Control Reference</a>
-
+<a href="/windows/desktop/tablet/math-input-control-reference">Math Input Control Reference</a>

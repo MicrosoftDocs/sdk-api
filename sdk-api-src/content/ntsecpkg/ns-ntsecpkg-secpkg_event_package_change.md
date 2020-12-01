@@ -54,8 +54,8 @@ api_name:
 
 ## -description
 
-The <b>SECPKG_EVENT_PACKAGE_CHANGE</b> structure contains information about changes in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> availability. This structure is indirectly used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification">RegisterNotification</a> function. It is returned to a registered notification function when the function is registered to receive notifications for the <i>NotificationClass</i> parameter value NOTIFY_CLASS_PACKAGE_CHANGE.
+The <b>SECPKG_EVENT_PACKAGE_CHANGE</b> structure contains information about changes in <a href="/windows/desktop/SecGloss/s-gly">security package</a> availability. This structure is indirectly used by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_register_notification">RegisterNotification</a> function. It is returned to a registered notification function when the function is registered to receive notifications for the <i>NotificationClass</i> parameter value NOTIFY_CLASS_PACKAGE_CHANGE.
 
 ## -struct-fields
 
@@ -107,4 +107,3 @@ The identifier of the security package.
 ### -field PackageName
 
 The name of the security package.
-

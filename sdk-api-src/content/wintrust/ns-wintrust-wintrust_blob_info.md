@@ -57,11 +57,11 @@ api_name:
 <p class="CCE_Message">[The  <b>WINTRUST_BLOB_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>WINTRUST_BLOB_INFO</b> structure is used when calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to verify a memory <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.<div class="alert"><b>Note</b>  This structure is not currently supported for the following Inbox file formats. There may be other formats besides these that are not supported. <ul>
+<a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to verify a memory <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>.<div class="alert"><b>Note</b>  This structure is not currently supported for the following Inbox file formats. There may be other formats besides these that are not supported. <ul>
 <li>Portable executable (such as .exe, .dll, .ocx)</li>
 <li>Cab files (.cab)</li>
 <li>Catalog files (.cat)</li>
-</ul>This structure is only supported by files formats with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) providers that support this structure.</div>
+</ul>This structure is only supported by files formats with <a href="/windows/desktop/SecGloss/s-gly">subject interface package</a> (SIP) providers that support this structure.</div>
 <div> </div>
 
 ## -struct-fields
@@ -93,4 +93,3 @@ This member is reserved. Do not use it.
 ### -field pbMemSignedMsg
 
 This member is reserved. Do not use it.
-

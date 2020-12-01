@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the image size for a video format. Given a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure, this function calculates the correct value of the <b>biSizeImage</b> member.
+Retrieves the image size for a video format. Given a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure, this function calculates the correct value of the <b>biSizeImage</b> member.
 
 ## -parameters
 
@@ -129,5 +129,4 @@ This function is available on the following platforms if the Windows Media Forma
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

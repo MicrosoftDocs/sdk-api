@@ -56,7 +56,7 @@ Sets a callback function to be called at a fixed interval.
 
 ### -param Callback [in]
 
-Pointer to the callback function, of type <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nc-mfapi-mfperiodiccallback">MFPERIODICCALLBACK</a>.
+Pointer to the callback function, of type <a href="/windows/desktop/api/mfapi/nc-mfapi-mfperiodiccallback">MFPERIODICCALLBACK</a>.
 
 ### -param pContext [in]
 
@@ -64,7 +64,7 @@ Pointer to a caller-provided object that implements <b>IUnknown</b>, or <b>NULL<
 
 ### -param pdwKey [out]
 
-Receives a key that can be used to cancel the callback. To cancel the callback, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfremoveperiodiccallback">MFRemovePeriodicCallback</a> and pass this key as the <i>dwKey</i> parameter.
+Receives a key that can be used to cancel the callback. To cancel the callback, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfremoveperiodiccallback">MFRemovePeriodicCallback</a> and pass this key as the <i>dwKey</i> parameter.
 
 ## -returns
 
@@ -90,13 +90,12 @@ The function succeeded.
 
 ## -remarks
 
-To get the timer interval for the periodic callback, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfgettimerperiodicity">MFGetTimerPeriodicity</a>.
+To get the timer interval for the periodic callback, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfgettimerperiodicity">MFGetTimerPeriodicity</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
-
+<a href="/windows/desktop/medfound/work-queues">Work Queues</a>

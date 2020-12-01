@@ -73,9 +73,8 @@ This callback can be invoked at any time. This callback function should advance 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-advancelogbase">AdvanceLogBase</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-advancelogbase">AdvanceLogBase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-writelogrestartarea">WriteLogRestartArea</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-writelogrestartarea">WriteLogRestartArea</a>

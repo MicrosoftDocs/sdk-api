@@ -104,11 +104,10 @@ The Media Session has been shut down.
 
 ## -remarks
 
-This method is asynchronous. When the operation completes, the Media Session sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mesessiontopologiescleared">MESessionTopologiesCleared</a> event.
+This method is asynchronous. When the operation completes, the Media Session sends an <a href="/windows/desktop/medfound/mesessiontopologiescleared">MESessionTopologiesCleared</a> event.
 
-This method does not clear the current topology; it only removes topologies that are placed in the queue, waiting for playback. To remove the current topology, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">IMFMediaSession::SetTopology</a> with the <b>MFSESSION_SETTOPOLOGY_CLEAR_CURRENT</b> flag.
+This method does not clear the current topology; it only removes topologies that are placed in the queue, waiting for playback. To remove the current topology, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-settopology">IMFMediaSession::SetTopology</a> with the <b>MFSESSION_SETTOPOLOGY_CLEAR_CURRENT</b> flag.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>

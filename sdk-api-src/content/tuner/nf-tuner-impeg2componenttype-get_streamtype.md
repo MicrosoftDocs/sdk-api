@@ -56,7 +56,7 @@ The <b>get_StreamType</b> method retrieves the stream type.
 
 ### -param MP2StreamType [out]
 
-Pointer to a variable of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/mpeg2streamtype">MPEG2StreamType</a> that receives the stream type value.
+Pointer to a variable of type <a href="/previous-versions/windows/desktop/mstv/mpeg2streamtype">MPEG2StreamType</a> that receives the stream type value.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2componenttype">IMPEG2ComponentType Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2componenttype">IMPEG2ComponentType Interface</a>

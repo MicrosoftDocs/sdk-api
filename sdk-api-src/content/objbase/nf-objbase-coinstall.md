@@ -66,11 +66,11 @@ Reserved for future use; this value must be 0.
 
 ### -param pClassSpec [in]
 
-A pointer to a <b>uCLSSPEC</b> union. The <b>tyspec</b> member must be set to TYSPEC_CLSID and the <b>clsid</b> member must be set to the CLSID to be installed. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DevNotes/tyspec">TYSPEC</a>.
+A pointer to a <b>uCLSSPEC</b> union. The <b>tyspec</b> member must be set to TYSPEC_CLSID and the <b>clsid</b> member must be set to the CLSID to be installed. For more information, see <a href="/windows/desktop/DevNotes/tyspec">TYSPEC</a>.
 
 ### -param pQuery [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/bb432414(v=vs.85)">QUERYCONTEXT</a> structure. The <b>dwContext</b> field must be set to the desired <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> value. For more information, see <b>QUERYCONTEXT</b>.
+A pointer to a <a href="/previous-versions/bb432414(v=vs.85)">QUERYCONTEXT</a> structure. The <b>dwContext</b> field must be set to the desired <a href="/windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx">CLSCTX</a> value. For more information, see <b>QUERYCONTEXT</b>.
 
 ### -param pszCodeBase [in]
 
@@ -111,9 +111,8 @@ The <b>tyspec</b> field of <i>pClassSpec</i> was not set to TYSPEC_CLSID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/bb432414(v=vs.85)">QUERYCONTEXT</a>
+<a href="/previous-versions/bb432414(v=vs.85)">QUERYCONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/tyspec">TYSPEC</a>
-
+<a href="/windows/desktop/DevNotes/tyspec">TYSPEC</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the use of a color. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ivisualproperties">IVisualProperties</a> methods.
+Specifies the use of a color. Used by <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ivisualproperties">IVisualProperties</a> methods.
 
 ## -enum-fields
 
@@ -73,4 +73,3 @@ A subtext color.
 ### -field VPCF_TEXTBACKGROUND
 
 <b>Windows 7 and later</b>. A text background color.
-

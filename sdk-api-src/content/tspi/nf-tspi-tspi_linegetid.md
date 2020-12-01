@@ -70,12 +70,12 @@ The service provider's handle to the call to be queried.
 ### -param dwSelect
 
 Specifies whether the device identifier requested is associated with the line, address, or a single call. The <i>dwSelect</i> parameter can have only one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallselect--constants">LINECALLSELECT_ constants</a>.
+<a href="/windows/desktop/Tapi/linecallselect--constants">LINECALLSELECT_ constants</a>.
 
 ### -param lpDeviceID
 
 A pointer to the memory location of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> where the device identifier is returned. Upon successful completion of the request, this location is filled with the device identifier. The format of the returned information depends on the method used by the device class (API) for naming devices.
+<a href="/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> where the device identifier is returned. Upon successful completion of the request, this location is filled with the device identifier. The format of the returned information depends on the method used by the device class (API) for naming devices.
 
 ### -param lpszDeviceClass
 
@@ -85,13 +85,13 @@ A pointer to a null-terminated Unicode string that specifies the device class of
 
 The process handle of the application on behalf of which the 
 <b>TSPI_lineGetID</b> function is invoked. If the information returned in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> structure includes a handle for use by the application, the service provider should create or duplicate the handle for the process. 
+<a href="/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> structure includes a handle for use by the application, the service provider should create or duplicate the handle for the process. 
 
 
 
 
 If <i>hTargetProcess</i> is set to INVALID_HANDLE_VALUE, then the application is executing on a remote client system and it is not possible to create a duplicate handle directly. Instead, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> structure should contain a UNC name of a network device or other name that the remote client can use to access the device. If this is not possible, then the function should fail.
+<a href="/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> structure should contain a UNC name of a network device or other name that the remote client can use to access the device. If this is not possible, then the function should fail.
 
 ## -returns
 
@@ -106,24 +106,23 @@ The service provide returns LINEERR_INVALLINEHANDLE if <i>dwSelect</i> is LINECA
 The service provider returns LINEERR_INVALCALLHANDLE if <i>dwSelect</i> is LINECALLSELECT_CALL and <i>hdCall</i> is invalid.
 
 The service provider should support the tapi/line device class to allow applications to determine the real line device identifier of an opened line. In that case, the variable data returned is the <i>dwDeviceID</i>. For more information about common device class names, see 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tspi-device-classes">TSPI Device Classes</a>.
+<a href="/windows/desktop/Tapi/tspi-device-classes">TSPI Device Classes</a>.
 
 A vendor that defines a device-specific media type also needs to define the corresponding device-specific (proprietary) API to manage devices of the media type. To avoid collisions on device class names assigned independently by different vendors, a vendor should select a name that uniquely identifies the vendor and then the media type; for example: "intel/video".
 
 The service provider fills in all the members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
+<a href="/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a> data structure, except for <b>dwTotalSize</b>, which is filled in by TAPI. The service provider must not overwrite the <b>dwTotalSize</b> member.
 
 The service provider does not need to be concerned with handling tapi/line and tapi/phone device classes because TAPI handles these for the service provider. Therefore, code for handling these device classes is optional.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevconfig">TSPI_lineGetDevConfig</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevconfig">TSPI_lineGetDevConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetdevconfig">TSPI_lineSetDevConfig</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linesetdevconfig">TSPI_lineSetDevConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
-
+<a href="/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>

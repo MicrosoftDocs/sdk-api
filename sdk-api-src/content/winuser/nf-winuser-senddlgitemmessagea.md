@@ -48,6 +48,7 @@ api_name:
  - SendDlgItemMessage
  - SendDlgItemMessageA
  - SendDlgItemMessageW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 ---
 
 # SendDlgItemMessageA function
@@ -77,7 +78,7 @@ Type: <b>UINT</b>
 
 The message to be sent.
 
-For lists of the system-provided messages, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
+For lists of the system-provided messages, see <a href="/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
 
 ### -param wParam [in]
 
@@ -101,12 +102,12 @@ The return value specifies the result of the message processing and depends on t
 
 The <b>SendDlgItemMessage</b> function does not return until the message has been processed. 
 
-Using <b>SendDlgItemMessage</b> is identical to retrieving a handle to the specified control and calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function. 
+Using <b>SendDlgItemMessage</b> is identical to retrieving a handle to the specified control and calling the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Creating a Modeless Dialog Box</a>.
+For an example, see <a href="/windows/desktop/dlgbox/using-dialog-boxes">Creating a Modeless Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -122,7 +123,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
@@ -130,5 +131,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>

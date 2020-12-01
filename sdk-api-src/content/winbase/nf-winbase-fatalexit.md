@@ -69,13 +69,12 @@ An application should only use
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/communicating-with-the-debugger">Communicating with the Debugger</a>
+<a href="/windows/desktop/Debug/communicating-with-the-debugger">Communicating with the Debugger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
+<a href="/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-fatalexit">FatalAppExit</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-fatalexit">FatalAppExit</a>

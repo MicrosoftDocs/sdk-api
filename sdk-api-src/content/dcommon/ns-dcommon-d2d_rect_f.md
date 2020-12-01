@@ -80,5 +80,4 @@ The y-coordinate of the lower-right corner of the rectangle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>
-
+<a href="/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>

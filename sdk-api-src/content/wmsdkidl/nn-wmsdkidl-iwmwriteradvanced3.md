@@ -56,7 +56,7 @@ The <b>IWMWriterAdvanced3</b> interface provides additional functionality for th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterAdvanced3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2">IWMWriterAdvanced2</a>. <b>IWMWriterAdvanced3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterAdvanced3</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2">IWMWriterAdvanced2</a>. <b>IWMWriterAdvanced3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMWriterAdvanced3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced3-getstatisticsex">GetStatisticsEx</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced3-getstatisticsex">GetStatisticsEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves extended statistics for the writer.
@@ -80,7 +80,7 @@ Retrieves extended statistics for the writer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced3-setnonblocking">SetNonBlocking</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced3-setnonblocking">SetNonBlocking</a>
 </td>
 <td align="left" width="63%">
 Configures the writer so that it does not block the calling thread.
@@ -89,21 +89,20 @@ Configures the writer so that it does not block the calling thread.
 </tr>
 </table> 
 
-For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>.
+For information about which interfaces can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/writer-object">Writer Object</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2">IWMWriterAdvanced2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2">IWMWriterAdvanced2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>
+<a href="/windows/desktop/wmformat/writer-object">Writer Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writing-asf-files">Writing ASF Files</a>
-
+<a href="/windows/desktop/wmformat/writing-asf-files">Writing ASF Files</a>

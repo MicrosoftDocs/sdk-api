@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-The <b>Next</b> method retrieves a specified number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures, that follow subsequently in the enumeration sequence. If fewer than the requested number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures exist in the enumeration sequence, it retrieves the remaining <b>STATPROPSTG</b> structures.
+The <b>Next</b> method retrieves a specified number of <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures, that follow subsequently in the enumeration sequence. If fewer than the requested number of <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures exist in the enumeration sequence, it retrieves the remaining <b>STATPROPSTG</b> structures.
 
 ## -parameters
 
 ### -param celt [in]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures requested.
+The number of <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures requested.
 
 ### -param rgelt [out]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures returned.
+An array of <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures returned.
 
 ### -param pceltFetched [out]
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures  retrieved in the <i>rgelt</i> parameter.
+The number of <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures  retrieved in the <i>rgelt</i> parameter.
 
 ## -returns
 
@@ -82,7 +82,7 @@ This method supports the following return values.
 </dl>
 </td>
 <td width="60%">
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures returned is equal to the number specified in the <i>celt</i> parameter.
+The number of <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures returned is equal to the number specified in the <i>celt</i> parameter.
 
 </td>
 </tr>
@@ -93,9 +93,8 @@ The number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns
 </dl>
 </td>
 <td width="60%">
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures returned is less than the number specified in the <i>celt</i> parameter.
+The number of <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structures returned is less than the number specified in the <i>celt</i> parameter.
 
 </td>
 </tr>
 </table>
-

@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>GetCodecInterface</b> method is used to retrieve a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmdxva/nn-wmdxva-iwmcodecamvideoaccelerator">IWMCodecAMVideoAccelerator</a> interface exposed on the decoder <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">DMO</a>.
+The <b>GetCodecInterface</b> method is used to retrieve a pointer to the <a href="/windows/desktop/api/wmdxva/nn-wmdxva-iwmcodecamvideoaccelerator">IWMCodecAMVideoAccelerator</a> interface exposed on the decoder <a href="/windows/desktop/wmformat/wmformat-glossary">DMO</a>.
 
 ## -parameters
 
@@ -104,9 +104,8 @@ The WM Reader has no pointer to the codec.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enabling-directx-video-acceleration">Enabling DirectX Video Acceleration</a>
+<a href="/windows/desktop/wmformat/enabling-directx-video-acceleration">Enabling DirectX Video Acceleration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderaccelerator">IWMReaderAccelerator Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderaccelerator">IWMReaderAccelerator Interface</a>

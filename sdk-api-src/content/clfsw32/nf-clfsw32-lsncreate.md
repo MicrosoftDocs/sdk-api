@@ -68,21 +68,20 @@ The record sequence number. This value must be  an integer between  0 - 511.
 
 ## -returns
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that represents the container ID, block offset, and record sequence number that is supplied by the caller.
+Returns a <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a> structure that represents the container ID, block offset, and record sequence number that is supplied by the caller.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
+<a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-lsnblockoffset">LsnBlockOffset</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-lsnblockoffset">LsnBlockOffset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-lsncontainer">LsnContainer</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-lsncontainer">LsnContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-lsnrecordsequence">LsnRecordSequence</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-lsnrecordsequence">LsnRecordSequence</a>

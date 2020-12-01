@@ -100,19 +100,18 @@ The method was successful.
 Anchors are always positioned between characters or regions. When two anchors are between the same characters, being at the same offset within the text stream, and within the same region, <b>IAnchor::IsEqual</b> returns <b>TRUE</b>. Otherwise it returns <b>FALSE</b>.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-compare">IAnchor::Compare
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-compare">IAnchor::Compare
         </a> incorporates the same functionality as <b>IAnchor::IsEqual</b>. However, because <b>IAnchor::IsEqual</b> is more specific, it can have a more efficient implementation on the server.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Anchors</a>
+<a href="/windows/desktop/TSF/ranges">Anchors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-compare">IAnchor::Compare
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-compare">IAnchor::Compare
       </a>
-

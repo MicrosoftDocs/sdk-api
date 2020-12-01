@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the sharing mode of an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>.
+Specifies the sharing mode of an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ The device is in controller mode, which means its settings can be modified.
 ### -field MFSensorDeviceMode_Shared
 
 The device is in shared mode, which means it's settings can't be modified.
-

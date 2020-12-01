@@ -61,16 +61,16 @@ Null-terminated string that contains the URL to resolve.
 
 ### -param dwFlags [in]
 
-Bitwise OR of one or more flags. See <a href="https://docs.microsoft.com/windows/desktop/medfound/source-resolver-flags">Source Resolver Flags</a>.
+Bitwise OR of one or more flags. See <a href="/windows/desktop/medfound/source-resolver-flags">Source Resolver Flags</a>.
           See remarks below.
 
 ### -param pProps [in]
 
-Pointer to the <b>IPropertyStore</b> interface of a property store. The method passes the property store to the scheme handler or byte-stream handler that creates the object. The handler can use the property store to configure the object. This parameter can be <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/configuring-a-media-source">Configuring a Media Source</a>.
+Pointer to the <b>IPropertyStore</b> interface of a property store. The method passes the property store to the scheme handler or byte-stream handler that creates the object. The handler can use the property store to configure the object. This parameter can be <b>NULL</b>. For more information, see <a href="/windows/desktop/medfound/configuring-a-media-source">Configuring a Media Source</a>.
 
 ### -param pObjectType [out]
 
-Receives a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mf_object_type">MF_OBJECT_TYPE</a> enumeration, specifying the type of object that was created.
+Receives a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mf_object_type">MF_OBJECT_TYPE</a> enumeration, specifying the type of object that was created.
 
 ### -param ppObject [out]
 
@@ -185,9 +185,8 @@ done:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsourceresolver">IMFSourceResolver</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsourceresolver">IMFSourceResolver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-resolver">Source Resolver</a>
-
+<a href="/windows/desktop/medfound/source-resolver">Source Resolver</a>

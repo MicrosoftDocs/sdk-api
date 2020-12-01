@@ -45,9 +45,6 @@ api_name:
  - FNWRITE
 ---
 
-# FNWRITE macro
-
-
 ## -description
 
 The <b>FNWRITE</b> macro provides the declaration for the application-defined callback function to write data to a file in an FDI context.
@@ -58,23 +55,11 @@ The <b>FNWRITE</b> macro provides the declaration for the application-defined ca
 
 An application-defined value used to identify the open file.
 
-
-#### - cb
-
-The maximum number of bytes to be written.
-
-
-#### - pv [in]
-
-Pointer to the buffer containing the data to be written.
-
 ## -remarks
 
 The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/1570wh78(VS.80).aspx">_write</a>.
 
-
-#### Examples
-
+## Examples
 
 ```cpp
 FNWRITE(fnFileWrite)
@@ -88,10 +73,8 @@ FNWRITE(fnFileWrite)
 
     return dwBytesWritten;
 }
-
 ```
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>
-
+<a href="/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>acmFilterEnumCallback</b> function specifies a callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterenum">acmFilterEnum</a> function. The <b>acmFilterEnumCallback</b> name is a placeholder for an application-defined function name.
+The <b>acmFilterEnumCallback</b> function specifies a callback function used with the <a href="/windows/desktop/api/msacm/nf-msacm-acmfilterenum">acmFilterEnum</a> function. The <b>acmFilterEnumCallback</b> name is a placeholder for an application-defined function name.
 
 ## -parameters
 
@@ -62,15 +62,15 @@ Handle to the ACM driver identifier.
 
 ### -param pafd
 
-Pointer to an [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails) structure that contains the enumerated filter details for a filter tag.
+Pointer to an [ACMFILTERDETAILS](./nf-msacm-acmfilterdetails.md) structure that contains the enumerated filter details for a filter tag.
 
 ### -param dwInstance
 
-Application-defined value specified in <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterenum">acmFilterEnum</a>.
+Application-defined value specified in <a href="/windows/desktop/api/msacm/nf-msacm-acmfilterenum">acmFilterEnum</a>.
 
 ### -param fdwSupport
 
-Driver-support flags specific to the driver identified by [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure, but they are specific to the filter that is being enumerated. This parameter can be a combination of the following values and identifies which operations the driver supports for the filter tag.
+Driver-support flags specific to the driver identified by [ACMDRIVERDETAILS](./nf-msacm-acmdriverdetails.md) structure, but they are specific to the filter that is being enumerated. This parameter can be a combination of the following values and identifies which operations the driver supports for the filter tag.
 
 <table>
 <tr>
@@ -97,7 +97,7 @@ Driver-support flags specific to the driver identified by [ACMDRIVERDETAILS](/wi
 </tr>
 <tr>
 <td>ACMDRIVERDETAILS_SUPPORTF_HARDWARE</td>
-<td>Driver supports hardware input, output, or both with the specified filter through a waveform-audio device. An application should use the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> function with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indices to get the waveform-audio device identifiers associated with the supporting ACM driver.</td>
+<td>Driver supports hardware input, output, or both with the specified filter through a waveform-audio device. An application should use the <a href="/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a> function with the ACM_METRIC_HARDWARE_WAVE_INPUT and ACM_METRIC_HARDWARE_WAVE_OUTPUT metric indices to get the waveform-audio device identifiers associated with the supporting ACM driver.</td>
 </tr>
 </table>
 
@@ -113,9 +113,8 @@ The following functions should not be called from within the callback function: 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

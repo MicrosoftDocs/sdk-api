@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-This structure is returned by <a href="https://docs.microsoft.com/windows/desktop/ProcThread/getsystemcpusetinformation">GetSystemCpuSetInformation</a>. It is used to enumerate the CPU Sets on the system and determine their current state.
+This structure is returned by <a href="/windows/desktop/ProcThread/getsystemcpusetinformation">GetSystemCpuSetInformation</a>. It is used to enumerate the CPU Sets on the system and determine their current state.
 
  This is a variable-sized structure designed for future expansion. When iterating over this structure, use the size field to determine the offset to the next structure.
 
@@ -74,7 +74,7 @@ This is the type of information in the structure. Applications should skip any s
 
 ### -field DUMMYUNIONNAME.CpuSet.Id
 
-The ID of the specified CPU Set. This identifier can be used with <a href="https://docs.microsoft.com/windows/desktop/ProcThread/setprocessdefaultcpusets">SetProcessDefaultCpuSets</a> or <a href="https://docs.microsoft.com/windows/desktop/ProcThread/setthreadselectedcpusets">SetThreadSelectedCpuSets</a> when specifying a list of CPU Sets to affinitize to.
+The ID of the specified CPU Set. This identifier can be used with <a href="/windows/desktop/ProcThread/setprocessdefaultcpusets">SetProcessDefaultCpuSets</a> or <a href="/windows/desktop/ProcThread/setthreadselectedcpusets">SetThreadSelectedCpuSets</a> when specifying a list of CPU Sets to affinitize to.
 
 ### -field DUMMYUNIONNAME.CpuSet.Group
 
@@ -129,12 +129,12 @@ Specifies a tag used by Core Allocation to communicate a given allocated CPU Set
 
 ##### - CpuSet.Allocated : 1
 
-If set, the specified CPU Set is not available for general system use, but instead is allocated for exclusive use of some processes. If a non-NULL <b>Process</b> argument is specified in a call to <a href="https://docs.microsoft.com/windows/desktop/ProcThread/getsystemcpusetinformation">GetSystemCpuSetInformation</a>, it is possible to determine if the processor is allocated for use with that process.
+If set, the specified CPU Set is not available for general system use, but instead is allocated for exclusive use of some processes. If a non-NULL <b>Process</b> argument is specified in a call to <a href="/windows/desktop/ProcThread/getsystemcpusetinformation">GetSystemCpuSetInformation</a>, it is possible to determine if the processor is allocated for use with that process.
 
 
 ##### - CpuSet.AllocatedToTargetProcess : 1
 
-This is set if the CPU Set is allocated for the exclusive use of some subset of the system processes and if it is allocated for the use of the process passed into <a href="https://docs.microsoft.com/windows/desktop/ProcThread/getsystemcpusetinformation">GetSystemCpuSetInformation</a>.
+This is set if the CPU Set is allocated for the exclusive use of some subset of the system processes and if it is allocated for the use of the process passed into <a href="/windows/desktop/ProcThread/getsystemcpusetinformation">GetSystemCpuSetInformation</a>.
 
 
 ##### - CpuSet.Parked : 1
@@ -150,4 +150,3 @@ This is set of the CPU Set is on a processor that is suitable for low-latency re
 ##### - CpuSet.ReservedFlags : 4
 
 Reserved.
-

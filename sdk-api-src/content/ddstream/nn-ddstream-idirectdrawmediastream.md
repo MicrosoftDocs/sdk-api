@@ -54,7 +54,7 @@ api_name:
 <div> </div>
 The <code>IDirectDrawMediaStream</code> interface controls media streams that appear on Microsoft DirectDraw surfaces. To stream to a DirectDraw surface, DirectDraw must support the video stream format.
 
-For sample code that implements the multimedia streaming interfaces, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/multimedia-streaming-sample-code">Multimedia Streaming Sample Code</a>.
+For sample code that implements the multimedia streaming interfaces, see <a href="/windows/desktop/DirectShow/multimedia-streaming-sample-code">Multimedia Streaming Sample Code</a>.
 
 This interface isn't intended for implementation by application developers. It is exposed on DirectDraw media streams that can be added to a DirectShow multimedia stream.
 
@@ -62,7 +62,7 @@ Use this interface when you want to send a video stream to a DirectDraw surface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawMediaStream</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a>. <b>IDirectDrawMediaStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectDrawMediaStream</b> interface inherits from <a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a>. <b>IDirectDrawMediaStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IDirectDrawMediaStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-createsample">CreateSample</a>
+<a href="/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-createsample">CreateSample</a>
 </td>
 <td align="left" width="63%">
 Creates a stream sample using the specified DirectDraw surface object.
@@ -86,7 +86,7 @@ Creates a stream sample using the specified DirectDraw surface object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-getdirectdraw">GetDirectDraw</a>
+<a href="/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-getdirectdraw">GetDirectDraw</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the DirectDraw object used by the current media stream.
@@ -95,7 +95,7 @@ Retrieves a pointer to the DirectDraw object used by the current media stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-getformat">GetFormat</a>
+<a href="/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-getformat">GetFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current media stream's format and, optionally, its desired format.
@@ -104,7 +104,7 @@ Retrieves the current media stream's format and, optionally, its desired format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-gettimeperframe">GetTimePerFrame</a>
+<a href="/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-gettimeperframe">GetTimePerFrame</a>
 </td>
 <td align="left" width="63%">
 Retrieves the average frames per second from a video stream.
@@ -113,7 +113,7 @@ Retrieves the average frames per second from a video stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-setdirectdraw">SetDirectDraw</a>
+<a href="/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-setdirectdraw">SetDirectDraw</a>
 </td>
 <td align="left" width="63%">
 Sets the current media stream's DirectDraw object.
@@ -122,7 +122,7 @@ Sets the current media stream's DirectDraw object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-setformat">SetFormat</a>
+<a href="/windows/desktop/api/ddstream/nf-ddstream-idirectdrawmediastream-setformat">SetFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the current media stream's format. If the stream already has allocated samples and the sample format doesn't match the specified format, this method fails.
@@ -133,5 +133,4 @@ Sets the current media stream's format. If the stream already has allocated samp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a>
-
+<a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream</a>

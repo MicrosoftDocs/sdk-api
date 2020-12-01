@@ -62,15 +62,15 @@ If <b>TRUE</b>, the <b>BackgroundColor</b> member specifies a YCbCr color. Other
 
 ### -field BackgroundColor
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-_dxvahd_color">DXVAHD_COLOR</a> union that specifies the background color. The default state value is (0.0, 0.0, 0.0, 1.0).
+A <a href="/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_color">DXVAHD_COLOR</a> union that specifies the background color. The default state value is (0.0, 0.0, 0.0, 1.0).
 
 ## -remarks
 
-The background color is used to fill the target rectangle wherever no video image appears. Areas outside the target rectangle are not affected. See <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_target_rect_data">DXVAHD_BLT_STATE_TARGET_RECT_DATA</a>.
+The background color is used to fill the target rectangle wherever no video image appears. Areas outside the target rectangle are not affected. See <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_target_rect_data">DXVAHD_BLT_STATE_TARGET_RECT_DATA</a>.
 
 The color space of the background color is determined by the color space of the output. See <a href="/windows/win32/api/dxvahd/ns-dxvahd-dxvahd_blt_state_output_color_space_data">DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE_DATA</a>.
 
-The alpha value of the background color is used only when the alpha fill mode is <b>DXVAHD_ALPHA_FILL_MODE_BACKGROUND</b>. Otherwise, the alpha value is ignored. See <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_alpha_fill_data">DXVAHD_BLT_STATE_ALPHA_FILL_DATA</a>.
+The alpha value of the background color is used only when the alpha fill mode is <b>DXVAHD_ALPHA_FILL_MODE_BACKGROUND</b>. Otherwise, the alpha value is ignored. See <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_alpha_fill_data">DXVAHD_BLT_STATE_ALPHA_FILL_DATA</a>.
 
 The default background color is full-range RGB black, with opaque alpha.
 
@@ -100,21 +100,20 @@ HRESULT DXVAHD_SetBackgroundColor(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_blt_state">DXVAHD_BLT_STATE</a>
+<a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_blt_state">DXVAHD_BLT_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
+<a href="/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessbltstate">IDXVAHD_VideoProcessor::SetVideoProcessBltState</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessbltstate">IDXVAHD_VideoProcessor::SetVideoProcessBltState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

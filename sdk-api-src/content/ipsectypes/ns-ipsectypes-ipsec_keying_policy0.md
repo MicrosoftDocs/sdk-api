@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The [IPSEC_KEYING_POLICY1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy1) is available.</div>
+The [IPSEC_KEYING_POLICY1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy1) is available.</div>
 <div> </div>
 
 ## -struct-fields
@@ -67,9 +67,8 @@ Array of distinct keying modules.
 
 ## -remarks
 
-<b>IPSEC_KEYING_POLICY0</b> is a specific implementation of IPSEC_KEYING_POLICY. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IPSEC_KEYING_POLICY0</b> is a specific implementation of IPSEC_KEYING_POLICY. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

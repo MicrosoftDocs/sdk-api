@@ -56,7 +56,7 @@ The <b>PeerCollabEnumObjects</b> function returns the handle to an enumeration t
 
 ### -param pcEndpoint [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a> structure that contains the endpoint information for a peer whose objects will be enumerated. 
+Pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a> structure that contains the endpoint information for a peer whose objects will be enumerated. 
 
 If this parameter is <b>NULL</b> the published objects of the  local peer's contacts are returned.
 
@@ -66,7 +66,7 @@ Pointer to a GUID value that uniquely identifies a peer object with the supplied
 
 ### -param phPeerEnum [out]
 
-Pointer to the handle for the enumerated set of peer objects that correspond to the GUID returned in <i>pObjectId</i>. Pass this handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a> to obtain each item in the enumerated set.
+Pointer to the handle for the enumerated set of peer objects that correspond to the GUID returned in <i>pObjectId</i>. Pass this handle to <a href="/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a> to obtain each item in the enumerated set.
 
 ## -returns
 
@@ -129,13 +129,13 @@ Peer objects are run-time data items associated with a particular application, s
 
 <b>PeerCollabEnumObjects</b> will return all of the objects published for the local peer. The objects can be published by more than one application.
 
-To obtain the individual peer objects, pass the returned handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>. The peer objects are returned as an array of pointers to the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_object">PEER_OBJECT</a> structures. If the endpoint is not publishing any objects, an empty array will be returned. To close the enumeration and release the resources associated with it, pass this handle to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a>. Individual items returned by the enumeration must be released with <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
+To obtain the individual peer objects, pass the returned handle to <a href="/windows/desktop/api/p2p/nf-p2p-peergetnextitem">PeerGetNextItem</a>. The peer objects are returned as an array of pointers to the <a href="/windows/desktop/api/p2p/ns-p2p-peer_object">PEER_OBJECT</a> structures. If the endpoint is not publishing any objects, an empty array will be returned. To close the enumeration and release the resources associated with it, pass this handle to <a href="/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerEndEnumeration</a>. Individual items returned by the enumeration must be released with <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 To obtain a peer object successfully:<ul>
-<li>The endpoint must have been previously obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabenumendpoints">PeerCollabEnumEndpoints</a>.
+<li>The endpoint must have been previously obtained by calling <a href="/windows/desktop/api/p2p/nf-p2p-peercollabenumendpoints">PeerCollabEnumEndpoints</a>.
 </li>
-<li>The local peer must have subscribed to the endpoint by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsubscribeendpointdata">PeerCollabSubscribeEndpointData</a>.</li>
-<li>The endpoint data must be refreshed by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabrefreshendpointdata">PeerCollabRefreshEndpointData</a> successfully.</li>
+<li>The local peer must have subscribed to the endpoint by calling <a href="/windows/desktop/api/p2p/nf-p2p-peercollabsubscribeendpointdata">PeerCollabSubscribeEndpointData</a>.</li>
+<li>The endpoint data must be refreshed by calling <a href="/windows/desktop/api/p2p/nf-p2p-peercollabrefreshendpointdata">PeerCollabRefreshEndpointData</a> successfully.</li>
 </ul>
 
 
@@ -143,17 +143,16 @@ If the user is publishing a picture, the picture can be obtained by retrieving t
 
 ## -see-also
 
-[PEER_CONTACT](/windows/win32/api/p2p/ns-p2p-peer_contact)
+[PEER_CONTACT](./ns-p2p-peer_contact.md)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_endpoint">PEER_ENDPOINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_object">PEER_OBJECT</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_object">PEER_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
-
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>

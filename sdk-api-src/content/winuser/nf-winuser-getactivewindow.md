@@ -54,6 +54,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - GetActiveWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetActiveWindow function
@@ -73,9 +74,9 @@ The return value is the handle to the active window attached to the calling thre
 
 ## -remarks
 
-To get the handle to the foreground window, you can use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getforegroundwindow">GetForegroundWindow</a>.
+To get the handle to the foreground window, you can use <a href="/windows/desktop/api/winuser/nf-winuser-getforegroundwindow">GetForegroundWindow</a>.
 
-To get the window handle to the active window in the message queue for another thread, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getguithreadinfo">GetGUIThreadInfo</a>.
+To get the window handle to the active window in the message queue for another thread, use <a href="/windows/desktop/api/winuser/nf-winuser-getguithreadinfo">GetGUIThreadInfo</a>.
 
 ## -see-also
 
@@ -83,15 +84,15 @@ To get the window handle to the active window in the message queue for another t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getforegroundwindow">GetForegroundWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getforegroundwindow">GetForegroundWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getguithreadinfo">GetGUIThreadInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getguithreadinfo">GetGUIThreadInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
@@ -99,5 +100,4 @@ To get the window handle to the active window in the message queue for another t
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setactivewindow">SetActiveWindow</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setactivewindow">SetActiveWindow</a>

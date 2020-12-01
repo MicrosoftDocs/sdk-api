@@ -54,7 +54,7 @@ api_name:
 
 Defines the flags used with the 
 <b>nScheme</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-url_componentsa">URL_COMPONENTS</a> structure.
+<a href="/windows/desktop/api/wininet/ns-wininet-url_componentsa">URL_COMPONENTS</a> structure.
 
 ## -enum-fields
 
@@ -127,10 +127,9 @@ Highest known scheme value.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/ns-wininet-url_componentsa">URL_COMPONENTS</a>
-
+<a href="/windows/desktop/api/wininet/ns-wininet-url_componentsa">URL_COMPONENTS</a>

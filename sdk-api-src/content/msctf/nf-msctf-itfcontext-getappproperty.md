@@ -56,11 +56,11 @@ Obtains an application property.
 
 ### -param guidProp [in]
 
-Specifies the property identifier. This can be a custom identifier or one of the <a href="https://docs.microsoft.com/windows/desktop/TSF/predefined-properties">predefined property identifiers</a>.
+Specifies the property identifier. This can be a custom identifier or one of the <a href="/windows/desktop/TSF/predefined-properties">predefined property identifiers</a>.
 
 ### -param ppProp [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty</a> interface pointer that receives the property object.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty</a> interface pointer that receives the property object.
 
 ## -returns
 
@@ -154,9 +154,8 @@ An unspecified error occurred.
 
 Applications can define unique properties identified by a GUID. Properties are stored as VARIANT data, so the caller must recognize the format and meaning of unique properties to be able to use them.
 
-Application properties differ from text properties, obtained by <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty">ITfContext::GetProperty</a>, in that, application properties are maintained by the context owner and cannot be modified by a text service. Application properties can only be modified by the context owner.
+Application properties differ from text properties, obtained by <a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty">ITfContext::GetProperty</a>, in that, application properties are maintained by the context owner and cannot be modified by a text service. Application properties can only be modified by the context owner.
 
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfContext::GetProperty](nf-msctf-itfcontext-getproperty.md), [ITfReadOnlyProperty interface](nn-msctf-itfreadonlyproperty.md), [Predefined Properties](/windows/desktop/TSF/predefined-properties)
-

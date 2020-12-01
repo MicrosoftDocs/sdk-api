@@ -53,7 +53,7 @@ api_name:
 
 <p class="CCE_Message">[The <b>CryptCATAdminCalcHashFromFileHandle</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATAdminCalcHashFromFileHandle</b> function calculates the hash for a file. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+The <b>CryptCATAdminCalcHashFromFileHandle</b> function calculates the hash for a file. This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 ## -parameters
 
@@ -76,4 +76,3 @@ This parameter is reserved for future use and must be set to zero.
 ## -returns
 
 The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the function fails. If <b>FALSE</b> is returned, call the <b>GetLastError</b> function to determine the reason for failure. If not enough memory has been allocated for <i>pbHash</i>, the <b>CryptCATAdminCalcHashFromFileHandle</b> function will set the last error to ERROR_INSUFFICIENT_BUFFER.
-

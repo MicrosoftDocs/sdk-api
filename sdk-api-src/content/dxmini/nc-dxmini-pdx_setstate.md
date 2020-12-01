@@ -45,9 +45,6 @@ api_name:
  - DxSetState
 ---
 
-# PDX_SETSTATE callback function
-
-
 ## -description
 
 The<i> DxSetState</i> callback function is called when a client of the video miniport driver decides it wants to switch from bob mode to weave mode, and vice versa.
@@ -55,24 +52,13 @@ The<i> DxSetState</i> callback function is called when a client of the video min
 ## -parameters
 
 ### -param Arg1
-
-### -param Arg2
-
-### -param Arg3
-
-#### - HwDeviceExtension
-
 Points to the miniport driver's device extension.
 
+### -param Arg2
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddsetstateininfo">DDSETSTATEININFO</a> structure that contains the surface and VPE object information.
 
-#### - SetStateInInfo
-
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsetstateininfo">DDSETSTATEININFO</a> structure that contains the surface and VPE object information.
-
-
-#### - SetStateOutInfo
-
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsetstateoutinfo">DDSETSTATEOUTINFO</a> structure that contains the state information for the hardware video port.
+### -param Arg3
+Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddsetstateoutinfo">DDSETSTATEOUTINFO</a> structure that contains the state information for the hardware video port.
 
 ## -returns
 
@@ -97,9 +83,6 @@ The <b>dwSurfaceIndex</b> member equal to the current position in the auto-flip 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsetstateininfo">DDSETSTATEININFO</a>
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddsetstateininfo">DDSETSTATEININFO</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/dxmini/ns-dxmini-ddsetstateoutinfo">DDSETSTATEOUTINFO</a>
-
+<a href="/windows/desktop/api/dxmini/ns-dxmini-ddsetstateoutinfo">DDSETSTATEOUTINFO</a>

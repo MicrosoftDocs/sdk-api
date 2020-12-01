@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>
-
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>

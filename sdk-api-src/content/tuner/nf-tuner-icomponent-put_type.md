@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>put_Type</b> method sets an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a> object describing the general characteristics of the component.
+The <b>put_Type</b> method sets an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a> object describing the general characteristics of the component.
 
 ## -parameters
 
 ### -param CT [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a> object that specifies the new values for the component.
+Pointer to an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a> object that specifies the new values for the component.
 
 ## -returns
 
@@ -64,9 +64,8 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -remarks
 
-Using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a> base class interface, it is possible to set the type to be <b>NULL</b>. If you try to do this with the derived <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2component">IMPEG2Component</a> class interface, this method will return E_POINTER. The <b>IMPEG2Component</b> object cannot have the base <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a> class interface as the set type - this will return Type Mismatch (0x80020005).
+Using the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a> base class interface, it is possible to set the type to be <b>NULL</b>. If you try to do this with the derived <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2component">IMPEG2Component</a> class interface, this method will return E_POINTER. The <b>IMPEG2Component</b> object cannot have the base <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType</a> class interface as the set type - this will return Type Mismatch (0x80020005).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent Interface</a>

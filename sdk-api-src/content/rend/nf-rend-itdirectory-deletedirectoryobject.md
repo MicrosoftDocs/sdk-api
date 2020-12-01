@@ -61,7 +61,7 @@ provides similar functionality.]
 ### -param pDirectoryObject [in]
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a> that will be deleted from the directory.
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a> that will be deleted from the directory.
 
 ## -returns
 
@@ -102,7 +102,7 @@ The <i>pDirectoryObject</i> parameter is not a valid pointer.
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-connect">ITDirectory::Connect</a> method has not been invoked or did not succeed.
+<a href="/windows/desktop/api/rend/nf-rend-itdirectory-connect">ITDirectory::Connect</a> method has not been invoked or did not succeed.
 
 </td>
 </tr>
@@ -125,5 +125,4 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
-
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the specified number of <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchscoperule">ISearchScopeRule</a> elements.
+Retrieves the specified number of <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchscoperule">ISearchScopeRule</a> elements.
 
 ## -parameters
 
@@ -62,9 +62,9 @@ The number of elements to retrieve.
 
 ### -param pprgelt [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchscoperule">ISearchScopeRule</a>**</b>
+Type: <b><a href="/windows/desktop/api/searchapi/nn-searchapi-isearchscoperule">ISearchScopeRule</a>**</b>
 
-On return, contains a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchscoperule">ISearchScopeRule</a> elements.
+On return, contains a pointer to an array of <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchscoperule">ISearchScopeRule</a> elements.
 
 ### -param pceltFetched [in, out]
 
@@ -80,5 +80,4 @@ Returns S_OK if successful, S_FALSE if there were not enough items left in the e
 
 ## -remarks
 
-<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
+<b>Windows 7 and later</b>: Check out the <a href="/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>GetNtmsRequestOrder</b> function gets the order that the specified request will be processed in the library queue.
@@ -60,7 +60,7 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpRequestId [in]
 
@@ -162,9 +162,8 @@ Currently on NTMS_LM_MOUNT, requests are sorted using the order number.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsrequestorder">SetNtmsRequestOrder</a>
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsrequestorder">SetNtmsRequestOrder</a>

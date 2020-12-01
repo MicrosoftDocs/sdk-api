@@ -56,7 +56,7 @@ Uninstalls an advise event sink.
 
 ### -param dwCookie [in]
 
-A DWORD value that identifies the advise event sink to uninstall. This value is provided by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-adviseeventsink">ITfLangBarMgr::AdviseEventSink</a>.
+A DWORD value that identifies the advise event sink to uninstall. This value is provided by a previous call to <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-adviseeventsink">ITfLangBarMgr::AdviseEventSink</a>.
 
 ## -returns
 
@@ -93,14 +93,13 @@ An unspecified error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbarmgr">ITfLangBarMgr</a>
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbarmgr">ITfLangBarMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-adviseeventsink">ITfLangBarMgr::AdviseEventSink
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbarmgr-adviseeventsink">ITfLangBarMgr::AdviseEventSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/thread-manager">Thread Manager</a>
-
+<a href="/windows/desktop/TSF/thread-manager">Thread Manager</a>

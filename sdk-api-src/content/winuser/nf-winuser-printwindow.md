@@ -44,6 +44,7 @@ api_location:
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
  - PrintWindow
+req.apiset: ext-ms-win-ntuser-draw-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # PrintWindow function
@@ -94,22 +95,21 @@ If the function fails, it returns zero.
 
 <div class="alert"><b>Note</b>  This is a blocking or synchronous function and might not return immediately. How quickly this function returns depends on run-time factors such as network status, print server configuration, and printer driver implementation—factors that are difficult to predict when writing an application. Calling this function from a thread that manages interaction with the user interface could make the application appear to be unresponsive.</div>
 <div> </div>
-The application that owns the window referenced by hWnd processes the <b>PrintWindow</b> call and renders the image in the device context that is referenced by <i>hdcBlt</i>. The application  receives a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-print">WM_PRINT</a> message or, if the <b>PW_PRINTCLIENT</b> flag is specified, a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a> message.
+The application that owns the window referenced by hWnd processes the <b>PrintWindow</b> call and renders the image in the device context that is referenced by <i>hdcBlt</i>. The application  receives a <a href="/windows/desktop/gdi/wm-print">WM_PRINT</a> message or, if the <b>PW_PRINTCLIENT</b> flag is specified, a <a href="/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a> message.
 For more information, see <b>WM_PRINT</b> and <b>WM_PRINTCLIENT</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-messages">Painting and Drawing Messages</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-messages">Painting and Drawing Messages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-print">WM_PRINT</a>
+<a href="/windows/desktop/gdi/wm-print">WM_PRINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a>
-
+<a href="/windows/desktop/gdi/wm-printclient">WM_PRINTCLIENT</a>

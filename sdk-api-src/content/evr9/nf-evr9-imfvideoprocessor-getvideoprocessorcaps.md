@@ -57,11 +57,11 @@ Retrieves the capabilities of a video processor mode.
 
 ### -param lpVideoProcessorMode [in]
 
-Pointer to a GUID that identifies the video processor mode. To get a list of available modes, call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getavailablevideoprocessormodes">IMFVideoProcessor::GetAvailableVideoProcessorModes</a>.
+Pointer to a GUID that identifies the video processor mode. To get a list of available modes, call <a href="/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getavailablevideoprocessormodes">IMFVideoProcessor::GetAvailableVideoProcessorModes</a>.
 
 ### -param lpVideoProcessorCaps [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessorcaps">DXVA2_VideoProcessorCaps</a> structure that receives the capabilities.
+Pointer to a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessorcaps">DXVA2_VideoProcessorCaps</a> structure that receives the capabilities.
 
 ## -returns
 
@@ -102,9 +102,8 @@ Before calling this method, you must set the media type for the reference stream
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>
-
+<a href="/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>

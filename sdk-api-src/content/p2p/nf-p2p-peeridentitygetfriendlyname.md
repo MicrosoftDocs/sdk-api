@@ -60,7 +60,7 @@ Specifies the peer identity to obtain a friendly name.
 
 ### -param ppwzFriendlyName [out]
 
-Receives a pointer to the friendly name. When <i>ppwzFriendlyName</i> is not required anymore, the application is responsible for freeing this string by calling  <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
+Receives a pointer to the friendly name. When <i>ppwzFriendlyName</i> is not required anymore, the application is responsible for freeing this string by calling  <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 ## -returns
 
@@ -119,9 +119,8 @@ A peer identity that matches the specified name cannot be found.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitysetfriendlyname">PeerIdentitySetFriendlyName</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peeridentitysetfriendlyname">PeerIdentitySetFriendlyName</a>

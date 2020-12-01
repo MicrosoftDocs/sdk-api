@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>ClientCallback</b> function allows a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA)-mode <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> to call back to its user-mode package and invoke a function in its DLL there.
+The <b>ClientCallback</b> function allows a <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA)-mode <a href="/windows/desktop/SecGloss/s-gly">security package</a> to call back to its user-mode package and invoke a function in its DLL there.
 
 ## -parameters
 
 ### -param Callback [in]
 
-A pointer to the name of the function to invoke. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374759(v=vs.85)">ClientCallback_Function</a>.
+A pointer to the name of the function to invoke. For more information, see <a href="/previous-versions/windows/desktop/legacy/aa374759(v=vs.85)">ClientCallback_Function</a>.
 
 ### -param Argument1 [in]
 
@@ -69,11 +69,11 @@ A pointer to the second argument to pass to the callback function.
 ### -param Input [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that contains information to pass to the callback function.
+<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that contains information to pass to the callback function.
 
 ### -param Output [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that receives information passed from the callback function.
+A pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure that receives information passed from the callback function.
 
 ## -returns
 
@@ -84,25 +84,24 @@ If the function fails, it returns an <b>NTSTATUS</b> code that indicates the rea
 ## -remarks
 
 A pointer to the <b>ClientCallback</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 The user-mode security package must use the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379372(v=vs.85)">RegisterCallback</a> function to register the function to be called.
+<a href="/previous-versions/windows/desktop/legacy/aa379372(v=vs.85)">RegisterCallback</a> function to register the function to be called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374759(v=vs.85)">ClientCallback_Function</a>
+<a href="/previous-versions/windows/desktop/legacy/aa374759(v=vs.85)">ClientCallback_Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379372(v=vs.85)">RegisterCallback</a>
+<a href="/previous-versions/windows/desktop/legacy/aa379372(v=vs.85)">RegisterCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>

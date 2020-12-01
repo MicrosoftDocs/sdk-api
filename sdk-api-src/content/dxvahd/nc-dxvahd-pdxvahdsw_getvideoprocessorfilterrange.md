@@ -60,11 +60,11 @@ A handle to the plug-in DXVA-HD device.
 
 ### -param Filter [in]
 
-The type of image filter, specified as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_filter">DXVAHD_FILTER</a> enumeration.
+The type of image filter, specified as a member of the <a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_filter">DXVAHD_FILTER</a> enumeration.
 
 ### -param *pRange [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_filter_range_data">DXVAHD_FILTER_RANGE_DATA</a> structure. The function fills the structure with the range of values for the specified filter.
+A pointer to a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_filter_range_data">DXVAHD_FILTER_RANGE_DATA</a> structure. The function fills the structure with the range of values for the specified filter.
 
 ## -returns
 
@@ -72,17 +72,16 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahdsw_callbacks">DXVAHDSW_CALLBACKS</a>
+<a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahdsw_callbacks">DXVAHDSW_CALLBACKS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorfilterrange">IDXVAHD_Device::GetVideoProcessorFilterRange</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorfilterrange">IDXVAHD_Device::GetVideoProcessorFilterRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

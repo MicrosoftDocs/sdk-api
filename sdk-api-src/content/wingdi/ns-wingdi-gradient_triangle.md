@@ -72,7 +72,7 @@ The third point of the triangle where sides intersect.
 
 ## -remarks
 
-The <b>GRADIENT_TRIANGLE</b> structure specifies the values in the <i>pVertex</i> array that are used when the <i>dwMode</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a> function is GRADIENT_FILL_TRIANGLE. For related <b>GradientFill</b> structures, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a>.
+The <b>GRADIENT_TRIANGLE</b> structure specifies the values in the <i>pVertex</i> array that are used when the <i>dwMode</i> parameter of the <a href="/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a> function is GRADIENT_FILL_TRIANGLE. For related <b>GradientFill</b> structures, see <a href="/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a> and <a href="/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a>.
 
 The following image shows an example of a triangle with a gradient fill.
 
@@ -80,27 +80,26 @@ The following image shows an example of a triangle with a gradient fill.
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-a-shaded-triangle">Drawing a Shaded Triangle</a>.
+For an example, see <a href="/windows/desktop/gdi/drawing-a-shaded-triangle">Drawing a Shaded Triangle</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
+<a href="/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-gradient_rect">GRADIENT_RECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-gradientfill">GradientFill</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a>
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a>

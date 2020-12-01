@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Sets a rectangle in which to redraw the ink within the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object.
+Sets a rectangle in which to redraw the ink within the <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay</a> object.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ This method can return one of these values.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkdisp-class">InkDisp</a> within the rectangle represented by <i>rDrawRect</i> is drawn when the area is next repainted if the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_autoredraw">AutoRedraw</a> property is <b>TRUE</b>.
+<a href="/windows/desktop/tablet/inkdisp-class">InkDisp</a> within the rectangle represented by <i>rDrawRect</i> is drawn when the area is next repainted if the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_autoredraw">AutoRedraw</a> property is <b>TRUE</b>.
 
 ## -see-also
 
@@ -73,9 +73,8 @@ This method can return one of these values.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
+<a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
-
+<a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>

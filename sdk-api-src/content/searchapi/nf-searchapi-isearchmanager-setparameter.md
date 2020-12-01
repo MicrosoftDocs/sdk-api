@@ -64,7 +64,7 @@ There are currently no valid parameters to pass or retrieve.
 
 ### -param pValue [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
 As there are no valid parameters currently configured, there are no valid parameters to pass to this method.
 
@@ -76,5 +76,4 @@ This method returns E_InvalidArg as an error code when called.
 
 ## -remarks
 
-Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.
-
+Check out the <a href="/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.

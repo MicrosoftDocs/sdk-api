@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Creates and initializes a Shell item object from a pointer to an item identifier list (PIDL). The resulting shell item object supports the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> interface.
+Creates and initializes a Shell item object from a pointer to an item identifier list (PIDL). The resulting shell item object supports the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> interface.
 
 ## -parameters
 
@@ -74,8 +74,8 @@ A reference to the IID of the requested interface.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in riid.  This will typically be <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or 
-        <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2">IShellItem2</a>.
+When this function returns, contains the interface pointer requested in riid.  This will typically be <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or 
+        <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2">IShellItem2</a>.
 
 ## -returns
 
@@ -85,5 +85,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetidlistfromobject">SHGetIDListFromObject</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetidlistfromobject">SHGetIDListFromObject</a>

@@ -52,16 +52,16 @@ api_name:
 
 The 
 <b>Init</b> method is called by the MSP address object (in the method 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>) to initialize the MSP call object. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a> implementation initializes its members using the passed-in information. It calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nf-mspaddr-cmspaddress-mspaddressaddref">MSPAddressAddRef</a> on the MSP address object. Derived MSPs will want to override this method and call it in the overridden method; the overridden method should create the default streams based on the passed-in media types.
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>) to initialize the MSP call object. The 
+<a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a> implementation initializes its members using the passed-in information. It calls 
+<a href="/windows/desktop/api/mspaddr/nf-mspaddr-cmspaddress-mspaddressaddref">MSPAddressAddRef</a> on the MSP address object. Derived MSPs will want to override this method and call it in the overridden method; the overridden method should create the default streams based on the passed-in media types.
 
 ## -parameters
 
 ### -param pMSPAddress
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a> for call being initialized.
+<a href="/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a> for call being initialized.
 
 ### -param htCall
 
@@ -73,9 +73,8 @@ Reserved parameter.
 
 ### -param dwMediaType
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media type</a> or types of call.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">Media type</a> or types of call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>
-
+<a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>

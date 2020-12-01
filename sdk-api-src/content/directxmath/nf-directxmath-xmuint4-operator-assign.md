@@ -51,7 +51,7 @@ api_name:
 
 Assigns the vector component data from one instance of <code>XMUINT4</code> to the current instance of <code>XMUINT4</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/d0f31846-0732-4309-8ad6-3e2bfe690736">XMUINT4</a> to the current instance of <code>XMUINT4</code>.
+This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a> to the current instance of <code>XMUINT4</code>.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
@@ -67,7 +67,7 @@ The current instance of <code>XMUINT4</code> whose vector component data has bee
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/d0f31846-0732-4309-8ad6-3e2bfe690736">XMUINT4</a>
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a>
 
 <a href="https://msdn.microsoft.com/2488e70d-01dd-4d98-840e-35eca28ac10b">XMUINT4 Operators</a>
 

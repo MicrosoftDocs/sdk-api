@@ -61,7 +61,7 @@ A handle to the device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contains the vertices of the line, in logical units.
+A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contains the vertices of the line, in logical units.
 
 ### -param cpt [in]
 
@@ -75,7 +75,7 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polyline">Polyline</a> function, the <b>PolylineTo</b> function uses and updates the current position.
+Unlike the <a href="/windows/desktop/api/wingdi/nf-wingdi-polyline">Polyline</a> function, the <b>PolylineTo</b> function uses and updates the current position.
 
 A line is drawn from the current position to the first point specified by the <i>lppt</i> parameter by using the current pen. For each additional line, the function draws from the ending point of the previous line to the next point specified by <i>lppt</i>.
 
@@ -85,29 +85,28 @@ If the line segments drawn by this function form a closed figure, the figure is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
+<a href="/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
+<a href="/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polypolyline">PolyPolyline</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polypolyline">PolyPolyline</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polyline">Polyline</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polyline">Polyline</a>

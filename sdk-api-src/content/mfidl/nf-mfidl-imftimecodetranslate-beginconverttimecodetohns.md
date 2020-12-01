@@ -60,7 +60,7 @@ Time in SMPTE time code to convert. The <b>vt</b> member of the <b>PROPVARIANT</
 
 ### -param pCallback [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface of a callback object. The caller must implement this interface.
 
 ### -param punkState [in]
 
@@ -112,7 +112,7 @@ The byte stream is not seekable. The time code cannot be read from the end of th
 
 ## -remarks
 
-When the asynchronous method completes, the callback object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. At that point, the application must call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftimecodetranslate-endconverttimecodetohns">IMFTimecodeTranslate::EndConvertTimecodeToHNS</a> to complete the asynchronous request.
+When the asynchronous method completes, the callback object's <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method is called. At that point, the application must call <a href="/windows/desktop/api/mfidl/nf-mfidl-imftimecodetranslate-endconverttimecodetohns">IMFTimecodeTranslate::EndConvertTimecodeToHNS</a> to complete the asynchronous request.
 
 The value of <i>pPropVarTimecode</i> is a 64-bit unsigned value typed as a <b>LONGLONG</b>. The upper <b>DWORD</b> contains the range. (A <i>range</i> is a continuous series of time codes.) The lower <b>DWORD</b> contains the time code in the form of a hexadecimal number <i>0xhhmmssff</i>,  where each 2-byte sequence is read as a decimal value.
 
@@ -146,9 +146,8 @@ void CreateTimeCode(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/calling-asynchronous-methods">Calling Asynchronous Methods</a>
+<a href="/windows/desktop/medfound/calling-asynchronous-methods">Calling Asynchronous Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftimecodetranslate">IMFTimecodeTranslate</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftimecodetranslate">IMFTimecodeTranslate</a>

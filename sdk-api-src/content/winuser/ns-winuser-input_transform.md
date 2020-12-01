@@ -206,9 +206,8 @@ A 4x4 matrix, represented as a two-dimensional array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerinputtransform">GetPointerInputTransform</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getpointerinputtransform">GetPointerInputTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
-
+<a href="/previous-versions/windows/desktop/inputmsg/structures">Structures</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Represents the relationship between the processor set identified in the corresponding [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex)  structure.
+Represents the relationship between the processor set identified in the corresponding [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](./ns-winnt-system_logical_processor_information_ex.md)  structure.
 
 ## -enum-fields
 
@@ -78,7 +78,7 @@ The specified logical processors share a physical package (a single package sock
 
 ### -field RelationGroup
 
-The specified logical processors share a single <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor group</a>.
+The specified logical processors share a single <a href="/windows/desktop/ProcThread/processor-groups">processor group</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP Professional x64 Edition:  </b>This value is not supported until Windows Server 2008 R2.
 
@@ -90,28 +90,27 @@ On input, retrieves information about all possible relationship types. This valu
 
 ## -remarks
 
-The value specified by this enumeration indicates the relationship represented in the corresponding [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex)  structure. 
+The value specified by this enumeration indicates the relationship represented in the corresponding [SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX](./ns-winnt-system_logical_processor_information_ex.md)  structure. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a>.
+For an example, see <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformationex">GetLogicalProcessorInformationEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
 
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
-

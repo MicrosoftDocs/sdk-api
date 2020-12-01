@@ -56,9 +56,9 @@ Reads the <b>BOOL</b> data value of a property in a property bag.
 
 ### -param propBag [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
+Type: <b><a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 ### -param propName [in]
 
@@ -84,9 +84,8 @@ The property bag property function API converts between windows types and the <b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertysystem">PSGetPropertySystem</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertysystem">PSGetPropertySystem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pspropertybag_writebool">PSPropertyBag_WriteBOOL</a>
-
+<a href="/windows/desktop/api/propsys/nf-propsys-pspropertybag_writebool">PSPropertyBag_WriteBOOL</a>

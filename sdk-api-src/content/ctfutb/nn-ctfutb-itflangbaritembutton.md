@@ -52,11 +52,11 @@ api_name:
 
 The <b>ITfLangBarItemButton</b> interface is implemented by a language bar button provider and used by the language bar manager to obtain information about a button item on the language bar.
 
-The language bar manager obtains an instance of this interface by calling QueryInterface on the <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> passed to <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-additem">ITfLangBarItemMgr::AddItem</a>.
+The language bar manager obtains an instance of this interface by calling QueryInterface on the <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> passed to <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-additem">ITfLangBarItemMgr::AddItem</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarItemButton</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarItemButton</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarItemButton</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarItemButton</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITfLangBarItemButton</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-geticon">GetIcon</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-geticon">GetIcon</a>
 </td>
 <td align="left" width="63%">
 Obtains the icon to be displayed for the language bar button.
@@ -80,7 +80,7 @@ Obtains the icon to be displayed for the language bar button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-gettext">GetText</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-gettext">GetText</a>
 </td>
 <td align="left" width="63%">
 Obtains the text to be displayed for the button in the language bar.
@@ -89,7 +89,7 @@ Obtains the text to be displayed for the button in the language bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-initmenu">InitMenu</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-initmenu">InitMenu</a>
 </td>
 <td align="left" width="63%">
 Called to allow a language bar button that has the TF_LBI_STYLE_BTN_MENU style to add items to the menu that the language bar will display for the button.
@@ -98,7 +98,7 @@ Called to allow a language bar button that has the TF_LBI_STYLE_BTN_MENU style t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-onclick">OnClick</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-onclick">OnClick</a>
 </td>
 <td align="left" width="63%">
 Called when the user clicks the mouse on a language bar button that has the TF_LBI_STYLE_BTN_BUTTON or TF_LBI_STYLE_BTN_TOGGLE style.
@@ -107,7 +107,7 @@ Called when the user clicks the mouse on a language bar button that has the TF_L
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-onmenuselect">OnMenuSelect</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-onmenuselect">OnMenuSelect</a>
 </td>
 <td align="left" width="63%">
 Called when the user selects an item in the menu that the language bar displays for the button.
@@ -120,9 +120,8 @@ Called when the user selects an item in the menu that the language bar displays 
 
 A language bar button functions as a pushbutton, toggle button, or a menu on the language bar.
 
-If the button has the TF_LBI_STYLE_BTN_BUTTON style, the button acts as a pushbutton that the user can click with the mouse. When the user clicks the button, <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-onclick">ITfLangBarItemButton::OnClick</a> is called. <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-initmenu">ITfLangBarItemButton::InitMenu</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-onmenuselect">ITfLangBarItemButton::OnMenuSelect</a> are not used.
+If the button has the TF_LBI_STYLE_BTN_BUTTON style, the button acts as a pushbutton that the user can click with the mouse. When the user clicks the button, <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-onclick">ITfLangBarItemButton::OnClick</a> is called. <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-initmenu">ITfLangBarItemButton::InitMenu</a> and <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembutton-onmenuselect">ITfLangBarItemButton::OnMenuSelect</a> are not used.
 
 If the button has the TF_LBI_STYLE_BTN_TOGGLE style, the button functions similar to a check box that the user can select or deselect with the mouse. When the user clicks the button, <b>ITfLangBarItemButton::OnClick</b> is called. <b>ITfLangBarItemButton::InitMenu</b> and <b>ITfLangBarItemButton::OnMenuSelect</b> are not used.
 
 If the button has the TF_LBI_STYLE_BTN_MENU style, the button acts like a top-level menu item. When the user clicks the button, <b>ITfLangBarItemButton::InitMenu</b> is called. If the user selects an item in the menu, <b>ITfLangBarItemButton::OnMenuSelect</b> is called. <b>ITfLangBarItemButton::OnClick</b> is not used.
-

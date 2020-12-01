@@ -60,7 +60,7 @@ GUID that specifies the network ID.
 
 ### -param ppNetwork [out]
 
-Pointer to a pointer that receives the <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a> interface instance for this network.
+Pointer to a pointer that receives the <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a> interface instance for this network.
 
 ## -returns
 
@@ -97,5 +97,4 @@ The GUID is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>

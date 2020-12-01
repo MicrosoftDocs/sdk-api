@@ -73,24 +73,23 @@ Array of pointers to interface-identification structures that contains <b>Count<
 ## -remarks
 
 The interface identification vector contains a count member (<b>Count</b>), followed by an array of pointers to interface identifiers (
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_if_id">RPC_IF_ID</a>).
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_if_id">RPC_IF_ID</a>).
 
 The interface identification vector is a read-only vector. To obtain a vector of the interface identifiers registered by a server with the run-time library, an application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqifids">RpcMgmtInqIfIds</a>. To obtain a vector of the interface identifiers exported by a server, an application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentryinqifidsa">RpcNsMgmtEntryInqIfIds</a>.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqifids">RpcMgmtInqIfIds</a>. To obtain a vector of the interface identifiers exported by a server, an application calls 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentryinqifidsa">RpcNsMgmtEntryInqIfIds</a>.
 
 The RPC run-time library allocates memory for the interface identification vector. The application calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcifidvectorfree">RpcIfIdVectorFree</a> to free the interface identification vector.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcifidvectorfree">RpcIfIdVectorFree</a> to free the interface identification vector.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcifidvectorfree">RpcIfIdVectorFree</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcifidvectorfree">RpcIfIdVectorFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqifids">RpcMgmtInqIfIds</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtinqifids">RpcMgmtInqIfIds</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentryinqifidsa">RpcNsMgmtEntryInqIfIds</a>
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentryinqifidsa">RpcNsMgmtEntryInqIfIds</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Used by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> function to track when the mouse pointer leaves a window or hovers over a window for a specified amount of time.
+Used by the <a href="/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> function to track when the mouse pointer leaves a window or hovers over a window for a specified amount of time.
 
 ## -struct-fields
 
@@ -93,7 +93,7 @@ The caller wants to cancel a prior tracking request. The caller should also spec
 </dl>
 </td>
 <td width="60%">
-The caller wants hover notification. Notification is delivered as a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. 
+The caller wants hover notification. Notification is delivered as a <a href="/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message. 
 
 If the caller requests hover tracking while hover tracking is already active, the hover timer will be reset.
 
@@ -108,7 +108,7 @@ This flag is ignored if the mouse pointer is not over the specified window or ar
 </dl>
 </td>
 <td width="60%">
-The caller wants leave notification. Notification is delivered as a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mouseleave">WM_MOUSELEAVE</a> message. If the mouse is not over the specified window or area, a leave notification is generated immediately and no further tracking is performed.
+The caller wants leave notification. Notification is delivered as a <a href="/windows/desktop/inputdev/wm-mouseleave">WM_MOUSELEAVE</a> message. If the mouse is not over the specified window or area, a leave notification is generated immediately and no further tracking is performed.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The caller wants leave notification. Notification is delivered as a <a href="htt
 </dl>
 </td>
 <td width="60%">
- The caller wants hover and leave notification for the nonclient areas. Notification is delivered as <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-ncmousehover">WM_NCMOUSEHOVER</a> and <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-ncmouseleave">WM_NCMOUSELEAVE</a> messages.
+ The caller wants hover and leave notification for the nonclient areas. Notification is delivered as <a href="/windows/desktop/inputdev/wm-ncmousehover">WM_NCMOUSEHOVER</a> and <a href="/windows/desktop/inputdev/wm-ncmouseleave">WM_NCMOUSELEAVE</a> messages.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ The caller wants leave notification. Notification is delivered as a <a href="htt
 </dl>
 </td>
 <td width="60%">
-The function fills in the structure instead of treating it as a tracking request. The structure is filled such that had that structure been passed to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a>, it would generate the current tracking. The only anomaly is that the hover time-out returned is always the actual time-out and not <b>HOVER_DEFAULT</b>, if <b>HOVER_DEFAULT</b> was specified during the original <b>TrackMouseEvent</b> request.
+The function fills in the structure instead of treating it as a tracking request. The structure is filled such that had that structure been passed to <a href="/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a>, it would generate the current tracking. The only anomaly is that the hover time-out returned is always the actual time-out and not <b>HOVER_DEFAULT</b>, if <b>HOVER_DEFAULT</b> was specified during the original <b>TrackMouseEvent</b> request.
 
 </td>
 </tr>
@@ -150,11 +150,10 @@ The hover time-out (if <b>TME_HOVER</b> was specified in <b>dwFlags</b>), in mil
 
 ## -remarks
 
-The system default hover time-out is initially the menu drop-down time, which is 400 milliseconds. You can call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> and use <b>SPI_GETMOUSEHOVERTIME</b> to retrieve the default hover time-out.
+The system default hover time-out is initially the menu drop-down time, which is 400 milliseconds. You can call <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> and use <b>SPI_GETMOUSEHOVERTIME</b> to retrieve the default hover time-out.
 
-The system default hover rectangle is the same as the double-click rectangle. You can call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> and use <b>SPI_GETMOUSEHOVERWIDTH</b> and <b>SPI_GETMOUSEHOVERHEIGHT</b> to retrieve the size of the rectangle within which the mouse pointer has to stay for <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message.
+The system default hover rectangle is the same as the double-click rectangle. You can call <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> and use <b>SPI_GETMOUSEHOVERWIDTH</b> and <b>SPI_GETMOUSEHOVERHEIGHT</b> to retrieve the size of the rectangle within which the mouse pointer has to stay for <a href="/windows/desktop/api/winuser/nf-winuser-trackmouseevent">TrackMouseEvent</a> to generate a <a href="/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
-
+<a href="/windows/desktop/inputdev/mouse-input">Mouse Input</a>

@@ -72,7 +72,7 @@ Country/region code of the party the call is redirected to. If a value of 0 is s
 ## -returns
 
 Returns a positive request identifier if the function is completed asynchronously, or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
+<a href="/windows/desktop/Tapi/line-reply">LINE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 LINEERR_INVALADDRESS, LINEERR_NOTOWNER, LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALCALLSTATE, LINEERR_OPERATIONFAILED, LINEERR_INVALCOUNTRYCODE, LINEERR_RESOURCEUNAVAIL, LINEERR_INVALPOINTER, LINEERR_UNINITIALIZED, LINEERR_NOMEM.
 
@@ -83,35 +83,34 @@ Call redirect allows an application to deflect an offering call to another addre
 After a call has been successfully redirected, the call typically transitions to idle.
 
 Besides redirecting an incoming call, an application may have the option to accept the call using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineaccept">lineAccept</a>, reject the call using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>, or answer the call using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a>. The availability of these operations is dependent on device capabilities.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineaccept">lineAccept</a>, reject the call using 
+<a href="/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>, or answer the call using 
+<a href="/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a>. The availability of these operations is dependent on device capabilities.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
+<a href="/windows/desktop/Tapi/line-reply">LINE_REPLY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/redirect-ovr">Redirect overview</a>
+<a href="/windows/desktop/Tapi/redirect-ovr">Redirect overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineaccept">lineAccept</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-lineaccept">lineAccept</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-lineanswer">lineAnswer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>

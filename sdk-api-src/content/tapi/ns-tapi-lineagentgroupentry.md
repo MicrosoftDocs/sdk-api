@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>LINEAGENTGROUPENTRY</b> structure provides information on ACD agent groups. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a> structure can contain an array of 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a> structure can contain an array of 
 <b>LINEAGENTGROUPENTRY</b> structures.
 
 ## -struct-fields
@@ -89,17 +89,16 @@ Offset from the beginning of the structure to a <b>null</b>-terminated string sp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentgrouplist">LINEAGENTGROUPLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentgrouplista">lineGetAgentGroupList</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentgrouplista">lineGetAgentGroupList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetgrouplista">lineGetGroupList</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetgrouplista">lineGetGroupList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentgroup">lineSetAgentGroup</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetagentgroup">lineSetAgentGroup</a>

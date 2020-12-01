@@ -56,9 +56,9 @@ Gets a set of flags describing the policies set by the item.
 
 ### -param pmPolicies [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_policies">SYNCMGR_ITEM_POLICIES</a>*</b>
+Type: <b><a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_policies">SYNCMGR_ITEM_POLICIES</a>*</b>
 
-When this method returns, contains a pointer to a bitwise combination of values from the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_policies">SYNCMGR_ITEM_POLICIES</a> enumeration that defines the item's policies.
+When this method returns, contains a pointer to a bitwise combination of values from the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_policies">SYNCMGR_ITEM_POLICIES</a> enumeration that defines the item's policies.
 
 ## -returns
 
@@ -70,7 +70,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 A policy is an action that is typically supported but can be disabled by a group policy.
 
-This method is called by Sync Center in response to a call to <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateitem">UpdateItem</a>.
+This method is called by Sync Center in response to a call to <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateitem">UpdateItem</a>.
 
 
 #### Examples
@@ -91,4 +91,3 @@ STDMETHODIMP CMyDeviceSyncItem::GetPolicies(
 }
 
 ```
-

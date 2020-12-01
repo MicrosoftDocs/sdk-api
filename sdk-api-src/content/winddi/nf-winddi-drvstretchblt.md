@@ -56,7 +56,7 @@ The <b>DrvStretchBlt</b> function provides stretching bit-block transfer capabil
 
 ### -param psoDest [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that identifies the surface on which to draw.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that identifies the surface on which to draw.
 
 ### -param psoSrc [in, out]
 
@@ -74,13 +74,13 @@ The mask will always be large enough to contain the relevant source; tiling is u
 
 ### -param pco [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that limits the area to be modified in the destination. GDI services are provided to enumerate the <a href="https://docs.microsoft.com/windows-hardware/drivers/">clip region</a> as a set of rectangles.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that limits the area to be modified in the destination. GDI services are provided to enumerate the <a href="/windows-hardware/drivers/">clip region</a> as a set of rectangles.
 
-Whenever possible, GDI simplifies the clipping involved. However, unlike <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>, <b>DrvStretchBlt</b> can be called with a single clipping rectangle. This prevents rounding errors in clipping the output.
+Whenever possible, GDI simplifies the clipping involved. However, unlike <a href="/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>, <b>DrvStretchBlt</b> can be called with a single clipping rectangle. This prevents rounding errors in clipping the output.
 
 ### -param pxlo [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that specifies how color indices are to be translated between the source and target surfaces. If <i>pxlo</i> is <b>NULL</b>, no translation is needed.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that specifies how color indices are to be translated between the source and target surfaces. If <i>pxlo</i> is <b>NULL</b>, no translation is needed.
 
 The XLATEOBJ structure can also be queried to find the RGB color for any source index. A high quality stretching bit-block transfer will need to interpolate colors in some cases.
 
@@ -90,11 +90,11 @@ Pointer to a COLORADJUSTMENT structure that defines the color adjustment values 
 
 ### -param pptlHTOrg [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that specifies the origin of the halftone brush. Device drivers that use halftone brushes should align the upper left pixel of the brush's pattern with this point on the device surface.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure that specifies the origin of the halftone brush. Device drivers that use halftone brushes should align the upper left pixel of the brush's pattern with this point on the device surface.
 
 ### -param prclDest [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the area to be modified in the coordinate system of the destination surface. This rectangle is defined by two points that are not necessarily well ordered, meaning the coordinates of the second point are not necessarily larger than those of the first point. The rectangle they describe does not include the lower and right edges. This function is never called with an empty destination rectangle.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines the area to be modified in the coordinate system of the destination surface. This rectangle is defined by two points that are not necessarily well ordered, meaning the coordinates of the second point are not necessarily larger than those of the first point. The rectangle they describe does not include the lower and right edges. This function is never called with an empty destination rectangle.
 
 <b>DrvStretchBlt</b> should interchange the two <i>x</i> values and/or the two <i>y</i> values when the destination rectangle is not well ordered.
 
@@ -169,29 +169,28 @@ The return value is <b>TRUE</b> if the function is successful. Otherwise, it is 
 
 <b>DrvStretchBlt</b> enables the device driver to write to GDI bitmaps, especially when the driver can perform halftoning. This function allows the same halftoning algorithm to be applied to GDI bitmaps and device surfaces.
 
-This function can be provided to handle only certain forms of stretching, such as by integer multiples. If the driver has hooked the call and is asked to perform an operation it does not support, the driver should forward the data to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engstretchblt">EngStretchBlt</a> for GDI to handle.
+This function can be provided to handle only certain forms of stretching, such as by integer multiples. If the driver has hooked the call and is asked to perform an operation it does not support, the driver should forward the data to <a href="/windows/desktop/api/winddi/nf-winddi-engstretchblt">EngStretchBlt</a> for GDI to handle.
 
-If the driver wants GDI to handle halftoning, and wants to ensure the proper <i>iMode</i> value, the driver can hook <b>DrvStretchBlt</b>, set <i>iMode</i> to HALFTONE, and call back to GDI with <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engstretchblt">EngStretchBlt</a> with the set <i>iMode</i> value.
+If the driver wants GDI to handle halftoning, and wants to ensure the proper <i>iMode</i> value, the driver can hook <b>DrvStretchBlt</b>, set <i>iMode</i> to HALFTONE, and call back to GDI with <a href="/windows/desktop/api/winddi/nf-winddi-engstretchblt">EngStretchBlt</a> with the set <i>iMode</i> value.
 
 <b>DrvStretchBlt</b> is optional for display drivers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvbitblt">DrvBitBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engstretchblt">EngStretchBlt</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engstretchblt">EngStretchBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>

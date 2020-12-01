@@ -55,14 +55,14 @@ api_name:
 Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters.
 
 This function is identical to 
-the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpatha">PdhExpandWildCardPath</a> function, except that it supports the use of handles to data sources.
+the <a href="/windows/desktop/api/pdh/nf-pdh-pdhexpandwildcardpatha">PdhExpandWildCardPath</a> function, except that it supports the use of handles to data sources.
 
 ## -parameters
 
 ### -param hDataSource [in]
 
 Handle to a data source returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a> function.
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a> function.
 
 ### -param szWildCardPath [in]
 
@@ -120,8 +120,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>.
 
 <table>
 <tr>
@@ -179,7 +179,7 @@ Unable to find the specified object on the computer or in the log file.
 You should call this function twice, the first time to get the required buffer size (set <i>mszExpandedPathList</i> to <b>NULL</b> and <i>pcchPathListLength</i> to 0), and the second time to get the data.
 
 <b>PdhExpandWildCardPathH</b> differs from 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhexpandcounterpatha">PdhExpandCounterPath</a> in the following ways:
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhexpandcounterpatha">PdhExpandCounterPath</a> in the following ways:
 
 <ol>
 <li>Lets you control which wildcard characters are expanded.</li>
@@ -226,13 +226,12 @@ Partial counter path string matches (for example, "pro*") are  supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectitemsha">PdhEnumObjectItemsH</a>
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhenumobjectitemsha">PdhEnumObjectItemsH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsha">PdhEnumObjectsH</a>
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsha">PdhEnumObjectsH</a>

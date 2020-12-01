@@ -60,7 +60,7 @@ Specifies the number of items to retrieve.
 
 ### -param ppprop [out]
 
-Array of size <i>celt</i> that is filled with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface pointers.
+Array of size <i>celt</i> that is filled with <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface pointers.
 
 ### -param pcelt [out]
 
@@ -101,9 +101,8 @@ The collection is at the end of the enumeration sequence.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-ienumtunerequests">IEnumTuneRequests Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-ienumtunerequests">IEnumTuneRequests Interface</a>

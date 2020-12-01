@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>lineSetMediaMode</b> function sets the media type(s) of the specified call in its 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-setmediatype">ITLegacyCallMediaControl::SetMediaType</a>.
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure. For more information, see 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-setmediatype">ITLegacyCallMediaControl::SetMediaType</a>.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Handle to the call whose media type is to be changed. The application must be an
 ### -param dwMediaModes
 
 New media type(s) for the call. This parameter uses the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>. As long as the UNKNOWN media type flag is set, other media type flags may be set as well. This is used to identify a call's media type as not fully determined, but narrowed down to one of a small set of specified media types. If the UNKNOWN flag is not set, only a single media type can be specified.
+<a href="/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>. As long as the UNKNOWN media type flag is set, other media type flags may be set as well. This is used to identify a call's media type as not fully determined, but narrowed down to one of a small set of specified media types. If the UNKNOWN flag is not set, only a single media type can be specified.
 
 ## -returns
 
@@ -76,17 +76,16 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALMEDIAMODE, LINEER
 
 The 
 <b>lineSetMediaMode</b> function changes the call's media type in its 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure. Typical usage of this operation is either to set a call's media type to a specific known media type or to exclude possible media types as long as the call's media type is officially unknown (the UNKNOWN media type flag is set).
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a> structure. Typical usage of this operation is either to set a call's media type to a specific known media type or to exclude possible media types as long as the call's media type is officially unknown (the UNKNOWN media type flag is set).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecallinfo">LINECALLINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>

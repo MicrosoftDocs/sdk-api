@@ -56,11 +56,11 @@ Defines constants that specify the data type of a parameter to a meta command.
 
 ### -field D3D12_META_COMMAND_PARAMETER_TYPE_FLOAT
 
-Specifies that the parameter is of type <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a>.
+Specifies that the parameter is of type <a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a>.
 
 ### -field D3D12_META_COMMAND_PARAMETER_TYPE_UINT64
 
-Specifies that the parameter is of type <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a>.
+Specifies that the parameter is of type <a href="/windows/desktop/WinProg/windows-data-types">UINT64</a>.
 
 ### -field D3D12_META_COMMAND_PARAMETER_TYPE_GPU_VIRTUAL_ADDRESS
 
@@ -73,4 +73,3 @@ Specifies that the parameter is a CPU descriptor handle to a heap containing eit
 ### -field D3D12_META_COMMAND_PARAMETER_TYPE_GPU_DESCRIPTOR_HANDLE_HEAP_TYPE_CBV_SRV_UAV
 
 Specifies that the parameter is a GPU descriptor handle to a heap containing either constant buffer views, shader resource views, or unordered access views.
-

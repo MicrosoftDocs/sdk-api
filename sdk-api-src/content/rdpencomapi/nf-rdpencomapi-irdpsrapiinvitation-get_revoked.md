@@ -65,5 +65,4 @@ There is no way to delete an invitation, only to revoke it. This enables the app
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a>

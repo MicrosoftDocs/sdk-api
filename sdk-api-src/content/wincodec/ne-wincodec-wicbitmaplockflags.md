@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies access to an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>.
+Specifies access to an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ A read access lock.
 A write access lock.
 
 ### -field WICBITMAPLOCKFLAGS_FORCE_DWORD
-

@@ -87,9 +87,9 @@ The return value specifies the result of the message processing and depends on t
 
 ## -remarks
 
-The <b>DefDlgProc</b> function is the window procedure for the predefined class of dialog box. This procedure provides internal processing for the dialog box by forwarding messages to the dialog box procedure and carrying out default processing for any messages that the dialog box procedure returns as <b>FALSE</b>. Applications that create custom window procedures for their custom dialog boxes often use <b>DefDlgProc</b> instead of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function to carry out default message processing. 
+The <b>DefDlgProc</b> function is the window procedure for the predefined class of dialog box. This procedure provides internal processing for the dialog box by forwarding messages to the dialog box procedure and carrying out default processing for any messages that the dialog box procedure returns as <b>FALSE</b>. Applications that create custom window procedures for their custom dialog boxes often use <b>DefDlgProc</b> instead of the <a href="/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function to carry out default message processing. 
 
-Applications create custom dialog box classes by filling a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure with appropriate information and registering the class with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> function. Some applications fill the structure by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoa">GetClassInfo</a> function, specifying the name of the predefined dialog box. In such cases, the applications modify at least the <b>lpszClassName</b> member before registering. In all cases, the <b>cbWndExtra</b> member of <b>WNDCLASS</b> for a custom dialog box class must be set to at least <b>DLGWINDOWEXTRA</b>.
+Applications create custom dialog box classes by filling a <a href="/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure with appropriate information and registering the class with the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> function. Some applications fill the structure by using the <a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa">GetClassInfo</a> function, specifying the name of the predefined dialog box. In such cases, the applications modify at least the <b>lpszClassName</b> member before registering. In all cases, the <b>cbWndExtra</b> member of <b>WNDCLASS</b> for a custom dialog box class must be set to at least <b>DLGWINDOWEXTRA</b>.
 
 The <b>DefDlgProc</b> function must not be called by a dialog box procedure; doing so results in recursive execution.
 
@@ -99,15 +99,15 @@ The <b>DefDlgProc</b> function must not be called by a dialog box procedure; doi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoa">GetClassInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa">GetClassInfo</a>
 
 
 
@@ -115,9 +115,8 @@ The <b>DefDlgProc</b> function must not be called by a dialog box procedure; doi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a>
-
+<a href="/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a>

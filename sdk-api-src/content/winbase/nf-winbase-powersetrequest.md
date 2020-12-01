@@ -107,7 +107,7 @@ If the function succeeds, it returns a nonzero value.
                     
                         
 
-If the function fails, it returns zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, it returns zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -116,17 +116,16 @@ To conserve power and provide the best user experience, applications that use po
                 
 
 <ul>
-<li>When creating a power request, provide a localized text string that describes the reason for the request in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-reason_context">REASON_CONTEXT</a> structure.</li>
+<li>When creating a power request, provide a localized text string that describes the reason for the request in the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-reason_context">REASON_CONTEXT</a> structure.</li>
 <li>Call <b>PowerSetRequest</b> immediately before the scenario that requires the request.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a> to decrement the reference count for the request as soon as the scenario is finished.</li>
+<li>Call <a href="/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a> to decrement the reference count for the request as soon as the scenario is finished.</li>
 <li>Clean up all request objects and associated handles before the process exits or the service stops.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-powercreaterequest">PowerCreateRequest</a>

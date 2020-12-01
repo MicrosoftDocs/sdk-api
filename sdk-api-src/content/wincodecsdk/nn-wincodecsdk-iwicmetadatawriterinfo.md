@@ -54,7 +54,7 @@ Exposes methods that provide basic information about the registered metadata wri
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataWriterInfo</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatahandlerinfo">IWICMetadataHandlerInfo</a>. <b>IWICMetadataWriterInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataWriterInfo</b> interface inherits from <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatahandlerinfo">IWICMetadataHandlerInfo</a>. <b>IWICMetadataWriterInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IWICMetadataWriterInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriterinfo-createinstance">CreateInstance</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriterinfo-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
-Creates an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatawriter">IWICMetadataWriter</a>.
+Creates an instance of an <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicmetadatawriter">IWICMetadataWriter</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriterinfo-getheader">GetHeader</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatawriterinfo-getheader">GetHeader</a>
 </td>
 <td align="left" width="63%">
 Gets the metadata header for the metadata writer.
@@ -86,4 +86,3 @@ Gets the metadata header for the metadata writer.
 </td>
 </tr>
 </table>
-

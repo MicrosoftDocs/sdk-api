@@ -68,8 +68,8 @@ The number of valid usages found as the intersection of the valid usages of all 
 
 ### -param rghOIDs [out]
 
-An array of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) of the valid usages that are shared by all of the certificates in the <i>rghCerts</i> array. This parameter can be <b>NULL</b> to set the size of this structure for memory allocation purposes. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
+An array of the <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) of the valid usages that are shared by all of the certificates in the <i>rghCerts</i> array. This parameter can be <b>NULL</b> to set the size of this structure for memory allocation purposes. For more information, see 
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbOIDs [in, out]
 
@@ -78,5 +78,4 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the <i>r
 ## -returns
 
 If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

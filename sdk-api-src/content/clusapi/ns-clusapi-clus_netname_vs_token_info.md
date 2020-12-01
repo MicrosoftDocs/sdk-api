@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains the data needed to request a token. It is used as the input parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-netname-get-virtual-server-token">CLUSCTL_RESOURCE_NETNAME_GET_VIRTUAL_SERVER_TOKEN</a> control code.
+Contains the data needed to request a token. It is used as the input parameter of the <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-netname-get-virtual-server-token">CLUSCTL_RESOURCE_NETNAME_GET_VIRTUAL_SERVER_TOKEN</a> control code.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ Process ID of the process requesting the token.
 
 Specifies an access mask that specifies the requested types of access. For a list of access rights for access 
       tokens, see 
-      <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a>.
+      <a href="/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a>.
 
 ### -field InheritHandle
 
@@ -74,9 +74,8 @@ Indicates whether the new handle is inheritable. If <b>TRUE</b>, the duplicate h
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-netname-get-virtual-server-token">CLUSCTL_RESOURCE_NETNAME_GET_VIRTUAL_SERVER_TOKEN</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-netname-get-virtual-server-token">CLUSCTL_RESOURCE_NETNAME_GET_VIRTUAL_SERVER_TOKEN</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>

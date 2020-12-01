@@ -88,7 +88,7 @@ The decorated or undecorated symbol name. If the buffer is not large enough for 
 ## -remarks
 
 This structure supersedes the <b>IMAGEHLP_SYMBOL</b> structure. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>IMAGEHLP_SYMBOL</b> is defined as follows in DbgHelp.h. 
+<a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>IMAGEHLP_SYMBOL</b> is defined as follows in DbgHelp.h. 
 
 
 ```cpp
@@ -109,9 +109,8 @@ This structure supersedes the <b>IMAGEHLP_SYMBOL</b> structure. For more informa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromaddr">SymGetSymFromAddr64</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromaddr">SymGetSymFromAddr64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromname">SymGetSymFromName64</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetsymfromname">SymGetSymFromName64</a>

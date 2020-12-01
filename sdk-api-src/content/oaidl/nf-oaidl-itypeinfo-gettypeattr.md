@@ -107,9 +107,8 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-To free the TYPEATTR structure, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasetypeattr">ITypeInfo::ReleaseTypeAttr</a>.
+To free the TYPEATTR structure, use <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-releasetypeattr">ITypeInfo::ReleaseTypeAttr</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

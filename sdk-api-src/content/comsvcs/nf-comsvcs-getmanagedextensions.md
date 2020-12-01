@@ -64,17 +64,16 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -remarks
 
-Several COM+ services, such as <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--just-in-time-activation">COM+ Just-in-Time Activation</a> and <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--events">COM+ Events</a>, support the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedactivationevents">IManagedActivationEvents</a> interface. This interface provides additional code for managing serviced components (managed objects). To take advantage of this additional code, the serviced component must support the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedobjectinfo">IManagedObjectInfo</a> interface. The <b>GetManagedExtensions</b> function allows you to determine the availability of this additional code in the installed version of COM+.
+Several COM+ services, such as <a href="/windows/desktop/cossdk/com--just-in-time-activation">COM+ Just-in-Time Activation</a> and <a href="/windows/desktop/cossdk/com--events">COM+ Events</a>, support the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imanagedactivationevents">IManagedActivationEvents</a> interface. This interface provides additional code for managing serviced components (managed objects). To take advantage of this additional code, the serviced component must support the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imanagedobjectinfo">IManagedObjectInfo</a> interface. The <b>GetManagedExtensions</b> function allows you to determine the availability of this additional code in the installed version of COM+.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedactivationevents">IManagedActivationEvents</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imanagedactivationevents">IManagedActivationEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedobjectinfo">IManagedObjectInfo</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imanagedobjectinfo">IManagedObjectInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedpooledobj">IManagedPooledObj</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imanagedpooledobj">IManagedPooledObj</a>

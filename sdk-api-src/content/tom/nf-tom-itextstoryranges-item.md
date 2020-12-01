@@ -50,30 +50,30 @@ api_name:
 
 ## -description
 
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object for the 
+Retrieves an <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object for the 
 			<i>Index</i>th story in this story collection.
 
 ## -parameters
 
 ### -param Index
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
-Index of story range that is retrieved. The default value is 1, which indicates the first story in the collection. <i>Count</i>, given by <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstoryranges-getcount">ITextStoryRanges::GetCount</a>, indicates the last story in the collection. If <i>Index</i> is less than zero, the stories are counted from last to first, with -1 being the index of the last story in the collection, and 
+Index of story range that is retrieved. The default value is 1, which indicates the first story in the collection. <i>Count</i>, given by <a href="/windows/desktop/api/tom/nf-tom-itextstoryranges-getcount">ITextStoryRanges::GetCount</a>, indicates the last story in the collection. If <i>Index</i> is less than zero, the stories are counted from last to first, with -1 being the index of the last story in the collection, and 
 					<i>Index</i> = - <i>Count</i> indicating the first story in the collection.
 
 ### -param ppRange
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>**</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>**</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object.
+The <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> object.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 The method returns an 
-						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+						<b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -110,11 +110,11 @@ Failure for some other reason.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextstoryranges-getcount">GetCount</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextstoryranges-getcount">GetCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstoryranges">ITextStoryRanges</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextstoryranges">ITextStoryRanges</a>
 
 
 
@@ -122,5 +122,4 @@ Failure for some other reason.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

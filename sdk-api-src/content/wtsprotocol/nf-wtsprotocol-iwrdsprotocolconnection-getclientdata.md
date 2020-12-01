@@ -56,7 +56,7 @@ Requests client settings from the protocol.
 
 ### -param pClientData [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_client_data">WRDS_CLIENT_DATA</a> structure that contains the client settings.
+A pointer to a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_client_data">WRDS_CLIENT_DATA</a> structure that contains the client settings.
 
 ## -returns
 
@@ -66,5 +66,4 @@ Upon receiving an error, the Remote Desktop Services service will drop the conne
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>

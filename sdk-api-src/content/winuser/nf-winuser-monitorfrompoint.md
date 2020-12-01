@@ -46,6 +46,7 @@ api_location:
  - minuser.dll
 api_name:
  - MonitorFromPoint
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # MonitorFromPoint function
@@ -59,7 +60,7 @@ The <b>MonitorFromPoint</b> function retrieves a handle to the display monitor t
 
 ### -param pt [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that specifies the point of interest in virtual-screen coordinates.
+A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that specifies the point of interest in virtual-screen coordinates.
 
 ### -param dwFlags [in]
 
@@ -112,17 +113,16 @@ If the point is not contained by a display monitor, the return value depends on 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfromrect">MonitorFromRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-monitorfromrect">MonitorFromRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfromwindow">MonitorFromWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-monitorfromwindow">MonitorFromWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors-functions">Multiple Display Monitors Functions</a>
+<a href="/windows/desktop/gdi/multiple-display-monitors-functions">Multiple Display Monitors Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>
-
+<a href="/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>

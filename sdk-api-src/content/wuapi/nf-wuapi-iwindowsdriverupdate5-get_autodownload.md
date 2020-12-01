@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/ne-wuapi-autodownloadmode">AutoDownloadMode</a> value that indicates the automatic download mode of update.
+Gets an <a href="/windows/desktop/api/wuapi/ne-wuapi-autodownloadmode">AutoDownloadMode</a> value that indicates the automatic download mode of update.
 
 This property is read-only.
 
@@ -63,5 +63,4 @@ The AutoDownload property indicates whether the update will be automatically dow
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate5">IWindowsDriverUpdate5</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate5">IWindowsDriverUpdate5</a>

@@ -79,9 +79,8 @@ The method succeeded.
 
 ## -remarks
 
-When this method is called, the ITA should disable any decrypter that was returned in the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-getdecrypter">IMFInputTrustAuthority::GetDecrypter</a> method.
+When this method is called, the ITA should disable any decrypter that was returned in the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfinputtrustauthority-getdecrypter">IMFInputTrustAuthority::GetDecrypter</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>

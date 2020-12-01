@@ -65,7 +65,7 @@ The number of app containers in the <b>appContainerSids</b> member.
 
 ### -param appContainerSids [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">PSID_AND_ATTRIBUTES</a></b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">PSID_AND_ATTRIBUTES</a></b>
 
 The security identifiers (SIDs) of app containers that are allowed to send loopback traffic. Used for debugging purposes.
 
@@ -78,4 +78,3 @@ Returns ERROR_SUCCESS if successful, or an error value otherwise.
 ## -remarks
 
 Note that it is the calling program's responsibility to first call the <b>NetworkIsolationGetAppContainerConfig</b> function in order to retrieve and preserve the app container SIDs already configured to send loopback traffic.
-

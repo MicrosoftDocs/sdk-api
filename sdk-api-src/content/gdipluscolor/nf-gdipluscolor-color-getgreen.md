@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Color::GetGreen</b> method gets the green component of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
+The <b>Color::GetGreen</b> method gets the green component of this <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a> object.
 
 ## -parameters
 
@@ -63,37 +63,36 @@ This method returns the green component of this color.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getalpha">Color::GetAlpha</a>
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getalpha">Color::GetAlpha</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getb">Color::GetB</a>
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getb">Color::GetB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getblue">Color::GetBlue</a>
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getblue">Color::GetBlue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getg">Color::GetG</a>
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getg">Color::GetG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getgreen">Color::GetGreen</a>
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getgreen">Color::GetGreen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getr">Color::GetR</a>
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getr">Color::GetR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getred">Color::GetRed</a>
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getred">Color::GetRed</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">Color::GetValue</a>
-
+<a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">Color::GetValue</a>

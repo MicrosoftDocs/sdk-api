@@ -65,24 +65,23 @@ Specifies the opaque handle passed to the attachment by the Security Configurati
 ### -field pfQueryInfo
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a> callback function that queries information in the security database.
+<a href="/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a> callback function that queries information in the security database.
 
 ### -field pfSetInfo
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_set_info">PFSCE_SET_INFO</a> callback function that sets information in the security database.
+<a href="/windows/desktop/api/scesvc/nc-scesvc-pfsce_set_info">PFSCE_SET_INFO</a> callback function that sets information in the security database.
 
 ### -field pfFreeInfo
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_free_info">PFSCE_FREE_INFO</a> callback function that frees information in the security database.
+<a href="/windows/desktop/api/scesvc/nc-scesvc-pfsce_free_info">PFSCE_FREE_INFO</a> callback function that frees information in the security database.
 
 ### -field pfLogInfo
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_log_info">PFSCE_LOG_INFO</a> callback function that logs messages to the configuration log file or analysis log file.
+<a href="/windows/desktop/api/scesvc/nc-scesvc-pfsce_log_info">PFSCE_LOG_INFO</a> callback function that logs messages to the configuration log file or analysis log file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/sce-handle">SCE_HANDLE</a>
-
+<a href="/windows/desktop/SecMgmt/sce-handle">SCE_HANDLE</a>

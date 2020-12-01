@@ -64,7 +64,7 @@ A MethodDef or FieldDef metadata token that represents the code object to return
 
 ### -param pdwImplFlags [out]
 
-A pointer to the implementation flags for the method. This value is a bitmask from the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/cormethodimpl-enumeration">CorMethodImpl</a> enumeration. The value of <i>pdwImplFlags</i> is valid only if <i>tk</i> is a MethodDef token.
+A pointer to the implementation flags for the method. This value is a bitmask from the <a href="/dotnet/framework/unmanaged-api/metadata/cormethodimpl-enumeration">CorMethodImpl</a> enumeration. The value of <i>pdwImplFlags</i> is valid only if <i>tk</i> is a MethodDef token.
 
 ## -returns
 
@@ -72,5 +72,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>

@@ -64,25 +64,25 @@ When this method returns, contains a pointer to one of the values listed below t
 
 #### PET_DISCRETEVALUE (0)
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getdisplaytext">GetDisplayText</a> and either <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangeminvalue">GetRangeMinValue</a> or <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangesetvalue">GetRangeSetValue</a>.
+Use <a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getdisplaytext">GetDisplayText</a> and either <a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangeminvalue">GetRangeMinValue</a> or <a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangesetvalue">GetRangeSetValue</a>.
 
 
 
 #### PET_RANGEDVALUE (1)
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getdisplaytext">GetDisplayText</a> and either <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangeminvalue">GetRangeMinValue</a> or <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangesetvalue">GetRangeSetValue</a>.
+Use <a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getdisplaytext">GetDisplayText</a> and either <a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangeminvalue">GetRangeMinValue</a> or <a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangesetvalue">GetRangeSetValue</a>.
 
 
 
 #### PET_DEFAULTVALUE (2)
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getdisplaytext">GetDisplayText</a>.
+Use <a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getdisplaytext">GetDisplayText</a>.
 
 
 
 #### PET_ENDRANGE (3)
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">GetValue</a> or <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangeminvalue">GetRangeMinValue</a>.
+Use <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">GetValue</a> or <a href="/windows/desktop/api/propsys/nf-propsys-ipropertyenumtype-getrangeminvalue">GetRangeMinValue</a>.
 
 ## -returns
 
@@ -92,5 +92,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-For additional information, see <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-enumeratedlist">enumeratedList</a>.
-
+For additional information, see <a href="/windows/desktop/properties/propdesc-schema-enumeratedlist">enumeratedList</a>.

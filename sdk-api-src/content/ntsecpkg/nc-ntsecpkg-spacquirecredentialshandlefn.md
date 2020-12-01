@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Called to obtain a handle to a principal's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a>. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> can deny access to the caller if the caller does not have permission to access the credentials.
+Called to obtain a handle to a principal's <a href="/windows/desktop/SecGloss/c-gly">credentials</a>. The <a href="/windows/desktop/SecGloss/s-gly">security package</a> can deny access to the caller if the caller does not have permission to access the credentials.
 
 If the credentials handle is returned to the caller, the package should also specify an expiration time for the handle.
 
@@ -59,7 +59,7 @@ If the credentials handle is returned to the caller, the package should also spe
 ### -param PrincipalName [in]
 
 Optional. Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure containing the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a> whose credentials are being requested. If this value is <b>NULL</b>, the caller requests a handle to the credentials of the user in whose <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a> the caller is executing.
+<a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure containing the name of the <a href="/windows/desktop/SecGloss/s-gly">security principal</a> whose credentials are being requested. If this value is <b>NULL</b>, the caller requests a handle to the credentials of the user in whose <a href="/windows/desktop/SecGloss/s-gly">security context</a> the caller is executing.
 
 ### -param CredentialUseFlags [in]
 
@@ -77,7 +77,7 @@ Flags indicating how the credentials will be used. The following values are vali
 </td>
 <td width="60%">
 Credentials will be used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function.
+<a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Credentials will be used with the
 </td>
 <td width="60%">
 Credentials will be used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> function.
+<a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> function.
 
 </td>
 </tr>
@@ -97,13 +97,16 @@ Credentials will be used with the
 ### -param LogonId [in]
 
 Optional. Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> containing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon identifier</a> of the security principal.
+<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> containing the <a href="/windows/desktop/SecGloss/l-gly">logon identifier</a> of the security principal.
 
 ### -param AuthorizationData [in]
 
 Optional. Pointer to supplemental authentication data.
 
-### -param GetKeyFunciton
+### -param GetKeyFunciton [in]
+
+Pointer to a function in the caller's address space that generates <a href="/windows/desktop/SecGloss/s-gly">session keys</a>.
+
 
 ### -param GetKeyArgument [in]
 
@@ -111,17 +114,12 @@ Pointer to the argument used with the <i>GetKeyFunction</i> function.
 
 ### -param CredentialHandle [out]
 
-Pointer to an <b>LSA_SEC_HANDLE</b> that receives the credentials. When you have finished using the credentials, free the handle by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spfreecredentialshandlefn">SpFreeCredentialsHandle</a> function.
+Pointer to an <b>LSA_SEC_HANDLE</b> that receives the credentials. When you have finished using the credentials, free the handle by calling the <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spfreecredentialshandlefn">SpFreeCredentialsHandle</a> function.
 
 ### -param ExpirationTime [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/timestamp">TimeStamp</a> that receives the time the credentials handle expires.
-
-
-#### - GetKeyFunction [in]
-
-Pointer to a function in the caller's address space that generates <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session keys</a>.
+<a href="/windows/desktop/SecAuthN/timestamp">TimeStamp</a> that receives the time the credentials handle expires.
 
 ## -returns
 
@@ -160,26 +158,25 @@ There are no credentials available for the specified principal.
 
 ## -remarks
 
-The package can use the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) support functions to determine whether the caller should be given access to the requested credentials.
+The package can use the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) support functions to determine whether the caller should be given access to the requested credentials.
 
 Credentials obtained from <b>SpAcquireCredentialsHandle</b> are freed by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spfreecredentialshandlefn">SpFreeCredentialsHandle</a> function.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spfreecredentialshandlefn">SpFreeCredentialsHandle</a> function.
 
 SSP/APs must implement the <b>SpAcquireCredentialsHandle</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpAcquireCredentialsHandle</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spfreecredentialshandlefn">SpFreeCredentialsHandle</a>
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spfreecredentialshandlefn">SpFreeCredentialsHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>

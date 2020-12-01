@@ -68,17 +68,17 @@ You cannot specify a color key if you are alpha-blending a Direct3D surface with
 
 Source rectangle. The source rectangle defines the region of the bitmap that is alpha-blended with the video. The source rectangle is given in pixels and is relative to the original bitmap.
 
-If you are alpha-blending a GDI bitmap, you must fill in this structure when you call <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-setalphabitmap">IMFVideoMixerBitmap::SetAlphaBitmap</a>.
+If you are alpha-blending a GDI bitmap, you must fill in this structure when you call <a href="/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-setalphabitmap">IMFVideoMixerBitmap::SetAlphaBitmap</a>.
 
 If you are alpha-blending a Direct3D surface and the <b>dwFlags</b> member contains the MFVideoAlphaBitmap_EntireDDS flag, the <b>rcSrc</b> member is ignored. If the flag is absent, you must fill in the <b>rcSrc</b> member.
 
-After setting the initiali bitmap, you can update the source rectangle by calling <a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-updatealphabitmapparameters">IMFVideoMixerBitmap::UpdateAlphaBitmapParameters</a>. To update the source rectangle, set the MFVideoAlphaBitmap_SrcColorKey flag in the <b>dwFlags</b> member.
+After setting the initiali bitmap, you can update the source rectangle by calling <a href="/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-updatealphabitmapparameters">IMFVideoMixerBitmap::UpdateAlphaBitmapParameters</a>. To update the source rectangle, set the MFVideoAlphaBitmap_SrcColorKey flag in the <b>dwFlags</b> member.
 
 The source rectangle cannot be an empty rectangle, and cannot exceed the bounds of the bitmap.
 
 ### -field nrcDest
 
-Destination rectangle. The destination rectangle defines the region of the composited video image that receives the alpha-blended bitmap. The destination rectangle is specified as a normalized rectangle using the <a href="https://docs.microsoft.com/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure.
+Destination rectangle. The destination rectangle defines the region of the composited video image that receives the alpha-blended bitmap. The destination rectangle is specified as a normalized rectangle using the <a href="/windows/desktop/api/evr/ns-evr-mfvideonormalizedrect">MFVideoNormalizedRect</a> structure.
 
 This member is used if the <b>dwFlags</b> member contains the MFVideoAlphaBitmap_DestRect flag. Otherwise, the default destination rectangle is {0, 0, 1, 1}.
 
@@ -98,17 +98,16 @@ Point filtering is particularly useful for images that contain text and will not
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
+<a href="/windows/desktop/medfound/enhanced-video-renderer">Enhanced Video Renderer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-updatealphabitmapparameters">IMFVideoMixerBitmap::UpdateAlphaBitmapParameters</a>
+<a href="/windows/desktop/api/evr9/nf-evr9-imfvideomixerbitmap-updatealphabitmapparameters">IMFVideoMixerBitmap::UpdateAlphaBitmapParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmap">MFVideoAlphaBitmap</a>
+<a href="/windows/desktop/api/evr9/ns-evr9-mfvideoalphabitmap">MFVideoAlphaBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

@@ -57,7 +57,7 @@ Uses profile data from a profile object to configure settings in the ContentInfo
 
 ### -param pIProfile [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a> interface of the profile object.
+The <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a> interface of the profile object.
 
 ## -returns
 
@@ -87,17 +87,16 @@ If there is already information in the ContentInfo object when this method is ca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a>
+<a href="/windows/desktop/medfound/asf-contentinfo-object">ASF ContentInfo Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getprofile">IMFASFContentInfo::GetProfile</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getprofile">IMFASFContentInfo::GetProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/initializing-the-contentinfo-object-of-a-new-asf-file">Initializing the ContentInfo Object of a New ASF File</a>
-
+<a href="/windows/desktop/medfound/initializing-the-contentinfo-object-of-a-new-asf-file">Initializing the ContentInfo Object of a New ASF File</a>

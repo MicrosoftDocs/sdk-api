@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>ObjectId</b> property retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID)  for the extension.
+The <b>ObjectId</b> property retrieves the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID)  for the extension.
 
 This property is read-only.
 
@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
-You can specify the OID when you call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extension-initialize">Initialize</a> method to create an extension value.
+You can specify the OID when you call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extension-initialize">Initialize</a> method to create an extension value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>

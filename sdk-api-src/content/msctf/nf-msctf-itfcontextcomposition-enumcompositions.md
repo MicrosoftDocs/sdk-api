@@ -56,7 +56,7 @@ Creates an enumerator object that contains all compositions in the context.
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumitfcompositionview">IEnumITfCompositionView</a> interface pointer that receives the enumerator object.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-ienumitfcompositionview">IEnumITfCompositionView</a> interface pointer that receives the enumerator object.
 
 ## -returns
 
@@ -127,4 +127,3 @@ The context object is not on a document stack.
 ## -see-also
 
 [IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfContextComposition interface](nn-msctf-itfcontextcomposition.md)
-

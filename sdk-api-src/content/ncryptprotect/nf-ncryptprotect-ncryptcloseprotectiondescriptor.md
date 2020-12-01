@@ -56,7 +56,7 @@ The <b>NCryptCloseProtectionDescriptor</b> function zeros and frees a protection
 
 ### -param hDescriptor [in]
 
-Handle of a protection descriptor created by calling <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptcreateprotectiondescriptor">NCryptCreateProtectionDescriptor</a>.
+Handle of a protection descriptor created by calling <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptcreateprotectiondescriptor">NCryptCreateProtectionDescriptor</a>.
 
 ## -returns
 
@@ -93,9 +93,8 @@ The handle specified by the <i>hDescriptor</i> parameter cannot be <b>NULL</b> a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
+<a href="/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptcreateprotectiondescriptor">NCryptCreateProtectionDescriptor</a>
-
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptcreateprotectiondescriptor">NCryptCreateProtectionDescriptor</a>

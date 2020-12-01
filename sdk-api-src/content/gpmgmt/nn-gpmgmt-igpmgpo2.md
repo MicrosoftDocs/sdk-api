@@ -55,22 +55,22 @@ The
 
 Note that you cannot use this interface to manage local GPOs (LGPOs).
 
-You can instantiate a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO2</a> object by creating a new one with a call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-creategpo">IGPMDomain::CreateGPO</a>, or  <b>IGPMDomain2::CreateStarterGPO</b> retrieving an existing one with a call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-getgpo">IGPMDomain::GetGPO</a>, calling <b>IGPMDomain2::GetStarterGPO</b> or by searching for one with a call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-searchgpos">IGPMDomain::SearchGPOs</a>. You can also create a GPO from an existing Starter GPO with a call to <b>IGPMDomain2::CreateGPOFromStarterGPO</b>. After creating the object, you can query the GPO and set properties related to the GPO.
+You can instantiate a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO2</a> object by creating a new one with a call to 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-creategpo">IGPMDomain::CreateGPO</a>, or  <b>IGPMDomain2::CreateStarterGPO</b> retrieving an existing one with a call to 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-getgpo">IGPMDomain::GetGPO</a>, calling <b>IGPMDomain2::GetStarterGPO</b> or by searching for one with a call to 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmdomain-searchgpos">IGPMDomain::SearchGPOs</a>. You can also create a GPO from an existing Starter GPO with a call to <b>IGPMDomain2::CreateGPOFromStarterGPO</b>. After creating the object, you can query the GPO and set properties related to the GPO.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMDomain</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMDomain</a>
 
 
 
@@ -78,13 +78,12 @@ You can instantiate a <a href="https://docs.microsoft.com/previous-versions/wind
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpocollection">IGPMGPOCollection</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpocollection">IGPMGPOCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>

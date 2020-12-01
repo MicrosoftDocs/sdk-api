@@ -47,7 +47,7 @@ With this method, you can return a Direct3D 11 resource object to Direct3D11On12
 
 ### -param pResource11 [in]
 
-Type: **[ID3D11Resource](/windows/win32/api/d3d11/nn-d3d11-id3d11resource)\***
+Type: **[ID3D11Resource](../d3d11/nn-d3d11-id3d11resource.md)\***
 
 The Direct3D 11 resource object that you wish to return.
 
@@ -65,7 +65,7 @@ A pointer to an array of fence signal values.
 
 ### -param ppFences [in]
 
-Type: **[ID3D12Fence](/windows/win32/api/d3d12/nn-d3d12-id3d12fence)\*\***
+Type: **[ID3D12Fence](../d3d12/nn-d3d12-id3d12fence.md)\*\***
 
 A pointer to an array of fence objects.
 
@@ -84,4 +84,3 @@ In the parallel arrays *pSignalValues* and *ppFences*, include any pending work 
 ## -see-also
 
 * [ID3D11On12Device2::UnwrapUnderlyingResource](nf-d3d11on12-id3d11on12device2-unwrapunderlyingresource.md)
-

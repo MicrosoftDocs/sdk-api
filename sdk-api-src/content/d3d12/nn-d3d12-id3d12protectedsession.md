@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Offers base functionality that allows for a consistent way to monitor the validity of a session across the different types of sessions. The only type of session currently available is of type [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession).
+Offers base functionality that allows for a consistent way to monitor the validity of a session across the different types of sessions. The only type of session currently available is of type [ID3D12ProtectedResourceSession](./nn-d3d12-id3d12protectedresourcesession.md).
 
 ## -inheritance
 
@@ -90,4 +90,3 @@ Retrieves the fence for the protected session. From the fence, you can retrieve 
 ## -see-also
 
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>
-

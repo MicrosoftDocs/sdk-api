@@ -72,7 +72,6 @@ Proxy servers are used as a gateway between the local area network (LAN) and the
 
 The value retrieved by this method helps the indexer identify how to work with content that is on a local domain or network. For nonlocal content, going through the proxy server may be appropriate, if not necessary.
 
-The setting to bypass the proxy for local domains is stored in the indexer and is set by calling the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-setproxy">ISearchManager::SetProxy</a> method.
+The setting to bypass the proxy for local domains is stored in the indexer and is set by calling the <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchmanager-setproxy">ISearchManager::SetProxy</a> method.
 
-Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.
-
+Check out the <a href="/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.

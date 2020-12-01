@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function to contain information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
+The <b>CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</b> structure is used with the <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a> function to contain information about a <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
 ## -struct-fields
 
@@ -74,5 +74,4 @@ A pointer to the signed BLOB.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>
-
+<a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>

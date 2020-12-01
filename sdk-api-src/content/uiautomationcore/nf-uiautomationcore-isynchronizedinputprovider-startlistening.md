@@ -56,19 +56,19 @@ Starts listening for input of the specified type.
 
 ### -param inputType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-synchronizedinputtype">SynchronizedInputType</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-synchronizedinputtype">SynchronizedInputType</a></b>
 
 The type of input that is requested to be synchronized.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-When it finds matching input, the provider checks if the target UI Automation element matches the current element. If they match, the provider raises the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_InputReachedTargetEventId</a> event; otherwise, it raises the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_InputReachedOtherElementEventId</a>  or <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_InputDiscardedEventId</a> event. The UI Automation provider must discard the input if it is for an element other than this one.
+When it finds matching input, the provider checks if the target UI Automation element matches the current element. If they match, the provider raises the <a href="/windows/desktop/WinAuto/uiauto-event-ids">UIA_InputReachedTargetEventId</a> event; otherwise, it raises the <a href="/windows/desktop/WinAuto/uiauto-event-ids">UIA_InputReachedOtherElementEventId</a>  or <a href="/windows/desktop/WinAuto/uiauto-event-ids">UIA_InputDiscardedEventId</a> event. The UI Automation provider must discard the input if it is for an element other than this one.
 
 This is a one-shot method; after receiving input, the provider stops listening and continues normally.
 
@@ -76,5 +76,4 @@ This method returns E_INVALIDOPERATION if the provider is already listening for 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-isynchronizedinputprovider">ISynchronizedInputProvider</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-isynchronizedinputprovider">ISynchronizedInputProvider</a>

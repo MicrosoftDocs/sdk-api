@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Called after a namespace walk through a folder. Use this method to perform any necessary cleanup following the actions performed by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-enterfolder">INamespaceWalkCB::EnterFolder</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-founditem">INamespaceWalkCB::FoundItem</a>.
+Called after a namespace walk through a folder. Use this method to perform any necessary cleanup following the actions performed by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-enterfolder">INamespaceWalkCB::EnterFolder</a> or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacewalkcb-founditem">INamespaceWalkCB::FoundItem</a>.
 
 ## -parameters
 
 ### -param psf [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object representing the parent of the folder designated by <i>pidl</i>.
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> object representing the parent of the folder designated by <i>pidl</i>.
 
 ### -param pidl [in]
 
@@ -71,4 +71,3 @@ A PIDL, relative to <i>psf</i>, of the folder being exited.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

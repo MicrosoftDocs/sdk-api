@@ -57,7 +57,7 @@ The
 
 ### -param DestIpAddress [in]
 
-IP address of the destination for which to determine the RTT and hop count, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a> structure.
+IP address of the destination for which to determine the RTT and hop count, in the form of an <a href="/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a> structure.
 
 ### -param HopCount [out]
 
@@ -76,14 +76,14 @@ Round-trip time, in milliseconds, to the destination specified by <i>DestIpAddre
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to obtain the error code for the failure.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to obtain the error code for the failure.
 
 ## -remarks
 
 For information about the <b>IPAddr</b> data type, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>. To convert an IP address between dotted decimal notation and <b>IPAddr</b> format, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a> functions.
+<a href="/windows/desktop/WinProg/windows-data-types">Windows Data Types</a>. To convert an IP address between dotted decimal notation and <b>IPAddr</b> format, use the 
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_addr">inet_addr</a> and 
+<a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-inet_ntoa">inet_ntoa</a> functions.
 
 
 #### Examples
@@ -108,21 +108,20 @@ else {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterface">GetBestInterface</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestinterface">GetBestInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestroute">GetBestRoute</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestroute">GetBestRoute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a>
-
+<a href="/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a>

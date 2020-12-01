@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Notifies an object that it may be subject to subsequent reconciliation through the <a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a> method.
+Notifies an object that it may be subject to subsequent reconciliation through the <a href="/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a> method.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ The number of other replicas of the object. This parameter must not be zero.
 
 ### -param rgpmkOtherReplicas
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>**</b>
 
 The address of an array that contains the addresses of the monikers to use to access the other replicas.
 
@@ -74,7 +74,6 @@ Returns <b>S_OK</b> if successful, or <b>E_UNEXPECTED</b> otherwise.
 
 ## -remarks
 
-An object may be notified that it is a replica more than once. Briefcase reconcilers are not required to implement this interface. Initiators are not required to call this interface if it is implemented. However, an object's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a> may fail if that object has not previously been notified through <b>INotifyReplica::YouAreAReplica</b> that it may be subject to reconciliation.
+An object may be notified that it is a replica more than once. Briefcase reconcilers are not required to implement this interface. Initiators are not required to call this interface if it is implemented. However, an object's implementation of <a href="/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a> may fail if that object has not previously been notified through <b>INotifyReplica::YouAreAReplica</b> that it may be subject to reconciliation.
 
-The briefcase calls the <a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nn-reconcil-inotifyreplica">INotifyReplica</a> interface when objects are added to it.
-
+The briefcase calls the <a href="/windows/desktop/api/reconcil/nn-reconcil-inotifyreplica">INotifyReplica</a> interface when objects are added to it.

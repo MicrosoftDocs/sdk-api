@@ -54,7 +54,7 @@ This shader-reflection interface provides access to variable type.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12ShaderReflectionType</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12ShaderReflectionType</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12ShaderReflectionType</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12ShaderReflectionType</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D12ShaderReflectionType</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getbaseclass">GetBaseClass</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getbaseclass">GetBaseClass</a>
 </td>
 <td align="left" width="63%">
 Gets an <b>ID3D12ShaderReflectionType Interface</b>  interface containing the variable base class type.
@@ -79,7 +79,7 @@ Gets an <b>ID3D12ShaderReflectionType Interface</b>  interface containing the va
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getdesc">GetDesc</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Gets the description of a shader-reflection-variable type.
@@ -89,7 +89,7 @@ Gets the description of a shader-reflection-variable type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getinterfacebyindex">GetInterfaceByIndex</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getinterfacebyindex">GetInterfaceByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets an interface by index.
@@ -99,7 +99,7 @@ Gets an interface by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getmembertypebyindex">GetMemberTypeByIndex</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getmembertypebyindex">GetMemberTypeByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets a shader-reflection-variable type by index.
@@ -109,7 +109,7 @@ Gets a shader-reflection-variable type by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getmembertypebyname">GetMemberTypeByName</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getmembertypebyname">GetMemberTypeByName</a>
 </td>
 <td align="left" width="63%">
 Gets a shader-reflection-variable type by name.
@@ -119,7 +119,7 @@ Gets a shader-reflection-variable type by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getmembertypename">GetMemberTypeName</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getmembertypename">GetMemberTypeName</a>
 </td>
 <td align="left" width="63%">
 Gets a shader-reflection-variable type.
@@ -129,7 +129,7 @@ Gets a shader-reflection-variable type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getnuminterfaces">GetNumInterfaces</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getnuminterfaces">GetNumInterfaces</a>
 </td>
 <td align="left" width="63%">
 Gets the number of interfaces.
@@ -139,7 +139,7 @@ Gets the number of interfaces.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getsubtype">GetSubType</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-getsubtype">GetSubType</a>
 </td>
 <td align="left" width="63%">
 Gets the base class of a class.
@@ -149,7 +149,7 @@ Gets the base class of a class.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-implementsinterface">ImplementsInterface</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-implementsinterface">ImplementsInterface</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a class type implements an interface.
@@ -159,7 +159,7 @@ Indicates whether a class type implements an interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-isequal">IsEqual</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-isequal">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Indicates whether two <b>ID3D12ShaderReflectionType Interface</b> pointers have the same underlying type.
@@ -169,7 +169,7 @@ Indicates whether two <b>ID3D12ShaderReflectionType Interface</b> pointers have 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-isoftype">IsOfType</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectiontype-isoftype">IsOfType</a>
 </td>
 <td align="left" width="63%">
 Indicates whether a variable is of the specified type.
@@ -181,9 +181,8 @@ Indicates whether a variable is of the specified type.
 
 ## -remarks
 
-The get a shader-reflection-type interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectionvariable-gettype">ID3D12ShaderReflectionVariable::GetType</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
+The get a shader-reflection-type interface, call <a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12shaderreflectionvariable-gettype">ID3D12ShaderReflectionVariable::GetType</a>. This isn't a COM interface, so you don't need to worry about reference counts or releasing the interface when you're done with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-shader-interfaces">Shader Interfaces</a>
-
+<a href="/windows/desktop/direct3d12/d3d12-graphics-reference-shader-interfaces">Shader Interfaces</a>

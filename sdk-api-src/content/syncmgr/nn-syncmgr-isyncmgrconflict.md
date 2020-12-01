@@ -54,7 +54,7 @@ Exposes methods that provide information about a conflict retrieved from a confl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrConflict</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrConflict</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrConflict</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrConflict</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncMgrConflict</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflict-getconflictidinfo">GetConflictIdInfo</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflict-getconflictidinfo">GetConflictIdInfo</a>
 </td>
 <td align="left" width="63%">
 Gets information that identifies a conflict within a conflict store.
@@ -78,7 +78,7 @@ Gets information that identifies a conflict within a conflict store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflict-getitemsarray">GetItemsArray</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflict-getitemsarray">GetItemsArray</a>
 </td>
 <td align="left" width="63%">
 Retrieves a conflict items array.
@@ -87,7 +87,7 @@ Retrieves a conflict items array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflict-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflict-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Gets a conflict property, given a property key.
@@ -96,7 +96,7 @@ Gets a conflict property, given a property key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflict-getresolutionhandler">GetResolutionHandler</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflict-getresolutionhandler">GetResolutionHandler</a>
 </td>
 <td align="left" width="63%">
 Gets the resolution handler for the conflict.
@@ -105,7 +105,7 @@ Gets the resolution handler for the conflict.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflict-resolve">Resolve</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflict-resolve">Resolve</a>
 </td>
 <td align="left" width="63%">
 Resolves the conflict using its own sync handler, controls UI.
@@ -113,4 +113,3 @@ Resolves the conflict using its own sync handler, controls UI.
 </td>
 </tr>
 </table>
-

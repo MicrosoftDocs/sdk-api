@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Used with the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code to 
+   <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> control code to 
    retrieve the storage adapter descriptor data for a device.
 
 ## -struct-fields
@@ -163,7 +163,7 @@ If this member is <b>TRUE</b>, the storage adapter supports synchronous transfer
 
 ### -field BusType
 
-Specifies a value of type <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_bus_type">STORAGE_BUS_TYPE</a> that 
+Specifies a value of type <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_bus_type">STORAGE_BUS_TYPE</a> that 
       indicates the type of the bus to which the device is connected.
 
 ### -field BusMajorVersion
@@ -234,21 +234,20 @@ This member is valid starting with Windows 8.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
+<a href="/windows/desktop/FileIO/disk-management-structures">Disk Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_descriptor_header">STORAGE_DESCRIPTOR_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>

@@ -68,16 +68,15 @@ An interim character selection is the length of one character and is visually re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_acp">TS_SELECTION_ACP
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_selection_acp">TS_SELECTION_ACP
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_selection_anchor">TS_SELECTION_ANCHOR
       </a>
 
 
 
 <a href="/windows/win32/api/textstor/ne-textstor-tsactiveselend">TsActiveSelEnd
       </a>
-

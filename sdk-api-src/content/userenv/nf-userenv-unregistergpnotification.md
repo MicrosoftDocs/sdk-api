@@ -58,31 +58,30 @@ The
 ### -param hEvent [in]
 
 Policy-notification handle passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-registergpnotification">RegisterGPNotification</a> function.
+<a href="/windows/desktop/api/userenv/nf-userenv-registergpnotification">RegisterGPNotification</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The caller must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle when it is no longer needed.
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close the handle when it is no longer needed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-registergpnotification">RegisterGPNotification</a>
-
+<a href="/windows/desktop/api/userenv/nf-userenv-registergpnotification">RegisterGPNotification</a>

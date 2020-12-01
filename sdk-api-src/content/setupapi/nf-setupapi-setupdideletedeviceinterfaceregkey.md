@@ -56,11 +56,11 @@ The <b>SetupDiDeleteDeviceInterfaceRegKey</b> function deletes the registry subk
 
 ### -param DeviceInfoSet [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the interface for which to delete interface-specific information in the registry. The device information set must not contain remote elements.
+A pointer to a <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> that contains the interface for which to delete interface-specific information in the registry. The device information set must not contain remote elements.
 
 ### -param DeviceInterfaceData [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the device interface in <i>DeviceInfoSet</i>. This pointer is possibly returned by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfacea">SetupDiCreateDeviceInterface</a> or <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_device_interface_data">SP_DEVICE_INTERFACE_DATA</a> structure that specifies the device interface in <i>DeviceInfoSet</i>. This pointer is possibly returned by <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfacea">SetupDiCreateDeviceInterface</a> or <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>.
 
 ### -param Reserved
 
@@ -68,21 +68,20 @@ Reserved. Must be zero.
 
 ## -returns
 
-<b>SetupDiDeleteDeviceInterfaceRegKey</b> returns <b>TRUE</b> if it is successful; otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+<b>SetupDiDeleteDeviceInterfaceRegKey</b> returns <b>TRUE</b> if it is successful; otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The caller of this function must be a member of the Administrators group.
 
-<b>SetupDiDeleteDeviceInterfaceRegKey</b> deletes the subkey used by drivers and applications to store information about the device interface instance. This subkey was created by <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfaceregkeya">SetupDiCreateDeviceInterfaceRegKey</a> or by the driver's call to an associated <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551797(v=vs.85)">I/O manager routine</a>. <b>SetupDiDeleteDeviceInterfaceRegKey</b> does not affect the main registry key for the device interface instance nor any other subkeys that may have been created.
+<b>SetupDiDeleteDeviceInterfaceRegKey</b> deletes the subkey used by drivers and applications to store information about the device interface instance. This subkey was created by <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfaceregkeya">SetupDiCreateDeviceInterfaceRegKey</a> or by the driver's call to an associated <a href="/previous-versions/windows/hardware/drivers/ff551797(v=vs.85)">I/O manager routine</a>. <b>SetupDiDeleteDeviceInterfaceRegKey</b> does not affect the main registry key for the device interface instance nor any other subkeys that may have been created.
 
 The <i>DeviceInfoSet</i> must only contain elements on the local computer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfacea">SetupDiCreateDeviceInterface</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfacea">SetupDiCreateDeviceInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfaceregkeya">SetupDiCreateDeviceInterfaceRegKey</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfaceregkeya">SetupDiCreateDeviceInterfaceRegKey</a>

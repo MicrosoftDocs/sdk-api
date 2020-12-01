@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by members of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager">IColumnManager</a> interface to specify which set of columns are being requested, either all or only those currently visible.
+Used by members of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icolumnmanager">IColumnManager</a> interface to specify which set of columns are being requested, either all or only those currently visible.
 
 ## -enum-fields
 
@@ -61,4 +61,3 @@ Enumerate all.
 ### -field CM_ENUM_VISIBLE
 
 Enumerate visible.
-

@@ -106,9 +106,8 @@ The number of parameters in <b>imethod</b>. The receiver is excluded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a>
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a>

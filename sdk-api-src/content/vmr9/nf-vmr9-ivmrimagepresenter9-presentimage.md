@@ -61,7 +61,7 @@ An application-defined DWORD_PTR that uniquely identifies this instance of the V
 
 ### -param lpPresInfo [in]
 
-Specifies a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9presentationinfo">VMR9PresentationInfo</a> structure that contains information about the video frame.
+Specifies a <a href="/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9presentationinfo">VMR9PresentationInfo</a> structure that contains information about the video frame.
 
 ## -returns
 
@@ -95,9 +95,8 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenter9">IVMRImagePresenter9 Interface</a>
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenter9">IVMRImagePresenter9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

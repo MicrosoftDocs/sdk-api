@@ -56,7 +56,7 @@ The <b>TF_DISPLAYATTRIBUTE</b> structure contains display attribute data for ren
 
 ### -field crText
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR</a> structure that defines the text foreground color.
+Contains a <a href="/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR</a> structure that defines the text foreground color.
 
 ### -field crBk
 
@@ -85,11 +85,10 @@ Contains a <a href="/windows/win32/api/msctf/ne-msctf-tf_da_attr_info">TF_DA_ATT
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR
+<a href="/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR
       </a>
 
 
 
 <a href="/windows/win32/api/msctf/ne-msctf-tf_da_linestyle">TF_DA_LINESTYLE
       </a>
-

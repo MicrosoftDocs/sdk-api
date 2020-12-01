@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EngCreateDriverObj</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-driverobj">DRIVEROBJ</a> structure.
+The <b>EngCreateDriverObj</b> function creates a <a href="/windows/desktop/api/winddi/ns-winddi-driverobj">DRIVEROBJ</a> structure.
 
 ## -parameters
 
@@ -69,7 +69,7 @@ BOOL CALLBACK DrvobjFreeObjProc(DRIVEROBJ *pDriverObj);
 
 ### -param hdev
 
-Handle to the physical device associated with the object. This parameter is the GDI handle received by the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a> function.
+Handle to the physical device associated with the object. This parameter is the GDI handle received by the driver's <a href="/windows/desktop/api/winddi/nf-winddi-drvcompletepdev">DrvCompletePDEV</a> function.
 
 ## -returns
 
@@ -79,13 +79,12 @@ The return value is a handle that identifies the newly-created DRIVEROBJ structu
 
 This structure is used to track a device-managed resource that must be released if the resource-allocating process terminates without first cleaning it up.
 
-The driver can explicitly delete the DRIVEROBJ structure by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletedriverobj">EngDeleteDriverObj</a>. Otherwise, the engine frees the resource by calling the function pointed to by <i>pFreeObjProc</i> when the process that created the DRIVEROBJ terminates.
+The driver can explicitly delete the DRIVEROBJ structure by calling <a href="/windows/desktop/api/winddi/nf-winddi-engdeletedriverobj">EngDeleteDriverObj</a>. Otherwise, the engine frees the resource by calling the function pointed to by <i>pFreeObjProc</i> when the process that created the DRIVEROBJ terminates.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-driverobj">DRIVEROBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-driverobj">DRIVEROBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletedriverobj">EngDeleteDriverObj</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engdeletedriverobj">EngDeleteDriverObj</a>

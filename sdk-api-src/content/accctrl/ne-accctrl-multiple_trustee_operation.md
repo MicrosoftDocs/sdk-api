@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>MULTIPLE_TRUSTEE_OPERATION</b> enumeration contains values that indicate whether a 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure is an impersonation trustee.
+<a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure is an impersonation trustee.
 
 ## -enum-fields
 
@@ -63,17 +63,16 @@ The trustee is not an impersonation trustee.
 
 ### -field TRUSTEE_IS_IMPERSONATE
 
-The trustee is an impersonation trustee. The <b>pMultipleTrustee</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure points to a trustee for a server that can impersonate the client trustee.
+The trustee is an impersonation trustee. The <b>pMultipleTrustee</b> member of the <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure points to a trustee for a server that can impersonate the client trustee.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-enumerations">Authorization Enumerations</a>
+<a href="/windows/desktop/SecAuthZ/authorization-enumerations">Authorization Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
-
+<a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>

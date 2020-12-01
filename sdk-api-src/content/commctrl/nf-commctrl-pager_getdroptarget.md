@@ -50,20 +50,19 @@ api_name:
 
 ## -description
 
-Retrieves a pager control's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface pointer. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/pgm-getdroptarget">PGM_GETDROPTARGET</a> message explicitly.
+Retrieves a pager control's <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> interface pointer. You can use this macro or send the <a href="/windows/desktop/Controls/pgm-getdroptarget">PGM_GETDROPTARGET</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the pager control.
 
 ### -param ppdt
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>**</b>
+Type: <b><a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>**</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> pointer that receives the interface pointer. It is the caller's responsibility to call 
-					<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on this pointer when it is no longer needed.
-
+Pointer to an <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a> pointer that receives the interface pointer. It is the caller's responsibility to call 
+					<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on this pointer when it is no longer needed.

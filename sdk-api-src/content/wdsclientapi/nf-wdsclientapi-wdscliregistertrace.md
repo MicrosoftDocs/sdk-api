@@ -56,9 +56,8 @@ Registers a callback function that will receive debugging messages.
 
 ### -param pfn [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nc-wdsclientapi-pfn_wdsclitracefunction">PFN_WdsCliTraceFunction</a> callback function that receives debugging messages.
+A pointer to a <a href="/windows/desktop/api/wdsclientapi/nc-wdsclientapi-pfn_wdsclitracefunction">PFN_WdsCliTraceFunction</a> callback function that receives debugging messages.
 
 ## -returns
 
 If the function succeeds, the return is <b>S_OK</b>.
-

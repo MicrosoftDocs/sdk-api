@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Specifies the status of a policy setting for various members of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings_1">WRDS_SETTINGS_1</a> structure.
+Specifies the status of a policy setting for various members of the <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings_1">WRDS_SETTINGS_1</a> structure.
 
 ## -enum-fields
 
@@ -76,5 +76,4 @@ The setting is not configured.
 
 ## -remarks
 
-The three primary values (disabled, enabled, and not configured) correspond to the states that are available when defining rules in the group policy editor. When the setting status is enabled, the value of the setting can be changed by the corresponding value member within the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings_1">WRDS_SETTINGS_1</a> structure. For example, if that structure's <b>WRdsColorDepthStatus</b> member has a value of <b>WRDS_SETTING_STATUS_ENABLED</b>, the <b>WRdsColorDepthValue</b> member will go into effect. Otherwise, the value member is not used in processing.
-
+The three primary values (disabled, enabled, and not configured) correspond to the states that are available when defining rules in the group policy editor. When the setting status is enabled, the value of the setting can be changed by the corresponding value member within the <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings_1">WRDS_SETTINGS_1</a> structure. For example, if that structure's <b>WRdsColorDepthStatus</b> member has a value of <b>WRDS_SETTING_STATUS_ENABLED</b>, the <b>WRdsColorDepthValue</b> member will go into effect. Otherwise, the value member is not used in processing.

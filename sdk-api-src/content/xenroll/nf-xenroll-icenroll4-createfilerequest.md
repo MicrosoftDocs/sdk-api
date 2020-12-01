@@ -53,8 +53,8 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>createFileRequest</b> method creates a PKCS #10 certificate request, a PKCS #7 request, or a full <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) request and stores it in a file.
-			 This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
+The <b>createFileRequest</b> method creates a PKCS #10 certificate request, a PKCS #7 request, or a full <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) request and stores it in a file.
+			 This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 ## -parameters
 
@@ -111,11 +111,11 @@ PKCS 7
 
 ### -param strDNName [in]
 
-This parameter can be <b>NULL</b>; otherwise, this parameter specifies the distinguished name (DN) of the entity for which the request is being made. The DN name must follow the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> naming convention, for example "CN=User, O=Microsoft". If a two-letter prefix does not exist, an OID can be provided instead.
+This parameter can be <b>NULL</b>; otherwise, this parameter specifies the distinguished name (DN) of the entity for which the request is being made. The DN name must follow the <a href="/windows/desktop/SecGloss/x-gly">X.500</a> naming convention, for example "CN=User, O=Microsoft". If a two-letter prefix does not exist, an OID can be provided instead.
 
 ### -param strUsage [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that describes the purpose of the request being generated, for example, individual or commercial Authenticode certificate, or client authentication. You can also specify multiple OIDs separated by a comma.
+An <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that describes the purpose of the request being generated, for example, individual or commercial Authenticode certificate, or client authentication. You can also specify multiple OIDs separated by a comma.
 
 ### -param strRequestFileName [in]
 
@@ -127,9 +127,8 @@ The name of the file that will receive the request.
 If the method succeeds, the method returns <b>S_OK</b>.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+<a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 When this method is called from script, the method displays a user interface that asks whether the user will allow creation of a  certificate request and whether the user will allow a write operation to the file system.
-

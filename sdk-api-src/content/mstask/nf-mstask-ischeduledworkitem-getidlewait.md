@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/i">idle wait time</a> for the work item. 
+Retrieves the <a href="/windows/desktop/TaskSchd/i">idle wait time</a> for the work item. 
 			
-		For information about idle conditions, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-idle-conditions">Task Idle Conditions</a>.
+		For information about idle conditions, see <a href="/windows/desktop/TaskSchd/task-idle-conditions">Task Idle Conditions</a>.
 
 ## -parameters
 
@@ -102,27 +102,26 @@ The arguments are not valid.
 
 ## -remarks
 
-The idle time returned here is used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/i">idle triggers</a> and <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/i">idle conditions</a>. Idle triggers are event-based triggers that are not associated with a scheduled time. Idle conditions are associated with the scheduled start time for the task.
+The idle time returned here is used in conjunction with <a href="/windows/desktop/TaskSchd/i">idle triggers</a> and <a href="/windows/desktop/TaskSchd/i">idle conditions</a>. Idle triggers are event-based triggers that are not associated with a scheduled time. Idle conditions are associated with the scheduled start time for the task.
 
 Idle triggers are specified by setting the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ne-mstask-task_trigger_type">TASK_TRIGGER_TYPE</a> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure to the value TASK_EVENT_TRIGGER_ON_IDLE. The idle trigger is fired when the system becomes idle for the amount of time returned in <i>pwIdleMinutes</i>.
+<a href="/windows/desktop/api/mstask/ne-mstask-task_trigger_type">TASK_TRIGGER_TYPE</a> member of the 
+<a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a> structure to the value TASK_EVENT_TRIGGER_ON_IDLE. The idle trigger is fired when the system becomes idle for the amount of time returned in <i>pwIdleMinutes</i>.
 
 You can set idle conditions by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a>. If the TASK_FLAG_START_ONLY_IF_IDLE flag is set, the work item runs at its scheduled time only if the system becomes idle for the amount of time returned in <i>pwIdleMinutes</i>. The Task Scheduler service will wait up to <i>pwDeadlineMinutes</i> past the scheduled start time to see if the system becomes idle.
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setflags">IScheduledWorkItem::SetFlags</a>. If the TASK_FLAG_START_ONLY_IF_IDLE flag is set, the work item runs at its scheduled time only if the system becomes idle for the amount of time returned in <i>pwIdleMinutes</i>. The Task Scheduler service will wait up to <i>pwDeadlineMinutes</i> past the scheduled start time to see if the system becomes idle.
 
 
 #### Examples
 
-For an example of how to retrieve the idle wait time of a task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/c-c-code-example-retrieving-task-idle-wait-time">C/C++ Code Example: Retrieving Task Idle-wait Time</a>.
+For an example of how to retrieve the idle wait time of a task, see <a href="/windows/desktop/TaskSchd/c-c-code-example-retrieving-task-idle-wait-time">C/C++ Code Example: Retrieving Task Idle-wait Time</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setidlewait">IScheduledWorkItem::SetIdleWait</a>
-
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setidlewait">IScheduledWorkItem::SetIdleWait</a>

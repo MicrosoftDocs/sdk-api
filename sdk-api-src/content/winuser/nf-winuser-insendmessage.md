@@ -52,6 +52,7 @@ api_location:
  - Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
  - InSendMessage
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # InSendMessage function
@@ -59,9 +60,9 @@ api_name:
 
 ## -description
 
-Determines whether the current window procedure is processing a message that was sent from another thread (in the same process or a different process) by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function.
+Determines whether the current window procedure is processing a message that was sent from another thread (in the same process or a different process) by a call to the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function.
 
-To obtain additional information about how the message was sent, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insendmessageex">InSendMessageEx</a> function.
+To obtain additional information about how the message was sent, use the <a href="/windows/desktop/api/winuser/nf-winuser-insendmessageex">InSendMessageEx</a> function.
 
 ## -parameters
 
@@ -69,9 +70,9 @@ To obtain additional information about how the message was sent, use the <a href
 
 Type: <b>BOOL</b>
 
-If the window procedure is processing a message sent to it from another thread using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function, the return value is nonzero.
+If the window procedure is processing a message sent to it from another thread using the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function, the return value is nonzero.
 
-If the window procedure is not processing a message sent to it from another thread using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function, the return value is zero.
+If the window procedure is not processing a message sent to it from another thread using the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> function, the return value is zero.
 
 ## -see-also
 
@@ -79,11 +80,11 @@ If the window procedure is not processing a message sent to it from another thre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insendmessageex">InSendMessageEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-insendmessageex">InSendMessageEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
+<a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
@@ -91,5 +92,4 @@ If the window procedure is not processing a message sent to it from another thre
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>

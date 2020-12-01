@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent">IMSVidStreamBufferSinkEvent4</a> interface receives events from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695135(v=vs.85)">MSVidStreamBufferSink</a> object.
+The <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent">IMSVidStreamBufferSinkEvent4</a> interface receives events from the <a href="/previous-versions/windows/desktop/legacy/dd695135(v=vs.85)">MSVidStreamBufferSink</a> object.
 
 This interface is an outgoing connection-point interface. To receive events from a playback device, implement this interface and then call the <b>IConnectionPoint::Advise</b> method to establish a connection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSinkEvent4</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent3">IMSVidStreamBufferSinkEvent3</a>. <b>IMSVidStreamBufferSinkEvent4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidStreamBufferSinkEvent4</b> interface inherits from <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent3">IMSVidStreamBufferSinkEvent3</a>. <b>IMSVidStreamBufferSinkEvent4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,10 +71,10 @@ The <b>IMSVidStreamBufferSinkEvent4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersinkevent4-writefailureclear">WriteFailureClear</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersinkevent4-writefailureclear">WriteFailureClear</a>
 </td>
 <td align="left" width="63%">
-A write error on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/stream-buffer-sink2-filter">Stream Buffer Sink</a> filter has been cleared.
+A write error on the <a href="/previous-versions/windows/desktop/mstv/stream-buffer-sink2-filter">Stream Buffer Sink</a> filter has been cleared.
 
 </td>
 </tr>
@@ -86,13 +86,12 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent3">IMSVidStreamBufferSinkEvent3</a>
+<a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersinkevent3">IMSVidStreamBufferSinkEvent3</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695135(v=vs.85)">MSVidStreamBufferSink</a>
+<a href="/previous-versions/windows/desktop/legacy/dd695135(v=vs.85)">MSVidStreamBufferSink</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Event Interfaces</a>

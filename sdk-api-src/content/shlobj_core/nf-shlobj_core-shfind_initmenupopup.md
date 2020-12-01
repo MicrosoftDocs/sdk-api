@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[<b>SHFind_InitMenuPopup</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> instance for the submenu of options displayed for the <b>Search</b> entry in the Classic style Start menu.
+Retrieves the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> instance for the submenu of options displayed for the <b>Search</b> entry in the Classic style Start menu.
 
 ## -parameters
 
@@ -82,7 +82,6 @@ The ID of the last menu item.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a>*</b>
 
-If successful, returns an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> pointer. On failure, returns <b>NULL</b>.
-
+If successful, returns an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> pointer. On failure, returns <b>NULL</b>.

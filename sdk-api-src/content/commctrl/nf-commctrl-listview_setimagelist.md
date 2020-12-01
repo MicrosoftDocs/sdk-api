@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Assigns an image list to a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setimagelist">LVM_SETIMAGELIST</a> message explicitly.
+Assigns an image list to a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-setimagelist">LVM_SETIMAGELIST</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -121,5 +121,4 @@ Image list for group header.
 
 ## -remarks
 
-The current image list will be destroyed when the list-view control is destroyed unless the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_SHAREIMAGELISTS</a> style is set. If you use this message to replace one image list with another, your application must explicitly destroy all image lists other than the current one.
-
+The current image list will be destroyed when the list-view control is destroyed unless the <a href="/windows/desktop/Controls/list-view-window-styles">LVS_SHAREIMAGELISTS</a> style is set. If you use this message to replace one image list with another, your application must explicitly destroy all image lists other than the current one.

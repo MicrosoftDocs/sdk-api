@@ -147,7 +147,7 @@ The width of the pen, in logical units. If <i>nWidth</i> is zero, the pen is a s
 
 ### -param color [in]
 
-A color reference for the pen color. To generate a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> structure, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
+A color reference for the pen color. To generate a <a href="/windows/desktop/gdi/colorref">COLORREF</a> structure, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ## -returns
 
@@ -157,7 +157,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 ## -remarks
 
-After an application creates a logical pen, it can select that pen into a device context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function. After a pen is selected into a device context, it can be used to draw lines and curves.
+After an application creates a logical pen, it can select that pen into a device context by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function. After a pen is selected into a device context, it can be used to draw lines and curves.
 
 If the value specified by the <i>nWidth</i> parameter is zero, a line drawn with the created pen always is a single pixel wide regardless of the current transformation.
 
@@ -167,50 +167,49 @@ If the value specified by <i>nWidth</i> is greater than 1 and <i>fnPenStyle</i> 
 
 If the value specified by <i>nWidth</i> is greater than 1, <i>fnPenStyle</i> is PS_INSIDEFRAME, and the color specified by the <i>crColor</i> parameter does not match one of the entries in the logical palette, the system draws lines by using a dithered color. Dithered colors are not available with solid pens.
 
-When you no longer need the pen, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
+When you no longer need the pen, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 <b>ICM:</b> No color management is done at creation. However, color management is performed when the pen is selected into an ICM-enabled device context.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/creating-colored-pens-and-brushes">Creating Colored Pens and Brushes</a>.
+For an example, see <a href="/windows/desktop/gdi/creating-colored-pens-and-brushes">Creating Colored Pens and Brushes</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/pen-functions">Pen Functions</a>
+<a href="/windows/desktop/gdi/pen-functions">Pen Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/pens">Pens Overview</a>
+<a href="/windows/desktop/gdi/pens">Pens Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>

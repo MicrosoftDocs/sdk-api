@@ -58,47 +58,47 @@ The <b>FwpmFilterGetSecurityInfoByKey0</b> function retrieves a copy of the secu
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 ### -param key [in, optional]
 
 Type: <b>const GUID*</b>
 
-Unique identifier of the filter. This GUID was specified in the <b>filterKey</b> member of the <i>filter</i> parameter when the application called <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfilteradd0">FwpmFilterAdd0</a> for this object.
+Unique identifier of the filter. This GUID was specified in the <b>filterKey</b> member of the <i>filter</i> parameter when the application called <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfilteradd0">FwpmFilterAdd0</a> for this object.
 
 ### -param securityInfo [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a></b>
+Type: <b><a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a></b>
 
 The type of security information to retrieve.
 
 ### -param sidOwner [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">PSID</a>*</b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-sid">PSID</a>*</b>
 
 The owner security identifier (SID) in the returned security descriptor.
 
 ### -param sidGroup [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">PSID</a>*</b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-sid">PSID</a>*</b>
 
 The primary group security identifier (SID) in the returned security descriptor.
 
 ### -param dacl [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">PACL</a>*</b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-acl">PACL</a>*</b>
 
 The discretionary access control list (DACL) in the returned security descriptor.
 
 ### -param sacl [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">PACL</a>*</b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-acl">PACL</a>*</b>
 
 The system access control list (SACL) in the returned security descriptor.
 
 ### -param securityDescriptor [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">PSECURITY_DESCRIPTOR</a>*</b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">PSECURITY_DESCRIPTOR</a>*</b>
 
 The returned security descriptor.
 
@@ -131,7 +131,7 @@ The security descriptor was retrieved successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -153,13 +153,12 @@ Failure to communicate with the remote or local firewall engine.
 
 If the <i>key</i> parameter is <b>NULL</b> or if it is  a <b>NULL</b> GUID, this function manages the security information of the filters container.
 
-The returned <i>securityDescriptor</i> parameter must be freed through a call to <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>. The other four (optional) returned parameters must not be freed, as they point to addresses within the <i>securityDescriptor</i> parameter.
+The returned <i>securityDescriptor</i> parameter must be freed through a call to <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfreememory0">FwpmFreeMemory0</a>. The other four (optional) returned parameters must not be freed, as they point to addresses within the <i>securityDescriptor</i> parameter.
 
-This function behaves like the standard Win32 	<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo">GetSecurityInfo</a> function. The caller needs the same standard access rights as described in the <b>GetSecurityInfo</b> reference topic.
+This function behaves like the standard Win32 	<a href="/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo">GetSecurityInfo</a> function. The caller needs the same standard access rights as described in the <b>GetSecurityInfo</b> reference topic.
 
-<b>FwpmFilterGetSecurityInfoByKey0</b> is a specific implementation of FwpmFilterGetSecurityInfoByKey. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FwpmFilterGetSecurityInfoByKey0</b> is a specific implementation of FwpmFilterGetSecurityInfoByKey. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfiltersetsecurityinfobykey0">FwpmFilterSetSecurityInfoByKey0</a>
-
+<a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfiltersetsecurityinfobykey0">FwpmFilterSetSecurityInfoByKey0</a>

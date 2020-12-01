@@ -60,7 +60,7 @@ A combination of [EAP flags](/windows/win32/eaphost/eap-method-flags) that descr
 
 ### -param pAttributeArray [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_attributes">EAP_ATTRIBUTES</a> array structure that specifies the EAP attributes of the entity to authenticate.
+A pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attributes">EAP_ATTRIBUTES</a> array structure that specifies the EAP attributes of the entity to authenticate.
 
 ### -param hTokenImpersonateUser [in]
 
@@ -93,7 +93,7 @@ A pointer to an <b>EAP_SESSION_HANDLE</b> structure that contains the unique han
 
 ### -param ppEapError [out]
 
-A pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
+A pointer to a pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 ## -remarks
 
@@ -105,9 +105,8 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerendsession">EapPeerEndSession</a>
+<a href="/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerendsession">EapPeerEndSession</a>
 
 
 
 [SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
-

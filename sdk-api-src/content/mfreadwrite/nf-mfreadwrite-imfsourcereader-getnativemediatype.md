@@ -133,7 +133,7 @@ The current native media type.
 
 ### -param ppMediaType [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -185,15 +185,14 @@ This method queries the underlying media source for its native output format. Po
 
  The method returns a copy of the media type, so it is safe to modify the object received in the <i> ppMediaType</i> parameter.
 
-To set  the output type for a stream, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype">IMFSourceReader::SetCurrentMediaType</a> method.
+To set  the output type for a stream, call the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-setcurrentmediatype">IMFSourceReader::SetCurrentMediaType</a> method.
 
 This interface is available on Windows Vista if Platform Update Supplement for Windows Vista is installed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
-
+<a href="/windows/desktop/medfound/source-reader">Source Reader</a>

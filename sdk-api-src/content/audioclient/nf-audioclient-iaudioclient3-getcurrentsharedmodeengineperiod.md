@@ -56,7 +56,7 @@ Returns the current format and periodicity of the audio engine. This method enab
 
 ### -param ppFormat [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>**</b>
+Type: <b><a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>**</b>
 
 The current device format that is being used by the audio engine.
 
@@ -76,10 +76,9 @@ This method returns <b>S_OK</b> to indicate that it has completed successfully. 
 
 <div class="alert"><b>Note</b>  The values returned by this method are instantaneous values and may be invalid immediately after the call returns if, for example, another audio client sets the periodicity or format to a different value.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  The caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to deallocate the memory of the <b>WAVEFORMATEX</b> structure populated by this method.</div>
+<div class="alert"><b>Note</b>  The caller is responsible for calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to deallocate the memory of the <b>WAVEFORMATEX</b> structure populated by this method.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient3">IAudioClient3</a>
-
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient3">IAudioClient3</a>

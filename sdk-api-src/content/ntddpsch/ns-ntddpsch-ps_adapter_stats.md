@@ -57,7 +57,7 @@ api_name:
 The 
 <b>PS_ADAPTER_STATS</b> structure provides statistical packet shaper information about a specified adapter. Note that the 
 <b>PS_ADAPTER_STATS</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a> structure.
+<a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a> structure.
 
 ## -struct-fields
 
@@ -91,9 +91,8 @@ Maximum number of simultaneous flows.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a>
-
+<a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a>

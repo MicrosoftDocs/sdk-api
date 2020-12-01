@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - Shell_GetImageLists
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # Shell_GetImageLists function
@@ -78,18 +79,17 @@ Returns <b>TRUE</b> on success. On failure, returns <b>FALSE</b> and the image l
 
 ## -remarks
 
-<div class="alert"><b>Important</b>  The image lists retrieved through this function are global system image lists; do not call <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_destroy">ImageList_Destroy</a> using them.</div>
+<div class="alert"><b>Important</b>  The image lists retrieved through this function are global system image lists; do not call <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_destroy">ImageList_Destroy</a> using them.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/image-list-reference">Image Lists</a>
+<a href="/windows/desktop/Controls/image-list-reference">Image Lists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a>
+<a href="/windows/desktop/api/shellapi/nf-shellapi-shgetfileinfoa">SHGetFileInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shgetimagelist">SHGetImageList</a>
-
+<a href="/windows/desktop/api/shellapi/nf-shellapi-shgetimagelist">SHGetImageList</a>

@@ -58,7 +58,7 @@ The <b>midiStreamRestart</b> function restarts a paused MIDI stream.
 
 ### -param hms
 
-Handle to a MIDI stream. This handle must have been returned by a call to the <a href="https://docs.microsoft.com/previous-versions/dd798486(v=vs.85)">midiStreamOpen</a> function. This handle identifies the output device.
+Handle to a MIDI stream. This handle must have been returned by a call to the <a href="/previous-versions/dd798486(v=vs.85)">midiStreamOpen</a> function. This handle identifies the output device.
 
 ## -returns
 
@@ -88,5 +88,4 @@ Calling this function when the output is not paused has no effect, and the funct
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

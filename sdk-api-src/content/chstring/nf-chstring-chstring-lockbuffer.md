@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/WmiSdk/chstring">CHString</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>LockBuffer</b> method locks a string in the buffer.
@@ -63,7 +63,7 @@ The <b>LockBuffer</b> method locks a string in the buffer.
 
 ## -returns
 
-Returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> object or a <b>NULL</b>-terminated string.
+Returns a pointer to a <a href="/windows/desktop/WmiSdk/chstring">CHString</a> object or a <b>NULL</b>-terminated string.
 
 ## -remarks
 
@@ -77,13 +77,12 @@ When the reference count is set to -1, the string in the buffer is considered to
 </ul>
 By locking the string in the buffer, you ensure that the string's exclusive hold on the buffer remains intact.
 
-After you have finished with <b>LockBuffer</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-unlockbuffer">UnlockBuffer</a> to reset the reference count to 1 (one).
+After you have finished with <b>LockBuffer</b>, call <a href="/windows/desktop/api/chstring/nf-chstring-chstring-unlockbuffer">UnlockBuffer</a> to reset the reference count to 1 (one).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a>
+<a href="/windows/desktop/WmiSdk/chstring">CHString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/chstring/nf-chstring-chstring-unlockbuffer">CHString::UnlockBuffer</a>
-
+<a href="/windows/desktop/api/chstring/nf-chstring-chstring-unlockbuffer">CHString::UnlockBuffer</a>

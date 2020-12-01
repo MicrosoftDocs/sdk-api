@@ -58,7 +58,7 @@ api_name:
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionrectangleclip-settopleftradiusx(idcompositionanimation)">SetTopLeftRadiusX(float)</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionrectangleclip-settopleftradiusx(idcompositionanimation)">SetTopLeftRadiusX(float)</a>
 </td>
 <td align="left" width="63%">
 Changes the value of the TopLeftRadiusX property of this clip.
@@ -67,7 +67,7 @@ Changes the value of the TopLeftRadiusX property of this clip.
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionrectangleclip-settopleftradiusx(idcompositionanimation)">SetTopLeftRadiusX(IDCompositionAnimation*)</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionrectangleclip-settopleftradiusx(idcompositionanimation)">SetTopLeftRadiusX(IDCompositionAnimation*)</a>
 </td>
 <td align="left" width="63%">
 Animates the value of the TopLeftRadiusX property of this clip.
@@ -80,5 +80,4 @@ Animates the value of the TopLeftRadiusX property of this clip.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionrectangleclip">IDCompositionRectangleClip</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionrectangleclip">IDCompositionRectangleClip</a>

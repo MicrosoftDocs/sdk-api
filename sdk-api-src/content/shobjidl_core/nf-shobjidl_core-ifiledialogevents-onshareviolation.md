@@ -56,21 +56,21 @@ Enables an application to respond to sharing violations that arise from Open or 
 
 ### -param pfd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a>*</b>
 
 A pointer to the interface that represents the dialog.
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to the interface that represents the item that has the sharing violation.
 
 ### -param pResponse [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-fde_shareviolation_response">FDE_SHAREVIOLATION_RESPONSE</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-fde_shareviolation_response">FDE_SHAREVIOLATION_RESPONSE</a>*</b>
 
-A pointer to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-fde_shareviolation_response">FDE_SHAREVIOLATION_RESPONSE</a> enumeration indicating the response to the sharing violation.
+A pointer to a value from the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-fde_shareviolation_response">FDE_SHAREVIOLATION_RESPONSE</a> enumeration indicating the response to the sharing violation.
 
 ## -returns
 
@@ -80,7 +80,6 @@ The implementer should return E_NOTIMPL if this method is not implemented; S_OK 
 
 ## -remarks
 
-The <b>FOS_SHAREAWARE</b> flag must be set through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setoptions">IFileDialog::SetOptions</a> before this method is called.
+The <b>FOS_SHAREAWARE</b> flag must be set through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setoptions">IFileDialog::SetOptions</a> before this method is called.
 
 A sharing violation could possibly arise when the application attempts to open a file, because the file could have been locked between the time that the dialog tested it and the application opened it.
-

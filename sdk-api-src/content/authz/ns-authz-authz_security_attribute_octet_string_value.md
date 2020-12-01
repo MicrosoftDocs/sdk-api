@@ -68,13 +68,12 @@ The length, in bytes, of the <b>pValue</b> member.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_security_attribute_v1">AUTHZ_SECURITY_ATTRIBUTE_V1</a>
+<a href="/windows/desktop/api/authz/ns-authz-authz_security_attribute_v1">AUTHZ_SECURITY_ATTRIBUTE_V1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_security_attributes_information">AUTHZ_SECURITY_ATTRUBUTES_INFORMATION</a>
+<a href="/windows/desktop/api/authz/ns-authz-authz_security_attributes_information">AUTHZ_SECURITY_ATTRUBUTES_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>
-
+<a href="/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>

@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-The <b>IWiaDataTransfer::idtEnumWIA_FORMAT_INFO</b> method creates a banded transfer implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface.
+The <b>IWiaDataTransfer::idtEnumWIA_FORMAT_INFO</b> method creates a banded transfer implementation of the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface.
 
 ## -parameters
 
 ### -param ppEnum [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a>**</b>
+Type: <b><a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a>**</b>
 
-Receives the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface.
+Receives the address of a pointer to the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface.
 
 ## -returns
 
@@ -73,7 +73,7 @@ If it fails for any reason other than those specified in the following table, th
 </tr>
 <tr>
 <td>E_INVALIDARG</td>
-<td>The <i>ppEnum</i> parameter is not the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface.</td>
+<td>The <i>ppEnum</i> parameter is not the address of a pointer to the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface.</td>
 </tr>
 <tr>
 <td>E_OUTOFMEMORY</td>
@@ -87,7 +87,6 @@ If it fails for any reason other than those specified in the following table, th
 
 ## -remarks
 
-This method creates the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface that applications use to enumerate an array of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structures. This provides applications with the ability to determine the formats and media types of incoming data when transferring banded data.
+This method creates the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_format_info">IEnumWIA_FORMAT_INFO</a> interface that applications use to enumerate an array of <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structures. This provides applications with the ability to determine the formats and media types of incoming data when transferring banded data.
 
-Note that applications must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppEnum</i> parameter.
-
+Note that applications must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppEnum</i> parameter.

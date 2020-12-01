@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IDVRGB219</code> interface controls the dynamic range in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-video-encoder-filter">DV Video Encoder</a> and <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dv-video-decoder-filter">DV Video Decoder</a> filters.
+The <code>IDVRGB219</code> interface controls the dynamic range in the <a href="/windows/desktop/DirectShow/dv-video-encoder-filter">DV Video Encoder</a> and <a href="/windows/desktop/DirectShow/dv-video-decoder-filter">DV Video Decoder</a> filters.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVRGB219</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVRGB219</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVRGB219</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVRGB219</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDVRGB219</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvrgb219-setrgb219">SetRGB219</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvrgb219-setrgb219">SetRGB219</a>
 </td>
 <td align="left" width="63%">
 Controls the dynamic range for DV encoding and decoding.
@@ -78,4 +78,3 @@ Controls the dynamic range for DV encoding and decoding.
 </td>
 </tr>
 </table>
-

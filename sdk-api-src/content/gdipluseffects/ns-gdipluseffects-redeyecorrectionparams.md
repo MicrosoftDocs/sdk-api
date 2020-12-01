@@ -56,8 +56,8 @@ A <b>RedEyeCorrectionParams</b> structure contains members that specify the area
 You can can correct red eyes in a bitmap by following these steps.
 <ol>
 <li>Create and initialize a <b>RedEyeCorrectionParams</b> structure.</li>
-<li>Pass the address of the <b>RedEyeCorrectionParams</b> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-redeyecorrection-setparameters">RedEyeCorrection::SetParameters</a> method of a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyecorrection">RedEyeCorrection</a> object.</li>
-<li>Pass the address of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyecorrection">RedEyeCorrection</a> object to the <a href="https://docs.microsoft.com/previous-versions/ms536058(v=vs.85)">Graphics::DrawImage</a> method or to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <b>RedEyeCorrectionParams</b> structure to the <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-redeyecorrection-setparameters">RedEyeCorrection::SetParameters</a> method of a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyecorrection">RedEyeCorrection</a> object.</li>
+<li>Pass the address of the <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyecorrection">RedEyeCorrection</a> object to the <a href="/previous-versions/ms536058(v=vs.85)">Graphics::DrawImage</a> method or to the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields
@@ -73,4 +73,3 @@ Integer that specifies the number of <a href="/windows/desktop/api/windef/ns-win
 Type: <b>RECT*</b>
 
 Pointer to an array of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures, each of which specifies an area of the bitmap to which red eye correction should be applied.
-

@@ -61,7 +61,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResultData</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResultData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResultData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResultData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IResultData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-deleteallrsltitems">DeleteAllRsltItems</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-deleteallrsltitems">DeleteAllRsltItems</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to delete all items.
@@ -85,7 +85,7 @@ Enables the snap-in to delete all items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-deleteitem">DeleteItem</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-deleteitem">DeleteItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to delete a single item.
@@ -94,7 +94,7 @@ Enables the snap-in to delete a single item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-finditembylparam">FindItemByLParam</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-finditembylparam">FindItemByLParam</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to find an item or subitem based on a user-inserted value.
@@ -103,7 +103,7 @@ Enables the snap-in to find an item or subitem based on a user-inserted value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-getitem">GetItem</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-getitem">GetItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to retrieve a single item.
@@ -112,7 +112,7 @@ Enables the snap-in to retrieve a single item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-getnextitem">GetNextItem</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-getnextitem">GetNextItem</a>
 </td>
 <td align="left" width="63%">
 Returns the <i>lParam</i> of the first item.
@@ -121,7 +121,7 @@ Returns the <i>lParam</i> of the first item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-getviewmode">GetViewMode</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-getviewmode">GetViewMode</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to retrieve the result view mode.
@@ -130,7 +130,7 @@ Enables the snap-in to retrieve the result view mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-insertitem">InsertItem</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-insertitem">InsertItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to insert a single item.
@@ -139,7 +139,7 @@ Enables the snap-in to insert a single item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-modifyitemstate">ModifyItemState</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-modifyitemstate">ModifyItemState</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to modify the item's state.
@@ -148,7 +148,7 @@ Enables the snap-in to modify the item's state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-modifyviewstyle">ModifyViewStyle</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-modifyviewstyle">ModifyViewStyle</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to set the result view style.
@@ -157,7 +157,7 @@ Enables the snap-in to set the result view style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-setdescbartext">SetDescBarText</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-setdescbartext">SetDescBarText</a>
 </td>
 <td align="left" width="63%">
 Sets result view description bar text.
@@ -166,7 +166,7 @@ Sets result view description bar text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-setitem">SetItem</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-setitem">SetItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to set a single item.
@@ -175,7 +175,7 @@ Enables the snap-in to set a single item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-setitemcount">SetItemCount</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-setitemcount">SetItemCount</a>
 </td>
 <td align="left" width="63%">
 Sets the number of items in a virtual list.
@@ -184,7 +184,7 @@ Sets the number of items in a virtual list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-setviewmode">SetViewMode</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-setviewmode">SetViewMode</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to set the result view mode.
@@ -193,7 +193,7 @@ Enables the snap-in to set the result view mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">Sort</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-sort">Sort</a>
 </td>
 <td align="left" width="63%">
 Sorts all result items.
@@ -202,7 +202,7 @@ Sorts all result items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-updateitem">UpdateItem</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-updateitem">UpdateItem</a>
 </td>
 <td align="left" width="63%">
 Redraws an item in the result pane after it has been changed.
@@ -210,4 +210,3 @@ Redraws an item in the result pane after it has been changed.
 </td>
 </tr>
 </table>
-

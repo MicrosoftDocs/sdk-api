@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndCanWindow</b> macro determines if an MCI device supports window-oriented MCI commands. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-window">MCIWNDM_CAN_WINDOW</a> message.
+The <b>MCIWndCanWindow</b> macro determines if an MCI device supports window-oriented MCI commands. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-can-window">MCIWNDM_CAN_WINDOW</a> message.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Handle of the MCIWnd window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-window">MCIWNDM_CAN_WINDOW</a>
-
+<a href="/windows/desktop/Multimedia/mciwndm-can-window">MCIWNDM_CAN_WINDOW</a>

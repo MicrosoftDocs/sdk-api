@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IGraphConfigCallback</code> interface contains the callback method passed to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconfigure">IGraphConfig::Reconfigure</a>. The caller (an application or filter) implements this interface. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig</a>.
+The <code>IGraphConfigCallback</code> interface contains the callback method passed to <a href="/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconfigure">IGraphConfig::Reconfigure</a>. The caller (an application or filter) implements this interface. For more information, see <a href="/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGraphConfigCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGraphConfigCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGraphConfigCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGraphConfigCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,12 +70,11 @@ The <b>IGraphConfigCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfigcallback-reconfigure">Reconfigure</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-igraphconfigcallback-reconfigure">Reconfigure</a>
 </td>
 <td align="left" width="63%">
-Callback method passed to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconfigure">IGraphConfig::Reconfigure</a>.
+Callback method passed to <a href="/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconfigure">IGraphConfig::Reconfigure</a>.
 
 </td>
 </tr>
 </table>
-

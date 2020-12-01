@@ -56,7 +56,7 @@ Determines whether a compound document object is currently in the running state.
 
 ### -param pObject [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface on the object of interest.
+Pointer to the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface on the object of interest.
 
 ## -returns
 
@@ -64,9 +64,8 @@ The return value is <b>TRUE</b> if the object is running; otherwise, it is <b>FA
 
 ## -remarks
 
-You can use <b>OleIsRunning</b> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-isrunning">IRunnableObject::IsRunning</a> interchangeably. <b>OleIsRunning</b> queries the object for a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a> interface and calls its <b>IRunnableObject::IsRunning</b> method. If successful, the function returns the results of the call to <b>IRunnableObject::IsRunning</b>.
+You can use <b>OleIsRunning</b> and <a href="/windows/desktop/api/objidl/nf-objidl-irunnableobject-isrunning">IRunnableObject::IsRunning</a> interchangeably. <b>OleIsRunning</b> queries the object for a pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a> interface and calls its <b>IRunnableObject::IsRunning</b> method. If successful, the function returns the results of the call to <b>IRunnableObject::IsRunning</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-isrunning">IRunnableObject::IsRunning</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-irunnableobject-isrunning">IRunnableObject::IsRunning</a>

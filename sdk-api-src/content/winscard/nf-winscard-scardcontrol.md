@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>SCardControl</b> function gives you direct control of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>. You can call it any time after a successful call to <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> and before a successful call to <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>. The effect on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a> of the reader depends on the control code.
+The <b>SCardControl</b> function gives you direct control of the <a href="/windows/desktop/SecGloss/r-gly">reader</a>. You can call it any time after a successful call to <a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> and before a successful call to <a href="/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>. The effect on the <a href="/windows/desktop/SecGloss/s-gly">state</a> of the reader depends on the control code.
 
 ## -parameters
 
 ### -param hCard [in]
 
 Reference value returned from 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>.
 
 ### -param dwControlCode [in]
 
@@ -111,7 +111,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -120,12 +120,12 @@ An error code. For more information, see
 ## -remarks
 
 The <b>SCardControl</b> function is a direct card access function. For more information on other direct access functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/direct-card-access-functions">Direct Card Access Functions</a>.
+<a href="/windows/desktop/SecAuthN/direct-card-access-functions">Direct Card Access Functions</a>.
 
 
 #### Examples
 
-The following example issues a control code. The example assumes that hCardHandle is a valid handle received from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> and that dwControlCode is a variable of type <b>DWORD</b> previously initialized to a valid control code. This particular control code requires no input data and expects no output data.
+The following example issues a control code. The example assumes that hCardHandle is a valid handle received from a previous call to <a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a> and that dwControlCode is a variable of type <b>DWORD</b> previously initialized to a valid control code. This particular control code requires no input data and expects no output data.
 
 
 ```cpp
@@ -144,9 +144,8 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardconnecta">SCardConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scarddisconnect">SCardDisconnect</a>

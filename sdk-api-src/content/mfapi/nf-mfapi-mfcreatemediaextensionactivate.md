@@ -60,7 +60,7 @@ The class identifier that is associated with the activatable runtime class.
 
 ### -param pConfiguration [in]
 
-A pointer to an optional <a href="https://docs.microsoft.com/uwp/api/windows.foundation.collections.ipropertyset">IPropertySet</a> object, which is used to configure the Windows Runtime class. This parameter can be <b>NULL</b>.
+A pointer to an optional <a href="/uwp/api/windows.foundation.collections.ipropertyset">IPropertySet</a> object, which is used to configure the Windows Runtime class. This parameter can be <b>NULL</b>.
 
 ### -param riid [in]
 
@@ -68,13 +68,13 @@ The interface identifier (IID) of the interface being requested. The activation 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>
+<a href="/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>
 </li>
 </ul>
 
@@ -88,9 +88,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-To create the Windows Runtime object, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iclassfactory-createinstance">IClassFactory::CreateInstance</a>.
+To create the Windows Runtime object, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject">IMFActivate::ActivateObject</a> or <a href="/windows/desktop/api/unknwn/nf-unknwn-iclassfactory-createinstance">IClassFactory::CreateInstance</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

@@ -55,7 +55,7 @@ The <b>IADsAccessControlList</b> interface is a dual interface that manages indi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsAccessControlList</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsAccessControlList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsAccessControlList</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsAccessControlList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IADsAccessControlList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsaccesscontrollist-addace">AddAce</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsaccesscontrollist-addace">AddAce</a>
 </td>
 <td align="left" width="63%">
 Adds an entry to the ACL.
@@ -80,7 +80,7 @@ Adds an entry to the ACL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsaccesscontrollist-copyaccesslist">CopyAccessList</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsaccesscontrollist-copyaccesslist">CopyAccessList</a>
 </td>
 <td align="left" width="63%">
 Copies the ACL.
@@ -89,7 +89,7 @@ Copies the ACL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsaccesscontrollist-get__newenum">get__NewEnum</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsaccesscontrollist-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the enumerator object.
@@ -98,7 +98,7 @@ Gets a pointer to the enumerator object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsaccesscontrollist-removeace">RemoveAce</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsaccesscontrollist-removeace">RemoveAce</a>
 </td>
 <td align="left" width="63%">
 Removes an entry from the ACL.
@@ -116,7 +116,7 @@ Removes an entry from the ACL.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrollist-property-methods">AceCount</a>
+<a href="/windows/desktop/ADSI/iadsaccesscontrollist-property-methods">AceCount</a>
 
 
 </td>
@@ -132,7 +132,7 @@ Gets or sets number of ACEs in the ACL.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsaccesscontrollist-property-methods">AclRevision</a>
+<a href="/windows/desktop/ADSI/iadsaccesscontrollist-property-methods">AclRevision</a>
 
 
 </td>
@@ -149,17 +149,17 @@ Gets or sets the ACL revision number.
 
 ## -remarks
 
-An access-control list (ACL) is a collection of ACEs that can provide more specific access control to the same ADSI object for different clients. In general, different providers implement different access controls and therefore the behavior of the object is specific to the provider.  For more information, see  the provider documentation. For more information about Microsoft providers, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-system-providers">ADSI System Providers</a>. Currently, only the LDAP provider supports access controls.
+An access-control list (ACL) is a collection of ACEs that can provide more specific access control to the same ADSI object for different clients. In general, different providers implement different access controls and therefore the behavior of the object is specific to the provider.  For more information, see  the provider documentation. For more information about Microsoft providers, see  <a href="/windows/desktop/ADSI/adsi-system-providers">ADSI System Providers</a>. Currently, only the LDAP provider supports access controls.
 
 Before you can work with an object ACE, first obtain the ACL to which they belong. ACLs are managed by security descriptors and can be of either discretionary ACL and system ACL. For more information, see 
-  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>.
+  <a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>.
 
 Using the properties and methods of the <b>IADsAccessControlList</b> interface, you can retrieve and enumerate ACEs, add new entries to the list, or remove existing entries.
 
 <p class="proch"><b>To manage access controls over an ADSI</b>
 
 <ol>
-<li>First, retrieve the security descriptor of the object that implements the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> interface.</li>
+<li>First, retrieve the security descriptor of the object that implements the  <a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a> interface.</li>
 <li>Second, retrieve the ACL from the security descriptor.</li>
 <li>Third, work with the ACE, or ACEs, of the object in the ACL.</li>
 </ol>
@@ -170,7 +170,7 @@ Using the properties and methods of the <b>IADsAccessControlList</b> interface, 
 <li>Second, assign the ACL to the security descriptor.</li>
 <li>Third, commit the security descriptor to the directory store.</li>
 </ol>
-For more information about DACLs, see <a href="https://docs.microsoft.com/windows/desktop/AD/null-dacls-and-empty-dacls">Null DACLs and Empty DACLs</a>.
+For more information about DACLs, see <a href="/windows/desktop/AD/null-dacls-and-empty-dacls">Null DACLs and Empty DACLs</a>.
 
 
 #### Examples
@@ -335,17 +335,16 @@ Cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADsAccessControlEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/null-dacls-and-empty-dacls">Null DACLs and Empty DACLs</a>
-
+<a href="/windows/desktop/AD/null-dacls-and-empty-dacls">Null DACLs and Empty DACLs</a>

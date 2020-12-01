@@ -57,36 +57,36 @@ api_name:
 ## -description
 
 Enumerates the time formats that are available for a locale specified by identifier.
-<div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumtimeformatsex">EnumTimeFormatsEx</a> function to <b>EnumTimeFormats</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumtimeformatsex">EnumTimeFormatsEx</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="/windows/desktop/api/winnls/nf-winnls-enumtimeformatsex">EnumTimeFormatsEx</a> function to <b>EnumTimeFormats</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use <a href="/windows/desktop/api/winnls/nf-winnls-enumtimeformatsex">EnumTimeFormatsEx</a>.</div><div> </div>
 
 ## -parameters
 
 ### -param lpTimeFmtEnumProc [in]
 
-Pointer to an application-defined callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317832(v=vs.85)">EnumTimeFormatsProc</a>.
+Pointer to an application-defined callback function. For more information, see <a href="/previous-versions/windows/desktop/legacy/dd317832(v=vs.85)">EnumTimeFormatsProc</a>.
 
 ### -param Locale [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale for which to retrieve time format information. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
+<a href="/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale for which to retrieve time format information. You can use the <a href="/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
+<a href="/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
 </li>
 </ul>
 
@@ -135,7 +135,7 @@ Specified with the ANSI version of this function, <b>EnumTimeFormatsA</b> (not r
 
 ## -returns
 
-Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+Returns a nonzero value if successful, or 0 otherwise. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INVALID_FLAGS. The values supplied for flags were not valid.</li>
@@ -147,7 +147,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 The function enumerates the time formats by passing a pointer to a buffer containing a time format to an application-defined callback function. The first value in the enumeration is always the user default (override) value. The function continues enumeration until the last time format is found or the callback function returns <b>FALSE</b>. 
 
 
-This function can enumerate data from <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
+This function can enumerate data from <a href="/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
 
 When the ANSI version of this function is used with a Unicode-only locale identifier, the call can succeed because the system uses the system code page. However, characters that are undefined in the system code page appear in the string as a question mark ("?"). 
 Note that any new values for <i>dwFlags</i> introduced in the future will not work with the ANSI version.
@@ -161,17 +161,16 @@ Note that any new values for <i>dwFlags</i> introduced in the future will not wo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-enumtimeformatsex">EnumTimeFormatsEx</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-enumtimeformatsex">EnumTimeFormatsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd317832(v=vs.85)">EnumTimeFormatsProc</a>
+<a href="/previous-versions/windows/desktop/legacy/dd317832(v=vs.85)">EnumTimeFormatsProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

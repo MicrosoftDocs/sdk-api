@@ -57,19 +57,19 @@ api_name:
 Contains information about character formatting in a rich edit control.
         
 
-<b>Rich Edit 2.0:</b> The <a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>CHARFORMAT</b> structure. Microsoft Rich Edit 2.0 and later allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages.
+<b>Rich Edit 2.0:</b> The <a href="/windows/win32/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>CHARFORMAT</b> structure. Microsoft Rich Edit 2.0 and later allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages.
 
 ## -struct-fields
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size in bytes of the specified structure. This member must be set before passing the structure to the rich edit control.
 
 ### -field dwMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Members containing valid information or attributes to set. This member can be zero, one, or more than one of the following values. 
 
@@ -202,7 +202,7 @@ The CFE_UNDERLINE value of the <b>dwEffects</b> member is valid.
 
 ### -field dwEffects
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Character effects. This member can be a combination of the following values. 
 
@@ -217,7 +217,7 @@ Character effects. This member can be a combination of the following values.
 </dl>
 </td>
 <td width="60%">
-The text color is the return value of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>(COLOR_WINDOWTEXT).
+The text color is the return value of <a href="/windows/desktop/api/winuser/nf-winuser-getsyscolor">GetSysColor</a>(COLOR_WINDOWTEXT).
 
 </td>
 </tr>
@@ -285,39 +285,39 @@ Characters are protected; an attempt to modify them will cause an <a href="https
 
 ### -field yHeight
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Character height, in twips (1/1440 of an inch or 1/20 of a printer's point).
 
 ### -field yOffset
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Character offset, in twips, from the baseline. If the value of this member is positive, the character is a superscript; if it is negative, the character is a subscript.
 
 ### -field crTextColor
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-Text color. This member is ignored if the CFE_AUTOCOLOR character effect is specified. To generate a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
+Text color. This member is ignored if the CFE_AUTOCOLOR character effect is specified. To generate a <a href="/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ### -field bCharSet
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Character set value. The 
 					<b>bCharSet</b> member can be one of the values specified for the 
-					<b>lfCharSet</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. Microsoft Rich Edit 3.0 may override this value if it is invalid for the target characters.
+					<b>lfCharSet</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure. Microsoft Rich Edit 3.0 may override this value if it is invalid for the target characters.
 
 ### -field bPitchAndFamily
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
-Font family and pitch. This member is the same as the <b>lfPitchAndFamily</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
+Font family and pitch. This member is the same as the <b>lfPitchAndFamily</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure.
 
 ### -field szFaceName
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">TCHAR</a>[LF_FACESIZE]</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">TCHAR</a>[LF_FACESIZE]</b>
 
 Null-terminated character array specifying the font name.
 
@@ -334,7 +334,7 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/e0057d40-e479-4706-b677-b8fb727a8118">CHARFORMAT2</a>
+<a href="/windows/win32/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a>
 
 
 
@@ -351,4 +351,3 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 <b>Reference</b>
-

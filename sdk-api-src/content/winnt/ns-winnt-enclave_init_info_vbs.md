@@ -64,9 +64,8 @@ The total length of the <b>ENCLAVE_INIT_INFO_VBS</b> structure, in bytes.
 
 ### -field ThreadCount
 
-Upon entry to the <a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a> function, specifies the number of threads to create in the enclave. Upon successful return from <b>InitializeEnclave</b>, contains the number of threads the function actually created.
+Upon entry to the <a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a> function, specifies the number of threads to create in the enclave. Upon successful return from <b>InitializeEnclave</b>, contains the number of threads the function actually created.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>
-
+<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>

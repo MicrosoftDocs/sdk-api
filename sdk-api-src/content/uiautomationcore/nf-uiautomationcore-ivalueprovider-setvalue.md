@@ -56,33 +56,32 @@ Sets the value of control.
 
 ### -param val [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 The value to set. The provider is responsible for converting the value to the appropriate data type.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-Single-line edit controls support programmatic access to their contents by implementing <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ivalueprovider">IValueProvider</a>. 
+Single-line edit controls support programmatic access to their contents by implementing <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ivalueprovider">IValueProvider</a>. 
         However, multi-line edit controls do not implement <b>IValueProvider</b>; 
-        instead they provide access to their content by implementing <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider">ITextProvider</a>.
+        instead they provide access to their content by implementing <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextprovider">ITextProvider</a>.
         
 
-Controls such as ListItem and TreeItem must implement <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ivalueprovider">IValueProvider</a> 
+Controls such as ListItem and TreeItem must implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ivalueprovider">IValueProvider</a> 
         if the value of any of the items is editable, regardless of the current edit 
         mode of the control. The parent control must also implement <b>IValueProvider</b> 
         if the child items are editable.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ivalueprovider">IValueProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ivalueprovider">IValueProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

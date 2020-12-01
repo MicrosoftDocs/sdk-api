@@ -66,7 +66,7 @@ Type: <b>UINT</b>
 
 The message to be processed. The <b>DefScreenSaverProc</b> function responds to messages that affect the screen saver's operation, as detailed in the Remarks section.
 
-If a screen saver application must perform a different action in response to any of these messages, the application's <a href="https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc">ScreenSaverProc</a> window procedure should process the message.
+If a screen saver application must perform a different action in response to any of these messages, the application's <a href="/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc">ScreenSaverProc</a> window procedure should process the message.
 
 ### -param wParam
 
@@ -88,7 +88,7 @@ The return value specifies the result of the message processing and depends on t
 
 ## -remarks
 
-A screen saver application's <a href="https://docs.microsoft.com/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc">ScreenSaverProc</a> window procedure should use <b>DefScreenSaverProc</b> instead of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function to provide default message processing. The <b>DefScreenSaverProc</b> function passes any messages that do not affect screen saver operation to <b>DefWindowProc</b>.
+A screen saver application's <a href="/windows/desktop/api/scrnsave/nf-scrnsave-screensaverproc">ScreenSaverProc</a> window procedure should use <b>DefScreenSaverProc</b> instead of the <a href="/windows/desktop/api/winuser/nf-winuser-defwindowproca">DefWindowProc</a> function to provide default message processing. The <b>DefScreenSaverProc</b> function passes any messages that do not affect screen saver operation to <b>DefWindowProc</b>.
 
 The following table describes how the <b>DefScreenSaverProc</b> processes a variety of window messages.
 
@@ -99,33 +99,32 @@ The following table describes how the <b>DefScreenSaverProc</b> processes a vari
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-activate">WM_ACTIVATE</a>, <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-activateapp">WM_ACTIVATEAPP</a>, <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-ncactivate">WM_NCACTIVATE</a>
+<a href="/windows/desktop/inputdev/wm-activate">WM_ACTIVATE</a>, <a href="/windows/desktop/winmsg/wm-activateapp">WM_ACTIVATEAPP</a>, <a href="/windows/desktop/winmsg/wm-ncactivate">WM_NCACTIVATE</a>
 </td>
-<td>Closes the screen saver if the <i>wParam</i> parameter is <b>FALSE</b>. A <i>wParam</i> value of <b>FALSE</b> indicates that the screen saver is losing the input focus. The screen saver is closed by sending a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-close">WM_CLOSE</a> message.</td>
+<td>Closes the screen saver if the <i>wParam</i> parameter is <b>FALSE</b>. A <i>wParam</i> value of <b>FALSE</b> indicates that the screen saver is losing the input focus. The screen saver is closed by sending a <a href="/windows/desktop/winmsg/wm-close">WM_CLOSE</a> message.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-setcursor">WM_SETCURSOR</a>
+<a href="/windows/desktop/menurc/wm-setcursor">WM_SETCURSOR</a>
 </td>
 <td>Removes the cursor from the screen by setting the cursor to <b>NULL</b>.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown">WM_LBUTTONDOWN</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-rbuttondown">WM_RBUTTONDOWN</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mbuttondown">WM_MBUTTONDOWN</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a>
+<a href="/windows/desktop/inputdev/wm-lbuttondown">WM_LBUTTONDOWN</a>, <a href="/windows/desktop/inputdev/wm-rbuttondown">WM_RBUTTONDOWN</a>, <a href="/windows/desktop/inputdev/wm-mbuttondown">WM_MBUTTONDOWN</a>, <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>, <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>, <a href="/windows/desktop/inputdev/wm-mousemove">WM_MOUSEMOVE</a>
 </td>
-<td>Calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postquitmessage">PostQuitMessage</a> function to close the screen saver.</td>
+<td>Calls the <a href="/windows/desktop/api/winuser/nf-winuser-postquitmessage">PostQuitMessage</a> function to close the screen saver.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-destroy">WM_DESTROY</a>
+<a href="/windows/desktop/winmsg/wm-destroy">WM_DESTROY</a>
 </td>
-<td>Posts a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-close">WM_CLOSE</a> message to close the screen saver window.</td>
+<td>Posts a <a href="/windows/desktop/winmsg/wm-close">WM_CLOSE</a> message to close the screen saver window.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
+<a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
 </td>
-<td>Returns <b>FALSE</b> if the <i>wParam</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a> is either <b>SC_CLOSE</b> or <b>SC_SCREENSAVE</b>.</td>
+<td>Returns <b>FALSE</b> if the <i>wParam</i> parameter of <a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a> is either <b>SC_CLOSE</b> or <b>SC_SCREENSAVE</b>.</td>
 </tr>
 </table>
-

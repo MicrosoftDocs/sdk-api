@@ -50,41 +50,40 @@ api_name:
 
 ## -description
 
-The <b>CertCreateCertificateChainEngine</b> function creates a new, nondefault chain engine for an application. A chain engine restricts the certificates in the root store that can be used for verification, restricts the certificate stores to be searched for certificates and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs), sets a time-out limit for searches that involve URLs, and limits the number of certificates checked between checking for a certificate cycle.
+The <b>CertCreateCertificateChainEngine</b> function creates a new, nondefault chain engine for an application. A chain engine restricts the certificates in the root store that can be used for verification, restricts the certificate stores to be searched for certificates and <a href="/windows/desktop/SecGloss/c-gly">certificate trust lists</a> (CTLs), sets a time-out limit for searches that involve URLs, and limits the number of certificates checked between checking for a certificate cycle.
 
 ## -parameters
 
 ### -param pConfig [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a> data structure that specifies the parameters for the chain engine.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a> data structure that specifies the parameters for the chain engine.
 
 ### -param phChainEngine [out]
 
-A pointer to the handle of the chain engine created. When you have finished using the chain engine, release the chain engine by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechainengine">CertFreeCertificateChainEngine</a> function.
+A pointer to the handle of the chain engine created. When you have finished using the chain engine, release the chain engine by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechainengine">CertFreeCertificateChainEngine</a> function.
 
 ## -returns
 
 If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The <i>phChainEngine</i> parameter returns the chain engine handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_engine_config">CERT_CHAIN_ENGINE_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechainengine">CertFreeCertificateChainEngine</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechainengine">CertFreeCertificateChainEngine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>

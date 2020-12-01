@@ -54,7 +54,7 @@ Implements methods that get information from a Digital Video Broadcast (DVB) con
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbContentIdentifierDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbContentIdentifierDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbContentIdentifierDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbContentIdentifierDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDvbContentIdentifierDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentidentifierdescriptor-getcountofrecords">GetCountOfRecords</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentidentifierdescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of service records in a DVB  content identifier descriptor. 
@@ -78,7 +78,7 @@ Gets the number of service records in a DVB  content identifier descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentidentifierdescriptor-getlength">GetLength</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentidentifierdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of a DVB  content identifier descriptor.
@@ -87,7 +87,7 @@ Gets the body length of a DVB  content identifier descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentidentifierdescriptor-getrecordcrid">GetRecordCrid</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentidentifierdescriptor-getrecordcrid">GetRecordCrid</a>
 </td>
 <td align="left" width="63%">
 Gets the content reference identifier (CRID) from a DVB content identifier descriptor.
@@ -96,7 +96,7 @@ Gets the content reference identifier (CRID) from a DVB content identifier descr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentidentifierdescriptor-gettag">GetTag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbcontentidentifierdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag for a DVB content identifier descriptor.
@@ -104,4 +104,3 @@ Gets the tag for a DVB content identifier descriptor.
 </td>
 </tr>
 </table>
-

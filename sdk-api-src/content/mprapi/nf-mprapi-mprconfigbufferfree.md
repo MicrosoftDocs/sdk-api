@@ -60,7 +60,7 @@ MprConfigXGetInfo
 			
 
 where X stands for Server, 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/interface">Interface</a>, Transport, or InterfaceTransport.
+<a href="/windows/desktop/RRAS/interface">Interface</a>, Transport, or InterfaceTransport.
 
 ## -parameters
 
@@ -78,7 +78,7 @@ MprConfigXGetInfo
 						
 
 where X stands for Server, 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/interface">Interface</a>, Transport, or InterfaceTransport.
+<a href="/windows/desktop/RRAS/interface">Interface</a>, Transport, or InterfaceTransport.
 
 ## -returns
 
@@ -86,37 +86,36 @@ If the function succeeds, the return value is NO_ERROR.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfaceenum">MprConfigInterfaceEnum</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfaceenum">MprConfigInterfaceEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacegetinfo">MprConfigInterfaceGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacegetinfo">MprConfigInterfaceGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacetransportenum">MprConfigInterfaceTransportEnum</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacetransportenum">MprConfigInterfaceTransportEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacetransportgetinfo">MprConfigInterfaceTransportGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfiginterfacetransportgetinfo">MprConfigInterfaceTransportGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigservergetinfo">MprConfigServerGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigservergetinfo">MprConfigServerGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigtransportenum">MprConfigTransportEnum</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigtransportenum">MprConfigTransportEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigtransportgetinfo">MprConfigTransportGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigtransportgetinfo">MprConfigTransportGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
+<a href="/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

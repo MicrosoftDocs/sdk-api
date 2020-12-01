@@ -171,7 +171,7 @@ The peer-to-peer namespace for a collection of peer names. This namespace identi
 
 ### -param lpNspId [in, optional]
 
-A pointer to an optional GUID of a specific namespace provider to register this information with in the case where  multiple namespace providers are registered under a single namespace such as NS_DNS. Passing the GUID for a specific namespace provider will result in the information being registered with only the specified namespace provider. The <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a> function can be called to retrieve the GUID for a namespace provider.
+A pointer to an optional GUID of a specific namespace provider to register this information with in the case where  multiple namespace providers are registered under a single namespace such as NS_DNS. Passing the GUID for a specific namespace provider will result in the information being registered with only the specified namespace provider. The <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a> function can be called to retrieve the GUID for a namespace provider.
 
 ### -param timeout [in, optional]
 
@@ -192,7 +192,7 @@ An optional pointer used only for asynchronous operations.  This parameter is cu
 ## -returns
 
 On success,  <b>SetAddrInfoEx</b> returns NO_ERROR (0). Failure returns a nonzero Windows Sockets error code, as found in the 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>.
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>.
 
 <table>
 <tr>
@@ -202,19 +202,19 @@ On success,  <b>SetAddrInfoEx</b> returns NO_ERROR (0). Failure returns a nonzer
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATRY_AGAIN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSATRY_AGAIN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -225,7 +225,7 @@ A temporary failure in name resolution occurred.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -236,7 +236,7 @@ An invalid parameter was provided. This error is returned if any of the reserved
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -247,7 +247,7 @@ Insufficient buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -258,7 +258,7 @@ A nonrecoverable failure in name resolution occurred.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -274,11 +274,11 @@ The <b>SetAddrInfoEx</b>  function provides a protocol-independent method to reg
 
 If the <b>SetAddrInfoEx</b>  function is called with NS_ALL set as the <i>dwNameSpace</i> parameter and the <i>lpNspId</i> parameter unspecified, then <b>SetAddrInfoEx</b> will attempt to register or deregister the name and associated addresses with all installed and active namespaces. The <b>SetAddrInfoEx</b> function will return success if any of the namespace providers successfully registered or deregistered the name, but there will not be any indication of which namespace provider succeeded or which ones failed the request. 
 
-When <b>UNICODE</b> or <b>_UNICODE</b> is defined, <b>SetAddrInfoEx</b> is defined to <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">SetAddrInfoExW</a>, the Unicode version of this function. The string parameters are defined to the <b>PWSTR</b> data type.
+When <b>UNICODE</b> or <b>_UNICODE</b> is defined, <b>SetAddrInfoEx</b> is defined to <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">SetAddrInfoExW</a>, the Unicode version of this function. The string parameters are defined to the <b>PWSTR</b> data type.
 
-When <b>UNICODE</b> or <b>_UNICODE</b> is not defined, <b>SetAddrInfoEx</b> is defined to <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">SetAddrInfoExA</a>, the ANSI version of this function. The string parameters are of the <b>PCSTR</b> data type.
+When <b>UNICODE</b> or <b>_UNICODE</b> is not defined, <b>SetAddrInfoEx</b> is defined to <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">SetAddrInfoExA</a>, the ANSI version of this function. The string parameters are of the <b>PCSTR</b> data type.
 
-Information  that is registered with a namespace provider can be returned by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>,   <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>functions.  The <b>GetAddrInfoEx</b> function is an enhanced version of the <b>getaddrinfo</b> and <b>GetAddrInfoW</b> functions. 
+Information  that is registered with a namespace provider can be returned by calling the <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>,   <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>, or <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>functions.  The <b>GetAddrInfoEx</b> function is an enhanced version of the <b>getaddrinfo</b> and <b>GetAddrInfoW</b> functions. 
 
 On Windows Vista and later, when <b>SetAddrInfoEx</b> is called from a service, if the operation is the result of a user process calling the service, then the service should impersonate the user.  This is to allow security and routing compartments to be properly enforced.
 
@@ -294,25 +294,24 @@ On Windows Vista and later, when <b>SetAddrInfoEx</b> is called from a service,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfow">GetAddrInfoW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumnamespaceprovidersa">WSAEnumNameSpaceProviders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
-
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>

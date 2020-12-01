@@ -81,7 +81,7 @@ If the function succeeds, the function returns <b>TRUE</b>.
 
 
 If the function fails, it returns <b>FALSE</b>. To get extended error data, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error values apply to 
 <b>InternetGetCookie</b>.
@@ -133,16 +133,16 @@ The <i>lpszUrl</i> parameter is <b>NULL</b>.
 ## -remarks
 
 <b>InternetGetCookie</b> does not require a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a>. 
+<a href="/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a>. 
 <b>InternetGetCookie</b> checks in the windows\cookies directory for persistent cookies that have an expiration date set sometime in the future. 
 <b>InternetGetCookie</b> also searches memory for any session cookies, that is, cookies that do not have an expiration date that were created in the same process by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a>, because these cookies are not written to any files. Rules for creating cookie files are internal to the system and can change in the future.
+<a href="/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a>, because these cookies are not written to any files. Rules for creating cookie files are internal to the system and can change in the future.
 
-				As noted in <a href="https://docs.microsoft.com/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>, <b>InternetGetCookie</b> does not return cookies that the server marked as non-scriptable with the "HttpOnly" attribute in the Set-Cookie header.
+				As noted in <a href="/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>, <b>InternetGetCookie</b> does not return cookies that the server marked as non-scriptable with the "HttpOnly" attribute in the Set-Cookie header.
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -153,25 +153,24 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>
+<a href="/windows/desktop/WinInet/http-cookies">HTTP Cookies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetgetcookieexa">InternetGetCookieEx</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetgetcookieexa">InternetGetCookieEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetsetcookiea">InternetSetCookie</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetcookieexa">InternetSetCookieEx</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-internetsetcookieexa">InternetSetCookieEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/managing-cookies">Managing Cookies</a>
+<a href="/windows/desktop/WinInet/managing-cookies">Managing Cookies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

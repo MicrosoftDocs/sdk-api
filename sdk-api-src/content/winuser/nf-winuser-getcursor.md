@@ -60,7 +60,7 @@ api_name:
 
 Retrieves a handle to the current cursor.
 
-To get information on the global cursor, even if it is not owned by the current thread, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>.
+To get information on the global cursor, even if it is not owned by the current thread, use <a href="/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>.
 
 ## -parameters
 
@@ -76,11 +76,11 @@ The return value is the handle to the current cursor. If there is no cursor, the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
+<a href="/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcursorinfo">GetCursorInfo</a>
 
 
 
@@ -88,5 +88,4 @@ The return value is the handle to the current cursor. If there is no cursor, the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>

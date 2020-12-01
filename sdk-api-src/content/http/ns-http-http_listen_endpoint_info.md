@@ -60,7 +60,7 @@ Controls whether IP-based URLs should listen on the specific IP address or on a 
 
 ### -field Flags
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a> structure that specifies if the property is present.
+The <a href="/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a> structure that specifies if the property is present.
 
 ### -field EnableSharing
 
@@ -68,5 +68,4 @@ A Boolean value that specifies whether sharing is enabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a>
-
+<a href="/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a>

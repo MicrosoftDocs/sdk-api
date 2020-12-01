@@ -56,7 +56,7 @@ Sets the content protection manager (CPM).
 
 ### -param pCPM [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectionmanager">IMFContentProtectionManager</a> interface, implemented by the caller.
+A pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectionmanager">IMFContentProtectionManager</a> interface, implemented by the caller.
 
 ## -returns
 
@@ -68,5 +68,4 @@ The Media Engine uses the CPM to handle events related to protected content, suc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineprotectedcontent">IMFMediaEngineProtectedContent</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineprotectedcontent">IMFMediaEngineProtectedContent</a>

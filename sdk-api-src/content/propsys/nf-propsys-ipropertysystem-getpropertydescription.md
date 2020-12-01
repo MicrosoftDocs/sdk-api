@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets an instance of the subsystem object that implements <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>, to obtain the property description for a given <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
+Gets an instance of the subsystem object that implements <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>, to obtain the property description for a given <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Gets an instance of the subsystem object that implements <a href="https://docs.m
 
 Type: <b>REFPROPERTYKEY</b>
 
-A reference to the desired property key. See <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
+A reference to the desired property key. See <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>.
 
 ### -param riid [in]
 
@@ -70,7 +70,7 @@ A reference to the desired IID.
 
 Type: <b>void**</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> interface pointer.
+The address of an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a> interface pointer.
 
 ## -returns
 
@@ -112,7 +112,7 @@ Indicates that <i>ppv</i> is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-Indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> does not exist in the schema subsystem cache.
+Indicates that the <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> does not exist in the schema subsystem cache.
 
 </td>
 </tr>
@@ -124,5 +124,4 @@ It is recommended that you use the IID_PPV_ARGS macro, defined in objbase.h, to 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
-
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>

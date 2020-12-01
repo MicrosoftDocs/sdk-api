@@ -53,7 +53,7 @@ The **NSPGetServiceClassInfo** function retrieves all the pertinent class inform
 
 ### -param lpProviderId [in]
 
-A pointer to the [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) of the specific namespace provider from which the service class schema is to be retrieved.
+A pointer to the [GUID](../guiddef/ns-guiddef-guid.md) of the specific namespace provider from which the service class schema is to be retrieved.
 
 ### -param lpdwBufSize [in, out]
 
@@ -192,4 +192,3 @@ The W2_32.dll uses this function to implement the
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
-

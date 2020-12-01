@@ -51,20 +51,20 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[This interface is supported for compatibility but it's recommended to use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
+    <a href="/previous-versions/windows/desktop/fsrm/fsrm-wmi-classes">FSRM WMI Classes</a> to manage FSRM. Please see the 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a> class.]
 
 Used to manage quotas.
 
 To get this interface, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
+    <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex">CoCreateInstanceEx</a> function. Use 
     <b>CLSID_FsrmQuotaManager</b> as the class identifier and 
     <code>__uuidof(IFsrmQuotaManager)</code> as the interface identifier. For 
-    an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/defining-a-quota">Defining a Quota</a>.
+    an example, see <a href="/previous-versions/windows/desktop/fsrm/defining-a-quota">Defining a Quota</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmQuotaManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmQuotaManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFsrmQuotaManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFsrmQuotaManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -80,7 +80,7 @@ The <b>IFsrmQuotaManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-createautoapplyquota">CreateAutoApplyQuota</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-createautoapplyquota">CreateAutoApplyQuota</a>
 </td>
 <td align="left" width="63%">
 Creates an automatic quota for the specified directory.
@@ -89,7 +89,7 @@ Creates an automatic quota for the specified directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-createquota">CreateQuota</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-createquota">CreateQuota</a>
 </td>
 <td align="left" width="63%">
 Creates a quota for the specified directory.
@@ -98,7 +98,7 @@ Creates a quota for the specified directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-createquotacollection">CreateQuotaCollection</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-createquotacollection">CreateQuotaCollection</a>
 </td>
 <td align="left" width="63%">
 Creates an empty collection to which you can add quotas.
@@ -107,7 +107,7 @@ Creates an empty collection to which you can add quotas.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-enumautoapplyquotas">EnumAutoApplyQuotas</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-enumautoapplyquotas">EnumAutoApplyQuotas</a>
 </td>
 <td align="left" width="63%">
 Enumerates the automatic quotas that are associated with the specified directory.
@@ -116,7 +116,7 @@ Enumerates the automatic quotas that are associated with the specified directory
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-enumeffectivequotas">EnumEffectiveQuotas</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-enumeffectivequotas">EnumEffectiveQuotas</a>
 </td>
 <td align="left" width="63%">
 Enumerates all the quotas that affect the specified path.
@@ -125,7 +125,7 @@ Enumerates all the quotas that affect the specified path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-enumquotas">EnumQuotas</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-enumquotas">EnumQuotas</a>
 </td>
 <td align="left" width="63%">
 Enumerates the quotas that are associated with the specified directory.
@@ -134,7 +134,7 @@ Enumerates the quotas that are associated with the specified directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-getautoapplyquota">GetAutoApplyQuota</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-getautoapplyquota">GetAutoApplyQuota</a>
 </td>
 <td align="left" width="63%">
 Retrieves the automatic quota for the specified directory.
@@ -143,7 +143,7 @@ Retrieves the automatic quota for the specified directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-getquota">GetQuota</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-getquota">GetQuota</a>
 </td>
 <td align="left" width="63%">
 Retrieves the quota for the specified directory.
@@ -152,7 +152,7 @@ Retrieves the quota for the specified directory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-getrestrictivequota">GetRestrictiveQuota</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-getrestrictivequota">GetRestrictiveQuota</a>
 </td>
 <td align="left" width="63%">
 Retrieves the most restrictive quota for the specified path.
@@ -161,7 +161,7 @@ Retrieves the most restrictive quota for the specified path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-scan">Scan</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-scan">Scan</a>
 </td>
 <td align="left" width="63%">
 Starts a quota scan on the specified path.
@@ -179,7 +179,7 @@ Starts a quota scan on the specified path.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-get_actionvariabledescriptions">ActionVariableDescriptions</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-get_actionvariabledescriptions">ActionVariableDescriptions</a>
 
 
 </td>
@@ -189,14 +189,14 @@ Read-only
 </td>
 <td align="left" width="63%">
 Retrieves the descriptions for the macros contained in the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-get_actionvariables">ActionVariables</a> property.
+     <a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-get_actionvariables">ActionVariables</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-get_actionvariables">ActionVariables</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotamanager-get_actionvariables">ActionVariables</a>
 
 
 </td>
@@ -230,17 +230,16 @@ To create this object from a script, use the program identifier,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
+<a href="/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmquotamanager">FsrmQuotaManager</a>
+<a href="/previous-versions/windows/desktop/fsrm/fsrmquotamanager">FsrmQuotaManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotamanagerex">IFsrmQuotaManagerEx</a>
+<a href="/previous-versions/windows/desktop/api/fsrmquota/nn-fsrmquota-ifsrmquotamanagerex">IFsrmQuotaManagerEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
-
+<a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>

@@ -56,7 +56,7 @@ Gets the &lt;Package&gt; element at the current position of the enumerator.
 
 ### -param packageInfo [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo">IAppxBundleManifestPackageInfo</a>**</b>
+Type: <b><a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo">IAppxBundleManifestPackageInfo</a>**</b>
 
 The current &lt;Package&gt; element.
 
@@ -86,9 +86,8 @@ The enumerator has passed the last item in the collection.
 
 ## -remarks
 
-The enumerator’s position points to the first element by default. So, with a newly constructed enumerator that contains at least one element, <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestpackageinfoenumerator-gethascurrent">IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent</a> returns <b>TRUE</b> and <b>GetCurrent</b> returns the first element.
+The enumerator’s position points to the first element by default. So, with a newly constructed enumerator that contains at least one element, <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlemanifestpackageinfoenumerator-gethascurrent">IAppxBundleManifestPackageInfoEnumerator::GetHasCurrent</a> returns <b>TRUE</b> and <b>GetCurrent</b> returns the first element.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfoenumerator">IAppxBundleManifestPackageInfoEnumerator</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfoenumerator">IAppxBundleManifestPackageInfoEnumerator</a>

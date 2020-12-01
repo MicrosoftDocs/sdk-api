@@ -56,7 +56,7 @@ The <b>EngFreePrivateUserMem</b> function deallocates a block of private user me
 
 ### -param psl [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure representing the DirectDraw surface with which the memory is associated.
+Pointer to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure representing the DirectDraw surface with which the memory is associated.
 
 ### -param p [in]
 
@@ -64,21 +64,20 @@ Pointer to the block of user memory being deallocated.
 
 ## -remarks
 
-This routine deallocates a block of memory allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engallocprivateusermem">EngAllocPrivateUserMem</a>.
+This routine deallocates a block of memory allocated by <a href="/windows/desktop/api/winddi/nf-winddi-engallocprivateusermem">EngAllocPrivateUserMem</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engallocprivateusermem">EngAllocPrivateUserMem</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engallocprivateusermem">EngAllocPrivateUserMem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engallocusermem">EngAllocUserMem</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engallocusermem">EngAllocUserMem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engfreeusermem">EngFreeUserMem</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engfreeusermem">EngFreeUserMem</a>

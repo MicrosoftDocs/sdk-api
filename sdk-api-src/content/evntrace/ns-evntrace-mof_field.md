@@ -55,8 +55,8 @@ api_name:
 ## -description
 
 You may use the <b>MOF_FIELD</b> structures to append event data to the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> structures.
+<a href="/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> or 
+<a href="/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> structures.
 
 ## -struct-fields
 
@@ -78,22 +78,21 @@ Be sure to initialize the memory for this structure to zero before setting any m
 
 If you use 
 <b>MOF_FIELD</b> structures, you must set the <b>WNODE_FLAG_USE_MOF_PTR</b> flag in the <b>Flags</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> structure.
+<a href="/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> or 
+<a href="/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> structure.
 
 The event tracing session automatically dereferences 
 <b>MOF_FIELD</b> data pointers before passing the data to event trace consumers using 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace">EVENT_TRACE</a> structures.
+<a href="/windows/desktop/ETW/event-trace">EVENT_TRACE</a> structures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a>
+<a href="/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace">EVENT_TRACE</a>
+<a href="/windows/desktop/ETW/event-trace">EVENT_TRACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a>
-
+<a href="/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a>

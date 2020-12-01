@@ -59,11 +59,11 @@ Notification method called by the Mobile Broadband service to indicate that a se
 
 ### -param serviceActivation [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivation">IMbnServiceActivation</a> interface representing the device on which the request was performed.
+Pointer to an <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivation">IMbnServiceActivation</a> interface representing the device on which the request was performed.
 
 ### -param vendorSpecificData [in]
 
-A byte array containing the data returned by the underlying Mobile Broadband miniport driver in <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-service-activation">NDIS_STATUS_WWAN_SERVICE_ACTIVATION</a>.
+A byte array containing the data returned by the underlying Mobile Broadband miniport driver in <a href="/windows-hardware/drivers/network/ndis-status-wwan-service-activation">NDIS_STATUS_WWAN_SERVICE_ACTIVATION</a>.
 
 ### -param requestID [in]
 
@@ -174,9 +174,8 @@ This method must return <b>S_OK</b>.
 
 ## -remarks
 
-Successful service activation will also result in a change to the  ready state of the device. the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onreadystatechange">OnReadyStateChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a> as notification.
+Successful service activation will also result in a change to the  ready state of the device. the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevents-onreadystatechange">OnReadyStateChange</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a> as notification.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivationevents">IMbnServiceActivationEvents</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnserviceactivationevents">IMbnServiceActivationEvents</a>

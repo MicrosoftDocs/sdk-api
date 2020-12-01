@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - IsWindowUnicode
+req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # IsWindowUnicode function
@@ -74,11 +75,10 @@ If the window is not a native Unicode window, the return value is zero. The wind
 
 ## -remarks
 
-The character set of a window is determined by the use of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> function. If the window class was registered with the ANSI version of <b>RegisterClass</b> (<b>RegisterClassA</b>), the character set of the window is ANSI. If the window class was registered with the Unicode version of <b>RegisterClass</b> (<b>RegisterClassW</b>), the character set of the window is Unicode. 
+The character set of a window is determined by the use of the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> function. If the window class was registered with the ANSI version of <b>RegisterClass</b> (<b>RegisterClassA</b>), the character set of the window is ANSI. If the window class was registered with the Unicode version of <b>RegisterClass</b> (<b>RegisterClassW</b>), the character set of the window is Unicode. 
 
 The system does automatic two-way translation (Unicode to ANSI) for window messages. For example, if an ANSI window message is sent to a window that uses the Unicode character set, the system translates that message into a Unicode message before calling the window procedure. The system calls <b>IsWindowUnicode</b> to determine whether to translate the message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows Overview</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows Overview</a>

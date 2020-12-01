@@ -202,13 +202,12 @@ Type mismatch.
 
 
 
-Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-saveallchanges">ICreateTypeLib::SaveAllChanges</a> to save the type information after calling <b>LayOut</b>. Other members of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a> interface should not be called after calling <b>LayOut</b>.
+Use <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-saveallchanges">ICreateTypeLib::SaveAllChanges</a> to save the type information after calling <b>LayOut</b>. Other members of the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a> interface should not be called after calling <b>LayOut</b>.
 
-<div class="alert"><b>Note</b>  Different implementations of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-saveallchanges">ICreateTypeLib::SaveAllChanges</a> or other interfaces that create type information are free to assign any member ID numbers, provided that all members (including inherited members), have unique IDs. For examples, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>.
+<div class="alert"><b>Note</b>  Different implementations of <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-icreatetypelib-saveallchanges">ICreateTypeLib::SaveAllChanges</a> or other interfaces that create type information are free to assign any member ID numbers, provided that all members (including inherited members), have unique IDs. For examples, see <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>.
 </div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>

@@ -85,7 +85,7 @@ This handle is returned by the
 
 A pointer to an array of 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/ns-winreg-value_enta">VALENT</a> structures that describe one or more value entries. On input, the <b>ve_valuename</b> member of each structure must contain a pointer to the name of a value to retrieve. The function fails if any of the specified values do not exist in the specified key. 
+<a href="/windows/desktop/api/winreg/ns-winreg-value_enta">VALENT</a> structures that describe one or more value entries. On input, the <b>ve_valuename</b> member of each structure must contain a pointer to the name of a value to retrieve. The function fails if any of the specified values do not exist in the specified key. 
 
 
 
@@ -174,13 +174,12 @@ If the target key is a dynamic key, its provider must provide all the values in 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
+<a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
+<a href="/windows/desktop/SysInfo/registry">Registry Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/ns-winreg-value_enta">VALENT</a>
-
+<a href="/windows/desktop/api/winreg/ns-winreg-value_enta">VALENT</a>

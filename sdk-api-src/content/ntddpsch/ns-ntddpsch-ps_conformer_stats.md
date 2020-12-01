@@ -57,7 +57,7 @@ api_name:
 The 
 <b>PS_CONFORMER_STATS</b> structure provides statistical packet shaper information about a particular flow. Note that the 
 <b>PS_CONFORMER_STATS</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a> structure.
+<a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a> structure.
 
 ## -struct-fields
 
@@ -67,9 +67,8 @@ Number of nonconforming packets that have been scheduled on the flow or interfac
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a>
-
+<a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a>

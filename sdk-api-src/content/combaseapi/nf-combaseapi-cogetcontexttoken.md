@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-Returns a pointer to an implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iobjcontext">IObjContext</a> for the current context.
+Returns a pointer to an implementation of <a href="/windows/desktop/api/objidl/nn-objidl-iobjcontext">IObjContext</a> for the current context.
 
 ## -parameters
 
 ### -param pToken [out]
 
-A pointer to an implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iobjcontext">IObjContext</a> for the current context.
+A pointer to an implementation of <a href="/windows/desktop/api/objidl/nn-objidl-iobjcontext">IObjContext</a> for the current context.
 
 ## -returns
 
@@ -109,9 +109,8 @@ The caller is not in an initialized apartment.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icontext">IContext</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-icontext">IContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iobjcontext">IObjContext</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iobjcontext">IObjContext</a>

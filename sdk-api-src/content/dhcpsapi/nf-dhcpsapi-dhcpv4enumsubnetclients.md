@@ -60,11 +60,11 @@ Pointer to a null-terminated Unicode string that represents the IP address or ho
 
 ### -param SubnetAddress [in]
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the IPv4 subnet address of the DHCP client records to enumerate. If set to 0, the DHCP client records for all known IPv4 subnets are returned.
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_IP_ADDRESS</a> structure that contains the IPv4 subnet address of the DHCP client records to enumerate. If set to 0, the DHCP client records for all known IPv4 subnets are returned.
 
 ### -param ResumeHandle [in, out]
 
-Pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_RESUME_HANDLE</a> structure that identifies this enumeration for use in subsequent calls to this function. Initially, this value should be zero on input. If successful, the returned value should be used for subsequent enumeration requests. The returned handle value is the last IPv4 address retrieved in the enumeration operation.
+Pointer to a  <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-type-definitions">DHCP_RESUME_HANDLE</a> structure that identifies this enumeration for use in subsequent calls to this function. Initially, this value should be zero on input. If successful, the returned value should be used for subsequent enumeration requests. The returned handle value is the last IPv4 address retrieved in the enumeration operation.
 
 ### -param PreferredMaximum [in]
 
@@ -72,7 +72,7 @@ The maximum number of bytes of client records to return in <i>ClientInfo</i>. Th
 
 ### -param ClientInfo [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_pb_array">DHCP_CLIENT_INFO_PB_ARRAY</a> structure that contains the DHCP client lease records set available for the specified subnet.
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_pb_array">DHCP_CLIENT_INFO_PB_ARRAY</a> structure that contains the DHCP client lease records set available for the specified subnet.
 
 ### -param ClientsRead [out]
 
@@ -86,7 +86,7 @@ Pointer to a <b>DWORD</b>  that specifies the number of client records on the DH
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
-If the function fails, it returns one of the following or an error code from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+If the function fails, it returns one of the following or an error code from <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -141,5 +141,4 @@ There are no client lease records on the DHCP server.
 
 ## -remarks
 
-<i>ClientInfo</i> should be free using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.
-
+<i>ClientInfo</i> should be free using <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcprpcfreememory">DhcpRpcFreeMemory</a>.

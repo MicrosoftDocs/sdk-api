@@ -61,7 +61,7 @@ The <b>GetData</b> method returns the data in the ST.
 
 ### -param ppData [out]
 
-Address of a variable that receives a pointer to a buffer, which contains all of the data_byte fields in the ST. To get the size of the buffer, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_st-getdatalength">IDVB_ST::GetDataLength</a> method. The caller must release the buffer by calling the <b>CoTaskMemFree</b> function.
+Address of a variable that receives a pointer to a buffer, which contains all of the data_byte fields in the ST. To get the size of the buffer, call the <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_st-getdatalength">IDVB_ST::GetDataLength</a> method. The caller must release the buffer by calling the <b>CoTaskMemFree</b> function.
 
 ## -returns
 
@@ -124,5 +124,4 @@ The data in an ST has no meaning.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_st">IDVB_ST Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_st">IDVB_ST Interface</a>

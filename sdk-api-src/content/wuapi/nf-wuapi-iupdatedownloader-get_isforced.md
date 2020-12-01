@@ -64,5 +64,4 @@ This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is implemen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>

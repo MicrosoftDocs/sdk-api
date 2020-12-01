@@ -60,7 +60,7 @@ The <b>BTH_HCI_EVENT_INFO</b> structure is used in connection with obtaining WM_
 
 ### -field bthAddress
 
-Address of the remote device, in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatemultipledevices">BTH_ADDR</a> structure.
+Address of the remote device, in the form of a <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatemultipledevices">BTH_ADDR</a> structure.
 
 ### -field connectionType
 
@@ -72,10 +72,9 @@ Status of the connection. If nonzero, the connection has been established. If ze
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatemultipledevices">BTH_ADDR</a>
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatemultipledevices">BTH_ADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothenablediscovery">Bluetooth and WM_DEVICECHANGE
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothenablediscovery">Bluetooth and WM_DEVICECHANGE
 				Messages</a>
-

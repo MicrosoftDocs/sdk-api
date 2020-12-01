@@ -56,9 +56,9 @@ Reconciles the state of an object with one or more other objects. The reconcilia
 
 ### -param pInitiator
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/lwef/ireconcileinitiator">IReconcileInitiator</a>*</b>
+Type: <b><a href="/windows/desktop/lwef/ireconcileinitiator">IReconcileInitiator</a>*</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/lwef/ireconcileinitiator">IReconcileInitiator</a> interface for the initiator of the reconciliation process. This parameter must not be <b>NULL</b>.
+The address of the <a href="/windows/desktop/lwef/ireconcileinitiator">IReconcileInitiator</a> interface for the initiator of the reconciliation process. This parameter must not be <b>NULL</b>.
 
 ### -param dwFlags
 
@@ -143,7 +143,7 @@ The number of versions or partial residues specified in
 
 ### -param rgpmkOtherInput
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>**</b>
 
 The address of an array that contains the addresses of the monikers to use to access the versions or partial residues to be reconciled.
 
@@ -155,7 +155,7 @@ The address of the variable that receives an index value indicating whether the 
 
 ### -param pstgNewResidues
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>*</b>
 
 The address of the 
 					<b>IStorage</b> interface used to store the new residues. This parameter can be <b>NULL</b> to indicate that residues should not be saved.
@@ -207,7 +207,7 @@ No reconciliation actions were performed. The briefcase reconciler wishes to fal
 </dl>
 </td>
 <td width="60%">
-Reconciliation was completed successfully, and all the objects involved (the object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a> method and all the other objects described by 
+Reconciliation was completed successfully, and all the objects involved (the object implementing the <a href="/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a> method and all the other objects described by 
 										<i>rgpmkOtherInput</i>) have been updated appropriately. The initiator does not need, therefore, to do anything further to propagate the changes. The variable pointed to by 
 										<i>plOutIndex</i> should be set to -1L if <b>Reconcile</b> returns this value. The initiator will not save the source object's storage if <b>Reconcile</b> returns this value. This value may only be returned if RECONCILEF_YOUMAYDOTHEUPDATES was set in 
 										<i>dwFlags</i>.
@@ -254,7 +254,7 @@ The briefcase reconciler does not support the generation of residues, so the req
 </dl>
 </td>
 <td width="60%">
-The briefcase reconciler stopped reconciliation in response to a termination request from the initiator (see <a href="https://docs.microsoft.com/previous-versions/bb761345(v=vs.85)">SetAbortCallback</a> for more information). The state of the object is unspecified.
+The briefcase reconciler stopped reconciliation in response to a termination request from the initiator (see <a href="/previous-versions/bb761345(v=vs.85)">SetAbortCallback</a> for more information). The state of the object is unspecified.
 
 </td>
 </tr>
@@ -276,7 +276,7 @@ Reconciliation cannot be carried out because the provided document versions are 
 </dl>
 </td>
 <td width="60%">
-The RECONCILEF_YOUMAYDOTHEUPDATES flag was not set when the object's <a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a> implementation was called; this implementation requires that this value be set in the 
+The RECONCILEF_YOUMAYDOTHEUPDATES flag was not set when the object's <a href="/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-reconcile">Reconcile</a> implementation was called; this implementation requires that this value be set in the 
 										<i>dwFlags</i> parameter.
 
 </td>
@@ -307,5 +307,4 @@ Unspecified error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nn-reconcil-ireconcilableobject">IReconcilableObject</a>
-
+<a href="/windows/desktop/api/reconcil/nn-reconcil-ireconcilableobject">IReconcilableObject</a>

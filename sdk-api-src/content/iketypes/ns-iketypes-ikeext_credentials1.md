@@ -53,19 +53,19 @@ api_name:
 ## -description
 
 The <b>IKEEXT_CREDENTIALS1</b> structure is used to store multiple credential pairs.
-[IKEEXT_CREDENTIALS0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials0) is available.</div><div> </div>
+[IKEEXT_CREDENTIALS0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credentials0) is available.</div><div> </div>
 
 ## -struct-fields
 
 ### -field numCredentials
 
-Number of [IKEEXT_CREDENTIAL_PAIR1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1) structures in the array.
+Number of [IKEEXT_CREDENTIAL_PAIR1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1) structures in the array.
 
 ### -field credentials
 
 [size_is(numCredentials)]
 
-Pointer to an array of [IKEEXT_CREDENTIAL_PAIR1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1) structures.
+Pointer to an array of [IKEEXT_CREDENTIAL_PAIR1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1) structures.
 
 ## -remarks
 
@@ -81,9 +81,8 @@ is index 1.
 
 ## -see-also
 
-[IKEEXT_CREDENTIAL_PAIR1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1)
+[IKEEXT_CREDENTIAL_PAIR1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_credential_pair1)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

@@ -54,7 +54,7 @@ Converts the log records to viewable format so that they can be presented using 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmFormatLogRecords</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmFormatLogRecords</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmFormatLogRecords</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICrmFormatLogRecords</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICrmFormatLogRecords</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmformatlogrecords-getcolumn">GetColumn</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmformatlogrecords-getcolumn">GetColumn</a>
 </td>
 <td align="left" width="63%">
 Formats one unstructured log record into an array of viewable fields.
@@ -78,7 +78,7 @@ Formats one unstructured log record into an array of viewable fields.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmformatlogrecords-getcolumncount">GetColumnCount</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmformatlogrecords-getcolumncount">GetColumnCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of fields (columns) in a log record of the type used by this CRM Compensator.
@@ -87,7 +87,7 @@ Retrieves the number of fields (columns) in a log record of the type used by thi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmformatlogrecords-getcolumnheaders">GetColumnHeaders</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmformatlogrecords-getcolumnheaders">GetColumnHeaders</a>
 </td>
 <td align="left" width="63%">
 Retrieves the names of the fields (columns).
@@ -96,7 +96,7 @@ Retrieves the names of the fields (columns).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmformatlogrecords-getcolumnvariants">GetColumnVariants</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmformatlogrecords-getcolumnvariants">GetColumnVariants</a>
 </td>
 <td align="left" width="63%">
 Formats one structured log record into an array of viewable fields.
@@ -107,5 +107,4 @@ Formats one structured log record into an array of viewable fields.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>
-
+<a href="/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>

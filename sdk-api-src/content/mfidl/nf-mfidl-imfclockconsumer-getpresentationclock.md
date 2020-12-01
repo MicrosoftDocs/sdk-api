@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-Called by the media pipeline to get an instance of <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>.
+Called by the media pipeline to get an instance of <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a>.
 
 ## -parameters
 
 ### -param ppPresentationClock [out]
 
-Pointer to an object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface. This value can be null.
+Pointer to an object that implements the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock">IMFPresentationClock</a> interface. This value can be null.
 
 ## -returns
 
@@ -98,5 +98,4 @@ The app does not implement this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockconsumer">IMFClockConsumer</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfclockconsumer">IMFClockConsumer</a>

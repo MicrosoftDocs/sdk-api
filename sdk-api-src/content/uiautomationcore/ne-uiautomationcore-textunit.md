@@ -84,5 +84,4 @@ Document.
 
 ## -see-also
 
-[Text Attribute Identifiers](https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-textattribute-ids)
-
+[Text Attribute Identifiers](/windows/desktop/WinAuto/uiauto-textattribute-ids)

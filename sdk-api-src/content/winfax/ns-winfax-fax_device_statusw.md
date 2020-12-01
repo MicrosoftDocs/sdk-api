@@ -142,7 +142,7 @@ If the <b>JobType</b> member is equal to the <b>JT_RECEIVE</b> job type, <b>Rout
 
 <code>Canonical-Phone-Number[|Additional-Routing-Info]</code>
 
-where <code>Canonical-Phone-Number</code> is defined in the <a href="https://docs.microsoft.com/windows/desktop/Tapi/address-ovr">Address</a> topic of the TAPI documentation (see the Canonical Address subheading); and <code>Additional-Routing-Info</code> is the <i>subaddress</i> of a Canonical Address, and uses the subaddress format.
+where <code>Canonical-Phone-Number</code> is defined in the <a href="/windows/desktop/Tapi/address-ovr">Address</a> topic of the TAPI documentation (see the Canonical Address subheading); and <code>Additional-Routing-Info</code> is the <i>subaddress</i> of a Canonical Address, and uses the subaddress format.
 
 ### -field SenderName
 
@@ -164,9 +164,9 @@ Specifies a <b>DWORD</b> variable that indicates the size, in bytes, of the acti
 
 ### -field StartTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the starting time of the current fax job expressed in UTC.
+Specifies a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the starting time of the current fax job expressed in UTC.
 
 ### -field Status
 
@@ -314,9 +314,9 @@ This member must be <b>NULL</b>.
 
 ### -field SubmittedTime
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time the client submitted the fax document for transmission to the fax job queue. The time is expressed in UTC.
+Specifies a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time the client submitted the fax document for transmission to the fax job queue. The time is expressed in UTC.
 
 ### -field TotalPages
 
@@ -463,9 +463,9 @@ The device is not available because it is in use by another application.
 
 ## -remarks
 
-The fax client application can call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetdevicestatusa">FaxGetDeviceStatus</a> function to retrieve status information for the fax device of interest. The function returns the information in a <b>FAX_DEVICE_STATUS</b> structure.
+The fax client application can call the <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetdevicestatusa">FaxGetDeviceStatus</a> function to retrieve status information for the fax device of interest. The function returns the information in a <b>FAX_DEVICE_STATUS</b> structure.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-device-management">Fax Device Management</a>. For information about the status information a fax service provider supplies for an active fax operation, see the <a href="https://docs.microsoft.com/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">FAX_DEV_STATUS</a> topic.
+For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-fax-device-management">Fax Device Management</a>. For information about the status information a fax service provider supplies for an active fax operation, see the <a href="/windows/desktop/api/faxdev/ns-faxdev-fax_dev_status">FAX_DEV_STATUS</a> topic.
 
 
 
@@ -476,17 +476,16 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-structures">Fax Service Client API Structures</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-structures">Fax Service Client API Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetdevicestatusa">FaxGetDeviceStatus</a>
-
+<a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetdevicestatusa">FaxGetDeviceStatus</a>

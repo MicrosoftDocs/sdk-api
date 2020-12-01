@@ -88,9 +88,8 @@ The method succeeded.
 
 ## -remarks
 
-The plug-in must call <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete">IWMPContentPartnerCallback::SendMessageComplete</a> to notify Windows Media Player that the message has been processed. This causes the <a href="https://docs.microsoft.com/windows/desktop/WMP/external-onsendmessagecomplete-event">OnSendMessageComplete</a> event to occur in the discovery page.
+The plug-in must call <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete">IWMPContentPartnerCallback::SendMessageComplete</a> to notify Windows Media Player that the message has been processed. This causes the <a href="/windows/desktop/WMP/external-onsendmessagecomplete-event">OnSendMessageComplete</a> event to occur in the discovery page.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>

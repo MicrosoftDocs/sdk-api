@@ -57,7 +57,7 @@ The
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
+Handle to the installation provided to a DLL custom action or obtained through <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ## -returns
 
@@ -72,5 +72,4 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer State Access Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">Installer State Access Functions</a>

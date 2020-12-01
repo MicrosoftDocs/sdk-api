@@ -57,7 +57,7 @@ The
 
 ### -field filt_ipaddr
 
-IP address of the source address, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure.
+IP address of the source address, in the form of an <a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a> structure.
 
 ### -field filt_unused
 
@@ -69,5 +69,4 @@ TCP port for the source.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>
-
+<a href="/windows/desktop/api/winsock2/ns-winsock2-in_addr">in_addr</a>

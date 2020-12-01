@@ -57,7 +57,7 @@ The <b>GetSupportedCommands</b> method retrieves a list of all the supported com
 
 ### -param ppCommands [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicekeycollection">IPortableDeviceKeyCollection</a> interface that holds all the valid commands. For a list of commands that are defined by Windows Portable Devices, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/commands">Commands</a>. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicekeycollection">IPortableDeviceKeyCollection</a> interface that holds all the valid commands. For a list of commands that are defined by Windows Portable Devices, see <a href="/windows/desktop/wpd_sdk/commands">Commands</a>. The caller must release this interface when it is done with it.
 
 ## -returns
 
@@ -88,5 +88,4 @@ None.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>

@@ -84,7 +84,7 @@ The video processor  can perform motion-compensated deinterlacing.
 
 The video processor can perform inverse telecine (IVTC).
 
- If the video processor supports this capability, the <b>ITelecineCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps">DXVAHD_VPCAPS</a> structure specifies which IVTC modes are supported.
+ If the video processor supports this capability, the <b>ITelecineCaps</b> member of the <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_vpcaps">DXVAHD_VPCAPS</a> structure specifies which IVTC modes are supported.
 
 ### -field DXVAHD_PROCESSOR_CAPS_FRAME_RATE_CONVERSION
 
@@ -92,13 +92,12 @@ The video processor can convert the frame rate by interpolating frames.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-enumerations">Direct3D Video Enumerations</a>
+<a href="/windows/desktop/medfound/direct3d-video-enumerations">Direct3D Video Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

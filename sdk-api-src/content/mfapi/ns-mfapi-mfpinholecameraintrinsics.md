@@ -66,5 +66,4 @@ The array of camera intrinsic models in the intrinsic data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

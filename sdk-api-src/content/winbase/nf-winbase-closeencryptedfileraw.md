@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
 api_name:
  - CloseEncryptedFileRaw
+req.apiset: ext-ms-win-advapi32-encryptedfile-l1-1-0 (introduced in Windows 8)
 ---
 
 # CloseEncryptedFileRaw function
@@ -60,14 +61,14 @@ or restore operation, and frees associated system resources. This is one of a gr
 ### -param pvContext [in]
 
 A pointer to a system-defined context block. The
-         <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openencryptedfilerawa">OpenEncryptedFileRaw</a> function returns the context block.
+         <a href="/windows/desktop/api/winbase/nf-winbase-openencryptedfilerawa">OpenEncryptedFileRaw</a> function returns the context block.
 
 ## -remarks
 
 The <b>CloseEncryptedFileRaw</b> function frees allocated system resources
       such as the system-defined context block and closes the file.
 
-The  <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a> functions handle backup and restore of unencrypted files.
+The  <a href="/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a> and <a href="/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a> functions handle backup and restore of unencrypted files.
 
 In Windows 8, Windows Server 2012, and later, this function is supported by the following technologies.
 
@@ -133,29 +134,28 @@ Note that SMB 3.0 does not support EFS on shares with continuous availability ca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-backupwrite">BackupWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openencryptedfilerawa">OpenEncryptedFileRaw</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openencryptedfilerawa">OpenEncryptedFileRaw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-readencryptedfileraw">ReadEncryptedFileRaw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>

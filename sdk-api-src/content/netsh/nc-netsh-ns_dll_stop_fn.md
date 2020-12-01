@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>NS_DLL_STOP_FN</b> command is the DLL stop function for helper DLLs. The DLL stop function provides an opportunity for helper DLLs to release any resources before being unloaded, and is registered in the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a> function. The following is an example of a DLL stop function. Be aware that <b>SampleStop</b> is a placeholder for the application-defined function name.
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a> function. The following is an example of a DLL stop function. Be aware that <b>SampleStop</b> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -70,17 +70,16 @@ The DLL stop function is called once for each helper DLL being unloaded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
+<a href="/windows/desktop/api/netsh/ns-netsh-ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_helper_start_fn">NS_HELPER_START_FN</a>
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_helper_start_fn">NS_HELPER_START_FN</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_helper_stop_fn">NS_HELPER_STOP_FN</a>
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_helper_stop_fn">NS_HELPER_STOP_FN</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a>
-
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a>

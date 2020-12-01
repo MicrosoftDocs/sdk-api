@@ -69,9 +69,9 @@ Retrieves the fully qualified path for the file containing the specified module.
 
 A handle to the process that contains the module.  
 
-The handle must have the <b>PROCESS_QUERY_INFORMATION</b> and <b>PROCESS_VM_READ</b> access rights. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+The handle must have the <b>PROCESS_QUERY_INFORMATION</b> and <b>PROCESS_VM_READ</b> access rights. For more information, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
-The <b>GetModuleFileNameEx</b> function does not retrieve the path for modules  that were loaded using the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
+The <b>GetModuleFileNameEx</b> function does not retrieve the path for modules  that were loaded using the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
 
 ### -param hModule [in, optional]
 
@@ -90,15 +90,15 @@ The size of the <i>lpFilename</i> buffer, in characters.
 If the function succeeds, the return value specifies the length of the string copied to the buffer.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The <b>GetModuleFileNameEx</b> function is primarily designed for use by debuggers and similar applications that must extract module information from another process. If the module list in the target process is corrupted or is not yet initialized, or if the module list changes during the function call as a result of DLLs being loaded or unloaded, <b>GetModuleFileNameEx</b> may fail or return incorrect information.
 
-To retrieve the name of a module in the current process, use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea">GetModuleFileName</a> function. This is more efficient and more reliable than calling <b>GetModuleFileNameEx</b> with a handle to the current process.
+To retrieve the name of a module in the current process, use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea">GetModuleFileName</a> function. This is more efficient and more reliable than calling <b>GetModuleFileNameEx</b> with a handle to the current process.
 
-To retrieve the name of the main executable module for a remote process, use the <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getprocessimagefilenamea">GetProcessImageFileName</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a> function. This is more efficient and more reliable than calling the <b>GetModuleFileNameEx</b> function with a NULL module handle.
+To retrieve the name of the main executable module for a remote process, use the <a href="/windows/desktop/api/psapi/nf-psapi-getprocessimagefilenamea">GetProcessImageFileName</a> or <a href="/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a> function. This is more efficient and more reliable than calling the <b>GetModuleFileNameEx</b> function with a NULL module handle.
 
 Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes 
     version numbers for the PSAPI functions. The PSAPI version number affects the name used to call the function and 
@@ -121,7 +121,7 @@ Programs that must run on earlier versions of Windows as
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/psapi/enumerating-all-modules-for-a-process">Enumerating All Modules for a Process</a>.
+     <a href="/windows/desktop/psapi/enumerating-all-modules-for-a-process">Enumerating All Modules for a Process</a>.
 
 <div class="code"></div>
 
@@ -133,29 +133,28 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getmodulebasenamea">GetModuleBaseName</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-getmodulebasenamea">GetModuleBaseName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea">GetModuleFileName</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea">GetModuleFileName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulehandlea">GetModuleHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/module-information">Module Information</a>
+<a href="/windows/desktop/psapi/module-information">Module Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
-
+<a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>

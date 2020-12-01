@@ -53,22 +53,22 @@ api_name:
 ## -description
 
 Enumerates the possible exit states of a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. These values are returned by the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a> callback function.
+    <a href="/previous-versions/windows/desktop/mscs/resources">resource</a>. These values are returned by the 
+    <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a> callback function.
 
 ## -enum-fields
 
 ### -field ResourceExitStateContinue
 
 The resource has not been terminated. Worker threads may continue 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a> and 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a> operations for the resource.
+       <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a> and 
+       <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a> operations for the resource.
 
 ### -field ResourceExitStateTerminate
 
 The resource has been terminated. Callers should end 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a> or 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a> operations and immediately terminate all worker 
+       <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a> or 
+       <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a> operations and immediately terminate all worker 
        threads assigned to the resource.
 
 ### -field ResourceExitStateMax
@@ -78,9 +78,8 @@ This value is only used for comparisons. All supported values are less than
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>
-
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>

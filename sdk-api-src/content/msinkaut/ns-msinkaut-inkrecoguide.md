@@ -52,63 +52,51 @@ api_name:
 
 ## -description
 
-Deprecated. Represents information about the <b>recognition guide</b>. Use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_writingbox">WritingBox Property</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox">DrawnBox Property</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_rows">Rows Property</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns">Columns Property</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_midline">Midline Property [InkRecognizerGuide Class]</a> properties instead.
+Deprecated. Represents information about the <b>recognition guide</b>. Use the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_writingbox">WritingBox Property</a>, <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox">DrawnBox Property</a>, <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_rows">Rows Property</a>, <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns">Columns Property</a>, and <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_midline">Midline Property [InkRecognizerGuide Class]</a> properties instead.
 
 ## -struct-fields
 
 ### -field rectWritingBox
 
+Deprecated.
+
 ### -field rectDrawnBox
+
+Deprecated.
 
 ### -field cRows
 
+Deprecated.
+
 ### -field cColumns
+
+Deprecated.
 
 ### -field midline
 
- 
+Deprecated.
 
-
-
-
-#### - DISPID_IRGColumns
-
-
-#### - DISPID_IRGDrawnBox
-
-
-#### - DISPID_IRGGuideData
-
-
-#### - DISPID_IRGMidline
-
-
-#### - DISPID_IRGRows
-
-
-#### - DISPID_IRGWritingBox
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns">Columns Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns">Columns Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox">DrawnBox Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox">DrawnBox Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>
+<a href="/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_midline">Midline Property [InkRecognizerGuide Class]</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_midline">Midline Property [InkRecognizerGuide Class]</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_rows">Rows Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_rows">Rows Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_writingbox">WritingBox Property</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_writingbox">WritingBox Property</a>

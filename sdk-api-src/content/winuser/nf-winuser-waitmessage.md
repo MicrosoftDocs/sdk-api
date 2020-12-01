@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
  - WaitMessage
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # WaitMessage function
@@ -65,11 +66,11 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Note that <b>WaitMessage</b> does not return if there is unread input in the message queue after the thread has called a function to check the queue. This is because functions such as <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getqueuestatus">GetQueueStatus</a>, <b>WaitMessage</b>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects">MsgWaitForMultipleObjects</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a> check the queue and then change the state information for the queue so that the input is no longer considered new. A subsequent call to <b>WaitMessage</b> will not return until new input of the specified type arrives. The existing unread input (received prior to the last time the thread checked the queue) is ignored.
+Note that <b>WaitMessage</b> does not return if there is unread input in the message queue after the thread has called a function to check the queue. This is because functions such as <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getqueuestatus">GetQueueStatus</a>, <b>WaitMessage</b>, <a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects">MsgWaitForMultipleObjects</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjectsex">MsgWaitForMultipleObjectsEx</a> check the queue and then change the state information for the queue so that the input is no longer considered new. A subsequent call to <b>WaitMessage</b> will not return until new input of the specified type arrives. The existing unread input (received prior to the last time the thread checked the queue) is ignored.
 
 ## -see-also
 
@@ -77,17 +78,16 @@ Note that <b>WaitMessage</b> does not return if there is unread input in the mes
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
+<a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
 
 
 
 <b>Reference</b>
-

@@ -43,6 +43,7 @@ api_location:
  - Ole32.dll
 api_name:
  - CreateClassMoniker
+req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)
 ---
 
 # CreateClassMoniker function
@@ -60,7 +61,7 @@ A reference to the CLSID of the object type to which this moniker binds.
 
 ### -param ppmk [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>* pointer variable that receives the interface pointer to the new class moniker. On successful return, the function has called <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the moniker and the caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. When an error occurs, the value of the moniker pointer is <b>NULL</b>.
+The address of an <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>* pointer variable that receives the interface pointer to the new class moniker. On successful return, the function has called <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the moniker and the caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. When an error occurs, the value of the moniker pointer is <b>NULL</b>.
 
 ## -returns
 
@@ -101,5 +102,4 @@ The class moniker will support the binding to a fresh instance of the class iden
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>

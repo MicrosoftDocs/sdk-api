@@ -67,7 +67,7 @@ The <b>GetInputFormat</b> method retrieves possible media formats for the specif
 
 ### -param pProps [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps</a> interface.
+Pointer to a pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps</a> interface.
 
 ## -returns
 
@@ -104,13 +104,12 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformatcount">IWMWriter::GetInputFormatCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputformatcount">IWMWriter::GetInputFormatCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-enumerate-input-formats">To Enumerate Input Formats</a>
-
+<a href="/windows/desktop/wmformat/to-enumerate-input-formats">To Enumerate Input Formats</a>

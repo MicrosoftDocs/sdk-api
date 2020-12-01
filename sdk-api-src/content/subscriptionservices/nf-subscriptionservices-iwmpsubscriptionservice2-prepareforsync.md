@@ -66,7 +66,7 @@ String containing the canonical name of the device.
 
 ### -param pCB [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservicecallback">IWMPSubscriptionServiceCallback</a> interface. The online store uses this pointer to notify Windows Media Player that preparation for synchronization is complete.
+Pointer to an <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservicecallback">IWMPSubscriptionServiceCallback</a> interface. The online store uses this pointer to notify Windows Media Player that preparation for synchronization is complete.
 
 ## -returns
 
@@ -92,9 +92,9 @@ The method succeeded.
 
 ## -remarks
 
-The string contained in <i>bstrDeviceName</i> is not the same name retrieved using <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_devicename">IWMPSyncDevice::get_deviceName</a>. Rather, it is the canonical name retrieved by using the <b>IWMDMDevice2::GetCanonicalName</b> method provided by the Windows Media Device Manager SDK.
+The string contained in <i>bstrDeviceName</i> is not the same name retrieved using <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_devicename">IWMPSyncDevice::get_deviceName</a>. Rather, it is the canonical name retrieved by using the <b>IWMDMDevice2::GetCanonicalName</b> method provided by the Windows Media Device Manager SDK.
 
-Your code should not perform lengthy operations synchronously when Windows Media Player calls this method. Instead, you must perform time-consuming tasks on a separate worker thread. When the worker thread has completed its work, it must call <a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservicecallback-oncomplete">IWMPSubscriptionServiceCallback::onComplete</a>.
+Your code should not perform lengthy operations synchronously when Windows Media Player calls this method. Instead, you must perform time-consuming tasks on a separate worker thread. When the worker thread has completed its work, it must call <a href="/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservicecallback-oncomplete">IWMPSubscriptionServiceCallback::onComplete</a>.
 
 Use the following procedure to provide your worker thread with a pointer to an <b>IWMPSubscriptionServiceCallback</b> interface.
 
@@ -103,13 +103,12 @@ Use the following procedure to provide your worker thread with a pointer to an <
 <li>Pass the <b>IStream</b> pointer to your worker thread.</li>
 <li>In your worker thread, call <b>CoGetInterfaceAndReleaseStream</b>, which returns an interface pointer that you can use to call <b>onComplete</b>.</li>
 </ol>
-When you call <a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservicecallback-oncomplete">IWMPSubscriptionServiceCallback::onComplete</a>, you should return a success code to allow Windows Media Player to continue synchronizing the specified digital media file, or an error code to disallow synchronization. Windows Media Player displays an error message based on the error code you provide. You should avoid using generic <b>HRESULTs</b>, such as E_FAIL. Instead, you can return the <b>HRESULT</b> error code you receive from a call to one of the Windows Media SDKs, such as the Windows Media Device Manager SDK, or one of the error codes in nserror.h, which can be found in the \Include folder where you installed the Windows Media Player SDK.
+When you call <a href="/windows/desktop/api/subscriptionservices/nf-subscriptionservices-iwmpsubscriptionservicecallback-oncomplete">IWMPSubscriptionServiceCallback::onComplete</a>, you should return a success code to allow Windows Media Player to continue synchronizing the specified digital media file, or an error code to disallow synchronization. Windows Media Player displays an error message based on the error code you provide. You should avoid using generic <b>HRESULTs</b>, such as E_FAIL. Instead, you can return the <b>HRESULT</b> error code you receive from a call to one of the Windows Media SDKs, such as the Windows Media Device Manager SDK, or one of the error codes in nserror.h, which can be found in the \Include folder where you installed the Windows Media Player SDK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2">IWMPSubscriptionService2 Interface</a>
+<a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice2">IWMPSubscriptionService2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservicecallback">IWMPSubscriptionServiceCallback Interface</a>
-
+<a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservicecallback">IWMPSubscriptionServiceCallback Interface</a>

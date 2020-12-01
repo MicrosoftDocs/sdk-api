@@ -98,9 +98,8 @@ A <b>NULL</b> pointer was provided in one of the parameters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setslideshowoptions">IDesktopWallpaper::SetSlideshowOptions</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setslideshowoptions">IDesktopWallpaper::SetSlideshowOptions</a>

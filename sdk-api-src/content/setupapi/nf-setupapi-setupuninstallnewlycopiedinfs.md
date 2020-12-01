@@ -78,21 +78,20 @@ Reserved. This parameter must be <b>NULL</b>.
 If the parameters passed in are valid, the return value is <b>TRUE</b> (nonzero), which does not necessarily mean that any INFs are uninstalled.
 
 If some of the parameters passed in are invalid, the return value is <b>FALSE</b> (zero). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupuninstalloeminfa">SetupUninstallOEMInf</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupuninstalloeminfa">SetupUninstallOEMInf</a>

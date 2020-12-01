@@ -136,29 +136,28 @@ The call was aborted.
 
 ### -field fjesPROPRIETARY
 
-Obsolete. For information about proprietary extended status codes, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-extendedstatuscode-vb">IFaxOutgoingJob::get_ExtendedStatusCode</a>.
+Obsolete. For information about proprietary extended status codes, see <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-extendedstatuscode-vb">IFaxOutgoingJob::get_ExtendedStatusCode</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingjob-extendedstatuscode">ExtendedStatusCode</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingjob-extendedstatuscode">ExtendedStatusCode</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxincomingjob-extendedstatus-vb">IFaxIncomingJob::get_ExtendedStatus</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxincomingjob-extendedstatus-vb">IFaxIncomingJob::get_ExtendedStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjobstatus-extendedstatus-vb">IFaxJobStatus::get_ExtendedStatus</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxjobstatus-extendedstatus-vb">IFaxJobStatus::get_ExtendedStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjobstatus-extendedstatuscode-vb">IFaxJobStatus::get_ExtendedStatusCode</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxjobstatus-extendedstatuscode-vb">IFaxJobStatus::get_ExtendedStatusCode</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-extendedstatus-vb">IFaxOutgoingJob::get_ExtendedStatus</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-extendedstatus-vb">IFaxOutgoingJob::get_ExtendedStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-extendedstatuscode-vb">IFaxOutgoingJob::get_ExtendedStatusCode</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutgoingjob-extendedstatuscode-vb">IFaxOutgoingJob::get_ExtendedStatusCode</a>

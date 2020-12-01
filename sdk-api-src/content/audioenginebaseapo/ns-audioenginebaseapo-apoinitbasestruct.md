@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The APOInitBaseStruct structure is the base initialization header that must precede other  
-initialization data in <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-initialize">IAudioProcessingObject::Initialize</a>.
+initialization data in <a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-initialize">IAudioProcessingObject::Initialize</a>.
 
 ## -struct-fields
 
@@ -70,9 +70,8 @@ If the specified CLSID does not match, then the APOInitBaseStruct structure was 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitsystemeffects">APOInitSystemEffects</a>
+<a href="/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apoinitsystemeffects">APOInitSystemEffects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-initialize">IAudioProcessingObject::Initialize</a>
-
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-initialize">IAudioProcessingObject::Initialize</a>

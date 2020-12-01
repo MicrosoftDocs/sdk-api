@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-This function unblocks backups blocked via <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceblockbackup">FhServiceBlockBackup</a>.
+This function unblocks backups blocked via <a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceblockbackup">FhServiceBlockBackup</a>.
 
 > [!NOTE] 
 > **FhServiceUnblockBackup** is deprecated and may be altered or unavailable in future releases.
@@ -60,7 +60,7 @@ This function unblocks backups blocked via <a href="https://docs.microsoft.com/w
 
 ### -param Pipe [in]
 
-The communication channel handle returned by an earlier <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a> call.
+The communication channel handle returned by an earlier <a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a> call.
 
 ## -returns
 
@@ -68,13 +68,12 @@ The communication channel handle returned by an earlier <a href="https://docs.mi
 
 ## -remarks
 
-This function removes the effects of a prior <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceblockbackup">FhServiceBlockBackup</a> call issued via a given communication channel with the File History Service.
+This function removes the effects of a prior <a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceblockbackup">FhServiceBlockBackup</a> call issued via a given communication channel with the File History Service.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceblockbackup">FhServiceBlockBackup</a>
+<a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceblockbackup">FhServiceBlockBackup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>
-
+<a href="/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>

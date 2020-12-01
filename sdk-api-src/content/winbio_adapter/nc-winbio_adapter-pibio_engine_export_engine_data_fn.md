@@ -6,7 +6,7 @@ helpviewer_keywords: ["EngineAdapterExportEngineData","EngineAdapterExportEngine
 old-location: secbiomet\engineadapterexportenginedata.htm
 tech.root: SecBioMet
 ms.assetid: 9ac11720-7dbf-4479-b2c5-78cd53494e21
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: EngineAdapterExportEngineData, EngineAdapterExportEngineData callback function [Windows Biometric Framework API], PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN, PIBIO_ENGINE_EXPORT_ENGINE_DATA_FN callback, WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, secbiomet.engineadapterexportenginedata, winbio_adapter/EngineAdapterExportEngineData
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
@@ -50,50 +50,50 @@ api_name:
 
 ## -description
 
-Called by the Windows Biometric Framework to retrieve a copy of the most recently processed feature set or template from the engine formatted as a standard <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure.
+Called by the Windows Biometric Framework to retrieve a copy of the most recently processed feature set or template from the engine formatted as a standard <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure.
 
 ## -parameters
 
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param Flags [in]
 
-A value that specifies the properties of the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure returned by the engine. This can be a bitwise <b>OR</b> of the following security and processing level flags:
+A value that specifies the properties of the <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure returned by the engine. This can be a bitwise <b>OR</b> of the following security and processing level flags:
 
 
+ **WINBIO_DATA_FLAG_PRIVACY**
 
-
-##### )
-
-
-
-##### )
-
-
-
-###### )
-
-
-
-##### )
-
-
-
-##### )
-
-
-
-##### )
+The data is encrypted.
+            
+            
+* **WINBIO_DATA_FLAG_INTEGRITY**
+The data is digitally signed or protected by a message authentication code (MAC).
+            
+            
+* **WINBIO_DATA_FLAG_SIGNED**
+If this flag and the <mark type="const">WINBIO_DATA_FLAG_INTEGRITY</mark> flag are set, the data is signed. If this flag is not set but the <mark type="const">WINBIO_DATA_FLAG_INTEGRITY</mark> flag is set, a MAC is computed.
+            
+            
+* **WINBIO_DATA_FLAG_RAW**
+The data is in the format with which it was captured.
+            
+            
+* **WINBIO_DATA_FLAG_INTERMEDIATE**
+The data is not raw but has not been completely processed.
+            
+            
+* **WINBIO_DATA_FLAG_PROCESSED**
+The data has been processed.
 
 ### -param *SampleBuffer [out]
 
-Address of a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure that contains the feature set or template.
+Address of a variable that receives a pointer to a <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure that contains the feature set or template.
 
 ### -param SampleSize [out]
 
-Pointer to a variable that contains the size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure returned in the <i>SampleBuffer</i> parameter.
+Pointer to a variable that contains the size, in bytes, of the <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure returned in the <i>SampleBuffer</i> parameter.
 
 ## -returns
 
@@ -122,7 +122,7 @@ The engine adapter does not support the combination of flags specified by the  <
 </dl>
 </td>
 <td width="60%">
-There is not enough memory available to create the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure.
+There is not enough memory available to create the <a href="/windows/desktop/SecBioMet/winbio-bir">WINBIO_BIR</a> structure.
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ This method is not currently implemented.
 
 ## -remarks
 
-You must allocate the buffer to be returned in the <i>SampleBuffer</i> parameter from the process heap by using the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function. After the buffer is created, it becomes the property of the Windows Biometric Framework. Because the Framework deallocates this memory when finished using it, your implementation of this function  must not attempt to deallocate the buffer or save a pointer to it.  By not saving the pointer, you prevent other parts of the engine adapter from attempting to use the buffer after this function returns.
+You must allocate the buffer to be returned in the <i>SampleBuffer</i> parameter from the process heap by using the <a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function. After the buffer is created, it becomes the property of the Windows Biometric Framework. Because the Framework deallocates this memory when finished using it, your implementation of this function  must not attempt to deallocate the buffer or save a pointer to it.  By not saving the pointer, you prevent other parts of the engine adapter from attempting to use the buffer after this function returns.
 
 
 #### Examples
@@ -244,9 +244,8 @@ cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn">EngineAdapterAcceptSampleData</a>
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_accept_sample_data_fn">EngineAdapterAcceptSampleData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>

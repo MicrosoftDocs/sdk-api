@@ -56,7 +56,7 @@ Displays the drag image at the specified position within the window.
 
 ### -param hwndLock
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the window that owns the drag image.
 
@@ -74,11 +74,10 @@ The y-coordinate at which to display the drag image. The coordinate is relative 
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 
 ## -remarks
 
-To begin a drag operation, use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_begindrag">ImageList_BeginDrag</a> function.
-
+To begin a drag operation, use the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_begindrag">ImageList_BeginDrag</a> function.

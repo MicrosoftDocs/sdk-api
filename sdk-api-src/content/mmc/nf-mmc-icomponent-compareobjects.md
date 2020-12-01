@@ -51,8 +51,8 @@ api_name:
 ## -description
 
 The <b>IComponent::CompareObjects</b> method enables a snap-in to compare two data objects acquired through 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a>. Be aware that data objects can be acquired from two different instances of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>.
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a>. Be aware that data objects can be acquired from two different instances of 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>.
 
 ## -parameters
 
@@ -75,13 +75,12 @@ IDataObject interface is documented in the Platform Software Development Kit (SD
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>

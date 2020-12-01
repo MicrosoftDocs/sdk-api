@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndPutDest</b> macro redefines the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-put-dest">MCIWNDM_PUT_DEST</a> message.
+The <b>MCIWndPutDest</b> macro redefines the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-put-dest">MCIWNDM_PUT_DEST</a> message.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Handle of the MCIWnd window.
 ### -param prc
 
 Pointer to a RECT structure containing the coordinates of the destination rectangle.
-

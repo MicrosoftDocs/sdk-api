@@ -57,7 +57,7 @@ The <code>GetMixingPrefs</code> method retrieves the mixing preferences for the 
 
 ### -param pdwMixerPrefs [out]
 
-Address of a variable that receives a bitwise OR combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9mixerprefs">VMR9MixerPrefs</a> flags.
+Address of a variable that receives a bitwise OR combination of <a href="/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9mixerprefs">VMR9MixerPrefs</a> flags.
 
 ## -returns
 
@@ -87,9 +87,8 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmixercontrol9">IVMRMixerControl9 Interface</a>
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmixercontrol9">IVMRMixerControl9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

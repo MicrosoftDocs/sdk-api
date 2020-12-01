@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Handles the notification of the change in the progress of an asynchronous installation or uninstallation that was initiated by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller.BeginInstall</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-beginuninstall">IUpdateInstaller.BeginUninstall</a> method.
+Handles the notification of the change in the progress of an asynchronous installation or uninstallation that was initiated by a call to the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller.BeginInstall</a> method or the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-beginuninstall">IUpdateInstaller.BeginUninstall</a> method.
 
 ## -parameters
 
 ### -param installationJob [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationjob">IInstallationJob</a> interface that contains the installation information.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationjob">IInstallationJob</a> interface that contains the installation information.
 
 ### -param callbackArgs [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogresschangedcallbackargs">IInstallationProgressChangedCallbackArgs</a> interface that contains the installation progress data.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogresschangedcallbackargs">IInstallationProgressChangedCallbackArgs</a> interface that contains the installation progress data.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Returns <b>S_OK</b> if successful. Otherwise, returns  a COM or Windows error co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogresschangedcallback">IInstallationProgressChangedCallback</a>
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogresschangedcallback">IInstallationProgressChangedCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller::BeginInstall</a>
-
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller::BeginInstall</a>

@@ -1263,9 +1263,8 @@ This attribute is reserved for system use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-attributes">Attributes</a>
+<a href="/windows/desktop/Nps/sdo-attributes">Attributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
-
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>

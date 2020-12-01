@@ -70,7 +70,7 @@ The capture stream. The value can be any of the following.
 </dl>
 </td>
 <td width="60%">
-The zero-based index of a stream. To get the number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
+The zero-based index of a stream. To get the number of streams, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
 
 </td>
 </tr>
@@ -144,5 +144,4 @@ The <i>dwSourceStreamIndex</i> parameter is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>

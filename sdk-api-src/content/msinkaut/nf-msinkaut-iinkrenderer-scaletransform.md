@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Scales the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform">view transform</a> in the X and Y dimension.
+Scales the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getviewtransform">view transform</a> in the X and Y dimension.
 
 ## -parameters
 
@@ -106,5 +106,4 @@ An exception occurred inside the method.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
-
+<a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Speficies whether a flip and/or rotation operation should be performed by the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/bitmap-source">Bitmap source effect</a>
+Speficies whether a flip and/or rotation operation should be performed by the <a href="/windows/desktop/Direct2D/bitmap-source">Bitmap source effect</a>
 
 ## -enum-fields
 
@@ -87,4 +87,3 @@ Rotates the image clockwise 90 degrees and flips it horizontally.
 Rotates the image clockwise 270 degrees.
 
 ### -field D2D1_BITMAPSOURCE_ORIENTATION_FORCE_DWORD
-

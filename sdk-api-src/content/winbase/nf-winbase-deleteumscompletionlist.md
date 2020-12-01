@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
  - DeleteUmsCompletionList
+req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 ---
 
 # DeleteUmsCompletionList function
@@ -57,15 +58,14 @@ Deletes the specified user-mode scheduling (UMS) completion list. The list must 
 
 ### -param UmsCompletionList [in]
 
-A pointer to the UMS completion list to be deleted. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createumscompletionlist">CreateUmsCompletionList</a> function provides this pointer.
+A pointer to the UMS completion list to be deleted. The <a href="/windows/desktop/api/winbase/nf-winbase-createumscompletionlist">CreateUmsCompletionList</a> function provides this pointer.
 
 ## -returns
 
 If the function succeeds, it returns a nonzero value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If the completion list is shared, the caller is responsible for ensuring that no active UMS thread holds a reference to the list before deleting it.
-

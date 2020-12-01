@@ -64,29 +64,28 @@ The intensity value is in the range 0 through 255.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/color-macros">Color Macros</a>
+<a href="/windows/desktop/gdi/color-macros">Color Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
+<a href="/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getbvalue">GetBValue</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getbvalue">GetBValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getrvalue">GetRValue</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getrvalue">GetRValue</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
+<a href="/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-palettergb">PALETTERGB</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-palettergb">PALETTERGB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>

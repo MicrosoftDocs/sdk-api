@@ -69,5 +69,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The calling application is responsible for freeing the PIDL by calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a> when the PIDL is no longer needed.
-
+The calling application is responsible for freeing the PIDL by calling <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a> when the PIDL is no longer needed.

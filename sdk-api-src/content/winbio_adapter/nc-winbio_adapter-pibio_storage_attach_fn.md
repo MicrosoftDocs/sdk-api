@@ -56,7 +56,7 @@ Called by the Windows Biometric Framework when a storage adapter is added to the
 
 ### -param Pipeline [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to a <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ## -returns
 
@@ -96,7 +96,7 @@ The operation could not be completed because of insufficient memory.
 </dl>
 </td>
 <td width="60%">
-The <b>StorageContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is not <b>NULL</b> or the <b>StorageHandle</b> member is not set to <b>INVALID_HANDLE_VALUE</b>.
+The <b>StorageContext</b> member of the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure pointed to by the <i>Pipeline</i> argument is not <b>NULL</b> or the <b>StorageHandle</b> member is not set to <b>INVALID_HANDLE_VALUE</b>.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ The <b>StorageContext</b> member of the <a href="https://docs.microsoft.com/wind
 
 When implementing this function, you must allocate and manage any resources required by the adapter and attach these to the biometric unit pipeline. To do this, allocate a private <b>WINIBIO_STORAGE_CONTEXT</b> structure on the  heap, initialize it, and set its address in the <b>StorageContext</b> member of the pipeline object.
 
-If the <b>StorageContext</b> field is not <b>NULL</b> when this function is called, the pipeline was not properly reset by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_detach_fn">StorageAdapterDetach</a> and you must return <b>WINBIO_E_INVALID_DEVICE_STATE</b> to notify the Windows Biometric Framework of the problem.
+If the <b>StorageContext</b> field is not <b>NULL</b> when this function is called, the pipeline was not properly reset by a previous call to <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_detach_fn">StorageAdapterDetach</a> and you must return <b>WINBIO_E_INVALID_DEVICE_STATE</b> to notify the Windows Biometric Framework of the problem.
 
 Similarly, if the <b>StorageHandle</b> field does not contain <b>INVALID_HANDLE_VALUE</b> when this function is called, you must return <b>WINBIO_E_INVALID_DEVICE_STATE</b>.
 
@@ -200,9 +200,8 @@ cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_detach_fn">StorageAdapterDetach</a>
-
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_detach_fn">StorageAdapterDetach</a>

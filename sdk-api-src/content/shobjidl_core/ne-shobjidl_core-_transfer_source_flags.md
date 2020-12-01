@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used by methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource">ITransferSource</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a> interfaces to control their file operations.
+Used by methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransfersource">ITransferSource</a> and <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a> interfaces to control their file operations.
 
 ## -enum-fields
 
@@ -112,29 +112,28 @@ Suspend Shell events.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-createitem">ITransferDestination::CreateItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-createitem">ITransferDestination::CreateItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-linkitem">ITransferSource::LinkItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-linkitem">ITransferSource::LinkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-moveitem">ITransferSource::MoveItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-moveitem">ITransferSource::MoveItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-openitem">ITransferSource::OpenItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-openitem">ITransferSource::OpenItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-recycleitem">ITransferSource::RecycleItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-recycleitem">ITransferSource::RecycleItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-removeitem">ITransferSource::RemoveItem</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-removeitem">ITransferSource::RemoveItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-renameitem">ITransferSource::RenameItem</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-renameitem">ITransferSource::RenameItem</a>

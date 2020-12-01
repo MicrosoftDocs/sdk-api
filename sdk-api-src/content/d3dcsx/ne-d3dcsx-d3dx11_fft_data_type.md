@@ -64,5 +64,4 @@ Complex numbers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3dcsx11-enums">D3DCSX 11 Enumerations</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3dcsx11-enums">D3DCSX 11 Enumerations</a>

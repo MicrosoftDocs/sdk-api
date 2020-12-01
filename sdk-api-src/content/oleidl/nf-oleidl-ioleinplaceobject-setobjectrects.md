@@ -112,7 +112,7 @@ It is possible for <i>lprcClipRect</i> to change without <i>lprcPosRect</i> chan
 
 The size of an in-place object's rectangle is always calculated in pixels. This is different from other OLE object's visualizations, which are in <b>HIMETRIC</b>.
 
-<div class="alert"><b>Note</b>  While executing <b>IOleInPlaceObject::SetObjectRects</b>, do not make calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>IOleInPlaceObject::SetObjectRects</b>.</div>
+<div class="alert"><b>Note</b>  While executing <b>IOleInPlaceObject::SetObjectRects</b>, do not make calls to the <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> or <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <b>IOleInPlaceObject::SetObjectRects</b>.</div>
 <div> </div>
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 The container should call <b>IOleInPlaceObject::SetObjectRects</b> whenever the window position of the in-place object and/or the visible part of the in-place object changes.
@@ -124,17 +124,16 @@ The object should compare its width and height with those provided by its contai
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceobject">IOleInPlaceObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-onposrectchange">IOleInPlaceSite::OnPosRectChange</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-onposrectchange">IOleInPlaceSite::OnPosRectChange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>

@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets a value that controls the alignment of the paragraphs in an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
+Gets or sets a value that controls the alignment of the paragraphs in an <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
 
 This property is read/write.
 
@@ -73,5 +73,4 @@ If a selection spans multiple paragraphs with different alignment styles, the <b
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

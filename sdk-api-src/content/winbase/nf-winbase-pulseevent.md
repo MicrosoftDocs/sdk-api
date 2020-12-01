@@ -69,26 +69,26 @@ Sets the specified event object to the signaled state and then resets it to the 
 ### -param hEvent [in]
 
 A handle to the event object. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a> function returns this handle. 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> or 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a> function returns this handle. 
 
 
 
 
 The handle must have the EVENT_MODIFY_STATE access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
+<a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 A thread waiting on a synchronization object can be momentarily removed from the wait state  by a kernel-mode APC, and then returned to the wait state after the APC is complete.  If the call to  <b>PulseEvent</b> occurs during the time when the thread has been   removed from the wait state, the thread will not be released  because  <b>PulseEvent</b> releases only those threads that are waiting at the moment it is called.  Therefore,  <b>PulseEvent</b> is unreliable and should  not be  used by new applications.
-Instead, use <a href="https://docs.microsoft.com/windows/desktop/Sync/condition-variables">condition variables</a>.
+Instead, use <a href="/windows/desktop/Sync/condition-variables">condition variables</a>.
 
 For a manual-reset event object, all waiting threads that can be released immediately are released. The function then resets the event object's state to nonsignaled and returns.
 
@@ -98,32 +98,31 @@ If no threads are waiting, or if no thread can be released immediately,
 <b>PulseEvent</b> simply sets the event object's state to nonsignaled and returns.
 
 Note that for a thread using the multiple-object 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/wait-functions">wait functions</a> to wait for all specified objects to be signaled, 
+<a href="/windows/desktop/Sync/wait-functions">wait functions</a> to wait for all specified objects to be signaled, 
 <b>PulseEvent</b> can set the event object's state to signaled and reset it to nonsignaled without causing the wait function to return. This happens if not all of the specified objects are simultaneously signaled.
 
 Use extreme caution when using  [SignalObjectAndWait](/win32/api/synchapi/nf-synchapi-signalobjectandwait)  and <b>PulseEvent</b> with Windows 7, since using these APIs among multiple threads can cause an application to deadlock. Threads that are signaled by <b>SignalObjectAndWait</b>  call <b>PulseEvent</b> to signal the waiting object of the <b>SignalObjectAndWait</b> call. In some circumstances, the caller of <b>SignalObjectAndWait</b> can't receive signal state of the waiting object in time, causing a deadlock.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/event-objects">Event Objects</a>
+<a href="/windows/desktop/Sync/event-objects">Event Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-openeventa">OpenEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-resetevent">ResetEvent</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-resetevent">ResetEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-setevent">SetEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

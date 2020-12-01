@@ -60,7 +60,7 @@ Specifies the number of text selections in <i>pSelection</i>.
 
 ### -param pSelection [in]
 
-Specifies the style, start, and end character positions of the text selected through the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_acp">TS_SELECTION_ACP</a> structure.
+Specifies the style, start, and end character positions of the text selected through the <a href="/windows/desktop/api/textstor/ns-textstor-ts_selection_acp">TS_SELECTION_ACP</a> structure.
 
 When the start and end character positions are equal, the method places a caret at that character position. There can be only one caret at a time in the document.
 
@@ -121,15 +121,14 @@ The caller does not have a read/write lock.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getselection">ITextStoreACP::GetSelection
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getselection">ITextStoreACP::GetSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/ns-textstor-ts_selection_acp">TS_SELECTION_ACP
+<a href="/windows/desktop/api/textstor/ns-textstor-ts_selection_acp">TS_SELECTION_ACP
       </a>
-

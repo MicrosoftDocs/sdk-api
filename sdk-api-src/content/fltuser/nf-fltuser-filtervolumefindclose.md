@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>FilterVolumeFindClose</b> function closes the specified volume search handle. <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindfirst">FilterVolumeFindFirst</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindnext">FilterVolumeFindNext</a> use this search handle to locate volumes.
+The <b>FilterVolumeFindClose</b> function closes the specified volume search handle. <a href="/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindfirst">FilterVolumeFindFirst</a> and <a href="/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindnext">FilterVolumeFindNext</a> use this search handle to locate volumes.
 
 ## -parameters
 
 ### -param hVolumeFind [in]
 
-Volume search handle to close. This handle must have been previously opened by <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindfirst">FilterVolumeFindFirst</a>.
+Volume search handle to close. This handle must have been previously opened by <a href="/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindfirst">FilterVolumeFindFirst</a>.
 
 ## -returns
 
@@ -64,13 +64,12 @@ Volume search handle to close. This handle must have been previously opened by <
 
 ## -remarks
 
-After the <b>FilterVolumeFindClose</b> function is called, the handle specified by the <i>hVolumeFind</i> parameter cannot be used in subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindnext">FilterVolumeFindNext</a> or <b>FilterVolumeFindClose</b>.
+After the <b>FilterVolumeFindClose</b> function is called, the handle specified by the <i>hVolumeFind</i> parameter cannot be used in subsequent calls to <a href="/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindnext">FilterVolumeFindNext</a> or <b>FilterVolumeFindClose</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindfirst">FilterVolumeFindFirst</a>
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindfirst">FilterVolumeFindFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindnext">FilterVolumeFindNext</a>
-
+<a href="/windows/desktop/api/fltuser/nf-fltuser-filtervolumefindnext">FilterVolumeFindNext</a>

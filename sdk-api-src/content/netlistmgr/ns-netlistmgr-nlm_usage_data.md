@@ -68,9 +68,8 @@ If usage is not supplied, <b>UsageInMegabytes</b> is set to <b>NLM_UNKNOWN_DATAP
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkcostmanager-getdataplanstatus">INetworkCostManager::GetDataPlanStatus</a>
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworkcostmanager-getdataplanstatus">INetworkCostManager::GetDataPlanStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_dataplan_status">NLM_DATAPLAN_STATUS</a>
-
+<a href="/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_dataplan_status">NLM_DATAPLAN_STATUS</a>

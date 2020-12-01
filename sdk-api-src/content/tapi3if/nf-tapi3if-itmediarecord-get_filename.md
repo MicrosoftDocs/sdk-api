@@ -58,7 +58,7 @@ The
 ### -param pbstrFileName [out]
 
 The <b>BSTR</b> representation of the file name. The <b>BSTR</b> is allocated using 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>. The <b>BSTR</b> argument should be deallocated by the client.
 
 ## -returns
 
@@ -66,9 +66,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itmediarecord">ITMediaRecord</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itmediarecord">ITMediaRecord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itmediarecord-put_filename">put_FileName</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itmediarecord-put_filename">put_FileName</a>

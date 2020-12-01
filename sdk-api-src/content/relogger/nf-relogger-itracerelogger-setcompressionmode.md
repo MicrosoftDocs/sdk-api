@@ -79,5 +79,4 @@ Compressed trace files can only be decoded in Windows 8 or Windows Server 2012
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
-
+<a href="/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>

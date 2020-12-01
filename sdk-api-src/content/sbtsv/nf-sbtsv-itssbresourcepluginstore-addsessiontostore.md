@@ -57,7 +57,7 @@ Adds a new session to the resource plug-in store. Call this method when a user h
 
 ### -param pSession [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a> session object. The target name, user name, domain name, and session ID are required fields.
+A pointer to an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a> session object. The target name, user name, domain name, and session ID are required fields.
 
 ## -returns
 
@@ -65,13 +65,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbresourcepluginstoreex">ITsSbResourcePluginStoreEx</a>
+<a href="/windows/desktop/TermServ/itssbresourcepluginstoreex">ITsSbResourcePluginStoreEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>

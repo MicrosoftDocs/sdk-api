@@ -61,7 +61,7 @@ Locale identifier that specifies the default language.
 
 ### -param subpictureExtension [in]
 
-[DVD_SUBPICTURE_LANG_EXT](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_lang_ext) enumeration that specifies the default subpicture extension.
+[DVD_SUBPICTURE_LANG_EXT](/windows/desktop/api/strmif/ne-strmif-dvd_subpicture_lang_ext) enumeration that specifies the default subpicture extension.
 
 ## -returns
 
@@ -101,7 +101,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter is not in a valid domain.
+The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter is not in a valid domain.
 
 </td>
 </tr>
@@ -128,13 +128,12 @@ The following table shows the Annex J command name to which this method name cor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>

@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
  - GetCurrentUmsThread
+req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 ---
 
 # GetCurrentUmsThread function
@@ -59,9 +60,8 @@ Returns the user-mode scheduling (UMS) thread context of the calling UMS thread.
 
 The function returns a pointer to the UMS thread context of the calling thread.
 
-If calling thread is not a UMS thread, the function returns NULL. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If calling thread is not a UMS thread, the function returns NULL. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The <b>GetCurrentUmsThread</b> function can be called for a UMS scheduler thread or UMS worker thread.
-

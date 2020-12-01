@@ -55,7 +55,7 @@ api_name:
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -67,41 +67,40 @@ The <b>DRMDeleteLicense</b> function deletes a license, client licensor certific
 
 A handle to a license storage session or client session. You can use a  storage session handle to delete end-user licenses and revocation lists. You can use a client session handle to delete end-user licenses, rights account certificates,  client licensor certificates, and issuance license templates.
 
-You can retrieve a handle to a license storage session by using   the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreatelicensestoragesession">DRMCreateLicenseStorageSession</a> function. You can retrieve a handle to a client session by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateclientsession">DRMCreateClientSession</a> function.
+You can retrieve a handle to a license storage session by using   the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreatelicensestoragesession">DRMCreateLicenseStorageSession</a> function. You can retrieve a handle to a client session by using the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateclientsession">DRMCreateClientSession</a> function.
 
 ### -param wszLicenseId [in]
 
-A pointer to a null-terminated string that contains the ID of the license or template to be deleted. The license ID can be found inside the <b>ID</b> element of the license XrML, by querying using the license querying functions and the <b>g_wszQUERY_CONTENTIDVALUE</b> constant. The template ID is a GUID. You can enumerate the GUIDs by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a> function.
+A pointer to a null-terminated string that contains the ID of the license or template to be deleted. The license ID can be found inside the <b>ID</b> element of the license XrML, by querying using the license querying functions and the <b>g_wszQUERY_CONTENTIDVALUE</b> constant. The template ID is a GUID. You can enumerate the GUIDs by calling the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a> function.
 
 ## -returns
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 The AD RMS system does not check to determine whether out of date licenses or revocation lists are stored in the license store, even when acquiring a new license or revocation list for content already owned. Therefore, it is important to occasionally delete  licenses or certificates. This can be a time-consuming process, so it might be best to perform this action occasionally or during program idle time.
 
-If you delete an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/e-gly">end-user license</a>, this function will not automatically delete associated revocation lists.
+If you delete an <a href="/previous-versions/windows/desktop/adrms_sdk/e-gly">end-user license</a>, this function will not automatically delete associated revocation lists.
 
 If you delete a license by using the content  ID, the <i>hSession</i> parameter must be the handle of a client session.
 
-License and certificate IDs can be enumerated by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a>. If you already have the license or certificate you want to delete from the license store, you can query it for its ID (by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmparseunboundlicense">DRMParseUnboundLicense</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetunboundlicenseattribute">DRMGetUnboundLicenseAttribute</a> functions with the <b>g_wszQUERY_IDVALUE</b> constant) and pass the value into this function.
+License and certificate IDs can be enumerated by using <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a>. If you already have the license or certificate you want to delete from the license store, you can query it for its ID (by using the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmparseunboundlicense">DRMParseUnboundLicense</a> and <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetunboundlicenseattribute">DRMGetUnboundLicenseAttribute</a> functions with the <b>g_wszQUERY_IDVALUE</b> constant) and pass the value into this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a>
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetunboundlicenseattribute">DRMGetUnboundLicenseAttribute</a>
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetunboundlicenseattribute">DRMGetUnboundLicenseAttribute</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmparseunboundlicense">DRMParseUnboundLicense</a>
-
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmparseunboundlicense">DRMParseUnboundLicense</a>

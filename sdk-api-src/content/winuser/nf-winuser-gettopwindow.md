@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
  - GetTopWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetTopWindow function
@@ -69,7 +70,7 @@ A handle to the parent window whose child windows are to be examined. If this pa
 
 Type: <b>HWND</b>
 
-If the function succeeds, the return value is a handle to the child window at the top of the Z order. If the specified window has no child windows, the return value is <b>NULL</b>. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function succeeds, the return value is a handle to the child window at the top of the Z order. If the specified window has no child windows, the return value is <b>NULL</b>. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -see-also
 
@@ -77,11 +78,11 @@ If the function succeeds, the return value is a handle to the child window at th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getnextwindow">GetNextWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getnextwindow">GetNextWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
 
 
 
@@ -89,5 +90,4 @@ If the function succeeds, the return value is a handle to the child window at th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

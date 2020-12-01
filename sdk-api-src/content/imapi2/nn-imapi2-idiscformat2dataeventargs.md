@@ -52,11 +52,11 @@ api_name:
 
 Use this interface to retrieve information about the current write operation. 
 
-This interface is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2dataevents-update">DDiscFormat2DataEvents::Update</a> method that you implement.
+This interface is passed to the <a href="/windows/desktop/api/imapi2/nf-imapi2-ddiscformat2dataevents-update">DDiscFormat2DataEvents::Update</a> method that you implement.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2DataEventArgs</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>. <b>IDiscFormat2DataEventArgs</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiscFormat2DataEventArgs</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>. <b>IDiscFormat2DataEventArgs</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDiscFormat2DataEventArgs</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_currentaction">get_CurrentAction</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_currentaction">get_CurrentAction</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current write action being performed.
@@ -80,7 +80,7 @@ Retrieves the current write action being performed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_elapsedtime">get_ElapsedTime</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_elapsedtime">get_ElapsedTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total elapsed time of the write operation.
@@ -89,7 +89,7 @@ Retrieves the total elapsed time of the write operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_remainingtime">get_RemainingTime</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_remainingtime">get_RemainingTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the estimated remaining time of the write operation.
@@ -98,7 +98,7 @@ Retrieves the estimated remaining time of the write operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_totaltime">get_TotalTime</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2dataeventargs-get_totaltime">get_TotalTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the estimated total time for write operation.
@@ -109,13 +109,12 @@ Retrieves the estimated total time for write operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2dataevents">DDiscFormat2DataEvents</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2dataevents">DDiscFormat2DataEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IBDA_EthernetFilter</b> interface is implemented on a Network Provider. The methods are called by the BDA IPSink filter in order to give the Network Provider a list of multicast Ethernet addresses being requested by an application. The Network Provider then informs all registered transport information filters (TIFs) of the new addresses. The TIF(s) are responsible for mapping those addresses to PIDs and passing the PIDs back to the Network Provider, which then resets the PID list for the IP data output pin on the MPEG-2 Demultiplexer. This causes the IP data on the specified PIDs to be routed through the data services segment of the graph and on to Winsock where the listening application can receive it. The <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_ipv4filter">IBDA_IPV4Filter</a> interface performs the same function for IPv4 multicast addresses.
+The <b>IBDA_EthernetFilter</b> interface is implemented on a Network Provider. The methods are called by the BDA IPSink filter in order to give the Network Provider a list of multicast Ethernet addresses being requested by an application. The Network Provider then informs all registered transport information filters (TIFs) of the new addresses. The TIF(s) are responsible for mapping those addresses to PIDs and passing the PIDs back to the Network Provider, which then resets the PID list for the IP data output pin on the MPEG-2 Demultiplexer. This causes the IP data on the specified PIDs to be routed through the data services segment of the graph and on to Winsock where the listening application can receive it. The <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_ipv4filter">IBDA_IPV4Filter</a> interface performs the same function for IPv4 multicast addresses.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_EthernetFilter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_EthernetFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_EthernetFilter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_EthernetFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBDA_EthernetFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ethernetfilter-getmulticastlist">GetMulticastList</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ethernetfilter-getmulticastlist">GetMulticastList</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list of multicast addresses stored by the Network Provider.
@@ -78,7 +78,7 @@ Retrieves the list of multicast addresses stored by the Network Provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ethernetfilter-getmulticastlistsize">GetMulticastListSize</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ethernetfilter-getmulticastlistsize">GetMulticastListSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of addresses currently in the list.
@@ -87,7 +87,7 @@ Retrieves the number of addresses currently in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ethernetfilter-getmulticastmode">GetMulticastMode</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ethernetfilter-getmulticastmode">GetMulticastMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the multicast mode.
@@ -96,7 +96,7 @@ Retrieves the multicast mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ethernetfilter-putmulticastlist">PutMulticastList</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ethernetfilter-putmulticastlist">PutMulticastList</a>
 </td>
 <td align="left" width="63%">
 Specifies the list of multicast addresses on the Network Provider.
@@ -105,7 +105,7 @@ Specifies the list of multicast addresses on the Network Provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ethernetfilter-putmulticastmode">PutMulticastMode</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_ethernetfilter-putmulticastmode">PutMulticastMode</a>
 </td>
 <td align="left" width="63%">
 Specifies the multicast mode.
@@ -120,5 +120,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

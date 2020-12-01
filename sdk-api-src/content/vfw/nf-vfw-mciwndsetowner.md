@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndSetOwner</b> macro sets the window to receive notification messages associated with the MCIWnd window. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-setowner">MCIWNDM_SETOWNER</a> message.
+The <b>MCIWndSetOwner</b> macro sets the window to receive notification messages associated with the MCIWnd window. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-setowner">MCIWNDM_SETOWNER</a> message.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ Handle of the MCIWnd window.
 ### -param hwndP
 
 Handle of the window to receive the notification messages.
-

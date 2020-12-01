@@ -54,7 +54,7 @@ Describes how a managed object is used in the COM+ object pool.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IManagedPooledObj</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IManagedPooledObj</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IManagedPooledObj</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IManagedPooledObj</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IManagedPooledObj</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-imanagedpooledobj-setheld">SetHeld</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-imanagedpooledobj-setheld">SetHeld</a>
 </td>
 <td align="left" width="63%">
 Sets whether the managed object should go back into the COM+ object pool.
@@ -80,9 +80,8 @@ Sets whether the managed object should go back into the COM+ object pool.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--object-pooling">COM+ Object Pooling</a>
+<a href="/windows/desktop/cossdk/com--object-pooling">COM+ Object Pooling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imanagedpoolaction">IManagedPoolAction</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imanagedpoolaction">IManagedPoolAction</a>

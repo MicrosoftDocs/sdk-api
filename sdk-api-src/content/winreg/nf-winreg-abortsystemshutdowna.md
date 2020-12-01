@@ -71,20 +71,20 @@ The network name of the computer where the shutdown is to be stopped. If <i>lpMa
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdowna">InitiateSystemShutdown</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdownexa">InitiateSystemShutdownEx</a> functions display a dialog box that notifies the user that the system is shutting down. During the shutdown time-out period, the 
+<a href="/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdowna">InitiateSystemShutdown</a> and 
+<a href="/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdownexa">InitiateSystemShutdownEx</a> functions display a dialog box that notifies the user that the system is shutting down. During the shutdown time-out period, the 
 <b>AbortSystemShutdown</b> function can prevent the system from shutting down.
 
 <b>Windows Server 2003 and Windows XP with SP1:  </b>If the computer to be shut down is a Terminal Services server, the system displays a dialog box to all local and remote users warning them that shutdown has been initiated. If shutdown is prevented by 
 <b>AbortSystemShutdown</b>, the system displays dialog box to the users informing them that the server is no longer shutting down.
 
 To stop the local computer from shutting down, the calling process must have the SE_SHUTDOWN_NAME privilege. To stop a remote computer from shutting down, the calling process must have the SE_REMOTE_SHUTDOWN_NAME privilege on the remote computer. By default, users can enable the SE_SHUTDOWN_NAME privilege on the computer they are logged onto, and administrators can enable the SE_REMOTE_SHUTDOWN_NAME privilege on remote computers. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
+<a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 Common reasons for failure include an invalid computer name, an inaccessible computer, or insufficient privilege.
 
@@ -92,7 +92,7 @@ Common reasons for failure include an invalid computer name, an inaccessible com
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/displaying-the-shutdown-dialog-box">Displaying the Shutdown Dialog Box</a>.
+<a href="/windows/desktop/Shutdown/displaying-the-shutdown-dialog-box">Displaying the Shutdown Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -104,14 +104,13 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdowna">InitiateSystemShutdown</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-initiatesystemshutdowna">InitiateSystemShutdown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
+<a href="/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown
+<a href="/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown
     Functions</a>
-

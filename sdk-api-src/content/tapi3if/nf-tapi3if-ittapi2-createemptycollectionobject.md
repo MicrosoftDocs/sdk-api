@@ -52,10 +52,10 @@ api_name:
 
 The 
 <b>CreateEmptyCollectionObject</b> method creates an empty collection object. The collection can be filled with 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdetecttone">ITDetectTone</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a> objects for use with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-detecttonesbycollection">DetectTonesByCollection</a> method or the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">GenerateCustomTonesByCollection</a> method, respectively.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdetecttone">ITDetectTone</a> or 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a> objects for use with the 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-detecttonesbycollection">DetectTonesByCollection</a> method or the 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-generatecustomtonesbycollection">GenerateCustomTonesByCollection</a> method, respectively.
 
 This method is intended for Visual Basic and scripting applications.
 
@@ -64,7 +64,7 @@ This method is intended for Visual Basic and scripting applications.
 ### -param ppCollection [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a> interface on the new collection object.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a> interface on the new collection object.
 
 ## -returns
 
@@ -112,17 +112,16 @@ There is not enough memory to allocate the object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcustomtone">ITCustomTone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itdetecttone">ITDetectTone</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdetecttone">ITDetectTone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2">ITTAPI2</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2">ITTAPI2</a>

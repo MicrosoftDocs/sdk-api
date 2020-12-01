@@ -112,14 +112,14 @@ This flag is not supported.
 If the function succeeds, the return value is <b>NERR_Success</b>.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+      <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
 The DFS namespace must already exist. This function does not create a new DFS namespace.
 
 The caller must have Administrator privilege on the DFS server. For more information about calling functions that require administrator privileges, see 
-    <a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
+    <a href="/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.
 
 Use of the <b>DFS_ADD_VOLUME</b> flag is optional. If you specify 
     <b>DFS_ADD_VOLUME</b> and the link already exists, <b>NetDfsAdd</b> 
@@ -179,30 +179,29 @@ void wmain(int argc, wchar_t *argv[ ])
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System 
+<a href="/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System 
     (DFS) Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddftroot">NetDfsAddFtRoot</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddftroot">NetDfsAddFtRoot</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddstdroot">NetDfsAddStdRoot</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddstdroot">NetDfsAddStdRoot</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum">NetDfsEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsremove">NetDfsRemove</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsremove">NetDfsRemove</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network Management Functions</a>
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
-
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Used by an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch">IEnumExtraSearch</a> enumerator object to return information on the search objects supported by a Shell Folder object.
+Used by an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumextrasearch">IEnumExtraSearch</a> enumerator object to return information on the search objects supported by a Shell Folder object.
 
 ## -struct-fields
 
@@ -73,4 +73,3 @@ A Unicode string containing the search object's friendly name. It will be used t
 Type: <b>WCHAR[2084]</b>
 
 The URL that will be displayed in the search pane.
-

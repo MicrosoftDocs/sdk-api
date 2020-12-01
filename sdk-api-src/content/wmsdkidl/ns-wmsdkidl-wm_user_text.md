@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>WM_USER_TEXT</b> structure is used as the data item for the <a href="https://docs.microsoft.com/windows/desktop/wmformat/wm-text">WM/Text</a> complex metadata attribute.
+The <b>WM_USER_TEXT</b> structure is used as the data item for the <a href="/windows/desktop/wmformat/wm-text">WM/Text</a> complex metadata attribute.
 
 ## -struct-fields
 
@@ -66,5 +66,4 @@ Pointer to a wide-character null-terminated string containing the text.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

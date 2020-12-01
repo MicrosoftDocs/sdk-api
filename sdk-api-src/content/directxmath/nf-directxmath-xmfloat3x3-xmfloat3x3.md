@@ -52,7 +52,7 @@ api_name:
 
 Default constructor for <code>XMFLOAT3X3</code>
 
-Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>
+Default constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>
 
 <div class="alert"><b>Note</b>  This is only available for C++ based development.
     </div><div> </div>
@@ -70,9 +70,8 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat3x3-ctor">XMFLOAT3X3 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmfloat3x3-ctor">XMFLOAT3X3 Constructors</a>

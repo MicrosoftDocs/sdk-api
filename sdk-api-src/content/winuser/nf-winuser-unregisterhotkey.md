@@ -80,7 +80,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
@@ -88,7 +88,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
@@ -96,9 +96,8 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerhotkey">RegisterHotKey</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerhotkey">RegisterHotKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a>
-
+<a href="/windows/desktop/inputdev/wm-hotkey">WM_HOTKEY</a>

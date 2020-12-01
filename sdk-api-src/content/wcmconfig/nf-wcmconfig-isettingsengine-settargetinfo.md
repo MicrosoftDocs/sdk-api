@@ -56,7 +56,7 @@ Sets the current offline target for the engine.
 
 ### -param Target [in]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a> value that specifies the target.
+An <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a> value that specifies the target.
 
 ## -returns
 
@@ -64,5 +64,4 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>

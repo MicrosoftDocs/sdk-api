@@ -62,21 +62,21 @@ A handle to the item's parent window, which receives error notifications. This v
 
 ### -param psi [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object that represents the item.
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object that represents the item.
 
 ### -param dwFileOpFlags
 
 Type: <b>DWORD</b>
 
-Flags that customize the operation. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-setoperationflags">IFileOperation::SetOperationFlags</a> for flag values.
+Flags that customize the operation. See <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-setoperationflags">IFileOperation::SetOperationFlags</a> for flag values.
 
 ### -param pfops [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperationprogresssink">IFileOperationProgressSink</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperationprogresssink">IFileOperationProgressSink</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperationprogresssink">IFileOperationProgressSink</a> object used to follow the progress of the operation. See <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-advise">IFileOperation::Advise</a> for details. This value can be <b>NULL</b>.
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperationprogresssink">IFileOperationProgressSink</a> object used to follow the progress of the operation. See <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-advise">IFileOperation::Advise</a> for details. This value can be <b>NULL</b>.
 
 ## -returns
 
@@ -86,5 +86,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-The list of properties to set a default value comes from the <b>SetDefaultsFor</b> registry entry under the ProgID for the file association of the item. The list is prefixed by "<code>prop:</code>" and contains the canonical names of the properties to set the default value, for example, "<code>prop:System.Author;System.Document.DateCreated</code>". The possible properties for this list are <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-author">System.Author</a>, <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-document-datecreated">System.Document.DateCreated</a>, and <a href="https://docs.microsoft.com/windows/desktop/properties/props-system-photo-datetaken">System.Photo.DateTaken</a>. If the <b>SetDefaultsFor</b> entry does not exist on the ProgID, this function uses the default found on the <b>SetDefaultsFor</b> entry of <b>HKEY_CLASSES_ROOT</b>&#92;<b>*</b>.
-
+The list of properties to set a default value comes from the <b>SetDefaultsFor</b> registry entry under the ProgID for the file association of the item. The list is prefixed by "<code>prop:</code>" and contains the canonical names of the properties to set the default value, for example, "<code>prop:System.Author;System.Document.DateCreated</code>". The possible properties for this list are <a href="/windows/desktop/properties/props-system-author">System.Author</a>, <a href="/windows/desktop/properties/props-system-document-datecreated">System.Document.DateCreated</a>, and <a href="/windows/desktop/properties/props-system-photo-datetaken">System.Photo.DateTaken</a>. If the <b>SetDefaultsFor</b> entry does not exist on the ProgID, this function uses the default found on the <b>SetDefaultsFor</b> entry of <b>HKEY_CLASSES_ROOT</b>&#92;<b>*</b>.

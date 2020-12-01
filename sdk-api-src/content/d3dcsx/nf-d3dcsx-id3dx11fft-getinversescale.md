@@ -57,11 +57,10 @@ Get the scale for inverse transforms.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 Scale for inverse transforms.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/nn-d3dcsx-id3dx11fft">ID3DX11FFT</a>
-
+<a href="/windows/desktop/api/d3dcsx/nn-d3dcsx-id3dx11fft">ID3DX11FFT</a>

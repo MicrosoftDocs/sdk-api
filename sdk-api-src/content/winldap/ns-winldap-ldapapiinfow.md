@@ -60,7 +60,7 @@ The <b>LDAPAPIInfo</b> structure retrieves data about the API and implementation
 
 ### -field ldapai_info_version
 
-The version of this structure, which must be set to <b>LDAP_API_INFO_VERSION</b> before a call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>.
+The version of this structure, which must be set to <b>LDAP_API_INFO_VERSION</b> before a call to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>.
 
 ### -field ldapai_api_version
 
@@ -84,7 +84,7 @@ The API vendor version number. This implementation returns an integer value in t
 
 ## -remarks
 
-A pointer to this structure is passed with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/session-options">LDAP_OPT_API_INFO</a> session option, to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>, to retrieve data about this LDAP API library.  The data returned includes a list of any API extensions supported by the implementation. When the structure data is no longer required, the caller must free the individual strings and string arrays returned in this structure by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a> functions.
+A pointer to this structure is passed with the <a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">LDAP_OPT_API_INFO</a> session option, to <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>, to retrieve data about this LDAP API library.  The data returned includes a list of any API extensions supported by the implementation. When the structure data is no longer required, the caller must free the individual strings and string arrays returned in this structure by using the <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a> and <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a> functions.
 
 
 
@@ -95,17 +95,16 @@ A pointer to this structure is passed with the <a href="https://docs.microsoft.c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
+<a href="/previous-versions/previous-versions/windows/desktop/ldap/session-options">Session Options</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>

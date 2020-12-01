@@ -54,7 +54,7 @@ Exposes methods that act on and retrieve information from a single sync item, al
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrSyncItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrSyncItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncMgrSyncItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncMgrSyncItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncMgrSyncItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-delete">Delete</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes a sync item.
@@ -78,7 +78,7 @@ Deletes a sync item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-enable">Enable</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-enable">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables the sync item.
@@ -87,7 +87,7 @@ Enables or disables the sync item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets a set of flags describing the item's defined capabilities.
@@ -96,7 +96,7 @@ Gets a set of flags describing the item's defined capabilities.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getitemid">GetItemID</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getitemid">GetItemID</a>
 </td>
 <td align="left" width="63%">
 Gets the unique ID of a sync item.
@@ -105,7 +105,7 @@ Gets the unique ID of a sync item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getiteminfo">GetItemInfo</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getiteminfo">GetItemInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the properties of a sync item.
@@ -114,7 +114,7 @@ Gets the properties of a sync item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getname">GetName</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets the UI display name of the sync item.
@@ -123,7 +123,7 @@ Gets the UI display name of the sync item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">GetObject</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Creates a specific type of object related to the item.
@@ -132,7 +132,7 @@ Creates a specific type of object related to the item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getpolicies">GetPolicies</a>
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getpolicies">GetPolicies</a>
 </td>
 <td align="left" width="63%">
 Gets a set of flags describing the policies set by the item.
@@ -146,4 +146,3 @@ Gets a set of flags describing the policies set by the item.
 A sync item typically represents a group of data, for example, a folder that contains several files. By representing this sync item as an interface, the item can be easily managed and implemented as an object. That object maintains the state of the item when the item is accessed.
 
 Representing a sync item as <b>ISyncMgrSyncItem</b> also allows support for a sync item that contains other sync items.
-

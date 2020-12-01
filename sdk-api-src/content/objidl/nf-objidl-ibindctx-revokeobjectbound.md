@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Removes the object from the bind context, undoing a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectbound">RegisterObjectBound</a>.
+Removes the object from the bind context, undoing a previous call to <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectbound">RegisterObjectBound</a>.
 
 ## -parameters
 
 ### -param punk [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/com/iunknown-and-interface-inheritance">IUnknown</a> interface on the object to be removed.
+A pointer to the <a href="/windows/desktop/com/iunknown-and-interface-inheritance">IUnknown</a> interface on the object to be removed.
 
 ## -returns
 
@@ -97,5 +97,4 @@ You would rarely call this method. It is documented primarily for completeness.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>

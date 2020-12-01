@@ -75,9 +75,8 @@ A pointer variable that receives the upper boundary of the current thread stack.
          limits.
 
 
-To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0602. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0602. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>
-
+<a href="/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>

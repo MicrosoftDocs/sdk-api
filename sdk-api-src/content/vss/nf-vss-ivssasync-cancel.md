@@ -60,7 +60,7 @@ The
 
 All calls to 
 <b>Cancel</b> for all 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> objects support the following status codes.
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> objects support the following status codes.
 
 <table>
 <tr>
@@ -108,7 +108,7 @@ The asynchronous operation had completed prior to calling this method.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -122,13 +122,12 @@ If an operation has completed unsuccessfully before
 <b>Cancel</b> returns the error that operation encountered.
 
 To obtain a complete list of return values for a specific <b>IVssAsync::Cancel</b>, see the error codes of the method that returned the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object.
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
-
+<a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>

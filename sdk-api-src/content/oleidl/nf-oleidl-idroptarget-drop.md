@@ -56,7 +56,7 @@ Incorporates the source data into the target window, removes target feedback, an
 
 ### -param pDataObj [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object being transferred in the drag-and-drop operation.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object being transferred in the drag-and-drop operation.
 
 ### -param grfKeyState [in]
 
@@ -64,11 +64,11 @@ The current state of the keyboard modifier keys on the keyboard. Possible values
 
 ### -param pt [in]
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
+A <a href="/previous-versions/dd162807(v=vs.85)">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
 
 ### -param pdwEffect [in, out]
 
-On input, pointer to the value of the <i>pdwEffect</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function. On return, must contain one of the <a href="https://docs.microsoft.com/windows/desktop/com/dropeffect-constants">DROPEFFECT</a> flags, which indicates what the result of the drop operation would be.
+On input, pointer to the value of the <i>pdwEffect</i> parameter of the <a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function. On return, must contain one of the <a href="/windows/desktop/com/dropeffect-constants">DROPEFFECT</a> flags, which indicates what the result of the drop operation would be.
 
 ## -returns
 
@@ -116,17 +116,17 @@ There is insufficient memory available for this operation.
 
 ## -remarks
 
-You do not call this method directly. The <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls this method when the user completes the drag-and-drop operation.
+You do not call this method directly. The <a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> function calls this method when the user completes the drag-and-drop operation.
 
-In implementing <b>Drop</b>, you must incorporate the data object into the target. Use the formats available in <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>, available through <i>pDataObj</i>, along with the current state of the modifier keys to determine how the data is to be incorporated, such as linking or embedding.
+In implementing <b>Drop</b>, you must incorporate the data object into the target. Use the formats available in <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>, available through <i>pDataObj</i>, along with the current state of the modifier keys to determine how the data is to be incorporated, such as linking or embedding.
 
-In addition to incorporating the data, you must also clean up as you do in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a> method:
+In addition to incorporating the data, you must also clean up as you do in the <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragleave">IDropTarget::DragLeave</a> method:
 
 <ul>
 <li>Remove any target feedback that is currently displayed.</li>
 <li>Release any references to the data object.</li>
 </ul>
-You also pass the effect of this operation back to the source application through <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>, so the source application can clean up after the drag-and-drop operation is complete:
+You also pass the effect of this operation back to the source application through <a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>, so the source application can clean up after the drag-and-drop operation is complete:
 
 <ul>
 <li>Remove any source feedback that is being displayed.</li>
@@ -135,25 +135,24 @@ You also pass the effect of this operation back to the source application throug
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>

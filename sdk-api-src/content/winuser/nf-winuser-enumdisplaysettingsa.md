@@ -49,6 +49,7 @@ api_name:
  - EnumDisplaySettings
  - EnumDisplaySettingsA
  - EnumDisplaySettingsW
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-0 (introduced in Windows 8)
 ---
 
 # EnumDisplaySettingsA function
@@ -57,7 +58,7 @@ api_name:
 ## -description
 
 The <b>EnumDisplaySettings</b> function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes of a display device, make a series of calls to this function.
-<div class="alert"><b>Note</b>  Apps that you design to target Windows 8 and later can no longer query or set display modes that are less than 32 bits per pixel (bpp); these operations will fail. These apps have a <a href="https://docs.microsoft.com/windows/desktop/Win7AppQual/compatibility---application-manifest">compatibility manifest</a> that targets Windows 8. Windows 8 still supports 8-bit and 16-bit color modes for desktop apps that were built without a Windows 8 manifest; Windows 8 emulates these modes but still runs in 32-bit color mode.</div><div> </div>
+<div class="alert"><b>Note</b>  Apps that you design to target Windows 8 and later can no longer query or set display modes that are less than 32 bits per pixel (bpp); these operations will fail. These apps have a <a href="/windows/desktop/Win7AppQual/compatibility---application-manifest">compatibility manifest</a> that targets Windows 8. Windows 8 still supports 8-bit and 16-bit color modes for desktop apps that were built without a Windows 8 manifest; Windows 8 emulates these modes but still runs in 32-bit color mode.</div><div> </div>
 
 ## -parameters
 
@@ -65,7 +66,7 @@ The <b>EnumDisplaySettings</b> function retrieves information about one of the g
 
 A pointer to a null-terminated string that specifies the display device about whose graphics mode the function will obtain information.
 
-This parameter is either <b>NULL</b> or a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-display_devicea">DISPLAY_DEVICE</a>.<b>DeviceName</b> returned from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>. A <b>NULL</b> value specifies the current display device on the computer on which the calling thread is running.
+This parameter is either <b>NULL</b> or a <a href="/windows/desktop/api/wingdi/ns-wingdi-display_devicea">DISPLAY_DEVICE</a>.<b>DeviceName</b> returned from <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>. A <b>NULL</b> value specifies the current display device on the computer on which the calling thread is running.
 
 ### -param iModeNum [in]
 
@@ -139,19 +140,19 @@ This API does not participate in DPI virtualization. The output given is always 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsexa">ChangeDisplaySettingsEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsexa">ChangeDisplaySettingsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>
 
 
 
@@ -159,17 +160,16 @@ This API does not participate in DPI virtualization. The output given is always 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-display_devicea">DISPLAY_DEVICE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-display_devicea">DISPLAY_DEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>

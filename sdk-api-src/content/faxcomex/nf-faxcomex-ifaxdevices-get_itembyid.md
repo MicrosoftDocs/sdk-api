@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IFaxDevices::get_ItemById</b> method returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> collection, using its device ID.
+The <b>IFaxDevices::get_ItemById</b> method returns a <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object from the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> collection, using its device ID.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ The unique ID of the device to retrieve.
 
 Type: <b>ppFaxDevice**</b>
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object.
+A <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevice">FaxDevice</a> object.
 
 ## -returns
 
@@ -74,17 +74,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-To retrieve an item from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> collection using the device's index, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices-item">Item</a> property.
+To retrieve an item from the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a> collection using the device's index, call the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdevices-item">Item</a> property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdevices">FaxDevices</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdevices">IFaxDevices</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdevices">IFaxDevices</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-the-fax-device-collection">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-fax-device-collection">Visual Basic Example</a>

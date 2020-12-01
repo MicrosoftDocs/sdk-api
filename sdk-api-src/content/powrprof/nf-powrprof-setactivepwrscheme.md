@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[<b>SetActivePwrScheme</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Applications written for Windows Vista and later should use 
-<a href="https://docs.microsoft.com/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> instead.]
+<a href="/windows/desktop/api/powersetting/nf-powersetting-powersetactivescheme">PowerSetActiveScheme</a> instead.]
 
 Sets the active power scheme.
 
@@ -64,50 +64,49 @@ The index of the power scheme to be activated.
 ### -param pGlobalPowerPolicy [in, optional]
 
 A pointer to an optional 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a> structure, which provides global power policy settings to be merged with the power scheme when it becomes active.
+<a href="/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a> structure, which provides global power policy settings to be merged with the power scheme when it becomes active.
 
 ### -param pPowerPolicy [in, optional]
 
 A pointer to an optional 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a> structure, which provides power policy settings to be merged with the power scheme when it becomes active.
+<a href="/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a> structure, which provides power policy settings to be merged with the power scheme when it becomes active.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Use this function to make long-term changes to the system configuration. To temporarily keep the system running while an application is performing a task, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setthreadexecutionstate">SetThreadExecutionState</a> function.
+Use this function to make long-term changes to the system configuration. To temporarily keep the system running while an application is performing a task, use the <a href="/windows/desktop/api/winbase/nf-winbase-setthreadexecutionstate">SetThreadExecutionState</a> function.
 
 If the power scheme specified by <i>uiID</i> does not exist, the function returns zero.
 
 If <i>lpGlobalPowerPolicy</i> is <b>NULL</b>, the function uses the current global power policy settings set by 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-writeglobalpwrpolicy">WriteGlobalPwrPolicy</a>. Otherwise, the settings in the specified structure replace the current global power policy settings.
+<a href="/windows/desktop/api/powrprof/nf-powrprof-writeglobalpwrpolicy">WriteGlobalPwrPolicy</a>. Otherwise, the settings in the specified structure replace the current global power policy settings.
 
 If <i>lpPowerPolicy</i> is <b>NULL</b>, the function uses the current power policy settings for the power scheme. Otherwise, the settings in the specified structure replace the current power policy settings.
 
-For more information on using PowrProf.h, see <a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power Schemes</a>.
+For more information on using PowrProf.h, see <a href="/windows/desktop/Power/power-schemes">Power Schemes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a>
+<a href="/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-getactivepwrscheme">GetActivePwrScheme</a>
+<a href="/windows/desktop/api/powrprof/nf-powrprof-getactivepwrscheme">GetActivePwrScheme</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a>
+<a href="/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power Schemes</a>
-
+<a href="/windows/desktop/Power/power-schemes">Power Schemes</a>

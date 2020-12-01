@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the character index of the first character of a specified line in a multiline edit or rich edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/em-lineindex">EM_LINEINDEX</a> message explicitly.
+Gets the character index of the first character of a specified line in a multiline edit or rich edit control. You can use this macro or send the <a href="/windows/desktop/controls/em-lineindex">EM_LINEINDEX</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -65,4 +65,3 @@ A handle to the control.
 Type: <b>int</b>
 
 The zero-based line number. A value of –1 specifies the current line number (the line that contains the caret).
-

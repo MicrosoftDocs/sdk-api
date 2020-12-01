@@ -58,15 +58,15 @@ The
 ### -param RequestQueueHandle [in]
 
 A handle to the request queue from which the specified request was retrieved. A request queue is created and its handle returned by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
+<a href="/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
 
-<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
+<b>Windows Server 2003 with SP1 and Windows XP with SP2:  </b>The handle to the request queue is created by the <a href="/windows/desktop/api/http/nf-http-httpcreatehttphandle">HttpCreateHttpHandle</a> function.
 
 ### -param RequestId [in]
 
 An identifier of the HTTP request to which this response corresponds. This value is returned in the <b>RequestId</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a> function. It cannot be <b>HTTP_NULL_ID</b>.
+<a href="/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a> structure by a call to the 
+<a href="/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a> function. It cannot be <b>HTTP_NULL_ID</b>.
 
 ### -param Flags [in]
 
@@ -110,7 +110,7 @@ It should be used by an application doing synchronous I/O, or by a an applicatio
 
 Applications using asynchronous I/O which may have more than one send outstanding at a time should not use this flag.
 
-When this flag is set, it should be used consistently in calls to the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> function as well.
+When this flag is set, it should be used consistently in calls to the <a href="/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> function as well.
 
 <b>Windows Server 2003:  </b>This flag is not supported. This flag is new for Windows Server 2003 with SP1.
 
@@ -163,7 +163,7 @@ This flag is only allowed when the <b>StatusCode</b> member of <i>pHttpResponse<
 </table>
  
 
-<div class="alert"><b>Caution</b>  Combining both flags in a single call to the <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> function produces undefined results.</div>
+<div class="alert"><b>Caution</b>  Combining both flags in a single call to the <a href="/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> function produces undefined results.</div>
 <div> </div>
 
 ### -param EntityChunkCount [in]
@@ -173,7 +173,7 @@ A number of structures in the array pointed to by <i>pEntityChunks</i>. This cou
 ### -param EntityChunks [in]
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a> structures to be sent as entity-body data.
+<a href="/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a> structures to be sent as entity-body data.
 
 ### -param BytesSent [out]
 
@@ -192,15 +192,15 @@ This parameter is reserved and must be zero.
 ### -param Overlapped [in]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>.
 
 A synchronous call blocks until all response data specified in the <i>pEntityChunks</i> parameter is sent, whereas an asynchronous call immediately returns <b>ERROR_IO_PENDING</b> and the calling application then uses 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structures for synchronization, see <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structures for synchronization, see <a href="/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
 
 ### -param LogData [in, optional]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_log_data">HTTP_LOG_DATA</a> structure used to log the response. Pass a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_log_fields_data">HTTP_LOG_FIELDS_DATA</a> structure and cast it to <b>PHTTP_LOG_DATA</b>.
+A pointer to the <a href="/windows/desktop/api/http/ns-http-http_log_data">HTTP_LOG_DATA</a> structure used to log the response. Pass a pointer to the <a href="/windows/desktop/api/http/ns-http-http_log_fields_data">HTTP_LOG_FIELDS_DATA</a> structure and cast it to <b>PHTTP_LOG_DATA</b>.
 
 Be aware that even when logging is enabled on a URL Group, or server session, the response will not be logged unless the application supplies the log fields data structure.
 
@@ -239,7 +239,7 @@ One or more of the supplied parameters is in an unusable form.
 </dl>
 </td>
 <td width="60%">
-There is a call pending to <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> or <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a> having the same <b>RequestId</b>.
+There is a call pending to <a href="/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a> or <a href="/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a> having the same <b>RequestId</b>.
 
 </td>
 </tr>
@@ -250,7 +250,7 @@ There is a call pending to <a href="https://docs.microsoft.com/windows/desktop/a
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
+A <a href="/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 </td>
 </tr>
@@ -260,26 +260,25 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 
 If neither a Content-length header nor a Transfer-encoding header is included in the response headers, the application must indicate the end of the response by explicitly closing the connection using the <b>HTTP_SEND_RESPONSE_DISCONNECT</b> flag.
 
-<div class="alert"><b>Note</b>  <b>HttpSendResponseEntityBody</b> (or <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>) and <b>HttpSendResponseEntityBody</b> must not be called simultaneously from different threads on the same <i>RequestId</i>.</div>
+<div class="alert"><b>Note</b>  <b>HttpSendResponseEntityBody</b> (or <a href="/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>) and <b>HttpSendResponseEntityBody</b> must not be called simultaneously from different threads on the same <i>RequestId</i>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a>
+<a href="/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a>
+<a href="/windows/desktop/api/http/nf-http-httpreceivehttprequest">HttpReceiveHttpRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpreceiverequestentitybody">HttpReceiveRequestEntityBody</a>
+<a href="/windows/desktop/api/http/nf-http-httpreceiverequestentitybody">HttpReceiveRequestEntityBody</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>

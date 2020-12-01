@@ -119,7 +119,7 @@ Moves the pointer from the end of the file.
 
 ## -returns
 
-If the function succeeds, the return value specifies the new offset. Otherwise, the return value is HFILE_ERROR. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function succeeds, the return value specifies the new offset. Otherwise, the return value is HFILE_ERROR. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
@@ -127,5 +127,4 @@ When a file is initially opened, the file pointer is set to the beginning of the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfilepointer">SetFilePointer</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfilepointer">SetFilePointer</a>

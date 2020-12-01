@@ -52,20 +52,20 @@ api_name:
 
 ## -description
 
-Contains information on a tree-view item change. This structure is sent with the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-itemchanged">TVN_ITEMCHANGED</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/tvn-itemchanging">TVN_ITEMCHANGING</a> notifications.
+Contains information on a tree-view item change. This structure is sent with the <a href="/windows/desktop/Controls/tvn-itemchanged">TVN_ITEMCHANGED</a> and <a href="/windows/desktop/Controls/tvn-itemchanging">TVN_ITEMCHANGING</a> notifications.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about the notification.
 
 ### -field uChanged
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the attribute. The only supported attribute is state. <b>uChanged</b> must have the following value:
 
@@ -95,19 +95,18 @@ Handle to the changed tree-view item.
 
 ### -field uStateNew
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Flag that specifies the new item state.
 
 ### -field uStateOld
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Flag that specifies the item's previous state.
 
 ### -field lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Reserved for application specific data. For example, a value to associate with the item.
-

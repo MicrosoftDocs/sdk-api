@@ -56,7 +56,7 @@ Waits for any synchronization object in the container to be signaled or for a sp
 
 ### -param dwFlags [in]
 
-The wait options. Possible values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ne-combaseapi-cowait_flags">COWAIT_FLAGS</a> enumeration. COWAIT_WAITALL is not a valid setting for this method.
+The wait options. Possible values are taken from the <a href="/windows/desktop/api/combaseapi/ne-combaseapi-cowait_flags">COWAIT_FLAGS</a> enumeration. COWAIT_WAITALL is not a valid setting for this method.
 
 ### -param dwTimeOut [in]
 
@@ -64,7 +64,7 @@ The time this call will wait before returning, in milliseconds. If this paramete
 
 ### -param ppSync [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronize">ISynchronize</a> interface pointer on the synchronization object that was signaled. This parameter cannot be <b>NULL</b>.
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-isynchronize">ISynchronize</a> interface pointer on the synchronization object that was signaled. This parameter cannot be <b>NULL</b>.
 
 ## -returns
 
@@ -116,9 +116,8 @@ If the caller is waiting in a single-thread apartment, <b>WaitMultiple</b> enter
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultiplehandles">CoWaitForMultipleHandles</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultiplehandles">CoWaitForMultipleHandles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronizecontainer">ISynchronizeContainer</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-isynchronizecontainer">ISynchronizeContainer</a>

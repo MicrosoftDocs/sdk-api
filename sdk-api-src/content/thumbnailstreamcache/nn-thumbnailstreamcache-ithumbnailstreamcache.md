@@ -54,7 +54,7 @@ Gets or sets the thumbnail stream. This interface is for internal use only and c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IThumbnailStreamCache</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailStreamCache</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IThumbnailStreamCache</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IThumbnailStreamCache</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IThumbnailStreamCache</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/thumbnailstreamcache/nf-thumbnailstreamcache-ithumbnailstreamcache-getthumbnailstream">GetThumbnailStream</a>
+<a href="/windows/desktop/api/thumbnailstreamcache/nf-thumbnailstreamcache-ithumbnailstreamcache-getthumbnailstream">GetThumbnailStream</a>
 </td>
 <td align="left" width="63%">
 Gets the thumbnail stream. This method is for internal use only and can only be called by the photos application.
@@ -78,7 +78,7 @@ Gets the thumbnail stream. This method is for internal use only and can only be 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/thumbnailstreamcache/nf-thumbnailstreamcache-ithumbnailstreamcache-setthumbnailstream">SetThumbnailStream</a>
+<a href="/windows/desktop/api/thumbnailstreamcache/nf-thumbnailstreamcache-ithumbnailstreamcache-setthumbnailstream">SetThumbnailStream</a>
 </td>
 <td align="left" width="63%">
 Sets the thumbnail stream. This method is for internal use only and can only be called by the photos application.
@@ -89,5 +89,4 @@ Sets the thumbnail stream. This method is for internal use only and can only be 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

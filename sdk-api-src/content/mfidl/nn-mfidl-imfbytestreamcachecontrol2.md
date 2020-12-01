@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Controls how a network byte stream transfers data to a local cache. This interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol">IMFByteStreamCacheControl</a> interface.
+Controls how a network byte stream transfers data to a local cache. This interface extends the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol">IMFByteStreamCacheControl</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFByteStreamCacheControl2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol">IMFByteStreamCacheControl</a>. <b>IMFByteStreamCacheControl2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFByteStreamCacheControl2</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol">IMFByteStreamCacheControl</a>. <b>IMFByteStreamCacheControl2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFByteStreamCacheControl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol2-getbyteranges">GetByteRanges</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol2-getbyteranges">GetByteRanges</a>
 </td>
 <td align="left" width="63%">
 Gets the ranges of bytes that are currently stored in the cache.
@@ -78,7 +78,7 @@ Gets the ranges of bytes that are currently stored in the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol2-isbackgroundtransferactive">IsBackgroundTransferActive</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol2-isbackgroundtransferactive">IsBackgroundTransferActive</a>
 </td>
 <td align="left" width="63%">
 Queries whether background transfer is active.
@@ -87,7 +87,7 @@ Queries whether background transfer is active.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol2-setcachelimit">SetCacheLimit</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamcachecontrol2-setcachelimit">SetCacheLimit</a>
 </td>
 <td align="left" width="63%">
 Limits the cache size.
@@ -98,17 +98,16 @@ Limits the cache size.
 
 ## -remarks
 
-Byte streams object in Microsoft Media Foundation can optionally implement this interface. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the byte stream object.
+Byte streams object in Microsoft Media Foundation can optionally implement this interface. To get a pointer to this interface, call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the byte stream object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol">IMFByteStreamCacheControl</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamcachecontrol">IMFByteStreamCacheControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

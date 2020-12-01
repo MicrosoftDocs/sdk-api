@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>GetProperty</b> method retrieves text-only property values for a node. Your implementation of the <b>INodeProperties::GetProperty</b> method is called when an application based on the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a> retrieves the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/node-property">Node.Property</a> property.
+<a href="/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a> retrieves the 
+<a href="/previous-versions/windows/desktop/mmc/node-property">Node.Property</a> property.
 
 ## -parameters
 
@@ -76,36 +76,35 @@ The snap-in returns <b>S_OK</b> if it provides the property value when this meth
 ## -remarks
 
 The Extended View extension uses two properties: CCF_DESCRIPTION and CCF_HTML_DETAILS. As an alternative to supplying values for these properties using the data object to query the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-description">CCF_DESCRIPTION</a> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-html-details">CCF_HTML_DETAILS</a> clipboard formats, a snap-in can use <b>INodeProperties::GetProperty</b> to return the property values to the Extended View. This alternative is beneficial in situations where a snap-in's data object does not provide the desired information.
+<a href="/previous-versions/windows/desktop/mmc/ccf-description">CCF_DESCRIPTION</a> and 
+<a href="/previous-versions/windows/desktop/mmc/ccf-html-details">CCF_HTML_DETAILS</a> clipboard formats, a snap-in can use <b>INodeProperties::GetProperty</b> to return the property values to the Extended View. This alternative is beneficial in situations where a snap-in's data object does not provide the desired information.
 
 In addition to providing CCF_DESCRIPTION and CCF_HTML_DETAILS property values, a snap-in can use 
 INodeProperties to provide values for other text-based properties (for example, with a new view extension).
 
 For more information and a code example for <b>INodeProperties::GetProperty</b>, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-extended-view-extension-implementation-details">Using the Extended View Extension - Implementation Details</a>.
+<a href="/previous-versions/windows/desktop/mmc/using-the-extended-view-extension-implementation-details">Using the Extended View Extension - Implementation Details</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-description">CCF_DESCRIPTION</a>
+<a href="/previous-versions/windows/desktop/mmc/ccf-description">CCF_DESCRIPTION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-html-details">CCF_HTML_DETAILS</a>
+<a href="/previous-versions/windows/desktop/mmc/ccf-html-details">CCF_HTML_DETAILS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/node-object">Node</a>
+<a href="/previous-versions/windows/desktop/mmc/node-object">Node</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/node-property">Node.Property</a>
+<a href="/previous-versions/windows/desktop/mmc/node-property">Node.Property</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-extended-view-extension">Using the Extended View Extension</a>
+<a href="/previous-versions/windows/desktop/mmc/using-the-extended-view-extension">Using the Extended View Extension</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-the-extended-view-extension-implementation-details">Using the Extended View Extension - Implementation Details</a>
-
+<a href="/previous-versions/windows/desktop/mmc/using-the-extended-view-extension-implementation-details">Using the Extended View Extension - Implementation Details</a>

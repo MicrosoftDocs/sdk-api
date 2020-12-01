@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Scrolls the text vertically in a multiline edit or rich edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-scroll">EM_SCROLL</a> message explicitly.
+Scrolls the text vertically in a multiline edit or rich edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-scroll">EM_SCROLL</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -74,5 +74,4 @@ The amount to scroll horizontally.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-scroll">EM_SCROLL</a>.
-
+For more information, see <a href="/windows/desktop/Controls/em-scroll">EM_SCROLL</a>.

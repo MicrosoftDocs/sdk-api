@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Defines a default value for a field.  This is used
-                in a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                in a <a href="/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
 
 ## -struct-fields
 
@@ -64,4 +64,3 @@ A pointer to the default value.
 ### -field valueSize
 
 The size of the default value, in bytes.
-

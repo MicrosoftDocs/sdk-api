@@ -70,12 +70,11 @@ A pointer to a string that represents the non-normalized Unicode or punycode URL
 
 On successful output, a pointer to a string that represents the normalized URL.
 
-<div class="alert"><b>Note</b>  Free <i>PreparedUrl</i> using <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a>.</div>
+<div class="alert"><b>Note</b>  Free <i>PreparedUrl</i> using <a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a>.</div>
 <div> </div>
 
 ## -returns
 
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
-If the function fails, it returns one of the following or a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
-
+If the function fails, it returns one of the following or a <a href="/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.

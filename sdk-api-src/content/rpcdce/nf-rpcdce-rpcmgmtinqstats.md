@@ -107,7 +107,7 @@ This was the wrong kind of binding for the operation.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -146,15 +146,14 @@ Each array element in the returned statistics vector contains an <b>unsigned lon
 
 
 The RPC run-time library allocates memory for the statistics vector. The application is responsible for calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a> function to release the memory used by the statistics vector.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a> function to release the memory used by the statistics vector.
 
 The server must be listening for remote procedure calls for this function to succeed.  If the server is not listening, the function fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepresolvebinding">RpcEpResolveBinding</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcepresolvebinding">RpcEpResolveBinding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree">RpcMgmtStatsVectorFree</a>

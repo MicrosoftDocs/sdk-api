@@ -45,9 +45,6 @@ api_name:
  - FNFCIDELETE
 ---
 
-# FNFCIDELETE macro
-
-
 ## -description
 
 The <b>FNFCIDELETE</b> macro provides the declaration for the application-defined callback function to delete a file in the FCI context.
@@ -58,22 +55,12 @@ The <b>FNFCIDELETE</b> macro provides the declaration for the application-define
 
 The name of the file to be deleted.
 
-
-#### - err
-
-Pointer to the error code value. This value will be used to provide extended error information in the ERF structure used to create the FCI context.
-
-
-#### - pv
-
-Pointer to an application-defined value.
-
 ## -remarks
 
 The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/2da4hk1d(VS.80).aspx">remove</a>, with the addition of <i>err</i> and <i>pv</i>.
 
 
-#### Examples
+## Examples
 
 
 ```cpp
@@ -97,5 +84,4 @@ FNFCIDELETE(fnFileDelete)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
-
+<a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>

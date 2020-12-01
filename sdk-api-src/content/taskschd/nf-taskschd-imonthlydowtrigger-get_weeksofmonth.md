@@ -96,13 +96,12 @@ The following table shows the mapping of the bitwise mask used by this property.
 
 
 
-When reading or writing XML for a task, the weeks of the month of a monthly day-of-week calendar are specified by the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-weeks-monthlydayofweekscheduletype-element">Weeks</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, the weeks of the month of a monthly day-of-week calendar are specified by the <a href="/windows/desktop/TaskSchd/taskschedulerschema-weeks-monthlydayofweekscheduletype-element">Weeks</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imonthlydowtrigger">IMonthlyDOWTrigger</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-imonthlydowtrigger">IMonthlyDOWTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

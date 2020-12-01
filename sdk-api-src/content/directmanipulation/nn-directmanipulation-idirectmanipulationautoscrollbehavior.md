@@ -54,7 +54,7 @@ Represents  the auto-scroll animation behavior of content as it approaches the b
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectManipulationAutoScrollBehavior</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectManipulationAutoScrollBehavior</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectManipulationAutoScrollBehavior</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirectManipulationAutoScrollBehavior</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDirectManipulationAutoScrollBehavior</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationautoscrollbehavior-setconfiguration">SetConfiguration</a>
+<a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationautoscrollbehavior-setconfiguration">SetConfiguration</a>
 </td>
 <td align="left" width="63%">
 Performs the auto-scroll animation for the viewport this behavior is attached to. 
@@ -80,5 +80,4 @@ Performs the auto-scroll animation for the viewport this behavior is attached to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-interfaces">Direct Manipulation Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-interfaces">Direct Manipulation Interfaces</a>

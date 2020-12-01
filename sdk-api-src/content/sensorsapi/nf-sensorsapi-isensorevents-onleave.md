@@ -82,16 +82,15 @@ The method succeeded.
 
 ## -remarks
 
-To know when a sensor enters, subscribe to the <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanagerevents-onsensorenter">ISensorManagerEvents::OnSensorEnter</a> event.
+To know when a sensor enters, subscribe to the <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanagerevents-onsensorenter">ISensorManagerEvents::OnSensorEnter</a> event.
 
 
 #### Examples
 
-For an example of how to receive sensor events, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/using-sensor-api-events">Using Sensor API Events</a>.
+For an example of how to receive sensor events, see <a href="/windows/desktop/SensorsAPI/using-sensor-api-events">Using Sensor API Events</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents">ISensorEvents</a>
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents">ISensorEvents</a>

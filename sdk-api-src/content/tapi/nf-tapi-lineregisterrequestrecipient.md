@@ -62,12 +62,12 @@ Application's usage handle for the line portion of TAPI.
 ### -param dwRegistrationInstance
 
 Application-specific <b>DWORD</b> that is passed back as a parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-request">LINE_REQUEST</a> message. This message notifies the application that a request is pending. This parameter is ignored if <i>bEnable</i> is set to zero. This parameter is examined by TAPI only for registration, not for deregistration. The <i>dwRegistrationInstance</i> value used while deregistering need not match the <i>dwRegistrationInstance</i> used while registering for a request mode.
+<a href="/windows/desktop/Tapi/line-request">LINE_REQUEST</a> message. This message notifies the application that a request is pending. This parameter is ignored if <i>bEnable</i> is set to zero. This parameter is examined by TAPI only for registration, not for deregistration. The <i>dwRegistrationInstance</i> value used while deregistering need not match the <i>dwRegistrationInstance</i> used while registering for a request mode.
 
 ### -param dwRequestMode
 
 Type of request for which the application registers. This parameter uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linerequestmode--constants">LINEREQUESTMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/linerequestmode--constants">LINEREQUESTMODE_ Constants</a>.
 
 ### -param bEnable
 
@@ -82,37 +82,36 @@ LINEERR_INVALAPPHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALREQUESTMODE, LINEE
 ## -remarks
 
 A telephony-enabled application can request that a call be placed on its behalf by invoking 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-tapirequestmakecall">tapiRequestMakeCall</a>. Additionally, other applications can request that information be logged with a given call. The 
+<a href="/windows/desktop/api/tapi/nf-tapi-tapirequestmakecall">tapiRequestMakeCall</a>. Additionally, other applications can request that information be logged with a given call. The 
 <b>tapiRequestMakeCall</b> requests are queued by TAPI, and the highest priority application that has registered to handle the request is sent a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-request">LINE_REQUEST</a> message with an indication of the mode of the request that is pending. This application is typically the user's call-control application.
+<a href="/windows/desktop/Tapi/line-request">LINE_REQUEST</a> message with an indication of the mode of the request that is pending. This application is typically the user's call-control application.
 
 Next, the call-control application that receives this message invokes 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a>, specifying the request mode and a buffer that is large enough to hold the request. The call-control application then interprets and executes the request.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a>, specifying the request mode and a buffer that is large enough to hold the request. The call-control application then interprets and executes the request.
 
 The recipient application is also automatically deregistered for all requests when it does a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-request">LINE_REQUEST</a>
+<a href="/windows/desktop/Tapi/line-request">LINE_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-lineshutdown">lineShutdown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-tapirequestmakecall">tapiRequestMakeCall</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-tapirequestmakecall">tapiRequestMakeCall</a>

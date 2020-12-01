@@ -76,5 +76,4 @@ The <b>Path</b> attribute in represents a file system path.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-
+<a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>

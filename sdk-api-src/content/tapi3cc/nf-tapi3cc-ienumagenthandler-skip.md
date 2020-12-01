@@ -105,5 +105,4 @@ Insufficient memory exists to perform the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-ienumagenthandler">IEnumAgentHandler</a>
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagenthandler">IEnumAgentHandler</a>

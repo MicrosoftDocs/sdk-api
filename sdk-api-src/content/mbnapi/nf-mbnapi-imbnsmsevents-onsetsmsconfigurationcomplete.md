@@ -59,7 +59,7 @@ Notification method signaling that a set SMS configuration operation has complet
 
 ### -param sms [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface representing the Mobile Broadband device for which the SMS configuration has been updated.
+A pointer to an <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface representing the Mobile Broadband device for which the SMS configuration has been updated.
 
 ### -param requestID [in]
 
@@ -134,9 +134,8 @@ This method must return <b>S_OK</b>.
 
 ## -remarks
 
-This method is used to notify an application of the completion of a set SMS configuration operation. The application can use the passed <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface to get the new configuration information. It is also used by the device to indicate the readiness of the device's SMS subsystem. Upon system startup or device insertion, this method will be called to notify applications that the device SMS subsystem is ready for operation.
+This method is used to notify an application of the completion of a set SMS configuration operation. The application can use the passed <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsms">IMbnSms</a> interface to get the new configuration information. It is also used by the device to indicate the readiness of the device's SMS subsystem. Upon system startup or device insertion, this method will be called to notify applications that the device SMS subsystem is ready for operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>

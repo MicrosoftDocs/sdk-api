@@ -94,9 +94,8 @@ A non-NULL value was expected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setflags">SetFlags</a>
-
+<a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setflags">SetFlags</a>

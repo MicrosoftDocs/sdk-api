@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Contains information about an uncompressed video format. This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure.
+Contains information about an uncompressed video format. This structure is used in the <a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure.
 
 ## -struct-fields
 
 ### -field Format
 
-For compressed formats, this value must be zero. For uncompressed formats, the value is a FOURCC or <b>D3DFORMAT</b> value that identifies the format. Use the <b>Data1</b> field from the subtype GUID. See <a href="https://docs.microsoft.com/windows/desktop/medfound/video-subtype-guids">Video Subtype GUIDs</a>.
+For compressed formats, this value must be zero. For uncompressed formats, the value is a FOURCC or <b>D3DFORMAT</b> value that identifies the format. Use the <b>Data1</b> field from the subtype GUID. See <a href="/windows/desktop/medfound/video-subtype-guids">Video Subtype GUIDs</a>.
 
 ### -field PaletteEntries
 
@@ -66,13 +66,12 @@ Number of palette entries. The value must be between 0 and 256.
 
 ### -field Palette
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-_mfpaletteentry">MFPaletteEntry Union</a>s that contains the color table for a palettized format. The size of the array is given in the <b>PaletteEntries</b> member. If the format is not palettized, set <b>PaletteEntries</b> to zero.
+Array of <a href="/windows/win32/api/mfobjects/ns-mfobjects-mfpaletteentry">MFPaletteEntry Union</a>s that contains the color table for a palettized format. The size of the array is given in the <b>PaletteEntries</b> member. If the format is not palettized, set <b>PaletteEntries</b> to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

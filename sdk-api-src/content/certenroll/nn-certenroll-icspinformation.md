@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ICspInformation</b> interface provides access to general information about a cryptographic  provider. The information is initialized by calling the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromname">InitializeFromName</a> or <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromtype">InitializeFromType</a> method. The information is retrieved by using the following methods and properties. For information about CSPs, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/csps-and-the-cryptography-process">CSPs and the Cryptography Process</a>.
+The <b>ICspInformation</b> interface provides access to general information about a cryptographic  provider. The information is initialized by calling the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromname">InitializeFromName</a> or <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromtype">InitializeFromType</a> method. The information is retrieved by using the following methods and properties. For information about CSPs, see <a href="/windows/desktop/SecCrypto/csps-and-the-cryptography-process">CSPs and the Cryptography Process</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspInformation</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICspInformation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICspInformation</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICspInformation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,16 +70,16 @@ The <b>ICspInformation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-getcspstatusfromoperations">GetCspStatusFromOperations</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-getcspstatusfromoperations">GetCspStatusFromOperations</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> object for the first supported algorithm that is consistent with the specified signature, encryption, hashing, or cipher  operation.
+Creates an <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatus">ICspStatus</a> object for the first supported algorithm that is consistent with the specified signature, encryption, hashing, or cipher  operation.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-getdefaultsecuritydescriptor">GetDefaultSecurityDescriptor</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-getdefaultsecuritydescriptor">GetDefaultSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default private key security descriptor.
@@ -88,7 +88,7 @@ Retrieves the default private key security descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromname">InitializeFromName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromname">InitializeFromName</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a string that contains a provider name.
@@ -99,7 +99,7 @@ Initializes the object from a string that contains a provider name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromtype">InitializeFromType</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-initializefromtype">InitializeFromType</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from the default cryptographic provider.
@@ -116,12 +116,12 @@ Initializes the object from the default cryptographic provider.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_cspalgorithms">CspAlgorithms</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_cspalgorithms">CspAlgorithms</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves a collection of <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a> interfaces that contain information about the algorithms supported by the provider.
+Retrieves a collection of <a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a> interfaces that contain information about the algorithms supported by the provider.
 
 [WebEnabled]
 
@@ -130,7 +130,7 @@ Retrieves a collection of <a href="https://docs.microsoft.com/windows/desktop/ap
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_hashardwarerandomnumbergenerator">HasHardwareRandomNumberGenerator</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_hashardwarerandomnumbergenerator">HasHardwareRandomNumberGenerator</a>
 
 
 </td>
@@ -142,7 +142,7 @@ Retrieves a Boolean value that specifies whether the provider supports a hardwar
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_ishardwaredevice">IsHardwareDevice</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_ishardwaredevice">IsHardwareDevice</a>
 
 
 </td>
@@ -154,7 +154,7 @@ Retrieves a Boolean value that determines whether the provider is implemented in
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_isremovable">IsRemovable</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_isremovable">IsRemovable</a>
 
 
 </td>
@@ -166,7 +166,7 @@ Retrieves a Boolean value that specifies whether the token that contains the key
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_issmartcard">IsSmartCard</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_issmartcard">IsSmartCard</a>
 
 
 </td>
@@ -178,7 +178,7 @@ Retrieves a Boolean value that specifies whether the provider is a smart card pr
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_issoftwaredevice">IsSoftwareDevice</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_issoftwaredevice">IsSoftwareDevice</a>
 
 
 </td>
@@ -190,7 +190,7 @@ Retrieves a Boolean value that specifies whether the provider is implemented in 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_keyspec">KeySpec</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_keyspec">KeySpec</a>
 
 
 </td>
@@ -204,7 +204,7 @@ Retrieves a value that specifies the intended use of the algorithms supported by
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_legacycsp">LegacyCsp</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_legacycsp">LegacyCsp</a>
 
 
 </td>
@@ -218,7 +218,7 @@ Retrieves a Boolean value that specifies whether the provider is a Cryptography 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_maxkeycontainernamelength">MaxKeyContainerNameLength</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_maxkeycontainernamelength">MaxKeyContainerNameLength</a>
 
 
 </td>
@@ -230,7 +230,7 @@ Retrieves the maximum supported length for the name of the private key container
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_name">Name</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_name">Name</a>
 
 
 </td>
@@ -244,7 +244,7 @@ Retrieves the name of the provider.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_type">Type</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_type">Type</a>
 
 
 </td>
@@ -258,7 +258,7 @@ Retrieves the type of the provider.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_valid">Valid</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_valid">Valid</a>
 
 
 </td>
@@ -270,7 +270,7 @@ Retrieves a Boolean value that specifies whether the provider is installed on th
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_version">Version</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icspinformation-get_version">Version</a>
 
 
 </td>
@@ -283,13 +283,12 @@ Retrieves the version number of the provider.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

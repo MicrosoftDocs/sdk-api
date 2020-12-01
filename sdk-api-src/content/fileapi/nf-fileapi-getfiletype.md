@@ -139,13 +139,13 @@ Either the type of the specified file is unknown, or the function failed.
 
 You can distinguish between a "valid" return of <b>FILE_TYPE_UNKNOWN</b> and its return due to a calling error (for example, passing an invalid handle to 
 <b>GetFileType</b>) by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the function worked properly and <b>FILE_TYPE_UNKNOWN</b> was returned, a call to <b>GetLastError</b> will return <b>NO_ERROR</b>.
 
 If the function returned <b>FILE_TYPE_UNKNOWN</b> due to an error in calling 
 <b>GetFileType</b>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return the error code.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return the error code.
 
 ## -remarks
 
@@ -210,13 +210,12 @@ Yes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfilesize">GetFileSize</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfilesize">GetFileSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfiletime">GetFileTime</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfiletime">GetFileTime</a>

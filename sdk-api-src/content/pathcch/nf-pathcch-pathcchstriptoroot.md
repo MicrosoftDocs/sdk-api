@@ -54,9 +54,9 @@ api_name:
 
 Removes all file and directory elements in a path except for the root information.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
-<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> to prevent the possibility of a buffer overrun.</div>
+<div class="alert"><b>Note</b>  This function should be used in place of <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathstriptoroota">PathStripToRoot</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
 
@@ -94,4 +94,3 @@ Some examples of the effect of this function:
 <td>"\"</td>
 </tr>
 </table>
-

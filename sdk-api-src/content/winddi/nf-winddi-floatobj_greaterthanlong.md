@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>FLOATOBJ_GreaterThanLong</b> function determines whether the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a> is greater than the value of type LONG.
+The <b>FLOATOBJ_GreaterThanLong</b> function determines whether the <a href="/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a> is greater than the value of type LONG.
 
 ## -parameters
 
@@ -72,5 +72,4 @@ The FLOATOBJ<b>_</b><i>Xxx</i> services allow graphics drivers to emulate floati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>

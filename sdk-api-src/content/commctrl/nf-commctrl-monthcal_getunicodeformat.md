@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Retrieves the Unicode character format flag for the control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/mcm-getunicodeformat">MCM_GETUNICODEFORMAT</a> message explicitly.
+Retrieves the Unicode character format flag for the control. You can use this macro or send the <a href="/windows/desktop/Controls/mcm-getunicodeformat">MCM_GETUNICODEFORMAT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-monthcal_setunicodeformat">MonthCal_SetUnicodeFormat</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-monthcal_setunicodeformat">MonthCal_SetUnicodeFormat</a>

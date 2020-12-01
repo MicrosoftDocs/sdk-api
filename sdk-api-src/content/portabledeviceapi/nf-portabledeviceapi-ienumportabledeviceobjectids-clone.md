@@ -87,9 +87,8 @@ Not implemented in this release.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-clone">IEnumPortableDeviceObjectIDs</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-ienumportabledeviceobjectids-clone">IEnumPortableDeviceObjectIDs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-ienumportabledeviceobjectids">IEnumPortableDeviceObjectIDs Interface</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-ienumportabledeviceobjectids">IEnumPortableDeviceObjectIDs Interface</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Indicates flags used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2">IFolderView2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> and  <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2">IShellView2</a> to specify a type of selection to apply.
+Indicates flags used by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview">IFolderView</a>, <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifolderview2">IFolderView2</a>, <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> and  <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2">IShellView2</a> to specify a type of selection to apply.
 
 ## -enum-fields
 
@@ -84,7 +84,7 @@ Indicates flags used by <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ### -field SVSI_SELECTIONMARK
 
-0x00000040. Mark the item so that it can be queried using <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getselectionmarkeditem">IFolderView::GetSelectionMarkedItem</a>.
+0x00000040. Mark the item so that it can be queried using <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-getselectionmarkeditem">IFolderView::GetSelectionMarkedItem</a>.
 
 ### -field SVSI_POSITIONITEM
 
@@ -96,7 +96,7 @@ Indicates flags used by <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ### -field SVSI_CHECK2
 
-0x00000200. The second check state when the view is in tri-check mode, in which there are three values for the checked state. You can indicate tri-check mode by specifying FWF_TRICHECKSELECT in <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-setcurrentfolderflags">IFolderView2::SetCurrentFolderFlags</a>. The 3 states for FWF_TRICHECKSELECT are unchecked, SVSI_CHECK and SVSI_CHECK2.
+0x00000200. The second check state when the view is in tri-check mode, in which there are three values for the checked state. You can indicate tri-check mode by specifying FWF_TRICHECKSELECT in <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-setcurrentfolderflags">IFolderView2::SetCurrentFolderFlags</a>. The 3 states for FWF_TRICHECKSELECT are unchecked, SVSI_CHECK and SVSI_CHECK2.
 
 ### -field SVSI_KEYBOARDSELECT
 
@@ -118,4 +118,3 @@ The <b>SVSIF</b> type used to refer to members of the <b>_SVSIF</b> enumeration 
 ```
 typedef UINT SVSIF;
 ```
-

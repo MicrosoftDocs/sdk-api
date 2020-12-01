@@ -62,7 +62,7 @@ Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
 ### -param TimerQueue [in]
 
 A handle to the timer queue. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a> function.
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a> function.
 
 ### -param CompletionEvent [in, optional]
 
@@ -80,7 +80,7 @@ If this parameter is <b>NULL</b>, the function marks the timer for deletion and 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -88,25 +88,24 @@ Do not make blocking calls to
 <b>DeleteTimerQueueEx</b> from within a timer callback.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0500 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a>
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue">CreateTimerQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a>
+<a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer">DeleteTimerQueueTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
+<a href="/windows/desktop/ProcThread/thread-pooling">Thread Pooling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/timer-queues">Timer Queues</a>
-
+<a href="/windows/desktop/Sync/timer-queues">Timer Queues</a>

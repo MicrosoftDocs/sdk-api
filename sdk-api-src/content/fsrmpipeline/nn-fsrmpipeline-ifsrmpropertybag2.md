@@ -70,7 +70,7 @@ The <b>IFsrmPropertyBag2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-addmessage">AddMessage</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-addmessage">AddMessage</a>
 </td>
 <td align="left" width="63%">
 Adds a message about the file.
@@ -79,7 +79,7 @@ Adds a message about the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag2-getfieldvalue">GetFieldValue</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag2-getfieldvalue">GetFieldValue</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the specified field from the property bag.
@@ -88,7 +88,7 @@ Gets the value of the specified field from the property bag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-getfileproperty">GetFileProperty</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-getfileproperty">GetFileProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified metadata property of the file.
@@ -97,7 +97,7 @@ Retrieves the specified metadata property of the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-getfilestreaminterface">GetFileStreamInterface</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-getfilestreaminterface">GetFileStreamInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves a file stream interface that you can use to access the contents of the file.
@@ -106,7 +106,7 @@ Retrieves a file stream interface that you can use to access the contents of the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-setfileproperty">SetFileProperty</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-setfileproperty">SetFileProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the specified metadata property of the file.
@@ -124,7 +124,7 @@ Sets the specified metadata property of the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_attributes">Attributes</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_attributes">Attributes</a>
 
 
 </td>
@@ -140,7 +140,7 @@ The attributes of the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_creationtime">CreationTime</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_creationtime">CreationTime</a>
 
 
 </td>
@@ -156,7 +156,7 @@ The date and time that the file was created.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_fileid">FileId</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_fileid">FileId</a>
 
 
 </td>
@@ -172,7 +172,7 @@ The file identifier of the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_filepropertynames">FilePropertyNames</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_filepropertynames">FilePropertyNames</a>
 
 
 </td>
@@ -188,7 +188,7 @@ A list of the names of the file's metadata properties.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_lastaccesstime">LastAccessTime</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_lastaccesstime">LastAccessTime</a>
 
 
 </td>
@@ -204,7 +204,7 @@ The date and time of when the file was last accessed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_lastmodificationtime">LastModificationTime</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_lastmodificationtime">LastModificationTime</a>
 
 
 </td>
@@ -220,7 +220,7 @@ The date and time of when the file was last modified.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_messages">Messages</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_messages">Messages</a>
 
 
 </td>
@@ -236,7 +236,7 @@ A list of the classification messages.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_name">Name</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_name">Name</a>
 
 
 </td>
@@ -252,7 +252,7 @@ The name of the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_ownersid">OwnerSid</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_ownersid">OwnerSid</a>
 
 
 </td>
@@ -268,7 +268,7 @@ The SID of the owner of the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_parentdirectoryid">ParentDirectoryId</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_parentdirectoryid">ParentDirectoryId</a>
 
 
 </td>
@@ -284,7 +284,7 @@ The identifier of the file's parent directory.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_propertybagflags">PropertyBagFlags</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_propertybagflags">PropertyBagFlags</a>
 
 
 </td>
@@ -300,7 +300,7 @@ A set of flags that provide additional information about the property bag.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_relativenamespaceroot">RelativeNamespaceRoot</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_relativenamespaceroot">RelativeNamespaceRoot</a>
 
 
 </td>
@@ -316,7 +316,7 @@ The relative path of the namespace root under which the file is being evaluated.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_relativepath">RelativePath</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_relativepath">RelativePath</a>
 
 
 </td>
@@ -332,7 +332,7 @@ The relative path to the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_size">Size</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_size">Size</a>
 
 
 </td>
@@ -348,7 +348,7 @@ The size of the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_sizeallocated">SizeAllocated</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_sizeallocated">SizeAllocated</a>
 
 
 </td>
@@ -364,7 +364,7 @@ The allocation size of the file.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_volumeindex">VolumeIndex</a>
+<a href="/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_volumeindex">VolumeIndex</a>
 
 
 </td>
@@ -380,7 +380,7 @@ The index that the scanner uses to refer to the volume on which the file exists.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_volumename">VolumeName</a>
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_volumename">VolumeName</a>
 
 
 </td>
@@ -397,5 +397,4 @@ The name of the volume on which the file exists.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/fsrm/fsrm-interfaces">FSRM Interfaces</a>

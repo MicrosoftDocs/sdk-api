@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This method attempts to produce a phrase that, when recognized by this instance of <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a>, represents the type and value pair for an entity, relationship, or named entity.
+This method attempts to produce a phrase that, when recognized by this instance of <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a>, represents the type and value pair for an entity, relationship, or named entity.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ The semantic type of the value in <i>ppropvar</i>.
 
 ### -param ppropvar [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT const</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT const</a>*</b>
 
 The value to be processed.
 
@@ -86,7 +86,7 @@ Returns S_OK if successful, S_FALSE if the input arguments are valid but no phra
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-condition_creation_options">CONDITION_CREATION_OPTIONS</a>
+<a href="/windows/desktop/api/structuredquery/ne-structuredquery-condition_creation_options">CONDITION_CREATION_OPTIONS</a>
 
 
 
@@ -98,21 +98,20 @@ Returns S_OK if successful, S_FALSE if the input arguments are valid but no phra
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>
+<a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
+<a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>
+<a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a>
+<a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a>
 
 
 
 <b>Reference</b>
-

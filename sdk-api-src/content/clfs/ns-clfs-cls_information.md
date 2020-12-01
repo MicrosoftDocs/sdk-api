@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Describes general information about a log. The <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogfileinformation">GetLogFileInformation</a> function returns the <b>CLFS_INFORMATION</b> structure.
+Describes general information about a log. The <a href="/windows/desktop/api/clfsw32/nf-clfsw32-getlogfileinformation">GetLogFileInformation</a> function returns the <b>CLFS_INFORMATION</b> structure.
 
 ## -struct-fields
 
@@ -94,7 +94,7 @@ The number of  log streams  that are active in a physical log.
 
 ### -field Attributes
 
-The log  attributes that are set by using the <i>fFlagsAndAttributes</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a> when a log is created.
+The log  attributes that are set by using the <i>fFlagsAndAttributes</i> parameter of <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a> when a log is created.
 
 ### -field FlushThreshold
 
@@ -134,5 +134,4 @@ The unique identifier for a log.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogfileinformation">GetLogFileInformation</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-getlogfileinformation">GetLogFileInformation</a>

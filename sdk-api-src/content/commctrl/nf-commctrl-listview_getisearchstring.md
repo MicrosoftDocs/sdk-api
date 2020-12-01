@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Gets the incremental search string of a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getisearchstring">LVM_GETISEARCHSTRING</a> message explicitly.
+Gets the incremental search string of a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getisearchstring">LVM_GETISEARCHSTRING</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param lpsz
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
 
 A pointer to a buffer that receives the incremental search string. To just retrieve the length of the string, set <i>lpsz</i> to <b>NULL</b>.
 
@@ -73,4 +73,3 @@ The incremental search string is the character sequence that the user types whil
 A time-out period is associated with each character that the user types. If the time-out period elapses before the user types another character, the incremental search string is reset. 
 
 Make sure that the buffer is large enough to hold the string. If it is too small, an immediate invalid page fault will result.
-

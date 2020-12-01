@@ -57,7 +57,7 @@ Gets the column state flag, which describes how the property should be treated b
 
 Type: <b>SHCOLSTATEF</b>
 
-When this method returns, contains a pointer to the column state flag. See <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ne-shtypes-shcolstate">SHCOLSTATE</a> for valid values.
+When this method returns, contains a pointer to the column state flag. See <a href="/windows/desktop/api/shtypes/ne-shtypes-shcolstate">SHCOLSTATE</a> for valid values.
 
 ## -returns
 
@@ -67,13 +67,12 @@ Always returns <b>S_OK</b>.
 
 ## -remarks
 
-The value retrieved by this method is originally set through the <i>displayType</i> attribute of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-displayinfo">displayInfo</a> element in the property's .propdesc file.
+The value retrieved by this method is originally set through the <i>displayType</i> attribute of the <a href="/windows/desktop/properties/propdesc-schema-displayinfo">displayInfo</a> element in the property's .propdesc file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-
+<a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>

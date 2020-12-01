@@ -60,13 +60,13 @@ Contains information about the high contrast accessibility feature.This feature 
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the size, in bytes, of this structure.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies a combination of the following values:
 
@@ -177,7 +177,7 @@ The hot key associated with the high contrast feature can be enabled. An applica
 
 ### -field lpszDefaultScheme
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 Points to a string that contains the name of the color scheme that will be set to the default scheme.
 
@@ -191,6 +191,5 @@ An application uses this structure when calling one of the [SystemParametersInfo
 
 ## -see-also
 
-[SystemParametersInfoW function](nf-winuser-systemparametersinfow.md), [HIGHCONTRASTA structure](ns-winuser-highcontrasta.md), <a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>,
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-
+[SystemParametersInfoW function](nf-winuser-systemparametersinfow.md), [HIGHCONTRASTA structure](ns-winuser-highcontrasta.md), <a href="/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>,
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

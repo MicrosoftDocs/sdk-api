@@ -63,5 +63,4 @@ The AutoSelection property indicates whether the update will be automatically se
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate5">IUpdate5</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate5">IUpdate5</a>

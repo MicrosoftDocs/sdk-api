@@ -56,7 +56,7 @@ Notifies the implementing plug-in that a system event is available.
 
 ### -param piRtsSrc [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object that sent the notification.
+The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> (RTS) object that sent the notification.
 
 ### -param tcid [in]
 
@@ -73,43 +73,42 @@ The system event sent by the RTS object
 ### -param eventdata [in]
 
 The 
-              <a href="https://docs.microsoft.com/windows/desktop/api/tpcshrd/ns-tpcshrd-system_event_data">SYSTEM_EVENT_DATA</a> structure containing information about the system event, <i>event</i>.
+              <a href="/windows/desktop/api/tpcshrd/ns-tpcshrd-system_event_data">SYSTEM_EVENT_DATA</a> structure containing information about the system event, <i>event</i>.
 
 ## -returns
 
-For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/classes-and-interfaces---ink-analysis">Classes and Interfaces - Ink Analysis</a>.
+For a description of return values, see <a href="/windows/desktop/tablet/classes-and-interfaces---ink-analysis">Classes and Interfaces - Ink Analysis</a>.
 
 ## -remarks
 
-When a system event is being processed the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object provides real time stylus events on a specific window handle within a specific window input rectangle.
+When a system event is being processed the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object provides real time stylus events on a specific window handle within a specific window input rectangle.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getdesiredpacketdescription">IRealTimeStylus::GetDesiredPacketDescription Method</a> method to determine what packet properties are sent in the events.
+Use the <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getdesiredpacketdescription">IRealTimeStylus::GetDesiredPacketDescription Method</a> method to determine what packet properties are sent in the events.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
+<a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setdesiredpacketdescription">IRealTimeStylus::SetDesiredPacketDescription Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setdesiredpacketdescription">IRealTimeStylus::SetDesiredPacketDescription Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-get_windowinputrectangle">IRealTimeStylus::WindowInputRectangle Property</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-get_windowinputrectangle">IRealTimeStylus::WindowInputRectangle Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-datainterest">IStylusPlugin::DataInterest Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-datainterest">IStylusPlugin::DataInterest Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
-
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>

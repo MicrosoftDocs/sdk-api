@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>ADSPROPINITPARAMS</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropgetinitinfo">ADsPropGetInitInfo</a> function to obtain object data that a display specifier applies to.
+The <b>ADSPROPINITPARAMS</b> structure is used with the <a href="/windows/desktop/api/adsprop/nf-adsprop-adspropgetinitinfo">ADsPropGetInitInfo</a> function to obtain object data that a display specifier applies to.
 
 ## -struct-fields
 
 ### -field dwSize
 
-The size, in bytes, of the <b>ADSPROPINITPARAMS</b> structure. Set this value before calling <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropgetinitinfo">ADsPropGetInitInfo</a>.
+The size, in bytes, of the <b>ADSPROPINITPARAMS</b> structure. Set this value before calling <a href="/windows/desktop/api/adsprop/nf-adsprop-adspropgetinitinfo">ADsPropGetInitInfo</a>.
 
 ### -field dwFlags
 
@@ -72,7 +72,7 @@ Contains an <b>HRESULT</b> value that specifies the result of the bind/get opera
 
 ### -field pDsObj
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a> interface that represents the directory object that the display specifier applies to. Do not release this interface.
+Pointer to an <a href="/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a> interface that represents the directory object that the display specifier applies to. Do not release this interface.
 
 ### -field pwzCN
 
@@ -80,21 +80,20 @@ Pointer to a null-terminated Unicode string that contains the common name of the
 
 ### -field pWritableAttrs
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structure that contains attribute data for the directory object.
+Pointer to an <a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structure that contains attribute data for the directory object.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropgetinitinfo">ADsPropGetInitInfo</a> function allocates memory  for the <b>pwzCN</b> and <b>pWritableAttrs</b> members. This memory is freed by the system after all display specifier objects are destroyed. The reference count for the interface pointer in <b>pDsObj</b> is not incremented by calling <b>ADsPropGetInitInfo</b>, so the interface must not be released by the caller.
+The <a href="/windows/desktop/api/adsprop/nf-adsprop-adspropgetinitinfo">ADsPropGetInitInfo</a> function allocates memory  for the <b>pwzCN</b> and <b>pWritableAttrs</b> members. This memory is freed by the system after all display specifier objects are destroyed. The reference count for the interface pointer in <b>pDsObj</b> is not incremented by calling <b>ADsPropGetInitInfo</b>, so the interface must not be released by the caller.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
+<a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropgetinitinfo">ADsPropGetInitInfo</a>
+<a href="/windows/desktop/api/adsprop/nf-adsprop-adspropgetinitinfo">ADsPropGetInitInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>

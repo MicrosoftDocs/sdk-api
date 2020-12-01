@@ -57,9 +57,9 @@ Get a pointer to the device that created this interface.
 
 ### -param ppDevice [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>**</b>
+Type: <b><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>**</b>
 
-Address of a pointer to a device (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>).
+Address of a pointer to a device (see <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>).
 
 ## -remarks
 
@@ -67,5 +67,4 @@ Any returned interfaces will have their reference count incremented by one, so b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicechild">ID3D11DeviceChild</a>

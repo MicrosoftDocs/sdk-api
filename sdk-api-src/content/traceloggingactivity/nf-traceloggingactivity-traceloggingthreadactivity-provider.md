@@ -60,5 +60,4 @@ The handle to the TraceLogging provider associated with this activity.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity~r1">TraceLoggingThreadActivity</a>
-
+<a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivity-r1">TraceLoggingThreadActivity</a>

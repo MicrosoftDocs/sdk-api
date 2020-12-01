@@ -68,9 +68,8 @@ Specifies the highest version of the Peer Infrastructure that the Peer DLL insta
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupstartup">PeerGroupStartup</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupstartup">PeerGroupStartup</a>

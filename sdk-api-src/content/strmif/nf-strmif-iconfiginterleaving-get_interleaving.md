@@ -69,17 +69,16 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-put_interleaving">IConfigInterleaving::put_Interleaving</a>.
+For more information, see <a href="/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-put_interleaving">IConfigInterleaving::put_Interleaving</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iconfiginterleaving">IConfigInterleaving Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iconfiginterleaving">IConfigInterleaving Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-put_interleaving">IConfigInterleaving::put_Interleaving</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-put_interleaving">IConfigInterleaving::put_Interleaving</a>

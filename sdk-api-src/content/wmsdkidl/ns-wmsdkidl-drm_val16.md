@@ -66,5 +66,4 @@ This structure is used to store the device serial number for network devices, su
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

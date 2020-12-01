@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IPSEC_SA_BUNDLE0</b> structure is used to store information about an IPsec security association (SA) bundle.
-[IPSEC_SA_BUNDLE1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1) is available.</div><div> </div>
+[IPSEC_SA_BUNDLE1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle1) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -190,7 +190,7 @@ Peer has negotiation discovery enabled, and is on a perimeter network.
 
 ### -field lifetime
 
-Lifetime of all the SAs in the bundle as specified by [IPSEC_SA_LIFETIME0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0).
+Lifetime of all the SAs in the bundle as specified by [IPSEC_SA_LIFETIME0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0).
 
 ### -field idleTimeoutSeconds
 
@@ -205,7 +205,7 @@ Used for negotiation discovery.
 
 ### -field ipsecId
 
-Pointer to an [IPSEC_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_id0) structure that contains optional IPsec identity info.
+Pointer to an [IPSEC_ID0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_id0) structure that contains optional IPsec identity info.
 
 ### -field napContext
 
@@ -225,15 +225,15 @@ Array of IPsec SAs in the bundle. For AH + ESP SAs, use index [0] for ESP SA and
 
 
 
-See [IPSEC_SA0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa0) for more information.
+See [IPSEC_SA0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa0) for more information.
 
 ### -field keyModuleState
 
-Optional keying module specific information as specified by [IPSEC_KEYMODULE_STATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keymodule_state0).
+Optional keying module specific information as specified by [IPSEC_KEYMODULE_STATE0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keymodule_state0).
 
 ### -field ipVersion
 
-IP version as specified by [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version).
+IP version as specified by [FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version).
 
 ### -field peerV4PrivateAddress
 
@@ -250,29 +250,28 @@ Use this ID to correlate this IPsec SA with the IKE SA that generated it.
    this SA, and if so, contains the Diffie-Hellman group that was used for
    PFS.
 
-See [IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group) for more information.
+See [IPSEC_PFS_GROUP](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group) for more information.
 
 ## -see-also
 
-[FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
+[FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
 
 
 
-[IPSEC_KEYMODULE_STATE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keymodule_state0)
+[IPSEC_KEYMODULE_STATE0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_keymodule_state0)
 
 
 
-[IPSEC_PFS_GROUP](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group)
+[IPSEC_PFS_GROUP](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_pfs_group)
 
 
 
-[IPSEC_SA0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa0)
+[IPSEC_SA0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa0)
 
 
 
-[IPSEC_SA_LIFETIME0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0)
+[IPSEC_SA_LIFETIME0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_lifetime0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

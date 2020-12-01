@@ -61,23 +61,22 @@ S_OK is returned on success, but other success codes may be returned as a result
 ## -remarks
 
 This method blocks file system access to a recorder through applications such as Explorer. The recorder must be opened with this method before it is possible to use the following methods: 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-querymediatype">QueryMediaType</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-eject">Eject</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-erase">Erase</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-close">Close</a>.
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-querymediatype">QueryMediaType</a>, 
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-eject">Eject</a>, 
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-erase">Erase</a>, and 
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-close">Close</a>.
 
 It is important to close the recorder before calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-recorddisc">IDiscMaster::RecordDisc</a>, or it will fail with IMAPI_E_DEVICE_NOTACCESSIBLE. The device is exclusively committed to access through either 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>, but not both at the same time. This is to ensure that there is no confusion regarding allowed operations and ownership of a recorder during application control or a burn.
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscmaster-recorddisc">IDiscMaster::RecordDisc</a>, or it will fail with IMAPI_E_DEVICE_NOTACCESSIBLE. The device is exclusively committed to access through either 
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a> or 
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>, but not both at the same time. This is to ensure that there is no confusion regarding allowed operations and ownership of a recorder during application control or a burn.
 
 An exclusive lock should be held for as short a time as possible. Requests that come from other operating system components are not queued for later execution. Instead, they are simply failed. This could cause confusion with users who don't think a burn is in progress.
 
 Any time that 
 <b>OpenExclusive</b> is called, it appears to the file system that the disc has been removed. When the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscrecorder-close">Close</a> call is made, it appears to the file system that the media has reappeared. This may cause auto-run issues.
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscrecorder-close">Close</a> call is made, it appears to the file system that the media has reappeared. This may cause auto-run issues.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
-
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>

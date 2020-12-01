@@ -69,31 +69,30 @@ Time interval, in microseconds. This value is used in combination with the <b>tv
 
 ## -remarks
 
-The <b>timeval</b> structure is used in Windows Sockets by the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a> function to specify the maximum time the function can take to complete. The time interval is a combination of the values in <b>tv_sec</b> and <b>tv_usec</b> members.
+The <b>timeval</b> structure is used in Windows Sockets by the <a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a> function to specify the maximum time the function can take to complete. The time interval is a combination of the values in <b>tv_sec</b> and <b>tv_usec</b> members.
 
-Several functions are added on Windows Vista and later that use the  <b>timeval</b> structure. These functions include <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-setaddrinfoexa">SetAddrInfoEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbylist">WSAConnectByList</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbynamea">WSAConnectByName</a>.
+Several functions are added on Windows Vista and later that use the  <b>timeval</b> structure. These functions include <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>, <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-setaddrinfoexa">SetAddrInfoEx</a>, <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbylist">WSAConnectByList</a>, and <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbynamea">WSAConnectByName</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfoexa">GetAddrInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2tcpip/nf-ws2tcpip-setaddrinfoexa">SetAddrInfoEx</a>
+<a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-setaddrinfoexa">SetAddrInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbylist">WSAConnectByList</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbylist">WSAConnectByList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbynamea">WSAConnectByName</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaconnectbynamea">WSAConnectByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-linger">linger</a>
+<a href="/windows/desktop/api/winsock/ns-winsock-linger">linger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
-
+<a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a>

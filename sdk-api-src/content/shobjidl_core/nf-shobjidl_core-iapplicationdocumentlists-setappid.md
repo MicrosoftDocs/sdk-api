@@ -68,21 +68,20 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-If the application has an explicit AppUserModelID, this method must be called before you call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-getlist">GetList</a>.
+If the application has an explicit AppUserModelID, this method must be called before you call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-getlist">GetList</a>.
 
 After an AppUserModelID is specified through an object's <b>SetAppID</b> method, the AppUserModelID is saved in the object for that object's lifetime, providing that it is not overwritten by another call to <b>SetAppID</b>.
 
-Some applications will not declare an explicit AppUserModelID and should not call this method. In that case, the application's identity is deduced when <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-getlist">IApplicationDocumentLists::GetList</a> is called. However, there is a performance benefit in avoiding those calculations, so applications that provide custom Jump Lists are encouraged to use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-setcurrentprocessexplicitappusermodelid">explicit AppUserModelIDs</a>.
+Some applications will not declare an explicit AppUserModelID and should not call this method. In that case, the application's identity is deduced when <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdocumentlists-getlist">IApplicationDocumentLists::GetList</a> is called. However, there is a performance benefit in avoiding those calculations, so applications that provide custom Jump Lists are encouraged to use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-setcurrentprocessexplicitappusermodelid">explicit AppUserModelIDs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/appids">Application User Model IDs (AppUserModelIDs)</a>
+<a href="/windows/desktop/shell/appids">Application User Model IDs (AppUserModelIDs)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists">IApplicationDocumentLists</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdocumentlists">IApplicationDocumentLists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-
+<a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>

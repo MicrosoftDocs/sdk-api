@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the dynamic range control profile in a Dolby Digital audio stream. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencdddynamicrangecompressioncontrol-property">AVEncDDDynamicRangeCompressionControl</a> property.
+Specifies the dynamic range control profile in a Dolby Digital audio stream. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencdddynamicrangecompressioncontrol-property">AVEncDDDynamicRangeCompressionControl</a> property.
 
 ## -enum-fields
 
@@ -80,9 +80,8 @@ Speech profile.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

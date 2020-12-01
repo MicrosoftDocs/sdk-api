@@ -86,7 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -106,5 +106,4 @@ Cluster Shared Volume File System (CsvFS) | Yes
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [FSCTL_DISMOUNT_VOLUME](ni-winioctl-fsctl_dismount_volume.md)
-* [Volume Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/volume-management-control-codes)
-
+* [Volume Management Control Codes](/windows/desktop/FileIO/volume-management-control-codes)

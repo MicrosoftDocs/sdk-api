@@ -80,7 +80,7 @@ Index that describes which component of <i>V</i> to place in the w-component of 
 
 ## -returns
 
-Returns the swizzled <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
+Returns the swizzled <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
 ## -remarks
 
@@ -99,7 +99,7 @@ The swizzled vector (<i>result</i>) will be &lt;40.0f, 40.0f, 10.0f, 30.0f&gt;.
    evaluate to 0, 1, 2, and 3 respectively for use with <b>XMVectorSwizzle</b>. 
    This is identical to <code>XM_PERMUTE_0X</code>, <code>XM_PERMUTE_0Y</code>, <code>XM_PERMUTE_0Z</code>, and <code>XM_PERMUTE_0W</code>.
 
-For the case of constant indices (E0, E1, E2, E3), it is much more efficent to use the template form of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvectorswizzle-template">XMVectorSwizzle</a>:
+For the case of constant indices (E0, E1, E2, E3), it is much more efficent to use the template form of <a href="/windows/desktop/dxmath/xmvectorswizzle-template">XMVectorSwizzle</a>:
 
 
 ```
@@ -117,9 +117,8 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-component-wise">Component-Wise Vector Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-component-wise">Component-Wise Vector Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorpermute">XMVectorPermute</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorpermute">XMVectorPermute</a>

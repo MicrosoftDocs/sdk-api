@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-The <code>SIZE_MPEG1VIDEOINFO</code> macro calculates the size of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a> structure, including the sequence header (<b>bSequenceHeader</b>).
+The <code>SIZE_MPEG1VIDEOINFO</code> macro calculates the size of an <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a> structure, including the sequence header (<b>bSequenceHeader</b>).
 
 ## -parameters
 
 ### -param pv
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a> structure.
+Pointer to an <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>
-
+<a href="/windows/desktop/DirectShow/video-and-image-functions">Video and Image Functions</a>

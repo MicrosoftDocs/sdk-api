@@ -208,7 +208,7 @@ If <i>dwIndex</i> is GGL_INDEX, the return value is one of the following values.
 </tr>
 <tr>
 <td>GL_ID_REVERSECONVERSION</td>
-<td>Information about reverse conversion is available by calling <b>ImmGetGuideLine</b>, specifying GGL_PRIVATE. The information retrieved is in <a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a> format.</td>
+<td>Information about reverse conversion is available by calling <b>ImmGetGuideLine</b>, specifying GGL_PRIVATE. The information retrieved is in <a href="/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a> format.</td>
 </tr>
 </table>
  
@@ -219,7 +219,7 @@ If <i>dwIndex</i> is GGL_PRIVATE, the return value is the number of bytes of inf
 
 ## -remarks
 
-Applications typically call this function after receiving an <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-guideline">IMN_GUIDELINE</a> command.
+Applications typically call this function after receiving an <a href="/windows/desktop/Intl/imn-guideline">IMN_GUIDELINE</a> command.
 
 
 
@@ -230,17 +230,16 @@ Applications typically call this function after receiving an <a href="https://do
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a>
+<a href="/windows/desktop/api/imm/ns-imm-candidatelist">CANDIDATELIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-guideline">IMN_GUIDELINE</a>
+<a href="/windows/desktop/Intl/imn-guideline">IMN_GUIDELINE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

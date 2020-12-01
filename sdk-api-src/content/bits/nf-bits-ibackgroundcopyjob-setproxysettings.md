@@ -57,7 +57,7 @@ Specifies which proxy to use to transfer files.
 ### -param ProxyUsage [in]
 
 Specifies whether to use the user's proxy settings, not to use a proxy, or to use application-specified proxy settings. The default is to use the user's proxy settings, <b>BG_JOB_PROXY_USAGE_PRECONFIG</b>. For a list of proxy options, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a> enumeration.
+<a href="/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a> enumeration.
 
 ### -param ProxyList [in]
 
@@ -104,7 +104,7 @@ Proxy was successfully specified.
 </td>
 <td width="60%">
 The value for <i>ProxyUsage</i> is not defined in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a> enumeration.
+<a href="/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a> enumeration.
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ The <i>pProxyList</i> parameter cannot be <b>NULL</b> if <i>ProxyUsage</i> is <b
 
 The proxy information you provide is validated at run time. If the proxy information is invalid, the job enters the <b>BG_JOB_STATE_ERROR</b> state with a <b>BG_E_INVALID_PROXY_INFO</b> error code.
 
- If your service runs as LocalSystem, you should use the <b>SetProxySettings</b> method to explicitly specify a proxy or proxy bypass list for the account and set <i>ProxyUsage</i> to <b>BG_JOB_PROXY_USAGE_OVERRIDE</b>. For more information on using system accounts with BITS, see <a href="https://docs.microsoft.com/windows/desktop/Bits/service-accounts-and-bits">Service Accounts and BITS</a>.
+ If your service runs as LocalSystem, you should use the <b>SetProxySettings</b> method to explicitly specify a proxy or proxy bypass list for the account and set <i>ProxyUsage</i> to <b>BG_JOB_PROXY_USAGE_OVERRIDE</b>. For more information on using system accounts with BITS, see <a href="/windows/desktop/Bits/service-accounts-and-bits">Service Accounts and BITS</a>.
 
 BITS does not recognize the proxy settings that are set using the Proxycfg.exe file.
 
@@ -177,9 +177,8 @@ BITS uses the Internet Explorer proxy settings of the user if an application doe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a>
+<a href="/windows/desktop/api/bits/ne-bits-bg_job_proxy_usage">BG_JOB_PROXY_USAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getproxysettings">IBackgroundCopyJob::GetProxySettings</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getproxysettings">IBackgroundCopyJob::GetProxySettings</a>

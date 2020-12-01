@@ -56,41 +56,40 @@ Describes the slot of a root signature version 1.0.
 
 ### -field ParameterType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_parameter_type">D3D12_ROOT_PARAMETER_TYPE</a>-typed value that  specifies the type of root signature slot. This member determines which type to use in the union below.
+A <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_parameter_type">D3D12_ROOT_PARAMETER_TYPE</a>-typed value that  specifies the type of root signature slot. This member determines which type to use in the union below.
 
 ### -field DescriptorTable
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor_table">D3D12_ROOT_DESCRIPTOR_TABLE</a> structure that describes the layout of a descriptor table as a collection of descriptor ranges that appear one after the other in a descriptor heap.
+A <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor_table">D3D12_ROOT_DESCRIPTOR_TABLE</a> structure that describes the layout of a descriptor table as a collection of descriptor ranges that appear one after the other in a descriptor heap.
 
 ### -field Constants
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_constants">D3D12_ROOT_CONSTANTS</a> structure that describes constants inline in the root signature that appear in shaders as one constant buffer.
+A <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_constants">D3D12_ROOT_CONSTANTS</a> structure that describes constants inline in the root signature that appear in shaders as one constant buffer.
 
 ### -field Descriptor
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor">D3D12_ROOT_DESCRIPTOR</a> structure that describes descriptors inline in the root signature that appear in shaders.
+A <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_descriptor">D3D12_ROOT_DESCRIPTOR</a> structure that describes descriptors inline in the root signature that appear in shaders.
 
 ### -field ShaderVisibility
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility">D3D12_SHADER_VISIBILITY</a>-typed value that  specifies the shaders that can access the contents of the root signature slot.
+A <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_shader_visibility">D3D12_SHADER_VISIBILITY</a>-typed value that  specifies the shaders that can access the contents of the root signature slot.
 
 ## -remarks
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc">D3D12_ROOT_SIGNATURE_DESC</a> can contain descriptor tables and inline constants. More capable hardware could support inline descriptors in the root signature as well. The number of bind slots in the root signature are most efficient if kept below a certain size, and can have an upper bound as well.
+A <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_signature_desc">D3D12_ROOT_SIGNATURE_DESC</a> can contain descriptor tables and inline constants. More capable hardware could support inline descriptors in the root signature as well. The number of bind slots in the root signature are most efficient if kept below a certain size, and can have an upper bound as well.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-root-parameter">CD3DX12_ROOT_PARAMETER</a>
+<a href="/windows/desktop/direct3d12/cd3dx12-root-parameter">CD3DX12_ROOT_PARAMETER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/creating-a-root-signature">Creating a Root Signature</a>
+<a href="/windows/desktop/direct3d12/creating-a-root-signature">Creating a Root Signature</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_parameter1">D3D12_ROOT_PARAMETER1</a>
-
+<a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_root_parameter1">D3D12_ROOT_PARAMETER1</a>

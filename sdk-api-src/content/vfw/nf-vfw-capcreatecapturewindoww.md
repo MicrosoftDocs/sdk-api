@@ -62,7 +62,7 @@ Null-terminated string containing the name used for the capture window.
 
 ### -param dwStyle
 
-Window styles used for the capture window. Window styles are described with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function.
+Window styles used for the capture window. Window styles are described with the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function.
 
 ### -param x
 
@@ -94,18 +94,17 @@ Returns a handle of the capture window if successful or <b>NULL</b> otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/creating-a-capture-window">Creating a Capture Window</a>
+<a href="/windows/desktop/Multimedia/creating-a-capture-window">Creating a Capture Window</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
+<a href="/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The vfw.h header defines capCreateCaptureWindow as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -165,11 +165,10 @@ The connection is outside of the home network.
 
 ### -field CostSource
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a></b>
+Type: <b><a href="/windows/desktop/api/wcmapi/ne-wcmapi-wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a></b>
 
 Specifies the cost source.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wcmapi/ne-wcmapi-wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a>
-
+<a href="/windows/desktop/api/wcmapi/ne-wcmapi-wcm_connection_cost_source">WCM_CONNECTION_COST_SOURCE</a>

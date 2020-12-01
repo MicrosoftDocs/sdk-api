@@ -61,12 +61,11 @@ This property is read/write.
 ## -remarks
 
 Setting this property to <b>VARIANT_TRUE</b> does not require that the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduledefinition-get_storagetype">IFsrmStorageModuleDefinition::StorageType</a> 
+    <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduledefinition-get_storagetype">IFsrmStorageModuleDefinition::StorageType</a> 
     property to be set to <b>FsrmStorageModuleType_InFile</b>. For example, you can set this 
     property to <b>VARIANT_TRUE</b> if you need to update the file to let another process know that 
     you have processed the file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduledefinition">IFsrmStorageModuleDefinition</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduledefinition">IFsrmStorageModuleDefinition</a>

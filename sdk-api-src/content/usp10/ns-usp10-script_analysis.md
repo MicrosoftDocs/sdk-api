@@ -58,13 +58,13 @@ Contains a portion of a Unicode string, that is, an "item".
 
 ### -field eScript
 
-Opaque value identifying the engine that Uniscribe uses when calling the <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>, <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scripttextout">ScriptTextOut</a> functions for the item. The value for this member is undefined and applications should not rely on its value being the same from one release to the next. An application can obtain the attributes of <b>eScript</b> by calling <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptgetproperties">ScriptGetProperties</a>.
+Opaque value identifying the engine that Uniscribe uses when calling the <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>, <a href="/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>, and <a href="/windows/desktop/api/usp10/nf-usp10-scripttextout">ScriptTextOut</a> functions for the item. The value for this member is undefined and applications should not rely on its value being the same from one release to the next. An application can obtain the attributes of <b>eScript</b> by calling <a href="/windows/desktop/api/usp10/nf-usp10-scriptgetproperties">ScriptGetProperties</a>.
 
 To disable shaping, the application should set this member to SCRIPT_UNDEFINED.
 
 ### -field fRTL
 
-Value indicating rendering direction. Possible values are defined in the following table. This member is set to <b>TRUE</b> for a number in a left-to-right run, because digits are always displayed left to right, or <b>FALSE</b> for a number in a right-to-left run. The value of this member is normally identical to the parity of the Unicode embedding level, but it might differ if overridden by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> legacy support.
+Value indicating rendering direction. Possible values are defined in the following table. This member is set to <b>TRUE</b> for a number in a left-to-right run, because digits are always displayed left to right, or <b>FALSE</b> for a number in a right-to-left run. The value of this member is normally identical to the parity of the Unicode embedding level, but it might differ if overridden by <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a> legacy support.
 
 <table>
 <tr>
@@ -126,7 +126,7 @@ Lay out the number in a left-to-right run, because it is read as part of the lef
 
 ### -field fLinkBefore
 
-Value indicating if the shaping engine shapes the first character of the item as if it joins with a previous character. Possible values are defined in the following table. This member is set by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>. The application can override the value before calling <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>.
+Value indicating if the shaping engine shapes the first character of the item as if it joins with a previous character. Possible values are defined in the following table. This member is set by <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>. The application can override the value before calling <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>.
 
 <table>
 <tr>
@@ -157,7 +157,7 @@ Do not shape the first character by linking with a previous character.
 
 ### -field fLinkAfter
 
-Value indicating if the shaping engine shapes the last character of the item as if it joins with a subsequent character. Possible values are defined in the following table. This member is set by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>. The application can override the value before calling <b>ScriptItemize</b>.
+Value indicating if the shaping engine shapes the last character of the item as if it joins with a subsequent character. Possible values are defined in the following table. This member is set by <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>. The application can override the value before calling <b>ScriptItemize</b>.
 
 <table>
 <tr>
@@ -188,7 +188,7 @@ Do not shape the last character by linking with a subsequent character.
 
 ### -field fLogicalOrder
 
-Value indicating if the shaping engine generates all glyph-related arrays in logical order. Possible values are defined in the following table. This member is set to <b>FALSE</b> by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>. The application can override the value before calling <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>.
+Value indicating if the shaping engine generates all glyph-related arrays in logical order. Possible values are defined in the following table. This member is set to <b>FALSE</b> by <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>. The application can override the value before calling <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>.
 
 <table>
 <tr>
@@ -219,9 +219,9 @@ Generate all glyph-related arrays in visual order, with the first array entry co
 
 ### -field fNoGlyphIndex
 
-Value indicating the use of glyphs for the item. Possible values are defined in the following table. The application can set this member to <b>TRUE</b> on input to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> to disable the use of glyphs for the item. Additionally, <b>ScriptShape</b> sets it to <b>TRUE</b> for a hardware context containing symbolic, unrecognized, and device fonts.
+Value indicating the use of glyphs for the item. Possible values are defined in the following table. The application can set this member to <b>TRUE</b> on input to <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> to disable the use of glyphs for the item. Additionally, <b>ScriptShape</b> sets it to <b>TRUE</b> for a hardware context containing symbolic, unrecognized, and device fonts.
 
-Disabling the use of glyphs also disables complex script shaping. Setting this member to <b>TRUE</b> implements shaping and placing directly by calls to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextextentexpointa">GetTextExtentExPoint</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>.
+Disabling the use of glyphs also disables complex script shaping. Setting this member to <b>TRUE</b> implements shaping and placing directly by calls to <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextextentexpointa">GetTextExtentExPoint</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>.
 
 <table>
 <tr>
@@ -256,9 +256,9 @@ A <a href="/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> stru
 
 ## -remarks
 
-This structure is filled by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>, each of which breaks a Unicode string into individually shapeable items. Neither function accesses the <b>SCRIPT_ANALYSIS</b> structure directly. Each function handles an array of <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a> structures, each of which has a member defining a <b>SCRIPT_ANALYSIS</b> structure.
+This structure is filled by <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a> or <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>, each of which breaks a Unicode string into individually shapeable items. Neither function accesses the <b>SCRIPT_ANALYSIS</b> structure directly. Each function handles an array of <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a> structures, each of which has a member defining a <b>SCRIPT_ANALYSIS</b> structure.
 
-Applications that use <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a> instead of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a> should also use <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshapeopentype">ScriptShapeOpenType</a> and <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplaceopentype">ScriptPlaceOpenType</a> instead of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> and <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>.
+Applications that use <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a> instead of <a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a> should also use <a href="/windows/desktop/api/usp10/nf-usp10-scriptshapeopentype">ScriptShapeOpenType</a> and <a href="/windows/desktop/api/usp10/nf-usp10-scriptplaceopentype">ScriptPlaceOpenType</a> instead of <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> and <a href="/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>. For more information, see <a href="/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>.
 
 ## -see-also
 
@@ -270,41 +270,40 @@ Applications that use <a href="https://docs.microsoft.com/windows/desktop/api/us
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptgetproperties">ScriptGetProperties</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptgetproperties">ScriptGetProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemize">ScriptItemize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptplace">ScriptPlace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptplaceopentype">ScriptPlaceOpenType</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptplaceopentype">ScriptPlaceOpenType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshapeopentype">ScriptShapeOpenType</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptshapeopentype">ScriptShapeOpenType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scripttextout">ScriptTextOut</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scripttextout">ScriptTextOut</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
-
+<a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>

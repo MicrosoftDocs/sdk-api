@@ -58,22 +58,22 @@ Registers an
 ### -param hChange [in]
 
 A handle to a notification port that is created with the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createclusternotifyportv2">CreateClusterNotifyPortV2</a> function.
+      <a href="/windows/desktop/api/clusapi/nf-clusapi-createclusternotifyportv2">CreateClusterNotifyPortV2</a> function.
 
 ### -param Filter [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-notify_filter_and_type">NOTIFY_FILTER_AND_TYPE</a> structure that specifies the event type to create.
+A <a href="/windows/desktop/api/clusapi/ns-clusapi-notify_filter_and_type">NOTIFY_FILTER_AND_TYPE</a> structure that specifies the event type to create.
 
 ### -param hObject [in]
 
-A handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">failover cluster object</a> 
+A handle to the <a href="/previous-versions/windows/desktop/mscs/cluster-objects">failover cluster object</a> 
        that is affected by the event as specified in the <i>dwFilterType</i> parameter. The type of handle 
       depends on the value of <i>dwFilterType</i>.
 
 ### -param dwNotifyKey [in]
 
 The notification key that is returned from the  
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusternotify">GetClusterNotify</a>  function when the requested event 
+      <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusternotify">GetClusterNotify</a>  function when the requested event 
       occurs.
 
 ## -returns
@@ -81,9 +81,8 @@ The notification key that is returned from the
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Function</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Function</a>

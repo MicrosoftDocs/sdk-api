@@ -60,12 +60,12 @@ The following list identifies the policy data managed by this interface and whic
 <li>The CES URL</li>
 <li>The CEP ID.</li>
 <li>The request ID string.</li>
-</ul>In addition to the preceding policy information, a CEP web service also queries Active Directory for collections of available certification authorities, certificate templates, and custom object identifiers. These collections can be retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> interface.
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-certenroll_propertyid">CERTENROLL_PROPERTYID</a> value is XCN_CERT_CEP_PROP_ID.</div><div> </div>
+</ul>In addition to the preceding policy information, a CEP web service also queries Active Directory for collections of available certification authorities, certificate templates, and custom object identifiers. These collections can be retrieved by using the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> interface.
+<div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/certenroll/ne-certenroll-certenroll_propertyid">CERTENROLL_PROPERTYID</a> value is XCN_CERT_CEP_PROP_ID.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyEnrollmentPolicyServer</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyEnrollmentPolicyServer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyEnrollmentPolicyServer</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyEnrollmentPolicyServer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>ICertPropertyEnrollmentPolicyServer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getauthentication">GetAuthentication</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getauthentication">GetAuthentication</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that specifies the type of authentication used by the CEP server to authenticate a client.
@@ -89,7 +89,7 @@ Retrieves a value that specifies the type of authentication used by the CEP serv
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getenrollmentserverauthentication">GetEnrollmentServerAuthentication</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getenrollmentserverauthentication">GetEnrollmentServerAuthentication</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that specifies the type of authentication used by the CES to authenticate a client.
@@ -98,7 +98,7 @@ Retrieves a value that specifies the type of authentication used by the CES to a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getenrollmentserverurl">GetEnrollmentServerUrl</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getenrollmentserverurl">GetEnrollmentServerUrl</a>
 </td>
 <td align="left" width="63%">
 Retrieves a string that contains the URL for the certificate enrollment server (CES).
@@ -107,7 +107,7 @@ Retrieves a string that contains the URL for the certificate enrollment server (
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverid">GetPolicyServerId</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverid">GetPolicyServerId</a>
 </td>
 <td align="left" width="63%">
 Retrieves a string that uniquely identifies the CEP server.
@@ -116,7 +116,7 @@ Retrieves a string that uniquely identifies the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverurl">GetPolicyServerUrl</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpolicyserverurl">GetPolicyServerUrl</a>
 </td>
 <td align="left" width="63%">
 Retrieves a string that contains the URL for the CEP server.
@@ -125,7 +125,7 @@ Retrieves a string that contains the URL for the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpropertyflags">GetPropertyFlags</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getpropertyflags">GetPropertyFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that specifies the default policy server URL.
@@ -134,7 +134,7 @@ Retrieves a value that specifies the default policy server URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getrequestidstring">GetRequestIdString</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-getrequestidstring">GetRequestIdString</a>
 </td>
 <td align="left" width="63%">
 Retrieves a unique string identifier for the certificate request sent to the certification authority during enrollment.
@@ -143,7 +143,7 @@ Retrieves a unique string identifier for the certificate request sent to the cer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-geturlflags">GetUrlFlags</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-geturlflags">GetUrlFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves a set of flags that contain miscellaneous policy information about the CEP server.
@@ -152,7 +152,7 @@ Retrieves a set of flags that contain miscellaneous policy information about the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyenrollmentpolicyserver-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an <b>ICertPropertyEnrollmentPolicyServer</b> object.
@@ -163,9 +163,8 @@ Initializes an <b>ICertPropertyEnrollmentPolicyServer</b> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>

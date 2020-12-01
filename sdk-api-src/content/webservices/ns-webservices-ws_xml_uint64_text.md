@@ -58,9 +58,8 @@ Represents an unsigned 64 bit integer.  (e.g. The value 255 represents the text 
 
 ### -field text
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
 
 ### -field value
 
 The unsigned integer value.
-

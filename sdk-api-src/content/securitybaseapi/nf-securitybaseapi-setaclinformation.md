@@ -57,7 +57,7 @@ api_name:
 
 ## -description
 
-The <b>SetAclInformation</b> function sets information about an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
+The <b>SetAclInformation</b> function sets information about an <a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL).
 
 ## -parameters
 
@@ -69,7 +69,7 @@ ACL. The function sets information in this ACL.
 ### -param pAclInformation [in]
 
 A pointer to a buffer that contains the information to be set. This must be a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl_revision_information">ACL_REVISION_INFORMATION</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-acl_revision_information">ACL_REVISION_INFORMATION</a> structure.
 
 ### -param nAclInformationLength [in]
 
@@ -78,13 +78,13 @@ The size, in bytes, of the buffer pointed to by the <i>pAclInfo</i> parameter.
 ### -param dwAclInformationClass [in]
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-acl_information_class">ACL_INFORMATION_CLASS</a> enumerated type that gives the class of information requested. 
+<a href="/windows/desktop/api/winnt/ne-winnt-acl_information_class">ACL_INFORMATION_CLASS</a> enumerated type that gives the class of information requested. 
 
 
 
 
 Currently, this parameter can be <b>AclRevisionInformation</b>. This means that the buffer pointed to by the <i>pAclInformation</i> parameter contains an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl_revision_information">ACL_REVISION_INFORMATION</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-acl_revision_information">ACL_REVISION_INFORMATION</a> structure.
 
 ## -returns
 
@@ -92,33 +92,32 @@ If the function succeeds, the function returns nonzero.
       
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-acl_information_class">ACL_INFORMATION_CLASS</a>
+<a href="/windows/desktop/api/winnt/ne-winnt-acl_information_class">ACL_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl_revision_information">ACL_REVISION_INFORMATION</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-acl_revision_information">ACL_REVISION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getaclinformation">GetAclInformation</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getaclinformation">GetAclInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl">InitializeAcl</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializeacl">InitializeAcl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidacl">IsValidAcl</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidacl">IsValidAcl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
+<a href="/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>

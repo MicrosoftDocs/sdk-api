@@ -56,19 +56,19 @@ Allows the client to specify the effects of a drop operation.
 
 ### -param fDrag
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-<b>TRUE</b> if the query is for a <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">IDropTarget::DragEnter</a> or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">IDropTarget::DragOver</a>. <b>FALSE</b> if the query is for <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a>.
+<b>TRUE</b> if the query is for a <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragenter">IDropTarget::DragEnter</a> or <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">IDropTarget::DragOver</a>. <b>FALSE</b> if the query is for <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a>.
 
 ### -param grfKeyState
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Key state as defined by OLE.
 
 ### -param pdwEffect
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPDWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPDWORD</a></b>
 
 The effect used by a rich edit control. When 
 					<i>fDrag</i> is <b>TRUE</b>, on return, its content is set to the effect allowable by the rich edit control. When 
@@ -76,11 +76,10 @@ The effect used by a rich edit control. When
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 This method returns <b>S_OK</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
-
+<a href="/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>

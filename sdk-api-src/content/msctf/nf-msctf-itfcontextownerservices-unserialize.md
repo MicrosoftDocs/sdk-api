@@ -56,11 +56,11 @@ Applies previously serialized property data to a property object.
 
 ### -param pProp [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a> object that receives the property data.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfproperty">ITfProperty</a> object that receives the property data.
 
 ### -param pHdr [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_persistent_property_header_acp">TF_PERSISTENT_PROPERTY_HEADER_ACP</a> structure that contains the header data for the property.
+Pointer to a <a href="/windows/desktop/api/msctf/ns-msctf-tf_persistent_property_header_acp">TF_PERSISTENT_PROPERTY_HEADER_ACP</a> structure that contains the header data for the property.
 
 ### -param pStream [in]
 
@@ -68,7 +68,7 @@ Pointer to an <b>IStream</b> object that contains the property data. This parame
 
 ### -param pLoader [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpersistentpropertyloaderacp">ITfPersistentPropertyLoaderACP</a> object that the TSF manager uses to obtain the property data. This parameter can be <b>NULL</b> if <i>pStream</i> is not <b>NULL</b>.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfpersistentpropertyloaderacp">ITfPersistentPropertyLoaderACP</a> object that the TSF manager uses to obtain the property data. This parameter can be <b>NULL</b> if <i>pStream</i> is not <b>NULL</b>.
 
 ## -returns
 
@@ -134,4 +134,3 @@ When calling this method, the application must be able to grant a synchronous re
 ## -see-also
 
 [ITfContextOwnerServices interface](nn-msctf-itfcontextownerservices.md), [ITfContextOwnerServices::Serialize](nf-msctf-itfcontextownerservices-serialize.md), [ITfProperty interface](nn-msctf-itfproperty.md), [ITfPersistentPropertyLoaderACP interface](nn-msctf-itfpersistentpropertyloaderacp.md), [TF_PERSISTENT_PROPERTY_HEADER_ACP structure](ns-msctf-tf_persistent_property_header_acp.md)
-

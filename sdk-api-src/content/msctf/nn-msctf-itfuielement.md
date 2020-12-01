@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielementsink">ITfUIElement</a> interface is a base interface of the UIElement object and is implemented by a text service.
+The <a href="/windows/desktop/api/msctf/nn-msctf-itfuielementsink">ITfUIElement</a> interface is a base interface of the UIElement object and is implemented by a text service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfUIElement</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfUIElement</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfUIElement</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfUIElement</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfUIElement</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielement-getdescription">GetDescription</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfuielement-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Returns the description of the UI element.
@@ -78,7 +78,7 @@ Returns the description of the UI element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielement-getguid">GetGUID</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfuielement-getguid">GetGUID</a>
 </td>
 <td align="left" width="63%">
 Get the unique id of this UI element.
@@ -87,7 +87,7 @@ Get the unique id of this UI element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielement-isshown">IsShown</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfuielement-isshown">IsShown</a>
 </td>
 <td align="left" width="63%">
 Return true if the UI is currently shown by a text service; otherwise false.
@@ -96,7 +96,7 @@ Return true if the UI is currently shown by a text service; otherwise false.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielement-show">Show</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfuielement-show">Show</a>
 </td>
 <td align="left" width="63%">
 Shows the text service's UI of this UI element.
@@ -107,5 +107,4 @@ Shows the text service's UI of this UI element.
 
 ## -remarks
 
-A text service may implement some other UIElement interface such as <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcandidatelistuielement">ITfCandidateListUIElement</a> in the same object that can be obtained by QI. A text service may implement only the <b>ITfUIElement</b> interface to a UI object that does not have to be drawn by the application but the show status can be controlled by the application. A text service that is categorized by GUID_TFCAT_TIPCAP_UIELEMENTENABLED needs to implement ITfUIElement for any UI object.
-
+A text service may implement some other UIElement interface such as <a href="/windows/desktop/api/msctf/nn-msctf-itfcandidatelistuielement">ITfCandidateListUIElement</a> in the same object that can be obtained by QI. A text service may implement only the <b>ITfUIElement</b> interface to a UI object that does not have to be drawn by the application but the show status can be controlled by the application. A text service that is categorized by GUID_TFCAT_TIPCAP_UIELEMENTENABLED needs to implement ITfUIElement for any UI object.

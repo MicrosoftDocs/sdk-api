@@ -58,7 +58,7 @@ The
 ### -param hMprServer [in]
 
 Handle to the router on which information is being set. This handle is obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>.
 
 ### -param dwTransportId [in]
 
@@ -94,7 +94,7 @@ A <b>DWORD</b> value that describes the transport type to set. Acceptable values
 ### -param pGlobalInfo [in, optional]
 
 Pointer to a buffer that specifies global information for the transport. Use the 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-information-functions">Information Header Functions</a> to manipulate information headers. 
+<a href="/windows/desktop/RRAS/router-information-functions">Information Header Functions</a> to manipulate information headers. 
 
 
 
@@ -177,17 +177,16 @@ The <i>dwTransportId</i> value does not match any supported transport protocols.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminserverconnect">MprAdminServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmintransportgetinfo">MprAdminTransportGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmintransportgetinfo">MprAdminTransportGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
+<a href="/windows/desktop/RRAS/router-administration-functions">Router Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

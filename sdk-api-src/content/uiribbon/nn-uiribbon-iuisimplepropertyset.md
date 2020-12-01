@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-<b>IUISimplePropertySet</b> is a read-only interface that defines a method for retrieving the value identified by a  property key. This interface is implemented by the Windows Ribbon framework and is also implemented by  the host application for each item in the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a> object of an item gallery.
+<b>IUISimplePropertySet</b> is a read-only interface that defines a method for retrieving the value identified by a  property key. This interface is implemented by the Windows Ribbon framework and is also implemented by  the host application for each item in the <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a> object of an item gallery.
 
-When implemented by the host application, the method defined by this interface is used to retrieve a property key  value for the selected item in the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>.
+When implemented by the host application, the method defined by this interface is used to retrieve a property key  value for the selected item in the <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection">IUICollection</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUISimplePropertySet</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUISimplePropertySet</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUISimplePropertySet</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUISimplePropertySet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IUISimplePropertySet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue">GetValue</a>
+<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value identified by a property key.
@@ -83,13 +83,12 @@ Retrieves the value identified by a property key.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-properties">Property Keys</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-properties">Property Keys</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/ribbon-controls-galleries">Working with Galleries</a>
-
+<a href="/windows/desktop/windowsribbon/ribbon-controls-galleries">Working with Galleries</a>

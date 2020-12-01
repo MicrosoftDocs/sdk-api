@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Assigns an image list to a button control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-setimagelist">BCM_SETIMAGELIST</a> message explicitly.
+Assigns an image list to a button control. You can use this macro or send the <a href="/windows/desktop/Controls/bcm-setimagelist">BCM_SETIMAGELIST</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
@@ -64,10 +64,9 @@ A handle to the button control.
 
 Type: <b>PBUTTON_IMAGELIST</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-button_imagelist">BUTTON_IMAGELIST</a> structure that contains the image list information to set.
+A pointer to a <a href="/windows/desktop/api/commctrl/ns-commctrl-button_imagelist">BUTTON_IMAGELIST</a> structure that contains the image list information to set.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
-

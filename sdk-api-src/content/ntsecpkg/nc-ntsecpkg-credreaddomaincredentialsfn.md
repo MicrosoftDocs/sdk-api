@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Reads a domain credential from the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/credential-manager">Credential Manager</a>.
+Reads a domain credential from the <a href="/windows/desktop/SecAuthN/credential-manager">Credential Manager</a>.
 
 ## -parameters
 
@@ -85,7 +85,7 @@ The caller is in-process.
 </dl>
 </td>
 <td width="60%">
-The caller should use the <a href="https://docs.microsoft.com/windows/desktop/Rpc/the-midl-user-allocate-function">midl_user_allocate</a> function to allocate the <i>Credential</i> buffer.
+The caller should use the <a href="/windows/desktop/Rpc/the-midl-user-allocate-function">midl_user_allocate</a> function to allocate the <i>Credential</i> buffer.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ The credential data is passed as clear text.
 </dl>
 </td>
 <td width="60%">
-The credential data is encrypted by using the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a> function.
+The credential data is encrypted by using the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-rtlencryptmemory">RtlEncryptMemory</a> function.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ The caller is a trusted process.
 
 ### -param TargetInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincred/ns-wincred-credential_target_informationa">CREDENTIAL_TARGET_INFORMATION</a> structure that contains information about the target computer.
+A pointer to a <a href="/windows/desktop/api/wincred/ns-wincred-credential_target_informationa">CREDENTIAL_TARGET_INFORMATION</a> structure that contains information about the target computer.
 
 ### -param Flags
 
@@ -147,14 +147,9 @@ Reserved. This parameter must be set to zero.
 
 The number of elements in the <i>Credential</i> array.
 
-
-#### - **Credential [out]
-
-A pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
-
 ### -param Credential [out]
 
-A pointer to a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
+A pointer to a pointer to an array of <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-encrypted_credentialw">ENCRYPTED_CREDENTIALW</a> structures that receive the credentials that this function reads.
 
 ## -returns
 
@@ -165,10 +160,9 @@ If the function fails, return an NTSTATUS error code that indicates the reason i
 ## -remarks
 
 A pointer to the <b>CrediReadDomainCredentials</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>

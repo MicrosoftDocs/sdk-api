@@ -64,7 +64,7 @@ The address of the variable that receives the flags associated with the property
 
 ### -param ppUnk [out]
 
-The address of the variable that receives the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer of the requested context property.
+The address of the variable that receives the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer of the requested context property.
 
 ## -returns
 
@@ -72,5 +72,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icontext">IContext</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-icontext">IContext</a>

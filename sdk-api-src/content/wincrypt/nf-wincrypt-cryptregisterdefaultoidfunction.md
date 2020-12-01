@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>CryptRegisterDefaultOIDFunction</b> registers a DLL containing the default function to be called for the specified encoding type and function name. Unlike 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidfunction">CryptRegisterOIDFunction</a>, the function name to be exported by the DLL cannot be overridden.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidfunction">CryptRegisterOIDFunction</a>, the function name to be exported by the DLL cannot be overridden.
 
 ## -parameters
 
@@ -72,7 +72,7 @@ Index location for the insertion of the DLL in the list of DLLs. If <i>dwIndex</
 
 ### -param pwszDll [in]
 
-Optional environment-variable string to be expanded using <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> function before loading the DLL.
+Optional environment-variable string to be expanded using <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> function before loading the DLL.
 
 ## -returns
 
@@ -82,5 +82,4 @@ If the function fails, the return value is zero (<b>FALSE</b>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>

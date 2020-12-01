@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Prepares the index of an overlay mask so that the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_draw">ImageList_Draw</a> function can use it.
+Prepares the index of an overlay mask so that the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_draw">ImageList_Draw</a> function can use it.
 
 ## -parameters
 
 ### -param i
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An index of an overlay mask.
 
@@ -66,4 +66,3 @@ The <b>INDEXTOOVERLAYMASK</b> macro is defined as follows.
 
 
 <pre class="syntax" xml:space="preserve"><code>#define INDEXTOOVERLAYMASK(i) ((i) &lt;&lt; 8)</code></pre>
-

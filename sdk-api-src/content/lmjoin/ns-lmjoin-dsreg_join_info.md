@@ -49,9 +49,6 @@ api_name:
  - DSREG_JOIN_INFO
 ---
 
-# DSREG_JOIN_INFO structure
-
-
 ## -description
 
 Contains information about how a device is joined to Microsoft Azure Active Directory.
@@ -67,6 +64,8 @@ An enumeration value that specifies the type of the join.
 Representations of the certification for the join.
 
 ### -field pszDeviceId
+
+The identifier of the device.
 
 ### -field pszIdpDomain
 
@@ -104,19 +103,10 @@ The URL for synchronizing user settings.
 
 Information about the user account  that was used to join a device to Azure AD.
 
-### -field pszDeviceID
-
-The identifier of the device.
-
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>
 
+<a href="/windows/desktop/api/lmjoin/ne-lmjoin-dsreg_join_type">DSREG_JOIN_TYPE</a>
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ne-lmjoin-dsreg_join_type">DSREG_JOIN_TYPE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_user_info">DSREG_USER_INFO</a>
-
+<a href="/windows/desktop/api/lmjoin/ns-lmjoin-dsreg_user_info">DSREG_USER_INFO</a>

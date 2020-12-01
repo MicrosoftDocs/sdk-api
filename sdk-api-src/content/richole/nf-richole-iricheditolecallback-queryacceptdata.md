@@ -70,7 +70,7 @@ The clipboard format that will be used for the paste or drop operation. If the v
 
 ### -param reco
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A clipboard operation flag, which can be one of these values.
 
@@ -103,20 +103,20 @@ Paste from the clipboard.
 
 ### -param fReally
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Indicates whether the drag-drop is actually happening or if it is just a query. A nonzero value indicates the paste or drop is actually happening. A zero value indicates the operation is just a query, such as for 
-					<a href="https://docs.microsoft.com/windows/desktop/Controls/em-canpaste">EM_CANPASTE</a>.
+					<a href="/windows/desktop/Controls/em-canpaste">EM_CANPASTE</a>.
 
 ### -param hMetaPict
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HGLOBAL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HGLOBAL</a></b>
 
 Handle to a metafile containing the icon view of an object if <b>DVASPECT_ICON</b> is being imposed on an object by a paste special operation.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns <b>S_OK</b> on success. See Remarks.
 
@@ -126,5 +126,4 @@ Returns <b>S_OK</b> on success. See Remarks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
-
+<a href="/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>

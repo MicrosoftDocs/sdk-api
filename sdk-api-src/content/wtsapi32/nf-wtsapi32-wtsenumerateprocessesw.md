@@ -46,6 +46,7 @@ api_name:
  - WTSEnumerateProcesses
  - WTSEnumerateProcessesA
  - WTSEnumerateProcessesW
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 ---
 
 # WTSEnumerateProcessesW function
@@ -61,7 +62,7 @@ Retrieves information about the active
 ### -param hServer [in]
 
 Handle to an RD Session Host server. Specify a handle opened by the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> function, or specify 
+      <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a> function, or specify 
       <b>WTS_CURRENT_SERVER_HANDLE</b> to indicate the RD Session Host server on which your application is 
       running.
 
@@ -76,9 +77,9 @@ Specifies the version of the enumeration request. Must be 1.
 ### -param ppProcessInfo [out]
 
 Pointer to a variable that receives a pointer to an array of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_process_infoa">WTS_PROCESS_INFO</a> structures. Each structure 
+      <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_process_infoa">WTS_PROCESS_INFO</a> structures. Each structure 
       in the array contains information about an active process on the specified RD Session Host server. To free the returned 
-      buffer, call the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> function.
+      buffer, call the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsfreememory">WTSFreeMemory</a> function.
 
 ### -param pCount [out]
 
@@ -90,7 +91,7 @@ Pointer to a variable that receives the number of <b>WTS_PROCESS_INFO</b>
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -106,5 +107,4 @@ The caller must be a member of the Administrators group to enumerate processes t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_process_infoa">WTS_PROCESS_INFO</a>
-
+<a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_process_infoa">WTS_PROCESS_INFO</a>

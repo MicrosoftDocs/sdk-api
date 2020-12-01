@@ -48,6 +48,7 @@ api_location:
  - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
  - GetPointerDevices
+req.apiset: ext-ms-win-rtcore-ntuser-wmpointer-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetPointerDevices function
@@ -61,17 +62,17 @@ Gets information about the pointer devices attached to the system.
 
 ### -param deviceCount [in, out]
 
-If <i>pointerDevices</i> is NULL, <i>deviceCount</i> returns the total number of attached pointer devices. Otherwise, <i>deviceCount</i> specifies the number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_device_info">POINTER_DEVICE_INFO</a> structures pointed to by <i>pointerDevices</i>.
+If <i>pointerDevices</i> is NULL, <i>deviceCount</i> returns the total number of attached pointer devices. Otherwise, <i>deviceCount</i> specifies the number of <a href="/windows/desktop/api/winuser/ns-winuser-pointer_device_info">POINTER_DEVICE_INFO</a> structures pointed to by <i>pointerDevices</i>.
 
 ### -param pointerDevices [out, optional]
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_device_info">POINTER_DEVICE_INFO</a> structures for the pointer devices attached to the system. If NULL, the total number of attached pointer devices is returned in <i>deviceCount</i>.
+Array of <a href="/windows/desktop/api/winuser/ns-winuser-pointer_device_info">POINTER_DEVICE_INFO</a> structures for the pointer devices attached to the system. If NULL, the total number of attached pointer devices is returned in <i>deviceCount</i>.
 
 ## -returns
 
 If this function succeeds, it returns TRUE.
  
-Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+Otherwise, it returns FALSE. To retrieve extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
@@ -84,5 +85,4 @@ Windows 8 supports the following:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/functions">Functions</a>
-
+<a href="/previous-versions/windows/desktop/input_pointerdevice/functions">Functions</a>

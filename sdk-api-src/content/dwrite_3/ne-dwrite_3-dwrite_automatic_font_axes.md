@@ -61,7 +61,6 @@ Specifies that&mdash;when no value is specified via <a href="/windows/win32/api/
 
 ## -see-also
 
-[DWRITE_FONT_AXIS_TAG enumeration](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_font_axis_tag)
+[DWRITE_FONT_AXIS_TAG enumeration](./ne-dwrite_3-dwrite_font_axis_tag.md)
 
-[IDWriteTextFormat3::SetFontAxisValues](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritetextformat3-setfontaxisvalues)
-
+[IDWriteTextFormat3::SetFontAxisValues](./nf-dwrite_3-idwritetextformat3-setfontaxisvalues.md)

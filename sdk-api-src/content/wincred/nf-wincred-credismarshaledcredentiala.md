@@ -56,7 +56,7 @@ api_name:
 ## -description
 
 The <b>CredIsMarshaledCredential</b> function determines whether a specified user name string is a marshaled credential previously marshaled by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a>.
+<a href="/windows/desktop/api/wincred/nf-wincred-credmarshalcredentiala">CredMarshalCredential</a>.
 
 ## -parameters
 
@@ -72,4 +72,3 @@ This function returns <b>TRUE</b> if <i>MarshaledCredential</i> is a marshaled c
 
 > [!NOTE]
 > The wincred.h header defines CredIsMarshaledCredential as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -70,7 +70,7 @@ The capture stream. The value can be any of the following.
 </dl>
 </td>
 <td width="60%">
-The zero-based index of a stream.  To get the number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
+The zero-based index of a stream.  To get the number of streams, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
 
 </td>
 </tr>
@@ -116,8 +116,8 @@ A pointer to one of the following:
 
 
 <ul>
-<li>A Media Foundation transform (MFT) that exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.</li>
-<li>An MFT activation object that exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface.</li>
+<li>A Media Foundation transform (MFT) that exposes the <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface.</li>
+<li>An MFT activation object that exposes the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface.</li>
 </ul>
 
 ## -returns
@@ -166,11 +166,10 @@ The <i>dwSourceStreamIndex</i> parameter is invalid.
 
 ## -remarks
 
-The effect must be implemented as a <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transform</a> (MFT). The <i>pUnknown</i> parameter can point to an instance of the MFT, or to an activation object for the MFT. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/activation-objects">Activation Objects</a>.
+The effect must be implemented as a <a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transform</a> (MFT). The <i>pUnknown</i> parameter can point to an instance of the MFT, or to an activation object for the MFT. For more information, see <a href="/windows/desktop/medfound/activation-objects">Activation Objects</a>.
 
 The effect is applied to the stream before the data reaches the capture sinks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>

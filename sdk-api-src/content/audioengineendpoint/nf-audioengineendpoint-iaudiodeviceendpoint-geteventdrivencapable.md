@@ -64,17 +64,16 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 ## -remarks
 
-Call the <b>GetEventDrivenCapable</b> method before     calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-setbuffer">IAudioDeviceEndpoint::SetBuffer</a>method, which initializes the device endpoint and creates a buffer. This allows the device endpoint to set up the structures needed for driving events.
+Call the <b>GetEventDrivenCapable</b> method before     calling the <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-setbuffer">IAudioDeviceEndpoint::SetBuffer</a>method, which initializes the device endpoint and creates a buffer. This allows the device endpoint to set up the structures needed for driving events.
 
 If the audio engine requires an event driven device endpoint, it will:
 
 <ul>
-<li>Create an event and set the event handle on the device endpoint by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-seteventhandle">IAudioEndpoint::SetEventHandle</a> method.</li>
-<li>Specify event driven mode by setting the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag on the device endpoint by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-setstreamflags">IAudioEndpoint::SetStreamFlags</a> method.</li>
+<li>Create an event and set the event handle on the device endpoint by calling the <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-seteventhandle">IAudioEndpoint::SetEventHandle</a> method.</li>
+<li>Specify event driven mode by setting the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag on the device endpoint by calling the <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-setstreamflags">IAudioEndpoint::SetStreamFlags</a> method.</li>
 </ul>
 The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client applications.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiodeviceendpoint">IAudioDeviceEndpoint</a>
-
+<a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiodeviceendpoint">IAudioDeviceEndpoint</a>

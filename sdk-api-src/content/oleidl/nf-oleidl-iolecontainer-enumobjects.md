@@ -56,11 +56,11 @@ Enumerates the objects in the current container.
 
 ### -param grfFlags [in]
 
-Specifies which objects in a container are to be enumerated, as defined in the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olecontf">OLECONTF</a>.
+Specifies which objects in a container are to be enumerated, as defined in the enumeration <a href="/windows/desktop/api/oleidl/ne-oleidl-olecontf">OLECONTF</a>.
 
 ### -param ppenum [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> pointer variable that receives the interface pointer to the enumerator object. Each time a container receives a successful call to <b>EnumObjects</b>, it must increase the reference count on the <i>ppenum</i> pointer the method returns. It is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> when it is done with the pointer. If an error is returned, the implementation must set <i>ppenum</i> to <b>NULL</b>.
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> pointer variable that receives the interface pointer to the enumerator object. Each time a container receives a successful call to <b>EnumObjects</b>, it must increase the reference count on the <i>ppenum</i> pointer the method returns. It is the caller's responsibility to call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> when it is done with the pointer. If an error is returned, the implementation must set <i>ppenum</i> to <b>NULL</b>.
 
 ## -returns
 
@@ -101,17 +101,16 @@ A container should implement <b>EnumObjects</b> to enable programmatic clients t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecontainer">IOleContainer</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecontainer">IOleContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/ne-oleidl-olecontf">OLECONTF</a>
-
+<a href="/windows/desktop/api/oleidl/ne-oleidl-olecontf">OLECONTF</a>

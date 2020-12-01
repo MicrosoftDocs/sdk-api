@@ -57,7 +57,7 @@ The <code>GetCurrentMode</code> method retrieves the current display mode.
 
 ### -param pMode [out]
 
-Pointer to a variable that receives the index of the current video mode. Pass this index to the <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-getmodeinfo">IFullScreenVideoEx::GetModeInfo</a> method to obtain information about this mode, including the width, height, and bit depth.
+Pointer to a variable that receives the index of the current video mode. Pass this index to the <a href="/windows/desktop/api/amvideo/nf-amvideo-ifullscreenvideoex-getmodeinfo">IFullScreenVideoEx::GetModeInfo</a> method to obtain information about this mode, including the width, height, and bit depth.
 
 ## -returns
 
@@ -105,9 +105,8 @@ The filter did not load DirectDraw.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
-
+<a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>

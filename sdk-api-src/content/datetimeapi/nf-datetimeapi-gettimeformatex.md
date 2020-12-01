@@ -55,34 +55,34 @@ api_name:
 
 ## -description
 
-Formats time as a time string for a locale specified by name. The function formats either a specified time or the local system time.<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformata">GetTimeFormat</a> if designed to run only on Windows Vista and later.</div>
+Formats time as a time string for a locale specified by name. The function formats either a specified time or the local system time.<div class="alert"><b>Note</b>  The application should call this function in preference to <a href="/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformata">GetTimeFormat</a> if designed to run only on Windows Vista and later.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  This function can format data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.</div>
+<div class="alert"><b>Note</b>  This function can format data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see <a href="/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.</div>
 <div> </div>
 
 ## -parameters
 
 ### -param lpLocaleName [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-names">locale name</a>, or one of the following predefined values. 
+Pointer to a <a href="/windows/desktop/Intl/locale-names">locale name</a>, or one of the following predefined values. 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_INVARIANT</a>
+<a href="/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_INVARIANT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_SYSTEM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_USER_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_USER_DEFAULT</a>
 </li>
 </ul>
 
 ### -param dwFlags [in]
 
-Flags specifying time format options. The application can specify a combination of the following values and <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-use-cp-acp">LOCALE_USE_CP_ACP</a> or <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-nouseroverride">LOCALE_NOUSEROVERRIDE</a>.
+Flags specifying time format options. The application can specify a combination of the following values and <a href="/windows/desktop/Intl/locale-use-cp-acp">LOCALE_USE_CP_ACP</a> or <a href="/windows/desktop/Intl/locale-nouseroverride">LOCALE_NOUSEROVERRIDE</a>.
 
-<div class="alert"><b>Caution</b>  Use of <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-nouseroverride">LOCALE_NOUSEROVERRIDE</a> is strongly discouraged as it disables user preferences.</div>
+<div class="alert"><b>Caution</b>  Use of <a href="/windows/desktop/Intl/locale-nouseroverride">LOCALE_NOUSEROVERRIDE</a> is strongly discouraged as it disables user preferences.</div>
 <div> </div>
 <table>
 <tr>
@@ -133,7 +133,7 @@ Always use a 24-hour time format.
 
 ### -param lpTime [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the time information to format. The application can set this parameter to <b>NULL</b> if the function is to use the current local system time.
+Pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains the time information to format. The application can set this parameter to <b>NULL</b> if the function is to use the current local system time.
 
 ### -param lpFormat [in, optional]
 
@@ -151,7 +151,7 @@ Size, in characters, for the time string buffer indicated by <i>lpTimeStr</i>. A
 
 Returns the number of characters retrieved in the buffer indicated by <i>lpTimeStr</i>. If the <i>cchTime</i> parameter is set to 0, the function returns the size of the buffer required to hold the formatted time string, including a terminating null character.
 
-This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or  it was incorrectly set to <b>NULL</b>. </li>
@@ -166,7 +166,7 @@ If a time marker exists and the TIME_NOTIMEMARKER flag is not set, the function 
 
 The time values in the structure indicated by <i>lpTime</i> must be valid. The function checks each of the time values to determine that it is within the appropriate range of values. If any of the time values are outside the correct range, the function fails, and sets the last error to ERROR_INVALID_PARAMETER.
 
-The function ignores the date members of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. These include: <b>wYear</b>, <b>wMonth</b>, <b>wDayOfWeek</b>, and <b>wDay</b>.
+The function ignores the date members of the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure. These include: <b>wYear</b>, <b>wMonth</b>, <b>wDayOfWeek</b>, and <b>wDay</b>.
 
 If TIME_NOMINUTESORSECONDS or TIME_NOSECONDS is specified, the function removes the separators preceding the minutes and/or seconds members.
 
@@ -178,7 +178,7 @@ The function does not include milliseconds as part of the formatted time string.
 
 The function returns no errors for a bad format string, but just forms the best possible time string. If more than two hour, minute, second, or time marker format pictures are passed in, the function defaults to two. For example, the only time marker pictures that are valid are "t" and "tt". If "ttt" is passed in, the function assumes "tt".
 
-To obtain the time format without performing any actual formatting, the application should use the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a> function, specifying <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-stime-constants">LOCALE_STIMEFORMAT</a>.
+To obtain the time format without performing any actual formatting, the application should use the <a href="/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a> function, specifying <a href="/windows/desktop/Intl/locale-stime-constants">LOCALE_STIMEFORMAT</a>.
 
 The application can use the following elements to construct a format picture string. If spaces are used to separate the elements in the format string, these spaces appear in the same location in the output string. The letters must be in uppercase or lowercase as shown, for example, "ss", not "SS". Characters in the format string that are enclosed in single quotation marks appear in the same location and unchanged in the output string.
 
@@ -236,29 +236,28 @@ For example, to get the time string
 the application should use the picture string
 
 <pre class="syntax" xml:space="preserve"><code>"hh':'mm':'ss tt"</code></pre>
-This function can retrieve data from <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
+This function can retrieve data from <a href="/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
 
-<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="https://docs.microsoft.com/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
+<b>Beginning in Windows 8:</b> If your app passes language tags to this function from the <a href="/uwp/api/Windows.Globalization">Windows.Globalization</a> namespace, it must first convert the tags by calling <a href="/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a>.
 
 <b>Beginning in Windows 8: </b><b>GetTimeFormatEx</b>  is declared in Datetimeapi.h. Before Windows 8, it was declared in Winnls.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformatex">GetDateFormatEx</a>
+<a href="/windows/desktop/api/datetimeapi/nf-datetimeapi-getdateformatex">GetDateFormatEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getlocaleinfoex">GetLocaleInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformata">GetTimeFormat</a>
+<a href="/windows/desktop/api/datetimeapi/nf-datetimeapi-gettimeformata">GetTimeFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Defines the message parameters passed to a <b>WH_CALLWNDPROC</b> hook procedure, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>.
+Defines the message parameters passed to a <b>WH_CALLWNDPROC</b> hook procedure, <a href="/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>.
 
 ## -struct-fields
 
@@ -86,7 +86,7 @@ A handle to the window to receive the message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)">CallWndProc</a>
 
 
 
@@ -94,7 +94,7 @@ A handle to the window to receive the message.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
+<a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
@@ -102,5 +102,4 @@ A handle to the window to receive the message.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>

@@ -90,9 +90,8 @@ You can use this method to associate any information with the table of contents.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-getcontext">GetContext</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itoc-getcontext">GetContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>

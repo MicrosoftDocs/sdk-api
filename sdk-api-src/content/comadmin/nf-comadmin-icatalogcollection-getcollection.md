@@ -60,11 +60,11 @@ The name of the collection to be retrieved.
 
 ### -param varObjectKey [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_key">Key</a> property value of the parent item of the collection to be retrieved.
+The <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_key">Key</a> property value of the parent item of the collection to be retrieved.
 
 ### -param ppCatalogCollection [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a> interface for the retrieved collection.
+The <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a> interface for the retrieved collection.
 
 ## -returns
 
@@ -72,9 +72,8 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -remarks
 
-This method does not read in data for items in the retrieved collection from the catalog data store. Use the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-populate">Populate</a> method to read in data for items in the collection.
+This method does not read in data for items in the retrieved collection from the catalog data store. Use the <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-populate">Populate</a> method to read in data for items in the collection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>

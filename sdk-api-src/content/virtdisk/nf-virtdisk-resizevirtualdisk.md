@@ -61,18 +61,18 @@ Handle to an open virtual disk.
 ### -param Flags [in]
 
 Zero or more flags enumerated from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-resize_virtual_disk_flag">RESIZE_VIRTUAL_DISK_FLAG</a> enumeration.
+      <a href="/windows/desktop/api/virtdisk/ne-virtdisk-resize_virtual_disk_flag">RESIZE_VIRTUAL_DISK_FLAG</a> enumeration.
 
 ### -param Parameters [in]
 
 Address of a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ns-virtdisk-resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a> 
+      <a href="/windows/desktop/api/virtdisk/ns-virtdisk-resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a> 
       structure containing the new size of the virtual disk.
 
 ### -param Overlapped [in, optional]
 
 If this is to be an asynchronous operation, the address of a valid 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
+      <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 ## -returns
 
@@ -81,17 +81,16 @@ Status of the request.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ne-virtdisk-resize_virtual_disk_flag">RESIZE_VIRTUAL_DISK_FLAG</a>
+<a href="/windows/desktop/api/virtdisk/ne-virtdisk-resize_virtual_disk_flag">RESIZE_VIRTUAL_DISK_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/virtdisk/ns-virtdisk-resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a>
+<a href="/windows/desktop/api/virtdisk/ns-virtdisk-resize_virtual_disk_parameters">RESIZE_VIRTUAL_DISK_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>

@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf">CM_Get_Next_Log_Conf</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf">CM_Get_Next_Log_Conf</a> instead.]
 
-The <b>CM_Get_Next_Log_Conf_Ex</b> function obtains the next <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specific <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on a local or a remote machine.
+The <b>CM_Get_Next_Log_Conf_Ex</b> function obtains the next <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> associated with a specific <a href="/windows-hardware/drivers/">device instance</a> on a local or a remote machine.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Address of a location to receive the handle to a logical configuration, or <b>NU
 Caller-supplied handle to a logical configuration. This handle must have been previously obtained by calling one of the following functions:
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf_ex">CM_Get_First_Log_Conf_Ex</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf_ex">CM_Get_First_Log_Conf_Ex</a>
 
 
 <b>CM_Get_Next_Log_Conf_Ex</b>
@@ -76,7 +76,7 @@ Not used, must be zero.
 
 ### -param hMachine [in, optional]
 
-Caller-supplied machine handle, obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
+Caller-supplied machine handle, obtained from a previous call to <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -90,11 +90,11 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-To enumerate the logical configurations associated with a device instance, call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf_ex">CM_Get_First_Log_Conf_Ex</a> to obtain the first logical configuration, then call <b>CM_Get_Next_Log_Conf_Ex</b> repeatedly until it returns CR_NO_MORE_LOG_CONF.
+To enumerate the logical configurations associated with a device instance, call <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf_ex">CM_Get_First_Log_Conf_Ex</a> to obtain the first logical configuration, then call <b>CM_Get_Next_Log_Conf_Ex</b> repeatedly until it returns CR_NO_MORE_LOG_CONF.
 
-Calling <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf_ex">CM_Add_Empty_Log_Conf_Ex</a> or <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf_ex">CM_Free_Log_Conf_Ex</a> can invalidate the handle obtained from a previous call to <b>CM_Get_Next_Log_Conf_Ex</b>. Thus if you want to obtain logical configurations after calling <b>CM_Add_Empty_Log_Conf_Ex</b> or <b>CM_Free_Log_Conf_Ex</b>, your code must call <b>CM_Get_First_Log_Conf_Ex</b> again and start at the first configuration.
+Calling <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf_ex">CM_Add_Empty_Log_Conf_Ex</a> or <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf_ex">CM_Free_Log_Conf_Ex</a> can invalidate the handle obtained from a previous call to <b>CM_Get_Next_Log_Conf_Ex</b>. Thus if you want to obtain logical configurations after calling <b>CM_Add_Empty_Log_Conf_Ex</b> or <b>CM_Free_Log_Conf_Ex</b>, your code must call <b>CM_Get_First_Log_Conf_Ex</b> again and start at the first configuration.
 
-The handle received in <i>plcLogConf</i> must be explicitly freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf_handle">CM_Free_Log_Conf_Handle</a>.
+The handle received in <i>plcLogConf</i> must be explicitly freed by calling <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf_handle">CM_Free_Log_Conf_Handle</a>.
 
 If <b>CM_Get_Next_Log_Conf_Ex</b> is called with <i>plcLogConf</i> set to <b>NULL</b>, no handle is returned. This allows you to use the return status to determine if a configuration exists without the need to subsequently free the handle.
 
@@ -102,5 +102,4 @@ If <b>CM_Get_Next_Log_Conf_Ex</b> is called with <i>plcLogConf</i> set to <b>NUL
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf">CM_Get_Next_Log_Conf</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf">CM_Get_Next_Log_Conf</a>

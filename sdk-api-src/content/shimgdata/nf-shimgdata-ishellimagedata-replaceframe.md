@@ -68,11 +68,10 @@ Always returns S_OK.
 
 ## -remarks
 
-You should also call <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-discardedit">IShellImageData::DiscardEdit</a> to ensure that any edited properties of the original image are not retained.
+You should also call <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-discardedit">IShellImageData::DiscardEdit</a> to ensure that any edited properties of the original image are not retained.
 
 In the case of a multiframed image such as a .gif file, the current frame is replaced. In the case of non-multiframed images such a .jpg file, the entire image is replaced.
 
 Replacing a frame in an animated .gif file causes that file's animation to no longer be functional. Replacing a frame in a Tagged Image File Format (TIFF) file could cause that file to lose pages, particularly if the TIFF frame's image is not the same size as the original. If possible, you should always replace a TIFF frame's image with a TIFF of the same size.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> implementation takes ownership of the image named in <i>pImg</i> and the caller should not try to use it after calling <b>IShellImageData::ReplaceFrame</b>.
-
+The <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> implementation takes ownership of the image named in <i>pImg</i> and the caller should not try to use it after calling <b>IShellImageData::ReplaceFrame</b>.

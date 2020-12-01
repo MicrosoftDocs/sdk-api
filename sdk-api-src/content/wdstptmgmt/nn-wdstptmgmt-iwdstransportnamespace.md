@@ -54,7 +54,7 @@ Represents a namespace on a WDS transport server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportNamespace</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportNamespace</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportNamespace</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportNamespace</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IWdsTransportNamespace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-clone">Clone</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Copies the information from this namespace object into a new, unregistered namespace object in memory.
@@ -79,7 +79,7 @@ Copies the information from this namespace object into a new, unregistered names
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-deregister">Deregister</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-deregister">Deregister</a>
 </td>
 <td align="left" width="63%">
 Deregisters the namespace on the server.
@@ -88,7 +88,7 @@ Deregisters the namespace on the server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-refresh">Refresh</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-refresh">Refresh</a>
 </td>
 <td align="left" width="63%">
 Resets the property values of the namespace with values from the server. 
@@ -97,7 +97,7 @@ Resets the property values of the namespace with values from the server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-register">Register</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-register">Register</a>
 </td>
 <td align="left" width="63%">
 Registers the namespace on the server.
@@ -106,7 +106,7 @@ Registers the namespace on the server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-retrievecontents">RetrieveContents</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-retrievecontents">RetrieveContents</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of active transport content objects associated with the namespace.
@@ -124,7 +124,7 @@ Retrieves a collection of active transport content objects associated with the n
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_configuration">Configuration</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_configuration">Configuration</a>
 
 
 </td>
@@ -140,7 +140,7 @@ Receives the configuration information for the content provider of the namespace
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_contentprovider">ContentProvider</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_contentprovider">ContentProvider</a>
 
 
 </td>
@@ -156,7 +156,7 @@ Receives the content provider for the namespace.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_description">Description</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_description">Description</a>
 
 
 </td>
@@ -172,7 +172,7 @@ Receives the description of the namespace.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_friendlyname">FriendlyName</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_friendlyname">FriendlyName</a>
 
 
 </td>
@@ -188,7 +188,7 @@ Receives the user-friendly name of the namespace.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_id">Id</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_id">Id</a>
 
 
 </td>
@@ -204,7 +204,7 @@ Receives the unique namespace ID for a namespace that has been registered on the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_name">Name</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_name">Name</a>
 
 
 </td>
@@ -220,7 +220,7 @@ Receives the name of the namespace.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_tombstoned">Registered</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_tombstoned">Registered</a>
 
 
 </td>
@@ -236,7 +236,7 @@ Indicates whether the namespace is registered.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_tombstoned">Tombstoned</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_tombstoned">Tombstoned</a>
 
 
 </td>
@@ -252,7 +252,7 @@ Indicates whether the server has saved the namespace object of a deregistered na
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_tombstonetime">TombstoneTime</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_tombstonetime">TombstoneTime</a>
 
 
 </td>
@@ -268,7 +268,7 @@ Receives the date and time when the server saved the namespace object of a dereg
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_transmissionstarted">TransmissionStarted</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_transmissionstarted">TransmissionStarted</a>
 
 
 </td>
@@ -284,7 +284,7 @@ Receives a value that indicates whether the server has started transmitting data
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_type">Type</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_type">Type</a>
 
 
 </td>
@@ -298,4 +298,3 @@ Receives the type of the namespace for this object.
 </td>
 </tr>
 </table>
-

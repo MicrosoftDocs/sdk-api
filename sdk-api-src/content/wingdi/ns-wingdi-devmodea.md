@@ -760,7 +760,7 @@ Selects the number of copies printed if the device supports multiple-page copies
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmDefaultSource
 
-Specifies the paper source. To retrieve a list of the available paper sources for a printer, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a> function with the DC_BINS flag.
+Specifies the paper source. To retrieve a list of the available paper sources for a printer, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a> function with the DC_BINS flag.
 
 This member can be one of the following values, or it can be a device-specific value greater than or equal to DMBIN_USER.
 
@@ -779,7 +779,7 @@ If a positive value is specified, it specifies the number of dots per inch (DPI)
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmPosition
 
-For display devices only, a <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structure that indicates the positional coordinates of the display device in reference to the desktop area. The primary display device is always located at coordinates (0,0).
+For display devices only, a <a href="/previous-versions/dd162807(v=vs.85)">POINTL</a> structure that indicates the positional coordinates of the display device in reference to the desktop area. The primary display device is always located at coordinates (0,0).
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.dmDisplayOrientation
 
@@ -925,7 +925,7 @@ Specifies whether collation should be used when printing multiple copies. (This 
 
 ### -field dmFormName
 
-A zero-terminated character array that specifies the name of the form to use; for example, "Letter" or "Legal". A complete set of names can be retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/printdocs/enumforms">EnumForms</a> function.
+A zero-terminated character array that specifies the name of the form to use; for example, "Letter" or "Legal". A complete set of names can be retrieved by using the <a href="/windows/desktop/printdocs/enumforms">EnumForms</a> function.
 
 ### -field dmLogPixels
 
@@ -933,15 +933,15 @@ The number of pixels per logical inch. Printer drivers do not use this member.
 
 ### -field dmBitsPerPel
 
-Specifies the color resolution, in bits per pixel, of the display device (for example: 4 bits for 16 colors, 8 bits for 256 colors, or 16 bits for 65,536 colors). Display drivers use this member, for example, in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
+Specifies the color resolution, in bits per pixel, of the display device (for example: 4 bits for 16 colors, 8 bits for 256 colors, or 16 bits for 65,536 colors). Display drivers use this member, for example, in the <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
 
 ### -field dmPelsWidth
 
-Specifies the width, in pixels, of the visible device surface. Display drivers use this member, for example, in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
+Specifies the width, in pixels, of the visible device surface. Display drivers use this member, for example, in the <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
 
 ### -field dmPelsHeight
 
-Specifies the height, in pixels, of the visible device surface. Display drivers use this member, for example, in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
+Specifies the height, in pixels, of the visible device surface. Display drivers use this member, for example, in the <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
 
 ### -field DUMMYUNIONNAME2
 
@@ -965,7 +965,7 @@ Specifies the device's display mode. This member can be a combination of the fol
 </table>
  
 
-Display drivers use this member, for example, in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
+Display drivers use this member, for example, in the <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
 
 ### -field DUMMYUNIONNAME2.dmNup
 
@@ -988,9 +988,9 @@ Specifies where the NUP is done. It can be one of the following.
 
 ### -field dmDisplayFrequency
 
-Specifies the frequency, in hertz (cycles per second), of the display device in a particular mode. This value is also known as the display device's vertical refresh rate. Display drivers use this member. It is used, for example, in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
+Specifies the frequency, in hertz (cycles per second), of the display device in a particular mode. This value is also known as the display device's vertical refresh rate. Display drivers use this member. It is used, for example, in the <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a> function. Printer drivers do not use this member.
 
-When you call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a> function, the <b>dmDisplayFrequency</b> member may return with the value 0 or 1. These values represent the display hardware's default refresh rate. This default rate is typically set by switches on a display card or computer motherboard, or by a configuration program that does not use display functions such as <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a>.
+When you call the <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a> function, the <b>dmDisplayFrequency</b> member may return with the value 0 or 1. These values represent the display hardware's default refresh rate. This default rate is typically set by switches on a display card or computer motherboard, or by a configuration program that does not use display functions such as <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a>.
 
 ### -field dmICMMethod
 
@@ -1073,7 +1073,7 @@ Specifies the type of media being printed on. The member can be one of the follo
 </table>
  
 
- To retrieve a list of the available media types for a printer, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a> function with the DC_MEDIATYPES flag.
+ To retrieve a list of the available media types for a printer, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a> function with the DC_MEDIATYPES flag.
 
 ### -field dmDitherType
 
@@ -1233,41 +1233,40 @@ A device driver's private data follows the public portion of the <b>DEVMODE</b> 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/advanceddocumentproperties">AdvancedDocumentProperties</a>
+<a href="/windows/desktop/printdocs/advanceddocumentproperties">AdvancedDocumentProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsa">ChangeDisplaySettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createica">CreateIC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createica">CreateIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-devicecapabilitiesa">DeviceCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/documentproperties">DocumentProperties</a>
+<a href="/windows/desktop/printdocs/documentproperties">DocumentProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/openprinter">OpenPrinter</a>
+<a href="/windows/desktop/printdocs/openprinter">OpenPrinter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-structures">Print Spooler API Structures</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-structures">Print Spooler API Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

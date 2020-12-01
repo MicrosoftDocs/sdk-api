@@ -60,7 +60,7 @@ Pointer to an <b>IUnknown</b> interface. This value is not used and should be se
 
 ### -param ppWriter [out]
 
-Pointer to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter</a> interface of the newly created writer object.
+Pointer to a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter</a> interface of the newly created writer object.
 
 ## -returns
 
@@ -97,9 +97,8 @@ The function is unable to allocate memory for the new object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
+<a href="/windows/desktop/wmformat/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>
-
+<a href="/windows/desktop/wmformat/writer-object">Writer Object</a>

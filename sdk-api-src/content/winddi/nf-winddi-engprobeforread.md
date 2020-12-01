@@ -87,5 +87,4 @@ Is not read-accessible.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engprobeforreadandwrite">EngProbeForReadAndWrite</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engprobeforreadandwrite">EngProbeForReadAndWrite</a>

@@ -70,11 +70,11 @@ The node after which to start the search.
 
 Type: <b>PROPERTYID</b>
 
-The property identifier. For a list of property IDs, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
+The property identifier. For a list of property IDs, see <a href="/windows/desktop/WinAuto/uiauto-entry-propids">Property Identifiers</a>.
 
 ### -param value [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a></b>
+Type: <b><a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a></b>
 
 The value of the <i>propertyId</i> property.
 
@@ -86,7 +86,6 @@ The node of the matching element.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
-

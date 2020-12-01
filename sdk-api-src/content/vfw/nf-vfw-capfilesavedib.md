@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capFileSaveDIB</b> macro copies the current frame to a DIB file. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-file-savedib">WM_CAP_FILE_SAVEDIB</a> message.
+The <b>capFileSaveDIB</b> macro copies the current frame to a DIB file. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-file-savedib">WM_CAP_FILE_SAVEDIB</a> message.
 
 ## -parameters
 
@@ -68,9 +68,8 @@ If the capture driver supplies frames in a compressed format, this call attempts
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

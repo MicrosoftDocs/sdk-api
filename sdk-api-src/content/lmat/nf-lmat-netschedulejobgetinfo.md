@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>NetScheduleJobGetInfo</b> is no longer available for use as of Windows 8. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces"> Task Scheduler 2.0 Interfaces</a>.
+<p class="CCE_Message">[<b>NetScheduleJobGetInfo</b> is no longer available for use as of Windows 8. Instead, use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces"> Task Scheduler 2.0 Interfaces</a>.
 
 ]
 
@@ -70,17 +70,17 @@ A value that indicates the identifier of the job for which to retrieve informati
 ### -param PointerToBuffer [out]
 
 A pointer to the buffer that receives the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-at_info">AT_INFO</a> structure describing the specified job. This buffer is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
+<a href="/windows/desktop/api/lmat/ns-lmat-at_info">AT_INFO</a> structure describing the specified job. This buffer is allocated by the system and must be freed using the 
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 ## -returns
 
 If the function succeeds, the return value is NERR_Success.
 
 If the function fails, the return value is a system error code. For a list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -93,32 +93,31 @@ If the following registry value has the least significant bit set (for example, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmat/ns-lmat-at_info">AT_INFO</a>
+<a href="/windows/desktop/api/lmat/ns-lmat-at_info">AT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a>
+<a href="/windows/desktop/api/lmat/nf-lmat-netschedulejobadd">NetScheduleJobAdd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobdel">NetScheduleJobDel</a>
+<a href="/windows/desktop/api/lmat/nf-lmat-netschedulejobdel">NetScheduleJobDel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmat/nf-lmat-netschedulejobenum">NetScheduleJobEnum</a>
+<a href="/windows/desktop/api/lmat/nf-lmat-netschedulejobenum">NetScheduleJobEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/schedule-functions">Schedule
+<a href="/windows/desktop/NetMgmt/schedule-functions">Schedule
 		  Functions</a>
-

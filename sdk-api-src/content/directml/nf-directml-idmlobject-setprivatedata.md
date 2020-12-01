@@ -56,7 +56,7 @@ Sets application-defined data to a DirectML device object, and associates that d
 
 ### -param guid
 
-Type: <b><a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50">REFGUID</a></b>
+Type: <b><a href="/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50">REFGUID</a></b>
 
 The <b>GUID</b> to associate with the data.
 
@@ -80,5 +80,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -see-also
 
-[IDMLObject](/windows/desktop/api/directml/nn-directml-idmlobject)
-
+[IDMLObject](/windows/win32/api/directml/nn-directml-idmlobject)

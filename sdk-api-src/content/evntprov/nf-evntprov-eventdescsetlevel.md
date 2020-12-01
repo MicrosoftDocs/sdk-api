@@ -56,11 +56,11 @@ Sets the <b>Level</b> member of the event descriptor.
 
 ### -param EventDescriptor [in]
 
-Event descriptor to modify. See <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
+Event descriptor to modify. See <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
 
 ### -param Level [in]
 
-Severity level that indicates the verboseness with which to log the event. For details, see the Level parameter of <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.
+Severity level that indicates the verboseness with which to log the event. For details, see the Level parameter of <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.
 
 ## -returns
 
@@ -68,9 +68,8 @@ The modified event descriptor.
 
 ## -remarks
 
-This is a convenience macro for setting the member of the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
+This is a convenience macro for setting the member of the <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>
-
+<a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>

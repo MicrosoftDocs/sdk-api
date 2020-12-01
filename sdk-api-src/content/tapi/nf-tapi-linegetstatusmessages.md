@@ -62,12 +62,12 @@ Handle to the line device.
 ### -param lpdwLineStates
 
 Bit array that identifies for which line device status changes a message is to be sent to the application. If a flag is <b>TRUE</b>, that message is enabled; if <b>FALSE</b>, it is disabled. This parameter uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevstate--constants">LINEDEVSTATE_ Constants</a>.
+<a href="/windows/desktop/Tapi/linedevstate--constants">LINEDEVSTATE_ Constants</a>.
 
 ### -param lpdwAddressStates
 
 Bit array that identifies for which address status changes a message is to be sent to the application. If a flag is <b>TRUE</b>, that message is enabled; if <b>FALSE</b>, disabled. This parameter uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddressstate--constants">LINEADDRESSSTATE_ Constants</a>.
+<a href="/windows/desktop/Tapi/lineaddressstate--constants">LINEADDRESSSTATE_ Constants</a>.
 
 ## -returns
 
@@ -78,25 +78,24 @@ LINEERR_INVALLINEHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALPOINTER, LINEERR_
 ## -remarks
 
 TAPI defines a number of messages that notify applications about events occurring on lines and addresses. An application may not be interested in receiving all address and line status change messages. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetstatusmessages">lineSetStatusMessages</a>function can be used to select which messages the application wants to receive. By default, address status and line status reporting is disabled.
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetstatusmessages">lineSetStatusMessages</a>function can be used to select which messages the application wants to receive. By default, address status and line status reporting is disabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-close">LINE_CLOSE</a>
+<a href="/windows/desktop/Tapi/line-close">LINE_CLOSE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a>
+<a href="/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetstatusmessages">lineSetStatusMessages</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetstatusmessages">lineSetStatusMessages</a>

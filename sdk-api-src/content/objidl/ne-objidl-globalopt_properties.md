@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Identifies process-global options that you can set or query by using the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a> interface.
+Identifies process-global options that you can set or query by using the <a href="/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a> interface.
 
 ## -enum-fields
 
@@ -74,7 +74,7 @@ Used for miscellaneous settings.
 
 ### -field COMGLB_UNMARSHALING_POLICY
 
-Defines the policy that's applied in the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface">CoUnmarshalInterface</a> function.
+Defines the policy that's applied in the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface">CoUnmarshalInterface</a> function.
 
 ### -field COMGLB_PROPERTIES_RESERVED1
 
@@ -88,7 +88,7 @@ The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values fr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface">CoUnmarshalInterface</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface">CoUnmarshalInterface</a>
 
 
 
@@ -96,5 +96,4 @@ The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values fr
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>

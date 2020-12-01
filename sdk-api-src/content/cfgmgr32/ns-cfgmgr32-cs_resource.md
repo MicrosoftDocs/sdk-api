@@ -54,15 +54,14 @@ api_name:
 
 ## -description
 
-The CS_RESOURCE structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
+The CS_RESOURCE structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see <a href="/windows-hardware/drivers/kernel/hardware-resources">Hardware Resources</a>.
 
 ## -struct-fields
 
 ### -field CS_Header
 
-A [CS_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des) structure.
+A [CS_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des) structure.
 
 ## -see-also
 
-[CS_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des)
-
+[CS_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des)

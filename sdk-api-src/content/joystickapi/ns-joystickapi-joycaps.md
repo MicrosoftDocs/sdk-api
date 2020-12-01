@@ -62,11 +62,11 @@ The <b>JOYCAPS</b> structure contains information about the joystick capabilitie
 
 ### -field wMid
 
-Manufacturer identifier. Manufacturer identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
+Manufacturer identifier. Manufacturer identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field wPid
 
-Product identifier. Product identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
+Product identifier. Product identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field szPname
 
@@ -102,7 +102,7 @@ Number of joystick buttons.
 
 ### -field wPeriodMin
 
-Smallest polling frequency supported when captured by the <a href="https://docs.microsoft.com/previous-versions/dd757114(v=vs.85)">joySetCapture</a> function.
+Smallest polling frequency supported when captured by the <a href="/previous-versions/dd757114(v=vs.85)">joySetCapture</a> function.
 
 ### -field wPeriodMax
 
@@ -201,5 +201,4 @@ Multimedia Joystick Structures
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757114(v=vs.85)">joySetCapture</a>
-
+<a href="/previous-versions/dd757114(v=vs.85)">joySetCapture</a>

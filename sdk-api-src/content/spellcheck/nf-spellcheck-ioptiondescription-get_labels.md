@@ -62,9 +62,8 @@ When there is a single label, the valid values for this option are 0 (not chosen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a>
-
+<a href="/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a>

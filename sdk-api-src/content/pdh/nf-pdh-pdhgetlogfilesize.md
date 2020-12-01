@@ -57,7 +57,7 @@ Returns the size of the specified log file.
 ### -param hLog [in]
 
 Handle to the log file. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> or <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a> function returns this handle.
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a> or <a href="/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a> function returns this handle.
 
 ### -param llSize [out]
 
@@ -69,8 +69,8 @@ If the function succeeds, it returns ERROR_SUCCESS.
 						
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> or a 
-<a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a> or a 
+<a href="/windows/desktop/PerfCtrs/pdh-error-codes">PDH error code</a>. The following are possible values.
 
 <table>
 <tr>
@@ -107,5 +107,4 @@ If the log file handle points to multiple bound log files, the size is the sum o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a>
-
+<a href="/windows/desktop/api/pdh/nf-pdh-pdhopenloga">PdhOpenLog</a>

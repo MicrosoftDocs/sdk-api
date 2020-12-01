@@ -78,7 +78,7 @@ The amount by which to divide the current vertical extent.
 
 ### -param lpsz [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the previous window extents, in logical units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
+A pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the previous window extents, in logical units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
 
 ## -returns
 
@@ -100,17 +100,16 @@ The window extents are modified as follows:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
+<a href="/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
+<a href="/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getwindowextex">GetWindowExtEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getwindowextex">GetWindowExtEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>
-
+<a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>

@@ -59,11 +59,11 @@ The
 
 ### -param hDatabase [in]
 
-The handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>.
+The handle to the database obtained from <a href="/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a>.
 
 ### -param hDatabaseMerge [in]
 
-The handle to the database obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> to merge into the base database.
+The handle to the database obtained from <a href="/windows/desktop/api/msiquery/nf-msiquery-msiopendatabasea">MsiOpenDatabase</a> to merge into the base database.
 
 ### -param szTableName [in]
 
@@ -139,15 +139,15 @@ Schema difference between the two databases.
 
 ## -remarks
 
-The <b>MsiDatabaseMerge</b> function and the <a href="https://docs.microsoft.com/windows/desktop/Msi/database-merge">Merge</a> method of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-object">Database</a> object cannot be used to merge a module that is included in the installation package. They should not be used to merge 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-modules">Merge Modules</a> into a Windows Installer package.  To include a merge module in an installation package, authors of installation packages should follow the guidelines that are described in the <a href="https://docs.microsoft.com/windows/desktop/Msi/applying-merge-modules">Applying Merge Modules</a> topic.
+The <b>MsiDatabaseMerge</b> function and the <a href="/windows/desktop/Msi/database-merge">Merge</a> method of the 
+<a href="/windows/desktop/Msi/database-object">Database</a> object cannot be used to merge a module that is included in the installation package. They should not be used to merge 
+<a href="/windows/desktop/Msi/merge-modules">Merge Modules</a> into a Windows Installer package.  To include a merge module in an installation package, authors of installation packages should follow the guidelines that are described in the <a href="/windows/desktop/Msi/applying-merge-modules">Applying Merge Modules</a> topic.
 
 <b>MsiDatabaseMerge</b> does not copy over embedded 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/cabinet-files">Cabinet Files</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/embedded-transforms">embedded transforms</a> from the reference database into the target database. Embedded data streams that are listed in the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/binary-table">Binary Table</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/icon-table">Icon Table</a> are copied from the reference database to the target database. Storage embedded in the reference database are not copied to the target database.
+<a href="/windows/desktop/Msi/cabinet-files">Cabinet Files</a> or 
+<a href="/windows/desktop/Msi/embedded-transforms">embedded transforms</a> from the reference database into the target database. Embedded data streams that are listed in the 
+<a href="/windows/desktop/Msi/binary-table">Binary Table</a> or 
+<a href="/windows/desktop/Msi/icon-table">Icon Table</a> are copied from the reference database to the target database. Storage embedded in the reference database are not copied to the target database.
 
 The 
 <b>MsiDatabaseMerge</b> function merges the data of two databases. These databases must have the same code page. 
@@ -167,7 +167,7 @@ If the data in particular rows differ, this is a row merge conflict, the install
 <tr>
 <td>Table</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/Msi/text">Text</a>
+<a href="/windows/desktop/Msi/text">Text</a>
 </td>
 <td>Y</td>
 <td>N</td>
@@ -175,7 +175,7 @@ If the data in particular rows differ, this is a row merge conflict, the install
 <tr>
 <td>NumRowMergeConflicts</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/Msi/integer">Integer</a>
+<a href="/windows/desktop/Msi/integer">Integer</a>
 </td>
 <td> </td>
 <td>N</td>
@@ -185,7 +185,7 @@ If the data in particular rows differ, this is a row merge conflict, the install
 
 This function cannot be called from custom actions. A call to this function from a custom action causes the function to fail.
 
-If the function fails, you can obtain extended error information by using <a href="https://docs.microsoft.com/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
+If the function fails, you can obtain extended error information by using <a href="/windows/desktop/api/msiquery/nf-msiquery-msigetlasterrorrecord">MsiGetLastErrorRecord</a>.
 
 
 
@@ -196,9 +196,8 @@ If the function fails, you can obtain extended error information by using <a hre
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/column-definition-format">Column Definition Format</a>
+<a href="/windows/desktop/Msi/column-definition-format">Column Definition Format</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Database Management Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">Database Management Functions</a>

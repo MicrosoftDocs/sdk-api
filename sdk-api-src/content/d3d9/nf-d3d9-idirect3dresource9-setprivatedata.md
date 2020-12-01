@@ -57,7 +57,7 @@ Associates data with the resource that is intended for use by the application, n
 
 ### -param refguid [in]
 
-Type: <b><a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50?redirectedfrom=MSDN">REFGUID</a></b>
+Type: <b><a href="/openspecs/windows_protocols/ms-oaut/6e7d7108-c213-40bc-8294-ac13fe68fd50">REFGUID</a></b>
 
 Reference to the globally unique identifier that identifies the private data to set.
 
@@ -69,13 +69,13 @@ Pointer to a buffer that contains the data to be associated with the resource.
 
 ### -param SizeOfData [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Size of the buffer at pData, in bytes.
 
 ### -param Flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Value that describes the type of data being passed, or indicates to the application that the data should be invalidated when the resource changes. 
 
@@ -102,8 +102,8 @@ If no flags are specified, Direct3D allocates memory to hold the data within the
 
 </td>
 <td width="60%">
-The data at pData is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. 
-SizeOfData must be set to the size of a pointer to IUnknown, that is, sizeof(IUnknown*). Direct3D automatically callsIUnknown through pData when the private data is destroyed. Private data will be destroyed by a subsequent call to <b>IDirect3DResource9::SetPrivateData</b> with the same GUID, a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dresource9-freeprivatedata">IDirect3DResource9::FreePrivateData</a>, or when the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a> object is released. For more information, see Remarks.
+The data at pData is a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. 
+SizeOfData must be set to the size of a pointer to IUnknown, that is, sizeof(IUnknown*). Direct3D automatically callsIUnknown through pData when the private data is destroyed. Private data will be destroyed by a subsequent call to <b>IDirect3DResource9::SetPrivateData</b> with the same GUID, a subsequent call to <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dresource9-freeprivatedata">IDirect3DResource9::FreePrivateData</a>, or when the <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a> object is released. For more information, see Remarks.
 
 </td>
 </tr>
@@ -121,5 +121,4 @@ Direct3D does not manage the memory at pData. If this buffer was dynamically all
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>

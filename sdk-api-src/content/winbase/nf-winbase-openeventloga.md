@@ -48,6 +48,7 @@ api_name:
  - OpenEventLog
  - OpenEventLogA
  - OpenEventLogW
+req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # OpenEventLogA function
@@ -75,18 +76,18 @@ If the function succeeds, the return value is the handle to an event log.
 						
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 To close the handle to the event log, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeeventlog">CloseEventLog</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-closeeventlog">CloseEventLog</a> function.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/querying-for-event-source-messages">Querying for Event Information</a>.
+<a href="/windows/desktop/EventLog/querying-for-event-source-messages">Querying for Event Information</a>.
 
 <div class="code"></div>
 
@@ -98,25 +99,24 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-cleareventloga">ClearEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-cleareventloga">ClearEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-closeeventlog">CloseEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-closeeventlog">CloseEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
+<a href="/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/eventlog-key">Eventlog Key</a>
+<a href="/windows/desktop/EventLog/eventlog-key">Eventlog Key</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readeventloga">ReadEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-readeventloga">ReadEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-reporteventa">ReportEvent</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-reporteventa">ReportEvent</a>

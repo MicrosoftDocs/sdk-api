@@ -61,14 +61,14 @@ The <b>MSV1_0_LOGON_SUBMIT_TYPE</b> enumeration indicates the kind of logon bein
 ### -field MsV1_0InteractiveLogon
 
 Requests an interactive user logon. This dispatch routine handles NTLM interactive logons initiated by 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>.
 
 ### -field MsV1_0Lm20Logon
 
 Requests the second half of an NTLM 2.0 protocol logon. The first half of this type of logon is performed by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> with the <b>MsV1_0Lm20ChallengeRequest</b> message. For more information see, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> with the <b>MsV1_0Lm20ChallengeRequest</b> message. For more information see, 
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>.
 
 ### -field MsV1_0NetworkLogon
 
@@ -76,7 +76,7 @@ Requests a network logon. The only difference between this dispatch routine and 
 
 ### -field MsV1_0SubAuthLogon
 
-Requests the second half of an NTLM 2.0 protocol logon using a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subauthentication package</a>. When MSV1_0 initializes itself, it checks a registry key to determine whether it should load a subauthentication package. For more information about subauthentication packages used with MSV1_0, see the subauthentication sample included in the Platform SDK.
+Requests the second half of an NTLM 2.0 protocol logon using a <a href="/windows/desktop/SecGloss/s-gly">subauthentication package</a>. When MSV1_0 initializes itself, it checks a registry key to determine whether it should load a subauthentication package. For more information about subauthentication packages used with MSV1_0, see the subauthentication sample included in the Platform SDK.
 
 ### -field MsV1_0WorkstationUnlockLogon
 
@@ -106,17 +106,16 @@ Requests a logon that doesn't allow for elevation of privileges.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>
-
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>

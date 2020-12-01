@@ -55,7 +55,7 @@ api_name:
     for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, 
     Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
     unavailable in subsequent versions. Instead, use 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
+    <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
     which leverages functionality exposed by the client in Msipc.dll.]
 
 The <b>DRMAcquireLicense</b> function attempts to acquire an end-user license or client licensor certificate asynchronously.
@@ -67,10 +67,10 @@ The <b>DRMAcquireLicense</b> function attempts to acquire an end-user license or
 A handle to a client or license storage session.
 
 A client session handle is obtained by using the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateclientsession">DRMCreateClientSession</a> function. In this case, 
-       a client licensor certificate is acquired. The application callback function specified in the <b>DRMCreateClientSession</b> function will be called with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-clientlicensor">DRM_MSG_ACQUIRE_CLIENTLICENSOR</a> message to provide status feedback.
+       <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateclientsession">DRMCreateClientSession</a> function. In this case, 
+       a client licensor certificate is acquired. The application callback function specified in the <b>DRMCreateClientSession</b> function will be called with the <a href="/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-clientlicensor">DRM_MSG_ACQUIRE_CLIENTLICENSOR</a> message to provide status feedback.
 
-A license storage session handle is obtained by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreatelicensestoragesession">DRMCreateLicenseStorageSession</a> function. In this case, an end-user license is acquired. The application callback function specified in the client session passed in the <i>hClient</i> parameter of the  <b>DRMCreateLicenseStorageSession</b> function will be called with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-license">DRM_MSG_ACQUIRE_LICENSE</a> message to provide status feedback.
+A license storage session handle is obtained by calling the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreatelicensestoragesession">DRMCreateLicenseStorageSession</a> function. In this case, an end-user license is acquired. The application callback function specified in the client session passed in the <i>hClient</i> parameter of the  <b>DRMCreateLicenseStorageSession</b> function will be called with the <a href="/previous-versions/windows/desktop/adrms_sdk/drm-msg-acquire-license">DRM_MSG_ACQUIRE_LICENSE</a> message to provide status feedback.
 
 ### -param uFlags [in]
 
@@ -100,7 +100,7 @@ Cancel the previous request.
 
 #### DRM_AL_FETCHNOADVISORY ()
 
-Do not acquire revocation lists required by the license. The default action is to acquire all revocation lists that a returned license requires. All revocation lists must still be registered, however, by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmregisterrevocationlist">DRMRegisterRevocationList</a> function.
+Do not acquire revocation lists required by the license. The default action is to acquire all revocation lists that a returned license requires. All revocation lists must still be registered, however, by using the <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmregisterrevocationlist">DRMRegisterRevocationList</a> function.
 
 
 
@@ -112,7 +112,7 @@ If <i>hSession</i> is a client session handle, this flag is ignored.
 
 ### -param wszGroupIdentityCredential [in]
 
-An optional <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/r-gly">rights account certificate</a> (RAC). If this is not used, this function will check the license store for a RAC that matches the license used to create <i>hSession</i>. If none is found, this function will fail.
+An optional <a href="/previous-versions/windows/desktop/adrms_sdk/r-gly">rights account certificate</a> (RAC). If this is not used, this function will check the license store for a RAC that matches the license used to create <i>hSession</i>. If none is found, this function will fail.
 
 ### -param wszRequestedRights [in]
 
@@ -130,13 +130,13 @@ A license may hold multiple license acquisition URLs, but only the first is used
 
 ### -param pvContext [in]
 
-A 32-bit, application-defined value that is sent in the <i>pvContext</i> parameter of the callback function. This value can be a pointer to data, a pointer to an event handle, or whatever else the custom callback function is designed to handle. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrmdefs/nc-msdrmdefs-drmcallback">Callback Prototype</a>.
+A 32-bit, application-defined value that is sent in the <i>pvContext</i> parameter of the callback function. This value can be a pointer to data, a pointer to an event handle, or whatever else the custom callback function is designed to handle. For more information, see <a href="/previous-versions/windows/desktop/api/msdrmdefs/nc-msdrmdefs-drmcallback">Callback Prototype</a>.
 
 ## -returns
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
@@ -145,13 +145,13 @@ This function is used for retrieving an end-user license or client licensor cert
      <b>DRMAcquireLicense</b> again with 
      <b>DRM_AL_CANCEL</b> specified in <i>uFlags</i>. The progress of this 
      function, and any data returned,  will be returned to the callback function (see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-a-callback-function">Creating a Callback Function</a>).
+     <a href="/previous-versions/windows/desktop/adrms_sdk/creating-a-callback-function">Creating a Callback Function</a>).
 
 If the retrieved end-user license requires any revocation lists, these are acquired at the same time, unless 
      <b>DRM_AL_FETCHNOADVISORY</b> is specified in <i>uFlags</i>. A failure to 
      retrieve required revocation lists will be indicated by <b>E_DRM_NO_CONNECT</b>. The 
      application must register any retrieved lists by using 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmregisterrevocationlist">DRMRegisterRevocationList</a>.
+     <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmregisterrevocationlist">DRMRegisterRevocationList</a>.
 
 This function can occur silently or nonsilently.
 
@@ -159,7 +159,7 @@ This function can occur silently or nonsilently.
      nonsilent license acquisition is no longer supported, and MSDRMCtrl.dll is not shipped.</div>
 <div> </div>
 In nonsilent license acquisition, a license acquisition URL is returned to the callback function in a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/msdrmdefs/ns-msdrmdefs-drm_license_acq_data">DRM_LICENSE_ACQ_DATA</a> structure. The application then 
+     <a href="/windows/desktop/api/msdrmdefs/ns-msdrmdefs-drm_license_acq_data">DRM_LICENSE_ACQ_DATA</a> structure. The application then 
      opens a web browser that is directed to a URL that specifies an HTML page that contains the ActiveX control in 
      MSDRMCtrl.dll. The page is used to obtain additional information, such as a credit card number, and 
      then calls the ActiveX control's <b>AcquireLicense</b> 
@@ -172,7 +172,7 @@ In  silent license acquisition, no webpages need be opened, and license acquisit
 The retrieved license is added to the temporary or permanent license store, depending on whether 
      <b>DRM_AL_NOPERSIST</b> is specified or not. In nonsilent license acquisition, the acquired 
      license cannot be added to the temporary license store, only to the permanent license store, where it must be 
-     retrieved by  using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a>. The 
+     retrieved by  using <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmenumeratelicense">DRMEnumerateLicense</a>. The 
      following list describes possible combinations of license acquisition type with license store type.
 
 <table>
@@ -231,5 +231,4 @@ Multiple URLs are often specified so that  users can access protected content bo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
-
+<a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>

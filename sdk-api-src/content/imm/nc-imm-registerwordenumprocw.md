@@ -48,12 +48,9 @@ api_name:
  - registerwordenumprocw
 ---
 
-# REGISTERWORDENUMPROCW callback function
-
-
 ## -description
 
-An application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immenumregisterworda">ImmEnumRegisterWord</a> function. It is used to process data of register strings. The REGISTERWORDENUMPROC type defines a pointer to this callback function. <b>EnumRegisterWordProc</b> is a placeholder for the application-defined function name.
+An application-defined callback function used with the <a href="/windows/desktop/api/imm/nf-imm-immenumregisterworda">ImmEnumRegisterWord</a> function. It is used to process data of register strings. The REGISTERWORDENUMPROC type defines a pointer to this callback function. <b>EnumRegisterWordProc</b> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -61,20 +58,15 @@ An application-defined callback function used with the <a href="https://docs.mic
 
 Pointer to a null-terminated string specifying the matched reading string.
 
-### -param Arg1
+### -param Arg2
+
+The style of the register string.
 
 ### -param lpszString [in]
 
 Pointer to a null-terminated string specifying the matched register string.
 
-### -param Arg2
-
-#### - dwStyle [in]
-
-The style of the register string.
-
-
-#### - lpData [in]
+### -param Arg4
 
 Application-supplied data.
 
@@ -84,7 +76,7 @@ Returns a nonzero value to continue enumeration, or 0 to stop enumeration.
 
 ## -remarks
 
-An application must register this function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immenumregisterworda">ImmEnumRegisterWord</a> function.
+An application must register this function by passing its address to the <a href="/windows/desktop/api/imm/nf-imm-immenumregisterworda">ImmEnumRegisterWord</a> function.
 
 
 
@@ -95,13 +87,12 @@ An application must register this function by passing its address to the <a href
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imm/nf-imm-immenumregisterworda">ImmEnumRegisterWord</a>
+<a href="/windows/desktop/api/imm/nf-imm-immenumregisterworda">ImmEnumRegisterWord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

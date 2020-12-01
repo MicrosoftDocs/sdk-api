@@ -76,5 +76,4 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>

@@ -56,15 +56,15 @@ The <b>WebSocketEndClientHandshake</b> function completes the client-side handsh
 
 ### -param hWebSocket [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WebSock/web-socket-protocol-component-api-data-types">WEB_SOCKET_HANDLE</a></b>
+Type: <b><a href="/windows/desktop/WebSock/web-socket-protocol-component-api-data-types">WEB_SOCKET_HANDLE</a></b>
 
- WebSocket session handle returned by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a>.
+ WebSocket session handle returned by a previous call to <a href="/windows/desktop/api/websocket/nf-websocket-websocketcreateclienthandle">WebSocketCreateClientHandle</a>.
 
 ### -param pResponseHeaders [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">PWEB_SOCKET_HTTP_HEADER</a></b>
+Type: <b>const <a href="/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">PWEB_SOCKET_HTTP_HEADER</a></b>
 
-Pointer to an array or <a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the response headers received by the application.
+Pointer to an array or <a href="/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the response headers received by the application.
 
 ### -param ulReponseHeaderCount [in]
 
@@ -76,7 +76,7 @@ Number of response headers in <i>pResponseHeaders</i>.
 
 Type: <b>ULONG*</b>
 
-On input, pointer to an array allocated by the application. On successful output, pointer to an array of numbers that represent the extensions chosen by the server during the client-server handshake. These number are the zero-based indices into the extensions array passed to  <i>pszExtensions</i> in <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketbeginclienthandshake">WebSocketBeginClientHandshake</a>.
+On input, pointer to an array allocated by the application. On successful output, pointer to an array of numbers that represent the extensions chosen by the server during the client-server handshake. These number are the zero-based indices into the extensions array passed to  <i>pszExtensions</i> in <a href="/windows/desktop/api/websocket/nf-websocket-websocketbeginclienthandshake">WebSocketBeginClientHandshake</a>.
 
 ### -param pulSelectedExtensionCount [in, out, optional]
 
@@ -88,7 +88,7 @@ On input, number of extensions allocated in <i>pulSelectedExtensions</i>. This m
 
 Type: <b>ULONG*</b>
 
-On successful output, pointer to a number that represents the sub-protocol chosen by the server during the client-server handshake. This number is the zero-based index into the sub-protocols array passed to  <i>pszSubprotocols</i> in <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketbeginclienthandshake">WebSocketBeginClientHandshake</a>.
+On successful output, pointer to a number that represents the sub-protocol chosen by the server during the client-server handshake. This number is the zero-based index into the sub-protocols array passed to  <i>pszSubprotocols</i> in <a href="/windows/desktop/api/websocket/nf-websocket-websocketbeginclienthandshake">WebSocketBeginClientHandshake</a>.
 
 ## -returns
 
@@ -96,7 +96,7 @@ Type: <b>HRESULT</b>
 
 If the function succeeds, it returns <b>S_OK</b>.
 
-If the function fails, it returns one of the following or a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
+If the function fails, it returns one of the following or a <a href="/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 <table>
 <tr>
@@ -140,21 +140,20 @@ Server does not accept extensions specified by the application.
 
 ## -remarks
 
-This function must be called to complete the client-side handshake after a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketbeginclienthandshake">WebSocketBeginClientHandshake</a>. Once the client-server handshake is complete, the application may use the session functions.
+This function must be called to complete the client-side handshake after a previous call to <a href="/windows/desktop/api/websocket/nf-websocket-websocketbeginclienthandshake">WebSocketBeginClientHandshake</a>. Once the client-server handshake is complete, the application may use the session functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a>
+<a href="/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketbeginclienthandshake">WebSocketBeginClientHandshake</a>
+<a href="/windows/desktop/api/websocket/nf-websocket-websocketbeginclienthandshake">WebSocketBeginClientHandshake</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketbeginserverhandshake">WebSocketBeginServerHandshake</a>
+<a href="/windows/desktop/api/websocket/nf-websocket-websocketbeginserverhandshake">WebSocketBeginServerHandshake</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/nf-websocket-websocketendserverhandshake">WebSocketEndServerHandshake</a>
-
+<a href="/windows/desktop/api/websocket/nf-websocket-websocketendserverhandshake">WebSocketEndServerHandshake</a>

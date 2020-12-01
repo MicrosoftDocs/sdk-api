@@ -64,15 +64,15 @@ Receives a handle to a DPA.
 
 ### -param pfn [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpastream">PFNDPASTREAM</a></b>
+Type: <b><a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpastream">PFNDPASTREAM</a></b>
 
-The callback function. See <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpastream">PFNDPASTREAM</a> for the callback function prototype.
+The callback function. See <a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpastream">PFNDPASTREAM</a> for the callback function prototype.
 
 ### -param pstream [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object.
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object.
 
 ### -param pvInstData [in]
 
@@ -82,7 +82,7 @@ A pointer to callback data. <i>pvInstData</i> is passed as a parameter to <i>pfn
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns one of the following values.
 
@@ -131,4 +131,3 @@ Indicates that one or more of the parameters is invalid.
 This function must be called directly from ComCtl32.dll. It is ordinal 10.
 
 The callback is responsible for writing the <i>pvInstData</i> data to the stream.
-

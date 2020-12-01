@@ -56,11 +56,11 @@ Creates the protected media path (PMP) server object.
 
 ### -param dwCreationFlags [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfpmpsession_creation_flags">MFPMPSESSION_CREATION_FLAGS</a> enumeration that specifies how to create the PMP session.
+A member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfpmpsession_creation_flags">MFPMPSESSION_CREATION_FLAGS</a> enumeration that specifies how to create the PMP session.
 
 ### -param ppPMPServer [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver">IMFPMPServer</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver">IMFPMPServer</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -87,5 +87,4 @@ The function succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

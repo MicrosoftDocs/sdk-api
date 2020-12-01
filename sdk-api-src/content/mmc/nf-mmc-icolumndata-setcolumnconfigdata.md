@@ -57,12 +57,12 @@ The <b>IColumnData::SetColumnConfigData</b> method enables a snap-in to set the 
 ### -param pColID [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-scolumnsetid">SColumnSetID</a> structure that contains the ID of the column set whose data is to be set.
+<a href="/windows/desktop/api/mmc/ns-mmc-scolumnsetid">SColumnSetID</a> structure that contains the ID of the column set whose data is to be set.
 
 ### -param pColSetData [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_column_set_data">MMC_COLUMN_SET_DATA</a> structure that contains the number of columns in the column set as well as the column data to be set.
+<a href="/windows/desktop/api/mmc/ns-mmc-mmc_column_set_data">MMC_COLUMN_SET_DATA</a> structure that contains the number of columns in the column set as well as the column data to be set.
 
 ## -returns
 
@@ -77,9 +77,8 @@ Calling
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icolumndata">IColumnData</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icolumndata">IColumnData</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-icolumndata">Using IColumnData</a>
-
+<a href="/previous-versions/windows/desktop/mmc/using-icolumndata">Using IColumnData</a>

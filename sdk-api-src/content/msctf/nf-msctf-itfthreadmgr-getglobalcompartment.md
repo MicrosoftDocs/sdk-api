@@ -56,7 +56,7 @@ Obtains the global compartment manager object.
 
 ### -param ppCompMgr [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartmentmgr">ITfCompartmentMgr</a> interface that receives the global compartment manager.
+Pointer to a <a href="/windows/desktop/api/msctf/nn-msctf-itfcompartmentmgr">ITfCompartmentMgr</a> interface that receives the global compartment manager.
 
 ## -returns
 
@@ -93,10 +93,9 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcompartmentmgr">ITfCompartmentMgr
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcompartmentmgr">ITfCompartmentMgr
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>

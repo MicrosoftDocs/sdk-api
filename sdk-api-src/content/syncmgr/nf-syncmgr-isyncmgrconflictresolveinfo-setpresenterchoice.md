@@ -56,15 +56,15 @@ Sets what kind of choice was made about a sync manager conflict resolution and w
 
 ### -param nPresenterChoice [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_presenter_choice">SYNCMGR_PRESENTER_CHOICE</a></b>
+Type: <b><a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_presenter_choice">SYNCMGR_PRESENTER_CHOICE</a></b>
 
-The choice that was made about the conflict resolution. One of the members of the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_presenter_choice">SYNCMGR_PRESENTER_CHOICE</a> enumeration.
+The choice that was made about the conflict resolution. One of the members of the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_presenter_choice">SYNCMGR_PRESENTER_CHOICE</a> enumeration.
 
 ### -param fApplyToAll [in]
 
 Type: <b>BOOL</b>
 
-If <b>TRUE</b>, then apply the given choice to all subsequent conflicts in the set. In this case, <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setitemchoices">ISyncMgrConflictResolveInfo::SetItemChoices</a> must also be called.
+If <b>TRUE</b>, then apply the given choice to all subsequent conflicts in the set. In this case, <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setitemchoices">ISyncMgrConflictResolveInfo::SetItemChoices</a> must also be called.
 
 ## -returns
 
@@ -74,9 +74,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflictresolveinfo">ISyncMgrConflictResolveInfo</a>
+<a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflictresolveinfo">ISyncMgrConflictResolveInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getpresenterchoice">ISyncMgrConflictResolveInfo::GetPresenterChoice</a>
-
+<a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-getpresenterchoice">ISyncMgrConflictResolveInfo::GetPresenterChoice</a>

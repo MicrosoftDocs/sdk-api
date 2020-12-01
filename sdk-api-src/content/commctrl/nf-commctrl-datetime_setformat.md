@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Sets the display of a date and time picker (DTP) control based on a given format string. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-setformat">DTM_SETFORMAT</a> message explicitly.
+Sets the display of a date and time picker (DTP) control based on a given format string. You can use this macro or send the <a href="/windows/desktop/Controls/dtm-setformat">DTM_SETFORMAT</a> message explicitly.
 
 ## -parameters
 
 ### -param hdp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a DTP control.
 
 ### -param sz
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
-A pointer to a zero-terminated <a href="https://docs.microsoft.com/windows/desktop/Controls/date-and-time-picker-controls">format string</a> that defines the desired display. Setting this parameter to <b>NULL</b> will reset the control to the default format string for the current style.
+A pointer to a zero-terminated <a href="/windows/desktop/Controls/date-and-time-picker-controls">format string</a> that defines the desired display. Setting this parameter to <b>NULL</b> will reset the control to the default format string for the current style.
 
 ## -remarks
 
@@ -72,4 +72,3 @@ It is acceptable to include extra characters within the format string to produce
 
 <div class="alert"><b>Note</b>   A DTP control tracks locale changes when it is using the default format string. If you set a custom format string, it will not be updated in response to locale changes.</div>
 <div> </div>
-

@@ -110,9 +110,8 @@ Sensor type IDs are <b>GUID</b>s that are defined in Sensors.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/sensor-categories--types--and-datafields">Sensor Categories, Types, and Data Fields</a>
-
+<a href="/windows/desktop/SensorsAPI/sensor-categories--types--and-datafields">Sensor Categories, Types, and Data Fields</a>

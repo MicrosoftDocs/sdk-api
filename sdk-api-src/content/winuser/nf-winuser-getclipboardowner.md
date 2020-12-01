@@ -49,6 +49,7 @@ api_location:
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
  - GetClipboardOwner
+req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # GetClipboardOwner function
@@ -66,24 +67,24 @@ Type: <b>HWND</b>
 
 If the function succeeds, the return value is the handle to the window that owns the clipboard. 
 
-If the clipboard is not owned, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the clipboard is not owned, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The clipboard can still contain data even if the clipboard is not currently owned. 
 
-In general, the clipboard owner is the window that last placed data in clipboard. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-emptyclipboard">EmptyClipboard</a> function assigns clipboard ownership. 
+In general, the clipboard owner is the window that last placed data in clipboard. The <a href="/windows/desktop/api/winuser/nf-winuser-emptyclipboard">EmptyClipboard</a> function assigns clipboard ownership. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/using-the-clipboard">Example of a Clipboard Viewer</a>.
+For an example, see <a href="/windows/desktop/dataxchg/using-the-clipboard">Example of a Clipboard Viewer</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>
+<a href="/windows/desktop/dataxchg/clipboard">Clipboard</a>
 
 
 
@@ -91,13 +92,12 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-emptyclipboard">EmptyClipboard</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-emptyclipboard">EmptyClipboard</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclipboardviewer">GetClipboardViewer</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclipboardviewer">GetClipboardViewer</a>
 
 
 
 <b>Reference</b>
-

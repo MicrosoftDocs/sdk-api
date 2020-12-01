@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>IPsecGetStatistics1</b> function retrieves Internet Protocol Security (IPsec) statistics.
-<div class="alert"><b>Note</b>  <b>IPsecGetStatistics1</b> is the specific implementation of IPsecGetStatistics used in Windows 7 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecgetstatistics0">IPsecGetStatistics0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IPsecGetStatistics1</b> is the specific implementation of IPsecGetStatistics used in Windows 7 and later. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipsecgetstatistics0">IPsecGetStatistics0</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -59,11 +59,11 @@ The <b>IPsecGetStatistics1</b> function retrieves Internet Protocol Security (IP
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 ### -param ipsecStatistics [out]
 
-Type: [IPSEC_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics1)*</b>
+Type: [IPSEC_STATISTICS1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics1)*</b>
 
 Top-level object of IPsec statistics organization.
 
@@ -96,7 +96,7 @@ The IPsec statistics were successfully retrieved.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -117,11 +117,10 @@ Failure to communicate with the remote or local firewall engine.
 ## -remarks
 
 This function cannot be called from within a transaction. It will fail with
-<b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
+<b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
 
-The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_READ_STATS</a> access to the IPsec security associations database. See <a href="https://docs.microsoft.com/windows/desktop/FWP/access-control">Access Control</a> for more information.
+The caller needs <a href="/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_READ_STATS</a> access to the IPsec security associations database. See <a href="/windows/desktop/FWP/access-control">Access Control</a> for more information.
 
 ## -see-also
 
-[IPSEC_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics1)
-
+[IPSEC_STATISTICS1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics1)

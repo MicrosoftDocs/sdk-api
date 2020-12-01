@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IMSVidClosedCaptioning</b> interface enables or disables closed captions. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695119(v=vs.85)">MSVidClosedCaptioning</a> feature exposes this interface.
+The <b>IMSVidClosedCaptioning</b> interface enables or disables closed captions. The <a href="/previous-versions/windows/desktop/legacy/dd695119(v=vs.85)">MSVidClosedCaptioning</a> feature exposes this interface.
 
-To obtain this interface, enumerate the collection of available features on the Video Control. To use closed captioning, activate the closed captioning feature before you build the graph. Once the feature is active, you can enable or disable the closed captioning display by calling the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning-put_enable">IMSVidClosedCaptioning::put_Enable</a> method.
+To obtain this interface, enumerate the collection of available features on the Video Control. To use closed captioning, activate the closed captioning feature before you build the graph. Once the feature is active, you can enable or disable the closed captioning display by calling the <a href="/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning-put_enable">IMSVidClosedCaptioning::put_Enable</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidClosedCaptioning</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>. <b>IMSVidClosedCaptioning</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidClosedCaptioning</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>. <b>IMSVidClosedCaptioning</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMSVidClosedCaptioning</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning-get_enable">get_Enable</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning-get_enable">get_Enable</a>
 </td>
 <td align="left" width="63%">
 Queries whether closed captioning is enabled.
@@ -80,7 +80,7 @@ Queries whether closed captioning is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning-put_enable">put_Enable</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidclosedcaptioning-put_enable">put_Enable</a>
 </td>
 <td align="left" width="63%">
 Enables or disables closed captioning.
@@ -95,13 +95,12 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/displaying-closed-captioning-in-c">Displaying Closed Captioning in C++</a>
+<a href="/previous-versions/windows/desktop/mstv/displaying-closed-captioning-in-c">Displaying Closed Captioning in C++</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidfeature">IMSVidFeature</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

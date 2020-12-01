@@ -81,9 +81,8 @@ The method succeeded.
 
 ## -remarks
 
-You should call this method to cancel the playlist burn process only after calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-initplaylistburn">InitPlaylistBurn</a> and before your status callback receives the WMT_INIT_PLAYLIST_BURN message. If you need to cancel the playlist burn after initialization is finished, you should call the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-endplaylistburn">EndPlaylistBurn</a> method and pass the E_ABORT error code.
+You should call this method to cancel the playlist burn process only after calling <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-initplaylistburn">InitPlaylistBurn</a> and before your status callback receives the WMT_INIT_PLAYLIST_BURN message. If you need to cancel the playlist burn after initialization is finished, you should call the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderplaylistburn-endplaylistburn">EndPlaylistBurn</a> method and pass the E_ABORT error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderplaylistburn">IWMReaderPlaylistBurn Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderplaylistburn">IWMReaderPlaylistBurn Interface</a>

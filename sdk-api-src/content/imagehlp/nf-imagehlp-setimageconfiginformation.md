@@ -57,20 +57,20 @@ Locates and changes the load configuration data of an image.
 ### -param LoadedImage [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a> structure that is returned from a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a> or <b>LoadImage</b>.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a> structure that is returned from a call to 
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a> or <b>LoadImage</b>.
 
 ### -param ImageConfigInformation [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a> structure.
 
 ## -returns
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -81,17 +81,16 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-getimageconfiginformation">GetImageConfigInformation</a>
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-getimageconfiginformation">GetImageConfigInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_load_config_directory32">IMAGE_LOAD_CONFIG_DIRECTORY64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
-
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>

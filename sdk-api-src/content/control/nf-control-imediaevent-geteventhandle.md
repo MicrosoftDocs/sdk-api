@@ -65,13 +65,13 @@ Returns S_OK.
 
 ## -remarks
 
-The Filter Graph Manager keeps a manual-reset event that reflects the state of the event queue. If the queue contains event notifications, the manual-reset event is signaled. If the queue is empty, the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-getevent">IMediaEvent::GetEvent</a> method resets the event.
+The Filter Graph Manager keeps a manual-reset event that reflects the state of the event queue. If the queue contains event notifications, the manual-reset event is signaled. If the queue is empty, the <a href="/windows/desktop/api/control/nf-control-imediaevent-getevent">IMediaEvent::GetEvent</a> method resets the event.
 
-An application can use this event to determine the state of the queue. First call <code>GetEventHandle</code> to obtain a handle to the event. Wait for the event to be signaled, using a function such as <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a>. When the event is signaled, call the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-getevent">IMediaEvent::GetEvent</a> method to retrieve the next event notification from the queue. The Filter Graph Manager keeps the event signaled until the queue is empty; then it resets the event.
+An application can use this event to determine the state of the queue. First call <code>GetEventHandle</code> to obtain a handle to the event. Wait for the event to be signaled, using a function such as <a href="/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a>. When the event is signaled, call the <a href="/windows/desktop/api/control/nf-control-imediaevent-getevent">IMediaEvent::GetEvent</a> method to retrieve the next event notification from the queue. The Filter Graph Manager keeps the event signaled until the queue is empty; then it resets the event.
 
-Do not close the event handle returned by this method, because the event handle is used internally by the filter graph. Also, do not use the handle after you release the Filter Graph Manager, because the handle becomes invalid after the Filter Graph Manager is destroyed. (To avoid this error, it is a good idea to duplicate the handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a>, and use the duplicate instead of the original handle. Close the duplicate handle when you are finished.)
+Do not close the event handle returned by this method, because the event handle is used internally by the filter graph. Also, do not use the handle after you release the Filter Graph Manager, because the handle becomes invalid after the Filter Graph Manager is destroyed. (To avoid this error, it is a good idea to duplicate the handle by calling <a href="/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a>, and use the duplicate instead of the original handle. Close the duplicate handle when you are finished.)
 
-For Automation compatibility, this method takes a pointer to an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/oaevent">OAEVENT</a> type. In C++, declare a variable of type <b>HANDLE</b> and cast it an <b>OAEVENT</b> pointer, as follows:
+For Automation compatibility, this method takes a pointer to an <a href="/windows/desktop/DirectShow/oaevent">OAEVENT</a> type. In C++, declare a variable of type <b>HANDLE</b> and cast it an <b>OAEVENT</b> pointer, as follows:
 
 
 ```cpp
@@ -82,13 +82,12 @@ GetEventHandle( (OAEVENT*) &hEvent );
 ```
 
 
-Another way for applications to monitor the event queue is by calling the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaeventex-setnotifywindow">IMediaEventEx::SetNotifyWindow</a> method.
+Another way for applications to monitor the event queue is by calling the <a href="/windows/desktop/api/control/nf-control-imediaeventex-setnotifywindow">IMediaEventEx::SetNotifyWindow</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>

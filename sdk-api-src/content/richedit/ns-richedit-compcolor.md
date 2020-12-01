@@ -58,30 +58,30 @@ Contains color settings for a composition string.
 
 ### -field crText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-Color of text. To generate a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
+Color of text. To generate a <a href="/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ### -field crBackground
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-Color of background. To generate a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
+Color of background. To generate a <a href="/windows/desktop/gdi/colorref">COLORREF</a>, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ### -field dwEffects
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Character effect values as described for the 
-					<b>dwEffects</b> member in the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> structure.
+					<b>dwEffects</b> member in the <a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a> structure.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a>
+<a href="/windows/win32/api/richedit/ns-richedit-charformata">CHARFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
@@ -89,9 +89,8 @@ Character effect values as described for the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
 
 
 
 <b>Reference</b>
-

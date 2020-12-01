@@ -59,15 +59,15 @@ Retrieves information from the font cache on the special glyphs used by a font.
 
 ### -param hdc [in]
 
-Optional. Handle to the device context. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/caching">Caching</a>.
+Optional. Handle to the device context. For more information, see <a href="/windows/desktop/Intl/caching">Caching</a>.
 
 ### -param psc [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
+Pointer to a <a href="/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a> structure identifying the script cache.
 
 ### -param sfp [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-script_fontproperties">SCRIPT_FONTPROPERTIES</a> structure in which this function retrieves the information from the font cache.
+Pointer to a <a href="/windows/desktop/api/usp10/ns-usp10-script_fontproperties">SCRIPT_FONTPROPERTIES</a> structure in which this function retrieves the information from the font cache.
 
 ## -returns
 
@@ -82,17 +82,16 @@ The structure retrieved by this function identifies the glyphs that are used for
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a>
+<a href="/windows/desktop/Intl/script-cache">SCRIPT_CACHE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-script_fontproperties">SCRIPT_FONTPROPERTIES</a>
+<a href="/windows/desktop/api/usp10/ns-usp10-script_fontproperties">SCRIPT_FONTPROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

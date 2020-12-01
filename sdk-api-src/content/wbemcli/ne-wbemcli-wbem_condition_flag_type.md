@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains flags used with the <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getnames">IWbemClassObject::GetNames</a> method.
+Contains flags used with the <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getnames">IWbemClassObject::GetNames</a> method.
 
 ## -enum-fields
 
@@ -85,4 +85,3 @@ Contains flags used with the <a href="https://docs.microsoft.com/windows/desktop
 ### -field WBEM_FLAG_CLASS_LOCAL_AND_OVERRIDES
 
 ### -field WBEM_MASK_CLASS_CONDITION
-

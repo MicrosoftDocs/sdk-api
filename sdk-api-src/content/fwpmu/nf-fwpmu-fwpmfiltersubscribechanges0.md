@@ -58,17 +58,17 @@ The <b>FwpmFilterSubscribeChanges0</b> function  is used to request the delivery
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 ### -param subscription [in]
 
-Type: [FWPM_FILTER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0)*</b>
+Type: [FWPM_FILTER_SUBSCRIPTION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0)*</b>
 
 The notifications to be delivered.
 
 ### -param callback [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_filter_change_callback0">FWPM_FILTER_CHANGE_CALLBACK0</a></b>
+Type: <b><a href="/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_filter_change_callback0">FWPM_FILTER_CHANGE_CALLBACK0</a></b>
 
 The  function pointer that will be invoked when a notification is ready for delivery.
 
@@ -113,7 +113,7 @@ The subscription was created successfully.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -136,23 +136,22 @@ Failure to communicate with the remote or local firewall engine.
 Subscribers do not receive notifications for changes made with the same session handle used to subscribe. This is because subscribers only need  to see changes made by others since they already know which changes they made themselves.
 
 This function cannot be called from within a transaction. It will fail
-with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
+with <b>FWP_E_TXN_IN_PROGRESS</b>. See <a href="/windows/desktop/FWP/object-management">Object Management</a> for more information about transactions.
 
-The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_SUBSCRIBE</a> access to the filter's container and 
+The caller needs <a href="/windows/desktop/FWP/access-right-identifiers">FWPM_ACTRL_SUBSCRIBE</a> access to the filter's container and 
    <b>FWPM_ACTRL_READ</b> access to the filter. The subscriber will only get notifications for filters to which it has
-   <b>FWPM_ACTRL_READ</b> access. See <a href="https://docs.microsoft.com/windows/desktop/FWP/access-control">Access Control</a> for more information.
+   <b>FWPM_ACTRL_READ</b> access. See <a href="/windows/desktop/FWP/access-control">Access Control</a> for more information.
 
-<b>FwpmFilterSubscribeChanges0</b> is a specific implementation of FwpmFilterSubscribeChanges. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FwpmFilterSubscribeChanges0</b> is a specific implementation of FwpmFilterSubscribeChanges. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_filter_change_callback0">FWPM_FILTER_CHANGE_CALLBACK0</a>
+<a href="/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_filter_change_callback0">FWPM_FILTER_CHANGE_CALLBACK0</a>
 
 
 
-[FWPM_FILTER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0)
+[FWPM_FILTER_SUBSCRIPTION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_subscription0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfilterunsubscribechanges0">FwpmFilterUnsubscribeChanges0</a>
-
+<a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmfilterunsubscribechanges0">FwpmFilterUnsubscribeChanges0</a>

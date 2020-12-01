@@ -90,9 +90,8 @@ The <i>bstrURL</i> parameter must not be an empty string or null.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore3">IWMPCore3 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore3">IWMPCore3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>

@@ -64,7 +64,7 @@ Pointer to an address containing the server's ID block. This field should be set
 
 ### -param Servers [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpds_servers">DHCP_SERVER_INFO_ARRAY</a>structure that contains the output list of DHCP servers.
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpds_servers">DHCP_SERVER_INFO_ARRAY</a>structure that contains the output list of DHCP servers.
 
 ### -param CallbackFn [in]
 
@@ -76,9 +76,8 @@ Pointer to a data block containing the formatted structure for callback informat
 
 ## -returns
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpds_servers">DHCP_SERVER_INFO_ARRAY</a>
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpds_servers">DHCP_SERVER_INFO_ARRAY</a>

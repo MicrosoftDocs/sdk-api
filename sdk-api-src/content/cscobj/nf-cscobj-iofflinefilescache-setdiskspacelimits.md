@@ -71,9 +71,8 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 The caller must be an administrator on the local machine.
 
-The current disk space limits may be obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-getdiskspaceinformation">IOfflineFilesCache::GetDiskSpaceInformation</a>.
+The current disk space limits may be obtained by calling <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilescache-getdiskspaceinformation">IOfflineFilesCache::GetDiskSpaceInformation</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>DAD_ShowDragImage</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragshownolock">ImageList_DragShowNolock</a> instead.
+<p class="CCE_Message">[<b>DAD_ShowDragImage</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragshownolock">ImageList_DragShowNolock</a> instead.
       ]
 
 Shows or hides the image being dragged.
@@ -84,4 +84,3 @@ Returns nonzero if successful, or zero otherwise.
 ## -remarks
 
 This function works on locked windows. It does not work on layered windows.
-

@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>IVPConfig</b> interface must be implemented by any filter that wraps a hardware decoder with a video port. This enables the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>, through its <a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a> interface, to set and retrieve configuration information on the video port regarding the video memory on the display adapter. This interface derives from <a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig</a>.
+The <b>IVPConfig</b> interface must be implemented by any filter that wraps a hardware decoder with a video port. This enables the <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>, through its <a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify</a> interface, to set and retrieve configuration information on the video port regarding the video memory on the display adapter. This interface derives from <a href="/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig</a>.
 
 Applications never use this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPConfig</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig</a>. <b>IVPConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVPConfig</b> interface inherits from <a href="/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig</a>. <b>IVPConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVPConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpconfig-isvpdecimationallowed">IsVPDecimationAllowed</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpconfig-isvpdecimationallowed">IsVPDecimationAllowed</a>
 </td>
 <td align="left" width="63%">
 Given the context, retrieves whether scaling at the video port is possible.
@@ -81,7 +81,7 @@ Given the context, retrieves whether scaling at the video port is possible.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpconfig-setscalingfactors">SetScalingFactors</a>
+<a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpconfig-setscalingfactors">SetScalingFactors</a>
 </td>
 <td align="left" width="63%">
 Sets the factors by which the decoder should scale the video stream.
@@ -96,13 +96,12 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig</a>
+<a href="/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpbasenotify">IVPBaseNotify</a>
+<a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpbasenotify">IVPBaseNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify2">IVPNotify2</a>
-
+<a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify2">IVPNotify2</a>

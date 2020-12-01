@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-The <b>Add</b> method adds an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object to the collection.
+The <b>Add</b> method adds an <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object to the collection.
 
 ## -parameters
 
 ### -param pIKeyInformation [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object.
+A pointer to an <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a>

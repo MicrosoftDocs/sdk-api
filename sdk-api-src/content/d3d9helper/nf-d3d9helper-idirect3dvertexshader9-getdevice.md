@@ -57,7 +57,7 @@ Gets the device.
 
 ### -param ppDevice [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>**</b>
+Type: <b><a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>**</b>
 
 Pointer to the IDirect3DDevice9 interface that is returned.
 
@@ -70,5 +70,4 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexshader9">IDirect3DVertexShader9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexshader9">IDirect3DVertexShader9</a>

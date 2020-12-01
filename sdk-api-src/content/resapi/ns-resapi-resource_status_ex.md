@@ -52,19 +52,19 @@ api_name:
 ## -description
 
 Contains information 
-    about a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> that is being brought online or taken offline. 
+    about a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> that is being brought online or taken offline. 
     This structure is used as a parameter to the callback function 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine_ex">SetResourceStatusEx</a>.
+    <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine_ex">SetResourceStatusEx</a>.
 
 ## -struct-fields
 
 ### -field ResourceState
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a> enumeration value that describes the state of the resource.
+A <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_state">CLUSTER_RESOURCE_STATE</a> enumeration value that describes the state of the resource.
 
 ### -field CheckPoint
 
-A value set by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> to flag a status 
+A value set by the <a href="/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> to flag a status 
       report as new.
 
 ### -field EventHandle
@@ -125,7 +125,7 @@ There was insufficient resources (other than processing or memory resources) to 
 
 #### STATUS_INVALID_PARAMETERS (0x00000080)
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine_ex">SetResourceStatusEx</a> function received invalid parameters.
+The <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine_ex">SetResourceStatusEx</a> function received invalid parameters.
 
 
 
@@ -143,5 +143,4 @@ This member is not being used at this time.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>

@@ -98,11 +98,11 @@ Not displayed in the UI.
 
 ### -field SHCOLSTATE_PREFER_VARCMP
 
-<b>VarCmp</b> produces same result as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">IShellFolder::CompareIDs</a>.
+<b>VarCmp</b> produces same result as <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">IShellFolder::CompareIDs</a>.
 
 ### -field SHCOLSTATE_PREFER_FMTCMP
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psformatfordisplay">PSFormatForDisplay</a> produces same result as <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">IShellFolder::CompareIDs</a>.
+<a href="/windows/desktop/api/propsys/nf-propsys-psformatfordisplay">PSFormatForDisplay</a> produces same result as <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-compareids">IShellFolder::CompareIDs</a>.
 
 ### -field SHCOLSTATE_NOSORTBYFOLDERNESS
 
@@ -135,4 +135,3 @@ Fixed width and height ratio.
 ### -field SHCOLSTATE_DISPLAYMASK
 
 Filters out new display flags.
-

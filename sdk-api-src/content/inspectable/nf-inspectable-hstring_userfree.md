@@ -47,9 +47,6 @@ api_name:
  - HSTRING_UserFree
 ---
 
-# HSTRING_UserFree function
-
-
 ## -description
 
 Frees resources on the server side when called by RPC stub files.
@@ -58,25 +55,12 @@ Frees resources on the server side when called by RPC stub files.
 
 ### -param arg1
 
-TBD
-
-### -param arg2
-
-TBD
-
-
-
-
-#### - pFlags [in]
-
 The data used by RPC.
 
-
-#### - ppidl [in]
+### -param arg2
 
 The string.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
-
+<a href="/windows/win32/winrt/hstring">HSTRING</a>

@@ -63,7 +63,7 @@ Determines if a specified code page is valid.
 
 ### -param CodePage [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/code-page-identifiers">Code page identifier</a> for the code page to check.
+<a href="/windows/desktop/Intl/code-page-identifiers">Code page identifier</a> for the code page to check.
 
 ## -returns
 
@@ -77,21 +77,20 @@ Starting with Windows Vista, all code pages that can be installed are loaded by
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getacp">GetACP</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getacp">GetACP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcpinfo">GetCPInfo</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getcpinfo">GetCPInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

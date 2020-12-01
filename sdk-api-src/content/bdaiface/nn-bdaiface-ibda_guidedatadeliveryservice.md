@@ -54,7 +54,7 @@ Retrieves out-of-band guide data from a media transform device (MTD). This inter
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_GuideDataDeliveryService</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_GuideDataDeliveryService</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_GuideDataDeliveryService</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_GuideDataDeliveryService</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBDA_GuideDataDeliveryService</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_guidedatadeliveryservice-getguidedata">GetGuideData</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_guidedatadeliveryservice-getguidedata">GetGuideData</a>
 </td>
 <td align="left" width="63%">
 Gets the next set of guide data that is available.
@@ -78,7 +78,7 @@ Gets the next set of guide data that is available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_guidedatadeliveryservice-getguidedatatype">GetGuideDataType</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_guidedatadeliveryservice-getguidedatatype">GetGuideDataType</a>
 </td>
 <td align="left" width="63%">
 Gets the format UUID for the data that is being retrieved on this service.
@@ -87,7 +87,7 @@ Gets the format UUID for the data that is being retrieved on this service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_guidedatadeliveryservice-getserviceinfofromtunexml">GetServiceInfoFromTuneXml</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_guidedatadeliveryservice-getserviceinfofromtunexml">GetServiceInfoFromTuneXml</a>
 </td>
 <td align="left" width="63%">
 Gets service information from an XML tune request.
@@ -96,7 +96,7 @@ Gets service information from an XML tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_guidedatadeliveryservice-getservices">GetServices</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_guidedatadeliveryservice-getservices">GetServices</a>
 </td>
 <td align="left" width="63%">
 Gets a list of services that are available on the the MTD.
@@ -105,7 +105,7 @@ Gets a list of services that are available on the the MTD.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_guidedatadeliveryservice-gettunexmlfromserviceidx">GetTuneXmlFromServiceIdx</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_guidedatadeliveryservice-gettunexmlfromserviceidx">GetTuneXmlFromServiceIdx</a>
 </td>
 <td align="left" width="63%">
 Converts a service identifier into an XML  tune request.
@@ -114,7 +114,7 @@ Converts a service identifier into an XML  tune request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_guidedatadeliveryservice-requestguidedataupdate">RequestGuideDataUpdate</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_guidedatadeliveryservice-requestguidedataupdate">RequestGuideDataUpdate</a>
 </td>
 <td align="left" width="63%">
 Requests updated guide data from the MTD.
@@ -126,4 +126,3 @@ Requests updated guide data from the MTD.
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_GuideDataDeliveryService)</code>.
-

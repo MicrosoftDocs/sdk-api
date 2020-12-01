@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines constants that are used to define the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/ns-xamlom-propertychainvalue">PropertyChainValue</a> returned from XAML Diagnostics.
+Defines constants that are used to define the <a href="/previous-versions/windows/desktop/api/xamlom/ns-xamlom-propertychainvalue">PropertyChainValue</a> returned from XAML Diagnostics.
 
 ## -enum-fields
 
@@ -85,4 +85,3 @@ The value is <b>null</b>. (Introduced in Windows 10, version 1607.)
 ### -field IsValueHandleAndEvaluatedValue
 
 The value represents a string representation of an <b>InstanceHandle</b> and an evaluated value. (Introduced in Windows 10, version 1607.)
-

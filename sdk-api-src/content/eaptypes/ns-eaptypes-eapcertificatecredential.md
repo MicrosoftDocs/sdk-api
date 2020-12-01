@@ -47,9 +47,6 @@ api_name:
  - EapCertificateCredential
 ---
 
-# EapCertificateCredential structure
-
-
 ## -description
 
 The <b>EapCertificateCredential</b> structure contains information about the certificate that the EAP method uses for authentication.
@@ -58,19 +55,14 @@ The <b>EapCertificateCredential</b> structure contains information about the cer
 
 ### -field certHash
 
+SHA1 hash of the certificate.
+
 ### -field password
 
 If the certificate is present on the system and strong private key protection is turned on for this certificate, this field contains the password to access the certificate.
 
-### -field certHash(CERTIFICATE_HASH_LENGTH)
-
-SHA1 hash of the certificate.
-
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcredential">EapCredential</a>
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapcredential">EapCredential</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a>
-
+<a href="/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a>

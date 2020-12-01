@@ -56,7 +56,7 @@ Defines  the state of a manipulation.
 
 ### -field delta
 
-The change in translation, rotation, and scale since the last <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nc-interactioncontext-interaction_context_output_callback">INTERACTION_CONTEXT_OUTPUT_CALLBACK</a>.
+The change in translation, rotation, and scale since the last <a href="/previous-versions/windows/desktop/api/interactioncontext/nc-interactioncontext-interaction_context_output_callback">INTERACTION_CONTEXT_OUTPUT_CALLBACK</a>.
 
 ### -field cumulative
 
@@ -68,17 +68,16 @@ The velocities of the accumulated transformations for the interaction.
 
 ### -field railsState
 
-One of the constants from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-manipulation_rails_state">MANIPULATION_RAILS_STATE</a>.
+One of the constants from <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-manipulation_rails_state">MANIPULATION_RAILS_STATE</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_output">INTERACTION_CONTEXT_OUTPUT</a>
+<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_output">INTERACTION_CONTEXT_OUTPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-registeroutputcallbackinteractioncontext">RegisterOutputCallbackInteractionContext</a>
-
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-registeroutputcallbackinteractioncontext">RegisterOutputCallbackInteractionContext</a>

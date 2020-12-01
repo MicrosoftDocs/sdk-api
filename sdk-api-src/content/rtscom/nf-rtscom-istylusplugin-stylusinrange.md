@@ -56,7 +56,7 @@ Notifies the implementing plug-in that the stylus is entering the detection rang
 
 ### -param piRtsSrc [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object that sent the notification.
+The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object that sent the notification.
 
 ### -param tcid [in]
 
@@ -68,7 +68,7 @@ Stylus identifier.
 
 ## -returns
 
-For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
@@ -77,7 +77,7 @@ The stylus is in range of the digitizer. This is a good place to check if the st
 
 #### Examples
 
-The following C++ example implements a <b>IStylusPlugin::StylusInRange Method</b> method that gets the status of all the buttons on a stylus and reports them to the debug window using the <a href="https://msdn2.microsoft.com/library/4wyz8787.aspx">TRACE</a> macro.
+The following C++ example implements a <b>IStylusPlugin::StylusInRange Method</b> method that gets the status of all the buttons on a stylus and reports them to the debug window using the <a href="/previous-versions/visualstudio/visual-studio-2010/4wyz8787(v=vs.100)">TRACE</a> macro.
 
 
 ```cpp
@@ -151,17 +151,16 @@ STDMETHODIMP CPacketModifier::StylusInRange(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusoutofrange">IStylusPlugin::StylusOutOfRange Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-stylusoutofrange">IStylusPlugin::StylusOutOfRange Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
-
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>

@@ -60,5 +60,4 @@ Non-client area window attributes will be set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-setwindowthemeattribute">SetWindowThemeAttribute</a>
-
+<a href="/windows/desktop/api/uxtheme/nf-uxtheme-setwindowthemeattribute">SetWindowThemeAttribute</a>

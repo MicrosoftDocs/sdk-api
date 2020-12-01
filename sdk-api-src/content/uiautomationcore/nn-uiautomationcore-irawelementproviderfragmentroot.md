@@ -54,7 +54,7 @@ Exposes methods and properties on the root element in a fragment.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderFragmentRoot</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRawElementProviderFragmentRoot</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderFragmentRoot</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRawElementProviderFragmentRoot</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRawElementProviderFragmentRoot</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragmentroot-elementproviderfrompoint">ElementProviderFromPoint</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragmentroot-elementproviderfrompoint">ElementProviderFromPoint</a>
 </td>
 <td align="left" width="63%">
 Retrieves the provider of the element that is at the specified point in this fragment.
@@ -78,7 +78,7 @@ Retrieves the provider of the element that is at the specified point in this fra
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragmentroot-getfocus">GetFocus</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragmentroot-getfocus">GetFocus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the element in this fragment that has the input focus.
@@ -90,17 +90,16 @@ Retrieves the element in this fragment that has the input focus.
 ## -remarks
 
 This interface is implemented by a root element within a framework; for example, a list box within a window. 
-			Other elements in the same fragment, such as list items, implement the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a> interface.
+			Other elements in the same fragment, such as list items, implement the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>
 
 
 
 <b>Reference</b>
-

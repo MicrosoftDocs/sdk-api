@@ -56,11 +56,11 @@ Establishes a connection between the view object and an advise sink so that the 
 
 ### -param aspects [in]
 
-View for which the advisory connection is being set up. Valid values are taken from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>. See the <b>DVASPECT</b> enumeration for more information.
+View for which the advisory connection is being set up. Valid values are taken from the enumeration <a href="/windows/desktop/api/wtypes/ne-wtypes-dvaspect">DVASPECT</a>. See the <b>DVASPECT</b> enumeration for more information.
 
 ### -param advf [in]
 
-Contains a group of flags for controlling the advisory connection. Valid values are from the enumeration <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a>. However, only some of the possible <b>ADVF</b> values are relevant for this method. The following table briefly describes the relevant values. See the <b>ADVF</b> enumeration for a more detailed description.
+Contains a group of flags for controlling the advisory connection. Valid values are from the enumeration <a href="/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a>. However, only some of the possible <b>ADVF</b> values are relevant for this method. The following table briefly describes the relevant values. See the <b>ADVF</b> enumeration for a more detailed description.
 
 <table>
 <tr>
@@ -90,12 +90,12 @@ Causes an initial notification to be sent regardless of whether data has changed
 </table>
  
 
-<div class="alert"><b>Note</b>  The ADVF_ONLYONCE and ADVF_PRIMEFIRST can be combined to provide an asynchronous call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a>. </div>
+<div class="alert"><b>Note</b>  The ADVF_ONLYONCE and ADVF_PRIMEFIRST can be combined to provide an asynchronous call to <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a>. </div>
 <div> </div>
 
 ### -param pAdvSink [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface on the advisory sink that is to be informed of changes. A <b>NULL</b> value deletes any existing advisory connection.
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface on the advisory sink that is to be informed of changes. A <b>NULL</b> value deletes any existing advisory connection.
 
 ## -returns
 
@@ -154,27 +154,26 @@ Insufficient memory available for this operation.
 
 ## -remarks
 
-A container application that is requesting a draw operation on a view object can also register with the <b>IViewObject::SetAdvise</b> method to be notified when the presentation of the view object changes. To find out about when an object's underlying data changes, you must call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> separately.
+A container application that is requesting a draw operation on a view object can also register with the <b>IViewObject::SetAdvise</b> method to be notified when the presentation of the view object changes. To find out about when an object's underlying data changes, you must call <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> separately.
 
 To remove an existing advisory connection, call the <b>IViewObject::SetAdvise</b> method with <i>pAdvSink</i> set to <b>NULL</b>.
 
-If the view object changes, a call is made to the appropriate advise sink through its <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onviewchange">IAdviseSink::OnViewChange</a> method.
+If the view object changes, a call is made to the appropriate advise sink through its <a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onviewchange">IAdviseSink::OnViewChange</a> method.
 
 At any time, a given view object can support only one advisory connection. Therefore, when <b>IViewObject::SetAdvise</b> is called and the view object is already holding on to an advise sink pointer, OLE releases the existing pointer before the new one is registered.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a>
+<a href="/windows/desktop/api/objidl/ne-objidl-advf">ADVF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-getadvise">IViewObject::GetAdvise</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-getadvise">IViewObject::GetAdvise</a>

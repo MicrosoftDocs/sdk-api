@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>ADS_STATUSENUM</b> enumeration specifies the status of a search preference set with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> method.
+The <b>ADS_STATUSENUM</b> enumeration specifies the status of a search preference set with the <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> method.
 
 ## -enum-fields
 
@@ -62,24 +62,24 @@ The search preference was set successfully.
 
 ### -field ADS_STATUS_INVALID_SEARCHPREF
 
-The search preference specified in the <b>dwSearchPref</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure is invalid. Search preferences must be taken from the  <a href="/windows/win32/api/iads/ne-iads-ads_searchpref_enum">ADS_SEARCHPREF_ENUM</a> enumeration.
+The search preference specified in the <b>dwSearchPref</b> member of the  <a href="/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure is invalid. Search preferences must be taken from the  <a href="/windows/win32/api/iads/ne-iads-ads_searchpref_enum">ADS_SEARCHPREF_ENUM</a> enumeration.
 
 ### -field ADS_STATUS_INVALID_SEARCHPREFVALUE
 
-The value specified in the <b>vValue</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure is invalid for the corresponding search preference.
+The value specified in the <b>vValue</b> member of the <a href="/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure is invalid for the corresponding search preference.
 
 ## -remarks
 
-The  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> method sets the <b>dwStatus</b> member <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure to one of the <b>ADS_STATUSENUM</b> values to indicate the status of the corresponding search preference. Callers can use this status value to decide whether to execute a search.
+The  <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> method sets the <b>dwStatus</b> member <a href="/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure to one of the <b>ADS_STATUSENUM</b> values to indicate the status of the corresponding search preference. Callers can use this status value to decide whether to execute a search.
 
-The <b>ADS_STATUS_INVALID_SEARCHPREF</b> status value may be set if you set a valid search preference, but that preference is not supported. For example, if you set <b>ADS_SEARCHPREF_SORT_ON</b>, but the server you communicate with does not support the LDAP server-side sort control, the <b>dwStatus</b> member of the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure is set to <b>ADS_STATUS_INVALID_SEARCHPREF</b> by the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> call.
+The <b>ADS_STATUS_INVALID_SEARCHPREF</b> status value may be set if you set a valid search preference, but that preference is not supported. For example, if you set <b>ADS_SEARCHPREF_SORT_ON</b>, but the server you communicate with does not support the LDAP server-side sort control, the <b>dwStatus</b> member of the  <a href="/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a> structure is set to <b>ADS_STATUS_INVALID_SEARCHPREF</b> by the <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> call.
 
 <div class="alert"><b>Note</b>  Because VBScript cannot read data from a type library, VBScript applications do not recognize the symbolic constants as defined above. You should use the numeric constants instead to set the appropriate flags in your VBScript applications. To use the symbolic constants as a good programming practice, write explicit declarations of such constants, as done in the following code example.</div>
 <div> </div>
 
 #### Examples
 
-The following code example shows how to use the <b>ADS_STATUSENUM</b> enumeration with the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> method to determine the status of a search preference.
+The following code example shows how to use the <b>ADS_STATUSENUM</b> enumeration with the <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a> method to determine the status of a search preference.
 
 
 ```cpp
@@ -120,7 +120,7 @@ HRESULT SetAndCheckSearchTimeout(IDirectorySearch *pSearch,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI
     Enumerations</a>
 
 
@@ -129,9 +129,8 @@ HRESULT SetAndCheckSearchTimeout(IDirectorySearch *pSearch,
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a>
+<a href="/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a>

@@ -66,11 +66,11 @@ A string that identifies the interface to set properties on.
 
 ### -param cPropertyCount [in]
 
-The number of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315030(v=vs.85)">DEVPROPERTY</a> structures in the <i>pProperties</i> array.
+The number of <a href="/previous-versions/windows/hardware/drivers/dn315030(v=vs.85)">DEVPROPERTY</a> structures in the <i>pProperties</i> array.
 
 ### -param pProperties [in]
 
-An array of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315030(v=vs.85)">DEVPROPERTY</a> structures containing the properties to set on the interface.
+An array of <a href="/previous-versions/windows/hardware/drivers/dn315030(v=vs.85)">DEVPROPERTY</a> structures containing the properties to set on the interface.
 
 ## -returns
 
@@ -80,9 +80,8 @@ S_OK is returned if <b>SwDeviceInterfacePropertySet</b> successfully set the pro
 
 Typically, only the operating system and Administrators of the computer can set properties on an interface, but the creator of a device can call <b>SwDeviceInterfacePropertySet</b> to set properties on an interface for that device even if the creator isn't the operating system or an Administrator.
 
-You can call <b>SwDeviceInterfacePropertySet</b> only after the operating system has called your client app's <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function to notify the client app that device enumeration completed.
+You can call <b>SwDeviceInterfacePropertySet</b> only after the operating system has called your client app's <a href="/windows/desktop/api/swdevice/nc-swdevice-sw_device_create_callback">SW_DEVICE_CREATE_CALLBACK</a> callback function to notify the client app that device enumeration completed.
 
-There is a subtle difference between properties that are set as part of a <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfaceregister">SwDeviceInterfaceRegister</a> call and properties that are later set by calling <b>SwDeviceInterfacePropertySet</b>.  Properties that are set as part of <b>SwDeviceInterfaceRegister</b> are stored in memory; if the device is uninstalled or a null driver wipes out the property stores, these properties are written out again by the Software Device API feature when PnP re-enumerates the devices.  This is all transparent to the client.  Properties that are set using <b>SwDeviceInterfacePropertySet</b> after the enumeration don't persist in memory.  But, if you set a property by using <b>SwDeviceInterfaceRegister</b>, you can update the value with <b>SwDeviceInterfacePropertySet</b>, and this update is applied to the in-memory value as well as the persisted store.
+There is a subtle difference between properties that are set as part of a <a href="/windows/desktop/api/swdevice/nf-swdevice-swdeviceinterfaceregister">SwDeviceInterfaceRegister</a> call and properties that are later set by calling <b>SwDeviceInterfacePropertySet</b>.  Properties that are set as part of <b>SwDeviceInterfaceRegister</b> are stored in memory; if the device is uninstalled or a null driver wipes out the property stores, these properties are written out again by the Software Device API feature when PnP re-enumerates the devices.  This is all transparent to the client.  Properties that are set using <b>SwDeviceInterfacePropertySet</b> after the enumeration don't persist in memory.  But, if you set a property by using <b>SwDeviceInterfaceRegister</b>, you can update the value with <b>SwDeviceInterfacePropertySet</b>, and this update is applied to the in-memory value as well as the persisted store.
 
 You can use <b>SwDeviceInterfacePropertySet</b> only to set properties in the operating system store for the interface.
-

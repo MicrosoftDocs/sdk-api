@@ -76,9 +76,8 @@ The domain name for Unicode only.
 
 ### -field PackedCredentials
 
-The credentials in the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_packed_credentials">SEC_WINNT_AUTH_PACKED_CREDENTIALS</a> structure.
+The credentials in the <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_packed_credentials">SEC_WINNT_AUTH_PACKED_CREDENTIALS</a> structure.
 
 ### -field CredFlags
 
 The authentication identity flags.
-

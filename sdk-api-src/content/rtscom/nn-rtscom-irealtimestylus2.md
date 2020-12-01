@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a> interface.
+Extends the <a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRealTimeStylus2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRealTimeStylus2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRealTimeStylus2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRealTimeStylus2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRealTimeStylus2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus2-get_flicksenabled">get_FlicksEnabled</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus2-get_flicksenabled">get_FlicksEnabled</a>
 </td>
 <td align="left" width="63%">
 Enables detection of flick gestures.
@@ -78,7 +78,7 @@ Enables detection of flick gestures.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus2-put_flicksenabled">put_FlicksEnabled</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus2-put_flicksenabled">put_FlicksEnabled</a>
 </td>
 <td align="left" width="63%">
 Disables detection of flick gestures.
@@ -89,13 +89,12 @@ Disables detection of flick gestures.
 
 ## -remarks
 
-This interface only exists in the Windows Vista <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus</a>. Flick notification is recevied via a <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-systemevent">IStylusPlugin::SystemEvent Method</a> plugin notification with event id equal to <b>ISG_Flick</b>. To obtain flick data look at the <b>SYSTEM_EVENT_DATA</b> struct: <i>xPos</i>/<i>yPos</i> contains the flick start location in Tablet coordinates, <i>wKey</i> contains the direction (a value where 90 is down, 180 is left, 270 is up), and <i>dwButtonState</i> contains the same data obtained from the <i>wParam</i> for the <a href="https://docs.microsoft.com/windows/desktop/tablet/wm-tablet-flick-message">WM_TABLET_FLICK Message</a>.
+This interface only exists in the Windows Vista <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus</a>. Flick notification is recevied via a <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-systemevent">IStylusPlugin::SystemEvent Method</a> plugin notification with event id equal to <b>ISG_Flick</b>. To obtain flick data look at the <b>SYSTEM_EVENT_DATA</b> struct: <i>xPos</i>/<i>yPos</i> contains the flick start location in Tablet coordinates, <i>wKey</i> contains the direction (a value where 90 is down, 180 is left, 270 is up), and <i>dwButtonState</i> contains the same data obtained from the <i>wParam</i> for the <a href="/windows/desktop/tablet/wm-tablet-flick-message">WM_TABLET_FLICK Message</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/flicks-api-reference">Flicks API Reference</a>
+<a href="/windows/desktop/tablet/flicks-api-reference">Flicks API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
-
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>

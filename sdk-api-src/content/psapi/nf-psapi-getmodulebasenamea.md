@@ -69,7 +69,7 @@ Retrieves the base name of the specified module.
 
 A handle to the process that contains the module. 
 
-The handle must have the <b>PROCESS_QUERY_INFORMATION</b> and <b>PROCESS_VM_READ</b> access rights. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+The handle must have the <b>PROCESS_QUERY_INFORMATION</b> and <b>PROCESS_VM_READ</b> access rights. For more information, see <a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param hModule [in, optional]
 
@@ -88,7 +88,7 @@ The size of the <i>lpBaseName</i> buffer, in characters.
 If the function succeeds, the return value specifies the length of the string copied to the buffer, in characters.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -96,14 +96,14 @@ The <b>GetModuleBaseName</b> function is primarily designed for use by debuggers
 
 
 
-To retrieve the base name of a module in the current process, use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea">GetModuleFileName</a> function to retrieve the full module name and then use a function call such as <code>strrchr(szmodulename, '\\')</code> to scan to the beginning of the base name within the module name string. This is more efficient and more reliable than calling  <b>GetModuleBaseName</b>  with a handle to the current process.
+To retrieve the base name of a module in the current process, use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea">GetModuleFileName</a> function to retrieve the full module name and then use a function call such as <code>strrchr(szmodulename, '\\')</code> to scan to the beginning of the base name within the module name string. This is more efficient and more reliable than calling  <b>GetModuleBaseName</b>  with a handle to the current process.
 
 
 
-To retrieve the base name of the main executable module for a remote process, use the <a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getprocessimagefilenamea">GetProcessImageFileName</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a> function to retrieve the module name and then use the <code>strrchr</code> function as described in the previous paragraph. This is more efficient and more reliable than calling  <b>GetModuleBaseName</b>  with a NULL module handle.
+To retrieve the base name of the main executable module for a remote process, use the <a href="/windows/desktop/api/psapi/nf-psapi-getprocessimagefilenamea">GetProcessImageFileName</a> or <a href="/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a> function to retrieve the module name and then use the <code>strrchr</code> function as described in the previous paragraph. This is more efficient and more reliable than calling  <b>GetModuleBaseName</b>  with a NULL module handle.
 
 
-The <b>GetModuleBaseName</b> function does not retrieve the base name for modules that were loaded with the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
+The <b>GetModuleBaseName</b> function does not retrieve the base name for modules that were loaded with the <b>LOAD_LIBRARY_AS_DATAFILE</b> flag. For more information, see <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>.
 
 Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes 
     version numbers for the PSAPI functions. The PSAPI version number affects the name used to call the function and 
@@ -126,7 +126,7 @@ Programs that must run on earlier versions of Windows as
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/enumerating-all-processes">Enumerating All Processes</a>.
+<a href="/windows/desktop/psapi/enumerating-all-processes">Enumerating All Processes</a>.
 
 <div class="code"></div>
 
@@ -138,21 +138,20 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-enumprocesses">EnumProcesses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getmodulefilenameexa">GetModuleFileNameEx</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-getmodulefilenameexa">GetModuleFileNameEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/module-information">Module Information</a>
+<a href="/windows/desktop/psapi/module-information">Module Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
+<a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ftw0heb9.aspx">strrchr, wcsrchr, _mbsrchr, _mbsrchr_l</a>
-
+<a href="/cpp/c-runtime-library/reference/strrchr-wcsrchr-mbsrchr-mbsrchr-l">strrchr, wcsrchr, _mbsrchr, _mbsrchr_l</a>

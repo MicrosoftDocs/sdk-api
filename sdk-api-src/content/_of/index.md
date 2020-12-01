@@ -19,5 +19,4 @@ To develop Offline Files, you need these headers:
  * [cscobj.h](../cscobj/index.md)
 
 For programming guidance for this technology, see:
-* [Offline Files](https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles)
-
+* [Offline Files](/previous-versions/windows/desktop/offlinefiles)

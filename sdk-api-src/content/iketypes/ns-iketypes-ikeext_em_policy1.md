@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IKEEXT_EM_POLICY1</b> structure is used to store AuthIP's extended mode negotiation policy.
-[IKEEXT_EM_POLICY2](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2) is available. For Windows Vista, [IKEEXT_EM_POLICY0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy0) is available.</div><div> </div>
+[IKEEXT_EM_POLICY2](/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy2) is available. For Windows Vista, [IKEEXT_EM_POLICY0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_em_policy0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -65,7 +65,7 @@ Number of authentication methods in the array.
 
 size_is(numAuthenticationMethods)
 
-Array of acceptable authentication methods as specified by [IKEEXT_AUTHENTICATION_METHOD1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method1).
+Array of acceptable authentication methods as specified by [IKEEXT_AUTHENTICATION_METHOD1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method1).
 
 ### -field initiatorImpersonationType
 
@@ -83,9 +83,8 @@ Applies only to AuthIP.
 
 
 
-[IKEEXT_AUTHENTICATION_METHOD1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method1)
+[IKEEXT_AUTHENTICATION_METHOD1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_authentication_method1)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

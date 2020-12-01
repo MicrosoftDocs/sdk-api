@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Adjusts the start parameters of a specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">service</a> so that it  operates  correctly as a cluster  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>. It must be called from a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a>. The <b>PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX</b> type defines a pointer to this function.
+Adjusts the start parameters of a specified <a href="/previous-versions/windows/desktop/mscs/s-gly">service</a> so that it  operates  correctly as a cluster  <a href="/previous-versions/windows/desktop/mscs/resources">resource</a>. It must be called from a  <a href="/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a>. The <b>PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -68,34 +68,33 @@ On input, a <b>NULL</b> service handle. On output, handle to the specified servi
 
 ### -param dwDesiredAccess [in]
 
-The requested access privileges. This  might  be any combination of <b>GENERIC_READ</b> (0x80000000), <b>GENERIC_ALL</b> (0x10000000), or <b>MAXIMUM_ALLOWED</b> (0x02000000). If this value is zero (0),  an undefined error might  be returned. Using <b>GENERIC_ALL</b> is the same as calling <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetresourceservicestartparameters">ResUtilSetResourceServiceStartParameters</a>.
+The requested access privileges. This  might  be any combination of <b>GENERIC_READ</b> (0x80000000), <b>GENERIC_ALL</b> (0x10000000), or <b>MAXIMUM_ALLOWED</b> (0x02000000). If this value is zero (0),  an undefined error might  be returned. Using <b>GENERIC_ALL</b> is the same as calling <a href="/windows/desktop/api/resapi/nf-resapi-resutilsetresourceservicestartparameters">ResUtilSetResourceServiceStartParameters</a>.
 
 ### -param pfnLogEvent [in]
 
-A pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> entry point function of the resource DLL that manages  the service.
+A pointer to the  <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> entry point function of the resource DLL that manages  the service.
 
 ### -param hResourceHandle [in]
 
-A resource handle that is required by the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> entry point function. Use the handle that is passed to the DLL in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a> entry point function.
+A resource handle that is required by the  <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> entry point function. Use the handle that is passed to the DLL in the  <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a> entry point function.
 
 ## -returns
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
-<b>ResUtilSetResourceServiceStartParametersEx</b> verifies that the service is not disabled, changes the service configuration to manual start, and prevents the service from restarting in response to failure. This  enables  the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and the resource DLL to control the service.
+<b>ResUtilSetResourceServiceStartParametersEx</b> verifies that the service is not disabled, changes the service configuration to manual start, and prevents the service from restarting in response to failure. This  enables  the <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and the resource DLL to control the service.
 
-If your resource DLL manages a service, use  <b>ResUtilSetResourceServiceStartParametersEx</b> and  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetresourceserviceenvironment">ResUtilSetResourceServiceEnvironment</a> before you  bring the service online.
+If your resource DLL manages a service, use  <b>ResUtilSetResourceServiceStartParametersEx</b> and  <a href="/windows/desktop/api/resapi/nf-resapi-resutilsetresourceserviceenvironment">ResUtilSetResourceServiceEnvironment</a> before you  bring the service online.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilsetresourceservicestartparameters">ResUtilSetResourceServiceStartParameters</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilsetresourceservicestartparameters">ResUtilSetResourceServiceStartParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/service-utility-functions">Service Utility Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/service-utility-functions">Service Utility Functions</a>

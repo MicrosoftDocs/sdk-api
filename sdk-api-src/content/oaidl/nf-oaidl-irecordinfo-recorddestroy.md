@@ -95,12 +95,11 @@ One or more of the arguments is not valid.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordclear">RecordClear</a> is called to release the resources held by the instance of a record without deallocating memory.
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordclear">RecordClear</a> is called to release the resources held by the instance of a record without deallocating memory.
 
-<div class="alert"><b>Note</b>  This method can only be called on records allocated through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreate">RecordCreate</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreatecopy">RecordCreateCopy</a>. If you allocate the record yourself, you cannot call this method.</div>
+<div class="alert"><b>Note</b>  This method can only be called on records allocated through <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreate">RecordCreate</a> and <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreatecopy">RecordCreateCopy</a>. If you allocate the record yourself, you cannot call this method.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>

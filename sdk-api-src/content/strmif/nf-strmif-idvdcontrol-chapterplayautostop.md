@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  The <b>IDvdControl</b> interface is deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2</a> instread.</div>
+<div class="alert"><b>Note</b>  The <b>IDvdControl</b> interface is deprecated. Use <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2</a> instread.</div>
 <div> </div>
 Instructs the DVD player to start playing at the specified chapter within the specified title and play the number of chapters specified.
 
@@ -74,15 +74,14 @@ Returns an <b>HRESULT</b> value.
 
 ## -remarks
 
-This method is valid in any domain. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method is valid in any domain. For more information, see <a href="/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
-Chapters range from 1 through 999. See EC_DVD_CHAPTER_AUTOSTOP in <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-notification-codes">DVD Event Notification Codes</a> for more information.
+Chapters range from 1 through 999. See EC_DVD_CHAPTER_AUTOSTOP in <a href="/windows/desktop/DirectShow/dvd-notification-codes">DVD Event Notification Codes</a> for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl Interface</a>

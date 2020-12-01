@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>get_Session</b> method gets a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> on which the event occurred.
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> on which the event occurred.
 
 ## -parameters
 
 ### -param ppSession [out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface.
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface.
 
 ## -returns
 
@@ -108,14 +108,13 @@ The <i>ppSession</i> parameter is not a valid pointer.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface returned by <b>ITAgentSessionEvent::get_Session</b>. The application must call <b>Release</b> on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface to free resources associated with it.
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface returned by <b>ITAgentSessionEvent::get_Session</b>. The application must call <b>Release</b> on the 
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsessionevent">ITAgentSessionEvent</a>
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsessionevent">ITAgentSessionEvent</a>

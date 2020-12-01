@@ -101,7 +101,7 @@ The hyphenation property is undefined.
 
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::GetHyphenation</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::GetHyphenation</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes.  For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -145,7 +145,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 ## -remarks
 
-This property corresponds to the PFE_DONOTHYPHEN effect described in the <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-paraformat2">PARAFORMAT2</a> structure.
+This property corresponds to the PFE_DONOTHYPHEN effect described in the <a href="/windows/desktop/api/richedit/ns-richedit-paraformat2">PARAFORMAT2</a> structure.
 
 ## -see-also
 
@@ -153,11 +153,11 @@ This property corresponds to the PFE_DONOTHYPHEN effect described in the <a href
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-paraformat2">PARAFORMAT2</a>
+<a href="/windows/desktop/api/richedit/ns-richedit-paraformat2">PARAFORMAT2</a>
 
 
 
@@ -165,9 +165,8 @@ This property corresponds to the PFE_DONOTHYPHEN effect described in the <a href
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-sethyphenation">SetHyphenation</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-sethyphenation">SetHyphenation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

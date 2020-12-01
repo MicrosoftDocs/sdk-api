@@ -68,21 +68,20 @@ Pointer to a Unicode string that identifies the resource manager. This parameter
 
 ### -field pfnDynamicAccessCheck
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a> callback function that the resource manager calls each time it encounters a callback access control entry (ACE) during access control list (ACL) evaluation in <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> or <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a>. This parameter can be <b>NULL</b> if no access check callback function is used.
+Pointer to an <a href="/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a> callback function that the resource manager calls each time it encounters a callback access control entry (ACE) during access control list (ACL) evaluation in <a href="/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> or <a href="/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a>. This parameter can be <b>NULL</b> if no access check callback function is used.
 
 ### -field pfnComputeDynamicGroups
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzcomputegroupscallback">AuthzComputeGroupsCallback</a> callback function called by the resource manager during initialization of an AuthzClientContext handle. This parameter can be <b>NULL</b> if no callback function is used to compute dynamic groups.
+Pointer to the <a href="/windows/desktop/SecAuthZ/authzcomputegroupscallback">AuthzComputeGroupsCallback</a> callback function called by the resource manager during initialization of an AuthzClientContext handle. This parameter can be <b>NULL</b> if no callback function is used to compute dynamic groups.
 
 ### -field pfnFreeDynamicGroups
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzfreegroupscallback">AuthzFreeGroupsCallback</a> callback function called by the resource manager to free security identifier (SID) attribute arrays allocated by the compute dynamic groups callback. This parameter can be <b>NULL</b> if no callback function is used to compute dynamic groups.
+Pointer to the <a href="/windows/desktop/SecAuthZ/authzfreegroupscallback">AuthzFreeGroupsCallback</a> callback function called by the resource manager to free security identifier (SID) attribute arrays allocated by the compute dynamic groups callback. This parameter can be <b>NULL</b> if no callback function is used to compute dynamic groups.
 
 ### -field pfnGetCentralAccessPolicy
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzgetcentralaccesspolicycallback-">AuthzGetCentralAccessPolicyCallback</a> callback function to be called by the resource manager to resolve any Central Access Policy ID ACE (<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_scoped_policy_id_ace">SYSTEM_SCOPED_POLICY_ID_ACE</a>) encountered by <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> or <a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a>. If this parameter is <b>NULL</b>, the <b>AuthzAccessCheck</b> function will fall back to LSA to resolve the Central Access Policy ID ACE.
+Pointer to the <a href="/windows/desktop/SecAuthZ/authzgetcentralaccesspolicycallback-">AuthzGetCentralAccessPolicyCallback</a> callback function to be called by the resource manager to resolve any Central Access Policy ID ACE (<a href="/windows/desktop/api/winnt/ns-winnt-system_scoped_policy_id_ace">SYSTEM_SCOPED_POLICY_ID_ACE</a>) encountered by <a href="/windows/desktop/api/authz/nf-authz-authzaccesscheck">AuthzAccessCheck</a> or <a href="/windows/desktop/api/authz/nf-authz-authzcachedaccesscheck">AuthzCachedAccessCheck</a>. If this parameter is <b>NULL</b>, the <b>AuthzAccessCheck</b> function will fall back to LSA to resolve the Central Access Policy ID ACE.
 
 ### -field pfnFreeCentralAccessPolicy
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authzfreecentralaccesspolicycallback">AuthzFreeCentralAccessPolicyCallback</a> callback function called by the resource manager to free the Central Access Policy allocated by the callback to get a central access policy. This parameter can be <b>NULL</b> if no callback function is specified for pfnGetCentralAccessPolicy
-
+Pointer to the <a href="/windows/desktop/SecAuthZ/authzfreecentralaccesspolicycallback">AuthzFreeCentralAccessPolicyCallback</a> callback function called by the resource manager to free the Central Access Policy allocated by the callback to get a central access policy. This parameter can be <b>NULL</b> if no callback function is specified for pfnGetCentralAccessPolicy

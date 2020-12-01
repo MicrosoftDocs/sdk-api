@@ -47,13 +47,13 @@ api_name:
 
 ## -description
 
-Creates an instance of <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+Creates an instance of <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ## -parameters
 
 ### -param arg1
 
-A <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> object to copy.
+A <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> object to copy.
 
 ## -remarks
 
@@ -62,7 +62,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
+<a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>
 
 
 

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases resources that may be held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet and calls the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreleasemarshaldata">CoReleaseMarshalData</a> function on each interface pointer.
+Releases resources that may be held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet and calls the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coreleasemarshaldata">CoReleaseMarshalData</a> function on each interface pointer.
 
 ## -parameters
 
@@ -113,11 +113,10 @@ An unexpected error has occurred.
 
 ## -remarks
 
-To clean up resources held in the marshaled buffer, the <b>ReleaseMarshalData</b> method must be called. However when the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration is set to normal, this is done automatically when unmarshaling.
+To clean up resources held in the marshaled buffer, the <b>ReleaseMarshalData</b> method must be called. However when the <a href="/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration is set to normal, this is done automatically when unmarshaling.
 
 <b>ReleaseMarshalData</b> can be used on both marshaled in and out parameters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallunmarshal">ICallUnmarshal</a>
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallunmarshal">ICallUnmarshal</a>

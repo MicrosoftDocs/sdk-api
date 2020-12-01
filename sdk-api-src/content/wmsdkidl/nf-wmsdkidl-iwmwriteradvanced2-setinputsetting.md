@@ -63,11 +63,11 @@ The <b>SetInputSetting</b> method specifies a named setting for a particular inp
 
 ### -param pszName [in]
 
-Pointer to a wide-character <b>null</b>-terminated string containing the setting name. For a list of valid settings, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/input-settings">Input Settings</a>.
+Pointer to a wide-character <b>null</b>-terminated string containing the setting name. For a list of valid settings, see <a href="/windows/desktop/wmformat/input-settings">Input Settings</a>.
 
 ### -param Type [in]
 
-Pointer to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type.
+Pointer to a value from the <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a> enumeration type.
 
 ### -param pValue [in]
 
@@ -151,21 +151,20 @@ Unspecified error.
 
 The encoding settings set with this method are not persisted in the output file. If you want your custom player to have access to this information, you must save the values as custom metadata attributes in the file header.
 
-Only g_wszDeinterlaceMode, g_wszInitialPatternForInverseTelecine, g_wszInterlacedCoding, and g_wszJPEGCompressionQuality can be set after <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a> has been called.
+Only g_wszDeinterlaceMode, g_wszInitialPatternForInverseTelecine, g_wszInterlacedCoding, and g_wszJPEGCompressionQuality can be set after <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a> has been called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2">IWMWriterAdvanced2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced2">IWMWriterAdvanced2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-getinputsetting">IWMWriterAdvanced2::GetInputSetting</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced2-getinputsetting">IWMWriterAdvanced2::GetInputSetting</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/input-formats-input-settings-and-data-unit-extensions">Input Formats, Input Settings, and Data Unit Extensions</a>
+<a href="/windows/desktop/wmformat/input-formats-input-settings-and-data-unit-extensions">Input Formats, Input Settings, and Data Unit Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-set-input-settings">To Set Input Settings</a>
-
+<a href="/windows/desktop/wmformat/to-set-input-settings">To Set Input Settings</a>

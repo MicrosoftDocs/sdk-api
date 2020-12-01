@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
  - BeginDeferWindowPos
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # BeginDeferWindowPos function
@@ -63,24 +64,24 @@ Allocates memory for a multiple-window- position structure and returns the handl
 
 Type: <b>int</b>
 
-The initial number of windows for which to store position information. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a> function increases the size of the structure, if necessary.
+The initial number of windows for which to store position information. The <a href="/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a> function increases the size of the structure, if necessary.
 
 ## -returns
 
 Type: <b>HDWP</b>
 
-If the function succeeds, the return value identifies the multiple-window-position structure. If insufficient system resources are available to allocate the structure, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value identifies the multiple-window-position structure. If insufficient system resources are available to allocate the structure, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The multiple-window-position structure is an internal structure; an application cannot access it directly. 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a> fills the multiple-window-position structure with information about the target position for one or more windows about to be moved. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a> function accepts the handle to this structure and repositions the windows by using the information stored in the structure. 
+<a href="/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a> fills the multiple-window-position structure with information about the target position for one or more windows about to be moved. The <a href="/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a> function accepts the handle to this structure and repositions the windows by using the information stored in the structure. 
 
 If any of the windows in the multiple-window- position structure have the <b>SWP_HIDEWINDOW</b> or <b>SWP_SHOWWINDOW</b> flag set, none of the windows are repositioned.
 
-If the system must increase the size of the multiple-window- position structure beyond the initial size specified by the <i>nNumWindows</i> parameter but cannot allocate enough memory to do so, the system fails the entire window positioning sequence (<b>BeginDeferWindowPos</b>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>). By specifying the maximum size needed, an application can detect and process failure early in the process.
+If the system must increase the size of the multiple-window- position structure beyond the initial size specified by the <i>nNumWindows</i> parameter but cannot allocate enough memory to do so, the system fails the entire window positioning sequence (<b>BeginDeferWindowPos</b>, <a href="/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>). By specifying the maximum size needed, an application can detect and process failure early in the process.
 
 ## -see-also
 
@@ -88,11 +89,11 @@ If the system must increase the size of the multiple-window- position structure 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-deferwindowpos">DeferWindowPos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enddeferwindowpos">EndDeferWindowPos</a>
 
 
 
@@ -100,9 +101,8 @@ If the system must increase the size of the multiple-window- position structure 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

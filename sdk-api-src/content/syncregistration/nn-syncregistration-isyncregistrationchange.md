@@ -54,7 +54,7 @@ Represents a change to the registration of a synchronization provider or a synch
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncRegistrationChange</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncRegistrationChange</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISyncRegistrationChange</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISyncRegistrationChange</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISyncRegistrationChange</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncregistrationchange-getevent">GetEvent</a>
+<a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncregistrationchange-getevent">GetEvent</a>
 </td>
 <td align="left" width="63%">
 Gets the next pending registration event.
@@ -78,7 +78,7 @@ Gets the next pending registration event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncregistrationchange-getinstanceid">GetInstanceId</a>
+<a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncregistrationchange-getinstanceid">GetInstanceId</a>
 </td>
 <td align="left" width="63%">
 Gets the instance ID of the synchronization provider or synchronization provider configuration UI associated with the event.
@@ -89,5 +89,4 @@ Gets the instance ID of the synchronization provider or synchronization provider
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-registration-reference">Windows Sync Registration Reference</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-registration-reference">Windows Sync Registration Reference</a>

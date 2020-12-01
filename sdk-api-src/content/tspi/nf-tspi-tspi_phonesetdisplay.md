@@ -74,7 +74,7 @@ The column position on the display where the new text is to be displayed.
 ### -param lpsDisplay
 
 A pointer to the memory location where the display content is stored. The application stores the display information in the format specified as <b>dwStringFormat</b> in the phone's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a> structure.
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a> structure.
 
 ### -param dwSize
 
@@ -83,29 +83,28 @@ The size in bytes, including the <b>null</b> terminator, of the information poin
 ## -returns
 
 Returns <i>dwRequestID</i>, or an error number if an error occurs. The <i>lResult</i> actual parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or it is an error number if an error occurs. Possible return values are as follows:
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a> is zero if the function succeeds or it is an error number if an error occurs. Possible return values are as follows:
 
 PHONEERR_INVALPHONEHANDLE, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INVALPHONESTATE, PHONEERR_OPERATIONFAILED, PHONEERR_INVALPARAM, PHONEERR_OPERATIONUNAVAIL, PHONEERR_NOMEM.
 
 ## -remarks
 
 The specified display information is written to the phone's display, starting at the specified positions. This operation overwrites previously displayed information. If the amount of information exceeds the size of the display, the information is truncated. The amount of information that can be displayed is at most (<b>dwNumRows</b> * <b>dwNumColumns</b>) elements in size. The <b>dwNumRows</b> and <b>dwNumColumns</b> members are available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a> structure returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>; they are zero-based.
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a> structure returned by 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>; they are zero-based.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
+<a href="/windows/desktop/api/tspi/nc-tspi-async_completion">ASYNC_COMPLETION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdisplay">TSPI_phoneGetDisplay</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdisplay">TSPI_phoneGetDisplay</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Sets the password of a local or a domain account on the remote computer.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinRM/authentication-for-remote-connections">Authentication for Remote Connections</a>.
+Sets the password of a local or a domain account on the remote computer.  For more information, see <a href="/windows/desktop/WinRM/authentication-for-remote-connections">Authentication for Remote Connections</a>.
 
 This property is write-only.
 
@@ -59,9 +59,8 @@ This property is write-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/connectionoptions-password">ConnectionOptions.Password</a>
+<a href="/windows/desktop/WinRM/connectionoptions-password">ConnectionOptions.Password</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a>
-
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a>

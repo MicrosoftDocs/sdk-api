@@ -127,5 +127,4 @@ The caller should free the parameters <i>pBstrName</i>, <i>pBstrDocString</i>, a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>

@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets how the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control handles image placement and sizing.
+Gets or sets how the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control handles image placement and sizing.
 
 
 This property is read/write.
@@ -64,7 +64,7 @@ This property is read/write.
 
 ## -remarks
 
-Valid values for this property are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkpicturesizemode">InkPictureSizeMode</a> enumeration. By default, in <b>IPSM_Normal</b> mode, the picture is positioned in the upper-left corner of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control, and any part of the image too big for the InkPicture control is clipped. Using the <b>IPSM_StretchImage</b> value causes the picture to stretch to fit the control.
+Valid values for this property are taken from the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkpicturesizemode">InkPictureSizeMode</a> enumeration. By default, in <b>IPSM_Normal</b> mode, the picture is positioned in the upper-left corner of the <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a> control, and any part of the image too big for the InkPicture control is clipped. Using the <b>IPSM_StretchImage</b> value causes the picture to stretch to fit the control.
 
 
 
@@ -76,9 +76,8 @@ Using the <b>IPSM_AutoSize</b> value causes the control to resize to always fit 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>
+<a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkpicturesizemode">InkPictureSizeMode</a>
-
+<a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkpicturesizemode">InkPictureSizeMode</a>

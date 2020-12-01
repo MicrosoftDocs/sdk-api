@@ -70,27 +70,26 @@ The identifier of the adapter that this source or target mode information relate
 
 ### -field DUMMYUNIONNAME.targetMode
 
-A valid <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_mode">DISPLAYCONFIG_TARGET_MODE</a> structure that describes the specified target only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_TARGET.
+A valid <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_mode">DISPLAYCONFIG_TARGET_MODE</a> structure that describes the specified target only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_TARGET.
 
 ### -field DUMMYUNIONNAME.sourceMode
 
-A valid <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_source_mode">DISPLAYCONFIG_SOURCE_MODE</a> structure that describes the specified source only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_SOURCE.
+A valid <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_source_mode">DISPLAYCONFIG_SOURCE_MODE</a> structure that describes the specified source only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_SOURCE.
 
 ### -field DUMMYUNIONNAME.desktopImageInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_desktop_image_info">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> structure that describes information about the desktop image only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_. 
+A <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_desktop_image_info">DISPLAYCONFIG_DESKTOP_IMAGE_INFO</a> structure that describes information about the desktop image only when <b>infoType</b> is DISPLAYCONFIG_MODE_INFO_TYPE_. 
 
 Supported starting in Windows 10.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ne-wingdi-displayconfig_mode_info_type">DISPLAYCONFIG_MODE_INFO_TYPE</a>
+<a href="/windows/desktop/api/wingdi/ne-wingdi-displayconfig_mode_info_type">DISPLAYCONFIG_MODE_INFO_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_source_mode">DISPLAYCONFIG_SOURCE_MODE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_source_mode">DISPLAYCONFIG_SOURCE_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_mode">DISPLAYCONFIG_TARGET_MODE</a>
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_mode">DISPLAYCONFIG_TARGET_MODE</a>

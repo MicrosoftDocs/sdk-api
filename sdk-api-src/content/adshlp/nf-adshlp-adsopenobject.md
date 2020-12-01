@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ADsOpenObject</b> function binds to an ADSI object using explicit user name and password credentials.<b>ADsOpenObject</b> is a wrapper function for <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a> and is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a> method.
+The <b>ADsOpenObject</b> function binds to an ADSI object using explicit user name and password credentials.<b>ADsOpenObject</b> is a wrapper function for <a href="/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a> and is equivalent to the <a href="/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a> method.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ The <b>ADsOpenObject</b> function binds to an ADSI object using explicit user na
 
 Type: <b>LPCWSTR</b>
 
-The null-terminated Unicode string that specifies the ADsPath of the ADSI object. For more information and code examples of binding strings for this parameter, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/ldap-adspath">LDAP ADsPath</a> and  <a href="https://docs.microsoft.com/windows/desktop/ADSI/winnt-adspath">WinNT ADsPath</a>.
+The null-terminated Unicode string that specifies the ADsPath of the ADSI object. For more information and code examples of binding strings for this parameter, see  <a href="/windows/desktop/ADSI/ldap-adspath">LDAP ADsPath</a> and  <a href="/windows/desktop/ADSI/winnt-adspath">WinNT ADsPath</a>.
 
 ### -param lpszUserName [in]
 
@@ -96,7 +96,7 @@ Type: <b>HRESULT</b>
 
 This method supports the standard <b>HRESULT</b> return values, including the following.
 
-For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+For more information, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
@@ -104,7 +104,7 @@ This function should not be used just to validate user credentials. For more inf
 
 A C/C++ client calls the <b>ADsOpenObject</b> helper function to bind to an ADSI object, using the user name and password supplied as credentials for the appropriate directory service. If <i>lpszUsername</i> and <i>lpszPassword</i> are <b>NULL</b> and <b>ADS_SECURE_AUTHENTICATION</b> is set, ADSI binds to the object using the security context of the calling thread, which is either the security context of the user account under which the application is running or of the client user account that the calling thread impersonates.
 
-The  credentials passed to the <b>ADsOpenObject</b> function are used only with the particular object bound to and do not affect the security context of the calling thread. This means that, in the example below, the call to <b>ADsOpenObject</b> will use different credentials than the call to <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a>.
+The  credentials passed to the <b>ADsOpenObject</b> function are used only with the particular object bound to and do not affect the security context of the calling thread. This means that, in the example below, the call to <b>ADsOpenObject</b> will use different credentials than the call to <a href="/windows/desktop/api/adshlp/nf-adshlp-adsgetobject">ADsGetObject</a>.
 
 
 ```cpp
@@ -163,25 +163,24 @@ hr = ADsOpenObject(L"LDAP://CN=Jeff,DC=Fabrikam,DC=com",
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
+<a href="/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/binding-with-adsopenobject-and-iadsopendsobject-opendsobject">ADsOpenObject and IADsOpenDSObject::OpenDsObject</a>
+<a href="/windows/desktop/ADSI/binding-with-adsopenobject-and-iadsopendsobject-opendsobject">ADsOpenObject and IADsOpenDSObject::OpenDsObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wsw/binding">Binding</a>
+<a href="/windows/desktop/wsw/binding">Binding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsopendsobject">IADsOpenDSObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadsopendsobject-opendsobject">IADsOpenDSObject::OpenDsObject</a>

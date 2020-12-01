@@ -52,10 +52,10 @@ api_name:
 
 ## -description
 
-Type for supplying a Windows Integrated Authentication credential based on the current Windows identity. If this credential subtype is used for a security binding, the current thread token on the thread that calls <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenserviceproxy">WsOpenServiceProxy</a> is used as the Windows identity when sending messages or making service calls.
+Type for supplying a Windows Integrated Authentication credential based on the current Windows identity. If this credential subtype is used for a security binding, the current thread token on the thread that calls <a href="/windows/desktop/api/webservices/nf-webservices-wsopenchannel">WsOpenChannel</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsopenserviceproxy">WsOpenServiceProxy</a> is used as the Windows identity when sending messages or making service calls.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsacceptchannel">WsAcceptChannel</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsopenservicehost">WsOpenServiceHost</a> do not support this credential type when called from an impersonating thread. 
+<a href="/windows/desktop/api/webservices/nf-webservices-wsacceptchannel">WsAcceptChannel</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsopenservicehost">WsOpenServiceHost</a> do not support this credential type when called from an impersonating thread. 
 
 
 This type derives from the base type <a href="/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>. For an instance of this type, the type selector field <b>credential.credentialType</b> must have the value <b>WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE</b>.
@@ -66,4 +66,3 @@ This type derives from the base type <a href="/windows/win32/api/webservices/ns-
 
 The base type from which this type and all other Windows Integrated Authentication credential types derive.
                 See <a href="/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
-

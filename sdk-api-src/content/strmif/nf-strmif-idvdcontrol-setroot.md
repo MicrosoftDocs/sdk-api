@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  The <b>IDvdControl</b> interface is deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2</a> instread.</div>
+<div class="alert"><b>Note</b>  The <b>IDvdControl</b> interface is deprecated. Use <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2</a> instread.</div>
 <div> </div>
 Sets the root directory containing the DVD-Video volume.
 
@@ -66,15 +66,14 @@ Returns an <b>HRESULT</b> value.
 
 ## -remarks
 
-This method returns an error unless the domain is DVD_DOMAIN_Stop. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
+This method returns an error unless the domain is DVD_DOMAIN_Stop. For more information, see <a href="/windows/desktop/api/strmif/ne-strmif-dvd_domain">DVD_DOMAIN</a>.
 
-If you haven't set the root directory before calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol-titleplay">IDvdControl::TitlePlay</a>, the first drive starting from C: that contains a VIDEO_TS directory in the top level directory will be used as the root.
+If you haven't set the root directory before calling <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-titleplay">IDvdControl::TitlePlay</a>, the first drive starting from C: that contains a VIDEO_TS directory in the top level directory will be used as the root.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl Interface</a>

@@ -55,6 +55,7 @@ api_name:
  - DefWindowProc
  - DefWindowProcA
  - DefWindowProcW
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # DefWindowProcW function
@@ -98,7 +99,7 @@ The return value is the result of the message processing and depends on the mess
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>
 
 
 
@@ -106,7 +107,7 @@ The return value is the result of the message processing and depends on the mess
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-defdlgprocw">DefDlgProc</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-defdlgprocw">DefDlgProc</a>
 
 
 
@@ -114,14 +115,13 @@ The return value is the result of the message processing and depends on the mess
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-procedures">Window Procedures</a>
+<a href="/windows/desktop/winmsg/window-procedures">Window Procedures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winuser.h header defines DefWindowProc as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

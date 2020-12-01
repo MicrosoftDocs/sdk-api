@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets a value that specifies whether the font style of the currently selected text in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is bold.
+Gets or sets a value that specifies whether the font style of the currently selected text in the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control is bold.
 
 This property is read/write.
 
@@ -65,7 +65,7 @@ This property is read/write.
 
 If a selection spans multiple characters with different bold styles, the <b>SelBold</b> property will be <b>NULL</b>.
 
-If there is no text selected in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control, setting this property determines whether all new text entered at the current insertion point is bold.
+If there is no text selected in the <a href="/windows/desktop/tablet/inkedit-control">InkEdit</a> control, setting this property determines whether all new text entered at the current insertion point is bold.
 
 ## -see-also
 
@@ -73,5 +73,4 @@ If there is no text selected in the <a href="https://docs.microsoft.com/windows/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

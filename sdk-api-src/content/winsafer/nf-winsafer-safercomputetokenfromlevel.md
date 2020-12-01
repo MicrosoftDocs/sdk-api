@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
 api_name:
  - SaferComputeTokenFromLevel
+req.apiset: ext-ms-win-advapi32-safer-l1-1-0 (introduced in Windows 8)
 ---
 
 # SaferComputeTokenFromLevel function
@@ -107,11 +108,11 @@ On output, the value of the <i>lpReserved</i> parameter specifies the result of 
 </dl>
 </td>
 <td width="60%">
-If this flag is set, the system does not check <a href="https://technet.microsoft.com/library/dd723678.aspx">AppLocker</a> rules  or apply <a href="https://technet.microsoft.com/library/cc779607.aspx">Software Restriction Policies</a>. For <a href="https://technet.microsoft.com/library/dd723678.aspx">AppLocker</a>, this flag disables checks for all four rule collections: Executable, Windows Installer, Script, and DLL. 
+If this flag is set, the system does not check <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd723678(v=ws.10)">AppLocker</a> rules  or apply <a href="/previous-versions/windows/it-pro/windows-server-2003/cc779607(v=ws.10)">Software Restriction Policies</a>. For <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd723678(v=ws.10)">AppLocker</a>, this flag disables checks for all four rule collections: Executable, Windows Installer, Script, and DLL. 
 
 Set this flag when creating a setup program that must run extracted DLLs during installation.
 
-A token can be queried for existence of this flag by using <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>.
+A token can be queried for existence of this flag by using <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>AppLocker is not supported.
 
@@ -138,5 +139,4 @@ If the <b>SAFER_TOKEN_WANT_FLAGS</b> flag is set, and the <b>SAFER_TOKEN_COMPARE
 
 ## -returns
 
-<b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>. For extended information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+<b>TRUE</b> if the function succeeds; otherwise, <b>FALSE</b>. For extended information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

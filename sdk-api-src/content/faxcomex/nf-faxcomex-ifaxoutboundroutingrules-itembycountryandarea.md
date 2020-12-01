@@ -43,15 +43,11 @@ api_location:
  - Fxscomex.dll
 api_name:
  - IFaxOutboundRoutingRules.ItemByCountryAndArea
- - IFaxOutboundRoutingRules.ItemByCountryAndArea
 ---
-
-# IFaxOutboundRoutingRules::ItemByCountryAndArea
-
 
 ## -description
 
-The <b>IFaxOutboundRoutingRules::get_ItemByCountryAndArea</b> method returns an outbound routing rule (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object) from the collection using the routing rule's country/region code and area code.
+The <b>IFaxOutboundRoutingRules::get_ItemByCountryAndArea</b> method returns an outbound routing rule (<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object) from the collection using the routing rule's country/region code and area code.
 
 ## -parameters
 
@@ -59,26 +55,19 @@ The <b>IFaxOutboundRoutingRules::get_ItemByCountryAndArea</b> method returns an 
 
 Type: <b>long</b>
 
-A <b>long</b> value that specifies the country/region code of the outbound routing rule to retrieve. Specifying <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_routing_rule_code_enum">frrcANY_CODE</a> will return a rule for any country/region code.
+A <b>long</b> value that specifies the country/region code of the outbound routing rule to retrieve. Specifying <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_routing_rule_code_enum">frrcANY_CODE</a> will return a rule for any country/region code.
 
 ### -param lAreaCode
 
 Type: <b>long</b>
 
-A <b>long</b> value that specifies the area code of the outbound routing rule to retrieve. Specifying <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_routing_rule_code_enum">frrcANY_CODE</a> will return a rule for any area code within the specified country/region code.
+A <b>long</b> value that specifies the area code of the outbound routing rule to retrieve. Specifying <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_routing_rule_code_enum">frrcANY_CODE</a> will return a rule for any area code within the specified country/region code.
 
 ### -param pFaxOutboundRoutingRule
 
-TBD
+Type: <b><a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a>**</b>
 
-
-
-
-#### - FaxOutboundRoutingRule
-
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a>**</b>
-
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object.
+A <a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object.
 
 ## -returns
 
@@ -88,13 +77,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutboundroutingrules">IFaxOutboundRoutingRules</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutboundroutingrules">IFaxOutboundRoutingRules</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-creating-and-managing-outbound-routing-rules">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-creating-and-managing-outbound-routing-rules">Visual Basic Example</a>

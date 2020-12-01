@@ -54,7 +54,7 @@ Represents a set of run-time bindable and discoverable properties that allow a d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Properties</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1Properties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1Properties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID2D1Properties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1Properties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertycount">GetPropertyCount</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertycount">GetPropertyCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of top-level properties.
@@ -78,7 +78,7 @@ Gets the number of top-level properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertyindex">GetPropertyIndex</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertyindex">GetPropertyIndex</a>
 </td>
 <td align="left" width="63%">
 Gets the index corresponding to the given property name.
@@ -87,7 +87,7 @@ Gets the index corresponding to the given property name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1properties-getpropertyname-overload">GetPropertyName overload methods</a>
+<a href="/windows/desktop/Direct2D/id2d1properties-getpropertyname-overload">GetPropertyName overload methods</a>
 </td>
 <td align="left" width="63%">
 Gets the property name that corresponds to the given index.
@@ -96,7 +96,7 @@ Gets the property name that corresponds to the given index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1properties-getpropertynamelength-overload">GetPropertyNameLength overload methods</a>
+<a href="/windows/desktop/Direct2D/id2d1properties-getpropertynamelength-overload">GetPropertyNameLength overload methods</a>
 </td>
 <td align="left" width="63%">
 Gets  the number of characters for the given property name.
@@ -105,7 +105,7 @@ Gets  the number of characters for the given property name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1properties-getsubproperties-overload">GetSubProperties overload methods</a>
+<a href="/windows/desktop/Direct2D/id2d1properties-getsubproperties-overload">GetSubProperties overload methods</a>
 </td>
 <td align="left" width="63%">
 Gets the sub-properties of the provided property by index.
@@ -114,16 +114,16 @@ Gets the sub-properties of the provided property by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1properties-gettype-overload">GetType overload methods</a>
+<a href="/windows/desktop/Direct2D/id2d1properties-gettype-overload">GetType overload methods</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_property_type">D2D1_PROPERTY_TYPE</a> of the selected property.
+Gets the <a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_property_type">D2D1_PROPERTY_TYPE</a> of the selected property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1properties-getvalue-overload">GetValue overload methods</a>
+<a href="/windows/desktop/Direct2D/id2d1properties-getvalue-overload">GetValue overload methods</a>
 </td>
 <td align="left" width="63%">
 Gets  the value of the property by index.
@@ -132,7 +132,7 @@ Gets  the value of the property by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1properties-getvaluebyname-overload">GetValueByName overload methods</a>
+<a href="/windows/desktop/Direct2D/id2d1properties-getvaluebyname-overload">GetValueByName overload methods</a>
 </td>
 <td align="left" width="63%">
 Gets the property value by name.
@@ -141,7 +141,7 @@ Gets the property value by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1properties-getvaluesize-overload">GetValueSize overload methods</a>
+<a href="/windows/desktop/Direct2D/id2d1properties-getvaluesize-overload">GetValueSize overload methods</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the property value in bytes, using the property index.
@@ -150,7 +150,7 @@ Gets the size of the property value in bytes, using the property index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1properties-setvalue-overload">SetValue overload methods</a>
+<a href="/windows/desktop/Direct2D/id2d1properties-setvalue-overload">SetValue overload methods</a>
 </td>
 <td align="left" width="63%">
 Sets the corresponding property by index.
@@ -159,7 +159,7 @@ Sets the corresponding property by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh997717(v=vs.85)">SetValueByName overload methods</a>
+<a href="/previous-versions/windows/desktop/legacy/hh997717(v=vs.85)">SetValueByName overload methods</a>
 </td>
 <td align="left" width="63%">
 Sets the named property to the given value.
@@ -177,9 +177,9 @@ The <b>ID2D1Properties</b> interface exposes a set of run-time bindable and disc
 
 The interface supports access through either indices or property names. In addition to top-level properties, each property in an <b>ID2D1Properties</b> may contain a sub-<b>ID2D1Properties</b> interface, which stores metadata describing its parent property. Sub-properties are accessed by requesting this sub-interface by property index, or by using a property name string separated by a dot (.).
 
-The interface is intentionally designed to avoid dependencies on a run-time basis. All allocation is done by the caller of the API and <b>VARIANT</b> types are not used. The property interface generally is designed not to return failures where the application could trivially change their calling sequence in order to avoid the condition. For example, since the number of properties supported by the instance is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertycount">GetPropertyCount</a> method, other methods that take a property index do not return a failure, unless they also use the plug-in effect's property system.
+The interface is intentionally designed to avoid dependencies on a run-time basis. All allocation is done by the caller of the API and <b>VARIANT</b> types are not used. The property interface generally is designed not to return failures where the application could trivially change their calling sequence in order to avoid the condition. For example, since the number of properties supported by the instance is returned by the <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertycount">GetPropertyCount</a> method, other methods that take a property index do not return a failure, unless they also use the plug-in effect's property system.
 
-The interface is primarily based upon an index-based access model, and it supports nested sub-properties within properties. Unlike a directory structure, the property itself has a value and a type and might optionally support sub-properties (directories are not files). These are normally metadata that describe the property, but, this is also used to specify arrays of objects. In order to simplify accessing sub-properties and to allow name-based access, two helper methods – [GetValueByName](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr)) – are defined. These use a "dotted" notation in order to allow sub-properties to be directly specified, for example:
+The interface is primarily based upon an index-based access model, and it supports nested sub-properties within properties. Unlike a directory structure, the property itself has a value and a type and might optionally support sub-properties (directories are not files). These are normally metadata that describe the property, but, this is also used to specify arrays of objects. In order to simplify accessing sub-properties and to allow name-based access, two helper methods – [GetValueByName](./nf-d2d1_1-id2d1properties-getvaluebyname(pcwstr).md) – are defined. These use a "dotted" notation in order to allow sub-properties to be directly specified, for example:
 
 
 ```cpp
@@ -246,7 +246,7 @@ pEffect->SetValueByName<UINT32>(
  
 
 <h3><a id="Standard_Sub-Properties"></a><a id="standard_sub-properties"></a><a id="STANDARD_SUB-PROPERTIES"></a>Standard Sub-Properties</h3>
-The following are standard sub-properties that can be used for meta-data access, and may be available on both system and custom properties. Please see the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_subproperty">D2D1_SUBPROPERTY</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_property_type">D2D1_PROPERTY_TYPE</a> enumerations for more information.
+The following are standard sub-properties that can be used for meta-data access, and may be available on both system and custom properties. Please see the <a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_subproperty">D2D1_SUBPROPERTY</a> and <a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_property_type">D2D1_PROPERTY_TYPE</a> enumerations for more information.
 
 <table>
 <tr>
@@ -323,7 +323,7 @@ Each value in this array is a name/index pair. The indices can be set to the par
  
 
 <h3><a id="Array-Type_Sub-Properties"></a><a id="array-type_sub-properties"></a><a id="ARRAY-TYPE_SUB-PROPERTIES"></a>Array-Type Sub-Properties</h3>
-See <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u_)">ID2D1Properties::GetType</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_property_type">D2D1_PROPERTY_TYPE</a> for more information. If the property type is <b>D2D1_PROPERTY_TYPE_ARRAY</b>, the value of the property will be considered to be a <b>UINT</b> that has the count of array elements. The next sub-property will directly map the index to the requested property value. For example:
+See <a href="/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u)">ID2D1Properties::GetType</a> and <a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_property_type">D2D1_PROPERTY_TYPE</a> for more information. If the property type is <b>D2D1_PROPERTY_TYPE_ARRAY</b>, the value of the property will be considered to be a <b>UINT</b> that has the count of array elements. The next sub-property will directly map the index to the requested property value. For example:
 
 
 ```cpp
@@ -375,7 +375,7 @@ PixelFormat: ENUM – The pixel format value
 ```
 
 
-The above example makes use of the following sub-properties. Please see the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_subproperty">D2D1_SUBPROPERTY</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_property_type">D2D1_PROPERTY_TYPE</a> enumerations for more information.
+The above example makes use of the following sub-properties. Please see the <a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_subproperty">D2D1_SUBPROPERTY</a> and <a href="/windows/desktop/api/d2d1_1/ne-d2d1_1-d2d1_property_type">D2D1_PROPERTY_TYPE</a> enumerations for more information.
 
 <table>
 <tr>
@@ -402,9 +402,8 @@ The above example makes use of the following sub-properties. Please see the <a h
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

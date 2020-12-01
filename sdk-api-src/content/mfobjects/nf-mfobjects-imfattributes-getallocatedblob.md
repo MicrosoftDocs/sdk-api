@@ -61,7 +61,7 @@ GUID that identifies which value to retrieve. The attribute type must be <b>MF_A
 
 ### -param ppBuf [out]
 
-If the key is found and the value is a byte array, this parameter receives a copy of the array. The caller must free the memory for the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+If the key is found and the value is a byte array, this parameter receives a copy of the array. The caller must free the memory for the array by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ### -param pcbSize [out]
 
@@ -113,7 +113,7 @@ The attribute value is not a byte array.
 
 ## -remarks
 
-To copy a byte array value into a caller-allocated buffer, use the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getblob">IMFAttributes::GetBlob</a> method.
+To copy a byte array value into a caller-allocated buffer, use the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getblob">IMFAttributes::GetBlob</a> method.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -124,13 +124,12 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_type">MF_ATTRIBUTE_TYPE</a>
-
+<a href="/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_type">MF_ATTRIBUTE_TYPE</a>

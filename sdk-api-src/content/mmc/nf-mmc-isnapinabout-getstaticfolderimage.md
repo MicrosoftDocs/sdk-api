@@ -84,5 +84,4 @@ MMC uses default static folder images and icons if it cannot obtain the snap-in 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-isnapinabout">ISnapinAbout</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-isnapinabout">ISnapinAbout</a>

@@ -55,15 +55,15 @@ api_name:
 ## -description
 
 The <b>SAFER_IDENTIFICATION_HEADER</b> structure is used as the header for the  
-<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_hash_identification">SAFER_HASH_IDENTIFICATION</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_urlzone_identification">SAFER_URLZONE_IDENTIFICATION</a> structures.
+<a href="/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a>, 
+<a href="/windows/desktop/api/winsafer/ns-winsafer-safer_hash_identification">SAFER_HASH_IDENTIFICATION</a>, and 
+<a href="/windows/desktop/api/winsafer/ns-winsafer-safer_urlzone_identification">SAFER_URLZONE_IDENTIFICATION</a> structures.
 
 ## -struct-fields
 
 ### -field dwIdentificationType
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ne-winsafer-safer_identification_types">SAFER_IDENTIFICATION_TYPES</a> enumeration value that indicates the type of the structure. The following table shows the possible values.
+<a href="/windows/desktop/api/winsafer/ne-winsafer-safer_identification_types">SAFER_IDENTIFICATION_TYPES</a> enumeration value that indicates the type of the structure. The following table shows the possible values.
 
 <table>
 <tr>
@@ -86,7 +86,7 @@ The header is for a default structure.
 </dl>
 </td>
 <td width="60%">
-The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a> structure.
+The header is for a <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a> structure.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/wins
 </dl>
 </td>
 <td width="60%">
-The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_hash_identification">SAFER_HASH_IDENTIFICATION</a> structure.
+The header is for a <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_hash_identification">SAFER_HASH_IDENTIFICATION</a> structure.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/wins
 </dl>
 </td>
 <td width="60%">
-The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_urlzone_identification">SAFER_URLZONE_IDENTIFICATION</a> structure.
+The header is for a <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_urlzone_identification">SAFER_URLZONE_IDENTIFICATION</a> structure.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/wins
 </dl>
 </td>
 <td width="60%">
-The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a> structure.
+The header is for a <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a> structure.
 
 </td>
 </tr>
@@ -124,9 +124,9 @@ The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/wins
 
 ### -field cbStructSize
 
-The size of the entire  <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_hash_identification">SAFER_HASH_IDENTIFICATION</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_urlzone_identification">SAFER_URLZONE_IDENTIFICATION</a> structure, including the common header.
+The size of the entire  <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a>, 
+<a href="/windows/desktop/api/winsafer/ns-winsafer-safer_hash_identification">SAFER_HASH_IDENTIFICATION</a>, or 
+<a href="/windows/desktop/api/winsafer/ns-winsafer-safer_urlzone_identification">SAFER_URLZONE_IDENTIFICATION</a> structure, including the common header.
 
 ### -field IdentificationGuid
 
@@ -137,4 +137,3 @@ The GUID of the identification.
 ### -field LastModified
 
 The date and time of the last change to this identification.
-

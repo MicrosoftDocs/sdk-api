@@ -56,7 +56,7 @@ api_name:
 ## -description
 
 Discriminator for the union in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_descriptor">FILE_ID_DESCRIPTOR</a> structure.
+    <a href="/windows/desktop/api/winbase/ns-winbase-file_id_descriptor">FILE_ID_DESCRIPTOR</a> structure.
 
 ## -enum-fields
 
@@ -81,13 +81,12 @@ This value is used for comparison only. All valid values are less than this valu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-file_id_descriptor">FILE_ID_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-file_id_descriptor">FILE_ID_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-enumerations">File Management Enumerations</a>
+<a href="/windows/desktop/FileIO/file-management-enumerations">File Management Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfilebyid">OpenFileById</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-openfilebyid">OpenFileById</a>

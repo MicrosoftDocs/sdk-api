@@ -71,7 +71,7 @@ The user's account status. The status value can be one of the following.
 </td>
 <td width="60%">
 The SID was resolved to a user account. Names are available through 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getname">IDiskQuotaUser::GetName</a>.
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getname">IDiskQuotaUser::GetName</a>.
 
 </td>
 </tr>
@@ -167,13 +167,12 @@ The <i>pdwStatus</i> parameter is <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>

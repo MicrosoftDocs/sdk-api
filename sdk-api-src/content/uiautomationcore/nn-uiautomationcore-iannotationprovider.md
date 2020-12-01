@@ -54,5 +54,4 @@ Exposes the properties of an annotation in a document.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-cpinterfaces">Control Pattern Interfaces for Providers</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-cpinterfaces">Control Pattern Interfaces for Providers</a>

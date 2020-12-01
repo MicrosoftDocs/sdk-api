@@ -50,15 +50,16 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
-<div> </div>
+> [!NOTE]
+>  This interface is deprecated. New applications should not use it.
+
 The <code>GetMediaType</code> method retrieves the media type of the sample. If the format has not changed from the previous sample, the sample might not carry a media type.
 
 ## -parameters
 
 ### -param ppMediaType
 
-Address of a pointer that receives an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure.
+Address of a pointer that receives an <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure.
 
 ## -returns
 
@@ -106,5 +107,4 @@ Success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
-
+<a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>

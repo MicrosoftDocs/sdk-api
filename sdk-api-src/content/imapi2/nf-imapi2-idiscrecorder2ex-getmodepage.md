@@ -56,11 +56,11 @@ Retrieves the specified mode page from the device.
 
 ### -param requestedModePage [in]
 
-Mode page to retrieve. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_type">IMAPI_MODE_PAGE_TYPE</a> enumeration type.
+Mode page to retrieve. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_type">IMAPI_MODE_PAGE_TYPE</a> enumeration type.
 
 ### -param requestType [in]
 
-Type of mode page data to retrieve, for example, the current settings or the settings that are write enabled. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_request_type">IMAPI_MODE_PAGE_REQUEST_TYPE</a> enumeration type.
+Type of mode page data to retrieve, for example, the current settings or the settings that are write enabled. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_request_type">IMAPI_MODE_PAGE_REQUEST_TYPE</a> enumeration type.
 
 ### -param modePageData [out]
 
@@ -373,21 +373,20 @@ Value: 0xC0AA0201
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedmodepages">IDiscRecorder2Ex::GetSupportedModePages</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedmodepages">IDiscRecorder2Ex::GetSupportedModePages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-setmodepage">IDiscRecorder2Ex::SetModePage</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-setmodepage">IDiscRecorder2Ex::SetModePage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_request_type">IMAPI_MODE_PAGE_REQUEST_TYPE</a>
+<a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_request_type">IMAPI_MODE_PAGE_REQUEST_TYPE</a>
 
 
 
 IMAPI_MODE_PAGE_TYPE
-

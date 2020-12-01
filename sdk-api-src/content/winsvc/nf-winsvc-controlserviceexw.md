@@ -64,9 +64,9 @@ Sends a control code to a service.
 ### -param hService [in]
 
 A handle to the service. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function. The 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">access rights</a> required for this handle depend on the <i>dwControl</i> code requested.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function. The 
+<a href="/windows/desktop/Services/service-security-and-access-rights">access rights</a> required for this handle depend on the <i>dwControl</i> code requested.
 
 ### -param dwControl [in]
 
@@ -216,7 +216,7 @@ A pointer to the service control parameters. If <i>dwInfoLevel</i> is SERVICE_CO
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes can be set by the service control manager. Other error codes can be set by the registry functions that are called by the service control manager.
 
@@ -255,8 +255,8 @@ The service cannot be stopped because other running services are dependent on it
 </td>
 <td width="60%">
 The specified handle was not obtained using 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>, or the handle is no longer valid.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> or 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>, or the handle is no longer valid.
 
 </td>
 </tr>
@@ -312,7 +312,7 @@ The service has not been started.
 </td>
 <td width="60%">
 The process for the service was started, but it did not call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-startservicectrldispatchera">StartServiceCtrlDispatcher</a>, or the thread that called 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-startservicectrldispatchera">StartServiceCtrlDispatcher</a>, or the thread that called 
 <b>StartServiceCtrlDispatcher</b> may be blocked in a control handler function.
 
 </td>
@@ -338,13 +338,13 @@ The
 The SCM processes service control notifications in a serial fashion — it waits for one service to complete processing a service control notification before sending the next one. Because of this, a call to <b>ControlServiceEx</b> blocks for 30 seconds if any service is busy handling a control code. If the busy service still has not returned from its handler function when the timeout expires, <b>ControlServiceEx</b> fails with ERROR_SERVICE_REQUEST_TIMEOUT.
 
 To stop and start a service requires a security descriptor that allows you to do so. The default security descriptor allows the 
-<a href="https://docs.microsoft.com/windows/desktop/Services/localsystem-account">LocalSystem account</a>, and members of the Administrators and Power Users groups to stop and start services. To change the security descriptor of a service, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/modifying-the-dacl-for-a-service">Modifying the DACL for a Service</a>.
+<a href="/windows/desktop/Services/localsystem-account">LocalSystem account</a>, and members of the Administrators and Power Users groups to stop and start services. To change the security descriptor of a service, see 
+<a href="/windows/desktop/Services/modifying-the-dacl-for-a-service">Modifying the DACL for a Service</a>.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a> function returns a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status_process">SERVICE_STATUS_PROCESS</a> structure whose <b>dwCurrentState</b> and <b>dwControlsAccepted</b> members indicate the current state and controls accepted by a running service. All running services accept the SERVICE_CONTROL_INTERROGATE control code by default. Drivers do not accept control codes other than SERVICE_CONTROL_STOP and SERVICE_CONTROL_INTERROGATE. Each service specifies the other control codes that it accepts when it calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> function to report its status. A service should always accept these codes when it is running, no matter what it is doing.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a> function returns a 
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_status_process">SERVICE_STATUS_PROCESS</a> structure whose <b>dwCurrentState</b> and <b>dwControlsAccepted</b> members indicate the current state and controls accepted by a running service. All running services accept the SERVICE_CONTROL_INTERROGATE control code by default. Drivers do not accept control codes other than SERVICE_CONTROL_STOP and SERVICE_CONTROL_INTERROGATE. Each service specifies the other control codes that it accepts when it calls the 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a> function to report its status. A service should always accept these codes when it is running, no matter what it is doing.
 
 The following table shows the action of the SCM  in each of the possible service states.
 
@@ -403,15 +403,15 @@ The following table shows the action of the SCM  in each of the possible service
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a>
 
 
 
@@ -419,21 +419,20 @@ The following table shows the action of the SCM  in each of the possible service
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_status">SERVICE_STATUS</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_status">SERVICE_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-control-requests">Service Control Requests</a>
+<a href="/windows/desktop/Services/service-control-requests">Service Control Requests</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
+<a href="/windows/desktop/Services/service-functions">Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity">SetServiceObjectSecurity</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity">SetServiceObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
-
+<a href="/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>

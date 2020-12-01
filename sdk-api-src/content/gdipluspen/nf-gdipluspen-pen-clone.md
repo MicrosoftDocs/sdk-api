@@ -52,29 +52,28 @@ api_name:
 ## -description
 
 The <b>Pen::Clone</b> method copies a 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
+			<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 ## -parameters
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>*</b>
+Type: <b><a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>*</b>
 
-This method returns a pointer to the new <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
+This method returns a pointer to the new <a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
+<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-pen-methods">Pen Methods</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-class-pen-methods">Pen Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>

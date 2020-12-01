@@ -108,5 +108,4 @@ The number of sectors that should be in the shrunken volume. Used only when the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_shrink_volume">FSCTL_SHRINK_VOLUME</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_shrink_volume">FSCTL_SHRINK_VOLUME</a>

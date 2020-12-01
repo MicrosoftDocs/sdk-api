@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
  - InvertRect
+req.apiset: ext-ms-win-ntuser-gui-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # InvertRect function
@@ -78,19 +79,18 @@ On monochrome screens, <b>InvertRect</b> makes white pixels black and black pixe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-fillrect">FillRect
+<a href="/windows/desktop/api/winuser/nf-winuser-fillrect">FillRect
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
+<a href="/windows/desktop/gdi/filled-shape-functions">Filled Shape Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
+<a href="/windows/desktop/gdi/filled-shapes">Filled Shapes Overview</a>
 
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT
       </a>
-

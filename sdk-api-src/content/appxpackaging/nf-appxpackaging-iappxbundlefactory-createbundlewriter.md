@@ -56,9 +56,9 @@ Creates a write-only bundle object to which app packages can be added.
 
 ### -param outputStream [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-The output stream that receives the serialized package data. The stream must support at least the  <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">Write</a> method.
+The output stream that receives the serialized package data. The stream must support at least the  <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">Write</a> method.
 
 ### -param bundleVersion [in]
 
@@ -89,5 +89,4 @@ Content added to the bundle is serialized out as an Appx bundle file to <i>outpu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlefactory">IAppxBundleFactory</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlefactory">IAppxBundleFactory</a>

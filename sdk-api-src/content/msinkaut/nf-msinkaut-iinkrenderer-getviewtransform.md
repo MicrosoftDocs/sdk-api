@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/tablet/inktransform-class">InkTransform</a> object that represents the view transform that is used to render ink.
+Gets the <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> object that represents the view transform that is used to render ink.
 
 ## -parameters
 
@@ -113,7 +113,7 @@ View transformation occurs after object transformation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getobjecttransform">GetObjectTransform Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-getobjecttransform">GetObjectTransform Method</a>
 
 
 
@@ -121,13 +121,12 @@ View transformation occurs after object transformation.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
+<a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setobjecttransform">SetObjectTransform Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setobjecttransform">SetObjectTransform Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform">SetViewTransform Method</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform">SetViewTransform Method</a>

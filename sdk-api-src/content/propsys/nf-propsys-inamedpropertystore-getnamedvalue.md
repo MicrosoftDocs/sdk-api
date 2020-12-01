@@ -62,9 +62,9 @@ A pointer to the property name, as a Unicode string, of the property in the name
 
 ### -param ppropvar [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>*</b>
 
-When this method returns, contains a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that holds the property's value.
+When this method returns, contains a pointer to a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that holds the property's value.
 
 ## -returns
 
@@ -75,4 +75,3 @@ Returns S_OK if successful, or an error value otherwise.
                     
 
 If the property named in <i>pszName</i> is not found in the property store, this method returns S_OK and the <i>pv</i> member is set to VT_EMPTY.
-

@@ -6,13 +6,13 @@ helpviewer_keywords: ["NPPasswordChangeNotify","NPPasswordChangeNotify function 
 old-location: security\nppasswordchangenotify.htm
 tech.root: security
 ms.assetid: 5c7f5672-f379-4518-ae60-4f7d7e4caffa
-ms.date: 12/05/2018
+ms.date: 09/17/2020
 ms.keywords: NPPasswordChangeNotify, NPPasswordChangeNotify function [Security], SvcCtl, WN_NT_PASSWORD_CHANGED, WN_VALID_LOGON_ACCOUNT, WinSta_0, _mnp_nppasswordchangenotify, npapi/NPPasswordChangeNotify, security.nppasswordchangenotify
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps only]
-req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -47,6 +47,8 @@ api_name:
 
 # NPPasswordChangeNotify function
 
+> [!NOTE]
+> This API has been deprecated and will be removed in a future release.
 
 ## -description
 
@@ -78,8 +80,8 @@ Pointer to an structure that contains the new credentials.
 
 
 When Microsoft is the primary authenticator (that is, when <i>lpAuthentifoType</i> is "MSV1_0:Interactive" or "Kerberos:Interactive"), the structure used is 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>.
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> or 
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>.
 
 ### -param lpPreviousAuthentInfoType [in]
 
@@ -104,8 +106,8 @@ Pointer to a structure that contains the credentials used before the authenticat
 
 
 When Microsoft is the primary authenticator, the structure used is 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>.
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> or 
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_interactive_logon">KERB_INTERACTIVE_LOGON</a>.
 
 ### -param lpStationName [in]
 
@@ -234,7 +236,7 @@ If the function fails, it returns an error code, which can be one of the followi
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-nppasswordchangenotify">NPPasswordChangeNotify</a> is not supported.
+<a href="/windows/desktop/api/npapi/nf-npapi-nppasswordchangenotify">NPPasswordChangeNotify</a> is not supported.
 
 </td>
 </tr>
@@ -266,17 +268,16 @@ The credential manager is still initializing and is not ready to be called.
 
 The  <b>NPPasswordChangeNotify</b> function is implemented by credential managers to receive notifications when authentication information changes.
 
-<b>Windows Server 2003 and Windows XP:  </b><b>NPPasswordChangeNotify</b> is called on a computer a user is logging into if the password has been changed somewhere else. Note that this behavior is not supported beginning with Windows Vista and Windows Server 2008.
+<b>Windows Server 2003 and Windows XP:  </b><b>NPPasswordChangeNotify</b> is called on a computer a user is logging into if the password has been changed somewhere else. Note that this behavior is not supported beginning with Windows Vista and Windows Server 2008.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a>
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npgetcaps">NPGetCaps</a>
+<a href="/windows/desktop/api/npapi/nf-npapi-npgetcaps">NPGetCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-nplogonnotify">NPLogonNotify</a>
-
+<a href="/windows/desktop/api/npapi/nf-npapi-nplogonnotify">NPLogonNotify</a>

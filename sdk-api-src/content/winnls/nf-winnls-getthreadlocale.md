@@ -57,40 +57,39 @@ api_name:
 
 ## -description
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">locale identifier</a> of the current locale for the calling thread.<div class="alert"><b>Note</b>  This function can retrieve data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.</div>
+Returns the <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a> of the current locale for the calling thread.<div class="alert"><b>Note</b>  This function can retrieve data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see <a href="/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.</div>
 <div> </div>
 
 ## -parameters
 
 ## -returns
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">locale identifier</a> of the locale associated with the current thread.
+Returns the <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a> of the locale associated with the current thread.
 
-<b>Windows Vista</b>: This function can return the identifier of a <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locale</a>. If the current thread locale is a custom locale, the function returns <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>. If the current thread locale is a supplemental custom locale, the function can return <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>. All supplemental locales share this locale identifier.
+<b>Windows Vista</b>: This function can return the identifier of a <a href="/windows/desktop/Intl/custom-locales">custom locale</a>. If the current thread locale is a custom locale, the function returns <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>. If the current thread locale is a supplemental custom locale, the function can return <a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>. All supplemental locales share this locale identifier.
 
 ## -remarks
 
-When an application process launches, it uses the Standards and Formats variable for the locale. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/nls-terminology">NLS Terminology</a>.
+When an application process launches, it uses the Standards and Formats variable for the locale. For more information, see <a href="/windows/desktop/Intl/nls-terminology">NLS Terminology</a>.
 
-When a new thread is created in a process, it inherits the locale of the creating thread. This locale can be either the default Standards and Formats locale or a different locale set for the creating thread in a call to <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreadlocale">SetThreadLocale</a>. <b>GetThreadLocale</b> and <b>SetThreadLocale</b> can be used to modify the locale of the new thread.
+When a new thread is created in a process, it inherits the locale of the creating thread. This locale can be either the default Standards and Formats locale or a different locale set for the creating thread in a call to <a href="/windows/desktop/api/winnls/nf-winnls-setthreadlocale">SetThreadLocale</a>. <b>GetThreadLocale</b> and <b>SetThreadLocale</b> can be used to modify the locale of the new thread.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlcid">GetSystemDefaultLCID</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getsystemdefaultlcid">GetSystemDefaultLCID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getuserdefaultlcid">GetUserDefaultLCID</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getuserdefaultlcid">GetUserDefaultLCID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-setthreadlocale">SetThreadLocale</a>
-
+<a href="/windows/desktop/api/winnls/nf-winnls-setthreadlocale">SetThreadLocale</a>

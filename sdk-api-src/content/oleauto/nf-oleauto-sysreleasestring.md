@@ -60,13 +60,12 @@ The string for which the  pinning reference count should decrease.
 
 ## -remarks
 
-A call to the <b>SysReleaseString</b> function should match every previous call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysaddrefstring">SysAddRefString</a> function.
+A call to the <b>SysReleaseString</b> function should match every previous call to the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysaddrefstring">SysAddRefString</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a>
+<a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysaddrefstring">SysAddRefString</a>
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysaddrefstring">SysAddRefString</a>

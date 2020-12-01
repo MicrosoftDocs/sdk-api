@@ -81,14 +81,14 @@ A list of client controls.
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. See 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a> for more information.
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a> for more information.
 
 ## -remarks
 
 The <b>ldap_modify_ext_s</b> function initiates a synchronous operation to modify an existing entry. If values are being added or replaced in the entry, the function creates the attribute, if necessary. If values are being deleted, and no values remain, the function removes the attribute. All modifications are performed in the order in which they are listed.
 
 The parameters and effects of <b>ldap_modify_ext_s</b> subsume those of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_s">ldap_modify_s</a>. The extended routine includes additional parameters to support client and server controls.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_s">ldap_modify_s</a>. The extended routine includes additional parameters to support client and server controls.
 
 Multithreading: Calls to <b>ldap_modify_ext_s</b> are thread-safe.
 
@@ -101,41 +101,40 @@ Multithreading: Calls to <b>ldap_modify_ext_s</b> are thread-safe.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/extended-controls">Extended Controls</a>
+<a href="/previous-versions/windows/desktop/ldap/extended-controls">Extended Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a>
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmoda">LDAPMod</a>
+<a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmoda">LDAPMod</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/modifying-a-directory-entry">Modifying a Directory Entry</a>
+<a href="/previous-versions/windows/desktop/ldap/modifying-a-directory-entry">Modifying a Directory Entry</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>
+<a href="/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify">ldap_modify</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify">ldap_modify</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_s">ldap_modify_s</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_s">ldap_modify_s</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>

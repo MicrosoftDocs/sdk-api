@@ -54,9 +54,9 @@ api_name:
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>EnableT61DNEncoding</b> property sets or retrieves a Boolean value that determines whether the distinguished name in the request is encoded as a T61 string instead of as a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string.
+The <b>EnableT61DNEncoding</b> property sets or retrieves a Boolean value that determines whether the distinguished name in the request is encoded as a T61 string instead of as a <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> string.
 
- A T61 character is 8 bits, hence all <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> characters to be encoded must be less than or equal to 0xFF.  This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
+ A T61 character is 8 bits, hence all <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> characters to be encoded must be less than or equal to 0xFF.  This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
 
 This property is read/write.
 
@@ -68,14 +68,13 @@ The <b>EnableT61DNEncoding</b> property affects the behavior of the following me
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-createpkcs10wstr">createPKCS10WStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-createpkcs10wstr">createPKCS10WStr</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-createfilepkcs10wstr">createFilePKCS10WStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-createfilepkcs10wstr">createFilePKCS10WStr</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>

@@ -207,7 +207,7 @@ A combination of the following character format values.
 
 #### tomUnderline
 
-If the  <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomInlineObjectStart</a> flag is set, you might want to call <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nf-dwrite-idwritetextlayout-getinlineobject">GetInlineObject</a> for more inline object properties.
+If the  <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomInlineObjectStart</a> flag is set, you might want to call <a href="/windows/desktop/api/dwrite/nf-dwrite-idwritetextlayout-getinlineobject">GetInlineObject</a> for more inline object properties.
 
 ### -param pMask [out]
 
@@ -217,15 +217,14 @@ The differences in these flags over the range. A value of zero indicates that th
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont2-seteffects">ITextFont2::SetEffects</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextfont2-seteffects">ITextFont2::SetEffects</a>

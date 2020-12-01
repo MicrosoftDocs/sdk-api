@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This operator assigns the vector component data from one instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> to the current instance of <b>XMCOLOR</b>.
+This operator assigns the vector component data from one instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> to the current instance of <b>XMCOLOR</b>.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
@@ -58,15 +58,14 @@ This operator assigns the vector component data from one instance of <a href="ht
 
 ### -param arg1
 
-Instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> used to update the current <b>XMCOLOR</b> structure.
+Instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> used to update the current <b>XMCOLOR</b> structure.
 
 ## -returns
 
- The current instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>whose vector component data has been updated to match those of the <b>XMCOLOR</b>instance specified by the <i>Color</i> argument.
+ The current instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>whose vector component data has been updated to match those of the <b>XMCOLOR</b>instance specified by the <i>Color</i> argument.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
 <a href="https://msdn.microsoft.com/7dbba878-2f03-451f-b02b-75e531b6315b">operator = </a>
-

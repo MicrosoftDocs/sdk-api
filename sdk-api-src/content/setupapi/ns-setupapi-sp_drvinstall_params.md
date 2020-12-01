@@ -77,7 +77,7 @@ Flags that control functions operating on this driver. Can be a combination of t
 
 #### DNF_ALWAYSEXCLUDEFROMLIST (Windows Vista and later versions of Windows)
 
-If set, this flag prevents the <a href="https://docs.microsoft.com/windows-hardware/drivers/">driver node</a> from being enumerated, regardless of the client that is performing the enumeration.
+If set, this flag prevents the <a href="/windows-hardware/drivers/">driver node</a> from being enumerated, regardless of the client that is performing the enumeration.
 
 
 
@@ -87,7 +87,7 @@ If set, this flag prevents the <a href="https://docs.microsoft.com/windows-hardw
 
 This driver's INF file is signed by an Authenticode signature. This flag is read-only to installers.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/using-setupapi-to-verify-driver-authenticode-signatures">Using SetupAPI to Verify Driver Authenticode Signatures</a>.
+For more information, see <a href="/windows-hardware/drivers/install/using-setupapi-to-verify-driver-authenticode-signatures">Using SetupAPI to Verify Driver Authenticode Signatures</a>.
 
 
 
@@ -95,9 +95,9 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 Do not use this driver. Installers can read and write this flag.
 
-If this flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiselectbestcompatdrv">SetupDiSelectBestCompatDrv</a> and <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiselectdevice">SetupDiSelectDevice</a> ignore this driver.
+If this flag is set, <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiselectbestcompatdrv">SetupDiSelectBestCompatDrv</a> and <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiselectdevice">SetupDiSelectDevice</a> ignore this driver.
 
-A class installer or co-installer can set this flag to prevent Windows from listing the driver in the Select Driver dialog box. An installer might set this flag when it handles a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-selectdevice">DIF_SELECTDEVICE</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-selectbestcompatdrv">DIF_SELECTBESTCOMPATDRV</a> request, for example. 
+A class installer or co-installer can set this flag to prevent Windows from listing the driver in the Select Driver dialog box. An installer might set this flag when it handles a <a href="/windows-hardware/drivers/install/dif-selectdevice">DIF_SELECTDEVICE</a> or <a href="/windows-hardware/drivers/install/dif-selectbestcompatdrv">DIF_SELECTBESTCOMPATDRV</a> request, for example. 
 
 
 
@@ -147,7 +147,7 @@ Do not display this driver in any driver-select dialogs.
 
 #### DNF_INBOX_DRIVER (Windows Vista and later versions of Windows)
 
-This <a href="https://docs.microsoft.com/windows-hardware/drivers/">driver node</a> is derived from an INF file that was included with this version of Windows.
+This <a href="/windows-hardware/drivers/">driver node</a> is derived from an INF file that was included with this version of Windows.
 
 
 
@@ -155,7 +155,7 @@ This <a href="https://docs.microsoft.com/windows-hardware/drivers/">driver node<
 
 This driver came from the Internet or from Windows Update. This flag is read-only to installers. 
 
-If you call <a href="http://go.microsoft.com/fwlink/p/?linkid=98735">SetupCopyOEMInf</a> you must specify the SPOST_URL flag so that when Windows copies this INF into the %<i>SystemRoot</i>%&#92;<i>inf</i> directory Windows will mark it as an Internet INF. If you omit this step then Windows will attempt to use this device to install other devices. The resulting problem is that Windows does not have the source files any longer and will end up prompting the user with an invalid path.
+If you call <a href="/windows/win32/api/setupapi/nf-setupapi-setupcopyoeminfa">SetupCopyOEMInf</a> you must specify the SPOST_URL flag so that when Windows copies this INF into the %<i>SystemRoot</i>%&#92;<i>inf</i> directory Windows will mark it as an Internet INF. If you omit this step then Windows will attempt to use this device to install other devices. The resulting problem is that Windows does not have the source files any longer and will end up prompting the user with an invalid path.
 
 
 
@@ -164,17 +164,17 @@ If you call <a href="http://go.microsoft.com/fwlink/p/?linkid=98735">SetupCopyOE
 This flag is read-only to installers, and is set if any of the following conditions are true:
 
 <ul>
-<li>The driver has a <a href="https://docs.microsoft.com/windows-hardware/drivers/install/whql-release-signature">WHQL release signature</a>.</li>
+<li>The driver has a <a href="/windows-hardware/drivers/install/whql-release-signature">WHQL release signature</a>.</li>
 <li>The driver is an inbox driver.</li>
 <li>The driver has an Authenticode signature.</li>
 </ul>
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/driver-signing">Driver Signing</a>.
+For more information, see <a href="/windows-hardware/drivers/install/driver-signing">Driver Signing</a>.
 
 
 
 #### DNF_INSTALLEDDRIVER (Windows Vista and later versions of Windows)
 
-This <a href="https://docs.microsoft.com/windows-hardware/drivers/">driver node</a> is currently installed for the device. This flag is read-only to installers.
+This <a href="/windows-hardware/drivers/">driver node</a> is currently installed for the device. This flag is read-only to installers.
 
 
 
@@ -212,7 +212,7 @@ This driver currently/previously controlled the associated device. This flag is 
 
 #### DNF_REQUESTADDITIONALSOFTWARE (Windows 7 and later versions of Windows)
 
-Set this flag if the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> is only part of the software solution that is needed to operate the device. In this case, the driver package requires the installation of additional software.
+Set this flag if the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> is only part of the software solution that is needed to operate the device. In this case, the driver package requires the installation of additional software.
 
 For more information, see the following Remarks section.
 
@@ -226,9 +226,9 @@ Reserved. For internal use only.
 
 ## -remarks
 
-Starting with Windows 7, an installer or co-installer can set the DNF_REQUESTADDITIONALSOFTWARE flag to indicate that the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> requires additional software that may or not be installed in the computer.
+Starting with Windows 7, an installer or co-installer can set the DNF_REQUESTADDITIONALSOFTWARE flag to indicate that the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> requires additional software that may or not be installed in the computer.
 
-After the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> for the device is installed, the Plug and Play (PnP) manager performs the following steps if the installer sets the DNF_REQUESTADDITIONALSOFTWARE flag:
+After the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> for the device is installed, the Plug and Play (PnP) manager performs the following steps if the installer sets the DNF_REQUESTADDITIONALSOFTWARE flag:
 
 <ol>
 <li>
@@ -246,14 +246,13 @@ If the device-specific software is not installed on the computer, the PnP manage
 
 </li>
 </ol>
-<div class="alert"><b>Note</b>  The installer does not have to set the DNF_REQUESTADDITIONALSOFTWARE flag if the INF file for the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> has set the <b>RequestAdditionalSoftware </b>flag in the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-controlflags-section">INF ControlFlags Section</a>.</div>
+<div class="alert"><b>Note</b>  The installer does not have to set the DNF_REQUESTADDITIONALSOFTWARE flag if the INF file for the <a href="/previous-versions/windows/hardware/difxapi/driverpackagepreinstall">driver package</a> has set the <b>RequestAdditionalSoftware </b>flag in the <a href="/windows-hardware/drivers/install/inf-controlflags-section">INF ControlFlags Section</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdriverinstallparamsa">SetupDiGetDriverInstallParams</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdriverinstallparamsa">SetupDiGetDriverInstallParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdriverinstallparamsa">SetupDiSetDriverInstallParams</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdriverinstallparamsa">SetupDiSetDriverInstallParams</a>

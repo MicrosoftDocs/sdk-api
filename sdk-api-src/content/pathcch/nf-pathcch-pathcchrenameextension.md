@@ -54,10 +54,10 @@ api_name:
 
 Replaces a file name's extension at the end of a path string with a new extension. If the path string does not end with an extension, the new extension is added.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathrenameextensiona">PathRenameExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathrenameextensiona">PathRenameExtension</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
 
-<div class="alert"><b>Note</b>  This function should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathrenameextensiona">PathRenameExtension</a> to prevent the possibility of a buffer overrun.</div>
+<div class="alert"><b>Note</b>  This function should be used in place of <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathrenameextensiona">PathRenameExtension</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
 
@@ -76,4 +76,3 @@ A pointer to the new extension string. The leading '.' character is optional. In
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

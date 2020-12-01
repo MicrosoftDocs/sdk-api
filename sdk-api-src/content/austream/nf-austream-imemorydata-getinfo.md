@@ -74,9 +74,8 @@ Returns an <b>HRESULT</b> value.
 
 ## -remarks
 
-This method determines how much data the object currently contains as last set by <a href="https://docs.microsoft.com/windows/desktop/api/austream/nf-austream-imemorydata-setactual">SetActual</a>.
+This method determines how much data the object currently contains as last set by <a href="/windows/desktop/api/austream/nf-austream-imemorydata-setactual">SetActual</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/austream/nn-austream-imemorydata">IMemoryData Interface</a>
-
+<a href="/windows/desktop/api/austream/nn-austream-imemorydata">IMemoryData Interface</a>

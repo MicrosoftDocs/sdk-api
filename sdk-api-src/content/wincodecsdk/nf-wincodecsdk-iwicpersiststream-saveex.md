@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Saves the <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicpersiststream">IWICPersistStream</a> to the given input <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> using the given parameters.
+Saves the <a href="/windows/desktop/api/wincodecsdk/nn-wincodecsdk-iwicpersiststream">IWICPersistStream</a> to the given input <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> using the given parameters.
 
 ## -parameters
 
 ### -param pIStream [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 The stream to save to.
 
@@ -64,7 +64,7 @@ The stream to save to.
 
 Type: <b>DWORD</b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicpersistoptions">WICPersistOptions</a>  to use when saving.
+The <a href="/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicpersistoptions">WICPersistOptions</a>  to use when saving.
 
 ### -param fClearDirty [in]
 
@@ -77,4 +77,3 @@ Indicates whether the "dirty" value will be cleared from all metadata after savi
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

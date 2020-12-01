@@ -80,5 +80,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Object implementers that want to enable the discovery of other objects that they can produce or that they hold should implement <b>IObjectProvider::QueryObject</b> and publish the <b>GUID</b> values that name those objects for clients of that object. Note that objects should not pass on the request for an object to other objects like <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">QueryService</a>.
-
+Object implementers that want to enable the discovery of other objects that they can produce or that they hold should implement <b>IObjectProvider::QueryObject</b> and publish the <b>GUID</b> values that name those objects for clients of that object. Note that objects should not pass on the request for an object to other objects like <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">QueryService</a>.

@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 The <b>IKEEXT_COMMON_STATISTICS0</b> structure contains various statistics common to IKE and Authip.
-[IKEEXT_COMMON_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics1) is available.</div><div> </div>
+[IKEEXT_COMMON_STATISTICS1](/windows/desktop/api/iketypes/ns-iketypes-ikeext_common_statistics1) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -80,4 +80,3 @@ Total number of invalid packets received.
 ### -field currentQueuedWorkitems
 
 Current number of work items that are queued and waiting to be processed.
-

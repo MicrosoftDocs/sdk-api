@@ -56,7 +56,7 @@ Retrieves a collection of named streams associated with a file in the file syste
 
 ### -param streams [out, optional]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsinamedstreams">IFsiNamedStreams</a> object that represents a collection of named streams associated with the file.
+Pointer to an <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsinamedstreams">IFsiNamedStreams</a> object that represents a collection of named streams associated with the file.
 
 ## -returns
 
@@ -115,5 +115,4 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>

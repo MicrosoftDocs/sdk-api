@@ -64,7 +64,7 @@ The rectangle in the specified device context handle to draw the mini-icon in.
 
 ### -param MiniIconIndex [in]
 
-The index of the mini-icon, as retrieved from <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a> or <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassbitmapindex">SetupDiGetClassBitmapIndex</a>. The following predefined indexes for devices can be used:
+The index of the mini-icon, as retrieved from <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a> or <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassbitmapindex">SetupDiGetClassBitmapIndex</a>. The following predefined indexes for devices can be used:
 
 <table>
 <tr>
@@ -235,7 +235,7 @@ This function returns the offset from the left side of <i>rc</i> where the strin
 
 By default, the icon is centered vertically and forced against the left side of the specified rectangle.
 
-<b>SetupDiDrawMiniIcon</b> draws the 16-bit version of the icon that is specified by the <i>MiniIconIndex </i>parameter. Instead of <b>SetupDiDrawMiniIcon</b>, you should use <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a> together with <b>DrawIcon</b> or <b>DrawIconEx</b> to draw the 32-bit version of the icon. The following is an example of how to use <b>DrawIconEx</b> to display an icon:
+<b>SetupDiDrawMiniIcon</b> draws the 16-bit version of the icon that is specified by the <i>MiniIconIndex </i>parameter. Instead of <b>SetupDiDrawMiniIcon</b>, you should use <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a> together with <b>DrawIcon</b> or <b>DrawIconEx</b> to draw the 32-bit version of the icon. The following is an example of how to use <b>DrawIconEx</b> to display an icon:
 
 
 ```
@@ -248,13 +248,12 @@ DestroyIcon(hIcon);
 ```
 
 
-For more information about <a href="https://msdn.microsoft.com/library/ms648064(VS.85).aspx">DrawIcon</a> or <a href="https://msdn.microsoft.com/library/ms648065(VS.85).aspx">DrawIconEx</a>, refer to the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.
+For more information about <a href="/windows/win32/api/winuser/nf-winuser-drawicon">DrawIcon</a> or <a href="/windows/win32/api/winuser/nf-winuser-drawiconex">DrawIconEx</a>, refer to the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassbitmapindex">SetupDiGetClassBitmapIndex</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassbitmapindex">SetupDiGetClassBitmapIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiloadclassicon">SetupDiLoadClassIcon</a>

@@ -52,18 +52,18 @@ api_name:
 
 The 
 <b>get_SelectedCalls</b> method retrieves a VARIANT containing a pointer to a collection object indicating which calls are currently selected on this phone. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-selectcall">ITAutomatedPhoneControl::SelectCall</a> for more information.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-selectcall">ITAutomatedPhoneControl::SelectCall</a> for more information.
 
 This method is intended for applications written in Visual Basic, Java, or various scripting languages. C and C++ programmers should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-enumerateselectedcalls">EnumerateSelectedCalls</a> method instead.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-enumerateselectedcalls">EnumerateSelectedCalls</a> method instead.
 
 ## -parameters
 
 ### -param pVariant [out]
 
 Pointer to a VARIANT containing an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a> interface pointers.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a> of 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a> interface pointers.
 
 ## -returns
 
@@ -71,21 +71,20 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-enumerateselectedcalls">EnumerateSelectedCalls</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-enumerateselectedcalls">EnumerateSelectedCalls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-selectcall">ITAutomatedPhoneControl::SelectCall</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-selectcall">ITAutomatedPhoneControl::SelectCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>

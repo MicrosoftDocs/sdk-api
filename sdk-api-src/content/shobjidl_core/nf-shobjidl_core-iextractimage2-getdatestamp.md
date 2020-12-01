@@ -58,11 +58,10 @@ Requests the date the image was last modified. This method allows the Shell to d
 
 Type: <b>FILETIME*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure used to return the last time the image was modified.
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure used to return the last time the image was modified.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Return S_OK if successful, or a COM-defined error code otherwise.
-

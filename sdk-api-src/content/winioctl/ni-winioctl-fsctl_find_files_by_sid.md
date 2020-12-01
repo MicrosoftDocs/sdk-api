@@ -86,11 +86,11 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
-This control code requires the use of [disk quotas](https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas) on the volume.
+This control code requires the use of [disk quotas](/windows/desktop/FileIO/managing-disk-quotas) on the volume.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -107,5 +107,4 @@ Resilient File System (ReFS) | No
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [FIND_BY_SID_DATA](ns-winioctl-find_by_sid_data.md)
 * [FIND_BY_SID_OUTPUT](ns-winioctl-find_by_sid_output.md)
-* [File Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/file-management-control-codes)
-
+* [File Management Control Codes](/windows/desktop/FileIO/file-management-control-codes)

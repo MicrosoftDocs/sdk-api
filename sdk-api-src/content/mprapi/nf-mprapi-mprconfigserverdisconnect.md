@@ -52,28 +52,27 @@ api_name:
 
 The 
 <b>MprConfigServerDisconnect</b> function disconnects a connection made by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
 
 ## -parameters
 
 ### -param hMprConfig [in]
 
 Handle to a router configuration obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
+<a href="/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

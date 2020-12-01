@@ -57,7 +57,7 @@ The <b>SetAttributes2</b> method sets extended attributes of the storage.
 
 ### -param dwAttributes [in]
 
-<b>DWORD</b> specifying the base attributes defined in the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-setattributes">IWMDMStorage::SetAttributes</a> method.
+<b>DWORD</b> specifying the base attributes defined in the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-setattributes">IWMDMStorage::SetAttributes</a> method.
 
 ### -param dwAttributesEx [in]
 
@@ -65,11 +65,11 @@ The <b>SetAttributes2</b> method sets extended attributes of the storage.
 
 ### -param pFormat [out]
 
-Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-waveformatex">_ WAVEFORMATEX</a> structure that specifies audio information about the object. This parameter is ignored if the file is not audio.
+Optional pointer to a <a href="/windows/desktop/WMDM/-waveformatex">_ WAVEFORMATEX</a> structure that specifies audio information about the object. This parameter is ignored if the file is not audio.
 
 ### -param pVideoFormat [in]
 
-Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/-videoinfoheader">_VIDEOINFOHEADER</a> structure that specifies video information about the object. This parameter is ignored if the file is not video.
+Optional pointer to a <a href="/windows/desktop/WMDM/-videoinfoheader">_VIDEOINFOHEADER</a> structure that specifies video information about the object. This parameter is ignored if the file is not video.
 
 ## -returns
 
@@ -80,13 +80,12 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage2">IWMDMStorage2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage2">IWMDMStorage2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-getattributes2">IWMDMStorage2::GetAttributes2</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-getattributes2">IWMDMStorage2::GetAttributes2</a>

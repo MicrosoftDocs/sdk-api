@@ -55,7 +55,7 @@ The <code>IDMOVideoOutputOptimizations</code> interface supports video optimizat
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDMOVideoOutputOptimizations</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDMOVideoOutputOptimizations</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDMOVideoOutputOptimizations</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDMOVideoOutputOptimizations</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDMOVideoOutputOptimizations</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-getcurrentoperationmode">GetCurrentOperationMode</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-getcurrentoperationmode">GetCurrentOperationMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the optimization features in effect.
@@ -79,7 +79,7 @@ Retrieves the optimization features in effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-getcurrentsamplerequirements">GetCurrentSampleRequirements</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-getcurrentsamplerequirements">GetCurrentSampleRequirements</a>
 </td>
 <td align="left" width="63%">
 Retrieves the optimization features required to process the next sample, given the features already agreed to by the application.
@@ -88,7 +88,7 @@ Retrieves the optimization features required to process the next sample, given t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-queryoperationmodepreferences">QueryOperationModePreferences</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-queryoperationmodepreferences">QueryOperationModePreferences</a>
 </td>
 <td align="left" width="63%">
 Retrieves the DMO's preferred optimization features.
@@ -97,7 +97,7 @@ Retrieves the DMO's preferred optimization features.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-setoperationmode">SetOperationMode</a>
+<a href="/windows/desktop/api/mediaobj/nf-mediaobj-idmovideooutputoptimizations-setoperationmode">SetOperationMode</a>
 </td>
 <td align="left" width="63%">
 Notifies the DMO of the optimization features in effect.
@@ -142,4 +142,3 @@ while (there is input).
         pDMO->ProcessOutput(0, ...) // OK to use a new buffer.
 }
 ```
-

@@ -60,13 +60,13 @@ Contains information about the StickyKeys accessibility feature. When the Sticky
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the size, in bytes, of this structure.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 
 A set of bit-flags that specify properties of the StickyKeys feature. The following bit-flag values are defined:
@@ -357,9 +357,9 @@ If this flag is set, releasing a modifier key that has been pressed in combinati
 
 ## -remarks
 
-An application uses a <b>STICKYKEYS</b> structure when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to <b>SPI_GETSTICKYKEYS</b> or <b>SPI_SETSTICKYKEYS</b>. When using <b>SPI_GETSTICKYKEYS</b>, you must specify the <b>cbSize</b> member of the <b>STICKYKEYS</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. You must specify all structure members when using the <b>SPI_SETSTICKYKEYS</b> value.
+An application uses a <b>STICKYKEYS</b> structure when calling the <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function with the <i>uiAction</i> parameter set to <b>SPI_GETSTICKYKEYS</b> or <b>SPI_SETSTICKYKEYS</b>. When using <b>SPI_GETSTICKYKEYS</b>, you must specify the <b>cbSize</b> member of the <b>STICKYKEYS</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. You must specify all structure members when using the <b>SPI_SETSTICKYKEYS</b> value.
 
-If you call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> with the <b>SPI_SETSTICKYKEYS</b> value, the following flags are ignored:
+If you call <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> with the <b>SPI_SETSTICKYKEYS</b> value, the following flags are ignored:
 
 <ul>
 <li>SKF_LALTLATCHED</li>
@@ -378,9 +378,8 @@ If you call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-w
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
+<a href="/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

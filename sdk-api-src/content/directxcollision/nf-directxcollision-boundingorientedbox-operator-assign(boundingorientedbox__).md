@@ -49,17 +49,17 @@ api_name:
 
 ## -description
 
-Copies values from another <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+Copies values from another <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ## -parameters
 
 ### -param arg1 [in, ref]
 
-The <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> to copy values from.
+The <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> to copy values from.
 
 ## -returns
 
-The updated <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+The updated <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ## -remarks
 
@@ -68,7 +68,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>
+<a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>
 
 
 

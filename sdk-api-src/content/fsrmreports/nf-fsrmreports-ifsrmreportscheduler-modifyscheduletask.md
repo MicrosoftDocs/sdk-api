@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[Starting with Windows Server 2012 this method is not supported; use the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/msft-fsrmscheduledtask">MSFT_FSRMScheduledTask</a> WMI class to manage 
+    <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmscheduledtask">MSFT_FSRMScheduledTask</a> WMI class to manage 
     scheduled tasks.]
 
 Modifies a task that is used to trigger a report job.
@@ -61,7 +61,7 @@ Modifies a task that is used to trigger a report job.
 
 ### -param taskName [in]
 
-The name of a <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a> 
+The name of a <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a> 
       task to modify. The string is limited to 230 characters.
 
 ### -param namespacesSafeArray [in]
@@ -74,7 +74,7 @@ A <b>VARIANT</b> that contains a <b>SAFEARRAY</b> of local
 ### -param serializedTask [in]
 
 An XML string that defines the Task Scheduler job. For details, see 
-      <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-schema">Task Scheduler Schema</a>.
+      <a href="/windows/desktop/TaskSchd/task-scheduler-schema">Task Scheduler Schema</a>.
 
 ## -returns
 
@@ -83,15 +83,14 @@ The method returns the following return values.
 ## -remarks
 
 Specify the same namespaces for this method that you specified for the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_namespaceroots">IFsrmReportJob::NamespaceRoots</a> property. 
+    <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_namespaceroots">IFsrmReportJob::NamespaceRoots</a> property. 
     This method validates the namespace paths. For validation details, see the Remarks section of 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportscheduler-verifynamespaces">IFsrmReportScheduler::VerifyNamespaces</a>.
+    <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportscheduler-verifynamespaces">IFsrmReportScheduler::VerifyNamespaces</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmreportscheduler">FsrmReportScheduler</a>
+<a href="/previous-versions/windows/desktop/fsrm/fsrmreportscheduler">FsrmReportScheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportscheduler">IFsrmReportScheduler</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportscheduler">IFsrmReportScheduler</a>

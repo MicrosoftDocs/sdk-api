@@ -60,13 +60,13 @@ Specifies or receives the attributes of a filter button click.
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
-A handle of an <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information.
+A handle of an <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information.
 
 ### -field iItem
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 The zero-based index of the control to which this structure refers.
 
@@ -78,5 +78,4 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/hdn-filterbtnclick">HDN_FILTERBTNCLICK</a>
-
+<a href="/windows/desktop/Controls/hdn-filterbtnclick">HDN_FILTERBTNCLICK</a>

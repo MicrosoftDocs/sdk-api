@@ -60,5 +60,4 @@ Indicates to check the multisample quality levels of a tiled resource.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-resource-enums">Resource Enumerations</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-resource-enums">Resource Enumerations</a>

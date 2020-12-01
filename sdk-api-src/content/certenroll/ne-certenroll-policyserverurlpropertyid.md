@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PolicyServerUrlPropertyID</b> enumeration contains values that specify the type of property value to be returned by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-getstringproperty">GetStringProperty</a> method or set by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-setstringproperty">SetStringProperty</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> interface.
+The <b>PolicyServerUrlPropertyID</b> enumeration contains values that specify the type of property value to be returned by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-getstringproperty">GetStringProperty</a> method or set by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-setstringproperty">SetStringProperty</a> method on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a> interface.
 
 ## -enum-fields
 
@@ -64,9 +64,8 @@ Specify or retrieve a display name for the policy server.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-getstringproperty">GetStringProperty</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-getstringproperty">GetStringProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-setstringproperty">SetStringProperty</a>
-
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509policyserverurl-setstringproperty">SetStringProperty</a>

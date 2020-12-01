@@ -60,7 +60,7 @@ Sets or retrieves custom folder settings. This function reads from and writes to
 
 Type: <b>LPSHFOLDERCUSTOMSETTINGS</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-shfoldercustomsettings">SHFOLDERCUSTOMSETTINGS</a> structure that provides or receives the custom folder settings.
+A pointer to a <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-shfoldercustomsettings">SHFOLDERCUSTOMSETTINGS</a> structure that provides or receives the custom folder settings.
 
 ### -param pszPath [in]
 
@@ -103,4 +103,3 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 Only Unicode strings are supported.
 
 <b>Windows Server 2003 and Windows XP:  </b><b>SHGetSetFolderCustomSettings</b> supports both ANSI and Unicode strings.
-

@@ -53,6 +53,7 @@ api_name:
  - GetWindowLongPtr
  - GetWindowLongPtrA
  - GetWindowLongPtrW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetWindowLongPtrA function
@@ -61,7 +62,7 @@ api_name:
 ## -description
 
 Retrieves information about the specified window. The function also retrieves the value at a specified offset into the extra window memory. 
-<div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>GetWindowLongPtr</b>. When compiling for 32-bit Windows, <b>GetWindowLongPtr</b> is defined as a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlonga">GetWindowLong</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>GetWindowLongPtr</b>. When compiling for 32-bit Windows, <b>GetWindowLongPtr</b> is defined as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-getwindowlonga">GetWindowLong</a> function.</div><div> </div>
 
 ## -parameters
 
@@ -89,7 +90,7 @@ The zero-based offset to the value to be retrieved. Valid values are in the rang
 </dl>
 </td>
 <td width="60%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles">extended window styles</a>. 
+Retrieves the <a href="/windows/desktop/winmsg/extended-window-styles">extended window styles</a>. 
 
 </td>
 </tr>
@@ -133,7 +134,7 @@ Retrieves the identifier of the window.
 </dl>
 </td>
 <td width="60%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">window styles</a>.
+Retrieves the <a href="/windows/desktop/winmsg/window-styles">window styles</a>.
 
 </td>
 </tr>
@@ -155,7 +156,7 @@ Retrieves the user data associated with the window. This data is intended for us
 </dl>
 </td>
 <td width="60%">
-Retrieves the pointer to the window procedure, or a handle representing the pointer to the window procedure. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure.
+Retrieves the pointer to the window procedure, or a handle representing the pointer to the window procedure. You must use the <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the window procedure.
 
 </td>
 </tr>
@@ -179,7 +180,7 @@ The following values are also available when the <i>hWnd</i> parameter identifie
 </dl>
 </td>
 <td width="60%">
-Retrieves the pointer to the dialog box procedure, or a handle representing the pointer to the dialog box procedure. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the dialog box procedure.
+Retrieves the pointer to the dialog box procedure, or a handle representing the pointer to the dialog box procedure. You must use the <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a> function to call the dialog box procedure.
 
 </td>
 </tr>
@@ -213,14 +214,14 @@ Type: <b>LONG_PTR</b>
 
 If the function succeeds, the return value is the requested value.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlongptra">SetWindowLongPtr</a> has not been called previously, <b>GetWindowLongPtr</b> returns zero for values in the extra window or class memory.
+If <a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a> or <a href="/windows/desktop/api/winuser/nf-winuser-setwindowlongptra">SetWindowLongPtr</a> has not been called previously, <b>GetWindowLongPtr</b> returns zero for values in the extra window or class memory.
 
 ## -remarks
 
 Reserve extra window memory by specifying a nonzero value in the 
-				<b>cbWndExtra</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. 
+				<b>cbWndExtra</b> member of the <a href="/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure used with the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. 
 
 
 
@@ -231,7 +232,7 @@ Reserve extra window memory by specifying a nonzero value in the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>
 
 
 
@@ -243,21 +244,20 @@ Reserve extra window memory by specifying a nonzero value in the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlongptra">SetWindowLongPtr</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowlongptra">SetWindowLongPtr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
-
+<a href="/windows/desktop/winmsg/window-classes">Window Classes</a>

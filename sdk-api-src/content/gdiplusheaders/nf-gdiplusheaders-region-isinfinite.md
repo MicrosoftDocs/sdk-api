@@ -57,9 +57,9 @@ The <b>Region::IsInfinite</b> method determines whether this region is infinite.
 
 ### -param g [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region.
+Pointer to a <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region.
 
 ## -returns
 
@@ -69,29 +69,28 @@ If this region is infinite, this method returns <b>TRUE</b>; otherwise, it retur
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-isempty">Region::IsEmpty</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-isempty">Region::IsEmpty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-makeempty">Region::MakeEmpty</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-makeempty">Region::MakeEmpty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-makeinfinite">Region::MakeInfinite</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-makeinfinite">Region::MakeInfinite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
-
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>

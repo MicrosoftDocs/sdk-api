@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information used to update and validate a <a href="https://docs.microsoft.com/windows/desktop/api/resapi/ns-resapi-paxostagcstruct">PaxosTagCStruct</a> structure.
+Contains information used to update and validate a <a href="/windows/desktop/api/resapi/ns-resapi-paxostagcstruct">PaxosTagCStruct</a> structure.
 
 ## -struct-fields
 
@@ -70,9 +70,8 @@ The Paxos tag to validate.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
+<a href="/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/ns-resapi-witnesstagupdatehelper">WitnessTagUpdateHelper</a>
-
+<a href="/windows/desktop/api/resapi/ns-resapi-witnesstagupdatehelper">WitnessTagUpdateHelper</a>

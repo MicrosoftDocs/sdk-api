@@ -66,17 +66,16 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xapobase-cxapobase">CXAPOBase</a>
+<a href="/windows/desktop/api/xapobase/nl-xapobase-cxapobase">CXAPOBase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
+<a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectconfiguration-lockforprocess">IXAPO::LockForProcess</a>
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectconfiguration-lockforprocess">IXAPO::LockForProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectconfiguration-unlockforprocess">IXAPO::UnlockForProcess</a>
-
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectconfiguration-unlockforprocess">IXAPO::UnlockForProcess</a>

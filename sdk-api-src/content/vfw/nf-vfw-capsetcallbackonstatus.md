@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capSetCallbackOnStatus</b> macro sets a status callback function in the application. AVICap calls this procedure whenever the capture window status changes. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-callback-status">WM_CAP_SET_CALLBACK_STATUS</a> message.
+The <b>capSetCallbackOnStatus</b> macro sets a status callback function in the application. AVICap calls this procedure whenever the capture window status changes. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-set-callback-status">WM_CAP_SET_CALLBACK_STATUS</a> message.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Handle to a capture window.
 
 ### -param fpProc
 
-Pointer to the status callback function, of type <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nc-vfw-capstatuscallbacka">capStatusCallback</a>. Specify <b>NULL</b> for this parameter to disable a previously installed status callback function.
+Pointer to the status callback function, of type <a href="/windows/desktop/api/vfw/nc-vfw-capstatuscallbacka">capStatusCallback</a>. Specify <b>NULL</b> for this parameter to disable a previously installed status callback function.
 
 ## -remarks
 
@@ -75,13 +75,12 @@ Applications can optionally set a status callback function. If set, AVICap calls
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/creating-a-status-callback-function">Creating a Status Callback Function</a>
+<a href="/windows/desktop/Multimedia/creating-a-status-callback-function">Creating a Status Callback Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

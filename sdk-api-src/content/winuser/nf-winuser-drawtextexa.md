@@ -51,6 +51,7 @@ api_name:
  - DrawTextEx
  - DrawTextExA
  - DrawTextExW
+req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # DrawTextExA function
@@ -74,7 +75,7 @@ If <i>dwDTFormat</i> includes DT_MODIFYSTRING, the function could add up to four
 
 ### -param cchText [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpchText</i>. If <i>cchText</i> is -1, then the <i>lpchText</i> parameter is assumed to be a pointer to a null-terminated string and <b>DrawTextEx</b> computes the character count automatically.
+The <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> pointed to by <i>lpchText</i>. If <i>cchText</i> is -1, then the <i>lpchText</i> parameter is assumed to be a pointer to a null-terminated string and <b>DrawTextEx</b> computes the character count automatically.
 
 ### -param lprc [in, out]
 
@@ -309,7 +310,7 @@ Displays text on a single line only. Carriage returns and line feeds do not brea
 </dl>
 </td>
 <td width="60%">
-Sets tab stops. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS</a> structure pointed to by the <i>lpDTParams</i> parameter specifies the number of average character widths per tab stop.
+Sets tab stops. The <a href="/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS</a> structure pointed to by the <i>lpDTParams</i> parameter specifies the number of average character widths per tab stop.
 
 </td>
 </tr>
@@ -359,7 +360,7 @@ Compare with DT_END_ELLIPSIS and DT_PATH_ELLIPSIS.
 
 ### -param lpdtp [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS</a> structure that specifies additional formatting options. This parameter can be <b>NULL</b>.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS</a> structure that specifies additional formatting options. This parameter can be <b>NULL</b>.
 
 ## -returns
 
@@ -382,19 +383,18 @@ The text alignment mode for the device context must include the TA_LEFT, TA_TOP,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS
+<a href="/windows/desktop/api/winuser/ns-winuser-drawtextparams">DRAWTEXTPARAMS
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText
+<a href="/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
-
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>

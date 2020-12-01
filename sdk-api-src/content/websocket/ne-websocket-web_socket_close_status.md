@@ -111,5 +111,4 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/websocket/ns-websocket-web_socket_buffer">WEB_SOCKET_BUFFER</a>
-
+<a href="/windows/desktop/api/websocket/ns-websocket-web_socket_buffer">WEB_SOCKET_BUFFER</a>

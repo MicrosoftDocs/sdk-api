@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkrecoguide">InkRecoGuide</a> structure that represents the boundaries of the ink to the recognizer.
+Gets or sets the <a href="/windows/desktop/api/msinkaut/ns-msinkaut-inkrecoguide">InkRecoGuide</a> structure that represents the boundaries of the ink to the recognizer.
 
 
 
@@ -69,9 +69,8 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ns-msinkaut-inkrecoguide">InkRecoGuide Structure</a>
+<a href="/windows/desktop/api/msinkaut/ns-msinkaut-inkrecoguide">InkRecoGuide Structure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>
-
+<a href="/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>

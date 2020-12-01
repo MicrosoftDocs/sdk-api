@@ -48,11 +48,11 @@ Specifies output stream arguments for the output passed to [ID3D12VideoProcessCo
 
 ### -field Format
 
-A [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) structure specifying the format of the output resources.
+A [DXGI_FORMAT](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) structure specifying the format of the output resources.
 
 ### -field ColorSpace
 
-A [DXGI_COLOR_SPACE_TYPE](https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) value that specifies the colorspace for the video processor output surface.
+A [DXGI_COLOR_SPACE_TYPE](/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) value that specifies the colorspace for the video processor output surface.
 
 ### -field AlphaFillMode
 
@@ -76,7 +76,7 @@ The video processor uses the background color to fill areas of the target rectan
 ### -field FrameRate
 
  
-A [DXGI_RATIONAL](https://docs.microsoft.com/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational) structure specifying the frame rate of the output video stream.
+A [DXGI_RATIONAL](/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_rational) structure specifying the frame rate of the output video stream.
 
 ### -field EnableStereo
 
@@ -86,4 +86,3 @@ If TRUE, stereo output is enabled. Otherwise, the video processor produces mono 
 ## -remarks
 
 ## -see-also
-

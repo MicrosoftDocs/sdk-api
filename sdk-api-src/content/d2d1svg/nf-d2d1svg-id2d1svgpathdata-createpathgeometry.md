@@ -56,7 +56,7 @@ Creates a path geometry object representing the path data.
 
 ### -param fillMode
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_fill_mode">D2D1_FILL_MODE</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_fill_mode">D2D1_FILL_MODE</a></b>
 
 Fill mode for the path geometry object.
 
@@ -64,7 +64,7 @@ Fill mode for the path geometry object.
 
 Type: <b>ID2D1PathGeometry1**</b>
 
-On completion, pathGeometry will contain a point to the created <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1pathgeometry1">ID2D1PathGeometry1</a> object.
+On completion, pathGeometry will contain a point to the created <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1pathgeometry1">ID2D1PathGeometry1</a> object.
 
 ## -returns
 
@@ -74,5 +74,4 @@ This method returns an HRESULT success or error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgpathdata">ID2D1SvgPathData</a>
-
+<a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgpathdata">ID2D1SvgPathData</a>

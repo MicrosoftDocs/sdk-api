@@ -50,28 +50,27 @@ api_name:
 
 ## -description
 
-The set of schemes used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsdecodeurl">WsDecodeUrl</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsencodeurl">WsEncodeUrl</a>, 
-                and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscombineurl">WsCombineUrl</a>.
+The set of schemes used with <a href="/windows/desktop/api/webservices/nf-webservices-wsdecodeurl">WsDecodeUrl</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wsencodeurl">WsEncodeUrl</a>, 
+                and <a href="/windows/desktop/api/webservices/nf-webservices-wscombineurl">WsCombineUrl</a>.
 
 ## -enum-fields
 
 ### -field WS_URL_HTTP_SCHEME_TYPE
 
-Denotes the "http" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_http_url">WS_HTTP_URL</a>
+Denotes the "http" scheme: <a href="/windows/desktop/api/webservices/ns-webservices-ws_http_url">WS_HTTP_URL</a>
 
 ### -field WS_URL_HTTPS_SCHEME_TYPE
 
-Denotes the "https" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_https_url">WS_HTTPS_URL</a>
+Denotes the "https" scheme: <a href="/windows/desktop/api/webservices/ns-webservices-ws_https_url">WS_HTTPS_URL</a>
 
 ### -field WS_URL_NETTCP_SCHEME_TYPE
 
-Denotes the "net.tcp" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_nettcp_url">WS_NETTCP_URL</a>
+Denotes the "net.tcp" scheme: <a href="/windows/desktop/api/webservices/ns-webservices-ws_nettcp_url">WS_NETTCP_URL</a>
 
 ### -field WS_URL_SOAPUDP_SCHEME_TYPE
 
-Denotes the "soap.udp" scheme: <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_soapudp_url">WS_SOAPUDP_URL</a>
+Denotes the "soap.udp" scheme: <a href="/windows/desktop/api/webservices/ns-webservices-ws_soapudp_url">WS_SOAPUDP_URL</a>
 
 ### -field WS_URL_NETPIPE_SCHEME_TYPE
 
 Windows 8 or later: Denotes the "net.pipe" scheme: <a href="/windows/win32/api/webservices/ns-webservices-ws_netpipe_url">WS_NETPIPE_URL</a>
-

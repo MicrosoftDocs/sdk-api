@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Provides the property value of the BITS file based on a value from the <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ns-bits5_0-bits_job_property_value">BITS_FILE_PROPERTY_ID</a> enumeration.
+Provides the property value of the BITS file based on a value from the <a href="/windows/desktop/api/bits5_0/ns-bits5_0-bits_job_property_value">BITS_FILE_PROPERTY_ID</a> enumeration.
 
 ## -struct-fields
 
@@ -60,13 +60,12 @@ This value is used when using the property ID
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ns-bits5_0-bits_job_property_value">BITS_FILE_PROPERTY_ID</a>
+<a href="/windows/desktop/api/bits5_0/ns-bits5_0-bits_job_property_value">BITS_FILE_PROPERTY_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-getproperty">IBackgroundCopyFile5.GetProperty</a>
+<a href="/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-getproperty">IBackgroundCopyFile5.GetProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-setproperty">IBackgroundCopyFile5.SetProperty</a>
-
+<a href="/windows/desktop/api/bits5_0/nf-bits5_0-ibackgroundcopyfile5-setproperty">IBackgroundCopyFile5.SetProperty</a>

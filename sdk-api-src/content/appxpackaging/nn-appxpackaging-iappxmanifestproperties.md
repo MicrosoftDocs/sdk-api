@@ -54,7 +54,7 @@ Provides read-only access to the properties section of a package manifest.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestProperties</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxManifestProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestproperties-getboolvalue">GetBoolValue</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestproperties-getboolvalue">GetBoolValue</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the specified Boolean element in the properties section.
@@ -78,7 +78,7 @@ Gets the value of the specified Boolean element in the properties section.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestproperties-getstringvalue">GetStringValue</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestproperties-getstringvalue">GetStringValue</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the specified string element in the properties section.
@@ -89,18 +89,17 @@ Gets the value of the specified string element in the properties section.
 
 ## -remarks
 
-The properties section of the manifest is defined using the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-properties">Properties</a> element.
+The properties section of the manifest is defined using the <a href="/uwp/schemas/appxpackage/appxmanifestschema/element-properties">Properties</a> element.
 
-This object can be retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getproperties">IAppxManifestReader::GetProperties</a> method.
+This object can be retrieved using the <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getproperties">IAppxManifestReader::GetProperties</a> method.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/how-to-query-package-identity-information">Quickstart: Read app package manifest info</a>.
+For an example, see <a href="/windows/desktop/appxpkg/how-to-query-package-identity-information">Quickstart: Read app package manifest info</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getproperties">IAppxManifestReader::GetProperties</a>
-
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getproperties">IAppxManifestReader::GetProperties</a>

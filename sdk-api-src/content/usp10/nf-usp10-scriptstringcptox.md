@@ -59,7 +59,7 @@ Retrieves the x coordinate for the leading or trailing edge of a character posit
 
 ### -param ssa [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure for the string.
+A <a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure for the string.
 
 ### -param icp [in]
 
@@ -84,13 +84,12 @@ Returns S_OK if successful. The function returns a nonzero HRESULT value if it d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a>
+<a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

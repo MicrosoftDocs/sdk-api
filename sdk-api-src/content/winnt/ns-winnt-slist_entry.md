@@ -71,23 +71,22 @@ All list items must be aligned on a  <b>MEMORY_ALLOCATION_ALIGNMENT</b> boundary
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/using-singly-linked-lists">Using Singly Linked Lists</a>.
+<a href="/windows/desktop/Sync/using-singly-linked-lists">Using Singly Linked Lists</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-initializeslisthead">InitializeSListHead</a>
+<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-initializeslisthead">InitializeSListHead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedflushslist">InterlockedFlushSList</a>
+<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedflushslist">InterlockedFlushSList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpopentryslist">InterlockedPopEntrySList</a>
+<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpopentryslist">InterlockedPopEntrySList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist">InterlockedPushEntrySList</a>
-
+<a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist">InterlockedPushEntrySList</a>

@@ -57,7 +57,7 @@ api_name:
 ## -description
 
 Contains information used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a> function.
+<a href="/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a> function.
 
 ## -struct-fields
 
@@ -194,19 +194,18 @@ An application needs to delete the restore point it created. For example, an app
 ### -field llSequenceNumber
 
 The sequence number of the restore point. To end a system change, set this to the sequence number returned by the previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>.
+<a href="/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>.
 
 ### -field szDescription
 
 The description to be displayed so the user can easily identify a restore point. The maximum length of an ANSI string is MAX_DESC. The maximum length of a Unicode string is MAX_DESC_W. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/sr/restore-point-description-text">Restore Point Description Text</a>.
+<a href="/windows/desktop/sr/restore-point-description-text">Restore Point Description Text</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>
+<a href="/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>
 
 ## -remarks
 
 > [!NOTE]
 > The srrestoreptapi.h header defines RESTOREPOINTINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

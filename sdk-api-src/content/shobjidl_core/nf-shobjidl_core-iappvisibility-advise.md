@@ -60,7 +60,7 @@ The client's advise sink that receives outgoing calls from the connection point.
 
 ### -param pdwCookie [out]
 
-A token that uniquely identifies this connection. Use this token to delete the connection by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-unadvise">Unadvise</a> method.
+A token that uniquely identifies this connection. Use this token to delete the connection by passing it to the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iappvisibility-unadvise">Unadvise</a> method.
 
 ## -returns
 
@@ -86,9 +86,8 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility">IAppVisibility</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility">IAppVisibility</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents">IAppVisibilityEvents</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibilityevents">IAppVisibilityEvents</a>

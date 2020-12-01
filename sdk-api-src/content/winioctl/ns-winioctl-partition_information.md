@@ -55,7 +55,7 @@ api_name:
 
 Contains information about a disk partition.
 <div class="alert"><b>Note</b>  <b>PARTITION_INFORMATION</b> has been superseded by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a> structure.</div><div> </div>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a> structure.</div><div> </div>
 
 ## -struct-fields
 
@@ -78,7 +78,7 @@ The number of the partition (1-based).
 ### -field PartitionType
 
 The type of partition. For a list of values, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-partition-types">Disk Partition Types</a>.
+<a href="/windows/desktop/FileIO/disk-partition-types">Disk Partition Types</a>.
 
 ### -field BootIndicator
 
@@ -91,37 +91,36 @@ If this member is <b>TRUE</b>, the partition is of a recognized type.
 ### -field RewritePartition
 
 If this member is <b>TRUE</b>, the partition information has changed. When you change a partition (with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT</a>), the system uses this member to determine which partitions have changed and need their information rewritten.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT</a>), the system uses this member to determine which partitions have changed and need their information rewritten.
 
 ## -remarks
 
-If the partition is on a disk formatted as type master boot record (MBR), partition size totals are limited. For more information, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT</a>.
+If the partition is on a disk formatted as type master boot record (MBR), partition size totals are limited. For more information, see the Remarks section of <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-system-recognition">File System Recognition</a>
+<a href="/windows/desktop/FileIO/file-system-recognition">File System Recognition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_drive_layout">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info">IOCTL_DISK_GET_PARTITION_INFO</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info">IOCTL_DISK_GET_PARTITION_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_drive_layout">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_partition_info">IOCTL_DISK_SET_PARTITION_INFO</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_partition_info">IOCTL_DISK_SET_PARTITION_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>
-
+<a href="/windows/desktop/api/winioctl/ne-winioctl-partition_style">PARTITION_STYLE</a>

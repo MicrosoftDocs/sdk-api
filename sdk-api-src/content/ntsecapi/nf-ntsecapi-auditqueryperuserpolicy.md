@@ -58,11 +58,11 @@ The <b>AuditQueryPerUserPolicy</b> function retrieves per-user audit policy in o
 
 ### -param pSid [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure associated with the principal for which to query  audit policy. Per-user policy for group SIDs is not currently supported.
+A pointer to the <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure associated with the principal for which to query  audit policy. Per-user policy for group SIDs is not currently supported.
 
 ### -param pSubCategoryGuids [in]
 
-A pointer to an array of <b>GUID</b> values that specify the subcategories for which to query audit policy. For a list of defined audit-policy subcategories, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/auditing-constants">Auditing Constants</a>.
+A pointer to an array of <b>GUID</b> values that specify the subcategories for which to query audit policy. For a list of defined audit-policy subcategories, see <a href="/windows/desktop/SecAuthZ/auditing-constants">Auditing Constants</a>.
 
 ### -param dwPolicyCount [in]
 
@@ -70,16 +70,16 @@ The number of elements in each of the <i>pSubCategoryGuids</i> and <i>ppAuditPol
 
 ### -param ppAuditPolicy [out]
 
-A pointer to a single buffer that contains both an array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-audit_policy_information">AUDIT_POLICY_INFORMATION</a> structures and the structures themselves. The <b>AUDIT_POLICY_INFORMATION</b> structures specify the per-user audit policy for the subcategories specified by the <i>pSubCategoryGuids</i> array. 
+A pointer to a single buffer that contains both an array of pointers to <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-audit_policy_information">AUDIT_POLICY_INFORMATION</a> structures and the structures themselves. The <b>AUDIT_POLICY_INFORMATION</b> structures specify the per-user audit policy for the subcategories specified by the <i>pSubCategoryGuids</i> array. 
 
-When you have finished using this buffer, free it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditfree">AuditFree</a> function.
+When you have finished using this buffer, free it by calling the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditfree">AuditFree</a> function.
 
 ## -returns
 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return one of the following error codes defined in WinError.h.
 
 <table>
 <tr>
@@ -126,5 +126,4 @@ One or more parameters are invalid.
 
 ## -remarks
 
-To successfully call this function, the caller must have <b>SeSecurityPrivilege</b> or have <b>AUDIT_QUERY_USER_POLICY</b> access on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Audit security object</a>.
-
+To successfully call this function, the caller must have <b>SeSecurityPrivilege</b> or have <b>AUDIT_QUERY_USER_POLICY</b> access on the <a href="/windows/desktop/SecGloss/a-gly">Audit security object</a>.

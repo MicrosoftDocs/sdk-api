@@ -58,7 +58,7 @@ Retrieves the dimensions available on a specific screen for displaying an access
 
 Type: <b>HMONITOR</b>
 
-The handle of the monitor whose available docking size is to be retrieved. For information on how to retrieve an <b>HMONITOR</b>, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfromwindow">MonitorFromWindow</a>.
+The handle of the monitor whose available docking size is to be retrieved. For information on how to retrieve an <b>HMONITOR</b>, see <a href="/windows/desktop/api/winuser/nf-winuser-monitorfromwindow">MonitorFromWindow</a>.
 
 ### -param pcxFixed [out]
 
@@ -150,5 +150,4 @@ This example shows this method in use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh448546(v=vs.85)">IAccessibilityDockingService</a>
-
+<a href="/previous-versions/windows/desktop/legacy/hh448546(v=vs.85)">IAccessibilityDockingService</a>

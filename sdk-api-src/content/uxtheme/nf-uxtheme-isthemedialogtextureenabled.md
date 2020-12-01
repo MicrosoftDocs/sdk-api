@@ -56,13 +56,13 @@ Reports whether a specified dialog window supports background texturing.
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 <b>HWND</b> value that specifies a dialog window.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns one of the following values.
 
@@ -94,4 +94,3 @@ Background texturing is not supported on the dialog window specified by the <i>h
 </td>
 </tr>
 </table>
-

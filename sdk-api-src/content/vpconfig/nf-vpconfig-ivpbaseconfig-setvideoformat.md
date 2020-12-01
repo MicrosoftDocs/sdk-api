@@ -64,15 +64,14 @@ Returns an <b>HRESULT</b> value.
 
 ## -remarks
 
-Retrieve the video formats by using <a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-getvideoformats">IVPBaseConfig::GetVideoFormats</a>.
+Retrieve the video formats by using <a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-getvideoformats">IVPBaseConfig::GetVideoFormats</a>.
 
 Include Dvp.h and Vptype.h before Vpconfig.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig Interface</a>
-
+<a href="/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig Interface</a>

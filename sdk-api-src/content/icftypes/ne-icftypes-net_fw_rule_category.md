@@ -82,9 +82,8 @@ For more information about using <b>NET_FW_RULE_CATEGORY</b>, download the <a hr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-enumerated-types">Windows Firewall with Advanced Security Enumerated Types</a>
+<a href="/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-enumerated-types">Windows Firewall with Advanced Security Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-reference">Windows Firewall with Advanced Security Reference</a>
-
+<a href="/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-reference">Windows Firewall with Advanced Security Reference</a>

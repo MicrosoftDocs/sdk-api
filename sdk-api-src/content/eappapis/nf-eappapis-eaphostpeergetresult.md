@@ -56,19 +56,19 @@ Obtains the authentication result for the specified EAP authentication session.
 
 ### -param sessionHandle [in]
 
-A pointer to an <b>EAP_SESSIONID</b> structure that contains the unique handle for this EAP authentication session on the EAPHost server. This handle is returned in the <i>pSessionId</i> parameter in a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession">EapHostPeerBeginSession</a>.
+A pointer to an <b>EAP_SESSIONID</b> structure that contains the unique handle for this EAP authentication session on the EAPHost server. This handle is returned in the <i>pSessionId</i> parameter in a previous call to <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession">EapHostPeerBeginSession</a>.
 
 ### -param reason [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeermethodresultreason">EapHostPeerMethodResultReason</a> enumeration value that specifies the reason code for the authentication result returned in <i>ppResult</i>.
+An <a href="/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeermethodresultreason">EapHostPeerMethodResultReason</a> enumeration value that specifies the reason code for the authentication result returned in <i>ppResult</i>.
 
 ### -param ppResult [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeermethodresultreason">EapHostPeerMethodResultReason</a> structure that contains the authentication results. EAPHost fills this structure with authentication related information defined in <a href="https://docs.microsoft.com/windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult">EapHostPeerMethodResult</a>.
+A pointer to a <a href="/windows/desktop/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeermethodresultreason">EapHostPeerMethodResultReason</a> structure that contains the authentication results. EAPHost fills this structure with authentication related information defined in <a href="/windows/desktop/api/eaphostpeertypes/ns-eaphostpeertypes-eaphostpeermethodresult">EapHostPeerMethodResult</a>.
 
 ### -param ppEapError [out]
 
-A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure. The address should be set to <b>NULL</b> before calling this function. If error data is available, a pointer to the address of an <b>EAP_ERROR</b> structure that contains any errors raised during the execution of this function call is received. Supplicants must refer to this parameter to determine if the authentication was successful. After using the error data, free this memory by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeEapError</a>.
+A pointer to the address of an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure. The address should be set to <b>NULL</b> before calling this function. If error data is available, a pointer to the address of an <b>EAP_ERROR</b> structure that contains any errors raised during the execution of this function call is received. Supplicants must refer to this parameter to determine if the authentication was successful. After using the error data, free this memory by calling <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerfreeeaperror">EapHostPeerFreeEapError</a>.
 
 ## -returns
 
@@ -82,7 +82,7 @@ The supplicant calls <b>EapHostPeerGetResult</b> on completion of an authenticat
    
 
 <ul>
-<li>A call to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerprocessreceivedpacket">EapHostPeerProcessReceivedPacket</a> returned the <b>EapHostPeerResponseResult</b> action code.</li>
+<li>A call to <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerprocessreceivedpacket">EapHostPeerProcessReceivedPacket</a> returned the <b>EapHostPeerResponseResult</b> action code.</li>
 <li> The client timed out and wants to get the result based on the current
    state.</li>
 <li> The supplicant received an alternate result, perhaps from a packet on the 
@@ -95,5 +95,4 @@ The supplicant calls <b>EapHostPeerGetResult</b> on completion of an authenticat
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerprocessreceivedpacket">EapHostPeerProcessReceivedPacket</a>
-
+<a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerprocessreceivedpacket">EapHostPeerProcessReceivedPacket</a>

@@ -52,19 +52,19 @@ api_name:
 
 A member of the 
 <b>ADDRESS_CAPABILITY</b> enum is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapability">ITAddressCapabilities::get_AddressCapability</a> method to indicate the address capability required.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapability">ITAddressCapabilities::get_AddressCapability</a> method to indicate the address capability required.
 
 ## -enum-fields
 
 ### -field AC_ADDRESSTYPES
 
 An address may support more than one 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">address type</a>, but please note that one may be used during 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>.
+<a href="/windows/desktop/Tapi/lineaddresstype--constants">address type</a>, but please note that one may be used during 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>.
 
 ### -field AC_BEARERMODES
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linebearermode--constants">Bearer modes</a>.
+<a href="/windows/desktop/Tapi/linebearermode--constants">Bearer modes</a>.
 
 ### -field AC_MAXACTIVECALLS
 
@@ -85,23 +85,23 @@ Contains the maximum number of parties that can join a single conference call on
 ### -field AC_MAXNUMTRANSCONF
 
 Specifies the number of parties (including "self") that can be added in a conference call that is initiated as a generic consultation call using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-transfer">ITBasicCallControl::Transfer</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-finish">ITBasicCallControl::Finish</a> (FM_ASCONFERENCE).
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-transfer">ITBasicCallControl::Transfer</a> and 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-finish">ITBasicCallControl::Finish</a> (FM_ASCONFERENCE).
 
 ### -field AC_MONITORDIGITSUPPORT
 
 Specifies digit modes detectable on this address using the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_</a> flags. If no flag is set, digit monitoring is not supported.
+<a href="/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_</a> flags. If no flag is set, digit monitoring is not supported.
 
 ### -field AC_GENERATEDIGITSUPPORT
 
 Specifies digit modes that can be generated on this address using a subset of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_</a> flags: LINEDIGITMODE_PULSE indicates digits can be generated as pulse/rotary tones, and LINEDIGITMODE_DTMF indicates digits can be generated as DTMF tones. If no flag is set, digit generation is not supported.
+<a href="/windows/desktop/Tapi/linedigitmode--constants">LINEDIGITMODE_</a> flags: LINEDIGITMODE_PULSE indicates digits can be generated as pulse/rotary tones, and LINEDIGITMODE_DTMF indicates digits can be generated as DTMF tones. If no flag is set, digit generation is not supported.
 
 ### -field AC_GENERATETONEMODES
 
 Specifies the different kinds of tones that can be generated on this line, of type 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetonemode--constants">LINETONEMODE_</a>.
+<a href="/windows/desktop/Tapi/linetonemode--constants">LINETONEMODE_</a>.
 
 ### -field AC_GENERATETONEMAXNUMFREQ
 
@@ -117,88 +117,88 @@ Contains the maximum number of entries that can be specified in a tone list.
 
 ### -field AC_DEVCAPFLAGS
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevcapflags--constants">Device capability flags</a>.
+<a href="/windows/desktop/Tapi/linedevcapflags--constants">Device capability flags</a>.
 
 ### -field AC_ANSWERMODES
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineanswermode--constants">Answer modes</a>.
+<a href="/windows/desktop/Tapi/lineanswermode--constants">Answer modes</a>.
 
 ### -field AC_LINEFEATURES
 
 Specifies the features available for this line using the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linefeature--constants">LINEFEATURE_ constants</a>. Invoking a supported feature requires the line to be in the proper state and the underlying line device to be opened in a compatible mode. A zero in a bit position indicates that the corresponding feature is never available. A one indicates that the corresponding feature may be available if the line is in the appropriate state for the operation to be meaningful. This member allows an application to discover which line features can be (and which can never be) supported by the device.
+<a href="/windows/desktop/Tapi/linefeature--constants">LINEFEATURE_ constants</a>. Invoking a supported feature requires the line to be in the proper state and the underlying line device to be opened in a compatible mode. A zero in a bit position indicates that the corresponding feature is never available. A one indicates that the corresponding feature may be available if the line is in the appropriate state for the operation to be meaningful. This member allows an application to discover which line features can be (and which can never be) supported by the device.
 
 ### -field AC_SETTABLEDEVSTATUS
 
 Indicates 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS_</a> values that can be modified.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevstatus">LINEDEVSTATUS_</a> values that can be modified.
 
 ### -field AC_PARKSUPPORT
 
 Indicates whether park is supported using the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineparkmode--constants">LINEPARKMODE_</a> flags.
+<a href="/windows/desktop/Tapi/lineparkmode--constants">LINEPARKMODE_</a> flags.
 
 ### -field AC_CALLERIDSUPPORT
 
 Identifies support for caller number identification using the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_</a> flags.
+<a href="/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_</a> flags.
 
 ### -field AC_CALLEDIDSUPPORT
 
 Identifies support for called number identification using the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_</a> flags.
+<a href="/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_</a> flags.
 
 ### -field AC_CONNECTEDIDSUPPORT
 
 Indicates whether connected ID is supported using the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_</a> flags.
+<a href="/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_</a> flags.
 
 ### -field AC_REDIRECTIONIDSUPPORT
 
 Indicates whether redirection ID is supported using the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_</a> flags.
+<a href="/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_</a> flags.
 
 ### -field AC_REDIRECTINGIDSUPPORT
 
 Indicates whether redirecting ID is supported using the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_</a> flags.
+<a href="/windows/desktop/Tapi/linecallpartyid--constants">LINECALLPARTYID_</a> flags.
 
 ### -field AC_ADDRESSCAPFLAGS
 
 The address 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddrcapflags--constants">capability flags</a> describe various Boolean address capabilities. For example, LINEADDRCAPFLAGS_FWDNUMRINGS indicates whether the number of rings for a no-answer can be specified when forwarding on a no-answer.
+<a href="/windows/desktop/Tapi/lineaddrcapflags--constants">capability flags</a> describe various Boolean address capabilities. For example, LINEADDRCAPFLAGS_FWDNUMRINGS indicates whether the number of rings for a no-answer can be specified when forwarding on a no-answer.
 
 ### -field AC_CALLFEATURES1
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallfeature--constants">Call feature set one</a>.
+<a href="/windows/desktop/Tapi/linecallfeature--constants">Call feature set one</a>.
 
 ### -field AC_CALLFEATURES2
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallfeature2--constants">Supplemental call features</a> for conferencing, transferring, and parking calls.
+<a href="/windows/desktop/Tapi/linecallfeature2--constants">Supplemental call features</a> for conferencing, transferring, and parking calls.
 
 ### -field AC_REMOVEFROMCONFCAPS
 
 Specifies the address's capabilities for removing calls from a conference call. This member uses the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineremovefromconf--constants">LINEREMOVEFROMCONF_ constants</a>.
+<a href="/windows/desktop/Tapi/lineremovefromconf--constants">LINEREMOVEFROMCONF_ constants</a>.
 
 ### -field AC_REMOVEFROMCONFSTATE
 
 Uses the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallstate--constants">LINECALLSTATE_ constants</a> to specify the state of the call after it has been removed from a conference call.
+<a href="/windows/desktop/Tapi/linecallstate--constants">LINECALLSTATE_ constants</a> to specify the state of the call after it has been removed from a conference call.
 
 ### -field AC_TRANSFERMODES
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetransfermode--constants">Transfer modes</a>.
+<a href="/windows/desktop/Tapi/linetransfermode--constants">Transfer modes</a>.
 
 ### -field AC_ADDRESSFEATURES
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddrfeature--constants">line address features</a> describe operations that can be invoked on an address. For example, if LINEADDRFEATURE_FORWARD is set, the address can be forwarded.
+<a href="/windows/desktop/Tapi/lineaddrfeature--constants">line address features</a> describe operations that can be invoked on an address. For example, if LINEADDRFEATURE_FORWARD is set, the address can be forwarded.
 
 ### -field AC_PREDICTIVEAUTOTRANSFERSTATES
 
 The call state or states upon which a call made by a predictive dialer can be set to automatically transfer the call to another address; one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallstate--constants">LINECALLSTATE_ constants</a>. The value 0 indicates automatic transfer based on call state is unavailable.
+<a href="/windows/desktop/Tapi/linecallstate--constants">LINECALLSTATE_ constants</a>. The value 0 indicates automatic transfer based on call state is unavailable.
 
 ### -field AC_MAXCALLDATASIZE
 
@@ -207,7 +207,7 @@ Maximum data block size allowed.
 ### -field AC_LINEID
 
 Returns the device identifier of the line device with which this address is associated. TAPI 2.1 cross-reference: 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineaddresscaps">LINEADDRESSCAPS</a>.
 
 ### -field AC_ADDRESSID
 
@@ -215,7 +215,7 @@ Address identifier. An address identifier is permanently associated with an addr
 
 ### -field AC_FORWARDMODES
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineforwardmode--constants">Forwarding modes</a>.
+<a href="/windows/desktop/Tapi/lineforwardmode--constants">Forwarding modes</a>.
 
 ### -field AC_MAXFORWARDENTRIES
 
@@ -224,7 +224,7 @@ The maximum number of different forwarding entries that can be supported by the 
 ### -field AC_MAXSPECIFICENTRIES
 
 Specifies the maximum number of entries that can be set using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-setforwardtype">ITForwardInformation::SetForwardType</a> that can contain forwarding instructions based on a specific caller (selective call forwarding). This member is zero if selective call forwarding is not supported.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-setforwardtype">ITForwardInformation::SetForwardType</a> that can contain forwarding instructions based on a specific caller (selective call forwarding). This member is zero if selective call forwarding is not supported.
 
 ### -field AC_MINFWDNUMRINGS
 
@@ -240,11 +240,11 @@ The maximum number of concurrent call completion requests that can be outstandin
 
 ### -field AC_CALLCOMPLETIONCONDITIONS
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallcomplcond--constants">Call completion conditions</a>.
+<a href="/windows/desktop/Tapi/linecallcomplcond--constants">Call completion conditions</a>.
 
 ### -field AC_CALLCOMPLETIONMODES
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallcomplmode--constants">Call completion modes</a>.
+<a href="/windows/desktop/Tapi/linecallcomplmode--constants">Call completion modes</a>.
 
 ### -field AC_PERMANENTDEVICEID
 
@@ -262,13 +262,12 @@ The permanent identifier by which the line device is known in the system's confi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address object</a>
+<a href="/windows/desktop/Tapi/address-object">Address object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapability">ITAddressCapabilities::get_AddressCapability</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresscapabilities-get_addresscapability">ITAddressCapabilities::get_AddressCapability</a>

@@ -89,5 +89,4 @@ The following enumeration values were introduced in Windows Vista.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysMon/systemmonitor-displaytype">SystemMonitor.DisplayType</a>
-
+<a href="/windows/desktop/SysMon/systemmonitor-displaytype">SystemMonitor.DisplayType</a>

@@ -115,7 +115,7 @@ Out of memory.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -126,17 +126,16 @@ The
 When the handle is used for multiple encoding operations, the encoded size is cumulative.
 
 When a stub is compiled using <b>-protocol all</b> or <b>-protocol ndr64</b> and the buffer is to be encoded using the NDR64 transfer syntax, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesbufferhandlereset">MesBufferHandleReset</a> function must be called with its <i>OpCode</i> parameter set to MES_ENCODE_NDR64.
+<a href="/windows/desktop/api/midles/nf-midles-mesbufferhandlereset">MesBufferHandleReset</a> function must be called with its <i>OpCode</i> parameter set to MES_ENCODE_NDR64.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesbufferhandlereset">MesBufferhandleReset</a>
+<a href="/windows/desktop/api/midles/nf-midles-mesbufferhandlereset">MesBufferhandleReset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesdecodebufferhandlecreate">MesDecodeBufferHandleCreate</a>
+<a href="/windows/desktop/api/midles/nf-midles-mesdecodebufferhandlecreate">MesDecodeBufferHandleCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-meshandlefree">MesHandleFree</a>
-
+<a href="/windows/desktop/api/midles/nf-midles-meshandlefree">MesHandleFree</a>

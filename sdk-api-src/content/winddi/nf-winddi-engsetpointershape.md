@@ -56,7 +56,7 @@ The <b>EngSetPointerShape</b> function sets the pointer shape for the calling dr
 
 ### -param pso [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface on which to draw.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure that describes the surface on which to draw.
 
 ### -param psoMask [in]
 
@@ -68,7 +68,7 @@ Pointer to a SURFOBJ structure that defines the colors for a color pointer. This
 
 ### -param pxlo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that defines the colors in <i>psoColor</i>.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure that defines the colors in <i>psoColor</i>.
 
 ### -param xHot [in]
 
@@ -88,7 +88,7 @@ Specifies the y coordinates of the new pointer position.
 
 ### -param prcl [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure. If non-<b>NULL</b>, the driver has provided a rectangle that bounds all pixels affected by the pointer on the display. GDI avoids drawing on this rectangle without first moving the pointer out of the way.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure. If non-<b>NULL</b>, the driver has provided a rectangle that bounds all pixels affected by the pointer on the display. GDI avoids drawing on this rectangle without first moving the pointer out of the way.
 
 ### -param fl [in]
 
@@ -239,17 +239,16 @@ This mechanism supplies a black and white image while allowing for transparency 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsetpointershape">DrvSetPointerShape</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvsetpointershape">DrvSetPointerShape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmovepointer">EngMovePointer</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engmovepointer">EngMovePointer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>

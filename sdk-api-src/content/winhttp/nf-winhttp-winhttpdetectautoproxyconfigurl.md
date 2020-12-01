@@ -87,12 +87,12 @@ Use DNS to attempt to locate the proxy auto-configuration file at a well-known l
 
 ### -param ppwstrAutoConfigUrl [out]
 
- A data type that returns a pointer to a null-terminated Unicode string that contains the configuration URL that receives the proxy data. You must free the string pointed to by <i>ppwszAutoConfigUrl</i> using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function.
+ A data type that returns a pointer to a null-terminated Unicode string that contains the configuration URL that receives the proxy data. You must free the string pointed to by <i>ppwszAutoConfigUrl</i> using the <a href="/windows/desktop/api/winbase/nf-winbase-globalfree">GlobalFree</a> function.
 
 ## -returns
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
 
 <table>
 <tr>
@@ -142,5 +142,4 @@ Note that because the <b>WinHttpDetectAutoProxyConfigUrl</b> function takes time
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
-
+<a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>

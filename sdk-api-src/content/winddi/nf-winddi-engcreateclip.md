@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EngCreateClip</b> function creates a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that the driver uses in callbacks.
+The <b>EngCreateClip</b> function creates a <a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a> structure that the driver uses in callbacks.
 
 ## -parameters
 
@@ -60,13 +60,12 @@ The return value is a pointer to the newly-created CLIPOBJ structure if the func
 
 ## -remarks
 
-The CLIPOBJ structure created by <b>EngCreateClip</b> allows GDI to directly access banked frame buffers. The structure must be initialized by the driver so that the <b>iDComplexity</b> member of the CLIPOBJ structure is set to DC_TRIVIAL or DC_RECT. If the <b>iDComplexity</b> member is set to DC_RECT, the driver can set the <b>rclBounds</b> member of CLIPOBJ to the extent of the frame buffer bank. The driver must delete this CLIPOBJ structure using <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeleteclip">EngDeleteClip</a>.
+The CLIPOBJ structure created by <b>EngCreateClip</b> allows GDI to directly access banked frame buffers. The structure must be initialized by the driver so that the <b>iDComplexity</b> member of the CLIPOBJ structure is set to DC_TRIVIAL or DC_RECT. If the <b>iDComplexity</b> member is set to DC_RECT, the driver can set the <b>rclBounds</b> member of CLIPOBJ to the extent of the frame buffer bank. The driver must delete this CLIPOBJ structure using <a href="/windows/desktop/api/winddi/nf-winddi-engdeleteclip">EngDeleteClip</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-clipobj">CLIPOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeleteclip">EngDeleteClip</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engdeleteclip">EngDeleteClip</a>

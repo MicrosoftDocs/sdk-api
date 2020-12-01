@@ -56,7 +56,7 @@ Gets the name of the package publisher as defined in the manifest.
 
 ### -param publisher [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
 
 The publisher of the package.
 
@@ -68,11 +68,10 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 ## -remarks
 
-Publisher name information is specified using the <b>Publisher</b> attribute of the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-identity">Identity</a> element in the package manifest.
+Publisher name information is specified using the <b>Publisher</b> attribute of the <a href="/uwp/schemas/appxpackage/appxmanifestschema/element-identity">Identity</a> element in the package manifest.
 
-The caller must free the memory allocated for <i>publisher</i> using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+The caller must free the memory allocated for <i>publisher</i> using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid">IAppxManifestPackageId</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid">IAppxManifestPackageId</a>

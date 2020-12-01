@@ -60,14 +60,14 @@ Locates a symbol file in the specified symbol path.
 ### -param hProcess [in, optional]
 
 A handle to the process that was originally passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function. 
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> function. 
 
-If this handle is 0, <i>SymPath</i> cannot be <b>NULL</b>. Use this option to load a symbol file without calling <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symcleanup">SymCleanup</a>.
+If this handle is 0, <i>SymPath</i> cannot be <b>NULL</b>. Use this option to load a symbol file without calling <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> or <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symcleanup">SymCleanup</a>.
 
 ### -param SymPath [in, optional]
 
 The symbol path. If this parameter is <b>NULL</b> or an empty string, the function uses the symbol path set using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a> or <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a> function.
 
 ### -param ImageFile [in]
 
@@ -147,7 +147,7 @@ The size of the <i>DbgFile</i> buffer, in characters.
 ## -returns
 
 If the server locates a valid symbol file, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns a value that indicates why the symbol file was not returned.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns a value that indicates why the symbol file was not returned.
 
 ## -remarks
 
@@ -164,9 +164,8 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>

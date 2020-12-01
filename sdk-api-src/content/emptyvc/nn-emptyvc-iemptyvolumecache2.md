@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache">IEmptyVolumeCache</a>. This interface defines one additional method, <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex">InitializeEx</a>, that provides better localization support than <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-initialize">IEmptyVolumeCache::Initialize</a>.
+Extends <a href="/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache">IEmptyVolumeCache</a>. This interface defines one additional method, <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex">InitializeEx</a>, that provides better localization support than <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-initialize">IEmptyVolumeCache::Initialize</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEmptyVolumeCache2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache">IEmptyVolumeCache</a>. <b>IEmptyVolumeCache2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEmptyVolumeCache2</b> interface inherits from <a href="/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache">IEmptyVolumeCache</a>. <b>IEmptyVolumeCache2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IEmptyVolumeCache2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex">InitializeEx</a>
+<a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex">InitializeEx</a>
 </td>
 <td align="left" width="63%">
-Initializes the disk cleanup handler. It provides better support for localization than <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-initialize">IEmptyVolumeCache::Initialize</a>.
+Initializes the disk cleanup handler. It provides better support for localization than <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-initialize">IEmptyVolumeCache::Initialize</a>.
 
 </td>
 </tr>
@@ -80,13 +80,12 @@ Initializes the disk cleanup handler. It provides better support for localizatio
 
 ## -remarks
 
-This interface should be exported by disk cleanup handlers running on Windows 2000. Handlers running on Windows 98 must export <a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache">IEmptyVolumeCache</a>.
+This interface should be exported by disk cleanup handlers running on Windows 2000. Handlers running on Windows 98 must export <a href="/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache">IEmptyVolumeCache</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache">IEmptyVolumeCache</a>
+<a href="/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache">IEmptyVolumeCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecachecallback">IEmptyVolumeCacheCallBack</a>
-
+<a href="/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecachecallback">IEmptyVolumeCacheCallBack</a>

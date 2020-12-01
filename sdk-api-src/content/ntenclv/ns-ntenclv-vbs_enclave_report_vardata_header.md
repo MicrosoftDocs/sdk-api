@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Describes the format of a variable data block contained in a report that the <a href="https://docs.microsoft.com/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetattestationreport">EnclaveGetAttestationReport</a> function generates.
+Describes the format of a variable data block contained in a report that the <a href="/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetattestationreport">EnclaveGetAttestationReport</a> function generates.
 
 ## -struct-fields
 
@@ -97,18 +97,17 @@ An enclave attestation report includes zero or  variable data blocks. These vari
 
 <ul>
 <li>A <b>VBS_ENCLAVE_REPORT_VARDATA_HEADER</b> structure that describes the format of the variable data block. </li>
-<li>The data described by the <b>VBS_ENCLAVE_REPORT_VARDATA_HEADER</b> structure. If the value of the <b>DataType</b> member of the <b>VBS_ENCLAVE_REPORT_VARDATA_HEADER</b> structure is  <b>VBS_ENCLAVE_VARDATA_MODULE</b>, this data is a <a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_module">VBS_ENCLAVE_REPORT_MODULE</a> structure.</li>
+<li>The data described by the <b>VBS_ENCLAVE_REPORT_VARDATA_HEADER</b> structure. If the value of the <b>DataType</b> member of the <b>VBS_ENCLAVE_REPORT_VARDATA_HEADER</b> structure is  <b>VBS_ENCLAVE_VARDATA_MODULE</b>, this data is a <a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_module">VBS_ENCLAVE_REPORT_MODULE</a> structure.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetattestationreport">EnclaveGetAttestationReport</a>
+<a href="/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetattestationreport">EnclaveGetAttestationReport</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report">VBS_ENCLAVE_REPORT</a>
+<a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report">VBS_ENCLAVE_REPORT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_module">VBS_ENCLAVE_REPORT_MODULE</a>
-
+<a href="/windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_module">VBS_ENCLAVE_REPORT_MODULE</a>

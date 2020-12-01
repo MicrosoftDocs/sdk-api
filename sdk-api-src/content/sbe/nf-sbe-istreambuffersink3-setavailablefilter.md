@@ -88,5 +88,4 @@ The minimum seek time is an absolute position within the file. For example, supp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink3">IStreamBufferSink3 Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink3">IStreamBufferSink3 Interface</a>

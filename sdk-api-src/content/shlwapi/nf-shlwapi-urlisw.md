@@ -106,7 +106,7 @@ Is the URL a URL that is not typically tracked in navigation history?
 
 #### URLIS_OPAQUE
 
-Is the URL <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisopaquea">opaque</a>?
+Is the URL <a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlisopaquea">opaque</a>?
 
 
 
@@ -142,7 +142,7 @@ Is the URL a URL that is not typically tracked in navigation history?
 
 ##### - UrlIs.URLIS_OPAQUE
 
-Is the URL <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisopaquea">opaque</a>?
+Is the URL <a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlisopaquea">opaque</a>?
 
 
 ##### - UrlIs.URLIS_URL
@@ -161,18 +161,17 @@ If <i>UrlIs</i> is set to <b>URLIS_APPLIABLE</b>, <b>UrlIs</b> will attempt to d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisfileurla">UrlIsFileUrl</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlisfileurla">UrlIsFileUrl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisnohistorya">UrlIsNoHistory</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlisnohistorya">UrlIsNoHistory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlisopaquea">UrlIsOpaque</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlisopaquea">UrlIsOpaque</a>
 
 ## -remarks
 
 > [!NOTE]
 > The shlwapi.h header defines UrlIs as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

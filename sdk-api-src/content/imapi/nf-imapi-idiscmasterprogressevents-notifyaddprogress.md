@@ -51,8 +51,8 @@ api_name:
 ## -description
 
 Notifies an application of its progress in response to calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-iredbookdiscmaster-addaudiotrackblocks">IRedbookDiscMaster::AddAudioTrackBlocks</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-adddata">IJolietDiscMaster::AddData</a>. Notifications are sent for the first and last steps, and at points in between.
+<a href="/windows/desktop/api/imapi/nf-imapi-iredbookdiscmaster-addaudiotrackblocks">IRedbookDiscMaster::AddAudioTrackBlocks</a> or 
+<a href="/windows/desktop/api/imapi/nf-imapi-ijolietdiscmaster-adddata">IJolietDiscMaster::AddData</a>. Notifications are sent for the first and last steps, and at points in between.
 
 ## -parameters
 
@@ -70,5 +70,4 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>
-
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>

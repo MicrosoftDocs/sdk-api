@@ -56,7 +56,7 @@ The <b>get_TuningSpace</b> method gets the tuning space currently in effect for 
 
 ### -param TuningSpace [out]
 
-Address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface pointer that will be set to the current tuning space.
+Address of an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface pointer that will be set to the current tuning space.
 
 ## -returns
 
@@ -64,9 +64,8 @@ When the method is successful, it returns S_OK. Otherwise, it returns an <b>HRES
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>

@@ -57,19 +57,19 @@ Creates a new drawing state block, this can be used in subsequent
 
 ### -param drawingStateDescription [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_drawing_state_description1">D2D1_DRAWING_STATE_DESCRIPTION1</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_drawing_state_description1">D2D1_DRAWING_STATE_DESCRIPTION1</a>*</b>
 
 The drawing state description structure.
 
 ### -param textRenderingParams [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>*</b>
+Type: <b><a href="/windows/desktop/api/dwrite/nn-dwrite-idwriterenderingparams">IDWriteRenderingParams</a>*</b>
 
 The DirectWrite rendering params interface.
 
 ### -param drawingStateBlock [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1drawingstateblock1">ID2D1DrawingStateBlock1</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1drawingstateblock1">ID2D1DrawingStateBlock1</a>**</b>
 
 The address of the newly created drawing state block.
 
@@ -102,5 +102,4 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>

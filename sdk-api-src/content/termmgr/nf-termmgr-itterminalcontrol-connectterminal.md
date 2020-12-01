@@ -62,7 +62,7 @@ Pointer to graph builder interface.
 ### -param dwTerminalDirection [in]
 
 Indicator of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">terminal direction</a>.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">terminal direction</a>.
 
 ### -param pdwNumPins [in, out]
 
@@ -118,5 +118,4 @@ The current terminal is already in use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itterminalcontrol">ITTerminalControl</a>
-
+<a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalcontrol">ITTerminalControl</a>

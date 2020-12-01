@@ -100,7 +100,7 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-<b>ArcTo</b> is similar to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arc">Arc</a> function, except that the current position is updated.
+<b>ArcTo</b> is similar to the <a href="/windows/desktop/api/wingdi/nf-wingdi-arc">Arc</a> function, except that the current position is updated.
 
 The points (<i>nLeftRect</i>, <i>nTopRect</i>) and (<i>nRightRect</i>, <i>nBottomRect</i>) specify the bounding rectangle. An ellipse formed by the specified bounding rectangle defines the curve of the arc. The arc extends counterclockwise from the point where it intersects the radial line from the center of the bounding rectangle to the (<i>nXRadial1</i>, <i>nYRadial1</i>) point. The arc ends where it intersects the radial line from the center of the bounding rectangle to the (<i>nXRadial2</i>, <i>nYRadial2</i>) point. If the starting point and ending point are the same, a complete ellipse is drawn.
 
@@ -110,21 +110,20 @@ The arc is drawn using the current pen; it is not filled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-anglearc">AngleArc</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-anglearc">AngleArc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-arc">Arc</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-arc">Arc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
+<a href="/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
+<a href="/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setarcdirection">SetArcDirection</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setarcdirection">SetArcDirection</a>

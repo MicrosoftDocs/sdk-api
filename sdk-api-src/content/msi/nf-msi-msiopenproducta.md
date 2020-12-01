@@ -54,8 +54,8 @@ api_name:
 
 The 
 <b>MsiOpenProduct</b> function opens a product for use with the functions that access the product database. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function must be called with the handle when the handle is no longer needed.
-<div class="alert"><b>Note</b>  Initialize COM on the same thread before calling the <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <b>MsiOpenProduct</b> function.
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function must be called with the handle when the handle is no longer needed.
+<div class="alert"><b>Note</b>  Initialize COM on the same thread before calling the <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <b>MsiOpenProduct</b> function.
 </div><div> </div>
 
 ## -parameters
@@ -149,10 +149,9 @@ The product code was unrecognized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>
+<a href="/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The msi.h header defines MsiOpenProduct as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

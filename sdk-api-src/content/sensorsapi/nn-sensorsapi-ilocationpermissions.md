@@ -54,7 +54,7 @@ Provides the status of the system setting that allows users to change location s
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocationPermissions</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILocationPermissions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILocationPermissions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILocationPermissions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ILocationPermissions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-ilocationpermissions-getgloballocationpermission">GetGlobalLocationPermission</a>
+<a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-ilocationpermissions-getgloballocationpermission">GetGlobalLocationPermission</a>
 </td>
 <td align="left" width="63%">
 Gets the status of the system setting that allows users to change location settings.
@@ -82,5 +82,4 @@ Gets the status of the system setting that allows users to change location setti
 
 <div class="alert"><b>Note</b>  <b>ILocationPermissions</b> is available in Windows 8.</div>
 <div> </div>
-For more information on location settings in Windows 8 see <a href="https://docs.microsoft.com/previous-versions/windows">Location settings</a>.
-
+For more information on location settings in Windows 8 see <a href="/previous-versions/windows">Location settings</a>.

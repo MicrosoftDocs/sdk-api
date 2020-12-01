@@ -56,7 +56,7 @@ Retrieves the most recent sensor data report.
 
 ### -param ppDataReport [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a> pointer that receives the pointer to the most recent sensor data report.
+Address of an <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a> pointer that receives the pointer to the most recent sensor data report.
 
 ## -returns
 
@@ -85,7 +85,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The sensor driver provided badly formed data. For example, the data was of a type that is not supported. For information about data types of platform-defined data fields, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/sensor-categories--types--and-datafields">Sensor Categories, Types, and Data Fields</a>.
+The sensor driver provided badly formed data. For example, the data was of a type that is not supported. For information about data types of platform-defined data fields, see <a href="/windows/desktop/SensorsAPI/sensor-categories--types--and-datafields">Sensor Categories, Types, and Data Fields</a>.
 
 </td>
 </tr>
@@ -122,23 +122,22 @@ This method may return data before the driver has set the state to SENSOR_STATE_
 
 #### Examples
 
-For an example of how to retrieve sensor data, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/retrieving-sensor-data-fields">Retrieving Sensor Data Values</a>.
+For an example of how to retrieve sensor data, see <a href="/windows/desktop/SensorsAPI/retrieving-sensor-data-fields">Retrieving Sensor Data Values</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/managing-user-permissions">Managing User Permissions</a>
+<a href="/windows/desktop/SensorsAPI/managing-user-permissions">Managing User Permissions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-requestpermissions">RequestPermissions</a>
+<a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensormanager-requestpermissions">RequestPermissions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/sensor-categories--types--and-datafields">Sensor Categories, Types, and Data Fields</a>
-
+<a href="/windows/desktop/SensorsAPI/sensor-categories--types--and-datafields">Sensor Categories, Types, and Data Fields</a>

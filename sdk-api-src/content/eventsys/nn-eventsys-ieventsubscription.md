@@ -55,7 +55,7 @@ It is used by publisher filters.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventSubscription</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEventSubscription</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEventSubscription</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IEventSubscription</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IEventSubscription</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-getpublisherproperty">GetPublisherProperty</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-getpublisherproperty">GetPublisherProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a property stored in the property bag to define publisher context.
@@ -80,7 +80,7 @@ Retrieves the value of a property stored in the property bag to define publisher
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-getpublisherpropertycollection">GetPublisherPropertyCollection</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-getpublisherpropertycollection">GetPublisherPropertyCollection</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of properties and values stored in the publisher property bag.
@@ -89,7 +89,7 @@ Retrieves a collection of properties and values stored in the publisher property
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-getsubscriberproperty">GetSubscriberProperty</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-getsubscriberproperty">GetSubscriberProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a property stored in the property bag to define subscriber context.
@@ -98,7 +98,7 @@ Retrieves the value of a property stored in the property bag to define subscribe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-getsubscriberpropertycollection">GetSubscriberPropertyCollection</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-getsubscriberpropertycollection">GetSubscriberPropertyCollection</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of properties and values stored in the subscriber property bag.
@@ -107,7 +107,7 @@ Retrieves a collection of properties and values stored in the subscriber propert
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">PutPublisherProperty</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">PutPublisherProperty</a>
 </td>
 <td align="left" width="63%">
 Writes a property and its value to the property bag to define publisher context.
@@ -116,7 +116,7 @@ Writes a property and its value to the property bag to define publisher context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putsubscriberproperty">PutSubscriberProperty</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putsubscriberproperty">PutSubscriberProperty</a>
 </td>
 <td align="left" width="63%">
 Writes a property and its value to the property bag to define subscriber context.
@@ -125,7 +125,7 @@ Writes a property and its value to the property bag to define subscriber context
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-removepublisherproperty">RemovePublisherProperty</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-removepublisherproperty">RemovePublisherProperty</a>
 </td>
 <td align="left" width="63%">
 Removes a property and its value from the property bag that defines publisher context.
@@ -134,7 +134,7 @@ Removes a property and its value from the property bag that defines publisher co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-removesubscriberproperty">RemoveSubscriberProperty</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-removesubscriberproperty">RemoveSubscriberProperty</a>
 </td>
 <td align="left" width="63%">
 Removes a property and its value from the property bag that defines subscriber context.
@@ -152,7 +152,7 @@ Removes a property and its value from the property bag that defines subscriber c
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_description">Description</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_description">Description</a>
 
 
 </td>
@@ -168,7 +168,7 @@ A displayable text description of the subscription.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_enabled">Enabled</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_enabled">Enabled</a>
 
 
 </td>
@@ -184,7 +184,7 @@ Indicates whether the subscription is enabled.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_eventclassid">EventClassID</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_eventclassid">EventClassID</a>
 
 
 </td>
@@ -200,7 +200,7 @@ The unique ID of the event class associated with the subscription.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_interfaceid">InterfaceID</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_interfaceid">InterfaceID</a>
 
 
 </td>
@@ -216,7 +216,7 @@ The identifier for a particular interface for which the subscriber wants to rece
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_machinename">MachineName</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_machinename">MachineName</a>
 
 
 </td>
@@ -232,7 +232,7 @@ The name of the computer on which the subscriber should be activated (for a pers
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_methodname">MethodName</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_methodname">MethodName</a>
 
 
 </td>
@@ -248,7 +248,7 @@ The name of the event method.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_ownersid">OwnerSID</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_ownersid">OwnerSID</a>
 
 
 </td>
@@ -264,7 +264,7 @@ The security ID of the subscription's creator.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_peruser">PerUser</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_peruser">PerUser</a>
 
 
 </td>
@@ -280,7 +280,7 @@ Indicates whether the subscription receives the event only if the owner of the s
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_publisherid">PublisherID</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_publisherid">PublisherID</a>
 
 
 </td>
@@ -296,7 +296,7 @@ The unique ID of the event publisher.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriberclsid">SubscriberCLSID</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriberclsid">SubscriberCLSID</a>
 
 
 </td>
@@ -312,7 +312,7 @@ The CLSID of the subscriber component (for a persistent subscription).
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriberinterface">SubscriberInterface</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriberinterface">SubscriberInterface</a>
 
 
 </td>
@@ -328,7 +328,7 @@ A marshaled pointer to the event interface on the subscriber (for a transient su
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriptionid">SubscriptionID</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriptionid">SubscriptionID</a>
 
 
 </td>
@@ -344,7 +344,7 @@ The unique ID for the subscription object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriptionname">SubscriptionName</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriptionname">SubscriptionName</a>
 
 
 </td>
@@ -358,4 +358,3 @@ A displayable name for the subscription object.
 </td>
 </tr>
 </table>
-

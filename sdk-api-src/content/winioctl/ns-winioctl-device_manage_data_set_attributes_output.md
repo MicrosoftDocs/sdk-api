@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Output structure for the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+     <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
      control code.
 
 ## -struct-fields
@@ -67,7 +67,7 @@ Size of the structure. This is set to
 ### -field Action
 
 The action related to the instance of this structure. This is a value for the 
-      <a href="https://docs.microsoft.com/windows/desktop/DevIO/device-data-management-set-action">DEVICE_DATA_MANAGEMENT_SET_ACTION</a> data
+      <a href="/windows/desktop/DevIO/device-data-management-set-action">DEVICE_DATA_MANAGEMENT_SET_ACTION</a> data
       type.
 
 <table>
@@ -107,7 +107,7 @@ A notification action is performed. The <b>DeviceDsmActionFlag_NonDestructive</b
 <td width="60%">
 An offload read action is performed. The output described by the 
          <b>OutputBlockOffset</b> and <b>OutputBlockLength</b> members is a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_read_output">STORAGE_OFFLOAD_READ_OUTPUT</a> structure. 
+         <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_offload_read_output">STORAGE_OFFLOAD_READ_OUTPUT</a> structure. 
          The <b>DeviceDsmActionFlag_NonDestructive</b> (0x80000000) is a bit flag to indicate to 
          the driver stack that this operation is non-destructive.
 
@@ -122,7 +122,7 @@ An offload read action is performed. The output described by the
 <td width="60%">
 An offload write action is performed. The output described by the 
          <b>OutputBlockOffset</b> and <b>OutputBlockLength</b> members is a 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_write_output">STORAGE_OFFLOAD_WRITE_OUTPUT</a> structure.
+         <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_offload_write_output">STORAGE_OFFLOAD_WRITE_OUTPUT</a> structure.
 
 </td>
 </tr>
@@ -215,13 +215,12 @@ The length, in bytes, of the action-specific data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a>
+<a href="/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
+<a href="/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>

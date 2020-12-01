@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>WSASetLastError</b> function sets the error code that can be retrieved through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function.
 
 ## -parameters
 
 ### -param iError [in]
 
 Integer that specifies the error code to be returned by a subsequent 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> call.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> call.
 
 ## -returns
 
@@ -73,12 +73,12 @@ This function generates no return values.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A successful 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.
 
 </td>
 </tr>
@@ -88,13 +88,13 @@ A successful
 
 The 
 <b>WSASetLastError</b> function allows an application to set the error code to be returned by a subsequent 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> call for the current thread. Note that any subsequent Windows Sockets routine called by the application will override the error code as set by this routine.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> call for the current thread. Note that any subsequent Windows Sockets routine called by the application will override the error code as set by this routine.
 
 The error code set by 
 <b>WSASetLastError</b> is different from the error code reset by calling the function 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> with SO_ERROR. 
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> with SO_ERROR. 
 
-The Windows Sockets error codes used by this function are listed under <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>.
+The Windows Sockets error codes used by this function are listed under <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>.
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
@@ -102,21 +102,20 @@ The Windows Sockets error codes used by this function are listed under <a href="
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>
+<a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">Windows Sockets Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
-
+<a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>LsaRegisterPolicyChangeNotification</b> function registers an event handle with the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">local security authority</a> (LSA). This event handle is signaled whenever the indicated LSA policy is modified.
+The <b>LsaRegisterPolicyChangeNotification</b> function registers an event handle with the <a href="/windows/desktop/SecGloss/l-gly">local security authority</a> (LSA). This event handle is signaled whenever the indicated LSA policy is modified.
 
 ## -parameters
 
@@ -134,26 +134,25 @@ Domain Name System (DNS) information, name, or SID of the system's primary domai
 ### -param NotificationEventHandle [in]
 
 A handle to an event obtained by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function. The event can be either named or unnamed.
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createeventa">CreateEvent</a> function. The event can be either named or unnamed.
 
 ## -returns
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+<a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
 ## -remarks
 
-When you have finished using a notification event that has been registered by the <b>LsaRegisterPolicyChangeNotification</b> function, unregister it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification">LsaUnregisterPolicyChangeNotification</a> function.
+When you have finished using a notification event that has been registered by the <b>LsaRegisterPolicyChangeNotification</b> function, unregister it by calling the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification">LsaUnregisterPolicyChangeNotification</a> function.
 
 For an example that demonstrates calling this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/receiving-policy-change-events">Receiving Policy Change Events</a>.
+<a href="/windows/desktop/SecMgmt/receiving-policy-change-events">Receiving Policy Change Events</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification">LsaUnregisterPolicyChangeNotification</a>
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification">LsaUnregisterPolicyChangeNotification</a>

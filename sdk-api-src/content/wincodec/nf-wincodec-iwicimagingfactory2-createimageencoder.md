@@ -56,11 +56,11 @@ Creates a new image encoder object.
 
 ### -param pD2DDevice [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a> object on which the corresponding image encoder is created.
+The <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a> object on which the corresponding image encoder is created.
 
 ### -param ppWICImageEncoder [out]
 
-A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder">IWICImageEncoder</a> interface for the encoder object that you can use to encode <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> images.
+A pointer to a variable that receives a pointer to the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder">IWICImageEncoder</a> interface for the encoder object that you can use to encode <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> images.
 
 ## -returns
 
@@ -68,13 +68,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-You must create images to pass to the image encoder  on the same <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> device that you pass to this method.
+You must create images to pass to the image encoder  on the same <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> device that you pass to this method.
 
 
 
-You are responsible for setting up the bitmap encoder itself through the existing <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapencoder">IWICBitmapEncoder</a> APIs. The <b>IWICBitmapEncoder</b> or the <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapframeencode">IWICBitmapFrameEncode</a> object is passed to each of the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder">IWICImageEncoder</a> methods: <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimageencoder-writethumbnail">WriteThumbnail</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimageencoder-writeframe">WriteFrame</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimageencoder-writeframethumbnail">WriteFrameThumbnail</a>.
+You are responsible for setting up the bitmap encoder itself through the existing <a href="/windows/desktop/wic/-wic-imp-iwicbitmapencoder">IWICBitmapEncoder</a> APIs. The <b>IWICBitmapEncoder</b> or the <a href="/windows/desktop/wic/-wic-imp-iwicbitmapframeencode">IWICBitmapFrameEncode</a> object is passed to each of the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder">IWICImageEncoder</a> methods: <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicimageencoder-writethumbnail">WriteThumbnail</a>, <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicimageencoder-writeframe">WriteFrame</a>, and <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicimageencoder-writeframethumbnail">WriteFrameThumbnail</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory2">IWICImagingFactory2</a>
-
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory2">IWICImagingFactory2</a>

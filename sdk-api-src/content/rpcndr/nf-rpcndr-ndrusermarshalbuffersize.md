@@ -56,7 +56,7 @@ The <b>NdrUserMarshalBufferSize</b> function calculates the size of the buffer, 
 
 ### -param pStubMsg [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The <b>BufferLength</b> member contains the size of the buffer. Structure is for internal use only; do not modify.
+Pointer to a <a href="/windows/desktop/api/rpcndr/ns-rpcndr-midl_stub_message">MIDL_STUB_MESSAGE</a> structure that maintains the current status of the RPC stub. The <b>BufferLength</b> member contains the size of the buffer. Structure is for internal use only; do not modify.
 
 ### -param pMemory [in]
 
@@ -65,4 +65,3 @@ Pointer to the user marshal object to be calculated.
 ### -param pFormat [in]
 
 Pointer to the format string description.
-

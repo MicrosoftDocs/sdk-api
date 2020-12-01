@@ -62,12 +62,12 @@ A pointer to a <b>HANDLE</b> variable that receives a handle to use in asynchron
 ### -param overlapped [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that  notifies the caller of any changes in the routing table.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that  notifies the caller of any changes in the routing table.
 
 ## -returns
 
 If the function succeeds, the return value is NO_ERROR if the caller specifies <b>NULL</b> for the <i>Handle</i> and <i>overlapped</i> parameters. If the caller specifies non-<b>NULL</b> parameters, the return value for success is ERROR_IO_PENDING. If the function fails, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 <table>
 <tr>
@@ -136,32 +136,32 @@ If the caller specifies <b>NULL</b> for the <i>Handle</i> and <i>overlapped</i> 
 If the <b>NotifyRouteChange</b> function is called synchronously, a notification will be sent on the next IPv4 routing change until the application terminates. 
 
 If the caller specifies a handle variable and an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, the caller can use the returned handle with the <b>OVERLAPPED</b> structure to receive asynchronous notification of IPv4 routing table changes. See the following topics for information about using the handle and 
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, the caller can use the returned handle with the <b>OVERLAPPED</b> structure to receive asynchronous notification of IPv4 routing table changes. See the following topics for information about using the handle and 
 <b>OVERLAPPED</b> structure to receive notifications:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>
+<a href="/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/i-o-completion-ports">I/O Completion Ports</a>
+<a href="/windows/desktop/FileIO/i-o-completion-ports">I/O Completion Ports</a>
 </li>
 </ul>
 If the application receives a notification and requires notification for the next change, then the <b>NotifyRouteChange</b> function must be called again.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-cancelipchangenotify">CancelIPChangeNotify</a> function cancels notification of IP address and route changes previously requested with successful calls to the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-notifyaddrchange">NotifyAddrChange</a> or <b>NotifyRouteChange</b> functions.
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-cancelipchangenotify">CancelIPChangeNotify</a> function cancels notification of IP address and route changes previously requested with successful calls to the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-notifyaddrchange">NotifyAddrChange</a> or <b>NotifyRouteChange</b> functions.
 
-Once an application has been notified of a change, the application can then call the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipforwardtable">GetIpForwardTable</a> or <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipforwardtable2">GetIpForwardTable2</a> function to retrieve the IPv4 routing table to determine what has changed. If the application is notified and requires notification for the next change, then the <b>NotifyRouteChange</b> function must be called again.
+Once an application has been notified of a change, the application can then call the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipforwardtable">GetIpForwardTable</a> or <a href="/windows/desktop/api/netioapi/nf-netioapi-getipforwardtable2">GetIpForwardTable2</a> function to retrieve the IPv4 routing table to determine what has changed. If the application is notified and requires notification for the next change, then the <b>NotifyRouteChange</b> function must be called again.
 
-If the <b>NotifyRouteChange</b> function is called asynchronously, a notification will be sent on the next IPv4 route change until either the application cancels the notification by calling the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-cancelipchangenotify">CancelIPChangeNotify</a> function or the application terminates. If the application terminates, the system will automatically cancel the registration for the notification. It is still recommended that an application explicitly cancel any notification before it terminates.  
+If the <b>NotifyRouteChange</b> function is called asynchronously, a notification will be sent on the next IPv4 route change until either the application cancels the notification by calling the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-cancelipchangenotify">CancelIPChangeNotify</a> function or the application terminates. If the application terminates, the system will automatically cancel the registration for the notification. It is still recommended that an application explicitly cancel any notification before it terminates.  
 
 Any registration for a notification does not persist across a system shut down or reboot.
 
 On Windows Vista and later, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-notifyroutechange2">NotifyRouteChange2</a> function  can be used to  register to be notified for changes to the IPv6 routing table  on the local computer.
+<a href="/windows/desktop/api/netioapi/nf-netioapi-notifyroutechange2">NotifyRouteChange2</a> function  can be used to  register to be notified for changes to the IPv6 routing table  on the local computer.
 
 
 #### Examples
@@ -205,29 +205,28 @@ void main()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-cancelipchangenotify">CancelIPChangeNotify</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-cancelipchangenotify">CancelIPChangeNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipforwardtable">GetIpForwardTable</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipforwardtable">GetIpForwardTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getipforwardtable2">GetIpForwardTable2</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getipforwardtable2">GetIpForwardTable2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-notifyaddrchange">NotifyAddrChange</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-notifyaddrchange">NotifyAddrChange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>

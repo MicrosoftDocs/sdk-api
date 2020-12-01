@@ -61,38 +61,38 @@ api_name:
 ## -description
 
 Formats a number string as a number string customized for a locale specified by identifier.
-<div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnumberformatex">GetNumberFormatEx</a> function to <b>GetNumberFormat</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use <b>GetNumberFormatEx</b>.</div><div> </div>
+<div class="alert"><b>Note</b>  For interoperability reasons, the application should prefer the <a href="/windows/desktop/api/winnls/nf-winnls-getnumberformatex">GetNumberFormatEx</a> function to <b>GetNumberFormat</b> because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use <b>GetNumberFormatEx</b>.</div><div> </div>
 
 ## -parameters
 
 ### -param Locale [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
+<a href="/windows/desktop/Intl/locale-identifiers">Locale identifier</a> that specifies the locale. You can use the <a href="/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
+<a href="/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
 </li>
 </ul>
 
 ### -param dwFlags [in]
 
-Flags controlling the operation of the function. The application must set this parameter to 0 if <i>lpFormat</i> is not set to <b>NULL</b>. In this case, the function formats the string using user overrides to the default number format for the locale. If <i>lpFormat</i> is set to <b>NULL</b>, the application can specify <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-nouseroverride">LOCALE_NOUSEROVERRIDE</a> to format the string using the system default number format for the specified locale.
+Flags controlling the operation of the function. The application must set this parameter to 0 if <i>lpFormat</i> is not set to <b>NULL</b>. In this case, the function formats the string using user overrides to the default number format for the locale. If <i>lpFormat</i> is set to <b>NULL</b>, the application can specify <a href="/windows/desktop/Intl/locale-nouseroverride">LOCALE_NOUSEROVERRIDE</a> to format the string using the system default number format for the specified locale.
 
 <div class="alert"><b>Caution</b>  Use of LOCALE_NOUSEROVERRIDE is strongly discouraged as it disables user preferences.</div>
 <div> </div>
@@ -109,7 +109,7 @@ Pointer to a null-terminated string containing the number string to format. This
 
 ### -param lpFormat [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-numberfmta">NUMBERFMT</a> structure that contains number formatting information, with all members set to appropriate values. If this parameter does is not set to <b>NULL</b>, the function uses the locale only for formatting information not specified in the structure, for example, the locale-specific string value for the negative sign.
+Pointer to a <a href="/windows/desktop/api/winnls/ns-winnls-numberfmta">NUMBERFMT</a> structure that contains number formatting information, with all members set to appropriate values. If this parameter does is not set to <b>NULL</b>, the function uses the locale only for formatting information not specified in the structure, for example, the locale-specific string value for the negative sign.
 
 ### -param lpNumberStr [out, optional]
 
@@ -123,7 +123,7 @@ Size, in TCHAR values, for the number string buffer indicated by <i>lpNumberStr<
 
 Returns the number of TCHAR values retrieved in the buffer indicated by <i>lpNumberStr</i> if successful. If the <i>cchNumber</i> parameter is set to 0, the function returns the number of characters required to hold the formatted number string, including a terminating null character.
 
-The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or  it was incorrectly set to <b>NULL</b>. </li>
@@ -134,7 +134,7 @@ The function returns 0 if it does not succeed. To get extended error information
 
 ## -remarks
 
-This function can retrieve data from <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
+This function can retrieve data from <a href="/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
 
 When the ANSI version of this function is used with a Unicode-only locale identifier, the function can succeed because the operating system uses the system code page. However, characters that are undefined in the system code page appear in the string as a question mark (?). 
       
@@ -148,17 +148,16 @@ When the ANSI version of this function is used with a Unicode-only locale identi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnumberformatex">GetNumberFormatEx</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getnumberformatex">GetNumberFormatEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ns-winnls-numberfmta">NUMBERFMT</a>
+<a href="/windows/desktop/api/winnls/ns-winnls-numberfmta">NUMBERFMT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

@@ -53,5 +53,4 @@ api_name:
 
 ## -description
 
-Provides access to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> of the substreams of a multiplexed media source.
-
+Provides access to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> of the substreams of a multiplexed media source.

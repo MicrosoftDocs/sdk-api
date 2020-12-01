@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides a method for retrieving information from the similarity traits list that was returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-begindump">ISimilarityTraitsTable::BeginDump</a> method.
+Provides a method for retrieving information from the similarity traits list that was returned by the <a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-begindump">ISimilarityTraitsTable::BeginDump</a> method.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimilarityTableDumpState</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISimilarityTableDumpState</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimilarityTableDumpState</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISimilarityTableDumpState</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISimilarityTableDumpState</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytabledumpstate-getnextdata">GetNextData</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nf-msrdc-isimilaritytabledumpstate-getnextdata">GetNextData</a>
 </td>
 <td align="left" width="63%">
 Retrieves one or more <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydumpdata">SimilarityDumpData</a> structures from the similarity traits list.
@@ -80,5 +80,4 @@ Retrieves one or more <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydumpd
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

@@ -69,7 +69,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-For information on creating new effects for use with XAudio2, see the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>.
+For information on creating new effects for use with XAudio2, see the <a href="/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>.
 
 <table>
 <tr>
@@ -77,7 +77,7 @@ For information on creating new effects for use with XAudio2, see the <a href="h
 </tr>
 <tr>
 <td>
-Because <b>XAudio2CreateVolumeMeter</b> calls <b>CoCreateInstance</b> on Windows, the application must have called the <b>CoInitializeEx</b> method before calling <b>XAudio2CreateVolumeMeter</b>. <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create">XAudio2Create</a> has the same requirement, which means <b>CoInitializeEx</b> typically will be called long before <b>XAudio2CreateVolumeMeter</b> is called.
+Because <b>XAudio2CreateVolumeMeter</b> calls <b>CoCreateInstance</b> on Windows, the application must have called the <b>CoInitializeEx</b> method before calling <b>XAudio2CreateVolumeMeter</b>. <a href="/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create">XAudio2Create</a> has the same requirement, which means <b>CoInitializeEx</b> typically will be called long before <b>XAudio2CreateVolumeMeter</b> is called.
 
 
 
@@ -110,9 +110,9 @@ The xaudio2fx.h header defines the <b>AudioVolumeMeter</b> class GUID as   a cro
 
 <pre class="syntax" xml:space="preserve"><code>class __declspec(uuid("4FC3B166-972A-40CF-BC37-7DB03DB2FBA3")) AudioVolumeMeter;
 </code></pre>
-<b>XAudio2CreateVolumeMeter</b> returns this object as a pointer to a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> in the <i>ppApo</i> parameter. Although you can query the <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> and <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapoparameters">IXAPOParameters</a> interfaces from this <b>IUnknown</b>, you typically never use these interfaces directly. Instead, you use them when you create a voice to add them as part of the effects chain. 
+<b>XAudio2CreateVolumeMeter</b> returns this object as a pointer to a pointer to <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> in the <i>ppApo</i> parameter. Although you can query the <a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a> and <a href="/windows/desktop/api/xapo/nn-xapo-ixapoparameters">IXAPOParameters</a> interfaces from this <b>IUnknown</b>, you typically never use these interfaces directly. Instead, you use them when you create a voice to add them as part of the effects chain. 
 
-The volume meter uses the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_volumemeter_levels">XAUDIO2FX_VOLUMEMETER_LEVELS</a> parameter structure that you access via the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectparameters">IXAudio2Voice::GetEffectParameters</a> method when the XAPO is bound to the audio graph.
+The volume meter uses the <a href="/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_volumemeter_levels">XAUDIO2FX_VOLUMEMETER_LEVELS</a> parameter structure that you access via the <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-geteffectparameters">IXAudio2Voice::GetEffectParameters</a> method when the XAPO is bound to the audio graph.
 
 <div class="alert"><b>Note</b>  <b>XAudio2CreateVolumeMeter</b> is an inline function in xaudio2fx.h that calls <b>CreateAudioVolumeMeter</b>: <pre class="syntax" xml:space="preserve"><code>
 XAUDIO2FX_STDAPI CreateAudioVolumeMeter(_Outptr_ IUnknown** ppApo);
@@ -128,17 +128,16 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--create-an-effect-chain">How to: Create an Effect Chain</a>
+<a href="/windows/desktop/xaudio2/how-to--create-an-effect-chain">How to: Create an Effect Chain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectparameters">IXAudio2Voice::SetEffectParameters</a>
+<a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectparameters">IXAudio2Voice::SetEffectParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_volumemeter_levels">XAUDIO2FX_VOLUMEMETER_LEVELS</a>
+<a href="/windows/desktop/api/xaudio2fx/ns-xaudio2fx-xaudio2fx_volumemeter_levels">XAUDIO2FX_VOLUMEMETER_LEVELS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">XAudio2 Functions</a>
-
+<a href="/windows/desktop/xaudio2/functions">XAudio2 Functions</a>

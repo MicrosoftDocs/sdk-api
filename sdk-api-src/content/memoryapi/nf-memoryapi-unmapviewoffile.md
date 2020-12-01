@@ -65,21 +65,21 @@ Unmaps a mapped view of a file from the calling process's address space.
 ### -param lpBaseAddress [in]
 
 A pointer to the base address of the mapped view of a file that is to be unmapped. This value must be identical to the value returned by a previous call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a> function.
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> or 
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Unmapping a mapped view of a file invalidates the range occupied by the view in the address space of the process and makes the range available for other allocations. It removes the working set entry for each unmapped virtual page that was part of the working set of the process and reduces the working set size of the process. It also decrements the share count of the corresponding physical page.
 
-Modified pages in the unmapped view are not written to disk until their share count reaches zero, or in other words, until they are unmapped or trimmed from the working sets of all processes that share the pages. Even then, the modified pages are written "lazily" to disk; that is, modifications may be cached in memory and written to disk at a later time. To minimize the risk of data loss in the event of a power failure or a system crash, applications should explicitly flush modified pages using the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-flushviewoffile">FlushViewOfFile</a> function.
+Modified pages in the unmapped view are not written to disk until their share count reaches zero, or in other words, until they are unmapped or trimmed from the working sets of all processes that share the pages. Even then, the modified pages are written "lazily" to disk; that is, modifications may be cached in memory and written to disk at a later time. To minimize the risk of data loss in the event of a power failure or a system crash, applications should explicitly flush modified pages using the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-flushviewoffile">FlushViewOfFile</a> function.
 
 Although an application may close the file handle used to create a file mapping object, the system holds the corresponding file open until the last view of the file is unmapped.  Files for which the last view has not yet been unmapped are held open with no sharing restrictions.
 
@@ -147,28 +147,27 @@ Yes
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/creating-a-view-within-a-file">Creating a View Within a File</a>.
+<a href="/windows/desktop/Memory/creating-a-view-within-a-file">Creating a View Within a File</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/closing-a-file-mapping-object">Closing a File Mapping Object</a>
+<a href="/windows/desktop/Memory/closing-a-file-mapping-object">Closing a File Mapping Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">File Mapping Functions</a>
+<a href="/windows/desktop/Memory/memory-management-functions">File Mapping Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>
 
 
 
 Memory
     Management Functions
-

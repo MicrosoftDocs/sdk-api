@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetPrivateKeyContainerList</b> method gets the list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> names stored by the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) for asymmetric signature key algorithms. This method does not change the state of the <b>CCertSrvSetup</b> object.
+The <b>GetPrivateKeyContainerList</b> method gets the list of <a href="/windows/desktop/SecGloss/k-gly">key container</a> names stored by the specified <a href="/windows/desktop/SecGloss/c-gly">cryptographic service provider</a> (CSP) for asymmetric signature key algorithms. This method does not change the state of the <b>CCertSrvSetup</b> object.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ A pointer to a <b>VARIANT</b> array of <b>VT_BSTR</b> types, where each string r
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>

@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data">CM_Get_Res_Des_Data</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data">CM_Get_Res_Des_Data</a> instead.]
 
-The <b>CM_Get_Res_Des_Data_Ex</b> function retrieves the information stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/">resource descriptor</a> on a local or a remote machine.
+The <b>CM_Get_Res_Des_Data_Ex</b> function retrieves the information stored in a <a href="/windows-hardware/drivers/">resource descriptor</a> on a local or a remote machine.
 
 ## -parameters
 
 ### -param rdResDes [in]
 
-Caller-supplied handle to a resource descriptor, obtained by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_res_des_ex">CM_Get_Next_Res_Des_Ex</a>.
+Caller-supplied handle to a resource descriptor, obtained by a previous call to <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_res_des_ex">CM_Get_Next_Res_Des_Ex</a>.
 
 ### -param Buffer [out]
 
-Address of a buffer to receive the contents of a resource descriptor. The required buffer size should be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size_ex">CM_Get_Res_Des_Data_Size_Ex</a>.
+Address of a buffer to receive the contents of a resource descriptor. The required buffer size should be obtained by calling <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size_ex">CM_Get_Res_Des_Data_Size_Ex</a>.
 
 ### -param BufferLen [in]
 
@@ -74,7 +74,7 @@ Not used, must be zero.
 
 ### -param hMachine [in, optional]
 
-Caller-supplied machine handle, obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
+Caller-supplied machine handle, obtained from a previous call to <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_connect_machinew">CM_Connect_Machine</a>.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -88,11 +88,10 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-Information returned in the buffer supplied by <i>Buffer</i> will be formatted as one of the resource type structures listed in the description of <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_res_des_ex">CM_Add_Res_Des_Ex</a>, based on the resource type that was specified when <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_res_des_ex">CM_Get_Next_Res_Des_Ex</a> was called to obtain the resource descriptor handle.
+Information returned in the buffer supplied by <i>Buffer</i> will be formatted as one of the resource type structures listed in the description of <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_res_des_ex">CM_Add_Res_Des_Ex</a>, based on the resource type that was specified when <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_res_des_ex">CM_Get_Next_Res_Des_Ex</a> was called to obtain the resource descriptor handle.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data">CM_Get_Res_Des_Data</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_res_des_data">CM_Get_Res_Des_Data</a>

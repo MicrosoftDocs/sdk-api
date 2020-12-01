@@ -57,10 +57,10 @@ A 2D vector where each component is a unsigned integer, 8-bits (1 byte) in lengt
 
 
 For a list of additional functionality such as constructors and operators that are available using <code>XMUBYTE2</code> when you
-  are programming in C++, see <a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmubyte2-extensions">XMUBYTE2 Extensions</a>.
-<div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type Equivalences</a> for information about
-  equivalent <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddecltype">D3DDECLTYPE</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>, and
-  <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects.</div><div> </div>
+  are programming in C++, see <a href="/windows/desktop/dxmath/ovw-xmubyte2-extensions">XMUBYTE2 Extensions</a>.
+<div class="alert"><b>Note</b>  See <a href="/windows/desktop/dxmath/pg-xnamath-internals">DirectXMath Library Type Equivalences</a> for information about
+  equivalent <a href="/windows/desktop/direct3d9/d3ddecltype">D3DDECLTYPE</a>, <a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a>, and
+  <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> objects.</div><div> </div>
 
 ## -struct-fields
 
@@ -84,10 +84,10 @@ TBD
 
 ## -remarks
 
-You can use <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadubyte2">XMLoadUByte2</a> to load <code>XMUBYTE2</code> 
-     into instances of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
+You can use <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmloadubyte2">XMLoadUByte2</a> to load <code>XMUBYTE2</code> 
+     into instances of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a>.
 
-You can use <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreubyte2">XMStoreUByte2</a> to store instances of <code>XMVECTOR</code> 
+You can use <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmstoreubyte2">XMStoreUByte2</a> to store instances of <code>XMVECTOR</code> 
    into an instance of <code>XMUBYTE2</code>.
 
 <b>Namespace:</b> Use DirectX::PackedVector
@@ -97,9 +97,8 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-structures">DirectXMath Library Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmubyte2-extensions">XMUBYTE2 Extensions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xmubyte2-extensions">XMUBYTE2 Extensions</a>

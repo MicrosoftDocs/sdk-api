@@ -56,13 +56,13 @@ The <b>PeerGroupDelete</b> function deletes the local data and certificate assoc
 
 ### -param pwzIdentity [in]
 
-Pointer to a Unicode string that contains the identity opening the specified peer group. If this parameter is <b>NULL</b>, the implementation uses the identity obtained from <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitygetdefault">PeerIdentityGetDefault</a>.
+Pointer to a Unicode string that contains the identity opening the specified peer group. If this parameter is <b>NULL</b>, the implementation uses the identity obtained from <a href="/windows/desktop/api/p2p/nf-p2p-peeridentitygetdefault">PeerIdentityGetDefault</a>.
 
 ### -param pwzGroupPeerName [in]
 
 Pointer to a Unicode string that contains the peer name of the peer group for which data is deleted. This parameter is required. The group
-	name can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupgetproperties">PeerGroupGetProperties</a>  prior to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupclose">PeerGroupClose</a>, or by parsing the invitation with
-	<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>.
+	name can be obtained by calling <a href="/windows/desktop/api/p2p/nf-p2p-peergroupgetproperties">PeerGroupGetProperties</a>  prior to <a href="/windows/desktop/api/p2p/nf-p2p-peergroupclose">PeerGroupClose</a>, or by parsing the invitation with
+	<a href="/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>.
 
 ## -returns
 
@@ -123,7 +123,7 @@ Access to the identity or peer group keys is denied. Typically, this is  caused 
 </table>
  
 
-Cryptography-specific errors can be returned from the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
+Cryptography-specific errors can be returned from the <a href="/windows/desktop/SecCrypto/microsoft-base-cryptographic-provider">Microsoft RSA Base Provider</a>. These errors are prefixed with CRYPT_* and defined in Winerror.h.
 
 ## -remarks
 
@@ -131,5 +131,4 @@ If a peer group is deleted, all handles associated with that group immediately b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreate">PeerGroupCreate</a>

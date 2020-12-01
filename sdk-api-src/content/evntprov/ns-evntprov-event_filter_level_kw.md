@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EVENT_FILTER_LEVEL_KW</b> structure defines event IDs used in an <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure for a stack walk level-keyword filter.
+The <b>EVENT_FILTER_LEVEL_KW</b> structure defines event IDs used in an <a href="/windows/desktop/api/evntprov/ns-evntprov-event_filter_descriptor">EVENT_FILTER_DESCRIPTOR</a> structure for a stack walk level-keyword filter.
 
 This filter is only applied to events that are otherwise enabled
 on the logging session, via a level/keyword in the enable call.
@@ -78,4 +78,3 @@ Defines the severity level of the event to filter on.
 <b>true</b> to filter the events matching the provided names in; <b>false</b> to filter them out.
 
 If set to <b>true</b>, the filtered events will have stacks collected.
-

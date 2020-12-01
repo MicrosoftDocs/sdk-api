@@ -56,7 +56,7 @@ Retrieves the specified GUID for the object.
 
 ### -param dwGuidKind [in]
 
-The GUID type. Possible values are from the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ne-ocidl-guidkind">GUIDKIND</a> enumeration.
+The GUID type. Possible values are from the <a href="/windows/desktop/api/ocidl/ne-ocidl-guidkind">GUIDKIND</a> enumeration.
 
 ### -param pGUID [out]
 
@@ -68,5 +68,4 @@ This method can return the standard return values E_INVALIDARG, E_UNEXPECTED, E_
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo2">IProvideClassInfo2</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo2">IProvideClassInfo2</a>

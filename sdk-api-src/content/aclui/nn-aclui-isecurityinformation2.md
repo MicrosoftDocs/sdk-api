@@ -51,11 +51,11 @@ api_name:
 ## -description
 
 The <b>ISecurityInformation2</b> interface enables the access control editor to obtain information from the client that is not provided by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> interface. The client does not need to implement <b>ISecurityInformation2</b> unless the default behavior of the access control editor is unsuitable for the client.
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a> interface. The client does not need to implement <b>ISecurityInformation2</b> unless the default behavior of the access control editor is unsuitable for the client.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityInformation2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityInformation2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityInformation2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISecurityInformation2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ISecurityInformation2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-isdaclcanonical">IsDaclCanonical</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-isdaclcanonical">IsDaclCanonical</a>
 </td>
 <td align="left" width="63%">
 Checks the specified DACL for canonical ordering of the ACEs contained within it.
@@ -79,7 +79,7 @@ Checks the specified DACL for canonical ordering of the ACEs contained within it
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids">LookupSids</a>
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation2-lookupsids">LookupSids</a>
 </td>
 <td align="left" width="63%">
 Retrieves the common names corresponding to the specified SIDs.
@@ -90,9 +90,8 @@ Retrieves the common names corresponding to the specified SIDs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
+<a href="/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>

@@ -57,12 +57,12 @@ The <b>IExtendContextMenu::AddMenuItems</b> method enables a snap-in to add item
 ### -param piDataObject [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object of the menu to which items are added.
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object of the menu to which items are added.
 
 ### -param piCallback [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a> that can add items to the context menu.
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a> that can add items to the context menu.
 
 ### -param pInsertionAllowed [in, out]
 
@@ -101,7 +101,7 @@ This method can return one of these values.
 
 An implementation of <b>IExtendContextMenu::AddMenuItems</b> typically reads the node type and any other parameters required by calling 
 IDataObject::GetDataHere on piDataObject, then adds context menu items as appropriate by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback::AddItem</a> on piCallback.
+<a href="/windows/desktop/api/mmc/nf-mmc-icontextmenucallback-additem">IContextMenuCallback::AddItem</a> on piCallback.
 
 Your snap-in should check the pInsertionsAllowed flags for permission before attempting to add menu items at the MMC-defined insertion points. For example, a snap-in should not add menu items to CCM_INSERTIONPOINTID_PRIMARY_NEW or CCM_INSERTIONPOINTID_3RDPARTY_NEW unless the CCM_INSERTIONALLOWED_NEW flag is set.
 
@@ -126,25 +126,24 @@ IComponentData implementation the opportunity to add menu items to all menus exc
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 The 
 AddMenuItems method should not call AddRef on either the piDataObject pointer or the piCallback pointer, nor should it call the methods of those interfaces after returning. Instead, it should make all necessary calls to the methods of those interfaces before returning. If any of these items is selected, you will be given back the pointer to IDataObject in 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-command">IExtendContextMenu::Command</a>, so do not keep this pointer after this method returns. You will not be notified if the menu is dismissed without any of your items being selected. In addition, do not query for alternate interfaces from piCallback because the one method, IContextMenuCallback::AddItem, should be sufficient.
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendcontextmenu-command">IExtendContextMenu::Command</a>, so do not keep this pointer after this method returns. You will not be notified if the menu is dismissed without any of your items being selected. In addition, do not query for alternate interfaces from piCallback because the one method, IContextMenuCallback::AddItem, should be sufficient.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-contextmenuitem">CONTEXTMENUITEM</a>
+<a href="/windows/desktop/api/mmc/ns-mmc-contextmenuitem">CONTEXTMENUITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendcontextmenu">IExtendContextMenu</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iextendcontextmenu">IExtendContextMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>
-
+<a href="/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>

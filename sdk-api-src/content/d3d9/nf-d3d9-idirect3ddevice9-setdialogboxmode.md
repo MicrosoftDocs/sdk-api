@@ -57,7 +57,7 @@ This method allows the use of GDI dialog boxes in full-screen mode applications.
 
 ### -param bEnableDialogs [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to enable GDI dialog boxes, and <b>FALSE</b> to disable them.
 
@@ -86,5 +86,4 @@ The method has no effect for windowed mode applications, but this setting will b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>

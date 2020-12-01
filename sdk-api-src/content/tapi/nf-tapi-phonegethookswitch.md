@@ -62,8 +62,8 @@ Handle to the open phone device.
 ### -param lpdwHookSwitchDevs
 
 Pointer to a <b>DWORD</b> to be filled with the mode of the phone's hookswitch devices. If a bit position is <b>FALSE</b>, the corresponding hookswitch device is onhook; if <b>TRUE</b>, the microphone and/or speaker part of the corresponding hookswitch device is offhook. To find out whether the microphone and/or speaker are enabled, the application can use 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetstatus">phoneGetStatus</a>. This parameter uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ Constants</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetstatus">phoneGetStatus</a>. This parameter uses one or more of the 
+<a href="/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ Constants</a>.
 
 ## -returns
 
@@ -74,21 +74,20 @@ PHONEERR_INVALPHONEHANDLE, PHONEERR_NOMEM, PHONEERR_INVALPOINTER, PHONEERR_RESOU
 ## -remarks
 
 After the hookswitch state of a device changes, and if hookswitch monitoring is enabled, the application is sent a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-state">PHONE_STATE</a> message.
+<a href="/windows/desktop/Tapi/phone-state">PHONE_STATE</a> message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-state">PHONE_STATE</a>
+<a href="/windows/desktop/Tapi/phone-state">PHONE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetstatus">phoneGetStatus</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetstatus">phoneGetStatus</a>

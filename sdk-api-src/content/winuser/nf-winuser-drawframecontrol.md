@@ -44,6 +44,7 @@ api_location:
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
  - DrawFrameControl
+req.apiset: ext-ms-win-ntuser-draw-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # DrawFrameControl function
@@ -493,21 +494,20 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-If <i>uType</i> is either DFC_MENU or DFC_BUTTON and <i>uState</i> is not DFCS_BUTTONPUSH, the frame control is a black-on-white mask (that is, a black frame control on a white background). In such cases, the application must pass a handle to a bitmap memory device control. The application can then use the associated bitmap as the <i>hbmMask</i> parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a> function, or it can use the device context as a parameter to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> function using ROPs such as SRCAND and SRCINVERT.
+If <i>uType</i> is either DFC_MENU or DFC_BUTTON and <i>uState</i> is not DFCS_BUTTONPUSH, the frame control is a black-on-white mask (that is, a black frame control on a white background). In such cases, the application must pass a handle to a bitmap memory device control. The application can then use the associated bitmap as the <i>hbmMask</i> parameter to the <a href="/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a> function, or it can use the device context as a parameter to the <a href="/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a> function using ROPs such as SRCAND and SRCINVERT.
 
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The input given is always in terms of physical pixels, and is not related to the calling context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT
       </a>
-

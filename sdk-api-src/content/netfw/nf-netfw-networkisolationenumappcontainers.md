@@ -64,7 +64,7 @@ Type: <b>DWORD</b>
 May be set to <b>NETISO_FLAG_FORCE_COMPUTE_BINARIES</b> to ensure that all binaries are computed before the app container is returned. This flag should be set if the caller requires up-to-date and complete information on app container binaries. If this flag is not set, returned data may be stale or incomplete.
 
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ne-netfw-netiso_flag">NETISO_FLAG</a> for more information.
+See <a href="/previous-versions/windows/desktop/api/netfw/ne-netfw-netiso_flag">NETISO_FLAG</a> for more information.
 
 ### -param pdwNumPublicAppCs [out]
 
@@ -74,7 +74,7 @@ The number of app containers in the <b>ppPublicAppCs</b> member.
 
 ### -param ppPublicAppCs [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_app_container">PINET_FIREWALL_APP_CONTAINER</a>*</b>
+Type: <b><a href="/windows/desktop/api/netfw/ns-netfw-inet_firewall_app_container">PINET_FIREWALL_APP_CONTAINER</a>*</b>
 
 The list of app container structure elements.
 
@@ -92,9 +92,8 @@ If no app containers are installed on the system, ERROR_SUCCESS will still be re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_app_container">INET_FIREWALL_APP_CONTAINER</a>
+<a href="/windows/desktop/api/netfw/ns-netfw-inet_firewall_app_container">INET_FIREWALL_APP_CONTAINER</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/ne-netfw-netiso_flag">NETISO_FLAG</a>
-
+<a href="/previous-versions/windows/desktop/api/netfw/ne-netfw-netiso_flag">NETISO_FLAG</a>

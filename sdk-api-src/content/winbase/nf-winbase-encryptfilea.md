@@ -47,6 +47,7 @@ api_name:
  - EncryptFile
  - EncryptFileA
  - EncryptFileW
+req.apiset: ext-ms-win-advapi32-encryptedfile-l1-1-0 (introduced in Windows 8)
 ---
 
 # EncryptFileA function
@@ -66,14 +67,14 @@ The name of the file or directory to be encrypted.
 The caller must have the <b>FILE_READ_DATA</b>, <b>FILE_WRITE_DATA</b>, 
        <b>FILE_READ_ATTRIBUTES</b>, <b>FILE_WRITE_ATTRIBUTES</b>, and 
        <b>SYNCHRONIZE</b> access rights. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+       <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -86,12 +87,12 @@ If the file is already encrypted, <b>EncryptFile</b> simply
     it.
 
 If <i>lpFileName</i> specifies a read-only file, the function fails and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
+    <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
     <b>ERROR_FILE_READ_ONLY</b>. If <i>lpFileName</i> specifies a directory that 
     contains a read-only file, the functions succeeds but the directory is not encrypted.
 
 To decrypt an encrypted file, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-decryptfilea">DecryptFile</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-decryptfilea">DecryptFile</a> function.
 
 In Windows 8, Windows Server 2012, and later, this function is supported by the following technologies.
 
@@ -164,13 +165,12 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-decryptfilea">DecryptFile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-decryptfilea">DecryptFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
-
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Read a value of a given <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> from XML according to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a>.
+Read a value of a given <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a> from XML according to the <a href="/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a>.
 
 ## -parameters
 
@@ -69,12 +69,12 @@ The type of the value to deserialize.
 ### -param typeDescription [in, optional]
 
 Additional information about the type.  Each type has a different description
-                    structure.  This may be <b>NULL</b>, depending on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>.
+                    structure.  This may be <b>NULL</b>, depending on the <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_TYPE</a>.
 
 ### -param readOption [in]
 
 Whether the value is required, and how to allocate the value.
-                    See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a> for more information.
+                    See <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a> for more information.
                 
 
 This parameter must have one of the following values:
@@ -82,10 +82,10 @@ This parameter must have one of the following values:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_VALUE</a>.
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_VALUE</a>.
                     </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_POINTER</a>.
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_REQUIRED_POINTER</a>.
                 </li>
 </ul>
 
@@ -95,11 +95,11 @@ The heap to store the deserialized values in.
 
 ### -param value
 
-The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
 
 ### -param valueSize [in]
 
-The interpretation of this parameter depends on the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="/windows/desktop/api/webservices/ne-webservices-ws_read_option">WS_READ_OPTION</a>.
 
 ### -param error [in, optional]
 
@@ -163,10 +163,9 @@ One or more arguments are invalid.
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a> for how to use this function to read values from elements and attributes.
+See <a href="/windows/desktop/api/webservices/ne-webservices-ws_type_mapping">WS_TYPE_MAPPING</a> for how to use this function to read values from elements and attributes.
             
 
 If the API fails, the state of input reader becomes undefined. The only APIs that may be used on the reader
-        if this occurs are <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetinput">WsSetInput</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetinputtobuffer">WsSetInputToBuffer</a> to return the reader to a usable state,
-        or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreereader">WsFreeReader</a> to free the reader.
-
+        if this occurs are <a href="/windows/desktop/api/webservices/nf-webservices-wssetinput">WsSetInput</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wssetinputtobuffer">WsSetInputToBuffer</a> to return the reader to a usable state,
+        or <a href="/windows/desktop/api/webservices/nf-webservices-wsfreereader">WsFreeReader</a> to free the reader.

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The interpolation mode the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/diffuse-lighting">Spot-diffuse lighting effect</a> uses to scale the image to the corresponding kernel unit length. 
+The interpolation mode the <a href="/windows/desktop/Direct2D/diffuse-lighting">Spot-diffuse lighting effect</a> uses to scale the image to the corresponding kernel unit length. 
         There are six scale modes that range in quality and speed.
 
 ## -enum-fields
@@ -81,4 +81,3 @@ Uses a variable size high quality cubic kernel to perform a pre-downscale the im
           Then uses the cubic interpolation mode for the final output.
 
 ### -field D2D1_SPOTDIFFUSE_SCALE_MODE_FORCE_DWORD
-

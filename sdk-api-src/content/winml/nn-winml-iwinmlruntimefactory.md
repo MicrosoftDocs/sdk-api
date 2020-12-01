@@ -52,13 +52,13 @@ api_name:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="https://docs.microsoft.com/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
+<b>These APIs have been deprecated and should no longer be used:  </b>Please use <a href="/uwp/api/windows.ai.machinelearning">Windows.AI.MachineLearning</a> instead.
 
 Represents the factory that creates the WinML runtime for model loading and evaluation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLRuntimeFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinMLRuntimeFactory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWinMLRuntimeFactory</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWinMLRuntimeFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWinMLRuntimeFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/winml/nf-winml-iwinmlruntimefactory-createruntime">CreateRuntime</a>
+<a href="/windows/desktop/api/winml/nf-winml-iwinmlruntimefactory-createruntime">CreateRuntime</a>
 </td>
 <td align="left" width="63%">
 Creates a WinML runtime.
@@ -81,4 +81,3 @@ Creates a WinML runtime.
 </td>
 </tr>
 </table>
-

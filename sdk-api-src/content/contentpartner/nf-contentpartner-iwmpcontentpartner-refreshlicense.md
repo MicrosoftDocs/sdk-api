@@ -58,7 +58,7 @@ The <b>RefreshLicense</b> method initiates the update of a license for the speci
 
 ### -param dwCookie [in]
 
-A cookie that identifies the update request. When the online store has finished updating the license, it passes this cookie to <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-refreshlicensecomplete">IWMPContentPartnerCallback::RefreshLicenseComplete</a>.
+A cookie that identifies the update request. When the online store has finished updating the license, it passes this cookie to <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-refreshlicensecomplete">IWMPContentPartnerCallback::RefreshLicenseComplete</a>.
 
 ### -param fLocal [in]
 
@@ -70,7 +70,7 @@ A cookie that identifies the update request. When the online store has finished 
 
 ### -param type [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/ne-contentpartner-wmpstreamingtype">WMPStreamingType</a> enumeration that specifies the type (music, video, or radio) of the media file.
+A member of the <a href="/windows/desktop/api/contentpartner/ne-contentpartner-wmpstreamingtype">WMPStreamingType</a> enumeration that specifies the type (music, video, or radio) of the media file.
 
 ### -param contentID [in]
 
@@ -120,9 +120,8 @@ This method initiates the license update and then returns immediately. When the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-refreshlicensecomplete">IWMPContentPartnerCallback::RefreshLicenseComplete</a>
-
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-refreshlicensecomplete">IWMPContentPartnerCallback::RefreshLicenseComplete</a>

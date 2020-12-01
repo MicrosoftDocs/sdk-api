@@ -46,6 +46,7 @@ api_location:
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
  - BeginPaint
+req.apiset: ext-ms-win-ntuser-draw-l1-1-0 (introduced in Windows 8)
 ---
 
 # BeginPaint function
@@ -53,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>BeginPaint</b> function prepares the specified window for painting and fills a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure with information about the painting.
+The <b>BeginPaint</b> function prepares the specified window for painting and fills a <a href="/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure with information about the painting.
 
 ## -parameters
 
@@ -63,7 +64,7 @@ Handle to the window to be repainted.
 
 ### -param lpPaint [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure that will receive painting information.
+Pointer to the <a href="/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure that will receive painting information.
 
 ## -returns
 
@@ -73,9 +74,9 @@ If the function fails, the return value is <b>NULL</b>, indicating that no displ
 
 ## -remarks
 
-The <b>BeginPaint</b> function automatically sets the clipping region of the device context to exclude any area outside the update region. The update region is set by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a> function and by the system after sizing, moving, creating, scrolling, or any other operation that affects the client area. If the update region is marked for erasing, <b>BeginPaint</b> sends a <b>WM_ERASEBKGND</b> message to the window.
+The <b>BeginPaint</b> function automatically sets the clipping region of the device context to exclude any area outside the update region. The update region is set by the <a href="/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a> or <a href="/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a> function and by the system after sizing, moving, creating, scrolling, or any other operation that affects the client area. If the update region is marked for erasing, <b>BeginPaint</b> sends a <b>WM_ERASEBKGND</b> message to the window.
 
-An application should not call <b>BeginPaint</b> except in response to a <b>WM_PAINT</b> message. Each call to <b>BeginPaint</b> must have a corresponding call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-endpaint">EndPaint</a> function.
+An application should not call <b>BeginPaint</b> except in response to a <b>WM_PAINT</b> message. Each call to <b>BeginPaint</b> must have a corresponding call to the <a href="/windows/desktop/api/winuser/nf-winuser-endpaint">EndPaint</a> function.
 
 If the caret is in the area to be painted, <b>BeginPaint</b> automatically hides the caret to prevent it from being erased.
 
@@ -87,39 +88,38 @@ This API does not participate in DPI virtualization. The output returned is alwa
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-in-the-client-area">Drawing in the Client Area</a>.
+For an example, see <a href="/windows/desktop/gdi/drawing-in-the-client-area">Drawing in the Client Area</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-endpaint">EndPaint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-endpaint">EndPaint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-validaterect">ValidateRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-validaterect">ValidateRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-validatergn">ValidateRgn</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-validatergn">ValidateRgn</a>

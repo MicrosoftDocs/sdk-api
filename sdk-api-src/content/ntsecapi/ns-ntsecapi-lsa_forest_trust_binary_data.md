@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>LSA_FOREST_TRUST_BINARY_DATA</b> structure contains binary data used in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust operations.
+The <b>LSA_FOREST_TRUST_BINARY_DATA</b> structure contains binary data used in <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> forest trust operations.
 
 ## -struct-fields
 
@@ -75,4 +75,3 @@ Size of the structure in bytes.
 ### -field Buffer
 
 Pointer to an array of type <b>UCHAR</b> that contains the binary data. The buffer can contain at most 128 KB of data.
-

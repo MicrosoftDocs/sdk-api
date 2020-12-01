@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Enables access to <a href="https://docs.microsoft.com/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> methods in a Windows Store app that manages multiple windows.
+Enables access to <a href="/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> methods in a Windows Store app that manages multiple windows.
 
 ## -inheritance
 
@@ -69,16 +69,16 @@ The <b>IPrintManagerInterop</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-getforwindow">GetForWindow</a>
+<a href="/windows/desktop/api/printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-getforwindow">GetForWindow</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> instance for the specified window.
+Gets the <a href="/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a> instance for the specified window.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-showprintuiforwindowasync">ShowPrintUIForWindowAsync</a>
+<a href="/windows/desktop/api/printmanagerinterop/nf-printmanagerinterop-iprintmanagerinterop-showprintuiforwindowasync">ShowPrintUIForWindowAsync</a>
 </td>
 <td align="left" width="63%">
 Displays the UI for printing content for the specified window.
@@ -89,5 +89,4 @@ Displays the UI for printing content for the specified window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a>
-
+<a href="/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a>

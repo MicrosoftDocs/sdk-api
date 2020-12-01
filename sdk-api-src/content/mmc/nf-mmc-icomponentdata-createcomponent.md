@@ -51,15 +51,15 @@ api_name:
 ## -description
 
 The <b>IComponentData::CreateComponent</b> method creates an instance of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> that will be associated with this 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface.
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a> that will be associated with this 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface.
 
 ## -parameters
 
 ### -param ppComponent [out]
 
 A pointer to the location that stores the newly created pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>.
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>.
 
 ## -returns
 
@@ -67,13 +67,12 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>

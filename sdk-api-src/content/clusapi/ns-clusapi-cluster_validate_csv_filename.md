@@ -64,5 +64,4 @@ A  Unicode string that contains the volume name of the CSV. The string ends with
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>

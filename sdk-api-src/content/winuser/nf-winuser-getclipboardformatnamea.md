@@ -56,6 +56,7 @@ api_name:
  - GetClipboardFormatName
  - GetClipboardFormatNameA
  - GetClipboardFormatNameW
+req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetClipboardFormatNameA function
@@ -93,7 +94,7 @@ Type: <b>int</b>
 If the function succeeds, the return value is the length, in 
 						characters, of the string copied to the buffer.
 
-If the function fails, the return value is zero, indicating that the requested format does not exist or is predefined. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero, indicating that the requested format does not exist or is predefined. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -103,7 +104,7 @@ Using this function incorrectly might compromise the security of your program. F
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/using-the-clipboard">Example of a Clipboard Viewer</a>. 
+For an example, see <a href="/windows/desktop/dataxchg/using-the-clipboard">Example of a Clipboard Viewer</a>. 
 
 <div class="code"></div>
 
@@ -115,7 +116,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>
+<a href="/windows/desktop/dataxchg/clipboard">Clipboard</a>
 
 
 
@@ -123,7 +124,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumclipboardformats">EnumClipboardFormats</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumclipboardformats">EnumClipboardFormats</a>
 
 
 
@@ -131,5 +132,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclipboardformata">RegisterClipboardFormat</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclipboardformata">RegisterClipboardFormat</a>

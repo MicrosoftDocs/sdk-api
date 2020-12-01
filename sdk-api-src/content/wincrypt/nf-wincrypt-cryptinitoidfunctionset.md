@@ -68,5 +68,4 @@ Returns the handle of the OID function set identified by <i>pszFuncName</i>, or 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>

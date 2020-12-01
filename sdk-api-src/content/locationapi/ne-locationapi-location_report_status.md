@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
 ]
 
 Defines possible status for new reports of a particular report type.
@@ -67,7 +67,7 @@ There was an error when creating the report, or location providers for the reque
 
 ### -field REPORT_ACCESS_DENIED
 
- No permissions have been granted to access this report type. Call <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-requestpermissions">ILocation::RequestPermissions</a>.
+ No permissions have been granted to access this report type. Call <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-requestpermissions">ILocation::RequestPermissions</a>.
 
 ### -field REPORT_INITIALIZING
 
@@ -79,12 +79,12 @@ The report is running. New location data for the requested report type is availa
 
 ## -remarks
 
-These values represent status for new reports. The most recent reports remain available through <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreport">ILocation::GetReport</a>, regardless of the reported status. If the status is <b>REPORT_RUNNING</b>, the data in a report is new. Otherwise, <b>ILocation::GetReport</b> provides cached data if cached data is available.
+These values represent status for new reports. The most recent reports remain available through <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreport">ILocation::GetReport</a>, regardless of the reported status. If the status is <b>REPORT_RUNNING</b>, the data in a report is new. Otherwise, <b>ILocation::GetReport</b> provides cached data if cached data is available.
 
 
 #### Examples
 
-The following code example demonstrates how to retrieve the <b>LOCATION_REPORT_STATUS</b> values from <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportstatus">ILocation::GetReportStatus</a>.
+The following code example demonstrates how to retrieve the <b>LOCATION_REPORT_STATUS</b> values from <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportstatus">ILocation::GetReportStatus</a>.
 
 
 ```cpp
@@ -123,7 +123,7 @@ The following code example demonstrates how to retrieve the <b>LOCATION_REPORT_S
 ```
 
 
-The following code is a sample implementation of the callback function <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocationevents-onstatuschanged">ILocationEvents::OnStatusChanged</a>.  This implementation prints out messages when there is a  change in the status of latitude/longitude reports.
+The following code is a sample implementation of the callback function <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocationevents-onstatuschanged">ILocationEvents::OnStatusChanged</a>.  This implementation prints out messages when there is a  change in the status of latitude/longitude reports.
 
 
 ```cpp
@@ -160,4 +160,3 @@ STDMETHODIMP CLocationEvents::OnStatusChanged(REFIID reportType, LOCATION_REPORT
 }
 
 ```
-

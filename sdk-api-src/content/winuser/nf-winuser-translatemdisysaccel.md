@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Processes accelerator keystrokes for window menu commands of the multiple-document interface (MDI) child windows associated with the specified MDI client window. The function translates <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a> and <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> messages to <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a> messages and sends them to the appropriate MDI child windows.
+Processes accelerator keystrokes for window menu commands of the multiple-document interface (MDI) child windows associated with the specified MDI client window. The function translates <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a> and <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> messages to <a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a> messages and sends them to the appropriate MDI child windows.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A handle to the MDI client window.
 
 Type: <b>LPMSG</b>
 
-A pointer to a message retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> function. The message must be an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure and contain message information from the application's message queue.
+A pointer to a message retrieved by using the <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> function. The message must be an <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure and contain message information from the application's message queue.
 
 ## -returns
 
@@ -80,19 +80,19 @@ If the message is not translated into a system command, the return value is zero
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/multiple-document-interface">Multiple Document Interface</a>
+<a href="/windows/desktop/winmsg/multiple-document-interface">Multiple Document Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
 
 
 
@@ -100,17 +100,16 @@ If the message is not translated into a system command, the return value is zero
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translateacceleratora">TranslateAccelerator</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-translateacceleratora">TranslateAccelerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
+<a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
+<a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>
-
+<a href="/windows/desktop/menurc/wm-syscommand">WM_SYSCOMMAND</a>

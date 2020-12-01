@@ -201,13 +201,13 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
 This method is useful if metadata needs to be applied to storage at the creation time. In contrast, the <b>IMDSPStorage2::CreateStorage2</b> and <b>IMDSPStorage::CreateStorage</b> methods do not provide a way for supplying metadata at creation time.
 
-If service provider for a device that can synchronize with Windows Media Player supports this interface, Windows Media Device Manager calls this method during <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-insert">Insert</a>/2/3 operations.
+If service provider for a device that can synchronize with Windows Media Player supports this interface, Windows Media Device Manager calls this method during <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-insert">Insert</a>/2/3 operations.
 
 If both the WMDM_FILE_ATTR_FOLDER and WMDM_FILE_ATTR_FILE attributes are set, the folder attribute overrides the file attribute, and the new storage is created as a folder.
 
@@ -221,17 +221,16 @@ WMDM_STORAGECONTROL_INSERTINTO is valid only if the current storage is a folder.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-synchronization-with-windows-media-player">Enabling Synchronization with Windows Media Player</a>
+<a href="/windows/desktop/WMDM/enabling-synchronization-with-windows-media-player">Enabling Synchronization with Windows Media Player</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-createstorage2">IMDSPStorage2::CreateStorage2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage2-createstorage2">IMDSPStorage2::CreateStorage2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage4">IMDSPStorage4 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage4">IMDSPStorage4 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-createstorage">IMDSPStorage::CreateStorage</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-createstorage">IMDSPStorage::CreateStorage</a>

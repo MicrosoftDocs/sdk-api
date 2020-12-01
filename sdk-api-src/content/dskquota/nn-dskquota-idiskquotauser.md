@@ -53,15 +53,15 @@ api_name:
 Represents a single user quota entry in the volume quota information file. Through this 
     interface, you can query and modify user-specific quota information on an NTFS file system 
     volume. This interface is instantiated by using 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusersid">IDiskQuotaControl::FindUserSid</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusername">IDiskQuotaControl::FindUserName</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-addusersid">IDiskQuotaControl::AddUserSid</a>, or 
-    <a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-addusername">IDiskQuotaControl::AddUserName</a>.
+    <a href="/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a>, 
+    <a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusersid">IDiskQuotaControl::FindUserSid</a>, 
+    <a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-findusername">IDiskQuotaControl::FindUserName</a>, 
+    <a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-addusersid">IDiskQuotaControl::AddUserSid</a>, or 
+    <a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotacontrol-addusername">IDiskQuotaControl::AddUserName</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiskQuotaUser</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiskQuotaUser</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDiskQuotaUser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDiskQuotaUser</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IDiskQuotaUser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getaccountstatus">GetAccountStatus</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getaccountstatus">GetAccountStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status of the user object's account.
@@ -85,7 +85,7 @@ Retrieves the status of the user object's account.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getid">GetID</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getid">GetID</a>
 </td>
 <td align="left" width="63%">
 Retrieves a unique identifier (ID) number for the DiskQuotaUser object.
@@ -94,7 +94,7 @@ Retrieves a unique identifier (ID) number for the DiskQuotaUser object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getname">GetName</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name strings associated with a disk quota user.
@@ -103,7 +103,7 @@ Retrieves the name strings associated with a disk quota user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotainformation">GetQuotaInformation</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotainformation">GetQuotaInformation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the values for the user's warning threshold, hard quota limit, and quota used.
@@ -112,7 +112,7 @@ Retrieves the values for the user's warning threshold, hard quota limit, and quo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotalimit">GetQuotaLimit</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotalimit">GetQuotaLimit</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user's quota limit value on the volume.
@@ -121,7 +121,7 @@ Retrieves the user's quota limit value on the volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotalimittext">GetQuotaLimitText</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotalimittext">GetQuotaLimitText</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user's quota limit for the volume. This limit is expressed as a text string.
@@ -130,7 +130,7 @@ Retrieves the user's quota limit for the volume. This limit is expressed as a te
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotathreshold">GetQuotaThreshold</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotathreshold">GetQuotaThreshold</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user's warning threshold value on the volume.
@@ -139,7 +139,7 @@ Retrieves the user's warning threshold value on the volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotathresholdtext">GetQuotaThresholdText</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotathresholdtext">GetQuotaThresholdText</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user's warning threshold for the volume. This threshold is expressed as a text string.
@@ -148,7 +148,7 @@ Retrieves the user's warning threshold for the volume. This threshold is express
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotaused">GetQuotaUsed</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotaused">GetQuotaUsed</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user's quota used value on the volume.
@@ -157,7 +157,7 @@ Retrieves the user's quota used value on the volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotausedtext">GetQuotaUsedText</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getquotausedtext">GetQuotaUsedText</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user's quota used value for the volume. This value is expressed as a text string.
@@ -166,7 +166,7 @@ Retrieves the user's quota used value for the volume. This value is expressed as
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getsid">GetSid</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getsid">GetSid</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user's security identifier (SID).
@@ -175,7 +175,7 @@ Retrieves the user's security identifier (SID).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getsidlength">GetSidLength</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-getsidlength">GetSidLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the length of the user's security identifier (SID), in bytes.
@@ -184,7 +184,7 @@ Retrieves the length of the user's security identifier (SID), in bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-invalidate">Invalidate</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-invalidate">Invalidate</a>
 </td>
 <td align="left" width="63%">
 Invalidates the quota information stored in the quota user object.
@@ -193,7 +193,7 @@ Invalidates the quota information stored in the quota user object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotalimit">SetQuotaLimit</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotalimit">SetQuotaLimit</a>
 </td>
 <td align="left" width="63%">
 Sets the user's quota limit value on the volume.
@@ -202,7 +202,7 @@ Sets the user's quota limit value on the volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotathreshold">SetQuotaThreshold</a>
+<a href="/windows/desktop/api/dskquota/nf-dskquota-idiskquotauser-setquotathreshold">SetQuotaThreshold</a>
 </td>
 <td align="left" width="63%">
 Sets the user's warning threshold value on the volume.
@@ -213,9 +213,8 @@ Sets the user's warning threshold value on the volume.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
-
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>

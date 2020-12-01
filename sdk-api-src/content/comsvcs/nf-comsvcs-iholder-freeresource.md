@@ -104,17 +104,16 @@ The method failed. The resource has not been freed.
 
 ## -remarks
 
-A resource originally returned by <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-iholder-allocresource">IHolder::AllocResource</a> is returned to the pool. This notifies the Resource Dispenser through <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-resetresource">IDispenserDriver::ResetResource</a>, which is the Resource Dispenser's opportunity to prepare the resource before it is returned to the pool.
+A resource originally returned by <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iholder-allocresource">IHolder::AllocResource</a> is returned to the pool. This notifies the Resource Dispenser through <a href="/windows/desktop/api/comsvcs/nf-comsvcs-idispenserdriver-resetresource">IDispenserDriver::ResetResource</a>, which is the Resource Dispenser's opportunity to prepare the resource before it is returned to the pool.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispenserdriver">IDispenserDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-idispensermanager">IDispenserManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>

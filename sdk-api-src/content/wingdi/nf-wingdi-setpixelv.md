@@ -70,7 +70,7 @@ The y-coordinate, in logical units, of the point to be set.
 
 ### -param color [in]
 
-The color to be used to paint the point. To create a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
+The color to be used to paint the point. To create a <a href="/windows/desktop/gdi/colorref">COLORREF</a> color value, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a> macro.
 
 ## -returns
 
@@ -80,31 +80,30 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-Not all devices support the <b>SetPixelV</b> function. For more information, see the description of the RC_BITBLT capability in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.
+Not all devices support the <b>SetPixelV</b> function. For more information, see the description of the RC_BITBLT capability in the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function.
 
-<b>SetPixelV</b> is faster than <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixel">SetPixel</a> because it does not need to return the color value of the point actually painted.
+<b>SetPixelV</b> is faster than <a href="/windows/desktop/api/wingdi/nf-wingdi-setpixel">SetPixel</a> because it does not need to return the color value of the point actually painted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a>
+<a href="/windows/desktop/gdi/colorref">COLORREF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setpixel">SetPixel</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setpixel">SetPixel</a>

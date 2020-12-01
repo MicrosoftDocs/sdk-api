@@ -57,10 +57,10 @@ api_name:
 
 ## -description
 
-The <b>AddAccessAllowedAce</b> function adds an access-allowed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). The access is granted to a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
+The <b>AddAccessAllowedAce</b> function adds an access-allowed <a href="/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) to an <a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL). The access is granted to a specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 To control whether the new ACE can be inherited by child objects, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedaceex">AddAccessAllowedAceEx</a> function.
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedaceex">AddAccessAllowedAceEx</a> function.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ To control whether the new ACE can be inherited by child objects, use the
 
 A pointer to an 
 ACL. This function adds an access-allowed ACE to the end of this ACL. The ACE is in the form of an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a> structure.
 
 ### -param dwAceRevision [in]
 
@@ -91,7 +91,7 @@ SID  representing a user, group, or logon account being granted access.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following are possible error values.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following are possible error values.
 
 <table>
 <tr>
@@ -159,55 +159,54 @@ The ACE was successfully added.
 
 The addition of an access-allowed ACE to an ACL is the most common form of ACL modification.
 
-The <b>AddAccessAllowedAce</b> and <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedace">AddAccessDeniedAce</a> functions add a new ACE to the end of the list of ACEs for the ACL. These functions do not automatically place the new ACE in the proper canonical order. It is the caller's responsibility to ensure that the ACL is in canonical order by adding ACEs in the proper sequence.
+The <b>AddAccessAllowedAce</b> and <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedace">AddAccessDeniedAce</a> functions add a new ACE to the end of the list of ACEs for the ACL. These functions do not automatically place the new ACE in the proper canonical order. It is the caller's responsibility to ensure that the ACL is in canonical order by adding ACEs in the proper sequence.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure placed in the ACE by the <b>AddAccessAllowedAce</b> function specifies a type and size, but provides no inheritance and no ACE flags.
+<a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure placed in the ACE by the <b>AddAccessAllowedAce</b> function specifies a type and size, but provides no inheritance and no ACE flags.
 
 
 #### Examples
 
-For an example that uses this function, see <a href="https://docs.microsoft.com/previous-versions/aa379608(v=vs.85)">Starting an Interactive Client Process</a>.
+For an example that uses this function, see <a href="/previous-versions/aa379608(v=vs.85)">Starting an Interactive Client Process</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedaceex">AddAccessAllowedAceEx</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessallowedaceex">AddAccessAllowedAceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedace">AddAccessDeniedAce</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addaccessdeniedace">AddAccessDeniedAce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addace">AddAce</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addace">AddAce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessace">AddAuditAccessAce</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-addauditaccessace">AddAuditAccessAce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-deleteace">DeleteAce</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-deleteace">DeleteAce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getace">GetAce</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getace">GetAce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
+<a href="/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>

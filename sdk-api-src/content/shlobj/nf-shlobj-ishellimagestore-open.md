@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellimagestore">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.]
+<p class="CCE_Message">[<a href="/windows/desktop/api/shlobj/nn-shlobj-ishellimagestore">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.]
 
 Opens the store and returns a lock.
 
@@ -60,7 +60,7 @@ Opens the store and returns a lock.
 
 Type: <b>DWORD</b>
 
-The storage instantiation mode specified by one of the <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> values.
+The storage instantiation mode specified by one of the <a href="/windows/desktop/Stg/stgm-constants">STGM</a> values.
 
 ### -param pdwLock [out]
 
@@ -72,7 +72,7 @@ A pointer to a variable of type <b>DWORD</b> that receives the lock.
 
 Type: <b>HRESULT</b>
 
-If the process is successful, the method returns the result of <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage">StgOpenStorage</a>. Otherwise, it returns one of the following values:
+If the process is successful, the method returns the result of <a href="/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage">StgOpenStorage</a>. Otherwise, it returns one of the following values:
 
 <table>
 <tr>
@@ -113,4 +113,3 @@ You do not have access to open the storage with the permissions specified by <i>
 </td>
 </tr>
 </table>
-

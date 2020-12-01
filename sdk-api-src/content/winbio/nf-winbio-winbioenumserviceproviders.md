@@ -61,7 +61,7 @@ A bitmask of WINBIO_BIOMETRIC_TYPE flags that specifies the biometric unit types
 
 ### -param BspSchemaArray [out]
 
-Address of a variable that receives a pointer  to an array of <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-bsp-schema">WINBIO_BSP_SCHEMA</a> structures that contain information about each of the available service providers.  If the function does not succeed, the pointer is set to <b>NULL</b>. If the function succeeds, you must pass the pointer to <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release memory allocated internally for the array.
+Address of a variable that receives a pointer  to an array of <a href="/windows/desktop/SecBioMet/winbio-bsp-schema">WINBIO_BSP_SCHEMA</a> structures that contain information about each of the available service providers.  If the function does not succeed, the pointer is set to <b>NULL</b>. If the function succeeds, you must pass the pointer to <a href="/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release memory allocated internally for the array.
 
 ### -param BspCount [out]
 
@@ -69,7 +69,7 @@ Pointer to a value that specifies the number of structures pointed to by the <i>
 
 ## -returns
 
-If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -115,7 +115,7 @@ The <i>BspSchemaArray</i> and <i>BspCount</i> parameters cannot be <b>NULL</b>.
 
 Only <b>WINBIO_TYPE_FINGERPRINT</b> is currently supported in the <i>Factor</i> parameter.
 
-After you are finished using the structures returned to the <i>BspSchemaArray</i> parameter, you must call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release the memory allocated internally for the array.
+After you are finished using the structures returned to the <i>BspSchemaArray</i> parameter, you must call <a href="/windows/desktop/api/winbio/nf-winbio-winbiofree">WinBioFree</a> to release the memory allocated internally for the array.
 
 If all of the factor bits in the <i>Factor</i> bitmask refer to unsupported biometric types, the function returns S_OK but the value pointed to by the <i>BspSchemaArray</i> parameter will be <b>NULL</b> and the <i>BspCount</i> parameter will contain zero. Although it is not an error to inquire about unsupported biometric factors, the result of the query will be an empty set.
 
@@ -214,13 +214,12 @@ VOID DisplayGuid( __in PWINBIO_UUID Guid )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumbiometricunits">WinBioEnumBiometricUnits</a>
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioenumbiometricunits">WinBioEnumBiometricUnits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumdatabases">WinBioEnumDatabases</a>
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioenumdatabases">WinBioEnumDatabases</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenumenrollments">WinBioEnumEnrollments</a>
-
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioenumenrollments">WinBioEnumEnrollments</a>

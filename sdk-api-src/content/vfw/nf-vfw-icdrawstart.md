@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICDrawStart</b> macro notifies a rendering driver to start its internal clock for the timing of drawing frames. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-start">ICM_DRAW_START</a> message.
+The <b>ICDrawStart</b> macro notifies a rendering driver to start its internal clock for the timing of drawing frames. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-draw-start">ICM_DRAW_START</a> message.
 
 ## -parameters
 
@@ -62,15 +62,14 @@ Handle to a driver.
 
 This message is used by hardware that performs its own asynchronous decompression, timing, and drawing.
 
-When the driver receives this message, it should start rendering data at the rate specified with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> message.
+When the driver receives this message, it should start rendering data at the rate specified with the <a href="/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> message.
 
-The <b>ICDrawStart</b> and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdrawstop">ICDrawStop</a> macros do not nest. If your driver receives <b>ICDrawStart</b> before rendering is stopped with <b>ICDrawStop</b>, it should restart rendering with new parameters.
+The <b>ICDrawStart</b> and <a href="/windows/desktop/api/vfw/nf-vfw-icdrawstop">ICDrawStop</a> macros do not nest. If your driver receives <b>ICDrawStart</b> before rendering is stopped with <b>ICDrawStop</b>, it should restart rendering with new parameters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

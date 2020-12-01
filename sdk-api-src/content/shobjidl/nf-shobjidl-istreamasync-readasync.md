@@ -76,7 +76,7 @@ Pointer to a <b>DWORD</b> value that, when this method returns successfully, sta
 
 Type: <b>LPOVERLAPPED</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ns-shobjidl-overlapped">OVERLAPPED</a> structure that contains information used in the asynchronous read operation.
+A pointer to an <a href="/windows/desktop/api/shobjidl/ns-shobjidl-overlapped">OVERLAPPED</a> structure that contains information used in the asynchronous read operation.
 
 ## -returns
 
@@ -86,7 +86,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-<b>IStreamAsync::ReadAsync</b> should reset the event specified by the <b>hEvent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/ns-shobjidl-overlapped">OVERLAPPED</a> structure to a nonsignaled state when it begins the input/output (I/O) operation.
+<b>IStreamAsync::ReadAsync</b> should reset the event specified by the <b>hEvent</b> member of the <a href="/windows/desktop/api/shobjidl/ns-shobjidl-overlapped">OVERLAPPED</a> structure to a nonsignaled state when it begins the input/output (I/O) operation.
 
-This method has been implemented in the Shell as a thin wrapper around the public <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a> API.
-
+This method has been implemented in the Shell as a thin wrapper around the public <a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a> API.

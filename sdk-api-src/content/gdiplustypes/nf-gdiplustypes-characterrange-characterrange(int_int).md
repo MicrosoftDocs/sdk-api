@@ -70,17 +70,16 @@ Integer that specifies the number of positions in this range.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-characterrange">CharacterRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getmeasurablecharacterrangecount">GetMeasurableCharacterRangeCount</a>
+<a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-getmeasurablecharacterrangecount">GetMeasurableCharacterRangeCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a>
+<a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-measurecharacterranges">MeasureCharacterRanges</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">SetMeasurableCharacterRanges</a>
-
+<a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">SetMeasurableCharacterRanges</a>

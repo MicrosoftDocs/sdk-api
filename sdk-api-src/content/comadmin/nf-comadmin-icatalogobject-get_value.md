@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -remarks
 
-For information regarding properties exposed by catalog objects in each collection, see <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--administration-collections">COM+ Administration Collections</a>.
+For information regarding properties exposed by catalog objects in each collection, see <a href="/windows/desktop/cossdk/com--administration-collections">COM+ Administration Collections</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>

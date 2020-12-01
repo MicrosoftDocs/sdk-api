@@ -78,7 +78,7 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b> and the
 
 If the function fails, the return value is an error code and the value of the contents of the buffer referred 
       to by the  <i>DiskPath</i> parameter is undefined. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+      <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -94,9 +94,8 @@ CD and DVD image files (ISO) are not supported before Windows 8 and
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

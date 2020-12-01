@@ -50,6 +50,7 @@ api_location:
  - Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
  - InSendMessageEx
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # InSendMessageEx function
@@ -86,7 +87,7 @@ If the message was not sent, the return value is <b>ISMEX_NOSEND</b> (0x00000000
 </dl>
 </td>
 <td width="60%">
-The message was sent using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a> function. The thread that sent the message is not blocked.
+The message was sent using the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a> function. The thread that sent the message is not blocked.
 
 </td>
 </tr>
@@ -98,7 +99,7 @@ The message was sent using the <a href="https://docs.microsoft.com/windows/deskt
 </dl>
 </td>
 <td width="60%">
-The message was sent using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a> function. The thread that sent the message is not blocked.
+The message was sent using the <a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a> function. The thread that sent the message is not blocked.
 
 </td>
 </tr>
@@ -122,7 +123,7 @@ The window procedure has processed the message. The thread that sent the message
 </dl>
 </td>
 <td width="60%">
-The message was sent using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagetimeouta">SendMessageTimeout</a> function. If <b>ISMEX_REPLIED</b> is not set, the thread that sent the message is blocked.
+The message was sent using the <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a> or <a href="/windows/desktop/api/winuser/nf-winuser-sendmessagetimeouta">SendMessageTimeout</a> function. If <b>ISMEX_REPLIED</b> is not set, the thread that sent the message is blocked.
 
 </td>
 </tr>
@@ -140,7 +141,7 @@ To determine if the sender is blocked, use the following test:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
+<a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
@@ -148,17 +149,16 @@ To determine if the sender is blocked, use the following test:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagetimeouta">SendMessageTimeout</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-sendmessagetimeouta">SendMessageTimeout</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>

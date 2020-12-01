@@ -96,13 +96,12 @@ Generally, a sink filter or a filter that splits or merges data should return S_
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>
+<a href="/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection Interface</a>

@@ -57,7 +57,7 @@ api_name:
 The 
 <b>WSAOVERLAPPED</b> structure provides a communication medium between the initiation of an overlapped I/O operation and its subsequent completion. The 
 <b>WSAOVERLAPPED</b> structure is compatible with the Windows 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure.
 
 ## -struct-fields
 
@@ -100,45 +100,44 @@ Reserved for use by service providers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacleanup">WSACleanup</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsacleanup">WSACleanup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsacloseevent">WSACloseEvent</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsacloseevent">WSACloseEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsacreateevent">WSACreateEvent</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsacreateevent">WSACreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsagetoverlappedresult">WSAGetOverlappedResult</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsagetoverlappedresult">WSAGetOverlappedResult</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasocketa">WSASocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a>
-
+<a href="/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a>

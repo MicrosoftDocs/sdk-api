@@ -50,29 +50,28 @@ api_name:
 
 ## -description
 
-Closes the date and time picker (DTP) control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-closemonthcal">DTM_CLOSEMONTHCAL</a> message explicitly.
+Closes the date and time picker (DTP) control. Use this macro or send the <a href="/windows/desktop/Controls/dtm-closemonthcal">DTM_CLOSEMONTHCAL</a> message explicitly.
 
 ## -parameters
 
 ### -param hdp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the DTP control.
 
 ## -remarks
 
-Destroys the control and sends a <a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-closeup">DTN_CLOSEUP</a> notification that the control is closing—as opposed to the control is opening (dropping-down as in the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-dropdown">DTN_DROPDOWN</a> notification)—to the control's parent.
+Destroys the control and sends a <a href="/windows/desktop/Controls/dtn-closeup">DTN_CLOSEUP</a> notification that the control is closing—as opposed to the control is opening (dropping-down as in the <a href="/windows/desktop/Controls/dtn-dropdown">DTN_DROPDOWN</a> notification)—to the control's parent.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-closeup">DTN_CLOSEUP</a>
+<a href="/windows/desktop/Controls/dtn-closeup">DTN_CLOSEUP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/dtn-dropdown">DTN_DROPDOWN</a>
+<a href="/windows/desktop/Controls/dtn-dropdown">DTN_DROPDOWN</a>
 
 
 
 <b>Reference</b>
-

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposes a list of categorizers registered on an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>.
+Exposes a list of categorizers registered on an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICategoryProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICategoryProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICategoryProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICategoryProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICategoryProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategoryprovider-cancategorizeonscid">CanCategorizeOnSCID</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategoryprovider-cancategorizeonscid">CanCategorizeOnSCID</a>
 </td>
 <td align="left" width="63%">
 Determines whether a column can be used as a category.
@@ -78,7 +78,7 @@ Determines whether a column can be used as a category.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategoryprovider-createcategory">CreateCategory</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategoryprovider-createcategory">CreateCategory</a>
 </td>
 <td align="left" width="63%">
 Creates a category object.
@@ -87,7 +87,7 @@ Creates a category object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategoryprovider-enumcategories">EnumCategories</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategoryprovider-enumcategories">EnumCategories</a>
 </td>
 <td align="left" width="63%">
 Gets the enumerator for the list of GUIDs that represent categories.
@@ -96,7 +96,7 @@ Gets the enumerator for the list of GUIDs that represent categories.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategoryprovider-getcategoryforscid">GetCategoryForSCID</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategoryprovider-getcategoryforscid">GetCategoryForSCID</a>
 </td>
 <td align="left" width="63%">
 Gets a GUID that represents the categorizer to use for the specified Shell column.
@@ -105,7 +105,7 @@ Gets a GUID that represents the categorizer to use for the specified Shell colum
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategoryprovider-getcategoryname">GetCategoryName</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategoryprovider-getcategoryname">GetCategoryName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the specified category.
@@ -114,7 +114,7 @@ Gets the name of the specified category.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategoryprovider-getdefaultcategory">GetDefaultCategory</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icategoryprovider-getdefaultcategory">GetDefaultCategory</a>
 </td>
 <td align="left" width="63%">
 Enables the folder to override the default grouping.
@@ -122,4 +122,3 @@ Enables the folder to override the default grouping.
 </td>
 </tr>
 </table>
-

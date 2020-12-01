@@ -72,13 +72,12 @@ The <b>WLAN_HOSTED_NETWORK_RADIO_STATE</b> structure is an extension to native w
 
 ## -see-also
 
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-dot11_radio_state~r1">DOT11_RADIO_STATE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-dot11_radio_state-r1">DOT11_RADIO_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
+<a href="/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>

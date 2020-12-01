@@ -60,11 +60,11 @@ A 64-bit number that uniquely identifies the render mapping.
 
 ### -param pMappedRendererCallback [in]
 
-The address of the caller's <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderercallback">IWTSBitmapRendererCallback</a> interface.
+The address of the caller's <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderercallback">IWTSBitmapRendererCallback</a> interface.
 
 ### -param ppMappedRenderer [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderer">IWTSBitmapRenderer</a> interface pointer that receives the bitmap renderer. When you have finished using pointer, release it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release()</a> method.
+The address of an <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderer">IWTSBitmapRenderer</a> interface pointer that receives the bitmap renderer. When you have finished using pointer, release it by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release()</a> method.
 
 ## -returns
 
@@ -72,5 +72,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderservice">IWTSBitmapRenderService</a>
-
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderservice">IWTSBitmapRenderService</a>

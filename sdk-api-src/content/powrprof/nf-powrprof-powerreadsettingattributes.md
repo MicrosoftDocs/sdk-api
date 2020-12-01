@@ -195,5 +195,4 @@ Hide this power setting.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>LINEFORWARD</b> structure describes an entry of the forwarding instructions. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist">LINEFORWARDLIST</a> and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus">LINEADDRESSSTATUS</a> structures can contain an array of 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineforwardlist">LINEFORWARDLIST</a> and the 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineaddressstatus">LINEADDRESSSTATUS</a> structures can contain an array of 
 <b>LINEFORWARD</b> structures.
 
 ## -struct-fields
@@ -65,7 +65,7 @@ The
 ### -field dwForwardMode
 
 Types of forwarding. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineforwardmode--constants">LINEFORWARDMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/lineforwardmode--constants">LINEFORWARDMODE_ Constants</a>.
 
 ### -field dwCallerAddressSize
 
@@ -115,11 +115,11 @@ Offset from the beginning of this structure to the variably sized field containi
 
 ### -field dwCallerAddressType
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">Address type</a> of the caller. This member of the structure is available only if the negotiated version of TAPI is 3.1 or higher.
+<a href="/windows/desktop/Tapi/lineaddresstype--constants">Address type</a> of the caller. This member of the structure is available only if the negotiated version of TAPI is 3.1 or higher.
 
 ### -field dwDestAddressType
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddresstype--constants">Address type</a> for the called destination. This member of the structure is available only if the negotiated version of TAPI is 3.1 or higher.
+<a href="/windows/desktop/Tapi/lineaddresstype--constants">Address type</a> for the called destination. This member of the structure is available only if the negotiated version of TAPI is 3.1 or higher.
 
 ## -remarks
 
@@ -130,17 +130,16 @@ Each entry in the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineaddressstatus">LINEADDRESSSTATUS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineaddressstatus">LINEADDRESSSTATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineforwardlist">LINEFORWARDLIST</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineforwardlist">LINEFORWARDLIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineforward">TSPI_lineForward</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineforward">TSPI_lineForward</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineforward">lineForward</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineforward">lineForward</a>

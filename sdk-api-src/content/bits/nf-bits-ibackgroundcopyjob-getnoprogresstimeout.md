@@ -93,9 +93,8 @@ Must pass the address of <i>pRetryPeriod</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getminimumretrydelay">IBackgroundCopyJob::GetMinimumRetryDelay</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getminimumretrydelay">IBackgroundCopyJob::GetMinimumRetryDelay</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnoprogresstimeout">IBackgroundCopyJob::SetNoProgressTimeout</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnoprogresstimeout">IBackgroundCopyJob::SetNoProgressTimeout</a>

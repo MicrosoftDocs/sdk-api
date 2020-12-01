@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-A type description that is used with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ENUM_TYPE</a> and is required. 
+A type description that is used with <a href="/windows/desktop/api/webservices/ne-webservices-ws_type">WS_ENUM_TYPE</a> and is required. 
                 It provides information used in serializing and deserializing
                 values of an enumeration.
 
@@ -139,4 +139,3 @@ enumDescription.values = valueArray;
 enumDescription.valueCount = 3;
 enumDescription.nameIndices = nameIndices;
 </code></pre>
-

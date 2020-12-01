@@ -57,7 +57,7 @@ Retrieves the remote name of the file.
 ### -param pVal [out]
 
 Null-terminated string that contains the remote name of the file to transfer. The name is fully qualified. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppName</i> when done.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppName</i> when done.
 
 ## -returns
 
@@ -66,33 +66,32 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 ## -remarks
 
 The remote file name is set when you call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">AddFile</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">AddFileSet</a> methods of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> interface.
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">AddFile</a> or 
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">AddFileSet</a> methods of the 
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> interface.
 
-To change the remote file name, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-setremotename">IBackgroundCopyFile2::SetRemoteName</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-replaceremoteprefix">IBackgroundCopyJob3::ReplaceRemotePrefix</a> method.
+To change the remote file name, call the <a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyfile2-setremotename">IBackgroundCopyFile2::SetRemoteName</a> method or the <a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-replaceremoteprefix">IBackgroundCopyJob3::ReplaceRemotePrefix</a> method.
 
 
 #### Examples
 
 See the example code for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyfile-getlocalname">IBackgroundCopyFile::GetLocalName</a> method.
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyfile-getlocalname">IBackgroundCopyFile::GetLocalName</a> method.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyfile-getlocalname">IBackgroundCopyFile::GetLocalName</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyfile-getlocalname">IBackgroundCopyFile::GetLocalName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">IBackgroundCopyJob::AddFile</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">IBackgroundCopyJob::AddFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a>

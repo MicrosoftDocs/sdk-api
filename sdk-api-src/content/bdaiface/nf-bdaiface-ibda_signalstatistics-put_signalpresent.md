@@ -64,13 +64,12 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_signalstatistics">IBDA_SignalStatistics Interface</a>
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_signalstatistics">IBDA_SignalStatistics Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-get_signalpresent">IBDA_SignalStatistics::get_SignalPresent</a>
-
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-get_signalpresent">IBDA_SignalStatistics::get_SignalPresent</a>

@@ -93,10 +93,9 @@ Method completed successfully.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  The error information returned in  <i>ppszErrorInfo</i> must be released with <a href="https://docs.microsoft.com/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a> when it is no longer required for use.</div>
+<div class="alert"><b>Note</b>  The error information returned in  <i>ppszErrorInfo</i> must be released with <a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdfreelinkedmemory">WSDFreeLinkedMemory</a> when it is no longer required for use.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>

@@ -55,7 +55,7 @@ api_name:
 Executes a command on a printer object.
             
             
-<div class="alert"><b>Note</b>  This function has been deprecated as of Windows Vista. It is recommended that, in its place, you invoke verbs on printers through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has been deprecated as of Windows Vista. It is recommended that, in its place, you invoke verbs on printers through <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a> or <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>.</div><div> </div>
 
 ## -parameters
 
@@ -155,11 +155,10 @@ When a printer name is specified by <i>lpBuf1</i>, the name can either be the na
 ```
 
 
-This function is implemented in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell versions 4.71</a> and later. In order to maintain backward compatibility with previous Shell versions, this function should not be used explicitly. Instead, the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions should be used to obtain the function address.
+This function is implemented in <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell versions 4.71</a> and later. In order to maintain backward compatibility with previous Shell versions, this function should not be used explicitly. Instead, the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions should be used to obtain the function address.
 
 
 
 
 > [!NOTE]
 > The shellapi.h header defines SHInvokePrinterCommand as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

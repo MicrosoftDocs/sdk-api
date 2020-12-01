@@ -107,7 +107,7 @@ A pointer to a <b>null</b>-terminated Unicode string that contains the value of 
 
 ### -param pDigestMethod [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that contains the digest method.
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structure that contains the digest method.
 
 ### -param cTransform
 
@@ -115,7 +115,7 @@ The number of elements in the array pointed to by the <i>rgTransform</i> paramet
 
 ### -param rgTransform [in]
 
-A pointer to an ordered array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structures that contain transform algorithms to be applied to
+A pointer to an ordered array of <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_algorithm">CRYPT_XML_ALGORITHM</a> structures that contain transform algorithms to be applied to
     the reference data before the digest calculation.
 
 ### -param phReference [out]
@@ -127,4 +127,3 @@ A pointer to a reference handle.
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-

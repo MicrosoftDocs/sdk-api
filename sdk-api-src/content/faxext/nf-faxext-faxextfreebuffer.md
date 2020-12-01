@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>FaxExtFreeBuffer</b> callback function deallocates memory previously allocated by a successful call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextgetdata">FaxExtGetData</a> function.
+The <b>FaxExtFreeBuffer</b> callback function deallocates memory previously allocated by a successful call to the <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextgetdata">FaxExtGetData</a> function.
 
 ## -parameters
 
@@ -58,19 +58,18 @@ The <b>FaxExtFreeBuffer</b> callback function deallocates memory previously allo
 
 Type: <b>LPVOID</b>
 
-Pointer to the data retrieved by a successful call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextgetdata">FaxExtGetData</a> function.
+Pointer to the data retrieved by a successful call to the <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextgetdata">FaxExtGetData</a> function.
 
 ## -remarks
 
-When the fax extension calls this fax service callback function, it must use the function pointer exposed by the fax service when the service calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a> function.
+When the fax extension calls this fax service callback function, it must use the function pointer exposed by the fax service when the service calls the <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a> function.
 
-The fax service passes a pointer to the <b>FaxExtFreeBuffer</b> callback function when the fax service calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a> function. The PFAX_EXT_FREE_BUFFER data type is a pointer to a <b>FaxExtFreeBuffer</b> function.
+The fax service passes a pointer to the <b>FaxExtFreeBuffer</b> callback function when the fax service calls the <a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a> function. The PFAX_EXT_FREE_BUFFER data type is a pointer to a <b>FaxExtFreeBuffer</b> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextgetdata">FaxExtGetData</a>
+<a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextgetdata">FaxExtGetData</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a>
-
+<a href="/previous-versions/windows/desktop/api/faxext/nf-faxext-faxextinitializeconfig">FaxExtInitializeConfig</a>

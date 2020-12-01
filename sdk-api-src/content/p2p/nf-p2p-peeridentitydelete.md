@@ -85,7 +85,7 @@ The parameter is not valid.
 </dl>
 </td>
 <td width="60%">
-The peer identity cannot be deleted because it has  peer groups associated with it.   All peer groups associated with the specified identity must be deleted by using   <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupdelete">PeerGroupDelete</a> before a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitydelete">PeerIdentityDelete</a> can succeed.
+The peer identity cannot be deleted because it has  peer groups associated with it.   All peer groups associated with the specified identity must be deleted by using   <a href="/windows/desktop/api/p2p/nf-p2p-peergroupdelete">PeerGroupDelete</a> before a call to <a href="/windows/desktop/api/p2p/nf-p2p-peeridentitydelete">PeerIdentityDelete</a> can succeed.
 
 
 </td>
@@ -102,4 +102,3 @@ A peer identity that matches the specified name cannot be found.
 </td>
 </tr>
 </table>
-

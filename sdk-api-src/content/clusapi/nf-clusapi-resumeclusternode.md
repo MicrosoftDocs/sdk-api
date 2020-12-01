@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Requests that a paused  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> resume its <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> activity. The <b>PCLUSAPI_RESUME_CLUSTER_NODE</b> type defines a pointer to this function.
+Requests that a paused  <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> resume its <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a> activity. The <b>PCLUSAPI_RESUME_CLUSTER_NODE</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -66,13 +66,12 @@ Handle to the paused node.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-pauseclusternode">PauseClusterNode</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-pauseclusternode">PauseClusterNode</a>

@@ -68,5 +68,4 @@ Indicates that records may be read in any order.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ilog-setaccesspolicyhint">ILog::SetAccessPolicyHint</a>
-
+<a href="/windows/desktop/api/txlogpub/nf-txlogpub-ilog-setaccesspolicyhint">ILog::SetAccessPolicyHint</a>

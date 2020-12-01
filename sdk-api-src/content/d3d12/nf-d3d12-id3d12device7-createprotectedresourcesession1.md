@@ -1,7 +1,7 @@
 ---
 UID: NF:d3d12.ID3D12Device7.CreateProtectedResourceSession1
 title: ID3D12Device7::CreateProtectedResourceSession1
-description: Revises the [**ID3D12Device4::CreateProtectedResourceSession**](/windows/win32/api/d3d12/nf-d3d12-id3d12device4-createprotectedresourcesession) method with provision **GUID** that indicates the type of protected resource session.
+description: Revises the [**ID3D12Device4::CreateProtectedResourceSession**](./nf-d3d12-id3d12device4-createprotectedresourcesession.md) method with provision **GUID** that indicates the type of protected resource session.
 helpviewer_keywords: ["ID3D12Device7 interface","CreateProtectedResourceSession1 method","ID3D12Device7.CreateProtectedResourceSession1","ID3D12Device7::CreateProtectedResourceSession1","CreateProtectedResourceSession1","CreateProtectedResourceSession1 method","CreateProtectedResourceSession1 method","ID3D12Device7 interface","direct3d12.id3d12device7_createprotectedresourcesssion1","d3d12/ID3D12Device7::CreateProtectedResourceSession1"]
 tech.root: direct3d12
 ms.date: 09/15/2020
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-**CreateProtectedResourceSession1** revises the [**ID3D12Device4::CreateProtectedResourceSession**](/windows/win32/api/d3d12/nf-d3d12-id3d12device4-createprotectedresourcesession) method with provision (in the structure passed via the *pDesc* parameter) for a globally unique identifier (**GUID**) that indicates the type of protected resource session.
+**CreateProtectedResourceSession1** revises the [**ID3D12Device4::CreateProtectedResourceSession**](./nf-d3d12-id3d12device4-createprotectedresourcesession.md) method with provision (in the structure passed via the *pDesc* parameter) for a globally unique identifier (**GUID**) that indicates the type of protected resource session.
 
 Calling **ID3D12Device4::CreateProtectedResourceSession** is equivalent to calling **ID3D12Device7::CreateProtectedResourceSession1** with the **D3D12_PROTECTED_RESOURCES_SESSION_HARDWARE_PROTECTED** GUID.
 
@@ -50,7 +50,7 @@ Calling **ID3D12Device4::CreateProtectedResourceSession** is equivalent to calli
 
 ### -param pDesc
 
-Type: \_In\_ **const [D3D12_PROTECTED_RESOURCE_SESSION_DESC1](/windows/win32/api/d3d12/ns-d3d12-d3d12_protected_resource_session_desc1)\***
+Type: \_In\_ **const [D3D12_PROTECTED_RESOURCE_SESSION_DESC1](./ns-d3d12-d3d12_protected_resource_session_desc1.md)\***
 
 A pointer to a constant **D3D12_PROTECTED_RESOURCE_SESSION_DESC1** structure, describing the session to create.
 
@@ -58,7 +58,7 @@ A pointer to a constant **D3D12_PROTECTED_RESOURCE_SESSION_DESC1** structure, de
 
 Type: \_In\_ **REFIID**
 
-The GUID of the interface to a protected session. Most commonly, [ID3D12ProtectedResourceSession1](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession1), although it may be any **GUID** for any interface. If the protected session object doesn't support the interface for this **GUID**, the getter will return **E_NOINTERFACE**.
+The GUID of the interface to a protected session. Most commonly, [ID3D12ProtectedResourceSession1](./nn-d3d12-id3d12protectedresourcesession1.md), although it may be any **GUID** for any interface. If the protected session object doesn't support the interface for this **GUID**, the getter will return **E_NOINTERFACE**.
 
 ### -param ppSession
 

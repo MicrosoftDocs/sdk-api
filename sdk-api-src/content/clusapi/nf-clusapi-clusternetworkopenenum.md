@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-Opens an enumerator for iterating through <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">objects</a> on a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a>. The <b>PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM</b> type defines a pointer to this function.
+Opens an enumerator for iterating through <a href="/previous-versions/windows/desktop/mscs/cluster-objects">objects</a> on a 
+    <a href="/previous-versions/windows/desktop/mscs/networks">network</a>. The <b>PCLUSAPI_CLUSTER_NETWORK_OPEN_ENUM</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ A handle to a network.
 ### -param dwType [in]
 
 A bitmask that describes the type of objects to be enumerated. One or more of the following values 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_network_enum">CLUSTER_NETWORK_ENUM</a> enumeration are valid.
+       <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_network_enum">CLUSTER_NETWORK_ENUM</a> enumeration are valid.
 
 
 
@@ -78,7 +78,7 @@ If the operation was successful,
 
 If the operation fails, the function returns <b>NULL</b>. For 
         more information about the error, call the function 
-        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -87,31 +87,30 @@ Applications call the <b>ClusterNetworkOpenEnum</b>
      <b>ClusterNetworkOpenEnum</b> can create enumerators 
      for iterating through all of the objects on a network or only the network interface objects. 
      <b>ClusterNetworkOpenEnum</b> returns a handle that 
-     can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkenum">ClusterNetworkEnum</a> to access each 
+     can be passed to <a href="/windows/desktop/api/clusapi/nf-clusapi-clusternetworkenum">ClusterNetworkEnum</a> to access each 
      of the objects to be enumerated and to 
-     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkcloseenum">ClusterNetworkCloseEnum</a> to release the 
+     <a href="/windows/desktop/api/clusapi/nf-clusapi-clusternetworkcloseenum">ClusterNetworkCloseEnum</a> to release the 
      enumerator.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
+See <a href="/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-management-functions">Cluster Network Management Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/network-management-functions">Cluster Network Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkcloseenum">ClusterNetworkCloseEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusternetworkcloseenum">ClusterNetworkCloseEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternetworkenum">ClusterNetworkEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusternetworkenum">ClusterNetworkEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>

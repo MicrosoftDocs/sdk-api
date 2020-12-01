@@ -87,9 +87,9 @@ The <i>bstrUsername</i> and <i>bstrPassword</i> arguments cannot be <b>NULL</b> 
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> object has not been initialized.
+The <a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a> object has not been initialized.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a> property value is set to "The setup object has not been initialized. Please initialize the setup object with the InitializeInstallDefaults method."
+The <a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a> property value is set to "The setup object has not been initialized. Please initialize the setup object with the InitializeInstallDefaults method."
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-i
 
 ## -remarks
 
-The <b>SetApplicationPoolCredentials</b> method determines whether the user credentials are valid and whether the account is a member of the IIS_IUSRS group. If an error is encountered, the <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a> property can be set to any of the following:<ul>
+The <b>SetApplicationPoolCredentials</b> method determines whether the user credentials are valid and whether the account is a member of the IIS_IUSRS group. If an error is encountered, the <a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-get_errorstring">ErrorString</a> property can be set to any of the following:<ul>
 <li>"Setup is unable to obtain security information for the account."</li>
 <li>"Setup is unable to check the membership of the account."</li>
 <li>"The account is not a member of the local machine's IIS_IUSRS group."</li>
@@ -107,5 +107,4 @@ The <b>SetApplicationPoolCredentials</b> method determines whether the user cred
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>

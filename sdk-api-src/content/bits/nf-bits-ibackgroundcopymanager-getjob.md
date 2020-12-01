@@ -57,12 +57,12 @@ Retrieves a specified job from the transfer queue. Typically, your application p
 ### -param jobID [in]
 
 Identifies the job to retrieve from the transfer queue. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">CreateJob</a> method returns the job identifier.
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">CreateJob</a> method returns the job identifier.
 
 ### -param ppJob [out]
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> interface pointer to the job specified by <i>JobID</i>. When done, release <i>ppJob</i>.
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> interface pointer to the job specified by <i>JobID</i>. When done, release <i>ppJob</i>.
 
 ## -returns
 
@@ -110,17 +110,16 @@ User does not have permission to retrieve the job.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getid">IBackgroundCopyJob::GetId</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getid">IBackgroundCopyJob::GetId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">IBackgroundCopyManager::CreateJob</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">IBackgroundCopyManager::CreateJob</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-enumjobs">IBackgroundCopyManager::EnumJobs</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-enumjobs">IBackgroundCopyManager::EnumJobs</a>

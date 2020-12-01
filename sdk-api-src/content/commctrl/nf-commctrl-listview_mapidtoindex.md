@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Maps the ID of an item to an index. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/lvm-mapidtoindex">LVM_MAPIDTOINDEX</a> message explicitly.
+Maps the ID of an item to an index. You can use this macro or send the <a href="/windows/desktop/controls/lvm-mapidtoindex">LVM_MAPIDTOINDEX</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param id
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 A <b>UINT</b> that contains the unique ID of an item.
 
@@ -74,14 +74,13 @@ You can use this macro to tag an item with an ID when you create the item.
 You use this ID to guarantee uniqueness during the existence of the list-view control.   
 		
 
-To uniquely identify an item, take the index that returns from a call, such as <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getdisplayinfo">IComponent::GetDisplayInfo</a>, and call <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-mapindextoid">LVM_MAPINDEXTOID</a>. The return value is a unique ID.
+To uniquely identify an item, take the index that returns from a call, such as <a href="/windows/desktop/api/mmc/nf-mmc-icomponent-getdisplayinfo">IComponent::GetDisplayInfo</a>, and call <a href="/windows/desktop/Controls/lvm-mapindextoid">LVM_MAPINDEXTOID</a>. The return value is a unique ID.
 		
 
 If you need to know the index of an item after creating an ID, call
-<a href="https://docs.microsoft.com/windows/desktop/controls/lvm-mapidtoindex">LVM_MAPIDTOINDEX</a> with the unique ID and it returns the most current index.
+<a href="/windows/desktop/controls/lvm-mapidtoindex">LVM_MAPIDTOINDEX</a> with the unique ID and it returns the most current index.
 
 <div class="alert"><b>Note</b>  In a multithreaded environment, you can only be sure the correct index is returned
 on the thread that hosts the list-view control, not on background threads.</div>
 <div> </div>
-To use <b>ListView_MapIDToIndex</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
+To use <b>ListView_MapIDToIndex</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

@@ -107,7 +107,7 @@ To create and execute an edit event, the application must do the following:
 
 <ul>
 <li>Register an edit property set. Call the <code>SetEditPropertySet</code> method with the value ED_REGISTER in the <i>State</i> parameter. When the method returns, the <i>pEditID</i> parameter contains the identifier for the edit property set. Use this number to identify the edit property set in subsequent method calls.</li>
-<li>Specify the edit properties using the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-seteditproperty">IAMExtTransport::SetEditProperty</a> method.</li>
+<li>Specify the edit properties using the <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-seteditproperty">IAMExtTransport::SetEditProperty</a> method.</li>
 <li>Activate the edit event by calling <code>SetEditPropertySet</code> with the value ED_ACTIVE.</li>
 <li>Cue the transport by calling <code>SetEditProperty</code> with the value ED_EDIT_SEEK.</li>
 <li>Run the filter graph.</li>
@@ -149,17 +149,16 @@ SetEditProperty(EditId, ED_EDIT_SEEK, OATRUE);
 </table></span></div>
 <h3><a id="DV_Implementation"></a><a id="dv_implementation"></a><a id="DV_IMPLEMENTATION"></a>DV Implementation</h3>
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
+<a href="/windows/desktop/DirectShow/msdv-driver">MSDV</a> does not support this method. It returns E_NOTIMPL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamexttransport-geteditpropertyset">IAMExtTransport::GetEditPropertySet</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-geteditpropertyset">IAMExtTransport::GetEditPropertySet</a>

@@ -52,9 +52,9 @@ api_name:
 
 A 
 <b>RasDialFunc1</b> function is called by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function  when a change of state occurs during a remote access connection process. A 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function  when a change of state occurs during a remote access connection process. A 
 <b>RasDialFunc1</b> function is comparable to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rasdialfunc">RasDialFunc</a> function, but is enhanced by the addition of two parameters: a handle to the RAS connection, and an extended error code.
+<a href="/windows/desktop/api/ras/nc-ras-rasdialfunc">RasDialFunc</a> function, but is enhanced by the addition of two parameters: a handle to the RAS connection, and an extended error code.
 
 ## -parameters
 
@@ -76,7 +76,7 @@ Specifies the error that has occurred. If no error has occurred, <i>dwError</i> 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> calls 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> calls 
 <b>RasDialFunc1</b> with <i>dwError</i> set to zero upon entry to each connection state. If an error occurs within a state, 
 <b>RasDial</b> calls 
 <b>RasDialFunc1</b> again with a nonzero <i>dwError</i> value.
@@ -145,14 +145,14 @@ Specifies a routing error code, which is a RAS error.
 #### - hrasconn [in]
 
 Handle to the RAS connection, as returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>.
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>.
 
 
 #### - rascs [in]
 
 Specifies the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)">RASCONNSTATE</a> enumerator value that indicates the state the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> remote access connection process is about to enter.
+<a href="/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)">RASCONNSTATE</a> enumerator value that indicates the state the 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> remote access connection process is about to enter.
 
 
 #### - unMsg [in]
@@ -162,27 +162,27 @@ Specifies the type of event that has occurred. Currently, the only event defined
 ## -remarks
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> connection operation is suspended during a call to a 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> connection operation is suspended during a call to a 
 <b>RasDialFunc1</b> callback function. For that reason, the 
 <b>RasDialFunc1</b> implementation generally returns as quickly as possible. There are two exceptions to that rule. Asynchronous (slow) devices such as modems often have time-out periods measured in seconds rather than milliseconds; a slow return from a 
 <b>RasDialFunc1</b> function is generally not a problem. The prompt return requirement also does not apply when <i>dwError</i> is nonzero, indicating that an error has occurred. It is safe, for example, to put up an error dialog box and wait for user input.
 
 The 
 <b>RasDialFunc1</b> implementation should not depend on the order or occurrence of particular 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)">RASCONNSTATE</a> connection states, because this may vary between platforms.
+<a href="/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)">RASCONNSTATE</a> connection states, because this may vary between platforms.
 
 Do not call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function from within a 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function from within a 
 <b>RasDialFunc1</b> callback function. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumentriesa">RasEnumEntries</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeterrorstringa">RasGetErrorString</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rashangupa">RasHangUp</a> functions from within the callback function. For example, calling 
+<a href="/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a>, 
+<a href="/windows/desktop/api/ras/nf-ras-rasenumentriesa">RasEnumEntries</a>, 
+<a href="/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a>, 
+<a href="/windows/desktop/api/ras/nf-ras-rasgeterrorstringa">RasGetErrorString</a>, and 
+<a href="/windows/desktop/api/ras/nf-ras-rashangupa">RasHangUp</a> functions from within the callback function. For example, calling 
 <b>RasGetConnectStatus</b> from within a callback function would be useful for determining the name and type of the connecting device.
 
 Note that, for convenience, 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rashangupa">RasHangUp</a> can be called from within a 
+<a href="/windows/desktop/api/ras/nf-ras-rashangupa">RasHangUp</a> can be called from within a 
 <b>RasDialFunc1</b> callback function. However, much of the hang-up processing occurs after the 
 <b>RasDialFunc1</b> callback function has returned.
 
@@ -190,45 +190,44 @@ Note that, for convenience,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)">RASCONNSTATE</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376727(v=vs.85)">RASCONNSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rasdialfunc">RasDialFunc</a>
+<a href="/windows/desktop/api/ras/nc-ras-rasdialfunc">RasDialFunc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rasdialfunc2">RasDialFunc2</a>
+<a href="/windows/desktop/api/ras/nc-ras-rasdialfunc2">RasDialFunc2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasenumconnectionsa">RasEnumConnections</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasenumentriesa">RasEnumEntries</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasenumentriesa">RasEnumEntries</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgetconnectstatusa">RasGetConnectStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeterrorstringa">RasGetErrorString</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgeterrorstringa">RasGetErrorString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rashangupa">RasHangUp</a>
+<a href="/windows/desktop/api/ras/nf-ras-rashangupa">RasHangUp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

@@ -56,14 +56,13 @@ Notifies the protocol provider that the state of the Remote Desktop Services ser
 
 ### -param pTSServiceStateChange [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_service_state">WRDS_SERVICE_STATE</a> structure that specifies 
+A pointer to a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_service_state">WRDS_SERVICE_STATE</a> structure that specifies 
 whether the service is starting, stopping, or changing its drain state.
 
 ## -returns
 
-When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+When you are implementing this method, return <b>S_OK</b> if the function succeeds. If it fails, return an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolmanager">IWRdsProtocolManager</a>
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolmanager">IWRdsProtocolManager</a>

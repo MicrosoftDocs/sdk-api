@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - SHChangeNotification_Unlock
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SHChangeNotification_Unlock function
@@ -60,11 +61,10 @@ Unlocks shared memory for a change notification.
 
 Type: <b>HANDLE</b>
 
-A handle to the memory lock. This is the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotification_lock">SHChangeNotification_Lock</a> when it locked the memory.
+A handle to the memory lock. This is the handle returned by <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotification_lock">SHChangeNotification_Lock</a> when it locked the memory.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> on success; otherwise, <b>FALSE</b>.
-

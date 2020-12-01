@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>Scrolls the currently visible region of the content area the specified <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-scrollamount">ScrollAmount</a>, horizontally, 
+<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>Scrolls the currently visible region of the content area the specified <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-scrollamount">ScrollAmount</a>, horizontally, 
         vertically, or both.
 
 ## -parameters
@@ -63,19 +63,18 @@ The control pattern object.
 
 ### -param horizontalAmount [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-scrollamount">ScrollAmount</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-scrollamount">ScrollAmount</a></b>
 
 The amount to scroll the container on the horizontal axis, as a percentage.
 
 ### -param verticalAmount [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-scrollamount">ScrollAmount</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-scrollamount">ScrollAmount</a></b>
 
 The amount to scroll the container on the vertical axis, as a percentage.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
-

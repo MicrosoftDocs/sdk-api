@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Holds an extra data block used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>. It holds special folder information.
+Holds an extra data block used by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>. It holds special folder information.
 
 ## -struct-fields
 
@@ -79,4 +79,3 @@ The ID of the special folder that the link points into.
 Type: <b>DWORD</b>
 
 The offset into the saved PIDL.
-

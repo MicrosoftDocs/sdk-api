@@ -62,7 +62,7 @@ The count of subranges not including the active one.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
@@ -70,9 +70,8 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 If you select a  range with no or one character, the count will be 1. But if you select a word and then move to a different location, and select a second word not touching the first, then the count is 2. 
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-addsubrange">ITextRange2::AddSubrange</a> to add subranges programmatically.
+See <a href="/windows/desktop/api/tom/nf-tom-itextrange2-addsubrange">ITextRange2::AddSubrange</a> to add subranges programmatically.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
-
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>

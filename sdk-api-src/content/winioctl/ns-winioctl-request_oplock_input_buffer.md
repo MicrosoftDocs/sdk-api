@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Contains the information to request an opportunistic lock (oplock) or to acknowledge an oplock break 
-    with the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a> control 
+    with the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a> control 
     code.
 
 ## -struct-fields
@@ -121,7 +121,7 @@ Valid combinations of these values are as follows:
 <li><code>OPLOCK_LEVEL_CACHE_READ | OPLOCK_LEVEL_CACHE_WRITE | OPLOCK_LEVEL_CACHE_HANDLE</code></li>
 </ul>
 For more information about these value combinations, see 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>.
+       <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>.
 
 ### -field Flags
 
@@ -160,9 +160,8 @@ Acknowledgment of an oplock break.  Setting this flag together with
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-request_oplock_output_buffer">REQUEST_OPLOCK_OUTPUT_BUFFER</a>
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-request_oplock_output_buffer">REQUEST_OPLOCK_OUTPUT_BUFFER</a>

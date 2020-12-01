@@ -68,7 +68,7 @@ Value from the  <a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENU
 
 ### -field pADsValues
 
-Array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures that contain values of the attribute in the current search column for the current row.
+Array of  <a href="/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures that contain values of the attribute in the current search column for the current row.
 
 ### -field dwNumValues
 
@@ -80,13 +80,13 @@ Reserved for internal use by providers.
 
 ## -remarks
 
-The <b>ADS_SEARCH_COLUMN</b> structure only contains a pointer to the array of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures. Memory for the structure must be allocated separately.
+The <b>ADS_SEARCH_COLUMN</b> structure only contains a pointer to the array of  <a href="/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a> structures. Memory for the structure must be allocated separately.
 
-For more information about  <b>ADS_SEARCH_COLUMN</b>, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">IDirectorySearch::GetColumn</a>.
+For more information about  <b>ADS_SEARCH_COLUMN</b>, see  <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">IDirectorySearch::GetColumn</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
+<a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
 
 
 
@@ -94,9 +94,8 @@ For more information about  <b>ADS_SEARCH_COLUMN</b>, see  <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a>
+<a href="/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">IDirectorySearch::GetColumn</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">IDirectorySearch::GetColumn</a>

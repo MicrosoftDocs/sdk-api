@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>CALL_MEDIA_EVENT_CAUSE</b> enum is used by 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallmediaevent-get_cause">ITCallMediaEvent::get_Cause</a> method to return a description of what caused a media event, such as a device timeout.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallmediaevent-get_cause">ITCallMediaEvent::get_Cause</a> method to return a description of what caused a media event, such as a device timeout.
 
 ## -enum-fields
 
@@ -88,5 +88,4 @@ Media processing has resumed after an interruption.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallmediaevent-get_cause">ITCallMediaEvent::get_Cause</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallmediaevent-get_cause">ITCallMediaEvent::get_Cause</a>

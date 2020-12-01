@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>OCSP_BASIC_RESPONSE_ENTRY</b> structure contains the current certificate status for a single certificate. This structure populates the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_info">OCSP_BASIC_RESPONSE_INFO</a> <b>rgResponseEntry</b> member.
+The <b>OCSP_BASIC_RESPONSE_ENTRY</b> structure contains the current certificate status for a single certificate. This structure populates the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_info">OCSP_BASIC_RESPONSE_INFO</a> <b>rgResponseEntry</b> member.
 
 ## -struct-fields
 
 ### -field CertId
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_cert_id">OCSP_CERT_ID</a> structure that specifies the target certificate of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response.
+An <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_cert_id">OCSP_CERT_ID</a> structure that specifies the target certificate of the <a href="/windows/desktop/SecGloss/o-gly">online certificate status protocol</a> (OCSP) response.
 
 ### -field dwCertStatus
 
@@ -115,7 +115,7 @@ The responder has no information for the target certificate.
 
 ### -field DUMMYUNIONNAME.pRevokedInfo
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_revoked_info">OCSP_BASIC_REVOKED_INFO</a> structure that specifies the reason the target certificate was revoked.
+A pointer to an <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_revoked_info">OCSP_BASIC_REVOKED_INFO</a> structure that specifies the reason the target certificate was revoked.
 
 ### -field ThisUpdate
 
@@ -131,25 +131,24 @@ The number of elements in the <b>rgExtension</b> array.
 
 ### -field rgExtension
 
-An array of pointers to  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures, each of which contains additional information about the response.
+An array of pointers to  <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structures, each of which contains additional information about the response.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_info">OCSP_BASIC_RESPONSE_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_info">OCSP_BASIC_RESPONSE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_revoked_info">OCSP_BASIC_REVOKED_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_revoked_info">OCSP_BASIC_REVOKED_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_cert_id">OCSP_CERT_ID</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_cert_id">OCSP_CERT_ID</a>
 
 
 
 <a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560 Online Certificate Status Protocol</a>
-

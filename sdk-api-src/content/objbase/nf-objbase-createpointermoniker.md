@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - CreatePointerMoniker
+req.apiset: ext-ms-win-com-ole32-l1-1-0 (introduced in Windows 8)
 ---
 
 # CreatePointerMoniker function
@@ -61,11 +62,11 @@ Creates a pointer moniker based on a pointer to an object.
 
 ### -param punk [in, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the object to be identified by the resulting moniker.
+A pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the object to be identified by the resulting moniker.
 
 ### -param ppmk [out]
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>* pointer variable that receives the interface pointer to the new pointer moniker. When successful, the function has called <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the moniker and the caller is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. When an error occurs, the returned interface pointer has a <b>NULL</b> value.
+The address of an <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>* pointer variable that receives the interface pointer to the new pointer moniker. When successful, the function has called <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the moniker and the caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. When an error occurs, the returned interface pointer has a <b>NULL</b> value.
 
 ## -returns
 
@@ -81,5 +82,4 @@ Pointer monikers are not commonly used, so this function is not often called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>

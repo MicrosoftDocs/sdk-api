@@ -51,14 +51,14 @@ api_name:
 
 ## -description
 
-Retrieves the custom headers set by an earlier call to<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setcustomheaders"> IBackgroundCopyJobHttpOptions::SetCustomHeaders</a> (that is, headers which BITS will be sending to the remote, not headers which BITS receives from the remote).
+Retrieves the custom headers set by an earlier call to<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setcustomheaders"> IBackgroundCopyJobHttpOptions::SetCustomHeaders</a> (that is, headers which BITS will be sending to the remote, not headers which BITS receives from the remote).
 
 ## -parameters
 
 ### -param pRequestHeaders [out]
 
 Null-terminated string that contains the custom headers. Each header is terminated by a carriage return and line feed (CR/LF) character. To free the string when finished, call  the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -returns
 
@@ -117,13 +117,12 @@ The <i>pRequestHeaders</i> parameter is <b>NULL</b>.
 
 ## -remarks
 
-Only the job owner can retrieve the custom headers. To specify the headers, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setcustomheaders">IBackgroundCopyJobHttpOptions::SetCustomHeaders</a> method.
+Only the job owner can retrieve the custom headers. To specify the headers, call the <a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setcustomheaders">IBackgroundCopyJobHttpOptions::SetCustomHeaders</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
+<a href="/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setcustomheaders">IBackgroundCopyJobHttpOptions::SetCustomHeaders</a>
-
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setcustomheaders">IBackgroundCopyJobHttpOptions::SetCustomHeaders</a>

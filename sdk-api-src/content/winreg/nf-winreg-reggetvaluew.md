@@ -6,7 +6,7 @@ helpviewer_keywords: ["RRF_NOEXPAND","RRF_RT_ANY","RRF_RT_DWORD","RRF_RT_QWORD",
 old-location: base\reggetvalue.htm
 tech.root: winprog
 ms.assetid: 1c06facb-6735-4b3f-b77d-f162e3faaada
-ms.date: 12/05/2018
+ms.date: 09/24/2020
 ms.keywords: RRF_NOEXPAND, RRF_RT_ANY, RRF_RT_DWORD, RRF_RT_QWORD, RRF_RT_REG_BINARY, RRF_RT_REG_DWORD, RRF_RT_REG_EXPAND_SZ, RRF_RT_REG_MULTI_SZ, RRF_RT_REG_NONE, RRF_RT_REG_QWORD, RRF_RT_REG_SZ, RRF_SUBKEY_WOW6432KEY, RRF_SUBKEY_WOW6464KEY, RRF_ZEROONFAILURE, RegGetValue, RegGetValue function, RegGetValueA, RegGetValueW, base.reggetvalue, winreg/RegGetValue, winreg/RegGetValueA, winreg/RegGetValueW
 req.header: winreg.h
 req.include-header: Windows.h
@@ -66,15 +66,15 @@ Retrieves the type and data for the specified registry value.
 ### -param hkey [in]
 
 A handle to an open registry key. The key must have been opened with the KEY_QUERY_VALUE access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>. 
+<a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>. 
 
 
 
 
 This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function. It can also be one of the following 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<dl>
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
+<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function. It can also be one of the following 
+<a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<dl>
 <dd><b>HKEY_CLASSES_ROOT</b></dd>
 <dd><b>HKEY_CURRENT_CONFIG</b></dd>
 <dd><b>HKEY_CURRENT_USER</b></dd>
@@ -264,7 +264,7 @@ If <i>pvData</i> is not <b>NULL</b>, set the contents of the buffer to zeroes on
 </td>
 <td width="60%">
 If <i>lpSubKey</i> is not <b>NULL</b>, open the subkey that  <i>lpSubKey</i> specifies with the KEY_WOW64_64KEY access rights.
- For information about these access rights, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
+ For information about these access rights, see <a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 You cannot specify <b>RRF_SUBKEY_WOW6464KEY</b> in combination with  <b>RRF_SUBKEY_WOW6432KEY</b>.
 
@@ -278,7 +278,7 @@ You cannot specify <b>RRF_SUBKEY_WOW6464KEY</b> in combination with  <b>RRF_SUBK
 </td>
 <td width="60%">
 If <i>lpSubKey</i> is not <b>NULL</b>, open the subkey that  <i>lpSubKey</i> specifies with the KEY_WOW64_32KEY access rights.
-For information about these access rights, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
+For information about these access rights, see <a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 You cannot specify <b>RRF_SUBKEY_WOW6432KEY</b> in combination with  <b>RRF_SUBKEY_WOW6464KEY</b>.
 
@@ -289,7 +289,7 @@ You cannot specify <b>RRF_SUBKEY_WOW6432KEY</b> in combination with  <b>RRF_SUBK
 ### -param pdwType [out, optional]
 
 A pointer to a variable that receives a code indicating the type of data stored in the specified value. For a list of the possible type codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>. This parameter can be <b>NULL</b> if the type is not required.
+<a href="/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>. This parameter can be <b>NULL</b> if the type is not required.
 
 ### -param pvData [out, optional]
 
@@ -308,7 +308,7 @@ The <i>pcbData</i> parameter can be <b>NULL</b> only if <i>pvData</i> is <b>NULL
 
 If the data has the REG_SZ, REG_MULTI_SZ or REG_EXPAND_SZ type, this size includes any terminating <b>null</b> character or characters. For more information, see Remarks.
 
-If the buffer specified by <i>pvData</i> parameter is not large enough to hold the data, the function returns ERROR_MORE_DATA and stores the required buffer size in the variable pointed to by <i>pcbData</i>. In this case, the contents of the <i>pvData</i> buffer are undefined.
+If the buffer specified by <i>pvData</i> parameter is not large enough to hold the data, the function returns ERROR_MORE_DATA and stores the required buffer size in the variable pointed to by <i>pcbData</i>. In this case, the contents of the <i>pvData</i> buffer are zeroes if dwFlags specifies RRF_ZEROONFAILURE and undefined otherwise.
 
 If <i>pvData</i> is <b>NULL</b>, and <i>pcbData</i> is non-<b>NULL</b>, the function returns ERROR_SUCCESS and stores the size of the data, in bytes, in the variable pointed to by <i>pcbData</i>. This enables an application to determine the best way to allocate a buffer for the value's data.
 
@@ -321,7 +321,7 @@ the function returns ERROR_MORE_DATA and the value returned through the <i>pcbDa
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 If the <i>pvData</i> buffer is too small to receive the value, the function returns ERROR_MORE_DATA.
 
@@ -329,16 +329,16 @@ If <i>dwFlags</i> specifies a combination of both <b>RRF_SUBKEY_WOW6464KEY</b> a
 
 ## -remarks
 
-An application typically calls <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenumvaluea">RegEnumValue</a> to determine the value names and then <b>RegGetValue</b> to retrieve the data for the names.
+An application typically calls <a href="/windows/desktop/api/winreg/nf-winreg-regenumvaluea">RegEnumValue</a> to determine the value names and then <b>RegGetValue</b> to retrieve the data for the names.
 
 If the data has the REG_SZ, REG_MULTI_SZ or REG_EXPAND_SZ type, and the ANSI version of this function is used (either by explicitly calling <b>RegGetValueA</b> or by not defining UNICODE before including the Windows.h file), this function converts the stored Unicode string to an ANSI string before copying it to the buffer pointed to by <i>pvData</i>.
 
 When calling this function with <i>hkey</i> set to the <b>HKEY_PERFORMANCE_DATA</b> handle and a value string of a specified object, the returned data structure sometimes has unrequested objects. Do not be surprised; this is normal behavior. You should always expect to walk the returned data structure to look for the requested object.
 
-Note that operations that access certain registry keys are redirected. For more information,  see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-virtualization">Registry Virtualization</a> and <a href="https://docs.microsoft.com/windows/desktop/SysInfo/32-bit-and-64-bit-application-data-in-the-registry">32-bit and 64-bit Application Data in the Registry</a>.
+Note that operations that access certain registry keys are redirected. For more information,  see <a href="/windows/desktop/SysInfo/registry-virtualization">Registry Virtualization</a> and <a href="/windows/desktop/SysInfo/32-bit-and-64-bit-application-data-in-the-registry">32-bit and 64-bit Application Data in the Registry</a>.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -349,29 +349,28 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenumkeyexa">RegEnumKeyEx</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regenumkeyexa">RegEnumKeyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenumvaluea">RegEnumValue</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regenumvaluea">RegEnumValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
+<a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
-
+<a href="/windows/desktop/SysInfo/registry">Registry Overview</a>

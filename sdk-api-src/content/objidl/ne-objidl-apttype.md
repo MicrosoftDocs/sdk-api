@@ -78,9 +78,8 @@ The main single-threaded apartment.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetapartmenttype">CoGetApartmentType</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetapartmenttype">CoGetApartmentType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentapartmenttype">IComThreadingInfo::GetCurrentApartmentType</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentapartmenttype">IComThreadingInfo::GetCurrentApartmentType</a>

@@ -57,7 +57,7 @@ Sets the render information used to specify the compute shader pass.
 
 ### -param computeInfo [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1computeinfo">ID2D1ComputeInfo</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1computeinfo">ID2D1ComputeInfo</a>*</b>
 
 The render information object to set.
 
@@ -69,13 +69,12 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 ## -remarks
 
-If this method fails, <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-addnode">ID2D1TransformGraph::AddNode</a> fails.
+If this method fails, <a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1transformgraph-addnode">ID2D1TransformGraph::AddNode</a> fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1computetransform">ID2D1ComputeTransform</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1computetransform">ID2D1ComputeTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadcomputeshader">ID2D1EffectContext::LoadComputeShader</a>
-
+<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadcomputeshader">ID2D1EffectContext::LoadComputeShader</a>

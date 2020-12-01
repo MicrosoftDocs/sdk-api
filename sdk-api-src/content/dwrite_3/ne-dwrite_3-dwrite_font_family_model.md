@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-Defines constants that specify how font families are grouped together. Used by [IDWriteFontCollection2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection2), for example.
+Defines constants that specify how font families are grouped together. Used by [IDWriteFontCollection2](./nn-dwrite_3-idwritefontcollection2.md), for example.
 
 ## -enum-fields
 
@@ -60,4 +60,3 @@ Families are grouped by the weight-stretch-style family name, where all faces th
 ## -remarks
 
 ## -see-also
-

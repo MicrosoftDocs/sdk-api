@@ -71,24 +71,24 @@ TBD
 #### - lpszEnvironmentBlock [in]
 
 A pointer to a block of environment strings. The pointer to the block must be obtained by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a> function.
+<a href="/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If you used the ANSI version of <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>, be sure to use the ANSI version of <b>FreeEnvironmentStrings</b>. Similarly, if you used the Unicode version of <b>GetEnvironmentStrings</b>, be sure to use the Unicode version of <b>FreeEnvironmentStrings</b>.
+If you used the ANSI version of <a href="/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>, be sure to use the ANSI version of <b>FreeEnvironmentStrings</b>. Similarly, if you used the Unicode version of <b>GetEnvironmentStrings</b>, be sure to use the Unicode version of <b>FreeEnvironmentStrings</b>.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/changing-environment-variables">Changing Environment Variables</a>.
+<a href="/windows/desktop/ProcThread/changing-environment-variables">Changing Environment Variables</a>.
 
 <div class="code"></div>
 
@@ -100,9 +100,8 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/environment-variables">Environment Variables</a>
+<a href="/windows/desktop/ProcThread/environment-variables">Environment Variables</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>
-
+<a href="/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>

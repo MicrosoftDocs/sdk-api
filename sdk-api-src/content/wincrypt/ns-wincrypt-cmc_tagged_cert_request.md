@@ -55,15 +55,14 @@ api_name:
 ## -description
 
 The <b>CMC_TAGGED_CERT_REQUEST</b> structure is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_tagged_request">CMC_TAGGED_REQUEST</a> structure.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_tagged_request">CMC_TAGGED_REQUEST</a> structure.
 
 ## -struct-fields
 
 ### -field dwBodyPartID
 
-<b>DWORD</b> identifying the tagged <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.
+<b>DWORD</b> identifying the tagged <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>.
 
 ### -field SignedCertRequest
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure that contains a signed request for a certificate.
-
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DER_BLOB</a> structure that contains a signed request for a certificate.

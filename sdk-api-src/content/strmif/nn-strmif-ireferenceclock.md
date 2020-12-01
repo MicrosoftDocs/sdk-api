@@ -53,26 +53,26 @@ api_name:
 
 The <code>IReferenceClock</code> interface provides the reference time for the filter graph.
 
-Filters that can act as a reference clock can expose this interface. It is also exposed by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/system-reference-clock">System Reference Clock</a>. The filter graph manager uses this interface to synchronize the filter graph. Applications can use this interface to retrieve the current reference time, or to request notification of an elapsed time.
+Filters that can act as a reference clock can expose this interface. It is also exposed by the <a href="/windows/desktop/DirectShow/system-reference-clock">System Reference Clock</a>. The filter graph manager uses this interface to synchronize the filter graph. Applications can use this interface to retrieve the current reference time, or to request notification of an elapsed time.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/time-and-clocks-in-directshow">Time and Clocks in DirectShow</a>.
+For more information, see <a href="/windows/desktop/DirectShow/time-and-clocks-in-directshow">Time and Clocks in DirectShow</a>.
 
-<b>Filter developers: </b>Implement this interface if you are writing a filter that generates reliable clock times. For example, audio renderers implement this interface, because audio sound boards usually contain a reference clock. Use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasereferenceclock">CBaseReferenceClock</a> class to implement this interface.
+<b>Filter developers: </b>Implement this interface if you are writing a filter that generates reliable clock times. For example, audio renderers implement this interface, because audio sound boards usually contain a reference clock. Use the <a href="/windows/desktop/DirectShow/cbasereferenceclock">CBaseReferenceClock</a> class to implement this interface.
 
 To increase the chances that a non-rendering filter will be selected by the Filter Graph Manager as the reference close, follow these steps:
 
 <ol>
 <li>Implement <code>IReferenceClock</code> in the filter.</li>
-<li>Implement <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamfiltermiscflags">IAMFilterMiscFlags</a> in the filter.</li>
-<li>Return AM_FILTER_MISC_FLAGS_IS_SOURCE from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamfiltermiscflags-getmiscflags">IAMFilterMiscFlags::GetMiscFlags</a>.</li>
-<li>Implement <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource</a> on all output pins.</li>
-<li>Return (* pFlags) = 0 from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iampushsource-getpushsourceflags">IAMPushSource::GetPushSourceFlags</a>.</li>
+<li>Implement <a href="/windows/desktop/api/strmif/nn-strmif-iamfiltermiscflags">IAMFilterMiscFlags</a> in the filter.</li>
+<li>Return AM_FILTER_MISC_FLAGS_IS_SOURCE from <a href="/windows/desktop/api/strmif/nf-strmif-iamfiltermiscflags-getmiscflags">IAMFilterMiscFlags::GetMiscFlags</a>.</li>
+<li>Implement <a href="/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource</a> on all output pins.</li>
+<li>Return (* pFlags) = 0 from <a href="/windows/desktop/api/strmif/nf-strmif-iampushsource-getpushsourceflags">IAMPushSource::GetPushSourceFlags</a>.</li>
 <li>You may return E_NOTIMPL from all other <b>IAMPushSource</b> methods.</li>
 </ol>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReferenceClock</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReferenceClock</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IReferenceClock</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IReferenceClock</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -87,7 +87,7 @@ The <b>IReferenceClock</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ireferenceclock-adviseperiodic">AdvisePeriodic</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclock-adviseperiodic">AdvisePeriodic</a>
 </td>
 <td align="left" width="63%">
 Creates a periodic advise request.
@@ -96,7 +96,7 @@ Creates a periodic advise request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ireferenceclock-advisetime">AdviseTime</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclock-advisetime">AdviseTime</a>
 </td>
 <td align="left" width="63%">
 Creates a one-shot advise request.
@@ -105,7 +105,7 @@ Creates a one-shot advise request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ireferenceclock-gettime">GetTime</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclock-gettime">GetTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current reference time.
@@ -114,7 +114,7 @@ Retrieves the current reference time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ireferenceclock-unadvise">Unadvise</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ireferenceclock-unadvise">Unadvise</a>
 </td>
 <td align="left" width="63%">
 Removes a pending advise request.
@@ -122,4 +122,3 @@ Removes a pending advise request.
 </td>
 </tr>
 </table>
-

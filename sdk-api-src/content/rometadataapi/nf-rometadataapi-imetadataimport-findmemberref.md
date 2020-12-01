@@ -88,5 +88,4 @@ The signature passed to <b>FindMemberRef</b> must have been generated in the cur
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>

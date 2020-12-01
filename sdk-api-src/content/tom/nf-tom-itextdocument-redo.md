@@ -70,7 +70,7 @@ The actual count of redo operations performed. This parameter can be <b>NULL</b>
 
 Type: <b>HRESULT</b>
 
-If the method succeeds it returns <b>S_OK</b>. If the method fails, it returns the following COM error code. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds it returns <b>S_OK</b>. If the method fails, it returns the following COM error code. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -96,7 +96,7 @@ Less than <i>Count</i> redo operations were performed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -104,9 +104,8 @@ Less than <i>Count</i> redo operations were performed.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-undo">Undo</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-undo">Undo</a>

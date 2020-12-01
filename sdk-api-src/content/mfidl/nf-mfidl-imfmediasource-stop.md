@@ -82,7 +82,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The media source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a> method has been called.
+The media source's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -90,17 +90,16 @@ The media source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl
 
 ## -remarks
 
-This method is asynchronous. When the operation completes, the media source sends and <a href="https://docs.microsoft.com/windows/desktop/medfound/mesourcestopped">MESourceStopped</a> event, and every active stream sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreamstopped">MEStreamStopped</a> event. If the method returns a failure code, no events are raised.
+This method is asynchronous. When the operation completes, the media source sends and <a href="/windows/desktop/medfound/mesourcestopped">MESourceStopped</a> event, and every active stream sends an <a href="/windows/desktop/medfound/mestreamstopped">MEStreamStopped</a> event. If the method returns a failure code, no events are raised.
 
-When a media source is stopped, its current position reverts to zero. After that, if the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-start">Start</a> method is called with VT_EMPTY for the starting position, playback starts from the beginning of the presentation.
+When a media source is stopped, its current position reverts to zero. After that, if the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-start">Start</a> method is called with VT_EMPTY for the starting position, playback starts from the beginning of the presentation.
 
 While the source is stopped, no streams produce data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-sources">Media Sources</a>
-
+<a href="/windows/desktop/medfound/media-sources">Media Sources</a>

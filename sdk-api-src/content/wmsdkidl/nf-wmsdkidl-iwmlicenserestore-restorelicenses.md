@@ -74,13 +74,13 @@ The <b>RestoreLicenses</b> method restores licenses that were previously backed 
 </tr>
 <tr>
 <td>WM_RESTORE_INDIVIDUALIZE</td>
-<td>Indicates that the application has received permission from the user to individualize their computer. (See <a href="https://docs.microsoft.com/windows/desktop/wmformat/individualizing-drm-applications">Individualizing DRM Applications</a> section.)</td>
+<td>Indicates that the application has received permission from the user to individualize their computer. (See <a href="/windows/desktop/wmformat/individualizing-drm-applications">Individualizing DRM Applications</a> section.)</td>
 </tr>
 </table>
 
 ### -param pCallback [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface.
+Pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstatuscallback">IWMStatusCallback</a> interface.
 
 ## -returns
 
@@ -88,11 +88,10 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 ## -remarks
 
-For more information on how to specify the location of the backup file (there are predefined properties for the backup path and restore path for this purpose), see <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops">IWMBackupRestoreProps Interface</a>.
+For more information on how to specify the location of the backup file (there are predefined properties for the backup path and restore path for this purpose), see <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops">IWMBackupRestoreProps Interface</a>.
 
 The operation of this method is asynchronous, and an <b>IWMStatusCallback</b> interface can be used to track progress.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore">IWMLicenseRestore Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore">IWMLicenseRestore Interface</a>

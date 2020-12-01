@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 The <b>LsaSetTrustedDomainInfoByName</b> function sets values for a 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object.
+<a href="/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object.
 
 ## -parameters
 
 ### -param PolicyHandle [in]
 
-A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> of the trusted domain object determines whether the caller's changes are accepted. For information about policy object handles, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
+A handle to a <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object. The <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> of the trusted domain object determines whether the caller's changes are accepted. For information about policy object handles, see 
+<a href="/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
 
 ### -param TrustedDomainName [in]
 
@@ -124,20 +124,19 @@ Pointer to a structure that contains the information to set. The type of structu
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code. For more information, see 
-the "LSA Policy Function Return Values" section of <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">Security Management Return Values</a>.
+the "LSA Policy Function Return Values" section of <a href="/windows/desktop/SecMgmt/management-return-values">Security Management Return Values</a>.
 
 You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfobyname">LsaQueryTrustedDomainInfoByName</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfobyname">LsaQueryTrustedDomainInfoByName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a>
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_domain_information_ex">TRUSTED_DOMAIN_INFORMATION_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
-
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>

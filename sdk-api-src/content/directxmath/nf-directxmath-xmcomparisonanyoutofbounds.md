@@ -58,7 +58,7 @@ Tests the comparison value to determine if any of the compared components are ou
 
 Comparison value to test. The comparison value is typically retrieved using a recording version of an DirectXMath
         function such as 
-        <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorinboundsr">XMVectorInBoundsR</a>. The names of the recording functions end
+        <a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorinboundsr">XMVectorInBoundsR</a>. The names of the recording functions end
         with an "R".
 
 ## -returns
@@ -87,29 +87,28 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-utilities">DirectXMath Library Utility Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-utilities">DirectXMath Library Utility Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonallfalse">XMComparisonAllFalse</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonallfalse">XMComparisonAllFalse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonallinbounds">XMComparisonAllInBounds</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonallinbounds">XMComparisonAllInBounds</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonalltrue">XMComparisonAllTrue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonanyfalse">XMComparisonAnyFalse</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonanyfalse">XMComparisonAnyFalse</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonanytrue">XMComparisonAnyTrue</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonanytrue">XMComparisonAnyTrue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonmixed">XMComparisonMixed</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmcomparisonmixed">XMComparisonMixed</a>

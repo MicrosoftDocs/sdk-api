@@ -76,15 +76,15 @@ Pointer to an array containing the GUIDs and property metrics for each packet pr
 
 ## -returns
 
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
 You can pass <b>NULL</b> if you do not want the scaling parameters.
 
-The <b>IRealTimeStylus::GetPacketDescriptionData Method</b> uses <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> to allocate space for <i>ppPacketProperties</i>. The caller should call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> when the array is no longer needed.
+The <b>IRealTimeStylus::GetPacketDescriptionData Method</b> uses <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> to allocate space for <i>ppPacketProperties</i>. The caller should call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> when the array is no longer needed.
 
-The order of properties in the stream of data sent to plug-ins is the same as the order of the properties returned by <b>IRealTimeStylus::GetPacketDescriptionData Method</b>. Use this method to determine what the hardware is reporting versus what was requested when calling <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setdesiredpacketdescription">IRealTimeStylus::SetDesiredPacketDescription Method</a>.
+The order of properties in the stream of data sent to plug-ins is the same as the order of the properties returned by <b>IRealTimeStylus::GetPacketDescriptionData Method</b>. Use this method to determine what the hardware is reporting versus what was requested when calling <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setdesiredpacketdescription">IRealTimeStylus::SetDesiredPacketDescription Method</a>.
 
 
 #### Examples
@@ -129,17 +129,16 @@ hr = piRtsSrc->GetPacketDescriptionData(tcid, &fInkToDeviceScaleX,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getdesiredpacketdescription">IRealTimeStylus::GetDesiredPacketDescription Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getdesiredpacketdescription">IRealTimeStylus::GetDesiredPacketDescription Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setdesiredpacketdescription">IRealTimeStylus::SetDesiredPacketDescription Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setdesiredpacketdescription">IRealTimeStylus::SetDesiredPacketDescription Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
-
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>

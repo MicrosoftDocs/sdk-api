@@ -66,7 +66,7 @@ The size, in bytes, of the SP_CLASSINSTALL_HEADER structure.
 
 The device installation request (DIF code) for the class install parameters structure. 
 
-DIF codes have the format DIF_<i>XXX</i> and are defined in <i>Setupapi.h</i>. See <a href="https://docs.microsoft.com/previous-versions/ff541307(v=vs.85)">Device Installation Function Codes</a> for a complete description of DIF codes.
+DIF codes have the format DIF_<i>XXX</i> and are defined in <i>Setupapi.h</i>. See <a href="/previous-versions/ff541307(v=vs.85)">Device Installation Function Codes</a> for a complete description of DIF codes.
 
 ## -remarks
 
@@ -80,55 +80,54 @@ RemoveDeviceParams.ClassInstallHeader.InstallFunction = DIF_REMOVE;
 ```
 
 
-A component must set the <b>InstallFunction</b> member before passing a class install parameters structure to <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclassinstallparamsa">SetupDiSetClassInstallParams</a>. 
+A component must set the <b>InstallFunction</b> member before passing a class install parameters structure to <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclassinstallparamsa">SetupDiSetClassInstallParams</a>. 
 
-However, a component does not have to set this field when passing class install parameters to <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassinstallparamsa">SetupDiGetClassInstallParams</a>. This function sets the <b>InstallFunction</b> member in the structure it passes back to the caller. It sets <b>InstallFunction</b> to the DIF_<i>XXX</i> code for the currently active device installation request.
+However, a component does not have to set this field when passing class install parameters to <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassinstallparamsa">SetupDiGetClassInstallParams</a>. This function sets the <b>InstallFunction</b> member in the structure it passes back to the caller. It sets <b>InstallFunction</b> to the DIF_<i>XXX</i> code for the currently active device installation request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_detectdevice_params">SP_DETECTDEVICE_PARAMS</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_detectdevice_params">SP_DETECTDEVICE_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/sp-movedev-params">SP_MOVEDEV_PARAMS</a>
+<a href="/windows-hardware/drivers/install/sp-movedev-params">SP_MOVEDEV_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_newdevicewizard_data">SP_NEWDEVICEWIZARD_DATA</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_newdevicewizard_data">SP_NEWDEVICEWIZARD_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_powermessagewake_params_a">SP_POWERMESSAGEWAKE_PARAMS</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_powermessagewake_params_a">SP_POWERMESSAGEWAKE_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_propchange_params">SP_PROPCHANGE_PARAMS</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_propchange_params">SP_PROPCHANGE_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_removedevice_params">SP_REMOVEDEVICE_PARAMS</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_removedevice_params">SP_REMOVEDEVICE_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_selectdevice_params_a">SP_SELECTDEVICE_PARAMS</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_selectdevice_params_a">SP_SELECTDEVICE_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_troubleshooter_params_a">SP_TROUBLESHOOTER_PARAMS</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_troubleshooter_params_a">SP_TROUBLESHOOTER_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_unremovedevice_params">SP_UNREMOVEDEVICE_PARAMS</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_unremovedevice_params">SP_UNREMOVEDEVICE_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassinstallparamsa">SetupDiGetClassInstallParams</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassinstallparamsa">SetupDiGetClassInstallParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetclassinstallparamsa">SetupDiSetClassInstallParams</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclassinstallparamsa">SetupDiSetClassInstallParams</a>

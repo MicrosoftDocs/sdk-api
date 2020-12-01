@@ -59,11 +59,11 @@ Allocates a fiber object, assigns it a stack, and sets up execution to begin at 
 
 ### -param dwStackCommitSize [in]
 
-The initial commit size of the stack, in bytes. If this parameter is zero, the new fiber uses the default commit stack size for the executable. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>.
+The initial commit size of the stack, in bytes. If this parameter is zero, the new fiber uses the default commit stack size for the executable. For more information, see <a href="/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>.
 
 ### -param dwStackReserveSize [in]
 
-The initial reserve size of the stack, in bytes. If this parameter is zero, the new fiber uses the default reserved stack size for the executable. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>.
+The initial reserve size of the stack, in bytes. If this parameter is zero, the new fiber uses the default reserved stack size for the executable. For more information, see <a href="/windows/desktop/ProcThread/thread-stack-size">Thread Stack Size</a>.
 
 ### -param dwFlags [in]
 
@@ -74,53 +74,52 @@ If this parameter is zero, the floating-point state on x86 systems is not switch
 ### -param lpStartAddress [in]
 
 A pointer to the application-defined function to be executed by the fiber and represents the starting address of the fiber. Execution of the newly created fiber does not begin until another fiber calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-switchtofiber">SwitchToFiber</a> function with this address. For more information on the fiber callback function, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pfiber_start_routine">FiberProc</a>.
+<a href="/windows/desktop/api/winbase/nf-winbase-switchtofiber">SwitchToFiber</a> function with this address. For more information on the fiber callback function, see 
+<a href="/windows/desktop/api/winbase/nc-winbase-pfiber_start_routine">FiberProc</a>.
 
 ### -param lpParameter [in, optional]
 
 A pointer to a variable that is passed to the fiber. The fiber can retrieve this data by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-getfiberdata">GetFiberData</a> macro.
+<a href="/windows/desktop/api/winnt/nf-winnt-getfiberdata">GetFiberData</a> macro.
 
 ## -returns
 
 If the function succeeds, the return value is the address of the fiber.
 
 If the function fails, the return value is NULL. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The number of fibers a process can create is limited by the available virtual memory. By default, every fiber has 1 megabyte of reserved stack space. Therefore, you can create at most 2028 fibers. If you reduce the default stack size, you can create more fibers. However, your application will have better performance if you use an alternate strategy for processing requests.
 
 Before a thread can schedule a fiber using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-switchtofiber">SwitchToFiber</a> function, it must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a> function so there is a fiber associated with the thread.
+<a href="/windows/desktop/api/winbase/nf-winbase-switchtofiber">SwitchToFiber</a> function, it must call the 
+<a href="/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a> function so there is a fiber associated with the thread.
 
 To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0400 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pfiber_start_routine">FiberProc</a>
+<a href="/windows/desktop/api/winbase/nc-winbase-pfiber_start_routine">FiberProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/fibers">Fibers</a>
+<a href="/windows/desktop/ProcThread/fibers">Fibers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-getfiberdata">GetFiberData</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-getfiberdata">GetFiberData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-switchtofiber">SwitchToFiber</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-switchtofiber">SwitchToFiber</a>

@@ -57,15 +57,14 @@ Sets the offset in the current offset transform.
 
 ### -param offset
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh847948(v=vs.85)">D2D1_POINT_2L</a></b>
+Type: <b><a href="/previous-versions/windows/desktop/legacy/hh847948(v=vs.85)">D2D1_POINT_2L</a></b>
 
 The new offset to apply to the offset transform.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createresourcetexture">ID2D1EffectContext::CreateResourceTexture</a>
+<a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createresourcetexture">ID2D1EffectContext::CreateResourceTexture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1offsettransform">ID2D1OffsetTransform</a>
-
+<a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1offsettransform">ID2D1OffsetTransform</a>

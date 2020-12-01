@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
  - EndMenu
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # EndMenu function
@@ -64,11 +65,11 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero. 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If a platform does not support <b>EndMenu</b>, send the owner of the active menu a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-cancelmode">WM_CANCELMODE</a> message.
+If a platform does not support <b>EndMenu</b>, send the owner of the active menu a <a href="/windows/desktop/winmsg/wm-cancelmode">WM_CANCELMODE</a> message.
 
 ## -see-also
 
@@ -76,7 +77,7 @@ If a platform does not support <b>EndMenu</b>, send the owner of the active menu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -84,5 +85,4 @@ If a platform does not support <b>EndMenu</b>, send the owner of the active menu
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-cancelmode">WM_CANCELMODE</a>
-
+<a href="/windows/desktop/winmsg/wm-cancelmode">WM_CANCELMODE</a>

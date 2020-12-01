@@ -54,7 +54,7 @@ The <b>ICertProperties</b> interface contains methods and properties that enable
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertProperties</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertProperties</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>ICertProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperties-add">Add</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperties-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a property to the collection.
@@ -81,7 +81,7 @@ Adds a property to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperties-clear">Clear</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperties-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all properties from the collection.
@@ -90,7 +90,7 @@ Removes all properties from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperties-initializefromcertificate">InitializeFromCertificate</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperties-initializefromcertificate">InitializeFromCertificate</a>
 </td>
 <td align="left" width="63%">
 Initializes the collection from the properties contained in a certificate.
@@ -99,7 +99,7 @@ Initializes the collection from the properties contained in a certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperties-remove">Remove</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperties-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a property from the collection by index value.
@@ -116,7 +116,7 @@ Removes a property from the collection by index value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperties-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperties-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -128,7 +128,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperties-get_count">Count</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperties-get_count">Count</a>
 
 
 </td>
@@ -142,7 +142,7 @@ Retrieves the number of properties in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertproperties-get_itembyindex">ItemByIndex</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertproperties-get_itembyindex">ItemByIndex</a>
 
 
 </td>
@@ -157,9 +157,8 @@ Retrieves a property from the collection by index number.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

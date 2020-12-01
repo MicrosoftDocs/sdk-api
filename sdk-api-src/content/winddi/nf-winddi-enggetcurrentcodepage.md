@@ -75,5 +75,4 @@ None
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-strobj_dwgetcodepage">STROBJ_dwGetCodePage</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-strobj_dwgetcodepage">STROBJ_dwGetCodePage</a>

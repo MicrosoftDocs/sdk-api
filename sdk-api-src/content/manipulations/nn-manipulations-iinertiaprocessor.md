@@ -54,7 +54,7 @@ The IInertiaProcessor interface handles calculations regarding object motion for
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInertiaProcessor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInertiaProcessor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInertiaProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInertiaProcessor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IInertiaProcessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete">Complete</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-complete">Complete</a>
 </td>
 <td align="left" width="63%">
 Optionally processes the given tick and raises the Completed event.
@@ -79,7 +79,7 @@ Optionally processes the given tick and raises the Completed event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-completetime">CompleteTime</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-completetime">CompleteTime</a>
 </td>
 <td align="left" width="63%">
 Processes the given tick and raises the Completed event.
@@ -88,7 +88,7 @@ Processes the given tick and raises the Completed event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-process">Process</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-process">Process</a>
 </td>
 <td align="left" width="63%">
 Performs calculations for the given tick and can raise the <b>Delta</b> or <b>Completed</b> event depending on whether extrapolation is completed or not. If extrapolation finished at the previous tick, the method is no-op.
@@ -97,7 +97,7 @@ Performs calculations for the given tick and can raise the <b>Delta</b> or <b>Co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-processtime">ProcessTime</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-processtime">ProcessTime</a>
 </td>
 <td align="left" width="63%">
 Performs calculations for the given tick and can raise the <b>Delta</b> or <b>Completed</b> event depending on whether extrapolation is completed or not.
@@ -106,7 +106,7 @@ Performs calculations for the given tick and can raise the <b>Delta</b> or <b>Co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-reset">Reset</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Initializes the processor with initial time stamp.
@@ -124,7 +124,7 @@ Initializes the processor with initial time stamp.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarybottom">BoundaryBottom</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarybottom">BoundaryBottom</a>
 
 
 </td>
@@ -140,7 +140,7 @@ Limits how far toward the bottom of the screen the target object can move.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundaryleft">BoundaryLeft</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundaryleft">BoundaryLeft</a>
 
 
 </td>
@@ -156,7 +156,7 @@ Limits how far toward the left of the screen the target object can move.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundaryright">BoundaryRight</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundaryright">BoundaryRight</a>
 
 
 </td>
@@ -172,7 +172,7 @@ Limits how far toward the right of the screen the target object can move.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarytop">BoundaryTop</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_boundarytop">BoundaryTop</a>
 
 
 </td>
@@ -188,7 +188,7 @@ Limits how far toward the top of the screen the target object can move.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredangulardeceleration">DesiredAngularDeceleration</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredangulardeceleration">DesiredAngularDeceleration</a>
 
 
 </td>
@@ -204,7 +204,7 @@ Specifies the desired rate that the target object will stop spinning in radians 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration">DesiredDeceleration</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddeceleration">DesiredDeceleration</a>
 
 
 </td>
@@ -220,7 +220,7 @@ Specifies the desired rate at which translation operations will decelerate.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddisplacement">DesiredDisplacement</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desireddisplacement">DesiredDisplacement</a>
 
 
 </td>
@@ -236,7 +236,7 @@ Specifies the desired distance that the object will travel.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredexpansion">DesiredExpansion</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredexpansion">DesiredExpansion</a>
 
 
 </td>
@@ -252,7 +252,7 @@ Specifies the desired change in the object's average radius.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredexpansiondeceleration">DesiredExpansionDeceleration</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredexpansiondeceleration">DesiredExpansionDeceleration</a>
 
 
 </td>
@@ -268,7 +268,7 @@ Specifies the rate at which the object will stop expanding.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredrotation">DesiredRotation</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_desiredrotation">DesiredRotation</a>
 
 
 </td>
@@ -284,7 +284,7 @@ Specifies the desired rotation on the current object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginbottom">ElasticMarginBottom</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginbottom">ElasticMarginBottom</a>
 
 
 </td>
@@ -300,7 +300,7 @@ Specifies the lower region for bouncing the target object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginleft">ElasticMarginLeft</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginleft">ElasticMarginLeft</a>
 
 
 </td>
@@ -316,7 +316,7 @@ Specifies the leftmost region for bouncing the target object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginright">ElasticMarginRight</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmarginright">ElasticMarginRight</a>
 
 
 </td>
@@ -332,7 +332,7 @@ Specifies the rightmost region for bouncing the target object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmargintop">ElasticMarginTop</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_elasticmargintop">ElasticMarginTop</a>
 
 
 </td>
@@ -348,7 +348,7 @@ Specifies the upper boundary for bouncing objects within the elastic region.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialangularvelocity">InitialAngularVelocity</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialangularvelocity">InitialAngularVelocity</a>
 
 
 </td>
@@ -364,7 +364,7 @@ Specifies the rotation of the target when movement begins.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialexpansionvelocity">InitialExpansionVelocity</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialexpansionvelocity">InitialExpansionVelocity</a>
 
 
 </td>
@@ -380,7 +380,7 @@ Specifies the rate of radius expansion for a target when the target was affected
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialoriginx">InitialOriginX</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialoriginx">InitialOriginX</a>
 
 
 </td>
@@ -396,7 +396,7 @@ Gets or puts the property designating the horizontal position of a target object
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialoriginy">InitialOriginY</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialoriginy">InitialOriginY</a>
 
 
 </td>
@@ -412,7 +412,7 @@ Gets or puts the property designating the vertical location for a target object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialradius">InitialRadius</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialradius">InitialRadius</a>
 
 
 </td>
@@ -428,7 +428,7 @@ Specifies the distance from the edge of the target to its center before the obje
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialtimestamp">InitialTimestamp</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialtimestamp">InitialTimestamp</a>
 
 
 </td>
@@ -444,7 +444,7 @@ Specifies the starting time stamp for a target object with inertia.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialvelocityx">InitialVelocityX</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialvelocityx">InitialVelocityX</a>
 
 
 </td>
@@ -460,7 +460,7 @@ Specifies the initial movement of the target object on the horizontal axis.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialvelocityy">InitialVelocityY</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-iinertiaprocessor-get_initialvelocityy">InitialVelocityY</a>
 
 
 </td>
@@ -477,5 +477,4 @@ Specifies the initial movement of the target object on the vertical axis.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/intertmanip-classes-and-interfaces">Classes and Interfaces</a>
-
+<a href="/windows/desktop/wintouch/intertmanip-classes-and-interfaces">Classes and Interfaces</a>

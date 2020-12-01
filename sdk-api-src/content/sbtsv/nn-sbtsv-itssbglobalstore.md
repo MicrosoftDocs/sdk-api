@@ -51,12 +51,12 @@ api_name:
 ## -description
 
 Exposes methods that query for target computers, sessions, environments, and farms that have been added 
-to the Remote Desktop Connection Broker (RD Connection Broker) store. Plug-ins can obtain an instance of the global store from the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovider">ITsSbProvider</a> 
+to the Remote Desktop Connection Broker (RD Connection Broker) store. Plug-ins can obtain an instance of the global store from the <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbprovider">ITsSbProvider</a> 
 object that they retrieve during initialization.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbGlobalStore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbGlobalStore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbGlobalStore</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbGlobalStore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITsSbGlobalStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbglobalstore-enumerateenvironmentsbyprovider">EnumerateEnvironmentsByProvider</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbglobalstore-enumerateenvironmentsbyprovider">EnumerateEnvironmentsByProvider</a>
 </td>
 <td align="left" width="63%">
 Returns an array that contains the environments present on the specified provider.
@@ -80,7 +80,7 @@ Returns an array that contains the environments present on the specified provide
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbglobalstore-enumeratefarms">EnumerateFarms</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbglobalstore-enumeratefarms">EnumerateFarms</a>
 </td>
 <td align="left" width="63%">
 Enumerates all the farms that have been added by the specified resource 
@@ -90,7 +90,7 @@ plug-in.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbglobalstore-enumeratesessions">EnumerateSessions</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbglobalstore-enumeratesessions">EnumerateSessions</a>
 </td>
 <td align="left" width="63%">
 Returns an array that contains sessions on the specified provider.
@@ -99,7 +99,7 @@ Returns an array that contains sessions on the specified provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbglobalstore-enumeratetargets">EnumerateTargets</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbglobalstore-enumeratetargets">EnumerateTargets</a>
 </td>
 <td align="left" width="63%">
 Returns an array that contains the specified targets present in the global store.
@@ -108,7 +108,7 @@ Returns an array that contains the specified targets present in the global store
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbglobalstore-getfarmproperty">GetFarmProperty</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbglobalstore-getfarmproperty">GetFarmProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a property of a farm.
@@ -117,20 +117,20 @@ Retrieves a property of a farm.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbglobalstore-querysessionbysessionid">QuerySessionBySessionId</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbglobalstore-querysessionbysessionid">QuerySessionBySessionId</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a> object associated with the given 
+Retrieves the <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a> object associated with the given 
 session ID. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbglobalstore-querytarget">QueryTarget</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbglobalstore-querytarget">QueryTarget</a>
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a> object for the given parameters.
+Retrieves the <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a> object for the given parameters.
 
 </td>
 </tr>
@@ -138,5 +138,4 @@ Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
-
+<a href="/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>

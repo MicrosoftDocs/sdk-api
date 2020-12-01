@@ -58,26 +58,25 @@ The
 ### -param hSection [in]
 
 Handle to a policy section, which is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-entercriticalpolicysection">EnterCriticalPolicySection</a> function.
+<a href="/windows/desktop/api/userenv/nf-userenv-entercriticalpolicysection">EnterCriticalPolicySection</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-entercriticalpolicysection">EnterCriticalPolicySection</a>
+<a href="/windows/desktop/api/userenv/nf-userenv-entercriticalpolicysection">EnterCriticalPolicySection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
-

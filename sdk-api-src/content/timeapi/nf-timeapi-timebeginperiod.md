@@ -67,17 +67,16 @@ Returns <b>TIMERR_NOERROR</b> if successful or <b>TIMERR_NOCANDO</b> if the reso
 
 ## -remarks
 
-Call this function immediately before using timer services, and call the <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timeendperiod">timeEndPeriod</a> function immediately after you are finished using the timer services.
+Call this function immediately before using timer services, and call the <a href="/windows/desktop/api/timeapi/nf-timeapi-timeendperiod">timeEndPeriod</a> function immediately after you are finished using the timer services.
 
-You must match each call to <b>timeBeginPeriod</b> with a call to <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timeendperiod">timeEndPeriod</a>, specifying the same minimum resolution in both calls. An application can make multiple <b>timeBeginPeriod</b> calls as long as each call is matched with a call to <b>timeEndPeriod</b>.
+You must match each call to <b>timeBeginPeriod</b> with a call to <a href="/windows/desktop/api/timeapi/nf-timeapi-timeendperiod">timeEndPeriod</a>, specifying the same minimum resolution in both calls. An application can make multiple <b>timeBeginPeriod</b> calls as long as each call is matched with a call to <b>timeEndPeriod</b>.
 
 This function affects a global Windows setting. Windows uses the lowest value (that is, highest resolution) requested by any process. Setting a higher resolution can improve the accuracy of time-out intervals in wait functions. However, it can also reduce overall system performance, because the thread scheduler switches tasks more often. High resolutions can also prevent the CPU power management system from entering power-saving modes. Setting a higher resolution does not improve the accuracy of the high-resolution performance counter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timer-functions">Multimedia Timer Functions</a>
+<a href="/windows/desktop/Multimedia/multimedia-timer-functions">Multimedia Timer Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>
-
+<a href="/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>

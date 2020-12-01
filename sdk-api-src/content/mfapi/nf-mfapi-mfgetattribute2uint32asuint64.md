@@ -56,7 +56,7 @@ Gets an attribute whose value is two <b>UINT32</b> values packed into a <b>UINT6
 
 ### -param pAttributes [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface of the attribute store.
 
 ### -param guidKey [in]
 
@@ -118,13 +118,12 @@ The attribute value is not a <b>UINT64</b>.
 
 ## -remarks
 
-Internally, this function calls <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint64">IMFAttributes::GetUINT64</a> to get the <b>UINT64</b> value, and <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-unpack2uint32asuint64">Unpack2UINT32AsUINT64</a> to unpack the two 32-bit values.
+Internally, this function calls <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint64">IMFAttributes::GetUINT64</a> to get the <b>UINT64</b> value, and <a href="/windows/desktop/api/mfapi/nf-mfapi-unpack2uint32asuint64">Unpack2UINT32AsUINT64</a> to unpack the two 32-bit values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

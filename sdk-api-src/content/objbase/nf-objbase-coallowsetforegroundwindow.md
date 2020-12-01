@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - CoAllowSetForegroundWindow
+req.apiset: ext-ms-win-com-ole32-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # CoAllowSetForegroundWindow function
@@ -55,13 +56,13 @@ api_name:
 
 ## -description
 
-This function passes the foreground privilege (the privilege to set the foreground window) from one process to another. The process that has the foreground privilege can call this function to pass that privilege on to a local COM server process. Note that calling <b>CoAllowSetForegroundWindow</b> only confers the privilege; it does not set the foreground window itself. Foreground and focus are only taken away from the client application when the target COM server calls either <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> or another API that does so indirectly.
+This function passes the foreground privilege (the privilege to set the foreground window) from one process to another. The process that has the foreground privilege can call this function to pass that privilege on to a local COM server process. Note that calling <b>CoAllowSetForegroundWindow</b> only confers the privilege; it does not set the foreground window itself. Foreground and focus are only taken away from the client application when the target COM server calls either <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> or another API that does so indirectly.
 
 ## -parameters
 
 ### -param pUnk [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the proxy of the 
+A pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the proxy of the 
       target COM server.
 
 ### -param lpvReserved [in]
@@ -126,8 +127,8 @@ The calling process does not currently possess the foreground privilege.
 ## -remarks
 
 The system restricts which processes can call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-allowsetforegroundwindow">AllowSetForegroundWindow</a> functions to 
+    <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> and 
+    <a href="/windows/desktop/api/winuser/nf-winuser-allowsetforegroundwindow">AllowSetForegroundWindow</a> functions to 
     set the foreground window. As a result, an application is blocked from stealing the focus from another application 
     even when the user is interacting with it. Use <b>CoAllowSetForegroundWindow</b> to pass on the foreground privilege from a process that has it to a process that does not yet have it. This can be done transitively: passing the privilege from one process to another, and then to another, and so on.
 
@@ -135,12 +136,12 @@ The system restricts which processes can call the
     that has a custom interface to get the same behavior that happens for OLE interfaces where a change of window is 
     expected (primarily associated with linking and embedding).
 
-Behind the scenes, the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iforegroundtransfer">IForegroundTransfer</a> interface is used to yield the foreground window between processes. A standard COM-provided proxy already implements <b>IForegroundTransfer</b>, so you don't have to do any extra work if you're using a standard proxy. Just call <b>CoAllowSetForegroundWindow</b> to transfer the foreground privilege to any out-of-process COM object.
+Behind the scenes, the <a href="/windows/desktop/api/objidl/nn-objidl-iforegroundtransfer">IForegroundTransfer</a> interface is used to yield the foreground window between processes. A standard COM-provided proxy already implements <b>IForegroundTransfer</b>, so you don't have to do any extra work if you're using a standard proxy. Just call <b>CoAllowSetForegroundWindow</b> to transfer the foreground privilege to any out-of-process COM object.
 
 
 #### Examples
 
-The following example demonstrates how a client process can create a local COM server, call <b>CoAllowSetForegroundWindow</b> to transfer the foreground privilege, and then call a function on  the COM server that in turn directly or indirectly calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>.
+The following example demonstrates how a client process can create a local COM server, call <b>CoAllowSetForegroundWindow</b> to transfer the foreground privilege, and then call a function on  the COM server that in turn directly or indirectly calls <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>.
 
 
 ```cpp
@@ -160,5 +161,4 @@ hr = exampleLocalServer->FunctionThatSetsForegroundWindow();
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iforegroundtransfer">IForegroundTransfer</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-iforegroundtransfer">IForegroundTransfer</a>

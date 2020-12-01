@@ -56,7 +56,7 @@ The <b>get__CustomCompositor</b> method retrieves the Video Mixing Renderer's cu
 
 ### -param Compositor [out]
 
-Receives an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrimagecompositor">IVMRImageCompositor</a> interface pointer .
+Receives an <a href="/windows/desktop/api/strmif/nn-strmif-ivmrimagecompositor">IVMRImageCompositor</a> interface pointer .
 
 ## -returns
 
@@ -64,19 +64,18 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -remarks
 
-Applications can provide their own compositors to perform custom image compositing. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>.
+Applications can provide their own compositors to perform custom image compositing. For more information, see <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>.
 
-The returned <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrimagecompositor">IVMRImageCompositor</a> interface has an outstanding reference count. The caller must release the interface.
+The returned <a href="/windows/desktop/api/strmif/nn-strmif-ivmrimagecompositor">IVMRImageCompositor</a> interface has an outstanding reference count. The caller must release the interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidvideorenderer">IMSVidVideoRenderer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get__customcompositorclass">IMSVidVideoRenderer::get__CustomCompositorClass</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get__customcompositorclass">IMSVidVideoRenderer::get__CustomCompositorClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put__customcompositor">IMSVidVideoRenderer::put__CustomCompositor</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put__customcompositor">IMSVidVideoRenderer::put__CustomCompositor</a>

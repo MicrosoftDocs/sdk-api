@@ -55,7 +55,7 @@ Suspends or releases a share root or directory tree in the Offline Files cache. 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesSuspend</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesSuspend</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesSuspend</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOfflineFilesSuspend</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IOfflineFilesSuspend</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessuspend-suspendroot">SuspendRoot</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessuspend-suspendroot">SuspendRoot</a>
 </td>
 <td align="left" width="63%">
 Suspend or release a share root or directory tree.
@@ -81,5 +81,4 @@ Suspend or release a share root or directory tree.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/offlinefiles/offline-files-api-interfaces">Offline Files API Interfaces</a>

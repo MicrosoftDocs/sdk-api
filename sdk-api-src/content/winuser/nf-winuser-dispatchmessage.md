@@ -54,6 +54,7 @@ api_name:
  - DispatchMessage
  - DispatchMessageA
  - DispatchMessageW
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # DispatchMessage function
@@ -61,13 +62,13 @@ api_name:
 
 ## -description
 
-Dispatches a message to a window procedure. It is typically used to dispatch a message retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> function.
+Dispatches a message to a window procedure. It is typically used to dispatch a message retrieved by the <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> function.
 
 ## -parameters
 
 ### -param lpMsg [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>*</b>
 
 A pointer to a structure that contains the message.
 
@@ -79,14 +80,14 @@ The return value specifies the value returned by the window procedure. Although 
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure must contain valid message values. If the <i>lpmsg</i> parameter points to a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message and the <i>lParam</i> parameter of the <b>WM_TIMER</b> message is not <b>NULL</b>, <i>lParam</i> points to a function that is called instead of the window procedure. 
+The <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure must contain valid message values. If the <i>lpmsg</i> parameter points to a <a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a> message and the <i>lParam</i> parameter of the <b>WM_TIMER</b> message is not <b>NULL</b>, <i>lParam</i> points to a function that is called instead of the window procedure. 
 
-Note that the application is responsible for retrieving and dispatching input messages to the dialog box. Most applications use the main message loop for this. However, to permit the user to move to and to select controls by using the keyboard, the application must call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isdialogmessagea">IsDialogMessage</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/dlgbox-programming-considerations">Dialog Box Keyboard Interface</a>.
+Note that the application is responsible for retrieving and dispatching input messages to the dialog box. Most applications use the main message loop for this. However, to permit the user to move to and to select controls by using the keyboard, the application must call <a href="/windows/desktop/api/winuser/nf-winuser-isdialogmessagea">IsDialogMessage</a>. For more information, see <a href="/windows/desktop/dlgbox/dlgbox-programming-considerations">Dialog Box Keyboard Interface</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-messages-and-message-queues">Creating a Message Loop</a>.
+For an example, see <a href="/windows/desktop/winmsg/using-messages-and-message-queues">Creating a Message Loop</a>.
 
 <div class="code"></div>
 
@@ -96,23 +97,23 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isdialogmessagea">IsDialogMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-isdialogmessagea">IsDialogMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
+<a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
 
 
 
@@ -120,9 +121,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-translatemessage">TranslateMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-timer">WM_TIMER</a>
-
+<a href="/windows/desktop/winmsg/wm-timer">WM_TIMER</a>

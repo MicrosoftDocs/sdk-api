@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets a formatted, Unicode string representation of a property value stored in a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. This function allocates memory for the output string.
+Gets a formatted, Unicode string representation of a property value stored in a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure. This function allocates memory for the output string.
 
 ## -parameters
 
@@ -58,19 +58,19 @@ Gets a formatted, Unicode string representation of a property value stored in a 
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> that names the property whose value is being retrieved.
+Reference to a <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> that names the property whose value is being retrieved.
 
 ### -param propvar [in]
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the type and value of the property.
+Reference to a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure that contains the type and value of the property.
 
 ### -param pdff [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a></b>
 
-One or more flags that specify the format to apply to the property string. See <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a> for possible values.
+One or more flags that specify the format to apply to the property string. See <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a> for possible values.
 
 ### -param ppszDisplay [out]
 
@@ -126,34 +126,34 @@ Indicates allocation failed.
 
 ## -remarks
 
-This function calls the schema subsystem's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertysystem-formatfordisplayalloc">IPropertySystem::FormatForDisplayAlloc</a>. That call provides a Unicode string representation of a property value, with additional formatting based on one or more <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a>. If the <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> is not recognized by the schema subsystem, <b>IPropertySystem::FormatForDisplayAlloc</b> attempts to format the value according to the value's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a>.
+This function calls the schema subsystem's implementation of <a href="/windows/desktop/api/propsys/nf-propsys-ipropertysystem-formatfordisplayalloc">IPropertySystem::FormatForDisplayAlloc</a>. That call provides a Unicode string representation of a property value, with additional formatting based on one or more <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a>. If the <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> is not recognized by the schema subsystem, <b>IPropertySystem::FormatForDisplayAlloc</b> attempts to format the value according to the value's <a href="/previous-versions/windows/desktop/legacy/ms221127(v=vs.85)">VARTYPE</a>.
 
-You must initialize Component Object Model (COM) with <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> before you call <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psformatfordisplayalloc">PSFormatForDisplayAlloc</a>.
+You must initialize Component Object Model (COM) with <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="/windows/desktop/api/ole2/nf-ole2-oleinitialize">OleInitialize</a> before you call <a href="/windows/desktop/api/propsys/nf-propsys-psformatfordisplayalloc">PSFormatForDisplayAlloc</a>.
 
-The function allocates memory through <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and returns a pointer to that memory through the <i>ppszDisplay</i> parameter. The calling application must use <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release that resource when it is no longer needed.
+The function allocates memory through <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> and returns a pointer to that memory through the <i>ppszDisplay</i> parameter. The calling application must use <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release that resource when it is no longer needed.
 
-The purpose of this function is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information on how the property description schema influences the formatting of the value, see the following topics:
+The purpose of this function is to convert data into a string suitable for display to the user. The value is formatted according to the current locale, the language of the user, the <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a>, and the property description specified by the property key. For information on how the property description schema influences the formatting of the value, see the following topics:
                 
                 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-displayinfo">displayInfo</a>
+<a href="/windows/desktop/properties/propdesc-schema-displayinfo">displayInfo</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">stringFormat</a>
+<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">stringFormat</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-booleanformat">booleanFormat</a>
+<a href="/windows/desktop/properties/propdesc-schema-booleanformat">booleanFormat</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-numberformat">numberFormat</a>
+<a href="/windows/desktop/properties/propdesc-schema-numberformat">numberFormat</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-nmdatetimeformata">NMDATETIMEFORMAT</a>
+<a href="/windows/desktop/api/commctrl/ns-commctrl-nmdatetimeformata">NMDATETIMEFORMAT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-enumeratedlist">enumeratedList</a>
+<a href="/windows/desktop/properties/propdesc-schema-enumeratedlist">enumeratedList</a>
 </li>
 </ul>
  
@@ -163,7 +163,7 @@ The purpose of this function is to convert data into a string suitable for displ
 
 The output string can contain Unicode directional characters. These nonspacing characters influence the Unicode bidirectional algorithm so that the values appear correctly when a left-to-right (LTR) language is drawn on a right-to-left (RTL) window, or an RTL is drawn on a LTR window. These characters include the following: <code>"\x200e", "\x200f", "\x202a", "\x202b", "\x202c", "\x202d", "\x202e".</code>
 
-The following properties use special formats and are unaffected by the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a>. Note that examples cited are for strings with a current locale set to English; typically, output is localized except where noted.
+The following properties use special formats and are unaffected by the <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a>. Note that examples cited are for strings with a current locale set to English; typically, output is localized except where noted.
 
                 
 
@@ -269,7 +269,7 @@ If the property key does not correspond to a property description in any of the 
 </tr>
 <tr>
 <td>VT_FILETIME</td>
-<td>Date/time string as specified by <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a> and the current locale. PDFF_SHORTTIME and PDFF_SHORTDATE are the default. For example, "11/13/2006 3:22 PM".</td>
+<td>Date/time string as specified by <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_format_flags">PROPDESC_FORMAT_FLAGS</a> and the current locale. PDFF_SHORTTIME and PDFF_SHORTDATE are the default. For example, "11/13/2006 3:22 PM".</td>
 </tr>
 <tr>
 <td>Numeric VARTYPE</td>
@@ -289,7 +289,7 @@ If the property key does not correspond to a property description in any of the 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psformatfordisplayalloc">PSFormatForDisplayAlloc</a> to format a rating value.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propsys/nf-propsys-psformatfordisplayalloc">PSFormatForDisplayAlloc</a> to format a rating value.
 
 
 ```cpp
@@ -314,13 +314,12 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psformatfordisplay">PSFormatForDisplay</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-psformatfordisplay">PSFormatForDisplay</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psformatpropertyvalue">PSFormatPropertyValue</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-psformatpropertyvalue">PSFormatPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-
+<a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>

@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 Writes an Xmlns attribute to the current element.
-      <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartelement">WsWriteStartElement</a> must be called before an attribute can be written and if the number of attributes exceeds the maximum number of attributes permitted for the writer the function returns <b>WS_E_QUOTA_EXCEEDED</b>.
-      (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
+      <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartelement">WsWriteStartElement</a> must be called before an attribute can be written and if the number of attributes exceeds the maximum number of attributes permitted for the writer the function returns <b>WS_E_QUOTA_EXCEEDED</b>.
+      (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 ## -parameters
 
 ### -param writer [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the Xmlns attribute is written.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the Xmlns attribute is written.  The pointer must reference a valid <b>XML Writer</b> object.
 
 ### -param prefix [in, optional]
 
@@ -81,7 +81,7 @@ Determines whether to use a single or a double quote for the attribute value.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -150,4 +150,3 @@ The following conditions apply:<ul>
 <li>If a non-empty prefix is specified with an empty namespace <b>WS_E_INVALID_FORMAT</b> is returned.
       </li>
 </ul>
-

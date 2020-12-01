@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/session-timeout">Session.Timeout</a>
-
+<a href="/windows/desktop/WinRM/session-timeout">Session.Timeout</a>

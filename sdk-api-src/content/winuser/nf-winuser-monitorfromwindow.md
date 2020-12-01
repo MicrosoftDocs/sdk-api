@@ -45,6 +45,7 @@ api_location:
  - minuser.dll
 api_name:
  - MonitorFromWindow
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # MonitorFromWindow function
@@ -115,17 +116,16 @@ If the window is currently minimized, <b>MonitorFromWindow</b> uses the rectangl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfrompoint">MonitorFromPoint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-monitorfrompoint">MonitorFromPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-monitorfromrect">MonitorFromRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-monitorfromrect">MonitorFromRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors-functions">Multiple Display Monitors Functions</a>
+<a href="/windows/desktop/gdi/multiple-display-monitors-functions">Multiple Display Monitors Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>
-
+<a href="/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>

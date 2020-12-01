@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a> from four <code>int8_t</code> arguments.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a> from four <code>int8_t</code> arguments.
 
 This constructor initializes a new instance of **XMUNIBBLE4** from four <code>int8_t</code> arguments.
 
@@ -101,7 +101,6 @@ instance.v =  ( (uint16_t)_w1 << 12) |
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmunibble4-ctor">XMUNIBBLE4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmunibble4-ctor">XMUNIBBLE4 Constructors</a>

@@ -93,5 +93,4 @@ Out of memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iksformatsupport">IKsFormatSupport Interface</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iksformatsupport">IKsFormatSupport Interface</a>

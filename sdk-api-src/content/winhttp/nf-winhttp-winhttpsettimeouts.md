@@ -56,8 +56,8 @@ The <b>WinHttpSetTimeouts</b> function sets time-outs involved with HTTP transac
 
 ### -param hInternet [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>.
+The <a href="/windows/desktop/WinHttp/hinternet-handles-in-winhttp">HINTERNET</a> handle returned by 
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a> or <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>.
 
 ### -param nResolveTimeout [in]
 
@@ -82,7 +82,7 @@ A value of type integer that specifies the time-out value, in milliseconds, to r
 ## -returns
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among the error codes returned are the following.
 
 <table>
 <tr>
@@ -148,14 +148,14 @@ One or more of the timeout parameters has a negative value other than -1.
 
 ## -remarks
 
-Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>), this function operates synchronously. The return value indicates success or failure.  To get extended error information, call 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 A value of 0 or -1 sets a time-out to wait infinitely.  A value greater than 0 sets the time-out value in milliseconds.  For example, 30,000 would set the time-out to 30 seconds.  All negative values other than -1 cause the function to fail with ERROR_INVALID_PARAMETER.
 
-<div class="alert"><b>Important</b>  If a small timeout is set using <a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpsetoption">WinHttpSetOption</a> and <a href="https://docs.microsoft.com/windows/desktop/WinHttp/option-flags">WINHTTP_OPTION_RECEIVE_TIMEOUT</a>, it can override the value set with the <i>dwReceiveTimeout</i> parameter, causing a response to terminate earlier than expected. To avoid this, do not set a timeout with the <b>WINHTTP_OPTION_RECEIVE_TIMEOUT</b> option that is smaller than the value set using <i>dwReceiveTimeout</i>.</div>
+<div class="alert"><b>Important</b>  If a small timeout is set using <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpsetoption">WinHttpSetOption</a> and <a href="/windows/desktop/WinHttp/option-flags">WINHTTP_OPTION_RECEIVE_TIMEOUT</a>, it can override the value set with the <i>dwReceiveTimeout</i> parameter, causing a response to terminate earlier than expected. To avoid this, do not set a timeout with the <b>WINHTTP_OPTION_RECEIVE_TIMEOUT</b> option that is smaller than the value set using <i>dwReceiveTimeout</i>.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHTTP start page.</div>
+<div class="alert"><b>Note</b>  For Windows XP and Windows 2000, see the <a href="/windows/desktop/WinHttp/winhttp-start-page">Run-Time Requirements</a> section of the WinHTTP start page.</div>
 <div> </div>
 
 #### Examples
@@ -190,25 +190,24 @@ This example shows how to set new time-out values using
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
+<a href="/windows/desktop/WinHttp/about-winhttp">About Microsoft Windows HTTP Services (WinHTTP)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
+<a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a>
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpclosehandle">WinHttpCloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpconnect">WinHttpConnect</a>
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpconnect">WinHttpConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopen">WinHttpOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>
-
+<a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpopenrequest">WinHttpOpenRequest</a>

@@ -52,13 +52,13 @@ api_name:
 
 Specifies a trace provider to enable in the trace session.
 
-To get this interface, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-createtracedataprovider">ITraceDataProviderCollection::CreateTraceDataProvider</a> method.
+To get this interface, call the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-createtracedataprovider">ITraceDataProviderCollection::CreateTraceDataProvider</a> method.
 
-You can also use XML to define the provider. For more information, see the Remarks section of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>.
+You can also use XML to define the provider. For more information, see the Remarks section of <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITraceDataProvider</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITraceDataProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITraceDataProvider</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITraceDataProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,7 +74,7 @@ The <b>ITraceDataProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-getregisteredprocesses">GetRegisteredProcesses</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-getregisteredprocesses">GetRegisteredProcesses</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of processes that have registered as an Event Tracing for Windows provider.
@@ -83,7 +83,7 @@ Retrieves a list of processes that have registered as an Event Tracing for Windo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-getsecurity">GetSecurity</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-getsecurity">GetSecurity</a>
 </td>
 <td align="left" width="63%">
 Retrieves the security information for the trace data provider.
@@ -92,7 +92,7 @@ Retrieves the security information for the trace data provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-query">Query</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-query">Query</a>
 </td>
 <td align="left" width="63%">
 Retrieves details about a registered provider.
@@ -101,7 +101,7 @@ Retrieves details about a registered provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-resolve">Resolve</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-resolve">Resolve</a>
 </td>
 <td align="left" width="63%">
 Merges the details about a provider with this instance.
@@ -110,7 +110,7 @@ Merges the details about a provider with this instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-setsecurity">SetSecurity</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-setsecurity">SetSecurity</a>
 </td>
 <td align="left" width="63%">
 Sets the security information for the trace data provider.
@@ -128,7 +128,7 @@ Sets the security information for the trace data provider.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_displayname">DisplayName</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_displayname">DisplayName</a>
 
 
 </td>
@@ -144,7 +144,7 @@ Retrieves or sets the display name of the provider.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_filterdata">FilterData</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_filterdata">FilterData</a>
 
 
 </td>
@@ -160,7 +160,7 @@ Retrieves or sets arbitrary data that is sent to the trace data provider for fil
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_filterenabled">FilterEnabled</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_filterenabled">FilterEnabled</a>
 
 
 </td>
@@ -176,7 +176,7 @@ Retrieves or sets a value that determines whether the filter data is used to ena
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_filtertype">FilterType</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_filtertype">FilterType</a>
 
 
 </td>
@@ -192,7 +192,7 @@ Retrieves or sets a provider-defined filter type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_guid">Guid</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_guid">Guid</a>
 
 
 </td>
@@ -208,7 +208,7 @@ Retrieves or sets the provider's GUID.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_keywordsall">KeywordsAll</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_keywordsall">KeywordsAll</a>
 
 
 </td>
@@ -217,14 +217,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the list of keywords that restricts the category of events that you want the provider to write. The restrictions are in addition to those provided by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_keywordsany">ITraceDataProvider::KeywordsAny</a> property. 
+Retrieves the list of keywords that restricts the category of events that you want the provider to write. The restrictions are in addition to those provided by the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_keywordsany">ITraceDataProvider::KeywordsAny</a> property. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_keywordsany">KeywordsAny</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_keywordsany">KeywordsAny</a>
 
 
 </td>
@@ -240,7 +240,7 @@ Retrieves the list of keywords that determine the category of events that you wa
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_level">Level</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_level">Level</a>
 
 
 </td>
@@ -256,7 +256,7 @@ Retrieves the level of information used to enable the provider.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_properties">Properties</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_properties">Properties</a>
 
 
 </td>
@@ -275,13 +275,12 @@ Retrieves the list of extended data that the provider provides.
 
 If you want to retrieve only the display name or GUID of a specific provider or  retrieve only the list of processes registered as that provider, you can get this interface by calling the <b>CoCreateInstance</b> function and passing __uuidof(TraceDataProvider) as the class identifier and __uuidof(ITraceDataProvider) as the interface identifier. To create the object from a script for this purpose, use the Pla.TraceDataProvider program identifier. 
 
-Do not use the <b>CoCreateInstance</b> function if you are going to add the interface to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a> collection.
+Do not use the <b>CoCreateInstance</b> function if you are going to add the interface to the <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a> collection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_tracedataproviders">ITraceDataCollector::TraceDataProviders</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_tracedataproviders">ITraceDataCollector::TraceDataProviders</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>

@@ -68,22 +68,21 @@ Flag that indicates whether the thread is to be terminated.
 
 A worker thread is a thread that is created to offload work from a main thread so that the main thread is not blocked.
 
-A  <b>CLUS_WORKER</b> structure is returned as output from  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkercreate">ClusWorkerCreate</a> and passed as input to  <a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkercheckterminate">ClusWorkerCheckTerminate</a> and  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pclusapi_clus_worker_terminate">ClusWorkerTerminate</a>. There is never any reason for an application or  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> to alter the members of a  <b>CLUS_WORKER</b> structure. This structure should always be treated as read-only.
+A  <b>CLUS_WORKER</b> structure is returned as output from  <a href="/windows/desktop/api/resapi/nf-resapi-clusworkercreate">ClusWorkerCreate</a> and passed as input to  <a href="/windows/desktop/api/resapi/nf-resapi-clusworkercheckterminate">ClusWorkerCheckTerminate</a> and  <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pclusapi_clus_worker_terminate">ClusWorkerTerminate</a>. There is never any reason for an application or  <a href="/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> to alter the members of a  <b>CLUS_WORKER</b> structure. This structure should always be treated as read-only.
 
 The 
-<b>Terminate</b> member prevents a potential race condition that can occur if multiple threads call the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pclusapi_clus_worker_terminate">ClusWorkerTerminate</a> function to end the same worker thread. The first call sets 
+<b>Terminate</b> member prevents a potential race condition that can occur if multiple threads call the  <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pclusapi_clus_worker_terminate">ClusWorkerTerminate</a> function to end the same worker thread. The first call sets 
 <b>Terminate</b> to <b>TRUE</b>. Subsequent calls return immediately after checking the value of 
 <b>Terminate</b> without waiting for the thread to exit.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkercheckterminate">ClusWorkerCheckTerminate</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-clusworkercheckterminate">ClusWorkerCheckTerminate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkercreate">ClusWorkerCreate</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-clusworkercreate">ClusWorkerCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-clusworkerterminate">ClusWorkerTerminate</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-clusworkerterminate">ClusWorkerTerminate</a>

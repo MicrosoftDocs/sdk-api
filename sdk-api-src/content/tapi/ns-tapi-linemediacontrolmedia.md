@@ -56,15 +56,15 @@ api_name:
 
 The 
 <b>LINEMEDIACONTROLMEDIA</b> structure describes a media action to be executed when detecting a media type change. It is used as an entry in an array. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol">lineSetMediaControl</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetmediacontrol">TSPI_lineSetMediaControl</a> functions use this structure.
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol">lineSetMediaControl</a> and 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linesetmediacontrol">TSPI_lineSetMediaControl</a> functions use this structure.
 
 ## -struct-fields
 
 ### -field dwMediaModes
 
 One or more media types. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>.
 
 ### -field dwDuration
 
@@ -73,7 +73,7 @@ Duration of time during which the media type should be present before the applic
 ### -field dwMediaControl
 
 Media control action. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediacontrol--constants">LINEMEDIACONTROL_ Constants</a>.
+<a href="/windows/desktop/Tapi/linemediacontrol--constants">LINEMEDIACONTROL_ Constants</a>.
 
 ## -remarks
 
@@ -81,13 +81,12 @@ This structure may not be extended.
 
 The 
 <b>LINEMEDIACONTROLMEDIA</b> structure defines a triple &lt;media type(s), duration, media-control action&gt;. An array of these triples is passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol">lineSetMediaControl</a> function to set the media control actions triggered by media type changes for a given call. When a change to a listed media type is detected, then the corresponding action on the media stream is invoked.
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol">lineSetMediaControl</a> function to set the media control actions triggered by media type changes for a given call. When a change to a listed media type is detected, then the corresponding action on the media stream is invoked.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetmediacontrol">TSPI_lineSetMediaControl</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linesetmediacontrol">TSPI_lineSetMediaControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol">lineSetMediaControl</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol">lineSetMediaControl</a>

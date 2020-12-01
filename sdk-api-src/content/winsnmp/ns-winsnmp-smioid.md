@@ -52,15 +52,15 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>smiOID</b> structure passes object identifiers to multiple WinSNMP functions. The structure also receives the variable name of a variable binding entry in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetvb">SnmpGetVb</a> function.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetvb">SnmpGetVb</a> function.
 
 The 
 <b>smiOID</b> structure contains a pointer to a variable length array of a named object's subidentifiers. The structure can be a member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a> structure.
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a> structure.
 
 ## -struct-fields
 
@@ -80,44 +80,43 @@ In an
 The Microsoft WinSNMP implementation allocates and deallocates memory for all output 
 <b>smiOID</b> structures. The WinSNMP application should not free memory that the implementation allocates for the <b>ptr</b> member of an 
 <b>smiOID</b> structure. Instead, the application must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a> function to free the memory.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a> function to free the memory.
 
 Because the WinSNMP application allocates memory for input descriptor objects with variable lengths, it must free that memory. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-data-management-concepts">WinSNMP Data Management Concepts</a>.
+<a href="/windows/desktop/SNMP/winsnmp-data-management-concepts">WinSNMP Data Management Concepts</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetvb">SnmpGetVb</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetvb">SnmpGetVb</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpoidcompare">SnmpOidCompare</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpoidcompare">SnmpOidCompare</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpoidcopy">SnmpOidCopy</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpoidcopy">SnmpOidCopy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpoidtostr">SnmpOidToStr</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpoidtostr">SnmpOidToStr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtooid">SnmpStrToOid</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstrtooid">SnmpStrToOid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
+<a href="/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-structures">WinSNMP Structures</a>
+<a href="/windows/desktop/SNMP/winsnmp-structures">WinSNMP Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a>
-
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a>

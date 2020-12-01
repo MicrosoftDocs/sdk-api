@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>GetRedrawAlways</code> method indicates whether the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter redraws the entire output bitmap for each sample.
+The <code>GetRedrawAlways</code> method indicates whether the <a href="/windows/desktop/DirectShow/line-21-decoder-filter">Line 21 Decoder</a> filter redraws the entire output bitmap for each sample.
 
 ## -parameters
 
@@ -111,13 +111,12 @@ Success
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
+<a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setredrawalways">IAMLine21Decoder::SetRedrawAlways</a>
-
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setredrawalways">IAMLine21Decoder::SetRedrawAlways</a>

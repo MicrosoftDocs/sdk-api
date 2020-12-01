@@ -57,7 +57,7 @@ Retrieves the local name of the file.
 ### -param pVal [out]
 
 Null-terminated string that contains the name of the file on the client. The name is fully qualified. Call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppName</i> when done.
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function to free <i>ppName</i> when done.
 
 ## -returns
 
@@ -66,15 +66,15 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 ## -remarks
 
 The local file name is set when you call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">AddFile</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">AddFileSet</a> methods of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> interface.
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">AddFile</a> or 
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">AddFileSet</a> methods of the 
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> interface.
 
 
 #### Examples
 
 The following example shows how to retrieve the local and remote file names and progress-related information from the  
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a> interface. The example assumes the 
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a> interface. The example assumes the 
 <b>IBackgroundCopyFile</b> interface pointer is valid.
 
 
@@ -113,17 +113,16 @@ if (pszRemoteFileName)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
+<a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyfile-getremotename">IBackgroundCopyFile::GetRemoteName</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyfile-getremotename">IBackgroundCopyFile::GetRemoteName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">IBackgroundCopyJob::AddFile</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfile">IBackgroundCopyJob::AddFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a>

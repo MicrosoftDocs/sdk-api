@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extracts data from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure into a newly allocated strings in a newly allocated vector.
+Extracts data from a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure into a newly allocated strings in a newly allocated vector.
 
 ## -parameters
 
@@ -58,19 +58,19 @@ Extracts data from a <a href="https://docs.microsoft.com/windows/desktop/api/pro
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Reference to a source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param pprgsz [out]
 
 Type: <b>PWSTR**</b>
 
-When this function returns, contains a pointer to a vector of strings extracted from source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+When this function returns, contains a pointer to a vector of strings extracted from source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param pcElem [out]
 
 Type: <b>ULONG*</b>
 
-When this function returns, containsthe count of string elements extracted from source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+When this function returns, containsthe count of string elements extracted from source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -returns
 
@@ -101,7 +101,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> was not of the appropriate type.
+The <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> was not of the appropriate type.
 
 </td>
 </tr>
@@ -109,9 +109,9 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-p
 
 ## -remarks
 
-This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a vector of string values.
+This helper function is used in places where the calling application expects a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a vector of string values.
 
-This helper function works for the following<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>types:
+This helper function works for the following<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>types:
             
 
 <ul>
@@ -119,14 +119,14 @@ This helper function works for the following<a href="https://docs.microsoft.com/
 <li>VT_VECTOR | VT_BSTR</li>
 <li>VT_ARRAY | VT_BSTR</li>
 </ul>
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has a supported type, this function extracts a vector of string values into a newly allocated vector of newly allocated strings. The calling application is responsible for using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release both the strings contained in the output vector, and the output vector itself, when they are no longer needed.
+If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has a supported type, this function extracts a vector of string values into a newly allocated vector of newly allocated strings. The calling application is responsible for using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release both the strings contained in the output vector, and the output vector itself, when they are no longer needed.
 
-If a <b>BSTR</b> in the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> is <b>NULL</b>, this function will place a newly allocated string containing "" into the output vector.
+If a <b>BSTR</b> in the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> is <b>NULL</b>, this function will place a newly allocated string containing "" into the output vector.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostringvectoralloc">PropVariantToStringVectorAlloc</a> to access a string vector value in a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostringvectoralloc">PropVariantToStringVectorAlloc</a> to access a string vector value in a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
 
 
 ```cpp
@@ -160,21 +160,20 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstringvector">InitPropVariantFromStringVector</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromstringvector">InitPropVariantFromStringVector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetstringelem">PropVariantGetStringElem</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantgetstringelem">PropVariantGetStringElem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostring">PropVariantToString</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostring">PropVariantToString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostringvector">PropVariantToStringVector</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttostringvector">PropVariantToStringVector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttostringarray">VariantToStringArray</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttostringarray">VariantToStringArray</a>

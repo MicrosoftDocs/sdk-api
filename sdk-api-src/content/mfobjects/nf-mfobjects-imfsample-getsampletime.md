@@ -103,9 +103,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-samples">Media Samples</a>
-
+<a href="/windows/desktop/medfound/media-samples">Media Samples</a>

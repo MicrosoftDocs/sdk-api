@@ -98,5 +98,4 @@ If the application uses <a href="/windows/win32/api/d3d11/ne-d3d11-d3d11_query">
 
 ## -see-also
 
-[ID3D11VideoContext interface](/windows/win32/api/d3d11/nn-d3d11-id3d11videocontext)
-
+[ID3D11VideoContext interface](./nn-d3d11-id3d11videocontext.md)

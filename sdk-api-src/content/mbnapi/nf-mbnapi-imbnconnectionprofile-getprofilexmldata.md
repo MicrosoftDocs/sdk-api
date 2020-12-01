@@ -59,7 +59,7 @@ Gets the XML data of the current profile.
 
 ### -param profileData [out, retval]
 
-A pointer to a string containing the profile in XML format.  If the method returns S_OK, the calling application must free the allocated memory by calling <a href="https://msdn.microsoft.com/library/ms221481.aspx">SysFreeString</a>.
+A pointer to a string containing the profile in XML format.  If the method returns S_OK, the calling application must free the allocated memory by calling <a href="/windows/win32/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 ## -returns
 
@@ -67,9 +67,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The data provided by this method complies with the <a href="https://docs.microsoft.com/windows/desktop/mbn/schema-schema">Mobile Broadband Profile Schema Reference</a>.  The data will not contain the password used in the profile.
+The data provided by this method complies with the <a href="/windows/desktop/mbn/schema-schema">Mobile Broadband Profile Schema Reference</a>.  The data will not contain the password used in the profile.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a>

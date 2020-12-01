@@ -105,10 +105,9 @@ An unspecified error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-enablelanguageprofile">ITfInputProcessorProfiles::EnableLanguageProfile
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-enablelanguageprofile">ITfInputProcessorProfiles::EnableLanguageProfile
       </a>
-

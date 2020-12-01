@@ -97,5 +97,4 @@ An unexpected error has occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a>
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a>

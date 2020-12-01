@@ -75,9 +75,8 @@ The caller can compare the resulting hash code to the hash code for another obje
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacomparable-hashexactincremental">HashExactIncremental</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacomparable-hashexactincremental">HashExactIncremental</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable Interface</a>

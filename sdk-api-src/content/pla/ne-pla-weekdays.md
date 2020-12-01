@@ -94,5 +94,4 @@ Run every day of the week.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_days">ISchedule::Days</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_days">ISchedule::Days</a>

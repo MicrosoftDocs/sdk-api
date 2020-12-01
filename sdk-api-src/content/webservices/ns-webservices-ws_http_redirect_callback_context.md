@@ -56,7 +56,7 @@ Specifies the callback function and state for controlling the HTTP auto redirect
             
 
 See also, <b>WS_HTTP_REDIRECT_CALLBACK_CONTEXT</b> 
-                and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_HTTP_REDIRECT_CALLBACK_CONTEXT</a>.
+                and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_property_id">WS_CHANNEL_PROPERTY_HTTP_REDIRECT_CALLBACK_CONTEXT</a>.
 
 ## -struct-fields
 
@@ -67,4 +67,3 @@ Application specific callback for controlling HTTP auto redirections.
 ### -field state
 
 Application specific state that would be made available to the callback upon its invocation.
-

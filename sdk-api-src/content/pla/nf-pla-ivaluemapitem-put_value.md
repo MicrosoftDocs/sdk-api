@@ -66,13 +66,12 @@ The variant type is VT_UI4 if <a href="/windows/win32/api/pla/ne-pla-valuemaptyp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_value">IValueMap::Value</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-get_value">IValueMap::Value</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_valuemaptype">IValueMapItem::ValueMapType</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_valuemaptype">IValueMapItem::ValueMapType</a>

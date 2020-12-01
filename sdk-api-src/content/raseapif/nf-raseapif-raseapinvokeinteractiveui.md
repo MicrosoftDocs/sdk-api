@@ -66,22 +66,22 @@ Handle to the parent window for the dialog.
 ### -param pUIContextData [in]
 
 Pointer to context data for the interactive UI. The authentication protocol provides a pointer to this data as a member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_output">PPP_EAP_OUTPUT</a> structure. The RAS Connection Manager receives the 
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_output">PPP_EAP_OUTPUT</a> structure. The RAS Connection Manager receives the 
 <b>PPP_EAP_OUTPUT</b> structure as an output parameter from the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a> function.
+<a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a> function.
 
 ### -param dwSizeOfUIContextData [in]
 
 Specifies the size of the context data. The authentication protocol provides the size as a member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_output">PPP_EAP_OUTPUT</a> structure. The RAS Connection Manager receives the 
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_output">PPP_EAP_OUTPUT</a> structure. The RAS Connection Manager receives the 
 <b>PPP_EAP_OUTPUT</b> structure as an output parameter from the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a> function.
+<a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a> function.
 
 ### -param ppDataFromInteractiveUI
 
 [out[ Pointer to a pointer variable. On successful return, this pointer variable  points to a memory buffer that contains the data obtained by the interactive UI. The interactive UI allocates this memory. RAS passes this data back to the authentication protocol in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a> structure, then RAS frees this memory by calling 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a>. 
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a> structure, then RAS frees this memory by calling 
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a>. 
 
 
 
@@ -104,16 +104,16 @@ If the function fails in some other way, the return value should be an appropria
 
 The DLL that implements the 
 <b>RasEapInvokeInteractiveUI</b> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a> functions may support more than one authentication protocol. The <i>dwEapTypeId</i> parameter specifies the authentication protocol for which to invoke the interactive UI.
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a> functions may support more than one authentication protocol. The <i>dwEapTypeId</i> parameter specifies the authentication protocol for which to invoke the interactive UI.
 
 A pointer to the data returned from the interactive UI is passed back to the authentication protocol in the <b>pDataFromInteractiveUI</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a> structure. The 
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a> structure. The 
 <b>PPP_EAP_INPUT</b> structure is passed as a parameter to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a> function.
+<a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a> function.
 
 The interactive user interface must support 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-command">WM_COMMAND</a> messages where 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
+<a href="/windows/desktop/menurc/wm-command">WM_COMMAND</a> messages where 
+<a href="/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a>(<i>wParam</i>) equals IDCANCEL.
 
 ## -see-also
 
@@ -129,25 +129,24 @@ The interactive user interface must support
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a>
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_input">PPP_EAP_INPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_output">PPP_EAP_OUTPUT</a>
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_output">PPP_EAP_OUTPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a>
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapfreememory">RasEapFreeMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeconfigui">RasEapInvokeConfigUI</a>
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapinvokeconfigui">RasEapInvokeConfigUI</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>

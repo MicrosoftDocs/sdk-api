@@ -70,20 +70,20 @@ Indicates whether the resource is being taken offline or is being terminated. Sp
 Optional pointer to a <b>DWORD</b> which returns the resulting state of the resource, 
        which will be either <b>ClusterResourceFailed</b> or 
        <b>ClusterResourceOffline</b> (for a complete list of resource states see 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclusterresourcestate">GetClusterResourceState</a>). Pass 
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusterresourcestate">GetClusterResourceState</a>). Pass 
        <b>NULL</b> if you don't need this information.
 
 ### -param pfnLogEvent [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> function used by your resource 
+Pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a> function used by your resource 
        DLL. This pointer is passed to your resource DLL in the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pstartup_routine">Startup</a> entry point.
+       <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pstartup_routine">Startup</a> entry point.
 
 ### -param hResourceHandle [in]
 
 The Resource Monitor's handle to the resource. This handle is passed to your resource DLL in the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a> entry point and must be saved as part of the resource's 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/instance-data">instance data</a>.
+       <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a> entry point and must be saved as part of the resource's 
+       <a href="/previous-versions/windows/desktop/mscs/instance-data">instance data</a>.
 
 ## -returns
 
@@ -91,7 +91,7 @@ If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the 
        operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 Note that 
        <b>ResUtilTerminateServiceProcessFromResDll</b> 
@@ -106,5 +106,4 @@ You should only call
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/service-utility-functions">Service Utility Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/service-utility-functions">Service Utility Functions</a>

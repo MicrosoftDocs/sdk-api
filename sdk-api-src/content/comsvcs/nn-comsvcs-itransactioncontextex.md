@@ -53,11 +53,11 @@ api_name:
 Provides basic methods for a generic transactional object that begins a transaction. By calling the methods of this interface, you can compose the work of multiple COM+ objects in a single transaction and explicitly commit or abort the transaction.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a> and <b>ITransactionContextEx</b> provide the same functionality, but unlike <b>ITransactionContextEx</b>, <b>ITransactionContext</b> is compatible with Automation.
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a> and <b>ITransactionContextEx</b> provide the same functionality, but unlike <b>ITransactionContextEx</b>, <b>ITransactionContext</b> is compatible with Automation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionContextEx</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransactionContextEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionContextEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITransactionContextEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITransactionContextEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontextex-abort">Abort</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontextex-abort">Abort</a>
 </td>
 <td align="left" width="63%">
 Aborts the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
@@ -81,7 +81,7 @@ Aborts the work of all COM objects participating in the current transaction. The
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontextex-commit">Commit</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontextex-commit">Commit</a>
 </td>
 <td align="left" width="63%">
 Attempts to commit the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
@@ -90,7 +90,7 @@ Attempts to commit the work of all COM objects participating in the current tran
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontextex-createinstance">CreateInstance</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransactioncontextex-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
 Creates a COM object that can execute within the scope of the transaction that was initiated by the transaction context object.
@@ -103,7 +103,7 @@ Creates a COM object that can execute within the scope of the transaction that w
 
 Using the transaction context object to control a transaction limits the reuse of the business logic driving the transaction and should be used sparingly.
 
-You obtain a reference to the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a> interface by creating a transaction context object with the appropriate call, as in the following example.
+You obtain a reference to the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a> interface by creating a transaction context object with the appropriate call, as in the following example.
 
 <pre class="syntax" xml:space="preserve"><code>hr = CoCreateInstance(
        CLSID_TransactionContextEx, 
@@ -115,13 +115,12 @@ You obtain a reference to the <a href="https://docs.microsoft.com/windows/deskto
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/configuring-transactions">Configuring Transactions</a>
+<a href="/windows/desktop/cossdk/configuring-transactions">Configuring Transactions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/transactioncontextex">TransactionContextEx</a>
-
+<a href="/windows/desktop/cossdk/transactioncontextex">TransactionContextEx</a>

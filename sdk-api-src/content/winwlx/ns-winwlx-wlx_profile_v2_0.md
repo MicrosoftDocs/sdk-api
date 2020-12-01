@@ -57,7 +57,7 @@ api_name:
 <p class="CCE_Message">[The WLX_PROFILE_V2_0 structure is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>WLX_PROFILE_V2_0</b> structure contains profile information in addition to the information provided by 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v1_0">WLX_PROFILE_V1_0</a>.
+<a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v1_0">WLX_PROFILE_V1_0</a>.
 
 ## -struct-fields
 
@@ -81,7 +81,7 @@ Pointer to the policy file that will be applied to the user logging on.
 
 
 
-The string pointed to by <b>pszPolicy</b> must be separately allocated by your <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. It will be deallocated by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a>.
+The string pointed to by <b>pszPolicy</b> must be separately allocated by your <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL. It will be deallocated by <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a>.
 
 ### -field pszNetworkDefaultUserProfile
 
@@ -128,9 +128,8 @@ homepath=%logonServer%\share
 This structure is returned to Winlogon by your GINA DLL.
 
 Your GINA DLL may use two structures to provide profile information: <b>WLX_PROFILE_V2_0</b> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v1_0">WLX_PROFILE_V1_0</a>. The information in <b>WLX_PROFILE_V1_0</b> only includes the profile type and path to the profile.
+<a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v1_0">WLX_PROFILE_V1_0</a>. The information in <b>WLX_PROFILE_V1_0</b> only includes the profile type and path to the profile.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v1_0">WLX_PROFILE_V1_0</a>
-
+<a href="/windows/desktop/api/winwlx/ns-winwlx-wlx_profile_v1_0">WLX_PROFILE_V1_0</a>

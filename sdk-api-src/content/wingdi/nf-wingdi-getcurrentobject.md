@@ -141,36 +141,35 @@ If the function fails, the return value is <b>NULL</b>.
 
 ## -remarks
 
-An application can use the <b>GetCurrentObject</b> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> functions to retrieve descriptions of the graphic objects currently selected into the specified DC.
+An application can use the <b>GetCurrentObject</b> and <a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> functions to retrieve descriptions of the graphic objects currently selected into the specified DC.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/retrieving-graphic-object-attributes-and-selecting-new-graphic-objects">Retrieving Graphic-Object Attributes and Selecting New Graphic Objects</a>.
+For an example, see <a href="/windows/desktop/gdi/retrieving-graphic-object-attributes-and-selecting-new-graphic-objects">Retrieving Graphic-Object Attributes and Selecting New Graphic Objects</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcolorspacea">CreateColorSpace</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createcolorspacea">CreateColorSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>

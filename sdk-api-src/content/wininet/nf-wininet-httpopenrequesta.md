@@ -59,7 +59,7 @@ Creates an HTTP request handle.
 ### -param hConnect [in]
 
 A  handle to an HTTP session returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetconnecta">InternetConnect</a>.
+<a href="/windows/desktop/api/wininet/nf-wininet-internetconnecta">InternetConnect</a>.
 
 ### -param lpszVerb [in]
 
@@ -232,7 +232,7 @@ Does not attempt authentication automatically.
 </td>
 <td width="60%">
 Does not automatically handle redirection in 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a>.
+<a href="/windows/desktop/api/wininet/nf-wininet-httpsendrequesta">HttpSendRequest</a>.
 
 </td>
 </tr>
@@ -324,7 +324,7 @@ Uses secure transaction semantics. This translates to using Secure Sockets Layer
 ## -returns
 
 Returns an HTTP request handle if successful, or <b>NULL</b> otherwise. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -339,15 +339,15 @@ On Windows 7, Windows Server 2008 R2, and later, the <i>lpszVersion</i> param
 
 
 After the calling application has finished using the 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle returned by 
+<a href="/windows/desktop/WinInet/appendix-a-hinternet-handles">HINTERNET</a> handle returned by 
 <b>HttpOpenRequest</b>, it must be closed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetclosehandle">InternetCloseHandle</a> function.
+<a href="/windows/desktop/api/wininet/nf-wininet-internetclosehandle">InternetCloseHandle</a> function.
 
-<b>Note</b>   When a request is sent in asynchronous mode (the <i>dwFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a> specifies <b>INTERNET_FLAG_ASYNC</b>), and the <i>dwContext</i> parameter is zero (<b>INTERNET_NO_CALLBACK</b>), the callback function set with <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-internetsetstatuscallback">InternetSetStatusCallback</a> on the request handle will not be invoked, however, the call will still be performed in asynchronous mode. 
+<b>Note</b>   When a request is sent in asynchronous mode (the <i>dwFlags</i> parameter of <a href="/windows/desktop/api/wininet/nf-wininet-internetopena">InternetOpen</a> specifies <b>INTERNET_FLAG_ASYNC</b>), and the <i>dwContext</i> parameter is zero (<b>INTERNET_NO_CALLBACK</b>), the callback function set with <a href="/windows/desktop/api/wininet/nf-wininet-internetsetstatuscallback">InternetSetStatusCallback</a> on the request handle will not be invoked, however, the call will still be performed in asynchronous mode. 
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 > [!NOTE]
@@ -355,9 +355,8 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/http-sessions">HTTP Sessions</a>
+<a href="/windows/desktop/WinInet/http-sessions">HTTP Sessions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-
+<a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>

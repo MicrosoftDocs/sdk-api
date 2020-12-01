@@ -56,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION</a> structure that shares its color table with the device.
+Creates a <a href="/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION</a> structure that shares its color table with the device.
 
 
 <b>GdiEntry9</b> is defined as an alias for this function.
@@ -69,11 +69,11 @@ A valid DC compatible with the current display device.
 
 ### -param pbmi
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure that describes the requested <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION</a>.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure that describes the requested <a href="/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION</a>.
 
 ### -param iUsage
 
-Specifies the type of data contained in the <b>bmiColors</b> array member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure pointed to by <i>pbmi</i> (either logical palette indexes or literal RGB values). The following values are defined.
+Specifies the type of data contained in the <b>bmiColors</b> array member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure pointed to by <i>pbmi</i> (either logical palette indexes or literal RGB values). The following values are defined.
 
 
 
@@ -85,11 +85,11 @@ The <b>bmiColors</b> member is an array of 16-bit indexes into the logical palet
 
 #### (DIB_RGB_COLORS)
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure contains an array of literal RGB values.
+The <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure contains an array of literal RGB values.
 
 ### -param ppvBits
 
-Pointer to a pointer to the created <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION</a> data.
+Pointer to a pointer to the created <a href="/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION</a> data.
 
 ### -param hSectionApp
 
@@ -99,16 +99,15 @@ Reserved. Must be <b>NULL</b>.
 
 ## -returns
 
-If successful, this function returns a handle to a bitmap representing the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION</a>; otherwise it returns <b>NULL</b>.
+If successful, this function returns a handle to a bitmap representing the <a href="/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION</a>; otherwise it returns <b>NULL</b>.
 
 ## -remarks
 
-Calling this function ensures an identity palette, and no palette conversion when <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-blt">IDirectDrawSurface7::Blt</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a> are called.
+Calling this function ensures an identity palette, and no palette conversion when <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-blt">IDirectDrawSurface7::Blt</a> or <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a> are called.
 
 
-Applications are advised to use <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>, which can create 8-bit-per-pixel, identity-paletted surfaces in a manner independent of the operating system.
+Applications are advised to use <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>, which can create 8-bit-per-pixel, identity-paletted surfaces in a manner independent of the operating system.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
-
+<a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>

@@ -47,6 +47,7 @@ api_name:
  - ExtractAssociatedIcon
  - ExtractAssociatedIconA
  - ExtractAssociatedIconW
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ExtractAssociatedIconA function
@@ -96,7 +97,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 ## -remarks
 
-When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>ExtractAssociatedIcon</b> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
+When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>ExtractAssociatedIcon</b> by calling the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
 
 The <b>ExtractAssociatedIcon</b> function first looks for the indexed icon in the file specified by <i>lpIconPath</i>. If the function cannot obtain the icon handle from that file, and the file has an associated executable file, it looks in that executable file for an icon. Associations with executable files are based on file name extensions and are stored in the per-user part of the registry.
 
@@ -109,13 +110,12 @@ The <b>ExtractAssociatedIcon</b> function first looks for the indexed icon in th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extractassociatediconexa">ExtractAssociatedIconEx</a>
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extractassociatediconexa">ExtractAssociatedIconEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a>
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>
-
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>

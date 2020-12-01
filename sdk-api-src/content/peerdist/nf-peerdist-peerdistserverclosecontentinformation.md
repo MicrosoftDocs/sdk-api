@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-The <b>PeerDistServerCloseContentInformation</b> function closes the handle  opened by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>.
+The <b>PeerDistServerCloseContentInformation</b> function closes the handle  opened by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>.
 
 ## -parameters
 
 ### -param hPeerDist [in]
 
-The <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
+The <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 ### -param hContentInfo [in]
 
-The handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>.
+The handle returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>.
 
 ## -returns
 
@@ -101,5 +101,4 @@ The <b>PeerDistServerCloseContentInformation</b> closes the <b>PEERDIST_CONTENTI
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>
-
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformation">PeerDistServerOpenContentInformation</a>

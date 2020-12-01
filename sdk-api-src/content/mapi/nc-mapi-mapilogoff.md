@@ -58,7 +58,7 @@ The <b>MAPILogoff</b> function ends a session with the messaging system.
 
 ### -param lhSession [in]
 
-Handle for the Simple MAPI session to be terminated. Session handles are returned by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a> function and invalidated by <b>MAPILogoff</b>. The value of the <i>lhSession</i> parameter must represent a valid session; it cannot be zero.
+Handle for the Simple MAPI session to be terminated. Session handles are returned by the <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a> function and invalidated by <b>MAPILogoff</b>. The value of the <i>lhSession</i> parameter must represent a valid session; it cannot be zero.
 
 ### -param ulUIParam [in]
 
@@ -129,9 +129,8 @@ The call succeeded and the session was terminated.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
-
+<a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>

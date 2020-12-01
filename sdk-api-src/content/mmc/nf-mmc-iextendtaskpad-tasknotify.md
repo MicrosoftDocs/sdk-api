@@ -69,10 +69,10 @@ For the MMC-supplied taskpads, the VARIANT structure contains the command ID for
 The vt field is VT_I4 and the lVal field contains the command ID for the taskpad task or list-view button that was ed. List-view buttons apply only to list-view taskpads.
 
 A task command ID is specified in the nCommandID member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_task">MMC_TASK</a> structure, which is passed in the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-ienumtask-next">IEnumTASK::Next</a> method that MMC calls when it retrieves the information for that task during the setup of the taskpad.
+<a href="/windows/desktop/api/mmc/ns-mmc-mmc_task">MMC_TASK</a> structure, which is passed in the <a href="/windows/desktop/api/mmc/nf-mmc-ienumtask-next">IEnumTASK::Next</a> method that MMC calls when it retrieves the information for that task during the setup of the taskpad.
 
 A list-view button is the button specified in the szButtonText member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_listpad_info">MMC_LISTPAD_INFO</a> structure, which is passed in the <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-getlistpadinfo">IExtendTaskPad::GetListPadInfo</a> method that MMC calls when it is setting up the list-view taskpad. The list-view button command ID is specified in the nCommandID member of 
+<a href="/windows/desktop/api/mmc/ns-mmc-mmc_listpad_info">MMC_LISTPAD_INFO</a> structure, which is passed in the <a href="/windows/desktop/api/mmc/nf-mmc-iextendtaskpad-getlistpadinfo">IExtendTaskPad::GetListPadInfo</a> method that MMC calls when it is setting up the list-view taskpad. The list-view button command ID is specified in the nCommandID member of 
 MMC_LISTPAD_INFO.
 
 Taskpads using custom HTML pages
@@ -93,7 +93,7 @@ This method can return one of these values.
 ## -remarks
 
 The snap-in can identify the scope item that owns the taskpad using the pdo pointer; it then can identify the task by the VARIANT value returned in the arg parameter. If the taskpad is a list-view taskpad, the snap-in can identify the selected item (or items if multiselection is supported) in a result list using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a> interface. Based on this data, the snap-in can perform the appropriate actions on the appropriate object.
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a> interface. Based on this data, the snap-in can perform the appropriate actions on the appropriate object.
 
 If a taskpad list-view button is ed for a list-view taskpad, the snap-in can identify the button for the particular taskpad by the VARIANT value returned in the arg parameter.
 
@@ -101,9 +101,8 @@ A custom taskpad can pass any values that it determines should be sent in the ar
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-ienumtask">IEnumTASK</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-ienumtask">IEnumTASK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a>

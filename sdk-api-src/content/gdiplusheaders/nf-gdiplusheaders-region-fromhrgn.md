@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Region::FromHRGN</b> method creates a Windows GDI+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object from a Windows Graphics Device Interface (GDI)  region.
+The <b>Region::FromHRGN</b> method creates a Windows GDI+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object from a Windows Graphics Device Interface (GDI)  region.
 
 ## -parameters
 
@@ -63,8 +63,7 @@ Handle to an existing GDI region.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>*</b>
+Type: <b><a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>*</b>
 
 This method returns a pointer to the new 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object.
-
+						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a> object.

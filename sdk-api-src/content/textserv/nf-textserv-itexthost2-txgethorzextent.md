@@ -56,13 +56,13 @@ Gets the horizontal scroll extent of the text host window.
 
 ### -param plHorzExtent
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
 The horizontal scroll extent.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -72,5 +72,4 @@ A rich edit control doesn't use the return value; instead, they get the scroll w
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
-
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>

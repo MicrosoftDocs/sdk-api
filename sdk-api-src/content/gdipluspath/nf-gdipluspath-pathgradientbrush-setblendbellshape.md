@@ -69,13 +69,13 @@ Optional. Real number that specifies the maximum intensity of center color that 
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 
@@ -87,7 +87,7 @@ By default, as you move from the boundary of a path gradient to the center point
 
 
 The following example creates a 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on an ellipse. The code calls the <b>PathGradientBrush::SetBlendBellShape</b> method of the 
+						<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on an ellipse. The code calls the <b>PathGradientBrush::SetBlendBellShape</b> method of the 
 						<b>PathGradientBrush</b>object, passing a focus of 0.2 and a scale of 0.7. Then the code uses the path gradient brush to paint a rectangle that contains the ellipse.
 
 
@@ -123,41 +123,40 @@ VOID Example_SetBlendShape(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-creating-a-path-gradient-use">Creating a Path Gradient</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-creating-a-path-gradient-use">Creating a Path Gradient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-filling-a-shape-with-a-color-gradient-use">Filling a Shape with a Color Gradient</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-filling-a-shape-with-a-color-gradient-use">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getblend">PathGradientBrush::GetBlend</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getblend">PathGradientBrush::GetBlend</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getblendcount">PathGradientBrush::GetBlendCount</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getblendcount">PathGradientBrush::GetBlendCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblend">PathGradientBrush::SetBlend</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblend">PathGradientBrush::SetBlend</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblendtriangularshape">PathGradientBrush::SetBlendTriangularShape</a>
-
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblendtriangularshape">PathGradientBrush::SetBlendTriangularShape</a>

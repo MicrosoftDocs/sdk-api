@@ -56,7 +56,7 @@ Ends an asynchronous request for metadata and returns the metadata related to a 
 
 ### -param pResult [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object returned by <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-begingetmetadata">BeginGetMetadata</a>.
+The <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object returned by <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-begingetmetadata">BeginGetMetadata</a>.
 
 ## -returns
 
@@ -126,9 +126,8 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-EndGetMetadata must only be called after the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object returned by <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-begingetmetadata">BeginGetMetadata</a> has indicated that the operation is complete.  Once EndGetMetadata has been called, the results of the latest metadata retrieval are accessible through the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getallmetadata">GetAllMetadata</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-gethostmetadata">GetHostMetadata</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getthisdevicemetadata">GetThisDeviceMetadata</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getthismodelmetadata">GetThisModelMetadata</a> methods.
+EndGetMetadata must only be called after the <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a> object returned by <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-begingetmetadata">BeginGetMetadata</a> has indicated that the operation is complete.  Once EndGetMetadata has been called, the results of the latest metadata retrieval are accessible through the <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getallmetadata">GetAllMetadata</a>, <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-gethostmetadata">GetHostMetadata</a>, <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getthisdevicemetadata">GetThisDeviceMetadata</a>, and <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-getthismodelmetadata">GetThisModelMetadata</a> methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>

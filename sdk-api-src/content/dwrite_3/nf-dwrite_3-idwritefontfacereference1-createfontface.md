@@ -52,9 +52,9 @@ Uses the reference to create a font face, for use with layout, shaping, or rende
 
 ### -param fontFace [out]
 
-Type: **[IDWriteFontFace5](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface5)\*\***
+Type: **[IDWriteFontFace5](./nn-dwrite_3-idwritefontface5.md)\*\***
 
-The address of a pointer to an [IDWriteFontFace5](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface5) interface. On successful completion, the function sets the pointer to a newly created font face object, otherwise it sets the pointer to `nullptr`.
+The address of a pointer to an [IDWriteFontFace5](./nn-dwrite_3-idwritefontface5.md) interface. On successful completion, the function sets the pointer to a newly created font face object, otherwise it sets the pointer to `nullptr`.
 
 ## -returns
 
@@ -69,4 +69,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
-

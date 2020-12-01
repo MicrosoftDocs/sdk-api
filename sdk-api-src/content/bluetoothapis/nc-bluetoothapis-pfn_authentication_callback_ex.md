@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <i>PFN_AUTHENTICATION_CALLBACK_EX</i> function is a callback function prototype  used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothregisterforauthenticationex">BluetoothRegisterForAuthenticationEx</a> function.
+The <i>PFN_AUTHENTICATION_CALLBACK_EX</i> function is a callback function prototype  used in conjunction with the <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothregisterforauthenticationex">BluetoothRegisterForAuthenticationEx</a> function.
 <div class="alert"><b>Note</b>  This structure is supported in Windows Vista SP2 and Windows 7.</div><div> </div>
 
 ## -parameters
 
 ### -param pvParam [in, optional]
 
-Optional. A context pointer previously passed into the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothregisterforauthentication">BluetoothRegisterForAuthentication</a> function.
+Optional. A context pointer previously passed into the <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothregisterforauthentication">BluetoothRegisterForAuthentication</a> function.
 
 ### -param pAuthCallbackParams [in]
 
@@ -69,9 +69,8 @@ The return value from this function is ignored by the system.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothregisterforauthenticationex">BluetoothRegisterForAuthenticationEx</a>
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothregisterforauthenticationex">BluetoothRegisterForAuthenticationEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nc-bluetoothapis-pfn_authentication_callback">PFN_AUTHENTICATION_CALLBACK</a>
-
+<a href="/windows/desktop/api/bluetoothapis/nc-bluetoothapis-pfn_authentication_callback">PFN_AUTHENTICATION_CALLBACK</a>

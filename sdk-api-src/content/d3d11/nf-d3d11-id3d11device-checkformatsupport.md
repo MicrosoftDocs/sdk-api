@@ -57,15 +57,15 @@ Get the support of a given format on the installed video device.
 
 ### -param Format [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
+Type: <b><a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> enumeration that describes a format for which to check for support.
+A <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> enumeration that describes a format for which to check for support.
 
 ### -param pFormatSupport [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
-A bitfield of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support">D3D11_FORMAT_SUPPORT</a> enumeration values describing how the specified format is supported on the installed device. 
+A bitfield of <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support">D3D11_FORMAT_SUPPORT</a> enumeration values describing how the specified format is supported on the installed device. 
         The values are ORed together.
 
 ## -returns
@@ -77,5 +77,4 @@ Returns S_OK if successful; otherwise, returns E_INVALIDARG if the <i>Format</i>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>

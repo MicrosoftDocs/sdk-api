@@ -72,5 +72,4 @@ When an initiator attempts to log in to a target, the initiator can use the RADI
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-loginiscsitargeta">LoginIscsiTarget</a>
-
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-loginiscsitargeta">LoginIscsiTarget</a>

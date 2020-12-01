@@ -54,7 +54,7 @@ The <b>IWMDMStorage2</b> interface extends <b>IWMDMStorage</b> by making it poss
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorage2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage</a>. <b>IWMDMStorage2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorage2</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage</a>. <b>IWMDMStorage2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMDMStorage2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-getattributes2">GetAttributes2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-getattributes2">GetAttributes2</a>
 </td>
 <td align="left" width="63%">
 Retrieves extended attributes of the storage.
@@ -78,7 +78,7 @@ Retrieves extended attributes of the storage.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-getstorage">GetStorage</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-getstorage">GetStorage</a>
 </td>
 <td align="left" width="63%">
 Retrieves a child storage by name.
@@ -87,7 +87,7 @@ Retrieves a child storage by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-setattributes2">SetAttributes2</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-setattributes2">SetAttributes2</a>
 </td>
 <td align="left" width="63%">
 Sets extended attributes of the storage.
@@ -98,17 +98,16 @@ Sets extended attributes of the storage.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3">IWMDMStorage3 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage3">IWMDMStorage3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage4">IWMDMStorage4 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage4">IWMDMStorage4 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

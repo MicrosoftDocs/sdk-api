@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-Represents an omnidirectional model for an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>. The omnidirectional emission is interpolated linearly with the directivity model specified in the <b>Type</b> field based on the value of the <b>Scaling</b> field.
+Represents an omnidirectional model for an <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>. The omnidirectional emission is interpolated linearly with the directivity model specified in the <b>Type</b> field based on the value of the <b>Scaling</b> field.
 
 ## -struct-fields
 
 ### -field Type
 
-The type of shape in which sound is emitted by an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
+The type of shape in which sound is emitted by an <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>.
 
 ### -field Scaling
 
 The amount of linear interpolation applied between omnidirectional sound and the directivity specified in the <b>Type</b> field. This is a normalized value between 0 and 1.0 where 0 is omnidirectional and 1.0 is full directivity using the specified type.
-

@@ -55,19 +55,19 @@ api_name:
 
 ## -description
 
-Enables the mouse to act as a pointer input device and send <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a> messages.
+Enables the mouse to act as a pointer input device and send <a href="/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a> messages.
 
 ## -parameters
 
 ### -param fEnable [in]
 
-<b>TRUE</b> to turn on mouse input support in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a>.
+<b>TRUE</b> to turn on mouse input support in <a href="/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a>.
 
 ## -returns
 
 If the function succeeds, the return value is non-zero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -77,17 +77,16 @@ On the first call in the process lifetime, the state is changed as specified and
 
 On subsequent calls, the state will not change.  If the current state is not equal to the specified state, the call fails.
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-ismouseinpointerenabled">IsMouseInPointerEnabled</a> to verify the mouse-in-pointer state.
+Call <a href="/windows/desktop/api/winuser/nf-winuser-ismouseinpointerenabled">IsMouseInPointerEnabled</a> to verify the mouse-in-pointer state.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-ismouseinpointerenabled">IsMouseInPointerEnabled</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-ismouseinpointerenabled">IsMouseInPointerEnabled</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a>
-
+<a href="/previous-versions/windows/desktop/inputmsg/messages">WM_POINTER</a>

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>DnsFree</b> function frees memory allocated for DNS records that was obtained using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function.
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function.
 
 ## -parameters
 
@@ -66,4 +66,3 @@ A value that specifies the type of DNS data in <i>pData</i>. For more informatio
 ## -see-also
 
 <a href="/windows/win32/api/windns/ne-windns-dns_free_type">DNS_FREE_TYPE</a>
-

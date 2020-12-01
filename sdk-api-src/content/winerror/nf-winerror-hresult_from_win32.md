@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Maps a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> to an <b>HRESULT</b> value.
+Maps a <a href="/windows/desktop/Debug/system-error-codes">system error code</a> to an <b>HRESULT</b> value.
 
 ## -parameters
 
@@ -80,5 +80,4 @@ FORCEINLINE HRESULT HRESULT_FROM_WIN32(unsigned long x) {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling</a>
-
+<a href="/windows/desktop/com/error-handling-in-com">Error Handling</a>

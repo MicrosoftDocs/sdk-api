@@ -52,12 +52,12 @@ api_name:
 
 The 
 <b>ITLegacyAddressMediaControl2</b> interface derives from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol">ITLegacyAddressMediaControl</a> interface. 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol">ITLegacyAddressMediaControl</a> interface. 
 <b>ITLegacyAddressMediaControl2</b> provides additional methods that allow the configuration of parameters related to line devices.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITLegacyAddressMediaControl2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITLegacyAddressMediaControl2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITLegacyAddressMediaControl2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITLegacyAddressMediaControl2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITLegacyAddressMediaControl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol2-configdialog">ConfigDialog</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol2-configdialog">ConfigDialog</a>
 </td>
 <td align="left" width="63%">
 Displays a dialog box to allow the user to configure parameters related to the specified line device. The parameters that can be edited are those currently in use on the device.
@@ -81,7 +81,7 @@ Displays a dialog box to allow the user to configure parameters related to the s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol2-configdialogedit">ConfigDialogEdit</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol2-configdialogedit">ConfigDialogEdit</a>
 </td>
 <td align="left" width="63%">
 Displays a dialog box to allow the user to configure parameters related to the specified line device. The parameters to edit are passed in from the application, and the results are returned to the application.
@@ -92,9 +92,8 @@ Displays a dialog box to allow the user to configure parameters related to the s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol">ITLegacyAddressMediaControl</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol">ITLegacyAddressMediaControl</a>

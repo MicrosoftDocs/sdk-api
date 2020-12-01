@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Tests whether the resource class of a specified  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> is equal to a specified resource class. The <b>PRESUTIL_IS_RESOURCE_CLASS_EQUAL</b> type defines a pointer to this function.
+Tests whether the resource class of a specified  <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> is equal to a specified resource class. The <b>PRESUTIL_IS_RESOURCE_CLASS_EQUAL</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param prci [in]
 
-Pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_resource_class_info">CLUS_RESOURCE_CLASS_INFO</a> structure describing the resource class.
+Pointer to a  <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_resource_class_info">CLUS_RESOURCE_CLASS_INFO</a> structure describing the resource class.
 
 ### -param hResource [in]
 
@@ -71,5 +71,4 @@ the function returns <b>FALSE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilresourcesequal">ResUtilResourcesEqual</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilresourcesequal">ResUtilResourcesEqual</a>

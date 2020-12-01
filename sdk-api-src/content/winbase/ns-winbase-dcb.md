@@ -290,7 +290,7 @@ Enables the DTR line when the device is opened and leaves it on.
 </td>
 <td width="60%">
 Enables DTR handshaking. If handshaking is enabled, it is an error for the application to adjust the line 
-        by using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a> function.
+        by using the <a href="/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a> function.
 
 </td>
 </tr>
@@ -375,7 +375,7 @@ Enables the RTS line when the device is opened and leaves it on.
 Enables RTS handshaking. The driver raises the RTS line when the "type-ahead" (input) buffer is less than 
         one-half full and lowers the RTS line when the buffer is more than three-quarters full. If handshaking is 
         enabled, it is an error for the application to adjust the line by using the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a> function.
+        <a href="/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a> function.
 
 </td>
 </tr>
@@ -398,7 +398,7 @@ Specifies that the RTS line will be high if bytes are available for transmission
 If this member is <b>TRUE</b>, the driver terminates all read and write operations with 
       an error status if an error occurs. The driver will not accept any further communications operations until the 
       application has acknowledged the error by calling the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a> function.
+      <a href="/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a> function.
 
 ### -field fDummy2
 
@@ -576,21 +576,20 @@ When a <b>DCB</b> structure is used to configure the 8250, the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-buildcommdcba">BuildCommDCB</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-buildcommdcba">BuildCommDCB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-clearcommerror">ClearCommError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-escapecommfunction">EscapeCommFunction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcommstate">GetCommState</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getcommstate">GetCommState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>

@@ -52,7 +52,7 @@ A boolean value indicating whether decode conversion should be used.
 
 ### -field pReferenceTexture2D
 
-A pointer to an [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) containing the native decoding output. When downsampling is enabled, the output at native decode resolution, color space, and format may be required for future decode submissions (as reference frames, for instance).
+A pointer to an [ID3D12Resource](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) containing the native decoding output. When downsampling is enabled, the output at native decode resolution, color space, and format may be required for future decode submissions (as reference frames, for instance).
 
 ### -field ReferenceSubresource
 
@@ -60,12 +60,12 @@ The subresource index of the resource provided in *pDecodeTexture2D* to use.
 
 ### -field OutputColorSpace
 
-A value from the [DXGI_COLOR_SPACE_TYPE](https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) enumeration specifying the target color space of the output.
+A value from the [DXGI_COLOR_SPACE_TYPE](/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) enumeration specifying the target color space of the output.
 
 ### -field DecodeColorSpace
 
  
-A value from the [DXGI_COLOR_SPACE_TYPE](https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) enumeration specifying the source-decoded color space before conversion.
+A value from the [DXGI_COLOR_SPACE_TYPE](/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) enumeration specifying the source-decoded color space before conversion.
 
 ## -remarks
 
@@ -76,4 +76,3 @@ Use [D3D12_FEATURE_VIDEO_DECODE_CONVERSION_SUPPORT](ne-d3d12video-d3d12_feature_
 The source and destination resolution and format are communicated by the resource properties of decode textures and the output buffer specified in [ID3D12VideoCommandList::DecodeFrame](nf-d3d12video-id3d12videodecodecommandlist-decodeframe.md).
 
 ## -see-also
-

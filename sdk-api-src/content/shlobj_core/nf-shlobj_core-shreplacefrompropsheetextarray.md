@@ -60,7 +60,7 @@ Requests each property sheet in a property sheet extension array to replace page
 
 Type: <b>HPSXA</b>
 
-A property sheet array handle (HPSXA) returned from a call to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-shcreatepropsheetextarray">SHCreatePropSheetExtArray</a>.
+A property sheet array handle (HPSXA) returned from a call to <a href="/windows/desktop/api/shlobj/nf-shlobj-shcreatepropsheetextarray">SHCreatePropSheetExtArray</a>.
 
 ### -param uPageID
 
@@ -72,7 +72,7 @@ The ID of the page to replace.
 
 Type: <b>LPFNADDPROPSHEETPAGE</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nc-prsht-lpfnaddpropsheetpage">AddPropSheetPageProc</a> function used by the property sheet extension to add a page to a property sheet.
+A pointer to an <a href="/windows/desktop/api/prsht/nc-prsht-lpfnaddpropsheetpage">AddPropSheetPageProc</a> function used by the property sheet extension to add a page to a property sheet.
 
 ### -param lParam
 
@@ -85,4 +85,3 @@ An application-defined value.
 Type: <b>UINT</b>
 
 The number of replacements actually performed.
-

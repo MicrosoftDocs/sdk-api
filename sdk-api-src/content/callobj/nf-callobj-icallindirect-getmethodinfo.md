@@ -101,9 +101,8 @@ An unexpected error has occurred.
 
 ## -remarks
 
-The information returned is a static analysis of the method, not a dynamic one, in that it is based on an analysis of the method signature only, not the actual current contents of the call frame. For example, the static analysis might indicate that this method has the potential of having an in-interface, but because of, say, a union switch, a given call might not actually have any such interfaces. This method is equivalent to the <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-getinfo">GetInfo</a> and <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-icallframe-getnames">GetNames</a> methods in <a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>, but avoids the need to actually make any invocation to get the information.
+The information returned is a static analysis of the method, not a dynamic one, in that it is based on an analysis of the method signature only, not the actual current contents of the call frame. For example, the static analysis might indicate that this method has the potential of having an in-interface, but because of, say, a union switch, a given call might not actually have any such interfaces. This method is equivalent to the <a href="/windows/desktop/api/callobj/nf-callobj-icallframe-getinfo">GetInfo</a> and <a href="/windows/desktop/api/callobj/nf-callobj-icallframe-getnames">GetNames</a> methods in <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>, but avoids the need to actually make any invocation to get the information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a>
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a>

@@ -62,7 +62,6 @@ Identifies the `OutputMaxLuminance` property of the effect. The property is of t
 
 ### -field D2D1_HDRTONEMAP_PROP_DISPLAY_MODE (2)
 
-Identifies the `DisplayMode` property of the effect. The property is of type <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_display_mode"><strong>D2D1_HDRTONEMAP_DISPLAY_MODE</strong></a>.
+Identifies the `DisplayMode` property of the effect. The property is of type <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_display_mode"><strong>D2D1_HDRTONEMAP_DISPLAY_MODE</strong></a>.
 
 ### -field D2D1_HDRTONEMAP_PROP_FORCE_DWORD (0xFFFFFFFF)
-

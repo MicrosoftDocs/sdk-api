@@ -70,7 +70,7 @@ Identity of the user being authenticated.
 
 ### -param pAttributeArray [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_attributes">EapAttributes</a> array structure that specifies the EAP attributes of the entity to authenticate.
+A pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attributes">EapAttributes</a> array structure that specifies the EAP attributes of the entity to authenticate.
 
 ### -param dwSizeofConnectionData [in]
 
@@ -90,7 +90,7 @@ A pointer to an <b>EAP_SESSION_HANDLE</b> structure that contains the unique han
 
 ### -param ppEapError [out]
 
-Optionally receives a pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreememory">EapMethodAuthenticatorFreeMemory</a>.
+Optionally receives a pointer to a pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreememory">EapMethodAuthenticatorFreeMemory</a>.
 
 ## -remarks
 
@@ -102,5 +102,4 @@ This call is performed by a authenticator-based EAPHost using a function pointer
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession">EapHostPeerBeginSession</a>
-
+<a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession">EapHostPeerBeginSession</a>

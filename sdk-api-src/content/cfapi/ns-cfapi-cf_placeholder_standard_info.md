@@ -69,11 +69,11 @@ Total number of bytes on disk that are used by all the property blobs.
 
 ### -field PinState
 
-The pin state of the placeholder. See <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfsetpinstate">CfSetPinState</a> for more details.
+The pin state of the placeholder. See <a href="/windows/desktop/api/cfapi/nf-cfapi-cfsetpinstate">CfSetPinState</a> for more details.
 
 ### -field InSyncState
 
-The in-sync state of the placeholder. see <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfsetinsyncstate">CfSetInSyncState</a> for more details.
+The in-sync state of the placeholder. see <a href="/windows/desktop/api/cfapi/nf-cfapi-cfsetinsyncstate">CfSetInSyncState</a> for more details.
 
 ### -field FileId
 
@@ -90,4 +90,3 @@ Length, in bytes, of the FileIdentity.
 ### -field FileIdentity
 
 An opaque blob supplied by the sync provider to the platform when the placeholder was created. File identity is provided for all sync provider callbacks.
-

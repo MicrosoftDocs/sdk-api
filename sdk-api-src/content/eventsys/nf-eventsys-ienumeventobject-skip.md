@@ -97,5 +97,4 @@ The number of elements skipped was not the same as the number requested.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>

@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-The <b>DDOVERLAYFX</b> structure passes overlay information to the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">IDirectDrawSurface7::UpdateOverlay</a> method.
+The <b>DDOVERLAYFX</b> structure passes overlay information to the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay">IDirectDrawSurface7::UpdateOverlay</a> method.
 
 ## -struct-fields
 

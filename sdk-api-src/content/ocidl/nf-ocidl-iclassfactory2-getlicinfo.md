@@ -56,7 +56,7 @@ Retrieves information about the licensing capabilities of this class factory.
 
 ### -param pLicInfo [in, out]
 
-A pointer to the caller-allocated <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-licinfo">LICINFO</a> structure to be filled on output.
+A pointer to the caller-allocated <a href="/windows/desktop/api/ocidl/ns-ocidl-licinfo">LICINFO</a> structure to be filled on output.
 
 ## -returns
 
@@ -74,7 +74,7 @@ This method can return the standard return values E_UNEXPECTED, as well as the f
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-licinfo">LICINFO</a> structure was successfully filled in.
+The <a href="/windows/desktop/api/ocidl/ns-ocidl-licinfo">LICINFO</a> structure was successfully filled in.
 
 </td>
 </tr>
@@ -98,9 +98,8 @@ E_NOTIMPL is not allowed as a return value because this method provides critical
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iclassfactory2">IClassFactory2</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iclassfactory2">IClassFactory2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/ns-ocidl-licinfo">LICINFO</a>
-
+<a href="/windows/desktop/api/ocidl/ns-ocidl-licinfo">LICINFO</a>

@@ -76,5 +76,4 @@ A pointer to a variable that receives the number of bytes read.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a>
-
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a>

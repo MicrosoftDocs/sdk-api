@@ -66,7 +66,7 @@ An <a href="/windows/win32/api/iads/ne-iads-ads_settype_enum">ADS_SETTYPE_ENUM</
 
 This method supports the standard return values, as well as the following:
 
-For more information and other return values, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+For more information and other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
@@ -127,7 +127,7 @@ hr = pPathname->Set(CComBSTR("LDAP://CN=pencil/desk"),
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
@@ -135,5 +135,4 @@ hr = pPathname->Set(CComBSTR("LDAP://CN=pencil/desk"),
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>

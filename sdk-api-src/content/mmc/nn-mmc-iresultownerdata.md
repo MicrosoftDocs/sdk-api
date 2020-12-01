@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResultOwnerData</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResultOwnerData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResultOwnerData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResultOwnerData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IResultOwnerData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultownerdata-cachehint">CacheHint</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultownerdata-cachehint">CacheHint</a>
 </td>
 <td align="left" width="63%">
 Allows the snap-in to collect the display information for a range of items ahead of time in cases where an optimization can be made.
@@ -79,7 +79,7 @@ Allows the snap-in to collect the display information for a range of items ahead
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultownerdata-finditem">FindItem</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultownerdata-finditem">FindItem</a>
 </td>
 <td align="left" width="63%">
 Finds result items matching the specified string.
@@ -88,7 +88,7 @@ Finds result items matching the specified string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultownerdata-sortitems">SortItems</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultownerdata-sortitems">SortItems</a>
 </td>
 <td align="left" width="63%">
 Sorts the items in a virtual list.
@@ -99,29 +99,28 @@ Sorts the items in a virtual list.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getdisplayinfo">IComponent::GetDisplayInfo</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-getdisplayinfo">IComponent::GetDisplayInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-getresultviewtype">IComponent::GetResultViewType</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-getresultviewtype">IComponent::GetResultViewType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-querydataobject">IComponent::QueryDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdata-setitemcount">IResultData::SetItemCount</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-setitemcount">IResultData::SetItemCount</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/owner-data-virtual-lists">Owner Data/Virtual Lists</a>
+<a href="/previous-versions/windows/desktop/mmc/owner-data-virtual-lists">Owner Data/Virtual Lists</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-resultdataitem">RESULTDATAITEM</a>
-
+<a href="/windows/desktop/api/mmc/ns-mmc-resultdataitem">RESULTDATAITEM</a>

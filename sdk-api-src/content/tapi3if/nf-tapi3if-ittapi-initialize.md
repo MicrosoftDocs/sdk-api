@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>Initialize</b> method initializes TAPI. This method must be called before calling any other TAPI 3 method. The application must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-shutdown">Shutdown</a> method when ending a TAPI session.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-shutdown">Shutdown</a> method when ending a TAPI session.
 
 ## -parameters
 
@@ -102,9 +102,8 @@ Insufficient memory exists to perform the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-object">TAPI Object</a>
-
+<a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>

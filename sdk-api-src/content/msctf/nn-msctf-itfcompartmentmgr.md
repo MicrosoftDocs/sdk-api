@@ -54,7 +54,7 @@ The <b>ITfCompartmentMgr</b> interface is implemented by the TSF manager and use
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCompartmentMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCompartmentMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfCompartmentMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfCompartmentMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfCompartmentMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-clearcompartment">ClearCompartment</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-clearcompartment">ClearCompartment</a>
 </td>
 <td align="left" width="63%">
 Removes the specified compartment.
@@ -78,7 +78,7 @@ Removes the specified compartment.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-enumcompartments">EnumCompartments</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-enumcompartments">EnumCompartments</a>
 </td>
 <td align="left" width="63%">
 Obtains an enumerator that contains the GUID of each compartment within the compartment manager.
@@ -87,7 +87,7 @@ Obtains an enumerator that contains the GUID of each compartment within the comp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-getcompartment">GetCompartment</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcompartmentmgr-getcompartment">GetCompartment</a>
 </td>
 <td align="left" width="63%">
 Obtains the compartment object for a specified compartment.
@@ -98,11 +98,11 @@ Obtains the compartment object for a specified compartment.
 
 ## -remarks
 
-The set of compartments that this interface is responsible for depends upon how the interface was obtained. An instance of this interface can be obtained in one of the following ways. For more information, see <a href="https://docs.microsoft.com/windows/desktop/TSF/compartments">Compartments</a>.
+The set of compartments that this interface is responsible for depends upon how the interface was obtained. An instance of this interface can be obtained in one of the following ways. For more information, see <a href="/windows/desktop/TSF/compartments">Compartments</a>.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getglobalcompartment">ITfThreadMgr::GetGlobalCompartment
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getglobalcompartment">ITfThreadMgr::GetGlobalCompartment
             </a> - Obtains the global compartment manager.</li>
 <li><b>ITfThreadMgr::QueryInterface</b> with IID_ITfCompartmentMgr - Obtains the compartment manager for this specific thread manager.</li>
 <li><b>ITfDocumentMgr::QueryInterface</b> with IID_ITfCompartmentMgr - Obtains the compartment manager for this specific document manager.</li>
@@ -111,14 +111,13 @@ The set of compartments that this interface is responsible for depends upon how 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/compartments">Compartments</a>
+<a href="/windows/desktop/TSF/compartments">Compartments</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getglobalcompartment">ITfThreadMgr::GetGlobalCompartment
+<a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-getglobalcompartment">ITfThreadMgr::GetGlobalCompartment
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

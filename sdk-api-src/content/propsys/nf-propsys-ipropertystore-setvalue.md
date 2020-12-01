@@ -65,12 +65,12 @@ TBD
 
 ### -param Key
 
-A reference to the PROPERTYKEY structure that is retrieved through <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>. This structure contains a global unique identifier (GUID) for the property.
+A reference to the PROPERTYKEY structure that is retrieved through <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>. This structure contains a global unique identifier (GUID) for the property.
 
 
 #### - pv
 
-A pointer to a <a href="https://msdn2.microsoft.com/library/aa912007.aspx">PROPVARIANT</a> structure that contains the new property data.
+A pointer to a <a href="/previous-versions/aa912007(v=msdn.10)">PROPVARIANT</a> structure that contains the new property data.
 
 ## -returns
 
@@ -118,11 +118,11 @@ This is an error code. The property store was read-only so the method was not ab
 
 ## -remarks
 
-<code>IPropertyStore::SetValue</code> affects the current property store instance only. A property handler implements <code>IPropertyStore::SetValue</code> by accumulating property changes in an in-memory data structure. Property changes are written to the stream only when <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-commit">IPropertyStore::Commit</a> is called.
+<code>IPropertyStore::SetValue</code> affects the current property store instance only. A property handler implements <code>IPropertyStore::SetValue</code> by accumulating property changes in an in-memory data structure. Property changes are written to the stream only when <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-commit">IPropertyStore::Commit</a> is called.
 
 If <b>IPropertyStore::Commit</b> is called on a read-only property store, the property handler determines this and returns STG_E_ACCESSDENIED.
 
-If a value was added or removed as a result of <code>SetValue</code>, subsequent enumerations by <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getcount">IPropertyStore::GetCount</a> and <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a> reflect that change and subsequent calls to <code>IPropertyStore::SetValue</code> reflect the changed value.
+If a value was added or removed as a result of <code>SetValue</code>, subsequent enumerations by <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-getcount">IPropertyStore::GetCount</a> and <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a> reflect that change and subsequent calls to <code>IPropertyStore::SetValue</code> reflect the changed value.
 
 <b>Adding a New Property</b>
 
@@ -138,17 +138,16 @@ To remove a value from the property store, set the vt member of the structure th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-commit">IPropertyStore::Commit</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-commit">IPropertyStore::Commit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getcount">IPropertyStore::GetCount</a>
-
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-getcount">IPropertyStore::GetCount</a>

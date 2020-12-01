@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The alpha mode of the output of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/color-matrix">Color matrix effect</a>.
+The alpha mode of the output of the <a href="/windows/desktop/Direct2D/color-matrix">Color matrix effect</a>.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ The effect un-premultiplies the input, applies the color matrix, and premultipli
 The effect applies the color matrix directly to the input, and doesn't premultiply the output.
 
 ### -field D2D1_COLORMATRIX_ALPHA_MODE_FORCE_DWORD
-

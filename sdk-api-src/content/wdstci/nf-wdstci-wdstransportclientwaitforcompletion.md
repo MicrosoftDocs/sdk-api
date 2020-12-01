@@ -56,7 +56,7 @@ Blocks until either the multicast session is complete or the specified timeout i
 
 ### -param hSessionKey [in]
 
-Unique handle returned by the call to <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a>.
+Unique handle returned by the call to <a href="/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientinitializesession">WdsTransportClientInitializeSession</a>.
 
 ### -param uTimeout [in]
 
@@ -65,4 +65,3 @@ A timeout, in milliseconds.
 ## -returns
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
-

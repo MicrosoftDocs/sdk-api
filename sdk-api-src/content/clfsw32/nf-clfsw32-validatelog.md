@@ -58,7 +58,7 @@ Validates the consistency of   the log metadata and data before log archive and 
 
 The name of the log. 
 
-The  name is specified when creating the log  by using  <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>. The following example identifies the format  to use:
+The  name is specified when creating the log  by using  <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>. The following example identifies the format  to use:
 
 <i>Log</i><b>:&lt;</b><i>LogName</i><b>&gt;[::&lt;</b><i>LogStreamName</i><b>&gt;]</b>
 
@@ -66,17 +66,17 @@ The  name is specified when creating the log  by using  <a href="https://docs.mi
 
 <b>&lt;</b><i>LogStreamName</i><b>&gt;</b> is  the unique name of a log stream in the dedicated log.   
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/log-types">Log Types</a>.
+For more information, see <a href="/previous-versions/windows/desktop/clfs/log-types">Log Types</a>.
 
 ### -param psaLogFile [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that  specifies the security attributes of a log. 
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure that  specifies the security attributes of a log. 
 
 This parameter can be <b>NULL</b>.
 
 ### -param pinfoBuffer [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_information">CLFS_INFORMATION</a> structure that receives log metadata.
+A pointer to a <a href="/windows/desktop/api/clfs/ns-clfs-cls_information">CLFS_INFORMATION</a> structure that receives log metadata.
 
 ### -param pcbBuffer [in, out]
 
@@ -90,19 +90,18 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
 The following list identifies the  possible error codes:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_information">CLFS_INFORMATION</a>
+<a href="/windows/desktop/api/clfs/ns-clfs-cls_information">CLFS_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
+<a href="/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>

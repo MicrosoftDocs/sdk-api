@@ -77,7 +77,7 @@ The data format must strictly conform to the specification.
 
 No cache for the metadata stream.
 
-Certain operations, such as <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwiccomponentfactory-createmetadatawriterfromreader">IWICComponentFactory::CreateMetadataWriterFromReader</a> require that the reader have a stream. Therefore, these operations will be unavailable if the reader is initialized with <b>WICPersistOptionNoCacheStream</b>.
+Certain operations, such as <a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwiccomponentfactory-createmetadatawriterfromreader">IWICComponentFactory::CreateMetadataWriterFromReader</a> require that the reader have a stream. Therefore, these operations will be unavailable if the reader is initialized with <b>WICPersistOptionNoCacheStream</b>.
 
 ### -field WICPersistOptionPreferUTF8
 
@@ -88,9 +88,8 @@ Use UTF8 instead of the default UTF16.
 
 ### -field WICPersistOptionMask
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicpersistoptions">WICPersistOptions</a> mask.
+The <a href="/windows/desktop/api/wincodecsdk/ne-wincodecsdk-wicpersistoptions">WICPersistOptions</a> mask.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicstreamprovider-getpersistoptions">GetPersistOptions</a>
-
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicstreamprovider-getpersistoptions">GetPersistOptions</a>

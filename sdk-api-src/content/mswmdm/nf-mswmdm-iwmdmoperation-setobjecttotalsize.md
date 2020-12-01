@@ -113,13 +113,12 @@ This method is called after <b>SetObjectAttributes</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
+<a href="/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjecttotalsize">IWMDMOperation::GetObjectTotalSize</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjecttotalsize">IWMDMOperation::GetObjectTotalSize</a>

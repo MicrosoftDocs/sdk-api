@@ -57,21 +57,21 @@ Create a rasterizer state object that tells the rasterizer stage how to behave.
 
 ### -param pRasterizerDesc [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_rasterizer_desc">D3D11_RASTERIZER_DESC</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_rasterizer_desc">D3D11_RASTERIZER_DESC</a>*</b>
 
-Pointer to a rasterizer state description (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ns-d3d11-d3d11_rasterizer_desc">D3D11_RASTERIZER_DESC</a>).
+Pointer to a rasterizer state description (see <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_rasterizer_desc">D3D11_RASTERIZER_DESC</a>).
 
 ### -param ppRasterizerState [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11rasterizerstate">ID3D11RasterizerState</a>**</b>
+Type: <b><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11rasterizerstate">ID3D11RasterizerState</a>**</b>
 
-Address of a pointer to the rasterizer state object created (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11rasterizerstate">ID3D11RasterizerState</a>).
+Address of a pointer to the rasterizer state object created (see <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11rasterizerstate">ID3D11RasterizerState</a>).
 
 ## -returns
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns E_OUTOFMEMORY if there is insufficient memory to create the compute shader.  See <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a> for other possible return values.
+This method returns E_OUTOFMEMORY if there is insufficient memory to create the compute shader.  See <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a> for other possible return values.
 
 ## -remarks
 
@@ -81,5 +81,4 @@ If an application attempts to create a rasterizer-state interface with the same 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>

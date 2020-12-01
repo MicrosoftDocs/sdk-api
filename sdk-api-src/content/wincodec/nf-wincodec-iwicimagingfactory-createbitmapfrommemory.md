@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> from a memory block.
+Creates an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> from a memory block.
 
 ## -parameters
 
@@ -70,7 +70,7 @@ The height of the new bitmap.
 
 Type: <b>REFWICPixelFormatGUID</b>
 
-The pixel format of the new bitmap.  For valid pixel formats, see <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-native-pixel-formats">Native Pixel Formats</a>.
+The pixel format of the new bitmap.  For valid pixel formats, see <a href="/windows/desktop/wic/-wic-codec-native-pixel-formats">Native Pixel Formats</a>.
 
 ### -param cbStride [in]
 
@@ -92,7 +92,7 @@ The buffer used to create the bitmap.
 
 ### -param ppIBitmap [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>**</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>**</b>
 
 A pointer that receives a pointer to the new bitmap.
 
@@ -104,9 +104,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The size of the <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapdecoder">IWICBitmap</a> to be created must be smaller than or equal to the size of the image in <i>pbBuffer</i>.
+The size of the <a href="/windows/desktop/wic/-wic-imp-iwicbitmapdecoder">IWICBitmap</a> to be created must be smaller than or equal to the size of the image in <i>pbBuffer</i>.
 
 The <a href="https://docs.microsoft.com/">stride</a> of the destination bitmap will equal the <i>stride</i> of the source data, regardless of the width and height specified.
 
 The <i>pixelFormat</i> parameter defines the pixel format for both the input data and the output bitmap.
-

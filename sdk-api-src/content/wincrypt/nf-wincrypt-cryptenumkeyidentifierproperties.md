@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptEnumKeyIdentifierProperties</b> function enumerates key identifiers and their properties. This function is not called in a loop. Rather, it loops internally until the last key identifier property is enumerated or the callback function returns <b>FALSE</b>. If <i>dwPropId</i> is zero or if the properties of the key identifier match the <i>dwPropId</i>, the callback function is called.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptEnumKeyIdentifierProperties</b> function enumerates key identifiers and their properties. This function is not called in a loop. Rather, it loops internally until the last key identifier property is enumerated or the callback function returns <b>FALSE</b>. If <i>dwPropId</i> is zero or if the properties of the key identifier match the <i>dwPropId</i>, the callback function is called.
 
 ## -parameters
 
 ### -param pKeyIdentifier [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure that contains the key identifier. 
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure that contains the key identifier. 
 
 
 
@@ -97,16 +97,16 @@ A pointer to data to be passed to the callback function. The type is a void that
 
 ### -param pfnEnum [in]
 
-A pointer to an application-defined callback function that is executed for each key identifier entry that matches the input parameters. For details about the callback functions parameters, see <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_enum_keyid_prop">CRYPT_ENUM_KEYID_PROP</a>.
+A pointer to an application-defined callback function that is executed for each key identifier entry that matches the input parameters. For details about the callback functions parameters, see <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_enum_keyid_prop">CRYPT_ENUM_KEYID_PROP</a>.
 
 ## -returns
 
-The <b>CryptEnumKeyIdentifierProperties</b> function repeatedly calls the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_enum_keyid_prop">CRYPT_ENUM_KEYID_PROP</a> callback function until the last key identifier is enumerated or the callback function returns <b>FALSE</b>.
+The <b>CryptEnumKeyIdentifierProperties</b> function repeatedly calls the <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_crypt_enum_keyid_prop">CRYPT_ENUM_KEYID_PROP</a> callback function until the last key identifier is enumerated or the callback function returns <b>FALSE</b>.
 
 If the main function succeeds, the function returns nonzero (<b>TRUE</b>).
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 To continue enumeration, the function returns <b>TRUE</b>.
 
@@ -114,25 +114,24 @@ To stop enumeration, the function returns <b>FALSE</b> and sets the last error c
 
 ## -remarks
 
-A key identifier can have the same properties as a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>.
+A key identifier can have the same properties as a <a href="/windows/desktop/SecGloss/c-gly">certificate context</a>.
 
 
 #### Examples
 
 For an example that uses this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-working-with-key-identifiers">Example C Program: Working with Key Identifiers</a>.
+<a href="/windows/desktop/SecCrypto/example-c-program-working-with-key-identifiers">Example C Program: Working with Key Identifiers</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Base Cryptography Functions</a>
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Base Cryptography Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyidentifierproperty">CryptGetKeyIdentifierProperty</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyidentifierproperty">CryptGetKeyIdentifierProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty">CryptSetKeyIdentifierProperty</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty">CryptSetKeyIdentifierProperty</a>

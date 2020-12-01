@@ -58,19 +58,19 @@ Represents a ResolveMatch message.
 
 ### -field EndpointReference
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies the matching endpoint.
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies the matching endpoint.
 
 ### -field Types
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_name_list">WSD_NAME_LIST</a> structure that contains a list of WS-Discovery Types.
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_name_list">WSD_NAME_LIST</a> structure that contains a list of WS-Discovery Types.
 
 ### -field Scopes
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_scopes">WSD_SCOPES</a> structure that contains a list of WS-Discovery Scopes.
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_scopes">WSD_SCOPES</a> structure that contains a list of WS-Discovery Scopes.
 
 ### -field XAddrs
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_uri_list">WSD_URI_LIST</a> structure that contains a list of WS-Discovery XAddrs.
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_uri_list">WSD_URI_LIST</a> structure that contains a list of WS-Discovery XAddrs.
 
 ### -field MetadataVersion
 
@@ -78,17 +78,16 @@ The metadata version of this message.
 
 ### -field Any
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WsdApi/resolvematches-message">ResolveMatches Message</a>
+<a href="/windows/desktop/WsdApi/resolvematches-message">ResolveMatches Message</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_resolve">WSD_RESOLVE</a>
+<a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_resolve">WSD_RESOLVE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_resolve_matches">WSD_RESOLVE_MATCHES</a>
-
+<a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_resolve_matches">WSD_RESOLVE_MATCHES</a>

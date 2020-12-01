@@ -49,6 +49,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - SetActiveWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetActiveWindow function
@@ -72,11 +73,11 @@ Type: <b>HWND</b>
 
 If the function succeeds, the return value is the handle to the window that was previously active.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <b>SetActiveWindow</b> function activates a window, but not if the application is in the background. The window will be brought into the foreground (top of <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Z-Order</a>) if its application is in the foreground when the system activates the window.
+The <b>SetActiveWindow</b> function activates a window, but not if the application is in the background. The window will be brought into the foreground (top of <a href="/windows/desktop/winmsg/window-features">Z-Order</a>) if its application is in the foreground when the system activates the window.
 
 If the window identified by the 
     <i>hWnd</i> parameter was created by the calling thread, the active window status of the calling thread is set to 
@@ -88,11 +89,11 @@ If the window identified by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getactivewindow">GetActiveWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getactivewindow">GetActiveWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
@@ -100,9 +101,8 @@ If the window identified by the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-activate">WM_ACTIVATE</a>
-
+<a href="/windows/desktop/inputdev/wm-activate">WM_ACTIVATE</a>

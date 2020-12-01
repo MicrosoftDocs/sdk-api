@@ -56,7 +56,7 @@ Creates an empty attribute store.
 
 ### -param ppMFAttributes [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. The caller must release the interface.
 
 ### -param cInitialSize [in]
 
@@ -68,15 +68,14 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-Attributes are used throughout Microsoft Media Foundation to configure objects, describe media formats, query object properties, and other purposes. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes in Media Foundation</a>.
+Attributes are used throughout Microsoft Media Foundation to configure objects, describe media formats, query object properties, and other purposes. For more information, see <a href="/windows/desktop/medfound/attributes-and-properties">Attributes in Media Foundation</a>.
 
-For a complete list of all the defined attribute GUIDs in Media Foundation, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-attributes">Media Foundation Attributes</a>.
+For a complete list of all the defined attribute GUIDs in Media Foundation, see <a href="/windows/desktop/medfound/media-foundation-attributes">Media Foundation Attributes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes in Media Foundation</a>
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes in Media Foundation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

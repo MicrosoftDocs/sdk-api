@@ -57,11 +57,11 @@ systems specified in the Requirements section. It may be altered or unavailable 
 
 subsequent versions.]
 
-The <b>IMemAllocatorNotifyCallbackTemp</b> interface enables a filter to receive a callback notification from an allocator whenever a sample is returned to the allocator's free list. To receive callbacks, the filter must implement this interface. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocatorcallbacktemp">IMemAllocatorCallbackTemp Interface</a>.
+The <b>IMemAllocatorNotifyCallbackTemp</b> interface enables a filter to receive a callback notification from an allocator whenever a sample is returned to the allocator's free list. To receive callbacks, the filter must implement this interface. For more information, see <a href="/windows/desktop/api/strmif/nn-strmif-imemallocatorcallbacktemp">IMemAllocatorCallbackTemp Interface</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMemAllocatorNotifyCallbackTemp</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMemAllocatorNotifyCallbackTemp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMemAllocatorNotifyCallbackTemp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMemAllocatorNotifyCallbackTemp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,7 +76,7 @@ The <b>IMemAllocatorNotifyCallbackTemp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imemallocatornotifycallbacktemp-notifyrelease">NotifyRelease</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-imemallocatornotifycallbacktemp-notifyrelease">NotifyRelease</a>
 </td>
 <td align="left" width="63%">
 Called when a sample returns to the allocator's free list.
@@ -84,4 +84,3 @@ Called when a sample returns to the allocator's free list.
 </td>
 </tr>
 </table>
-

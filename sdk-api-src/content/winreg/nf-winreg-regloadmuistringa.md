@@ -66,11 +66,11 @@ Loads the specified string from the specified key and subkey.
 ### -param hKey [in]
 
 A handle to an open registry key. The key must have been opened with the KEY_QUERY_VALUE access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
+<a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function. It can also be one of the following 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<dl>
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a> or <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function. It can also be one of the following 
+<a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<dl>
 <dd><b>HKEY_CLASSES_ROOT</b></dd>
 <dd><b>HKEY_CURRENT_CONFIG</b></dd>
 <dd><b>HKEY_CURRENT_USER</b></dd>
@@ -133,7 +133,7 @@ The directory path.
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 If the <i>pcbData</i> buffer is too small to receive the string, the function returns ERROR_MORE_DATA.
 
@@ -144,7 +144,7 @@ The ANSI version of this function returns ERROR_CALL_NOT_IMPLEMENTED.
 The <b>RegLoadMUIString</b> function is supported only for Unicode. Although both Unicode (W) and ANSI (A) versions of this function are declared, the <b>RegLoadMUIStringA</b> function returns ERROR_CALL_NOT_IMPLEMENTED. Applications should explicitly call <b>RegLoadMUIStringW</b> or specify Unicode as the character set in platform invoke (PInvoke) calls. 
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 
@@ -155,5 +155,4 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
-
+<a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>

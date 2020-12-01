@@ -58,7 +58,7 @@ The <b>WinUsb_ResetPipe</b> function resets the data toggle and clears the stall
 
 An opaque handle to the interface that contains the endpoint with which the pipe is associated. 
 
-To reset a pipe associated with an endpoint in the first interface, use the handle returned by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
+To reset a pipe associated with an endpoint in the first interface, use the handle returned by <a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>. For all other interfaces, use the handle to the target interface, retrieved by <a href="/windows/desktop/api/winusb/nf-winusb-winusb_getassociatedinterface">WinUsb_GetAssociatedInterface</a>.
 
 ### -param PipeID [in]
 
@@ -93,13 +93,12 @@ The caller passed <b>NULL</b> in the  <i>InterfaceHandle</i> parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB</a>
+<a href="/windows-hardware/drivers/ddi/content/index">WinUSB</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
+<a href="/windows/iot-core/learn-about-hardware/hardwarecompatlist">WinUSB Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
-
+<a href="/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>

@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>AMVABUFFERINFO</b> structure specifies a buffer for the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-execute">IAMVideoAccelerator::Execute</a>  method.
+        <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-execute">IAMVideoAccelerator::Execute</a>  method.
 
 ## -struct-fields
 
@@ -237,9 +237,8 @@ Size of the relevant data in the buffer, in bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-execute">IAMVideoAccelerator::Execute</a>
-
+<a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-execute">IAMVideoAccelerator::Execute</a>

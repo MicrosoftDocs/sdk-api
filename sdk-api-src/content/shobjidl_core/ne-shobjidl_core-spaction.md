@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Describes an action being performed that requires progress to be shown to the user using an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a> interface.
+Describes an action being performed that requires progress to be shown to the user using an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a> interface.
 
 ## -enum-fields
 
@@ -114,5 +114,4 @@ A local search is being performed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iactionprogress">IActionProgress</a>

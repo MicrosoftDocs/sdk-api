@@ -61,7 +61,7 @@ Contains the error that caused the RIP debug event.
 ### -field dwError
 
 The error that caused the RIP debug event. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling">Error Handling</a>.
+<a href="/windows/desktop/Debug/error-handling">Error Handling</a>.
 
 ### -field dwType
 
@@ -120,5 +120,4 @@ Indicates that only <b>dwError</b> was set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-debug_event">DEBUG_EVENT</a>

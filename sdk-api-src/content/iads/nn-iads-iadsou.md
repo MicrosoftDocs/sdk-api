@@ -50,29 +50,28 @@ api_name:
 
 ## -description
 
-The <b>IADsOU</b> interface is a dual interface that is used to manage <a href="https://docs.microsoft.com/windows/desktop/ADSchema/c-organizationalunit">organizationalUnit</a> objects. All <a href="https://docs.microsoft.com/windows/desktop/ADSchema/c-organizationalunit">organizationalUnit</a> objects that implement this interface also implement the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> interface.
+The <b>IADsOU</b> interface is a dual interface that is used to manage <a href="/windows/desktop/ADSchema/c-organizationalunit">organizationalUnit</a> objects. All <a href="/windows/desktop/ADSchema/c-organizationalunit">organizationalUnit</a> objects that implement this interface also implement the <a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadslocality">IADsLocality</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadslocality">IADsLocality</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadso">IADsO</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadso">IADsO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsou-property-methods">IADsOU Property Methods</a>
+<a href="/windows/desktop/ADSI/iadsou-property-methods">IADsOU Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

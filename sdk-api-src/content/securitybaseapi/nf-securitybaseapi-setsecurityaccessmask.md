@@ -63,7 +63,7 @@ The <b>SetSecurityAccessMask</b> function creates an access mask that represents
 
 ### -param SecurityInformation [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> structure that specifies the security information to be set.
+A <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> structure that specifies the security information to be set.
 
 ### -param DesiredAccess [out]
 
@@ -71,5 +71,4 @@ A pointer to the access mask that this function creates.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-querysecurityaccessmask">QuerySecurityAccessMask</a>
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-querysecurityaccessmask">QuerySecurityAccessMask</a>

@@ -62,5 +62,4 @@ Specifies the number of frames to step.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/frame-stepping-property-set">Frame Stepping Property Set</a>
-
+<a href="/windows/desktop/DirectShow/frame-stepping-property-set">Frame Stepping Property Set</a>

@@ -114,5 +114,4 @@ A reverse conversion provides the keystroke sequences required to create the spe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a>
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfreverseconversion">ITfReverseConversion</a>

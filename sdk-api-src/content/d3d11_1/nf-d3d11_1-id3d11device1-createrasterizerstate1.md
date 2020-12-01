@@ -51,21 +51,21 @@ api_name:
 
 ## -description
 
-Creates a rasterizer state object that informs the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a> how to behave and forces the sample count while UAV rendering or rasterizing.
+Creates a rasterizer state object that informs the <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-rasterizer-stage">rasterizer stage</a> how to behave and forces the sample count while UAV rendering or rasterizing.
 
 ## -parameters
 
 ### -param pRasterizerDesc [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-cd3d11_rasterizer_desc1">D3D11_RASTERIZER_DESC1</a> structure that describes the  rasterizer state.
+A pointer to a <a href="/windows/desktop/api/d3d11_1/ns-d3d11_1-cd3d11_rasterizer_desc1">D3D11_RASTERIZER_DESC1</a> structure that describes the  rasterizer state.
 
 ### -param ppRasterizerState [out, optional]
 
-Address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11rasterizerstate1">ID3D11RasterizerState1</a> interface for the rasterizer state object created.
+Address of a pointer to the <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11rasterizerstate1">ID3D11RasterizerState1</a> interface for the rasterizer state object created.
 
 ## -returns
 
-This method returns E_OUTOFMEMORY if there is insufficient memory to create the rasterizer state object.  See <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a> for other possible return values.
+This method returns E_OUTOFMEMORY if there is insufficient memory to create the rasterizer state object.  See <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 Return Codes</a> for other possible return values.
 
 ## -remarks
 
@@ -74,5 +74,4 @@ An app can create up to 4096 unique rasterizer state objects. For each object cr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a>

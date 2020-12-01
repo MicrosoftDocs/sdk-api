@@ -52,6 +52,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - SetCursorPos
+req.apiset: ext-ms-win-ntuser-window-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SetCursorPos function
@@ -59,7 +60,7 @@ api_name:
 
 ## -description
 
-Moves the cursor to the specified screen coordinates. If the new coordinates are not within the screen rectangle set by the most recent <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a> function call, the system automatically adjusts the coordinates so that the cursor stays within the rectangle.
+Moves the cursor to the specified screen coordinates. If the new coordinates are not within the screen rectangle set by the most recent <a href="/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a> function call, the system automatically adjusts the coordinates so that the cursor stays within the rectangle.
 
 ## -parameters
 
@@ -79,7 +80,7 @@ The new y-coordinate of the cursor, in screen coordinates.
 
 Type: <b>BOOL</b>
 
-Returns nonzero if successful or zero otherwise. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+Returns nonzero if successful or zero otherwise. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -87,18 +88,18 @@ The cursor is a shared resource. A window should move the cursor only when the c
 
 The calling process must have <b>WINSTA_WRITEATTRIBUTES</b> access to the window station.
 
-The input desktop must be the current desktop when you call <b>SetCursorPos</b>. Call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openinputdesktop">OpenInputDesktop</a> to determine whether the current desktop is the input desktop. If it is not, call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddesktop">SetThreadDesktop</a> with the <b>HDESK</b> returned by <b>OpenInputDesktop</b> to switch to that desktop.
+The input desktop must be the current desktop when you call <b>SetCursorPos</b>. Call <a href="/windows/desktop/api/winuser/nf-winuser-openinputdesktop">OpenInputDesktop</a> to determine whether the current desktop is the input desktop. If it is not, call <a href="/windows/desktop/api/winuser/nf-winuser-setthreaddesktop">SetThreadDesktop</a> with the <b>HDESK</b> returned by <b>OpenInputDesktop</b> to switch to that desktop.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-cursors">Using the Keyboard to Move the Cursor</a>.
+For an example, see <a href="/windows/desktop/menurc/using-cursors">Using the Keyboard to Move the Cursor</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-clipcursor">ClipCursor</a>
 
 
 
@@ -106,11 +107,11 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
+<a href="/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursorpos">GetCursorPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcursorpos">GetCursorPos</a>
 
 
 
@@ -118,13 +119,12 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcaretpos">SetCaretPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setcaretpos">SetCaretPos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>

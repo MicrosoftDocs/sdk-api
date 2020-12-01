@@ -58,7 +58,7 @@ Determines whether to play media inserted by a user and if so using what restric
 
 Type: <b>LPCWSTR</b>
 
-The drive letter in the form <b>D:\</b>
+The drive letter in the form <b>D:\\</b>
 
 ### -param dwContentType [in]
 
@@ -224,9 +224,9 @@ Returns S_OK to allow AutoRun or S_FALSE to cancel AutoRun.
 
 ## -remarks
 
-Applications register an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iquerycancelautoplay">IQueryCancelAutoPlay</a> interface in the running object table (ROT). Before the Shell starts AutoRun or AutoPlay, when the user inserts new media, it checks the ROT for a component implementing <b>IQueryCancelAutoPlay</b>. If it finds one, the Shell calls that implementation's <b>IQueryCancelAutoPlay::AllowAutoPlay</b> method to determine whether it should proceed, and using what restrictions.
+Applications register an instance of the <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iquerycancelautoplay">IQueryCancelAutoPlay</a> interface in the running object table (ROT). Before the Shell starts AutoRun or AutoPlay, when the user inserts new media, it checks the ROT for a component implementing <b>IQueryCancelAutoPlay</b>. If it finds one, the Shell calls that implementation's <b>IQueryCancelAutoPlay::AllowAutoPlay</b> method to determine whether it should proceed, and using what restrictions.
 
-Upon presentation of media, the Shell searches the ROT for a component implementing <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-iquerycancelautoplay">IQueryCancelAutoPlay</a>. If one is found, the class identifier (CLSID) of that component's moniker is extracted. The presence of a ROT registration informs the Shell that the component might want to cancel AutoRun or AutoPlay. For confirmation, the Shell must also find a registry key for that same CLSID at the following location:
+Upon presentation of media, the Shell searches the ROT for a component implementing <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iquerycancelautoplay">IQueryCancelAutoPlay</a>. If one is found, the class identifier (CLSID) of that component's moniker is extracted. The presence of a ROT registration informs the Shell that the component might want to cancel AutoRun or AutoPlay. For confirmation, the Shell must also find a registry key for that same CLSID at the following location:
 
 				<pre xml:space="preserve"><b>HKEY_LOCAL_MACHINE</b>
    <b>SOFTWARE</b>
@@ -241,4 +241,3 @@ Upon presentation of media, the Shell searches the ROT for a component implement
 
 <div class="alert"><b>Note</b>  The CLSID entered as a value under this key should not be encased in curly brackets.</div>
 <div> </div>
-

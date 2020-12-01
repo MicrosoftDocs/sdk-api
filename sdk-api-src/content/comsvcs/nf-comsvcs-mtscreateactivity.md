@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>MTSCreateActivity</b> is available for in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> function.]
+<p class="CCE_Message">[<b>MTSCreateActivity</b> is available for in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a> function.]
 
 Creates an activity in a single-threaded apartment to do synchronous or asynchronous batch work.
 
@@ -58,7 +58,7 @@ Creates an activity in a single-threaded apartment to do synchronous or asynchro
 
 ### -param riid [in]
 
-The ID of the interface to be returned by the <i>ppObj</i> parameter. This parameter should always be IID_IMTSActivity so that a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtsactivity">IMTSActivity</a> is returned.
+The ID of the interface to be returned by the <i>ppObj</i> parameter. This parameter should always be IID_IMTSActivity so that a pointer to <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtsactivity">IMTSActivity</a> is returned.
 
 ### -param ppobj [out]
 
@@ -72,9 +72,8 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 <b>MTSCreateActivity</b> creates an activity object that is used to submit batch work to the COM+ system. The batch work that is submitted through <b>MTSCreateActivity</b> can be either synchronous or asynchronous and runs in a single-threaded apartment (STA).
 
-<b>MTSCreateActivity</b> returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtsactivity">IMTSActivity</a> interface of the object that is created by the call to <b>MTSCreateActivity</b>. By using the methods of <b>IMTSActivity</b>, you determine whether the batch work is done synchronously or asynchronously. The batch work itself is implemented through the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtscall">IMTSCall</a> interface.
+<b>MTSCreateActivity</b> returns a pointer to the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtsactivity">IMTSActivity</a> interface of the object that is created by the call to <b>MTSCreateActivity</b>. By using the methods of <b>IMTSActivity</b>, you determine whether the batch work is done synchronously or asynchronously. The batch work itself is implemented through the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtscall">IMTSCall</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>
-
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-cocreateactivity">CoCreateActivity</a>

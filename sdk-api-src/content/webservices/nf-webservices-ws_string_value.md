@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a> structure given a constant string.
+Initializes a <a href="/windows/desktop/api/webservices/ns-webservices-ws_string">WS_STRING</a> structure given a constant string.
 
 ## -parameters
 
@@ -72,4 +72,3 @@ The following is an example of how to use the macro.
 <code>WS_STRING myString = WS_STRING_VALUE(L"MyString");</code>
 
 <div class="code"></div>
-

@@ -50,37 +50,36 @@ api_name:
 
 ## -description
 
-The <b>InitializeFromValues</b> method initializes a cryptographic attribute by using an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a> object.
+The <b>InitializeFromValues</b> method initializes a cryptographic attribute by using an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a> object.
 
 ## -parameters
 
 ### -param pAttributes [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a> interface that contains the attribute collection.
+Pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a> interface that contains the attribute collection.
 
 ## -returns
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-The <b>InitializeFromValues</b> method uses the first <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a> object in the collection.
+The <b>InitializeFromValues</b> method uses the first <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a> object in the collection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icryptattribute">ICryptAttribute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icryptattributes">ICryptAttributes</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icryptattributes">ICryptAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attribute">IX509Attribute</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>

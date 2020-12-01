@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Received as output from the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a> control code.
+Received as output from the <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a> control code.
 
 ## -struct-fields
 
@@ -71,9 +71,8 @@ Minimum size of the buffer, in bytes, which would be needed to contain all match
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_lookup_stream_from_cluster">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-
+<a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>

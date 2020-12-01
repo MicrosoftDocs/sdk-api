@@ -64,7 +64,7 @@ Retrieves version information for the specified file.
 
 Type: <b>LPCTSTR</b>
 
-The name of the file. If a full path is not specified, the function uses the search sequence specified by the  <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function.
+The name of the file. If a full path is not specified, the function uses the search sequence specified by the  <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function.
 
 ### -param dwHandle
 
@@ -79,7 +79,7 @@ Type: <b>DWORD</b>
 The size, in bytes, of the buffer pointed to by the 
 					<i>lpData</i> parameter. 
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a> function first to determine the size, in bytes, of a file's version information. The 
+Call the <a href="/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a> function first to determine the size, in bytes, of a file's version information. The 
 						<i>dwLen</i> member should be equal to or greater than that value. 
 
 If the buffer pointed to by 
@@ -91,7 +91,7 @@ Type: <b>LPVOID</b>
 
 Pointer to a buffer that receives the file-version information.
 
-You can use this value in a subsequent call to the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a> function to retrieve data from the buffer.
+You can use this value in a subsequent call to the <a href="/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a> function to retrieve data from the buffer.
 
 ## -returns
 
@@ -99,14 +99,14 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
  File version info has fixed and non-fixed part. The fixed part contains information like version number. The non-fixed part contains things like strings. In the past <b>GetFileVersionInfo</b> was taking version information from the binary (exe/dll). Currently, it is querying fixed version from language neutral file (exe/dll) and the non-fixed part from mui file, merges them and returns to the user.
 If the given binary does not have a mui file then behavior is as in previous version.
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a> function before calling the <b>GetFileVersionInfo</b> function. To retrieve information from the file-version information buffer, use the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a> function.
+Call the <a href="/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a> function before calling the <b>GetFileVersionInfo</b> function. To retrieve information from the file-version information buffer, use the <a href="/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a> function.
 
 
 
@@ -121,7 +121,7 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winve
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a>
+<a href="/windows/desktop/api/winver/nf-winver-getfileversioninfosizea">GetFileVersionInfoSize</a>
 
 
 
@@ -129,13 +129,12 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winve
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a>
+<a href="/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a>
+<a href="/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/version-information">Version Information</a>
-
+<a href="/windows/desktop/menurc/version-information">Version Information</a>

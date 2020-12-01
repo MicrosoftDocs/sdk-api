@@ -69,13 +69,12 @@ This method does not support scripting.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocument">IUPnPDescriptionDocument</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocument">IUPnPDescriptionDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevicedocumentaccess">IUPnPDeviceDocumentAccess</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevicedocumentaccess">IUPnPDeviceDocumentAccess</a>

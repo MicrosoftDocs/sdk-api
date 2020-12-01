@@ -54,7 +54,7 @@ Represents a Windows Imaging Component (WIC) stream for referencing imaging and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICStream</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. <b>IWICStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICStream</b> interface inherits from <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>. <b>IWICStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefromfilename">InitializeFromFilename</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefromfilename">InitializeFromFilename</a>
 </td>
 <td align="left" width="63%">
 Initializes a stream from a particular file.
@@ -78,7 +78,7 @@ Initializes a stream from a particular file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefromistream">InitializeFromIStream</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefromistream">InitializeFromIStream</a>
 </td>
 <td align="left" width="63%">
 Initializes a stream from another stream. Access rights are inherited from the underlying stream.
@@ -87,7 +87,7 @@ Initializes a stream from another stream. Access rights are inherited from the u
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefromistreamregion">InitializeFromIStreamRegion</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefromistreamregion">InitializeFromIStreamRegion</a>
 </td>
 <td align="left" width="63%">
 Initializes the stream as a substream of another stream.
@@ -96,7 +96,7 @@ Initializes the stream as a substream of another stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefrommemory">InitializeFromMemory</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicstream-initializefrommemory">InitializeFromMemory</a>
 </td>
 <td align="left" width="63%">
 Initializes a stream to treat a block of memory as a stream. The stream cannot grow beyond the buffer size.
@@ -110,6 +110,5 @@ Initializes a stream to treat a block of memory as a stream. The stream cannot g
 Decoders and metadata handlers are expected to create sub streams of whatever stream they hold when handing off control for embedded metadata to another metadata handler.  If the stream is not restricted then use MAXLONGLONG as the max size and offset 0.
 
 The <b>IWICStream</b> interface methods do not enable you to provide a file sharing option.
-            To create a file stream for an image, use the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shcreatestreamonfileex">SHCreateStreamOnFileEx</a> function.
-            This stream can then be used to create an <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a> using the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream">CreateDecoderFromStream</a> method.
-
+            To create a file stream for an image, use the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shcreatestreamonfileex">SHCreateStreamOnFileEx</a> function.
+            This stream can then be used to create an <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a> using the <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createdecoderfromstream">CreateDecoderFromStream</a> method.

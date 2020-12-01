@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>InstallResponseRestrictionFlags</b> enumeration contains flags that identify the restrictions placed on the local installation of a certificate chain. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-installresponse">InstallResponse</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> interface.
+The <b>InstallResponseRestrictionFlags</b> enumeration contains flags that identify the restrictions placed on the local installation of a certificate chain. This enumeration is used by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-installresponse">InstallResponse</a> method on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> interface.
 
 ## -enum-fields
 
@@ -60,11 +60,11 @@ Does not allow the installation of untrusted certificates or certificates for wh
 
 ### -field AllowNoOutstandingRequest
 
-Creates the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> from the certificate response rather than from the dummy certificate. This makes the dummy certificate optional. If this value is not set, the dummy certificate must exist, and the private key is extracted from it.
+Creates the <a href="/windows/desktop/SecGloss/p-gly">private key</a> from the certificate response rather than from the dummy certificate. This makes the dummy certificate optional. If this value is not set, the dummy certificate must exist, and the private key is extracted from it.
 
 ### -field AllowUntrustedCertificate
 
-Installs untrusted end entity and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> certificates. Certification authority certificates include root and subordinate certification authority certificates. End entity certificates are installed to the personal store, and certification authority certificates are installed to the certification authority store.
+Installs untrusted end entity and <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> certificates. Certification authority certificates include root and subordinate certification authority certificates. End entity certificates are installed to the personal store, and certification authority certificates are installed to the certification authority store.
 
 ### -field AllowUntrustedRoot
 
@@ -75,13 +75,12 @@ Performs the same action as the <b>AllowUntrustedCertificate</b> flag but also i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-installresponse">InstallResponse</a>
-
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-installresponse">InstallResponse</a>

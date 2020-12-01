@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the nominal range for a video source. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencinputvideosystem-property">AVEncInputVideoSystem</a> property.
+Specifies the nominal range for a video source. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencinputvideosystem-property">AVEncInputVideoSystem</a> property.
 
 ## -enum-fields
 
@@ -84,9 +84,8 @@ Component video.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

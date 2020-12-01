@@ -49,6 +49,7 @@ api_location:
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
  - EnableScrollBar
+req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # EnableScrollBar function
@@ -62,14 +63,14 @@ The <b>EnableScrollBar</b> function enables or disables one or both scroll bar a
 
 ### -param hWnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a window or a scroll bar control, depending on the value of the 
 					<i>wSBflags</i> parameter.
 
 ### -param wSBflags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the scroll bar type. This parameter can be one of the following values. 
 
@@ -126,7 +127,7 @@ Enables or disables the arrows on the vertical scroll bar associated with the sp
 
 ### -param wArrows [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies whether the scroll bar arrows are enabled or disabled and indicates which arrows are enabled or disabled. This parameter can be one of the following values. 
 
@@ -219,9 +220,8 @@ Enables both arrows on a scroll bar.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the arrows are enabled or disabled as specified, the return value is nonzero.
 
-If the arrows are already in the requested state or an error occurs, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+If the arrows are already in the requested state or an error occurs, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

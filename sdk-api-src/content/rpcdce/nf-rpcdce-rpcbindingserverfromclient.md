@@ -121,7 +121,7 @@ Cannot determine the client's host. See Remarks for a list of supported protocol
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -131,18 +131,18 @@ The following protocol sequences support
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Midl/ncadg-ip-udp">ncadg_ip_udp</a>
+<a href="/windows/desktop/Midl/ncadg-ip-udp">ncadg_ip_udp</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/">ncadg_ipx</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-ip-tcp">ncacn_ip_tcp</a>
+<a href="/windows/desktop/Midl/ncacn-ip-tcp">ncacn_ip_tcp</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-spx">ncacn_spx</a>.</li>
+<a href="/windows/desktop/Midl/ncacn-spx">ncacn_spx</a>.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Midl/ncacn-np">ncacn_np</a> (effective with Windows 2000)</li>
+<a href="/windows/desktop/Midl/ncacn-np">ncacn_np</a> (effective with Windows 2000)</li>
 <li>
 <a href="https://msdn.microsoft.com/">ncacn_http</a>
 </li>
@@ -157,43 +157,42 @@ Calling
 <li>The server handle is a partially-bound handle. It contains a network address for the calling client, but lacks an endpoint.</li>
 <li>The server handle contains the same object 
 <a href="https://msdn.microsoft.com/">UUID</a> used by the calling client. This can be the nil UUID. For more information on how a client specifies an object UUID for a call, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetobject">RpcBindingsetObject</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina">RpcNsBindingLookupBegin</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a>.</li>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetobject">RpcBindingsetObject</a>, 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a>, 
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina">RpcNsBindingLookupBegin</a>, and 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a>.</li>
 <li>The server handle contains no authentication information.</li>
 </ul>
 The server application must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a> to free the resources used by the server binding handle once it is no longer needed.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a> to free the resources used by the server binding handle once it is no longer needed.
 
 <div class="alert"><b>Note</b>  To query a client's address, an application starts by calling the RpcBindingServerFromClient function to obtain a partially bound server binding handle.  The server binding handle can be used to obtain a string binding by invoking RpcBindingToStringBinding.  The server can then call RpcStringBindingParse to extract the client's network address from the string binding.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfree">RpcBindingFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingfromstringbinding">RpcBindingFromStringBinding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetobject">RpcBindingSetObject</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetobject">RpcBindingSetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepregister">RpcEpRegister</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcepregister">RpcEpRegister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepregisternoreplace">RpcEpRegisterNoReplace</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcepregisternoreplace">RpcEpRegisterNoReplace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a>
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina">RpcNsBindingImportBegin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina">RpcNsBindingLookupBegin</a>
-
+<a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina">RpcNsBindingLookupBegin</a>

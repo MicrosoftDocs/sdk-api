@@ -56,7 +56,7 @@ Gets the content type of the message.
 
 ### -param *decoderContext [in]
 
-The encoder instance returned by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a>.
+The encoder instance returned by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a>.
 
 ### -param *contentType [in]
 
@@ -131,10 +131,9 @@ The callback has to set newContentType to one that is supported by underlying ch
                 the new content type should always be application/soap+msbinsession1.
             
 
-For <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> the content encoding parameter will
+For <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a> the content encoding parameter will
               be set to the value of the "Content-Encoding" HTTP header.  If this header does
               not exist, then <b>NULL</b> will be passed.
             
 
 For all other channel bindings, <b>NULL</b> will be passed for the content encoding.
-

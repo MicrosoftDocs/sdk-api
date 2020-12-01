@@ -56,7 +56,7 @@ The <b>get_TuningSpace</b> method retrieves the tuning space that was used to cr
 
 ### -param TuningSpace [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -68,5 +68,4 @@ You must first access the tuning space in order to obtain the default locator an
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest Interface</a>

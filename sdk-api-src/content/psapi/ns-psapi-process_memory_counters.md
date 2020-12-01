@@ -98,17 +98,16 @@ The peak value in bytes of the Commit Charge during the lifetime of this process
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo">GetProcessMemoryInfo</a>
+<a href="/windows/desktop/api/psapi/nf-psapi-getprocessmemoryinfo">GetProcessMemoryInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
+<a href="/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/process-memory-usage-information">Process Memory Usage Information</a>
+<a href="/windows/desktop/psapi/process-memory-usage-information">Process Memory Usage Information</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/psapi/working-set-information">Working Set Information</a>
-
+<a href="/windows/desktop/psapi/working-set-information">Working Set Information</a>

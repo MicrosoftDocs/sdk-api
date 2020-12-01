@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Closes a groupset handle returned from <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclustergroupset">OpenClusterGroupSet</a>.
+Closes a groupset handle returned from <a href="/windows/desktop/api/clusapi/nf-clusapi-openclustergroupset">OpenClusterGroupSet</a>.
 
 ## -parameters
 
@@ -83,9 +83,8 @@ The operation was successful.
 </dl>
 </td>
 <td width="60%">
-The operation was not successful. For more information about the error, call the function  <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+The operation was not successful. For more information about the error, call the function  <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
 </table>
-

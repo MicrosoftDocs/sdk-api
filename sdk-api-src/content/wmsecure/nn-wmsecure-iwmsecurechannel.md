@@ -58,7 +58,7 @@ The <b>IWMSecureChannel</b> interface provides methods that allow two DLLs to va
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSecureChannel</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nn-wmsecure-iwmauthorizer">IWMAuthorizer</a>. <b>IWMSecureChannel</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSecureChannel</b> interface inherits from <a href="/windows/desktop/api/wmsecure/nn-wmsecure-iwmauthorizer">IWMAuthorizer</a>. <b>IWMSecureChannel</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWMSecureChannel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_addcertificate">WMSC_AddCertificate</a>
+<a href="/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_addcertificate">WMSC_AddCertificate</a>
 </td>
 <td align="left" width="63%">
 Adds certificates that this object can present to other securechannel objects.
@@ -84,7 +84,7 @@ Adds certificates that this object can present to other securechannel objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_addsignature">WMSC_AddSignature</a>
+<a href="/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_addsignature">WMSC_AddSignature</a>
 </td>
 <td align="left" width="63%">
     Adds signatures that this object will look for when trying to connect. 
@@ -94,7 +94,7 @@ Adds certificates that this object can present to other securechannel objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_connect">WMSC_Connect</a>
+<a href="/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_connect">WMSC_Connect</a>
 </td>
 <td align="left" width="63%">
 Initializes the secure connection.
@@ -103,7 +103,7 @@ Initializes the secure connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_decrypt">WMSC_Decrypt</a>
+<a href="/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_decrypt">WMSC_Decrypt</a>
 </td>
 <td align="left" width="63%">
 Decrypts data across DLL boundaries.
@@ -112,7 +112,7 @@ Decrypts data across DLL boundaries.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_disconnect">WMSC_Disconnect</a>
+<a href="/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_disconnect">WMSC_Disconnect</a>
 </td>
 <td align="left" width="63%">
 Destroys the secure connection.
@@ -121,7 +121,7 @@ Destroys the secure connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_encrypt">WMSC_Encrypt</a>
+<a href="/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_encrypt">WMSC_Encrypt</a>
 </td>
 <td align="left" width="63%">
 Encrypts data across DLL boundaries.
@@ -130,7 +130,7 @@ Encrypts data across DLL boundaries.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_getvalidcertificate">WMSC_GetValidCertificate</a>
+<a href="/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_getvalidcertificate">WMSC_GetValidCertificate</a>
 </td>
 <td align="left" width="63%">
  Returns a copy of the certificate that was used provided by the other side
@@ -141,7 +141,7 @@ Encrypts data across DLL boundaries.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_isconnected">WMSC_IsConnected</a>
+<a href="/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_isconnected">WMSC_IsConnected</a>
 </td>
 <td align="left" width="63%">
 Checks to see if the secure connection is valid.
@@ -150,7 +150,7 @@ Checks to see if the secure connection is valid.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_lock">WMSC_Lock</a>
+<a href="/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_lock">WMSC_Lock</a>
 </td>
 <td align="left" width="63%">
 Used to lock access to the secure connection.
@@ -159,7 +159,7 @@ Used to lock access to the secure connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_setshareddata">WMSC_SetSharedData</a>
+<a href="/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_setshareddata">WMSC_SetSharedData</a>
 </td>
 <td align="left" width="63%">
 Used during the connection negotiation process.
@@ -168,7 +168,7 @@ Used during the connection negotiation process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_unlock">WMSC_Unlock</a>
+<a href="/windows/desktop/api/wmsecure/nf-wmsecure-iwmsecurechannel-wmsc_unlock">WMSC_Unlock</a>
 </td>
 <td align="left" width="63%">
 Used to unlock access to the secure connection.
@@ -179,5 +179,4 @@ Used to unlock access to the secure connection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsecure/nn-wmsecure-iwmauthorizer">IWMAuthorizer</a>
-
+<a href="/windows/desktop/api/wmsecure/nn-wmsecure-iwmauthorizer">IWMAuthorizer</a>

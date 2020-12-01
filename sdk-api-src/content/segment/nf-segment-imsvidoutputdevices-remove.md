@@ -130,9 +130,8 @@ The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (V
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidoutputdevices">IMSVidOutputDevices Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidoutputdevices">IMSVidOutputDevices Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-add">IMSVidOutputDevices::Add</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidoutputdevices-add">IMSVidOutputDevices::Add</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>ReadOnClearChannel</b> method reads data from the object at the current position without using secure authenticated channels. This is still secure for use with DRM-protected content. This operation is valid only if the storage object represents a file. If <b>IMDSPObject2</b> is supported, this method must be implemented. Windows Media Device Manager does not fall back to <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a> if this method fails.
+The <b>ReadOnClearChannel</b> method reads data from the object at the current position without using secure authenticated channels. This is still secure for use with DRM-protected content. This operation is valid only if the storage object represents a file. If <b>IMDSPObject2</b> is supported, this method must be implemented. Windows Media Device Manager does not fall back to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a> if this method fails.
 
 ## -parameters
 
@@ -72,25 +72,24 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
-This method can be used for DRM-protected content. This method is more efficient than <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a> because this method does not involve encrypting and decrypting parameters.
+This method can be used for DRM-protected content. This method is more efficient than <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a> because this method does not involve encrypting and decrypting parameters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-synchronization-with-windows-media-player">Enabling Synchronization with Windows Media Player</a>
+<a href="/windows/desktop/WMDM/enabling-synchronization-with-windows-media-player">Enabling Synchronization with Windows Media Player</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspobject2">IMDSPObject2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspobject2">IMDSPObject2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject2-writeonclearchannel">IMDSPObject2::WriteOnClearChannel</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject2-writeonclearchannel">IMDSPObject2::WriteOnClearChannel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a>

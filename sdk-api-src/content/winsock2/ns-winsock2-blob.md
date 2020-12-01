@@ -84,9 +84,8 @@ This structure does not describe the nature of the data pointed to by <b>pBlobDa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Bluetooth/bluetooth-and-blob">Bluetooth and BLOB</a>
+<a href="/windows/desktop/Bluetooth/bluetooth-and-blob">Bluetooth and BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
-
+<a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>

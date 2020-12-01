@@ -72,9 +72,8 @@ There is no function that generates an enhanced metafile record with the <b>EMRS
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

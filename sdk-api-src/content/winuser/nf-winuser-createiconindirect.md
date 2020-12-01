@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
  - CreateIconIndirect
+req.apiset: ext-ms-win-ntuser-gui-l1-3-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # CreateIconIndirect function
@@ -52,7 +53,7 @@ api_name:
 
 ## -description
 
-Creates an icon or cursor from an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a> structure.
+Creates an icon or cursor from an <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a> structure.
 
 ## -parameters
 
@@ -60,7 +61,7 @@ Creates an icon or cursor from an <a href="https://docs.microsoft.com/windows/de
 
 Type: <b>PICONINFO</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a> structure the function uses to create the icon or cursor.
+A pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a> structure the function uses to create the icon or cursor.
 
 ## -returns
 
@@ -68,13 +69,13 @@ Type: <b>HICON</b>
 
 If the function succeeds, the return value is a handle to the icon or cursor that is created.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The system copies the bitmaps in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a> structure before creating the icon or cursor. Because the system may temporarily select the bitmaps in a device context, the <b>hbmMask</b> and <b>hbmColor</b> members of the <b>ICONINFO</b> structure should not already be selected into a device context. The application must continue to manage the original bitmaps and delete them when they are no longer necessary. 
+The system copies the bitmaps in the <a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a> structure before creating the icon or cursor. Because the system may temporarily select the bitmaps in a device context, the <b>hbmMask</b> and <b>hbmColor</b> members of the <b>ICONINFO</b> structure should not already be selected into a device context. The application must continue to manage the original bitmaps and delete them when they are no longer necessary. 
 
-When you are finished using the icon, destroy it using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
+When you are finished using the icon, destroy it using the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
 
 ## -see-also
 
@@ -82,17 +83,16 @@ When you are finished using the icon, destroy it using the <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-iconinfo">ICONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
+<a href="/windows/desktop/menurc/icons">Icons</a>
 
 
 
 <b>Reference</b>
-

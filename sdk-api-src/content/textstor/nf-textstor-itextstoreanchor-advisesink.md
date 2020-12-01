@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ITextStoreAnchor::AdviseSink</b> method installs a new advise sink from the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a> interface or modifies an existing advise sink.
+The <b>ITextStoreAnchor::AdviseSink</b> method installs a new advise sink from the <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a> interface or modifies an existing advise sink.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Pointer to the sink interface to advise. Cannot be <b>NULL</b>.
 
 ### -param dwMask [in]
 
-Specifies the events that notify the advise sink. For more information about possible parameter values, see <a href="https://docs.microsoft.com/windows/desktop/TSF/ts-as--constants">TS_AS_* Constants</a>.
+Specifies the events that notify the advise sink. For more information about possible parameter values, see <a href="/windows/desktop/TSF/ts-as--constants">TS_AS_* Constants</a>.
 
 ## -returns
 
@@ -125,20 +125,19 @@ The specified sink object could not be obtained.
 
 Subsequent calls with the same interface, represented by the <i>punk</i> parameter, are handled as requests to update the <i>dwMask</i> parameter. Servers should not call the <b>AddRef</b> method on the sink in response to such a request.
 
-Servers only maintain a single connection point. Attempts to advise a second sink object fail until the original sink object is removed. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-unadvisesink">ITextStoreAnchor::UnadviseSink</a> method to unregister the sink object when notifications are not required.
+Servers only maintain a single connection point. Attempts to advise a second sink object fail until the original sink object is removed. Applications should use the <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-unadvisesink">ITextStoreAnchor::UnadviseSink</a> method to unregister the sink object when notifications are not required.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-unadvisesink">ITextStoreAnchor::UnadviseSink
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-unadvisesink">ITextStoreAnchor::UnadviseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-as--constants">TS_AS_* Constants
+<a href="/windows/desktop/TSF/ts-as--constants">TS_AS_* Constants
       </a>
-

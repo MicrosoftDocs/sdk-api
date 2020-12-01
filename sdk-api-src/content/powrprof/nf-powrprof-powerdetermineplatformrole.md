@@ -50,16 +50,16 @@ api_name:
 
 ## -description
 
-Determines the computer role for Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008. To specify a different platform, use the <a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx</a> function. 
+Determines the computer role for Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008. To specify a different platform, use the <a href="/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx</a> function. 
 
-To query additional power platform roles defined after Windows 7 and Windows Server 2008 R2, use <a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx</a>.
+To query additional power platform roles defined after Windows 7 and Windows Server 2008 R2, use <a href="/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx</a>.
 
 ## -parameters
 
 ## -returns
 
 The return value is one of the values from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration.
+      <a href="/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a> enumeration.
 
 ## -remarks
 
@@ -67,18 +67,17 @@ This function reads the ACPI Fixed ACPI Description Table (FADT) to determine th
 
 
 
-<div class="alert"><b>Note</b>  This API has a newer version. To query additional power platform roles defined after Windows 7 and Windows Server 2008 R2, use <a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx</a>.</div>
+<div class="alert"><b>Note</b>  This API has a newer version. To query additional power platform roles defined after Windows 7 and Windows Server 2008 R2, use <a href="/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a>
+<a href="/windows/desktop/api/winnt/ne-winnt-power_platform_role">POWER_PLATFORM_ROLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx</a>
-
+<a href="/windows/desktop/api/powerbase/nf-powerbase-powerdetermineplatformroleex">PowerDeterminePlatformRoleEx</a>

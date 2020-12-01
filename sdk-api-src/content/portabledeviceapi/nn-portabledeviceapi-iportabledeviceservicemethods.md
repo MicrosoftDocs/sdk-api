@@ -54,7 +54,7 @@ The <b>IPortableDeviceServiceMethods</b> interface invokes, or cancels invocatio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceServiceMethods</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceServiceMethods</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceServiceMethods</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceServiceMethods</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPortableDeviceServiceMethods</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethods-cancel">Cancel</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethods-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending method invocation.
@@ -78,7 +78,7 @@ Cancels a pending method invocation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethods-invoke">Invoke</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethods-invoke">Invoke</a>
 </td>
 <td align="left" width="63%">
 Synchronously invokes a method.
@@ -87,7 +87,7 @@ Synchronously invokes a method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethods-invokeasync">InvokeAsync</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethods-invokeasync">InvokeAsync</a>
 </td>
 <td align="left" width="63%">
 Asynchronously invokes a method.
@@ -95,4 +95,3 @@ Asynchronously invokes a method.
 </td>
 </tr>
 </table>
-

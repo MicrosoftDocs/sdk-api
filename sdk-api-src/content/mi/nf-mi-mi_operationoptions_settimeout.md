@@ -56,7 +56,7 @@ Sets the operation timeout for a specific operation.
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
+A pointer to a <a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
 
 ### -param timeout [in]
 
@@ -64,15 +64,15 @@ A pointer to the new operation timeout value.
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -remarks
 
-This timeout can be set in the destination options by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_settimeout">MI_DestinationOptions_SetTimeout</a> function. However, sometimes one operation may take longer than others. Therefore, it is best to set a reasonable default for all operations, then use this function to override specific operations that may take longer.
+This timeout can be set in the destination options by calling the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_settimeout">MI_DestinationOptions_SetTimeout</a> function. However, sometimes one operation may take longer than others. Therefore, it is best to set a reasonable default for all operations, then use this function to override specific operations that may take longer.
 
 If the client is asking for progress, and the provider is reporting progress, the timeout interval will be restarted after each progress report.  For enumerations/subscribe/association, the interval is the maximum length before objects are delivered before it times out (subject to the progress comment).
 
-If a client performs an operation (such as an invoke) on a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/gloss-c">CIM</a> session over Windows Remote Management, the operation can take longer than the operation timeout value if the target server is unreachable (for example, because of server outage, network outage, or an unexpected firewall exception). This excessive wait time occurs because the operation may be divided into suboperations for fetching schema information from the server, and the client continues continues the operation even if one or more of the schema fetch suboperations has been blocked by an unreachable server.
+If a client performs an operation (such as an invoke) on a <a href="/previous-versions/windows/desktop/wmi_v2/gloss-c">CIM</a> session over Windows Remote Management, the operation can take longer than the operation timeout value if the target server is unreachable (for example, because of server outage, network outage, or an unexpected firewall exception). This excessive wait time occurs because the operation may be divided into suboperations for fetching schema information from the server, and the client continues continues the operation even if one or more of the schema fetch suboperations has been blocked by an unreachable server.
 
 To mitigate this issue and get the client to report the results without an excessive wait time, try one or both of these steps:
 
@@ -94,13 +94,12 @@ This changes the operation behavior so that if a fetch schema suboperation fails
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_settimeout">MI_DestinationOptions_SetTimeout</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_destinationoptions_settimeout">MI_DestinationOptions_SetTimeout</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_gettimeout">MI_OperationOptions_GetTimeout</a>
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_gettimeout">MI_OperationOptions_GetTimeout</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>
-
+<a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>

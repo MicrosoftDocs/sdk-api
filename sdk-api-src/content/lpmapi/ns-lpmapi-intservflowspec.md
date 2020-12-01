@@ -57,7 +57,7 @@ The
 
 ### -field spec_mh
 
-General information and length information for the  flowspec object (this structure), expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a> structure.
+General information and length information for the  flowspec object (this structure), expressed as an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-intservmainhdr">IntServMainHdr</a> structure.
 
 ### -field spec_u
 
@@ -67,19 +67,19 @@ Union containing flowspec information.
 
 #### CL_spec
 
-Controlled load flowspec information, expressed as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-ctrlloadflowspec">CtrlLoadFlowspec</a> structure.
+Controlled load flowspec information, expressed as a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-ctrlloadflowspec">CtrlLoadFlowspec</a> structure.
 
 
 
 #### G_spec
 
-Guaranteed service flowspec information, expressed as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-guarflowspec">GuarFlowSpec</a> structure.
+Guaranteed service flowspec information, expressed as a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-guarflowspec">GuarFlowSpec</a> structure.
 
 
 
 #### Q_spec
 
-Qualitative application flowspec information, expressed as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualappflowspec">QualAppFlowSpec</a> structure.
+Qualitative application flowspec information, expressed as a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualappflowspec">QualAppFlowSpec</a> structure.
 
 ### -field CL_spec
 
@@ -89,13 +89,12 @@ Qualitative application flowspec information, expressed as a <a href="https://do
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-ctrlloadflowspec">CtrlLoadFlowspec</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-ctrlloadflowspec">CtrlLoadFlowspec</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-guarflowspec">GuarFlowSpec</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-guarflowspec">GuarFlowSpec</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualappflowspec">QualAppFlowSpec</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-qualappflowspec">QualAppFlowSpec</a>

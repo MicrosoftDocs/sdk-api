@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IAzNameResolver</b> interface translates <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) into principal display names.
+The <b>IAzNameResolver</b> interface translates <a href="/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) into principal display names.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzNameResolver</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzNameResolver</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzNameResolver</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAzNameResolver</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAzNameResolver</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaznameresolver-namefromsid">NameFromSid</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaznameresolver-namefromsid">NameFromSid</a>
 </td>
 <td align="left" width="63%">
 Gets the display name that corresponds to the specified SID.
@@ -78,7 +78,7 @@ Gets the display name that corresponds to the specified SID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaznameresolver-namesfromsids">NamesFromSids</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iaznameresolver-namesfromsids">NamesFromSids</a>
 </td>
 <td align="left" width="63%">
 Gets the display names that correspond to the specified SIDs.
@@ -86,4 +86,3 @@ Gets the display names that correspond to the specified SIDs.
 </td>
 </tr>
 </table>
-

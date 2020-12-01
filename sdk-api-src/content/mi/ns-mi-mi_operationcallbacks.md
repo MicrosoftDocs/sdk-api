@@ -100,33 +100,32 @@ is not set, i.e. set to <b>NULL</b>, the operation will be carried out synchrono
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792325(v=vs.85)">MI_OperationCallback_Class</a>
+<a href="/previous-versions/windows/desktop/legacy/dn792325(v=vs.85)">MI_OperationCallback_Class</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792326(v=vs.85)">MI_OperationCallback_Indication</a>
+<a href="/previous-versions/windows/desktop/legacy/dn792326(v=vs.85)">MI_OperationCallback_Indication</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792327(v=vs.85)">MI_OperationCallback_Instance</a>
+<a href="/previous-versions/windows/desktop/legacy/dn792327(v=vs.85)">MI_OperationCallback_Instance</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792328(v=vs.85)">MI_OperationCallback_PromptUser</a>
+<a href="/previous-versions/windows/desktop/legacy/dn792328(v=vs.85)">MI_OperationCallback_PromptUser</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792329(v=vs.85)">MI_OperationCallback_StreamedParameter</a>
+<a href="/previous-versions/windows/desktop/legacy/dn792329(v=vs.85)">MI_OperationCallback_StreamedParameter</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn792330(v=vs.85)">MI_OperationCallback_WriteError</a>
+<a href="/previous-versions/windows/desktop/legacy/dn792330(v=vs.85)">MI_OperationCallback_WriteError</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759645(v=vs.85)">MI_OperationCallback_WriteMessage</a>
+<a href="/previous-versions/windows/desktop/legacy/dn759645(v=vs.85)">MI_OperationCallback_WriteMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn759646(v=vs.85)">MI_OperationCallback_WriteProgress</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dn759646(v=vs.85)">MI_OperationCallback_WriteProgress</a>

@@ -115,9 +115,8 @@ The Peer Collaboration infrastructure, which includes People Near Me, is not ava
 
 ## -remarks
 
-To shutdown the PNRP service for the calling peer and release all resources associated with it, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpshutdown">PeerPnrpShutdown</a>.
+To shutdown the PNRP service for the calling peer and release all resources associated with it, call <a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpshutdown">PeerPnrpShutdown</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerpnrpshutdown">PeerPnrpShutdown</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peerpnrpshutdown">PeerPnrpShutdown</a>

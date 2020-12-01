@@ -57,7 +57,7 @@ api_name:
 
 Contains information about files in the specified directory. Used for directory handles. 
    Use only when calling 
-   <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. The number of 
+   <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>. The number of 
    files that are returned for each call to 
    <b>GetFileInformationByHandleEx</b> depends on the 
    size of the buffer that is passed to the function. Any subsequent calls to 
@@ -186,13 +186,12 @@ This <b>FILE_ID_BOTH_DIR_INFO</b> structure must be
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
+<a href="/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
+<a href="/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>

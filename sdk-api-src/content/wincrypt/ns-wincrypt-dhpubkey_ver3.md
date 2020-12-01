@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-The <b>DHPUBKEY_VER3</b> structure contains information specific to the particular <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public key</a> contained in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a>.
+The <b>DHPUBKEY_VER3</b> structure contains information specific to the particular <a href="/windows/desktop/SecGloss/p-gly">public key</a> contained in the <a href="/windows/desktop/SecGloss/k-gly">key BLOB</a>.
 
 ## -struct-fields
 
 ### -field magic
 
-This must always be set to 0x33484400, the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> encoding of "DH3".
+This must always be set to 0x33484400, the <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> encoding of "DH3".
 
 ### -field bitlenP
 
@@ -74,7 +74,7 @@ Number of bits in the DH key BLOB's prime, J. If J is not in the BLOB, then this
 
 ### -field DSSSeed
 
-Seed structure holding the seed and counter values used to generate the primes Q and P. If values in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-dssseed">DSSSEED</a> structure are not available, then the counter element of the structure should be 0xFFFFFFFF.
+Seed structure holding the seed and counter values used to generate the primes Q and P. If values in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-dssseed">DSSSEED</a> structure are not available, then the counter element of the structure should be 0xFFFFFFFF.
 
 ## -remarks
 
@@ -82,9 +82,8 @@ Seed structure holding the seed and counter values used to generate the primes Q
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">BLOBHEADER</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">BLOBHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-dssseed">DSSSEED</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-dssseed">DSSSEED</a>

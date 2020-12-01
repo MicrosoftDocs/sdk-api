@@ -54,19 +54,19 @@ api_name:
 
 ## -description
 
-Defines paint operation parameters for <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
+Defines paint operation parameters for <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>.
 
 ## -struct-fields
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The size, in bytes, of this structure.
 
 ### -field dwFlags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 One or more of the following values.
 
@@ -82,7 +82,7 @@ One or more of the following values.
 </dl>
 </td>
 <td width="60%">
-Initialize the buffer to ARGB = {0, 0, 0, 0} during <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>. This erases the previous contents of the buffer.
+Initialize the buffer to ARGB = {0, 0, 0, 0} during <a href="/windows/desktop/api/uxtheme/nf-uxtheme-beginbufferedpaint">BeginBufferedPaint</a>. This erases the previous contents of the buffer.
 
 
 
@@ -120,7 +120,6 @@ A pointer to exclusion <a href="/windows/desktop/api/windef/ns-windef-rect">RECT
 
 ### -field pBlendFunction
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a>*</b>
 
-A pointer to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a> structure, which controls blending by specifying the blending functions for source and destination bitmaps.  If <b>NULL</b>, the source buffer is copied to the destination with no blending.
-
+A pointer to <a href="/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a> structure, which controls blending by specifying the blending functions for source and destination bitmaps.  If <b>NULL</b>, the source buffer is copied to the destination with no blending.

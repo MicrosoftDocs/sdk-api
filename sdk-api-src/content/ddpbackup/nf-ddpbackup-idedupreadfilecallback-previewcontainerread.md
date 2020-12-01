@@ -60,25 +60,24 @@ The full path from the root directory of the volume to the container file.
 
 ### -param NumberOfReads [in]
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/api/ddpbackup/ns-ddpbackup-ddp_file_extent">DDP_FILE_EXTENT</a> structures in the array that the <i>ReadOffsets</i> parameter points to.
+Number of <a href="/windows/desktop/api/ddpbackup/ns-ddpbackup-ddp_file_extent">DDP_FILE_EXTENT</a> structures in the array that the <i>ReadOffsets</i> parameter points to.
 
 ### -param ReadOffsets [in]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ddpbackup/ns-ddpbackup-ddp_file_extent">DDP_FILE_EXTENT</a> structures.
+Pointer to an array of <a href="/windows/desktop/api/ddpbackup/ns-ddpbackup-ddp_file_extent">DDP_FILE_EXTENT</a> structures.
 
 ## -returns
 
-This method can return standard <b>HRESULT</b> values, such as <b>S_OK</b>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Possible return values include the following.
+This method can return standard <b>HRESULT</b> values, such as <b>S_OK</b>. It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Possible return values include the following.
 
 ## -remarks
 
-<b>PreviewContainerRead</b> is called for each container file extent reported by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-ordercontainersrestore">IDedupReadFileCallback::OrderContainersRestore</a>. The application may use this preview as a per-container extent read plan to increase the efficiency of the pending reads. For example, the application may choose to perform read-ahead to improve throughput or to cache read buffers to improve overall performance across parallel file restore operations.
+<b>PreviewContainerRead</b> is called for each container file extent reported by <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-ordercontainersrestore">IDedupReadFileCallback::OrderContainersRestore</a>. The application may use this preview as a per-container extent read plan to increase the efficiency of the pending reads. For example, the application may choose to perform read-ahead to improve throughput or to cache read buffers to improve overall performance across parallel file restore operations.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddpbackup/ns-ddpbackup-ddp_file_extent">DDP_FILE_EXTENT</a>
+<a href="/windows/desktop/api/ddpbackup/ns-ddpbackup-ddp_file_extent">DDP_FILE_EXTENT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a>
-
+<a href="/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a>

@@ -70,31 +70,31 @@ Pointer to a <b>null</b>-terminated string that specifies the name of the phone-
 
 
 If you are editing or copying an entry, this parameter is the name of an existing phone-book entry. If you are copying an entry, set the <b>RASEDFLAG_CloneEntry</b> flag in the <b>dwFlags</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASENTRYDLG</a> structure.
+<a href="/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASENTRYDLG</a> structure.
 
 <div class="alert"><b>Note</b>  The R<b>RASEDFLAG_CloneEntry</b> flag has been deprecated, as of 
-  Windows Vista and Windows Server 2008. It may be altered or unavailable in subsequent versions. Instead, copy an entry by calling <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgetentrypropertiesa">RasGetEntryProperties</a> to get the entry and then calling <a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a> to save the entry with a new name.</div>
+  Windows Vista and Windows Server 2008. It may be altered or unavailable in subsequent versions. Instead, copy an entry by calling <a href="/windows/desktop/api/ras/nf-ras-rasgetentrypropertiesa">RasGetEntryProperties</a> to get the entry and then calling <a href="/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a> to save the entry with a new name.</div>
 <div> </div>
 If you are creating an entry, this parameter is a default new entry name that the user can change. If this parameter is <b>NULL</b>, the function provides a default name. If you are creating an entry, set the <b>RASEDFLAG_NewEntry</b> flag in the <b>dwFlags</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASENTRYDLG</a> structure.
+<a href="/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)">RASENTRYDLG</a> structure.
 
 ### -param lpInfo [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a> structure that specifies additional input and output parameters. The <b>dwSize</b> member of this structure must specify sizeof(<b>RASENTRYDLG</b>). Use the <b>dwFlags</b> member to indicate whether you are creating, editing, or copying an entry. If an error occurs, the <b>dwError</b> member returns an error code; otherwise, it returns zero.
+<a href="/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a> structure that specifies additional input and output parameters. The <b>dwSize</b> member of this structure must specify sizeof(<b>RASENTRYDLG</b>). Use the <b>dwFlags</b> member to indicate whether you are creating, editing, or copying an entry. If an error occurs, the <b>dwError</b> member returns an error code; otherwise, it returns zero.
 
 ## -returns
 
 If the user creates, copies, or edits a phone-book entry, the return value is <b>TRUE</b>. Otherwise, the function returns <b>FALSE</b>.
 
  If an error occurs, <b>RasEntryDlg</b> sets the <b>dwError</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a> structure to a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+<a href="/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a> structure to a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-raseditphonebookentrya">RasEditPhonebookEntry</a> functions call the 
+<a href="/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a> and 
+<a href="/windows/desktop/api/ras/nf-ras-raseditphonebookentrya">RasEditPhonebookEntry</a> functions call the 
 <b>RasEntryDlg</b> function.
 
 The following sample code brings up a property sheet to create a new entry. The <i>lpszEntry</i> variable specifies the default name for the new entry.
@@ -165,25 +165,24 @@ DWORD __cdecl wmain(){
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)">RASENTRYDLG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a>
+<a href="/windows/desktop/api/ras/nf-ras-rascreatephonebookentrya">RasCreatePhonebookEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nc-rasdlg-rascustomentrydlgfn">RasCustomEntryDlg</a>
+<a href="/windows/desktop/api/rasdlg/nc-rasdlg-rascustomentrydlgfn">RasCustomEntryDlg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-raseditphonebookentrya">RasEditPhonebookEntry</a>
+<a href="/windows/desktop/api/ras/nf-ras-raseditphonebookentrya">RasEditPhonebookEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

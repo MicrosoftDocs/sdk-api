@@ -56,22 +56,22 @@ Draws a metafile to the command sink using the given source and destination rect
 
 ### -param gdiMetafile [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1gdimetafile">ID2D1GdiMetafile</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1gdimetafile">ID2D1GdiMetafile</a>*</b>
 
 The metafile to draw.
 
 ### -param destinationRectangle [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
+Type: <b>const <a href="/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 The rectangle in the target where the metafile will be drawn, relative to the upper left corner (defined in DIPs). If NULL is specified, the destination rectangle is the size of the target.
 
 ### -param sourceRectangle [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
+Type: <b>const <a href="/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 The rectangle of the source metafile that will be drawn, relative to the upper left corner (defined in DIPs). 
-     If NULL is specified, the source rectangle is the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1gdimetafile1-getsourcebounds">ID2D1GdiMetafile1::GetSourceBounds</a>.
+     If NULL is specified, the source rectangle is the value returned by <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1gdimetafile1-getsourcebounds">ID2D1GdiMetafile1::GetSourceBounds</a>.
 
 ## -returns
 
@@ -79,5 +79,4 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink2">ID2D1CommandSink2</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1commandsink2">ID2D1CommandSink2</a>

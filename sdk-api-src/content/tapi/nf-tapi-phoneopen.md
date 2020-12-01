@@ -72,12 +72,12 @@ Pointer to an HPHONE handle that identifies the open phone device. Use this hand
 ### -param dwAPIVersion
 
 API version number under which the application and Telephony API have agreed to operate. This number is obtained from 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonenegotiateapiversion">phoneNegotiateAPIVersion</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-phonenegotiateapiversion">phoneNegotiateAPIVersion</a>.
 
 ### -param dwExtVersion
 
 Extension version number under which the application and the service provider agree to operate. This number is zero if the application does not use any extensions. This number is obtained from 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonenegotiateextversion">phoneNegotiateExtVersion</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-phonenegotiateextversion">phoneNegotiateExtVersion</a>.
 
 ### -param dwCallbackInstance
 
@@ -86,7 +86,7 @@ User instance data passed back to the application with each message. This parame
 ### -param dwPrivilege
 
 Privilege requested. This parameter uses one and only one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phoneprivilege--constants">PHONEPRIVILEGE_ Constants</a>.
+<a href="/windows/desktop/Tapi/phoneprivilege--constants">PHONEPRIVILEGE_ Constants</a>.
 
 ## -returns
 
@@ -97,36 +97,35 @@ PHONEERR_ALLOCATED, PHONEERR_NODRIVER, PHONEERR_BADDEVICEID, PHONEERR_NOMEM, PHO
 ## -remarks
 
 When opening a phone device with monitor privileges, the application is sent messages when events occur that change the status of the phone. Messages sent to the application include 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-button">PHONE_BUTTON</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-state">PHONE_STATE</a>. The latter provides an indication of the phone's status item that has changed.
+<a href="/windows/desktop/Tapi/phone-button">PHONE_BUTTON</a> and 
+<a href="/windows/desktop/Tapi/phone-state">PHONE_STATE</a>. The latter provides an indication of the phone's status item that has changed.
 
 When opening a phone with owner privilege, the phone device can be manipulated in ways that affect the state of the phone device. An application should only open a phone using owner privilege if it actively wants to manipulate the phone device, and it should close the phone device when finished to allow other applications to control the phone.
 
 When an application opens a phone device, it must specify the negotiated API version and, if it wants to use the phone's extensions, the phone's device-specific extension version. This version number should have been obtained with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonenegotiateapiversion">phoneNegotiateAPIVersion</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonenegotiateextversion">phoneNegotiateExtVersion</a> functions. Version numbering allows the mix and match of different application versions with different API versions and service-provider versions.
+<a href="/windows/desktop/api/tapi/nf-tapi-phonenegotiateapiversion">phoneNegotiateAPIVersion</a> and 
+<a href="/windows/desktop/api/tapi/nf-tapi-phonenegotiateextversion">phoneNegotiateExtVersion</a> functions. Version numbering allows the mix and match of different application versions with different API versions and service-provider versions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-button">PHONE_BUTTON</a>
+<a href="/windows/desktop/Tapi/phone-button">PHONE_BUTTON</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-state">PHONE_STATE</a>
+<a href="/windows/desktop/Tapi/phone-state">PHONE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-phone-service-functions">Supplementary Phone Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonenegotiateapiversion">phoneNegotiateAPIVersion</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-phonenegotiateapiversion">phoneNegotiateAPIVersion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonenegotiateextversion">phoneNegotiateExtVersion</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-phonenegotiateextversion">phoneNegotiateExtVersion</a>

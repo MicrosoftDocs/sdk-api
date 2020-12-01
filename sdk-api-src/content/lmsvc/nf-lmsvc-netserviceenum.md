@@ -52,7 +52,7 @@ api_name:
 
 The
 				<b>NetServiceEnum</b> function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">service functions</a>.
+<a href="/windows/desktop/Services/service-functions">service functions</a>.
 
 ## -parameters
 
@@ -83,4 +83,3 @@ TBD
 ### -param resume_handle
 
 TBD
-

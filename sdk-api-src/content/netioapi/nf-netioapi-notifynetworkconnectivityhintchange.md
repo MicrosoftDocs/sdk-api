@@ -50,7 +50,7 @@ Registers an application-defined callback function, to be called when the aggreg
 
 ### -param Callback [in]
 
-A function pointer of type [PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK](/windows/win32/api/netioapi/nc-netioapi-pnetwork_connectivity_hint_change_callback), which points to your application-defined callback function. The callback function will be invoked when a network connectivity level or cost change occurs.
+A function pointer of type [PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK](./nc-netioapi-pnetwork_connectivity_hint_change_callback.md), which points to your application-defined callback function. The callback function will be invoked when a network connectivity level or cost change occurs.
 
 ### -param CallerContext [in]
 
@@ -70,5 +70,4 @@ A pointer to a **HANDLE**. The function sets the value to a handle to the notifi
 
 ## -see-also
 
-[PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK](/windows/win32/api/netioapi/nc-netioapi-pnetwork_connectivity_hint_change_callback)
-
+[PNETWORK_CONNECTIVITY_HINT_CHANGE_CALLBACK](./nc-netioapi-pnetwork_connectivity_hint_change_callback.md)

@@ -54,12 +54,12 @@ Manages a query heap. A query heap holds an array of queries, referenced by inde
 
 ## -remarks
 
-For more information, refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/queries">Queries</a>.
+For more information, refer to <a href="/windows/desktop/direct3d12/queries">Queries</a>.
 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses <b>ID3D12QueryHeap</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses <b>ID3D12QueryHeap</b> as follows:
         
 
 Create a query heap and a query result buffer.
@@ -110,15 +110,14 @@ ThrowIfFailed(m_device->CreateQueryHeap(&queryHeapDesc, IID_PPV_ARGS(&m_queryHea
 ```
 
 
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>

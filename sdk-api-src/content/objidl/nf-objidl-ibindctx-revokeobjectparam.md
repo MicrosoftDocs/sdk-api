@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Removes the specified key and its associated pointer from the bind context's string-keyed table of objects. The key must have previously been inserted into the table with a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectparam">RegisterObjectParam</a>.
+Removes the specified key and its associated pointer from the bind context's string-keyed table of objects. The key must have previously been inserted into the table with a call to <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectparam">RegisterObjectParam</a>.
 
 ## -parameters
 
 ### -param pszKey [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/shell/str-constants">bind context string key</a> to be removed. Key string comparison is case-sensitive.
+The <a href="/windows/desktop/shell/str-constants">bind context string key</a> to be removed. Key string comparison is case-sensitive.
 
 ## -returns
 
@@ -99,5 +99,4 @@ This method is used to remove an entry from the table. If the specified key is f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>

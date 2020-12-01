@@ -62,11 +62,11 @@ The <b>JOYCAPS</b> structure contains information about the joystick capabilitie
 
 ### -field wMid
 
-Manufacturer identifier. Manufacturer identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
+Manufacturer identifier. Manufacturer identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field wPid
 
-Product identifier. Product identifiers are defined in <a href="https://docs.microsoft.com/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
+Product identifier. Product identifiers are defined in <a href="/windows/desktop/Multimedia/manufacturer-and-product-identifiers">Manufacturer and Product Identifiers</a>.
 
 ### -field szPname
 
@@ -102,7 +102,7 @@ Number of joystick buttons.
 
 ### -field wPeriodMin
 
-Smallest polling frequency supported when captured by the <a href="https://docs.microsoft.com/previous-versions/dd757114(v=vs.85)">joySetCapture</a> function.
+Smallest polling frequency supported when captured by the <a href="/previous-versions/dd757114(v=vs.85)">joySetCapture</a> function.
 
 ### -field wPeriodMax
 
@@ -201,10 +201,9 @@ Multimedia Joystick Structures
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757114(v=vs.85)">joySetCapture</a>
+<a href="/previous-versions/dd757114(v=vs.85)">joySetCapture</a>
 
 ## -remarks
 
 > [!NOTE]
 > The joystickapi.h header defines JOYCAPS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

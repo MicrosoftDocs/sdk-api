@@ -79,24 +79,23 @@ LINEERR_BADDEVICEID, LINEERR_OPERATIONFAILED, LINEERR_INVALPOINTER, LINEERR_RESO
 
 The 
 <b>lineGetIcon</b> function causes the provider to return a handle (in <i>lphIcon</i>) to an icon resource (obtained from 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>) that is associated with the specified line. The icon handle is for a resource associated with the provider. The application must use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyicon">CopyIcon</a> if it wants to reference the icon after the provider is unloaded, which is unlikely to happen as long as the application has the line open.
+<a href="/windows/desktop/api/winuser/nf-winuser-loadicona">LoadIcon</a>) that is associated with the specified line. The icon handle is for a resource associated with the provider. The application must use 
+<a href="/windows/desktop/api/winuser/nf-winuser-copyicon">CopyIcon</a> if it wants to reference the icon after the provider is unloaded, which is unlikely to happen as long as the application has the line open.
 
 The <i>lpszDeviceClass</i> parameter allows the provider to return different icons based on the type of service being referenced by the caller. The permitted strings are the same as for 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>. For example, if the line supports the Comm API, passing "COMM" as <i>lpszDeviceClass</i> causes the provider to return an icon related specifically to the Comm device functions of the service provider. The parameters "tapi/line", "", or <b>NULL</b> can be used to request the icon for the line service.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>. For example, if the line supports the Comm API, passing "COMM" as <i>lpszDeviceClass</i> causes the provider to return an icon related specifically to the Comm device functions of the service provider. The parameters "tapi/line", "", or <b>NULL</b> can be used to request the icon for the line service.
 
 For applications using an API version earlier than 2.0, if the provider does not return an icon (whether because the given device class is invalid or the provider does not support icons), TAPI substitutes a generic  Telephony line device icon. For applications using API version 2.0 or later, TAPI substitutes the default line icon only if the <i>lpszDeviceClass</i> parameter is "tapi/line", "" or <b>NULL</b>. For any other device class, if the given device class is not valid or the provider does not support icons for the class, 
 <b>lineGetIcon</b> returns LINEERR_INVALDEVICECLASS.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>

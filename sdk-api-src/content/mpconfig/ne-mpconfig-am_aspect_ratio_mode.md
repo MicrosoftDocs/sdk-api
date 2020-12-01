@@ -78,13 +78,12 @@ The AM_ARMODE_STRETCHED member causes a video stream to occupy the entire region
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getaspectratiomode">IMixerPinConfig::GetAspectRatioMode</a>
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getaspectratiomode">IMixerPinConfig::GetAspectRatioMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setaspectratiomode">IMixerPinConfig::SetAspectRatioMode</a>
-
+<a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setaspectratiomode">IMixerPinConfig::SetAspectRatioMode</a>

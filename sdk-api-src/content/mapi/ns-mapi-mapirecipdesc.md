@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-A <b>MapiRecipDesc</b> structure contains information about a message sender or recipient. For Unicode support, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdescw">MapiRecipDescW</a> structure.
+A <b>MapiRecipDesc</b> structure contains information about a message sender or recipient. For Unicode support, use the <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdescw">MapiRecipDescW</a> structure.
 
 ## -struct-fields
 
@@ -135,25 +135,24 @@ Pointer to an opaque entry identifier used by a messaging system service provide
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiaddress">MAPIAddress</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiaddress">MAPIAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapidetails">MAPIDetails</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapidetails">MAPIDetails</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiresolvename">MAPIResolveName</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapiresolvename">MAPIResolveName</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a>
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdescw">MapiRecipDescW</a>
-
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdescw">MapiRecipDescW</a>

@@ -54,15 +54,15 @@ Closes the client end of a virtual channel.
 
 Remote Desktop Services provides a pointer to a 
 <b>VirtualChannelClose</b> function in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/ns-cchannel-channel_entry_points">CHANNEL_ENTRY_POINTS</a> structure passed to your 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a> entry point.
+<a href="/windows/desktop/api/cchannel/ns-cchannel-channel_entry_points">CHANNEL_ENTRY_POINTS</a> structure passed to your 
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelentry">VirtualChannelEntry</a> entry point.
 
 ## -parameters
 
 ### -param openHandle [in]
 
 Handle to the virtual channel. This is the handle returned in the <i>pOpenHandle</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a> function.
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a> function.
 
 ## -returns
 
@@ -72,5 +72,4 @@ If an error occurs, the function returns one of the following values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a>
-
+<a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a>

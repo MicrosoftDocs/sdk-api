@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/emboss-effect">Emboss effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/emboss-effect">Emboss effect</a>.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ The D2D1_EMBOSS_PROP_HEIGHT property is a float value controlling the strength o
 The D2D1_EMBOSS_PROP_DIRECTION property is a float value specifying the light direction used to create the effect. The allowed range is 0.0 to 360.0.  The default value is 0.0.
 
 ### -field D2D1_EMBOSS_PROP_FORCE_DWORD
-

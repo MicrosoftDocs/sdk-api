@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-This interface is implemented on each output pin of the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter (Demux) and is used in transport stream mode only. It is called by applications or other filters to associate the pin with one or more Packet IDs (PID). Once a PID has been mapped, the Demux will deliver all packets with that ID to the output pin. This interface is not exposed when the filter is playing back a file (pull-mode).
+This interface is implemented on each output pin of the <a href="/windows/desktop/DirectShow/mpeg-2-demultiplexer">MPEG-2 Demultiplexer</a> filter (Demux) and is used in transport stream mode only. It is called by applications or other filters to associate the pin with one or more Packet IDs (PID). Once a PID has been mapped, the Demux will deliver all packets with that ID to the output pin. This interface is not exposed when the filter is playing back a file (pull-mode).
 
-For program streams, use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-impeg2streamidmap">IMPEG2StreamIdMap</a> interface.
+For program streams, use the <a href="/windows/desktop/api/strmif/nn-strmif-impeg2streamidmap">IMPEG2StreamIdMap</a> interface.
 
-<b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
+<b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2PIDMap</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMPEG2PIDMap</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMPEG2PIDMap</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMPEG2PIDMap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMPEG2PIDMap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-enumpidmap">EnumPIDMap</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-enumpidmap">EnumPIDMap</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of all the currently mapped PIDs on this pin.
@@ -83,7 +83,7 @@ Returns a collection of all the currently mapped PIDs on this pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-mappid">MapPID</a>
+<a href="/previous-versions/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-mappid">MapPID</a>
 </td>
 <td align="left" width="63%">
 Maps the packets of a specified PID to the pin.
@@ -92,10 +92,10 @@ Maps the packets of a specified PID to the pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-unmappid">UnmapPID</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-unmappid">UnmapPID</a>
 </td>
 <td align="left" width="63%">
-Unmaps the PID mapping created in a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-mappid">MapPID</a>.
+Unmaps the PID mapping created in a previous call to <a href="/previous-versions/windows/desktop/api/bdaiface/nf-bdaiface-impeg2pidmap-mappid">MapPID</a>.
 
 </td>
 </tr>
@@ -103,5 +103,4 @@ Unmaps the PID mapping created in a previous call to <a href="https://docs.micro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/interfaces">Interfaces</a>

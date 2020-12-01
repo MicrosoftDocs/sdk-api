@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - SwitchToThisWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SwitchToThisWindow function
@@ -78,7 +79,7 @@ A <b>TRUE</b> for this parameter indicates that the window
 
 This function is typically called to maintain window z-ordering. 
 
-This function was not included in the SDK headers and libraries until Windows XP with Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
+This function was not included in the SDK headers and libraries until Windows XP with Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
 
 ## -see-also
 
@@ -86,7 +87,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindowvisible">IsWindowVisible</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-iswindowvisible">IsWindowVisible</a>
 
 
 
@@ -94,9 +95,8 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

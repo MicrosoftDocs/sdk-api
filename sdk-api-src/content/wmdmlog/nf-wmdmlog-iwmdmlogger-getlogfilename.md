@@ -72,7 +72,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
@@ -80,9 +80,8 @@ The default log file is &lt; <i>Windows directory</i> &gt;\System32\Wmdm.log.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/enabling-logging">Enabling Logging</a>
+<a href="/windows/desktop/WMDM/enabling-logging">Enabling Logging</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmdmlog/nn-wmdmlog-iwmdmlogger">IWMDMLogger Interface</a>
-
+<a href="/windows/desktop/api/wmdmlog/nn-wmdmlog-iwmdmlogger">IWMDMLogger Interface</a>

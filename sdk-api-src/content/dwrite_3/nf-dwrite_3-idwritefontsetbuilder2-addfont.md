@@ -52,7 +52,7 @@ Adds a font to the set being built, with the caller supplying enough information
 
 ### -param fontFile
 
-Type: **[IDWriteFontFile](/windows/win32/api/dwrite//windows/win32/api/dwrite/nn-dwrite-idwritefontfile)\***
+Type: **[IDWriteFontFile](../dwrite/nn-dwrite-idwritefontfile.md)\***
 
 Font file reference object to add to the set.
 
@@ -64,13 +64,13 @@ The zero-based index of a font face in a collection.
 
 ### -param fontSimulations
 
-Type: **[DWRITE_FONT_SIMULATIONS](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_simulations)**
+Type: **[DWRITE_FONT_SIMULATIONS](../dwrite/ne-dwrite-dwrite_font_simulations.md)**
 
 Font face simulation flags for algorithmic emboldening and italicization.
 
 ### -param fontAxisValues
 
-Type: **[DWRITE_FONT_AXIS_VALUE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_value) const \***
+Type: **[DWRITE_FONT_AXIS_VALUE](./ns-dwrite_3-dwrite_font_axis_value.md) const \***
 
 A pointer to an array containing a list of font axis values. The array should be the size (the number of elements) indicated by the *fontAxisValueCount* argument.
 
@@ -82,7 +82,7 @@ The number of font axis values contained in the *fontAxisValues* array.
 
 ### -param fontAxisRanges
 
-Type: **[DWRITE_FONT_AXIS_RANGE](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_axis_range) const \***
+Type: **[DWRITE_FONT_AXIS_RANGE](./ns-dwrite_3-dwrite_font_axis_range.md) const \***
 
 List of axis ranges.
 
@@ -94,7 +94,7 @@ Number of axis ranges.
 
 ### -param properties
 
-Type: **[DWRITE_FONT_PROPERTY](/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_property) const \***
+Type: **[DWRITE_FONT_PROPERTY](./ns-dwrite_3-dwrite_font_property.md) const \***
 
 List of properties to associate with the reference.
 
@@ -115,4 +115,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 The font properties should include at least a family (typographic or weight/style/stretch). Otherwise the font would be accessible in the **IDWriteFontSet** only by index, not name.
 
 ## -see-also
-

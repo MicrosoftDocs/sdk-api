@@ -53,8 +53,8 @@ api_name:
 ## -description
 
 Contains resource class data. It is used as the data member of a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_resource_class_info">CLUSPROP_RESOURCE_CLASS_INFO</a> structure and 
-    as the return value of some <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-codes">control code</a> operations.
+    <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_resource_class_info">CLUSPROP_RESOURCE_CLASS_INFO</a> structure and 
+    as the return value of some <a href="/previous-versions/windows/desktop/mscs/control-codes">control code</a> operations.
 
 ## -struct-fields
 
@@ -71,7 +71,7 @@ Provides another way to access the resource class data.
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.DUMMYUNIONNAME.rc
 
 Resource class described with one of the following values enumerated from the 
-          <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_class">CLUSTER_RESOURCE_CLASS</a> enumeration.
+          <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_class">CLUSTER_RESOURCE_CLASS</a> enumeration.
 
 
 
@@ -84,13 +84,13 @@ Resource class is unknown.
 ####### DUMMYSTRUCTNAME.DUMMYUNIONNAME.rc.CLUS_RESCLASS_STORAGE (1)
 
 Resource is a storage device, such as a 
-            <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/p-gly">Physical Disk resource</a>.
+            <a href="/previous-versions/windows/desktop/mscs/p-gly">Physical Disk resource</a>.
 
 
 
 ####### DUMMYSTRUCTNAME.DUMMYUNIONNAME.rc.CLUS_RESCLASS_NETWORK (2)
 
-Resource is a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/n-gly">network</a> device.
+Resource is a <a href="/previous-versions/windows/desktop/mscs/n-gly">network</a> device.
 
 
 
@@ -101,14 +101,14 @@ Resource classes beginning at this value are user-defined.
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.SubClass
 
 A mask value that further describes the resource class. The following value is valid for storage class 
-         resources such as <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resources.
+         resources such as <a href="/previous-versions/windows/desktop/mscs/physical-disk">Physical Disk</a> resources.
 
 
 
 ###### DUMMYSTRUCTNAME.SubClass.CLUS_RESSUBCLASS_SHARED (0x80000000)
 
 Indicates that the resource manages a shared resource such as a disk on a shared 
-           <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">SCSI</a> bus.
+           <a href="/previous-versions/windows/desktop/mscs/s-gly">SCSI</a> bus.
 
 ### -field DUMMYUNIONNAME.li
 
@@ -118,53 +118,52 @@ Resource class and subclass described as a <b>ULARGE_INTEGER</b> value with a lo
 ## -remarks
 
 A resource class identifies resources of similar capability. A 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> that defines its own resource class should 
+     <a href="/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> that defines its own resource class should 
      provide a unique identifier for the class that is set to a value greater than 
      <b>CLUS_RESCLASS_USER</b>. <b>CLUS_RESCLASS_USER</b> specifies the 
      beginning for user-defined resource class identifiers.
 
 A <b>CLUS_RESOURCE_CLASS_INFO</b> structure is 
-     returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> when the 
+     returned by <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a> when the 
      <i>dwControlCode</i> parameter is set to 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-class-info">CLUSCTL_RESOURCE_GET_CLASS_INFO</a> 
+     <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-get-class-info">CLUSCTL_RESOURCE_GET_CLASS_INFO</a> 
      and is returned by 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecontrol">ClusterResourceTypeControl</a> when 
+     <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecontrol">ClusterResourceTypeControl</a> when 
      <i>dwControlCode</i> is set to 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-class-info">CLUSCTL_RESOURCE_TYPE_GET_CLASS_INFO</a>.
+     <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-class-info">CLUSCTL_RESOURCE_TYPE_GET_CLASS_INFO</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-class-info">CLUSCTL_RESOURCE_GET_CLASS_INFO</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-get-class-info">CLUSCTL_RESOURCE_GET_CLASS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-class-info">CLUSCTL_RESOURCE_TYPE_GET_CLASS_INFO</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-class-info">CLUSCTL_RESOURCE_TYPE_GET_CLASS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_resource_class_info">CLUSPROP_RESOURCE_CLASS_INFO</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_resource_class_info">CLUSPROP_RESOURCE_CLASS_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_class">CLUSTER_RESOURCE_CLASS</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_resource_class">CLUSTER_RESOURCE_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-clus_ressubclass">CLUS_RESSUBCLASS</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-clus_ressubclass">CLUS_RESSUBCLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-clus_ressubclass_network">CLUS_RESSUBCLASS_NETWORK</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-clus_ressubclass_network">CLUS_RESSUBCLASS_NETWORK</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-clus_ressubclass_storage">CLUS_RESSUBCLASS_STORAGE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-clus_ressubclass_storage">CLUS_RESSUBCLASS_STORAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcecontrol">ClusterResourceControl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecontrol">ClusterResourceTypeControl</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecontrol">ClusterResourceTypeControl</a>

@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the number of characters that are selected in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control (run time only).
+Gets or sets the number of characters that are selected in the <a href="/windows/desktop/tablet/inkedit-control">InkEdit</a> control (run time only).
 
 This property is read/write.
 
@@ -71,5 +71,4 @@ You can use this property to determine if any characters are currently selected 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

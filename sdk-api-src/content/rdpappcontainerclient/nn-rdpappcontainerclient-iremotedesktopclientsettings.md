@@ -52,12 +52,12 @@ api_name:
 
 Provides the methods needed to configure the connection settings for the Remote Desktop Protocol (RDP) app container client control.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient">IRemoteDesktopClient</a>
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/iremotedesktopclient-settings">Settings</a> property to obtain a pointer to this interface.
+Use the <a href="/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient">IRemoteDesktopClient</a>
+<a href="/windows/desktop/TermServ/iremotedesktopclient-settings">Settings</a> property to obtain a pointer to this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRemoteDesktopClientSettings</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRemoteDesktopClientSettings</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRemoteDesktopClientSettings</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IRemoteDesktopClientSettings</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IRemoteDesktopClientSettings</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-applysettings">ApplySettings</a>
+<a href="/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-applysettings">ApplySettings</a>
 </td>
 <td align="left" width="63%">
 Stores the specified contents in the RDP file.
@@ -81,7 +81,7 @@ Stores the specified contents in the RDP file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-getrdpproperty">GetRdpProperty</a>
+<a href="/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-getrdpproperty">GetRdpProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a single named RDP property value.
@@ -90,7 +90,7 @@ Retrieves a single named RDP property value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-retrievesettings">RetrieveSettings</a>
+<a href="/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-retrievesettings">RetrieveSettings</a>
 </td>
 <td align="left" width="63%">
 Retrieves the entire RDP file as a string.
@@ -99,7 +99,7 @@ Retrieves the entire RDP file as a string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-setrdpproperty">SetRdpProperty</a>
+<a href="/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientsettings-setrdpproperty">SetRdpProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a single named RDP property.
@@ -110,5 +110,4 @@ Sets the value of a single named RDP property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-activex-control-reference">Remote Desktop ActiveX control reference</a>
-
+<a href="/windows/desktop/TermServ/remote-desktop-activex-control-reference">Remote Desktop ActiveX control reference</a>

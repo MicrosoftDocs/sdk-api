@@ -52,18 +52,17 @@ api_name:
 
 The 
 WbemTimeout constant defines the time-out constants. This constant is used by 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemeventsource-nextevent">SWbemEventSource.NextEvent</a>.
+<a href="/windows/desktop/WmiSdk/swbemeventsource-nextevent">SWbemEventSource.NextEvent</a>.
 
 The WMI scripting type library, wbemdisp.tlb, defines these constants. Visual Basic applications can access this library; script languages must use the value of the constant directly, unless they use Windows Script Host (WSH) XML file format. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
+<a href="/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
 ## -enum-fields
 
 ### -field wbemTimeoutInfinite
 
-Use for parameters that use a time-out value such as <i>iTimeoutMs</i> for <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execnotificationquery">ISWbemServices.ExecNotificationQuery</a> and the call will not return unless an event is received.
+Use for parameters that use a time-out value such as <i>iTimeoutMs</i> for <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execnotificationquery">ISWbemServices.ExecNotificationQuery</a> and the call will not return unless an event is received.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
-
+<a href="/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>

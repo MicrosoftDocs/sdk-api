@@ -58,7 +58,7 @@ api_name:
 
 The <b>FAX_EVENT</b> structure represents the contents of an I/O completion packet. The fax server sends the completion packet to notify a fax client application of an asynchronous fax server event.
 
-To create a fax event queue, the fax client application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxinitializeeventqueue">FaxInitializeEventQueue</a> function. The queue enables the application to receive notifications of asynchronous events from the fax server.
+To create a fax event queue, the fax client application must call the <a href="/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxinitializeeventqueue">FaxInitializeEventQueue</a> function. The queue enables the application to receive notifications of asynchronous events from the fax server.
 
 ## -struct-fields
 
@@ -70,9 +70,9 @@ Specifies the size, in bytes, of the <b>FAX_EVENT</b> structure. The fax server 
 
 ### -field TimeStamp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time at which the fax server generated the event.
+Specifies a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time at which the fax server generated the event.
 
 ### -field DeviceId
 
@@ -244,9 +244,9 @@ Specifies a unique number that identifies the fax job of interest. If this membe
 
 ## -remarks
 
-After a fax client application receives the <b>FEI_FAXSVC_ENDED</b> message from the fax service, it will no longer receive fax events. To resume receiving fax events, the application must call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxinitializeeventqueue">FaxInitializeEventQueue</a> function again when the fax service restarts. The application can determine if the fax service is running by using the service control manager.
+After a fax client application receives the <b>FEI_FAXSVC_ENDED</b> message from the fax service, it will no longer receive fax events. To resume receiving fax events, the application must call the <a href="/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxinitializeeventqueue">FaxInitializeEventQueue</a> function again when the fax service restarts. The application can determine if the fax service is running by using the service control manager.
 
-If the application receives events using notification messages, it can use the <b>FEI_NEVENTS</b> event. If the message is between the application's base window message and the base window message + <b>FEI_NEVENTS</b>, then the application can process the message as a fax window message. An application specifies the base window message using the <i>MessageStart</i> parameter to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxinitializeeventqueue">FaxInitializeEventQueue</a> function; the base window message must be greater than the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a> message. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxclose">FaxClose</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-enabling-an-application-to-receive-notifications-of-fax-events">Enabling an Application to Receive Notifications of Fax Events</a>.
+If the application receives events using notification messages, it can use the <b>FEI_NEVENTS</b> event. If the message is between the application's base window message and the base window message + <b>FEI_NEVENTS</b>, then the application can process the message as a fax window message. An application specifies the base window message using the <i>MessageStart</i> parameter to the <a href="/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxinitializeeventqueue">FaxInitializeEventQueue</a> function; the base window message must be greater than the <a href="/windows/desktop/winmsg/wm-user">WM_USER</a> message. For more information, see <a href="/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxclose">FaxClose</a> and <a href="/previous-versions/windows/desktop/fax/-mfax-enabling-an-application-to-receive-notifications-of-fax-events">Enabling an Application to Receive Notifications of Fax Events</a>.
 
 
 
@@ -257,21 +257,20 @@ If the application receives events using notification messages, it can use the <
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-structures">Fax Service Client API Structures</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-structures">Fax Service Client API Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxclose">FaxClose</a>
+<a href="/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxclose">FaxClose</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxinitializeeventqueue">FaxInitializeEventQueue</a>
-
+<a href="/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxinitializeeventqueue">FaxInitializeEventQueue</a>

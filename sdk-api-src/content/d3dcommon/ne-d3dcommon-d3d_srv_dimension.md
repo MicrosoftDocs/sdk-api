@@ -100,7 +100,7 @@ The resource is an array of cube textures.
 
 ### -field D3D_SRV_DIMENSION_BUFFEREX
 
-The resource is a raw buffer. For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
+The resource is a raw buffer. For more info about raw viewing of buffers, see <a href="/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
 
 ### -field D3D10_SRV_DIMENSION_UNKNOWN
 
@@ -232,13 +232,12 @@ The resource is an array of cube textures.
 
 ### -field D3D11_SRV_DIMENSION_BUFFEREX
 
-The resource is a raw buffer. For more info about raw viewing of buffers, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
+The resource is a raw buffer. For more info about raw viewing of buffers, see <a href="/windows/desktop/direct3d11/overviews-direct3d-11-resources-intro">Raw Views of Buffers</a>.
 
 ## -remarks
 
-A <b>D3D_SRV_DIMENSION</b>-typed value is specified in the <b>ViewDimension</b> member of the <a href="/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_RESOURCE_VIEW_DESC</a> structure or the  <b>Dimension</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a> structure.
+A <b>D3D_SRV_DIMENSION</b>-typed value is specified in the <b>ViewDimension</b> member of the <a href="/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_RESOURCE_VIEW_DESC</a> structure or the  <b>Dimension</b> member of the <a href="/windows/desktop/api/d3d11shader/ns-d3d11shader-d3d11_shader_input_bind_desc">D3D11_SHADER_INPUT_BIND_DESC</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>

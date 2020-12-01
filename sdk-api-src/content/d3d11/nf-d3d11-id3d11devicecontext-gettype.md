@@ -51,17 +51,16 @@ api_name:
 
 ## -description
 
-Gets the type of <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-intro">device context</a>.
+Gets the type of <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-intro">device context</a>.
 
 ## -parameters
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_device_context_type">D3D11_DEVICE_CONTEXT_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_device_context_type">D3D11_DEVICE_CONTEXT_TYPE</a></b>
 
-A member of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_device_context_type">D3D11_DEVICE_CONTEXT_TYPE</a> that indicates the type of device context.
+A member of <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_device_context_type">D3D11_DEVICE_CONTEXT_TYPE</a> that indicates the type of device context.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>

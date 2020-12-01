@@ -56,7 +56,7 @@ Obtains the text of the candidate string object.
 
 ### -param pbstr [out]
 
-Pointer to a <b>BSTR</b> value that receives the text of the candidate string object. The caller must release this memory using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
+Pointer to a <b>BSTR</b> value that receives the text of the candidate string object. The caller must release this memory using <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> when it is no longer required.
 
 ## -returns
 
@@ -104,9 +104,8 @@ A memory allocation failure occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatestring">ITfCandidateString</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>

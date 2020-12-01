@@ -54,10 +54,10 @@ api_name:
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
 The <b>addCertTypeToRequestEx</b>  method, like the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll2-addcerttypetorequest">addCertTypeToRequest</a> method, adds a certificate template (or "certificate type") to a request. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll2-addcerttypetorequest">addCertTypeToRequest</a> method, adds a certificate template (or "certificate type") to a request. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 This method is associated with the Certificate Services enterprise 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/policy-modules">policy module</a>. This method is specialized, and its use is not recommended for most applications. This version can add a V@ template extension into a request.
+<a href="/windows/desktop/SecCrypto/policy-modules">policy module</a>. This method is specialized, and its use is not recommended for most applications. This version can add a V@ template extension into a request.
 
 ## -parameters
 
@@ -99,7 +99,7 @@ Uses a version 2 extension
 
 ### -param bstrOIDOrName [in]
 
-The certificate template fully qualified name which is being added to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This value is interpreted by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>.
+The certificate template fully qualified name which is being added to the <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>. This value is interpreted by the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a>.
 
 ### -param lMajorVersion [in]
 
@@ -121,28 +121,27 @@ Sets the minor version of the template. This parameter is ignored if <i>lFlag</i
 ## -remarks
 
 This method supports only the new request method, 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll4-createrequest">createRequest</a>. It does not support the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a> method.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll4-createrequest">createRequest</a>. It does not support the 
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">createPKCS10</a> method.
 
 This method can be called multiple times to establish multiple certificate templates for the request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll2-addcerttypetorequest">ICEnroll2::addCertTypeToRequest</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll2-addcerttypetorequest">ICEnroll2::addCertTypeToRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll4-createrequest">ICEnroll4::createRequest</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll4-createrequest">ICEnroll4::createRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">ICEnroll::createPKCS10</a>
-
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">ICEnroll::createPKCS10</a>

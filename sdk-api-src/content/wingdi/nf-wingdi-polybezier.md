@@ -62,7 +62,7 @@ A handle to a device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contain the endpoints and control points of the curve(s), in logical units.
+A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contain the endpoints and control points of the curve(s), in logical units.
 
 ### -param cpt [in]
 
@@ -85,27 +85,26 @@ This function draws lines by using the current pen.
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/redrawing-in-the-update-region">Redrawing in the Update Region</a>.
+For an example, see <a href="/windows/desktop/gdi/redrawing-in-the-update-region">Redrawing in the Update Region</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
+<a href="/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
+<a href="/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polybezierto">PolyBezierTo</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polybezierto">PolyBezierTo</a>

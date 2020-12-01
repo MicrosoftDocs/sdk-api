@@ -64,5 +64,4 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpoint">IAudioEndpoint</a>
-
+<a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpoint">IAudioEndpoint</a>

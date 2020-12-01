@@ -58,7 +58,7 @@ Describes the text in an XML node.
 
 ### -field Node
 
-The current node in a linked list of <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_node">WSDXML_NODE</a> structures.
+The current node in a linked list of <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_node">WSDXML_NODE</a> structures.
 
 ### -field Text
 
@@ -67,4 +67,3 @@ The text contained in the XML node. The maximum length of this string is WSD_MAX
 ## -remarks
 
 <b>WSDXML_TEXT</b> is used to represent the contents of an element. Since no type information exists for elements in DOM, the <b>Text</b> member is the exact representation of the element contents from the XML document.
-

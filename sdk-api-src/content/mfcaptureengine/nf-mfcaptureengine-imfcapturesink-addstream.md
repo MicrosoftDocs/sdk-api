@@ -70,7 +70,7 @@ The source stream to connect. The value can be any of the following.
 </dl>
 </td>
 <td width="60%">
-The zero-based index of a stream. To get the number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
+The zero-based index of a stream. To get the number of streams, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
 
 </td>
 </tr>
@@ -111,17 +111,17 @@ The first audio stream.
 
 ### -param pMediaType [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> pointer that specifies the desired format of the output stream. The details of the format will depend on the capture sink.
+An <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> pointer that specifies the desired format of the output stream. The details of the format will depend on the capture sink.
 
 <ul>
-<li>Photo sink: A still image format compatible with <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-lh">Windows Imaging Component</a> (WIC).</li>
+<li>Photo sink: A still image format compatible with <a href="/windows/desktop/wic/-wic-lh">Windows Imaging Component</a> (WIC).</li>
 <li>Preview sink: An uncompressed audio or video format.</li>
 <li>Record sink: The audio or video format that will be written to the output file.</li>
 </ul>
 
 ### -param pAttributes [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. For compressed streams, you can use this parameter to configure the encoder. This parameter can also be <b>NULL</b>.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes">IMFAttributes</a> interface. For compressed streams, you can use this parameter to configure the encoder. This parameter can also be <b>NULL</b>.
 
 For the preview sink, set this parameter to <b>NULL</b>.
 
@@ -175,5 +175,4 @@ The <i>dwSourceStreamIndex</i> parameter is invalid, or the specified source str
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>

@@ -75,8 +75,8 @@ For <b>MES_DECODE</b>, pointer to a pointer to the buffer containing the data to
 
 
 For <b>MES_ENCODE</b>, pointer to a pointer to the buffer for 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/fixed-buffer-serialization">fixed buffer style</a>, and pointer to a pointer to return the buffer address for 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/dynamic-buffer-serialization">dynamic buffer style of serialization</a>.
+<a href="/windows/desktop/Rpc/fixed-buffer-serialization">fixed buffer style</a>, and pointer to a pointer to return the buffer address for 
+<a href="/windows/desktop/Rpc/dynamic-buffer-serialization">dynamic buffer style of serialization</a>.
 
 For <b>MES_ENCODE_NDR64</b>, pointer to a pointer to the buffer for fixed buffer style, and pointer to a pointer to return the buffer address for dynamic buffer style of serialization, but explicitly uses NDR64 to encode the buffer. The user-provided buffer must be aligned to 16.
 
@@ -121,7 +121,7 @@ The argument was invalid.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -131,13 +131,12 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesencodedynbufferhandlecreate">MesEncodeDynBufferHandleCreate</a>
+<a href="/windows/desktop/api/midles/nf-midles-mesencodedynbufferhandlecreate">MesEncodeDynBufferHandleCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-mesencodefixedbufferhandlecreate">MesEncodeFixedBufferHandleCreate</a>
+<a href="/windows/desktop/api/midles/nf-midles-mesencodefixedbufferhandlecreate">MesEncodeFixedBufferHandleCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/midles/nf-midles-meshandlefree">MesHandleFree</a>
-
+<a href="/windows/desktop/api/midles/nf-midles-meshandlefree">MesHandleFree</a>

@@ -82,17 +82,16 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Anchor Gravity</a>
+<a href="/windows/desktop/TSF/ranges">Anchor Gravity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-getgravity">IAnchor::GetGravity</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-getgravity">IAnchor::GetGravity</a>
 
 
 
 <a href="/windows/win32/api/textstor/ne-textstor-tsgravity">TsGravity</a>
-

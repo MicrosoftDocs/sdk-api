@@ -52,11 +52,10 @@ api_name:
 
 ## -description
 
-Information about a mapping between an <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> and an XML element.
+Information about a mapping between an <a href="/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> and an XML element.
 
 ## -struct-fields
 
 ### -field envelopeVersion
 
 The SOAP version to use when serializing the fault.
-

@@ -64,13 +64,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method is optional. If you do not implement this method, you should just return <b>E_NOTIMPL</b>.
 
-If this method is called, it indicates that the <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents">ICredentialProviderCredentialEvents</a> pointer provided in <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-advise">Advise</a> is no longer valid. It is the responsibility of the credential provider to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the provided <b>ICredentialProviderCredentialEvents</b> pointer during this method.
+If this method is called, it indicates that the <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents">ICredentialProviderCredentialEvents</a> pointer provided in <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-advise">Advise</a> is no longer valid. It is the responsibility of the credential provider to call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the provided <b>ICredentialProviderCredentialEvents</b> pointer during this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential">ICredentialProviderCredential</a>
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential">ICredentialProviderCredential</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-advise">ICredentialProviderCredential::Advise</a>
-
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredential-advise">ICredentialProviderCredential::Advise</a>

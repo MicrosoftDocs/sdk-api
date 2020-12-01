@@ -45,9 +45,6 @@ api_name:
  - FNOPEN
 ---
 
-# FNOPEN macro
-
-
 ## -description
 
 The <b>FNOPEN</b> macro provides the declaration for the application-defined callback function to open a file in an FDI context.
@@ -58,22 +55,11 @@ The <b>FNOPEN</b> macro provides the declaration for the application-defined cal
 
 The name of the file.
 
-
-#### - oflag
-
-Specifies the type of operations allowed.
-
-
-#### - pmode
-
-Specifies the permission mode.
-
 ## -remarks
 
 The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/z0kc8e3z(VS.71).aspx">_open</a>.
 
-
-#### Examples
+## Examples
 
 
 ```cpp
@@ -117,10 +103,8 @@ FNOPEN(fnFileOpen)
 
     return (INT_PTR)hFile;
 }
-
 ```
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>
-
+<a href="/windows/desktop/api/fdi/nf-fdi-fdicreate">FDICreate</a>

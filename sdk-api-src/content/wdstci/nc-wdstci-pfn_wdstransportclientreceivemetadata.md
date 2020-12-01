@@ -60,7 +60,7 @@ The handle belonging to the session that is being started.
 
 ### -param pCallerData [in]
 
-Pointer to the caller specific data for this session.    This data was specified in the call to <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientstartsession">WdsTransportClientStartSession</a> function.
+Pointer to the caller specific data for this session.    This data was specified in the call to <a href="/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientstartsession">WdsTransportClientStartSession</a> function.
 
 ### -param pMetadata [in]
 
@@ -69,4 +69,3 @@ Data provided by the content provider that is associated with this object in som
 ### -param ulSize [in]
 
 The size of the <i>pMetadata</i> buffer in bytes.
-

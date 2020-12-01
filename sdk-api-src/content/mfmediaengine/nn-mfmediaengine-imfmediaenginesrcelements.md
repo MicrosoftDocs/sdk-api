@@ -54,7 +54,7 @@ Provides the Media Engine with a list of media resources.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineSrcElements</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineSrcElements</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaEngineSrcElements</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaEngineSrcElements</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFMediaEngineSrcElements</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-addelement">AddElement</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-addelement">AddElement</a>
 </td>
 <td align="left" width="63%">
 Adds a source element to the end of the list.
@@ -78,7 +78,7 @@ Adds a source element to the end of the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-getlength">GetLength</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the number of source elements in the list.
@@ -87,7 +87,7 @@ Gets the number of source elements in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-getmedia">GetMedia</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-getmedia">GetMedia</a>
 </td>
 <td align="left" width="63%">
 Gets the intended media type of an element in the list.
@@ -96,7 +96,7 @@ Gets the intended media type of an element in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-gettype">GetType</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets the MIME type of an element in the list.
@@ -105,7 +105,7 @@ Gets the MIME type of an element in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-geturl">GetURL</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-geturl">GetURL</a>
 </td>
 <td align="left" width="63%">
 Gets the URL of an element in the list.
@@ -114,7 +114,7 @@ Gets the URL of an element in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-removeallelements">RemoveAllElements</a>
+<a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-removeallelements">RemoveAllElements</a>
 </td>
 <td align="left" width="63%">
 Removes all of the source elements from the list.
@@ -132,10 +132,9 @@ This interface enables the application to provide the same audio/video content i
 <ol>
 <li>Create an implementation of this interface.</li>
 <li>Initialize your implementation with a list of URLs. Optionally, provide MIME types and media query strings for each URL.</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsourceelements">IMFMediaEngine::SetSourceElements</a> method.</li>
+<li>Call the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengine-setsourceelements">IMFMediaEngine::SetSourceElements</a> method.</li>
 </ol>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

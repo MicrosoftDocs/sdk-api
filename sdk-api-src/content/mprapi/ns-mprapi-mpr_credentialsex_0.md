@@ -69,9 +69,8 @@ Pointer to the extended credentials information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetcredentialsex">MprAdminInterfaceGetCredentialsEx</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetcredentialsex">MprAdminInterfaceGetCredentialsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcredentialsex">MprAdminInterfaceSetCredentialsEx</a>
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcredentialsex">MprAdminInterfaceSetCredentialsEx</a>

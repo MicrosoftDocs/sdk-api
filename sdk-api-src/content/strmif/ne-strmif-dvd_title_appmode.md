@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Indicates whether a DVD title is a karaoke title. This enumeration is a member of the [DVD_TitleAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_titleattributes) structure, which is filled when an application calls the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">IDvdInfo2::GetTitleAttributes</a> method.
+Indicates whether a DVD title is a karaoke title. This enumeration is a member of the [DVD_TitleAttributes](/windows/desktop/api/strmif/ns-strmif-dvd_titleattributes) structure, which is filled when an application calls the <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleattributes">IDvdInfo2::GetTitleAttributes</a> method.
 
 ## -enum-fields
 
@@ -66,13 +66,12 @@ Title contains karaoke content.
 
 ### -field DVD_AppMode_Other
 
-Title contains a type of content that the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator Filter</a> does not recognize, so the application should treat the title as a regular DVD-Video title.
+Title contains a type of content that the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator Filter</a> does not recognize, so the application should treat the title as a regular DVD-Video title.
 
 ## -remarks
 
-When the DVD Navigator encounters a karaoke title on a disc, it goes into "karaoke mode" and informs the audio decoder. The decoder must respond by initially muting the three auxiliary channels. Applications can then selectively control the volume and mixing configuration of these channels using the karaoke-related methods in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2</a> interface For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/playing-karaoke-audio-streams">Playing Karaoke Audio Streams</a>.
+When the DVD Navigator encounters a karaoke title on a disc, it goes into "karaoke mode" and informs the audio decoder. The decoder must respond by initially muting the three auxiliary channels. Applications can then selectively control the volume and mixing configuration of these channels using the karaoke-related methods in the <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2</a> interface For more information, see <a href="/windows/desktop/DirectShow/playing-karaoke-audio-streams">Playing Karaoke Audio Streams</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

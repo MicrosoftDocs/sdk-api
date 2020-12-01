@@ -72,13 +72,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice2">IVisualTreeService2</a>
+<a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice2">IVisualTreeService2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-adddictionaryitem">IVisualTreeService3::AddDictionaryItem</a>
+<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-adddictionaryitem">IVisualTreeService3::AddDictionaryItem</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-removedictionaryitem">IVisualTreeService3::RemoveDictionaryItem</a>
-
+<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-removedictionaryitem">IVisualTreeService3::RemoveDictionaryItem</a>

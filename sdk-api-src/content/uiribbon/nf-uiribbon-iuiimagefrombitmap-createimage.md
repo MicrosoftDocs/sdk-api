@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a> object from a bitmap image.
+Creates an <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a> object from a bitmap image.
 
 ## -parameters
 
@@ -63,9 +63,9 @@ A handle to the bitmap that contains the image.
 
 ### -param options [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_ownership">UI_OWNERSHIP</a></b>
+Type: <b><a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_ownership">UI_OWNERSHIP</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_ownership">ownership conditions</a> under which 
+The <a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_ownership">ownership conditions</a> under which 
 					an image is created.
 					
 
@@ -78,7 +78,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon
 <td>UI_OWNERSHIP_TRANSFER</td>
 <td>If <b>UI_OWNERSHIP_TRANSFER</b> is specified as the value of 
 				<i>options</i>, then the Ribbon framework owns 
-					the handle to the bitmap (HBITMAP) through the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a> object and 
+					the handle to the bitmap (HBITMAP) through the <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a> object and 
 					releases it when the framework no longer requires it.
 				<div class="alert"><b>Note</b>  This option prevents the Ribbon host application from safely referencing the same HBITMAP 
 					elsewhere in the application UI.
@@ -102,9 +102,9 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon
 
 ### -param image [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a>**</b>
+Type: <b><a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a>**</b>
 
-When this method returns, contains the address of a pointer variable that receives the <a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a> object.
+When this method returns, contains the address of a pointer variable that receives the <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiimage">IUIImage</a> object.
 
 ## -returns
 
@@ -117,7 +117,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This factory method is useful when an application dynamically generates an image 
 				 resource and wants to pass the new HBITMAP to the Ribbon, 
 				 for example, loading a Portable Network Graphics (PNG) through the Windows Imaging Component (WIC) or using 
-				 <a href="https://msdn.microsoft.com/library/ms532292.aspx">CreateDIBSection</a> to create an image for a new style 
+				 <a href="/previous-versions//ms532292(v=vs.85)">CreateDIBSection</a> to create an image for a new style 
 				 in a styles gallery.
 			
 
@@ -135,9 +135,8 @@ Specify <b>UI_OWNERSHIP_TRANSFER</b> as the value for <i>options</i> to minimize
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nn-uiribbon-iuiimagefrombitmap">IUIImageFromBitmap</a>
+<a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuiimagefrombitmap">IUIImageFromBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-
+<a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>

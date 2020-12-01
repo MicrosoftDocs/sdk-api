@@ -57,7 +57,7 @@ Adds a stream number to a record in the Advanced Systems Format mutual exclusion
 
 ### -param dwRecordNumber [in]
 
-The record number to which the stream is added. A record number is set by the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addrecord">IMFASFMutualExclusion::AddRecord</a> method.
+The record number to which the stream is added. A record number is set by the <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-addrecord">IMFASFMutualExclusion::AddRecord</a> method.
 
 ### -param wStreamNumber [in]
 
@@ -102,17 +102,16 @@ Each record includes one or more streams. Every stream in a record is mutually e
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmutualexclusion">IMFASFMutualExclusion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-getstreamsforrecord">IMFASFMutualExclusion::GetStreamsForRecord</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-getstreamsforrecord">IMFASFMutualExclusion::GetStreamsForRecord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-removestreamfromrecord">IMFASFMutualExclusion::RemoveStreamFromRecord</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfmutualexclusion-removestreamfromrecord">IMFASFMutualExclusion::RemoveStreamFromRecord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>
-
+<a href="/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>

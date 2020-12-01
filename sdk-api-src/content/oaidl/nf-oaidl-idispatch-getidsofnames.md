@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Maps a single member and an optional set of argument names to a corresponding set of integer DISPIDs, which can be used on subsequent calls to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a>. The dispatch function <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispgetidsofnames">DispGetIDsOfNames</a> provides a standard implementation of <b>GetIDsOfNames</b>.
+Maps a single member and an optional set of argument names to a corresponding set of integer DISPIDs, which can be used on subsequent calls to <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">Invoke</a>. The dispatch function <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispgetidsofnames">DispGetIDsOfNames</a> provides a standard implementation of <b>GetIDsOfNames</b>.
 
 ## -parameters
 
@@ -132,7 +132,7 @@ The locale identifier (LCID) was not recognized.
 
 ## -remarks
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> implementation can associate any positive integer ID value with a given name. Zero is reserved for the default, or <b>Value</b> property; –1 is reserved to indicate an unknown name; and other negative values are defined for other purposes. For example, if <b>GetIDsOfNames</b> is called, and the implementation does not recognize one or more of the names, it returns DISP_E_UNKNOWNNAME, and the <i>rgDispId</i> array contains DISPID_UNKNOWN for the entries that correspond to the unknown names.
+An <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> implementation can associate any positive integer ID value with a given name. Zero is reserved for the default, or <b>Value</b> property; –1 is reserved to indicate an unknown name; and other negative values are defined for other purposes. For example, if <b>GetIDsOfNames</b> is called, and the implementation does not recognize one or more of the names, it returns DISP_E_UNKNOWNNAME, and the <i>rgDispId</i> array contains DISPID_UNKNOWN for the entries that correspond to the unknown names.
 
 The member and parameter DISPIDs must remain constant for the lifetime of the object. This allows a client to obtain the DISPIDs once, and cache them for later use.
 
@@ -140,7 +140,7 @@ When <b>GetIDsOfNames</b> is called with more than one name, the first name (<i>
 
 The same name may map to different DISPIDs, depending on context. For example, a name may have a DISPID when it is used as a member name with a particular interface, a different ID as a member of a different interface, and different mapping for each time it appears as a parameter.
 
-<b>GetIDsOfNames</b> is used when an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> client binds to names at run time. To bind at compile time instead, an <b>IDispatch</b> client can map names to DISPIDs by using the type information interfaces described in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/type-description-interfaces">Type Description Interfaces</a>. This allows a client to bind to members at compile time and avoid calling <b>GetIDsOfNames</b> at run time. For a description of binding at compile time, see Type Description Interfaces. 
+<b>GetIDsOfNames</b> is used when an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> client binds to names at run time. To bind at compile time instead, an <b>IDispatch</b> client can map names to DISPIDs by using the type information interfaces described in <a href="/previous-versions/windows/desktop/automat/type-description-interfaces">Type Description Interfaces</a>. This allows a client to bind to members at compile time and avoid calling <b>GetIDsOfNames</b> at run time. For a description of binding at compile time, see Type Description Interfaces. 
 
 The implementation of <b>GetIDsOfNames</b> is case insensitive. Users that need case-sensitive name mapping should use type information interfaces to map names to DISPIDs, rather than call <b>GetIDsOfNames</b>.
 
@@ -149,7 +149,7 @@ The implementation of <b>GetIDsOfNames</b> is case insensitive. Users that need 
 
 #### Examples
 
-The following code from the Lines sample file Lines.cpp implements the <b>GetIDsOfNames</b> member function for the CLine class. The ActiveX or OLE object uses the standard implementation, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispgetidsofnames">DispGetIDsOfNames</a>. This implementation relies on <b>DispGetIdsOfNames</b> to validate input arguments. To help minimize security risks, include code that performs more robust validation of the input arguments.
+The following code from the Lines sample file Lines.cpp implements the <b>GetIDsOfNames</b> member function for the CLine class. The ActiveX or OLE object uses the standard implementation, <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispgetidsofnames">DispGetIDsOfNames</a>. This implementation relies on <b>DispGetIdsOfNames</b> to validate input arguments. To help minimize security risks, include code that performs more robust validation of the input arguments.
 
 
 ```cpp
@@ -186,13 +186,12 @@ hresult = pdisp->GetIDsOfNames(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-createstddispatch">CreateStdDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispgetidsofnames">DispGetIDsOfNames</a>
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-dispgetidsofnames">DispGetIDsOfNames</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

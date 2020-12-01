@@ -54,7 +54,7 @@ Manages a WDS transport server. This is the top-level interface into the Windows
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportManager</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWdsTransportManager</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWdsTransportManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,12 +69,11 @@ The <b>IWdsTransportManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportmanager-getwdstransportserver">GetWdsTransportServer</a>
+<a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportmanager-getwdstransportserver">GetWdsTransportServer</a>
 </td>
 <td align="left" width="63%">
-Creates an object of the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a> interface that can be used to manage a WDS transport server.
+Creates an object of the <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver">IWdsTransportServer</a> interface that can be used to manage a WDS transport server.
 
 </td>
 </tr>
 </table>
-

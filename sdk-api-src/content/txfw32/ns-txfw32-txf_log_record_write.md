@@ -58,7 +58,7 @@ api_name:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Contains the record for a write operation.
 
@@ -82,7 +82,7 @@ Reserved.
 
 ### -field TxfFileId
 
-The TxF file identifier for the file associated with this record. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>.
+The TxF file identifier for the file associated with this record. For more information, see <a href="/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>.
 
 ### -field KtmGuid
 
@@ -114,9 +114,8 @@ If the write operation goes beyond the end of the file, the file is being extend
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>
+<a href="/windows/desktop/api/txfw32/ns-txfw32-txf_id">TXF_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>
-
+<a href="/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>

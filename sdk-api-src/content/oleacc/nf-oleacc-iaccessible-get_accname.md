@@ -58,7 +58,7 @@ The <b>IAccessible::get_accName</b> method retrieves the name of the specified o
 
 Type: <b>VARIANT</b>
 
-Specifies whether the retrieved name belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT structure</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
+Specifies whether the retrieved name belongs to the object or one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="/windows/desktop/WinAuto/variant-structure">VARIANT structure</a>, see <a href="/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
 ### -param pszName [out, retval]
 
@@ -68,11 +68,11 @@ Address of a <b>BSTR</b> that receives a string that contains the specified obje
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>. Servers return these values, but clients must always check output parameters to ensure that they contain valid values. For more information, see <a href="/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
 
 <table>
 <tr>
@@ -105,9 +105,9 @@ An argument is not valid.
 
 ## -remarks
 
-Many objects such as icons, menus, check boxes, combo boxes, and other controls have labels that are displayed to users. Any label that is displayed to users is used for the object's name property. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/name-property">Name Property</a>.
+Many objects such as icons, menus, check boxes, combo boxes, and other controls have labels that are displayed to users. Any label that is displayed to users is used for the object's name property. For more information, see the <a href="/windows/desktop/WinAuto/name-property">Name Property</a>.
 
-<b>Note to server developers:  </b>If you are using menu or button text for the Name property, remove any ampersands (&amp;) marking the keyboard access keys. Provide the access key to the client in response to <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut">IAccessible::get_accKeyboardShortcut</a>.
+<b>Note to server developers:  </b>If you are using menu or button text for the Name property, remove any ampersands (&amp;) marking the keyboard access keys. Provide the access key to the client in response to <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut">IAccessible::get_accKeyboardShortcut</a>.
 
 Localize the string returned from this property.
 
@@ -182,17 +182,16 @@ HRESULT PrintName(IAccessible* pAcc, long childId)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut">IAccessible::get_accKeyboardShortcut</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut">IAccessible::get_accKeyboardShortcut</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/name-property">Name Property</a>
+<a href="/windows/desktop/WinAuto/name-property">Name Property</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
-
+<a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>

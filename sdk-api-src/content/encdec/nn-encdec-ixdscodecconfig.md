@@ -53,11 +53,11 @@ api_name:
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
         
 
-The <b>IXDSCodecConfig</b> interface configures the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/xds-codec-filter">XDS Codec</a> filter. Most applications will not have to use this interface.
+The <b>IXDSCodecConfig</b> interface configures the <a href="/previous-versions/windows/desktop/mstv/xds-codec-filter">XDS Codec</a> filter. Most applications will not have to use this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXDSCodecConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXDSCodecConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXDSCodecConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXDSCodecConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IXDSCodecConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodecconfig-getsecurechannelobject">GetSecureChannelObject</a>
+<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodecconfig-getsecurechannelobject">GetSecureChannelObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves the secure channel object used to decrypt the stream.
@@ -81,7 +81,7 @@ Retrieves the secure channel object used to decrypt the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodecconfig-setpausebuffertime">SetPauseBufferTime</a>
+<a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-ixdscodecconfig-setpausebuffertime">SetPauseBufferTime</a>
 </td>
 <td align="left" width="63%">
 Specifies how often the XDS Codec filter attempts to generate a new license.
@@ -96,5 +96,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tv-ratings-interfaces">TV Ratings Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tv-ratings-interfaces">TV Ratings Interfaces</a>

@@ -53,7 +53,7 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>addExtensionToRequest</b> method adds an extension to the request. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
+The <b>addExtensionToRequest</b> method adds an extension to the request. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ Note that <b>TRUE</b> is defined (in a Microsoft header file) for C/C++ programm
 
 ### -param strName [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that represents the extension name.
+The <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that represents the extension name.
 
 ### -param strValue [in]
 
@@ -76,4 +76,3 @@ The base64-encoded or binary extension value.
 
 <h3>VB</h3>
 The return value is an <b>HRESULT</b>, with <b>S_OK</b> returned if the call is successful.
-

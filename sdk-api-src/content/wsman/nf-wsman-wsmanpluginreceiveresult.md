@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-Reports results for the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_receive">WSMAN_PLUGIN_RECEIVE</a> plug-in call and  is used by most shell plug-ins that return results.  After  all of the data is received,
-the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> method must be called.
+Reports results for the <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_receive">WSMAN_PLUGIN_RECEIVE</a> plug-in call and  is used by most shell plug-ins that return results.  After  all of the data is received,
+the <a href="/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> method must be called.
 
 ## -parameters
 
 ### -param requestDetails [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_plugin_request">WSMAN_PLUGIN_REQUEST</a> structure that specifies the resource URI, options, locale, shutdown flag, and handle for the request.
 
 ### -param flags [in]
 
@@ -69,7 +69,7 @@ Specifies the stream that the data is associated with. Any stream can be used, b
 
 ### -param streamResult [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that specifies the result object that is returned to the client. The result can be in either binary or XML format.
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that specifies the result object that is returned to the client. The result can be in either binary or XML format.
 
 ### -param commandState [in, optional]
 
@@ -107,5 +107,4 @@ The operation requires command-line input.
 
 ### -param exitCode [in]
 
-Ignored in all cases except when <i>commandState</i> is either <b>WSMAN_RECEIVE_STATE_NORMAL_TERMINATION</b> or <b>WSMAN_RECEIVE_STATE_ABNORMAL_TERMINATION</b>. Each result can have separate error codes. If the command or stream has failed, the plug-in must call the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> method.
-
+Ignored in all cases except when <i>commandState</i> is either <b>WSMAN_RECEIVE_STATE_NORMAL_TERMINATION</b> or <b>WSMAN_RECEIVE_STATE_ABNORMAL_TERMINATION</b>. Each result can have separate error codes. If the command or stream has failed, the plug-in must call the <a href="/windows/desktop/api/wsman/nf-wsman-wsmanpluginoperationcomplete">WSManPluginOperationComplete</a> method.

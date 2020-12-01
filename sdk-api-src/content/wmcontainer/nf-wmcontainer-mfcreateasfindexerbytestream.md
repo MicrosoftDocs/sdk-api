@@ -56,15 +56,15 @@ Creates a byte stream to access the index in an ASF stream.
 
 ### -param pIContentByteStream [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface of a byte stream that contains the ASF stream.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface of a byte stream that contains the ASF stream.
 
 ### -param cbIndexStartOffset [in]
 
-Byte offset of the index within the ASF stream. To get this value, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexposition">IMFASFIndexer::GetIndexPosition</a>.
+Byte offset of the index within the ASF stream. To get this value, call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexposition">IMFASFIndexer::GetIndexPosition</a>.
 
 ### -param pIIndexByteStream [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface. Use this interface to read from the index or write to the index. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a> interface. Use this interface to read from the index or write to the index. The caller must release the interface.
 
 ## -returns
 
@@ -101,13 +101,12 @@ The offset specified in <i>cbIndexStartOffset</i> is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
+<a href="/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

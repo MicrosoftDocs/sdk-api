@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases resources that are held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet, and calls the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coreleasemarshaldata">CoReleaseMarshalData</a> function on each one.
+Releases resources that are held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet, and calls the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coreleasemarshaldata">CoReleaseMarshalData</a> function on each one.
 
 ## -parameters
 
@@ -109,11 +109,10 @@ An unexpected error has occurred.
 
 ## -remarks
 
-The <b>ReleaseMarshalData</b> method must be called exactly once to clean up the resources held in a marshaled buffer. However when the <a href="https://docs.microsoft.com/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration is set to MSHLFLAGS_NORMAL, this is done automatically during un-marshaling and so need not be carried out explicitly.
+The <b>ReleaseMarshalData</b> method must be called exactly once to clean up the resources held in a marshaled buffer. However when the <a href="/windows/desktop/api/wtypesbase/ne-wtypesbase-mshlflags">MSHLFLAGS</a> enumeration is set to MSHLFLAGS_NORMAL, this is done automatically during un-marshaling and so need not be carried out explicitly.
 
 This method can function correctly on both marshaled [in] and [out] parameters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
-
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>

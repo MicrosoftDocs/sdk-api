@@ -74,5 +74,4 @@ The collection operation (fetching or committing) was canceled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmcollection-get_state">IFsrmCollection::State</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmcollection-get_state">IFsrmCollection::State</a>

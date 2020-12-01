@@ -55,13 +55,13 @@ Shows or hides the system cursor.
 
 ### -param fShowCursor [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 TRUE to show the system cursor, or FALSE to hide it.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns TRUE if successful, or FALSE otherwise.
 
@@ -72,7 +72,7 @@ This function does not associate a reference count with the visibility state of 
 
 The system cursor is always magnified when it is shown while the full-screen magnifier is active. 
 
-When used with a magnifier control, calls to <b>MagShowSystemCursor</b> have no effect on the magnified system cursor. The visibility of the magnified system cursor depends on whether the magnifier control has the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/magapi/magapi-magnifier-styles">MS_SHOWMAGNIFIEDCURSOR</a> style. If it has this style, the magnifier control displays the magnified system cursor, along with the magnified screen content, whenever the system cursor enters the source rectangle.
+When used with a magnifier control, calls to <b>MagShowSystemCursor</b> have no effect on the magnified system cursor. The visibility of the magnified system cursor depends on whether the magnifier control has the <a href="/previous-versions/windows/desktop/magapi/magapi-magnifier-styles">MS_SHOWMAGNIFIEDCURSOR</a> style. If it has this style, the magnifier control displays the magnified system cursor, along with the magnified screen content, whenever the system cursor enters the source rectangle.
 
 
 #### Examples
@@ -95,4 +95,3 @@ BOOL ShowSystemCursor(BOOL fShow)
 }
 
 ```
-

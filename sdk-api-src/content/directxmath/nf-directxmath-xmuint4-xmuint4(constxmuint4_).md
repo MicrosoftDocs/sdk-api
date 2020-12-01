@@ -52,7 +52,7 @@ api_name:
 
 A constructor for <code>XMUINT4</code>.
 
-A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a>.
+A constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a>.
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
@@ -66,7 +66,6 @@ A value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmuint4-xmuint4(constuint32_t)">XMUINT4 Constructors</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmuint4-xmuint4(constuint32_t)">XMUINT4 Constructors</a>

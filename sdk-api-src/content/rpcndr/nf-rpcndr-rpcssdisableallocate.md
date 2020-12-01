@@ -58,29 +58,28 @@ The
 ## -returns
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 <b>RpcSsDisableAllocate</b> frees all the resources used by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a>. It also releases memory that was allocated by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a> after the call to 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a>. It also releases memory that was allocated by a call to 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a> after the call to 
 <b>RpcSsEnableAllocate</b>.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a> and 
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a> and 
 <b>RpcSsDisableAllocate</b> must be used together as matching pairs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmdisableallocate">RpcSmDisableAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmdisableallocate">RpcSmDisableAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssallocate">RpcSsAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a>
-
+<a href="/windows/desktop/api/rpcndr/nf-rpcndr-rpcssenableallocate">RpcSsEnableAllocate</a>

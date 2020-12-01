@@ -59,7 +59,7 @@ The <b>ImportSnapshots</b> method
 
 ### -param ppAsync [out]
 
-Doubly indirect pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object 
+Doubly indirect pointer to an <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> object 
       containing the imported shadow copy status data.
 
 ## -returns
@@ -79,8 +79,8 @@ The following are the valid return codes for this method.
 </td>
 <td width="60%">
 Successfully returned a pointer to an instance of the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. Refer to the reference page for 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the error codes 
+        <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> interface. Refer to the reference page for 
+        <a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a> for the error codes 
         returned in the <i>pHrResult</i> parameter.
 
 </td>
@@ -139,7 +139,7 @@ The backup components object is not initialized, this method has been called dur
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -153,15 +153,15 @@ Only one shadow copy can be imported at a time.
 
 The requester is responsible for serializing the import shadow copy operation.
 
-The caller is responsible for releasing the <a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> 
+The caller is responsible for releasing the <a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a> 
     interface.
 
 For more information on importing shadow copies, see 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/importing-transportable-shadow-copied-volumes">Importing Transportable Shadow 
+    <a href="/windows/desktop/VSS/importing-transportable-shadow-copied-volumes">Importing Transportable Shadow 
     Copied Volumes</a>.
 
 <b>Transportable shadow copies in a cluster:  </b>For details about using transportable shadow copies in a cluster, see 
-     <a href="https://docs.microsoft.com/windows/desktop/VSS/fast-recovery-using-transportable-shadow-copied-volumes">Fast Recovery Using 
+     <a href="/windows/desktop/VSS/fast-recovery-using-transportable-shadow-copied-volumes">Fast Recovery Using 
      Transportable Shadow Copied Volumes</a>. The transportable shadow copy must be 
      imported from outside the cluster as long as the original volume is mounted within the cluster.
 
@@ -170,21 +170,20 @@ For more information on importing shadow copies, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
+<a href="/windows/desktop/api/vss/nn-vss-ivssasync">IVssAsync</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
+<a href="/windows/desktop/api/vss/nf-vss-ivssasync-querystatus">IVssAsync::QueryStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponents">IVssBackupComponents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">IVssBackupComponents::ExposeSnapshot</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">IVssBackupComponents::ExposeSnapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforbackup">IVssBackupComponents::InitializeForBackup</a>
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-initializeforbackup">IVssBackupComponents::InitializeForBackup</a>

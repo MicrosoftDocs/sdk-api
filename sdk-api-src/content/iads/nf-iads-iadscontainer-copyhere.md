@@ -64,11 +64,11 @@ Optional name of the new object within the container. If a new name is not speci
 
 ### -param ppObject [out]
 
-Indirect pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a> interface on the copied object.
+Indirect pointer to the  <a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a> interface on the copied object.
 
 ## -returns
 
-This method supports the standard return values, including <b>S_OK</b> for a successful operation. For more information and  error code information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard return values, including <b>S_OK</b> for a successful operation. For more information and  error code information, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
@@ -78,13 +78,12 @@ The  providers supplied with ADSI return the <b>E_NOTIMPL</b> error message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-movehere">IADsContainer::MoveHere</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-iadscontainer-movehere">IADsContainer::MoveHere</a>

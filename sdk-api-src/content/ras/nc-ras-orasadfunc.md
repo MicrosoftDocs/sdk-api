@@ -54,7 +54,7 @@ The
 <b>ORASADFunc</b> function is an application-defined callback function that is used to provide a customized user interface for autodialing.
 
 This prototype is provided for compatibility with earlier versions of Windows. New applications should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rasadfunca">RASADFunc</a> callback function. Support for this prototype may be removed in future versions of RAS.
+<a href="/windows/desktop/api/ras/nc-ras-rasadfunca">RASADFunc</a> callback function. Support for this prototype may be removed in future versions of RAS.
 
 ## -parameters
 
@@ -95,13 +95,13 @@ If the callback function does not perform the dialing operation, return <b>FALSE
 
 If the 
 <b>ORASADFunc</b> function performs the dialing operation, it presents its own user interface for dialing and calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function to do the actual dialing. The 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> function to do the actual dialing. The 
 <b>ORASADFunc</b> then returns <b>TRUE</b> to indicate that it took over the dialing. When the dialing operation has been completed, set the variable pointed to by <i>lpdwRetCode</i> to indicate success or failure.
 
 To enable an 
 <b>ORASADFunc</b> handler for a phone-book entry, use the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a> function. The <b>szAutodialDll</b> member specifies the name of the DLL that contains the handler, and the <b>szAutodialDll</b> member specifies the exported name of the handler.
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a> structure in a call to the 
+<a href="/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a> function. The <b>szAutodialDll</b> member specifies the name of the DLL that contains the handler, and the <b>szAutodialDll</b> member specifies the exported name of the handler.
 
 The 
 <b>ORASADFunc</b> function is a placeholder for the library-defined function name. The <b>ORASADFUNC</b> type is a pointer to an 
@@ -109,25 +109,24 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nc-ras-rasadfunca">RASADFunc</a>
+<a href="/windows/desktop/api/ras/nc-ras-rasadfunca">RASADFunc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)">RASENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a>
+<a href="/windows/desktop/api/ras/nf-ras-rassetentrypropertiesa">RasSetEntryProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>

@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[The WlxIsLockOk function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>WlxIsLockOk</b> function must be implemented by a replacement <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function before attempting to lock the workstation.
+The <b>WlxIsLockOk</b> function must be implemented by a replacement <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL. <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> calls this function before attempting to lock the workstation.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>WlxIsLockOk</b> function must be implemented by a replacement <a href="ht
 ### -param pWlxContext [in]
 
 Pointer to the GINA context associated with this window station. The GINA supplies this context when Winlogon calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>.
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>.
 
 ## -returns
 
@@ -95,5 +95,4 @@ Returns <b>FALSE</b> if it is not acceptable to lock the workstation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>

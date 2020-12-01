@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the alignment of the paragraph relative to the margins of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
+Specifies the alignment of the paragraph relative to the margins of the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
 
 ## -enum-fields
 
@@ -68,5 +68,4 @@ The paragraph is centered between the left and right margins.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>

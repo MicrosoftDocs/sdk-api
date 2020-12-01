@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Sets the text of the note associated with a specified command link button. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/bcm-setnote">BCM_SETNOTE</a> message explicitly.
+Sets the text of the note associated with a specified command link button. You can use this macro or send the <a href="/windows/desktop/Controls/bcm-setnote">BCM_SETNOTE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the button control.
 
 ### -param psz
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PCWSTR</a></b>
 
 A pointer to a null-terminated <b>WCHAR</b> string that contains the note.
 
@@ -70,15 +70,15 @@ A pointer to a null-terminated <b>WCHAR</b> string that contains the note.
 
 Beginning with comctl32 DLL version 6.01, command link buttons may have a note.
 
-This macro works only with the <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_COMMANDLINK</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_DEFCOMMANDLINK</a> button styles.
+This macro works only with the <a href="/windows/desktop/Controls/button-styles">BS_COMMANDLINK</a> and <a href="/windows/desktop/Controls/button-styles">BS_DEFCOMMANDLINK</a> button styles.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">Button Styles</a>
+<a href="/windows/desktop/Controls/button-styles">Button Styles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/button-types-and-styles">Button Types</a>
+<a href="/windows/desktop/Controls/button-types-and-styles">Button Types</a>
 
 
 
@@ -87,4 +87,3 @@ This macro works only with the <a href="https://docs.microsoft.com/windows/deskt
 
 
 <b>Reference</b>
-

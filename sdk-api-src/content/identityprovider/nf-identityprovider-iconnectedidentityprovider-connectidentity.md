@@ -56,7 +56,7 @@ Connects an identity to a domain user.
 
 ### -param AuthBuffer [in]
 
-A marshaled authentication buffer <a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure that contains the credential of the online identity. The buffer can be constructed by the caller by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-credpackauthenticationbuffera">CredPackAuthenticationBuffer</a> function with the CRED_PACK_ID_PROVIDER_CREDENTIALS option or returned by an online identity credential provider from the <a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa">CredUIPromptForWindowsCredentials</a> function. The buffer can be optionally encrypted by calling the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a> function with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_LOGON option.
+A marshaled authentication buffer <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX2</a> structure that contains the credential of the online identity. The buffer can be constructed by the caller by using the <a href="/windows/desktop/api/wincred/nf-wincred-credpackauthenticationbuffera">CredPackAuthenticationBuffer</a> function with the CRED_PACK_ID_PROVIDER_CREDENTIALS option or returned by an online identity credential provider from the <a href="/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa">CredUIPromptForWindowsCredentials</a> function. The buffer can be optionally encrypted by calling the <a href="/windows/desktop/api/sspi/nf-sspi-sspiencryptauthidentityex">SspiEncryptAuthIdentityEx</a> function with the SEC_WINNT_AUTH_IDENTITY_ENCRYPT_SAME_LOGON option.
 
 ### -param AuthBufferSize [in]
 
@@ -125,5 +125,4 @@ The <i>AuthBuffer</i> parameter can be encrypted in the system context if the cr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iconnectedidentityprovider">IConnectedIdentityProvider</a>
-
+<a href="/windows/desktop/api/identityprovider/nn-identityprovider-iconnectedidentityprovider">IConnectedIdentityProvider</a>

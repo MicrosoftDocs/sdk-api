@@ -102,13 +102,12 @@ This method can be used when the performance of the knowledge comparison operati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge2">ISyncKnowledge2 Interface</a>
 
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-knowledge_cookie_comparison_result">KNOWLEDGE_COOKIE_COMPARISON_RESULT Enumeration</a>
-

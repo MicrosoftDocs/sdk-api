@@ -82,5 +82,4 @@ The report is rendered in XML.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_formats">IFsrmReportJob::Formats</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-get_formats">IFsrmReportJob::Formats</a>

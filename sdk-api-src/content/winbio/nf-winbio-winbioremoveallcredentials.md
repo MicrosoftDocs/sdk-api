@@ -58,17 +58,16 @@ Removes all credentials from the store. Starting with Windows 10, build 1607, th
 
 ## -returns
 
-If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function succeeds, it returns S_OK. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioremovealldomaincredentials">WinBioRemoveAllDomainCredentials</a>
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioremovealldomaincredentials">WinBioRemoveAllDomainCredentials</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioremovecredential">WinBioRemoveCredential</a>
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioremovecredential">WinBioRemoveCredential</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiosetcredential">WinBioSetCredential</a>
-
+<a href="/windows/desktop/api/winbio/nf-winbio-winbiosetcredential">WinBioSetCredential</a>

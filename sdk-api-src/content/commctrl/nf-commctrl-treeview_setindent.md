@@ -50,27 +50,26 @@ api_name:
 
 ## -description
 
-Sets the width of indentation for a tree-view control and redraws the control to reflect the new width. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setindent">TVM_SETINDENT</a> message explicitly.
+Sets the width of indentation for a tree-view control and redraws the control to reflect the new width. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-setindent">TVM_SETINDENT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
 ### -param indent
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Width, in pixels, of the indentation. If this parameter is less than the system-defined minimum width, the new width is set to the system-defined minimum.
 
 ## -remarks
 
-The system-defined minimum indent value is typically five pixels, but it is not fixed. To retrieve the exact value of the minimum indent on a particular system, use the <b>TreeView_SetIndent</b> macro with <i>indent</i> set to zero. Then use the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getindent">TreeView_GetIndent</a> macro to retrieve the minimum indent value.
+The system-defined minimum indent value is typically five pixels, but it is not fixed. To retrieve the exact value of the minimum indent on a particular system, use the <b>TreeView_SetIndent</b> macro with <i>indent</i> set to zero. Then use the <a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getindent">TreeView_GetIndent</a> macro to retrieve the minimum indent value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setindent">TVM_SETINDENT</a>
-
+<a href="/windows/desktop/Controls/tvm-setindent">TVM_SETINDENT</a>

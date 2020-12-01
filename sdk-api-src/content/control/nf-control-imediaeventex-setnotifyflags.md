@@ -84,13 +84,12 @@ Returns S_OK if successful, or E_INVALIDARG if the <i>lNoNotifyFlags</i> paramet
 
 By default, the Filter Graph Manager posts event notifications for the application. If the <i>lNoNotifyFlags</i> parameter is AM_MEDIAEVENT_NONOTIFY, the Filter Graph Manager clears any pending event notifications from the queue, and does not post any new ones.
 
-If event notifications are disabled, the handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediaevent-geteventhandle">IMediaEvent::GetEventHandle</a> method is signaled at the end of each stream—that is, whenever the Filter Graph Manager receives an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-complete">EC_COMPLETE</a> event.
+If event notifications are disabled, the handle returned by the <a href="/windows/desktop/api/control/nf-control-imediaevent-geteventhandle">IMediaEvent::GetEventHandle</a> method is signaled at the end of each stream—that is, whenever the Filter Graph Manager receives an <a href="/windows/desktop/DirectShow/ec-complete">EC_COMPLETE</a> event.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx Interface</a>
-
+<a href="/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx Interface</a>

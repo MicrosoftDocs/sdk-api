@@ -44,6 +44,7 @@ api_location:
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
  - MapDialogRect
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # MapDialogRect function
@@ -73,7 +74,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -86,7 +87,7 @@ left   = MulDiv(left,   baseunitX, 4);
 right  = MulDiv(right,  baseunitX, 4);
 top    = MulDiv(top,    baseunitY, 8);
 bottom = MulDiv(bottom, baseunitY, 8);</code></pre>
-If the dialog box template has the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/about-dialog-boxes">DS_SETFONT</a> or <b>DS_SHELLFONT</b> style, the base units are the average width and height, in pixels, of the characters in the font specified by the template.
+If the dialog box template has the <a href="/windows/desktop/dlgbox/about-dialog-boxes">DS_SETFONT</a> or <b>DS_SHELLFONT</b> style, the base units are the average width and height, in pixels, of the characters in the font specified by the template.
 
 ## -see-also
 
@@ -94,11 +95,11 @@ If the dialog box template has the <a href="https://docs.microsoft.com/windows/d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdialogbaseunits">GetDialogBaseUnits</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdialogbaseunits">GetDialogBaseUnits</a>
 
 
 
@@ -111,4 +112,3 @@ If the dialog box template has the <a href="https://docs.microsoft.com/windows/d
 
 
 <b>Reference</b>
-

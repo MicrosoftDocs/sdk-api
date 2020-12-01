@@ -46,13 +46,10 @@ api_name:
  - GPMBackupDirEx.SearchBackups
 ---
 
-# IGPMBackupDirEx::SearchBackups
-
-
 ## -description
 
-Executes a search for  a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> object or an <b>IGPMStarterGPOBackup</b> interface according to the specified criteria, and returns a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">GPMBackupCollection</a> or <b>GPMStarterGPOBackupCollection</b> object.
+Executes a search for  a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">GPMBackup</a> object or an <b>IGPMStarterGPOBackup</b> interface according to the specified criteria, and returns a 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">GPMBackupCollection</a> or <b>GPMStarterGPOBackupCollection</b> object.
 
 ## -parameters
 
@@ -60,42 +57,10 @@ Executes a search for  a <a href="https://docs.microsoft.com/previous-versions/w
 
 Pointer to the criteria to be applied to the search.
 
-
-
-#### gpoDomain
-
-Pointer to   the criteria for a search for a domain name.  The search property value is the domain name.  The <b>opEquals</b>or <b>opNotEquals</b> operators are valid search criteria.
-
-
-
-#### gpoID
-
-Pointer to the criteria for a search for a Group Policy object (GPO) ID. The search property value is the GPO ID.  The <b>opEquals</b> or
-<b>opNotEquals</b>  operators are valid search criteria.
-
-
-
-#### gpoDisplayName
-
-Pointer to the criteria for a search for   a GPO display name. The search property value is the GPO display name. The <b>opEquals</b>, 
-<b>opContains</b>, or <b>opNotContains</b> operators are valid search criteria.
-
-
-
-#### backupMostRecent
-
-Pointer to the criteria for a search for the most recent backup. The search property value is <b>TRUE</b>. The   <b>opEquals</b>  operator is the valid criteria.
-
 ### -param pvarBackupCollection [out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMStarterGPOBackupCollection</a> interface that represent the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a> or <b>IGPMStarterGPOBackup</b> objects that are found by the search.
-
-
-#### - objGPMSearchCriteria [in]
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">GPMSearchCriteria</a> object to apply to the search.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a> or <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMStarterGPOBackupCollection</a> interface that represent the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a> or <b>IGPMStarterGPOBackup</b> objects that are found by the search.
 
 ## -returns
 
@@ -110,20 +75,20 @@ Returns a reference to a <b>GPMBackupCollection</b> or <b>GPMStarterGPOBackupCol
 
 ## -remarks
 
-An empty  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a> interface or <b>GPMSearchCriteria</b> object has had no criteria added to it. Passing in an empty <b>IGPMSearchCriteria</b> interface or <b>GPMSearchCriteria</b> object will return all  
-information in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>or <b>IGPMStarterGPOBackup</b>interface.
+An empty  <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a> interface or <b>GPMSearchCriteria</b> object has had no criteria added to it. Passing in an empty <b>IGPMSearchCriteria</b> interface or <b>GPMSearchCriteria</b> object will return all  
+information in the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>or <b>IGPMStarterGPOBackup</b>interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackup">IGPMBackup</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupcollection">IGPMBackupCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdirex">IGPMBackupDirEx</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdirex">IGPMBackupDirEx</a>
 
 
 
@@ -132,4 +97,3 @@ information in the <a href="https://docs.microsoft.com/previous-versions/windows
 
 
 <b>IGPMStarterGPOBackupCollection</b>
-

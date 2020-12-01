@@ -56,7 +56,7 @@ Obtains an ITfCandidateList object for a range from the language model text serv
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that covers the text to be reconverted. To obtain this range object, call <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-queryrange">ITfFnReconversion::QueryRange</a>.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that covers the text to be reconverted. To obtain this range object, call <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-queryrange">ITfFnReconversion::QueryRange</a>.
 
 ### -param ppCandList [out]
 
@@ -119,24 +119,23 @@ A memory allocation failure occurred.
 
 ## -remarks
 
-This method is identical to <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-getreconversion">ITfFnReconversion::GetReconversion</a>. When <b>ITfFnReconversion::GetReconversion</b> is called in the text service, the text service should forward the call to this method if a language model processor is installed. If no language model processor is installed, the text service should perform its default processing.
+This method is identical to <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-getreconversion">ITfFnReconversion::GetReconversion</a>. When <b>ITfFnReconversion::GetReconversion</b> is called in the text service, the text service should forward the call to this method if a language model processor is installed. If no language model processor is installed, the text service should perform its default processing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnlmprocessor">ITfFnLMProcessor</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnlmprocessor">ITfFnLMProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-getreconversion">ITfFnReconversion::GetReconversion
+<a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffnreconversion-getreconversion">ITfFnReconversion::GetReconversion
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
-

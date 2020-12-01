@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Provides removable media locking data. It is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_media_removal">IOCTL_STORAGE_MEDIA_REMOVAL</a> control code.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_media_removal">IOCTL_STORAGE_MEDIA_REMOVAL</a> control code.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ If this member is <b>TRUE</b>, the media is to be locked. Otherwise, it is not.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_media_removal">IOCTL_STORAGE_MEDIA_REMOVAL</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_media_removal">IOCTL_STORAGE_MEDIA_REMOVAL</a>

@@ -120,15 +120,14 @@ Type: <b>WORD</b>
 
 If the function succeeds, the return value is the number of windows arranged.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-By default, <b>CascadeWindows</b> arranges the windows in the order provided by the <i>lpKids</i> array, but preserves the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Z-Order</a>. If you specify the <b>MDITILE_ZORDER</b> flag, <b>CascadeWindows</b> arranges the windows in Z order. 
+By default, <b>CascadeWindows</b> arranges the windows in the order provided by the <i>lpKids</i> array, but preserves the <a href="/windows/desktop/winmsg/window-features">Z-Order</a>. If you specify the <b>MDITILE_ZORDER</b> flag, <b>CascadeWindows</b> arranges the windows in Z order. 
 
 Calling <b>CascadeWindows</b> causes all maximized windows to be restored to their previous size.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows Overview</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows Overview</a>

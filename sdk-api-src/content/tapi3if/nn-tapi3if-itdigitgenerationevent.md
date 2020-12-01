@@ -52,16 +52,16 @@ api_name:
 
 The 
 <b>ITDigitGenerationEvent</b> interface contains methods that describe digit generation events. When the application's implementation of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a> method indicates a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> equal to <b>TE_GENERATEEVENT</b>, the method's <i>pEvent</i> parameter is an <b>IDispatch</b> pointer for the 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapieventnotification-event">ITTAPIEventNotification::Event</a> method indicates a 
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a> equal to <b>TE_GENERATEEVENT</b>, the method's <i>pEvent</i> parameter is an <b>IDispatch</b> pointer for the 
 <b>ITDigitGenerationEvent</b> interface. The methods of this interface can be used to report on calls that require the generation of DTMF digits. This interface is implemented by the application and called by the TAPI 3 DLL.
 <div class="alert"><b>Note</b>  You must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">ITTAPI::put_EventFilter</a> method and set an event filter mask that includes the <b>TE_GENERATEEVENT</b> event to enable reception of digit generation events. If you do not call <b>ITTAPI::put_EventFilter</b>, your application will not receive any events. For more information, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Events</a> overview.</div><div> </div>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">ITTAPI::put_EventFilter</a> method and set an event filter mask that includes the <b>TE_GENERATEEVENT</b> event to enable reception of digit generation events. If you do not call <b>ITTAPI::put_EventFilter</b>, your application will not receive any events. For more information, see the 
+<a href="/windows/desktop/Tapi/events">Events</a> overview.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDigitGenerationEvent</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDigitGenerationEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITDigitGenerationEvent</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITDigitGenerationEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -76,17 +76,17 @@ The <b>ITDigitGenerationEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitgenerationevent-get_call">get_Call</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdigitgenerationevent-get_call">get_Call</a>
 </td>
 <td align="left" width="63%">
 Gets an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface pointer.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface pointer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitgenerationevent-get_callbackinstance">get_CallbackInstance</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdigitgenerationevent-get_callbackinstance">get_CallbackInstance</a>
 </td>
 <td align="left" width="63%">
 Gets the callback instance associated with the event.
@@ -95,7 +95,7 @@ Gets the callback instance associated with the event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitgenerationevent-get_generationtermination">get_GenerationTermination</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdigitgenerationevent-get_generationtermination">get_GenerationTermination</a>
 </td>
 <td align="left" width="63%">
 Gets the digit or digits that indicate the end of the generated digit series.
@@ -104,7 +104,7 @@ Gets the digit or digits that indicate the end of the generated digit series.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itdigitgenerationevent-get_tickcount">get_TickCount</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdigitgenerationevent-get_tickcount">get_TickCount</a>
 </td>
 <td align="left" width="63%">
 Gets the "tick count" (number of milliseconds since Windows started) at which the digit-gathering completed.
@@ -115,21 +115,20 @@ Gets the "tick count" (number of milliseconds since Windows started) at which th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/events">Events</a>
+<a href="/windows/desktop/Tapi/events">Events</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapieventnotification">ITTAPIEventNotification</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapieventnotification">ITTAPIEventNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/register-events">Register Events code snippet</a>
-
+<a href="/windows/desktop/Tapi/register-events">Register Events code snippet</a>

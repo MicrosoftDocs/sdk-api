@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
  - SwitchDesktop
+req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 ---
 
 # SwitchDesktop function
@@ -62,8 +63,8 @@ Makes the specified desktop visible and activates it. This enables the desktop t
 ### -param hDesktop [in]
 
 A handle to the desktop. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a> functions.
+<a href="/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a> and 
+<a href="/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a> functions.
 
 This desktop must be associated with the current window station for the process.
 
@@ -72,7 +73,7 @@ This desktop must be associated with the current window station for the process.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. However, 
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. However, 
 <b>SwitchDesktop</b> only sets the last error for the following cases:
 
 <ul>
@@ -88,17 +89,16 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/desktops">Desktops</a>
+<a href="/windows/desktop/winstation/desktops">Desktops</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
-
+<a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>

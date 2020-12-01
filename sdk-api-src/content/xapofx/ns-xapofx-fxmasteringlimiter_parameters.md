@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Parameters for use with the <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xapofx-overview">FXMasteringLimiter  XAPO</a>.
+Parameters for use with the <a href="/windows/desktop/xaudio2/xapofx-overview">FXMasteringLimiter  XAPO</a>.
 
 ## -struct-fields
 
 ### -field Release
 
-Speed, in milliseconds, at which the limiter stops affecting audio after the audio drops below the limiter's threshold, which is specified by the <b>Loudness</b> member. This value must be between <a href="https://docs.microsoft.com/windows/desktop/xaudio2/fxmasteringlimit-constants">FXMASTERINGLIMITER_MIN_RELEASE (1)</a> and <a href="https://docs.microsoft.com/windows/desktop/xaudio2/fxmasteringlimit-constants">FXMASTERINGLIMITER_MAX_RELEASE (20)</a> and defaults to <a href="https://docs.microsoft.com/windows/desktop/xaudio2/fxmasteringlimit-constants">FXMASTERINGLIMITER_DEFAULT_RELEASE (6)</a>.
+Speed, in milliseconds, at which the limiter stops affecting audio after the audio drops below the limiter's threshold, which is specified by the <b>Loudness</b> member. This value must be between <a href="/windows/desktop/xaudio2/fxmasteringlimit-constants">FXMASTERINGLIMITER_MIN_RELEASE (1)</a> and <a href="/windows/desktop/xaudio2/fxmasteringlimit-constants">FXMASTERINGLIMITER_MAX_RELEASE (20)</a> and defaults to <a href="/windows/desktop/xaudio2/fxmasteringlimit-constants">FXMASTERINGLIMITER_DEFAULT_RELEASE (6)</a>.
 
 ### -field Loudness
 
-Loudness metric threshold of the limiter. This value must be between <a href="https://docs.microsoft.com/windows/desktop/xaudio2/fxmasteringlimit-constants">FXMASTERINGLIMITER_MIN_LOUDNESS (1)</a> and <a href="https://docs.microsoft.com/windows/desktop/xaudio2/fxmasteringlimit-constants">FXMASTERINGLIMITER_MAX_LOUDNESS (1800)</a> and defaults to <a href="https://docs.microsoft.com/windows/desktop/xaudio2/fxmasteringlimit-constants">FXMASTERINGLIMITER_DEFAULT_LOUDNESS (1000)</a>.
+Loudness metric threshold of the limiter. This value must be between <a href="/windows/desktop/xaudio2/fxmasteringlimit-constants">FXMASTERINGLIMITER_MIN_LOUDNESS (1)</a> and <a href="/windows/desktop/xaudio2/fxmasteringlimit-constants">FXMASTERINGLIMITER_MAX_LOUDNESS (1800)</a> and defaults to <a href="/windows/desktop/xaudio2/fxmasteringlimit-constants">FXMASTERINGLIMITER_DEFAULT_LOUDNESS (1000)</a>.
 
 ## -remarks
 
@@ -70,5 +70,4 @@ Windows 10 (XAudio2.9);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/structures">Structures</a>
-
+<a href="/windows/desktop/xaudio2/structures">Structures</a>

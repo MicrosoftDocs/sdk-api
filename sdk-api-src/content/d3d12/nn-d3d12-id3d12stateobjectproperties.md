@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides methods for getting and setting the properties of an <a href="https://msdn.microsoft.com/en-us/library/Mt815591(v=VS.85).aspx">ID3D12StateObject</a>.
+Provides methods for getting and setting the properties of an [**ID3D12StateObject**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject). To retrieve an instance of this type, call [**ID3D12StateObject::QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface%28refiid_void%29) with the IID of **ID3D12StateObjectProperties**.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12StateObjectProperties</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12StateObjectProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12StateObjectProperties</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12StateObjectProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -104,4 +104,3 @@ Set the current pipeline stack size.
 </td>
 </tr>
 </table>
-

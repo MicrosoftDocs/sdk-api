@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
- Exposes methods that notify the Remote Desktop Services service that a client has connected. This interface is the callback object for the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistener">IWRdsProtocolListener</a> interface. It is implemented by the Remote Desktop Services service and called by the protocol.
+ Exposes methods that notify the Remote Desktop Services service that a client has connected. This interface is the callback object for the <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistener">IWRdsProtocolListener</a> interface. It is implemented by the Remote Desktop Services service and called by the protocol.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolListenerCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolListenerCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsProtocolListenerCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsProtocolListenerCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWRdsProtocolListenerCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollistenercallback-onconnected">OnConnected</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocollistenercallback-onconnected">OnConnected</a>
 </td>
 <td align="left" width="63%">
 Notifies the Remote Desktop Services service that a client connection request has been received.
@@ -81,4 +81,3 @@ Notifies the Remote Desktop Services service that a client connection request ha
 ## -remarks
 
 To avoid a possible deadlock when calling any of the methods on this interface, you should not make any function or method calls that will directly or indirectly result in a Remote Desktop Services API being called. If you need to make any outbound call, you should start a new thread and make the outbound call from the new thread.
-

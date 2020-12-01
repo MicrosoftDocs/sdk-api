@@ -57,19 +57,19 @@ Sets the state value for the currently assigned texture.
 
 ### -param Stage [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Stage identifier of the texture for which the state value is set. Stage identifiers are zero-based. Devices can have up to eight set textures, so the maximum value allowed for Stage is 7.
 
 ### -param Type [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturestagestatetype">D3DTEXTURESTAGESTATETYPE</a></b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dtexturestagestatetype">D3DTEXTURESTAGESTATETYPE</a></b>
 
-Texture state to set. This parameter can be any member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dtexturestagestatetype">D3DTEXTURESTAGESTATETYPE</a> enumerated type.
+Texture state to set. This parameter can be any member of the <a href="/windows/desktop/direct3d9/d3dtexturestagestatetype">D3DTEXTURESTAGESTATETYPE</a> enumerated type.
 
 ### -param Value [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 State value to set. The meaning of this value is determined by the Type parameter.
 
@@ -81,17 +81,16 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexture">IDirect3DDevice9::GetTexture</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexture">IDirect3DDevice9::GetTexture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexturestagestate">IDirect3DDevice9::GetTextureStageState</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-gettexturestagestate">IDirect3DDevice9::GetTextureStageState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexture">IDirect3DDevice9::SetTexture</a>
-
+<a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexture">IDirect3DDevice9::SetTexture</a>

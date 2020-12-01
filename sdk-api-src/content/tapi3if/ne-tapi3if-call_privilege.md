@@ -52,7 +52,7 @@ api_name:
 
 A 
 <b>CALL_PRIVILEGE</b> member is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_privilege">ITCallInfo::get_Privilege</a> method, and indicates when the current application owns or is monitoring the current call.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_privilege">ITCallInfo::get_Privilege</a> method, and indicates when the current application owns or is monitoring the current call.
 
 ## -enum-fields
 
@@ -66,5 +66,4 @@ The application is a monitor of the call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_privilege">ITCallInfo::get_Privilege</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_privilege">ITCallInfo::get_Privilege</a>

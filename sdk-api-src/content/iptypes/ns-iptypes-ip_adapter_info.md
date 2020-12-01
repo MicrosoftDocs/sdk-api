@@ -272,11 +272,11 @@ This member is only valid when the <b>DhcpEnabled</b> member is nonzero.
 
 The 
 <b>IP_ADAPTER_INFO</b> structure is limited to IPv4 information about a particular network adapter on the local computer. The 
-<b>IP_ADAPTER_INFO</b> structure is retrieved by calling the <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersinfo">GetAdaptersInfo</a>function.
+<b>IP_ADAPTER_INFO</b> structure is retrieved by calling the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersinfo">GetAdaptersInfo</a>function.
 
 When using Visual Studio 2005 and later, the <b>time_t</b> datatype defaults to an 8-byte datatype, not the 4-byte datatype used for the <b>LeaseObtained</b> and <b>LeaseExpires</b> members on a 32-bit platform. To properly use the <b>IP_ADAPTER_INFO</b> structure on a 32-bit platform, define <b>_USE_32BIT_TIME_T</b> (use <code>-D _USE_32BIT_TIME_T</code> as an option, for example) when compiling the application to force the <b>time_t</b> datatype to a 4-byte datatype.
 
-For use on Windows XP and later, the <a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure contains both IPv4 and IPv6 information. The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function retrieves IPv4 and IPv6 adapter information. 
+For use on Windows XP and later, the <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a> structure contains both IPv4 and IPv6 information. The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function retrieves IPv4 and IPv6 adapter information. 
 
 
 #### Examples
@@ -446,29 +446,28 @@ int __cdecl main()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersinfo">GetAdaptersInfo</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersinfo">GetAdaptersInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
+<a href="/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_addresses_lh">IP_ADAPTER_ADDRESSES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_address_string">IP_ADDRESS_STRING</a>
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_address_string">IP_ADDRESS_STRING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
-
+<a href="/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>

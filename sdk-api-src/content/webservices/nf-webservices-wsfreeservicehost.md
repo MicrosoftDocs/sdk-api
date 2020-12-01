@@ -50,12 +50,11 @@ api_name:
 
 ## -description
 
-Releases the memory associated with  a <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">Service Host</a> object.
+Releases the memory associated with  a <a href="/windows/desktop/wsw/service-host">Service Host</a> object.
 
 ## -parameters
 
 ### -param serviceHost [in]
 
-A pointer to the <b>Service Host</b> object to release.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> object
-                    returned by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreateservicehost">WsCreateServiceHost</a> and the referenced <b>Service Host</b> value may not be <b>NULL</b>.
-
+A pointer to the <b>Service Host</b> object to release.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a> object
+                    returned by <a href="/windows/desktop/api/webservices/nf-webservices-wscreateservicehost">WsCreateServiceHost</a> and the referenced <b>Service Host</b> value may not be <b>NULL</b>.

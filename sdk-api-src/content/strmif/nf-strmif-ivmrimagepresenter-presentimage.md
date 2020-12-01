@@ -61,7 +61,7 @@ An application-defined DWORD_PTR that uniquely identifies this instance of the V
 
 ### -param lpPresInfo [in]
 
-Specifies the [VMRPRESENTATIONINFO](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-vmrpresentationinfo) structure.
+Specifies the [VMRPRESENTATIONINFO](/windows/desktop/api/strmif/ns-strmif-vmrpresentationinfo) structure.
 
 ## -returns
 
@@ -75,13 +75,12 @@ Applications can create custom blending effects by using a single instance of an
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenter">IVMRImagePresenter Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenter">IVMRImagePresenter Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

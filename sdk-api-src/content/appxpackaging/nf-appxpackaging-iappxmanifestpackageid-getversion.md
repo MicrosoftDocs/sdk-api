@@ -56,7 +56,7 @@ Gets the version of the package as defined in the manifest.
 
 ### -param packageVersion [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a>*</b>
 
 The version of the package.
 
@@ -68,7 +68,7 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 ## -remarks
 
-The version is specified using the <b>Version</b> attribute of the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-identity">Identity</a> element in the package manifest. The specification in the manifest is in quad notation:
+The version is specified using the <b>Version</b> attribute of the <a href="/uwp/schemas/appxpackage/appxmanifestschema/element-identity">Identity</a> element in the package manifest. The specification in the manifest is in quad notation:
 
 <i>major</i>.<i>minor</i>.<i>build</i>.<i>revision</i>
 
@@ -83,11 +83,10 @@ This method converts this notation to a <b>UINT64</b> value as follows:
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/how-to-query-package-identity-information">Quickstart: Read app package manifest info</a>.
+For an example, see <a href="/windows/desktop/appxpkg/how-to-query-package-identity-information">Quickstart: Read app package manifest info</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid">IAppxManifestPackageId</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid">IAppxManifestPackageId</a>

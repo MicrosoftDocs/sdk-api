@@ -56,7 +56,7 @@ Gets the name of the package on which the current package has a dependency.
 
 ### -param name [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
 
 The name of the package.
 
@@ -68,9 +68,8 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 ## -remarks
 
-The caller must free the memory allocated for <i>name</i> using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+The caller must free the memory allocated for <i>name</i> using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>

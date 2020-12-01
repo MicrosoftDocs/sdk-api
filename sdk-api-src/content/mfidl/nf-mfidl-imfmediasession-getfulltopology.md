@@ -59,15 +59,15 @@ This method can get the current topology or a queued topology.
 
 ### -param dwGetFullTopologyFlags [in]
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfsession_getfulltopology_flags">MFSESSION_GETFULLTOPOLOGY_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfsession_getfulltopology_flags">MFSESSION_GETFULLTOPOLOGY_FLAGS</a> enumeration.
 
 ### -param TopoId [in]
 
-The identifier of the topology. This parameter is ignored if the <i>dwGetFullTopologyFlags</i> parameter contains the <b>MFSESSION_GETFULLTOPOLOGY_CURRENT</b> flag. To get the identifier of a topology, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftopology-gettopologyid">IMFTopology::GetTopologyID</a>.
+The identifier of the topology. This parameter is ignored if the <i>dwGetFullTopologyFlags</i> parameter contains the <b>MFSESSION_GETFULLTOPOLOGY_CURRENT</b> flag. To get the identifier of a topology, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imftopology-gettopologyid">IMFTopology::GetTopologyID</a>.
 
 ### -param ppFullTopology [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the topology. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftopology">IMFTopology</a> interface of the topology. The caller must release the interface.
 
 ## -returns
 
@@ -117,9 +117,8 @@ The topology returned in <i>ppFullTopo</i> is a full topology, not a partial top
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/topoid">TOPOID</a>
-
+<a href="/windows/desktop/medfound/topoid">TOPOID</a>

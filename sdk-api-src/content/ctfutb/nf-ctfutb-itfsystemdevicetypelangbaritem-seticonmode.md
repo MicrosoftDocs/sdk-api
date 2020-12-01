@@ -120,9 +120,8 @@ The system language bar item does not support this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemdevicetypelangbaritem">ITfSystemDeviceTypeLangBarItem</a>
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemdevicetypelangbaritem">ITfSystemDeviceTypeLangBarItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/miscellaneous-language-bar-constants">Miscellaneous Language Bar Constants</a>
-
+<a href="/windows/desktop/TSF/miscellaneous-language-bar-constants">Miscellaneous Language Bar Constants</a>

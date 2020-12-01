@@ -56,7 +56,7 @@ The <b>IWMPContentPartnerCallback</b> interface provides methods, implemented by
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentPartnerCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPContentPartnerCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPContentPartnerCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPContentPartnerCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMPContentPartnerCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-addlistcontents">AddListContents</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-addlistcontents">AddListContents</a>
 </td>
 <td align="left" width="63%">
 Adds a set of media items to a list.
@@ -80,7 +80,7 @@ Adds a set of media items to a list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-buycomplete">BuyComplete</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-buycomplete">BuyComplete</a>
 </td>
 <td align="left" width="63%">
 Notifies Windows Media Player that a purchase transaction has been completed.
@@ -89,7 +89,7 @@ Notifies Windows Media Player that a purchase transaction has been completed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-changeview">ChangeView</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-changeview">ChangeView</a>
 </td>
 <td align="left" width="63%">
 Changes the view in Windows Media Player.
@@ -98,7 +98,7 @@ Changes the view in Windows Media Player.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-downloadtrack">DownloadTrack</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-downloadtrack">DownloadTrack</a>
 </td>
 <td align="left" width="63%">
 Instructs Windows Media Player to download or not to download a particular media item.
@@ -107,7 +107,7 @@ Instructs Windows Media Player to download or not to download a particular media
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-getcatalogversion">GetCatalogVersion</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-getcatalogversion">GetCatalogVersion</a>
 </td>
 <td align="left" width="63%">
 Retrieves the version information for the online store catalog currently in use by Windows Media Player.
@@ -116,7 +116,7 @@ Retrieves the version information for the online store catalog currently in use 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-getcontentidsinlibrary">GetContentIDsInLibrary</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-getcontentidsinlibrary">GetContentIDsInLibrary</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of content IDs that represent the music tracks in the library.
@@ -125,7 +125,7 @@ Retrieves an array of content IDs that represent the music tracks in the library
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-listcontentscomplete">ListContentsComplete</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-listcontentscomplete">ListContentsComplete</a>
 </td>
 <td align="left" width="63%">
 Notifies Windows Media Player that the content partner plug-in is finished adding content to a list.
@@ -134,7 +134,7 @@ Notifies Windows Media Player that the content partner plug-in is finished addin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify">Notify</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-notify">Notify</a>
 </td>
 <td align="left" width="63%">
 Provides notifications from the content partner plug-in to Windows Media Player.
@@ -143,7 +143,7 @@ Provides notifications from the content partner plug-in to Windows Media Player.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-refreshlicensecomplete">RefreshLicenseComplete</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-refreshlicensecomplete">RefreshLicenseComplete</a>
 </td>
 <td align="left" width="63%">
 Notifies Windows Media Player that the online store has finished processing a request to update the license for a media file.
@@ -152,7 +152,7 @@ Notifies Windows Media Player that the online store has finished processing a re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete">SendMessageComplete</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-sendmessagecomplete">SendMessageComplete</a>
 </td>
 <td align="left" width="63%">
 Notifies Windows Media Player that the online store has finished processing a message.
@@ -161,7 +161,7 @@ Notifies Windows Media Player that the online store has finished processing a me
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-showpopup">ShowPopup</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-showpopup">ShowPopup</a>
 </td>
 <td align="left" width="63%">
 Instructs Windows Media Player to display an HTML-based dialog box that hosts a webpage provided by the online store.
@@ -170,19 +170,19 @@ Instructs Windows Media Player to display an HTML-based dialog box that hosts a 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-updatedevicecomplete">UpdateDeviceComplete</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-updatedevicecomplete">UpdateDeviceComplete</a>
 </td>
 <td align="left" width="63%">
-Notifies Windows Media Player that the online store has finished processing a call to <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-updatedevice">IWMPContentPartner::UpdateDevice</a>.
+Notifies Windows Media Player that the online store has finished processing a call to <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-updatedevice">IWMPContentPartner::UpdateDevice</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-verifypermissioncomplete">VerifyPermissionComplete</a>
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-verifypermissioncomplete">VerifyPermissionComplete</a>
 </td>
 <td align="left" width="63%">
-Notifies Windows Media Player that the online store has finished processing a call to <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-verifypermission">IWMPContentPartner::VerifyPermission</a>.
+Notifies Windows Media Player that the online store has finished processing a call to <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-verifypermission">IWMPContentPartner::VerifyPermission</a>.
 
 </td>
 </tr>
@@ -190,5 +190,4 @@ Notifies Windows Media Player that the online store has finished processing a ca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/reference-for-type-1-online-stores">Reference for Type 1 Online Stores</a>
-
+<a href="/windows/desktop/WMP/reference-for-type-1-online-stores">Reference for Type 1 Online Stores</a>

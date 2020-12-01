@@ -60,7 +60,7 @@ Contains the class identifier of the text service.
 
 ### -param langid [in]
 
-Specifies the language of the profile. See <a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language Identifiers</a>.
+Specifies the language of the profile. See <a href="/windows/desktop/Intl/language-identifiers">Language Identifiers</a>.
 
 ### -param guidProfile [in]
 
@@ -94,17 +94,16 @@ The method was successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilesubstitutelayout">ITfInputProcessorProfileSubstituteLayout</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilesubstitutelayout">ITfInputProcessorProfileSubstituteLayout</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/language-identifiers">Language Identifiers</a>
+<a href="/windows/desktop/Intl/language-identifiers">Language Identifiers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-service-registration">Text Service Registration</a>
-
+<a href="/windows/desktop/TSF/text-service-registration">Text Service Registration</a>

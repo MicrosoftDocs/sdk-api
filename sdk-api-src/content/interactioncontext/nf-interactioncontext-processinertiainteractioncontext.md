@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Sends timer input to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object for inertia processing.
+Sends timer input to the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object for inertia processing.
 
 ## -parameters
 
 ### -param interactionContext [in]
 
-Pointer to a handle for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
+Pointer to a handle for the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
 
 ## -returns
 
@@ -76,9 +76,8 @@ This function has no effect outside inertia.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
-
+<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>

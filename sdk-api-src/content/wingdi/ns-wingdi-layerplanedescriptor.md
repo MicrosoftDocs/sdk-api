@@ -225,37 +225,36 @@ Please notice, as documented above, that certain layer plane properties are not 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
+<a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-pixelformatdescriptor">PIXELFORMATDESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/OpenGL/structures">Structures</a>
+<a href="/windows/desktop/OpenGL/structures">Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglcreatelayercontext">wglCreateLayerContext</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglcreatelayercontext">wglCreateLayerContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wgldescribelayerplane">wglDescribeLayerPlane</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wgldescribelayerplane">wglDescribeLayerPlane</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglgetlayerpaletteentries">wglGetLayerPaletteEntries</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglgetlayerpaletteentries">wglGetLayerPaletteEntries</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglrealizelayerpalette">wglRealizeLayerPalette</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglrealizelayerpalette">wglRealizeLayerPalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglsetlayerpaletteentries">wglSetLayerPaletteEntries</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglsetlayerpaletteentries">wglSetLayerPaletteEntries</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-wglswaplayerbuffers">wglSwapLayerBuffers</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-wglswaplayerbuffers">wglSwapLayerBuffers</a>

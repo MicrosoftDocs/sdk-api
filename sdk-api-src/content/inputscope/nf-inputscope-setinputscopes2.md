@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The application must call <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscope">SetInputScope</a> with IS_DEFAULT before a window is destroyed to clear the reference of the interface.
+The application must call <a href="/windows/desktop/api/inputscope/nf-inputscope-setinputscope">SetInputScope</a> with IS_DEFAULT before a window is destroyed to clear the reference of the interface.
 
 ## -parameters
 
@@ -93,9 +93,8 @@ Pointer to a <b>NULL</b>-terminated XML string that provides speech-specific hin
 
 ## -remarks
 
-The application must call <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscope">SetInputScope</a> with IS_DEFAULT before a window is destroyed to clear the reference of the interface.
+The application must call <a href="/windows/desktop/api/inputscope/nf-inputscope-setinputscope">SetInputScope</a> with IS_DEFAULT before a window is destroyed to clear the reference of the interface.
 
 If you call this method on a window (<i>hwnd</i> parameter) that has 
 not been associated with a Document Manager, then no text service notifications are sent to interested clients (such as the touch keyboard) that may want to respond to the 
 scope change.
-

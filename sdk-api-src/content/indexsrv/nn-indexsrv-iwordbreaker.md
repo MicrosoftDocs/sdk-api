@@ -54,7 +54,7 @@ Parses text and identifies individual words and phrases. This interface is a lan
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWordBreaker</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWordBreaker</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWordBreaker</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWordBreaker</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,16 +69,16 @@ The <b>IWordBreaker</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext">BreakText</a>
+<a href="/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext">BreakText</a>
 </td>
 <td align="left" width="63%">
-Parses text to identify words and phrases and provides the results to the <a href="https://docs.microsoft.com/windows/desktop/search/iwordsink">IWordSink</a> and <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink">IPhraseSink</a> objects.
+Parses text to identify words and phrases and provides the results to the <a href="/windows/desktop/search/iwordsink">IWordSink</a> and <a href="/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink">IPhraseSink</a> objects.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-composephrase">ComposePhrase</a>
+<a href="/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-composephrase">ComposePhrase</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -87,7 +87,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-getlicensetouse">GetLicenseToUse</a>
+<a href="/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-getlicensetouse">GetLicenseToUse</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the license information for this implementation of the <b>IWordBreaker</b> interface.
@@ -96,7 +96,7 @@ Gets a pointer to the license information for this implementation of the <b>IWor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-init">Init</a>
+<a href="/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-init">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the <b>IWordBreaker</b> implementation and indicates the mode in which the component operates.
@@ -111,4 +111,3 @@ Initializes the <b>IWordBreaker</b> implementation and indicates the mode in whi
 Implement this interface to create a custom word breaker for a language. Windows Search calls the methods of this interface when it builds content indexes and runs queries.
 
 Word breaker components for Windows Search run in the Local Security context. They should be written to manage buffers and the stack correctly. All string copies must have explicit checks to guard against buffer overruns. You should always verify the allocated size of the buffer and test the size of the data against the size of the buffer.
-

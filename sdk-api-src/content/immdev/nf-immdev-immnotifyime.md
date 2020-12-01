@@ -85,7 +85,7 @@ An application changed the current selected candidate. The <i>dwIndex</i> parame
 </dl>
 </td>
 <td width="60%">
-An application directs the IME to close a candidate list. The <i>dwIndex</i> parameter specifies an index of the list to close, and <i>dwValue</i> is not used. The IME sends a <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a> command to the application if it closes the list.
+An application directs the IME to close a candidate list. The <i>dwIndex</i> parameter specifies an index of the list to close, and <i>dwValue</i> is not used. The IME sends a <a href="/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a> command to the application if it closes the list.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ An application directs the IME to allow the application to handle the specified 
 </dl>
 </td>
 <td width="60%">
-An application directs the IME to open a candidate list. The <i>dwIndex</i> parameter specifies the index of the list to open, and <i>dwValue</i> is not used. The IME sends a <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a> command to the application if it opens the list.
+An application directs the IME to open a candidate list. The <i>dwIndex</i> parameter specifies the index of the list to open, and <i>dwValue</i> is not used. The IME sends a <a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a> command to the application if it opens the list.
 
 </td>
 </tr>
@@ -212,17 +212,16 @@ Returns nonzero if successful, or 0 otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a>
+<a href="/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a>
+<a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

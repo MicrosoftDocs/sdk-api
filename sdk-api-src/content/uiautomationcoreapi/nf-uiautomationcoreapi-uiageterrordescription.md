@@ -63,7 +63,6 @@ The address of a variable that receives the description of the error. This param
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if an error description can be reported; otherwise <b>FALSE</b>.
-

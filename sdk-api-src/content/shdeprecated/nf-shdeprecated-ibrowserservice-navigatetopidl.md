@@ -143,9 +143,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService</a>
+<a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-ibrowserservice">IBrowserService</a>
 
 
 
 <a href="/windows/win32/api/shdeprecated/nf-shdeprecated-ibrowserservice2-_navigatetopidl">_NavigateToPidl</a>
-

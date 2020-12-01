@@ -54,19 +54,19 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/netfw/ne-netfw-inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE</a> structure contains information about a change made to an app container.
+The <a href="/windows/desktop/api/netfw/ne-netfw-inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE</a> structure contains information about a change made to an app container.
 
 ## -struct-fields
 
 ### -field changeType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/netfw/ne-netfw-inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/netfw/ne-netfw-inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE_TYPE</a></b>
 
 The type of change made.
 
 ### -field createType
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/networkisolation/ne-networkisolation-inet_firewall_ac_creation_type">INET_FIREWALL_AC_CREATION_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/networkisolation/ne-networkisolation-inet_firewall_ac_creation_type">INET_FIREWALL_AC_CREATION_TYPE</a></b>
 
 The method by which the app container was created.
 
@@ -92,39 +92,30 @@ Friendly name of the app container.
 
 ### -field u.capabilities
 
+
+Type: <b><a href="/windows/desktop/api/networkisolation/ns-networkisolation-inet_firewall_ac_capabilities">INET_FIREWALL_AC_CAPABILITIES</a></b>
+
+Information about the capabilities of the changed app container.
+
 ### -field u.binaries
 
- 
-
-
-
-
-#### - binaries
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a></b>
+ Type: <b><a href="/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a></b>
 
 Binary paths to the applications running in the changed app container.
 
 
-#### - capabilities
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/networkisolation/ns-networkisolation-inet_firewall_ac_capabilities">INET_FIREWALL_AC_CAPABILITIES</a></b>
-
-Information about the capabilities of the changed app container.
-
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a>
+<a href="/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_binaries">INET_FIREWALL_AC_BINARIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/networkisolation/ns-networkisolation-inet_firewall_ac_capabilities">INET_FIREWALL_AC_CAPABILITIES</a>
+<a href="/windows/desktop/api/networkisolation/ns-networkisolation-inet_firewall_ac_capabilities">INET_FIREWALL_AC_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/ne-netfw-inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE_TYPE</a>
+<a href="/windows/desktop/api/netfw/ne-netfw-inet_firewall_ac_change_type">INET_FIREWALL_AC_CHANGE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/networkisolation/ne-networkisolation-inet_firewall_ac_creation_type">INET_FIREWALL_AC_CREATION_TYPE</a>
-
+<a href="/windows/desktop/api/networkisolation/ne-networkisolation-inet_firewall_ac_creation_type">INET_FIREWALL_AC_CREATION_TYPE</a>

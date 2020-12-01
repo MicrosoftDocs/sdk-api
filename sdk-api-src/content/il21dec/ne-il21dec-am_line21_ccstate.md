@@ -68,13 +68,12 @@ Closed captioning on.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getservicestate">IAMLine21Decoder::GetServiceState</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getservicestate">IAMLine21Decoder::GetServiceState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setservicestate">IAMLine21Decoder::SetServiceState</a>
-
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setservicestate">IAMLine21Decoder::SetServiceState</a>

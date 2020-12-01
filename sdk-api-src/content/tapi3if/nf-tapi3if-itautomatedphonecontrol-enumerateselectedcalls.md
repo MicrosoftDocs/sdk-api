@@ -52,17 +52,17 @@ api_name:
 
 The 
 <b>EnumerateSelectedCalls</b> method retrieves an enumerator object indicating which calls are currently selected on this phone. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-selectcall">ITAutomatedPhoneControl::SelectCall</a> for more information.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-selectcall">ITAutomatedPhoneControl::SelectCall</a> for more information.
 
 This method is intended for C and C++ programmers. Applications written in Visual Basic, Java, or various scripting languages should use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-get_selectedcalls">get_SelectedCalls</a> method instead.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-get_selectedcalls">get_SelectedCalls</a> method instead.
 
 ## -parameters
 
 ### -param ppCallEnum [out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a> interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a> interface.
 
 ## -returns
 
@@ -71,14 +71,13 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 ## -remarks
 
 TAPI calls the <b>AddRef</b> method on the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a> interface returned by this method. The application must call the <b>Release</b> method on the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall">IEnumCall</a> interface returned by this method. The application must call the <b>Release</b> method on the 
 <b>IEnumCall</b> interface to free resources associated with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-selectcall">ITAutomatedPhoneControl::SelectCall</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-selectcall">ITAutomatedPhoneControl::SelectCall</a>

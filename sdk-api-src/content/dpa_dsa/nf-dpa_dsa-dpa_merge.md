@@ -70,7 +70,7 @@ A handle to the second DPA. This array can be optionally presorted.
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Options determining the method used to merge the two arrays. DPAM_NORMAL, DPAM_UNION, and DPAM_UNION are mutually exclusive—only one of those flags can be set, optionally in conjunction with DPAM_SORTED.
 
@@ -97,7 +97,7 @@ The arrays are presorted; skip sorting. If this flag is not set, the arrays are 
 </dl>
 </td>
 <td width="60%">
-The final array consists of all of the elements originally present in <i>hdpaDest</i>. If any of those elements are also found in <i>hdpaSrc</i>, those elements are merged in the final array. The <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge">PFNDPAMERGE</a> callback function is called with the DPAMM_MERGE message.
+The final array consists of all of the elements originally present in <i>hdpaDest</i>. If any of those elements are also found in <i>hdpaSrc</i>, those elements are merged in the final array. The <a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge">PFNDPAMERGE</a> callback function is called with the DPAMM_MERGE message.
 
                         
 
@@ -112,7 +112,7 @@ When this flag is set, the final size of the array at <i>hdpaDest</i> is the sam
 </dl>
 </td>
 <td width="60%">
-The final array is the union of all elements in both arrays. Elements found in both arrays are merged in the final array. Elements found in only one array or the other are added as found. When this flag is set, the <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge">PFNDPAMERGE</a> callback function can be called with the DPAMM_MERGE or DPAMM_INSERT message. 
+The final array is the union of all elements in both arrays. Elements found in both arrays are merged in the final array. Elements found in only one array or the other are added as found. When this flag is set, the <a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge">PFNDPAMERGE</a> callback function can be called with the DPAMM_MERGE or DPAMM_INSERT message. 
 
                         
 
@@ -127,7 +127,7 @@ The final size of the array is at least the size of the larger of <i>hdpaDest</i
 </dl>
 </td>
 <td width="60%">
-Only elements found in both <i>hdpaSrc</i> and <i>hdpaDest</i> are merged to form the final array. When this flag is set, the <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge">PFNDPAMERGE</a> callback function can be called with the DPAMM_MERGE or DPAMM_DELETE message. 
+Only elements found in both <i>hdpaSrc</i> and <i>hdpaDest</i> are merged to form the final array. When this flag is set, the <a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge">PFNDPAMERGE</a> callback function can be called with the DPAMM_MERGE or DPAMM_DELETE message. 
 
                         
 
@@ -139,29 +139,28 @@ The final size of the array can range between 0 and the smaller of <i>hdpaDest</
 
 ### -param pfnCompare [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a></b>
+Type: <b><a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a> callback function that compares two elements, one from each DPA, to determine whether they are the same item. If so, the callback function pointed to by <i>pfnCompare</i> is called.
+The <a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a> callback function that compares two elements, one from each DPA, to determine whether they are the same item. If so, the callback function pointed to by <i>pfnCompare</i> is called.
 
 ### -param pfnMerge [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge">PFNDPAMERGE</a></b>
+Type: <b><a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge">PFNDPAMERGE</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge">PFNDPAMERGE</a> callback function that merges the contents when an element is found in both DPAs and is found to be the same item by <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a>.
+The <a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndpamerge">PFNDPAMERGE</a> callback function that merges the contents when an element is found in both DPAs and is found to be the same item by <a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a>.
 
 ### -param lParam [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Additional parameter used to declare the basis of comparison upon which equality is determined.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> if successful; otherwise, <b>FALSE</b>.
 
 ## -remarks
 
-<b>DPA_Merge</b> is not exported by name. To use it, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 11 from ComCtl32.dll to obtain a function pointer.
-
+<b>DPA_Merge</b> is not exported by name. To use it, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 11 from ComCtl32.dll to obtain a function pointer.

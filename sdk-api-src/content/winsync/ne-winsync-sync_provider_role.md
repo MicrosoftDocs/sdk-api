@@ -70,5 +70,4 @@ Changes flow from the source provider to the destination provider in a synchroni
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>

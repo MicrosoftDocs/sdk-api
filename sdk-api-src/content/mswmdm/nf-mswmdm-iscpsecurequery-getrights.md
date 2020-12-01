@@ -57,7 +57,7 @@ The <b>GetRights</b> method retrieves rights information for the current piece o
 
 ### -param pData [in]
 
-Pointer to data requested by <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getdatademands">GetDataDemands</a>. This parameter must be included in the input message authentication code and must be encrypted.
+Pointer to data requested by <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-getdatademands">GetDataDemands</a>. This parameter must be included in the input message authentication code and must be encrypted.
 
 ### -param dwSize [in]
 
@@ -73,11 +73,11 @@ Length of the byte array to which <i>pbSPSessionKey</i> points. This parameter m
 
 ### -param pStgGlobals [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals</a> interface on the root storage of the media or device to or from which the file is being transferred.
+Pointer to an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals</a> interface on the root storage of the media or device to or from which the file is being transferred.
 
 ### -param ppRights [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a> structures containing the rights information for this object. The array is allocated by this method and must be freed using <b>CoTaskMemFree</b>. This parameter is included in the output message authentication code.
+Pointer to an array of <a href="/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a> structures containing the rights information for this object. The array is allocated by this method and must be freed using <b>CoTaskMemFree</b>. This parameter is included in the output message authentication code.
 
 ### -param pnRightsCount [out]
 
@@ -103,7 +103,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 </dl>
 </td>
 <td width="60%">
-This method was called out of sequence. <b>GetDataDemands</b> and then <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-examinedata">ExamineData</a> must be called first, in that order.
+This method was called out of sequence. <b>GetDataDemands</b> and then <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-examinedata">ExamineData</a> must be called first, in that order.
 
 </td>
 </tr>
@@ -159,13 +159,12 @@ This method must not be called until <b>GetDataDemands</b> and then <b>ExamineDa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a>
-
+<a href="/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a>

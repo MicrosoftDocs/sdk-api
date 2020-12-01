@@ -56,11 +56,11 @@ The <b>DrvQueryAdvanceWidths</b> function returns character advance widths for a
 
 ### -param dhpdev
 
-Handle to the physical device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> that was previously returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
+Handle to the physical device's <a href="/windows-hardware/drivers/">PDEV</a> that was previously returned by <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>.
 
 ### -param pfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that identifies the font instance.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that identifies the font instance.
 
 ### -param iMode
 
@@ -111,9 +111,8 @@ The return value is dependent on the value of the <i>iMode</i> parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>

@@ -61,7 +61,7 @@ The <b>get_SuppressEffects</b> method queries whether the Video Control configur
 
 ### -param bSuppress [out]
 
-Receives a <b>VARIANT_BOOL</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvmr9-put_suppresseffects">IMSVidVMR9::put_SuppressEffects</a>. The default value is VARIANT_TRUE.
+Receives a <b>VARIANT_BOOL</b>. For more information, see <a href="/windows/desktop/api/segment/nf-segment-imsvidvmr9-put_suppresseffects">IMSVidVMR9::put_SuppressEffects</a>. The default value is VARIANT_TRUE.
 
 ## -returns
 
@@ -87,5 +87,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvmr9">IMSVidVMR9 Interface</a>
-
+<a href="/previous-versions/windows/desktop/mstv/msvidvmr9">IMSVidVMR9 Interface</a>

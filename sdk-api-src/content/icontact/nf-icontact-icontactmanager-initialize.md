@@ -86,7 +86,7 @@ Returns one of the following values:
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactmanager">IContactManager</a> is initialized. 
+<a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactmanager">IContactManager</a> is initialized. 
 
 </td>
 </tr>
@@ -94,6 +94,5 @@ Returns one of the following values:
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  This method MUST be called before other <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactmanager">IContactManager</a> methods.</div>
+<div class="alert"><b>Note</b>  This method MUST be called before other <a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactmanager">IContactManager</a> methods.</div>
 <div> </div>
-

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>SetupDiGetDeviceInfoListClass</b> function retrieves the GUID for the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> associated with a device information set if the set has an associated class.
+The <b>SetupDiGetDeviceInfoListClass</b> function retrieves the GUID for the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> associated with a device information set if the set has an associated class.
 
 ## -parameters
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> to query.
+A handle to the <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> to query.
 
 ### -param ClassGuid [out]
 
@@ -64,23 +64,22 @@ A pointer to variable of type GUID that receives the GUID for the associated cla
 
 ## -returns
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If the specified device information set does not have an associated class because a class GUID was not specified when the set was created with <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolist">SetupDiCreateDeviceInfoList</a>, the function fails. In this case, a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_NO_ASSOCIATED_CLASS.
+If the specified device information set does not have an associated class because a class GUID was not specified when the set was created with <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolist">SetupDiCreateDeviceInfoList</a>, the function fails. In this case, a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NO_ASSOCIATED_CLASS.
 
-If a device information set is for a remote computer, use <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistdetaila">SetupDiGetDeviceInfoListDetail</a> to get the associated remote computer handle and computer name.
+If a device information set is for a remote computer, use <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistdetaila">SetupDiGetDeviceInfoListDetail</a> to get the associated remote computer handle and computer name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolist">SetupDiCreateDeviceInfoList</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolist">SetupDiCreateDeviceInfoList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistdetaila">SetupDiGetDeviceInfoListDetail</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistdetaila">SetupDiGetDeviceInfoListDetail</a>

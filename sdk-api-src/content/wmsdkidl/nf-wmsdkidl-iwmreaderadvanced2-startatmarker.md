@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>StartAtMarker</b> method starts the reader from a specified <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">marker</a>.
+The <b>StartAtMarker</b> method starts the reader from a specified <a href="/windows/desktop/wmformat/wmformat-glossary">marker</a>.
 
 ## -parameters
 
@@ -130,17 +130,16 @@ The method failed for an unspecified reason.
 
 ## -remarks
 
-This method is very similar to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-start">IWMReader::Start</a>. The difference is that this method uses a marker index but <b>IWMReader::Start</b> uses a start time.
+This method is very similar to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-start">IWMReader::Start</a>. The difference is that this method uses a marker index but <b>IWMReader::Start</b> uses a start time.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/markers">Markers</a>
+<a href="/windows/desktop/wmformat/markers">Markers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/using-markers">Using Markers</a>
-
+<a href="/windows/desktop/wmformat/using-markers">Using Markers</a>

@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-AdvAPI32-safer-l1-1-0.dll
 api_name:
  - SaferCreateLevel
+req.apiset: ext-ms-win-advapi32-safer-l1-1-0 (introduced in Windows 8)
 ---
 
 # SaferCreateLevel function
@@ -177,7 +178,7 @@ This can be the following value.
 
 ### -param pLevelHandle [out]
 
-The returned SAFER_LEVEL_HANDLE. When you have finished using the handle, close it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/nf-winsafer-safercloselevel">SaferCloseLevel</a> function.
+The returned SAFER_LEVEL_HANDLE. When you have finished using the handle, close it by calling the <a href="/windows/desktop/api/winsafer/nf-winsafer-safercloselevel">SaferCloseLevel</a> function.
 
 ### -param lpReserved
 
@@ -189,5 +190,4 @@ Returns nonzero if successful or zero otherwise.
 						
 
 For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

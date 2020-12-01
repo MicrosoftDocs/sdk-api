@@ -54,7 +54,7 @@ Enumerates the content groups from a content group map.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxContentGroupsEnumerator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxContentGroupsEnumerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxContentGroupsEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxContentGroupsEnumerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxContentGroupsEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupsenumerator-getcurrent">GetCurrent</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupsenumerator-getcurrent">GetCurrent</a>
 </td>
 <td align="left" width="63%">
 Gets the content group at the current position of the enumerator.
@@ -78,7 +78,7 @@ Gets the content group at the current position of the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupsenumerator-gethascurrent">GetHasCurrent</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupsenumerator-gethascurrent">GetHasCurrent</a>
 </td>
 <td align="left" width="63%">
 Determines whether there is a content group at the current position of the enumerator.
@@ -87,7 +87,7 @@ Determines whether there is a content group at the current position of the enume
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupsenumerator-movenext">MoveNext</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxcontentgroupsenumerator-movenext">MoveNext</a>
 </td>
 <td align="left" width="63%">
 Advances the position of the enumerator to the next content group.
@@ -95,4 +95,3 @@ Advances the position of the enumerator to the next content group.
 </td>
 </tr>
 </table>
-

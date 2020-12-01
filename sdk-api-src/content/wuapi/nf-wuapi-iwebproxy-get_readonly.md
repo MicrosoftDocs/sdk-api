@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets a Boolean value that indicates whether the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">WebProxy</a> object is read-only.
+Gets a Boolean value that indicates whether the <a href="/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">WebProxy</a> object is read-only.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>

@@ -45,6 +45,7 @@ api_name:
  - ChangeDisplaySettings
  - ChangeDisplaySettingsA
  - ChangeDisplaySettingsW
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ChangeDisplaySettingsW function
@@ -54,8 +55,8 @@ api_name:
 
 The <b>ChangeDisplaySettings</b> function changes the settings of the default display device to the specified graphics mode.
 
-To change the settings of a specified display device, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsexa">ChangeDisplaySettingsEx</a> function.
-<div class="alert"><b>Note</b>  Apps that you design to target Windows 8 and later can no longer query or set display modes that are less than 32 bits per pixel (bpp); these operations will fail. These apps have a <a href="https://docs.microsoft.com/windows/desktop/Win7AppQual/compatibility---application-manifest">compatibility manifest</a> that targets Windows 8. Windows 8 still supports 8-bit and 16-bit color modes for desktop apps that were built without a Windows 8 manifest; Windows 8 emulates these modes but still runs in 32-bit color mode.</div><div> </div>
+To change the settings of a specified display device, use the <a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsexa">ChangeDisplaySettingsEx</a> function.
+<div class="alert"><b>Note</b>  Apps that you design to target Windows 8 and later can no longer query or set display modes that are less than 32 bits per pixel (bpp); these operations will fail. These apps have a <a href="/windows/desktop/Win7AppQual/compatibility---application-manifest">compatibility manifest</a> that targets Windows 8. Windows 8 still supports 8-bit and 16-bit color modes for desktop apps that were built without a Windows 8 manifest; Windows 8 emulates these modes but still runs in 32-bit color mode.</div><div> </div>
 
 ## -parameters
 
@@ -331,9 +332,9 @@ The computer must be restarted for the graphics mode to work.
 
 ## -remarks
 
-To ensure that the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure passed to <b>ChangeDisplaySettings</b> is valid and contains only values supported by the display driver, use the <b>DEVMODE</b> returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a> function.
+To ensure that the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure passed to <b>ChangeDisplaySettings</b> is valid and contains only values supported by the display driver, use the <b>DEVMODE</b> returned by the <a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a> function.
 
-When the display mode is changed dynamically, the <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a> message is sent to all running applications with the following message parameters.
+When the display mode is changed dynamically, the <a href="/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a> message is sent to all running applications with the following message parameters.
 
 <table>
 <tr>
@@ -367,11 +368,11 @@ This API does not participate in DPI virtualization. The input given is always i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsexa">ChangeDisplaySettingsEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-changedisplaysettingsexa">ChangeDisplaySettingsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdca">CreateDC</a>
 
 
 
@@ -379,21 +380,20 @@ This API does not participate in DPI virtualization. The input given is always i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
+<a href="/windows/desktop/gdi/device-context-functions">Device Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
+<a href="/windows/desktop/gdi/device-contexts">Device Contexts Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaydevicesa">EnumDisplayDevices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumdisplaysettingsa">EnumDisplaySettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a>
-
+<a href="/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a>

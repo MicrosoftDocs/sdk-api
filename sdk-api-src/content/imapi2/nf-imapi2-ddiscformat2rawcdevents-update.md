@@ -56,13 +56,13 @@ Implement this method to receive progress notification of the current raw-image 
 
 ### -param object [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a> interface that initiated the write operation. 
+The <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a> interface that initiated the write operation. 
 
 This parameter is a <b>MsftDiscFormat2RawCD</b> object in script.
 
 ### -param progress [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcdeventargs">IDiscFormat2RawCDEventArgs</a> interface that you use to determine the progress of the write operation. 
+An <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcdeventargs">IDiscFormat2RawCDEventArgs</a> interface that you use to determine the progress of the write operation. 
 
 This parameter is a <b>MsftDiscFormat2RawCD</b> object in script.
 
@@ -72,19 +72,18 @@ Return values are ignored.
 
 ## -remarks
 
-Notifications are sent in response to calling the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia">IDiscFormat2RawCD::WriteMedia</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia2">IDiscFormat2RawCD::WriteMedia2</a> method.
+Notifications are sent in response to calling the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia">IDiscFormat2RawCD::WriteMedia</a> or <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia2">IDiscFormat2RawCD::WriteMedia2</a> method.
 
-To stop the write process, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-cancelwrite">IDiscFormat2RawCD::CancelWrite</a> method.
+To stop the write process, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-cancelwrite">IDiscFormat2RawCD::CancelWrite</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2rawcdevents">DDiscFormat2RawCDEvents</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-ddiscformat2rawcdevents">DDiscFormat2RawCDEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-cancelwrite">IDiscFormat2RawCD::CancelWrite</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-cancelwrite">IDiscFormat2RawCD::CancelWrite</a>

@@ -58,15 +58,15 @@ The <b>CombineTransform</b> function concatenates two world-space to page-space 
 
 ### -param lpxfOut [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure that receives the combined transformation.
+A pointer to an <a href="/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure that receives the combined transformation.
 
 ### -param lpxf1 [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure that specifies the first transformation.
+A pointer to an <a href="/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure that specifies the first transformation.
 
 ### -param lpxf2 [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure that specifies the second transformation.
+A pointer to an <a href="/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure that specifies the second transformation.
 
 ## -returns
 
@@ -78,29 +78,28 @@ If the function fails, the return value is zero.
 
 Applying the combined transformation has the same effect as applying the first transformation and then applying the second transformation.
 
-The three transformations need not be distinct. For example, <i>lpxform1</i> can point to the same <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure as <i>lpxformResult</i>.
+The three transformations need not be distinct. For example, <i>lpxform1</i> can point to the same <a href="/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure as <i>lpxformResult</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
+<a href="/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
+<a href="/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getworldtransform">GetWorldTransform</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getworldtransform">GetWorldTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-modifyworldtransform">ModifyWorldTransform</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-modifyworldtransform">ModifyWorldTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setworldtransform">SetWorldTransform</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setworldtransform">SetWorldTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a>
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a>

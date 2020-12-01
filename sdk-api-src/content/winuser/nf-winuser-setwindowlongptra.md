@@ -53,6 +53,7 @@ api_name:
  - SetWindowLongPtr
  - SetWindowLongPtrA
  - SetWindowLongPtrW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetWindowLongPtrA function
@@ -60,7 +61,7 @@ api_name:
 
 ## -description
 
-Changes an attribute of the specified window. The function also sets a value at the specified offset in the extra window memory. <div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>SetWindowLongPtr</b>. When compiling for 32-bit Windows, <b>SetWindowLongPtr</b> is defined as a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a> function.</div>
+Changes an attribute of the specified window. The function also sets a value at the specified offset in the extra window memory. <div class="alert"><b>Note</b>  To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>SetWindowLongPtr</b>. When compiling for 32-bit Windows, <b>SetWindowLongPtr</b> is defined as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga">SetWindowLong</a> function.</div>
 <div> </div>
 
 ## -parameters
@@ -91,7 +92,7 @@ The zero-based offset to the value to be set. Valid values are in the range zero
 </dl>
 </td>
 <td width="60%">
-Sets a new <a href="https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles">extended window style</a>. 
+Sets a new <a href="/windows/desktop/winmsg/extended-window-styles">extended window style</a>. 
 
 </td>
 </tr>
@@ -124,7 +125,7 @@ Sets a new identifier of the child window. The window cannot be a top-level wind
 </dl>
 </td>
 <td width="60%">
-Sets a new <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">window style</a>.
+Sets a new <a href="/windows/desktop/winmsg/window-styles">window style</a>.
 
 </td>
 </tr>
@@ -210,24 +211,24 @@ Type: <b>LONG_PTR</b>
 
 If the function succeeds, the return value is the previous value of the specified offset.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 
-If the previous value is zero and the function succeeds, the return value is zero, but the function does not clear the last error information. To determine success or failure, clear the last error information by calling <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> with 0, then call <b>SetWindowLongPtr</b>. Function failure will be indicated by a return value of zero and a <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> result that is nonzero.
+If the previous value is zero and the function succeeds, the return value is zero, but the function does not clear the last error information. To determine success or failure, clear the last error information by calling <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> with 0, then call <b>SetWindowLongPtr</b>. Function failure will be indicated by a return value of zero and a <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> result that is nonzero.
 
 ## -remarks
 
-Certain window data is cached, so changes you make using <b>SetWindowLongPtr</b> will not take effect until you call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function.
+Certain window data is cached, so changes you make using <b>SetWindowLongPtr</b> will not take effect until you call the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowpos">SetWindowPos</a> function.
 
-If you use <b>SetWindowLongPtr</b> with the <b>GWLP_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a> callback function. 
+If you use <b>SetWindowLongPtr</b> with the <b>GWLP_WNDPROC</b> index to replace the window procedure, the window procedure must conform to the guidelines specified in the description of the <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a> callback function. 
 
 If you use <b>SetWindowLongPtr</b> with the <b>DWLP_MSGRESULT</b> index to set the return value for a message processed by a dialog box procedure, the dialog box procedure should return <b>TRUE</b> directly afterward. Otherwise, if you call any function that results in your dialog box procedure receiving a window message, the nested window message could overwrite the return value you set by using <b>DWLP_MSGRESULT</b>. 
 
-Calling <b>SetWindowLongPtr</b> with the <b>GWLP_WNDPROC</b> index creates a subclass of the window class used to create the window. An application can subclass a system class, but should not subclass a window class created by another process. The <b>SetWindowLongPtr</b> function creates the window subclass by changing the window procedure associated with a particular window class, causing the system to call the new window procedure instead of the previous one. An application must pass any messages not processed by the new window procedure to the previous window procedure by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>. This allows the application to create a chain of window procedures. 
+Calling <b>SetWindowLongPtr</b> with the <b>GWLP_WNDPROC</b> index creates a subclass of the window class used to create the window. An application can subclass a system class, but should not subclass a window class created by another process. The <b>SetWindowLongPtr</b> function creates the window subclass by changing the window procedure associated with a particular window class, causing the system to call the new window procedure instead of the previous one. An application must pass any messages not processed by the new window procedure to the previous window procedure by calling <a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>. This allows the application to create a chain of window procedures. 
 
 Reserve extra window memory by specifying a nonzero value in the 
-				<b>cbWndExtra</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. 
+				<b>cbWndExtra</b> member of the <a href="/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a> structure used with the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. 
 
-Do not call <b>SetWindowLongPtr</b> with the <b>GWLP_HWNDPARENT</b> index to change the parent of a child window. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a> function. 
+Do not call <b>SetWindowLongPtr</b> with the <b>GWLP_HWNDPARENT</b> index to change the parent of a child window. Instead, use the <a href="/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a> function. 
 
 If the window has a class style of <b>CS_CLASSDC</b> or <b>CS_PARENTDC</b>, do not set the extended window styles <b>WS_EX_COMPOSITED</b> or <b>WS_EX_LAYERED</b>.
 
@@ -242,7 +243,7 @@ If the window has a class style of <b>CS_CLASSDC</b> or <b>CS_PARENTDC</b>, do n
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-callwindowproca">CallWindowProc</a>
 
 
 
@@ -250,7 +251,7 @@ If the window has a class style of <b>CS_CLASSDC</b> or <b>CS_PARENTDC</b>, do n
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowlongptra">GetWindowLongPtr</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindowlongptra">GetWindowLongPtr</a>
 
 
 
@@ -258,21 +259,20 @@ If the window has a class style of <b>CS_CLASSDC</b> or <b>CS_PARENTDC</b>, do n
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-wndclassexa">WNDCLASSEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
+<a href="/windows/desktop/winmsg/window-classes">Window Classes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>

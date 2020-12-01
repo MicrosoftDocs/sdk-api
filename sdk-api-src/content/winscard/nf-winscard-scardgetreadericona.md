@@ -56,11 +56,11 @@ The <b>SCardGetReaderIcon</b> function gets an icon of the smart card reader for
 
 ### -param hContext [in]
 
-Handle that identifies the resource manager context for the query. You can set the resource manager context by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function. This parameter cannot be <b>NULL</b>.
+Handle that identifies the resource manager context for the query. You can set the resource manager context by a previous call to the <a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function. This parameter cannot be <b>NULL</b>.
 
 ### -param szReaderName [in]
 
-Reader name. You can get this value by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlistreadersa">SCardListReaders</a> function.
+Reader name. You can get this value by calling the <a href="/windows/desktop/api/winscard/nf-winscard-scardlistreadersa">SCardListReaders</a> function.
 
 ### -param pbIcon [out]
 
@@ -68,7 +68,7 @@ Pointer to a buffer that contains a BLOB of the smart card reader icon as read f
 
 ### -param pcbIcon [in, out]
 
-Length, in characters, of the <i>pbIcon</i> buffer. This parameter receives the actual length of the received attribute. If the buffer length is specified as SCARD_AUTOALLOCATE, then <i>pbIcon</i> is converted from a pointer to a byte pointer and receives the address of a block of memory that contains the attribute. This block of memory must be deallocated with the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a> function.
+Length, in characters, of the <i>pbIcon</i> buffer. This parameter receives the actual length of the received attribute. If the buffer length is specified as SCARD_AUTOALLOCATE, then <i>pbIcon</i> is converted from a pointer to a byte pointer and receives the address of a block of memory that contains the attribute. This block of memory must be deallocated with the <a href="/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a> function.
 
 ## -returns
 
@@ -98,7 +98,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -145,4 +145,3 @@ else
 
 > [!NOTE]
 > The winscard.h header defines SCardGetReaderIcon as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

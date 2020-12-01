@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-Refreshes the object data members by rereading their values from the underlying data store. This is allowed only if the object's <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-get_dirty">IWdsTransportCacheable::Dirty</a> property has been set.
+Refreshes the object data members by rereading their values from the underlying data store. This is allowed only if the object's <a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-get_dirty">IWdsTransportCacheable::Dirty</a> property has been set.
 
 ## -parameters
 
 ## -remarks
 
-When called on an object whose <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-get_dirty">Dirty</a> property has been set, this method fails in order to avoid inadvertently losing changes made to the object. If the caller wants to ignore current changes and reread the stored data, the caller should call the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-discard">IWdsTransportCacheable::Discard</a> method instead.
+When called on an object whose <a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-get_dirty">Dirty</a> property has been set, this method fails in order to avoid inadvertently losing changes made to the object. If the caller wants to ignore current changes and reread the stored data, the caller should call the <a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportcacheable-discard">IWdsTransportCacheable::Discard</a> method instead.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcacheable">IWdsTransportCacheable</a>
-
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcacheable">IWdsTransportCacheable</a>

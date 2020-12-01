@@ -98,9 +98,8 @@ If the <i>hrgn</i> parameter does not identify a valid region, the return value 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/region-functions">Region Functions</a>
+<a href="/windows/desktop/gdi/region-functions">Region Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/regions">Regions Overview</a>
-
+<a href="/windows/desktop/gdi/regions">Regions Overview</a>

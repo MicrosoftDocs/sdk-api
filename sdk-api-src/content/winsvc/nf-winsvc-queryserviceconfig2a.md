@@ -64,9 +64,9 @@ Retrieves the optional configuration parameters of the specified service.
 ### -param hService [in]
 
 A handle to the service. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function and must have the <b>SERVICE_QUERY_CONFIG</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a> or 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a> function and must have the <b>SERVICE_QUERY_CONFIG</b> access right. For more information, see 
+<a href="/windows/desktop/Services/service-security-and-access-rights">Service Security and Access Rights</a>.
 
 ### -param dwInfoLevel [in]
 
@@ -84,7 +84,7 @@ The configuration information to be queried. This parameter can be one of the fo
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_delayed_auto_start_info">SERVICE_DELAYED_AUTO_START_INFO</a> structure.
+The <i>lpInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/winsvc/ns-winsvc-service_delayed_auto_start_info">SERVICE_DELAYED_AUTO_START_INFO</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -98,7 +98,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.co
 </td>
 <td width="60%">
 The <i>lpBuffer</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_descriptiona">SERVICE_DESCRIPTION</a> structure.
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_descriptiona">SERVICE_DESCRIPTION</a> structure.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ The <i>lpBuffer</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpBuffer</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actionsa">SERVICE_FAILURE_ACTIONS</a> structure.
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actionsa">SERVICE_FAILURE_ACTIONS</a> structure.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ The <i>lpBuffer</i> parameter is a pointer to a
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a> structure.
+The <i>lpInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -134,7 +134,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_preferred_node_info">SERVICE_PREFERRED_NODE_INFO</a> structure.
+The <i>lpInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/winsvc/ns-winsvc-service_preferred_node_info">SERVICE_PREFERRED_NODE_INFO</a> structure.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -147,7 +147,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_preshutdown_info">SERVICE_PRESHUTDOWN_INFO</a> structure.
+The <i>lpInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/winsvc/ns-winsvc-service_preshutdown_info">SERVICE_PRESHUTDOWN_INFO</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -160,7 +160,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_required_privileges_infoa">SERVICE_REQUIRED_PRIVILEGES_INFO</a> structure.
+The <i>lpInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/winsvc/ns-winsvc-service_required_privileges_infoa">SERVICE_REQUIRED_PRIVILEGES_INFO</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -173,7 +173,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_sid_info">SERVICE_SID_INFO</a> structure.
+The <i>lpInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/winsvc/ns-winsvc-service_sid_info">SERVICE_SID_INFO</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -186,7 +186,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_trigger_info">SERVICE_TRIGGER_INFO</a> structure.
+The <i>lpInfo</i> parameter is a pointer to a <a href="/windows/desktop/api/winsvc/ns-winsvc-service_trigger_info">SERVICE_TRIGGER_INFO</a> structure.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
@@ -199,7 +199,7 @@ The <i>lpInfo</i> parameter is a pointer to a <a href="https://docs.microsoft.co
 </dl>
 </td>
 <td width="60%">
-The <i>lpInfo</i> parameter is a pointer a <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_launch_protected_info">SERVICE_LAUNCH_PROTECTED_INFO</a> structure.
+The <i>lpInfo</i> parameter is a pointer a <a href="/windows/desktop/api/winsvc/ns-winsvc-service_launch_protected_info">SERVICE_LAUNCH_PROTECTED_INFO</a> structure.
 
 <div class="alert"><b>Note</b>  This value is supported starting with Windows 8.1.</div>
 <div> </div>
@@ -211,7 +211,7 @@ The <i>lpInfo</i> parameter is a pointer a <a href="https://docs.microsoft.com/w
 
 A pointer to the buffer that receives the service configuration information. The format of this data depends on the value of the <i>dwInfoLevel</i> parameter.
 
-The maximum size of this array is 8K bytes. To determine the required size, specify <b>NULL</b> for this parameter and 0 for the <i>cbBufSize</i> parameter. The function fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INSUFFICIENT_BUFFER</b>. The <i>pcbBytesNeeded</i> parameter receives the needed size.
+The maximum size of this array is 8K bytes. To determine the required size, specify <b>NULL</b> for this parameter and 0 for the <i>cbBufSize</i> parameter. The function fails and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INSUFFICIENT_BUFFER</b>. The <i>pcbBytesNeeded</i> parameter receives the needed size.
 
 ### -param cbBufSize [in]
 
@@ -226,7 +226,7 @@ A pointer to a variable that receives the number of bytes required to store the 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes can be set by the service control manager. Others can be set by the registry functions that are called by the service control manager.
 
@@ -274,17 +274,17 @@ The specified handle is invalid.
 
 The 
 <b>QueryServiceConfig2</b> function returns the optional configuration information stored in the service control manager database for the specified service. You can change this configuration information by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a> function.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a> function.
 
 You can change and query additional configuration information using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a> functions, respectively.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a> and 
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a> functions, respectively.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Services/querying-a-service-s-configuration">Querying a Service's Configuration</a>.
+<a href="/windows/desktop/Services/querying-a-service-s-configuration">Querying a Service's Configuration</a>.
 
 <div class="code"></div>
 
@@ -296,65 +296,64 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga">ChangeServiceConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfig2a">ChangeServiceConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-openservicea">OpenService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga">QueryServiceConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicedynamicinformation">QueryServiceDynamicInformation</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryservicedynamicinformation">QueryServiceDynamicInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity">QueryServiceObjectSecurity</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity">QueryServiceObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_delayed_auto_start_info">SERVICE_DELAYED_AUTO_START_INFO</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_delayed_auto_start_info">SERVICE_DELAYED_AUTO_START_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_descriptiona">SERVICE_DESCRIPTION</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_descriptiona">SERVICE_DESCRIPTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actionsa">SERVICE_FAILURE_ACTIONS</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actionsa">SERVICE_FAILURE_ACTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_failure_actions_flag">SERVICE_FAILURE_ACTIONS_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_preshutdown_info">SERVICE_PRESHUTDOWN_INFO</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_preshutdown_info">SERVICE_PRESHUTDOWN_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_required_privileges_infoa">SERVICE_REQUIRED_PRIVILEGES_INFO</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_required_privileges_infoa">SERVICE_REQUIRED_PRIVILEGES_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/ns-winsvc-service_sid_info">SERVICE_SID_INFO</a>
+<a href="/windows/desktop/api/winsvc/ns-winsvc-service_sid_info">SERVICE_SID_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-configuration">Service Configuration</a>
+<a href="/windows/desktop/Services/service-configuration">Service Configuration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
-
+<a href="/windows/desktop/Services/service-functions">Service Functions</a>

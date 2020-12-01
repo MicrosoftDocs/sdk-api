@@ -56,7 +56,7 @@ Enables a client compiler to bind to the types, variables, constants, and global
 
 ### -param ppTComp [out]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> instance for this <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>. A client compiler uses the methods in the <b>ITypeComp</b> interface to bind to types in <b>ITypeLib</b>, as well as to the global functions, variables, and constants defined in <b>ITypeLib</b>
+The <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> instance for this <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>. A client compiler uses the methods in the <b>ITypeComp</b> interface to bind to types in <b>ITypeLib</b>, as well as to the global functions, variables, and constants defined in <b>ITypeLib</b>
 
 ## -returns
 
@@ -107,16 +107,15 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-itypecomp-bind">Bind</a> function of the returned <b>TypeComp</b> binds to global functions, variables, constants, enumerated values, and coclass members. The <b>Bind</b> function also binds the names of the TYPEKIND enumerations of TKIND_MODULE, TKIND_ENUM, and TKIND_COCLASS. These names shadow any global names defined within the type information. The members of TKIND_ENUM, TKIND_MODULE, and TKIND_COCLASS types marked as Application objects can be directly bound to from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> without specifying the name of the module.
+The <a href="/windows/desktop/api/oaidl/nf-oaidl-itypecomp-bind">Bind</a> function of the returned <b>TypeComp</b> binds to global functions, variables, constants, enumerated values, and coclass members. The <b>Bind</b> function also binds the names of the TYPEKIND enumerations of TKIND_MODULE, TKIND_ENUM, and TKIND_COCLASS. These names shadow any global names defined within the type information. The members of TKIND_ENUM, TKIND_MODULE, and TKIND_COCLASS types marked as Application objects can be directly bound to from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> without specifying the name of the module.
 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-itypecomp-bind">ITypeComp::Bind</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypecomp-bindtype">ITypeComp::BindType</a> accept only unqualified names. <b>ITypeLib::GetTypeComp</b> returns a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface, which is then used to bind to global elements in the library. The names of some types (TKIND_ENUM, TKIND_MODULE, and TKIND_COCLASS) share the name space with variables, functions, constants, and enumerators.
+<a href="/windows/desktop/api/oaidl/nf-oaidl-itypecomp-bind">ITypeComp::Bind</a> and <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypecomp-bindtype">ITypeComp::BindType</a> accept only unqualified names. <b>ITypeLib::GetTypeComp</b> returns a pointer to the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> interface, which is then used to bind to global elements in the library. The names of some types (TKIND_ENUM, TKIND_MODULE, and TKIND_COCLASS) share the name space with variables, functions, constants, and enumerators.
 
 If a member requires qualification to differentiate it from other items in the name space, <b>GetTypeComp</b> can be called successively for each qualifier in order to bind to the desired member. This allows programming language compilers to access members of modules, enumerations, and coclasses, even though the member can't be bound to with a qualified name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>

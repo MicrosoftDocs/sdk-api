@@ -62,15 +62,15 @@ A 128-bit random number that was passed by the application in the <b>AMCOPPStatu
 
 ### -field dwFlags
 
-Status flag. See <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_statusflags">COPP_StatusFlags</a>.
+Status flag. See <a href="/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_statusflags">COPP_StatusFlags</a>.
 
 ### -field AvailableTVProtectionStandards
 
-Bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_tvprotectionstandard">COPP_TVProtectionStandard</a> enumeration. The driver should return flags for all of the protection standards and resolutions that it supports.
+Bitwise <b>OR</b> of flags from the <a href="/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_tvprotectionstandard">COPP_TVProtectionStandard</a> enumeration. The driver should return flags for all of the protection standards and resolutions that it supports.
 
 ### -field ActiveTVProtectionStandard
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_tvprotectionstandard">COPP_TVProtectionStandard</a> enumeration, indicating the protection standard that is currently active.
+Member of the <a href="/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_tvprotectionstandard">COPP_TVProtectionStandard</a> enumeration, indicating the protection standard that is currently active.
 
 ### -field TVType
 
@@ -82,7 +82,7 @@ Bit mask indicating which bits of <b>AspectRatioData1</b> are valid.
 
 ### -field AspectRatioData1
 
-Specifies the current aspect ratio value. For EN 300 294, the value is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_imageaspectratio_en300294">COPP_ImageAspectRatio_EN300294</a> enumeration.
+Specifies the current aspect ratio value. For EN 300 294, the value is a member of the <a href="/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_imageaspectratio_en300294">COPP_ImageAspectRatio_EN300294</a> enumeration.
 
 ### -field AspectRatioValidMask2
 
@@ -110,9 +110,8 @@ Additional signaling elements. This array is currently not used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
-
+<a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>

@@ -59,19 +59,19 @@ Opens the theme data associated with a window for specified theme classes.
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a window or control that the theme is to be retrieved from.
 
 ### -param pszClassList [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 A semicolon-separated list of class names to match.
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Optional flags that control how to return the theme data. May be set to a combination of the following values.
 
@@ -116,5 +116,4 @@ Class names for the Aero theme are defined in AeroStyle.xml.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a>
-
+<a href="/windows/desktop/api/uxtheme/nf-uxtheme-openthemedata">OpenThemeData</a>

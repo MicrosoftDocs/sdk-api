@@ -83,7 +83,7 @@ The call succeeded.
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -93,15 +93,14 @@ A server calls
 <b>RpcProtseqVectorFree</b> sets the <i>ProtSeqVector</i> parameter to a null value.
 
 For a list of Microsoft RPC supported protocol sequences, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/string-binding">String Binding</a>.
+<a href="/windows/desktop/Rpc/string-binding">String Binding</a>.
 
 A server obtains a vector of protocol sequences by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>.
 
 <div class="alert"><b>Note</b>  <b>RpcProtseqVectorFree</b> is available for server and client applications using Microsoft RPC, but is more common and convenient for server applications.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>

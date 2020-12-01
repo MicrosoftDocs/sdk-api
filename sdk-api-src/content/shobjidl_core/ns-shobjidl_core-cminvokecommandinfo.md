@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information needed by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> to invoke a shortcut menu command.
+Contains information needed by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> to invoke a shortcut menu command.
 
 ## -struct-fields
 
@@ -108,7 +108,7 @@ Wait for the DDE conversation to terminate before returning.
 
 #### CMIC_MASK_NOASYNC
 
-<b>Windows Vista and later.</b> The implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> should be synchronous, not returning before it is complete. Since this is recommended, calling applications that specify this flag cannot guarantee that this request will be honored if they are not familiar with the implementation of the verb that they are invoking.
+<b>Windows Vista and later.</b> The implementation of <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> should be synchronous, not returning before it is complete. Since this is recommended, calling applications that specify this flag cannot guarantee that this request will be honored if they are not familiar with the implementation of the verb that they are invoking.
 
 
 
@@ -126,13 +126,13 @@ The CTRL key is pressed. Use this instead of polling the current state of the ke
 
 #### CMIC_MASK_FLAG_LOG_USAGE
 
-Indicates that the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> might want to keep track of the item being invoked for features like the "Recent documents" menu.
+Indicates that the implementation of <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> might want to keep track of the item being invoked for features like the "Recent documents" menu.
 
 
 
 #### CMIC_MASK_NOZONECHECKS
 
-Do not perform a zone check. This flag allows <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> to bypass zone checking put into place by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute">IAttachmentExecute</a>.
+Do not perform a zone check. This flag allows <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> to bypass zone checking put into place by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute">IAttachmentExecute</a>.
 
 ### -field hwnd
 
@@ -172,9 +172,9 @@ The address of a null-terminated string that specifies the language-independent 
 
 This is not a fixed set; new canonical verbs can be invented by context menu handlers and applications can invoke them.
 
-If a canonical verb exists and a menu handler does not implement the canonical verb, it must return a failure code to enable the next handler to be able to handle this verb. Failing to do this will break functionality in the system including <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>.
+If a canonical verb exists and a menu handler does not implement the canonical verb, it must return a failure code to enable the next handler to be able to handle this verb. Failing to do this will break functionality in the system including <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>.
 
-Alternatively, rather than a pointer, this parameter can be <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(offset) where <i>offset</i> is the menu-identifier offset of the command to carry out. Implementations can use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a> macro to detect that this alternative is being employed. The Shell uses this alternative when the user chooses a menu command.
+Alternatively, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(offset) where <i>offset</i> is the menu-identifier offset of the command to carry out. Implementations can use the <a href="/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a> macro to detect that this alternative is being employed. The Shell uses this alternative when the user chooses a menu command.
 
 ### -field lpParameters
 
@@ -192,7 +192,7 @@ An optional working directory name. This member is always <b>NULL</b> for menu i
 
 Type: <b>int</b>
 
-A set of SW_ values to pass to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function if the command displays a window or starts an application.
+A set of SW_ values to pass to the <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function if the command displays a window or starts an application.
 
 ### -field dwHotKey
 
@@ -208,5 +208,4 @@ An icon to use for any application activated by the command. If the <b>fMask</b>
 
 ## -remarks
 
-Although the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> declaration specifies a <b>CMINVOKECOMMANDINFO</b> structure for the <i>pici</i> parameter, it can also accept a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex">CMINVOKECOMMANDINFOEX</a> structure. If you are implementing this method, you must inspect <b>cbSize</b> to determine which structure has been passed.
-
+Although the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> declaration specifies a <b>CMINVOKECOMMANDINFO</b> structure for the <i>pici</i> parameter, it can also accept a <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfoex">CMINVOKECOMMANDINFOEX</a> structure. If you are implementing this method, you must inspect <b>cbSize</b> to determine which structure has been passed.

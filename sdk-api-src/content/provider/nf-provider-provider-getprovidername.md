@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>GetProviderName</b> method retrieves the name of the class used in the constructor of the provider.
@@ -63,5 +63,4 @@ The <b>GetProviderName</b> method retrieves the name of the class used in the co
 
 ## -returns
 
-If successful, the method returns the name of the class used in the constructor of the provider as a <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/chstring">CHString</a> reference. The name returned is the first parameter originally given to the Provider::Provider constructor.
-
+If successful, the method returns the name of the class used in the constructor of the provider as a <a href="/windows/desktop/WmiSdk/chstring">CHString</a> reference. The name returned is the first parameter originally given to the Provider::Provider constructor.

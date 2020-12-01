@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns whether the Direct2D factory was created with the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_factory_type">D2D1_FACTORY_TYPE_MULTI_THREADED</a> flag.
+Returns whether the Direct2D factory was created with the <a href="/windows/desktop/api/d2d1/ne-d2d1-d2d1_factory_type">D2D1_FACTORY_TYPE_MULTI_THREADED</a> flag.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Returns true if the Direct2D factory was created as multi-threaded, or false if 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1multithread">ID2D1Multithread</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1multithread">ID2D1Multithread</a>

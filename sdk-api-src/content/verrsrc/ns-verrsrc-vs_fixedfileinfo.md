@@ -61,7 +61,7 @@ Contains version information for a file. This information is language and code p
 Type: <b>DWORD</b>
 
 Contains the value 0xFEEF04BD. This is used with the 
-					<b>szKey</b> member of the <a href="https://docs.microsoft.com/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a> structure when searching a file for the <b>VS_FIXEDFILEINFO</b> structure.
+					<b>szKey</b> member of the <a href="/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a> structure when searching a file for the <b>VS_FIXEDFILEINFO</b> structure.
 
 ### -field dwStrucVersion
 
@@ -133,7 +133,7 @@ The file contains debugging information or is compiled with debugging features e
 </dl>
 </td>
 <td width="60%">
-The file's version structure was created dynamically; therefore, some of the members in this structure may be empty or incorrect. This flag should never be set in a file's <a href="https://docs.microsoft.com/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a> data.
+The file's version structure was created dynamically; therefore, some of the members in this structure may be empty or incorrect. This flag should never be set in a file's <a href="/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a> data.
 
 </td>
 </tr>
@@ -166,7 +166,7 @@ The file is a development version, not a commercially released product.
 </dl>
 </td>
 <td width="60%">
-The file was not built using standard release procedures. If this flag is set, the <a href="https://docs.microsoft.com/windows/desktop/menurc/stringfileinfo">StringFileInfo</a> structure should contain a PrivateBuild entry.
+The file was not built using standard release procedures. If this flag is set, the <a href="/windows/desktop/menurc/stringfileinfo">StringFileInfo</a> structure should contain a PrivateBuild entry.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ The file was not built using standard release procedures. If this flag is set, t
 </dl>
 </td>
 <td width="60%">
-The file was built by the original company using standard release procedures but is a variation of the normal file of the same version number. If this flag is set, the <a href="https://docs.microsoft.com/windows/desktop/menurc/stringfileinfo">StringFileInfo</a> structure should contain a SpecialBuild entry.
+The file was built by the original company using standard release procedures but is a variation of the normal file of the same version number. If this flag is set, the <a href="/windows/desktop/menurc/stringfileinfo">StringFileInfo</a> structure should contain a SpecialBuild entry.
 
 </td>
 </tr>
@@ -702,17 +702,16 @@ The least significant 32 bits of the file's 64-bit binary creation date and time
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/string-str">String</a>
+<a href="/windows/desktop/menurc/string-str">String</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/stringfileinfo">StringFileInfo</a>
+<a href="/windows/desktop/menurc/stringfileinfo">StringFileInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a>
+<a href="/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/version-information">Version Information</a>
-
+<a href="/windows/desktop/menurc/version-information">Version Information</a>

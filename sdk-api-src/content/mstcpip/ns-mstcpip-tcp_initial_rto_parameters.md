@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers">TCP_INITIAL_RTO_PARAMETERS</a> structure  specifies data used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj710203(v=vs.85)">SIO_TCP_INITIAL_RTO</a> IOCTL to configure initial re-transmission timeout (RTO) parameters to be used on the socket.
+<a href="/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers">TCP_INITIAL_RTO_PARAMETERS</a> structure  specifies data used by the <a href="/windows/win32/winsock/sio-tcp-initial-rto">SIO_TCP_INITIAL_RTO</a> IOCTL to configure initial re-transmission timeout (RTO) parameters to be used on the socket.
 
 ## -struct-fields
 
@@ -70,7 +70,7 @@ Supplies the number of retransmissions attempted before the connection
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers">TCP_INITIAL_RTO_PARAMETERS</a> structure  allows an application to configure the initial round trip time (RTT) used to compute the retransmission timeout. The application can also configure the number of re-transmissions that will be attempted before the connection attempt fails. 
+The <a href="/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers">TCP_INITIAL_RTO_PARAMETERS</a> structure  allows an application to configure the initial round trip time (RTT) used to compute the retransmission timeout. The application can also configure the number of re-transmissions that will be attempted before the connection attempt fails. 
 
 An application should supply the RTT of choice in milliseconds and the maximum number of retransmissions in this structure. The Windows TCP/IP stack will honor these parameters for the subsequent connection attempt. The retransmission behavior for TCP is documented in IETF RFC 793 and 2988.
 
@@ -80,5 +80,4 @@ An application can choose system defaults for any of these fields and supply tho
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj710203(v=vs.85)">SIO_TCP_INITIAL_RTO</a>
-
+<a href="/windows/win32/winsock/sio-tcp-initial-rto">SIO_TCP_INITIAL_RTO</a>

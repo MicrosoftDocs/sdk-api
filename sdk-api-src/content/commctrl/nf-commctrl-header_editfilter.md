@@ -56,7 +56,7 @@ Moves the input focus to the edit box when a filter button has the focus.
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the header control.
 
@@ -101,5 +101,4 @@ Accept the changes made by the user.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-editfilter">HDM_EDITFILTER</a>
-
+<a href="/windows/desktop/Controls/hdm-editfilter">HDM_EDITFILTER</a>

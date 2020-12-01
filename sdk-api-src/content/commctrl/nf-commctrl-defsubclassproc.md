@@ -43,6 +43,7 @@ api_location:
  - Comctl32.dll
 api_name:
  - DefSubclassProc
+req.apiset: ext-ms-win-shell-comctl32-window-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DefSubclassProc function
@@ -90,20 +91,19 @@ You do not need to call the default window procedure; this function calls it aut
 
 The SUBCLASS module defines helper functions that are used to subclass windows. The code maintains a single property on the subclassed window and dispatches various subclass callbacks to its clients as required. The client is provided reference data and a default processing API.
 
-A subclass callback is identified by a unique pairing of a callback function pointer and an unsigned ID value. Each callback can also store a single <b>DWORD</b> of reference data, which is passed to the callback function when it is called to filter messages. No reference counting is performed for the callback; it may repeatedly call <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a> to alter the value of its reference data element.
+A subclass callback is identified by a unique pairing of a callback function pointer and an unsigned ID value. Each callback can also store a single <b>DWORD</b> of reference data, which is passed to the callback function when it is called to filter messages. No reference counting is performed for the callback; it may repeatedly call <a href="/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a> to alter the value of its reference data element.
 
 <div class="alert"><b>Warning</b>  You cannot use the subclassing helper functions to subclass a window across threads.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-getwindowsubclass">GetWindowSubclass</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-getwindowsubclass">GetWindowSubclass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-removewindowsubclass">RemoveWindowSubclass</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-removewindowsubclass">RemoveWindowSubclass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-setwindowsubclass">SetWindowSubclass</a>

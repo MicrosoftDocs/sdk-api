@@ -82,8 +82,8 @@ The data partition type that is created and recognized by Windows.
 
 Only partitions of this type can be assigned drive letters, receive volume 
          <b>GUID</b> paths, host mounted folders (also called volume mount points), and be 
-         enumerated by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and 
-         <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a>.
+         enumerated by calls to <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and 
+         <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a>.
 
 This value can be set only for basic disks, with one exception. If both 
          <b>PARTITION_BASIC_DATA_GUID</b> and 
@@ -199,9 +199,9 @@ This member can be one or more of the following values.
 If this attribute is set, the partition is required by  a computer to function properly.
 
 For example, this attribute must be set for OEM partitions. Note that if this attribute is set, you can use 
-         the <a href="https://technet.microsoft.com/library/26a4a166-95fa-4faf-95bc-2d5345f4a57a">DiskPart.exe</a> utility to perform 
+         the <a href="/windows-server/administration/windows-commands/diskpart">DiskPart.exe</a> utility to perform 
          partition operations such as deleting the partition. However, because the partition is not a volume, you 
-         cannot use the <a href="https://technet.microsoft.com/library/26a4a166-95fa-4faf-95bc-2d5345f4a57a">DiskPart.exe</a> utility to 
+         cannot use the <a href="/windows-server/administration/windows-commands/diskpart">DiskPart.exe</a> utility to 
          perform volume operations on the partition.
 
 This attribute can be set for basic and dynamic disks. If it is set for a partition on a basic disk and the 
@@ -237,8 +237,8 @@ If this attribute is set, the partition is not detected by the Mount Manager.
 
 As a result, the partition does not receive a drive letter, does not receive a volume 
          <b>GUID</b> path, does not host mounted folders (also called volume mount points), and 
-         is not enumerated by calls to <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and 
-         <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a>. This ensures that applications 
+         is not enumerated by calls to <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstvolumew">FindFirstVolume</a> and 
+         <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextvolumew">FindNextVolume</a>. This ensures that applications 
          such as Disk Defragmenter do not access the partition. The Volume Shadow Copy Service (VSS) uses this 
          attribute.
 
@@ -279,7 +279,7 @@ Despite its name, this attribute can be set for basic and dynamic disks.
 If this attribute is set, the partition is read-only.
 
 Writes to the partition will fail. 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a> will fail with the 
+         <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a> will fail with the 
          <b>ERROR_WRITE_PROTECT</b> Win32 error code, which causes the file system to mount as read 
          only, if a file system is present.
 
@@ -308,17 +308,16 @@ Starting with
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-system-recognition">File System Recognition</a>
+<a href="/windows/desktop/FileIO/file-system-recognition">File System Recognition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info_ex">IOCTL_DISK_GET_PARTITION_INFO_EX</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_partition_info_ex">IOCTL_DISK_GET_PARTITION_INFO_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>

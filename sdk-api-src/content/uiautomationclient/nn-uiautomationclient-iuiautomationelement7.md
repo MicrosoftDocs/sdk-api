@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
- Extends the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement6">IUIAutomationElement6</a> interface.
+ Extends the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement6">IUIAutomationElement6</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationElement7</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement6">IUIAutomationElement6</a>. <b>IUIAutomationElement7</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationElement7</b> interface inherits from <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement6">IUIAutomationElement6</a>. <b>IUIAutomationElement7</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUIAutomationElement7</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-findallwithoptions">FindAllWithOptions</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-findallwithoptions">FindAllWithOptions</a>
 </td>
 <td align="left" width="63%">
 Find all matching elements in the specified order.
@@ -78,7 +78,7 @@ Find all matching elements in the specified order.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-findallwithoptionsbuildcache">FindAllWithOptionsBuildCache</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-findallwithoptionsbuildcache">FindAllWithOptionsBuildCache</a>
 </td>
 <td align="left" width="63%">
 Finds all matching elements in the specified order, but also caches their properties and patterns.
@@ -87,7 +87,7 @@ Finds all matching elements in the specified order, but also caches their proper
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-findfirstwithoptions">FindFirstWithOptions</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-findfirstwithoptions">FindFirstWithOptions</a>
 </td>
 <td align="left" width="63%">
 Finds the first matching element in the specified order.
@@ -96,7 +96,7 @@ Finds the first matching element in the specified order.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-findfirstwithoptionsbuildcache">FindFirstWithOptionsBuildCache</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-findfirstwithoptionsbuildcache">FindFirstWithOptionsBuildCache</a>
 </td>
 <td align="left" width="63%">
 Finds the first matching element in the specified order, but also caches its properties and pattern.
@@ -105,7 +105,7 @@ Finds the first matching element in the specified order, but also caches its pro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-getcurrentmetadatavalue">GetCurrentMetadataValue</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement7-getcurrentmetadatavalue">GetCurrentMetadataValue</a>
 </td>
 <td align="left" width="63%">
 Gets metadata from the UI Automation element that indicates how the information should be interpreted.
@@ -116,9 +116,8 @@ Gets metadata from the UI Automation element that indicates how the information 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement6">IUIAutomationElement6</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement6">IUIAutomationElement6</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-entry-uiautoclientinterfaces">UI Automation Element Interfaces for Clients</a>

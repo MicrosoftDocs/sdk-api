@@ -57,7 +57,7 @@ Retrieves the current value of the specified report size limit.
 
 ### -param limit [in]
 
-The report size limit which is used to limit the files listed in a report. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportlimit">FsrmReportLimit</a> enumeration.
+The report size limit which is used to limit the files listed in a report. For possible values, see the <a href="/windows/desktop/api/fsrmenums/ne-fsrmenums-fsrmreportlimit">FsrmReportLimit</a> enumeration.
 
 ### -param limitValue [out]
 
@@ -69,9 +69,8 @@ The method returns the following return values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmreportmanager">FsrmReportManager</a>
+<a href="/previous-versions/windows/desktop/fsrm/fsrmreportmanager">FsrmReportManager</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>

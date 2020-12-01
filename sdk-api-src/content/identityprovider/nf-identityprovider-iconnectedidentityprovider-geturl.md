@@ -78,5 +78,4 @@ If the method fails, the method returns a Win32 error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iconnectedidentityprovider">IConnectedIdentityProvider</a>
-
+<a href="/windows/desktop/api/identityprovider/nn-identityprovider-iconnectedidentityprovider">IConnectedIdentityProvider</a>

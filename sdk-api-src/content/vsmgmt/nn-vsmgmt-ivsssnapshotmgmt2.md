@@ -55,7 +55,7 @@ The <b>IVssSnapshotMgmt2</b> interface
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssSnapshotMgmt2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssSnapshotMgmt2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssSnapshotMgmt2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssSnapshotMgmt2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IVssSnapshotMgmt2</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivsssnapshotmgmt2-getmindiffareasize">GetMinDiffAreaSize</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivsssnapshotmgmt2-getmindiffareasize">GetMinDiffAreaSize</a>
 </td>
 <td align="left" width="63%">
 Returns the current minimum size of the shadow copy storage area.</p> (Inherited from <b>IVssSnapshotMgmt2</b>)</td>
@@ -80,15 +80,14 @@ Returns the current minimum size of the shadow copy storage area.</p> (Inherited
 ## -remarks
 
 To obtain an instance of the <b>IVssSnapshotMgmt2</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivsssnapshotmgmt">IVssSnapshotMgmt</a> interface, passing 
+   interface, call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
+   <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivsssnapshotmgmt">IVssSnapshotMgmt</a> interface, passing 
    <b>IID_IVssSnapshotMgmt2</b> as the <i>riid</i> parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
-
+<a href="/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>

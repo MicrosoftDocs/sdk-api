@@ -57,7 +57,7 @@ The <b>GetSerialNumber</b> method retrieves a serial number that uniquely identi
 
 ### -param pSerialNumber [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmid">WMDMID</a> structure specifying the serial number information. The <b>WMDID</b> structure is allocated and released by the application.
+Pointer to a <a href="/windows/desktop/WMDM/wmdmid">WMDMID</a> structure specifying the serial number information. The <b>WMDID</b> structure is allocated and released by the application.
 
 ### -param abMac [in, out]
 
@@ -72,13 +72,13 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
 Not all devices support serial numbers. To determine whether the device supports serial numbers, the caller must always check the return code when calling this function. If a media device supports serial numbers, the serial number of the media device is guaranteed to be unique for that device.
 
-After calling this method, an application can verify that the serial has not been modified during transport by using the <i>abMAC</i> parameter. For example code on this, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>.
+After calling this method, an application can verify that the serial has not been modified during transport by using the <i>abMAC</i> parameter. For example code on this, see <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>.
 
 
 #### Examples
@@ -123,9 +123,8 @@ if (hr == S_OK)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
-
+<a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>

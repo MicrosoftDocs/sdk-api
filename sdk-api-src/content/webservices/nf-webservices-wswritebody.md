@@ -60,7 +60,7 @@ Writes a value in the body of a message.
 
 ### -param message [in]
 
-A pointer to the <b>Message</b> object for writing to.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object.
+A pointer to the <b>Message</b> object for writing to.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object.
 
 ### -param bodyDescription [in]
 
@@ -69,7 +69,7 @@ A pointer to information describing how to write the value.
 ### -param writeOption [in]
 
 Determines whether the value is required and how the value is allocated.
-                    <div class="alert"><b>Note</b>  See <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> for more information.</div>
+                    <div class="alert"><b>Note</b>  See <a href="/windows/desktop/api/webservices/ne-webservices-ws_write_option">WS_WRITE_OPTION</a> for more information.</div>
 <div> </div>
 
 ### -param value
@@ -83,7 +83,7 @@ The size in bytes of the value to write.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -143,7 +143,7 @@ This function may return other errors not listed above.
 ## -remarks
 
 This functions supports the following scenarios, based on the contents
-                of the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> supplied:
+                of the <a href="/windows/desktop/api/webservices/ns-webservices-ws_element_description">WS_ELEMENT_DESCRIPTION</a> supplied:
             
 
 <ul>
@@ -163,4 +163,3 @@ This functions supports the following scenarios, based on the contents
                 accomplished by simply calling the function multiple times.
             </li>
 </ul>
-

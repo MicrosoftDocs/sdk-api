@@ -54,10 +54,10 @@ api_name:
 
 ## -description
 
-The <b>SECURITY_LOGON_SESSION_DATA</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>.
+The <b>SECURITY_LOGON_SESSION_DATA</b> structure contains information about a <a href="/windows/desktop/SecGloss/l-gly">logon session</a>.
 
 This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsagetlogonsessiondata">LsaGetLogonSessionData</a> function.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsagetlogonsessiondata">LsaGetLogonSessionData</a> function.
 
 ## -struct-fields
 
@@ -67,25 +67,25 @@ The size of the structure, in bytes.
 
 ### -field LogonId
 
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (LUID) that identifies a logon session.
+A <a href="/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (LUID) that identifies a logon session.
 
 ### -field UserName
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the account name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a> that owns the logon session.
+<a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the account name of the <a href="/windows/desktop/SecGloss/s-gly">security principal</a> that owns the logon session.
 
 ### -field LogonDomain
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the domain used to authenticate the owner of the logon session.
+An <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the domain used to authenticate the owner of the logon session.
 
 ### -field AuthenticationPackage
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a> used to authenticate the owner of the logon session.
+An <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the <a href="/windows/desktop/SecGloss/a-gly">authentication package</a> used to authenticate the owner of the logon session.
 
 ### -field LogonType
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a> value that identifies the logon method.
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-security_logon_type">SECURITY_LOGON_TYPE</a> value that identifies the logon method.
 
 ### -field Session
 
@@ -93,7 +93,7 @@ A Terminal Services session identifier. This member may be zero.
 
 ### -field Sid
 
-A pointer to the user's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
+A pointer to the user's <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 ### -field LogonTime
 
@@ -101,15 +101,15 @@ The time the session owner logged on.
 
 ### -field LogonServer
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure  that contains the name of the server used to authenticate the owner of the logon session.
+An <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure  that contains the name of the server used to authenticate the owner of the logon session.
 
 ### -field DnsDomainName
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure  that contains the DNS name for the owner of the logon session.
+An <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure  that contains the DNS name for the owner of the logon session.
 
 ### -field Upn
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure  that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN) for the owner of the logon session.
+An <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure  that contains the <a href="/windows/desktop/SecGloss/u-gly">user principal name</a> (UPN) for the owner of the logon session.
 
 ### -field UserFlags
 
@@ -170,31 +170,31 @@ Optimized logon has been disabled for this account.
 
 ### -field LastLogonInfo
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_last_inter_logon_info">LSA_LAST_INTER_LOGON_INFO</a> structure that contains the information on the last logon session.
+An <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_last_inter_logon_info">LSA_LAST_INTER_LOGON_INFO</a> structure that contains the information on the last logon session.
 
 <b>Windows Server 2003 R2, Windows XP with SP1 and earlier, Windows Server 2003 and Windows XP:  </b>This member is not supported.
 
 ### -field LogonScript
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure  that contains the script used for logging on.
+An <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure  that contains the script used for logging on.
 
 <b>Windows Server 2003 R2, Windows XP with SP1 and earlier, Windows Server 2003 and Windows XP:  </b>This member is not supported.
 
 ### -field ProfilePath
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure  that contains the path to the user's profile.
+An <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure  that contains the path to the user's profile.
 
 <b>Windows Server 2003 R2, Windows XP with SP1 and earlier, Windows Server 2003 and Windows XP:  </b>This member is not supported.
 
 ### -field HomeDirectory
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure  that contains the home directory for the logon session.
+An <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure  that contains the home directory for the logon session.
 
 <b>Windows Server 2003 R2, Windows XP with SP1 and earlier, Windows Server 2003 and Windows XP:  </b>This member is not supported.
 
 ### -field HomeDirectoryDrive
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure  that contains the drive location of the home directory of the logon session.
+An <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure  that contains the drive location of the home directory of the logon session.
 
 <b>Windows Server 2003 R2, Windows XP with SP1 and earlier, Windows Server 2003 and Windows XP:  </b>This member is not supported.
 
@@ -231,5 +231,4 @@ The password must be changed during the logon session.
 ## -remarks
 
 This structure is allocated by the LSA. When the structure is no longer required, free it by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LSAFreeReturnBuffer</a> function.
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LSAFreeReturnBuffer</a> function.

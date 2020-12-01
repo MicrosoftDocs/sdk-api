@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies Desktop Window Manager (DWM) composition timing information. Used by the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetcompositiontiminginfo">DwmGetCompositionTimingInfo</a> function.
+Specifies Desktop Window Manager (DWM) composition timing information. Used by the <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetcompositiontiminginfo">DwmGetCompositionTimingInfo</a> function.
 
 ## -struct-fields
 
@@ -162,7 +162,7 @@ The QPC time when the last frame was marked as pending.
 
 ### -field cFramesDisplayed
 
-The number of unique frames displayed. This value is valid only after a second call to the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetcompositiontiminginfo">DwmGetCompositionTimingInfo</a> function.
+The number of unique frames displayed. This value is valid only after a second call to the <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetcompositiontiminginfo">DwmGetCompositionTimingInfo</a> function.
 
 ### -field cFramesComplete
 
@@ -174,11 +174,11 @@ The number of new frames submitted to DirectX but not yet completed.
 
 ### -field cFramesAvailable
 
-The number of frames available but not displayed, used, or dropped. This value is valid only after a second call to <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetcompositiontiminginfo">DwmGetCompositionTimingInfo</a>.
+The number of frames available but not displayed, used, or dropped. This value is valid only after a second call to <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetcompositiontiminginfo">DwmGetCompositionTimingInfo</a>.
 
 ### -field cFramesDropped
 
-The number of rendered frames that were never displayed because composition occurred too late. This value is valid only after a second call to <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetcompositiontiminginfo">DwmGetCompositionTimingInfo</a>.
+The number of rendered frames that were never displayed because composition occurred too late. This value is valid only after a second call to <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetcompositiontiminginfo">DwmGetCompositionTimingInfo</a>.
 
 ### -field cFramesMissed
 
@@ -194,11 +194,11 @@ The frame count at which the next DirectX present is scheduled to be displayed.
 
 ### -field cRefreshesDisplayed
 
-The total number of refreshes that have been displayed for the application since the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetpresentparameters">DwmSetPresentParameters</a> function was last called.
+The total number of refreshes that have been displayed for the application since the <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetpresentparameters">DwmSetPresentParameters</a> function was last called.
 
 ### -field cRefreshesPresented
 
-The total number of refreshes that have been presented by the application since <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetpresentparameters">DwmSetPresentParameters</a> was last called.
+The total number of refreshes that have been presented by the application since <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetpresentparameters">DwmSetPresentParameters</a> was last called.
 
 ### -field cRefreshStarted
 
@@ -219,4 +219,3 @@ The number of empty buffers in the flip chain.
 ## -remarks
 
 Both DWM_FRAME_COUNT and QPC_TIME are defined in Dwmapi.h as <b>ULONGLONG</b>.
-

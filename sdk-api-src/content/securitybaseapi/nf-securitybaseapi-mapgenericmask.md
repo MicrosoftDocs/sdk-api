@@ -56,8 +56,8 @@ api_name:
 
 ## -description
 
-The <b>MapGenericMask</b> function maps the generic access rights in an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access mask</a> to specific and standard access rights. The function applies a mapping supplied in a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure.
+The <b>MapGenericMask</b> function maps the generic access rights in an <a href="/windows/desktop/SecGloss/a-gly">access mask</a> to specific and standard access rights. The function applies a mapping supplied in a 
+<a href="/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ A pointer to an access mask.
 ### -param GenericMapping [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure specifying a mapping of generic access types to specific and standard access types.
+<a href="/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a> structure specifying a mapping of generic access types to specific and standard access types.
 
 ## -remarks
 
@@ -78,31 +78,30 @@ After calling the <b>MapGenericMask</b> function, the access mask pointed to by 
 #### Examples
 
 For an example that uses this function, see 
-     <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/verifying-client-access-with-acls-in-c--">Verifying Client Access with ACLs</a>.
+     <a href="/windows/desktop/SecAuthZ/verifying-client-access-with-acls-in-c--">Verifying Client Access with ACLs</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-areallaccessesgranted">AreAllAccessesGranted</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-areallaccessesgranted">AreAllAccessesGranted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-areanyaccessesgranted">AreAnyAccessesGranted</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-areanyaccessesgranted">AreAnyAccessesGranted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-generic_mapping">GENERIC_MAPPING</a>

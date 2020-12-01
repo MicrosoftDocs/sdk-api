@@ -54,7 +54,7 @@ Exposes a method through which a client can provide an owner window to a Windows
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInitializeWithWindow</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInitializeWithWindow</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInitializeWithWindow</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInitializeWithWindow</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IInitializeWithWindow</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize">Initialize</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iinitializewithwindow-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Specifies an owner window to be used by a Windows Runtime object that is used in a desktop app.
@@ -91,11 +91,12 @@ This interface is implemented by the following objects. Note that this is necess
                 
 
 <ul>
-<li><a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.popups.popupmenu.aspx">Windows.UI.Popups.PopupMenu</a></li>
-<li><a href="https://msdn.microsoft.com/library/windows/apps/windows.ui.popups.messagedialog.aspx">Windows.UI.Popups.MessageDialog</a></li>
-<li><a href="https://msdn.microsoft.com/library/windows/apps/windows.storage.pickers.fileopenpicker.aspx">Windows.Storage.Pickers.FileOpenPicker</a></li>
-<li><a href="https://msdn.microsoft.com/library/windows/apps/windows.storage.pickers.filesavepicker.aspx">Windows.Storage.Pickers.FileSavePicker</a></li>
-<li><a href="https://msdn.microsoft.com/library/windows/apps/windows.storage.pickers.folderpicker.aspx">Windows.Storage.Pickers.FolderPicker</a></li>
-<li><a href="https://docs.microsoft.com/windows/desktop/shell/dataobject">CLSID_DragDropHelper</a></li>
+<li><a href="/uwp/api/Windows.Devices.Enumeration.DevicePicker">Windows.Devices.Enumeration.DevicePicker</a></li>
+<li><a href="/uwp/api/Windows.UI.Popups.PopupMenu">Windows.UI.Popups.PopupMenu</a></li>
+<li><a href="/uwp/api/Windows.UI.Popups.MessageDialog">Windows.UI.Popups.MessageDialog</a></li>
+<li><a href="/uwp/api/Windows.Services.Store.StoreContext">Windows.Services.Store.StoreContext</a></li>
+<li><a href="/uwp/api/Windows.Storage.Pickers.FileOpenPicker">Windows.Storage.Pickers.FileOpenPicker</a></li>
+<li><a href="/uwp/api/Windows.Storage.Pickers.FileSavePicker">Windows.Storage.Pickers.FileSavePicker</a></li>
+<li><a href="/uwp/api/Windows.Storage.Pickers.FolderPicker">Windows.Storage.Pickers.FolderPicker</a></li>
+<li><a href="/windows/desktop/shell/dataobject">CLSID_DragDropHelper</a></li>
 </ul>
-

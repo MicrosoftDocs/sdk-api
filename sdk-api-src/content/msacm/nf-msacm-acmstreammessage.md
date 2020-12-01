@@ -77,9 +77,8 @@ Returns the value returned by the ACM device driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

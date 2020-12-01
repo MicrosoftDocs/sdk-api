@@ -67,7 +67,7 @@ Size of the array passed to this method in the <i>apObj</i> parameter.
 ### -param apObj [out]
 
 Pointer that holds the reference to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a> objects, which contains the returned objects. The array must be big enough to hold all objects in the enumerator.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a> objects, which contains the returned objects. The array must be big enough to hold all objects in the enumerator.
 
 ### -param puReturned [out]
 
@@ -83,5 +83,4 @@ The array must be large enough to hold all objects, or <i>puReturned</i> is fill
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemprov/nn-wbemprov-iwbemhiperfprovider">IWbemHiPerfEnum</a>
-
+<a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemhiperfprovider">IWbemHiPerfEnum</a>

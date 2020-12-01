@@ -56,7 +56,7 @@ Configures a video output. This method sends an Output Protection Manager (OPM) 
 
 ### -param pParameters [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters">OPM_CONFIGURE_PARAMETERS</a> structure that contains the command. For a list of OPM commands, see <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-commands">OPM Commands</a>.
+Pointer to an <a href="/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters">OPM_CONFIGURE_PARAMETERS</a> structure that contains the command. For a list of OPM commands, see <a href="/windows/desktop/medfound/opm-commands">OPM Commands</a>.
 
 ### -param ulAdditionalParametersSize [in]
 
@@ -84,9 +84,8 @@ The <i>pbAdditionalParameters</i> parameter must be <b>NULL</b>, and <i>ulAdditi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a>
+<a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOutput</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

@@ -56,7 +56,7 @@ The <b>SetAllVolumes</b> method sets the individual volume levels for all the ch
 
 ### -param dwCount [in]
 
-The number of elements in the <i>pfVolumes</i> array. This parameter must equal the number of channels in the stream format. To get the number of channels, call the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiostreamvolume-getchannelcount">IAudioStreamVolume::GetChannelCount</a> method.
+The number of elements in the <i>pfVolumes</i> array. This parameter must equal the number of channels in the stream format. To get the number of channels, call the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiostreamvolume-getchannelcount">IAudioStreamVolume::GetChannelCount</a> method.
 
 ### -param pfVolumes [in]
 
@@ -119,9 +119,8 @@ The Windows audio service is not running.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume Interface</a>
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiostreamvolume-getchannelcount">IAudioStreamVolume::GetChannelCount</a>
-
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiostreamvolume-getchannelcount">IAudioStreamVolume::GetChannelCount</a>

@@ -57,15 +57,15 @@ Retrieves the current display mode of the adapter.
 
 ### -param Adapter [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Ordinal number that denotes the display adapter to query. D3DADAPTER_DEFAULT is always the primary display adapter.
 
 ### -param pMode [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddisplaymode">D3DDISPLAYMODE</a>*</b>
+Type: <b><a href="/windows/desktop/direct3d9/d3ddisplaymode">D3DDISPLAYMODE</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddisplaymode">D3DDISPLAYMODE</a> structure, to be filled with information describing the current adapter's mode.
+Pointer to a <a href="/windows/desktop/direct3d9/d3ddisplaymode">D3DDISPLAYMODE</a> structure, to be filled with information describing the current adapter's mode.
 
 ## -returns
 
@@ -83,5 +83,4 @@ If Adapter is out of range or pMode is invalid, this method returns D3DERR_INVAL
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>

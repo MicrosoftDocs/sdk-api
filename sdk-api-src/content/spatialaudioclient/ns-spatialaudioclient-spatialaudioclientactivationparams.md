@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Represents optional activation parameters for a spatial audio render stream. Pass this structure to <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync">ActivateAudioInterfaceAsync</a> when activating an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> interface.
+Represents optional activation parameters for a spatial audio render stream. Pass this structure to <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-activateaudiointerfaceasync">ActivateAudioInterfaceAsync</a> when activating an <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> interface.
 
 ## -struct-fields
 
@@ -118,4 +118,3 @@ ropVariantClear(&var);
 
 
 To access the <b>ActivateAudioIntefaceAsync</b>, you will need to link to mmdevapi.lib.
-

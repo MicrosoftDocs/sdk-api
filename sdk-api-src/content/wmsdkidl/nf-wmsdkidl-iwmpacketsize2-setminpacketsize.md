@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>SetMinPacketSize</b> method sets the minimum <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">packet</a> size for files created with the profile. This method cannot be called from an interface belonging to a reader or synchronous reader object.
+The <b>SetMinPacketSize</b> method sets the minimum <a href="/windows/desktop/wmformat/wmformat-glossary">packet</a> size for files created with the profile. This method cannot be called from an interface belonging to a reader or synchronous reader object.
 
 ## -parameters
 
@@ -73,9 +73,8 @@ Although larger packets result in a smaller file, they can also make the file mo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize2">IWMPacketSize2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize2">IWMPacketSize2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpacketsize2-getminpacketsize">IWMPacketSize2::GetMinPacketSize</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpacketsize2-getminpacketsize">IWMPacketSize2::GetMinPacketSize</a>

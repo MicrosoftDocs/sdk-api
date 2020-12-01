@@ -66,29 +66,29 @@ A GUID identifying the type of object to create. One of the following values as 
 
 #### SYNCMGR_OBJECTID_BrowseContent
 
-An object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgruioperation">ISyncMgrUIOperation</a> interface that shows UI that allows the user to browse the contents of the item. 
+An object implementing the <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgruioperation">ISyncMgrUIOperation</a> interface that shows UI that allows the user to browse the contents of the item. 
 
                         
 
-Sync Center only requests this object if the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_CAN_BROWSE_CONTENT</a> capability flag is set in the mask retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_CAN_BROWSE_CONTENT</a> capability flag is set in the mask retrieved by <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>.
 
 
 
 #### SYNCMGR_OBJECTID_ConflictStore
 
-An object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflictstore">ISyncMgrConflictStore</a> interface that allows an item to provide conflicts. These conflicts are shown in the Sync Center Conflicts folder. The conflict store should include conflicts only for the item. To include conflicts for all of a handler's items, Sync Center calls <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">GetObject</a>. 
+An object implementing the <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrconflictstore">ISyncMgrConflictStore</a> interface that allows an item to provide conflicts. These conflicts are shown in the Sync Center Conflicts folder. The conflict store should include conflicts only for the item. To include conflicts for all of a handler's items, Sync Center calls <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">GetObject</a>. 
 
                         
 
-Sync Center only requests this object if the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_CONFLICT_STORE</a> capability flag is set in the mask retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_CONFLICT_STORE</a> capability flag is set in the mask retrieved by <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>.
 
 
 
 #### SYNCMGR_OBJECTID_EventStore
 
-An object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgreventstore">ISyncMgrEventStore</a> interface that allows an item to provide its own source of events. These events are shown in the Sync Results folder. The event store should include only events for the item. To include events for all of a handler's items, Sync Center calls <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">GetObject</a>.
+An object implementing the <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgreventstore">ISyncMgrEventStore</a> interface that allows an item to provide its own source of events. These events are shown in the Sync Results folder. The event store should include only events for the item. To include events for all of a handler's items, Sync Center calls <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrhandler-getobject">GetObject</a>.
 
-Sync Center only requests this object if the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_EVENT_STORE</a> capability flag is set in the mask retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_EVENT_STORE</a> capability flag is set in the mask retrieved by <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>.
 
 An item is not required to provide an event store. The default event store provided by Sync Center can be used if it meets the item's requirements.
 
@@ -96,41 +96,41 @@ An item is not required to provide an event store. The default event store provi
 
 #### SYNCMGR_OBJECTID_Icon
 
-An icon extraction object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona">IExtractIcon</a> interface used to display an icon for the item. This object should only be provided if the item obtains its icon dynamically at run time. The preferred mechanism for providing the icon is to register the icon as the DefaultIcon in the registry.
+An icon extraction object that implements the <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona">IExtractIcon</a> interface used to display an icon for the item. This object should only be provided if the item obtains its icon dynamically at run time. The preferred mechanism for providing the icon is to register the icon as the DefaultIcon in the registry.
  
                         
 
-Sync Center only requests this object if the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_PROVIDES_ICON</a> capability flag is set in the mask retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_PROVIDES_ICON</a> capability flag is set in the mask retrieved by <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>.
 
 
 
 #### SYNCMGR_OBJECTID_QueryBeforeDelete
 
-An object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgruioperation">ISyncMgrUIOperation</a> interface that displays UI when the user selects the item in the handler's folder then selects the <b>Delete</b> task. Before requesting this object, Sync Center creates both a separate thread for this operation and a new instance of the item.
+An object implementing the <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgruioperation">ISyncMgrUIOperation</a> interface that displays UI when the user selects the item in the handler's folder then selects the <b>Delete</b> task. Before requesting this object, Sync Center creates both a separate thread for this operation and a new instance of the item.
 
                         
 
-Sync Center only requests this object if the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_CAN_DELETE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_QUERY_BEFORE_DELETE</a> capability flags are set in the mask retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>.
+Sync Center only requests this object if the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_CAN_DELETE</a> and <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_QUERY_BEFORE_DELETE</a> capability flags are set in the mask retrieved by <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsyncitem-getcapabilities">GetCapabilities</a>.
 
 
 
 #### SYNCMGR_OBJECTID_QueryBeforeEnable
 
-An object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgruioperation">ISyncMgrUIOperation</a> interface that displays UI when the user selects the item in the Sync Center folder then selects the <b>Enable</b> task. Before requesting this object, Sync Center creates both a separate thread for this operation and a new instance of the item.
+An object implementing the <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgruioperation">ISyncMgrUIOperation</a> interface that displays UI when the user selects the item in the Sync Center folder then selects the <b>Enable</b> task. Before requesting this object, Sync Center creates both a separate thread for this operation and a new instance of the item.
 
                         
 
-Sync Center only requests this object if the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_QUERY_BEFORE_ENABLE</a> capability flag is set and the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_policies">SYNCMGR_IPM_PREVENT_ENABLE</a> policy flag is not.
+Sync Center only requests this object if the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_QUERY_BEFORE_ENABLE</a> capability flag is set and the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_policies">SYNCMGR_IPM_PREVENT_ENABLE</a> policy flag is not.
 
 
 
 #### SYNCMGR_OBJECTID_QueryBeforeDisable
 
-An object implementing the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgruioperation">ISyncMgrUIOperation</a> interface that displays UI when the user selects the item in the handler's folder then selects the <b>Disable</b> task. Before requesting this object, Sync Center creates both a separate thread for this operation and a new instance of the item. 
+An object implementing the <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgruioperation">ISyncMgrUIOperation</a> interface that displays UI when the user selects the item in the handler's folder then selects the <b>Disable</b> task. Before requesting this object, Sync Center creates both a separate thread for this operation and a new instance of the item. 
 
                         
 
-Sync Center only requests this object if the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_QUERY_BEFORE_DELETE</a> capability flag is set and the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_policies">SYNCMGR_IPM_PREVENT_DISABLE</a> policy flag is not.
+Sync Center only requests this object if the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_capabilities">SYNCMGR_ICM_QUERY_BEFORE_DELETE</a> capability flag is set and the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_item_policies">SYNCMGR_IPM_PREVENT_DISABLE</a> policy flag is not.
 
 ### -param riid [in]
 
@@ -183,4 +183,3 @@ STDMETHODIMP CMyDeviceSyncItem::GetObject(__in REFGUID   rguidObjectID,
 }
 
 ```
-

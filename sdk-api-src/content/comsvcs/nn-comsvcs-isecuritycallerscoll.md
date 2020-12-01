@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides access to information about individual callers in a collection of callers. The collection represents the chain of calls ending with the current call, and each caller in the collection represents the identity of one caller. Only callers who cross a boundary where security is checked are included in the chain of callers. (In the COM+ environment, security is checked at application boundaries.) Access to information about a particular caller's identity is provided through <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityidentitycoll">ISecurityIdentityColl</a>, an identity collection.
+Provides access to information about individual callers in a collection of callers. The collection represents the chain of calls ending with the current call, and each caller in the collection represents the identity of one caller. Only callers who cross a boundary where security is checked are included in the chain of callers. (In the COM+ environment, security is checked at application boundaries.) Access to information about a particular caller's identity is provided through <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecurityidentitycoll">ISecurityIdentityColl</a>, an identity collection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityCallersColl</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISecurityCallersColl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISecurityCallersColl</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ISecurityCallersColl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISecurityCallersColl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecuritycallerscoll-get__newenum">get__NewEnum</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isecuritycallerscoll-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the security callers collection.
@@ -79,7 +79,7 @@ Retrieves an enumerator for the security callers collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecuritycallerscoll-get_count">get_Count</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isecuritycallerscoll-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of callers in the security callers collection.
@@ -89,7 +89,7 @@ Retrieves the number of callers in the security callers collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isecuritycallerscoll-get_item">get_Item</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-isecuritycallerscoll-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified caller in the security callers collection.
@@ -101,17 +101,16 @@ Retrieves a specified caller in the security callers collection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext">CoGetCallContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallcontext">ISecurityCallContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecurityidentitycoll">ISecurityIdentityColl</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecurityidentitycoll">ISecurityIdentityColl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/securitycallers">SecurityCallers</a>
-
+<a href="/windows/desktop/cossdk/securitycallers">SecurityCallers</a>

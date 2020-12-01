@@ -47,9 +47,6 @@ api_name:
  - MI_SessionFT
 ---
 
-# MI_SessionFT structure
-
-
 ## -description
 
 Function table for all actions on a session object.
@@ -58,37 +55,62 @@ For details, see <b>MI_Session_&lt;method name&gt;</b> functions.
 
 ## -struct-fields
 
-### -field MI_Result
+### -field AssociatorInstances
 
 TBD
 
-### -field AssociatorInstances
-
 ### -field Close
+
+TBD
 
 ### -field CreateInstance
 
+TBD
+
 ### -field DeleteInstance
+
+TBD
 
 ### -field EnumerateClasses
 
+TBD
+
 ### -field EnumerateInstances
+
+TBD
 
 ### -field GetApplication
 
+TBD
+
 ### -field GetClass
+
+TBD
 
 ### -field GetInstance
 
+TBD
+
 ### -field Invoke
+
+TBD
 
 ### -field ModifyInstance
 
+TBD
+
 ### -field QueryInstances
+
+TBD
 
 ### -field ReferenceInstances
 
+TBD
+
 ### -field Subscribe
+
+TBD
 
 ### -field TestConnection
 
+TBD

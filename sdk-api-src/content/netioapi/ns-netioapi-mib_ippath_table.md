@@ -66,35 +66,34 @@ A value that specifies the number of IP path entries in the array.
 ### -field Table
 
 An array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_row">MIB_IPPATH_ROW</a> structures containing IP path entries.
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_row">MIB_IPPATH_ROW</a> structures containing IP path entries.
 
 ## -remarks
 
 The <b>MIB_IPPATH_TABLE</b> structure is defined on Windows Vista and later. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getippathtable">GetIpPathTable</a> function enumerates the IP path entries on a local system and returns this information in a <b>MIB_IPPATH_TABLE</b> structure. 
+The <a href="/windows/desktop/api/netioapi/nf-netioapi-getippathtable">GetIpPathTable</a> function enumerates the IP path entries on a local system and returns this information in a <b>MIB_IPPATH_TABLE</b> structure. 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-flushippathtable">FlushIpPathTable</a> function flushes the IP path table entries on a local system. 
+The <a href="/windows/desktop/api/netioapi/nf-netioapi-flushippathtable">FlushIpPathTable</a> function flushes the IP path table entries on a local system. 
 
 
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getippathentry">GetIpPathEntry</a> function retrieves a single IP path entry and returns this information in a <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_row">MIB_IPPATH_ROW</a> structure.
+The <a href="/windows/desktop/api/netioapi/nf-netioapi-getippathentry">GetIpPathEntry</a> function retrieves a single IP path entry and returns this information in a <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_row">MIB_IPPATH_ROW</a> structure.
 
-The <b>MIB_IPPATH_TABLE</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_row">MIB_IPPATH_ROW</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_IPPATH_ROW</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_IPPATH_ROW</b> array entry should assume  padding may exist.
+The <b>MIB_IPPATH_TABLE</b> structure may contain padding for alignment between the <b>NumEntries</b> member and the first <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_row">MIB_IPPATH_ROW</a> array entry in the <b>Table</b> member. Padding for alignment may also be present between the <b>MIB_IPPATH_ROW</b> array entries in the <b>Table</b> member. Any access to a <b>MIB_IPPATH_ROW</b> array entry should assume  padding may exist.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-flushippathtable">FlushIpPathTable</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-flushippathtable">FlushIpPathTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getippathentry">GetIpPathEntry</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getippathentry">GetIpPathEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-getippathtable">GetIpPathTable</a>
+<a href="/windows/desktop/api/netioapi/nf-netioapi-getippathtable">GetIpPathTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_row">MIB_IPPATH_ROW</a>
-
+<a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ippath_row">MIB_IPPATH_ROW</a>

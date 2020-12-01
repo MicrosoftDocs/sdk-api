@@ -60,7 +60,7 @@ Determines whether a remote object is connected to the corresponding in-process 
 
 ### -param pUnk [in]
 
-A pointer to the controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the remote object.
+A pointer to the controlling <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the remote object.
 
 ## -returns
 
@@ -68,5 +68,4 @@ If the object is not remote or if it is remote and still connected, the return v
 
 ## -remarks
 
-The <b>CoIsHandlerConnected</b> function determines the status of a remote object. You can use it to determine when to release a remote object. You specify the remote object by giving the function a pointer to its controlling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface (the <i>pUnk</i> parameter). A value of <b>TRUE</b> returned from the function indicates either that the specified object is not remote, or that it is remote and is still connected to its remote handler. A value of <b>FALSE</b> returned from the function indicates that the object is remote but is no longer connected to its remote handler; in this case, the caller should respond by releasing the object.
-
+The <b>CoIsHandlerConnected</b> function determines the status of a remote object. You can use it to determine when to release a remote object. You specify the remote object by giving the function a pointer to its controlling <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface (the <i>pUnk</i> parameter). A value of <b>TRUE</b> returned from the function indicates either that the specified object is not remote, or that it is remote and is still connected to its remote handler. A value of <b>FALSE</b> returned from the function indicates that the object is remote but is no longer connected to its remote handler; in this case, the caller should respond by releasing the object.

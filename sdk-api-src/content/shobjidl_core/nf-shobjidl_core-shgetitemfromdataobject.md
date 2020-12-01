@@ -50,21 +50,21 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or related object based on an item specified by an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>.
+Creates an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or related object based on an item specified by an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>.
 
 ## -parameters
 
 ### -param pdtobj [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
-A pointer to the source <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance.
+A pointer to the source <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> instance.
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-dataobj_get_item_flags">DATAOBJ_GET_ITEM_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-dataobj_get_item_flags">DATAOBJ_GET_ITEM_FLAGS</a></b>
 
-One or more values from the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-dataobj_get_item_flags">DATAOBJ_GET_ITEM_FLAGS</a> enumeration to specify options regarding the target object. This value can be 0.
+One or more values from the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-dataobj_get_item_flags">DATAOBJ_GET_ITEM_FLAGS</a> enumeration to specify options regarding the target object. This value can be 0.
 
 ### -param riid [in]
 
@@ -76,7 +76,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>, typicall
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
+When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
 ## -returns
 
@@ -87,4 +87,3 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ## -remarks
 
 It is recommended that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error.
-

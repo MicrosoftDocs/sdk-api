@@ -51,22 +51,21 @@ api_name:
 
 ## -description
 
-Creates an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xapobase-cxapobase">CXAPOBase</a> class.
+Creates an instance of the <a href="/windows/desktop/api/xapobase/nl-xapobase-cxapobase">CXAPOBase</a> class.
 
 ## -parameters
 
 ### -param pRegistrationProperties
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties for the XAPO.
+Pointer to an <a href="/windows/desktop/api/xapo/ns-xapo-xapo_registration_properties">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties for the XAPO.
 
 ## -remarks
 
-The object created by this <a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xapobase-cxapobase">CXAPOBase</a> will have a reference count of 1.
+The object created by this <a href="/windows/desktop/api/xapobase/nl-xapobase-cxapobase">CXAPOBase</a> will have a reference count of 1.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xapobase-cxapobase">CXAPOBase</a>
-
+<a href="/windows/desktop/api/xapobase/nl-xapobase-cxapobase">CXAPOBase</a>

@@ -64,10 +64,10 @@ Which channel binding is required.  The
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_HTTP_CHANNEL_BINDING</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>
+<a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_binding">WS_TCP_CHANNEL_BINDING</a>
 </li>
 </ul>
 
@@ -101,4 +101,3 @@ Setting this field to <b>NULL</b> indicates a constraint of no security.
 ### -field policyExtensions
 
 ### -field policyExtensionCount
-

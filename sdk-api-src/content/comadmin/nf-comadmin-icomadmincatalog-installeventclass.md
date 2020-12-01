@@ -82,5 +82,4 @@ The dummy implementation of the interface exposed by an event class never actual
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>

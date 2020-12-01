@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>NOTIFYADD</b> structure contains the details of a network connect operation. It is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-addconnectnotify">AddConnectNotify</a> function.
+<a href="/windows/desktop/api/npapi/nf-npapi-addconnectnotify">AddConnectNotify</a> function.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ A handle to a window which should own any messages or dialog boxes the applicati
 ### -field NetResource
 
 Specifies the network resource to connect to. The valid fields are the same as for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a> function.
+<a href="/windows/desktop/api/npapi/nf-npapi-npaddconnection">NPAddConnection</a> function.
 
 ### -field dwAddFlags
 
@@ -128,4 +128,3 @@ The connection is being added to the recent connection list.
 </td>
 </tr>
 </table>
-

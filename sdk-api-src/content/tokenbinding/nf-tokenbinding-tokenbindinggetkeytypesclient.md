@@ -56,7 +56,7 @@ Retrieves a list of the key types that the client device supports.
 
 ### -param keyTypes [out]
 
-A pointer to a buffer that contains the list of key types that the client device supports. <b>TokenBindingGetKeyTypesClient</b> returns the string identifiers for well-known algorithms that correspond to the keys that the client device supports. Use <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> to allocate the memory for the buffer, and <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> to free that memory.
+A pointer to a buffer that contains the list of key types that the client device supports. <b>TokenBindingGetKeyTypesClient</b> returns the string identifiers for well-known algorithms that correspond to the keys that the client device supports. Use <a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> to allocate the memory for the buffer, and <a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a> to free that memory.
 
 ## -returns
 
@@ -68,17 +68,16 @@ You can call <b>TokenBindingGetKeyTypesClient</b> from user mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapfree">HeapFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_key_types">TOKENBINDING_KEY_TYPES</a>
+<a href="/windows/desktop/api/tokenbinding/ns-tokenbinding-tokenbinding_key_types">TOKENBINDING_KEY_TYPES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggetkeytypesserver">TokenBindingGetKeyTypesServer</a>
-
+<a href="/windows/desktop/api/tokenbinding/nf-tokenbinding-tokenbindinggetkeytypesserver">TokenBindingGetKeyTypesServer</a>

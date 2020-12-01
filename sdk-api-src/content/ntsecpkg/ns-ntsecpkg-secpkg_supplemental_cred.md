@@ -54,17 +54,17 @@ api_name:
 
 ## -description
 
-The <b>SECPKG_SUPPLEMENTAL_CRED</b> structure contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">supplemental credentials</a> recognized by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
+The <b>SECPKG_SUPPLEMENTAL_CRED</b> structure contains <a href="/windows/desktop/SecGloss/s-gly">supplemental credentials</a> recognized by the <a href="/windows/desktop/SecGloss/s-gly">security package</a>.
 
 The structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacceptcredentialsfn">SpAcceptCredentials</a> function and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplemental_cred_array">SECPKG_SUPPLEMENTAL_CRED_ARRAY</a> structure.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spacceptcredentialsfn">SpAcceptCredentials</a> function and the 
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplemental_cred_array">SECPKG_SUPPLEMENTAL_CRED_ARRAY</a> structure.
 
 ## -struct-fields
 
 ### -field PackageName
 
-The name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a> that authenticated the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a>.
+The name of the <a href="/windows/desktop/SecGloss/a-gly">authentication package</a> that authenticated the <a href="/windows/desktop/SecGloss/c-gly">credentials</a>.
 
 ### -field CredentialSize
 
@@ -77,4 +77,3 @@ Pointer to a set of package-specific supplemental credentials.
 ### -field Credentials.size_is
 
 ### -field Credentials.size_is.CredentialSize
-

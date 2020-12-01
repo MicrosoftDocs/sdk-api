@@ -74,7 +74,7 @@ Specifies the global gain setting. This value is applied to all force feedback e
 
 ### -field wszType
 
-The joystick type for the joystick. It must be one of the values enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/nf-dinputd-idirectinputjoyconfig8-enumtypes">IDirectInputJoyConfig8::EnumTypes</a>.
+The joystick type for the joystick. It must be one of the values enumerated by <a href="/windows/desktop/api/dinputd/nf-dinputd-idirectinputjoyconfig8-enumtypes">IDirectInputJoyConfig8::EnumTypes</a>.
 
 ### -field wszCallout
 
@@ -86,5 +86,4 @@ Specifies a GUID that identifies the gameport being used for this joystick.
 
 ## -remarks
 
-WDM gameports can be found during enumeration by calling <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/nf-dinputd-idirectinputjoyconfig8-gettypeinfo">IDirectInputJoyConfig8::GetTypeInfo</a> method for an enumerated joystick, then studying the flags present in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dinputd/ns-dinputd-dijoytypeinfo">DIJOYTYPEINFO</a> structure. If the JOY_HWS_ISGAMEPORTBUS flag is set, the currently enumerated object is an available WDM gameport.
-
+WDM gameports can be found during enumeration by calling <a href="/windows/desktop/api/dinputd/nf-dinputd-idirectinputjoyconfig8-gettypeinfo">IDirectInputJoyConfig8::GetTypeInfo</a> method for an enumerated joystick, then studying the flags present in the <b>dwFlags</b> member of the <a href="/windows/desktop/api/dinputd/ns-dinputd-dijoytypeinfo">DIJOYTYPEINFO</a> structure. If the JOY_HWS_ISGAMEPORTBUS flag is set, the currently enumerated object is an available WDM gameport.

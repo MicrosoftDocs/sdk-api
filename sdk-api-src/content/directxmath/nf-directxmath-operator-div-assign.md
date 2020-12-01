@@ -49,7 +49,7 @@ api_name:
 
 Divides one **XMVECTOR** instance by a second instance, returning a reference to the updated initial instance.
 
-The `operator /=` divides each component of the current instance of <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> by the corresponding component in a second specified instance of **XMVECTOR**, returning a reference to the updated initial instance.
+The `operator /=` divides each component of the current instance of <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a> by the corresponding component in a second specified instance of **XMVECTOR**, returning a reference to the updated initial instance.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
@@ -82,5 +82,4 @@ The following pseudocode demonstrates the operation of this operator:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>
-
+<a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR Data Type</a>

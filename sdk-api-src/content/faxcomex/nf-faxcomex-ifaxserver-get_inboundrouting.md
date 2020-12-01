@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>IFaxServer::get_InboundRouting</b> property creates a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundrouting">IFaxInboundRouting</a> configuration interface. The interface permits access to an inbound fax routing extension and its methods.
+The <b>IFaxServer::get_InboundRouting</b> property creates a <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundrouting">IFaxInboundRouting</a> configuration interface. The interface permits access to an inbound fax routing extension and its methods.
 
 This property is read-only.
 
@@ -59,13 +59,12 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>

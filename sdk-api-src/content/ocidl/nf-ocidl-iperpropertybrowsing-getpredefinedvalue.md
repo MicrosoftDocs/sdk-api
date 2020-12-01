@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the value of the specified property that is associated with a predefined string name. This property is associated with a predefined string name as returned from <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedstrings">IPerPropertyBrowsing::GetPredefinedStrings</a>. The predefined string is identified by a token returned from <b>GetPredefinedStrings</b>.
+Retrieves the value of the specified property that is associated with a predefined string name. This property is associated with a predefined string name as returned from <a href="/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedstrings">IPerPropertyBrowsing::GetPredefinedStrings</a>. The predefined string is identified by a token returned from <b>GetPredefinedStrings</b>.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The dispatch identifier of the property for which a predefined value is requeste
 
 ### -param dwCookie [in]
 
-A token identifying which value to return. The token was previously returned in the <i>pCaCookiesOut</i> array filled by <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedstrings">GetPredefinedStrings</a>.
+A token identifying which value to return. The token was previously returned in the <i>pCaCookiesOut</i> array filled by <a href="/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedstrings">GetPredefinedStrings</a>.
 
 ### -param pVarOut [out]
 
@@ -116,11 +116,10 @@ The address in <i>pVarOut</i> is not valid. For example, it may be <b>NULL</b>.
 The caller is responsible for freeing any allocations contained in the <b>VARIANT</b>. Unless the <b>vt</b> member of <b>VARIANT</b> is VT_VARIANT, the caller can free memory using a single call to <b>VariantClear</b>. Otherwise, the caller must recursively free the contained <b>VARIANT</b> values before freeing the outer <b>VARIANT</b>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Support for predefined names and values is not required. If your object does not support these names, return E_NOTIMPL from this method. If this method is not implemented, <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedstrings">IPerPropertyBrowsing::GetPredefinedStrings</a> must not be implemented either.
+Support for predefined names and values is not required. If your object does not support these names, return E_NOTIMPL from this method. If this method is not implemented, <a href="/windows/desktop/api/ocidl/nf-ocidl-iperpropertybrowsing-getpredefinedstrings">IPerPropertyBrowsing::GetPredefinedStrings</a> must not be implemented either.
 
 This method allocates any memory needed inside the <b>VARIANT</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>

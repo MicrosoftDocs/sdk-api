@@ -52,7 +52,7 @@ Retrieves the DirectDrawClipper object that is associated with this surface, and
 
 ### -param arg1 [out]
 
-A pointer to a variable to receive a pointer to the clipper's <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawclipper">IDirectDrawClipper</a> interface.
+A pointer to a variable to receive a pointer to the clipper's <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawclipper">IDirectDrawClipper</a> interface.
 
 ## -returns
 
@@ -68,8 +68,8 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetClipper</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetClipper</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

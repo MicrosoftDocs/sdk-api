@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>_NewEnum</b> property retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+The <b>_NewEnum</b> property retrieves an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 
 This property is read-only.
 
@@ -61,4 +61,3 @@ This property is read-only.
 ## -remarks
 
 This property is provided for use by the <code>For Each</code> keyword in Visual Basic and the <code>foreach</code> keyword in Visual C#.
-

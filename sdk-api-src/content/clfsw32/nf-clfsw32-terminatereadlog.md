@@ -56,7 +56,7 @@ Terminates a read context. This function frees system-allocated resources associ
 
 ### -param pvCursorContext [in]
 
-A pointer to a  read context that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-readlogrecord">ReadLogRecord</a> or <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-readlogrestartarea">ReadLogRestartArea</a>.
+A pointer to a  read context that is returned by <a href="/windows/desktop/api/clfsw32/nf-clfsw32-readlogrecord">ReadLogRecord</a> or <a href="/windows/desktop/api/clfsw32/nf-clfsw32-readlogrestartarea">ReadLogRestartArea</a>.
 
 ## -returns
 
@@ -64,7 +64,7 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following  list identifies the possible error codes:
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following  list identifies the possible error codes:
 
 ## -remarks
 
@@ -72,13 +72,12 @@ It is important to deallocate unused read contexts.  Failure to call this functi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
+<a href="/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-readlogrecord">ReadLogRecord</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-readlogrecord">ReadLogRecord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-readlogrestartarea">ReadLogRestartArea</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-readlogrestartarea">ReadLogRestartArea</a>

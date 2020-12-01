@@ -56,20 +56,20 @@ Sets the metadata for a device, excluding user-defined service metadata.
 
 ### -param pThisModelMetadata [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_this_model_metadata">WSD_THIS_MODEL_METADATA</a> structure which specifies metadata that is common to all instances of the model of this device. 
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_this_model_metadata">WSD_THIS_MODEL_METADATA</a> structure which specifies metadata that is common to all instances of the model of this device. 
 The <b>Manufacturer</b>, <b>ModelNames</b>, and <b>ModelNumber</b> members of the structure must contain non-<b>NULL</b>, non-blank entries.
 
 ### -param pThisDeviceMetadata [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_this_device_metadata">WSD_THIS_DEVICE_METADATA</a> structure which specifies metadata unique to this device. The <b>FriendlyName</b>, <b>FirmwareVersion</b>, and <b>SerialNumber</b> members of this structure must contain non-<b>NULL</b>, non-blank entries.
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_this_device_metadata">WSD_THIS_DEVICE_METADATA</a> structure which specifies metadata unique to this device. The <b>FriendlyName</b>, <b>FirmwareVersion</b>, and <b>SerialNumber</b> members of this structure must contain non-<b>NULL</b>, non-blank entries.
 
 ### -param pHostMetadata [in, optional]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_host_metadata">WSD_HOST_METADATA</a> structure that specifies service host metadata, which the specific data and characteristics of the device (for example, a printer supports color or has a stapler.).
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_host_metadata">WSD_HOST_METADATA</a> structure that specifies service host metadata, which the specific data and characteristics of the device (for example, a printer supports color or has a stapler.).
 
 ### -param pCustomMetadata [in, optional]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_metadata_section_list">WSD_METADATA_SECTION_LIST</a> structure which specifies additional custom metadata associated with this device.
+Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_metadata_section_list">WSD_METADATA_SECTION_LIST</a> structure which specifies additional custom metadata associated with this device.
 
 ## -returns
 
@@ -117,7 +117,7 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-This method must be called at least once prior to starting any device host which was registered with <a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">RegisterService</a>. It may be called after the device is started to update the metadata, in which case WS-Discovery Hello messages are issued indicating the new metadata version. 
+This method must be called at least once prior to starting any device host which was registered with <a href="/windows/desktop/api/wsdhost/nf-wsdhost-iwsddevicehost-registerservice">RegisterService</a>. It may be called after the device is started to update the metadata, in which case WS-Discovery Hello messages are issued indicating the new metadata version. 
 
 <div class="alert"><b>Note</b>  The update feature has not yet been implemented.
 
@@ -126,5 +126,4 @@ This method must be called at least once prior to starting any device host which
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>

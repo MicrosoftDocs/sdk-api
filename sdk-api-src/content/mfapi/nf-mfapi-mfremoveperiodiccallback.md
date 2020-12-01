@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Cancels a callback function that was set by the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
+Cancels a callback function that was set by the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
 
 ## -parameters
 
 ### -param dwKey [in]
 
-Key that identifies the callback. This value is retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
+Key that identifies the callback. This value is retrieved by the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
 
 ## -returns
 
@@ -86,9 +86,8 @@ The callback is dispatched on another thread, and this function does not attempt
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
-
+<a href="/windows/desktop/medfound/work-queues">Work Queues</a>

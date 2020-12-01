@@ -70,9 +70,8 @@ A locally published key is no longer resolvable by other nodes.
 
 ## -remarks
 
-The event handle passed to <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a> is signaled with an event  specified by the <b>DRT_EVENT_TYPE</b> enumeration.
+The event handle passed to <a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a> is signaled with an event  specified by the <b>DRT_EVENT_TYPE</b> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>

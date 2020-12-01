@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Verifies that a named <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">service</a> is starting or currently running. The <b>PRESUTIL_VERIFY_RESOURCE_SERVICE</b> type defines a pointer to this function.
+Verifies that a named <a href="/previous-versions/windows/desktop/mscs/s-gly">service</a> is starting or currently running. The <b>PRESUTIL_VERIFY_RESOURCE_SERVICE</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Null-terminated Unicode string containing the name of the service to verify.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following is a possible error code.
 
 <table>
 <tr>
@@ -82,4 +82,3 @@ The service is not operational.
 </td>
 </tr>
 </table>
-

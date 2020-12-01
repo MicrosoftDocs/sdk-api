@@ -77,8 +77,12 @@ Specifies whether or not this set of options is vendor-specific. This value is <
 
 ### -field OptionsArray
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the option values for the specified vendor/class pair.
+<<<<<<< HEAD
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the option values for the specified vendor/class pair.
 
 ### -field Options
 
 Pointer to a list of structures that contain the option values for specific class/vendor pairs. The structure is defined as follows.
+=======
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the option values for the specified vendor/class pair.
+>>>>>>> d630a335cb0... Links: SDK-API - Pass 1

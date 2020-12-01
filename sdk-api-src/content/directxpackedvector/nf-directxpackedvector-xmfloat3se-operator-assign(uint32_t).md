@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to
-     the current instance of <a href="https://msdn.microsoft.com/A0FE96C6-42AB-411D-874E-E02E0E81CAF0">XMFLOAT3SE</a>.
+     the current instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a>.
  
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
@@ -124,7 +124,7 @@ Bits 27-31 of <b>Packed</b> are the 5 bit <i>exponent</i> used
 
 
 
-<a href="https://msdn.microsoft.com/A0FE96C6-42AB-411D-874E-E02E0E81CAF0">XMFLOAT3SE</a>
+<a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a>
 
 
 

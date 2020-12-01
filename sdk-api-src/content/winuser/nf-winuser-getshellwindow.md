@@ -52,6 +52,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
 api_name:
  - GetShellWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetShellWindow function
@@ -75,11 +76,11 @@ The return value is the handle of the Shell's desktop window. If no Shell proces
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdesktopwindow">GetDesktopWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdesktopwindow">GetDesktopWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
 
 
 
@@ -87,5 +88,4 @@ The return value is the handle of the Shell's desktop window. If no Shell proces
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

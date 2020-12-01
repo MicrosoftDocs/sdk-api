@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>AMVABeginFrameInfo</b> structure contains information for the <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a> method.
+The <b>AMVABeginFrameInfo</b> structure contains information for the <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a> method.
 
 ## -struct-fields
 
 ### -field dwDestSurfaceIndex
 
-The zero-based index of the uncompressed destination surface. The number of uncompressed surfaces is specified in the <a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-setuncompsurfacesinfo">IAMVideoAcceleratorNotify::SetUncompSurfacesInfo</a> method.
+The zero-based index of the uncompressed destination surface. The number of uncompressed surfaces is specified in the <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-setuncompsurfacesinfo">IAMVideoAcceleratorNotify::SetUncompSurfacesInfo</a> method.
 
 ### -field pInputData
 
@@ -92,9 +92,8 @@ The video accelerator might not use the same surface memory in two consecutive c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a>
-
+<a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a>

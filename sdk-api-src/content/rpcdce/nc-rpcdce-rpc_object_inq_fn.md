@@ -71,9 +71,8 @@ Pointer to a return value for the function.
 ## -remarks
 
 You can replace the default mapping function that maps object UUIDs to type UUIDs by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsetinqfn">RpcObjectSetInqFn</a> and supplying a pointer to a function of type RPC_OBJECT_INQ_FN. The supplied function must match the function prototype specified by the type definition: a function with three parameters and the function return value of void.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsetinqfn">RpcObjectSetInqFn</a> and supplying a pointer to a function of type RPC_OBJECT_INQ_FN. The supplied function must match the function prototype specified by the type definition: a function with three parameters and the function return value of void.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsetinqfn">RpcObjectSetInqFn</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcobjectsetinqfn">RpcObjectSetInqFn</a>

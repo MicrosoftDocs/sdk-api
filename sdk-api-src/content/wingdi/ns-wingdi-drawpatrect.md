@@ -95,17 +95,16 @@ Amount of grayness of the rectangle, as a percentage (0-100). A value of 0 means
 
 ## -remarks
 
-This structure is used with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162495(v=vs.85)">DRAWPATTERNRECT</a> printer escape.
+This structure is used with the <a href="/previous-versions/windows/desktop/legacy/dd162495(v=vs.85)">DRAWPATTERNRECT</a> printer escape.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd162495(v=vs.85)">DRAWPATTERNRECT</a>
+<a href="/previous-versions/windows/desktop/legacy/dd162495(v=vs.85)">DRAWPATTERNRECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-structures">Print Spooler API Structures</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-structures">Print Spooler API Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

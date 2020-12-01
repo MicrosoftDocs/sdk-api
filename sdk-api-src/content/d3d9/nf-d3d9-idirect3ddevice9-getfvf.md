@@ -57,9 +57,9 @@ Gets the fixed vertex function declaration.
 
 ### -param pFVF [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
-A DWORD pointer to the fixed function vertex type. For more information, see <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dfvf">D3DFVF</a>.
+A DWORD pointer to the fixed function vertex type. For more information, see <a href="/windows/desktop/direct3d9/d3dfvf">D3DFVF</a>.
 
 ## -returns
 
@@ -74,9 +74,8 @@ The fixed vertex function declaration is a set of FVF flags that determine how v
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setfvf">IDirect3DDevice9::SetFVF</a>
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setfvf">IDirect3DDevice9::SetFVF</a>

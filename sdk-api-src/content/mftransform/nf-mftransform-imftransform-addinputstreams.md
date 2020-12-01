@@ -113,19 +113,18 @@ The MFT has a fixed number of input streams.
 
 ## -remarks
 
-If the new streams exceed the maximum number of input streams for this transform, the method returns <b>E_INVALIDARG.</b> To find the maximum number of input streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamlimits">IMFTransform::GetStreamLimits</a>.
+If the new streams exceed the maximum number of input streams for this transform, the method returns <b>E_INVALIDARG.</b> To find the maximum number of input streams, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamlimits">IMFTransform::GetStreamLimits</a>.
       
 
 If any of the new stream identifiers conflicts with an existing input stream, the method returns <b>E_INVALIDARG</b>.
       
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTAddInputStreams</b>. See <a href="https://docs.microsoft.com/windows/desktop/medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTAddInputStreams</b>. See <a href="/windows/desktop/medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
-
+<a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>

@@ -57,7 +57,7 @@ The <code>ProtectionCommand</code> method sends a COPP command to the graphics d
 
 ### -param cmd [in]
 
-Pointer to an [AMCOPPCommand](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-amcoppcommand) structure that contains the command.
+Pointer to an [AMCOPPCommand](/windows/desktop/api/strmif/ns-strmif-amcoppcommand) structure that contains the command.
 
 ## -returns
 
@@ -105,9 +105,8 @@ The display device does not support COPP; or the VMR has not connected to a disp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcertifiedoutputprotection">IAMCertifiedOutputProtection Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamcertifiedoutputprotection">IAMCertifiedOutputProtection Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
-
+<a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>

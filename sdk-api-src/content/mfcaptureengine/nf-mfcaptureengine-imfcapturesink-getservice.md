@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Queries the underlying <a href="https://docs.microsoft.com/windows/desktop/medfound/sink-writer">Sink Writer</a> object for an interface.
+Queries the underlying <a href="/windows/desktop/medfound/sink-writer">Sink Writer</a> object for an interface.
 
 ## -parameters
 
 ### -param dwSinkStreamIndex [in]
 
-The zero-based index of the stream to query. The index is returned in the <i>pdwSinkStreamIndex</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">IMFCaptureSink::AddStream</a> method.
+The zero-based index of the stream to query. The index is returned in the <i>pdwSinkStreamIndex</i> parameter of the <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesink-addstream">IMFCaptureSink::AddStream</a> method.
 
 ### -param rguidService [in]
 
@@ -68,7 +68,7 @@ A service identifier GUID. Currently, the value must be <b>IID_IMFSinkWriter</b>
 
 ### -param ppUnknown [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -127,5 +127,4 @@ Invalid stream number.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>

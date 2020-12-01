@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA</b> structure is used to delete an unauthenticated attribute of a signer of a signed message. This structure is passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> if the <i>dwCrlType</i> parameter is <b>CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR</b>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> if the <i>dwCrlType</i> parameter is <b>CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR</b>.
 
 ## -struct-fields
 
@@ -65,13 +65,12 @@ Size of this structure in bytes.
 
 ### -field dwSignerIndex
 
-Index of the signer in the <b>rgSigners</b> array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structures in a signed message's <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signed_encode_info">CMSG_SIGNED_ENCODE_INFO</a> structure. The unauthenticated attribute for this signer is deleted.
+Index of the signer in the <b>rgSigners</b> array of pointers to <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structures in a signed message's <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signed_encode_info">CMSG_SIGNED_ENCODE_INFO</a> structure. The unauthenticated attribute for this signer is deleted.
 
 ### -field dwUnauthAttrIndex
 
-Index of the element in the <b>rgUnauthAttr</b> array of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structure holding the unauthenticated attribute to be removed.
+Index of the element in the <b>rgUnauthAttr</b> array of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structure holding the unauthenticated attribute to be removed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>

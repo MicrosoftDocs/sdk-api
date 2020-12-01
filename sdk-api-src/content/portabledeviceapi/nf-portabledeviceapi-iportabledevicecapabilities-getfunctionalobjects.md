@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">GetFunctionalObjects</a> method retrieves all functional objects that match a specified category on the device.
+The <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">GetFunctionalObjects</a> method retrieves all functional objects that match a specified category on the device.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ A <b>REFGUID</b> that specifies the category to search for. This can be WPD_FUNC
 
 ### -param ppObjectIDs [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that contains the object IDs of the functional objects as strings (type VT_LPWSTR in the retrieved <b>PROPVARIANT</b> items). If no objects of the requested type are found, this will be an empty collection (not <b>NULL</b>). The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that contains the object IDs of the functional objects as strings (type VT_LPWSTR in the retrieved <b>PROPVARIANT</b> items). If no objects of the requested type are found, this will be an empty collection (not <b>NULL</b>). The caller must release this interface when it is done with it.
 
 ## -returns
 
@@ -94,20 +94,19 @@ This operation is usually fast, because the driver does not need to perform a fu
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-the-functional-object-identifiers-for-a-device">Retrieving the Functional Object Identifiers for a Device</a>
+For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/retrieving-the-functional-object-identifiers-for-a-device">Retrieving the Functional Object Identifiers for a Device</a>
 
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-the-functional-object-identifiers-for-a-device">Retrieving the Functional Object Identifiers for a Device</a>
+<a href="/windows/desktop/wpd_sdk/retrieving-the-functional-object-identifiers-for-a-device">Retrieving the Functional Object Identifiers for a Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-the-rendering-capabilities-supported-by-a-device">Retrieving the Rendering Capabilities Supported by a Device</a>
-
+<a href="/windows/desktop/wpd_sdk/retrieving-the-rendering-capabilities-supported-by-a-device">Retrieving the Rendering Capabilities Supported by a Device</a>

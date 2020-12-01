@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>IFaxOutboundRoutingRules::RemoveByCountryAndArea</b> method removes an outbound routing rule (<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object) from the collection using the routing rule's country/region code and area code.
+The <b>IFaxOutboundRoutingRules::RemoveByCountryAndArea</b> method removes an outbound routing rule (<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrule">FaxOutboundRoutingRule</a> object) from the collection using the routing rule's country/region code and area code.
 
 ## -parameters
 
@@ -59,13 +59,13 @@ The <b>IFaxOutboundRoutingRules::RemoveByCountryAndArea</b> method removes an ou
 
 Type: <b>long</b>
 
-A <b>long</b> value that specifies the country/region code of the outbound routing rule to remove from the collection. Specifying <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_routing_rule_code_enum">frrcANY_CODE</a> will remove a rule that applies to all country/region codes.
+A <b>long</b> value that specifies the country/region code of the outbound routing rule to remove from the collection. Specifying <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_routing_rule_code_enum">frrcANY_CODE</a> will remove a rule that applies to all country/region codes.
 
 ### -param lAreaCode
 
 Type: <b>long</b>
 
-A <b>long</b> value that specifies the area code of the outbound routing rule to remove from the collection. Specifying <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_routing_rule_code_enum">frrcANY_CODE</a> will remove a rule that applies to all area codes within the specified country/region code.
+A <b>long</b> value that specifies the area code of the outbound routing rule to remove from the collection. Specifying <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_routing_rule_code_enum">frrcANY_CODE</a> will remove a rule that applies to all area codes within the specified country/region code.
 
 ## -returns
 
@@ -75,17 +75,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-You cannot set both <i>lCountryCode</i> and <i>lAreaCode</i> to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_routing_rule_code_enum">frrcANY_CODE</a> because this is equivalent to specifying the default outbound routing rule, which cannot be removed.
+You cannot set both <i>lCountryCode</i> and <i>lAreaCode</i> to <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_routing_rule_code_enum">frrcANY_CODE</a> because this is equivalent to specifying the default outbound routing rule, which cannot be removed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxoutboundroutingrules">FaxOutboundRoutingRules</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutboundroutingrules">IFaxOutboundRoutingRules</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutboundroutingrules">IFaxOutboundRoutingRules</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-creating-and-managing-outbound-routing-rules">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-creating-and-managing-outbound-routing-rules">Visual Basic Example</a>

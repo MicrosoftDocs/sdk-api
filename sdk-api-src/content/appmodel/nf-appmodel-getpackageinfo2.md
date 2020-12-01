@@ -61,7 +61,7 @@ A reference to package information.
 
 Type: <b>const UINT32</b>
 
-The [package constants](https://docs.microsoft.com/windows/desktop/appxpkg/package-constants) that specify how package information is retrieved.
+The [package constants](/windows/desktop/appxpkg/package-constants) that specify how package information is retrieved.
 
 ### -param packagePathType
 
@@ -79,7 +79,7 @@ On input, the size of <i>buffer</i>, in bytes. On output, the size of the packag
 
 Type: <b>BYTE*</b>
 
-The package information, represented as an array of [PACKAGE_INFO](/windows/win32/api/appmodel/ns-appmodel-package_info) structures.
+The package information, represented as an array of [PACKAGE_INFO](./ns-appmodel-package_info.md) structures.
 
 ### -param count
 
@@ -113,7 +113,7 @@ The buffer is not large enough to hold the data. The required size is specified 
 
 ## -remarks
 
-The *packagePathType* parameter is useful for applications that use the [windows.mutablePackageDirectories extension](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) in their package manifest. This extension specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of the application's install folder are projected so that users can modify the installation files. This feature is currently available only for certain types of desktop PC games that are published by Microsoft and our partners, and it enables these types of games to support mods.
+The *packagePathType* parameter is useful for applications that use the [windows.mutablePackageDirectories extension](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop6-package-extension) in their package manifest. This extension specifies a folder under the %ProgramFiles%\ModifiableWindowsApps path where the contents of the application's install folder are projected so that users can modify the installation files. This feature is currently available only for certain types of desktop PC games that are published by Microsoft and our partners, and it enables these types of games to support mods.
 
 ## -see-also
 
@@ -125,17 +125,16 @@ The *packagePathType* parameter is useful for applications that use the [windows
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-closepackageinfo">ClosePackageInfo</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-closepackageinfo">ClosePackageInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageinfo">GetCurrentPackageInfo</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackageinfo">GetCurrentPackageInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackagepath">GetPackagePath</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getpackagepath">GetPackagePath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-openpackageinfobyfullname">OpenPackageInfoByFullName</a>
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-openpackageinfobyfullname">OpenPackageInfoByFullName</a>

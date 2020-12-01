@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IWMWriterFileSink</b> interface is used to open a file to which the writer can write data. The file sink object exposes this interface. To create the file sink object, call the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterfilesink">WMCreateWriterFileSink</a> function.
+The <b>IWMWriterFileSink</b> interface is used to open a file to which the writer can write data. The file sink object exposes this interface. To create the file sink object, call the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterfilesink">WMCreateWriterFileSink</a> function.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterFileSink</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink</a>. <b>IWMWriterFileSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMWriterFileSink</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink</a>. <b>IWMWriterFileSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMWriterFileSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink-open">Open</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a file that acts as the writer sink.
@@ -86,13 +86,13 @@ The following interfaces can be obtained by using the QueryInterface method of t
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2">IWMWriterFileSink2</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2">IWMWriterFileSink2</a>
 </td>
 <td>IID_IWMWriterFileSink2</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3</a>
 </td>
 <td>IID_IWMWriterFileSink3</td>
 </tr>
@@ -100,25 +100,24 @@ The following interfaces can be obtained by using the QueryInterface method of t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2">IWMWriterFileSink2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2">IWMWriterFileSink2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/using-file-sinks">Using File Sinks</a>
+<a href="/windows/desktop/wmformat/using-file-sinks">Using File Sinks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>
-
+<a href="/windows/desktop/wmformat/writer-object">Writer Object</a>

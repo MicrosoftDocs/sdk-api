@@ -85,7 +85,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -97,7 +97,7 @@ Use **FSCTL_REQUEST_BATCH_OPLOCK** to request a batch opportunistic lock on a fi
 
 The batch oplock owner must acknowledge an oplock break (see [Breaking opportunistic locks](/windows/win32/fileio/breaking-opportunistic-locks)) before any operation that is incompatible with a batch oplock can go through on another handle. After the lock is broken, the network redirector is notified not to regard as valid any cached data from the file.
 
-For more information, see [Types of Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/types-of-opportunistic-locks).
+For more information, see [Types of Opportunistic Locks](/windows/desktop/FileIO/types-of-opportunistic-locks).
 
 For a comparison of the various oplock control codes, see [FSCTL_REQUEST_OPLOCK](ni-winioctl-fsctl_request_oplock.md).
 
@@ -121,6 +121,5 @@ Resilient File System (ReFS) | Yes
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
 * [FSCTL_REQUEST_OPLOCK](ni-winioctl-fsctl_request_oplock.md)
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
-* [Oplock Semantics](https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics)
-* [Opportunistic Locks](https://docs.microsoft.com/windows/desktop/FileIO/opportunistic-locks)
-
+* [Oplock Semantics](/windows-hardware/drivers/ifs/oplock-semantics)
+* [Opportunistic Locks](/windows/desktop/FileIO/opportunistic-locks)

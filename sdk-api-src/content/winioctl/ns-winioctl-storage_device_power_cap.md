@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-This structure is used as an input and output buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_device_power_cap">IOCTL_STORAGE_DEVICE_POWER_CAP</a>.
+This structure is used as an input and output buffer for the <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_device_power_cap">IOCTL_STORAGE_DEVICE_POWER_CAP</a>.
 
 ## -struct-fields
 
@@ -67,9 +67,8 @@ The size of this structure.
 
 ### -field Units
 
-The units of the <i>MaxPower</i> value, of type <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_device_power_cap_units">STORAGE_DEVICE_POWER_CAP_UNITS</a>.
+The units of the <i>MaxPower</i> value, of type <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_device_power_cap_units">STORAGE_DEVICE_POWER_CAP_UNITS</a>.
 
 ### -field MaxPower
 
 Contains the value of the actual maximum power consumption level of the device. This may be equal to, less than, or greater than the desired threshold, depending on what the device supports.
-

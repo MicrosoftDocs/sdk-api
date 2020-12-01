@@ -56,17 +56,16 @@ Determines whether the timer is currently enabled.
 
 ## -returns
 
-Returns S_OK if the animation timer is enabled, S_FALSE if the animation timer is disabled, or an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
+Returns S_OK if the animation timer is enabled, S_FALSE if the animation timer is disabled, or an <b>HRESULT</b> error code. See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationtimer">IUIAnimationTimer</a>
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtimer">IUIAnimationTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimer-disable">IUIAnimationTimer::Disable</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimer-disable">IUIAnimationTimer::Disable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimer-enable">IUIAnimationTimer::Enable</a>
-
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimer-enable">IUIAnimationTimer::Enable</a>

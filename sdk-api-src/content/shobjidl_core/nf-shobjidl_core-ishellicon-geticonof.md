@@ -58,7 +58,7 @@ Gets an icon for an object inside a specific folder.
 
 Type: <b>LPCITEMIDLIST</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that specifies the relative location of the folder.
+The address of the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure that specifies the relative location of the folder.
 
 ### -param flags
 
@@ -122,9 +122,9 @@ Returns S_OK if <i>lpIconIndex</i> contains the correct system image list index,
 
 ## -remarks
 
-If you are unable to retrieve an icon for this object using <b>GetIconOf</b>, use the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">GetUIObjectOf</a> method to retrieve an object that supports the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-extract">Extract</a> method.
+If you are unable to retrieve an icon for this object using <b>GetIconOf</b>, use the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getuiobjectof">GetUIObjectOf</a> method to retrieve an object that supports the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-extract">Extract</a> method.
 
-<b>IShellIcon::GetIconOf</b> fails if <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> is not called first.
+<b>IShellIcon::GetIconOf</b> fails if <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> is not called first.
 
 <h3><a id="Note_to_Calling_Applications"></a><a id="note_to_calling_applications"></a><a id="NOTE_TO_CALLING_APPLICATIONS"></a>Note to Calling Applications</h3>
 The index returned is from the system image list.
@@ -134,5 +134,4 @@ If the icon index used is not one of the standard images listed, it is the imple
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellicon">IShellIcon</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellicon">IShellIcon</a>

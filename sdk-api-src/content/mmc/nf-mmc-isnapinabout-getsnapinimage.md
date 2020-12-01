@@ -71,5 +71,4 @@ ISnapinAbout interface is released.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-isnapinabout">ISnapinAbout</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-isnapinabout">ISnapinAbout</a>

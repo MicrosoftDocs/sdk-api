@@ -54,33 +54,32 @@ api_name:
 
 ## -description
 
-This enumeration is received  by the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientregistercallback">WdsTransportClientRegisterCallback</a> function.
+This enumeration is received  by the <a href="/windows/desktop/api/wdstci/nf-wdstci-wdstransportclientregistercallback">WdsTransportClientRegisterCallback</a> function.
 
 ## -enum-fields
 
 ### -field WDS_TRANSPORTCLIENT_SESSION_START
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessionstart">PFN_WdsTransportClientSessionStart</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessionstart">PFN_WdsTransportClientSessionStart</a> callback.
 
 ### -field WDS_TRANSPORTCLIENT_RECEIVE_CONTENTS
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientreceivecontents">PFN_WdsTransportClientReceiveContents</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientreceivecontents">PFN_WdsTransportClientReceiveContents</a> callback.
 
 ### -field WDS_TRANSPORTCLIENT_SESSION_COMPLETE
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessioncomplete">PFN_WdsTransportClientSessionComplete</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessioncomplete">PFN_WdsTransportClientSessionComplete</a> callback.
 
 ### -field WDS_TRANSPORTCLIENT_RECEIVE_METADATA
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientreceivemetadata">PFN_WdsTransportClientReceiveMetadata</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientreceivemetadata">PFN_WdsTransportClientReceiveMetadata</a> callback.
 
 ### -field WDS_TRANSPORTCLIENT_SESSION_STARTEX
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessionstartex">PFN_WdsTransportClientSessionStartEx</a> callback.
+Identifies the <a href="/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportclientsessionstartex">PFN_WdsTransportClientSessionStartEx</a> callback.
 
 ### -field WDS_TRANSPORTCLIENT_SESSION_NEGOTIATE
 
 ### -field WDS_TRANSPORTCLIENT_MAX_CALLBACKS
 
 Used for validation checking.
-

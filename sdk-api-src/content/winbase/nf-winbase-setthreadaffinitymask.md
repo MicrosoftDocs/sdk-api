@@ -63,7 +63,7 @@ Sets a processor affinity mask for the specified thread.
 A handle to the thread whose affinity mask is to be set.
 
 This handle must have the <b>THREAD_SET_INFORMATION</b> or <b>THREAD_SET_LIMITED_INFORMATION</b> access right and the <b>THREAD_QUERY_INFORMATION</b> or <b>THREAD_QUERY_LIMITED_INFORMATION</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
+<a href="/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 <b>Windows Server 2003 and Windows XP:  </b>The handle must have the <b>THREAD_SET_INFORMATION</b> and <b>THREAD_QUERY_INFORMATION</b> access rights.
 
@@ -71,14 +71,14 @@ This handle must have the <b>THREAD_SET_INFORMATION</b> or <b>THREAD_SET_LIMITED
 
 The affinity mask for the thread.
 
-On a system with more than 64 processors, the affinity mask must specify processors in the thread's current <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor group</a>.
+On a system with more than 64 processors, the affinity mask must specify processors in the thread's current <a href="/windows/desktop/ProcThread/processor-groups">processor group</a>.
 
 ## -returns
 
 If the function succeeds, the return value is the thread's previous affinity mask.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the thread affinity mask requests a processor that is not selected for the process affinity mask, the last error code is <b>ERROR_INVALID_PARAMETER</b>.
 
@@ -92,33 +92,32 @@ If the new thread affinity mask does not specify the processor that is currently
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getprocessaffinitymask">GetProcessAffinityMask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/multiple-processors">Multiple Processors</a>
+<a href="/windows/desktop/ProcThread/multiple-processors">Multiple Processors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">Processor Groups</a>
+<a href="/windows/desktop/ProcThread/processor-groups">Processor Groups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessaffinitymask">SetProcessAffinityMask</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setprocessaffinitymask">SetProcessAffinityMask</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessor">SetThreadIdealProcessor</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadidealprocessor">SetThreadIdealProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/multiple-threads">Threads</a>
-
+<a href="/windows/desktop/ProcThread/multiple-threads">Threads</a>

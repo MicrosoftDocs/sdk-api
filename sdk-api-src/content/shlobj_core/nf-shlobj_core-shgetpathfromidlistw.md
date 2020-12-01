@@ -48,6 +48,7 @@ api_name:
  - SHGetPathFromIDList
  - SHGetPathFromIDListA
  - SHGetPathFromIDListW
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SHGetPathFromIDListW function
@@ -92,9 +93,8 @@ If the <i>pidl</i> parameter specifies a shortcut, the <i>pszPath</i> will conta
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetpathfromidlistex">SHGetPathFromIDListEx</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetpathfromidlistex">SHGetPathFromIDListEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shparsedisplayname">SHParseDisplayName</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shparsedisplayname">SHParseDisplayName</a>

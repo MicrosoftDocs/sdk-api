@@ -53,7 +53,7 @@ api_name:
 > [!IMPORTANT]
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
-The <b>MBN_PIN_CONSTANTS</b> enumerated type defines constant values used by the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_pin_info">MBN_PIN_INFO</a> structure.
+The <b>MBN_PIN_CONSTANTS</b> enumerated type defines constant values used by the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_pin_info">MBN_PIN_INFO</a> structure.
 
 ## -enum-fields
 
@@ -64,4 +64,3 @@ Indicates that there is no available information available on the number of atte
 ### -field MBN_PIN_LENGTH_UNKNOWN
 
 Indicates that there is no available information on the length of the PIN.
-

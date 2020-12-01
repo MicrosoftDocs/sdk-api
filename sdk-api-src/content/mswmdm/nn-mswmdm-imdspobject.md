@@ -60,7 +60,7 @@ The <b>Delete</b>, <b>Rename</b>, and <b>Move</b> methods are valid for both fil
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IMDSPObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-close">Close</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a file on a storage medium of a media device.
@@ -84,7 +84,7 @@ Closes a file on a storage medium of a media device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-delete">Delete</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes an object from a storage medium on a media device. This object can be either a file or a folder.
@@ -93,7 +93,7 @@ Deletes an object from a storage medium on a media device. This object can be ei
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-move">Move</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-move">Move</a>
 </td>
 <td align="left" width="63%">
 Moves an object on a media device. This object can be either a file or a folder.
@@ -102,7 +102,7 @@ Moves an object on a media device. This object can be either a file or a folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-open">Open</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens the associated object and prepares it for other operations. This object must be a file.
@@ -111,7 +111,7 @@ Opens the associated object and prepares it for other operations. This object mu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">Read</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">Read</a>
 </td>
 <td align="left" width="63%">
 Reads data from the object at the current position. This object must be a file.
@@ -120,7 +120,7 @@ Reads data from the object at the current position. This object must be a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-rename">Rename</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-rename">Rename</a>
 </td>
 <td align="left" width="63%">
 Renames the associated object. This object can be either a file or a folder.
@@ -129,7 +129,7 @@ Renames the associated object. This object can be either a file or a folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-seek">Seek</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-seek">Seek</a>
 </td>
 <td align="left" width="63%">
 Sets the current position within the object. This object must be a file.
@@ -138,7 +138,7 @@ Sets the current position within the object. This object must be a file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-write">Write</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-write">Write</a>
 </td>
 <td align="left" width="63%">
 Writes data to the object at the current position within the object. This object must be a file.
@@ -149,9 +149,8 @@ Writes data to the object at the current position within the object. This object
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspobject2">IMDSPObject2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspobject2">IMDSPObject2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Registers a path, relative to the [LocalFolder](https://docs.microsoft.com/uwp/api/windows.storage.applicationdata.localfolder) of the packaged application, where a copy of the diagnostic memory dump that Windows Error Reporting (WER) collects when one of the processes for the application stops responding should be saved.
+Registers a path, relative to the [LocalFolder](/uwp/api/windows.storage.applicationdata.localfolder) of the packaged application, where a copy of the diagnostic memory dump that Windows Error Reporting (WER) collects when one of the processes for the application stops responding should be saved.
 
 ## -parameters
 
@@ -102,4 +102,3 @@ WER does not manage storage at the location that the relative path specifies or 
 ## -see-also
 
 [WerUnregisterAppLocalDump function](nf-werapi-werunregisterapplocaldump.md)
-

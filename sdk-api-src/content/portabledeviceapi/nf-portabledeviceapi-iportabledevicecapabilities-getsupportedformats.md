@@ -57,11 +57,11 @@ The <b>GetSupportedFormats</b> method retrieves the supported formats for a spec
 
 ### -param ContentType [in]
 
-A <b>REFGUID</b> that specifies a content type, such as image, audio, or video. For a list of content types that are defined by Windows Portable Devices, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/requirements-for-objects">Requirements for Objects</a>.
+A <b>REFGUID</b> that specifies a content type, such as image, audio, or video. For a list of content types that are defined by Windows Portable Devices, see <a href="/windows/desktop/wpd_sdk/requirements-for-objects">Requirements for Objects</a>.
 
 ### -param ppFormats [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that lists the supported formats for the specified content type. These are GUID values (type VT_CLSID) in the retrieved collection items. For a list of formats that are supported by Windows Portable Devices, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/object-format-guids">Object Formats</a>. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that lists the supported formats for the specified content type. These are GUID values (type VT_CLSID) in the retrieved collection items. For a list of formats that are supported by Windows Portable Devices, see <a href="/windows/desktop/wpd_sdk/object-format-guids">Object Formats</a>. The caller must release this interface when it is done with it.
 
 ## -returns
 
@@ -99,9 +99,8 @@ At least one of the arguments was a <b>NULL</b> pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedformatproperties">IPortableDeviceCapabilities::GetSupportedFormatProperties</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedformatproperties">IPortableDeviceCapabilities::GetSupportedFormatProperties</a>

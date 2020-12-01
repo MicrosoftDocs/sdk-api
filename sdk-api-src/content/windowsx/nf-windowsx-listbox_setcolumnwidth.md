@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the width of all columns in a multiple-column list box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-setcolumnwidth">LB_SETCOLUMNWIDTH</a> message explicitly.
+Sets the width of all columns in a multiple-column list box. You can use this macro or send the <a href="/windows/desktop/Controls/lb-setcolumnwidth">LB_SETCOLUMNWIDTH</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -65,4 +65,3 @@ A handle to the control.
 Type: <b>int</b>
 
 The width, in pixels, of all columns.
-

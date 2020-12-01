@@ -60,29 +60,28 @@ Reserved.
 
 ## -returns
 
-This method supports standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
+<a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/access-control-and-object-deletion">Access Control and Object Deletion</a>
+<a href="/windows/desktop/AD/access-control-and-object-deletion">Access Control and Object Deletion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-delete">IADsContainer::Delete</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadscontainer-delete">IADsContainer::Delete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsdeleteops">IADsDeleteOps</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsdeleteops">IADsDeleteOps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsdeleteops-interface">IADsDeleteOps Interface</a>
+<a href="/windows/desktop/ADSI/iadsdeleteops-interface">IADsDeleteOps Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-deletedsobject">IDirectoryObject::DeleteDSObject</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-deletedsobject">IDirectoryObject::DeleteDSObject</a>

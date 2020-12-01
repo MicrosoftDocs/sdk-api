@@ -96,7 +96,7 @@ Format supports logic operations in blend state.
 
 ### -field D3D12_FORMAT_SUPPORT2_TILED
 
-Format supports tiled resources. Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/volume-tiled-resources">Volume Tiled Resources</a>.
+Format supports tiled resources. Refer to <a href="/windows/desktop/direct3d12/volume-tiled-resources">Volume Tiled Resources</a>.
 
 ### -field D3D12_FORMAT_SUPPORT2_MULTIPLANE_OVERLAY
 
@@ -104,9 +104,8 @@ Format supports multi-plane overlays.
 
 ## -remarks
 
-This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_format_support">D3D12_FEATURE_DATA_FORMAT_SUPPORT</a> structure.
+This enum is used by the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_format_support">D3D12_FEATURE_DATA_FORMAT_SUPPORT</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>

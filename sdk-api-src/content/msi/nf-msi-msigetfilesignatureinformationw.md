@@ -55,18 +55,18 @@ api_name:
 The 
 <b>MsiGetFileSignatureInformation</b> function takes the path to a file that has been digitally signed and returns the file's signer certificate and hash. 
 <b>MsiGetFileSignatureInformation</b> may be called to obtain the signer certificate and hash needed to populate the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate</a>, <a href="https://docs.microsoft.com/windows/desktop/Msi/msipatchcertificate-table">MsiPatchCertificate</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/msidigitalsignature-table">MsiDigitalSignature</a> tables.
+<a href="/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate</a>, <a href="/windows/desktop/Msi/msipatchcertificate-table">MsiPatchCertificate</a>, and 
+<a href="/windows/desktop/Msi/msidigitalsignature-table">MsiDigitalSignature</a> tables.
 
 
 
 
-<b>Windows Installer 3.0 and later:  </b>Beginning with Windows Installer 3.0, the Windows Installer can verify the digital signatures of patches (.msp files) by using the <a href="https://docs.microsoft.com/windows/desktop/Msi/msipatchcertificate-table">MsiPatchCertificate</a> and <a href="https://docs.microsoft.com/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate</a> tables. For more information see <a href="https://docs.microsoft.com/windows/desktop/Msi/guidelines-for-authoring-secure-installations">Guidelines for Authoring Secure Installations</a> and <a href="https://docs.microsoft.com/windows/desktop/Msi/user-account-control--uac--patching">User Account Control (UAC) Patching</a>. 
+<b>Windows Installer 3.0 and later:  </b>Beginning with Windows Installer 3.0, the Windows Installer can verify the digital signatures of patches (.msp files) by using the <a href="/windows/desktop/Msi/msipatchcertificate-table">MsiPatchCertificate</a> and <a href="/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate</a> tables. For more information see <a href="/windows/desktop/Msi/guidelines-for-authoring-secure-installations">Guidelines for Authoring Secure Installations</a> and <a href="/windows/desktop/Msi/user-account-control--uac--patching">User Account Control (UAC) Patching</a>. 
 
  
 
 
-<b>Windows Installer 2.0:  </b>Digital signatures of patches is not supported. Windows Installer 2.0 uses digital signatures as a means to detect corrupted resources, and can only verify the digital signatures of external cabinets, and only by the use of the <a href="https://docs.microsoft.com/windows/desktop/Msi/msidigitalsignature-table">MsiDigitalSignature</a> and <a href="https://docs.microsoft.com/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate</a> tables.
+<b>Windows Installer 2.0:  </b>Digital signatures of patches is not supported. Windows Installer 2.0 uses digital signatures as a means to detect corrupted resources, and can only verify the digital signatures of external cabinets, and only by the use of the <a href="/windows/desktop/Msi/msidigitalsignature-table">MsiDigitalSignature</a> and <a href="/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate</a> tables.
 
 ## -parameters
 
@@ -153,7 +153,7 @@ Invalid parameter was specified.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> is not available on the system. 
+<a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> is not available on the system. 
 <b>MsiGetFileSignatureInformation</b> requires the presence of the Wintrust.dll file on the system.
 
 </td>
@@ -261,7 +261,7 @@ The trust provider does not support the form specified for the subject.
 When requesting only the certificate context, an invalid hash in the digital signature does not cause 
 <b>MsiGetFileSignatureInformation</b> to return a fatal error. To return a fatal error for an invalid hash, set the MSI_INVALID_HASH_IS_FATAL flag in the <i>dwFlags</i> parameter.
 
-The certificate context and hash information is extracted from the file by a call to <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a>. The <i>ppcCertContext</i> parameter is a duplicate of the signer certificate context from the signature. It is the responsibility of the caller to call <i>CertFreeCertificateContext</i> to free the certificate context when finished.
+The certificate context and hash information is extracted from the file by a call to <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a>. The <i>ppcCertContext</i> parameter is a duplicate of the signer certificate context from the signature. It is the responsibility of the caller to call <i>CertFreeCertificateContext</i> to free the certificate context when finished.
 
 Note that 
 <b>MsiGetFileSignatureInformation</b> requires the presence of the Wintrust.dll file on the system.
@@ -275,13 +275,12 @@ Note that
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/digital-signatures-and-windows-installer">Digital Signatures and Windows Installer</a>
+<a href="/windows/desktop/Msi/digital-signatures-and-windows-installer">Digital Signatures and Windows Installer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate table</a>
+<a href="/windows/desktop/Msi/msidigitalcertificate-table">MsiDigitalCertificate table</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/msidigitalsignature-table">MsiDigitalSignature table</a>
-
+<a href="/windows/desktop/Msi/msidigitalsignature-table">MsiDigitalSignature table</a>

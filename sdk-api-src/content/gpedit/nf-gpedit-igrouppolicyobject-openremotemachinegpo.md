@@ -82,28 +82,27 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the method r
 ## -remarks
 
 To retrieve the computer name of a remote GPO, you can call the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getmachinename">GetMachineName</a> method. Call 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-openlocalmachinegpo">OpenLocalMachineGPO</a> to open the default GPO for a local computer.
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getmachinename">GetMachineName</a> method. Call 
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-openlocalmachinegpo">OpenLocalMachineGPO</a> to open the default GPO for a local computer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getmachinename">GetMachineName</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-getmachinename">GetMachineName</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy
     Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-openlocalmachinegpo">OpenLocalMachineGPO</a>
-
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-openlocalmachinegpo">OpenLocalMachineGPO</a>

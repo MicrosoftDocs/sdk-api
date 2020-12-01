@@ -62,13 +62,12 @@ The number of stacks keys.
 
 ### -param rgStackKeys [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
+Type: <b><a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structures containing stack key information.
+A pointer to an array of <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structures containing stack key information.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
-

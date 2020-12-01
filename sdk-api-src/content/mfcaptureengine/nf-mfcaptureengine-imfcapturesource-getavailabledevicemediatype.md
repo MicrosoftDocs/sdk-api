@@ -70,7 +70,7 @@ The stream to query. The value can be any of the following.
 </dl>
 </td>
 <td width="60%">
-The zero-based index of a stream. To get the number of streams, call <a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
+The zero-based index of a stream. To get the number of streams, call <a href="/windows/desktop/api/mfcaptureengine/nf-mfcaptureengine-imfcapturesource-getdevicestreamcount">IMFCaptureSource::GetDeviceStreamCount</a>.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ The zero-based index of the media type to retrieve.
 
 ### -param ppMediaType [in]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -166,9 +166,8 @@ The <i>dwMediaTypeIndex</i> parameter is out of range.
 
 To enumerate all of the available formats on a stream, call this method in a loop while incrementing <i>dwMediaTypeIndex</i>, until the method returns <b>MF_E_NO_MORE_TYPES</b>.
 
-Some cameras might support a range of frame rates. The minimum and maximum frame rates are stored in the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-frame-rate-range-min">MF_MT_FRAME_RATE_RANGE_MIN</a> and <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-frame-rate-range-max">MF_MT_FRAME_RATE_RANGE_MAX</a> attributes on the media type.
+Some cameras might support a range of frame rates. The minimum and maximum frame rates are stored in the <a href="/windows/desktop/medfound/mf-mt-frame-rate-range-min">MF_MT_FRAME_RATE_RANGE_MIN</a> and <a href="/windows/desktop/medfound/mf-mt-frame-rate-range-max">MF_MT_FRAME_RATE_RANGE_MAX</a> attributes on the media type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
-
+<a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>

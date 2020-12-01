@@ -68,13 +68,13 @@ The number of sprites to retrieve.
 
 ### -param destinationRectangles [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 When this method returns, contains a pointer to an array containing the destination rectangles for the retrieved sprites.
 
 ### -param sourceRectangles [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-u">D2D1_RECT_U</a>*</b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-rect-u">D2D1_RECT_U</a>*</b>
 
 When this method returns, contains a pointer to an array containing the source rectangles for the retrieved sprites.
 
@@ -84,7 +84,7 @@ The InfiniteRectU is returned for any sprites that were not assigned a source re
 
 ### -param colors [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-color-f">D2D1_COLOR_F</a>*</b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-color-f">D2D1_COLOR_F</a>*</b>
 
 When this method returns, contains a pointer to an array containing the colors to be applied to the retrieved sprites.
 
@@ -94,7 +94,7 @@ The color {1.0f, 1.0f, 1.0f, 1.0f} is returned for any sprites that were not ass
 
 ### -param transforms [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 When this method returns, contains a pointer to an array containing the transforms to be applied to the retrieved sprites.
 
@@ -110,5 +110,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1spritebatch">ID2D1SpriteBatch</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1spritebatch">ID2D1SpriteBatch</a>

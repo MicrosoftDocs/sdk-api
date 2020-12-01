@@ -56,7 +56,7 @@ The <b>GetSupportedEvents</b> method retrieves the events supported by the servi
 
 ### -param ppEvents [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that receives the list of events.
+The <a href="/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that receives the list of events.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>

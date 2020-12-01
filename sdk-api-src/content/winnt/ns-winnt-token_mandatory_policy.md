@@ -115,5 +115,4 @@ A combination of <b>TOKEN_MANDATORY_POLICY_NO_WRITE_UP</b> and <b>TOKEN_MANDATOR
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
-
+<a href="/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>Algorithm</b> property specifies or retrieves an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the public key algorithm. This property is web enabled for both input and output.
+The <b>Algorithm</b> property specifies or retrieves an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for the public key algorithm. This property is web enabled for both input and output.
 
 This property is read/write.
 
@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -remarks
 
-This property is automatically set when the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_cspstatus">CspStatus</a> property is called.
+This property is automatically set when the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509privatekey-get_cspstatus">CspStatus</a> property is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>

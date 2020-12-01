@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>AddTask</b> method adds the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object with the specified name to the task.
+The <b>AddTask</b> method adds the <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object with the specified name to the task.
 
 ## -parameters
 
 ### -param bstrTask [in]
 
-Name of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object to add to the task.
+Name of the <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> object to add to the task.
 
 ### -param varReserved [in, optional]
 
@@ -65,7 +65,6 @@ Reserved for future use.
 
 ## -remarks
 
-This method allows the nesting of <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> objects within another <b>IAzTask</b> object.
+This method allows the nesting of <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> objects within another <b>IAzTask</b> object.
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iaztask-submit">Submit</a> method to persist any changes made by this method.
-
+You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iaztask-submit">Submit</a> method to persist any changes made by this method.

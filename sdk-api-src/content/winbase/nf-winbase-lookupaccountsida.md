@@ -58,7 +58,7 @@ api_name:
 
 ## -description
 
-The <b>LookupAccountSid</b> function accepts a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found.
+The <b>LookupAccountSid</b> function accepts a <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found.
 
 ## -parameters
 
@@ -69,7 +69,7 @@ A pointer to a <b>null</b>-terminated character string that specifies the target
 ### -param Sid [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> to look up.
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> to look up.
 
 ### -param Name [out, optional]
 
@@ -97,27 +97,27 @@ On input, specifies the size, in <b>TCHAR</b>s, of the <i>lpReferencedDomainName
 ### -param peUse [out]
 
 A pointer to a variable that receives a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> value that indicates the type of the account.
+<a href="/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> value that indicates the type of the account.
 
 ## -returns
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <b>LookupAccountSid</b> function attempts to find a name for the specified SID by first checking a list of well-known SIDs. If the supplied SID does not correspond to a well-known SID, the function checks built-in and administratively defined local accounts. Next, the function checks the primary domain. <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security identifiers</a> not recognized by the primary domain are checked against the trusted domains that correspond to their SID prefixes.
+The <b>LookupAccountSid</b> function attempts to find a name for the specified SID by first checking a list of well-known SIDs. If the supplied SID does not correspond to a well-known SID, the function checks built-in and administratively defined local accounts. Next, the function checks the primary domain. <a href="/windows/desktop/SecGloss/s-gly">Security identifiers</a> not recognized by the primary domain are checked against the trusted domains that correspond to their SID prefixes.
 
-If the function cannot find an account name for the SID, <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NONE_MAPPED. This can occur if a network time-out prevents the function from finding the name. It also occurs for SIDs that have no corresponding account name, such as a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon SID</a> that identifies a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>.
+If the function cannot find an account name for the SID, <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NONE_MAPPED. This can occur if a network time-out prevents the function from finding the name. It also occurs for SIDs that have no corresponding account name, such as a <a href="/windows/desktop/SecGloss/l-gly">logon SID</a> that identifies a <a href="/windows/desktop/SecGloss/l-gly">logon session</a>.
 
 In addition to looking up SIDs for local accounts, local domain accounts, and explicitly trusted domain accounts, <b>LookupAccountSid</b> can look up SIDs for any account in any domain in the forest, including SIDs that appear only in the SIDhistory field of an account in the forest. The SIDhistory field stores former SIDs of an account that has been moved from another domain. To look up a SID, <b>LookupAccountSid</b> queries the global catalog of the forest. 
 
 
 #### Examples
 
-For an example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/searching-for-a-sid-in-an-access-token-in-c--">Searching for a SID in an Access Token</a>.
+For an example that uses this function, see <a href="/windows/desktop/SecAuthZ/searching-for-a-sid-in-an-access-token-in-c--">Searching for a SID in an Access Token</a>.
 
 <div class="code"></div>
 
@@ -129,25 +129,24 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalprefixsid">EqualPrefixSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalprefixsid">EqualPrefixSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountnamea">LookupAccountName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>
-
+<a href="/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>

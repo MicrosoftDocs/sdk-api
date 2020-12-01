@@ -52,13 +52,13 @@ api_name:
 
 Retrieves transaction, activity, and context information on the current context object. Using the methods of this interface, you can retrieve relevant information contained within an object context.
 
-<b>ContextInfo</b> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a> provide the same functionality, but unlike <b>IObjectContextInfo</b>, <b>ContextInfo</b> is compatible with Automation.
+<b>ContextInfo</b> and <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a> provide the same functionality, but unlike <b>IObjectContextInfo</b>, <b>ContextInfo</b> is compatible with Automation.
 
-In COM+ 1.5, released with Windows XP, the <b>ContextInfo</b> interface is superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo2">ContextInfo2</a> interface.
+In COM+ 1.5, released with Windows XP, the <b>ContextInfo</b> interface is superseded by the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo2">ContextInfo2</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ContextInfo</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ContextInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ContextInfo</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ContextInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>ContextInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo-getactivityid">GetActivityId</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo-getactivityid">GetActivityId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the activity identifier associated with the object context.
@@ -82,7 +82,7 @@ Retrieves the activity identifier associated with the object context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo-getcontextid">GetContextId</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo-getcontextid">GetContextId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the unique identifier of this object context.
@@ -91,7 +91,7 @@ Retrieves the unique identifier of this object context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo-gettransaction">GetTransaction</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo-gettransaction">GetTransaction</a>
 </td>
 <td align="left" width="63%">
 Retrieves the object context's transaction object.
@@ -100,7 +100,7 @@ Retrieves the object context's transaction object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo-gettransactionid">GetTransactionId</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo-gettransactionid">GetTransactionId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the transaction identifier associated with the object context.
@@ -109,7 +109,7 @@ Retrieves the transaction identifier associated with the object context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo-isintransaction">IsInTransaction</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-contextinfo-isintransaction">IsInTransaction</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the current object is executing in a transaction.
@@ -121,17 +121,16 @@ Indicates whether the current object is executing in a transaction.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
+<a href="/windows/desktop/cossdk/com--contexts-and-threading-models">COM+ Contexts and Threading Models</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontext">IObjectContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>

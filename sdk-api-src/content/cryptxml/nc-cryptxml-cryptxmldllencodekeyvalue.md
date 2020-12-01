@@ -60,7 +60,7 @@ The handle of the key value to encode.
 
 ### -param dwCharset
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ne-cryptxml-crypt_xml_charset">CRYPT_XML_CHARSET</a> enumeration that specifies the character set of the encoded XML.
+A value of the <a href="/windows/desktop/api/cryptxml/ne-cryptxml-crypt_xml_charset">CRYPT_XML_CHARSET</a> enumeration that specifies the character set of the encoded XML.
 
 ### -param *pvCallbackState [in, out]
 
@@ -75,4 +75,3 @@ An application defined callback function that receives the encoded XML.
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-

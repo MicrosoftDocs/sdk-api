@@ -57,11 +57,11 @@ The <b>CryptVerifyMessageSignatureWithKey</b> function verifies a signed message
 ### -param pVerifyPara [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_verify_message_para">CRYPT_KEY_VERIFY_MESSAGE_PARA</a> structure that contains verification parameters.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_verify_message_para">CRYPT_KEY_VERIFY_MESSAGE_PARA</a> structure that contains verification parameters.
 
 ### -param pPublicKeyInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key that is used to verify the signed
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_public_key_info">CERT_PUBLIC_KEY_INFO</a> structure that contains the public key that is used to verify the signed
 message. If <b>NULL</b>, the signature is not verified.
 
 ### -param pbSignedBlob [in]
@@ -80,7 +80,7 @@ A pointer to a buffer to receive the decoded message.
 
 
 This parameter can be <b>NULL</b> if the decoded message is not needed for additional processing or to set the size of the message for memory allocation purposes. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
+<a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>.
 
 ### -param pcbDecoded [in, out]
 
@@ -97,10 +97,10 @@ A pointer to a <b>DWORD</b> value that specifies the size, in bytes, of the <i>p
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following table shows the error codes most commonly returned by the 
-		       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+		       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 <table>
 <tr>
@@ -174,4 +174,3 @@ The message's signature was not verified.
 </td>
 </tr>
 </table>
-

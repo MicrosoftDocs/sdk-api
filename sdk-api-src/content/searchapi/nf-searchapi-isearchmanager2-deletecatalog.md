@@ -56,7 +56,7 @@ Deletes an existing catalog and all associated indexed data from the Windows Sea
 
 ### -param pszCatalog [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 Name of catalog to delete. The catalog must at some prior time have been created with a call to CreateCatalog().
 
@@ -100,5 +100,4 @@ FAILED HRESULT: Failure deleting catalog or invalid arguments passed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchmanager2">ISearchManager2</a>
-
+<a href="/windows/desktop/api/searchapi/nn-searchapi-isearchmanager2">ISearchManager2</a>

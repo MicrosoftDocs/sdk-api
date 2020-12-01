@@ -71,7 +71,7 @@ Specifies a heap used for uploading.
               If in doubt, stick to the GPU-read-once definition or profile the difference on many GPUs between copying the data to a _DEFAULT heap vs. reading the data from an _UPLOAD heap.
             
 
-Resources in this heap must be created with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE</a>_GENERIC_READ and cannot be changed away from this.
+Resources in this heap must be created with <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE</a>_GENERIC_READ and cannot be changed away from this.
               The CPU address for such heaps is commonly not efficient for CPU reads.
             
 
@@ -102,7 +102,7 @@ Specifies a heap used for reading back.
               The CPU cache behavior is write-back, which is conducive for multiple sub-cache-line CPU reads.
             
 
-Resources in this heap must be created with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE</a>_COPY_DEST, and cannot be changed away from this.
+Resources in this heap must be created with <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE</a>_COPY_DEST, and cannot be changed away from this.
 
 ### -field D3D12_HEAP_TYPE_CUSTOM
 
@@ -110,9 +110,9 @@ Specifies a custom heap.
             The application may specify the memory pool and CPU cache properties directly, which can be useful for UMA optimizations, multi-engine, multi-adapter, or other special cases.
             To do so, the application is expected to understand the adapter architecture to make the right choice.
             For more details, see 
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>_ARCHITECTURE, 
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_architecture">D3D12_FEATURE_DATA_ARCHITECTURE</a>, and 
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties">GetCustomHeapProperties</a>.
+            <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>_ARCHITECTURE, 
+            <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_architecture">D3D12_FEATURE_DATA_ARCHITECTURE</a>, and 
+            <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties">GetCustomHeapProperties</a>.
 
 ## -remarks
 
@@ -121,13 +121,13 @@ This enum is used by the following API items:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_desc">D3D12_HEAP_DESC</a>
+<a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_desc">D3D12_HEAP_DESC</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_properties">D3D12_HEAP_PROPERTIES</a>
+<a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_heap_properties">D3D12_HEAP_PROPERTIES</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties">GetCustomHeapProperties</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getcustomheapproperties">GetCustomHeapProperties</a>
 </li>
 </ul>
 The heap types fall into two categories: abstracted heap types, and custom heap types.
@@ -160,9 +160,8 @@ Note that textures (unlike buffers) can't be heap type UPLOAD or READBACK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/descriptor-heaps">Descriptor Heaps</a>
-
+<a href="/windows/desktop/direct3d12/descriptor-heaps">Descriptor Heaps</a>

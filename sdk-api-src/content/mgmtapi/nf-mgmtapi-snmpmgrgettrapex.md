@@ -50,18 +50,18 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpMgrGetTrapEx</b> function returns outstanding trap data that the caller has not received if trap reception is enabled. In addition to the information that is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrgettrap">SnmpMgrGetTrap</a> function, this extended function returns the address of the transport source and the community string of the trap. This function is an element of the SNMP Management API.
+<a href="/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrgettrap">SnmpMgrGetTrap</a> function, this extended function returns the address of the transport source and the community string of the trap. This function is an element of the SNMP Management API.
 
 ## -parameters
 
 ### -param enterprise [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a> structure to receive the enterprise that generated the SNMP trap.
+<a href="/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a> structure to receive the enterprise that generated the SNMP trap.
 
 ### -param agentAddress [out]
 
@@ -161,7 +161,7 @@ Pointer to a variable to receive an indicator of the specific trap generated.
 ### -param community [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a> structure to receive the community string of the generated SNMP trap.
+<a href="/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a> structure to receive the community string of the generated SNMP trap.
 
 ### -param timeStamp [out]
 
@@ -170,7 +170,7 @@ Pointer to a variable to receive the time stamp.
 ### -param variableBindings [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a> structure to receive the variable bindings list.
+<a href="/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a> structure to receive the variable bindings list.
 
 ## -returns
 
@@ -222,9 +222,9 @@ Indicates a memory allocation error.
 ## -remarks
 
 The application must always call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrtraplisten">SnmpMgrTrapListen</a> function before calling the 
+<a href="/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrtraplisten">SnmpMgrTrapListen</a> function before calling the 
 <b>SnmpMgrGetTrapEx</b> function. This is because the event handle that is pointed to by the <i>phTrapAvailable</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrtraplisten">SnmpMgrTrapListen</a> function enables the event-driven acquisition of SNMP traps. The SNMP Management API signals an application event when the SNMP Trap Service delivers a trap.
+<a href="/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrtraplisten">SnmpMgrTrapListen</a> function enables the event-driven acquisition of SNMP traps. The SNMP Management API signals an application event when the SNMP Trap Service delivers a trap.
 
 The application can also poll the 
 <b>SnmpMgrGetTrapEx</b> function for traps at regular intervals. In this case, the application should repeatedly call 
@@ -232,25 +232,24 @@ The application can also poll the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a>
+<a href="/windows/desktop/api/snmp/ns-snmp-asnobjectidentifier">AsnObjectIdentifier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a>
+<a href="/windows/desktop/api/snmp/ns-snmp-asnoctetstring">AsnOctetString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
+<a href="/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrtraplisten">SnmpMgrTrapListen</a>
+<a href="/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrtraplisten">SnmpMgrTrapListen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a>
-
+<a href="/windows/desktop/api/snmp/ns-snmp-snmpvarbindlist">SnmpVarBindList</a>

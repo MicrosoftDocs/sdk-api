@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Used to add <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a>.
+Used to add <a href="/windows/desktop/SecGloss/c-gly">credentials</a> for a <a href="/windows/desktop/SecGloss/s-gly">security principal</a>.
 
 ## -parameters
 
@@ -61,12 +61,12 @@ A handle to the credential to add.
 ### -param PrincipalName [in]
 
 Optional. Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure containing the name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal</a> whose credentials are being added.
+<a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure containing the name of the <a href="/windows/desktop/SecGloss/s-gly">security principal</a> whose credentials are being added.
 
 ### -param Package [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure containing the name of the authenticating package.
+<a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure containing the name of the authenticating package.
 
 ### -param CredentialUseFlags [in]
 
@@ -84,7 +84,7 @@ Flags indicating how the credentials will be used. The following values are vali
 </td>
 <td width="60%">
 Credentials will be used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function.
+<a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> function.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Credentials will be used with the
 </td>
 <td width="60%">
 Credentials will be used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> function.
+<a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> function.
 
 </td>
 </tr>
@@ -105,7 +105,10 @@ Credentials will be used with the
 
 Optional. Pointer to supplemental authentication data.
 
-### -param GetKeyFunciton
+### -param GetKeyFunciton [in]
+
+Pointer to a function in the caller's address space that generates <a href="/windows/desktop/SecGloss/s-gly">session keys</a>.
+
 
 ### -param GetKeyArgument [in]
 
@@ -114,12 +117,8 @@ Pointer to the argument used with the <i>GetKeyFunction</i> function.
 ### -param ExpirationTime [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/timestamp">TimeStamp</a> that receives the time the credentials handle expires.
+<a href="/windows/desktop/SecAuthN/timestamp">TimeStamp</a> that receives the time the credentials handle expires.
 
-
-#### - GetKeyFunction [in]
-
-Pointer to a function in the caller's address space that generates <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session keys</a>.
 
 ## -returns
 
@@ -132,14 +131,13 @@ If the function fails, return an <b>NTSTATUS</b> code that indicates the reason 
 SSP/APs must implement the <b>SpAddCredentials</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpAddCredentials</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_function_table">SECPKG_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>

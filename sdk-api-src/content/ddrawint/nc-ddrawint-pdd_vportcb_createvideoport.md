@@ -53,7 +53,7 @@ The <b>DdVideoPortCreate</b> callback function notifies the driver that DirectDr
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createvportdata">DD_CREATEVPORTDATA</a> structure that describes the created VPE object.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_createvportdata">DD_CREATEVPORTDATA</a> structure that describes the created VPE object.
 
 ## -returns
 
@@ -63,21 +63,20 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 <b>DdVideoPortCreate</b> can be optionally implemented in DirectDraw drivers that support VPE.
 
-<b>DdVideoPortCreate</b> can allocate memory for and initialize any private, VPE object-specific data. The driver can use the <b>dwReserved1</b> and <b>dwReserved2</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure to store this data. This DD_VIDEOPORT_LOCAL structure is at the <b>lpVideoPort</b> member of the DD_CREATEVPORTDATA structure at <i>lpCreateVideoPort</i>. The driver cannot use or change any other members of the DD_VIDEOPORT_LOCAL structure.
+<b>DdVideoPortCreate</b> can allocate memory for and initialize any private, VPE object-specific data. The driver can use the <b>dwReserved1</b> and <b>dwReserved2</b> members of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure to store this data. This DD_VIDEOPORT_LOCAL structure is at the <b>lpVideoPort</b> member of the DD_CREATEVPORTDATA structure at <i>lpCreateVideoPort</i>. The driver cannot use or change any other members of the DD_VIDEOPORT_LOCAL structure.
 
 If the hardware video port is implemented to use the feature connector, the driver might need to initialize the feature connector for hardware video port use.
 
-<b>DdVideoPortCreate</b> should not turn the hardware video port on. This is accomplished in <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a>.
+<b>DdVideoPortCreate</b> should not turn the hardware video port on. This is accomplished in <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_createvportdata">DD_CREATEVPORTDATA</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_createvportdata">DD_CREATEVPORTDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a>
-
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a>

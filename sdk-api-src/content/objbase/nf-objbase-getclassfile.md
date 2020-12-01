@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
 api_name:
  - GetClassFile
+req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)
 ---
 
 # GetClassFile function
@@ -109,7 +110,7 @@ The specified extension in the registry is invalid.
 
 ## -remarks
 
-When given a file name, <b>GetClassFile</b> finds the CLSID associated with that file. Examples of its use are in the <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olecreatefromfile">OleCreateFromFile</a> function, which is passed a file name and requires an associated CLSID, and in the OLE implementation of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a>, which, when a link to a file-based document is activated, calls <b>GetClassFile</b> to locate the object application that can open the file. 
+When given a file name, <b>GetClassFile</b> finds the CLSID associated with that file. Examples of its use are in the <a href="/windows/desktop/api/ole/nf-ole-olecreatefromfile">OleCreateFromFile</a> function, which is passed a file name and requires an associated CLSID, and in the OLE implementation of <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-bindtoobject">IMoniker::BindToObject</a>, which, when a link to a file-based document is activated, calls <b>GetClassFile</b> to locate the object application that can open the file. 
 
 
 
@@ -117,7 +118,7 @@ When given a file name, <b>GetClassFile</b> finds the CLSID associated with that
 
 <ol>
 <li>
-If the file contains a storage object, as determined by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgisstoragefile">StgIsStorageFile</a> function, <b>GetClassFile</b> returns the CLSID that was written with the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-setclass">IStorage::SetClass</a> method.
+If the file contains a storage object, as determined by a call to the <a href="/windows/desktop/api/coml2api/nf-coml2api-stgisstoragefile">StgIsStorageFile</a> function, <b>GetClassFile</b> returns the CLSID that was written with the <a href="/windows/desktop/api/objidl/nf-objidl-istorage-setclass">IStorage::SetClass</a> method.
 
 </li>
 <li>
@@ -149,5 +150,4 @@ If all strategies fail, the function returns MK_E_INVALIDEXTENSION.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a>
-
+<a href="/windows/desktop/api/coml2api/nf-coml2api-writeclassstg">WriteClassStg</a>

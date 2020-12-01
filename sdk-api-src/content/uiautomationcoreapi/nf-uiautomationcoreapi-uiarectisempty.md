@@ -56,13 +56,12 @@ api_name:
 
 ### -param rc [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a></b>
+Type: <b>const <a href="/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a></b>
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a> structure that contains the coordinates of the rectangle.
+A reference to a <a href="/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiarect">UiaRect</a> structure that contains the coordinates of the rectangle.
 
 ## -returns
 
 Type: <b>bool</b>
 
 <b>TRUE</b> if the rectangle is empty; otherwise <b>FALSE</b>.
-

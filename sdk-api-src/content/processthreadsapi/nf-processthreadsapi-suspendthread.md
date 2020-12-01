@@ -59,7 +59,7 @@ api_name:
 
 Suspends the specified thread.
 
-A 64-bit application can suspend a WOW64 thread using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-wow64suspendthread">Wow64SuspendThread</a> function.
+A 64-bit application can suspend a WOW64 thread using the <a href="/windows/win32/api/wow64apiset/nf-wow64apiset-wow64suspendthread">Wow64SuspendThread</a> function.
 
 ## -parameters
 
@@ -68,12 +68,12 @@ A 64-bit application can suspend a WOW64 thread using the <a href="https://docs.
 A handle to the thread that is to be suspended.
 
 The handle must have the <b>THREAD_SUSPEND_RESUME</b> access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
+<a href="/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 ## -returns
 
 If the function succeeds, the return value is the thread's previous suspend count; otherwise, it is <code>(DWORD) -1</code>. To get extended error information, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
@@ -86,7 +86,7 @@ Each thread has a suspend count (with a maximum value of <b>MAXIMUM_SUSPEND_COUN
 <b>SuspendThread</b> causes the target thread's suspend count to be incremented. Attempting to increment past the maximum suspend count causes an error without incrementing the count.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-resumethread">ResumeThread</a> function decrements the suspend count of a suspended thread.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-resumethread">ResumeThread</a> function decrements the suspend count of a suspended thread.
 
 <b>Windows Phone 8.1:</b> This function is supported for Windows Phone Store apps on Windows Phone 8.1 and later.
 
@@ -94,21 +94,20 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthread">OpenThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-resumethread">ResumeThread</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-resumethread">ResumeThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/suspending-thread-execution">Suspending Thread Execution</a>
+<a href="/windows/desktop/ProcThread/suspending-thread-execution">Suspending Thread Execution</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/multiple-threads">Threads</a>
-
+<a href="/windows/desktop/ProcThread/multiple-threads">Threads</a>

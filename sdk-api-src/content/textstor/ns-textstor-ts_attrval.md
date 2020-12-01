@@ -68,46 +68,46 @@ Value of the attribute.
 
 ## -remarks
 
-An application uses attributes to expose its data to TSF, whereas text services use properties to expose their data to TSF. <b>TS_ATTRVAL</b> is used in <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> and <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a> methods.
+An application uses attributes to expose its data to TSF, whereas text services use properties to expose their data to TSF. <b>TS_ATTRVAL</b> is used in <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> and <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a> methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestattrstransitioningatposition">ITextStoreACP::RequestAttrsTransitioningAtPosition
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestattrstransitioningatposition">ITextStoreACP::RequestAttrsTransitioningAtPosition
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestsupportedattrs">ITextStoreACP::RequestSupportedAttrs
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestsupportedattrs">ITextStoreACP::RequestSupportedAttrs
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-retrieverequestedattrs">ITextStoreACP::RetrieveRequestedAttrs
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-retrieverequestedattrs">ITextStoreACP::RetrieveRequestedAttrs
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestattrstransitioningatposition">ITextStoreAnchor::RequestAttrsTransitioningAtPosition
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestattrstransitioningatposition">ITextStoreAnchor::RequestAttrsTransitioningAtPosition
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestsupportedattrs">ITextStoreAnchor::RequestSupportedAttrs
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestsupportedattrs">ITextStoreAnchor::RequestSupportedAttrs
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-retrieverequestedattrs">ITextStoreAnchor::RetrieveRequestedAttrs
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-retrieverequestedattrs">ITextStoreAnchor::RetrieveRequestedAttrs
       </a>
 
 
@@ -116,11 +116,10 @@ An application uses attributes to expose its data to TSF, whereas text services 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_propertyval">TF_PROPERTYVAL
+<a href="/windows/desktop/api/msctf/ns-msctf-tf_propertyval">TF_PROPERTYVAL
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ts-attrid">TS_ATTRID
+<a href="/windows/desktop/TSF/ts-attrid">TS_ATTRID
       </a>
-

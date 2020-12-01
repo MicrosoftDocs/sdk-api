@@ -59,7 +59,6 @@ Returns S_OK on successful completion.
 
 ## -remarks
 
-For more information about the DIAGNOSTIC_RECORD datatype, see [**here**](/windows/win32/api/diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_record).
+For more information about the DIAGNOSTIC_RECORD datatype, see [**here**](../diagnosticdataquerytypes/ns-diagnosticdataquerytypes-diagnostic_data_record.md).
 
 ## -see-also
-

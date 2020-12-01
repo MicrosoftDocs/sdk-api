@@ -57,7 +57,7 @@ Retrieves the characteristics of the media source.
 
 ### -param pdwCharacteristics [out]
 
-Receives a bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfmediasource_characteristics">MFMEDIASOURCE_CHARACTERISTICS</a> enumeration.
+Receives a bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfmediasource_characteristics">MFMEDIASOURCE_CHARACTERISTICS</a> enumeration.
 
 ## -returns
 
@@ -86,7 +86,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The media source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a> method has been called.
+The media source's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown">Shutdown</a> method has been called.
 
 </td>
 </tr>
@@ -94,9 +94,8 @@ The media source's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl
 
 ## -remarks
 
-The characteristics of a media source can change at any time. If this happens, the source sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/mesourcecharacteristicschanged">MESourceCharacteristicsChanged</a> event.
+The characteristics of a media source can change at any time. If this happens, the source sends an <a href="/windows/desktop/medfound/mesourcecharacteristicschanged">MESourceCharacteristicsChanged</a> event.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>

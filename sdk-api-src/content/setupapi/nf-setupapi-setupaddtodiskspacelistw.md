@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>SetupAddToDiskSpaceList</b> function adds a single delete or copy operation to a disk-space list. To add all the file operations in a section of an INF file, use either 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupaddsectiontodiskspacelista">SetupAddSectionToDiskSpaceList</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupaddinstallsectiontodiskspacelista">SetupAddInstallSectionToDiskSpaceList</a>.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupaddsectiontodiskspacelista">SetupAddSectionToDiskSpaceList</a>, or 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupaddinstallsectiontodiskspacelista">SetupAddInstallSectionToDiskSpaceList</a>.
 
 Target disk compression is ignored by this function. Files are assumed to occupy their full size on the target disk.
 
@@ -74,7 +74,7 @@ File name of the file to be added to the disk-space list. You should use a null-
 ### -param FileSize [in]
 
 Uncompressed size of the file as it will exist in the target directory, in bytes. You can use 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetsourcefilesizea">SetupGetSourceFileSize</a> to retrieve this information from an INF file. This parameter is ignored for FILEOP_DELETE operations.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetsourcefilesizea">SetupGetSourceFileSize</a> to retrieve this information from an INF file. This parameter is ignored for FILEOP_DELETE operations.
 
 ### -param Operation [in]
 
@@ -122,18 +122,17 @@ Must be zero.
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 ## -remarks
 
 > [!NOTE]
 > The setupapi.h header defines SetupAddToDiskSpaceList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

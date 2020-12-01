@@ -54,7 +54,7 @@ Provides access to a device's Encoder Service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_Encoder</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_Encoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_Encoder</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDA_Encoder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBDA_Encoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_encoder-enumaudiocapability">EnumAudioCapability</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_encoder-enumaudiocapability">EnumAudioCapability</a>
 </td>
 <td align="left" width="63%">
 Gets one of the audio formats supported by the device.
@@ -78,7 +78,7 @@ Gets one of the audio formats supported by the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_encoder-enumvideocapability">EnumVideoCapability</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_encoder-enumvideocapability">EnumVideoCapability</a>
 </td>
 <td align="left" width="63%">
 Gets one of the video formats supported by the device.
@@ -87,7 +87,7 @@ Gets one of the video formats supported by the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_encoder-getstate">GetState</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_encoder-getstate">GetState</a>
 </td>
 <td align="left" width="63%">
 Queries the current state of the Encoder Service.
@@ -96,7 +96,7 @@ Queries the current state of the Encoder Service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_encoder-querycapabilities">QueryCapabilities</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_encoder-querycapabilities">QueryCapabilities</a>
 </td>
 <td align="left" width="63%">
 Gets the number of encoding formats supported by the device.
@@ -105,7 +105,7 @@ Gets the number of encoding formats supported by the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_encoder-setparameters">SetParameters</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_encoder-setparameters">SetParameters</a>
 </td>
 <td align="left" width="63%">
 Sets the parameters for the Encoder Service.
@@ -117,4 +117,3 @@ Sets the parameters for the Encoder Service.
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDA_Encoder)</code>.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capDriverGetName</b> macro returns the name of the capture driver connected to the capture window. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-driver-get-name">WM_CAP_DRIVER_GET_NAME</a> message.
+The <b>capDriverGetName</b> macro returns the name of the capture driver connected to the capture window. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-driver-get-name">WM_CAP_DRIVER_GET_NAME</a> message.
 
 ## -parameters
 
@@ -72,9 +72,8 @@ The name is a text string retrieved from the driver's resource area. Application
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

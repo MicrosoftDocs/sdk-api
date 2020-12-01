@@ -54,7 +54,7 @@ Implements methods that get data from an Integrated Services Digital Broadcastin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbSeriesDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbSeriesDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IIsdbSeriesDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IIsdbSeriesDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IIsdbSeriesDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getepisodenumber">GetEpisodeNumber</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getepisodenumber">GetEpisodeNumber</a>
 </td>
 <td align="left" width="63%">
  Gets the episode number of a series from an ISDB series descriptor.
@@ -78,7 +78,7 @@ The <b>IIsdbSeriesDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getexpiredate">GetExpireDate</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getexpiredate">GetExpireDate</a>
 </td>
 <td align="left" width="63%">
 Gets a date that identifies the end date of a series from  an ISDB series descriptor.
@@ -87,7 +87,7 @@ Gets a date that identifies the end date of a series from  an ISDB series descri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getlastepisodenumber">GetLastEpisodeNumber</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getlastepisodenumber">GetLastEpisodeNumber</a>
 </td>
 <td align="left" width="63%">
  Gets the number of the final episode of a series from an ISDB series descriptor.
@@ -96,7 +96,7 @@ Gets a date that identifies the end date of a series from  an ISDB series descri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getlength">GetLength</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
 Gets the body length of  an ISDB series descriptor.
@@ -105,7 +105,7 @@ Gets the body length of  an ISDB series descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getprogrampattern">GetProgramPattern</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getprogrampattern">GetProgramPattern</a>
 </td>
 <td align="left" width="63%">
  Gets a code that identifies the how often a series is broadcast from an ISDB series descriptor.
@@ -114,7 +114,7 @@ Gets the body length of  an ISDB series descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getrepeatlabel">GetRepeatLabel</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getrepeatlabel">GetRepeatLabel</a>
 </td>
 <td align="left" width="63%">
  Gets the label that identifies repeat broadcasts of a series from ISDB series descriptor.
@@ -123,7 +123,7 @@ Gets the body length of  an ISDB series descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getseriesid">GetSeriesId</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getseriesid">GetSeriesId</a>
 </td>
 <td align="left" width="63%">
  Gets the series identifier from an ISDB series descriptor.
@@ -132,7 +132,7 @@ Gets the body length of  an ISDB series descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getseriesnamew">GetSeriesNameW</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-getseriesnamew">GetSeriesNameW</a>
 </td>
 <td align="left" width="63%">
  Gets the name of the series from an ISDB series descriptor, in Unicode string format.
@@ -141,7 +141,7 @@ Gets the body length of  an ISDB series descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-gettag">GetTag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdbseriesdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies an ISDB series descriptor.
@@ -149,4 +149,3 @@ Gets the tag that identifies an ISDB series descriptor.
 </td>
 </tr>
 </table>
-

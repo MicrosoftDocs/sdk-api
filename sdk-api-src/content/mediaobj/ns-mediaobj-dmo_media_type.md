@@ -92,7 +92,7 @@ GUID specifying the format type. The <b>pbFormat</b> member points to the corres
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvinfo">DVINFO</a>
+<a href="/windows/desktop/api/strmif/ns-strmif-dvinfo">DVINFO</a>
 
 
 </td>
@@ -104,7 +104,7 @@ GUID specifying the format type. The <b>pbFormat</b> member points to the corres
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo">MPEG2VIDEOINFO</a>
+<a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo">MPEG2VIDEOINFO</a>
 
 
 </td>
@@ -116,7 +116,7 @@ GUID specifying the format type. The <b>pbFormat</b> member points to the corres
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a>
+<a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-mpeg1videoinfo">MPEG1VIDEOINFO</a>
 
 
 </td>
@@ -138,7 +138,7 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a>
+<a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a>
 
 
 </td>
@@ -150,7 +150,7 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a>
+<a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a>
 
 
 </td>
@@ -162,7 +162,7 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
 
 
 </td>
@@ -183,9 +183,8 @@ Pointer to the format structure. The structure type is specified by the <b>forma
 
 ## -remarks
 
-This structure is identical to the DirectShow <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. The <b>bFixedSizeSamples</b>, <b>bTemporalCompression</b>, and <b>lSampleSize</b> members are for compatibility with DirectShow. Other DMO clients are not required to use them.
+This structure is identical to the DirectShow <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. The <b>bFixedSizeSamples</b>, <b>bTemporalCompression</b>, and <b>lSampleSize</b> members are for compatibility with DirectShow. Other DMO clients are not required to use them.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dmo-structures">DMO Structures</a>
-
+<a href="/windows/desktop/DirectShow/dmo-structures">DMO Structures</a>

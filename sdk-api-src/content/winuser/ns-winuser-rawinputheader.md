@@ -86,7 +86,7 @@ A handle to the device generating the raw input data.
 
 Type: <b>WPARAM</b>
 
-The value passed in the <i>wParam</i> parameter of the [WM_INPUT](https://docs.microsoft.com/windows/win32/inputdev/wm-input) message.
+The value passed in the <i>wParam</i> parameter of the [WM_INPUT](/windows/win32/inputdev/wm-input) message.
 
 ## -remarks
 
@@ -106,9 +106,8 @@ To get more information on the device, use <b>hDevice</b> in a call to [GetRawIn
 
 [RAWHID structure](ns-winuser-rawhid.md)
 
-[Raw Input](https://docs.microsoft.com/windows/win32/inputdev/raw-input)
+[Raw Input](/windows/win32/inputdev/raw-input)
 
 <b>Reference</b>
 
-[WM_INPUT](https://docs.microsoft.com/windows/win32/inputdev/wm-input)
-
+[WM_INPUT](/windows/win32/inputdev/wm-input)

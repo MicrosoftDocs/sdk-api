@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>GetProperty</b> method returns the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object property  with the specified property ID.
 
 ## -parameters
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -80,7 +80,7 @@ Determines whether the current user has permission to create child objects. This
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_description">Description</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_description">Description</a> property
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_appmembers">AppMembers</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_appmembers">AppMembers</a> property
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_appnonmembers">AppNonMembers</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_appnonmembers">AppNonMembers</a> property
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_members">Members</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_members">Members</a> property
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_membersname">MembersName</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_membersname">MembersName</a> property
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_nonmembers">NonMembers</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_nonmembers">NonMembers</a> property
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_nonmembersname">NonMembersName</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_nonmembersname">NonMembersName</a> property
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_type">Type</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_type">Type</a> property
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_ldapquery">LdapQuery</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_ldapquery">LdapQuery</a> property
 
 </td>
 </tr>
@@ -170,7 +170,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_name">Name</a> property
 
 </td>
 </tr>
@@ -180,7 +180,7 @@ Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/ap
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_writable">Writable</a> property
+Also accessed through the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_writable">Writable</a> property
 
 </td>
 </tr>
@@ -192,11 +192,10 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object property.
+A pointer to the returned <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object property.
 
 ## -returns
 
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
-

@@ -52,9 +52,9 @@ api_name:
 
 ## -description
 
-Defines values for the type of window. These flags can be retrieved from the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindow">IRDPSRAPIWindow</a> interface that represents each Win32 window.
+Defines values for the type of window. These flags can be retrieved from the <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindow">IRDPSRAPIWindow</a> interface that represents each Win32 window.
 
-The list of windows on the sharing user session can be retrieved on both the sharer and the viewer through the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationfilter">IRDPSRAPIApplicationFilter</a> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiapplicationfilter-get_windows">get_Windows</a> method.
+The list of windows on the sharing user session can be retrieved on both the sharer and the viewer through the <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationfilter">IRDPSRAPIApplicationFilter</a> interface by calling the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiapplicationfilter-get_windows">get_Windows</a> method.
 
 ## -enum-fields
 
@@ -64,5 +64,4 @@ The window is part of an application that runs at a higher level than the curren
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdp/windows-desktop-sharing-enumerations">Windows Desktop Sharing Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/rdp/windows-desktop-sharing-enumerations">Windows Desktop Sharing Enumerations</a>

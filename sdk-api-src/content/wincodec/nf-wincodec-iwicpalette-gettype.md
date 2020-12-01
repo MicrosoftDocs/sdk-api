@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmappalettetype">WICBitmapPaletteType</a> that describes the palette.
+Retrieves the <a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmappalettetype">WICBitmapPaletteType</a> that describes the palette.
 
 ## -parameters
 
 ### -param pePaletteType [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmappalettetype">WICBitmapPaletteType</a>*</b>
+Type: <b><a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmappalettetype">WICBitmapPaletteType</a>*</b>
 
 Pointer that receives the palette type of the bimtap.
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-<b>WICBitmapPaletteCustom</b> is used for palettes initialized from both <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializecustom">InitializeCustom</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializefrombitmap">InitializeFromBitmap</a>. There is no distinction is made between optimized and custom palettes.
-
+<b>WICBitmapPaletteCustom</b> is used for palettes initialized from both <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializecustom">InitializeCustom</a> and <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicpalette-initializefrombitmap">InitializeFromBitmap</a>. There is no distinction is made between optimized and custom palettes.

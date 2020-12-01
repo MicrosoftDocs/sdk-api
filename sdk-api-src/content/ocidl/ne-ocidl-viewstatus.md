@@ -58,7 +58,7 @@ Specifies the opacity of the object and the drawing aspects supported by the obj
 
 ### -field VIEWSTATUS_OPAQUE
 
-The object is completely opaque. So, for any aspect, it promises to draw the entire rectangle passed to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> method. If this value is not set, the object contains transparent parts. If it also support DVASPECT_TRANSPARENT, then this aspect may be used to draw the transparent parts only.
+The object is completely opaque. So, for any aspect, it promises to draw the entire rectangle passed to the <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-draw">IViewObject::Draw</a> method. If this value is not set, the object contains transparent parts. If it also support DVASPECT_TRANSPARENT, then this aspect may be used to draw the transparent parts only.
 
 This bit applies only to CONTENT related aspects and not to DVASPECT_ICON or DVASPECT_DOCPRINT.
 
@@ -70,11 +70,11 @@ This bit applies only to CONTENT related aspects and not to DVASPECT_ICON or DVA
 
 ### -field VIEWSTATUS_DVASPECTOPAQUE
 
-The object supports DVASPECT_OPAQUE. All <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> methods taking a drawing aspect as a parameter can be called with this aspect.
+The object supports DVASPECT_OPAQUE. All <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> methods taking a drawing aspect as a parameter can be called with this aspect.
 
 ### -field VIEWSTATUS_DVASPECTTRANSPARENT
 
-The object supports DVASPECT_TRANSPARENT. All <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> methods taking a drawing aspect as a parameter can be called with this aspect.
+The object supports DVASPECT_TRANSPARENT. All <a href="/windows/desktop/api/ocidl/nn-ocidl-iviewobjectex">IViewObjectEx</a> methods taking a drawing aspect as a parameter can be called with this aspect.
 
 ### -field VIEWSTATUS_SURFACE
 
@@ -86,5 +86,4 @@ The object supports a 3-dimensional surface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>

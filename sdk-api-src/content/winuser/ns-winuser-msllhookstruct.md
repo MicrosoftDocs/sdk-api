@@ -60,17 +60,17 @@ Contains information about a low-level mouse input event.
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-The x- and y-coordinates of the cursor, in <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">per-monitor-aware</a> screen coordinates.
+The x- and y-coordinates of the cursor, in <a href="/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">per-monitor-aware</a> screen coordinates.
 
 ### -field mouseData
 
 Type: <b>DWORD</b>
 
-If the message is <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousewheel">WM_MOUSEWHEEL</a>, the high-order word of this member is the wheel delta. The low-order word is reserved. A positive value indicates that the wheel was rotated forward, away from the user; a negative value indicates that the wheel was rotated backward, toward the user. One wheel click is defined as <b>WHEEL_DELTA</b>, which is 120.
+If the message is <a href="/windows/desktop/inputdev/wm-mousewheel">WM_MOUSEWHEEL</a>, the high-order word of this member is the wheel delta. The low-order word is reserved. A positive value indicates that the wheel was rotated forward, away from the user; a negative value indicates that the wheel was rotated backward, toward the user. One wheel click is defined as <b>WHEEL_DELTA</b>, which is 120.
 
-If the message is <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-xbuttondown">WM_XBUTTONDOWN</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-xbuttonup">WM_XBUTTONUP</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-xbuttondblclk">WM_XBUTTONDBLCLK</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-ncxbuttondown">WM_NCXBUTTONDOWN</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-ncxbuttonup">WM_NCXBUTTONUP</a>, or <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-ncxbuttondblclk">WM_NCXBUTTONDBLCLK</a>, the high-order word specifies which X button was pressed or released, and the low-order word is reserved. This value can be one or more of the following values. Otherwise, 
+If the message is <a href="/windows/desktop/inputdev/wm-xbuttondown">WM_XBUTTONDOWN</a>, <a href="/windows/desktop/inputdev/wm-xbuttonup">WM_XBUTTONUP</a>, <a href="/windows/desktop/inputdev/wm-xbuttondblclk">WM_XBUTTONDBLCLK</a>, <a href="/windows/desktop/inputdev/wm-ncxbuttondown">WM_NCXBUTTONDOWN</a>, <a href="/windows/desktop/inputdev/wm-ncxbuttonup">WM_NCXBUTTONUP</a>, or <a href="/windows/desktop/inputdev/wm-ncxbuttondblclk">WM_NCXBUTTONDBLCLK</a>, the high-order word specifies which X button was pressed or released, and the low-order word is reserved. This value can be one or more of the following values. Otherwise, 
 						<b>mouseData</b> is not used. 
 
 <table>
@@ -155,11 +155,11 @@ Additional information associated with the message.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
+<a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644986(v=vs.85)">LowLevelMouseProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644986(v=vs.85)">LowLevelMouseProc</a>
 
 
 
@@ -167,7 +167,7 @@ Additional information associated with the message.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
@@ -175,33 +175,32 @@ Additional information associated with the message.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousewheel">WM_MOUSEWHEEL</a>
+<a href="/windows/desktop/inputdev/wm-mousewheel">WM_MOUSEWHEEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-ncxbuttondblclk">WM_NCXBUTTONDBLCLK</a>
+<a href="/windows/desktop/inputdev/wm-ncxbuttondblclk">WM_NCXBUTTONDBLCLK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-ncxbuttondown">WM_NCXBUTTONDOWN</a>
+<a href="/windows/desktop/inputdev/wm-ncxbuttondown">WM_NCXBUTTONDOWN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-ncxbuttonup">WM_NCXBUTTONUP</a>
+<a href="/windows/desktop/inputdev/wm-ncxbuttonup">WM_NCXBUTTONUP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-xbuttondblclk">WM_XBUTTONDBLCLK</a>
+<a href="/windows/desktop/inputdev/wm-xbuttondblclk">WM_XBUTTONDBLCLK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-xbuttondown">WM_XBUTTONDOWN</a>
+<a href="/windows/desktop/inputdev/wm-xbuttondown">WM_XBUTTONDOWN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-xbuttonup">WM_XBUTTONUP</a>
-
+<a href="/windows/desktop/inputdev/wm-xbuttonup">WM_XBUTTONUP</a>

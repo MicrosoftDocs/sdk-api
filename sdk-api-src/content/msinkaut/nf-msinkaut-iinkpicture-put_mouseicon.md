@@ -67,7 +67,7 @@ This property is read/write.
 
 The [propputref] function can accept a <b>NULL</b> reference, in which case S_OK is returned.
 
-This property provides a custom icon that is used when the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer">MousePointer</a> property is set to <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkmousepointer">IMP_Custom</a>.
+This property provides a custom icon that is used when the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer">MousePointer</a> property is set to <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkmousepointer">IMP_Custom</a>.
 
 You can use the <b>MouseIcon</b> property to load either cursor or icon files. The <b>MouseIcon</b> property provides your application with access to custom cursors of any size with any desired hot spot location.
 
@@ -77,13 +77,12 @@ You can use the <b>MouseIcon</b> property to load either cursor or icon files. T
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector</a>
+<a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
+<a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer">MousePointer Property</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_mousepointer">MousePointer Property</a>

@@ -64,7 +64,7 @@ A pointer to a buffer that contains the file path as a null-terminated Unicode s
 
 Type: <b>DWORD</b>
 
-One of the following <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> values that indicates the access mode for <i>pszFilePath</i>.
+One of the following <a href="/windows/desktop/Stg/stgm-constants">STGM</a> values that indicates the access mode for <i>pszFilePath</i>.
 
 
 
@@ -86,11 +86,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-iinitializewithstream-initialize">Initialize</a> is preferred to this method because of its ability to use files that are not accessible through a Win32 path, such as the contents of a compressed file with a .zip file name extension. Use <b>IInitializeWithFile::Initialize</b> only when the API used by the handler to access the file accepts file paths only.
+<a href="/windows/desktop/api/propsys/nf-propsys-iinitializewithstream-initialize">Initialize</a> is preferred to this method because of its ability to use files that are not accessible through a Win32 path, such as the contents of a compressed file with a .zip file name extension. Use <b>IInitializeWithFile::Initialize</b> only when the API used by the handler to access the file accepts file paths only.
 
-The file pointed to by <i>pszFilePath</i> must remain open for the lifetime of the handler or until <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761470(v=vs.85)">IPropertyStore::Commit</a> is called.
+The file pointed to by <i>pszFilePath</i> must remain open for the lifetime of the handler or until <a href="/previous-versions/windows/desktop/legacy/bb761470(v=vs.85)">IPropertyStore::Commit</a> is called.
 
 If the file cannot be opened according to the method's parameter values, this method returns a suitable error code.
 
 A handler instance should be initialized only once in its lifetime. Attempts by the calling application to reinitialize the handler should result in the error <code>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</code>.
-

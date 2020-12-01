@@ -66,7 +66,7 @@ A pointer to a <b>DWORD</b>-sized memory location where the address identifier i
 ### -param dwAddressMode
 
 The address mode of the address contained in <i>lpsAddress</i>. The <i>dwAddressMode</i> parameter is allowed to have one and only one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddressmode--constants">LINEADDRESSMODE_ constants</a>.
+<a href="/windows/desktop/Tapi/lineaddressmode--constants">LINEADDRESSMODE_ constants</a>.
 
 ### -param lpsAddress
 
@@ -88,5 +88,4 @@ This function is used to map a phone number (address) assigned to a line device 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineaddressmode--constants">LINEADDRESSMODE_ Constants</a>
-
+<a href="/windows/desktop/Tapi/lineaddressmode--constants">LINEADDRESSMODE_ Constants</a>

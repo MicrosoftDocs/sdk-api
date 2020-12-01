@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of de-emphasis filter that should be used when decoding. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avencmpaemphasistype-property">AVEncMPAEmphasisType</a> property.
+Specifies the type of de-emphasis filter that should be used when decoding. This enumeration is used with the <a href="/windows/desktop/DirectShow/avencmpaemphasistype-property">AVEncMPAEmphasisType</a> property.
 
 ## -enum-fields
 
@@ -72,9 +72,8 @@ CCITT J.17.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
+<a href="/windows/desktop/DirectShow/codec-api-enumerations">Codec API Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI Interface</a>

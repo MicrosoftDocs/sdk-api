@@ -51,19 +51,18 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-tint">Tint</a> object.
+Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-tint">Tint</a> object.
 
 ## -parameters
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-tint">Tint</a>
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-tint">Tint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-tint-setparameters">Tint::SetParameters</a>
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-tint-setparameters">Tint::SetParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-tintparams">TintParams</a>
-
+<a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-tintparams">TintParams</a>

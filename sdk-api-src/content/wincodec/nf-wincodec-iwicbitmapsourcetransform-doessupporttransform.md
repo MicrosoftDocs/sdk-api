@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-Determines whether a specific transform option is supported natively by the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a> interface.
+Determines whether a specific transform option is supported natively by the implementation of the <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a> interface.
 
 ## -parameters
 
 ### -param dstTransform [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmaptransformoptions">WICBitmapTransformOptions</a></b>
+Type: <b><a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmaptransformoptions">WICBitmapTransformOptions</a></b>
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wicbitmaptransformoptions">WICBitmapTransformOptions</a> to check if they are supported.
+The <a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmaptransformoptions">WICBitmapTransformOptions</a> to check if they are supported.
 
 ### -param pfIsSupported [out]
 
@@ -78,9 +78,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The Windows provided codecs provide the following level of support:
 
 <ul>
-<li>BMP, ICO, GIF, TIFF: No implementation of <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-imp-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a>.</li>
+<li>BMP, ICO, GIF, TIFF: No implementation of <a href="/windows/desktop/wic/-wic-imp-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a>.</li>
 <li>JPEG, PNG: Trivial support (WICBitmapTransformRotate0 only).</li>
 <li>JPEG-XR: Support for all transformation/rotations.
 </li>
 </ul>
-

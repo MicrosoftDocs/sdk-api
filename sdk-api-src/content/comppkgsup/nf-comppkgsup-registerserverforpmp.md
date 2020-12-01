@@ -64,9 +64,8 @@ The class factory to be registered.
 
 ### -param token [out]
 
-Receives a pointer to a registration token that can be used to unregister the server with <a href="https://docs.microsoft.com/windows/desktop/api/comppkgsup/nf-comppkgsup-unregisterserverforpmp">UnregisterServerForPMP</a>.
+Receives a pointer to a registration token that can be used to unregister the server with <a href="/windows/desktop/api/comppkgsup/nf-comppkgsup-unregisterserverforpmp">UnregisterServerForPMP</a>.
 
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -76,7 +76,7 @@ The data blob.
 
 The <b>WLAN_RAW_DATA</b> structure is a raw data structure used to hold a data entry used by some Native Wifi functions. The data structure is in the form of a generalized blob that can contain any type of data.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanscan">WlanScan</a> function uses the  <b>WLAN_RAW_DATA</b> structure. The  <i>pIeData</i> parameter passed to the <b>WlanScan</b> function points to a  <b>WLAN_RAW_DATA</b> structure currently used to contain an information element to include in probe requests. This <b>WLAN_RAW_DATA</b> structure passed to the <b>WlanScan</b> function can contain a proximity service discovery (PSD) information element (IE) data entry.   
+The <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanscan">WlanScan</a> function uses the  <b>WLAN_RAW_DATA</b> structure. The  <i>pIeData</i> parameter passed to the <b>WlanScan</b> function points to a  <b>WLAN_RAW_DATA</b> structure currently used to contain an information element to include in probe requests. This <b>WLAN_RAW_DATA</b> structure passed to the <b>WlanScan</b> function can contain a proximity service discovery (PSD) information element (IE) data entry.   
 
 When the <b>WLAN_RAW_DATA</b> structure is used to store a PSD IE, the <b>DOT11_PSD_IE_MAX_DATA_SIZE</b> constant defined in the <i>Wlanapi.h</i> header file is the maximum value of the <b>dwDataSize</b> member.<table>
 <tr>
@@ -94,17 +94,16 @@ When the <b>WLAN_RAW_DATA</b> structure is used to store a PSD IE, the <b>DOT11_
 
 
 
-For more information about PSD IEs, including a discussion of the format of an IE, see the  <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a> function.
+For more information about PSD IEs, including a discussion of the format of an IE, see the  <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data_list">WLAN_RAW_DATA_LIST</a>
+<a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_raw_data_list">WLAN_RAW_DATA_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanscan">WlanScan</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanscan">WlanScan</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetpsdiedatalist">WlanSetPsdIEDataList</a>

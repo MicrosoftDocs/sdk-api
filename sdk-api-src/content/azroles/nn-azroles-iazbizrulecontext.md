@@ -54,7 +54,7 @@ The <b>AzBizRuleContext</b> object contains information about a Business Rule (B
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzBizRuleContext</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAzBizRuleContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzBizRuleContext</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAzBizRuleContext</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,10 +70,10 @@ The <b>IAzBizRuleContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazbizrulecontext-getparameter">GetParameter</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazbizrulecontext-getparameter">GetParameter</a>
 </td>
 <td align="left" width="63%">
-Gets the specified value from the <i>varParameterValues</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">IAzClientContext::AccessCheck</a> method.
+Gets the specified value from the <i>varParameterValues</i> parameter of the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">IAzClientContext::AccessCheck</a> method.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Gets the specified value from the <i>varParameterValues</i> parameter of the <a 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazbizrulecontext-put_businessruleresult">BusinessRuleResult</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazbizrulecontext-put_businessruleresult">BusinessRuleResult</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Sets a value that indicates whether the BizRule allows the user to perform the r
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazbizrulecontext-get_businessrulestring">BusinessRuleString</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazbizrulecontext-get_businessrulestring">BusinessRuleString</a>
 
 
 </td>
@@ -121,5 +121,4 @@ Sets or retrieves an application-specific string for the BizRule.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">IAzClientContext::AccessCheck</a> method creates an <b>AzBizRuleContext</b> object before it calls a BizRule script.
-
+The <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">IAzClientContext::AccessCheck</a> method creates an <b>AzBizRuleContext</b> object before it calls a BizRule script.

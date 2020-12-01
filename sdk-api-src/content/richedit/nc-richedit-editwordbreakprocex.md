@@ -71,14 +71,14 @@ Pointer to the text at the current position. If
 
 ### -param cchText [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Number of characters in the buffer in the direction specified by 
 					<i>code</i>.
 
 ### -param bCharSet [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BYTE</a></b>
 
 Character set of the text.
 
@@ -86,14 +86,14 @@ Character set of the text.
 
 #### - code [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Word break action. Can be one of the values described for the 
 					<i>code</i> parameter in the <a href="https://msdn.microsoft.com/b5df1365-4672-4c82-8ae4-ebf8b60bf871">EM_FINDWORDBREAK</a> message.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 The function returns a value based on the 
 						<i>code</i> parameter.
@@ -154,7 +154,7 @@ Returns the character index of the word break.
 An application must install the callback function by specifying the address of the callback function in an <a href="https://msdn.microsoft.com/2b45f747-ae15-470b-a786-98d8135289da">EM_SETWORDBREAKPROCEX</a> message. 
 
 For Microsoft Rich Edit 2.0 and later, Rich Edit no longer supports <i>EditWordBreakProcEx</i>. Users can send 
-				<a href="https://msdn.microsoft.com/e5029b75-5f35-43a5-876d-24e81605bb49">EM_SETWORDBREAKPROC</a> to set <a href="https://msdn.microsoft.com/601afaee-f5cd-4b25-b9c7-5c6868b75b3f">EditWordBreakProc</a>, which is now enhanced to support the passing of Unicode text.
+				<a href="https://msdn.microsoft.com/e5029b75-5f35-43a5-876d-24e81605bb49">EM_SETWORDBREAKPROC</a> to set <a href="/windows/win32/api/winuser/nc-winuser-editwordbreakproca">EditWordBreakProc</a>, which is now enhanced to support the passing of Unicode text.
 
 ## -see-also
 
@@ -166,9 +166,8 @@ For Microsoft Rich Edit 2.0 and later, Rich Edit no longer supports <i>EditWord
 
 
 
-<a href="https://msdn.microsoft.com/601afaee-f5cd-4b25-b9c7-5c6868b75b3f">EditWordBreakProc</a>
+<a href="/windows/win32/api/winuser/nc-winuser-editwordbreakproca">EditWordBreakProc</a>
 
 
 
 <b>Reference</b>
-

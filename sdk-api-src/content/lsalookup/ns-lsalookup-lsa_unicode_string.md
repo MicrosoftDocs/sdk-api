@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>LSA_UNICODE_STRING</b> structure is used by various <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) functions to specify a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> string.
+The <b>LSA_UNICODE_STRING</b> structure is used by various <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) functions to specify a <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> string.
 
 ## -struct-fields
 
@@ -77,4 +77,3 @@ Pointer to a wide character string. Note that the strings returned by the variou
 ### -field Buffer.length_is
 
 ### -field Buffer.length_is.Length/2
-

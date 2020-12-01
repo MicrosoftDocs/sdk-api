@@ -54,9 +54,9 @@ api_name:
 
 ## -description
 
-The <b>CRL_DIST_POINT_NAME</b> structure identifies a location from which the CRL can be obtained. When <b>CRL_DIST_POINT_NAME</b> is used, different forms of the CRL distribution point name appear in the <b>FullName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure. An application need not be able to process all of the name forms in the structure. It can use a distribution point if at least one name form can be processed.
+The <b>CRL_DIST_POINT_NAME</b> structure identifies a location from which the CRL can be obtained. When <b>CRL_DIST_POINT_NAME</b> is used, different forms of the CRL distribution point name appear in the <b>FullName</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure. An application need not be able to process all of the name forms in the structure. It can use a distribution point if at least one name form can be processed.
 
-If no name forms for a distribution point can be processed, an application can still use the certificate, provided requisite revocation information can be obtained from another source such as a distribution point of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority's</a> (CA's) directory entry.
+If no name forms for a distribution point can be processed, an application can still use the certificate, provided requisite revocation information can be obtained from another source such as a distribution point of the <a href="/windows/desktop/SecGloss/c-gly">certification authority's</a> (CA's) directory entry.
 
 ## -struct-fields
 
@@ -111,13 +111,12 @@ Currently not implemented.
 ### -field DUMMYUNIONNAME.FullName
 
 A
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure containing an array of alternative names specifying the CRL distribution point in one of several different forms. One of the most common uses a URL in the form "http://…" to specify the location of the CRL.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a> structure containing an array of alternative names specifying the CRL distribution point in one of several different forms. One of the most common uses a URL in the form "http://…" to specify the location of the CRL.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_info">CERT_ALT_NAME_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_dist_point">CRL_DIST_POINT</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_dist_point">CRL_DIST_POINT</a>

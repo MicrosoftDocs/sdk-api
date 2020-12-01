@@ -52,7 +52,7 @@ api_name:
 
 Notifies the system that the application is about to start an operation.
 
- If an application calls <b>OperationStart</b> with a valid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/oprec/operation-id">OPERATION_ID</a> value, the system records the specified operation’s file access patterns until <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-operationend">OperationEnd</a> is called for the same operation ID. This record is stored in a <i>filename.pf</i> prefetch file. Every call to <b>OperationStart</b> must be followed by a call to <b>OperationEnd</b>, otherwise the operation's record is discarded after 10 seconds.
+ If an application calls <b>OperationStart</b> with a valid <a href="/previous-versions/windows/desktop/oprec/operation-id">OPERATION_ID</a> value, the system records the specified operation’s file access patterns until <a href="/windows/desktop/api/winbase/nf-winbase-operationend">OperationEnd</a> is called for the same operation ID. This record is stored in a <i>filename.pf</i> prefetch file. Every call to <b>OperationStart</b> must be followed by a call to <b>OperationEnd</b>, otherwise the operation's record is discarded after 10 seconds.
 
 
 If an application calls <b>OperationStart</b> for an operation ID for which a prefetch file exists, the system loads the operation's files into memory prior to running the operation. The recording process remains the same and the system updates the appropriate <i>filename.pf</i> prefetch file.
@@ -61,7 +61,7 @@ If an application calls <b>OperationStart</b> for an operation ID for which a pr
 
 ### -param OperationStartParams [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a> structure that specifies <b>VERSION</b>, <b>OPERATION_ID</b> and <b>FLAGS</b>.
+An <a href="/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a> structure that specifies <b>VERSION</b>, <b>OPERATION_ID</b> and <b>FLAGS</b>.
 
 ## -returns
 
@@ -69,7 +69,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-op
 
 ## -remarks
 
-The version of the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a> structure is defined as <b>OPERATION_API_VERSION</b> in the Windows SDK. 
+The version of the <a href="/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a> structure is defined as <b>OPERATION_API_VERSION</b> in the Windows SDK. 
 
 Because the <b>OperationStart</b> function is synchronous, it can take several seconds to return. This should be avoided in UI threads for the best responsiveness.
 
@@ -77,12 +77,12 @@ There is a single instance of the operation recorder in a process. Although the 
 
 Application launch tracing lasts for the first 10 second of the process lifetime.  <b>OperationStart</b> should be called after the end of application launch tracing by the system. 
 
-Every call to <b>OperationStart</b> must be followed by a call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-operationend">OperationEnd</a>. Otherwise, the operation trace will be discarded after about 10s.
+Every call to <b>OperationStart</b> must be followed by a call to <a href="/windows/desktop/api/winbase/nf-winbase-operationend">OperationEnd</a>. Otherwise, the operation trace will be discarded after about 10s.
 
 The maximum number of operations that can be recorded on a given system is configurable. If this maximum is exceeded, the least recently used prefetch files are replaced. 
 
 On Windows 8, this functionality requires the Superfetch service to be enabled. Windows 8 will have the service enabled by default. 
-For Windows Server 2012, this prefetching functionality needs to be enabled and disabled as required. This can be done using CIM based PowerShell cmdlets.  The prefetcher functionality can be exposed using the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/cimclas">CIM class</a>  of the <b>CIM_PrefetcherService</b>.
+For Windows Server 2012, this prefetching functionality needs to be enabled and disabled as required. This can be done using CIM based PowerShell cmdlets.  The prefetcher functionality can be exposed using the <a href="/windows/desktop/WmiSdk/cimclas">CIM class</a>  of the <b>CIM_PrefetcherService</b>.
 
 
 
@@ -138,21 +138,20 @@ For Windows Server 2012, this prefetching functionality needs to be enabled and
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oprec/operation-id">OPERATION_ID</a>
+<a href="/previous-versions/windows/desktop/oprec/operation-id">OPERATION_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/oprec/-operation-portal">Operation Recorder</a>
+<a href="/previous-versions/windows/desktop/oprec/-operation-portal">Operation Recorder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-operationend">OperationEnd</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-operationend">OperationEnd</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_end_parameters">_OPERATION_END_PARAMETERS</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-operation_end_parameters">_OPERATION_END_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a>
-
+<a href="/windows/desktop/api/winbase/ns-winbase-operation_start_parameters">_OPERATION_START_PARAMETERS</a>

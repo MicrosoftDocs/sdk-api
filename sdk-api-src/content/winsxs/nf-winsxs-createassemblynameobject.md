@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CreateAssemblyNameObject</b> function obtains an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a> interface.
+The <b>CreateAssemblyNameObject</b> function obtains an instance of the <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a> interface.
 
 ## -parameters
 
 ### -param ppAssemblyNameObj
 
-Pointer to a location that receives the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a> pointer.
+Pointer to a location that receives the <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a> pointer.
 
 ### -param szAssemblyName
 
@@ -73,4 +73,3 @@ This parameter is reserved and must be <b>NULL</b>.
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

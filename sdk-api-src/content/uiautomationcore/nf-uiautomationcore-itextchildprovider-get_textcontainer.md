@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves this element's nearest ancestor provider that supports the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtextandtextrange">Text</a> control pattern. 
+Retrieves this element's nearest ancestor provider that supports the <a href="/windows/desktop/WinAuto/uiauto-implementingtextandtextrange">Text</a> control pattern. 
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextchildprovider">ITextChildProvider</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itextchildprovider">ITextChildProvider</a>

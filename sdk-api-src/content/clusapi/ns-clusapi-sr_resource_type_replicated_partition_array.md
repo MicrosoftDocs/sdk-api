@@ -68,5 +68,4 @@ A variable size array of all replicated partitions on the disk.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>

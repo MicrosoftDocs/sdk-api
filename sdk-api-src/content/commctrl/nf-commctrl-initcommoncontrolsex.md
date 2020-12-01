@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
 api_name:
  - InitCommonControlsEx
+req.apiset: ext-ms-win-shell-comctl32-init-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # InitCommonControlsEx function
@@ -60,15 +61,14 @@ Ensures that the common control DLL (Comctl32.dll) is loaded, and registers spec
 
 Type: <b>const LPINITCOMMONCONTROLSEX</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-initcommoncontrolsex">INITCOMMONCONTROLSEX</a> structure that contains information specifying which control classes will be registered.
+A pointer to an <a href="/windows/desktop/api/commctrl/ns-commctrl-initcommoncontrolsex">INITCOMMONCONTROLSEX</a> structure that contains information specifying which control classes will be registered.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 
 ## -remarks
 
-The effect of each call to <b>InitCommonControlsEx</b> is cumulative. For example, if <b>InitCommonControlsEx</b> is called with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-initcommoncontrolsex">ICC_UPDOWN_CLASS</a> flag, then is later called with the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-initcommoncontrolsex">ICC_HOTKEY_CLASS</a> flag, the result is that both the up-down and hot key common control classes are registered and available to the application.
-
+The effect of each call to <b>InitCommonControlsEx</b> is cumulative. For example, if <b>InitCommonControlsEx</b> is called with the <a href="/windows/desktop/api/commctrl/ns-commctrl-initcommoncontrolsex">ICC_UPDOWN_CLASS</a> flag, then is later called with the <a href="/windows/desktop/api/commctrl/ns-commctrl-initcommoncontrolsex">ICC_HOTKEY_CLASS</a> flag, the result is that both the up-down and hot key common control classes are registered and available to the application.

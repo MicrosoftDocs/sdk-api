@@ -56,7 +56,7 @@ Resets variables dependent on frame history.
 
 ## -remarks
 
-Constant and locked parameters such as the input and output formats remain unchanged. Variables set by <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">IXAPOParameters::SetParameters</a> remain unchanged.
+Constant and locked parameters such as the input and output formats remain unchanged. Variables set by <a href="/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">IXAPOParameters::SetParameters</a> remain unchanged.
 
 
 
@@ -76,5 +76,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
-
+<a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>

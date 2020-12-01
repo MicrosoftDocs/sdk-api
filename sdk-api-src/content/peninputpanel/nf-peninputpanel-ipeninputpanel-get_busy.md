@@ -53,9 +53,9 @@ api_name:
 
 ## -description
 
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Gets a a value that indicates whether the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is currently processing ink.
+Gets a a value that indicates whether the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object is currently processing ink.
 
 
 
@@ -69,5 +69,4 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-
+<a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>

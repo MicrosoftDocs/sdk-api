@@ -186,9 +186,8 @@ The virtual machine replica broker role.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilgetclusterrolestate">ResUtilGetClusterRoleState</a>
-
+<a href="/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilgetclusterrolestate">ResUtilGetClusterRoleState</a>

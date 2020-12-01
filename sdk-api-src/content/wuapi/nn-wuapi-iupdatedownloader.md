@@ -54,7 +54,7 @@ Downloads updates from the server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateDownloader</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateDownloader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateDownloader</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IUpdateDownloader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUpdateDownloader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">BeginDownload</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-begindownload">BeginDownload</a>
 </td>
 <td align="left" width="63%">
 Starts an asynchronous download of the content files that are associated with the updates.
@@ -79,7 +79,7 @@ Starts an asynchronous download of the content files that are associated with th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-download">Download</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-download">Download</a>
 </td>
 <td align="left" width="63%">
 Starts a synchronous download of the content files that are associated with the updates.
@@ -88,7 +88,7 @@ Starts a synchronous download of the content files that are associated with the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-enddownload">EndDownload</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-enddownload">EndDownload</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous download.
@@ -106,7 +106,7 @@ Completes an asynchronous download.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-get_clientapplicationid">ClientApplicationID</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-get_clientapplicationid">ClientApplicationID</a>
 
 
 </td>
@@ -122,7 +122,7 @@ Gets and sets the current client application.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-get_isforced">IsForced</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-get_isforced">IsForced</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Gets and sets a Boolean value that indicates whether the  Windows Update Agent (
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-get_priority">Priority</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-get_priority">Priority</a>
 
 
 </td>
@@ -154,7 +154,7 @@ Gets and sets the priority level of the download.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-get_updates">Updates</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatedownloader-get_updates">Updates</a>
 
 
 </td>
@@ -175,5 +175,4 @@ You can create an instance of this interface by using the UpdateDownloader cocla
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>InitializeFromCertificate</b> method initializes the certificate request by using an existing certificate. The certificate is contained in a byte array encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) as defined by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) standard. The DER-encoded byte array is represented by a string that  is either a pure binary sequence or is Unicode encoded.
+The <b>InitializeFromCertificate</b> method initializes the certificate request by using an existing certificate. The certificate is contained in a byte array encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) as defined by the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) standard. The DER-encoded byte array is represented by a string that  is either a pure binary sequence or is Unicode encoded.
 
 ## -parameters
 
 ### -param Context [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509certificateenrollmentcontext">X509CertificateEnrollmentContext</a> enumeration value that specifies whether the requested certificate is intended for an end user, a computer, or an administrator acting on behalf of the computer.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-x509certificateenrollmentcontext">X509CertificateEnrollmentContext</a> enumeration value that specifies whether the requested certificate is intended for an end user, a computer, or an administrator acting on behalf of the computer.
 
 ### -param RenewalRequest [in]
 
@@ -79,11 +79,11 @@ Beginning with Windows 7 and Windows Server 2008 R2, you can specify a certif
 
 ### -param Encoding [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of encoding applied to  the DER-encoded  certificate. The default value is <b>XCN_CRYPT_STRING_BASE64</b>.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of encoding applied to  the DER-encoded  certificate. The default value is <b>XCN_CRYPT_STRING_BASE64</b>.
 
 ### -param InheritOptions [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-x509requestinheritoptions">X509RequestInheritOptions</a> enumeration value that specifies how to create the certificate request object from the existing certificate. You can specify how to inherit a key by choosing one of the following values.  The default value is <b>InheritDefault</b>.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-x509requestinheritoptions">X509RequestInheritOptions</a> enumeration value that specifies how to create the certificate request object from the existing certificate. You can specify how to inherit a key by choosing one of the following values.  The default value is <b>InheritDefault</b>.
 
 <table>
 <tr>
@@ -162,7 +162,7 @@ You can also use a bitwise-<b>AND</b> operation to combine the key inheritance v
 </dl>
 </td>
 <td width="60%">
-Inherits the renewal certificate. Specifying this flag sets an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrenewal">ICertPropertyRenewal</a> value.
+Inherits the renewal certificate. Specifying this flag sets an <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrenewal">ICertPropertyRenewal</a> value.
 
 </td>
 </tr>
@@ -240,7 +240,7 @@ If you set the <i>InheritOptions</i> parameter to zero (0) or specify <b>Inherit
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -270,12 +270,11 @@ The <b>InitializeFromCertificate</b> method validates the options specified in t
 <li>The extensions if you specify <b>InheritExtensionsFlag</b>.</li>
 </ul>
 </li>
-<li>Copies the original certificate, if it is to be renewed,  to the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_renewalcertificate">RenewalCertificate</a> property on the new PKCS #10 request.</li>
-<li>Creates an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> from the original certificate, if it is to be renewed, and sets it on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-get_signercertificate">SignerCertificate</a> property.</li>
+<li>Copies the original certificate, if it is to be renewed,  to the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_renewalcertificate">RenewalCertificate</a> property on the new PKCS #10 request.</li>
+<li>Creates an <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a> from the original certificate, if it is to be renewed, and sets it on the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestpkcs7-get_signercertificate">SignerCertificate</a> property.</li>
 <li>Sets the PKCS #10 request  as the inner request object.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>

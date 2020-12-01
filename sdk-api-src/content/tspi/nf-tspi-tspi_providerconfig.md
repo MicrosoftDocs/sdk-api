@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>TSPI_providerConfig</b> function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig">TUISPI_providerConfig</a>.
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig">TUISPI_providerConfig</a>.
 
 The 
 <b>TSPI_providerConfig</b> function gathers configuration information from the user. It may use a dialog box, and this dialog box can include sub-dialog boxes associated with other APIs (such as Comm/datamodem) for the setup of specific devices.
@@ -76,35 +76,34 @@ LINEERR_OPERATIONFAILED, LINEERR_NOMEM.
 ## -remarks
 
 This function may be called while the service provider is in use (that is, between calls of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providershutdown">TSPI_providerShutdown</a>).
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a> and 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providershutdown">TSPI_providerShutdown</a>).
 
 Any changes that affect the behavior visible through TSPI should take effect only when the service provider is restarted at the next 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a>.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerinit">TSPI_providerInit</a>.
 
 The Telephony Control Panel utility supplied with Windows Telephony in versions 1.4 and earlier calls this function when the setup command is invoked.
 
 There is no directly corresponding function at the TAPI level. In TAPI, applications have access to the functions 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineconfigdialog">lineConfigDialog</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneconfigdialog">phoneConfigDialog</a>, which allow configuration of parameters of a particular line or phone once it has been installed.
+<a href="/windows/desktop/api/tapi/nf-tapi-lineconfigdialog">lineConfigDialog</a> and 
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneconfigdialog">phoneConfigDialog</a>, which allow configuration of parameters of a particular line or phone once it has been installed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineconfigdialog">TSPI_lineConfigDialog</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineconfigdialog">TSPI_lineConfigDialog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phoneconfigdialog">TSPI_phoneConfigDialog</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phoneconfigdialog">TSPI_phoneConfigDialog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerinstall">TSPI_providerInstall</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerinstall">TSPI_providerInstall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_providerremove">TSPI_providerRemove</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_providerremove">TSPI_providerRemove</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig">TUISPI_providerConfig</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providerconfig">TUISPI_providerConfig</a>

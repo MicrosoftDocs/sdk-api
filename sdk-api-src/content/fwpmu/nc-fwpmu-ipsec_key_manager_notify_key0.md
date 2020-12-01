@@ -56,25 +56,24 @@ The IPSEC_KEY_MANAGER_NOTIFY_KEY0 function is used to notify Trusted Intermediar
 
 ### -param *inboundSa [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1_">IPSEC_SA_DETAILS1</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1_">IPSEC_SA_DETAILS1</a>*</b>
 
 Information about the inbound SA.
 
 ### -param *outboundSa [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1_">IPSEC_SA_DETAILS1</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_details1_">IPSEC_SA_DETAILS1</a>*</b>
 
 Information about the outbound SA.
 
 ## -remarks
 
-Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0">IPsecKeyManagerAddAndRegister</a> to register this function pointer.
+Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipseckeymanageraddandregister0">IPsecKeyManagerAddAndRegister</a> to register this function pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
+<a href="/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-reference">Windows Filtering Platform  API Reference</a>
-
+<a href="/windows/desktop/FWP/fwp-reference">Windows Filtering Platform  API Reference</a>

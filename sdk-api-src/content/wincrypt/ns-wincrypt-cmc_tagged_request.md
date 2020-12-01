@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>CMC_TAGGED_REQUEST</b> structure is used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_data_info">CMC_DATA_INFO</a> structures to request a certificate. In the future, it may be used for other requests.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_data_info">CMC_DATA_INFO</a> structures to request a certificate. In the future, it may be used for other requests.
 
 ## -struct-fields
 
@@ -68,9 +68,8 @@ The <b>CMC_TAGGED_REQUEST</b> structure is used in the
 ### -field DUMMYUNIONNAME.pTaggedCertRequest
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmc_tagged_cert_request">CMC_TAGGED_CERT_REQUEST</a> structure containing the signed <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmc_tagged_cert_request">CMC_TAGGED_CERT_REQUEST</a> structure containing the signed <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>.
 
 ## -remarks
 
 Additional members of the union may be defined in future versions.
-

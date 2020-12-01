@@ -60,7 +60,7 @@ The number of elements to retrieve.
 
 ### -param rgelt [out]
 
-Address of an array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a> interface pointers that will receive the retrieved <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/component-object">Component</a> objects.
+Address of an array of <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a> interface pointers that will receive the retrieved <a href="/previous-versions/windows/desktop/mstv/component-object">Component</a> objects.
 
 ### -param pceltFetched [out]
 
@@ -72,5 +72,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumcomponents">IEnumComponents Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumcomponents">IEnumComponents Interface</a>

@@ -56,7 +56,7 @@ Creates an empty collection object.
 
 ### -param ppIMFCollection [out]
 
-Receives a pointer to the collection object's <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface. The caller must release the interface.
+Receives a pointer to the collection object's <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -82,5 +82,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

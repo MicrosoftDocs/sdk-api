@@ -44,6 +44,7 @@ api_location:
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
  - GetDlgItemInt
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # GetDlgItemInt function
@@ -93,18 +94,18 @@ If <i>lpTranslated</i> is <b>NULL</b>, the function returns no information about
 
 Note that, if the <i>bSigned</i> parameter is <b>TRUE</b> and there is a minus sign (–) at the beginning of the text, <b>GetDlgItemInt</b> translates the text into a signed integer value. Otherwise, the function creates an unsigned integer value. To obtain the proper value in this case, cast the return value to an <b>int</b> type.
 
-To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <b>GetDlgItemInt</b> function retrieves the text of the specified control by sending the control a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a> message. The function translates the retrieved text by stripping any extra spaces at the beginning of the text and then converting the decimal digits. The function stops translating when it reaches the end of the text or encounters a nonnumeric character. 
+The <b>GetDlgItemInt</b> function retrieves the text of the specified control by sending the control a <a href="/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a> message. The function translates the retrieved text by stripping any extra spaces at the beginning of the text and then converting the decimal digits. The function stops translating when it reaches the end of the text or encounters a nonnumeric character. 
 
 The <b>GetDlgItemInt</b> function returns zero if the translated value is greater than <b>INT_MAX</b> (for signed numbers) or <b>UINT_MAX</b> (for unsigned numbers). 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Creating a Modeless Dialog Box</a>.
+For an example, see <a href="/windows/desktop/dlgbox/using-dialog-boxes">Creating a Modeless Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -114,19 +115,19 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdlgctrlid">GetDlgCtrlID</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdlgctrlid">GetDlgCtrlID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdlgitem">GetDlgItem</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdlgitem">GetDlgItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdlgitemtexta">GetDlgItemText</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdlgitemtexta">GetDlgItemText</a>
 
 
 
@@ -134,5 +135,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdlgitemint">SetDlgItemInt</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setdlgitemint">SetDlgItemInt</a>

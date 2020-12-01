@@ -61,12 +61,12 @@ A zero-based index that identifies the column for which the filter value and its
 ### -param pdwType [in, out]
 
 A pointer to a variable of type <b>DWORD</b> that can take one of the possible filter values specified in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_filter_type">MMC_FILTER_TYPE</a> enumeration. The filter type for the specified column is placed in the address pointed to by <i>pdwType</i>.
+<a href="/windows/desktop/api/mmc/ne-mmc-mmc_filter_type">MMC_FILTER_TYPE</a> enumeration. The filter type for the specified column is placed in the address pointed to by <i>pdwType</i>.
 
 ### -param pFilterData [in, out]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_filterdata">MMC_FILTERDATA</a> structure that holds the actual filter data.
+<a href="/windows/desktop/api/mmc/ns-mmc-mmc_filterdata">MMC_FILTERDATA</a> structure that holds the actual filter data.
 
 ## -returns
 
@@ -75,11 +75,10 @@ This method can return one of these values.
 ## -remarks
 
 For both setting and reading filter values, the snap-in owns the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_filterdata">MMC_FILTERDATA</a> structure and any text buffer.
+<a href="/windows/desktop/api/mmc/ns-mmc-mmc_filterdata">MMC_FILTERDATA</a> structure and any text buffer.
 
 When reading a filter value, if the filter type specified by the snap-in does not match the current type, the <b>IHeaderCtrl2::GetColumnFilter</b> method will return <b>E_FAIL</b>. On receiving an <b>E_FAIL</b>, the values returned by the method are undefined.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iheaderctrl2">IHeaderCtrl2</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iheaderctrl2">IHeaderCtrl2</a>

@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Sets a flag that determines whether text retrieved from a multiline edit control includes soft line-break characters. A soft line break consists of two carriage returns and a line feed and is inserted at the end of a line that is broken because of wordwrapping. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-fmtlines">EM_FMTLINES</a> message explicitly.
+Sets a flag that determines whether text retrieved from a multiline edit control includes soft line-break characters. A soft line break consists of two carriage returns and a line feed and is inserted at the end of a line that is broken because of wordwrapping. You can use this macro or send the <a href="/windows/desktop/Controls/em-fmtlines">EM_FMTLINES</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param fAddEOL
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to insert line breaks; otherwise <b>FALSE</b>.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-fmtlines">EM_FMTLINES</a>.
-
+For more information, see <a href="/windows/desktop/Controls/em-fmtlines">EM_FMTLINES</a>.

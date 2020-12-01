@@ -97,9 +97,8 @@ The <i>qwpRangeEnd</i> parameter is an invalid pointer.
 
 ## -remarks
 
-Microsoft Media Foundation invokes <b>GetRangeEndOffset</b> only after having successfully invoked <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-endreceiveresponse">EndReceiveResponse</a>.
+Microsoft Media Foundation invokes <b>GetRangeEndOffset</b> only after having successfully invoked <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-endreceiveresponse">EndReceiveResponse</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>

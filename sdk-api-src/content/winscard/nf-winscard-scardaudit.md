@@ -56,7 +56,7 @@ The <b>SCardAudit</b> function writes event messages to the Windows application 
 
 ### -param hContext [in]
 
-Handle that identifies the resource manager context. The resource manager context can be set by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function. This parameter cannot be <b>NULL</b>.
+Handle that identifies the resource manager context. The resource manager context can be set by a previous call to the <a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function. This parameter cannot be <b>NULL</b>.
 
 ### -param dwEvent [in]
 
@@ -119,7 +119,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -145,4 +145,3 @@ if ( SCARD_S_SUCCESS != lReturn )
 }
 
 ```
-

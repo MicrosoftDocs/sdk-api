@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-The <b>IAudioOutputSelector</b> interface provides access to a hardware demultiplexer control (output selector). The client obtains a reference to the <b>IAudioOutputSelector</b> interface of a subunit by calling the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method with parameter <i>refiid</i> set to REFIID IID_IAudioOutputSelector. The call to <b>IPart::Activate</b> succeeds only if the subunit supports the <b>IAudioOutputSelector</b> interface. Only a subunit object that represents a hardware output selector will support this interface.
+The <b>IAudioOutputSelector</b> interface provides access to a hardware demultiplexer control (output selector). The client obtains a reference to the <b>IAudioOutputSelector</b> interface of a subunit by calling the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a> method with parameter <i>refiid</i> set to REFIID IID_IAudioOutputSelector. The call to <b>IPart::Activate</b> succeeds only if the subunit supports the <b>IAudioOutputSelector</b> interface. Only a subunit object that represents a hardware output selector will support this interface.
 
 Each output of an output selector is identified by the local ID of the part (a connector or subunit of a device topology) with a direct link to the output. A local ID is a number that uniquely identifies a part among all the parts in a device topology.
 
-Most Windows audio adapter drivers support the Windows Driver Model (WDM) and use kernel-streaming (KS) properties to represent the hardware control parameters in subunits (referred to as KS nodes). The <b>IAudioOutputSelector</b> interface provides convenient access to the KSPROPERTY_AUDIO_DEMUX_DEST property of a subunit that has a subtype GUID value of KSNODETYPE_DEMUX. To obtain the subtype GUID of a subunit, call the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getsubtype">IPart::GetSubType</a> method. For more information about KS properties and KS node types, see the Windows DDK documentation.
+Most Windows audio adapter drivers support the Windows Driver Model (WDM) and use kernel-streaming (KS) properties to represent the hardware control parameters in subunits (referred to as KS nodes). The <b>IAudioOutputSelector</b> interface provides convenient access to the KSPROPERTY_AUDIO_DEMUX_DEST property of a subunit that has a subtype GUID value of KSNODETYPE_DEMUX. To obtain the subtype GUID of a subunit, call the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-getsubtype">IPart::GetSubType</a> method. For more information about KS properties and KS node types, see the Windows DDK documentation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioOutputSelector</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioOutputSelector</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioOutputSelector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioOutputSelector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IAudioOutputSelector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-getselection">GetSelection</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-getselection">GetSelection</a>
 </td>
 <td align="left" width="63%">
 Gets the local ID of the part that is connected to the selector output that is currently selected.
@@ -82,7 +82,7 @@ Gets the local ID of the part that is connected to the selector output that is c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-setselection">SetSelection</a>
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiooutputselector-setselection">SetSelection</a>
 </td>
 <td align="left" width="63%">
 Selects one of the outputs of the output selector.
@@ -93,13 +93,12 @@ Selects one of the outputs of the output selector.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
+<a href="/windows/desktop/CoreAudio/devicetopology-api">DeviceTopology API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a>
-
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipart-activate">IPart::Activate</a>

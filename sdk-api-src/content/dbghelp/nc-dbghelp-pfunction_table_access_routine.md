@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined callback function used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function. It provides access to the run-time function table for the process.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function. It provides access to the run-time function table for the process.
 
 The <b>PFUNCTION_TABLE_ACCESS_ROUTINE64</b> type defines a pointer to this callback function. 
 <b>FunctionTableAccessProc64</b> is a placeholder for the application-defined function name.
@@ -69,8 +69,8 @@ The address of the instruction to be located.
 ## -returns
 
 The function returns a pointer to the run-time function table. On an x86 computer, this is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure. On an Alpha computer, this is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a> structure. On an Alpha computer, this is a pointer to an 
+<a href="/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a> structure.
 
 ## -remarks
 
@@ -92,17 +92,16 @@ PVOID
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-fpo_data">FPO_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_function_entry">IMAGE_FUNCTION_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>

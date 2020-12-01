@@ -116,10 +116,10 @@ Value: 0x8007000E
 
 ## -remarks
 
-To enumerate all identifiers, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum">IDiscMaster2::get__NewEnum</a> method.
+To enumerate all identifiers, call the <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum">IDiscMaster2::get__NewEnum</a> method.
 
     The following sample demonstrates how to re-enumerate optical 
-    drives in order to accurately account for drives added or removed  after the initial creation of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a> object. This is accomplished via the <b>IDiscMaster2::get_Item</b> and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_count">IDiscMaster2::get_Count</a> methods:
+    drives in order to accurately account for drives added or removed  after the initial creation of the <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a> object. This is accomplished via the <b>IDiscMaster2::get_Item</b> and <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_count">IDiscMaster2::get_Count</a> methods:
 
 
 ```cpp
@@ -197,13 +197,12 @@ int __cdecl _tmain(int argc, TCHAR* argv[])
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_count">IDiscMaster2::get_Count</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_count">IDiscMaster2::get_Count</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-initializediscrecorder">IDiscRecorder2::InitializeDiscRecorder</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-initializediscrecorder">IDiscRecorder2::InitializeDiscRecorder</a>

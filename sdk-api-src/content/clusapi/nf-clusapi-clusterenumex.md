@@ -56,7 +56,7 @@ Enumerates the objects in a cluster, and then gets the name and properties of th
 
 ### -param hClusterEnum [in]
 
-A handle to the enumerator that is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusteropenenumex">ClusterOpenEnumEx</a> function.
+A handle to the enumerator that is returned by the <a href="/windows/desktop/api/clusapi/nf-clusapi-clusteropenenumex">ClusterOpenEnumEx</a> function.
 
 ### -param dwIndex [in]
 
@@ -116,9 +116,8 @@ The buffer was filled successfully.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_enum_item">CLUSTER_ENUM_ITEM</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_enum_item">CLUSTER_ENUM_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Function</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Function</a>

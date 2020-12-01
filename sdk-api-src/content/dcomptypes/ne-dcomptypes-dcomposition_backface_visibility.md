@@ -67,5 +67,4 @@ The back face visibility is the same as that of the target visual's parent visua
 
 <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DCompV2BackfaceandD2DBatching">DirectComposition Backface and D2D Batching</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual2-setbackfacevisibility">IDCompositionVisual2::SetBackFaceVisibility</a>
-
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual2-setbackfacevisibility">IDCompositionVisual2::SetBackFaceVisibility</a>

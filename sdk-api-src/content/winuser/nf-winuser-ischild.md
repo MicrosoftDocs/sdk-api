@@ -53,6 +53,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - IsChild
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # IsChild function
@@ -90,7 +91,7 @@ If the window is not a child or descendant window of the specified parent window
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindow">IsWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-iswindow">IsWindow</a>
 
 
 
@@ -98,9 +99,8 @@ If the window is not a child or descendant window of the specified parent window
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setparent">SetParent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

@@ -52,9 +52,9 @@ Creates an empty font set builder, ready to add font instances to, and create a 
 
 ### -param fontSetBuilder
 
-Type: **[IDWriteFontSetBuilder2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder2)\*\***
+Type: **[IDWriteFontSetBuilder2](./nn-dwrite_3-idwritefontsetbuilder2.md)\*\***
 
-The address of a pointer to an [IDWriteFontSetBuilder2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontsetbuilder2) interface. On successful completion, the function sets the pointer to a newly created font set builder object, otherwise it sets the pointer to `nullptr`.
+The address of a pointer to an [IDWriteFontSetBuilder2](./nn-dwrite_3-idwritefontsetbuilder2.md) interface. On successful completion, the function sets the pointer to a newly created font set builder object, otherwise it sets the pointer to `nullptr`.
 
 ## -returns
 
@@ -65,4 +65,3 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [**HRESU
 ## -remarks
 
 ## -see-also
-

@@ -53,6 +53,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - EnumChildWindows
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # EnumChildWindows function
@@ -68,13 +69,13 @@ Enumerates the child windows that belong to the specified parent window by passi
 
 Type: <b>HWND</b>
 
-A handle to the parent window whose child windows are to be enumerated. If this parameter is <b>NULL</b>, this function is equivalent to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumwindows">EnumWindows</a>.
+A handle to the parent window whose child windows are to be enumerated. If this parameter is <b>NULL</b>, this function is equivalent to <a href="/windows/desktop/api/winuser/nf-winuser-enumwindows">EnumWindows</a>.
 
 ### -param lpEnumFunc [in]
 
 Type: <b>WNDENUMPROC</b>
 
-A pointer to an application-defined callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633493(v=vs.85)">EnumChildProc</a>.
+A pointer to an application-defined callback function. For more information, see <a href="/previous-versions/windows/desktop/legacy/ms633493(v=vs.85)">EnumChildProc</a>.
 
 ### -param lParam [in]
 
@@ -100,19 +101,19 @@ A child window that is moved or repositioned in the Z order during the enumerati
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633493(v=vs.85)">EnumChildProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms633493(v=vs.85)">EnumChildProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumthreadwindows">EnumThreadWindows</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumthreadwindows">EnumThreadWindows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumwindows">EnumWindows</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumwindows">EnumWindows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindow">GetWindow</a>
 
 
 
@@ -120,5 +121,4 @@ A child window that is moved or repositioned in the Z order during the enumerati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

@@ -56,7 +56,7 @@ The <b>WlanRegisterNotification</b> function is used to register and unregister 
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param dwNotifSource [in]
 
@@ -186,7 +186,7 @@ Specifies whether duplicate notifications will be ignored.  If set to <b>TRUE</b
 
 ### -param funcCallback [in, optional]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nc-wlanapi-wlan_notification_callback">WLAN_NOTIFICATION_CALLBACK</a>  type that defines the type of notification callback function.
+A <a href="/windows/desktop/api/wlanapi/nc-wlanapi-wlan_notification_callback">WLAN_NOTIFICATION_CALLBACK</a>  type that defines the type of notification callback function.
 
 This parameter can be <b>NULL</b> if the <i>dwNotifSource</i> parameter is set to <b>WLAN_NOTIFICATION_SOURCE_NONE</b> to unregister notifications on all wireless interfaces,
 
@@ -261,13 +261,13 @@ Various error codes.
 
 ## -remarks
 
-The <b>WlanRegisterNotification</b> is used by an application to register and unregister notifications on all wireless interfaces. When registering for notifications, an application must provide a callback function pointed to by the <i>funcCallback</i> parameter. The prototype for this callback function is the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nc-wlanapi-wlan_notification_callback">WLAN_NOTIFICATION_CALLBACK</a>. This callback function will receive notifications that have been registered for in the <i>dwNotifSource</i> parameter passed to the <b>WlanRegisterNotification</b> function. The callback function is called with a pointer to a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure as the first parameter that contains detailed information on the notification. The callback function also receives a second parameter that contains a pointer to the client context passed in the <i>pCallbackContext</i> parameter to the <b>WlanRegisterNotification</b> function.
+The <b>WlanRegisterNotification</b> is used by an application to register and unregister notifications on all wireless interfaces. When registering for notifications, an application must provide a callback function pointed to by the <i>funcCallback</i> parameter. The prototype for this callback function is the <a href="/windows/desktop/api/wlanapi/nc-wlanapi-wlan_notification_callback">WLAN_NOTIFICATION_CALLBACK</a>. This callback function will receive notifications that have been registered for in the <i>dwNotifSource</i> parameter passed to the <b>WlanRegisterNotification</b> function. The callback function is called with a pointer to a  <a href="/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a> structure as the first parameter that contains detailed information on the notification. The callback function also receives a second parameter that contains a pointer to the client context passed in the <i>pCallbackContext</i> parameter to the <b>WlanRegisterNotification</b> function.
 
 The <b>WlanRegisterNotification</b> function will return an error if <i>dwNotifSource</i> is a value other than <b>WLAN_NOTIFICATION_SOURCE_NONE</b> and the client fails to provide a callback function.
 
 Once registered, the callback function will be called whenever a notification is available until the client unregisters or closes the handle.
 
-Any registration to receive notifications caused by this function would be automatically undone if the calling application closes its calling handle (by calling <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanclosehandle">WlanCloseHandle</a> with the <i>hClientHandle</i> parameter) or if the process ends.
+Any registration to receive notifications caused by this function would be automatically undone if the calling application closes its calling handle (by calling <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanclosehandle">WlanCloseHandle</a> with the <i>hClientHandle</i> parameter) or if the process ends.
 
 
   Do not call <b>WlanRegisterNotification</b> from a callback function. If the client is in the middle of a notification callback when <b>WlanRegisterNotification</b> is called with <i>dwNotifSource</i> set to  <b>WLAN_NOTIFICATION_SOURCE_NONE</b> (that is, when the client is unregistering from notifications), <b>WlanRegisterNotification</b>  will wait for the callback to finish before returning a value. Calling this function inside a callback function will result in the call never completing. If both the callback function and the thread that unregisters from notifications try to acquire the same lock, a deadlock may occur. In addition, do not call <b>WlanRegisterNotification</b> from the <b>DllMain</b> function in an application DLL. This could also cause a deadlock. 
@@ -278,7 +278,7 @@ An application can time out and query the current interface state instead of wai
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dot1x/ne-dot1x-onex_notification_type">ONEX_NOTIFICATION_TYPE</a>
+<a href="/windows/desktop/api/dot1x/ne-dot1x-onex_notification_type">ONEX_NOTIFICATION_TYPE</a>
 
 
 
@@ -286,25 +286,24 @@ An application can time out and query the current interface state instead of wai
 
 
 
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm~r1">WLAN_NOTIFICATION_ACM</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm-r1">WLAN_NOTIFICATION_ACM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nc-wlanapi-wlan_notification_callback">WLAN_NOTIFICATION_CALLBACK</a>
+<a href="/windows/desktop/api/wlanapi/nc-wlanapi-wlan_notification_callback">WLAN_NOTIFICATION_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
+<a href="/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
 
 
 
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm~r1">WLAN_NOTIFICATION_MSM</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm-r1">WLAN_NOTIFICATION_MSM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanclosehandle">WlanCloseHandle</a>
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanclosehandle">WlanCloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregistervirtualstationnotification">WlanRegisterVirtualStationNotification</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregistervirtualstationnotification">WlanRegisterVirtualStationNotification</a>

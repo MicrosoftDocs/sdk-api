@@ -121,13 +121,13 @@ Must be zero.
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The file operations removed by the 
 <b>SetupRemoveSectionFromDiskSpaceList</b> function are typically those that have been added to the list by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupaddsectiontodiskspacelista">SetupAddSectionToDiskSpaceList</a> function, though this is not a requirement. The 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupaddsectiontodiskspacelista">SetupAddSectionToDiskSpaceList</a> function, though this is not a requirement. The 
 <b>SetupRemoveSectionFromDiskSpaceList</b> function ignores files in the INF section that are not listed in the disk-space list.
 
 This function requires a Windows INF file. Some older INF file  formats may not be supported. 
@@ -141,21 +141,20 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupaddsectiontodiskspacelista">SetupAddSectionToDiskSpaceList</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupaddsectiontodiskspacelista">SetupAddSectionToDiskSpaceList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupremovefromdiskspacelista">SetupRemoveFromDiskSpaceList</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupremovefromdiskspacelista">SetupRemoveFromDiskSpaceList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupremoveinstallsectionfromdiskspacelista">SetupRemoveInstallSectionFromDiskSpaceList</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupremoveinstallsectionfromdiskspacelista">SetupRemoveInstallSectionFromDiskSpaceList</a>

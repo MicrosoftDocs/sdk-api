@@ -66,7 +66,7 @@ Pointer to a  <b>BSTR</b> variable that contains the security descriptor.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -125,7 +125,7 @@ The cryptographic provider does not support security descriptors.
 
 ## -remarks
 
-To use the security descriptor, you must call the <a href="https://docs.microsoft.com/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora">ConvertStringSecurityDescriptorToSecurityDescriptor</a> function included with the Microsoft Authorization API and specify the string returned by the <b>GetDefaultSecurityDescriptor</b> method. The function returns a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+To use the security descriptor, you must call the <a href="/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora">ConvertStringSecurityDescriptorToSecurityDescriptor</a> function included with the Microsoft Authorization API and specify the string returned by the <b>GetDefaultSecurityDescriptor</b> method. The function returns a pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 The default security descriptor is used to define access to private keys for the computer and user in the following manner:<ul>
 <li>By default, only local administrators and services running under the LocalSystem account can access private keys associated with the computer account.</li>
@@ -139,5 +139,4 @@ Some cryptographic providers do not support security descriptors. Examples inclu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>

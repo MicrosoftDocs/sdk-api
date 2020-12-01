@@ -75,5 +75,4 @@ Status of the request.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
-
+       <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.

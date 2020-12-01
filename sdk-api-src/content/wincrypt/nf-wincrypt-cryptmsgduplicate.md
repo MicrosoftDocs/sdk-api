@@ -50,39 +50,38 @@ api_name:
 
 ## -description
 
-The <b>CryptMsgDuplicate</b> function duplicates a cryptographic message handle by incrementing its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a>.
+The <b>CryptMsgDuplicate</b> function duplicates a cryptographic message handle by incrementing its <a href="/windows/desktop/SecGloss/r-gly">reference count</a>.
 
 ## -parameters
 
 ### -param hCryptMsg [in]
 
-Handle of the cryptographic message to be duplicated. Duplication is done by incrementing the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> of the message. A copy of the message is not made.
+Handle of the cryptographic message to be duplicated. Duplication is done by incrementing the <a href="/windows/desktop/SecGloss/r-gly">reference count</a> of the message. A copy of the message is not made.
 
 ## -returns
 
-The returned handle is the same as the handle input. A copy of the message is not created. When you have finished using the duplicated message handle, decrease the reference count by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> function.
+The returned handle is the same as the handle input. A copy of the message is not created. When you have finished using the duplicated message handle, decrease the reference count by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> function.
 
 ## -remarks
 
 <b>CryptMsgDuplicate</b> is used to increase the reference count on an <b>HCRYPTMSG</b> handle so that multiple calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> are required to actually release the handle.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a> are required to actually release the handle.
 
 
 #### Examples
 
-For an example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-encoding-and-decoding-a-hashed-message">Example C Program: Encoding and Decoding a Hashed Message</a>.
+For an example that uses this function, see <a href="/windows/desktop/SecCrypto/example-c-program-encoding-and-decoding-a-hashed-message">Example C Program: Encoding and Decoding a Hashed Message</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgclose">CryptMsgClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Low-level Message Functions</a>
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Low-level Message Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>

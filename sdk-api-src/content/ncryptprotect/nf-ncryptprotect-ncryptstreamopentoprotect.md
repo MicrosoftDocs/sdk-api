@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>NCryptStreamOpenToProtect</b> function opens a stream object that can be used to encrypt large amounts of data  to a given protection descriptor. Call <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamupdate">NCryptStreamUpdate</a> to encrypt the content. To encrypt smaller messages such as keys and passwords, call <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptprotectsecret">NCryptProtectSecret</a>.
+The <b>NCryptStreamOpenToProtect</b> function opens a stream object that can be used to encrypt large amounts of data  to a given protection descriptor. Call <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamupdate">NCryptStreamUpdate</a> to encrypt the content. To encrypt smaller messages such as keys and passwords, call <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptprotectsecret">NCryptProtectSecret</a>.
 
 ## -parameters
 
 ### -param hDescriptor [in]
 
-Handle of the protection descriptor. Create the handle by calling <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptcreateprotectiondescriptor">NCryptCreateProtectionDescriptor</a>.
+Handle of the protection descriptor. Create the handle by calling <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptcreateprotectiondescriptor">NCryptCreateProtectionDescriptor</a>.
 
 ### -param dwFlags
 
@@ -85,7 +85,7 @@ Handle to the parent window of the user interface, if any, to be displayed.
 
 ### -param pStreamInfo [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/ns-ncryptprotect-ncrypt_protect_stream_info">NCRYPT_PROTECT_STREAM_INFO</a> structure that contains the address of a user defined callback function to receive the encrypted data and a pointer to user-defined context data.
+Pointer to an <a href="/windows/desktop/api/ncryptprotect/ns-ncryptprotect-ncrypt_protect_stream_info">NCRYPT_PROTECT_STREAM_INFO</a> structure that contains the address of a user defined callback function to receive the encrypted data and a pointer to user-defined context data.
 
 ### -param phStream [out]
 
@@ -142,7 +142,7 @@ The handle specified by the <i>hDescriptor</i> parameter is not valid.
 <td width="60%">
 The <i>phStream</i> and <i>pStreamInfo</i> parameters cannot be <b>NULL</b>.
 
-The callback function pointed to by the <b>pfnStreamOutput</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/ns-ncryptprotect-ncrypt_protect_stream_info">NCRYPT_PROTECT_STREAM_INFO</a> structure pointed to by the <i>pStreamInfo</i> parameter cannot be <b>NULL</b>.
+The callback function pointed to by the <b>pfnStreamOutput</b> member of the <a href="/windows/desktop/api/ncryptprotect/ns-ncryptprotect-ncrypt_protect_stream_info">NCRYPT_PROTECT_STREAM_INFO</a> structure pointed to by the <i>pStreamInfo</i> parameter cannot be <b>NULL</b>.
 
 </td>
 </tr>
@@ -163,31 +163,30 @@ There was insufficient memory to allocate a data stream.
 
 The <b>NCryptStreamOpenToProtect</b> function creates an internal stream object that can be used to encrypt large messages. You cannot use the object directly. Instead, you must use the object handle returned by this function.
 
-Call this function before calling the <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamupdate">NCryptStreamUpdate</a> function. If you are encrypting a large file, use <b>NCryptStreamUpdate</b> in a loop that advances through the file block by block, encrypting each block as it advances and notifying your callback when each block is finished. For more information, see <b>NCryptStreamUpdate</b>.
+Call this function before calling the <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamupdate">NCryptStreamUpdate</a> function. If you are encrypting a large file, use <b>NCryptStreamUpdate</b> in a loop that advances through the file block by block, encrypting each block as it advances and notifying your callback when each block is finished. For more information, see <b>NCryptStreamUpdate</b>.
 
-The <b>NCryptStreamOpenToProtect</b> function writes the unencrypted protection descriptor rule string to the stream object header so that <a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a> will be able to start the decrypting the stream by using the same protector used during encryption.
+The <b>NCryptStreamOpenToProtect</b> function writes the unencrypted protection descriptor rule string to the stream object header so that <a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a> will be able to start the decrypting the stream by using the same protector used during encryption.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
+<a href="/windows/desktop/SecCNG/cng-dpapi-functions">CNG DPAPI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/ns-ncryptprotect-ncrypt_protect_stream_info">NCRYPT_PROTECT_STREAM_INFO</a>
+<a href="/windows/desktop/api/ncryptprotect/ns-ncryptprotect-ncrypt_protect_stream_info">NCRYPT_PROTECT_STREAM_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptcreateprotectiondescriptor">NCryptCreateProtectionDescriptor</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptcreateprotectiondescriptor">NCryptCreateProtectionDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamclose">NCryptStreamClose</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamclose">NCryptStreamClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a>
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamopentounprotect">NCryptStreamOpenToUnprotect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamupdate">NCryptStreamUpdate</a>
-
+<a href="/windows/desktop/api/ncryptprotect/nf-ncryptprotect-ncryptstreamupdate">NCryptStreamUpdate</a>

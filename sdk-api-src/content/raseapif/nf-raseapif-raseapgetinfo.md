@@ -62,8 +62,8 @@ Specifies the authentication protocol for which to obtain information.
 ### -param pEapInfo [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_info">PPP_EAP_INFO</a> structure. The structure receives members that RAS sets to identify the structure version and the authentication protocol for which function pointers are requested. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_info">PPP_EAP_INFO</a>.
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_info">PPP_EAP_INFO</a> structure. The structure receives members that RAS sets to identify the structure version and the authentication protocol for which function pointers are requested. For more information, see 
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_info">PPP_EAP_INFO</a>.
 
 ## -returns
 
@@ -100,5 +100,4 @@ If the function returns any value other than <b>NO_ERROR</b>, RAS considers the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_info">PPP_EAP_INFO</a>
-
+<a href="/windows/desktop/api/raseapif/ns-raseapif-ppp_eap_info">PPP_EAP_INFO</a>

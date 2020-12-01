@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-ensurevisible">LVM_ENSUREVISIBLE</a> message explicitly.
+Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-ensurevisible">LVM_ENSUREVISIBLE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -68,7 +68,6 @@ The index of the list-view item.
 
 ### -param fPartialOK
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 A value specifying whether the item must be entirely visible. If this parameter is <b>TRUE</b>, no scrolling occurs if the item is at least partially visible.
-

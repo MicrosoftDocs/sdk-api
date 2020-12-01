@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Retrieves the results of an overlapped operation on the specified file, named pipe, or communications device. To specify a timeout interval or wait on an alertable thread, use <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresultex">GetOverlappedResultEx</a>.
+Retrieves the results of an overlapped operation on the specified file, named pipe, or communications device. To specify a timeout interval or wait on an alertable thread, use <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresultex">GetOverlappedResultEx</a>.
 
 ## -parameters
 
@@ -63,53 +63,53 @@ Retrieves the results of an overlapped operation on the specified file, named pi
 
 A handle to the file, named pipe, or communications device. This is the same handle that was specified when the overlapped operation was started by a call to any of the following functions: 
 
-- [ReadFile](/windows/win32/api/fileapi/nf-fileapi-readfile)
-- [WriteFile](/windows/win32/api/fileapi/nf-fileapi-writefile)
-- [ConnectNamedPipe](/windows/win32/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe)
-- [TransactNamedPipe](/windows/win32/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe)
-- [DeviceIoControl](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol)
-- [WaitCommEvent](/windows/win32/api/winbase/nf-winbase-waitcommevent)
-- [ReadDirectoryChangesW](/windows/win32/api/winbase/nf-winbase-readdirectorychangesw)
-- [LockFileEx](/windows/win32/api/fileapi/nf-fileapi-lockfileex)
-- [ReadDirectoryChangesW](/windows/win32/api/winbase/nf-winbase-readdirectorychangesw)
+- [ReadFile](../fileapi/nf-fileapi-readfile.md)
+- [WriteFile](../fileapi/nf-fileapi-writefile.md)
+- [ConnectNamedPipe](../namedpipeapi/nf-namedpipeapi-connectnamedpipe.md)
+- [TransactNamedPipe](../namedpipeapi/nf-namedpipeapi-transactnamedpipe.md)
+- [DeviceIoControl](./nf-ioapiset-deviceiocontrol.md)
+- [WaitCommEvent](../winbase/nf-winbase-waitcommevent.md)
+- [ReadDirectoryChangesW](../winbase/nf-winbase-readdirectorychangesw.md)
+- [LockFileEx](../fileapi/nf-fileapi-lockfileex.md)
+- [ReadDirectoryChangesW](../winbase/nf-winbase-readdirectorychangesw.md)
 
 ### -param lpOverlapped [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that was specified when the overlapped operation was started.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that was specified when the overlapped operation was started.
 
 ### -param lpNumberOfBytesTransferred [out]
 
 A pointer to a variable that receives the number of bytes that were actually transferred by a read or write operation. For a 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a> operation, this is the number of bytes that were read from the pipe. For a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> operation, this is the number of bytes of output data returned by the device driver. For a 
-<a href="https://docs.microsoft.com/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a> operation, this value is undefined.
+<a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe">TransactNamedPipe</a> operation, this is the number of bytes that were read from the pipe. For a 
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> operation, this is the number of bytes of output data returned by the device driver. For a 
+<a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe">ConnectNamedPipe</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-waitcommevent">WaitCommEvent</a> operation, this value is undefined.
 
 ### -param bWait [in]
 
 If this parameter is <b>TRUE</b>, and the <b>Internal</b> member of the <i>lpOverlapped</i> structure is <b>STATUS_PENDING</b>, the function does not return until the operation has been completed. If this parameter is <b>FALSE</b> and the operation is still pending, the function returns <b>FALSE</b> and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_IO_INCOMPLETE</b>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_IO_INCOMPLETE</b>.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The results reported by the 
 <b>GetOverlappedResult</b> function are those of the specified handle's last overlapped operation to which the specified 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure was provided, and for which the operation's results were pending. A pending operation is indicated when the function that started the operation returns <b>FALSE</b>, and the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_IO_PENDING</b>. When an I/O operation is pending, the function that started the operation resets the <b>hEvent</b> member of the 
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure was provided, and for which the operation's results were pending. A pending operation is indicated when the function that started the operation returns <b>FALSE</b>, and the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns <b>ERROR_IO_PENDING</b>. When an I/O operation is pending, the function that started the operation resets the <b>hEvent</b> member of the 
 <b>OVERLAPPED</b> structure to the nonsignaled state. Then when the pending operation has been completed, the system sets the event object to the signaled state.
 
 If the <i>bWait</i> parameter is <b>TRUE</b>, 
 <b>GetOverlappedResult</b> determines whether the pending operation has been completed by waiting for the event object to be in the signaled state.
 
 If the <b>hEvent</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure is <b>NULL</b>, the system uses the state of the <i>hFile</i> handle to signal when the operation has been completed. Use of file, named pipe, or communications-device handles for this purpose is discouraged. It is safer to use an event object because of the confusion that can occur when multiple simultaneous overlapped operations are performed on the same file, named pipe, or communications device. In this situation, there is no way to know which operation caused the object's state to be signaled.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure is <b>NULL</b>, the system uses the state of the <i>hFile</i> handle to signal when the operation has been completed. Use of file, named pipe, or communications-device handles for this purpose is discouraged. It is safer to use an event object because of the confusion that can occur when multiple simultaneous overlapped operations are performed on the same file, named pipe, or communications device. In this situation, there is no way to know which operation caused the object's state to be signaled.
 
 
 #### Examples
@@ -118,5 +118,4 @@ For an example that uses **GetOverlappedResult**, see [Testing for the End of a 
 
 ## -see-also
 
-[CancelIo](/windows/win32/FileIO/cancelio), [CreateEvent](/windows/win32/api/synchapi/nf-synchapi-createeventa), [GetOverlappedResultEx](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresultex), [OVERLAPPED](/windows/win32/api/minwinbase/ns-minwinbase-overlapped), [Overlapped Input and Output](/windows/win32/Sync/synchronization-and-overlapped-input-and-output), [Synchronization Functions](/windows/win32/Sync/synchronization-functions)
-
+[CancelIo](/windows/win32/FileIO/cancelio), [CreateEvent](../synchapi/nf-synchapi-createeventa.md), [GetOverlappedResultEx](./nf-ioapiset-getoverlappedresultex.md), [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md), [Overlapped Input and Output](/windows/win32/Sync/synchronization-and-overlapped-input-and-output), [Synchronization Functions](/windows/win32/Sync/synchronization-functions)

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfContextView</b> interface is implemented by the TSF manager and used by a client (application or text service) to obtain information about a context view. Clients obtain this interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getactiveview">ITfContext::GetActiveView</a> method which returns a pointer to the <b>ITfContextView</b> object.
+The <b>ITfContextView</b> interface is implemented by the TSF manager and used by a client (application or text service) to obtain information about a context view. Clients obtain this interface by calling the <a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-getactiveview">ITfContext::GetActiveView</a> method which returns a pointer to the <b>ITfContextView</b> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextView</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextView</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextView</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfContextView</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfContextView</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextview-getrangefrompoint">GetRangeFromPoint</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-getrangefrompoint">GetRangeFromPoint</a>
 </td>
 <td align="left" width="63%">
 Converts a point, in screen coordinates, to an empty range positioned at a corresponding location.
@@ -78,7 +78,7 @@ Converts a point, in screen coordinates, to an empty range positioned at a corre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextview-getscreenext">GetScreenExt</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-getscreenext">GetScreenExt</a>
 </td>
 <td align="left" width="63%">
 Returns the bounding box of the display surface.
@@ -87,7 +87,7 @@ Returns the bounding box of the display surface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextview-gettextext">GetTextExt</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-gettextext">GetTextExt</a>
 </td>
 <td align="left" width="63%">
 Returns the bounding box, in screen coordinates, of a range of text.
@@ -96,7 +96,7 @@ Returns the bounding box, in screen coordinates, of a range of text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextview-getwnd">GetWnd</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-getwnd">GetWnd</a>
 </td>
 <td align="left" width="63%">
 Returns an HWND that corresponds to the document, if one exists.
@@ -107,11 +107,10 @@ Returns an HWND that corresponds to the document, if one exists.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
         
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

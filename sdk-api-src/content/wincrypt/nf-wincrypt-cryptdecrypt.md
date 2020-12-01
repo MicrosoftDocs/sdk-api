@@ -52,18 +52,18 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="https://docs.microsoft.com/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptDecrypt</b> function decrypts data previously encrypted by using 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencrypt">CryptEncrypt</a> function.
+<div class="alert"><b>Important</b>  This API is deprecated. New and existing software should start using <a href="/windows/desktop/SecCNG/cng-portal">Cryptography Next Generation APIs.</a> Microsoft may remove this API in future releases.</div><div> </div>The <b>CryptDecrypt</b> function decrypts data previously encrypted by using 
+the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencrypt">CryptEncrypt</a> function.
 
-Important changes to support <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Secure/Multipurpose Internet Mail Extensions</a> (S/MIME) email interoperability have been made to CryptoAPI that affect the handling of enveloped messages. For more information, see the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>.
+Important changes to support <a href="/windows/desktop/SecGloss/s-gly">Secure/Multipurpose Internet Mail Extensions</a> (S/MIME) email interoperability have been made to CryptoAPI that affect the handling of enveloped messages. For more information, see the Remarks section of <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>.
 
 ## -parameters
 
 ### -param hKey [in]
 
 A handle to the key to use for the decryption. An application obtains this handle by using either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a> function. 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a> or 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a> function. 
 
 
 
@@ -72,16 +72,16 @@ This key specifies the decryption algorithm to be used.
 
 ### -param hHash [in]
 
-A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash object</a>. If data is to be decrypted and hashed simultaneously, a handle to a hash object is passed in this parameter. The hash value is updated with the decrypted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">plaintext</a>. This option is useful when simultaneously decrypting and verifying a signature. 
+A handle to a <a href="/windows/desktop/SecGloss/h-gly">hash object</a>. If data is to be decrypted and hashed simultaneously, a handle to a hash object is passed in this parameter. The hash value is updated with the decrypted <a href="/windows/desktop/SecGloss/p-gly">plaintext</a>. This option is useful when simultaneously decrypting and verifying a signature. 
 
 
 
 
 Before calling <b>CryptDecrypt</b>, the application must obtain a handle to the hash object by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a> function. After the decryption is complete, the hash value can be obtained by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a> function, it can also be signed by using 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a> function, or it can be used to verify a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">digital signature</a> by using 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a> function.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a> function. After the decryption is complete, the hash value can be obtained by using the 
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a> function, it can also be signed by using 
+the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a> function, or it can be used to verify a <a href="/windows/desktop/SecGloss/d-gly">digital signature</a> by using 
+the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a> function.
 
 If no hash is to be done, this parameter must be zero.
 
@@ -105,7 +105,7 @@ The following flag values are defined.
 </dl>
 </td>
 <td width="60%">
-Use Optimal Asymmetric Encryption Padding (OAEP)  (PKCS #1 version 2). This flag is only supported by the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-enhanced-cryptographic-provider">Microsoft Enhanced Cryptographic Provider</a> with RSA encryption/decryption. This flag cannot be combined with the <b>CRYPT_DECRYPT_RSA_NO_PADDING_CHECK</b> flag.
+Use Optimal Asymmetric Encryption Padding (OAEP)  (PKCS #1 version 2). This flag is only supported by the <a href="/windows/desktop/SecCrypto/microsoft-enhanced-cryptographic-provider">Microsoft Enhanced Cryptographic Provider</a> with RSA encryption/decryption. This flag cannot be combined with the <b>CRYPT_DECRYPT_RSA_NO_PADDING_CHECK</b> flag.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Use Optimal Asymmetric Encryption Padding (OAEP)  (PKCS #1 version 2). This flag
 </dl>
 </td>
 <td width="60%">
-Perform the decryption on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a> without checking the padding. This flag is only supported by the <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-enhanced-cryptographic-provider">Microsoft Enhanced Cryptographic Provider</a> with RSA encryption/decryption. This flag cannot be combined with the <b>CRYPT_OAEP</b> flag.
+Perform the decryption on the <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> without checking the padding. This flag is only supported by the <a href="/windows/desktop/SecCrypto/microsoft-enhanced-cryptographic-provider">Microsoft Enhanced Cryptographic Provider</a> with RSA encryption/decryption. This flag cannot be combined with the <b>CRYPT_OAEP</b> flag.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ A pointer to a <b>DWORD</b> value that indicates the length of the <i>pbData</i>
 
 
 
-When a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">block cipher</a> is used, this data length must be a multiple of the block size unless this is the final section of data to be decrypted and the <i>Final</i> parameter is <b>TRUE</b>.
+When a <a href="/windows/desktop/SecGloss/b-gly">block cipher</a> is used, this data length must be a multiple of the block size unless this is the final section of data to be decrypted and the <i>Final</i> parameter is <b>TRUE</b>.
 
 ## -returns
 
@@ -146,7 +146,7 @@ If the function succeeds, the function returns nonzero (<b>TRUE</b>).
 						
 
 If the function fails, it returns zero (<b>FALSE</b>). For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The error codes prefaced by NTE are generated by the particular CSP being used. Some possible error codes follow.
 
@@ -184,7 +184,7 @@ One of the parameters contains a value that is not valid. This is most often a p
 </dl>
 </td>
 <td width="60%">
-The <i>hKey</i> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a> specifies an algorithm that this CSP does not support.
+The <i>hKey</i> <a href="/windows/desktop/SecGloss/s-gly">session key</a> specifies an algorithm that this CSP does not support.
 
 </td>
 </tr>
@@ -195,7 +195,7 @@ The <i>hKey</i> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-g
 </dl>
 </td>
 <td width="60%">
-The data to be decrypted is not valid. For example, when a block cipher is used and the <i>Final</i> flag is <b>FALSE</b>, the value specified by <i>pdwDataLen</i> must be a multiple of the block size. This error can also be returned when the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">padding</a> is found to be not valid.
+The data to be decrypted is not valid. For example, when a block cipher is used and the <i>Final</i> flag is <b>FALSE</b>, the value specified by <i>pdwDataLen</i> must be a multiple of the block size. This error can also be returned when the <a href="/windows/desktop/SecGloss/p-gly">padding</a> is found to be not valid.
 
 </td>
 </tr>
@@ -284,13 +284,13 @@ If a large amount of data is to be decrypted, it can be done in sections by call
 
 <ul>
 <li>If the key is a block cipher key, the data is padded to a multiple of the block size of the cipher. To find the block size of a cipher, use 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam">CryptGetKeyParam</a> to get the KP_BLOCKLEN value of the key.</li>
-<li>If the cipher is operating in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">chaining mode</a>, the next <b>CryptDecrypt</b> operation resets the cipher's feedback register to the KP_IV value of the key.</li>
-<li>If the cipher is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">stream cipher</a>, the next <b>CryptDecrypt</b> call resets the cipher to its initial <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">state</a>.</li>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam">CryptGetKeyParam</a> to get the KP_BLOCKLEN value of the key.</li>
+<li>If the cipher is operating in a <a href="/windows/desktop/SecGloss/c-gly">chaining mode</a>, the next <b>CryptDecrypt</b> operation resets the cipher's feedback register to the KP_IV value of the key.</li>
+<li>If the cipher is a <a href="/windows/desktop/SecGloss/s-gly">stream cipher</a>, the next <b>CryptDecrypt</b> call resets the cipher to its initial <a href="/windows/desktop/SecGloss/s-gly">state</a>.</li>
 </ul>
 
 
-There is no way to set the cipher's feedback register to the KP_IV value of the key without setting the <i>Final</i> parameter to <b>TRUE</b>. If this is necessary, as in the case where you do not want to add an additional padding block or change the size of each block, you can simulate this by creating a duplicate of the original key by using the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptduplicatekey">CryptDuplicateKey</a> function, and passing the duplicate key to the <b>CryptDecrypt</b> function. This causes the KP_IV of the original key to be placed in the duplicate key. After you create or import the original key, you cannot use the original key for encryption because the feedback register of the key will be changed. The following pseudocode shows how this can be done.
+There is no way to set the cipher's feedback register to the KP_IV value of the key without setting the <i>Final</i> parameter to <b>TRUE</b>. If this is necessary, as in the case where you do not want to add an additional padding block or change the size of each block, you can simulate this by creating a duplicate of the original key by using the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptduplicatekey">CryptDuplicateKey</a> function, and passing the duplicate key to the <b>CryptDecrypt</b> function. This causes the KP_IV of the original key to be placed in the duplicate key. After you create or import the original key, you cannot use the original key for encryption because the feedback register of the key will be changed. The following pseudocode shows how this can be done.
 
 <pre class="syntax" xml:space="preserve"><code>// Set the IV for the original key. Do not use the original key for 
 // encryption or decryption after doing this because the key's 
@@ -313,52 +313,51 @@ while(block = NextBlock())
     // loop.
     CryptDestroyKey(hDuplicateKey)
 }</code></pre>
-The <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/microsoft-enhanced-cryptographic-provider">Microsoft Enhanced Cryptographic Provider</a> supports direct encryption with <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">RSA</a> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">public keys</a> and decryption with RSA <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private keys</a>. The encryption uses PKCS #1 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">padding</a>. On decryption, this padding is verified. The length of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">ciphertext</a> data to be decrypted must be the same length as the modulus of the RSA key used to decrypt the data. If the ciphertext has zeros in the most significant bytes, these bytes must be included in the input data buffer and in the input buffer length. The ciphertext must be in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">little-endian</a> format.
+The <a href="/windows/desktop/SecCrypto/microsoft-enhanced-cryptographic-provider">Microsoft Enhanced Cryptographic Provider</a> supports direct encryption with <a href="/windows/desktop/SecGloss/r-gly">RSA</a> <a href="/windows/desktop/SecGloss/p-gly">public keys</a> and decryption with RSA <a href="/windows/desktop/SecGloss/p-gly">private keys</a>. The encryption uses PKCS #1 <a href="/windows/desktop/SecGloss/p-gly">padding</a>. On decryption, this padding is verified. The length of <a href="/windows/desktop/SecGloss/c-gly">ciphertext</a> data to be decrypted must be the same length as the modulus of the RSA key used to decrypt the data. If the ciphertext has zeros in the most significant bytes, these bytes must be included in the input data buffer and in the input buffer length. The ciphertext must be in <a href="/windows/desktop/SecGloss/l-gly">little-endian</a> format.
 
 
 #### Examples
 
-For an example that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/example-c-program-decrypting-a-file">Example C Program: Decrypting a File</a>.
+For an example that uses this function, see <a href="/windows/desktop/SecCrypto/example-c-program-decrypting-a-file">Example C Program: Decrypting a File</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptcreatehash">CryptCreateHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencrypt">CryptEncrypt</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencrypt">CryptEncrypt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgethashparam">CryptGetHashParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam">CryptGetKeyParam</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgetkeyparam">CryptGetKeyParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportkey">CryptImportKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgopentoencode">CryptMsgOpenToEncode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignhasha">CryptSignHash</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifysignaturea">CryptVerifySignature</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Data Encryption/Decryption Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Data Encryption/Decryption Functions</a>

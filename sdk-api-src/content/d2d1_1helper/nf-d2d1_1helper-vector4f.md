@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns a filled <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VECTOR_4F</a> structure.
+Returns a filled <a href="/windows/desktop/api/dcommon/ns-dcommon-d2d_vector_4f">D2D1_VECTOR_4F</a> structure.
 
 ## -parameters
 
@@ -73,4 +73,3 @@ The w value of the vector.
 ## -returns
 
 A vector of 4 FLOAT values (x, y, z, w).
-

@@ -50,26 +50,25 @@ api_name:
 
 ## -description
 
-The <b>CertDuplicateCertificateChain</b> function duplicates a pointer to a certificate chain by incrementing the chain's <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a>.
+The <b>CertDuplicateCertificateChain</b> function duplicates a pointer to a certificate chain by incrementing the chain's <a href="/windows/desktop/SecGloss/r-gly">reference count</a>.
 
 ## -parameters
 
 ### -param pChainContext [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> chain context to be duplicated.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> chain context to be duplicated.
 
 ## -returns
 
-If the function succeeds, a pointer is returned to the chain context. This pointer has the same value as the <i>pChainContext</i> passed into the function. When you have finished using the chain context, release the chain context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain">CertFreeCertificateChain</a> function.
+If the function succeeds, a pointer is returned to the chain context. This pointer has the same value as the <i>pChainContext</i> passed into the function. When you have finished using the chain context, release the chain context by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatechain">CertFreeCertificateChain</a> function.
 
 If the function fails, <b>NULL</b> is returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Chain Verification Functions</a>

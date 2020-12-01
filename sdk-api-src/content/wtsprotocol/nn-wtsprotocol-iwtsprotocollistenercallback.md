@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IWTSProtocolListenerCallback</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistenercallback">IWRdsProtocolListenerCallback</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolListenerCallback</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistenercallback">IWRdsProtocolListenerCallback</a>.]
 
- Exposes methods that notify the Remote Desktop Services service that a client has connected. This interface is the callback object for the <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollistener">IWTSProtocolListener</a> interface. It is implemented by the Remote Desktop Services service and called by the protocol.
+ Exposes methods that notify the Remote Desktop Services service that a client has connected. This interface is the callback object for the <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollistener">IWTSProtocolListener</a> interface. It is implemented by the Remote Desktop Services service and called by the protocol.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSProtocolListenerCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSProtocolListenerCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSProtocolListenerCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSProtocolListenerCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWTSProtocolListenerCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollistenercallback-onconnected">OnConnected</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollistenercallback-onconnected">OnConnected</a>
 </td>
 <td align="left" width="63%">
 Notifies the Remote Desktop Services service that a client connection request has been received.
@@ -79,4 +79,3 @@ Notifies the Remote Desktop Services service that a client connection request ha
 </td>
 </tr>
 </table>
-

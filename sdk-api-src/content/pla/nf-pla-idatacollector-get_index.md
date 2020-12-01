@@ -63,5 +63,4 @@ PLA sets the index value when you add the data collector to a data collector set
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>

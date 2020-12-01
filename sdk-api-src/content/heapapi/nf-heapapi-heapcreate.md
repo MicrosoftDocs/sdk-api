@@ -77,7 +77,7 @@ The heap allocation options. These options affect subsequent access to the new h
 </dl>
 </td>
 <td width="60%">
-All memory blocks that are allocated from this heap allow code execution, if the hardware enforces <a href="https://docs.microsoft.com/windows/desktop/Memory/data-execution-prevention">data execution prevention</a>. Use this flag heap in applications that run code from the heap. If <b>HEAP_CREATE_ENABLE_EXECUTE</b> is not specified and an application attempts to run code from a protected page, the application receives an exception with the status code <b>STATUS_ACCESS_VIOLATION</b>. 
+All memory blocks that are allocated from this heap allow code execution, if the hardware enforces <a href="/windows/desktop/Memory/data-execution-prevention">data execution prevention</a>. Use this flag heap in applications that run code from the heap. If <b>HEAP_CREATE_ENABLE_EXECUTE</b> is not specified and an application attempts to run code from a protected page, the application receives an exception with the status code <b>STATUS_ACCESS_VIOLATION</b>. 
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ All memory blocks that are allocated from this heap allow code execution, if the
 </dl>
 </td>
 <td width="60%">
-The system raises an exception to indicate failure (for example,  an out-of-memory condition) for calls to <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> and <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a> instead of returning <b>NULL</b>.
+The system raises an exception to indicate failure (for example,  an out-of-memory condition) for calls to <a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> and <a href="/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a> instead of returning <b>NULL</b>.
 
 </td>
 </tr>
@@ -116,14 +116,14 @@ For more information about serialized access, see the  Remarks section of this t
 The initial size of the heap, in bytes. This value determines the initial amount of memory that is committed for the heap. The value is rounded up to a multiple of the system page size. The value must be smaller than <i>dwMaximumSize</i>.
 
 If this parameter is 0, the function commits one page. To determine the size of a page on the host computer, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function.
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a> function.
 
 ### -param dwMaximumSize [in]
 
 The maximum size of the heap, in bytes. The 
 <b>HeapCreate</b> function rounds <i>dwMaximumSize</i> up to a multiple of the system page size and then reserves a block of that size in the process's virtual address space for the heap. If allocation requests made by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a> functions exceed the size specified by <i>dwInitialSize</i>, the system commits additional pages of memory for the heap, up to the heap's maximum size. 
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> or 
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heaprealloc">HeapReAlloc</a> functions exceed the size specified by <i>dwInitialSize</i>, the system commits additional pages of memory for the heap, up to the heap's maximum size. 
 
 If <i>dwMaximumSize</i> is not zero, the heap size is fixed and cannot grow beyond the maximum size. Also, the largest memory block that can be allocated from the heap is slightly less than 512 KB for a 32-bit process and slightly less than 1,024 KB for a 64-bit process. Requests to allocate larger blocks fail, even if the maximum size of the heap is large enough to contain the block. 
 
@@ -131,31 +131,31 @@ If <i>dwMaximumSize</i> is not zero, the heap size is fixed and cannot grow beyo
 
 
 If <i>dwMaximumSize</i> is 0, the heap can grow in size. The heap's size is limited only by the available memory. Requests to allocate memory blocks larger than the limit for a fixed-size heap do not automatically fail; instead, the system calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function to obtain the memory that is needed for large blocks. Applications that need to allocate large memory blocks should set <i>dwMaximumSize</i> to 0.
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a> function to obtain the memory that is needed for large blocks. Applications that need to allocate large memory blocks should set <i>dwMaximumSize</i> to 0.
 
 ## -returns
 
 If the function succeeds, the return value is a handle to the newly created heap.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The 
 <b>HeapCreate</b> function creates a private heap object from which the calling process can allocate memory blocks by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function. The initial size determines the number of committed pages that are allocated initially for the heap. The maximum size determines the total number of reserved pages. These pages create a block in the process's virtual address space into which the heap can grow. If requests by 
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function. The initial size determines the number of committed pages that are allocated initially for the heap. The maximum size determines the total number of reserved pages. These pages create a block in the process's virtual address space into which the heap can grow. If requests by 
 <b>HeapAlloc</b> exceed the current size of committed pages, additional pages are automatically committed from this reserved space, if the physical storage is available.
 
 <b>Windows Server 2003 and Windows XP:  </b>By default, the newly created private heap is a standard heap. To enable the low-fragmentation heap, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a> function with a handle to the private heap.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a> function with a handle to the private heap.
 
 The memory of a private heap object is accessible only to the process that created it. If a dynamic-link library (DLL) creates a private heap, the heap is created in the address space of the process that calls the DLL, and it is accessible only to that process.
 
 The system uses memory from the private heap to store heap support structures, so not all of the specified heap size is available to the process. For example, if the 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function requests 64 kilobytes (K) from a heap with a maximum size of 64K, the request may fail because of system overhead.
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a> function requests 64 kilobytes (K) from a heap with a maximum size of 64K, the request may fail because of system overhead.
 
-If <b>HEAP_NO_SERIALIZE</b> is not specified (the simple default), the heap serializes access within the calling process. Serialization ensures mutual exclusion when two or more threads attempt simultaneously to allocate or free blocks from the same heap. There is a small performance cost to serialization, but it must be used whenever multiple threads allocate and free memory from the same heap. The <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heaplock">HeapLock</a> and <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a> functions can be used to block and permit access to a serialized heap.
+If <b>HEAP_NO_SERIALIZE</b> is not specified (the simple default), the heap serializes access within the calling process. Serialization ensures mutual exclusion when two or more threads attempt simultaneously to allocate or free blocks from the same heap. There is a small performance cost to serialization, but it must be used whenever multiple threads allocate and free memory from the same heap. The <a href="/windows/desktop/api/heapapi/nf-heapapi-heaplock">HeapLock</a> and <a href="/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a> functions can be used to block and permit access to a serialized heap.
 
 Setting <b>HEAP_NO_SERIALIZE</b> eliminates mutual exclusion on the heap. Without serialization, two or more threads that use the same heap handle might attempt to allocate or free memory simultaneously, which may cause corruption in the heap. Therefore, <b>HEAP_NO_SERIALIZE</b> can safely be used only in the following situations:
 
@@ -164,37 +164,36 @@ Setting <b>HEAP_NO_SERIALIZE</b> eliminates mutual exclusion on the heap. Withou
 <li>The process has multiple threads, but only one thread calls the heap functions for a specific heap.</li>
 <li>The process has multiple threads, and the application provides its own mechanism for mutual exclusion to a specific heap.</li>
 </ul>
-If the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heaplock">HeapLock</a> and <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a> functions are called on a heap created with the <b>HEAP_NO_SERIALIZE</b> flag, the results are undefined.
+If the <a href="/windows/desktop/api/heapapi/nf-heapapi-heaplock">HeapLock</a> and <a href="/windows/desktop/api/heapapi/nf-heapapi-heapunlock">HeapUnlock</a> functions are called on a heap created with the <b>HEAP_NO_SERIALIZE</b> flag, the results are undefined.
 
-To obtain a handle to the default heap for a process, use the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function. To obtain handles to the default heap and private heaps that are active for the calling process, use the <a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-getprocessheaps">GetProcessHeaps</a> function.
+To obtain a handle to the default heap for a process, use the <a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheap">GetProcessHeap</a> function. To obtain handles to the default heap and private heaps that are active for the calling process, use the <a href="/windows/desktop/api/heapapi/nf-heapapi-getprocessheaps">GetProcessHeaps</a> function.
 
 
 #### Examples
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/enumerating-a-heap">Enumerating a Heap</a>
+<a href="/windows/desktop/Memory/enumerating-a-heap">Enumerating a Heap</a>
 
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">Heap Functions</a>
+<a href="/windows/desktop/Memory/heap-functions">Heap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapalloc">HeapAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapdestroy">HeapDestroy</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapdestroy">HeapDestroy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/heapapi/nf-heapapi-heapvalidate">HeapValidate</a>
+<a href="/windows/desktop/api/heapapi/nf-heapapi-heapvalidate">HeapValidate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
 		  Management Functions</a>
-

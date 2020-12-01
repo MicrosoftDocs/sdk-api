@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Enables Microsoft UI Automation clients to access the underlying <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> implementation of Microsoft Active Accessibility elements.
+Enables Microsoft UI Automation clients to access the underlying <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> implementation of Microsoft Active Accessibility elements.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILegacyIAccessibleProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILegacyIAccessibleProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ILegacyIAccessibleProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ILegacyIAccessibleProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>ILegacyIAccessibleProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-dodefaultaction">DoDefaultAction</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-dodefaultaction">DoDefaultAction</a>
 </td>
 <td align="left" width="63%">
 Performs the default action on the control.
@@ -79,16 +79,16 @@ Performs the default action on the control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-getiaccessible">GetIAccessible</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-getiaccessible">GetIAccessible</a>
 </td>
 <td align="left" width="63%">
-Retrieves an accessible object that corresponds to a UI Automation element that supports the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementinglegacyiaccessible">LegacyIAccessible</a> control pattern.
+Retrieves an accessible object that corresponds to a UI Automation element that supports the <a href="/windows/desktop/WinAuto/uiauto-implementinglegacyiaccessible">LegacyIAccessible</a> control pattern.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-getselection">GetSelection</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-getselection">GetSelection</a>
 </td>
 <td align="left" width="63%">
 Retrieves the selected item or items in the control.
@@ -97,7 +97,7 @@ Retrieves the selected item or items in the control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-select">Select</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-select">Select</a>
 </td>
 <td align="left" width="63%">
 Selects the element.
@@ -106,7 +106,7 @@ Selects the element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-setvalue">SetValue</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the string value of the control.
@@ -124,7 +124,7 @@ Sets the string value of the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_childid">ChildId</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_childid">ChildId</a>
 
 
 </td>
@@ -140,7 +140,7 @@ Specifies the child identifier of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_defaultaction">DefaultAction</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_defaultaction">DefaultAction</a>
 
 
 </td>
@@ -156,7 +156,7 @@ Contains a description of the default action for this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_description">Description</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_description">Description</a>
 
 
 </td>
@@ -172,7 +172,7 @@ Contains the description of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_help">Help</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_help">Help</a>
 
 
 </td>
@@ -188,7 +188,7 @@ Specifies a string  that contains help information for this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_keyboardshortcut">KeyboardShortcut</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_keyboardshortcut">KeyboardShortcut</a>
 
 
 </td>
@@ -204,7 +204,7 @@ Specifies the keyboard shortcut for this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_name">Name</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_name">Name</a>
 
 
 </td>
@@ -220,7 +220,7 @@ Specifies the name of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_role">Role</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_role">Role</a>
 
 
 </td>
@@ -236,7 +236,7 @@ Specifies the role identifier of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_state">State</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_state">State</a>
 
 
 </td>
@@ -252,7 +252,7 @@ Specifies the state of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_value">Value</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_value">Value</a>
 
 
 </td>
@@ -270,4 +270,3 @@ Specifies the value of this element.
 ## -remarks
 
 This interface is implemented by the Microsoft Active Accessibility to UI Automation Proxy to expose native MSAA properties and methods to UI Automation clients that need them for legacy reasons. The proxy automatically supplies this interface for applications or controls that implement Microsoft Active Accessibility natively. This interface is not intended to be implemented by UI Automation applications or controls.
-

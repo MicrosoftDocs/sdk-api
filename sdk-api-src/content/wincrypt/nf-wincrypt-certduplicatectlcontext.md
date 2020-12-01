@@ -50,20 +50,19 @@ api_name:
 
 ## -description
 
-The <b>CertDuplicateCTLContext</b> function duplicates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) context by incrementing its <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a>.
+The <b>CertDuplicateCTLContext</b> function duplicates a <a href="/windows/desktop/SecGloss/c-gly">certificate trust list</a> (CTL) context by incrementing its <a href="/windows/desktop/SecGloss/r-gly">reference count</a>.
 
 ## -parameters
 
 ### -param pCtlContext [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure for which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reference count</a> is being incremented.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> structure for which the <a href="/windows/desktop/SecGloss/r-gly">reference count</a> is being incremented.
 
 ## -returns
 
-Currently, a copy is not made of the context, and the returned pointer to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> is the same as pointer input. If the pointer passed into this function is <b>NULL</b>, <b>NULL</b> is returned.
+Currently, a copy is not made of the context, and the returned pointer to <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_context">CTL_CONTEXT</a> is the same as pointer input. If the pointer passed into this function is <b>NULL</b>, <b>NULL</b> is returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Trust List Functions</a>

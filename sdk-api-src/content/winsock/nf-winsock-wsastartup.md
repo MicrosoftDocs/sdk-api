@@ -64,7 +64,7 @@ TBD
 ### -param lpWSAData [out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-wsadata">WSADATA</a> data structure that is to receive details of the Windows Sockets implementation.
+<a href="/windows/desktop/api/winsock/ns-winsock-wsadata">WSADATA</a> data structure that is to receive details of the Windows Sockets implementation.
 
 
 #### - wVersionRequested [in]
@@ -76,7 +76,7 @@ The highest version of Windows Sockets specification that the caller can use. Th
 If successful, the 
 <b>WSAStartup</b> function returns zero. Otherwise, it returns one of the error codes listed below. 
 
-The <b>WSAStartup</b> function directly returns the extended error code in the return value for this function. A call to the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function is not needed and should  not be used.
+The <b>WSAStartup</b> function directly returns the extended error code in the return value for this function. A call to the <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function is not needed and should  not be used.
 					
 
 <table>
@@ -87,7 +87,7 @@ The <b>WSAStartup</b> function directly returns the extended error code in the r
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSNOTREADY</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSASYSNOTREADY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -98,7 +98,7 @@ The underlying network subsystem is not ready for network communication.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAVERNOTSUPPORTED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAVERNOTSUPPORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -109,7 +109,7 @@ The version of Windows Sockets support requested is not provided by this particu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -120,7 +120,7 @@ A blocking Windows Sockets 1.1 operation is in progress.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEPROCLIM</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEPROCLIM</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -131,7 +131,7 @@ A limit on the number of tasks supported by the Windows Sockets implementation h
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -152,11 +152,11 @@ In order to support various Windows Sockets implementations and applications tha
 <b>WSAStartup</b> passes in the <i>wVersionRequested</i> parameter the highest version of the Windows Sockets specification that the application supports. The Winsock DLL indicates the highest version of the Windows Sockets specification that it can support in its response. The Winsock DLL also replies with version of the Windows Sockets specification that it expects the caller to use.
 
 When an application or DLL calls the 
-<b>WSAStartup</b> function, the Winsock DLL examines the version of the Windows Sockets specification requested by the application passed in the  <i>wVersionRequested</i> parameter. If the version requested by the application is equal to or higher than the lowest version supported by the Winsock DLL, the call succeeds and the Winsock DLL returns detailed information in the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-wsadata">WSADATA</a> structure pointed to by the <i>lpWSAData</i> parameter. The <b>wHighVersion</b> member of the <b>WSADATA</b> structure indicates the highest version of the Windows Sockets specification that the Winsock DLL supports.  The <b>wVersion</b> member of the <b>WSADATA</b> structure indicates the version of the Windows Sockets specification that the Winsock DLL expects the caller to use.
+<b>WSAStartup</b> function, the Winsock DLL examines the version of the Windows Sockets specification requested by the application passed in the  <i>wVersionRequested</i> parameter. If the version requested by the application is equal to or higher than the lowest version supported by the Winsock DLL, the call succeeds and the Winsock DLL returns detailed information in the <a href="/windows/desktop/api/winsock/ns-winsock-wsadata">WSADATA</a> structure pointed to by the <i>lpWSAData</i> parameter. The <b>wHighVersion</b> member of the <b>WSADATA</b> structure indicates the highest version of the Windows Sockets specification that the Winsock DLL supports.  The <b>wVersion</b> member of the <b>WSADATA</b> structure indicates the version of the Windows Sockets specification that the Winsock DLL expects the caller to use.
 
 If the <b>wVersion</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-wsadata">WSADATA</a> structure is unacceptable to the caller, the application or DLL should call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacleanup">WSACleanup</a> to release the Winsock DLL  resources and fail to initialize the Winsock application. In order to support this application or DLL,  it will be necessary to search for an updated version of the Winsock DLL to install on the platform. 
+<a href="/windows/desktop/api/winsock/ns-winsock-wsadata">WSADATA</a> structure is unacceptable to the caller, the application or DLL should call 
+<a href="/windows/desktop/api/winsock/nf-winsock-wsacleanup">WSACleanup</a> to release the Winsock DLL  resources and fail to initialize the Winsock application. In order to support this application or DLL,  it will be necessary to search for an updated version of the Winsock DLL to install on the platform. 
 
 The current version of the Windows Sockets specification is version 2.2. The current Winsock DLL, <i>Ws2_32.dll</i>, supports applications that request  any of the following  versions of Windows Sockets specification: <ul>
 <li>1.0</li>
@@ -183,7 +183,7 @@ On Windows 95 and versions of Windows NT 3.51 and earlier, Windows Sockets ve
 It is legal and possible for an application or DLL written to use a lower version of the Windows Sockets specification that is supported by the Winsock DLL to successfully negotiate this lower version using the  <b>WSAStartup</b> function. For example, an application can request version 1.1 in the <i>wVersionRequested</i> parameter passed to the <b>WSAStartup</b> function on a platform with the Winsock 2.2 DLL. In this case, the application should only rely on features that fit within the version requested. New Ioctl codes, new behavior of existing functions, and new functions should not be used. The version negotiation provided by the <b>WSAStartup</b> was primarily used to allow older Winsock 1.1 applications developed for Windows 95 and   Windows NT 3.51 and earlier to run with the same behavior on later versions of Windows. The <i>Winsock.h header</i> file for Winsock 1.1 support is included with the Windows SDK.
 
 This negotiation in the <b>WSAStartup</b> function allows both the application or DLL that uses Windows Sockets  and the Winsock DLL to support a range of Windows Sockets versions. An application or DLL can use the Winsock DLL if there is any overlap in the version ranges. Detailed information on the Windows Sockets implementation is provided in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-wsadata">WSADATA</a> structure returned by the <b>WSAStartup</b> function.
+<a href="/windows/desktop/api/winsock/ns-winsock-wsadata">WSADATA</a> structure returned by the <b>WSAStartup</b> function.
 
 The following table shows how 
 <b>WSAStartup</b> works with different applications and Winsock DLL versions.<table>
@@ -241,7 +241,7 @@ The following table shows how
 <td>1.0</td>
 <td>—</td>
 <td>—</td>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAVERNOTSUPPORTED</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAVERNOTSUPPORTED</a></td>
 </tr>
 <tr>
 <td>1.0 1.1</td>
@@ -290,18 +290,18 @@ The following table shows how
 
 Once an application or DLL has made a successful 
 <b>WSAStartup</b> call, it can proceed to make other Windows Sockets calls as needed. When it has finished using the services of the Winsock DLL, the application must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacleanup">WSACleanup</a> to allow the Winsock DLL to free internal Winsock resources used by the application.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsacleanup">WSACleanup</a> to allow the Winsock DLL to free internal Winsock resources used by the application.
 
 
 An application can call 
 <b>WSAStartup</b> more than once if it needs to obtain the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/ns-winsock-wsadata">WSADATA</a> structure information more than once. On each such call, the application can specify any version number supported by the Winsock DLL.
+<a href="/windows/desktop/api/winsock/ns-winsock-wsadata">WSADATA</a> structure information more than once. On each such call, the application can specify any version number supported by the Winsock DLL.
 
 The 
 <b>WSAStartup</b> function typically leads to protocol-specific helper DLLs being loaded. As a result, the 
-<b>WSAStartup</b> function should not be called from the DllMain function in a application DLL. This can potentially cause deadlocks. For more information, please see the <a href="https://msdn.microsoft.com/library/ms682583.aspx">DLL Main Function</a>.
+<b>WSAStartup</b> function should not be called from the DllMain function in a application DLL. This can potentially cause deadlocks. For more information, please see the <a href="/windows/win32/dlls/dllmain">DLL Main Function</a>.
 
-An application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacleanup">WSACleanup</a> function for every successful 
+An application must call the <a href="/windows/desktop/api/winsock/nf-winsock-wsacleanup">WSACleanup</a> function for every successful 
 time the <b>WSAStartup</b> function is called.  This means, for example, that if an application calls 
 <b>WSAStartup</b> three times, it must call 
 <b>WSACleanup</b> three times. The first two calls to 
@@ -309,7 +309,7 @@ time the <b>WSAStartup</b> function is called.  This means, for example, that if
 <b>WSACleanup</b> call for the task does all necessary resource deallocation for the task.
 
 
-<div class="alert"><b>Note</b>  An application can call the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function to determine the extended error code for other Windows sockets functions as is normally done in Windows Sockets even if 
+<div class="alert"><b>Note</b>  An application can call the <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> function to determine the extended error code for other Windows sockets functions as is normally done in Windows Sockets even if 
 the <b>WSAStartup</b> function fails or the <b>WSAStartup</b> function was not called to properly initialize Windows Sockets before calling a Windows Sockets function. The <b>WSAGetLastError</b> function is one of the only functions in the Winsock 2.2 DLL that can be called in the case of a <b>WSAStartup</b> failure. </div>
 <div> </div>
 
@@ -387,29 +387,28 @@ int __cdecl main()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632663(v=vs.85)">MAKEWORD</a>
+<a href="/previous-versions/windows/desktop/legacy/ms632663(v=vs.85)">MAKEWORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsacleanup">WSACleanup</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsacleanup">WSACleanup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-send">send</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>
-
+<a href="/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>

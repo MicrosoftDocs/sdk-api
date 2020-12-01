@@ -60,9 +60,8 @@ A pointer to the child class.
 
 ### -param parentClass
 
-A pointer to a pointer to the returned parent class. When you have finished using the class, deleted it by using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function.
+A pointer to a pointer to the returned parent class. When you have finished using the class, deleted it by using the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_delete">MI_Class_Delete</a> function.
 
 ## -returns
 
 This function returns MI_INLINE MI_Result.
-

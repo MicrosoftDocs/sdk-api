@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined timer completion routine. Specify this address when calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a> function. The <b>PTIMERAPCROUTINE</b> type defines a pointer to this callback function. 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a> function. The <b>PTIMERAPCROUTINE</b> type defines a pointer to this callback function. 
 <b>TimerAPCProc</b> is a placeholder for the application-defined function name.
 
 ## -parameters
@@ -59,33 +59,32 @@ An application-defined timer completion routine. Specify this address when calli
 ### -param lpArgToCompletionRoutine [in, optional]
 
 The value passed to the function using the <i>lpArgToCompletionRoutine</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a> function.
+<a href="/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a> function.
 
 ### -param dwTimerLowValue [in]
 
 The low-order portion of the UTC-based time at which the timer was signaled. This value corresponds to the <b>dwLowDateTime</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure. For more information about UTC-based time, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-time">System Time</a>.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure. For more information about UTC-based time, see 
+<a href="/windows/desktop/SysInfo/system-time">System Time</a>.
 
 ### -param dwTimerHighValue [in]
 
-The high-order portion of the UTC-based time at which the timer was signaled. This value corresponds to the <b>dwHighDateTime</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
+The high-order portion of the UTC-based time at which the timer was signaled. This value corresponds to the <b>dwHighDateTime</b> member of the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 ## -remarks
 
 The completion routine is executed by the thread that activates the timer using 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a>. However, the thread must be in an alertable state. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>.
+<a href="/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a>. However, the thread must be in an alertable state. For more information, see 
+<a href="/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>.
 
 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/using-a-waitable-timer-with-an-asynchronous-procedure-call">Using a Waitable Timer with an Asynchronous Procedure Call</a>.
+<a href="/windows/desktop/Sync/using-a-waitable-timer-with-an-asynchronous-procedure-call">Using a Waitable Timer with an Asynchronous Procedure Call</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a>
-
+<a href="/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimer">SetWaitableTimer</a>

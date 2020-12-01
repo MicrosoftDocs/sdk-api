@@ -76,7 +76,7 @@ Flags for enumerating ACM drivers. The following values are defined.
 </tr>
 <tr>
 <td>ACM_DRIVERENUMF_DISABLED</td>
-<td>Disabled ACM drivers should be included in the enumeration. Drivers can be disabled by the user through the Control Panel or by an application using the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverpriority">acmDriverPriority</a> function. If a driver is disabled, the <i>fdwSupport</i> parameter to the callback function will have the ACMDRIVERDETAILS_SUPPORTF_DISABLED flag set.</td>
+<td>Disabled ACM drivers should be included in the enumeration. Drivers can be disabled by the user through the Control Panel or by an application using the <a href="/windows/desktop/api/msacm/nf-msacm-acmdriverpriority">acmDriverPriority</a> function. If a driver is disabled, the <i>fdwSupport</i> parameter to the callback function will have the ACMDRIVERDETAILS_SUPPORTF_DISABLED flag set.</td>
 </tr>
 <tr>
 <td>ACM_DRIVERENUMF_NOLOCAL</td>
@@ -123,9 +123,8 @@ The <b>acmDriverEnum</b> function will return MMSYSERR_NOERROR (zero) if no ACM 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

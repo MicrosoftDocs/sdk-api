@@ -46,9 +46,6 @@ api_name:
  - GPMSOM.CreateGPOLink
 ---
 
-# IGPMSOM::CreateGPOLink
-
-
 ## -description
 
 Links the specified GPO to the specified position in the list of GPOs that are linked to a particular SOM. If another GPO link occupies the specified position, the method inserts the new link ahead of the older link, and moves the older link, and all subsequent links in the list, down by one.
@@ -66,13 +63,7 @@ GPO to link.
 ### -param ppNewGPOLink [out]
 
 Address of a pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolink">IGPMGPOLink</a> interface.
-
-
-#### - objGPMGPO
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a> object to link.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolink">IGPMGPOLink</a> interface.
 
 ## -returns
 
@@ -91,13 +82,12 @@ Attempting to link a GPO to a particular SOM multiple times causes the method to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolink">IGPMGPOLink</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolink">IGPMGPOLink</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>

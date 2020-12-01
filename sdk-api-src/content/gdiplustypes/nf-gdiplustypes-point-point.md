@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object and initializes the 
+Creates a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a> object and initializes the 
 			<b>X</b> and 
 			<b>Y</b> data members to zero. This is the default constructor.
 
@@ -59,13 +59,12 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/n
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-class-point-constructors">Point Constructors</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-class-point-constructors">Point Constructors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
-
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>

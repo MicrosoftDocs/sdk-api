@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the set of 
    valid types of a VDS object.
@@ -66,77 +66,77 @@ This value is reserved.
 
 ### -field VDS_OT_PROVIDER
 
-The object is a <a href="https://docs.microsoft.com/windows/desktop/VDS/provider-object">provider</a>.
+The object is a <a href="/windows/desktop/VDS/provider-object">provider</a>.
 
 ### -field VDS_OT_PACK
 
-The object is a <a href="https://docs.microsoft.com/windows/desktop/VDS/pack-object">disk pack</a>.
+The object is a <a href="/windows/desktop/VDS/pack-object">disk pack</a>.
 
 ### -field VDS_OT_VOLUME
 
-The object is a <a href="https://docs.microsoft.com/windows/desktop/VDS/volume-object">volume</a>.
+The object is a <a href="/windows/desktop/VDS/volume-object">volume</a>.
 
 ### -field VDS_OT_VOLUME_PLEX
 
-The object is a <a href="https://docs.microsoft.com/windows/desktop/VDS/volume-plex-object">volume plex</a>.
+The object is a <a href="/windows/desktop/VDS/volume-plex-object">volume plex</a>.
 
 ### -field VDS_OT_DISK
 
-The object is a <a href="https://docs.microsoft.com/windows/desktop/VDS/disk-object">disk</a>.
+The object is a <a href="/windows/desktop/VDS/disk-object">disk</a>.
 
 ### -field VDS_OT_SUB_SYSTEM
 
-The object is a <a href="https://docs.microsoft.com/windows/desktop/VDS/subsystem-object">subsystem</a>.
+The object is a <a href="/windows/desktop/VDS/subsystem-object">subsystem</a>.
 
 ### -field VDS_OT_CONTROLLER
 
-The object is a <a href="https://docs.microsoft.com/windows/desktop/VDS/controller-object">controller</a>.
+The object is a <a href="/windows/desktop/VDS/controller-object">controller</a>.
 
 ### -field VDS_OT_DRIVE
 
-The object is a <a href="https://docs.microsoft.com/windows/desktop/VDS/drive-object">drive</a>.
+The object is a <a href="/windows/desktop/VDS/drive-object">drive</a>.
 
 ### -field VDS_OT_LUN
 
-The object is a <a href="https://docs.microsoft.com/windows/desktop/VDS/lun-object">LUN</a>.
+The object is a <a href="/windows/desktop/VDS/lun-object">LUN</a>.
 
 ### -field VDS_OT_LUN_PLEX
 
-The object is a <a href="https://docs.microsoft.com/windows/desktop/VDS/lun-plex-object">LUN plex</a>.
+The object is a <a href="/windows/desktop/VDS/lun-plex-object">LUN plex</a>.
 
 ### -field VDS_OT_PORT
 
-The object is a <a href="https://docs.microsoft.com/windows/desktop/VDS/controller-port-object">controller port</a>.
+The object is a <a href="/windows/desktop/VDS/controller-port-object">controller port</a>.
 
 ### -field VDS_OT_PORTAL
 
-The object is an <a href="https://docs.microsoft.com/windows/desktop/VDS/portal-object">iSCSI portal</a>.
+The object is an <a href="/windows/desktop/VDS/portal-object">iSCSI portal</a>.
 
 ### -field VDS_OT_TARGET
 
-The object is an <a href="https://docs.microsoft.com/windows/desktop/VDS/target-object">iSCSI target</a>.
+The object is an <a href="/windows/desktop/VDS/target-object">iSCSI target</a>.
 
 ### -field VDS_OT_PORTAL_GROUP
 
-The object is an <a href="https://docs.microsoft.com/windows/desktop/VDS/portal-group-object">iSCSI portal group</a>.
+The object is an <a href="/windows/desktop/VDS/portal-group-object">iSCSI portal group</a>.
 
 ### -field VDS_OT_STORAGE_POOL
 
-The object is a <a href="https://docs.microsoft.com/windows/desktop/VDS/storage-pool-object">storage pool</a>.
+The object is a <a href="/windows/desktop/VDS/storage-pool-object">storage pool</a>.
 
 <b>Windows Server 2008, Windows Vista and Windows Server 2003:  </b>Not supported.
 
 ### -field VDS_OT_HBAPORT
 
-The object is an <a href="https://docs.microsoft.com/windows/desktop/VDS/startup-and-service-objects">HBA port</a>.
+The object is an <a href="/windows/desktop/VDS/startup-and-service-objects">HBA port</a>.
 
 ### -field VDS_OT_INIT_ADAPTER
 
-The object is an <a href="https://docs.microsoft.com/windows/desktop/VDS/startup-and-service-objects">iSCSI initiator adapter</a>.
+The object is an <a href="/windows/desktop/VDS/startup-and-service-objects">iSCSI initiator adapter</a>.
 
 ### -field VDS_OT_INIT_PORTAL
 
-The object is an <a href="https://docs.microsoft.com/windows/desktop/VDS/startup-and-service-objects">iSCSI initiator portal</a>.
+The object is an <a href="/windows/desktop/VDS/startup-and-service-objects">iSCSI initiator portal</a>.
 
 ### -field VDS_OT_ASYNC
 
@@ -160,8 +160,8 @@ This value is reserved.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsproviderprivate-getobject">IVdsProviderPrivate::GetObject</a> 
-    and <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-getobject">IVdsService::GetObject</a> methods pass a <b>VDS_OBJECT_TYPE</b> 
+The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsproviderprivate-getobject">IVdsProviderPrivate::GetObject</a> 
+    and <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-getobject">IVdsService::GetObject</a> methods pass a <b>VDS_OBJECT_TYPE</b> 
     value as an argument to indicate an object type.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_OBJECT_TYPE</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_OBJECT_TYPE</b> enumeration constant.</div>
@@ -169,13 +169,12 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsproviderprivate-getobject">IVdsProviderPrivate::GetObject</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsproviderprivate-getobject">IVdsProviderPrivate::GetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsservice-getobject">IVdsService::GetObject</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsservice-getobject">IVdsService::GetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
-
+<a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>

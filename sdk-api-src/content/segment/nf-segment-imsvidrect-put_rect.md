@@ -56,7 +56,7 @@ The <b>put_Rect</b> method copies the values of another rectangle to this rectan
 
 ### -param RectVal [in]
 
-Specifies a pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect</a> interface of the rectangle to copy.
+Specifies a pointer to the <a href="/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect</a> interface of the rectangle to copy.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect Interface</a>
-
+<a href="/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect Interface</a>

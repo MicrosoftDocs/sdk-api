@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-create an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> based on the serialized property storage associated with the first ItemID.
+create an instance of the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> based on the serialized property storage associated with the first ItemID.
 
 ## -parameters
 
@@ -60,11 +60,11 @@ A PIDL containing the serialized property storage.
 
 ### -param riid [in]
 
-A reference to the IID of the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> that is obtained by using __uuidof(IPropertyStore).
+A reference to the IID of the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> that is obtained by using __uuidof(IPropertyStore).
 
 ### -param ppv [out]
 
-When this method returns, contains the address of a pointer to a new <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
+When this method returns, contains the address of a pointer to a new <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>.
 
 ## -returns
 
@@ -72,9 +72,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
+<a href="/windows/desktop/api/shidfact/nl-shidfact-citemidfactory">CItemIDFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
-
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>

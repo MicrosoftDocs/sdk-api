@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Provides an enhanced version of <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-addelement">IMFMediaEngineSrcElements::AddElement</a> to add the key system intended to be used with content to an element.
+Provides an enhanced version of <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaenginesrcelements-addelement">IMFMediaEngineSrcElements::AddElement</a> to add the key system intended to be used with content to an element.
 
 ## -parameters
 
@@ -76,5 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesrcelementsex">IMFMediaEngineSrcElementsEx</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaenginesrcelementsex">IMFMediaEngineSrcElementsEx</a>

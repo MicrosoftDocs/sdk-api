@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SWbemQueryQualifiedName</b> structure stores property names for the <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a> method.
+The <b>SWbemQueryQualifiedName</b> structure stores property names for the <a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a> method.
 
 ## -struct-fields
 
@@ -86,13 +86,12 @@ Unused. Always <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbemquery">IWbemQuery</a>
+<a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbemquery">IWbemQuery</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a>
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a>
 
 
 
 <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemRpnEncodedQuery</a>
-

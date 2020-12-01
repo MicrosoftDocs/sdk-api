@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets a stored Shell item that [SHCreateItemFromParsingName](/windows/win32/api/shobjidl_core/nf-shobjidl_core-shcreateitemfromparsingname) created from a parsing name.
+Gets a stored Shell item that [SHCreateItemFromParsingName](./nf-shobjidl_core-shcreateitemfromparsingname.md) created from a parsing name.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>, typicall
 
 Type: <b>void**</b>
 
-When this method returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
+When this method returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>.
 
 ## -returns
 
@@ -78,5 +78,4 @@ We recommend that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparseandcreateitem">IParseAndCreateItem</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparseandcreateitem">IParseAndCreateItem</a>

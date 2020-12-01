@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Holds information about a handle returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a>.
+Holds information about a handle returned by <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a>.
 
 ## -struct-fields
 
@@ -60,15 +60,15 @@ The handle value.
 
 ### -field Flags
 
-Flags that indicate what parts of this structure are valid. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_handle_flags">PSS_HANDLE_FLAGS</a>.
+Flags that indicate what parts of this structure are valid. For more information, see <a href="/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_handle_flags">PSS_HANDLE_FLAGS</a>.
 
 ### -field ObjectType
 
-The type of the object that the handle references. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_object_type">PSS_OBJECT_TYPE</a>.
+The type of the object that the handle references. For more information, see <a href="/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_object_type">PSS_OBJECT_TYPE</a>.
 
 ### -field CaptureTime
 
-The capture time of this information. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
+The capture time of this information. For more information, see <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>.
 
 ### -field Attributes
 
@@ -104,7 +104,7 @@ The length of <b>TypeName</b>, in bytes.
 
 ### -field TypeName
 
-The type name of the object referenced by this handle. The buffer may not terminated by a <b>NULL</b> character. The pointer is valid for the lifetime of the walk marker passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a>.
+The type name of the object referenced by this handle. The buffer may not terminated by a <b>NULL</b> character. The pointer is valid for the lifetime of the walk marker passed to <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a>.
 
 ### -field ObjectNameLength
 
@@ -112,7 +112,7 @@ The length of <b>ObjectName</b>, in bytes.
 
 ### -field ObjectName
 
-Specifies the name of the object referenced by this handle. The buffer may not terminated by a <b>NULL</b> character. The pointer is valid for the lifetime of the walk marker passed to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a>.
+Specifies the name of the object referenced by this handle. The buffer may not terminated by a <b>NULL</b> character. The pointer is valid for the lifetime of the walk marker passed to <a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a>.
 
 ### -field TypeSpecificInformation
 
@@ -164,7 +164,7 @@ The parent process ID.
 
 ##### Flags
 
-Flags about the process. For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_process_flags">PSS_PROCESS_FLAGS</a>.
+Flags about the process. For more information, see <a href="/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_process_flags">PSS_PROCESS_FLAGS</a>.
 
 
 
@@ -358,9 +358,8 @@ Reserved for use by the operating system.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a> returns a <b>PSS_HANDLE_ENTRY</b> structure when the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_walk_information_class">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_HANDLES</b>.
+<a href="/previous-versions/windows/desktop/api/processsnapshot/nf-processsnapshot-psswalksnapshot">PssWalkSnapshot</a> returns a <b>PSS_HANDLE_ENTRY</b> structure when the  <a href="/previous-versions/windows/desktop/api/processsnapshot/ne-processsnapshot-pss_walk_information_class">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_HANDLES</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
-
+<a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>

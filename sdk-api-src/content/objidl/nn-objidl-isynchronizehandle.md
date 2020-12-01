@@ -54,7 +54,7 @@ Retrieves a handle associated with a synchronization object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISynchronizeHandle</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISynchronizeHandle</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISynchronizeHandle</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISynchronizeHandle</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISynchronizeHandle</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isynchronizehandle-gethandle">GetHandle</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isynchronizehandle-gethandle">GetHandle</a>
 </td>
 <td align="left" width="63%">
 Retrieves a handle to the synchronization object.
@@ -80,5 +80,4 @@ Retrieves a handle to the synchronization object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isynchronizeevent">ISynchronizeEvent</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-isynchronizeevent">ISynchronizeEvent</a>

@@ -54,7 +54,7 @@ Returns a client API wrapper object and to unmarshal property and method request
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationPatternHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationPatternHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationPatternHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationPatternHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUIAutomationPatternHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationpatternhandler-createclientwrapper">CreateClientWrapper</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationpatternhandler-createclientwrapper">CreateClientWrapper</a>
 </td>
 <td align="left" width="63%">
 Creates an object that enables a client application to interact with a custom <i>control pattern</i>.
@@ -78,7 +78,7 @@ Creates an object that enables a client application to interact with a custom <i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationpatternhandler-dispatch">Dispatch</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationpatternhandler-dispatch">Dispatch</a>
 </td>
 <td align="left" width="63%">
 Dispatches a method or property getter to a custom <i>control pattern</i> provider.
@@ -89,5 +89,4 @@ Dispatches a method or property getter to a custom <i>control pattern</i> provid
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>

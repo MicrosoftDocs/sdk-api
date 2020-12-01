@@ -53,7 +53,7 @@ api_name:
 Default constructor for <code>XMUINT2</code>.
     
 
-Default constructor for <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a>.
+Default constructor for <a href="/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -69,9 +69,8 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/dire
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a>
+<a href="/windows/desktop/direct3dhlsl/xmuint2">XMUINT2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmuint2-xmuint2(constuint32_t)">XMUINT2 Constructors</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmuint2-xmuint2(constuint32_t)">XMUINT2 Constructors</a>

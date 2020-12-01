@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-setupapi-logging-l1-1-0.dll
 api_name:
  - SetupOpenLog
+req.apiset: ext-ms-win-setupapi-logging-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupOpenLog function
@@ -63,7 +64,7 @@ Must be FALSE.
 
 ## -returns
 
-<b>TRUE</b> if the log file can be opened. <b>FALSE</b> if an error occurs. To get the  error code, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<b>TRUE</b> if the log file can be opened. <b>FALSE</b> if an error occurs. To get the  error code, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -71,9 +72,8 @@ Must be FALSE.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
-
+<a href="/windows/desktop/SetupApi/overview">Overview</a>

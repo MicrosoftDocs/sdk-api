@@ -65,13 +65,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iapartmentshutdown">IApartmentShutdown</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iapartmentshutdown">IApartmentShutdown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-roregisterforapartmentshutdown">RoRegisterForApartmentShutdown</a>
+<a href="/windows/desktop/api/roapi/nf-roapi-roregisterforapartmentshutdown">RoRegisterForApartmentShutdown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rounregisterforapartmentshutdown">RoUnregisterForApartmentShutdown</a>
-
+<a href="/windows/desktop/api/roapi/nf-roapi-rounregisterforapartmentshutdown">RoUnregisterForApartmentShutdown</a>

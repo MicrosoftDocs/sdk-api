@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Performs the drawing behaviors when an update to <a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">VirtualSurfaceImageSource</a> is requested.
+Performs the drawing behaviors when an update to <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceimagesourcenative">VirtualSurfaceImageSource</a> is requested.
 
 ## -parameters
 
@@ -64,9 +64,8 @@ This method is implemented by the developer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
+<a href="/previous-versions/windows/apps/hh825871(v=win.10)">DirectX and XAML interop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceupdatescallbacknative">IVirtualSurfaceUpdatesCallbackNative</a>
-
+<a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-ivirtualsurfaceupdatescallbacknative">IVirtualSurfaceUpdatesCallbackNative</a>

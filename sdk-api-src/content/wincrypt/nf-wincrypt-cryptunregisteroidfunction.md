@@ -70,7 +70,7 @@ Name of the function being unregistered.
 
 ### -param pszOID [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that corresponds to the name of the function being unregistered. If the high order word of the OID is nonzero, <i>pszOID</i> is a pointer to either an OID string such as "2.5.29.1" or an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> string such as "file." If the high order word of the OID is zero, the low order word specifies the integer identifier to be used as the object identifier.
+A pointer to the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that corresponds to the name of the function being unregistered. If the high order word of the OID is nonzero, <i>pszOID</i> is a pointer to either an OID string such as "2.5.29.1" or an <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> string such as "file." If the high order word of the OID is zero, the low order word specifies the integer identifier to be used as the object identifier.
 
 ## -returns
 
@@ -80,5 +80,4 @@ If the function fails, the return value is zero (<b>FALSE</b>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>

@@ -56,7 +56,7 @@ Disables thread profiling.
 
 ### -param PerformanceDataHandle [in]
 
-The handle that the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a> function returned.
+The handle that the <a href="/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a> function returned.
 
 ## -returns
 
@@ -68,9 +68,8 @@ You must call this function from the same thread that enabled profiling for the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-enablethreadprofiling">EnableThreadProfiling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-querythreadprofiling">QueryThreadProfiling</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-querythreadprofiling">QueryThreadProfiling</a>

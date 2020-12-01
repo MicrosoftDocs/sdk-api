@@ -46,6 +46,7 @@ api_location:
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
  - EndPaint
+req.apiset: ext-ms-win-ntuser-draw-l1-1-0 (introduced in Windows 8)
 ---
 
 # EndPaint function
@@ -53,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EndPaint</b> function marks the end of painting in the specified window. This function is required for each call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function, but only after painting is complete.
+The <b>EndPaint</b> function marks the end of painting in the specified window. This function is required for each call to the <a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function, but only after painting is complete.
 
 ## -parameters
 
@@ -63,7 +64,7 @@ Handle to the window that has been repainted.
 
 ### -param lpPaint [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure that contains the painting information retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>.
+Pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a> structure that contains the painting information retrieved by <a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>.
 
 ## -returns
 
@@ -71,30 +72,29 @@ The return value is always nonzero.
 
 ## -remarks
 
-If the caret was hidden by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>, <b>EndPaint</b> restores the caret to the screen.
+If the caret was hidden by <a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>, <b>EndPaint</b> restores the caret to the screen.
 
-<b>EndPaint</b> releases the display device context that <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> retrieved.
+<b>EndPaint</b> releases the display device context that <a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> retrieved.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/drawing-in-the-client-area">Drawing in the Client Area</a>.
+For an example, see <a href="/windows/desktop/gdi/drawing-in-the-client-area">Drawing in the Client Area</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-paintstruct">PAINTSTRUCT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
-
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>

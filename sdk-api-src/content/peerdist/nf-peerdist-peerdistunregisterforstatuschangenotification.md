@@ -56,7 +56,7 @@ The <b>PeerDistUnregisterForStatusChangeNotification</b> function unregisters th
 
 ### -param hPeerDist [in]
 
-A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
+A <b>PEERDIST_INSTANCE_HANDLE</b> returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 ## -returns
 
@@ -93,13 +93,12 @@ The <i>hPeerDist</i> handle is invalid.
 
 ## -remarks
 
-This function cancels any registered notification  previously set by a <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotification">PeerDistRegisterForStatusChangeNotification</a> function call.
+This function cancels any registered notification  previously set by a <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotification">PeerDistRegisterForStatusChangeNotification</a> function call.
 
-To confirm successfully canceled operations, a call should be made to <a href="https://msdn.microsoft.com/library/ms683209.aspx">GetOverlappedResult</a> using the <b>OVERLAPPED</b> structure returned by <a href="https://msdn.microsoft.com/library/aa364986.aspx">GetQueuedCompletionStatus</a> with an expected return of <b>FALSE</b>.
+To confirm successfully canceled operations, a call should be made to <a href="/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> using the <b>OVERLAPPED</b> structure returned by <a href="/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus">GetQueuedCompletionStatus</a> with an expected return of <b>FALSE</b>.
 
-Additionally, calling <a href="https://msdn.microsoft.com/library/ms679360.aspx">GetLastError</a> immediately after a successful <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotification">PeerDistRegisterForStatusChangeNotification</a> will return the <b>ERROR_OPERATION_ABORTED</b> error code.
+Additionally, calling <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> immediately after a successful <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotification">PeerDistRegisterForStatusChangeNotification</a> will return the <b>ERROR_OPERATION_ABORTED</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotification">PeerDistRegisterForStatusChangeNotification</a>
-
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistregisterforstatuschangenotification">PeerDistRegisterForStatusChangeNotification</a>

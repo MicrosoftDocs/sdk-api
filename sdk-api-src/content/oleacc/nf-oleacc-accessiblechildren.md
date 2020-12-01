@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the child ID or <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> of each child within an accessible container object.
+Retrieves the child ID or <a href="/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> of each child within an accessible container object.
 
 ## -parameters
 
@@ -58,29 +58,29 @@ Retrieves the child ID or <a href="https://docs.microsoft.com/windows/desktop/Wi
 
 Type: <b>IAccessible*</b>
 
-Pointer to the container object's <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface.
+Pointer to the container object's <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface.
 
 ### -param iChildStart [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Specifies the zero-based index of the first child that is retrieved. This parameter is an index, not a child ID, and it is usually is set to zero (0).
 
 ### -param cChildren [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
-Specifies the number of children to retrieve. To retrieve the current number of children, an application calls <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchildcount">IAccessible::get_accChildCount</a>.
+Specifies the number of children to retrieve. To retrieve the current number of children, an application calls <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchildcount">IAccessible::get_accChildCount</a>.
 
 ### -param rgvarChildren [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>*</b>
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a> structures that receives information about the container's children. If the <b>vt</b> member of an array element is VT_I4, then the <b>lVal</b> member for that element is the child ID. If the <b>vt</b> member of an array element is VT_DISPATCH, then the <b>pdispVal</b> member for that element is the address of the child object's <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface.
+Pointer to an array of <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a> structures that receives information about the container's children. If the <b>vt</b> member of an array element is VT_I4, then the <b>lVal</b> member for that element is the child ID. If the <b>vt</b> member of an array element is VT_DISPATCH, then the <b>pdispVal</b> member for that element is the address of the child object's <a href="/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interface.
 
 ### -param pcObtained [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
 Address of a variable that receives the number of elements in the <i>rgvarChildren</i> array that is populated by the <b>AccessibleChildren</b> function. This value is the same as that of the <i>cChildren</i> parameter; however, if you request more children than exist, this value will be less than that of <i>cChildren</i>.
 
@@ -90,7 +90,7 @@ Type: <b>STDAPI</b>
 
 If successful, returns S_OK.
 
-If not successful, returns one of the following or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>.
+If not successful, returns one of the following or another standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>.
 
 <table>
 <tr>
@@ -123,13 +123,13 @@ The function succeeded, but there are fewer elements in the <i>rgvarChildren</i>
 
 ## -remarks
 
-To retrieve information about all of the children in a container, the <i>iChildStart</i> parameter  must be zero (0), and <i>cChildren</i> must be the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchildcount">IAccessible::get_accChildCount</a>.
+To retrieve information about all of the children in a container, the <i>iChildStart</i> parameter  must be zero (0), and <i>cChildren</i> must be the value returned by <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchildcount">IAccessible::get_accChildCount</a>.
 
-When calling this function to obtain information about the children of a user interface element, it is recommended that clients obtain information about all of the children. For example, <i>iChildStart</i> must be zero (0), and <i>cChildren</i> must be the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchildcount">IAccessible::get_accChildCount</a>.
+When calling this function to obtain information about the children of a user interface element, it is recommended that clients obtain information about all of the children. For example, <i>iChildStart</i> must be zero (0), and <i>cChildren</i> must be the value returned by <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accchildcount">IAccessible::get_accChildCount</a>.
 
-If a child ID is returned for an element, then the container must provide information about the child element. To obtain information about the element, clients use the container's  <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer and specify the obtained child ID in calls to the <b>IAccessible</b> properties.
+If a child ID is returned for an element, then the container must provide information about the child element. To obtain information about the element, clients use the container's  <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer and specify the obtained child ID in calls to the <b>IAccessible</b> properties.
 
-Clients must call the <a href="https://msdn.microsoft.com/library/ms682317(VS.85).aspx">IUnknown::Release</a> method for any <a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interfaces retrieved by this function, and free the array when it is no longer required.
+Clients must call the <a href="/windows/win32/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method for any <a href="/windows/desktop/WinAuto/idispatch-interface">IDispatch</a> interfaces retrieved by this function, and free the array when it is no longer required.
 
 
 #### Examples
@@ -215,13 +215,12 @@ HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>
+<a href="/windows/desktop/WinAuto/idispatch-interface">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
-
+<a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>

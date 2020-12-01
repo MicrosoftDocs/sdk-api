@@ -56,7 +56,7 @@ Inserts text at the selection or insertion point.
 
 ### -param ec [in]
 
-Identifies the edit context. This is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
+Identifies the edit context. This is obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param dwFlags [in]
 
@@ -179,29 +179,28 @@ Selection is read-only.
 
 ## -remarks
 
-To insert an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object instead of text, use <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-insertembeddedatselection">ITfInsertAtSelection::InsertEmbeddedAtSelection</a>.
+To insert an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object instead of text, use <a href="/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-insertembeddedatselection">ITfInsertAtSelection::InsertEmbeddedAtSelection</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinsertatselection">ITfInsertAtSelection
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinsertatselection">ITfInsertAtSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-insertembeddedatselection">ITfInsertAtSelection::InsertEmbeddedAtSelection
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinsertatselection-insertembeddedatselection">ITfInsertAtSelection::InsertEmbeddedAtSelection
       </a>
-

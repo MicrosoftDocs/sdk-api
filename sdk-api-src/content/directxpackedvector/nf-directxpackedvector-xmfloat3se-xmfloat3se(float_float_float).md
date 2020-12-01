@@ -52,7 +52,7 @@ api_name:
 
 Initializes a new instance of <code>XMFLOAT3SE</code> from three <code>float</code> arguments.
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a> from three
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a> from three
   <code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
@@ -104,9 +104,8 @@ Because of the change in floating point format during the instantiation of an in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3se">XMFLOAT3SE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmfloat3se-ctor">XMFLOAT3SE Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmfloat3se-ctor">XMFLOAT3SE Constructors</a>

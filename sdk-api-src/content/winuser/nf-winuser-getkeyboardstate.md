@@ -50,6 +50,7 @@ api_location:
  - MinUser.dll
 api_name:
  - GetKeyboardState
+req.apiset: ext-ms-win-ntuser-rawinput-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetKeyboardState function
@@ -73,17 +74,17 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-An application can call this function to retrieve the current status of all the virtual keys. The status changes as a thread removes keyboard messages from its message queue. The status does not change as keyboard messages are posted to the thread's message queue, nor does it change as keyboard messages are posted to or retrieved from message queues of other threads. (Exception: Threads that are connected through <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-attachthreadinput">AttachThreadInput</a> share the same keyboard state.)
+An application can call this function to retrieve the current status of all the virtual keys. The status changes as a thread removes keyboard messages from its message queue. The status does not change as keyboard messages are posted to the thread's message queue, nor does it change as keyboard messages are posted to or retrieved from message queues of other threads. (Exception: Threads that are connected through <a href="/windows/desktop/api/winuser/nf-winuser-attachthreadinput">AttachThreadInput</a> share the same keyboard state.)
 
 When the function returns, each member of the array pointed to by the 
 				<i>lpKeyState</i> parameter contains status data for a virtual key. If the high-order bit is 1, the key is down; otherwise, it is up. If the key is a toggle key, for example CAPS LOCK, then the low-order bit is 1 when the key is toggled and is 0 if the key is untoggled.  The low-order bit is meaningless for non-toggle keys. A toggle key is said to be toggled when it is turned on.
 A toggle key's indicator light (if any) on the keyboard will be on when the key is toggled, and off when the key is untoggled. 
 
-To retrieve status information for an individual key, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a> function. To retrieve the current state for an individual key regardless of whether the corresponding keyboard message has been retrieved from the message queue, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a> function.
+To retrieve status information for an individual key, use the <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a> function. To retrieve the current state for an individual key regardless of whether the corresponding keyboard message has been retrieved from the message queue, use the <a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a> function.
 
 An application can use the virtual-key code constants <b>VK_SHIFT</b>, <b>VK_CONTROL</b> and <b>VK_MENU</b> as indices into the array pointed to by 
 				<i>lpKeyState</i>. This gives the status of the SHIFT, CTRL, or ALT keys without distinguishing between left and right. An application can also use the following virtual-key code constants as indices to distinguish between the left and right instances of those keys: 
@@ -110,7 +111,7 @@ An application can use the virtual-key code constants <b>VK_SHIFT</b>, <b>VK_CON
 </table>
  
 
-These left- and right-distinguishing constants are available to an application only through the <b>GetKeyboardState</b>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a> functions.
+These left- and right-distinguishing constants are available to an application only through the <b>GetKeyboardState</b>, <a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a> functions.
 
 ## -see-also
 
@@ -118,19 +119,19 @@ These left- and right-distinguishing constants are available to an application o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getasynckeystate">GetAsyncKeyState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getkeystate">GetKeyState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-mapvirtualkeya">MapVirtualKey</a>
 
 
 
@@ -138,5 +139,4 @@ These left- and right-distinguishing constants are available to an application o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setkeyboardstate">SetKeyboardState</a>

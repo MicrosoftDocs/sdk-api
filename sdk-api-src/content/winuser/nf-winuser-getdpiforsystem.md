@@ -65,11 +65,10 @@ The system DPI value.
 
 ## -remarks
 
-The return value will be dependent based upon the calling context. If the current thread has a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> value of <b>DPI_AWARENESS_UNAWARE</b>, the return value will be 96. That is because the current context always assumes a DPI of 96. For any other <b>DPI_AWARENESS</b> value, the return value will be the actual system DPI.
+The return value will be dependent based upon the calling context. If the current thread has a <a href="/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a> value of <b>DPI_AWARENESS_UNAWARE</b>, the return value will be 96. That is because the current context always assumes a DPI of 96. For any other <b>DPI_AWARENESS</b> value, the return value will be the actual system DPI.
 
 You should not cache the system DPI, but should use <b>GetDpiForSystem</b> whenever you need the system DPI value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a>
-
+<a href="/windows/desktop/api/windef/ne-windef-dpi_awareness">DPI_AWARENESS</a>

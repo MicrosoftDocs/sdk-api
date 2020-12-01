@@ -60,17 +60,16 @@ This property is read-only.
 
 ## -remarks
 
-To read this property, a user must have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_CONFIG</a> access right.
+To read this property, a user must have the <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farQUERY_CONFIG</a> access right.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxactivity">FaxActivity</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxactivity">FaxActivity</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxactivity">IFaxActivity</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxactivity">IFaxActivity</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-monitoring-fax-activity">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-monitoring-fax-activity">Visual Basic Example</a>

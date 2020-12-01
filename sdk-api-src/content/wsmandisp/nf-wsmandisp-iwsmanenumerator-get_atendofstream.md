@@ -52,8 +52,8 @@ api_name:
 ## -description
 
 Indicates that the end of items in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a> object has been reached by calls to 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-readitem">IWSManEnumerator::ReadItem</a>.
+    <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a> object has been reached by calls to 
+    <a href="/windows/desktop/api/wsmandisp/nf-wsmandisp-iwsmanenumerator-readitem">IWSManEnumerator::ReadItem</a>.
 
 This property is read-only.
 
@@ -61,13 +61,12 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a>
+<a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/session-enumerate">Session.Enumerate</a>
+<a href="/windows/desktop/WinRM/session-enumerate">Session.Enumerate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>
-
+<a href="/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>

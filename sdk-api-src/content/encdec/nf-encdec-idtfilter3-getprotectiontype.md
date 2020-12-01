@@ -56,7 +56,7 @@ The <b>GetProtectionType</b> method retrieves the type of content protection tha
 
 ### -param pProtectionType [out]
 
-Receives the current protection type, specified as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/ne-encdec-prottype">ProtType</a> enumeration type.
+Receives the current protection type, specified as a member of the <a href="/previous-versions/windows/desktop/api/encdec/ne-encdec-prottype">ProtType</a> enumeration type.
 
 ## -returns
 
@@ -82,5 +82,4 @@ Success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter3">IDTFilter3 Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter3">IDTFilter3 Interface</a>

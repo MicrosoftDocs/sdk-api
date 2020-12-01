@@ -68,5 +68,4 @@ This method is implemented in MSXML 1.0. It is no longer supported by Microsoft 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msxml/nn-msxml-ixmlelementcollection">IXMLElementCollection</a>
-
+<a href="/windows/desktop/api/msxml/nn-msxml-ixmlelementcollection">IXMLElementCollection</a>

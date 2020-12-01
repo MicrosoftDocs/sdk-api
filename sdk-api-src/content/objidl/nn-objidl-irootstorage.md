@@ -52,11 +52,11 @@ api_name:
 
 The 
 <b>IRootStorage</b> interface contains a single method that switches a storage object to a different underlying file and saves the storage object to that file. The save operation occurs even with low-memory conditions and uncommitted changes to the storage object. A subsequent call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a> is guaranteed to not consume additional memory.
+<a href="/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a> is guaranteed to not consume additional memory.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRootStorage</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRootStorage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRootStorage</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRootStorage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IRootStorage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irootstorage-switchtofile">SwitchToFile</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-irootstorage-switchtofile">SwitchToFile</a>
 </td>
 <td align="left" width="63%">
 Copies the file underlying this root storage object, and then associates this storage with the copied file.
@@ -82,9 +82,8 @@ Copies the file underlying this root storage object, and then associates this st
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile">StgCreateDocfile</a>
-
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile">StgCreateDocfile</a>

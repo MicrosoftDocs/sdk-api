@@ -66,7 +66,7 @@ The port number on the HBA that the iSCSI initiator service use to perform <b>Se
 
 ### -param Portal [in]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a> that specifies the target portal that the iSCSI initiator service removes from its list of portals.
+A pointer to a structure of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a> that specifies the target portal that the iSCSI initiator service removes from its list of portals.
 
 ## -returns
 
@@ -74,10 +74,9 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a>
 
 ## -remarks
 
 > [!NOTE]
 > The iscsidsc.h header defines RemoveIScsiSendTargetPortal as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a> message. The derived class handles the message.
 
 ## -parameters
 
@@ -59,11 +59,10 @@ Deprecated. Calls the derived class from the base class on receipt of a <a href=
 
 Type: <b>tagNMHDR*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that receives the initialization parameters passed to the window procedure (WinProc) of the class.
+A pointer to a <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that receives the initialization parameters passed to the window procedure (WinProc) of the class.
 
 ## -returns
 
 Type: <b>LRESULT</b>
 
 The return value specifies the result of the notification processing; it depends on the notification sent.
-

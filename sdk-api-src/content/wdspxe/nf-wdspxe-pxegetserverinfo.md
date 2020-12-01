@@ -92,5 +92,4 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
-
+<a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>

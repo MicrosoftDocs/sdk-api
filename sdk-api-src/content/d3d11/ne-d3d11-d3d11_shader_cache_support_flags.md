@@ -68,9 +68,8 @@ Indicates that the driver supports an OS-managed shader cache that stores compil
 
 ## -remarks
 
-This enum is used by the [D3D11_FEATURE_DATA_SHADER_CACHE](/windows/win32/api/d3d11/ns-d3d11-d3d11_feature_data_shader_cache) structure.
+This enum is used by the [D3D11_FEATURE_DATA_SHADER_CACHE](./ns-d3d11-d3d11_feature_data_shader_cache.md) structure.
 
 ## -see-also
 
 [Core structures](/windows/win32/direct3d11/d3d11-graphics-reference-d3d11-core-structures)
-

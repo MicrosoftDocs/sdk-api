@@ -51,28 +51,28 @@ api_name:
 
 ## -description
 
-Bind one or more render targets atomically and the depth-stencil buffer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">output-merger stage</a>.
+Bind one or more render targets atomically and the depth-stencil buffer to the <a href="/windows/desktop/direct3d11/d3d10-graphics-programming-guide-output-merger-stage">output-merger stage</a>.
 
 ## -parameters
 
 ### -param NumViews [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of render targets to bind (ranges between 0 and <b>D3D11_SIMULTANEOUS_RENDER_TARGET_COUNT</b>). If this parameter is nonzero, the number of entries in the array to which <i>ppRenderTargetViews</i> points must equal the number in this parameter.
 
 ### -param ppRenderTargetViews [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11rendertargetview">ID3D11RenderTargetView</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11rendertargetview">ID3D11RenderTargetView</a>*</b>
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11rendertargetview">ID3D11RenderTargetView</a> that represent the render targets to bind to the device. 
+Pointer to an array of <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11rendertargetview">ID3D11RenderTargetView</a> that represent the render targets to bind to the device. 
         If this parameter is <b>NULL</b> and <i>NumViews</i> is 0, no render targets are bound.
 
 ### -param pDepthStencilView [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11depthstencilview">ID3D11DepthStencilView</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11depthstencilview">ID3D11DepthStencilView</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11depthstencilview">ID3D11DepthStencilView</a> that represents the depth-stencil view to bind to the device. 
+Pointer to a <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11depthstencilview">ID3D11DepthStencilView</a> that represents the depth-stencil view to bind to the device. 
         If this parameter is <b>NULL</b>, the depth-stencil view is not bound.
 
 ## -remarks
@@ -91,7 +91,7 @@ The method will hold a reference to the interfaces passed in.
 If the render-target views were created from an array resource type, all of the render-target views must have the same array size.  
       This restriction also applies to the depth-stencil view, its array size must match that of the render-target views being bound.
 
-The pixel shader must be able to simultaneously render to at least eight separate render targets. All of these render targets must access the same type of resource: <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-buffer">Buffer</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-texture1d">Texture1D</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-texture1darray">Texture1DArray</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-texture2d">Texture2D</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-texture2darray">Texture2DArray</a>, <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/sm5-object-texture3d">Texture3D</a>, or <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-type">TextureCube</a>. All render targets must have the same size in all dimensions (width and height, and depth for 3D or array size for *Array types). If render targets use multisample anti-aliasing, all bound render targets and depth buffer must be the same form of multisample resource (that is, the sample counts must be the same). Each render target can have a different data format. These render target formats are not required to have identical bit-per-element counts.
+The pixel shader must be able to simultaneously render to at least eight separate render targets. All of these render targets must access the same type of resource: <a href="/windows/desktop/direct3dhlsl/sm5-object-buffer">Buffer</a>, <a href="/windows/desktop/direct3dhlsl/sm5-object-texture1d">Texture1D</a>, <a href="/windows/desktop/direct3dhlsl/sm5-object-texture1darray">Texture1DArray</a>, <a href="/windows/desktop/direct3dhlsl/sm5-object-texture2d">Texture2D</a>, <a href="/windows/desktop/direct3dhlsl/sm5-object-texture2darray">Texture2DArray</a>, <a href="/windows/desktop/direct3dhlsl/sm5-object-texture3d">Texture3D</a>, or <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-type">TextureCube</a>. All render targets must have the same size in all dimensions (width and height, and depth for 3D or array size for *Array types). If render targets use multisample anti-aliasing, all bound render targets and depth buffer must be the same form of multisample resource (that is, the sample counts must be the same). Each render target can have a different data format. These render target formats are not required to have identical bit-per-element counts.
 
 Any combination of the eight slots for render targets can have a render target set or not set.
 
@@ -99,5 +99,4 @@ The same resource view cannot be bound to multiple render target slots simultane
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>

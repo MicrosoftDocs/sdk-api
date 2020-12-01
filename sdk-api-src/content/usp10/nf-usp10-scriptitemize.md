@@ -101,17 +101,17 @@ The function returns E_OUTOFMEMORY if the value of <i>cMaxItems</i> is insuffici
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
+See <a href="/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a> for a discussion of the context in which this function is normally called.
 
 The function delimits items by either a change of shaping engine or a change of direction.
 
-The application can create multiple ranges, or runs that fall entirely within a single item, from each <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a> structure retrieved by <b>ScriptItemize</b>. However, it should not combine multiple items into a single run. Later, when measuring or rendering, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> for each run and must pass the <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure retrieved by <b>ScriptItemize</b> in the <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a> structure.
+The application can create multiple ranges, or runs that fall entirely within a single item, from each <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a> structure retrieved by <b>ScriptItemize</b>. However, it should not combine multiple items into a single run. Later, when measuring or rendering, the application can call <a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a> for each run and must pass the <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure retrieved by <b>ScriptItemize</b> in the <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a> structure.
 
 If the text handled by an application can include any right-to-left content, the application uses the <i>psControl</i> and <i>psState</i> parameters in calling <b>ScriptItemize</b>. However, the application does not have to do this and can handle bidirectional text itself instead of relying on Uniscribe to do so. The <i>psControl</i> and <i>psState</i> parameters are useful in some strictly left-to-right scenarios, for example, when the <b>fLinkStringBefore</b> member of <a href="/windows/win32/api/usp10/ns-usp10-script_control">SCRIPT_CONTROL</a> is not specific to right-to-left scripts. The application sets <i>psControl</i> and <i>psState</i> to <b>NULL</b> to have <b>ScriptItemize</b> break the Unicode string purely by character code.
 
 The application can set all parameters to non-<b>NULL</b> values to have the function perform a full Unicode bidirectional analysis. To permit a correct Unicode bidirectional analysis, the <a href="/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> structure should be initialized according to the reading order at paragraph start, and <b>ScriptItemize</b> should be passed the whole paragraph. In particular, the <b>uBidiLevel</b> member should be initialized to 0 for left-to-right and 1 for right-to-left.
 
-The <b>fRTL</b> member of <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> is referenced in <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a> enabled="1". The <b>fNumeric</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-script_properties">SCRIPT_PROPERTIES</a> is retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptgetproperties">ScriptGetProperties</a>. These members together provide the same classification as the <b>lpClass</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-gcp_resultsa">GCP_RESULTS</a>, referenced by <i>lpResults</i> in <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a>.
+The <b>fRTL</b> member of <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> is referenced in <a href="/windows/win32/api/usp10/ns-usp10-script_item">SCRIPT_ITEM</a> enabled="1". The <b>fNumeric</b> member of <a href="/windows/desktop/api/usp10/ns-usp10-script_properties">SCRIPT_PROPERTIES</a> is retrieved by <a href="/windows/desktop/api/usp10/nf-usp10-scriptgetproperties">ScriptGetProperties</a>. These members together provide the same classification as the <b>lpClass</b> member of <a href="/windows/desktop/api/wingdi/ns-wingdi-gcp_resultsa">GCP_RESULTS</a>, referenced by <i>lpResults</i> in <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a>.
 
 European digits U+0030 through U+0039 can be rendered as national digits, as shown in the following table.
 
@@ -147,7 +147,7 @@ In context digit mode, one of the following actions occurs:
 </ul>
 For example, if <b>uDefaultLanguage</b> indicates LANG_ARABIC, initial digits are in Arabic-Indic in a right-to-left embedding. However, they are in European digits in a left-to-right embedding.
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/digit-shapes">Digit Shapes</a>.
+For more information, see <a href="/windows/desktop/Intl/digit-shapes">Digit Shapes</a>.
 
 The Unicode control characters and definitions, and their effects on <a href="/windows/win32/api/usp10/ns-usp10-script_state">SCRIPT_STATE</a> members, are provided in the following table. For more information on Unicode control characters, see the <a href="https://www.unicode.org/standard/standard.html">The Unicode Standard</a>.
 
@@ -197,7 +197,7 @@ The <b>fArabicNumContext</b> member of <a href="/windows/win32/api/usp10/ns-usp1
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
+<a href="/windows/desktop/Intl/displaying-text-with-uniscribe">Displaying Text with Uniscribe</a>
 
 
 
@@ -213,7 +213,7 @@ The <b>fArabicNumContext</b> member of <a href="/windows/win32/api/usp10/ns-usp1
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-script_properties">SCRIPT_PROPERTIES</a>
+<a href="/windows/desktop/api/usp10/ns-usp10-script_properties">SCRIPT_PROPERTIES</a>
 
 
 
@@ -221,17 +221,16 @@ The <b>fArabicNumContext</b> member of <a href="/windows/win32/api/usp10/ns-usp1
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptshape">ScriptShape</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

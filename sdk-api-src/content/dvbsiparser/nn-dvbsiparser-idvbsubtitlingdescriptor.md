@@ -54,7 +54,7 @@ Implements methods that get data from a Digital Video Broadcast (DVB) subtitling
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbSubtitlingDescriptor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbSubtitlingDescriptor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvbSubtitlingDescriptor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvbSubtitlingDescriptor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDvbSubtitlingDescriptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getcountofrecords">GetCountOfRecords</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Gets the number of subtitling records in a DVB subtitling descriptor.
@@ -78,7 +78,7 @@ Gets the number of subtitling records in a DVB subtitling descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getlength">GetLength</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getlength">GetLength</a>
 </td>
 <td align="left" width="63%">
  Gets the body length of a DVB subtitling descriptor.
@@ -87,7 +87,7 @@ Gets the number of subtitling records in a DVB subtitling descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getrecordancillarypageid">GetRecordAncillaryPageID</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getrecordancillarypageid">GetRecordAncillaryPageID</a>
 </td>
 <td align="left" width="63%">
 Gets the ancillary page identifier for a DVB subtitling descriptor.
@@ -96,7 +96,7 @@ Gets the ancillary page identifier for a DVB subtitling descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getrecordcompositionpageid">GetRecordCompositionPageID</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getrecordcompositionpageid">GetRecordCompositionPageID</a>
 </td>
 <td align="left" width="63%">
  Gets the composition page identifier for a DVB subtitling descriptor.
@@ -105,7 +105,7 @@ Gets the ancillary page identifier for a DVB subtitling descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getrecordlangid">GetRecordLangId</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getrecordlangid">GetRecordLangId</a>
 </td>
 <td align="left" width="63%">
 Gets the three-character ISO 639 language code for the subtitles in a DVB subtitling descriptor.
@@ -114,7 +114,7 @@ Gets the three-character ISO 639 language code for the subtitles in a DVB subtit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getrecordsubtitlingtype">GetRecordSubtitlingType</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getrecordsubtitlingtype">GetRecordSubtitlingType</a>
 </td>
 <td align="left" width="63%">
 Gets the subtitling component type from a DVB subtitling descriptor.
@@ -123,7 +123,7 @@ Gets the subtitling component type from a DVB subtitling descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-gettag">GetTag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-gettag">GetTag</a>
 </td>
 <td align="left" width="63%">
 Gets the tag that identifies a DVB subtitling descriptor.
@@ -131,4 +131,3 @@ Gets the tag that identifies a DVB subtitling descriptor.
 </td>
 </tr>
 </table>
-

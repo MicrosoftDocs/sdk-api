@@ -56,19 +56,19 @@ Represents a rational number.
 
 ### -field Numerator
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An unsigned integer value representing the top of the rational number.
 
 ### -field Denominator
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 An unsigned integer value representing the bottom of the rational number.
 
 ## -remarks
 
-This structure is a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173064(v=vs.85)">DXGI_MODE_DESC</a> structure.
+This structure is a member of the <a href="/previous-versions/windows/desktop/legacy/bb173064(v=vs.85)">DXGI_MODE_DESC</a> structure.
 
 The <b>DXGI_RATIONAL</b> structure operates under the following rules:
 
@@ -80,5 +80,4 @@ The <b>DXGI_RATIONAL</b> structure operates under the following rules:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
-
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>

@@ -63,7 +63,7 @@ Determines whether a disk drive is a removable, fixed, CD-ROM, RAM disk, or netw
     drive.
 
 To determine whether a drive is a USB-type drive, call 
-    <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceregistrypropertya">SetupDiGetDeviceRegistryProperty</a> 
+    <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceregistrypropertya">SetupDiGetDeviceRegistryProperty</a> 
     and specify the <b>SPDRP_REMOVAL_POLICY</b> property.
 
 ## -parameters
@@ -244,9 +244,8 @@ SMB does not support volume management functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

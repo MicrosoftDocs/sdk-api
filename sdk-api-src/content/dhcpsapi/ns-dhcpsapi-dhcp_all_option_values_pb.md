@@ -80,12 +80,20 @@ Pointer to a null-terminated Unicode string that represents the vendor name  for
 
 ### -field OptionsArray
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the set of all option values for the specified vendor/policy pair.
+A pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the set of all option values for the specified vendor/policy pair.
 
 ### -field Options
 
+<<<<<<< HEAD
 Pointer to an array of structures that contain the set of all option values for specific vendor/policy pairs. There is one element per pair.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4getalloptionvalues">DhcpV4GetAllOptionValues</a>
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4getalloptionvalues">DhcpV4GetAllOptionValues</a>
+=======
+A pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_value_array">DHCP_OPTION_VALUE_ARRAY</a> structure that contains the set of all option values for the specified vendor/policy pair.
+
+## -see-also
+
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv4getalloptionvalues">DhcpV4GetAllOptionValues</a>
+>>>>>>> d630a335cb0... Links: SDK-API - Pass 1

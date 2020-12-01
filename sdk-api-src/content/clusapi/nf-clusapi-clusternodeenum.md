@@ -50,16 +50,16 @@ api_name:
 
 ## -description
 
-Enumerates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a> or 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">groups</a> installed on a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a>, returning the name of each with each call. The <b>PCLUSAPI_CLUSTER_NODE_ENUM</b> type defines a pointer to this function.
+Enumerates the <a href="/previous-versions/windows/desktop/mscs/network-interfaces">network interfaces</a> or 
+    <a href="/previous-versions/windows/desktop/mscs/groups">groups</a> installed on a 
+    <a href="/previous-versions/windows/desktop/mscs/nodes">node</a>, returning the name of each with each call. The <b>PCLUSAPI_CLUSTER_NODE_ENUM</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param hNodeEnum [in]
 
 Handle to an existing enumeration object originally returned by the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenum">ClusterNodeOpenEnum</a> function.
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenum">ClusterNodeOpenEnum</a> function.
 
 ### -param dwIndex [in]
 
@@ -70,7 +70,7 @@ Index used to identify the next entry to be enumerated. This parameter should be
 ### -param lpdwType [out]
 
 Pointer to the type of object returned. The following value of the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_node_enum">CLUSTER_NODE_ENUM</a> enumeration is returned with each 
+       <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_node_enum">CLUSTER_NODE_ENUM</a> enumeration is returned with each 
        call.
 
 
@@ -154,31 +154,30 @@ More data is available. This value is returned if the buffer pointed to by
 
 To use <b>ClusterNodeEnum</b>, applications first open a 
      node enumeration handle by calling 
-     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenum">ClusterNodeOpenEnum</a> with the 
+     <a href="/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenum">ClusterNodeOpenEnum</a> with the 
      <i>dwType</i> parameter set to <b>CLUSTER_NODE_ENUM_NETINTERFACES</b>. 
-     For more information, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
+     For more information, see <a href="/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
 
 Note that the <i>lpcchName</i> parameter refers to a count of characters and not a count of 
      bytes, and that the returned size does not include the terminating <b>NULL</b> in the count. 
      For more information on sizing buffers, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
+     <a href="/previous-versions/windows/desktop/mscs/data-size-conventions">Data Size Conventions</a>.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
+See <a href="/previous-versions/windows/desktop/mscs/enumerating-objects">Enumerating Objects</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodecloseenum">ClusterNodeCloseEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusternodecloseenum">ClusterNodeCloseEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenum">ClusterNodeOpenEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusternodeopenenum">ClusterNodeOpenEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>

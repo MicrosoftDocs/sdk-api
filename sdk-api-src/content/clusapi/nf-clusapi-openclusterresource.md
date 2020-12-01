@@ -54,14 +54,14 @@ api_name:
 
 ## -description
 
-Opens a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> and returns a handle to 
+Opens a <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> and returns a handle to 
     it. The <b>PCLUSAPI_OPEN_CLUSTER_RESOURCE</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
+Handle to a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>.
 
 ### -param lpszResourceName [in]
 
@@ -69,7 +69,7 @@ Pointer to a null-terminated Unicode string containing the name of the resource 
 
 Resource names are not case sensitive. A resource name must be unique within the cluster. The name is set 
        when the resource is created and can be changed using the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-setclusterresourcename">SetClusterResourceName</a> function.
+       <a href="/windows/desktop/api/clusapi/nf-clusapi-setclusterresourcename">SetClusterResourceName</a> function.
 
 ## -returns
 
@@ -90,7 +90,7 @@ If the operation was successful,
 </td>
 <td width="60%">
 The operation was not successful. For information about the error, call the function 
-        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -98,13 +98,12 @@ The operation was not successful. For information about the error, call the func
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-closeclusterresource">CloseClusterResource</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterresourceex">OpenClusterResourceEx</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterresourceex">OpenClusterResourceEx</a>

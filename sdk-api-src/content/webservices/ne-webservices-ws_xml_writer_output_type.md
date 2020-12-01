@@ -50,11 +50,10 @@ api_name:
 
 ## -description
 
-The type of <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_output">WS_XML_WRITER_OUTPUT</a> structure.
+The type of <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_writer_output">WS_XML_WRITER_OUTPUT</a> structure.
 
 ## -enum-fields
 
 ### -field WS_XML_WRITER_OUTPUT_TYPE_BUFFER
 
 ### -field WS_XML_WRITER_OUTPUT_TYPE_STREAM
-

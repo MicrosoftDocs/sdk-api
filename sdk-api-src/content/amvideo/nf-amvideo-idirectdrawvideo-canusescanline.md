@@ -65,13 +65,12 @@ Returns an <b>HRESULT</b> value.
 
 ## -remarks
 
-For a description of the use of scan line detection in the DirectShow video renderer, see <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-usescanline">IDirectDrawVideo::UseScanLine</a>.
+For a description of the use of scan line detection in the DirectShow video renderer, see <a href="/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-usescanline">IDirectDrawVideo::UseScanLine</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
-
+<a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>

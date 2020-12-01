@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-This structure is used as an input buffer when using the pass-through mechanism to issue  a vendor-specific command to a storage device (via <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_protocol_command">IOCTL_STORAGE_PROTOCOL_COMMAND</a>).
+This structure is used as an input buffer when using the pass-through mechanism to issue  a vendor-specific command to a storage device (via <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_protocol_command">IOCTL_STORAGE_PROTOCOL_COMMAND</a>).
 
 ## -struct-fields
 
@@ -67,7 +67,7 @@ The size of this structure. This should be set to sizeof(<b>STORAGE_PROTOCOL_COM
 
 ### -field ProtocolType
 
-The protocol type, of type <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>.
+The protocol type, of type <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>.
 
 ### -field Flags
 
@@ -189,5 +189,4 @@ The vendor-specific command that is to be passed-through to the device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_protocol_command">IOCTL_STORAGE_PROTOCOL_COMMAND</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_protocol_command">IOCTL_STORAGE_PROTOCOL_COMMAND</a>

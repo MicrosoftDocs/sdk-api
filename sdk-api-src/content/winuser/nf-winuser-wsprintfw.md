@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Writes formatted data to the specified buffer. Any arguments are converted and copied to the output buffer according to the corresponding format specification in the format string. The function appends a terminating null character to the characters it writes, but the return value does not include the terminating null character in its character count. 
-<div class="alert"><b>Note</b>  Do not use. Consider using one of the following functions instead: <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfa">StringCbPrintf</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfexa">StringCbPrintfEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfexa">StringCchPrintfEx</a>. See Security Considerations.</div><div> </div>
+<div class="alert"><b>Note</b>  Do not use. Consider using one of the following functions instead: <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfa">StringCbPrintf</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfexa">StringCbPrintfEx</a>, <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a>, or <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfexa">StringCchPrintfEx</a>. See Security Considerations.</div><div> </div>
 
 ## -parameters
 
@@ -79,7 +79,7 @@ Type: <b>int</b>
 
 If the function succeeds, the return value is the number of characters stored in the output buffer, not counting the terminating null character.
 
-If the function fails, the return value is less than the length of the expected output. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is less than the length of the expected output. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -272,41 +272,40 @@ To use buffers larger than 1024 bytes, use <b>_snwprintf</b>. For more informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfa">StringCbPrintf</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfa">StringCbPrintf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfexa">StringCbPrintfEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfexa">StringCbPrintfEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfa">StringCbVPrintf</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfa">StringCbVPrintf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfexa">StringCbVPrintfEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfexa">StringCbVPrintfEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfexa">StringCchPrintfEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfexa">StringCchPrintfEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfa">StringCchVPrintf</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfa">StringCchVPrintf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
+<a href="/windows/desktop/menurc/strings">Strings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-wvsprintfa">wvsprintf</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-wvsprintfa">wvsprintf</a>

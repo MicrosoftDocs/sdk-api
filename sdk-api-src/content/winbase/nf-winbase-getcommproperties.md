@@ -61,22 +61,22 @@ Retrieves information about the communications properties for a specified commun
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
 
 ### -param lpCommProp [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commprop">COMMPROP</a> structure in which the communications properties information is returned. This information can be used in subsequent calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setupcomm">SetupComm</a> function to configure the communications device.
+<a href="/windows/desktop/api/winbase/ns-winbase-commprop">COMMPROP</a> structure in which the communications properties information is returned. This information can be used in subsequent calls to the 
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>, 
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>, or 
+<a href="/windows/desktop/api/winbase/nf-winbase-setupcomm">SetupComm</a> function to configure the communications device.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -85,29 +85,28 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commprop">COMMPROP</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-commprop">COMMPROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
+<a href="/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
+<a href="/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setupcomm">SetupComm</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setupcomm">SetupComm</a>

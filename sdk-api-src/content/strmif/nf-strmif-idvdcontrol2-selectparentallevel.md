@@ -105,7 +105,7 @@ Invalid domain.
 
 ## -remarks
 
-There are eight generic parental levels defined in the DVD specification, numbered from 1 (most restrictive) through 8 (least restrictive). The meaning of these levels varies from region to region and depends on the current country/region (see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectparentalcountry">IDvdControl2::SelectParentalCountry</a>). For the United States and Canada (DVD Region 1), the suggested values are as follows:
+There are eight generic parental levels defined in the DVD specification, numbered from 1 (most restrictive) through 8 (least restrictive). The meaning of these levels varies from region to region and depends on the current country/region (see <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectparentalcountry">IDvdControl2::SelectParentalCountry</a>). For the United States and Canada (DVD Region 1), the suggested values are as follows:
 
 <table>
 <tr>
@@ -139,7 +139,7 @@ There are eight generic parental levels defined in the DVD specification, number
 
 This method sets the current user's access level; this access level determines what content the user can play. Higher levels can play lower-level content; lower levels can't play higher-level content. In other words, adults can watch child-safe content, but children can't watch adult content.
 
-DVD player applications can enforce restrictions on the parental level setting, such as providing password protection for raising the current parental level. The application's user interface should have a way to set the level and to disable checking completely. Some discs might be authored to disallow even level 8, meaning that no level is valid and no one could watch the disc if parental management is enabled. On such discs, parental management must be disabled for the discs to be viewed. Parental management in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter is disabled by default.
+DVD player applications can enforce restrictions on the parental level setting, such as providing password protection for raising the current parental level. The application's user interface should have a way to set the level and to disable checking completely. Some discs might be authored to disallow even level 8, meaning that no level is valid and no one could watch the disc if parental management is enabled. On such discs, parental management must be disabled for the discs to be viewed. Parental management in the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter is disabled by default.
 
 To disable parental management after it has been enabled, pass 0xffffffff for <i>ulParentalLevel</i>.
 
@@ -162,13 +162,12 @@ The following table shows the Annex J command name to which this method name cor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>

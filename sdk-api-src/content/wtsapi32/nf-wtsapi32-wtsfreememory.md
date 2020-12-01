@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
  - WTSFreeMemory
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 ---
 
 # WTSFreeMemory function
@@ -66,17 +67,16 @@ Several Remote Desktop Services functions allocate buffers to return information
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumerateprocessesa">WTSEnumerateProcesses</a>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumerateprocessesa">WTSEnumerateProcesses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a>
-
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a>

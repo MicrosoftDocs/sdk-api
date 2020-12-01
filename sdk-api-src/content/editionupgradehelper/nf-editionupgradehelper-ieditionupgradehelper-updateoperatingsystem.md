@@ -83,17 +83,16 @@ When this method installs a genuine copy of the operating system, the method tak
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-canupgrade">CanUpgrade</a>
+<a href="/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-canupgrade">CanUpgrade</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getgenuinelocalstatus">GetGenuineLocalStatus</a>
+<a href="/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getgenuinelocalstatus">GetGenuineLocalStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getosproductcontentid">GetOsProductContentId</a>
+<a href="/windows/desktop/api/editionupgradehelper/nf-editionupgradehelper-ieditionupgradehelper-getosproductcontentid">GetOsProductContentId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/editionupgradehelper/nn-editionupgradehelper-ieditionupgradehelper">IEditionUpgradeHelper</a>
-
+<a href="/windows/desktop/api/editionupgradehelper/nn-editionupgradehelper-ieditionupgradehelper">IEditionUpgradeHelper</a>

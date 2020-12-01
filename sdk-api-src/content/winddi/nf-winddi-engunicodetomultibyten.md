@@ -83,9 +83,8 @@ None
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmultibytetounicoden">EngMultiByteToUnicodeN</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engmultibytetounicoden">EngMultiByteToUnicodeN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwidechartomultibyte">EngWideCharToMultiByte</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engwidechartomultibyte">EngWideCharToMultiByte</a>

@@ -58,7 +58,7 @@ Retrieves the current query constraints.
 
 ### -param ppIProviderQueryConstraints [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderqueryconstraintcollection">IProviderQueryConstraintCollection</a> interface pointer that receives the collection of query constraints.
+A pointer to an <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderqueryconstraintcollection">IProviderQueryConstraintCollection</a> interface pointer that receives the collection of query constraints.
 
 ## -returns
 
@@ -72,5 +72,4 @@ The provider should examine all constraints to determine the query to perform.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderquery">IFunctionDiscoveryProviderQuery</a>
-
+<a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderquery">IFunctionDiscoveryProviderQuery</a>

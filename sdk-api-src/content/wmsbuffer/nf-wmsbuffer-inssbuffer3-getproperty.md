@@ -59,7 +59,7 @@ The <b>GetProperty</b> method is used to retrieve a property of the sample in th
 
 ### -param guidBufferProperty [in]
 
-<b>GUID</b> value identifying the property to retrieve. The predefined buffer properties are described in the <a href="https://docs.microsoft.com/windows/desktop/wmformat/sample-extension-types">Sample Extension Types</a> section of this documentation. You can also define your own sample extension schemes using your own GUID values.
+<b>GUID</b> value identifying the property to retrieve. The predefined buffer properties are described in the <a href="/windows/desktop/wmformat/sample-extension-types">Sample Extension Types</a> section of this documentation. You can also define your own sample extension schemes using your own GUID values.
 
 ### -param pvBufferProperty [out]
 
@@ -115,9 +115,8 @@ The property specified as <i>guidBufferProperty</i> is not set in this buffer ob
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3 Interface</a>
+<a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3">INSSBuffer3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty">INSSBuffer3::SetProperty</a>
-
+<a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty">INSSBuffer3::SetProperty</a>

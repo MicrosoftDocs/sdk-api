@@ -82,7 +82,7 @@ The method succeeded.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-discardpage">DiscardPage</a> has been called more than once or the page has not been loaded.
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-discardpage">DiscardPage</a> has been called more than once or the page has not been loaded.
 
 </td>
 </tr>
@@ -90,26 +90,25 @@ The method succeeded.
 
 ## -remarks
 
-If <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-setpage">SetPage</a> has not been called, calling <b>DiscardPage</b> and then <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-getpage">GetPage</a> will return the virtualized page from the source package. If <b>SetPage</b> has been called, calling <b>DiscardPage</b> and then  <b>GetPage</b> will return <b>NULL</b>.
+If <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-setpage">SetPage</a> has not been called, calling <b>DiscardPage</b> and then <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-getpage">GetPage</a> will return the virtualized page from the source package. If <b>SetPage</b> has been called, calling <b>DiscardPage</b> and then  <b>GetPage</b> will return <b>NULL</b>.
         
 
-If the page referenced by this <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a> interface has been constructed entirely in memory and does not have a corresponding file, <b>DiscardPage</b> will delete the page from memory and the page's content will be lost. If the page has been constructed from a file, <b>DiscardPage</b> will delete the page from memory but will not alter the original file. The page can be reconstructed and read back into memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-getpage">GetPage</a>.
+If the page referenced by this <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a> interface has been constructed entirely in memory and does not have a corresponding file, <b>DiscardPage</b> will delete the page from memory and the page's content will be lost. If the page has been constructed from a file, <b>DiscardPage</b> will delete the page from memory but will not alter the original file. The page can be reconstructed and read back into memory by calling <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-getpage">GetPage</a>.
 
-If the page has been constructed from a file and subsequently modified, <b>DiscardPage</b> will discard the page from memory, and any changes made to the page will be lost. Calling <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-getpage">GetPage</a> after this will re-read the original content from the file.
+If the page has been constructed from a file and subsequently modified, <b>DiscardPage</b> will discard the page from memory, and any changes made to the page will be lost. Calling <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-getpage">GetPage</a> after this will re-read the original content from the file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-getpage">IXpsOMPageReference::GetPage</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-getpage">IXpsOMPageReference::GetPage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-setpage">IXpsOMPageReference::SetPage</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereference-setpage">IXpsOMPageReference::SetPage</a>
 
 
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
-
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>

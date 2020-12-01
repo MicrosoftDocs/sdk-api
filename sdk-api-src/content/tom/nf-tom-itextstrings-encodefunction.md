@@ -58,13 +58,13 @@ Encodes an object, given a set of argument strings.
 
 Type: <b>long</b>
 
-The object type. See <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a> for a table of definitions.
+The object type. See <a href="/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a> for a table of definitions.
 
 ### -param Align [in]
 
 Type: <b>long</b>
 
-The object alignment. See <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a> for a table of definitions.
+The object alignment. See <a href="/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a> for a table of definitions.
 
 ### -param Char [in]
 
@@ -104,21 +104,20 @@ The count of columns (<b>tomArray</b> only).
 
 ### -param pRange [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>*</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>*</b>
 
 The specifying range that points at the desired formatting.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -remarks
 
-See <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a> for a more detailed discussion of the arguments.
+See <a href="/windows/desktop/api/tom/nf-tom-itextrange2-getinlineobject">ITextRange2::GetInlineObject</a> for a more detailed discussion of the arguments.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
-
+<a href="/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>

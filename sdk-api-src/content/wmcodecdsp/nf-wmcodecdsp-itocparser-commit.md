@@ -78,9 +78,8 @@ The method succeeded.
 
 ## -remarks
 
-You can associate a TOC Parser object with a media file by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-init">ITocParser::Init</a>. As you add, modify, or remove tables of contents from the TOC Parser object, those chages are made only to the TOC Parser object in memory, not to the media file. To store your changes in the media file, you must call <b>ITocParser::Commit</b>.
+You can associate a TOC Parser object with a media file by calling <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocparser-init">ITocParser::Init</a>. As you add, modify, or remove tables of contents from the TOC Parser object, those chages are made only to the TOC Parser object in memory, not to the media file. To store your changes in the media file, you must call <b>ITocParser::Commit</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocparser">ITocParser</a>
-
+<a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocparser">ITocParser</a>

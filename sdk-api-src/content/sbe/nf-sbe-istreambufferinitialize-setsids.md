@@ -122,5 +122,4 @@ Note that this method does not apply to content recording files, which are prote
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferinitialize">IStreamBufferInitialize Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferinitialize">IStreamBufferInitialize Interface</a>

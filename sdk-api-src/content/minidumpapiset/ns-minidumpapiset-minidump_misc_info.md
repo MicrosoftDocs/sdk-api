@@ -115,5 +115,4 @@ The time the process has executed in kernel mode, in seconds. The time that each
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
-
+<a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>

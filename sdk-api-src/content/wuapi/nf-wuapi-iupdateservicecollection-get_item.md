@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets and sets an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface in a collection.
+Gets and sets an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface in a collection.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicecollection">IUpdateServiceCollection</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicecollection">IUpdateServiceCollection</a>

@@ -51,7 +51,7 @@ api_name:
 
 Assigns the vector component data from one instance of <code>XMINT2</code> to the current instance of <code>XMINT2</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/41e10329-9f6f-446f-9640-6c1d65e20cb5">XMINT2</a> to the current instance of <code>XMINT2</code>.
+This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxmath/ns-directxmath-xmint2">XMINT2</a> to the current instance of <code>XMINT2</code>.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
@@ -67,7 +67,7 @@ The current instance of <code>XMINT2</code> whose vector component data has been
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/41e10329-9f6f-446f-9640-6c1d65e20cb5">XMINT2</a>
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmint2">XMINT2</a>
 
 <a href="https://msdn.microsoft.com/98822959-f4ef-4f73-8011-f9eba201dcc0">XMINT2 Operators</a>
 

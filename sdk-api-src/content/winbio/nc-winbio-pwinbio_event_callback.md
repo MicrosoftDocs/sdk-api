@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Called by the Windows Biometric Framework to return results from the   asynchronous  <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioregistereventmonitor">WinBioRegisterEventMonitor</a> function. The client application must implement this function.
+Called by the Windows Biometric Framework to return results from the   asynchronous  <a href="/windows/desktop/api/winbio/nf-winbio-winbioregistereventmonitor">WinBioRegisterEventMonitor</a> function. The client application must implement this function.
 
 ## -parameters
 
 ### -param EventCallbackContext [in, optional]
 
-Pointer to a buffer defined by the application and passed to the <i>EventCallbackContext</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioregistereventmonitor">WinBioRegisterEventMonitor</a> function. The buffer is not modified by the framework or the biometric unit. Your application can use the data to help it determine what actions to perform or to maintain additional information about the biometric capture.
+Pointer to a buffer defined by the application and passed to the <i>EventCallbackContext</i> parameter of the <a href="/windows/desktop/api/winbio/nf-winbio-winbioregistereventmonitor">WinBioRegisterEventMonitor</a> function. The buffer is not modified by the framework or the biometric unit. Your application can use the data to help it determine what actions to perform or to maintain additional information about the biometric capture.
 
 ### -param OperationStatus [in]
 
@@ -64,5 +64,4 @@ Error code returned by the capture operation.
 
 ### -param Event [in]
 
-Pointer to a WINBIO_EVENT value. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-event-constants">WINBIO_EVENT Constants</a>.
-
+Pointer to a WINBIO_EVENT value. For more information, see <a href="/windows/desktop/SecBioMet/winbio-event-constants">WINBIO_EVENT Constants</a>.

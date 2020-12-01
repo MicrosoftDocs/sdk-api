@@ -57,7 +57,7 @@ The <code>GetFiltergraph</code> method retrieves the filter graph that the captu
 
 ### -param ppfg [out]
 
-Receives an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface pointer.
+Receives an <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface pointer.
 
 ## -returns
 
@@ -109,22 +109,21 @@ Initially, the capture graph builder does not hold a pointer to a filter graph. 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-renderstream">ICaptureGraphBuilder2::RenderStream</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-renderstream">ICaptureGraphBuilder2::RenderStream</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-setfiltergraph">ICaptureGraphBuilder2::SetFiltergraph</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-setfiltergraph">ICaptureGraphBuilder2::SetFiltergraph</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-setoutputfilename">ICaptureGraphBuilder2::SetOutputFileName</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-setoutputfilename">ICaptureGraphBuilder2::SetOutputFileName</a>
 </li>
 </ul>
 This method increments the reference count on the <b>IGraphBuilder</b> interface. Be sure to release the interface when you are done with it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>

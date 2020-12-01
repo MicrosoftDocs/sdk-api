@@ -53,15 +53,15 @@ api_name:
 Writes a start element to the writer.
       
 
-After calling this function <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritexmlnsattribute">WsWriteXmlnsAttribute</a>can be called to write additional attributes to the element.
-      The element is not committed to the writer until <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswriteendelement">WsWriteEndElement</a> or some other function  that 
+After calling this function <a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wswritexmlnsattribute">WsWriteXmlnsAttribute</a>can be called to write additional attributes to the element.
+      The element is not committed to the writer until <a href="/windows/desktop/api/webservices/nf-webservices-wswriteendelement">WsWriteEndElement</a> or some other function  that 
         writes content is called.
 
 ## -parameters
 
 ### -param writer [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the start element is written.  The pointer must reference a valid <b>XML Writer</b> object.
+A pointer to the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object to which the start element is written.  The pointer must reference a valid <b>XML Writer</b> object.
 
 ### -param prefix [in, optional]
 
@@ -82,7 +82,7 @@ A WS_XML_STRING pointer to the namespace to be used for the start element.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -149,13 +149,12 @@ If a non-empty prefix is specified with an empty namespace <b>WS_E_INVALID_FORMA
 
 If writing the start element causes <b>WS_XML_WRITER_PROPERTY_MAX_DEPTH</b> to be exceeded
         <b>WS_E_QUOTA_EXCEEDED</b> is returned.
-       (See <a href="https://docs.microsoft.com/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
+       (See <a href="/windows/desktop/wsw/windows-web-services-return-values">Windows Web Services Return Values</a>.)
 
 When using <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_writer_mtom_encoding">WS_XML_WRITER_MTOM_ENCODING</a> it is an error to attempt to write an element with the
         localName "Include" from the namespace"http://www.w3.org/2004/08/xop/include".
       
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> can also be used to add an attribute to an element when the writer is
-        positioned on an element using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmovewriter">WsMoveWriter</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetwriterposition">WsSetWriterPosition</a>.
-
+<a href="/windows/desktop/api/webservices/nf-webservices-wswritestartattribute">WsWriteStartAttribute</a> can also be used to add an attribute to an element when the writer is
+        positioned on an element using <a href="/windows/desktop/api/webservices/nf-webservices-wsmovewriter">WsMoveWriter</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wssetwriterposition">WsSetWriterPosition</a>.

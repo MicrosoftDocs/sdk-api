@@ -59,7 +59,7 @@ This method applies only to properties that support a list of possible values, a
 
 ### -param Api [in]
 
-Pointer to a GUID that specifies the property to query. For a list of standard codec properties, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
+Pointer to a GUID that specifies the property to query. For a list of standard codec properties, see <a href="/windows/desktop/DirectShow/codec-api-properties">Codec API Properties</a>.
 
 ### -param Values [out]
 
@@ -115,17 +115,16 @@ The property supports a range of values, not a list.
 
 ## -remarks
 
-If the property supports a range of values, instead of a list, the method returns  <b>VFW_E_CODECAPI_LINEAR_RANGE</b>. In that case, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icodecapi-getparameterrange">ICodecAPI::GetParameterRange</a> to get the range of values.
+If the property supports a range of values, instead of a list, the method returns  <b>VFW_E_CODECAPI_LINEAR_RANGE</b>. In that case, call <a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-getparameterrange">ICodecAPI::GetParameterRange</a> to get the range of values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
+<a href="/windows/desktop/DirectShow/codec-api-reference">Codec API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/encoder-api">Encoder API</a>
+<a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>

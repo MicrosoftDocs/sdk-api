@@ -117,9 +117,8 @@ CLines::GetTypeInfoCount(UINT * pctinfo)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

@@ -51,14 +51,14 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides 
    methods for performing controller port configuration operations on a LUN.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunControllerPorts</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunControllerPorts</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsLunControllerPorts</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsLunControllerPorts</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,16 +73,16 @@ The <b>IVdsLunControllerPorts</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsluncontrollerports-associatecontrollerports">AssociateControllerPorts</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsluncontrollerports-associatecontrollerports">AssociateControllerPorts</a>
 </td>
 <td align="left" width="63%">
 Sets the subsystem controller ports to active or inactive with respect to the LUN. This method replaces 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-associatecontrollers">IVdsLun::AssociateControllers</a>.
+     <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-associatecontrollers">IVdsLun::AssociateControllers</a>.
  (Inherited from <b>IVdsLunControllerPorts</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsluncontrollerports-queryactivecontrollerports">QueryActiveControllerPorts</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsluncontrollerports-queryactivecontrollerports">QueryActiveControllerPorts</a>
 </td>
 <td align="left" width="63%">
 Returns an enumeration of currently active controller ports.</p> (Inherited from <b>IVdsLunControllerPorts</b>)</td>
@@ -91,5 +91,4 @@ Returns an enumeration of currently active controller ports.</p> (Inherited from
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
-
+<a href="/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>

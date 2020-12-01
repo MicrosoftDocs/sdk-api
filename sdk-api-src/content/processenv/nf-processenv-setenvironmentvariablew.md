@@ -80,7 +80,7 @@ If this parameter is NULL, the variable is deleted from the current process's en
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -90,7 +90,7 @@ This function has no effect on the system environment variables or the environme
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/changing-environment-variables">Changing Environment Variables</a>.
+<a href="/windows/desktop/ProcThread/changing-environment-variables">Changing Environment Variables</a>.
 
 <div class="code"></div>
 
@@ -102,9 +102,8 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/environment-variables">Environment Variables</a>
+<a href="/windows/desktop/ProcThread/environment-variables">Environment Variables</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a>

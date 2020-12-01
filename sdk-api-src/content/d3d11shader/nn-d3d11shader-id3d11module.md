@@ -56,7 +56,7 @@ A module interface creates an instance of a module that is used for resource reb
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Module</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11Module</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Module</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11Module</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ID3D11Module</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11module-createinstance">CreateInstance</a>
+<a href="/windows/desktop/api/d3d11shader/nf-d3d11shader-id3d11module-createinstance">CreateInstance</a>
 </td>
 <td align="left" width="63%">
 Initializes an instance of a shader module that is used for resource rebinding.
@@ -82,7 +82,7 @@ Initializes an instance of a shader module that is used for resource rebinding.
 
 ## -remarks
 
-To get a module interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dloadmodule">D3DLoadModule</a>.
+To get a module interface, call <a href="/windows/desktop/api/d3dcompiler/nf-d3dcompiler-d3dloadmodule">D3DLoadModule</a>.
       
 
 <div class="alert"><b>Note</b>  <b>ID3D11Module</b> requires the D3dcompiler_47.dll or a later version of the DLL.
@@ -91,9 +91,8 @@ To get a module interface, call <a href="https://docs.microsoft.com/windows/desk
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-shader-interfaces">Shader Interfaces</a>

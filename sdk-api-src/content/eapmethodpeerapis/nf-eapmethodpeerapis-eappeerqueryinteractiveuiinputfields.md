@@ -72,11 +72,11 @@ A pointer to a BLOB that contains UI context data, represented as inner pointers
 
 ### -param pEapInteractiveUIData [out]
 
-Pointer that receives an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_interactive_ui_data">EAP_INTERACTIVE_UI_DATA</a> structure that  contains configuration information for interactive UI components raised on an EAP supplicant.
+Pointer that receives an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_interactive_ui_data">EAP_INTERACTIVE_UI_DATA</a> structure that  contains configuration information for interactive UI components raised on an EAP supplicant.
 
 ### -param ppEapError [out]
 
- A pointer to the address of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
+ A pointer to the address of an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised during  the execution of this function call. After consuming the error data, this memory must be freed by passing a pointer to the error data to <a href="/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerfreeerrormemory">EapPeerFreeErrorMemory</a>.
 
 ### -param ppvReserved [in, out]
 
@@ -84,15 +84,14 @@ Reserved for future usage. Must be set to <b>NULL</b>
 
 ## -remarks
 
-[EapPeerQueryInteractiveUIInputFields](/windows/win32/eaphost/understanding-sso-and-plap) can be employed to support Single-Sign-On (SSO). The <b>EAP_FLAG_PRE_LOGON</b> flag in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a> indicates to EAPHost that SSO should be provided. If the <b>EapPeerResponseInvokeUI</b> action code is received after calling <b>EapPeerBeginSession</b>, EAPHost then calls <b>EapPeerQueryInteractiveUIInputFields</b>, and later calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryuiblobfrominteractiveuiinputfields">EapPeerQueryUIBlobFromInteractiveUIInputFields</a>.
+[EapPeerQueryInteractiveUIInputFields](/windows/win32/eaphost/understanding-sso-and-plap) can be employed to support Single-Sign-On (SSO). The <b>EAP_FLAG_PRE_LOGON</b> flag in <a href="/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerbeginsession">EapPeerBeginSession</a> indicates to EAPHost that SSO should be provided. If the <b>EapPeerResponseInvokeUI</b> action code is received after calling <b>EapPeerBeginSession</b>, EAPHost then calls <b>EapPeerQueryInteractiveUIInputFields</b>, and later calls <a href="/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerqueryuiblobfrominteractiveuiinputfields">EapPeerQueryUIBlobFromInteractiveUIInputFields</a>.
 
-The supplicant should call  always call the [EAP_E_EAPHOST_METHOD_OPERATION_NOT_SUPPORTED](/windows/win32/eaphost/eap-related-error-and-information-constants) is returned, the supplicant should resort to the traditional model of invoking method interactive UI by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeinteractiveui">EapPeerInvokeInteractiveUI</a>. If there is an error, <b>EapPeerQueryInteractiveUIInputFields</b> will return a return code other than <b>NULL</b>.
+The supplicant should call  always call the [EAP_E_EAPHOST_METHOD_OPERATION_NOT_SUPPORTED](/windows/win32/eaphost/eap-related-error-and-information-constants) is returned, the supplicant should resort to the traditional model of invoking method interactive UI by calling <a href="/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeerinvokeinteractiveui">EapPeerInvokeInteractiveUI</a>. If there is an error, <b>EapPeerQueryInteractiveUIInputFields</b> will return a return code other than <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a>
+<a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_array">EAP_CONFIG_INPUT_FIELD_ARRAY</a>
 
 
 
 [SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
-

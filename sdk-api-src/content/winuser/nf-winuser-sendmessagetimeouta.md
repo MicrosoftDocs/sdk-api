@@ -54,6 +54,7 @@ api_name:
  - SendMessageTimeout
  - SendMessageTimeoutA
  - SendMessageTimeoutW
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # SendMessageTimeoutA function
@@ -79,7 +80,7 @@ Type: <b>UINT</b>
 
 The message to be sent.
 
-For lists of the system-provided messages, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
+For lists of the system-provided messages, see <a href="/windows/desktop/winmsg/about-messages-and-message-queues">System-Defined Messages</a>.
 
 ### -param wParam [in]
 
@@ -179,17 +180,17 @@ Type: <b>LRESULT</b>
 
 If the function succeeds, the return value is nonzero. <b>SendMessageTimeout</b> does not provide information about individual windows timing out if <b>HWND_BROADCAST</b> is used.
 
-If the function fails or times out, the return value is 0. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If <b>GetLastError</b> returns <b>ERROR_TIMEOUT</b>, then the function timed out.
+If the function fails or times out, the return value is 0. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. If <b>GetLastError</b> returns <b>ERROR_TIMEOUT</b>, then the function timed out.
 
-<b>Windows 2000:  </b>If <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 0, then the function timed out.
+<b>Windows 2000:  </b>If <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 0, then the function timed out.
 
 ## -remarks
 
 The function calls the window procedure for the specified window and, if the specified window belongs to a different thread, does not return until the window procedure has processed the message or the specified time-out period has elapsed. If the window receiving the message belongs to the same queue as the current thread, the window procedure is called directly—the time-out value is ignored.
 
-This function considers that a thread is not responding if it has not called <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> or a similar function within five seconds.
+This function considers that a thread is not responding if it has not called <a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a> or a similar function within five seconds.
 
-The system only does marshalling for system messages (those in the range 0 to (<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-user">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
+The system only does marshalling for system messages (those in the range 0 to (<a href="/windows/desktop/winmsg/wm-user">WM_USER</a>-1)). To send other messages (those &gt;= <b>WM_USER</b>) to another process, you must do custom marshalling.
 
 
 
@@ -204,19 +205,19 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmessage">GetMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insendmessage">InSendMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-insendmessage">InSendMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
+<a href="/windows/desktop/winmsg/messages-and-message-queues">Messages and Message Queues</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-postmessagea">PostMessage</a>
 
 
 
@@ -224,17 +225,16 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-senddlgitemmessagea">SendDlgItemMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-senddlgitemmessagea">SendDlgItemMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-sendmessagecallbacka">SendMessageCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>

@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>LINEAGENTENTRY</b> structure describes an individual ACD agent. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentlist">LINEAGENTLIST</a> structure can contain an array of 
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentlist">LINEAGENTLIST</a> structure can contain an array of 
 <b>LINEAGENTENTRY</b> structures.
 
 ## -struct-fields
@@ -91,9 +91,8 @@ Offset from the beginning of the structure to a <b>null</b>-terminated string th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
+<a href="/windows/desktop/Tapi/about-call-center-controls">About Call Center Controls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentlist">LINEAGENTLIST</a>
-
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentlist">LINEAGENTLIST</a>

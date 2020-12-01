@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - IsZoomed
+req.apiset: ext-ms-win-ntuser-window-l1-1-3 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # IsZoomed function
@@ -76,7 +77,7 @@ If the window is not zoomed, the return value is zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isiconic">IsIconic</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-isiconic">IsIconic</a>
 
 
 
@@ -84,5 +85,4 @@ If the window is not zoomed, the return value is zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

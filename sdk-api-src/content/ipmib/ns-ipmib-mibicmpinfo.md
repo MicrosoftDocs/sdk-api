@@ -61,17 +61,17 @@ The
 ### -field icmpInStats
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a> structure that contains the statistics for incoming ICMP messages.
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a> structure that contains the statistics for incoming ICMP messages.
 
 ### -field icmpOutStats
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a> structure that contains the statistics for outgoing ICMP messages.
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a> structure that contains the statistics for outgoing ICMP messages.
 
 ## -remarks
 
 Two 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a> structures are required to hold all the ICMP statistics for a given computer. One 
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a> structures are required to hold all the ICMP statistics for a given computer. One 
 <b>MIBICMPSTATS</b> structure contains the statistics for incoming ICMP messages. The other contains the statistics for outgoing ICMP messages. For this reason, the 
 <b>MIBICMPINFO</b> structure contains two 
 <b>MIBICMPSTATS</b> structures.
@@ -80,17 +80,16 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats">MIBICMPSTATS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mibicmpstats_ex_xpsp1">MIBICMPSTATS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_icmp">MIB_ICMP</a>
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_icmp">MIB_ICMP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_icmp_ex_xpsp1">MIB_ICMP_EX</a>
-
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_icmp_ex_xpsp1">MIB_ICMP_EX</a>

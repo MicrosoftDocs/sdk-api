@@ -58,11 +58,11 @@ Creates an effect for the specified class ID.
 
 Type: <b>REFCLSID</b>
 
-The class ID of the effect to create. See <a href="https://docs.microsoft.com/windows/desktop/Direct2D/built-in-effects">Built-in Effects</a> for a list of effect IDs.
+The class ID of the effect to create. See <a href="/windows/desktop/Direct2D/built-in-effects">Built-in Effects</a> for a list of effect IDs.
 
 ### -param effect [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>**</b>
 
 When this method returns, contains the address of a pointer to a new effect.
 
@@ -113,17 +113,16 @@ If the  created effect is a custom effect that is implemented in a DLL, this doe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/effects-overview">Effects</a>
+<a href="/windows/desktop/Direct2D/effects-overview">Effects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1effect">ID2D1Effect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">ID2D1Factory1::RegisterEffect</a>
-
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-registereffectfromstring">ID2D1Factory1::RegisterEffect</a>

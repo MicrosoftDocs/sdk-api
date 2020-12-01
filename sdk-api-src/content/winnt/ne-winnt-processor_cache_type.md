@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Represents the type of processor cache identified in the corresponding <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-cache_descriptor">CACHE_DESCRIPTOR</a> structure.
+Represents the type of processor cache identified in the corresponding <a href="/windows/desktop/api/winnt/ns-winnt-cache_descriptor">CACHE_DESCRIPTOR</a> structure.
 
 ## -enum-fields
 
@@ -74,13 +74,12 @@ The cache is for traces.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-cache_descriptor">CACHE_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-cache_descriptor">CACHE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getlogicalprocessorinformation">GetLogicalProcessorInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>

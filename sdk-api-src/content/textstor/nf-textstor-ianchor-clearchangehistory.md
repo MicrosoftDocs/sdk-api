@@ -78,14 +78,13 @@ The method was successful.
 
 ## -remarks
 
-Applications should clear the anchor change history flags after receiving this call. The change history flags were set by <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-getchangehistory">IAnchor::GetChangeHistory</a>.
+Applications should clear the anchor change history flags after receiving this call. The change history flags were set by <a href="/windows/desktop/api/textstor/nf-textstor-ianchor-getchangehistory">IAnchor::GetChangeHistory</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
+<a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-getchangehistory">IAnchor::GetChangeHistory
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-getchangehistory">IAnchor::GetChangeHistory
       </a>
-

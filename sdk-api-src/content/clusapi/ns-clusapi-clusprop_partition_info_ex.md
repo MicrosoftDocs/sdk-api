@@ -53,12 +53,12 @@ api_name:
 Specifies a collection of information about a physical disk resource, such as its device name and volume label. 
     The <b>CLUSPROP_PARTITION_INFO_EX</b> 
     structure contains information relevant to 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/s-gly">storage class resources</a>. It is 
-    used as an entry in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists of:
+    <a href="/previous-versions/windows/desktop/mscs/s-gly">storage class resources</a>. It is 
+    used as an entry in a <a href="/previous-versions/windows/desktop/mscs/value-lists">value list</a> and consists of:
 <ul>
-<li>A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure describing the format, 
+<li>A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure describing the format, 
      type, and length of the partition information.</li>
-<li>A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info_ex">CLUS_PARTITION_INFO_EX</a> 
+<li>A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info_ex">CLUS_PARTITION_INFO_EX</a> 
      structure.</li>
 </ul>
 
@@ -66,35 +66,34 @@ Specifies a collection of information about a physical disk resource, such as it
 
 ### -field CLUSPROP_VALUE
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>  with a value 
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a> structure with a <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>  with a value 
        of <b>CLUSPROP_SYNTAX_PARTITION_INFO_EX</b> (0x000d0001) and a <b>cbLength</b> field indicating 
        the count of bytes in the <b>CLUS_PARTITION_INFO_EX</b> member.
 
 ### -field CLUS_PARTITION_INFO_EX
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info_ex">CLUS_PARTITION_INFO_EX</a> structure.
+A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info_ex">CLUS_PARTITION_INFO_EX</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info">CLUSPROP_PARTITION_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-clusprop_piflags">CLUSPROP_PIFLAGS</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-clusprop_piflags">CLUSPROP_PIFLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_value">CLUSPROP_VALUE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info_ex">CLUS_PARTITION_INFO_EX</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info_ex">CLUS_PARTITION_INFO_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>

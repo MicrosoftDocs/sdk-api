@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Specifies the type of structure contained in the <b>WRdsSetting</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings">WRDS_SETTINGS</a> structure.
+Specifies the type of structure contained in the <b>WRdsSetting</b> member of the <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings">WRDS_SETTINGS</a> structure.
 
 ## -enum-fields
 
@@ -64,5 +64,4 @@ The type of structure is not defined.
 
 ### -field WRDS_SETTING_LEVEL_1
 
-The structure is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings_1">WRDS_SETTINGS_1</a> structure.
-
+The structure is a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings_1">WRDS_SETTINGS_1</a> structure.

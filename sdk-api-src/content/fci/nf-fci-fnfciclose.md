@@ -45,9 +45,6 @@ api_name:
  - FNFCICLOSE
 ---
 
-# FNFCICLOSE macro
-
-
 ## -description
 
 The <b>FNFCICLOSE</b> macro provides the declaration for the application-defined callback function to close a file in an FCI context.
@@ -56,25 +53,13 @@ The <b>FNFCICLOSE</b> macro provides the declaration for the application-defined
 
 ### -param fn
 
- Specifies an application-defined value that identifies an open file.
-
-
-#### - err
-
-Pointer to the error code value. This value is  used to provide extended error information in the <a href="https://docs.microsoft.com/windows/desktop/api/fdi_fci_types/ns-fdi_fci_types-erf">ERF</a> structure used to create the FCI context.
-
-
-#### - pv
-
-Pointer to an application-defined value.
+Specifies an application-defined value that identifies an open file.
 
 ## -remarks
 
 The function accepts parameters similar to <a href="https://msdn.microsoft.com/library/5fzwd5ss(VS.80).aspx">_close</a>, with the addition of <i>err</i> and <i>pv</i>.
 
-
-#### Examples
-
+## Examples
 
 ```cpp
 FNFCICLOSE(fnFileClose)
@@ -91,10 +76,8 @@ FNFCICLOSE(fnFileClose)
 
     return iResult;
 }
-
 ```
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
-
+<a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>

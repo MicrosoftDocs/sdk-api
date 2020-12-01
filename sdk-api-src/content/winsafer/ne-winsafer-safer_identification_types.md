@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SAFER_IDENTIFICATION_TYPES</b> enumeration type defines the possible types of identification rule structures that can be identified by the  <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure.
+The <b>SAFER_IDENTIFICATION_TYPES</b> enumeration type defines the possible types of identification rule structures that can be identified by the  <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure.
 
 ## -enum-fields
 
@@ -62,21 +62,20 @@ The header is for a default level structure.
 
 ### -field SaferIdentityTypeImageName
 
-The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a> structure.
+The header is for a <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a> structure.
 
 ### -field SaferIdentityTypeImageHash
 
-The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_hash_identification">SAFER_HASH_IDENTIFICATION</a> structure.
+The header is for a <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_hash_identification">SAFER_HASH_IDENTIFICATION</a> structure.
 
 ### -field SaferIdentityTypeUrlZone
 
-The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_urlzone_identification">SAFER_URLZONE_IDENTIFICATION</a> structure.
+The header is for a <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_urlzone_identification">SAFER_URLZONE_IDENTIFICATION</a> structure.
 
 ### -field SaferIdentityTypeCertificate
 
-The header is for a <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a> structure.
+The header is for a <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_pathname_identification">SAFER_PATHNAME_IDENTIFICATION</a> structure.
 
 ## -remarks
 
-The <b>SAFER_IDENTIFICATION_TYPES</b> enumeration type is used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsafer/ns-winsafer-safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure.
-
+The <b>SAFER_IDENTIFICATION_TYPES</b> enumeration type is used by the <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure.

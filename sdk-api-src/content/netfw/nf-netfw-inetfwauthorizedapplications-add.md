@@ -51,33 +51,26 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 The <b>Add</b> method adds a new application to the collection.
 
 ## -parameters
 
-### -param app
-
-TBD
-
-
-
-
-#### - application [in]
+### -param app [in]
 
 <table>
 <tr>
 <td><strong>C++</strong></td>
 <td>
-Application to add to the collection via an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFWAuthorizedApplication</a> object.
+Application to add to the collection via an <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFWAuthorizedApplication</a> object.
 
 </td>
 </tr>
 <tr>
 <td><strong>VB</strong></td>
 <td>
-Application to add to the collection via an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFWAuthorizedApplication</a> object. 
+Application to add to the collection via an <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFWAuthorizedApplication</a> object. 
 
 </td>
 </tr>
@@ -204,9 +197,8 @@ If an application with the same path already exists, the existing settings are o
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFWAuthorizedApplication</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFWAuthorizedApplication</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplications">INetFwAuthorizedApplications</a>
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplications">INetFwAuthorizedApplications</a>

@@ -56,7 +56,7 @@ Creates a security token from its specified XML form.
 
 ### -param tokenXml [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> structure containing  the security token in its XML form.    The referenced buffer must have exactly
+Pointer to a <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> structure containing  the security token in its XML form.    The referenced buffer must have exactly
 one top level XML element.
 
 ### -param tokenKey [in, optional]
@@ -97,9 +97,9 @@ The number of properties in the <i>properties</i> array.
 
 ### -param token
 
-On   success, a pointer that receives the address of the  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-security-token">WS_SECURITY_TOKEN</a> structure representing the created XML security token.
+On   success, a pointer that receives the address of the  <a href="/windows/desktop/wsw/ws-security-token">WS_SECURITY_TOKEN</a> structure representing the created XML security token.
                 
-                When you no longer need this structure, you must free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreesecuritytoken">WsFreeSecurityToken</a>.
+                When you no longer need this structure, you must free it by calling <a href="/windows/desktop/api/webservices/nf-webservices-wsfreesecuritytoken">WsFreeSecurityToken</a>.
                 
 
 The returned security token may be used with <a href="/windows/win32/api/webservices/ns-webservices-ws_xml_token_message_security_binding">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
@@ -108,7 +108,7 @@ presented to a service.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
 
@@ -153,4 +153,3 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
-

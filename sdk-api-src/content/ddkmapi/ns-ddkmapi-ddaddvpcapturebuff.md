@@ -60,7 +60,7 @@ The DDADDVPCAPTUREBUFF structure contains the information required to add a new 
 
 ### -field hCapture
 
-Handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object.
+Handle to the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object.
 
 ### -field dwFlags
 
@@ -105,7 +105,7 @@ The destination buffer exists in system memory.
 
 ### -field pMDL
 
-Points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/">MDL</a> (defined in <i>wdm.h</i>) that describes the physical pages of the destination buffer.
+Points to an <a href="/windows-hardware/drivers/">MDL</a> (defined in <i>wdm.h</i>) that describes the physical pages of the destination buffer.
 
 ### -field pKEvent
 
@@ -113,17 +113,16 @@ Points to a KEVENT that the kernel-mode video transport sets when the destinatio
 
 ### -field lpBuffInfo
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddcapbuffinfo">DDCAPBUFFINFO</a> structure that the kernel-mode video transport fills in before setting the KEVENT.
+Points to a <a href="/windows/desktop/api/ddkmapi/ns-ddkmapi-ddcapbuffinfo">DDCAPBUFFINFO</a> structure that the kernel-mode video transport fills in before setting the KEVENT.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddkmapi/ns-ddkmapi-ddcapbuffinfo">DDCAPBUFFINFO</a>
+<a href="/windows/desktop/api/ddkmapi/ns-ddkmapi-ddcapbuffinfo">DDCAPBUFFINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550599(v=vs.85)">DD_DXAPI_ADDVPCAPTUREBUFFER</a>
+<a href="/previous-versions/windows/hardware/drivers/ff550599(v=vs.85)">DD_DXAPI_ADDVPCAPTUREBUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-
+<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>

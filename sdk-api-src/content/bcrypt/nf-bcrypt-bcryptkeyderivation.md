@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>BCryptKeyDerivation</b>  function derives a key without requiring a secret agreement. It is similar in functionality to <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptderivekey">BCryptDeriveKey</a> but does not require a BCRYPT_SECRET_HANDLE value as input.
+The <b>BCryptKeyDerivation</b>  function derives a key without requiring a secret agreement. It is similar in functionality to <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptderivekey">BCryptDeriveKey</a> but does not require a BCRYPT_SECRET_HANDLE value as input.
 
 ## -parameters
 
@@ -203,7 +203,7 @@ Returns a status code that indicates the success or failure of the function.
 
 ## -remarks
 
-You can use the following algorithm identifiers in the <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function before calling <b>BCryptKeyDerivation</b>:
+You can use the following algorithm identifiers in the <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider">BCryptOpenAlgorithmProvider</a> function before calling <b>BCryptKeyDerivation</b>:
 
 <ul>
 <li><b>BCRYPT_CAPI_KDF_ALGORITHM</b></li>
@@ -215,9 +215,8 @@ To call this function in kernel mode, use Cng.lib, which is part of the Driver D
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptderivekey">BCryptDeriveKey</a>
+<a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptderivekey">BCryptDeriveKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptkeyderivation">NCryptKeyDerivation</a>
-
+<a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptkeyderivation">NCryptKeyDerivation</a>

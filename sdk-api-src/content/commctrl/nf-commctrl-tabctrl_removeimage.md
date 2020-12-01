@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Removes an image from a tab control's image list. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-removeimage">TCM_REMOVEIMAGE</a> message explicitly.
+Removes an image from a tab control's image list. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-removeimage">TCM_REMOVEIMAGE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
 
@@ -69,4 +69,3 @@ Index of the image to remove.
 ## -remarks
 
 The tab control updates each tab's image index, so each tab remains associated with the same image as before. If a tab is using the image being removed, the tab will be set to have no image.
-

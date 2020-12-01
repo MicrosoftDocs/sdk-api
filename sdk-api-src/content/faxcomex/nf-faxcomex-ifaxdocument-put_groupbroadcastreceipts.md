@@ -62,13 +62,12 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-broadcasting-a-fax">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-broadcasting-a-fax">Visual Basic Example</a>

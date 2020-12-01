@@ -54,7 +54,7 @@ Exposes methods to get, set, and query a progress dialog.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOperationsProgressDialog</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOperationsProgressDialog</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOperationsProgressDialog</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOperationsProgressDialog</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IOperationsProgressDialog</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-getmilliseconds">GetMilliseconds</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-getmilliseconds">GetMilliseconds</a>
 </td>
 <td align="left" width="63%">
 Gets elapsed and remaining time for progress dialog.
@@ -78,7 +78,7 @@ Gets elapsed and remaining time for progress dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-getoperationstatus">GetOperationStatus</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-getoperationstatus">GetOperationStatus</a>
 </td>
 <td align="left" width="63%">
 Gets operation status for progress dialog.
@@ -87,7 +87,7 @@ Gets operation status for progress dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-pausetimer">PauseTimer</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-pausetimer">PauseTimer</a>
 </td>
 <td align="left" width="63%">
 Pauses progress dialog timer.
@@ -96,7 +96,7 @@ Pauses progress dialog timer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-resettimer">ResetTimer</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-resettimer">ResetTimer</a>
 </td>
 <td align="left" width="63%">
 Resets progress dialog timer to 0.
@@ -105,7 +105,7 @@ Resets progress dialog timer to 0.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-resumetimer">ResumeTimer</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-resumetimer">ResumeTimer</a>
 </td>
 <td align="left" width="63%">
 Resumes progress dialog timer.
@@ -114,7 +114,7 @@ Resumes progress dialog timer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-setmode">SetMode</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-setmode">SetMode</a>
 </td>
 <td align="left" width="63%">
 Sets progress dialog operations mode.
@@ -123,7 +123,7 @@ Sets progress dialog operations mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-setoperation">SetOperation</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-setoperation">SetOperation</a>
 </td>
 <td align="left" width="63%">
 Sets which progress dialog operation is occurring, and whether we are in pre-flight or undo mode.
@@ -132,7 +132,7 @@ Sets which progress dialog operation is occurring, and whether we are in pre-fli
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-startprogressdialog">StartProgressDialog</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-startprogressdialog">StartProgressDialog</a>
 </td>
 <td align="left" width="63%">
 Starts the specified progress dialog.
@@ -141,7 +141,7 @@ Starts the specified progress dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-stopprogressdialog">StopProgressDialog</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-stopprogressdialog">StopProgressDialog</a>
 </td>
 <td align="left" width="63%">
 Stops current progress dialog.
@@ -150,7 +150,7 @@ Stops current progress dialog.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-updatelocations">UpdateLocations</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-updatelocations">UpdateLocations</a>
 </td>
 <td align="left" width="63%">
 Called to specify the text elements stating the source and target in the current progress dialog.
@@ -159,7 +159,7 @@ Called to specify the text elements stating the source and target in the current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-updateprogress">UpdateProgress</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ioperationsprogressdialog-updateprogress">UpdateProgress</a>
 </td>
 <td align="left" width="63%">
 Updates the current progress dialog, as specified.
@@ -167,4 +167,3 @@ Updates the current progress dialog, as specified.
 </td>
 </tr>
 </table>
-

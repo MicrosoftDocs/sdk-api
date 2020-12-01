@@ -58,7 +58,7 @@ Contains media type information for registering a Media Foundation transform (MF
 
 ### -field guidMajorType
 
-The major media type. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-guids">Major Media Types</a>.
+The major media type. For a list of possible values, see <a href="/windows/desktop/medfound/media-type-guids">Major Media Types</a>.
 
 ### -field guidSubtype
 
@@ -66,26 +66,25 @@ The media subtype. For a list of possible values, see the following topics:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/audio-subtype-guids">Audio Subtype GUIDs</a>
+<a href="/windows/desktop/medfound/audio-subtype-guids">Audio Subtype GUIDs</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/video-subtype-guids">Video Subtype GUIDs</a>
+<a href="/windows/desktop/medfound/video-subtype-guids">Video Subtype GUIDs</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftenum">MFTEnum</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mftenum">MFTEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftgetinfo">MFTGetInfo</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mftgetinfo">MFTGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mftregister">MFTRegister</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mftregister">MFTRegister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

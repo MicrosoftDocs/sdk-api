@@ -74,7 +74,7 @@ Only site-specific domain controllers are enumerated.
 
 #### DS_NOTIFY_AFTER_SITE_RECORDS
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnexta">DsGetDcNext</a> function will return the <b>ERROR_FILEMARK_DETECTED</b> value after all of the site-specific domain controllers are retrieved. <b>DsGetDcNext</b> will then enumerate the second group, which contains all domain controllers in the domain, including the site-specific domain controllers contained in the first group.
+The <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnexta">DsGetDcNext</a> function will return the <b>ERROR_FILEMARK_DETECTED</b> value after all of the site-specific domain controllers are retrieved. <b>DsGetDcNext</b> will then enumerate the second group, which contains all domain controllers in the domain, including the site-specific domain controllers contained in the first group.
 
 ### -param SiteName [in, optional]
 
@@ -126,7 +126,7 @@ Requires that the enumerated domain controllers be the primary domain controller
 
 ### -param RetGetDcContext [out]
 
-Pointer to a <b>HANDLE</b> value that receives the domain controller enumeration context handle. This handle is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnexta">DsGetDcNext</a> function to identify the domain controller enumeration operation. This handle is passed to <a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcclosew">DsGetDcClose</a> to close the domain controller enumeration operation.
+Pointer to a <b>HANDLE</b> value that receives the domain controller enumeration context handle. This handle is used with the <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnexta">DsGetDcNext</a> function to identify the domain controller enumeration operation. This handle is passed to <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcclosew">DsGetDcClose</a> to close the domain controller enumeration operation.
 
 ## -returns
 
@@ -134,22 +134,21 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 or RPC error otherwise. Po
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
+<a href="/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcclosew">DsGetDcClose</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcclosew">DsGetDcClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnexta">DsGetDcNext</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcnexta">DsGetDcNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/enumerating-domain-controllers">Enumerating Domain Controllers</a>
+<a href="/windows/desktop/AD/enumerating-domain-controllers">Enumerating Domain Controllers</a>
 
 ## -remarks
 
 > [!NOTE]
 > The dsgetdc.h header defines DsGetDcOpen as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

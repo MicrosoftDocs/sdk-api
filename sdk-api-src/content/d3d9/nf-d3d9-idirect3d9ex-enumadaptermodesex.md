@@ -57,27 +57,27 @@ This method returns the actual display mode info based on the given mode index.
 
 ### -param Adapter [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Ordinal number denoting the display adapter to enumerate. D3DADAPTER_DEFAULT is always the primary display adapter. This method returns D3DERR_INVALIDCALL when this value equals or exceeds the number of display adapters in the system.
 
 ### -param pFilter [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddisplaymodefilter">D3DDISPLAYMODEFILTER</a>*</b>
+Type: <b>const <a href="/windows/desktop/direct3d9/d3ddisplaymodefilter">D3DDISPLAYMODEFILTER</a>*</b>
 
-See <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddisplaymodefilter">D3DDISPLAYMODEFILTER</a>.
+See <a href="/windows/desktop/direct3d9/d3ddisplaymodefilter">D3DDISPLAYMODEFILTER</a>.
 
 ### -param Mode [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Represents the display-mode index which is an unsigned integer between zero and the value returned by GetAdapterModeCount minus one.
 
 ### -param pMode [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddisplaymodeex">D3DDISPLAYMODEEX</a>*</b>
+Type: <b><a href="/windows/desktop/direct3d9/d3ddisplaymodeex">D3DDISPLAYMODEEX</a>*</b>
 
-A pointer to the available display mode of type <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddisplaymodeex">D3DDISPLAYMODEEX</a>.
+A pointer to the available display mode of type <a href="/windows/desktop/direct3d9/d3ddisplaymodeex">D3DDISPLAYMODEEX</a>.
 
 ## -returns
 
@@ -90,5 +90,4 @@ Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex">IDirect3D9Ex</a>
-
+<a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex">IDirect3D9Ex</a>

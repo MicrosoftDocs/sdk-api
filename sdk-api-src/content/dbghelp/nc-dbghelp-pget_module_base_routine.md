@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined callback function used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function. It is called when 
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a> function. It is called when 
 <b>StackWalk64</b> needs a module base address for a given virtual address.
 
 The <b>PGET_MODULE_BASE_ROUTINE64</b> type defines a pointer to this callback function. 
@@ -91,9 +91,8 @@ DWORD
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>

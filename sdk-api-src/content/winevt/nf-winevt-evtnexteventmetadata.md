@@ -56,7 +56,7 @@ Gets an event definition from the enumerator.
 
 ### -param EventMetadataEnum [in]
 
-A handle to the event definition enumerator that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopeneventmetadataenum">EvtOpenEventMetadataEnum</a> function returns.
+A handle to the event definition enumerator that the <a href="/windows/desktop/api/winevt/nf-winevt-evtopeneventmetadataenum">EvtOpenEventMetadataEnum</a> function returns.
 
 ### -param Flags [in]
 
@@ -64,24 +64,23 @@ Reserved. Must be zero.
 
 ## -returns
 
-If successful, the function returns a handle to the event's metadata; otherwise, <b>NULL</b>. If <b>NULL</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
+If successful, the function returns a handle to the event's metadata; otherwise, <b>NULL</b>. If <b>NULL</b>, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 ## -remarks
 
 Call this function in a loop until the function returns <b>NULL</b> and the error code is ERROR_NO_MORE_ITEMS.
 
-To get a property from the event definition, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgeteventmetadataproperty">EvtGetEventMetadataProperty</a> function.
+To get a property from the event definition, call the <a href="/windows/desktop/api/winevt/nf-winevt-evtgeteventmetadataproperty">EvtGetEventMetadataProperty</a> function.
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function to close the event definition handle when done.
+You must call the <a href="/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function to close the event definition handle when done.
 
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/getting-a-provider-s-metadata-">Getting a Provider's Metadata</a>.
+For an example that shows how to use this function, see <a href="/windows/desktop/WES/getting-a-provider-s-metadata-">Getting a Provider's Metadata</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtgeteventmetadataproperty">EvtGetEventMetadataProperty</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtgeteventmetadataproperty">EvtGetEventMetadataProperty</a>

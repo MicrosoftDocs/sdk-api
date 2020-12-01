@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extracts data from a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure into a newly-allocated FILETIME vector.
+Extracts data from a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure into a newly-allocated FILETIME vector.
 
 ## -parameters
 
@@ -58,19 +58,19 @@ Extracts data from a <a href="https://docs.microsoft.com/windows/desktop/api/pro
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Reference to a source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param pprgft [out]
 
 Type: <b>FILETIME**</b>
 
- When this function returns, contains a pointer to a vector of FILETIME values extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+ When this function returns, contains a pointer to a vector of FILETIME values extracted from the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param pcElem [out]
 
 Type: <b>ULONG*</b>
 
-When this function returns, contains the count of FILETIME elements extracted from source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+When this function returns, contains the count of FILETIME elements extracted from source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -returns
 
@@ -101,7 +101,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 </dl>
 </td>
 <td width="60%">
-The<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>was not of the appropriate type.
+The<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>was not of the appropriate type.
 
 </td>
 </tr>
@@ -109,16 +109,16 @@ The<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-pr
 
 ## -remarks
 
-This helper function is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a FILETIME vector value.
+This helper function is used in places where the calling application expects a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a FILETIME vector value.
 
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type VT_VECTOR | VT_FILETIME, this function extracts a vector of FILETIMEs values into a newly allocated vector of FILETIME values. The calling application is responsible for using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release the vector pointed to by <i>pprgft</i> when it is no longer needed.
+If the source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> has type VT_VECTOR | VT_FILETIME, this function extracts a vector of FILETIMEs values into a newly allocated vector of FILETIME values. The calling application is responsible for using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release the vector pointed to by <i>pprgft</i> when it is no longer needed.
 
 The output FILETIMEs will use the same time zone as the source FILETIMEs.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttofiletimevectoralloc">PropVariantToFileTimeVectorAlloc</a> to access a FILETIME vector value in a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttofiletimevectoralloc">PropVariantToFileTimeVectorAlloc</a> to access a FILETIME vector value in a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
 
 
 ```cpp
@@ -137,13 +137,12 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromfiletimevector">InitPropVariantFromFileTimeVector</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromfiletimevector">InitPropVariantFromFileTimeVector</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttofiletime">PropVariantToFileTime</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttofiletime">PropVariantToFileTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttofiletimevector">PropVariantToFileTimeVector</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttofiletimevector">PropVariantToFileTimeVector</a>

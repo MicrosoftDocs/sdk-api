@@ -59,7 +59,7 @@ Retrieves the signing status of the component.
 
 Type: <b>DWORD*</b>
 
-A pointer that receives the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ne-wincodec-wiccomponentsigning">WICComponentSigning</a> status of the component.
+A pointer that receives the <a href="/windows/desktop/api/wincodec/ne-wincodec-wiccomponentsigning">WICComponentSigning</a> status of the component.
 
 ## -returns
 
@@ -72,4 +72,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 Signing is unused by WIC. Therefore, all components WICComponentSigned.
 
 This function can be used to determine whether a component has no binary component or has been added to the disabled components list in the registry.
-

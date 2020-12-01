@@ -50,6 +50,7 @@ api_location:
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
  - UnregisterDeviceNotification
+req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ---
 
 # UnregisterDeviceNotification function
@@ -64,28 +65,27 @@ Closes the specified device notification handle.
 ### -param Handle [in]
 
 Device notification handle returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a> function.
+<a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-functions">Device Management Functions</a>
+<a href="/windows/desktop/DevIO/device-management-functions">Device Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-notifications">Device Notifications</a>
+<a href="/windows/desktop/DevIO/device-notifications">Device Notifications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa">RegisterDeviceNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
-
+<a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>

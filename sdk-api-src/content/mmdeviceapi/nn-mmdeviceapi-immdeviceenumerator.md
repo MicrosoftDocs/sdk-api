@@ -50,26 +50,26 @@ api_name:
 
 ## -description
 
-The <b>IMMDeviceEnumerator</b> interface provides methods for enumerating multimedia device resources. In the current implementation of the MMDevice API, the only device resources that this interface can enumerate are <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-endpoint-devices">audio endpoint devices</a>. A client obtains a reference to an <b>IMMDeviceEnumerator</b> interface by calling the <b>CoCreateInstance</b> function, as described previously (see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/mmdevice-api">MMDevice API</a>).
+The <b>IMMDeviceEnumerator</b> interface provides methods for enumerating multimedia device resources. In the current implementation of the MMDevice API, the only device resources that this interface can enumerate are <a href="/windows/desktop/CoreAudio/audio-endpoint-devices">audio endpoint devices</a>. A client obtains a reference to an <b>IMMDeviceEnumerator</b> interface by calling the <b>CoCreateInstance</b> function, as described previously (see <a href="/windows/desktop/CoreAudio/mmdevice-api">MMDevice API</a>).
 
-The device resources enumerated by the methods in the <b>IMMDeviceEnumerator</b> interface are represented as collections of objects with <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interfaces. A collection has an <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection">IMMDeviceCollection</a> interface. The <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints">IMMDeviceEnumerator::EnumAudioEndpoints</a> method creates a device collection.
+The device resources enumerated by the methods in the <b>IMMDeviceEnumerator</b> interface are represented as collections of objects with <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice</a> interfaces. A collection has an <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection">IMMDeviceCollection</a> interface. The <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints">IMMDeviceEnumerator::EnumAudioEndpoints</a> method creates a device collection.
 
-To obtain a pointer to the <b>IMMDevice</b> interface of an item in a device collection, the client calls the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevicecollection-item">IMMDeviceCollection::Item</a> method.
+To obtain a pointer to the <b>IMMDevice</b> interface of an item in a device collection, the client calls the <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevicecollection-item">IMMDeviceCollection::Item</a> method.
 
 For code examples that use the <b>IMMDeviceEnumerator</b> interface, see the following topics:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/device-properties">Device Properties</a>
+<a href="/windows/desktop/CoreAudio/device-properties">Device Properties</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/rendering-a-stream">Rendering a Stream</a>
+<a href="/windows/desktop/CoreAudio/rendering-a-stream">Rendering a Stream</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMMDeviceEnumerator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMMDeviceEnumerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMMDeviceEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMMDeviceEnumerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -84,7 +84,7 @@ The <b>IMMDeviceEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints">EnumAudioEndpoints</a>
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints">EnumAudioEndpoints</a>
 </td>
 <td align="left" width="63%">
 Generates a collection of audio endpoint devices that meet the specified criteria.
@@ -93,7 +93,7 @@ Generates a collection of audio endpoint devices that meet the specified criteri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint">GetDefaultAudioEndpoint</a>
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint">GetDefaultAudioEndpoint</a>
 </td>
 <td align="left" width="63%">
 Retrieves the default audio endpoint for the specified data-flow direction and role.
@@ -102,7 +102,7 @@ Retrieves the default audio endpoint for the specified data-flow direction and r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice">GetDevice</a>
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves an endpoint device that is specified by an endpoint device-identification string.
@@ -111,7 +111,7 @@ Retrieves an endpoint device that is specified by an endpoint device-identificat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-registerendpointnotificationcallback">RegisterEndpointNotificationCallback</a>
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-registerendpointnotificationcallback">RegisterEndpointNotificationCallback</a>
 </td>
 <td align="left" width="63%">
 Registers a client's notification callback interface.
@@ -120,10 +120,10 @@ Registers a client's notification callback interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-unregisterendpointnotificationcallback">UnregisterEndpointNotificationCallback</a>
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-unregisterendpointnotificationcallback">UnregisterEndpointNotificationCallback</a>
 </td>
 <td align="left" width="63%">
-Deletes the registration of a notification interface that the client registered in a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-registerendpointnotificationcallback">IMMDeviceEnumerator::RegisterEndpointNotificationCallback</a> method.
+Deletes the registration of a notification interface that the client registered in a previous call to the <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-registerendpointnotificationcallback">IMMDeviceEnumerator::RegisterEndpointNotificationCallback</a> method.
 
 </td>
 </tr>
@@ -131,25 +131,24 @@ Deletes the registration of a notification interface that the client registered 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
+<a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection">IMMDeviceCollection Interface</a>
+<a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection">IMMDeviceCollection Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevicecollection-item">IMMDeviceCollection::Item</a>
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevicecollection-item">IMMDeviceCollection::Item</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints">IMMDeviceEnumerator::EnumAudioEndpoints</a>
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints">IMMDeviceEnumerator::EnumAudioEndpoints</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/mmdevice-api">MMDevice API</a>
-
+<a href="/windows/desktop/CoreAudio/mmdevice-api">MMDevice API</a>

@@ -89,7 +89,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The signal quality is not available.  The Mobile Broadband service is currently probing the device to retrieve this information.  When the signal quality is available, the Mobile Broadband service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignalevents-onsignalstatechange">OnSignalStateChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignalevents">IMbnSignalEvents</a>.
+The signal quality is not available.  The Mobile Broadband service is currently probing the device to retrieve this information.  When the signal quality is available, the Mobile Broadband service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignalevents-onsignalstatechange">OnSignalStateChange</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignalevents">IMbnSignalEvents</a>.
 
 </td>
 </tr>
@@ -138,9 +138,8 @@ The following table contains the coded values that may be returned.<table>
 
 
 
-For recoverable errors <b>E_MBN_PIN_REQUIRED</b>, and <b>E_MBN_RADIO_POWER_OFF</b>, the Mobile Broadband service will query the device again for signal state when the error condition is over. This method will return E_PENDING until the query operation is complete. When the new query is complete, the Mobile Broadband  service will call the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignalevents-onsignalstatechange">OnSignalStateChange</a> method of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignalevents">IMbnSignalEvents</a>.
+For recoverable errors <b>E_MBN_PIN_REQUIRED</b>, and <b>E_MBN_RADIO_POWER_OFF</b>, the Mobile Broadband service will query the device again for signal state when the error condition is over. This method will return E_PENDING until the query operation is complete. When the new query is complete, the Mobile Broadband  service will call the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbnsignalevents-onsignalstatechange">OnSignalStateChange</a> method of <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignalevents">IMbnSignalEvents</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal">IMbnSignal</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal">IMbnSignal</a>

@@ -60,7 +60,7 @@ The name of the file to be created. This parameter must not be <b>NULL</b>.
 
 ### -param securityAttributes [in]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure, which contains two distinct but related data members:
+The <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a> structure, which contains two distinct but related data members:
 
 <ul>
 <li><b>lpSecurityDescriptor</b>: an optional security descriptor</li>
@@ -68,14 +68,14 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy
 </ul>
 If  <b>lpSecurityDescriptor</b> is <b>NULL</b>, the file or device that is associated with the returned handle will be assigned a default security descriptor. 
 
-For more information about the <i>securityAttributes</i> parameter, refer to <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
+For more information about the <i>securityAttributes</i> parameter, refer to <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 ### -param flagsAndAttributes [in]
 
 Specifies the settings and attributes of the file to be  created. For most files, a value of <b>FILE_ATTRIBUTE_NORMAL</b> can be used. 
 
 
-For more information about the <i>flagsAndAttributes</i> parameter, refer to <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
+For more information about the <i>flagsAndAttributes</i> parameter, refer to <a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>.
 
 ### -param optimizeMarkupSize [in]
 
@@ -110,7 +110,7 @@ The package writer will not attempt any optimization.
 
 ## -returns
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -142,36 +142,35 @@ The method succeeded.
 </table>
  
 
-This method calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging">Packaging</a> API. For information about the Packaging API return values, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>.
+This method calls the <a href="/previous-versions/windows/desktop/opc/packaging">Packaging</a> API. For information about the Packaging API return values, see <a href="/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>.
 
 ## -remarks
 
 The <i>optimizeMarkupSize</i> value determines whether the markup inside the individual document parts is to be optimized. It has  no effect on how the parts are interleaved.
 
-<div class="alert"><b>Note</b>  Writing an XPS OM to a file does not automatically create a thumbnail for the XPS document. To create a thumbnail of the XPS document, use the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomthumbnailgenerator">IXpsOMThumbnailGenerator</a> interface.</div>
+<div class="alert"><b>Note</b>  Writing an XPS OM to a file does not automatically create a thumbnail for the XPS document. To create a thumbnail of the XPS document, use the <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomthumbnailgenerator">IXpsOMThumbnailGenerator</a> interface.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackage">IXpsOMPackage</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompackage">IXpsOMPackage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-errors">Packaging Errors</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
+<a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
 
 
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

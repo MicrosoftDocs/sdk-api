@@ -54,5 +54,4 @@ The <b>IFaxDeviceProvider</b> interface defines a configuration object used by a
 
 ## -remarks
 
-A default implementation of <b>IFaxDeviceProvider</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdeviceprovider">FaxDeviceProvider</a> object.
-
+A default implementation of <b>IFaxDeviceProvider</b> is provided as the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdeviceprovider">FaxDeviceProvider</a> object.

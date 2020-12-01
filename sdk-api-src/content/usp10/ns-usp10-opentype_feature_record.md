@@ -58,7 +58,7 @@ Contains information about a single OpenType feature to apply to a run.
 
 ### -field tagFeature
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure containing a registered or private OpenType feature tag. For information on feature tags, see <a href="https://docs.microsoft.com/typography/opentype/spec/featuretags">http://www.microsoft.com/typography/otspec/featuretags.htm</a>.
+<a href="/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a> structure containing a registered or private OpenType feature tag. For information on feature tags, see <a href="/typography/opentype/spec/featuretags">http://www.microsoft.com/typography/otspec/featuretags.htm</a>.
 
 ### -field lParameter
 
@@ -85,17 +85,16 @@ Value indicating how to apply the feature tag. Possible values are defined in th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a>
+<a href="/windows/desktop/Intl/opentype-tag">OPENTYPE_TAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/ns-usp10-textrange_properties">TEXTRANGE_PROPERTIES</a>
+<a href="/windows/desktop/api/usp10/ns-usp10-textrange_properties">TEXTRANGE_PROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
-
+<a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>

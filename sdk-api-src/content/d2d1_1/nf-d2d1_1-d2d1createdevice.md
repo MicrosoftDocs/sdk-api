@@ -91,27 +91,26 @@ The function returns an <b>HRESULT</b>. Possible values include, but are not lim
 
 ## -remarks
 
-This function will also create a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a> that can be retrieved through <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1resource-getfactory">ID2D1Resource::GetFactory</a>.
+This function will also create a new <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a> that can be retrieved through <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1resource-getfactory">ID2D1Resource::GetFactory</a>.
 
 If the creation properties are not specified, then <i>d2dDevice</i> will inherit its threading mode from <i>dxgiDevice</i> and debug tracing will not be enabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory">D2D1CreateFactory</a>
+<a href="/windows/desktop/api/d2d1/nf-d2d1-d2d1createfactory">D2D1CreateFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_creation_properties">D2D1_CREATION_PROPERTIES</a>
+<a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_creation_properties">D2D1_CREATION_PROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1resource-getfactory">ID2D1Resource::GetFactory</a>
-
+<a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1resource-getfactory">ID2D1Resource::GetFactory</a>

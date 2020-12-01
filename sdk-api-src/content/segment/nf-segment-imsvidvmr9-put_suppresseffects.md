@@ -100,9 +100,8 @@ For applications based on the Windows Graphics Device Interface (GDI), these set
 
 If <i>bSuppress</i> equals VARIANT_FALSE, the Video Control does not modify any of these system settings.
 
-The default value for this property is VARIANT_TRUE. Set this property to VARIANT_FALSE if your application wants to control all of the system settings; for example, if you are providing a custom allocator-presenter (see <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvmr9-setallocator">IMSVidVMR9::SetAllocator</a>).
+The default value for this property is VARIANT_TRUE. Set this property to VARIANT_FALSE if your application wants to control all of the system settings; for example, if you are providing a custom allocator-presenter (see <a href="/windows/desktop/api/segment/nf-segment-imsvidvmr9-setallocator">IMSVidVMR9::SetAllocator</a>).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidvmr9">IMSVidVMR9 Interface</a>
-
+<a href="/previous-versions/windows/desktop/mstv/msvidvmr9">IMSVidVMR9 Interface</a>

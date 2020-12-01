@@ -63,7 +63,7 @@ The <b>GetOutputProps</b> method retrieves the current properties of an uncompre
 
 ### -param ppOutput [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops">IWMOutputMediaProps</a> interface, which is created by a successful call to this method.
+Pointer to a pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops">IWMOutputMediaProps</a> interface, which is created by a successful call to this method.
 
 ## -returns
 
@@ -115,9 +115,8 @@ Manipulating the object retrieved by a call to <b>GetOutputProps</b> has no effe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputprops">IWMSyncReader::SetOutputProps</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputprops">IWMSyncReader::SetOutputProps</a>

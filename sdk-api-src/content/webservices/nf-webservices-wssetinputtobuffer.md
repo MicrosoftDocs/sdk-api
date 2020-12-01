@@ -52,9 +52,9 @@ api_name:
 
 Sets Reader input to a specified XML buffer.
       Reader properties
-        specified to <b>WsSetInputToBuffer</b>  override properties set by <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a>.
+        specified to <b>WsSetInputToBuffer</b>  override properties set by <a href="/windows/desktop/api/webservices/nf-webservices-wscreatereader">WsCreateReader</a>.
 
-The reader does not modify <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> input data.
+The reader does not modify <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> input data.
       <div class="alert"><b>Note</b>  It is permissible for more than one reader to read from the same <b>WS_XML_BUFFER</b>.</div>
 <div> </div>
 
@@ -62,7 +62,7 @@ The reader does not modify <a href="https://docs.microsoft.com/windows/desktop/w
 
 ### -param reader [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object for which the input will be set.
+A pointer to the <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object for which the input will be set.
 
 ### -param buffer [in]
 
@@ -70,7 +70,7 @@ A pointer to the XML buffer to read.
 
 ### -param properties
 
-A pointer that references an array of optional Reader properties.  <div class="alert"><b>Note</b>  For more information see <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_property">WS_XML_READER_PROPERTY</a>.</div>
+A pointer that references an array of optional Reader properties.  <div class="alert"><b>Note</b>  For more information see <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_property">WS_XML_READER_PROPERTY</a>.</div>
 <div> </div>.
 
 ### -param propertyCount [in]
@@ -79,7 +79,7 @@ The number of properties.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -88,5 +88,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ## -remarks
 
 When an XML Reader has an XML Buffer as an input source, the Reader can be used in a random access fashion, and
-        the functions <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetreaderposition">WsSetReaderPosition</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsmovereader">WsMoveReader</a> are available for use.
-
+        the functions <a href="/windows/desktop/api/webservices/nf-webservices-wsgetreaderposition">WsGetReaderPosition</a>, <a href="/windows/desktop/api/webservices/nf-webservices-wssetreaderposition">WsSetReaderPosition</a>, and <a href="/windows/desktop/api/webservices/nf-webservices-wsmovereader">WsMoveReader</a> are available for use.

@@ -56,7 +56,7 @@ Gets the URI of the relationship source.
 
 ### -param sourceUri [out, retval]
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a> interface of the OPC URI object that represents the URI of the relationship source.
+A pointer to the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a> interface of the OPC URI object that represents the URI of the relationship source.
 
 ## -returns
 
@@ -95,16 +95,16 @@ The <i>sourceUri</i> parameter is <b>NULL</b>.
 
 If the source of a relationship is the package itself, the URI in <i>sourceUri</i> represents the package root: "/".
 
-If the relationship  target is a part, form the part name by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcuri-combineparturi">IOpcUri::CombinePartUri</a> method from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a> interface pointer received in <i>sourceUri</i>. Use the relative URI received in the <i>targetUri</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationship-gettargeturi">GetTargetUri</a> method as the input parameter of the <b>IOpcUri::CombinePartUri</b> call. For an example, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/resolving-a-part-name-from-a-relationship-s-target-uri">Resolving a Part Name from a Target URI</a>.
+If the relationship  target is a part, form the part name by calling the <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcuri-combineparturi">IOpcUri::CombinePartUri</a> method from the <a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcuri">IOpcUri</a> interface pointer received in <i>sourceUri</i>. Use the relative URI received in the <i>targetUri</i> parameter of the <a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcrelationship-gettargeturi">GetTargetUri</a> method as the input parameter of the <b>IOpcUri::CombinePartUri</b> call. For an example, see <a href="/previous-versions/windows/desktop/opc/resolving-a-part-name-from-a-relationship-s-target-uri">Resolving a Part Name from a Target URI</a>.
 
-For more information about relationships, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/open-packaging-conventions-overview">Open Packaging Conventions Fundamentals</a> and the <i>ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)</i>.
+For more information about relationships, see the <a href="/previous-versions/windows/desktop/opc/open-packaging-conventions-overview">Open Packaging Conventions Fundamentals</a> and the <i>ECMA-376 OpenXML, 1st Edition, Part 2: Open Packaging Conventions (OPC)</i>.
 
 
 #### Thread Safety
 
 Packaging objects are not thread-safe.
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
+For more information, see the <a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>.
 
 ## -see-also
 
@@ -116,15 +116,15 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nn-msopc-iopcrelationship">IOpcRelationship</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/open-packaging-conventions-overview">Open Packaging Conventions Fundamentals</a>
+<a href="/previous-versions/windows/desktop/opc/open-packaging-conventions-overview">Open Packaging Conventions Fundamentals</a>
 
 
 
@@ -132,11 +132,11 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-reference">Packaging API Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
@@ -144,9 +144,8 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>
+<a href="/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/resolving-a-part-name-from-a-relationship-s-target-uri">Resolving a Part Name from a Target URI</a>
-
+<a href="/previous-versions/windows/desktop/opc/resolving-a-part-name-from-a-relationship-s-target-uri">Resolving a Part Name from a Target URI</a>

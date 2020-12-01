@@ -78,5 +78,4 @@ typedef struct tagSIZEL *LPSIZEL;</code></pre>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iquickactivate">IQuickActivate</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iquickactivate">IQuickActivate</a>

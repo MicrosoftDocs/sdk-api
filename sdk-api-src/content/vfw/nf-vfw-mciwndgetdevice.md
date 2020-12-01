@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndGetDevice</b> macro retrieves the name of the current MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getdevice">MCIWNDM_GETDEVICE</a> message.
+The <b>MCIWndGetDevice</b> macro retrieves the name of the current MCI device. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-getdevice">MCIWNDM_GETDEVICE</a> message.
 
 ## -parameters
 
@@ -72,5 +72,4 @@ If the null-terminated string containing the device name is longer than the buff
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getdevice">MCIWNDM_GETDEVICE</a>
-
+<a href="/windows/desktop/Multimedia/mciwndm-getdevice">MCIWNDM_GETDEVICE</a>

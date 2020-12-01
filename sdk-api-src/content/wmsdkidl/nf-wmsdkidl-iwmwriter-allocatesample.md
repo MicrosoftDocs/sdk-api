@@ -63,7 +63,7 @@ The <b>AllocateSample</b> method allocates a buffer that can be used to provide 
 
 ### -param ppSample [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface to an object containing the sample.
+Pointer to a pointer to an <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer">INSSBuffer</a> interface to an object containing the sample.
 
 ## -returns
 
@@ -100,13 +100,12 @@ The writer is not currently running.
 
 ## -remarks
 
-You must use a new buffer for each sample passed to the writer object; reusing a buffer after passing it to call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-writesample">IWMWriter::WriteSample</a> will cause errors because the writer object does not immediately release its references to the buffer object. You can release the interfaces of the buffer object safely any time after the <b>WriteSample</b> call returns.
+You must use a new buffer for each sample passed to the writer object; reusing a buffer after passing it to call <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-writesample">IWMWriter::WriteSample</a> will cause errors because the writer object does not immediately release its references to the buffer object. You can release the interfaces of the buffer object safely any time after the <b>WriteSample</b> call returns.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriter">IWMWriter Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-write-samples">To Write Samples</a>
-
+<a href="/windows/desktop/wmformat/to-write-samples">To Write Samples</a>

@@ -61,11 +61,11 @@ The
 
 ### -field SendingFlowspec
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure for the sending direction of the flow.
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure for the sending direction of the flow.
 
 ### -field ReceivingFlowspec
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure for the receiving direction of the flow.
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a> structure for the receiving direction of the flow.
 
 ### -field TcObjectsLength
 
@@ -79,48 +79,47 @@ Buffer that contains an array of traffic control objects specific to the given f
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_ds_class">QOS_DS_CLASS</a>
+<a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_ds_class">QOS_DS_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_traffic_class">QOS_TRAFFIC_CLASS</a>
+<a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_traffic_class">QOS_TRAFFIC_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>
+<a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-qos_sd_mode">QOS_SD_MODE</a>
+<a href="/windows/desktop/api/qos/ns-qos-qos_sd_mode">QOS_SD_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-qos_shaping_rate">QOS_SHAPING_RATE</a>
+<a href="/windows/desktop/api/qos/ns-qos-qos_shaping_rate">QOS_SHAPING_RATE</a>
 
 
 QOS_OBJECT_END_OF_LIST
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
+<a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>
+<a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_ds_class">QOS_DS_CLASS</a>
+<a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_ds_class">QOS_DS_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-qos_sd_mode">QOS_SD_MODE</a>
+<a href="/windows/desktop/api/qos/ns-qos-qos_sd_mode">QOS_SD_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qos/ns-qos-qos_shaping_rate">QOS_SHAPING_RATE</a>
+<a href="/windows/desktop/api/qos/ns-qos-qos_shaping_rate">QOS_SHAPING_RATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qosobjs/ns-qosobjs-qos_traffic_class">QOS_TRAFFIC_CLASS</a>
-
+<a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_traffic_class">QOS_TRAFFIC_CLASS</a>

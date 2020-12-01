@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Contains information about a Remote Desktop Services listener. This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtscreatelistenera">WTSCreateListener</a> function.
+Contains information about a Remote Desktop Services listener. This structure is used by the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtscreatelistenera">WTSCreateListener</a> function.
 
 ## -struct-fields
 
@@ -704,10 +704,9 @@ Always prompt the user for a password.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtscreatelistenera">WTSCreateListener</a>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtscreatelistenera">WTSCreateListener</a>
 
 ## -remarks
 
 > [!NOTE]
 > The wtsapi32.h header defines WTSLISTENERCONFIG as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -56,7 +56,7 @@ The <b>XLATEOBJ_cGetPalette</b> function retrieves RGB colors or the bitfields f
 
 ### -param pxlo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure from which GDI retrieves the requested information.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a> structure from which GDI retrieves the requested information.
 
 ### -param iPal [in]
 
@@ -129,5 +129,4 @@ The driver must have information about the palette to perform some methods of co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-xlateobj">XLATEOBJ</a>

@@ -72,5 +72,4 @@ The angular velocity.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
-
+<a href="/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>

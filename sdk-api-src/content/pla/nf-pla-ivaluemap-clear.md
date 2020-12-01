@@ -60,9 +60,8 @@ Returns S_OK if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-remove">IValueMap::Remove</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-remove">IValueMap::Remove</a>

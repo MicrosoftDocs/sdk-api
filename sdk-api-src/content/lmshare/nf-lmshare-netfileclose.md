@@ -110,16 +110,15 @@ Only members of the Administrators or Server Operators local group can successfu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/netfile-functions">NetFile
+<a href="/windows/desktop/NetShare/netfile-functions">NetFile
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
-

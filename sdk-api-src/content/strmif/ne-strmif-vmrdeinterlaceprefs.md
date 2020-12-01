@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>VMRDeinterlacePrefs</b> enumeration type describes the deinterlacing method that the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7) uses if the method set by the application cannot be used.
+The <b>VMRDeinterlacePrefs</b> enumeration type describes the deinterlacing method that the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7) uses if the method set by the application cannot be used.
 
 ## -enum-fields
 
@@ -73,9 +73,8 @@ Bitwise <b>OR</b> of the previous flags. This value is not a valid flag.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrdeinterlacecontrol">IVMRDeinterlaceControl Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrdeinterlacecontrol">IVMRDeinterlaceControl Interface</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PeerCollabGetEndpointName</b> function retrieves the name of the current endpoint of the calling peer, as previously set by a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsetendpointname">PeerCollabSetEndpointName</a>.
+The <b>PeerCollabGetEndpointName</b> function retrieves the name of the current endpoint of the calling peer, as previously set by a call to <a href="/windows/desktop/api/p2p/nf-p2p-peercollabsetendpointname">PeerCollabSetEndpointName</a>.
 
 ## -parameters
 
@@ -115,13 +115,12 @@ The operation requires the user to be signed in.
 
 ## -remarks
 
-The endpoint name is limited to 25 Unicode characters. To free this data call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
+The endpoint name is limited to 25 Unicode characters. To free this data call <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsetendpointname">PeerCollabSetEndpointName</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peercollabsetendpointname">PeerCollabSetEndpointName</a>

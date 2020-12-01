@@ -64,7 +64,7 @@ Determines whether the operating system can retrieve version information for a s
 
 Type: <b>LPCTSTR</b>
 
-The name of the file of interest. The function uses the search sequence specified by the  <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function.
+The name of the file of interest. The function uses the search sequence specified by the  <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function.
 
 ### -param lpdwHandle [out, optional]
 
@@ -78,12 +78,12 @@ Type: <b>DWORD</b>
 
 If the function succeeds, the return value is the size, in bytes, of the file's version information.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Call the 
-				<b>GetFileVersionInfoSize</b> function before calling the <a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a> function. The size returned by <b>GetFileVersionInfoSize</b> indicates the buffer size required for the version information returned by <b>GetFileVersionInfo</b>. 
+				<b>GetFileVersionInfoSize</b> function before calling the <a href="/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a> function. The size returned by <b>GetFileVersionInfoSize</b> indicates the buffer size required for the version information returned by <b>GetFileVersionInfo</b>. 
 
 
 
@@ -98,7 +98,7 @@ Call the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a>
+<a href="/windows/desktop/api/winver/nf-winver-getfileversioninfoa">GetFileVersionInfo</a>
 
 
 
@@ -106,13 +106,12 @@ Call the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a>
+<a href="/windows/desktop/menurc/vs-versioninfo">VS_VERSIONINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a>
+<a href="/windows/desktop/api/winver/nf-winver-verqueryvaluea">VerQueryValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/version-information">Version Information</a>
-
+<a href="/windows/desktop/menurc/version-information">Version Information</a>

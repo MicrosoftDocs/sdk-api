@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
  - GetProcessWindowStation
+req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetProcessWindowStation function
@@ -63,16 +64,16 @@ Retrieves a handle to the current window station for the calling process.
 If the function succeeds, the return value is a handle to the window station.
 
 If the function fails, the return value is NULL. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The system associates a window station with a process when the process is created. A process can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocesswindowstation">SetProcessWindowStation</a> function to change its window station.
+<a href="/windows/desktop/api/winuser/nf-winuser-setprocesswindowstation">SetProcessWindowStation</a> function to change its window station.
 
 The calling process can use the returned handle in calls to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa">GetUserObjectInformation</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity">GetUserObjectSecurity</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectinformationa">SetUserObjectInformation</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity">SetUserObjectSecurity</a> functions.
+<a href="/windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa">GetUserObjectInformation</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity">GetUserObjectSecurity</a>, 
+<a href="/windows/desktop/api/winuser/nf-winuser-setuserobjectinformationa">SetUserObjectInformation</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity">SetUserObjectSecurity</a> functions.
 
 Do not close the handle returned by this function.
 
@@ -80,33 +81,32 @@ A service application is created with an associated window station and desktop, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddesktop">GetThreadDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getthreaddesktop">GetThreadDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa">GetUserObjectInformation</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getuserobjectinformationa">GetUserObjectInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity">GetUserObjectSecurity</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity">GetUserObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setprocesswindowstation">SetProcessWindowStation</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setprocesswindowstation">SetProcessWindowStation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectinformationa">SetUserObjectInformation</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setuserobjectinformationa">SetUserObjectInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity">SetUserObjectSecurity</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setuserobjectsecurity">SetUserObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
+<a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-stations">Window Stations</a>
-
+<a href="/windows/desktop/winstation/window-stations">Window Stations</a>

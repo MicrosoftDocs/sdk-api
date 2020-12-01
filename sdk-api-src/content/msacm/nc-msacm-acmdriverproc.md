@@ -56,37 +56,24 @@ The <b>acmDriverProc</b> function specifies a callback function used with the AC
 
 ### -param Arg1
 
-### -param Arg2
-
-### -param Arg3
-
-### -param Arg4
-
-### -param Arg5
-
-#### - dwID
-
 Identifier of the installable ACM driver.
 
-
-#### - hdrvr
+### -param Arg2
 
 Handle to the installable ACM driver. This parameter is a unique handle the ACM assigns to the driver.
 
-
-#### - lParam1
-
-Message parameter.
-
-
-#### - lParam2
-
-Message parameter.
-
-
-#### - uMsg
+### -param Arg3
 
 ACM driver message.
+
+### -param Arg4
+
+Message parameter.
+
+### -param Arg5
+
+Message parameter.
+
 
 ## -returns
 
@@ -94,13 +81,12 @@ Returns zero if successful or an error otherwise.
 
 ## -remarks
 
-Applications should not call any system-defined functions from inside a callback function, except for <b>PostMessage</b>, <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timegetsystemtime">timeGetSystemTime</a>, <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timegettime">timeGetTime</a>, <a href="https://docs.microsoft.com/previous-versions/dd757634(v=vs.85)">timeSetEvent</a>, <a href="https://docs.microsoft.com/previous-versions/dd757630(v=vs.85)">timeKillEvent</a>, <a href="https://docs.microsoft.com/previous-versions/dd798481(v=vs.85)">midiOutShortMsg</a>, <a href="https://docs.microsoft.com/previous-versions/dd798474(v=vs.85)">midiOutLongMsg</a>, and <b>OutputDebugStr</b>.
+Applications should not call any system-defined functions from inside a callback function, except for <b>PostMessage</b>, <a href="/windows/desktop/api/timeapi/nf-timeapi-timegetsystemtime">timeGetSystemTime</a>, <a href="/windows/desktop/api/timeapi/nf-timeapi-timegettime">timeGetTime</a>, <a href="/previous-versions/dd757634(v=vs.85)">timeSetEvent</a>, <a href="/previous-versions/dd757630(v=vs.85)">timeKillEvent</a>, <a href="/previous-versions/dd798481(v=vs.85)">midiOutShortMsg</a>, <a href="/previous-versions/dd798474(v=vs.85)">midiOutLongMsg</a>, and <b>OutputDebugStr</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

@@ -51,9 +51,9 @@ api_name:
 
 ## -description
 
-Reports any <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> that will be explicitly excluded by the writer when a shadow copy is created.
+Reports any <a href="/windows/desktop/VSS/vssgloss-f">file sets</a> that will be explicitly excluded by the writer when a shadow copy is created.
 
-Calling this method does not cause the files to be excluded. The writer is responsible for deleting the files from the shadow copy in its <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a> method.
+Calling this method does not cause the files to be excluded. The writer is responsible for deleting the files from the shadow copy in its <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a> method.
 
 ## -parameters
 
@@ -89,7 +89,7 @@ A Boolean value specifying whether the path specified by the <i>wszPath</i> para
 
 
 For information on traversing over mounted folders, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
+<a href="/windows/desktop/VSS/working-with-reparse-and-mount-points">Working with Mounted Folders and Reparse Points</a>.
 
 ## -returns
 
@@ -145,7 +145,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -169,7 +169,7 @@ This method is not supported for express writers.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -183,24 +183,23 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 The use of the <b>AddExcludeFilesFromSnapshot</b> method is optional. Writers should use this method only for large files that change significantly between shadow copy operations.
 
-This method is not a substitute for the <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addexcludefiles">IVssCreateWriterMetadata::AddExcludeFiles</a> method. Writers should continue to use the <b>AddExcludeFiles</b> method to report which <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> are excluded from backup.
+This method is not a substitute for the <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addexcludefiles">IVssCreateWriterMetadata::AddExcludeFiles</a> method. Writers should continue to use the <b>AddExcludeFiles</b> method to report which <a href="/windows/desktop/VSS/vssgloss-f">file sets</a> are excluded from backup.
 
-The caller is responsible for calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method to release the resources of the returned 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object.
+The caller is responsible for calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method to release the resources of the returned 
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addexcludefiles">IVssCreateWriterMetadata::AddExcludeFiles</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addexcludefiles">IVssCreateWriterMetadata::AddExcludeFiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotcount">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotcount">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile</a>
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile</a>

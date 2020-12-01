@@ -86,33 +86,32 @@ An index sub-property used by the elements of the <b>D2D1_SUBPROPERTY_FIELDS</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1properties">ID2D1Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertyname(uint32_pwstr_uint32)">ID2D1Properties::GetPropertyName</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertyname(uint32_pwstr_uint32)">ID2D1Properties::GetPropertyName</a>
 
 
 
-[ID2D1Properties::GetPropertyNameLength](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getpropertynamelength(u))
+[ID2D1Properties::GetPropertyNameLength](./nf-d2d1_1-id2d1properties-getpropertynamelength(u).md)
 
 
 
-[ID2D1Properties::GetSubProperties](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getsubproperties(u_id2d1properties))
+[ID2D1Properties::GetSubProperties](./nf-d2d1_1-id2d1properties-getsubproperties(u_id2d1properties).md)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u_)">ID2D1Properties::GetType</a>
+<a href="/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-gettype(u)">ID2D1Properties::GetType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(uint32_byte_uint32)">ID2D1Properties::GetValue</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvalue(uint32_byte_uint32)">ID2D1Properties::GetValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluesize(u_)">ID2D1Properties::GetValueSize</a>
+<a href="/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1properties-getvaluesize(u)">ID2D1Properties::GetValueSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvalue(uint32_constbyte_uint32)">ID2D1Properties::SetValue</a>
-
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1properties-setvalue(uint32_constbyte_uint32)">ID2D1Properties::SetValue</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>ErrorText</b> property retrieves a string that contains the message associated with the error result code returned by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_error">Error</a> property.
+The <b>ErrorText</b> property retrieves a string that contains the message associated with the error result code returned by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_error">Error</a> property.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentstatus">IX509EnrollmentStatus</a>

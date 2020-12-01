@@ -56,7 +56,7 @@ Clears all messages from the message queue.
 
 ### -param Producer [in]
 
- A <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that clears the messages.
+ A <a href="/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that clears the messages.
 
 ## -remarks
 
@@ -65,5 +65,4 @@ Clears all messages from the message queue.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
-
+<a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>

@@ -62,7 +62,7 @@ The unique identifier of the control pattern.
 
 ### -field pProgrammaticName
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 The name of the control pattern (a non-localizable string).
 
@@ -80,51 +80,50 @@ The unique identifier of the client interface for the control pattern.
 
 ### -field cProperties
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The count of elements in <b>pProperties</b>.
 
 ### -field pProperties
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiautomationpropertyinfo">UIAutomationPropertyInfo</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiautomationpropertyinfo">UIAutomationPropertyInfo</a>*</b>
 
 A pointer to an array of structures describing properties available on the control pattern.
 
 ### -field cMethods
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The count of elements in <b>pMethods</b>.
 
 ### -field pMethods
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiautomationmethodinfo">UIAutomationMethodInfo</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiautomationmethodinfo">UIAutomationMethodInfo</a>*</b>
 
 A pointer to an array of structures describing methods available on the control pattern.
 
 ### -field cEvents
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The count of elements in <b>pEvents</b>.
 
 ### -field pEvents
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiautomationeventinfo">UIAutomationEventInfo</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ns-uiautomationcore-uiautomationeventinfo">UIAutomationEventInfo</a>*</b>
 
 A pointer to an array of structures describing events available on the control pattern.
 
 ### -field pPatternHandler
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iuiautomationpatternhandler">IUIAutomationPatternHandler</a>*</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iuiautomationpatternhandler">IUIAutomationPatternHandler</a>*</b>
 
 A pointer to the object that makes the control pattern available to clients.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-custompropertieseventscontrolpatterns">Custom Properties, Events, and Control Patterns</a>
+<a href="/windows/desktop/WinAuto/uiauto-custompropertieseventscontrolpatterns">Custom Properties, Events, and Control Patterns</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationregistrar-registerpattern">RegisterPattern</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iuiautomationregistrar-registerpattern">RegisterPattern</a>

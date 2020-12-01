@@ -56,7 +56,7 @@ api_name:
 
 ### -param psa [in]
 
-The safe array for which the pinning reference count of the descriptor should increase. While that count remains greater than 0, the memory for the descriptor is prevented from being freed by calls to the <a href="https://docs.microsoft.com/windows/desktop/api/oleauto/nf-oleauto-safearraydestroy">SafeArrayDestroy</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraydestroydescriptor">SafeArrayDestroyDescriptor</a> functions.
+The safe array for which the pinning reference count of the descriptor should increase. While that count remains greater than 0, the memory for the descriptor is prevented from being freed by calls to the <a href="/windows/desktop/api/oleauto/nf-oleauto-safearraydestroy">SafeArrayDestroy</a> or <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraydestroydescriptor">SafeArrayDestroyDescriptor</a> functions.
 
 ### -param ppDataToRelease [out]
 
@@ -68,20 +68,19 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-Safe arrays have not traditionally had a reference count. All existing usage of safe arrays will continue to work with no changes. The <b>SafeArrayAddRef</b>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedata">SafeArrayReleaseData</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedescriptor">SafeArrayReleaseDescriptor</a> functions add the ability to use reference counting to pin the safe array into memory before calling from an untrusted script into an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> method that may not expect the script to free that memory before the method returns, so that the script cannot force the code for that method into accessing memory that has been freed. After such a method safely returns, the pinning references should be released.   You can release the pinning references by calling the following functions:  
+Safe arrays have not traditionally had a reference count. All existing usage of safe arrays will continue to work with no changes. The <b>SafeArrayAddRef</b>, <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedata">SafeArrayReleaseData</a>, <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedescriptor">SafeArrayReleaseDescriptor</a> functions add the ability to use reference counting to pin the safe array into memory before calling from an untrusted script into an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> method that may not expect the script to free that memory before the method returns, so that the script cannot force the code for that method into accessing memory that has been freed. After such a method safely returns, the pinning references should be released.   You can release the pinning references by calling the following functions:  
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedata">SafeArrayReleaseData</a>, for the data that the <i>ppDataToRelease</i> parameter points to, if it is not null.</li>
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedata">SafeArrayReleaseData</a>, for the data that the <i>ppDataToRelease</i> parameter points to, if it is not null.</li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedescriptor">SafeArrayReleaseDescriptor</a>, for the descriptor that the <i>psa</i> parameter specifies.</li>
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedescriptor">SafeArrayReleaseDescriptor</a>, for the descriptor that the <i>psa</i> parameter specifies.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedata">SafeArrayReleaseData</a>
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedata">SafeArrayReleaseData</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedescriptor">SafeArrayReleaseDescriptor</a>
-
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayreleasedescriptor">SafeArrayReleaseDescriptor</a>

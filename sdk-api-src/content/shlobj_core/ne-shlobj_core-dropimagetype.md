@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Values used with the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-dropdescription">DROPDESCRIPTION</a> structure to specify the drop image.
+Values used with the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-dropdescription">DROPDESCRIPTION</a> structure to specify the drop image.
 
 ## -enum-fields
 
@@ -85,4 +85,3 @@ A yellow exclamation mark that indicates that a problem has been encountered in 
 ### -field DROPIMAGE_NOIMAGE
 
 <b>Windows 7 and later</b>. Use no drop image.
-

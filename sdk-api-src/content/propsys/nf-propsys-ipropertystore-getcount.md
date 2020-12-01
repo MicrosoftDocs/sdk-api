@@ -65,7 +65,7 @@ The <code>IpropertyStore::GetCount</code> method returns a value of S_OK when th
 
 ## -remarks
 
-<b>IPropertyStore</b> provides an abstraction over an array of property keys via the <code>IPropertyStore::GetCount</code> and <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a> methods. The property keys in this array represent the properties that are currently stored by the <b>IPropertyStore</b>.
+<b>IPropertyStore</b> provides an abstraction over an array of property keys via the <code>IPropertyStore::GetCount</code> and <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a> methods. The property keys in this array represent the properties that are currently stored by the <b>IPropertyStore</b>.
 
 When <code>GetCount</code> succeeds, the value pointed to by cProps is a count of property keys in the array. The caller can expect calls to <b>IPropertyStore::GetAt</b> to succeed for values of iProp less than cProps.
 
@@ -73,9 +73,8 @@ In the case of failures such as E_OUTOFMEMORY, you should set cProps to zero. It
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>
-
+<a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>

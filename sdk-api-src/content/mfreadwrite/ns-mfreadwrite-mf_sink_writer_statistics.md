@@ -62,23 +62,23 @@ The size of the structure, in bytes.
 
 ### -field llLastTimestampReceived
 
-The time stamp of the most recent sample given to the sink writer. The sink writer updates this value each time the application calls <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-writesample">IMFSinkWriter::WriteSample</a>.
+The time stamp of the most recent sample given to the sink writer. The sink writer updates this value each time the application calls <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-writesample">IMFSinkWriter::WriteSample</a>.
 
 ### -field llLastTimestampEncoded
 
-The time stamp of the most recent sample to be encoded. The sink writer updates this value whenever it calls <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a> on the encoder.
+The time stamp of the most recent sample to be encoded. The sink writer updates this value whenever it calls <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">IMFTransform::ProcessOutput</a> on the encoder.
 
 ### -field llLastTimestampProcessed
 
-The time stamp of the most recent sample given to the media sink. The sink writer updates this value whenever it calls <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-processsample">IMFStreamSink::ProcessSample</a> on the media sink.
+The time stamp of the most recent sample given to the media sink. The sink writer updates this value whenever it calls <a href="/windows/desktop/api/mfidl/nf-mfidl-imfstreamsink-processsample">IMFStreamSink::ProcessSample</a> on the media sink.
 
 ### -field llLastStreamTickReceived
 
-The time stamp of the most recent stream tick. The sink writer updates this value whenever the application calls <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-sendstreamtick">IMFSinkWriter::SendStreamTick</a>.
+The time stamp of the most recent stream tick. The sink writer updates this value whenever the application calls <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-sendstreamtick">IMFSinkWriter::SendStreamTick</a>.
 
 ### -field llLastSinkSampleRequest
 
-The system time of the most recent sample request from the media sink. The sink writer updates this value whenever it receives an <a href="https://docs.microsoft.com/windows/desktop/medfound/mestreamsinkrequestsample">MEStreamSinkRequestSample</a> event from the media sink. The value is the current system time.
+The system time of the most recent sample request from the media sink. The sink writer updates this value whenever it receives an <a href="/windows/desktop/medfound/mestreamsinkrequestsample">MEStreamSinkRequestSample</a> event from the media sink. The value is the current system time.
 
 ### -field qwNumSamplesReceived
 
@@ -122,9 +122,8 @@ The average rate, in media samples per 100-nanoseconds, at which the sink writer
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-getstatistics">IMFSinkWriter::GetStatistics</a>
+<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsinkwriter-getstatistics">IMFSinkWriter::GetStatistics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

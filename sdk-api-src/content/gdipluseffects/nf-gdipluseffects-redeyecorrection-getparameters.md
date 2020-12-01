@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>RedEyeCorrection::GetParameters</b> method gets the current values of the parameters of this <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyecorrection">RedEyeCorrection</a> object.
+The <b>RedEyeCorrection::GetParameters</b> method gets the current values of the parameters of this <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyecorrection">RedEyeCorrection</a> object.
 
 ## -parameters
 
@@ -63,25 +63,24 @@ The size, in bytes, of the buffer pointed to by the <i>parameters</i> parameter.
 
 ### -param parameters [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-redeyecorrectionparams">RedEyeCorrectionParams</a>*</b>
+Type: <b><a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-redeyecorrectionparams">RedEyeCorrectionParams</a>*</b>
 
-Pointer to a buffer that is large enough to receive a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-redeyecorrectionparams">RedEyeCorrectionParams</a> structure followed by an array of RECT structures. To determine the total size of the required buffer, call the GetParameterSize method of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyecorrection">RedEyeCorrection</a> object whose parameters you want to retrieve.
+Pointer to a buffer that is large enough to receive a <a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-redeyecorrectionparams">RedEyeCorrectionParams</a> structure followed by an array of RECT structures. To determine the total size of the required buffer, call the GetParameterSize method of the <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyecorrection">RedEyeCorrection</a> object whose parameters you want to retrieve.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyecorrection">RedEyeCorrection</a>
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-redeyecorrection">RedEyeCorrection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-redeyecorrection-setparameters">RedEyeCorrection::SetParameters</a>
-
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-redeyecorrection-setparameters">RedEyeCorrection::SetParameters</a>

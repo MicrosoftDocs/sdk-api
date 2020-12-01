@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
- This object can be used for comparison with the results from <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalue">IUIAutomationElement::GetCurrentPropertyValue</a> or <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getattributevalue">IUIAutomationTextRange::GetAttributeValue</a>.
+ This object can be used for comparison with the results from <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalue">IUIAutomationElement::GetCurrentPropertyValue</a> or <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtextrange-getattributevalue">IUIAutomationTextRange::GetAttributeValue</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>

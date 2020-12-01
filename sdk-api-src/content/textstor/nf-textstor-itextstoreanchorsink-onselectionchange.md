@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ITextStoreAnchorSink::OnSelectionChange</b> method is called when the selection within the text stream changes. This method should be called whenever the return value of a potential call to <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getselection">ITextStoreAnchor::GetSelection</a> has changed.
+The <b>ITextStoreAnchorSink::OnSelectionChange</b> method is called when the selection within the text stream changes. This method should be called whenever the return value of a potential call to <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getselection">ITextStoreAnchor::GetSelection</a> has changed.
 
 ## -parameters
 
@@ -89,32 +89,31 @@ The manager holds a lock on the document.
 
 ## -remarks
 
-This method only needs to be called when the application modifies the selection itself, not when a client modifies the selection with <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-setselection">ITextStoreAnchor::SetSelection</a>, <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-inserttextatselection">ITextStoreAnchor::InsertTextAtSelection</a>, or other <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a> methods.
+This method only needs to be called when the application modifies the selection itself, not when a client modifies the selection with <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-setselection">ITextStoreAnchor::SetSelection</a>, <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-inserttextatselection">ITextStoreAnchor::InsertTextAtSelection</a>, or other <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a> methods.
 
-When calling this method, the application must be able to grant a <a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">document lock</a>.
+When calling this method, the application must be able to grant a <a href="/windows/desktop/TSF/document-locks">document lock</a>.
 
-Applications should expect reentrant client calls to <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestlock">ITextStoreAnchor::RequestLock</a> from within this method. An application can grant the lock request synchronously, or, because several changes have been cached, it can grant the lock asynchronously.
+Applications should expect reentrant client calls to <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-requestlock">ITextStoreAnchor::RequestLock</a> from within this method. An application can grant the lock request synchronously, or, because several changes have been cached, it can grant the lock asynchronously.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">Document Locks</a>
+<a href="/windows/desktop/TSF/document-locks">Document Locks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-inserttextatselection">ITextStoreAnchor::InsertTextAtSelection
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-inserttextatselection">ITextStoreAnchor::InsertTextAtSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-setselection">ITextStoreAnchor::SetSelection
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-setselection">ITextStoreAnchor::SetSelection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>
-
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchorsink">ITextStoreAnchorSink</a>

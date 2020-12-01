@@ -57,7 +57,7 @@ The <code>SetServiceState</code> method enables or disables closed captions.
 
 ### -param State
 
-Member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_ccstate">AM_LINE21_CCSTATE</a> enumeration, specify whether to enable or disable closed captions.
+Member of the <a href="/previous-versions/windows/desktop/api/il21dec/ne-il21dec-am_line21_ccstate">AM_LINE21_CCSTATE</a> enumeration, specify whether to enable or disable closed captions.
 
 ## -returns
 
@@ -94,13 +94,12 @@ Success
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
+<a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getservicestate">IAMLine21Decoder::GetServiceState</a>
-
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getservicestate">IAMLine21Decoder::GetServiceState</a>

@@ -140,7 +140,7 @@ Specifies unique, system-independent values that identify special folders. These
 
 ### -field ssfAPPDATA
 
-0x1a (26). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.71</a>. File system directory that serves as a common repository for application-specific data. A typical path is C:\Documents and Settings&#92;<i>username</i>\Application Data.
+0x1a (26). <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 4.71</a>. File system directory that serves as a common repository for application-specific data. A typical path is C:\Documents and Settings&#92;<i>username</i>\Application Data.
 
 ### -field ssfPRINTHOOD
 
@@ -148,7 +148,7 @@ Specifies unique, system-independent values that identify special folders. These
 
 ### -field ssfLOCALAPPDATA
 
-0x1c (28). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. File system directory that serves as a data repository for local (non-roaming) applications. A typical path is C:\Users&#92;<i>username</i>\AppData\Local.
+0x1c (28). <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. File system directory that serves as a data repository for local (non-roaming) applications. A typical path is C:\Users&#92;<i>username</i>\AppData\Local.
 
 ### -field ssfALTSTARTUP
 
@@ -176,19 +176,19 @@ Specifies unique, system-independent values that identify special folders. These
 
 ### -field ssfCOMMONAPPDATA
 
-0x23 (35). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Application data for all users. A typical path is C:\Documents and Settings\All Users\Application Data.
+0x23 (35). <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Application data for all users. A typical path is C:\Documents and Settings\All Users\Application Data.
 
 ### -field ssfWINDOWS
 
-0x24 (36). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Windows directory. This corresponds to the %windir% or %SystemRoot% environment variables. A typical path is C:\Windows.
+0x24 (36). <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Windows directory. This corresponds to the %windir% or %SystemRoot% environment variables. A typical path is C:\Windows.
 
 ### -field ssfSYSTEM
 
-0x25 (37). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. The System folder. A typical path is C:\Windows\System32.
+0x25 (37). <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. The System folder. A typical path is C:\Windows\System32.
 
 ### -field ssfPROGRAMFILES
 
-0x26 (38). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Program Files folder. A typical path is C:\Program Files.
+0x26 (38). <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. Program Files folder. A typical path is C:\Program Files.
 
 ### -field ssfMYPICTURES
 
@@ -196,28 +196,29 @@ Specifies unique, system-independent values that identify special folders. These
 
 ### -field ssfPROFILE
 
-0x28 (40). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. User's profile folder.
+0x28 (40). <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. User's profile folder.
 
 ### -field ssfSYSTEMx86
 
-0x29 (41). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. System folder. A typical path is C:\Windows\System32, or C:\Windows\Syswow32 on a 64-bit computer.
+0x29 (41). <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 5.0</a>. System folder. A typical path is C:\Windows\System32, or C:\Windows\Syswow32 on a 64-bit computer.
 
 ### -field ssfPROGRAMFILESx86
 
-0x30 (48). <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Version 6.0</a>. Program Files folder. A typical path is C:\Program Files, or C:\Program Files (X86) on a 64-bit computer.
+Do not use this field. Use the value 0x2a (42) in your code instead to specify the Program Files (x86) folder. A typical path is C:\Program Files, or C:\Program Files (x86) on a 64-bit computer. 
+
+**Note:**  In the shldisp.h header, the **ssfPROGRAMFILESx86** field is erroneously assigned to the value 0x30 (48). This value specifies the folder for the Administrative Tools folder instead of the Program Files folder.
 
 ## -remarks
 
-The values in this enumeration are equivalent to their corresponding <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> or <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> values, used in C++ applications. They supersede the use of environment variables for this purpose. Note that not all <b>CSIDL</b> or <b>KNOWNFOLDERID</b> values have an equivalent value in <b>ShellSpecialFolderConstants</b>.
+The values in this enumeration are equivalent to their corresponding <a href="/windows/desktop/shell/csidl">CSIDL</a> or <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a> values, used in C++ applications. They supersede the use of environment variables for this purpose. Note that not all <b>CSIDL</b> or <b>KNOWNFOLDERID</b> values have an equivalent value in <b>ShellSpecialFolderConstants</b>.
 
-<div class="alert"><b>Note</b>   Where a constant identifies a file system folder, a commonly used path on Windows Vista systems is given as an example. However, there is no guarantee that this path will be used on any particular system, including Windows Vista systems.</div>
-<div> </div>
+> [!NOTE]
+> Where a constant identifies a file system folder, a commonly used path is given as an example. However, there is no guarantee that this path will be used on any particular system.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a>
+<a href="/windows/desktop/shell/csidl">CSIDL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>
-
+<a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>

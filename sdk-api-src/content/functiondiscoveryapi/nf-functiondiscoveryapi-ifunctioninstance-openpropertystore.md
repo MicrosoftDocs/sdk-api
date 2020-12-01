@@ -80,7 +80,7 @@ The access mode to be assigned to the open stream.  For this method, the followi
 
 ### -param ppIPropertyStore [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> interface pointer.
+A pointer to an <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> interface pointer.
 
 ## -returns
 
@@ -152,9 +152,8 @@ The method is unable to allocate the memory required to perform this operation.
 
 Only one property store per function instance can be open at a time. If <b>OpenPropertyStore</b> is called twice on the same function instance, both <i>ppIPropertyStore</i> pointers would point to the same property store. Furthermore, the access mode (as specified by the  <i>dwStgAccess</i> parameter) would be determined by the most recent <b>OpenPropertyStore</b> call. Applications should call <b>Release</b> to close a property store before opening another.
 
-It is possible that <b>OpenPropertyStore</b> will return a property store for a device that has been removed. In this case, the property keys in the store will be empty. This situation may occur if the device's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fundisc/function-discovery-glossary">devnode</a> was deleted but the property store associated with the device's function instance is still accessible. This situation occurs rarely.
+It is possible that <b>OpenPropertyStore</b> will return a property store for a device that has been removed. In this case, the property keys in the store will be empty. This situation may occur if the device's <a href="/previous-versions/windows/desktop/fundisc/function-discovery-glossary">devnode</a> was deleted but the property store associated with the device's function instance is still accessible. This situation occurs rarely.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a>
-
+<a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstance">IFunctionInstance</a>

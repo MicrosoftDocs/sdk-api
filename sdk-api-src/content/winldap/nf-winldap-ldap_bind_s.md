@@ -71,24 +71,24 @@ Pointer to a null-terminated string that contains the credentials with which to 
 ### -param method [in]
 
 Indicates the authentication method to use.  For more information and  a listing of valid asynchronous authentication methods, see the Remarks section. For more information and a description of the valid asynchronous authentication method, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a>.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a>.
 
 ## -returns
 
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 ## -remarks
 
-The introduction of User Account Control in Windows Server 2008 and Windows Vista has a very important consequence with regard to making modifications or additions in LDAP.  When a user is logged on to a DC with a restricted UAC Administrator token and using <b>NULL</b> credentials, any modification or addition to the directory, or any schema change operation, will fail. This includes DirSync searches, retrieving the SACL from an object's <a href="https://docs.microsoft.com/windows/desktop/ADSchema/a-ntsecuritydescriptor">ntSecurityDescriptor</a> attribute when using SecurityDescriptorFlags, and many other operations.
+The introduction of User Account Control in Windows Server 2008 and Windows Vista has a very important consequence with regard to making modifications or additions in LDAP.  When a user is logged on to a DC with a restricted UAC Administrator token and using <b>NULL</b> credentials, any modification or addition to the directory, or any schema change operation, will fail. This includes DirSync searches, retrieving the SACL from an object's <a href="/windows/desktop/ADSchema/a-ntsecuritydescriptor">ntSecurityDescriptor</a> attribute when using SecurityDescriptorFlags, and many other operations.
 
 These will all fail with insufficient access rights.
 
 If User Account Control is in effect when an administrator logs on to a DC, the administrator will get a restricted token in the logon session. If he or she then uses <b>ldap_bind_s</b> with <b>NULL</b> credentials, then operations that make modifications or additions will fail.
 
-The implementation of <b>ldap_bind_s</b> supports the authentication methods listed in the following table. Calling <b>ldap_bind_s</b> with the LDAP_AUTH_SIMPLE option is equivalent to calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind_s">ldap_simple_bind_s</a>.
+The implementation of <b>ldap_bind_s</b> supports the authentication methods listed in the following table. Calling <b>ldap_bind_s</b> with the LDAP_AUTH_SIMPLE option is equivalent to calling <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind_s">ldap_simple_bind_s</a>.
 
 <table>
 <tr>
@@ -115,7 +115,7 @@ Digest authentication package.
 </td>
 <td>
 To log in as the current user, set the <i>dn</i> and <i>cred</i> parameters to <b>NULL</b>. To log in as another user, set the <i>dn</i> parameter to <b>NULL</b> and the <i>cred</i> parameter to  a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
+<a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ Distributed password authentication. Used by Microsoft Membership System.
 </td>
 <td>
 To log in as the current user, set the <i>dn</i> and <i>cred</i> parameters to <b>NULL</b>. To log in as another user, set the <i>dn</i> parameter to <b>NULL</b> and the <i>cred</i> parameter to  a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
+<a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ Microsoft Network Authentication Service.
 </td>
 <td>
 To log in as the current user, set the <i>dn</i> and <i>cred</i> parameters to <b>NULL</b>. To log in as another user, set the <i>dn</i> parameter to <b>NULL</b> and the <i>cred</i> parameter to  a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
+<a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ Generic security services (GSS) (Snego). Does not provide authentication, but in
 </td>
 <td>
 To log in as the current user, set the <i>dn</i> and <i>cred</i> parameters to <b>NULL</b>. To log in as another user, set the <i>dn</i> parameter to <b>NULL</b> and the <i>cred</i> parameter to  a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> or <a href="/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX</a> structure with the appropriate user name, domain name, and password.
+<a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> or <a href="/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX</a> structure with the appropriate user name, domain name, and password.
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ NT LAN Manager
 </td>
 <td>
 To log in as the current user, set the <i>dn</i> and <i>cred</i> parameters to <b>NULL</b>. To log in as another user, set the <i>dn</i> parameter to <b>NULL</b> and the <i>cred</i> parameter to  a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> or <a href="/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX</a> structure with the appropriate user name, domain name, and password.
+<a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> or <a href="/windows/win32/api/sspi/ns-sspi-sec_winnt_auth_identity_ex2">SEC_WINNT_AUTH_IDENTITY_EX</a> structure with the appropriate user name, domain name, and password.
 
 </td>
 </tr>
@@ -175,7 +175,7 @@ Covers package negotiation to MSN servers.
 </td>
 <td>
 To log in as the current user, set the <i>dn</i> and <i>cred</i> parameters to <b>NULL</b>. To log in as another user, set the <i>dn</i> parameter to <b>NULL</b> and the <i>cred</i> parameter to  a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
+<a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure with the appropriate user name, domain name, and password.
 
 </td>
 </tr>
@@ -193,46 +193,45 @@ Same as <b>LDAP_AUTH_NEGOTIATE</b>.
 </table>
  
 
-For asynchronous bind authentication, use <b>LDAP_AUTH_SIMPLE</b> with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a>.
+For asynchronous bind authentication, use <b>LDAP_AUTH_SIMPLE</b> with <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a>.
 
 The bind operation identifies a client to the directory server by providing a distinguished name and some type of authentication credential, such as a password. The exact credentials are dependent on the authentication method used. If you pass in <b>NULL</b> for the credentials with <b>ldap_bind_s()</b> (non-simple), the current user or service credentials will be used. If a simple bind method (as in 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind_s">ldap_simple_bind_s</a>) is specified, it is equivalent to a <b>NULL</b> plaintext password. For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a>.
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind_s">ldap_simple_bind_s</a>) is specified, it is equivalent to a <b>NULL</b> plaintext password. For more information, see 
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a>.
 
 Be aware that LDAP 2 servers require an application to bind before attempting other operations that require authentication.
 
 Multithreading: Bind calls are unsafe because they apply to the connection as a whole. Use caution if threads share connections and try to thread the bind operations with other operations.
 
 <div class="alert"><b>Note</b>  The Microsoft LDAP client uses a default timeout value of 120 seconds (2 minutes) for each bind-response roundtrip. This timeout value can be changed using the <b>LDAP_OPT_TIMELIMIT</b> session option. Other operations do not have a timeout unless specified using 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a>.</div>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a>.</div>
 <div> </div>
-When all of the operations on the session handle are completed, the session must be terminated by passing the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> session handle to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> function.  Also, if the <b>ldap_bind_s</b> call fails, the session handle should be freed with a call to  <b>ldap_unbind</b> when no longer required for error recovery.
+When all of the operations on the session handle are completed, the session must be terminated by passing the <a href="/previous-versions/windows/desktop/api/winldap/ns-winldap-ldap">LDAP</a> session handle to the  <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a> function.  Also, if the <b>ldap_bind_s</b> call fails, the session handle should be freed with a call to  <b>ldap_unbind</b> when no longer required for error recovery.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/establishing-an-ldap-session">Establishing an LDAP Session</a>
+<a href="/previous-versions/windows/desktop/ldap/establishing-an-ldap-session">Establishing an LDAP Session</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
+<a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_bind">ldap_bind</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind_s">ldap_simple_bind_s</a>
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind_s">ldap_simple_bind_s</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
-
+<a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>

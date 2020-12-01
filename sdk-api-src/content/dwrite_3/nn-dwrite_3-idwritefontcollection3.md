@@ -42,9 +42,8 @@ api_name:
 
 This interface encapsulates a set of fonts, such as the set of fonts installed on the system, or the set of fonts in a particular directory. The font collection API can be used to discover what font families and fonts are available, and to obtain some metadata about the fonts. **IDWriteFontCollection3** adds the ability to retrieve the expiration event.
 
-This interface extends [IDWriteFontCollection2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection2).
+This interface extends [IDWriteFontCollection2](./nn-dwrite_3-idwritefontcollection2.md).
 
 ## -see-also
 
-[IDWriteFontCollection2](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontcollection2)
-
+[IDWriteFontCollection2](./nn-dwrite_3-idwritefontcollection2.md)

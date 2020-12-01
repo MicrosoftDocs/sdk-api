@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>TcCloseInterface</b> function closes an interface previously opened with a call to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>. All flows and filters on a particular interface should be closed before closing the interface with a call to 
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>. All flows and filters on a particular interface should be closed before closing the interface with a call to 
 <b>TcCloseInterface</b>.
 
 ## -parameters
@@ -60,7 +60,7 @@ The
 ### -param IfcHandle [in]
 
 Handle associated with the interface to be closed. This handle is obtained by a previous call to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a> function.
 
 ## -returns
 
@@ -117,5 +117,4 @@ Regardless of whether
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>
-
+<a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcopeninterfacea">TcOpenInterface</a>

@@ -68,5 +68,4 @@ This property is optional.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator">IATSCLocator Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator">IATSCLocator Interface</a>

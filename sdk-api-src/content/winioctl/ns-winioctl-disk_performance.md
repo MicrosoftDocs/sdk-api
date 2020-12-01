@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Provides disk performance information. It is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a> control code.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a> control code.
 
 ## -struct-fields
 
@@ -114,5 +114,4 @@ Examples of storage managers are "PhysDisk," "FTDISK," and "DMIO".
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a>

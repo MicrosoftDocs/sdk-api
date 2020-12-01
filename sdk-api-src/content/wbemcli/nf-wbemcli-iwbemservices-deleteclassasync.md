@@ -66,8 +66,8 @@ api_name:
 
 The 
 <b>IWbemServices::DeleteClassAsync</b> method deletes the specified class from the current namespace. This method is identical to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteclass">IWbemServices::DeleteClass</a> except that the call returns immediately. Confirmation or failure is asynchronously reported to the specified object sink using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method after the operation is complete.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteclass">IWbemServices::DeleteClass</a> except that the call returns immediately. Confirmation or failure is asynchronously reported to the specified object sink using the 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method after the operation is complete.
 
 ## -parameters
 
@@ -84,7 +84,7 @@ One or more of the following values are valid.
 #### WBEM_FLAG_SEND_STATUS
 
 This flag registers with Windows Management a request to receive intermediate status reports through the client's implementation of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting, for this flag to change behavior.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a>. Provider implementation must support intermediate status reporting, for this flag to change behavior.
 
 
 
@@ -96,17 +96,17 @@ Push providers must specify this flag when calling
 ### -param pCtx [in]
 
 Typically <b>NULL</b>. Otherwise, this is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that may be used by the provider deleting the class. The values in the context object must be specified in the documentation for the provider in question. For more information about this parameter, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemcontext">IWbemContext</a> object that may be used by the provider deleting the class. The values in the context object must be specified in the documentation for the provider in question. For more information about this parameter, see 
+<a href="/windows/desktop/WmiSdk/making-calls-to-wmi">Making Calls to WMI</a>.
 
 ### -param pResponseHandler [in]
 
 Pointer to an implementation of 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> implemented by the caller. This handler receives the status of the deletion request when it becomes available through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method. If any error code is returned, then the supplied 
+<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> implemented by the caller. This handler receives the status of the deletion request when it becomes available through the 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-setstatus">IWbemObjectSink::SetStatus</a> method. If any error code is returned, then the supplied 
 <b>IWbemObjectSink</b> pointer is not used. If <b>WBEM_S_NO_ERROR</b> is returned, then the user's 
 <b>IWbemObjectSink</b> implementation is called to indicate the result of the operation. Windows Management only calls <b>AddRef</b> on the pointer in cases where <b>WBEM_S_NO_ERROR</b> returns. In cases where an error code returns, the reference count is the same as on entry. For a detailed explanation of this parameter, see 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+<a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 ## -returns
 
@@ -125,19 +125,18 @@ If the class is provided by a dynamic class provider, the success of the deletio
 
 <div class="alert"><b>Note</b>  Standard system classes cannot be deleted.</div>
 <div> </div>
-Because the call-back might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+Because the call-back might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
-For more information about using methods semisynchronously, see <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteclass">IWbemServices::DeleteClass</a> and <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
+For more information about using methods semisynchronously, see <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteclass">IWbemServices::DeleteClass</a> and <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteclass">IWbemServices::DeleteClass</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteclass">IWbemServices::DeleteClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
-
+<a href="/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>

@@ -58,12 +58,12 @@ The
 ### -param dwDeviceID
 
 Identifies the line device for which interface version negotiation is to be performed. The value 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/initialize-negotiation">INITIALIZE_NEGOTIATION</a> may not be used for this function.
+<a href="/windows/desktop/Tapi/initialize-negotiation">INITIALIZE_NEGOTIATION</a> may not be used for this function.
 
 ### -param dwTSPIVersion
 
 An interface version number that has already been negotiated for this device using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiatetspiversion">TSPI_lineNegotiateTSPIVersion</a>. This function operates according to the interface specification at this version level.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiatetspiversion">TSPI_lineNegotiateTSPIVersion</a>. This function operates according to the interface specification at this version level.
 
 ### -param dwLowVersion
 
@@ -89,9 +89,8 @@ This function can be called before or after the device is opened by TAPI. If the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/initialize-negotiation">INITIALIZE_NEGOTIATION</a>
+<a href="/windows/desktop/Tapi/initialize-negotiation">INITIALIZE_NEGOTIATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiatetspiversion">TSPI_lineNegotiateTSPIVersion</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linenegotiatetspiversion">TSPI_lineNegotiateTSPIVersion</a>

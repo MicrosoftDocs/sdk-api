@@ -64,7 +64,7 @@ A LUID identifying the WFP filter allowing this traffic.
 
 Type: <b>UINT16</b>
 
-The identifier of the WFP filtering layer where the filter specified  in <b>filterId</b> is stored. For more information, see <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">Filtering Layer Identifiers</a>.
+The identifier of the WFP filtering layer where the filter specified  in <b>filterId</b> is stored. For more information, see <a href="/windows/desktop/FWP/management-filtering-layer-identifiers-">Filtering Layer Identifiers</a>.
 
 ### -field reauthReason
 
@@ -98,5 +98,4 @@ If true, indicates that the packet originated from (or was heading to) the loopb
 
 ## -see-also
 
-[FWPM_NET_EVENT2](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2)
-
+[FWPM_NET_EVENT2](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event2)

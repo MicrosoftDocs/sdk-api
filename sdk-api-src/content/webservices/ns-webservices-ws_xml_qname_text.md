@@ -58,7 +58,7 @@ Represents a qname formatted as the text "prefix:localName"
 
 ### -field text
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
 
 ### -field prefix
 
@@ -69,4 +69,3 @@ The prefix.
 The local name.
 
 ### -field ns
-

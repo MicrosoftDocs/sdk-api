@@ -60,17 +60,17 @@ The
 ### -param lpszAppFilename
 
 A pointer to a string that contains the application executable module file name, without directory data. In API version 2.0 or later, the parameter can be in long file name format, of which the 8.3 file name format is a proper subset. Long file names, unlike 8.3 file names, are case preserving. Neither file name format is case sensitive. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">File Name Conventions</a>. In API versions earlier than 2.0, the parameter must specify a file name in the 8.3 format; long file names cannot be used.
+<a href="/windows/desktop/FileIO/naming-a-file">File Name Conventions</a>. In API versions earlier than 2.0, the parameter must specify a file name in the 8.3 format; long file names cannot be used.
 
 ### -param dwMediaMode
 
 A media mode for which the priority data is to be obtained. The value can be one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>; only a single bit can be on. The value 0 should be used if verifying application priority for Assisted Telephony requests.
+<a href="/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>; only a single bit can be on. The value 0 should be used if verifying application priority for Assisted Telephony requests.
 
 ### -param lpExtensionID
 
 A pointer to structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid">LINEEXTENSIONID</a>. This parameter is ignored.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineextensionid">LINEEXTENSIONID</a>. This parameter is ignored.
 
 ### -param dwRequestMode
 
@@ -100,7 +100,7 @@ Returns zero if the request succeeds or a negative error number if an error occu
 ## -remarks
 
 If LINEERR_INVALMEDIAMODE is returned, the value specified in <i>dwMediaMode</i> is not zero, not a valid extended media mode, and not one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>, or more than one bit is on in the parameter value.
+<a href="/windows/desktop/Tapi/linemediamode--constants">LINEMEDIAMODE_ Constants</a>, or more than one bit is on in the parameter value.
 
 
 
@@ -111,17 +111,16 @@ If LINEERR_INVALMEDIAMODE is returned, the value specified in <i>dwMediaMode</i>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineextensionid">LINEEXTENSIONID</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineextensionid">LINEEXTENSIONID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
+<a href="/windows/desktop/Tapi/supplementary-line-service-functions">Supplementary Line Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
-
+<a href="/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IWTSProtocolLogonErrorRedirector</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollogonerrorredirector">IWRdsProtocolLogonErrorRedirector</a>.]
+<p class="CCE_Message">[<b>IWTSProtocolLogonErrorRedirector</b> is no longer available for use as of Windows Server 2012. Instead, use <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollogonerrorredirector">IWRdsProtocolLogonErrorRedirector</a>.]
 
 Exposes methods called by the Remote Desktop Services service to update logon status and determine how to direct logon error messages. This interface is implemented by the protocol.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSProtocolLogonErrorRedirector</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSProtocolLogonErrorRedirector</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWTSProtocolLogonErrorRedirector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWTSProtocolLogonErrorRedirector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWTSProtocolLogonErrorRedirector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-onbeginpainting">OnBeginPainting</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-onbeginpainting">OnBeginPainting</a>
 </td>
 <td align="left" width="63%">
 Notifies the protocol that the logon user interface is ready to begin painting.
@@ -80,7 +80,7 @@ Notifies the protocol that the logon user interface is ready to begin painting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-redirectlogonerror">RedirectLogonError</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-redirectlogonerror">RedirectLogonError</a>
 </td>
 <td align="left" width="63%">
 Queries the protocol for the action to take in response to a logon error.
@@ -89,7 +89,7 @@ Queries the protocol for the action to take in response to a logon error.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-redirectmessage">RedirectMessage</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-redirectmessage">RedirectMessage</a>
 </td>
 <td align="left" width="63%">
 Queries the protocol regarding how to redirect the logon message.
@@ -98,7 +98,7 @@ Queries the protocol regarding how to redirect the logon message.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-redirectstatus">RedirectStatus</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollogonerrorredirector-redirectstatus">RedirectStatus</a>
 </td>
 <td align="left" width="63%">
 Queries the protocol regarding how to redirect the client logon status update.
@@ -106,4 +106,3 @@ Queries the protocol regarding how to redirect the client logon status update.
 </td>
 </tr>
 </table>
-

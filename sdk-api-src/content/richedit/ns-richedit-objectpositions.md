@@ -58,19 +58,19 @@ Contains object position information.
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 The <b>code</b> member of this structure identifies the notification code being sent.
 
 ### -field cObjectCount
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Number of object positions.
 
 ### -field pcpPositions
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
 The object positions.
 
@@ -84,9 +84,8 @@ This is used in the <a href="https://msdn.microsoft.com/1965185f-8a13-4989-8574-
 
 
 
-<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a>
+<a href="/windows/win32/api/richedit/ns-richedit-nmhdr">NMHDR</a>
 
 
 
 <b>Reference</b>
-

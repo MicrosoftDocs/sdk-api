@@ -57,13 +57,13 @@ Resizes a tile pool.
 
 ### -param pTilePool [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a> for the tile pool to resize.
+A pointer to an <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a> for the tile pool to resize.
 
 ### -param NewSizeInBytes [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 The new size in bytes of the tile pool. The size must be a multiple of 64 KB or 0.
 
@@ -92,9 +92,8 @@ To be able to save memory, an app has to not only decrease a tile pool but also 
 
 The act of decreasing (and removing mappings) doesn't necessarily produce immediate memory savings. Freeing of memory depends on how granular the driver's underlying allocations for the tile pool are. When a decrease in the size of a tile pool happens to be enough to make a driver allocation unused, the driver can free the allocation. If a tile pool was increased and if you then decrease to previous sizes (and remove and remap tile mappings correspondingly), you will most likely yield memory savings. But, this scenario isn't guaranteed in the case that the sizes don't exactly align with the underlying allocation sizes chosen by the driver. 
 
-For more info about tiled resources, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/tiled-resources">Tiled resources</a>.
+For more info about tiled resources, see <a href="/windows/desktop/direct3d11/tiled-resources">Tiled resources</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>
-
+<a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>

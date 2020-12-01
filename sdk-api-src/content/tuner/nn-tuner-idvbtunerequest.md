@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IDVBTuneRequest</b> interface is implemented on the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/dvbtunerequest-object">DVBTuneRequest</a> object. It provides methods for acquiring a transport stream, and a service on that stream, in tuning spaces with a DVB network type. This information is obtained by the Guide Store loader from the TIF, stored in the tune request, and ultimately used by the Network Provider to configure the MPEG-2 Demultiplexer so that the correct packets are decoded and passed on to the downstream filters.
+The <b>IDVBTuneRequest</b> interface is implemented on the <a href="/previous-versions/windows/desktop/mstv/dvbtunerequest-object">DVBTuneRequest</a> object. It provides methods for acquiring a transport stream, and a service on that stream, in tuning spaces with a DVB network type. This information is obtained by the Guide Store loader from the TIF, stored in the tune request, and ultimately used by the Network Provider to configure the MPEG-2 Demultiplexer so that the correct packets are decoded and passed on to the downstream filters.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVBTuneRequest</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a>. <b>IDVBTuneRequest</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVBTuneRequest</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a>. <b>IDVBTuneRequest</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDVBTuneRequest</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-get_onid">get_ONID</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-get_onid">get_ONID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the original network ID.
@@ -78,7 +78,7 @@ Retrieves the original network ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-get_sid">get_SID</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-get_sid">get_SID</a>
 </td>
 <td align="left" width="63%">
 Sets the service ID.
@@ -87,7 +87,7 @@ Sets the service ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-get_tsid">get_TSID</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-get_tsid">get_TSID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the transport stream ID.
@@ -96,7 +96,7 @@ Retrieves the transport stream ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-put_onid">put_ONID</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-put_onid">put_ONID</a>
 </td>
 <td align="left" width="63%">
 Sets the original network ID.
@@ -105,7 +105,7 @@ Sets the original network ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-put_sid">put_SID</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-put_sid">put_SID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the service ID.
@@ -114,7 +114,7 @@ Retrieves the service ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-put_tsid">put_TSID</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-idvbtunerequest-put_tsid">put_TSID</a>
 </td>
 <td align="left" width="63%">
 Sets the transport stream ID.
@@ -129,9 +129,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

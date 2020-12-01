@@ -51,25 +51,25 @@ api_name:
 ## -description
 
 Deallocates resources from a previous call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a> function.
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a> function.
 
 ## -parameters
 
 ### -param LoadedImage [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a> structure that is returned from a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a> function.
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a> structure that is returned from a call to the 
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a> and 
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a> and 
 <b>ImageUnload</b> share internal data that can be corrupted if multiple consecutive calls to 
 <b>ImageLoad</b> are performed. Therefore, make sure that you have called 
 <b>ImageLoad</b> only once before calling 
@@ -81,13 +81,12 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
+<a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a>
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>
-
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image">LOADED_IMAGE</a>

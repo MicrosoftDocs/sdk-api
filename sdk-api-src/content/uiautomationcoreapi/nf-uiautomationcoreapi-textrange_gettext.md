@@ -76,7 +76,7 @@ When this function returns, this parameter contains
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
@@ -84,4 +84,3 @@ Returns S_OK if successful or an error value otherwise.
 
 If <i>maxLength</i> is -1, all of the text within the text range is returned. 
 If <i>maxLength</i> is larger than the length of the text range, the returned string contains all of the text in the text range.
-

@@ -56,7 +56,7 @@ The <b>FONTOBJ_cGetAllGlyphHandles</b> function allows the device driver to find
 
 ### -param pfo
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that is to be downloaded.
+Pointer to the <a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure that is to be downloaded.
 
 ### -param phg
 
@@ -72,13 +72,12 @@ A driver uses this function to download an entire font.
 
 The driver must provide a buffer large enough to contain the output. GDI copies all glyph handles belonging to the associated font to this buffer.
 
-The number of glyphs in the font can be determined by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_vgetinfo">FONTOBJ_vGetInfo</a>, or by calling <b>FONTOBJ_cGetAllGlyphHandles</b> with the <i>phg</i> parameter set to <b>NULL</b>.
+The number of glyphs in the font can be determined by calling <a href="/windows/desktop/api/winddi/nf-winddi-fontobj_vgetinfo">FONTOBJ_vGetInfo</a>, or by calling <b>FONTOBJ_cGetAllGlyphHandles</b> with the <i>phg</i> parameter set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-fontobj_vgetinfo">FONTOBJ_vGetInfo</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-fontobj_vgetinfo">FONTOBJ_vGetInfo</a>

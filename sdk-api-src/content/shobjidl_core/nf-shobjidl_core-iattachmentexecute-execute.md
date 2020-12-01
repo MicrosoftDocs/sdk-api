@@ -64,7 +64,7 @@ The handle of the parent window.
 
 Type: <b>LPCWSTR</b>
 
-A pointer to a null-terminated string that contains a verb specifying the action to be performed on the file. See the <i>lpOperation</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> for valid strings. This value can be <b>NULL</b>.
+A pointer to a null-terminated string that contains a verb specifying the action to be performed on the file. See the <i>lpOperation</i> parameter in <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> for valid strings. This value can be <b>NULL</b>.
 
 ### -param phProcess [out, optional]
 
@@ -80,15 +80,14 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Before calling <b>IAttachmentExecute::Execute</b>, <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a> must be called with a valid local path and the file must be copied to that location.
+Before calling <b>IAttachmentExecute::Execute</b>, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a> must be called with a valid local path and the file must be copied to that location.
 
-If a prompt is indicated, <b>IAttachmentExecute::Execute</b> calls <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-prompt">IAttachmentExecute::Prompt</a> using the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-attachment_action">ATTACHMENT_ACTION_EXEC</a> value.
+If a prompt is indicated, <b>IAttachmentExecute::Execute</b> calls <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-prompt">IAttachmentExecute::Prompt</a> using the <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-attachment_action">ATTACHMENT_ACTION_EXEC</a> value.
 
 <b>IAttachmentExecute::Execute</b> may run virus scanners or other trust services to validate the file before executing it. Note that these services can delete or alter the file.
 
-<b>IAttachmentExecute::Execute</b> may attach <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-checkpolicy">evidence</a> to the local path in its NTFS alternate data stream (ADS).
+<b>IAttachmentExecute::Execute</b> may attach <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-checkpolicy">evidence</a> to the local path in its NTFS alternate data stream (ADS).
 
 If <i>phProcess</i> is not <b>NULL</b>, <b>IAttachmentExecute::Execute</b> operates as a synchronous process and returns an <b>HPROCESS</b>, if available. If <i>phProcess</i> is <b>NULL</b>, <b>IAttachmentExecute::Execute</b> operates as an asynchronous process. This implies that the calling application has a message pump and a long-lived window.
 
-If the handle pointed to by <i>phProcess</i> is non-<b>NULL</b> when the method returns, the calling application is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> to free the handle when it is no longer needed.
-
+If the handle pointed to by <i>phProcess</i> is non-<b>NULL</b> when the method returns, the calling application is responsible for calling <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> to free the handle when it is no longer needed.

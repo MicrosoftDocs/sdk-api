@@ -56,7 +56,7 @@ The <b>DrvQueryTrueTypeTable</b> function accesses specific tables in a TrueType
 
 ### -param iFile
 
-Pointer to a driver-defined value that identifies the driver-provided TrueType font file. This pointer is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
+Pointer to a driver-defined value that identifies the driver-provided TrueType font file. This pointer is obtained from <a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>.
 
 ### -param ulFont
 
@@ -115,5 +115,4 @@ When neither <i>ppjTable</i> nor <i>pcjTable</i> are <b>NULL</b>, the driver sho
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvloadfontfile">DrvLoadFontFile</a>

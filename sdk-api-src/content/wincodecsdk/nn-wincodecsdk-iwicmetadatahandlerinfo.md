@@ -54,7 +54,7 @@ Exposes methods that provide basic information about the registered metadata han
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataHandlerInfo</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>. <b>IWICMetadataHandlerInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICMetadataHandlerInfo</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccomponentinfo">IWICComponentInfo</a>. <b>IWICMetadataHandlerInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICMetadataHandlerInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-doesrequirefixedsize">DoesRequireFixedSize</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-doesrequirefixedsize">DoesRequireFixedSize</a>
 </td>
 <td align="left" width="63%">
 Determines if the metadata handler requires a fixed size.
@@ -78,7 +78,7 @@ Determines if the metadata handler requires a fixed size.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-doesrequirefullstream">DoesRequireFullStream</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-doesrequirefullstream">DoesRequireFullStream</a>
 </td>
 <td align="left" width="63%">
 Determines if the handler requires a full stream.
@@ -87,7 +87,7 @@ Determines if the handler requires a full stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-doessupportpadding">DoesSupportPadding</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-doessupportpadding">DoesSupportPadding</a>
 </td>
 <td align="left" width="63%">
 Determines if the metadata handler supports padding.
@@ -96,7 +96,7 @@ Determines if the metadata handler supports padding.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-getcontainerformats">GetContainerFormats</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-getcontainerformats">GetContainerFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the container formats supported by the metadata handler.
@@ -105,7 +105,7 @@ Retrieves the container formats supported by the metadata handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-getdevicemanufacturer">GetDeviceManufacturer</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-getdevicemanufacturer">GetDeviceManufacturer</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device manufacturer of the metadata handler.
@@ -114,7 +114,7 @@ Retrieves the device manufacturer of the metadata handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-getdevicemodels">GetDeviceModels</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-getdevicemodels">GetDeviceModels</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device models that support the metadata handler.
@@ -123,7 +123,7 @@ Retrieves the device models that support the metadata handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-getmetadataformat">GetMetadataFormat</a>
+<a href="/windows/desktop/api/wincodecsdk/nf-wincodecsdk-iwicmetadatahandlerinfo-getmetadataformat">GetMetadataFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the metadata format of the metadata handler.
@@ -131,4 +131,3 @@ Retrieves the metadata format of the metadata handler.
 </td>
 </tr>
 </table>
-

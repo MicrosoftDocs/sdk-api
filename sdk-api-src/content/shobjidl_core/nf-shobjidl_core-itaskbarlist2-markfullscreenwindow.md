@@ -82,11 +82,11 @@ Setting the value of <i>fFullscreen</i> to <b>TRUE</b>, the Shell treats this wi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist2">ITaskbarList2</a>
 
 
 
@@ -95,4 +95,3 @@ Setting the value of <i>fFullscreen</i> to <b>TRUE</b>, the Shell treats this wi
 
 
 <a href="/windows/win32/api/winuser/nf-winuser-setpropw">SetPropW</a>
-

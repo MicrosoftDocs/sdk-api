@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> from a four element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a> from a four element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMCOLOR** from a from a four element <code>float</code> array argument.
 
@@ -95,7 +95,6 @@ instance.v =  ( (uint32_t)_a1 << 24) |
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>

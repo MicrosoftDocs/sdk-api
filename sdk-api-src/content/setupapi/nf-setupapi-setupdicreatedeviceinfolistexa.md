@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> on a remote or a local computer and optionally associates the set with a device setup class .
+The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> on a remote or a local computer and optionally associates the set with a device setup class .
 
 ## -parameters
 
@@ -74,13 +74,13 @@ Must be <b>NULL</b>.
 
 ## -returns
 
-The function returns a handle to an empty device information set if it is successful. Otherwise, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+The function returns a handle to an empty device information set if it is successful. Otherwise, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The caller of this function must delete the returned device information set when it is no longer needed by calling <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist">SetupDiDestroyDeviceInfoList</a>. 
+The caller of this function must delete the returned device information set when it is no longer needed by calling <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist">SetupDiDestroyDeviceInfoList</a>. 
 
-If the device information set is for devices on a remote computer (<i>MachineName</i> is not <b>NULL</b>), all subsequent operations on this set or any of its elements must use routines that support device information sets with remote elements. The <b>SetupDi</b><i>Xxx</i> routines that do not provide this support, such as <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>, have a statement to that effect in their reference page.
+If the device information set is for devices on a remote computer (<i>MachineName</i> is not <b>NULL</b>), all subsequent operations on this set or any of its elements must use routines that support device information sets with remote elements. The <b>SetupDi</b><i>Xxx</i> routines that do not provide this support, such as <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>, have a statement to that effect in their reference page.
 
 
 
@@ -91,13 +91,12 @@ If the device information set is for devices on a remote computer (<i>MachineNam
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolist">SetupDiCreateDeviceInfoList</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinfolist">SetupDiCreateDeviceInfoList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist">SetupDiDestroyDeviceInfoList</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdidestroydeviceinfolist">SetupDiDestroyDeviceInfoList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistdetaila">SetupDiGetDeviceInfoListDetail</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistdetaila">SetupDiGetDeviceInfoListDetail</a>

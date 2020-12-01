@@ -50,42 +50,37 @@ api_name:
 
 ## -description
 
-The <b>SpMakeSignature</b> function generates a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">signature</a> based on the specified message and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>.
+The <b>SpMakeSignature</b> function generates a <a href="/windows/desktop/SecGloss/d-gly">signature</a> based on the specified message and <a href="/windows/desktop/SecGloss/s-gly">security context</a>.
 
 The <b>SpMakeSignature</b> function is the dispatch function for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
+<a href="/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a> function of the 
+<a href="/windows/desktop/SecAuthN/sspi">Security Support Provider Interface</a>.
 
 ## -parameters
 
-### -param ContextId
-
-### -param fQOP
-
-### -param Message
-
-### -param MessageSeqNo
-
-#### - ContextHandle [in]
+### -param ContextId [in]
 
 A handle to the security context to be used to generate the message signature.
 
 
-#### - MessageBuffers [in, out]
+### -param fQOP [in]
 
-Pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structures. On input, the structures contain the message to be signed. On output, the <b>SecBuffer</b> structure of type SECBUFFER_TOKEN contains the signature.
+Specifies package-specific flags that indicate the quality of protection. A security package can use this parameter to support the selection of cryptographic algorithms
+
+### -param Message [in]
+
+Pointer to a 
+<a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a> structure. On input, the structure contains the message to be signed.
 
 
-#### - MessageSequenceNumber [in]
+
+### -param MessageSeqNo [in]
 
 Sequence number to assign to the message. Sequence numbers are optional and are used as protection against loss and insertion of messages. A value of zero indicates that sequence numbers are not in use.
 
 
-#### - QualityOfProtection [in]
 
-Specifies package-specific flags that indicate the quality of protection. A security package can use this parameter to support the selection of cryptographic algorithms.
-
+#### - MessageBuffers
 ## -returns
 
 If the function succeeds, return STATUS_SUCCESS.
@@ -113,27 +108,26 @@ The handle is not valid.
 ## -remarks
 
 The counterpart to the <b>SpMakeSignature</b> function is the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-kspverifysignaturefn">SpVerifySignature</a> function, used to verify signatures at the receiving end.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-kspverifysignaturefn">SpVerifySignature</a> function, used to verify signatures at the receiving end.
 
 SSP/APs must implement the <b>SpMakeSignature</b> function; however, the actual name given to the implementation is up to the developer.
 
 A pointer to the <b>SpMakeSignature</b> function is available in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a> structure received from the 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a>
+<a href="/windows/desktop/api/sspi/nf-sspi-makesignature">MakeSignature</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
+<a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_user_function_table">SECPKG_USER_FUNCTION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-kspverifysignaturefn">SpVerifySignature</a>
-
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-kspverifysignaturefn">SpVerifySignature</a>

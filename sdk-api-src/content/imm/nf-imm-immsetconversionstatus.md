@@ -47,27 +47,23 @@ api_name:
  - ImmSetConversionStatus
 ---
 
-# ImmSetConversionStatus function
-
-
 ## -description
 
 Sets the current conversion status.
 
 ## -parameters
 
-### -param HIMC [in]
+### -param Arg1 [in]
 
 Handle to the input context.
 
-### -param DWORD [in]
+### -param Arg2 [in]
 
-Conversion mode values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/ime-conversion-mode-values">IME Conversion Mode Values</a>.
+Conversion mode values. For more information, see <a href="/windows/desktop/Intl/ime-conversion-mode-values">IME Conversion Mode Values</a>.
 
+### -param Arg3 [in]
 
-#### - fdwSentence [in]
-
-Sentence mode values. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/ime-sentence-mode-values">IME Sentence Mode Values</a>.
+Sentence mode values. For more information, see <a href="/windows/desktop/Intl/ime-sentence-mode-values">IME Sentence Mode Values</a>.
 
 ## -returns
 
@@ -75,7 +71,7 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 ## -remarks
 
-This function sends the <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setconversionmode">IMN_SETCONVERSIONMODE</a> and <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setsentencemode">IMN_SETSENTENCEMODE</a> commands to the application.
+This function sends the <a href="/windows/desktop/Intl/imn-setconversionmode">IMN_SETCONVERSIONMODE</a> and <a href="/windows/desktop/Intl/imn-setsentencemode">IMN_SETSENTENCEMODE</a> commands to the application.
 
 <div class="alert"><b>Note</b>  <b>Beginning with Windows 8:</b> By default, the input switch is set per user instead of per thread. 
 The Microsoft IME (Japanese) respects the mode globally, and therefore  <b>ImmSetConversionStatus</b> fails when getting focus.</div>
@@ -83,17 +79,16 @@ The Microsoft IME (Japanese) respects the mode globally, and therefore  <b>ImmSe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setconversionmode">IMN_SETCONVERSIONMODE</a>
+<a href="/windows/desktop/Intl/imn-setconversionmode">IMN_SETCONVERSIONMODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-setsentencemode">IMN_SETSENTENCEMODE</a>
+<a href="/windows/desktop/Intl/imn-setsentencemode">IMN_SETSENTENCEMODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

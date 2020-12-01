@@ -68,7 +68,7 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-The <b>CloseFigure</b> function closes the figure by drawing a line from the current position to the first point of the figure (usually, the point specified by the most recent call to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a> function) and then connects the lines by using the line join style. If a figure is closed by using the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a> function instead of <b>CloseFigure</b>, end caps are used to create the corner instead of a join.
+The <b>CloseFigure</b> function closes the figure by drawing a line from the current position to the first point of the figure (usually, the point specified by the most recent call to the <a href="/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a> function) and then connects the lines by using the line join style. If a figure is closed by using the <a href="/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a> function instead of <b>CloseFigure</b>, end caps are used to create the corner instead of a join.
 
 The <b>CloseFigure</b> function should only be called if there is an open path bracket in the specified device context.
 
@@ -78,29 +78,28 @@ After a call to <b>CloseFigure</b>, adding a line or curve to the path starts a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-beginpath">BeginPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-endpath">EndPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extcreatepen">ExtCreatePen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-lineto">LineTo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/path-functions">Path Functions</a>
+<a href="/windows/desktop/gdi/path-functions">Path Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/paths">Paths Overview</a>
-
+<a href="/windows/desktop/gdi/paths">Paths Overview</a>

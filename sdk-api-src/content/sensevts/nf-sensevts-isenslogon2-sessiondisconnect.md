@@ -91,17 +91,16 @@ SENS calls this method to notify an application that a session is disconnected.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
+<a href="/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nn-sensevts-isenslogon2">ISensLogon2</a>
+<a href="/windows/desktop/api/sensevts/nn-sensevts-isenslogon2">ISensLogon2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isenslogon-logoff">ISensLogon::Logoff</a>
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon-logoff">ISensLogon::Logoff</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-portal">Terminal Services</a>
-
+<a href="/windows/desktop/TermServ/terminal-services-portal">Terminal Services</a>

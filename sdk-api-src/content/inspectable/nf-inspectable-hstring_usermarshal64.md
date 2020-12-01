@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Marshals an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a> object into the RPC buffer.
+Marshals an <a href="/windows/desktop/WinRT/hstring">HSTRING</a> object into the RPC buffer.
 
 ## -parameters
 
@@ -74,5 +74,4 @@ The value obtained from the returned <b>HRESULT</b> value is <b>S_OK</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>
-
+<a href="/windows/desktop/WinRT/hstring">HSTRING</a>

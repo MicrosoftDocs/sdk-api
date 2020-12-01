@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides access to  a control that acts as a container for a collection of child controls that  are organized in a two-dimensional logical coordinate system that can be traversed by row and column. The children of this element support the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgriditempattern">IUIAutomationGridItemPattern</a> interface.
+Provides access to  a control that acts as a container for a collection of child controls that  are organized in a two-dimensional logical coordinate system that can be traversed by row and column. The children of this element support the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgriditempattern">IUIAutomationGridItemPattern</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationGridPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationGridPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationGridPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationGridPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationGridPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationgridpattern-getitem">GetItem</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationgridpattern-getitem">GetItem</a>
 </td>
 <td align="left" width="63%">
 Retrieves a UI Automation element representing an item in the grid.
@@ -88,7 +88,7 @@ Retrieves a UI Automation element representing an item in the grid.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationgridpattern-get_cachedcolumncount">CachedColumnCount</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationgridpattern-get_cachedcolumncount">CachedColumnCount</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Retrieves the cached number of columns in the grid.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationgridpattern-get_cachedrowcount">CachedRowCount</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationgridpattern-get_cachedrowcount">CachedRowCount</a>
 
 
 </td>
@@ -120,7 +120,7 @@ Retrieves the cached number of rows in the grid.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationgridpattern-get_currentcolumncount">CurrentColumnCount</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationgridpattern-get_currentcolumncount">CurrentColumnCount</a>
 
 
 </td>
@@ -136,7 +136,7 @@ The number of columns in the grid.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationgridpattern-get_currentrowcount">CurrentRowCount</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationgridpattern-get_currentrowcount">CurrentRowCount</a>
 
 
 </td>
@@ -153,9 +153,8 @@ Retrieves the number of rows in the grid.
 
 ## -remarks
 
-This interface does not support active manipulation of a grid; the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern">IUIAutomationTransformPattern</a> interface is required for this functionality.
+This interface does not support active manipulation of a grid; the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern">IUIAutomationTransformPattern</a> interface is required for this functionality.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>

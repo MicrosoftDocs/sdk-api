@@ -55,7 +55,7 @@ Use the <b>IEnumWIA_FORMAT_INFO</b> interface to enumerate the format and media 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWIA_FORMAT_INFO</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWIA_FORMAT_INFO</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumWIA_FORMAT_INFO</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumWIA_FORMAT_INFO</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,46 +70,46 @@ The <b>IEnumWIA_FORMAT_INFO</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-clone">Clone</a>
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-clone">Clone</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-clone">IEnumWIA_FORMAT_INFO::Clone</a> method creates an additional instance of the <b>IEnumWIA_FORMAT_INFO</b> interface and returns an interface pointer to the new interface.
+The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-clone">IEnumWIA_FORMAT_INFO::Clone</a> method creates an additional instance of the <b>IEnumWIA_FORMAT_INFO</b> interface and returns an interface pointer to the new interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-getcount">GetCount</a>
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-getcount">IEnumWIA_FORMAT_INFO::GetCount</a> method returns the number of elements stored by this enumerator.
+The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-getcount">IEnumWIA_FORMAT_INFO::GetCount</a> method returns the number of elements stored by this enumerator.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-next">Next</a>
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-next">Next</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-next">IEnumWIA_FORMAT_INFO::Next</a> method returns an array of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structures.
+The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-next">IEnumWIA_FORMAT_INFO::Next</a> method returns an array of <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structures.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-reset">Reset</a>
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-reset">Reset</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-reset">IEnumWIA_FORMAT_INFO::Reset</a> method sets the enumeration back to the first <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structure.
+The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-reset">IEnumWIA_FORMAT_INFO::Reset</a> method sets the enumeration back to the first <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structure.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-skip">Skip</a>
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-skip">Skip</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-skip">IEnumWIA_FORMAT_INFO::Skip</a> method skips the specified number of structures in the enumeration.
+The <a href="/windows/desktop/api/wia_xp/nf-wia_xp-ienumwia_format_info-skip">IEnumWIA_FORMAT_INFO::Skip</a> method skips the specified number of structures in the enumeration.
 
 </td>
 </tr>
@@ -117,11 +117,11 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ien
 
 ## -remarks
 
-The <b>IEnumWIA_FORMAT_INFO</b> interface is a specific implementation for Windows Image Acquisition (WIA) of the standard Component Object Model (COM) enumeration interface. For details, see <a href="https://docs.microsoft.com/previous-versions/ms680089(v=vs.85)">IEnumXXXX</a>.
+The <b>IEnumWIA_FORMAT_INFO</b> interface is a specific implementation for Windows Image Acquisition (WIA) of the standard Component Object Model (COM) enumeration interface. For details, see <a href="/previous-versions/ms680089(v=vs.85)">IEnumXXXX</a>.
 
-Applications obtain a pointer to the <b>IEnumWIA_FORMAT_INFO</b> interface by invoking the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtenumwia_format_info">IWiaDataTransfer::idtEnumWIA_FORMAT_INFO</a> method of an item's <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer">IWiaDataTransfer</a> interface.
+Applications obtain a pointer to the <b>IEnumWIA_FORMAT_INFO</b> interface by invoking the <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtenumwia_format_info">IWiaDataTransfer::idtEnumWIA_FORMAT_INFO</a> method of an item's <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer">IWiaDataTransfer</a> interface.
 
-The <b>IEnumWIA_FORMAT_INFO</b> interface, like all COM interfaces, inherits the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods. 
+The <b>IEnumWIA_FORMAT_INFO</b> interface, like all COM interfaces, inherits the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface methods. 
 
 <table class="clsStd">
 <tr>
@@ -130,19 +130,19 @@ The <b>IEnumWIA_FORMAT_INFO</b> interface, like all COM interfaces, inherits the
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
+<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
 </td>
 <td>Returns pointers to supported interfaces.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a>
+<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a>
 </td>
 <td>Increments reference count.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>
+<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>
 </td>
 <td>Decrements reference count.</td>
 </tr>
@@ -150,7 +150,7 @@ The <b>IEnumWIA_FORMAT_INFO</b> interface, like all COM interfaces, inherits the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/ms680089(v=vs.85)">IEnumXXXX</a>
+<a href="/previous-versions/ms680089(v=vs.85)">IEnumXXXX</a>
 
 
 
@@ -162,5 +162,4 @@ The <b>IEnumWIA_FORMAT_INFO</b> interface, like all COM interfaces, inherits the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtenumwia_format_info">idtEnumWIA_FORMAT_INFO</a>
-
+<a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtenumwia_format_info">idtEnumWIA_FORMAT_INFO</a>

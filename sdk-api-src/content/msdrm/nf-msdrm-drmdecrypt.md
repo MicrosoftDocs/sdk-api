@@ -55,7 +55,7 @@ api_name:
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -65,7 +65,7 @@ The <b>DRMDecrypt</b> function decrypts encrypted content.
 
 ### -param hCryptoProvider [in]
 
-A handle to an AD RMS decrypting object created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateenablingbitsdecryptor">DRMCreateEnablingBitsDecryptor</a>.
+A handle to an AD RMS decrypting object created by <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateenablingbitsdecryptor">DRMCreateEnablingBitsDecryptor</a>.
 
 ### -param iPosition [in]
 
@@ -91,11 +91,11 @@ Decrypted data.
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
-Memory allocation and release of the decrypted content is the responsibility of the calling function. The following code sample, from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/decrypting-content">Decrypting Content</a>, shows how to decrypt content in blocks. This particular example already knows the size of the content to decrypt and allocates memory beforehand. If you must determine the number of bytes to allocate, however,  the required buffer size is returned in the <i>pcNumOutBytes</i> parameter after the first call. Allocate memory and call the function again with  <i>pbOutData</i> set to point to the new memory.
+Memory allocation and release of the decrypted content is the responsibility of the calling function. The following code sample, from <a href="/previous-versions/windows/desktop/adrms_sdk/decrypting-content">Decrypting Content</a>, shows how to decrypt content in blocks. This particular example already knows the size of the content to decrypt and allocates memory beforehand. If you must determine the number of bytes to allocate, however,  the required buffer size is returned in the <i>pcNumOutBytes</i> parameter after the first call. Allocate memory and call the function again with  <i>pbOutData</i> set to point to the new memory.
 
 
 ```cpp
@@ -213,29 +213,28 @@ e_Exit:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateenablingbitsdecryptor">DRMCreateEnablingBitsDecryptor</a>
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateenablingbitsdecryptor">DRMCreateEnablingBitsDecryptor</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmencrypt">DRMEncrypt</a>
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmencrypt">DRMEncrypt</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetinfo">DRMGetInfo</a>
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetinfo">DRMGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/decrypting-content">Decrypting Content</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/decrypting-content">Decrypting Content</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/decrypting-content-code-example">Decrypting Content Code Example</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/decrypting-content-code-example">Decrypting Content Code Example</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/decryption-decryptcontent-cpp">Decryption_DecryptContent.cpp</a>
-
+<a href="/previous-versions/windows/desktop/adrms_sdk/decryption-decryptcontent-cpp">Decryption_DecryptContent.cpp</a>

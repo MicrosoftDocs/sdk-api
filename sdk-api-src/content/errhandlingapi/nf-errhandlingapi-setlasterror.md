@@ -71,27 +71,26 @@ The last-error code for the thread.
 The last-error code is kept in thread local storage so that multiple threads do not overwrite each other's values.
 
 Most functions call 
-<b>SetLastError</b> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a> only when they fail. However, some system functions call 
+<b>SetLastError</b> or <a href="/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a> only when they fail. However, some system functions call 
 <b>SetLastError</b> or <b>SetLastErrorEx</b> under conditions of success; those cases are noted in each function's documentation.
 
 Applications can optionally retrieve the value set by this function by using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function immediately after a function fails.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function immediately after a function fails.
 
 Error codes are 32-bit values (bit 31 is the most significant bit). Bit 29 is reserved for application-defined error codes; no system error code has this bit set. If you are defining an error code for your application, set this bit to indicate that the error code has been defined by your application and to ensure that your error code does not conflict with any system-defined error codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
+<a href="/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/last-error-code">Last-Error Code</a>
+<a href="/windows/desktop/Debug/last-error-code">Last-Error Code</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setlasterrorex">SetLastErrorEx</a>

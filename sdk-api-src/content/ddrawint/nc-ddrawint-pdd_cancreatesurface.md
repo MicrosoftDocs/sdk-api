@@ -53,7 +53,7 @@ The <b>CanCreateD3DBuffer</b> callback function determines whether the driver ca
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_cancreatesurfacedata">DD_CANCREATESURFACEDATA</a> structure. This structure contains the information required for the driver to determine whether a command or vertex buffer can be created.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_cancreatesurfacedata">DD_CANCREATESURFACEDATA</a> structure. This structure contains the information required for the driver to determine whether a command or vertex buffer can be created.
 
 ## -returns
 
@@ -65,9 +65,9 @@ This callback is used only if the driver manages driver-level command and vertex
 
 <b>CanCreateD3DBuffer</b> should check the surface description that the <b>lpDDSurfaceDesc</b> member of the DD_CANCREATESURFACEDATA structure at <b>lpCanCreateD3DBuffer</b> points to in order to determine whether the driver can support the format and capabilities of the requested buffer for the mode that the driver is currently in. The driver should return DD_OK in the <b>ddRVal</b> member of the same structure if it supports that type of buffer. Otherwise, it should return the DDERR_<i>Xxx</i> error code that best describes why it does not support the buffer.
 
-This call has the same prototype as <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549213(v=vs.85)">DdCanCreateSurface</a>. The <b>CanCreateD3DBuffer</b> callback is used, however, when the surface in question has the DDSCAPS_EXECUTEBUFFER flag set in the <b>ddsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure.
+This call has the same prototype as <a href="/previous-versions/windows/hardware/drivers/ff549213(v=vs.85)">DdCanCreateSurface</a>. The <b>CanCreateD3DBuffer</b> callback is used, however, when the surface in question has the DDSCAPS_EXECUTEBUFFER flag set in the <b>ddsCaps</b> member of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure.
 
-The driver determines the type of buffer being requested by checking the <b>ddsCaps</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure for the following flags:
+The driver determines the type of buffer being requested by checking the <b>ddsCaps</b> member of the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure for the following flags:
 
 <table>
 <tr>
@@ -102,17 +102,16 @@ The driver should allocate an explicit vertex buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurface">CreateD3DBuffer</a>
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_createsurface">CreateD3DBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_cancreatesurfacedata">DD_CANCREATESURFACEDATA</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_cancreatesurfacedata">DD_CANCREATESURFACEDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549213(v=vs.85)">DdCanCreateSurface</a>
-
+<a href="/previous-versions/windows/hardware/drivers/ff549213(v=vs.85)">DdCanCreateSurface</a>

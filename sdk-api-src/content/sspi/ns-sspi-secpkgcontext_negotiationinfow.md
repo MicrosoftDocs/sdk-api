@@ -56,14 +56,14 @@ api_name:
 
 ## -description
 
-The <b>SecPkgContext_NegotiationInfo</b> structure contains information on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> that is being set up or has been set up, and also gives the status on the negotiation to set up the security package.
+The <b>SecPkgContext_NegotiationInfo</b> structure contains information on the <a href="/windows/desktop/SecGloss/s-gly">security package</a> that is being set up or has been set up, and also gives the status on the negotiation to set up the security package.
 
 ## -struct-fields
 
 ### -field PackageInfo
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure that provides general information about the security package chosen in the negotiate process, such as the name and capabilities of the package.
+<a href="/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a> structure that provides general information about the security package chosen in the negotiate process, such as the name and capabilities of the package.
 
 ### -field NegotiationState
 
@@ -112,4 +112,3 @@ Negotiations in progress.
 
 > [!NOTE]
 > The sspi.h header defines SecPkgContext_NegotiationInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

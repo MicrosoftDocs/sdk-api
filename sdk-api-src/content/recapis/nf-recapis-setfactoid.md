@@ -52,7 +52,7 @@ api_name:
 
 Specifies the factoid a recognizer uses to constrain its search for the result.
 
-You specify a factoid if an input field is of a known type, such as if the input field contains a date. You call this function before processing the ink for the first time. Therefore, call the <b>SetFactoid</b> function before calling the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-process">Process</a> function.
+You specify a factoid if an input field is of a known type, such as if the input field contains a date. You call this function before processing the ink for the first time. Therefore, call the <b>SetFactoid</b> function before calling the <a href="/windows/desktop/api/recapis/nf-recapis-process">Process</a> function.
 
 ## -parameters
 
@@ -169,11 +169,10 @@ The context contains an invalid value.
 
 ## -remarks
 
-For a list of factoids that can be passed in the <i>cwcFactoid</i> parameter, see <a href="https://docs.microsoft.com/windows/desktop/tablet/supported-factoids-from-version-1">Supported Factoids from Version 1</a>. The DEFAULT factoid listed in that topic is not a valid value to pass to <b>SetFactoid</b>; the Tablet PC Platform API's internally convert DEFAULT to <b>NULL</b> before calling the <b>SetFactoid</b> function.
+For a list of factoids that can be passed in the <i>cwcFactoid</i> parameter, see <a href="/windows/desktop/tablet/supported-factoids-from-version-1">Supported Factoids from Version 1</a>. The DEFAULT factoid listed in that topic is not a valid value to pass to <b>SetFactoid</b>; the Tablet PC Platform API's internally convert DEFAULT to <b>NULL</b> before calling the <b>SetFactoid</b> function.
 
 It is recommended that you limit the length of the factoid string to no more than 32768 characters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setflags">SetFlags Function</a>
-
+<a href="/windows/desktop/api/recapis/nf-recapis-setflags">SetFlags Function</a>

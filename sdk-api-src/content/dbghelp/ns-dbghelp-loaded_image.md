@@ -78,7 +78,7 @@ A pointer to an
 ### -field LastRvaSection
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> structure.
 
 ### -field NumberOfSections
 
@@ -87,7 +87,7 @@ The number of COFF section headers.
 ### -field Sections
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> structure.
+<a href="/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> structure.
 
 ### -field Characteristics
 
@@ -311,13 +311,12 @@ typedef struct _LIST_ENTRY {
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a>
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-imageload">ImageLoad</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a>
-
+<a href="/windows/desktop/api/imagehlp/nf-imagehlp-mapandload">MapAndLoad</a>

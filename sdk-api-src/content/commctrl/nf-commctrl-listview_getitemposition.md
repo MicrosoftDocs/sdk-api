@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the position of a list-view item. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getitemposition">LVM_GETITEMPOSITION</a> message.
+Gets the position of a list-view item. You can use this macro or explicitly send the <a href="/windows/desktop/Controls/lvm-getitemposition">LVM_GETITEMPOSITION</a> message.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -68,7 +68,6 @@ The index of the list-view item.
 
 ### -param ppt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the position of the item's upper-left corner, in view coordinates.
-
+A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the position of the item's upper-left corner, in view coordinates.

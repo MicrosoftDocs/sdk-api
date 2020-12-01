@@ -77,7 +77,7 @@ The length, in bytes, of the <i>destFilterElement</i> buffer.
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. See 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a> for more information.
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a> for more information.
 
 ## -remarks
 
@@ -90,9 +90,8 @@ Call <b>ldap_escape_filter_element</b> with the <i>sourceFilterElement</i> param
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
-
+<a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
- Gets a flag from a <b>LicenseRenewalResult</b> event that indicates whether the client should check the entitlement token from the license. The client can call the <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-checkentitlementtoken">IBDA_ConditionalAccessEx::CheckEntitlementToken</a> method to validate the entitlement token.
+ Gets a flag from a <b>LicenseRenewalResult</b> event that indicates whether the client should check the entitlement token from the license. The client can call the <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-checkentitlementtoken">IBDA_ConditionalAccessEx::CheckEntitlementToken</a> method to validate the entitlement token.
 
 ## -parameters
 
@@ -64,9 +64,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-checkentitlementtoken">IBDA_ConditionalAccessEx::CheckEntitlementToken</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccessex-checkentitlementtoken">IBDA_ConditionalAccessEx::CheckEntitlementToken</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>

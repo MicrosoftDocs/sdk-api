@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>lineSetLineDevStatus</b> function sets the line device status. Except for basic parameter validation, it is a straight pass-through to the service provider. The service provider sends a 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a> message to inform applications of the new state, when set; TAPI does not synthesize these messages.
+<a href="/windows/desktop/Tapi/line-linedevstate">LINE_LINEDEVSTATE</a> message to inform applications of the new state, when set; TAPI does not synthesize these messages.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Handle to the line device.
 ### -param dwStatusToChange
 
 One or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevstatusflags--constants">LINEDEVSTATUSFLAGS_ Constants</a>.
+<a href="/windows/desktop/Tapi/linedevstatusflags--constants">LINEDEVSTATUSFLAGS_ Constants</a>.
 
 ### -param fStatus
 
@@ -74,4 +74,3 @@ One or more of the
 Returns a positive request identifier if the asynchronous operation starts; otherwise, the function returns one of these negative error values:
 
 LINEERR_INVALLINEHANDLE, LINEERR_INVALLINESTATE, LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONUNAVAIL, LINEERR_OPERATIONFAILED, LINEERR_RESOURCEUNAVAIL, LINEERR_UNINITIALIZED.
-

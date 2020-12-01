@@ -53,7 +53,7 @@ The <b>DdUpdateOverlay</b> callback function repositions or modifies the visual 
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_updateoverlaydata">DD_UPDATEOVERLAYDATA</a> structure that contains the information required to update the overlay.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_updateoverlaydata">DD_UPDATEOVERLAYDATA</a> structure that contains the information required to update the overlay.
 
 ## -returns
 
@@ -67,21 +67,20 @@ The driver should determine whether it has the bandwidth to support the overlay 
 
 The driver/hardware must stretch or shrink the overlay accordingly when the rectangles specified by the <b>rDest</b> and <b>rSrc</b> members of DD_UPDATEOVERLAYDATA are different sizes.
 
-Note that <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a> is used for flipping between overlay surfaces, so performance for <b>DdUpdateOverlay</b> is not critical.
+Note that <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a> is used for flipping between overlay surfaces, so performance for <b>DdUpdateOverlay</b> is not critical.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_updateoverlaydata">DD_UPDATEOVERLAYDATA</a>
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_updateoverlaydata">DD_UPDATEOVERLAYDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a>
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_setcolorkey">DdSetColorKey</a>
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_setcolorkey">DdSetColorKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_setoverlayposition">DdSetOverlayPosition</a>
-
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_setoverlayposition">DdSetOverlayPosition</a>

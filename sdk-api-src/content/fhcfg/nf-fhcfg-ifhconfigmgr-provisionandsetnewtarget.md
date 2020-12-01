@@ -76,17 +76,16 @@ For local disks, the <i>TargetUrl</i> parameter contains the drive letter. This 
 
 For network shares, the <i>TargetUrl</i> parameter contains the full path of the share.  This path must end with a trailing backslash (for example, "\\myserver\myshare\").
 
-It is highly recommended that the storage device or network share specified by the <i>TargetUrl</i> parameter be validated first using the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-validatetarget">IFhConfigMgr::ValidateTarget</a> method. If <b>ValidateTarget</b> returns a validation result other than <b>FH_VALID_TARGET</b>, assigning this storage device or network share as the default backup target may have unpredictable consequences.
+It is highly recommended that the storage device or network share specified by the <i>TargetUrl</i> parameter be validated first using the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-validatetarget">IFhConfigMgr::ValidateTarget</a> method. If <b>ValidateTarget</b> returns a validation result other than <b>FH_VALID_TARGET</b>, assigning this storage device or network share as the default backup target may have unpredictable consequences.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
+<a href="/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhconfigmgr">IFhConfigMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-validatetarget">IFhConfigMgr::ValidateTarget</a>
-
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-validatetarget">IFhConfigMgr::ValidateTarget</a>

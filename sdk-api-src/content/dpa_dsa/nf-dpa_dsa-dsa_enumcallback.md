@@ -43,6 +43,7 @@ api_location:
  - Comctl32.dll
 api_name:
  - DSA_EnumCallback
+req.apiset: ext-ms-win-shell-comctl32-da-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DSA_EnumCallback function
@@ -62,9 +63,9 @@ A handle to an existing DSA.
 
 ### -param pfnCB [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallback">PFNDAENUMCALLBACK</a>*</b>
+Type: <b><a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallback">PFNDAENUMCALLBACK</a>*</b>
 
-A callback function pointer. See <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallback">PFNDSAENUMCALLBACK</a> for the callback function prototype.
+A callback function pointer. See <a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallback">PFNDSAENUMCALLBACK</a> for the callback function prototype.
 
 ### -param pData [in]
 
@@ -74,5 +75,4 @@ A callback data pointer. <i>pData</i> is passed as a parameter to <i>pfnCB</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallbackconst">PFNDAENUMCALLBACKCONST</a>
-
+<a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallbackconst">PFNDAENUMCALLBACKCONST</a>

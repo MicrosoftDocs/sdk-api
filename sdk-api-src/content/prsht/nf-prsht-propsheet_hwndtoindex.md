@@ -50,25 +50,25 @@ api_name:
 
 ## -description
 
-Takes a window handle of the property sheet page and returns its zero-based index. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/psm-hwndtoindex">PSM_HWNDTOINDEX</a> message explicitly.
+Takes a window handle of the property sheet page and returns its zero-based index. You can use this macro or send the <a href="/windows/desktop/controls/psm-hwndtoindex">PSM_HWNDTOINDEX</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet's window.
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the page's window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getparent">GetParent</a>
 
 
 
@@ -76,9 +76,8 @@ Handle to the page's window.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propsheet_getcurrentpagehwnd">PropSheet_GetCurrentPageHwnd</a>
+<a href="/windows/desktop/api/prsht/nf-prsht-propsheet_getcurrentpagehwnd">PropSheet_GetCurrentPageHwnd</a>
 
 
 
 <b>Reference</b>
-

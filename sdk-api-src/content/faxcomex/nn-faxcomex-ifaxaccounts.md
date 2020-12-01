@@ -54,7 +54,7 @@ Represents the collection of fax accounts on the fax server. It provides methods
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccounts</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxAccounts</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxAccounts</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IFaxAccounts</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,10 +70,10 @@ The <b>IFaxAccounts</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxaccounts-get_item">get_Item</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxaccounts-get_item">get_Item</a>
 </td>
 <td align="left" width="63%">
-Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccount">FaxAccount</a> object from a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccounts">FaxAccounts</a> collection. 
+Returns a <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccount">FaxAccount</a> object from a <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccounts">FaxAccounts</a> collection. 
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccounts-count-vb">Count</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccounts-count-vb">Count</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Holds the number of items in the <b>IFaxAccounts</b> collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccounts-newenum-vb">NewEnum</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxaccounts-newenum-vb">NewEnum</a>
 
 
 </td>
@@ -121,5 +121,4 @@ Holds the enumerator for the <b>IFaxAccounts</b> object.
 
 ## -remarks
 
-A default implementation of <b>IFaxAccounts</b> is provided as the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccounts">FaxAccounts</a> object. The interface and the object are supported only on Windows Vista or later.
-
+A default implementation of <b>IFaxAccounts</b> is provided as the <a href="/previous-versions/windows/desktop/fax/-mfax-faxaccounts">FaxAccounts</a> object. The interface and the object are supported only on Windows Vista or later.

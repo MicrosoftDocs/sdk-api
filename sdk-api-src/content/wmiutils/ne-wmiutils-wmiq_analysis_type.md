@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains constants used to specify the type of analysis to perform by using the <a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">GetAnalysis</a> method.
+Contains constants used to specify the type of analysis to perform by using the <a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">GetAnalysis</a> method.
 
 ## -enum-fields
 
@@ -77,4 +77,3 @@ You can use this parameter if  a parser object is passed to another method.
 ### -field WMIQ_ANALYSIS_RESERVED
 
 Unused.  Reserved for future use.
-

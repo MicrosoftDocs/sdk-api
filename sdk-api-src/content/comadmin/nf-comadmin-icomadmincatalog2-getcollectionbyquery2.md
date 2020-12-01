@@ -56,7 +56,7 @@ Retrieves a collection of items in the COM+ catalog that satisfy the specified s
 
 ### -param bstrCollectionName [in]
 
-The name of the collection to be retrieved from the catalog. Possible collection names can be found in the table of collections at <a href="https://docs.microsoft.com/windows/desktop/cossdk/com--administration-collections">COM+ Administration Collections</a>.
+The name of the collection to be retrieved from the catalog. Possible collection names can be found in the table of collections at <a href="/windows/desktop/cossdk/com--administration-collections">COM+ Administration Collections</a>.
 
 ### -param pVarQueryStrings [in]
 
@@ -64,7 +64,7 @@ The query keys.
 
 ### -param ppCatalogCollection [out, retval]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a> interface pointer containing the result of the query.
+A pointer to an <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a> interface pointer containing the result of the query.
 
 ## -returns
 
@@ -72,5 +72,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>

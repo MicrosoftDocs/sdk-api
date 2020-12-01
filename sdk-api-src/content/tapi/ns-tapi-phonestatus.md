@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>PHONESTATUS</b> structure describes the current status of a phone device. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetstatus">phoneGetStatus</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetstatus">TSPI_phoneGetStatus</a> functions return this structure.
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetstatus">phoneGetStatus</a> and 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetstatus">TSPI_phoneGetStatus</a> functions return this structure.
 
 ## -struct-fields
 
@@ -76,7 +76,7 @@ Size of the portion of this data structure that contains useful information, in 
 ### -field dwStatusFlags
 
 Status flags for this phone device. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonestatusflags--constants">PHONESTATUSFLAGS_ Constants</a>.
+<a href="/windows/desktop/Tapi/phonestatusflags--constants">PHONESTATUSFLAGS_ Constants</a>.
 
 ### -field dwNumOwners
 
@@ -97,7 +97,7 @@ Current ring volume of a phone device. This is a value between 0x00000000 (silen
 ### -field dwHandsetHookSwitchMode
 
 Current hookswitch mode of the phone's handset. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchmode--constants">PHONEHOOKSWITCHMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/phonehookswitchmode--constants">PHONEHOOKSWITCHMODE_ Constants</a>.
 
 ### -field dwHandsetVolume
 
@@ -110,7 +110,7 @@ Current microphone gain of the phone's handset device. This is a value between 0
 ### -field dwSpeakerHookSwitchMode
 
 Current hookswitch mode of the phone's speakerphone. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchmode--constants">PHONEHOOKSWITCHMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/phonehookswitchmode--constants">PHONEHOOKSWITCHMODE_ Constants</a>.
 
 ### -field dwSpeakerVolume
 
@@ -123,7 +123,7 @@ Current microphone gain of the phone's speaker device. This is a value between 0
 ### -field dwHeadsetHookSwitchMode
 
 Current hookswitch mode of the phone's headset. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchmode--constants">PHONEHOOKSWITCHMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/phonehookswitchmode--constants">PHONEHOOKSWITCHMODE_ Constants</a>.
 
 ### -field dwHeadsetVolume
 
@@ -156,8 +156,8 @@ Size of the name of the current owner, including the <b>null</b> terminator, in 
 ### -field dwOwnerNameOffset
 
 Offset from the beginning of the structure to the variably sized field containing the name of the application that is the current owner of the phone device. The name is the application name provided by the application when it invoked with 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitialize">phoneInitialize</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>. If no application name was supplied, the application's filename is used instead. The size of the field is specified by <b>dwOwnerNameSize</b>. If the phone currently has no owner, <b>dwOwnerNameSize</b> is zero.
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneinitialize">phoneInitialize</a> or 
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>. If no application name was supplied, the application's filename is used instead. The size of the field is specified by <b>dwOwnerNameSize</b>. If the phone currently has no owner, <b>dwOwnerNameSize</b> is zero.
 
 ### -field dwDevSpecificSize
 
@@ -170,7 +170,7 @@ Offset from the beginning of this structure to the variably sized device-specifi
 ### -field dwPhoneFeatures
 
 Flags that indicate which Telephony API functions can be invoked on the phone, considering the availability of the feature in the device capabilities, the current device state, and device ownership of the invoking application. A zero indicates the corresponding feature cannot be invoked by the application on the phone in its current state; a one indicates the feature can be invoked. This member uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonefeature--constants">PHONEFEATURE_ Constants</a>.
+<a href="/windows/desktop/Tapi/phonefeature--constants">PHONEFEATURE_ Constants</a>.
 
 ## -remarks
 
@@ -180,17 +180,16 @@ The <b>dwPhoneFeatures</b> member is available only to applications that open th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetstatus">TSPI_phoneGetStatus</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetstatus">TSPI_phoneGetStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonegetstatus">phoneGetStatus</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-phonegetstatus">phoneGetStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitialize">phoneInitialize</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneinitialize">phoneInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>

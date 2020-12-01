@@ -65,9 +65,8 @@ This method supports the standard return values E_FAIL, E_INVALIDARG, E_OUTOFMEM
 ## -remarks
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Ownership of the palette passed to this method depends on how the picture object was created, as specified by the <i>fOwn</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a>. <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-oleloadpicture">OleLoadPicture</a> forces <i>fOwn</i> to <b>TRUE</b>; if the object owns the picture, then it takes over ownership of this palette.
+Ownership of the palette passed to this method depends on how the picture object was created, as specified by the <i>fOwn</i> parameter to <a href="/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a>. <a href="/windows/desktop/api/olectl/nf-olectl-oleloadpicture">OleLoadPicture</a> forces <i>fOwn</i> to <b>TRUE</b>; if the object owns the picture, then it takes over ownership of this palette.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>

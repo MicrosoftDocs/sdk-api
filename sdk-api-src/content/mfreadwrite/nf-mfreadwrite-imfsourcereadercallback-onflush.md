@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Called when the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-flush">IMFSourceReader::Flush</a> method completes.
+Called when the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-flush">IMFSourceReader::Flush</a> method completes.
 
 ## -parameters
 
@@ -68,9 +68,8 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback">IMFSourceReaderCallback</a>
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback">IMFSourceReaderCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
-
+<a href="/windows/desktop/medfound/source-reader">Source Reader</a>

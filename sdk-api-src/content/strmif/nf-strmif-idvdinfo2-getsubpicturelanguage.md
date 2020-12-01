@@ -101,7 +101,7 @@ Invalid argument.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized or not in a valid domain.
+The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not initialized or not in a valid domain.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator
 
 ## -remarks
 
-To get the text languages available for a menu, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getmenulanguages">GetMenuLanguages</a>. <code>GetSubpictureLanguage</code> sets the value pointed to by <i>pLanguage</i> to zero if the stream contains an unknown language. Call the Win32 <b>GetLocaleInfo</b> function as follows to create a human-readable string name from <i>pLanguage</i>:
+To get the text languages available for a menu, call <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getmenulanguages">GetMenuLanguages</a>. <code>GetSubpictureLanguage</code> sets the value pointed to by <i>pLanguage</i> to zero if the stream contains an unknown language. Call the Win32 <b>GetLocaleInfo</b> function as follows to create a human-readable string name from <i>pLanguage</i>:
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -138,13 +138,12 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

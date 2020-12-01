@@ -63,35 +63,35 @@ A pointer to the data object of the currently selected item.
 Identifies an action taken by a user. <b>IComponentData::Notify</b> can receive the following notifications:
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-btn-click">MMCN_BTN_CLICK</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-btn-click">MMCN_BTN_CLICK</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-delete">MMCN_DELETE</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-delete">MMCN_DELETE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-expand">MMCN_EXPAND</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-expandsync">MMCN_EXPANDSYNC</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-expandsync">MMCN_EXPANDSYNC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-preload">MMCN_PRELOAD</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-preload">MMCN_PRELOAD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-property-change">MMCN_PROPERTY_CHANGE</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-property-change">MMCN_PROPERTY_CHANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-remove-children">MMCN_REMOVE_CHILDREN</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-remove-children">MMCN_REMOVE_CHILDREN</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-rename">MMCN_RENAME</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-rename">MMCN_RENAME</a>
 
 ### -param arg [in]
 
@@ -111,13 +111,12 @@ For more information, see the individual notifications. The snap-in should retur
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>

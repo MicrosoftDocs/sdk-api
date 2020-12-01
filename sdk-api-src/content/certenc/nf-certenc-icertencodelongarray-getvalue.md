@@ -68,16 +68,15 @@ A pointer to a <b>Long</b> variable that receives the value.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is the <b>Long</b> value at the specified index.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodelongarray">ICertEncodeLongArray</a>
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodelongarray">ICertEncodeLongArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-setvalue">ICertEncodeLongArray::SetValue</a>
-
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodelongarray-setvalue">ICertEncodeLongArray::SetValue</a>

@@ -56,29 +56,29 @@ Retrieves a fragment pointer for a fragment that is adjacent to the windowless M
 
 ### -param arg1 [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-navigatedirection">NavigateDirection</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-navigatedirection">NavigateDirection</a></b>
 
 A value that indicates the adjacent fragment to retrieve (parent, next sibling, previous sibling, and so on).
 
 ### -param ppParent [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>**</b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>**</b>
 
 Receives the adjacent fragment.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-If this method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.  The return value is E_INVALIDARG if the direction is <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-navigatedirection">NavigateDirection_FirstChild</a> or <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-navigatedirection">NavigateDirection_LastChild</a>, which are not valid for this method.  If there is no adjacent fragment in the requested direction, the  method returns S_OK and sets <i>ppRetVal</i> to <b>NULL</b>.
+If this method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.  The return value is E_INVALIDARG if the direction is <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-navigatedirection">NavigateDirection_FirstChild</a> or <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-navigatedirection">NavigateDirection_LastChild</a>, which are not valid for this method.  If there is no adjacent fragment in the requested direction, the  method returns S_OK and sets <i>ppRetVal</i> to <b>NULL</b>.
 
 ## -remarks
 
-To return the parent of the fragment, an object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a> interface must be able to implement the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-navigate">Navigate</a> method.  Implementing <b>Navigate</b> is difficult for a windowless ActiveX control because the control might be unable to determine its location in the accessible tree of the parent object.  The <b>GetAdjacentFragment</b> method enables the windowless ActiveX control to query its site for the adjacent fragment, and then return that fragment to the client that called <b>Navigate</b>.
+To return the parent of the fragment, an object that implements the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a> interface must be able to implement the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-navigate">Navigate</a> method.  Implementing <b>Navigate</b> is difficult for a windowless ActiveX control because the control might be unable to determine its location in the accessible tree of the parent object.  The <b>GetAdjacentFragment</b> method enables the windowless ActiveX control to query its site for the adjacent fragment, and then return that fragment to the client that called <b>Navigate</b>.
 
 
 
-A provider typically calls this method as part of handling the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-navigate">IRawElementProviderFragment::Navigate</a>  method.
+A provider typically calls this method as part of handling the <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-navigate">IRawElementProviderFragment::Navigate</a>  method.
 
 
 #### Examples
@@ -134,5 +134,4 @@ IFACEMETHODIMP CProviderWindowlessSite::GetAdjacentFragment(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderwindowlesssite">IRawElementProviderWindowlessSite</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderwindowlesssite">IRawElementProviderWindowlessSite</a>

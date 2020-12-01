@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_ENUM_OID_INFO</b> callback function  is used with the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a> function.
+The <b>CRYPT_ENUM_OID_INFO</b> callback function  is used with the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a> function.
 
 ## -parameters
 
@@ -65,9 +65,8 @@ A pointer to arguments passed through to the callback function.
 ## -returns
 
 Returns <b>TRUE</b> to continue the enumeration and <b>FALSE</b> to stop the enumeration.
- If <b>FALSE</b> is returned, the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a> enumeration is stopped.
+ If <b>FALSE</b> is returned, the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a> enumeration is stopped.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a>

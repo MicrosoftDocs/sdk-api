@@ -52,27 +52,26 @@ api_name:
 
 ## -description
 
-The <b>RASPROJECTION_INFO_TYPE</b> enumeration  is used in the <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_projection_info">RAS_PROJECTION_INFO</a> structure to represent either a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasppp_projection_info">RASPPP_PROJECTION_INFO</a> or <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasikev2_projection_info">RASIKEV2_PROJECTION_INFO</a> structure.
+The <b>RASPROJECTION_INFO_TYPE</b> enumeration  is used in the <a href="/windows/desktop/api/ras/ns-ras-ras_projection_info">RAS_PROJECTION_INFO</a> structure to represent either a <a href="/windows/desktop/api/ras/ns-ras-rasppp_projection_info">RASPPP_PROJECTION_INFO</a> or <a href="/windows/desktop/api/ras/ns-ras-rasikev2_projection_info">RASIKEV2_PROJECTION_INFO</a> structure.
 
 ## -enum-fields
 
 ### -field PROJECTION_INFO_TYPE_PPP
 
-Represents a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasppp_projection_info">RASPPP_PROJECTION_INFO</a> structure.
+Represents a <a href="/windows/desktop/api/ras/ns-ras-rasppp_projection_info">RASPPP_PROJECTION_INFO</a> structure.
 
 ### -field PROJECTION_INFO_TYPE_IKEv2
 
-Represents a <a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-rasikev2_projection_info">RASIKEV2_PROJECTION_INFO</a> structure.
+Represents a <a href="/windows/desktop/api/ras/ns-ras-rasikev2_projection_info">RASIKEV2_PROJECTION_INFO</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/ns-ras-ras_projection_info">RAS_PROJECTION_INFO</a>
+<a href="/windows/desktop/api/ras/ns-ras-ras_projection_info">RAS_PROJECTION_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>

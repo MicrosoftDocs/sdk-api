@@ -54,11 +54,11 @@ api_name:
 
 Concatenates two path fragments into a single path. This function also canonicalizes any relative path elements, replacing path elements such as "." and "..".
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a> and <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a> in that it returns the result on the heap. This means that the caller does not have to declare the size of the returned string and reduces stack use.
+This function differs from <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a> and <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a> in that it returns the result on the heap. This means that the caller does not have to declare the size of the returned string and reduces stack use.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
-<div class="alert"><b>Note</b> This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a>.</div><
+<div class="alert"><b>Note</b> This function, <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a>, or <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>, should be used in place of <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathcombinea">PathCombine</a>.</div><
 
 ## -parameters
 
@@ -156,7 +156,7 @@ One or more of the following flags:
 
 ### -param ppszPathOut [out]
 
-The address of a pointer to a buffer that, when this function returns successfully, receives the combined path string. It is the responsibility of the caller to free this resource, when it is no longer needed, by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function. This value cannot be <b>NULL</b>.
+The address of a pointer to a buffer that, when this function returns successfully, receives the combined path string. It is the responsibility of the caller to free this resource, when it is no longer needed, by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function. This value cannot be <b>NULL</b>.
 
 ## -returns
 
@@ -176,7 +176,6 @@ This function supports these alternate path forms:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a>
+<a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcombine">PathCchCombine</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>
-
+<a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchcombineex">PathCchCombineEx</a>

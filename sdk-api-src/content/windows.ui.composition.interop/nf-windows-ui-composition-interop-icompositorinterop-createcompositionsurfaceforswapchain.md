@@ -74,5 +74,4 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositorinterop">ICompositorInterop</a>
-
+<a href="/windows/desktop/api/windows.ui.composition.interop/nn-windows-ui-composition-interop-icompositorinterop">ICompositorInterop</a>

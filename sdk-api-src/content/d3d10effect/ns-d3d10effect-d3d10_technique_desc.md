@@ -58,27 +58,26 @@ Describes an effect technique.
 
 ### -field Name
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 A string that contains the technique name; otherwise <b>NULL</b>.
 
 ### -field Passes
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of passes in the technique.
 
 ### -field Annotations
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The number of annotations.
 
 ## -remarks
 
-To get a technique, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getdesc">ID3D10EffectTechnique::GetDesc</a>.
+To get a technique, call <a href="/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effecttechnique-getdesc">ID3D10EffectTechnique::GetDesc</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-effect-structures">Effect Structures (Direct3D 10)</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-effect-structures">Effect Structures (Direct3D 10)</a>

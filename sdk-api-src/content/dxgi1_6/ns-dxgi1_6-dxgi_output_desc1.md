@@ -45,9 +45,6 @@ api_name:
  - DXGI_OUTPUT_DESC1
 ---
 
-# DXGI_OUTPUT_DESC1 structure
-
-
 ## -description
 
 Describes an output or physical connection between the adapter (video card) and a device, including additional information about color capabilities and connection type.
@@ -65,25 +62,25 @@ A string that contains the name of the output device.
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure containing the bounds of the output in desktop coordinates. Desktop coordinates depend on the dots per inch (DPI) of the desktop.
-	  For info about writing DPI-aware Win32 apps, see <a href="https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">High DPI</a>.
+	  For info about writing DPI-aware Win32 apps, see <a href="/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows">High DPI</a>.
 
 ### -field AttachedToDesktop
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 True if the output is attached to the desktop; otherwise, false.
 
 ### -field Rotation
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173065(v=vs.85)">DXGI_MODE_ROTATION</a></b>
+Type: <b><a href="/previous-versions/windows/desktop/legacy/bb173065(v=vs.85)">DXGI_MODE_ROTATION</a></b>
 
-A member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb173065(v=vs.85)">DXGI_MODE_ROTATION</a> enumerated type describing on how an image is rotated by the output.
+A member of the <a href="/previous-versions/windows/desktop/legacy/bb173065(v=vs.85)">DXGI_MODE_ROTATION</a> enumerated type describing on how an image is rotated by the output.
 
 ### -field Monitor
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HMONITOR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HMONITOR</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HMONITOR</a> handle that represents the display monitor. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/hmonitor-and-the-device-context">HMONITOR and the Device Context</a>.
+An <a href="/windows/desktop/WinProg/windows-data-types">HMONITOR</a> handle that represents the display monitor. For more information, see <a href="/windows/desktop/gdi/hmonitor-and-the-device-context">HMONITOR and the Device Context</a>.
 
 ### -field BitsPerColor
 
@@ -93,7 +90,7 @@ The number of bits per color channel for the active wire format of the display a
 
 ### -field ColorSpace
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a></b>
 
 The current advanced color capabilities of the display attached to this output. Specifically, whether its capable of reproducing color and luminance values outside of the sRGB color space.
 	    A value of DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709 indicates that the display is limited to SDR/sRGB; A value of DXGI_COLOR_SPACE_RGB_FULL_G2048_NONE_P2020 indicates that the display supports
@@ -147,18 +144,10 @@ The maximum luminance, in nits, that the display attached to this output is capa
 	  panel. Content should not exceed this value across the entire panel for optimal rendering. This value will usually come from the EDID of the corresponding display or sometimes from an
 	  override.
 
-
-#### - InternalOutput
-
-Type: <b>BOOL</b>
-
-True if this output is attached to an internal/integrated display panel; otherwise, false.
-
 ## -remarks
 
-The <b>DXGI_OUTPUT_DESC1</b> structure is initialized by the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgioutput6-getdesc1">IDXGIOutput6::GetDesc1</a> method.
+The <b>DXGI_OUTPUT_DESC1</b> structure is initialized by the <a href="/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgioutput6-getdesc1">IDXGIOutput6::GetDesc1</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
-
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>

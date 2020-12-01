@@ -53,6 +53,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - GetClientRect
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetClientRect function
@@ -82,7 +83,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -91,7 +92,7 @@ In conformance with conventions for the <a href="/windows/desktop/api/windef/ns-
 
 #### Examples
 
-For example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-windows">Creating, Enumerating, and Sizing Child Windows</a>.
+For example, see <a href="/windows/desktop/winmsg/using-windows">Creating, Enumerating, and Sizing Child Windows</a>.
 
 <div class="code"></div>
 
@@ -101,7 +102,7 @@ For example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/usin
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowrect">GetWindowRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindowrect">GetWindowRect</a>
 
 
 
@@ -117,5 +118,4 @@ For example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/usin
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

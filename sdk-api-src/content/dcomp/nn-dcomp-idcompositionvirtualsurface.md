@@ -54,7 +54,7 @@ Represents a sparsely allocated bitmap that can be associated with a visual for 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVirtualSurface</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionsurface">IDCompositionSurface</a>. <b>IDCompositionVirtualSurface</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionVirtualSurface</b> interface inherits from <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionsurface">IDCompositionSurface</a>. <b>IDCompositionVirtualSurface</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionVirtualSurface</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvirtualsurface-resize">Resize</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvirtualsurface-resize">Resize</a>
 </td>
 <td align="left" width="63%">
 Changes the logical size of this virtual surface object.
@@ -78,7 +78,7 @@ Changes the logical size of this virtual surface object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nf-dcomp-idcompositionvirtualsurface-trim">Trim</a>
+<a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvirtualsurface-trim">Trim</a>
 </td>
 <td align="left" width="63%">
 Discards pixels that fall outside of the specified trim rectangles.
@@ -89,5 +89,4 @@ Discards pixels that fall outside of the specified trim rectangles.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionsurface">IDCompositionSurface</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionsurface">IDCompositionSurface</a>

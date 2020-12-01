@@ -78,5 +78,4 @@ Not implemented
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/encdec/nn-encdec-ietfilter">IETFilter Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ietfilter">IETFilter Interface</a>

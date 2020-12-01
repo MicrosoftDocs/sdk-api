@@ -86,9 +86,8 @@ Saves the image of the System Monitor control to a file. The image does not incl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysMon/systemmonitor-relog">SystemMonitor.Relog</a>
+<a href="/windows/desktop/SysMon/systemmonitor-relog">SystemMonitor.Relog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysMon/systemmonitor-saveas">SystemMonitor.SaveAs</a>
-
+<a href="/windows/desktop/SysMon/systemmonitor-saveas">SystemMonitor.SaveAs</a>

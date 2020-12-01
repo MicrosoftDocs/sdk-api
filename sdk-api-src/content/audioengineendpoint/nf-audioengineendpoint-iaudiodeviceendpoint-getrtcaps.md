@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>GetRTCaps</b> method queries whether the audio device is real-time (RT)-capable. This method is  not used in Remote Desktop Services implementations of <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiodeviceendpoint">IAudioDeviceEndpoint</a>.
+The <b>GetRTCaps</b> method queries whether the audio device is real-time (RT)-capable. This method is  not used in Remote Desktop Services implementations of <a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiodeviceendpoint">IAudioDeviceEndpoint</a>.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiodeviceendpoint">IAudioDeviceEndpoint</a>
-
+<a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiodeviceendpoint">IAudioDeviceEndpoint</a>

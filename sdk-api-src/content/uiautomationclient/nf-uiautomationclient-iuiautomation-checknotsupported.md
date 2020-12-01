@@ -50,37 +50,36 @@ api_name:
 
 ## -description
 
-Checks a provided <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to see if it contains the Not Supported identifier.
+Checks a provided <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to see if it contains the Not Supported identifier.
 
 ## -parameters
 
 ### -param value [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a></b>
+Type: <b><a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a></b>
 
 The value to check.
 
 ### -param isNotSupported [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
-Receives <b>TRUE</b> if the provided <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> contains the Not Supported identifier, or <b>FALSE</b> otherwise.
+Receives <b>TRUE</b> if the provided <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> contains the Not Supported identifier, or <b>FALSE</b> otherwise.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-After retrieving a property for a UI Automation element, call this method to determine whether the element supports the retrieved property. <b>CheckNotSupported</b> is typically called after calling a property retrieving method such as <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalue">GetCurrentPropertyValue</a>.
+After retrieving a property for a UI Automation element, call this method to determine whether the element supports the retrieved property. <b>CheckNotSupported</b> is typically called after calling a property retrieving method such as <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalue">GetCurrentPropertyValue</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_reservednotsupportedvalue">IUIAutomation::ReservedNotSupportedValue</a>
-
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-get_reservednotsupportedvalue">IUIAutomation::ReservedNotSupportedValue</a>

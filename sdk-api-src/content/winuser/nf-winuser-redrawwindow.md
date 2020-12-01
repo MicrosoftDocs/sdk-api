@@ -49,6 +49,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Draw-Ext-L1-1-0.dll
 api_name:
  - RedrawWindow
+req.apiset: ext-ms-win-ntuser-draw-l1-1-0 (introduced in Windows 8)
 ---
 
 # RedrawWindow function
@@ -89,7 +90,7 @@ The following flags are used to invalidate the window.
 </dl>
 </td>
 <td width="60%">
-Causes the window to receive a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> message when the window is repainted. The RDW_INVALIDATE flag must also be specified; otherwise, RDW_ERASE has no effect.
+Causes the window to receive a <a href="/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> message when the window is repainted. The RDW_INVALIDATE flag must also be specified; otherwise, RDW_ERASE has no effect.
 
 </td>
 </tr>
@@ -99,7 +100,7 @@ Causes the window to receive a <a href="https://docs.microsoft.com/windows/deskt
 </dl>
 </td>
 <td width="60%">
-Causes any part of the nonclient area of the window that intersects the update region to receive a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-ncpaint">WM_NCPAINT</a> message. The RDW_INVALIDATE flag must also be specified; otherwise, RDW_FRAME has no effect. The <b>WM_NCPAINT</b> message is typically not sent during the execution of <b>RedrawWindow</b> unless either RDW_UPDATENOW or RDW_ERASENOW is specified.
+Causes any part of the nonclient area of the window that intersects the update region to receive a <a href="/windows/desktop/gdi/wm-ncpaint">WM_NCPAINT</a> message. The RDW_INVALIDATE flag must also be specified; otherwise, RDW_FRAME has no effect. The <b>WM_NCPAINT</b> message is typically not sent during the execution of <b>RedrawWindow</b> unless either RDW_UPDATENOW or RDW_ERASENOW is specified.
 
 </td>
 </tr>
@@ -109,7 +110,7 @@ Causes any part of the nonclient area of the window that intersects the update r
 </dl>
 </td>
 <td width="60%">
-Causes a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message to be posted to the window regardless of whether any portion of the window is invalid.
+Causes a <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> message to be posted to the window regardless of whether any portion of the window is invalid.
 
 </td>
 </tr>
@@ -139,7 +140,7 @@ The following flags are used to validate the window.
 </dl>
 </td>
 <td width="60%">
-Suppresses any pending <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> messages.
+Suppresses any pending <a href="/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> messages.
 
 </td>
 </tr>
@@ -149,7 +150,7 @@ Suppresses any pending <a href="https://docs.microsoft.com/windows/desktop/winms
 </dl>
 </td>
 <td width="60%">
-Suppresses any pending <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-ncpaint">WM_NCPAINT</a> messages. This flag must be used with RDW_VALIDATE and is typically used with RDW_NOCHILDREN. RDW_NOFRAME should be used with care, as it could cause parts of a window to be painted improperly.
+Suppresses any pending <a href="/windows/desktop/gdi/wm-ncpaint">WM_NCPAINT</a> messages. This flag must be used with RDW_VALIDATE and is typically used with RDW_NOCHILDREN. RDW_NOFRAME should be used with care, as it could cause parts of a window to be painted improperly.
 
 </td>
 </tr>
@@ -159,7 +160,7 @@ Suppresses any pending <a href="https://docs.microsoft.com/windows/desktop/gdi/w
 </dl>
 </td>
 <td width="60%">
-Suppresses any pending internal <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages. This flag does not affect <b>WM_PAINT</b> messages resulting from a non-<b>NULL</b> update area.
+Suppresses any pending internal <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages. This flag does not affect <b>WM_PAINT</b> messages resulting from a non-<b>NULL</b> update area.
 
 </td>
 </tr>
@@ -169,7 +170,7 @@ Suppresses any pending internal <a href="https://docs.microsoft.com/windows/desk
 </dl>
 </td>
 <td width="60%">
-Validates <i>lprcUpdate</i> or <i>hrgnUpdate</i> (only one may be non-<b>NULL</b>). If both are <b>NULL</b>, the entire window is validated. This flag does not affect internal <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages.
+Validates <i>lprcUpdate</i> or <i>hrgnUpdate</i> (only one may be non-<b>NULL</b>). If both are <b>NULL</b>, the entire window is validated. This flag does not affect internal <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages.
 
 </td>
 </tr>
@@ -189,7 +190,7 @@ The following flags control when repainting occurs. <b>RedrawWindow</b> will not
 </dl>
 </td>
 <td width="60%">
-Causes the affected windows (as specified by the RDW_ALLCHILDREN and RDW_NOCHILDREN flags) to receive <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-ncpaint">WM_NCPAINT</a> and <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> messages, if necessary, before the function returns. <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages are received at the ordinary time.
+Causes the affected windows (as specified by the RDW_ALLCHILDREN and RDW_NOCHILDREN flags) to receive <a href="/windows/desktop/gdi/wm-ncpaint">WM_NCPAINT</a> and <a href="/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> messages, if necessary, before the function returns. <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages are received at the ordinary time.
 
 </td>
 </tr>
@@ -199,7 +200,7 @@ Causes the affected windows (as specified by the RDW_ALLCHILDREN and RDW_NOCHILD
 </dl>
 </td>
 <td width="60%">
-Causes the affected windows (as specified by the RDW_ALLCHILDREN and RDW_NOCHILDREN flags) to receive <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-ncpaint">WM_NCPAINT</a>, <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a>, and <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages, if necessary, before the function returns.
+Causes the affected windows (as specified by the RDW_ALLCHILDREN and RDW_NOCHILDREN flags) to receive <a href="/windows/desktop/gdi/wm-ncpaint">WM_NCPAINT</a>, <a href="/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a>, and <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> messages, if necessary, before the function returns.
 
 </td>
 </tr>
@@ -243,31 +244,31 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-When <b>RedrawWindow</b> is used to invalidate part of the desktop window, the desktop window does not receive a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message. To repaint the desktop, an application uses the RDW_ERASE flag to generate a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> message.
+When <b>RedrawWindow</b> is used to invalidate part of the desktop window, the desktop window does not receive a <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> message. To repaint the desktop, an application uses the RDW_ERASE flag to generate a <a href="/windows/desktop/winmsg/wm-erasebkgnd">WM_ERASEBKGND</a> message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getupdaterect">GetUpdateRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getupdaterect">GetUpdateRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getupdatergn">GetUpdateRgn</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getupdatergn">GetUpdateRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-invalidatergn">InvalidateRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
@@ -275,5 +276,4 @@ When <b>RedrawWindow</b> is used to invalidate part of the desktop window, the d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a>

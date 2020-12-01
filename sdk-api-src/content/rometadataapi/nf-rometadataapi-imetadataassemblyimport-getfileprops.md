@@ -80,7 +80,7 @@ The number of wide chars in the returned hash value.
 
 ### -param pdwFileFlags [out]
 
-A pointer to the flags that describe the metadata applied to a file. The flags value is a combination of one or more <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/corfileflags-enumeration">CorFileFlags</a> values.
+A pointer to the flags that describe the metadata applied to a file. The flags value is a combination of one or more <a href="/dotnet/framework/unmanaged-api/metadata/corfileflags-enumeration">CorFileFlags</a> values.
 
 ## -returns
 
@@ -88,5 +88,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>

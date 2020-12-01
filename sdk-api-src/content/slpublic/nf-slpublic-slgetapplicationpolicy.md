@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-Queries a policy from the set stored with the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slpersistapplicationpolicies">SLPersistApplicationPolicies</a> function     
-	and loaded using the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slloadapplicationpolicies">SLLoadApplicationPolicies</a> function.
+Queries a policy from the set stored with the <a href="/windows/desktop/api/slpublic/nf-slpublic-slpersistapplicationpolicies">SLPersistApplicationPolicies</a> function     
+	and loaded using the <a href="/windows/desktop/api/slpublic/nf-slpublic-slloadapplicationpolicies">SLLoadApplicationPolicies</a> function.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ Queries a policy from the set stored with the <a href="https://docs.microsoft.co
 
 Type: <b>HSLP</b>
 
-The context handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slloadapplicationpolicies">SLLoadApplicationPolicies</a> function.
+The context handle returned by the <a href="/windows/desktop/api/slpublic/nf-slpublic-slloadapplicationpolicies">SLLoadApplicationPolicies</a> function.
 
 ### -param pwszValueName [in]
 
@@ -69,7 +69,7 @@ The name of the policy to query, or "*" for all policies.
 
 ### -param peDataType [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/slpublic/ne-slpublic-sldatatype">SLDATATYPE</a>*</b>
 
 A pointer to the type of the data, if available.
 
@@ -145,4 +145,3 @@ The policy list is empty.
 </td>
 </tr>
 </table>
-

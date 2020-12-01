@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Indicates how the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/color-management">Color management effect</a> should interpret alpha data that is contained in the input image.
+Indicates how the <a href="/windows/desktop/Direct2D/color-management">Color management effect</a> should interpret alpha data that is contained in the input image.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ The effect assumes the alpha mode is premultiplied.
 The effect assumes the alpha mode is straight.
 
 ### -field D2D1_COLORMANAGEMENT_ALPHA_MODE_FORCE_DWORD
-

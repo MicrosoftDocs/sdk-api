@@ -56,13 +56,13 @@ api_name:
 
 The 
 <b>HTTP_SERVICE_CONFIG_URLACL_QUERY</b> structure is used to specify a particular reservation record to query in the URL namespace reservation store. It is passed to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> function using the <i>pInputConfigInfo</i> parameter when the <i>ConfigId</i> parameter is equal to <b>HttpServiceConfigUrlAclInfo</b>.
+<a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> function using the <i>pInputConfigInfo</i> parameter when the <i>ConfigId</i> parameter is equal to <b>HttpServiceConfigUrlAclInfo</b>.
 
 ## -struct-fields
 
 ### -field QueryDesc
 
-One of the following values from the <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a> enumeration. 
+One of the following values from the <a href="/windows/desktop/api/http/ne-http-http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a> enumeration. 
 
 
 
@@ -83,7 +83,7 @@ Returns a sequence of records in a sequence of calls, controlled by the <i>dwTok
 ### -field KeyDesc
 
 If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryExact</b>, then <i>KeyDesc</i> should contain an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_key">HTTP_SERVICE_CONFIG_URLACL_KEY</a> structure that identifies the reservation record queried. 
+<a href="/windows/desktop/api/http/ns-http-http_service_config_urlacl_key">HTTP_SERVICE_CONFIG_URLACL_KEY</a> structure that identifies the reservation record queried. 
 
 
 
@@ -93,7 +93,7 @@ If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryNext</b>,
 ### -field dwToken
 
 If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryNext</b>, then <i>dwToken</i> must be equal to zero on the first call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> function, one on the second call, two on the third call, and so forth until all reservation records are returned, at which point 
+<a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> function, one on the second call, two on the third call, and so forth until all reservation records are returned, at which point 
 <b>HttpQueryServiceConfiguration</b> returns ERROR_NO_MORE_ITEMS. 
 
 
@@ -103,17 +103,16 @@ If the <i>QueryDesc</i> parameter is equal to <b>HttpServiceConfigQueryExact</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a>
+<a href="/windows/desktop/api/http/ne-http-http_service_config_query_type">HTTP_SERVICE_CONFIG_QUERY_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_key">HTTP_SERVICE_CONFIG_URLACL_KEY</a>
+<a href="/windows/desktop/api/http/ns-http-http_service_config_urlacl_key">HTTP_SERVICE_CONFIG_URLACL_KEY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a>
+<a href="/windows/desktop/api/http/ns-http-http_service_config_urlacl_set">HTTP_SERVICE_CONFIG_URLACL_SET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>

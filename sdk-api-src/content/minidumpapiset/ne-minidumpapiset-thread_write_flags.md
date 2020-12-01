@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Identifies the type of thread information that will be written to the minidump file by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function.
+<a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a> function.
 
 ## -enum-fields
 
@@ -85,7 +85,7 @@ When the minidump type includes <b>MiniDumpWithProcessThreadData</b>, this flag 
 
 ### -field ThreadWriteThreadInfo
 
-When the minidump type includes <b>MiniDumpWithThreadInfo</b>, this flag is set. The callback function can clear this flag to control which threads provide thread state information in the minidump file. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_thread_info">MINIDUMP_THREAD_INFO</a>.
+When the minidump type includes <b>MiniDumpWithThreadInfo</b>, this flag is set. The callback function can clear this flag to control which threads provide thread state information in the minidump file. For more information, see <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_thread_info">MINIDUMP_THREAD_INFO</a>.
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
 
@@ -95,5 +95,4 @@ When the minidump type includes <b>MiniDumpWithThreadInfo</b>, this flag is set.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>
-
+<a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>

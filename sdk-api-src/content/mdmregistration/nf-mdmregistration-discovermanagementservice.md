@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Discovers the MDM service. The discovery process uses the 
-    <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-mde/5c841535-042e-489e-913c-9d783d741267">[MS-MDE]: Mobile Device Enrollment Protocol</a> 
+    <a href="/openspecs/windows_protocols/ms-mde/5c841535-042e-489e-913c-9d783d741267">[MS-MDE]: Mobile Device Enrollment Protocol</a> 
     protocol.
 
 ## -parameters
@@ -71,7 +71,7 @@ Address of a <a href="/windows/win32/api/mdmregistration/ns-mdmregistration-mana
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. If the function 
       fails, the returned value describes the error. Possible 
       values include those listed at 
-      <a href="https://docs.microsoft.com/windows/desktop/MDMReg/mdm-registration-constants">MDM Registration Error Values</a>.
+      <a href="/windows/desktop/MDMReg/mdm-registration-constants">MDM Registration Error Values</a>.
 
 ## -remarks
 
@@ -83,9 +83,8 @@ The caller of this function must be running as an elevated process.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/MDMReg/mdm-registration-constants">MDM Registration Error Values</a>
+<a href="/windows/desktop/MDMReg/mdm-registration-constants">MDM Registration Error Values</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/MDMReg/mdm-registration-functions">MDM Registration Functions</a>
-
+<a href="/windows/desktop/MDMReg/mdm-registration-functions">MDM Registration Functions</a>

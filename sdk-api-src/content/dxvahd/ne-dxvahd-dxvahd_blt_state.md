@@ -54,13 +54,13 @@ api_name:
 
 Specifies state parameters for blit operations when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 
-To set a state parameter, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessbltstate">IDXVAHD_VideoProcessor::SetVideoProcessBltState</a> method. This method takes a <b>DXVAHD_BLT_STATE</b> value and a byte array as input.  The byte array contains state data, the structure of which is defined by the <b>DXVAHD_BLT_STATE</b> value.
+To set a state parameter, call the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_videoprocessor-setvideoprocessbltstate">IDXVAHD_VideoProcessor::SetVideoProcessBltState</a> method. This method takes a <b>DXVAHD_BLT_STATE</b> value and a byte array as input.  The byte array contains state data, the structure of which is defined by the <b>DXVAHD_BLT_STATE</b> value.
 
 ## -enum-fields
 
 ### -field DXVAHD_BLT_STATE_TARGET_RECT
 
-Specifies the target rectangle, which is the area within the destination surface where the output will be drawn. The state data is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_target_rect_data">DXVAHD_BLT_STATE_TARGET_RECT_DATA</a> structure.
+Specifies the target rectangle, which is the area within the destination surface where the output will be drawn. The state data is a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_target_rect_data">DXVAHD_BLT_STATE_TARGET_RECT_DATA</a> structure.
 
 ### -field DXVAHD_BLT_STATE_BACKGROUND_COLOR
 
@@ -72,25 +72,24 @@ Specifies the output color space.  The state data is a <a href="/windows/win32/a
 
 ### -field DXVAHD_BLT_STATE_ALPHA_FILL
 
-Specifies how DXVA-HD device calculates output alpha values.  The state data is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_alpha_fill_data">DXVAHD_BLT_STATE_ALPHA_FILL_DATA</a> structure.
+Specifies how DXVA-HD device calculates output alpha values.  The state data is a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_alpha_fill_data">DXVAHD_BLT_STATE_ALPHA_FILL_DATA</a> structure.
 
 ### -field DXVAHD_BLT_STATE_CONSTRICTION
 
-Specifies the amount of downsampling to perform on the output.  The state data is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_constriction_data">DXVAHD_BLT_STATE_CONSTRICTION_DATA</a> structure.
+Specifies the amount of downsampling to perform on the output.  The state data is a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_constriction_data">DXVAHD_BLT_STATE_CONSTRICTION_DATA</a> structure.
 
 ### -field DXVAHD_BLT_STATE_PRIVATE
 
-Specifies that the state data contains a private DXVA-HD blit state.  Use this state for proprietary or device-specific parameters. The state data is a <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_private_data">DXVAHD_BLT_STATE_PRIVATE_DATA</a>  structure.
+Specifies that the state data contains a private DXVA-HD blit state.  Use this state for proprietary or device-specific parameters. The state data is a <a href="/windows/desktop/api/dxvahd/ns-dxvahd-dxvahd_blt_state_private_data">DXVAHD_BLT_STATE_PRIVATE_DATA</a>  structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-enumerations">Direct3D Video Enumerations</a>
+<a href="/windows/desktop/medfound/direct3d-video-enumerations">Direct3D Video Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

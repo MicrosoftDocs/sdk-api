@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains flags for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftimer-settimer">IMFTimer::SetTimer</a> method.
+Contains flags for the <a href="/windows/desktop/api/mfidl/nf-mfidl-imftimer-settimer">IMFTimer::SetTimer</a> method.
 
 ## -enum-fields
 
@@ -60,5 +60,4 @@ The time passed to the timer is relative to the current time. If this flag is ab
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

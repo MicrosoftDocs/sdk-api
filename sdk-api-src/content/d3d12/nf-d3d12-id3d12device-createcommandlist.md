@@ -59,19 +59,19 @@ For single-GPU operation, set this to zero. If there are multiple GPU nodes, the
 
 ### -param type [in]
 
-Type: **[D3D12_COMMAND_LIST_TYPE](/windows/win32/api/d3d12/ne-d3d12-d3d12_command_list_type)**
+Type: **[D3D12_COMMAND_LIST_TYPE](./ne-d3d12-d3d12_command_list_type.md)**
 
 Specifies the type of command list to create.
 
 ### -param pCommandAllocator [in]
 
-Type: **[ID3D12CommandAllocator](/windows/win32/api/d3d12/nn-d3d12-id3d12commandallocator)\***
+Type: **[ID3D12CommandAllocator](./nn-d3d12-id3d12commandallocator.md)\***
 
 A pointer to the command allocator object from which the device creates command lists.
 
 ### -param pInitialState [in, optional]
 
-Type: **[ID3D12PipelineState](/windows/win32/api/d3d12/nn-d3d12-id3d12pipelinestate)\***
+Type: **[ID3D12PipelineState](./nn-d3d12-id3d12pipelinestate.md)\***
 
 An optional pointer to the pipeline state object that contains the initial pipeline state for the command list. If it is `nulltpr`, then the runtime sets a dummy initial pipeline state, so that drivers don't have to deal with undefined state. The overhead for this is low, particularly for a command list, for which the overall cost of recording the command list likely dwarfs the cost of a single initial state setting. So there's little cost in not setting the initial pipeline state parameter, if doing so is inconvenient.
 
@@ -87,7 +87,7 @@ A reference to the globally unique identifier (**GUID**) of the command list int
 
 Type: **void\*\***
 
-A pointer to a memory block that receives a pointer to the [ID3D12CommandList](/windows/win32/api/d3d12/nn-d3d12-id3d12commandlist) or [ID3D12GraphicsCommandList](/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist) interface for the command list.
+A pointer to a memory block that receives a pointer to the [ID3D12CommandList](./nn-d3d12-id3d12commandlist.md) or [ID3D12GraphicsCommandList](./nn-d3d12-id3d12graphicscommandlist.md) interface for the command list.
 
 ## -returns
 
@@ -132,7 +132,6 @@ Refer to the <a href="/windows/win32/direct3d12/notes-on-example-code">Example C
 
 ## -see-also
 
-[ID3D12Device](/windows/win32/api/d3d12/nn-d3d12-id3d12device)
+[ID3D12Device](./nn-d3d12-id3d12device.md)
 
-[ID3D12GraphicsCommandList::Reset](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset)
-
+[ID3D12GraphicsCommandList::Reset](./nf-d3d12-id3d12graphicscommandlist-reset.md)

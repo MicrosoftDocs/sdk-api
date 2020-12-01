@@ -64,7 +64,7 @@ Contains a <b>LANGID</b> value that specifies the language identifier of the pro
 
 ### -param guidProfile [in]
 
-Contains a GUID value that identifies the language profile. This is the value obtained by <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-getactivelanguageprofile">ITfInputProcessorProfiles::GetActiveLanguageProfile</a> when the profile is active.
+Contains a GUID value that identifies the language profile. This is the value obtained by <a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-getactivelanguageprofile">ITfInputProcessorProfiles::GetActiveLanguageProfile</a> when the profile is active.
 
 ### -param pchDesc [in]
 
@@ -134,10 +134,9 @@ An unspecified error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-getactivelanguageprofile">ITfInputProcessorProfiles::GetActiveLanguageProfile
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-getactivelanguageprofile">ITfInputProcessorProfiles::GetActiveLanguageProfile
       </a>
-

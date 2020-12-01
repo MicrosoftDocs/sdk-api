@@ -90,11 +90,10 @@ For those versions of Windows that do not include <b>GetAcceptLanguages</b> in S
 
 Some websites offer content in multiple languages. You can specify your language preferences in the Internet Options item in Control Panel. <b>GetAcceptLanguages</b> retrieves a string that represents those preferences. That string is sent in an additional language header when negotiating HTTP connections.
 
-<div class="alert"><b>Note</b>  If your app or service passes language tags from this function to any <a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a> functions, or to Microsoft .NET, it must first convert the tags through the <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a> function.</div>
+<div class="alert"><b>Note</b>  If your app or service passes language tags from this function to any <a href="/windows/desktop/Intl/national-language-support">National Language Support</a> functions, or to Microsoft .NET, it must first convert the tags through the <a href="/windows/desktop/api/winnls/nf-winnls-resolvelocalename">ResolveLocaleName</a> function.</div>
 <div> </div>
 
 
 
 > [!NOTE]
 > The shlwapi.h header defines GetAcceptLanguages as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

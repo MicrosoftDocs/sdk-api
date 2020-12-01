@@ -94,9 +94,8 @@ By default, if an application callback is not registered to receive this notific
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>
 
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-sync_full_enumeration_action">SYNC_FULL_ENUMERATION_ACTION Enumeration</a>
-

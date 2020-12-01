@@ -52,6 +52,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - IsWindowVisible
+req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # IsWindowVisible function
@@ -93,9 +94,8 @@ Any drawing to a window with the <b>WS_VISIBLE</b> style will not be displayed i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

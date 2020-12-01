@@ -52,12 +52,12 @@ api_name:
 
 The <b>Msv1_0SubAuthenticationRoutine</b> function performs client/server-specific authentication.
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal's</a> credentials and information from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM) database are passed to this function for authentication.
+The <a href="/windows/desktop/SecGloss/s-gly">security principal's</a> credentials and information from the <a href="/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM) database are passed to this function for authentication.
 
 This function is implemented by custom subauthentication package DLLs for use with the MSV1_0 authentication package.
 
 The <b>Msv1_0SubAuthenticationRoutine</b> function is called only for a 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/noninteractive-authentication">noninteractive authentication</a>, only on the authenticating server where the account resides, and only if a subauthentication DLL is registered under the correct key in the registry.
+<a href="/windows/desktop/SecAuthN/noninteractive-authentication">noninteractive authentication</a>, only on the authenticating server where the account resides, and only if a subauthentication DLL is registered under the correct key in the registry.
 <div class="alert"><b>Note</b>  The Kerberos authentication package does not call this routine.</div><div> </div>
 
 ## -parameters
@@ -69,7 +69,7 @@ Specifies the level of information given in the <i>LogonInformation</i> paramete
 ### -param LogonInformation [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-netlogon_logon_identity_info">NETLOGON_LOGON_IDENTITY_INFO</a> structure. Members of this structure contain information about the user who is logging on. The <b>LogonDomainName</b> member of this structure is ignored.
+<a href="/windows/desktop/api/subauth/ns-subauth-netlogon_logon_identity_info">NETLOGON_LOGON_IDENTITY_INFO</a> structure. Members of this structure contain information about the user who is logging on. The <b>LogonDomainName</b> member of this structure is ignored.
 
 ### -param Flags [in]
 
@@ -105,11 +105,11 @@ This is a retry of the logon using the GUEST user account.
 ### -param UserAll [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-user_all_information">USER_ALL_INFORMATION</a> structure that contains the description of the user as returned from the SAM database.
+<a href="/windows/desktop/api/subauth/ns-subauth-user_all_information">USER_ALL_INFORMATION</a> structure that contains the description of the user as returned from the SAM database.
 
 ### -param WhichFields [out]
 
-Returns the members of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-user_all_information">USER_ALL_INFORMATION</a> structure that need to be written back to the SAM database. These members will be written only if <b>Msv1_0SubAuthenticationRoutine</b> returns success to the caller. Only the following value is valid.
+Returns the members of the <a href="/windows/desktop/api/subauth/ns-subauth-user_all_information">USER_ALL_INFORMATION</a> structure that need to be written back to the SAM database. These members will be written only if <b>Msv1_0SubAuthenticationRoutine</b> returns success to the caller. Only the following value is valid.
 
 <table>
 <tr>
@@ -124,7 +124,7 @@ Returns the members of the <a href="https://docs.microsoft.com/windows/desktop/a
 <td width="60%">
 Write the data contained in the <b>Parameters</b> member of the <i>UserAll</i> structure back to the SAM database.
 
-If the size of the <b>Parameters</b> member's UNICODE_STRING buffer is changed, <b>Msv1_0SubAuthenticationRoutine</b> must delete the buffer by using the <a href="https://docs.microsoft.com/windows/desktop/Midl/midl-user-free-1">MIDL_user_free</a> function and reallocate it by using the <a href="https://msdn.microsoft.com/">MIDL_user_allocate</a> function.
+If the size of the <b>Parameters</b> member's UNICODE_STRING buffer is changed, <b>Msv1_0SubAuthenticationRoutine</b> must delete the buffer by using the <a href="/windows/desktop/Midl/midl-user-free-1">MIDL_user_free</a> function and reallocate it by using the <a href="https://msdn.microsoft.com/">MIDL_user_allocate</a> function.
 
 </td>
 </tr>
@@ -133,8 +133,8 @@ If the size of the <b>Parameters</b> member's UNICODE_STRING buffer is changed, 
 ### -param UserFlags [out]
 
 Values to be returned from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function's <i>ProfileBuffer</i> parameter, when it contains a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_lm20_logon_profile">MSV1_0_LM20_LOGON_PROFILE</a> structure. The following values are currently defined for the <b>UserFlags</b> member of the structure.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function's <i>ProfileBuffer</i> parameter, when it contains a 
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_lm20_logon_profile">MSV1_0_LM20_LOGON_PROFILE</a> structure. The following values are currently defined for the <b>UserFlags</b> member of the structure.
 
 <table>
 <tr>
@@ -323,8 +323,7 @@ The password was not valid.
 This function is called by the MSV1_0 authentication package if part of the <i>AuthenticationInformation</i> parameter indicates that subauthentication is to be done and if a subauthentication DLL that exports the <b>Msv1_0SubAuthenticationRoutine</b> function is correctly registered on the workstation.
 
 The MSV1_0 authentication package does not support subauthentication for interactive logons, which require the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> structure. Network logons, which require the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_lm20_logon">MSV1_0_LM20_LOGON</a> structure, can use subauthentication.
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_interactive_logon">MSV1_0_INTERACTIVE_LOGON</a> structure. Network logons, which require the 
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_lm20_logon">MSV1_0_LM20_LOGON</a> structure, can use subauthentication.
 
 The <b>Msv1_0SubAuthenticationRoutine</b> function is called after the correct domain controller has been located and all information about the security principal to be authenticated has been retrieved from the SAM database. When subauthentication is used, authentication is the responsibility of the subauthentication DLL and must be done by the <b>Msv1_0SubAuthenticationRoutine</b> function exported by that DLL.
-

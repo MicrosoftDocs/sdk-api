@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Reconnects a previously disconnected shell session. To reconnect the shell session's associated commands, use <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmanreconnectshellcommand">WSManReconnectShellCommand</a>.
+Reconnects a previously disconnected shell session. To reconnect the shell session's associated commands, use <a href="/windows/desktop/api/wsman/nf-wsman-wsmanreconnectshellcommand">WSManReconnectShellCommand</a>.
 
 ## -parameters
 
 ### -param shell [in, out]
 
-Specifies the handle returned by a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancreateshell">WSManCreateShell</a> function. This parameter cannot be <b>NULL</b>.
+Specifies the handle returned by a call to the <a href="/windows/desktop/api/wsman/nf-wsman-wsmancreateshell">WSManCreateShell</a> function. This parameter cannot be <b>NULL</b>.
 
 ### -param flags
 
@@ -64,5 +64,4 @@ This parameter is reserved for future use and must be set to zero.
 
 ### -param async [in]
 
-Defines an asynchronous structure to contain an optional user context and a mandatory callback function. For more information, see  <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_shell_async">WSMAN_SHELL_ASYNC</a>. This parameter cannot be <b>NULL</b>.
-
+Defines an asynchronous structure to contain an optional user context and a mandatory callback function. For more information, see  <a href="/windows/desktop/api/wsman/ns-wsman-wsman_shell_async">WSMAN_SHELL_ASYNC</a>. This parameter cannot be <b>NULL</b>.

@@ -48,6 +48,7 @@ api_name:
  - GetDlgItemText
  - GetDlgItemTextA
  - GetDlgItemTextW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetDlgItemTextW function
@@ -89,18 +90,18 @@ Type: <b>UINT</b>
 
 If the function succeeds, the return value specifies the number of characters copied to the buffer, not including the terminating null character.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If the string is as long or longer than the buffer, the buffer will contain the truncated string with a terminating null character.
 
-The <b>GetDlgItemText</b> function sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a> message to the control. 
+The <b>GetDlgItemText</b> function sends a <a href="/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a> message to the control. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Creating a Modal Dialog Box</a>.
+For an example, see <a href="/windows/desktop/dlgbox/using-dialog-boxes">Creating a Modal Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -116,11 +117,11 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdlgitemint">GetDlgItemInt</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdlgitemint">GetDlgItemInt</a>
 
 
 
@@ -128,13 +129,12 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdlgitemint">SetDlgItemInt</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setdlgitemint">SetDlgItemInt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdlgitemtexta">SetDlgItemText</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setdlgitemtexta">SetDlgItemText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a>
-
+<a href="/windows/desktop/winmsg/wm-gettext">WM_GETTEXT</a>

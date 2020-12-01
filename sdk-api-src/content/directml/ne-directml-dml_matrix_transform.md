@@ -45,9 +45,6 @@ api_name:
  - DML_MATRIX_TRANSFORM
 ---
 
-# DML_MATRIX_TRANSFORM enumeration
-
-
 ## -description
 
 Defines constants that specify a matrix transform to be applied to a DirectML tensor.

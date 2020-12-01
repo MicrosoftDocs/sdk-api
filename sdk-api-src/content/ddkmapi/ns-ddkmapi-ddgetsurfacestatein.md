@@ -68,9 +68,8 @@ Specifies the DirectDrawSurface handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550673(v=vs.85)">DD_DXAPI_GET_SURFACE_STATE</a>
+<a href="/previous-versions/windows/hardware/drivers/ff550673(v=vs.85)">DD_DXAPI_GET_SURFACE_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-
+<a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>

@@ -56,7 +56,7 @@ Serializes a presentation descriptor to a byte array.
 
 ### -param pPD
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the presentation descriptor to serialize.
+Pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a> interface of the presentation descriptor to serialize.
 
 ### -param pcbData
 
@@ -64,7 +64,7 @@ Receives the size of the <i>ppbData</i> array, in bytes.
 
 ### -param ppbData
 
-Receives a pointer to an array of bytes containing the serialized presentation descriptor. The caller must free the memory for the array by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Receives a pointer to an array of bytes containing the serialized presentation descriptor. The caller must free the memory for the array by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -90,13 +90,12 @@ The function succeeded.
 
 ## -remarks
 
-To deserialize the presentation descriptor, pass the byte array to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfdeserializepresentationdescriptor">MFDeserializePresentationDescriptor</a> function.
+To deserialize the presentation descriptor, pass the byte array to the <a href="/windows/desktop/api/mfidl/nf-mfidl-mfdeserializepresentationdescriptor">MFDeserializePresentationDescriptor</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

@@ -70,7 +70,7 @@ Size of the parameter block area, in bytes.
 ## -returns
 
 Returns a positive request identifier if the function is completed asynchronously or a negative error number if an error occurs. The <i>dwParam2</i> parameter of the corresponding 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-reply">PHONE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
+<a href="/windows/desktop/Tapi/phone-reply">PHONE_REPLY</a> message is zero if the function succeeds or it is a negative error number if an error occurs. Possible return values are:
 
 PHONEERR_INVALPHONEHANDLE, PHONEERR_NOMEM, PHONEERR_INVALPOINTER, PHONEERR_RESOURCEUNAVAIL, PHONEERR_OPERATIONUNAVAIL, PHONEERR_UNINITIALIZED, PHONEERR_OPERATIONFAILED.
 
@@ -79,23 +79,22 @@ Additional return values are device specific.
 ## -remarks
 
 This operation provides a generic parameter profile. The interpretation of the parameter block is device specific. Indications and replies that are device specific should use the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-devspecific">PHONE_DEVSPECIFIC</a> message.
+<a href="/windows/desktop/Tapi/phone-devspecific">PHONE_DEVSPECIFIC</a> message.
 
 A service provider can provide access to device-specific functions by defining parameters for use with this operation. Applications that want to make use of these device-specific extensions should consult the device-specific (vendor-specific) documentation that describes which extensions are defined. Typically, an application that relies on these device-specific extensions is not portable to work with other service-provider environments.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/extended-telephony-services-reference">Extended Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/extended-telephony-services-reference">Extended Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-devspecific">PHONE_DEVSPECIFIC</a>
+<a href="/windows/desktop/Tapi/phone-devspecific">PHONE_DEVSPECIFIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phone-reply">PHONE_REPLY</a>
+<a href="/windows/desktop/Tapi/phone-reply">PHONE_REPLY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>

@@ -57,7 +57,7 @@ The <b>OnEvent</b> method is called by the SDK to notify the application about a
 
 ### -param pEventParameters [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that contains event details.
+Pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that contains event details.
 
 ## -returns
 
@@ -65,20 +65,19 @@ Any values returned by the application are ignored by Windows Portable Devices.
 
 ## -remarks
 
-The application must register to receive events by calling <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-advise">IPortableDevice::Advise</a>.
+The application must register to receive events by calling <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-advise">IPortableDevice::Advise</a>.
 
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/handling-events-from-the-device">Handling Events from the Device</a>.
+For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/handling-events-from-the-device">Handling Events from the Device</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/handling-events-from-the-device">Handling Events from the Device</a>
+<a href="/windows/desktop/wpd_sdk/handling-events-from-the-device">Handling Events from the Device</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceeventcallback">IPortableDeviceEventCallback Interface</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceeventcallback">IPortableDeviceEventCallback Interface</a>

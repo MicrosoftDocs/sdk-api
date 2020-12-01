@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndGetSpeed</b> macro retrieves the playback speed of an MCI device. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getspeed">MCIWNDM_GETSPEED</a> message.
+The <b>MCIWndGetSpeed</b> macro retrieves the playback speed of an MCI device. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-getspeed">MCIWNDM_GETSPEED</a> message.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Handle of the MCIWnd window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getspeed">MCIWNDM_GETSPEED</a>
-
+<a href="/windows/desktop/Multimedia/mciwndm-getspeed">MCIWNDM_GETSPEED</a>

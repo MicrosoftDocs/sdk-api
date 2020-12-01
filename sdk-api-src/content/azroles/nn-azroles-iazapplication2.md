@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IAzApplication2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> interface and implements additional methods to initialize <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> objects.
+The <b>IAzApplication2</b> interface inherits from the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> interface and implements additional methods to initialize <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplication2</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a>. <b>IAzApplication2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplication2</b> interface inherits from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a>. <b>IAzApplication2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,21 +69,20 @@ The <b>IAzApplication2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication2-initializeclientcontext2">InitializeClientContext2</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazapplication2-initializeclientcontext2">InitializeClientContext2</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> object pointer.
+Retrieves an <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> object pointer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazapplication2-initializeclientcontextfromtoken2">InitializeClientContextFromToken2</a>
+<a href="/windows/desktop/api/azroles/nf-azroles-iazapplication2-initializeclientcontextfromtoken2">InitializeClientContextFromToken2</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> object pointer from the specified client token.
+Retrieves an <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a> object pointer from the specified client token.
 
 </td>
 </tr>
 </table>
-

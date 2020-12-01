@@ -52,14 +52,14 @@ api_name:
 ## -description
 
 Retrieves the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object linked to the Group Policy object (GPO).
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object linked to the Group Policy object (GPO).
 
 ## -parameters
 
 ### -param ppIGPMWMIFilter [out]
 
 Address of a pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a> interface.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a> interface.
 
 ## -returns
 
@@ -67,16 +67,15 @@ Address of a pointer to the
 Returns <b>S_OK</b> if successful. Returns S_FALSE if no WMI filter is linked to the GPO. Returns a failure code if an error occurs.
 
 <h3>JScript</h3>
-If the GPO is linked to a WMI filter, the method returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object. If the GPO is not linked to a WMI filter, the method returns a null reference.
+If the GPO is linked to a WMI filter, the method returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object. If the GPO is not linked to a WMI filter, the method returns a null reference.
 
 <h3>VB</h3>
-If the GPO is linked to a WMI filter, the method returns a reference to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object. If the GPO is not linked to a WMI filter, the method returns a null reference.
+If the GPO is linked to a WMI filter, the method returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">GPMWMIFilter</a> object. If the GPO is not linked to a WMI filter, the method returns a null reference.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>

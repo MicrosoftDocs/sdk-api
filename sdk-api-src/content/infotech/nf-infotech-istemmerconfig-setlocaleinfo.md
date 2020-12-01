@@ -101,5 +101,4 @@ Locale described by the parameters is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-istemmerconfig">IStemmerConfig</a>
-
+<a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-istemmerconfig">IStemmerConfig</a>

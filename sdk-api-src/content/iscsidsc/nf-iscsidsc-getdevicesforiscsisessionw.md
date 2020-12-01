@@ -58,15 +58,15 @@ The <b>GetDevicesForIscsiSession</b> function retrieves information about the de
 
 ### -param UniqueSessionId [in]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> that contains the session identifier for the session.
+A pointer to a structure of type <a href="/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a> that contains the session identifier for the session.
 
 ### -param DeviceCount [in, out]
 
-A pointer to a location that, on input, contains the number of elements of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_device_on_sessiona">ISCSI_DEVICE_ON_SESSION</a> that can fit in the buffer that <i>Devices</i> points to. If the operation succeeds, the location receives the number of elements retrieved. If <b>GetDevicesForIscsiSession</b> returns ERROR_INSUFFICIENT_BUFFER, the location still receives the number of elements the buffer is capable of containing.
+A pointer to a location that, on input, contains the number of elements of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_device_on_sessiona">ISCSI_DEVICE_ON_SESSION</a> that can fit in the buffer that <i>Devices</i> points to. If the operation succeeds, the location receives the number of elements retrieved. If <b>GetDevicesForIscsiSession</b> returns ERROR_INSUFFICIENT_BUFFER, the location still receives the number of elements the buffer is capable of containing.
 
 ### -param Devices [out]
 
-An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_device_on_sessiona">ISCSI_DEVICE_ON_SESSION</a>-type structures that, on output, receives information about each device associated with the session.
+An array of <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_device_on_sessiona">ISCSI_DEVICE_ON_SESSION</a>-type structures that, on output, receives information about each device associated with the session.
 
 ## -returns
 
@@ -76,14 +76,13 @@ Otherwise, <b>GetDevicesForIscsiSession</b> returns the appropriate Win32 or iSC
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_device_on_sessiona">ISCSI_DEVICE_ON_SESSION</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_device_on_sessiona">ISCSI_DEVICE_ON_SESSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
+<a href="/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_unique_session_id">ISCSI_UNIQUE_SESSION_ID</a>
 
 ## -remarks
 
 > [!NOTE]
 > The iscsidsc.h header defines GetDevicesForIScsiSession as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a new identity structure that is a copy of  the specified identity structure modified to exclude the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
+Creates a new identity structure that is a copy of  the specified identity structure modified to exclude the specified <a href="/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
 
 ## -parameters
 
@@ -71,4 +71,3 @@ The modified identity structure.
 If the function succeeds, it returns <b>SEC_E_OK</b>.
 
 If the function fails, it returns a nonzero error code.
-

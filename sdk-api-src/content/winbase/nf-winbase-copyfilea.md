@@ -64,13 +64,13 @@ api_name:
 
 Copies an existing file to a new file.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfileexa">CopyFileEx</a> function provides two additional 
+The <a href="/windows/desktop/api/winbase/nf-winbase-copyfileexa">CopyFileEx</a> function provides two additional 
     capabilities. <b>CopyFileEx</b> can call a specified callback 
     function each time a portion of the copy operation is completed, and 
     <b>CopyFileEx</b> can be canceled during the copy operation.
 
 To perform this operation as a transacted operation, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfiletransacteda">CopyFileTransacted</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-copyfiletransacteda">CopyFileTransacted</a> function.
 
 ## -parameters
 
@@ -81,13 +81,13 @@ The name of an existing file.
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CopyFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CopyFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
 If <i>lpExistingFileName</i> does not exist, 
       <b>CopyFile</b> fails, and 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns 
       <b>ERROR_FILE_NOT_FOUND</b>.
 
 ### -param lpNewFileName [in]
@@ -97,9 +97,9 @@ The name of the new file.
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>.
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CopyFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>CopyFileW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
 
 ### -param bFailIfExists [in]
@@ -114,7 +114,7 @@ If this parameter is <b>TRUE</b> and the new file specified by
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -128,7 +128,7 @@ File attributes for the existing file are copied to the new file. For example, i
     <b>FILE_ATTRIBUTE_READONLY</b> file attribute, a copy created through a call to 
     <b>CopyFile</b> will also have the 
     <b>FILE_ATTRIBUTE_READONLY</b> file attribute. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/retrieving-and-changing-file-attributes">Retrieving and Changing File Attributes</a>.
+    <a href="/windows/desktop/FileIO/retrieving-and-changing-file-attributes">Retrieving and Changing File Attributes</a>.
 
 This function fails with <b>ERROR_ACCESS_DENIED</b> if the destination file already exists 
     and has the <b>FILE_ATTRIBUTE_HIDDEN</b> or <b>FILE_ATTRIBUTE_READONLY</b> 
@@ -210,7 +210,7 @@ Yes
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/retrieving-and-changing-file-attributes">Retrieving and Changing File Attributes</a>.
+     <a href="/windows/desktop/FileIO/retrieving-and-changing-file-attributes">Retrieving and Changing File Attributes</a>.
 
 <div class="code"></div>
 
@@ -222,29 +222,28 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfileexa">CopyFileEx</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-copyfileexa">CopyFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfiletransacteda">CopyFileTransacted</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-copyfiletransacteda">CopyFileTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
+<a href="/windows/desktop/FileIO/file-attribute-constants">File Attribute Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefile">MoveFile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-movefile">MoveFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
-
+<a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>

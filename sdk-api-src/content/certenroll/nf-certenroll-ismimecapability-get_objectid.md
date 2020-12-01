@@ -59,7 +59,7 @@ This property is read-only.
 
 ## -remarks
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ismimecapability-initialize">Initialize</a> method to specify the <b>ObjectId</b> property. The following encryption OIDs are currently supported:
+Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ismimecapability-initialize">Initialize</a> method to specify the <b>ObjectId</b> property. The following encryption OIDs are currently supported:
 
 <ul>
 <li>XCN_OID_NIST_AES128_CBC (2.16.840.1.101.3.4.1.2)</li>
@@ -78,13 +78,12 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ismimecapabilities">ISmimeCapabilities</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ismimecapabilities">ISmimeCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ismimecapability">ISmimeCapability</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ismimecapability">ISmimeCapability</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsmimecapabilities">IX509ExtensionSmimeCapabilities</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsmimecapabilities">IX509ExtensionSmimeCapabilities</a>

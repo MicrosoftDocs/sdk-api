@@ -58,13 +58,13 @@ Translates a received error status code into the appropriate user-readable messa
 
 Type: <b>NTSTATUS</b>
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value that reflects the return value of the <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/winlogon">Winlogon</a> call to <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>.
+The <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value that reflects the return value of the <a href="/windows/desktop/SecAuthN/winlogon">Winlogon</a> call to <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>.
 
 ### -param ntsSubstatus [in]
 
 Type: <b>NTSTATUS</b>
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value that reflects the value pointed to by the <i>SubStatus</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> when that function returns after being called by <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/winlogon">Winlogon</a>.
+The <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value that reflects the value pointed to by the <i>SubStatus</i> parameter of <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> when that function returns after being called by <a href="/windows/desktop/SecAuthN/winlogon">Winlogon</a>.
 
 ### -param ppszOptionalStatusText [out]
 
@@ -89,4 +89,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This method is required for Logon UI.
 
 This method is used to report the outcome of a logon attempt back to a credential. The information in <i>ntsStatus</i> and <i>ntsSubstatus</i> can also be used when credential providers want to generate custom error messages. That status text from this call will be displayed on the selected credential.
-

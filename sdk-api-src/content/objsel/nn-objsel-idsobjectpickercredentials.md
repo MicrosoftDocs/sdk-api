@@ -51,11 +51,11 @@ api_name:
 ## -description
 
 The <b>IDsObjectPickerCredentials</b> interface 
-    allows you to override credentials for the <a href="https://docs.microsoft.com/windows/desktop/api/objsel/nn-objsel-idsobjectpicker">IDsObjectPicker</a> 
+    allows you to override credentials for the <a href="/windows/desktop/api/objsel/nn-objsel-idsobjectpicker">IDsObjectPicker</a> 
     object implementing this interface.
 
 To obtain an instance of this interface, call 
-    <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> with the 
+    <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> with the 
     <b>IID_IDsObjectPickerCredentials</b> interface identifier as shown below.
 
 ## -members
@@ -68,7 +68,7 @@ The <b>IDsObjectPickerCredentials</b> object has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objsel/nf-objsel-idsobjectpickercredentials-setcredentials">SetCredentials</a>
+<a href="/windows/desktop/api/objsel/nf-objsel-idsobjectpickercredentials-setcredentials">SetCredentials</a>
 </td>
 <td align="left" width="63%">
 Sets credentials to be used by the Object Picker.
@@ -76,4 +76,3 @@ Sets credentials to be used by the Object Picker.
 </td>
 </tr>
 </table>Sets credentials to be used by the Object Picker.
-

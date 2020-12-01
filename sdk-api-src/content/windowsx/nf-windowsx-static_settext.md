@@ -56,17 +56,16 @@ Sets the text of a static control.
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param lpsz
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPTSTR</a></b>
 
 A pointer to a null-terminated string to be used as the static control text.
 
 ## -remarks
 
-The macro expands to a call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowtexta">SetWindowText</a>.
-
+The macro expands to a call to <a href="/windows/desktop/api/winuser/nf-winuser-setwindowtexta">SetWindowText</a>.

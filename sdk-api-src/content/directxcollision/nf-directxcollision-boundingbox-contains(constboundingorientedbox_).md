@@ -49,17 +49,17 @@ api_name:
 
 ## -description
 
-Tests whether the [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox) contains the specified <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a>.
+Tests whether the [BoundingBox](./ns-directxcollision-boundingbox.md) contains the specified <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a>.
 
 ## -parameters
 
 ### -param box [in, ref]
 
-The <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> to test against.
+The <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> to test against.
 
 ## -returns
 
-A <a href="https://msdn.microsoft.com/edc456b5-2d68-4d4e-953b-6081ad7f663c">ContainmentType</a> value indicating whether the <a href="https://msdn.microsoft.com/ee1934f3-25ac-4a0e-84b9-6afcbdbef1f3">BoundingOrientedBox</a> is contained in the [BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox).
+A <a href="/windows/win32/api/directxcollision/ne-directxcollision-containmenttype">ContainmentType</a> value indicating whether the <a href="/windows/win32/api/directxcollision/ns-directxcollision-boundingorientedbox">BoundingOrientedBox</a> is contained in the [BoundingBox](./ns-directxcollision-boundingbox.md).
 
 ## -remarks
 
@@ -68,7 +68,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-[BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox)
+[BoundingBox](./ns-directxcollision-boundingbox.md)
 
 
 
@@ -77,4 +77,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

@@ -56,13 +56,13 @@ api_name:
 
 Contains policy-related settings for a remote session.
 
-This structure is mostly a subset of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_settings_1">WRDS_CONNECTION_SETTINGS_1</a> structure. The settings correspond to policy settings that can be found in the group policy editor (Gpedit.exe). The settings in this structure overwrite the initial policy settings.
+This structure is mostly a subset of the <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_settings_1">WRDS_CONNECTION_SETTINGS_1</a> structure. The settings correspond to policy settings that can be found in the group policy editor (Gpedit.exe). The settings in this structure overwrite the initial policy settings.
 
 ## -struct-fields
 
 ### -field WRdsDisableClipStatus
 
-The clipboard redirection state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791794(v=ws.10)">Device and Resource Redirection</a>.
+The clipboard redirection state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791794(v=ws.10)">Device and Resource Redirection</a>.
 
 ### -field WRdsDisableClipValue
 
@@ -70,7 +70,7 @@ The clipboard redirection value. A value of 1 indicates that clipboard functiona
 
 ### -field WRdsDisableLPTStatus
 
-The LPT printer redirection state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791794(v=ws.10)">Device and Resource Redirection</a>.
+The LPT printer redirection state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791794(v=ws.10)">Device and Resource Redirection</a>.
 
 ### -field WRdsDisableLPTValue
 
@@ -78,7 +78,7 @@ The LPT printer redirection value. A value of 1 indicates that LPT printer redir
 
 ### -field WRdsDisableCcmStatus
 
-The COM port mapping state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791794(v=ws.10)">Device and Resource Redirection</a>.
+The COM port mapping state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791794(v=ws.10)">Device and Resource Redirection</a>.
 
 ### -field WRdsDisableCcmValue
 
@@ -86,7 +86,7 @@ The COM port mapping value. A value of 1 indicates that COM port mapping is enab
 
 ### -field WRdsDisableCdmStatus
 
-The drive mapping state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791794(v=ws.10)">Device and Resource Redirection</a>.
+The drive mapping state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791794(v=ws.10)">Device and Resource Redirection</a>.
 
 ### -field WRdsDisableCdmValue
 
@@ -94,7 +94,7 @@ The drive mapping value. A value of 1 indicates that drive mapping is enabled; a
 
 ### -field WRdsDisableCpmStatus
 
-The printer mapping state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791784(v=ws.10)">Printer Redirection</a>.
+The printer mapping state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791784(v=ws.10)">Printer Redirection</a>.
 
 ### -field WRdsDisableCpmValue
 
@@ -102,7 +102,7 @@ The printer mapping value. A value of 1 indicates that printer mapping is enable
 
 ### -field WRdsDisablePnpStatus
 
-The state of the setting that controls Plug and Play (PNP) redirection (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791794(v=ws.10)">Device and Resource Redirection</a>.
+The state of the setting that controls Plug and Play (PNP) redirection (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791794(v=ws.10)">Device and Resource Redirection</a>.
 
 ### -field WRdsDisablePnpValue
 
@@ -110,7 +110,7 @@ The PNP redirection value. A value of 1 indicates that PNP redirection is enable
 
 ### -field WRdsEncryptionLevelStatus
 
-The encryption level state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791904(v=ws.10)">Security</a>.
+The encryption level state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791904(v=ws.10)">Security</a>.
 
 ### -field WRdsEncryptionValue
 
@@ -118,15 +118,15 @@ The encryption level value. This value only takes effect if the <b>WRdsEncryptio
 
 ### -field WRdsColorDepthStatus
 
-The color depth state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791847(v=ws.10)">Remote Session Environment</a>.
+The color depth state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791847(v=ws.10)">Remote Session Environment</a>.
 
 ### -field WRdsColorDepthValue
 
-The color depth value. For possible values, see the <b>ColorDepth</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a> structure. This value only takes effect if the <b>WRdsColorDepthStatus</b> member is set to enabled.
+The color depth value. For possible values, see the <b>ColorDepth</b> member of the <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a> structure. This value only takes effect if the <b>WRdsColorDepthStatus</b> member is set to enabled.
 
 ### -field WRdsDisableAutoReconnecetStatus
 
-The automatic client reconnection state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791922(v=ws.10)">Connections</a>.
+The automatic client reconnection state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791922(v=ws.10)">Connections</a>.
 
 ### -field WRdsDisableAutoReconnecetValue
 
@@ -134,7 +134,7 @@ The automatic client reconnection value. A value of 1 indicates that automatic c
 
 ### -field WRdsDisableEncryptionStatus
 
-The state (not applicable, disabled, enabled, or not configured) of the setting that controls whether to disable encryption for communication between the client and the server. For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791904(v=ws.10)">Security</a>.
+The state (not applicable, disabled, enabled, or not configured) of the setting that controls whether to disable encryption for communication between the client and the server. For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791904(v=ws.10)">Security</a>.
 
 ### -field WRdsDisableEncryptionValue
 
@@ -142,7 +142,7 @@ The encryption disabling value. A value of 1 indicates that encryption is disabl
 
 ### -field WRdsResetBrokenStatus
 
-The state (not applicable, disabled, enabled, or not configured) of the setting that controls how the server reacts when the connection or idle timers expire, or when a connection is lost due to a connection error. For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791741(v=ws.10)">Session Time Limits</a>.
+The state (not applicable, disabled, enabled, or not configured) of the setting that controls how the server reacts when the connection or idle timers expire, or when a connection is lost due to a connection error. For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791741(v=ws.10)">Session Time Limits</a>.
 
 ### -field WRdsResetBrokenValue
 
@@ -150,7 +150,7 @@ The value of the setting that controls the server reaction.  A value of 1 indica
 
 ### -field WRdsMaxIdleTimeStatus
 
-The maximum idle time state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791741(v=ws.10)">Session Time Limits</a>.
+The maximum idle time state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791741(v=ws.10)">Session Time Limits</a>.
 
 ### -field WRdsMaxIdleTimeValue
 
@@ -158,7 +158,7 @@ The maximum amount of time, in minutes, that the Remote Desktop Services session
 
 ### -field WRdsMaxDisconnectTimeStatus
 
-The maximum disconnection time state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791741(v=ws.10)">Session Time Limits</a>.
+The maximum disconnection time state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791741(v=ws.10)">Session Time Limits</a>.
 
 ### -field WRdsMaxDisconnectTimeValue
 
@@ -168,7 +168,7 @@ This value only takes effect if the <b>WRdsMaxDisconnectTimeStatus</b> member is
 
 ### -field WRdsMaxConnectTimeStatus
 
-The maximum connection time state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791741(v=ws.10)">Session Time Limits</a>.
+The maximum connection time state (not applicable, disabled, enabled, or not configured). For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791741(v=ws.10)">Session Time Limits</a>.
 
 ### -field WRdsMaxConnectTimeValue
 
@@ -176,7 +176,7 @@ The maximum duration of the Remote Desktop Services session, in minutes. This va
 
 ### -field WRdsKeepAliveStatus
 
-The state (not applicable, disabled, enabled, or not configured) of the <i>keep alive</i> setting.  The keep alive setting controls whether to check to keep a Remote Desktop Services session active. For more information, see the group policy node topic for <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791922(v=ws.10)">Connections</a>.
+The state (not applicable, disabled, enabled, or not configured) of the <i>keep alive</i> setting.  The keep alive setting controls whether to check to keep a Remote Desktop Services session active. For more information, see the group policy node topic for <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791922(v=ws.10)">Connections</a>.
 
 ### -field WRdsKeepAliveStartValue
 
@@ -200,5 +200,4 @@ The amount of time, in minutes, of idle time before the state of the Remote Desk
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791760(v=ws.10)">Remote Desktop Session Host</a>
-
+<a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791760(v=ws.10)">Remote Desktop Session Host</a>

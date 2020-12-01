@@ -56,7 +56,7 @@ The <b>ADsPropSetHwnd</b> function is used to notify the notification object of 
 
 ### -param hNotifyObj [in]
 
-The handle of the notification object. To obtain this handle, call <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropcreatenotifyobj">ADsPropCreateNotifyObj</a>.
+The handle of the notification object. To obtain this handle, call <a href="/windows/desktop/api/adsprop/nf-adsprop-adspropcreatenotifyobj">ADsPropCreateNotifyObj</a>.
 
 ### -param hPage [in]
 
@@ -68,23 +68,22 @@ Returns zero if the notification object does not exist or nonzero otherwise.
 
 ## -remarks
 
-An Active Directory Domain Services property sheet extension normally calls this function while processing the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message.
+An Active Directory Domain Services property sheet extension normally calls this function while processing the <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message.
 
-If the property sheet extension uses the <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropshowerrordialog">ADsPropShowErrorDialog</a> function, the extension should use <a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropsethwndwithtitle">ADsPropSetHwndWithTitle</a> rather than <b>ADsPropSetHwnd</b>.
+If the property sheet extension uses the <a href="/windows/desktop/api/adsprop/nf-adsprop-adspropshowerrordialog">ADsPropShowErrorDialog</a> function, the extension should use <a href="/windows/desktop/api/adsprop/nf-adsprop-adspropsethwndwithtitle">ADsPropSetHwndWithTitle</a> rather than <b>ADsPropSetHwnd</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropcreatenotifyobj">ADsPropCreateNotifyObj</a>
+<a href="/windows/desktop/api/adsprop/nf-adsprop-adspropcreatenotifyobj">ADsPropCreateNotifyObj</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropsethwndwithtitle">ADsPropSetHwndWithTitle</a>
+<a href="/windows/desktop/api/adsprop/nf-adsprop-adspropsethwndwithtitle">ADsPropSetHwndWithTitle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adsprop/nf-adsprop-adspropshowerrordialog">ADsPropShowErrorDialog</a>
+<a href="/windows/desktop/api/adsprop/nf-adsprop-adspropshowerrordialog">ADsPropShowErrorDialog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>
-
+<a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>

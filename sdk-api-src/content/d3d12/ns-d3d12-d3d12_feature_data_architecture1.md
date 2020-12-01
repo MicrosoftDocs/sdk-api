@@ -78,7 +78,7 @@ Specifies whether the hardware and driver support cache-coherent UMA.
 
 ### -field IsolatedMMU
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
 
 Specifies whether the hardware and driver support isolated Memory Management Unit (MMU).
             The runtime sets this member to <b>TRUE</b> if the GPU honors CPU page table properties like <b>MEM_WRITE_WATCH</b> (for more information, see <a href="/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>) and <b>PAGE_READONLY</b> (for more information, see <a href="/windows/win32/Memory/memory-protection-constants">Memory Protection Constants</a>).
@@ -142,4 +142,3 @@ The low-level details should be ignored by a vast majority of single-adapter app
 
 
 <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>
-

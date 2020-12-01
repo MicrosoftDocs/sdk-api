@@ -68,16 +68,15 @@ A pointer to <b>BSTR</b> variable to receive the request ID string.
 
 Upon successful completion of this function, the string pointed to by the <i>pstrRequestId</i> parameter is set to the request ID string.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value specifies the current internal request number, as a string, for the request and subsequent certificate.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
-
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>

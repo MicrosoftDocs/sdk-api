@@ -58,14 +58,14 @@ Contains information about the punctuation used in a rich edit control.
 
 ### -field iSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of buffer pointed to by the 
 					<b>szPunctuation</b> member, in bytes.
 
 ### -field szPunctuation
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPSTR</a></b>
 
 The buffer containing the punctuation characters.
 
@@ -84,4 +84,3 @@ This structure is used only in Asian-language versions of the operating system.
 
 
 <b>Reference</b>
-

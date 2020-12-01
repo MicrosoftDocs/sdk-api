@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a> interface by exposing a method to mark a window as a full-screen display.
+Extends the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a> interface by exposing a method to mark a window as a full-screen display.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskbarList2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>. <b>ITaskbarList2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskbarList2</b> interface inherits from <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a>. <b>ITaskbarList2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITaskbarList2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist2-markfullscreenwindow">MarkFullscreenWindow</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist2-markfullscreenwindow">MarkFullscreenWindow</a>
 </td>
 <td align="left" width="63%">
 Marks a window as full-screen.
@@ -80,7 +80,6 @@ Marks a window as full-screen.
 
 ## -remarks
 
-This interface also provides the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a> interface, from which it inherits.
 
-The Shell also automatically attempts to detect full-screen applications, but it is not as reliable as using the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist2-markfullscreenwindow">ITaskbarList2::MarkFullscreenWindow</a> method.
-
+The Shell also automatically attempts to detect full-screen applications, but it is not as reliable as using the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist2-markfullscreenwindow">ITaskbarList2::MarkFullscreenWindow</a> method.

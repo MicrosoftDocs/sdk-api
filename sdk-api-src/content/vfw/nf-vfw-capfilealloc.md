@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capFileAlloc</b> macro creates (preallocates) a capture file of a specified size. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-file-allocate">WM_CAP_FILE_ALLOCATE</a> message.
+The <b>capFileAlloc</b> macro creates (preallocates) a capture file of a specified size. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/wm-cap-file-allocate">WM_CAP_FILE_ALLOCATE</a> message.
 
 ## -parameters
 
@@ -68,9 +68,8 @@ You can improve streaming capture performance significantly by preallocating a c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

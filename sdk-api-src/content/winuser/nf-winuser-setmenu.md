@@ -43,6 +43,7 @@ api_location:
  - User32.dll
 api_name:
  - SetMenu
+req.apiset: ext-ms-win-ntuser-menu-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetMenu function
@@ -72,13 +73,13 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The window is redrawn to reflect the menu change. A menu can be assigned to any window that is not a child window.
 
-The <b>SetMenu</b> function replaces the previous menu, if any, but it does not destroy it. An application should call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a> function to accomplish this task.
+The <b>SetMenu</b> function replaces the previous menu, if any, but it does not destroy it. An application should call the <a href="/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a> function to accomplish this task.
 
 ## -see-also
 
@@ -86,17 +87,16 @@ The <b>SetMenu</b> function replaces the previous menu, if any, but it does not 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenu">GetMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenu">GetMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
 <b>Reference</b>
-

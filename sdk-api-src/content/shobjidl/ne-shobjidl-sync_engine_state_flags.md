@@ -54,7 +54,7 @@ Specifies values used by any sync engine to expose their internal engine states 
 
             
 
-To update the property, first call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a> with the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GPS_EXTRINSICPROPERTIES</a> flag. Next, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb761475(v=vs.85)">IPropertyStore::SetValue</a> method of the returned object, specifying the PKEY_StorageProviderStatus key, to set the property's bitmask value using these SYNC_ENGINE_STATE_FLAGS.
+To update the property, first call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystore">IShellItem2::GetPropertyStore</a> with the <a href="/windows/desktop/api/propsys/ne-propsys-getpropertystoreflags">GPS_EXTRINSICPROPERTIES</a> flag. Next, call the <a href="/previous-versions/windows/desktop/legacy/bb761475(v=vs.85)">IPropertyStore::SetValue</a> method of the returned object, specifying the PKEY_StorageProviderStatus key, to set the property's bitmask value using these SYNC_ENGINE_STATE_FLAGS.
 
 ## -enum-fields
 
@@ -99,4 +99,3 @@ The service can't be reached at this time.
 ### -field SESF_ALL_FLAGS
 
 A bitmask value for all valid SYNC_ENGINE_STATE_FLAGS flags.
-

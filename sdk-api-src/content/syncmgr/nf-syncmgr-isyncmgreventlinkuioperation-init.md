@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Enables Sync Center to provide the event to link to so <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgruioperation-run">ISyncMgrUIOperation::Run</a>  knows which event to operate upon.
+Enables Sync Center to provide the event to link to so <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgruioperation-run">ISyncMgrUIOperation::Run</a>  knows which event to operate upon.
 
 ## -parameters
 
@@ -58,13 +58,13 @@ Enables Sync Center to provide the event to link to so <a href="https://docs.mic
 
 Type: <b>REFGUID</b>
 
-A reference to the event ID that is being stored. This parameter is the same as what is returned from the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-geteventid">GetEventID</a> method of the <i>pEvent</i> parameter.
+A reference to the event ID that is being stored. This parameter is the same as what is returned from the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrevent-geteventid">GetEventID</a> method of the <i>pEvent</i> parameter.
 
 ### -param pEvent [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrevent">ISyncMgrEvent</a>*</b>
+Type: <b><a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrevent">ISyncMgrEvent</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrevent">ISyncMgrEvent</a> object for <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgruioperation-run">Run</a> to use. This is the event object that owns the link.
+A pointer to the <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrevent">ISyncMgrEvent</a> object for <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgruioperation-run">Run</a> to use. This is the event object that owns the link.
 
 ## -returns
 
@@ -74,11 +74,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The event ID is the ID that the handler is given when <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportevent">ReportEvent</a> is called, or is the ID provided by the handler when the event is obtained from the custom event store.
+The event ID is the ID that the handler is given when <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportevent">ReportEvent</a> is called, or is the ID provided by the handler when the event is obtained from the custom event store.
 
-If you call <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportevent">ReportEvent</a>, your events will be stored only until the user logs off or until the handler is synchronized again.
+If you call <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportevent">ReportEvent</a>, your events will be stored only until the user logs off or until the handler is synchronized again.
 
-The interface that is used to implement custom event stores is <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgreventstore">ISyncMgrEventStore</a>.
+The interface that is used to implement custom event stores is <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgreventstore">ISyncMgrEventStore</a>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrevent">ISyncMgrEvent</a> provided in the <i>pEvent</i> parameter is not the same object that came from a custom event store.
-
+The <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrevent">ISyncMgrEvent</a> provided in the <i>pEvent</i> parameter is not the same object that came from a custom event store.

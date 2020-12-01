@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IWiaDevMgr::GetImageDlg</b> method displays one or more dialog boxes that enable a user to acquire an image from a Windows Image Acquisition (WIA) device and write the image to a specified file. This method combines the functionality of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-selectdevicedlg">IWiaDevMgr::SelectDeviceDlg</a> to completely encapsulate image acquisition within a single API call.
+The <b>IWiaDevMgr::GetImageDlg</b> method displays one or more dialog boxes that enable a user to acquire an image from a Windows Image Acquisition (WIA) device and write the image to a specified file. This method combines the functionality of <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-selectdevicedlg">IWiaDevMgr::SelectDeviceDlg</a> to completely encapsulate image acquisition within a single API call.
 
 ## -parameters
 
@@ -101,13 +101,13 @@ Specifies dialog box behavior. Can be set to the following values:
 
 Type: <b>LONG</b>
 
-Specifies what type of data the image is intended to represent. For a list of image intent values, see <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-imageintentconstants">Image Intent Constants</a>.
+Specifies what type of data the image is intended to represent. For a list of image intent values, see <a href="/windows/desktop/wia/-wia-imageintentconstants">Image Intent Constants</a>.
 
 ### -param pItemRoot [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a>*</b>
 
-Pointer to the interface of the hierarchical tree of <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects returned by <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-createdevice">IWiaDevMgr::CreateDevice</a>.
+Pointer to the interface of the hierarchical tree of <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> objects returned by <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-createdevice">IWiaDevMgr::CreateDevice</a>.
 
 ### -param bstrFilename [in]
 
@@ -127,11 +127,11 @@ Type: <b>HRESULT</b>
 
 <b>IWiaDevMgr::GetImageDlg</b> returns S_FALSE if the user cancels the device selection or image acquisition dialog boxes, WIA_S_NO_DEVICE_AVAILABLE if no WIA device is currently available, E_NOTIMPL if no UI is available, and S_OK if the data is transferred successfully.
 
-<b>IWiaDevMgr::GetImageDlg</b> returns a value specified in <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-error-codes">Error Codes</a>, or a standard COM error if it fails for any reason other than those specified.
+<b>IWiaDevMgr::GetImageDlg</b> returns a value specified in <a href="/windows/desktop/wia/-wia-error-codes">Error Codes</a>, or a standard COM error if it fails for any reason other than those specified.
 
 ## -remarks
 
-Invoking this method displays a dialog box that enables users to acquire images. It can also display the <b>Select Device</b> dialog box created by the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-selectdevicedlg">IWiaDevMgr::SelectDeviceDlg</a> method. 
+Invoking this method displays a dialog box that enables users to acquire images. It can also display the <b>Select Device</b> dialog box created by the <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-selectdevicedlg">IWiaDevMgr::SelectDeviceDlg</a> method. 
 
 If the application passes <b>NULL</b> for the value of the <i>pItemRoot</i> parameter, <b>IWiaDevMgr::GetImageDlg</b> displays the <b>Select Device</b> dialog box that lets the user select the WIA input device. If the application specifies a WIA input device by passing a pointer to the device's item tree through the <i>pItemRoot</i> parameter, <b>IWiaDevMgr::GetImageDlg</b> does not display the <b>Select Device</b> dialog box. Instead, it will use the specified input device to acquire the image.
 
@@ -142,4 +142,3 @@ If <b>IWiaDevMgr::GetImageDlg</b> finds only one matching device, it will not di
 It is recommended that applications make device and image selection available through a menu item named <b>From scanner or camera</b> on the <b>File</b> menu.
 
 The dialog must have sufficient rights to the folder for <i>bstrFilename</i> that it can save the file with a unique file name. The folder should also be protected with an access control list (ACL) because it contains user data.
-

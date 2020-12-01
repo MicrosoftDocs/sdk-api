@@ -58,13 +58,13 @@ Requests that the specified transaction be committed.
 
 A handle to the transaction to be committed. 
 
-This handle must have been opened with the TRANSACTION_COMMIT access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Ktm/ktm-security-and-access-rights">KTM Security and Access Rights</a>.
+This handle must have been opened with the TRANSACTION_COMMIT access right. For more information, see <a href="/windows/desktop/Ktm/ktm-security-and-access-rights">KTM Security and Access Rights</a>.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is 0 (zero). To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is 0 (zero). To get extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 The following list identifies the possible error codes:
 
@@ -76,17 +76,16 @@ This function can only be called if the transaction is still active, not prepare
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-createtransaction">CreateTransaction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
+<a href="/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-opentransaction">OpenTransaction</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-opentransaction">OpenTransaction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-rollbacktransaction">RollbackTransaction</a>
-
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-rollbacktransaction">RollbackTransaction</a>

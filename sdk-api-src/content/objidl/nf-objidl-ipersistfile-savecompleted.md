@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Notifies the object that it can write to its file. It does this by notifying the object that it can revert from NoScribble mode (in which it must not write to its file), to Normal mode (in which it can). The component enters NoScribble mode when it receives an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> call.
+Notifies the object that it can write to its file. It does this by notifying the object that it can revert from NoScribble mode (in which it must not write to its file), to Normal mode (in which it can). The component enters NoScribble mode when it receives an <a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> call.
 
 ## -parameters
 
@@ -64,12 +64,11 @@ This method always returns S_OK.
 
 ## -remarks
 
-<b>SaveCompleted</b> is called when a call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> is completed, and the file that was saved is now the current working file (having been saved with <b>Save</b> or <b>Save As</b> operations). The call to <b>Save</b> puts the object into NoScribble mode so it cannot write to its file. When <b>SaveCompleted</b> is called, the object reverts to Normal mode, in which it is free to write to its file.
+<b>SaveCompleted</b> is called when a call to <a href="/windows/desktop/api/objidl/nf-objidl-ipersistfile-save">IPersistFile::Save</a> is completed, and the file that was saved is now the current working file (having been saved with <b>Save</b> or <b>Save As</b> operations). The call to <b>Save</b> puts the object into NoScribble mode so it cannot write to its file. When <b>SaveCompleted</b> is called, the object reverts to Normal mode, in which it is free to write to its file.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 OLE does not call the <b>SaveCompleted</b> method. Typically, applications would not call it unless they are saving objects directly to files, an operation which is generally left to the end-user.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>

@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Sets the text that is displayed as the textual cue, or tip, for an edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setcuebanner">EM_SETCUEBANNER</a> message explicitly.
+Sets the text that is displayed as the textual cue, or tip, for an edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-setcuebanner">EM_SETCUEBANNER</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the edit control.
 
 ### -param lpcwText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 A pointer to a Unicode string that contains the text to set as the textual cue.
 
@@ -72,7 +72,7 @@ An edit control that is used to begin a search may display "Enter search here" i
 
 You cannot set a cue banner on a multiline edit control.
 
-<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
+<div class="alert"><b>Note</b>  To use this macro, you must provide a manifest specifying Comclt32.dll version 6.0. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
 
 ## -see-also
@@ -81,13 +81,12 @@ You cannot set a cue banner on a multiline edit control.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/em-setcuebanner">EM_SETCUEBANNER</a>
+<a href="/windows/desktop/Controls/em-setcuebanner">EM_SETCUEBANNER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/edit-controls">Edit Controls</a>
+<a href="/windows/desktop/Controls/edit-controls">Edit Controls</a>
 
 
 
 <b>Reference</b>
-

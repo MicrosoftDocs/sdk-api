@@ -52,13 +52,13 @@ api_name:
 
 Use this interface to retrieve information about the current state of media allowing random writes and not supporting the concept of physical sessions.
 
-The following methods return a collection of <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interfaces representing all supported multisession types. 
+The following methods return a collection of <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a> interfaces representing all supported multisession types. 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_multisessioninterfaces">IDiscFormat2Data::get_MultisessionInterfaces</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_multisessioninterfaces">IDiscFormat2Data::get_MultisessionInterfaces</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_multisessioninterfaces">IFileSystemImage::get_MultisessionInterfaces</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_multisessioninterfaces">IFileSystemImage::get_MultisessionInterfaces</a>
 </li>
 </ul>
 
@@ -67,7 +67,7 @@ You can then call the IUnknown::QueryInterface method on each element in the col
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisessionRandomWrite</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>. <b>IMultisessionRandomWrite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultisessionRandomWrite</b> interface inherits from <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>. <b>IMultisessionRandomWrite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>IMultisessionRandomWrite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_lastwrittenaddress">get_LastWrittenAddress</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_lastwrittenaddress">get_LastWrittenAddress</a>
 </td>
 <td align="left" width="63%">
 Retrieves the last written address on the media.
@@ -91,7 +91,7 @@ Retrieves the last written address on the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_totalsectorsonmedia">get_TotalSectorsOnMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_totalsectorsonmedia">get_TotalSectorsOnMedia</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of sectors on the media.
@@ -100,7 +100,7 @@ Retrieves the total number of sectors on the media.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_writeunitsize">get_WriteUnitSize</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-imultisessionrandomwrite-get_writeunitsize">get_WriteUnitSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of a writeable unit on the media.
@@ -111,20 +111,19 @@ Retrieves the size of a writeable unit on the media.
 
 ## -remarks
 
-If more than one multi-session interface exist, the application can let <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> choose a compatible multi-session interface to use or the application can specify the multi-session interface to use by setting the <i>put_InUse</i> property to <b>VARIANT_TRUE</b>.
+If more than one multi-session interface exist, the application can let <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a> choose a compatible multi-session interface to use or the application can specify the multi-session interface to use by setting the <i>put_InUse</i> property to <b>VARIANT_TRUE</b>.
 
-A file system creator would use the address properties to import the content of the previous session on the disc and to compute the position of the next session it will create. These properties will return the same values as the properties of the same name of the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a> interface.
+A file system creator would use the address properties to import the content of the previous session on the disc and to compute the position of the next session it will create. These properties will return the same values as the properties of the same name of the <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a> interface.
 This is a <b>MsftMultisessionRandomWrite</b> object in script.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_multisessioninterfaces">IDiscFormat2Data::get_MultisessionInterfaces</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_multisessioninterfaces">IDiscFormat2Data::get_MultisessionInterfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_multisessioninterfaces">IFileSystemImage::get_MultisessionInterfaces</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_multisessioninterfaces">IFileSystemImage::get_MultisessionInterfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>

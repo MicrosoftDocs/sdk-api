@@ -45,9 +45,6 @@ api_name:
  - FEATURE_ERROR
 ---
 
-# FEATURE_ERROR structure
-
-
 ## -description
 
 This structure is intended for infrastructure use only. Do not use this structure.
@@ -71,6 +68,8 @@ Infrastructure use only.
 Infrastructure use only.
 
 ### -field module
+
+Infrastructure use only.
 
 ### -field callerReturnAddressOffset
 
@@ -107,9 +106,3 @@ Infrastructure use only.
 ### -field originName
 
 Infrastructure use only.
-
-
-#### - modulePath
-
-Infrastructure use only.
-

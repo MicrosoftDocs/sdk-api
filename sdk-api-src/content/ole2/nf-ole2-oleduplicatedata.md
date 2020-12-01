@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Duplicates the data found in the specified handle and returns a handle to the duplicated data. The source data is in a clipboard format. Use this function to help implement some of the data transfer interfaces such as <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>.
+Duplicates the data found in the specified handle and returns a handle to the duplicated data. The source data is in a clipboard format. Use this function to help implement some of the data transfer interfaces such as <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>.
 
 ## -parameters
 
@@ -73,4 +73,3 @@ On success the HANDLE to the source data is returned; on failure a  <b>NULL</b> 
 ## -remarks
 
 The CF_METAFILEPICT, CF_PALETTE, or CF_BITMAP formats receive special handling. They are GDI handles and a new GDI object must be created instead of just copying the bytes. All other formats are duplicated byte-wise.
-

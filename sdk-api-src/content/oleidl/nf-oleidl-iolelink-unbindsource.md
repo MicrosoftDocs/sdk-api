@@ -60,32 +60,31 @@ This method returns S_OK on success.
 
 ## -remarks
 
-You typically do not call <b>UnbindSource</b> directly. When it's necessary to deactivate the connection to the link source, your container typically calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a> or <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>; the linked object's implementation of these methods calls <b>UnbindSource</b>. The linked object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">IAdviseSink::OnClose</a> implementation also calls <b>UnbindSource</b>.
+You typically do not call <b>UnbindSource</b> directly. When it's necessary to deactivate the connection to the link source, your container typically calls <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a> or <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a>; the linked object's implementation of these methods calls <b>UnbindSource</b>. The linked object's <a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">IAdviseSink::OnClose</a> implementation also calls <b>UnbindSource</b>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-The linked object's implementation of <b>UnbindSource</b> does nothing if the link source is not currently bound. If the link source is bound, <b>UnbindSource</b> calls the link source's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-unadvise">IOleObject::Unadvise</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dunadvise">IDataObject::DUnadvise</a> implementations to delete the advisory connections to the link source. The <b>UnbindSource</b> method also calls the compound document's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecontainer-lockcontainer">IOleContainer::LockContainer</a> implementation to unlock the containing compound document. This undoes the lock on the container and the advisory connections that were established in <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindtosource">IOleLink::BindToSource</a>. <b>UnbindSource</b> releases all the linked object's interface pointers to the link source.
+The linked object's implementation of <b>UnbindSource</b> does nothing if the link source is not currently bound. If the link source is bound, <b>UnbindSource</b> calls the link source's <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-unadvise">IOleObject::Unadvise</a> and <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dunadvise">IDataObject::DUnadvise</a> implementations to delete the advisory connections to the link source. The <b>UnbindSource</b> method also calls the compound document's <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecontainer-lockcontainer">IOleContainer::LockContainer</a> implementation to unlock the containing compound document. This undoes the lock on the container and the advisory connections that were established in <a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindtosource">IOleLink::BindToSource</a>. <b>UnbindSource</b> releases all the linked object's interface pointers to the link source.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">IAdviseSink::OnClose</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onclose">IAdviseSink::OnClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dunadvise">IDataObject::DUnadvise</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dunadvise">IDataObject::DUnadvise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindtosource">IOleLink::BindToSource</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindtosource">IOleLink::BindToSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-unadvise">IOleObject::Unadvise</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-unadvise">IOleObject::Unadvise</a>

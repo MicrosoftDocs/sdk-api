@@ -85,7 +85,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -93,7 +93,6 @@ The optional output buffer returned through the *lpOutBuffer* parameter can be o
 
 ## -see-also
 
-* [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
+* [Disk Management Control Codes](/windows/desktop/FileIO/disk-management-control-codes)
 * [STORAGE_DESCRIPTOR_HEADER](ns-winioctl-storage_descriptor_header.md)
 * [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md)
-

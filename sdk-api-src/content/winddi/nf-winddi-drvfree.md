@@ -64,19 +64,18 @@ Pointer to the identifier that was returned with the structure.
 
 ## -remarks
 
-<b>DrvFree</b> is an optional function that should be supported only if the driver must be informed when memory associated with structures can be freed. For example, if a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure is in use, deletion can be deferred until <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdestroyfont">DrvDestroyFont</a> has been called, eliminating the need for the driver to implement <b>DrvFree</b>.
+<b>DrvFree</b> is an optional function that should be supported only if the driver must be informed when memory associated with structures can be freed. For example, if a <a href="/windows/desktop/api/winddi/ns-winddi-fontobj">FONTOBJ</a> structure is in use, deletion can be deferred until <a href="/windows/desktop/api/winddi/nf-winddi-drvdestroyfont">DrvDestroyFont</a> has been called, eliminating the need for the driver to implement <b>DrvFree</b>.
 
 A driver can use <i>id</i> in different ways. It can specify an object handle or it can indicate the way the structure is allocated. For example, it can differentiate between loaded resources and memory allocated from a heap. The driver can ignore this parameter if the structure pointed to by <i>pv</i> contains enough information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvdestroyfont">DrvDestroyFont</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvdestroyfont">DrvDestroyFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfont">DrvQueryFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryfonttree">DrvQueryFontTree</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfonttree">DrvQueryFontTree</a>

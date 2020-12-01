@@ -56,11 +56,11 @@ Creates an asynchronous result object. Use this function if you are implementing
 
 ### -param punkObject
 
-Pointer to the object stored in the asynchronous result. This pointer is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getobject">IMFAsyncResult::GetObject</a> method. This parameter can be <b>NULL</b>.
+Pointer to the object stored in the asynchronous result. This pointer is returned by the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasyncresult-getobject">IMFAsyncResult::GetObject</a> method. This parameter can be <b>NULL</b>.
 
 ### -param pCallback
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface. This interface is implemented by the caller of the asynchronous method.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallback">IMFAsyncCallback</a> interface. This interface is implemented by the caller of the asynchronous method.
 
 ### -param punkState
 
@@ -68,7 +68,7 @@ Pointer to the <b>IUnknown</b> interface of a state object. This value is provid
 
 ### -param ppAsyncResult
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -94,13 +94,12 @@ The function succeeded.
 
 ## -remarks
 
-To invoke the callback specified in <i>pCallback</i>, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfinvokecallback">MFInvokeCallback</a> function.
+To invoke the callback specified in <i>pCallback</i>, call the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfinvokecallback">MFInvokeCallback</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
+<a href="/windows/desktop/medfound/asynchronous-callback-methods">Asynchronous Callback Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

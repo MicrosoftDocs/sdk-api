@@ -88,13 +88,12 @@ You can retrieve an <b>IWMPMedia</b> interface for a given media object by invok
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_currentplaylist">IWMPCore::get_currentPlaylist</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_currentplaylist">IWMPCore::get_currentPlaylist</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>

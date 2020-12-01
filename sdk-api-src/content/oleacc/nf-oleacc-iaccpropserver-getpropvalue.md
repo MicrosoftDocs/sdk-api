@@ -62,7 +62,7 @@ Contains a string that identifies the property  being requested.
 
 ### -param dwIDStringLen [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of the identity string specified by the <i>pIDString</i> parameter.
 
@@ -80,13 +80,13 @@ Specifies the value of the overridden property. This parameter is valid only if 
 
 ### -param pfHasProp [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
 Indicates whether the server is supplying a value for the requested property. The server should set this to <b>TRUE</b> if it is returning an overriding property or to <b>FALSE</b> if it is not returning a property (in which case it should also set <i>pvarValue</i> to VT_EMPTY).
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Return S_OK, except under exceptional error conditions such as low memory. If the specified property is not overridden, then <i>pfHasProp</i> should be set to <b>FALSE</b> and <i>pvarValue</i> should be set to VT_EMPTY by the server.
 
@@ -94,7 +94,6 @@ Return S_OK, except under exceptional error conditions such as low memory. If th
 
 If a single callback object is registered for annotating multiple accessible elements, the identity string can be used to determine which element this request refers to.
 
-If the accessible element is <b>HWND</b>-based, <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-decomposehwndidentitystring">IAccPropServices::DecomposeHwndIdentityString</a> can be used to extract the HWND/idObject/idChild from the identity string.
+If the accessible element is <b>HWND</b>-based, <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-decomposehwndidentitystring">IAccPropServices::DecomposeHwndIdentityString</a> can be used to extract the HWND/idObject/idChild from the identity string.
 
-If the callback has a value to return for the specified property, it should return it in <i>pvarValue</i> and set <i>pfHasProp</i> to <b>TRUE</b>. Otherwise it should set <i>pvarValue</i> to VT_EMPTY and set <i>pfHasProp</i> to <b>FALSE</b>. In this latter case, the original <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer will be used to obtain a value for this property.
-
+If the callback has a value to return for the specified property, it should return it in <i>pvarValue</i> and set <i>pfHasProp</i> to <b>TRUE</b>. Otherwise it should set <i>pvarValue</i> to VT_EMPTY and set <i>pfHasProp</i> to <b>FALSE</b>. In this latter case, the original <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a> interface pointer will be used to obtain a value for this property.

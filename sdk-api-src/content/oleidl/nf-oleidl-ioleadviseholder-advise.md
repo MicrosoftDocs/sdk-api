@@ -56,11 +56,11 @@ Establishes an advisory connection between an OLE object and the calling object'
 
 ### -param pAdvise [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface on the advisory sink that should be informed of changes.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface on the advisory sink that should be informed of changes.
 
 ### -param pdwConnection [out]
 
-A pointer to a token that can be passed to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-unadvise">IOleAdviseHolder::Unadvise</a> method to delete the advisory connection. The calling object is responsible for calling both <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> and <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on this pointer.
+A pointer to a token that can be passed to the <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-unadvise">IOleAdviseHolder::Unadvise</a> method to delete the advisory connection. The calling object is responsible for calling both <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">IUnknown::AddRef</a> and <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on this pointer.
 
 ## -returns
 
@@ -78,7 +78,7 @@ This method returns S_OK on success. Other possible return values include the fo
 </dl>
 </td>
 <td width="60%">
-The supplied <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface pointer is invalid.
+The supplied <a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a> interface pointer is invalid.
 
 </td>
 </tr>
@@ -86,25 +86,24 @@ The supplied <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-o
 
 ## -remarks
 
-Containers, object handlers, and link objects all create advise sinks to receive notification of changes in compound-document objects of interest, such as embedded or linked objects. OLE objects of interest to these objects must implement the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface, which includes several advisory methods, including <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a>. A call to this method must set up an advisory connection with any advise sink that calls it, and maintain each connection until it is closed. It must be able to handle more than one advisory connection at a time.
+Containers, object handlers, and link objects all create advise sinks to receive notification of changes in compound-document objects of interest, such as embedded or linked objects. OLE objects of interest to these objects must implement the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> interface, which includes several advisory methods, including <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a>. A call to this method must set up an advisory connection with any advise sink that calls it, and maintain each connection until it is closed. It must be able to handle more than one advisory connection at a time.
 
-<b>IOleAdviseHolder::Advise</b> is intended to be used to simplify the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a>. You can get a pointer to the OLE implementation of IOleAdviseHolder by calling <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-createoleadviseholder">CreateOleAdviseHolder</a>, and then, to implement <b>IOleObject::Advise</b>, just delegate the call to <b>IOleAdviseHolder::Advise</b>. Other <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a> methods are intended to implement other <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> advisory methods.
+<b>IOleAdviseHolder::Advise</b> is intended to be used to simplify the implementation of <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a>. You can get a pointer to the OLE implementation of IOleAdviseHolder by calling <a href="/windows/desktop/api/ole2/nf-ole2-createoleadviseholder">CreateOleAdviseHolder</a>, and then, to implement <b>IOleObject::Advise</b>, just delegate the call to <b>IOleAdviseHolder::Advise</b>. Other <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a> methods are intended to implement other <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> advisory methods.
 
 If the attempt to establish an advisory connection is successful, the object receiving the call returns a nonzero value through <i>pdwConnection</i>. If the attempt fails, the object returns a zero. To delete an advisory connection, the object with the advise sink passes this nonzero token back to the object by calling <b>IOleAdviseHolder::Advise</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-enumadvise">IOleAdviseHolder::EnumAdvise</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-enumadvise">IOleAdviseHolder::EnumAdvise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-unadvise">IOleAdviseHolder::Unadvise</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleadviseholder-unadvise">IOleAdviseHolder::Unadvise</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a>

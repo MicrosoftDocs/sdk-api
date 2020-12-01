@@ -61,7 +61,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-[BoundingBox](/windows/win32/api/directxcollision/ns-directxcollision-boundingbox)
+[BoundingBox](./ns-directxcollision-boundingbox.md)
 
 
 
@@ -70,4 +70,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

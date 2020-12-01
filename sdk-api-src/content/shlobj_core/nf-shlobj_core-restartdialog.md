@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - RestartDialog
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # RestartDialog function
@@ -54,7 +55,7 @@ api_name:
 
 <p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.]
 
-Displays a dialog box that prompts the user to restart Windows. When the user clicks the button, the function calls <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> to attempt to restart Windows.
+Displays a dialog box that prompts the user to restart Windows. When the user clicks the button, the function calls <a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a> to attempt to restart Windows.
 
 ## -parameters
 
@@ -91,19 +92,19 @@ Shuts down all processes running in the security context of the process that cal
 
 #### EWX_POWEROFF
 
-Shuts down the system and turns off the power. The system must support the power-off feature. The calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>.
+Shuts down the system and turns off the power. The system must support the power-off feature. The calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege. For more information, see <a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>.
 
 
 
 #### EWX_REBOOT
 
-Shuts down the system and then restarts the system. The calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>.
+Shuts down the system and then restarts the system. The calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege. For more information, see <a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>.
 
 
 
 #### EWX_SHUTDOWN
 
-Shuts down the system to a point at which it is safe to turn off the power. At this point, all file buffers have been flushed to disk, and all running processes have stopped. If the system supports the power-off feature, the power is also turned off. The calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>.
+Shuts down the system to a point at which it is safe to turn off the power. At this point, all file buffers have been flushed to disk, and all running processes have stopped. If the system supports the power-off feature, the power is also turned off. The calling process must have the <b>SE_SHUTDOWN_NAME</b> privilege. For more information, see <a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>.
 
 
 This parameter can optionally include the following values.
@@ -114,17 +115,16 @@ This parameter can optionally include the following values.
 
 #### EWX_FORCE
 
-Forces processes to terminate. When this flag is set, the system does not send the <a href="https://docs.microsoft.com/windows/desktop/Shutdown/wm-queryendsession">WM_QUERYENDSESSION</a> and <a href="https://docs.microsoft.com/windows/desktop/Shutdown/wm-endsession">WM_ENDSESSION</a> messages. This can cause the applications to lose data. Therefore, you should only use this flag in an emergency.
+Forces processes to terminate. When this flag is set, the system does not send the <a href="/windows/desktop/Shutdown/wm-queryendsession">WM_QUERYENDSESSION</a> and <a href="/windows/desktop/Shutdown/wm-endsession">WM_ENDSESSION</a> messages. This can cause the applications to lose data. Therefore, you should only use this flag in an emergency.
 
 
 
 #### EWX_FORCEIFHUNG
 
-Forces processes to terminate if they do not respond to the <a href="https://docs.microsoft.com/windows/desktop/Shutdown/wm-queryendsession">WM_QUERYENDSESSION</a> or <a href="https://docs.microsoft.com/windows/desktop/Shutdown/wm-endsession">WM_ENDSESSION</a> message. This flag is ignored if <b>EWX_FORCE</b> is used.
+Forces processes to terminate if they do not respond to the <a href="/windows/desktop/Shutdown/wm-queryendsession">WM_QUERYENDSESSION</a> or <a href="/windows/desktop/Shutdown/wm-endsession">WM_ENDSESSION</a> message. This flag is ignored if <b>EWX_FORCE</b> is used.
 
 ## -returns
 
 Type: <b>int</b>
 
 Returns the identifier of the button that was pressed to close the dialog box.
-

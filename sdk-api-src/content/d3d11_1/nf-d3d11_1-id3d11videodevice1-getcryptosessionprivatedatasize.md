@@ -92,17 +92,17 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 ## -remarks
 
-When <i>pKeyExchangeType</i> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the following behavior is expected in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-negotiatecryptosessionkeyexchange">ID3D11VideoContext::NegotiateCryptoSessionKeyExchange</a> method:
+When <i>pKeyExchangeType</i> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the following behavior is expected in the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-negotiatecryptosessionkeyexchange">ID3D11VideoContext::NegotiateCryptoSessionKeyExchange</a> method:
 
 <ul>
-<li>The <i>DataSize</i> parameter is set to the size of the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_data">D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA</a> structure.</li>
-<li><i>pData</i> points to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_data">D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA</a> structure. <ul>
-<li>The <b>pInputData</b> of this structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_input_data">D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA</a> structure where:<ul>
+<li>The <i>DataSize</i> parameter is set to the size of the <a href="/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_data">D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA</a> structure.</li>
+<li><i>pData</i> points to a <a href="/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_data">D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA</a> structure. <ul>
+<li>The <b>pInputData</b> of this structure points to a <a href="/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_input_data">D3D11_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA</a> structure where:<ul>
 <li><b>pbInput</b>[0] – <b>pbInput</b>[N-1] contains memory reserved for use by the driver. The number of bytes (N) reserved for the driver is determined by the <b>pPrivateInputSize</b> value returned by the <b>ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize</b> function.</li>
 <li><b>pbInput</b>[N] contains the first byte of the DRM command packet.</li>
 </ul>
 </li>
-<li>The <b>pOutputData</b> of this structure points to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_output_data">D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA</a> structure where:<ul>
+<li>The <b>pOutputData</b> of this structure points to a <a href="/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_key_exchange_hw_protection_output_data">D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA</a> structure where:<ul>
 <li><b>pbOutput</b>[0] – <b>pbOutput</b>[N-1] contains memory reserved for use by the driver. The number of bytes (N) reserved for the driver is determined by the <b>pPrivateOutputSize</b> value returned by the <b>ID3D11VideoDevice1::GetCryptoSessionPrivateDataSize</b> function.</li>
 <li><b>pbOutput</b>[N] contains the first byte of the DRM command packet.</li>
 </ul>
@@ -113,5 +113,4 @@ When <i>pKeyExchangeType</i> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the fol
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videodevice1">ID3D11VideoDevice1</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videodevice1">ID3D11VideoDevice1</a>

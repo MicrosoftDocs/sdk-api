@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>MsiOpenPackage</b> function opens a package to use with the functions that access the product database. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function must be called with the handle when the handle is not needed. <div class="alert"><b>Note</b>  Initialize COM on the same thread before calling the  <b>MsiOpenPackage</b>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a> function.</div>
+<a href="/windows/desktop/api/msi/nf-msi-msiclosehandle">MsiCloseHandle</a> function must be called with the handle when the handle is not needed. <div class="alert"><b>Note</b>  Initialize COM on the same thread before calling the  <b>MsiOpenPackage</b>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a> function.</div>
 <div> </div>
 
 ## -parameters
@@ -133,7 +133,7 @@ The function completes successfully.
  
 
 If this function fails, it may return a system error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -148,5 +148,4 @@ MsiOpenPackage can accept an opened database handle in the form "#nnnn", where n
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>
-
+<a href="/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>

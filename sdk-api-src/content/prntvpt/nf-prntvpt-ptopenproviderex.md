@@ -60,7 +60,7 @@ A pointer to the full name of a print queue.
 
 ### -param dwMaxVersion
 
-The latest version of the <a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a> that the caller supports.
+The latest version of the <a href="/windows/desktop/printdocs/printschema">Print Schema</a> that the caller supports.
 
 ### -param dwPrefVersion
 
@@ -78,7 +78,7 @@ A pointer to the version of the Print Schema that the print ticket provider will
 
 If the operation succeeds, the return value is S_OK, otherwise the <b>HRESULT</b> contains an error code.
 
-For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/SetupApi/error-handling">Error Handling</a>.
+For more information about COM error codes, see <a href="/windows/desktop/SetupApi/error-handling">Error Handling</a>.
 
 ## -remarks
 
@@ -88,17 +88,16 @@ The <i>pszPrinterName</i> parameter must be the full name, not the truncated nam
 
 The first version of the Print Schema was released with Windows Vista and is version 1. If the print ticket provider does not support <i>prefVersion</i>, <b>PTOpenProviderEx</b> successfully opens a handle and returns an earlier version in <i>usedVersion</i>.
 
-To avoid a resource leak, <i>phProvider</i> must be closed with <a href="https://docs.microsoft.com/windows/desktop/api/prntvpt/nf-prntvpt-ptcloseprovider">PTCloseProvider</a>.
+To avoid a resource leak, <i>phProvider</i> must be closed with <a href="/windows/desktop/api/prntvpt/nf-prntvpt-ptcloseprovider">PTCloseProvider</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printschema">Print Schema</a>
+<a href="/windows/desktop/printdocs/printschema">Print Schema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
+<a href="/windows/desktop/printdocs/printing-and-print-spooler-functions">Print Spooler API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/printdocs-printing">Printing</a>
-
+<a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>

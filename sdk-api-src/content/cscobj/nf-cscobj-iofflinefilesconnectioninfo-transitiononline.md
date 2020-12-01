@@ -85,9 +85,8 @@ Note that the entire scope of the item is transitioned online, not just the item
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesconnectioninfo">IOfflineFilesConnectionInfo</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesconnectioninfo">IOfflineFilesConnectionInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesconnectioninfo-transitionoffline">IOfflineFilesConnectionInfo::TransitionOffline</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesconnectioninfo-transitionoffline">IOfflineFilesConnectionInfo::TransitionOffline</a>

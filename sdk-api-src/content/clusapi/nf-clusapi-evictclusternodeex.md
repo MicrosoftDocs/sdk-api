@@ -51,8 +51,8 @@ api_name:
 ## -description
 
 Evicts a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> from the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and initiates cleanup operations on the node. The <b>PCLUSAPI_EVICT_CLUSTER_NODE_EX</b> type defines a pointer to this function.
+    <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> from the 
+    <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and initiates cleanup operations on the node. The <b>PCLUSAPI_EVICT_CLUSTER_NODE_EX</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -74,7 +74,7 @@ Pointer to an <b>HRESULT</b>   that describes the results of the cleanup operati
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, including the following value.
+      <a href="/windows/desktop/Debug/system-error-codes">system error code</a>, including the following value.
 
 <table>
 <tr>
@@ -96,9 +96,8 @@ The node was evicted but the cleanup operation returned a value other than S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-evictclusternode">EvictClusterNode</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-evictclusternode">EvictClusterNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternode">OpenClusterNode</a>

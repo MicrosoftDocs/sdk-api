@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>OpenApplication2</b> method opens the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object with the specified name.
+The <b>OpenApplication2</b> method opens the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object with the specified name.
 
 ## -parameters
 
 ### -param bstrApplicationName [in]
 
-The name of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object to open.
+The name of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object to open.
 
 ### -param varReserved [in, optional]
 
@@ -64,11 +64,10 @@ Reserved for future use.
 
 ### -param ppApplication [out]
 
-A pointer to a pointer to the opened <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object.
+A pointer to a pointer to the opened <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication2">IAzApplication2</a> object.
 
 ## -returns
 
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.

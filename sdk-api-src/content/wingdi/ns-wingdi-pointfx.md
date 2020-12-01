@@ -68,25 +68,24 @@ The y-component of a point on the outline of a TrueType character.
 
 ## -remarks
 
-The <b>POINTFX</b> structure is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-ttpolycurve">TTPOLYCURVE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-ttpolygonheader">TTPOLYGONHEADER</a> structures. Values in the <b>POINTFX</b> structure are specified in device units.
+The <b>POINTFX</b> structure is a member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-ttpolycurve">TTPOLYCURVE</a> and <a href="/windows/desktop/api/wingdi/ns-wingdi-ttpolygonheader">TTPOLYGONHEADER</a> structures. Values in the <b>POINTFX</b> structure are specified in device units.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fixed">FIXED</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-fixed">FIXED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-ttpolycurve">TTPOLYCURVE</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-ttpolycurve">TTPOLYCURVE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-ttpolygonheader">TTPOLYGONHEADER</a>
-
+<a href="/windows/desktop/api/wingdi/ns-wingdi-ttpolygonheader">TTPOLYGONHEADER</a>

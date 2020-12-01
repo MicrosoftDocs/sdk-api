@@ -64,28 +64,28 @@ Creates an accelerator table.
 
 Type: <b>LPACCEL</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures that describes the accelerator table.
+An array of <a href="/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures that describes the accelerator table.
 
 ### -param cAccel [in]
 
 Type: <b>int</b>
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures in the array. This must be within the range 1 to 32767 or the function will fail.
+The number of <a href="/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a> structures in the array. This must be within the range 1 to 32767 or the function will fail.
 
 ## -returns
 
 Type: <b>HACCEL</b>
 
-If the function succeeds, the return value is the handle to the created accelerator table; otherwise, it is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value is the handle to the created accelerator table; otherwise, it is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Before an application closes, it can use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyacceleratortable">DestroyAcceleratorTable</a> function to destroy any accelerator tables that it created by using the <b>CreateAcceleratorTable</b> function.
+Before an application closes, it can use the <a href="/windows/desktop/api/winuser/nf-winuser-destroyacceleratortable">DestroyAcceleratorTable</a> function to destroy any accelerator tables that it created by using the <b>CreateAcceleratorTable</b> function.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-keyboard-accelerators">Creating User Editable Accelerators</a>.
+For an example, see <a href="/windows/desktop/menurc/using-keyboard-accelerators">Creating User Editable Accelerators</a>.
 
 <div class="code"></div>
 
@@ -97,7 +97,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-accel">ACCEL</a>
 
 
 
@@ -105,19 +105,19 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyacceleratortablea">CopyAcceleratorTable</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-copyacceleratortablea">CopyAcceleratorTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyacceleratortable">DestroyAcceleratorTable</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroyacceleratortable">DestroyAcceleratorTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/keyboard-accelerators">Keyboard Accelerators</a>
+<a href="/windows/desktop/menurc/keyboard-accelerators">Keyboard Accelerators</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadacceleratorsa">LoadAccelerators</a>
 
 
 
@@ -125,5 +125,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-translateacceleratora">TranslateAccelerator</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-translateacceleratora">TranslateAccelerator</a>

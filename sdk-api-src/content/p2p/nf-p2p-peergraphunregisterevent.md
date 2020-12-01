@@ -56,7 +56,7 @@ The <b>PeerGraphUnregisterEvent</b> function requests that the application no lo
 
 ### -param hPeerEvent [in]
 
-Peer event handle obtained from call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphregisterevent">PeerGraphRegisterEvent</a>.
+Peer event handle obtained from call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphregisterevent">PeerGraphRegisterEvent</a>.
 
 ## -returns
 
@@ -85,7 +85,7 @@ The parameter is not valid.
 </dl>
 </td>
 <td width="60%">
-The peer graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
+The peer graph must be  initialized with a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -93,9 +93,8 @@ The peer graph must be  initialized with a call to <a href="https://docs.microso
 
 ## -remarks
 
-The peer event handle passed to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphregisterevent">PeerGraphRegisterEvent</a> must be closed only after <b>PeerGraphUnregisterEvent</b> has been called.
+The peer event handle passed to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphregisterevent">PeerGraphRegisterEvent</a> must be closed only after <b>PeerGraphUnregisterEvent</b> has been called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphregisterevent">PeerRegisterEvent</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphregisterevent">PeerRegisterEvent</a>

@@ -86,27 +86,26 @@ This method can return one of these values.
 ## -remarks
 
 If your snap-in implements the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompare">IResultDataCompare</a> or the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interface, MMC calls the interface's 
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdatacompare">IResultDataCompare</a> or the 
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdatacompareex">IResultDataCompareEx</a> interface, MMC calls the interface's 
 Compare method to allow the snap-in to compare list items. Otherwise, MMC uses a default string-compare function.
 
 There is no sorting function for a virtual list. To allow virtual list sorting the snap-in must implement the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultownerdata">IResultOwnerData</a> interface. When <b>IResultData::Sort</b> is called, MMC forwards the call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultownerdata-sortitems">IResultOwnerData::SortItems</a>.
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultownerdata">IResultOwnerData</a> interface. When <b>IResultData::Sort</b> is called, MMC forwards the call to 
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultownerdata-sortitems">IResultOwnerData::SortItems</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultdatacompare-compare">IResultDataCompare::Compare</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultdatacompare-compare">IResultDataCompare::Compare</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iresultownerdata-sortitems">IResultOwnerData::SortItems</a>
-
+<a href="/windows/desktop/api/mmc/nf-mmc-iresultownerdata-sortitems">IResultOwnerData::SortItems</a>

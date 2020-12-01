@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Username/password security template information to be filled in by application.
-        Associated with <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_binding_template_type">WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE_TYPE</a>.
+        Associated with <a href="/windows/desktop/api/webservices/ne-webservices-ws_binding_template_type">WS_HTTP_SSL_HEADER_AUTH_BINDING_TEMPLATE_TYPE</a>.
 
 ## -struct-fields
 
@@ -74,4 +74,3 @@ Application provided SSL transport security binding information that cannot be r
 
 Application provided header authentication security binding information that cannot be represented 
           in policy.
-

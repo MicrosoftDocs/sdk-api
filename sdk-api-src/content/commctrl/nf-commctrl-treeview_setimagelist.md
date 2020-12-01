@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-setimagelist">TVM_SETIMAGELIST</a> message explicitly.
+Sets the normal or state image list for a tree-view control and redraws the control using the new images. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-setimagelist">TVM_SETIMAGELIST</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -68,7 +68,7 @@ The HIMAGELIST handle to the image list. If <i>himl</i> is <b>NULL</b>, the mess
 
 ### -param iImage
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 Type of image list to set. This parameter can be one of the following values: 
 
@@ -109,9 +109,8 @@ The tree-view control will not destroy the image list specified with this messag
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getimagelist">TVM_GETIMAGELIST</a>
+<a href="/windows/desktop/Controls/tvm-getimagelist">TVM_GETIMAGELIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getimagelist">TreeView_GetImageList</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getimagelist">TreeView_GetImageList</a>

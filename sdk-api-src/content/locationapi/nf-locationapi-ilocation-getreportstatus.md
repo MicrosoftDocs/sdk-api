@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
 ]
 
 Retrieves the status for the specified report type.
@@ -63,7 +63,7 @@ Retrieves the status for the specified report type.
 
 ### -param arg2 [out]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/ne-locationapi-location_report_status">LOCATION_REPORT_STATUS</a> that receives the current status for the specified report.
+Address of a <a href="/windows/desktop/api/locationapi/ne-locationapi-location_report_status">LOCATION_REPORT_STATUS</a> that receives the current status for the specified report.
 
 ## -returns
 
@@ -111,23 +111,23 @@ The method succeeded.
 
 ## -remarks
 
-This method retrieves report status for new reports. The most recent reports remain available through <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreport">ILocation::GetReport</a>, regardless of the status reported by this method.
+This method retrieves report status for new reports. The most recent reports remain available through <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreport">ILocation::GetReport</a>, regardless of the status reported by this method.
 
 <h3><a id="Known_Issues"></a><a id="known_issues"></a><a id="KNOWN_ISSUES"></a>Known Issues</h3>
 When an application first starts, or when a new location sensor is enabled, <b>GetReportStatus</b> may report a status of <b>REPORT_RUNNING</b>  shortly before the location report is available.
 
-Therefore, an initial call to <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreport">GetReport</a> will return an error (<b>ERROR_NO_DATA</b>) or a value that is not from the expected location sensor, even if <b>GetReportStatus</b> indicates a status of <b>REPORT_RUNNING</b>. This can happen in the following cases:<ol>
-<li>The application polls for status by using <b>GetReportStatus</b> until a report status of <b>REPORT_RUNNING</b> is returned, and then calls <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreport">GetReport</a>.  </li>
-<li><b>GetReportStatus</b> is called when the application starts. This may occur after creation of the location object, or after calling <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-requestpermissions">RequestPermissions</a>.</li>
+Therefore, an initial call to <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreport">GetReport</a> will return an error (<b>ERROR_NO_DATA</b>) or a value that is not from the expected location sensor, even if <b>GetReportStatus</b> indicates a status of <b>REPORT_RUNNING</b>. This can happen in the following cases:<ol>
+<li>The application polls for status by using <b>GetReportStatus</b> until a report status of <b>REPORT_RUNNING</b> is returned, and then calls <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreport">GetReport</a>.  </li>
+<li><b>GetReportStatus</b> is called when the application starts. This may occur after creation of the location object, or after calling <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-requestpermissions">RequestPermissions</a>.</li>
 </ol>
 
 
 An application can mitigate the issue by implementing the following workaround. The workaround involves subscribing to location report events.
 
 <h3><a id="Workaround__Subscribing_to_Events"></a><a id="workaround__subscribing_to_events"></a><a id="WORKAROUND__SUBSCRIBING_TO_EVENTS"></a>Workaround: Subscribing to Events</h3>
- The application can subscribe to report events and wait for the report from the <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocationevents-onlocationchanged">OnLocationChanged</a> event or the <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocationevents-onstatuschanged">OnStatusChanged</a> event. The application should wait for a specified finite amount of time.
+ The application can subscribe to report events and wait for the report from the <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocationevents-onlocationchanged">OnLocationChanged</a> event or the <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocationevents-onstatuschanged">OnStatusChanged</a> event. The application should wait for a specified finite amount of time.
 
-The following example shows an application that waits for a location report of type <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilatlongreport">ILatLongReport</a>. If a report is successfully retrieved within the specified amount of time, it prints out a message indicating that data was received.
+The following example shows an application that waits for a location report of type <a href="/windows/desktop/api/locationapi/nn-locationapi-ilatlongreport">ILatLongReport</a>. If a report is successfully retrieved within the specified amount of time, it prints out a message indicating that data was received.
 
 The following example code demonstrates how an application may call a function named <b>WaitForLocationReport</b> that registers for events and waits for the first location report. <b>WaitForLocationReport</b> waits for an event that is set by a callback object. The function <b>WaitForLocationReport</b> and the callback object is defined in the examples that follow this one.
 
@@ -203,7 +203,7 @@ int wmain()
 ```
 
 
-The following example code is separated into WaitForLocationReport.h and WaitForLocationReport.cpp. WaitForLocationReport.h contains the header for the <b>WaitForLocationReport</b> function. WaitForLocationReport.cpp contains the definition of the <b>WaitForLocationReport</b> function and the definition of the callback object that it uses. The callback object provides implementations of the <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocationevents-onlocationchanged">OnLocationChanged</a> and <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocationevents-onstatuschanged">OnStatusChanged</a> callback methods. Within these methods, it sets an event that signals when a report is available.
+The following example code is separated into WaitForLocationReport.h and WaitForLocationReport.cpp. WaitForLocationReport.h contains the header for the <b>WaitForLocationReport</b> function. WaitForLocationReport.cpp contains the definition of the <b>WaitForLocationReport</b> function and the definition of the callback object that it uses. The callback object provides implementations of the <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocationevents-onlocationchanged">OnLocationChanged</a> and <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocationevents-onstatuschanged">OnStatusChanged</a> callback methods. Within these methods, it sets an event that signals when a report is available.
 
 
 ```cpp
@@ -373,5 +373,4 @@ HRESULT WaitForLocationReport(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
-
+<a href="/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>

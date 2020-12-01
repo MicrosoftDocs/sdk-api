@@ -53,7 +53,7 @@ The <b>DdVideoPortColorControl</b> callback function gets or sets the VPE object
 
 ### -param Arg1
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_vportcolordata">DD_VPORTCOLORDATA</a> structure that contains the information required for the driver to get the current VPE object color controls or to set new values.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_vportcolordata">DD_VPORTCOLORDATA</a> structure that contains the information required for the driver to get the current VPE object color controls or to set new values.
 
 ## -returns
 
@@ -61,13 +61,13 @@ Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-
 
 ## -remarks
 
-DirectDraw drivers that set the DDVPCAPS_COLORCONTROL flag in the <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportcaps">DDVIDEOPORTCAPS</a> structure must implement <b>DdVideoPortColorControl</b>.
+DirectDraw drivers that set the DDVPCAPS_COLORCONTROL flag in the <a href="/windows/desktop/api/dvp/ns-dvp-ddvideoportcaps">DDVIDEOPORTCAPS</a> structure must implement <b>DdVideoPortColorControl</b>.
 
 Depending on the value of the <b>dwFlags</b> member of the DD_VPORTCOLORDATA structure at <i>lpColorControl</i>, the driver should do the following:
 
 <ul>
 <li>
-When <b>dwFlags</b> is DDRAWI_VPORTGETCOLOR, the driver should fill in each member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549237(v=vs.85)">DDCOLORCONTROL</a> structure that it supports with the VPE object's current color control setting. The driver must set the corresponding bit in the <b>dwFlags</b> member of DDCOLORCONTROL for every color control member in which it writes data.
+When <b>dwFlags</b> is DDRAWI_VPORTGETCOLOR, the driver should fill in each member of the <a href="/previous-versions/windows/hardware/drivers/ff549237(v=vs.85)">DDCOLORCONTROL</a> structure that it supports with the VPE object's current color control setting. The driver must set the corresponding bit in the <b>dwFlags</b> member of DDCOLORCONTROL for every color control member in which it writes data.
 
 <b>DdVideoPortColorControl</b> can be called to determine the color control capabilities of the VPE object. The driver should therefore fail the call if it does not support a requested color control capability.
 
@@ -80,13 +80,12 @@ When <b>dwFlags</b> is DDRAWI_VPORTSETCOLOR, the driver should set the VPE objec
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549237(v=vs.85)">DDCOLORCONTROL</a>
+<a href="/previous-versions/windows/hardware/drivers/ff549237(v=vs.85)">DDCOLORCONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportcaps">DDVIDEOPORTCAPS</a>
+<a href="/windows/desktop/api/dvp/ns-dvp-ddvideoportcaps">DDVIDEOPORTCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_vportcolordata">DD_VPORTCOLORDATA</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_vportcolordata">DD_VPORTCOLORDATA</a>

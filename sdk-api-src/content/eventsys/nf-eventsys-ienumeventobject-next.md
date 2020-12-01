@@ -60,7 +60,7 @@ The number of elements being requested. If there are fewer than the requested nu
 
 ### -param ppInterface [out]
 
-The address to a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the first object obtained. This parameter cannot be <b>NULL</b>.
+The address to a pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the first object obtained. This parameter cannot be <b>NULL</b>.
 
 ### -param cRetElem [out]
 
@@ -101,5 +101,4 @@ Not all elements requested were obtained. The number of elements obtained was wr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>

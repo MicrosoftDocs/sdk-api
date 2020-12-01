@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the text of the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control, including all RTF codes.
+Gets or sets the text of the <a href="/windows/desktop/tablet/inkedit-control">InkEdit</a> control, including all RTF codes.
 
 This property is read/write.
 
@@ -71,5 +71,4 @@ Setting the TextRTF property replaces the entire contents of a control with the 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

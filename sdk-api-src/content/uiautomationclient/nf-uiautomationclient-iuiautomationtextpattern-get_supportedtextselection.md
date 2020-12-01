@@ -65,7 +65,7 @@ When this function returns, contains a pointer to the [SupportedTextSelection](.
 
 ## -returns
 
-Type: **[HRESULT](https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types)**
+Type: **[HRESULT](/windows/desktop/WinProg/windows-data-types)**
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
@@ -88,4 +88,3 @@ HRESULT SupportedTextSelection (SupportedTextSelection *supportedTextSelection);
 ## -see-also
 
 [IUIAutomationTextPattern interface](nn-uiautomationclient-iuiautomationtextpattern.md), [UI Automation Support for Textual Content](/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview)
-

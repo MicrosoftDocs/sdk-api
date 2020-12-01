@@ -97,5 +97,4 @@ When an instance of <b>EstablishConnection</b> is called by a handler, SyncMgr t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
-
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>

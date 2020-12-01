@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Unmarshals a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> object from the RPC buffer.
+Unmarshals a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> object from the RPC buffer.
 
 ## -parameters
 
@@ -136,4 +136,3 @@ Insufficient memory for this function to perform.
 </td>
 </tr>
 </table>
-

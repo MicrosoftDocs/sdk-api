@@ -37,7 +37,7 @@ api_name:
 
 Defines constants that specify a cross-API sharing support tier.
 
-The resource data formats mentioned are members of the [DXGI_FORMAT enumeration](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format).
+The resource data formats mentioned are members of the [DXGI_FORMAT enumeration](../dxgiformat/ne-dxgiformat-dxgi_format.md).
 
 ## -enum-fields
 
@@ -87,4 +87,3 @@ Specifies that cross-API sharing functionality of Tier 2 is supported, plus the 
 ## -remarks
 
 ## -see-also
-

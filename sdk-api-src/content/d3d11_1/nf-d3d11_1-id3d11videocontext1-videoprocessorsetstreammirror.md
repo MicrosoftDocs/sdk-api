@@ -58,7 +58,7 @@ Specifies whether the video processor input stream should be flipped vertically 
 
 Type: <b>ID3D11VideoProcessor*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface.
+A pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface.
 
 ### -param StreamIndex [in]
 
@@ -96,5 +96,4 @@ When used in combination, transformations on the processor input stream should b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>

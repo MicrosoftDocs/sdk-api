@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Gets the working areas from a list-view control. You can use this macro, or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getworkareas">LVM_GETWORKAREAS</a> message explicitly.
+Gets the working areas from a list-view control. You can use this macro, or send the <a href="/windows/desktop/Controls/lvm-getworkareas">LVM_GETWORKAREAS</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param nWorkAreas
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">INT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">INT</a></b>
 
 The number of <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structures in the array at <i>lprc</i>.
 
@@ -74,5 +74,4 @@ A pointer to an array of <a href="/windows/desktop/api/windef/ns-windef-rect">RE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/using-list-view-controls">Using List-View Controls</a>
-
+<a href="/windows/desktop/Controls/using-list-view-controls">Using List-View Controls</a>

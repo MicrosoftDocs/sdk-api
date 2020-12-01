@@ -109,7 +109,7 @@ m_pRenderTarget->SetTransform(
 m_pRenderTarget->DrawGeometry(m_pRectangleGeometry, m_pBlackBrush, 1);
 ```
 
-The next example uses the <a href="/windows/win32/api/d2d1/nf-d2d1-createtransformedgeometry">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
+The next example uses the **CreateTransformedGeometry** method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
 
 <img alt="Illustration of a smaller rectangle inside a larger rectangle with the same stroke" src="images/transformedgeometry2_step3.png"/>
 

@@ -54,21 +54,21 @@ api_name:
 
 ## -description
 
-Opens a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">node</a> and returns a handle to it. The <b>PCLUSAPI_OPEN_CLUSTER_NODE</b> type defines a pointer to this function.
+Opens a <a href="/previous-versions/windows/desktop/mscs/nodes">node</a> and returns a handle to it. The <b>PCLUSAPI_OPEN_CLUSTER_NODE</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> returned from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterex">OpenClusterEx</a> functions.
+Handle to a <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a> returned from the 
+      <a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a> or 
+      <a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterex">OpenClusterEx</a> functions.
 
 ### -param lpszNodeName [in]
 
 Pointer to the NetBIOS name of an existing node. If the DNS name of the node is used, the 
       <b>OpenClusterNode</b> function will fail and 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> will return 
       <b>ERROR_CLUSTER_NODE_NOT_FOUND</b>.
 
 ## -returns
@@ -89,7 +89,7 @@ If the operation was successful, <b>OpenClusterNode</b>
 </td>
 <td width="60%">
 The operation was not successful. For more information about the error, call the function 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -97,21 +97,20 @@ The operation was not successful. For more information about the error, call the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closeclusternode">CloseClusterNode</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-closeclusternode">CloseClusterNode</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterex">OpenClusterEx</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterex">OpenClusterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternodeex">OpenClusterNodeEx</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternodeex">OpenClusterNodeEx</a>

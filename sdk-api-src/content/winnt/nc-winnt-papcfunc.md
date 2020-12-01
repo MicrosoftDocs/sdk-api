@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 An application-defined completion routine. Specify this address when calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a> function. The <b>PAPCFUNC</b> type defines a pointer to this callback function. 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a> function. The <b>PAPCFUNC</b> type defines a pointer to this callback function. 
 <b>APCProc</b> is a placeholder for the application-defined function name.
 
 ## -parameters
@@ -61,17 +61,16 @@ An application-defined completion routine. Specify this address when calling the
 ### -param Parameter [in]
 
 The data passed to the function using the <i>dwData</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a> function.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>
+<a href="/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Calls</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-queueuserapc">QueueUserAPC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

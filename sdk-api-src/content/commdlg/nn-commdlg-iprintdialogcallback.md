@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides methods that enable an application to receive notifications and messages from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function while the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a> is displayed.
+Provides methods that enable an application to receive notifications and messages from the <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> function while the <a href="/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a> is displayed.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintDialogCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDialogCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintDialogCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintDialogCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,28 +69,28 @@ The <b>IPrintDialogCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-handlemessage">HandleMessage</a>
+<a href="/windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-handlemessage">HandleMessage</a>
 </td>
 <td align="left" width="63%">
-Called by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> to give your application an opportunity to handle messages sent to the child dialog box in the lower portion of the <b>General</b> page of the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a>. The child dialog box contains controls similar to those of the <b>Print</b> dialog box.
+Called by <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> to give your application an opportunity to handle messages sent to the child dialog box in the lower portion of the <b>General</b> page of the <a href="/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a>. The child dialog box contains controls similar to those of the <b>Print</b> dialog box.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-initdone">InitDone</a>
+<a href="/windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-initdone">InitDone</a>
 </td>
 <td align="left" width="63%">
-Called by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> when the system has finished initializing the <b>General</b> page of the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a>.
+Called by <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> when the system has finished initializing the <b>General</b> page of the <a href="/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-selectionchange">SelectionChange</a>
+<a href="/windows/desktop/api/commdlg/nf-commdlg-iprintdialogcallback-selectionchange">SelectionChange</a>
 </td>
 <td align="left" width="63%">
-Called by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> when the user selects a different printer from the list of installed printers on the <b>General</b> page of the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a>.
+Called by <a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a> when the user selects a different printer from the list of installed printers on the <b>General</b> page of the <a href="/windows/desktop/dlgbox/print-property-sheet">Print Property Sheet</a>.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ Called by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices">IPrintDialogServices</a>
+<a href="/windows/desktop/api/commdlg/nn-commdlg-iprintdialogservices">IPrintDialogServices</a>
 
 
 
@@ -106,9 +106,8 @@ Called by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>
+<a href="/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)">PrintDlgEx</a>
 
 
 
 <b>Reference</b>
-

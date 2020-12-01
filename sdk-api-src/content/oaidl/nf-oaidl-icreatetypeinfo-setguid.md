@@ -119,9 +119,8 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-For an interface, this is an interface ID (IID); for a coclass, it is a class ID (CLSID). For information on GUIDs, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/type-libraries-and-the-object-description-language">Type Libraries and the Object Description Language</a>.
+For an interface, this is an interface ID (IID); for a coclass, it is a class ID (CLSID). For information on GUIDs, see <a href="/previous-versions/windows/desktop/automat/type-libraries-and-the-object-description-language">Type Libraries and the Object Description Language</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>

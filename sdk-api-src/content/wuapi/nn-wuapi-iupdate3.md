@@ -54,5 +54,4 @@ Contains the  properties and methods that are available to an update.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdate2">IUpdate2</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate2">IUpdate2</a>

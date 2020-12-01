@@ -45,9 +45,6 @@ api_name:
  - IITWordWheel.Lookup
 ---
 
-# IITWordWheel::Lookup(LONG,IITResultSet,LONG)
-
-
 ## -description
 
 Looks up an entry and returns contents in a buffer.
@@ -56,36 +53,15 @@ Looks up an entry and returns contents in a buffer.
 
 ### -param lEntry
 
-TBD
+Entry to look up.
 
 ### -param lpITResult
 
-TBD
+Interface via which to return entry.
 
 ### -param cEntries
 
-TBD
-
-
-
-
-#### - fExactMatch [out]
-
-Buffer to return entry.
-
-
-
-
-#### - lpcvPrefix [in]
-
-Entry to look up.
-
-
-
-
-#### - plEntry [in]
-
-Buffer size in number of bytes.
+Number of entries returned.
 
 ## -returns
 
@@ -105,8 +81,6 @@ This method can return one of these values.
 <td width="60%">
 The word wheel entry was successfully returned.
 
-
-
 </td>
 </tr>
 <tr>
@@ -118,13 +92,10 @@ The word wheel entry was successfully returned.
 <td width="60%">
 Entry number is out of range.
 
-
-
 </td>
 </tr>
 </table>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitwordwheel">IITWordWheel</a>
-
+<a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitwordwheel">IITWordWheel</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>PATHOBJ_vEnumStart</b> function notifies a given PATHOBJ structure that the driver will be calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a> to enumerate lines and/or curves in the path.
+The <b>PATHOBJ_vEnumStart</b> function notifies a given PATHOBJ structure that the driver will be calling <a href="/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a> to enumerate lines and/or curves in the path.
 
 ## -parameters
 
 ### -param ppo
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure whose lines and/or curves are to be enumerated.
+Pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a> structure whose lines and/or curves are to be enumerated.
 
 ## -returns
 
@@ -68,9 +68,8 @@ None
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
+<a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-pathobj_benum">PATHOBJ_bEnum</a>

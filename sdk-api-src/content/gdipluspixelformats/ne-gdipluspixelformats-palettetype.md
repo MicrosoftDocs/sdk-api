@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The  <b>PaletteType</b> enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-initializepalette">Bitmap::InitializePalette</a> and <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-convertformat">Bitmap::ConvertFormat</a> methods of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> class. The members of the enumeration identify several standard color palette formats.
+The  <b>PaletteType</b> enumeration is used by the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-initializepalette">Bitmap::InitializePalette</a> and <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-convertformat">Bitmap::ConvertFormat</a> methods of the <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> class. The members of the enumeration identify several standard color palette formats.
 
 ## -enum-fields
 
@@ -61,7 +61,7 @@ An arbitrary custom palette provided by the caller.
 
 ### -field PaletteTypeOptimal
 
-An palette of colors that are optimal for a particular bitmap. To create an optimal palette, pass PaletteTypeOptimal, the number of colors you want in the palette, and the address of a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-initializepalette">Bitmap::InitializePalette</a> method.
+An palette of colors that are optimal for a particular bitmap. To create an optimal palette, pass PaletteTypeOptimal, the number of colors you want in the palette, and the address of a <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a> object to the <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-initializepalette">Bitmap::InitializePalette</a> method.
 
 ### -field PaletteTypeFixedBW
 
@@ -94,4 +94,3 @@ A palette based on 6 intensities of red, 7 intensities of green, and 6 intensiti
 ### -field PaletteTypeFixedHalftone256
 
 A palette based on 8 intensities of red, 8 intensities of green, and 4 intensities of blue. The system palette is not included. The total number of colors is 256. If the transparent color is included in this palette, it must replace one of the RGB combinations.
-

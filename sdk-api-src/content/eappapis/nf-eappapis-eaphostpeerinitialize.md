@@ -59,7 +59,7 @@ The <b>EapHostPeerInitialize</b> function must be called before any other peer o
 
 ## -remarks
 
-<b>EapHostPeerInitialize</b> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeeruninitialize">EapHostPeerUninitialize</a> are always thread
+<b>EapHostPeerInitialize</b> and <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeeruninitialize">EapHostPeerUninitialize</a> are always thread
 safe.
 
 The following call occurs within the <b>EapHostPeerInitialize</b> function:
@@ -67,7 +67,7 @@ The following call occurs within the <b>EapHostPeerInitialize</b> function:
 <code>CoInitializeEx(NULL, COINIT_MULTITHREADED);</code>
 
 The client should not initialize a conflicting COM environment.
-If different COM environment (such as a single-threaded apartment) is required, the client should call  <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> directly, and not call <b>EapHostPeerInitialize</b>. If <b>CoInitializeEx</b> is called directly, then the client must call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> to uninitialize the session. In addition, the client must use COM functions (and not EAPHost supplicant functions) to allocate and free memory.
+If different COM environment (such as a single-threaded apartment) is required, the client should call  <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> directly, and not call <b>EapHostPeerInitialize</b>. If <b>CoInitializeEx</b> is called directly, then the client must call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> to uninitialize the session. In addition, the client must use COM functions (and not EAPHost supplicant functions) to allocate and free memory.
 
 ## -see-also
 
@@ -75,5 +75,4 @@ If different COM environment (such as a single-threaded apartment) is required, 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeeruninitialize">EapHostPeerUninitialize</a>
-
+<a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeeruninitialize">EapHostPeerUninitialize</a>

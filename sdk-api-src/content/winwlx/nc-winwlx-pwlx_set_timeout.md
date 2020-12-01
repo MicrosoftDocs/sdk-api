@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[The WlxSetTimeout function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to change the time-out associated with a dialog box. The default time-out is two minutes.
+Called by <a href="/windows/desktop/SecGloss/g-gly">GINA</a> to change the time-out associated with a dialog box. The default time-out is two minutes.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
@@ -60,7 +60,7 @@ Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GI
 ### -param hWlx [in]
 
 Specifies the Winlogon handle passed to GINA in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 ### -param Timeout [in]
 
@@ -101,5 +101,4 @@ The new time-out was not accepted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>

@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>get_AutoStopTonesOnOnHook</b> method retrieves the current value of the <b>AutoStopTonesOnOnHook</b> property. When this feature is enabled, the phone going onhook results in the termination of any tone produced on the audio render device associated with the phone (via a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-stoptone">ITAutomatedPhoneControl::StopTone</a>).
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-stoptone">ITAutomatedPhoneControl::StopTone</a>).
 
 ## -parameters
 
@@ -70,17 +70,16 @@ The <b>AutoStopTonesOnOnHook</b> property functions only when the value of the <
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-stoptone">ITAutomatedPhoneControl::StopTone</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-stoptone">ITAutomatedPhoneControl::StopTone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-put_autostoptonesononhook">put_AutoStopTonesOnOnHook</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-put_autostoptonesononhook">put_AutoStopTonesOnOnHook</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-put_phonehandlingenabled">put_PhoneHandlingEnabled</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-put_phonehandlingenabled">put_PhoneHandlingEnabled</a>

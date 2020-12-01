@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>PNRPINFO_V1</b> structure  is pointed to by the <b>lpBlob</b> member of the <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/winsock-nsp-reference-links">WSAQUERYSET</a> structure.
+The <b>PNRPINFO_V1</b> structure  is pointed to by the <b>lpBlob</b> member of the <a href="/windows/desktop/P2PSdk/winsock-nsp-reference-links">WSAQUERYSET</a> structure.
 
 ## -struct-fields
 
@@ -80,7 +80,7 @@ Specifies the number of seconds between refresh operations. Must be   86400 (24 
 
 ### -field enResolveCriteria
 
-Specifies the criteria used to resolve matches.  PNRP can look for the first matching name, or attempt to find a name that is numerically close to the service location. Valid values are specified by <a href="https://docs.microsoft.com/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_resolve_criteria">PNRP_RESOLVE_CRITERIA</a>.
+Specifies the criteria used to resolve matches.  PNRP can look for the first matching name, or attempt to find a name that is numerically close to the service location. Valid values are specified by <a href="/windows/desktop/api/pnrpdef/ne-pnrpdef-pnrp_resolve_criteria">PNRP_RESOLVE_CRITERIA</a>.
 
 ### -field dwFlags
 
@@ -113,23 +113,22 @@ Specifies the state of the registered ID.  This value is reserved and must be se
 
 ## -remarks
 
- Starting with Windows Vista, please use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa371671(v=vs.85)">PNRPINFO_V2</a> structure.
+ Starting with Windows Vista, please use the <a href="/previous-versions/windows/desktop/legacy/aa371671(v=vs.85)">PNRPINFO_V2</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-and-blob">PNRP and
+<a href="/windows/desktop/P2PSdk/pnrp-and-blob">PNRP and
 			 BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-and-wsaqueryset">PNRP and
+<a href="/windows/desktop/P2PSdk/pnrp-and-wsaqueryset">PNRP and
 			 WSAQUERYSET</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa371671(v=vs.85)">PNRPINFO_V2</a>
+<a href="/previous-versions/windows/desktop/legacy/aa371671(v=vs.85)">PNRPINFO_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/winsock-nsp-reference-links">WSAQUERYSET</a>
-
+<a href="/windows/desktop/P2PSdk/winsock-nsp-reference-links">WSAQUERYSET</a>

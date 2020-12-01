@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies Desktop Window Manager (DWM) video frame parameters for frame composition. Used by the <a href="https://docs.microsoft.com/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetpresentparameters">DwmSetPresentParameters</a> function.
+Specifies Desktop Window Manager (DWM) video frame parameters for frame composition. Used by the <a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmsetpresentparameters">DwmSetPresentParameters</a> function.
 
 ## -struct-fields
 
@@ -91,4 +91,3 @@ The frame sampling type to use for composition.
 ## -remarks
 
 The <b>rateSource</b> member is expressed as a ratio so that content (like that using NTSC standards, which has a rate of 60000/1001) can be accurately expressed. DWM determines how long to display each frame by resampling between the source rate and the composition rate in use each time the desktop is composed.
-

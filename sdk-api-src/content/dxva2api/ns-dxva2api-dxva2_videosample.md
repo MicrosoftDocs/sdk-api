@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies an input sample for the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt">IDirectXVideoProcessor::VideoProcessBlt</a> method.
+Specifies an input sample for the <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt">IDirectXVideoProcessor::VideoProcessBlt</a> method.
 
 ## -struct-fields
 
@@ -66,11 +66,11 @@ End time of the sample, in 100-nanosecond units. For video substream samples, th
 
 ### -field SampleFormat
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure that describes the interlacing and extended color information for the sample.
+<a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_extendedformat">DXVA2_ExtendedFormat</a> structure that describes the interlacing and extended color information for the sample.
 
 ### -field SrcSurface
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> interface of the Direct3D surface that contains the sample.
+Pointer to the <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> interface of the Direct3D surface that contains the sample.
 
 ### -field SrcRect
 
@@ -82,7 +82,7 @@ Destination rectangle. The destination rectangle defines the portion of the dest
 
 ### -field Pal
 
-If the input sample is for a substream and uses a palettized YUV color format, this member contains an array of <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_ayuvsample8">DXVA2_AYUVSample8</a> structures that define the palette entries. For non-palettized pixel formats, the array elements should all be zero.
+If the input sample is for a substream and uses a palettized YUV color format, this member contains an array of <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_ayuvsample8">DXVA2_AYUVSample8</a> structures that define the palette entries. For non-palettized pixel formats, the array elements should all be zero.
 
 ### -field PlanarAlpha
 
@@ -138,13 +138,12 @@ These flags provide a hint to the deinterlacer when it performs inverse telecine
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_ayuvsample8">DXVA2_AYUVSample8</a>
+<a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_ayuvsample8">DXVA2_AYUVSample8</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt">IDirectXVideoProcessor::VideoProcessBlt</a>
+<a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessor-videoprocessblt">IDirectXVideoProcessor::VideoProcessBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

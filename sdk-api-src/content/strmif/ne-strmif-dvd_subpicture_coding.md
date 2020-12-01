@@ -74,9 +74,8 @@ Most subpicture streams contain language-related content such as movie subtitles
 
 ## -see-also
 
-[DVD_SubpictureAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_subpictureattributes)
+[DVD_SubpictureAttributes](/windows/desktop/api/strmif/ns-strmif-dvd_subpictureattributes)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

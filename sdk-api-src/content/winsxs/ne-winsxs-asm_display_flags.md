@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The values of the  <b>ASM_DISPLAY_FLAGS</b> enumeration are used by the <a href="https://docs.microsoft.com/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getdisplayname">GetDisplayName</a> method to specify which portions of the assembly's full name to include in the string representation of the assembly name.
+The values of the  <b>ASM_DISPLAY_FLAGS</b> enumeration are used by the <a href="/windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getdisplayname">GetDisplayName</a> method to specify which portions of the assembly's full name to include in the string representation of the assembly name.
 
 ## -enum-fields
 
@@ -83,4 +83,3 @@ Include the processor architecture.
 ### -field ASM_DISPLAYF_LANGUAGEID
 
 Reserved.
-

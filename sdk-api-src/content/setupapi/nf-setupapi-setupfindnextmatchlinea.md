@@ -45,6 +45,7 @@ api_name:
  - SetupFindNextMatchLine
  - SetupFindNextMatchLineA
  - SetupFindNextMatchLineW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupFindNextMatchLineA function
@@ -62,13 +63,13 @@ The
 ### -param ContextIn [in]
 
 Pointer to an INF file context, as retrieved by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupfindfirstlinea">SetupFindFirstLine</a> function.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupfindfirstlinea">SetupFindFirstLine</a> function.
 
 ### -param Key [in]
 
 If this optional parameter is specified, it supplies a key to match. This parameter should be a null-terminated string. This parameter can be Null. If <i>Key</i> is not specified, the 
 <b>SetupFindNextMatchLine</b> function is equivalent to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupfindnextline">SetupFindNextLine</a> function.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupfindnextline">SetupFindNextLine</a> function.
 
 ### -param ContextOut [in, out]
 
@@ -77,12 +78,12 @@ Pointer to a variable in which this function returns the context of the found li
 ## -returns
 
 The function returns a nonzero value if it finds a matching line. Otherwise, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If <i>ContextIn.Inf</i> references multiple INF files that have been appended together using 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupopenappendinffilea">SetupOpenAppendInfFile</a>, the 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupopenappendinffilea">SetupOpenAppendInfFile</a>, the 
 <b>SetupFindNextMatchLine</b> function searches across the specified section in all files referenced by the HINF to locate the next matching line.
 
 
@@ -94,21 +95,20 @@ If <i>ContextIn.Inf</i> references multiple INF files that have been appended to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupfindfirstlinea">SetupFindFirstLine</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupfindfirstlinea">SetupFindFirstLine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupfindnextline">SetupFindNextLine</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupfindnextline">SetupFindNextLine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetlinebyindexa">SetupGetLineByIndex</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetlinebyindexa">SetupGetLineByIndex</a>

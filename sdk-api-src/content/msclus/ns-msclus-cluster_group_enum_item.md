@@ -56,7 +56,7 @@ api_name:
 ## -description
 
 Contains the properties of a cluster group. This structure  is used to enumerate cluster groups in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clustergroupenumex">ClusterGroupEnumEx</a> function.
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clustergroupenumex">ClusterGroupEnumEx</a> function.
 
 ## -struct-fields
 
@@ -79,6 +79,8 @@ The size, in bytes, of the <b>IpszName</b> field.
 
 ### -field lpszName
 
+The name of the cluster group.
+
 ### -field state
 
 The current state of the cluster group.
@@ -88,6 +90,8 @@ The current state of the cluster group.
 The size, in bytes, of the <b>IpszOwnerNode</b> field.
 
 ### -field lpszOwnerNode
+
+The name of the cluster node hosting the group.
 
 ### -field dwFlags
 
@@ -109,13 +113,4 @@ The size, in bytes, of the <b>pRoProperties</b> field.
 
 A pointer to a list of names of read-only common properties.
 
-
-#### - IpszName
-
-The name of the cluster group.
-
-
-#### - IpszOwnerNode
-
-The name of the cluster node hosting the group.
 

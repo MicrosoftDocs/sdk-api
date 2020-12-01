@@ -52,11 +52,11 @@ api_name:
 
 Repairs a corrupted .WTV file.
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/filescan-object">FileScan</a> object implements this interface.
+The <a href="/previous-versions/windows/desktop/mstv/filescan-object">FileScan</a> object implements this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2FileScan</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2FileScan</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISBE2FileScan</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISBE2FileScan</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ISBE2FileScan</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2filescan-repairfile">RepairFile</a>
+<a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2filescan-repairfile">RepairFile</a>
 </td>
 <td align="left" width="63%">
 Repairs a corrupted .WTV file.
@@ -83,4 +83,3 @@ Repairs a corrupted .WTV file.
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(ISBE2FileScan)</code>.
-

@@ -65,7 +65,7 @@ Specifies a name for the source filter.
 
 ### -param ppFilter [out]
 
-Receives a pointer to the filter's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface. The caller must release the interface.
+Receives a pointer to the filter's <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -94,7 +94,7 @@ Success.
 </dl>
 </td>
 <td width="60%">
-The source filter does not support the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifilesourcefilter">IFileSourceFilter</a> interface.
+The source filter does not support the <a href="/windows/desktop/api/strmif/nn-strmif-ifilesourcefilter">IFileSourceFilter</a> interface.
 
 </td>
 </tr>
@@ -157,21 +157,20 @@ The media type of this file was not recognized.
 
 ## -remarks
 
-This method searches for an installed filter that can read the specified file. If it finds one, the method adds it to the filter graph and returns a pointer to the filter's <b>IBaseFilter</b> interface. To determine the media type and compression scheme of the file, the Filter Graph Manager reads the first few bytes of the file, looking for specific patterns of bytes, as documented in the article <a href="https://docs.microsoft.com/windows/desktop/DirectShow/registering-a-custom-file-type">Registering a Custom File Type</a>.
+This method searches for an installed filter that can read the specified file. If it finds one, the method adds it to the filter graph and returns a pointer to the filter's <b>IBaseFilter</b> interface. To determine the media type and compression scheme of the file, the Filter Graph Manager reads the first few bytes of the file, looking for specific patterns of bytes, as documented in the article <a href="/windows/desktop/DirectShow/registering-a-custom-file-type">Registering a Custom File Type</a>.
 
-The application is responsible for building the rest of the filter graph. To do so, call <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibasefilter-enumpins">IBaseFilter::EnumPins</a> to enumerate the output pins on the source filter. Then use either the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-connect">IGraphBuilder::Connect</a> method or the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-render">IGraphBuilder::Render</a> method.
+The application is responsible for building the rest of the filter graph. To do so, call <a href="/windows/desktop/api/strmif/nf-strmif-ibasefilter-enumpins">IBaseFilter::EnumPins</a> to enumerate the output pins on the source filter. Then use either the <a href="/windows/desktop/api/strmif/nf-strmif-igraphbuilder-connect">IGraphBuilder::Connect</a> method or the <a href="/windows/desktop/api/strmif/nf-strmif-igraphbuilder-render">IGraphBuilder::Render</a> method.
 
 If the method succeeds, the <b>IBaseFilter</b> interface has an outstanding reference count. The caller must release the interface.
 
-To render a file for default playback, use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphbuilder-renderfile">IGraphBuilder::RenderFile</a> method.
+To render a file for default playback, use the <a href="/windows/desktop/api/strmif/nf-strmif-igraphbuilder-renderfile">IGraphBuilder::RenderFile</a> method.
 
 The Filter Graph Manager holds a reference count on the filter until the filter is removed from the graph or the Filter Graph Manager is released.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>

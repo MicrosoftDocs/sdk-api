@@ -63,7 +63,7 @@ This property is read/write.
 
 ## -remarks
 
-Use the <b>Font</b> property of an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control to identify a specific Font object whose properties you want to use. For example, the following code changes the <b>Bold</b> property setting of a Font object identified by the <b>Font</b> property of an InkEdit control:
+Use the <b>Font</b> property of an <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control to identify a specific Font object whose properties you want to use. For example, the following code changes the <b>Bold</b> property setting of a Font object identified by the <b>Font</b> property of an InkEdit control:
 
 <code>myInkEditControl.Font.Bold = true;</code>
 
@@ -73,5 +73,4 @@ Use the <b>Font</b> property of an <a href="https://docs.microsoft.com/windows/d
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

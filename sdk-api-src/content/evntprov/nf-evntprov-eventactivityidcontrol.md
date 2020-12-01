@@ -56,7 +56,7 @@ api_name:
 ## -description
 
 Creates, queries, and sets the current activity identifier used by the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a> function.
+   <a href="/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a> function.
 
 ## -parameters
 
@@ -145,5 +145,4 @@ The EVENT_ACTIVITY_CTRL_GET_ID control code returns a GUID with all zeros (GUID_
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>
-
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventwritetransfer">EventWriteTransfer</a>

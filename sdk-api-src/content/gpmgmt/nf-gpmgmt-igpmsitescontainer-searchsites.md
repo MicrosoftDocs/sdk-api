@@ -46,9 +46,6 @@ api_name:
  - GPMSitesContainer.SearchSites
 ---
 
-# IGPMSitesContainer::SearchSites
-
-
 ## -description
 
 Retrieves a collection of scope of management (SOM) objects based on the specified search criteria. This method returns only site objects.
@@ -59,23 +56,15 @@ Retrieves a collection of scope of management (SOM) objects based on the specifi
 
 Pointer to criteria to supply to the search. Valid criteria for the search include the following.
 
-
-
 #### somLinks
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> or an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface to query the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a> interface. For script programmers, this is a reference to a <b>GPMGPO</b> object.  Valid criteria includes the opContains search operator.
+Pointer to an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> or an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface to query the 
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a> interface. For script programmers, this is a reference to a <b>GPMGPO</b> object.  Valid criteria includes the opContains search operator.
 
 ### -param ppIGPMSOMCollection [out]
 
 Address of a pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsomcollection">IGPMSOMCollection</a> interface.
-
-
-#### - objGPMSearchCriteria
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">GPMGPO</a> object to supply to the search.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsomcollection">IGPMSOMCollection</a> interface.
 
 ## -returns
 
@@ -90,13 +79,12 @@ Returns a reference to a <b>GPMSOMCollection</b> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsomcollection">IGPMSOMCollection</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsomcollection">IGPMSOMCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsitescontainer">IGPMSitesContainer</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsitescontainer">IGPMSitesContainer</a>

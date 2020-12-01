@@ -50,10 +50,10 @@ api_name:
 
 ## -description
 
-The <b>CryptRegisterOIDFunction</b> function registers a DLL that contains the function to be called for the specified encoding type, function name, and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
+The <b>CryptRegisterOIDFunction</b> function registers a DLL that contains the function to be called for the specified encoding type, function name, and <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID).
 
 By default, new function names are installed at the end of the list. To register a new function before the installed functions, call 
-the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a> function with <i>dwValueType</i> set to <b>REG_DWORD</b> and <i>pwszValueName</i> set to CRYPT_OID_REG_FLAGS_VALUE_NAME.
+the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a> function with <i>dwValueType</i> set to <b>REG_DWORD</b> and <i>pwszValueName</i> set to CRYPT_OID_REG_FLAGS_VALUE_NAME.
 
 CRYPT_OID_REG_FLAGS_VALUE_NAME is defined as L"CryptFlags".
 
@@ -74,11 +74,11 @@ Name of the function being registered.
 
 ### -param pszOID [in]
 
-OID of the function to be registered. If the high-order word of the OID is nonzero, <i>pszOID</i> is a pointer to either an OID string such as "2.5.29.1" or an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">ASCII</a> string such as "file." If the high-order word of the OID is zero, the low-order word specifies the numeric identifier to be used as the object identifier.
+OID of the function to be registered. If the high-order word of the OID is nonzero, <i>pszOID</i> is a pointer to either an OID string such as "2.5.29.1" or an <a href="/windows/desktop/SecGloss/a-gly">ASCII</a> string such as "file." If the high-order word of the OID is zero, the low-order word specifies the numeric identifier to be used as the object identifier.
 
 ### -param pwszDll [in]
 
-Name of the DLL file to be registered. It can contain environment-variable strings to be expanded by using the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> function before loading the DLL.
+Name of the DLL file to be registered. It can contain environment-variable strings to be expanded by using the <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> function before loading the DLL.
 
 ### -param pszOverrideFuncName [in]
 
@@ -92,17 +92,16 @@ If the function fails, the return value is zero (<b>FALSE</b>).
 
 ## -remarks
 
-When you have finished using an OID function, unregister it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidfunction">CryptUnregisterOIDFunction</a>  function.
+When you have finished using an OID function, unregister it by calling the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidfunction">CryptUnregisterOIDFunction</a>  function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetoidfunctionvalue">CryptSetOIDFunctionValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidfunction">CryptUnregisterOIDFunction</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidfunction">CryptUnregisterOIDFunction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">OID Support Functions</a>

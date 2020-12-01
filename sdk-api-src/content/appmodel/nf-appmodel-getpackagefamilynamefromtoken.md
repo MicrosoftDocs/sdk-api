@@ -117,7 +117,7 @@ The buffer is not large enough to hold the data. The required size is specified 
 
 ## -remarks
 
-For info about string size limits, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
+For info about string size limits, see <a href="/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
 
 
 #### Examples
@@ -211,4 +211,3 @@ void ShowProcessPackageFamilyName(__in const UINT32 pid, __in HANDLE token)
 }
 
 ```
-

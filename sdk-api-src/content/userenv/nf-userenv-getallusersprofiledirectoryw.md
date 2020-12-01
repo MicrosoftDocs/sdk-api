@@ -76,7 +76,7 @@ If the buffer specified by <i>lpProfileDir</i> is not large enough or <i>lpProfi
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<b>TRUE</b> if successful; otherwise, <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -86,7 +86,7 @@ The following is an example of the path returned by <b>GetAllUsersProfileDirecto
 The following is an example of the path returned by <b>GetAllUsersProfileDirectory</b> in Windows 7:
 
 <pre class="syntax" xml:space="preserve"><code>C:\ProgramData</code></pre>
-To obtain the paths of subdirectories of this directory, use the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">SHGetFolderPath</a> (Windows XP and earlier) or <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a> (Windows Vista) function.
+To obtain the paths of subdirectories of this directory, use the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha">SHGetFolderPath</a> (Windows XP and earlier) or <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a> (Windows Vista) function.
 
 
 
@@ -97,21 +97,20 @@ To obtain the paths of subdirectories of this directory, use the <a href="https:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getdefaultuserprofiledirectorya">GetDefaultUserProfileDirectory</a>
+<a href="/windows/desktop/api/userenv/nf-userenv-getdefaultuserprofiledirectorya">GetDefaultUserProfileDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getprofilesdirectorya">GetProfilesDirectory</a>
+<a href="/windows/desktop/api/userenv/nf-userenv-getprofilesdirectorya">GetProfilesDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-getuserprofiledirectorya">GetUserProfileDirectory</a>
+<a href="/windows/desktop/api/userenv/nf-userenv-getuserprofiledirectorya">GetUserProfileDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776900(v=vs.85)">User Profiles Overview</a>
+<a href="/previous-versions/windows/desktop/legacy/bb776900(v=vs.85)">User Profiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>

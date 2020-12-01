@@ -84,9 +84,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainerlist">IWMPContentContainerList Interface</a>
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainerlist">IWMPContentContainerList Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainerlist-getcontainer">IWMPContentContainerList::GetContainer</a>
-
+<a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainerlist-getcontainer">IWMPContentContainerList::GetContainer</a>

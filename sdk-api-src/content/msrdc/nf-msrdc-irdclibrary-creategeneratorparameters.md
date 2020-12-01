@@ -52,7 +52,7 @@ api_name:
 
 The 
     <b>CreateGeneratorParameters</b> method 
-    returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> 
+    returns an <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> 
   interface pointer initialized with the  parameters necessary for a signature generator.
 
 ## -parameters
@@ -72,7 +72,7 @@ The recursion level for this parameter block. A parameter block is needed for ea
 ### -param iGeneratorParameters [out]
 
 Pointer to a location that will receive an 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> interface pointer. On a 
+    <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a> interface pointer. On a 
   successful return the interface will be initialized on return. Callers must release the interface.
 
 ## -returns
@@ -85,9 +85,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a>
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcgeneratorparameters">IRdcGeneratorParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdclibrary">IRdcLibrary</a>
-
+<a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdclibrary">IRdcLibrary</a>

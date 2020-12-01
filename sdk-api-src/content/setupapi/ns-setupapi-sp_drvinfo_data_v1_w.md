@@ -100,7 +100,7 @@ A NULL-terminated string giving the provider of this driver. This is typically t
 
 #### - DriverDate
 
-Date of the driver. From the <b>DriverVer</b> entry in the INF file. See the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall Section</a> for more information about the <b>DriverVer</b> entry.
+Date of the driver. From the <b>DriverVer</b> entry in the INF file. See the <a href="/windows-hardware/drivers/install/inf-ddinstall-section">INF DDInstall Section</a> for more information about the <b>DriverVer</b> entry.
 
 ### -field DriverType.SPDIT_CLASSDRIVER
 
@@ -140,21 +140,20 @@ SP_DRVINFO_DATA_V1 does not contain <b>DriverDate</b> and <b>DriverVersion</b> m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdienumdriverinfoa">SetupDiEnumDriverInfo</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdienumdriverinfoa">SetupDiEnumDriverInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdriverinstallparamsa">SetupDiGetDriverInstallParams</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdriverinstallparamsa">SetupDiGetDriverInstallParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetselecteddrivera">SetupDiGetSelectedDriver</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetselecteddrivera">SetupDiGetSelectedDriver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdriverinstallparamsa">SetupDiSetDriverInstallParams</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdriverinstallparamsa">SetupDiSetDriverInstallParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetselecteddrivera">SetupDiSetSelectedDriver</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetselecteddrivera">SetupDiSetSelectedDriver</a>

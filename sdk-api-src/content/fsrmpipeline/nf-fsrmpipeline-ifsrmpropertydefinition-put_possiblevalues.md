@@ -65,17 +65,16 @@ You must specify a possible values list if the property's type is
     <b>FsrmPropertyDefinitionType_MultiChoiceList.</b>
 
 You cannot delete a possible value from the list if a rule specifies the value (see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationrule-get_value">IFsrmClassificationRule.Value</a>). Deleting 
+    <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationrule-get_value">IFsrmClassificationRule.Value</a>). Deleting 
     the value does not remove the value from files that are currently classified using that value.
 
 You can change the order of the values in the list. For ordered lists, changing the order can affect 
     aggregation the next time classification runs.
 
 To specify descriptions for each possible value, set the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertydefinition-get_valuedescriptions">IFsrmPropertyDefinition.ValueDescriptions</a> 
+    <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertydefinition-get_valuedescriptions">IFsrmPropertyDefinition.ValueDescriptions</a> 
     property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition">IFsrmPropertyDefinition</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition">IFsrmPropertyDefinition</a>

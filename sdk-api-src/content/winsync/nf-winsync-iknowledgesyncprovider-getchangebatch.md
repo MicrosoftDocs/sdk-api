@@ -60,7 +60,7 @@ The requested number of changes to include in the change batch.
 
 ### -param pSyncKnowledge [in]
 
-The knowledge from the destination provider. This knowledge must be mapped by calling  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-mapremotetolocal">ISyncKnowledge::MapRemoteToLocal</a> on the source knowledge before it can be used for change enumeration.
+The knowledge from the destination provider. This knowledge must be mapped by calling  <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-mapremotetolocal">ISyncKnowledge::MapRemoteToLocal</a> on the source knowledge before it can be used for change enumeration.
 
 ### -param ppSyncChangeBatch [out]
 
@@ -68,7 +68,7 @@ Returns a change batch that contains item metadata for items that are not contai
 
 ### -param ppUnkDataRetriever [out]
 
-Returns an object that can be used to retrieve change data. It can be an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever</a> object or a provider-specific object.
+Returns an object that can be used to retrieve change data. It can be an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever</a> object or a provider-specific object.
 
 ## -returns
 
@@ -105,10 +105,9 @@ The method succeeded.
 Be aware that <i>dwBatchSize</i> is a requested number only. A smaller or larger batch can be returned.
 
 
-<div class="alert"><b>Note</b>  If there are no more changes to send after this batch, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase::SetLastBatch</a> must be called on the returned change batch before <b>GetChangeBatch</b> is called again.</div>
+<div class="alert"><b>Note</b>  If there are no more changes to send after this batch, <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase::SetLastBatch</a> must be called on the returned change batch before <b>GetChangeBatch</b> is called again.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>

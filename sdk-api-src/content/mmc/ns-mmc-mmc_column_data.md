@@ -57,7 +57,7 @@ MMC_COLUMN_DATA structure is introduced in MMC 1.2.
 
 The 
 MMC_COLUMN_DATA structure contains the column data of a single column in a column set. The column data is persisted in memory by MMC. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_column_set_data">MMC_COLUMN_SET_DATA</a> structure holds a pointer to an array of 
+<a href="/windows/desktop/api/mmc/ns-mmc-mmc_column_set_data">MMC_COLUMN_SET_DATA</a> structure holds a pointer to an array of 
 MMC_COLUMN_DATA structures.
 
 ## -struct-fields
@@ -82,17 +82,16 @@ Not currently used.
 
 By setting the dwFlags member of the 
 MMC_COLUMN_DATA structure, a snap-in can hide or show columns in a column set in calls to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icolumndata-setcolumnconfigdata">IColumnData::SetColumnConfigData</a>. However, column "0" of a column set cannot be hidden. This is to ensure that result pane icons are properly inserted in the first column and that the MMC_VERB_RENAME console verb functions properly.
+<a href="/windows/desktop/api/mmc/nf-mmc-icolumndata-setcolumnconfigdata">IColumnData::SetColumnConfigData</a>. However, column "0" of a column set cannot be hidden. This is to ensure that result pane icons are properly inserted in the first column and that the MMC_VERB_RENAME console verb functions properly.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-column-set-id">CCF_COLUMN_SET_ID</a>
+<a href="/previous-versions/windows/desktop/mmc/ccf-column-set-id">CCF_COLUMN_SET_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_column_set_data">MMC_COLUMN_SET_DATA</a>
+<a href="/windows/desktop/api/mmc/ns-mmc-mmc_column_set_data">MMC_COLUMN_SET_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>
-
+<a href="/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>

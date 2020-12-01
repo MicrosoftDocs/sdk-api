@@ -57,21 +57,20 @@ Get the rendering predicate state.
 
 ### -param ppPredicate [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10predicate">ID3D10Predicate</a>**</b>
+Type: <b><a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10predicate">ID3D10Predicate</a>**</b>
 
-Address of a pointer to a predicate (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10predicate">ID3D10Predicate</a>). Value stored here will be <b>NULL</b> upon device creation.
+Address of a pointer to a predicate (see <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10predicate">ID3D10Predicate</a>). Value stored here will be <b>NULL</b> upon device creation.
 
 ### -param pPredicateValue [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a>*</b>
 
 Address of a boolean to fill with the predicate comparison value. <b>FALSE</b> upon device creation.
 
 ## -remarks
 
-Any returned interfaces will have their reference count incremented by one. Applications should call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
+Any returned interfaces will have their reference count incremented by one. Applications should call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>

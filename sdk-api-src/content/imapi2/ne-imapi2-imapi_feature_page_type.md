@@ -315,13 +315,12 @@ Other values not defined here may exist. Consumers of this enumeration should no
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedfeaturepages">IDiscRecorder2::get_SupportedFeaturePages</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedfeaturepages">IDiscRecorder2::get_SupportedFeaturePages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage">IDiscRecorder2Ex::GetFeaturePage</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage">IDiscRecorder2Ex::GetFeaturePage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages">IDiscRecorder2Ex::GetSupportedFeaturePages</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages">IDiscRecorder2Ex::GetSupportedFeaturePages</a>

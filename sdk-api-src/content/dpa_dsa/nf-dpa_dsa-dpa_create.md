@@ -43,6 +43,7 @@ api_location:
  - ComCtl32.dll
 api_name:
  - DPA_Create
+req.apiset: ext-ms-win-shell-comctl32-da-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DPA_Create function
@@ -70,5 +71,4 @@ Returns a handle to a DPA if successful, or <b>NULL</b> if the call fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_createex">DPA_CreateEx</a>
-
+<a href="/windows/desktop/api/dpa_dsa/nf-dpa_dsa-dpa_createex">DPA_CreateEx</a>

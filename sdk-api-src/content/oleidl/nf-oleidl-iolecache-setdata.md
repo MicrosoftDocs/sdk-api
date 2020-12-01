@@ -56,11 +56,11 @@ Initializes the cache with data in a specified format and on a specified medium.
 
 ### -param pformatetc [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure that specifies the format of the presentation data being placed in the cache.
+A pointer to a <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure that specifies the format of the presentation data being placed in the cache.
 
 ### -param pmedium [in]
 
-A pointer to a <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure that specifies the storage medium that contains the presentation data.
+A pointer to a <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium-r1">STGMEDIUM</a> structure that specifies the storage medium that contains the presentation data.
 
 ### -param fRelease [in]
 
@@ -93,7 +93,7 @@ The value is not valid for <i>pformatetc</i>-&gt;<b>lindex</b>. Currently, only 
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure is invalid.
+The <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structure is invalid.
 
 </td>
 </tr>
@@ -158,19 +158,18 @@ The storage medium is full.
 
 <b>IOleCache::SetData</b> is usually called when an object is created from the clipboard or through a drag-and-drop operation, and Embed Source data is used to create the object.
 
-<b>IOleCache::SetData</b> and <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-initcache">IOleCache::InitCache</a> are very similar. There are two main differences. The first difference is that while <b>IOleCache::InitCache</b> initializes the cache with the presentation format provided by the data object, <b>IOleCache::SetData</b> initializes it with a single format. Second, the <b>IOleCache::SetData</b> method ignores the ADVF_NODATA flag while <b>IOleCache::InitCache</b> obeys this flag.
+<b>IOleCache::SetData</b> and <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-initcache">IOleCache::InitCache</a> are very similar. There are two main differences. The first difference is that while <b>IOleCache::InitCache</b> initializes the cache with the presentation format provided by the data object, <b>IOleCache::SetData</b> initializes it with a single format. Second, the <b>IOleCache::SetData</b> method ignores the ADVF_NODATA flag while <b>IOleCache::InitCache</b> obeys this flag.
 
 A container can use this method to maintain a single aspect of an object, such as the icon aspect of the object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-setdata">IOleCache::SetData</a>
-
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-setdata">IOleCache::SetData</a>

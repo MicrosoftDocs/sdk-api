@@ -52,14 +52,14 @@ api_name:
 
 ## -description
 
-The <b>SCardForgetReader</b> function removes a previously introduced <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a> from control by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card subsystem</a>. It is removed from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">smart card database</a>, including from any <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader group</a> that it may have been added to.
+The <b>SCardForgetReader</b> function removes a previously introduced <a href="/windows/desktop/SecGloss/r-gly">reader</a> from control by the <a href="/windows/desktop/SecGloss/s-gly">smart card subsystem</a>. It is removed from the <a href="/windows/desktop/SecGloss/s-gly">smart card database</a>, including from any <a href="/windows/desktop/SecGloss/r-gly">reader group</a> that it may have been added to.
 
 ## -parameters
 
 ### -param hContext [in]
 
-Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This parameter cannot be <b>NULL</b>.
+Handle that identifies the <a href="/windows/desktop/SecGloss/r-gly">resource manager context</a>. The resource manager context is set by a previous call to 
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. This parameter cannot be <b>NULL</b>.
 
 ### -param szReaderName [in]
 
@@ -93,7 +93,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -104,12 +104,12 @@ An error code. For more information, see
 If the specified reader is the last member of a reader group, the reader group is automatically removed as well.
 
 The <b>SCardForgetReader</b> function is a database management function. For more information on other database management functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-database-management-functions">Smart Card Database Management Functions</a>.
+<a href="/windows/desktop/SecAuthN/smart-card-database-management-functions">Smart Card Database Management Functions</a>.
 
 
 #### Examples
 
-The following example removes the display name of the specified card reader from the system. The example assumes that lReturn is a valid variable of type <b>LONG</b> and that hContext is a valid handle received from a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function.
+The following example removes the display name of the specified card reader from the system. The example assumes that lReturn is a valid variable of type <b>LONG</b> and that hContext is a valid handle received from a previous call to the <a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a> function.
 
 
 ```cpp
@@ -131,17 +131,16 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardforgetcardtypea">SCardForgetCardType</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardforgetcardtypea">SCardForgetCardType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardforgetreadergroupa">SCardForgetReaderGroup</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardforgetreadergroupa">SCardForgetReaderGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardintroducereadera">SCardIntroduceReader</a>
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardintroducereadera">SCardIntroduceReader</a>

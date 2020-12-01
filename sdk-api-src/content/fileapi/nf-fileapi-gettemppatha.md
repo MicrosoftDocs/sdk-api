@@ -88,7 +88,7 @@ If the function succeeds, the return value is the length, in <b>TCHARs</b>, of t
        <b>TCHARs</b>, of the buffer required to hold the path.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The maximum possible return value is <b>MAX_PATH</b>+1 (261).
 
@@ -176,7 +176,7 @@ Yes
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-using-a-temporary-file">Creating and Using a Temporary File</a>.
+     <a href="/windows/desktop/FileIO/creating-and-using-a-temporary-file">Creating and Using a Temporary File</a>.
 
 <div class="code"></div>
 
@@ -188,13 +188,12 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-gettempfilenamea">GetTempFileName</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-gettempfilenamea">GetTempFileName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
-
+<a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>

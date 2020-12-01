@@ -56,7 +56,7 @@ Retrieves the sensor profile ID.
 
 ### -param pId [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-sensorprofileid">SENSORPROFILEID</a> containing the profile ID.
+Pointer to a <a href="/windows/win32/api/mfidl/ns-mfidl-sensorprofileid">SENSORPROFILEID</a> containing the profile ID.
 
 ## -returns
 
@@ -64,5 +64,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofile">IMFSensorProfile</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofile">IMFSensorProfile</a>

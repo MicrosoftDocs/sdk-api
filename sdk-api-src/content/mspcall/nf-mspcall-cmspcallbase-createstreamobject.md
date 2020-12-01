@@ -52,20 +52,20 @@ api_name:
 
 The 
 <b>CreateStreamObject</b> method is called by 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-internalcreatestream">InternalCreateStream</a>. The derived class should <b>CreateInstance</b> on its stream object, do an ATL <b>_InternalQueryInterface</b> to obtain an 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> pointer from the stream object, and call the stream object's 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-init">Init</a> method (on the stream object pointer, not the 
+<a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-internalcreatestream">InternalCreateStream</a>. The derived class should <b>CreateInstance</b> on its stream object, do an ATL <b>_InternalQueryInterface</b> to obtain an 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> pointer from the stream object, and call the stream object's 
+<a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-init">Init</a> method (on the stream object pointer, not the 
 <b>ITStream</b> pointer).
 
 ## -parameters
 
 ### -param dwMediaType
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media type</a> of stream to be created.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">Media type</a> of stream to be created.
 
 ### -param Direction
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">Direction</a> of stream.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">Direction</a> of stream.
 
 ### -param pGraph
 
@@ -74,9 +74,8 @@ Pointer to DirectShow <b>IMediaEvent</b> interface.
 ### -param ppStream
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
-
+<a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>

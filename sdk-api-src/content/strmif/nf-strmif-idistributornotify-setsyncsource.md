@@ -57,7 +57,7 @@ The <code>SetSyncSource</code> method is called when a new clock is registered.
 
 ### -param pClock [in]
 
-Pointer to the new clock's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock</a> interface.
+Pointer to the new clock's <a href="/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock</a> interface.
 
 ## -returns
 
@@ -69,9 +69,8 @@ This method is called before the filters are notified. Make sure to use <b>AddRe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idistributornotify">IDistributorNotify Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idistributornotify">IDistributorNotify Interface</a>

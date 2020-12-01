@@ -57,7 +57,7 @@ The <code>UnregisterFilter</code> method removes filter information from the reg
 
 ### -param pclsidCategory [in]
 
-Address of a GUID that specifies the filter category from which to remove the filter. For a list of categories, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-categories">Filter Categories</a>.
+Address of a GUID that specifies the filter category from which to remove the filter. For a list of categories, see <a href="/windows/desktop/DirectShow/filter-categories">Filter Categories</a>.
 
 ### -param szInstance [in]
 
@@ -77,9 +77,8 @@ If the filter was not registered, the method might return an error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2 Interface</a>

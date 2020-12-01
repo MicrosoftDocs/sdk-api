@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
  - WTSQueryUserToken
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 ---
 
 # WTSQueryUserToken function
@@ -53,7 +54,7 @@ api_name:
 
 Obtains the primary access token of the logged-on user specified by the session ID. To call 
     this function successfully, the calling application must be running within the context of the 
-    <a href="https://docs.microsoft.com/windows/desktop/Services/localsystem-account">LocalSystem account</a> and have the 
+    <a href="/windows/desktop/Services/localsystem-account">LocalSystem account</a> and have the 
     <b>SE_TCB_NAME</b> privilege.
 <div class="alert"><b>Caution</b>  <b>WTSQueryUserToken</b> is 
     intended for highly trusted services. Service providers must use caution that they do not leak user tokens when 
@@ -65,19 +66,19 @@ Obtains the primary access token of the logged-on user specified by the session 
 
 A Remote Desktop Services session identifier. Any program running in the context of a service will have a 
        session identifier of zero (0). You can use the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a> function to retrieve 
+      <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a> function to retrieve 
       the identifiers of all sessions on a specified RD Session Host server.
 
 To be able to query information for another user's session, you need to have the Query Information 
        permission. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services 
+       <a href="/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services 
        Permissions</a>. To modify permissions on a session, use the Remote Desktop Services Configuration 
        administrative tool.
 
 ### -param phToken [out]
 
 If the function succeeds, receives a pointer to the token handle for the logged-on user. Note that you must 
-      call the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close this 
+      call the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to close this 
       handle.
 
 ## -returns
@@ -86,26 +87,25 @@ If the function succeeds, the return value is a nonzero value, and the <i>phToke
        parameter points to the primary token of the user.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among other errors, 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Among other errors, 
        <b>GetLastError</b> can return one of the following 
        errors.
 
 ## -remarks
 
 For information about primary tokens, see 
-    <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-tokens">Access Tokens</a>. For more information about 
+    <a href="/windows/desktop/SecAuthZ/access-tokens">Access Tokens</a>. For more information about 
     account privileges, see 
-    <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services Permissions</a> 
-    and <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-constants">Authorization Constants</a>.
+    <a href="/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services Permissions</a> 
+    and <a href="/windows/desktop/SecAuthZ/authorization-constants">Authorization Constants</a>.
 
-See <a href="https://docs.microsoft.com/windows/desktop/Services/localsystem-account">LocalSystem account</a> for 
+See <a href="/windows/desktop/Services/localsystem-account">LocalSystem account</a> for 
     information about the privileges associated with that account.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a>
-
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a>

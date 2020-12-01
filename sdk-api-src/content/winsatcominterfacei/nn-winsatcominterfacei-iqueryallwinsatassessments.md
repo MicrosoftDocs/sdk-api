@@ -54,13 +54,12 @@ api_name:
 
 Retrieves details about all formal WinSAT assessments.
 
-To retrieve this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function. Use __uuidof(CQueryAllWinSAT) as the class identifier and __uuidof(IQueryAllWinSATAssessments) as the interface identifier.
+To retrieve this interface, call the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function. Use __uuidof(CQueryAllWinSAT) as the class identifier and __uuidof(IQueryAllWinSATAssessments) as the interface identifier.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
+<a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iqueryrecentwinsatassessment">IQueryRecentWinSATAssessment</a>
-
+<a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iqueryrecentwinsatassessment">IQueryRecentWinSATAssessment</a>

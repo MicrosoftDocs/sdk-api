@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nn-netfw-inetfwservicerestriction">INetFwServiceRestriction</a>
-
+<a href="/windows/desktop/api/netfw/nn-netfw-inetfwservicerestriction">INetFwServiceRestriction</a>

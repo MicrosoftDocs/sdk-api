@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPTNET_URL_CACHE_FLUSH_INFO</b> structure contains expiry information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry. This structure composes the <b>pFlushInfo</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure that is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> method as the <i>pAuxInfo</i> parameter.
+The <b>CRYPTNET_URL_CACHE_FLUSH_INFO</b> structure contains expiry information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry. This structure composes the <b>pFlushInfo</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure that is passed to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptretrieveobjectbyurla">CryptRetrieveObjectByUrl</a> method as the <i>pAuxInfo</i> parameter.
 
 ## -struct-fields
 
@@ -106,9 +106,8 @@ Disable cache flushing for a retrieved URL.
 
 ### -field ExpireTime
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time the object expires.
+A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the time the object expires.
 
 ## -remarks
 
-The <b>dwExemptSeconds</b> member is added to the <b>ExpireTime</b> member to determine the flush time. If the <b>pLastSyncTime</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure  is after the <b>ExpireTime</b> member, the <b>pLastSyncTime</b> member  determines the flush time.
-
+The <b>dwExemptSeconds</b> member is added to the <b>ExpireTime</b> member to determine the flush time. If the <b>pLastSyncTime</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure  is after the <b>ExpireTime</b> member, the <b>pLastSyncTime</b> member  determines the flush time.

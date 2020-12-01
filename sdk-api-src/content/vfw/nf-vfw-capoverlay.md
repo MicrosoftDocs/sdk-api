@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capOverlay</b> macro enables or disables overlay mode. In overlay mode, video is displayed using hardware overlay. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-overlay">WM_CAP_SET_OVERLAY</a> message.
+The <b>capOverlay</b> macro enables or disables overlay mode. In overlay mode, video is displayed using hardware overlay. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-set-overlay">WM_CAP_SET_OVERLAY</a> message.
 
 ## -parameters
 
@@ -72,9 +72,8 @@ Enabling overlay mode automatically disables preview mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

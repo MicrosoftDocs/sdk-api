@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> interface.
+Extends the <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a> interface.
 
-The <a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a> implements this interface in Windows 8. To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the Source Reader.
+The <a href="/windows/desktop/medfound/source-reader">Source Reader</a> implements this interface in Windows 8. To get a pointer to this interface, call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the Source Reader.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceReaderEx</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>. <b>IMFSourceReaderEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFSourceReaderEx</b> interface inherits from <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>. <b>IMFSourceReaderEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMFSourceReaderEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereaderex-addtransformforstream">AddTransformForStream</a>
+<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereaderex-addtransformforstream">AddTransformForStream</a>
 </td>
 <td align="left" width="63%">
 Adds a transform, such as an audio or video effect, to a stream.
@@ -80,7 +80,7 @@ Adds a transform, such as an audio or video effect, to a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereaderex-gettransformforstream">GetTransformForStream</a>
+<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereaderex-gettransformforstream">GetTransformForStream</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
@@ -89,7 +89,7 @@ Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereaderex-removealltransformsforstream">RemoveAllTransformsForStream</a>
+<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereaderex-removealltransformsforstream">RemoveAllTransformsForStream</a>
 </td>
 <td align="left" width="63%">
 Removes all of the Media Foundation transforms (MFTs) for a specified stream, with the exception of the decoder.
@@ -98,7 +98,7 @@ Removes all of the Media Foundation transforms (MFTs) for a specified stream, wi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereaderex-setnativemediatype">SetNativeMediaType</a>
+<a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereaderex-setnativemediatype">SetNativeMediaType</a>
 </td>
 <td align="left" width="63%">
 Sets the native media type for a stream on the media source.
@@ -109,13 +109,12 @@ Sets the native media type for a stream on the media source.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereader">IMFSourceReader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
-
+<a href="/windows/desktop/medfound/source-reader">Source Reader</a>

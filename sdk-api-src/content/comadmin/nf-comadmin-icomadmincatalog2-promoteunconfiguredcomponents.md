@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Promotes the specified classes from unconfigured components to configured components.
-<div class="alert"><b>Note</b>  Before calling this method, its necessary to first import the unconfigured components by using the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-importunconfiguredcomponents">ImportUnconfiguredComponents</a> method. Otherwise, this method returns an E_INVALIDARG error.</div><div> </div>
+<div class="alert"><b>Note</b>  Before calling this method, its necessary to first import the unconfigured components by using the <a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-importunconfiguredcomponents">ImportUnconfiguredComponents</a> method. Otherwise, this method returns an E_INVALIDARG error.</div><div> </div>
 
 ## -parameters
 
@@ -61,7 +61,7 @@ The application ID or name of the application containing the components to be pr
 
 ### -param pVarCLSIDOrProgID [in]
 
-The unconfigured components to be promoted. Each element of the <b>Variant</b> may be a <b>String</b> containing a class ID or program ID, a single catalog object, or a catalog collection (for example, as returned by the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-getcollectionbyquery2">GetCollectionByQuery2</a> method).
+The unconfigured components to be promoted. Each element of the <b>Variant</b> may be a <b>String</b> containing a class ID or program ID, a single catalog object, or a catalog collection (for example, as returned by the <a href="/windows/desktop/api/comadmin/nf-comadmin-icomadmincatalog2-getcollectionbyquery2">GetCollectionByQuery2</a> method).
 
 ### -param pVarComponentType [in, optional]
 
@@ -102,5 +102,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>

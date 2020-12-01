@@ -96,9 +96,8 @@ The address in the <i>pSize</i> parameter is not valid. For example, it may be
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_size">IFont::put_Size</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_size">IFont::put_Size</a>

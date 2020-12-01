@@ -67,11 +67,11 @@ The number of ARP entries in the table.
 ### -field table
 
 A pointer to a table of ARP entries implemented as an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a> structures.
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a> structures.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipnettable">GetIpNetTable</a> function retrieves the IPv4-to-physical address mapping table.
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipnettable">GetIpNetTable</a> function retrieves the IPv4-to-physical address mapping table.
 
 
 on a local system and returns this information in a <b>MIB_IPNETTABLE</b> structure. 
@@ -80,7 +80,7 @@ on a local system and returns this information in a <b>MIB_IPNETTABLE</b> struct
 
 The <b>dwNumEntries</b> member in this structure may be zero if there are no ARP entries in the table.
 
-The <b>MIB_IPNETTABLE</b> structure may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a> array entry in the <b>table</b> member. Padding for alignment may also be present between the <b>MIB_IPNETROW</b> array entries in the <b>table</b> member. Any access to a <b>MIB_IPNETROW</b> array entry should assume  padding may exist. 
+The <b>MIB_IPNETTABLE</b> structure may contain padding for alignment between the <b>dwNumEntries</b> member and the first <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a> array entry in the <b>table</b> member. Padding for alignment may also be present between the <b>MIB_IPNETROW</b> array entries in the <b>table</b> member. Any access to a <b>MIB_IPNETROW</b> array entry should assume  padding may exist. 
 
 
 
@@ -88,9 +88,8 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getipnettable">GetIpNetTable</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipnettable">GetIpNetTable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a>
-
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a>

@@ -72,7 +72,7 @@ Creates a vector with unsigned integer components.
 
 ## -returns
 
-An instance <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> each of whose four components (<i>x</i>,<i>y</i>,<i>z</i>, and <i>w</i>) is an integer with the same value as the corresponding input argument to <code>XMVectorSetInt</code>.
+An instance <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> each of whose four components (<i>x</i>,<i>y</i>,<i>z</i>, and <i>w</i>) is an integer with the same value as the corresponding input argument to <code>XMVectorSetInt</code>.
 
 ## -remarks
 
@@ -96,5 +96,4 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-initialization">Vector Initialization Functions</a>
-
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-initialization">Vector Initialization Functions</a>

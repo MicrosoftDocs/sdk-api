@@ -51,13 +51,13 @@ api_name:
 ## -description
 
 Create a buffer.
-<div class="alert"><b>Note</b>  Instead of using this function, we recommend that you use the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcreateblob">D3DCreateBlob</a> API.</div><div> </div>
+<div class="alert"><b>Note</b>  Instead of using this function, we recommend that you use the <a href="/windows/desktop/direct3dhlsl/d3dcreateblob">D3DCreateBlob</a> API.</div><div> </div>
 
 ## -parameters
 
 ### -param NumBytes [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 Number of bytes in the blob.
 
@@ -71,9 +71,8 @@ The address of a pointer to the buffer (see <a href="https://msdn.microsoft.com/
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns one of the following <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-returnvalues">Direct3D 10 Return Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-functions">Core Functions</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-functions">Core Functions</a>

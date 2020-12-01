@@ -60,13 +60,12 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxsender">FaxSender</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsender">IFaxSender</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsender">IFaxSender</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>

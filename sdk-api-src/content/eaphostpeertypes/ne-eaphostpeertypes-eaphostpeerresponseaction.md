@@ -47,9 +47,6 @@ api_name:
  - EapHostPeerResponseAction
 ---
 
-# EapHostPeerResponseAction enumeration
-
-
 ## -description
 
 Defines the set of actions an EAP authenticator or peer method can indicate to a supplicant during authentication.
@@ -70,6 +67,8 @@ The supplicant should act on EAP attributes returned by the EAP authenticator.
 
 ### -field EapHostPeerResponseInvokeUi
 
+The supplicant should invoke a user interface dialog on the client.
+
 ### -field EapHostPeerResponseRespond
 
 The supplicant should generate a  context-specific response to the EAP authenticator request.
@@ -81,12 +80,6 @@ The EAPHost has started authentication.
 ### -field EapHostPeerResponseNone
 
 The supplicant should generate no  response to the EAP authenticator request.
-
-### -field v1_enum
-
-### -field EapHostPeerResponseInvokeUI
-
-The supplicant should invoke a user interface dialog on the client.
 
 ## -see-also
 

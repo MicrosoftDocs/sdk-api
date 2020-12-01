@@ -58,7 +58,7 @@ The
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 ### -param RouteListHandle [out]
 
@@ -100,13 +100,12 @@ There is not enough memory to complete this operation.
 ## -remarks
 
 For sample code using this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/use-a-client-specific-route-list">Use a Client-Specific Route List</a>.
+<a href="/windows/desktop/RRAS/use-a-client-specific-route-list">Use a Client-Specific Route List</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeleteroutelist">RtmDeleteRouteList</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmdeleteroutelist">RtmDeleteRouteList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtminsertinroutelist">RtmInsertInRouteList</a>
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtminsertinroutelist">RtmInsertInRouteList</a>

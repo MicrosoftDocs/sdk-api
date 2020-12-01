@@ -65,14 +65,14 @@ A pointer to a null-terminated Unicode string that specifies the name of the use
 
 ### -param NewPasswordEncryptedWithOldNt [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-sampr_encrypted_user_password">SAMPR_ENCRYPTED_USER_PASSWORD</a> structure that contains the new clear text password encrypted using the current NT one-way function (OWF) password hash as the encryption key.
+A pointer to a <a href="/windows/desktop/api/mschapp/ns-mschapp-sampr_encrypted_user_password">SAMPR_ENCRYPTED_USER_PASSWORD</a> structure that contains the new clear text password encrypted using the current NT one-way function (OWF) password hash as the encryption key.
 
 <div class="alert"><b>Note</b>  Use  the <b>NewPasswordEncryptedWithOldNtPasswordHash()</b> function as defined in <a href="https://www.ietf.org/rfc/rfc2433.txt">RFC 2433</a>, section A.11 to calculate the cipher for <i>NewPasswordEncryptedWithOldNt</i>.</div>
 <div> </div>
 
 ### -param OldNtOwfPasswordEncryptedWithNewNt [in]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/cc325729(v=vs.85)">ENCRYPTED_NT_OWF_PASSWORD</a> structure that contains the old NT OWF password hash encrypted using the new NT OWF password hash as the encryption key.
+A pointer to an <a href="/previous-versions/windows/desktop/legacy/cc325729(v=vs.85)">ENCRYPTED_NT_OWF_PASSWORD</a> structure that contains the old NT OWF password hash encrypted using the new NT OWF password hash as the encryption key.
 
 ### -param LmPresent [in]
 
@@ -80,14 +80,14 @@ A <b>BOOLEAN</b> that specifies if the current Lan Manager (LM) or NT OWF passwo
 
 ### -param NewPasswordEncryptedWithOldLm [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-sampr_encrypted_user_password">SAMPR_ENCRYPTED_USER_PASSWORD</a> structure that contains the new clear text password encrypted using the current LM OWF password hash.
+A pointer to a <a href="/windows/desktop/api/mschapp/ns-mschapp-sampr_encrypted_user_password">SAMPR_ENCRYPTED_USER_PASSWORD</a> structure that contains the new clear text password encrypted using the current LM OWF password hash.
 
 <div class="alert"><b>Note</b>  Use  the <b>NewPasswordEncryptedWithOldLmPasswordHash()</b> function as defined in <a href="https://www.ietf.org/rfc/rfc2433.txt">RFC 2433</a>, section A.15 to calculate the cipher for <i>NewPasswordEncryptedWithOldLm</i>.</div>
 <div> </div>
 
 ### -param OldLmOwfPasswordEncryptedWithNewLmOrNt [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mschapp/ns-mschapp-encrypted_lm_owf_password">ENCRYPTED_LM_OWF_PASSWORD</a> structure that contains the current LM OWF password hash encrypted using the new LM OWF password hash.
+A pointer to a <a href="/windows/desktop/api/mschapp/ns-mschapp-encrypted_lm_owf_password">ENCRYPTED_LM_OWF_PASSWORD</a> structure that contains the current LM OWF password hash encrypted using the new LM OWF password hash.
 
 ## -returns
 
@@ -188,15 +188,14 @@ The domain controller is serving in the incorrect role to perform the requested 
 
 ## -remarks
 
-This function allows users to change their own passwords only if they have the access: <a href="https://msdn.microsoft.com/library/ms684413.aspx">USER_CHANGE_PASSWORD</a>.
+This function allows users to change their own passwords only if they have the access: <a href="/windows/win32/adschema/r-user-change-password">USER_CHANGE_PASSWORD</a>.
 
 This function fails with <b>STATUS_PASSWORD_RESTRICTION</b> if the attempt to change the password conflicts with an administrative password restriction.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mschap/ms-chap-password-management-functions">MS-CHAP Password Management Functions</a>
+<a href="/previous-versions/windows/desktop/mschap/ms-chap-password-management-functions">MS-CHAP Password Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mschapp/nf-mschapp-mschapsrvchangepassword">MSChapSrvChangePassword</a>
-
+<a href="/previous-versions/windows/desktop/api/mschapp/nf-mschapp-mschapsrvchangepassword">MSChapSrvChangePassword</a>

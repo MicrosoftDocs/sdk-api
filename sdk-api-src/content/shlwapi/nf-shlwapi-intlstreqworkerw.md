@@ -90,5 +90,4 @@ Returns <b>TRUE</b> if the first <i>nChar</i> characters are identical, or <b>FA
 
 ## -remarks
 
-This function retrieves the thread locale and uses <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> to determine whether the first <i>nChar</i> characters are identical.
-
+This function retrieves the thread locale and uses <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a> to determine whether the first <i>nChar</i> characters are identical.

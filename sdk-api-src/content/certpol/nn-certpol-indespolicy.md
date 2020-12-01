@@ -54,7 +54,7 @@ The NDES Policy Module Interface.  When installed against an enterprise CA, NDES
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INDESPolicy</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INDESPolicy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INDESPolicy</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INDESPolicy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INDESPolicy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-indespolicy-generatechallenge">GenerateChallenge</a>
+<a href="/windows/desktop/api/certpol/nf-certpol-indespolicy-generatechallenge">GenerateChallenge</a>
 </td>
 <td align="left" width="63%">
 Performs the policy decision whether to issue a challenge password to the SCEP client.
@@ -78,7 +78,7 @@ Performs the policy decision whether to issue a challenge password to the SCEP c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-indespolicy-initialize">Initialize</a>
+<a href="/windows/desktop/api/certpol/nf-certpol-indespolicy-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the NDES policy module.
@@ -87,7 +87,7 @@ Initializes the NDES policy module.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-indespolicy-notify">Notify</a>
+<a href="/windows/desktop/api/certpol/nf-certpol-indespolicy-notify">Notify</a>
 </td>
 <td align="left" width="63%">
 Notifies the plug-in of the transaction status of the SCEP certificate request.
@@ -96,7 +96,7 @@ Notifies the plug-in of the transaction status of the SCEP certificate request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-indespolicy-uninitialize">Uninitialize</a>
+<a href="/windows/desktop/api/certpol/nf-certpol-indespolicy-uninitialize">Uninitialize</a>
 </td>
 <td align="left" width="63%">
 Uninitializes the NDES policy module.
@@ -105,7 +105,7 @@ Uninitializes the NDES policy module.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certpol/nf-certpol-indespolicy-verifyrequest">VerifyRequest</a>
+<a href="/windows/desktop/api/certpol/nf-certpol-indespolicy-verifyrequest">VerifyRequest</a>
 </td>
 <td align="left" width="63%">
 Verifies the NDES certificate request for submission to the CA.
@@ -113,4 +113,3 @@ Verifies the NDES certificate request for submission to the CA.
 </td>
 </tr>
 </table>
-

@@ -70,17 +70,16 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-This function uninstalls the device without sending an <b>IRP_MN_QUERY_REMOVE_DEVICE</b> request or calling class installers or co-installers.       If your application will run only on a <a href="https://docs.microsoft.com/windows-hardware/drivers/develop/windows-10-editions-for-universal-drivers">Target Platform</a> of Desktop, instead of calling <b>CM_Uninstall_DevNode</b>, the application should uninstall the device by calling <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a> with the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-remove">DIF_REMOVE</a> code, or by calling <a href="https://docs.microsoft.com/windows/desktop/api/newdev/nf-newdev-diuninstalldevice">DiUninstallDevice</a>.
+This function uninstalls the device without sending an <b>IRP_MN_QUERY_REMOVE_DEVICE</b> request or calling class installers or co-installers.       If your application will run only on a <a href="/windows-hardware/drivers/develop/windows-10-editions-for-universal-drivers">Target Platform</a> of Desktop, instead of calling <b>CM_Uninstall_DevNode</b>, the application should uninstall the device by calling <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a> with the <a href="/windows-hardware/drivers/install/dif-remove">DIF_REMOVE</a> code, or by calling <a href="/windows/desktop/api/newdev/nf-newdev-diuninstalldevice">DiUninstallDevice</a>.
 
 Use the following sequence to call this function:
 
 <ol>
-<li>Check if <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_status">CM_Get_DevNode_Status</a> returns success.  This means that the device is present.</li>
-<li>If the device is present, call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtreew">CM_Query_And_Remove_SubTree</a>.</li>
+<li>Check if <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_devnode_status">CM_Get_DevNode_Status</a> returns success.  This means that the device is present.</li>
+<li>If the device is present, call <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtreew">CM_Query_And_Remove_SubTree</a>.</li>
 <li>Call <b>CM_Uninstall_DevNode</b>.</li>
 </ol>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicallclassinstaller">SetupDiCallClassInstaller</a>

@@ -56,7 +56,7 @@ Sets the blend mode to use when the blend effect combines the two images.
 
 ### -param mode [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/blend">D2D1_BLEND_MODE</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/blend">D2D1_BLEND_MODE</a></b>
 
 The blend mode to use when the blend effect combines the two images.
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionblendeffect">IDCompositionBlendEffect</a>
-
+<a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionblendeffect">IDCompositionBlendEffect</a>

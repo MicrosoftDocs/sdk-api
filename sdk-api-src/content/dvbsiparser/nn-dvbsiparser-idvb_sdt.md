@@ -53,13 +53,13 @@ api_name:
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
-The <b>IDVB_SDT</b> interface enables the client to get information from a service description table (SDT). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getsdt">IDvbSiParser::GetSDT</a> method returns a pointer to this interface.
+The <b>IDVB_SDT</b> interface enables the client to get information from a service description table (SDT). The <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsiparser-getsdt">IDvbSiParser::GetSDT</a> method returns a pointer to this interface.
 
 An SDT describes one or more services that are carried in a particular transport stream. The services may be carried in the same transport stream that carries the SDT, or a different transport stream.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVB_SDT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVB_SDT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDVB_SDT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDVB_SDT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IDVB_SDT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-convertnexttocurrent">ConvertNextToCurrent</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-convertnexttocurrent">ConvertNextToCurrent</a>
 </td>
 <td align="left" width="63%">
 Converts a <i>next</i> table to a <i>current</i> table.
@@ -83,7 +83,7 @@ Converts a <i>next</i> table to a <i>current</i> table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getcountofrecords">GetCountOfRecords</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getcountofrecords">GetCountOfRecords</a>
 </td>
 <td align="left" width="63%">
 Returns the number of records in the SDT.
@@ -92,7 +92,7 @@ Returns the number of records in the SDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getnexttable">GetNextTable</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getnexttable">GetNextTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <i>next</i> table that follows the current table.
@@ -101,7 +101,7 @@ Retrieves the <i>next</i> table that follows the current table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getoriginalnetworkid">GetOriginalNetworkId</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getoriginalnetworkid">GetOriginalNetworkId</a>
 </td>
 <td align="left" width="63%">
 Returns the original network identifier.
@@ -110,7 +110,7 @@ Returns the original network identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecordcountofdescriptors">GetRecordCountOfDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of descriptors for a record in the SDT.
@@ -119,7 +119,7 @@ Returns the number of descriptors for a record in the SDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecorddescriptorbyindex">GetRecordDescriptorByIndex</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecorddescriptorbyindex">GetRecordDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a descriptor for a specified record in the SDT.
@@ -128,7 +128,7 @@ Retrieves a descriptor for a specified record in the SDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecorddescriptorbytag">GetRecordDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches a record in the SDT for a descriptor with a specified descriptor tag.
@@ -137,7 +137,7 @@ Searches a record in the SDT for a descriptor with a specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecordeitpresentfollowingflag">GetRecordEITPresentFollowingFlag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecordeitpresentfollowingflag">GetRecordEITPresentFollowingFlag</a>
 </td>
 <td align="left" width="63%">
 Queries whether the current transport stream contains present/following EIT information for a particular service.
@@ -146,7 +146,7 @@ Queries whether the current transport stream contains present/following EIT info
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecordeitscheduleflag">GetRecordEITScheduleFlag</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecordeitscheduleflag">GetRecordEITScheduleFlag</a>
 </td>
 <td align="left" width="63%">
 Queries whether the current transport stream contains schedule EIT information for a particular service.
@@ -155,7 +155,7 @@ Queries whether the current transport stream contains schedule EIT information f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecordfreecamode">GetRecordFreeCAMode</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecordfreecamode">GetRecordFreeCAMode</a>
 </td>
 <td align="left" width="63%">
 Queries whether any of the component streams for a particular service are scrambled.
@@ -164,7 +164,7 @@ Queries whether any of the component streams for a particular service are scramb
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecordrunningstatus">GetRecordRunningStatus</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecordrunningstatus">GetRecordRunningStatus</a>
 </td>
 <td align="left" width="63%">
 Returns the running status of a particular service in the SDT.
@@ -173,7 +173,7 @@ Returns the running status of a particular service in the SDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecordserviceid">GetRecordServiceId</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getrecordserviceid">GetRecordServiceId</a>
 </td>
 <td align="left" width="63%">
 Returns the service identifier for a record in the SDT.
@@ -182,7 +182,7 @@ Returns the service identifier for a record in the SDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-gettransportstreamid">GetTransportStreamId</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-gettransportstreamid">GetTransportStreamId</a>
 </td>
 <td align="left" width="63%">
 Returns the transport stream identifier (TSID) for the SDT.
@@ -191,7 +191,7 @@ Returns the transport stream identifier (TSID) for the SDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getversionhash">GetVersionHash</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getversionhash">GetVersionHash</a>
 </td>
 <td align="left" width="63%">
 Returns a hash value for this table instance.
@@ -200,7 +200,7 @@ Returns a hash value for this table instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getversionnumber">GetVersionNumber</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-getversionnumber">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the version number for the SDT.
@@ -209,7 +209,7 @@ Returns the version number for the SDT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-initialize">Initialize</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -218,7 +218,7 @@ Initializes the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-registerfornexttable">RegisterForNextTable</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-registerfornexttable">RegisterForNextTable</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when a <i>next</i> table arrives that will replace the current table.
@@ -227,7 +227,7 @@ Registers the client to be notified when a <i>next</i> table arrives that will r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-registerforwhencurrent">RegisterForWhenCurrent</a>
+<a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvb_sdt-registerforwhencurrent">RegisterForWhenCurrent</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when the table becomes current.
@@ -238,5 +238,4 @@ Registers the client to be notified when the table becomes current.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

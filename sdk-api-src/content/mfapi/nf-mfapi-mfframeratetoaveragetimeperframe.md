@@ -74,7 +74,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 This function is useful for calculating time stamps on a sample, given the frame rate.
 
-Also, average time per frame is used in the older <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> format structures. This function provides a standard conversion so that all components in the pipeline can use consistent values, if they need to translate between the older format structures and the media type attributes used in Media Foundation.
+Also, average time per frame is used in the older <a href="/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader">VIDEOINFOHEADER</a> and <a href="/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2">VIDEOINFOHEADER2</a> format structures. This function provides a standard conversion so that all components in the pipeline can use consistent values, if they need to translate between the older format structures and the media type attributes used in Media Foundation.
 
 For certain common frame rates, the function gets the frame duration from a look-up table:
 
@@ -132,13 +132,12 @@ Most video content uses one of the frame rates listed here.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfaveragetimeperframetoframerate">MFAverageTimePerFrameToFrameRate</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mfaveragetimeperframetoframerate">MFAverageTimePerFrameToFrameRate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

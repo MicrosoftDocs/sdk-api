@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets a requested set of attributes of the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object.
+Gets a requested set of attributes of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> object.
 
 ## -parameters
 
@@ -58,13 +58,13 @@ Gets a requested set of attributes of the <a href="https://docs.microsoft.com/wi
 
 Type: <b>SFGAOF</b>
 
-Specifies the attributes to retrieve. One or more of the <a href="https://docs.microsoft.com/windows/desktop/shell/sfgao">SFGAO</a> values. Use a bitwise OR operator to determine the attributes to retrieve.
+Specifies the attributes to retrieve. One or more of the <a href="/windows/desktop/shell/sfgao">SFGAO</a> values. Use a bitwise OR operator to determine the attributes to retrieve.
 
 ### -param psfgaoAttribs [out]
 
 Type: <b>SFGAOF*</b>
 
-A pointer to a value that, when this method returns successfully, contains the requested attributes. One or more of the <a href="https://docs.microsoft.com/windows/desktop/shell/sfgao">SFGAO</a> values. Only those attributes specified by <i>sfgaoMask</i> are returned; other attribute values are undefined.
+A pointer to a value that, when this method returns successfully, contains the requested attributes. One or more of the <a href="/windows/desktop/shell/sfgao">SFGAO</a> values. Only those attributes specified by <i>sfgaoMask</i> are returned; other attribute values are undefined.
 
 ## -returns
 
@@ -74,13 +74,12 @@ Returns S_OK if the attributes returned exactly match those requested in <i>sfga
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemarray-getattributes">GetAttributes</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemarray-getattributes">GetAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">GetAttributesOf</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getattributesof">GetAttributesOf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>

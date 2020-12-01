@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>PARAM_BUFFER</b> structure describes the format of the parameter buffer that can be included in the <a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-control_service">CONTROL_SERVICE</a> structure.
+The <b>PARAM_BUFFER</b> structure describes the format of the parameter buffer that can be included in the <a href="/windows/desktop/api/qossp/ns-qossp-control_service">CONTROL_SERVICE</a> structure.
 
 ## -struct-fields
 
@@ -72,5 +72,4 @@ Buffer containing the parameter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/qossp/ns-qossp-control_service">CONTROL_SERVICE</a>
-
+<a href="/windows/desktop/api/qossp/ns-qossp-control_service">CONTROL_SERVICE</a>

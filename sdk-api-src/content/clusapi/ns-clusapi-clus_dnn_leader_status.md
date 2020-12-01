@@ -66,9 +66,8 @@ Represents the status of a Distributed Network Name (DNN) resource for a Scale-O
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_dnn_sodafs_clone_status">CLUS_DNN_SODAFS_CLONE_STATUS</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_dnn_sodafs_clone_status">CLUS_DNN_SODAFS_CLONE_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>

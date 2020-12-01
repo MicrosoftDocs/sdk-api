@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains status information used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a> function.
+<a href="/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a> function.
 
 ## -struct-fields
 
@@ -108,5 +108,4 @@ The following table lists the status codes returned in the <b>nStatus</b> member
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>
-
+<a href="/windows/desktop/api/srrestoreptapi/nf-srrestoreptapi-srsetrestorepointa">SRSetRestorePoint</a>

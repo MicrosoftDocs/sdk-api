@@ -79,7 +79,7 @@ The information level of the data requested. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return server names and platform information. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_100">SERVER_INFO_100</a> structures.
+<a href="/windows/desktop/api/lmserver/ns-lmserver-server_info_100">SERVER_INFO_100</a> structures.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Return server names and platform information. The <i>bufptr</i> parameter points
 </td>
 <td width="60%">
 Return server names, types, and associated data. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_101">SERVER_INFO_101</a> structures.
+<a href="/windows/desktop/api/lmserver/ns-lmserver-server_info_101">SERVER_INFO_101</a> structures.
 
 </td>
 </tr>
@@ -99,13 +99,13 @@ Return server names, types, and associated data. The <i>bufptr</i> parameter poi
 ### -param bufptr [out]
 
 A pointer to the buffer that receives the data. The format of this data depends on the value of the <i>level</i> parameter. This buffer is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with ERROR_MORE_DATA.
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with ERROR_MORE_DATA.
 
 ### -param prefmaxlen [in]
 
 The preferred maximum length of returned data, in bytes. If you specify MAX_PREFERRED_LENGTH, the function allocates the amount of memory required for the data. If you specify another value in this parameter, it can restrict the number of bytes that the function returns. If the buffer size is insufficient to hold all entries, the function returns ERROR_MORE_DATA. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 ### -param entriesread [out]
 
@@ -632,7 +632,7 @@ The
 An application combine the bit masks for various server types in the <i>servertype</i> parameter to list several types. For example, a value of SV_TYPE_WORKSTATION | SVTYPE_SERVER (0x00000003) combines the bit masks for SV_TYPE_WORKSTATION (0x00000001) and SV_TYPE_SERVER (0x00000002).
 
 If you require more information for a specific server, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a> function.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetenumresourcea">WNetEnumResource</a> function.
 
 No special group membership is required to successfully execute the 
 <b>NetServerEnum</b> function.
@@ -647,7 +647,7 @@ The
 <b>NetServerEnum</b> function depends on the browser service being installed and running. If no browser servers are found, then <b>NetServerEnum</b> fails with ERROR_NO_BROWSER_SERVERS_FOUND.
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same function you can achieve by calling the network management server functions. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscomputer">IADsComputer</a>.
+<a href="/windows/desktop/api/iads/nn-iads-iadscomputer">IADsComputer</a>.
 
 
 #### Examples
@@ -655,7 +655,7 @@ If you are programming for Active Directory, you may be able to call certain Act
 The following code sample demonstrates how to list all servers that are visible in a  domain with a call to the 
 <b>NetServerEnum</b> function. The sample calls 
 <b>NetServerEnum</b>, specifying information level 101 (
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_101">SERVER_INFO_101</a>). If any servers are found, the sample code loops through the entries and prints the retrieved data. If the server is a domain controller, it identifies the server as either a primary domain controller (PDC) or a backup domain controller (BDC). The sample also prints the total number of entries available and a hint about the number of entries actually enumerated, warning the user if all entries were not enumerated. Finally, the sample frees the memory allocated for the information buffer.
+<a href="/windows/desktop/api/lmserver/ns-lmserver-server_info_101">SERVER_INFO_101</a>). If any servers are found, the sample code loops through the entries and prints the retrieved data. If the server is a domain controller, it identifies the server as either a primary domain controller (PDC) or a backup domain controller (BDC). The sample also prints the total number of entries available and a hint about the number of entries actually enumerated, warning the user if all entries were not enumerated. Finally, the sample frees the memory allocated for the information buffer.
 
 
 ```cpp
@@ -782,32 +782,31 @@ int wmain(int argc, wchar_t * argv[])
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netquerydisplayinformation">NetQueryDisplayInformation</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netquerydisplayinformation">NetQueryDisplayInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverdiskenum">NetServerDiskEnum</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netserverdiskenum">NetServerDiskEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_100">SERVER_INFO_100</a>
+<a href="/windows/desktop/api/lmserver/ns-lmserver-server_info_100">SERVER_INFO_100</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_101">SERVER_INFO_101</a>
+<a href="/windows/desktop/api/lmserver/ns-lmserver-server_info_101">SERVER_INFO_101</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server
+<a href="/windows/desktop/NetMgmt/server-functions">Server
 		  Functions</a>
-

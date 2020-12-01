@@ -55,7 +55,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPServiceCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPServiceCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUPnPServiceCallback</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUPnPServiceCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IUPnPServiceCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservicecallback-serviceinstancedied">ServiceInstanceDied</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservicecallback-serviceinstancedied">ServiceInstanceDied</a>
 </td>
 <td align="left" width="63%">
 Method that indicates that a service will no longer be sending events.
@@ -79,7 +79,7 @@ Method that indicates that a service will no longer be sending events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpservicecallback-statevariablechanged">StateVariableChanged</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpservicecallback-statevariablechanged">StateVariableChanged</a>
 </td>
 <td align="left" width="63%">
 Method that indicates that a state variable has changed.
@@ -87,4 +87,3 @@ Method that indicates that a state variable has changed.
 </td>
 </tr>
 </table>
-

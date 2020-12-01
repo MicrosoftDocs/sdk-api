@@ -60,9 +60,8 @@ Pointer to a DRT_BOOTSTRAP_PROVIDER instance specifying the security provider to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider">DRT_BOOTSTRAP_PROVIDER</a>
+<a href="/windows/desktop/api/drt/ns-drt-drt_bootstrap_provider">DRT_BOOTSTRAP_PROVIDER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtcreatednsbootstrapresolver">DrtCreateDnsBootstrapResolver</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtcreatednsbootstrapresolver">DrtCreateDnsBootstrapResolver</a>

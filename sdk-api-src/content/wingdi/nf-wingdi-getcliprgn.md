@@ -70,23 +70,22 @@ If the function succeeds and there is no clipping region for the given device co
 
 ## -remarks
 
-An application-defined clipping region is a clipping region identified by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectcliprgn">SelectClipRgn</a> function. It is not a clipping region created when the application calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function.
+An application-defined clipping region is a clipping region identified by the <a href="/windows/desktop/api/wingdi/nf-wingdi-selectcliprgn">SelectClipRgn</a> function. It is not a clipping region created when the application calls the <a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function.
 
 If the function succeeds, the <i>hrgn</i> parameter is a handle to a copy of the current clipping region. Subsequent changes to this copy will not affect the current clipping region.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
+<a href="/windows/desktop/gdi/clipping-functions">Clipping Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/clipping">Clipping Overview</a>
+<a href="/windows/desktop/gdi/clipping">Clipping Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectcliprgn">SelectClipRgn</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectcliprgn">SelectClipRgn</a>

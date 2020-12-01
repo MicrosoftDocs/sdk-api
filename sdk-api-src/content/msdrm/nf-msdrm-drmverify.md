@@ -55,12 +55,12 @@ api_name:
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 <p class="CCE_Message">[The <b>DRMVerify</b> function is no longer supported and returns E_NOTIMPL.]
 
-For Rights Management Services 1.0, the <b>DRMVerify</b> function verifies data signed with <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmattest">DRMAttest</a>.
+For Rights Management Services 1.0, the <b>DRMVerify</b> function verifies data signed with <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmattest">DRMAttest</a>.
 
 ## -parameters
 
@@ -90,7 +90,7 @@ Certificate chain of the principal attesting the data. This chain is needed to c
 
 ### -param pcManifest [in, out]
 
-Size, in characters, of the manifest used to sign the data, plus one for a terminating null character. For information about making a manifest, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-an-application-manifest">Creating an Application Manifest</a>.
+Size, in characters, of the manifest used to sign the data, plus one for a terminating null character. For information about making a manifest, see <a href="/previous-versions/windows/desktop/adrms_sdk/creating-an-application-manifest">Creating an Application Manifest</a>.
 
 ### -param wszManifest [out]
 
@@ -100,9 +100,8 @@ The manifest used to sign, as a null-terminated string.
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
-
+<a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>

@@ -104,7 +104,7 @@ IP forwarding is not enabled.
 </dl>
 </td>
 <td width="60%">
-Use the current IP forwarding setting. This value is only applicable when setting the forwarding and time-to-live (TTL) options using the <b>SetIpStatistics</b> and <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipstatisticsex">SetIpStatisticsEx</a> functions.
+Use the current IP forwarding setting. This value is only applicable when setting the forwarding and time-to-live (TTL) options using the <b>SetIpStatistics</b> and <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-setipstatisticsex">SetIpStatisticsEx</a> functions.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Type: <b>DWORD</b>
 
 The default initial time-to-live (TTL) for datagrams originating on a particular computer.
 
-This member can be set to <b>MIB_USE_CURRENT_TTL</b> to use the current deafult TTL value when setting the forwarding and time-to-live (TTL) options using the <b>SetIpStatistics</b> and <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipstatisticsex">SetIpStatisticsEx</a> functions.
+This member can be set to <b>MIB_USE_CURRENT_TTL</b> to use the current deafult TTL value when setting the forwarding and time-to-live (TTL) options using the <b>SetIpStatistics</b> and <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-setipstatisticsex">SetIpStatisticsEx</a> functions.
 
 ### -field dwInReceives
 
@@ -272,5 +272,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-setipstatisticsex">SetIpStatisticsEx</a>
-
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-setipstatisticsex">SetIpStatisticsEx</a>

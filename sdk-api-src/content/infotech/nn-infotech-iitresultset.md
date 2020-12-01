@@ -54,7 +54,7 @@ Use this interface in run-time applications to initialize, build, and obtain inf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IITResultSet</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IITResultSet</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IITResultSet</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IITResultSet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IITResultSet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitresultset-add(lpvoid)">Add(LPVOID)</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitresultset-add(lpvoid)">Add(LPVOID)</a>
 </td>
 <td align="left" width="63%">
 Adds columns to result set, given a header containing pairs of property ID followed by property type.
@@ -80,7 +80,7 @@ Adds columns to result set, given a header containing pairs of property ID follo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitresultset-add(propid_dword_priority)">Add(PROPID,DWORD,PRIORITY)</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitresultset-add(propid_dword_priority)">Add(PROPID,DWORD,PRIORITY)</a>
 </td>
 <td align="left" width="63%">
 Adds a column to the result set. 
@@ -89,7 +89,7 @@ Adds a column to the result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitresultset-add(propid_lpcwstr_priority)">Add(PROPID,LPCWSTR,PRIORITY)</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitresultset-add(propid_lpcwstr_priority)">Add(PROPID,LPCWSTR,PRIORITY)</a>
 </td>
 <td align="left" width="63%">
 Adds a column to the result set.
@@ -100,7 +100,7 @@ Adds a column to the result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitresultset-add(propid_lpvoid_dword_priority)">Add(PROPID,LPVOID,DWORD,PRIORITY)</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitresultset-add(propid_lpvoid_dword_priority)">Add(PROPID,LPVOID,DWORD,PRIORITY)</a>
 </td>
 <td align="left" width="63%">
 Adds a column to the result set.
@@ -111,7 +111,7 @@ Adds a column to the result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitresultset-get">Get</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitresultset-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the property in the specified row and column and fills the given property object.
@@ -122,7 +122,7 @@ Gets the property in the specified row and column and fills the given property o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nf-infotech-iitresultset-getrowcount">GetRowCount</a>
+<a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitresultset-getrowcount">GetRowCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of rows in a result set.
@@ -132,4 +132,3 @@ Gets the number of rows in a result set.
 </td>
 </tr>
 </table>
-

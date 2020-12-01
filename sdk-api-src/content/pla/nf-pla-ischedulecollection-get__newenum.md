@@ -63,9 +63,8 @@ This property is read-only.
 
 The enumeration is a snapshot of the collection at the time of the call.
 
-The items of the enumeration are variants whose type is VT_UNKNOWN. To query for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ischedule">ISchedule</a> interface, use the <b>punkVal</b> member of the variant.
+The items of the enumeration are variants whose type is VT_UNKNOWN. To query for the <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ischedule">ISchedule</a> interface, use the <b>punkVal</b> member of the variant.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ischedulecollection">IScheduleCollection</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ischedulecollection">IScheduleCollection</a>

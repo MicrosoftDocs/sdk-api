@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Destroys a property sheet page. An application must call this function for pages that have not been passed to the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function.
+Destroys a property sheet page. An application must call this function for pages that have not been passed to the <a href="/windows/desktop/api/prsht/nf-prsht-propertysheeta">PropertySheet</a> function.
 
 ## -parameters
 
@@ -62,7 +62,6 @@ Handle to the property sheet page to delete.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
-

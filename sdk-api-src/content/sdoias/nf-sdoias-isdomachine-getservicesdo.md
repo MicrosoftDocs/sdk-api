@@ -58,13 +58,13 @@ The <b>GetServiceSDO</b> method retrieves a
 
 ### -param eDataStore [in]
 
-Specifies a value from the <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasdatastore">IASDATASTORE</a> enumeration 
+Specifies a value from the <a href="/windows/desktop/api/sdoias/ne-sdoias-iasdatastore">IASDATASTORE</a> enumeration 
       type.
 
 ### -param bstrServiceName [in]
 
 Specifies a 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/bstr">BSTR</a> that contains the service 
+      <a href="/previous-versions/windows/desktop/automat/bstr">BSTR</a> that contains the service 
       name. This parameter is one of the following values.
 
 
@@ -84,11 +84,11 @@ Remote Access Server
 
 ### -param ppServiceSDO [out]
 
-Pointer to a pointer that points to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface 
-      pointer. Use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of this 
+Pointer to a pointer that points to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface 
+      pointer. Use the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of this 
       <b>IUnknown</b> interface to obtain an 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdoservicecontrol">ISdoServiceControl</a> object.
+      <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface for the 
+      <a href="/windows/desktop/api/sdoias/nn-sdoias-isdoservicecontrol">ISdoServiceControl</a> object.
 
 ## -returns
 
@@ -99,20 +99,19 @@ If the method fails, the return value is one of the following error codes.
 ## -remarks
 
 Before calling this method, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a> method to attach to the SDO 
+    <a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a> method to attach to the SDO 
     computer.
 
 None of the parameters for this method can be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdomachine">ISdoMachine</a>
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdomachine">ISdoMachine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/sdo-retrieving-a-service-sdo">Retrieving a Service SDO</a>
-
+<a href="/windows/desktop/Nps/sdo-retrieving-a-service-sdo">Retrieving a Service SDO</a>

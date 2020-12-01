@@ -52,17 +52,17 @@ api_name:
 
 The 
 <b>ITLegacyAddressMediaControl</b> interface is provided to support legacy applications that require direct access to a device and its configuration. It is exposed by the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a> and can be created by calling <b>QueryInterface</b> on 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>.
+<a href="/windows/desktop/Tapi/address-object">Address Object</a> and can be created by calling <b>QueryInterface</b> on 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>.
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol2">ITLegacyAddressMediaControl2</a> interface derives from the 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol2">ITLegacyAddressMediaControl2</a> interface derives from the 
 <b>ITLegacyAddressMediaControl</b> interface. 
 <b>ITLegacyAddressMediaControl2</b> provides additional methods that allow the configuration of parameters related to line devices.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITLegacyAddressMediaControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITLegacyAddressMediaControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITLegacyAddressMediaControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITLegacyAddressMediaControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>ITLegacyAddressMediaControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol-getdevconfig">GetDevConfig</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol-getdevconfig">GetDevConfig</a>
 </td>
 <td align="left" width="63%">
 Gets pointer to device-specific array of configuration information.
@@ -86,7 +86,7 @@ Gets pointer to device-specific array of configuration information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol-getid">GetID</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol-getid">GetID</a>
 </td>
 <td align="left" width="63%">
 Gets device identifier.
@@ -97,7 +97,7 @@ This method is intended for C/C++ applications only. There is no corresponding m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol-setdevconfig">SetDevConfig</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol-setdevconfig">SetDevConfig</a>
 </td>
 <td align="left" width="63%">
 Sets device-specific array of configuration information.
@@ -108,5 +108,4 @@ Sets device-specific array of configuration information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol2">ITLegacyAddressMediaControl2</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol2">ITLegacyAddressMediaControl2</a>

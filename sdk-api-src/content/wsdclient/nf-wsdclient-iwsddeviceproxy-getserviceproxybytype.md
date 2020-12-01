@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Retrieves a generic <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> proxy for a service exposed by the device by port type name.
+Retrieves a generic <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> proxy for a service exposed by the device by port type name.
 
 ## -parameters
 
 ### -param pType [in]
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that specifies the port type name.
+Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_name">WSDXML_NAME</a> structure that specifies the port type name.
 
 ### -param ppServiceProxy [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> object associated with the specified service.
+Pointer to the <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> object associated with the specified service.
 
 ## -returns
 
@@ -134,5 +134,4 @@ If the device hosts more than one service of the specified type, a proxy for any
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>

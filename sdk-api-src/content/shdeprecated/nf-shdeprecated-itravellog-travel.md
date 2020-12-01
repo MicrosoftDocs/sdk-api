@@ -57,9 +57,9 @@ Deprecated. Navigates to a travel entry in the travel log relative to the positi
 
 ### -param punk [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> that represents the nearest browser or frame within which the travel generating the log is taking place.
+A pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> that represents the nearest browser or frame within which the travel generating the log is taking place.
 
 ### -param iOffset [in]
 
@@ -75,5 +75,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Calling <b>ITravelLog::Travel</b> has the same result as calling <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravelentry-invoke">Invoke</a>.
-
+Calling <b>ITravelLog::Travel</b> has the same result as calling <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-itravelentry-invoke">Invoke</a>.

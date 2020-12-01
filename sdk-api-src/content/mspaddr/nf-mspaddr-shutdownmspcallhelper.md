@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>ShutdownMSPCallHelper</b> helper template function is called in the derived class' implementation of 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-shutdownmspcall">ShutdownMSPCall</a>. It manipulates the passed-in aggregated TAPI call object Unknown pointer via dynamic casts to obtain a pointer to the inner MSP call object, and then calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-shutdown">Shutdown</a> method on the MSP call object (see below).
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-shutdownmspcall">ShutdownMSPCall</a>. It manipulates the passed-in aggregated TAPI call object Unknown pointer via dynamic casts to obtain a pointer to the inner MSP call object, and then calls the 
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-shutdown">Shutdown</a> method on the MSP call object (see below).
 
 ## -parameters
 
@@ -71,5 +71,4 @@ TBD
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>
-
+<a href="/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>

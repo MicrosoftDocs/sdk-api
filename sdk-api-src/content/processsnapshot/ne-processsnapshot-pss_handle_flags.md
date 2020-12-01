@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Flags to specify what parts of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/processsnapshot/ns-processsnapshot-pss_handle_entry">PSS_HANDLE_ENTRY</a> structure are valid.
+Flags to specify what parts of a <a href="/previous-versions/windows/desktop/api/processsnapshot/ns-processsnapshot-pss_handle_entry">PSS_HANDLE_ENTRY</a> structure are valid.
 
 ## -enum-fields
 
@@ -76,5 +76,4 @@ The <b>TypeSpecificInformation</b> member is valid (either <b>Process</b>, <b>Th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>
-
+<a href="/previous-versions/windows/desktop/proc_snap/process-snapshotting-portal">Process Snapshotting</a>

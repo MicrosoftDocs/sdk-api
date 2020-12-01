@@ -58,7 +58,7 @@ Signals the Logon UI or Credential UI that the enumerated list of credentials ha
 
 Type: <b>UINT_PTR</b>
 
-A pointer to an integer that uniquely identifies which credential provider has requested re-enumeration. The credential provider should pass back the interface pointer it received from <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-advise">Advise</a> in this parameter.
+A pointer to an integer that uniquely identifies which credential provider has requested re-enumeration. The credential provider should pass back the interface pointer it received from <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-advise">Advise</a> in this parameter.
 
 ## -returns
 
@@ -74,6 +74,5 @@ In the past, many credential providers used <b>ICredentialProviderEvents::Creden
 
 <ul>
 <li>Use <b>ICredentialProviderEvents::CredentialsChanged</b> only if a credential provider needs to do an auto logon or change the number of credentials it is enumerating.</li>
-<li>Use <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents2">ICredentialProviderCredentialEvents2</a> to update a credential provider's Logon UI or Credential UI.</li>
+<li>Use <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents2">ICredentialProviderCredentialEvents2</a> to update a credential provider's Logon UI or Credential UI.</li>
 </ul>
-

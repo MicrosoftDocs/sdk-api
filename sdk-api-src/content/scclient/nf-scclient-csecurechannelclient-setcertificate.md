@@ -84,7 +84,7 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 Possible values include, but are not limited to, those in the following table.
 
@@ -122,7 +122,7 @@ BYTE abCert[] = {0x00};
 ```
 
 
-You can request a key and certificate from Microsoft as described in <a href="https://docs.microsoft.com/windows/desktop/WMDM/tools-for-development">Tools for Development</a>.
+You can request a key and certificate from Microsoft as described in <a href="/windows/desktop/WMDM/tools-for-development">Tools for Development</a>.
 
 
 #### Examples
@@ -186,11 +186,11 @@ HRESULT MyClass::Authenticate()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
+<a href="/windows/desktop/WMDM/authenticating-the-application">Authenticating the Application</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
+<a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
 
 
 
@@ -198,5 +198,4 @@ HRESULT MyClass::Authenticate()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
-
+<a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>

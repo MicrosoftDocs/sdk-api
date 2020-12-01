@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>VIDEOHDR</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nc-vfw-capvideocallback">capVideoStreamCallback</a> function.
+The <b>VIDEOHDR</b> structure is used by the <a href="/windows/desktop/api/vfw/nc-vfw-capvideocallback">capVideoStreamCallback</a> function.
 
 ## -struct-fields
 
@@ -111,13 +111,12 @@ Reserved for driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timer-structures">Multimedia Timer Structures</a>
+<a href="/windows/desktop/Multimedia/multimedia-timer-structures">Multimedia Timer Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>
+<a href="/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nc-vfw-capvideocallback">capVideoStreamCallback</a>
-
+<a href="/windows/desktop/api/vfw/nc-vfw-capvideocallback">capVideoStreamCallback</a>

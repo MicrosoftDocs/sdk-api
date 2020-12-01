@@ -54,7 +54,7 @@ The <b>IWMPControls</b> interface provides a way to manipulate the playback of a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPControls</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPControls</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPControls</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IWMPControls</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWMPControls</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-fastforward">fastForward</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-fastforward">fastForward</a>
 </td>
 <td align="left" width="63%">
 Starts fast play of the media item in the forward direction.
@@ -78,7 +78,7 @@ Starts fast play of the media item in the forward direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-fastreverse">fastReverse</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-fastreverse">fastReverse</a>
 </td>
 <td align="left" width="63%">
 Starts fast play of the media item in the reverse direction.
@@ -87,7 +87,7 @@ Starts fast play of the media item in the reverse direction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentitem">get_currentItem</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentitem">get_currentItem</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current media item.
@@ -96,7 +96,7 @@ Retrieves the current media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentmarker">get_currentMarker</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentmarker">get_currentMarker</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current marker number.
@@ -105,7 +105,7 @@ Retrieves the current marker number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentposition">get_currentPosition</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentposition">get_currentPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current position in the media item in seconds from the beginning.
@@ -114,7 +114,7 @@ Retrieves the current position in the media item in seconds from the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentpositionstring">get_currentPositionString</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_currentpositionstring">get_currentPositionString</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current position in the media item as a <b>string</b>.
@@ -123,7 +123,7 @@ Retrieves the current position in the media item as a <b>string</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_isavailable">get_isAvailable</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-get_isavailable">get_isAvailable</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether a specified type of information is available or a given action can be performed.
@@ -132,7 +132,7 @@ Retrieves a value indicating whether a specified type of information is availabl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-next">next</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-next">next</a>
 </td>
 <td align="left" width="63%">
 Sets the current item to the next item in the playlist.
@@ -141,7 +141,7 @@ Sets the current item to the next item in the playlist.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-pause">pause</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-pause">pause</a>
 </td>
 <td align="left" width="63%">
 Pauses playback of the media item.
@@ -150,7 +150,7 @@ Pauses playback of the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-play">play</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-play">play</a>
 </td>
 <td align="left" width="63%">
 Begins playback of the media item.
@@ -159,7 +159,7 @@ Begins playback of the media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-playitem">playItem</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-playitem">playItem</a>
 </td>
 <td align="left" width="63%">
 Begins playback of the current media item, or resumes playback of a paused item.
@@ -168,7 +168,7 @@ Begins playback of the current media item, or resumes playback of a paused item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-previous">previous</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-previous">previous</a>
 </td>
 <td align="left" width="63%">
 Sets the current item to the previous item in the playlist.
@@ -177,7 +177,7 @@ Sets the current item to the previous item in the playlist.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentitem">put_currentItem</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentitem">put_currentItem</a>
 </td>
 <td align="left" width="63%">
 Specifies the current media item.
@@ -186,7 +186,7 @@ Specifies the current media item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentmarker">put_currentMarker</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentmarker">put_currentMarker</a>
 </td>
 <td align="left" width="63%">
 Specifies the current marker number.
@@ -195,7 +195,7 @@ Specifies the current marker number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentposition">put_currentPosition</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-put_currentposition">put_currentPosition</a>
 </td>
 <td align="left" width="63%">
 Specifies the current position in the media item in seconds from the beginning.
@@ -204,7 +204,7 @@ Specifies the current position in the media item in seconds from the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-stop">stop</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-stop">stop</a>
 </td>
 <td align="left" width="63%">
 Stops playback of the media item.
@@ -222,23 +222,22 @@ Retrieve a pointer to an <b>IWMPControls</b> interface with the following method
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore</a>
 </td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_controls">get_controls</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_controls">get_controls</a>
 </td>
 </tr>
 </table>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2">IWMPControls2 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols2">IWMPControls2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols3">IWMPControls3 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols3">IWMPControls3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

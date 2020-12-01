@@ -54,7 +54,7 @@ Controls the stream state of an endpoint.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioEndpointControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioEndpointControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAudioEndpointControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointcontrol-reset">Reset</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointcontrol-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the endpoint stream.
@@ -78,7 +78,7 @@ Resets the endpoint stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointcontrol-start">Start</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointcontrol-start">Start</a>
 </td>
 <td align="left" width="63%">
 Starts the endpoint stream.
@@ -87,7 +87,7 @@ Starts the endpoint stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointcontrol-stop">Stop</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpointcontrol-stop">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the endpoint stream.
@@ -100,4 +100,3 @@ Stops the endpoint stream.
 
 The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client 
     applications.
-

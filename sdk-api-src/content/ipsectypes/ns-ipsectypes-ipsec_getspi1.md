@@ -53,21 +53,21 @@ api_name:
 ## -description
 
 The <b>IPSEC_GETSPI1</b> structure contains information that must be supplied when requesting a security parameter index (SPI) from the IPsec driver.
-[IPSEC_GETSPI0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi0) is available.</div><div> </div>
+[IPSEC_GETSPI0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_getspi0) is available.</div><div> </div>
 
 ## -struct-fields
 
 ### -field inboundIpsecTraffic
 
-An [IPSEC_TRAFFIC1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic1) structure that describes traffic characteristics of the inbound IPsec SA.
+An [IPSEC_TRAFFIC1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic1) structure that describes traffic characteristics of the inbound IPsec SA.
 
 ### -field ipVersion
 
-An [FWP_IP_VERSION](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version) value that indicates the IP version of the inbound IPsec traffic.
+An [FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version) value that indicates the IP version of the inbound IPsec traffic.
 
 ### -field inboundUdpEncapsulation
 
-Optional [IPSEC_V4_UDP_ENCAPSULATION0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_v4_udp_encapsulation0) structure that specifies the IPsec NAT Traversal (NATT) UDP encapsulation ports. 
+Optional [IPSEC_V4_UDP_ENCAPSULATION0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_v4_udp_encapsulation0) structure that specifies the IPsec NAT Traversal (NATT) UDP encapsulation ports. 
 
 Available when <b>ipVersion</b> is <b>FWP_IP_VERSION_V4</b>.
 
@@ -77,5 +77,4 @@ Not used. An <b>IPSEC_CRYPTO_MODULE_ID</b> is a <b>GUID</b> value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

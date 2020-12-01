@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a> interface, adding methods that enable the Input Method Editor (IME) to drive the rich edit control, and methods to retrieve other interfaces such as  <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdisplays">ITextDisplays</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>, <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>, and so on. 
+Extends the <a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a> interface, adding methods that enable the Input Method Editor (IME) to drive the rich edit control, and methods to retrieve other interfaces such as  <a href="/windows/desktop/api/tom/nn-tom-itextdisplays">ITextDisplays</a>, <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>, <a href="/windows/desktop/api/tom/nn-tom-itextfont2">ITextFont2</a>, <a href="/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>, and so on. 
 
-Some <b>ITextDocument2</b> methods used with the IME need access to the current window handle (<b>HWND</b>). Use the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getwindow">ITextDocument2::GetWindow</a> method to retrieve the handle.
+Some <b>ITextDocument2</b> methods used with the IME need access to the current window handle (<b>HWND</b>). Use the <a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getwindow">ITextDocument2::GetWindow</a> method to retrieve the handle.
 
 ## -inheritance
 
@@ -71,7 +71,7 @@ The <b>ITextDocument2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-attachmsgfilter">AttachMsgFilter</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-attachmsgfilter">AttachMsgFilter</a>
 </td>
 <td align="left" width="63%">
 Attaches a new message filter to the edit instance. All window messages that the edit instance receives are forwarded to the message filter. 
@@ -80,7 +80,7 @@ Attaches a new message filter to the edit instance. All window messages that the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-checktextlimit">CheckTextLimit</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-checktextlimit">CheckTextLimit</a>
 </td>
 <td align="left" width="63%">
 Checks whether the number of characters to be added would exceed the maximum text limit.
@@ -89,7 +89,7 @@ Checks whether the number of characters to be added would exceed the maximum tex
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getactivestory">GetActiveStory</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getactivestory">GetActiveStory</a>
 </td>
 <td align="left" width="63%">
 Gets the active story; that is, the story that receives keyboard and mouse input.
@@ -98,7 +98,7 @@ Gets the active story; that is, the story that receives keyboard and mouse input
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getcallmanager">GetCallManager</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getcallmanager">GetCallManager</a>
 </td>
 <td align="left" width="63%">
 Gets the call manager.
@@ -107,7 +107,7 @@ Gets the call manager.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getcarettype">GetCaretType</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getcarettype">GetCaretType</a>
 </td>
 <td align="left" width="63%">
 Gets the caret type.
@@ -116,7 +116,7 @@ Gets the caret type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getclientrect">GetClientRect</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getclientrect">GetClientRect</a>
 </td>
 <td align="left" width="63%">
 Retrieves the client rectangle of the rich edit control.
@@ -125,7 +125,7 @@ Retrieves the client rectangle of the rich edit control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getdisplays">GetDisplays</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getdisplays">GetDisplays</a>
 </td>
 <td align="left" width="63%">
 Gets the displays collection for this TOM engine instance.
@@ -134,7 +134,7 @@ Gets the displays collection for this TOM engine instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getdocumentfont">GetDocumentFont</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getdocumentfont">GetDocumentFont</a>
 </td>
 <td align="left" width="63%">
 Gets an object that provides the default character format information for this instance of the TOM engine.
@@ -143,7 +143,7 @@ Gets an object that provides the default character format information for this i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getdocumentpara">GetDocumentPara</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getdocumentpara">GetDocumentPara</a>
 </td>
 <td align="left" width="63%">
 Gets an object that provides the default paragraph format  information for this instance of the TOM engine.
@@ -152,7 +152,7 @@ Gets an object that provides the default paragraph format  information for this 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-geteastasianflags">GetEastAsianFlags</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-geteastasianflags">GetEastAsianFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the East Asian flags.
@@ -161,7 +161,7 @@ Gets the East Asian flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-geteffectcolor">GetEffectColor</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-geteffectcolor">GetEffectColor</a>
 </td>
 <td align="left" width="63%">
 Retrieves the color used for special text attributes.
@@ -170,7 +170,7 @@ Retrieves the color used for special text attributes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getgenerator">GetGenerator</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getgenerator">GetGenerator</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the TOM engine.
@@ -179,7 +179,7 @@ Gets the name of the TOM engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getimmcontext">GetImmContext</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getimmcontext">GetImmContext</a>
 </td>
 <td align="left" width="63%">
 Gets the IMM input context from the TOM host.
@@ -188,7 +188,7 @@ Gets the IMM input context from the TOM host.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getmainstory">GetMainStory</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getmainstory">GetMainStory</a>
 </td>
 <td align="left" width="63%">
 Gets the main story.
@@ -197,7 +197,7 @@ Gets the main story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getmathproperties">GetMathProperties</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getmathproperties">GetMathProperties</a>
 </td>
 <td align="left" width="63%">
 Gets the math properties for the document.
@@ -206,7 +206,7 @@ Gets the math properties for the document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getnewstory">GetNewStory</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getnewstory">GetNewStory</a>
 </td>
 <td align="left" width="63%">
 Gets a new story.
@@ -215,7 +215,7 @@ Gets a new story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getnotificationmode">GetNotificationMode</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getnotificationmode">GetNotificationMode</a>
 </td>
 <td align="left" width="63%">
 Gets the notification mode.
@@ -224,7 +224,7 @@ Gets the notification mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getpreferredfont">GetPreferredFont</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getpreferredfont">GetPreferredFont</a>
 </td>
 <td align="left" width="63%">
 Retrieves the preferred font for a particular character repertoire and character position.
@@ -233,7 +233,7 @@ Retrieves the preferred font for a particular character repertoire and character
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a property.
@@ -242,7 +242,7 @@ Retrieves the value of a property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getselection2">GetSelection2</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getselection2">GetSelection2</a>
 </td>
 <td align="left" width="63%">
 Gets the active selection.
@@ -251,7 +251,7 @@ Gets the active selection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getstory">GetStory</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getstory">GetStory</a>
 </td>
 <td align="left" width="63%">
 Retrieves the story that corresponds to a particular index.
@@ -260,7 +260,7 @@ Retrieves the story that corresponds to a particular index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getstoryranges2">GetStoryRanges2</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getstoryranges2">GetStoryRanges2</a>
 </td>
 <td align="left" width="63%">
 Gets an object for enumerating the stories in a document. 
@@ -269,7 +269,7 @@ Gets an object for enumerating the stories in a document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getstrings">GetStrings</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getstrings">GetStrings</a>
 </td>
 <td align="left" width="63%">
 Gets a collection of rich-text strings.
@@ -278,7 +278,7 @@ Gets a collection of rich-text strings.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-gettypographyoptions">GetTypographyOptions</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-gettypographyoptions">GetTypographyOptions</a>
 </td>
 <td align="left" width="63%">
 Gets the typography options.
@@ -287,7 +287,7 @@ Gets the typography options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getversion">GetVersion</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getversion">GetVersion</a>
 </td>
 <td align="left" width="63%">
 Gets the version number of the TOM engine.
@@ -296,7 +296,7 @@ Gets the version number of the TOM engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-getwindow">GetWindow</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getwindow">GetWindow</a>
 </td>
 <td align="left" width="63%">
 Gets the handle of the window that the TOM engine is using to display output.
@@ -305,7 +305,7 @@ Gets the handle of the window that the TOM engine is using to display output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-notify">Notify</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-notify">Notify</a>
 </td>
 <td align="left" width="63%">
 Notifies the TOM engine client of particular IME events.
@@ -314,7 +314,7 @@ Notifies the TOM engine client of particular IME events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-range2">Range2</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-range2">Range2</a>
 </td>
 <td align="left" width="63%">
 Retrieves a new text range for the active story of the document.
@@ -323,7 +323,7 @@ Retrieves a new text range for the active story of the document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-rangefrompoint2">RangeFromPoint2</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-rangefrompoint2">RangeFromPoint2</a>
 </td>
 <td align="left" width="63%">
 Retrieves the degenerate range at (or nearest to) a particular point on the screen.
@@ -332,7 +332,7 @@ Retrieves the degenerate range at (or nearest to) a particular point on the scre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-releasecallmanager">ReleaseCallManager</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-releasecallmanager">ReleaseCallManager</a>
 </td>
 <td align="left" width="63%">
 Releases the call manager.
@@ -341,7 +341,7 @@ Releases the call manager.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-releaseimmcontext">ReleaseImmContext</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-releaseimmcontext">ReleaseImmContext</a>
 </td>
 <td align="left" width="63%">
 Releases an IMM input context.
@@ -350,7 +350,7 @@ Releases an IMM input context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-setactivestory">SetActiveStory</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-setactivestory">SetActiveStory</a>
 </td>
 <td align="left" width="63%">
 Sets the active story; that is, the story that receives keyboard and mouse input.
@@ -359,7 +359,7 @@ Sets the active story; that is, the story that receives keyboard and mouse input
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-setcarettype">SetCaretType</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-setcarettype">SetCaretType</a>
 </td>
 <td align="left" width="63%">
 Sets the caret type.
@@ -368,7 +368,7 @@ Sets the caret type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-setdocumentfont">SetDocumentFont</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-setdocumentfont">SetDocumentFont</a>
 </td>
 <td align="left" width="63%">
 Sets  the default character formatting for this instance of the TOM engine.
@@ -377,7 +377,7 @@ Sets  the default character formatting for this instance of the TOM engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-setdocumentpara">SetDocumentPara</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-setdocumentpara">SetDocumentPara</a>
 </td>
 <td align="left" width="63%">
 Sets the default paragraph formatting  for this instance of the TOM engine.
@@ -386,7 +386,7 @@ Sets the default paragraph formatting  for this instance of the TOM engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-seteffectcolor">SetEffectColor</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-seteffectcolor">SetEffectColor</a>
 </td>
 <td align="left" width="63%">
 Specifies the color to use for special text attributes.
@@ -395,7 +395,7 @@ Specifies the color to use for special text attributes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-setimeinprogress">SetIMEInProgress</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-setimeinprogress">SetIMEInProgress</a>
 </td>
 <td align="left" width="63%">
 Sets the state of the IME in-progress flag.
@@ -404,7 +404,7 @@ Sets the state of the IME in-progress flag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-setmathproperties">SetMathProperties</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-setmathproperties">SetMathProperties</a>
 </td>
 <td align="left" width="63%">
 Specifies the math properties to use for the document.
@@ -413,7 +413,7 @@ Specifies the math properties to use for the document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-setnotificationmode">SetNotificationMode</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-setnotificationmode">SetNotificationMode</a>
 </td>
 <td align="left" width="63%">
 Sets the notification mode.
@@ -422,7 +422,7 @@ Sets the notification mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-setproperty">SetProperty</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Specifies a new value for a property.
@@ -431,7 +431,7 @@ Specifies a new value for a property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-settypographyoptions">SetTypographyOptions</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-settypographyoptions">SetTypographyOptions</a>
 </td>
 <td align="left" width="63%">
 Specifies the typography options for the document.
@@ -440,7 +440,7 @@ Specifies the typography options for the document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-sysbeep">SysBeep</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-sysbeep">SysBeep</a>
 </td>
 <td align="left" width="63%">
 Generates a system beep.
@@ -449,7 +449,7 @@ Generates a system beep.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-update">Update</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-update">Update</a>
 </td>
 <td align="left" width="63%">
 Updates the selection and caret.
@@ -458,7 +458,7 @@ Updates the selection and caret.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument2-updatewindow">UpdateWindow</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument2-updatewindow">UpdateWindow</a>
 </td>
 <td align="left" width="63%">
 Notifies the client that the view has changed and the client should update the view if the TOM engine is in-place active.
@@ -466,4 +466,3 @@ Notifies the client that the view has changed and the client should update the v
 </td>
 </tr>
 </table>
-

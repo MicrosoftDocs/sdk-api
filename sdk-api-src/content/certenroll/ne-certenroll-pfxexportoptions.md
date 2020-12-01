@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PFXExportOptions</b> enumeration specifies how much of a certificate chain is included when creating a Personal Information Exchange (PFX) message. The PFX message syntax is defined by the PKCS #12 standard. PFX is a transfer syntax for personal identity information, including <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private keys</a> and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificates</a>. The enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-createpfx">CreatePFX</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> interface.
+The <b>PFXExportOptions</b> enumeration specifies how much of a certificate chain is included when creating a Personal Information Exchange (PFX) message. The PFX message syntax is defined by the PKCS #12 standard. PFX is a transfer syntax for personal identity information, including <a href="/windows/desktop/SecGloss/p-gly">private keys</a> and <a href="/windows/desktop/SecGloss/c-gly">certificates</a>. The enumeration is used by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-createpfx">CreatePFX</a> method on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> interface.
 
 ## -enum-fields
 
@@ -60,7 +60,7 @@ Includes only the end entity certificate.
 
 ### -field PFXExportChainNoRoot
 
-Includes the certificate chain without the root <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> certificate.
+Includes the certificate chain without the root <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> certificate.
 
 ### -field PFXExportChainWithRoot
 
@@ -68,13 +68,12 @@ Includes the entire certificate chain, including the root certification authorit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-createpfx">CreatePFX</a>
-
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-createpfx">CreatePFX</a>

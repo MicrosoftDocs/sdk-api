@@ -59,7 +59,7 @@ Notification method that indicates a connection was removed from the system.
 
 ### -param oldConnection [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface that represents the device removed from the system.
+An <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a> interface that represents the device removed from the system.
 
 ## -returns
 
@@ -67,5 +67,4 @@ This method must return <b>S_OK</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanagerevents">IMbnConnectionManagerEvents</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionmanagerevents">IMbnConnectionManagerEvents</a>

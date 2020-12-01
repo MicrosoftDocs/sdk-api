@@ -80,7 +80,7 @@ Perform a background refresh of the policy. For more information, see the text f
 
 Perform an asynchronous foreground refresh of policy. For more information, see the text following this 
         list. For more information about foreground policy application, see 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/initial-processing-of-group-policy">Initial Processing of Group Policy</a>.
+        <a href="/previous-versions/windows/desktop/Policy/initial-processing-of-group-policy">Initial Processing of Group Policy</a>.
 
 
 
@@ -127,18 +127,18 @@ Safe mode flag.
 
 The <b>GPO_INFO_FLAG_BACKGROUND</b> flag and the 
        <b>GPO_INFO_FLAG_ASYNC_FOREGROUND</b> flag can both be set. Because policies are always applied asynchronously during a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/background-refresh-of-group-policy">background refresh</a>, most extensions handle an asynchronous foreground refresh in the same manner in which they handle a background refresh. Therefore, they do not need to check for the <b>GPO_INFO_FLAG_ASYNC_FOREGROUND</b> flag. In instances when an extension must distinguish between a background refresh of policy and an asynchronous foreground refresh of policy, the extension can check for the <b>GPO_INFO_FLAG_ASYNC_FOREGROUND</b> flag.
+<a href="/previous-versions/windows/desktop/Policy/background-refresh-of-group-policy">background refresh</a>, most extensions handle an asynchronous foreground refresh in the same manner in which they handle a background refresh. Therefore, they do not need to check for the <b>GPO_INFO_FLAG_ASYNC_FOREGROUND</b> flag. In instances when an extension must distinguish between a background refresh of policy and an asynchronous foreground refresh of policy, the extension can check for the <b>GPO_INFO_FLAG_ASYNC_FOREGROUND</b> flag.
 
 ### -param hToken [in]
 
 Token for the user or computer, returned from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken">OpenThreadToken</a> function. This token must have <b>TOKEN_IMPERSONATE</b> and <b>TOKEN_QUERY</b> access. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-impersonation">Client Impersonation</a>.
+<a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>, 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken">CreateRestrictedToken</a>, 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-duplicatetoken">DuplicateToken</a>, 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocesstoken">OpenProcessToken</a>, or 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openthreadtoken">OpenThreadToken</a> function. This token must have <b>TOKEN_IMPERSONATE</b> and <b>TOKEN_QUERY</b> access. For more information, see 
+<a href="/windows/desktop/SecAuthZ/access-rights-for-access-token-objects">Access Rights for Access-Token Objects</a> and 
+<a href="/windows/desktop/SecAuthZ/client-impersonation">Client Impersonation</a>.
 
 ### -param hKeyRoot [in]
 
@@ -147,12 +147,12 @@ Handle to the <b>HKEY_LOCAL_MACHINE</b> or <b>HKEY_CURRENT_USER</b> registry key
 ### -param pDeletedGPOList [in]
 
 Pointer that receives the list of deleted GPO structures. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
+<a href="/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
 ### -param pChangedGPOList [in]
 
 Pointer that receives the list of changed GPO structures. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
+<a href="/windows/desktop/api/userenv/ns-userenv-group_policy_objecta">GROUP_POLICY_OBJECT</a>.
 
 ### -param pHandle [in]
 
@@ -165,7 +165,7 @@ Specifies whether to continue processing GPOs. If this parameter is <b>TRUE</b>,
 ### -param pStatusCallback [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnstatusmessagecallback">StatusMessageCallback</a> callback function that displays status messages. This parameter can be <b>NULL</b> in certain cases. For example, if the system is applying policy in the background, the status user interface is not present and the application cannot send status messages to be displayed. For more information, see the following Remarks section.
+<a href="/windows/desktop/api/userenv/nc-userenv-pfnstatusmessagecallback">StatusMessageCallback</a> callback function that displays status messages. This parameter can be <b>NULL</b> in certain cases. For example, if the system is applying policy in the background, the status user interface is not present and the application cannot send status messages to be displayed. For more information, see the following Remarks section.
 
 ### -param *pWbemServices [in]
 
@@ -182,15 +182,15 @@ If policy was applied successfully, return <b>ERROR_SUCCESS</b>. If there are no
 Return <b>ERROR_SYNC_FOREGROUND_REFRESH_REQUIRED</b> if the function was called for an asynchronous foreground refresh of policy but policy could not be applied during the asynchronous refresh. Returning <b>ERROR_SYNC_FOREGROUND_REFRESH_REQUIRED</b> indicates that the function must be called again for a synchronous foreground refresh of policy.
 
 Otherwise, return a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
 For more information, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/implementing-a-group-policy-client-side-extension">Implementing a Group Policy Client-side Extension</a>.
+<a href="/previous-versions/windows/desktop/Policy/implementing-a-group-policy-client-side-extension">Implementing a Group Policy Client-side Extension</a>.
 
 The system calls this function in the context of the 
-<a href="https://docs.microsoft.com/windows/desktop/Services/localsystem-account">LocalSystem account</a>, which has extensive privileges on the local computer. To use network resources, you must impersonate the user or computer by using the token provided in the <i>hToken</i> parameter.
+<a href="/windows/desktop/Services/localsystem-account">LocalSystem account</a>, which has extensive privileges on the local computer. To use network resources, you must impersonate the user or computer by using the token provided in the <i>hToken</i> parameter.
 
 To register this callback function, create a subkey under the following registry key:
 
@@ -204,42 +204,41 @@ The subkey should be a <b>GUID</b>, so that it is unique. It should contain the 
 
 
 You should update the status message only if you are applying policy synchronously. This allows you to provide feedback and diagnostics during a lengthy policy application. To use the status message callback function, you must verify that <i>pStatusCallback</i> is not <b>NULL</b>. Then load your message string resource. When you call the status function, you must indicate whether the string is verbose. If the string is verbose, the callback function will verify that the computer is in verbose mode and display the message. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnstatusmessagecallback">StatusMessageCallback</a>.
+<a href="/windows/desktop/api/userenv/nc-userenv-pfnstatusmessagecallback">StatusMessageCallback</a>.
 
 <div class="alert"><b>Warning</b>  Do not call the <i>pStatusCallback</i> function from a background thread or you may overwrite another thread's status message.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/group-policy-functions">Group Policy
     Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicy">ProcessGroupPolicy</a>
+<a href="/windows/desktop/api/userenv/nc-userenv-pfnprocessgrouppolicy">ProcessGroupPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-processgrouppolicycompletedex">ProcessGroupPolicyCompletedEx</a>
+<a href="/windows/desktop/api/userenv/nf-userenv-processgrouppolicycompletedex">ProcessGroupPolicyCompletedEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/rsop-extensionstatus">RSOP_ExtensionStatus</a>
+<a href="/previous-versions/windows/desktop/Policy/rsop-extensionstatus">RSOP_ExtensionStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-refreshpolicy">RefreshPolicy</a>
+<a href="/windows/desktop/api/userenv/nf-userenv-refreshpolicy">RefreshPolicy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-refreshpolicyex">RefreshPolicyEx</a>
+<a href="/windows/desktop/api/userenv/nf-userenv-refreshpolicyex">RefreshPolicyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nc-userenv-pfnstatusmessagecallback">StatusMessageCallback</a>
-
+<a href="/windows/desktop/api/userenv/nc-userenv-pfnstatusmessagecallback">StatusMessageCallback</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information for the <a href="https://docs.microsoft.com/windows/desktop/medfound/opm-get-codec-info">OPM_GET_CODEC_INFO</a> command.
+Contains information for the <a href="/windows/desktop/medfound/opm-get-codec-info">OPM_GET_CODEC_INFO</a> command.
 
 ## -struct-fields
 
@@ -71,9 +71,8 @@ A byte array that contains one of the following:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
+<a href="/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

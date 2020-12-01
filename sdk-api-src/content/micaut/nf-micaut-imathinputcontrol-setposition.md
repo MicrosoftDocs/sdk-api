@@ -121,13 +121,12 @@ This method can be called regardless of the control visibility state.
 This method will succeed even if parameters are not valid. If the rectangle is larger than the maximum allowed size of the control (desktop window), the maximum possible size is used instead. If the rectangle is smaller than the minimal size of the control, or too small to keep the ink and result preview intact, the minimal possible size is used instead.
 
 
-If  the method returns <b>S_FALSE</b>, the  <a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getposition">GetPosition</a> method will return the actual size characteristics of the control.
+If  the method returns <b>S_FALSE</b>, the  <a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getposition">GetPosition</a> method will return the actual size characteristics of the control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getposition">GetPosition</a>
+<a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-getposition">GetPosition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
-
+<a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>

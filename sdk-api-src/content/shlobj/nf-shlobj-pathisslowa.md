@@ -68,7 +68,7 @@ A pointer to a null-terminated string that contains the fully qualified path of 
 
 Type: <b>DWORD</b>
 
-The file attributes, if known; otherwise, pass –1 and this function gets the attributes by calling <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>. See <b>GetFileAttributes</b> for a list of file attributes.
+The file attributes, if known; otherwise, pass –1 and this function gets the attributes by calling <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>. See <b>GetFileAttributes</b> for a list of file attributes.
 
 ## -returns
 
@@ -78,7 +78,7 @@ Returns <b>TRUE</b> if the connection is high-latency; otherwise, <b>FALSE</b>.
 
 ## -remarks
 
-A path is considered slow if the MultinetGetConnectionPerformance function returns a dwSpeed of 400 or less in its <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netconnectinfostruct">NETCONNECTINFOSTRUCT</a> structure—this is the speed of the media to the network resource, in 100 bits-per-second (bps)—or if FILE_ATTRIBUTE_OFFLINE is set on the file.
+A path is considered slow if the MultinetGetConnectionPerformance function returns a dwSpeed of 400 or less in its <a href="/windows/desktop/api/winnetwk/ns-winnetwk-netconnectinfostruct">NETCONNECTINFOSTRUCT</a> structure—this is the speed of the media to the network resource, in 100 bits-per-second (bps)—or if FILE_ATTRIBUTE_OFFLINE is set on the file.
 
 Note that network conditions can impact function performance time.
 
@@ -87,4 +87,3 @@ Note that network conditions can impact function performance time.
 
 > [!NOTE]
 > The shlobj.h header defines PathIsSlow as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

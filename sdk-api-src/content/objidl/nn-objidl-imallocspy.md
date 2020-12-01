@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Enables application developers to monitor (spy on) memory allocation, detect memory leaks, and simulate memory failure in calls to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> methods.
+Enables application developers to monitor (spy on) memory allocation, detect memory leaks, and simulate memory failure in calls to <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> methods.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMallocSpy</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMallocSpy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMallocSpy</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMallocSpy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,109 +69,109 @@ The <b>IMallocSpy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postalloc">PostAlloc</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postalloc">PostAlloc</a>
 </td>
 <td align="left" width="63%">
-Performs operations required after calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">IMalloc::Alloc</a>.
+Performs operations required after calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">IMalloc::Alloc</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postdidalloc">PostDidAlloc</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postdidalloc">PostDidAlloc</a>
 </td>
 <td align="left" width="63%">
-Performs operations required after calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-didalloc">IMalloc::DidAlloc</a>.
+Performs operations required after calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-didalloc">IMalloc::DidAlloc</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postfree">PostFree</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postfree">PostFree</a>
 </td>
 <td align="left" width="63%">
-Performs operations required after calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>.
+Performs operations required after calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postgetsize">PostGetSize</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postgetsize">PostGetSize</a>
 </td>
 <td align="left" width="63%">
-Performs operations required after calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>.
+Performs operations required after calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postheapminimize">PostHeapMinimize</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postheapminimize">PostHeapMinimize</a>
 </td>
 <td align="left" width="63%">
-Performs operations required after calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>.
+Performs operations required after calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-postrealloc">PostRealloc</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postrealloc">PostRealloc</a>
 </td>
 <td align="left" width="63%">
-Performs operations required after calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>.
+Performs operations required after calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-prealloc">PreAlloc</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-prealloc">PreAlloc</a>
 </td>
 <td align="left" width="63%">
-Performs operations required before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">IMalloc::Alloc</a>.
+Performs operations required before calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-alloc">IMalloc::Alloc</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-predidalloc">PreDidAlloc</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-predidalloc">PreDidAlloc</a>
 </td>
 <td align="left" width="63%">
-Performs operations required before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-didalloc">IMalloc::DidAlloc</a>.
+Performs operations required before calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-didalloc">IMalloc::DidAlloc</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-prefree">PreFree</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-prefree">PreFree</a>
 </td>
 <td align="left" width="63%">
-Performs operations required before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>.
+Performs operations required before calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-pregetsize">PreGetSize</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-pregetsize">PreGetSize</a>
 </td>
 <td align="left" width="63%">
-Performs operations required before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>.
+Performs operations required before calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-getsize">IMalloc::GetSize</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-preheapminimize">PreHeapMinimize</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-preheapminimize">PreHeapMinimize</a>
 </td>
 <td align="left" width="63%">
-Performs operations required before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>.
+Performs operations required before calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize">IMalloc::HeapMinimize</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imallocspy-prerealloc">PreRealloc</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-prerealloc">PreRealloc</a>
 </td>
 <td align="left" width="63%">
-Performs operations required before calling <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>.
+Performs operations required before calling <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-realloc">IMalloc::Realloc</a>.
 
 </td>
 </tr>
@@ -179,17 +179,16 @@ Performs operations required before calling <a href="https://docs.microsoft.com/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc">CoGetMalloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coregistermallocspy">CoRegisterMallocSpy</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-coregistermallocspy">CoRegisterMallocSpy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-corevokemallocspy">CoRevokeMallocSpy</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-corevokemallocspy">CoRevokeMallocSpy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>

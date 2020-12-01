@@ -56,7 +56,7 @@ Retrieves the color that is visible on the desktop when no image is displayed or
 
 ### -param color [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that, when this method returns successfully, receives the RGB color value. If this method fails, this value is set to 0.
+A pointer to a <a href="/windows/desktop/gdi/colorref">COLORREF</a> value that, when this method returns successfully, receives the RGB color value. If this method fails, this value is set to 0.
 
 ## -returns
 
@@ -64,9 +64,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idesktopwallpaper">IDesktopWallpaper</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setbackgroundcolor">IDesktopWallpaper::SetBackgroundColor</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setbackgroundcolor">IDesktopWallpaper::SetBackgroundColor</a>

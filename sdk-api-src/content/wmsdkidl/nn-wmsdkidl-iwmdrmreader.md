@@ -54,13 +54,13 @@ api_name:
 ]
 
 
-The <b>IWMDRMReader</b> interface provides methods to configure the DRM component and to manage <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">DRM</a> license acquisition and individualization of client applications. It is used only for content protected using DRM version 7, not the earlier DRM version 1.
+The <b>IWMDRMReader</b> interface provides methods to configure the DRM component and to manage <a href="/windows/desktop/wmformat/wmformat-glossary">DRM</a> license acquisition and individualization of client applications. It is used only for content protected using DRM version 7, not the earlier DRM version 1.
 
 This interface can be obtained from a reader object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMReader</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDRMReader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDRMReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDRMReader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWMDRMReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-acquirelicense">AcquireLicense</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-acquirelicense">AcquireLicense</a>
 </td>
 <td align="left" width="63%">
 Begins the license acquisition process for a DRM version 7 license.
@@ -84,7 +84,7 @@ Begins the license acquisition process for a DRM version 7 license.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancelindividualization">CancelIndividualization</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancelindividualization">CancelIndividualization</a>
 </td>
 <td align="left" width="63%">
 Cancels a current call to the <b>Individualize</b> method.
@@ -93,7 +93,7 @@ Cancels a current call to the <b>Individualize</b> method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancellicenseacquisition">CancelLicenseAcquisition</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancellicenseacquisition">CancelLicenseAcquisition</a>
 </td>
 <td align="left" width="63%">
 Cancels a current call to the <b>AcquireLicense</b> method.
@@ -102,7 +102,7 @@ Cancels a current call to the <b>AcquireLicense</b> method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancelmonitorlicenseacquisition">CancelMonitorLicenseAcquisition</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-cancelmonitorlicenseacquisition">CancelMonitorLicenseAcquisition</a>
 </td>
 <td align="left" width="63%">
 Cancels a current call to the <b>MonitorLicenseAcquisition</b> method.
@@ -111,16 +111,16 @@ Cancels a current call to the <b>MonitorLicenseAcquisition</b> method.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty">GetDRMProperty</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty">GetDRMProperty</a>
 </td>
 <td align="left" width="63%">
-Retrieves <a href="https://docs.microsoft.com/windows/desktop/wmformat/wmformat-glossary">DRM</a>-specific file attributes or run-time properties.
+Retrieves <a href="/windows/desktop/wmformat/wmformat-glossary">DRM</a>-specific file attributes or run-time properties.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-individualize">Individualize</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-individualize">Individualize</a>
 </td>
 <td align="left" width="63%">
 Individualizes the client.
@@ -129,16 +129,16 @@ Individualizes the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-monitorlicenseacquisition">MonitorLicenseAcquisition</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-monitorlicenseacquisition">MonitorLicenseAcquisition</a>
 </td>
 <td align="left" width="63%">
-In non-silent license acquisition, informs the application when a license has been successfully acquired.
+In nonsilent license acquisition, informs the application when a license has been successfully acquired.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty">SetDRMProperty</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader-setdrmproperty">SetDRMProperty</a>
 </td>
 <td align="left" width="63%">
 Sets the DRM_Rights that will be requested for the next file that is opened.
@@ -147,33 +147,32 @@ Sets the DRM_Rights that will be requested for the next file that is opened.
 </tr>
 </table> 
 
-For information on other interfaces that can be obtained by using the QueryInterface method of this interface, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>.
+For information on other interfaces that can be obtained by using the QueryInterface method of this interface, see <a href="/windows/desktop/wmformat/reader-object">Reader Object</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-attribute-list">DRM Attribute List</a>
+<a href="/windows/desktop/wmformat/drm-attribute-list">DRM Attribute List</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/drm-properties">DRM Properties</a>
+<a href="/windows/desktop/wmformat/drm-properties">DRM Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/digital-rights-management-features">Digital Rights Management Features</a>
+<a href="/windows/desktop/wmformat/digital-rights-management-features">Digital Rights Management Features</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader2">IWMDRMReader2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader2">IWMDRMReader2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader3">IWMDRMReader3 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader3">IWMDRMReader3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreader">IWMReader Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>

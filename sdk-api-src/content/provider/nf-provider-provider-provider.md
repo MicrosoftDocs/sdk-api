@@ -53,10 +53,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>Provider</b> method creates an instance of a provider. This method is part of the WMI Provider Framework.
@@ -73,5 +73,4 @@ Name of the provider to be instantiated.
 
 ## -remarks
 
-The destructor for the <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class is <b>Provider::~Provider</b>.
-
+The destructor for the <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class is <b>Provider::~Provider</b>.

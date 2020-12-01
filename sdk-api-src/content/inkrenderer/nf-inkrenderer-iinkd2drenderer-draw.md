@@ -66,7 +66,7 @@ Pointer to the collection of ink strokes to render.
 
 True, if the Windows high-contrast accessibility option is currently selected. Otherwise, false.
 
-Listen for the <a href="https://docs.microsoft.com/uwp/api/windows.ui.viewmanagement.accessibilitysettings.highcontrastchanged">HighContrastChanged</a> event to set this value appropriately.
+Listen for the <a href="/uwp/api/windows.ui.viewmanagement.accessibilitysettings.highcontrastchanged">HighContrastChanged</a> event to set this value appropriately.
 
 ## -returns
 
@@ -78,21 +78,19 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inkrenderer/nn-inkrenderer-iinkd2drenderer">IInkD2DRenderer</a>
+<a href="/windows/desktop/api/inkrenderer/nn-inkrenderer-iinkd2drenderer">IInkD2DRenderer</a>
 
 
 
-<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
+<a href="/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
 
 
 
 <b>Samples</b>
 
-
+<a href="https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex Ink sample</a>
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
-

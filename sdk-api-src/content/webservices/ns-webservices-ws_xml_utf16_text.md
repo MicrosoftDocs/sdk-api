@@ -58,7 +58,7 @@ Represents text encoded as UTF-16 bytes.
 
 ### -field text
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
 
 ### -field bytes
 
@@ -67,4 +67,3 @@ The bytes that point to UTF-16 encoded data.
 ### -field byteCount
 
 The length in bytes of the UTF-16 encoded data.
-

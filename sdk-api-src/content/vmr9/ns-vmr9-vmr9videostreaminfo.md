@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-The <code>VMR9VideoStreamInfo</code> structure describes the rendering parameters for a video compositing operation in the VRM-9 filter. This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrimagecompositor9-compositeimage">IVMRImageCompositor9::CompositeImage</a> method.
+The <code>VMR9VideoStreamInfo</code> structure describes the rendering parameters for a video compositing operation in the VRM-9 filter. This structure is used in the <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrimagecompositor9-compositeimage">IVMRImageCompositor9::CompositeImage</a> method.
 
 ## -struct-fields
 
 ### -field pddsVideoSurface
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> interface of the Direct3D surface that contains the video to be composited.
+A pointer to the <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a> interface of the Direct3D surface that contains the video to be composited.
 
 ### -field dwWidth
 
@@ -78,7 +78,7 @@ The alpha value for this stream. (Not per-pixel alpha.)
 
 ### -field rNormal
 
-The position of the image in composition space, as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9normalizedrect">VMR9NormalizedRect</a> structure.
+The position of the image in composition space, as a <a href="/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9normalizedrect">VMR9NormalizedRect</a> structure.
 
 ### -field rtStart
 
@@ -90,9 +90,8 @@ The end time of the video frame, in 100-nanosecond units.
 
 ### -field SampleFormat
 
-The video interlacing format, specified as a member of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9_sampleformat">VMR9_SampleFormat</a> enumeration type.
+The video interlacing format, specified as a member of the <a href="/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9_sampleformat">VMR9_SampleFormat</a> enumeration type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

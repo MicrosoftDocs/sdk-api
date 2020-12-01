@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Registers a callback to receive interaction events from an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
+Registers a callback to receive interaction events from an <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object.
 
 ## -parameters
 
 ### -param interactionContext [in]
 
-Handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
+Handle to the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
 
 ### -param outputCallback [in]
 
@@ -76,19 +76,18 @@ Otherwise, it returns an HRESULT error code.
 
 ## -remarks
 
-Each instance of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> is limited to one output callback. Registering a callback function overwrites any existing callback registration for the Interaction Context.
+Each instance of an <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> is limited to one output callback. Registering a callback function overwrites any existing callback registration for the Interaction Context.
 
-This function is typically called after the creation of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> or when the Interaction Context is reassigned to another UI element.
+This function is typically called after the creation of an <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> or when the Interaction Context is reassigned to another UI element.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_output">INTERACTION_CONTEXT_OUTPUT</a>
+<a href="/previous-versions/windows/desktop/api/interactioncontext/ns-interactioncontext-interaction_context_output">INTERACTION_CONTEXT_OUTPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nc-interactioncontext-interaction_context_output_callback">INTERACTION_CONTEXT_OUTPUT_CALLBACK</a>
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nc-interactioncontext-interaction_context_output_callback">INTERACTION_CONTEXT_OUTPUT_CALLBACK</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
-
+<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>

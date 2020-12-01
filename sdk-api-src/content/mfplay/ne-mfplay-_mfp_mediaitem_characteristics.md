@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
@@ -64,11 +64,11 @@ The media item represents a live data source, such as video camera. If playback 
 
 ### -field MFP_MEDIAITEM_CAN_SEEK
 
-The media item supports seeking. If this flag is absent, the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setposition">IMFPMediaPlayer::SetPosition</a> method will fail.
+The media item supports seeking. If this flag is absent, the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setposition">IMFPMediaPlayer::SetPosition</a> method will fail.
 
 ### -field MFP_MEDIAITEM_CAN_PAUSE
 
-The media item can pause. If this flag is absent, the <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-pause">IMFPMediaPlayer::Pause</a> method will likely fail.
+The media item can pause. If this flag is absent, the <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-pause">IMFPMediaPlayer::Pause</a> method will likely fail.
 
 ### -field MFP_MEDIAITEM_HAS_SLOW_SEEK
 
@@ -82,9 +82,8 @@ The following <b>typedef</b> is defined for combining flags from this enumeratio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getcharacteristics">IMFPMediaItem::GetCharacteristics</a>
+<a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaitem-getcharacteristics">IMFPMediaItem::GetCharacteristics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

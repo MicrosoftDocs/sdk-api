@@ -147,5 +147,4 @@ The following is a list of the data directories. Offsets are relative to the beg
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
-
+<a href="/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>

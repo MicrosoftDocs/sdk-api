@@ -54,17 +54,17 @@ api_name:
 
 ## -description
 
-The <b>WLX_CLIENT_CREDENTIALS_INFO_V2_0</b> structure contains the client <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> returned by a call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ts_logon_credentials">WlxQueryTsLogonCredentials</a>.
+The <b>WLX_CLIENT_CREDENTIALS_INFO_V2_0</b> structure contains the client <a href="/windows/desktop/SecGloss/c-gly">credentials</a> returned by a call to 
+<a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ts_logon_credentials">WlxQueryTsLogonCredentials</a>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> DLL is responsible for calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to free the resources used by this structure when the structure is no longer needed.
+The <a href="/windows/desktop/SecGloss/g-gly">GINA</a> DLL is responsible for calling 
+<a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> to free the resources used by this structure when the structure is no longer needed.
 
 ## -struct-fields
 
 ### -field dwType
 
-Specifies the type of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">credentials</a> structure allocated by the GINA DLL. Credential types are defined with the prefix WLX_CREDENTIAL_TYPE_xxx.
+Specifies the type of <a href="/windows/desktop/SecGloss/c-gly">credentials</a> structure allocated by the GINA DLL. Credential types are defined with the prefix WLX_CREDENTIAL_TYPE_xxx.
 
 ### -field pszUserName
 
@@ -76,9 +76,9 @@ A pointer to the name of the domain used to log on.
 
 ### -field pszPassword
 
-A pointer to the plaintext password of the user account. When you have finished using <i>pszPassword</i>, clear the sensitive information from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function.
+A pointer to the plaintext password of the user account. When you have finished using <i>pszPassword</i>, clear the sensitive information from memory by calling the <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function.
 
-For more information about protecting passwords, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
+For more information about protecting passwords, see <a href="/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 ### -field fPromptForPassword
 
@@ -86,9 +86,8 @@ Forces a prompt for the password due to an administration override. This allows 
 
 ### -field fDisconnectOnLogonFailure
 
-Determines whether GINA allows the user to supply different credentials if the logon fails. If  <i>fDisconnectOnLogonFailure</i> is <b>TRUE</b> and the logon fails, <a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxloggedoutsas">WlxLoggedOutSAS</a> should return WLX_SAS_ACTION_LOGOFF.  This will cause <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> to terminate the session. If <i>fDisconnectOnLogonFailure</i> is <b>FALSE</b> and the logon fails, GINA can allow the user to submit different credentials.
+Determines whether GINA allows the user to supply different credentials if the logon fails. If  <i>fDisconnectOnLogonFailure</i> is <b>TRUE</b> and the logon fails, <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxloggedoutsas">WlxLoggedOutSAS</a> should return WLX_SAS_ACTION_LOGOFF.  This will cause <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> to terminate the session. If <i>fDisconnectOnLogonFailure</i> is <b>FALSE</b> and the logon fails, GINA can allow the user to submit different credentials.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ts_logon_credentials">WlxQueryTsLogonCredentials</a>
-
+<a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ts_logon_credentials">WlxQueryTsLogonCredentials</a>

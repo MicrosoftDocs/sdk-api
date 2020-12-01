@@ -104,13 +104,12 @@ Specifies the size or content of the data is inappropriate for the request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_delete">MibDelete</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_delete">MibDelete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
-
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>

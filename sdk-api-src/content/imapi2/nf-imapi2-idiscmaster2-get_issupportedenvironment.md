@@ -84,11 +84,10 @@ Value: 0x80004003
 
 ## -remarks
 
-This method loops through all the strings in <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_item">IDiscMaster2</a> and attempts to use each string to initialize a <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">DiscRecorder2</a> object.  If any of the recorders on the system succeed the initialization, this method returns <b>TRUE</b>.
+This method loops through all the strings in <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_item">IDiscMaster2</a> and attempts to use each string to initialize a <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">DiscRecorder2</a> object.  If any of the recorders on the system succeed the initialization, this method returns <b>TRUE</b>.
 
 The environment must contain at least one type-5 optical device.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>
-
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>

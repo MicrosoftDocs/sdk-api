@@ -56,13 +56,13 @@ Allows the client to supply its own clipboard object.
 
 ### -param lpchrg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>*</b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>*</b>
 
 The clipboard object range.
 
 ### -param reco
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The clipboard operation flag can be one of these values.
 
@@ -98,25 +98,24 @@ Cut to the clipboard.
 
 Type: <b>LPDATAOBJECT*</b>
 
-Pointer to the pointer variable that receives the address of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> implementation representing the range specified in the 
+Pointer to the pointer variable that receives the address of the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> implementation representing the range specified in the 
 					<i>lpchrg</i> parameter. The value of 
 					<i>lplpdataobj</i> is ignored if an error is returned.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns <b>S_OK</b> on success. If the return value is <b>E_NOTIMPL</b>, the rich edit control created its own clipboard object. If the return value is a failure other than <b>E_NOTIMPL</b>, the operation failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>
+<a href="/windows/desktop/api/richedit/ns-richedit-charrange">CHARRANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
+<a href="/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
 
 
 
 <b>Reference</b>
-

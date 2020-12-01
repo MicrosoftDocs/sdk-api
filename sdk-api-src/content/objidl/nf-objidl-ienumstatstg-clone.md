@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>Clone</b> method creates a new enumerator that contains the same enumeration state as the current <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure enumerator. Using this method, a client can record a particular point in the enumeration sequence and then return to that point at a later time. The new enumerator supports the same <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a> interface.
+The <b>Clone</b> method creates a new enumerator that contains the same enumeration state as the current <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure enumerator. Using this method, a client can record a particular point in the enumeration sequence and then return to that point at a later time. The new enumerator supports the same <a href="/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a> interface.
 
 ## -parameters
 
 ### -param ppenum [out]
 
-    A pointer to the variable that receives the  <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a> interface pointer. 
+    A pointer to the variable that receives the  <a href="/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a> interface pointer. 
 
 If the method is unsuccessful, the value of the <i>ppenum</i> parameter is undefined.
 
@@ -103,4 +103,3 @@ An unexpected exception occurred.
 </td>
 </tr>
 </table>
-

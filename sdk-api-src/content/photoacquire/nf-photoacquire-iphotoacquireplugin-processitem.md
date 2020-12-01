@@ -68,7 +68,7 @@ Specifies a double word value indicating whether this method is being called bef
 </tr>
 <tr>
 <td>PAPS_PRESAVE</td>
-<td>Indicates that the method is being called before saving the acquired file. During PAPS_PRESAVE, <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getproperty">pPhotoAcquireItem::GetProperty</a> should be used to retrieve metadata from the original file, while new metadata to be written to the file should be added to <i>pPropertyStore</i>.</td>
+<td>Indicates that the method is being called before saving the acquired file. During PAPS_PRESAVE, <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-getproperty">pPhotoAcquireItem::GetProperty</a> should be used to retrieve metadata from the original file, while new metadata to be written to the file should be added to <i>pPropertyStore</i>.</td>
 </tr>
 <tr>
 <td>PAPS_POSTSAVE</td>
@@ -82,7 +82,7 @@ Specifies a double word value indicating whether this method is being called bef
 
 ### -param pPhotoAcquireItem [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object for the item being processed.
+Pointer to an <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object for the item being processed.
 
 ### -param pOriginalItemStream [in]
 
@@ -131,5 +131,4 @@ The method is not implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireplugin">IPhotoAcquirePlugin Interface</a>
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireplugin">IPhotoAcquirePlugin Interface</a>

@@ -63,19 +63,19 @@ RSVP message type.
 
 ### -field pRsvpSession
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_session">RSVP_SESSION</a> object containing an RSVP session object.
+Pointer to an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_session">RSVP_SESSION</a> object containing an RSVP session object.
 
 ### -field pRsvpFromHop
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_hop">RSVP_HOP</a> structure indicating the hop from which the message has come.
+Pointer to an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_hop">RSVP_HOP</a> structure indicating the hop from which the message has come.
 
 ### -field pRsvpToHop
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_hop">RSVP_HOP</a> structure indicating the hop to which the message shall be sent.
+Pointer to an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_hop">RSVP_HOP</a> structure indicating the hop to which the message shall be sent.
 
 ### -field pResvStyle
 
-Reservation style, expressed as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-resv_style">RESV_STYLE</a> structure.
+Reservation style, expressed as a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-resv_style">RESV_STYLE</a> structure.
 
 ### -field pRsvpScope
 
@@ -87,7 +87,7 @@ Number of flow descriptors in the message.
 
 ### -field pFlowDescs
 
-Pointer to the first <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-flow_desc">FLOW_DESC</a> structure in the message.
+Pointer to the first <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-flow_desc">FLOW_DESC</a> structure in the message.
 
 ### -field PdObjectCount
 
@@ -95,41 +95,40 @@ Number of policy data objects in the message.
 
 ### -field ppPdObjects
 
-Pointer to the first <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-policy_data">POLICY_DATA</a> structure in the message.
+Pointer to the first <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-policy_data">POLICY_DATA</a> structure in the message.
 
 ### -field pErrorSpec
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-error_spec">ERROR_SPEC</a> structure containing an error message.
+Pointer to an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-error_spec">ERROR_SPEC</a> structure containing an error message.
 
 ### -field pAdspec
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-adspec">ADSPEC</a> structure containing an Adspec message.
+Pointer to an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-adspec">ADSPEC</a> structure containing an Adspec message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-adspec">ADSPEC</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-adspec">ADSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-error_spec">ERROR_SPEC</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-error_spec">ERROR_SPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-flow_desc">FLOW_DESC</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-flow_desc">FLOW_DESC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-policy_data">POLICY_DATA</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-policy_data">POLICY_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-resv_style">RESV_STYLE</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-resv_style">RESV_STYLE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_hop">RSVP_HOP</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_hop">RSVP_HOP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_session">RSVP_SESSION</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-rsvp_session">RSVP_SESSION</a>

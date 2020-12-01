@@ -58,7 +58,7 @@ Describes an action requested by an output trust authority (OTA). The request is
 
 ### -field Action
 
-Specifies the action as a member of the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mfpolicymanager_action">MFPOLICYMANAGER_ACTION</a> enumeration.
+Specifies the action as a member of the <a href="/windows/desktop/api/mfidl/ne-mfidl-mfpolicymanager_action">MFPOLICYMANAGER_ACTION</a> enumeration.
 
 ### -field pbTicket
 
@@ -70,5 +70,4 @@ Size of the ticket object, in bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

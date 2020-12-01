@@ -55,7 +55,7 @@ Represents a block of memory that contains media data. Use this interface to acc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaBuffer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaBuffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaBuffer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFMediaBuffer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFMediaBuffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getcurrentlength">GetCurrentLength</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getcurrentlength">GetCurrentLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the length of the valid data in the buffer.
@@ -79,7 +79,7 @@ Retrieves the length of the valid data in the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getmaxlength">GetMaxLength</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getmaxlength">GetMaxLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the allocated size of the buffer.
@@ -88,7 +88,7 @@ Retrieves the allocated size of the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">Lock</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock">Lock</a>
 </td>
 <td align="left" width="63%">
 Gives the caller access to the memory in the buffer.
@@ -97,7 +97,7 @@ Gives the caller access to the memory in the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-setcurrentlength">SetCurrentLength</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-setcurrentlength">SetCurrentLength</a>
 </td>
 <td align="left" width="63%">
 Sets the length of the valid data in the buffer.
@@ -106,7 +106,7 @@ Sets the length of the valid data in the buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-unlock">Unlock</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-unlock">Unlock</a>
 </td>
 <td align="left" width="63%">
 Unlocks a buffer that was previously locked.
@@ -117,20 +117,20 @@ Unlocks a buffer that was previously locked.
 
 ## -remarks
 
-If the buffer contains 2-D image data (such as an uncompressed video frame), you should query the buffer for the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> interface. The methods on <b>IMF2DBuffer</b> are optimized for 2-D data.
+If the buffer contains 2-D image data (such as an uncompressed video frame), you should query the buffer for the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imf2dbuffer">IMF2DBuffer</a> interface. The methods on <b>IMF2DBuffer</b> are optimized for 2-D data.
 
-To get a buffer from a media sample, call one of the following <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> methods:
+To get a buffer from a media sample, call one of the following <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> methods:
 
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-converttocontiguousbuffer">IMFSample::ConvertToContiguousBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-converttocontiguousbuffer">IMFSample::ConvertToContiguousBuffer</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getbufferbyindex">IMFSample::GetBufferByIndex</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfsample-getbufferbyindex">IMFSample::GetBufferByIndex</a>
 
 
 </li>
@@ -144,25 +144,25 @@ To create a new buffer object, use one of the following functions.
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatememorybuffer">MFCreateMemoryBuffer</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatememorybuffer">MFCreateMemoryBuffer</a>
 </td>
 <td>Creates a buffer and allocates system memory.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatemediabufferwrapper">MFCreateMediaBufferWrapper</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatemediabufferwrapper">MFCreateMediaBufferWrapper</a>
 </td>
 <td>Creates a media buffer that wraps an existing media buffer.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatedxsurfacebuffer">MFCreateDXSurfaceBuffer</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatedxsurfacebuffer">MFCreateDXSurfaceBuffer</a>
 </td>
 <td>Creates a buffer that manages a DirectX surface.</td>
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatealignedmemorybuffer">MFCreateAlignedMemoryBuffer</a>
+<a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatealignedmemorybuffer">MFCreateAlignedMemoryBuffer</a>
 </td>
 <td>Creates a buffer and allocates system memory with a specified alignment.</td>
 </tr>
@@ -178,9 +178,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
+<a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

@@ -68,11 +68,11 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
-This method could be used along with <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">QueryByIndex</a> to enumerate all properties on a storage or device.
+This method could be used along with <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">QueryByIndex</a> to enumerate all properties on a storage or device.
 
 
 #### Examples
@@ -154,17 +154,16 @@ The following code retrieves the count of properties in an <b>IWMDMMetaData</b> 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/metadata-constants">Metadata Constants</a>
+<a href="/windows/desktop/WMDM/metadata-constants">Metadata Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">QueryByIndex</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">QueryByIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>
-
+<a href="/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>

@@ -56,7 +56,7 @@ Populates a selected list of items in the collection from the COM+ catalog, base
 
 ### -param psaKeys [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_key">Key</a> property value of the objects for which data is to be read.
+The <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogobject-get_key">Key</a> property value of the objects for which data is to be read.
 
 ## -returns
 
@@ -93,9 +93,8 @@ Errors occurred while accessing one or more objects.
 
 ## -remarks
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-savechanges">SaveChanges</a> method prior to calling <b>PopulateByKey</b> if you want to save pending changes. Unsaved changes made to the collection are lost when you call <b>PopulateByKey</b>.
+Call the <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-savechanges">SaveChanges</a> method prior to calling <b>PopulateByKey</b> if you want to save pending changes. Unsaved changes made to the collection are lost when you call <b>PopulateByKey</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
-
+<a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>

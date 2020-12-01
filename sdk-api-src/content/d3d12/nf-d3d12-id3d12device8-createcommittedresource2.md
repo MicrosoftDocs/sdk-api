@@ -48,7 +48,7 @@ Creates both a resource and an implicit heap (optionally for a protected session
 
 ### -param pHeapProperties
 
-Type: _In_ **const [D3D12_HEAP_PROPERTIES](/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_properties)\***
+Type: \_In\_ **const [D3D12_HEAP_PROPERTIES](/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_properties)\***
 
 A pointer to a **D3D12_HEAP_PROPERTIES** structure that provides properties for the resource's heap.
 
@@ -71,9 +71,9 @@ Type: **[D3D12_RESOURCE_STATES](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource
 
 The initial state of the resource, as a bitwise-OR'd combination of **D3D12_RESOURCE_STATES** enumeration constants.
 
-When you create a resource together with a [D3D12_HEAP_TYPE_UPLOAD](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type) heap, you must set *InitialResourceState* to [D3D12_RESOURCE_STATE_GENERIC_READ](/win32/api/d3d12/ne-d3d12-d3d12_resource_states).
+When you create a resource together with a [D3D12_HEAP_TYPE_UPLOAD](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type) heap, you must set *InitialResourceState* to [D3D12_RESOURCE_STATE_GENERIC_READ](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states).
 
-When you create a resource together with a [D3D12_HEAP_TYPE_READBACK](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type) heap, you must set *InitialResourceState* to [D3D12_RESOURCE_STATE_COPY_DEST](/win32/api/d3d12/ne-d3d12-d3d12_resource_states).
+When you create a resource together with a [D3D12_HEAP_TYPE_READBACK](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type) heap, you must set *InitialResourceState* to [D3D12_RESOURCE_STATE_COPY_DEST](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states).
 
 ### -param pOptimizedClearValue
 

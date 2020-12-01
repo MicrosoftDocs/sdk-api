@@ -80,7 +80,7 @@ The <b>GetCodecFormatCount</b> method retrieves the number of formats supported 
 
 ### -param dwCodecIndex [in]
 
-<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major media type, use the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecinfocount">IWMCodecInfo::GetCodecInfoCount</a> method.
+<b>DWORD</b> containing the codec index ranging from zero to one less than the number of supported codecs of the type specified by <i>guidType</i>. To retrieve the number of individual codecs supporting a major media type, use the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecinfocount">IWMCodecInfo::GetCodecInfoCount</a> method.
 
 ### -param pcFormat [out]
 
@@ -136,13 +136,12 @@ Use this method along with <b>GetCodecFormat</b> to enumerate the formats suppor
 
 The Windows Media Format SDK provides codecs only for audio and video. If you specify another major type, this method will return an error.
 
-You do not need to call this method for the Windows Media Video codecs; each video codec supports only a single format. For more information see <a href="https://docs.microsoft.com/windows/desktop/wmformat/configuring-video-streams">Configuring Video Streams</a>.
+You do not need to call this method for the Windows Media Video codecs; each video codec supports only a single format. For more information see <a href="/windows/desktop/wmformat/configuring-video-streams">Configuring Video Streams</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo">IWMCodecInfo Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo">IWMCodecInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformat">IWMCodecInfo::GetCodecFormat</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformat">IWMCodecInfo::GetCodecFormat</a>

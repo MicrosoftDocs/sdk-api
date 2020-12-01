@@ -56,36 +56,36 @@ Information about a fault.
 
 ### -field WS_FAULT_ERROR_PROPERTY_FAULT
 
-An optional <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> value that is the fault representation of the error.  If no
+An optional <a href="/windows/desktop/api/webservices/ns-webservices-ws_fault">WS_FAULT</a> value that is the fault representation of the error.  If no
                     fault representation is present, then the value is <b>NULL</b>.
                 
 
-To set the WS_FAULT value, pass a WS_FAULT* to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetfaulterrorproperty">WsSetFaultErrorProperty</a>.
+To set the WS_FAULT value, pass a WS_FAULT* to <a href="/windows/desktop/api/webservices/nf-webservices-wssetfaulterrorproperty">WsSetFaultErrorProperty</a>.
                     The error object will make a copy of the WS_FAULT.  The error object will also
                     add the fault string of the fault to the set of error strings in the error object
                     if the language of the fault string matches that of the error object.
                 
 
-To get the WS_FAULT value, pass a WS_FAULT** to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetfaulterrorproperty">WsGetFaultErrorProperty</a>, 
+To get the WS_FAULT value, pass a WS_FAULT** to <a href="/windows/desktop/api/webservices/nf-webservices-wsgetfaulterrorproperty">WsGetFaultErrorProperty</a>, 
                     which will either return <b>NULL</b> (indicating no fault has been set), or will 
                     return a non-<b>NULL</b> pointer to the WS_FAULT.  The non-<b>NULL</b> pointer is valid until
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreseterror">WsResetError</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreeerror">WsFreeError</a> are called for the error object.
+                    <a href="/windows/desktop/api/webservices/nf-webservices-wsreseterror">WsResetError</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeerror">WsFreeError</a> are called for the error object.
                 
 
 The default value is <b>NULL</b>.
 
 ### -field WS_FAULT_ERROR_PROPERTY_ACTION
 
-An optional <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> value representing the action to use for the fault.
+An optional <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> value representing the action to use for the fault.
                     If the length of the string is zero, then no action is present.
                 
 
-To get the string value, pass a WS_XML_STRING* to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetfaulterrorproperty">WsGetFaultErrorProperty</a>.
-                    The returned string is valid until <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreseterror">WsResetError</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreeerror">WsFreeError</a> 
+To get the string value, pass a WS_XML_STRING* to <a href="/windows/desktop/api/webservices/nf-webservices-wsgetfaulterrorproperty">WsGetFaultErrorProperty</a>.
+                    The returned string is valid until <a href="/windows/desktop/api/webservices/nf-webservices-wsreseterror">WsResetError</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeerror">WsFreeError</a> 
                     are called for the error object.
                 
 
-To set the string value, pass a WS_XML_STRING* to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetfaulterrorproperty">WsSetFaultErrorProperty</a>.
+To set the string value, pass a WS_XML_STRING* to <a href="/windows/desktop/api/webservices/nf-webservices-wssetfaulterrorproperty">WsSetFaultErrorProperty</a>.
                     The error object will make a copy of the string.
                 
 
@@ -93,19 +93,18 @@ The default value is a zero-length string.
 
 ### -field WS_FAULT_ERROR_PROPERTY_HEADER
 
-An optional <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> value representing a header to
+An optional <a href="/windows/desktop/wsw/ws-xml-buffer">WS_XML_BUFFER</a> value representing a header to
                     add to the fault message relating to the fault.
                     If the pointer to the XML_BUFFER is <b>NULL</b>, then no header is present.
                 
 
-To get the header value, pass a WS_XML_BUFFER** to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetfaulterrorproperty">WsGetFaultErrorProperty</a>.
-                    The returned WS_XML_BUFFER is valid until <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreseterror">WsResetError</a> or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreeerror">WsFreeError</a> 
+To get the header value, pass a WS_XML_BUFFER** to <a href="/windows/desktop/api/webservices/nf-webservices-wsgetfaulterrorproperty">WsGetFaultErrorProperty</a>.
+                    The returned WS_XML_BUFFER is valid until <a href="/windows/desktop/api/webservices/nf-webservices-wsreseterror">WsResetError</a> or <a href="/windows/desktop/api/webservices/nf-webservices-wsfreeerror">WsFreeError</a> 
                     are called for the error object.
                 
 
-To set the header value, pass a WS_XML_BUFFER** to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wssetfaulterrorproperty">WsSetFaultErrorProperty</a>.
+To set the header value, pass a WS_XML_BUFFER** to <a href="/windows/desktop/api/webservices/nf-webservices-wssetfaulterrorproperty">WsSetFaultErrorProperty</a>.
                     The error object will make a copy of the buffer.
                 
 
 The default value is <b>NULL</b>.
-

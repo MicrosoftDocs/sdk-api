@@ -93,12 +93,11 @@ The address in <i>pIID</i> is not valid. For example, it may be <b>NULL</b>.
 
 ## -remarks
 
-Using the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ienumconnectionpoints">IEnumConnectionPoints</a> interface, a client can obtain a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a> interface. Using that pointer and the <b>GetConnectionInterface</b> method, the client can determine the IID of each connection point enumerated. The IID returned from this method must enable the caller to access this same connection point through <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint">IConnectionPointContainer::FindConnectionPoint</a>.
+Using the <a href="/windows/desktop/api/ocidl/nn-ocidl-ienumconnectionpoints">IEnumConnectionPoints</a> interface, a client can obtain a pointer to the <a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a> interface. Using that pointer and the <b>GetConnectionInterface</b> method, the client can determine the IID of each connection point enumerated. The IID returned from this method must enable the caller to access this same connection point through <a href="/windows/desktop/api/ocidl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint">IConnectionPointContainer::FindConnectionPoint</a>.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 This method must be implemented in any connection point; E_NOTIMPL is not an acceptable return value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>

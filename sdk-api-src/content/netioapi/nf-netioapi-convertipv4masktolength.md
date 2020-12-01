@@ -92,5 +92,4 @@ The <b>ConvertIpv4MaskToLength</b> function is available on Windows Vista and l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netioapi/nf-netioapi-convertlengthtoipv4mask">ConvertLengthToIpv4Mask</a>
-
+<a href="/windows/desktop/api/netioapi/nf-netioapi-convertlengthtoipv4mask">ConvertLengthToIpv4Mask</a>

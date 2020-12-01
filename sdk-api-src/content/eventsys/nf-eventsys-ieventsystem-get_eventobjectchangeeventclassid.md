@@ -59,9 +59,8 @@ This property is read-only.
 
 ## -remarks
 
-Subscriptions can use the <b>EventObjectChangeEventClassID</b> property to obtain a pointer to an event class object that notifies them when subscribers or events are modified or when they are added to or deleted from the event store. Subscribers to these events must implement the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange">IEventObjectChange</a> interface.
+Subscriptions can use the <b>EventObjectChangeEventClassID</b> property to obtain a pointer to an event class object that notifies them when subscribers or events are modified or when they are added to or deleted from the event store. Subscribers to these events must implement the <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange">IEventObjectChange</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>

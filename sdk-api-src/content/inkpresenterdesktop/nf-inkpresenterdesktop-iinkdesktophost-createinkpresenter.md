@@ -50,10 +50,10 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop">IInkPresenterDesktop</a> object on an application thread.
+Creates an <a href="/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop">IInkPresenterDesktop</a> object on an application thread.
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop">IInkPresenterDesktop</a> object can then be configured and connected to the app's  <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a> visual tree. 
-<div class="alert"><b>Note</b>  <p class="note">Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/inkpresenterdesktop/nf-inkpresenterdesktop-iinkdesktophost-createandinitializeinkpresenter">CreateAndInitializeInkPresenter</a> to do this in a single call.
+The <a href="/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop">IInkPresenterDesktop</a> object can then be configured and connected to the app's  <a href="/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a> visual tree. 
+<div class="alert"><b>Note</b>  <p class="note">Use <a href="/previous-versions/windows/desktop/api/inkpresenterdesktop/nf-inkpresenterdesktop-iinkdesktophost-createandinitializeinkpresenter">CreateAndInitializeInkPresenter</a> to do this in a single call.
 
 </div><div> </div>
 
@@ -61,7 +61,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/in
 
 ### -param riid [in]
 
-A reference to the interface identifier of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop">IInkPresenterDesktop</a> object.
+A reference to the interface identifier of an <a href="/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkpresenterdesktop">IInkPresenterDesktop</a> object.
 
 ### -param ppv [out]
 
@@ -77,21 +77,19 @@ If successful, returns the requested interface pointer. Otherwise, returns <b>NU
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkdesktophost">IInkDesktopHost</a>
+<a href="/previous-versions/windows/desktop/api/inkpresenterdesktop/nn-inkpresenterdesktop-iinkdesktophost">IInkDesktopHost</a>
 
 
 
-<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
+<a href="/windows/uwp/input-and-devices/pen-and-stylus-interactions">Pen and stylus interactions</a>
 
 
 
 <b>Samples</b>
 
-
+<a href="https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex Ink sample</a>
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
-

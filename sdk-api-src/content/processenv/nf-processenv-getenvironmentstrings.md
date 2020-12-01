@@ -83,12 +83,12 @@ Each environment block contains the environment variables in the following forma
 The name of an environment variable cannot include an equal sign (=).
 
 Treat this memory as read-only; do not modify it directly. To add or change an environment variable, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setenvironmentvariable">SetEnvironmentVariable</a> functions.
+<a href="/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a> and 
+<a href="/windows/desktop/api/winbase/nf-winbase-setenvironmentvariable">SetEnvironmentVariable</a> functions.
 
 When the block returned by 
 <b>GetEnvironmentStrings</b> is no longer needed, it should be freed by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-freeenvironmentstringsa">FreeEnvironmentStrings</a> function.
+<a href="/windows/desktop/api/processenv/nf-processenv-freeenvironmentstringsa">FreeEnvironmentStrings</a> function.
 
 Note that the ANSI version of this function, <b>GetEnvironmentStringsA</b>, returns OEM characters.
 
@@ -96,23 +96,22 @@ Note that the ANSI version of this function, <b>GetEnvironmentStringsA</b>, retu
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/changing-environment-variables">Changing Environment Variables</a>.
+<a href="/windows/desktop/ProcThread/changing-environment-variables">Changing Environment Variables</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/environment-variables">Environment Variables</a>
+<a href="/windows/desktop/ProcThread/environment-variables">Environment Variables</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processenv/nf-processenv-freeenvironmentstringsa">FreeEnvironmentStrings</a>
+<a href="/windows/desktop/api/processenv/nf-processenv-freeenvironmentstringsa">FreeEnvironmentStrings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getenvironmentvariable">GetEnvironmentVariable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setenvironmentvariable">SetEnvironmentVariable</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setenvironmentvariable">SetEnvironmentVariable</a>

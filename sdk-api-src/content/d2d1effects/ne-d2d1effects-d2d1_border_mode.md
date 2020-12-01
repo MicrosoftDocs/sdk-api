@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies how the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/crop">Crop effect</a> handles the crop rectangle falling on fractional pixel coordinates.
+Specifies how the <a href="/windows/desktop/Direct2D/crop">Crop effect</a> handles the crop rectangle falling on fractional pixel coordinates.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ Specifies how the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/c
 If the crop rectangle falls on fractional pixel coordinates, the effect clamps which results in a hard edge.
 
 ### -field D2D1_BORDER_MODE_FORCE_DWORD
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
+<p class="CCE_Message">[The Win32 Location API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/uwp/api/windows.devices.geolocation">Windows.Devices.Geolocation</a>API.
 ]
 
 Requests location report events.
@@ -59,7 +59,7 @@ Requests location report events.
 
 ### -param pEvents [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationevents">ILocationEvents</a> callback interface through which the requested event notifications will be received.
+Pointer to the <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationevents">ILocationEvents</a> callback interface through which the requested event notifications will be received.
 
 ### -param reportType [in]
 
@@ -117,9 +117,9 @@ The method succeeded.
 
 The interval you request by using the <i>dwRequestedReportInterval</i> parameter represents the shortest amount of time between events. This means that you request to receive event notifications no more frequently than specified, but the elapsed time may be significantly longer. Use the <i>dwRequestedReportInterval</i> parameter to help ensure that event notifications do not use more processor resources than necessary.
 
-The location provider is not required to provide reports at the interval that you request. Call <a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportinterval">GetReportInterval</a> to discover the true report interval setting.
+The location provider is not required to provide reports at the interval that you request. Call <a href="/windows/desktop/api/locationapi/nf-locationapi-ilocation-getreportinterval">GetReportInterval</a> to discover the true report interval setting.
 
-Applications that need to get location data only once, to fill out a form or place the user's location on a map, should register for events and wait for the first report event as described in <a href="https://docs.microsoft.com/previous-versions/visualstudio">Waiting For a Location Report</a>.
+Applications that need to get location data only once, to fill out a form or place the user's location on a map, should register for events and wait for the first report event as described in <a href="/previous-versions/visualstudio">Waiting For a Location Report</a>.
 
 
 #### Examples
@@ -203,9 +203,8 @@ int wmain()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
+<a href="/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/locationapi/nn-locationapi-ilocationevents">ILocationEvents</a>
-
+<a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationevents">ILocationEvents</a>

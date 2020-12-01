@@ -58,16 +58,15 @@ api_name:
 
 Type: <b>HUIAEVENT</b>
 
-The event to remove. This value was retrieved from <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaaddevent">UiaAddEvent</a>.
+The event to remove. This value was retrieved from <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaaddevent">UiaAddEvent</a>.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
 
 ## -remarks
 
 The callback pointer, the scope, the node, and the list of properties must match exactly the parameters that were sent to the 
-corresponding <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaaddevent">UiaAddEvent</a>.
-
+corresponding <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiaaddevent">UiaAddEvent</a>.

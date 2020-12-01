@@ -72,5 +72,4 @@ This method must always  return <b>E_NOTIMPL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a>
-
+<a href="/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a>

@@ -65,7 +65,7 @@ Pointer to an array of size <i>culPID</i>, allocated by the caller. Each element
 
 ### -param MediaSampleContent [in]
 
-Variable of type <a href="https://docs.microsoft.com/windows/desktop/DirectShow/media-sample-content">MEDIA_SAMPLE_CONTENT</a> that specifies the contents of the stream.
+Variable of type <a href="/windows/desktop/DirectShow/media-sample-content">MEDIA_SAMPLE_CONTENT</a> that specifies the contents of the stream.
 
 ## -returns
 
@@ -77,9 +77,8 @@ There may be no more than 255 distinct PIDs mapped at any given time. This inclu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap Interface</a>

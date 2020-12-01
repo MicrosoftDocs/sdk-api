@@ -216,7 +216,7 @@ A pointer to the number of the SKU's status.
 
 ### -param ppLicensingStatus [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/slpublic/ns-slpublic-sl_licensing_status">SL_LICENSING_STATUS</a>**</b>
+Type: <b><a href="/windows/desktop/api/slpublic/ns-slpublic-sl_licensing_status">SL_LICENSING_STATUS</a>**</b>
 
 A pointer to the licensing status of the SKU.
 
@@ -256,4 +256,3 @@ The rights consumption failed.
 </td>
 </tr>
 </table>
-

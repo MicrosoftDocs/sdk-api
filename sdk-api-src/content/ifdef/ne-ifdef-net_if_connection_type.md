@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The NET_IF_CONNECTION_TYPE enumeration type specifies the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-network-interfaces2">NDIS network interface</a> connection
+  <a href="/windows-hardware/drivers/network/ndis-network-interfaces2">NDIS network interface</a> connection
   type.
 
 ## -enum-fields
@@ -78,4 +78,3 @@ Specifies the demand-dial connection type. A demand-dial connection comes up in 
 ### -field NET_IF_CONNECTION_MAXIMUM
 
 A maximum value for testing purposes.
-

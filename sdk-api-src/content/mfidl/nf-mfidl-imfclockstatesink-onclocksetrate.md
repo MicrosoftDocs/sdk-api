@@ -69,20 +69,19 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-When the presentation clock's <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfratecontrol-setrate">IMFRateControl::SetRate</a> method is called, the clock notifies the presentation time source by calling the time source's <b>OnClockSetRate</b> method. This call occurs synchronously within the <b>SetRate</b> method. If the time source returns an error from <b>OnClockSetRate</b>, the presentation clock's <b>SetRate</b> method returns an error and the state change does not take place.
+When the presentation clock's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfratecontrol-setrate">IMFRateControl::SetRate</a> method is called, the clock notifies the presentation time source by calling the time source's <b>OnClockSetRate</b> method. This call occurs synchronously within the <b>SetRate</b> method. If the time source returns an error from <b>OnClockSetRate</b>, the presentation clock's <b>SetRate</b> method returns an error and the state change does not take place.
       
 
 For any object that is not the presentation time source, the <b>OnClockSetRate</b> method is called asynchronously, after the state change is completed. In that case, the return value from this method is ignored.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfclockstatesink">IMFClockStateSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/mftime">MFTIME</a>
+<a href="/windows/desktop/medfound/mftime">MFTIME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
-
+<a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>

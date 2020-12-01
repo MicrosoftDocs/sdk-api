@@ -90,47 +90,46 @@ If the function fails, the return value is <b>NULL</b>.
 
 ## -remarks
 
-When you no longer need the <b>HRGN</b> object call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
+When you no longer need the <b>HRGN</b> object call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 Region coordinates are represented as 27-bit signed  integers.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpolypolygonrgn">CreatePolyPolygonRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpolypolygonrgn">CreatePolyPolygonRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpolygonrgn">CreatePolygonRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpolygonrgn">CreatePolygonRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createrectrgn">CreateRectRgn</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createrectrgn">CreateRectRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createrectrgnindirect">CreateRectRgnIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createrectrgnindirect">CreateRectRgnIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-extcreateregion">ExtCreateRegion</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-extcreateregion">ExtCreateRegion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getregiondata">GetRegionData</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getregiondata">GetRegionData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/region-functions">Region Functions</a>
+<a href="/windows/desktop/gdi/region-functions">Region Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/regions">Regions Overview</a>
+<a href="/windows/desktop/gdi/regions">Regions Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>

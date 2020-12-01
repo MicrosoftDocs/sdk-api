@@ -73,7 +73,7 @@ The buffer duration, in 100-nanosecond units, requested by the client.
 ### -param u32LatencyCoefficient [in]
 
 The latency coefficient of the audio endpoint. A client can obtain the actual latency of the endpoint by 
-      calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-getlatency">IAudioEndpoint::GetLatency</a> 
+      calling the <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudioendpoint-getlatency">IAudioEndpoint::GetLatency</a> 
       method.
 
 ### -param pu32SharedMemorySize [out]
@@ -92,7 +92,7 @@ If the method succeeds, it returns <b>S_OK</b>.
 
 This method is used to provide handles and parameters of the audio service of the endpoint to the client 
     process for use in exclusive mode. This method fails if the endpoint object is fully initialized through the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-setbuffer">IAudioDeviceEndpoint::SetBuffer</a> 
+    <a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-iaudiodeviceendpoint-setbuffer">IAudioDeviceEndpoint::SetBuffer</a> 
     method call.
 
 The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client 
@@ -100,5 +100,4 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiodeviceendpoint">IAudioDeviceEndpoint</a>
-
+<a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiodeviceendpoint">IAudioDeviceEndpoint</a>

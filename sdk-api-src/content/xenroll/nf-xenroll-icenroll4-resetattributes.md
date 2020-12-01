@@ -55,7 +55,7 @@ api_name:
 
 The <b>resetAttributes</b> method removes all attributes from the request.
 			
-		 This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
+		 This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 ## -parameters
 
@@ -65,5 +65,4 @@ The <b>resetAttributes</b> method removes all attributes from the request.
  If the method succeeds, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
+<a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.

@@ -70,9 +70,8 @@ This flag indicates to ignore objects which have no external refcounts keeping t
 
 ## -remarks
 
-This enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugdevice-reportlivedeviceobjects">ID3D12DebugDevice::ReportLiveDeviceObjects</a>.
+This enumeration is used by <a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugdevice-reportlivedeviceobjects">ID3D12DebugDevice::ReportLiveDeviceObjects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-sdklayers-enumerations">Debug Layer Enumerations</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-sdklayers-enumerations">Debug Layer Enumerations</a>

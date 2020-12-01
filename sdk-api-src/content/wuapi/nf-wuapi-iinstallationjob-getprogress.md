@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogress">IInstallationProgress</a> interface that describes the current progress of an installation or uninstallation.
+Returns an <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogress">IInstallationProgress</a> interface that describes the current progress of an installation or uninstallation.
 
 ## -parameters
 
 ### -param retval [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogress">IInstallationProgress</a> interface that describes the current progress of an installation or uninstallation.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogress">IInstallationProgress</a> interface that describes the current progress of an installation or uninstallation.
 
 ## -returns
 
@@ -65,9 +65,8 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error cod
 ## -remarks
 
 You must make repeated calls to the <b>GetProgress</b> method to track the progress of a download. You must do this because  
-the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpdateInstallationResult</a> interface is not automatically updated during a download.
+the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpdateInstallationResult</a> interface is not automatically updated during a download.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iinstallationjob">IInstallationJob</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationjob">IInstallationJob</a>

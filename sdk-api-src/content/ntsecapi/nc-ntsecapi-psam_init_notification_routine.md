@@ -89,7 +89,7 @@ The password filter DLL is not initialized.
 
 ## -remarks
 
-<b>InitializeChangeNotify</b> is called by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) to verify that the password notification DLL is loaded and initialized.
+<b>InitializeChangeNotify</b> is called by the <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) to verify that the password notification DLL is loaded and initialized.
 
 This function must use the __stdcall calling convention, and must be exported by the DLL.
 
@@ -105,28 +105,27 @@ Any process exception that is not handled within this function may cause securit
 <tr>
 <td>Programming issues when implementing a password filter DLL</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/password-filter-programming-considerations">Password Filter Programming Considerations</a>
+<a href="/windows/desktop/SecMgmt/password-filter-programming-considerations">Password Filter Programming Considerations</a>
 </td>
 </tr>
 <tr>
 <td>How to install and register your own password filter DLL</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/installing-and-registering-a-password-filter-dll">Installing and Registering a Password Filter DLL</a>
+<a href="/windows/desktop/SecMgmt/installing-and-registering-a-password-filter-dll">Installing and Registering a Password Filter DLL</a>
 </td>
 </tr>
 <tr>
 <td>The password filter DLL provided by Microsoft</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/strong-password-enforcement-and-passfilt-dll">Strong Password Enforcement and Passfilt.dll</a>
+<a href="/windows/desktop/SecMgmt/strong-password-enforcement-and-passfilt-dll">Strong Password Enforcement and Passfilt.dll</a>
 </td>
 </tr>
 </table>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_password_notification_routine">PasswordChangeNotify</a>
+<a href="/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_password_notification_routine">PasswordChangeNotify</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_password_filter_routine">PasswordFilter</a>
-
+<a href="/windows/desktop/api/ntsecapi/nc-ntsecapi-psam_password_filter_routine">PasswordFilter</a>

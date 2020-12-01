@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>Initialize</b> method sets the file name and the profile for the new recording. Call this method once, after creating the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/reccomp-object">RecComp</a> object.
+The <b>Initialize</b> method sets the file name and the profile for the new recording. Call this method once, after creating the <a href="/previous-versions/windows/desktop/mstv/reccomp-object">RecComp</a> object.
 
 ## -parameters
 
@@ -86,9 +86,8 @@ Success
 
 ## -remarks
 
-The profile of the file specified by <i>pszSBRecProfileRef</i> will be used for the target file. All files that are appended to the target file must have the same profile. For more information about profiles, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-lockprofile">IStreamBufferSink::LockProfile</a>.
+The profile of the file specified by <i>pszSBRecProfileRef</i> will be used for the target file. All files that are appended to the target file must have the same profile. For more information about profiles, see <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambuffersink-lockprofile">IStreamBufferSink::LockProfile</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferreccomp">IStreamBufferRecComp Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferreccomp">IStreamBufferRecComp Interface</a>

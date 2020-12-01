@@ -93,7 +93,7 @@ Callback flag for opening the device. One of the following callback flags must b
 </tr>
 <tr>
 <td>CALLBACK_FUNCTION</td>
-<td>The <i>dwCallback</i> parameter is a callback procedure address. For the callback signature, see <a href="https://docs.microsoft.com/previous-versions/dd798478(v=vs.85)">MidiOutProc</a>.</td>
+<td>The <i>dwCallback</i> parameter is a callback procedure address. For the callback signature, see <a href="/previous-versions/dd798478(v=vs.85)">MidiOutProc</a>.</td>
 </tr>
 <tr>
 <td>CALLBACK_NULL</td>
@@ -155,5 +155,4 @@ The system is unable to allocate or lock memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

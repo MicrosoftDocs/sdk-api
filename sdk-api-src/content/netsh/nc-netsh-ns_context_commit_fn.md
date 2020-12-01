@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>NS_CONTEXT_COMMIT_FN</b> command is the commit function for helpers. The commit function commits commands used for committing offline commands, and is registered in the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a> function. The following is an example of a commit function. Be aware  that <b>SampleCommit</b> is a placeholder for the application-defined function name.
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a> function. The following is an example of a commit function. Be aware  that <b>SampleCommit</b> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -113,9 +113,8 @@ Returns NO_ERROR upon success. Any other return value indicates an error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netsh/ns-netsh-ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
+<a href="/windows/desktop/api/netsh/ns-netsh-ns_helper_attributes">NS_HELPER_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a>
-
+<a href="/previous-versions/windows/desktop/api/netsh/nf-netsh-registercontext">RegisterContext</a>

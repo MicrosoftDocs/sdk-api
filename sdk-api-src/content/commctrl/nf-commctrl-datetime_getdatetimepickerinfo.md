@@ -56,14 +56,13 @@ Gets information for a specified date and time picker (DTP) control.
 
 ### -param hdp [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the DTP control.
 
 ### -param pdtpi [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-datetimepickerinfo">DATETIMEPICKERINFO</a>*</b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-datetimepickerinfo">DATETIMEPICKERINFO</a>*</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-datetimepickerinfo">DATETIMEPICKERINFO</a>
+<a href="/windows/desktop/api/commctrl/ns-commctrl-datetimepickerinfo">DATETIMEPICKERINFO</a>
 <b>cbSize</b>
-

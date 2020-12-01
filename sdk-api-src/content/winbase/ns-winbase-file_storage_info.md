@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains directory information for a file. This structure is returned from the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function when 
+    <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a> function when 
     <b>FileStorageInfo</b> is passed in the <i>FileInformationClass</i> 
     parameter.
 
@@ -136,13 +136,12 @@ If a volume is built on top of storage devices with different properties (for ex
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
+<a href="/windows/desktop/api/minwinbase/ne-minwinbase-file_info_by_handle_class">FILE_INFO_BY_HANDLE_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
+<a href="/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>

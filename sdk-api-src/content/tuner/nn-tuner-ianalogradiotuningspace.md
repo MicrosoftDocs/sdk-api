@@ -54,7 +54,7 @@ The <b>IAnalogRadioTuningSpace</b> interface provides methods for getting and se
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAnalogRadioTuningSpace</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>. <b>IAnalogRadioTuningSpace</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAnalogRadioTuningSpace</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>. <b>IAnalogRadioTuningSpace</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAnalogRadioTuningSpace</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-get_maxfrequency">get_MaxFrequency</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-get_maxfrequency">get_MaxFrequency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum frequency for this tuning space.
@@ -78,7 +78,7 @@ Retrieves the maximum frequency for this tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-get_minfrequency">get_MinFrequency</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-get_minfrequency">get_MinFrequency</a>
 </td>
 <td align="left" width="63%">
 Retrieves the minimum frequency for this tuning space.
@@ -87,7 +87,7 @@ Retrieves the minimum frequency for this tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-get_step">get_Step</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-get_step">get_Step</a>
 </td>
 <td align="left" width="63%">
 Retrieves the step increment for this tuning space.
@@ -96,7 +96,7 @@ Retrieves the step increment for this tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-put_maxfrequency">put_MaxFrequency</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-put_maxfrequency">put_MaxFrequency</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum frequency for this tuning space.
@@ -105,7 +105,7 @@ Sets the maximum frequency for this tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-put_minfrequency">put_MinFrequency</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-put_minfrequency">put_MinFrequency</a>
 </td>
 <td align="left" width="63%">
 Sets the minimum frequency for this tuning space.
@@ -114,7 +114,7 @@ Sets the minimum frequency for this tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-put_step">put_Step</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogradiotuningspace-put_step">put_Step</a>
 </td>
 <td align="left" width="63%">
 Sets the step increment for this tuning space.
@@ -129,9 +129,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

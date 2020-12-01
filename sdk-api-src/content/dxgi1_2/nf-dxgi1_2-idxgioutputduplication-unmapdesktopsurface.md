@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Invalidates the pointer to the desktop image that was retrieved by using <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-mapdesktopsurface">IDXGIOutputDuplication::MapDesktopSurface</a>.
+Invalidates the pointer to the desktop image that was retrieved by using <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-mapdesktopsurface">IDXGIOutputDuplication::MapDesktopSurface</a>.
 
 ## -parameters
 
@@ -60,11 +60,10 @@ Invalidates the pointer to the desktop image that was retrieved by using <a href
 <b>UnMapDesktopSurface</b> returns:
         <ul>
 <li>S_OK if it successfully completed.</li>
-<li>DXGI_ERROR_INVALID_CALL if the application did not map the desktop surface by calling <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-mapdesktopsurface">IDXGIOutputDuplication::MapDesktopSurface</a>.</li>
-<li>Possibly other error codes that are described in the <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
+<li>DXGI_ERROR_INVALID_CALL if the application did not map the desktop surface by calling <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgioutputduplication-mapdesktopsurface">IDXGIOutputDuplication::MapDesktopSurface</a>.</li>
+<li>Possibly other error codes that are described in the <a href="/windows/desktop/direct3ddxgi/dxgi-error">DXGI_ERROR</a> topic.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>
-
+<a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>

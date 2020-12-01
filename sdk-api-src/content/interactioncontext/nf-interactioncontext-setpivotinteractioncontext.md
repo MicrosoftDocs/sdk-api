@@ -58,7 +58,7 @@ Sets the center point, and the pivot radius from the center point, for a rotatio
 
 ### -param interactionContext [in]
 
-Pointer to a handle for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
+Pointer to a handle for the <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a>.
 
 ### -param x [in]
 
@@ -80,9 +80,8 @@ Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
-
+<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>

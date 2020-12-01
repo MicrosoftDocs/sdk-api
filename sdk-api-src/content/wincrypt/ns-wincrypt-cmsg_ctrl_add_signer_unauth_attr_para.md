@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</b> structure is used to add an unauthenticated attribute to a signer of a signed message. This structure is passed to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> if the <i>dwCtrlType</i> parameter is set to <b>CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR</b>.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a> if the <i>dwCtrlType</i> parameter is set to <b>CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR</b>.
 
 ## -struct-fields
 
@@ -66,20 +66,19 @@ Size of this structure in bytes.
 ### -field dwSignerIndex
 
 Index of the signer in the <b>rgSigners</b> array of pointers of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structures in a signed message's 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signed_encode_info">CMSG_SIGNED_ENCODE_INFO</a> structure. The unauthenticated attribute is to be added to this signer's information.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_encode_info">CMSG_SIGNER_ENCODE_INFO</a> structures in a signed message's 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signed_encode_info">CMSG_SIGNED_ENCODE_INFO</a> structure. The unauthenticated attribute is to be added to this signer's information.
 
 ### -field blob
 
 ### -field BLOB
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains the encoded unauthenticated attribute as its <b>pbData</b> member.
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains the encoded unauthenticated attribute as its <b>pbData</b> member.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>

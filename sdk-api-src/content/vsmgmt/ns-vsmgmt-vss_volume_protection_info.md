@@ -60,7 +60,7 @@ Contains information about a volume's shadow copy protection level.
 
 ### -field m_protectionLevel
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-vss_protection_level">VSS_PROTECTION_LEVEL</a> enumeration that specifies the target protection level for the volume.
+A value from the <a href="/windows/desktop/api/vsmgmt/ne-vsmgmt-vss_protection_level">VSS_PROTECTION_LEVEL</a> enumeration that specifies the target protection level for the volume.
 
 ### -field m_volumeIsOfflineForProtection
 
@@ -68,7 +68,7 @@ TRUE if the volume is offline due to a protection fault, or <b>FALSE</b> otherwi
 
 ### -field m_protectionFault
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/ne-vsmgmt-vss_protection_fault">VSS_PROTECTION_FAULT</a> enumeration that describes the shadow copy protection fault that caused the volume to go offline.
+A value from the <a href="/windows/desktop/api/vsmgmt/ne-vsmgmt-vss_protection_fault">VSS_PROTECTION_FAULT</a> enumeration that describes the shadow copy protection fault that caused the volume to go offline.
 
 ### -field m_failureStatus
 
@@ -84,5 +84,4 @@ Reserved for system use.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3">IVssDifferentialSoftwareSnapshotMgmt3</a>
-
+<a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3">IVssDifferentialSoftwareSnapshotMgmt3</a>

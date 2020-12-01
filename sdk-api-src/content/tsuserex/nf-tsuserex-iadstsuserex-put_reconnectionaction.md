@@ -59,5 +59,4 @@ A value that specifies if reconnection to a disconnected Remote Desktop Services
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
-
+<a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>

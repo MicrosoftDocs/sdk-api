@@ -52,27 +52,27 @@ api_name:
 
 Writes the start of the message including the current set of headers of the message and prepares to write the body elementss.
             This function is designed  for writing messages to destinations other than channels.  To write
-                a message to a channel use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a>.
+                a message to a channel use <a href="/windows/desktop/api/webservices/nf-webservices-wswritemessagestart">WsWriteMessageStart</a>.
 
 ## -parameters
 
 ### -param message [in]
 
-A pointer to the <b>Message</b> object to write.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object.
+A pointer to the <b>Message</b> object to write.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-message">WS_MESSAGE</a> object.
 
 ### -param writer [in]
 
 A pointer to the <b>XML Writer</b> object to write the Message.  The Message object uses the Writer in subsequent
-                    calls to write the message.  The caller must keep the writer valid until <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsresetmessage">WsResetMessage</a> 
-                    or <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreemessage">WsFreeMessage</a> is called.
+                    calls to write the message.  The caller must keep the writer valid until <a href="/windows/desktop/api/webservices/nf-webservices-wsresetmessage">WsResetMessage</a> 
+                    or <a href="/windows/desktop/api/webservices/nf-webservices-wsfreemessage">WsFreeMessage</a> is called.
                 
-                    The <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_message_done_callback">WS_MESSAGE_DONE_CALLBACK</a> parameter can be used to determine that the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> is no longer in use.
+                    The <a href="/windows/desktop/api/webservices/nc-webservices-ws_message_done_callback">WS_MESSAGE_DONE_CALLBACK</a> parameter can be used to determine that the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> is no longer in use.
 
 ### -param doneCallback [in, optional]
 
 The callback function invoked when the Message is
                     released or reset.  This callback 
-                    can be used to indicate that the <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object is no longer
+                    can be used to indicate that the <a href="/windows/desktop/wsw/ws-xml-writer">WS_XML_WRITER</a> object is no longer
                     in use by this message.  If this function fails the callback is not called.
                     If the function succeeds the callback is invoked one time only.
 
@@ -84,7 +84,7 @@ A void pointer to a user-defined state that will be passed
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -152,6 +152,5 @@ The message state must be set to <b>WS_MESSAGE_STATE_INITIALIZED</b>.  On succes
                 On failure state transition does not occur.
             
 
-To write an element of the message body use <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a>.  To write
-                directly to the Writer of the Message obtain the Reader with the  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_ID</a> set to <b>WS_MESSAGE_PROPERTY_BODY_WRITER</b> property.
-
+To write an element of the message body use <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a>.  To write
+                directly to the Writer of the Message obtain the Reader with the  <a href="/windows/desktop/api/webservices/ne-webservices-ws_message_property_id">WS_MESSAGE_PROPERTY_ID</a> set to <b>WS_MESSAGE_PROPERTY_BODY_WRITER</b> property.

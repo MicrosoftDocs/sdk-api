@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CMSG_KEY_AGREE_KEY_ENCRYPT_INFO</b> structure contains the encrypted key for a key agreement recipient of an enveloped message. The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_agree_encrypt_info">CMSG_KEY_AGREE_ENCRYPT_INFO</a> structure references this structure.
+The <b>CMSG_KEY_AGREE_KEY_ENCRYPT_INFO</b> structure contains the encrypted key for a key agreement recipient of an enveloped message. The <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_key_agree_encrypt_info">CMSG_KEY_AGREE_ENCRYPT_INFO</a> structure references this structure.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ The size, in bytes, of this structure.
 
 ### -field EncryptedKey
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains the session key encrypted by the negotiated key of the recipient.
-
+A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains the session key encrypted by the negotiated key of the recipient.

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The 
-<b>_NewEnum</b> property specifies either the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> enumerator interface for the collection.
+<b>_NewEnum</b> property specifies either the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> or <a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> enumerator interface for the collection.
 
 ## -parameters
 
@@ -98,5 +98,4 @@ This property is not visible in Visual Basic; use the <b>for...each...next</b> p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>

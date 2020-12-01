@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Calculates a tab control's display area given a window rectangle, or calculates the window rectangle that would correspond to a specified display area. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-adjustrect">TCM_ADJUSTRECT</a> message explicitly.
+Calculates a tab control's display area given a window rectangle, or calculates the window rectangle that would correspond to a specified display area. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-adjustrect">TCM_ADJUSTRECT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
 
 ### -param bLarger
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Operation to perform. If this parameter is <b>TRUE</b>, 
 					<i>prc</i> specifies a display rectangle and receives the corresponding window rectangle. If this parameter is <b>FALSE</b>, 
@@ -77,4 +77,3 @@ Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> struc
 ## -remarks
 
 This message applies only to tab controls that are at the top. It does not apply to tab controls that are on the sides or bottom.
-

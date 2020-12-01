@@ -67,30 +67,29 @@ Specifies the delta value for the announce rate, in milliseconds. This value spe
 
 
 The delta value allows randomly varied announce rates. For example, if the sv<i>X</i>_announce member has the value 10 and the sv<i>X</i>_anndelta member has the value 1, the announce rate can vary from 9.999 seconds to 10.001 seconds. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_102">SERVER_INFO_102</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_1017">SERVER_INFO_1017</a>.
+<a href="/windows/desktop/api/lmserver/ns-lmserver-server_info_102">SERVER_INFO_102</a> and 
+<a href="/windows/desktop/api/lmserver/ns-lmserver-server_info_1017">SERVER_INFO_1017</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_1017">SERVER_INFO_1017</a>
+<a href="/windows/desktop/api/lmserver/ns-lmserver-server_info_1017">SERVER_INFO_1017</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/ns-lmserver-server_info_102">SERVER_INFO_102</a>
+<a href="/windows/desktop/api/lmserver/ns-lmserver-server_info_102">SERVER_INFO_102</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-
+<a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>

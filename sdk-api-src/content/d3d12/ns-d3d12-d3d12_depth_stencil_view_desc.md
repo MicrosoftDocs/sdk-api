@@ -56,41 +56,41 @@ Describes the subresources of a texture that are accessible from a depth-stencil
 
 ### -field Format
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value that specifies the viewing format.  For allowable formats, see Remarks.
+A <a href="/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a>-typed value that specifies the viewing format.  For allowable formats, see Remarks.
 
 ### -field ViewDimension
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_dsv_dimension">D3D12_DSV_DIMENSION</a>-typed value that specifies how the depth-stencil resource will be accessed. This member also determines which _DSV to use in the following union.
+A <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_dsv_dimension">D3D12_DSV_DIMENSION</a>-typed value that specifies how the depth-stencil resource will be accessed. This member also determines which _DSV to use in the following union.
 
 ### -field Flags
 
-A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_dsv_flags">D3D12_DSV_FLAGS</a> enumeration constants that are combined by using a bitwise OR operation. 
+A combination of <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_dsv_flags">D3D12_DSV_FLAGS</a> enumeration constants that are combined by using a bitwise OR operation. 
             The resulting value specifies whether the texture is read only.  
             Pass 0 to specify that it isn't read only; otherwise, pass one or more of the members of the <b>D3D12_DSV_FLAGS</b> enumerated type.
 
 ### -field Texture1D
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex1d_dsv">D3D12_TEX1D_DSV</a> structure that specifies a 1D texture subresource.
+A <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex1d_dsv">D3D12_TEX1D_DSV</a> structure that specifies a 1D texture subresource.
 
 ### -field Texture1DArray
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex1d_array_dsv">D3D12_TEX1D_ARRAY_DSV</a> structure that specifies an array of 1D texture subresources.
+A <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex1d_array_dsv">D3D12_TEX1D_ARRAY_DSV</a> structure that specifies an array of 1D texture subresources.
 
 ### -field Texture2D
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex2d_dsv">D3D12_TEX2D_DSV</a> structure that specifies a 2D texture subresource.
+A <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex2d_dsv">D3D12_TEX2D_DSV</a> structure that specifies a 2D texture subresource.
 
 ### -field Texture2DArray
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex2d_array_dsv">D3D12_TEX2D_ARRAY_DSV</a> structure that specifies an array of 2D texture subresources.
+A <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex2d_array_dsv">D3D12_TEX2D_ARRAY_DSV</a> structure that specifies an array of 2D texture subresources.
 
 ### -field Texture2DMS
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex2dms_dsv">D3D12_TEX2DMS_DSV</a> structure that specifies a multisampled 2D texture.
+A <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex2dms_dsv">D3D12_TEX2DMS_DSV</a> structure that specifies a multisampled 2D texture.
 
 ### -field Texture2DMSArray
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex2dms_array_dsv">D3D12_TEX2DMS_ARRAY_DSV</a> structure that specifies an array of multisampled 2D textures.
+A <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_tex2dms_array_dsv">D3D12_TEX2DMS_ARRAY_DSV</a> structure that specifies an array of multisampled 2D textures.
 
 ## -remarks
 
@@ -107,9 +107,8 @@ These are valid formats for a depth-stencil view:
 A depth-stencil view can't use a typeless format.  If the format chosen is DXGI_FORMAT_UNKNOWN, the format of the parent resource is used.
         
 
-Pass a depth-stencil-view description into <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createdepthstencilview">ID3D12Device::CreateDepthStencilView</a> to create a depth-stencil view.
+Pass a depth-stencil-view description into <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createdepthstencilview">ID3D12Device::CreateDepthStencilView</a> to create a depth-stencil view.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

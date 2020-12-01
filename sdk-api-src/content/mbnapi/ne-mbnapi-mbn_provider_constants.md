@@ -53,15 +53,14 @@ api_name:
 > [!IMPORTANT]
 > Starting in Windows 10, version 1803, the Win32 APIs described in this section are replaced by the Windows Runtime APIs in the [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) namespace.
 
-The <b>MBN_PROVIDER_CONSTANTS</b> enumerated type contains values that define the buffer lengths of <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> members.
+The <b>MBN_PROVIDER_CONSTANTS</b> enumerated type contains values that define the buffer lengths of <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> members.
 
 ## -enum-fields
 
 ### -field MBN_PROVIDERNAME_LEN
 
-The maximum length of the <b>providerName</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure.
+The maximum length of the <b>providerName</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure.
 
 ### -field MBN_PROVIDERID_LEN
 
-The maximum length of the <b>providerID</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure.
-
+The maximum length of the <b>providerID</b> member of the <a href="/windows/desktop/api/mbnapi/ns-mbnapi-mbn_provider">MBN_PROVIDER</a> structure.

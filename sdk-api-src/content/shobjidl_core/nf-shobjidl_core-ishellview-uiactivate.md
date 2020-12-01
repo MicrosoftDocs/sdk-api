@@ -82,7 +82,7 @@ Windows Explorer is about to destroy the Shell view window. The Shell view shoul
 
 #### SVUIA_INPLACEACTIVATE
 
-The Shell view is active without focus. This flag is only used when <b>UIActivate</b> is exposed through the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2">IShellView2</a> interface.
+The Shell view is active without focus. This flag is only used when <b>UIActivate</b> is exposed through the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview2">IShellView2</a> interface.
 
 ## -returns
 
@@ -92,7 +92,7 @@ Returns <b>S_OK</b> if successful, or a COM-defined error value otherwise.
 
 ## -remarks
 
-Before remerging menu items, the Shell view typically hooks the <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-setfocus">WM_SETFOCUS</a> message and calls the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-onviewwindowactive">OnViewWindowActive</a> method. The Shell view should not hook the <a href="https://docs.microsoft.com/windows/desktop/Controls/nm-killfocus">NM_KILLFOCUS</a> message to remerge menu items.
+Before remerging menu items, the Shell view typically hooks the <a href="/windows/desktop/inputdev/wm-setfocus">WM_SETFOCUS</a> message and calls the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-onviewwindowactive">OnViewWindowActive</a> method. The Shell view should not hook the <a href="/windows/desktop/Controls/nm-killfocus">NM_KILLFOCUS</a> message to remerge menu items.
 
 <h3><a id="Notes_to_Calling_Applications"></a><a id="notes_to_calling_applications"></a><a id="NOTES_TO_CALLING_APPLICATIONS"></a>Notes to Calling Applications</h3>
 Call this method to inform the view of an activation state change.
@@ -102,5 +102,4 @@ Use this method to track the activation state and change any behavior, as approp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>

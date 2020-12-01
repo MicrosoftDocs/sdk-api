@@ -71,6 +71,5 @@ The string is not required to be zero terminated.  If it is
                 in the length.
             
 
-The macro <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-ws_string_value">WS_STRING_VALUE</a> can be used to initialize
+The macro <a href="/windows/desktop/api/webservices/nf-webservices-ws_string_value">WS_STRING_VALUE</a> can be used to initialize
                 this structure if the string is a constant string.
-

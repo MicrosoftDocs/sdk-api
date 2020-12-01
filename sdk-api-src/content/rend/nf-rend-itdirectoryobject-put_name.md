@@ -131,19 +131,18 @@ This method is not yet implemented.
 ## -remarks
 
 Changes made will not take effect on the server until the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-modifydirectoryobject">ITDirectory::ModifyDirectoryObject</a> method is called.
+<a href="/windows/desktop/api/rend/nf-rend-itdirectory-modifydirectoryobject">ITDirectory::ModifyDirectoryObject</a> method is called.
 
 The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pName</i> parameter and use 
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 This function may send data over the wire in unencrypted form; therefore, someone eavesdropping on the network may be able to read the data. The security risk of sending the data in clear text should be considered before using this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
+<a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_name">ITDirectoryObject::get_Name</a>
-
+<a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_name">ITDirectoryObject::get_Name</a>

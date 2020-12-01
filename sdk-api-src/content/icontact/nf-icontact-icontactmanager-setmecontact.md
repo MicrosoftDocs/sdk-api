@@ -56,7 +56,7 @@ Sets the local user account concept of 'me' to specified user.
 
 ### -param pMeContact [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>*</b>
+Type: <b><a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontact">IContact</a>*</b>
 
 Specifies the contact to treat as 'me' for the current user.
 
@@ -83,4 +83,3 @@ Specification was successful.
 </td>
 </tr>
 </table>
-

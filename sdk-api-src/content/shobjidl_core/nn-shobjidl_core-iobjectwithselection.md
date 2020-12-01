@@ -54,7 +54,7 @@ Exposes methods that get or set selected items represented by a Shell item array
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithSelection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithSelection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectWithSelection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectWithSelection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IObjectWithSelection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithselection-getselection">GetSelection</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithselection-getselection">GetSelection</a>
 </td>
 <td align="left" width="63%">
 Gets the Shell item array that contains the selected items.
@@ -78,7 +78,7 @@ Gets the Shell item array that contains the selected items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithselection-setselection">SetSelection</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iobjectwithselection-setselection">SetSelection</a>
 </td>
 <td align="left" width="63%">
 Provides the Shell item array that specifies the items included in the selection.
@@ -90,8 +90,7 @@ Provides the Shell item array that specifies the items included in the selection
 ## -remarks
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-This interface is implemented by verbs that implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand">IExecuteCommand</a>. This allows objects to invoke the verb on the selection through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexecutecommand-execute">IExecuteCommand::Execute</a>.
+This interface is implemented by verbs that implement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand">IExecuteCommand</a>. This allows objects to invoke the verb on the selection through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexecutecommand-execute">IExecuteCommand::Execute</a>.
 
 <h3><a id="When_to_Use"></a><a id="when_to_use"></a><a id="WHEN_TO_USE"></a>When to Use</h3>
 <b>IObjectWithSelection</b> is used by Windows Explorer to invoke a verb on the selected items. Do not call this interface directly.
-

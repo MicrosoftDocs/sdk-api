@@ -54,7 +54,7 @@ Retrieves information about the state of clerks.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmMonitorClerks</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICrmMonitorClerks</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICrmMonitorClerks</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICrmMonitorClerks</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICrmMonitorClerks</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorclerks-activityid">ActivityId</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorclerks-activityid">ActivityId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the activity ID of the CRM Worker for the specified index.
@@ -78,7 +78,7 @@ Retrieves the activity ID of the CRM Worker for the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorclerks-description">Description</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorclerks-description">Description</a>
 </td>
 <td align="left" width="63%">
 Retrieves the description of the CRM Compensator for the specified index.
@@ -87,7 +87,7 @@ Retrieves the description of the CRM Compensator for the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorclerks-get__newenum">get__NewEnum</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorclerks-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the instance CLSIDs of the CRM clerks.
@@ -96,7 +96,7 @@ Retrieves an enumerator for the instance CLSIDs of the CRM clerks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorclerks-get_count">get_Count</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorclerks-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the count of CRM clerks in the collection.
@@ -105,7 +105,7 @@ Retrieves the count of CRM clerks in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorclerks-item">Item</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorclerks-item">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the instance CLSID of the CRM clerk for the specified index.
@@ -114,7 +114,7 @@ Retrieves the instance CLSID of the CRM clerk for the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorclerks-progidcompensator">ProgIdCompensator</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorclerks-progidcompensator">ProgIdCompensator</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ProgId of the CRM Compensator for the specified index.
@@ -123,7 +123,7 @@ Retrieves the ProgId of the CRM Compensator for the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorclerks-transactionuow">TransactionUOW</a>
+<a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorclerks-transactionuow">TransactionUOW</a>
 </td>
 <td align="left" width="63%">
 Retrieves the unit of work (UOW) of the transaction for the specified index.
@@ -134,5 +134,4 @@ Retrieves the unit of work (UOW) of the transaction for the specified index.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>
-
+<a href="/windows/desktop/cossdk/com--compensating-resource-manager">COM+ Compensating Resource Manager</a>

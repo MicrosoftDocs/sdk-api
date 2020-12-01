@@ -74,7 +74,7 @@ Per-user folders are those stored under each user's profile and accessible only 
 
 
 
-<div class="alert"><b>Note</b>  The user profile root folder (<a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">FOLDERID_Profile</a>) does not support redirection.</div>
+<div class="alert"><b>Note</b>  The user profile root folder (<a href="/windows/desktop/shell/knownfolderid">FOLDERID_Profile</a>) does not support redirection.</div>
 <div> </div>
 
 ## -remarks
@@ -90,13 +90,12 @@ typedef DWORD KF_CATEGORY;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getcategory">IKnownFolder::GetCategory</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getcategory">IKnownFolder::GetCategory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-knownfolder_definition">KNOWNFOLDER_DEFINITION</a>
+<a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-knownfolder_definition">KNOWNFOLDER_DEFINITION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>

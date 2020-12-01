@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
  - WTSVirtualChannelOpenEx
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 ---
 
 # WTSVirtualChannelOpenEx function
@@ -52,11 +53,11 @@ api_name:
 ## -description
 
 Creates a virtual channel in a manner similar to 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a>.
+    <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a>.
 
 This API supports both static virtual channel (SVC) and dynamic virtual channel (DVC) creation. If the 
     <i>flags</i> parameter is zero, it behaves the same as 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a>. A DVC can be opened 
+    <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a>. A DVC can be opened 
     by specifying the appropriate flag. After a DVC is created, you can use the same functions for Read, Write, Query, 
     or Close that are used for the SVC.
 
@@ -66,12 +67,12 @@ This API supports both static virtual channel (SVC) and dynamic virtual channel 
 
 A Remote Desktop Services session identifier. To indicate the current session, specify 
        <b>WTS_CURRENT_SESSION</b>. You can use the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a> function to retrieve 
+       <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumeratesessionsa">WTSEnumerateSessions</a> function to retrieve 
        the identifiers of all sessions on a specified RD Session Host server.
 
 To be able to open a virtual channel on another user's session, you must have the Virtual Channels 
        permission. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services Permissions</a>. 
+       <a href="/windows/desktop/TermServ/terminal-services-permissions">Remote Desktop Services Permissions</a>. 
        To modify permissions on a session, use the Remote Desktop Services Configuration administrative tool.
 
 ### -param pVirtualName [in]
@@ -131,17 +132,16 @@ Real-time priority. Use this priority level only in cases where the data transfe
 ## -returns
 
 <b>NULL</b> on error with 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> set.
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/dvc-server-apis">DVC Server APIs</a>
+<a href="/windows/desktop/TermServ/dvc-server-apis">DVC Server APIs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/dynamic-virtual-channels-reference">Dynamic Virtual Channels Reference</a>
+<a href="/windows/desktop/TermServ/dynamic-virtual-channels-reference">Dynamic Virtual Channels Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a>
-
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capCaptureStop</b> macro stops the capture operation. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-stop">WM_CAP_STOP</a> message.
+The <b>capCaptureStop</b> macro stops the capture operation. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/wm-cap-stop">WM_CAP_STOP</a> message.
 
 
 
@@ -64,13 +64,12 @@ Handle to a capture window.
 
 ## -remarks
 
-The capture operation must yield to use this message. Use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capcaptureabort">capCaptureAbort</a> macro to abandon the current capture operation.
+The capture operation must yield to use this message. Use the <a href="/windows/desktop/api/vfw/nf-vfw-capcaptureabort">capCaptureAbort</a> macro to abandon the current capture operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

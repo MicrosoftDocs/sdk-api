@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the properties of the audio stream by populating an <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a> structure.
+Sets the properties of the audio stream by populating an <a href="/win32/api/audioclient/ns-audioclient-audioclientproperties-r1">AudioClientProperties</a> structure.
 
 ## -parameters
 
 ### -param pProperties [in]
 
-Pointer to an <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a> structure.
+Pointer to an <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties-r1">AudioClientProperties</a> structure.
 
 ## -returns
 
@@ -64,7 +64,7 @@ The <b>SetClientProperties</b> method returns <b>S_OK</b> to indicate that it ha
 
 ## -remarks
 
-Starting with Windows 10, hardware-offloaded audio streams must be event driven. This means that if you call <b>IAudioClient2::SetClientProperties</b> and set the <i>bIsOffload</i> parameter of the <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a> to TRUE, you must specify the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag in the <i>StreamFlags</i> parameter to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>.
+Starting with Windows 10, hardware-offloaded audio streams must be event driven. This means that if you call <b>IAudioClient2::SetClientProperties</b> and set the <i>bIsOffload</i> parameter of the <a href="/windows/win32/api/audioclient/ns-audioclient-audioclientproperties~r1">AudioClientProperties</a> to TRUE, you must specify the <b>AUDCLNT_STREAMFLAGS_EVENTCALLBACK</b> flag in the <i>StreamFlags</i> parameter to <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>.
 
 ## -see-also
 
@@ -72,9 +72,8 @@ Starting with Windows 10, hardware-offloaded audio streams must be event driven
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
-
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>

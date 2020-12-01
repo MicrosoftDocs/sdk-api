@@ -43,6 +43,7 @@ api_location:
  - Ole32.dll
 api_name:
  - CoFreeAllLibraries
+req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)
 ---
 
 # CoFreeAllLibraries function
@@ -50,27 +51,26 @@ api_name:
 
 ## -description
 
-Frees all the DLLs that have been loaded with the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coloadlibrary">CoLoadLibrary</a> function (called internally by <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>), regardless of whether they are currently in use.
+Frees all the DLLs that have been loaded with the <a href="/windows/desktop/api/objbase/nf-objbase-coloadlibrary">CoLoadLibrary</a> function (called internally by <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject">CoGetClassObject</a>), regardless of whether they are currently in use.
 
 ## -parameters
 
 ## -remarks
 
-To unload libraries, <b>CoFreeAllLibraries</b> uses a list of loaded DLLs for each process that the COM library maintains. The <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleuninitialize">OleUninitialize</a> functions call <b>CoFreeAllLibraries</b> internally, so applications usually have no need to call this function directly.
+To unload libraries, <b>CoFreeAllLibraries</b> uses a list of loaded DLLs for each process that the COM library maintains. The <a href="/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> and <a href="/windows/desktop/api/ole2/nf-ole2-oleuninitialize">OleUninitialize</a> functions call <b>CoFreeAllLibraries</b> internally, so applications usually have no need to call this function directly.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-cofreelibrary">CoFreeLibrary</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-cofreelibrary">CoFreeLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cofreeunusedlibraries">CoFreeUnusedLibraries</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cofreeunusedlibraries">CoFreeUnusedLibraries</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cofreeunusedlibrariesex">CoFreeUnusedLibrariesEx</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cofreeunusedlibrariesex">CoFreeUnusedLibrariesEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coloadlibrary">CoLoadLibrary</a>
-
+<a href="/windows/desktop/api/objbase/nf-objbase-coloadlibrary">CoLoadLibrary</a>

@@ -54,7 +54,7 @@ Retrieves an interface to the DirectDraw object that was used to create this sur
 
 ### -param arg1 [out]
 
-A pointer to a variable that receives a valid interface pointer if the call succeeds. Cast this pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer; then query for the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a> interface.
+A pointer to a variable that receives a valid interface pointer if the call succeeds. Cast this pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface pointer; then query for the <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a> interface.
 
 ## -returns
 
@@ -75,7 +75,7 @@ If it fails, the method can return one of the following error values:
 
 
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetDDInterface</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetDDInterface</b> method.
 
 
 
@@ -85,8 +85,7 @@ You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
  
 
  
-

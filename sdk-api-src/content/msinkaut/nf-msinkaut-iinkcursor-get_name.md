@@ -67,5 +67,4 @@ Accessing this property within certain message handlers can result in the underl
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">InkCursor Interface</a>
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor">InkCursor Interface</a>

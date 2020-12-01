@@ -55,37 +55,36 @@ The
 <b>GetBackupType</b> method indicates the type of backup to be performed.
 
 <b>GetBackupType</b> is a protected method implemented by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
 
 ## -parameters
 
 ## -returns
 
 This method returns the backup type as a 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> enumeration value. See 
+<a href="/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a> enumeration value. See 
 <b>VSS_BACKUP_TYPE</b> for a description of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupcomplete">CVssWriter::OnBackupComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostrestore">CVssWriter::OnPostRestore</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostrestore">CVssWriter::OnPostRestore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a>
-
+<a href="/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a>

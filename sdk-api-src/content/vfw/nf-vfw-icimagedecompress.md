@@ -56,7 +56,7 @@ The <b>ICImageDecompress</b> function decompresses an image without using initia
 
 ### -param hic
 
-Handle to a decompressor opened with the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icopen">ICOpen</a> function. Specify <b>NULL</b> to have VCM select an appropriate decompressor for the compressed image.
+Handle to a decompressor opened with the <a href="/windows/desktop/api/vfw/nf-vfw-icopen">ICOpen</a> function. Specify <b>NULL</b> to have VCM select an appropriate decompressor for the compressed image.
 
 ### -param uiFlags
 
@@ -84,9 +84,8 @@ To obtain the format information from the <b>LPBITMAPINFOHEADER</b> structure, u
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
+<a href="/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

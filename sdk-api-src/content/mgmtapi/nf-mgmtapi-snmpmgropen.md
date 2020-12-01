@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The
 				<b>SnmpMgrOpen</b> function initializes communications sockets and data structures, allowing communications with the specified SNMP agent. This function is an element of the SNMP Management API.
@@ -78,7 +78,7 @@ Specifies the communications retry count. The time-out that is specified in the 
 If the function succeeds, the return value is a pointer to an <b>LPSNMP_MGR_SESSION</b> structure. This structure is used internally and the programmer should not alter it. For more information, see the following Remarks section.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return the SNMP_MEM_ALLOC_ERROR error code, which indicates a memory allocation error.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. <b>GetLastError</b> may return the SNMP_MEM_ALLOC_ERROR error code, which indicates a memory allocation error.
 
 This function may also return Windows Sockets error codes.
 
@@ -118,21 +118,20 @@ The name and address of the SNMP target, or the string pointed to by the <i>lpAg
  
 
 Applications should not use the <b>LPSNMP_MGR_SESSION</b> pointer that is returned by this function to call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrrequest">SnmpMgrRequest</a> function in the context of a different thread.
+<a href="/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrrequest">SnmpMgrRequest</a> function in the context of a different thread.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
+<a href="/windows/desktop/SNMP/snmp-functions">SNMP Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
+<a href="/windows/desktop/SNMP/simple-network-management-protocol-snmp-">Simple Network Management Protocol (SNMP) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrclose">SnmpMgrClose</a>
+<a href="/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrclose">SnmpMgrClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrrequest">SnmpMgrRequest</a>
-
+<a href="/windows/desktop/api/mgmtapi/nf-mgmtapi-snmpmgrrequest">SnmpMgrRequest</a>

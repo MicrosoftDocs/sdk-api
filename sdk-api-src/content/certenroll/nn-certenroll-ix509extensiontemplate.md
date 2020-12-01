@@ -50,8 +50,8 @@ api_name:
 
 ## -description
 
-The <b>IX509ExtensionTemplate</b> interface defines methods and properties that can be used to initialize or retrieve a <b>CertificateTemplate</b> extension. This extension can be placed in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> to tell the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> what template to use when issuing or renewing a certificate. <div class="alert"><b>Note</b>  The <b>CertificateTemplate</b> extension is used to identify version 2 templates. To identify a version 1 template, you can use the <b>CertificateTemplateName</b> extension defined by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensiontemplatename">IX509ExtensionTemplateName</a> interface.</div>
-<div> </div>The following syntax shows the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and included in the certificate request.
+The <b>IX509ExtensionTemplate</b> interface defines methods and properties that can be used to initialize or retrieve a <b>CertificateTemplate</b> extension. This extension can be placed in the <a href="/windows/desktop/SecGloss/c-gly">certificate request</a> to tell the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> what template to use when issuing or renewing a certificate. <div class="alert"><b>Note</b>  The <b>CertificateTemplate</b> extension is used to identify version 2 templates. To identify a version 1 template, you can use the <b>CertificateTemplateName</b> extension defined by the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensiontemplatename">IX509ExtensionTemplateName</a> interface.</div>
+<div> </div>The following syntax shows the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1) structure  of the extension. The extension value is encoded by using <a href="/windows/desktop/SecGloss/d-gly">Distinguished Encoding Rules</a> (DER) and included in the certificate request.
 <pre class="syntax" xml:space="preserve"><code>
 ----------------------------------------------------------------------
 -- CertificateTemplate
@@ -66,11 +66,11 @@ CertificateTemplate ::= SEQUENCE
 }
 
 TemplateVersion ::= INTEGER (0..4294967295)
-</code></pre>To add this extension object to a  PKCS #10 request or a CMC request, you must first add it to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection and use the collection to initialize an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a> object. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/pkcs--10-extensions">PKCS #10 Extensions</a> and the <a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a> topics.
+</code></pre>To add this extension object to a  PKCS #10 request or a CMC request, you must first add it to an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a> collection and use the collection to initialize an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributeextensions">IX509AttributeExtensions</a> object. For more information, see the <a href="/windows/desktop/SecCertEnroll/pkcs--10-extensions">PKCS #10 Extensions</a> and the <a href="/windows/desktop/SecCertEnroll/cmc-extensions">CMC Extensions</a> topics.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionTemplate</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionTemplate</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509ExtensionTemplate</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>. <b>IX509ExtensionTemplate</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -86,7 +86,7 @@ The <b>IX509ExtensionTemplate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-initializedecode">InitializeDecode</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-initializedecode">InitializeDecode</a>
 </td>
 <td align="left" width="63%">
 Initializes the  extension from a DER-encoded byte array that contains the extension value.
@@ -95,10 +95,10 @@ Initializes the  extension from a DER-encoded byte array that contains the exten
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-initializeencode">InitializeEncode</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-initializeencode">InitializeEncode</a>
 </td>
 <td align="left" width="63%">
-Initializes the extension from a template <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and from major and minor version numbers.
+Initializes the extension from a template <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) and from major and minor version numbers.
 
 [WebEnabled]
 
@@ -115,7 +115,7 @@ Initializes the extension from a template <a href="https://docs.microsoft.com/wi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-get_majorversion">MajorVersion</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-get_majorversion">MajorVersion</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Retrieves the minimum major version number of the certificate template.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-get_minorversion">MinorVersion</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-get_minorversion">MinorVersion</a>
 
 
 </td>
@@ -147,7 +147,7 @@ Retrieves the minimum minor version number of the certificate template.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-get_templateoid">TemplateOid</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensiontemplate-get_templateoid">TemplateOid</a>
 
 
 </td>
@@ -164,9 +164,8 @@ Retrieves the template OID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>

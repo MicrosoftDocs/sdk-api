@@ -48,6 +48,7 @@ api_location:
 api_name:
  - RealGetWindowClass
  - RealGetWindowClassW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # RealGetWindowClassW function
@@ -83,9 +84,8 @@ Type: <b>UINT</b>
 
 If the function succeeds, the return value is the number of characters copied to the specified buffer. 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows Overview</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows Overview</a>

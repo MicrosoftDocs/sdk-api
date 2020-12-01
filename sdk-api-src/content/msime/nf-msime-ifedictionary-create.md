@@ -60,7 +60,7 @@ A <b>NULL</b>-terminated string containing the path and name for the new diction
 
 ### -param pshf [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a> header for the new dictionary.
+The <a href="/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a> header for the new dictionary.
 
 ## -returns
 
@@ -75,9 +75,8 @@ One of the following:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
+<a href="/windows/desktop/api/msime/nn-msime-ifedictionary">IFEDictionary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>
-
+<a href="/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>

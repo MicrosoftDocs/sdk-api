@@ -54,7 +54,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtendPropertySheet</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtendPropertySheet</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IExtendPropertySheet</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IExtendPropertySheet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IExtendPropertySheet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendpropertysheet-createpropertypages">CreatePropertyPages</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendpropertysheet-createpropertypages">CreatePropertyPages</a>
 </td>
 <td align="left" width="63%">
 Adds pages to a property sheet.
@@ -78,7 +78,7 @@ Adds pages to a property sheet.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendpropertysheet-querypagesfor">QueryPagesFor</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendpropertysheet-querypagesfor">QueryPagesFor</a>
 </td>
 <td align="left" width="63%">
 Determines whether the object needs pages.
@@ -89,9 +89,8 @@ Determines whether the object needs pages.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-property-pages-and-wizard-pages">Adding Property Pages and Wizard Pages</a>
+<a href="/previous-versions/windows/desktop/mmc/adding-property-pages-and-wizard-pages">Adding Property Pages and Wizard Pages</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-interfaces-and-methods">MMC 2.0 Interfaces and Methods</a>
-
+<a href="/previous-versions/windows/desktop/mmc/mmc-interfaces-and-methods">MMC 2.0 Interfaces and Methods</a>

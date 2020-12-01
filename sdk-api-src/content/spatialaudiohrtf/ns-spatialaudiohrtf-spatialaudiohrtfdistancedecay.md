@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Represents the decay model that is applied over distance from the position of an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> to the position of the listener.
+Represents the decay model that is applied over distance from the position of an <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> to the position of the listener.
 
 ## -struct-fields
 
@@ -80,4 +80,3 @@ The minimum gain limit applied at any distance. Applies to both natural and cust
 The distance at which the gain is 0dB. Applies to natural decay only. This value is specified in meters, with a range from 0.05 to infinity (<b>FLT_MAX</b>). The default value is 1 meter. 
 
 The distance at which  the output is silent. Applies to natural decay only. This value is specified in meters, with a range from zero (non-inclusive) to infinity (<b>FLT_MAX</b>). The default value is <b>INFINITY</b>.
-

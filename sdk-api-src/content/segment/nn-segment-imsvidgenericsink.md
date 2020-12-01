@@ -55,11 +55,11 @@ api_name:
 <div> </div>
 
 
-The <b>IMSVidGenericSink</b> interface represents a generic output device that supports streaming output. It is implemented by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695128(v=vs.85)">MSVidGenericSink</a> object.
+The <b>IMSVidGenericSink</b> interface represents a generic output device that supports streaming output. It is implemented by the <a href="/previous-versions/windows/desktop/legacy/dd695128(v=vs.85)">MSVidGenericSink</a> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidGenericSink</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>. <b>IMSVidGenericSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMSVidGenericSink</b> interface inherits from <a href="/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>. <b>IMSVidGenericSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMSVidGenericSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgenericsink-get_sinkstreams">get_SinkStreams</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidgenericsink-get_sinkstreams">get_SinkStreams</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -83,7 +83,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgenericsink-put_sinkstreams">put_SinkStreams</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidgenericsink-put_sinkstreams">put_SinkStreams</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -92,7 +92,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidgenericsink-setsinkfilter">SetSinkFilter</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsvidgenericsink-setsinkfilter">SetSinkFilter</a>
 </td>
 <td align="left" width="63%">
 Sets the filter for the sink.
@@ -107,9 +107,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidoutputdevice">IMSVidOutputDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/video-control-interfaces">Video Control Interfaces</a>

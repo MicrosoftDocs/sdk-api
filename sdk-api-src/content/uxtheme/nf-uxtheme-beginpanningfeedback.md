@@ -56,17 +56,16 @@ Notifies the system to send feedback about a target window affected by panning g
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The handle to the target window that will receive feedback.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 TRUE, if successful.
 
 ## -remarks
 
-This function must be called before either the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-updatepanningfeedback">UpdatePanningFeedback</a> or <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-endpanningfeedback">EndPanningFeedback</a> functions can be called.
-
+This function must be called before either the <a href="/windows/desktop/api/uxtheme/nf-uxtheme-updatepanningfeedback">UpdatePanningFeedback</a> or <a href="/windows/desktop/api/uxtheme/nf-uxtheme-endpanningfeedback">EndPanningFeedback</a> functions can be called.

@@ -55,6 +55,7 @@ api_name:
  - FindWindow
  - FindWindowA
  - FindWindowW
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # FindWindowA function
@@ -64,7 +65,7 @@ api_name:
 
 Retrieves a handle to the top-level window whose class name and window name match the specified strings. This function does not search child windows. This function does not perform a case-sensitive search.
 
-To search child windows, beginning with a specified child window, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-findwindowexa">FindWindowEx</a> function.
+To search child windows, beginning with a specified child window, use the <a href="/windows/desktop/api/winuser/nf-winuser-findwindowexa">FindWindowEx</a> function.
 
 ## -parameters
 
@@ -72,9 +73,9 @@ To search child windows, beginning with a specified child window, use the <a hre
 
 Type: <b>LPCTSTR</b>
 
-The class name or a class atom created by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero. 
+The class name or a class atom created by a previous call to the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. The atom must be in the low-order word of <i>lpClassName</i>; the high-order word must be zero. 
 
-If <i>lpClassName</i> points to a string, it specifies the window class name. The class name can be any name registered with <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>, or any of the predefined control-class names. 
+If <i>lpClassName</i> points to a string, it specifies the window class name. The class name can be any name registered with <a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a> or <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>, or any of the predefined control-class names. 
 
 If <i>lpClassName</i> is <b>NULL</b>, it finds any window whose title matches the <i>lpWindowName</i> parameter.
 
@@ -90,16 +91,16 @@ Type: <b>HWND</b>
 
 If the function succeeds, the return value is a handle to the window that has the specified class name and window name.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-If the <i>lpWindowName</i> parameter is not <b>NULL</b>, <b>FindWindow</b> calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a> function to retrieve the window name for comparison. For a description of a potential problem that can arise, see the Remarks for <b>GetWindowText</b>. 
+If the <i>lpWindowName</i> parameter is not <b>NULL</b>, <b>FindWindow</b> calls the <a href="/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a> function to retrieve the window name for comparison. For a description of a potential problem that can arise, see the Remarks for <b>GetWindowText</b>. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/using-mouse-input">Retrieving the Number of Mouse Wheel Scroll Lines</a>.
+For an example, see <a href="/windows/desktop/inputdev/using-mouse-input">Retrieving the Number of Mouse Wheel Scroll Lines</a>.
 
 <div class="code"></div>
 
@@ -115,19 +116,19 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/inputdev
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumwindows">EnumWindows</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumwindows">EnumWindows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-findwindowexa">FindWindowEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-findwindowexa">FindWindowEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassname">GetClassName</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclassname">GetClassName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a>
 
 
 
@@ -135,13 +136,12 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/inputdev
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassa">RegisterClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

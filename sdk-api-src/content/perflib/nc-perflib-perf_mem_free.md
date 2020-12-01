@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Providers implement this function to provide custom memory management for PERFLIB. PERFLIB calls this callback when it needs to free memory that it allocated using <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nc-perflib-perf_mem_alloc">AllocateMemory</a>. 
+Providers implement this function to provide custom memory management for PERFLIB. PERFLIB calls this callback when it needs to free memory that it allocated using <a href="/windows/desktop/api/perflib/nc-perflib-perf_mem_alloc">AllocateMemory</a>. 
 
 The <b>PERF_MEM_FREE</b> type defines a pointer to this callback function. The <b>FreeMemory</b> function is a placeholder for the application-defined function name.
 
@@ -66,15 +66,14 @@ Context information set in the <b>pMemContext</b> member of <a href="/windows/wi
 
 ## -remarks
 
-If you used the <b>-MemoryRoutines</b> when calling <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a>, you must implement this callback function. You pass the name of your callback function to <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a>.
+If you used the <b>-MemoryRoutines</b> when calling <a href="/windows/desktop/PerfCtrs/ctrpp">CTRPP</a>, you must implement this callback function. You pass the name of your callback function to <a href="/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a>.
 
-<b>Windows Vista:  </b>The <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a> function is named <b>PerfAutoInitialize</b>.
+<b>Windows Vista:  </b>The <a href="/windows/desktop/PerfCtrs/counterinitialize">CounterInitialize</a> function is named <b>PerfAutoInitialize</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/perflib/nc-perflib-perf_mem_alloc">AllocateMemory</a>
+<a href="/windows/desktop/api/perflib/nc-perflib-perf_mem_alloc">AllocateMemory</a>
 
 
 
 <a href="/windows/win32/api/perflib/ns-perflib-perf_provider_context">PERF_PROVIDER_CONTEXT</a>
-

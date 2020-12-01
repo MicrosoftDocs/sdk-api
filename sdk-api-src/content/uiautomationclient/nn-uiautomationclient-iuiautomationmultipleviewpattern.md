@@ -54,7 +54,7 @@ Provides access to a control that  can switch between multiple representations o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationMultipleViewPattern</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationMultipleViewPattern</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUIAutomationMultipleViewPattern</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUIAutomationMultipleViewPattern</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IUIAutomationMultipleViewPattern</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-getcachedsupportedviews">GetCachedSupportedViews</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-getcachedsupportedviews">GetCachedSupportedViews</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of control-specific view identifiers from the cache.
@@ -79,7 +79,7 @@ Retrieves a collection of control-specific view identifiers from the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-getcurrentsupportedviews">GetCurrentSupportedViews</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-getcurrentsupportedviews">GetCurrentSupportedViews</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of control-specific view identifiers.
@@ -88,7 +88,7 @@ Retrieves a collection of control-specific view identifiers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-getviewname">GetViewName</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-getviewname">GetViewName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of a control-specific view.
@@ -97,7 +97,7 @@ Retrieves the name of a control-specific view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-setcurrentview">SetCurrentView</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-setcurrentview">SetCurrentView</a>
 </td>
 <td align="left" width="63%">
 Sets the view of the control.
@@ -115,7 +115,7 @@ Sets the view of the control.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-get_cachedcurrentview">CachedCurrentView</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-get_cachedcurrentview">CachedCurrentView</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Retrieves the cached control-specific identifier of the current view of the cont
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-get_currentcurrentview">CurrentCurrentView</a>
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationmultipleviewpattern-get_currentcurrentview">CurrentCurrentView</a>
 
 
 </td>
@@ -148,5 +148,4 @@ Retrieves the control-specific identifier of the current view of the control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-client-controlpatterninterfaces">Control Pattern Interfaces for Clients</a>

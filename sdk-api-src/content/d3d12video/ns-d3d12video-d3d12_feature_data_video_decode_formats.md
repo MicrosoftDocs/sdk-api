@@ -61,9 +61,8 @@ The number of formats to retrieve.  This number must match the value returned fr
 
 ### -field pOutputFormats
 
-A list of [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) structures representing the supported formats.
+A list of [DXGI_FORMAT](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) structures representing the supported formats.
 
 ## -remarks
 
 ## -see-also
-

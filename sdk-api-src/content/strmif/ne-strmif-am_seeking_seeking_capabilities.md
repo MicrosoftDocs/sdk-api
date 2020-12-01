@@ -86,7 +86,7 @@ The stream can play backward.
 
 ### -field AM_SEEKING_CanDoSegments
 
-The stream can do seamless looping (see <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-setpositions">IMediaSeeking::SetPositions</a>).
+The stream can do seamless looping (see <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-setpositions">IMediaSeeking::SetPositions</a>).
 
 ### -field AM_SEEKING_Source
 
@@ -94,17 +94,16 @@ Reserved.
 
 ## -remarks
 
-Most DirectShow filters do not report the <b>AM_SEEKING_CanGetCurrentPos</b> capability flag. However, the Filter Graph Manager's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcurrentposition">IMediaSeeking::GetCurrentPosition</a> is based on the reference clock, so you can call this method even if the capabilities flags do not include <b>AM_SEEKING_CanGetCurrentPos</b>.
+Most DirectShow filters do not report the <b>AM_SEEKING_CanGetCurrentPos</b> capability flag. However, the Filter Graph Manager's implementation of <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcurrentposition">IMediaSeeking::GetCurrentPosition</a> is based on the reference clock, so you can call this method even if the capabilities flags do not include <b>AM_SEEKING_CanGetCurrentPos</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-checkcapabilities">IMediaSeeking::CheckCapabilities</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-checkcapabilities">IMediaSeeking::CheckCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcapabilities">IMediaSeeking::GetCapabilities</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcapabilities">IMediaSeeking::GetCapabilities</a>

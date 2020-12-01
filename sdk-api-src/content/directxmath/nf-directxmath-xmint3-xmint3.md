@@ -52,7 +52,7 @@ api_name:
 
 Default constructor for <code>XMINT3</code>.
 
-Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmint3">XMINT3</a>.
+Default constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath-xmint3">XMINT3</a>.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
 ## -parameters
@@ -68,9 +68,8 @@ Default constructor for <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmint3">XMINT3</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmint3">XMINT3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmint3-xmint3(constint32_t)">XMINT3 Constructors</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmint3-xmint3(constint32_t)">XMINT3 Constructors</a>

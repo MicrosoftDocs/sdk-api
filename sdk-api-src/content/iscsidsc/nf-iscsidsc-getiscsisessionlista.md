@@ -64,11 +64,11 @@ If the operation fails because the output buffer size was insufficient, the loca
 
 ### -param SessionCount [out]
 
-A pointer to a location that, on input, contains the number of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_session_infoa">ISCSI_SESSION_INFO</a> structures that the buffer that <i>SessionInfo</i> points to can contain. If the operation succeeds, the location receives the number of <b>ISCSI_SESSION_INFO</b> structures that were retrieved.
+A pointer to a location that, on input, contains the number of <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_session_infoa">ISCSI_SESSION_INFO</a> structures that the buffer that <i>SessionInfo</i> points to can contain. If the operation succeeds, the location receives the number of <b>ISCSI_SESSION_INFO</b> structures that were retrieved.
 
 ### -param SessionInfo [out]
 
-A pointer to a buffer that contains a series of contiguous structures of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_session_infoa">ISCSI_SESSION_INFO</a> that describe the active login sessions.
+A pointer to a buffer that contains a series of contiguous structures of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_session_infoa">ISCSI_SESSION_INFO</a> that describe the active login sessions.
 
 ## -returns
 
@@ -78,10 +78,9 @@ Otherwise, <b>GetIscsiSessionList</b> returns the appropriate Win32 or iSCSI err
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_session_infoa">ISCSI_SESSION_INFO</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_session_infoa">ISCSI_SESSION_INFO</a>
 
 ## -remarks
 
 > [!NOTE]
 > The iscsidsc.h header defines GetIScsiSessionList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

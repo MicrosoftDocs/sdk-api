@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets the <a href="https://docs.microsoft.com/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> for the current process.
+Gets the <a href="/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> for the current process.
 
 ## -parameters
 
@@ -102,7 +102,7 @@ The buffer is not large enough to hold the data. The required size is specified 
 
 ## -remarks
 
-For info about string size limits, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
+For info about string size limits, see <a href="/windows/desktop/appxpkg/identity-constants">Identity constants</a>.
 
 
 #### Examples
@@ -154,9 +154,8 @@ int __cdecl wmain()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getapplicationusermodelid">GetApplicationUserModelId</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getapplicationusermodelid">GetApplicationUserModelId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefullname">GetCurrentPackageFullName</a>
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getcurrentpackagefullname">GetCurrentPackageFullName</a>

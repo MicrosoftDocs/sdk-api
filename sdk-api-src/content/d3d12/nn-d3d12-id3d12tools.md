@@ -54,7 +54,7 @@ This interface is used to configure the runtime for tools such as PIX. Its not i
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Tools</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12Tools</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Tools</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D12Tools</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D12Tools</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12tools-enableshaderinstrumentation">EnableShaderInstrumentation</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12tools-enableshaderinstrumentation">EnableShaderInstrumentation</a>
 </td>
 <td align="left" width="63%">
 This method enables tools such as PIX to instrument shaders.
@@ -78,7 +78,7 @@ This method enables tools such as PIX to instrument shaders.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12tools-shaderinstrumentationenabled">ShaderInstrumentationEnabled</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12tools-shaderinstrumentationenabled">ShaderInstrumentationEnabled</a>
 </td>
 <td align="left" width="63%">
 Determines whether shader instrumentation is enabled.
@@ -95,9 +95,8 @@ Developer Mode must be enabled for this interface to respond.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

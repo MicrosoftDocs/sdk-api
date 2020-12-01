@@ -51,19 +51,18 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colormatrixeffect">ColorMatrixEffect</a> object.
+Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colormatrixeffect">ColorMatrixEffect</a> object.
 
 ## -parameters
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolormatrix/ns-gdipluscolormatrix-colormatrix">ColorMatrix</a>
+<a href="/windows/desktop/api/gdipluscolormatrix/ns-gdipluscolormatrix-colormatrix">ColorMatrix</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colormatrixeffect">ColorMatrixEffect</a>
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colormatrixeffect">ColorMatrixEffect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colormatrixeffect-setparameters">ColorMatrixEffect::SetParameters</a>
-
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colormatrixeffect-setparameters">ColorMatrixEffect::SetParameters</a>

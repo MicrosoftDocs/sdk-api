@@ -56,16 +56,16 @@ Adds a new app package to the bundle.
 
 ### -param fileName [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
 The name of the payload file. The file name path must be relative to the root of the package.
 
 ### -param packageStream [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of <i>fileName</i>.
-          The stream must support <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>, <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-seek">Seek</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-stat">Stat</a>.
+An <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> that provides the contents of <i>fileName</i>.
+          The stream must support <a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-read">Read</a>, <a href="/windows/desktop/api/objidl/nf-objidl-istream-seek">Seek</a>, and <a href="/windows/desktop/api/objidl/nf-objidl-istream-stat">Stat</a>.
 
 ## -returns
 
@@ -115,7 +115,7 @@ The file name specified is already in use in the bundle.
 
 ## -remarks
 
-When the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagewriter-addpayloadfile">AddPayloadFile</a> method succeeds the contents of the specified <i>fileName</i> are written to the package and a corresponding entry is made in the package block map.
+When the <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagewriter-addpayloadfile">AddPayloadFile</a> method succeeds the contents of the specified <i>fileName</i> are written to the package and a corresponding entry is made in the package block map.
 
 <b>AddPayloadPackage</b> reads the content of the app package from <i>packageStream</i> and stores the content in the bundle with the given <i>fileName</i>. 
 
@@ -131,5 +131,4 @@ When the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/n
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter">IAppxBundleWriter</a>
-
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter">IAppxBundleWriter</a>

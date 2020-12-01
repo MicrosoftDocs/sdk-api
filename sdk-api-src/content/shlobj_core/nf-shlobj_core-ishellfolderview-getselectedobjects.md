@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[This method has been deprecated. Use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getselection">IFolderView2::GetSelection</a> instead.]
+<p class="CCE_Message">[This method has been deprecated. Use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-getselection">IFolderView2::GetSelection</a> instead.]
 
 Gets an array of the objects in the view that are selected and the number of those objects.
 
@@ -60,7 +60,7 @@ Gets an array of the objects in the view that are selected and the number of tho
 
 Type: <b>PCUITEMID_CHILD**</b>
 
-The address of a pointer that, when this method returns successfully, points to an array of the currently selected items in the view. The calling application is expected to free the array at <i>pppidl</i> using <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>. The calling application must not free the individual items contained in the array.
+The address of a pointer that, when this method returns successfully, points to an array of the currently selected items in the view. The calling application is expected to free the array at <i>pppidl</i> using <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>. The calling application must not free the individual items contained in the array.
 
 ### -param puItems [out]
 
@@ -77,4 +77,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method provides constant pointers to internal data structures. The calling application is expected to act on them immediately and not cache them.
-

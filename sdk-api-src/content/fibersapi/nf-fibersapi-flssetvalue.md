@@ -62,7 +62,7 @@ Stores a value in the calling fiber's fiber local storage (FLS) slot for the spe
 ### -param dwFlsIndex [in]
 
 The FLS index that was allocated by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsalloc">FlsAlloc</a> function.
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsalloc">FlsAlloc</a> function.
 
 ### -param lpFlsData [in, optional]
 
@@ -73,7 +73,7 @@ The value to be stored in the FLS slot for the calling fiber.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following errors can be returned.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following errors can be returned.
 
 <table>
 <tr>
@@ -107,23 +107,22 @@ The FLS array has not been allocated.
 ## -remarks
 
 FLS indexes are typically allocated by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsalloc">FlsAlloc</a> function during process or DLL initialization. After an FLS index is allocated, each fiber of the process can use it to access its own FLS slot for that index. A thread specifies an FLS index in a call to 
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsalloc">FlsAlloc</a> function during process or DLL initialization. After an FLS index is allocated, each fiber of the process can use it to access its own FLS slot for that index. A thread specifies an FLS index in a call to 
 <b>FlsSetValue</b> to store a value in its slot. The thread specifies the same index in a subsequent call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a> to retrieve the stored value.
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a> to retrieve the stored value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/fibers">Fibers</a>
+<a href="/windows/desktop/ProcThread/fibers">Fibers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsalloc">FlsAlloc</a>
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsalloc">FlsAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a>
+<a href="/windows/desktop/api/fibersapi/nf-fibersapi-flsgetvalue">FlsGetValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
-
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>

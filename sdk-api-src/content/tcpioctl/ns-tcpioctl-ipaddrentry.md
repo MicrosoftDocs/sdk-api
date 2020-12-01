@@ -95,10 +95,9 @@ A pad value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a>
+<a href="/windows/desktop/api/tcpioctl/ni-tcpioctl-ioctl_tcp_query_information_ex">IOCTL_TCP_QUERY_INFORMATION_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base
+<a href="/previous-versions/windows/desktop/mib/management-information-base-reference">Management Information Base
 			 Reference</a>
-

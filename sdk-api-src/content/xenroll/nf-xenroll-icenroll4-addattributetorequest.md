@@ -53,7 +53,7 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>addAttributeToRequest</b> method adds an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.  This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
+The <b>addAttributeToRequest</b> method adds an <a href="/windows/desktop/SecGloss/a-gly">attribute</a> to the <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>.  This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a> interface.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ This parameter is reserved for future use and must be set to zero.
 
 ### -param strName [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that represents the attribute name.
+An <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) that represents the attribute name.
 
 ### -param strValue [in]
 
@@ -75,5 +75,4 @@ A base64-encoded or binary attribute value.
  If the method succeeds, the method returns <b>S_OK</b>.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
+<a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.

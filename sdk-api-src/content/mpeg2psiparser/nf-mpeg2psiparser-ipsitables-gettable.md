@@ -72,7 +72,7 @@ PID for a Program Mapping Table or the service ID (SID) for an EIT. Otherwise, n
 
 ### -param ppIUnknown [out]
 
-Pointer to  the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the table object that is retrieved. The caller is responsible for freeing the memory.
+Pointer to  the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the table object that is retrieved. The caller is responsible for freeing the memory.
 
 ## -returns
 
@@ -80,9 +80,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

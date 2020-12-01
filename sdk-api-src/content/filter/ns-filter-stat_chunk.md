@@ -52,7 +52,8 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+> [!Note]  
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 Describes the characteristics of a chunk.
 
@@ -60,15 +61,15 @@ Describes the characteristics of a chunk.
 
 ### -field idChunk
 
-The chunk identifier. Chunk identifiers must be unique for the current instance of the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface. Chunk identifiers must be in ascending order. The order in which chunks are numbered should correspond to the order in which they appear in the source document. Some search engines can take advantage of the proximity of chunks of various properties. If so, the order in which chunks with different properties are emitted will be important to the search engine.
+The chunk identifier. Chunk identifiers must be unique for the current instance of the <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface. Chunk identifiers must be in ascending order. The order in which chunks are numbered should correspond to the order in which they appear in the source document. Some search engines can take advantage of the proximity of chunks of various properties. If so, the order in which chunks with different properties are emitted will be important to the search engine.
 
 ### -field breakType
 
-The type of break that separates the previous chunk from the current chunk. Values are from the <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunk_breaktype">CHUNK_BREAKTYPE</a> enumeration.
+The type of break that separates the previous chunk from the current chunk. Values are from the <a href="/windows/desktop/api/filter/ne-filter-chunk_breaktype">CHUNK_BREAKTYPE</a> enumeration.
 
 ### -field flags
 
-Indicates whether this chunk contains a text-type or a value-type property. Flag values are taken from the <a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunkstate">CHUNKSTATE</a> enumeration. If the CHUNK_TEXT flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-gettext">IFilter::GetText</a> should be used to retrieve the contents of the chunk as a series of words. If the CHUNK_VALUE flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-getvalue">IFilter::GetValue</a> should be used to retrieve the value and treat it as a single property value. If the filter dictates that the same content be treated as both text and as a value, the chunk should be emitted twice in two different chunks, each with one flag set.
+Indicates whether this chunk contains a text-type or a value-type property. Flag values are taken from the <a href="/windows/desktop/api/filter/ne-filter-chunkstate">CHUNKSTATE</a> enumeration. If the CHUNK_TEXT flag is set, <a href="/windows/desktop/api/filter/nf-filter-ifilter-gettext">IFilter::GetText</a> should be used to retrieve the contents of the chunk as a series of words. If the CHUNK_VALUE flag is set, <a href="/windows/desktop/api/filter/nf-filter-ifilter-getvalue">IFilter::GetValue</a> should be used to retrieve the value and treat it as a single property value. If the filter dictates that the same content be treated as both text and as a value, the chunk should be emitted twice in two different chunks, each with one flag set.
 
 ### -field locale
 
@@ -76,7 +77,7 @@ The language and sublanguage associated with a chunk of text. Chunk locale is us
 
 ### -field attribute
 
-The property to be applied to the chunk. See <a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-fullpropspec">FULLPROPSPEC</a>. If a filter requires that the same text have more than one property, it needs to emit the text once for each property in separate chunks.
+The property to be applied to the chunk. See <a href="/windows/desktop/api/filter/ns-filter-fullpropspec">FULLPROPSPEC</a>. If a filter requires that the same text have more than one property, it needs to emit the text once for each property in separate chunks.
 
 ### -field idChunkSource
 
@@ -182,17 +183,16 @@ Information provided by <b>idChunkSource</b>, <b>cwcStartSource</b>, and <b>cwcL
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunkstate">CHUNKSTATE</a>
+<a href="/windows/desktop/api/filter/ne-filter-chunkstate">CHUNKSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/ne-filter-chunk_breaktype">CHUNK_BREAKTYPE</a>
+<a href="/windows/desktop/api/filter/ne-filter-chunk_breaktype">CHUNK_BREAKTYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/ns-filter-fullpropspec">FULLPROPSPEC</a>
+<a href="/windows/desktop/api/filter/ns-filter-fullpropspec">FULLPROPSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>
-
+<a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>

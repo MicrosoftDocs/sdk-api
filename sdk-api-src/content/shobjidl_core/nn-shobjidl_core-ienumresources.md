@@ -54,7 +54,7 @@ Exposes resource enumeration methods.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumResources</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumResources</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumResources</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumResources</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IEnumResources</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-clone">Clone</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Clones a resource enumerator.
@@ -78,16 +78,16 @@ Clones a resource enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-next">Next</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-next">Next</a>
 </td>
 <td align="left" width="63%">
-Gets the next <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-shell_item_resource">SHELL_ITEM_RESOURCE</a> structure.
+Gets the next <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-shell_item_resource">SHELL_ITEM_RESOURCE</a> structure.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-reset">Reset</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration index to 0.
@@ -96,7 +96,7 @@ Resets the enumeration index to 0.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-skip">Skip</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ienumresources-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of resources.
@@ -104,4 +104,3 @@ Skips a specified number of resources.
 </td>
 </tr>
 </table>
-

@@ -62,13 +62,12 @@ The column ID.
 
 ### -param pscid [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a>*</b>
+Type: <b><a href="/windows/desktop/shell/objects">SHCOLUMNID</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/shell/objects">SHCOLUMNID</a> structure containing the FMTID and PID.
+A pointer to an <a href="/windows/desktop/shell/objects">SHCOLUMNID</a> structure containing the FMTID and PID.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

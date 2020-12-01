@@ -51,17 +51,17 @@ api_name:
 
 ## -description
 
-BITS calls your implementation of the <b>FileRangesTransferred</b> method when one or more file ranges have been downloaded.  File ranges are added to the job using the <a href="https://docs.microsoft.com/windows/desktop/api/bits10_1/nf-bits10_1-ibackgroundcopyfile6-requestfileranges">IBackgroundCopyFile6::RequestFileRanges</a> method.
+BITS calls your implementation of the <b>FileRangesTransferred</b> method when one or more file ranges have been downloaded.  File ranges are added to the job using the <a href="/windows/desktop/api/bits10_1/nf-bits10_1-ibackgroundcopyfile6-requestfileranges">IBackgroundCopyFile6::RequestFileRanges</a> method.
 
 ## -parameters
 
 ### -param job
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> object that contains the  methods for accessing property, progress, and state information of the job. Do not release <i>pJob</i>; BITS releases the interface when the method returns.
+An <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a> object that contains the  methods for accessing property, progress, and state information of the job. Do not release <i>pJob</i>; BITS releases the interface when the method returns.
 
 ### -param file
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a> object that contains information about the file whose ranges have changed. Do not release <i>pFile</i>; BITS releases the interface when the method returns.
+An <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyfile">IBackgroundCopyFile</a> object that contains information about the file whose ranges have changed. Do not release <i>pFile</i>; BITS releases the interface when the method returns.
 
 ### -param rangeCount
 
@@ -69,7 +69,7 @@ The count of entries in the ranges array.
 
 ### -param ranges
 
-An array of the files ranges that have transferred since the last call to <b>FileRangesTransferred</b>  or the last call to the <a href="https://docs.microsoft.com/windows/desktop/api/bits10_1/nf-bits10_1-ibackgroundcopyfile6-requestfileranges">IBackgroundCopyFile6::RequestFileRanges</a> method. Do not free <i>ranges</i>; BITS frees the ranges memory when the <b>FileRangesTransferred</b> method returns.
+An array of the files ranges that have transferred since the last call to <b>FileRangesTransferred</b>  or the last call to the <a href="/windows/desktop/api/bits10_1/nf-bits10_1-ibackgroundcopyfile6-requestfileranges">IBackgroundCopyFile6::RequestFileRanges</a> method. Do not free <i>ranges</i>; BITS frees the ranges memory when the <b>FileRangesTransferred</b> method returns.
 
 ## -returns
 
@@ -90,11 +90,10 @@ BITS generates a high volume of events; consider creating a timer and polling fo
 
 #### Examples
 
-For an example of how to use this function, see the example code for the <a href="https://docs.microsoft.com/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopycallback3">IBackgroundCopyCallback3</a>interface.
+For an example of how to use this function, see the example code for the <a href="/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopycallback3">IBackgroundCopyCallback3</a>interface.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopycallback3">IBackgroundCopyCallback3</a>
-
+<a href="/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopycallback3">IBackgroundCopyCallback3</a>

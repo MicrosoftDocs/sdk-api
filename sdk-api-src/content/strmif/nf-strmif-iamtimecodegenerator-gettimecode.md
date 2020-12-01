@@ -57,7 +57,7 @@ The <code>GetTimecode</code> method retrieves the most recent timecode and/or us
 
 ### -param pTimecodeSample [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/aviriff/ns-aviriff-tagtimecode_sample">TIMECODE_SAMPLE</a> structure.
+Pointer to a <a href="/windows/win32/api/strmif/ns-strmif-timecode_sample">TIMECODE_SAMPLE</a> structure.
 
 ## -returns
 
@@ -69,13 +69,12 @@ Use this method to obtain the most recent timecode value available in the stream
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodegenerator">IAMTimecodeGenerator Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtimecodegenerator">IAMTimecodeGenerator Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-settimecode">IAMTimecodeGenerator::SetTimecode</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-settimecode">IAMTimecodeGenerator::SetTimecode</a>

@@ -59,8 +59,8 @@ Retrieves information about the specified event log.
 ### -param hEventLog [in]
 
 A handle to the event log. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a> function returns this handle.
+<a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a> function returns this handle.
 
 ### -param dwInfoLevel [in]
 
@@ -84,7 +84,7 @@ The level of event log information to return.
 </td>
 <td width="60%">
 Indicate whether the specified log is full. The <i>lpBuffer</i> parameter will contain an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-eventlog_full_information">EVENTLOG_FULL_INFORMATION</a> structure.
+<a href="/windows/desktop/api/winbase/ns-winbase-eventlog_full_information">EVENTLOG_FULL_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -108,21 +108,20 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-eventlog_full_information">EVENTLOG_FULL_INFORMATION</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-eventlog_full_information">EVENTLOG_FULL_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
+<a href="/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-registereventsourcea">RegisterEventSource</a>

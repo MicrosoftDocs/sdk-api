@@ -52,7 +52,6 @@ api_name:
 ## -description
 
 The <b>SCardReleaseStartedEvent</b> function decrements the reference count for  a handle acquired by a previous call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardaccessstartedevent">SCardAccessStartedEvent</a> function.
+<a href="/windows/desktop/api/winscard/nf-winscard-scardaccessstartedevent">SCardAccessStartedEvent</a> function.
 
 ## -parameters
-

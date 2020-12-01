@@ -60,16 +60,16 @@ Registration is the first action a client should take.
 ### -param RtmEntityInfo [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a> structure. This structure contains information that identifies the client to the routing table manager, such as the routing table manager instance and address family with which to register.
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a> structure. This structure contains information that identifies the client to the routing table manager, such as the routing table manager instance and address family with which to register.
 
 ### -param ExportMethods [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_export_methods">RTM_ENTITY_EXPORT_METHODS</a> structure that contains a list of methods exported by the client. This parameter is optional and can be set to <b>NULL</b> if the calling client has no methods to export.
+Pointer to a <a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_export_methods">RTM_ENTITY_EXPORT_METHODS</a> structure that contains a list of methods exported by the client. This parameter is optional and can be set to <b>NULL</b> if the calling client has no methods to export.
 
 ### -param EventCallback [in]
 
 A <b>RTM_EVENT_CALLBACK</b> structure that specifies the callback the routing table manager  uses to notify the client of events. The events are when a client registers and unregisters, when routes expire, and when changes to the best route to a destination have occurred. Only those changes specified when the client called 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterforchangenotification">RtmRegisterForChangeNotification</a>.
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterforchangenotification">RtmRegisterForChangeNotification</a>.
 
 ### -param ReserveOpaquePointer [in]
 
@@ -78,7 +78,7 @@ Specifies whether to reserve an opaque pointer in each destination for this inst
 ### -param RtmRegProfile [out]
 
 On input, <i>RtmRegProfile</i> is a pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_regn_profile">RTM_REGN_PROFILE</a> structure. 
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_regn_profile">RTM_REGN_PROFILE</a> structure. 
 
 
 
@@ -182,15 +182,15 @@ There is not enough memory to complete this operation.
 ## -remarks
 
 For sample code using this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/register-with-the-routing-table-manager">Register With the Routing Table Manager</a>.
+<a href="/windows/desktop/RRAS/register-with-the-routing-table-manager">Register With the Routing Table Manager</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_export_methods">RTM_ENTITY_EXPORT_METHODS</a>
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_export_methods">RTM_ENTITY_EXPORT_METHODS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a>
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a>
 
 
 
@@ -198,17 +198,16 @@ For sample code using this function, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_regn_profile">RTM_REGN_PROFILE</a>
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_regn_profile">RTM_REGN_PROFILE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmderegisterentity">RtmDeregisterEntity</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmderegisterentity">RtmDeregisterEntity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetregisteredentities">RtmGetRegisteredEntities</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetregisteredentities">RtmGetRegisteredEntities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseentities">RtmReleaseEntities</a>
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseentities">RtmReleaseEntities</a>

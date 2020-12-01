@@ -69,17 +69,16 @@ User account names are limited to 20 characters and group names are limited to 2
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/local-group-functions">Local Group Functions</a>
+<a href="/windows/desktop/NetMgmt/local-group-functions">Local Group Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netusergetlocalgroups">NetUserGetLocalGroups</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netusergetlocalgroups">NetUserGetLocalGroups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>

@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Scrolls the caret into view in an edit or rich edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-scrollcaret">EM_SCROLLCARET</a> message explicitly.
+Scrolls the caret into view in an edit or rich edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-scrollcaret">EM_SCROLLCARET</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
-

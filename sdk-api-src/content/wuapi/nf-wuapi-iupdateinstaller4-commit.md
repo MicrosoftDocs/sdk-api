@@ -75,5 +75,4 @@ Calling **Commit** is required prior to rebooting when a feature update is pendi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/mt694206(v=vs.85)">IUpdateInstaller4</a>
-
+<a href="/previous-versions/mt694206(v=vs.85)">IUpdateInstaller4</a>

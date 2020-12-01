@@ -69,5 +69,5 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/B831A43B-9062-4763-8702-B487E57FD0C2">IAppxContentGroupFilesEnumerator</a>
+<a href="/windows/win32/api/appxpackaging/nn-appxpackaging-iappxcontentgroupfilesenumerator">IAppxContentGroupFilesEnumerator</a>
 

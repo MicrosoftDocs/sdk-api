@@ -56,7 +56,7 @@ The <b>GetInputAvailableType</b> method gets an available media type for an inpu
 
 ### -param dwInputStreamID [in]
 
-Input stream identifier. To get the list of stream identifiers, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getstreamids">IMFDeviceTransform::GetStreamID</a>.
+Input stream identifier. To get the list of stream identifiers, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getstreamids">IMFDeviceTransform::GetStreamID</a>.
 
 ### -param dwTypeIndex [in]
 
@@ -64,7 +64,7 @@ Index of the media type to retrieve. Media types are indexed from zero and retur
 
 ### -param pMediaType [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> interface.
 
 ## -returns
 
@@ -130,5 +130,4 @@ If the MFT stores a media type internally, the MFT should return a clone of the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
-
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>

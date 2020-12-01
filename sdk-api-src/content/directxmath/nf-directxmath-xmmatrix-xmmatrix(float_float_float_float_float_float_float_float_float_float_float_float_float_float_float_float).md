@@ -54,7 +54,7 @@ Initializes a new instance of the <code>XMMATRIX</code> structure from sixteen s
 	<code>float</code> values.
     
 
-Initializes a new instance of the <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> structure from sixteen
+Initializes a new instance of the <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> structure from sixteen
 	scalar <code>float</code> values.
 <div class="alert"><b>Note</b>  This constructor is only available when developing with C++.
     </div><div> </div>
@@ -159,9 +159,8 @@ The following pseudocode example demonstrates the operation of this constructor:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmmatrix-ctor">XMMATRIX Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmmatrix-ctor">XMMATRIX Constructors</a>

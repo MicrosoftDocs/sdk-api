@@ -60,11 +60,11 @@ The DD_BLTDATA structure contains the information relevant to the driver for doi
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
 
 ### -field lpDDDestSurface
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface on which to blit.
+Points to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes the surface on which to blit.
 
 ### -field rDest
 
@@ -248,7 +248,7 @@ DDBLT_ROP
 
 </td>
 <td>
-Use the <b>dwROP</b> member in the DDBLTFX structure (defined in the DirectDraw SDK documentation) for the raster operation for this blit. Currently, the only <a href="https://docs.microsoft.com/windows-hardware/drivers/">ROP</a> passed to the driver is SRCCOPY. This ROP is the same as that defined in the Win32 API. See the Microsoft Windows SDK documentation for details.
+Use the <b>dwROP</b> member in the DDBLTFX structure (defined in the DirectDraw SDK documentation) for the raster operation for this blit. Currently, the only <a href="/windows-hardware/drivers/">ROP</a> passed to the driver is SRCCOPY. This ROP is the same as that defined in the Win32 API. See the Microsoft Windows SDK documentation for details.
 
 </td>
 </tr>
@@ -292,7 +292,7 @@ Unused on Windows 2000 and later and should be ignored by the driver.
 
 ### -field ddRVal
 
-Specifies the location in which the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
+Specifies the location in which the driver writes the return value of the <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a> callback. A return code of DD_OK indicates success. For more information, see <a href="/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
 ### -field Blt
 
@@ -328,9 +328,8 @@ ARGB scaling factors (AlphaBlt)
 
 ## -remarks
 
-For more information about the DDBLT_PRESENTATION and DDBLT_LAST_PRESENTATION flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/presentation">Presentation</a>.
+For more information about the DDBLT_PRESENTATION and DDBLT_LAST_PRESENTATION flags, see <a href="/windows-hardware/drivers/display/presentation">Presentation</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a>
-
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a>

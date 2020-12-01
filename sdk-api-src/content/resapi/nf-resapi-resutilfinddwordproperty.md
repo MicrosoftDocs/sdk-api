@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Locates an unsigned long property value in a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a>. The <b>PRESUTIL_FIND_DWORD_PROPERTY</b> type defines a pointer to this function.
+Locates an unsigned long property value in a  <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a>. The <b>PRESUTIL_FIND_DWORD_PROPERTY</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -77,7 +77,7 @@ Pointer to the actual value of the data stored in the property list buffer.
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
 
 <table>
 <tr>
@@ -114,25 +114,24 @@ If the operation is successful, <i>pdwPropertyValue</i> points directly into the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfindbinaryproperty">ResUtilFindBinaryProperty</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilfindbinaryproperty">ResUtilFindBinaryProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfindexpandszproperty">ResUtilFindExpandSzProperty</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilfindexpandszproperty">ResUtilFindExpandSzProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfindexpandedszproperty">ResUtilFindExpandedSzProperty</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilfindexpandedszproperty">ResUtilFindExpandedSzProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfindlongproperty">ResUtilFindLongProperty</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilfindlongproperty">ResUtilFindLongProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfindmultiszproperty">ResUtilFindMultiSzProperty</a>
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilfindmultiszproperty">ResUtilFindMultiSzProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resapi/nf-resapi-resutilfindszproperty">ResUtilFindSzProperty</a>
-
+<a href="/windows/desktop/api/resapi/nf-resapi-resutilfindszproperty">ResUtilFindSzProperty</a>

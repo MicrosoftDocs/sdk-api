@@ -52,11 +52,11 @@ api_name:
 
 Manages a collection of Schedule objects.
 
-To get this interface, access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_schedules">IDataCollectorSet::Schedules</a> property.
+To get this interface, access the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_schedules">IDataCollectorSet::Schedules</a> property.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IScheduleCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IScheduleCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IScheduleCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IScheduleCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IScheduleCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-add">Add</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a schedule to the collection.
@@ -81,7 +81,7 @@ Adds a schedule to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-addrange">AddRange</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-addrange">AddRange</a>
 </td>
 <td align="left" width="63%">
 Adds one or more schedules to the collection.
@@ -90,7 +90,7 @@ Adds one or more schedules to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-clear">Clear</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all schedules from the collection.
@@ -99,7 +99,7 @@ Removes all schedules from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-createschedule">CreateSchedule</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-createschedule">CreateSchedule</a>
 </td>
 <td align="left" width="63%">
 Creates a schedule object.
@@ -108,7 +108,7 @@ Creates a schedule object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-remove">Remove</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a schedule from the collection.
@@ -125,7 +125,7 @@ Removes a schedule from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-get__newenum">_NewEnum</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -137,7 +137,7 @@ Retrieves an interface to the enumeration.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-get_count">Count</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-get_count">Count</a>
 
 
 </td>
@@ -149,7 +149,7 @@ Retrieves the number of schedules in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-get_item">Item</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedulecollection-get_item">Item</a>
 
 
 </td>
@@ -159,4 +159,3 @@ Retrieves the requested schedule from the collection.
 </td>
 </tr>
 </table>
-

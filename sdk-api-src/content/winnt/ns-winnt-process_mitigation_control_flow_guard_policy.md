@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Contains process mitigation policy settings for Control Flow Guard (CFG). The <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy">GetProcessMitigationPolicy</a> and <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a> functions use this structure.
+Contains process mitigation policy settings for Control Flow Guard (CFG). The <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy">GetProcessMitigationPolicy</a> and <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a> functions use this structure.
 
 ## -struct-fields
 
@@ -68,17 +68,16 @@ This member is reserved for system use.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnableControlFlowGuard
 
-CFG is enabled for the process if this flag is set. This field cannot be changed via <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a>.
+CFG is enabled for the process if this flag is set. This field cannot be changed via <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a>.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.EnableExportSuppression
 
-If TRUE, exported functions will be treated as invalid indirect call targets by default. Exported functions only become valid indirect call targets if they are dynamically resolved via <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. This field cannot be changed via <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a>.
+If TRUE, exported functions will be treated as invalid indirect call targets by default. Exported functions only become valid indirect call targets if they are dynamically resolved via <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>. This field cannot be changed via <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a>.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.StrictMode
 
-If TRUE, all DLLs that are loaded must enable CFG. If a DLL does not enable CFG then the image will fail to load. This policy can be enabled after a process has started by calling <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a>. It cannot be disabled once enabled.
+If TRUE, all DLLs that are loaded must enable CFG. If a DLL does not enable CFG then the image will fail to load. This policy can be enabled after a process has started by calling <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a>. It cannot be disabled once enabled.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
 This member is reserved for system use.
-

@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets a value that determines whether scroll bars in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control are disabled.
+Gets or sets a value that determines whether scroll bars in the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control are disabled.
 
 This property is read/write.
 
@@ -63,7 +63,7 @@ This property is read/write.
 
 ## -remarks
 
-The <b>DisableNoScroll</b> property is ignored when the <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_scrollbars">ScrollBars</a> property is set to <b>rtfNone</b>. However, when <b>ScrollBars</b> is set to <b>rtfHorizontal</b>, <b>rtfVertical</b>, or <b>rtfBoth</b>, individual scroll bars are disabled when there are too few lines of text to scroll vertically or too few characters of text to scroll horizontally in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
+The <b>DisableNoScroll</b> property is ignored when the <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_scrollbars">ScrollBars</a> property is set to <b>rtfNone</b>. However, when <b>ScrollBars</b> is set to <b>rtfHorizontal</b>, <b>rtfVertical</b>, or <b>rtfBoth</b>, individual scroll bars are disabled when there are too few lines of text to scroll vertically or too few characters of text to scroll horizontally in the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> control.
 
 
 
@@ -75,5 +75,4 @@ This property is read-only at run time.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

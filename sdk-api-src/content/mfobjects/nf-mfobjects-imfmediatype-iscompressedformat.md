@@ -65,7 +65,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method returns <b>FALSE</b> in <i>pfCompressed</i> if the media type's <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-all-samples-independent-attribute">MF_MT_ALL_SAMPLES_INDEPENDENT</a> attribute is <b>TRUE</b>. If the <b>MF_MT_ALL_SAMPLES_INDEPENDENT</b> attribute is <b>FALSE</b> or not set, the method returns <b>TRUE</b>.
+This method returns <b>FALSE</b> in <i>pfCompressed</i> if the media type's <a href="/windows/desktop/medfound/mf-mt-all-samples-independent-attribute">MF_MT_ALL_SAMPLES_INDEPENDENT</a> attribute is <b>TRUE</b>. If the <b>MF_MT_ALL_SAMPLES_INDEPENDENT</b> attribute is <b>FALSE</b> or not set, the method returns <b>TRUE</b>.
       
 
 If the method returns <b>TRUE</b> in <i>pfCompressed</i>, it is a hint that the format has temporal compression applied to it. If the method returns <b>FALSE</b>, the format does not use temporal compression, although it might use intra-frame compression.
@@ -80,9 +80,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

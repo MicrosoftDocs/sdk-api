@@ -80,21 +80,20 @@ The <code>IAudioSystemEffectsCustomFormats</code> interface inherits from <b>IUn
 <dl>
 <dd>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a>
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">IAudioSystemEffectsCustomFormats::GetFormatCount</a>
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">IAudioSystemEffectsCustomFormats::GetFormatCount</a>
 
 
 </dd>
 <dd>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatrepresentation">IAudioSystemEffectsCustomFormats::GetFormatRepresentation</a>
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatrepresentation">IAudioSystemEffectsCustomFormats::GetFormatRepresentation</a>
 
 
 </dd>
 </dl>
-

@@ -45,7 +45,7 @@ Indicates the level of support that the adapter provides for metacommands.
 
 ### -field CommandId
 
-Type: <b>[GUID](/windows/win32/api/guiddef/ns-guiddef-guid)</b>
+Type: <b>[GUID](../guiddef/ns-guiddef-guid.md)</b>
 
 The fixed GUID that identfies the metacommand to query about.
 
@@ -82,4 +82,3 @@ The size of the buffer pointed to by *pQueryOutputData*, in bytes.
 ## -remarks
 
 ## -see-also
-

@@ -56,7 +56,7 @@ The <b>get_ModulationType</b> method retrieves the modulation type for the signa
 
 ### -param pModulationType [out]
 
-Pointer that receives a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/modulationtype">ModulationType</a> variable indicating the modulation type.
+Pointer that receives a <a href="/previous-versions/windows/desktop/mstv/modulationtype">ModulationType</a> variable indicating the modulation type.
 
 ## -returns
 
@@ -64,13 +64,12 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator">IBDA_DigitalDemodulator Interface</a>
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_digitaldemodulator">IBDA_DigitalDemodulator Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_modulationtype">IBDA_DigitalDemodulator::put_ModulationType</a>
-
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_modulationtype">IBDA_DigitalDemodulator::put_ModulationType</a>

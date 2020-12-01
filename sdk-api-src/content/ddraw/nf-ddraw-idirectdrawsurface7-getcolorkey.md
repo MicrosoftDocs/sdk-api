@@ -84,7 +84,7 @@ A color key or color space to be used as a source color key for overlay operatio
 
 ### -param arg2 [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/ns-ddraw-ddcolorkey">DDCOLORKEY</a> structure that receives the current values for the specified color key of the DirectDrawSurface object.
+A pointer to a <a href="/windows/desktop/api/ddraw/ns-ddraw-ddcolorkey">DDCOLORKEY</a> structure that receives the current values for the specified color key of the DirectDrawSurface object.
 
 ## -returns
 
@@ -105,9 +105,8 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetColorKey</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>GetColorKey</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
-
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>

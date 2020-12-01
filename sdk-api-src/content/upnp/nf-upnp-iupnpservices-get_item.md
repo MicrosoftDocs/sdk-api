@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>Item</b> property specifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> interface for a  service, identified by the service ID, in the collection.
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> interface for a  service, identified by the service ID, in the collection.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Specifies a service in the collection.
 ### -param ppService [out]
 
 Receives a reference to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> interface for the specified service.
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservice">IUPnPService</a> interface for the specified service.
 
 ## -returns
 
@@ -100,5 +100,4 @@ Failed to subscribe to the event source.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>

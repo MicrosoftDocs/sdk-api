@@ -57,7 +57,7 @@ The <code>SetMediaType</code> method sets the media type for the sample.
 
 ### -param pMediaType
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type.
+Pointer to an <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type.
 
 ## -returns
 
@@ -98,9 +98,8 @@ By default, every sample has the same media type as the previous sample. (The pi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>

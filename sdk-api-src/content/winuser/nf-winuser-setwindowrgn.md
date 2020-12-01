@@ -46,6 +46,7 @@ api_location:
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
  - SetWindowRgn
+req.apiset: ext-ms-win-ntuser-draw-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetWindowRgn function
@@ -81,29 +82,28 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-When this function is called, the system sends the <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a> and <b>WM_WINDOWPOSCHANGING</b> messages to the window.
+When this function is called, the system sends the <a href="/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a> and <b>WM_WINDOWPOSCHANGING</b> messages to the window.
 
 The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.
 
-<div class="alert"><b>Note</b>  If the window layout is right-to-left (RTL), the coordinates are relative to the upper-right corner of the window. See <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-features">Window Layout and Mirroring</a>.</div>
+<div class="alert"><b>Note</b>  If the window layout is right-to-left (RTL), the coordinates are relative to the upper-right corner of the window. See <a href="/windows/desktop/winmsg/window-features">Window Layout and Mirroring</a>.</div>
 <div> </div>
 After a successful call to <b>SetWindowRgn</b>, the system owns the region specified by the region handle <i>hRgn</i>. The system does not make a copy of the region. Thus, you should not make any further function calls with this region handle. In particular, do not delete this region handle. The system deletes the region handle when it no longer needed.
 
-To obtain the window region of a window, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowrgn">GetWindowRgn</a> function.
+To obtain the window region of a window, call the <a href="/windows/desktop/api/winuser/nf-winuser-getwindowrgn">GetWindowRgn</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowrgn">GetWindowRgn</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getwindowrgn">GetWindowRgn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a>
-
+<a href="/windows/desktop/winmsg/wm-windowposchanging">WM_WINDOWPOSCHANGING</a>

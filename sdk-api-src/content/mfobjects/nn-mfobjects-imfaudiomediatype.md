@@ -57,7 +57,7 @@ Represents a description of an audio format.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAudioMediaType</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>. <b>IMFAudioMediaType</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAudioMediaType</b> interface inherits from <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>. <b>IMFAudioMediaType</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,10 +72,10 @@ The <b>IMFAudioMediaType</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfaudiomediatype-getaudioformat">GetAudioFormat</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfaudiomediatype-getaudioformat">GetAudioFormat</a>
 </td>
 <td align="left" width="63%">
-Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that describes the audio format.
+Returns a pointer to a <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that describes the audio format.
         
 
 </td>
@@ -86,7 +86,7 @@ Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd7
 
 <b>Windows Server 2008 and Windows Vista:  </b>If the major type of a media type is <b>MFMediaType_Audio</b>, you can query the media type object for the <b>IMFAudioMediaType</b> interface.
 
-To convert an audio media type into a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype">MFCreateWaveFormatExFromMFMediaType</a>.
+To convert an audio media type into a <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype">MFCreateWaveFormatExFromMFMediaType</a>.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -97,17 +97,16 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-type-attributes">Media Type Attributes</a>
+<a href="/windows/desktop/medfound/media-type-attributes">Media Type Attributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

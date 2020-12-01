@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>HTTP_VERSION</b> structure defines a version of the HTTP protocol that a request requires or a response provides. This is not to be confused with the version of the HTTP Server API used, which is stored in an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-httpapi_version">HTTPAPI_VERSION</a> structure.
+<a href="/windows/desktop/api/http/ns-http-httpapi_version">HTTPAPI_VERSION</a> structure.
 
 ## -struct-fields
 
@@ -76,16 +76,15 @@ For more information about the HTTP protocol, see
 The following macros define various versions of the HTTP protocol:"#define HTTP_VERSION_UNKNOWN    { 0, 0 }""#define HTTP_VERSION_0_9        { 0, 9 }""#define HTTP_VERSION_1_0        { 1, 0 }""#define HTTP_VERSION_1_1        { 1, 1 }"
 
 The HTTP Server API provides a number of macros that can be used to evaluate the value of an HTTP_VERSION structure; For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-macros">HTTP Server API Version 1.0 Macros</a>.
+<a href="/windows/desktop/Http/http-server-api-version-1-0-macros">HTTP Server API Version 1.0 Macros</a>.
 
 <div class="alert"><b>Note</b>  The HTTP Server API rejects a version of HTTP larger than 65,535 in either the major or minor portion. If a request includes such a version number, the HTTP Server API discards it and returns a response with status 400 ("Bad Request").</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
+<a href="/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-response">HTTP_RESPONSE</a>
-
+<a href="/windows/desktop/Http/http-response">HTTP_RESPONSE</a>

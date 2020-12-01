@@ -60,7 +60,7 @@ Contains cache statistics.
 
 ### -field ProtocolCache
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_protocol_cache">WTS_PROTOCOL_CACHE</a> structure that contains information about the number of times that requested data is found in and read from the cache.
+A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_protocol_cache">WTS_PROTOCOL_CACHE</a> structure that contains information about the number of times that requested data is found in and read from the cache.
 
 ### -field ProtocolCache.case
 
@@ -88,5 +88,4 @@ Reserved protocol specific data. The maximum size, in bytes, of this data is WTS
 
 ## -remarks
 
-This union is a member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_cache_stats">WTS_CACHE_STATS</a> structure. The <b>Specific</b> member of that structure contains an integer index that specifies which  member of the <b>WTS_CACHE_STATS_UN</b> union contains the cache data.
-
+This union is a member of the <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_cache_stats">WTS_CACHE_STATS</a> structure. The <b>Specific</b> member of that structure contains an integer index that specifies which  member of the <b>WTS_CACHE_STATS_UN</b> union contains the cache data.

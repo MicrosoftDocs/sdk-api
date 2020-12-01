@@ -68,9 +68,8 @@ The context of the application registering for the notification.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nc-powrprof-device_notify_callback_routine">DEVICE_NOTIFY_CALLBACK_ROUTINE</a>
+<a href="/windows/desktop/api/powrprof/nc-powrprof-device_notify_callback_routine">DEVICE_NOTIFY_CALLBACK_ROUTINE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a>
-
+<a href="/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a>

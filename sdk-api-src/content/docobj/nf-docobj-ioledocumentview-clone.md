@@ -56,11 +56,11 @@ Creates a duplicate view object with an internal state identical to that of the 
 
 ### -param pIPSiteNew [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> interface that represents the view site in which the new view object will be activated. On receiving this pointer, the view being cloned should pass it to the new view's <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">IOleDocumentView::SetInPlaceSite</a> method. This pointer can be <b>NULL</b>, in which case the caller is responsible for calling <b>IOleDocumentView::SetInPlaceSite</b> on the new view directly.
+A pointer to a <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a> interface that represents the view site in which the new view object will be activated. On receiving this pointer, the view being cloned should pass it to the new view's <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">IOleDocumentView::SetInPlaceSite</a> method. This pointer can be <b>NULL</b>, in which case the caller is responsible for calling <b>IOleDocumentView::SetInPlaceSite</b> on the new view directly.
 
 ### -param ppViewNew [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a> pointer variable that receives the interface pointer to the new view object. The caller is responsible for releasing <i>ppViewNew</i> when it is no longer needed.
+A pointer to an <a href="/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a> pointer variable that receives the interface pointer to the new view object. The caller is responsible for releasing <i>ppViewNew</i> when it is no longer needed.
 
 ## -returns
 
@@ -112,9 +112,8 @@ This method is useful for creating a new view with a different viewport and view
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
+<a href="/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">IOleDocumentView::SetInPlaceSite</a>
-
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setinplacesite">IOleDocumentView::SetInPlaceSite</a>

@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
  - GetUmsSystemThreadInformation
+req.apiset: api-ms-win-core-ums-l1-1-0 (introduced in Windows 7)
 ---
 
 # GetUmsSystemThreadInformation function
@@ -57,11 +58,11 @@ Queries whether the specified thread is a UMS scheduler thread, a UMS worker thr
 
 ### -param ThreadHandle [in]
 
-A handle to a thread. The thread handle must have the THREAD_QUERY_INFORMATION access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
+A handle to a thread. The thread handle must have the THREAD_QUERY_INFORMATION access right. For more information, see <a href="/windows/desktop/ProcThread/thread-security-and-access-rights">Thread Security and Access Rights</a>.
 
 ### -param SystemThreadInfo [in, out]
 
-A pointer to an initialized <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-ums_system_thread_information">UMS_SYSTEM_THREAD_INFORMATION</a> structure that specifies the kind of thread for the query.
+A pointer to an initialized <a href="/windows/desktop/api/winbase/ns-winbase-ums_system_thread_information">UMS_SYSTEM_THREAD_INFORMATION</a> structure that specifies the kind of thread for the query.
 
 ## -returns
 
@@ -70,4 +71,3 @@ Returns TRUE if the specified thread matches the kind of thread specified by the
 ## -remarks
 
 The <b>GetUmsSystemThreadInformation</b> function is intended for use in debuggers, troubleshooting tools, and profiling applications. For example, thread-isolated tracing or single-stepping through instructions might involve suspending all other threads in the process. However, if the thread to be traced is a UMS worker thread, suspending UMS scheduler threads might cause a deadlock because a UMS worker thread requires the intervention of a UMS scheduler thread in order to run. A debugger can call <b>GetUmsSystemThreadInformation</b> for each thread that it might suspend to determine the kind of thread, and then suspend it or not as needed for the code being debugged.
-

@@ -60,7 +60,7 @@ The handle variable name to forward declare.
 
 ## -remarks
 
-Use this macro in a shared header file to forward declare your TraceLogging provider handle. This macro does not allocate storage for the provider. In order to use the provider, you will need to use <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-tracelogging_define_provider">TRACELOGGING_DEFINE_PROVIDER</a> to define the variable.
+Use this macro in a shared header file to forward declare your TraceLogging provider handle. This macro does not allocate storage for the provider. In order to use the provider, you will need to use <a href="/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-tracelogging_define_provider">TRACELOGGING_DEFINE_PROVIDER</a> to define the variable.
 
 If the header file that you use this macro in is used in both C and C++ code, you will need to
 enclose TRACELOGGING_DECLARE_PROVIDER in an extern "C" region so
@@ -76,4 +76,3 @@ that the provider handle variable is declared as C-compatible. For example:
     } // extern "C"
     #endif
 ```
-

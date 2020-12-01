@@ -60,7 +60,7 @@ The <b>RGNDATA</b> structure contains a header and an array of rectangles that c
 
 ### -field rdh
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndataheader">RGNDATAHEADER</a> structure. The members of this structure specify the type of region (whether it is rectangular or trapezoidal), the number of rectangles that make up the region, the size of the buffer that contains the rectangle structures, and so on.
+A <a href="/windows/desktop/api/wingdi/ns-wingdi-rgndataheader">RGNDATAHEADER</a> structure. The members of this structure specify the type of region (whether it is rectangular or trapezoidal), the number of rectangles that make up the region, the size of the buffer that contains the rectangle structures, and so on.
 
 ### -field Buffer
 
@@ -72,13 +72,12 @@ Specifies an arbitrary-size buffer that contains the <a href="/windows/desktop/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgndataheader">RGNDATAHEADER</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-rgndataheader">RGNDATAHEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/region-structures">Region Structures</a>
+<a href="/windows/desktop/gdi/region-structures">Region Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/regions">Regions Overview</a>
-
+<a href="/windows/desktop/gdi/regions">Regions Overview</a>

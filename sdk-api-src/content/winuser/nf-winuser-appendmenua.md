@@ -49,6 +49,7 @@ api_name:
  - AppendMenu
  - AppendMenuA
  - AppendMenuW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # AppendMenuA function
@@ -95,7 +96,7 @@ Uses a bitmap as the menu item. The <i>lpNewItem</i> parameter contains a handle
 </dl>
 </td>
 <td width="60%">
-Places a check mark next to the menu item. If the application provides check-mark bitmaps (see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a>, this flag displays the check-mark bitmap next to the menu item. 
+Places a check mark next to the menu item. If the application provides check-mark bitmaps (see <a href="/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a>, this flag displays the check-mark bitmap next to the menu item. 
 
 </td>
 </tr>
@@ -161,7 +162,7 @@ Places the item on a new line (for a menu bar) or in a new column (for a drop-do
 </dl>
 </td>
 <td width="60%">
-Specifies that the item is an owner-drawn item. Before the menu is displayed for the first time, the window that owns the menu receives a <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a> message to retrieve the width and height of the menu item. The <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a> message is then sent to the window procedure of the owner window whenever the appearance of the menu item must be updated. 
+Specifies that the item is an owner-drawn item. Before the menu is displayed for the first time, the window that owns the menu receives a <a href="/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a> message to retrieve the width and height of the menu item. The <a href="/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a> message is then sent to the window procedure of the owner window whenever the appearance of the menu item must be updated. 
 
 </td>
 </tr>
@@ -205,7 +206,7 @@ Specifies that the menu item is a text string; the <i>lpNewItem</i> parameter is
 </dl>
 </td>
 <td width="60%">
-Does not place a check mark next to the item (default). If the application supplies check-mark bitmaps (see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a>), this flag displays the clear bitmap next to the menu item. 
+Does not place a check mark next to the item (default). If the application supplies check-mark bitmaps (see <a href="/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a>), this flag displays the clear bitmap next to the menu item. 
 
 </td>
 </tr>
@@ -246,7 +247,7 @@ Contains a bitmap handle.
 </dl>
 </td>
 <td width="60%">
-Contains an application-supplied value that can be used to maintain additional data related to the menu item. The value is in the <b>itemData</b> member of the structure pointed to by the <i>lParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a> message sent when the menu is created or its appearance is updated. 
+Contains an application-supplied value that can be used to maintain additional data related to the menu item. The value is in the <b>itemData</b> member of the structure pointed to by the <i>lParam</i> parameter of the <a href="/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a> or <a href="/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a> message sent when the menu is created or its appearance is updated. 
 
 </td>
 </tr>
@@ -267,13 +268,13 @@ Contains a pointer to a null-terminated string.
 
 Type: <b>BOOL</b>
 
-If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
+The application must call the <a href="/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
 
-To get keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menuchar">WM_MENUCHAR</a> message. For more information, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Owner-Drawn Menus and the WM_MENUCHAR Message</a>.
+To get keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="/windows/desktop/menurc/wm-menuchar">WM_MENUCHAR</a> message. For more information, see <a href="/windows/desktop/menurc/using-menus">Owner-Drawn Menus and the WM_MENUCHAR Message</a>.
 
 The following groups of flags cannot be used together:
 
@@ -286,7 +287,7 @@ The following groups of flags cannot be used together:
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Adding Lines and Graphs to a Menu</a>. 
+For an example, see <a href="/windows/desktop/menurc/using-menus">Adding Lines and Graphs to a Menu</a>. 
 
 <div class="code"></div>
 
@@ -302,35 +303,35 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createmenu">CreateMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createmenu">CreateMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-deletemenu">DeleteMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-deletemenu">DeleteMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroymenu">DestroyMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-insertmenua">InsertMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-insertmenuitema">InsertMenuItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-modifymenua">ModifyMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-modifymenua">ModifyMenu</a>
 
 
 
@@ -338,9 +339,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-removemenu">RemoveMenu</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-removemenu">RemoveMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a>

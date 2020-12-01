@@ -124,13 +124,12 @@ The biometric data is a signature.
 
 ### -field DUMMYUNIONNAME.pszObjId
 
-The address of a null-terminated ANSI string that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the biometric data type. This member is only used if the <b>dwTypeOfBiometricDataChoice</b> member contains <b>CERT_BIOMETRIC_OID_DATA_CHOICE</b>.
+The address of a null-terminated ANSI string that contains the <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the biometric data type. This member is only used if the <b>dwTypeOfBiometricDataChoice</b> member contains <b>CERT_BIOMETRIC_OID_DATA_CHOICE</b>.
 
 ### -field HashedUrl
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_hashed_url">CERT_HASHED_URL</a> structure that contains the hashed URL of the biometric data.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_hashed_url">CERT_HASHED_URL</a> structure that contains the hashed URL of the biometric data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_biometric_ext_info">CERT_BIOMETRIC_EXT_INFO</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_biometric_ext_info">CERT_BIOMETRIC_EXT_INFO</a>

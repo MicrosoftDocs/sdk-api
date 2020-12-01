@@ -65,8 +65,8 @@ Notifies the caller about changes to the attributes or contents of a specified r
 ### -param hKey [in]
 
 A handle to an open registry key. This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function. It can also be one of the following 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/predefined-keys">predefined keys</a>: 
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a> or <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a> function. It can also be one of the following 
+<a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>: 
 
 
 
@@ -80,7 +80,7 @@ This parameter must be a local handle. If
 <b>RegNotifyChangeKeyValue</b> is called with a remote handle, it returns ERROR_INVALID_HANDLE.
 
 The key must have been opened with the KEY_NOTIFY access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
+<a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
 ### -param bWatchSubtree [in]
 
@@ -172,7 +172,7 @@ If <i>hEvent</i> does not specify a valid event, the <i>fAsynchronous</i> parame
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
 ## -remarks
 
@@ -180,7 +180,7 @@ This function detects a single change. After the caller receives a notification 
 
 <div class="alert"><b>Note</b>  On Windows NT, Windows 2000, and Windows XP calling <b>RegNotifyChangeKeyValue</b> for a particular key handle causes change notifications to continue to occur for as long as the key handle is valid. This causes a second call to <b>RegNotifyChangeKeyValue</b> to return immediately, if any changes have occurred in the interim period between the first and second calls. If the API is being used asynchronously, the passed event handle will be signaled immediately if any interim changes have occurred.</div>
 <div> </div>
-This function cannot be used to detect changes to the registry that result from using the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regrestorekeya">RegRestoreKey</a> function.
+This function cannot be used to detect changes to the registry that result from using the <a href="/windows/desktop/api/winreg/nf-winreg-regrestorekeya">RegRestoreKey</a> function.
 
 If the specified key is closed, the event is signaled. This means that an application should not depend on the key being open after returning from a wait operation on the event.
 
@@ -191,16 +191,16 @@ If the thread that called
 <b>RegNotifyChangeKeyValue</b> again from another thread.
 				
 
-With the exception of <b>RegNotifyChangeKeyValue</b> calls with <b>REG_NOTIFY_THREAD_AGNOSTIC</b> set, this function must be called on persistent threads. If the calling thread is from a thread pool and it is not persistent, the event is signaled every time the thread terminates, not just when there is a registry change. To ensure accurate results, run the thread pool work in a persistent thread by using the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setthreadpoolcallbackpersistent">SetThreadpoolCallbackPersistent</a> function, or create your own thread using the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a>  function. (For the original thread pool API, specify WT_EXECUTEINPERSISTENTTHREAD using the <a href="https://docs.microsoft.com/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem">QueueUserWorkItem</a> function.) 
+With the exception of <b>RegNotifyChangeKeyValue</b> calls with <b>REG_NOTIFY_THREAD_AGNOSTIC</b> set, this function must be called on persistent threads. If the calling thread is from a thread pool and it is not persistent, the event is signaled every time the thread terminates, not just when there is a registry change. To ensure accurate results, run the thread pool work in a persistent thread by using the <a href="/windows/desktop/api/winbase/nf-winbase-setthreadpoolcallbackpersistent">SetThreadpoolCallbackPersistent</a> function, or create your own thread using the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread">CreateThread</a>  function. (For the original thread pool API, specify WT_EXECUTEINPERSISTENTTHREAD using the <a href="/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem">QueueUserWorkItem</a> function.) 
 
 This function should not be called multiple times with the same  value for the <i>hKey</i> but different values for the <i>bWatchSubtree</i> and <i>dwNotifyFilter</i> parameters. The function will succeed but the changes will be ignored. To change the  
 watch parameters, you must first close the key handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>, reopen the key handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, and then call <b>RegNotifyChangeKeyValue</b> with the new parameters. 
+<a href="/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>, reopen the key handle by calling 
+<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, and then call <b>RegNotifyChangeKeyValue</b> with the new parameters. 
 
 Each time a process calls <b>RegNotifyChangeKeyValue</b> with the same set of parameters, it establishes another wait operation, creating a resource leak. Therefore, check that you are not calling <b>RegNotifyChangeKeyValue</b> with the same parameters until the previous wait operation has completed.
 
-To monitor registry operations in more detail, see <a href="https://docs.microsoft.com/windows/desktop/ETW/registry">Registry</a>.
+To monitor registry operations in more detail, see <a href="/windows/desktop/ETW/registry">Registry</a>.
 
 <b>Windows XP/2000:  </b>When <b>RegNotifyChangeKeyValue</b> is called for a particular key handle, change notifications occur for as long as the key handle is valid. This causes a second call to <b>RegNotifyChangeKeyValue</b> to return immediately, if any changes occur in the interim between the first and second calls. If the function is being used asynchronously, the passed event handle will be signaled immediately if any changes occur in the interim. 
 
@@ -304,29 +304,28 @@ void __cdecl _tmain(int argc, TCHAR *argv[])
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeya">RegDeleteKey</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regdeletekeya">RegDeleteKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenumkeyexa">RegEnumKeyEx</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regenumkeyexa">RegEnumKeyEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regenumvaluea">RegEnumValue</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regenumvaluea">RegEnumValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regqueryinfokeya">RegQueryInfoKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa">RegQueryValueEx</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa">RegQueryValueEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
-
+<a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>

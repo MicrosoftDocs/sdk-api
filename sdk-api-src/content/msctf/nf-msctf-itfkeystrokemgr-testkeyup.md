@@ -56,11 +56,11 @@ Determines if the keystroke manager will handle a key up event.
 
 ### -param wParam [in]
 
-Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
+Specifies the virtual-key code of the key. For more information about this parameter, see the <i>wParam</i> parameter in <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
 
 ### -param lParam [in]
 
-Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
+Specifies the repeat count, scan code, extended-key flag, context code, previous key-state flag, and transition-state flag of the key. For more information about this parameter, see the <i>lParam</i> parameter in <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>.
 
 ### -param pfEaten [out]
 
@@ -112,7 +112,7 @@ One or more parameters are invalid.
 
 ## -remarks
 
-An application can determine if a key event is handled by the keystroke manager with this method. If this method is successful and <i>pfEaten</i> receives <b>TRUE</b>, the application should call <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keyup">ITfKeystrokeMgr::KeyUp</a>. If this method does not return S_OK or <i>pfEaten</i> receives <b>FALSE</b>, the application should not call <b>ITfKeystrokeMgr::KeyUp</b> . The following is an example of how this is implemented.
+An application can determine if a key event is handled by the keystroke manager with this method. If this method is successful and <i>pfEaten</i> receives <b>TRUE</b>, the application should call <a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keyup">ITfKeystrokeMgr::KeyUp</a>. If this method does not return S_OK or <i>pfEaten</i> receives <b>FALSE</b>, the application should not call <b>ITfKeystrokeMgr::KeyUp</b> . The following is an example of how this is implemented.
 
 <pre class="syntax" xml:space="preserve"><code>
 if(msg.message == WM_KEYUP)
@@ -131,25 +131,24 @@ if(msg.message == WM_KEYUP)
     }
 }
 </code></pre>
-If the keystroke manager does not handle the key event, it passes the key event to the TSF text service by calling the TSF text service <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-ontestkeyup">ITfKeyEventSink::OnTestKeyUp</a> method.
+If the keystroke manager does not handle the key event, it passes the key event to the TSF text service by calling the TSF text service <a href="/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-ontestkeyup">ITfKeyEventSink::OnTestKeyUp</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-ontestkeyup">ITfKeyEventSink::OnTestKeyUp</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfkeyeventsink-ontestkeyup">ITfKeyEventSink::OnTestKeyUp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfkeystrokemgr">ITfKeystrokeMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keyup">ITfKeystrokeMgr::KeyUp</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-keyup">ITfKeystrokeMgr::KeyUp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-testkeydown">ITfKeystrokeMgr::TestKeyDown</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-testkeydown">ITfKeystrokeMgr::TestKeyDown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
-
+<a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>

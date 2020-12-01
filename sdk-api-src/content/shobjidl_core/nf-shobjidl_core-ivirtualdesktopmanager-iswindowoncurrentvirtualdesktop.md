@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-[IVirtualDesktopManager](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager)
-
+[IVirtualDesktopManager](./nn-shobjidl_core-ivirtualdesktopmanager.md)

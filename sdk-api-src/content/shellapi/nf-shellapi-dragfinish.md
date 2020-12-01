@@ -43,6 +43,7 @@ api_location:
  - Shell32.dll
 api_name:
  - DragFinish
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DragFinish function
@@ -58,5 +59,4 @@ Releases memory that the system allocated for use in transferring file names to 
 
 Type: <b>HDROP</b>
 
-Identifier of the structure that describes dropped files. This handle is retrieved from the <i>wParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/shell/wm-dropfiles">WM_DROPFILES</a> message.
-
+Identifier of the structure that describes dropped files. This handle is retrieved from the <i>wParam</i> parameter of the <a href="/windows/desktop/shell/wm-dropfiles">WM_DROPFILES</a> message.

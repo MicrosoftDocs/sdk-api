@@ -60,7 +60,7 @@ Interface identifier (IID) of the interface to retrieve.
 
 ### -param ppvHandler [out]
 
-Receives a pointer to the requested interface. The caller must release the interface. The scheme handler exposes the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfschemehandler">IMFSchemeHandler</a> interface.
+Receives a pointer to the requested interface. The caller must release the interface. The scheme handler exposes the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfschemehandler">IMFSchemeHandler</a> interface.
 
 ## -returns
 
@@ -86,5 +86,4 @@ The function succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

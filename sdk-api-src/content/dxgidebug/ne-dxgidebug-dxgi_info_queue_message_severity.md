@@ -76,7 +76,7 @@ Defines a message other than corruption, error, warning, or information.
 
 ## -remarks
 
-Use this enumeration when you call <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getmessage">IDXGIInfoQueue::GetMessage</a> to retrieve a message and when you call <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-addmessage">IDXGIInfoQueue::AddMessage</a> to add a message. Also, use this enumeration with <a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-addapplicationmessage">IDXGIInfoQueue::AddApplicationMessage</a>.
+Use this enumeration when you call <a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-getmessage">IDXGIInfoQueue::GetMessage</a> to retrieve a message and when you call <a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-addmessage">IDXGIInfoQueue::AddMessage</a> to add a message. Also, use this enumeration with <a href="/windows/desktop/api/dxgidebug/nf-dxgidebug-idxgiinfoqueue-addapplicationmessage">IDXGIInfoQueue::AddApplicationMessage</a>.
 
 
 
@@ -85,5 +85,4 @@ Use this enumeration when you call <a href="https://docs.microsoft.com/windows/d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
-
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>

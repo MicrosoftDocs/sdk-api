@@ -99,15 +99,14 @@ An unexpected error occurred.
 The <b>OnPosRectChange</b> method is called by the in-place object.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-When the in-place object calls <b>OnPosRectChange</b>, the container must call <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-setobjectrects">IOleInPlaceObject::SetObjectRects</a> to specify the new position of the in-place window and the clipping rectangle. Only then does the object resize its window.
+When the in-place object calls <b>OnPosRectChange</b>, the container must call <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-setobjectrects">IOleInPlaceObject::SetObjectRects</a> to specify the new position of the in-place window and the clipping rectangle. Only then does the object resize its window.
 
 In most cases, the object grows to the right and/or down. There could be cases where the object grows to the left and/or up, as conveyed through <i>lprcPosRect</i>. It is also possible to change the object's position without changing its size.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-setobjectrects">IOleInPlaceObject::SetObjectRects</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceobject-setobjectrects">IOleInPlaceObject::SetObjectRects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>

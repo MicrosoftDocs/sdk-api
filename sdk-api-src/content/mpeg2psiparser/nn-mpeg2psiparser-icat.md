@@ -53,11 +53,11 @@ api_name:
 This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
         
 
-The <b>ICAT</b> interface enables the client to get data from a conditional access table (CAT). The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-getcat">IAtscPsipParser::GetCAT</a> method returns a pointer to this interface.
+The <b>ICAT</b> interface enables the client to get data from a conditional access table (CAT). The <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatscpsipparser-getcat">IAtscPsipParser::GetCAT</a> method returns a pointer to this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICAT</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICAT</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICAT</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICAT</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ICAT</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-convertnexttocurrent">ConvertNextToCurrent</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-convertnexttocurrent">ConvertNextToCurrent</a>
 </td>
 <td align="left" width="63%">
 Converts a <i>next</i> table to a <i>current</i> table.
@@ -81,7 +81,7 @@ Converts a <i>next</i> table to a <i>current</i> table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-getcountoftabledescriptors">GetCountOfTableDescriptors</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-getcountoftabledescriptors">GetCountOfTableDescriptors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of descriptors in the CAT.
@@ -90,7 +90,7 @@ Returns the number of descriptors in the CAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-getnexttable">GetNextTable</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-getnexttable">GetNextTable</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <i>next</i> table that follows the current table.
@@ -99,7 +99,7 @@ Retrieves the <i>next</i> table that follows the current table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd311939(v=vs.85)">GetTableDescriptorByIndex</a>
+<a href="/previous-versions/dd311939(v=vs.85)">GetTableDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a table descriptor for the CAT.
@@ -108,7 +108,7 @@ Retrieves a table descriptor for the CAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-gettabledescriptorbytag">GetTableDescriptorByTag</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-gettabledescriptorbytag">GetTableDescriptorByTag</a>
 </td>
 <td align="left" width="63%">
 Searches the CAT for a descriptor with the specified descriptor tag.
@@ -117,7 +117,7 @@ Searches the CAT for a descriptor with the specified descriptor tag.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-getversionnumber">GetVersionNumber</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-getversionnumber">GetVersionNumber</a>
 </td>
 <td align="left" width="63%">
 Returns the version number for the CAT.
@@ -126,7 +126,7 @@ Returns the version number for the CAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-initialize">Initialize</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -135,7 +135,7 @@ Initializes the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-registerfornexttable">RegisterForNextTable</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-registerfornexttable">RegisterForNextTable</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when a <i>next</i> table arrives that will replace the current table.
@@ -144,7 +144,7 @@ Registers the client to be notified when a <i>next</i> table arrives that will r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-registerforwhencurrent">RegisterForWhenCurrent</a>
+<a href="/windows/desktop/api/mpeg2psiparser/nf-mpeg2psiparser-icat-registerforwhencurrent">RegisterForWhenCurrent</a>
 </td>
 <td align="left" width="63%">
 Registers the client to be notified when the table becomes current.
@@ -155,5 +155,4 @@ Registers the client to be notified when the table becomes current.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

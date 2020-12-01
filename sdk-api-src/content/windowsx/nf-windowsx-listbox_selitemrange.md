@@ -50,19 +50,19 @@ api_name:
 
 ## -description
 
-Selects or deselects one or more consecutive items in a multiple-selection list box. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-selitemrange">LB_SELITEMRANGE</a> message explicitly.
+Selects or deselects one or more consecutive items in a multiple-selection list box. You can use this macro or send the <a href="/windows/desktop/Controls/lb-selitemrange">LB_SELITEMRANGE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
 ### -param fSelect
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>TRUE</b> to select the range of items, or <b>FALSE</b> to deselect it.
 
@@ -77,4 +77,3 @@ The zero-based index of the first item to select.
 Type: <b>int</b>
 
 The zero-based index of the last item to select.
-

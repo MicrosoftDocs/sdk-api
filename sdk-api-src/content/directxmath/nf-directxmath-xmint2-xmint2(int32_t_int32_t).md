@@ -53,7 +53,7 @@ api_name:
 Initializes a new instance of <code>XMINT2</code> from two <code>int32_t</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmint2">XMINT2</a> from two
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxmath/ns-directxmath-xmint2">XMINT2</a> from two
 	<code>int32_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -76,9 +76,8 @@ Value of the y-coordinate of the vector, the <b>y</b> member of the new
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmint2">XMINT2</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmint2">XMINT2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmint2-xmint2(constint32_t)">XMINT2 Constructors</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmint2-xmint2(constint32_t)">XMINT2 Constructors</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Selects one of the File History configurations discovered on a storage device or network share by the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-scantargetforconfigurations">IFhReassociation::ScanTargetForConfigurations</a> method for subsequent reassociation. Actual reassociation is performed by the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-performreassociation">IFhReassociation::PerformReassociation</a> method.
+Selects one of the File History configurations discovered on a storage device or network share by the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-scantargetforconfigurations">IFhReassociation::ScanTargetForConfigurations</a> method for subsequent reassociation. Actual reassociation is performed by the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-performreassociation">IFhReassociation::PerformReassociation</a> method.
 
 > [!NOTE] 
 > **IFhReassociation** is deprecated and may be altered or unavailable in future releases.
@@ -70,17 +70,16 @@ If there is no File History configuration with the specified index, the <code>HR
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhreassociation">FhReassociation</a>
+<a href="/windows/desktop/DevNotes/fhreassociation">FhReassociation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhreassociation">IFhReassociation</a>
+<a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhreassociation">IFhReassociation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-performreassociation">IFhReassociation::PerformReassociation</a>
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-performreassociation">IFhReassociation::PerformReassociation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-scantargetforconfigurations">IFhReassociation::ScanTargetForConfigurations</a>
-
+<a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-scantargetforconfigurations">IFhReassociation::ScanTargetForConfigurations</a>

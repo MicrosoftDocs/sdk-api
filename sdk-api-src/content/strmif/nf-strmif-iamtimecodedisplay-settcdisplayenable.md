@@ -69,13 +69,12 @@ This method is not intended for rendering characters inside a filter graph, it i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodedisplay">IAMTimecodeDisplay Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtimecodedisplay">IAMTimecodeDisplay Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-gettcdisplayenable">IAMTimecodeDisplay::GetTCDisplayEnable</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodedisplay-gettcdisplayenable">IAMTimecodeDisplay::GetTCDisplayEnable</a>

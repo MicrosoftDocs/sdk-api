@@ -50,25 +50,24 @@ api_name:
 
 ## -description
 
-Gets the text meant for display when the list-view control appears empty. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getemptytext">LVM_GETEMPTYTEXT</a> message explicitly.
+Gets the text meant for display when the list-view control appears empty. Use this macro or send the <a href="/windows/desktop/Controls/lvm-getemptytext">LVM_GETEMPTYTEXT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param pszText [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">PWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">PWSTR</a></b>
 
 A pointer to a null-terminated, Unicode buffer of size specified by <i>cchText</i> to receive the text. The caller is responsible for allocating the buffer.
 
 ### -param cchText [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The size of the buffer pointed to by <i>pszText</i>, including the terminating               <b>NULL</b>.
-

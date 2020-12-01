@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>BeginNtmsDeviceChangeDetection</b> function allows the application to begin a device change detection session.
@@ -60,7 +60,7 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpDetectHandle [out]
 
@@ -103,18 +103,17 @@ The operator request has been canceled.
 
 After calling 
 <b>BeginNtmsDeviceChangeDetection</b>, the application can set the stand-alone libraries for which media change detection is required using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsdevicechangedetection">SetNtmsDeviceChangeDetection</a> function. The Removable Storage Manager continues to detect changes for the devices specified until the change detection session is closed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-endntmsdevicechangedetection">EndNtmsDeviceChangeDetection</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsdevicechangedetection">SetNtmsDeviceChangeDetection</a> function. The Removable Storage Manager continues to detect changes for the devices specified until the change detection session is closed using the 
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-endntmsdevicechangedetection">EndNtmsDeviceChangeDetection</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Change Detection Functions</a>
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Change Detection Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-endntmsdevicechangedetection">EndNtmsDeviceChangeDetection</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-endntmsdevicechangedetection">EndNtmsDeviceChangeDetection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsdevicechangedetection">SetNtmsDeviceChangeDetection</a>
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsdevicechangedetection">SetNtmsDeviceChangeDetection</a>

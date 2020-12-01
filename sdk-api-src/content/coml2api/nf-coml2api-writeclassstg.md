@@ -58,7 +58,7 @@ The <b>WriteClassStg</b> function stores the specified class identifier (CLSID) 
 
 ### -param pStg [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the storage object that gets a new CLSID.
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> pointer to the storage object that gets a new CLSID.
 
 ### -param rclsid [in]
 
@@ -72,14 +72,13 @@ This function returns HRESULT.
 
 The 
 <b>WriteClassStg</b> function writes a CLSID to the specified storage object so that it can be read by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-readclassstg">ReadClassStg</a> function. Container applications typically call this function before calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> method.
+<a href="/windows/desktop/api/coml2api/nf-coml2api-readclassstg">ReadClassStg</a> function. Container applications typically call this function before calling the 
+<a href="/windows/desktop/api/objidl/nf-objidl-ipersiststorage-save">IPersistStorage::Save</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olesave">OleSave</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-olesave">OleSave</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-readclassstg">ReadClassStg</a>
-
+<a href="/windows/desktop/api/coml2api/nf-coml2api-readclassstg">ReadClassStg</a>

@@ -46,6 +46,7 @@ api_location:
  - ie_stubs.dll
 api_name:
  - TrackMouseEvent
+req.apiset: ext-ms-win-ntuser-mouse-l1-1-0 (introduced in Windows 8)
 ---
 
 # TrackMouseEvent function
@@ -62,7 +63,7 @@ Posts messages when the mouse pointer leaves a window or hovers over a window fo
 
 Type: <b>LPTRACKMOUSEEVENT</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-trackmouseevent">TRACKMOUSEEVENT</a> structure that contains tracking information.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-trackmouseevent">TRACKMOUSEEVENT</a> structure that contains tracking information.
 
 ## -returns
 
@@ -70,12 +71,12 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero . 
 
-If the function fails, return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The mouse pointer is considered to be hovering when it stays within a specified rectangle for a specified period of time. Call 
-				<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>.
+				<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>.
  and use the values <b>SPI_GETMOUSEHOVERWIDTH</b>, <b>SPI_GETMOUSEHOVERHEIGHT</b>, and <b>SPI_GETMOUSEHOVERTIME</b> to retrieve the size of the rectangle and the time.
 
 The function can post the following messages.
@@ -87,11 +88,11 @@ The function can post the following messages.
 </tr>
 <tr>
 <td><b>WM_NCMOUSEHOVER</b></td>
-<td>The same meaning as <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> except this is for the nonclient area of the window.</td>
+<td>The same meaning as <a href="/windows/desktop/inputdev/wm-mousehover">WM_MOUSEHOVER</a> except this is for the nonclient area of the window.</td>
 </tr>
 <tr>
 <td><b>WM_NCMOUSELEAVE</b></td>
-<td>The same meaning as <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-mouseleave">WM_MOUSELEAVE</a> except this is for the nonclient area of the window.</td>
+<td>The same meaning as <a href="/windows/desktop/inputdev/wm-mouseleave">WM_MOUSELEAVE</a> except this is for the nonclient area of the window.</td>
 </tr>
 <tr>
 <td><b>WM_MOUSEHOVER</b></td>
@@ -109,7 +110,7 @@ The function can post the following messages.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
+<a href="/windows/desktop/inputdev/mouse-input">Mouse Input</a>
 
 
 
@@ -121,13 +122,12 @@ The function can post the following messages.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-trackmouseevent">TRACKMOUSEEVENT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-trackmouseevent">TRACKMOUSEEVENT</a>
 
 
 
 <a href="/windows/win32/api/commctrl/nf-commctrl-_trackmouseevent">_TrackMouseEvent</a>
-

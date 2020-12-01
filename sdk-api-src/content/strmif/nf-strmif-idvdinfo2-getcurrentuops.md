@@ -57,7 +57,7 @@ The <code>GetCurrentUOPS</code> method retrieves a set of flags indicating which
 
 ### -param pulUOPs [out]
 
-Receives a bitwise [VALID_UOP_FLAG](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-valid_uop_flag) values. Each bit represents the state (valid or not valid) of a user operation (UOP). If the bit is set, then that user operation is prohibited. See Remarks.
+Receives a bitwise [VALID_UOP_FLAG](/windows/desktop/api/strmif/ne-strmif-valid_uop_flag) values. Each bit represents the state (valid or not valid) of a user operation (UOP). If the bit is set, then that user operation is prohibited. See Remarks.
 
 ## -returns
 
@@ -96,17 +96,16 @@ Success.
 
 DVD authors can insert UOP commands at almost any place on the disc to disallow a navigation command that would otherwise be permitted within the current DVD domain. In other words, UOP commands enable disc authors to override the usual navigation permissions.
 
-A DVD player application should normally never have to use this method because the DVD Navigator automatically checks all UOP permissions before proceeding with any command, and will return VFW_E_DVD_OPERATION_INHIBITED from any method if the command is invalid under the current UOP. If your application needs to track the current UOP permissions itself, you can call <code>GetCurrentUOPS</code> whenever the current UOP permissions are required, or you can handle the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-dvd-valid-uops-change">EC_DVD_VALID_UOPS_CHANGE</a> event notification in your message loop and retrieve the UOP information from the <i>lParam1</i> parameter. The latter approach is generally more efficient.
+A DVD player application should normally never have to use this method because the DVD Navigator automatically checks all UOP permissions before proceeding with any command, and will return VFW_E_DVD_OPERATION_INHIBITED from any method if the command is invalid under the current UOP. If your application needs to track the current UOP permissions itself, you can call <code>GetCurrentUOPS</code> whenever the current UOP permissions are required, or you can handle the <a href="/windows/desktop/DirectShow/ec-dvd-valid-uops-change">EC_DVD_VALID_UOPS_CHANGE</a> event notification in your message loop and retrieve the UOP information from the <i>lParam1</i> parameter. The latter approach is generally more efficient.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

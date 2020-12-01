@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the insertion point closest to a specified point. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertmarkhittest">LVM_INSERTMARKHITTEST</a> message explicitly.
+Retrieves the insertion point closest to a specified point. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-insertmarkhittest">LVM_INSERTMARKHITTEST</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -70,10 +70,9 @@ Type: <b>LPPOINT</b>
 
 Type: <b>PLVINSERTMARK</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvinsertmark">LVINSERTMARK</a>
+<a href="/windows/desktop/api/commctrl/ns-commctrl-lvinsertmark">LVINSERTMARK</a>
 <i>point</i>
 
 ## -remarks
 
-To use <b>ListView_InsertMarkHitTest</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://docs.microsoft.com/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-
+To use <b>ListView_InsertMarkHitTest</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.

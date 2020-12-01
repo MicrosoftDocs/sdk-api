@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>FLOATOBJ_SetLong</b> function assigns the value of type LONG to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>.
+The <b>FLOATOBJ_SetLong</b> function assigns the value of type LONG to the <a href="/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ The FLOATOBJ<b>_</b><i>Xxx</i> services allow graphics drivers to emulate floati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-floatobj">FLOATOBJ</a>

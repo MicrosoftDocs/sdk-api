@@ -62,9 +62,8 @@ Use Remote Procedure Call (RPC) login.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/ne-winevt-evt_rpc_login_flags">EVT_RPC_LOGIN_FLAGS</a>
+<a href="/windows/desktop/api/winevt/ne-winevt-evt_rpc_login_flags">EVT_RPC_LOGIN_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a>

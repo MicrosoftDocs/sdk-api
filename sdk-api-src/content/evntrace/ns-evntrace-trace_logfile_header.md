@@ -101,7 +101,7 @@ Time at which the event tracing session stopped, in 100-nanosecond intervals sin
 
 ### -field TimerResolution
 
-Resolution of the hardware timer, in units of 100 nanoseconds. For usage, see the Remarks for <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a>.
+Resolution of the hardware timer, in units of 100 nanoseconds. For usage, see the Remarks for <a href="/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a>.
 
 ### -field MaximumFileSize
 
@@ -110,7 +110,7 @@ Maximum size of the log file, in megabytes.
 ### -field LogFileMode
 
 Current logging mode for the event tracing session. For a list of values, see 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/logging-mode-constants">Logging Mode Constants</a>.
+<a href="/windows/desktop/ETW/logging-mode-constants">Logging Mode Constants</a>.
 
 ### -field BuffersWritten
 
@@ -157,7 +157,7 @@ The name of the event tracing log file is the second null-terminated string foll
 ### -field TimeZone
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information">TIME_ZONE_INFORMATION</a> structure that contains the time zone for the <b>BootTime</b>, <b>EndTime</b> and <b>StartTime</b> members.
+<a href="/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information">TIME_ZONE_INFORMATION</a> structure that contains the time zone for the <b>BootTime</b>, <b>EndTime</b> and <b>StartTime</b> members.
 
 ### -field BootTime
 
@@ -173,7 +173,7 @@ Time at which the event tracing session started, in 100-nanosecond intervals sin
 
 ### -field ReservedFlags
 
-Specifies the clock type. For details, see the <b>ClientContext</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/wnode-header">WNODE_HEADER</a>.
+Specifies the clock type. For details, see the <b>ClientContext</b> member of <a href="/windows/desktop/ETW/wnode-header">WNODE_HEADER</a>.
 
 ### -field BuffersLost
 
@@ -183,17 +183,16 @@ Total number of buffers lost during the event tracing session.
 
 Be sure to initialize the memory for this structure to zero before setting any members.
 
-The first event from any log file contains the data defined in this structure. You can use this structure to access the  event data or you can use the <a href="https://docs.microsoft.com/windows/desktop/ETW/eventtrace-header">EventTrace_Header</a> MOF class to decode the event data. Using this structure to read the event data may return unexpected results if the consumer is on a different computer from the one that generated the log file or the log file was written in a WOW (32-bit) session on a 64-bit computer. This is because the <b>LoggerName</b> and <b>LogFileName</b> members are pointers and can vary in size depending on the <b>PointerSize</b> member.
+The first event from any log file contains the data defined in this structure. You can use this structure to access the  event data or you can use the <a href="/windows/desktop/ETW/eventtrace-header">EventTrace_Header</a> MOF class to decode the event data. Using this structure to read the event data may return unexpected results if the consumer is on a different computer from the one that generated the log file or the log file was written in a WOW (32-bit) session on a 64-bit computer. This is because the <b>LoggerName</b> and <b>LogFileName</b> members are pointers and can vary in size depending on the <b>PointerSize</b> member.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
+<a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
 
 
 
-<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information">TIME_ZONE_INFORMATION</a>
-
+<a href="/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information">TIME_ZONE_INFORMATION</a>

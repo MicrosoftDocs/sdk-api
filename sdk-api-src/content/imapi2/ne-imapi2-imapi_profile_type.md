@@ -199,9 +199,8 @@ Other values not defined here may exist. Consumers of this enumeration should no
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedprofiles">IDiscRecorder2::get_SupportedProfiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedprofiles">IDiscRecorder2Ex::GetSupportedProfiles</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedprofiles">IDiscRecorder2Ex::GetSupportedProfiles</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Represents the sizing data used in <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getnaturalextent">IViewObjectEx::GetNaturalExtent</a>.
+Represents the sizing data used in <a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getnaturalextent">IViewObjectEx::GetNaturalExtent</a>.
 
 ## -struct-fields
 
@@ -74,5 +74,4 @@ The proposed size in content sizing or the preferred size in integral sizing.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getnaturalextent">IViewObjectEx::GetNaturalExtent</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getnaturalextent">IViewObjectEx::GetNaturalExtent</a>

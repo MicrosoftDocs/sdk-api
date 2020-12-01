@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative">IPdfRendererNative</a> interface for displaying a single page of a Portable Document Format (PDF) file.
+Gets an instance of the <a href="/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative">IPdfRendererNative</a> interface for displaying a single page of a Portable Document Format (PDF) file.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ An instance of a  Microsoft DirectX Graphics Infrastructure (DXGI) object that i
 
 ### -param ppRenderer [out]
 
-An instance of the high-performance <a href="https://docs.microsoft.com/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative">IPdfRendererNative</a> interface for  rendering PDF content on a DirectX surface.
+An instance of the high-performance <a href="/windows/desktop/api/windows.data.pdf.interop/nn-windows-data-pdf-interop-ipdfrenderernative">IPdfRendererNative</a> interface for  rendering PDF content on a DirectX surface.
 
 ## -returns
 
@@ -89,4 +89,3 @@ The function call succeeded.
  This function is specifically designed for DirectX apps that use C++ and Extensible Application Markup Language (XAML).
 
 The <b>PdfCreateRenderer</b> function should be called to display single pages of a PDF file,  one at a time. While you could call this function in parallel to display multiple pages at the same time, this could lead to unexpected results.
-

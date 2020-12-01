@@ -55,15 +55,15 @@ Gets a set of flags that describe the uses and capabilities of the property.
 
 ### -param mask [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags">PROPDESC_TYPE_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags">PROPDESC_TYPE_FLAGS</a></b>
 
-A mask that specifies which type flags to retrieve. A combination of values found in the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags">PROPDESC_TYPE_FLAGS</a> constants. To retrieve all type flags, pass <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags">PDTF_MASK_ALL</a>
+A mask that specifies which type flags to retrieve. A combination of values found in the <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags">PROPDESC_TYPE_FLAGS</a> constants. To retrieve all type flags, pass <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags">PDTF_MASK_ALL</a>
 
 ### -param ppdtFlags [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags">PROPDESC_TYPE_FLAGS</a>*</b>
+Type: <b><a href="/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags">PROPDESC_TYPE_FLAGS</a>*</b>
 
-When this method returns, contains a pointer to a value that consists of bitwise <a href="https://docs.microsoft.com/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags">PROPDESC_TYPE_FLAGS</a> values.
+When this method returns, contains a pointer to a value that consists of bitwise <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_type_flags">PROPDESC_TYPE_FLAGS</a> values.
 
 ## -returns
 
@@ -73,17 +73,16 @@ Always returns <b>S_OK</b>.
 
 ## -remarks
 
-If the property description instance comes from <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertydescription">PSGetPropertyDescription</a> or <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetpropertydescriptionbyname">PSGetPropertyDescriptionByName</a>, these flags come from the .propdesc file that defines the property description.
+If the property description instance comes from <a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertydescription">PSGetPropertyDescription</a> or <a href="/windows/desktop/api/propsys/nf-propsys-psgetpropertydescriptionbyname">PSGetPropertyDescriptionByName</a>, these flags come from the .propdesc file that defines the property description.
 
-If the instance comes from <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcolorprofileresourcecollection-getat">GetAt</a>, the type flags come from the .propdesc file and may be influenced by the specific proplist. This means that flags obtained from one property description instance may be slightly different from another instance (both referring to the same property).
+If the instance comes from <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcolorprofileresourcecollection-getat">GetAt</a>, the type flags come from the .propdesc file and may be influenced by the specific proplist. This means that flags obtained from one property description instance may be slightly different from another instance (both referring to the same property).
 
-For additional information on type flags, see the <i>canGroupBy</i>, <i>canStackBy</i>, <i>isInnate</i>, <i>multipleValues</i>, <i>isGroup</i>, <i>isTreeProperty</i>, <i>isViewable</i>, <i>isQueryable</i>, and <i>includeInFullTextQuery</i> attributes of the <a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
+For additional information on type flags, see the <i>canGroupBy</i>, <i>canStackBy</i>, <i>isInnate</i>, <i>multipleValues</i>, <i>isGroup</i>, <i>isTreeProperty</i>, <i>isViewable</i>, <i>isQueryable</i>, and <i>includeInFullTextQuery</i> attributes of the <a href="/windows/desktop/properties/propdesc-schema-typeinfo">typeInfo</a> element in the property's .propdesc file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertydescription">IPropertyDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-
+<a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>

@@ -737,7 +737,7 @@ Font families describe the look of a font in a general way. They are intended fo
 
 ### -param pszFaceName [in]
 
-A pointer to a null-terminated string that specifies the typeface name of the font. The length of this string must not exceed 32 characters, including the terminating null character. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies</a> function can be used to enumerate the typeface names of all currently available fonts. For more information, see the Remarks.
+A pointer to a null-terminated string that specifies the typeface name of the font. The length of this string must not exceed 32 characters, including the terminating null character. The <a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesa">EnumFontFamilies</a> function can be used to enumerate the typeface names of all currently available fonts. For more information, see the Remarks.
 
 If <i>lpszFace</i> is <b>NULL</b> or empty string, GDI uses the first font that matches the other specified attributes.
 
@@ -749,13 +749,13 @@ If the function fails, the return value is <b>NULL</b>.
 
 ## -remarks
 
-When you no longer need the font, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
+When you no longer need the font, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 To help protect the copyrights of vendors who provide fonts for Windows, applications should always report the exact name of a selected font. Because available fonts can vary from system to system, do not assume that the selected font is always the same as the requested font. For example, if you request a font named Palatino, but no such font is available on the system, the font mapper will substitute a font that has similar attributes but a different name. Always report the name of the selected font to the user.
 
-To get the appropriate font on different language versions of the OS, call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a> with the desired font characteristics in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure, then retrieve the appropriate typeface name and create the font using <b>CreateFont</b> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>.
+To get the appropriate font on different language versions of the OS, call <a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a> with the desired font characteristics in the <a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a> structure, then retrieve the appropriate typeface name and create the font using <b>CreateFont</b> or <a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>.
 
-The font mapper for <b>CreateFont</b>,<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirectexa">CreateFontIndirectEx</a> recognizes both the English and the localized typeface name, regardless of locale.
+The font mapper for <b>CreateFont</b>,<a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>, and <a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirectexa">CreateFontIndirectEx</a> recognizes both the English and the localized typeface name, regardless of locale.
 
 The following situations do not support ClearType antialiasing:
 
@@ -842,7 +842,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 ```
 
 
-For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Using Menus</a>.
+For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="/windows/desktop/menurc/using-menus">Using Menus</a>.
 
 <div class="code"></div>
 
@@ -854,15 +854,15 @@ For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirectexa">CreateFontIndirectEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirectexa">CreateFontIndirectEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
@@ -870,25 +870,24 @@ For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontsa">EnumFonts</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontsa">EnumFonts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logfonta">LOGFONT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>

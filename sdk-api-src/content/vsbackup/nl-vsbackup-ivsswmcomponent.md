@@ -56,11 +56,11 @@ The
 
 Instances of 
 <b>IVssWMComponent</b> are obtained by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getcomponent">IVssExamineWriterMetadata::GetComponent</a>.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getcomponent">IVssExamineWriterMetadata::GetComponent</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssWMComponent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssWMComponent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssWMComponent</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssWMComponent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IVssWMComponent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-freecomponentinfo">FreeComponentInfo</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-freecomponentinfo">FreeComponentInfo</a>
 </td>
 <td align="left" width="63%">
 Deallocates system resources devoted to the specified component information.
@@ -84,7 +84,7 @@ Deallocates system resources devoted to the specified component information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getcomponentinfo">GetComponentInfo</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getcomponentinfo">GetComponentInfo</a>
 </td>
 <td align="left" width="63%">
 Obtains basic information about the specified backup component.
@@ -93,27 +93,27 @@ Obtains basic information about the specified backup component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getdatabasefile">GetDatabaseFile</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getdatabasefile">GetDatabaseFile</a>
 </td>
 <td align="left" width="63%">
 Obtains an 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing information about the specified database backup component file.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing information about the specified database backup component file.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getdatabaselogfile">GetDatabaseLogFile</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getdatabaselogfile">GetDatabaseLogFile</a>
 </td>
 <td align="left" width="63%">
 Obtains an 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing information for the log file of a specified database backup component.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing information for the log file of a specified database backup component.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getdependency">GetDependency</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getdependency">GetDependency</a>
 </td>
 <td align="left" width="63%">
 Returns the dependency information for a component.
@@ -122,13 +122,12 @@ Returns the dependency information for a component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getfile">GetFile</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivsswmcomponent-getfile">GetFile</a>
 </td>
 <td align="left" width="63%">
 Obtains an 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing information about the specified member of a file group.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a> object containing information about the specified member of a file group.
 
 </td>
 </tr>
 </table>
-

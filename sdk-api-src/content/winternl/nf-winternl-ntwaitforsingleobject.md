@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Deprecated. Waits until the specified object attains a state of
-    <code>signaled</code>. <b>NtWaitForSingleObject</b> is superseded by <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a>.
+    <code>signaled</code>. <b>NtWaitForSingleObject</b> is superseded by <a href="/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a>.
 
 ## -parameters
 
@@ -136,7 +136,7 @@ The
 </dl>
 </td>
 <td width="60%">
-The wait was aborted to deliver a user <a href="https://docs.microsoft.com/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Call (APC)</a> to the current thread.
+The wait was aborted to deliver a user <a href="/windows/desktop/Sync/asynchronous-procedure-calls">Asynchronous Procedure Call (APC)</a> to the current thread.
 
 </td>
 </tr>
@@ -144,5 +144,4 @@ The wait was aborted to deliver a user <a href="https://docs.microsoft.com/windo
 
 ## -remarks
 
-Because there is no import library for this function, you must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
-
+Because there is no import library for this function, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.

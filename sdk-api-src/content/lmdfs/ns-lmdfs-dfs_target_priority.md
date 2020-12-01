@@ -75,9 +75,9 @@ This member is reserved and must be zero.
 ## -remarks
 
 This structure is used as the <b>TargetPriority</b> member of the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_104">DFS_INFO_104</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_106">DFS_INFO_106</a>, and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_storage_info_1">DFS_STORAGE_INFO_1</a> structures. There are no functions 
+    <a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_104">DFS_INFO_104</a>, 
+    <a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_106">DFS_INFO_106</a>, and 
+    <a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_storage_info_1">DFS_STORAGE_INFO_1</a> structures. There are no functions 
     that use this structure directly.
 
 The order of priority classes from highest to lowest is as follows:
@@ -105,23 +105,23 @@ Note that the value for a "normal priority class" is set to 0 even though it is 
     granularity.
 
 For more information about how server target priority is determined, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>.
+    <a href="/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>
+<a href="/previous-versions/windows/desktop/dfs/dfs-server-target-prioritization">DFS Server Target Prioritization</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_104">DFS_INFO_104</a>
+<a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_104">DFS_INFO_104</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_106">DFS_INFO_106</a>
+<a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_106">DFS_INFO_106</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmdfs/ns-lmdfs-dfs_storage_info_1">DFS_STORAGE_INFO_1</a>
+<a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_storage_info_1">DFS_STORAGE_INFO_1</a>
 
 
 
@@ -129,17 +129,16 @@ For more information about how server target priority is determined, see
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
+<a href="/previous-versions/windows/desktop/dfs/distributed-file-system-dfs-functions">Distributed File System (DFS) Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a>
+<a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo">NetDfsSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>

@@ -57,9 +57,9 @@ Retrieves a description of the vertex buffer resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvertexbuffer-desc">D3DVERTEXBUFFER_DESC</a>*</b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dvertexbuffer-desc">D3DVERTEXBUFFER_DESC</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dvertexbuffer-desc">D3DVERTEXBUFFER_DESC</a> structure, describing the returned vertex buffer.
+Pointer to a <a href="/windows/desktop/direct3d9/d3dvertexbuffer-desc">D3DVERTEXBUFFER_DESC</a> structure, describing the returned vertex buffer.
 
 ## -returns
 
@@ -69,9 +69,8 @@ If the method succeeds, the return value is D3D_OK. D3DERR_INVALIDCALL is return
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9">IDirect3DVertexBuffer9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexbuffer9">IDirect3DVertexBuffer9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/vertex-buffers">Vertex Buffers (Direct3D 9)</a>
-
+<a href="/windows/desktop/direct3d9/vertex-buffers">Vertex Buffers (Direct3D 9)</a>

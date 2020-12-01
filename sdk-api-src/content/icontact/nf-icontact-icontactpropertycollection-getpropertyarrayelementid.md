@@ -121,7 +121,6 @@ Array node does not have a unique array element ID.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  Valid only when <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-getpropertytype">IContactPropertyCollection::GetPropertyType</a> 
+<div class="alert"><b>Note</b>  Valid only when <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-getpropertytype">IContactPropertyCollection::GetPropertyType</a> 
 		returns CGD_ARRAY_NODE for the current property.</div>
 <div> </div>
-

@@ -65,9 +65,9 @@ Class GUID of an event trace class that you are registering.
 
 ### -field RegHandle
 
-Handle to the registered event trace class. The <a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function generates this value.
+Handle to the registered event trace class. The <a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> function generates this value.
 
-Use this handle when you call the <a href="https://docs.microsoft.com/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a> function and to set the <b>RegHandle</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> when calling the <a href="https://docs.microsoft.com/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> function.
+Use this handle when you call the <a href="/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a> function and to set the <b>RegHandle</b> member of <a href="/windows/desktop/ETW/event-instance-header">EVENT_INSTANCE_HEADER</a> when calling the <a href="/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a> function.
 
 ## -remarks
 
@@ -75,9 +75,8 @@ Be sure to initialize the memory for this structure to zero before setting any m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a>
+<a href="/windows/desktop/ETW/createtraceinstanceid">CreateTraceInstanceId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>
-
+<a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>

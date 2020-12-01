@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capEditCopy</b> macro copies the contents of the video frame buffer and associated palette to the clipboard. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-edit-copy">WM_CAP_EDIT_COPY</a> message.
+The <b>capEditCopy</b> macro copies the contents of the video frame buffer and associated palette to the clipboard. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/wm-cap-edit-copy">WM_CAP_EDIT_COPY</a> message.
 
 ## -parameters
 
@@ -60,9 +60,8 @@ Handle to a capture window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

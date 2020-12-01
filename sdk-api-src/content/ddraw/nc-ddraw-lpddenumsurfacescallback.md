@@ -46,7 +46,7 @@ ms.custom: 19H1
 
 ## -description
 
-Do not use. This callback function is superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback7">EnumSurfacesCallback7</a> function that is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumsurfaces">IDirectDraw7::EnumSurfaces</a>, <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-enumattachedsurfaces">IDirectDrawSurface7::EnumAttachedSurfaces</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-enumoverlayzorders">IDirectDrawSurface7::EnumOverlayZOrders</a> methods.
+Do not use. This callback function is superseded by the <a href="/windows/desktop/api/ddraw/nc-ddraw-lpddenumsurfacescallback7">EnumSurfacesCallback7</a> function that is used with the <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdraw7-enumsurfaces">IDirectDraw7::EnumSurfaces</a>, <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-enumattachedsurfaces">IDirectDrawSurface7::EnumAttachedSurfaces</a>, and <a href="/windows/desktop/api/ddraw/nf-ddraw-idirectdrawsurface7-enumoverlayzorders">IDirectDrawSurface7::EnumOverlayZOrders</a> methods.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ A pointer to the <b>IDirectDrawSurface</b> interface for the attached surface.
 
 ### -param Arg2 [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a> structure that describes the attached surface.
+A pointer to a <a href="/previous-versions/windows/hardware/drivers/ff550339(v=vs.85)">DDSURFACEDESC</a> structure that describes the attached surface.
 
 ### -param Arg3 [in]
 

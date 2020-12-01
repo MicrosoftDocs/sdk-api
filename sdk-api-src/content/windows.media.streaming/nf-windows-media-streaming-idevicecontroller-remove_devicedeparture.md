@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Unregisters an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/devicedeparture">DeviceDeparture</a> event.
+Unregisters an event handler for the <a href="/windows/desktop/mediastreaming/devicedeparture">DeviceDeparture</a> event.
 
 ## -parameters
 
 ### -param token [in]
 
-A reference to a token obtained from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828904(v=vs.85)">add_DeviceDeparture</a> method when the event handler was registered.
+A reference to a token obtained from the <a href="/previous-versions/windows/desktop/legacy/hh828904(v=vs.85)">add_DeviceDeparture</a> method when the event handler was registered.
 
 ## -returns
 
@@ -82,5 +82,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh828901(v=vs.85)">IDeviceController</a>
-
+<a href="/previous-versions/windows/desktop/legacy/hh828901(v=vs.85)">IDeviceController</a>

@@ -55,10 +55,10 @@ api_name:
 Creates an enumeration of all the hard links to the specified file. The 
     <b>FindFirstFileNameW</b> function returns a handle to the 
     enumeration that can be used on subsequent calls to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew">FindNextFileNameW</a> function.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew">FindNextFileNameW</a> function.
 
 To perform this operation as a transacted operation, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstfilenametransactedw">FindFirstFileNameTransactedW</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-findfirstfilenametransactedw">FindFirstFileNameTransactedW</a> function.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ To perform this operation as a transacted operation, use the
 
 The name of the file.
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
 
 ### -param dwFlags [in]
@@ -77,7 +77,7 @@ Reserved; specify zero (0).
 
 The size of the buffer pointed to by the <i>LinkName</i> parameter, in characters. If 
       this call fails and the error returned from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function is 
+      <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function is 
       <b>ERROR_MORE_DATA</b> (234), the value that is returned by this parameter is the size that 
       the buffer pointed to by <i>LinkName</i>  must be to contain all the data.
 
@@ -88,11 +88,11 @@ A pointer to a buffer to store the first link name found for <i>lpFileName</i>.
 ## -returns
 
 If the function succeeds, the return value is a search handle that can be used with the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew">FindNextFileNameW</a> function or closed with the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a> function.
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew">FindNextFileNameW</a> function or closed with the 
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a> function.
 
 If the function fails, the return value is <b>INVALID_HANDLE_VALUE</b> (0xffffffff). To 
-       get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
+       get extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> 
        function.
 
 ## -remarks
@@ -158,17 +158,16 @@ Yes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstfilenametransactedw">FindFirstFileNameTransactedW</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-findfirstfilenametransactedw">FindFirstFileNameTransactedW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew">FindNextFileNameW</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew">FindNextFileNameW</a>

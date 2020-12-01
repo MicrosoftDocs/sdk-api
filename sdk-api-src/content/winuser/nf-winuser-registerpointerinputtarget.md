@@ -62,7 +62,7 @@ Allows the caller to register a target window to which all pointer input of the 
 
 The window to register as a global redirection target.
 
-Redirection can cause the foreground window to lose activation (focus). To avoid this, ensure the window is a message-only window or has the <a href="https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles">WS_EX_NOACTIVATE</a> style set.
+Redirection can cause the foreground window to lose activation (focus). To avoid this, ensure the window is a message-only window or has the <a href="/windows/desktop/winmsg/extended-window-styles">WS_EX_NOACTIVATE</a> style set.
 
 ### -param pointerType [in]
 
@@ -72,7 +72,7 @@ Type of pointer input to be redirected to the specified  window. This is any val
 
 If the function succeeds, the return value is non-zero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -89,4 +89,3 @@ If the specified pointer input type is not valid, this function fails with the l
 If the calling thread does not own the specified window, this function fails with the last error set to <b>ERROR_ACCESS_DENIED</b>.
 
 If the specified window’s desktop already has a registered global redirection target for the specified pointer input type, this function fails with the last error set to <b>ERROR_ACCESS_DENIED</b>.
-

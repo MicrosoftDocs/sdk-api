@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PeerGraphGetRecord</b> function retrieves a specific record based on the specified record ID. The returned record should be freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>.
+The <b>PeerGraphGetRecord</b> function retrieves a specific record based on the specified record ID. The returned record should be freed by calling <a href="/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Pointer to record ID to retrieve.
 
 ### -param ppRecord [out]
 
-Receives the requested record. When this structure is no longer required, free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>.
+Receives the requested record. When this structure is no longer required, free it by calling <a href="/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>.
 
 ## -returns
 
@@ -115,7 +115,7 @@ The handle to the peer graph is invalid.
 </dl>
 </td>
 <td width="60%">
-The peer graph must be  initialized with a call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
+The peer graph must be  initialized with a call to <a href="/windows/desktop/api/p2p/nf-p2p-peergraphstartup">PeerGraphStartup</a> before using this function.
 
 </td>
 </tr>
@@ -134,9 +134,8 @@ The specified record was not found.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_record">PEER_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergraphfreedata">PeerGraphFreeData</a>

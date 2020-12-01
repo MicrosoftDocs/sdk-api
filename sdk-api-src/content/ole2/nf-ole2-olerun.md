@@ -49,6 +49,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - OleRun
+req.apiset: ext-ms-win-com-ole32-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # OleRun function
@@ -62,7 +63,7 @@ Puts an OLE compound document object into the running state.
 
 ### -param pUnknown [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the object, with which it will query for a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a> interface, and then call its <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-run">Run</a> method.
+Pointer to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface on the object, with which it will query for a pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a> interface, and then call its <a href="/windows/desktop/api/objidl/nf-objidl-irunnableobject-run">Run</a> method.
 
 ## -returns
 
@@ -88,15 +89,14 @@ The source of an OLE link has been converted to a different class.
 
 ## -remarks
 
-The <b>OleRun</b> function puts an object in the running state. The implementation of <b>OleRun</b> was changed in OLE 2.01 to coincide with the publication of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a> interface. You can use <b>OleRun</b> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-run">IRunnableObject::Run</a> interchangeably. <b>OleRun</b> queries the object for a pointer to <b>IRunnableObject</b>. If successful, the function returns the results of calling the <b>IRunnableObject::Run</b> method.
+The <b>OleRun</b> function puts an object in the running state. The implementation of <b>OleRun</b> was changed in OLE 2.01 to coincide with the publication of the <a href="/windows/desktop/api/objidl/nn-objidl-irunnableobject">IRunnableObject</a> interface. You can use <b>OleRun</b> and <a href="/windows/desktop/api/objidl/nf-objidl-irunnableobject-run">IRunnableObject::Run</a> interchangeably. <b>OleRun</b> queries the object for a pointer to <b>IRunnableObject</b>. If successful, the function returns the results of calling the <b>IRunnableObject::Run</b> method.
 
-For more information on using this function, see <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-run">IRunnableObject::Run</a>.
+For more information on using this function, see <a href="/windows/desktop/api/objidl/nf-objidl-irunnableobject-run">IRunnableObject::Run</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindtosource">IOleLink::BindToSource</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindtosource">IOleLink::BindToSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-irunnableobject-run">IRunnableObject::Run</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-irunnableobject-run">IRunnableObject::Run</a>

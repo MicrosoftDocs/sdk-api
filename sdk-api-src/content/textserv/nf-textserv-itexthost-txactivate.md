@@ -56,17 +56,17 @@ Notifies the text host that the control is active.
 
 ### -param plOldState
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a>*</b>
 
 The previous activation state.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Return S_OK if the method succeeds. 
 
-Return the following COM error code if the method fails. For more information on COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>. 
+Return the following COM error code if the method fails. For more information on COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>. 
 
 <table>
 <tr>
@@ -92,10 +92,10 @@ It is legal for the host to refuse an activation request; for example, the contr
 
 The caller should be able to gracefully handle failure to activate.
 
-No matter how many times this method is called, only one <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txdeactivate">ITextHost::TxDeactivate</a> call is necessary to deactivate the control.
+No matter how many times this method is called, only one <a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txdeactivate">ITextHost::TxDeactivate</a> call is necessary to deactivate the control.
 
 This function returns an opaque handle in 
-				<i>plOldState</i>. The caller (the text services object) should save this handle and use it in a subsequent call to <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txdeactivate">ITextHost::TxDeactivate</a>.
+				<i>plOldState</i>. The caller (the text services object) should save this handle and use it in a subsequent call to <a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txdeactivate">ITextHost::TxDeactivate</a>.
 
 ## -see-also
 
@@ -103,7 +103,7 @@ This function returns an opaque handle in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
@@ -111,9 +111,8 @@ This function returns an opaque handle in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itexthost-txdeactivate">TxDeactivate</a>
+<a href="/windows/desktop/api/textserv/nf-textserv-itexthost-txdeactivate">TxDeactivate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>

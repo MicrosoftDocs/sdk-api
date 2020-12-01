@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 After calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a> and completing any tasks that require client impersonation, the server calls 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a> and completing any tasks that require client impersonation, the server calls 
 <b>RpcRevertToSelf</b> to end impersonation and to reestablish its own security identity.
 
 ## -parameters
@@ -122,21 +122,20 @@ The call is not supported for this operating system, this transport, or this sec
  
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 In a multithreaded application, if the call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a> is with a handle to another client thread, you must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoselfex">RpcRevertToSelfEx</a> with the handle to that thread to end impersonation.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a> is with a handle to another client thread, you must call 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcreverttoselfex">RpcRevertToSelfEx</a> with the handle to that thread to end impersonation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/client-impersonation">Client
+<a href="/windows/desktop/Rpc/client-impersonation">Client
 		  Impersonation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcimpersonateclient">RpcImpersonateClient</a>

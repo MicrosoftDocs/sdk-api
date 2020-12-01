@@ -50,11 +50,10 @@ Retrieves the automatic axis options.
 
 ## -returns
 
-Type: **[DWRITE_AUTOMATIC_FONT_AXES](/windows/win32/api/dwrite_3/ne-dwrite_3-dwrite_automatic_font_axes)**
+Type: **[DWRITE_AUTOMATIC_FONT_AXES](./ne-dwrite_3-dwrite_automatic_font_axes.md)**
 
 Automatic axis options.
 
 ## -remarks
 
 ## -see-also
-

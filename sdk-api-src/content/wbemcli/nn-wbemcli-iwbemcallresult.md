@@ -52,46 +52,46 @@ api_name:
 
 The 
 <b>IWbemCallResult</b> interface is used for semisynchronous calls of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> interface. When making such calls, the called 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> interface. When making such calls, the called 
 <b>IWbemServices</b> method returns immediately, along with an 
 <b>IWbemCallResult</b> object. Periodically, you can poll the returned 
 <b>IWbemCallResult</b> object to determine the status of the call. You can obtain the result of the original 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> call after it is complete by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getcallstatus">IWbemCallResult::GetCallStatus</a>.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> call after it is complete by calling 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getcallstatus">IWbemCallResult::GetCallStatus</a>.
 
 This call-return paradigm is useful in cases where a thread cannot afford to be blocked for more than a few seconds because it is servicing other tasks, such as processing window messages.
 
 Not all 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> methods support this interface because it is not required for all of them. The intent is to allow nonblocking, synchronous operation (semisynchronous operation) for all relevant operations. Because many of the 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> methods support this interface because it is not required for all of them. The intent is to allow nonblocking, synchronous operation (semisynchronous operation) for all relevant operations. Because many of the 
 <b>IWbemServices</b> methods are already nonblocking due to the use of enumerators or other constructs, only 
 the following methods need this helper interface to support semisynchronous operation:
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">OpenNamespace</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">OpenNamespace</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">GetObject</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">GetObject</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">PutInstance</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">PutInstance</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putclass">PutClass</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putclass">PutClass</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteclass">DeleteClass</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteclass">DeleteClass</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteinstance">DeleteInstance</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteinstance">DeleteInstance</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">ExecMethod</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execmethod">ExecMethod</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemCallResult</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemCallResult</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemCallResult</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWbemCallResult</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -106,7 +106,7 @@ The <b>IWbemCallResult</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getcallstatus">GetCallStatus</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getcallstatus">GetCallStatus</a>
 </td>
 <td align="left" width="63%">
 Reports whether a semisynchronous call was successful.
@@ -115,34 +115,33 @@ Reports whether a semisynchronous call was successful.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getresultobject">GetResultObject</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getresultobject">GetResultObject</a>
 </td>
 <td align="left" width="63%">
 Returns an 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> object, which is the result of a semisynchronous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a>.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> object, which is the result of a semisynchronous call to 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-getobject">IWbemServices::GetObject</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getresultservices">GetResultServices</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getresultservices">GetResultServices</a>
 </td>
 <td align="left" width="63%">
 Returns the result of a semisynchronous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">IWbemServices::OpenNamespace</a> verb action.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">IWbemServices::OpenNamespace</a> verb action.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getresultstring">GetResultString</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcallresult-getresultstring">GetResultString</a>
 </td>
 <td align="left" width="63%">
 Returns an object path, which is the result of a semisynchronous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a>.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a>.
 
 </td>
 </tr>
 </table>
-

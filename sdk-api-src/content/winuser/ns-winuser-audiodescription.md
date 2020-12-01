@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains information associated with audio descriptions. This structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function when the SPI_GETAUDIODESCRIPTION or SPI_SETAUDIODESCRIPTION action value is specified.
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a> function when the SPI_GETAUDIODESCRIPTION or SPI_SETAUDIODESCRIPTION action value is specified.
 
 ## -struct-fields
 
@@ -70,14 +70,13 @@ If this member is <b>TRUE</b>, audio descriptions are enabled; Otherwise, this m
 ### -field Locale
 
 The locale identifier (LCID) of the language for the audio description. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Intl/locales-and-languages">Locales and Languages</a>.
+       <a href="/windows/desktop/Intl/locales-and-languages">Locales and Languages</a>.
 
 ## -remarks
 
 To compile an application that uses this structure, define _WIN32_WINNT as 0x0600 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

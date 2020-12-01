@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfSystemLangBarItem</b> interface is implemented by a system language bar menu and is used by a system language bar extension to modify the icon and/or tooltip string displayed for the menu. The extension can obtain an instance of this interface by by calling QueryInterface on the <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> object with IID_ITfSystemLangBarItem.
+The <b>ITfSystemLangBarItem</b> interface is implemented by a system language bar menu and is used by a system language bar extension to modify the icon and/or tooltip string displayed for the menu. The extension can obtain an instance of this interface by by calling QueryInterface on the <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> object with IID_ITfSystemLangBarItem.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSystemLangBarItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSystemLangBarItem</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSystemLangBarItem</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfSystemLangBarItem</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfSystemLangBarItem</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritem-seticon">SetIcon</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritem-seticon">SetIcon</a>
 </td>
 <td align="left" width="63%">
 Modifies the icon displayed for the system language bar menu.
@@ -78,7 +78,7 @@ Modifies the icon displayed for the system language bar menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritem-settooltipstring">SetTooltipString</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemlangbaritem-settooltipstring">SetTooltipString</a>
 </td>
 <td align="left" width="63%">
 Modifies the tooltip text displayed for the system language bar menu.
@@ -89,21 +89,20 @@ Modifies the tooltip text displayed for the system language bar menu.
 
 ## -remarks
 
-A system language bar menu is an object on the language bar that supports menu items added to it by third-partyextensions. The system item must support the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> interface and support the IID_ITfSystemLangBarItemSink identifier in its <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> implementation. The system item should also implement the <b>ITfSystemLangBarItem</b> interface. The system item uses the <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemsink">ITfSystemLangBarItemSink</a> interface to enable the extension to add items.
+A system language bar menu is an object on the language bar that supports menu items added to it by third-partyextensions. The system item must support the <a href="/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> interface and support the IID_ITfSystemLangBarItemSink identifier in its <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> implementation. The system item should also implement the <b>ITfSystemLangBarItem</b> interface. The system item uses the <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemsink">ITfSystemLangBarItemSink</a> interface to enable the extension to add items.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemsink">ITfSystemLangBarItemSink</a>
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itfsystemlangbaritemsink">ITfSystemLangBarItemSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

@@ -66,7 +66,7 @@ A stereo snapshot of the power value of the audio data at a time specified by th
 
 ### -field state
 
-One member of the <a href="https://docs.microsoft.com/windows/desktop/api/effects/ne-effects-playerstate">PlayerState</a> enumeration type.
+One member of the <a href="/windows/desktop/api/effects/ne-effects-playerstate">PlayerState</a> enumeration type.
 
 ### -field timeStamp
 
@@ -82,9 +82,8 @@ The second dimension contains the sampled levels. The frequency data ranges from
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/effects/ne-effects-playerstate">PlayerState</a>
+<a href="/windows/desktop/api/effects/ne-effects-playerstate">PlayerState</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/visualization-structures-and-enumeration-types">Visualization Structures and Enumeration Types</a>
-
+<a href="/windows/desktop/WMP/visualization-structures-and-enumeration-types">Visualization Structures and Enumeration Types</a>

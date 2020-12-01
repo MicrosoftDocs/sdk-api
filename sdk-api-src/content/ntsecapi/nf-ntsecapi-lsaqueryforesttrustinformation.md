@@ -51,27 +51,27 @@ api_name:
 ## -description
 
 The <b>LsaQueryForestTrustInformation</b> function retrieves forest trust information
-    for the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object.
+    for the specified <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> <a href="/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object.
 
 ## -parameters
 
 ### -param PolicyHandle [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object for the system.
+A handle to the <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object for the system.
 
 ### -param TrustedDomainName [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object for which to retrieve forest trust information.
+Pointer to an <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the <a href="/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object for which to retrieve forest trust information.
 
 ### -param ForestTrustInfo [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_information">LSA_FOREST_TRUST_INFORMATION</a> structure that returns the forest trust information for the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object specified by the <i>TrustedDomainName</i> parameter.
+Pointer to an <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_information">LSA_FOREST_TRUST_INFORMATION</a> structure that returns the forest trust information for the <a href="/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object specified by the <i>TrustedDomainName</i> parameter.
 
 ## -returns
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
-If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the <a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -112,7 +112,7 @@ The operation is legal only on domain
 </dl>
 </td>
 <td width="60%">
-The specified <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object does not exist.
+The specified <a href="/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object does not exist.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ The specified <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/truste
 </dl>
 </td>
 <td width="60%">
-The specified <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object does not contain forest trust information.
+The specified <a href="/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object does not contain forest trust information.
 
 </td>
 </tr>
@@ -133,4 +133,3 @@ The specified <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/truste
 ## -remarks
 
 Access to this function is protected by a securable object.
-

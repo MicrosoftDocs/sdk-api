@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Adds members to the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>.
+Adds members to the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRecognizer2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRecognizer2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkRecognizer2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkRecognizer2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,19 +70,19 @@ The <b>IInkRecognizer2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer2-get_id">get_Id</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer2-get_id">get_Id</a>
 </td>
 <td align="left" width="63%">
-Retrieves the ID of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>.
+Retrieves the ID of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer2-get_unicoderanges">get_UnicodeRanges</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizer2-get_unicoderanges">get_UnicodeRanges</a>
 </td>
 <td align="left" width="63%">
-Retrieves the Unicode ranges supported by the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>.
+Retrieves the Unicode ranges supported by the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>.
 
 </td>
 </tr>
@@ -90,5 +90,4 @@ Retrieves the Unicode ranges supported by the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>
-
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkwordlist2">IInkWordList2 Interface</a>

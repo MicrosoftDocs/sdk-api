@@ -60,7 +60,7 @@ This property is read/write.
 
 ## -remarks
 
-To set an initial application to start when the user logs on, you must first set this property and then set the <a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nf-tsuserex-iadstsuserex-get_terminalservicesworkdirectory">TerminalServicesWorkDirectory</a> property. If you set only the <b>TerminalServicesInitialProgram</b> property, the application starts in the user's session in the default user directory.
+To set an initial application to start when the user logs on, you must first set this property and then set the <a href="/windows/desktop/api/tsuserex/nf-tsuserex-iadstsuserex-get_terminalservicesworkdirectory">TerminalServicesWorkDirectory</a> property. If you set only the <b>TerminalServicesInitialProgram</b> property, the application starts in the user's session in the default user directory.
 
 
 #### Examples
@@ -84,5 +84,4 @@ Wscript.echo usr.TerminalServicesWorkDirectory
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
-
+<a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>

@@ -56,11 +56,11 @@ The <b>GetDevicePeriod</b> method retrieves the length of the periodic interval 
 
 ### -param phnsDefaultDevicePeriod [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> variable into which the method writes a time value specifying the default interval between periodic processing passes by the audio engine. The time is expressed in 100-nanosecond units. For information about <b>REFERENCE_TIME</b>, see the Windows SDK documentation.
+Pointer to a <a href="/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> variable into which the method writes a time value specifying the default interval between periodic processing passes by the audio engine. The time is expressed in 100-nanosecond units. For information about <b>REFERENCE_TIME</b>, see the Windows SDK documentation.
 
 ### -param phnsMinimumDevicePeriod [out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> variable into which the method writes a time value specifying the minimum interval between periodic processing passes by the audio endpoint device. The time is expressed in 100-nanosecond units.
+Pointer to a <a href="/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> variable into which the method writes a time value specifying the minimum interval between periodic processing passes by the audio endpoint device. The time is expressed in 100-nanosecond units.
 
 ## -returns
 
@@ -108,7 +108,7 @@ Parameters <i>phnsDefaultDevicePeriod</i> and <i>phnsMinimumDevicePeriod</i> are
 
 ## -remarks
 
-The client can call this method before calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method.
+The client can call this method before calling the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method.
 
 The <i>phnsDefaultDevicePeriod</i> parameter specifies the default scheduling period for a shared-mode stream. The <i>phnsMinimumDevicePeriod</i> parameter specifies the minimum scheduling period for an exclusive-mode stream.
 
@@ -120,15 +120,14 @@ The period between processing passes by the audio engine is fixed for a particul
 
 The client has the option of scheduling its periodic processing thread to run at the same time interval as the audio engine. In this way, the client can achieve the smallest possible latency for a shared-mode stream. However, in an application for which latency is less important, the client can reduce the process-switching overhead on the CPU by scheduling its processing passes to occur less frequently. In this case, the endpoint buffer must be proportionally larger to compensate for the longer period between processing passes.
 
-The client determines the buffer size during its call to the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method. For a shared-mode stream, if the client passes this method an <i>hnsBufferDuration</i> parameter value of 0, the method assumes that the periods for the client and audio engine are guaranteed to be equal, and the method will allocate a buffer small enough to achieve the minimum possible latency. (In fact, any <i>hnsBufferDuration</i> value between 0 and the sum of the audio engine's period and device latency will have the same result.) Similarly, for an exclusive-mode stream, if the client sets <i>hnsBufferDuration</i> to 0, the method assumes that the period of the client is set to the minimum period of the audio endpoint device, and the method will allocate a buffer small enough to achieve the minimum possible latency.
+The client determines the buffer size during its call to the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method. For a shared-mode stream, if the client passes this method an <i>hnsBufferDuration</i> parameter value of 0, the method assumes that the periods for the client and audio engine are guaranteed to be equal, and the method will allocate a buffer small enough to achieve the minimum possible latency. (In fact, any <i>hnsBufferDuration</i> value between 0 and the sum of the audio engine's period and device latency will have the same result.) Similarly, for an exclusive-mode stream, if the client sets <i>hnsBufferDuration</i> to 0, the method assumes that the period of the client is set to the minimum period of the audio endpoint device, and the method will allocate a buffer small enough to achieve the minimum possible latency.
 
-If the client chooses to run its periodic processing thread less often, at the cost of increased latency, it can do so as long as it creates an endpoint buffer during the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> call that is sufficiently large.
+If the client chooses to run its periodic processing thread less often, at the cost of increased latency, it can do so as long as it creates an endpoint buffer during the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> call that is sufficiently large.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient Interface</a>
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient">IAudioClient Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
-
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>

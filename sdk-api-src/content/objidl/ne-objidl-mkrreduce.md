@@ -74,5 +74,4 @@ Reduces the moniker until it is in its simplest form, that is, reduce it to itse
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-reduce">IMoniker::Reduce</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-imoniker-reduce">IMoniker::Reduce</a>

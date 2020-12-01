@@ -56,19 +56,18 @@ The <b>DrvDisableDirectDraw</b> function disables hardware for DirectDraw use.
 
 ### -param dhpdev
 
-Handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> that was returned by the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> routine.
+Handle to the <a href="/windows-hardware/drivers/">PDEV</a> that was returned by the driver's <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a> routine.
 
 ## -remarks
 
-GDI calls the driver's <b>DrvDisableDirectDraw</b> function when the last DirectDraw application has finished running. A driver's <b>DrvDisableDirectDraw</b> implementation should clean up any software resources and reclaim any hardware resources that the driver dedicated to DirectDraw in its <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledirectdraw">DrvEnableDirectDraw</a> function.
+GDI calls the driver's <b>DrvDisableDirectDraw</b> function when the last DirectDraw application has finished running. A driver's <b>DrvDisableDirectDraw</b> implementation should clean up any software resources and reclaim any hardware resources that the driver dedicated to DirectDraw in its <a href="/windows/desktop/api/winddi/nf-winddi-drvenabledirectdraw">DrvEnableDirectDraw</a> function.
 
-<b>DrvDisableDirectDraw</b> can be called with a disabled <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a>. A PDEV is disabled or enabled by calling the display driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a> function. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/managing-pdevs">Managing PDEVs</a> for more information.
+<b>DrvDisableDirectDraw</b> can be called with a disabled <a href="/windows-hardware/drivers/">PDEV</a>. A PDEV is disabled or enabled by calling the display driver's <a href="/windows/desktop/api/winddi/nf-winddi-drvassertmode">DrvAssertMode</a> function. See <a href="/windows-hardware/drivers/display/managing-pdevs">Managing PDEVs</a> for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenabledirectdraw">DrvEnableDirectDraw</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenabledirectdraw">DrvEnableDirectDraw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>

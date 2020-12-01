@@ -47,9 +47,6 @@ api_name:
  - MFSampleEncryptionProtectionScheme
 ---
 
-# MFSampleEncryptionProtectionScheme enumeration
-
-
 ## -description
 
 Specifies the supported protection schemes for encrypted samples.
@@ -58,25 +55,16 @@ Specifies the supported protection schemes for encrypted samples.
 
 ### -field MF_SAMPLE_ENCRYPTION_PROTECTION_SCHEME_NONE
 
+No encryption scheme.
+
 ### -field MF_SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CTR
-
-### -field MF_SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CBC
-
-#### - SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CBC
-
-The encryption scheme is Cipher Block Chaining (CBC).
-
-
-#### - SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CTR
 
 The encryption scheme is AES counter mode (CTR).
 
+### -field MF_SAMPLE_ENCRYPTION_PROTECTION_SCHEME_AES_CBC
 
-#### - SAMPLE_ENCRYPTION_PROTECTION_SCHEME_NONE
-
-No encryption scheme.
+The encryption scheme is Cipher Block Chaining (CBC).
 
 ## -remarks
 
-The encryption scheme for a sample is specified using the <a href="https://docs.microsoft.com/windows/desktop/medfound/mfsampleextension-encryption-protectionscheme">MFSampleExtension_Encryption_ProtectionScheme</a> attribute.
-
+The encryption scheme for a sample is specified using the <a href="/windows/desktop/medfound/mfsampleextension-encryption-protectionscheme">MFSampleExtension_Encryption_ProtectionScheme</a> attribute.

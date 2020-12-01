@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Defines methods that add the concept of writeability and static in-memory representations of bitmaps to <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>.
+Defines methods that add the concept of writeability and static in-memory representations of bitmaps to <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmap</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>. <b>IWICBitmap</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICBitmap</b> interface inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a>. <b>IWICBitmap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IWICBitmap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a>
 </td>
 <td align="left" width="63%">
 Provides access to a rectangular area of the bitmap.
@@ -78,7 +78,7 @@ Provides access to a rectangular area of the bitmap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-setpalette">SetPalette</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-setpalette">SetPalette</a>
 </td>
 <td align="left" width="63%">
 Provides access for palette modifications.
@@ -87,7 +87,7 @@ Provides access for palette modifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-setresolution">SetResolution</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-setresolution">SetResolution</a>
 </td>
 <td align="left" width="63%">
 Changes the physical resolution of the image.
@@ -98,10 +98,9 @@ Changes the physical resolution of the image.
 
 ## -remarks
 
-<b>IWICBitmap</b> inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> and therefore also inherits the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a> method.
+<b>IWICBitmap</b> inherits from <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource">IWICBitmapSource</a> and therefore also inherits the <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a> method.
             When pixels need to be moved to a new memory location, <b>CopyPixels</b> is often the most efficient.
          
 
-Because of to the internal memory representation implied by the <b>IWICBitmap</b>, in-place modification and processing using the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a> is more efficient than <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a>, usually reducing to a simple pointer access directly into the memory owned by the bitmap rather than a as a copy. 
+Because of the internal memory representation implied by the <b>IWICBitmap</b>, in-place modification and processing using the <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmap-lock">Lock</a> is more efficient than <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels">CopyPixels</a>, usually reducing to a simple pointer access directly into the memory owned by the bitmap rather than a copy. 
             This is contrasted to procedural bitmaps which implement only <b>CopyPixels</b> because there is no internal memory representation and one would need to be created on demand to satisfy a call to <b>Lock</b>.
-

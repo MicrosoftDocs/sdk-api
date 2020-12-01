@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>HTTP_HEADER_ID</b> enumeration type lists <i>known headers</i> for HTTP requests and responses, and associates an array index with each such header. It is used to size and access the <b>KnownHeaders</b> array members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_headers">HTTP_REQUEST_HEADERS</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a> structures.
+<a href="/windows/desktop/api/http/ns-http-http_request_headers">HTTP_REQUEST_HEADERS</a> and 
+<a href="/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a> structures.
 
 ## -enum-fields
 
@@ -300,9 +300,8 @@ Not a value that actually designates a header; instead, it is used to count all 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_request_headers">HTTP_REQUEST_HEADERS</a>
+<a href="/windows/desktop/api/http/ns-http-http_request_headers">HTTP_REQUEST_HEADERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a>
-
+<a href="/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a>

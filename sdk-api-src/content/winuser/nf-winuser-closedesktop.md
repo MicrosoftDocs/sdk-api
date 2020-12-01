@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
  - CloseDesktop
+req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 ---
 
 # CloseDesktop function
@@ -61,16 +62,16 @@ Closes an open handle to a desktop object.
 ### -param hDesktop [in]
 
 A handle to the desktop to be closed. This can be a handle returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openinputdesktop">OpenInputDesktop</a> functions. Do not specify the handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddesktop">GetThreadDesktop</a> function.
+<a href="/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>, 
+<a href="/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>, or 
+<a href="/windows/desktop/api/winuser/nf-winuser-openinputdesktop">OpenInputDesktop</a> functions. Do not specify the handle returned by the <a href="/windows/desktop/api/winuser/nf-winuser-getthreaddesktop">GetThreadDesktop</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -79,21 +80,20 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createdesktopa">CreateDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/desktops">Desktops</a>
+<a href="/windows/desktop/winstation/desktops">Desktops</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-opendesktopa">OpenDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openinputdesktop">OpenInputDesktop</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-openinputdesktop">OpenInputDesktop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
-
+<a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>

@@ -52,7 +52,7 @@ api_name:
 
 Prepares a publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.
 
-This method is supported only for backward compatibility. Otherwise, you should use the methods of the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a> interface.
+This method is supported only for backward compatibility. Otherwise, you should use the methods of the <a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a> interface.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ The name of the event method to be fired.
 
 ### -param firingControl [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ifiringcontrol">IFiringControl</a> interface on the firing control object.
+A pointer to the <a href="/windows/desktop/api/eventsys/nn-eventsys-ifiringcontrol">IFiringControl</a> interface on the firing control object.
 
 ## -returns
 
@@ -231,9 +231,8 @@ COM+ is required for this operation, but it is not installed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ipublisherfilter">IPublisherFilter</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ipublisherfilter">IPublisherFilter</a>

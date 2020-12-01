@@ -54,7 +54,7 @@ Represents a single group of sprites with their associated drawing properties.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SpriteBatch</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1SpriteBatch</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1SpriteBatch</b> interface inherits from <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1SpriteBatch</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID2D1SpriteBatch</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-addsprites">AddSprites</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-addsprites">AddSprites</a>
 </td>
 <td align="left" width="63%">
 Adds the given sprites to the end of this sprite batch.
@@ -78,7 +78,7 @@ Adds the given sprites to the end of this sprite batch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-clear">Clear</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all sprites from this sprite batch.
@@ -87,7 +87,7 @@ Removes all sprites from this sprite batch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-getspritecount">GetSpriteCount</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-getspritecount">GetSpriteCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of sprites in this sprite batch.
@@ -96,7 +96,7 @@ Retrieves the number of sprites in this sprite batch.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-getsprites">GetSprites</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-getsprites">GetSprites</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified subset of sprites from this sprite batch. For the best performance, use nullptr for properties that you do not need to retrieve.
@@ -105,7 +105,7 @@ Retrieves the specified subset of sprites from this sprite batch. For the best p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-setsprites">SetSprites</a>
+<a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1spritebatch-setsprites">SetSprites</a>
 </td>
 <td align="left" width="63%">
 Updates the properties of the specified sprites in this sprite batch.
@@ -116,8 +116,8 @@ Updates the properties of the specified sprites in this sprite batch.
 
 ## -remarks
 
-Create a new sprite batch using <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext3-createspritebatch">ID2D1DeviceContext3::CreateSpriteBatch</a>. 
-          Use [ID2D1DeviceContext3::DrawSpriteBatch](/windows/win32/api/d2d1_3/nf-d2d1_3-id2d1devicecontext3-createspritebatch) to draw them.
+Create a new sprite batch using <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1devicecontext3-createspritebatch">ID2D1DeviceContext3::CreateSpriteBatch</a>. 
+          Use [ID2D1DeviceContext3::DrawSpriteBatch](./nf-d2d1_3-id2d1devicecontext3-createspritebatch.md) to draw them.
         
 
 Sprites are a way for apps to draw a large number of images very efficiently. 
@@ -127,5 +127,4 @@ Sprites are a way for apps to draw a large number of images very efficiently.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>
-
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>

@@ -58,7 +58,7 @@ Begins a buffered paint operation.
 
 ### -param hdcTarget
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a></b>
 
 The handle of the target DC on which the buffer will be painted.
 
@@ -70,19 +70,19 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ### -param dwFormat
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-bp_bufferformat">BP_BUFFERFORMAT</a></b>
+Type: <b><a href="/windows/desktop/api/uxtheme/ne-uxtheme-bp_bufferformat">BP_BUFFERFORMAT</a></b>
 
-A member of the <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ne-uxtheme-bp_bufferformat">BP_BUFFERFORMAT</a> enumeration that specifies the format of the buffer.
+A member of the <a href="/windows/desktop/api/uxtheme/ne-uxtheme-bp_bufferformat">BP_BUFFERFORMAT</a> enumeration that specifies the format of the buffer.
 
 ### -param pPaintParams [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-bp_paintparams">BP_PAINTPARAMS</a>*</b>
+Type: <b><a href="/windows/desktop/api/uxtheme/ns-uxtheme-bp_paintparams">BP_PAINTPARAMS</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/ns-uxtheme-bp_paintparams">BP_PAINTPARAMS</a> structure that defines the paint operation parameters. This value can be <b>NULL</b>.
+A pointer to a <a href="/windows/desktop/api/uxtheme/ns-uxtheme-bp_paintparams">BP_PAINTPARAMS</a> structure that defines the paint operation parameters. This value can be <b>NULL</b>.
 
 ### -param phdc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HDC</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HDC</a>*</b>
 
 When this function returns, points to the handle of the new device context.
 
@@ -90,9 +90,8 @@ When this function returns, points to the handle of the new device context.
 
 Type: <b>HPAINTBUFFER</b>
 
-A handle to the buffered paint context. If this function fails, the return value is <b>NULL</b>, and <i>phdc</i> is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+A handle to the buffered paint context. If this function fails, the return value is <b>NULL</b>, and <i>phdc</i> is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
-The returned handle is freed when <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-endbufferedpaint">EndBufferedPaint</a> is called.
+The returned handle is freed when <a href="/windows/desktop/api/uxtheme/nf-uxtheme-endbufferedpaint">EndBufferedPaint</a> is called.
 
-An application should call <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-bufferedpaintinit">BufferedPaintInit</a> on the calling thread before calling <b>BeginBufferedPaint</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/uxtheme/nf-uxtheme-bufferedpaintuninit">BufferedPaintUnInit</a> before the thread is terminated.  Failure to call <b>BufferedPaintInit</b> may result in degraded performance due to internal data being initialized and destroyed for each buffered paint operation.
-
+An application should call <a href="/windows/desktop/api/uxtheme/nf-uxtheme-bufferedpaintinit">BufferedPaintInit</a> on the calling thread before calling <b>BeginBufferedPaint</b>, and <a href="/windows/desktop/api/uxtheme/nf-uxtheme-bufferedpaintuninit">BufferedPaintUnInit</a> before the thread is terminated.  Failure to call <b>BufferedPaintInit</b> may result in degraded performance due to internal data being initialized and destroyed for each buffered paint operation.

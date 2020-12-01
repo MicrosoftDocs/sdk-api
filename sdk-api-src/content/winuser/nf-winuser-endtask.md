@@ -76,7 +76,7 @@ Ignored. Must be <b>FALSE</b>.
 Type: <b>BOOL</b>
 
 A <b>TRUE</b> for this parameter will force the destruction of the
-        window if an initial attempt fails to gently close the window using <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-close">WM_CLOSE</a>.
+        window if an initial attempt fails to gently close the window using <a href="/windows/desktop/winmsg/wm-close">WM_CLOSE</a>.
         With a <b>FALSE</b> for this parameter, only the close with <b>WM_CLOSE</b>is attempted.
 
 ## -returns
@@ -86,15 +86,15 @@ Type: <b>BOOL</b>
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is <b>FALSE</b>.
-				To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+				To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-This function was not included in the SDK headers and libraries until Windows XP with Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
+This function was not included in the SDK headers and libraries until Windows XP with Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closewindow">CloseWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-closewindow">CloseWindow</a>
 
 
 
@@ -102,7 +102,7 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a>
 
 
 
@@ -110,9 +110,8 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-close">WM_CLOSE</a>
+<a href="/windows/desktop/winmsg/wm-close">WM_CLOSE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

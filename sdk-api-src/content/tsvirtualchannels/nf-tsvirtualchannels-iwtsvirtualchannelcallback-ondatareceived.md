@@ -52,7 +52,7 @@ api_name:
 
 Notifies the user about data that is being received.
 
-The data has the same size and content as a corresponding <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelwrite">WTSVirtualChannelWrite()</a> call from the remote side. There is no hard limit on the size of the data that can be sent. All packet reconstruction is handled by the dynamic virtual channel (DVC) framework.
+The data has the same size and content as a corresponding <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelwrite">WTSVirtualChannelWrite()</a> call from the remote side. There is no hard limit on the size of the data that can be sent. All packet reconstruction is handled by the dynamic virtual channel (DVC) framework.
 
 ## -parameters
 
@@ -70,5 +70,4 @@ Returns <b>S_OK</b> on success. Results in no action if the call fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannelCallback</a>
-
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannelCallback</a>

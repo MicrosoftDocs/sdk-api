@@ -56,7 +56,7 @@ Updates the specified caches. This method is used when the application needs pre
 
 ### -param pDataObject [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object from which the cache is updated. Object handlers and in-process servers typically pass a non-<b>NULL</b> value. A container application usually passes <b>NULL</b>, and the source is obtained from the currently running object.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface on the data object from which the cache is updated. Object handlers and in-process servers typically pass a non-<b>NULL</b> value. A container application usually passes <b>NULL</b>, and the source is obtained from the currently running object.
 
 ### -param grfUpdf [in]
 
@@ -74,7 +74,7 @@ The type of cache to be updated. This parameter can be one or more of the follow
 </dl>
 </td>
 <td width="60%">
-Updates caches created by using ADVF_NODATA in the call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>.
+Updates caches created by using ADVF_NODATA in the call to <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Updates caches created by using ADVF_NODATA in the call to <a href="https://docs
 </dl>
 </td>
 <td width="60%">
-Updates caches created by using ADVFCACHE_ONSAVE in the call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>.
+Updates caches created by using ADVFCACHE_ONSAVE in the call to <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Updates caches created by using ADVFCACHE_ONSAVE in the call to <a href="https:/
 </dl>
 </td>
 <td width="60%">
-Updates caches created by using ADVFCACHE_ONSTOP in the call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>.
+Updates caches created by using ADVFCACHE_ONSTOP in the call to <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Updates caches created by using ADVFCACHE_ONSTOP in the call to <a href="https:/
 </dl>
 </td>
 <td width="60%">
-Dynamically updates the caches (as is normally done when the object sends out <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">OnDataChange</a> notices).
+Dynamically updates the caches (as is normally done when the object sends out <a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">OnDataChange</a> notices).
 
 </td>
 </tr>
@@ -156,7 +156,7 @@ Updates all caches.
 </dl>
 </td>
 <td width="60%">
-Updates all caches except those created with ADVF_NODATA in the call to <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>. Thus, you can control updates to the caches created with the ADVF_NODATA flag and only update these caches explicitly.
+Updates all caches except those created with ADVF_NODATA in the call to <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>. Thus, you can control updates to the caches created with the ADVF_NODATA flag and only update these caches explicitly.
 
 
 </td>
@@ -246,17 +246,16 @@ Some of the caches were updated.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecache">IOleCache</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecache2">IOleCache2</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecache2">IOleCache2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>

@@ -56,7 +56,7 @@ The <b>IADsProperty::Qualifiers</b> method is an optional method that returns a 
 
 ### -param ppQualifiers [out]
 
-Indirect pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> interface on the ADSI collection object that represents additional limits for this property.
+Indirect pointer to the  <a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> interface on the ADSI collection object that represents additional limits for this property.
 
 ## -returns
 
@@ -70,13 +70,12 @@ This method is not currently supported by any of the providers supplied by Micro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadsclass-qualifiers">IADsClass::Qualifiers</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadsclass-qualifiers">IADsClass::Qualifiers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsproperty">IADsProperty</a>
-
+<a href="/windows/desktop/api/iads/nn-iads-iadsproperty">IADsProperty</a>

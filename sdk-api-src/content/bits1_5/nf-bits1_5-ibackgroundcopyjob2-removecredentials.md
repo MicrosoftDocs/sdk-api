@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Removes credentials from use. The credentials must match an existing target and scheme pair that you specified using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials">IBackgroundCopyJob2::SetCredentials</a> method. There is no method to retrieve the credentials you have set.
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials">IBackgroundCopyJob2::SetCredentials</a> method. There is no method to retrieve the credentials you have set.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ Identifies whether to use the credentials for proxy or server authentication.
 ### -param Scheme [in]
 
 Identifies the authentication scheme to use (basic or one of several challenge-response schemes). For details, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ne-bits1_5-bg_auth_scheme">BG_AUTH_SCHEME</a> enumeration.
+<a href="/windows/desktop/api/bits1_5/ne-bits1_5-bg_auth_scheme">BG_AUTH_SCHEME</a> enumeration.
 
 ## -returns
 
@@ -99,13 +99,12 @@ No credentials have been set using the given <i>Target</i> and <i>Scheme</i> pai
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ne-bits1_5-bg_auth_scheme">BG_AUTH_SCHEME</a>
+<a href="/windows/desktop/api/bits1_5/ne-bits1_5-bg_auth_scheme">BG_AUTH_SCHEME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/ne-bits1_5-bg_auth_target">BG_AUTH_TARGET</a>
+<a href="/windows/desktop/api/bits1_5/ne-bits1_5-bg_auth_target">BG_AUTH_TARGET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials">IBackgroundCopyJob2::SetCredentials</a>
-
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setcredentials">IBackgroundCopyJob2::SetCredentials</a>

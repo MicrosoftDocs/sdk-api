@@ -51,21 +51,20 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/frquery/nl-frquery-cframeworkquery">CFrameworkQuery</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/frquery/nl-frquery-cframeworkquery">CFrameworkQuery</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
-The <b>GetRequiredProperties</b> method returns a list of all of the properties specified in the <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/select-statement-for-data-queries">SELECT statement</a> of a query. It returns the properties from both the SELECT and WHERE clauses.
+The <b>GetRequiredProperties</b> method returns a list of all of the properties specified in the <a href="/windows/desktop/WmiSdk/select-statement-for-data-queries">SELECT statement</a> of a query. It returns the properties from both the SELECT and WHERE clauses.
 
 ## -parameters
 
 ### -param saProperties
 
-Array of properties that were included in the query's <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/select-statement-for-data-queries">SELECT statement</a>.
+Array of properties that were included in the query's <a href="/windows/desktop/WmiSdk/select-statement-for-data-queries">SELECT statement</a>.
 
 ## -remarks
 
 If the returned <b>saProperties</b> array is empty, then all properties are required.
-

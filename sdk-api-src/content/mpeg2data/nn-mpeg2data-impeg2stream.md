@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IMpeg2Stream</b> interface represents a stream of MPEG-2 data. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getstreamofsections">IMpeg2Data::GetStreamOfSections</a> method returns a pointer to this interface.
+The <b>IMpeg2Stream</b> interface represents a stream of MPEG-2 data. The <a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2data-getstreamofsections">IMpeg2Data::GetStreamOfSections</a> method returns a pointer to this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMpeg2Stream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMpeg2Stream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMpeg2Stream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMpeg2Stream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMpeg2Stream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2stream-initialize">Initialize</a>
+<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2stream-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object.
@@ -78,7 +78,7 @@ Initializes the object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2stream-supplydatabuffer">SupplyDataBuffer</a>
+<a href="/previous-versions/windows/desktop/api/mpeg2data/nf-mpeg2data-impeg2stream-supplydatabuffer">SupplyDataBuffer</a>
 </td>
 <td align="left" width="63%">
 Provides a buffer for the object to write data.
@@ -93,5 +93,4 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>

@@ -64,16 +64,15 @@ A pointer to a <b>LONG</b> that receives the number of string values contained i
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the number of string values contained in the string array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodestringarray">ICertEncodeStringArray</a>
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodestringarray">ICertEncodeStringArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-reset">ICertEncodeStringArray::Reset</a>
-
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodestringarray-reset">ICertEncodeStringArray::Reset</a>

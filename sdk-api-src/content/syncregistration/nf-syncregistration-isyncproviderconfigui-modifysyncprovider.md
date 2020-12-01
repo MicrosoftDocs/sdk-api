@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Updates the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> of the synchronization provider that is configured by this <b>ISyncProviderConfigUI</b>.
+Updates the <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> of the synchronization provider that is configured by this <b>ISyncProviderConfigUI</b>.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ Pointer to an interface containing additional information needed to generate the
 
 ### -param pProviderInfo [in]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> that provides information about the synchronization provider that is being modified.
+An <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderinfo">ISyncProviderInfo</a> that provides information about the synchronization provider that is being modified.
 
 ## -returns
 
@@ -102,5 +102,4 @@ Invalid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>

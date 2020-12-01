@@ -52,8 +52,8 @@ api_name:
 ## -description
 
 The <b>FreeADsStr</b> function frees the memory of a 
-   string allocated by  <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-allocadsstr">AllocADsStr</a> or 
-   <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-reallocadsstr">ReallocADsStr</a>.
+   string allocated by  <a href="/windows/desktop/api/adshlp/nf-adshlp-allocadsstr">AllocADsStr</a> or 
+   <a href="/windows/desktop/api/adshlp/nf-adshlp-reallocadsstr">ReallocADsStr</a>.
 
 ## -parameters
 
@@ -62,8 +62,8 @@ The <b>FreeADsStr</b> function frees the memory of a
 Type: <b>LPWSTR</b>
 
 Pointer to the string to be freed. This string must have been allocated with the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-allocadsstr">AllocADsStr</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-reallocadsstr">ReallocADsStr</a> function.
+      <a href="/windows/desktop/api/adshlp/nf-adshlp-allocadsstr">AllocADsStr</a> or 
+      <a href="/windows/desktop/api/adshlp/nf-adshlp-reallocadsstr">ReallocADsStr</a> function.
 
 ## -returns
 
@@ -75,36 +75,35 @@ The function returns <b>TRUE</b> if the memory is freed. Otherwise, it returns
 ## -remarks
 
 Do not use this function to free memory allocated with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-allocadsmem">AllocADsMem</a> or 
-    <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-reallocadsmem">ReallocADsMem</a> function. Use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a> function  to free memory allocated with these 
+    <a href="/windows/desktop/api/adshlp/nf-adshlp-allocadsmem">AllocADsMem</a> or 
+    <a href="/windows/desktop/api/adshlp/nf-adshlp-reallocadsmem">ReallocADsMem</a> function. Use the 
+    <a href="/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a> function  to free memory allocated with these 
     functions.
 
 For more information and a code example that shows how to use the 
     <b>FreeADsStr</b> function, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-reallocadsstr">ReallocADsStr</a>.
+    <a href="/windows/desktop/api/adshlp/nf-adshlp-reallocadsstr">ReallocADsStr</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
+<a href="/windows/desktop/ADSI/adsi-functions">ADSI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-allocadsmem">AllocADsMem</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-allocadsmem">AllocADsMem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-allocadsstr">AllocADsStr</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-allocadsstr">AllocADsStr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-freeadsmem">FreeADsMem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-reallocadsmem">ReallocADsMem</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-reallocadsmem">ReallocADsMem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-reallocadsstr">ReallocADsStr</a>
-
+<a href="/windows/desktop/api/adshlp/nf-adshlp-reallocadsstr">ReallocADsStr</a>

@@ -79,15 +79,14 @@ The method succeeded.
 
 ## -remarks
 
-This method is asynchronous. When the operation is complete, the content enabler sends an <a href="https://docs.microsoft.com/windows/desktop/medfound/meenablercompleted">MEEnablerCompleted</a> event. While the operation is in progress, the content enabler might send <a href="https://docs.microsoft.com/windows/desktop/medfound/meenablerprogress">MEEnablerProgress</a> events.
+This method is asynchronous. When the operation is complete, the content enabler sends an <a href="/windows/desktop/medfound/meenablercompleted">MEEnablerCompleted</a> event. While the operation is in progress, the content enabler might send <a href="/windows/desktop/medfound/meenablerprogress">MEEnablerProgress</a> events.
 
-To find out whether the content enabler supports this method, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-isautomaticsupported">IMFContentEnabler::IsAutomaticSupported</a>.
+To find out whether the content enabler supports this method, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-isautomaticsupported">IMFContentEnabler::IsAutomaticSupported</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
+<a href="/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>

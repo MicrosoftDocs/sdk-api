@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Exposed by objects that act as a proxy for a remote object. To obtain a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier MF_REMOTE_PROXY.
+Exposed by objects that act as a proxy for a remote object. To obtain a pointer to this interface, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier MF_REMOTE_PROXY.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFRemoteProxy</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFRemoteProxy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFRemoteProxy</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFRemoteProxy</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IMFRemoteProxy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfremoteproxy-getremotehost">GetRemoteHost</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfremoteproxy-getremotehost">GetRemoteHost</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the object that is hosting this proxy.
@@ -79,7 +79,7 @@ Retrieves a pointer to the object that is hosting this proxy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfremoteproxy-getremoteobject">GetRemoteObject</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfremoteproxy-getremoteobject">GetRemoteObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the remote object for which this object is a proxy.
@@ -90,9 +90,8 @@ Retrieves a pointer to the remote object for which this object is a proxy.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/service-interfaces">Service Interfaces</a>
-
+<a href="/windows/desktop/medfound/service-interfaces">Service Interfaces</a>

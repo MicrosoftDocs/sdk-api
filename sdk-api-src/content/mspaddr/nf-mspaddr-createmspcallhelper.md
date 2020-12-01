@@ -52,16 +52,16 @@ api_name:
 
 The 
 <b>CreateMSPCallHelper</b> helper template function is called in the derived class' implementation of 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>. It checks all of the arguments for validity, including the media type argument (via the address object method 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nf-mspaddr-cmspaddress-isvalidsetofmediatypes">IsValidSetOfMediaTypes</a>; see above). It sets up the aggregation between the MSP call object and the TAPI call object using the <b>CComAggObject</b> ATL class template. It then calls the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-init">Init</a> method on the MSP call object.
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>. It checks all of the arguments for validity, including the media type argument (via the address object method 
+<a href="/windows/desktop/api/mspaddr/nf-mspaddr-cmspaddress-isvalidsetofmediatypes">IsValidSetOfMediaTypes</a>; see above). It sets up the aggregation between the MSP call object and the TAPI call object using the <b>CComAggObject</b> ATL class template. It then calls the 
+<a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallbase-init">Init</a> method on the MSP call object.
 
 ## -parameters
 
 ### -param pCMSPAddress
 
 Pointer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a> interface for call.
+<a href="/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a> interface for call.
 
 ### -param htCall
 
@@ -73,7 +73,7 @@ Reserved parameter, not currently used.
 
 ### -param dwMediaType
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">Media types</a> desired for call.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">Media types</a> desired for call.
 
 ### -param pOuterUnknown
 
@@ -97,9 +97,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>
+<a href="/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>
-
+<a href="/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>

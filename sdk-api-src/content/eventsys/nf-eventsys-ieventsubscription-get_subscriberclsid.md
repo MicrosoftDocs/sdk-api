@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -remarks
 
-If not empty, the subscription is persistent and the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriberinterface">SubscriberInterface</a> property must be <b>NULL</b>. This property works in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_machinename">MachineName</a> property in a persistent subscription.
+If not empty, the subscription is persistent and the <a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriberinterface">SubscriberInterface</a> property must be <b>NULL</b>. This property works in conjunction with the <a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_machinename">MachineName</a> property in a persistent subscription.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>

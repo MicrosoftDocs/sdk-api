@@ -46,6 +46,7 @@ api_location:
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
  - GetDlgCtrlID
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetDlgCtrlID function
@@ -69,18 +70,18 @@ Type: <b>int</b>
 
 If the function succeeds, the return value is the identifier of the control.
 
-If the function fails, the return value is zero. An invalid value for the <i>hwndCtl</i> parameter, for example, will cause the function to fail. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. An invalid value for the <i>hwndCtl</i> parameter, for example, will cause the function to fail. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-<b>GetDlgCtrlID</b> accepts child window handles as well as handles of controls in dialog boxes. An application sets the identifier for a child window when it creates the window by assigning the identifier value to the <i>hmenu</i> parameter when calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function. 
+<b>GetDlgCtrlID</b> accepts child window handles as well as handles of controls in dialog boxes. An application sets the identifier for a child window when it creates the window by assigning the identifier value to the <i>hmenu</i> parameter when calling the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> or <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function. 
 
 Although <b>GetDlgCtrlID</b> may return a value if <i>hwndCtl</i> is a handle to a top-level window, top-level windows cannot have identifiers and such a return value is never valid. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Initializing a Dialog Box</a>.
+For an example, see <a href="/windows/desktop/dlgbox/using-dialog-boxes">Initializing a Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -90,21 +91,20 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdlgitem">GetDlgItem</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdlgitem">GetDlgItem</a>
 
 
 
 <b>Reference</b>
-

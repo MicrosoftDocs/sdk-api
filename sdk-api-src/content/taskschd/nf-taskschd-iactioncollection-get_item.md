@@ -63,9 +63,8 @@ Collections are 1-based. In other words, the index for the first item in the col
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iactioncollection">IActionCollection</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iactioncollection">IActionCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

@@ -61,11 +61,11 @@ The <b>GetRecordRatingValue</b> method returns the rating value of a specified r
 
 ### -param bIndexOuter [in]
 
-Zero-based index of the rating region. To get the number of rating regions, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getratingregioncount">IAtscContentAdvisoryDescriptor::GetRatingRegionCount</a>.
+Zero-based index of the rating region. To get the number of rating regions, call <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getratingregioncount">IAtscContentAdvisoryDescriptor::GetRatingRegionCount</a>.
 
 ### -param bIndexInner [in]
 
-Zero-based index of the rating dimension. To get the number of rating dimensions, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordrateddimensions">IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions</a>.
+Zero-based index of the rating dimension. To get the number of rating dimensions, call <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iatsccontentadvisorydescriptor-getrecordrateddimensions">IAtscContentAdvisoryDescriptor::GetRecordRatedDimensions</a>.
 
 ### -param pbVal [out]
 
@@ -106,5 +106,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsccontentadvisorydescriptor">IAtscContentAdvisoryDescriptor Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsccontentadvisorydescriptor">IAtscContentAdvisoryDescriptor Interface</a>

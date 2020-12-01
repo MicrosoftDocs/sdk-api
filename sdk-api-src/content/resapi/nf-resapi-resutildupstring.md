@@ -63,13 +63,12 @@ Pointer to the string to duplicate.
 If the operation succeeds, the function returns a pointer to a buffer containing the duplicate string.
 
 If the operation fails, 
-the function returns <b>NULL</b>. For more information, call the function  <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+the function returns <b>NULL</b>. For more information, call the function  <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-With the  <b>ResUtilDupString</b> utility function, after using the returned string, callers should deallocate the buffer by calling the function  <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
+With the  <b>ResUtilDupString</b> utility function, after using the returned string, callers should deallocate the buffer by calling the function  <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>

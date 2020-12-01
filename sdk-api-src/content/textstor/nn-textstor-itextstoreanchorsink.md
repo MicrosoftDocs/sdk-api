@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>ITextStoreAnchorSink</b> interface is implemented by the TSF manager and is used by an anchor-based application to notify the manager when certain events occur. The manager installs this advise sink by calling <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-advisesink">ITextStoreAnchor::AdviseSink</a>.
+The <b>ITextStoreAnchorSink</b> interface is implemented by the TSF manager and is used by an anchor-based application to notify the manager when certain events occur. The manager installs this advise sink by calling <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-advisesink">ITextStoreAnchor::AdviseSink</a>.
 
 The interface ID is IID_ITextStoreAnchorSink.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStoreAnchorSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextStoreAnchorSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextStoreAnchorSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextStoreAnchorSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITextStoreAnchorSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onattrschange">OnAttrsChange</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onattrschange">OnAttrsChange</a>
 </td>
 <td align="left" width="63%">
 Called when the value of one or more text attributes changes.
@@ -80,7 +80,7 @@ Called when the value of one or more text attributes changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onendedittransaction">OnEndEditTransaction</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onendedittransaction">OnEndEditTransaction</a>
 </td>
 <td align="left" width="63%">
 Called when an edit transaction is terminated.
@@ -89,7 +89,7 @@ Called when an edit transaction is terminated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlayoutchange">OnLayoutChange</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlayoutchange">OnLayoutChange</a>
 </td>
 <td align="left" width="63%">
 Called when the layout (on-screen representation) of the document changes.
@@ -98,7 +98,7 @@ Called when the layout (on-screen representation) of the document changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlockgranted">OnLockGranted</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlockgranted">OnLockGranted</a>
 </td>
 <td align="left" width="63%">
 Called to grant a document lock.
@@ -107,7 +107,7 @@ Called to grant a document lock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onselectionchange">OnSelectionChange</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onselectionchange">OnSelectionChange</a>
 </td>
 <td align="left" width="63%">
 Called when the selection within the text stream changes.
@@ -116,7 +116,7 @@ Called when the selection within the text stream changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstartedittransaction">OnStartEditTransaction</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstartedittransaction">OnStartEditTransaction</a>
 </td>
 <td align="left" width="63%">
 Called when an edit transaction is started.
@@ -125,7 +125,7 @@ Called when an edit transaction is started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstatuschange">OnStatusChange</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstatuschange">OnStatusChange</a>
 </td>
 <td align="left" width="63%">
 Called when the text stream status changes.
@@ -134,7 +134,7 @@ Called when the text stream status changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-ontextchange">OnTextChange</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-ontextchange">OnTextChange</a>
 </td>
 <td align="left" width="63%">
 Called when text in the text stream changes.
@@ -145,23 +145,22 @@ Called when text in the text stream changes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/document-locks">Document Locks</a>
+<a href="/windows/desktop/TSF/document-locks">Document Locks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor
+<a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-advisesink">ITextStoreAnchor::AdviseSink
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-advisesink">ITextStoreAnchor::AdviseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/text-stores">Text Stores</a>
-
+<a href="/windows/desktop/TSF/text-stores">Text Stores</a>

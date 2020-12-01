@@ -85,7 +85,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return the file identification number. The <i>bufptr</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_2">FILE_INFO_2</a> structure.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-file_info_2">FILE_INFO_2</a> structure.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Return the file identification number. The <i>bufptr</i> parameter is a pointer 
 </td>
 <td width="60%">
 Return the file identification number and other information about the file. The <i>bufptr</i> parameter is a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_3">FILE_INFO_3</a> structure.
+<a href="/windows/desktop/api/lmshare/ns-lmshare-file_info_3">FILE_INFO_3</a> structure.
 
 </td>
 </tr>
@@ -105,9 +105,9 @@ Return the file identification number and other information about the file. The 
 ### -param bufptr [out]
 
 Pointer to the address of the buffer that receives the information. The format of this data depends on the value of the <i>level</i> parameter. This buffer is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. For more information, see 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 ## -returns
 
@@ -183,37 +183,36 @@ Only members of the Administrators or Server Operators local group can successfu
 <b>NetFileGetInfo</b> function.
 
 You can call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfileenum">NetFileEnum</a> function to retrieve information about multiple files open on a server.
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netfileenum">NetFileEnum</a> function to retrieve information about multiple files open on a server.
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling 
 <b>NetFileGetInfo</b>. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>.
+<a href="/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a> and 
+<a href="/windows/desktop/api/iads/nn-iads-iadsfileserviceoperations">IADsFileServiceOperations</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_2">FILE_INFO_2</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-file_info_2">FILE_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/ns-lmshare-file_info_3">FILE_INFO_3</a>
+<a href="/windows/desktop/api/lmshare/ns-lmshare-file_info_3">FILE_INFO_3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetShare/netfile-functions">NetFile
+<a href="/windows/desktop/NetShare/netfile-functions">NetFile
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmshare/nf-lmshare-netfileenum">NetFileEnum</a>
+<a href="/windows/desktop/api/lmshare/nf-lmshare-netfileenum">NetFileEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
-

@@ -68,9 +68,8 @@ An array that contains the retrieved disk information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-sr_resource_type_disk_info">SR_RESOURCE_TYPE_DISK_INFO</a>
-
+<a href="/windows/desktop/api/clusapi/ns-clusapi-sr_resource_type_disk_info">SR_RESOURCE_TYPE_DISK_INFO</a>

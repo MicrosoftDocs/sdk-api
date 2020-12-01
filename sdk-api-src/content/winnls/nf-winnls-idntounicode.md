@@ -56,14 +56,14 @@ api_name:
 
 ## -description
 
-Converts the Punycode form of an internationalized domain name (IDN) or another internationalized label to the normal <a href="https://docs.microsoft.com/windows/desktop/Intl/unicode">Unicode</a> UTF-16 encoding syntax.         <div class="alert"><b>Caution</b>  This function implements the <a href="http://www.faqs.org/rfcs/rfc3490.html">RFC 3490: Internationalizing Domain Names in Applications (IDNA)</a> standard algorithms for the Punycode encoding of Unicode. The standard introduces some security issues. One issue is that glyphs representing certain characters from different scripts might appear similar or even identical. For example, in many fonts, Cyrillic lowercase A ("а") is indistinguishable from Latin lowercase A ("a"). There is no way to tell visually that "example.com" and "exаmple.com" are two different domain names, one with a Latin lowercase A in the name, the other with a Cyrillic lowercase A. For more information about IDN-related security concerns, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.</div>
+Converts the Punycode form of an internationalized domain name (IDN) or another internationalized label to the normal <a href="/windows/desktop/Intl/unicode">Unicode</a> UTF-16 encoding syntax.         <div class="alert"><b>Caution</b>  This function implements the <a href="http://www.faqs.org/rfcs/rfc3490.html">RFC 3490: Internationalizing Domain Names in Applications (IDNA)</a> standard algorithms for the Punycode encoding of Unicode. The standard introduces some security issues. One issue is that glyphs representing certain characters from different scripts might appear similar or even identical. For example, in many fonts, Cyrillic lowercase A ("а") is indistinguishable from Latin lowercase A ("a"). There is no way to tell visually that "example.com" and "exаmple.com" are two different domain names, one with a Latin lowercase A in the name, the other with a Cyrillic lowercase A. For more information about IDN-related security concerns, see <a href="/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>.</div>
 <div> </div>
 
 ## -parameters
 
 ### -param dwFlags [in]
 
-Flags specifying conversion options. For detailed definitions, see the <i>dwFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a>.
+Flags specifying conversion options. For detailed definitions, see the <i>dwFlags</i> parameter of <a href="/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a>.
 
 ### -param lpASCIICharStr [in]
 
@@ -87,7 +87,7 @@ Returns the number of characters retrieved in <i>lpUnicodeCharStr</i> if success
 
 If the function succeeds and the value of <i>cchUnicodeChar</i> is 0, the function returns the required size, in characters including a terminating null character if it was part of the input buffer.
 
-The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
@@ -99,25 +99,24 @@ The function returns 0 if it does not succeed. To get extended error information
 
 ## -remarks
 
-See Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a>.
+See Remarks for <a href="/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>
+<a href="/windows/desktop/Intl/handling-internationalized-domain-names--idns">Handling Internationalized Domain Names (IDNs)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-idntoascii">IdnToAscii</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-idntonameprepunicode">IdnToNameprepUnicode</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-idntonameprepunicode">IdnToNameprepUnicode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

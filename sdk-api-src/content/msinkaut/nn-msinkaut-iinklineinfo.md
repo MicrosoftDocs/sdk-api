@@ -55,7 +55,7 @@ The <b>IInkLineInfo</b> interface provides access to the display properties and 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkLineInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkLineInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkLineInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkLineInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IInkLineInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getcandidate">GetCandidate</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getcandidate">GetCandidate</a>
 </td>
 <td align="left" width="63%">
 Returns one word from the recognition alternates list.
@@ -79,7 +79,7 @@ Returns one word from the recognition alternates list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getformat">GetFormat</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getformat">GetFormat</a>
 </td>
 <td align="left" width="63%">
 Returns the display properties currently set on the text ink object.
@@ -88,7 +88,7 @@ Returns the display properties currently set on the text ink object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent">GetInkExtent</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent">GetInkExtent</a>
 </td>
 <td align="left" width="63%">
 Specifies the display properties to set on the text ink object, and retrieves the width of the text ink object in <b>HIMETRIC</b> units.
@@ -97,7 +97,7 @@ Specifies the display properties to set on the text ink object, and retrieves th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-recognize">Recognize</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-recognize">Recognize</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -106,7 +106,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setcandidate">SetCandidate</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setcandidate">SetCandidate</a>
 </td>
 <td align="left" width="63%">
 Updates one recognition alternate in the recognition result list, either by replacing an existing alternate, or by adding an alternate to the list.
@@ -115,7 +115,7 @@ Updates one recognition alternate in the recognition result list, either by repl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat">SetFormat</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat">SetFormat</a>
 </td>
 <td align="left" width="63%">
 Specifies the display properties to set on the text ink object.
@@ -123,4 +123,3 @@ Specifies the display properties to set on the text ink object.
 </td>
 </tr>
 </table>
-

@@ -52,12 +52,12 @@ api_name:
 
 The 
 <b>CALLINFOCHANGE_CAUSE</b> enum is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfochangeevent-get_cause">ITCallInfoChangeEvent::get_Cause</a> method to return a description of the type of call information that has changed.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfochangeevent-get_cause">ITCallInfoChangeEvent::get_Cause</a> method to return a description of the type of call information that has changed.
 
 You can retrieve specific information about the change by using the TAPI 3 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface. TAPI 2 applications use 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a>.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a> interface. TAPI 2 applications use 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetcallinfo">lineGetCallInfo</a> or 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetcallstatus">lineGetCallStatus</a>.
 
 ## -enum-fields
 
@@ -163,16 +163,15 @@ The call data buffer has changed.
 
 ### -field CIC_PRIVILEGE
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallprivilege--constants">Call privilege</a> has changed.
+<a href="/windows/desktop/Tapi/linecallprivilege--constants">Call privilege</a> has changed.
 
 ### -field CIC_MEDIATYPE
 
 The call 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a> has changed.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media type</a> has changed.
 
 ### -field CIC_LASTITEM
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfochangeevent-get_cause">ITCallInfoChangeEvent::get_Cause</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfochangeevent-get_cause">ITCallInfoChangeEvent::get_Cause</a>

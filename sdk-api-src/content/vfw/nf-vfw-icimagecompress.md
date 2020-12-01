@@ -56,7 +56,7 @@ The <b>ICImageCompress</b> function compresses an image to a given size. This fu
 
 ### -param hic
 
-Handle to a compressor opened with the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icopen">ICOpen</a> function. Specify <b>NULL</b> to have VCM select an appropriate compressor for the compression format. An application can have the user select the compressor by using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iccompressorchoose">ICCompressorChoose</a> function, which opens the selected compressor and returns a handle of the compressor in this parameter.
+Handle to a compressor opened with the <a href="/windows/desktop/api/vfw/nf-vfw-icopen">ICOpen</a> function. Specify <b>NULL</b> to have VCM select an appropriate compressor for the compression format. An application can have the user select the compressor by using the <a href="/windows/desktop/api/vfw/nf-vfw-iccompressorchoose">ICCompressorChoose</a> function, which opens the selected compressor and returns a handle of the compressor in this parameter.
 
 ### -param uiFlags
 
@@ -64,7 +64,7 @@ Reserved; must be zero.
 
 ### -param lpbiIn
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the input data format.
+Pointer to the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the input data format.
 
 ### -param lpBits
 
@@ -72,7 +72,7 @@ Pointer to input data bits to compress. The data bits exclude header and format 
 
 ### -param lpbiOut
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the compressed output format. Specify <b>NULL</b> to have the compressor use an appropriate format.
+Pointer to the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure containing the compressed output format. Specify <b>NULL</b> to have the compressor use an appropriate format.
 
 ### -param lQuality
 
@@ -88,13 +88,12 @@ Returns a handle to a compressed DIB. The image data follows the format header.
 
 ## -remarks
 
-To obtain the format information from the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure, use the <a href="https://msdn.microsoft.com/library/aa366584.aspx">GlobalLock</a> function to lock the data. Use the <a href="https://msdn.microsoft.com/library/aa366579.aspx">GlobalFree</a> function to free the DIB when you are finished.
+To obtain the format information from the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure, use the <a href="/windows/win32/api/winbase/nf-winbase-globallock">GlobalLock</a> function to lock the data. Use the <a href="/windows/win32/api/winbase/nf-winbase-globalfree">GlobalFree</a> function to free the DIB when you are finished.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
+<a href="/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

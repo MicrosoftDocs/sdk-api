@@ -57,7 +57,7 @@ The driver supports post processing. If this flag is set, the host decoder can s
 
 ### -field D3D12_VIDEO_DECODE_CONFIGURATION_FLAG_REFERENCE_ONLY_ALLOCATIONS_REQUIRED 
 
-Reference resources must be allocated with the <a href="http://docs,microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags">D3D12_RESOURCE_FLAG_VIDEO_DECODE_REFERENCE_ONLY</a>  resource flag.  References textures must be separate from output textures, similar to performing a format conversion or downscale.  This flag must not be set for [D3D12_VIDEO_DECODE_TIER_3](ne-d3d12video-d3d12_video_decode_tier.md) or greater.
+Reference resources must be allocated with the <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags">D3D12_RESOURCE_FLAG_VIDEO_DECODE_REFERENCE_ONLY</a>  resource flag.  References textures must be separate from output textures, similar to performing a format conversion or downscale.  This flag must not be set for [D3D12_VIDEO_DECODE_TIER_3](ne-d3d12video-d3d12_video_decode_tier.md) or greater.
 
 ### -field D3D12_VIDEO_DECODE_CONFIGURATION_FLAG_ALLOW_RESOLUTION_CHANGE_ON_NON_KEY_FRAME 
 
@@ -66,4 +66,3 @@ The decode resolution can be changed on a non-key frame.
 ## -remarks
 
 ## -see-also
-

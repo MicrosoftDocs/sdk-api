@@ -48,14 +48,13 @@ Defines the combination of a pixel format and color space for a resource content
 
 ### -field Format
 
-A value from the [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration, specifying the DXGI format of the data.
+A value from the [DXGI_FORMAT](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration, specifying the DXGI format of the data.
 
 ### -field ColorSpace
 
  
-A value from the [DXGI_COLOR_SPACE_TYPE](https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) enumeration, specifying the color space of the data.
+A value from the [DXGI_COLOR_SPACE_TYPE](/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) enumeration, specifying the color space of the data.
 
 ## -remarks
 
 ## -see-also
-

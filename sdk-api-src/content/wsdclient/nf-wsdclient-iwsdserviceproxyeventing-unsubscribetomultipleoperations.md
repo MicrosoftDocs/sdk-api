@@ -56,7 +56,7 @@ Cancels a collection of subscriptions to notifications or solicit/response event
 
 ### -param pOperations [in]
 
-Pointer to an array of references to <a href="https://docs.microsoft.com/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structures that specify the operations to unsubscribe from.
+Pointer to an array of references to <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation">WSD_OPERATION</a> structures that specify the operations to unsubscribe from.
 
 ### -param dwOperationCount [in]
 
@@ -116,5 +116,4 @@ This method is designed to be exclusively called by generated proxy code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxyeventing">IWSDServiceProxyEventing</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxyeventing">IWSDServiceProxyEventing</a>

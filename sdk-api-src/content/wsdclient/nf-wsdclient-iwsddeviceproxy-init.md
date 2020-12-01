@@ -60,7 +60,7 @@ The logical address (ID) of the device.
 
 ### -param pDeviceAddress [in]
 
-Reference to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> object that contains the device configuration data.
+Reference to an <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> object that contains the device configuration data.
 
 ### -param pszLocalId [in]
 
@@ -68,13 +68,13 @@ The logical address of the client. The logical address is of the form, urn:uuid:
 
 ### -param pContext [in, optional]
 
-Reference to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> object that defines custom message types or namespaces. 
+Reference to an <a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> object that defines custom message types or namespaces. 
 
 If <b>NULL</b>, a default context representing the built-in message types and namespaces is used.
 
 ### -param pSponsor [in, optional]
 
-Reference to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a> object that is an optional device with which to share a session and lower layers.
+Reference to an <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a> object that is an optional device with which to share a session and lower layers.
 
 ## -returns
 
@@ -122,9 +122,8 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-This method is called by <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-wsdcreatedeviceproxy">WSDCreateDeviceProxy</a> and need not normally be called directly by the client code.
+This method is called by <a href="/windows/desktop/api/wsdclient/nf-wsdclient-wsdcreatedeviceproxy">WSDCreateDeviceProxy</a> and need not normally be called directly by the client code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
-
+<a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>

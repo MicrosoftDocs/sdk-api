@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns property details for all file systems known to VDS.
 
@@ -60,9 +60,9 @@ Returns property details for all file systems known to VDS.
 ### -param ppFileSystemTypeProps [out]
 
 The address of a pointer to a buffer holding an array of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_file_system_type_prop">VDS_FILE_SYSTEM_TYPE_PROP</a> structures. 
+      <a href="/windows/desktop/api/vds/ns-vds-vds_file_system_type_prop">VDS_FILE_SYSTEM_TYPE_PROP</a> structures. 
       Callers must free the memory for the array and for the <b>pwszIllegalLabelCharSet</b> string 
-      by using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+      by using the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ### -param plNumberOfFileSystems [out]
 
@@ -70,7 +70,7 @@ The total number of file systems.
 
 ## -returns
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -106,9 +106,8 @@ VDS failed to initialize. If an application calls this method before the service
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>
+<a href="/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_file_system_type_prop">VDS_FILE_SYSTEM_TYPE_PROP</a>
-
+<a href="/windows/desktop/api/vds/ns-vds-vds_file_system_type_prop">VDS_FILE_SYSTEM_TYPE_PROP</a>

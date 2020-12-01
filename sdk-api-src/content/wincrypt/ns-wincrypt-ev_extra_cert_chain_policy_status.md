@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EV_EXTRA_CERT_CHAIN_POLICY_STATUS</b> structure is returned in the <b>pvExtraPolicyStatus</b>  member of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_policy_status">CERT_CHAIN_POLICY_STATUS</a> structure. The structure contains policy flags returned from a call to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> function.
+The <b>EV_EXTRA_CERT_CHAIN_POLICY_STATUS</b> structure is returned in the <b>pvExtraPolicyStatus</b>  member of a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_policy_status">CERT_CHAIN_POLICY_STATUS</a> structure. The structure contains policy flags returned from a call to the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy">CertVerifyCertificateChainPolicy</a> function.
 
 ## -struct-fields
 
@@ -74,7 +74,7 @@ the index, as shown in the following pseudocode:
 
 #### - fQualifiers
 
-A <b>DWORD</b> value that specifies which of the EV policy qualifiers are set corresponding to the policy <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for which the chain is valid.
+A <b>DWORD</b> value that specifies which of the EV policy qualifiers are set corresponding to the policy <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) for which the chain is valid.
 
 <table>
 <tr>
@@ -116,4 +116,3 @@ Validation of the  Subject logotype meets Program Requirements for display.
 </td>
 </tr>
 </table>
-

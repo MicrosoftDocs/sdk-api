@@ -61,11 +61,11 @@ Specifies the priority hint for a file I/O operation.
 ### -field PriorityHint
 
 The priority hint. This member is a value from the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-priority_hint">PRIORITY_HINT</a> enumeration.
+      <a href="/windows/desktop/api/winbase/ne-winbase-priority_hint">PRIORITY_HINT</a> enumeration.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a> function 
+The <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a> function 
     can be used with this structure to associate a priority hint with I/O operations on a file-handle basis. In 
     addition to the idle priority (very low), this function allows normal priority and low priority. Whether these 
     priorities are supported and honored by the underlying drivers depends on their implementation (which is why they 
@@ -77,9 +77,8 @@ This structure must be aligned on a <b>LONGLONG</b> (8-byte) boundary.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ne-winbase-priority_hint">PRIORITY_HINT</a>
+<a href="/windows/desktop/api/winbase/ne-winbase-priority_hint">PRIORITY_HINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>

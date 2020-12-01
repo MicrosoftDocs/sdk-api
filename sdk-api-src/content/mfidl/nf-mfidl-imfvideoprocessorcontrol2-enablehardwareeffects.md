@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Enables effects that were implemented with <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">IDirectXVideoProcessor::VideoProcessorBlt</a>.
+Enables effects that were implemented with <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">IDirectXVideoProcessor::VideoProcessorBlt</a>.
 
 ## -parameters
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol2">IMFVideoProcessorControl2</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol2">IMFVideoProcessorControl2</a>

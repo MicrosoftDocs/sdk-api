@@ -81,19 +81,18 @@ This enum is used by the following:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_query_desc1">D3D11_QUERY_DESC1</a> structure
+<a href="/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_query_desc1">D3D11_QUERY_DESC1</a> structure
           </li>
 <li>A CD3D11_QUERY_DESC1 constructor.</li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11devicecontext3-flush1">ID3D11DeviceContext3::Flush1</a> method
+<a href="/windows/desktop/api/d3d11_3/nf-d3d11_3-id3d11devicecontext3-flush1">ID3D11DeviceContext3::Flush1</a> method
           </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_query_desc1">D3D11_QUERY_DESC1</a>
-
+<a href="/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_query_desc1">D3D11_QUERY_DESC1</a>

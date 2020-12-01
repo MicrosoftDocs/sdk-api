@@ -72,15 +72,14 @@ The client first calls this method with the value <b>NULL</b> for the <i>pddPixe
 
 The <b>DDPIXELFORMAT</b> structure is documented in the Windows DDK.
 
-The client sets the format by calling the <a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setvideoformat">IVPBaseConfig::SetVideoFormat</a> method with an index number, which references one of the format structures returned by this method.
+The client sets the format by calling the <a href="/windows/desktop/api/vpconfig/nf-vpconfig-ivpbaseconfig-setvideoformat">IVPBaseConfig::SetVideoFormat</a> method with an index number, which references one of the format structures returned by this method.
 
 Include Dvp.h and Vptype.h before Vpconfig.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig Interface</a>
-
+<a href="/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig Interface</a>

@@ -56,7 +56,7 @@ Sets the HDR metadata describing the display on which the content will be presen
 
 ### -param pVideoProcessor [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface.
+A pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface.
 
 ### -param Type [in]
 
@@ -76,7 +76,7 @@ Pointer to the metadata information.
 
 For <b>DXGI_HDR_METADATA_TYPE_NONE</b>, this should be NULL.
 
-For <b>DXGI_HDR_METADATA_TYPE_HDR10</b>, this is a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/ns-dxgi1_5-dxgi_hdr_metadata_hdr10">DXGI_HDR_METADATA_HDR10</a> structure.
+For <b>DXGI_HDR_METADATA_TYPE_HDR10</b>, this is a pointer to a <a href="/windows/desktop/api/dxgi1_5/ns-dxgi1_5-dxgi_hdr_metadata_hdr10">DXGI_HDR_METADATA_HDR10</a> structure.
 
 ## -remarks
 
@@ -84,9 +84,8 @@ When processing an HDR stream, the driver may use this metadata optimize the vid
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videocontext2">ID3D11VideoContext2</a>
+<a href="/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videocontext2">ID3D11VideoContext2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videocontext2">ID3DVideoContext2</a>
-
+<a href="/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videocontext2">ID3DVideoContext2</a>

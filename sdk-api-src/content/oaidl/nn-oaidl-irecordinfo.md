@@ -54,7 +54,7 @@ Describes the structure of a particular UDT. You can use <b>IRecordInfo</b> any 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRecordInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRecordInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRecordInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRecordInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRecordInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getfield">GetField</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getfield">GetField</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the VARIANT containing the value of a given field name.
@@ -80,7 +80,7 @@ Returns a pointer to the VARIANT containing the value of a given field name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getfieldnames">GetFieldNames</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getfieldnames">GetFieldNames</a>
 </td>
 <td align="left" width="63%">
 Gets the names of the fields of the record.
@@ -91,7 +91,7 @@ Gets the names of the fields of the record.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getfieldnocopy">GetFieldNoCopy</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getfieldnocopy">GetFieldNoCopy</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to the value of a given field name without copying the value and allocating resources.
@@ -100,7 +100,7 @@ Returns a pointer to the value of a given field name without copying the value a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getguid">GetGuid</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getguid">GetGuid</a>
 </td>
 <td align="left" width="63%">
 Gets the GUID of the record type.
@@ -111,7 +111,7 @@ Gets the GUID of the record type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getname">GetName</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the record type.
@@ -120,7 +120,7 @@ Gets the name of the record type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getsize">GetSize</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Gets the number of bytes of memory necessary to hold the record instance.
@@ -129,7 +129,7 @@ Gets the number of bytes of memory necessary to hold the record instance.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-gettypeinfo">GetTypeInfo</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-gettypeinfo">GetTypeInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type information that describes a UDT or safearray of UDTs.
@@ -138,7 +138,7 @@ Retrieves the type information that describes a UDT or safearray of UDTs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-ismatchingtype">IsMatchingType</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-ismatchingtype">IsMatchingType</a>
 </td>
 <td align="left" width="63%">
 Determines whether the record that is passed in matches that of the current record information.
@@ -147,7 +147,7 @@ Determines whether the record that is passed in matches that of the current reco
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-putfield">PutField</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-putfield">PutField</a>
 </td>
 <td align="left" width="63%">
 Puts a variant into a field.
@@ -158,7 +158,7 @@ Puts a variant into a field.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-putfieldnocopy">PutFieldNoCopy</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-putfieldnocopy">PutFieldNoCopy</a>
 </td>
 <td align="left" width="63%">
  Passes ownership of the data to the assigned field by placing the actual data into the field.
@@ -167,7 +167,7 @@ Puts a variant into a field.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordclear">RecordClear</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordclear">RecordClear</a>
 </td>
 <td align="left" width="63%">
 Releases object references and other values of a record without deallocating the record.
@@ -176,7 +176,7 @@ Releases object references and other values of a record without deallocating the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcopy">RecordCopy</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcopy">RecordCopy</a>
 </td>
 <td align="left" width="63%">
 Copies an existing record into the passed in buffer.
@@ -185,7 +185,7 @@ Copies an existing record into the passed in buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreate">RecordCreate</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreate">RecordCreate</a>
 </td>
 <td align="left" width="63%">
 Allocates memory for a new record, initializes the instance and returns a pointer to the record.
@@ -194,7 +194,7 @@ Allocates memory for a new record, initializes the instance and returns a pointe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreatecopy">RecordCreateCopy</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordcreatecopy">RecordCreateCopy</a>
 </td>
 <td align="left" width="63%">
 Creates a copy of an instance of a record to the specified location.
@@ -205,7 +205,7 @@ Creates a copy of an instance of a record to the specified location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recorddestroy">RecordDestroy</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recorddestroy">RecordDestroy</a>
 </td>
 <td align="left" width="63%">
 Releases the resources and deallocates the memory of the record. 
@@ -216,7 +216,7 @@ Releases the resources and deallocates the memory of the record.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordinit">RecordInit</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-irecordinfo-recordinit">RecordInit</a>
 </td>
 <td align="left" width="63%">
 Initializes a new instance of a record. 
@@ -227,9 +227,8 @@ Initializes a new instance of a record.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/udt-functions-and-interfaces">UDT Functions and Interfaces</a>
+<a href="/previous-versions/windows/desktop/automat/udt-functions-and-interfaces">UDT Functions and Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/automat/user-defined-data-types">User-Defined Data Types </a>
-
+<a href="/previous-versions/windows/desktop/automat/user-defined-data-types">User-Defined Data Types </a>

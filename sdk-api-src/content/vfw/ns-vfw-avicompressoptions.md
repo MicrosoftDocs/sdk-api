@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>AVICOMPRESSOPTIONS</b> structure contains information about a stream and how it is compressed and saved. This structure passes data to the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avimakecompressedstream">AVIMakeCompressedStream</a> function (or the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avisavea">AVISave</a> function, which uses <b>AVIMakeCompressedStream</b>).
+The <b>AVICOMPRESSOPTIONS</b> structure contains information about a stream and how it is compressed and saved. This structure passes data to the <a href="/windows/desktop/api/vfw/nf-vfw-avimakecompressedstream">AVIMakeCompressedStream</a> function (or the <a href="/windows/desktop/api/vfw/nf-vfw-avisavea">AVISave</a> function, which uses <b>AVIMakeCompressedStream</b>).
 
 ## -struct-fields
 
@@ -109,7 +109,7 @@ Indicates a video stream.
 
 ### -field fccHandler
 
-Four-character code for the compressor handler that will compress this video stream when it is saved (for example, <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mmiofourcc">mmioFOURCC</a> ('M','S','V','C')). This member is not used for audio streams.
+Four-character code for the compressor handler that will compress this video stream when it is saved (for example, <a href="/windows/desktop/api/vfw/nf-vfw-mmiofourcc">mmioFOURCC</a> ('M','S','V','C')). This member is not used for audio streams.
 
 ### -field dwKeyFrameEvery
 
@@ -168,7 +168,7 @@ Saves this video stream with key frames at least every <b>dwKeyFrameEvery</b> fr
 </dl>
 </td>
 <td width="60%">
-Uses the data in this structure to set the default compression values for <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avisaveoptions">AVISaveOptions</a>. If an empty structure is passed and this flag is not set, some defaults will be chosen.
+Uses the data in this structure to set the default compression values for <a href="/windows/desktop/api/vfw/nf-vfw-avisaveoptions">AVISaveOptions</a>. If an empty structure is passed and this flag is not set, some defaults will be chosen.
 
 </td>
 </tr>
@@ -200,21 +200,20 @@ AVIFile Functions and Macros
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/avifile-structures">AVIFile Structures</a>
+<a href="/windows/desktop/Multimedia/avifile-structures">AVIFile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avimakecompressedstream">AVIMakeCompressedStream</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-avimakecompressedstream">AVIMakeCompressedStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avisavea">AVISave</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-avisavea">AVISave</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avisaveoptions">AVISaveOptions</a>
+<a href="/windows/desktop/api/vfw/nf-vfw-avisaveoptions">AVISaveOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-mmiofourcc">mmioFOURCC</a>
-
+<a href="/windows/desktop/api/vfw/nf-vfw-mmiofourcc">mmioFOURCC</a>

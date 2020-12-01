@@ -54,17 +54,17 @@ api_name:
 
 ## -description
 
-The DD_GETVPORTOUTPUTFORMATDATA structure contains the information required for the driver to return all of the output formats that the <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a> object supports for a given input format.
+The DD_GETVPORTOUTPUTFORMATDATA structure contains the information required for the driver to return all of the output formats that the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object supports for a given input format.
 
 ## -struct-fields
 
 ### -field lpDD
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
+Points to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current Microsoft DirectDraw process only.
 
 ### -field lpVideoPort
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this VPE object.
+Points to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a> structure that represents this VPE object.
 
 ### -field dwFlags
 
@@ -81,7 +81,7 @@ DDVPFORMAT_VBI
 
 </td>
 <td>
-The driver should return formats for the <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> data.
+The driver should return formats for the <a href="/windows-hardware/drivers/">VBI</a> data.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ The driver should return formats for the video data.
 
 ### -field lpddpfInputFormat
 
-Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure that contains an input format supported by the VPE object. This format was returned by <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getinputformats">DdVideoPortGetInputFormats</a>.
+Points to a <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ddpixelformat">DDPIXELFORMAT</a> structure that contains an input format supported by the VPE object. This format was returned by <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getinputformats">DdVideoPortGetInputFormats</a>.
 
 ### -field lpddpfOutputFormats
 
@@ -111,7 +111,7 @@ Specifies the location in which the driver should return the number of output fo
 
 ### -field ddRVal
 
-Specifies the location in which the driver writes the return value of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getoutputformats">DdVideoPortGetOutputFormats</a> callback. A return code of DD_OK indicates success. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
+Specifies the location in which the driver writes the return value of the <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getoutputformats">DdVideoPortGetOutputFormats</a> callback. A return code of DD_OK indicates success. For more information, see <a href="/windows-hardware/drivers/display/return-values-for-directdraw">Return Values for DirectDraw</a>.
 
 ### -field GetVideoPortInputFormats
 
@@ -119,5 +119,4 @@ Unused: Win95 compatibility
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getoutputformats">DdVideoPortGetOutputFormats</a>
-
+<a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getoutputformats">DdVideoPortGetOutputFormats</a>

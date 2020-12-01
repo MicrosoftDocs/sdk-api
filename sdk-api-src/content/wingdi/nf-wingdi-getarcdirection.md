@@ -81,13 +81,12 @@ The return value specifies the current arc direction; it can be any one of the f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
+<a href="/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
+<a href="/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setarcdirection">SetArcDirection</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setarcdirection">SetArcDirection</a>

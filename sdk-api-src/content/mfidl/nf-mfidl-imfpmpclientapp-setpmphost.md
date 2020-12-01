@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Sets a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp">IMFPMPHostApp</a> interface allowing a media source to create objects in the PMP process.
+Sets a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp">IMFPMPHostApp</a> interface allowing a media source to create objects in the PMP process.
 
 ## -parameters
 
 ### -param pPMPHost [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp">IMFPMPHostApp</a> interface.
+A pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmphostapp">IMFPMPHostApp</a> interface.
 
 ## -returns
 
@@ -65,17 +65,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpmpclientapp">IMFPMPClientApp</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmpclientapp">IMFPMPClientApp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
+<a href="/windows/desktop/medfound/pmp-media-session">PMP Media Session</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
-
+<a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>

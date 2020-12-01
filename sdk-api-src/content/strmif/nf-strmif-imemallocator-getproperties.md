@@ -57,7 +57,7 @@ The <code>GetProperties</code> method retrieves the number of buffers that the a
 
 ### -param pProps [out]
 
-Pointer to an [ALLOCATOR_PROPERTIES](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure that receives the allocator properties.
+Pointer to an [ALLOCATOR_PROPERTIES](/windows/desktop/api/strmif/ns-strmif-allocator_properties) structure that receives the allocator properties.
 
 ## -returns
 
@@ -65,13 +65,12 @@ Returns S_OK if successful, or an <b>HRESULT</b> value indicating the cause of t
 
 ## -remarks
 
-Calls to this method might not succeed until the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imemallocator-commit">IMemAllocator::Commit</a> method is called.
+Calls to this method might not succeed until the <a href="/windows/desktop/api/strmif/nf-strmif-imemallocator-commit">IMemAllocator::Commit</a> method is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator Interface</a>

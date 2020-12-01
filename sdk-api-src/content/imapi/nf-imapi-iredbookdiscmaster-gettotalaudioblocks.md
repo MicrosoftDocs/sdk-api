@@ -64,5 +64,4 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-iredbookdiscmaster">IRedbookDiscMaster</a>
-
+<a href="/windows/desktop/api/imapi/nn-imapi-iredbookdiscmaster">IRedbookDiscMaster</a>

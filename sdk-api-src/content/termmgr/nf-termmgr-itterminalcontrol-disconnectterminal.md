@@ -98,5 +98,4 @@ An unknown error occurred during the disconnect attempt.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/termmgr/nn-termmgr-itterminalcontrol">ITTerminalControl</a>
-
+<a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalcontrol">ITTerminalControl</a>

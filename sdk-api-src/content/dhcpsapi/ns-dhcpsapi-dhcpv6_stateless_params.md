@@ -66,13 +66,12 @@ Integer that specifies the maximum time interval, in hours, that stateless IPv6 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcpv6_stateless_param_type">DHCPV6_STATELESS_PARAM_TYPE</a>
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcpv6_stateless_param_type">DHCPV6_STATELESS_PARAM_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv6getstatelessstoreparams">Dhcpv6GetStatelessStoreParams</a>
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv6getstatelessstoreparams">Dhcpv6GetStatelessStoreParams</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv6setstatelessstoreparams">Dhcpv6SetStatelessStoreParams</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv6setstatelessstoreparams">Dhcpv6SetStatelessStoreParams</a>

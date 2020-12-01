@@ -54,7 +54,7 @@ The IManipulationProcessor provides functionality for monitoring and responding 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IManipulationProcessor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IManipulationProcessor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IManipulationProcessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IManipulationProcessor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IManipulationProcessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-completemanipulation">CompleteManipulation</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-completemanipulation">CompleteManipulation</a>
 </td>
 <td align="left" width="63%">
 Call this method when you want manipulation to end.  This method raises the <a href="/windows/win32/api/manipulations/nf-manipulations-_imanipulationevents-manipulationcompleted">ManipulationCompleted</a> event.
@@ -79,7 +79,7 @@ Call this method when you want manipulation to end.  This method raises the <a h
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getangularvelocity">GetAngularVelocity</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getangularvelocity">GetAngularVelocity</a>
 </td>
 <td align="left" width="63%">
 Calculates the rotational velocity that the target object is moving at.
@@ -88,7 +88,7 @@ Calculates the rotational velocity that the target object is moving at.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getexpansionvelocity">GetExpansionVelocity</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getexpansionvelocity">GetExpansionVelocity</a>
 </td>
 <td align="left" width="63%">
 Calculates the rate that the target object is expanding at.
@@ -97,7 +97,7 @@ Calculates the rate that the target object is expanding at.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getvelocityx">GetVelocityX</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getvelocityx">GetVelocityX</a>
 </td>
 <td align="left" width="63%">
 Calculates and returns the horizontal velocity for the target object.
@@ -106,7 +106,7 @@ Calculates and returns the horizontal velocity for the target object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getvelocityy">GetVelocityY</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-getvelocityy">GetVelocityY</a>
 </td>
 <td align="left" width="63%">
 Calculates and returns the vertical velocity.
@@ -115,7 +115,7 @@ Calculates and returns the vertical velocity.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdown">ProcessDown</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdown">ProcessDown</a>
 </td>
 <td align="left" width="63%">
 Feeds data to the manipulation processor associated with a target.
@@ -124,7 +124,7 @@ Feeds data to the manipulation processor associated with a target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdownwithtime">ProcessDownWithTime</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processdownwithtime">ProcessDownWithTime</a>
 </td>
 <td align="left" width="63%">
 Feeds data including a timestamp to the manipulation processor associated with a target.
@@ -133,7 +133,7 @@ Feeds data including a timestamp to the manipulation processor associated with a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmove">ProcessMove</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmove">ProcessMove</a>
 </td>
 <td align="left" width="63%">
 Feeds data to the manipulation processor associated with a target.
@@ -142,7 +142,7 @@ Feeds data to the manipulation processor associated with a target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmovewithtime">ProcessMoveWithTime</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processmovewithtime">ProcessMoveWithTime</a>
 </td>
 <td align="left" width="63%">
 Feeds data including a timestamp to the manipulation processor associated with a target.
@@ -151,7 +151,7 @@ Feeds data including a timestamp to the manipulation processor associated with a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processup">ProcessUp</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processup">ProcessUp</a>
 </td>
 <td align="left" width="63%">
 Feeds data to the manipulation processor associated with a target.
@@ -160,7 +160,7 @@ Feeds data to the manipulation processor associated with a target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime">ProcessUpWithTime</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-processupwithtime">ProcessUpWithTime</a>
 </td>
 <td align="left" width="63%">
 Feeds data including a timestamp to the manipulation processor associated with a target.
@@ -178,7 +178,7 @@ Feeds data including a timestamp to the manipulation processor associated with a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/imanipulationprocessor-minimumscalerotateradius">MinimumScaleRotateRadius</a>
+<a href="/windows/desktop/wintouch/imanipulationprocessor-minimumscalerotateradius">MinimumScaleRotateRadius</a>
 
 
 </td>
@@ -194,7 +194,7 @@ Specifies how large the distance contacts on a scale or rotate gesture need to b
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointx">PivotPointX</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointx">PivotPointX</a>
 
 
 </td>
@@ -210,7 +210,7 @@ This property is the horizontal center of the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointy">PivotPointY</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointy">PivotPointY</a>
 
 
 </td>
@@ -226,7 +226,7 @@ This property is the vertical center of the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius">PivotRadius</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius">PivotRadius</a>
 
 
 </td>
@@ -242,7 +242,7 @@ This property is used to determine how much rotation is used in single finger ma
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_supportedmanipulations">SupportedManipulations</a>
+<a href="/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_supportedmanipulations">SupportedManipulations</a>
 
 
 </td>
@@ -259,5 +259,4 @@ This property is used to indicate which manipulations are supported by an object
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wintouch/intertmanip-classes-and-interfaces">Classes and Interfaces</a>
-
+<a href="/windows/desktop/wintouch/intertmanip-classes-and-interfaces">Classes and Interfaces</a>

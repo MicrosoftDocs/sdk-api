@@ -64,7 +64,7 @@ An unsigned long integer value that contains the desktop item's identification.
 
 Type: <b>LPCOMPONENT</b>
 
-The address of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure of the retrieved desktop item.
+The address of the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure of the retrieved desktop item.
 
 ### -param dwReserved
 
@@ -80,9 +80,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The desktop item's identification is returned in the <b>dwID</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure that is returned from the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitem">IActiveDesktop::GetDesktopItem</a> method. This identification is only valid until the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges">IActiveDesktop::ApplyChanges</a> method is called. Applications that must retrieve the same desktop item consistently should enumerate the desktop items using the <b>IActiveDesktop::GetDesktopItem</b> and <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemcount">IActiveDesktop::GetDesktopItemCount</a> methods.
+The desktop item's identification is returned in the <b>dwID</b> member of the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-component">COMPONENT</a> structure that is returned from the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitem">IActiveDesktop::GetDesktopItem</a> method. This identification is only valid until the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-applychanges">IActiveDesktop::ApplyChanges</a> method is called. Applications that must retrieve the same desktop item consistently should enumerate the desktop items using the <b>IActiveDesktop::GetDesktopItem</b> and <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iactivedesktop-getdesktopitemcount">IActiveDesktop::GetDesktopItemCount</a> methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
-
+<a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>

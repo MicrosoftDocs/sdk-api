@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>INET_PORT_RANGE</b> structure provides input data used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL to acquire a runtime reservation for a block of TCP or UDP ports.
+The <b>INET_PORT_RANGE</b> structure provides input data used by the <a href="/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL to acquire a runtime reservation for a block of TCP or UDP ports.
 
 ## -struct-fields
 
@@ -71,52 +71,51 @@ The number of TCP or UDP port numbers to reserve.
 The  <b>INET_PORT_RANGE</b> structure is supported on Windows Vistaand later.
 
 The 
-<b>INET_PORT_RANGE</b> structure is the datatype passed in the input buffer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL. This IOCTL is used to acquire a runtime reservation for a block of TCP or UDP ports.  
+<b>INET_PORT_RANGE</b> structure is the datatype passed in the input buffer to the <a href="/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a> IOCTL. This IOCTL is used to acquire a runtime reservation for a block of TCP or UDP ports.  
 
 The 
 <b>INET_PORT_RANGE</b> structure is typedefed to the <b>INET_PORT_RESERVATION</b> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistenttcpportreservation">CreatePersistentTcpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation">CreatePersistentUdpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createpersistentudpportreservation">CreatePersistentUdpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistenttcpportreservation">DeletePersistentTcpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistenttcpportreservation">DeletePersistentTcpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistentudpportreservation">DeletePersistentUdpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deletepersistentudpportreservation">DeletePersistentUdpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-inet_port_reservation_instance">INET_PORT_RESERVATION_INSTANCE</a>
+<a href="/windows/desktop/api/mstcpip/ns-mstcpip-inet_port_reservation_instance">INET_PORT_RESERVATION_INSTANCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstcpip/ns-mstcpip-inet_port_reservation_token">INET_PORT_RESERVATION_TOKEN</a>
+<a href="/windows/desktop/api/mstcpip/ns-mstcpip-inet_port_reservation_token">INET_PORT_RESERVATION_TOKEN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistenttcpportreservation">LookupPersistentTcpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistenttcpportreservation">LookupPersistentTcpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistentudpportreservation">LookupPersistentUdpPortReservation</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-lookuppersistentudpportreservation">LookupPersistentUdpPortReservation</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a>
+<a href="/previous-versions/windows/desktop/legacy/gg699720(v=vs.85)">SIO_ACQUIRE_PORT_RESERVATION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)">SIO_ASSOCIATE_PORT_RESERVATION</a>
+<a href="/previous-versions/windows/desktop/legacy/gg699721(v=vs.85)">SIO_ASSOCIATE_PORT_RESERVATION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/gg699722(v=vs.85)">SIO_RELEASE_PORT_RESERVATION</a>
-
+<a href="/previous-versions/windows/desktop/legacy/gg699722(v=vs.85)">SIO_RELEASE_PORT_RESERVATION</a>

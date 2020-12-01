@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>ICDrawStartPlay</b> macro provides the start and end times of a play operation to a rendering driver. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-start-play">ICM_DRAW_START_PLAY</a> message.
+The <b>ICDrawStartPlay</b> macro provides the start and end times of a play operation to a rendering driver. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/icm-draw-start-play">ICM_DRAW_START_PLAY</a> message.
 
 ## -parameters
 
@@ -70,15 +70,14 @@ End time.
 
 This message precedes any frame data sent to the rendering driver.
 
-Units for <i>lFrom</i> and <i>lTo</i> are specified with the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> message. For video data this is normally a frame number. For more information about the playback rate, see the <b>dwRate</b> and <b>dwScale</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-icdrawbegin">ICDRAWBEGIN</a> structure.
+Units for <i>lFrom</i> and <i>lTo</i> are specified with the <a href="/windows/desktop/Multimedia/icm-draw-begin">ICM_DRAW_BEGIN</a> message. For video data this is normally a frame number. For more information about the playback rate, see the <b>dwRate</b> and <b>dwScale</b> members of the <a href="/windows/desktop/api/vfw/ns-vfw-icdrawbegin">ICDRAWBEGIN</a> structure.
 
 If the end time is less than the start time, the playback direction is reversed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
+<a href="/windows/desktop/Multimedia/video-compression-macros">Video Compression Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

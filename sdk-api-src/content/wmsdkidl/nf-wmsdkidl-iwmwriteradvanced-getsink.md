@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-The <b>GetSink</b> method retrieves a writer sink object. Used in conjunction with <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsinkcount">IWMWriterAdvanced::GetSinkCount</a>, this method can be used to enumerate the sinks associated with a writer object.
+The <b>GetSink</b> method retrieves a writer sink object. Used in conjunction with <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsinkcount">IWMWriterAdvanced::GetSinkCount</a>, this method can be used to enumerate the sinks associated with a writer object.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ The <b>GetSink</b> method retrieves a writer sink object. Used in conjunction wi
 
 ### -param ppSink [out]
 
-Pointer to a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink</a> interface.
+Pointer to a pointer to an <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink</a> interface.
 
 ## -returns
 
@@ -100,25 +100,24 @@ Either the <i>ppSink</i> parameter is <b>NULL</b>, or the <i>dwSinkNum</i> param
 
 ## -remarks
 
-You can use <b>GetSink</b> to gain access to the file sink that is automatically created when you call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setoutputfilename">IWMWriter::SetOutputFilename</a>. If you are only writing to the automatically created file sink, it will always be sink number 0.
+You can use <b>GetSink</b> to gain access to the file sink that is automatically created when you call <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-setoutputfilename">IWMWriter::SetOutputFilename</a>. If you are only writing to the automatically created file sink, it will always be sink number 0.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumerating-sinks">Enumerating Sinks</a>
+<a href="/windows/desktop/wmformat/enumerating-sinks">Enumerating Sinks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-addsink">IWMWriterAdvanced::AddSink</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-addsink">IWMWriterAdvanced::AddSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsinkcount">IWMWriterAdvanced::GetSinkCount</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsinkcount">IWMWriterAdvanced::GetSinkCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink">IWMWriterAdvanced::RemoveSink</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink">IWMWriterAdvanced::RemoveSink</a>

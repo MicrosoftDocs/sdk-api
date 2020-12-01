@@ -52,15 +52,15 @@ api_name:
 
 ## -description
 
-The <b>LookupSecurityDescriptorParts</b> function retrieves security information from a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative security descriptor</a>.
+The <b>LookupSecurityDescriptorParts</b> function retrieves security information from a <a href="/windows/desktop/SecGloss/s-gly">self-relative security descriptor</a>.
 
 ## -parameters
 
 ### -param ppOwner [out, optional]
 
 A pointer to a variable that receives a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure. The function looks up the name associated with the owner 
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID)  in the <i>pSD</i> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>, and returns a pointer to the name in the <b>ptstrName</b> member of the <b>TRUSTEE</b> structure. The function sets the <b>TrusteeForm</b> member to TRUSTEE_IS_NAME. 
+<a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure. The function looks up the name associated with the owner 
+<a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID)  in the <i>pSD</i> <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a>, and returns a pointer to the name in the <b>ptstrName</b> member of the <b>TRUSTEE</b> structure. The function sets the <b>TrusteeForm</b> member to TRUSTEE_IS_NAME. 
 
 
 
@@ -69,7 +69,7 @@ This parameter can be <b>NULL</b> if you are not interested in the name of the o
 
 ### -param ppGroup [out, optional]
 
-A pointer to a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure. The function looks up the name associated with the primary group SID of the security descriptor, and returns a pointer to the name in the <b>ptstrName</b> member of the <b>TRUSTEE</b> structure. The function sets the <b>TrusteeForm</b> member to TRUSTEE_IS_NAME.  
+A pointer to a variable that receives a pointer to a <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure. The function looks up the name associated with the primary group SID of the security descriptor, and returns a pointer to the name in the <b>ptstrName</b> member of the <b>TRUSTEE</b> structure. The function sets the <b>TrusteeForm</b> member to TRUSTEE_IS_NAME.  
 
 
 
@@ -79,26 +79,26 @@ This parameter can be <b>NULL</b> if you are not interested in the name of the g
 ### -param pcCountOfAccessEntries [out, optional]
 
 A pointer to a <b>ULONG</b> that receives the number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures returned in the <i>pListOfAccessEntries</i> array. This parameter can be <b>NULL</b> only if the <i>pListOfAccessEntries</i> parameter is also <b>NULL</b>.
+<a href="/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures returned in the <i>pListOfAccessEntries</i> array. This parameter can be <b>NULL</b> only if the <i>pListOfAccessEntries</i> parameter is also <b>NULL</b>.
 
 ### -param ppListOfAccessEntries [out, optional]
 
-A pointer to a variable that receives a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures that describe the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) of the security descriptor. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure in these <b>EXPLICIT_ACCESS</b> structures use the TRUSTEE_IS_NAME form. For a description of how an array of <b>EXPLICIT_ACCESS</b> structures describes the ACEs in an 
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control list</a> (ACL), see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a> function. If this parameter is <b>NULL</b>, the <i>cCountOfAccessEntries</i> parameter must also be <b>NULL</b>.
+A pointer to a variable that receives a pointer to an array of <a href="/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures that describe the <a href="/windows/desktop/SecGloss/a-gly">access control entries</a> (ACEs) in the <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) of the security descriptor. The 
+<a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure in these <b>EXPLICIT_ACCESS</b> structures use the TRUSTEE_IS_NAME form. For a description of how an array of <b>EXPLICIT_ACCESS</b> structures describes the ACEs in an 
+<a href="/windows/desktop/SecGloss/a-gly">access control list</a> (ACL), see the 
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a> function. If this parameter is <b>NULL</b>, the <i>cCountOfAccessEntries</i> parameter must also be <b>NULL</b>.
 
 ### -param pcCountOfAuditEntries [out, optional]
 
-A pointer to a <b>ULONG</b> that receives the number of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures returned in the <i>pListOfAuditEntries</i> array. This parameter can be <b>NULL</b> only if the <i>pListOfAuditEntries</i> parameter is also <b>NULL</b>.
+A pointer to a <b>ULONG</b> that receives the number of <a href="/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures returned in the <i>pListOfAuditEntries</i> array. This parameter can be <b>NULL</b> only if the <i>pListOfAuditEntries</i> parameter is also <b>NULL</b>.
 
 ### -param ppListOfAuditEntries [out, optional]
 
-A pointer to a variable that receives a pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures that describe the ACEs in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) of the security descriptor. The <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure in these <b>EXPLICIT_ACCESS</b> structures uses the TRUSTEE_IS_NAME form. If this parameter is <b>NULL</b>, the <i>cCountOfAuditEntries</i> parameter must also be <b>NULL</b>.
+A pointer to a variable that receives a pointer to an array of <a href="/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a> structures that describe the ACEs in the <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) of the security descriptor. The <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure in these <b>EXPLICIT_ACCESS</b> structures uses the TRUSTEE_IS_NAME form. If this parameter is <b>NULL</b>, the <i>cCountOfAuditEntries</i> parameter must also be <b>NULL</b>.
 
 ### -param pSD [in]
 
-A pointer to an existing <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative security descriptor</a> from which the function retrieves security information.
+A pointer to an existing <a href="/windows/desktop/SecGloss/s-gly">self-relative security descriptor</a> from which the function retrieves security information.
 
 ## -returns
 
@@ -112,7 +112,7 @@ The <b>LookupSecurityDescriptorParts</b> function retrieves the names of the own
 
 The parameters other than <i>pSD</i> can be <b>NULL</b> if you are not interested in the information. If you do not want information about the DACL, both <i>pListOfAccessEntries</i> and <i>cCountOfAuditEntries</i> must be <b>NULL</b>. If you do not want information about the SACL, both <i>pListOfAuditEntries</i> and <i>cCountOfAuditEntries</i> must be <b>NULL</b>. Similarly, if you do want DACL or SACL information, both of the corresponding parameters must not be <b>NULL</b>.
 
-When you have finished using any of the buffers returned by the <i>pOwner</i>, <i>pGroup</i>, <i>pListOfAccessEntries</i>, or <i>pListOfAuditEntries</i> parameters, free them by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
+When you have finished using any of the buffers returned by the <i>pOwner</i>, <i>pGroup</i>, <i>pListOfAccessEntries</i>, or <i>pListOfAuditEntries</i> parameters, free them by calling the <a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function.
 
 The <b>LookupSecurityDescriptorParts</b> function is intended for trusted servers that implement or expose security on their own objects. The function works with a self-relative security descriptor suitable for serializing into a stream and storing to disk, as a trusted server might require.
 
@@ -125,41 +125,40 @@ The <b>LookupSecurityDescriptorParts</b> function is intended for trusted server
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/ace">ACE</a>
+<a href="/windows/desktop/SecAuthZ/ace">ACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a>
+<a href="/windows/desktop/api/accctrl/ns-accctrl-explicit_access_a">EXPLICIT_ACCESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-getexplicitentriesfromacla">GetExplicitEntriesFromAcl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
-
+<a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>

@@ -67,7 +67,7 @@ The node name of the node that hosts the CSV.
 
 ### -field VolumeState
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-cluster_shared_volume_state">CLUSTER_SHARED_VOLUME_STATE</a> enumeration value that specifies the state of the CSV.
+A <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_shared_volume_state">CLUSTER_SHARED_VOLUME_STATE</a> enumeration value that specifies the state of the CSV.
 
 ### -field szVolumeFriendlyName
 
@@ -163,9 +163,8 @@ All reasons.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_shared_volume_state_info">CLUSTER_SHARED_VOLUME_STATE_INFO</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_shared_volume_state_info">CLUSTER_SHARED_VOLUME_STATE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>

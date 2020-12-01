@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imflocalmftregistration-registermfts">IMFLocalMFTRegistration::RegisterMFTs</a> method.
+Contains parameters for the <a href="/windows/desktop/api/mfidl/nf-mfidl-imflocalmftregistration-registermfts">IMFLocalMFTRegistration::RegisterMFTs</a> method.
 
 ## -struct-fields
 
@@ -62,7 +62,7 @@ CLSID of the Media Foundation transform (MFT) to register.
 
 ### -field guidCategory
 
-GUID that specifies the category of the MFT. For a list of MFT categories, see <a href="https://docs.microsoft.com/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
+GUID that specifies the category of the MFT. For a list of MFT categories, see <a href="/windows/desktop/medfound/mft-category">MFT_CATEGORY</a>.
 
 ### -field uiFlags
 
@@ -90,5 +90,4 @@ Pointer to an array of <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

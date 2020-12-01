@@ -108,7 +108,7 @@ Returns S_OK if successful, or an error value otherwise, including the following
 </dl>
 </td>
 <td width="60%">
-The file could not be loaded or the calling application stopped the decode process through a call to a registered <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedataabort">IShellImageDataAbort</a> (see <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-registerabort">IShellImageData::RegisterAbort</a> for more information).
+The file could not be loaded or the calling application stopped the decode process through a call to a registered <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedataabort">IShellImageDataAbort</a> (see <a href="/windows/desktop/api/shimgdata/nf-shimgdata-ishellimagedata-registerabort">IShellImageData::RegisterAbort</a> for more information).
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ The internal object cannot be instantiated.
 </dl>
 </td>
 <td width="60%">
-The path used to create this instance of <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> was a URL.
+The path used to create this instance of <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> was a URL.
 
 </td>
 </tr>
@@ -149,7 +149,6 @@ The image has already been decoded.
 
 ## -remarks
 
-<b>IShellImageData::Decode</b> must be called prior to calling most <a href="https://docs.microsoft.com/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> methods. Not doing so causes those methods to fail.
+<b>IShellImageData::Decode</b> must be called prior to calling most <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> methods. Not doing so causes those methods to fail.
 
 <b>IShellImageData::Decode</b> attempts to maintain the aspect ratio of the original image, so one of the values passed in <i>cxDesired</i> or <i>cyDesired</i> might be overridden to do so.
-

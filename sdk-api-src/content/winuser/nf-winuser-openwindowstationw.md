@@ -50,6 +50,7 @@ api_name:
  - OpenWindowStation
  - OpenWindowStationA
  - OpenWindowStationW
+req.apiset: ext-ms-win-ntuser-windowstation-ansi-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # OpenWindowStationW function
@@ -74,19 +75,19 @@ If this value is <b>TRUE</b>, processes created by this process will inherit the
 ### -param dwDesiredAccess [in]
 
 The access to the window station. For a list of access rights, see 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-security-and-access-rights">Window Station Security and Access Rights</a>.
+<a href="/windows/desktop/winstation/window-station-security-and-access-rights">Window Station Security and Access Rights</a>.
 
 ## -returns
 
 If the function succeeds, the return value is the handle to the specified window station.
 
 If the function fails, the return value is <b>NULL</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 After you are done with the handle, you must call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closewindowstation">CloseWindowStation</a> to free the handle.
+<a href="/windows/desktop/api/winuser/nf-winuser-closewindowstation">CloseWindowStation</a> to free the handle.
 
 
 
@@ -97,21 +98,20 @@ After you are done with the handle, you must call
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closewindowstation">CloseWindowStation</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-closewindowstation">CloseWindowStation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindows">ExitWindows</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-exitwindows">ExitWindows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-exitwindowsex">ExitWindowsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
+<a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winstation/window-stations">Window Stations</a>
-
+<a href="/windows/desktop/winstation/window-stations">Window Stations</a>

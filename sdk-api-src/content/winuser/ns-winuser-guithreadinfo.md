@@ -176,7 +176,7 @@ The caret's bounding rectangle, in client coordinates, relative to the window sp
 
 ## -remarks
 
-This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getguithreadinfo">GetGUIThreadInfo</a> function to retrieve information about the active window or a specified GUI thread.
+This structure is used with the <a href="/windows/desktop/api/winuser/nf-winuser-getguithreadinfo">GetGUIThreadInfo</a> function to retrieve information about the active window or a specified GUI thread.
 
 ## -see-also
 
@@ -184,7 +184,7 @@ This structure is used with the <a href="https://docs.microsoft.com/windows/desk
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getguithreadinfo">GetGUIThreadInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getguithreadinfo">GetGUIThreadInfo</a>
 
 
 
@@ -192,5 +192,4 @@ This structure is used with the <a href="https://docs.microsoft.com/windows/desk
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

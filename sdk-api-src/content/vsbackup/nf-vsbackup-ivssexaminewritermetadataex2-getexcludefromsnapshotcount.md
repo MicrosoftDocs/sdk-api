@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Obtains the number of <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> that have been explicitly excluded from a given shadow copy.
+Obtains the number of <a href="/windows/desktop/VSS/vssgloss-f">file sets</a> that have been explicitly excluded from a given shadow copy.
 
 ## -parameters
 
 ### -param pcExcludedFromSnapshot [out]
 
-A pointer to the number of <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> explicitly excluded from the shadow copy.
+A pointer to the number of <a href="/windows/desktop/VSS/vssgloss-f">file sets</a> explicitly excluded from the shadow copy.
 
 ## -returns
 
@@ -75,7 +75,7 @@ The following are the valid return codes for this method.
 </dl>
 </td>
 <td width="60%">
-The number of <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-f">file sets</a> was successfully returned.
+The number of <a href="/windows/desktop/VSS/vssgloss-f">file sets</a> was successfully returned.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -119,13 +119,12 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadataex-addexcludefilesfromsnapshot">IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadataex-addexcludefilesfromsnapshot">IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadataex2">IVssExamineWriterMetadataEx2</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadataex2">IVssExamineWriterMetadataEx2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile</a>
-
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile</a>

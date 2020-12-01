@@ -58,16 +58,15 @@ Deletes all queued output data sent from the server to the client on a specified
 ### -param hChannelHandle [in]
 
 Handle to a virtual channel opened by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a> function.
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelopen">WTSVirtualChannelOpen</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelpurgeinput">WTSVirtualChannelPurgeInput</a>
-
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelpurgeinput">WTSVirtualChannelPurgeInput</a>

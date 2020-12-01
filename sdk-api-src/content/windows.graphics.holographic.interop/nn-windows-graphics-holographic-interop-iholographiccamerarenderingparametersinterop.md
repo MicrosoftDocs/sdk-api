@@ -43,7 +43,7 @@ The interface allows COM interop with the [HolographicCameraRenderingParameters]
 
 ## -inheritance
 
-The **IHolographicCameraRenderingParametersInterop** interface inherits from the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable) interface.
+The **IHolographicCameraRenderingParametersInterop** interface inherits from the [IInspectable](../inspectable/nn-inspectable-iinspectable.md) interface.
 
 ## -remarks
 
@@ -57,7 +57,7 @@ winrt::com_ptr<IHolographicCameraRenderingParametersInterop> holographicCameraRe
 };
 ```
 
-To use this interface in C++/CX, first cast the [HolographicCameraRenderingParameters](/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters) object (after retrieving it from the [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe)) to [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\*. Then **QueryInterface** for the **IHolographicCameraRenderingParametersInterop** interface from the **IInspectable** pointer.
+To use this interface in C++/CX, first cast the [HolographicCameraRenderingParameters](/uwp/api/windows.graphics.holographic.holographiccamerarenderingparameters) object (after retrieving it from the [HolographicFrame](/uwp/api/windows.graphics.holographic.holographicframe)) to [IInspectable](../inspectable/nn-inspectable-iinspectable.md)\*. Then **QueryInterface** for the **IHolographicCameraRenderingParametersInterop** interface from the **IInspectable** pointer.
 
 ```cppcx
 auto holographicCameraRenderingParameters = 
@@ -71,4 +71,3 @@ Microsoft::WRL::ComPtr<IHolographicCameraRenderingParametersInterop>
 ```
 
 ## -see-also
-

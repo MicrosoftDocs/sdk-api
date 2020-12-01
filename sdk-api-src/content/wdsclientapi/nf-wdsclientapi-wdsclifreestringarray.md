@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This function can be used to free the array of string values that gets allocated by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliobtaindriverpackages">WdsCliObtainDriverPackages</a> function.
+This function can be used to free the array of string values that gets allocated by the <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdscliobtaindriverpackages">WdsCliObtainDriverPackages</a> function.
 
 ## -parameters
 
@@ -65,4 +65,3 @@ Number of strings in the array that is pointed to by <i>ppwszArray</i>.
 ## -returns
 
 If the function succeeds, the return is <b>S_OK</b>.
-

@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IAMTVAudio</code> interface controls audio from a television source. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/tv-audio-filter">TV Audio</a> filter implements this interface. Applications can use it to control television audio settings, including secondary audio program (SAP) and stereo or mono selection.
+The <code>IAMTVAudio</code> interface controls audio from a television source. The <a href="/windows/desktop/DirectShow/tv-audio-filter">TV Audio</a> filter implements this interface. Applications can use it to control television audio settings, including secondary audio program (SAP) and stereo or mono selection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTVAudio</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTVAudio</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTVAudio</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTVAudio</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAMTVAudio</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvaudio-get_tvaudiomode">get_TVAudioMode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtvaudio-get_tvaudiomode">get_TVAudioMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current TV audio mode.
@@ -79,7 +79,7 @@ Retrieves the current TV audio mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvaudio-getavailabletvaudiomodes">GetAvailableTVAudioModes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtvaudio-getavailabletvaudiomodes">GetAvailableTVAudioModes</a>
 </td>
 <td align="left" width="63%">
 Retrieves a bitmask of the possible modes.
@@ -88,7 +88,7 @@ Retrieves a bitmask of the possible modes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvaudio-gethardwaresupportedtvaudiomodes">GetHardwareSupportedTVAudioModes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtvaudio-gethardwaresupportedtvaudiomodes">GetHardwareSupportedTVAudioModes</a>
 </td>
 <td align="left" width="63%">
 Retrieves a bitmask of the formats available in the hardware.
@@ -97,7 +97,7 @@ Retrieves a bitmask of the formats available in the hardware.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvaudio-put_tvaudiomode">put_TVAudioMode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtvaudio-put_tvaudiomode">put_TVAudioMode</a>
 </td>
 <td align="left" width="63%">
 Sets the current TV audio mode.
@@ -106,7 +106,7 @@ Sets the current TV audio mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvaudio-registernotificationcallback">RegisterNotificationCallBack</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtvaudio-registernotificationcallback">RegisterNotificationCallBack</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -115,7 +115,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtvaudio-unregisternotificationcallback">UnRegisterNotificationCallBack</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtvaudio-unregisternotificationcallback">UnRegisterNotificationCallBack</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -126,5 +126,4 @@ Not implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/analog-television">Analog Television</a>
-
+<a href="/windows/desktop/DirectShow/analog-television">Analog Television</a>

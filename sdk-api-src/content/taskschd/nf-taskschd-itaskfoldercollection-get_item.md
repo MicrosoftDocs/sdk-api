@@ -63,9 +63,8 @@ Collections are 1-based. That is, the index for the first item in the collection
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskfoldercollection">ITaskFolderCollection</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itaskfoldercollection">ITaskFolderCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

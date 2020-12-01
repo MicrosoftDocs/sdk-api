@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Sids</b> property gets an array of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) associated with this client context.
+The <b>Sids</b> property gets an array of the <a href="/windows/desktop/SecGloss/s-gly">security identifiers</a> (SIDs) associated with this client context.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazclientcontext3">IAzClientContext3</a>
-
+<a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext3">IAzClientContext3</a>

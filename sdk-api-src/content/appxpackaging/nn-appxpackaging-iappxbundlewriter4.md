@@ -54,7 +54,7 @@ Provides a write-only object model for bundle packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleWriter4</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleWriter4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxBundleWriter4</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxBundleWriter4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxBundleWriter4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter4-addexternalpackagereference">AddExternalPackageReference</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter4-addexternalpackagereference">AddExternalPackageReference</a>
 </td>
 <td align="left" width="63%">
 Adds a reference within the package bundle to an external app package.
@@ -78,7 +78,7 @@ Adds a reference within the package bundle to an external app package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter4-addpackagereference">AddPackageReference</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter4-addpackagereference">AddPackageReference</a>
 </td>
 <td align="left" width="63%">
 Adds a reference to an optional app package or a payload file within an app bundle.
@@ -87,7 +87,7 @@ Adds a reference to an optional app package or a payload file within an app bund
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter4-addpayloadpackage">AddPayloadPackage</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxbundlewriter4-addpayloadpackage">AddPayloadPackage</a>
 </td>
 <td align="left" width="63%">
 Adds a new app package to the bundle.
@@ -95,4 +95,3 @@ Adds a new app package to the bundle.
 </td>
 </tr>
 </table>
-

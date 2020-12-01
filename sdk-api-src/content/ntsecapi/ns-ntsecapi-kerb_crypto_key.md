@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-The <b>KERB_CRYPTO_KEY</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> cryptographic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a>.
+The <b>KERB_CRYPTO_KEY</b> structure contains information about a <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a> cryptographic <a href="/windows/desktop/SecGloss/s-gly">session key</a>.
 
 ## -struct-fields
 
 ### -field KeyType
 
-Indicates the type of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a> stored in the structure. It can be one of the following values.
+Indicates the type of <a href="/windows/desktop/SecGloss/s-gly">session key</a> stored in the structure. It can be one of the following values.
 
 <table>
 <tr>
@@ -71,7 +71,7 @@ Indicates the type of <a href="https://docs.microsoft.com/windows/desktop/SecGlo
 </dl>
 </td>
 <td width="60%">
-Use <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">DES</a> encryption in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cipher-block-chaining</a> mode with a CRC-32 checksum.
+Use <a href="/windows/desktop/SecGloss/d-gly">DES</a> encryption in <a href="/windows/desktop/SecGloss/c-gly">cipher-block-chaining</a> mode with a CRC-32 checksum.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Use no encryption.
 </dl>
 </td>
 <td width="60%">
-Use the RC4 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">stream cipher</a> with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a>-based <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC).
+Use the RC4 <a href="/windows/desktop/SecGloss/s-gly">stream cipher</a> with a <a href="/windows/desktop/SecGloss/h-gly">hash</a>-based <a href="/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC).
 
 </td>
 </tr>
@@ -132,9 +132,8 @@ Values greater than 127 are reserved for local values and may change without not
 
 ### -field Length
 
-Specifies the length, in bytes, of the cryptographic <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">session key</a>.
+Specifies the length, in bytes, of the cryptographic <a href="/windows/desktop/SecGloss/s-gly">session key</a>.
 
 ### -field Value
 
 Contains the cryptographic session key.
-

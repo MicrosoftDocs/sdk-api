@@ -67,5 +67,4 @@ Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps
 
 ## -see-also
 
-[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
-
+[BoundingFrustum](./ns-directxcollision-boundingfrustum.md)

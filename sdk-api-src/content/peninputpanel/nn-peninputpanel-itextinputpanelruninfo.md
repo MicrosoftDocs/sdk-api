@@ -54,7 +54,7 @@ Provides a method to determine if the Text Input Panel is currently running.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextInputPanelRunInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextInputPanelRunInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextInputPanelRunInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITextInputPanelRunInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITextInputPanelRunInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanelruninfo-istiprunning">IsTipRunning</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanelruninfo-istiprunning">IsTipRunning</a>
 </td>
 <td align="left" width="63%">
 Indicates if the Tablet PC Input Panel is running at the time the method is called.
@@ -84,9 +84,8 @@ This element is declared in Peninputpanel.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/programming-the-text-input-panel">Programming the Text Input Panel</a>
+<a href="/windows/desktop/tablet/programming-the-text-input-panel">Programming the Text Input Panel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel Reference</a>
-
+<a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel Reference</a>

@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - GetTitleBarInfo
+req.apiset: ext-ms-win-ntuser-window-l1-1-3 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # GetTitleBarInfo function
@@ -66,7 +67,7 @@ A handle to the title bar whose information is to be retrieved.
 
 Type: <b>PTITLEBARINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-titlebarinfo">TITLEBARINFO</a> structure to receive the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(TITLEBARINFO)</code> before calling this function.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-titlebarinfo">TITLEBARINFO</a> structure to receive the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(TITLEBARINFO)</code> before calling this function.
 
 ## -returns
 
@@ -74,7 +75,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
@@ -86,9 +87,8 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-titlebarinfo">TITLEBARINFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-titlebarinfo">TITLEBARINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

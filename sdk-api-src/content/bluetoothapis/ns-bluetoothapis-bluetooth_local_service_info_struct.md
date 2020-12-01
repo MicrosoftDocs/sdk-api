@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>BLUETOOTH_LOCAL_SERVICE_INFO</b> structure contains local service information for a Bluetooth device. This structure is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb870603(v=vs.85)">BluetoothSetLocalServiceInfo</a> function.
+The <b>BLUETOOTH_LOCAL_SERVICE_INFO</b> structure contains local service information for a Bluetooth device. This structure is used by the <a href="/previous-versions/windows/desktop/legacy/bb870603(v=vs.85)">BluetoothSetLocalServiceInfo</a> function.
 
 ## -struct-fields
 
@@ -78,5 +78,4 @@ In the event  the service is not associated with a specific device, <b>btAddr</b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb870603(v=vs.85)">BluetoothSetLocalServiceInfo</a>
-
+<a href="/previous-versions/windows/desktop/legacy/bb870603(v=vs.85)">BluetoothSetLocalServiceInfo</a>

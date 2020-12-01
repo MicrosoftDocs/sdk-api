@@ -59,7 +59,7 @@ Acquires window focus.
 
 ## -returns
 
-If the function succeeds, it returns <b>S_OK</b>. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function succeeds, it returns <b>S_OK</b>. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -83,7 +83,7 @@ The calling process must be running under the Local System account.
 
 The Windows Biometric Framework uses window focus to arbitrate among multiple sessions connected to  the system pool.
 
-The manner in which you acquire focus depends on the type of application you are writing. For example, if you are creating a GUI application you can implement a message handler that captures  a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-activate">WM_ACTIVATE</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-setfocus">WM_SETFOCUS</a>, or other appropriate message. If you are writing a CUI application, call <b>GetConsoleWindow</b> to retrieve a handle to the console window and pass that handle to the <b>SetForegroundWindow</b> function to force the console window into the foreground and assign it focus. If your application is running in a detached process or is a Windows service and has no window, use <b>WinBioAcquireFocus</b> and <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioreleasefocus">WinBioReleaseFocus</a> to manually control focus.
+The manner in which you acquire focus depends on the type of application you are writing. For example, if you are creating a GUI application you can implement a message handler that captures  a <a href="/windows/desktop/inputdev/wm-activate">WM_ACTIVATE</a>, <a href="/windows/desktop/inputdev/wm-setfocus">WM_SETFOCUS</a>, or other appropriate message. If you are writing a CUI application, call <b>GetConsoleWindow</b> to retrieve a handle to the console window and pass that handle to the <b>SetForegroundWindow</b> function to force the console window into the foreground and assign it focus. If your application is running in a detached process or is a Windows service and has no window, use <b>WinBioAcquireFocus</b> and <a href="/windows/desktop/api/winbio/nf-winbio-winbioreleasefocus">WinBioReleaseFocus</a> to manually control focus.
 
 The following list summarizes the major points to consider before calling this function.
 
@@ -91,27 +91,26 @@ The following list summarizes the major points to consider before calling this f
 <li>The calling process must be running under the Local System account.</li>
 <li>A process that directly displays a user interface should not call this function. See the preceding discussion to determine how to acquire focus for GUI and CUI applications.</li>
 <li>Only a service or a detached process that does not directly display a user interface during biometric API calls should call this function.</li>
-<li>If the function succeeds, you must call <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioreleasefocus">WinBioReleaseFocus</a> to release focus.</li>
+<li>If the function succeeds, you must call <a href="/windows/desktop/api/winbio/nf-winbio-winbioreleasefocus">WinBioReleaseFocus</a> to release focus.</li>
 </ul>
 If you do not acquire focus when calling the following functions, they will behave in unexpected ways:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollbegin">WinBioEnrollBegin</a>
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioenrollbegin">WinBioEnrollBegin</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollcapture">WinBioEnrollCapture</a>
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioenrollcapture">WinBioEnrollCapture</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollcapturewithcallback">WinBioEnrollCaptureWithCallback</a>
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioenrollcapturewithcallback">WinBioEnrollCaptureWithCallback</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/client-application-functions">Client Application Functions</a>
+<a href="/windows/desktop/SecBioMet/client-application-functions">Client Application Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbioenrollbegin">WinBioEnrollBegin</a>
-
+<a href="/windows/desktop/api/winbio/nf-winbio-winbioenrollbegin">WinBioEnrollBegin</a>

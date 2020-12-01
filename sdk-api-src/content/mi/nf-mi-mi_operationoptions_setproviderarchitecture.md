@@ -56,11 +56,11 @@ Sets the provider architecture for an operation.
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
+A pointer to a <a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
 
 ### -param architecture [in]
 
-One of the following <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_providerarchitecture">MI_ProviderArchitecture</a> values.
+One of the following <a href="/windows/desktop/api/mi/ne-mi-mi_providerarchitecture">MI_ProviderArchitecture</a> values.
 
 
 
@@ -81,4 +81,3 @@ Boolean value where <b>MI_TRUE</b> means that if you are asking for a 32-bit pro
 ## -returns
 
 This function returns MI_INLINE MI_Result.
-

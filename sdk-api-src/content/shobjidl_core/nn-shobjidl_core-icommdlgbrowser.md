@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposed by the common file dialog boxes to be used when they host a Shell browser. If supported, <b>ICommDlgBrowser</b> exposes methods that allow a Shell view to handle several cases that require different behavior in a dialog box than in a normal Shell view. You obtain an <b>ICommDlgBrowser</b> interface pointer by calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a> object.
+Exposed by the common file dialog boxes to be used when they host a Shell browser. If supported, <b>ICommDlgBrowser</b> exposes methods that allow a Shell view to handle several cases that require different behavior in a dialog box than in a normal Shell view. You obtain an <b>ICommDlgBrowser</b> interface pointer by calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICommDlgBrowser</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICommDlgBrowser</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICommDlgBrowser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICommDlgBrowser</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICommDlgBrowser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser-includeobject">IncludeObject</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser-includeobject">IncludeObject</a>
 </td>
 <td align="left" width="63%">
 Allows the common dialog box to filter objects that the view displays.
@@ -78,7 +78,7 @@ Allows the common dialog box to filter objects that the view displays.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser-ondefaultcommand">OnDefaultCommand</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser-ondefaultcommand">OnDefaultCommand</a>
 </td>
 <td align="left" width="63%">
 Called when a user double-clicks in the view or presses the ENTER key.
@@ -87,10 +87,10 @@ Called when a user double-clicks in the view or presses the ENTER key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser-onstatechange">OnStateChange</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icommdlgbrowser-onstatechange">OnStateChange</a>
 </td>
 <td align="left" width="63%">
-Called after a state, identified by the <i>uChange</i> parameter, has changed in the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface.
+Called after a state, identified by the <i>uChange</i> parameter, has changed in the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a> interface.
 
 </td>
 </tr>
@@ -104,4 +104,3 @@ Called after a state, identified by the <i>uChange</i> parameter, has changed in
 This interface is implemented only by the common file dialog boxes.
 
 Use <b>ICommDlgBrowser</b> when you need to provide special behavior while hosted inside the common dialog boxes.
-

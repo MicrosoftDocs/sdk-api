@@ -68,9 +68,9 @@ A pointer to a buffer containing the unique ID of the item. This string is of ma
 
 ### -param nControlFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a> enumeration specifying whether the update should be performed synchronously or asynchronously.
+A value from the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_control_flags">SYNCMGR_CONTROL_FLAGS</a> enumeration specifying whether the update should be performed synchronously or asynchronously.
 
 ## -returns
 
@@ -87,7 +87,7 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>UpdateConfli
 
 
 
-The following example shows the usage of <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateevents">ISyncMgrControl::UpdateEvents</a> by a handler's procedure.
+The following example shows the usage of <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updateevents">ISyncMgrControl::UpdateEvents</a> by a handler's procedure.
 
 
 ```cpp
@@ -118,4 +118,3 @@ void CMyDeviceHandler::Synchronize(...)
 }
 
 ```
-

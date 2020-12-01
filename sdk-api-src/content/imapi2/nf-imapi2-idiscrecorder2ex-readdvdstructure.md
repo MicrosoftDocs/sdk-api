@@ -414,9 +414,8 @@ This method removes the complexity of working with the READ DISC STRUCTURE comma
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2ex">IDiscRecorder2Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-senddvdstructure">IDiscRecorder2Ex::SendDvdStructure</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-senddvdstructure">IDiscRecorder2Ex::SendDvdStructure</a>

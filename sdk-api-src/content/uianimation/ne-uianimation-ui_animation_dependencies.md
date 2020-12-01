@@ -82,5 +82,4 @@ Multiple <b>UI_ANIMATION_DEPENDENCIES</b> values can be combined using a bitwise
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator-getdependencies">IUIAnimationInterpolator::GetDependencies</a>
-
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator-getdependencies">IUIAnimationInterpolator::GetDependencies</a>

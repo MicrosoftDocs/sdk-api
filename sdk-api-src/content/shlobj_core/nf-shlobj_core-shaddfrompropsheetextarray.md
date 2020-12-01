@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[This function is available through Windows XP Service Pack 2 (SP2) and Windows Server 2003. It might be altered or unavailable in subsequent versions of Windows.]
 
-Adds pages to a property sheet extension array created by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-shcreatepropsheetextarray">SHCreatePropSheetExtArray</a>.
+Adds pages to a property sheet extension array created by <a href="/windows/desktop/api/shlobj/nf-shlobj-shcreatepropsheetextarray">SHCreatePropSheetExtArray</a>.
 
 ## -parameters
 
@@ -60,13 +60,13 @@ Adds pages to a property sheet extension array created by <a href="https://docs.
 
 Type: <b>HPSXA</b>
 
-The array of property sheet handlers returned by <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-shcreatepropsheetextarray">SHCreatePropSheetExtArray</a>.
+The array of property sheet handlers returned by <a href="/windows/desktop/api/shlobj/nf-shlobj-shcreatepropsheetextarray">SHCreatePropSheetExtArray</a>.
 
 ### -param lpfnAddPage [in]
 
 Type: <b>LPFNADDPROPSHEETPAGE</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/prsht/nc-prsht-lpfnaddpropsheetpage">AddPropSheetPageProc</a> callback function. It is called once for each property sheet handler. The callback function then returns the information needed to add a page to the handler's property sheet.
+A pointer to an <a href="/windows/desktop/api/prsht/nc-prsht-lpfnaddpropsheetpage">AddPropSheetPageProc</a> callback function. It is called once for each property sheet handler. The callback function then returns the information needed to add a page to the handler's property sheet.
 
 ### -param lParam
 
@@ -84,17 +84,16 @@ Returns the number of pages actually added.
 
 This function should be called only once for the property sheet extension array named in <i>hpsxa</i>.
 
-This function calls each extension's <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages">IShellPropSheetExt::AddPages</a> method. See that page for further details.
+This function calls each extension's <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages">IShellPropSheetExt::AddPages</a> method. See that page for further details.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nf-shlobj-shcreatepropsheetextarray">SHCreatePropSheetExtArray</a>
+<a href="/windows/desktop/api/shlobj/nf-shlobj-shcreatepropsheetextarray">SHCreatePropSheetExtArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shdestroypropsheetextarray">SHDestroyPropSheetExtArray</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shdestroypropsheetextarray">SHDestroyPropSheetExtArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shreplacefrompropsheetextarray">SHReplaceFromPropSheetExtArray</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shreplacefrompropsheetextarray">SHReplaceFromPropSheetExtArray</a>

@@ -65,33 +65,32 @@ Retrieves the current system date and time. The information is in Coordinated Un
 ### -param lpSystemTimeAsFileTime [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure to receive the current system date and time in UTC format.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure to receive the current system date and time in UTC format.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/file-times">File Times</a>
+<a href="/windows/desktop/SysInfo/file-times">File Times</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtime">GetSystemTime</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemtime">GetSystemTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-time">System Time</a>
+<a href="/windows/desktop/SysInfo/system-time">System Time</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timezoneapi/nf-timezoneapi-systemtimetofiletime">SystemTimeToFileTime</a>
+<a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-systemtimetofiletime">SystemTimeToFileTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/time-functions">Time Functions</a>
-
+<a href="/windows/desktop/SysInfo/time-functions">Time Functions</a>

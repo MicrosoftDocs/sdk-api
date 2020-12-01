@@ -54,9 +54,9 @@ api_name:
 
 ## -description
 
-The <b>ADSVALUE</b> structure contains a value specified as an ADSI data type. These data types can be  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-simple-data-types">ADSI Simple Data Types</a> or ADSI-defined custom data types that include C-style structures.
+The <b>ADSVALUE</b> structure contains a value specified as an ADSI data type. These data types can be  <a href="/windows/desktop/ADSI/adsi-simple-data-types">ADSI Simple Data Types</a> or ADSI-defined custom data types that include C-style structures.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structure contains an array of <b>ADSVALUE</b> structures. Each <b>ADSVALUE</b> structure contains a single attribute value.
+The <a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a> structure contains an array of <b>ADSVALUE</b> structures. Each <b>ADSVALUE</b> structure contains a single attribute value.
 
 ## -struct-fields
 
@@ -66,31 +66,31 @@ Data type used to interpret the union member of the structure. Values of this me
 
 ### -field DNString
 
-The null-terminated Unicode string that identifies the distinguished name (path) of a directory service object, as defined by <b>ADS_DN_STRING</b>, an  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
+The null-terminated Unicode string that identifies the distinguished name (path) of a directory service object, as defined by <b>ADS_DN_STRING</b>, an  <a href="/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
 
 ### -field CaseExactString
 
-The null-terminated Unicode string to be interpreted case-sensitively, as defined by <b>ADS_CASE_EXACT_STRING</b>, an  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
+The null-terminated Unicode string to be interpreted case-sensitively, as defined by <b>ADS_CASE_EXACT_STRING</b>, an  <a href="/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
 
 ### -field CaseIgnoreString
 
-The null-terminated Unicode string to be interpreted without regard to case, as defined by <b>ADS_CASE_IGNORE_STRING</b>, an  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
+The null-terminated Unicode string to be interpreted without regard to case, as defined by <b>ADS_CASE_IGNORE_STRING</b>, an  <a href="/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
 
 ### -field PrintableString
 
-The null-terminated Unicode string that can be displayed or printed, as defined by <b>ADS_PRINTABLE_STRING</b>, an  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
+The null-terminated Unicode string that can be displayed or printed, as defined by <b>ADS_PRINTABLE_STRING</b>, an  <a href="/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
 
 ### -field NumericString
 
-The null-terminated Unicode string that contains numerals to be interpreted as text, as defined by <b>ADS_NUMERIC_STRING</b>, an  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
+The null-terminated Unicode string that contains numerals to be interpreted as text, as defined by <b>ADS_NUMERIC_STRING</b>, an  <a href="/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
 
 ### -field Boolean
 
-Boolean value, as defined by <b>ADS_BOOLEAN</b>, an  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
+Boolean value, as defined by <b>ADS_BOOLEAN</b>, an  <a href="/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
 
 ### -field Integer
 
-Integer value, as defined by <b>ADS_INTEGER</b>, an  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
+Integer value, as defined by <b>ADS_INTEGER</b>, an  <a href="/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
 
 ### -field OctetString
 
@@ -98,15 +98,15 @@ An octet string, as defined by  <a href="/windows/win32/api/iads/ns-iads-ads_oct
 
 ### -field UTCTime
 
-Time specified as Coordinated Universal Time (UTC), as defined by <b>ADS_UTC_TIME</b>, an  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
+Time specified as Coordinated Universal Time (UTC), as defined by <b>ADS_UTC_TIME</b>, an  <a href="/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
 
 ### -field LargeInteger
 
-Long integer value, as defined by <b>ADS_LARGE_INTEGER</b>, an  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
+Long integer value, as defined by <b>ADS_LARGE_INTEGER</b>, an  <a href="/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
 
 ### -field ClassName
 
-Class name string, as defined by <b>ADS_OBJECT_CLASS</b>, an  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
+Class name string, as defined by <b>ADS_OBJECT_CLASS</b>, an  <a href="/windows/desktop/ADSI/adsi-simple-data-types">ADSI simple data type</a>.
 
 ### -field ProviderSpecific
 
@@ -114,11 +114,11 @@ Provider-specific structure, as defined by  <a href="/windows/win32/api/iads/ns-
 
 ### -field pCaseIgnoreList
 
-Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_caseignore_list">ADS_CASEIGNORE_LIST</a>, an ADSI-defined data type.
+Pointer to a  <a href="/windows/desktop/api/iads/ns-iads-ads_caseignore_list">ADS_CASEIGNORE_LIST</a>, an ADSI-defined data type.
 
 ### -field pOctetList
 
-Pointer to a list of  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_octet_list">ADS_OCTET_LIST</a>, an ADSI-defined data type.
+Pointer to a list of  <a href="/windows/desktop/api/iads/ns-iads-ads_octet_list">ADS_OCTET_LIST</a>, an ADSI-defined data type.
 
 ### -field pPath
 
@@ -174,16 +174,16 @@ Pointer to an  <a href="/windows/win32/api/iads/ns-iads-ads_dn_with_string">ADS_
 
 ## -remarks
 
-Members of the <b>ADSVALUE</b> structure specify the data type of attributes. For more information and a code example, see  <a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>.
+Members of the <b>ADSVALUE</b> structure specify the data type of attributes. For more information and a code example, see  <a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-simple-data-types">ADSI Simple Data
+<a href="/windows/desktop/ADSI/adsi-simple-data-types">ADSI Simple Data
   Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
+<a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
 
 
 
@@ -191,7 +191,7 @@ Members of the <b>ADSVALUE</b> structure specify the data type of attributes. Fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
+<a href="/windows/desktop/api/iads/ns-iads-ads_attr_info">ADS_ATTR_INFO</a>
 
 
 
@@ -199,7 +199,7 @@ Members of the <b>ADSVALUE</b> structure specify the data type of attributes. Fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_caseignore_list">ADS_CASEIGNORE_LIST</a>
+<a href="/windows/desktop/api/iads/ns-iads-ads_caseignore_list">ADS_CASEIGNORE_LIST</a>
 
 
 
@@ -231,7 +231,7 @@ Members of the <b>ADSVALUE</b> structure specify the data type of attributes. Fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/ns-iads-ads_octet_list">ADS_OCTET_LIST</a>
+<a href="/windows/desktop/api/iads/ns-iads-ads_octet_list">ADS_OCTET_LIST</a>
 
 
 
@@ -263,17 +263,16 @@ Members of the <b>ADSVALUE</b> structure specify the data type of attributes. Fo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject">IDirectoryObject::CreateDSObject</a>
+<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-createdsobject">IDirectoryObject::CreateDSObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes">IDirectoryObject::GetObjectAttributes</a>
+<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectattributes">IDirectoryObject::GetObjectAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes">IDirectoryObject::SetObjectAttributes</a>
+<a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-setobjectattributes">IDirectoryObject::SetObjectAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a>
-
+<a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a>

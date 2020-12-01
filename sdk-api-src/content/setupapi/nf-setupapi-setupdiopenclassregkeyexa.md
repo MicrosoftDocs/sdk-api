@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>SetupDiOpenClassRegKeyEx</b> function opens the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> registry key, the <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> registry key, or a specific class's subkey. This function opens the specified key on the local computer or on a remote computer.
+The <b>SetupDiOpenClassRegKeyEx</b> function opens the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a> registry key, the <a href="https://msdn.microsoft.com/C989D2D3-E8DE-4D64-86EE-3D3B3906390D">device interface class</a> registry key, or a specific class's subkey. This function opens the specified key on the local computer or on a remote computer.
 
 ## -parameters
 
@@ -93,7 +93,7 @@ Reserved. Must be <b>NULL</b>.
 
 <b>SetupDiOpenClassRegKeyEx</b> returns a handle to an opened registry key where information about this setup class can be stored/retrieved. 
 
-If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+If the function fails, it returns INVALID_HANDLE_VALUE. To get extended error information, call <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -101,7 +101,7 @@ Depending on the value that is passed in the <i>samDesired</i> parameter, it mig
 
 <b>SetupDiOpenClassRegKeyEx</b> does not create a registry key if it does not already exist.
 
-Callers of this function must close the handle returned from this function by calling <a href="https://msdn.microsoft.com/library/ms724837(VS.85).aspx">RegCloseKey</a>.
+Callers of this function must close the handle returned from this function by calling <a href="/windows/win32/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>.
 
 
 
@@ -112,9 +112,8 @@ Callers of this function must close the handle returned from this function by ca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfaceregkeya">SetupDiCreateDeviceInterfaceRegKey</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdicreatedeviceinterfaceregkeya">SetupDiCreateDeviceInterfaceRegKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiopendevregkey">SetupDiOpenDevRegKey</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopendevregkey">SetupDiOpenDevRegKey</a>

@@ -64,7 +64,7 @@ The number of event object handles in the array pointed to by <i>lphEvents</i>. 
 A pointer to an array of event object handles. The array can contain handles of objects of different types. It may not contain multiple copies of the same handle if the <i>fWaitAll</i> parameter is set to <b>TRUE</b>. 
 If one of these handles is closed while the wait is still pending, the behavior of <b>WSAWaitForMultipleEvents</b> is undefined.
 
-The handles must have the <b>SYNCHRONIZE</b> access right.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>.
+The handles must have the <b>SYNCHRONIZE</b> access right.  For more information, see <a href="/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>.
 
 ### -param fWaitAll [in]
 
@@ -108,7 +108,7 @@ If the <i>fWaitAll</i> parameter is <b>FALSE</b>, the return value minus <b>WSA_
 </dl>
 </td>
 <td width="60%">
-The wait was ended by one or more I/O completion routines that were executed. The event that was being waited on is not signaled yet. The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsawaitformultipleevents">WSAWaitForMultipleEvents</a> function again. This return value can only be returned if the <i>fAlertable</i> parameter is <b>TRUE</b>.
+The wait was ended by one or more I/O completion routines that were executed. The event that was being waited on is not signaled yet. The application must call the <a href="/windows/desktop/api/winsock2/nf-winsock2-wsawaitformultipleevents">WSAWaitForMultipleEvents</a> function again. This return value can only be returned if the <i>fAlertable</i> parameter is <b>TRUE</b>.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ The time-out interval elapsed and the conditions specified by the <i>fWaitAll</i
 </table>
  
 
-If the <b>WSAWaitForMultipleEvents</b> function fails, the return value is <b>WSA_WAIT_FAILED</b>. The following table lists values that can be used with <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> to get extended error information. 
+If the <b>WSAWaitForMultipleEvents</b> function fails, the return value is <b>WSA_WAIT_FAILED</b>. The following table lists values that can be used with <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> to get extended error information. 
 
 <table>
 <tr>
@@ -134,28 +134,28 @@ If the <b>WSAWaitForMultipleEvents</b> function fails, the return value is <b>WS
 <th>Meaning</th>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></td>
 <td>A successful 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.</td>
+<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> call must occur before using this function.</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></td>
 <td>The network subsystem has failed.</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINPROGRESS</a></td>
 <td>A blocking Windows Sockets 1.1 call is in progress, or the service provider is still processing a callback function.</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_NOT_ENOUGH_MEMORY</a></td>
 <td>Not enough free memory was available to complete the operation.</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_HANDLE</a></td>
 <td>One or more of the values in the <i>lphEvents</i> array is not a valid event object handle.</td>
 </tr>
 <tr>
-<td><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_PARAMETER</a></td>
+<td><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_INVALID_PARAMETER</a></td>
 <td>The <i>cEvents</i> parameter does not contain a valid handle count.</td>
 </tr>
 </table>
@@ -179,9 +179,9 @@ If the <i>fAlertable</i> parameter is <b>TRUE</b> and one of the pending operati
 The pending event is not signaled yet. The application must call the <b>WSAWaitForMultipleEvents</b> function again.
 
 Applications that require an alertable wait state without waiting for any event objects to be signaled should use the Windows 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-sleepex">SleepEx</a> function.
+<a href="/windows/desktop/api/synchapi/nf-synchapi-sleepex">SleepEx</a> function.
 
-The current implementation of <b>WSAWaitForMultipleEvents</b> calls the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a> function.
+The current implementation of <b>WSAWaitForMultipleEvents</b> calls the <a href="/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a> function.
 
 <div class="alert"><b>Note</b>  Use caution when calling the <b>WSAWaitForMultipleEvents</b> with code that directly or indirectly creates windows. If a thread creates any windows, it must process messages. Message broadcasts are sent to all windows in the system. A thread that uses <b>WSAWaitForMultipleEvents</b> with no time-out limit (the <i>dwTimeout</i> parameter set to <b>WSA_INFINITE</b>) may cause the system to become deadlocked.</div>
 <div> </div>
@@ -396,25 +396,24 @@ int main()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>
+<a href="/windows/desktop/SecAuthZ/standard-access-rights">Standard Access Rights</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsacloseevent">WSACloseEvent</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsacloseevent">WSACloseEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsacreateevent">WSACreateEvent</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsacreateevent">WSACreateEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjectsex">WaitForMultipleObjectsEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
+<a href="/windows/desktop/WinSock/winsock-functions">Winsock Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
-
+<a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>

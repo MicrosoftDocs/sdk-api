@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>acmDriverEnumCallback</b> function specifies a callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverenum">acmDriverEnum</a> function. The <b>acmDriverEnumCallback</b> name is a placeholder for an application-defined function name.
+The <b>acmDriverEnumCallback</b> function specifies a callback function used with the <a href="/windows/desktop/api/msacm/nf-msacm-acmdriverenum">acmDriverEnum</a> function. The <b>acmDriverEnumCallback</b> name is a placeholder for an application-defined function name.
 
 ## -parameters
 
@@ -60,11 +60,11 @@ Handle to an ACM driver identifier.
 
 ### -param dwInstance
 
-Application-defined value specified in <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverenum">acmDriverEnum</a>.
+Application-defined value specified in <a href="/windows/desktop/api/msacm/nf-msacm-acmdriverenum">acmDriverEnum</a>.
 
 ### -param fdwSupport
 
-Driver-support flags specific to the driver specified by [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure. This parameter can be a combination of the following values.
+Driver-support flags specific to the driver specified by [ACMDRIVERDETAILS](./nf-msacm-acmdriverdetails.md) structure. This parameter can be a combination of the following values.
 
 <table>
 <tr>
@@ -87,7 +87,7 @@ Driver-support flags specific to the driver specified by [ACMDRIVERDETAILS](/win
 </tr>
 <tr>
 <td>ACMDRIVERDETAILS_SUPPORTF_DISABLED</td>
-<td>Driver has been disabled. An application must specify the ACM_DRIVERENUMF_DISABLED flag with <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverenum">acmDriverEnum</a> to include disabled drivers in the enumeration.</td>
+<td>Driver has been disabled. An application must specify the ACM_DRIVERENUMF_DISABLED flag with <a href="/windows/desktop/api/msacm/nf-msacm-acmdriverenum">acmDriverEnum</a> to include disabled drivers in the enumeration.</td>
 </tr>
 <tr>
 <td>ACMDRIVERDETAILS_SUPPORTF_FILTER</td>
@@ -101,15 +101,14 @@ The callback function must return <b>TRUE</b> to continue enumeration or <b>FALS
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverenum">acmDriverEnum</a> function will return MMSYSERR_NOERROR (zero) if no ACM drivers are installed. Moreover, the callback function will not be called.
+The <a href="/windows/desktop/api/msacm/nf-msacm-acmdriverenum">acmDriverEnum</a> function will return MMSYSERR_NOERROR (zero) if no ACM drivers are installed. Moreover, the callback function will not be called.
 
-The following functions should not be called from within the callback function: <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriveradd">acmDriverAdd</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverremove">acmDriverRemove</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmdriverpriority">acmDriverPriority</a>.
+The following functions should not be called from within the callback function: <a href="/windows/desktop/api/msacm/nf-msacm-acmdriveradd">acmDriverAdd</a>, <a href="/windows/desktop/api/msacm/nf-msacm-acmdriverremove">acmDriverRemove</a>, and <a href="/windows/desktop/api/msacm/nf-msacm-acmdriverpriority">acmDriverPriority</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

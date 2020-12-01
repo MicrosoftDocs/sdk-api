@@ -68,23 +68,22 @@ An index of the image to replace.
 
 ### -param hbmImage
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
 A handle to the bitmap that contains the image.
 
 ### -param hbmMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HBITMAP</a></b>
 
 A handle to the bitmap that contains the mask. If no mask is used with the image list, this parameter is ignored.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise.
 
 ## -remarks
 
-The <b>ImageList_Replace</b> function copies the bitmap to an internal data structure. Be sure to use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete <i>hbmImage</i> and <i>hbmMask</i> after the function returns.
-
+The <b>ImageList_Replace</b> function copies the bitmap to an internal data structure. Be sure to use the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete <i>hbmImage</i> and <i>hbmMask</i> after the function returns.

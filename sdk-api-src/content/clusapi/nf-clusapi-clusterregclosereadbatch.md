@@ -63,12 +63,12 @@ The handle of the read batch. After the <b>ClusterRegCloseReadBatch</b> function
 
 ### -param phRegReadBatchReply [out]
 
-A pointer to the handle of the created read batch result. You must close this handle later by calling the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosereadbatchreply">ClusterRegCloseReadBatchReply</a> function.
+A pointer to the handle of the created read batch result. You must close this handle later by calling the  <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregclosereadbatchreply">ClusterRegCloseReadBatchReply</a> function.
 
 ## -returns
 
 The function returns one of the following 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -115,13 +115,12 @@ Not enough storage is available to complete this operation.
 
 ## -remarks
 
-Create the read batch by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatereadbatch">ClusterRegCreateReadBatch</a> function.
+Create the read batch by calling the <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatereadbatch">ClusterRegCreateReadBatch</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatereadbatch">ClusterRegCreateReadBatch</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregcreatereadbatch">ClusterRegCreateReadBatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregreadbatchaddcommand">ClusterRegReadBatchAddCommand</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregreadbatchaddcommand">ClusterRegReadBatchAddCommand</a>

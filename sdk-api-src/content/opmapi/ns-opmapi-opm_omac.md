@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains a Message Authentication Code (MAC) for an <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM) message.
+Contains a Message Authentication Code (MAC) for an <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM) message.
 
 ## -struct-fields
 
@@ -62,21 +62,20 @@ A buffer that contains the cryptographic MAC value of the message.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
+<a href="/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters">OPM_CONFIGURE_PARAMETERS</a>
+<a href="/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters">OPM_CONFIGURE_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a>
+<a href="/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters">OPM_GET_INFO_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_requested_information">OPM_REQUESTED_INFORMATION</a>
+<a href="/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_requested_information">OPM_REQUESTED_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

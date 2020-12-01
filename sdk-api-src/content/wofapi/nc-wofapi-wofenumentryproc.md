@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Callback function that gets called for each data source in response to a call to <a href="https://docs.microsoft.com/windows/desktop/api/wofapi/nf-wofapi-wofenumentries">WofEnumEntries</a>.
+Callback function that gets called for each data source in response to a call to <a href="/windows/desktop/api/wofapi/nf-wofapi-wofenumentries">WofEnumEntries</a>.
 
 ## -parameters
 
@@ -61,9 +61,8 @@ it will be PWIM_ENTRY_INFO.
 
 ### -param UserData [in, optional]
 
-Optional user defined data specified in the call to <a href="https://docs.microsoft.com/windows/desktop/api/wofapi/nf-wofapi-wofenumentries">WofEnumEntries</a>.
+Optional user defined data specified in the call to <a href="/windows/desktop/api/wofapi/nf-wofapi-wofenumentries">WofEnumEntries</a>.
 
 ## -returns
 
 A boolean value that indicates whether the enumeration was successful. The enumeration will stop if this callback function returns FALSE.
-

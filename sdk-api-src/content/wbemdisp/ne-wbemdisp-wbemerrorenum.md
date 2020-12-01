@@ -51,15 +51,15 @@ api_name:
 ## -description
 
 The WbemErrorEnum constants define the errors that 
-    may be returned by <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-for-wmi">Scripting API for WMI</a> 
+    may be returned by <a href="/windows/desktop/WmiSdk/scripting-api-for-wmi">Scripting API for WMI</a> 
     calls.
 
 The WMI scripting type library Wbemdisp.tlb defines these constants. Visual Basic applications can 
     access this library; script languages must use the value of the constant directly, unless they use the Windows 
     Script Host (WSH) XML file format. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
+    <a href="/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library">Using the WMI Scripting Type Library</a>.
 
-Other languages may have different names for these values, see <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants">WMI Error Constants</a> and <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbemstatus">WBEMSTATUS</a>.
+Other languages may have different names for these values, see <a href="/windows/desktop/WmiSdk/wmi-error-constants">WMI Error Constants</a> and <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbemstatus">WBEMSTATUS</a>.
 
 ## -enum-fields
 
@@ -94,7 +94,7 @@ There was not enough memory for the operation.
 ### -field wbemErrInvalidContext
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemnamedvalue">SWbemNamedValue</a> object is not valid.
+<a href="/windows/desktop/WmiSdk/swbemnamedvalue">SWbemNamedValue</a> object is not valid.
 
 ### -field wbemErrInvalidParameter
 
@@ -140,7 +140,7 @@ A provider referenced in the schema does not have a corresponding registration.
 ### -field wbemErrInvalidProviderRegistration
 
 A provider referenced in the schema has an incorrect or incomplete registration. This error may be caused by 
-     a missing <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/pragma-namespace">pragma namespace</a> command in the MOF file used to 
+     a missing <a href="/windows/desktop/WmiSdk/pragma-namespace">pragma namespace</a> command in the MOF file used to 
      register the provider, resulting in the provider being registered in the wrong WMI namespace. This error may also 
      be caused by a corrupt repository, which may be fixed by deleting it and recompiling the MOF files.
 
@@ -153,7 +153,7 @@ The provider is using a WMI DLL that does not match the .lib fileused when the p
 The provider's DLL or any of the DLLs on which it depends is corrupt.
 
 The provider failed to export 
-      <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>.
+      <a href="/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a>.
 
 An in-process provider was not registered using /regsvr32.
 
@@ -220,13 +220,13 @@ There was an illegal attempt to specify a key qualifier on a property that canno
 ### -field wbemErrIncompleteClass
 
 The current object is not a valid class definition. Either it is incomplete, or it has not been registered 
-     with WMI using <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemobject-put-">SWbemObject.Put_</a>.
+     with WMI using <a href="/windows/desktop/WmiSdk/swbemobject-put-">SWbemObject.Put_</a>.
 
 ### -field wbemErrInvalidSyntax
 
 The syntax of an input parameter is incorrect for the applicable data structure. For example, when a CIM 
      datetime structure does not have the correct format when passed to 
-     <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/swbemdatetime-setfiletime">SWbemDateTime.SetFileTime</a>.
+     <a href="/windows/desktop/WmiSdk/swbemdatetime-setfiletime">SWbemDateTime.SetFileTime</a>.
 
 ### -field wbemErrNondecoratedObject
 
@@ -256,7 +256,7 @@ Reserved for future use.
 ### -field wbemErrIllegalNull
 
 A value of Nothing was specified for a property that may not be Nothing, such as one that is marked by a 
-     <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/key-qualifier">Key</a>, <b>Indexed</b>, 
+     <a href="/windows/desktop/WmiSdk/key-qualifier">Key</a>, <b>Indexed</b>, 
      or <b>Not_Null</b> qualifier.
 
 ### -field wbemErrInvalidQualifierType
@@ -321,19 +321,19 @@ A parameter was missing from the method call.
 
 ### -field wbemErrInvalidParameterId
 
-A method parameter has an <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers">ID</a> 
+A method parameter has an <a href="/windows/desktop/WmiSdk/standard-wmi-qualifiers">ID</a> 
      qualifier that is not valid.
 
 ### -field wbemErrNonConsecutiveParameterIds
 
 One or more of the method parameters have 
-     <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers">ID</a> qualifiers that are out of 
+     <a href="/windows/desktop/WmiSdk/standard-wmi-qualifiers">ID</a> qualifiers that are out of 
      sequence.
 
 ### -field wbemErrParameterIdOnRetval
 
 The return value for a method has an 
-     <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/standard-wmi-qualifiers">ID</a> qualifier.
+     <a href="/windows/desktop/WmiSdk/standard-wmi-qualifiers">ID</a> qualifier.
 
 ### -field wbemErrInvalidObjectPath
 
@@ -383,7 +383,7 @@ Reserved for future use.
 
 ### -field wbemErrServerTooBusy
 
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> has 
+A call to <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> has 
      failed. The provider may choose to refire the event.
 
 ### -field wbemErrInvalidFlavor
@@ -463,7 +463,7 @@ A GROUP BY clause references a property that is an embedded object without using
 ### -field wbemErrUninterpretableProviderQuery
 
 An event provider registration query 
-     (<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/--eventproviderregistration">__EventProviderRegistration</a>) did not 
+     (<a href="/windows/desktop/WmiSdk/--eventproviderregistration">__EventProviderRegistration</a>) did not 
      specify the classes for which events were provided.
 
 ### -field wbemErrBackupRestoreWinmgmtRunning
@@ -612,7 +612,7 @@ A fatal transport error occurred and other transport will not be attempted.
 ### -field wbemErrEncryptedConnectionRequired
 
 The client connection to WINMGMT must be encrypted for this operation. The 
-       <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> proxy security settings should be adjusted 
+       <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> proxy security settings should be adjusted 
        and the operation retried.
 
 ### -field wbemErrRegistrationTooBroad
@@ -634,7 +634,7 @@ The user deleted an override default value for the current class. The default va
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
+<a href="/windows/desktop/WmiSdk/scripting-api-constants">Scripting API Constants</a>
 
 
 
@@ -642,5 +642,4 @@ The user deleted an override default value for the current class. The default va
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/wmi-error-constants">WMI Error Constants</a>
-
+<a href="/windows/desktop/WmiSdk/wmi-error-constants">WMI Error Constants</a>

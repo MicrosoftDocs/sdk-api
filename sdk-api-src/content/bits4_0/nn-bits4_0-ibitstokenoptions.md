@@ -52,11 +52,11 @@ api_name:
 
 Use <b>IBitsTokenOptions</b> to associate and manage a pair of security tokens for a Background Intelligent Transfer Service (BITS) transfer job.
 
-To get this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob::QueryInterface</a> method, using __uuidof(IBitsTokenOptions) as the interface identifier.
+To get this interface, call the <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob::QueryInterface</a> method, using __uuidof(IBitsTokenOptions) as the interface identifier.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitsTokenOptions</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBitsTokenOptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBitsTokenOptions</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBitsTokenOptions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IBitsTokenOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits4_0/nf-bits4_0-ibitstokenoptions-clearhelpertoken">ClearHelperToken</a>
+<a href="/windows/desktop/api/bits4_0/nf-bits4_0-ibitstokenoptions-clearhelpertoken">ClearHelperToken</a>
 </td>
 <td align="left" width="63%">
 Discards the helper token and does not change the usage flags.
@@ -80,7 +80,7 @@ Discards the helper token and does not change the usage flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits4_0/nf-bits4_0-ibitstokenoptions-gethelpertokenflags">GetHelperTokenFlags</a>
+<a href="/windows/desktop/api/bits4_0/nf-bits4_0-ibitstokenoptions-gethelpertokenflags">GetHelperTokenFlags</a>
 </td>
 <td align="left" width="63%">
 Returns the usage flags for a token that is associated with a BITS transfer job.
@@ -89,7 +89,7 @@ Returns the usage flags for a token that is associated with a BITS transfer job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits4_0/nf-bits4_0-ibitstokenoptions-gethelpertokensid">GetHelperTokenSid</a>
+<a href="/windows/desktop/api/bits4_0/nf-bits4_0-ibitstokenoptions-gethelpertokensid">GetHelperTokenSid</a>
 </td>
 <td align="left" width="63%">
 Returns the SID of the helper token if one is set.
@@ -98,7 +98,7 @@ Returns the SID of the helper token if one is set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken">SetHelperToken</a>
+<a href="/windows/desktop/api/bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertoken">SetHelperToken</a>
 </td>
 <td align="left" width="63%">
 Sets the helper token to impersonate the token of the COM client.
@@ -107,7 +107,7 @@ Sets the helper token to impersonate the token of the COM client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertokenflags">SetHelperTokenFlags</a>
+<a href="/windows/desktop/api/bits4_0/nf-bits4_0-ibitstokenoptions-sethelpertokenflags">SetHelperTokenFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the usage flags for a token that is associated with a BITS transfer job.
@@ -115,4 +115,3 @@ Sets the usage flags for a token that is associated with a BITS transfer job.
 </td>
 </tr>
 </table>
-

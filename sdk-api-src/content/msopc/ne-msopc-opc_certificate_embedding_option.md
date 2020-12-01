@@ -73,11 +73,11 @@ The certificate is not stored in the package.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/certificates">Certificates</a>
+<a href="/windows/desktop/SecCrypto/certificates">Certificates</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/digital-signatures-overview">Digital Signatures Overview</a>
+<a href="/previous-versions/windows/desktop/opc/digital-signatures-overview">Digital Signatures Overview</a>
 
 
 
@@ -89,15 +89,15 @@ The certificate is not stored in the package.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-api-overview">Getting Started with the Packaging API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-getcertificateembeddingoption">IOpcSigningOptions::GetCertificateEmbeddingOption</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-getcertificateembeddingoption">IOpcSigningOptions::GetCertificateEmbeddingOption</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-setcertificateembeddingoption">IOpcSigningOptions::SetCertificateEmbeddingOption</a>
+<a href="/previous-versions/windows/desktop/api/msopc/nf-msopc-iopcsigningoptions-setcertificateembeddingoption">IOpcSigningOptions::SetCertificateEmbeddingOption</a>
 
 
 
@@ -105,19 +105,19 @@ The certificate is not stored in the package.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-guide">Packaging API Programming Guide</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-programming-samples">Packaging API Samples</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/opc/packaging-enumerations">Packaging Enumerations</a>
+<a href="/previous-versions/windows/desktop/opc/packaging-enumerations">Packaging Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd371635(v=vs.85)">Packaging Interfaces</a>
+<a href="/previous-versions/windows/desktop/legacy/dd371635(v=vs.85)">Packaging Interfaces</a>
 
 
 
@@ -127,4 +127,3 @@ The certificate is not stored in the package.
 
 <a href="https://www.w3.org/TR/xml-c14n">W3C Recommendation, Canonical XML
 Version 1.0</a>
-

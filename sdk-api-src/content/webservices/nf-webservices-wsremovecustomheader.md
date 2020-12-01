@@ -65,15 +65,15 @@ A pointer to the <b>Message</b> object with the header  to be removed.
 
 ### -param headerName [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> object that references the "local name" of the header element to be  removed.
+A pointer to the <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> object that references the "local name" of the header element to be  removed.
 
 ### -param headerNs [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> object that references the namespace of the header element to be removed.
+A pointer to the <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_string">WS_XML_STRING</a> object that references the namespace of the header element to be removed.
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -133,4 +133,3 @@ This function may return other errors not listed above.
 ## -remarks
 
 If a header of the given type exists in the message it is removed.  If the header does not exist, the function takes no action and completes successfully.
-

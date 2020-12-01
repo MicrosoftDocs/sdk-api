@@ -74,9 +74,8 @@ The number of attributes specified by the <b>Attribute</b> member.
 
 ### -field Attribute.pAttributeV1
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_security_attribute_v1">AUTHZ_SECURITY_ATTRIBUTE_V1</a> structures of the length of the <b>AttributeCount</b> member.
+An array of <a href="/windows/desktop/api/authz/ns-authz-authz_security_attribute_v1">AUTHZ_SECURITY_ATTRIBUTE_V1</a> structures of the length of the <b>AttributeCount</b> member.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>
-
+<a href="/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>

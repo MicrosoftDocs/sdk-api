@@ -74,17 +74,17 @@ Specifies whether the interface is enabled. This value is <b>TRUE</b> if the int
 ### -field dwIfType
 
 Specifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">type of interface</a>.
+<a href="/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">type of interface</a>.
 
 ### -field dwConnectionState
 
 Specifies the current state of the interface, for example connected, disconnected, or unreachable. For a list of possible states, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a>.
+<a href="/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a>.
 
 ### -field fUnReachabilityReasons
 
 Specifies a value that represents a reason why the interface was unreachable. See 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/unreachability-reasons">Unreachability Reasons</a> for a list of possible values.
+<a href="/windows/desktop/RRAS/unreachability-reasons">Unreachability Reasons</a> for a list of possible values.
 
 ### -field dwLastError
 
@@ -200,33 +200,32 @@ The preceding string restricts dial-out to Tuesdays and Thursdays from 9:00 AM t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacecreate">MprAdminInterfaceCreate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfaceenum">MprAdminInterfaceEnum</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfaceenum">MprAdminInterfaceEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacegetinfo">MprAdminInterfaceGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a>
+<a href="/windows/desktop/api/mprapi/ne-mprapi-router_connection_state">ROUTER_CONNECTION_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">ROUTER_INTERFACE_TYPE</a>
+<a href="/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">ROUTER_INTERFACE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
+<a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/unreachability-reasons">Unreachability Reasons</a>
-
+<a href="/windows/desktop/RRAS/unreachability-reasons">Unreachability Reasons</a>

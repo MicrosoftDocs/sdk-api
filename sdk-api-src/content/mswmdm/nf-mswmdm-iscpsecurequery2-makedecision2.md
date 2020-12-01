@@ -72,7 +72,7 @@ Flags describing the data offered to the secure content provider for making deci
 </tr>
 <tr>
 <td>WMDM_MODE_TRANSFER_PROTECTED</td>
-<td>The output object data from the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange</a> interface must be protected. If Windows Media Device Manager sets neither or both mode flags, Windows Media Digital Rights Manager decides whether the output object data from the <b>ISCPSecureExchange</b> interface must be protected or unprotected.</td>
+<td>The output object data from the <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureexchange">ISCPSecureExchange</a> interface must be protected. If Windows Media Device Manager sets neither or both mode flags, Windows Media Digital Rights Manager decides whether the output object data from the <b>ISCPSecureExchange</b> interface must be protected or unprotected.</td>
 </tr>
 <tr>
 <td>WMDM_MODE_TRANSFER_UNPROTECTED</td>
@@ -90,7 +90,7 @@ Pointer to a data object containing the data to be examined. This parameter must
 
 ### -param dwAppSec [in]
 
-<b>DWORD</b> that contains the length, in bytes, of the <b>dwAppSec</b> member of the <a href="https://docs.microsoft.com/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a> structure of the service provider and secure content provider to be examined. This parameter must be included in the input message authentication code.
+<b>DWORD</b> that contains the length, in bytes, of the <b>dwAppSec</b> member of the <a href="/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a> structure of the service provider and secure content provider to be examined. This parameter must be included in the input message authentication code.
 
 ### -param pbSPSessionKey [in]
 
@@ -102,7 +102,7 @@ Pointer to an array of bytes containing the session key for securing communicati
 
 ### -param pStorageGlobals [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals</a> interface on the root storage of the media or device to or from which the file is being transferred. This parameter must be included in the input message authentication code.
+Pointer to the <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals</a> interface on the root storage of the media or device to or from which the file is being transferred. This parameter must be included in the input message authentication code.
 
 ### -param pAppCertApp [in]
 
@@ -197,13 +197,12 @@ The application certificate that the secure content provider uses to talk to the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery">ISCPSecureQuery Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery2">ISCPSecureQuery2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecurequery2">ISCPSecureQuery2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-makedecision">ISCPSecureQuery::MakeDecision</a>
-
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-makedecision">ISCPSecureQuery::MakeDecision</a>

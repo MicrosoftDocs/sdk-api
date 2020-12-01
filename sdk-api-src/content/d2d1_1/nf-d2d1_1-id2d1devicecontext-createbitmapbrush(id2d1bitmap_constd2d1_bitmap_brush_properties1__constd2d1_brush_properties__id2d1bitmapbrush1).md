@@ -56,25 +56,25 @@ Creates a bitmap brush, the input image is a Direct2D bitmap object.
 
 ### -param bitmap [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>*</b>
 
 The bitmap to use as the brush.
 
 ### -param bitmapBrushProperties [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_bitmap_brush_properties1">D2D1_BITMAP_BRUSH_PROPERTIES1</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_bitmap_brush_properties1">D2D1_BITMAP_BRUSH_PROPERTIES1</a>*</b>
 
 A bitmap brush properties structure.
 
 ### -param brushProperties [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_brush_properties">D2D1_BRUSH_PROPERTIES</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1/ns-d2d1-d2d1_brush_properties">D2D1_BRUSH_PROPERTIES</a>*</b>
 
 A brush properties structure.
 
 ### -param bitmapBrush [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmapbrush1">ID2D1BitmapBrush1</a>**</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmapbrush1">ID2D1BitmapBrush1</a>**</b>
 
 The address of the newly created bitmap brush object.
 
@@ -105,21 +105,20 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_bitmap_brush_properties1">D2D1_BITMAP_BRUSH_PROPERTIES1</a>
+<a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_bitmap_brush_properties1">D2D1_BITMAP_BRUSH_PROPERTIES1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmap(d2d1_size_u_constvoid_uint32_constd2d1_bitmap_properties_id2d1bitmap)">D2D1_BRUSH_PROPERTIES</a>
+<a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmap(d2d1_size_u_constvoid_uint32_constd2d1_bitmap_properties_id2d1bitmap)">D2D1_BRUSH_PROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
+<a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmapbrush1">ID2D1BitmapBrush1</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1bitmapbrush1">ID2D1BitmapBrush1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
-
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>

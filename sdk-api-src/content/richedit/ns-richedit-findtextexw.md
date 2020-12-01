@@ -60,19 +60,19 @@ Contains information about text to search for in a rich edit control. This struc
 
 ### -field chrg
 
-Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a></b>
 
 The range of characters to search. To search forward in the entire control, set <b>cpMin</b> to 0 and <b>cpMax</b> to -1.
 
 ### -field lpstrText
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCTSTR</a></b>
 
 The null-terminated string to find.
 
 ### -field chrgText
 
-Type: <b><a href="https://msdn.microsoft.com/144aadcb-92c9-408b-b2ae-a0a4e12c4759">CHARRANGE</a></b>
+Type: <b><a href="/windows/win32/api/richedit/ns-richedit-charrange">CHARRANGE</a></b>
 
 The range of characters in which the text was found. If the text was not found, <b>cpMin</b> and <b>cpMax</b> are -1.
 
@@ -92,4 +92,3 @@ The range of characters in which the text was found. If the text was not found, 
 
 > [!NOTE]
 > The richedit.h header defines FINDTEXTEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

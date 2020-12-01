@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/gaussian-blur">Gaussian blur effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/gaussian-blur">Gaussian blur effect</a>.
 
 ## -enum-fields
 
@@ -69,7 +69,7 @@ The default value is 3.0f.
 The optimization mode.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_gaussianblur_optimization">D2D1_GAUSSIANBLUR_OPTIMIZATION</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_gaussianblur_optimization">D2D1_GAUSSIANBLUR_OPTIMIZATION</a>.
 
 The default value is D2D1_GAUSSIANBLUR_OPTIMIZATION_BALANCED.
 
@@ -78,9 +78,8 @@ The default value is D2D1_GAUSSIANBLUR_OPTIMIZATION_BALANCED.
 The mode used to calculate the border of the image, soft or hard.
             
 
-The type is <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_gaussianblur_optimization">D2D1_GAUSSIANBLUR_OPTIMIZATION</a>.
+The type is <a href="/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_gaussianblur_optimization">D2D1_GAUSSIANBLUR_OPTIMIZATION</a>.
 
 The default value is D2D1_BORDER_MODE_SOFT.
 
 ### -field D2D1_GAUSSIANBLUR_PROP_FORCE_DWORD
-

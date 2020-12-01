@@ -56,11 +56,11 @@ Gets the current level of downsampling that is performed by the video processor.
 
 ### -param pVideoProcessor [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessor">ID3D11VideoDevice::CreateVideoProcessor</a>.
+A pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface. To get this pointer, call <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessor">ID3D11VideoDevice::CreateVideoProcessor</a>.
 
 ### -param pEnabled [out]
 
-Receives the value <b>TRUE</b> if downsampling was explicitly enabled using the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputconstriction">ID3D11VideoContext::VideoProcessorSetOutputConstriction</a> method. Receives the value <b>FALSE</b> if the downsampling was disabled or was never set.
+Receives the value <b>TRUE</b> if downsampling was explicitly enabled using the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorsetoutputconstriction">ID3D11VideoContext::VideoProcessorSetOutputConstriction</a> method. Receives the value <b>FALSE</b> if the downsampling was disabled or was never set.
 
 ### -param pSize [out]
 
@@ -68,5 +68,4 @@ If <i>Enabled</i> receives the value <b>TRUE</b>, this parameter receives the do
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>

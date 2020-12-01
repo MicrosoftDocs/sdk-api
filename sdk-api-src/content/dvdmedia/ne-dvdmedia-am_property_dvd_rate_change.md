@@ -76,9 +76,8 @@ Reserved.
 
 ## -remarks
 
-This enumeration is defined in dvdmedia.h but was never used. It is included here for the sake of completeness. For DVD rate-change control, use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/rate-change-property-set">Rate Change Property Set</a>.
+This enumeration is defined in dvdmedia.h but was never used. It is included here for the sake of completeness. For DVD rate-change control, use the <a href="/windows/desktop/DirectShow/rate-change-property-set">Rate Change Property Set</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>

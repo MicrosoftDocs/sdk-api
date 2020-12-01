@@ -87,5 +87,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_transportstreaminfo">IBDA_TransportStreamInfo Interface</a>
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_transportstreaminfo">IBDA_TransportStreamInfo Interface</a>

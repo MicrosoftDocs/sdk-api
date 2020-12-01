@@ -54,7 +54,7 @@ Defines task variables that can be passed as parameters to task handlers and ext
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskVariables</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskVariables</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITaskVariables</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITaskVariables</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITaskVariables</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskvariables-getcontext">GetContext</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskvariables-getcontext">GetContext</a>
 </td>
 <td align="left" width="63%">
 Used to share the context between different steps and tasks that are in the same job instance.
@@ -78,7 +78,7 @@ Used to share the context between different steps and tasks that are in the same
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskvariables-getinput">GetInput</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskvariables-getinput">GetInput</a>
 </td>
 <td align="left" width="63%">
 Gets the input variables for a task.
@@ -87,7 +87,7 @@ Gets the input variables for a task.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskvariables-setoutput">SetOutput</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskvariables-setoutput">SetOutput</a>
 </td>
 <td align="left" width="63%">
 Sets the output variables for a task.
@@ -95,4 +95,3 @@ Sets the output variables for a task.
 </td>
 </tr>
 </table>
-

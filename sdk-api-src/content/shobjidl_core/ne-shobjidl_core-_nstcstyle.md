@@ -60,7 +60,7 @@ The control displays a triangle—known as an expando—on the leftmost edge of 
 
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-styles">TVS_HASBUTTONS</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_HASBUTTONS</a> tree view control style.
 
 ### -field NSTCS_HASLINES
 
@@ -68,7 +68,7 @@ The control draws lines to the left of the tree items that lead to their individ
                     
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-styles">TVS_HASLINES</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_HASLINES</a> tree view control style.
 
 ### -field NSTCS_SINGLECLICKEXPAND
 
@@ -76,7 +76,7 @@ An item expands to show its child items in response to a single mouse click.
                     
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-styles">TVS_SINGLEEXPAND</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_SINGLEEXPAND</a> tree view control style.
 
 ### -field NSTCS_FULLROWSELECT
 
@@ -84,14 +84,14 @@ The selection of an item fills the row with inverse text to the end of the windo
 
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-styles">TVS_FULLROWSELECT</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_FULLROWSELECT</a> tree view control style.
 
 ### -field NSTCS_SPRINGEXPAND
 
 When one item is selected and expanded and you select a second item, the first selection automatically collapses.
                         
 
-This is the opposite of the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_NOSINGLECOLLAPSE</a> tree view control style.
+This is the opposite of the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_NOSINGLECOLLAPSE</a> tree view control style.
 
 ### -field NSTCS_HORIZONTALSCROLL
 
@@ -99,7 +99,7 @@ The area of the window that contains the tree of namespace items has a horizonta
                     
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">WS_HSCROLL</a> Windows style.
+Maps to the <a href="/windows/desktop/winmsg/window-styles">WS_HSCROLL</a> Windows style.
 
 ### -field NSTCS_ROOTHASEXPANDO
 
@@ -107,7 +107,7 @@ The root item is preceded by an expando that allows expansion of the root item.
                     
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-styles">TVS_LINESATROOT</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_LINESATROOT</a> tree view control style.
 
 ### -field NSTCS_SHOWSELECTIONALWAYS
 
@@ -115,7 +115,7 @@ The node of an item is outlined when the control does not have the focus.
                     
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-styles">TVS_SHOWSELALWAYS</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_SHOWSELALWAYS</a> tree view control style.
 
 ### -field NSTCS_NOINFOTIP
 
@@ -123,7 +123,7 @@ Do not display infotips when the mouse cursor is over an item.
                     
                         
 
-This is the opposite of the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-styles">TVS_INFOTIP</a> tree view control style.
+This is the opposite of the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_INFOTIP</a> tree view control style.
 
 ### -field NSTCS_EVENHEIGHT
 
@@ -131,7 +131,7 @@ Sets the height of the items to an even height. By default, the height of items 
                     
                         
 
-This is the opposite of the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-styles">TVS_NONEVENHEIGHT</a> tree view control style.
+This is the opposite of the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_NONEVENHEIGHT</a> tree view control style.
 
 ### -field NSTCS_NOREPLACEOPEN
 
@@ -143,7 +143,7 @@ Do not allow drag-and-drop operations within the control. Note that you can stil
 
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-styles">TVS_DISABLEDRAGDROP</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_DISABLEDRAGDROP</a> tree view control style.
 
 ### -field NSTCS_NOORDERSTREAM
 
@@ -155,13 +155,13 @@ Use a rich tooltip. Rich tooltips display the item's icon in addition to the ite
 
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_RICHTOOLTIP</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_RICHTOOLTIP</a> tree view control style.
 
-NSTCS_RICHTOOLTIP has no effect unless it is combined with NSTCS_NOINFOTIP and/or NSTCS_FAVORITESMODE. If NSTCS_NOINFOTIP is not specified, the tree view displays an infotip instead of a tooltip. If NSTCS_FAVORITESMODE is not specified, the namespace tree control always sets the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_RICHTOOLTIP</a> style.
+NSTCS_RICHTOOLTIP has no effect unless it is combined with NSTCS_NOINFOTIP and/or NSTCS_FAVORITESMODE. If NSTCS_NOINFOTIP is not specified, the tree view displays an infotip instead of a tooltip. If NSTCS_FAVORITESMODE is not specified, the namespace tree control always sets the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_RICHTOOLTIP</a> style.
 
 ### -field NSTCS_BORDER
 
-Draw a thin border around the control. Corresponds to <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-styles">WS_BORDER</a>.
+Draw a thin border around the control. Corresponds to <a href="/windows/desktop/winmsg/window-styles">WS_BORDER</a>.
 
 ### -field NSTCS_NOEDITLABELS
 
@@ -169,11 +169,11 @@ Do not allow creation of an in-place edit box, which would allow the user to ren
                     
                         
 
-This is the opposite of the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-styles">TVS_EDITLABELS</a> tree view control style.
+This is the opposite of the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_EDITLABELS</a> tree view control style.
 
 ### -field NSTCS_TABSTOP
 
-If the control is hosted, you can tabstop into the control. Corresponds to <a href="https://docs.microsoft.com/windows/desktop/winmsg/extended-window-styles">WS_EX_CONTROLPARENT</a>.
+If the control is hosted, you can tabstop into the control. Corresponds to <a href="/windows/desktop/winmsg/extended-window-styles">WS_EX_CONTROLPARENT</a>.
 
 ### -field NSTCS_FAVORITESMODE
 
@@ -185,7 +185,7 @@ When you hover the mouse pointer over an item that extends past the end of the c
 
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_AUTOHSCROLL</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_AUTOHSCROLL</a> tree view control style.
 
 ### -field NSTCS_FADEINOUTEXPANDOS
 
@@ -193,7 +193,7 @@ If the control does not have the focus and there are items that are preceded by 
 
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_FADEINOUTEXPANDOS</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_FADEINOUTEXPANDOS</a> tree view control style.
 
 ### -field NSTCS_EMPTYTEXT
 
@@ -205,7 +205,7 @@ Items have check boxes on their leftmost side. These check boxes can be of types
 
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-styles">TVS_CHECKBOXES</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-styles">TVS_CHECKBOXES</a> tree view control style.
 
 ### -field NSTCS_PARTIALCHECKBOXES
 
@@ -213,7 +213,7 @@ Adds a checkbox icon on the leftmost side of a given item with a square in the c
 
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_PARTIALCHECKBOXES</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_PARTIALCHECKBOXES</a> tree view control style.
 
 ### -field NSTCS_EXCLUSIONCHECKBOXES
 
@@ -221,7 +221,7 @@ Adds a checkbox icon on the leftmost side of a given item that contains a red <b
 
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_EXCLUSIONCHECKBOXES</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_EXCLUSIONCHECKBOXES</a> tree view control style.
 
 ### -field NSTCS_DIMMEDCHECKBOXES
 
@@ -229,7 +229,7 @@ Adds a checkbox on the leftmost side of a given item that contains an icon of a 
 
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_DIMMEDCHECKBOXES</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_DIMMEDCHECKBOXES</a> tree view control style.
 
 ### -field NSTCS_NOINDENTCHECKS
 
@@ -237,7 +237,7 @@ Check boxes are located at the far left edge of the window area instead of being
                     
                         
 
-Maps to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_NOINDENTSTATE</a> tree view control style.
+Maps to the <a href="/windows/desktop/Controls/tree-view-control-window-extended-styles">TVS_EX_NOINDENTSTATE</a> tree view control style.
 
 ### -field NSTCS_ALLOWJUNCTIONS
 
@@ -301,13 +301,12 @@ Three values have effect only in conjunction with NSTCS_CHECKBOXES: NSTCS_PARTIA
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrol2-getcontrolstyle">INameSpaceTreeControl2::GetControlStyle</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrol2-getcontrolstyle">INameSpaceTreeControl2::GetControlStyle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrol2-setcontrolstyle">INameSpaceTreeControl2::SetControlStyle</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontrol2-setcontrolstyle">INameSpaceTreeControl2::SetControlStyle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-initialize">INameSpaceTreeControl::Initialize</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-inamespacetreecontrol-initialize">INameSpaceTreeControl::Initialize</a>

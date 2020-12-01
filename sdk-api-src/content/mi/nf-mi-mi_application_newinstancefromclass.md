@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> object based on a class object.
+Creates a new <a href="/windows/desktop/api/mi/ns-mi-mi_instance">MI_Instance</a> object based on a class object.
 
 ## -parameters
 
 ### -param application [in]
 
-A pointer to a handle returned from a call to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
+A pointer to a handle returned from a call to the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_initializev1">MI_Application_Initialize</a> function.
 
 ### -param className
 
@@ -73,4 +73,3 @@ A pointer to the instance returned from this function call.
 ## -returns
 
 This function returns MI_INLINE MI_Result.
-

@@ -50,20 +50,20 @@ api_name:
 
 ## -description
 
-Performs <a href="https://docs.microsoft.com/windows/desktop/RRAS/portal">Remote Access Service</a> authentication when subauthentication is requested by calling the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
+Performs <a href="/windows/desktop/RRAS/portal">Remote Access Service</a> authentication when subauthentication is requested by calling the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security principal's</a> credentials and information from the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM) database are passed to this function for authentication.
+The <a href="/windows/desktop/SecGloss/s-gly">security principal's</a> credentials and information from the <a href="/windows/desktop/SecGloss/s-gly">Security Accounts Manager</a> (SAM) database are passed to this function for authentication.
 
 This function is implemented by custom subauthentication package DLLs for use with the MSV1_0 authentication package.
 
 This function is called only for a 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/noninteractive-authentication">noninteractive authentication</a>, only on the authenticating server where the account resides, and only if a subauthentication DLL is registered under the correct key in the registry.
+<a href="/windows/desktop/SecAuthN/noninteractive-authentication">noninteractive authentication</a>, only on the authenticating server where the account resides, and only if a subauthentication DLL is registered under the correct key in the registry.
 
 ## -parameters
 
 ### -param SubmitBuffer
 
-A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_request">MSV1_0_SUBAUTH_REQUEST</a> structure that contains the  authentication information to be submitted.
+A pointer to a buffer that contains a <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_request">MSV1_0_SUBAUTH_REQUEST</a> structure that contains the  authentication information to be submitted.
 
 ### -param SubmitBufferLength
 
@@ -75,7 +75,7 @@ The size, in bytes, of the <i>ReturnBuffer</i> buffer.
 
 ### -param ReturnBuffer [out]
 
-A pointer to a buffer that contains a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_response">MSV1_0_SUBAUTH_RESPONSE</a> structure that contains the response from the subauthentication package.
+A pointer to a buffer that contains a <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_response">MSV1_0_SUBAUTH_RESPONSE</a> structure that contains the response from the subauthentication package.
 
 ## -returns
 
@@ -85,5 +85,4 @@ If the function fails, the return value is an NTSTATUS code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/subauth/nf-subauth-msv1_0subauthenticationroutine">Msv1_0SubAuthenticationRoutine</a>
-
+<a href="/windows/desktop/api/subauth/nf-subauth-msv1_0subauthenticationroutine">Msv1_0SubAuthenticationRoutine</a>

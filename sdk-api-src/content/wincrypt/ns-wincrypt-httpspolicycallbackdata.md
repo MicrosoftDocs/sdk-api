@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SSL_EXTRA_CERT_CHAIN_POLICY_PARA</b> structure, also identified by the name <b>HTTPSPolicyCallbackData</b>,  holds policy information used in the verification of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Secure Sockets Layer</a> (SSL) client/server certificate chains.
+The <b>SSL_EXTRA_CERT_CHAIN_POLICY_PARA</b> structure, also identified by the name <b>HTTPSPolicyCallbackData</b>,  holds policy information used in the verification of <a href="/windows/desktop/SecGloss/s-gly">Secure Sockets Layer</a> (SSL) client/server certificate chains.
 
 ## -struct-fields
 
@@ -128,7 +128,7 @@ Ignore errors associated with a revoked certificate.
 </dl>
 </td>
 <td width="60%">
-Ignore errors associated with an unknown <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>.
+Ignore errors associated with an unknown <a href="/windows/desktop/SecGloss/c-gly">certification authority</a>.
 
 </td>
 </tr>
@@ -174,4 +174,3 @@ A pointer to a null-terminated wide character string that contains the server na
 If the string is Punycode encoded, then the server name from the certificate, either the DNS name or common name, is converted to a Punycode encoded string. Matching is then performed, label-by-label if the name contains wildcards, or a case-insensitive exact match otherwise. 
 
 If the string contains Unicode characters outside of the ASCII character set and the subject name, either the DNS name or common name, is a Punycode encoded string then it is Punycode encoded before comparison.
-

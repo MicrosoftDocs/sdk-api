@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DSA_NEWOBJ_DISPINFO</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-initialize">IDsAdminNewObjExt::Initialize</a> method to supply additional data about an Active Directory Domain Services  object creation wizard.
+The <b>DSA_NEWOBJ_DISPINFO</b> structure is used with the <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-initialize">IDsAdminNewObjExt::Initialize</a> method to supply additional data about an Active Directory Domain Services  object creation wizard.
 
 ## -struct-fields
 
@@ -74,5 +74,4 @@ Pointer to a null-terminated Unicode string that contains the display name, or c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-initialize">IDsAdminNewObjExt::Initialize</a>
-
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-initialize">IDsAdminNewObjExt::Initialize</a>

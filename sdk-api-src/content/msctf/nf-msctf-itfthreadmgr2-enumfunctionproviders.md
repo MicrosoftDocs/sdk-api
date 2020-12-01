@@ -56,7 +56,7 @@ Obtains an enumerator for all of the function providers registered for the calli
 
 ### -param ppEnum [out]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtffunctionproviders">IEnumTfFunctionProviders</a> interface that receives the function provider enumerator.
+Address of a <a href="/windows/desktop/api/msctf/nn-msctf-ienumtffunctionproviders">IEnumTfFunctionProviders</a> interface that receives the function provider enumerator.
 
 ## -returns
 
@@ -115,11 +115,10 @@ An unspecified error occurred.
 
 ## -remarks
 
-The enumerator only contains the registered function providers. The enumerator will not contain the predefined function providers as described in <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getfunctionprovider">GetFunctionProvider</a>.
+The enumerator only contains the registered function providers. The enumerator will not contain the predefined function providers as described in <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr2-getfunctionprovider">GetFunctionProvider</a>.
 
-A function provider registers itself by calling the TSF manager <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink</a> method with IID_ITfFunctionProvider.
+A function provider registers itself by calling the TSF manager <a href="/windows/desktop/api/msctf/nf-msctf-itfsourcesingle-advisesinglesink">ITfSourceSingle::AdviseSingleSink</a> method with IID_ITfFunctionProvider.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
-
+<a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>

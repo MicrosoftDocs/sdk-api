@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Identifiers for properties of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/gamma-transfer">Gamma transfer effect</a>.
+Identifiers for properties of the <a href="/windows/desktop/Direct2D/gamma-transfer">Gamma transfer effect</a>.
 
 ## -enum-fields
 
@@ -217,4 +217,3 @@ The type is BOOL.
 The default value is FALSE.
 
 ### -field D2D1_GAMMATRANSFER_PROP_FORCE_DWORD
-

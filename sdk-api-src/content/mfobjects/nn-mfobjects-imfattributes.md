@@ -53,13 +53,13 @@ api_name:
 
 Provides a generic way to store key/value pairs on an object. The keys are <b>GUID</b>s, and the values can be any of the following data types: <b>UINT32</b>, <b>UINT64</b>, <b>double</b>, <b>GUID</b>, wide-character string, byte array, or <b>IUnknown</b> pointer. The standard implementation of this interface holds a thread lock while values are added, deleted, or retrieved.
 
-For a list of predefined attribute <b>GUID</b>s, see <a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-attributes">Media Foundation Attributes</a>. Each attribute <b>GUID</b> has an expected data type. The various "set" methods in <b>IMFAttributes</b> do not validate the type against the attribute <b>GUID</b>. It is the application's responsibility to set the correct type for the attribute.
+For a list of predefined attribute <b>GUID</b>s, see <a href="/windows/desktop/medfound/media-foundation-attributes">Media Foundation Attributes</a>. Each attribute <b>GUID</b> has an expected data type. The various "set" methods in <b>IMFAttributes</b> do not validate the type against the attribute <b>GUID</b>. It is the application's responsibility to set the correct type for the attribute.
 
-To create an empty attribute store, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreateattributes">MFCreateAttributes</a>.
+To create an empty attribute store, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfcreateattributes">MFCreateAttributes</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAttributes</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAttributes</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFAttributes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFAttributes</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IMFAttributes</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-compare">Compare</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-compare">Compare</a>
 </td>
 <td align="left" width="63%">
 Compares the attributes on this object with the attributes on another object.
@@ -83,7 +83,7 @@ Compares the attributes on this object with the attributes on another object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-compareitem">CompareItem</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-compareitem">CompareItem</a>
 </td>
 <td align="left" width="63%">
 Queries whether a stored attribute value equals a specified <b>PROPVARIANT</b>.
@@ -92,7 +92,7 @@ Queries whether a stored attribute value equals a specified <b>PROPVARIANT</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-copyallitems">CopyAllItems</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-copyallitems">CopyAllItems</a>
 </td>
 <td align="left" width="63%">
 Copies all of the attributes from this object into another attribute store.
@@ -101,7 +101,7 @@ Copies all of the attributes from this object into another attribute store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-deleteallitems">DeleteAllItems</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-deleteallitems">DeleteAllItems</a>
 </td>
 <td align="left" width="63%">
 Removes all key/value pairs from the object's attribute list.
@@ -110,7 +110,7 @@ Removes all key/value pairs from the object's attribute list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-deleteitem">DeleteItem</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-deleteitem">DeleteItem</a>
 </td>
 <td align="left" width="63%">
 Removes a key/value pair from the object's attribute list.
@@ -119,7 +119,7 @@ Removes a key/value pair from the object's attribute list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getallocatedblob">GetAllocatedBlob</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getallocatedblob">GetAllocatedBlob</a>
 </td>
 <td align="left" width="63%">
 Retrieves a byte array associated with a key. This method allocates the memory for the array.
@@ -128,7 +128,7 @@ Retrieves a byte array associated with a key. This method allocates the memory f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getallocatedstring">GetAllocatedString</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getallocatedstring">GetAllocatedString</a>
 </td>
 <td align="left" width="63%">
 Retrieves a wide-character string associated with a key. This method allocates the memory for the string.
@@ -137,7 +137,7 @@ Retrieves a wide-character string associated with a key. This method allocates t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getblob">GetBlob</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getblob">GetBlob</a>
 </td>
 <td align="left" width="63%">
 Retrieves a byte array associated with a key.
@@ -146,7 +146,7 @@ Retrieves a byte array associated with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getblobsize">GetBlobSize</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getblobsize">GetBlobSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves the length of a byte array associated with a key.
@@ -155,7 +155,7 @@ Retrieves the length of a byte array associated with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getcount">GetCount</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of attributes that are set on this object.
@@ -164,7 +164,7 @@ Retrieves the number of attributes that are set on this object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getdouble">GetDouble</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getdouble">GetDouble</a>
 </td>
 <td align="left" width="63%">
 Retrieves a <b>double</b> value associated with a key.
@@ -173,7 +173,7 @@ Retrieves a <b>double</b> value associated with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getguid">GetGUID</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getguid">GetGUID</a>
 </td>
 <td align="left" width="63%">
 Retrieves a <b>GUID</b> value associated with a key.
@@ -182,7 +182,7 @@ Retrieves a <b>GUID</b> value associated with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getitem">GetItem</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getitem">GetItem</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value associated with a key.
@@ -191,7 +191,7 @@ Retrieves the value associated with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getitembyindex">GetItemByIndex</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getitembyindex">GetItemByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves an attribute at the specified index.
@@ -200,7 +200,7 @@ Retrieves an attribute at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getitemtype">GetItemType</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getitemtype">GetItemType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the data type of the value associated with a key.
@@ -209,7 +209,7 @@ Retrieves the data type of the value associated with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstring">GetString</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstring">GetString</a>
 </td>
 <td align="left" width="63%">
 Retrieves a wide-character string associated with a key.
@@ -218,7 +218,7 @@ Retrieves a wide-character string associated with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstringlength">GetStringLength</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getstringlength">GetStringLength</a>
 </td>
 <td align="left" width="63%">
 Retrieves the length of a string value associated with a key.
@@ -227,7 +227,7 @@ Retrieves the length of a string value associated with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint32">GetUINT32</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint32">GetUINT32</a>
 </td>
 <td align="left" width="63%">
 Retrieves a <b>UINT32</b> value associated with a key.
@@ -236,7 +236,7 @@ Retrieves a <b>UINT32</b> value associated with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint64">GetUINT64</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getuint64">GetUINT64</a>
 </td>
 <td align="left" width="63%">
 Retrieves a <b>UINT64</b> value associated with a key.
@@ -245,7 +245,7 @@ Retrieves a <b>UINT64</b> value associated with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown">GetUnknown</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-getunknown">GetUnknown</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface pointer associated with a key.
@@ -254,7 +254,7 @@ Retrieves an interface pointer associated with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-lockstore">LockStore</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-lockstore">LockStore</a>
 </td>
 <td align="left" width="63%">
 Locks the attribute store so that no other thread can access it.
@@ -263,7 +263,7 @@ Locks the attribute store so that no other thread can access it.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setblob">SetBlob</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setblob">SetBlob</a>
 </td>
 <td align="left" width="63%">
 Associates a byte array with a key.
@@ -272,7 +272,7 @@ Associates a byte array with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setdouble">SetDouble</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setdouble">SetDouble</a>
 </td>
 <td align="left" width="63%">
 Associates a <b>double</b> value with a key.
@@ -281,7 +281,7 @@ Associates a <b>double</b> value with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setguid">SetGUID</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setguid">SetGUID</a>
 </td>
 <td align="left" width="63%">
 Associates a <b>GUID</b> value with a key.
@@ -290,7 +290,7 @@ Associates a <b>GUID</b> value with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setitem">SetItem</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setitem">SetItem</a>
 </td>
 <td align="left" width="63%">
 Associates an attribute value with a key.
@@ -299,7 +299,7 @@ Associates an attribute value with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setstring">SetString</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setstring">SetString</a>
 </td>
 <td align="left" width="63%">
 Associates a wide-character string with a key.
@@ -308,7 +308,7 @@ Associates a wide-character string with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32">SetUINT32</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32">SetUINT32</a>
 </td>
 <td align="left" width="63%">
 Associates a <b>UINT32</b> value with a key.
@@ -317,7 +317,7 @@ Associates a <b>UINT32</b> value with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint64">SetUINT64</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint64">SetUINT64</a>
 </td>
 <td align="left" width="63%">
 Associates a <b>UINT64</b> value with a key.
@@ -326,7 +326,7 @@ Associates a <b>UINT64</b> value with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown">SetUnknown</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setunknown">SetUnknown</a>
 </td>
 <td align="left" width="63%">
 Associates an <b>IUnknown</b> pointer with a key.
@@ -335,7 +335,7 @@ Associates an <b>IUnknown</b> pointer with a key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-unlockstore">UnlockStore</a>
+<a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-unlockstore">UnlockStore</a>
 </td>
 <td align="left" width="63%">
 Unlocks the attribute store.
@@ -355,9 +355,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
+<a href="/windows/desktop/medfound/attributes-and-properties">Attributes and Properties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

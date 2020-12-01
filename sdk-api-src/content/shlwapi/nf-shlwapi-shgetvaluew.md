@@ -107,7 +107,7 @@ The address of the value.
 
 Type: <b>LPDWORD</b>
 
-The type of value. For more information, see <a href="https://docs.microsoft.com/windows/desktop/shell/schemas">Registry Data Types</a>.
+The type of value. For more information, see <a href="/windows/desktop/shell/hkey-type">Registry Data Types</a>.
 
 ### -param pvData [out, optional]
 
@@ -143,7 +143,7 @@ The size of the destination data buffer.
 
 Type: <b>LSTATUS</b>
 
-Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
+Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a generic description of the error.
 
 ## -remarks
 
@@ -154,4 +154,3 @@ If your application must set/retrieve a series of values in the same key, it is 
 
 > [!NOTE]
 > The shlwapi.h header defines SHGetValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

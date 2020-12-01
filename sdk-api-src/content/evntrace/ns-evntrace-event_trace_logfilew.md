@@ -70,9 +70,9 @@ Name of the log file used by the event tracing session. Specify a value for this
 
 This member must be <b>NULL</b> if <b>LoggerName</b> is specified.
 
-You must know the log file name the controller specified. If the controller logged events to a private session (the controller set the <b>LogFileMode</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> to  <b>EVENT_TRACE_PRIVATE_LOGGER_MODE</b>), the file name must include the process identifier that ETW appended to the log file name. For example, if the controller named the log file xyz.etl and the process identifier is 123, ETW uses xyz.etl_123 as the file name.
+You must know the log file name the controller specified. If the controller logged events to a private session (the controller set the <b>LogFileMode</b> member of <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> to  <b>EVENT_TRACE_PRIVATE_LOGGER_MODE</b>), the file name must include the process identifier that ETW appended to the log file name. For example, if the controller named the log file xyz.etl and the process identifier is 123, ETW uses xyz.etl_123 as the file name.
 
-If the controller set the <b>LogFileMode</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> to  <b>EVENT_TRACE_FILE_MODE_NEWFILE</b>, the log file name must include the sequential serial number used to create each new log file.
+If the controller set the <b>LogFileMode</b> member of <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> to  <b>EVENT_TRACE_FILE_MODE_NEWFILE</b>, the log file name must include the sequential serial number used to create each new log file.
 
 The user consuming the events must have permissions to read the file.
 
@@ -80,9 +80,9 @@ The user consuming the events must have permissions to read the file.
 
 Name of the event tracing session. Specify a value for this member if you want to consume events in real time. This member must be <b>NULL</b> if <b>LogFileName</b> is specified.
 
-You can only consume events in real  time if the controller set the <b>LogFileMode</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> to  <b>EVENT_TRACE_REAL_TIME_MODE</b>.
+You can only consume events in real  time if the controller set the <b>LogFileMode</b> member of <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> to  <b>EVENT_TRACE_REAL_TIME_MODE</b>.
 
-Only users with administrative privileges, users in the Performance Log Users group, and applications running as LocalSystem, LocalService, NetworkService can consume events in real time. To grant a restricted user the ability to consume events in real time, add them to the Performance Log Users group or call <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>.
+Only users with administrative privileges, users in the Performance Log Users group, and applications running as LocalSystem, LocalService, NetworkService can consume events in real time. To grant a restricted user the ability to consume events in real time, add them to the Performance Log Users group or call <a href="/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>.
 
 <b>Windows XP and Windows 2000:  </b>Anyone can consume real time events.
 
@@ -115,7 +115,7 @@ Modes for processing events. The modes are defined in the Evntcons.h header file
 </dl>
 </td>
 <td width="60%">
-Specify this mode if you want to receive events in the new <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> format. To receive events in the new format you must specify a callback in the <b>EventRecordCallback</b> member. If you do not specify this mode, you receive events in the old format through the callback specified in the <b>EventCallback</b> member.
+Specify this mode if you want to receive events in the new <a href="/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> format. To receive events in the new format you must specify a callback in the <b>EventRecordCallback</b> member. If you do not specify this mode, you receive events in the old format through the callback specified in the <b>EventCallback</b> member.
 
 <b>Prior to Windows Vista:  </b>Not supported.
 
@@ -127,7 +127,7 @@ Specify this mode if you want to receive events in the new <a href="https://docs
 </dl>
 </td>
 <td width="60%">
-Specify this mode if you do not want the time stamp value in the <b>TimeStamp</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> and <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> converted to system time (leaves the time stamp value in the resolution that the controller specified in the <b>Wnode.ClientContext</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>).
+Specify this mode if you do not want the time stamp value in the <b>TimeStamp</b> member of <a href="/windows/desktop/api/evntcons/ns-evntcons-event_header">EVENT_HEADER</a> and <a href="/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a> converted to system time (leaves the time stamp value in the resolution that the controller specified in the <b>Wnode.ClientContext</b> member of <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>).
 
 <b>Prior to Windows Vista:  </b>Not supported.
 
@@ -148,17 +148,17 @@ Specify this mode to receive events in real time (you must specify this mode if 
 ### -field CurrentEvent
 
 On output, an 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace">EVENT_TRACE</a> structure that contains the last event processed.
+<a href="/windows/desktop/ETW/event-trace">EVENT_TRACE</a> structure that contains the last event processed.
 
 ### -field LogfileHeader
 
 On output, a 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/trace-logfile-header">TRACE_LOGFILE_HEADER</a> structure that contains general information about the session and the computer on which the session ran.
+<a href="/windows/desktop/ETW/trace-logfile-header">TRACE_LOGFILE_HEADER</a> structure that contains general information about the session and the computer on which the session ran.
 
 ### -field BufferCallback
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a> function that receives buffer-related statistics for each buffer ETW flushes. ETW calls this callback after it delivers all the events in the buffer. This callback is optional.
+<a href="/windows/desktop/ETW/buffercallback">BufferCallback</a> function that receives buffer-related statistics for each buffer ETW flushes. ETW calls this callback after it delivers all the events in the buffer. This callback is optional.
 
 ### -field BufferSize
 
@@ -177,16 +177,16 @@ Not used.
 ### -field DUMMYUNIONNAME2.EventCallback
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/eventcallback">EventCallback</a> function that ETW calls for each event in the buffer. 
+<a href="/windows/desktop/ETW/eventcallback">EventCallback</a> function that ETW calls for each event in the buffer. 
 
-Specify this callback if you are consuming events from a provider that used one of the <a href="https://docs.microsoft.com/windows/desktop/ETW/traceevent">TraceEvent</a> functions to log events.
+Specify this callback if you are consuming events from a provider that used one of the <a href="/windows/desktop/ETW/traceevent">TraceEvent</a> functions to log events.
 
 ### -field DUMMYUNIONNAME2.EventRecordCallback
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> function that ETW calls for each event in the buffer. 
+<a href="/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> function that ETW calls for each event in the buffer. 
 
-Specify this callback if you are consuming events from a provider that used one of the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a> functions to log events.
+Specify this callback if you are consuming events from a provider that used one of the <a href="/windows/desktop/api/evntprov/nf-evntprov-eventwrite">EventWrite</a> functions to log events.
 
 <b>Prior to Windows Vista:  </b>Not supported.
 
@@ -196,7 +196,7 @@ On output, if this member is <b>TRUE</b>, the event tracing session is the NT Ke
 
 ### -field Context
 
-Context data that a consumer can specify when calling <a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a>. If the consumer uses <a href="https://docs.microsoft.com/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> to consume events, ETW sets the <b>UserContext</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> structure to this value.
+Context data that a consumer can specify when calling <a href="/windows/desktop/ETW/opentrace">OpenTrace</a>. If the consumer uses <a href="/windows/desktop/ETW/eventrecordcallback">EventRecordCallback</a> to consume events, ETW sets the <b>UserContext</b> member of the <a href="/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a> structure to this value.
 
 <b>Prior to Windows Vista:  </b>Not supported.
 
@@ -205,10 +205,10 @@ Context data that a consumer can specify when calling <a href="https://docs.micr
 Be sure to initialize the memory for this structure to zero before setting any members.
 
 Consumers pass this structure to the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a> function. 
+<a href="/windows/desktop/ETW/opentrace">OpenTrace</a> function. 
 
 When ETW flushes a buffer, it passes the structure to the 
-consumer's <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a> function.
+consumer's <a href="/windows/desktop/ETW/buffercallback">BufferCallback</a> function.
 
 
 
@@ -219,9 +219,8 @@ consumer's <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallbac
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallback">BufferCallback</a>
+<a href="/windows/desktop/ETW/buffercallback">BufferCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/opentrace">OpenTrace</a>
-
+<a href="/windows/desktop/ETW/opentrace">OpenTrace</a>

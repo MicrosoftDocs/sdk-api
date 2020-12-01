@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ITfPreservedKeyNotifySink</b> interface is implemented by an application or TSF text service to receive notifications when keys are preserved, unpreserved, or when a preserved key description changes. This advise sink is installed by calling the TSF manager <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfPreservedKeyNotifySink.
+The <b>ITfPreservedKeyNotifySink</b> interface is implemented by an application or TSF text service to receive notifications when keys are preserved, unpreserved, or when a preserved key description changes. This advise sink is installed by calling the TSF manager <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ITfPreservedKeyNotifySink.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfPreservedKeyNotifySink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfPreservedKeyNotifySink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfPreservedKeyNotifySink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfPreservedKeyNotifySink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfPreservedKeyNotifySink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpreservedkeynotifysink-onupdated">OnUpdated</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfpreservedkeynotifysink-onupdated">OnUpdated</a>
 </td>
 <td align="left" width="63%">
 Called when a key is preserved, unpreserved, or when a preserved key description changes.
@@ -84,25 +84,24 @@ Preserved keys are keyboard shortcuts that an application or TSF text service ca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-preservekey">ITfKeystrokeMgr::PreserveKey
+<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-preservekey">ITfKeystrokeMgr::PreserveKey
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-setpreservedkeydescription">ITfKeystrokeMgr::SetPreservedKeyDescription
+<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-setpreservedkeydescription">ITfKeystrokeMgr::SetPreservedKeyDescription
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-unpreservekey">ITfKeystrokeMgr::UnpreserveKey
+<a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-unpreservekey">ITfKeystrokeMgr::UnpreserveKey
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
+<a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

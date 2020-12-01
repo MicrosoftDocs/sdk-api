@@ -62,35 +62,34 @@ Retrieves system timing information.  On a multiprocessor system, the values ret
 
 ### -param lpIdleTime [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that receives the amount of time that the system has been idle.
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that receives the amount of time that the system has been idle.
 
 ### -param lpKernelTime [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that receives the amount of time that the system has spent executing in Kernel mode (including all threads in all processes, on all processors). This time value also includes the amount of time the system has been idle.
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that receives the amount of time that the system has spent executing in Kernel mode (including all threads in all processes, on all processors). This time value also includes the amount of time the system has been idle.
 
 ### -param lpUserTime [out, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that receives the amount of time that the system has spent executing in User mode (including all threads in all processes, on all processors).
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that receives the amount of time that the system has spent executing in User mode (including all threads in all processes, on all processors).
 
 ## -returns
 
 If the function succeeds, the return value is nonzero. 
 
-If the function fails, the return value is zero. To get extended error  information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error  information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-To compile an application that uses this function, define _WIN32_WINNT as 0x0501 or later. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+To compile an application that uses this function, define _WIN32_WINNT as 0x0501 or later. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-time">System Time</a>
+<a href="/windows/desktop/SysInfo/system-time">System Time</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/time-functions">Time Functions</a>
-
+<a href="/windows/desktop/SysInfo/time-functions">Time Functions</a>

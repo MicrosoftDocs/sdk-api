@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Calculates the number of items that can fit vertically in the visible area of a list-view control when in list or report view. Only fully visible items are counted. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getcountperpage">LVM_GETCOUNTPERPAGE</a> message explicitly.
+Calculates the number of items that can fit vertically in the visible area of a list-view control when in list or report view. Only fully visible items are counted. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-getcountperpage">LVM_GETCOUNTPERPAGE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndLV
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
-

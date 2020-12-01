@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/bb540725(v=vs.85)">Removable Storage Manager</a> is no longer available as of Windows 7 and  Windows Server 2008 R2.]
 
 The 
 <b>CleanNtmsDrive</b> function queues a cleaning request for the specified drive for cleaning.
@@ -60,7 +60,7 @@ The
 ### -param hSession [in]
 
 Handle to the session returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-openntmssessiona">OpenNtmsSession</a> function.
 
 ### -param lpDriveId [in]
 
@@ -191,27 +191,26 @@ The cleaning was queued successfully.
 
 If the drive you selected in the 
 <b>CleanNtmsDrive</b> function is a stand-alone drive, the drive is marked as cleaned and the time is noted in the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/rsm-database">RSM Database</a>.
+<a href="/previous-versions/windows/desktop/rsm/rsm-database">RSM Database</a>.
 
 Queued cleaning requests are deleted when the service is restarted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Cleaner Management Functions</a>
+<a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Cleaner Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmscleaner">EjectNtmsCleaner</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-ejectntmscleaner">EjectNtmsCleaner</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-injectntmscleaner">InjectNtmsCleaner</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-injectntmscleaner">InjectNtmsCleaner</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-releasentmscleanerslot">ReleaseNtmsCleanerSlot</a>
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-releasentmscleanerslot">ReleaseNtmsCleanerSlot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/nf-ntmsapi-reserventmscleanerslot">ReserveNtmsCleanerSlot</a>
-
+<a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-reserventmscleanerslot">ReserveNtmsCleanerSlot</a>

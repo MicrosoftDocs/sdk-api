@@ -100,7 +100,7 @@ Integer value that specifies the number of DHCPINFORM messages sent by DHCPv6 se
 
 ### -field ServerStartTime
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> value that specifies the time the DHCPv6 server was started.
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> value that specifies the time the DHCPv6 server was started.
 
 ### -field Scopes
 
@@ -108,7 +108,7 @@ Integer value that contains the number of IPv6 scopes configured on the current 
 
 ### -field ScopeInfo
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-scope_mib_info">SCOPE_MIB_INFO</a> structures that contain statistics on individual scopes defined on the DHCPv6 server.
+Pointer to an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-scope_mib_info">SCOPE_MIB_INFO</a> structures that contain statistics on individual scopes defined on the DHCPv6 server.
 
 ### -field ScopeInfo.size_is
 
@@ -116,5 +116,4 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-scope_mib_info">SCOPE_MIB_INFO</a>
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-scope_mib_info">SCOPE_MIB_INFO</a>

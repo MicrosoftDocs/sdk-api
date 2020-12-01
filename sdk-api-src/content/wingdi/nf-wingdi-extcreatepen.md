@@ -253,7 +253,7 @@ Joins are beveled.
 </dl>
 </td>
 <td width="60%">
-Joins are mitered when they are within the current limit set by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmiterlimit">SetMiterLimit</a> function. If it exceeds this limit, the join is beveled.
+Joins are mitered when they are within the current limit set by the <a href="/windows/desktop/api/wingdi/nf-wingdi-setmiterlimit">SetMiterLimit</a> function. If it exceeds this limit, the join is beveled.
 
 </td>
 </tr>
@@ -275,7 +275,7 @@ The width of the pen. If the <i>dwPenStyle</i> parameter is PS_GEOMETRIC, the wi
 
 ### -param plbrush [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure. If <i>dwPenStyle</i> is PS_COSMETIC, the <b>lbColor</b> member specifies the color of the pen and the <b>lpStyle</b> member must be set to BS_SOLID. If <i>dwPenStyle</i> is PS_GEOMETRIC, all members must be used to specify the brush attributes of the pen.
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure. If <i>dwPenStyle</i> is PS_COSMETIC, the <b>lbColor</b> member specifies the color of the pen and the <b>lpStyle</b> member must be set to BS_SOLID. If <i>dwPenStyle</i> is PS_GEOMETRIC, all members must be used to specify the brush attributes of the pen.
 
 ### -param cStyle [in]
 
@@ -303,7 +303,7 @@ The width of a geometric pen is always specified in world units. The width of a 
 
 End caps and joins are only specified for geometric pens.
 
-After an application creates a logical pen, it can select that pen into a device context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function. After a pen is selected into a device context, it can be used to draw lines and curves.
+After an application creates a logical pen, it can select that pen into a device context by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function. After a pen is selected into a device context, it can be used to draw lines and curves.
 
 If <i>dwPenStyle</i> is PS_COSMETIC and PS_USERSTYLE, the entries in the <i>lpStyle</i> array specify lengths of dashes and spaces in style units. A style unit is defined by the device where the pen is used to draw a line.
 
@@ -311,56 +311,55 @@ If <i>dwPenStyle</i> is PS_GEOMETRIC and PS_USERSTYLE, the entries in the <i>lpS
 
 If <i>dwPenStyle</i> is PS_ALTERNATE, the style unit is ignored and every other pixel is set.
 
-If the <b>lbStyle</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure pointed to by <i>lplb</i> is BS_PATTERN, the bitmap pointed to by the <b>lbHatch</b> member of that structure cannot be a DIB section. A DIB section is a bitmap created by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>. If that bitmap is a DIB section, the <b>ExtCreatePen</b> function fails.
+If the <b>lbStyle</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a> structure pointed to by <i>lplb</i> is BS_PATTERN, the bitmap pointed to by the <b>lbHatch</b> member of that structure cannot be a DIB section. A DIB section is a bitmap created by <a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>. If that bitmap is a DIB section, the <b>ExtCreatePen</b> function fails.
 
-When an application no longer requires a specified pen, it should call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete the pen.
+When an application no longer requires a specified pen, it should call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete the pen.
 
 <b>ICM:</b> No color management is done at pen creation. However, color management is performed when the pen is selected into an ICM-enabled device context.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-pens">Using Pens</a>.
+For an example, see <a href="/windows/desktop/gdi/using-pens">Using Pens</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpen">CreatePen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createpenindirect">CreatePenIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-logbrush">LOGBRUSH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/pen-functions">Pen Functions</a>
+<a href="/windows/desktop/gdi/pen-functions">Pen Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/pens">Pens Overview</a>
+<a href="/windows/desktop/gdi/pens">Pens Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmiterlimit">SetMiterLimit</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setmiterlimit">SetMiterLimit</a>

@@ -63,7 +63,7 @@ The
 <b>IWbemClassObject::GetMethodOrigin</b> method is used to determine the class for which a method was declared.
 
 This call is only supported if the current object is a CIM class definition. Method manipulation is not available from 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> pointers which point to CIM instances.
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> pointers which point to CIM instances.
 
 ## -parameters
 
@@ -77,9 +77,8 @@ Receives the name of the class which owns the method. The user must call <b>SysF
 
 ## -returns
 
-This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>. For general <b>HRESULT</b> values, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
 Because methods are inherited from class to class, it is often desirable to determine the owning class for a given method.
-

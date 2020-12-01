@@ -56,7 +56,7 @@ Creates a media-type handler that supports a single media type at a time.
 
 ### -param ppHandler [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler">IMFMediaTypeHandler</a> interface of the media-type handler. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediatypehandler">IMFMediaTypeHandler</a> interface of the media-type handler. The caller must release the interface.
 
 ## -returns
 
@@ -82,9 +82,8 @@ The method succeeded.
 
 ## -remarks
 
-The media-type handler created by this function supports one media type at a time. Set the media type by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-setcurrentmediatype">IMFMediaTypeHandler::SetCurrentMediaType</a>. After the type is set, <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-ismediatypesupported">IMFMediaTypeHandler::IsMediaTypeSupported</a> always checks against that type.
+The media-type handler created by this function supports one media type at a time. Set the media type by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-setcurrentmediatype">IMFMediaTypeHandler::SetCurrentMediaType</a>. After the type is set, <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediatypehandler-ismediatypesupported">IMFMediaTypeHandler::IsMediaTypeSupported</a> always checks against that type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

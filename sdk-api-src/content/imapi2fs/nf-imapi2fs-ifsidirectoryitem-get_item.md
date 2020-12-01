@@ -60,7 +60,7 @@ String that contains the path to the item to retrieve.
 
 ### -param item [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a> interface of the requested directory or file item.
+An <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem</a> interface of the requested directory or file item.
 
 ## -returns
 
@@ -140,15 +140,14 @@ Value: 0x8007000E
 
 ## -remarks
 
-To determine whether the item is a file item or directory item, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem::QueryInterface</a>  method passing __uuidof(IFsiDirectoryItem) as the interface identifier. If the call succeeds, the item is a directory item; otherwise, the item is a file item.
+To determine whether the item is a file item or directory item, call the <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsiitem">IFsiItem::QueryInterface</a>  method passing __uuidof(IFsiDirectoryItem) as the interface identifier. If the call succeeds, the item is a directory item; otherwise, the item is a file item.
 
-To enumerate all children, call the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get__newenum">IFsiDirectoryItem::get__NewEnum</a> method.
+To enumerate all children, call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-get__newenum">IFsiDirectoryItem::get__NewEnum</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
 
 
 
 IFsiFileItem
-

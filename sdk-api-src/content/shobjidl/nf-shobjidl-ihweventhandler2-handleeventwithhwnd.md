@@ -86,9 +86,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-When a handler is invoked and requires immediate privilege elevation in a new process, it requires an active parent window handle to display its consent UI. <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ihweventhandler-handleevent">IHWEventHandler::HandleEvent</a> cannot give a handle, so only a blinking taskbar appears. <b>IHWEventHandler2::HandleEventWithHWND</b> provides the HWND and enables the UI to be displayed.
+When a handler is invoked and requires immediate privilege elevation in a new process, it requires an active parent window handle to display its consent UI. <a href="/windows/desktop/api/shobjidl/nf-shobjidl-ihweventhandler-handleevent">IHWEventHandler::HandleEvent</a> cannot give a handle, so only a blinking taskbar appears. <b>IHWEventHandler2::HandleEventWithHWND</b> provides the HWND and enables the UI to be displayed.
 
 Note that if the handler was launched by default instead of by direct user action, the HWND is not active and the dialog is not shown in the foreground.
 
 The event types are not C/C++ language constants; they are literal text strings.
-

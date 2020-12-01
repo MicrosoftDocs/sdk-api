@@ -75,15 +75,14 @@ Pointer to a null-terminated string containing the name of the executable file a
 ### -field pUserSid
 
 Pointer to the user 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">Security Identifiers</a> in the process's primary access token. For more information about SIDs and access tokens, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>.
+<a href="/windows/desktop/SecAuthZ/security-identifiers">Security Identifiers</a> in the process's primary access token. For more information about SIDs and access tokens, see 
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumerateprocessesa">WTSEnumerateProcesses</a>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsenumerateprocessesa">WTSEnumerateProcesses</a>
 
 ## -remarks
 
 > [!NOTE]
 > The wtsapi32.h header defines WTS_PROCESS_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

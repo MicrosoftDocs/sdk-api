@@ -52,15 +52,15 @@ api_name:
 
 Creates an empty transcode profile object.
 
-The transcode profile stores configuration settings for the output file. These configuration settings are specified by the caller, and include audio and video stream properties, encoder settings, and  container settings. To set these properties, the caller must call the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a> methods.
+The transcode profile stores configuration settings for the output file. These configuration settings are specified by the caller, and include audio and video stream properties, encoder settings, and  container settings. To set these properties, the caller must call the appropriate <a href="/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a> methods.
 
-The configured transcode profile is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mfcreatetranscodetopology">MFCreateTranscodeTopology</a> function.  The underlying topology builder uses these settings to build the transcode topology.
+The configured transcode profile is passed to the <a href="/windows/desktop/api/mfidl/nf-mfidl-mfcreatetranscodetopology">MFCreateTranscodeTopology</a> function.  The underlying topology builder uses these settings to build the transcode topology.
 
 ## -parameters
 
 ### -param ppTranscodeProfile [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a> interface of the transcode profile object. Caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a> interface of the transcode profile object. Caller must release the interface.
 
 ## -returns
 
@@ -72,23 +72,23 @@ The <b>MFCreateTranscodeProfile</b> function creates an empty transcode profile.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setaudioattributes">IMFTranscodeProfile::SetAudioAttributes</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setaudioattributes">IMFTranscodeProfile::SetAudioAttributes</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setvideoattributes">IMFTranscodeProfile::SetVideoAttributes</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setvideoattributes">IMFTranscodeProfile::SetVideoAttributes</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes">IMFTranscodeProfile::SetContainerAttributes</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftranscodeprofile-setcontainerattributes">IMFTranscodeProfile::SetContainerAttributes</a>
 </li>
 </ul>
 For example code that uses this function, see the following topics:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/tutorial--encoding-an-mp4-file-">Tutorial: Encoding an MP4 File</a>
+<a href="/windows/desktop/medfound/tutorial--encoding-an-mp4-file-">Tutorial: Encoding an MP4 File</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/medfound/tutorial--converting-an-mp3-file-to-a-wma-file">Tutorial: Encoding a WMA File</a>
+<a href="/windows/desktop/medfound/tutorial--converting-an-mp3-file-to-a-wma-file">Tutorial: Encoding a WMA File</a>
 </li>
 </ul>
 
@@ -216,17 +216,16 @@ done:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftranscodeprofile">IMFTranscodeProfile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-mftranscodegetaudiooutputavailabletypes">MFTranscodeGetAudioOutputAvailableTypes</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-mftranscodegetaudiooutputavailabletypes">MFTranscodeGetAudioOutputAvailableTypes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/transcode-api">Transcode API</a>
-
+<a href="/windows/desktop/medfound/transcode-api">Transcode API</a>

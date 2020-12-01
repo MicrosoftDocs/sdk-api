@@ -54,8 +54,8 @@ api_name:
 
 The 
 <b>LOCKTYPE</b> enumeration values indicate the type of locking requested for the specified range of bytes. The values are used in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ilockbytes-lockregion">ILockBytes::LockRegion</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istream-lockregion">IStream::LockRegion</a> methods.
+<a href="/windows/desktop/api/objidl/nf-objidl-ilockbytes-lockregion">ILockBytes::LockRegion</a> and 
+<a href="/windows/desktop/api/objidl/nf-objidl-istream-lockregion">IStream::LockRegion</a> methods.
 
 ## -enum-fields
 
@@ -70,4 +70,3 @@ If this lock is granted, writing to the specified range of bytes is prohibited e
 ### -field LOCK_ONLYONCE
 
 If this lock is granted, no other <b>LOCK_ONLYONCE</b> lock can be obtained on the range. Usually this lock type is an alias for some other lock type. Thus, specific implementations can have additional behavior associated with this lock type.
-

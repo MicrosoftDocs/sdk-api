@@ -56,7 +56,7 @@ Sets a custom number option value.
 
 ### -param options [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
+A pointer to a <a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
 
 ### -param optionName
 
@@ -73,4 +73,3 @@ Option flags.
 ## -returns
 
 This function returns MI_INLINE MI_Result.
-

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Uniquely identifies a process by its PID and the time the process began.  An array of <b>RM_UNIQUE_PROCESS</b> structures can be passed to  the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmregisterresources">RmRegisterResources</a> function.
+Uniquely identifies a process by its PID and the time the process began.  An array of <b>RM_UNIQUE_PROCESS</b> structures can be passed to  the <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmregisterresources">RmRegisterResources</a> function.
 
 ## -struct-fields
 
@@ -64,9 +64,8 @@ The product identifier (PID).
 
 ### -field ProcessStartTime
 
-The creation time of the process. The time is provided as a <b>FILETIME</b> structure that is returned by the <i>lpCreationTime</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesstimes">GetProcessTimes</a> function.
+The creation time of the process. The time is provided as a <b>FILETIME</b> structure that is returned by the <i>lpCreationTime</i> parameter of the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesstimes">GetProcessTimes</a> function.
 
 ## -remarks
 
-The <b>RM_UNIQUE_PROCESS</b> structure can be used to uniquely identify an application in an <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structure or  registered with the Restart Manager session by the <a href="https://docs.microsoft.com/windows/desktop/api/restartmanager/nf-restartmanager-rmregisterresources">RmRegisterResources</a> function.
-
+The <b>RM_UNIQUE_PROCESS</b> structure can be used to uniquely identify an application in an <a href="/windows/desktop/api/restartmanager/ns-restartmanager-rm_process_info">RM_PROCESS_INFO</a> structure or  registered with the Restart Manager session by the <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmregisterresources">RmRegisterResources</a> function.

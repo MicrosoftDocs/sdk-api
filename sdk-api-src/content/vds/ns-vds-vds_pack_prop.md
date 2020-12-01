@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Defines the properties of a pack object.
 
@@ -70,29 +70,28 @@ A string representing the pack name. Packs managed by the basic provider have no
 
 ### -field status
 
-The pack status enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_pack_status">VDS_PACK_STATUS</a>.
+The pack status enumerated by <a href="/windows/desktop/api/vds/ne-vds-vds_pack_status">VDS_PACK_STATUS</a>.
 
 ### -field ulFlags
 
-The pack flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_pack_flag">VDS_PACK_FLAG</a>.
+The pack flags enumerated by <a href="/windows/desktop/api/vds/ne-vds-vds_pack_flag">VDS_PACK_FLAG</a>.
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">IVdsPack::GetProperties</a>method returns this structure to report the property details of a pack object.
+The <a href="/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">IVdsPack::GetProperties</a>method returns this structure to report the property details of a pack object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">IVdsPack::GetProperties</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">IVdsPack::GetProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
+<a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_pack_flag">VDS_PACK_FLAG</a>
+<a href="/windows/desktop/api/vds/ne-vds-vds_pack_flag">VDS_PACK_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_pack_status">VDS_PACK_STATUS</a>
-
+<a href="/windows/desktop/api/vds/ne-vds-vds_pack_status">VDS_PACK_STATUS</a>

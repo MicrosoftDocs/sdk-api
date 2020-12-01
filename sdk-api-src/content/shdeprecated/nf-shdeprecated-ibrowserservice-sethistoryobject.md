@@ -57,9 +57,9 @@ Deprecated. Sets the browser's history object.
 
 ### -param pole [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>*</b>
+Type: <b><a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> that represents the history object to set.
+A pointer to an <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleobject">IOleObject</a> that represents the history object to set.
 
 ### -param fIsLocalAnchor [in]
 
@@ -76,4 +76,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method will fail if the browser already has a history object.
-

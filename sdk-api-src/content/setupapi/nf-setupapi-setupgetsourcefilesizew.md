@@ -88,7 +88,7 @@ Optional value for rounding file sizes. All file sizes are rounded up to a multi
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -103,13 +103,12 @@ One and only one of the optional parameters, <i>InfContext</i>, <i>FileName</i>,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupgetsourcefilelocationa">SetupGetSourceFileLocation</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetsourcefilelocationa">SetupGetSourceFileLocation</a>

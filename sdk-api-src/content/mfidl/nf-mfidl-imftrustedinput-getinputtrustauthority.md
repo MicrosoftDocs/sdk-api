@@ -102,9 +102,8 @@ The ITA does not expose the requested interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imftrustedinput">IMFTrustedInput</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imftrustedinput">IMFTrustedInput</a>

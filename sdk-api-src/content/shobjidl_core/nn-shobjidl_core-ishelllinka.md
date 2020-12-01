@@ -56,7 +56,7 @@ Exposes methods that create, modify, and resolve Shell links.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellLink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellLink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellLink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellLink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IShellLink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getarguments">GetArguments</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getarguments">GetArguments</a>
 </td>
 <td align="left" width="63%">
 Gets the command-line arguments associated with a Shell link object.
@@ -80,7 +80,7 @@ Gets the command-line arguments associated with a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getarguments">GetArguments</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getarguments">GetArguments</a>
 </td>
 <td align="left" width="63%">
 Gets the command-line arguments associated with a Shell link object.
@@ -89,7 +89,7 @@ Gets the command-line arguments associated with a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getarguments">GetArguments</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getarguments">GetArguments</a>
 </td>
 <td align="left" width="63%">
 Gets the command-line arguments associated with a Shell link object.
@@ -98,7 +98,7 @@ Gets the command-line arguments associated with a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getdescription">GetDescription</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the description string for a Shell link object.
@@ -107,7 +107,7 @@ Gets the description string for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getdescription">GetDescription</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the description string for a Shell link object.
@@ -116,7 +116,7 @@ Gets the description string for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getdescription">GetDescription</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Gets the description string for a Shell link object.
@@ -125,7 +125,7 @@ Gets the description string for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-gethotkey">GetHotkey</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-gethotkey">GetHotkey</a>
 </td>
 <td align="left" width="63%">
 Gets the keyboard shortcut (hot key) for a Shell link object.
@@ -134,7 +134,7 @@ Gets the keyboard shortcut (hot key) for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-gethotkey">GetHotkey</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-gethotkey">GetHotkey</a>
 </td>
 <td align="left" width="63%">
 Gets the keyboard shortcut (hot key) for a Shell link object.
@@ -143,7 +143,7 @@ Gets the keyboard shortcut (hot key) for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-gethotkey">GetHotkey</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-gethotkey">GetHotkey</a>
 </td>
 <td align="left" width="63%">
 Gets the keyboard shortcut (hot key) for a Shell link object.
@@ -152,7 +152,7 @@ Gets the keyboard shortcut (hot key) for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-geticonlocation">GetIconLocation</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-geticonlocation">GetIconLocation</a>
 </td>
 <td align="left" width="63%">
 Gets the location (path and index) of the icon for a Shell link object.
@@ -161,7 +161,7 @@ Gets the location (path and index) of the icon for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-geticonlocation">GetIconLocation</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-geticonlocation">GetIconLocation</a>
 </td>
 <td align="left" width="63%">
 Gets the location (path and index) of the icon for a Shell link object.
@@ -170,7 +170,7 @@ Gets the location (path and index) of the icon for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-geticonlocation">GetIconLocation</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-geticonlocation">GetIconLocation</a>
 </td>
 <td align="left" width="63%">
 Gets the location (path and index) of the icon for a Shell link object.
@@ -179,7 +179,7 @@ Gets the location (path and index) of the icon for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getidlist">GetIDList</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getidlist">GetIDList</a>
 </td>
 <td align="left" width="63%">
 Gets the list of item identifiers for the target of a Shell link object.
@@ -188,7 +188,7 @@ Gets the list of item identifiers for the target of a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getidlist">GetIDList</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getidlist">GetIDList</a>
 </td>
 <td align="left" width="63%">
 Gets the list of item identifiers for the target of a Shell link object.
@@ -197,7 +197,7 @@ Gets the list of item identifiers for the target of a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getidlist">GetIDList</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getidlist">GetIDList</a>
 </td>
 <td align="left" width="63%">
 Gets the list of item identifiers for the target of a Shell link object.
@@ -206,7 +206,7 @@ Gets the list of item identifiers for the target of a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getpath">GetPath</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getpath">GetPath</a>
 </td>
 <td align="left" width="63%">
 Gets the path and file name of the target of a Shell link object.
@@ -215,7 +215,7 @@ Gets the path and file name of the target of a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getpath">GetPath</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getpath">GetPath</a>
 </td>
 <td align="left" width="63%">
 Gets the path and file name of the target of a Shell link object.
@@ -224,7 +224,7 @@ Gets the path and file name of the target of a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getpath">GetPath</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getpath">GetPath</a>
 </td>
 <td align="left" width="63%">
 Gets the path and file name of the target of a Shell link object.
@@ -233,7 +233,7 @@ Gets the path and file name of the target of a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getshowcmd">GetShowCmd</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getshowcmd">GetShowCmd</a>
 </td>
 <td align="left" width="63%">
 Gets the show command for a Shell link object.
@@ -242,7 +242,7 @@ Gets the show command for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getshowcmd">GetShowCmd</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getshowcmd">GetShowCmd</a>
 </td>
 <td align="left" width="63%">
 Gets the show command for a Shell link object.
@@ -251,7 +251,7 @@ Gets the show command for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getshowcmd">GetShowCmd</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getshowcmd">GetShowCmd</a>
 </td>
 <td align="left" width="63%">
 Gets the show command for a Shell link object.
@@ -260,7 +260,7 @@ Gets the show command for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getworkingdirectory">GetWorkingDirectory</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getworkingdirectory">GetWorkingDirectory</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the working directory for a Shell link object.
@@ -269,7 +269,7 @@ Gets the name of the working directory for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getworkingdirectory">GetWorkingDirectory</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getworkingdirectory">GetWorkingDirectory</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the working directory for a Shell link object.
@@ -278,7 +278,7 @@ Gets the name of the working directory for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getworkingdirectory">GetWorkingDirectory</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-getworkingdirectory">GetWorkingDirectory</a>
 </td>
 <td align="left" width="63%">
 Gets the name of the working directory for a Shell link object.
@@ -287,7 +287,7 @@ Gets the name of the working directory for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve">Resolve</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve">Resolve</a>
 </td>
 <td align="left" width="63%">
 Attempts to find the target of a Shell link, even if it has been moved or renamed.
@@ -296,7 +296,7 @@ Attempts to find the target of a Shell link, even if it has been moved or rename
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve">Resolve</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve">Resolve</a>
 </td>
 <td align="left" width="63%">
 Attempts to find the target of a Shell link, even if it has been moved or renamed.
@@ -305,7 +305,7 @@ Attempts to find the target of a Shell link, even if it has been moved or rename
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve">Resolve</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-resolve">Resolve</a>
 </td>
 <td align="left" width="63%">
 Attempts to find the target of a Shell link, even if it has been moved or renamed.
@@ -314,7 +314,7 @@ Attempts to find the target of a Shell link, even if it has been moved or rename
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setarguments">SetArguments</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setarguments">SetArguments</a>
 </td>
 <td align="left" width="63%">
 Sets the command-line arguments for a Shell link object.
@@ -323,7 +323,7 @@ Sets the command-line arguments for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setarguments">SetArguments</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setarguments">SetArguments</a>
 </td>
 <td align="left" width="63%">
 Sets the command-line arguments for a Shell link object.
@@ -332,7 +332,7 @@ Sets the command-line arguments for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setarguments">SetArguments</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setarguments">SetArguments</a>
 </td>
 <td align="left" width="63%">
 Sets the command-line arguments for a Shell link object.
@@ -341,7 +341,7 @@ Sets the command-line arguments for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setdescription">SetDescription</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setdescription">SetDescription</a>
 </td>
 <td align="left" width="63%">
 Sets the description for a Shell link object. The description can be any application-defined string.
@@ -350,7 +350,7 @@ Sets the description for a Shell link object. The description can be any applica
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setdescription">SetDescription</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setdescription">SetDescription</a>
 </td>
 <td align="left" width="63%">
 Sets the description for a Shell link object. The description can be any application-defined string.
@@ -359,7 +359,7 @@ Sets the description for a Shell link object. The description can be any applica
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setdescription">SetDescription</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setdescription">SetDescription</a>
 </td>
 <td align="left" width="63%">
 Sets the description for a Shell link object. The description can be any application-defined string.
@@ -368,7 +368,7 @@ Sets the description for a Shell link object. The description can be any applica
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-sethotkey">SetHotkey</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-sethotkey">SetHotkey</a>
 </td>
 <td align="left" width="63%">
 Sets a keyboard shortcut (hot key) for a Shell link object.
@@ -377,7 +377,7 @@ Sets a keyboard shortcut (hot key) for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-sethotkey">SetHotkey</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-sethotkey">SetHotkey</a>
 </td>
 <td align="left" width="63%">
 Sets a keyboard shortcut (hot key) for a Shell link object.
@@ -386,7 +386,7 @@ Sets a keyboard shortcut (hot key) for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-sethotkey">SetHotkey</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-sethotkey">SetHotkey</a>
 </td>
 <td align="left" width="63%">
 Sets a keyboard shortcut (hot key) for a Shell link object.
@@ -395,7 +395,7 @@ Sets a keyboard shortcut (hot key) for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-seticonlocation">SetIconLocation</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-seticonlocation">SetIconLocation</a>
 </td>
 <td align="left" width="63%">
 Sets the location (path and index) of the icon for a Shell link object.
@@ -404,7 +404,7 @@ Sets the location (path and index) of the icon for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-seticonlocation">SetIconLocation</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-seticonlocation">SetIconLocation</a>
 </td>
 <td align="left" width="63%">
 Sets the location (path and index) of the icon for a Shell link object.
@@ -413,7 +413,7 @@ Sets the location (path and index) of the icon for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-seticonlocation">SetIconLocation</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-seticonlocation">SetIconLocation</a>
 </td>
 <td align="left" width="63%">
 Sets the location (path and index) of the icon for a Shell link object.
@@ -422,7 +422,7 @@ Sets the location (path and index) of the icon for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setidlist">SetIDList</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setidlist">SetIDList</a>
 </td>
 <td align="left" width="63%">
 Sets the PIDL for a Shell link object.
@@ -431,7 +431,7 @@ Sets the PIDL for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setidlist">SetIDList</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setidlist">SetIDList</a>
 </td>
 <td align="left" width="63%">
 Sets the PIDL for a Shell link object.
@@ -440,7 +440,7 @@ Sets the PIDL for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setidlist">SetIDList</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setidlist">SetIDList</a>
 </td>
 <td align="left" width="63%">
 Sets the PIDL for a Shell link object.
@@ -449,7 +449,7 @@ Sets the PIDL for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setpath">SetPath</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setpath">SetPath</a>
 </td>
 <td align="left" width="63%">
 Sets the path and file name for the target of a Shell link object.
@@ -458,7 +458,7 @@ Sets the path and file name for the target of a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setpath">SetPath</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setpath">SetPath</a>
 </td>
 <td align="left" width="63%">
 Sets the path and file name for the target of a Shell link object.
@@ -467,7 +467,7 @@ Sets the path and file name for the target of a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setpath">SetPath</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setpath">SetPath</a>
 </td>
 <td align="left" width="63%">
 Sets the path and file name for the target of a Shell link object.
@@ -476,7 +476,7 @@ Sets the path and file name for the target of a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setrelativepath">SetRelativePath</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setrelativepath">SetRelativePath</a>
 </td>
 <td align="left" width="63%">
 Sets the relative path to the Shell link object.
@@ -485,7 +485,7 @@ Sets the relative path to the Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setrelativepath">SetRelativePath</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setrelativepath">SetRelativePath</a>
 </td>
 <td align="left" width="63%">
 Sets the relative path to the Shell link object.
@@ -494,7 +494,7 @@ Sets the relative path to the Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setrelativepath">SetRelativePath</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setrelativepath">SetRelativePath</a>
 </td>
 <td align="left" width="63%">
 Sets the relative path to the Shell link object.
@@ -503,7 +503,7 @@ Sets the relative path to the Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setshowcmd">SetShowCmd</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setshowcmd">SetShowCmd</a>
 </td>
 <td align="left" width="63%">
 Sets the show command for a Shell link object. The show command sets the initial show state of the window.
@@ -512,7 +512,7 @@ Sets the show command for a Shell link object. The show command sets the initial
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setshowcmd">SetShowCmd</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setshowcmd">SetShowCmd</a>
 </td>
 <td align="left" width="63%">
 Sets the show command for a Shell link object. The show command sets the initial show state of the window.
@@ -521,7 +521,7 @@ Sets the show command for a Shell link object. The show command sets the initial
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setshowcmd">SetShowCmd</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setshowcmd">SetShowCmd</a>
 </td>
 <td align="left" width="63%">
 Sets the show command for a Shell link object. The show command sets the initial show state of the window.
@@ -530,7 +530,7 @@ Sets the show command for a Shell link object. The show command sets the initial
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setworkingdirectory">SetWorkingDirectory</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setworkingdirectory">SetWorkingDirectory</a>
 </td>
 <td align="left" width="63%">
 Sets the name of the working directory for a Shell link object.
@@ -539,7 +539,7 @@ Sets the name of the working directory for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setworkingdirectory">SetWorkingDirectory</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setworkingdirectory">SetWorkingDirectory</a>
 </td>
 <td align="left" width="63%">
 Sets the name of the working directory for a Shell link object.
@@ -548,7 +548,7 @@ Sets the name of the working directory for a Shell link object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setworkingdirectory">SetWorkingDirectory</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setworkingdirectory">SetWorkingDirectory</a>
 </td>
 <td align="left" width="63%">
 Sets the name of the working directory for a Shell link object.
@@ -568,4 +568,3 @@ The <b>IShellLink</b> interface has an ANSI version (<b>IShellLinkA</b>) and a U
 
 > [!NOTE]
 > The shobjidl_core.h header defines IShellLink as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

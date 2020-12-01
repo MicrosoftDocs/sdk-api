@@ -78,23 +78,22 @@ The raw input data, as an array of bytes.
 
 ## -remarks
 
-Each <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a> can indicate several inputs, but all of the inputs come from the same HID. The size of the <b>bRawData</b> array is <b>dwSizeHid</b> *	<b>dwCount</b>.
+Each <a href="/windows/desktop/inputdev/wm-input">WM_INPUT</a> can indicate several inputs, but all of the inputs come from the same HID. The size of the <b>bRawData</b> array is <b>dwSizeHid</b> *	<b>dwCount</b>.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/interpreting-hid-reports">Interpreting HID Reports</a>.
+For more information, see <a href="/windows-hardware/drivers/hid/interpreting-hid-reports">Interpreting HID Reports</a>.
 
 ## -see-also
 
 <b>Conceptual</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
+<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/">Introduction to Human Interface Devices (HID)</a>
+<a href="/windows-hardware/drivers/hid/">Introduction to Human Interface Devices (HID)</a>
 
 <b>Reference</b>
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a>
+<a href="/windows/desktop/inputdev/wm-input">WM_INPUT</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/interpreting-hid-reports">Interpreting HID Reports</a>
-
+<a href="/windows-hardware/drivers/hid/interpreting-hid-reports">Interpreting HID Reports</a>

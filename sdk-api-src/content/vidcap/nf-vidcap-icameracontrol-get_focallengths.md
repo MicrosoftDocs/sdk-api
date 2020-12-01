@@ -93,9 +93,9 @@ where:
 <li>
             Lmin, Lmax = Minimum and maximum objective focal length.</li>
 <li>
-            Zcur = Current zoom setting. See <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-get_zoom">ICameraControl::get_Zoom</a>.</li>
+            Zcur = Current zoom setting. See <a href="/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-get_zoom">ICameraControl::get_Zoom</a>.</li>
 <li>
-            Zmin, Zmax = Minimum and maximum zoom setting. See <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-getrange_zoom">ICameraControl::getRange_Zoom</a>.</li>
+            Zmin, Zmax = Minimum and maximum zoom setting. See <a href="/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-getrange_zoom">ICameraControl::getRange_Zoom</a>.</li>
 </ul>
 From 
 
@@ -108,9 +108,8 @@ Lcur
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>
-
+<a href="/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>

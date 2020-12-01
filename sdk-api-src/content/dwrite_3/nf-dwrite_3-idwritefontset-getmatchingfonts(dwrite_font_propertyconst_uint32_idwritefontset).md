@@ -45,18 +45,15 @@ api_name:
  - IDWriteFontSet.GetMatchingFonts
 ---
 
-# IDWriteFontSet::GetMatchingFonts
-
-
 ## -description
 
 Returns a subset of fonts filtered by the given properties.
 
 ## -parameters
 
-### -param properties [in]
+### -param properties
 
-Type: <b>const <a href="/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_property">DWRITE_FONT_PROPERTY</a>*</b>
+Type: [in] <b>const <a href="/windows/win32/api/dwrite_3/ns-dwrite_3-dwrite_font_property">DWRITE_FONT_PROPERTY</a>*</b>
 
 List of properties to filter using.
 
@@ -66,9 +63,9 @@ Type: <b>UINT32</b>
 
 The number of properties to filter.
 
-### -param filteredSet [out]
+### -param filteredSet
 
-Type: <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset">IDWriteFontSet</a>**</b>
+Type: [out] <b><a href="/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontset">IDWriteFontSet</a>**</b>
 
 The subset of fonts that match the properties, or nullptr on failure.
 
@@ -81,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 If no fonts matched the filter, the subset will be empty (GetFontCount returns 0), but the function does not return an error. The subset will
-     always be equal to or less than the original set. If you only want to filter out remote fonts, you may pass null in properties and zero in propertyCount.
+always be equal to or less than the original set. If you only want to filter out remote fonts, you may pass null in properties and zero in propertyCount.
 
 ## -see-also
 

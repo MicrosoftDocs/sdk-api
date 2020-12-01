@@ -94,21 +94,20 @@ The <b>DHCP_SUBNET_ELEMENT_DATA_V5</b> structure defines an element that describ
 
 ### -field Element.IpRange
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_bootp_ip_range">DHCP_BOOTP_IP_RANGE</a> structure that contains the set of BOOTP-served IP addresses. This member is present if <b>ElementType</b> is set to <b>DhcpIpRangesBootpOnly</b>.
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_bootp_ip_range">DHCP_BOOTP_IP_RANGE</a> structure that contains the set of BOOTP-served IP addresses. This member is present if <b>ElementType</b> is set to <b>DhcpIpRangesBootpOnly</b>.
 
 ### -field Element.SecondaryHost
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a> structure that contains the IP addresses of secondary DHCP servers available on the subnet. This member is present if <b>ElementType</b> is set to <b>DhcpSecondaryHosts</b>.
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info">DHCP_HOST_INFO</a> structure that contains the IP addresses of secondary DHCP servers available on the subnet. This member is present if <b>ElementType</b> is set to <b>DhcpSecondaryHosts</b>.
 
 ### -field Element.ReservedIp
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v4">DHCP_IP_RESERVATION_V4</a> structure that contains the set of reserved IP addresses for the subnet. This member is present if <b>ElementType</b> is set to <b>DhcpReservedIps</b>.
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v4">DHCP_IP_RESERVATION_V4</a> structure that contains the set of reserved IP addresses for the subnet. This member is present if <b>ElementType</b> is set to <b>DhcpReservedIps</b>.
 
 ### -field Element.ExcludeIpRange
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_range">DHCP_IP_RANGE</a> structure that contains a range of IP addresses. This member is present if <b>ElementType</b> is set to <b>DhcpIpRanges</b> or <b>DhcpExcludedIpRanges</b>.
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_range">DHCP_IP_RANGE</a> structure that contains a range of IP addresses. This member is present if <b>ElementType</b> is set to <b>DhcpIpRanges</b> or <b>DhcpExcludedIpRanges</b>.
 
 ### -field Element.IpUsedCluster
 
 ### -field _DHCP_SUBNET_ELEMENT_UNION_V5
-

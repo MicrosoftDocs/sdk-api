@@ -65,11 +65,11 @@ This property is read/write.
 
 ## -remarks
 
-The writing box provides a margin of error to users who write outside the drawn box-the lines that are physically drawn on the tablet screen within which users write. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox">DrawnBox</a> property to set the drawn box.
+The writing box provides a margin of error to users who write outside the drawn box-the lines that are physically drawn on the tablet screen within which users write. You can use the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox">DrawnBox</a> property to set the drawn box.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox">DrawnBox Property</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_drawnbox">DrawnBox Property</a>
 
 
 
@@ -77,9 +77,8 @@ The writing box provides a margin of error to users who write outside the drawn 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>
+<a href="/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
-
+<a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>

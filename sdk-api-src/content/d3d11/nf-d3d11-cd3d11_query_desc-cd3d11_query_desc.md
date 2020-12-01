@@ -51,11 +51,10 @@ api_name:
 
 ## -description
 
-Instantiates a new instance of an uninitialized <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151648(v=vs.85)">CD3D11_QUERY_DESC</a> structure.
+Instantiates a new instance of an uninitialized <a href="/previous-versions/windows/desktop/legacy/jj151648(v=vs.85)">CD3D11_QUERY_DESC</a> structure.
 
 ## -parameters
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/jj151648(v=vs.85)">CD3D11_QUERY_DESC</a>
-
+<a href="/previous-versions/windows/desktop/legacy/jj151648(v=vs.85)">CD3D11_QUERY_DESC</a>

@@ -58,18 +58,18 @@ The <b>midiOutPrepareHeader</b> function prepares a MIDI system-exclusive or str
 
 ### -param hmo
 
-Handle to the MIDI output device. To get the device handle, call <a href="https://docs.microsoft.com/previous-versions/dd798476(v=vs.85)">midiOutOpen</a>. This parameter can also be the handle of a MIDI stream cast to a <b>HMIDIOUT</b> type.
+Handle to the MIDI output device. To get the device handle, call <a href="/previous-versions/dd798476(v=vs.85)">midiOutOpen</a>. This parameter can also be the handle of a MIDI stream cast to a <b>HMIDIOUT</b> type.
 
 ### -param pmh
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure that identifies the buffer to be prepared.
+Pointer to a <a href="/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure that identifies the buffer to be prepared.
           
 
-Before calling the function, set the <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members of the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure. The <b>dwFlags</b> member must be set to zero.
+Before calling the function, set the <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members of the <a href="/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure. The <b>dwFlags</b> member must be set to zero.
 
 ### -param cbmh
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
+Size, in bytes, of the <a href="/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
 
 ## -returns
 
@@ -117,9 +117,9 @@ The system is unable to allocate or lock memory.
 
 ## -remarks
 
-Before you pass a MIDI data block to a device driver, you must prepare the buffer by passing it to the <b>midiOutPrepareHeader</b> function. After the header has been prepared, do not modify the buffer. After the driver is done using the buffer, call the <a href="https://docs.microsoft.com/previous-versions/dd798482(v=vs.85)">midiOutUnprepareHeader</a> function.
+Before you pass a MIDI data block to a device driver, you must prepare the buffer by passing it to the <b>midiOutPrepareHeader</b> function. After the header has been prepared, do not modify the buffer. After the driver is done using the buffer, call the <a href="/previous-versions/dd798482(v=vs.85)">midiOutUnprepareHeader</a> function.
 
-The application can re-use the same buffer, or allocate multiple buffers and  call <b>midiOutPrepareHeader</b> for each buffer. If you re-use the same buffer, it is not necessary to prepare the buffer each time. You can call  <b>midiOutPrepareHeader</b> once at the beginning and then call <a href="https://docs.microsoft.com/previous-versions/dd798482(v=vs.85)">midiOutUnprepareHeader</a> once at the end.
+The application can re-use the same buffer, or allocate multiple buffers and  call <b>midiOutPrepareHeader</b> for each buffer. If you re-use the same buffer, it is not necessary to prepare the buffer each time. You can call  <b>midiOutPrepareHeader</b> once at the beginning and then call <a href="/previous-versions/dd798482(v=vs.85)">midiOutUnprepareHeader</a> once at the end.
 
 A stream buffer cannot be larger than 64K.
       
@@ -128,13 +128,12 @@ Preparing a header that has already been prepared has no effect, and the functio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/allocating-and-preparing-midi-data-blocks">Allocating and Preparing MIDI Data Blocks</a>
+<a href="/windows/desktop/Multimedia/allocating-and-preparing-midi-data-blocks">Allocating and Preparing MIDI Data Blocks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd798482(v=vs.85)">midiOutUnprepareHeader</a>
-
+<a href="/previous-versions/dd798482(v=vs.85)">midiOutUnprepareHeader</a>

@@ -59,13 +59,12 @@ This property is read-only.
 
 ## -remarks
 
-The LargeChange property can support a Not a Number (NaN) value. When retrieving this property, a client can use the <a href="https://msdn.microsoft.com/library/aa298428(VS.60).aspx">_isnan</a> function to determine whether the property is a NaN value.
+The LargeChange property can support a Not a Number (NaN) value. When retrieving this property, a client can use the <a href="/previous-versions/visualstudio/visual-studio-6.0/aa298428(v=vs.60)">_isnan</a> function to determine whether the property is a NaN value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationrangevaluepattern">IUIAutomationRangeValuePattern</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationrangevaluepattern">IUIAutomationRangeValuePattern</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_currentsmallchange">IUIAutomationRangeValuePattern::CurrentSmallChange</a>
-
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_currentsmallchange">IUIAutomationRangeValuePattern::CurrentSmallChange</a>

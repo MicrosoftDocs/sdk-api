@@ -56,9 +56,9 @@ Sets a rendering predicate.
 
 ### -param pBuffer [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>*</b>
 
-The buffer, as an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>.
+The buffer, as an <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>.
 
 ### -param AlignedBufferOffset [in]
 
@@ -68,9 +68,9 @@ The aligned buffer offset, as a UINT64.
 
 ### -param Operation [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op">D3D12_PREDICATION_OP</a></b>
+Type: <b><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op">D3D12_PREDICATION_OP</a></b>
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op">D3D12_PREDICATION_OP</a>, such as D3D12_PREDICATION_OP_EQUAL_ZERO or D3D12_PREDICATION_OP_NOT_EQUAL_ZERO.
+Specifies a <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op">D3D12_PREDICATION_OP</a>, such as D3D12_PREDICATION_OP_EQUAL_ZERO or D3D12_PREDICATION_OP_NOT_EQUAL_ZERO.
 
 ## -remarks
 
@@ -84,20 +84,20 @@ Unlike Direct3D 11, in Direct3D 12 predication state is not inherited by direct 
         It is legal for the same predicate to be bound multiple times.
       
 
-Illegal API calls will result in <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> returning an error,
-            or <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists">ID3D12CommandQueue::ExecuteCommandLists</a> dropping the command list and removing the device.
+Illegal API calls will result in <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close">Close</a> returning an error,
+            or <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists">ID3D12CommandQueue::ExecuteCommandLists</a> dropping the command list and removing the device.
           
 
 The debug layer will issue errors whenever the runtime validation fails.
           
 
-Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/predication">Predication</a> for more information.
+Refer to <a href="/windows/desktop/direct3d12/predication">Predication</a> for more information.
         
 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses <b>ID3D12GraphicsCommandList::SetPredication</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses <b>ID3D12GraphicsCommandList::SetPredication</b> as follows:
         
 
 
@@ -178,16 +178,15 @@ void D3D12PredicationQueries::PopulateCommandList()
 ```
 
 
-See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+See <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/predication-queries">Predication queries walk-through</a>
-
+<a href="/windows/desktop/direct3d12/predication-queries">Predication queries walk-through</a>

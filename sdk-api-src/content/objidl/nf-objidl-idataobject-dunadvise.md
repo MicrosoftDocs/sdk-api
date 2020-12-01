@@ -56,7 +56,7 @@ Destroys a notification connection that had been previously set up.
 
 ### -param dwConnection [in]
 
-A token that specifies the connection to be removed. Use the value returned by <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> when the connection was originally established.
+A token that specifies the connection to be removed. Use the value returned by <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> when the connection was originally established.
 
 ## -returns
 
@@ -85,7 +85,7 @@ The specified value for <i>dwConnection</i> is not a valid connection.
 </dl>
 </td>
 <td width="60%">
-This <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> implementation does not support notification.
+This <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> implementation does not support notification.
 
 </td>
 </tr>
@@ -93,11 +93,10 @@ This <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-id
 
 ## -remarks
 
-This methods destroys a notification created with a call to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> method.
+This methods destroys a notification created with a call to the <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> method.
 
-If the advisory connection being deleted was initially set up by delegating the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">IDataAdviseHolder::Advise</a>, you must delegate this call to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataadviseholder-unadvise">IDataAdviseHolder::Unadvise</a> to delete it.
+If the advisory connection being deleted was initially set up by delegating the <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a> call to <a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-advise">IDataAdviseHolder::Advise</a>, you must delegate this call to <a href="/windows/desktop/api/objidl/nf-objidl-idataadviseholder-unadvise">IDataAdviseHolder::Unadvise</a> to delete it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>

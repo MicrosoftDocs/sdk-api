@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndEnd</b> macro moves the current position to the end of the content. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-seek">MCI_SEEK</a> message.
+The <b>MCIWndEnd</b> macro moves the current position to the end of the content. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mci-seek">MCI_SEEK</a> message.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Handle of the MCIWnd window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mci-seek">MCI_SEEK</a>
-
+<a href="/windows/desktop/Multimedia/mci-seek">MCI_SEEK</a>

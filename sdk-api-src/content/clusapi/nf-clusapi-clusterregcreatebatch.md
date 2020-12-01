@@ -54,9 +54,9 @@ api_name:
 
 Creates a batch that will execute commands on a cluster registry key. These commands will 
     be added to the batch by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchaddcommand">ClusterRegBatchAddCommand</a> function and 
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchaddcommand">ClusterRegBatchAddCommand</a> function and 
     either executed or ignored by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatch">ClusterRegCloseBatch</a> function.
+    <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatch">ClusterRegCloseBatch</a> function.
 
 ## -parameters
 
@@ -72,7 +72,7 @@ The pointer to the handle of the created batch.
 ## -returns
 
 The function returns one of the following 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>.
 
 <table>
 <tr>
@@ -138,13 +138,12 @@ The <b>PCLUSTER_REG_CREATE_BATCH</b> type defines a pointer to this function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-registry-access-functions">Cluster Registry Access Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchaddcommand">ClusterRegBatchAddCommand</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregbatchaddcommand">ClusterRegBatchAddCommand</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatch">ClusterRegCloseBatch</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterregclosebatch">ClusterRegCloseBatch</a>

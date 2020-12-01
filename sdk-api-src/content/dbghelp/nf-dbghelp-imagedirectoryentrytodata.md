@@ -54,7 +54,7 @@ api_name:
 Obtains access to image-specific data.
 
 This function has been superseded by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagedirectoryentrytodataex">ImageDirectoryEntryToDataEx</a> function. Use 
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagedirectoryentrytodataex">ImageDirectoryEntryToDataEx</a> function. Use 
 <b>ImageDirectoryEntryToDataEx</b> to retrieve the section header.
 
 ## -parameters
@@ -66,7 +66,7 @@ The base address of the image.
 ### -param MappedAsImage [in]
 
 If this parameter is <b>TRUE</b>, the file is mapped by the system as an image. If the flag is <b>FALSE</b>, the file is mapped as a data file by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> function.
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> function.
 
 ### -param DirectoryEntry [in]
 
@@ -255,7 +255,7 @@ A pointer to a variable that receives the size of the data for the directory ent
 If the function succeeds, the return value is a pointer to the directory entry's data.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -266,13 +266,12 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-imagedirectoryentrytodataex">ImageDirectoryEntryToDataEx</a>
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagedirectoryentrytodataex">ImageDirectoryEntryToDataEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a>

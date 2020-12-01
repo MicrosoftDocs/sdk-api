@@ -58,13 +58,13 @@ Contains information about the Input Method Editor (IME) composition text in a M
 
 ### -field cb
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Size of the output buffer, in bytes.
 
 ### -field flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Type of composition string. It can be one of the following values.
 
@@ -92,4 +92,3 @@ This structure is used with the <a href="https://msdn.microsoft.com/1516305c-5f8
 ## -see-also
 
 <a href="https://msdn.microsoft.com/1516305c-5f87-4ae0-97db-8709c71abacc">EM_GETIMECOMPTEXT</a>
-

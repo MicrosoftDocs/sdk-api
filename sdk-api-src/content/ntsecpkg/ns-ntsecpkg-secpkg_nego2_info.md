@@ -57,8 +57,8 @@ api_name:
 The <b>SECPKG_NEGO2_INFO</b> structure  contains extended package information used for NEGO2 negotiations.
 
 This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ The authentication identifier.
 ### -field PackageFlags
 
 The flags associated with the authentication package.
-

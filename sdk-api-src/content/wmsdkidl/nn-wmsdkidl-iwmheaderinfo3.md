@@ -63,7 +63,7 @@ The <b>IWMHeaderInfo3</b> interface is implemented by the metadata editor object
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMHeaderInfo3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>. <b>IWMHeaderInfo3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMHeaderInfo3</b> interface inherits from <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2</a>. <b>IWMHeaderInfo3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IWMHeaderInfo3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addattribute">AddAttribute</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addattribute">AddAttribute</a>
 </td>
 <td align="left" width="63%">
 Adds an attribute for a specified language.
@@ -87,7 +87,7 @@ Adds an attribute for a specified language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addcodecinfo">AddCodecInfo</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addcodecinfo">AddCodecInfo</a>
 </td>
 <td align="left" width="63%">
 Adds information about a codec that was used to compress data in the file.
@@ -96,7 +96,7 @@ Adds information about a codec that was used to compress data in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-deleteattribute">DeleteAttribute</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-deleteattribute">DeleteAttribute</a>
 </td>
 <td align="left" width="63%">
 Deletes an attribute using the attribute index.
@@ -105,7 +105,7 @@ Deletes an attribute using the attribute index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributebyindexex">GetAttributeByIndexEx</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributebyindexex">GetAttributeByIndexEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves an attribute by its index.
@@ -114,7 +114,7 @@ Retrieves an attribute by its index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributecountex">GetAttributeCountEx</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributecountex">GetAttributeCountEx</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of attributes in the file header.
@@ -123,7 +123,7 @@ Retrieves the total number of attributes in the file header.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributeindices">GetAttributeIndices</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributeindices">GetAttributeIndices</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of all the indices of attributes for a specified language.
@@ -132,7 +132,7 @@ Retrieves a list of all the indices of attributes for a specified language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-modifyattribute">ModifyAttribute</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-modifyattribute">ModifyAttribute</a>
 </td>
 <td align="left" width="63%">
 Changes the settings of an existing attribute.
@@ -145,33 +145,32 @@ For information about which interfaces can be obtained by using the QueryInterfa
 
 ## -remarks
 
-For information about using the writer for metadata editing, see <a href="https://docs.microsoft.com/windows/desktop/wmformat/to-edit-metadata-with-the-writer">To Edit Metadata with the Writer</a>.
+For information about using the writer for metadata editing, see <a href="/windows/desktop/wmformat/to-edit-metadata-with-the-writer">To Edit Metadata with the Writer</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo">IWMHeaderInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2">IWMHeaderInfo2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/interfaces">Interfaces</a>
+<a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/metadata-editor-object">Metadata Editor Object</a>
+<a href="/windows/desktop/wmformat/metadata-editor-object">Metadata Editor Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/reader-object">Reader Object</a>
+<a href="/windows/desktop/wmformat/reader-object">Reader Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/synchronous-reader-object">Synchronous Reader Object</a>
+<a href="/windows/desktop/wmformat/synchronous-reader-object">Synchronous Reader Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/writer-object">Writer Object</a>
-
+<a href="/windows/desktop/wmformat/writer-object">Writer Object</a>

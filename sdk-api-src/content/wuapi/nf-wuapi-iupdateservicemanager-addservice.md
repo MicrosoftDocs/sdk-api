@@ -64,7 +64,7 @@ The path of the Microsoft signed local cabinet file that has the information tha
 
 ### -param retval [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface that represents an added service.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a> interface that represents an added service.
 
 ## -returns
 
@@ -126,9 +126,8 @@ The state of Automatic Updates could not be changed.
 
 ## -remarks
 
-This method returns <b>WU_E_DS_INVALIDOPERATION</b> if the requested change in the state of Automatic Updates is contrary to the specifications in the Authorization Cab. An error is returned by <a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> if the Authorization Cab has not been signed.
+This method returns <b>WU_E_DS_INVALIDOPERATION</b> if the requested change in the state of Automatic Updates is contrary to the specifications in the Authorization Cab. An error is returned by <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> if the Authorization Cab has not been signed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>

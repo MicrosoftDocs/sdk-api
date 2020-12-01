@@ -53,10 +53,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>FrameworkLoginDLL</b> method is called when the DLL_PROCESS_ATTACH value is sent to DllMain to determine whether the provider server can be loaded.
@@ -78,4 +78,3 @@ The method returns <b>TRUE</b> if the server can be loaded and <b>FALSE</b> if t
 ## -remarks
 
 The <b>FrameworkLoginDLL</b> method should be called from DllMain when the <i>fdwReason</i> parameter has the value DLL_PROCESS_ATTACH. If <b>FrameworkLoginDLL</b> returns <b>FALSE</b>, the server should return <b>FALSE</b> from DllMain to fail the load.
-

@@ -54,9 +54,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
+<p class="CCE_Message">[<a href="/previous-versions/windows/desktop/netbios/portal">Netbios</a> is not supported on Windows Vista,  Windows Server 2008, and subsequent versions of the operating system]
 
-The <b>ADAPTER_STATUS</b> structure contains information about a network adapter. This structure is pointed to by the <b>ncb_buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure. <b>ADAPTER_STATUS</b> is followed by as many <a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-name_buffer">NAME_BUFFER</a> structures as required to describe the network adapters on the system.
+The <b>ADAPTER_STATUS</b> structure contains information about a network adapter. This structure is pointed to by the <b>ncb_buffer</b> member of the <a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a> structure. <b>ADAPTER_STATUS</b> is followed by as many <a href="/windows/desktop/api/nb30/ns-nb30-name_buffer">NAME_BUFFER</a> structures as required to describe the network adapters on the system.
 
 ## -struct-fields
 
@@ -176,17 +176,16 @@ Specifies the number of names in the local names table.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-name_buffer">NAME_BUFFER</a>
+<a href="/windows/desktop/api/nb30/ns-nb30-name_buffer">NAME_BUFFER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
+<a href="/windows/desktop/api/nb30/ns-nb30-ncb">NCB</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
+<a href="/previous-versions/windows/desktop/netbios/netbios-structures">NetBIOS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
-
+<a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>

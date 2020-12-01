@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Creates a drag image list for the specified item. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-createdragimage">LVM_CREATEDRAGIMAGE</a> message explicitly.
+Creates a drag image list for the specified item. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-createdragimage">LVM_CREATEDRAGIMAGE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -70,9 +70,8 @@ The index of the item.
 
 Type: <b>LPPOINT</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the initial location of the upper-left corner of the image, in view coordinates.
+A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the initial location of the upper-left corner of the image, in view coordinates.
 
 ## -remarks
 
 Your application is responsible for destroying the image list when it is no longer needed.
-

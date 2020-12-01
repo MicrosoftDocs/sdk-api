@@ -58,13 +58,12 @@ Specifies the type of personal desktop resolution being requested.
 
 ### -field TSPUB_PLUGIN_PD_QUERY_OR_CREATE
 
-Resolve an existing personal desktop for the user. If no personal desktop exists, the <a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-resolvepersonaldesktop">ResolvePersonalDesktop</a> method should create a new one.
+Resolve an existing personal desktop for the user. If no personal desktop exists, the <a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-resolvepersonaldesktop">ResolvePersonalDesktop</a> method should create a new one.
 
 ### -field TSPUB_PLUGIN_PD_QUERY_EXISTING
 
-Resolve an existing personal desktop for the user. If no personal desktop exists, the <a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-resolvepersonaldesktop">ResolvePersonalDesktop</a> method should return an error code.
+Resolve an existing personal desktop for the user. If no personal desktop exists, the <a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-resolvepersonaldesktop">ResolvePersonalDesktop</a> method should return an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-resolvepersonaldesktop">ResolvePersonalDesktop</a>
-
+<a href="/windows/desktop/api/tspubplugin2com/nf-tspubplugin2com-itspubplugin2-resolvepersonaldesktop">ResolvePersonalDesktop</a>

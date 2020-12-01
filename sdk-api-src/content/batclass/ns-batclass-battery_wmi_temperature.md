@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
- Defines information about temperature of the battery for use with the <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a> function.
+ Defines information about temperature of the battery for use with the <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a> function.
 
 ## -struct-fields
 
@@ -68,5 +68,4 @@ The temperature.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a>
-
+<a href="/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a>

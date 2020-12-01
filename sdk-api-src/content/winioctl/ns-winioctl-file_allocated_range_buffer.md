@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Indicates a range of bytes in a file. This structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_allocated_ranges">FSCTL_QUERY_ALLOCATED_RANGES</a> control code. On input, the structure indicates the range of the file to search. On output, the operation retrieves an array of 
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_allocated_ranges">FSCTL_QUERY_ALLOCATED_RANGES</a> control code. On input, the structure indicates the range of the file to search. On output, the operation retrieves an array of 
 <b>FILE_ALLOCATED_RANGE_BUFFER</b> structures to indicate the allocated ranges within the search range.
 
 ## -struct-fields
@@ -69,9 +69,8 @@ The size of the range, in bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_allocated_ranges">FSCTL_QUERY_ALLOCATED_RANGES</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_allocated_ranges">FSCTL_QUERY_ALLOCATED_RANGES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/sparse-files">Sparse Files</a>
-
+<a href="/windows/desktop/FileIO/sparse-files">Sparse Files</a>

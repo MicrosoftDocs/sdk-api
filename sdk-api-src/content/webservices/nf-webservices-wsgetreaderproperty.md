@@ -52,8 +52,8 @@ api_name:
 
 This function returns a property of the specified XML Reader.
 <div class="alert"><b>Note</b>  Obtaining the Property <b>WS_XML_READER_PROPERTY_CHARSET</b> will require inspecting up to the first
-        four bytes of the XML data.  Consequently if the Reader is using <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> the
-        <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfillreader">WsFillReader</a> function must be called first to ensure that this data has been read.</div><div> </div>
+        four bytes of the XML data.  Consequently if the Reader is using <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_reader_stream_input">WS_XML_READER_STREAM_INPUT</a> the
+        <a href="/windows/desktop/api/webservices/nf-webservices-wsfillreader">WsFillReader</a> function must be called first to ensure that this data has been read.</div><div> </div>
 
 ## -parameters
 
@@ -77,7 +77,7 @@ A byte count of the buffer that the caller has allocated for the retrieved value
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -100,4 +100,3 @@ The property id was not supported for this object or the specified buffer was no
 </td>
 </tr>
 </table>
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-offlineclustergroup">OfflineClusterGroup</a> method. 
+Extends the <a href="/windows/desktop/api/clusapi/nf-clusapi-offlineclustergroup">OfflineClusterGroup</a> method. 
     The client can use the flags to control failover policies of the group and the input buffer to send specific 
     instructions for the offline operation to the resources in the target group. For instance, the input buffer can be 
     used to instruct a virtual machine to go offline by saving its state as opposed to shutting down.
@@ -95,7 +95,7 @@ The size of <i>lpInBuffer</i>, in bytes.
     <b>CLUSAPI_OFFLINE_GROUP_IGNORE_RESOURCE_LOCKED_STATUS</b> flag is not set and any resource in 
     the group has indicated that it is “locked” in its current state.
 
-Similar to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-moveclustergroupex">MoveClusterGroupEx</a>, if 
+Similar to <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-moveclustergroupex">MoveClusterGroupEx</a>, if 
     <b>OfflineClusterGroupEx</b> returns 
     <b>ERROR_IO_PENDING</b>, then the cluster service will attempt to bring the group to the 
     offline state.
@@ -194,4 +194,3 @@ Cleanup:
     return (int)error;
 }
 ```
-

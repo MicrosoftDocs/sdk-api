@@ -56,21 +56,21 @@ Requests the bit property settings for the text host.
 
 ### -param dwMask [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Mask of properties in which the caller is interested. For the possible bit values, see 
-					<i>dwBits</i> in <a href="https://docs.microsoft.com/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a>.
+					<i>dwBits</i> in <a href="/windows/desktop/api/textserv/nf-textserv-itextservices-ontxpropertybitschange">OnTxPropertyBitsChange</a>.
 
 ### -param pdwBits [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 The current settings for the properties specified by 
 					<i>dwMask</i>.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 The return value is <b>S_OK</b>.
 
@@ -80,9 +80,8 @@ This call is valid at any time, for any combination of requested property bits.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost">ITextHost</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
-
+<a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>

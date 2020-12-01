@@ -60,7 +60,7 @@ The ID of the URL Group for which the property setting is returned.
 
 ### -param Property [in]
 
-A member of the  <a href="https://docs.microsoft.com/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a> enumeration that describes the property type that is queried. This can be one of the following:
+A member of the  <a href="/windows/desktop/api/http/ne-http-http_server_property">HTTP_SERVER_PROPERTY</a> enumeration that describes the property type that is queried. This can be one of the following:
 
 <table>
 <tr>
@@ -103,7 +103,7 @@ Queries the current state of the URL Group. The state can be either enabled or d
 </dl>
 </td>
 <td width="60%">
-This value maps to the generic <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure with <b>QosType</b> set to either <b>HttpQosSettingTypeBandwidth</b> or  <b>HttpQosSettingTypeConnectionLimit</b>. If <b>HttpQosSettingTypeBandwidth</b>, queries the bandwidth throttling for the URL Group. If <b>HttpQosSettingTypeConnectionLimit</b>, queries the maximum number of outstanding connections served for a URL group at any time.
+This value maps to the generic <a href="/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a> structure with <b>QosType</b> set to either <b>HttpQosSettingTypeBandwidth</b> or  <b>HttpQosSettingTypeConnectionLimit</b>. If <b>HttpQosSettingTypeBandwidth</b>, queries the bandwidth throttling for the URL Group. If <b>HttpQosSettingTypeConnectionLimit</b>, queries the maximum number of outstanding connections served for a URL group at any time.
 
 </td>
 </tr>
@@ -131,31 +131,31 @@ A pointer to the buffer that receives the property information.
 <tr>
 <td>HttpServerStateProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_state_info">HTTP_STATE_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_state_info">HTTP_STATE_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerAuthenticationProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_server_authentication_info">HTTP_SERVER_AUTHENTICATION_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerQosProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_qos_setting_info">HTTP_QOS_SETTING_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerTimeoutsProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_timeout_limit_info">HTTP_TIMEOUT_LIMIT_INFO</a>
 </td>
 </tr>
 <tr>
 <td>HttpServerChannelBindProperty</td>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a>
+<a href="/windows/desktop/api/http/ns-http-http_channel_bind_info">HTTP_CHANNEL_BIND_INFO</a>
 </td>
 </tr>
 </table>
@@ -219,25 +219,24 @@ Querying the <b>HttpServerLoggingProperty</b> is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>
+<a href="/windows/desktop/api/http/nf-http-httpaddurltourlgroup">HttpAddUrlToUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a>
+<a href="/windows/desktop/api/http/nf-http-httpcloseurlgroup">HttpCloseUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreateurlgroup">HttpCreateUrlGroup</a>
+<a href="/windows/desktop/api/http/nf-http-httpcreateurlgroup">HttpCreateUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpremoveurlfromurlgroup">HttpRemoveUrlFromUrlGroup</a>
+<a href="/windows/desktop/api/http/nf-http-httpremoveurlfromurlgroup">HttpRemoveUrlFromUrlGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>

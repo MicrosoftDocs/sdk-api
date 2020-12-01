@@ -53,7 +53,7 @@ api_name:
 The 
 <b>IS_SPECIAL_DATAOBJECT</b> macro determines whether an <b>LPDATAOBJECT</b> passed by MMC in a call to the snap-in's 
 Notify method is a special type of data object instead of a pointer to an actual 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object.
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> object.
 
 ## -parameters
 
@@ -67,32 +67,31 @@ MMC can pass <b>DOBJ_CUSTOMOCX</b> or <b>DOBJ_CUSTOMWEB</b> as the data object i
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iextendcontrolbar-controlbarnotify">IExtendControlbar::ControlbarNotify</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iextendcontrolbar-controlbarnotify">IExtendControlbar::ControlbarNotify</a>
 <dl>
 <dd>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-btn-click">MMCN_BTN_CLICK</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-btn-click">MMCN_BTN_CLICK</a>
 </dd>
 </dl>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-notify">IComponent::Notify</a>
 <dl>
 <dd>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-btn-click">MMCN_BTN_CLICK</a> with <i>param</i> set to<b> MMC_VERB_PROPERTIES</b></dd>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-btn-click">MMCN_BTN_CLICK</a> with <i>param</i> set to<b> MMC_VERB_PROPERTIES</b></dd>
 <dd>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-delete">MMCN_DELETE</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-delete">MMCN_DELETE</a>
 </dd>
 <dd>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-paste">MMCN_PASTE</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-paste">MMCN_PASTE</a>
 </dd>
 <dd>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-print">MMCN_PRINT</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-print">MMCN_PRINT</a>
 </dd>
 <dd>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmcn-refresh">MMCN_REFRESH</a>
+<a href="/previous-versions/windows/desktop/mmc/mmcn-refresh">MMCN_REFRESH</a>
 </dd>
 </dl>
 </li>
 </ul>
 If you have custom views (webpage, custom OCX, or taskpad), you can use this macro to verify that the notifications listed above pass a pointer to a data object or one of the special values, and then handle them appropriately.
-

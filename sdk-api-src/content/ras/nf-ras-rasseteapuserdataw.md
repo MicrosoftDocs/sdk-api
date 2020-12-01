@@ -81,7 +81,7 @@ Specifies the size of the data pointed to by the <i>pbEapData</i> parameter.
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -129,7 +129,7 @@ The <i>dwSizeofEapData</i> parameter is zero, or the <i>pbEapData</i> parameter 
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -137,22 +137,21 @@ Use
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasinvokeeapui">RasInvokeEapUI</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasinvokeeapui">RasInvokeEapUI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The ras.h header defines RasSetEapUserData as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

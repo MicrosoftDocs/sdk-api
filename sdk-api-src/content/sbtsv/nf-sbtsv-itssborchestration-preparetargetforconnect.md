@@ -56,11 +56,11 @@ Prepares the target for a client connection.
 
 ### -param pConnection [in]
 
- A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a> client connection object.
+ A pointer to an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a> client connection object.
 
 ### -param pOrchestrationNotifySink [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssborchestrationnotifysink">ITsSbOrchestrationNotifySink</a> orchestration notify sink object.
+A pointer to an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssborchestrationnotifysink">ITsSbOrchestrationNotifySink</a> orchestration notify sink object.
 
 ## -returns
 
@@ -74,13 +74,12 @@ include waking a virtual machine and determining its IP address. Your implementa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssborchestration">ITsSbOrchestration</a>
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssborchestration">ITsSbOrchestration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssborchestrationnotifysink">ITsSbOrchestrationNotifySink</a>
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssborchestrationnotifysink">ITsSbOrchestrationNotifySink</a>

@@ -51,9 +51,8 @@ api_name:
 
 ## -description
 
-The <b>_NewEnum</b> property retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface on an object that can be used to enumerate the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazroledefinitions">IAzRoleDefinitions</a> collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
+The <b>_NewEnum</b> property retrieves an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface on an object that can be used to enumerate the <a href="/windows/desktop/api/azroles/nn-azroles-iazroledefinitions">IAzRoleDefinitions</a> collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 
 This property is read-only.
 
 ## -parameters
-

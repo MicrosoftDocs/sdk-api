@@ -60,5 +60,4 @@ The resource indexer for which you want to free the computational resources.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/resourceindexer/nf-resourceindexer-createresourceindexer">CreateResourceIndexer</a>
-
+<a href="/windows/desktop/api/resourceindexer/nf-resourceindexer-createresourceindexer">CreateResourceIndexer</a>

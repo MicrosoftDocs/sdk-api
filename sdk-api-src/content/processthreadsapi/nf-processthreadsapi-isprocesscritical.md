@@ -6,7 +6,7 @@ helpviewer_keywords: ["IsProcessCritical","IsProcessCritical function","base.isp
 old-location: base\isprocesscritical.htm
 tech.root: backup
 ms.assetid: A5ED8672-B4C3-4A31-8B3F-A181628219A4
-ms.date: 12/05/2018
+ms.date: 09/24/2020
 ms.keywords: IsProcessCritical, IsProcessCritical function, base.isprocesscritical, processthreadsapi/IsProcessCritical
 req.header: processthreadsapi.h
 req.include-header: 
@@ -23,7 +23,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Kernel32.lib
-req.dll: Ntdll.dll
+req.dll: kernel32.dll
 req.irql: 
 targetos: Windows
 req.typenames: 
@@ -40,7 +40,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - Ntdll.dll
+ - kernel32.dll
  - API-MS-Win-Core-Processthreads-l1-1-2.dll
  - Kernel32.dll
  - KernelBase.dll
@@ -69,9 +69,8 @@ A pointer to the <b>BOOL</b> value this function will use to indicate whether th
 
 ## -returns
 
-This routine returns FALSE on failure. Any other value indicates success.      Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to query for the specific error reason on failure.
+This routine returns FALSE on failure. Any other value indicates success.      Call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to query for the specific error reason on failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>
-
+<a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a>

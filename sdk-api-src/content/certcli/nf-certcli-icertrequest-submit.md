@@ -56,7 +56,7 @@ api_name:
 The <b>Submit</b> method submits a request to the Certificate Services server.
 
 If the resulting disposition status is CR_DISP_ISSUED, you can retrieve the issued certificate by calling 
-the <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest-getcertificate">ICertRequest3::GetCertificate</a> method.
+the <a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-getcertificate">ICertRequest3::GetCertificate</a> method.
 
 ## -parameters
 
@@ -132,7 +132,7 @@ One of the following format value flags can be used to specify the type of the r
 </dl>
 </td>
 <td width="60%">
-Return a challenge that can be submitted to a CA. The challenge is a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC)  full request. When this flag is turned on, calling the <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest2-getfullresponseproperty">GetFullResponseProperty</a> method with the FR_PROP_FULLRESPONSE flag returns a CMC response that contains key attestation challenge.
+Return a challenge that can be submitted to a CA. The challenge is a <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC)  full request. When this flag is turned on, calling the <a href="/windows/desktop/api/certcli/nf-certcli-icertrequest2-getfullresponseproperty">GetFullResponseProperty</a> method with the FR_PROP_FULLRESPONSE flag returns a CMC response that contains key attestation challenge.
 
 
 </td>
@@ -143,7 +143,7 @@ Return a challenge that can be submitted to a CA. The challenge is a <a href="ht
 </dl>
 </td>
 <td width="60%">
-The call is a response to a challenge. The RequestId must be passed in the <i>strAttributes</i> parameter and the response to the challenge must be passed in the <i>strRequest</i> parameter.  This flag should be turned on when an application needs to send back the decrypted challenge to the CA. You can then call the <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertrequest2-getfullresponseproperty">GetFullResponseProperty</a> method to get the issued end entity certificate.
+The call is a response to a challenge. The RequestId must be passed in the <i>strAttributes</i> parameter and the response to the challenge must be passed in the <i>strRequest</i> parameter.  This flag should be turned on when an application needs to send back the decrypted challenge to the CA. You can then call the <a href="/windows/desktop/api/certcli/nf-certcli-icertrequest2-getfullresponseproperty">GetFullResponseProperty</a> method to get the issued end entity certificate.
 
 
 </td>
@@ -154,7 +154,7 @@ The call is a response to a challenge. The RequestId must be passed in the <i>st
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) request.
+A <a href="/windows/desktop/SecGloss/c-gly">Certificate Management over CMS</a> (CMC) request.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ Keygen request (Netscape format).
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #7</a> request (renewal or registration agent).
+<a href="/windows/desktop/SecGloss/p-gly">PKCS #7</a> request (renewal or registration agent).
 
 </td>
 </tr>
@@ -246,10 +246,10 @@ Use the context of the key service computer.
 <td width="60%">
 Indicates that the message is being requested on behalf of another sender.
 
-If the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) is not configured for "renew on behalf of", then the CA rejects the request.
+If the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) is not configured for "renew on behalf of", then the CA rejects the request.
  
 
-For more information about enabling "renew on behalf of" on the CA, see <a href="https://technet.microsoft.com/library/dd759245.aspx">Configuring the Certificate Enrollment Web Service for Renewal Only Mode</a>.
+For more information about enabling "renew on behalf of" on the CA, see <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759245(v=ws.11)">Configuring the Certificate Enrollment Web Service for Renewal Only Mode</a>.
 
 The request must be a renewal request and the signing certificate must be using the same template as the request.
 
@@ -290,11 +290,11 @@ Specifies that the DCOM connection with the server is established, but the reque
 
 ### -param strRequest [in]
 
-A pointer to the string that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. If CR_IN_BASE64 or CR_IN_BASE64HEADER was specified in <i>Flags</i>, <i>strRequest</i> must be a Unicode string.
+A pointer to the string that contains the <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>. If CR_IN_BASE64 or CR_IN_BASE64HEADER was specified in <i>Flags</i>, <i>strRequest</i> must be a Unicode string.
 
 ### -param strAttributes [in]
 
-A pointer to the string that contains optional extra <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attributes</a> for the request. Each attribute is a name-value string pair. The colon character separates the name and value, and a newline character separates multiple name-value pairs, for example:
+A pointer to the string that contains optional extra <a href="/windows/desktop/SecGloss/a-gly">attributes</a> for the request. Each attribute is a name-value string pair. The colon character separates the name and value, and a newline character separates multiple name-value pairs, for example:
 
 <table>
 <tr>
@@ -316,8 +316,8 @@ When Certificate Services server parses attribute names, it ignores spaces, hyph
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the Certificate Services server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+Represents a valid configuration string for the Certificate Services server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>An HTTPS URL is not supported as an input.
 
@@ -332,7 +332,7 @@ A pointer to the request's disposition value.
 
  Upon successful completion of this function, *<i>pDisposition</i> is set to one of the values in the following table.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value specifies the disposition of the request. The disposition is one of the following values.
@@ -510,25 +510,24 @@ error:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">CCertRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">ICEnroll::createPKCS10</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">ICEnroll::createPKCS10</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest">ICertRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest2">ICertRequest2</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest2">ICertRequest2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
-
+<a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>

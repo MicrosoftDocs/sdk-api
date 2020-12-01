@@ -58,7 +58,7 @@ The
 ### -param vpsp
 
 A pointer to the Microsoft Windows 
-<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure. Be aware that by default, MFC installs its own callback in the <b>pfnCallback</b> member of the structure.
+<a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure. Be aware that by default, MFC installs its own callback in the <b>pfnCallback</b> member of the structure.
 
 ## -returns
 
@@ -86,9 +86,8 @@ AFX_MANAGE_STATE(AfxGetStaticModuleState( ))
 
 For an operating system call, MFC does this automatically. Because MMC's property sheet is not an MFC <b>CPropertySheet</b>, the operating system call due to the callback is in the wrong module state. As a result, you need to make sure that the module state is correctly set during the page creation. This is the purpose of 
 <b>MMCPropPageCallback</b>. After the module state has been set, the only AFX_MANAGE_STATE calls that need to be made are those exposed by the COM interfaces implemented by the snap-in (for example 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)">IExtendPropertySheet2::CreatePropertyPages</a>). To determine whether the application has the correct module state, look at <b>CWinApp</b> and note the application name.
+<a href="/previous-versions/windows/desktop/legacy/aa814847(v=vs.85)">IExtendPropertySheet2::CreatePropertyPages</a>). To determine whether the application has the correct module state, look at <b>CWinApp</b> and note the application name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v3">PROPSHEETPAGE</a>
-
+<a href="/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v3">PROPSHEETPAGE</a>

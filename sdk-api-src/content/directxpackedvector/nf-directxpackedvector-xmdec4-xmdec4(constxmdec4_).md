@@ -52,7 +52,7 @@ api_name:
 
 A constructor for <code>XMDEC4</code>.
 
-A constructor for <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdec4">XMDEC4</a> .
+A constructor for <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdec4">XMDEC4</a> .
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
@@ -66,7 +66,6 @@ A value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdec4">XMDEC4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmdec4">XMDEC4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmdec4-ctor">XMDEC4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmdec4-ctor">XMDEC4 Constructors</a>

@@ -72,5 +72,4 @@ The element does not expand or collapse.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iexpandcollapseprovider">IExpandCollapseProvider</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iexpandcollapseprovider">IExpandCollapseProvider</a>

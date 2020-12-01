@@ -56,11 +56,10 @@ Gets a pointer to the data.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPVOID</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPVOID</a></b>
 
 Returns a pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob</a>
-
+<a href="/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob</a>

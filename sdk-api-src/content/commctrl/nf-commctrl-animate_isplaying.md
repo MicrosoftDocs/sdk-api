@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Checks to see if an Audio-Video Interleaved (AVI) clip is playing. You can use this macro or send an <a href="https://docs.microsoft.com/windows/desktop/Controls/acm-isplaying">ACM_ISPLAYING</a> message.
+Checks to see if an Audio-Video Interleaved (AVI) clip is playing. You can use this macro or send an <a href="/windows/desktop/Controls/acm-isplaying">ACM_ISPLAYING</a> message.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the animation control.
-

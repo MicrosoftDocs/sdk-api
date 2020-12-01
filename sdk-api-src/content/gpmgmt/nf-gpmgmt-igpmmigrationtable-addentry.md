@@ -46,12 +46,9 @@ api_name:
  - GPMMigrationTable.AddEntry
 ---
 
-# IGPMMigrationTable::AddEntry
-
-
 ## -description
 
-Creates an entry in the migration table. The method  updates an existing entry.
+Creates an entry in the migration table. The method updates an existing entry.
 
 ## -parameters
 
@@ -63,43 +60,29 @@ Source field of the entry. This parameter cannot be null.
 
 This parameter must be one of the following values.
 
-
-
 #### typeUser
 
-This value  equals 0 (zero). Creates a User entry in the migration table.
-
-
+This value equals 0 (zero). Creates a User entry in the migration table.
 
 #### typeComputer
 
-Creates a  entry for a User.
-
-
+Creates an entry for a User.
 
 #### typeLocalGroup
 
-Creates an entry  for a LocalGroup.
-
-
+Creates an entry for a LocalGroup.
 
 #### typeGlobalGroup
 
 Creates an entry for a GlobalGroup.
 
-
-
 #### typeUniversalGroup
 
 Creates an entry for a UniversalGroup.
 
-
-
 #### typeUNCPath
 
 Creates an entry for a UNCPath.
-
-
 
 #### typeUnknown
 
@@ -107,16 +90,11 @@ Creates an entry for an unknown.
 
 ### -param pvarDestination [in, optional]
 
-A pointer to a <b>VARIANT</b> structure.  You can  use the <b>DestinationOptions</b>: <b>opDestinationSameAsSource</b>, <b>opDestinationNone</b>, or <b>opDestinationByRelativeName</b> by passing  in a <i>pvarDestination</i> with a <b>vt</b> member of VT_I4. To explicitly pass in the destination,  pass in a <i>pvarDestination</i> with a <b>vt</b> member of VT_BSTR, and this  sets the <b>DestinationOptions</b> to <b>opDestinationSet</b>. If you pass in null, <b>AddEntry</b> uses the default value for the destination option, <b>opDestinationSameAsSource</b>.
+A pointer to a <b>VARIANT</b> structure. You can use the <b>DestinationOptions</b>: <b>opDestinationSameAsSource</b>, <b>opDestinationNone</b>, or <b>opDestinationByRelativeName</b> by passing in a <i>pvarDestination</i> with a <b>vt</b> member of VT_I4. To explicitly pass in the destination, pass in a <i>pvarDestination</i> with a <b>vt</b> member of VT_BSTR, and this sets the <b>DestinationOptions</b> to <b>opDestinationSet</b>. If you pass in null, <b>AddEntry</b> uses the default value for the destination option, <b>opDestinationSameAsSource</b>.
 
 ### -param ppEntry [out]
 
 The new entry.
-
-
-#### - destination [in, optional]
-
-This parameter specifies the destination  as a string or as a destination option. Passing a string for the destination implicitly sets the entry's <a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmconstants-property-methods">DestinationOptionSet</a> equal to the <b>DestinationOptionSet</b> property of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmconstants">GPMConstants</a> object.  The destination can also be specified by passing the <b>DestinationSameAsSource</b>, <b>DestinationNone</b>, or <b>DestinationByRelativeName</b> properties of the <b>GPMConstants</b> object.
 
 ## -returns
 
@@ -131,5 +109,4 @@ Returns a reference to a <b>GPMMapEntry</b> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMMigrationTable</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMMigrationTable</a>

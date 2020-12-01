@@ -54,7 +54,7 @@ api_name:
 
 The 
 <b>RasGetEapUserIdentity</b> function retrieves identity information for the current user. Use this information to call 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> with a phone-book entry that requires Extensible Authentication Protocol (EAP).
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a> with a phone-book entry that requires Extensible Authentication Protocol (EAP).
 
 ## -parameters
 
@@ -114,16 +114,16 @@ Handle to the parent window for the UI dialog. If the <i>fInvokeUI</i> parameter
 ### -param ppRasEapUserIdentity [out]
 
 Pointer to a pointer that, on successful return, receives the address of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377247(v=vs.85)">RASEAPUSERIDENTITY</a> structure that contains EAP user identity information. 
+<a href="/previous-versions/windows/desktop/legacy/aa377247(v=vs.85)">RASEAPUSERIDENTITY</a> structure that contains EAP user identity information. 
 <b>RasGetEapUserIdentity</b> allocates the memory buffer for the 
 <b>RASEAPUSERIDENTITY</b> structure. Free this memory by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasfreeeapuseridentitya">RasFreeEapUserIdentity</a>.
+<a href="/windows/desktop/api/ras/nf-ras-rasfreeeapuseridentitya">RasFreeEapUserIdentity</a>.
 
 ## -returns
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
-If the function fails, the return value is one of the following error codes or a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+If the function fails, the return value is one of the following error codes or a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 <table>
 <tr>
@@ -160,7 +160,7 @@ The function was called with the RASEAPF_NonInteractive flag. However, the authe
 </td>
 <td width="60%">
 Either the authentication method for this phone-book entry is not EAP, or the authentication method is EAP but the protocol uses the standard Windows NT/Windows 2000 credentials dialog to obtain user identity information. In either case, the caller does not need to pass EAP identity information to 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>.
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>.
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ The Remote Access Service failed to initialize properly.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -192,14 +192,14 @@ Use
 ## -remarks
 
 <b>RasGetEapUserIdentity</b> calls the RAS function 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a> and the EAP function 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>. <b>RasEapGetIdentity</b> is implemented by the authentication protocol.
+<a href="/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a> and the EAP function 
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>. <b>RasEapGetIdentity</b> is implemented by the authentication protocol.
 
-If the function succeeds, that is the return value is NO_ERROR, the caller should copy the EAP identity information from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377247(v=vs.85)">RASEAPUSERIDENTITY</a> structure pointed to by 
+If the function succeeds, that is the return value is NO_ERROR, the caller should copy the EAP identity information from the <a href="/previous-versions/windows/desktop/legacy/aa377247(v=vs.85)">RASEAPUSERIDENTITY</a> structure pointed to by 
 the <i>ppRasEapUserIdentity</i> parameter to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377029(v=vs.85)">RASDIALEXTENSIONS</a> structures used in the call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>.
+<a href="/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)">RASDIALPARAMS</a> and 
+<a href="/previous-versions/windows/desktop/legacy/aa377029(v=vs.85)">RASDIALEXTENSIONS</a> structures used in the call to 
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>.
 
 If the remote access application being developed has a graphical user interface, the caller of 
 <b>RasGetEapUserIdentity</b> should not specify the RASEAPF_NonInteractive flag. If the application has a command-line user interface, the caller may want to specify the RASEAPF_NonInteractive flag to prevent the authentication protocol from displaying a graphical user interface.
@@ -213,25 +213,24 @@ If the remote access application being developed has a graphical user interface,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377247(v=vs.85)">RASEAPUSERIDENTITY</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377247(v=vs.85)">RASEAPUSERIDENTITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasdiala">RasDial</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>
+<a href="/previous-versions/windows/desktop/api/raseapif/nf-raseapif-raseapgetidentity">RasEapGetIdentity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasfreeeapuseridentitya">RasFreeEapUserIdentity</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasfreeeapuseridentitya">RasFreeEapUserIdentity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a>
+<a href="/windows/desktop/api/ras/nf-ras-rasgeteapuserdataa">RasGetEapUserData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ras/nf-ras-rasseteapuserdataa">RasSetEapUserData</a>
-
+<a href="/windows/desktop/api/ras/nf-ras-rasseteapuserdataa">RasSetEapUserData</a>

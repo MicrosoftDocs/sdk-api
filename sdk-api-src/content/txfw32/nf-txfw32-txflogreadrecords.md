@@ -54,7 +54,7 @@ api_name:
     application’s needs. Many scenarios that TxF was developed for can be achieved through simpler and more readily 
     available techniques. Furthermore, TxF may not be available in future versions of Microsoft Windows. For more 
     information, and alternatives to TxF, please see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
+    <a href="/windows/desktop/FileIO/deprecation-of-txf">Alternatives to using Transactional NTFS</a>.]
 
 Reads the redo records from the log.
 
@@ -70,7 +70,7 @@ The size of the output buffer, in bytes.
 
 ### -param Buffer [out]
 
-A pointer to the buffer that receives the records. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>.
+A pointer to the buffer that receives the records. For more information, see <a href="/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>.
 
 ### -param BytesUsed [out]
 
@@ -85,7 +85,7 @@ The number of records written to the output buffer.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include the 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. Possible error codes include the 
        following.
 
 <table>
@@ -125,7 +125,7 @@ Some of the available records were copied into the buffer. Call this function ag
 <td width="60%">
 The buffer is not large enough to contain even one record. If <i>BytesUsed</i> is 
 	       nonzero, then there was enough space to copy the 
-	       <a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a> structure, which indicates the 
+	       <a href="/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a> structure, which indicates the 
 	       required buffer size to read the next complete record.
 
 </td>
@@ -145,5 +145,4 @@ The format of the log file being processed is unrecognized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>
-
+<a href="/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>

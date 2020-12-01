@@ -52,7 +52,7 @@ api_name:
 
 Generates a correctly 
     formatted user-defined control code. For more information on the bit layout of control codes, see 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a>.
+    <a href="/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a>.
 
 ## -parameters
 
@@ -84,7 +84,7 @@ Use of the control code requires write access.
 
 An 8-bit value that specifies the object code (bits 24–31) of the resulting control 
       code. For more information on the bit layout of control codes, see 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a>. The 
+      <a href="/previous-versions/windows/desktop/mscs/control-code-architecture">Control Code Architecture</a>. The 
       object code can be set to any value greater than <b>CLUS_OBJECT_USER</b> (128).
 
 ## -remarks
@@ -99,19 +99,18 @@ If no access code is specified, the control code will default to
 #### Examples
 
 See the example under 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/creating-control-codes">Creating Control Codes</a>.
+     <a href="/previous-versions/windows/desktop/mscs/creating-control-codes">Creating Control Codes</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusctl_get_access_mode">CLUSCTL_GET_ACCESS_MODE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusctl_get_access_mode">CLUSCTL_GET_ACCESS_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusctl_get_control_function">CLUSCTL_GET_CONTROL_FUNCTION</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusctl_get_control_function">CLUSCTL_GET_CONTROL_FUNCTION</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusctl_get_control_object">CLUSCTL_GET_CONTROL_OBJECT</a>
-
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusctl_get_control_object">CLUSCTL_GET_CONTROL_OBJECT</a>

@@ -56,20 +56,19 @@ Contains the supported shader model.
 
 ### -field HighestShaderModel
 
-Specifies one member of  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d_shader_model">D3D_SHADER_MODEL</a> that indicates the maximum supported shader model.
+Specifies one member of  <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d_shader_model">D3D_SHADER_MODEL</a> that indicates the maximum supported shader model.
 
 ## -remarks
 
-Refer to  the enumeration constant D3D12_FEATURE_SHADER_MODEL in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a> enumeration.
+Refer to  the enumeration constant D3D12_FEATURE_SHADER_MODEL in the <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a> enumeration.
       
 
-When used with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">ID3D12Device::CheckFeatureSupport</a> function, before calling the function initialize the <b>HighestShaderModel</b> field to the highest shader model that your  application understands.  After the function completes successfully, the <b>HighestShaderModel</b> field contains the highest shader model that is both supported by the device and no higher than the shader model passed in.
+When used with the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">ID3D12Device::CheckFeatureSupport</a> function, before calling the function initialize the <b>HighestShaderModel</b> field to the highest shader model that your  application understands.  After the function completes successfully, the <b>HighestShaderModel</b> field contains the highest shader model that is both supported by the device and no higher than the shader model passed in.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>
-
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>

@@ -83,9 +83,8 @@ The method succeeded.
 
 ## -remarks
 
-Before calling this method, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfbytestreambuffering-setbufferingparams">IMFByteStreamBuffering::SetBufferingParams</a> to set the buffering parameters on the byte stream.
+Before calling this method, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfbytestreambuffering-setbufferingparams">IMFByteStreamBuffering::SetBufferingParams</a> to set the buffering parameters on the byte stream.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfbytestreambuffering">IMFByteStreamBuffering</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreambuffering">IMFByteStreamBuffering</a>

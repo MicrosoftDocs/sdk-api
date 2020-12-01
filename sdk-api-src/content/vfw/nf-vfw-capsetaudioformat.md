@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capSetAudioFormat</b> macro sets the audio format to use when performing streaming or step capture. You can use this macro or explicitly call the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-audioformat">WM_CAP_SET_AUDIOFORMAT</a> message.
+The <b>capSetAudioFormat</b> macro sets the audio format to use when performing streaming or step capture. You can use this macro or explicitly call the <a href="/windows/desktop/Multimedia/wm-cap-set-audioformat">WM_CAP_SET_AUDIOFORMAT</a> message.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Handle to a capture window.
 
 ### -param s
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> or <a href="https://docs.microsoft.com/previous-versions/dd743663(v=vs.85)">PCMWAVEFORMAT</a> structure that defines the audio format.
+Pointer to a <a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> or <a href="/previous-versions/dd743663(v=vs.85)">PCMWAVEFORMAT</a> structure that defines the audio format.
 
 ### -param wSize
 
@@ -68,21 +68,20 @@ Size, in bytes, of the structure referenced by <i>psAudioFormat</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dd743663(v=vs.85)">PCMWAVEFORMAT</a>
+<a href="/previous-versions/dd743663(v=vs.85)">PCMWAVEFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
+<a href="/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-set-audioformat">WM_CAP_SET_AUDIOFORMAT</a>
-
+<a href="/windows/desktop/Multimedia/wm-cap-set-audioformat">WM_CAP_SET_AUDIOFORMAT</a>

@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Reclaims a range of memory pages that were offered to the system with <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-offervirtualmemory">OfferVirtualMemory</a>.
+Reclaims a range of memory pages that were offered to the system with <a href="/windows/desktop/api/memoryapi/nf-memoryapi-offervirtualmemory">OfferVirtualMemory</a>.
 
 If the offered memory has been discarded, the contents of the memory region is undefined and must be rewritten by the application.
       If the offered memory has not been discarded, it is reclaimed intact.
@@ -76,7 +76,7 @@ Returns ERROR_SUCCESS if successful and the memory was reclaimed intact.
 
 Returns ERROR_BUSY if successful but the memory was discarded and must be rewritten by the application.  In this case, the contents of the memory region is undefined.
 
-Returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Code</a> otherwise.
+Returns a <a href="/windows/desktop/Debug/system-error-codes">System Error Code</a> otherwise.
 
 ## -remarks
 
@@ -88,29 +88,28 @@ If the function returns ERROR_SUCCESS, the data in the reclaimed pages is valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-offervirtualmemory">OfferVirtualMemory</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-offervirtualmemory">OfferVirtualMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
+<a href="/windows/desktop/Memory/virtual-memory-functions">Virtual Memory Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualfree">VirtualFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtuallock">VirtualLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualquery">VirtualQuery</a>

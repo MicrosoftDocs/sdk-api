@@ -60,7 +60,7 @@ The ID of the service to be produced.
 
 ### -param ppService [out]
 
- A reference to an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> object for the specified service.
+ A reference to an <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a> object for the specified service.
 
 ## -returns
 
@@ -86,5 +86,4 @@ Method completed successfully.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehostnotify">IWSDDeviceHostNotify</a>
-
+<a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehostnotify">IWSDDeviceHostNotify</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-This method returns the target <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> of this reading information UI.
+This method returns the target <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> of this reading information UI.
 
 ## -parameters
 
 ### -param ppic [out]
 
-[out] A pointer to receive the target <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface of this UI element.
+[out] A pointer to receive the target <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> interface of this UI element.
 
 ## -returns
 
@@ -101,4 +101,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

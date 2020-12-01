@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the chroma subsampling of the input chroma image used by the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/ycbcr-effect">YCbCr effect</a>.
+Specifies the chroma subsampling of the input chroma image used by the <a href="/windows/desktop/Direct2D/ycbcr-effect">YCbCr effect</a>.
 
 ## -enum-fields
 
@@ -81,4 +81,3 @@ The chroma plane is vertically subsampled by 1/2. When this option is selected, 
           output rectangle is the intersection of the two planes.
 
 ### -field D2D1_YCBCR_CHROMA_SUBSAMPLING_FORCE_DWORD
-

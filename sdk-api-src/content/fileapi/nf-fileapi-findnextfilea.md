@@ -60,21 +60,21 @@ api_name:
 ## -description
 
 Continues a file search from a previous call to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>, or 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findfirstfiletransacteda">FindFirstFileTransacted</a> functions.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>, 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>, or 
+    <a href="/windows/desktop/api/winbase/nf-winbase-findfirstfiletransacteda">FindFirstFileTransacted</a> functions.
 
 ## -parameters
 
 ### -param hFindFile [in]
 
 The search handle returned by a previous call to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a> or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> function.
+      <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a> or 
+      <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> function.
 
 ### -param lpFindFileData [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure 
+A pointer to the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> structure 
       that receives information about the found file or subdirectory.
 
 ## -returns
@@ -84,18 +84,18 @@ If the function succeeds, the return value is nonzero and  the <i>lpFindFileData
 
 If the function fails, the return value is zero and the contents of <i>lpFindFileData</i> 
        are indeterminate. To get extended error information, call the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 If the function fails because no more matching files can be found, the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns 
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function returns 
        <b>ERROR_NO_MORE_FILES</b>.
 
 ## -remarks
 
 This function uses the same search filters that were used to create the search handle passed in the 
     <i>hFindFile</i> parameter. For additional information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a> and 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>.
 
 The order in which the search returns the files, such as alphabetical order, is not guaranteed, and is 
     dependent on the file system. If the data  must be sorted, 
@@ -104,7 +104,7 @@ The order in which the search returns the files, such as alphabetical order, is 
 <div class="alert"><b>Note</b>  In rare cases or on a heavily loaded system, file attribute information on NTFS file systems may not be 
     current at the time this function is called. To be assured of getting the current NTFS file system file 
     attributes, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a> function.</div>
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileinformationbyhandle">GetFileInformationByHandle</a> function.</div>
 <div> </div>
 The order in which this function returns the file names is dependent on the file system type. With the NTFS 
     file system and CDFS file systems, the names are usually returned in alphabetical order. With FAT file systems, 
@@ -112,7 +112,7 @@ The order in which this function returns the file names is dependent on the file
     alphabetical order. However, as stated previously, these behaviors are not guaranteed.
 
 If the path points to a symbolic link, the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> buffer contains information about the 
+    <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a> buffer contains information about the 
     symbolic link, not the target.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
@@ -183,7 +183,7 @@ If there is a transaction bound to the file enumeration handle, then the files t
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/listing-the-files-in-a-directory">Listing the Files in a Directory</a>.
+     <a href="/windows/desktop/FileIO/listing-the-files-in-a-directory">Listing the Files in a Directory</a>.
 
 <div class="code"></div>
 
@@ -195,33 +195,32 @@ For an example, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findclose">FindClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfilea">FindFirstFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileattributesa">SetFileAttributes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
+<a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>

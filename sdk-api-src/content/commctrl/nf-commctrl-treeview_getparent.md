@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the parent item of the specified tree-view item. You can use this macro, or you can explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getnextitem">TVM_GETNEXTITEM</a> message with the TVGN_PARENT flag.
+Retrieves the parent item of the specified tree-view item. You can use this macro, or you can explicitly send the <a href="/windows/desktop/Controls/tvm-getnextitem">TVM_GETNEXTITEM</a> message with the TVGN_PARENT flag.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
 
@@ -65,6 +65,12 @@ Handle to the tree-view control.
 Type: <b>HTREEITEM</b>
 
 Handle to an item.
+
+## -returns
+
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+
+The handle to the parent item of this tree-view item, or NULL.
 
 ## -remarks
 
@@ -76,17 +82,16 @@ This macro will return <b>NULL</b> if the parent of the specified item is the ro
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getchild">TreeView_GetChild</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getchild">TreeView_GetChild</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getnextitem">TreeView_GetNextItem</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getnextitem">TreeView_GetNextItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getnextsibling">TreeView_GetNextSibling</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getnextsibling">TreeView_GetNextSibling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-treeview_getprevsibling">TreeView_GetPrevSibling</a>
-
+<a href="/windows/desktop/api/commctrl/nf-commctrl-treeview_getprevsibling">TreeView_GetPrevSibling</a>

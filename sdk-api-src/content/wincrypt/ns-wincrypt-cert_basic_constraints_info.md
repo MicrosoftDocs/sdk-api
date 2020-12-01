@@ -54,17 +54,17 @@ api_name:
 
 ## -description
 
-The <b>CERT_BASIC_CONSTRAINTS_INFO</b> structure contains information that indicates whether the certified subject can act as a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA), an end entity, or both. If the subject can act as a CA, a certification path-length constraint can also be specified, as can a set of subtrees that must contain all subject names of subsequent certificates in a certification chain. This extension is used in validating certificates used to sign other certificates.
+The <b>CERT_BASIC_CONSTRAINTS_INFO</b> structure contains information that indicates whether the certified subject can act as a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA), an end entity, or both. If the subject can act as a CA, a certification path-length constraint can also be specified, as can a set of subtrees that must contain all subject names of subsequent certificates in a certification chain. This extension is used in validating certificates used to sign other certificates.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> function creates an instance of this structure when performed on a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure's <b>Value</b> member with its structure's <b>pszObjId</b> member set to szOID_BASIC_CONSTRAINTS.
+The <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> function creates an instance of this structure when performed on a 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> structure's <b>Value</b> member with its structure's <b>pszObjId</b> member set to szOID_BASIC_CONSTRAINTS.
 
 ## -struct-fields
 
 ### -field SubjectType
 
 A
-						<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a> value can contain one of the following:
+						<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a> value can contain one of the following:
 
 <ul>
 <li>A CERT_CA_SUBJECT_FLAG that, when set, indicates that the certificate's subject can act as a CA.</li>
@@ -87,13 +87,12 @@ The number of elements in the <b>rgSubtreesConstraint</b> array.
 ### -field rgSubtreesConstraint
 
 An array of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structures that establish subtree constraints.
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CERT_NAME_BLOB</a> structures that establish subtree constraints.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>

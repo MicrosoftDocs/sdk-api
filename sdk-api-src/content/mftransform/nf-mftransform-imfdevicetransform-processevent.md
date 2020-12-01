@@ -56,11 +56,11 @@ The <b>ProcessEvent</b> method sends an event to an input stream on this Media F
 
 ### -param dwInputStreamID [in]
 
-Stream identifier. To get the list of stream identifiers, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getstreamids">IMFDeviceTransform::GetStreamIDs</a>.
+Stream identifier. To get the list of stream identifiers, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-getstreamids">IMFDeviceTransform::GetStreamIDs</a>.
 
 ### -param pEvent [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface of an event object.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaevent">IMFMediaEvent</a> interface of an event object.
 
 ## -returns
 
@@ -126,13 +126,12 @@ An MFT can handle sending the event downstream, or it can let the DTM do this, a
 <li><b>S_OK: </b>The MFT has examined this event, but the DTM should send the event downstream. Internally, the MFT might respond to the event in some way, or it might ignore the event. </li>
 <li><b>MF_S_TRANSFORM_DO_NOT_PROPAGATE_EVENT:</b> The DTM should not propagate this event downstream. Either the MFT will send the event downstream, or else the MFT will consume the event and not send it downstream. The MFT should only consume the event if the event should stop at this MFT and not travel any further downstream. But in most cases, the event should travel downstream. </li>
 </ul>
-To send the event downstream, the MFT adds the event to the collection object that is provided by the client in the pEvents member of the <b>MFT_OUTPUT_DATA_BUFFER</b> structure, when the client calls <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-processoutput">IMFTransform::ProcessOutput</a>. 
+To send the event downstream, the MFT adds the event to the collection object that is provided by the client in the pEvents member of the <b>MFT_OUTPUT_DATA_BUFFER</b> structure, when the client calls <a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-processoutput">IMFTransform::ProcessOutput</a>. 
 
-Events must be serialized with the samples that come before and after them. Attach the event to the output sample that follows the event. (The pipeline will process the event first, and then the sample.) If an MFT holds back one or more samples between calls to <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-processinput">IMFTransform::ProcessInput</a> and <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-processoutput">IMFTransform::ProcessOutput</a>, the MFT should handle sending all events downstream, because in this situation the pipeline cannot correlate input samples with output samples.
+Events must be serialized with the samples that come before and after them. Attach the event to the output sample that follows the event. (The pipeline will process the event first, and then the sample.) If an MFT holds back one or more samples between calls to <a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-processinput">IMFTransform::ProcessInput</a> and <a href="/windows/desktop/api/mftransform/nf-mftransform-imfdevicetransform-processoutput">IMFTransform::ProcessOutput</a>, the MFT should handle sending all events downstream, because in this situation the pipeline cannot correlate input samples with output samples.
 
 If an MFT does not hold back samples and does not need to examine any events, it can return <b>E_NOTIMPL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
-
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>

@@ -52,11 +52,11 @@ api_name:
 
 The 
 <b>ITTAPI2</b> interface derives from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a> interface. It adds additional methods on the TAPI object to support phone devices.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a> interface. It adds additional methods on the TAPI object to support phone devices.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTAPI2</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTAPI2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITTAPI2</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITTAPI2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITTAPI2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi2-createemptycollectionobject">CreateEmptyCollectionObject</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi2-createemptycollectionobject">CreateEmptyCollectionObject</a>
 </td>
 <td align="left" width="63%">
 Creates an empty collection object.
@@ -80,7 +80,7 @@ Creates an empty collection object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi2-enumeratephones">EnumeratePhones</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi2-enumeratephones">EnumeratePhones</a>
 </td>
 <td align="left" width="63%">
 Enumerates the phone objects that are available.
@@ -89,7 +89,7 @@ Enumerates the phone objects that are available.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ittapi2-get_phones">get_Phones</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi2-get_phones">get_Phones</a>
 </td>
 <td align="left" width="63%">
 Gets the collection of phone objects that are available.
@@ -100,9 +100,8 @@ Gets the collection of phone objects that are available.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapi">ITTAPI</a>

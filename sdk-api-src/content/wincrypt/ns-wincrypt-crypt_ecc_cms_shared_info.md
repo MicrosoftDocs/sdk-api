@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_ECC_CMS_SHARED_INFO</b> structure represents key-encryption key information when using Elliptic Curve Cryptography (ECC) in the Cryptographic Message Syntax (CMS) EnvelopedData content type. This structure is used in a key-exchange scenario for exchange of keys to encrypt and decrypt content.  A pointer to this structure can be used in the <i>pvStructInfo</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> and is specified by the constant <b>ECC_CMS_SHARED_INFO</b>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/constants-for-cryptencodeobject-and-cryptdecodeobject">Constants for CryptEncodeObject and CryptDecodeObject</a>.
+The <b>CRYPT_ECC_CMS_SHARED_INFO</b> structure represents key-encryption key information when using Elliptic Curve Cryptography (ECC) in the Cryptographic Message Syntax (CMS) EnvelopedData content type. This structure is used in a key-exchange scenario for exchange of keys to encrypt and decrypt content.  A pointer to this structure can be used in the <i>pvStructInfo</i> parameter of <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a> or <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a> and is specified by the constant <b>ECC_CMS_SHARED_INFO</b>. For more information, see <a href="/windows/desktop/SecCrypto/constants-for-cryptencodeobject-and-cryptdecodeobject">Constants for CryptEncodeObject and CryptDecodeObject</a>.
 
 ## -struct-fields
 
 ### -field Algorithm
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the object identifier of the key-encryption algorithm used to wrap the content-encryption key.
+A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that contains the object identifier of the key-encryption algorithm used to wrap the content-encryption key.
 
 ### -field EntityUInfo
 
@@ -68,7 +68,7 @@ An optional member that contains additional user keying material as an octet str
 
 ### -field rgbSuppPubInfo
 
-An array of four bytes that represent the length, in bits, of the key-encryption key. The byte array is in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">little-endian</a> order.
+An array of four bytes that represent the length, in bits, of the key-encryption key. The byte array is in <a href="/windows/desktop/SecGloss/l-gly">little-endian</a> order.
 
 
 The following table contains the definition of the array dimension.
@@ -82,4 +82,3 @@ The following table contains the definition of the array dimension.
 ## -see-also
 
 <a href="https://www.ietf.org/rfc/rfc3278.txt">RFC 3278</a>
-

@@ -139,20 +139,19 @@ Use the illustration to determine the character position returned based on the f
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getacpfrompoint">ITextStoreACP::GetACPFromPoint
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getacpfrompoint">ITextStoreACP::GetACPFromPoint
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontextowner">ITfContextOwner</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontextowner">ITfContextOwner</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontextview-getrangefrompoint">ITfContextView::GetRangeFromPoint
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontextview-getrangefrompoint">ITfContextView::GetRangeFromPoint
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/tsviewcookie">TsViewCookie
+<a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
-

@@ -62,7 +62,7 @@ The size of the <i>pToneCurve</i> structure.
 
 ### -param pToneCurve [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/ns-wincodec-wicrawtonecurve">WICRawToneCurve</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/wincodec/ns-wincodec-wicrawtonecurve">WICRawToneCurve</a>*</b>
 
 The desired tone curve.
 
@@ -71,4 +71,3 @@ The desired tone curve.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

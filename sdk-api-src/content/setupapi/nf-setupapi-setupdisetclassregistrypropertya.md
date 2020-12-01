@@ -69,13 +69,13 @@ A value that identifies the property to be set, which must be one of the followi
 
 #### SPCRP_CHARACTERISTICS
 
-The caller supplies flags  that specify the device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>. Device characteristics should be set when the device class is installed and should not be changed after the device class is installed.
+The caller supplies flags  that specify the device characteristics for the class. For a list of characteristics flags, see the <i>DeviceCharacteristics</i> parameter of <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>. Device characteristics should be set when the device class is installed and should not be changed after the device class is installed.
 
 
 
 #### SPCRP_DEVTYPE
 
-The caller supplies the device type for the class. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>. Device type should be set when a device class is installed and should not be changed after the device class is installed.
+The caller supplies the device type for the class. For more information, see <a href="/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>. Device type should be set when a device class is installed and should not be changed after the device class is installed.
 
 
 
@@ -87,7 +87,7 @@ The caller supplies a DWORD value  that specifies whether users can obtain exclu
 
 #### SPCRP_LOWERFILTERS
 
-(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the lower filter drivers that are installed for the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>. For more information about how to install a class filter driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/installing-a-filter-driver">Installing a Filter Driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 Section</a>. 
+(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the lower filter drivers that are installed for the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">device setup class</a>. For more information about how to install a class filter driver, see <a href="/windows-hardware/drivers/install/installing-a-filter-driver">Installing a Filter Driver</a> and <a href="/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 Section</a>. 
 
 
 
@@ -99,13 +99,13 @@ The caller supplies the device's security descriptor as a SECURITY_DESCRIPTOR st
 
 #### SPCRP_SECURITY_SDS
 
-The caller supplies the device's security descriptor as a text string. For information about security descriptor strings, see <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-definition-language">Security Descriptor Definition Language (Windows)</a>. For information about the format of security descriptor strings, see Security Descriptor Definition Language (Windows).
+The caller supplies the device's security descriptor as a text string. For information about security descriptor strings, see <a href="/windows/desktop/SecAuthZ/security-descriptor-definition-language">Security Descriptor Definition Language (Windows)</a>. For information about the format of security descriptor strings, see Security Descriptor Definition Language (Windows).
 
 
 
 #### SPCRP_UPPERFILTERS
 
-(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the upper filter drivers that are installed for the device setup class. For more information about how to install a class filter driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/installing-a-filter-driver">Installing a Filter Driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 Section</a>.
+(Windows Vista and later) The caller supplies a REG_MULTI_SZ list of the service names of the upper filter drivers that are installed for the device setup class. For more information about how to install a class filter driver, see <a href="/windows-hardware/drivers/install/installing-a-filter-driver">Installing a Filter Driver</a> and <a href="/windows-hardware/drivers/install/inf-classinstall32-section">INF ClassInstall32 Section</a>.
 
 ### -param PropertyBuffer [in, optional]
 
@@ -125,13 +125,13 @@ Reserved, must be <b>NULL</b>.
 
 ## -returns
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The caller of this function must be a member of the Administrators group.
 
-To determine the data type for a device class property, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassregistrypropertya">SetupDiGetClassRegistryProperty</a>.
+To determine the data type for a device class property, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassregistrypropertya">SetupDiGetClassRegistryProperty</a>.
 
 
 
@@ -142,13 +142,12 @@ To determine the data type for a device class property, call <a href="https://do
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassregistrypropertya">SetupDiGetClassRegistryProperty</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassregistrypropertya">SetupDiGetClassRegistryProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceregistrypropertya">SetupDiGetDeviceRegistryProperty</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceregistrypropertya">SetupDiGetDeviceRegistryProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceregistrypropertya">SetupDiSetDeviceRegistryProperty</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceregistrypropertya">SetupDiSetDeviceRegistryProperty</a>

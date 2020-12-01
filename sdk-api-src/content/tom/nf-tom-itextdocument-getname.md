@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the file name of this document. This is the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a> default property.
+Gets the file name of this document. This is the <a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a> default property.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ The file name.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -112,7 +112,7 @@ Insufficient memory for output string.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -120,5 +120,4 @@ Insufficient memory for output string.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

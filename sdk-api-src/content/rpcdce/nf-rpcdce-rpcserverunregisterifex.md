@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>RpcServerUnregisterIfEx</b> function removes an interface from the RPC run-time library registry. This function extends the functionality of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverunregisterif">RpcServerUnregisterIf</a> function.
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverunregisterif">RpcServerUnregisterIf</a> function.
 
 ## -parameters
 
@@ -68,8 +68,8 @@ Specify a null value to remove all interfaces previously registered with the typ
 ### -param MgrTypeUuid [in]
 
 Pointer to the type UUID of the manager entry-point vector (EPV) to remove from the registry. The value of <i>MgrTypeUuid</i> should be the same value as was provided in a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif">RpcServerRegisterIf</a> function, <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif2">RpcServerRegisterIf2</a> function, or the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterifex">RpcServerRegisterIfEx</a> function. 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif">RpcServerRegisterIf</a> function, <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif2">RpcServerRegisterIf2</a> function, or the 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterifex">RpcServerRegisterIfEx</a> function. 
 
 
 
@@ -88,7 +88,7 @@ Returns RPC status.
 <b>RpcServerUnregisterIfEx</b> does not fail unless supplied with invalid values.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -98,37 +98,36 @@ The
 
 The 
 <b>RpcServerUnregisterIfEx</b> function supplies all the functionality provided in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverunregisterif">RpcServerUnregisterIf</a> function. In addition, the 
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverunregisterif">RpcServerUnregisterIf</a> function. In addition, the 
 <b>RpcServerUnregisterIfEx</b> function unregisters all context handles registered by the given interface. The interface must use the <b>strict_context_handle</b> attribute, otherwise the results are undefined.
 
 <b>RpcServerUnregisterIfEx</b> is the only function that provides safe unloading of a DLL with active context handles outside of process shutdown. It is available on Windows XP and later versions of Windows only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-mgr-epv">RPC_MGR_EPV</a>
+<a href="/windows/desktop/Rpc/rpc-mgr-epv">RPC_MGR_EPV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/registering-interfaces">Registering Interfaces</a>
+<a href="/windows/desktop/Rpc/registering-interfaces">Registering Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif">RpcServerRegisterIf</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif">RpcServerRegisterIf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif2">RpcServerRegisterIf2</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterif2">RpcServerRegisterIf2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterifex">RpcServerRegisterIfEx</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterifex">RpcServerRegisterIfEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverunregisterif">RpcServerUnregisterIf</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverunregisterif">RpcServerUnregisterIf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/using-context-handles">Using Context
+<a href="/windows/desktop/Rpc/using-context-handles">Using Context
 		  Handles</a>
-

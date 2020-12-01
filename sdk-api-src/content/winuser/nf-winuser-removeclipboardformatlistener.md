@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
  - RemoveClipboardFormatListener
+req.apiset: ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # RemoveClipboardFormatListener function
@@ -65,21 +66,20 @@ A handle to the window to remove from the clipboard format listener list.
 
 Type: <b>BOOL</b>
 
-Returns <b>TRUE</b> if successful, <b>FALSE</b> otherwise. Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for additional details.
+Returns <b>TRUE</b> if successful, <b>FALSE</b> otherwise. Call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> for additional details.
 
 ## -remarks
 
-When a window has been removed from the clipboard format listener list, it will no longer receive <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-clipboardupdate">WM_CLIPBOARDUPDATE</a> messages.
+When a window has been removed from the clipboard format listener list, it will no longer receive <a href="/windows/desktop/dataxchg/wm-clipboardupdate">WM_CLIPBOARDUPDATE</a> messages.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-addclipboardformatlistener">AddClipboardFormatListener</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-addclipboardformatlistener">AddClipboardFormatListener</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclipboardsequencenumber">GetClipboardSequenceNumber</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclipboardsequencenumber">GetClipboardSequenceNumber</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-clipboardupdate">WM_CLIPBOARDUPDATE</a>
-
+<a href="/windows/desktop/dataxchg/wm-clipboardupdate">WM_CLIPBOARDUPDATE</a>

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>WIA_EXTENDED_TRANSFER_INFO</b> structure specifies extended transfer information for the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetextendedtransferinfo">IWiaDataTransfer::idtGetExtendedTransferInfo</a> method.
+The <b>WIA_EXTENDED_TRANSFER_INFO</b> structure specifies extended transfer information for the <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetextendedtransferinfo">IWiaDataTransfer::idtGetExtendedTransferInfo</a> method.
 
 ## -struct-fields
 
@@ -68,23 +68,22 @@ Size of this structure.
 
 Type: <b>ULONG</b>
 
-Minimum buffer size the application should request in a call to <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetbandeddata">IWiaDataTransfer::idtGetBandedData</a>.
+Minimum buffer size the application should request in a call to <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetbandeddata">IWiaDataTransfer::idtGetBandedData</a>.
 
 ### -field ulOptimalBufferSize
 
 Type: <b>ULONG</b>
 
-Driver-recommended buffer size the application should request in a call to <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetbandeddata">IWiaDataTransfer::idtGetBandedData</a>.
+Driver-recommended buffer size the application should request in a call to <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetbandeddata">IWiaDataTransfer::idtGetBandedData</a>.
 
 ### -field ulMaxBufferSize
 
 Type: <b>ULONG</b>
 
-Driver-recommended maximum buffer size the application could request in a call to <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetbandeddata">IWiaDataTransfer::idtGetBandedData</a>. Going over this limit is not detrimental, however, the driver can simply not use the whole buffer and limit each band of data to this maximum size.
+Driver-recommended maximum buffer size the application could request in a call to <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtgetbandeddata">IWiaDataTransfer::idtGetBandedData</a>. Going over this limit is not detrimental, however, the driver can simply not use the whole buffer and limit each band of data to this maximum size.
 
 ### -field ulNumBuffers
 
 Type: <b>ULONG</b>
 
 This value is not used and should be ignored.
-

@@ -62,7 +62,7 @@ A type description that describes an Application object.
 
 ### -field TYPEFLAG_FCANCREATE
 
-Instances of the type can be created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-createinstance">ITypeInfo::CreateInstance</a>.
+Instances of the type can be created by <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-createinstance">ITypeInfo::CreateInstance</a>.
 
 ### -field TYPEFLAG_FLICENSED
 
@@ -82,7 +82,7 @@ The type is a control from which other types will be derived, and should not be 
 
 ### -field TYPEFLAG_FDUAL
 
-The interface supplies both <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and VTBL binding.
+The interface supplies both <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> and VTBL binding.
 
 ### -field TYPEFLAG_FNONEXTENSIBLE
 
@@ -106,7 +106,7 @@ The type is replaceable.
 
 ### -field TYPEFLAG_FDISPATCHABLE
 
-Indicates that the interface derives from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>, either directly or indirectly. This flag is computed. There is no Object Description Language for the flag.
+Indicates that the interface derives from <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>, either directly or indirectly. This flag is computed. There is no Object Description Language for the flag.
 
 ### -field TYPEFLAG_FREVERSEBIND
 
@@ -120,17 +120,16 @@ Interfaces can be marked with this flag to indicate that they will be using a pr
 
 TYPEFLAG_FAPPOBJECT can be used on type descriptions with TypeKind = TKIND_COCLASS, and indicates that the type description specifies an Application object.
 
-Members of the Application object are globally accessible. The <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-itypecomp-bind">Bind</a> method of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> instance associated with the library binds to the members of an Application object, just as it does for type descriptions that have TypeKind = TKIND_MODULE.
+Members of the Application object are globally accessible. The <a href="/windows/desktop/api/oaidl/nf-oaidl-itypecomp-bind">Bind</a> method of the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a> instance associated with the library binds to the members of an Application object, just as it does for type descriptions that have TypeKind = TKIND_MODULE.
 
 
 
-The type description implicitly defines a global variable with the same name and type described by the type description. This variable is also globally accessible. When <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/nf-oaidl-itypecomp-bind">Bind</a> is passed the name of an Application object, a VARDESC is returned, which describes the implicit variable. The ID of the implicitly created variable is always ID_DEFAULTINST.
+The type description implicitly defines a global variable with the same name and type described by the type description. This variable is also globally accessible. When <a href="/windows/desktop/api/oaidl/nf-oaidl-itypecomp-bind">Bind</a> is passed the name of an Application object, a VARDESC is returned, which describes the implicit variable. The ID of the implicitly created variable is always ID_DEFAULTINST.
 
 
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-createinstance">ITypeInfo::CreateInstance</a> function of an Application object type description is called, and then it uses <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-getactiveobject">GetActiveObject</a> to retrieve the Application object. If <b>GetActiveObject</b> fails because the application is not running, then <b>CreateInstance</b> calls <b>CoCreateInstance</b>, which should start the application.
+The <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-createinstance">ITypeInfo::CreateInstance</a> function of an Application object type description is called, and then it uses <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-getactiveobject">GetActiveObject</a> to retrieve the Application object. If <b>GetActiveObject</b> fails because the application is not running, then <b>CreateInstance</b> calls <b>CoCreateInstance</b>, which should start the application.
 
 
 
-When TYPEFLAG_FCANCREATE is set, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-createinstance">CreateInstance</a> can create an instance of this type. This is true only for component object classes for which a globally unique identifier (GUID) has been specified.
-
+When TYPEFLAG_FCANCREATE is set, <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-createinstance">CreateInstance</a> can create an instance of this type. This is true only for component object classes for which a globally unique identifier (GUID) has been specified.

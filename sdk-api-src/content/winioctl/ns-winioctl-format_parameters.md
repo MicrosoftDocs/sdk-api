@@ -54,14 +54,14 @@ api_name:
 ## -description
 
 Contains information used in formatting a contiguous set of disk tracks. It is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_format_tracks">IOCTL_DISK_FORMAT_TRACKS</a> control code.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_format_tracks">IOCTL_DISK_FORMAT_TRACKS</a> control code.
 
 ## -struct-fields
 
 ### -field MediaType
 
 The media type. For a list of values, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>.
+<a href="/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>.
 
 ### -field StartCylinderNumber
 
@@ -81,9 +81,8 @@ The ending head location.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_format_tracks">IOCTL_DISK_FORMAT_TRACKS</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_format_tracks">IOCTL_DISK_FORMAT_TRACKS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>
-
+<a href="/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>

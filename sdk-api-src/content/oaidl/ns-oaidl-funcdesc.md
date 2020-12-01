@@ -104,7 +104,7 @@ The function return type.
 
 ### -field wFuncFlags
 
-The function flags. See <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ne-oaidl-funcflags">FUNCFLAGS</a>.
+The function flags. See <a href="/windows/desktop/api/oaidl/ne-oaidl-funcflags">FUNCFLAGS</a>.
 
 ## -remarks
 
@@ -134,4 +134,3 @@ Any other number indicates that the last n parameters of the function are varian
 
 </li>
 </ul>
-

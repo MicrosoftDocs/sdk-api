@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Defines the times to run a scheduled <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
+Defines the times to run a scheduled <a href="/windows/desktop/TaskSchd/w">work item</a>.
 
 ## -struct-fields
 
@@ -145,13 +145,13 @@ Task trigger is inactive.
 ### -field TriggerType
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ne-mstask-task_trigger_type">TASK_TRIGGER_TYPE</a> enumerated value that specifies the type of trigger. This member is used with <b>Type</b>. The type of trigger specified here determines which fields of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> specified in <b>Type</b> member will be used. Trigger type is based on when the trigger will run the task.
+<a href="/windows/desktop/api/mstask/ne-mstask-task_trigger_type">TASK_TRIGGER_TYPE</a> enumerated value that specifies the type of trigger. This member is used with <b>Type</b>. The type of trigger specified here determines which fields of the 
+<a href="/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> specified in <b>Type</b> member will be used. Trigger type is based on when the trigger will run the task.
 
 ### -field Type
 
 A 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> structure that specifies details about the trigger. Note that the <b>TriggerType</b> member determines which fields of the TRIGGER_TYPE_UNION union will be used.
+<a href="/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a> structure that specifies details about the trigger. Note that the <b>TriggerType</b> member determines which fields of the TRIGGER_TYPE_UNION union will be used.
 
 ### -field Reserved2
 
@@ -170,25 +170,24 @@ These times may include the start time, end time, duration, and modification fla
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-createtrigger">IScheduledWorkItem::CreateTrigger</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-createtrigger">IScheduledWorkItem::CreateTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itasktrigger-gettrigger">ITaskTrigger::GetTrigger</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-gettrigger">ITaskTrigger::GetTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itasktrigger-settrigger">ITaskTrigger::SetTrigger</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itasktrigger-settrigger">ITaskTrigger::SetTrigger</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ne-mstask-task_trigger_type">TASK_TRIGGER_TYPE</a>
+<a href="/windows/desktop/api/mstask/ne-mstask-task_trigger_type">TASK_TRIGGER_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a>
+<a href="/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/trigger-interfaces">Task Scheduler 2.0 Trigger Interfaces</a>
-
+<a href="/windows/desktop/TaskSchd/trigger-interfaces">Task Scheduler 2.0 Trigger Interfaces</a>

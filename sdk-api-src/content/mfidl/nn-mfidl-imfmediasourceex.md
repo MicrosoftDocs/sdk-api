@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Extends the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> interface to provide additional capabilities for a media source.
+Extends the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a> interface to provide additional capabilities for a media source.
 
-To get a pointer to this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the media source.
+To get a pointer to this interface, call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> on the media source.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSourceEx</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>. <b>IMFMediaSourceEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFMediaSourceEx</b> interface inherits from <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>. <b>IMFMediaSourceEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMFMediaSourceEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getsourceattributes">GetSourceAttributes</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getsourceattributes">GetSourceAttributes</a>
 </td>
 <td align="left" width="63%">
 Gets an attribute store for the media source.
@@ -80,7 +80,7 @@ Gets an attribute store for the media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getstreamattributes">GetStreamAttributes</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-getstreamattributes">GetStreamAttributes</a>
 </td>
 <td align="left" width="63%">
 Gets an attribute store for a stream on the media source.
@@ -89,7 +89,7 @@ Gets an attribute store for a stream on the media source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-setd3dmanager">SetD3DManager</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasourceex-setd3dmanager">SetD3DManager</a>
 </td>
 <td align="left" width="63%">
 Sets a pointer to the DXGI Device Manager on the media source.
@@ -104,9 +104,8 @@ Implementations of this interface can return <b>E_NOTIMPL</b> for any methods th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasource">IMFMediaSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

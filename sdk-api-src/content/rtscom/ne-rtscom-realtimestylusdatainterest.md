@@ -68,27 +68,27 @@ An error has been added to the input queue.
 
 ### -field RTSDI_RealTimeStylusEnabled
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object has been enabled.
+The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object has been enabled.
 
 ### -field RTSDI_RealTimeStylusDisabled
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object has been disabled.
+The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object has been disabled.
 
 ### -field RTSDI_StylusNew
 
-A <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object encounters a new Stylus object.
+A <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object encounters a new Stylus object.
 
 ### -field RTSDI_StylusInRange
 
-The Stylus object is in range of the digitizer. Notifies the implementing plug-in that the stylus is entering the input area of the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object or is entering the detection range of the digitizer above the input area of the <b>RealTimeStylus Class</b> object.
+The Stylus object is in range of the digitizer. Notifies the implementing plug-in that the stylus is entering the input area of the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object or is entering the detection range of the digitizer above the input area of the <b>RealTimeStylus Class</b> object.
 
 ### -field RTSDI_InAirPackets
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object is within range of, but not touching, the digitizer and is moving.
+The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object is within range of, but not touching, the digitizer and is moving.
 
 ### -field RTSDI_StylusOutOfRange
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object is out of range of the digitizer. Informs the implementing plug-in that the stylus is leaving the input area of the <b>RealTimeStylus Class</b> object or is leaving the detection range of the digitizer above the input area of the <b>RealTimeStylus Class</b> object.
+The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object is out of range of the digitizer. Informs the implementing plug-in that the stylus is leaving the input area of the <b>RealTimeStylus Class</b> object or is leaving the detection range of the digitizer above the input area of the <b>RealTimeStylus Class</b> object.
 
 ### -field RTSDI_StylusDown
 
@@ -138,9 +138,9 @@ The plug-in receives the default stylus data.
 
 The <b>RealTimeStylusDataInterest Enumeration</b> values are used in a bitwise combination that defines the set of data notifications. Use the <b>RealTimeStylusDataInterest Enumeration</b> to specify only the events for which you would like to receive notification. Thus, improving performance.
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> notifies plug-ins when it is retrieving packet data by calling into the respective plug-ins in a specified sequence. You control the sequence and types of plug-ins that receive these notifications. The packet data in the events can be modified by the plug-ins the <b>RealTimeStylus Class</b> object calls into.
+The <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> notifies plug-ins when it is retrieving packet data by calling into the respective plug-ins in a specified sequence. You control the sequence and types of plug-ins that receive these notifications. The packet data in the events can be modified by the plug-ins the <b>RealTimeStylus Class</b> object calls into.
 
-You can control which methods are called on your plug-in by implementing the <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>:: <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-datainterest">IStylusPlugin::DataInterest Method</a> method.
+You can control which methods are called on your plug-in by implementing the <a href="/windows/desktop/api/rtscom/nn-rtscom-istylusplugin">IStylusPlugin Interface</a>:: <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-datainterest">IStylusPlugin::DataInterest Method</a> method.
 
 The following events are the default events:
 
@@ -156,13 +156,12 @@ The following events are the default events:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
-
+<a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>

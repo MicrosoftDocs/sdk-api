@@ -93,5 +93,4 @@ The <i>pfRunning</i> parameter was <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanelruninfo">ITextInputPanelRunInfo Interface</a>
-
+<a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanelruninfo">ITextInputPanelRunInfo Interface</a>

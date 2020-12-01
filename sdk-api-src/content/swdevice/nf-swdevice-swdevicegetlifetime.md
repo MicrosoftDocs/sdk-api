@@ -92,5 +92,4 @@ Indicates that the lifetime of the software device is tied to the lifetime of it
 
 ## -returns
 
-S_OK is returned if <a href="https://docs.microsoft.com/windows/desktop/api/swdevice/nf-swdevice-swdevicesetlifetime">SwDeviceSetLifetime</a> successfully retrieved the lifetime.
-
+S_OK is returned if <a href="/windows/desktop/api/swdevice/nf-swdevice-swdevicesetlifetime">SwDeviceSetLifetime</a> successfully retrieved the lifetime.

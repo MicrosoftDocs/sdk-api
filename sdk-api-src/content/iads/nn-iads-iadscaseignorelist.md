@@ -54,9 +54,8 @@ The <b>IADsCaseIgnoreList</b> interface provides methods for an ADSI client to a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscaseignorelist-property-methods">IADsCaseIgnoreList Property Methods</a>
+<a href="/windows/desktop/ADSI/iadscaseignorelist-property-methods">IADsCaseIgnoreList Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

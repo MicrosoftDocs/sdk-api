@@ -46,6 +46,7 @@ api_location:
  - windows.storage.dll
 api_name:
  - SHCreateStdEnumFmtEtc
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SHCreateStdEnumFmtEtc function
@@ -55,7 +56,7 @@ api_name:
 
 <p class="CCE_Message">[<b>SHCreateStdEnumFmtEtc</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> object from an array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structures.
+Creates an <a href="/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> object from an array of <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structures.
 
 ## -parameters
 
@@ -67,19 +68,18 @@ The number of entries in the <i>afmt</i> array.
 
 ### -param afmt
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>[]</b>
+Type: <b>const <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a>[]</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structures that specifies the clipboard formats of interest.
+An array of <a href="/windows/desktop/api/objidl/ns-objidl-formatetc">FORMATETC</a> structures that specifies the clipboard formats of interest.
 
 ### -param ppenumFormatEtc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a>**</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a>**</b>
 
-When this function returns successfully, receives an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> interface pointer. Receives <b>NULL</b> on failure.
+When this function returns successfully, receives an <a href="/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a> interface pointer. Receives <b>NULL</b> on failure.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

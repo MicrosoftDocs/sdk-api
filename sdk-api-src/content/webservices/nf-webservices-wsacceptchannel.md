@@ -50,27 +50,27 @@ api_name:
 
 ## -description
 
-Accepts the next incoming message from the specified <a href="https://docs.microsoft.com/windows/desktop/wsw/listener">listener</a>.
+Accepts the next incoming message from the specified <a href="/windows/desktop/wsw/listener">listener</a>.
 
 ## -parameters
 
 ### -param listener [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-listener">WS_LISTENER</a> structure representing the listener.
-                This is the listener passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>when the channel was created.
+Pointer to a <a href="/windows/desktop/wsw/ws-listener">WS_LISTENER</a> structure representing the listener.
+                This is the listener passed to <a href="/windows/desktop/api/webservices/nf-webservices-wscreatechannelforlistener">WsCreateChannelForListener</a>when the channel was created.
 
 ### -param channel [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> structure representing the channel to accept.
+Pointer to a <a href="/windows/desktop/wsw/ws-channel">WS_CHANNEL</a> structure representing the channel to accept.
 
 ### -param asyncContext [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> data structure with information for invoking the function asynchronously.  Pass a <b>NULL</b> 
+Pointer to a <a href="/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> data structure with information for invoking the function asynchronously.  Pass a <b>NULL</b> 
                  value for a synchronous operation.
 
 ### -param error [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
+Pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> structure  that receives additional error information if the function fails.
 
 ## -returns
 
@@ -239,13 +239,12 @@ This function may return other errors not listed above.
 ## -remarks
 
 Once you accept a channel, you must close it  when you no longer need it and free the resources by calling the  
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a> function, and then calling either the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsfreechannel">WsFreeChannel</a> or the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsresetchannel">WsResetChannel</a>.
+                <a href="/windows/desktop/api/webservices/nf-webservices-wsclosechannel">WsCloseChannel</a> function, and then calling either the <a href="/windows/desktop/api/webservices/nf-webservices-wsfreechannel">WsFreeChannel</a> or the <a href="/windows/desktop/api/webservices/nf-webservices-wsresetchannel">WsResetChannel</a>.
             function. 
 
-For <b>WsAcceptChannel</b> to succeed, the listener must be in WS_LISTENER_STATE_OPEN state, and the channel must be in WS_CHANNEL_STATE_CREATED state. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_listener_state">WS_LISTENER_STATE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE</a> enumerations.
+For <b>WsAcceptChannel</b> to succeed, the listener must be in WS_LISTENER_STATE_OPEN state, and the channel must be in WS_CHANNEL_STATE_CREATED state. For more information, see the <a href="/windows/desktop/api/webservices/ne-webservices-ws_listener_state">WS_LISTENER_STATE</a> and <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE</a> enumerations.
 
 If a listener is in the <b>WS_LISTENER_STATE_FAULTED</b> state,  
                 <b>WsAcceptChannel</b> immediately returns the <b>WS_E_OBJECT_FAULTED</b> error code. If an
                 application is calling <b>WsAcceptChannel</b> in a loop, the application must check for this
                 error, so it can end the loop.
-

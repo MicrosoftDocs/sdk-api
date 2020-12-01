@@ -55,7 +55,7 @@ This shader-reflection interface provides access to variable type.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10ShaderReflectionType</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10ShaderReflectionType</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10ShaderReflectionType</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D10ShaderReflectionType</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D10ShaderReflectionType</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectiontype-getdesc">GetDesc</a>
+<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectiontype-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get the description of a shader-reflection-variable type.
@@ -79,7 +79,7 @@ Get the description of a shader-reflection-variable type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectiontype-getmembertypebyindex">GetMemberTypeByIndex</a>
+<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectiontype-getmembertypebyindex">GetMemberTypeByIndex</a>
 </td>
 <td align="left" width="63%">
 Get a shader-reflection-variable type by index.
@@ -88,7 +88,7 @@ Get a shader-reflection-variable type by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectiontype-getmembertypebyname">GetMemberTypeByName</a>
+<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectiontype-getmembertypebyname">GetMemberTypeByName</a>
 </td>
 <td align="left" width="63%">
 Get a shader-reflection-variable type by name.
@@ -97,7 +97,7 @@ Get a shader-reflection-variable type by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectiontype-getmembertypename">GetMemberTypeName</a>
+<a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectiontype-getmembertypename">GetMemberTypeName</a>
 </td>
 <td align="left" width="63%">
 Get a shader-reflection-variable type.
@@ -108,9 +108,8 @@ Get a shader-reflection-variable type.
 
 ## -remarks
 
-The get a shader-reflection-type interface, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectionvariable-gettype">ID3D10ShaderReflectionVariable::GetType</a>.
+The get a shader-reflection-type interface, call <a href="/windows/desktop/api/d3d10shader/nf-d3d10shader-id3d10shaderreflectionvariable-gettype">ID3D10ShaderReflectionVariable::GetType</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-interfaces">Shader Interfaces</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-interfaces">Shader Interfaces</a>

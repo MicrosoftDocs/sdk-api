@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Represents a buffer of spatial audio metadata items. Metadata commands and values can be written to, read from, and copied between ISpatialAudioMetadataItems using the <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatawriter">ISpatialAudioMetadataWriter</a>, <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatareader">ISpatialAudioMetadataReader</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatacopier">ISpatialAudioMetadataCopier</a> interfaces. Use caller-allocated memory to store metadata items by creating an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitemsbuffer">ISpatialAudioMetadataItemsBuffer</a>.
+Represents a buffer of spatial audio metadata items. Metadata commands and values can be written to, read from, and copied between ISpatialAudioMetadataItems using the <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatawriter">ISpatialAudioMetadataWriter</a>, <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatareader">ISpatialAudioMetadataReader</a>, and <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatacopier">ISpatialAudioMetadataCopier</a> interfaces. Use caller-allocated memory to store metadata items by creating an <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataitemsbuffer">ISpatialAudioMetadataItemsBuffer</a>.
 
 This interface is a part of  Windows Sonic, Microsoft’s audio platform for more immersive audio which includes integrated spatial sound on Xbox and Windows.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioMetadataItems</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpatialAudioMetadataItems</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioMetadataItems</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISpatialAudioMetadataItems</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ISpatialAudioMetadataItems</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getframecount">GetFrameCount</a>
+<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getframecount">GetFrameCount</a>
 </td>
 <td align="left" width="63%">
 Gets the total frame count of the <b>ISpatialAudioMetadataItems</b>, which defines valid item offsets.
@@ -80,7 +80,7 @@ Gets the total frame count of the <b>ISpatialAudioMetadataItems</b>, which defin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getinfo">GetInfo</a>
+<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 Gets the total frame count for the <b>ISpatialAudioMetadataItems</b>, which defines valid item offsets.
@@ -89,7 +89,7 @@ Gets the total frame count for the <b>ISpatialAudioMetadataItems</b>, which defi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getitemcount">GetItemCount</a>
+<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getitemcount">GetItemCount</a>
 </td>
 <td align="left" width="63%">
 The current number of items stored by the <b>ISpatialAudioMetadataItems</b>.
@@ -98,7 +98,7 @@ The current number of items stored by the <b>ISpatialAudioMetadataItems</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getmaxitemcount">GetMaxItemCount</a>
+<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getmaxitemcount">GetMaxItemCount</a>
 </td>
 <td align="left" width="63%">
 The maximum number of items allowed by the <b>ISpatialAudioMetadataItems</b>, defined when the object is created.
@@ -107,7 +107,7 @@ The maximum number of items allowed by the <b>ISpatialAudioMetadataItems</b>, de
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getmaxvaluebufferlength">GetMaxValueBufferLength</a>
+<a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataitems-getmaxvaluebufferlength">GetMaxValueBufferLength</a>
 </td>
 <td align="left" width="63%">
 The size of the largest command value defined by the metadata format for the <b>ISpatialAudioMetadataItems</b>.
@@ -118,5 +118,4 @@ The size of the largest command value defined by the metadata format for the <b>
 
 ## -remarks
 
-Get an instance of this interface by calling <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-activatespatialaudiometadataitems">ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems</a>.
-
+Get an instance of this interface by calling <a href="/windows/desktop/api/spatialaudiometadata/nf-spatialaudiometadata-ispatialaudiometadataclient-activatespatialaudiometadataitems">ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems</a>.

@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-Specifies the type of decay applied over distance from the position of an <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> to the position of the listener.
+Specifies the type of decay applied over distance from the position of an <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a> to the position of the listener.
 
 ## -enum-fields
 
 ### -field SpatialAudioHrtfDistanceDecay_NaturalDecay
 
-A natural decay  over distance, as constrained by minimum and maximum gain distance limits. The output drops to silent at the distance specified by <a href="https://docs.microsoft.com/windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdistancedecay">SpatialAudioHrtfDistanceDecay.CutoffDistance</a>.
+A natural decay  over distance, as constrained by minimum and maximum gain distance limits. The output drops to silent at the distance specified by <a href="/windows/desktop/api/spatialaudiohrtf/ns-spatialaudiohrtf-spatialaudiohrtfdistancedecay">SpatialAudioHrtfDistanceDecay.CutoffDistance</a>.
 
 ### -field SpatialAudioHrtfDistanceDecay_CustomDecay
 
 A custom gain curve, within the maximum and minimum gain limit.
-

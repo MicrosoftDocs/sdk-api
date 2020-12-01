@@ -55,33 +55,32 @@ The
 <b>GetCurrentLevel</b> method returns the current application level.
 
 <b>GetCurrentLevel</b> is a protected method implemented by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
 
 ## -parameters
 
 ## -returns
 
 This method returns a writer's current application level as a 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_application_level">VSS_APPLICATION_LEVEL</a> enumeration value. See 
+<a href="/windows/desktop/api/vss/ne-vss-vss_application_level">VSS_APPLICATION_LEVEL</a> enumeration value. See 
 <b>VSS_APPLICATION_LEVEL</b> for a description of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparesnapshot">CVssWriter::OnPrepareSnapshot</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparesnapshot">CVssWriter::OnPrepareSnapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onthaw">CVssWriter::OnThaw</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onthaw">CVssWriter::OnThaw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_application_level">VSS_APPLICATION_LEVEL</a>
-
+<a href="/windows/desktop/api/vss/ne-vss-vss_application_level">VSS_APPLICATION_LEVEL</a>

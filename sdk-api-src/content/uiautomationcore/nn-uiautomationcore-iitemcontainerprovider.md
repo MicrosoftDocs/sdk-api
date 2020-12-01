@@ -54,7 +54,7 @@ Provides access to controls that act as containers of other controls, such as a 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IItemContainerProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IItemContainerProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IItemContainerProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IItemContainerProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IItemContainerProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iitemcontainerprovider-finditembyproperty">FindItemByProperty</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iitemcontainerprovider-finditembyproperty">FindItemByProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves an element within a containing element, based on a specified property value.
@@ -80,12 +80,11 @@ Retrieves an element within a containing element, based on a specified property 
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingitemcontainer">ItemContainer</a> control pattern allows a container object to efficiently lookup an item by a 
+The <a href="/windows/desktop/WinAuto/uiauto-implementingitemcontainer">ItemContainer</a> control pattern allows a container object to efficiently lookup an item by a 
 		specified automation element property, such as Name, AutomationId, or IsSelected state. While this control 
 		pattern is introduced with a view to being used by virtualized containers, it can be implemented by any container 
 		that provides name lookup, independently of whether that container uses virtualization.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

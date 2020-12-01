@@ -56,11 +56,11 @@ The <b>IDsAdminNotifyHandler::Notify</b> method is called  for each object after
 
 ### -param nItem [in]
 
-Contains the index of the item in the <b>aObjects</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsobjectnames">DSOBJECTNAMES</a> structure supplied in the <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-begin">IDsAdminNotifyHandler::Begin</a> method.
+Contains the index of the item in the <b>aObjects</b> member of the <a href="/windows/desktop/api/dsclient/ns-dsclient-dsobjectnames">DSOBJECTNAMES</a> structure supplied in the <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-begin">IDsAdminNotifyHandler::Begin</a> method.
 
 ### -param uFlags [in]
 
-Contains the flags supplied by the notification handler in the <a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-begin">IDsAdminNotifyHandler::Begin</a> method.
+Contains the flags supplied by the notification handler in the <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-begin">IDsAdminNotifyHandler::Begin</a> method.
 
 ## -returns
 
@@ -68,13 +68,12 @@ The return value from this method is ignored.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/ns-dsclient-dsobjectnames">DSOBJECTNAMES</a>
+<a href="/windows/desktop/api/dsclient/ns-dsclient-dsobjectnames">DSOBJECTNAMES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnotifyhandler">IDsAdminNotifyHandler</a>
+<a href="/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnotifyhandler">IDsAdminNotifyHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-begin">IDsAdminNotifyHandler::Begin</a>
-
+<a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-begin">IDsAdminNotifyHandler::Begin</a>

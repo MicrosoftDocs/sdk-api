@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Resets items in a tab control, clearing any that were set to the <a href="https://docs.microsoft.com/windows/desktop/Controls/tab-control-item-states">TCIS_BUTTONPRESSED</a> state. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-deselectall">TCM_DESELECTALL</a> message explicitly.
+Resets items in a tab control, clearing any that were set to the <a href="/windows/desktop/Controls/tab-control-item-states">TCIS_BUTTONPRESSED</a> state. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-deselectall">TCM_DESELECTALL</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
 
 ### -param fExcludeFocus
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Flag value that specifies the scope of the item deselection. If this parameter is set to <b>FALSE</b>, all tab items will be reset. If it is set to <b>TRUE</b>, all but the currently selected tab item will be reset.
 
 ## -remarks
 
-This message is only meaningful if the <a href="https://docs.microsoft.com/windows/desktop/Controls/tab-control-styles">TCS_BUTTONS</a> style flag has been set.
-
+This message is only meaningful if the <a href="/windows/desktop/Controls/tab-control-styles">TCS_BUTTONS</a> style flag has been set.

@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Used to specify and set applet configuration in <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a>.
+Used to specify and set applet configuration in <a href="/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a>.
 
 ## -struct-fields
 
@@ -80,7 +80,7 @@ Combination of <b>IPACFG_*</b> flags.
 </dl>
 </td>
 <td width="60%">
-The applet has a property Dialog. If this flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> calls <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">IImePadApplet::Notify</a> with <b>IMEPN_CFG</b>.
+The applet has a property Dialog. If this flag is set, <a href="/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> calls <a href="/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">IImePadApplet::Notify</a> with <b>IMEPN_CFG</b>.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ The applet has a property Dialog. If this flag is set, <a href="https://docs.mic
 </dl>
 </td>
 <td width="60%">
-The applet has help. If this flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> calls <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">IImePadApplet::Notify</a> with <b>IMEPN_HELP</b>.
+The applet has help. If this flag is set, <a href="/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> calls <a href="/windows/desktop/api/imepad/nf-imepad-iimepadapplet-notify">IImePadApplet::Notify</a> with <b>IMEPN_HELP</b>.
 
 </td>
 </tr>
@@ -170,5 +170,4 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh851787(v=vs.85)">IImePadApplet::GetAppletCfg</a>
-
+<a href="/previous-versions/windows/desktop/legacy/hh851787(v=vs.85)">IImePadApplet::GetAppletCfg</a>

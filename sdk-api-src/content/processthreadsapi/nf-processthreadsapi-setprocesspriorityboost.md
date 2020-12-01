@@ -62,7 +62,7 @@ Disables or enables the ability of the system to temporarily boost the priority 
 ### -param hProcess [in]
 
 A handle to the process. This handle must have the PROCESS_SET_INFORMATION access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+<a href="/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
 ### -param bDisablePriorityBoost [in]
 
@@ -73,7 +73,7 @@ If this parameter is TRUE, dynamic boosting is disabled. If the parameter is FAL
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -83,21 +83,20 @@ When a thread is running in one of the dynamic priority classes, the system temp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesspriorityboost">GetProcessPriorityBoost</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocesspriorityboost">GetProcessPriorityBoost</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/priority-boosts">Priority Boosts</a>
+<a href="/windows/desktop/ProcThread/priority-boosts">Priority Boosts</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/child-processes">Processes</a>
+<a href="/windows/desktop/ProcThread/child-processes">Processes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/scheduling-priorities">Scheduling Priorities</a>
-
+<a href="/windows/desktop/ProcThread/scheduling-priorities">Scheduling Priorities</a>

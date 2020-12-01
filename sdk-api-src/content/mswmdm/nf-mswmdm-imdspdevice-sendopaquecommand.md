@@ -57,7 +57,7 @@ The <b>SendOpaqueCommand</b> method sends a command through Windows Media Device
 
 ### -param pCommand [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/WMDM/opaquecommand">OPAQUECOMMAND</a> structure containing the information required to execute the command.
+Pointer to an <a href="/windows/desktop/WMDM/opaquecommand">OPAQUECOMMAND</a> structure containing the information required to execute the command.
 
 ## -returns
 
@@ -68,15 +68,14 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 <li>Windows error codes converted to HRESULT values </li>
 <li>Windows Media Device Manager error codes </li>
 </ul>
-For an extensive list of possible error codes, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/error-codes">Error Codes</a>.
+For an extensive list of possible error codes, see <a href="/windows/desktop/WMDM/error-codes">Error Codes</a>.
 
 ## -remarks
 
-This method is used with device commands that do not affect Windows Media Device Manager, and are passed through unchanged. A more efficient way to call commands on a device is to call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice3-deviceiocontrol">IMDSPDevice3::DeviceIoControl</a>.
+This method is used with device commands that do not affect Windows Media Device Manager, and are passed through unchanged. A more efficient way to call commands on a device is to call <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice3-deviceiocontrol">IMDSPDevice3::DeviceIoControl</a>.
 
-This method is optional. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
+This method is optional. For more information, see <a href="/windows/desktop/WMDM/mandatory-and-optional-interfaces">Mandatory and Optional Interfaces</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice Interface</a>
-
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice">IMDSPDevice Interface</a>

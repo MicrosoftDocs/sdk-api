@@ -56,7 +56,7 @@ The <b>get_EnumTuningSpaces</b> method retrieves a collection of all tuning spac
 
 ### -param ppEnum [out]
 
-Pointer to a variable that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumtuningspaces">IEnumTuningSpaces</a> interface pointer. Use this interface to enumerate the collection. The caller must release the interface.
+Pointer to a variable that receives an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumtuningspaces">IEnumTuningSpaces</a> interface pointer. Use this interface to enumerate the collection. The caller must release the interface.
 
 ## -returns
 
@@ -68,5 +68,4 @@ C++ applications use this method to get the initial list of tuning spaces define
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>

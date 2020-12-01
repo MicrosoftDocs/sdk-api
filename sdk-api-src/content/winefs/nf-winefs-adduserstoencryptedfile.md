@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
 api_name:
  - AddUsersToEncryptedFile
+req.apiset: ext-ms-win-advapi32-encryptedfile-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # AddUsersToEncryptedFile function
@@ -62,14 +63,14 @@ The name of the encrypted file.
 ### -param pEncryptionCertificates [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate_list">ENCRYPTION_CERTIFICATE_LIST</a> structure that contains the list of new user keys to be added to the file.
+<a href="/windows/desktop/api/winefs/ns-winefs-encryption_certificate_list">ENCRYPTION_CERTIFICATE_LIST</a> structure that contains the list of new user keys to be added to the file.
 
 ## -returns
 
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is a system error code. For a complete list of error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
+<a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a> or the header file WinError.h.
 
 ## -remarks
 
@@ -138,19 +139,18 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 #### Examples
 
-For example code that uses this function, see <a href="https://docs.microsoft.com/windows/desktop/FileIO/adding-users-to-an-encrypted-file">Adding Users to an Encrypted File</a>.
+For example code that uses this function, see <a href="/windows/desktop/FileIO/adding-users-to-an-encrypted-file">Adding Users to an Encrypted File</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate_list">ENCRYPTION_CERTIFICATE_LIST</a>
+<a href="/windows/desktop/api/winefs/ns-winefs-encryption_certificate_list">ENCRYPTION_CERTIFICATE_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
-
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>

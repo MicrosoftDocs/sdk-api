@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Simulates the selection of a property sheet button. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-pressbutton">PSM_PRESSBUTTON</a> message explicitly.
+Simulates the selection of a property sheet button. You can use this macro or send the <a href="/windows/desktop/Controls/psm-pressbutton">PSM_PRESSBUTTON</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
@@ -142,4 +142,3 @@ Selects the OK button.
 </td>
 </tr>
 </table>
-

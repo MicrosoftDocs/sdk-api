@@ -52,24 +52,23 @@ api_name:
 
 The 
 <b>DispatchGraphEvent</b> method is a static method posted to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> function during initialization. This function is called when the filter graph signals the event. The <i>pContext</i> parameter is a pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733448(v=vs.85)">MSPSTREAMCONTEXT</a> structure. The pointers in the structure carry ref counts. The implementation of this method simply casts the <i>pContext</i> argument to type MSPSTREAMCONTEXT *, and then calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallmultigraph-handlegraphevent">HandleGraphEvent</a> on the MSP call object whose pointer appears in the structure.
+<a href="/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a> function during initialization. This function is called when the filter graph signals the event. The <i>pContext</i> parameter is a pointer to the 
+<a href="/previous-versions/windows/desktop/legacy/ms733448(v=vs.85)">MSPSTREAMCONTEXT</a> structure. The pointers in the structure carry ref counts. The implementation of this method simply casts the <i>pContext</i> argument to type MSPSTREAMCONTEXT *, and then calls 
+<a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallmultigraph-handlegraphevent">HandleGraphEvent</a> on the MSP call object whose pointer appears in the structure.
 
 ## -parameters
 
 ### -param pContext
 
 Contains pointer to 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms733448(v=vs.85)">MSPSTREAMCONTEXT</a> structure.
+<a href="/previous-versions/windows/desktop/legacy/ms733448(v=vs.85)">MSPSTREAMCONTEXT</a> structure.
 
 ### -param bFlag
 
 Not used. Required for 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a>. Set <b>TRUE</b> if wait times out, but time-out in 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nf-mspcall-cmspcallmultigraph-registerwaitevent">CMSPCallMultiGraph::RegisterWaitEvent</a> is set to INFINITE.
+<a href="/windows/desktop/api/winbase/nf-winbase-registerwaitforsingleobject">RegisterWaitForSingleObject</a>. Set <b>TRUE</b> if wait times out, but time-out in 
+<a href="/windows/desktop/api/mspcall/nf-mspcall-cmspcallmultigraph-registerwaitevent">CMSPCallMultiGraph::RegisterWaitEvent</a> is set to INFINITE.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>
-
+<a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>

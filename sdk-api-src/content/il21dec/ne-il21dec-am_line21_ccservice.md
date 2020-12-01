@@ -92,13 +92,12 @@ The Line 21 decoder supports CC1 and CC2 only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getcurrentservice">IAMLine21Decoder::GetCurrentService</a>
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getcurrentservice">IAMLine21Decoder::GetCurrentService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setcurrentservice">IAMLine21Decoder::SetCurrentService</a>
-
+<a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setcurrentservice">IAMLine21Decoder::SetCurrentService</a>

@@ -89,7 +89,7 @@ Basic authentication is to be used.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-ntlm">Microsoft NTLM</a> authentication is to be used.
+<a href="/windows/desktop/SecAuthN/microsoft-ntlm">Microsoft NTLM</a> authentication is to be used.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Basic authentication is to be used.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/WinHttp/passport-authentication-in-winhttp">Passport authentication</a> is to be used.
+<a href="/windows/desktop/WinHttp/passport-authentication-in-winhttp">Passport authentication</a> is to be used.
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ Basic authentication is to be used.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-digest-authentication">Microsoft Digest authentication</a> is to be used.
+<a href="/windows/desktop/SecAuthN/microsoft-digest-authentication">Microsoft Digest authentication</a> is to be used.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Basic authentication is to be used.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a> is to be used.
+<a href="/windows/desktop/SecAuthN/microsoft-negotiate">Microsoft Negotiate</a> is to be used.
 
 </td>
 </tr>
@@ -155,51 +155,50 @@ Forms-based authentication is to be used.
 
 ### -param dwFlags [in]
 
-The flags that the WebDAV service passed in the <i>dwFlags</i> parameter when it called the <a href="https://docs.microsoft.com/windows/desktop/api/npapi/nf-npapi-npaddconnection3">NPAddConnection3</a> function.
+The flags that the WebDAV service passed in the <i>dwFlags</i> parameter when it called the <a href="/windows/desktop/api/npapi/nf-npapi-npaddconnection3">NPAddConnection3</a> function.
 
 ### -param pCallbackCred [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_cred">DAV_CALLBACK_CRED</a> structure.
+A pointer to a <a href="/windows/desktop/api/davclnt/ns-davclnt-dav_callback_cred">DAV_CALLBACK_CRED</a> structure.
 
 ### -param NextStep [in, out]
 
-A pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ne-davclnt-authnextstep">AUTHNEXTSTEP</a> enumeration value that specifies the next action that the WebDAV client should take after  a successful call to the <i>DavAuthCallback</i> callback function.
+A pointer to an  <a href="/windows/desktop/api/davclnt/ne-davclnt-authnextstep">AUTHNEXTSTEP</a> enumeration value that specifies the next action that the WebDAV client should take after  a successful call to the <i>DavAuthCallback</i> callback function.
 
 ### -param pFreeCred [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a> callback function.
+A pointer to a <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a> callback function.
 
 ## -returns
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
-If the function fails, the return value is a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+If the function fails, the return value is a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
-The <i>DavAuthCallback</i> callback function must be registered by calling the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davregisterauthcallback">DavRegisterAuthCallback</a> function.
+The <i>DavAuthCallback</i> callback function must be registered by calling the <a href="/windows/desktop/api/davclnt/nf-davclnt-davregisterauthcallback">DavRegisterAuthCallback</a> function.
 
-To unregister this callback function, use the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davunregisterauthcallback">DavUnregisterAuthCallback</a> function.
+To unregister this callback function, use the <a href="/windows/desktop/api/davclnt/nf-davclnt-davunregisterauthcallback">DavUnregisterAuthCallback</a> function.
 
-This callback function should prompt the user for credentials (either a <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">user name and password</a> or an <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_blob">authentication BLOB</a>) and store this information in the appropriate member of the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_cred">DAV_CALLBACK_CRED</a> structure that the <i>pCallbackCred</i> parameter points to.
+This callback function should prompt the user for credentials (either a <a href="/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">user name and password</a> or an <a href="/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_blob">authentication BLOB</a>) and store this information in the appropriate member of the <a href="/windows/desktop/api/davclnt/ns-davclnt-dav_callback_cred">DAV_CALLBACK_CRED</a> structure that the <i>pCallbackCred</i> parameter points to.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa">CredUIPromptForCredentials</a>
+<a href="/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa">CredUIPromptForCredentials</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa">CredUIPromptForWindowsCredentials</a>
+<a href="/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa">CredUIPromptForWindowsCredentials</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a>
+<a href="/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_blob">DAV_CALLBACK_AUTH_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a>
+<a href="/windows/desktop/api/davclnt/ns-davclnt-dav_callback_auth_unp">DAV_CALLBACK_AUTH_UNP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a>
-
+<a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a>

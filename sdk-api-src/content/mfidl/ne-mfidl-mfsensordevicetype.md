@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Specifies the type of a sensor device. A value from this enumeration is returned by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getdevicetype">IMFSensorDevice::GetDeviceType</a>.
+Specifies the type of a sensor device. A value from this enumeration is returned by <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensordevice-getdevicetype">IMFSensorDevice::GetDeviceType</a>.
 
 ## -enum-fields
 
@@ -62,7 +62,7 @@ The sensor device type is unknown.
 
 ### -field MFSensorDeviceType_Device
 
-The sensor device is a physical device. Physical cameras may register as <a href="https://docs.microsoft.com/previous-versions/ff548567(v=vs.85)">KSCATEGORY_SENSOR_CAMERA</a> or <a href="https://docs.microsoft.com/previous-versions/ff548567(v=vs.85)">KSCATEGORY_VIDEO_CAMERA</a>  or both.
+The sensor device is a physical device. Physical cameras may register as <a href="/previous-versions/ff548567(v=vs.85)">KSCATEGORY_SENSOR_CAMERA</a> or <a href="/previous-versions/ff548567(v=vs.85)">KSCATEGORY_VIDEO_CAMERA</a>  or both.
 
 ### -field MFSensorDeviceType_MediaSource
 
@@ -73,4 +73,3 @@ The sensor device is a custom media source.
 The sensor device is a legacy frame provider.
 
 ### -field MFSensorDeviceType_SensorTransform
-

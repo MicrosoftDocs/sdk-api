@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Adds a string to a list box at the specified location. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-insertstring">LB_INSERTSTRING</a> message explicitly.
+Adds a string to a list box at the specified location. You can use this macro or send the <a href="/windows/desktop/Controls/lb-insertstring">LB_INSERTSTRING</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -68,11 +68,10 @@ The zero-based index at which to insert the string, or –1 to add it to the end
 
 ### -param lpsz
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCSTR</a></b>
 
 The string to add.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/lb-insertstring">LB_INSERTSTRING</a>.
-
+For more information, see <a href="/windows/desktop/Controls/lb-insertstring">LB_INSERTSTRING</a>.

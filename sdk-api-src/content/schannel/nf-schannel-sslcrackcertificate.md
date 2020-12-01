@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <b>SslCrackCertificate</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a> function.]
+<p class="CCE_Message">[The <b>SslCrackCertificate</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatecontext">CertCreateCertificateContext</a> function.]
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure with the information contained in the specified certificate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/b-gly">BLOB</a>.
+Returns an <a href="/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure with the information contained in the specified certificate <a href="/windows/desktop/SecGloss/b-gly">BLOB</a>.
 
-This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Schannel.dll.
+This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Schannel.dll.
 
 ## -parameters
 
 ### -param pbCertificate [in]
 
-The certificate BLOB from which to create the new <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure.
+The certificate BLOB from which to create the new <a href="/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure.
 
 ### -param cbCertificate [in]
 
@@ -72,11 +72,10 @@ Set this value to <b>CF_CERT_FROM_FILE</b> to specify that the certificate BLOB 
 
 ### -param ppCertificate [out]
 
-On return, receives the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure that this function creates.
+On return, receives the address of a pointer to the <a href="/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure that this function creates.
 
-When you have finished using the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure, free it by calling <a href="https://docs.microsoft.com/windows/desktop/api/schannel/nf-schannel-sslfreecertificate">SslFreeCertificate</a>.
+When you have finished using the <a href="/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure, free it by calling <a href="/windows/desktop/api/schannel/nf-schannel-sslfreecertificate">SslFreeCertificate</a>.
 
 ## -returns
 
-Returns nonzero if this function successfully created an <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure or zero otherwise.
-
+Returns nonzero if this function successfully created an <a href="/windows/desktop/api/schannel/ns-schannel-x509certificate">X509Certificate</a> structure or zero otherwise.

@@ -50,20 +50,20 @@ api_name:
 
 ## -description
 
-The <b>GetExistingCACertificates</b> method gets the collection of <b>CertSrvSetupKeyInformation</b>  objects that represent valid <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificates currently installed on the computer. This method does not change the state of the <b>CCertSrvSetup</b> object.
+The <b>GetExistingCACertificates</b> method gets the collection of <b>CertSrvSetupKeyInformation</b>  objects that represent valid <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) certificates currently installed on the computer. This method does not change the state of the <b>CCertSrvSetup</b> object.
 
 ## -parameters
 
 ### -param ppVal [out]
 
-The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a> interface that can be used to access information for the set of valid CA certificates installed in the "LocalMachine" store.
+The address of a pointer to an <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a> interface that can be used to access information for the set of valid CA certificates installed in the "LocalMachine" store.
 
 ## -remarks
 
 The <b>CertSrvSetupKeyInformationCollection</b> object contains valid certificates. A certificate is considered valid if it satisfies the following criteria:
 
 <ul>
-<li>Contains an AT_SIGNATURE key that matches the key in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> container.
+<li>Contains an AT_SIGNATURE key that matches the key in the <a href="/windows/desktop/SecGloss/p-gly">private key</a> container.
 </li>
 <li>Is self-signed or has basic constraints for a CA.</li>
 <li>Passes chain validation but might have an offline revocation error.
@@ -72,5 +72,4 @@ The <b>CertSrvSetupKeyInformationCollection</b> object contains valid certificat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
-
+<a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>

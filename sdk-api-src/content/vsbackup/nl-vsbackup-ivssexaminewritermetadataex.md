@@ -53,13 +53,13 @@ api_name:
 The <b>IVssExamineWriterMetadataEx</b> interface is a C++ (not COM) interface that provides a method to retrieve the writer instance name and other basic information for a specific writer instance.
 
 To obtain an instance of the <b>IVssExamineWriterMetadataEx</b> 
-   interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
-   <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> interface, passing 
+   interface, call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method of the 
+   <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> interface, passing 
    <b>IID_IVssExamineWriterMetadataEx</b> as the interface identifier (IID) parameter.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssExamineWriterMetadataEx</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>. <b>IVssExamineWriterMetadataEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssExamineWriterMetadataEx</b> interface inherits from <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>. <b>IVssExamineWriterMetadataEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IVssExamineWriterMetadataEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex-getidentityex">GetIdentityEx</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex-getidentityex">GetIdentityEx</a>
 </td>
 <td align="left" width="63%">
 Obtains the writer instance name and other basic information about a specific writer instance.
@@ -85,5 +85,4 @@ Obtains the writer instance name and other basic information about a specific wr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
-
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>

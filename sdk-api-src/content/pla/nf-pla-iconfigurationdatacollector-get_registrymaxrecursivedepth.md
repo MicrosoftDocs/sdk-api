@@ -60,9 +60,8 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_registrykeys">IConfigurationDataCollector::RegistryKeys</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_registrykeys">IConfigurationDataCollector::RegistryKeys</a>

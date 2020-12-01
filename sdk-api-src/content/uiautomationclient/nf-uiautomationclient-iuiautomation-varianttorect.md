@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Converts a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> containing rectangle coordinates to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>.
+Converts a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> containing rectangle coordinates to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>.
 
 ## -parameters
 
 ### -param var [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a></b>
+Type: <b><a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a></b>
 
 The coordinates of a rectangle.
 
@@ -68,7 +68,6 @@ Receives the converted rectangle coordinates.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

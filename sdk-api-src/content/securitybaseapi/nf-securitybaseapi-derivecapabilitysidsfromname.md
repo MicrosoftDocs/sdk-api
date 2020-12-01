@@ -81,7 +81,7 @@ The count of CapabilitySid with AppAuthority.
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -91,4 +91,3 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
     The SID computed for the application capability of legacy capabilities
     (published prior to Win10) will be the same as the published SIDs but the
     SID for the service group capability SID will be hash based.
-

@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Returns 
-    the current state of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a>. The <b>PCLUSAPI_GET_CLUSTER_NETWORK_STATE</b> type defines a pointer to this function.
+    the current state of a <a href="/previous-versions/windows/desktop/mscs/networks">network</a>. The <b>PCLUSAPI_GET_CLUSTER_NETWORK_STATE</b> type defines a pointer to this function.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ Handle to the network for which state information should be returned.
 
 <b>GetClusterNetworkState</b> returns the current 
        state of the network, which is represented by one of the following values enumerated by the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_network_state">CLUSTER_NETWORK_STATE</a> enumeration.
+       <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_network_state">CLUSTER_NETWORK_STATE</a> enumeration.
 
 <table>
 <tr>
@@ -91,7 +91,7 @@ All of the network interfaces on the network are unavailable, which means that t
 </dl>
 </td>
 <td width="60%">
-The network is not operational; none of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> on the 
+The network is not operational; none of the <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a> on the 
         network can communicate.
 
 </td>
@@ -130,7 +130,7 @@ The network is operational; all of the nodes in the cluster can communicate.
 </td>
 <td width="60%">
 The operation was not successful. For more information about the error, call the function 
-        <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+        <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -138,9 +138,8 @@ The operation was not successful. For more information about the error, call the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_network_state">CLUSTER_NETWORK_STATE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_network_state">CLUSTER_NETWORK_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>

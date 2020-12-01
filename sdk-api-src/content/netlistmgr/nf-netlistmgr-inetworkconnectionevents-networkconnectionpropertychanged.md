@@ -60,7 +60,7 @@ A GUID that identifies the network connection  on which the event occurred.
 
 ### -param flags [in]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connection_property_change">NLM_CONNECTION_PROPERTY_CHANGE</a> flags for this connection.
+The <a href="/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connection_property_change">NLM_CONNECTION_PROPERTY_CHANGE</a> flags for this connection.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Returns S_OK if the method succeeds.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnectionevents">INetworkConnectionEvents</a>
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnectionevents">INetworkConnectionEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connection_property_change">NLM_CONNECTION_PROPERTY_CHANGE</a>
-
+<a href="/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connection_property_change">NLM_CONNECTION_PROPERTY_CHANGE</a>

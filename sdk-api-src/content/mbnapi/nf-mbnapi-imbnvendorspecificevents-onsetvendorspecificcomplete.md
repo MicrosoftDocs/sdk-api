@@ -59,7 +59,7 @@ Notification method indicating that a vendor-specific operation has completed.
 
 ### -param vendorOperation [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificoperation">IMbnVendorSpecificOperation</a> interface representing the operation that completed.
+An <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificoperation">IMbnVendorSpecificOperation</a> interface representing the operation that completed.
 
 ### -param vendorSpecificData [in]
 
@@ -79,5 +79,4 @@ This byte array contains the byte by byte copy of data returned by underlying mi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificevents">IMbnVendorSpecificEvents</a>
-
+<a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificevents">IMbnVendorSpecificEvents</a>

@@ -52,7 +52,7 @@ api_name:
 
 The APO_FLAG enumeration defines constants that are used as flags by an audio processing object (APO).
 
-This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apo_reg_properties">APO_REG_PROPERTIES</a> structure to help describe the registration properties of an APO.
+This enumeration is used by the <a href="/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apo_reg_properties">APO_REG_PROPERTIES</a> structure to help describe the registration properties of an APO.
 
 ## -enum-fields
 
@@ -86,5 +86,4 @@ APO_FLAG_DEFAULT = ( APO_FLAG_SAMPLESPERFRAME_MUST_MATCH | APO_FLAG_FRAMESPERSEC
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apo_reg_properties">APO_REG_PROPERTIES</a>
-
+<a href="/windows/desktop/api/audioenginebaseapo/ns-audioenginebaseapo-apo_reg_properties">APO_REG_PROPERTIES</a>

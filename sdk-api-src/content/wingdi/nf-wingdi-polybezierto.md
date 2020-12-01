@@ -65,7 +65,7 @@ A handle to a device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contains the endpoints and control points, in logical units.
+A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contains the endpoints and control points, in logical units.
 
 ### -param cpt [in]
 
@@ -87,21 +87,20 @@ This function draws lines by using the current pen.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
+<a href="/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
+<a href="/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-movetoex">MoveToEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-polybezier">PolyBezier</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-polybezier">PolyBezier</a>

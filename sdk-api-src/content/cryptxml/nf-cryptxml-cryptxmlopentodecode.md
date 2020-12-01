@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>CryptXmlOpenToDecode</b> function opens an XML digital signature to decode 
- and returns the handle of the document context that encapsulates a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure. 
+ and returns the handle of the document context that encapsulates a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure. 
  The document context can include one or more <b>Signature</b> elements.
 
 ## -parameters
@@ -103,7 +103,7 @@ Only default implementations for the signature and digest are used. When this fl
 
 ### -param rgProperty [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_property">CRYPT_XML_PROPERTY</a> structures that contain additional properties.
+A pointer to an array of <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_property">CRYPT_XML_PROPERTY</a> structures that contain additional properties.
 
 ### -param cProperty
 
@@ -111,15 +111,14 @@ The number of items in the array pointed to by the <i>rgProperty</i> parameter.
 
 ### -param pEncoded [in]
 
-A pointer to <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the signature to decode.
+A pointer to <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains the signature to decode.
 
 ### -param phCryptXml
 
-The handle of a Document Context object.  When you have finished using the handle, release it by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlclose">CryptXmlClose</a> function.
+The handle of a Document Context object.  When you have finished using the handle, release it by passing it to the <a href="/windows/desktop/api/cryptxml/nf-cryptxml-cryptxmlclose">CryptXmlClose</a> function.
 
 ## -returns
 
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-

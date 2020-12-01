@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>CertEnumCRLContextProperties</b> function retrieves the first or next extended property associated with a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context. Used in a loop, this function can retrieve in sequence all extended properties associated with a CRL context.
+The <b>CertEnumCRLContextProperties</b> function retrieves the first or next extended property associated with a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) context. Used in a loop, this function can retrieve in sequence all extended properties associated with a CRL context.
 
 ## -parameters
 
 ### -param pCrlContext [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crl_context">CRL_CONTEXT</a> structure.
 
 ### -param dwPropId [in]
 
@@ -67,7 +67,7 @@ Property number of the last property enumerated. To get the first property, <i>d
 
 
 Applications can call 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlcontextproperty">CertGetCRLContextProperty</a> with the <i>dwPropId</i> returned by this function to retrieve that property's data.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlcontextproperty">CertGetCRLContextProperty</a> with the <i>dwPropId</i> returned by this function to retrieve that property's data.
 
 ## -returns
 
@@ -75,9 +75,8 @@ The return value is a <b>DWORD</b> value that identifies a CRL context's propert
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlcontextproperty">CertGetCRLContextProperty</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcrlcontextproperty">CertGetCRLContextProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Extended Property Functions</a>
-
+<a href="/windows/desktop/SecCrypto/cryptography-functions">Extended Property Functions</a>

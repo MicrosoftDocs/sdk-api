@@ -46,6 +46,7 @@ api_location:
  - ie_stubs.dll
 api_name:
  - SetCaretPos
+req.apiset: ext-ms-win-ntuser-caret-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetCaretPos function
@@ -75,7 +76,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -89,13 +90,13 @@ This API does not participate in DPI virtualization. The provided position is in
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-carets">Creating and Displaying a Caret</a>.
+For an example, see <a href="/windows/desktop/menurc/using-carets">Creating and Displaying a Caret</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/carets">Carets</a>
+<a href="/windows/desktop/menurc/carets">Carets</a>
 
 
 
@@ -103,11 +104,11 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcaretpos">GetCaretPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcaretpos">GetCaretPos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-hidecaret">HideCaret</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-hidecaret">HideCaret</a>
 
 
 
@@ -115,5 +116,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcaret">ShowCaret</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-showcaret">ShowCaret</a>

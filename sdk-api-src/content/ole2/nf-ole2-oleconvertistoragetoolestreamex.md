@@ -58,7 +58,7 @@ The
 ### -param pstg [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the storage object to be converted to an OLE 1 storage.
+<a href="/windows/desktop/api/objidl/nn-objidl-istorage">IStorage</a> interface on the storage object to be converted to an OLE 1 storage.
 
 ### -param cfFormat [in]
 
@@ -79,7 +79,7 @@ Size of the data, in bytes, to be converted.
 ### -param pmedium [in]
 
 Pointer to the 
-<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure for the serialized data to be converted.
+<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium-r1">STGMEDIUM</a> structure for the serialized data to be converted.
 
 ### -param polestm [out]
 
@@ -93,7 +93,7 @@ This function supports the standard return value E_INVALIDARG, in addition to th
 
 The 
 <b>OleConvertIStorageToOLESTREAMEx</b> function converts an OLE 2 storage object to OLE 1 format. It differs from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleconvertistoragetoolestream">OleConvertIStorageToOLESTREAM</a> function in that the 
+<a href="/windows/desktop/api/ole2/nf-ole2-oleconvertistoragetoolestream">OleConvertIStorageToOLESTREAM</a> function in that the 
 <b>OleConvertIStorageToOLESTREAMEx</b> function also passes the presentation data to the OLE 1 storage object, whereas the 
 <b>OleConvertIStorageToOLESTREAM</b> function does not.
 
@@ -101,31 +101,30 @@ Because
 <b>OleConvertIStorageToOLESTREAMEx</b> can specify which presentation data to convert, it can be used by applications that do not use OLE default caching resources but do use OLE's conversion resources.
 
 The value of the <b>tymed</b> member of 
-<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> must be either TYMED_HGLOBAL or TYMED_ISTREAM; refer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tymed">TYMED</a> enumeration for more information. The medium is not released by the 
+<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium-r1">STGMEDIUM</a> must be either TYMED_HGLOBAL or TYMED_ISTREAM; refer to the 
+<a href="/windows/desktop/api/objidl/ne-objidl-tymed">TYMED</a> enumeration for more information. The medium is not released by the 
 <b>OleConvertIStorageToOLESTREAMEx</b> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coisole1class">CoIsOle1Class</a>
+<a href="/windows/desktop/api/objbase/nf-objbase-coisole1class">CoIsOle1Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleconvertistoragetoolestream">OleConvertIStorageToOLESTREAM</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-oleconvertistoragetoolestream">OleConvertIStorageToOLESTREAM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleconvertolestreamtoistorage">OleConvertOLESTREAMToIStorage</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-oleconvertolestreamtoistorage">OleConvertOLESTREAMToIStorage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleconvertolestreamtoistorageex">OleConvertOLESTREAMToIStorageEx</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-oleconvertolestreamtoistorageex">OleConvertOLESTREAMToIStorageEx</a>
 
 
 
-<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a>
+<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium-r1">STGMEDIUM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tymed">TYMED</a>
-
+<a href="/windows/desktop/api/objidl/ne-objidl-tymed">TYMED</a>

@@ -56,7 +56,7 @@ The <b>PeerCollabGetSigninOptions</b> function obtains the peer's current signed
 
 ### -param pdwSigninOptions [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags">PEER_SIGNIN_FLAGS</a> enumeration value is returned by this function.
+The <a href="/windows/desktop/api/p2p/ne-p2p-peer_signin_flags">PEER_SIGNIN_FLAGS</a> enumeration value is returned by this function.
 
 ## -returns
 
@@ -96,7 +96,7 @@ One of the arguments is invalid.
 </dl>
 </td>
 <td width="60%">
-The application did not make a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabstartup">PeerCollabStartup</a>.
+The application did not make a previous call to <a href="/windows/desktop/api/p2p/nf-p2p-peercollabstartup">PeerCollabStartup</a>.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ The application did not make a previous call to <a href="https://docs.microsoft.
 </dl>
 </td>
 <td width="60%">
-The application has not signed into the peer collaboration network with a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsignin">PeerCollabSignIn</a>.
+The application has not signed into the peer collaboration network with a previous call to <a href="/windows/desktop/api/p2p/nf-p2p-peercollabsignin">PeerCollabSignIn</a>.
 
 </td>
 </tr>
@@ -115,17 +115,16 @@ The application has not signed into the peer collaboration network with a previo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_signin_flags">PEER_SIGNIN_FLAGS</a>
+<a href="/windows/desktop/api/p2p/ne-p2p-peer_signin_flags">PEER_SIGNIN_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsignin">PeerCollabSignIn</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peercollabsignin">PeerCollabSignIn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabsignout">PeerCollabSignOut</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peercollabsignout">PeerCollabSignOut</a>

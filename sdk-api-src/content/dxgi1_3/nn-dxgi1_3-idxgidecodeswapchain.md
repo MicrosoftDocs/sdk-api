@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Represents a swap chain that is used by desktop media apps to decode video data and show it on a <a href="https://docs.microsoft.com/windows/desktop/directcomp/reference">DirectComposition</a> surface.
+Represents a swap chain that is used by desktop media apps to decode video data and show it on a <a href="/windows/desktop/directcomp/reference">DirectComposition</a> surface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDecodeSwapChain</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXGIDecodeSwapChain</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIDecodeSwapChain</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDXGIDecodeSwapChain</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDXGIDecodeSwapChain</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-getcolorspace">GetColorSpace</a>
+<a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-getcolorspace">GetColorSpace</a>
 </td>
 <td align="left" width="63%">
 Gets the color space used by the swap chain.
@@ -79,7 +79,7 @@ Gets the color space used by the swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-getdestsize">GetDestSize</a>
+<a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-getdestsize">GetDestSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the destination surface to use for the video processing blit operation.
@@ -88,7 +88,7 @@ Gets the size of the destination surface to use for the video processing blit op
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-getsourcerect">GetSourceRect</a>
+<a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-getsourcerect">GetSourceRect</a>
 </td>
 <td align="left" width="63%">
 Gets the source region that is used for the swap chain.
@@ -97,7 +97,7 @@ Gets the source region that is used for the swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-gettargetrect">GetTargetRect</a>
+<a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-gettargetrect">GetTargetRect</a>
 </td>
 <td align="left" width="63%">
 Gets the rectangle that defines the target region for the video processing blit operation.
@@ -106,7 +106,7 @@ Gets the rectangle that defines the target region for the video processing blit 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-presentbuffer">PresentBuffer</a>
+<a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-presentbuffer">PresentBuffer</a>
 </td>
 <td align="left" width="63%">
 Presents a frame on the output adapter.
@@ -115,7 +115,7 @@ Presents a frame on the output adapter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-setcolorspace">SetColorSpace</a>
+<a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-setcolorspace">SetColorSpace</a>
 </td>
 <td align="left" width="63%">
 Sets the color space used by the swap chain.
@@ -124,7 +124,7 @@ Sets the color space used by the swap chain.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-setdestsize">SetDestSize</a>
+<a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-setdestsize">SetDestSize</a>
 </td>
 <td align="left" width="63%">
 Sets the size of the destination surface to use for the video processing blit operation.
@@ -133,7 +133,7 @@ Sets the size of the destination surface to use for the video processing blit op
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-setsourcerect">SetSourceRect</a>
+<a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-setsourcerect">SetSourceRect</a>
 </td>
 <td align="left" width="63%">
 Sets the rectangle that defines the source region for the video processing blit operation.
@@ -142,7 +142,7 @@ Sets the rectangle that defines the source region for the video processing blit 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-settargetrect">SetTargetRect</a>
+<a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgidecodeswapchain-settargetrect">SetTargetRect</a>
 </td>
 <td align="left" width="63%">
 Sets the rectangle that defines the target region for the video processing blit operation.
@@ -163,13 +163,12 @@ Decode swap chains cannot be used with dirty rects.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactorymedia">IDXGIFactoryMedia</a>
+<a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactorymedia">IDXGIFactoryMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

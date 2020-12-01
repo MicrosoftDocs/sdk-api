@@ -59,8 +59,8 @@ Inserts a video effect.
 One of the following: 
 
 <ul>
-<li>A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface of a Media Foundation transform (MFT) that implements the video effect.</li>
-<li>A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface of an activation object. The activation object must create an MFT for the video effect.</li>
+<li>A pointer to the <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a> interface of a Media Foundation transform (MFT) that implements the video effect.</li>
+<li>A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a> interface of an activation object. The activation object must create an MFT for the video effect.</li>
 </ul>
 
 ### -param fOptional [in]
@@ -133,5 +133,4 @@ The effect is applied when the next media resource is loaded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>

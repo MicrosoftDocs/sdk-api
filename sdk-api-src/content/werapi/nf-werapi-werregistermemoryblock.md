@@ -80,7 +80,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 </dl>
 </td>
 <td width="60%">
-The process state is not valid. For example, the process is in <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">application recovery mode</a>.
+The process state is not valid. For example, the process is in <a href="/windows/desktop/wsw/portal">application recovery mode</a>.
 
 </td>
 </tr>
@@ -103,20 +103,19 @@ Memory registered with this function is only added to heap or larger dump files.
 
 For crashes and no response, the operating system automatically provides error reporting (you do not need to provide any error reporting code in your application). If you use this function to register a memory block, the operating system will add the memory block information to the dump file at the time of the crash or non-response. The memory block is added to the dump file for the report only when additional data is requested by the server.
 
-For generic event reporting, the application has to call the WER generic event reporting functions directly. To add the memory block to a generic report, call the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a> function and then call the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werreportsubmit">WerReportSubmit</a> function and specify the  WER_SUBMIT_ADD_REGISTERED_DATA flag.
+For generic event reporting, the application has to call the WER generic event reporting functions directly. To add the memory block to a generic report, call the <a href="/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a> function and then call the <a href="/windows/desktop/api/werapi/nf-werapi-werreportsubmit">WerReportSubmit</a> function and specify the  WER_SUBMIT_ADD_REGISTERED_DATA flag.
 
 
-To remove the block from this list, call the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregistermemoryblock">WerUnregisterMemoryBlock</a> function.
+To remove the block from this list, call the <a href="/windows/desktop/api/werapi/nf-werapi-werunregistermemoryblock">WerUnregisterMemoryBlock</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werunregistermemoryblock">WerUnregisterMemoryBlock</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werunregistermemoryblock">WerUnregisterMemoryBlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

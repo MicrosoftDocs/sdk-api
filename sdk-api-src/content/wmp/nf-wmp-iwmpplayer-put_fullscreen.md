@@ -99,17 +99,16 @@ If transport controls are not displayed in full-screen mode, then Windows Media 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpplayer">IWMPPlayer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_enablecontextmenu">IWMPPlayer::get_enableContextMenu</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_enablecontextmenu">IWMPPlayer::get_enableContextMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_fullscreen">IWMPPlayer::get_fullScreen</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer-get_fullscreen">IWMPPlayer::get_fullScreen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_uimode">IWMPPlayer::put_uiMode</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_uimode">IWMPPlayer::put_uiMode</a>

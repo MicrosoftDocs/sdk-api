@@ -57,7 +57,7 @@ To get this interface, call the <b>IBackgroundCopyJob::QueryInterface</b> method
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJobHttpOptions2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>. <b>IBackgroundCopyJobHttpOptions2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJobHttpOptions2</b> interface inherits from <a href="/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>. <b>IBackgroundCopyJobHttpOptions2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IBackgroundCopyJobHttpOptions2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B855F1A5-AAFC-4E59-8F1D-ABA0034AFDF8">GetHttpMethod</a>
+<a href="/windows/win32/api/bits10_2/nf-bits10_2-ibackgroundcopyjobhttpoptions2-gethttpmethod">GetHttpMethod</a>
 </td>
 <td align="left" width="63%">
 Retrieves a wide string containing the HTTP method name for the BITS transfer. By default, download jobs will be "GET", and upload and upload-reply jobs will be "BITS_POST".
@@ -81,7 +81,7 @@ Retrieves a wide string containing the HTTP method name for the BITS transfer. B
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0CF8236B-7630-4A38-8A8F-51E69D3461B0">SetHttpMethod</a>
+<a href="/windows/win32/api/bits10_2/nf-bits10_2-ibackgroundcopyjobhttpoptions2-sethttpmethod">SetHttpMethod</a>
 </td>
 <td align="left" width="63%">
 Overrides the default HTTP method used for a BITS transfer.
@@ -92,5 +92,4 @@ Overrides the default HTTP method used for a BITS transfer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
-
+<a href="/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>

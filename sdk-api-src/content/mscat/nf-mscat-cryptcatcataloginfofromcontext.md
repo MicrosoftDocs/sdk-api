@@ -53,7 +53,7 @@ api_name:
 
 <p class="CCE_Message">[The <b>CryptCATCatalogInfoFromContext</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATCatalogInfoFromContext</b> function retrieves catalog information from a specified catalog context. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+The <b>CryptCATCatalogInfoFromContext</b> function retrieves catalog information from a specified catalog context. This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ A handle to the catalog context. This value cannot be <b>NULL</b>.
 
 ### -param psCatInfo [in, out]
 
-A pointer to the [CATALOG_INFO](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-catalog_info) structure. This value cannot be <b>NULL</b>. Upon return from this function, the <i>wszCatalogFile</i> member of the CATALOG_INFO structure contains the catalog file name.
+A pointer to the [CATALOG_INFO](/windows/desktop/api/mscat/ns-mscat-catalog_info) structure. This value cannot be <b>NULL</b>. Upon return from this function, the <i>wszCatalogFile</i> member of the CATALOG_INFO structure contains the catalog file name.
 
 ### -param dwFlags [in]
 
@@ -73,5 +73,4 @@ Unused; set to zero.
 
 The return value is <b>TRUE</b> if the function succeeds; <b>FALSE</b> if the function fails.
 
-For extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. For a complete list of error codes provided by the operating system, see <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
-
+For extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function. For a complete list of error codes provided by the operating system, see <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.

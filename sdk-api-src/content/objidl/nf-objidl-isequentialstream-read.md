@@ -86,21 +86,20 @@ The application should handle both a returned error  and <b>S_OK</b> return valu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isequentialstream-write">ISequentialStream::Write</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-openstream">IStorage::OpenStream</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-istorage-openstream">IStorage::OpenStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
+<a href="/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-stgmove">STGMOVE</a>
-
+<a href="/windows/desktop/api/wtypes/ne-wtypes-stgmove">STGMOVE</a>

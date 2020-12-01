@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IBinaryConverter</b> interface contains general methods that enable you to create a Unicode-encoded string from a byte array, create a byte array from a Unicode-encoded string, and modify the type of Unicode encoding applied to  a string. You can use this interface to represent a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate BLOB</a> as a printable string or to decode the string back into a certificate BLOB.
+The <b>IBinaryConverter</b> interface contains general methods that enable you to create a Unicode-encoded string from a byte array, create a byte array from a Unicode-encoded string, and modify the type of Unicode encoding applied to  a string. You can use this interface to represent a <a href="/windows/desktop/SecGloss/c-gly">certificate BLOB</a> as a printable string or to decode the string back into a certificate BLOB.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBinaryConverter</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBinaryConverter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBinaryConverter</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBinaryConverter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBinaryConverter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ibinaryconverter-stringtostring">StringToString</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ibinaryconverter-stringtostring">StringToString</a>
 </td>
 <td align="left" width="63%">
 Modifies the type of Unicode encoding applied to a string.
@@ -78,7 +78,7 @@ Modifies the type of Unicode encoding applied to a string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ibinaryconverter-stringtovariantbytearray">StringToVariantByteArray</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ibinaryconverter-stringtovariantbytearray">StringToVariantByteArray</a>
 </td>
 <td align="left" width="63%">
 Creates a byte array from a Unicode encoded string.
@@ -87,7 +87,7 @@ Creates a byte array from a Unicode encoded string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ibinaryconverter-variantbytearraytostring">VariantByteArrayToString</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ibinaryconverter-variantbytearraytostring">VariantByteArrayToString</a>
 </td>
 <td align="left" width="63%">
 Creates a Unicode encoded string from a byte array.
@@ -98,9 +98,8 @@ Creates a Unicode encoded string from a byte array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-interfaces">CertEnroll Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

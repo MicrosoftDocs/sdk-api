@@ -74,25 +74,24 @@ The number of members in the <a href="/windows/win32/api/mmdeviceapi/ne-mmdevice
 
 ## -remarks
 
-The <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">IMMDeviceEnumerator::GetDefaultAudioEndpoint</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints">IMMDeviceEnumerator::EnumAudioEndpoints</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immendpoint-getdataflow">IMMEndpoint::GetDataFlow</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged">IMMNotificationClient::OnDefaultDeviceChanged</a> methods use the constants defined in the <b>EDataFlow</b> enumeration.
+The <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">IMMDeviceEnumerator::GetDefaultAudioEndpoint</a>, <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints">IMMDeviceEnumerator::EnumAudioEndpoints</a>, <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immendpoint-getdataflow">IMMEndpoint::GetDataFlow</a>, and <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged">IMMNotificationClient::OnDefaultDeviceChanged</a> methods use the constants defined in the <b>EDataFlow</b> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>
+<a href="/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints">IMMDeviceEnumerator::EnumAudioEndpoints</a>
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints">IMMDeviceEnumerator::EnumAudioEndpoints</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint">IMMDeviceEnumerator::GetDefaultAudioEndpoint</a>
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint">IMMDeviceEnumerator::GetDefaultAudioEndpoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immendpoint-getdataflow">IMMEndpoint::GetDataFlow</a>
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immendpoint-getdataflow">IMMEndpoint::GetDataFlow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged">IMMNotificationClient::OnDefaultDeviceChanged</a>
-
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged">IMMNotificationClient::OnDefaultDeviceChanged</a>

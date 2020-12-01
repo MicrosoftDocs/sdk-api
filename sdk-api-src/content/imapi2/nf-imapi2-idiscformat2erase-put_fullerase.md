@@ -68,13 +68,12 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-erasemedia">IDiscFormat2Erase::EraseMedia</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-erasemedia">IDiscFormat2Erase::EraseMedia</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_fullerase">IDiscFormat2Erase::get_FullErase</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_fullerase">IDiscFormat2Erase::get_FullErase</a>

@@ -68,20 +68,20 @@ The number of properties being written.
 
 ### -param pColumns [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
+Type: <b><a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a>*</b>
 
  
-                Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structures that represent the properties.
+                Pointer to an array of <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structures that represent the properties.
 
 ### -param pValues [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-search_column_properties">SEARCH_COLUMN_PROPERTIES</a>*</b>
+Type: <b><a href="/windows/desktop/api/searchapi/ns-searchapi-search_column_properties">SEARCH_COLUMN_PROPERTIES</a>*</b>
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ns-searchapi-search_column_properties">SEARCH_COLUMN_PROPERTIES</a> structures that hold the property values.
+Pointer to an array of <a href="/windows/desktop/api/searchapi/ns-searchapi-search_column_properties">SEARCH_COLUMN_PROPERTIES</a> structures that hold the property values.
 
 ### -param pftGatherModifiedTime [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>*</b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>*</b>
 
 A pointer to the last modified time for the item being written. This time stamp is used later to see if an item has been changed and requires updating.
 
@@ -93,21 +93,20 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querycontentproperties">ISearchQueryHelper::put_QueryContentProperties</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querycontentproperties">ISearchQueryHelper::put_QueryContentProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-qryidx-overview">Querying the Index Programmatically</a>
+<a href="/windows/desktop/search/-search-3x-wds-qryidx-overview">Querying the Index Programmatically</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-windowssearch-entry">Querying the Index with Windows Search SQL Syntax</a>
+<a href="/windows/desktop/search/-search-sql-windowssearch-entry">Querying the Index with Windows Search SQL Syntax</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/ff518152(v=VS.85).aspx">System Properties</a>
-

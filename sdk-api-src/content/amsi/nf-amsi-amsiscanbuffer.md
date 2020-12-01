@@ -56,7 +56,7 @@ Scans a buffer-full of content for malware.
 
 ### -param amsiContext [in]
 
-The handle of type HAMSICONTEXT that was initially received from <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
+The handle of type HAMSICONTEXT that was initially received from <a href="/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>.
 
 ### -param buffer [in]
 
@@ -72,13 +72,13 @@ The filename, URL, unique script ID, or similar of the content being scanned.
 
 ### -param amsiSession [in, optional]
 
-If multiple scan requests are to be correlated within a session, set <i>session</i> to the handle of type HAMSISESSION that was initially received from <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiopensession">AmsiOpenSession</a>. Otherwise, set <i>session</i> to <b>nullptr</b>.
+If multiple scan requests are to be correlated within a session, set <i>session</i> to the handle of type HAMSISESSION that was initially received from <a href="/windows/desktop/api/amsi/nf-amsi-amsiopensession">AmsiOpenSession</a>. Otherwise, set <i>session</i> to <b>nullptr</b>.
 
 ### -param result [out]
 
-The result of the scan. See <a href="https://docs.microsoft.com/windows/desktop/api/amsi/ne-amsi-amsi_result">AMSI_RESULT</a>.
+The result of the scan. See <a href="/windows/desktop/api/amsi/ne-amsi-amsi_result">AMSI_RESULT</a>.
 
-An app should use <a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiresultismalware">AmsiResultIsMalware</a> to determine whether the content should be blocked.
+An app should use <a href="/windows/desktop/api/amsi/nf-amsi-amsiresultismalware">AmsiResultIsMalware</a> to determine whether the content should be blocked.
 
 ## -returns
 
@@ -86,17 +86,16 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/ne-amsi-amsi_result">AMSI_RESULT</a>
+<a href="/windows/desktop/api/amsi/ne-amsi-amsi_result">AMSI_RESULT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>
+<a href="/windows/desktop/api/amsi/nf-amsi-amsiinitialize">AmsiInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiopensession">AmsiOpenSession</a>
+<a href="/windows/desktop/api/amsi/nf-amsi-amsiopensession">AmsiOpenSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/amsi/nf-amsi-amsiresultismalware">AmsiResultIsMalware</a>
-
+<a href="/windows/desktop/api/amsi/nf-amsi-amsiresultismalware">AmsiResultIsMalware</a>

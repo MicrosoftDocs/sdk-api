@@ -68,11 +68,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-This method may be received by the CRM Compensator multiple times, once for each log record that is written. If no log records are written, the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensatorvariants-beginabortvariants">BeginAbortVariants</a> and <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensatorvariants-endabortvariants">EndAbortVariants</a> methods are received but there are no <b>AbortRecordVariants</b> method calls.
+This method may be received by the CRM Compensator multiple times, once for each log record that is written. If no log records are written, the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensatorvariants-beginabortvariants">BeginAbortVariants</a> and <a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmcompensatorvariants-endabortvariants">EndAbortVariants</a> methods are received but there are no <b>AbortRecordVariants</b> method calls.
 
 The CRM Compensator can choose to forget the record that is delivered to it during this phase by setting the forget flag on return from this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensatorvariants">ICrmCompensatorVariants</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensatorvariants">ICrmCompensatorVariants</a>

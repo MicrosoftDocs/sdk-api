@@ -64,13 +64,12 @@ The property is not valid as long as the fax is still being received by the fax 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxjobstatus">FaxJobStatus</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxjobstatus">FaxJobStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxjobstatus">IFaxJobStatus</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxjobstatus">IFaxJobStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-registering-for-fax-events">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-registering-for-fax-events">Visual Basic Example</a>

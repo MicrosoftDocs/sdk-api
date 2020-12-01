@@ -93,7 +93,7 @@ Decompression flags. The following values are defined.
 
 ### -param lpFormat
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the input format of the data.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the input format of the data.
 
 ### -param lpData
 
@@ -105,7 +105,7 @@ Size of the input data, in bytes.
 
 ### -param lTime
 
-Time, in samples, to draw this frame. The units for video data are frames. For a definition of the playback rate, see the <b>dwRate</b> and <b>dwScale</b> members of the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-icdrawbegin">ICDRAWBEGIN</a> structure.
+Time, in samples, to draw this frame. The units for video data are frames. For a definition of the playback rate, see the <b>dwRate</b> and <b>dwScale</b> members of the <a href="/windows/desktop/api/vfw/ns-vfw-icdrawbegin">ICDRAWBEGIN</a> structure.
 
 ## -returns
 
@@ -113,13 +113,12 @@ Returns<b> ICERR_OK</b> if successful or an error otherwise.
 
 ## -remarks
 
-You can initiate drawing the frames by sending the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-draw-start">ICM_DRAW_START</a> message (or by using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icdrawstart">ICDrawStart</a> macro). The application should be sure to buffer the required number of frames before drawing is started. Send the <b>KM_GETBUFFERSWANTED</b> message (or use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icgetbufferswanted">ICGetBuffersWanted</a> macro) to obtain this value.
+You can initiate drawing the frames by sending the <a href="/windows/desktop/Multimedia/icm-draw-start">ICM_DRAW_START</a> message (or by using the <a href="/windows/desktop/api/vfw/nf-vfw-icdrawstart">ICDrawStart</a> macro). The application should be sure to buffer the required number of frames before drawing is started. Send the <b>KM_GETBUFFERSWANTED</b> message (or use the <a href="/windows/desktop/api/vfw/nf-vfw-icgetbufferswanted">ICGetBuffersWanted</a> macro) to obtain this value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
+<a href="/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

@@ -62,7 +62,7 @@ Represents a list of text values separated by a single whitespace character.
 
 ### -field text
 
-The base type for all types that derive from <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
+The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
 
 ### -field itemCount
 
@@ -71,4 +71,3 @@ The number of items in the list.
 ### -field items
 
 The list of items.
-

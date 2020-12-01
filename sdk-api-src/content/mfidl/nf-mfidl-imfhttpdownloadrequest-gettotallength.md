@@ -97,9 +97,8 @@ The <i>pqwTotalLength</i> parameter is an invalid pointer.
 
 ## -remarks
 
-Microsoft Media Foundation invokes <b>GetTotalLength</b> only after having successfully invoked <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-endreceiveresponse">EndReceiveResponse</a>. The total length of the resource may be larger than the amount of data returned by the server in the current response. For example, if the request included the HTTP “Range” header, the data returned in the response may be less than total length of the resource. The <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-getrangeendoffset">GetRangeEndOffset</a> method can be used to calculate how much data is returned in the current response.
+Microsoft Media Foundation invokes <b>GetTotalLength</b> only after having successfully invoked <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-endreceiveresponse">EndReceiveResponse</a>. The total length of the resource may be larger than the amount of data returned by the server in the current response. For example, if the request included the HTTP “Range” header, the data returned in the response may be less than total length of the resource. The <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-getrangeendoffset">GetRangeEndOffset</a> method can be used to calculate how much data is returned in the current response.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>

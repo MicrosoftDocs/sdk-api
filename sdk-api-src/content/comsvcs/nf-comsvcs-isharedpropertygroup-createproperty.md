@@ -56,7 +56,7 @@ Creates a new shared property with the specified name. If a shared property by t
 
 ### -param Name [in]
 
-The name of the property to create. You can use this name later to obtain a reference to this property by using the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-get_property">get_Property</a> method.
+The name of the property to create. You can use this name later to obtain a reference to this property by using the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-get_property">get_Property</a> method.
 
 ### -param fExists [out]
 
@@ -64,7 +64,7 @@ A reference to a Boolean value that is set to VARIANT_TRUE on return from this m
 
 ### -param ppProp [out]
 
-A reference to a <a href="https://docs.microsoft.com/windows/desktop/cossdk/sharedproperty">SharedProperty</a> object with the name specified in the <i>Name</i> parameter, or <b>NULL</b> if an error is encountered.
+A reference to a <a href="/windows/desktop/cossdk/sharedproperty">SharedProperty</a> object with the name specified in the <i>Name</i> parameter, or <b>NULL</b> if an error is encountered.
 
 ## -returns
 
@@ -76,17 +76,16 @@ When you create a shared property, its value is set to the default, which is a V
 
 
 
-If you create a shared property with the <b>CreateProperty</b> method, you can access that property only by using the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-get_property">get_Property</a> method. You cannot assign a numeric index to the same property and then access it by using the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-get_propertybyposition">get_PropertyByPosition</a> method.
+If you create a shared property with the <b>CreateProperty</b> method, you can access that property only by using the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-get_property">get_Property</a> method. You cannot assign a numeric index to the same property and then access it by using the <a href="/windows/desktop/api/comsvcs/nf-comsvcs-isharedpropertygroup-get_propertybyposition">get_PropertyByPosition</a> method.
 
 
 
-The same shared property group can contain some <a href="https://docs.microsoft.com/windows/desktop/cossdk/sharedproperty">SharedProperty</a> objects that are identified by name and others that are identified by position.
+The same shared property group can contain some <a href="/windows/desktop/cossdk/sharedproperty">SharedProperty</a> objects that are identified by name and others that are identified by position.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedproperty">ISharedProperty</a>
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedproperty">ISharedProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroup">ISharedPropertyGroup</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroup">ISharedPropertyGroup</a>

@@ -56,31 +56,31 @@ Use this method to determine the <b>HMENU</b>, object ID, and child ID for the a
 
 ### -param pIDString [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BYTE</a>*</b>
+Type: <b>const <a href="/windows/desktop/WinProg/windows-data-types">BYTE</a>*</b>
 
 Pointer to a buffer containing identity string of an <b>HMENU</b>-based accessible element.
 
 ### -param dwIDStringLen [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Specifies the length of the identity string specified by <i>pIDString</i>.
 
 ### -param phmenu [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HMENU</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HMENU</a>*</b>
 
 Pointer to a buffer that receives the <b>HMENU</b> of the accessible element.
 
 ### -param pidChild [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
 Pointer to a buffer that receives the child ID of the accessible element.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
 
@@ -90,5 +90,4 @@ May return other error codes under exceptional error conditions such as low memo
 
 ## -remarks
 
-This method succeeds only if the provided identity string is an <b>HMENU</b>-based identity string. This method is useful in an <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccpropserver">IAccPropServer</a> callback server that was registered with ANNO_CONTAINER scope because it allows the server to determine, from the given identity string, the child element (<i>idChild</i>) for which the client is calling the server.
-
+This method succeeds only if the provided identity string is an <b>HMENU</b>-based identity string. This method is useful in an <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccpropserver">IAccPropServer</a> callback server that was registered with ANNO_CONTAINER scope because it allows the server to determine, from the given identity string, the child element (<i>idChild</i>) for which the client is calling the server.

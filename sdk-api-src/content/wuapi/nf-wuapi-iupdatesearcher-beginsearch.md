@@ -60,17 +60,17 @@ A string that specifies the search criteria.
 
 ### -param onCompleted [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchcompletedcallback">ISearchCompletedCallback</a> interface that is called when an asynchronous search operation is complete.
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-isearchcompletedcallback">ISearchCompletedCallback</a> interface that is called when an asynchronous search operation is complete.
 
 ### -param state [in]
 
-The caller-specific  state that is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-isearchjob-get_asyncstate">AsyncState</a> property of the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a> interface.
+The caller-specific  state that is returned by the <a href="/windows/desktop/api/wuapi/nf-wuapi-isearchjob-get_asyncstate">AsyncState</a> property of the <a href="/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a> interface.
 
 ### -param retval [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a> interface that represents the current operation that might be pending. 
+An <a href="/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a> interface that represents the current operation that might be pending. 
 
-The caller passes the returned value to the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-endsearch">EndSearch</a> method to complete a search operation.
+The caller passes the returned value to the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-endsearch">EndSearch</a> method to complete a search operation.
 
 ## -returns
 
@@ -109,13 +109,12 @@ This  method cannot be called from a remote computer.
 
 ## -remarks
 
-For a complete description of search criteria syntax, see <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-search">Search</a>.
+For a complete description of search criteria syntax, see <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesearcher-search">Search</a>.
 
-  As an alternative to implementing the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-isearchcompletedcallback">ISearchCompletedCallback</a> interface, you can use a script to   implement a callback routine of any identifier with DISPID 0 on an automation object. The type of the <i>onCompleted</i> parameter is <b>IUnknown*</b>.
+  As an alternative to implementing the <a href="/windows/desktop/api/wuapi/nn-wuapi-isearchcompletedcallback">ISearchCompletedCallback</a> interface, you can use a script to   implement a callback routine of any identifier with DISPID 0 on an automation object. The type of the <i>onCompleted</i> parameter is <b>IUnknown*</b>.
 
-When you use any asynchronous WUA API in your app, you might need to implement a time-out mechanism. For more info about how to perform asynchronous WUA operations, see <a href="https://docs.microsoft.com/windows/desktop/Wua_Sdk/guidelines-for-asynchronous-wua-operations">Guidelines for Asynchronous WUA Operations</a>.
+When you use any asynchronous WUA API in your app, you might need to implement a time-out mechanism. For more info about how to perform asynchronous WUA operations, see <a href="/windows/desktop/Wua_Sdk/guidelines-for-asynchronous-wua-operations">Guidelines for Asynchronous WUA Operations</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>

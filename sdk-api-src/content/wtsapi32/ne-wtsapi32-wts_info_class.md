@@ -54,7 +54,7 @@ api_name:
 
 Contains values that indicate the type of 
     session information to retrieve in a call to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> function.
+    <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> function.
 
 ## -enum-fields
 
@@ -93,7 +93,7 @@ A null-terminated string that contains the name of the Remote Desktop Services s
        name of the Remote Desktop Services session. Each Remote Desktop Services session is associated with an interactive window 
        station. Because the only supported window station name for an interactive window station is 
        "WinSta0", each session is associated with its own "WinSta0" window station. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/winstation/window-stations">Window Stations</a>.</div>
+      <a href="/windows/desktop/winstation/window-stations">Window Stations</a>.</div>
 <div> </div>
 
 ### -field WTSDomainName
@@ -103,7 +103,7 @@ A null-terminated string that contains the name of the domain to which the logge
 ### -field WTSConnectState
 
 The session's current connection state. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a>.
+      <a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a>.
 
 ### -field WTSClientBuildNumber
 
@@ -123,20 +123,20 @@ A <b>USHORT</b> client-specific product identifier.
 
 ### -field WTSClientHardwareId
 
-A <b>ULONG</b> value that contains a client-specific hardware identifier. This option is reserved for future use. <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> will always return a value of 0.
+A <b>ULONG</b> value that contains a client-specific hardware identifier. This option is reserved for future use. <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> will always return a value of 0.
 
 ### -field WTSClientAddress
 
 The network type and network address of the client. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a>.
+      <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a>.
 
-The IP address is offset by two bytes from the start of the <b>Address</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a> 
+The IP address is offset by two bytes from the start of the <b>Address</b> member of the <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a> 
          structure.
 
 ### -field WTSClientDisplay
 
 Information about the display resolution of the client. For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a>.
+      <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_display">WTS_CLIENT_DISPLAY</a>.
 
 ### -field WTSClientProtocolType
 
@@ -182,57 +182,57 @@ The RDP protocol.
 
 ### -field WTSIdleTime
 
-This value returns <b>FALSE</b>. If you call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information, <b>GetLastError</b> returns <b>ERROR_NOT_SUPPORTED</b>.
+This value returns <b>FALSE</b>. If you call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information, <b>GetLastError</b> returns <b>ERROR_NOT_SUPPORTED</b>.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not used.
 
 ### -field WTSLogonTime
 
-This value returns <b>FALSE</b>. If you call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information, <b>GetLastError</b> returns <b>ERROR_NOT_SUPPORTED</b>.
+This value returns <b>FALSE</b>. If you call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information, <b>GetLastError</b> returns <b>ERROR_NOT_SUPPORTED</b>.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not used.
 
 ### -field WTSIncomingBytes
 
-This value returns <b>FALSE</b>. If you call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information, <b>GetLastError</b> returns <b>ERROR_NOT_SUPPORTED</b>.
+This value returns <b>FALSE</b>. If you call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information, <b>GetLastError</b> returns <b>ERROR_NOT_SUPPORTED</b>.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not used.
 
 ### -field WTSOutgoingBytes
 
-This value returns <b>FALSE</b>. If you call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information, <b>GetLastError</b> returns <b>ERROR_NOT_SUPPORTED</b>.
+This value returns <b>FALSE</b>. If you call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information, <b>GetLastError</b> returns <b>ERROR_NOT_SUPPORTED</b>.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not used.
 
 ### -field WTSIncomingFrames
 
-This value returns <b>FALSE</b>. If you call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information, <b>GetLastError</b> returns <b>ERROR_NOT_SUPPORTED</b>.
+This value returns <b>FALSE</b>. If you call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information, <b>GetLastError</b> returns <b>ERROR_NOT_SUPPORTED</b>.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not used.
 
 ### -field WTSOutgoingFrames
 
-This value returns <b>FALSE</b>. If you call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information, <b>GetLastError</b> returns <b>ERROR_NOT_SUPPORTED</b>.
+This value returns <b>FALSE</b>. If you call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to get extended error information, <b>GetLastError</b> returns <b>ERROR_NOT_SUPPORTED</b>.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not used.
 
 ### -field WTSClientInfo
 
-Information about a Remote Desktop Connection (RDC) client. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsclienta">WTSCLIENT</a>.
+Information about a Remote Desktop Connection (RDC) client. For more information, see <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsclienta">WTSCLIENT</a>.
 
 ### -field WTSSessionInfo
 
-Information about a client session on a RD Session Host server. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoa">WTSINFO</a>.
+Information about a client session on a RD Session Host server. For more information, see <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoa">WTSINFO</a>.
 
 ### -field WTSSessionInfoEx
 
-Extended information about a  session on a   RD Session Host server. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoexa">WTSINFOEX</a>.
+Extended information about a  session on a   RD Session Host server. For more information, see <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoexa">WTSINFOEX</a>.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported.
 
 ### -field WTSConfigInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsconfiginfoa">WTSCONFIGINFO</a> structure that contains information about the configuration of a RD Session Host server.
+A <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsconfiginfoa">WTSCONFIGINFO</a> structure that contains information about the configuration of a RD Session Host server.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported.
 
@@ -242,18 +242,17 @@ This value is not supported.
 
 ### -field WTSSessionAddressV4
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_address">WTS_SESSION_ADDRESS</a> structure that contains the IPv4 address assigned to the session.
-     If the session does not have a virtual IP address, the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> function  returns <b>ERROR_NOT_SUPPORTED</b>.
+A <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_address">WTS_SESSION_ADDRESS</a> structure that contains the IPv4 address assigned to the session.
+     If the session does not have a virtual IP address, the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> function  returns <b>ERROR_NOT_SUPPORTED</b>.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported.
 
 ### -field WTSIsRemoteSession
 
-Determines whether the current session is a remote session. The <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> function returns a value of <b>TRUE</b> to indicate that the current session is a remote session, and <b>FALSE</b> to indicate that the current session is a local session. This value can only be used for the local machine, so the <i>hServer</i> parameter of the <b>WTSQuerySessionInformation</b> function must contain <b>WTS_CURRENT_SERVER_HANDLE</b>.
+Determines whether the current session is a remote session. The <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> function returns a value of <b>TRUE</b> to indicate that the current session is a remote session, and <b>FALSE</b> to indicate that the current session is a local session. This value can only be used for the local machine, so the <i>hServer</i> parameter of the <b>WTSQuerySessionInformation</b> function must contain <b>WTS_CURRENT_SERVER_HANDLE</b>.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
-
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>

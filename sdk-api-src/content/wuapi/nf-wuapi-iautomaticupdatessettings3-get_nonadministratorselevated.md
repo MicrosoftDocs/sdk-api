@@ -70,5 +70,4 @@ The NonAdministratorsElevated property controls whether non-administrative users
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings3">IAutomaticUpdatesSettings3</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings3">IAutomaticUpdatesSettings3</a>

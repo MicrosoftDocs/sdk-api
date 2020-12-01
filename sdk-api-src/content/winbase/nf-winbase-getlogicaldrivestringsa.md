@@ -86,18 +86,18 @@ If the buffer is not large enough, the return value is greater than <i>nBufferLe
        It is the size of the buffer required to hold the drive strings.
 
 If the function fails, the return value is zero. To get extended error information, use the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
 Each string in the buffer may be used wherever a root directory is required, such as for the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a> functions.
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a> and 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a> functions.
 
 This function returns a concatenation of the drives in the Global and Local MS-DOS Device namespaces. If a 
     drive exists in both namespaces, this function will return the entry in the Local MS-DOS Device namespace. For 
     more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS DOS Device Name</a>.
+    <a href="/windows/desktop/FileIO/defining-an-ms-dos-device-name">Defining an MS DOS Device Name</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -165,23 +165,22 @@ SMB does not support volume management functions.
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/Memory/obtaining-a-file-name-from-a-file-handle">Obtaining a File Name From a File Handle</a>.
+     <a href="/windows/desktop/Memory/obtaining-a-file-name-from-a-file-handle">Obtaining a File Name From a File Handle</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getlogicaldrives">GetLogicalDrives</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

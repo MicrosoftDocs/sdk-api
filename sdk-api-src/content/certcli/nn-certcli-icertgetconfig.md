@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>ICertGetConfig</b> interface provides functionality for retrieving  the public  configuration data (specified during client setup) for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">Certificate Services</a> server.
+The <b>ICertGetConfig</b> interface provides functionality for retrieving  the public  configuration data (specified during client setup) for a <a href="/windows/desktop/SecGloss/c-gly">Certificate Services</a> server.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertGetConfig</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertGetConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertGetConfig</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ICertGetConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICertGetConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertgetconfig-getconfig">GetConfig</a>
+<a href="/windows/desktop/api/certcli/nf-certcli-icertgetconfig-getconfig">GetConfig</a>
 </td>
 <td align="left" width="63%">
 Retrieves the configuration string for a Certificate Services server.
@@ -80,9 +80,8 @@ Retrieves the configuration string for a Certificate Services server.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig2">ICertConfig2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

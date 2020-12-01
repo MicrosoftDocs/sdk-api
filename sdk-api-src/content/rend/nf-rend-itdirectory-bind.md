@@ -72,7 +72,7 @@ Pointer to a <b>BSTR</b> containing the user's password.
 
 ### -param lFlags [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/rendbind--constants">RENDBIND</a> flags indicator of whether all parameters must be validated or can take a default.
+<a href="/windows/desktop/Tapi/rendbind--constants">RENDBIND</a> flags indicator of whether all parameters must be validated or can take a default.
 
 ## -returns
 
@@ -124,7 +124,7 @@ A password is required but was not supplied, the domain and user are not supplie
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nf-rend-itdirectory-connect">ITDirectory::Connect</a> method has not been invoked or did not succeed.
+<a href="/windows/desktop/api/rend/nf-rend-itdirectory-connect">ITDirectory::Connect</a> method has not been invoked or did not succeed.
 
 </td>
 </tr>
@@ -138,10 +138,9 @@ Calling this function is optional. However, some directory operations require th
 <b>Bind</b>.
 
 The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pDomainName</i>, <i>pUserName</i>, and <i>pPassword</i> parameters. The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variables are no longer needed.
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pDomainName</i>, <i>pUserName</i>, and <i>pPassword</i> parameters. The application must use 
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variables are no longer needed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
-
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>

@@ -58,9 +58,8 @@ The
 ### -param EventItem [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/ns-mspaddr-mspeventitem">MSPEVENTITEM</a> structure, which contains the event information.
+<a href="/windows/desktop/api/mspaddr/ns-mspaddr-mspeventitem">MSPEVENTITEM</a> structure, which contains the event information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>
-
+<a href="/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>

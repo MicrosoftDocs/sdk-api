@@ -52,15 +52,15 @@ api_name:
 
 The 
 <b>IComponentData2</b> interface supersedes the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface. The 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface. The 
 <b>IComponentData2</b> interface contains the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata2-querydispatch">IComponentData2::QueryDispatch</a> method, which provides an <b>IDispatch</b> interface to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/view-object">View</a> object for use with the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata2-querydispatch">IComponentData2::QueryDispatch</a> method, which provides an <b>IDispatch</b> interface to the 
+<a href="/previous-versions/windows/desktop/mmc/view-object">View</a> object for use with the 
+<a href="/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponentData2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComponentData2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComponentData2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IComponentData2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,65 +75,64 @@ The <b>IComponentData2</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-compareobjects">CompareObjects</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-compareobjects">CompareObjects</a>
 </td>
 <td align="left" width="63%">
 Enables a snap-in to compare two data objects acquired through 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-querydataobject">QueryDataObject</a>. Be aware that data objects can be acquired from two different instances of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>)</td>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-querydataobject">QueryDataObject</a>. Be aware that data objects can be acquired from two different instances of 
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>.</p> (Inherited from <a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-createcomponent">CreateComponent</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-createcomponent">CreateComponent</a>
 </td>
 <td align="left" width="63%">
 Creates a component that will be associated with this 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>)</td>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a> interface.</p> (Inherited from <a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-destroy">Destroy</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-destroy">Destroy</a>
 </td>
 <td align="left" width="63%">
-Releases all references to the console.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>)</td>
+Releases all references to the console.</p> (Inherited from <a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-getdisplayinfo">GetDisplayInfo</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-getdisplayinfo">GetDisplayInfo</a>
 </td>
 <td align="left" width="63%">
-Retrieves display information about an item in the scope pane.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>)</td>
+Retrieves display information about an item in the scope pane.</p> (Inherited from <a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-initialize">Initialize</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
-Provides an entry point to the console.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>)</td>
+Provides an entry point to the console.</p> (Inherited from <a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">Notify</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-notify">Notify</a>
 </td>
 <td align="left" width="63%">
-Called by the console to notify the snap-in of actions taken by a user.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>)</td>
+Called by the console to notify the snap-in of actions taken by a user.</p> (Inherited from <a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata-querydataobject">QueryDataObject</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata-querydataobject">QueryDataObject</a>
 </td>
 <td align="left" width="63%">
-Returns a data object that can be used to retrieve context information for the specified cookie.</p> (Inherited from <a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>)</td>
+Returns a data object that can be used to retrieve context information for the specified cookie.</p> (Inherited from <a href="/windows/desktop/api/mmc/nn-mmc-icomponentdata">IComponentData</a>)</td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponentdata2-querydispatch">QueryDispatch</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponentdata2-querydispatch">QueryDispatch</a>
 </td>
 <td align="left" width="63%">
 Returns an <b>IDispatch</b> interface for the specified cookie; MMC will expose the <b>IDispatch</b> interface through the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
+<a href="/previous-versions/windows/desktop/mmc/mmc-2-0-automation-object-model">MMC 2.0 Automation Object Model</a>.
 
 </td>
 </tr>
 </table>
-

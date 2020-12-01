@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains extended information about a shortcut menu command. This structure is an extended version of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo">CMINVOKECOMMANDINFO</a> that allows the use of Unicode values.
+Contains extended information about a shortcut menu command. This structure is an extended version of <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo">CMINVOKECOMMANDINFO</a> that allows the use of Unicode values.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ Contains extended information about a shortcut menu command. This structure is a
 
 Type: <b>DWORD</b>
 
-The size of this structure, in bytes. This member should be filled in by callers of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> and tested by the implementations to know that the structure is a <b>CMINVOKECOMMANDINFOEX</b> structure rather than <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo">CMINVOKECOMMANDINFO</a>.
+The size of this structure, in bytes. This member should be filled in by callers of <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> and tested by the implementations to know that the structure is a <b>CMINVOKECOMMANDINFOEX</b> structure rather than <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo">CMINVOKECOMMANDINFO</a>.
 
 ### -field fMask
 
@@ -84,7 +84,7 @@ The <b>hIcon</b> member is valid. As of Windows Vista this flag is not used.
 
 #### CMIC_MASK_FLAG_NO_UI
 
-The implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> is prevented from displaying user interface elements (for example, error messages) while carrying out a command.
+The implementation of <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> is prevented from displaying user interface elements (for example, error messages) while carrying out a command.
 
 
 
@@ -128,13 +128,13 @@ This flag is valid only when referring to a 16-bit Windows-based application. If
 
 #### CMIC_MASK_ASYNCOK
 
-The implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> can spin off a new thread or process to handle the call and does not need to block on completion of the function being invoked. For example, if the verb is "delete" the <b>IContextMenu::InvokeCommand</b> call may return before all of the items have been deleted. Since this is advisory, calling applications that specify this flag cannot guarantee that this request will be honored if they are not familiar with the implementation of the verb that they are invoking.
+The implementation of <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> can spin off a new thread or process to handle the call and does not need to block on completion of the function being invoked. For example, if the verb is "delete" the <b>IContextMenu::InvokeCommand</b> call may return before all of the items have been deleted. Since this is advisory, calling applications that specify this flag cannot guarantee that this request will be honored if they are not familiar with the implementation of the verb that they are invoking.
 
 
 
 #### CMIC_MASK_NOASYNC
 
-<b>Windows Vista and later.</b> The implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> should be synchronous, not returning before it is complete. Since this is recommended, calling applications that specify this flag cannot guarantee that this request will be honored if they are not familiar with the implementation of the verb that they are invoking.
+<b>Windows Vista and later.</b> The implementation of <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> should be synchronous, not returning before it is complete. Since this is recommended, calling applications that specify this flag cannot guarantee that this request will be honored if they are not familiar with the implementation of the verb that they are invoking.
 
 
 
@@ -152,14 +152,14 @@ The CTRL key is pressed. Use this instead of polling the current state of the ke
 
 #### CMIC_MASK_FLAG_LOG_USAGE
 
-Indicates that the implementation of <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> might want to keep track of the item being invoked for features like the "Recent documents" menu.
+Indicates that the implementation of <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> might want to keep track of the item being invoked for features like the "Recent documents" menu.
         
 
 
 
 #### CMIC_MASK_NOZONECHECKS
 
-Do not perform a zone check. This flag allows <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> to bypass zone checking put into place by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute">IAttachmentExecute</a>.
+Do not perform a zone check. This flag allows <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a> to bypass zone checking put into place by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute">IAttachmentExecute</a>.
 
 
 
@@ -171,7 +171,7 @@ The <b>ptInvoke</b> member is valid.
 
 Type: <b>HWND</b>
 
-A handle to the window that is the owner of the shortcut menu. An extension can also use this handle as the owner of any message boxes or dialog boxes it displays. Callers must specify a legitimate HWND that can be used as the owner window for any UI that may be displayed. Failing to specify an HWND when calling from a UI thread (one with windows already created) will result in reentrancy and possible bugs in the implementation of a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> call.
+A handle to the window that is the owner of the shortcut menu. An extension can also use this handle as the owner of any message boxes or dialog boxes it displays. Callers must specify a legitimate HWND that can be used as the owner window for any UI that may be displayed. Failing to specify an HWND when calling from a UI thread (one with windows already created) will result in reentrancy and possible bugs in the implementation of a <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> call.
 
 ### -field lpVerb
 
@@ -205,9 +205,9 @@ The address of a null-terminated string that specifies the language-independent 
 
 This is not a fixed set; new canonical verbs can be invented by context menu handlers and applications can invoke them.
 
-If a canonical verb exists and a menu handler does not implement the canonical verb, it must return a failure code to enable the next handler to be able to handle this verb. Failing to do this will break functionality in the system including <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>.
+If a canonical verb exists and a menu handler does not implement the canonical verb, it must return a failure code to enable the next handler to be able to handle this verb. Failing to do this will break functionality in the system including <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>.
 
-Alternatively, rather than a pointer, this parameter can be <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(offset) where <i>offset</i> is the menu-identifier offset of the command to carry out. Implementations can use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a> macro to detect that this alternative is being employed. The Shell uses this alternative when the user chooses a menu command.
+Alternatively, rather than a pointer, this parameter can be <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>(offset) where <i>offset</i> is the menu-identifier offset of the command to carry out. Implementations can use the <a href="/windows/desktop/api/winuser/nf-winuser-is_intresource">IS_INTRESOURCE</a> macro to detect that this alternative is being employed. The Shell uses this alternative when the user chooses a menu command.
 
 ### -field lpParameters
 
@@ -225,7 +225,7 @@ An optional working directory name. This member is always <b>NULL</b> for menu i
 
 Type: <b>int</b>
 
-A set of SW_ values to pass to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function if the command displays a window or starts an application.
+A set of SW_ values to pass to the <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function if the command displays a window or starts an application.
 
 ### -field dwHotKey
 
@@ -272,13 +272,13 @@ A Unicode title.
 
 ### -field ptInvoke
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 The point where the command is invoked. If the <b>fMask</b> member does not specify <b>CMIC_MASK_PTINVOKE</b>, this member is ignored. This member is not valid prior to Internet Explorer 4.0.
 
 ## -remarks
 
-Although the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> declaration specifies a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo">CMINVOKECOMMANDINFO</a> structure for the <i>pici</i> parameter, it can also accept a <b>CMINVOKECOMMANDINFOEX</b> structure. If you are implementing this method, you must inspect <b>cbSize</b> to determine which structure has been passed. 
+Although the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand">IContextMenu::InvokeCommand</a> declaration specifies a <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-cminvokecommandinfo">CMINVOKECOMMANDINFO</a> structure for the <i>pici</i> parameter, it can also accept a <b>CMINVOKECOMMANDINFOEX</b> structure. If you are implementing this method, you must inspect <b>cbSize</b> to determine which structure has been passed. 
 			
 
 By default, all 16-bit Windows-based applications run as threads in a single, shared VDM. The advantage of running separately is that a crash only terminates the single VDM; any other programs running in distinct VDMs continue to function normally. Also, 16-bit Windows-based applications that are run in separate VDMs have separate input queues. That means that if one application stops responding momentarily, applications in separate VDMs continue to receive input. The disadvantage of running separately is that it takes significantly more memory to do so.
@@ -287,4 +287,3 @@ By default, all 16-bit Windows-based applications run as threads in a single, sh
 
 <div class="alert"><b>Note</b>  Prior to Windows Vista, this structure was declared in Shlobj.h.</div>
 <div> </div>
-

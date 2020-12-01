@@ -54,35 +54,34 @@ api_name:
 
 ## -description
 
-The <b>USBUSER_BANDWIDTH_INFO_REQUEST</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a> I/O control request to retrieve information about the allocated bandwidth.
+The <b>USBUSER_BANDWIDTH_INFO_REQUEST</b> structure is used with the <a href="/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a> I/O control request to retrieve information about the allocated bandwidth.
 
 ## -struct-fields
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a> structure that specifies the user-mode request on input to IOCTL_USB_USER_REQUEST and provides buffer and status information on output.
+A <a href="/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a> structure that specifies the user-mode request on input to IOCTL_USB_USER_REQUEST and provides buffer and status information on output.
 
 ### -field BandwidthInformation
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_bandwidth_info">USB_BANDWIDTH_INFO</a> structure that reports bandwidth allocation information.
+A <a href="/windows/desktop/api/usbuser/ns-usbuser-usb_bandwidth_info">USB_BANDWIDTH_INFO</a> structure that reports bandwidth allocation information.
 
 ## -remarks
 
-The <b>USBUSER_BANDWIDTH_INFO_REQUEST</b> structure is used with the USBUSER_GET_BANDWIDTH_INFORMATION user-mode request. For more information about this request, see <a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>.
+The <b>USBUSER_BANDWIDTH_INFO_REQUEST</b> structure is used with the USBUSER_GET_BANDWIDTH_INFORMATION user-mode request. For more information about this request, see <a href="/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>
+<a href="/windows/desktop/api/usbuser/ni-usbuser-ioctl_usb_user_request">IOCTL_USB_USER_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
+<a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a>
+<a href="/windows/desktop/api/usbuser/ns-usbuser-usbuser_request_header">USBUSER_REQUEST_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-usb_bandwidth_info">USB_BANDWIDTH_INFO</a>
-
+<a href="/windows/desktop/api/usbuser/ns-usbuser-usb_bandwidth_info">USB_BANDWIDTH_INFO</a>

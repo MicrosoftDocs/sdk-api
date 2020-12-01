@@ -58,7 +58,7 @@ environment, target, and session objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITsSbProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITsSbProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,98 +73,98 @@ The <b>ITsSbProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createenvironmentobject">CreateEnvironmentObject</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createenvironmentobject">CreateEnvironmentObject</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbenvironment">ITsSbEnvironment</a> environment object.
+Creates an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbenvironment">ITsSbEnvironment</a> environment object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createenvironmentpropertysetobject">CreateEnvironmentPropertySetObject</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createenvironmentpropertysetobject">CreateEnvironmentPropertySetObject</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbenvironmentpropertyset">ITsSbEnvironmentPropertySet</a> environment property set object.
+Creates an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbenvironmentpropertyset">ITsSbEnvironmentPropertySet</a> environment property set object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createloadbalanceresultobject">CreateLoadBalanceResultObject</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createloadbalanceresultobject">CreateLoadBalanceResultObject</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbloadbalanceresult">ITsSbLoadBalanceResult</a> load-balancing result 
+Creates an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbloadbalanceresult">ITsSbLoadBalanceResult</a> load-balancing result 
 object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createpluginpropertyset">CreatePluginPropertySet</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createpluginpropertyset">CreatePluginPropertySet</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbpluginpropertyset">ITsSbPluginPropertySet</a> plug-in property set object.
+Creates an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbpluginpropertyset">ITsSbPluginPropertySet</a> plug-in property set object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createsessionobject">CreateSessionObject</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createsessionobject">CreateSessionObject</a>
 </td>
 <td align="left" width="63%">
-Plug-ins can use the <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createsessionobject">CreateSessionObject</a> method to create an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a> session object.
+Plug-ins can use the <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createsessionobject">CreateSessionObject</a> method to create an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a> session object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createtargetobject">CreateTargetObject</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createtargetobject">CreateTargetObject</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a> target object.
+Creates an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a> target object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createtargetpropertysetobject">CreateTargetPropertySetObject</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-createtargetpropertysetobject">CreateTargetPropertySetObject</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbtargetpropertyset">ITsSbTargetPropertySet</a> target property set object.
+Creates an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtargetpropertyset">ITsSbTargetPropertySet</a> target property set object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-getfilterpluginstore">GetFilterPluginStore</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-getfilterpluginstore">GetFilterPluginStore</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbfilterpluginstore">FilterPluginStore</a> instance of the  filter plug-in store.
+Retrieves a <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbfilterpluginstore">FilterPluginStore</a> instance of the  filter plug-in store.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-getinstanceofglobalstore">GetInstanceOfGlobalStore</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-getinstanceofglobalstore">GetInstanceOfGlobalStore</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbglobalstore">ITsSbGlobalStore</a> instance of the global store object.
+Retrieves an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbglobalstore">ITsSbGlobalStore</a> instance of the global store object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-getresourcepluginstore">GetResourcePluginStore</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-getresourcepluginstore">GetResourcePluginStore</a>
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a> instance of the resource plug-in store.
+Retrieves an <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a> instance of the resource plug-in store.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-registerfornotification">RegisterForNotification</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-registerfornotification">RegisterForNotification</a>
 </td>
 <td align="left" width="63%">
 Requests that  RD Connection Broker send notifications about specified events.
@@ -173,7 +173,7 @@ Requests that  RD Connection Broker send notifications about specified events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-unregisterfornotification">UnRegisterForNotification</a>
+<a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbprovider-unregisterfornotification">UnRegisterForNotification</a>
 </td>
 <td align="left" width="63%">
 Requests that  RD Connection Broker not send notifications about specified events.
@@ -184,5 +184,4 @@ Requests that  RD Connection Broker not send notifications about specified even
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
-
+<a href="/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>

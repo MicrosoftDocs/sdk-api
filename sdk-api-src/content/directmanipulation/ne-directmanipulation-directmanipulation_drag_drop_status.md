@@ -93,5 +93,4 @@ The meaning of the CANCELLED and COMMITED values depend on the previous status.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-enumerations">Direct Manipulation Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-enumerations">Direct Manipulation Enumerations</a>

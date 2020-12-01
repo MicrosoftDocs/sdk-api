@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Enables the <a href="https://docs.microsoft.com/windows/desktop/api/roparameterizediid/nf-roparameterizediid-rogetparameterizedtypeinstanceiid">RoGetParameterizedTypeInstanceIID</a> function to access run-time metadata.
+Enables the <a href="/windows/desktop/api/roparameterizediid/nf-roparameterizediid-rogetparameterizedtypeinstanceiid">RoGetParameterizedTypeInstanceIID</a> function to access run-time metadata.
 
 Implement <b>IRoMetaDataLocator</b> when you're implementing programming language bindings to enable a language to call Windows platform APIs by using Windows metadata (.winmd) files.
 
@@ -74,5 +74,4 @@ A data sink for Windows Runtime metadata. The caller should invoke the appropria
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataresolution/nf-rometadataresolution-rogetmetadatafile">RoGetMetaDataFile</a>
-
+<a href="/windows/desktop/api/rometadataresolution/nf-rometadataresolution-rogetmetadatafile">RoGetMetaDataFile</a>

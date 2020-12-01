@@ -100,7 +100,7 @@ Replace unsafe characters with their escape sequences. Unsafe characters are tho
 
 #### URL_PLUGGABLE_PROTOCOL (0x40000000)
 
-Combine URLs with client-defined pluggable protocols, according to the W3C specification. This flag does not apply to standard protocols such as ftp, http, gopher, and so on. If this flag is set, <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-urlcombinea">UrlCombine</a> does not simplify URLs, so there is no need to also set <b>URL_DONT_SIMPLIFY</b>.
+Combine URLs with client-defined pluggable protocols, according to the W3C specification. This flag does not apply to standard protocols such as ftp, http, gopher, and so on. If this flag is set, <a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlcombinea">UrlCombine</a> does not simplify URLs, so there is no need to also set <b>URL_DONT_SIMPLIFY</b>.
 
 
 
@@ -159,5 +159,4 @@ If a URL string contains "/../" or "/./", <b>UrlCanonicalize</b> treats the char
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>
-
+<a href="/windows/desktop/WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>

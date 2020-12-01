@@ -53,7 +53,7 @@ api_name:
 <p class="CCE_Message">[The  <b>IsCatalogFile</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>IsCatalogFile</b> function retrieves a Boolean value that indicates whether the specified file is a catalog file.
-<div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.</div><div> </div>
+<div class="alert"><b>Note</b>  This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.</div><div> </div>
 
 ## -parameters
 
@@ -68,4 +68,3 @@ A pointer to a null-terminated wide character string that contains the name of t
 ## -returns
 
 Returns nonzero if the specified file is a catalog file or zero otherwise.
-

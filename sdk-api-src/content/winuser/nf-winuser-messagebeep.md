@@ -50,6 +50,7 @@ api_location:
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
  - MessageBeep
+req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ---
 
 # MessageBeep function
@@ -199,7 +200,7 @@ The sound specified as the Windows Default Beep sound.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -213,23 +214,22 @@ If it cannot play the specified alert sound,
 
 The user can disable the warning beep by using the Sound control panel application.
 
-<b>Note</b>  To send a beep to a remote client, use the <a href="https://docs.microsoft.com/windows/desktop/api/utilapiset/nf-utilapiset-beep">Beep</a> function. 
+<b>Note</b>  To send a beep to a remote client, use the <a href="/windows/desktop/api/utilapiset/nf-utilapiset-beep">Beep</a> function. 
      The <b>Beep</b> function is redirected to the client, whereas 
      <b>MessageBeep</b> is not.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/utilapiset/nf-utilapiset-beep">Beep</a>
+<a href="/windows/desktop/api/utilapiset/nf-utilapiset-beep">Beep</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
+<a href="/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-flashwindow">FlashWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-flashwindow">FlashWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/notifying-the-user">Notifying the User</a>
-
+<a href="/windows/desktop/Debug/notifying-the-user">Notifying the User</a>

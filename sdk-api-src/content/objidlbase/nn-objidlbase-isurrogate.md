@@ -54,7 +54,7 @@ Used to dynamically load new DLL servers into an existing surrogate and free the
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurrogate</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISurrogate</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISurrogate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISurrogate</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISurrogate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isurrogate-freesurrogate">FreeSurrogate</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isurrogate-freesurrogate">FreeSurrogate</a>
 </td>
 <td align="left" width="63%">
 Unloads a DLL server.
@@ -78,7 +78,7 @@ Unloads a DLL server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-isurrogate-loaddllserver">LoadDllServer</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-isurrogate-loaddllserver">LoadDllServer</a>
 </td>
 <td align="left" width="63%">
 Loads a DLL server into the implementing surrogate.
@@ -93,9 +93,8 @@ A surrogate is an EXE process into which a DLL server can be loaded to give the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/com/dll-surrogates">DLL Surrogates</a>
+<a href="/windows/desktop/com/dll-surrogates">DLL Surrogates</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/writing-a-custom-surrogate">Writing a Custom Surrogate</a>
-
+<a href="/windows/desktop/com/writing-a-custom-surrogate">Writing a Custom Surrogate</a>

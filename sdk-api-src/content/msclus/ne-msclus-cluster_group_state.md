@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Enumerates the possible states of a 
-   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/groups">group</a>.
+   <a href="/previous-versions/windows/desktop/mscs/groups">group</a>.
 
 ## -enum-fields
 
@@ -62,22 +62,22 @@ The state of the group is unknown.
 
 ### -field ClusterGroupOnline
 
-All of the resources in the group are <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/o-gly">online</a>.
+All of the resources in the group are <a href="/previous-versions/windows/desktop/mscs/o-gly">online</a>.
 
 ### -field ClusterGroupOffline
 
-All of the resources in the group are <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/o-gly">offline</a> or 
+All of the resources in the group are <a href="/previous-versions/windows/desktop/mscs/o-gly">offline</a> or 
       there are no resources in the group.
 
 ### -field ClusterGroupFailed
 
-At least one <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> in the group has failed.
+At least one <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> in the group has failed.
 
 ### -field ClusterGroupPartialOnline
 
 At least one resource in the group is online. No resources are 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/p-gly">pending</a> or 
-      <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/f-gly">failed</a>.
+      <a href="/previous-versions/windows/desktop/mscs/p-gly">pending</a> or 
+      <a href="/previous-versions/windows/desktop/mscs/f-gly">failed</a>.
 
 ### -field ClusterGroupPending
 
@@ -85,13 +85,12 @@ At least one resource in the group is in a pending state. There are no failed re
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-getclustergroupstate">GetClusterGroupState</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-getclustergroupstate">GetClusterGroupState</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusresgroup-state">State Property of the ClusResGroup Object</a>
-
+<a href="/previous-versions/windows/desktop/mscs/clusresgroup-state">State Property of the ClusResGroup Object</a>

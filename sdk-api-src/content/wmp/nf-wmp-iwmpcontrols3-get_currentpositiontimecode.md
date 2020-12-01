@@ -96,9 +96,8 @@ Specifying and retrieving values by using <b>put_currentPositionTimecode</b> and
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcontrols3">IWMPControls3 Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcontrols3">IWMPControls3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-put_currentpositiontimecode">IWMPControls3::put_currentPositionTimecode</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-put_currentpositiontimecode">IWMPControls3::put_currentPositionTimecode</a>

@@ -66,13 +66,12 @@ A <b>BYTE</b> string containing the seed value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381982(v=vs.85)">DSSPUBKEY</a>
+<a href="/previous-versions/windows/desktop/legacy/aa381982(v=vs.85)">DSSPUBKEY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-rsapubkey">RSAPUBKEY</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-rsapubkey">RSAPUBKEY</a>

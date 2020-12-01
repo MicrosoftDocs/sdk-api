@@ -57,7 +57,7 @@ Retrieves a URL for performing a manual content enabling action.
 
 ### -param ppwszURL [out]
 
-Receives a pointer to a buffer that contains the URL. The caller must release the memory for the buffer by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+Receives a pointer to a buffer that contains the URL. The caller must release the memory for the buffer by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ### -param pcchURL [out]
 
@@ -104,7 +104,7 @@ No URL is available.
 
 If the enabling action can be performed by navigating to a URL, this method returns the URL. If no such URL exists, the method returns a failure code.
 
-The purpose of the URL depends on the content enabler type, which is obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenabletype">IMFContentEnabler::GetEnableType</a>.
+The purpose of the URL depends on the content enabler type, which is obtained by calling <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenabletype">IMFContentEnabler::GetEnableType</a>.
 
 <table>
 <tr>
@@ -117,7 +117,7 @@ The purpose of the URL depends on the content enabler type, which is obtained by
 </tr>
 <tr>
 <td>License acquisition</td>
-<td>URL to obtain the license. Call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenabledata">IMFContentEnabler::GetEnableData</a> and submit the data to the URL as an HTTP POST request. To receive notification when the license is acquired, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-monitorenable">IMFContentEnabler::MonitorEnable</a>.</td>
+<td>URL to obtain the license. Call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-getenabledata">IMFContentEnabler::GetEnableData</a> and submit the data to the URL as an HTTP POST request. To receive notification when the license is acquired, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-monitorenable">IMFContentEnabler::MonitorEnable</a>.</td>
 </tr>
 <tr>
 <td>Revocation</td>
@@ -127,9 +127,8 @@ The purpose of the URL depends on the content enabler type, which is obtained by
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
+<a href="/windows/desktop/medfound/how-to-play-protected-media-files">How to Play Protected Media Files</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>

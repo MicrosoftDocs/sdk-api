@@ -52,7 +52,7 @@ A pointer to a [D3D12\_VIDEO\_DECODER\_DESC](ns-d3d12video-d3d12_video_decoder_d
 
 ### -param pProtectedResourceSession
 
-A [ID3D12ProtectedResourceSession](/windows/win32/api/d3d12/nn-d3d12-id3d12protectedresourcesession) for managing access to protected resources.
+A [ID3D12ProtectedResourceSession](../d3d12/nn-d3d12-id3d12protectedresourcesession.md) for managing access to protected resources.
 
 ### -param riid
 
@@ -71,4 +71,3 @@ This method returns HRESULT.
 Decoding a new stream requires instantiating a new decoder object.
 
 ## -see-also
-

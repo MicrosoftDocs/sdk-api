@@ -83,7 +83,7 @@ The method succeeded.
 
 ## -remarks
 
-The buffer might or might not contain any valid data, and if there is valid data in the buffer, it might be smaller than the buffer's allocated size. To get the length of the valid data, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getcurrentlength">IMFMediaBuffer::GetCurrentLength</a>.
+The buffer might or might not contain any valid data, and if there is valid data in the buffer, it might be smaller than the buffer's allocated size. To get the length of the valid data, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getcurrentlength">IMFMediaBuffer::GetCurrentLength</a>.
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -94,9 +94,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
-
+<a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IValidate</b> interface enables authoring tools to validate a Windows Installer package against a set of <a href="https://docs.microsoft.com/windows/desktop/Msi/internal-consistency-evaluators-ices">Internal Consistency Evaluators</a>.
+The <b>IValidate</b> interface enables authoring tools to validate a Windows Installer package against a set of <a href="/windows/desktop/Msi/internal-consistency-evaluators-ices">Internal Consistency Evaluators</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IValidate</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IValidate</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IValidate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IValidate</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IValidate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-closecub">CloseCUB</a>
+<a href="/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-closecub">CloseCUB</a>
 </td>
 <td align="left" width="63%">
 Closes the internal consistency evaluator database (.cub file).
@@ -78,7 +78,7 @@ Closes the internal consistency evaluator database (.cub file).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-closedatabase">CloseDatabase</a>
+<a href="/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-closedatabase">CloseDatabase</a>
 </td>
 <td align="left" width="63%">
 Closes the installation package or merge module.
@@ -87,7 +87,7 @@ Closes the installation package or merge module.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opencub">OpenCUB</a>
+<a href="/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opencub">OpenCUB</a>
 </td>
 <td align="left" width="63%">
 Opens an internal consistency evaluator database (.cub file).
@@ -96,7 +96,7 @@ Opens an internal consistency evaluator database (.cub file).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opendatabase">OpenDatabase</a>
+<a href="/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-opendatabase">OpenDatabase</a>
 </td>
 <td align="left" width="63%">
 Opens an installation package or merge module.
@@ -105,7 +105,7 @@ Opens an installation package or merge module.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setdisplay">SetDisplay</a>
+<a href="/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setdisplay">SetDisplay</a>
 </td>
 <td align="left" width="63%">
 Registers a callback function to receive ICE display messages (info, warning, and error messages).
@@ -114,7 +114,7 @@ Registers a callback function to receive ICE display messages (info, warning, an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setstatus">SetStatus</a>
+<a href="/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-setstatus">SetStatus</a>
 </td>
 <td align="left" width="63%">
 Enables an authoring tool to receive information about the progress of validation through a registered callback function.
@@ -123,7 +123,7 @@ Enables an authoring tool to receive information about the progress of validatio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-validate">Validate</a>
+<a href="/windows/desktop/api/evalcom2/nf-evalcom2-ivalidate-validate">Validate</a>
 </td>
 <td align="left" width="63%">
 Validates the current installation package or merge module against the internal consistency evaluator database.
@@ -134,13 +134,12 @@ Validates the current installation package or merge module against the internal 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
+<a href="/windows/desktop/api/evalcom2/nn-evalcom2-ivalidate">IValidate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
+<a href="/windows/desktop/Msi/using-evalcom2">Using Evalcom2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
-
+<a href="/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>

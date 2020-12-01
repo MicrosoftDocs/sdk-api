@@ -54,7 +54,7 @@ Represents the allocations of storage for graphics processing unit (GPU) command
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12CommandAllocator</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>. <b>ID3D12CommandAllocator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12CommandAllocator</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>. <b>ID3D12CommandAllocator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D12CommandAllocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12commandallocator-reset">Reset</a>
+<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12commandallocator-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Indicates to re-use the memory that is associated with the command allocator.
@@ -80,14 +80,14 @@ Indicates to re-use the memory that is associated with the command allocator.
 
 ## -remarks
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandallocator">ID3D12Device::CreateCommandAllocator</a> to create a command allocator object. 
+Use <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommandallocator">ID3D12Device::CreateCommandAllocator</a> to create a command allocator object. 
 
 The command allocator object corresponds to the underlying allocations in which GPU commands are stored.  The command allocator object applies to both direct command lists and bundles.  You must use a command allocator object in a DirectX 12 app.
 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandAllocator</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandAllocator</b> as follows:
         
 
 Header file declarations.
@@ -161,15 +161,14 @@ DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 ```
 
 
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>

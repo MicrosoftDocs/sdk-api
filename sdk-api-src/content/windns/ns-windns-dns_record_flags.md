@@ -61,7 +61,7 @@ The
 ### -field Section
 
 A <a href="/windows/win32/api/windns/ne-windns-dns_section">DNS_SECTION</a> value that specifies the section of interest returned from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function call.
+<a href="/windows/desktop/api/windns/nf-windns-dnsquery_a">DnsQuery</a> function call.
 
 ### -field Delete
 
@@ -69,7 +69,7 @@ Reserved. Do not use.
 
 ### -field CharSet
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-dns_charset">DNS_CHARSET</a> value that specifies the character set used in the associated function call.
+A <a href="/windows/desktop/api/windns/ne-windns-dns_charset">DNS_CHARSET</a> value that specifies the character set used in the associated function call.
 
 ### -field Unused
 
@@ -82,4 +82,3 @@ Reserved. Do not use.
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
-

@@ -68,5 +68,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windowsdefender/nf-windowsdefender-wdenable">WDEnable</a>
-
+<a href="/windows/desktop/api/windowsdefender/nf-windowsdefender-wdenable">WDEnable</a>

@@ -56,7 +56,7 @@ Reads text from the Reader and decodes the characters as bytes according to the 
 
 ### -param reader [in]
 
-A pointer to the <b>XML Reader</b> from which the bytes should be read.  The pointer must reference a valid <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object.
+A pointer to the <b>XML Reader</b> from which the bytes should be read.  The pointer must reference a valid <a href="/windows/desktop/wsw/ws-xml-reader">WS_XML_READER</a> object.
 
 ### -param bytes
 
@@ -74,7 +74,7 @@ A pointer to a ULONG value of
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -115,5 +115,4 @@ Text is read up to either a start element or end element.  Comments are skipped,
         identically to element content.
       
 
-This function can fail for any of the reasons listed in <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.
-
+This function can fail for any of the reasons listed in <a href="/windows/desktop/api/webservices/nf-webservices-wsreadnode">WsReadNode</a>.

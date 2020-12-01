@@ -75,41 +75,40 @@ User account names are limited to 20 characters and group names are limited to 2
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_1">LOCALGROUP_MEMBERS_INFO_1</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_1">LOCALGROUP_MEMBERS_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_2">LOCALGROUP_MEMBERS_INFO_2</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_2">LOCALGROUP_MEMBERS_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/local-group-functions">Local Group Functions</a>
+<a href="/windows/desktop/NetMgmt/local-group-functions">Local Group Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupaddmembers">NetLocalGroupAddMembers</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupaddmembers">NetLocalGroupAddMembers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupdelmembers">NetLocalGroupDelMembers</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupdelmembers">NetLocalGroupDelMembers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupgetmembers">NetLocalGroupGetMembers</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupgetmembers">NetLocalGroupGetMembers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupsetmembers">NetLocalGroupSetMembers</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupsetmembers">NetLocalGroupSetMembers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>

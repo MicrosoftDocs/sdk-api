@@ -55,9 +55,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
-Defines the properties of a <a href="https://docs.microsoft.com/windows/desktop/VDS/lun-plex-object">LUN plex object</a>.
+Defines the properties of a <a href="/windows/desktop/VDS/lun-plex-object">LUN plex object</a>.
 
 ## -struct-fields
 
@@ -71,15 +71,15 @@ The size of the plex, in bytes. The size of the plex can be equal to or greater 
 
 ### -field type
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_lun_plex_type">VDS_LUN_PLEX_TYPE</a> enumeration value that specifies the type of the plex. The type of the plex is not required to match the type of the LUN to which it belongs.
+A <a href="/windows/desktop/api/vds/ne-vds-vds_lun_plex_type">VDS_LUN_PLEX_TYPE</a> enumeration value that specifies the type of the plex. The type of the plex is not required to match the type of the LUN to which it belongs.
 
 ### -field status
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_lun_plex_status">VDS_LUN_PLEX_STATUS</a> enumeration value that specifies the status of the plex. The status of the plex is not required to match the status of the LUN to which it belongs.
+A <a href="/windows/desktop/api/vds/ne-vds-vds_lun_plex_status">VDS_LUN_PLEX_STATUS</a> enumeration value that specifies the status of the plex. The status of the plex is not required to match the status of the LUN to which it belongs.
 
 ### -field health
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a>
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a>
 
 
 #### VDS_H_UNKNOWN (0)
@@ -114,11 +114,11 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_lun_ple
 
 ### -field TransitionState
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_transition_state">VDS_TRANSITION_STATE</a> enumeration value that specifies the transition state of the plex.  The transition state of the plex is not required to match that of the LUN to which the plex belongs.
+A <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_transition_state">VDS_TRANSITION_STATE</a> enumeration value that specifies the transition state of the plex.  The transition state of the plex is not required to match that of the LUN to which the plex belongs.
 
 ### -field ulFlags
 
-A bitmask of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_lun_plex_flag">VDS_LUN_PLEX_FLAG</a> enumeration values that describe the plex.
+A bitmask of <a href="/windows/desktop/api/vds/ne-vds-vds_lun_plex_flag">VDS_LUN_PLEX_FLAG</a> enumeration values that describe the plex.
 
 ### -field ulStripeSize
 
@@ -130,33 +130,32 @@ The rebuild priority of the plex. This value must be greater than or equal to 0 
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-getproperties">IVdsLunPlex::GetProperties</a>method returns this structure to report the properties of a <a href="https://docs.microsoft.com/windows/desktop/VDS/lun-plex-object">LUN plex object</a>.
+The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-getproperties">IVdsLunPlex::GetProperties</a>method returns this structure to report the properties of a <a href="/windows/desktop/VDS/lun-plex-object">LUN plex object</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-getproperties">IVdsLunPlex::GetProperties</a>
+<a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-getproperties">IVdsLunPlex::GetProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-structures">VDS Structures</a>
+<a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a>
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_health">VDS_HEALTH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_lun_plex_flag">VDS_LUN_PLEX_FLAG</a>
+<a href="/windows/desktop/api/vds/ne-vds-vds_lun_plex_flag">VDS_LUN_PLEX_FLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_lun_plex_status">VDS_LUN_PLEX_STATUS</a>
+<a href="/windows/desktop/api/vds/ne-vds-vds_lun_plex_status">VDS_LUN_PLEX_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_lun_plex_type">VDS_LUN_PLEX_TYPE</a>
+<a href="/windows/desktop/api/vds/ne-vds-vds_lun_plex_type">VDS_LUN_PLEX_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_transition_state">VDS_TRANSITION_STATE</a>
-
+<a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_transition_state">VDS_TRANSITION_STATE</a>

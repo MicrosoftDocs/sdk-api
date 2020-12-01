@@ -56,7 +56,7 @@ Gets the size of the storage-filter stack in bytes.
 
 ### -param Producer [in]
 
- A <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that gets the size.
+ A <a href="/windows/desktop/direct3ddxgi/dxgi-debug-id">DXGI_DEBUG_ID</a> value that identifies the entity that gets the size.
 
 ## -returns
 
@@ -69,5 +69,4 @@ Returns the size of the storage-filter stack in bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
-
+<a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>

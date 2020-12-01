@@ -67,23 +67,23 @@ An identifier of the pointer for which to retrieve information.
 
 ### -param touchInfo [out]
 
-Address of a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_touch_info">POINTER_TOUCH_INFO</a> structure to receive the touch-specific pointer information.
+Address of a <a href="/windows/desktop/api/winuser/ns-winuser-pointer_touch_info">POINTER_TOUCH_INFO</a> structure to receive the touch-specific pointer information.
 
 ## -returns
 
 If the function succeeds, the return value is non-zero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 <b>GetPointerTouchInfo</b> retrieves information for a single pointer (of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>) associated with a pointer message. 
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframetouchinfo">GetPointerFrameTouchInfo</a> to retrieve frame information associated with a message  for a set of pointers.
+Use <a href="/windows/desktop/api/winuser/nf-winuser-getpointerframetouchinfo">GetPointerFrameTouchInfo</a> to retrieve frame information associated with a message  for a set of pointers.
 
 The information returned by <b>GetPointerTouchInfo</b> is associated with the most recent pointer message retrieved by the calling thread. When the next message is retrieved by the calling thread, the information associated with the previous message may no longer be available.
 
-If the application does not process pointer input messages as fast as they are generated, some messages may be coalesced into a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/wm-pointerupdate">WM_POINTERUPDATE</a> message. Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfohistory">GetPointerTouchInfoHistory</a> to retrieve the message history from the most recent <b>WM_POINTERUPDATE</b> message. 
+If the application does not process pointer input messages as fast as they are generated, some messages may be coalesced into a <a href="/previous-versions/windows/desktop/inputmsg/wm-pointerupdate">WM_POINTERUPDATE</a> message. Use <a href="/windows/desktop/api/winuser/nf-winuser-getpointertouchinfohistory">GetPointerTouchInfoHistory</a> to retrieve the message history from the most recent <b>WM_POINTERUPDATE</b> message. 
 
 If the information associated with the message is no longer available, this function fails with the last error set to <b>ERROR_NO_DATA</b>.
 
@@ -93,17 +93,16 @@ If the specified pointer is not of type <a href="/windows/win32/api/winuser/ne-w
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/inputmsg/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframetouchinfo">GetPointerFrameTouchInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getpointerframetouchinfo">GetPointerFrameTouchInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframetouchinfohistory">GetPointerFrameTouchInfoHistory</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getpointerframetouchinfohistory">GetPointerFrameTouchInfoHistory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointertouchinfohistory">GetPointerTouchInfoHistory</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-getpointertouchinfohistory">GetPointerTouchInfoHistory</a>

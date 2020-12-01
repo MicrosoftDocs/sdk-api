@@ -57,11 +57,11 @@ The <code>Render</code> method completes rendering of the stream originating wit
 
 ### -param ppinOut [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of this pin.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of this pin.
 
 ### -param pGraph [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface of the Filter Graph Manager.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> interface of the Filter Graph Manager.
 
 ## -returns
 
@@ -133,9 +133,8 @@ STDMETHODIMP CMyOutputPin::Render(IPin *pPin, IGraphBuilder *pGraph)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-istreambuilder">IStreamBuilder Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-istreambuilder">IStreamBuilder Interface</a>

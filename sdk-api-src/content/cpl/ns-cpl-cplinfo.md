@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Contains resource information and an application-defined value for a dialog box supported by a Control Panel application. The <a href="https://docs.microsoft.com/windows/desktop/api/cpl/nc-cpl-applet_proc">CPlApplet</a> function of the Control Panel application returns this information to the Control Panel in response to a <a href="https://docs.microsoft.com/windows/desktop/shell/fa-perceivedtypes">CPL_INQUIRE</a> message.
+Contains resource information and an application-defined value for a dialog box supported by a Control Panel application. The <a href="/windows/desktop/api/cpl/nc-cpl-applet_proc">CPlApplet</a> function of the Control Panel application returns this information to the Control Panel in response to a <a href="/windows/desktop/shell/fa-perceivedtypes">CPL_INQUIRE</a> message.
 
 ## -struct-fields
 
@@ -77,9 +77,8 @@ The resource identifier of the string containing the description for the dialog 
 
 Type: <b>LONG_PTR</b>
 
-A pointer to data defined by the application. When the Control Panel sends the <a href="https://docs.microsoft.com/windows/desktop/shell/fa-associationarray">CPL_DBLCLK</a> and <a href="https://docs.microsoft.com/windows/desktop/shell/library-functions-bumper">CPL_STOP</a> messages, it passes this value back to your application.
+A pointer to data defined by the application. When the Control Panel sends the <a href="/windows/desktop/shell/fa-associationarray">CPL_DBLCLK</a> and <a href="/windows/desktop/shell/library-functions-bumper">CPL_STOP</a> messages, it passes this value back to your application.
 
 ## -remarks
 
-If the icon or display strings of the dialog box can change based on the state of the computer, you can specify the CPL_DYNAMIC_RES value for the <b>idIcon</b>, <b>idName</b>, or <b>idInfo</b> members rather than specifying a valid resource identifier. This causes the Control Panel to send the <a href="https://docs.microsoft.com/windows/desktop/shell/glossary">CPL_NEWINQUIRE</a> message each time it needs the icon and display strings. Using this technique is significantly slower, however, because the Control Panel will need to load your application each time it sends the <b>CPL_NEWINQUIRE</b> message.
-
+If the icon or display strings of the dialog box can change based on the state of the computer, you can specify the CPL_DYNAMIC_RES value for the <b>idIcon</b>, <b>idName</b>, or <b>idInfo</b> members rather than specifying a valid resource identifier. This causes the Control Panel to send the <a href="/windows/desktop/shell/glossary">CPL_NEWINQUIRE</a> message each time it needs the icon and display strings. Using this technique is significantly slower, however, because the Control Panel will need to load your application each time it sends the <b>CPL_NEWINQUIRE</b> message.

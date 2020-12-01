@@ -56,7 +56,7 @@ Creates a media buffer that wraps an existing media buffer. The new media buffer
 
 ### -param pBuffer [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of the original media buffer.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface of the original media buffer.
 
 ### -param cbOffset [in]
 
@@ -64,11 +64,11 @@ The start of the new buffer, as an offset in bytes from the start of the origina
 
 ### -param dwLength [in]
 
-The size of the new buffer. The value of <i>cbOffset</i> + <i>dwLength</i> must be less than or equal to the size of valid data the original buffer. (The size of the valid data is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getcurrentlength">IMFMediaBuffer::GetCurrentLength</a> method.)
+The size of the new buffer. The value of <i>cbOffset</i> + <i>dwLength</i> must be less than or equal to the size of valid data the original buffer. (The size of the valid data is returned by the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getcurrentlength">IMFMediaBuffer::GetCurrentLength</a> method.)
 
 ### -param ppBuffer [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a> interface. The caller must release the interface.
 
 ## -returns
 
@@ -107,7 +107,7 @@ The requested offset or the requested length is not valid.
 
 ## -remarks
 
-The maximum size of the wrapper buffer is limited to the size of the valid data in the original buffer. This might be less than the allocated size of the original buffer. To set the size of the valid data, call <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-setcurrentlength">IMFMediaBuffer::SetCurrentLength</a>.
+The maximum size of the wrapper buffer is limited to the size of the valid data in the original buffer. This might be less than the allocated size of the original buffer. To set the size of the valid data, call <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-setcurrentlength">IMFMediaBuffer::SetCurrentLength</a>.
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
 
@@ -118,9 +118,8 @@ This function is available on the following platforms if the Windows Media Forma
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
+<a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

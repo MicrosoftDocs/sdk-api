@@ -76,6 +76,5 @@ Specifies the identifier of the language profile.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-ienumtflanguageprofiles-next">IEnumTfLanguageProfiles::Next
+<a href="/windows/desktop/api/msctf/nf-msctf-ienumtflanguageprofiles-next">IEnumTfLanguageProfiles::Next
       </a>
-

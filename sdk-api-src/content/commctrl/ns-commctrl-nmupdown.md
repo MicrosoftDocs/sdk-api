@@ -61,10 +61,10 @@ Contains information specific to up-down control notification messages. It is id
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field iPos
 
@@ -84,9 +84,8 @@ Signed integer value that represents the proposed change in the up-down control'
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/udn-deltapos">UDN_DELTAPOS</a>
+<a href="/windows/desktop/Controls/udn-deltapos">UDN_DELTAPOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>
-
+<a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>

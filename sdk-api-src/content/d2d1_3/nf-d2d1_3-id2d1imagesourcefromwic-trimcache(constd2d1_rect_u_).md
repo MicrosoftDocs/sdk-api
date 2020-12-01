@@ -56,7 +56,7 @@ This method trims the populated regions of the image source cache to just the sp
 
 ### -param rectangleToPreserve [ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-u">D2D1_RECT_U</a></b>
+Type: <b>const <a href="/windows/desktop/Direct2D/d2d1-rect-u">D2D1_RECT_U</a></b>
 
 Specifies the region of the image, in pixels, which should be preserved in the image source cache. 
           Regions which are outside of the rectangle are evicted from the cache. By default, this is an empty rectangle, 
@@ -75,11 +75,10 @@ The provided region must be constructed to include the scale at which the image 
 
 This method will fail if on-demand caching was not requested when the image source was created.
 
-As with <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1device-clearresources">ID2D1Device::ClearResources</a>, the caller can need to subsequently issue a D3D flush before memory usage is reduced.
+As with <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1device-clearresources">ID2D1Device::ClearResources</a>, the caller can need to subsequently issue a D3D flush before memory usage is reduced.
 
 This operation is only supported when the image source has been initialized using the D2D1_IMAGE_SOURCE_LOADING_OPTIONS_CACHE_ON_DEMAND option.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic">ID2D1ImageSourceFromWic</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic">ID2D1ImageSourceFromWic</a>

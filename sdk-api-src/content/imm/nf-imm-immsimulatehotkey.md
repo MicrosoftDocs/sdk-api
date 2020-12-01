@@ -60,7 +60,7 @@ Handle to the window.
 
 ### -param DWORD [in]
 
-Identifier of the IME hot key. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/ime-hot-key-identifiers">IME Hot Key Identifiers</a>.
+Identifier of the IME hot key. For more information, see <a href="/windows/desktop/Intl/ime-hot-key-identifiers">IME Hot Key Identifiers</a>.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Returns a nonzero value if successful, or 0 otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

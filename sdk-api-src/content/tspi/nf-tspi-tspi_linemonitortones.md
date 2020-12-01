@@ -66,7 +66,7 @@ The unique identifier for this tone list. Several tone lists can be outstanding 
 ### -param lpToneList
 
 A list of tones to be monitored, of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone">LINEMONITORTONE</a>. Each tone in this list has an application-defined tag field that is used to identify individual tones in the list for the purpose of reporting a tone detection. Tone monitoring in progress is canceled or changed by calling this operation with either <b>NULL</b> for <i>lpToneList</i> or with another tone list. The service provider must copy the tone list into its own memory for later reference, rather than simply retaining the pointer into application memory.
+<a href="/windows/desktop/api/tapi/ns-tapi-linemonitortone">LINEMONITORTONE</a>. Each tone in this list has an application-defined tag field that is used to identify individual tones in the list for the purpose of reporting a tone detection. Tone monitoring in progress is canceled or changed by calling this operation with either <b>NULL</b> for <i>lpToneList</i> or with another tone list. The service provider must copy the tone list into its own memory for later reference, rather than simply retaining the pointer into application memory.
 
 ### -param dwNumEntries
 
@@ -86,7 +86,7 @@ This function returns zero (success) when tone monitoring is correctly initiated
 Although this function can be invoked in any call state except <i>idle</i>, tones can typically only be detected while the call is in the <i>connected</i> state. Tone detection usually requires computational resources. Depending on the service provider and other activities that compete for such resources, the number of tones that can be detected can vary over time. Also, an equivalent amount of resources can be consumed for monitoring a single triple frequency tone versus three single frequency tones. If resources are overcommitted, the service provider returns LINEERR_RESOURCEUNAVAIL.
 
 The service provider monitors for all tones in all tone lists concurrently. When a tone is detected, each matching tone from each tone list is reported separately using a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725234(v=vs.85)">LINE_MONITORTONE</a> message. Each tone report includes both the tone list identifier and the application-specific tag. Some service providers may not be able to discriminate very close tones, so that multiple matches may be reported even for tones whose descriptions are not strictly identical.
+<a href="/previous-versions/windows/desktop/legacy/ms725234(v=vs.85)">LINE_MONITORTONE</a> message. Each tone report includes both the tone list identifier and the application-specific tag. Some service providers may not be able to discriminate very close tones, so that multiple matches may be reported even for tones whose descriptions are not strictly identical.
 
 <div class="alert"><b>Note</b>  <b>TSPI_lineMonitorTones</b> is also used to detect silence. Silence is specified as a tone with all zero frequencies.</div>
 <div> </div>
@@ -94,21 +94,20 @@ The corresponding function at the TAPI level does not include a <i>dwToneListID<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linemonitortone">LINEMONITORTONE</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linemonitortone">LINEMONITORTONE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms725234(v=vs.85)">LINE_MONITORTONE</a>
+<a href="/previous-versions/windows/desktop/legacy/ms725234(v=vs.85)">LINE_MONITORTONE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps">TSPI_lineGetDevCaps</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetdevcaps">TSPI_lineGetDevCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linesetmediacontrol">TSPI_lineSetMediaControl</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linesetmediacontrol">TSPI_lineSetMediaControl</a>

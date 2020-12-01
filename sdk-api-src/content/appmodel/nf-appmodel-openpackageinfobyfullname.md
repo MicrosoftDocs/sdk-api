@@ -106,9 +106,8 @@ The package is not installed for the current user.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-closepackageinfo">ClosePackageInfo</a>
+<a href="/windows/desktop/api/appmodel/nf-appmodel-closepackageinfo">ClosePackageInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-getpackageinfo">GetPackageInfo</a>
-
+<a href="/windows/desktop/api/appmodel/nf-appmodel-getpackageinfo">GetPackageInfo</a>

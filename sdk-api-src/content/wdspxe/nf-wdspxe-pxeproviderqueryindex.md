@@ -57,7 +57,7 @@ Returns the index of the specified provider in the list of registered providers.
 ### -param pszProviderName [in]
 
 Friendly name for the provider from the call to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderregister">PxeProviderRegister</a> function.
+      <a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderregister">PxeProviderRegister</a> function.
 
 ### -param puIndex [out]
 
@@ -99,9 +99,8 @@ if (dwError == ERROR_SUCCESS)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderregister">PxeProviderRegister</a>
+<a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxeproviderregister">PxeProviderRegister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
-
+<a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>

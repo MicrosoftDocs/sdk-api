@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenterconfig">IVMRImagePresenterConfig</a> interface provides methods for setting the renderering preferences on the allocator-presenter used by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9).
+The <a href="/windows/desktop/api/strmif/nn-strmif-ivmrimagepresenterconfig">IVMRImagePresenterConfig</a> interface provides methods for setting the renderering preferences on the allocator-presenter used by the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a> (VMR-9).
 
-Applications should not use this interface directly. The VMR-9 filter's <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9</a> interface calls methods on this interface. The default allocator-presenter implements this interface. Custom allocator-presenters can also expose this interface.
+Applications should not use this interface directly. The VMR-9 filter's <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrfilterconfig9">IVMRFilterConfig9</a> interface calls methods on this interface. The default allocator-presenter implements this interface. Custom allocator-presenters can also expose this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImagePresenterConfig9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRImagePresenterConfig9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImagePresenterConfig9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRImagePresenterConfig9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVMRImagePresenterConfig9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrimagepresenterconfig9-getrenderingprefs">GetRenderingPrefs</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrimagepresenterconfig9-getrenderingprefs">GetRenderingPrefs</a>
 </td>
 <td align="left" width="63%">
 Gets the rendering preferences.
@@ -81,7 +81,7 @@ Gets the rendering preferences.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrimagepresenterconfig9-setrenderingprefs">SetRenderingPrefs</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrimagepresenterconfig9-setrenderingprefs">SetRenderingPrefs</a>
 </td>
 <td align="left" width="63%">
 Sets the rendering preferences.
@@ -96,5 +96,4 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

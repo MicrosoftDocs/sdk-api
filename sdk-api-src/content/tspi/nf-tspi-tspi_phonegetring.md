@@ -79,13 +79,12 @@ The service provider defines the actual audible ringing patterns corresponding t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesetring">TSPI_phoneSetRing</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonesetring">TSPI_phoneSetRing</a>

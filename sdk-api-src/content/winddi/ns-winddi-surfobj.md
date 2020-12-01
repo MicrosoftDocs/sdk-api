@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The SURFOBJ structure is the user object for a surface. A device driver usually calls methods on a surface object only when the surface object represents a GDI bitmap or a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device-managed surface</a>.
+The SURFOBJ structure is the user object for a surface. A device driver usually calls methods on a surface object only when the surface object represents a GDI bitmap or a <a href="/windows-hardware/drivers/">device-managed surface</a>.
 
 ## -struct-fields
 
@@ -66,7 +66,7 @@ Handle to the surface.
 
 ### -field dhpdev
 
-Identifies the device's <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> that is associated with the specified surface.
+Identifies the device's <a href="/windows-hardware/drivers/">PDEV</a> that is associated with the specified surface.
 
 ### -field hdev
 
@@ -74,7 +74,7 @@ GDI's logical handle to the PDEV associated with this device.
 
 ### -field sizlBitmap
 
-Specifies a SIZEL structure that contains the width and height, in pixels, of the surface. The SIZEL structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
+Specifies a SIZEL structure that contains the width and height, in pixels, of the surface. The SIZEL structure is identical to the <a href="/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
 
 ### -field cjBits
 
@@ -285,7 +285,7 @@ BMF_NOTSYSMEM
 
 </td>
 <td>
-The bitmap is not in system memory. <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmodifysurface">EngModifySurface</a> sets this flag when it moves a bitmap into video memory.
+The bitmap is not in system memory. <a href="/windows/desktop/api/winddi/nf-winddi-engmodifysurface">EngModifySurface</a> sets this flag when it moves a bitmap into video memory.
 
 </td>
 </tr>
@@ -329,5 +329,4 @@ When a SURFOBJ structure represents a GDI bitmap, the driver must be able to det
 
 When a SURFOBJ structure represents a device surface, the driver must be able to locate the device handle for the surface.
 
-For more information about supporting JPEG and PNG compressed images, see <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>.
-
+For more information about supporting JPEG and PNG compressed images, see <a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>.

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>ICSeqCompressFrameEnd</b> function ends sequence compression that was initiated by using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icseqcompressframestart">ICSeqCompressFrameStart</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icseqcompressframe">ICSeqCompressFrame</a> functions.
+The <b>ICSeqCompressFrameEnd</b> function ends sequence compression that was initiated by using the <a href="/windows/desktop/api/vfw/nf-vfw-icseqcompressframestart">ICSeqCompressFrameStart</a> and <a href="/windows/desktop/api/vfw/nf-vfw-icseqcompressframe">ICSeqCompressFrame</a> functions.
 
 ## -parameters
 
 ### -param pc
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a> structure used during sequence compression.
+Pointer to a <a href="/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a> structure used during sequence compression.
 
 ## -returns
 
@@ -64,13 +64,12 @@ This function does not return a value.
 
 ## -remarks
 
-When finished with compression, use the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iccompressorfree">ICCompressorFree</a> function to release the resources specified by <a href="https://docs.microsoft.com/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a>.
+When finished with compression, use the <a href="/windows/desktop/api/vfw/nf-vfw-iccompressorfree">ICCompressorFree</a> function to release the resources specified by <a href="/windows/desktop/api/vfw/ns-vfw-compvars">COMPVARS</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
+<a href="/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

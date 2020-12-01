@@ -62,11 +62,10 @@ A pointer to a Unicode string that contains the name of a remote file on a WebDA
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
-If the function fails, the return value is a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+If the function fails, the return value is a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
 The  <b>DavInvalidateCache</b> function marks the contents of the locally cached file (for the specified URL) for deletion. If this function succeeds, the local file cache is no longer valid. This function fails if there are any handles opened against the file either by the same process or by a different process on the local computer.
 
 If the item that is named in the <i>URLName</i> parameter is not present in the cache, <b>DavInvalidateCache</b> returns ERROR_SUCCESS without invalidating the cache.
-

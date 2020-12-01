@@ -67,37 +67,36 @@ All curves in a path are stored as sequences of Bézier splines. For example, wh
 
 A path stores an array of data points, each of which belongs to a line or a Bézier spline. If some of the points in the array belong to Bézier splines, then <b>GraphicsPathIterator::HasCurve</b> returns <b>TRUE</b>. If all points in the array belong to lines, then <b>GraphicsPathIterator::HasCurve</b> returns <b>FALSE</b>.
 
-Certain methods flatten a path, which means that all the curves in the path are converted to sequences of lines. After a path has been flattened, <b>GraphicsPathIterator::HasCurve</b> will always return <b>FALSE</b>. Flattening happens when you call the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-flatten">Flatten</a>, <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-widen">Widen</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-warp">Warp</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> class.
+Certain methods flatten a path, which means that all the curves in the path are converted to sequences of lines. After a path has been flattened, <b>GraphicsPathIterator::HasCurve</b> will always return <b>FALSE</b>. Flattening happens when you call the <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-flatten">Flatten</a>, <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-widen">Widen</a>, or <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-warp">Warp</a> method of the <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> class.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use">Constructing and Drawing Paths</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-flatten">Flatten</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-flatten">Flatten</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator">GraphicsPathIterator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-copydata">GraphicsPathIterator::CopyData</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspathiterator-copydata">GraphicsPathIterator::CopyData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-warp">Warp</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-warp">Warp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-widen">Widen</a>
-
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-widen">Widen</a>

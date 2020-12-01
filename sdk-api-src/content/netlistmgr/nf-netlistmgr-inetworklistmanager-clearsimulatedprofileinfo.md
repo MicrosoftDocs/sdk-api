@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Clears the connection profile values previously applied to the internet connection profile by <a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a>. The next internet connection query, via <a href="https://docs.microsoft.com/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a>, will use system information.
+Clears the connection profile values previously applied to the internet connection profile by <a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a>. The next internet connection query, via <a href="/uwp/api/windows.networking.connectivity.networkinformation.getinternetconnectionprofile">GetInternetConnectionProfile</a>, will use system information.
 
 ## -parameters
 
@@ -60,9 +60,8 @@ Returns S_OK on success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworklistmanager">INetworkListManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a>
-
+<a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a>

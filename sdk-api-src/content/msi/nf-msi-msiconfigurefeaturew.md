@@ -165,14 +165,14 @@ The function succeeds.
 </td>
 <td width="60%">
 For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>.
+<a href="/windows/desktop/Msi/error-codes">Error Codes</a>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
+<dt><b><a href="/windows/desktop/Msi/initialization-errors">Initialization Error</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -184,26 +184,25 @@ An error that relates to the initialization has occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
+<a href="/windows/desktop/Msi/displayed-error-messages">Displayed Error Messages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/error-codes">Error Codes</a>
+<a href="/windows/desktop/Msi/error-codes">Error Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/initialization-errors">Initialization Error</a>
+<a href="/windows/desktop/Msi/initialization-errors">Initialization Error</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Installation and Configuration Functions</a>
+<a href="/windows/desktop/Msi/installer-function-reference">Installation and Configuration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
+<a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
 
 ## -remarks
 
 > [!NOTE]
 > The msi.h header defines MsiConfigureFeature as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

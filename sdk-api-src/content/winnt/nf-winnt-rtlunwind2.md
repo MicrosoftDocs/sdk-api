@@ -68,7 +68,7 @@ The continuation address of the unwind. This parameter is ignored if <i>TargetFr
 
 ### -param ExceptionRecord [in, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a> 
+A pointer to an <a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a> 
       structure.
 
 ### -param ReturnValue [in]
@@ -77,7 +77,7 @@ A value to be placed in the integer function return register before continuing e
 
 ### -param ContextRecord [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that stores context 
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure that stores context 
      during the unwind operation.
 
 ## -returns
@@ -98,9 +98,8 @@ typedef struct _FRAME_POINTERS {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>

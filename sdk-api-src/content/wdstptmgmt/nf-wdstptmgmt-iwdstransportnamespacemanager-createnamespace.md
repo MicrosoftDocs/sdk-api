@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates an object of an <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a> interface that can be registered on the current WDS transport server.
+Creates an object of an <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a> interface that can be registered on the current WDS transport server.
 
 ## -parameters
 
@@ -72,7 +72,7 @@ The configuration information used by the content provider. The format of this i
 
 ### -param ppWdsTransportNamespace [out]
 
-A pointer to the object of an <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a> interface created by this method.
+A pointer to the object of an <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a> interface created by this method.
 
 ## -returns
 
@@ -80,13 +80,12 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacemanager">IWdsTransportNamespaceManager</a>
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacemanager">IWdsTransportNamespaceManager</a>
 
 
 
 <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_namespace_type">WDSTRANSPORT_NAMESPACE_TYPE</a>
-

@@ -82,5 +82,4 @@ This method closes the current digital media file, not Windows Media Player.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
-
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>

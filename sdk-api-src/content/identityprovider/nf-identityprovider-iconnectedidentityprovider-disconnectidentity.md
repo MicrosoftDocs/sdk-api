@@ -91,5 +91,4 @@ The domain user is not connected to an online identity.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/identityprovider/nn-identityprovider-iconnectedidentityprovider">IConnectedIdentityProvider</a>
-
+<a href="/windows/desktop/api/identityprovider/nn-identityprovider-iconnectedidentityprovider">IConnectedIdentityProvider</a>

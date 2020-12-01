@@ -56,30 +56,29 @@ Describes an FFT.
 
 ### -field NumDimensions
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of dimension in the FFT.
 
 ### -field ElementLengths
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>[D3DX11_FFT_MAX_DIMENSIONS]</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a>[D3DX11_FFT_MAX_DIMENSIONS]</b>
 
 Length of each dimension in the FFT.
 
 ### -field DimensionMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/ne-d3dcsx-d3dx11_fft_dim_mask">D3DX11_FFT_DIM_MASK</a> flags indicating the  dimensions to transform.
+Combination of <a href="/windows/desktop/api/d3dcsx/ne-d3dcsx-d3dx11_fft_dim_mask">D3DX11_FFT_DIM_MASK</a> flags indicating the  dimensions to transform.
 
 ### -field Type
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/ne-d3dcsx-d3dx11_fft_data_type">D3DX11_FFT_DATA_TYPE</a></b>
+Type: <b><a href="/windows/desktop/api/d3dcsx/ne-d3dcsx-d3dx11_fft_data_type">D3DX11_FFT_DATA_TYPE</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3dcsx/ne-d3dcsx-d3dx11_fft_data_type">D3DX11_FFT_DATA_TYPE</a> flag indicating the type of data being transformed.
+<a href="/windows/desktop/api/d3dcsx/ne-d3dcsx-d3dx11_fft_data_type">D3DX11_FFT_DATA_TYPE</a> flag indicating the type of data being transformed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3dcsx11-structures">D3DCSX 11 Structures</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3dcsx11-structures">D3DCSX 11 Structures</a>

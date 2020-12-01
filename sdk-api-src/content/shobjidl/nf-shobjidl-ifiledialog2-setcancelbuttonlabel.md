@@ -72,5 +72,4 @@ Changing the text on the Cancel button can be useful for situations where the IF
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-ifiledialog2">IFileDialog2</a>
-
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-ifiledialog2">IFileDialog2</a>

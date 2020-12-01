@@ -64,11 +64,11 @@ A handle to the cursor to be copied.
 
 <b>CopyCursor</b> enables an application or DLL to obtain the handle to a cursor shape owned by another module. Then if the other module is freed, the application is still able to use the cursor shape. 
 
-Before closing, an application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a> function to free any system resources associated with the cursor. 
+Before closing, an application must call the <a href="/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a> function to free any system resources associated with the cursor. 
 
-Do not use the <b>CopyCursor</b> function for animated cursors. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyimage">CopyImage</a> function.
+Do not use the <b>CopyCursor</b> function for animated cursors. Instead, use the <a href="/windows/desktop/api/winuser/nf-winuser-copyimage">CopyImage</a> function.
 
-<b>CopyCursor</b> is implemented as a call to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyicon">CopyIcon</a> function.
+<b>CopyCursor</b> is implemented as a call to the <a href="/windows/desktop/api/winuser/nf-winuser-copyicon">CopyIcon</a> function.
 
 <pre class="syntax" xml:space="preserve"><code>#define CopyCursor(pcur) ((HCURSOR)CopyIcon((HICON)(pcur)))</code></pre>
 
@@ -78,23 +78,23 @@ Do not use the <b>CopyCursor</b> function for animated cursors. Instead, use the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyicon">CopyIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-copyicon">CopyIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyimage">CopyImage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-copyimage">CopyImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
+<a href="/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroycursor">DestroyCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getcursor">GetCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getcursor">GetCursor</a>
 
 
 
@@ -102,9 +102,8 @@ Do not use the <b>CopyCursor</b> function for animated cursors. Instead, use the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the boot option array that will be utilized to generate the file system image. Unlike <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions">IFileSystemImage::put_BootImageOptions</a>, this method will not create  a complete copy of each  boot options array element, but instead use references to each element.
+Sets the boot option array that will be utilized to generate the file system image. Unlike <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions">IFileSystemImage::put_BootImageOptions</a>, this method will not create  a complete copy of each  boot options array element, but instead use references to each element.
 
 ## -parameters
 
 ### -param newVal [in]
 
-List of <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a> interfaces of the boot images that will be utilized to generate the file system image. Each element of the list is a <b>VARIANT</b> of the type <b>VT_DISPATCH</b>.
+List of <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a> interfaces of the boot images that will be utilized to generate the file system image. Each element of the list is a <b>VARIANT</b> of the type <b>VT_DISPATCH</b>.
 
 ## -returns
 
@@ -112,15 +112,14 @@ Value: 0xC0AAB148
 
 The <b>SAFEARRAY</b> must be a one dimensional array. A zero-size array is allowed, but it will result in a regular, non-bootable disc.
 
-The boot images sequence on the disc will match the sequence specified in the <b>SAFEARRAY</b>. Both <b>put_BootImageOptionsArray</b> and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions">put_BootImageOptions</a> are used for specifying the boot image, the latter function being invoked before the disc image created takes effect.
+The boot images sequence on the disc will match the sequence specified in the <b>SAFEARRAY</b>. Both <b>put_BootImageOptionsArray</b> and <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions">put_BootImageOptions</a> are used for specifying the boot image, the latter function being invoked before the disc image created takes effect.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage2-get_bootimageoptionsarray">get_BootImageOptionsArray</a> and <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_bootimageoptions">get_BootImageOptions</a> functions will retrieve the result of the last calls of put_BootImageOptionsArray or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions">put_BootImageOptions</a>. The use of these functions should be synchronized.
+The <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage2-get_bootimageoptionsarray">get_BootImageOptionsArray</a> and <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_bootimageoptions">get_BootImageOptions</a> functions will retrieve the result of the last calls of put_BootImageOptionsArray or <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_bootimageoptions">put_BootImageOptions</a>. The use of these functions should be synchronized.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage2">IFileSystemImage2</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage2">IFileSystemImage2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage2-get_bootimageoptionsarray">IFileSystemImage2::get_BootImageOptionsArray</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage2-get_bootimageoptionsarray">IFileSystemImage2::get_BootImageOptionsArray</a>

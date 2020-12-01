@@ -67,12 +67,12 @@ The <b>QueryAllTraces</b> function retrieves the properties
 ### -param PropertyArray [out]
 
 An array of pointers to 
-       <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structures that receive 
+       <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structures that receive 
        session properties and statistics for the event tracing sessions.
 
 You only need to set the <b>Wnode.BufferSize</b>, 
        <b>LoggerNameOffset</b> , and <b>LogFileNameOffset</b>  members of the 
-       <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. The other 
+       <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure. The other 
        members should all be set to zero.
 
 ### -param PropertyArrayCount [in]
@@ -89,7 +89,7 @@ Actual number of event tracing sessions started on the computer.
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is one of the 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
+       <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some 
        common errors and their causes.
 
 <table>
@@ -139,7 +139,7 @@ This function retrieves the trace sessions that the caller has permissions to qu
 This function does not return private logging sessions.
 
 To retrieve information for a single session, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a> function and set the 
+    <a href="/windows/desktop/ETW/controltrace">ControlTrace</a> function and set the 
     <i>ControlCode</i> parameter to <b>EVENT_TRACE_CONTROL_QUERY</b>.
 
 
@@ -251,13 +251,12 @@ cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controltrace">ControlTrace</a>
+<a href="/windows/desktop/ETW/controltrace">ControlTrace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>
+<a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enumeratetraceguids">EnumerateTraceGuids</a>
-
+<a href="/windows/desktop/ETW/enumeratetraceguids">EnumerateTraceGuids</a>

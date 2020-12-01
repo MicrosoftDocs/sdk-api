@@ -54,7 +54,7 @@ Enables a Microsoft UI Automation element to describe itself as an element that 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDragProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDragProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDragProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDragProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>IDragProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-idragprovider-getgrabbeditems">GetGrabbedItems</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-idragprovider-getgrabbeditems">GetGrabbedItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves the collection of elements that are being dragged as part of a drag operation.  
@@ -88,7 +88,7 @@ Retrieves the collection of elements that are being dragged as part of a drag op
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-idragprovider-get_dropeffect">DropEffect</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-idragprovider-get_dropeffect">DropEffect</a>
 
 
 </td>
@@ -104,7 +104,7 @@ Retrieves a localized string that indicates what happens when this element is dr
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-idragprovider-get_dropeffects">DropEffects</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-idragprovider-get_dropeffects">DropEffects</a>
 
 
 </td>
@@ -120,7 +120,7 @@ Retrieves an array of localized strings that enumerate the  full set of effects 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-idragprovider-get_isgrabbed">IsGrabbed</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-idragprovider-get_isgrabbed">IsGrabbed</a>
 
 
 </td>
@@ -141,9 +141,8 @@ A provider can implement <b>IDragProvider</b> only on the element being dragged,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idroptargetprovider">IDropTargetProvider</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idroptargetprovider">IDropTargetProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/ui-automation-support-for-drag-and-drop">UI Automation Support for Drag-and-Drop</a>
-
+<a href="/windows/desktop/WinAuto/ui-automation-support-for-drag-and-drop">UI Automation Support for Drag-and-Drop</a>

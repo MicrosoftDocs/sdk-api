@@ -56,7 +56,7 @@ Creates a schedule object.
 
 ### -param Schedule [out]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ischedule">ISchedule</a> interface that you use to specify when the data collector set runs.
+An <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ischedule">ISchedule</a> interface that you use to specify when the data collector set runs.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns S_OK if successful.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ischedulecollection">IScheduleCollection</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ischedulecollection">IScheduleCollection</a>

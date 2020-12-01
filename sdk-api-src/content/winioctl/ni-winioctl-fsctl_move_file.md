@@ -49,7 +49,7 @@ api_name:
 
 ## -description
 
-Relocates one or more virtual clusters of a file from one logical cluster to another within the same volume. This operation is used during [defragmentation](https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files).
+Relocates one or more virtual clusters of a file from one logical cluster to another within the same volume. This operation is used during [defragmentation](/windows/desktop/FileIO/defragmenting-files).
 
 To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapiset-deviceiocontrol.md) function with the following parameters.
 
@@ -86,7 +86,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
@@ -98,7 +98,7 @@ Note that the bitmap returned by the [DeviceIoControl](../ioapiset/nf-ioapiset-d
 
 For the implications of overlapped I/O on this operation, see the Remarks section of the [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md) topic.
 
-For a list of files, streams, and stream types supported by the **FSCTL_MOVE_FILE** control code, see the [Files, streams, and stream types supported for defragmentation](/windows/win32/fileio/defragmenting-files#files-streams-and-stream-types-supported-for-defragmentation) section of the [Defragmenting Files](https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files) topic.
+For a list of files, streams, and stream types supported by the **FSCTL_MOVE_FILE** control code, see the [Files, streams, and stream types supported for defragmentation](/windows/win32/fileio/defragmenting-files#files-streams-and-stream-types-supported-for-defragmentation) section of the [Defragmenting Files](/windows/desktop/FileIO/defragmenting-files) topic.
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -112,13 +112,12 @@ Cluster Shared Volume File System (CsvFS) | Yes
 ## -see-also
 
 * [CreateFile](../fileapi/nf-fileapi-createfilea.md)
-* [Defragmenting Files](https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files)
+* [Defragmenting Files](/windows/desktop/FileIO/defragmenting-files)
 * [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
-* [Disk Management Control Codes](https://docs.microsoft.com/windows/desktop/FileIO/disk-management-control-codes)
+* [Disk Management Control Codes](/windows/desktop/FileIO/disk-management-control-codes)
 * [FSCTL_GET_VOLUME_BITMAP](ni-winioctl-fsctl_get_volume_bitmap.md)
 * [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md)
 * [GetOverlappedResult](../ioapiset/nf-ioapiset-getoverlappedresult.md)
 * [GetQueuedCompletionStatus](../ioapiset/nf-ioapiset-getqueuedcompletionstatus.md)
 * [MOVE_FILE_DATA](ns-winioctl-move_file_data.md)
 * [OVERLAPPED](../minwinbase/ns-minwinbase-overlapped.md)
-

@@ -56,7 +56,7 @@ The <b>NCryptOpenStorageProvider</b> function loads and initializes a CNG key st
 
 ### -param phProvider [out]
 
-A pointer to a <b>NCRYPT_PROV_HANDLE</b> variable that receives the provider handle. When you have finished using this handle, release it by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function.
+A pointer to a <b>NCRYPT_PROV_HANDLE</b> variable that receives the provider handle. When you have finished using this handle, release it by passing it to the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function.
 
 ### -param pszProviderName [in, optional]
 
@@ -170,5 +170,4 @@ A memory allocation failure occurred.
 
 In the case that an error condition is returned, the provider will have been unloaded from memory. Functions within the provider must not be called after a failure error is returned.
 
-A service must not call this function from its <a href="https://msdn.microsoft.com/library/ms686321.aspx">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.
-
+A service must not call this function from its <a href="/windows/win32/api/winsvc/nf-winsvc-startservicea">StartService Function</a>. If a service calls this function from its StartService function, a deadlock can occur, and the service may stop responding.

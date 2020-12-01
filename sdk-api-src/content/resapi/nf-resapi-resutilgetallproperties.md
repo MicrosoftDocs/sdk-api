@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Returns a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-lists">property list</a> that includes all of the default and  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/unknown-properties">unknown</a> properties for a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster object</a>. The <b>PRESUTIL_GET_ALL_PROPERTIES</b> type defines a pointer to this function.
+Returns a  <a href="/previous-versions/windows/desktop/mscs/property-lists">property list</a> that includes all of the default and  <a href="/previous-versions/windows/desktop/mscs/unknown-properties">unknown</a> properties for a  <a href="/previous-versions/windows/desktop/mscs/cluster-objects">cluster object</a>. The <b>PRESUTIL_GET_ALL_PROPERTIES</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param hkeyClusterKey [in]
 
-Pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key that identifies the location of the properties to retrieve.
+Pointer to the  <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key that identifies the location of the properties to retrieve.
 
 ### -param pPropertyTable [in]
 
-Pointer to an array of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structures that describe the properties to retrieve.
+Pointer to an array of  <a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a> structures that describe the properties to retrieve.
 
 ### -param pOutPropertyList [out]
 
@@ -83,7 +83,7 @@ Pointer to the number of bytes that is required if <i>OutBuffer</i> is too small
 If the operations succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error codes.
 
 <table>
 <tr>
@@ -130,11 +130,10 @@ The size of the output buffer is too small to hold the resulting data. The <i>pc
 The  <b>ResUtilGetAllProperties</b> utility function makes an entry in the property list for each property that is:
 
 <ul>
-<li>Included in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/property-tables">property table</a>.</li>
-<li>Included in the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> below the key identified by the <i>ClusterKey</i> parameter, regardless of whether the property is included in the property table.</li>
+<li>Included in the  <a href="/previous-versions/windows/desktop/mscs/property-tables">property table</a>.</li>
+<li>Included in the  <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> below the key identified by the <i>ClusterKey</i> parameter, regardless of whether the property is included in the property table.</li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>
-
+<a href="/previous-versions/windows/desktop/api/resapi/ns-resapi-resutil_property_item">RESUTIL_PROPERTY_ITEM</a>

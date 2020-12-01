@@ -73,5 +73,4 @@ The value is 0 if the midline is not present.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>
-
+<a href="/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>

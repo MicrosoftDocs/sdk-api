@@ -60,17 +60,16 @@ The update did not fail.
 
 ### -field PRJ_UPDATE_FAILURE_CAUSE_DIRTY_METADATA
 
-The item was a dirty placeholder (hydrated or not), and the provider did not specify PRJ_UPDATE_ALLOW_DIRTY_METADATA in <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_update_types">PRJ_UPDATE_TYPES</a>.
+The item was a dirty placeholder (hydrated or not), and the provider did not specify PRJ_UPDATE_ALLOW_DIRTY_METADATA in <a href="/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_update_types">PRJ_UPDATE_TYPES</a>.
 
 ### -field PRJ_UPDATE_FAILURE_CAUSE_DIRTY_DATA
 
-The item was a full file and the provider did not specify PRJ_UPDATE_ALLOW_DIRTY_DATA in <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_update_types">PRJ_UPDATE_TYPES</a>.
+The item was a full file and the provider did not specify PRJ_UPDATE_ALLOW_DIRTY_DATA in <a href="/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_update_types">PRJ_UPDATE_TYPES</a>.
 
 ### -field PRJ_UPDATE_FAILURE_CAUSE_TOMBSTONE
 
-The item was a tombstone and the provider did not specify PRJ_UPDATE_ALLOW_TOMBSTONE in <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_update_types">PRJ_UPDATE_TYPES</a>.
+The item was a tombstone and the provider did not specify PRJ_UPDATE_ALLOW_TOMBSTONE in <a href="/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_update_types">PRJ_UPDATE_TYPES</a>.
 
 ### -field PRJ_UPDATE_FAILURE_CAUSE_READ_ONLY
 
-The item had the DOS read-only bit set and the provider did not specify PRJ_UPDATE_ALLOW_READ_ONLY in <a href="https://docs.microsoft.com/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_update_types">PRJ_UPDATE_TYPES</a>.
-
+The item had the DOS read-only bit set and the provider did not specify PRJ_UPDATE_ALLOW_READ_ONLY in <a href="/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_update_types">PRJ_UPDATE_TYPES</a>.

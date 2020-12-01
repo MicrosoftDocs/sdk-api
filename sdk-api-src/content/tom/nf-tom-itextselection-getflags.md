@@ -111,11 +111,11 @@ The method returns an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextselection">ITextSelection</a>
 
 
 
@@ -123,9 +123,8 @@ The method returns an
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextselection-setflags">SetFlags</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextselection-setflags">SetFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

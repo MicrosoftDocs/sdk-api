@@ -56,15 +56,15 @@ This methods retrieves the size bounds supported by the application.
 
 ### -param minApplicationSizePixels [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
 
-When this method returns successfully, receives a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that defines the minimum possible window size.
+When this method returns successfully, receives a pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that defines the minimum possible window size.
 
 ### -param maxApplicationSizePixels [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b><a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
 
-When this method returns successfully, receives a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that defines the maximum possible window size.
+When this method returns successfully, receives a pointer to a <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that defines the maximum possible window size.
 
 ## -returns
 
@@ -74,5 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings2">IApplicationDesignModeSettings2</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings2">IApplicationDesignModeSettings2</a>

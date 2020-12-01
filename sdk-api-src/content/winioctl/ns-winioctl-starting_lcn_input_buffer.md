@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Contains the starting LCN to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap">FSCTL_GET_VOLUME_BITMAP</a> control code.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap">FSCTL_GET_VOLUME_BITMAP</a> control code.
 
 ## -struct-fields
 
@@ -62,9 +62,8 @@ The LCN from which the operation should start when describing a bitmap. This mem
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/defragmenting-files">Defragmentation</a>
+<a href="/windows/desktop/FileIO/defragmenting-files">Defragmentation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap">FSCTL_GET_VOLUME_BITMAP</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap">FSCTL_GET_VOLUME_BITMAP</a>

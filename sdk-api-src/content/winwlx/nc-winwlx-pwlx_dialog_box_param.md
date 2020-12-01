@@ -52,15 +52,15 @@ api_name:
 
 <p class="CCE_Message">[The WlxDialogBoxParam function is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-Called by <a href="https://docs.microsoft.com/windows/desktop/SecGloss/g-gly">GINA</a> to initialize dialog box controls and then create a modal dialog box from a dialog box template resource.
+Called by <a href="/windows/desktop/SecGloss/g-gly">GINA</a> to initialize dialog box controls and then create a modal dialog box from a dialog box template resource.
 <div class="alert"><b>Note</b>   GINA DLLs are ignored in Windows Vista.</div><div> </div>
 
 ## -parameters
 
 ### -param hWlx [in]
 
-Specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/w-gly">Winlogon</a> handle passed to GINA in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
+Specifies the <a href="/windows/desktop/SecGloss/w-gly">Winlogon</a> handle passed to GINA in the 
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a> call.
 
 ### -param hInst [in]
 
@@ -69,7 +69,7 @@ Specifies an instance of the module whose executable file contains the dialog bo
 ### -param lpszTemplate [in]
 
 Specifies the dialog box template. This parameter is either the address of a null-terminated character string that specifies the name of the dialog box template, or an integer value that specifies the resource identifier of the dialog box template. If the parameter specifies a resource identifier, its high-order word must be zero and its low-order word must contain the identifier. You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro to create this value.
+<a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro to create this value.
 
 ### -param hwndOwner [in]
 
@@ -78,17 +78,17 @@ Specifies the window that owns the dialog box.
 ### -param dlgprc [in]
 
 Points to the dialog box procedure. For more information about the dialog box procedure, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>.
+<a href="/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>.
 
 ### -param dwInitParam [in]
 
 Specifies the value to pass to the dialog box in the <i>lParam</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message.
+<a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message.
 
 ## -returns
 
 If the <b>WlxDialogBoxParam</b> function succeeds, the return value is the value of the <i>nResult</i> parameter given in the call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddialog">EndDialog</a> function used to terminate the dialog box. The following table lists some possible success return values.
+<a href="/windows/desktop/api/winuser/nf-winuser-enddialog">EndDialog</a> function used to terminate the dialog box. The following table lists some possible success return values.
 
 <table>
 <tr>
@@ -113,7 +113,7 @@ Input timed out.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS) event occurred.
+A <a href="/windows/desktop/SecGloss/s-gly">secure attention sequence</a> (SAS) event occurred.
 
 </td>
 </tr>
@@ -146,26 +146,25 @@ If the function fails, the return value is –1.
 
 ## -remarks
 
-<b>WlxDialogBoxParam</b> duplicates the Windows <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxparama">DialogBoxParam</a> function, and also allows Winlogon to terminate the dialog box. For more information, see 
+<b>WlxDialogBoxParam</b> duplicates the Windows <a href="/windows/desktop/api/winuser/nf-winuser-dialogboxparama">DialogBoxParam</a> function, and also allows Winlogon to terminate the dialog box. For more information, see 
 <b>DialogBoxParam</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxparama">DialogBoxParam</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-dialogboxparama">DialogBoxParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>
+<a href="/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enddialog">EndDialog</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enddialog">EndDialog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-
+<a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>

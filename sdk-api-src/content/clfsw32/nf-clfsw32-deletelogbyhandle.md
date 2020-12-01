@@ -53,13 +53,13 @@ api_name:
 Marks the specified log for deletion. The log is actually deleted when all handles, marshaling areas, and read contexts to the log are closed.  If the log is a physical log, its underlying containers are deleted.
 
 When a log is marked for deletion, requests to open new client log streams fail.
-<div class="alert"><b>Note</b>  This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-deletelogfile">DeleteLogFile</a>, because it takes a valid open handle to the log object instead of the log name.</div><div> </div>
+<div class="alert"><b>Note</b>  This function differs from <a href="/windows/desktop/api/clfsw32/nf-clfsw32-deletelogfile">DeleteLogFile</a>, because it takes a valid open handle to the log object instead of the log name.</div><div> </div>
 
 ## -parameters
 
 ### -param hLog [in]
 
-A handle to an open log that is obtained by a successful call to <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>. The log must have been created with DELETE access or you cannot delete the log.
+A handle to an open log that is obtained by a successful call to <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>. The log must have been created with DELETE access or you cannot delete the log.
 
 ## -returns
 
@@ -67,17 +67,16 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the possible error codes:
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the possible error codes:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
+<a href="/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogfile">CreateLogFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-deletelogfile">DeleteLogFile</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-deletelogfile">DeleteLogFile</a>

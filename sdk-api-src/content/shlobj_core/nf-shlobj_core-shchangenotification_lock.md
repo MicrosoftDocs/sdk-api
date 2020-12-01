@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - SHChangeNotification_Lock
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SHChangeNotification_Lock function
@@ -84,5 +85,4 @@ A pointer to a LONG value that, when this function returns successfully, receive
 
 Type: <b>HANDLE</b>
 
-Returns a handle (HLOCK) to the locked memory. Pass this value to <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotification_unlock">SHChangeNotification_Unlock</a> when finished.
-
+Returns a handle (HLOCK) to the locked memory. Pass this value to <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotification_unlock">SHChangeNotification_Unlock</a> when finished.

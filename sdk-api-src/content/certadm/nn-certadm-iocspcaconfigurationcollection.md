@@ -58,7 +58,7 @@ The default implementation of <b>IOCSPAdmin</b> creates a <b>OCSPCAConfiguration
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOCSPCAConfigurationCollection</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IOCSPCAConfigurationCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOCSPCAConfigurationCollection</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IOCSPCAConfigurationCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -74,16 +74,16 @@ The <b>IOCSPCAConfigurationCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-createcaconfiguration">CreateCAConfiguration</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-createcaconfiguration">CreateCAConfiguration</a>
 </td>
 <td align="left" width="63%">
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration and adds it to the configuration set.
+Creates a new <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA) configuration and adds it to the configuration set.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-deletecaconfiguration">DeleteCAConfiguration</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-deletecaconfiguration">DeleteCAConfiguration</a>
 </td>
 <td align="left" width="63%">
 Removes a named CA configuration from the configuration set.
@@ -100,7 +100,7 @@ Removes a named CA configuration from the configuration set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-get__newenum">_NewEnum</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -112,7 +112,7 @@ Gets an enumerator for the configuration set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-get_count">Count</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-get_count">Count</a>
 
 
 </td>
@@ -124,7 +124,7 @@ Gets the number of CA configurations  in the configuration set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-get_item">Item</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-get_item">Item</a>
 
 
 </td>
@@ -136,7 +136,7 @@ Gets a CA configuration identified by index  in the configuration set.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-get_itembyname">ItemByName</a>
+<a href="/windows/desktop/api/certadm/nf-certadm-iocspcaconfigurationcollection-get_itembyname">ItemByName</a>
 
 
 </td>
@@ -149,5 +149,4 @@ Gets a CA configuration identified by name in the configuration set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

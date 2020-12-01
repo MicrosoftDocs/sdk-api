@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-A callback function that is used to create items in the cache. It is called by the <a href="https://docs.microsoft.com/windows/desktop/api/filehc/nf-filehc-cachecreatefile">CacheCreateFile</a> function.
+A callback function that is used to create items in the cache. It is called by the <a href="/windows/desktop/api/filehc/nf-filehc-cachecreatefile">CacheCreateFile</a> function.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The name of the file.
 
 ### -param lpvData [in]
 
-User-provided data to <a href="https://docs.microsoft.com/windows/desktop/api/filehc/nf-filehc-cachecreatefile">CacheCreateFile</a>.
+User-provided data to <a href="/windows/desktop/api/filehc/nf-filehc-cachecreatefile">CacheCreateFile</a>.
 
 ### -param *cbFileSize [out]
 
@@ -76,5 +76,4 @@ Returns a handle to the file created in the cache.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filehc/nf-filehc-cachecreatefile">CacheCreateFile</a>
-
+<a href="/windows/desktop/api/filehc/nf-filehc-cachecreatefile">CacheCreateFile</a>

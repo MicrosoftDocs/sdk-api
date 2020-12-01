@@ -51,8 +51,6 @@ api_name:
  - AddVectoredContinueHandler
 ---
 
-# AddVectoredContinueHandler function
-
 ## -description
 
 Registers a vectored continue handler.

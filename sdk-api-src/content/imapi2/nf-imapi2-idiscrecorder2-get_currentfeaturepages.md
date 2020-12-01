@@ -56,7 +56,7 @@ Retrieves the list of feature pages of the device that are marked as current.
 
 ### -param value [out]
 
-List of supported feature pages that are marked as current for the device. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the feature page type. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration.
+List of supported feature pages that are marked as current for the device. Each element of the list is a <b>VARIANT</b> of type <b>VT_I4</b>. The <b>lVal</b> member of the variant contains the feature page type. For possible values, see the <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_feature_page_type">IMAPI_FEATURE_PAGE_TYPE</a> enumeration.
 
 ## -returns
 
@@ -370,17 +370,16 @@ Value: 0xC0AA0210
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscrecorder2">IDiscRecorder2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedfeaturepages">IDiscRecorder2::get_SupportedFeaturePages</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_supportedfeaturepages">IDiscRecorder2::get_SupportedFeaturePages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage">IDiscRecorder2Ex::GetFeaturePage</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getfeaturepage">IDiscRecorder2Ex::GetFeaturePage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages">IDiscRecorder2Ex::GetSupportedFeaturePages</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages">IDiscRecorder2Ex::GetSupportedFeaturePages</a>

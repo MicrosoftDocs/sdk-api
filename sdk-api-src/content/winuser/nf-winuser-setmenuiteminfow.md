@@ -49,6 +49,7 @@ api_name:
  - SetMenuItemInfo
  - SetMenuItemInfoA
  - SetMenuItemInfoW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetMenuItemInfoW function
@@ -76,13 +77,13 @@ The identifier or position of the menu item to change. The meaning of this param
 
 Type: <b>BOOL</b>
 
-The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="https://docs.microsoft.com/windows/desktop/menurc/about-menus">About Menus</a> for more information.
+The meaning of <i>uItem</i>. If this parameter is <b>FALSE</b>, <i>uItem</i> is a menu item identifier. Otherwise, it is a menu item position. See <a href="/windows/desktop/menurc/about-menus">About Menus</a> for more information.
 
 ### -param lpmii [in]
 
 Type: <b>LPMENUITEMINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuiteminfoa">MENUITEMINFO</a> structure that contains information about the menu item and specifies which menu item attributes to change.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-menuiteminfoa">MENUITEMINFO</a> structure that contains information about the menu item and specifies which menu item attributes to change.
 
 ## -returns
 
@@ -90,18 +91,18 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is zero. To get extended error information, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
-The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window.
+The application must call the <a href="/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window.
 
-In order for keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menuchar">WM_MENUCHAR</a> message. See <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Owner-Drawn Menus and the WM_MENUCHAR Message</a> for more information.
+In order for keyboard accelerators to work with bitmap or owner-drawn menu items, the owner of the menu must process the <a href="/windows/desktop/menurc/wm-menuchar">WM_MENUCHAR</a> message. See <a href="/windows/desktop/menurc/using-menus">Owner-Drawn Menus and the WM_MENUCHAR Message</a> for more information.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Example of Owner-Drawn Menu Items</a>. 
+For an example, see <a href="/windows/desktop/menurc/using-menus">Example of Owner-Drawn Menu Items</a>. 
 
 
 
@@ -119,21 +120,20 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuiteminfoa">GetMenuItemInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenuiteminfoa">GetMenuItemInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuiteminfoa">MENUITEMINFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-menuiteminfoa">MENUITEMINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
 <b>Reference</b>
-

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Reset</b> method resets a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution information array to a specified number of distribution point structures.
+The <b>Reset</b> method resets a <a href="/windows/desktop/SecGloss/c-gly">certificate revocation list</a> (CRL) distribution information array to a specified number of distribution point structures.
 
  The values of all the elements in the array of structures are set to zero.
 
@@ -66,13 +66,12 @@ Specifies the number of CRL distribution points in the CRL distribution informat
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nn-certenc-icertencodecrldistinfo">ICertEncodeCRLDistInfo</a>
+<a href="/windows/desktop/api/certenc/nn-certenc-icertencodecrldistinfo">ICertEncodeCRLDistInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-getdistpointcount">ICertEncodeCRLDistInfo::GetDistPointCount</a>
-
+<a href="/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-getdistpointcount">ICertEncodeCRLDistInfo::GetDistPointCount</a>

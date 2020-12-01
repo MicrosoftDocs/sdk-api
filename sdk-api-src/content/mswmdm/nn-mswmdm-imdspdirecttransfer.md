@@ -54,7 +54,7 @@ The <b>IMDSPDirectTransfer</b> interface enables Windows Media Device Manager to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPDirectTransfer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPDirectTransfer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMDSPDirectTransfer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMDSPDirectTransfer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMDSPDirectTransfer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdirecttransfer-transfertodevice">TransferToDevice</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdirecttransfer-transfertodevice">TransferToDevice</a>
 </td>
 <td align="left" width="63%">
 Called by Windows Media Device Manager to delegate content transfer to the service provider.
@@ -80,5 +80,4 @@ Called by Windows Media Device Manager to delegate content transfer to the servi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-service-providers">Interfaces for Service Providers</a>

@@ -76,7 +76,7 @@ This parameter receives one of the following values:
 </td>
 <td width="60%">
 The router protocol shut down successfully. The message is empty for this event. (See 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pstop_protocol">StopProtocol</a>)
+<a href="/windows/desktop/api/routprot/nc-routprot-pstop_protocol">StopProtocol</a>)
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ The router protocol shut down successfully. The message is empty for this event.
 </td>
 <td width="60%">
 The routing protocol reports that its global configuration information has been changed by an external agent, that is, through means other than 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pset_global_info">SetGlobalInfo</a>. The routing protocol requests that the router manager retrieve and permanently store this information. The message is empty for this event.
+<a href="/windows/desktop/api/routprot/nc-routprot-pset_global_info">SetGlobalInfo</a>. The routing protocol requests that the router manager retrieve and permanently store this information. The message is empty for this event.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ The routing protocol reports that its global configuration information has been 
 </td>
 <td width="60%">
 The routing protocol reports that the configuration information associated with one of its interfaces has been changed by an external agent, that is, through means other than 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pset_interface_info">SetInterfaceInfo</a>. The routing protocol requests that the router manager retrieve and permanently store this information. The message contains the ID of the interface.
+<a href="/windows/desktop/api/routprot/nc-routprot-pset_interface_info">SetInterfaceInfo</a>. The routing protocol requests that the router manager retrieve and permanently store this information. The message contains the ID of the interface.
 
 </td>
 </tr>
@@ -109,8 +109,8 @@ The routing protocol reports that the configuration information associated with 
 </td>
 <td width="60%">
 The routing protocol has completed an autostatic update request from the router manager. The router manager converts received routing information to static. The message contains the index of the interface on which the update was performed, the type of the information received (routes or services), and the result field, which indicates whether the update succeeded. See 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pdo_update_routes">DoUpdateRoutes</a> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374005(v=vs.85)">DoUpdateServices</a>.
+<a href="/windows/desktop/api/routprot/nc-routprot-pdo_update_routes">DoUpdateRoutes</a> and 
+<a href="/previous-versions/windows/desktop/legacy/aa374005(v=vs.85)">DoUpdateServices</a>.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The routing protocol has completed an autostatic update request from the router 
 ### -param *Result [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-message">MESSAGE</a> union. The contents of the message are specific to the reported event. 
+<a href="/windows/desktop/api/routprot/ns-routprot-message">MESSAGE</a> union. The contents of the message are specific to the reported event. 
 
 
 
@@ -134,33 +134,32 @@ If the routing protocol's message queue does not contain any entries, the return
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pdo_update_routes">DoUpdateRoutes</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pdo_update_routes">DoUpdateRoutes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374005(v=vs.85)">DoUpdateServices</a>
+<a href="/previous-versions/windows/desktop/legacy/aa374005(v=vs.85)">DoUpdateServices</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-message">MESSAGE</a>
+<a href="/windows/desktop/api/routprot/ns-routprot-message">MESSAGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-functions">Routing Protocol Interface Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
+<a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pset_global_info">SetGlobalInfo</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pset_global_info">SetGlobalInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pset_interface_info">SetInterfaceInfo</a>
+<a href="/windows/desktop/api/routprot/nc-routprot-pset_interface_info">SetInterfaceInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pstop_protocol">StopProtocol</a>
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pstop_protocol">StopProtocol</a>

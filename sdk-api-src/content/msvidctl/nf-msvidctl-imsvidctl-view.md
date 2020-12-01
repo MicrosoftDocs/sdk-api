@@ -57,7 +57,7 @@ The <b>View</b> method configures the Video Control to view an input source, whi
 ### -param v [in]
 
 Pointer to the input source as a <b>VARIANT</b> type. This parameter must be one of the following:<ul>
-<li>A pointer to a valid tune request object that supports the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface. The tune request must be initialized with all the tuning information required for the particular network type.</li>
+<li>A pointer to a valid tune request object that supports the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface. The tune request must be initialized with all the tuning information required for the particular network type.</li>
 <li>The string "DVD:" for DVD playback.</li>
 <li>The name of a media file.</li>
 </ul>
@@ -75,14 +75,14 @@ An input device typically corresponds to a source filter. If the <i>pv</i> param
 After calling <b>View</b>, use the following methods to build and run the filter graph:
 
 <ul>
-<li>The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-build">IMSVidCtl::Build</a> method builds the rest of the filter graph, based on the selected input and the active features collection. The <b>Build</b> method leaves the graph in a stopped state.</li>
-<li>The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-run">IMSVidCtl::Run</a> method calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-build">Build</a> if the graph is not built, and puts the graph into a running state. When the filter graph runs, the video control starts playing the specified tune request.</li>
+<li>The <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-build">IMSVidCtl::Build</a> method builds the rest of the filter graph, based on the selected input and the active features collection. The <b>Build</b> method leaves the graph in a stopped state.</li>
+<li>The <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-run">IMSVidCtl::Run</a> method calls <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-build">Build</a> if the graph is not built, and puts the graph into a running state. When the filter graph runs, the video control starts playing the specified tune request.</li>
 </ul>
 If the filter graph is already built and running, an application can call <b>View</b> to specify a new tune request, either on the same network type or on a different network type.
 
-If the <b>View</b> method succeeds, you can obtain the input device by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_inputactive">IMSVidCtl::get_InputActive</a> method.
+If the <b>View</b> method succeeds, you can obtain the input device by calling the <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_inputactive">IMSVidCtl::get_InputActive</a> method.
 
-You can specify a particular input device by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_inputactive">IMSVidCtl::put_InputActive</a> method and then calling <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidinputdevice-view">IMSVidInputDevice::View</a> on the device, instead of calling <b>View</b> on the Video Control. This might be useful if the local system has multiple devices of the same type. The <b>View</b> method is preferred, however, because it automatically locates the correct device type.
+You can specify a particular input device by calling the <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_inputactive">IMSVidCtl::put_InputActive</a> method and then calling <a href="/windows/desktop/api/segment/nf-segment-imsvidinputdevice-view">IMSVidInputDevice::View</a> on the device, instead of calling <b>View</b> on the Video Control. This might be useful if the local system has multiple devices of the same type. The <b>View</b> method is preferred, however, because it automatically locates the correct device type.
 
 
 #### Examples
@@ -112,13 +112,12 @@ hr = pVidControl->View(&varFileName);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/dvd-applications-in-visual-basic--video-control">DVD Applications in Visual Basic (Video Control)</a>
+<a href="/previous-versions/windows/desktop/mstv/dvd-applications-in-visual-basic--video-control">DVD Applications in Visual Basic (Video Control)</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_inputsavailable">IMSVidCtl::get_InputsAvailable</a>
-
+<a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_inputsavailable">IMSVidCtl::get_InputsAvailable</a>

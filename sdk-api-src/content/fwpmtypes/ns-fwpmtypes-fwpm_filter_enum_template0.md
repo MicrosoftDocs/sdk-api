@@ -66,7 +66,7 @@ Layer whose fields are to be enumerated.
 
 ### -field enumType
 
-A [FWP_FILTER_ENUM_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type) value that determines how the filter conditions are interpreted.
+A [FWP_FILTER_ENUM_TYPE](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type) value that determines how the filter conditions are interpreted.
 
 ### -field flags
 
@@ -138,7 +138,7 @@ Number of filter conditions. If zero, then all filters match.
 
 ### -field filterCondition
 
-An array of [FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0) structures that contain distinct filter conditions (duplicated filter conditions will generate an error).
+An array of [FWPM_FILTER_CONDITION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0) structures that contain distinct filter conditions (duplicated filter conditions will generate an error).
 
 ### -field actionMask
 
@@ -182,11 +182,11 @@ Uniquely identifies the callout.
 
 ## -remarks
 
-<b>FWPM_FILTER_ENUM_TEMPLATE0</b> is a specific implementation of FWPM_FILTER_ENUM_TEMPLATE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_FILTER_ENUM_TEMPLATE0</b> is a specific implementation of FWPM_FILTER_ENUM_TEMPLATE. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[FWPM_FILTER_CONDITION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)
+[FWPM_FILTER_CONDITION0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_condition0)
 
 
 
@@ -194,9 +194,8 @@ Uniquely identifies the callout.
 
 
 
-[FWP_FILTER_ENUM_TYPE](https://docs.microsoft.com/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type)
+[FWP_FILTER_ENUM_TYPE](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_filter_enum_type)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

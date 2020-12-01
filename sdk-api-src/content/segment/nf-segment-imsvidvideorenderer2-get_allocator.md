@@ -52,7 +52,7 @@ api_name:
 
 The <b>get_Allocator</b> method retrieves the allocator-presenter from the VMR as an <b>IUnknown</b> pointer.
 
-This method is provided for Automation clients. C++ applications can also use the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidvideorenderer2-get__allocator">get__Allocator</a> method, which returns an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrsurfaceallocator">IVMRSurfaceAllocator</a> pointer.
+This method is provided for Automation clients. C++ applications can also use the <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer2-get__allocator">get__Allocator</a> method, which returns an <a href="/windows/desktop/api/strmif/nn-strmif-ivmrsurfaceallocator">IVMRSurfaceAllocator</a> pointer.
 
 ## -parameters
 
@@ -88,5 +88,4 @@ The caller must release the returned <b>IUnknown</b> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nn-segment-imsvidvideorenderer2">IMSVidVideoRenderer2 Interface</a>
-
+<a href="/windows/desktop/api/segment/nn-segment-imsvidvideorenderer2">IMSVidVideoRenderer2 Interface</a>

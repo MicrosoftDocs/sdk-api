@@ -84,7 +84,7 @@ If successful, returns E_NONE.
 
 Array *<i>pusShortCodes</i> is filled with 16-bit Unicode values that correspond to the 8-bit character codes in *<i>pusCharCodes</i>.<i>ulShortCodeSize</i> contains the size, in wide characters, of *<i>pusShortCodes</i>.
 
-Otherwise, returns an error code described in <a href="https://docs.microsoft.com/windows/desktop/gdi/font-embedding-function-error-messages">Embedding Function Error Messages</a>.
+Otherwise, returns an error code described in <a href="/windows/desktop/gdi/font-embedding-function-error-messages">Embedding Function Error Messages</a>.
 
 ## -remarks
 
@@ -92,9 +92,8 @@ This function may be useful to clients when creating a list of symbol characters
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-multibytetowidechar">MultiByteToWideChar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>
-
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte">WideCharToMultiByte</a>

@@ -57,14 +57,14 @@ The
 
 
 <b>GetCurrentVolumeArray</b> is a protected method implemented by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
 
 ## -parameters
 
 ## -returns
 
 This method returns a pointer to an <i>n</i>-element array (where <i>n</i> is the value returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getcurrentvolumecount">CVssWriter::GetCurrentVolumeCount</a>) of null-terminated wide character strings that contain the names of the original volumes and the UNC paths of the original remote file shares that belong to the shadow copy set.<b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getcurrentvolumecount">CVssWriter::GetCurrentVolumeCount</a>) of null-terminated wide character strings that contain the names of the original volumes and the UNC paths of the original remote file shares that belong to the shadow copy set.<b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
 
 
@@ -72,17 +72,16 @@ The derived class should not free the memory held by the returned array of volum
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparesnapshot">CVssWriter::OnPrepareSnapshot</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparesnapshot">CVssWriter::OnPrepareSnapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onthaw">CVssWriter::OnThaw</a>
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onthaw">CVssWriter::OnThaw</a>

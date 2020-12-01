@@ -72,13 +72,12 @@ The index of the tile in the overall tiled subresource to start with.
 
 ## -remarks
 
-This structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourcetiling">GetResourceTiling</a> method.
+This structure is used by the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourcetiling">GetResourceTiling</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-subresource-tiling">CD3DX12_SUBRESOURCE_TILING</a>
+<a href="/windows/desktop/direct3d12/cd3dx12-subresource-tiling">CD3DX12_SUBRESOURCE_TILING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

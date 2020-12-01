@@ -65,13 +65,12 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_children">IUPnPDevice::Children</a>
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_children">IUPnPDevice::Children</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_rootdevice">IUPnPDevice::RootDevice</a>
-
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_rootdevice">IUPnPDevice::RootDevice</a>

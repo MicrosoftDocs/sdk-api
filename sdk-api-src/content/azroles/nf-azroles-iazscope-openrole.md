@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>OpenRole</b> method opens an <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object with the specified name.
+The <b>OpenRole</b> method opens an <a href="/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object with the specified name.
 
 ## -parameters
 
 ### -param bstrRoleName [in]
 
-Name of the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object to open.
+Name of the <a href="/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object to open.
 
 ### -param varReserved [in, optional]
 
@@ -65,9 +65,8 @@ Reserved for future use.
 
 ### -param ppRole [out]
 
-A pointer to a pointer to the opened <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object.
+A pointer to a pointer to the opened <a href="/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object.
 
 ## -returns
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
-

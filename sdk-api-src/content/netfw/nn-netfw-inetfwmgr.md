@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwservices">INetFwMgr</a> interface  provides access to the firewall settings for a computer.
+The <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwservices">INetFwMgr</a> interface  provides access to the firewall settings for a computer.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwMgr</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwMgr</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +73,7 @@ The <b>INetFwMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwmgr-get_currentprofiletype">get_CurrentProfileType</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwmgr-get_currentprofiletype">get_CurrentProfileType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of firewall profile currently in effect.
@@ -82,7 +82,7 @@ Retrieves the type of firewall profile currently in effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwmgr-get_localpolicy">get_LocalPolicy</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwmgr-get_localpolicy">get_LocalPolicy</a>
 </td>
 <td align="left" width="63%">
 Retrieves the local firewall policy.
@@ -91,7 +91,7 @@ Retrieves the local firewall policy.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwmgr-isicmptypeallowed">IsIcmpTypeAllowed</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwmgr-isicmptypeallowed">IsIcmpTypeAllowed</a>
 </td>
 <td align="left" width="63%">
 Determines whether the specified ICMP type is allowed.
@@ -100,7 +100,7 @@ Determines whether the specified ICMP type is allowed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwmgr-isportallowed">IsPortAllowed</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwmgr-isportallowed">IsPortAllowed</a>
 </td>
 <td align="left" width="63%">
 Determines whether an application can listen for inbound traffic on the specified port.
@@ -109,7 +109,7 @@ Determines whether an application can listen for inbound traffic on the specifie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwmgr-restoredefaults">RestoreDefaults</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwmgr-restoredefaults">RestoreDefaults</a>
 </td>
 <td align="left" width="63%">
 Restores the local configuration to its default state.
@@ -126,7 +126,7 @@ Restores the local configuration to its default state.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwmgr-get_currentprofiletype">CurrentProfileType</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwmgr-get_currentprofiletype">CurrentProfileType</a>
 
 
 </td>
@@ -138,7 +138,7 @@ Access to the type of firewall profile currently in effect.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwmgr-get_localpolicy">LocalPolicy</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwmgr-get_localpolicy">LocalPolicy</a>
 
 
 </td>
@@ -161,9 +161,8 @@ effect immediately.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

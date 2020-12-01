@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpmessageparameters">IWSDUdpMessageParameters</a> interface.
+Retrieves a pointer to the <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpmessageparameters">IWSDUdpMessageParameters</a> interface.
 
 ## -parameters
 
 ### -param ppTxParams [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpmessageparameters">IWSDUdpMessageParameters</a> interface that you use to specify how often WSD repeats the message transmission.
+Pointer to the <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpmessageparameters">IWSDUdpMessageParameters</a> interface that you use to specify how often WSD repeats the message transmission.
 
 ## -returns
 
@@ -90,4 +90,3 @@ Method completed successfully.
 </td>
 </tr>
 </table>
-

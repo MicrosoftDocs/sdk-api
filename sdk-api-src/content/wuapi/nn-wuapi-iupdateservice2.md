@@ -54,5 +54,4 @@ Contains information about a service that is registered with Windows Update Agen
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>

@@ -58,11 +58,11 @@ Specifies a text name or status string for a single command identifier.
 
 ### -field cmdtextf
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdtextf">OLECMDTEXTF</a> enumeration describing whether the <b>rgwz</b> member contains a command name or status text.
+A value from the <a href="/windows/desktop/api/docobj/ne-docobj-olecmdtextf">OLECMDTEXTF</a> enumeration describing whether the <b>rgwz</b> member contains a command name or status text.
 
 ### -field cwActual
 
-The number of characters actually written into the <b>rgwz</b> buffer before <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a> returns.
+The number of characters actually written into the <b>rgwz</b> buffer before <a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a> returns.
 
 ### -field cwBuf
 
@@ -74,9 +74,8 @@ A caller-allocated array of wide characters to receive the command name or statu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-iolecommandtarget-querystatus">IOleCommandTarget::QueryStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/ne-docobj-olecmdtextf">OLECMDTEXTF</a>
-
+<a href="/windows/desktop/api/docobj/ne-docobj-olecmdtextf">OLECMDTEXTF</a>

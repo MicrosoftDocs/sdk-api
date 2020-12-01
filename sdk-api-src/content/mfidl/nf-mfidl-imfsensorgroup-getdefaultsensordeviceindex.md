@@ -111,9 +111,8 @@ The sensor group has not been initialized.
 
 The term "device" in this context could refer to a physical device, a custom media source, or a frame provider.
 
-If this <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-setdefaultsensordeviceindex">SetDefaultSensorDevice</a> has not been called, the first device in the Sensor Group (i.e. index 0) will be returned.
+If this <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-setdefaultsensordeviceindex">SetDefaultSensorDevice</a> has not been called, the first device in the Sensor Group (i.e. index 0) will be returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>

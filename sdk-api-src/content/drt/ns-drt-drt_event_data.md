@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>DRT_EVENT_DATA</b> structure contains the event data returned by calling <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgeteventdata">DrtGetEventData</a> after an application receives an event signal on the <i>hEvent</i> passed into <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>.
+The <b>DRT_EVENT_DATA</b> structure contains the event data returned by calling <a href="/windows/desktop/api/drt/nf-drt-drtgeteventdata">DrtGetEventData</a> after an application receives an event signal on the <i>hEvent</i> passed into <a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>.
 
 Contains an unnamed union that contains a structure that defines a change in the leaf set, the state of a locally registered key, or the state of the local DRT instance.
 
@@ -59,7 +59,7 @@ Contains an unnamed union that contains a structure that defines a change in the
 
 ### -field type
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_event_type">DRT_EVENT_TYPE</a> enumeration that specifies the event type.
+A <a href="/windows/desktop/api/drt/ne-drt-drt_event_type">DRT_EVENT_TYPE</a> enumeration that specifies the event type.
 
 ### -field hr
 
@@ -67,7 +67,7 @@ The HRESULT of the operation for which the event was signaled that indicates if 
 
 ### -field pvContext
 
-Pointer to the context data passed to the API that generated the event.  For example, if data is passed into the <i>pvContext</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>, that data is returned through this field.
+Pointer to the context data passed to the API that generated the event.  For example, if data is passed into the <i>pvContext</i> parameter of <a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>, that data is returned through this field.
 
 ### -field leafsetKeyChange
 
@@ -103,7 +103,7 @@ This structure appears when the event has been raised to signal a state change i
 
 ### -field statusChange.status
 
-Contains the current <a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_status">DRT_STATUS</a> of the  local DRT instance.
+Contains the current <a href="/windows/desktop/api/drt/ne-drt-drt_status">DRT_STATUS</a> of the  local DRT instance.
 
 ### -field statusChange.bootstrapAddresses
 
@@ -119,17 +119,16 @@ Contains an array of addresses returned by the bootstrap provider.
  
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_event_type">DRT_EVENT_TYPE</a>
+<a href="/windows/desktop/api/drt/ne-drt-drt_event_type">DRT_EVENT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/ne-drt-drt_status">DRT_STATUS</a>
+<a href="/windows/desktop/api/drt/ne-drt-drt_status">DRT_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtgeteventdata">DrtGetEventData</a>
+<a href="/windows/desktop/api/drt/nf-drt-drtgeteventdata">DrtGetEventData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
-
+<a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>

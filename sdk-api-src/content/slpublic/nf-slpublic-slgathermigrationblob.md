@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Gathers licensing information for the provided file handle. This licensing information  
-	can later be applied or deposited using the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-sldepositmigrationblob">SLDepositMigrationBlob</a> function.
+	can later be applied or deposited using the <a href="/windows/desktop/api/slpublic/nf-slpublic-sldepositmigrationblob">SLDepositMigrationBlob</a> function.
 
 ## -parameters
 
@@ -111,4 +111,3 @@ Access denied (API requires admin privileges).
 </td>
 </tr>
 </table>
-

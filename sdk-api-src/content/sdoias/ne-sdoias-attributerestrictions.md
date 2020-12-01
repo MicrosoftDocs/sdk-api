@@ -87,5 +87,4 @@ Specifies whether the attribute is allowed in an 8021x connection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-attributeinfo">ATTRIBUTEINFO</a>
-
+<a href="/windows/desktop/api/sdoias/ne-sdoias-attributeinfo">ATTRIBUTEINFO</a>

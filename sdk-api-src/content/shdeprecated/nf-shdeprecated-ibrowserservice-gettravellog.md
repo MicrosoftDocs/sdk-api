@@ -51,19 +51,18 @@ api_name:
 
 ## -description
 
-Deprecated. Retrieves the browser's <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a>.
+Deprecated. Retrieves the browser's <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a>.
 
 ## -parameters
 
 ### -param pptl [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a>**</b>
+Type: <b><a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a>**</b>
 
-The address that receives a pointer to the browser's <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a>.
+The address that receives a pointer to the browser's <a href="/windows/desktop/api/shdeprecated/nn-shdeprecated-itravellog">ITravelLog</a>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -57,19 +57,18 @@ api_name:
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 The handle of the window served by the provider.
 
 ### -param providerType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-providertype">ProviderType</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-providertype">ProviderType</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-providertype">ProviderType</a> enumerated type specifying the type of provider that is being requested.
+A value from the <a href="/windows/desktop/api/uiautomationcoreapi/ne-uiautomationcoreapi-providertype">ProviderType</a> enumerated type specifying the type of provider that is being requested.
 
 ## -returns
 
 Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a></b>
 
 A <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> containing the requested provider.
-

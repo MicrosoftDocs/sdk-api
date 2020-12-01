@@ -70,7 +70,7 @@ The y-coordinate of a point, in screen coordinates.
 
 Type: <b>long</b>
 
-The alignment type of the specified point. For a list of valid values, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getpoint">ITextRange::GetPoint</a>.
+The alignment type of the specified point. For a list of valid values, see <a href="/windows/desktop/api/tom/nf-tom-itextrange-getpoint">ITextRange::GetPoint</a>.
 
 ### -param ppRange [out, retval]
 
@@ -78,11 +78,10 @@ Type: <b>ITextRange2**</b>
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
-
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>

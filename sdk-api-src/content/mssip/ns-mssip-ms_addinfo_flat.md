@@ -64,5 +64,4 @@ The size, in bytes, of this structure.
 
 ### -field pIndirectData
 
-A [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data) structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash</a> of a flat file subject.
-
+A [SIP_INDIRECT_DATA](/windows/desktop/api/mssip/ns-mssip-sip_indirect_data) structure that contains the <a href="/windows/desktop/SecGloss/h-gly">hash</a> of a flat file subject.

@@ -85,11 +85,11 @@ Specifies whether the device is authenticated, paired, or bonded. All authentica
 ### -field stLastSeen
 
 Last time the device was seen, in the form of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure.
 
 ### -field stLastUsed
 
-Last time the device was used, in the form of a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure.
+Last time the device was used, in the form of a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure.
 
 ### -field szName
 
@@ -101,5 +101,4 @@ See the [Bluetooth class-of-device (CoD) codes](https://www.bluetooth.com/specif
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>

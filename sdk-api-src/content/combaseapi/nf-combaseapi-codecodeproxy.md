@@ -62,7 +62,7 @@ The process ID of the process that contains the proxy.
 
 ### -param ui64ProxyAddress [in]
 
-The address of an interface on a proxy to the object.  <i>ui64ProxyAddress</i> is considered a 64-bit value type, rather than a pointer  to a 64-bit value, and isn't a pointer to an object in the debugger process. Instead, this address is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a> function.
+The address of an interface on a proxy to the object.  <i>ui64ProxyAddress</i> is considered a 64-bit value type, rather than a pointer  to a 64-bit value, and isn't a pointer to an object in the debugger process. Instead, this address is passed to the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a> function.
 
 ### -param pServerInformation [out]
 
@@ -119,13 +119,12 @@ The <b>CoDecodeProxy</b> function is a COM API that enables native debuggers to 
 
 Also, the <b>CoDecodeProxy</b> function enables the debugger to monitor cross-apartment function calls and fail such calls when appropriate.
 
-You can call the <b>CoDecodeProxy</b> function from a 32-bit or 64-bit process. <i>ui64ProxyAddress</i> can be a 32-bit or 64-bit address. The <b>CoDecodeProxy</b> function returns a 32-bit or 64-bit address in the <i>pServerInformation</i> field. If it returns a 64-bit address, you should pass the address to the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a> function only from a 64-bit process.
+You can call the <b>CoDecodeProxy</b> function from a 32-bit or 64-bit process. <i>ui64ProxyAddress</i> can be a 32-bit or 64-bit address. The <b>CoDecodeProxy</b> function returns a 32-bit or 64-bit address in the <i>pServerInformation</i> field. If it returns a 64-bit address, you should pass the address to the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a> function only from a 64-bit process.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-readprocessmemory">ReadProcessMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/ns-combaseapi-serverinformation">ServerInformation</a>
-
+<a href="/windows/desktop/api/combaseapi/ns-combaseapi-serverinformation">ServerInformation</a>

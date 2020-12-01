@@ -83,7 +83,7 @@ A pointer to a string that contains the new label for the volume. If this parame
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -93,7 +93,7 @@ The maximum volume label length is 32 characters.
 
 A label is a user-friendly name that a user assigns to a volume to make it easier to recognize. A volume can 
     have a label, a drive letter, both, or neither. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
+    <a href="/windows/desktop/FileIO/naming-a-volume">Naming a Volume</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -166,9 +166,8 @@ SMB does not support volume management functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa">GetVolumeInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

@@ -57,7 +57,7 @@ The <b>IComponent::Initialize</b> method provides an entry point to the console.
 ### -param lpConsole [in]
 
 A pointer to the console 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole</a> interface.
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole</a> interface.
 
 ## -returns
 
@@ -66,22 +66,21 @@ This method can return one of these values.
 ## -remarks
 
 <b>IComponent::Initialize</b> is called when a snap-in is being created. The pointer to IConsole that is passed in is used to make QueryInterface calls to the console for interfaces such as 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>. You can also call QueryInterface on the IConsole pointer to get an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a> interface pointer.
+<a href="/windows/desktop/api/mmc/nn-mmc-iresultdata">IResultData</a>. You can also call QueryInterface on the IConsole pointer to get an 
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a> interface pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-icomponent">IComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icomponent-destroy">IComponent::Destroy</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-icomponent-destroy">IComponent::Destroy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>

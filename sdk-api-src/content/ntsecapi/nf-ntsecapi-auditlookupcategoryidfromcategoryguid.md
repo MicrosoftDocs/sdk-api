@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>AuditLookupCategoryIdFromCategoryGuid</b> function retrieves an element of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_audit_event_type">POLICY_AUDIT_EVENT_TYPE</a> enumeration that represents the specified audit-policy category.
+The <b>AuditLookupCategoryIdFromCategoryGuid</b> function retrieves an element of the <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_audit_event_type">POLICY_AUDIT_EVENT_TYPE</a> enumeration that represents the specified audit-policy category.
 
 ## -parameters
 
@@ -60,16 +60,15 @@ A pointer to a <b>GUID</b> structure that specifies an audit-policy category.
 
 ### -param pAuditCategoryId [out]
 
-A pointer to an element of the <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_audit_event_type">POLICY_AUDIT_EVENT_TYPE</a> enumeration that represents the audit-policy category specified by the <i>pAuditCategoryGuid</i> parameter.
+A pointer to an element of the <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_audit_event_type">POLICY_AUDIT_EVENT_TYPE</a> enumeration that represents the audit-policy category specified by the <i>pAuditCategoryGuid</i> parameter.
 
 ## -returns
 
 If the function succeeds, it returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-auditlookupcategoryguidfromcategoryid">AuditLookupCategoryGuidFromCategoryId</a>
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-auditlookupcategoryguidfromcategoryid">AuditLookupCategoryGuidFromCategoryId</a>

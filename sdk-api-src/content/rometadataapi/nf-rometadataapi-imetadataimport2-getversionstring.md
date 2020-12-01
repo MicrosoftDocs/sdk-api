@@ -76,5 +76,4 @@ The <b>GetVersionString</b> method gets the built-for version of the current met
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport2">IMetaDataImport2</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport2">IMetaDataImport2</a>

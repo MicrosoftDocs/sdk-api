@@ -52,13 +52,13 @@ api_name:
 
 Provides methods that retrieve format-specific codec properties.
 
-This interface is implemented by the video encoder objects. You can obtain a pointer to <a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprops">IWMCodecProps</a> by calling the <b>QueryInterface</b> method of any other interface on the object, such as <a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>.
+This interface is implemented by the video encoder objects. You can obtain a pointer to <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprops">IWMCodecProps</a> by calling the <b>QueryInterface</b> method of any other interface on the object, such as <a href="/previous-versions/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject</a> or <a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>.
 
 This interface enables you to receive information about a specific media type that is supported by a video encoder.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMCodecProps</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMCodecProps</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMCodecProps</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMCodecProps</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IWMCodecProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprops-getcodecprop">GetCodecProp</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprops-getcodecprop">GetCodecProp</a>
 </td>
 <td align="left" width="63%">
 Retrieves a codec property.
@@ -82,7 +82,7 @@ Retrieves a codec property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprops-getformatprop">GetFormatProp</a>
+<a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecprops-getformatprop">GetFormatProp</a>
 </td>
 <td align="left" width="63%">
 Retrieves a format property.
@@ -93,5 +93,4 @@ Retrieves a format property.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

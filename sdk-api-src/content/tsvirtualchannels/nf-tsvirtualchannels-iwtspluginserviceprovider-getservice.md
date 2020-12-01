@@ -62,11 +62,11 @@ Specifies the service to retrieve. This can be the following values.
 
 #### RDCLIENT_BITMAP_RENDER_SERVICE
 
-Identifies the bitmap rendering service. The <i>ppunkObject</i> parameter receives an <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderservice">IWTSBitmapRenderService</a> interface pointer.
+Identifies the bitmap rendering service. The <i>ppunkObject</i> parameter receives an <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderservice">IWTSBitmapRenderService</a> interface pointer.
 
 ### -param ppunkObject [out]
 
-The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface that receives the service object.
+The address of a pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface that receives the service object.
 
 ## -returns
 
@@ -74,5 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtspluginserviceprovider">IWTSPluginServiceProvider</a>
-
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtspluginserviceprovider">IWTSPluginServiceProvider</a>

@@ -64,7 +64,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssigningoptions">IXpsSigningOptions</a>
+<a href="/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixpssigningoptions">IXpsSigningOptions</a>
 
 
 
@@ -72,9 +72,8 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
 <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_flags">XPS_SIGN_FLAGS</a>
-

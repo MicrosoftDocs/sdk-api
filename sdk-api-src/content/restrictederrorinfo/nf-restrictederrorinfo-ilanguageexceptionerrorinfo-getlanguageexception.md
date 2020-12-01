@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets the stored <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> object from the error object.
+Gets the stored <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> object from the error object.
 
 ## -parameters
 
 ### -param languageException [out]
 
-The stored <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> object from the error object.
+The stored <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> object from the error object.
 
 ## -returns
 
@@ -68,5 +68,4 @@ Language projections query for the appropriate interface to identify this object
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo">ILanguageExceptionErrorInfo</a>
-
+<a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo">ILanguageExceptionErrorInfo</a>

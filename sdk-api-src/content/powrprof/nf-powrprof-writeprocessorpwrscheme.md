@@ -63,37 +63,36 @@ The index of the power scheme to be written.
 ### -param pMachineProcessorPowerPolicy [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a> structure that contains the power policy settings to be written.
+<a href="/windows/desktop/api/powrprof/ns-powrprof-machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a> structure that contains the power policy settings to be written.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 This change does not affect the current system power policy. To apply this change to the current system power policy, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-setactivepwrscheme">SetActivePwrScheme</a> function, using the index of this power scheme.
+<a href="/windows/desktop/api/powrprof/nf-powrprof-setactivepwrscheme">SetActivePwrScheme</a> function, using the index of this power scheme.
 
-Starting with Windows Vista, power management configuration of the system's processor is controlled through the GUID_PROCESSOR_SETTINGS_SUBGROUP power settings subgroup. Use the <a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a> function to enumerate individual settings.
+Starting with Windows Vista, power management configuration of the system's processor is controlled through the GUID_PROCESSOR_SETTINGS_SUBGROUP power settings subgroup. Use the <a href="/windows/desktop/api/powrprof/nf-powrprof-powerenumerate">PowerEnumerate</a> function to enumerate individual settings.
 
-For more information on using PowrProf.h, see <a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power Schemes</a>.
+For more information on using PowrProf.h, see <a href="/windows/desktop/Power/power-schemes">Power Schemes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ns-powrprof-machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a>
+<a href="/windows/desktop/api/powrprof/ns-powrprof-machine_processor_power_policy">MACHINE_PROCESSOR_POWER_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-schemes">Power Schemes</a>
+<a href="/windows/desktop/Power/power-schemes">Power Schemes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/nf-powrprof-readprocessorpwrscheme">ReadProcessorPwrScheme</a>
-
+<a href="/windows/desktop/api/powrprof/nf-powrprof-readprocessorpwrscheme">ReadProcessorPwrScheme</a>

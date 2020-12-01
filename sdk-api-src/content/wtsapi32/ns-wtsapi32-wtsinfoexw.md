@@ -56,7 +56,7 @@ api_name:
 
 ## -description
 
-Contains a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level_a">WTSINFOEX_LEVEL</a> union that contains extended information about a Remote Desktop Services session. This structure is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> function when you specify "WTSSessionInfoEx" for the <i>WTSInfoClass</i> parameter.
+Contains a <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level_a">WTSINFOEX_LEVEL</a> union that contains extended information about a Remote Desktop Services session. This structure is returned by the <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a> function when you specify "WTSSessionInfoEx" for the <i>WTSInfoClass</i> parameter.
 
 ## -struct-fields
 
@@ -68,27 +68,26 @@ Specifies the level  of information contained in the <b>Data</b> member. This ca
 
 #### 1
 
-The <b>Data</b> member is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a> structure.
+The <b>Data</b> member is a <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a> structure.
 
 ### -field Data
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level_a">WTSINFOEX_LEVEL</a> union. The type of structure contained here is specified by the <b>Level</b> member.
+A <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level_a">WTSINFOEX_LEVEL</a> union. The type of structure contained here is specified by the <b>Level</b> member.
 
 
 ##### - Level.1
 
-The <b>Data</b> member is a <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a> structure.
+The <b>Data</b> member is a <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level1_a">WTSINFOEX_LEVEL1</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level_a">WTSINFOEX_LEVEL</a>
+<a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsinfoex_level_a">WTSINFOEX_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
 
 ## -remarks
 
 > [!NOTE]
 > The wtsapi32.h header defines WTSINFOEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

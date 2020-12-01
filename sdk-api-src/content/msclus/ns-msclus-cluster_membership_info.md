@@ -73,5 +73,4 @@ A byte array that specifies the nodes in the cluster that are online.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves a property of an <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object referenced by the <i>error</i> parameter.
+Retrieves a property of an <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object referenced by the <i>error</i> parameter.
 
 ## -parameters
 
 ### -param error [in]
 
-A pointer to the  <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object with the property to retrieve.
+A pointer to the  <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object with the property to retrieve.
 
 ### -param id [in]
 
@@ -114,4 +114,3 @@ This function may return other errors not listed above.
 </td>
 </tr>
 </table>
-

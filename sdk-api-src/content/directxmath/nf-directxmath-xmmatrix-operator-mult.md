@@ -51,7 +51,7 @@ api_name:
 
 Performs a matrix multiplication of the current instance of <code>XMMATRIX</code> by another instance of <code>XMMATRIX</code>.
 
-This operator performs a matrix multiplication of the current instance of <a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a> by another instance of <code>XMMATRIX</code>.
+This operator performs a matrix multiplication of the current instance of <a href="/windows/win32/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a> by another instance of <code>XMMATRIX</code>.
 <div class="alert"><b>Note</b>  This operator is only available when developing with C++.</div><div> </div>
 
 ## -parameters
@@ -108,7 +108,7 @@ And is equivalent to using <a href="https://msdn.microsoft.com/13acd0b4-7fa6-466
 
 
 
-<a href="https://msdn.microsoft.com/64dd4128-103b-4d54-98f3-cc908170d81c">XMMATRIX</a>
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
 
 
 

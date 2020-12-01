@@ -70,9 +70,8 @@ The fence is shared with another GPU adapter.
 
 ## -remarks
 
-This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device5-createfence">ID3D11Device::CreateFence</a> method.
+This enum is used by the <a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device5-createfence">ID3D11Device::CreateFence</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>

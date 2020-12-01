@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndCanRecord</b> macro determines if an MCI device supports recording. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-record">MCIWNDM_CAN_RECORD</a> message.
+The <b>MCIWndCanRecord</b> macro determines if an MCI device supports recording. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-can-record">MCIWNDM_CAN_RECORD</a> message.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ Handle of the MCIWnd window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-can-record">MCIWNDM_CAN_RECORD</a>
-
+<a href="/windows/desktop/Multimedia/mciwndm-can-record">MCIWNDM_CAN_RECORD</a>

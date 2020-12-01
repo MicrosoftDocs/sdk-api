@@ -103,5 +103,4 @@ The row or column does not exist in the row set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/infotech/nn-infotech-iitresultset">IITResultSet</a>
-
+<a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitresultset">IITResultSet</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
- Sets an opaque, user-defined structure of recovery data from KTM.  Recovery information is stored in a log on behalf of a resource manager (RM) by calling <b>SetEnlistmentRecoveryInformation</b>.  After a failure, the RM can use <a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getenlistmentrecoveryinformation">GetEnlistmentRecoveryInformation</a> to retrieve the information.
+ Sets an opaque, user-defined structure of recovery data from KTM.  Recovery information is stored in a log on behalf of a resource manager (RM) by calling <b>SetEnlistmentRecoveryInformation</b>.  After a failure, the RM can use <a href="/windows/desktop/api/ktmw32/nf-ktmw32-getenlistmentrecoveryinformation">GetEnlistmentRecoveryInformation</a> to retrieve the information.
 
 ## -parameters
 
@@ -70,7 +70,7 @@ The recovery information.
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is 0 (zero). To get extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If the function fails, the return value is 0 (zero). To get extended error information, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 The following list identifies the possible error codes:
 
@@ -82,9 +82,8 @@ The information that is provided by the user may not be durably stored in the lo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ktmw32/nf-ktmw32-getenlistmentrecoveryinformation">GetEnlistmentRecoveryInformation</a>
+<a href="/windows/desktop/api/ktmw32/nf-ktmw32-getenlistmentrecoveryinformation">GetEnlistmentRecoveryInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>
-
+<a href="/windows/desktop/Ktm/kernel-transaction-manager-functions">Kernel Transaction Manager Functions</a>

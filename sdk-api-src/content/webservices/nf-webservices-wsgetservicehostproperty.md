@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves a specified Service Host property.  The property to retrieve is identified by a  <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_service_property_id">WS_SERVICE_PROPERTY_ID</a> input parameter.
+Retrieves a specified Service Host property.  The property to retrieve is identified by a  <a href="/windows/desktop/api/webservices/ne-webservices-ws_service_property_id">WS_SERVICE_PROPERTY_ID</a> input parameter.
 
 ## -parameters
 
@@ -74,7 +74,7 @@ The byte-length buffer size allocated by the caller to store the retrieved prope
 
 ### -param error [in, optional]
 
-A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
+A  pointer to a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object where additional information about the error should be stored if the function fails.
 
 ## -returns
 
@@ -97,4 +97,3 @@ The property id was not supported for this object or the specified buffer was no
 </td>
 </tr>
 </table>
-

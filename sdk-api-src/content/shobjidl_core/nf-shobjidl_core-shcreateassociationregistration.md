@@ -46,6 +46,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - SHCreateAssociationRegistration
+req.apiset: ext-ms-win-shell-shell32-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # SHCreateAssociationRegistration function
@@ -53,7 +54,7 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a> object based on the stock implementation of the interface provided by Windows.
+Creates an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a> object based on the stock implementation of the interface provided by Windows.
 
 ## -parameters
 
@@ -67,11 +68,10 @@ A reference to the IID of the requested interface.
 
 Type: <b>void**</b>
 
-When this function returns, contains the address of a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a> object.
+When this function returns, contains the address of a pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a> object.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

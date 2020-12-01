@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes the taskbar list object. This method must be called before any other <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a> methods can be called.
+Initializes the taskbar list object. This method must be called before any other <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itaskbarlist">ITaskbarList</a> methods can be called.
 
 ## -parameters
 
@@ -59,4 +59,3 @@ Initializes the taskbar list object. This method must be called before any other
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or an error value otherwise. If the method fails, no other methods can be called. The calling application should release the interface pointer.
-

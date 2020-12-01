@@ -55,21 +55,21 @@ api_name:
 
 ## -description
 
-The <b>UDP_TABLE_CLASS</b> enumeration defines the set of values used to  indicate the type of table returned by calls to <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a>.
+The <b>UDP_TABLE_CLASS</b> enumeration defines the set of values used to  indicate the type of table returned by calls to <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a>.
 
 ## -enum-fields
 
 ### -field UDP_TABLE_BASIC
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable">MIB_UDPTABLE</a> structure that contains all UDP endpoints on the local computer is returned to the caller.
+A <a href="/windows/desktop/api/udpmib/ns-udpmib-mib_udptable">MIB_UDPTABLE</a> structure that contains all UDP endpoints on the local computer is returned to the caller.
 
 ### -field UDP_TABLE_OWNER_PID
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable_owner_pid">MIB_UDPTABLE_OWNER_PID</a> or <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table_owner_pid">MIB_UDP6TABLE_OWNER_PID</a> structure that contains all UDP endpoints on the local computer is returned to the caller.
+A <a href="/windows/desktop/api/udpmib/ns-udpmib-mib_udptable_owner_pid">MIB_UDPTABLE_OWNER_PID</a> or <a href="/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table_owner_pid">MIB_UDP6TABLE_OWNER_PID</a> structure that contains all UDP endpoints on the local computer is returned to the caller.
 
 ### -field UDP_TABLE_OWNER_MODULE
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udptable_owner_module">MIB_UDPTABLE_OWNER_MODULE</a> or <a href="https://docs.microsoft.com/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table_owner_module">MIB_UDP6TABLE_OWNER_MODULE</a> structure that contains all  UDP endpoints on the local computer is returned to the caller.
+A <a href="/windows/desktop/api/udpmib/ns-udpmib-mib_udptable_owner_module">MIB_UDPTABLE_OWNER_MODULE</a> or <a href="/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table_owner_module">MIB_UDP6TABLE_OWNER_MODULE</a> structure that contains all  UDP endpoints on the local computer is returned to the caller.
 
 ## -remarks
 
@@ -77,5 +77,4 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a>
-
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedudptable">GetExtendedUdpTable</a>

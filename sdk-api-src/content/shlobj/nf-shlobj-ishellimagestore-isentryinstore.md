@@ -62,9 +62,9 @@ A pointer to a null-terminated string that specifies the path to the file that c
 
 ### -param pftTimeStamp [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>*</b>
+Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the time stamp for the image.
+A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that specifies the time stamp for the image.
 
 ## -returns
 
@@ -114,6 +114,5 @@ The store is not open.
 
 ## -remarks
 
-<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/shlobj/nn-shlobj-ishellimagestore">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.</div>
+<div class="alert"><b>Note</b>  <a href="/windows/desktop/api/shlobj/nn-shlobj-ishellimagestore">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.</div>
 <div> </div>
-

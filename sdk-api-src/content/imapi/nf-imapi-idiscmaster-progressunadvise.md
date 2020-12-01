@@ -57,7 +57,7 @@ Cancels progress notifications for an application.
 ### -param vCookie [in]
 
 Value returned by a previous call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nf-imapi-idiscmaster-progressadvise">ProgressAdvise</a> method.
+<a href="/windows/desktop/api/imapi/nf-imapi-idiscmaster-progressadvise">ProgressAdvise</a> method.
 
 ## -returns
 
@@ -65,5 +65,4 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
-
+<a href="/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>

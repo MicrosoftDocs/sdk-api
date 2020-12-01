@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>IFaxServer::get_Activity</b> property creates a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxactivity">IFaxActivity</a> interface object. The interface permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
+The <b>IFaxServer::get_Activity</b> property creates a <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxactivity">IFaxActivity</a> interface object. The interface permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
 
 This property is read-only.
 
@@ -59,13 +59,12 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-monitoring-fax-activity">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-monitoring-fax-activity">Visual Basic Example</a>

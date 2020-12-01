@@ -54,14 +54,14 @@ Notifies the user that the channel has been closed. There are three ways for the
     be closed:
 <ul>
 <li>The user has called the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-close">IWTSVirtualChannel::Close</a> method.</li>
+     <a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-close">IWTSVirtualChannel::Close</a> method.</li>
 <li>The Remote Desktop Connection (RDC) client has disconnected from the Remote Desktop Session Host (RD Session Host) 
      server.</li>
 <li>The server has called the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelclose">WTSVirtualChannel::Close</a> method on the 
+     <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelclose">WTSVirtualChannel::Close</a> method on the 
      channel.</li>
 </ul>Regardless of how the channel has been closed, there is no need to call 
-    <a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-close">IWTSVirtualChannel::Close()</a> when this call 
+    <a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsvirtualchannel-close">IWTSVirtualChannel::Close()</a> when this call 
     is received. If such a call is made, it is possible that if the plug-in is running out of process, that a call to 
     <b>IWTSVirtualChannel::Close()</b> may cause a 
     deadlock. A deadlock may occur because the caller of 
@@ -77,5 +77,4 @@ Returns <b>S_OK</b> on success. Results in no action if the call fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannelCallback</a>
-
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannelCallback</a>

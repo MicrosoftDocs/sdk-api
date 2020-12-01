@@ -55,7 +55,7 @@ Applications use the methods of the IDirect3D9 interface to create Microsoft Dir
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3D9</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3D9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3D9</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDirect3D9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDirect3D9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdepthstencilmatch">CheckDepthStencilMatch</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdepthstencilmatch">CheckDepthStencilMatch</a>
 </td>
 <td align="left" width="63%">
 Determines whether a depth-stencil format is compatible with a render-target format in a particular display mode.
@@ -79,7 +79,7 @@ Determines whether a depth-stencil format is compatible with a render-target for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat">CheckDeviceFormat</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat">CheckDeviceFormat</a>
 </td>
 <td align="left" width="63%">
 Determines whether a surface format is available as a specified resource type and can be used as a texture, depth-stencil buffer, or render target, or any combination of the three, on a device representing this adapter.
@@ -88,7 +88,7 @@ Determines whether a surface format is available as a specified resource type an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformatconversion">CheckDeviceFormatConversion</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformatconversion">CheckDeviceFormatConversion</a>
 </td>
 <td align="left" width="63%">
 Tests the device to see if it supports conversion from one display format to another.
@@ -97,7 +97,7 @@ Tests the device to see if it supports conversion from one display format to ano
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdevicemultisampletype">CheckDeviceMultiSampleType</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdevicemultisampletype">CheckDeviceMultiSampleType</a>
 </td>
 <td align="left" width="63%">
 Determines if a multisampling technique is available on this device.
@@ -106,7 +106,7 @@ Determines if a multisampling technique is available on this device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdevicetype">CheckDeviceType</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdevicetype">CheckDeviceType</a>
 </td>
 <td align="left" width="63%">
 Verifies whether a hardware accelerated device type can be used on this adapter.
@@ -115,7 +115,7 @@ Verifies whether a hardware accelerated device type can be used on this adapter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">CreateDevice</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-createdevice">CreateDevice</a>
 </td>
 <td align="left" width="63%">
 Creates a device to represent the display adapter.
@@ -124,7 +124,7 @@ Creates a device to represent the display adapter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-enumadaptermodes">EnumAdapterModes</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-enumadaptermodes">EnumAdapterModes</a>
 </td>
 <td align="left" width="63%">
 Queries the device to determine whether the specified adapter supports the requested format and display mode. This method could be used in a loop to enumerate all the available adapter modes.
@@ -133,7 +133,7 @@ Queries the device to determine whether the specified adapter supports the reque
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getadaptercount">GetAdapterCount</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getadaptercount">GetAdapterCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of adapters on the system.
@@ -142,7 +142,7 @@ Returns the number of adapters on the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getadapterdisplaymode">GetAdapterDisplayMode</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getadapterdisplaymode">GetAdapterDisplayMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current display mode of the adapter.
@@ -151,7 +151,7 @@ Retrieves the current display mode of the adapter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getadapteridentifier">GetAdapterIdentifier</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getadapteridentifier">GetAdapterIdentifier</a>
 </td>
 <td align="left" width="63%">
 Describes the physical display adapters present in the system when the <b>IDirect3D9</b> interface was instantiated.
@@ -160,7 +160,7 @@ Describes the physical display adapters present in the system when the <b>IDirec
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getadaptermodecount">GetAdapterModeCount</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getadaptermodecount">GetAdapterModeCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of display modes available on this adapter.
@@ -169,7 +169,7 @@ Returns the number of display modes available on this adapter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getadaptermonitor">GetAdapterMonitor</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getadaptermonitor">GetAdapterMonitor</a>
 </td>
 <td align="left" width="63%">
 Returns the handle of the monitor associated with the Direct3D object.
@@ -178,7 +178,7 @@ Returns the handle of the monitor associated with the Direct3D object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-getdevicecaps">GetDeviceCaps</a>
 </td>
 <td align="left" width="63%">
 Retrieves device-specific information about a device. 
@@ -187,7 +187,7 @@ Retrieves device-specific information about a device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-registersoftwaredevice">RegisterSoftwareDevice</a>
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-registersoftwaredevice">RegisterSoftwareDevice</a>
 </td>
 <td align="left" width="63%">
 Registers a pluggable software device. Software devices provide software rasterization enabling applications to access a variety of software rasterizers.
@@ -198,7 +198,7 @@ Registers a pluggable software device. Software devices provide software rasteri
 
 ## -remarks
 
-The <b>IDirect3D9</b> interface is obtained by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-direct3dcreate9">Direct3DCreate9</a> function.
+The <b>IDirect3D9</b> interface is obtained by calling the <a href="/windows/desktop/api/d3d9/nf-d3d9-direct3dcreate9">Direct3DCreate9</a> function.
 
 The LPDIRECT3D9 and PDIRECT3D9 types are defined as pointers to the <b>IDirect3D9</b> interface.
     
@@ -211,5 +211,4 @@ typedef struct IDirect3D9 *LPDIRECT3D9, *PDIRECT3D9;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>
-
+<a href="/windows/desktop/direct3d9/dx9-graphics-reference-d3d-interfaces">Direct3D Interfaces</a>

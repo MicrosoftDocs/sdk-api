@@ -54,7 +54,7 @@ Provides methods for manipulating a search root. Changes to property members are
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchRoot</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchRoot</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISearchRoot</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISearchRoot</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISearchRoot</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_authenticationtype">get_AuthenticationType</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_authenticationtype">get_AuthenticationType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of authentication needed to access the URLs under this this search root.
@@ -78,7 +78,7 @@ Retrieves the type of authentication needed to access the URLs under this this s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_enumerationdepth">get_EnumerationDepth</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_enumerationdepth">get_EnumerationDepth</a>
 </td>
 <td align="left" width="63%">
 Gets the enumeration depth for this search root.
@@ -87,7 +87,7 @@ Gets the enumeration depth for this search root.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_followdirectories">get_FollowDirectories</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_followdirectories">get_FollowDirectories</a>
 </td>
 <td align="left" width="63%">
 Gets a <b>BOOL</b> value that indicates whether the search engine follows subdirectories and hierarchical scopes.
@@ -96,7 +96,7 @@ Gets a <b>BOOL</b> value that indicates whether the search engine follows subdir
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_hostdepth">get_HostDepth</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_hostdepth">get_HostDepth</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates how far into a host tree to crawl when indexing.
@@ -105,7 +105,7 @@ Gets a value that indicates how far into a host tree to crawl when indexing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_ishierarchical">get_IsHierarchical</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_ishierarchical">get_IsHierarchical</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether the search is rooted on a hierarchical tree structure.
@@ -115,7 +115,7 @@ Gets a value that indicates whether the search is rooted on a hierarchical tree 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_password">get_Password</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_password">get_Password</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -124,7 +124,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_providesnotifications">get_ProvidesNotifications</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_providesnotifications">get_ProvidesNotifications</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether the search engine is notified (by protocol handlers or other applications) about changes to the URLs under the search root.
@@ -133,7 +133,7 @@ Gets a value that indicates whether the search engine is notified (by protocol h
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_rooturl">get_RootURL</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_rooturl">get_RootURL</a>
 </td>
 <td align="left" width="63%">
 Gets the URL of the starting point for this search root.
@@ -143,7 +143,7 @@ Gets the URL of the starting point for this search root.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_schedule">get_Schedule</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_schedule">get_Schedule</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -152,7 +152,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_usenotificationsonly">get_UseNotificationsOnly</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_usenotificationsonly">get_UseNotificationsOnly</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether this search root should be indexed only by notification and not crawled.
@@ -161,7 +161,7 @@ Gets a value that indicates whether this search root should be indexed only by n
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_user">get_User</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-get_user">get_User</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -170,7 +170,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_authenticationtype">put_AuthenticationType</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_authenticationtype">put_AuthenticationType</a>
 </td>
 <td align="left" width="63%">
 Sets the type of authentication required to access the URLs under this search root.
@@ -179,7 +179,7 @@ Sets the type of authentication required to access the URLs under this search ro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_enumerationdepth">put_EnumerationDepth</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_enumerationdepth">put_EnumerationDepth</a>
 </td>
 <td align="left" width="63%">
 Sets the enumeration depth for this search root.
@@ -188,7 +188,7 @@ Sets the enumeration depth for this search root.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_followdirectories">put_FollowDirectories</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_followdirectories">put_FollowDirectories</a>
 </td>
 <td align="left" width="63%">
 Sets a <b>BOOL</b> value that indicates whether the search engine should follow subdirectories and hierarchical scopes for this search root.
@@ -197,7 +197,7 @@ Sets a <b>BOOL</b> value that indicates whether the search engine should follow 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_hostdepth">put_HostDepth</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_hostdepth">put_HostDepth</a>
 </td>
 <td align="left" width="63%">
 Sets a value that indicates how far into a host tree to crawl when indexing.
@@ -206,7 +206,7 @@ Sets a value that indicates how far into a host tree to crawl when indexing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_ishierarchical">put_IsHierarchical</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_ishierarchical">put_IsHierarchical</a>
 </td>
 <td align="left" width="63%">
 Sets a value that indicates whether the search is rooted on a hierarchical tree structure.
@@ -215,7 +215,7 @@ Sets a value that indicates whether the search is rooted on a hierarchical tree 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_password">put_Password</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_password">put_Password</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -224,7 +224,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_providesnotifications">put_ProvidesNotifications</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_providesnotifications">put_ProvidesNotifications</a>
 </td>
 <td align="left" width="63%">
 Sets a value that indicates whether the search engine is notified (by protocol handlers or other applications) about changes to the URLs under the search root.
@@ -233,7 +233,7 @@ Sets a value that indicates whether the search engine is notified (by protocol h
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_rooturl">put_RootURL</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_rooturl">put_RootURL</a>
 </td>
 <td align="left" width="63%">
 Sets the URL of the current search root.
@@ -242,7 +242,7 @@ Sets the URL of the current search root.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_schedule">put_Schedule</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_schedule">put_Schedule</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -251,7 +251,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_user">put_User</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_user">put_User</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -260,7 +260,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_usenotificationsonly">set_UseNotificationsOnly</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-isearchroot-put_usenotificationsonly">set_UseNotificationsOnly</a>
 </td>
 <td align="left" width="63%">
 Sets a value that indicates whether this search root should be indexed only by notification and not crawled.
@@ -275,5 +275,4 @@ For a sample that demonstrates how to define command line options for Crawl Scop
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-extidx-csm">Using the Crawl Scope Manager</a>
-
+<a href="/windows/desktop/search/-search-3x-wds-extidx-csm">Using the Crawl Scope Manager</a>

@@ -72,7 +72,7 @@ Contains the number of application property identifiers in the <i>prgAppProp</i>
 
 ### -param ppProperty [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty</a> interface pointer that receives the tracking property.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty</a> interface pointer that receives the tracking property.
 
 ## -returns
 
@@ -131,9 +131,9 @@ One or more parameters are invalid.
 
 ## -remarks
 
-This method is used to quickly identify ranges with consistent property values for multiple properties. While this method could be duplicated using only the <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty">ITfContext::GetProperty</a> method, the TSF manager can accomplish this task more quickly.
+This method is used to quickly identify ranges with consistent property values for multiple properties. While this method could be duplicated using only the <a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty">ITfContext::GetProperty</a> method, the TSF manager can accomplish this task more quickly.
 
-The property obtained by this method is a VT_UNKNOWN type. This property can be used to obtain an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfpropertyvalue">IEnumTfPropertyValue</a> enumerator by calling the <b>QueryInterface</b> method with IID_IEnumTfPropertyValue. This enumerator contains property values specified by <i>prgProp</i> and <i>prgAppProp</i>.
+The property obtained by this method is a VT_UNKNOWN type. This property can be used to obtain an <a href="/windows/desktop/api/msctf/nn-msctf-ienumtfpropertyvalue">IEnumTfPropertyValue</a> enumerator by calling the <b>QueryInterface</b> method with IID_IEnumTfPropertyValue. This enumerator contains property values specified by <i>prgProp</i> and <i>prgAppProp</i>.
 
 
 #### Examples
@@ -211,20 +211,19 @@ sel.range->Release();
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-ienumtfpropertyvalue">IEnumTfPropertyValue
+<a href="/windows/desktop/api/msctf/nn-msctf-ienumtfpropertyvalue">IEnumTfPropertyValue
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty">ITfContext::GetProperty
+<a href="/windows/desktop/api/msctf/nf-msctf-itfcontext-getproperty">ITfContext::GetProperty
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty
+<a href="/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty
       </a>
-

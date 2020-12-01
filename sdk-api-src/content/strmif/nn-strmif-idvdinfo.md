@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  This interface has been deprecated. It will continue to be supported for backward compatibility with existing applications, but new applications should use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a>.</div>
+<div class="alert"><b>Note</b>  This interface has been deprecated. It will continue to be supported for backward compatibility with existing applications, but new applications should use <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2</a>.</div>
 <div> </div>
 The <b>IDvdInfo</b> interface enables an application to query for attributes of available DVD titles and the DVD player status. It also allows for control of a DVD player beyond Annex J in the DVD specification. Use this interface to retrieve details about a DVD-Video or about the current state of the DVD player filter graph.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdInfo</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDvdInfo</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDvdInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IDvdInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getallgprms">GetAllGPRMs</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getallgprms">GetAllGPRMs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current contents of all general parameter registers (GPRMs).
@@ -80,7 +80,7 @@ Retrieves the current contents of all general parameter registers (GPRMs).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getallsprms">GetAllSPRMs</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getallsprms">GetAllSPRMs</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current contents of all system parameter registers (SPRMs).
@@ -89,7 +89,7 @@ Retrieves the current contents of all system parameter registers (SPRMs).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getaudiolanguage">GetAudioLanguage</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getaudiolanguage">GetAudioLanguage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the language of the specified audio stream within the current title.
@@ -98,7 +98,7 @@ Retrieves the language of the specified audio stream within the current title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentangle">GetCurrentAngle</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentangle">GetCurrentAngle</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of available angles and the currently selected angle number.
@@ -107,7 +107,7 @@ Retrieves the number of available angles and the currently selected angle number
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentaudio">GetCurrentAudio</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentaudio">GetCurrentAudio</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of available audio streams and the number of the currently selected audio stream.
@@ -116,7 +116,7 @@ Retrieves the number of available audio streams and the number of the currently 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentaudioattributes">GetCurrentAudioAttributes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentaudioattributes">GetCurrentAudioAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the attributes for the current audio stream in the current title or menu.
@@ -125,7 +125,7 @@ Retrieves the attributes for the current audio stream in the current title or me
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentbutton">GetCurrentButton</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentbutton">GetCurrentButton</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of available buttons and the currently selected button number.
@@ -134,7 +134,7 @@ Retrieves the number of available buttons and the currently selected button numb
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentdomain">GetCurrentDomain</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentdomain">GetCurrentDomain</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current DVD domain of the DVD player.
@@ -143,7 +143,7 @@ Retrieves the current DVD domain of the DVD player.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentlocation">GetCurrentLocation</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentlocation">GetCurrentLocation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current playback location.
@@ -152,7 +152,7 @@ Retrieves the current playback location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentsubpicture">GetCurrentSubpicture</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentsubpicture">GetCurrentSubpicture</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of available subpicture streams, the currently selected subpicture stream number, and whether the subpicture display is disabled.
@@ -161,7 +161,7 @@ Retrieves the number of available subpicture streams, the currently selected sub
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentsubpictureattributes">GetCurrentSubpictureAttributes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentsubpictureattributes">GetCurrentSubpictureAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the attributes for the current subpicture stream in the current title or menu.
@@ -170,16 +170,16 @@ Retrieves the attributes for the current subpicture stream in the current title 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentuops">GetCurrentUOPS</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentuops">GetCurrentUOPS</a>
 </td>
 <td align="left" width="63%">
-Retrieves which <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl</a> methods are valid.
+Retrieves which <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl</a> methods are valid.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentvideoattributes">GetCurrentVideoAttributes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentvideoattributes">GetCurrentVideoAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current video attributes for the current title or menu.
@@ -188,7 +188,7 @@ Retrieves the current video attributes for the current title or menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentvolumeinfo">GetCurrentVolumeInfo</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getcurrentvolumeinfo">GetCurrentVolumeInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current DVD volume information.
@@ -197,7 +197,7 @@ Retrieves the current DVD volume information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getdvdtextinfo">GetDVDTextInfo</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getdvdtextinfo">GetDVDTextInfo</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <b>TXTDT_MG</b> structure, which can contain text descriptions for title name, volume name, producer name, vocalist name, and so on, in various languages.
@@ -206,7 +206,7 @@ Retrieves the <b>TXTDT_MG</b> structure, which can contain text descriptions for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getnumberofchapters">GetNumberOfChapters</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getnumberofchapters">GetNumberOfChapters</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of chapters that are defined for a given title.
@@ -215,7 +215,7 @@ Retrieves the number of chapters that are defined for a given title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getplayerparentallevel">GetPlayerParentalLevel</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getplayerparentallevel">GetPlayerParentalLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current parental level and country/region code settings for the DVD player.
@@ -224,7 +224,7 @@ Retrieves the current parental level and country/region code settings for the DV
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getroot">GetRoot</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getroot">GetRoot</a>
 </td>
 <td align="left" width="63%">
 Retrieves the root directory that is set in the player.
@@ -233,7 +233,7 @@ Retrieves the root directory that is set in the player.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getsubpicturelanguage">GetSubpictureLanguage</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getsubpicturelanguage">GetSubpictureLanguage</a>
 </td>
 <td align="left" width="63%">
 Retrieves the language of the specified subpicture stream within the current title.
@@ -242,7 +242,7 @@ Retrieves the language of the specified subpicture stream within the current tit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-gettitleattributes">GetTitleAttributes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-gettitleattributes">GetTitleAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves attributes of all video, audio, and subpicture streams for the specified title, including menus.
@@ -251,7 +251,7 @@ Retrieves attributes of all video, audio, and subpicture streams for the specifi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-gettitleparentallevels">GetTitleParentalLevels</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-gettitleparentallevels">GetTitleParentalLevels</a>
 </td>
 <td align="left" width="63%">
 Retrieves the parental levels that are defined for a particular title.
@@ -260,7 +260,7 @@ Retrieves the parental levels that are defined for a particular title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-gettotaltitletime">GetTotalTitleTime</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-gettotaltitletime">GetTotalTitleTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total playback time for the current title.
@@ -269,7 +269,7 @@ Retrieves the total playback time for the current title.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo-getvmgattributes">GetVMGAttributes</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo-getvmgattributes">GetVMGAttributes</a>
 </td>
 <td align="left" width="63%">
 Retrieves attributes of all video, audio, and subpicture streams for video manager (VMG) menus.
@@ -280,5 +280,4 @@ Retrieves attributes of all video, audio, and subpicture streams for video manag
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>

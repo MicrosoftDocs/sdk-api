@@ -58,7 +58,7 @@ Specifies a proxy property.
 
 ### -field id
 
-Identifies the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_call_property_id">WS_CALL_PROPERTY_ID</a>.
+Identifies the <a href="/windows/desktop/api/webservices/ne-webservices-ws_call_property_id">WS_CALL_PROPERTY_ID</a>.
 
 ### -field value
 
@@ -69,4 +69,3 @@ Pointer to a buffer for the value of the property.
 ### -field valueSize
 
 The size of buffer in bytes.
-

@@ -52,33 +52,33 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>createPKCS10WStr</b> method creates a base64-encoded PKCS #10 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
+The <b>createPKCS10WStr</b> method creates a base64-encoded PKCS #10 <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll">IEnroll</a> interface.
 
- This base64-encoded PKCS #10 certificate request (in <b>BSTR</b> form) can be submitted to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> to request  that a certificate be issued to the person or entity whose information it contains.
+ This base64-encoded PKCS #10 certificate request (in <b>BSTR</b> form) can be submitted to a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> to request  that a certificate be issued to the person or entity whose information it contains.
 
 ## -parameters
 
 ### -param DNName [in]
 
-A null-terminated Unicode string that contains the distinguished name (DN) of the entity for which the request is being made. In this parameter, the DN name must follow the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/x-gly">X.500</a> naming convention. For example "CN=User, O=Microsoft". If a two-letter prefix does not exist, an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) may be provided instead.
+A null-terminated Unicode string that contains the distinguished name (DN) of the entity for which the request is being made. In this parameter, the DN name must follow the <a href="/windows/desktop/SecGloss/x-gly">X.500</a> naming convention. For example "CN=User, O=Microsoft". If a two-letter prefix does not exist, an <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) may be provided instead.
 
 ### -param Usage [in]
 
 A null-terminated Unicode string that contains an OID that describes the purpose of the certificate being generated. For example, Individual or Commercial Authenticode certificate, or Client Authentication. You can also specify multiple OIDs separated by a comma.
 
-The  OID is passed through to the PKCS #10 request. For general extensibility and ease of understanding, the control does not attempt to understand specific-purpose OIDs. Therefore if you specify a Client Authentication OID, the generated key will still be a signature key, not an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/e-gly">exchange key</a>.
+The  OID is passed through to the PKCS #10 request. For general extensibility and ease of understanding, the control does not attempt to understand specific-purpose OIDs. Therefore if you specify a Client Authentication OID, the generated key will still be a signature key, not an <a href="/windows/desktop/SecGloss/e-gly">exchange key</a>.
 
 ### -param pPkcs10Blob [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that receives the base64-encoded PKCS10 certificate request.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> that receives the base64-encoded PKCS10 certificate request.
 
-When you have finished using this memory, free it by passing the <b>pbData</b> member of this structure to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+When you have finished using this memory, free it by passing the <b>pbData</b> member of this structure to the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -returns
 
  If the method succeeds, the method returns S_OK and <i>pPkcs10Blob</i> contains a base64-encoded PKCS #10 request that can be directly posted to a web server for processing.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
@@ -86,5 +86,4 @@ By default, the Microsoft Base Cryptographic Provider is used, PROV_RSA_FULL is 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>

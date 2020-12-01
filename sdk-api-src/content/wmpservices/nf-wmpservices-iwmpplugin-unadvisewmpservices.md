@@ -64,9 +64,8 @@ Windows Media Player calls this method when the pointer provided by <b>AdviseWMP
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nn-wmpservices-iwmpplugin">IWMPPlugin Interface</a>
+<a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpplugin">IWMPPlugin Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-advisewmpservices">IWMPPlugin::AdviseWMPServices</a>
-
+<a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-advisewmpservices">IWMPPlugin::AdviseWMPServices</a>

@@ -57,8 +57,8 @@ api_name:
 The <b>SECPKG_SERIALIZED_OID</b> structure contains the security package's object identifier (OID). 
 
 This structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spgetextendedinformationfn">SpGetExtendedInformation</a> and 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spsetextendedinformationfn">SpSetExtendedInformation</a> functions.
 
 ## -struct-fields
 
@@ -73,4 +73,3 @@ The attributes of the OID.
 ### -field OidValue
 
 The value of the OID. The value of SECPKG_MAX_OID_LENGTH is currently set to 32.
-

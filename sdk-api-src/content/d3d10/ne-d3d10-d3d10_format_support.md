@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Which resources are supported for a given format and given device (see <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10device-checkformatsupport">ID3D10Device::CheckFormatSupport</a>).
+Which resources are supported for a given format and given device (see <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10device-checkformatsupport">ID3D10Device::CheckFormatSupport</a>).
 
 ## -enum-fields
 
@@ -88,16 +88,16 @@ Cube texture resources supported.
 
 ### -field D3D10_FORMAT_SUPPORT_SHADER_LOAD
 
-The intrinsic HLSL function <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load">load</a> is supported.
+The intrinsic HLSL function <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load">load</a> is supported.
 
 ### -field D3D10_FORMAT_SUPPORT_SHADER_SAMPLE
 
-The intrinsic HLSL functions <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-sample">Sample</a> supported.
+The intrinsic HLSL functions <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-sample">Sample</a> supported.
 
 ### -field D3D10_FORMAT_SUPPORT_SHADER_SAMPLE_COMPARISON
 
-The intrinsic HLSL functions <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">SampleCmp</a> 
-        and <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero">SampleCmpLevelZero</a> are supported.
+The intrinsic HLSL functions <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmp">SampleCmp</a> 
+        and <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-samplecmplevelzero">SampleCmpLevelZero</a> are supported.
 
 ### -field D3D10_FORMAT_SUPPORT_SHADER_SAMPLE_MONO_TEXT
 
@@ -145,15 +145,14 @@ Format can be used as a multisampled rendertarget.
 
 ### -field D3D10_FORMAT_SUPPORT_MULTISAMPLE_LOAD
 
-Format can be used as a multisampled texture and read into a shader with the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load">load</a> function.
+Format can be used as a multisampled texture and read into a shader with the <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-load">load</a> function.
 
 ### -field D3D10_FORMAT_SUPPORT_SHADER_GATHER
 
-Format can be used with the <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-gather">gather</a> function. This value is available in DirectX 10.1 or higher.
+Format can be used with the <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-to-gather">gather</a> function. This value is available in DirectX 10.1 or higher.
 
 ### -field D3D10_FORMAT_SUPPORT_BACK_BUFFER_CAST
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-core-enums">Core Enumerations</a>

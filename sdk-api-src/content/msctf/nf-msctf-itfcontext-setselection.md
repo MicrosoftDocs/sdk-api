@@ -56,7 +56,7 @@ Sets the selection within the document.
 
 ### -param ec [in]
 
-Contains an edit cookie that identifies the edit session. This is the value passed to <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
+Contains an edit cookie that identifies the edit session. This is the value passed to <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param ulCount [in]
 
@@ -64,7 +64,7 @@ Specifies the number of selections in the <i>pSelection</i> array.
 
 ### -param pSelection [in]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_selection">TF_SELECTION</a> structures that contain the information for each selection.
+An array of <a href="/windows/desktop/api/msctf/ns-msctf-tf_selection">TF_SELECTION</a> structures that contain the information for each selection.
 
 ## -returns
 
@@ -121,4 +121,3 @@ The caller can set the <b>fInterimChar</b> flag only if one selection is set. In
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [TF_SELECTION structure](ns-msctf-tf_selection.md), [ITfContext::GetSelection](nf-msctf-itfcontext-getselection.md)
-

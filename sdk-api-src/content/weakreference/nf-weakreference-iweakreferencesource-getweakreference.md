@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves a weak reference from an <a href="https://docs.microsoft.com/windows/desktop/api/weakreference/nn-weakreference-iweakreferencesource">IWeakReferenceSource</a>.
+Retrieves a weak reference from an <a href="/windows/desktop/api/weakreference/nn-weakreference-iweakreferencesource">IWeakReferenceSource</a>.
 
 ## -parameters
 
 ### -param weakReference [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/weakreference/nn-weakreference-iweakreference">IWeakReference</a>**</b>
+Type: <b><a href="/windows/desktop/api/weakreference/nn-weakreference-iweakreference">IWeakReference</a>**</b>
 
 The weak reference.
 
@@ -68,5 +68,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/weakreference/nn-weakreference-iweakreferencesource">IWeakReferenceSource</a>
-
+<a href="/windows/desktop/api/weakreference/nn-weakreference-iweakreferencesource">IWeakReferenceSource</a>

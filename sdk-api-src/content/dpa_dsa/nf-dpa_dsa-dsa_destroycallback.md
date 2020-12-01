@@ -43,6 +43,7 @@ api_location:
  - ComCtl32.dll
 api_name:
  - DSA_DestroyCallback
+req.apiset: ext-ms-win-shell-comctl32-da-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DSA_DestroyCallback function
@@ -68,13 +69,12 @@ A handle to a DSA to walk and destroy.
 
 ### -param pfnCB [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallback">PFNDSAENUMCALLBACK</a></b>
+Type: <b><a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallback">PFNDSAENUMCALLBACK</a></b>
 
-A callback function pointer. For the callback function prototype, see <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallback">PFNDSAENUMCALLBACK</a>.
+A callback function pointer. For the callback function prototype, see <a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndaenumcallback">PFNDSAENUMCALLBACK</a>.
 
 ### -param pData [in]
 
 Type: <b>void*</b>
 
 A callback data pointer. This pointer is, in turn, passed as a parameter to <i>pfnCB</i>.
-

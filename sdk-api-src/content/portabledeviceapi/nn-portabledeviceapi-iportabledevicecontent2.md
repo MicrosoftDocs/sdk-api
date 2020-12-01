@@ -54,7 +54,7 @@ The <b>IPortableDeviceContent2</b> interface defines additional methods that pro
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceContent2</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent</a>. <b>IPortableDeviceContent2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceContent2</b> interface inherits from <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent</a>. <b>IPortableDeviceContent2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPortableDeviceContent2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent2-updateobjectwithpropertiesanddata">UpdateObjectWithPropertiesAndData</a>
+<a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent2-updateobjectwithpropertiesanddata">UpdateObjectWithPropertiesAndData</a>
 </td>
 <td align="left" width="63%">
 Updates an object with properties and data found on the device.
@@ -77,4 +77,3 @@ Updates an object with properties and data found on the device.
 </td>
 </tr>
 </table>
-

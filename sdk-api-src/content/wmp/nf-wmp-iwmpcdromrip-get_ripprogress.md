@@ -82,15 +82,14 @@ The method succeeded.
 
 ## -remarks
 
-The progress value represents the completed percentage of the entire ripping process. To determine the progress of a specific track, use <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo">IWMPMedia::getItemInfo</a> with <b>RipProgress</b> as the attribute name. To determine the index of the track currently being ripped, call <a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-getiteminfo">IWMPPlaylist::getItemInfo</a> with <b>CurrentRipTrackIndex</b> as the attribute name.
+The progress value represents the completed percentage of the entire ripping process. To determine the progress of a specific track, use <a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo">IWMPMedia::getItemInfo</a> with <b>RipProgress</b> as the attribute name. To determine the index of the track currently being ripped, call <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylist-getiteminfo">IWMPPlaylist::getItemInfo</a> with <b>CurrentRipTrackIndex</b> as the attribute name.
 
 <b>Windows Media Player 10 Mobile: </b>This method is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip">IWMPCdromRip Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip">IWMPCdromRip Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/ripping-a-cd">Ripping a CD</a>
-
+<a href="/windows/desktop/WMP/ripping-a-cd">Ripping a CD</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Called from the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_operation">WSManPluginAuthzOperation</a> plug-in entry point. It reports either a successful or failed authorization for a user operation.
+Called from the <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_operation">WSManPluginAuthzOperation</a> plug-in entry point. It reports either a successful or failed authorization for a user operation.
 
 ## -parameters
 
 ### -param senderDetails [in]
 
-A pointer  to the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that was passed into the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_operation">WSManPluginAuthzOperation</a> plug-in call.
+A pointer  to the <a href="/windows/desktop/api/wsman/ns-wsman-wsman_sender_details">WSMAN_SENDER_DETAILS</a> structure that was passed into the <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_operation">WSManPluginAuthzOperation</a> plug-in call.
 
 ### -param flags [in]
 
@@ -64,7 +64,7 @@ Reserved for future use. Must be zero.
 
 ### -param userAuthorizationContext [in, optional]
 
-Specifies a plug-in defined context that is used to help track user context information. This context can be returned to multiple calls, to this call, or to an operation call.  The plug-in manages reference counting for all calls.  If the user record times out or re-authorization is required, the WinRM (WinRM) infrastructure calls <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_release_context">WSManPluginAuthzReleaseContext</a>.
+Specifies a plug-in defined context that is used to help track user context information. This context can be returned to multiple calls, to this call, or to an operation call.  The plug-in manages reference counting for all calls.  If the user record times out or re-authorization is required, the WinRM (WinRM) infrastructure calls <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_authorize_release_context">WSManPluginAuthzReleaseContext</a>.
 
 ### -param errorCode [in]
 
@@ -77,4 +77,3 @@ Specifies an XML document that contains any extra error information that needs t
 ## -returns
 
 The method returns <b>ERROR_SUCCESS</b> if it succeeded; otherwise,  it returns <b>ERROR_INVALID_PARAMETER</b>.  If <b>ERROR_INVALID_PARAMETER</b> is returned, either  the <i>senderDetails</i> parameter was <b>NULL</b> or the <i>flags</i> parameter was not zero.
-

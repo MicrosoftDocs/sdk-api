@@ -56,11 +56,11 @@ The <b>PeerCollabRegisterApplication</b> function registers an application with 
 
 ### -param pcApplication [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_application_registration_info">PEER_APPLICATION_REGISTRATION_INFO</a> structure that contains the UUID of the peer's application feature set as well as any additional peer-specific data.
+Pointer to a <a href="/windows/desktop/api/p2p/ns-p2p-peer_application_registration_info">PEER_APPLICATION_REGISTRATION_INFO</a> structure that contains the UUID of the peer's application feature set as well as any additional peer-specific data.
 
 ### -param registrationType [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_application_registration_type">PEER_APPLICATION_REGISTRATION_TYPE</a> value that describes whether the peer's application is registered to the <b>current user</b> or <b>all users</b> of the peer's machine.
+A <a href="/windows/desktop/api/p2p/ne-p2p-peer_application_registration_type">PEER_APPLICATION_REGISTRATION_TYPE</a> value that describes whether the peer's application is registered to the <b>current user</b> or <b>all users</b> of the peer's machine.
 
 ## -returns
 
@@ -101,9 +101,9 @@ An <i>application</i> is a set of software or software  features available on th
 
 The collaboration infrastructure can receive application invites from trusted contacts or from "People Near Me", which are based on the scope the collaboration infrastructure is signed in with using PeerCollabSignin.
 
-A peer's application has a GUID representing a single specific application. When an application is registered for a peer, this GUID and the corresponding application can be made available to all trusted contacts of the peer, indicating the activities the peer can participate in. To unregister a peer's application, call <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabunregisterapplication">PeerCollabUnregisterApplication</a> with this GUID.
+A peer's application has a GUID representing a single specific application. When an application is registered for a peer, this GUID and the corresponding application can be made available to all trusted contacts of the peer, indicating the activities the peer can participate in. To unregister a peer's application, call <a href="/windows/desktop/api/p2p/nf-p2p-peercollabunregisterapplication">PeerCollabUnregisterApplication</a> with this GUID.
 
-When registering an application, it is recommended that developers specify a relative path, such as <b>%ProgramFiles%</b>, instead of an absolute path. This prevents application failure due to a change in the location of application files. For example, if the <b>C:\ProgramFiles</b> directory is moved to <b>E:\</b>. 
+When registering an application, it is recommended that developers specify a relative path, such as <b>%ProgramFiles%</b>, instead of an absolute path. This prevents application failure due to a change in the location of application files. For example, if the <b>C:\ProgramFiles</b> directory is moved to <b>E:\\</b>. 
 
 Only applications that are local to the machine can be registered. It is not possible to register when an application's executable path is located on a network share like a UNC path or locally-mapped network drive.
 
@@ -114,13 +114,12 @@ The maximum number of applications that can be registered for a specific <i>regi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_application_registration_type">PEER_APPLICATION_REGISTRATION_TYPE</a>
+<a href="/windows/desktop/api/p2p/ne-p2p-peer_application_registration_type">PEER_APPLICATION_REGISTRATION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
+<a href="/windows/desktop/P2PSdk/collaboration-api-functions">Peer Collaboration API Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peercollabunregisterapplication">PeerCollabUnregisterApplication</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peercollabunregisterapplication">PeerCollabUnregisterApplication</a>

@@ -108,9 +108,8 @@ The caller is out of memory or other system resources.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoresubcomponent">IVssComponent::GetRestoreSubcomponent</a>
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoresubcomponent">IVssComponent::GetRestoreSubcomponent</a>

@@ -98,17 +98,16 @@ Success.
 
 ## -remarks
 
-The other <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcrossbar">IAMCrossbar</a> methods take parameters that specify pins by index number. For these methods, output pins and input pins are both indexed from zero. Use the <code>get_PinCounts</code> method to determine the upper bounds for each.
+The other <a href="/windows/desktop/api/strmif/nn-strmif-iamcrossbar">IAMCrossbar</a> methods take parameters that specify pins by index number. For these methods, output pins and input pins are both indexed from zero. Use the <code>get_PinCounts</code> method to determine the upper bounds for each.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamcrossbar">IAMCrossbar Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamcrossbar">IAMCrossbar Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/working-with-crossbars">Working with Crossbars</a>
-
+<a href="/windows/desktop/DirectShow/working-with-crossbars">Working with Crossbars</a>

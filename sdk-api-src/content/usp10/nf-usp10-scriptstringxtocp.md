@@ -59,7 +59,7 @@ Converts an x coordinate to a character position.
 
 ### -param ssa [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure for the string.
+A <a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a> structure for the string.
 
 ### -param iX [in]
 
@@ -79,7 +79,7 @@ Returns S_OK if successful. The function returns a nonzero HRESULT value if it d
 
 ## -remarks
 
-If the x coordinate corresponds to the leading edge of the character, the value of <i>piTrailing</i> is 0. If the x coordinate corresponds to the trailing edge of the character, the value of <i>piTrailing</i> is a positive integer. As for <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptxtocp">ScriptXtoCP</a>, the value is 1 for a character that can be rendered on its own. The value is greater than 1 if the character is part of a cluster in a script for which cursors are not placed within a cluster, to indicate the offset to the next legitimate logical cursor position.
+If the x coordinate corresponds to the leading edge of the character, the value of <i>piTrailing</i> is 0. If the x coordinate corresponds to the trailing edge of the character, the value of <i>piTrailing</i> is a positive integer. As for <a href="/windows/desktop/api/usp10/nf-usp10-scriptxtocp">ScriptXtoCP</a>, the value is 1 for a character that can be rendered on its own. The value is greater than 1 if the character is part of a cluster in a script for which cursors are not placed within a cluster, to indicate the offset to the next legitimate logical cursor position.
 
 If the x coordinate is before the beginning of the line, the function retrieves -1 for <i>piCh</i> and 1 for <i>piTrailing</i>, indicating the trailing edge of the nonexistent character before the line. If the x coordinate is after the end of the line, the function retrieves for <i>piCh</i> the first index beyond the length of the line and 0 for <i>piTrailing</i>. The 0 value indicates the leading edge of the nonexistent character after the line.
 
@@ -88,13 +88,12 @@ If the x coordinate is before the beginning of the line, the function retrieves 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a>
+<a href="/windows/desktop/Intl/script-string-analysis">SCRIPT_STRING_ANALYSIS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>
-
+<a href="/windows/desktop/Intl/uniscribe-functions">Uniscribe Functions</a>

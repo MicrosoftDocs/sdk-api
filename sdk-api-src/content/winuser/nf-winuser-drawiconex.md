@@ -50,6 +50,7 @@ api_location:
  - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
  - DrawIconEx
+req.apiset: ext-ms-win-ntuser-gui-l1-1-0 (introduced in Windows 8)
 ---
 
 # DrawIconEx function
@@ -194,7 +195,7 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -210,21 +211,20 @@ To duplicate <code>DrawIcon (hDC, X, Y, hIcon)</code>, call <b>DrawIconEx</b> as
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-copyimage">CopyImage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-copyimage">CopyImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawicon">DrawIcon</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawicon">DrawIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/icons">Icons</a>
+<a href="/windows/desktop/menurc/icons">Icons</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
 
 
 
 <b>Reference</b>
-

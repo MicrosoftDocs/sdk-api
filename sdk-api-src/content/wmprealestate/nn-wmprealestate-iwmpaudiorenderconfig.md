@@ -56,7 +56,7 @@ The <b>IWMPAudioRenderConfig</b> interface provides methods for setting and retr
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPAudioRenderConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPAudioRenderConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPAudioRenderConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMPAudioRenderConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -87,5 +87,4 @@ Sets the current audio output device for the Windows Media Player ActiveX contro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/WMP/interfaces">Interfaces</a>

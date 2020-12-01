@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Exposed by Shell folders to provide detailed information about the items in a folder. This is the same information that is displayed by the Windows Explorer when the view of the folder is set to Details. For Windows 2000 and later systems, <b>IShellDetails</b> is superseded by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>.
+Exposed by Shell folders to provide detailed information about the items in a folder. This is the same information that is displayed by the Windows Explorer when the view of the folder is set to Details. For Windows 2000 and later systems, <b>IShellDetails</b> is superseded by <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellDetails</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellDetails</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IShellDetails</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IShellDetails</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IShellDetails</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-columnclick">ColumnClick</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-columnclick">ColumnClick</a>
 </td>
 <td align="left" width="63%">
 Rearranges a column.
@@ -78,7 +78,7 @@ Rearranges a column.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-getdetailsof">GetDetailsOf</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-getdetailsof">GetDetailsOf</a>
 </td>
 <td align="left" width="63%">
 Gets detailed information on an item in a Shell folder.
@@ -89,5 +89,4 @@ Gets detailed information on an item in a Shell folder.
 
 ## -remarks
 
-For Windows 2000 and later systems, folder objects should implement <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a> instead of this interface. However, if your application needs to function on earlier systems, <b>IShellDetails</b> should also be exposed.
-
+For Windows 2000 and later systems, folder objects should implement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a> instead of this interface. However, if your application needs to function on earlier systems, <b>IShellDetails</b> should also be exposed.

@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods to query and interact with iSCSI initiator adapters on the local system.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsIscsiInitiatorAdapter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiInitiatorAdapter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsIscsiInitiatorAdapter</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsIscsiInitiatorAdapter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,28 +72,28 @@ The <b>IVdsIscsiInitiatorAdapter</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsiscsiinitiatoradapter-getproperties">GetProperties</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsiscsiinitiatoradapter-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the properties of an initiator adapter.</p> (Inherited from <b>IVdsIscsiInitiatorAdapter</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsiscsiinitiatoradapter-logintotarget">LoginToTarget</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsiscsiinitiatoradapter-logintotarget">LoginToTarget</a>
 </td>
 <td align="left" width="63%">
 Performs a manual login to an iSCSI target.</p> (Inherited from <b>IVdsIscsiInitiatorAdapter</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsiscsiinitiatoradapter-logoutfromtarget">LogoutFromTarget</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsiscsiinitiatoradapter-logoutfromtarget">LogoutFromTarget</a>
 </td>
 <td align="left" width="63%">
 Performs a manual logout from an iSCSI target on all iSCSI sessions to the specified target.</p> (Inherited from <b>IVdsIscsiInitiatorAdapter</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsiscsiinitiatoradapter-queryinitiatorportals">QueryInitiatorPortals</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsiscsiinitiatoradapter-queryinitiatorportals">QueryInitiatorPortals</a>
 </td>
 <td align="left" width="63%">
 Returns an object that enumerates the iSCSI initiator portals of  the initiator adapter.</p> (Inherited from <b>IVdsIscsiInitiatorAdapter</b>)</td>
@@ -102,5 +102,4 @@ Returns an object that enumerates the iSCSI initiator portals of  the initiator 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
-
+<a href="/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>

@@ -107,9 +107,8 @@ The binary certificate. The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winefs/ns-winefs-encryption_certificate">ENCRYPTION_CERTIFICATE</a>
+<a href="/windows/desktop/api/winefs/ns-winefs-encryption_certificate">ENCRYPTION_CERTIFICATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-encryption">File Encryption</a>
-
+<a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>

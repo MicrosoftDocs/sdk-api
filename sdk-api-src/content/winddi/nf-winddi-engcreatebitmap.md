@@ -56,9 +56,9 @@ The <b>EngCreateBitmap</b> function requests that GDI create and manage a bitmap
 
 ### -param sizl
 
-Specifies a SIZEL structure whose members contain the width and height, in pixels, of the bitmap to be created. A SIZEL structure is identical to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
+Specifies a SIZEL structure whose members contain the width and height, in pixels, of the bitmap to be created. A SIZEL structure is identical to a <a href="/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
 
-If <i>pvBits</i> is not <b>NULL</b>, this value should represent all pixels visible on the device, allowing the device to keep <a href="https://docs.microsoft.com/windows-hardware/drivers/">off-screen memory</a>.
+If <i>pvBits</i> is not <b>NULL</b>, this value should represent all pixels visible on the device, allowing the device to keep <a href="/windows-hardware/drivers/">off-screen memory</a>.
 
 ### -param lWidth
 
@@ -190,7 +190,7 @@ BMF_USERMEM
 
 </td>
 <td>
-GDI will allocate the memory for the bitmap from user memory. By default, the memory is allocated from the kernel's address space. This flag should be specified only when the bitmap being created will not be used by other processes. User memory cannot be passed to <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a> by the printer driver.
+GDI will allocate the memory for the bitmap from user memory. By default, the memory is allocated from the kernel's address space. This flag should be specified only when the bitmap being created will not be used by other processes. User memory cannot be passed to <a href="/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a> by the printer driver.
 
 </td>
 </tr>
@@ -208,17 +208,16 @@ If the function completes successfully, the return value is a handle that identi
 
 Storage for the bitmap can optionally be provided by the driver.
 
-The driver should associate the created bitmap as a surface by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a> before returning from <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a>.
+The driver should associate the created bitmap as a surface by calling <a href="/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a> before returning from <a href="/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a>.
 
-The bitmap should be deleted by using <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletesurface">EngDeleteSurface</a> when it is no longer needed.
+The bitmap should be deleted by using <a href="/windows/desktop/api/winddi/nf-winddi-engdeletesurface">EngDeleteSurface</a> when it is no longer needed.
 
 Frame buffer display drivers should use the <i>pvBits</i> parameter, allowing GDI to do most drawing directly to the display.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvcreatedevicebitmap">DrvCreateDeviceBitmap</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvcreatedevicebitmap">DrvCreateDeviceBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engallocusermem">EngAllocUserMem</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engallocusermem">EngAllocUserMem</a>

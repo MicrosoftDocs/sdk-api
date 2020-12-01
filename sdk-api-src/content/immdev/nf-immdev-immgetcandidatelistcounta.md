@@ -70,7 +70,7 @@ Returns the number of bytes required for all candidate lists if successful, or 0
 
 ## -remarks
 
-Applications typically call this function in response to an <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a> or <a href="https://docs.microsoft.com/windows/desktop/Intl/imn-changecandidate">IMN_CHANGECANDIDATE</a> command.
+Applications typically call this function in response to an <a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a> or <a href="/windows/desktop/Intl/imn-changecandidate">IMN_CHANGECANDIDATE</a> command.
 
 
 
@@ -81,17 +81,16 @@ Applications typically call this function in response to an <a href="https://doc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-changecandidate">IMN_CHANGECANDIDATE</a>
+<a href="/windows/desktop/Intl/imn-changecandidate">IMN_CHANGECANDIDATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a>
+<a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
+<a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-
+<a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>

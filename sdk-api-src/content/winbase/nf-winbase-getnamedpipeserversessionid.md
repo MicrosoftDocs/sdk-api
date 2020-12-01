@@ -57,7 +57,7 @@ Retrieves the server session identifier for the specified named pipe.
 ### -param Pipe [in]
 
 A handle to an instance of a named pipe. This handle must be created by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a> function.
 
 ### -param ServerSessionId [out]
 
@@ -68,7 +68,7 @@ The session identifier.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
@@ -76,17 +76,16 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-er
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createnamedpipea">CreateNamedPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnamedpipeclientsessionid">GetNamedPipeClientSessionId</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getnamedpipeclientsessionid">GetNamedPipeClientSessionId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
+<a href="/windows/desktop/ipc/pipe-functions">Pipe Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes Overview</a>
-
+<a href="/windows/desktop/ipc/pipes">Pipes Overview</a>

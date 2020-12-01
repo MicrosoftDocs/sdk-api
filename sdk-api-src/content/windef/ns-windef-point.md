@@ -68,13 +68,12 @@ Specifies the <i>y</i>-coordinate of the point.
 
 ## -remarks
 
-The POINT structure is identical to the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure.
+The POINT structure is identical to the <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a>
+<a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-points">POINTS</a>
-
+<a href="/windows/desktop/api/windef/ns-windef-points">POINTS</a>

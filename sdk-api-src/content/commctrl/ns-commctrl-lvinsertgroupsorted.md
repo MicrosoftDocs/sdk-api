@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Used to sort groups. It is used with <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a>.
+Used to sort groups. It is used with <a href="/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a>.
 
 ## -struct-fields
 
@@ -62,29 +62,28 @@ Used to sort groups. It is used with <a href="https://docs.microsoft.com/windows
 
 Type: <b>PFNLVGROUPCOMPARE</b>
 
-Pointer to application-defined function <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-pfnlvgroupcompare">LVGroupCompare</a> that is used to sort the groups.
+Pointer to application-defined function <a href="/windows/desktop/api/commctrl/nc-commctrl-pfnlvgroupcompare">LVGroupCompare</a> that is used to sort the groups.
 
 ### -field pvData
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPVOID</a>*</b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPVOID</a>*</b>
 
 Data to sort; this is application-defined.
 
 ### -field lvGroup
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a></b>
+Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-lvgroup">LVGROUP</a></b>
 
 Group to sort; this is application-defined.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nc-commctrl-pfnlvgroupcompare">LVGroupCompare</a>
+<a href="/windows/desktop/api/commctrl/nc-commctrl-pfnlvgroupcompare">LVGroupCompare</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a>
+<a href="/windows/desktop/Controls/lvm-insertgroupsorted">LVM_INSERTGROUPSORTED</a>
 
 
 
 <b>Reference</b>
-

@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Contains information about a file that the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a> function opened or attempted to open.
+<a href="/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a> function opened or attempted to open.
 
 ## -struct-fields
 
@@ -70,7 +70,7 @@ If this member is nonzero, the file is on a hard (fixed) disk. Otherwise, it is 
 ### -field nErrCode
 
 The MS-DOS error code if the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a> function failed.
+<a href="/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a> function failed.
 
 ### -field Reserved1
 
@@ -86,5 +86,4 @@ The path and file name of the file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a>

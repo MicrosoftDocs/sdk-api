@@ -58,7 +58,7 @@ Specifies the capabilities of the Microsoft DirectX Video Acceleration High Defi
 
 ### -field VPGuid
 
-A GUID that identifies the video processor. This GUID is defined by the device, and is used in various <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_device">IDXVAHD_Device</a> methods to specify the video processor.
+A GUID that identifies the video processor. This GUID is defined by the device, and is used in various <a href="/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_device">IDXVAHD_Device</a> methods to specify the video processor.
 
 ### -field PastFrames
 
@@ -70,29 +70,28 @@ The number of future reference frames required to perform the optimal video proc
 
 ### -field ProcessorCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_processor_caps">DXVAHD_PROCESSOR_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_processor_caps">DXVAHD_PROCESSOR_CAPS</a> enumeration.
 
 ### -field ITelecineCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_itelecine_caps">DXVAHD_ITELECINE_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/dxvahd/ne-dxvahd-dxvahd_itelecine_caps">DXVAHD_ITELECINE_CAPS</a> enumeration.
 
 ### -field CustomRateCount
 
-The number of custom output frame rates. To get the list of custom frame rates, call the <a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcustomrates">IDXVAHD_Device::GetVideoProcessorCustomRates</a> method. Custom frame rates are used for frame-rate conversion and inverse telecine.
+The number of custom output frame rates. To get the list of custom frame rates, call the <a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcustomrates">IDXVAHD_Device::GetVideoProcessorCustomRates</a> method. Custom frame rates are used for frame-rate conversion and inverse telecine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
+<a href="/windows/desktop/medfound/dxva-hd">DXVA-HD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
+<a href="/windows/desktop/medfound/direct3d-video-structures">Direct3D Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcaps">IDXVAHD_Device::GetVideoProcessorCaps</a>
+<a href="/windows/desktop/api/dxvahd/nf-dxvahd-idxvahd_device-getvideoprocessorcaps">IDXVAHD_Device::GetVideoProcessorCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

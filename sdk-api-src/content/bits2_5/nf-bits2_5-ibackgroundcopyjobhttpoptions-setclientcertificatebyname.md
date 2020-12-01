@@ -223,7 +223,7 @@ The client certificate is applicable only for remote files that use the HTTP or 
 
 When a website accepts but does not require an SSL client certificate, and the BITS job does not specify a client certificate, the job will fail with ERROR_WINHTTP_CLIENT_AUTH_CERT_NEEDED (0x80072f0c).
 
-The method uses the subject name string to perform a substring search for the certificate. Since subject names are not necessarily unique, this method searches the store for the first certificate that uses the given subject name and is a client authentication certificate. You should provide the complete subject name for a better chance of finding a single match. If the certificate is not correct (not trusted), the job will fail with BG_E_HTTP_ERROR_403 when BITS tries to transfer the file and the job will move to the error state. If you cannot guarantee a unique subject name, consider using the <a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyid">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a> method instead.
+The method uses the subject name string to perform a substring search for the certificate. Since subject names are not necessarily unique, this method searches the store for the first certificate that uses the given subject name and is a client authentication certificate. You should provide the complete subject name for a better chance of finding a single match. If the certificate is not correct (not trusted), the job will fail with BG_E_HTTP_ERROR_403 when BITS tries to transfer the file and the job will move to the error state. If you cannot guarantee a unique subject name, consider using the <a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyid">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a> method instead.
 
 SmartCard certificate identifiers (thumbprints) are not supported.
 
@@ -271,17 +271,16 @@ cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
+<a href="/windows/desktop/api/bits2_5/nn-bits2_5-ibackgroundcopyjobhttpoptions">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getclientcertificate">IBackgroundCopyJobHttpOptions::GetClientCertificate</a>
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getclientcertificate">IBackgroundCopyJobHttpOptions::GetClientCertificate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-removeclientcertificate">IBackgroundCopyJobHttpOptions::RemoveClientCertificate</a>
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-removeclientcertificate">IBackgroundCopyJobHttpOptions::RemoveClientCertificate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyid">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a>
-
+<a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyid">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a>

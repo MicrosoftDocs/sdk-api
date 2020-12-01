@@ -48,7 +48,7 @@ Represents the output stream for video processing commands.  Points to the targe
 
 ### -field pTexture2D
 
-A pointer to a [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) representing the output surfaces for the video process command.
+A pointer to a [ID3D12Resource](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) representing the output surfaces for the video process command.
 
 ### -field Subresource
 
@@ -57,4 +57,3 @@ The subresource indices to use within the resource specified *pTexture2D* resour
 ## -remarks
 
 ## -see-also
-

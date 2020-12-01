@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>GetNetScheduleAccountInformation</b> is no longer available for use as of Windows 8. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces"> Task Scheduler 2.0 Interfaces</a>.
+<p class="CCE_Message">[<b>GetNetScheduleAccountInformation</b> is no longer available for use as of Windows 8. Instead, use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces"> Task Scheduler 2.0 Interfaces</a>.
 
 ]
 
@@ -83,5 +83,4 @@ To successfully call the <b>GetNetScheduleAccountInformation</b> function,  the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/atacct/nf-atacct-setnetscheduleaccountinformation">SetNetScheduleAccountInformation</a>
-
+<a href="/windows/desktop/api/atacct/nf-atacct-setnetscheduleaccountinformation">SetNetScheduleAccountInformation</a>

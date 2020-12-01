@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>MPRAPI_ADMIN_DLL_CALLBACKS</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedllex">MprAdminInitializeDllEx</a> function to register the  callback function pointers.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedllex">MprAdminInitializeDllEx</a> function to register the  callback function pointers.
 
 ## -struct-fields
 
@@ -75,7 +75,7 @@ A value that represents the version of this structure.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure and the callback function pointers that use it as a parameter are not supported by this structure.
+The <a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure and the callback function pointers that use it as a parameter are not supported by this structure.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure and the callback function pointers that use it as a parameter are supported by this structure.
+The <a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a> structure and the callback function pointers that use it as a parameter are supported by this structure.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras
 
 ### -field lpfnMprAdminGetIpAddressForUser
 
-A function pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmingetipaddressforuser">MprAdminGetIpAddressForUser</a> callback. The callback prototype is defined as:
+A function pointer to an instance of the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmingetipaddressforuser">MprAdminGetIpAddressForUser</a> callback. The callback prototype is defined as:
 
 
 ```cpp
@@ -103,7 +103,7 @@ typedef DWORD (APIENTRY * PMPRADMINGETIPADDRESSFORUSER)(WCHAR *, WCHAR *, DWORD 
 
 ### -field lpfnMprAdminReleaseIpAddress
 
-A function pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipaddress">MprAdminReleaseIpAddress</a> callback. The callback prototype is defined as:
+A function pointer to an instance of the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipaddress">MprAdminReleaseIpAddress</a> callback. The callback prototype is defined as:
 
 
 ```cpp
@@ -113,7 +113,7 @@ typedef VOID  (APIENTRY * PMPRADMINRELEASEIPADRESS)(WCHAR *, WCHAR *, DWORD *);
 
 ### -field lpfnMprAdminGetIpv6AddressForUser
 
-A function pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmingetipv6addressforuser">MprAdminGetIpv6AddressForUser</a> callback. The callback prototype is defined as:
+A function pointer to an instance of the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmingetipv6addressforuser">MprAdminGetIpv6AddressForUser</a> callback. The callback prototype is defined as:
 
 
 ```cpp
@@ -123,7 +123,7 @@ typedef DWORD (APIENTRY * PMPRADMINGETIPV6ADDRESSFORUSER)(WCHAR *, WCHAR *, IN6_
 
 ### -field lpfnMprAdminReleaseIpV6AddressForUser
 
-A function pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipv6addressforuser">MprAdminReleaseIpv6AddressForUser</a> callback. The callback prototype is defined as:
+A function pointer to an instance of the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipv6addressforuser">MprAdminReleaseIpv6AddressForUser</a> callback. The callback prototype is defined as:
 
 
 ```cpp
@@ -133,7 +133,7 @@ typedef VOID  (APIENTRY * PMPRADMINRELEASEIPV6ADDRESSFORUSER)(WCHAR *, WCHAR *, 
 
 ### -field lpfnRasAdminAcceptNewLink
 
-A function pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminacceptnewlink">MprAdminAcceptNewLink</a> callback. The callback prototype is defined as:
+A function pointer to an instance of the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminacceptnewlink">MprAdminAcceptNewLink</a> callback. The callback prototype is defined as:
 
 
 ```cpp
@@ -143,7 +143,7 @@ typedef BOOL  (APIENTRY * PMPRADMINACCEPTNEWLINK)(RAS_PORT_0 *, RAS_PORT_1 *);
 
 ### -field lpfnRasAdminLinkHangupNotification
 
-A function pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminlinkhangupnotification">MprAdminLinkHangupNotification</a> callback. The callback prototype is defined as:
+A function pointer to an instance of the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminlinkhangupnotification">MprAdminLinkHangupNotification</a> callback. The callback prototype is defined as:
 
 
 ```cpp
@@ -153,7 +153,7 @@ typedef VOID  (APIENTRY * PMPRADMINLINKHANGUPNOTIFICATION)(RAS_PORT_0 *, RAS_POR
 
 ### -field lpfnRasAdminTerminateDll
 
-A function pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminterminatedll">MprAdminTerminateDll</a> callback. The callback prototype is defined as:
+A function pointer to an instance of the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminterminatedll">MprAdminTerminateDll</a> callback. The callback prototype is defined as:
 
 
 ```cpp
@@ -163,7 +163,7 @@ typedef DWORD (APIENTRY * PMPRADMINTERMINATEDLL)();
 
 ### -field lpfnRasAdminAcceptNewConnectionEx
 
-A function pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminacceptnewconnectionex">MprAdminAcceptNewConnectionEx</a>  callback. The callback prototype is defined as:
+A function pointer to an instance of the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminacceptnewconnectionex">MprAdminAcceptNewConnectionEx</a>  callback. The callback prototype is defined as:
 
 
 ```cpp
@@ -175,7 +175,7 @@ typedef BOOL  (APIENTRY * PMPRADMINACCEPTNEWCONNECTIONEX)(RAS_CONNECTION_EX *);
 
 ### -field lpfnRasAdminAcceptReauthenticationEx
 
-A function pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminacceptreauthenticationex">MprAdminAcceptReauthenticationEx</a> callback. The callback prototype is defined as:
+A function pointer to an instance of the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminacceptreauthenticationex">MprAdminAcceptReauthenticationEx</a> callback. The callback prototype is defined as:
 
 
 ```cpp
@@ -185,7 +185,7 @@ typedef BOOL  (APIENTRY * PMPRADMINACCEPTREAUTHENTICATIONEX)(RAS_CONNECTION_EX *
 
 ### -field lpfnRasAdminConnectionHangupNotificationEx
 
-A function pointer to an instance of the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionhangupnotificationex">MprAdminConnectionHangupNotificationEx</a> callback. The callback prototype is defined as:
+A function pointer to an instance of the <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionhangupnotificationex">MprAdminConnectionHangupNotificationEx</a> callback. The callback prototype is defined as:
 
 
 ```cpp
@@ -208,69 +208,68 @@ The following restrictions apply to the callback functions in the <b>MPRAPI_ADMI
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">IN6_ADDR</a>
+<a href="/previous-versions/windows/desktop/legacy/ms738560(v=vs.85)">IN6_ADDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminacceptnewconnectionex">MprAdminAcceptNewConnectionEx</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminacceptnewconnectionex">MprAdminAcceptNewConnectionEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminacceptnewlink">MprAdminAcceptNewLink</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminacceptnewlink">MprAdminAcceptNewLink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminacceptreauthenticationex">MprAdminAcceptReauthenticationEx</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminacceptreauthenticationex">MprAdminAcceptReauthenticationEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionhangupnotificationex">MprAdminConnectionHangupNotificationEx</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionhangupnotificationex">MprAdminConnectionHangupNotificationEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmingetipaddressforuser">MprAdminGetIpAddressForUser</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmingetipaddressforuser">MprAdminGetIpAddressForUser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmingetipv6addressforuser">MprAdminGetIpv6AddressForUser</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmingetipv6addressforuser">MprAdminGetIpv6AddressForUser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedll">MprAdminInitializeDll</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedll">MprAdminInitializeDll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminlinkhangupnotification">MprAdminLinkHangupNotification</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminlinkhangupnotification">MprAdminLinkHangupNotification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipaddress">MprAdminReleaseIpAddress</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipaddress">MprAdminReleaseIpAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipv6addressforuser">MprAdminReleaseIpv6AddressForUser</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminreleaseipv6addressforuser">MprAdminReleaseIpv6AddressForUser</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminterminatedll">MprAdminTerminateDll</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminterminatedll">MprAdminTerminateDll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-structures">RAS Administration Structures</a>
+<a href="/windows/desktop/RRAS/ras-administration-structures">RAS Administration Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_ex">RAS_CONNECTION_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_0">RAS_PORT_0</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_port_0">RAS_PORT_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_port_1">RAS_PORT_1</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_port_1">RAS_PORT_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

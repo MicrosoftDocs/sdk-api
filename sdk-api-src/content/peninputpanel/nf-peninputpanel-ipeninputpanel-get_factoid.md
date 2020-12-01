@@ -55,9 +55,9 @@ api_name:
 
 ## -description
 
-Deprecated.  The <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="https://docs.microsoft.com/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
+Deprecated.  The <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> has been replaced by the <a href="/windows/desktop/tablet/text-input-panel-reference">Text Input Panel (TIP)</a>.
 
-Gets or sets the string name of the factoid used by the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object.
+Gets or sets the string name of the factoid used by the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object.
 
 
 
@@ -67,30 +67,30 @@ This property is read/write.
 
 ## -remarks
 
-A factoid provides a recognizer context for ink within a particular field. You specify a factoid if an input field is of a known type. For example, if the input field contains a date, specify the <a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Date</a> factoid.
+A factoid provides a recognizer context for ink within a particular field. You specify a factoid if an input field is of a known type. For example, if the input field contains a date, specify the <a href="/windows/desktop/tablet/factoid-constants">Date</a> factoid.
 
-For more information about factoids and how to use them, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-context-to-improve-accuracy">Using Context to Improve Accuracy</a>. For a list of possible values for the <b>Factoid</b> property, see <a href="https://docs.microsoft.com/windows/desktop/tablet/supported-factoids-from-version-1">Supported Factoids from Version 1</a>.
+For more information about factoids and how to use them, see <a href="/windows/desktop/tablet/using-context-to-improve-accuracy">Using Context to Improve Accuracy</a>. For a list of possible values for the <b>Factoid</b> property, see <a href="/windows/desktop/tablet/supported-factoids-from-version-1">Supported Factoids from Version 1</a>.
 
 <div class="alert"><b>Note</b>  String representations of factoids are case-sensitive.</div>
 <div> </div>
 This property has no effect on keypads or keyboards.
 
-The <a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">WordList</a> factoid is not supported for the <a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object.
+The <a href="/windows/desktop/tablet/factoid-constants">WordList</a> factoid is not supported for the <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a> object.
 
 The default value for the <b>Factoid</b> property is DEFAULT. In locales that use recognizers of Latin script, all factoids may be used. In locales that use recognizers of East Asian characters, the following factoid values are relevant:
 
 <ul>
 <li>DIGIT: Implies the Num bias button on the East Asian writing pad.</li>
 <li>ONECAHR: Implies the Alpha bias button on the East Asian writing pad.</li>
-<li>Common <a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">factoids</a> (JapaneseCommon, ChineseSimpleCommon, ChineseTraditionalCommon, KoreanCommon, KanjiCommon, and HangulCommon) imply the Alpha/Num bias button on the East Asian writing pad.</li>
+<li>Common <a href="/windows/desktop/tablet/factoid-constants">factoids</a> (JapaneseCommon, ChineseSimpleCommon, ChineseTraditionalCommon, KoreanCommon, KanjiCommon, and HangulCommon) imply the Alpha/Num bias button on the East Asian writing pad.</li>
 </ul>
 All factoid values other than DIGIT and ONECHAR are interpreted as the common factoid that is appropriate for the current input locale.
 
-If the <b>Factoid</b> property is set, it is forwarded to the recognizer only if the <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscope">SetInputScope</a> function has not also been called.
+If the <b>Factoid</b> property is set, it is forwarded to the recognizer only if the <a href="/windows/desktop/api/inputscope/nf-inputscope-setinputscope">SetInputScope</a> function has not also been called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/factoid-constants">Factoid Constants</a>
+<a href="/windows/desktop/tablet/factoid-constants">Factoid Constants</a>
 
 
 
@@ -98,5 +98,4 @@ If the <b>Factoid</b> property is set, it is forwarded to the recognizer only if
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-
+<a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>

@@ -54,7 +54,7 @@ Exposes methods that define an input connect.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectInputConnector</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectInputConnector</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMILBitmapEffectInputConnector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMILBitmapEffectInputConnector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMILBitmapEffectInputConnector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectinputconnector-connectto">ConnectTo</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectinputconnector-connectto">ConnectTo</a>
 </td>
 <td align="left" width="63%">
 Connects the input connector to the given output connector.
@@ -78,12 +78,11 @@ Connects the input connector to the given output connector.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectinputconnector-getconnection">GetConnection</a>
+<a href="/previous-versions/windows/desktop/api/mileffects/nf-mileffects-imilbitmapeffectinputconnector-getconnection">GetConnection</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectoutputconnector">IMILBitmapEffectOutputConnector</a> the input connector is connected to.
+Gets the <a href="/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imilbitmapeffectoutputconnector">IMILBitmapEffectOutputConnector</a> the input connector is connected to.
 
 </td>
 </tr>
 </table>
-

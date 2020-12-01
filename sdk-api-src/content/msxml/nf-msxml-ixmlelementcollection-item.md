@@ -56,11 +56,11 @@ Retrieves the child elements from a collection using their index, name, or both.
 
 ### -param var1 [in, optional]
 
-A valid index numeric value (within the length of <a href="https://docs.microsoft.com/windows/desktop/api/msxml/nn-msxml-ixmlelementcollection">IXMLElementCollection</a>) or the name of an element in the XML hierarchy.
+A valid index numeric value (within the length of <a href="/windows/desktop/api/msxml/nn-msxml-ixmlelementcollection">IXMLElementCollection</a>) or the name of an element in the XML hierarchy.
 
 ### -param var2 [in, optional]
 
-A valid index numeric value (within the length of <a href="https://docs.microsoft.com/windows/desktop/api/msxml/nn-msxml-ixmlelementcollection">IXMLElementCollection</a>) or the name of an element in the XML hierarchy.
+A valid index numeric value (within the length of <a href="/windows/desktop/api/msxml/nn-msxml-ixmlelementcollection">IXMLElementCollection</a>) or the name of an element in the XML hierarchy.
 
 ### -param ppDisp
 
@@ -76,5 +76,4 @@ This method is implemented in MSXML 1.0. It is no longer supported by Microsoft 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msxml/nn-msxml-ixmlelementcollection">IXMLElementCollection</a>
-
+<a href="/windows/desktop/api/msxml/nn-msxml-ixmlelementcollection">IXMLElementCollection</a>

@@ -58,7 +58,7 @@ Gets the current folder settings.
 
 Type: <b>LPFOLDERSETTINGS</b>
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure to receive the settings.
+The address of a <a href="/windows/desktop/api/shobjidl_core/ns-shobjidl_core-foldersettings">FOLDERSETTINGS</a> structure to receive the settings.
 
 ## -returns
 
@@ -78,5 +78,4 @@ Return as many of the settings as apply. This is intended to maintain the same b
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>

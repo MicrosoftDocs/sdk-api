@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Converts the default property of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> instance to a long value.
+Converts the default property of an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> instance to a long value.
 
 ## -parameters
 
@@ -144,4 +144,3 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
-

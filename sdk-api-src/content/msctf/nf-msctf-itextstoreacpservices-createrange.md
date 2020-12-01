@@ -64,7 +64,7 @@ Contains the ending position of the range.
 
 ### -param ppRange [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrangeacp">ITfRangeACP</a> interface pointer that receives the range object.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrangeacp">ITfRangeACP</a> interface pointer that receives the range object.
 
 ## -returns
 
@@ -113,4 +113,3 @@ An unspecified error occurred.
 ## -see-also
 
 [ITextStoreACPServices interface](nn-msctf-itextstoreacpservices.md), [ITfRangeACP interface](nn-msctf-itfrangeacp.md)
-

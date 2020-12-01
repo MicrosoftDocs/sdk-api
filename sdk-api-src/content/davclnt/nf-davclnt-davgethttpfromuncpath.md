@@ -81,7 +81,7 @@ A pointer to a variable that on input specifies the maximum size, in Unicode cha
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
-If the function fails, the return value is a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as the following value.
+If the function fails, the return value is a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>, such as the following value.
 
 <table>
 <tr>
@@ -100,4 +100,3 @@ The buffer that the <i>HttpPath</i> parameter points to was not large enough to 
 </td>
 </tr>
 </table>
-

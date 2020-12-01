@@ -57,7 +57,7 @@ Gets the bounds of the metafile in source space in DIPs. This corresponds
 
 ### -param bounds [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 The bounds, in DIPs, of the metafile.
 
@@ -69,17 +69,16 @@ S_OK if successful, otherwise a failure HRESULT.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1gdimetafile">ID2D1GdiMetafile</a>
+<a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1gdimetafile">ID2D1GdiMetafile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1gdimetafile1">ID2D1GdiMetafile1</a>
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1gdimetafile1">ID2D1GdiMetafile1</a>
 
 
 
-<a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-emfplus/5f92c789-64f2-46b5-9ed4-15a9bb0946c6">[MS-EMFPLUS]: Enhanced Metafile Format Plus Extensions</a>
+<a href="/openspecs/windows_protocols/ms-emfplus/5f92c789-64f2-46b5-9ed4-15a9bb0946c6">[MS-EMFPLUS]: Enhanced Metafile Format Plus Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-emf/91c257d7-c39d-4a36-9b1f-63e3f73d30ca">[MS-EMF]: Enhanced Metafile Format</a>
-
+<a href="/openspecs/windows_protocols/ms-emf/91c257d7-c39d-4a36-9b1f-63e3f73d30ca">[MS-EMF]: Enhanced Metafile Format</a>

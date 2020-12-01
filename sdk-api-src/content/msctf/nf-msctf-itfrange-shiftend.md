@@ -56,7 +56,7 @@ Moves the end anchor of the range.
 
 ### -param ec [in]
 
-Contains an edit cookie that identifies the edit context. This is obtained from <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
+Contains an edit cookie that identifies the edit context. This is obtained from <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext</a> or <a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession</a>.
 
 ### -param cchReq [in]
 
@@ -68,7 +68,7 @@ Pointer to a <b>LONG</b> value that receives the number of characters the anchor
 
 ### -param pHalt [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_haltcond">TF_HALTCOND</a> structure that contains conditions on the shift. This parameter is optional and can be <b>NULL</b>.
+Pointer to a <a href="/windows/desktop/api/msctf/ns-msctf-tf_haltcond">TF_HALTCOND</a> structure that contains conditions on the shift. This parameter is optional and can be <b>NULL</b>.
 
 ## -returns
 
@@ -129,38 +129,37 @@ The edit context identified by <i>ec</i> does not have a read-only lock.
 
 The start and end positions of a range are called anchors.
 
-This method cannot move an anchor beyond a region boundary. If the shift reaches a region boundary, the number of characters actually shifted will be less than requested. <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-shiftendregion">ITfRange::ShiftEndRegion</a> is used to shift the anchor to an adjacent region.
+This method cannot move an anchor beyond a region boundary. If the shift reaches a region boundary, the number of characters actually shifted will be less than requested. <a href="/windows/desktop/api/msctf/nf-msctf-itfrange-shiftendregion">ITfRange::ShiftEndRegion</a> is used to shift the anchor to an adjacent region.
 
 If the shift operation causes the range end anchor to move past the start anchor, the start anchor is moved to the same location as the end anchor.
 
-ITfRange::ShiftEnd can be a lengthy operation. For better performance, use <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-shiftstarttorange">ITfRange::ShiftEndToRange</a> when possible.
+ITfRange::ShiftEnd can be a lengthy operation. For better performance, use <a href="/windows/desktop/api/msctf/nf-msctf-itfrange-shiftstarttorange">ITfRange::ShiftEndToRange</a> when possible.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-createcontext">ITfDocumentMgr::CreateContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
+<a href="/windows/desktop/api/msctf/nf-msctf-itfeditsession-doeditsession">ITfEditSession::DoEditSession
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-shiftendregion">ITfRange::ShiftEndRegion
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-shiftendregion">ITfRange::ShiftEndRegion
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-shiftstart">ITfRange::ShiftStart
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-shiftstart">ITfRange::ShiftStart
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/ns-msctf-tf_haltcond">TF_HALTCOND
+<a href="/windows/desktop/api/msctf/ns-msctf-tf_haltcond">TF_HALTCOND
       </a>
-

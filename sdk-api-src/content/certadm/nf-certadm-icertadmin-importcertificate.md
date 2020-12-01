@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>ImportCertificate</b> method takes a previously issued certificate and imports it to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority's</a> (CA) database. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
+The <b>ImportCertificate</b> method takes a previously issued certificate and imports it to the <a href="/windows/desktop/SecGloss/c-gly">certification authority's</a> (CA) database. This method was first defined in the <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a> interface.
 
  For the requirements that the certificate must meet to be successfully imported, see  Remarks.
 
@@ -61,9 +61,9 @@ The <b>ImportCertificate</b> method takes a previously issued certificate and im
 ### -param strConfig [in]
 
 Represents a valid configuration string for the certification authority in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>ImportCertificate</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>ImportCertificate</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param strCertificate [in]
@@ -120,7 +120,7 @@ A pointer to a <b>LONG</b> value that receives the database-assigned request ID 
 <h3>C++</h3>
  If the method succeeds, and the <i>pRequestID</i> parameter is set to the value of the database-assigned request ID for the imported certificate, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the database-assigned request ID for the imported certificate.
@@ -212,17 +212,16 @@ SysFreeString(bstrCA);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">CCertAdmin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin">ICertAdmin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
-
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>

@@ -58,7 +58,7 @@ Gets whether characters are displayed with a horizontal line through the center.
 
 Type: <b>long*</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that can be one of the following.
+A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that can be one of the following.
 
 <table class="clsStd">
 <tr>
@@ -83,7 +83,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -116,11 +116,11 @@ The font object is attached to a range that has been deleted.
 
 ## -remarks
 
-This property corresponds to the <b>CFE_STRIKEOUT</b> effect described in the <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a> structure.
+This property corresponds to the <b>CFE_STRIKEOUT</b> effect described in the <a href="/windows/desktop/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a>
+<a href="/windows/desktop/api/richedit/ns-richedit-charformat2a">CHARFORMAT2</a>
 
 
 
@@ -128,7 +128,7 @@ This property corresponds to the <b>CFE_STRIKEOUT</b> effect described in the <a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -136,9 +136,8 @@ This property corresponds to the <b>CFE_STRIKEOUT</b> effect described in the <a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextfont-setstrikethrough">SetStrikeThrough</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextfont-setstrikethrough">SetStrikeThrough</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

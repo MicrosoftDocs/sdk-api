@@ -51,19 +51,18 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-huesaturationlightness">HueSaturationLightness</a> object.
+Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-huesaturationlightness">HueSaturationLightness</a> object.
 
 ## -parameters
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-huesaturationlightness">HueSaturationLightness</a>
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-huesaturationlightness">HueSaturationLightness</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-huesaturationlightness-setparameters">HueSaturationLightness::SetParameters</a>
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-huesaturationlightness-setparameters">HueSaturationLightness::SetParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-huesaturationlightnessparams">HueSaturationLightnessParams</a>
-
+<a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-huesaturationlightnessparams">HueSaturationLightnessParams</a>

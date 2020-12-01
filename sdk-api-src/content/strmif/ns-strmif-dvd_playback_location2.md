@@ -66,11 +66,11 @@ Part-of-title number with title. 0xffffffff if not a simple linear movie.
 
 ### -field TimeCode
 
-Timecode. Use [DVD_HMSF_TIMECODE](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) for current playback time. 0xffffffff if not a simple linear movie.
+Timecode. Use [DVD_HMSF_TIMECODE](/windows/desktop/api/strmif/ns-strmif-dvd_hmsf_timecode) for current playback time. 0xffffffff if not a simple linear movie.
 
 ### -field TimeCodeFlags
 
-A bitwise [DVD_TIMECODE_FLAGS](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-dvd_timecode_flags) enumeration.
+A bitwise [DVD_TIMECODE_FLAGS](/windows/desktop/api/strmif/ne-strmif-dvd_timecode_flags) enumeration.
 
 ## -remarks
 
@@ -78,5 +78,4 @@ Either <b>TitleNum</b> and <b>ChapterNum</b>, or <b>TitleNum</b> and <b>TimeCode
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-A heap  is an abstraction of contiguous memory allocation, used to manage physical memory. This heap can be used with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> objects to support placed resources or reserved resources.
+A heap  is an abstraction of contiguous memory allocation, used to manage physical memory. This heap can be used with <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a> objects to support placed resources or reserved resources.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Heap</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>. <b>ID3D12Heap</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12Heap</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>. <b>ID3D12Heap</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D12Heap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/id3d12heap-getdesc">GetDesc</a>
+<a href="/windows/desktop/direct3d12/id3d12heap-getdesc">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Gets the heap description.
@@ -80,13 +80,12 @@ Gets the heap description.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pageable">ID3D12Pageable</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/memory-management">Memory Management in Direct3D 12</a>
-
+<a href="/windows/desktop/direct3d12/memory-management">Memory Management in Direct3D 12</a>

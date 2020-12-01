@@ -57,40 +57,40 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>IsValidLocale</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isvalidlocalename">IsValidLocaleName</a> to determine the validity of a <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">supplemental locale</a>.]
+<p class="CCE_Message">[<b>IsValidLocale</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/api/winnls/nf-winnls-isvalidlocalename">IsValidLocaleName</a> to determine the validity of a <a href="/windows/desktop/Intl/custom-locales">supplemental locale</a>.]
 
-Determines if the specified locale is installed or supported on the operating system. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/locales-and-languages">Locales and Languages</a>.
+Determines if the specified locale is installed or supported on the operating system. For more information, see <a href="/windows/desktop/Intl/locales-and-languages">Locales and Languages</a>.
 
 ## -parameters
 
 ### -param Locale [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale identifier</a> of the locale to validate. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
+<a href="/windows/desktop/Intl/locale-identifiers">Locale identifier</a> of the locale to validate. You can use the <a href="/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
 <b>Windows Server 2003, Windows XP and Windows 2000:  </b>This locale identifier is not supported.
 
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
 <b>Windows Server 2003, Windows XP and Windows 2000:  </b>This locale identifier is not supported.
 
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
 <b>Windows Server 2003, Windows XP and Windows 2000:  </b>This locale identifier is not supported.
 
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
+<a href="/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
 </li>
 </ul>
 
@@ -148,21 +148,20 @@ If the LCID_INSTALLED flag is specified and this function returns a nonzero valu
 
 If LCID_SUPPORTED is specified and this function returns 0, the locale identifier is supported in the release, but not necessarily installed on the operating system.
 
-This function can handle data from <a href="https://docs.microsoft.com/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
+This function can handle data from <a href="/windows/desktop/Intl/custom-locales">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="/windows/desktop/Intl/using-persistent-locale-data">Using Persistent Locale Data</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getlocaleinfoa">GetLocaleInfo</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getlocaleinfoa">GetLocaleInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isvalidlocalename">IsValidLocaleName</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-isvalidlocalename">IsValidLocaleName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

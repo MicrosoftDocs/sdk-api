@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute">IDirectXVideoDecoder::Execute</a> method.
+Contains parameters for the <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute">IDirectXVideoDecoder::Execute</a> method.
 
 ## -struct-fields
 
@@ -62,17 +62,16 @@ Number of compressed buffers.
 
 ### -field pCompressedBuffers
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a> structures that describe the compressed buffers. The number of elements in the array is given by the <b>NumCompBuffers</b> member.
+Pointer to an array of <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a> structures that describe the compressed buffers. The number of elements in the array is given by the <b>NumCompBuffers</b> member.
 
 ### -field pExtensionData
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodeextensiondata">DXVA2_DecodeExtensionData</a> structure that contains private data. Set this member to <b>NULL</b> unless you need to send private data to or from the driver.
+Pointer to a <a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodeextensiondata">DXVA2_DecodeExtensionData</a> structure that contains private data. Set this member to <b>NULL</b> unless you need to send private data to or from the driver.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a>
+<a href="/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_decodebufferdesc">DXVA2_DecodeBufferDesc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>

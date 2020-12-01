@@ -51,11 +51,11 @@ api_name:
 ## -description
 
 Provides access 
-        to child controls of containers that implement <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itableprovider">ITableProvider</a>.
+        to child controls of containers that implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itableprovider">ITableProvider</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITableItemProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITableItemProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITableItemProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITableItemProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ITableItemProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableitemprovider-getcolumnheaderitems">GetColumnHeaderItems</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableitemprovider-getcolumnheaderitems">GetColumnHeaderItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of UI Automation provider 
@@ -81,7 +81,7 @@ Retrieves a collection of UI Automation provider
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableitemprovider-getrowheaderitems">GetRowHeaderItems</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-itableitemprovider-getrowheaderitems">GetRowHeaderItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves a collection of UI Automation provider 
@@ -94,19 +94,18 @@ Retrieves a collection of UI Automation provider
 
 ## -remarks
 
-This control pattern is analogous to <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igriditemprovider">IGridItemProvider</a> with 
+This control pattern is analogous to <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igriditemprovider">IGridItemProvider</a> with 
             the distinction that any control implementing <b>ITableItemProvider</b> 
             must expose the relationship between the individual cell and its row and column information.
             
 
 Access to individual cell functionality is provided by the concurrent implementation 
-            of <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igriditemprovider">IGridItemProvider</a>. 
+            of <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igriditemprovider">IGridItemProvider</a>. 
             
 
 Implemented on a UI Automation provider that must 
-            support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingtableitem">TableItem</a> control pattern.
+            support the <a href="/windows/desktop/WinAuto/uiauto-implementingtableitem">TableItem</a> control pattern.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

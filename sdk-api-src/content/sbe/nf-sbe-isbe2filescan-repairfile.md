@@ -110,5 +110,4 @@ Invalid .WTV file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2filescan">ISBE2FileScan</a>
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2filescan">ISBE2FileScan</a>

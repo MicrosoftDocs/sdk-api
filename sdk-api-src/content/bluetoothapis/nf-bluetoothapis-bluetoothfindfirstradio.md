@@ -62,13 +62,13 @@ Pointer to a <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetoot
 
 ### -param phRadio [out]
 
-Pointer to where the first enumerated radio handle will be returned. When no longer needed, this handle must be closed via <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
+Pointer to where the first enumerated radio handle will be returned. When no longer needed, this handle must be closed via <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>.
 
 ## -returns
 
-In addition to the handle indicated by <i>phRadio</i>, calling this function will also create a HBLUETOOTH_RADIO_FIND handle for use with the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothfindnextradio">BluetoothFindNextRadio</a> function. When this handle is no longer needed, it must be closed via the <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothfindradioclose">BluetoothFindRadioClose</a>.
+In addition to the handle indicated by <i>phRadio</i>, calling this function will also create a HBLUETOOTH_RADIO_FIND handle for use with the <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothfindnextradio">BluetoothFindNextRadio</a> function. When this handle is no longer needed, it must be closed via the <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothfindradioclose">BluetoothFindRadioClose</a>.
 
-Returns <b>NULL</b> upon failure. Call the  <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function for more information on the error. The following table  describe common errors:
+Returns <b>NULL</b> upon failure. Call the  <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function for more information on the error. The following table  describe common errors:
 
 <table>
 <tr>
@@ -127,17 +127,16 @@ Out of memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothfindnextradio">BluetoothFindNextRadio</a>
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothfindnextradio">BluetoothFindNextRadio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothfindradioclose">BluetoothFindRadioClose</a>
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothfindradioclose">BluetoothFindRadioClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothgetradioinfo">BluetoothGetRadioInfo</a>
+<a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothgetradioinfo">BluetoothGetRadioInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>

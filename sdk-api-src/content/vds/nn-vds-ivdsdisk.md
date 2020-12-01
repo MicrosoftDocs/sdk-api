@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Provides methods to query and configure basic and dynamic disks.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsDisk</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDisk</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVdsDisk</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVdsDisk</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IVdsDisk</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-clearflags">ClearFlags</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsdisk-clearflags">ClearFlags</a>
 </td>
 <td align="left" width="63%">
 Clears the flags of a disk.
@@ -81,7 +81,7 @@ Clears the flags of a disk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-convertstyle">ConvertStyle</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsdisk-convertstyle">ConvertStyle</a>
 </td>
 <td align="left" width="63%">
 Converts the partition style of an empty disk from one style to another.
@@ -90,7 +90,7 @@ Converts the partition style of an empty disk from one style to another.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-getidentificationdata">GetIdentificationData</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsdisk-getidentificationdata">GetIdentificationData</a>
 </td>
 <td align="left" width="63%">
 Returns information that uniquely identifies a disk.
@@ -99,7 +99,7 @@ Returns information that uniquely identifies a disk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-getpack">GetPack</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsdisk-getpack">GetPack</a>
 </td>
 <td align="left" width="63%">
 Returns the disk pack to which the current disk is a member.
@@ -108,7 +108,7 @@ Returns the disk pack to which the current disk is a member.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-getproperties">GetProperties</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsdisk-getproperties">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the property details of a disk.
@@ -117,7 +117,7 @@ Returns the property details of a disk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-queryextents">QueryExtents</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsdisk-queryextents">QueryExtents</a>
 </td>
 <td align="left" width="63%">
 Returns all extents on a disk.
@@ -126,7 +126,7 @@ Returns all extents on a disk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-setflags">SetFlags</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdsdisk-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the flags of a disk.
@@ -137,17 +137,16 @@ Sets the flags of a disk.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/disk-object">Disk Object</a>
+<a href="/windows/desktop/VDS/disk-object">Disk Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdspack-querydisks">IVdsPack::QueryDisks</a>
+<a href="/windows/desktop/api/vds/nf-vds-ivdspack-querydisks">IVdsPack::QueryDisks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
+<a href="/windows/desktop/VDS/vds-interfaces">VDS Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a>
-
+<a href="/windows/desktop/api/vds/ns-vds-vds_disk_prop">VDS_DISK_PROP</a>

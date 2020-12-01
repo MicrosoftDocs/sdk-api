@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure with an unsigned 64-bit integer value.
+Initializes a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure with an unsigned 64-bit integer value.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Source <b>ULONGLONG</b> value.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ## -returns
 
@@ -81,7 +81,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromuint64">InitVariantFromUInt64</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromuint64">InitVariantFromUInt64</a>.
 
 
 ```cpp
@@ -98,13 +98,12 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromuint64">InitPropVariantFromUInt64</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromuint64">InitPropVariantFromUInt64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttouint64">VariantToUInt64</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttouint64">VariantToUInt64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttouint64withdefault">VariantToUInt64WithDefault</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttouint64withdefault">VariantToUInt64WithDefault</a>

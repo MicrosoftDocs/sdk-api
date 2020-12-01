@@ -58,7 +58,7 @@ Searches up to <i>Count</i> characters for the first character in the set of cha
 
 Type: <b>VARIANT*</b>
 
-The character set used in the match. This could be an explicit string of characters or a character-set index. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">Character Match Sets</a>.
+The character set used in the match. This could be an explicit string of characters or a character-set index. For more information, see <a href="/windows/desktop/Controls/about-text-object-model">Character Match Sets</a>.
 
 ### -param Count
 
@@ -76,7 +76,7 @@ The number of characters the insertion point is moved, plus 1 for a match if <i>
 
 Type: <b>HRESULT</b>
 
-The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -113,13 +113,13 @@ If no character is matched, the range is unchanged.
 
 The motion described by <b>ITextRange::MoveUntil</b> is logical rather than geometric. That is, motion is toward the end or toward the start of a story. Depending on the language, moving to the end of the story could be moving left or moving right. 
 
-For more information, see the discussion in <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> and the Remarks section of <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-move">ITextRange::Move</a>.
+For more information, see the discussion in <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> and the Remarks section of <a href="/windows/desktop/api/tom/nf-tom-itextrange-move">ITextRange::Move</a>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movestartuntil">ITextRange::MoveStartUntil</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveenduntil">ITextRange::MoveEndUntil</a> methods move the start and end, respectively, until it finds the first character that is also in the set specified by the <i>Cset</i> parameter.
+The <a href="/windows/desktop/api/tom/nf-tom-itextrange-movestartuntil">ITextRange::MoveStartUntil</a> and <a href="/windows/desktop/api/tom/nf-tom-itextrange-moveenduntil">ITextRange::MoveEndUntil</a> methods move the start and end, respectively, until it finds the first character that is also in the set specified by the <i>Cset</i> parameter.
 
-The <b>ITextRange::MoveUntil</b> method is similar to <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movewhile">ITextRange::MoveWhile</a>, but there are two differences. First, <b>MoveUntil</b> moves an insertion point <i>until</i> it finds the first character that belongs to the character set specified by <i>Cset</i>. Second, in <b>MoveUntil</b> the character matched counts as an additional character in the value returned in <i>pDelta</i>. This lets you know that the character at one end of the range or the other belongs to the <i>Cset</i> even though the insertion point stays at one of the range ends. 
+The <b>ITextRange::MoveUntil</b> method is similar to <a href="/windows/desktop/api/tom/nf-tom-itextrange-movewhile">ITextRange::MoveWhile</a>, but there are two differences. First, <b>MoveUntil</b> moves an insertion point <i>until</i> it finds the first character that belongs to the character set specified by <i>Cset</i>. Second, in <b>MoveUntil</b> the character matched counts as an additional character in the value returned in <i>pDelta</i>. This lets you know that the character at one end of the range or the other belongs to the <i>Cset</i> even though the insertion point stays at one of the range ends. 
 
-For example, suppose the range, r, is an insertion point. To see if the character at r (that is, given by r.<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getchar">GetChar</a>()) is in <i>Cset</i>, call 
+For example, suppose the range, r, is an insertion point. To see if the character at r (that is, given by r.<a href="/windows/desktop/api/tom/nf-tom-itextrange-getchar">GetChar</a>()) is in <i>Cset</i>, call 
 				
 
 
@@ -160,27 +160,27 @@ End Sub
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getchar">GetChar</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getchar">GetChar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveenduntil">MoveEndUntil</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-moveenduntil">MoveEndUntil</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movestartuntil">MoveStartUntil</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-movestartuntil">MoveStartUntil</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-movewhile">MoveWhile</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-movewhile">MoveWhile</a>
 
 
 
@@ -188,5 +188,4 @@ End Sub
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

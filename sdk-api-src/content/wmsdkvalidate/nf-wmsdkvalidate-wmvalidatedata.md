@@ -125,11 +125,10 @@ The <i>pdwDataSize</i> parameter points to a value that is smaller than the mini
 
 ## -remarks
 
-This function is typically used after a call to <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension">WMCheckURLExtension</a>. This is for efficiency, because <b>WMValidateData</b> requires that you read some of the data from the file, whereas <b>WMCheckURLExtension</b> only evaluates the file name extension.
+This function is typically used after a call to <a href="/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension">WMCheckURLExtension</a>. This is for efficiency, because <b>WMValidateData</b> requires that you read some of the data from the file, whereas <b>WMCheckURLExtension</b> only evaluates the file name extension.
 
 It is possible for this function to identify a file as playable when it is not playable. However, if the function identifies a file as not playable, the file is certainly not playable.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/functions">Functions</a>
-
+<a href="/windows/desktop/wmformat/functions">Functions</a>

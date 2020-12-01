@@ -58,7 +58,7 @@ Removes a file from the list of files to be added to reports generated for the c
 
 ### -param pwzFilePath [in]
 
-The full path to the file. This file must have been registered using the <a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregisterfile">WerRegisterFile</a> function.
+The full path to the file. This file must have been registered using the <a href="/windows/desktop/api/werapi/nf-werapi-werregisterfile">WerRegisterFile</a> function.
 
 ## -returns
 
@@ -76,7 +76,7 @@ This function returns <b>S_OK</b> on success or an error code on failure, includ
 </dl>
 </td>
 <td width="60%">
-The process state is not valid. For example, the process is in <a href="https://docs.microsoft.com/windows/desktop/wsw/portal">application recovery mode</a>.
+The process state is not valid. For example, the process is in <a href="/windows/desktop/wsw/portal">application recovery mode</a>.
 
 </td>
 </tr>
@@ -95,13 +95,12 @@ The list of registered files does not contain the specified file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/wer-functions">WER Functions</a>
+<a href="/windows/desktop/wer/wer-functions">WER Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/werapi/nf-werapi-werregisterfile">WerRegisterFile</a>
+<a href="/windows/desktop/api/werapi/nf-werapi-werregisterfile">WerRegisterFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
-
+<a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>

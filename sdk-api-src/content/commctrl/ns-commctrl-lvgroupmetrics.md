@@ -60,13 +60,13 @@ Contains information about the display of groups in a list-view control.
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Size of the <b>LVGROUPMETRICS</b> structure.
 
 ### -field mask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Flags that specify which members contain or are to receive valid data. Can be one or more of the following values.
 
@@ -123,61 +123,61 @@ Not implemented.
 
 ### -field Left
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the width of the left border in icon, small icon, or tile view.
 
 ### -field Top
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the width of the top border in all group views.
 
 ### -field Right
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the width of the right border in icon, small icon, or tile view.
 
 ### -field Bottom
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies the width of the bottom border in all group views.
 
 ### -field crLeft
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Specifies the color of the left border. Not implemented.
 
 ### -field crTop
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Specifies the color of the top border. Not implemented.
 
 ### -field crRight
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Specifies the color of the right border. Not implemented.
 
 ### -field crBottom
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Specifies the color of the bottom border. Not implemented.
 
 ### -field crHeader
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Specifies the color of the header text. Not implemented.
 
 ### -field crFooter
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Specifies the color of the footer text. Not implemented.
 
@@ -187,21 +187,20 @@ The width of a border determines the margins of the area within which items are 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-getgroupmetrics">LVM_GETGROUPMETRICS</a>
+<a href="/windows/desktop/Controls/lvm-getgroupmetrics">LVM_GETGROUPMETRICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-setgroupmetrics">LVM_SETGROUPMETRICS</a>
+<a href="/windows/desktop/Controls/lvm-setgroupmetrics">LVM_SETGROUPMETRICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_getgroupmetrics">ListView_GetGroupMetrics</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-listview_getgroupmetrics">ListView_GetGroupMetrics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-listview_setgroupmetrics">ListView_SetGroupMetrics</a>
+<a href="/windows/desktop/api/commctrl/nf-commctrl-listview_setgroupmetrics">ListView_SetGroupMetrics</a>
 
 
 
 <b>Reference</b>
-

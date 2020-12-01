@@ -52,6 +52,7 @@ api_name:
  - DrawText
  - DrawTextA
  - DrawTextW
+req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ---
 
 # DrawText function
@@ -61,7 +62,7 @@ api_name:
 
 The <b>DrawText</b> function draws formatted text in the specified rectangle. It formats the text according to the specified method (expanding tabs, justifying characters, breaking lines, and so forth).
 
-To specify additional formatting options, use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx</a> function.
+To specify additional formatting options, use the <a href="/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx</a> function.
 
 ## -parameters
 
@@ -392,20 +393,20 @@ The text alignment mode for the device context must include the TA_LEFT, TA_TOP,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx
+<a href="/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString
+<a href="/windows/desktop/api/winuser/nf-winuser-graystringa">GrayString
       </a>
 
 
@@ -415,11 +416,10 @@ The text alignment mode for the device context must include the TA_LEFT, TA_TOP,
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-tabbedtextouta">TabbedTextOut
+<a href="/windows/desktop/api/winuser/nf-winuser-tabbedtextouta">TabbedTextOut
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut
+<a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut
       </a>
-

@@ -57,7 +57,7 @@ The <b>IExtendControlbar::SetControlbar</b> method attaches or detaches a contro
 ### -param pControlbar [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-icontrolbar">IControlbar</a> interface on the control bar object to be set. A non-<b>NULL</b> value attaches a control bar; a <b>NULL</b> value detaches a control bar.
+<a href="/windows/desktop/api/mmc/nn-mmc-icontrolbar">IControlbar</a> interface on the control bar object to be set. A non-<b>NULL</b> value attaches a control bar; a <b>NULL</b> value detaches a control bar.
 
 ## -returns
 
@@ -71,5 +71,4 @@ SetControlbar with a <b>NULL</b> pControlbar. The snap-in should then detach its
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>

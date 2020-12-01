@@ -56,7 +56,7 @@ Gets the driver's certificate chain.
 
 ### -param CertifacteSize
 
-The size of the <i>ppCertificate</i> array, in bytes. To get the size of the certificate chain, call <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-getcertificatesize">IDirect3DAuthenticatedChannel9::GetCertificateSize</a>.
+The size of the <i>ppCertificate</i> array, in bytes. To get the size of the certificate chain, call <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-getcertificatesize">IDirect3DAuthenticatedChannel9::GetCertificateSize</a>.
 
 ### -param ppCertificate
 
@@ -68,15 +68,14 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-You can use the certificate chain to verify that the driver's certificate was signed by Microsoft and has not been revoked. The driver's certificate also contains the driver's public key. Use the public key to establish a session key, by calling the <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-negotiatekeyexchange">IDirect3DAuthenticatedChannel9::NegotiateKeyExchange</a> method.
+You can use the certificate chain to verify that the driver's certificate was signed by Microsoft and has not been revoked. The driver's certificate also contains the driver's public key. Use the public key to establish a session key, by calling the <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dauthenticatedchannel9-negotiatekeyexchange">IDirect3DAuthenticatedChannel9::NegotiateKeyExchange</a> method.
 
 This method fails if the channel type is <b>D3DAUTHENTICATEDCHANNEL_D3D9</b>, because the Direct3D 9 channel does not support authentication.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
+<a href="/windows/desktop/medfound/gpu-based-content-protection">GPU-Based Content Protection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nn-d3d9-idirect3dauthenticatedchannel9">IDirect3DAuthenticatedChannel9</a>
-
+<a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dauthenticatedchannel9">IDirect3DAuthenticatedChannel9</a>

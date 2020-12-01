@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>DRT_SECURITY_MODE</b> enumeration defines possible security modes for the DRT. The security mode is specified by a field of the <a href="https://docs.microsoft.com/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
+The <b>DRT_SECURITY_MODE</b> enumeration defines possible security modes for the DRT. The security mode is specified by a field of the <a href="/windows/desktop/api/drt/ns-drt-drt_settings">DRT_SETTINGS</a> structure.
 
 ## -enum-fields
 
@@ -71,4 +71,3 @@ Nodes must authenticate the keys they publish. Nodes must also authenticate them
 ## -remarks
 
 The more secure a DRT security mode, the more of a computational load exists for nodes participating in the DRT. More bandwidth is also consumed.
-

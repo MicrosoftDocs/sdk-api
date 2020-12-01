@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>ADS_PATHTYPE_ENUM</b> enumeration specifies the type of object on which the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a> interface is going to add or modify a security descriptor.
+The <b>ADS_PATHTYPE_ENUM</b> enumeration specifies the type of object on which the <a href="/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a> interface is going to add or modify a security descriptor.
 
 ## -enum-fields
 
@@ -70,7 +70,7 @@ Indicates that the security descriptor will be retrieved or set on a registry ke
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
+<a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
 
 
 
@@ -78,9 +78,8 @@ Indicates that the security descriptor will be retrieved or set on a registry ke
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/security-descriptors-on-files-and-registry-keys">Security Descriptors on Files and Registry Keys</a>
-
+<a href="/windows/desktop/ADSI/security-descriptors-on-files-and-registry-keys">Security Descriptors on Files and Registry Keys</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <code>CreateAudioMediaTypeFromUncompressedAudioFormat</code> function uses the information provided in the <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/ns-audiomediatype-uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a> structure to create a media type object that describes the audio format.
+The <code>CreateAudioMediaTypeFromUncompressedAudioFormat</code> function uses the information provided in the <a href="/windows/desktop/api/audiomediatype/ns-audiomediatype-uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a> structure to create a media type object that describes the audio format.
 
 ## -parameters
 
@@ -60,7 +60,7 @@ Specifies a pointer to an UNCOMPRESSEDAUDIOFORMAT structure.
 
 ### -param ppIAudioMediaType
 
-Specifies a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> interface.
+Specifies a pointer to an <a href="/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a> interface.
 
 ## -returns
 
@@ -68,17 +68,16 @@ The <code>CreateAudioMediaTypeFromUncompressedAudioFormat</code> function return
 
 ## -remarks
 
-When you implement custom audio system effects, the <code>CreateAudioMediaTypeFromUncompressedAudioFormat</code> function works with <a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a> to represent a custom audio data format and to provide information about the custom format.
+When you implement custom audio system effects, the <code>CreateAudioMediaTypeFromUncompressedAudioFormat</code> function works with <a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a> to represent a custom audio data format and to provide information about the custom format.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a>
+<a href="/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a>
+<a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformat">IAudioSystemEffectsCustomFormats::GetFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiomediatype/ns-audiomediatype-uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a>
-
+<a href="/windows/desktop/api/audiomediatype/ns-audiomediatype-uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a>

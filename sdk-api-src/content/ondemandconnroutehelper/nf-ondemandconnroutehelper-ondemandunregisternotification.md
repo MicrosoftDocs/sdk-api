@@ -56,7 +56,7 @@ The <b>OnDemandUnregisterNotification</b> function allows an application to unre
 
 ### -param registrationHandle [in]
 
-A HANDLE obtained from a successful <a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-ondemandregisternotification">OnDemandRegisterNotification</a>  call.
+A HANDLE obtained from a successful <a href="/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-ondemandregisternotification">OnDemandRegisterNotification</a>  call.
 
 ## -returns
 
@@ -64,5 +64,4 @@ Returns S_OK on success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-ondemandregisternotification">OnDemandRegisterNotification</a>
-
+<a href="/windows/desktop/api/ondemandconnroutehelper/nf-ondemandconnroutehelper-ondemandregisternotification">OnDemandRegisterNotification</a>

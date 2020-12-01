@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Frees a block of task memory previously allocated through a call to the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemrealloc">CoTaskMemRealloc</a> function.
+Frees a block of task memory previously allocated through a call to the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> or <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemrealloc">CoTaskMemRealloc</a> function.
 
 ## -parameters
 
@@ -71,13 +71,12 @@ The number of bytes freed equals the number of bytes that were originally alloca
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemrealloc">CoTaskMemRealloc</a>
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemrealloc">CoTaskMemRealloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>
-
+<a href="/windows/desktop/api/objidl/nf-objidl-imalloc-free">IMalloc::Free</a>

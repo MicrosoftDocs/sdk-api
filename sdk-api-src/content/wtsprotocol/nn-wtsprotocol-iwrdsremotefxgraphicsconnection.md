@@ -57,7 +57,7 @@ Exposes methods relating to the manipulation and understanding of graphics on th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsRemoteFXGraphicsConnection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsRemoteFXGraphicsConnection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWRdsRemoteFXGraphicsConnection</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWRdsRemoteFXGraphicsConnection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IWRdsRemoteFXGraphicsConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsremotefxgraphicsconnection-enableremotefxgraphics">EnableRemoteFXGraphics</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsremotefxgraphicsconnection-enableremotefxgraphics">EnableRemoteFXGraphics</a>
 </td>
 <td align="left" width="63%">
 Toggles the enabling of remote FX graphics.
@@ -81,7 +81,7 @@ Toggles the enabling of remote FX graphics.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsremotefxgraphicsconnection-getvirtualchanneltransport">GetVirtualChannelTransport</a>
+<a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsremotefxgraphicsconnection-getvirtualchanneltransport">GetVirtualChannelTransport</a>
 </td>
 <td align="left" width="63%">
 Retrieves the virtual channel transport object.
@@ -89,4 +89,3 @@ Retrieves the virtual channel transport object.
 </td>
 </tr>
 </table>
-

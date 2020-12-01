@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Header for information retrieved by the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a> function, which defines the I/O performance counters of a log.
+Header for information retrieved by the <a href="/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a> function, which defines the I/O performance counters of a log.
 
 ## -struct-fields
 
@@ -84,13 +84,12 @@ This header is followed by the I/O statistics counters.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ne-clfs-clfs_iostats_class">CLFS_IOSTATS_CLASS</a>
+<a href="/windows/desktop/api/clfs/ne-clfs-clfs_iostats_class">CLFS_IOSTATS_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-cls_io_statistics">CLFS_IO_STATISTICS</a>
+<a href="/windows/desktop/api/clfs/ns-clfs-cls_io_statistics">CLFS_IO_STATISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>
-
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>

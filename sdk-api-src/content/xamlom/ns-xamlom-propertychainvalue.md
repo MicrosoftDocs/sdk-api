@@ -76,7 +76,7 @@ Collection item type, or <b>null</b> if not a collection.
 
 ### -field Value
 
-The value of the property.  (Represents an <b>InstanceHandle</b> if <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/ne-xamlom-metadatabit">MetadataBit</a> is set.)
+The value of the property.  (Represents an <b>InstanceHandle</b> if <a href="/previous-versions/windows/desktop/api/xamlom/ne-xamlom-metadatabit">MetadataBit</a> is set.)
 
 ### -field Overridden
 
@@ -84,7 +84,7 @@ Indicates whether the property is overridden by some property in the value chain
 
 ### -field MetadataBits
 
-A bit field that represents <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/ne-xamlom-metadatabit">MetadataBit</a>s.
+A bit field that represents <a href="/previous-versions/windows/desktop/api/xamlom/ne-xamlom-metadatabit">MetadataBit</a>s.
 
 ### -field PropertyName
 
@@ -92,6 +92,5 @@ The name of the property.
 
 ### -field PropertyChainIndex
 
-The index in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/ns-xamlom-propertychainsource">PropertyChainSource</a> returned by GetPropertyValuesChain
+The index in the <a href="/previous-versions/windows/desktop/api/xamlom/ns-xamlom-propertychainsource">PropertyChainSource</a> returned by GetPropertyValuesChain
 that represents the source of this property.
-

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines constants for the <a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/ns-audioengineendpoint-ae_current_position">AE_CURRENT_POSITION</a> structure. These constants describe the degree of validity of the current position.
+Defines constants for the <a href="/windows/desktop/api/audioengineendpoint/ns-audioengineendpoint-ae_current_position">AE_CURRENT_POSITION</a> structure. These constants describe the degree of validity of the current position.
 
 ## -enum-fields
 
@@ -75,4 +75,3 @@ The quality performance counter (QPC) timer value associated with this position 
 ## -remarks
 
 The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scenarios; it is not for client applications.
-

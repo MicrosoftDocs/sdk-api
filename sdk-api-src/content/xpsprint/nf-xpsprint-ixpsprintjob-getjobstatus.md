@@ -76,15 +76,15 @@ If no job ID has been assigned to the print job, or the print job is printed wit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
+<a href="/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjob">IXpsPrintJob</a>
+<a href="/windows/desktop/api/xpsprint/nn-xpsprint-ixpsprintjob">IXpsPrintJob</a>
 
 
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
@@ -93,4 +93,3 @@ If no job ID has been assigned to the print job, or the print job is printed wit
 
 
 <a href="/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status">XPS_JOB_STATUS</a>
-

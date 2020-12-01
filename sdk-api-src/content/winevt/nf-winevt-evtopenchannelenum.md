@@ -56,7 +56,7 @@ Gets a handle that you use to enumerate the list of channels that are registered
 
 ### -param Session [in]
 
-A remote session handle that the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> to enumerate the channels on the local computer.
+A remote session handle that the <a href="/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a> function returns. Set to <b>NULL</b> to enumerate the channels on the local computer.
 
 ### -param Flags [in]
 
@@ -64,26 +64,25 @@ Reserved. Must be zero.
 
 ## -returns
 
-If successful, the function returns a handle to the list of channel names that are registered on the computer; otherwise, <b>NULL</b>. If <b>NULL</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
+If successful, the function returns a handle to the list of channel names that are registered on the computer; otherwise, <b>NULL</b>. If <b>NULL</b>, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function to get the error code.
 
 ## -remarks
 
-The enumeration includes all the channels that the providers that are registered on the computer defined. To enumerate the channel names, call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtnextchannelpath">EvtNextChannelPath</a> function in a loop. The names are sorted alphabetically.
+The enumeration includes all the channels that the providers that are registered on the computer defined. To enumerate the channel names, call the <a href="/windows/desktop/api/winevt/nf-winevt-evtnextchannelpath">EvtNextChannelPath</a> function in a loop. The names are sorted alphabetically.
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function to close the enumerator handle when done.
+You must call the <a href="/windows/desktop/api/winevt/nf-winevt-evtclose">EvtClose</a> function to close the enumerator handle when done.
 
 
 #### Examples
 
-For an example that shows how to use this function, see <a href="https://docs.microsoft.com/windows/desktop/WES/getting-and-setting-a-channel-s-configuration-properties">Getting and Setting a Channel's Configuration Properties</a>.
+For an example that shows how to use this function, see <a href="/windows/desktop/WES/getting-and-setting-a-channel-s-configuration-properties">Getting and Setting a Channel's Configuration Properties</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtnextchannelpath">EvtNextChannelPath</a>
+<a href="/windows/desktop/api/winevt/nf-winevt-evtnextchannelpath">EvtNextChannelPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winevt/nf-winevt-evtopenchannelconfig">EvtOpenChannelConfig</a>
-
+<a href="/windows/desktop/api/winevt/nf-winevt-evtopenchannelconfig">EvtOpenChannelConfig</a>

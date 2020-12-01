@@ -57,9 +57,9 @@ Deprecated. Saves the state of browser toolbars.
 
 ### -param pstm [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> used to store the browser toolbar's state.
+A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> used to store the browser toolbar's state.
 
 ## -returns
 
@@ -70,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method is implemented by the derived class.
-

@@ -114,5 +114,4 @@ The TYSPEC enumeration and uCLSSPEC union provide mappings to a class ID. Note t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinstall">CoInstall</a>
-
+<a href="/windows/desktop/api/objbase/nf-objbase-coinstall">CoInstall</a>

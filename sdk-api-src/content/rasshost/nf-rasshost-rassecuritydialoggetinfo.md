@@ -54,8 +54,8 @@ The
 <b>RasSecurityDialogGetInfo</b> function is called by a RAS security DLL to get information about a port from the RAS server.
 
 To call this function, first call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function to load Rasman.dll. Then call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to get the DLL's 
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> function to load Rasman.dll. Then call the 
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function to get the DLL's 
 <b>RasSecurityDialogGetInfo</b> entry point.
 <div class="alert"><b>Note</b>  Windows Server 2008, 
   Windows Server 2003,
@@ -67,19 +67,19 @@ To call this function, first call the
 ### -param hPort [in]
 
 Specifies the port handle that the RAS server passed to the security DLL in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogbegin">RasSecurityDialogBegin</a> call for this authentication transaction.
+<a href="/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogbegin">RasSecurityDialogBegin</a> call for this authentication transaction.
 
 ### -param pBuffer [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-ras_security_info">RAS_SECURITY_INFO</a> structure that receives information about the specified RAS port.
+<a href="/windows/desktop/api/rasshost/ns-rasshost-ras_security_info">RAS_SECURITY_INFO</a> structure that receives information about the specified RAS port.
 
 ## -returns
 
 If the function succeeds, the return value is <b>NO_ERROR</b>.
 
 If the function fails, the return value is one of the error codes defined in Raserror.h or Winerror.h. 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a> does not provide extended error information.
+<a href="/previous-versions/windows/desktop/wab/-wab-iabcontainer-getlasterror">GetLastError</a> does not provide extended error information.
 
 ## -remarks
 
@@ -87,30 +87,29 @@ The
 <b>RasSecurityDialogGetInfo</b> function retrieves information about the port associated with a RAS security DLL authentication transaction.
 
 The <b>LastError</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-ras_security_info">RAS_SECURITY_INFO</a> structure indicates the state of the last 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogreceive">RasSecurityDialogReceive</a> call for the port. If the receive operation has been completed successfully, <b>LastError</b> is SUCCESS and the <b>BytesReceived</b> member indicates the number of bytes received. Otherwise, <b>LastError</b> is PENDING if the receive operation is still in progress, or a nonzero error code if the receive operation failed.
+<a href="/windows/desktop/api/rasshost/ns-rasshost-ras_security_info">RAS_SECURITY_INFO</a> structure indicates the state of the last 
+<a href="/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogreceive">RasSecurityDialogReceive</a> call for the port. If the receive operation has been completed successfully, <b>LastError</b> is SUCCESS and the <b>BytesReceived</b> member indicates the number of bytes received. Otherwise, <b>LastError</b> is PENDING if the receive operation is still in progress, or a nonzero error code if the receive operation failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
+<a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-server-administration-functions">RAS Server Administration Functions</a>
+<a href="/windows/desktop/RRAS/ras-server-administration-functions">RAS Server Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/ns-rasshost-ras_security_info">RAS_SECURITY_INFO</a>
+<a href="/windows/desktop/api/rasshost/ns-rasshost-ras_security_info">RAS_SECURITY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogreceive">RasSecurityDialogReceive</a>
+<a href="/windows/desktop/api/rasshost/nf-rasshost-rassecuritydialogreceive">RasSecurityDialogReceive</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
-
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>

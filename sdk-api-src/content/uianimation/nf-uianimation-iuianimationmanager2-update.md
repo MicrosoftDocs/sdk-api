@@ -65,7 +65,7 @@ The result of the update.
 
 ## -returns
 
-Returns S_OK if successful; otherwise an <b>HRESULT</b> error code. See <a href="https://docs.microsoft.com/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
+Returns S_OK if successful; otherwise an <b>HRESULT</b> error code. See <a href="/windows/desktop/UIAnimation/uianimation-error-codes">Windows Animation Error Codes</a> for a list of error codes.
 
 ## -remarks
 
@@ -73,19 +73,19 @@ Calling this method advances the animation manager to <i>timeNow</i>, changes th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager2">IUIAnimationManager2</a>
+<a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager2">IUIAnimationManager2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-pause">IUIAnimationManager2::Pause</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-pause">IUIAnimationManager2::Pause</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-resume">IUIAnimationManager2::Resume</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-resume">IUIAnimationManager2::Resume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setanimationmode">IUIAnimationManager::SetAnimationMode</a>
+<a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager2-setanimationmode">IUIAnimationManager::SetAnimationMode</a>
 
 
 
@@ -94,4 +94,3 @@ Calling this method advances the animation manager to <i>timeNow</i>, changes th
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_update_result">UI_ANIMATION_UPDATE_RESULT</a>
-

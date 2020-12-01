@@ -63,7 +63,7 @@ The name of the symbol file to be located. This parameter can be a partial path.
 ### -param SymbolPath [in]
 
 The path where symbol files are located. This string can contain multiple paths separated by semicolons. To retrieve the symbol path, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsearchpath">SymGetSearchPath</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetsearchpath">SymGetSearchPath</a> function.
 
 ### -param ImageFilePath [out]
 
@@ -72,7 +72,7 @@ A pointer to a buffer that receives the full path of the executable file.
 ### -param Callback [in, optional]
 
 An application-defined callback function that verifies whether the correct executable file was found, or whether the function should continue its search. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfind_exe_file_callback">FindExecutableImageProc</a>. 
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-pfind_exe_file_callback">FindExecutableImageProc</a>. 
 
 
 
@@ -88,7 +88,7 @@ Optional user-defined data for the callback function. This parameter can be <b>N
 If the function succeeds, the return value is an open handle to the executable file.
 
 If the function fails, the return value is <b>NULL</b>. To retrieve extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -101,13 +101,12 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-pfind_exe_file_callback">FindExecutableImageProc</a>
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-pfind_exe_file_callback">FindExecutableImageProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetsearchpath">SymGetSearchPath</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetsearchpath">SymGetSearchPath</a>

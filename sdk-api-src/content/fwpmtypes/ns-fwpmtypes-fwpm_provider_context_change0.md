@@ -60,7 +60,7 @@ The <b>FWPM_PROVIDER_CONTEXT_CHANGE0</b> structure contains a change notificatio
 
 Type of change.
 
-See [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type) for more information.
+See [FWPM_CHANGE_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type) for more information.
 
 ### -field providerContextKey
 
@@ -72,13 +72,12 @@ LUID of the provider context that changed.
 
 ## -remarks
 
-<b>FWPM_PROVIDER_CONTEXT_CHANGE0</b> is a specific implementation of FWPM_PROVIDER_CONTEXT_CHANGE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_PROVIDER_CONTEXT_CHANGE0</b> is a specific implementation of FWPM_PROVIDER_CONTEXT_CHANGE. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)
+[FWPM_CHANGE_TYPE](/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

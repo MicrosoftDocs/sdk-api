@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>IWbemQuery::FreeMemory</b> method frees the memory that the parser returns to  a caller in a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">GetAnalysis</a>.
+<a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">GetAnalysis</a>.
 
 ## -parameters
 
@@ -65,5 +65,4 @@ This method returns an <b>HRESULT</b> indicating the status of the method call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmiutils/nn-wmiutils-iwbemquery">IWbemQuery</a>
-
+<a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbemquery">IWbemQuery</a>

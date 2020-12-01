@@ -56,7 +56,7 @@ Starts decoding a message.
 
 ### -param *encoderContext [in]
 
-The decoder instance returned by the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a>.
+The decoder instance returned by the <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a>.
 
 ### -param *asyncContext [in, optional]
 
@@ -110,6 +110,5 @@ This function may return other errors not listed above.
 
 ## -remarks
 
-The decoder can use the callback passed to <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a> to
+The decoder can use the callback passed to <a href="/windows/desktop/api/webservices/nc-webservices-ws_create_decoder_callback">WS_CREATE_DECODER_CALLBACK</a> to
               read the encoded data of the message.
-

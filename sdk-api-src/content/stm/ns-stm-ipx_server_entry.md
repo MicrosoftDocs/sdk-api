@@ -85,13 +85,12 @@ Contains the service hop count.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
+<a href="/windows/desktop/RRAS/ipx-service-table-management">IPX Service Table Management</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
+<a href="/windows/desktop/api/stm/ns-stm-ipx_service">IPX_SERVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/service-table-management-structures">Service Table Management Structures</a>
-
+<a href="/windows/desktop/RRAS/service-table-management-structures">Service Table Management Structures</a>

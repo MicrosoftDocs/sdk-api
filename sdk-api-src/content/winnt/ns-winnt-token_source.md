@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>TOKEN_SOURCE</b> structure identifies the source of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a>.
+The <b>TOKEN_SOURCE</b> structure identifies the source of an <a href="/windows/desktop/SecGloss/a-gly">access token</a>.
 
 ## -struct-fields
 
@@ -64,53 +64,52 @@ Specifies an 8-byte character string used to identify the source of an access to
 
 ### -field SourceIdentifier
 
-Specifies a locally unique identifier (<a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">LUID</a>) provided by the source component named by the <b>SourceName</b> member. This value aids the source component in relating context blocks, such as session-control structures, to the token. This value is typically, but not necessarily, an LUID.
+Specifies a locally unique identifier (<a href="/windows/desktop/SecGloss/l-gly">LUID</a>) provided by the source component named by the <b>SourceName</b> member. This value aids the source component in relating context blocks, such as session-control structures, to the token. This value is typically, but not necessarily, an LUID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_control">TOKEN_CONTROL</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_control">TOKEN_CONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_default_dacl">TOKEN_DEFAULT_DACL</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_default_dacl">TOKEN_DEFAULT_DACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
+<a href="/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_owner">TOKEN_OWNER</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_owner">TOKEN_OWNER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_primary_group">TOKEN_PRIMARY_GROUP</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_primary_group">TOKEN_PRIMARY_GROUP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_statistics">TOKEN_STATISTICS</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-token_statistics">TOKEN_STATISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-token_type">TOKEN_TYPE</a>
+<a href="/windows/desktop/api/winnt/ne-winnt-token_type">TOKEN_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>

@@ -62,7 +62,7 @@ Resources of this type have no known characteristics.
 ### -field CLUS_CHAR_QUORUM
 
 Resources of this type are capable of being the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource type</a> for a cluster.
+       <a href="/previous-versions/windows/desktop/mscs/quorum-resource">quorum resource type</a> for a cluster.
 
 ### -field CLUS_CHAR_DELETE_REQUIRES_ALL_NODES
 
@@ -78,8 +78,8 @@ Not supported.
 
 ### -field CLUS_CHAR_REQUIRES_STATE_CHANGE_REASON
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> will receive the 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-state-change-reason">CLUSCTL_RESOURCE_STATE_CHANGE_REASON</a> 
+The <a href="/previous-versions/windows/desktop/mscs/resource-dlls">resource DLL</a> will receive the 
+       <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-state-change-reason">CLUSCTL_RESOURCE_STATE_CHANGE_REASON</a> 
        control code.
 
 ### -field CLUS_CHAR_BROADCAST_DELETE
@@ -100,7 +100,7 @@ The resource can be made part of a special group. Protocol version 2.0 servers d
 
 ### -field CLUS_CHAR_PLACEMENT_DATA
 
-The resource type can be queried to get more information about how many resources it uses. For example, in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/virtual-machine">virtual machine</a> resource type, information is returned about how much memory is required for the virtual machine to be started.
+The resource type can be queried to get more information about how many resources it uses. For example, in the <a href="/previous-versions/windows/desktop/mscs/virtual-machine">virtual machine</a> resource type, information is returned about how much memory is required for the virtual machine to be started.
 
 <b>Windows Server 2008 R2 and Windows Server 2008:  </b>This enumeration value is not supported before Windows Server 2012.
 
@@ -146,29 +146,28 @@ This value is reserved for infrastructure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-group-get-characteristics">CLUSCTL_GROUP_GET_CHARACTERISTICS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-group-get-characteristics">CLUSCTL_GROUP_GET_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-characteristics">CLUSCTL_NETINTERFACE_GET_CHARACTERISTICS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-netinterface-get-characteristics">CLUSCTL_NETINTERFACE_GET_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-network-get-characteristics">CLUSCTL_NETWORK_GET_CHARACTERISTICS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-network-get-characteristics">CLUSCTL_NETWORK_GET_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-node-get-characteristics">CLUSCTL_NODE_GET_CHARACTERISTICS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-node-get-characteristics">CLUSCTL_NODE_GET_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-get-characteristics">CLUSCTL_RESOURCE_GET_CHARACTERISTICS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-get-characteristics">CLUSCTL_RESOURCE_GET_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-characteristics">CLUSCTL_RESOURCE_TYPE_GET_CHARACTERISTICS</a>
+<a href="/previous-versions/windows/desktop/mscs/clusctl-resource-type-get-characteristics">CLUSCTL_RESOURCE_TYPE_GET_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

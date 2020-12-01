@@ -56,7 +56,7 @@ The <b>WlanQueryAutoConfigParameter</b> function queries for the parameters of t
 
 ### -param hClientHandle [in]
 
-The client's session handle, obtained by a previous call to the <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
+The client's session handle, obtained by a previous call to the <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanopenhandle">WlanOpenHandle</a> function.
 
 ### -param OpCode [in]
 
@@ -85,7 +85,7 @@ If the function returns ERROR_SUCCESS and <i>ppData</i> points to <b>TRUE</b>, t
 </dl>
 </td>
 <td width="60%">
-When set, the <i>ppData</i> parameter will contain a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_power_setting~r1">WLAN_POWER_SETTING</a> value specifying the power settings.
+When set, the <i>ppData</i> parameter will contain a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_power_setting-r1">WLAN_POWER_SETTING</a> value specifying the power settings.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ Pointer to the memory that contains the queried value for the parameter specifie
 
 ### -param pWlanOpcodeValueType [out, optional]
 
-A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type~r1">WLAN_OPCODE_VALUE_TYPE</a> value.
+A <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type-r1">WLAN_OPCODE_VALUE_TYPE</a> value.
 
 ## -returns
 
@@ -176,7 +176,7 @@ If the function fails, the return value may be one of the following return codes
 <td width="60%">
 The caller does not have sufficient permissions to get configuration parameters. 
 
-When called with <i>OpCode</i> set to <b>wlan_autoconf_opcode_show_denied_networks</b>, <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryautoconfigparameter">WlanQueryAutoConfigParameter</a> retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_show_denied</b> object. If the DACL does not contain an access control entry (ACE) that grants WLAN_READ_ACCESS permission to the access token of the calling thread, then <b>WlanQueryAutoConfigParameter</b>  returns <b>ERROR_ACCESS_DENIED</b>.
+When called with <i>OpCode</i> set to <b>wlan_autoconf_opcode_show_denied_networks</b>, <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryautoconfigparameter">WlanQueryAutoConfigParameter</a> retrieves the discretionary access control list (DACL) stored with the  <b>wlan_secure_show_denied</b> object. If the DACL does not contain an access control entry (ACE) that grants WLAN_READ_ACCESS permission to the access token of the calling thread, then <b>WlanQueryAutoConfigParameter</b>  returns <b>ERROR_ACCESS_DENIED</b>.
 
 </td>
 </tr>
@@ -232,9 +232,8 @@ The <b>WlanQueryAutoConfigParameter</b> function queries for the parameters used
 
 ## -see-also
 
-<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode~r1">WLAN_AUTOCONF_OPCODE</a>
+<a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_autoconf_opcode-r1">WLAN_AUTOCONF_OPCODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlansetautoconfigparameter">WlanSetAutoConfigParameter</a>
-
+<a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetautoconfigparameter">WlanSetAutoConfigParameter</a>

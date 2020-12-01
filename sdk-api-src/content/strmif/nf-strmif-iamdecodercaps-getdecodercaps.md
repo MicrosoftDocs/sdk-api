@@ -132,17 +132,16 @@ If the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> 
 
 ## -remarks
 
-The DVD Graph Builder uses this method when it builds a DVD graph. If the decoder does not support the Video Mixing Renderer filter, then the DVD Graph Builder uses the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter instead.
+The DVD Graph Builder uses this method when it builds a DVD graph. If the decoder does not support the Video Mixing Renderer filter, then the DVD Graph Builder uses the <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a> filter instead.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/building-the-dvd-filter-graph">Building the DVD Filter Graph</a>
+<a href="/windows/desktop/DirectShow/building-the-dvd-filter-graph">Building the DVD Filter Graph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamdecodercaps">IAMDecoderCaps Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamdecodercaps">IAMDecoderCaps Interface</a>

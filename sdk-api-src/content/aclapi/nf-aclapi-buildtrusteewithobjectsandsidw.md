@@ -56,43 +56,43 @@ api_name:
 ## -description
 
 The <b>BuildTrusteeWithObjectsAndSid</b> function initializes a 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure with the object-specific <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) information and initializes the remaining members of the structure to default values. The caller also specifies the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that represents the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> of the trustee.
+<a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure with the object-specific <a href="/windows/desktop/SecGloss/a-gly">access control entry</a> (ACE) information and initializes the remaining members of the structure to default values. The caller also specifies the 
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that represents the <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> of the trustee.
 
 ## -parameters
 
 ### -param pTrustee [in, out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure to initialize. The <b>BuildTrusteeWithObjectsAndSid</b> function does not allocate any memory. If this parameter is <b>NULL</b> or a pointer that is not valid, the results are undefined.
+<a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure to initialize. The <b>BuildTrusteeWithObjectsAndSid</b> function does not allocate any memory. If this parameter is <b>NULL</b> or a pointer that is not valid, the results are undefined.
 
 ### -param pObjSid [in, optional]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-objects_and_sid">OBJECTS_AND_SID</a> structure that contains information about the trustee and the securable object.
+<a href="/windows/desktop/api/accctrl/ns-accctrl-objects_and_sid">OBJECTS_AND_SID</a> structure that contains information about the trustee and the securable object.
 
 ### -param pObjectGuid [in, optional]
 
 A pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that describes the ObjectType GUID to be added to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
+<a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
 
 ### -param pInheritedObjectGuid [in, optional]
 
-A pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that describes the InheritedObjectType GUID to be added to the <a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
+A pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that describes the InheritedObjectType GUID to be added to the <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> structure.
 
 ### -param pSid [in, optional]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the trustee.
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that identifies the trustee.
 
 ## -remarks
 
 This function does not allocate memory for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-objects_and_sid">OBJECTS_AND_SID</a> structures.
+<a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a> and 
+<a href="/windows/desktop/api/accctrl/ns-accctrl-objects_and_sid">OBJECTS_AND_SID</a> structures.
 
 For more information about object-specific ACEs, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/object-specific-aces">Object-specific ACEs</a>.
+<a href="/windows/desktop/SecAuthZ/object-specific-aces">Object-specific ACEs</a>.
 
 
 
@@ -103,41 +103,40 @@ For more information about object-specific ACEs, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-buildtrusteewithnamea">BuildTrusteeWithName</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-buildtrusteewithnamea">BuildTrusteeWithName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-buildtrusteewithobjectsandnamea">BuildTrusteeWithObjectsAndName</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-buildtrusteewithobjectsandnamea">BuildTrusteeWithObjectsAndName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclapi/nf-aclapi-buildtrusteewithsida">BuildTrusteeWithSid</a>
+<a href="/windows/desktop/api/aclapi/nf-aclapi-buildtrusteewithsida">BuildTrusteeWithSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-objects_and_name_a">OBJECTS_AND_NAME</a>
+<a href="/windows/desktop/api/accctrl/ns-accctrl-objects_and_name_a">OBJECTS_AND_NAME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/object-specific-aces">Object-specific ACEs</a>
+<a href="/windows/desktop/SecAuthZ/object-specific-aces">Object-specific ACEs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>
+<a href="/windows/desktop/api/accctrl/ne-accctrl-se_object_type">SE_OBJECT_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
-
+<a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>

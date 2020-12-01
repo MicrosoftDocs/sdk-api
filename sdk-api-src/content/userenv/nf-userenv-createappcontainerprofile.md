@@ -76,7 +76,7 @@ The number of SIDs in <i>pCapabilities</i>.
 
 ### -param ppSidAppContainerSid [out]
 
-The SID for the profile. This buffer must be freed using the <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-freesid">FreeSid</a> function.
+The SID for the profile. This buffer must be freed using the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-freesid">FreeSid</a> function.
 
 ## -returns
 
@@ -135,11 +135,10 @@ The container name   is <b>NULL</b>,  or the container name,   the display name,
 
 ## -remarks
 
-A profile contains folders and registry storage that are per-user and per-app. The folders have ACLs that prevent them from being accessed by other users and apps. These folders can be accessed by calling <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>.
+A profile contains folders and registry storage that are per-user and per-app. The folders have ACLs that prevent them from being accessed by other users and apps. These folders can be accessed by calling <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>.
 
 The function creates a profile for the current user. To create a profile on behalf of another user, you must impersonate that user. To create profiles for multiple users of the same app, you must call <b>CreateAppContainerProfile</b> for each user.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/userenv/nf-userenv-deleteappcontainerprofile">DeleteAppContainerProfile</a>
-
+<a href="/windows/desktop/api/userenv/nf-userenv-deleteappcontainerprofile">DeleteAppContainerProfile</a>

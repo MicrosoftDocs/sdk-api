@@ -50,16 +50,16 @@ api_name:
 
 ## -description
 
-The <b>GetConfigEntry</b> method retrieves configuration  information for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA).
+The <b>GetConfigEntry</b> method retrieves configuration  information for a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA).
 
 ## -parameters
 
 ### -param strConfig [in]
 
 String value that represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>. This parameter can be an empty string, in which case the function retrieves configuration information that is not specific to a CA. This parameter cannot be <b>NULL</b>.
+<a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>. This parameter can be an empty string, in which case the function retrieves configuration information that is not specific to a CA. This parameter cannot be <b>NULL</b>.
 
-<div class="alert"><b>Important</b>  <b>GetConfigEntry</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>GetConfigEntry</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param strNodePath [in]
@@ -80,7 +80,7 @@ A pointer to a <b>VARIANT</b> that receives the requested information.
 If the function is successful, the return value is S_OK.
 
  
-If the function fails, the return value is an <b>HRESULT</b> that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, the return value is an <b>HRESULT</b> that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is a <b>Variant</b> that represents the retrieved configuration information.
@@ -90,9 +90,8 @@ The return value is a <b>Variant</b> that represents the retrieved configuration
  The configuration information is stored in the registry under the following path.
 
 
-<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SYSTEM</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>CertSvc</b>&#92;<b>Configuration</b>&#92;<i>[CASANITIZEDNAME]</i>&#92;<i>[strNodePath]</i>&#92;<i>[strEntryName]</i></p>Where <i>CASANITIZEDNAME</i> is the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sanitized name</a> for the CA. For more information about sanitized names, see <a href="https://docs.microsoft.com/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig2::GetConfig</a>.
+<b>HKEY_LOCAL_MACHINE</b>&#92;<b>SYSTEM</b>&#92;<b>CurrentControlSet</b>&#92;<b>Services</b>&#92;<b>CertSvc</b>&#92;<b>Configuration</b>&#92;<i>[CASANITIZEDNAME]</i>&#92;<i>[strNodePath]</i>&#92;<i>[strEntryName]</i></p>Where <i>CASANITIZEDNAME</i> is the <a href="/windows/desktop/SecGloss/s-gly">sanitized name</a> for the CA. For more information about sanitized names, see <a href="/windows/desktop/api/certcli/nf-certcli-icertconfig-getconfig">ICertConfig2::GetConfig</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
-
+<a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>

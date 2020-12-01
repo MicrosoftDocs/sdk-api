@@ -58,7 +58,7 @@ Creates a string that identifies a property from that property's key.
 
 Type: <b>REFPROPERTYKEY</b>
 
-Reference to a <a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that identifies a property.
+Reference to a <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">PROPERTYKEY</a> structure that identifies a property.
 
 ### -param psz [out]
 
@@ -85,7 +85,7 @@ The string format retrieved is <code>"{propkey.fmtid} propkey.pid"</code>. For e
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates the use of <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pspropertykeyfromstring">PSPropertyKeyFromString</a>.
+The following example, to be included as part of a larger program, demonstrates the use of <a href="/windows/desktop/api/propsys/nf-propsys-pspropertykeyfromstring">PSPropertyKeyFromString</a>.
 
 
 ```cpp
@@ -101,9 +101,8 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-psgetnamefrompropertykey">PSGetNameFromPropertyKey</a>
+<a href="/windows/desktop/api/propsys/nf-propsys-psgetnamefrompropertykey">PSGetNameFromPropertyKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pspropertykeyfromstring">PSPropertyKeyFromString</a>
-
+<a href="/windows/desktop/api/propsys/nf-propsys-pspropertykeyfromstring">PSPropertyKeyFromString</a>

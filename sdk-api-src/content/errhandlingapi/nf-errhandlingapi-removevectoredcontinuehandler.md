@@ -51,8 +51,6 @@ api_name:
  - RemoveVectoredContinueHandler
 ---
 
-# RemoveVectoredContinueHandler function
-
 ## -description
 
 Unregisters a vectored continue handler.

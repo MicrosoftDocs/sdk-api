@@ -64,13 +64,12 @@ Use the start and end date to specify a date range when the schedule is valid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-ischedule">ISchedule</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-ischedule">ISchedule</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_enddate">ISchedule::EndDate</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_enddate">ISchedule::EndDate</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_starttime">ISchedule::StartTime</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_starttime">ISchedule::StartTime</a>

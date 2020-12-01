@@ -55,18 +55,18 @@ The
 
 An 
 <b>ITCallingCard</b> interface pointer can be obtained using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-get_callingcards">ITAddressTranslation::get_CallingCards</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-enumeratecallingcards">ITAddressTranslation::EnumerateCallingCards</a>.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-get_callingcards">ITAddressTranslation::get_CallingCards</a> or 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-enumeratecallingcards">ITAddressTranslation::EnumerateCallingCards</a>.
 
 <b>TAPI 2.1 Cross-Reference: </b>The information obtainable using this interface parallels that contained in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecardentry">LINECARDENTRY</a> structure. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a> function returns a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a> structure. The <b>dwCardListOffset</b> member of this structure points to a list of 
+<a href="/windows/desktop/api/tapi/ns-tapi-linecardentry">LINECARDENTRY</a> structure. The 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a> function returns a 
+<a href="/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a> structure. The <b>dwCardListOffset</b> member of this structure points to a list of 
 <b>LINECARDENTRY</b> structures.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCallingCard</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITCallingCard</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITCallingCard</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITCallingCard</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -81,7 +81,7 @@ The <b>ITCallingCard</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallingcard-get_cardname">get_CardName</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallingcard-get_cardname">get_CardName</a>
 </td>
 <td align="left" width="63%">
 Gets the friendly name for the calling card.
@@ -90,7 +90,7 @@ Gets the friendly name for the calling card.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallingcard-get_internationaldialingrule">get_InternationalDialingRule</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallingcard-get_internationaldialingrule">get_InternationalDialingRule</a>
 </td>
 <td align="left" width="63%">
 Gets the international dialing rules for this calling card.
@@ -99,7 +99,7 @@ Gets the international dialing rules for this calling card.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallingcard-get_longdistancedialingrule">get_LongDistanceDialingRule</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallingcard-get_longdistancedialingrule">get_LongDistanceDialingRule</a>
 </td>
 <td align="left" width="63%">
 Gets the long distance dialing rules for this calling card.
@@ -108,7 +108,7 @@ Gets the long distance dialing rules for this calling card.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallingcard-get_numberofdigits">get_NumberOfDigits</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallingcard-get_numberofdigits">get_NumberOfDigits</a>
 </td>
 <td align="left" width="63%">
 Gets the number of digits in the existing card number.
@@ -117,7 +117,7 @@ Gets the number of digits in the existing card number.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallingcard-get_options">get_Options</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallingcard-get_options">get_Options</a>
 </td>
 <td align="left" width="63%">
 Gets the translation options for this address and card.
@@ -126,7 +126,7 @@ Gets the translation options for this address and card.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallingcard-get_permanentcardid">get_PermanentCardID</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallingcard-get_permanentcardid">get_PermanentCardID</a>
 </td>
 <td align="left" width="63%">
 Gets the permanent calling card identifier.
@@ -135,7 +135,7 @@ Gets the permanent calling card identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcallingcard-get_sameareadialingrule">get_SameAreaDialingRule</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallingcard-get_sameareadialingrule">get_SameAreaDialingRule</a>
 </td>
 <td align="left" width="63%">
 Gets the dialing rules for calls within the same area code.
@@ -146,25 +146,24 @@ Gets the dialing rules for calls within the same area code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-enumeratecallingcards">ITAddressTranslation::EnumerateCallingCards</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-enumeratecallingcards">ITAddressTranslation::EnumerateCallingCards</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-get_callingcards">ITAddressTranslation::get_CallingCards</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-get_callingcards">ITAddressTranslation::get_CallingCards</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linecardentry">LINECARDENTRY</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linecardentry">LINECARDENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linetranslatecaps">LINETRANSLATECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>

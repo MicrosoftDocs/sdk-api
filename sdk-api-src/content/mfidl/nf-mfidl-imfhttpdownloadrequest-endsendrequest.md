@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-Invoked by Microsoft Media Foundation to complete the asynchronous operation started by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginsendrequest">BeginSendRequest</a>.
+Invoked by Microsoft Media Foundation to complete the asynchronous operation started by <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginsendrequest">BeginSendRequest</a>.
 
 ## -parameters
 
 ### -param pResult [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. Microsoft Media Foundation will pass in the same pointer that its callback object received in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. Microsoft Media Foundation will pass in the same pointer that its callback object received in the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
 
 ## -returns
 
@@ -86,5 +86,4 @@ The request was successfully sent to the server.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>

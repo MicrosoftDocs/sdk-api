@@ -52,11 +52,11 @@ api_name:
 
 The <b>IWMDMMetaData</b> interface sets and retrieves metadata properties (such as artist, album, genre, and so on) of a storage. Metadata properties are stored as name-value pairs.
 
-To create a new, empty instance of this interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-createemptymetadataobject">IWMDMStorage3::CreateEmptyMetadataObject</a>. To retrieve this interface (with values), call <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-getmetadata">IWMDMStorage3::GetMetadata</a> or <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getspecifiedmetadata">IWMDMStorage4::GetSpecifiedMetadata</a>.
+To create a new, empty instance of this interface, call <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-createemptymetadataobject">IWMDMStorage3::CreateEmptyMetadataObject</a>. To retrieve this interface (with values), call <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-getmetadata">IWMDMStorage3::GetMetadata</a> or <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getspecifiedmetadata">IWMDMStorage4::GetSpecifiedMetadata</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMMetaData</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMMetaData</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMMetaData</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWMDMMetaData</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWMDMMetaData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-additem">AddItem</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-additem">AddItem</a>
 </td>
 <td align="left" width="63%">
 Adds a metadata property to the interface.
@@ -80,7 +80,7 @@ Adds a metadata property to the interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-getitemcount">GetItemCount</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-getitemcount">GetItemCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total number of properties held by the interface.
@@ -89,7 +89,7 @@ Retrieves the total number of properties held by the interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">QueryByIndex</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyindex">QueryByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a property specified by index.
@@ -98,7 +98,7 @@ Retrieves the value of a property specified by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyname">QueryByName</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmmetadata-querybyname">QueryByName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of a property specified by name.
@@ -109,13 +109,12 @@ Retrieves the value of a property specified by name.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/metadata-constants">Metadata Constants</a>
+<a href="/windows/desktop/WMDM/metadata-constants">Metadata Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>
-
+<a href="/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>

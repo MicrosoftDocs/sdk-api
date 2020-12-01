@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a> that contains the coordinates of a rectangle.
+Creates a <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a> that contains the coordinates of a rectangle.
 
 ## -parameters
 
@@ -62,25 +62,24 @@ A pointer to a structure that contains the coordinates of the rectangle.
 
 ### -param var [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>*</b>
 
 Receives the coordinates of the rectangle.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-The returned <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a> has a data type of VT_ARRAY | VT_R8.
+The returned <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a> has a data type of VT_ARRAY | VT_R8.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-varianttorect">IUIAutomation::VariantToRect</a>
-
+<a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-varianttorect">IUIAutomation::VariantToRect</a>

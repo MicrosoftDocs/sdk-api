@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Specifies the replicated disk types for the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-sr_resource_type_replicated_disk">SR_RESOURCE_TYPE_REPLICATED_DISK</a> structure.
+Specifies the replicated disk types for the <a href="/windows/desktop/api/clusapi/ns-clusapi-sr_resource_type_replicated_disk">SR_RESOURCE_TYPE_REPLICATED_DISK</a> structure.
 
 ## -enum-fields
 
@@ -93,5 +93,4 @@ Other.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>

@@ -62,7 +62,7 @@ Specifies the UDN of the device.
 ### -param ppudDevice [out]
 
 Receives a reference to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> object that describes the device. This reference must be released when it is no longer used.
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a> object that describes the device. This reference must be released when it is no longer used.
 
 ## -returns
 
@@ -72,20 +72,19 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 Use 
 <b>DeviceByUDN</b> after loading the device description using 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load">IUPnPDescriptionDocument::Load</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a>. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-get_readystate">IUPnPDescriptionDocument::ReadyState</a> property returns READYSTATE_COMPLETED.
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load">IUPnPDescriptionDocument::Load</a> or 
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a>. The 
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-get_readystate">IUPnPDescriptionDocument::ReadyState</a> property returns READYSTATE_COMPLETED.
 
 Do not use 
 <b>DeviceByUDN</b> unless a device description is first loaded using either 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load">IUPnPDescriptionDocument::Load</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a>. The search operation only searches in the currently loaded device description.
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-load">IUPnPDescriptionDocument::Load</a> or 
+<a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a>. The search operation only searches in the currently loaded device description.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocument">IUPnPDescriptionDocument</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocument">IUPnPDescriptionDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>

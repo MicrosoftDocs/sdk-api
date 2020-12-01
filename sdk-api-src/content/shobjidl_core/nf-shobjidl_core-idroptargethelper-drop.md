@@ -50,28 +50,28 @@ api_name:
 
 ## -description
 
-Notifies the drag-image manager that the drop target's <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a> method has been called.
+Notifies the drag-image manager that the drop target's <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a> method has been called.
 
 ## -parameters
 
 ### -param pDataObject [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>*</b>
 
-A pointer to the data object's <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface.
+A pointer to the data object's <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface.
 
 ### -param ppt [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
-A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure pointer that was received in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a> method's 
+A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure pointer that was received in the <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a> method's 
 					<i>pt</i> parameter.
 
 ### -param dwEffect [in]
 
 Type: <b>DWORD</b>
 
-The value pointed to by the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a> method's 
+The value pointed to by the <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a> method's 
 					<i>pdwEffect</i> parameter.
 
 ## -returns
@@ -82,9 +82,8 @@ Returns S_OK if successful, or a COM error value otherwise.
 
 ## -remarks
 
-This method is called by a drop target when its <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a> method is called. It notifies the drag-image manager that the object has been dropped, and provides it with the information needed to display the drag image.
+This method is called by a drop target when its <a href="/windows/desktop/api/oleidl/nf-oleidl-idroptarget-drop">IDropTarget::Drop</a> method is called. It notifies the drag-image manager that the object has been dropped, and provides it with the information needed to display the drag image.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper">IDropTargetHelper</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper">IDropTargetHelper</a>

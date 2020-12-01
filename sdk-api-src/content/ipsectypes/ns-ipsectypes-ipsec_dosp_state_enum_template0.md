@@ -58,21 +58,20 @@ The <b>IPSEC_DOSP_STATE_ENUM_TEMPLATE0</b> structure is used to enumerate IPsec 
 
 ### -field publicV6AddrMask
 
-An [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask) structure that specifies the public IPv6 address.
+An [FWP_V6_ADDR_AND_MASK](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask) structure that specifies the public IPv6 address.
 
 ### -field internalV6AddrMask
 
-An [FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask) structure that specifies the internal IPv6 address.
+An [FWP_V6_ADDR_AND_MASK](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask) structure that specifies the internal IPv6 address.
 
 ## -remarks
 
-<b>IPSEC_DOSP_STATE_ENUM_TEMPLATE0</b> is a specific implementation of IPSEC_DOSP_STATE_ENUM_TEMPLATE. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IPSEC_DOSP_STATE_ENUM_TEMPLATE0</b> is a specific implementation of IPSEC_DOSP_STATE_ENUM_TEMPLATE. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[FWP_V6_ADDR_AND_MASK](https://docs.microsoft.com/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)
+[FWP_V6_ADDR_AND_MASK](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_v6_addr_and_mask)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

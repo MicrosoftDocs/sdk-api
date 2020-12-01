@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>EnrollmentCAProperty</b> enumeration specifies certification authority property values. It is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificationauthority-get_property">Property</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a> interface.
+The <b>EnrollmentCAProperty</b> enumeration specifies certification authority property values. It is used by the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertificationauthority-get_property">Property</a> method on the <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a> interface.
 
 ## -enum-fields
 
@@ -60,7 +60,7 @@ A <b>VT_BSTR</b> value that contains the common name of the certification author
 
 ### -field CAPropDistinguishedName
 
-A <b>VT_DISPATCH</b> value that contains a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a> object.
+A <b>VT_DISPATCH</b> value that contains a pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix500distinguishedname">IX500DistinguishedName</a> object.
 
 ### -field CAPropSanitizedName
 
@@ -92,21 +92,20 @@ A <b>VT_ARRAY|VT_BSTR</b> collection of certificate enrollment servers configure
 
 ### -field CAPropSiteName
 
-A <b>VT_BSTR</b> value that contains the name of the AD site to which the CA belongs. This can be used by the enrolling clients to determine the relative cost of communicating with the CA versus CAs that belong to other sites. This value is relevant only for CA objects retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcas">GetCAs</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> interface.
+A <b>VT_BSTR</b> value that contains the name of the AD site to which the CA belongs. This can be used by the enrolling clients to determine the relative cost of communicating with the CA versus CAs that belong to other sites. This value is relevant only for CA objects retrieved by using the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcas">GetCAs</a> method on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> interface.
 
 ### -field CAPropSecurity
 
-A <b>VT_BSTR</b> value that contains the security descriptor definition language (SDDL) string representation of the security descriptor for the CA. This value is relevant only for CA objects retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcas">GetCAs</a> method.
+A <b>VT_BSTR</b> value that contains the security descriptor definition language (SDDL) string representation of the security descriptor for the CA. This value is relevant only for CA objects retrieved by using the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcas">GetCAs</a> method.
 
 ### -field CAPropRenewalOnly
 
-A <b>VT_BOOL</b> value that specifies whether a CA is configured to perform only certificate renewals. This value is relevant only for CA objects retrieved by using the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcas">GetCAs</a> method.
+A <b>VT_BOOL</b> value that specifies whether a CA is configured to perform only certificate renewals. This value is relevant only for CA objects retrieved by using the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-getcas">GetCAs</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertificationauthority-get_property">Property</a>
-
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertificationauthority-get_property">Property</a>

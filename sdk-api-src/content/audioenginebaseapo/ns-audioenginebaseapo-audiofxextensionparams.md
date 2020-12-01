@@ -67,13 +67,12 @@ The ID for the audio endpoint.
 
 ### -field pFxProperties
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object.
+An <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
+<a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
 
 
 
 <a href="/previous-versions/bb416595(v=msdn.10)">IShellPropSheetExt::AddPages</a>
-

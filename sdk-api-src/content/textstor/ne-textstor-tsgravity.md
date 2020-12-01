@@ -52,23 +52,22 @@ api_name:
 
 ## -description
 
-Elements of the <b>TsGravity</b> enumeration specify the gravity type associated with an <a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a> object.
+Elements of the <b>TsGravity</b> enumeration specify the gravity type associated with an <a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a> object.
 
 ## -enum-fields
 
 ### -field TS_GR_BACKWARD
 
-The anchor has backward gravity. For more information about anchor gravity, see <a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Ranges</a>.
+The anchor has backward gravity. For more information about anchor gravity, see <a href="/windows/desktop/TSF/ranges">Ranges</a>.
 
 ### -field TS_GR_FORWARD
 
-The anchor has forward gravity. For more information about anchor gravity, see <a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Ranges</a>.
+The anchor has forward gravity. For more information about anchor gravity, see <a href="/windows/desktop/TSF/ranges">Ranges</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TSF/ranges">Anchor Gravity</a>
+<a href="/windows/desktop/TSF/ranges">Anchor Gravity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
-
+<a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>

@@ -68,17 +68,16 @@ An index of the image.
 
 ### -param flags
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-A combination of flags that specify the drawing style. For a list of values, see the description of the <i>fStyle</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_draw">ImageList_Draw</a> function.
+A combination of flags that specify the drawing style. For a list of values, see the description of the <i>fStyle</i> parameter of the <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_draw">ImageList_Draw</a> function.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HICON</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HICON</a></b>
 
 Returns the handle to the icon if successful, or <b>NULL</b> otherwise.
 
 ## -remarks
 
-It is the responsibility of the calling application to destroy the icon returned from this function using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
-
+It is the responsibility of the calling application to destroy the icon returned from this function using the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.

@@ -55,7 +55,7 @@ provides similar functionality.]
 
 The 
 <b>get_DirectoryType</b> method gets 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-directory_type">DIRECTORY_TYPE</a> indicator of the type of the directory.
+<a href="/windows/desktop/api/rend/ne-rend-directory_type">DIRECTORY_TYPE</a> indicator of the type of the directory.
 
 ## -parameters
 
@@ -98,9 +98,8 @@ The <i>pDirectoryType</i> parameter is not a valid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/ne-rend-directory_type">DIRECTORY_TYPE</a>
+<a href="/windows/desktop/api/rend/ne-rend-directory_type">DIRECTORY_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
-
+<a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>

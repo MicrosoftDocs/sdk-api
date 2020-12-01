@@ -53,11 +53,10 @@ api_name:
 ## -description
 
 Specifies the callback which is called when a channel is about to be closed. 
-                See, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_close_channel_callback">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a> for details.
+                See, <a href="/windows/desktop/api/webservices/nc-webservices-ws_service_close_channel_callback">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a> for details.
 
 ## -struct-fields
 
 ### -field callback
 
 The close channel callback function reference.
-

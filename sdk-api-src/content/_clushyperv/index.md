@@ -16,5 +16,4 @@ Overview of the Failover Clustering Hyper-V WMI Provider technology.
 The Failover Clustering Hyper-V WMI Provider technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Failover Clustering Hyper-V WMI Provider](https://docs.microsoft.com/previous-versions/windows/desktop/clushyperv)
-
+* [Failover Clustering Hyper-V WMI Provider](/previous-versions/windows/desktop/clushyperv)

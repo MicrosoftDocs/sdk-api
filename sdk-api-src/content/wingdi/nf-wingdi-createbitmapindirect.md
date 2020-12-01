@@ -60,7 +60,7 @@ The <b>CreateBitmapIndirect</b> function creates a bitmap with the specified wid
 
 ### -param pbm [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a> structure that contains information about the bitmap. If an application sets the <b>bmWidth</b> or <b>bmHeight</b> members to zero, <b>CreateBitmapIndirect</b> returns the handle to a 1-by-1 pixel, monochrome bitmap.
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a> structure that contains information about the bitmap. If an application sets the <b>bmWidth</b> or <b>bmHeight</b> members to zero, <b>CreateBitmapIndirect</b> returns the handle to a 1-by-1 pixel, monochrome bitmap.
 
 ## -returns
 
@@ -103,47 +103,46 @@ The bitmap is too big for memory to be allocated.
 
 The <b>CreateBitmapIndirect</b> function creates a device-dependent bitmap.
 
-After a bitmap is created, it can be selected into a device context by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function. However, the bitmap can only be selected into a device context if the bitmap and the DC have the same format.
+After a bitmap is created, it can be selected into a device context by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> function. However, the bitmap can only be selected into a device context if the bitmap and the DC have the same format.
 
-While the <b>CreateBitmapIndirect</b> function can be used to create color bitmaps, for performance reasons applications should use <b>CreateBitmapIndirect</b> to create monochrome bitmaps and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a> to create color bitmaps. Whenever a color bitmap from <b>CreateBitmapIndirect</b> is selected into a device context, the system must ensure that the bitmap matches the format of the device context it is being selected into. Because <b>CreateCompatibleBitmap</b> takes a device context, it returns a bitmap that has the same format as the specified device context. Thus, subsequent calls to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> are faster with a color bitmap from <b>CreateCompatibleBitmap</b> than with a color bitmap returned from <b>CreateBitmapIndirect</b>.
+While the <b>CreateBitmapIndirect</b> function can be used to create color bitmaps, for performance reasons applications should use <b>CreateBitmapIndirect</b> to create monochrome bitmaps and <a href="/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a> to create color bitmaps. Whenever a color bitmap from <b>CreateBitmapIndirect</b> is selected into a device context, the system must ensure that the bitmap matches the format of the device context it is being selected into. Because <b>CreateCompatibleBitmap</b> takes a device context, it returns a bitmap that has the same format as the specified device context. Thus, subsequent calls to <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> are faster with a color bitmap from <b>CreateCompatibleBitmap</b> than with a color bitmap returned from <b>CreateBitmapIndirect</b>.
 
 If the bitmap is monochrome, zeros represent the foreground color and ones represent the background color for the destination device context.
 
-When you no longer need the bitmap, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
+When you no longer need the bitmap, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmap">BITMAP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-bitblt">BitBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbitmap">CreateBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createbitmap">CreateBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createcompatiblebitmap">CreateCompatibleBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibitmap">CreateDIBitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Whether touch pointer event notifications are enabled for the RDP app container client control. If this property is enabled, the <a href="https://docs.microsoft.com/windows/desktop/TermServ/iremotedesktopclientevents-ontouchpointercursormoved">OnTouchPointerCursorMoved</a> method will handle events when the touch pointer cursor is moved.
+Whether touch pointer event notifications are enabled for the RDP app container client control. If this property is enabled, the <a href="/windows/desktop/TermServ/iremotedesktopclientevents-ontouchpointercursormoved">OnTouchPointerCursorMoved</a> method will handle events when the touch pointer cursor is moved.
 
 This property is read/write.
 
@@ -60,5 +60,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer">IRemoteDesktopClientTouchPointer</a>
-
+<a href="/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer">IRemoteDesktopClientTouchPointer</a>

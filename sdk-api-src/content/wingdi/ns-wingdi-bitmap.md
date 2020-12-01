@@ -103,35 +103,34 @@ Scans are organized as follows for a monochrome bitmap of height <i>n</i>:
 </code></pre>
 The pixels on a monochrome device are either black or white. If the corresponding bit in the bitmap is 1, the pixel is set to the foreground color; if the corresponding bit in the bitmap is zero, the pixel is set to the background color.
 
-All devices that have the RC_BITBLT device capability support bitmaps. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>.
+All devices that have the RC_BITBLT device capability support bitmaps. For more information, see <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>.
 
-Each device has a unique color format. To transfer a bitmap from one device to another, use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> functions.
+Each device has a unique color format. To transfer a bitmap from one device to another, use the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
+<a href="/windows/desktop/gdi/bitmap-structures">Bitmap Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createbitmapindirect">CreateBitmapIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createbitmapindirect">CreateBitmapIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>

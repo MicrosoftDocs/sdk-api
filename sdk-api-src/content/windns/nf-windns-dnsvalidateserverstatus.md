@@ -57,7 +57,7 @@ The
 
 ### -param server [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> that contains the DNS server IPv4 or IPv6  address to be examined.
+A pointer to a <a href="/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a> that contains the DNS server IPv4 or IPv6  address to be examined.
 
 ### -param queryName [in]
 
@@ -171,5 +171,4 @@ The
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DNS/dns-functions">DNS Functions</a>
-
+<a href="/windows/desktop/DNS/dns-functions">DNS Functions</a>

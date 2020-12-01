@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> failure message string that a writer has set for a given component.
+Returns the <a href="/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> failure message string that a writer has set for a given component.
 
 Both writers and requesters can call this method.
 
@@ -60,7 +60,7 @@ Both writers and requesters can call this method.
 ### -param pbstrFailureMsg [out]
 
 A pointer to a null-terminated wide character string containing the failure message that describes an error that occurred 
-      while processing a <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> 
+      while processing a <a href="/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> 
       event.
 
 ## -returns
@@ -90,7 +90,7 @@ The failure message was successfully obtained.
 </dl>
 </td>
 <td width="60%">
-No <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> failure message was set for the component.
+No <a href="/windows/desktop/VSS/vssgloss-p">PrepareForBackup</a> failure message was set for the component.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The caller is out of memory or other system resources.
 
 ## -remarks
 
-The caller is responsible for freeing the string that  the <i>pbstrFailureMsg</i> parameter points to by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+The caller is responsible for freeing the string that  the <i>pbstrFailureMsg</i> parameter points to by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 
 #### Examples
@@ -219,13 +219,12 @@ exit:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponentex">IVssComponentEx</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponentex">IVssComponentEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-setprepareforbackupfailuremsg">IVssComponentEx::SetPrepareForBackupFailureMsg</a>
-
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-setprepareforbackupfailuremsg">IVssComponentEx::SetPrepareForBackupFailureMsg</a>

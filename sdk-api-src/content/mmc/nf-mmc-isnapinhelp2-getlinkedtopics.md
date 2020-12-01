@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>ISnapinHelp2::GetLinkedTopics</b> method enables a snap-in to specify the names and locations of any HTML Help files that are linked to the snap-in's Help file (specified in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-isnapinhelp-gethelptopic">GetHelpTopic</a> method).
+<a href="/windows/desktop/api/mmc/nf-mmc-isnapinhelp-gethelptopic">GetHelpTopic</a> method).
 
 ## -parameters
 
@@ -68,19 +68,18 @@ This method can return one of these values.
 ## -remarks
 
 MMC calls the snap-in's <b>ISnapinHelp2::GetLinkedTopics</b> method only if the snap-in returned <b>S_OK</b> from the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814944(v=vs.85)">ISnapinHelp2::GetHelpTopic</a> method call.
+<a href="/previous-versions/windows/desktop/legacy/aa814944(v=vs.85)">ISnapinHelp2::GetHelpTopic</a> method call.
 
-Allocate the <i>lpCompiledHelpFiles</i> string with the COM API function <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> (or the equivalent) and MMC will release it
+Allocate the <i>lpCompiledHelpFiles</i> string with the COM API function <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> (or the equivalent) and MMC will release it
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/adding-html-help-support">Adding HTML Help Support</a>
+<a href="/previous-versions/windows/desktop/mmc/adding-html-help-support">Adding HTML Help Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-isnapinhelp2">ISnapinHelp2</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-isnapinhelp2">ISnapinHelp2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa814944(v=vs.85)">ISnapinHelp2::GetHelpTopic</a>
-
+<a href="/previous-versions/windows/desktop/legacy/aa814944(v=vs.85)">ISnapinHelp2::GetHelpTopic</a>

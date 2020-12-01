@@ -57,7 +57,7 @@ The <b>BluetoothGATTUnregisterEvent</b> function unregisters the given character
 
 ### -param EventHandle [in]
 
-Handle returned from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>.
+Handle returned from a previous call to <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>.
 
 ### -param Flags [in]
 
@@ -126,5 +126,4 @@ A parameter was invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>
-
+<a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>

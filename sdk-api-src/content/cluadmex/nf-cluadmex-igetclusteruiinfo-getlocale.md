@@ -64,12 +64,11 @@ Returns the locale identifier to be used with property and wizard pages.
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> extensions call the 
+<a href="/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator</a> extensions call the 
      <b>GetLocale</b> method to retrieve the locale 
      identifier that can be used for loading dialog resources. A single Failover Cluster Administrator extension DLL 
      can support multiple languages.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusteruiinfo">IGetClusterUIInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusteruiinfo">IGetClusterUIInfo</a>

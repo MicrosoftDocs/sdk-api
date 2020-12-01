@@ -64,7 +64,7 @@ State packet number. The packet number indicates whether there have been any cha
 
 ### -field Gamepad
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a> structure containing the current state of an Xbox 360 Controller.
+<a href="/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a> structure containing the current state of an Xbox 360 Controller.
 
 ## -remarks
 
@@ -72,13 +72,12 @@ The <i>dwPacketNumber</i> member is incremented only if the status of the contro
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a>
+<a href="/windows/desktop/api/xinput/ns-xinput-xinput_gamepad">XINPUT_GAMEPAD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xinput/structures">XInput Structures</a>
+<a href="/windows/desktop/xinput/structures">XInput Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetState</a>
-
+<a href="/windows/desktop/api/xinput/nf-xinput-xinputgetstate">XInputGetState</a>

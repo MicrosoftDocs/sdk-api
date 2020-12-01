@@ -50,33 +50,33 @@ api_name:
 
 ## -description
 
-Calls a function that processes the <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a> message.
+Calls a function that processes the <a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a> message.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
-A handle to the window that received <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>.
+A handle to the window that received <a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>.
 
 ### -param wParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WPARAM</a></b>
 
-The first parameter of <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>.
+The first parameter of <a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>.
 
 ### -param lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
-The second parameter of <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>.
+The second parameter of <a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>.
 
 ### -param fn
 
 Type: <b>function</b>
 
-The function that is to process <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>.
+The function that is to process <a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>.
 
 ## -remarks
 
@@ -85,5 +85,4 @@ The <b>HANDLE_WM_NOTIFY</b> macro is defined as follows.
 <pre class="syntax" xml:space="preserve"><code>#define HANDLE_WM_NOTIFY(hwnd, wParam, lParam, fn) \ 
 
     (fn)((hwnd), (int)(wParam), (NMHDR*)(lParam))</code></pre>
-The macro can be used inside a dialog window procedure to simplify the calling of an application-defined function that requires an <a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> parameter.
-
+The macro can be used inside a dialog window procedure to simplify the calling of an application-defined function that requires an <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> parameter.

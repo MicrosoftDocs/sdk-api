@@ -84,7 +84,7 @@ Dereferencing potentially invalid pointers can disable stack expansion in other 
 If the calling process has read access to some, but not all, of the specified memory range, the return value is nonzero.
 
 In a preemptive multitasking environment, it is possible for some other thread to change the process's access to the memory being tested. Even when the function indicates that the process has read access to the specified memory, you should use 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/structured-exception-handling">structured exception handling</a> when attempting to access the memory. Use of structured exception handling enables the system to notify the process if an access violation exception occurs, giving the process an opportunity to handle the exception.
+<a href="/windows/desktop/Debug/structured-exception-handling">structured exception handling</a> when attempting to access the memory. Use of structured exception handling enables the system to notify the process if an access violation exception occurs, giving the process an opportunity to handle the exception.
 
 
 
@@ -95,13 +95,12 @@ In a preemptive multitasking environment, it is possible for some other thread t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadcodeptr">IsBadCodePtr</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-isbadcodeptr">IsBadCodePtr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadreadptr">IsBadReadPtr</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-isbadreadptr">IsBadReadPtr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-isbadwriteptr">IsBadWritePtr</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-isbadwriteptr">IsBadWritePtr</a>

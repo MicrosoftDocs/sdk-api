@@ -48,6 +48,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - IsIconic
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # IsIconic function
@@ -79,7 +80,7 @@ If the window is not iconic, the return value is zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iszoomed">IsZoomed</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-iszoomed">IsZoomed</a>
 
 
 
@@ -87,5 +88,4 @@ If the window is not iconic, the return value is zero.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

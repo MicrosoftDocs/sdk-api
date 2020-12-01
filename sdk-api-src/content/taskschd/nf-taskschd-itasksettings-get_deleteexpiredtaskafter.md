@@ -60,15 +60,14 @@ This property is read/write.
 
 ## -remarks
 
-A task expires after the end boundary has been exceeded for all triggers associated with the task. The end boundary for a trigger is specified by the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_endboundary">EndBoundary</a> property inherited by all trigger interfaces.
+A task expires after the end boundary has been exceeded for all triggers associated with the task. The end boundary for a trigger is specified by the <a href="/windows/desktop/api/taskschd/nf-taskschd-itrigger-get_endboundary">EndBoundary</a> property inherited by all trigger interfaces.
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-deleteexpiredtaskafter-settingstype-element">DeleteExpiredTaskAfter (settingsType)</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-deleteexpiredtaskafter-settingstype-element">DeleteExpiredTaskAfter (settingsType)</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>

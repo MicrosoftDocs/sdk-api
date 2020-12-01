@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method sets the priority for the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/t">task</a>.
+This method sets the priority for the <a href="/windows/desktop/TaskSchd/t">task</a>.
 
 ## -parameters
 
@@ -111,15 +111,14 @@ After setting the priority of a task, call <b>IPersistFile::Save</b> to save the
 
 #### Examples
 
-For more information and an example of how to set the priority of  a task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/c-c-code-example-setting-task-priority">C/C++ Code Example: Setting Task Priority</a>.
+For more information and an example of how to set the priority of  a task, see <a href="/windows/desktop/TaskSchd/c-c-code-example-setting-task-priority">C/C++ Code Example: Setting Task Priority</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nf-mstask-itask-getpriority">GetPriority</a>
+<a href="/windows/desktop/api/mstask/nf-mstask-itask-getpriority">GetPriority</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
-
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>

@@ -56,11 +56,11 @@ Called by the Windows Biometric Framework to delete one or more templates from t
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param Identity [in]
 
-Pointer to a  <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains the GUID or SID of the template to delete.
+Pointer to a  <a href="/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure that contains the GUID or SID of the template to delete.
 
 ### -param SubFactor [in]
 
@@ -145,7 +145,7 @@ The <b>StorageContext</b> member of the pipeline object is <b>NULL</b> or the <b
 
 ## -remarks
 
-If the <b>Type</b> field of the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure pointed to by the <i>Identity</i> parameter is set to <b>WINBIO_IDENTITY_TYPE_WILDCARD</b> and the <i>SubFactor</i> parameter equals <b>WINBIO_SUBTYPE_ANY</b>, the storage adapter should delete all records from the database.
+If the <b>Type</b> field of the <a href="/windows/desktop/SecBioMet/winbio-identity">WINBIO_IDENTITY</a> structure pointed to by the <i>Identity</i> parameter is set to <b>WINBIO_IDENTITY_TYPE_WILDCARD</b> and the <i>SubFactor</i> parameter equals <b>WINBIO_SUBTYPE_ANY</b>, the storage adapter should delete all records from the database.
 
 <div class="alert"><b>Important</b>  <p class="note">Do not attempt to validate the value supplied for the <i>SubFactor</i> parameter. The Windows Biometrics Service will validate the supplied value before passing it through to your implementation. If the value is <b>WINBIO_SUBTYPE_NO_INFORMATION</b> or <b>WINBIO_SUBTYPE_ANY</b>, then validate where appropriate.
 
@@ -404,9 +404,8 @@ cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
+<a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_add_record_fn">StorageAdapterAddRecord</a>
-
+<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_add_record_fn">StorageAdapterAddRecord</a>

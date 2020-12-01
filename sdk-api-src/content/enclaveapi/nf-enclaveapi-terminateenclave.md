@@ -66,9 +66,8 @@ The base address of the enclave in which to end the execution of the threads.
 ## -returns
 
 <b>TRUE</b> if the function succeeds; otherwise <b>FALSE</b>.  To get extended error information, 
-       call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/enclaveapi/nf-enclaveapi-callenclave">CallEnclave</a>
-
+<a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-callenclave">CallEnclave</a>

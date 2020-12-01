@@ -67,7 +67,7 @@ A handle to a user object for which security information is set.
 
 ### -param pSIRequested [in]
 
-A pointer to a value that indicates the components of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> to set. This parameter can be a combination of the following values. 
+A pointer to a value that indicates the components of the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> to set. This parameter can be a combination of the following values. 
 
 
 
@@ -85,7 +85,7 @@ A pointer to a value that indicates the components of the <a href="https://docs.
 </dl>
 </td>
 <td width="60%">
-Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) of the object. The handle specified by <i>hObj</i>  must have WRITE_DAC access, or the calling <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">process</a> must be the owner of the object.
+Sets the <a href="/windows/desktop/SecGloss/d-gly">discretionary access control list</a> (DACL) of the object. The handle specified by <i>hObj</i>  must have WRITE_DAC access, or the calling <a href="/windows/desktop/SecGloss/p-gly">process</a> must be the owner of the object.
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">dis
 </dl>
 </td>
 <td width="60%">
-Sets the primary group <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the object.
+Sets the primary group <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) of the object.
 
 </td>
 </tr>
@@ -115,13 +115,13 @@ Sets the SID of the owner of the object. The handle specified by <i>hObj</i>  mu
 </dl>
 </td>
 <td width="60%">
-Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) of the object. The handle specified by <i>hObj</i>  must have ACCESS_SYSTEM_SECURITY access. 
+Sets the <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) of the object. The handle specified by <i>hObj</i>  must have ACCESS_SYSTEM_SECURITY access. 
 
 <p class="proch"><b>To obtain ACCESS_SYSTEM_SECURITY access</b>
 
 <ol>
 <li>Enable the SE_SECURITY_NAME 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/privileges">privilege</a> in the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access token</a> of the caller.</li>
+<a href="/windows/desktop/SecAuthZ/privileges">privilege</a> in the current <a href="/windows/desktop/SecGloss/a-gly">access token</a> of the caller.</li>
 <li>Open the handle for ACCESS_SYSTEM_SECURITY access. </li>
 <li>Disable the privilege.</li>
 </ol>
@@ -132,7 +132,7 @@ Sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">sys
 ### -param pSID [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the new security information. 
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the new security information. 
 
 
 
@@ -144,48 +144,47 @@ This buffer must be aligned on a 4-byte boundary.
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The <b>SetUserObjectSecurity</b> function applies changes specified in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> to the security descriptor assigned to a user object. The security descriptor of the object must be in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a> form. If necessary, this function allocates additional memory to increase the size of the security descriptor.
+The <b>SetUserObjectSecurity</b> function applies changes specified in a <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> to the security descriptor assigned to a user object. The security descriptor of the object must be in <a href="/windows/desktop/SecGloss/s-gly">self-relative</a> form. If necessary, this function allocates additional memory to increase the size of the security descriptor.
 
 
 #### Examples
 
-For an example that uses this function, see <a href="https://docs.microsoft.com/previous-versions/aa379608(v=vs.85)">Starting an Interactive Client Process</a>.
+For an example that uses this function, see <a href="/previous-versions/aa379608(v=vs.85)">Starting an Interactive Client Process</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity">GetUserObjectSecurity</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getuserobjectsecurity">GetUserObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
+<a href="/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setfilesecuritya">SetFileSecurity</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setfilesecuritya">SetFileSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity">SetKernelObjectSecurity</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setkernelobjectsecurity">SetKernelObjectSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a>
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a>

@@ -56,33 +56,32 @@ Details the adapter's support for prioritization of different command queue type
 
 ### -field CommandListType
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_In_</code>
 
 The type of the command list you're interested in.
 
 ### -field Priority
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_In_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_In_</code>
 
 The priority level you're interested in.
 
 ### -field PriorityForTypeIsSupported
 
-<a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
+<a href="/visualstudio/code-quality/annotating-structs-and-classes?view=vs-2015">SAL</a>: <code>_Out_</code>
 
 On return, contains true if the specfied command list type supports the specified priority level; otherwise, false.
 
 ## -remarks
 
-Use this structure with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> to determine the priority levels supported by various command queue types.
+Use this structure with <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> to determine the priority levels supported by various command queue types.
 
-See the enumeration constant <b>D3D12_FEATURE_COMMAND_QUEUE_PRIORITY</b> in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a> enumeration.
+See the enumeration constant <b>D3D12_FEATURE_COMMAND_QUEUE_PRIORITY</b> in the <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>
-
+<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE</a>

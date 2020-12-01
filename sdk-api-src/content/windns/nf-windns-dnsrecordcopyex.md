@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The 
-<b>DnsRecordCopyEx</b> function creates a copy of a specified <a href="https://docs.microsoft.com/windows/desktop/DNS/r-gly">resource record</a> (RR). The 
+<b>DnsRecordCopyEx</b> function creates a copy of a specified <a href="/windows/desktop/DNS/r-gly">resource record</a> (RR). The 
 <b>DnsRecordCopyEx</b> function is also capable of converting the character encoding during the copy operation.
 
 ## -parameters
@@ -62,11 +62,11 @@ A pointer to a <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_REC
 
 ### -param CharSetIn [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-dns_charset">DNS_CHARSET</a> value that specifies the character encoding of the source RR.
+A <a href="/windows/desktop/api/windns/ne-windns-dns_charset">DNS_CHARSET</a> value that specifies the character encoding of the source RR.
 
 ### -param CharSetOut [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/windns/ne-windns-dns_charset">DNS_CHARSET</a> value that specifies the character encoding required of the destination record.
+A <a href="/windows/desktop/api/windns/ne-windns-dns_charset">DNS_CHARSET</a> value that specifies the character encoding required of the destination record.
 
 ## -returns
 
@@ -82,5 +82,4 @@ The <i>CharSetIn</i> parameter is used only if the character encoding of the sou
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordsetcopyex">DnsRecordSetCopyEx</a>
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsrecordsetcopyex">DnsRecordSetCopyEx</a>

@@ -18,5 +18,4 @@ To develop Windows Messenger, you need these headers:
  * [comsvcs.h](../comsvcs/index.md)
 
 For programming guidance for this technology, see:
-* [Windows Messenger](https://docs.microsoft.com/previous-versions/windows/desktop/winmessenger)
-
+* [Windows Messenger](/previous-versions/windows/desktop/winmessenger)

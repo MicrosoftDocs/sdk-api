@@ -200,12 +200,12 @@ If the AM_SEEKING_ReturnTime flag is specified, the method converts the position
 The AM_SEEKING_Segment and AM_SEEKING_NoFlush flags support seamless looping:
 
 <ul>
-<li>If the AM_SEEKING_Segment flag is present, the source filter sends an <a href="https://docs.microsoft.com/windows/desktop/DirectShow/ec-end-of-segment">EC_END_OF_SEGMENT</a> event when it reaches the stop position, instead of calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-endofstream">IPin::EndOfStream</a>. The application can wait for this event and then issue another seek command.</li>
+<li>If the AM_SEEKING_Segment flag is present, the source filter sends an <a href="/windows/desktop/DirectShow/ec-end-of-segment">EC_END_OF_SEGMENT</a> event when it reaches the stop position, instead of calling <a href="/windows/desktop/api/strmif/nf-strmif-ipin-endofstream">IPin::EndOfStream</a>. The application can wait for this event and then issue another seek command.</li>
 <li>If the AM_SEEKING_NoFlush flag is present, the graph does not flush data during the seek. Use this flag with AM_SEEKING_Segment.</li>
 </ul>
-To perform looping, the graph must report AM_SEEKING_CanDoSegments in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcapabilities">IMediaSeeking::GetCapabilities</a> method. Currently, only the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wave-parser-filter">WAVE Parser Filter</a> supports this feature.
+To perform looping, the graph must report AM_SEEKING_CanDoSegments in the <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcapabilities">IMediaSeeking::GetCapabilities</a> method. Currently, only the <a href="/windows/desktop/DirectShow/wave-parser-filter">WAVE Parser Filter</a> supports this feature.
 
-The incoming values of <i>pCurrent</i> and <i>pStop</i> are expressed in the current time format. The default time format is <a href="https://docs.microsoft.com/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> units (100 nanoseconds). To change time formats, use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-settimeformat">IMediaSeeking::SetTimeFormat</a> method. If the AM_SEEKING_ReturnTime flag is present, the method converts the outgoing value to <b>REFERENCE_TIME</b> units.
+The incoming values of <i>pCurrent</i> and <i>pStop</i> are expressed in the current time format. The default time format is <a href="/windows/desktop/DirectShow/reference-time">REFERENCE_TIME</a> units (100 nanoseconds). To change time formats, use the <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-settimeformat">IMediaSeeking::SetTimeFormat</a> method. If the AM_SEEKING_ReturnTime flag is present, the method converts the outgoing value to <b>REFERENCE_TIME</b> units.
 
 <h3><a id="Filter_Developers"></a><a id="filter_developers"></a><a id="FILTER_DEVELOPERS"></a>Filter Developers</h3>
 If you implement this method, you can check whether the caller is requesting a change in the current or stop position, by using the value AM_SEEKING_PositioningBitsMask to mask out the modifier flags. For example:
@@ -231,13 +231,12 @@ else if (dwCurrentPos == AM_SEEKING_RelativePositioning)
 </td>
 </tr>
 </table></span></div>
-For more information, see the source code for the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/csourceseeking-setpositions">CSourceSeeking::SetPositions</a> method in the base class library.
+For more information, see the source code for the <a href="/windows/desktop/DirectShow/csourceseeking-setpositions">CSourceSeeking::SetPositions</a> method in the base class library.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>

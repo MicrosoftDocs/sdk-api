@@ -57,7 +57,7 @@ Sets the length of the valid data in the buffer.
 
 ### -param cbCurrentLength [in]
 
-Length of the valid data, in bytes. This value cannot be greater than the allocated size of the buffer, which is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getmaxlength">IMFMediaBuffer::GetMaxLength</a> method.
+Length of the valid data, in bytes. This value cannot be greater than the allocated size of the buffer, which is returned by the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-getmaxlength">IMFMediaBuffer::GetMaxLength</a> method.
 
 ## -returns
 
@@ -105,9 +105,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
+<a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediabuffer">IMFMediaBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-buffers">Media Buffers</a>
-
+<a href="/windows/desktop/medfound/media-buffers">Media Buffers</a>

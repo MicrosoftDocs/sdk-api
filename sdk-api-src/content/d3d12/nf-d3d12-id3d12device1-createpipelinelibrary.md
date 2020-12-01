@@ -49,7 +49,7 @@ api_name:
 
 Creates a cached pipeline library. For pipeline state objects (PSOs) that are expected to share data together, grouping them into a library before serializing them means that there's less overhead due to metadata, as well as the opportunity to avoid redundant or duplicated data from being written to disk.
 
-You can query for **ID3D12PipelineLibrary** support with <b><a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">ID3D12Device::CheckFeatureSupport</a></b>, with <b><a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE_SHADER_CACHE</a></b> and <b><a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_shader_cache>D3D12_FEATURE_DATA_SHADER_CACHE</a></b>. If the *Flags* member of <b><a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_shader_cache>D3D12_FEATURE_DATA_SHADER_CACHE</a></b> contains the flag <b><a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_support_flags>D3D12_SHADER_CACHE_SUPPORT_LIBRARY</a></b>, the **ID3D12PipelineLibrary** interface is supported. If not, **DXGI_ERROR_NOT_SUPPORTED** will always be returned when this function is called.
+You can query for **ID3D12PipelineLibrary** support with <b><a href="/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">ID3D12Device::CheckFeatureSupport</a></b>, with <b><a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_feature">D3D12_FEATURE_SHADER_CACHE</a></b> and <b><a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_shader_cache">D3D12_FEATURE_DATA_SHADER_CACHE</a></b>. If the *Flags* member of <b><a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_shader_cache">D3D12_FEATURE_DATA_SHADER_CACHE</a></b> contains the flag <b><a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_support_flags">D3D12_SHADER_CACHE_SUPPORT_LIBRARY</a></b>, the **ID3D12PipelineLibrary** interface is supported. If not, **DXGI_ERROR_NOT_SUPPORTED** will always be returned when this function is called.
 
 ## -parameters
 
@@ -69,7 +69,7 @@ Specifies the length of *pLibraryBlob* in bytes.
 
 Type: **REFIID**
 
-Specifies a unique REFIID for the [ID3D12PipelineLibrary](/windows/win32/api/d3d12/nn-d3d12-id3d12pipelinelibrary) object. Typically set this and the following parameter with the macro `IID_PPV_ARGS(&Library)`, where **Library** is the name of the object.
+Specifies a unique REFIID for the [ID3D12PipelineLibrary](./nn-d3d12-id3d12pipelinelibrary.md) object. Typically set this and the following parameter with the macro `IID_PPV_ARGS(&Library)`, where **Library** is the name of the object.
 
 ### -param ppPipelineLibrary [out]
 
@@ -148,4 +148,3 @@ Create a PSO library using data loaded off of disk and retrieve PSOs out of it. 
 ## -see-also
 
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>, <a href="https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12PipelineStateCache">Pipleline State Cache sample</a>
-

@@ -185,10 +185,9 @@ One or more parameters are invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilemgr">ITfInputProcessorProfileMgr</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofilemgr">ITfInputProcessorProfileMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-activateprofile">ITfInputProcessorProfileMgr::ActivateProfile
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofilemgr-activateprofile">ITfInputProcessorProfileMgr::ActivateProfile
       </a>
-

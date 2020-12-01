@@ -63,7 +63,7 @@ Reserved. Set to null.
 ### -param pwcArg [in]
 
 A token to match. The <i>pwcArg</i> parameter is usually an entry in the <i>ppwcArguments</i> array passed into the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-fn_handle_cmd">FN_HANDLE_CMD</a> function exposed by the helper (the command function).
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-fn_handle_cmd">FN_HANDLE_CMD</a> function exposed by the helper (the command function).
 
 ### -param dwNumArg [in]
 
@@ -79,5 +79,4 @@ Upon success, the <i>pdwValue</i> parameter is filled with the value associated 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netsh/nc-netsh-fn_handle_cmd">FN_HANDLE_CMD</a>
-
+<a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-fn_handle_cmd">FN_HANDLE_CMD</a>

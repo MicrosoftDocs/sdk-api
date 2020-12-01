@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-The <b>VMR9AlphaBitmap</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmixerbitmap9">IVMRMixerBitmap9</a> interface when an application provides a static bitmap for alpha blending with the video frame.
+The <b>VMR9AlphaBitmap</b> structure is used with the <a href="/windows/desktop/api/vmr9/nn-vmr9-ivmrmixerbitmap9">IVMRMixerBitmap9</a> interface when an application provides a static bitmap for alpha blending with the video frame.
 
 ## -struct-fields
 
 ### -field dwFlags
 
-Bitwise <b>OR</b> of flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9alphabitmapflags">VMR9AlphaBitmapFlags</a> enumeration type.
+Bitwise <b>OR</b> of flags from the <a href="/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9alphabitmapflags">VMR9AlphaBitmapFlags</a> enumeration type.
 
 ### -field hdc
 
@@ -72,9 +72,9 @@ Pointer to the <b>IDirect3DSurface9</b> interface of a Direct3D surface that con
 
 Specifies the rectangle to copy from the source image. This rectangle is specified relative to the GDI device context or the DirectDraw surface.
 
-When calling <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixerbitmap9-setalphabitmap">IVMRMixerBitmap9::SetAlphaBitmap</a>, the source rectangle must be valid if a GDI bitmap is specified in the <b>hdc</b> member. On the other hand, if a Direct3D surface is specified in the <b>pDDS</b> member, then you can either set <b>rSrc</b> to a valid rectangle, or use the entire surface by setting the VMR9AlphaBitmap_EntireDDS flag in <b>dwFlags</b>.
+When calling <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmixerbitmap9-setalphabitmap">IVMRMixerBitmap9::SetAlphaBitmap</a>, the source rectangle must be valid if a GDI bitmap is specified in the <b>hdc</b> member. On the other hand, if a Direct3D surface is specified in the <b>pDDS</b> member, then you can either set <b>rSrc</b> to a valid rectangle, or use the entire surface by setting the VMR9AlphaBitmap_EntireDDS flag in <b>dwFlags</b>.
 
-When calling <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmixerbitmap9-updatealphabitmapparameters">IVMRMixerBitmap9::UpdateAlphaBitmapParameters</a>, <b>rSrc</b> is always optional, and is used if <b>dwFlags</b> contains the VMR9AlphaBitmap_SrcRect flag.
+When calling <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmixerbitmap9-updatealphabitmapparameters">IVMRMixerBitmap9::UpdateAlphaBitmapParameters</a>, <b>rSrc</b> is always optional, and is used if <b>dwFlags</b> contains the VMR9AlphaBitmap_SrcRect flag.
 
 ### -field rDest
 
@@ -90,7 +90,7 @@ Specifies the source color key. This value is used if the <b>dwFlags</b> member 
 
 ### -field dwFilterMode
 
-One of the following flags from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9mixerprefs">VMR9MixerPrefs</a> enumeration, or zero to specify no filtering.
+One of the following flags from the <a href="/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9mixerprefs">VMR9MixerPrefs</a> enumeration, or zero to specify no filtering.
 
 <table>
 <tr>
@@ -164,13 +164,12 @@ Point filtering is particularly useful for images that contain text and do not n
 To get the HDC for a GDI bitmap, do the following:
 
 <ol>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a> to get the device context for the application's video window.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc">CreateCompatibleDC</a> to create a compatible device context.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> to select the bitmap into the device context obtained in the previous step.</li>
+<li>Call <a href="/windows/desktop/api/winuser/nf-winuser-getdc">GetDC</a> to get the device context for the application's video window.</li>
+<li>Call <a href="/windows/desktop/api/wingdi/nf-wingdi-createcompatibledc">CreateCompatibleDC</a> to create a compatible device context.</li>
+<li>Call <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a> to select the bitmap into the device context obtained in the previous step.</li>
 </ol>
-When you are done, release the device context by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>.
+When you are done, release the device context by calling <a href="/windows/desktop/api/wingdi/nf-wingdi-deletedc">DeleteDC</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

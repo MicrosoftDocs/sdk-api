@@ -56,11 +56,11 @@ Registers a provider callback with the multicast server.
 
 ### -param hProvider [in]
 
-Handle to the provider. This handle was given to the provider in the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderinitialize">WdsTransportProviderInitialize</a> function.
+Handle to the provider. This handle was given to the provider in the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderinitialize">WdsTransportProviderInitialize</a> function.
 
 ### -param CallbackId [in]
 
-The value of this parameter is a <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/ne-wdstpdi-transportprovider_callback_id">TRANSPORTPROVIDER_CALLBACK_ID</a> structure.
+The value of this parameter is a <a href="/windows/desktop/api/wdstpdi/ne-wdstpdi-transportprovider_callback_id">TRANSPORTPROVIDER_CALLBACK_ID</a> structure.
 
 ### -param pfnCallback [in]
 
@@ -69,4 +69,3 @@ Pointer to the function pointer associated with this id.
 ## -returns
 
 If the function succeeds, the return is <b>S_OK</b>.
-

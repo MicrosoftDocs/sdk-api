@@ -155,19 +155,18 @@ The peer identity cannot be created because there are too many peer identities.
 
 The key pair and the classifier are used to generate the peer name of a new peer identity.  After an peer identity is created, it is automatically stored on the disk.
 
-The name of the identity should be freed by using <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.  This does not delete the peer identity.  To delete the identity, use <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitydelete">PeerIdentityDelete</a> function.
+The name of the identity should be freed by using <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.  This does not delete the peer identity.  To delete the identity, use <a href="/windows/desktop/api/p2p/nf-p2p-peeridentitydelete">PeerIdentityDelete</a> function.
 
-If <i>hCryptProv</i> is not <b>NULL</b>, it can be released by using <a href="https://docs.microsoft.com/windows/desktop/P2PSdk/identity-manager-reference-links">CryptReleaseContext</a> after the call returns.
+If <i>hCryptProv</i> is not <b>NULL</b>, it can be released by using <a href="/windows/desktop/P2PSdk/identity-manager-reference-links">CryptReleaseContext</a> after the call returns.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/identity-manager-reference-links">CryptReleaseContext</a>
+<a href="/windows/desktop/P2PSdk/identity-manager-reference-links">CryptReleaseContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentitydelete">PeerIdentityDelete</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peeridentitydelete">PeerIdentityDelete</a>

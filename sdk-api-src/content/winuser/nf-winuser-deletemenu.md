@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
  - DeleteMenu
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # DeleteMenu function
@@ -111,16 +112,16 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The application must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
+The application must call the <a href="/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a> function whenever a menu changes, whether the menu is in a displayed window. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/using-the-clipboard">Example of a Clipboard Viewer</a>.
+For an example, see <a href="/windows/desktop/dataxchg/using-the-clipboard">Example of a Clipboard Viewer</a>.
 
 <div class="code"></div>
 
@@ -130,11 +131,11 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawmenubar">DrawMenuBar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -142,5 +143,4 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-removemenu">RemoveMenu</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-removemenu">RemoveMenu</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a> interface is no longer available for use for UWP applications as of Windows 10, version 1709. It is still supported for Desktop apps.]
+<p class="CCE_Message">[The <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a> interface is no longer available for use for UWP applications as of Windows 10, version 1709. It is still supported for Desktop apps.]
 
 Initiates a listener for accepting reverse connections from the sharer to the viewer, or obtains the connection string that the sharer uses to reverse connect to the viewer.
 
@@ -78,7 +78,7 @@ The password to use for authentication.
 
 Type: <b>BSTR*</b>
 
-A pointer to a <b>BSTR</b> that receives the connection string that the sharer can use to reverse connect to the viewer by using the <a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-connecttoclient">IRDPSRAPISharingSession::ConnectToClient</a> method.
+A pointer to a <b>BSTR</b> that receives the connection string that the sharer can use to reverse connect to the viewer by using the <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapisharingsession-connecttoclient">IRDPSRAPISharingSession::ConnectToClient</a> method.
 
 ## -returns
 
@@ -104,5 +104,4 @@ The normal sequence of events for this procedure is as follows:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a>
-
+<a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a>

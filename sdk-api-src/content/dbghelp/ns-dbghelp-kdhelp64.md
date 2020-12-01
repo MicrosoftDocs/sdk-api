@@ -129,7 +129,7 @@ This member is reserved for use by the operating system.
 ## -remarks
 
 This structure supersedes the <b>KDHELP</b> structure. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>KDHELP</b> is defined as follows in Dbghelp.h. 
+<a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>KDHELP</b> is defined as follows in Dbghelp.h. 
 
 
 ```cpp
@@ -156,5 +156,4 @@ typedef struct _KDHELP {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a>
-
+<a href="/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a>

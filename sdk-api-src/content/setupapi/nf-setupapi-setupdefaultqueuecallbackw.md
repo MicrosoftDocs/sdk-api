@@ -46,6 +46,7 @@ api_name:
  - SetupDefaultQueueCallback
  - SetupDefaultQueueCallbackA
  - SetupDefaultQueueCallbackW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupDefaultQueueCallbackW function
@@ -57,15 +58,15 @@ api_name:
 
 The 
 <b>SetupDefaultQueueCallback</b> function is the default queue callback routine included with the Setup API. You can use it to process notifications sent by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a> function.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a> function.
 
 ## -parameters
 
 ### -param Context [in]
 
 Pointer to the context initialized by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallback">SetupInitDefaultQueueCallback</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallbackex">SetupInitDefaultQueueCallbackEx</a> functions.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallback">SetupInitDefaultQueueCallback</a> or 
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinitdefaultqueuecallbackex">SetupInitDefaultQueueCallbackEx</a> functions.
 
 ### -param Notification [in]
 
@@ -261,7 +262,7 @@ Additional message information. The content of this parameter depends on the val
 ## -returns
 
 Returns an unsigned integer to 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a> that can be the one of the values shown in the following table.
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a> that can be the one of the values shown in the following table.
 
 <table>
 <tr>
@@ -327,7 +328,7 @@ Gets a new path for the operation.
  
 
 To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -336,7 +337,7 @@ The
 <b>SetupDefaultQueueCallback</b> function to handle the rest of the notifications.
 
 For more information see, 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/queue-notifications">Queue Notifications</a>.
+<a href="/windows/desktop/SetupApi/queue-notifications">Queue Notifications</a>.
 
 
 
@@ -347,13 +348,12 @@ For more information see,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>

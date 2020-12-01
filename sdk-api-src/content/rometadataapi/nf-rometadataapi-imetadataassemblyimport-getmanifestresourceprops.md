@@ -80,7 +80,7 @@ A pointer to a value that specifies the offset to the beginning of the resource 
 
 ### -param pdwResourceFlags [out]
 
-A pointer to flags that describe the metadata applied to a resource. The flags value is a combination of one or more <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/cormanifestresourceflags-enumeration">CorManifestResourceFlags</a> values.
+A pointer to flags that describe the metadata applied to a resource. The flags value is a combination of one or more <a href="/dotnet/framework/unmanaged-api/metadata/cormanifestresourceflags-enumeration">CorManifestResourceFlags</a> values.
 
 ## -returns
 
@@ -88,5 +88,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>

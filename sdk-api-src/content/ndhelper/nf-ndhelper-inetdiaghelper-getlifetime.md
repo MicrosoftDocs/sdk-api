@@ -56,7 +56,7 @@ The <b>GetLifeTime</b> method retrieves the lifetime of the Helper Class Extensi
 
 ### -param pLifeTime [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-life_time">LIFE_TIME</a> structure.
+A pointer to a <a href="/windows/desktop/api/ndattrib/ns-ndattrib-life_time">LIFE_TIME</a> structure.
 
 ## -returns
 
@@ -146,5 +146,4 @@ For example, Windows Filtering Platform (WFP) helper classes use lifetime to det
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
-
+<a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>

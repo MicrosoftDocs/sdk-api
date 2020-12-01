@@ -57,11 +57,11 @@ Gets the buffer requirements and other information for an output stream on this 
 
 ### -param dwOutputStreamID [in]
 
-Output stream identifier. To get the list of stream identifiers, call <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamids">IMFTransform::GetStreamIDs</a>.
+Output stream identifier. To get the list of stream identifiers, call <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getstreamids">IMFTransform::GetStreamIDs</a>.
 
 ### -param pStreamInfo [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/ns-mftransform-mft_output_stream_info">MFT_OUTPUT_STREAM_INFO</a> structure. The method fills the structure with information about the output stream.
+Pointer to an <a href="/windows/desktop/api/mftransform/ns-mftransform-mft_output_stream_info">MFT_OUTPUT_STREAM_INFO</a> structure. The method fills the structure with information about the output stream.
 
 ## -returns
 
@@ -101,15 +101,14 @@ Invalid stream number.
 
 ## -remarks
 
-It is valid to call this method before setting the media types. Note that the results of this call can change dynamically after the media type changes and after <a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a> is called, so you may need to call this method again after either of these occur.
+It is valid to call this method before setting the media types. Note that the results of this call can change dynamically after the media type changes and after <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput">ProcessOutput</a> is called, so you may need to call this method again after either of these occur.
 
-If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetOutputStreamInfo</b>. See <a href="https://docs.microsoft.com/windows/desktop/medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
+If <b>MFT_UNIQUE_METHOD_NAMES</b> is defined before including mftransform.h, this method is renamed <b>MFTGetOutputStreamInfo</b>. See <a href="/windows/desktop/medfound/comparison-of-mfts-and-dmos">Creating Hybrid DMO/MFT Objects</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
+<a href="/windows/desktop/api/mftransform/nn-mftransform-imftransform">IMFTransform</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>
-
+<a href="/windows/desktop/medfound/media-foundation-transforms">Media Foundation Transforms</a>

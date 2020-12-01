@@ -57,7 +57,7 @@ The
 
 ### -param hInstall [in]
 
-Handle to the installation provided to a DLL custom action or obtained through <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
+Handle to the installation provided to a DLL custom action or obtained through <a href="/windows/desktop/api/msi/nf-msi-msiopenpackagea">MsiOpenPackage</a>, <a href="/windows/desktop/api/msi/nf-msi-msiopenpackageexa">MsiOpenPackageEx</a>, or <a href="/windows/desktop/api/msi/nf-msi-msiopenproducta">MsiOpenProduct</a>.
 
 ### -param eRunMode [in]
 
@@ -157,7 +157,7 @@ A reboot is necessary to continue the installation (settable).
 </td>
 <td width="60%">
 Files from cabinets and 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/media-table">Media table</a> files are installing.
+<a href="/windows/desktop/Msi/media-table">Media table</a> files are installing.
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ The source LongFileNames is suppressed through the PID_MSISOURCE summary propert
 </dl>
 </td>
 <td width="60%">
-The target LongFileNames is suppressed through the <a href="https://docs.microsoft.com/windows/desktop/Msi/shortfilenames">SHORTFILENAMES</a> property.
+The target LongFileNames is suppressed through the <a href="/windows/desktop/Msi/shortfilenames">SHORTFILENAMES</a> property.
 
 </td>
 </tr>
@@ -273,9 +273,8 @@ A custom action called from commit execution script.
 
 Note that not all the run mode values of <i>iRunMode </i>are available when calling 
 <b>MsiGetMode</b> from a deferred custom action. For details, see 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/obtaining-context-information-for-deferred-execution-custom-actions">Obtaining Context Information for Deferred Execution Custom Actions</a>.
+<a href="/windows/desktop/Msi/obtaining-context-information-for-deferred-execution-custom-actions">Obtaining Context Information for Deferred Execution Custom Actions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">Installer State Access Functions</a>
-
+<a href="/windows/desktop/Msi/database-functions">Installer State Access Functions</a>

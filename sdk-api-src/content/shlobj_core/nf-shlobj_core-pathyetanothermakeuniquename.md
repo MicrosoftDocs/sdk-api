@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - PathYetAnotherMakeUniqueName
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # PathYetAnotherMakeUniqueName function
@@ -92,5 +93,4 @@ If the generated path exceeds MAX_PATH characters, this function may return a tr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pathmakeuniquename">PathMakeUniqueName</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pathmakeuniquename">PathMakeUniqueName</a>

@@ -62,24 +62,23 @@ Creates a new power request object.
 
 ### -param Context [in]
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-reason_context">REASON_CONTEXT</a> structure that contains information about the power request.
+Points to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-reason_context">REASON_CONTEXT</a> structure that contains information about the power request.
 
 ## -returns
 
 If the function succeeds, the return value is a handle to the power request object.
 
 If the function fails, the return value is INVALID_HANDLE_VALUE. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-When the power request object is no longer needed, use the <a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to free the handle and clean up the object.
+When the power request object is no longer needed, use the <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function to free the handle and clean up the object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powersetrequest">PowerSetRequest</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-powersetrequest">PowerSetRequest</a>

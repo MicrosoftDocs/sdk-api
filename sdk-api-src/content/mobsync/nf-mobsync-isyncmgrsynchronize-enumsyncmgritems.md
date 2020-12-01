@@ -51,16 +51,16 @@ api_name:
 ## -description
 
 Obtains the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface for the items that are handled by a registered application.
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface for the items that are handled by a registered application.
 
 ## -parameters
 
 ### -param ppSyncMgrEnumItems [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a>**</b>
+Type: <b><a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a>**</b>
 
 The address of the variable that receives a pointer to a valid 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface.
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface.
 
 ## -returns
 
@@ -100,13 +100,12 @@ The enumeration interface object is returned successfully, but some items are mi
 ## -remarks
 
 The enumeration object that this method creates implements the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface, which is a standard enumeration interface that contains the <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-next">Next</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-reset">Reset</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-clone">Clone</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-skip">Skip</a> methods.
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a> interface, which is a standard enumeration interface that contains the <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-next">Next</a>, <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-reset">Reset</a>, <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-clone">Clone</a>, and <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrenumitems-skip">Skip</a> methods.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a>
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrenumitems">ISyncMgrEnumItems</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>
-
+<a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronize">ISyncMgrSynchronize</a>

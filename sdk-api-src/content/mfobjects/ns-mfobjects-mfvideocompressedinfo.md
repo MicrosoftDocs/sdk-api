@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information about a video compression format. This structure is used in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure.
+Contains information about a video compression format. This structure is used in the <a href="/windows/desktop/api/mfobjects/ns-mfobjects-mfvideoformat">MFVIDEOFORMAT</a> structure.
 
 ## -struct-fields
 
@@ -74,9 +74,8 @@ For uncompressed video formats, set the structure members to zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
+<a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-types">Media Types</a>
-
+<a href="/windows/desktop/medfound/media-types">Media Types</a>

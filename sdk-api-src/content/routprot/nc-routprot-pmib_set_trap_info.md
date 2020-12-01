@@ -53,7 +53,7 @@ api_name:
 The 
 <i>MibSetTrapInfo</i> function passes in a handle to an event which is signaled whenever a TRAP needs to be issued.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PMIP_SET_TRAP_INFO</a> type defines a pointer to this callback function. <i>MibSetTrapInfo</i> is a placeholder for the application-defined function name.
+The <a href="/windows/desktop/api/routprot/ns-routprot-mpr50_routing_characteristics">PMIP_SET_TRAP_INFO</a> type defines a pointer to this callback function. <i>MibSetTrapInfo</i> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -118,5 +118,4 @@ Insufficient resources to complete the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/routprot/nc-routprot-pmib_get_trap_info">MibGetTrapInfo</a>
-
+<a href="/windows/desktop/api/routprot/nc-routprot-pmib_get_trap_info">MibGetTrapInfo</a>

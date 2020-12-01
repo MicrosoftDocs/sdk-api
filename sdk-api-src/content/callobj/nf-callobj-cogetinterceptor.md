@@ -60,7 +60,7 @@ A reference to the identifier of the interface for which an interceptor is to be
 
 ### -param punkOuter [in]
 
-If this parameter is <b>NULL</b>, the object is not being created as part of an aggregate. Otherwise, this parameter is a pointer to the aggregate object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface (the controlling <b>IUnknown</b>).
+If this parameter is <b>NULL</b>, the object is not being created as part of an aggregate. Otherwise, this parameter is a pointer to the aggregate object's <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface (the controlling <b>IUnknown</b>).
 
 ### -param iid [in]
 
@@ -105,21 +105,20 @@ An unexpected error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframeevents">ICallFrameEvents</a>
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframeevents">ICallFrameEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallinterceptor">ICallInterceptor</a>
+<a href="/windows/desktop/api/callobj/nn-callobj-icallinterceptor">ICallInterceptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallunmarshal">ICallUnmarshal</a>
+<a href="/windows/desktop/api/callobj/nn-callobj-icallunmarshal">ICallUnmarshal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurrogateService</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurrogateService</a>

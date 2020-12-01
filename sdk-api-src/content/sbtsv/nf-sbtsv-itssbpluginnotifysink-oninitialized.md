@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-initialize">Initialize</a>.
+Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-initialize">Initialize</a>.
 
 ## -parameters
 
 ### -param hr [in]
 
-Specifies the result of the call to <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-initialize">Initialize</a>.
+Specifies the result of the call to <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbplugin-initialize">Initialize</a>.
 
 ## -returns
 
@@ -68,5 +68,4 @@ Plug-ins should call this method after they complete their initialization proces
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbpluginnotifysink">ITsSbPluginNotifySink</a>
-
+<a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbpluginnotifysink">ITsSbPluginNotifySink</a>

@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>get_ConfigurableItems</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-configurableitems">ConfigurableItems</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object.
+<a href="/windows/desktop/Msi/merge-configurableitems">ConfigurableItems</a> property of the 
+<a href="/windows/desktop/Msi/merge-object">Merge</a> object.
 
 ## -parameters
 
@@ -107,5 +107,4 @@ The function succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

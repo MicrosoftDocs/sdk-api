@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Removes a column from a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-deletecolumn">LVM_DELETECOLUMN</a> message explicitly.
+Removes a column from a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-deletecolumn">LVM_DELETECOLUMN</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -68,5 +68,4 @@ An index of the column to delete.
 
 ## -remarks
 
-Deleting column zero of a list-view control is supported only in ComCtl32.dll version 6 and later. Version 5 also supports deleting column zero, but only  after you use <a href="https://docs.microsoft.com/windows/desktop/Controls/ccm-setversion">CCM_SETVERSION</a> to set the version to 5 or later. In versions prior to version 5, if you must delete column zero, insert a zero length dummy column zero and delete column one and above.
-
+Deleting column zero of a list-view control is supported only in ComCtl32.dll version 6 and later. Version 5 also supports deleting column zero, but only  after you use <a href="/windows/desktop/Controls/ccm-setversion">CCM_SETVERSION</a> to set the version to 5 or later. In versions prior to version 5, if you must delete column zero, insert a zero length dummy column zero and delete column one and above.

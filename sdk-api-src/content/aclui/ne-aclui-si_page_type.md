@@ -59,22 +59,22 @@ The <b>SI_PAGE_TYPE</b> enumeration contains values that indicate the types of p
 ### -field SI_PAGE_PERM
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/basic-security-property-page">basic security property page</a> for editing the object's DACL.
+<a href="/windows/desktop/SecAuthZ/basic-security-property-page">basic security property page</a> for editing the object's DACL.
 
 ### -field SI_PAGE_ADVPERM
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/permissions-property-page">Permissions</a> tab for advanced editing of the object's DACL, such as editing object-specific ACEs.
+<a href="/windows/desktop/SecAuthZ/permissions-property-page">Permissions</a> tab for advanced editing of the object's DACL, such as editing object-specific ACEs.
 
 ### -field SI_PAGE_AUDIT
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/auditing-property-page">Auditing</a> tab for editing the object's SACL.
+<a href="/windows/desktop/SecAuthZ/auditing-property-page">Auditing</a> tab for editing the object's SACL.
 
 ### -field SI_PAGE_OWNER
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/owner-property-page">Owner</a> tab for editing the object's owner.
+<a href="/windows/desktop/SecAuthZ/owner-property-page">Owner</a> tab for editing the object's owner.
 
 ### -field SI_PAGE_EFFECTIVE
 
@@ -88,13 +88,12 @@ A dialog box for changing the owner of the object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
+<a href="/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-enumerations">Authorization Enumerations</a>
+<a href="/windows/desktop/SecAuthZ/authorization-enumerations">Authorization Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nf-aclui-isecurityinformation-propertysheetpagecallback">ISecurityInformation::PropertySheetPageCallback</a>
-
+<a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-propertysheetpagecallback">ISecurityInformation::PropertySheetPageCallback</a>

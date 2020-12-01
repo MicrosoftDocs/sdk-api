@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>CREDSPP_SUBMIT_TYPE</b> enumeration specifies the type of credentials specified by a <a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-credssp_cred">CREDSSP_CRED</a> structure.
+The <b>CREDSPP_SUBMIT_TYPE</b> enumeration specifies the type of credentials specified by a <a href="/windows/desktop/api/credssp/ns-credssp-credssp_cred">CREDSSP_CRED</a> structure.
 
 ## -enum-fields
 
@@ -78,5 +78,4 @@ The credentials contain both certificate and Schannel credentials.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credssp/ns-credssp-credssp_cred">CREDSSP_CRED</a>
-
+<a href="/windows/desktop/api/credssp/ns-credssp-credssp_cred">CREDSSP_CRED</a>

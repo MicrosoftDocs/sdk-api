@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>Gets an HUIANODE from a <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a> type.
+<div class="alert"><b>Note</b>  This function is deprecated. Client applications should use the Microsoft UI Automation Component Object Model (COM) interfaces instead.</div><div> </div>Gets an HUIANODE from a <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a> type.
 
 ## -parameters
 
 ### -param pvar [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>*</b>
+Type: <b><a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>*</b>
 
 The node.
 
@@ -69,7 +69,6 @@ The address of a variable that receives the HUIANODE.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 Returns S_OK if successful or an error value otherwise.
-

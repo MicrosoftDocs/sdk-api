@@ -86,12 +86,12 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status is set to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
 For the implications of overlapped I/O on this operation, see the Remarks section of 
-[DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol).
+[DeviceIoControl](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol).
 
 In Windows 8 and Windows Server 2012, this code is supported by the following technologies.
 
@@ -112,5 +112,4 @@ CsvFs does not support reparse points.
 * [FSCTL_DELETE_REPARSE_POINT](ni-winioctl-fsctl_delete_reparse_point.md)
 * [FSCTL_SET_REPARSE_POINT](ni-winioctl-fsctl_set_reparse_point.md)
 * [REPARSE_GUID_DATA_BUFFER](../winnt/ns-winnt-reparse_guid_data_buffer.md)
-* [Reparse Points](https://docs.microsoft.com/windows/desktop/FileIO/reparse-points)
-
+* [Reparse Points](/windows/desktop/FileIO/reparse-points)

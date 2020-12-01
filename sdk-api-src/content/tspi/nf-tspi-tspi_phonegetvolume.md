@@ -62,7 +62,7 @@ The handle to the phone containing the hookswitch device whose volume setting is
 ### -param dwHookSwitchDev
 
 Identifies a single hookswitch device whose volume level is queried. This parameter uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ constants</a>.
+<a href="/windows/desktop/Tapi/phonehookswitchdev--constants">PHONEHOOKSWITCHDEV_ constants</a>.
 
 ### -param lpdwVolume
 
@@ -76,13 +76,12 @@ PHONEERR_INVALPHONEHANDLE, PHONEERR_RESOURCEUNAVAIL, PHONEERR_INVALPHONESTATE, P
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesetvolume">TSPI_phoneSetVolume</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonesetvolume">TSPI_phoneSetVolume</a>

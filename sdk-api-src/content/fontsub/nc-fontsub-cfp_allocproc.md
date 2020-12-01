@@ -45,18 +45,13 @@ api_name:
  - CFP_ALLOCPROC
 ---
 
-# CFP_ALLOCPROC callback function
-
-
 ## -description
 
-Client-provided callback function, used by <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a> to allocate memory.
+Client-provided callback function, used by <a href="/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a> and <a href="/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a> to allocate memory.
 
 ## -parameters
 
 ### -param Arg1
-
-#### - size [in]
 
 Number of bytes to allocate.
 
@@ -66,21 +61,20 @@ Returns a void pointer to the allocated space, or <b>NULL</b> if there is insuff
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/6ewkz86d(v=vs.100)">malloc</a> conforms to this type; the application can either use <b>malloc</b> or a more specialized function for memory allocation. Whatever function is chosen, there must also be appropriate functions to reallocate and to free this memory.
+<a href="/previous-versions/visualstudio/visual-studio-2010/6ewkz86d(v=vs.100)">malloc</a> conforms to this type; the application can either use <b>malloc</b> or a more specialized function for memory allocation. Whatever function is chosen, there must also be appropriate functions to reallocate and to free this memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_freeproc">CFP_FREEPROC</a>
+<a href="/windows/desktop/api/fontsub/nc-fontsub-cfp_freeproc">CFP_FREEPROC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nc-fontsub-cfp_reallocproc">CFP_REALLOCPROC</a>
+<a href="/windows/desktop/api/fontsub/nc-fontsub-cfp_reallocproc">CFP_REALLOCPROC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a>
+<a href="/windows/desktop/api/fontsub/nf-fontsub-createfontpackage">CreateFontPackage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a>
-
+<a href="/windows/desktop/api/fontsub/nf-fontsub-mergefontpackage">MergeFontPackage</a>

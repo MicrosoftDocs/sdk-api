@@ -71,11 +71,11 @@ Contains a <b>VARIANT</b> array that contains the new value or values of the pro
 This method supports  standard return values, as well as the following.
       
 
-For more information, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+For more information, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
-<b>PutEx</b> is usually used to set values on multi-value attributes. Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">IADs::Put</a> method, with <b>PutEx</b>, you are not required to get the attribute values before you modify them. However, because <b>PutEx</b> only makes changes to attributes values contained in the ADSI property cache, you must use <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> after each <b>PutEx</b> call in order to commit changes to the directory.
+<b>PutEx</b> is usually used to set values on multi-value attributes. Unlike the <a href="/windows/desktop/api/iads/nf-iads-iads-put">IADs::Put</a> method, with <b>PutEx</b>, you are not required to get the attribute values before you modify them. However, because <b>PutEx</b> only makes changes to attributes values contained in the ADSI property cache, you must use <a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> after each <b>PutEx</b> call in order to commit changes to the directory.
 
 <b>PutEx</b> enables you to append values to an existing set of values in a multi-value attribute using <b>ADS_PROPERTY_APPEND</b>. When you update, append, or delete values to a multi-value attribute, you must use an array.
 
@@ -182,22 +182,21 @@ hr = CoUninitialize();
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iads">IADs</a>
+<a href="/windows/desktop/api/iads/nn-iads-iads">IADs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-get">IADs::Get</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getex">IADs::GetEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getex">IADs::GetEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-put">IADs::Put</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-put">IADs::Put</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/property-cache-interfaces">Property
+<a href="/windows/desktop/ADSI/property-cache-interfaces">Property
   Cache</a>
-

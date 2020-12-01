@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>IAudioSessionManager</b> interface enables a client to access the session controls and volume controls for both cross-process and process-specific audio sessions. The client obtains a reference to an <b>IAudioSessionManager</b> interface by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a> method with parameter <i>iid</i> set to <b>REFIID</b> IID_IAudioSessionManager.
+The <b>IAudioSessionManager</b> interface enables a client to access the session controls and volume controls for both cross-process and process-specific audio sessions. The client obtains a reference to an <b>IAudioSessionManager</b> interface by calling the <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a> method with parameter <i>iid</i> set to <b>REFIID</b> IID_IAudioSessionManager.
 
 This interface enables clients to access the controls for an existing session without first opening a stream. This capability is useful for clients of higher-level APIs that are built on top of WASAPI and use session controls internally but do not give their clients access to session controls.
 
@@ -58,11 +58,11 @@ In Windows Vista, the higher-level APIs that use WASAPI include Media Foundation
 
 When a client creates an audio stream through a higher-level API, that API typically adds the stream to the default audio session for the client's process (the session that is identified by the session GUID value, GUID_NULL), but the same API might not provide a means for the client to access the controls for that session. In that case, the client can access the controls through the <b>IAudioSessionManager</b> interface.
 
-For a code example that uses the <b>IAudioSessionManager</b> interface, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-events-for-legacy-audio-applications">Audio Events for Legacy Audio Applications</a>.
+For a code example that uses the <b>IAudioSessionManager</b> interface, see <a href="/windows/desktop/CoreAudio/audio-events-for-legacy-audio-applications">Audio Events for Legacy Audio Applications</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioSessionManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAudioSessionManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAudioSessionManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IAudioSessionManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager-getaudiosessioncontrol">GetAudioSessionControl</a>
+<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager-getaudiosessioncontrol">GetAudioSessionControl</a>
 </td>
 <td align="left" width="63%">
 Retrieves an audio session control.
@@ -86,7 +86,7 @@ Retrieves an audio session control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager-getsimpleaudiovolume">GetSimpleAudioVolume</a>
+<a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager-getsimpleaudiovolume">GetSimpleAudioVolume</a>
 </td>
 <td align="left" width="63%">
 Retrieves a simple audio volume control.
@@ -97,13 +97,12 @@ Retrieves a simple audio volume control.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a>
+<a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate">IMMDevice::Activate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a>
-
+<a href="/windows/desktop/CoreAudio/wasapi">WASAPI</a>

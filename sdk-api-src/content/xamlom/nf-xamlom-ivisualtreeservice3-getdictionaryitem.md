@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets an item from a <a href="https://docs.microsoft.com/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>.
+Gets an item from a <a href="/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>.
 
 ## -parameters
 
@@ -76,5 +76,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice3">IVisualTreeService3</a>
-
+<a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice3">IVisualTreeService3</a>

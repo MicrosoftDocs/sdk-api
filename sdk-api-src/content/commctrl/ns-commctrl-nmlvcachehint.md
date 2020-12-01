@@ -54,16 +54,16 @@ api_name:
 
 ## -description
 
-Contains information used to update the cached item information for use with a <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-controls-overview">virtual list view</a>.
+Contains information used to update the cached item information for use with a <a href="/windows/desktop/Controls/list-view-controls-overview">virtual list view</a>.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification message.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains information about this notification message.
 
 ### -field iFrom
 
@@ -76,4 +76,3 @@ Starting index of the requested range of items. This value is inclusive.
 Type: <b>int</b>
 
 Ending index of the requested range of items. This value is inclusive.
-

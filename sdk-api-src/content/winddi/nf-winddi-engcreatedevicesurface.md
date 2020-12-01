@@ -56,11 +56,11 @@ The <b>EngCreateDeviceSurface</b> function creates and returns a handle for a de
 
 ### -param dhsurf [in]
 
-Device handle to the surface to be managed by the device. This handle is passed to the driver when a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure is passed for input or output.
+Device handle to the surface to be managed by the device. This handle is passed to the driver when a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure is passed for input or output.
 
 ### -param sizl [in]
 
-Specifies a SIZEL structure that contains the width and height of the surface to be created. The <b>cx</b> and <b>cy</b> members of this structure contain respectively, the surface's width and height, in pixels. A SIZEL structure is identical to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
+Specifies a SIZEL structure that contains the width and height of the surface to be created. The <b>cx</b> and <b>cy</b> members of this structure contain respectively, the surface's width and height, in pixels. A SIZEL structure is identical to a <a href="/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
 
 ### -param iFormatCompat
 
@@ -72,17 +72,16 @@ The return value is a handle that identifies the surface if the function is succ
 
 ## -remarks
 
-The storage space for the surface can optionally be provided by the driver. The surface should be associated by using <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>. The surface should be deleted when it is no longer needed by using <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletesurface">EngDeleteSurface</a>.
+The storage space for the surface can optionally be provided by the driver. The surface should be associated by using <a href="/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>. The surface should be deleted when it is no longer needed by using <a href="/windows/desktop/api/winddi/nf-winddi-engdeletesurface">EngDeleteSurface</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engassociatesurface">EngAssociateSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engdeletesurface">EngDeleteSurface</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engdeletesurface">EngDeleteSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a>

@@ -54,13 +54,13 @@ Defines a function that raises the EAP method's connection configuration user in
 
 <b>EapMethodAuthenticatorInvokeConfigUI</b> is a function prototype.
 
-<b>EapHostAuthenticatorInvokeConfigUI</b> must be called on threads that have COM initialized for <a href="https://msdn.microsoft.com/library/ms810413.aspx">Single Threaded Apartment</a>. This can be achieved by calling COM API <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> must be called before exiting.
+<b>EapHostAuthenticatorInvokeConfigUI</b> must be called on threads that have COM initialized for <a href="/previous-versions/ms810413(v=msdn.10)">Single Threaded Apartment</a>. This can be achieved by calling COM API <a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a>; when the supplicant has finished  with the STA thread <a href="/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize">CoUninitialize</a> must be called before exiting.
 
 ## -parameters
 
 ### -param pEapMethodType [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that contains vendor and author information about the EAP method used for authenticating the connection.
+A pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a> structure that contains vendor and author information about the EAP method used for authenticating the connection.
 
 ### -param hwndParent [in]
 
@@ -88,13 +88,12 @@ Specifies the size, in bytes, of the configuration data returned in <i>ppConfigO
 
 ### -param ppConfigOut [out]
 
-A pointer to a pointer to a byte buffer that contains updated configuration data from the user. After consuming the data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreememory">EapMethodAuthenticatorFreeMemory</a>.
+A pointer to a pointer to a byte buffer that contains updated configuration data from the user. After consuming the data, this memory must be freed by calling <a href="/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreememory">EapMethodAuthenticatorFreeMemory</a>.
 
 ### -param ppEapError [out]
 
-A pointer to the affdress of an <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory">EapMethodAuthenticatorFreeErrorMemory</a>.
+A pointer to the affdress of an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_error">EAP_ERROR</a> structure that contains any errors raised by EAPHost during  the execution of this function call. After consuming the error data, this memory must be freed by calling <a href="/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorfreeerrormemory">EapMethodAuthenticatorFreeErrorMemory</a>.
 
 ## -see-also
 
 [EAPHost Authenticator Method Functions](/windows/win32/eaphost/eap-host-authenticator-method-functions)
-

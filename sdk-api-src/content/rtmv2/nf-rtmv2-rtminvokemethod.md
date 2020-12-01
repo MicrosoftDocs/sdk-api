@@ -58,7 +58,7 @@ The
 ### -param RtmRegHandle [in]
 
 Handle to the client obtained from a previous call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>.
 
 ### -param EntityHandle [in]
 
@@ -67,7 +67,7 @@ Handle to the client whose methods are being invoked.
 ### -param Input [in]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_input">RTM_ENTITY_METHOD_INPUT</a> structure that contains the method to be invoked and a common input buffer.
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_input">RTM_ENTITY_METHOD_INPUT</a> structure that contains the method to be invoked and a common input buffer.
 
 ### -param OutputSize [in, out]
 
@@ -81,7 +81,7 @@ On output, <i>OutputSize</i> receives a pointer to a <b>UINT</b> value that spec
 ### -param Output [out]
 
 Receives a pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_output">RTM_ENTITY_METHOD_OUTPUT</a> structures. Each structure consists of a (method identifier, correct output) tuple.
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_output">RTM_ENTITY_METHOD_OUTPUT</a> structures. Each structure consists of a (method identifier, correct output) tuple.
 
 ## -returns
 
@@ -114,21 +114,20 @@ The handle is invalid.
 ## -remarks
 
 For sample code using this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/obtain-and-call-the-exported-methods-for-a-client">Obtain and Call the Exported Methods for a Client</a>.
+<a href="/windows/desktop/RRAS/obtain-and-call-the-exported-methods-for-a-client">Obtain and Call the Exported Methods for a Client</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_input">RTM_ENTITY_METHOD_INPUT</a>
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_input">RTM_ENTITY_METHOD_INPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_output">RTM_ENTITY_METHOD_OUTPUT</a>
+<a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_method_output">RTM_ENTITY_METHOD_OUTPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmblockmethods">RtmBlockMethods</a>
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmblockmethods">RtmBlockMethods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetentitymethods">RtmGetEntityMethods</a>
-
+<a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetentitymethods">RtmGetEntityMethods</a>

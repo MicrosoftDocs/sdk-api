@@ -61,7 +61,7 @@ Retrieves the stack reserve and commit sizes for threads in the specified thread
 
 ### -param ptpp [in]
 
-A pointer to a <b>TP_POOL</b> structure that specifies the thread pool. The <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool">CreateThreadpool</a> function returns this pointer.
+A pointer to a <b>TP_POOL</b> structure that specifies the thread pool. The <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-createthreadpool">CreateThreadpool</a> function returns this pointer.
 
 ### -param ptpsi [out]
 
@@ -72,13 +72,12 @@ A pointer to a <b>TP_POOL_STACK_INFORMATION</b> structure that receives the stac
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-To compile an application that uses this function, set _WIN32_WINNT to _WIN32_WINNT_WIN7. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+To compile an application that uses this function, set _WIN32_WINNT to _WIN32_WINNT_WIN7. For more information, see <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolstackinformation">SetThreadpoolStackInformation</a>
-
+<a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolstackinformation">SetThreadpoolStackInformation</a>

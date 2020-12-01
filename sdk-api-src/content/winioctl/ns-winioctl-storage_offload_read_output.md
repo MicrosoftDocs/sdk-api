@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Output structure for the <b>DeviceDsmAction_OffloadRead</b> action of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+     <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
      control code.
 
 ## -struct-fields
@@ -76,8 +76,8 @@ Output flags.
 </td>
 <td width="60%">
 The ranges represented by the token is smaller than the ranges specified in the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures passed in the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+        <a href="/windows/desktop/api/winioctl/ns-winioctl-device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures passed in the 
+        <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
         control code input buffer. In other words the <b>LengthProtected</b> member is less than 
         the sum of all of the <b>LengthInBytes</b> members of the 
         <b>DEVICE_DATA_SET_RANGE</b> structures passed.
@@ -100,7 +100,7 @@ Length of the token in bytes.
 
 ### -field Token
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_token">STORAGE_OFFLOAD_TOKEN</a> containing the 
+A <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_offload_token">STORAGE_OFFLOAD_TOKEN</a> containing the 
       token created.
 
 ## -see-also
@@ -113,13 +113,12 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
+<a href="/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>

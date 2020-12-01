@@ -126,7 +126,7 @@ The system does not display the Windows Error Reporting dialog.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a> function does not display a message box when it fails to find a file. Instead, the error is returned to the caller. This error mode overrides the <b>OF_PROMPT</b> flag.
+The <a href="/windows/desktop/api/winbase/nf-winbase-openfile">OpenFile</a> function does not display a message box when it fails to find a file. Instead, the error is returned to the caller. This error mode overrides the <b>OF_PROMPT</b> flag.
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ The return value is the previous state of the error-mode bit flags.
 
 ## -remarks
 
-Each process has an associated error mode that indicates to the system how the application is going to respond to serious errors. A child process inherits the error mode of its parent process. To retrieve the process error mode, use the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode">GetErrorMode</a> function.
+Each process has an associated error mode that indicates to the system how the application is going to respond to serious errors. A child process inherits the error mode of its parent process. To retrieve the process error mode, use the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode">GetErrorMode</a> function.
 
 Because the error mode is set for the entire process, you must ensure that multi-threaded applications do not set different error-mode flags. Doing so can lead to inconsistent error handling.
 
@@ -161,21 +161,20 @@ ASSERT(fuOldErrorMode == SEM_NOALIGNMENTFAULTEXCEPT);</pre>
 
 <b>Visual Studio 2005:  </b>When declaring a pointer to a structure that may not have aligned data, you can use the <b>__unaligned</b> keyword to indicate that the type must be read one byte at a time. For more information, see <a href="https://msdn.microsoft.com/library/Aa290049.aspx">Windows Data Alignment</a>.
 
-<b>Windows 7:  </b>Callers should favor <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a> over <b>SetErrorMode</b> since it is less disruptive to the normal behavior of the system.
+<b>Windows 7:  </b>Callers should favor <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a> over <b>SetErrorMode</b> since it is less disruptive to the normal behavior of the system.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
+<a href="/windows/desktop/Debug/error-handling-functions">Error Handling Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/error-mode">Error Mode</a>
+<a href="/windows/desktop/Debug/error-mode">Error Mode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode">GetErrorMode</a>
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-geterrormode">GetErrorMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a>
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setthreaderrormode">SetThreadErrorMode</a>

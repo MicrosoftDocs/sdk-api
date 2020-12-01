@@ -84,15 +84,14 @@ Size, in bytes, of the client certificate.
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
-If the function fails, the return value is a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+If the function fails, the return value is a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
-To close the connection, use the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davdeleteconnection">DavDeleteConnection</a> function.
+To close the connection, use the <a href="/windows/desktop/api/davclnt/nf-davclnt-davdeleteconnection">DavDeleteConnection</a> function.
 
-Use this function when you are connecting to a WebDAV server using the Secure Sockets Layer (SSL) protocol and therefore must specify a certificate. To connect to a WebDAV server without specifying a certificate, use a Windows networking function such as <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>.
+Use this function when you are connecting to a WebDAV server using the Secure Sockets Layer (SSL) protocol and therefore must specify a certificate. To connect to a WebDAV server without specifying a certificate, use a Windows networking function such as <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnection2</a> or <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopensystemstorea">CertOpenSystemStore</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopensystemstorea">CertOpenSystemStore</a>

@@ -58,7 +58,7 @@ The
 ### -param Version [in]
 
 HTTP version. This parameter is an 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-httpapi_version">HTTPAPI_VERSION</a> structure. For the current version, declare an instance of the structure and set it to the pre-defined value HTTPAPI_VERSION_1 before passing it to 
+<a href="/windows/desktop/api/http/ns-http-httpapi_version">HTTPAPI_VERSION</a> structure. For the current version, declare an instance of the structure and set it to the pre-defined value HTTPAPI_VERSION_1 before passing it to 
 <b>HttpInitialize</b>.
 
 ### -param Flags [in]
@@ -77,9 +77,9 @@ Initialization options, which can include one or both of the following values.
 </td>
 <td width="60%">
 Perform initialization for applications that use the HTTP configuration functions, 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>.
+<a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>, 
+<a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a> and 
+<a href="/windows/desktop/api/http/nf-http-httpdeleteserviceconfiguration">HttpDeleteServiceConfiguration</a>.
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ The <i>Flags</i> parameter contains an unsupported value.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
+A <a href="/windows/desktop/Debug/system-error-codes">system error code</a> defined in WinError.h.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">
 ## -remarks
 
 Call 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpterminate">HttpTerminate</a> when the application completes. All the same flags that were passed to 
+<a href="/windows/desktop/api/http/nf-http-httpterminate">HttpTerminate</a> when the application completes. All the same flags that were passed to 
 <b>HttpInitialize</b> in the <i>Flags</i> parameter must also be passed to 
 <b>HttpTerminate</b>. An application can call 
 <b>HttpInitialize</b> repeatedly, provided that each call to 
@@ -146,9 +146,8 @@ Call
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-1-0-functions">HTTP Server API Version 1.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpterminate">HttpTerminate</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpterminate">HttpTerminate</a>

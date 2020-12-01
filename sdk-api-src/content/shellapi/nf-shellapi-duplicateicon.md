@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - DuplicateIcon
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # DuplicateIcon function
@@ -74,5 +75,4 @@ If successful, the function returns the handle to the new icon that was created;
 
 ## -remarks
 
-When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>DuplicateIcon</b> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
-
+When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>DuplicateIcon</b> by calling the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.

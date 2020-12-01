@@ -55,7 +55,7 @@ api_name:
 Enables or disables the specified classic event trace provider. 
 		
 
-On Windows Vista and later, call the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function to enable or disable a provider.
+On Windows Vista and later, call the <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a> function to enable or disable a provider.
 
 ## -parameters
 
@@ -65,9 +65,9 @@ If <b>TRUE</b>, the provider is enabled; otherwise, the provider is disabled.
 
 ### -param EnableFlag [in]
 
-Provider-defined value that specifies the class of events for which the provider generates events. A provider that generates only one class of events will typically ignore this flag. If the provider is more complex, the provider could use the <i>TraceGuidReg</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> to register more than one class of events. For example, if the provider has a database component, a UI component, and a general processing component, the provider could register separate event classes for these components. This would then allow the controller the ability to turn on tracing in only the database component. 
+Provider-defined value that specifies the class of events for which the provider generates events. A provider that generates only one class of events will typically ignore this flag. If the provider is more complex, the provider could use the <i>TraceGuidReg</i> parameter of <a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> to register more than one class of events. For example, if the provider has a database component, a UI component, and a general processing component, the provider could register separate event classes for these components. This would then allow the controller the ability to turn on tracing in only the database component. 
 
-The provider calls <a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a> from its <a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> function to obtain the enable flags.
+The provider calls <a href="/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a> from its <a href="/windows/desktop/ETW/controlcallback">ControlCallback</a> function to obtain the enable flags.
 
 ### -param EnableLevel [in]
 
@@ -147,7 +147,7 @@ GUID of the event trace provider that you want to enable or disable.
 ### -param TraceHandle [in]
 
 Handle of the event tracing session to which you want to enable, disable, or change the logging level of the provider. The 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle.
+<a href="/windows/desktop/ETW/starttrace">StartTrace</a> function returns this handle.
 
 ## -returns
 
@@ -155,7 +155,7 @@ If the function is successful, the return value is ERROR_SUCCESS.
 						
 
 If the function fails, the return value is one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
+<a href="/windows/desktop/Debug/system-error-codes">system error codes</a>. The following table includes some common errors and their causes.
 
 <table>
 <tr>
@@ -221,7 +221,7 @@ Exceeded the number of trace sessions that can enable the provider.
 </dl>
 </td>
 <td width="60%">
-Only users with administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can enable trace providers. To grant a restricted user the ability to enable a trace provider, add them to the Performance Log Users group or see <a href="https://docs.microsoft.com/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>.
+Only users with administrative privileges, users in the Performance Log Users group, and services running as LocalSystem, LocalService, NetworkService can enable trace providers. To grant a restricted user the ability to enable a trace provider, add them to the Performance Log Users group or see <a href="/windows/desktop/api/evntcons/nf-evntcons-eventaccesscontrol">EventAccessControl</a>.
 
 <b>Windows XP and Windows 2000:  </b>Anyone can enable a trace provider.
 
@@ -233,21 +233,21 @@ Only users with administrative privileges, users in the Performance Log Users gr
 
 Event trace controllers call this function.
 
-Up to eight trace sessions can enable and receive events from the same <a href="https://docs.microsoft.com/windows/desktop/ETW/about-event-tracing">manifest-based</a> provider; however, only one trace session can enable a <a href="https://docs.microsoft.com/windows/desktop/ETW/about-event-tracing">classic</a> provider. If more than one session tried to enable a classic provider, the first session would stop receiving events when the second session enabled the same provider. For example, if Session A enabled Provider 1 and then Session B enabled Provider 1, only Session B would receive events from Provider 1.
+Up to eight trace sessions can enable and receive events from the same <a href="/windows/desktop/ETW/about-event-tracing">manifest-based</a> provider; however, only one trace session can enable a <a href="/windows/desktop/ETW/about-event-tracing">classic</a> provider. If more than one session tried to enable a classic provider, the first session would stop receiving events when the second session enabled the same provider. For example, if Session A enabled Provider 1 and then Session B enabled Provider 1, only Session B would receive events from Provider 1.
 
 The provider remains enabled for the session until the session disables the provider. If the application that started the session ends without disabling the provider, the provider remains enabled.
 
 The 
 <b>EnableTrace</b> function calls the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> function implemented by the event trace provider, if defined. The provider defines its interpretation of being enabled or disabled. Typically, if a provider has been enabled, it generates events, but while it is disabled, it does not. The 
+<a href="/windows/desktop/ETW/controlcallback">ControlCallback</a> function implemented by the event trace provider, if defined. The provider defines its interpretation of being enabled or disabled. Typically, if a provider has been enabled, it generates events, but while it is disabled, it does not. The 
 <b>ControlCallback</b> function can call the 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a>, and 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> functions to obtain the values specified for the <i>EnableFlag</i>, <i>EnableLevel</i>, and <i>SessionHandle</i> parameters, respectively.
+<a href="/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a>, 
+<a href="/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a>, and 
+<a href="/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a> functions to obtain the values specified for the <i>EnableFlag</i>, <i>EnableLevel</i>, and <i>SessionHandle</i> parameters, respectively.
 
-You can call this function one time to enable a provider before the provider registers itself. After the provider registers itself, ETW calls the provider's <a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a> function. If you try to enable the provider for multiple sessions before the provider registers itself, ETW will only enable the provider for the last session. For example, if you enable the provider to Session A and then enable the provider to Session B, when the provider registers itself, the provider is only enabled for Session B.
+You can call this function one time to enable a provider before the provider registers itself. After the provider registers itself, ETW calls the provider's <a href="/windows/desktop/ETW/controlcallback">ControlCallback</a> function. If you try to enable the provider for multiple sessions before the provider registers itself, ETW will only enable the provider for the last session. For example, if you enable the provider to Session A and then enable the provider to Session B, when the provider registers itself, the provider is only enabled for Session B.
 
-You do not call <b>EnableTrace</b> to enable kernel providers. To enable kernel providers, set the <b>EnableFlags</b> member of <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> which you then pass to <a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>. The <b>StartTrace</b> function enables the selected kernel providers.
+You do not call <b>EnableTrace</b> to enable kernel providers. To enable kernel providers, set the <b>EnableFlags</b> member of <a href="/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> which you then pass to <a href="/windows/desktop/ETW/starttrace">StartTrace</a>. The <b>StartTrace</b> function enables the selected kernel providers.
 
 To determine the level and keywords used to enable a manifest-based provider, use one of the following commands:
 
@@ -258,48 +258,47 @@ To determine the level and keywords used to enable a manifest-based provider, us
 For classic providers, it is up to the provider to document and make available to potential controllers the severity levels or enable flags that it supports. If the provider wants to be enabled by any controller, the provider should accept 0 for the severity level and enable flags and interpret 0 as a request to perform default logging (whatever that may be). 
 
 If you use <b>EnableTrace</b> to enable a manifest-based provider, the following translation occurs:<ul>
-<li>The <i>EnableLevel</i> parameter is the same as setting the <i>Level</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.</li>
-<li>The <i>EnableFlag</i> is the same as setting the <i>MatchAnyKeyword</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.</li>
-<li>In the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">EnableCallback</a> callback, the <i>SourceId</i> parameter will be <b>NULL</b>, <i>Level</i> will be set to the value in <b>EnableTrace</b>, <i>MatchAnyKeyword</i> will be set to the value of <i>EnableFlag</i> in <a href="https://docs.microsoft.com/windows/desktop/ETW/eventtrace">EventTrace</a>, <i>MatchAllKeyword</i> will be 0, and <i>FilterData</i> will be <b>NULL</b>. </li>
+<li>The <i>EnableLevel</i> parameter is the same as setting the <i>Level</i> parameter in <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.</li>
+<li>The <i>EnableFlag</i> is the same as setting the <i>MatchAnyKeyword</i> parameter in <a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>.</li>
+<li>In the <a href="/windows/desktop/api/evntprov/nc-evntprov-penablecallback">EnableCallback</a> callback, the <i>SourceId</i> parameter will be <b>NULL</b>, <i>Level</i> will be set to the value in <b>EnableTrace</b>, <i>MatchAnyKeyword</i> will be set to the value of <i>EnableFlag</i> in <a href="/windows/desktop/ETW/eventtrace">EventTrace</a>, <i>MatchAllKeyword</i> will be 0, and <i>FilterData</i> will be <b>NULL</b>. </li>
 </ul>
 
 
-On Windows 8.1,Windows Server 2012 R2, and later, payload filters can be used by the <a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function to filter on specific conditions in a logger session. 
+On Windows 8.1,Windows Server 2012 R2, and later, payload filters can be used by the <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a> function to filter on specific conditions in a logger session. 
 
 
 #### Examples
 
 For an example that uses 
 <b>EnableTrace</b>, see 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/example-that-creates-a-session-and-enables-a-manifest-based-provider">Example that Creates a Session and Enables a manifest-based provider</a>.
+<a href="/windows/desktop/ETW/example-that-creates-a-session-and-enables-a-manifest-based-provider">Example that Creates a Session and Enables a manifest-based provider</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/controlcallback">ControlCallback</a>
+<a href="/windows/desktop/ETW/controlcallback">ControlCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
+<a href="/windows/desktop/ETW/enabletraceex-func">EnableTraceEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
+<a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a>
+<a href="/windows/desktop/ETW/gettraceenableflags">GetTraceEnableFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a>
+<a href="/windows/desktop/ETW/gettraceenablelevel">GetTraceEnableLevel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a>
+<a href="/windows/desktop/ETW/gettraceloggerhandle">GetTraceLoggerHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/starttrace">StartTrace</a>
-
+<a href="/windows/desktop/ETW/starttrace">StartTrace</a>

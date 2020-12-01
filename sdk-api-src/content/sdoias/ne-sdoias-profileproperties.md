@@ -65,9 +65,8 @@ The attributes associated with the profile.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-iasproperties">IASPROPERTIES</a>
+<a href="/windows/desktop/api/sdoias/ne-sdoias-iasproperties">IASPROPERTIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/ne-sdoias-napproperties">NAPPROPERTIES</a>
-
+<a href="/windows/desktop/api/sdoias/ne-sdoias-napproperties">NAPPROPERTIES</a>

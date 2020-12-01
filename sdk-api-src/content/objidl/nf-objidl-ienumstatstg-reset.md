@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>Reset</b> method resets the enumeration sequence to the beginning of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure array.
+The <b>Reset</b> method resets the enumeration sequence to the beginning of the <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure array.
 
 ## -parameters
 
@@ -78,5 +78,4 @@ The enumeration sequence was successfully reset to the beginning of the enumerat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>

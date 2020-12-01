@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Normalizes characters of a text string according to Unicode 4.0 TR#15. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>.
+Normalizes characters of a text string according to Unicode 4.0 TR#15. For more information, see <a href="/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>.
 
 ## -parameters
 
 ### -param NormForm [in]
 
-Normalization form to use. <a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-norm_form">NORM_FORM</a> specifies the standard Unicode normalization forms.
+Normalization form to use. <a href="/windows/desktop/api/winnls/ne-winnls-norm_form">NORM_FORM</a> specifies the standard Unicode normalization forms.
 
 ### -param lpSrcString [in]
 
@@ -85,7 +85,7 @@ Returns the length of the normalized string in the destination buffer. If <i>cwD
 
 If the string in the input buffer is null-terminated or if <i>cwSrcLength</i> is -1, the string written to the destination buffer is null-terminated and the returned string length includes the terminating null character.
 
-The function returns a value that is less than or equal to 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+The function returns a value that is less than or equal to 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
@@ -96,7 +96,7 @@ The function returns a value that is less than or equal to 0 if it does not succ
 
 ## -remarks
 
-Some Unicode characters have multiple equivalent binary representations consisting of sets of combining and/or composite Unicode characters. The Unicode standard defines a process called normalization that returns one binary representation when given any of the equivalent binary representations of a character. Normalization can be performed with several algorithms, called normalization forms, that obey different rules, as described in <a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>. The Win32 and the .NET Framework currently support normalization forms C, D, KC, and KD, as defined in <a href="https://www.unicode.org/reports/tr15">Unicode Standard Annex #15: Unicode Normalization Forms</a>. Normalized strings are typically evaluated with an ordinal comparison.
+Some Unicode characters have multiple equivalent binary representations consisting of sets of combining and/or composite Unicode characters. The Unicode standard defines a process called normalization that returns one binary representation when given any of the equivalent binary representations of a character. Normalization can be performed with several algorithms, called normalization forms, that obey different rules, as described in <a href="/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>. The Win32 and the .NET Framework currently support normalization forms C, D, KC, and KD, as defined in <a href="https://www.unicode.org/reports/tr15">Unicode Standard Annex #15: Unicode Normalization Forms</a>. Normalized strings are typically evaluated with an ordinal comparison.
 
 The following code demonstrates the use of the buffer length estimate:
 
@@ -129,13 +129,16 @@ for (int i = 0; i < maxIterations; i++)
 
 ```
 
-<b>Windows XP, Windows Server 2003</b>: The required header file and DLL are part of the <a href="https://www.microsoft.com/download/details.aspx?id=734"> "Microsoft Internationalized Domain Name (IDN) Mitigation APIs"</a> download, available at the <a href="https://www.microsoft.com/?ref=go">MSDN Download Center</a>.
+<b>Windows XP, Windows Server 2003</b>: 
 
+No longer supported.
+
+The required header file and DLL are part of the Microsoft Internationalized Domain Name (IDN) Mitigation APIs, which are no longer available for download.
 
 
 #### Examples
 
-An example showing the use of this function can be found in <a href="https://docs.microsoft.com/windows/desktop/Intl/nls--unicode-normalization-sample">NLS: Unicode Normalization Sample</a>.
+An example showing the use of this function can be found in <a href="/windows/desktop/Intl/nls--unicode-normalization-sample">NLS: Unicode Normalization Sample</a>.
 
 
 
@@ -143,21 +146,20 @@ An example showing the use of this function can be found in <a href="https://doc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-isnormalizedstring">IsNormalizedString</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-isnormalizedstring">IsNormalizedString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/ne-winnls-norm_form">NORM_FORM</a>
+<a href="/windows/desktop/api/winnls/ne-winnls-norm_form">NORM_FORM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>
-
+<a href="/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>

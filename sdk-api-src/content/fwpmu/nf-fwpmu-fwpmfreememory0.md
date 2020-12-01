@@ -68,13 +68,12 @@ Address of the pointer to be freed.
 
 If the caller passes a pointer that is not valid, the behavior is undefined.
 
-<b>FwpmFreeMemory0</b> is a specific implementation of FwpmFreeMemory. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FwpmFreeMemory0</b> is a specific implementation of FwpmFreeMemory. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
+<a href="/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-reference">Windows Filtering Platform  API Reference</a>
-
+<a href="/windows/desktop/FWP/fwp-reference">Windows Filtering Platform  API Reference</a>

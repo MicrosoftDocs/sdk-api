@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - SHEvaluateSystemCommandTemplate
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SHEvaluateSystemCommandTemplate function
@@ -51,7 +52,7 @@ api_name:
 
 ## -description
 
-Enforces strict validation of parameters used in a call to <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>.
+Enforces strict validation of parameters used in a call to <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> or <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>.
 
 ## -parameters
 
@@ -65,27 +66,27 @@ A command line, which may or may not include parameters. If the parameters are s
 
 Type: <b>PWSTR*</b>
 
-A pointer to the verified path to the application. This value should be passed as the <i>lpApplication</i> parameter in a call to <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> or as the <i>lpFile</i> parameter in a call to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>. This resource is allocated using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, and it is the responsibility of the caller to free the resource when it is no longer needed by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+A pointer to the verified path to the application. This value should be passed as the <i>lpApplication</i> parameter in a call to <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> or as the <i>lpFile</i> parameter in a call to <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>. This resource is allocated using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, and it is the responsibility of the caller to free the resource when it is no longer needed by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ### -param ppszCommandLine [out, optional]
 
 Type: <b>PWSTR*</b>
 
-A pointer to a command-line string template to be used in a call to <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>. Command-line parameters should be specified based on this template, and then passed as the <i>lpCommandLine</i> parameter to <b>CreateProcess</b>. It is guaranteed to be of a form that <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathgetargsa">PathGetArgs</a> can always read correctly. This resource is allocated using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, and it is the responsibility of the caller to free the resource when it is no longer needed by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. 
+A pointer to a command-line string template to be used in a call to <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>. Command-line parameters should be specified based on this template, and then passed as the <i>lpCommandLine</i> parameter to <b>CreateProcess</b>. It is guaranteed to be of a form that <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathgetargsa">PathGetArgs</a> can always read correctly. This resource is allocated using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, and it is the responsibility of the caller to free the resource when it is no longer needed by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. 
 
                     
 
-This parameter can be <b>NULL</b> if this function is not being used in association with a call to <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
+This parameter can be <b>NULL</b> if this function is not being used in association with a call to <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
 
 ### -param ppszParameters [out, optional]
 
 Type: <b>PWSTR*</b>
 
-A pointer to a command-line string template to be used in a call to <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>. Command-line parameters should be specified based on this template, and then passed as the <i>lpParameters</i> parameter to <b>ShellExecute</b>. This parameter is identical to calling <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathgetargsa">PathGetArgs</a>. This resource is allocated using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, and it is the responsibility of the caller to free the resource when it is no longer needed by calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. 
+A pointer to a command-line string template to be used in a call to <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>. Command-line parameters should be specified based on this template, and then passed as the <i>lpParameters</i> parameter to <b>ShellExecute</b>. This parameter is identical to calling <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathgetargsa">PathGetArgs</a>. This resource is allocated using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>, and it is the responsibility of the caller to free the resource when it is no longer needed by calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>. 
 
                     
 
-This parameter can be <b>NULL</b> if this function is not being used in association with a call to <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
+This parameter can be <b>NULL</b> if this function is not being used in association with a call to <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>.
 
 ## -returns
 
@@ -95,9 +96,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-This function is used when a calling process needs the deterministic behavior from a command template, regardless of execution context. It ignores the current process state, such as the <code>%PATH%</code>, <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrentdirectory">GetCurrentDirectory</a>, and parent process directory.
+This function is used when a calling process needs the deterministic behavior from a command template, regardless of execution context. It ignores the current process state, such as the <code>%PATH%</code>, <a href="/windows/desktop/api/winbase/nf-winbase-getcurrentdirectory">GetCurrentDirectory</a>, and parent process directory.
 
 This function is used when the command is hard-coded.
 
-This function is used by <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> when handling file associations from HKEY_CLASSES_ROOT. The purpose of this function is to reduce <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> command-line exploits. It is not designed for processing user input and if used for that purpose can generate unexpected failures.
-
+This function is used by <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a> when handling file associations from HKEY_CLASSES_ROOT. The purpose of this function is to reduce <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> command-line exploits. It is not designed for processing user input and if used for that purpose can generate unexpected failures.

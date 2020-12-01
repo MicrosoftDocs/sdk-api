@@ -56,7 +56,7 @@ Retrieves the platform identifier that identifies the operating system architect
 
 ### -param pVal [out]
 
-Identifies the operating system architecture that the boot image supports. For possible values, see the <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/ne-imapi2fs-platformid">PlatformId</a> enumeration type.
+Identifies the operating system architecture that the boot image supports. For possible values, see the <a href="/windows/desktop/api/imapi2fs/ne-imapi2fs-platformid">PlatformId</a> enumeration type.
 
 ## -returns
 
@@ -84,9 +84,8 @@ Value: 0x80004003
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ibootoptions">IBootOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_platformid">IBootOptions::put_PlatformId</a>
-
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ibootoptions-put_platformid">IBootOptions::put_PlatformId</a>

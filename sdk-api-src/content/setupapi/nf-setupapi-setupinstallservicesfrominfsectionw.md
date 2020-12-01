@@ -47,6 +47,7 @@ api_name:
  - SetupInstallServicesFromInfSection
  - SetupInstallServicesFromInfSectionA
  - SetupInstallServicesFromInfSectionW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupInstallServicesFromInfSectionW function
@@ -66,7 +67,7 @@ The
     an INF file.
 
 A caller of this function is required to have access to the 
-    <a href="https://docs.microsoft.com/windows/desktop/Services/service-control-manager">Service Control Manager</a>, and privileges to modify 
+    <a href="/windows/desktop/Services/service-control-manager">Service Control Manager</a>, and privileges to modify 
     services.
 
 ## -parameters
@@ -241,30 +242,29 @@ If the function succeeds, the return value is nonzero. The function calls
        required.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfilesfrominfsectiona">SetupInstallFilesFromInfSection</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfilesfrominfsectiona">SetupInstallFilesFromInfSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallfrominfsectiona">SetupInstallFromInfSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectionexa">SetupInstallServicesFromInfSectionEx</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectionexa">SetupInstallServicesFromInfSectionEx</a>
 
 ## -remarks
 
 > [!NOTE]
 > The setupapi.h header defines SetupInstallServicesFromInfSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

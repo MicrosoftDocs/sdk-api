@@ -64,11 +64,11 @@ Enumerates the subkeys of a registry subkey in a user-specific subtree (HKEY_CUR
 
 Type: <b>HUSKEY</b>
 
-A handle to a currently open registry subkey. The subkey must have been opened with the KEY_SET_VALUE access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
+A handle to a currently open registry subkey. The subkey must have been opened with the KEY_SET_VALUE access right. For more information, see <a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>.
 
                         
 
-This handle can be obtained through the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregopenuskeya">SHRegOpenUSKey</a> function.
+This handle can be obtained through the <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shregopenuskeya">SHRegOpenUSKey</a> function.
 
 ### -param dwIndex [in]
 
@@ -90,18 +90,17 @@ A pointer to  a DWORD that, on entry, contains the size of the buffer at <i>pszN
 
 ### -param enumRegFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-shregenum_flags">SHREGENUM_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/shlwapi/ne-shlwapi-shregenum_flags">SHREGENUM_FLAGS</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/ne-shlwapi-shregenum_flags">SHREGENUM_FLAGS</a> that specifies the base key in which the enumeration should take place.
+A <a href="/windows/desktop/api/shlwapi/ne-shlwapi-shregenum_flags">SHREGENUM_FLAGS</a> that specifies the base key in which the enumeration should take place.
 
 ## -returns
 
 Type: <b>LSTATUS</b>
 
-Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a textual description of the error.
+Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a textual description of the error.
 
 ## -remarks
 
 > [!NOTE]
 > The shlwapi.h header defines SHRegEnumUSKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

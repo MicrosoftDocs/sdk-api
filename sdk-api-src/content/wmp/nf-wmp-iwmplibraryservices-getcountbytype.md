@@ -56,7 +56,7 @@ The <b>getCountByType</b> method retrieves the count of available libraries of a
 
 ### -param wmplt [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/ne-wmp-wmplibrarytype">WMPLibraryType</a> enumeration value that specifies the type of library to count.
+<a href="/windows/desktop/api/wmp/ne-wmp-wmplibrarytype">WMPLibraryType</a> enumeration value that specifies the type of library to count.
 
 ### -param plCount [out]
 
@@ -86,7 +86,7 @@ The method succeeded.
 
 ## -remarks
 
-To obtain a count of the libraries represented by the wmpltRemote value of the <b>WMPLibraryType</b> enumeration, the Player control must be running in remote mode. For information about running the Player control in remote mode, see <a href="https://docs.microsoft.com/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>.
+To obtain a count of the libraries represented by the wmpltRemote value of the <b>WMPLibraryType</b> enumeration, the Player control must be running in remote mode. For information about running the Player control in remote mode, see <a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>.
 
 You must initialize the <i>plCount</i> variable before passing in its pointer.
 
@@ -94,9 +94,8 @@ You must initialize the <i>plCount</i> variable before passing in its pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices">IWMPLibraryServices Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmplibraryservices">IWMPLibraryServices Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/ne-wmp-wmplibrarytype">WMPLibraryType</a>
-
+<a href="/windows/desktop/api/wmp/ne-wmp-wmplibrarytype">WMPLibraryType</a>

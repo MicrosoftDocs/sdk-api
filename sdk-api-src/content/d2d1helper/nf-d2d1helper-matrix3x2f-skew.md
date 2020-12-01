@@ -68,13 +68,13 @@ The y-axis skew angle, which is measured in degrees clockwise from the x-axis.
 
 ### -param center
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The point about which the skew is performed.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
+Type: <b><a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
 
 The new skew transformation.
 
@@ -88,11 +88,10 @@ For example, the following illustration shows the rectangle skewed with y-axis s
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-skew">How to Skew an Object</a>.
+For an example, see <a href="/windows/desktop/Direct2D/how-to-skew">How to Skew an Object</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
-
+<a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>

@@ -72,7 +72,7 @@ The vertical offset, in device units.
 
 ### -param lppt [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure. The previous viewport origin, in device units, is placed in this structure. If <i>lpPoint</i> is <b>NULL</b>, the previous viewport origin is not returned.
+A pointer to a <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure. The previous viewport origin, in device units, is placed in this structure. If <i>lpPoint</i> is <b>NULL</b>, the previous viewport origin is not returned.
 
 ## -returns
 
@@ -86,21 +86,20 @@ The new origin is the sum of the current origin and the horizontal and vertical 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
+<a href="/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
+<a href="/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getviewportorgex">GetViewportOrgEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getviewportorgex">GetViewportOrgEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-offsetwindoworgex">OffsetWindowOrgEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-offsetwindoworgex">OffsetWindowOrgEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setviewportorgex">SetViewportOrgEx</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setviewportorgex">SetViewportOrgEx</a>

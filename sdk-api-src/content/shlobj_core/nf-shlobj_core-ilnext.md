@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the next <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure in an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+Retrieves the next <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure in an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ## -parameters
 
@@ -58,17 +58,16 @@ Retrieves the next <a href="https://docs.microsoft.com/windows/desktop/api/shtyp
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-A constant, unaligned, relative PIDL for which the next <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure is being retrieved.
+A constant, unaligned, relative PIDL for which the next <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure is being retrieved.
 
 ## -returns
 
 Type: <b>PCUIDLIST_RELATIVE</b>
 
-When this function returns, contains one of three results: If <i>pidl</i> is valid and not the last <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>, then it contains a pointer to the next <b>ITEMIDLIST</b> structure. If the last <b>ITEMIDLIST</b> structure is passed, it contains <b>NULL</b>, which signals the end of the PIDL. For other values of <i>pidl</i>, the return value is meaningless.
+When this function returns, contains one of three results: If <i>pidl</i> is valid and not the last <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> in the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a>, then it contains a pointer to the next <b>ITEMIDLIST</b> structure. If the last <b>ITEMIDLIST</b> structure is passed, it contains <b>NULL</b>, which signals the end of the PIDL. For other values of <i>pidl</i>, the return value is meaningless.
 
 ## -remarks
 
 For use where STRICT_TYPED_ITEMIDS is defined.
 
-To verify if the return value is <b>NULL</b>, use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilisempty">ILIsEmpty</a>.
-
+To verify if the return value is <b>NULL</b>, use <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilisempty">ILIsEmpty</a>.

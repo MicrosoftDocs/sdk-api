@@ -68,27 +68,26 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-An application can determine whether a device supports palette operations by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
+An application can determine whether a device supports palette operations by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function and specifying the RASTERCAPS constant.
 
 An inactive window with a realized logical palette may call <b>UpdateColors</b> as an alternative to redrawing its client area when the system palette changes.
 
 The <b>UpdateColors</b> function typically updates a client area faster than redrawing the area. However, because <b>UpdateColors</b> performs the color translation based on the color of each pixel before the system palette changed, each call to this function results in the loss of some color accuracy.
 
-This function must be called soon after a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-palettechanged">WM_PALETTECHANGED</a> message is received.
+This function must be called soon after a <a href="/windows/desktop/gdi/wm-palettechanged">WM_PALETTECHANGED</a> message is received.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
+<a href="/windows/desktop/gdi/color-functions">Color Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
+<a href="/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a>

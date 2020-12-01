@@ -64,7 +64,7 @@ Specifies the password to use to encrypt the peer identity. This parameter canno
 
 ### -param ppwzExportXML [out]
 
-Receives a pointer to the exported peer identity in XML format. If the export operation is successful, the application must free <i>ppwzExportXML</i> by calling <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
+Receives a pointer to the exported peer identity in XML format. If the export operation is successful, the application must free <i>ppwzExportXML</i> by calling <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>.
 
 ## -returns
 
@@ -124,7 +124,7 @@ The specified peer identity does not exist.
 
 ## -remarks
 
-Peer-to-peer group membership credentials are not exported. Only one peer identity  is  exported. An exported peer identity can be imported on another computer by using <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentityimport">PeerIdentityImport</a>.  
+Peer-to-peer group membership credentials are not exported. Only one peer identity  is  exported. An exported peer identity can be imported on another computer by using <a href="/windows/desktop/api/p2p/nf-p2p-peeridentityimport">PeerIdentityImport</a>.  
 
 Exporting a peer identity   does not remove it from a local ccmputer, it  makes a copy of it. The copy can be used to backup and restore a peer identity. 
 
@@ -143,13 +143,12 @@ The XML fragment used by <b>PeerIdentityExport</b> is as follows:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/ns-p2p-peer_data">PEER_DATA</a>
+<a href="/windows/desktop/api/p2p/ns-p2p-peer_data">PEER_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peeridentityimport">PeerIdentityImport</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peeridentityimport">PeerIdentityImport</a>

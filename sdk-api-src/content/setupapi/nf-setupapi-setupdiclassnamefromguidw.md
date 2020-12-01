@@ -74,13 +74,13 @@ A pointer to a variable that receives the number of characters that are required
 
 ## -returns
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 Call <b>SetupDiClassNameFromGuidEx</b> to retrieve the name for a class on a remote computer.
 
-<b>SetupDiClassNameFromGuid</b> does not enforce a restriction on the length of the class name that it can return. This function returns the required size for a NULL-terminated class name even if it is greater than MAX_CLASS_NAME_LEN. However, MAX_CLASS_NAME_LEN is the maximum length of a valid NULL-terminated class name. A caller should never need a buffer that is larger than MAX_CLASS_NAME_LEN. For more information about class names, see the description of the <b>Class</b> entry of an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-version-section">INF Version section</a>.
+<b>SetupDiClassNameFromGuid</b> does not enforce a restriction on the length of the class name that it can return. This function returns the required size for a NULL-terminated class name even if it is greater than MAX_CLASS_NAME_LEN. However, MAX_CLASS_NAME_LEN is the maximum length of a valid NULL-terminated class name. A caller should never need a buffer that is larger than MAX_CLASS_NAME_LEN. For more information about class names, see the description of the <b>Class</b> entry of an <a href="/windows-hardware/drivers/install/inf-version-section">INF Version section</a>.
 
 
 
@@ -91,9 +91,8 @@ Call <b>SetupDiClassNameFromGuidEx</b> to retrieve the name for a class on a rem
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiclassguidsfromnamea">SetupDiClassGuidsFromName</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiclassguidsfromnamea">SetupDiClassGuidsFromName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdiclassnamefromguidexa">SetupDiClassNameFromGuidEx</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiclassnamefromguidexa">SetupDiClassNameFromGuidEx</a>

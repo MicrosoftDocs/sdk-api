@@ -44,6 +44,7 @@ api_location:
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
  - SetDlgItemInt
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SetDlgItemInt function
@@ -85,11 +86,11 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-To set the new text, this function sends a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a> message to the specified control.
+To set the new text, this function sends a <a href="/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a> message to the specified control.
 
 ## -see-also
 
@@ -97,11 +98,11 @@ To set the new text, this function sends a <a href="https://docs.microsoft.com/w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdlgitemint">GetDlgItemInt</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getdlgitemint">GetDlgItemInt</a>
 
 
 
@@ -109,9 +110,8 @@ To set the new text, this function sends a <a href="https://docs.microsoft.com/w
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setdlgitemtexta">SetDlgItemText</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setdlgitemtexta">SetDlgItemText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a>
-
+<a href="/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a>

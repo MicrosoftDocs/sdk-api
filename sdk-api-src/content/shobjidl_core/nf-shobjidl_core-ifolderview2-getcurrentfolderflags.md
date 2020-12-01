@@ -58,11 +58,10 @@ Gets the currently applied folder flags.
 
 Type: <b>DWORD*</b>
 
-A pointer to a <b>DWORD</b> with any <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a> that have been applied to the folder.
+A pointer to a <b>DWORD</b> with any <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderflags">FOLDERFLAGS</a> that have been applied to the folder.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

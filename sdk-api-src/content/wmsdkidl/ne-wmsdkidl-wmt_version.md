@@ -76,5 +76,4 @@ The version assigned to a profile does not directly relate to the codecs used in
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
-
+<a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>

@@ -75,11 +75,10 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 This method compares two objects to determine whether they contain the same tuning properties. The first object in the comparison is the object that implements the <b>IBDAComparable</b> interface that the method is called on. The <i>CompareTo</i> parameter specifies the second object.
 
-This method compares all of the tuning properties of the two objects and their associated objects. In contrast, the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacomparable-compareequivalent">CompareEquivalent</a> method compares only a subset of these properties.
+This method compares all of the tuning properties of the two objects and their associated objects. In contrast, the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacomparable-compareequivalent">CompareEquivalent</a> method compares only a subset of these properties.
 
 For example, DirectShow implements the <b>IBDAComparable::CompareExact</b> method for a tune-request object to include both the tuning space and locator in the comparison. Thus, two DVB tuning requests are the same only if they both tune to the same DVB URL (with the same original network ID, transport stream ID, and service ID) <i>and</i> have the same modulation type.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable Interface</a>

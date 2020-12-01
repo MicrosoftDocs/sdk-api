@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-Frees the string buffer allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>.
+Frees the string buffer allocated by <a href="/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>.
 
 ## -parameters
 
 ### -param AnsiString [in]
 
-A pointer to an ANSI string whose buffer was previously allocated by <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>.
+A pointer to an ANSI string whose buffer was previously allocated by <a href="/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>.
 
 ## -remarks
 
-This routine does not release the Unicode string buffer passed to <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>.
-
+This routine does not release the Unicode string buffer passed to <a href="/windows/desktop/api/winternl/nf-winternl-rtlunicodestringtoansistring">RtlUnicodeStringToAnsiString</a>.

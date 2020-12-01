@@ -69,13 +69,13 @@ Pointer to a <b>null</b>-terminated string that specifies the name of the phone-
 ### -param lpInfo [in, out]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a> structure that specifies additional input and output parameters. 
+<a href="/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a> structure that specifies additional input and output parameters. 
 
 
 
 
 On input, the <b>dwSize</b> member of this structure must specify the sizeof(
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a>).
+<a href="/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a>).
 
 If an error occurs, the <b>dwError</b> member of the structure receives, on output, an error code; otherwise, it receives zero.
 
@@ -84,7 +84,7 @@ If an error occurs, the <b>dwError</b> member of the structure receives, on outp
 If the user selects the <b>Connect</b> button and the function establishes a connection, the return value is <b>TRUE</b>. Otherwise, the function returns <b>FALSE</b>.
 
  If an error occurs, the <b>dwError</b> member of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a> structure returns a value from <a href="https://docs.microsoft.com/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
+<a href="/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a> structure returns a value from <a href="/windows/desktop/RRAS/routing-and-remote-access-error-codes">Routing and Remote Access Error Codes</a> or Winerror.h.
 
 The following sample code brings up the <b>Dial-Up Networking</b> dialog. The dialog  displays dialing information for the first entry from the default phonebook file.
 
@@ -132,18 +132,17 @@ int main (){
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a>
+<a href="/previous-versions/windows/desktop/legacy/aa377607(v=vs.85)">RASPBDLG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
+<a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
+<a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The rasdlg.h header defines RasPhonebookDlg as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

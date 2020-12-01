@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Sets the background color of text in a list-view control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvm-settextbkcolor">LVM_SETTEXTBKCOLOR</a> message explicitly.
+Sets the background color of text in a list-view control. You can use this macro or send the <a href="/windows/desktop/Controls/lvm-settextbkcolor">LVM_SETTEXTBKCOLOR</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
 ### -param clrTextBk
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 The new text background color. This can be CLR_NONE for no background color.
-

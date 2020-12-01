@@ -74,5 +74,4 @@ The data source is an SQL log.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysMon/systemmonitor-datasourcetype">SystemMonitor.DataSourceType</a>
-
+<a href="/windows/desktop/SysMon/systemmonitor-datasourcetype">SystemMonitor.DataSourceType</a>

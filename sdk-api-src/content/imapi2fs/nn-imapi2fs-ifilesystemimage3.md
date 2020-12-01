@@ -54,7 +54,7 @@ Use this interface to set or check the metadata and metadata mirror files in a U
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSystemImage3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage2">IFileSystemImage2</a>. <b>IFileSystemImage3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileSystemImage3</b> interface inherits from <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage2">IFileSystemImage2</a>. <b>IFileSystemImage3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFileSystemImage3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage3-get_createredundantudfmetadatafiles">get_CreateRedundantUdfMetadataFiles</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage3-get_createredundantudfmetadatafiles">get_CreateRedundantUdfMetadataFiles</a>
 </td>
 <td align="left" width="63%">
 Retrieves the option that indicates whether UDF metadata will be redundant in the file system image
@@ -78,7 +78,7 @@ Retrieves the option that indicates whether UDF metadata will be redundant in th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage3-probespecificfilesystem">ProbeSpecificFileSystem</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage3-probespecificfilesystem">ProbeSpecificFileSystem</a>
 </td>
 <td align="left" width="63%">
 Determines if a specific file system on the current media is appendable through the IMAPI.
@@ -87,7 +87,7 @@ Determines if a specific file system on the current media is appendable through 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage3-put_createredundantudfmetadatafiles">put_CreateRedundantUdfMetadataFiles</a>
+<a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage3-put_createredundantudfmetadatafiles">put_CreateRedundantUdfMetadataFiles</a>
 </td>
 <td align="left" width="63%">
 Sets the option that indicates whether UDF metadata will be redundant in the  file system image
@@ -112,5 +112,4 @@ This interface is supported in Windows Server 2003 with Service Pack 1 (SP1), 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage2">IFileSystemImage2</a>
-
+<a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage2">IFileSystemImage2</a>

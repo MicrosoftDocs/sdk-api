@@ -118,7 +118,7 @@ Maps a reserved view.
 <td width="60%">
  Replaces a placeholder with a mapped view. Only data/pf-backed section views are supported (no images, physical memory, etc.). When you replace a placeholder, <i>BaseAddress</i> and <i>ViewSize</i> must exactly match those of the placeholder.
 
-After you replace a placeholder with a mapped view, to free that mapped view back to a placeholder, see the <i>UnmapFlags</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffileex">UnmapViewOfFileEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile2">UnmapViewOfFile2</a>.
+After you replace a placeholder with a mapped view, to free that mapped view back to a placeholder, see the <i>UnmapFlags</i> parameter of <a href="/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffileex">UnmapViewOfFileEx</a> and <a href="/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile2">UnmapViewOfFile2</a>.
 
 A placeholder is a type of reserved memory region.
 
@@ -131,7 +131,7 @@ A placeholder is a type of reserved memory region.
 </dl>
 </td>
 <td width="60%">
-Maps a large page view. See <a href="https://docs.microsoft.com/windows/desktop/Memory/large-page-support">large page support</a>.
+Maps a large page view. See <a href="/windows/desktop/Memory/large-page-support">large page support</a>.
 
 </td>
 </tr>
@@ -147,7 +147,7 @@ For file-mapping objects created with the <b>SEC_IMAGE</b> attribute, the
 
 ### -param ExtendedParameters [in, out, optional]
 
-An optional pointer to one or more  extended parameters of type <a href="https://msdn.microsoft.com/en-us/library/Mt832847(v=VS.85).aspx">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
+An optional pointer to one or more extended parameters of type <a href="/windows/win32/api/winnt/ns-winnt-mem_extended_parameter">MEM_EXTENDED_PARAMETER</a>. Each of those extended parameter values can itself have a <i>Type</i> field of either <b>MemExtendedParameterAddressRequirements</b> or <b>MemExtendedParameterNumaNode</b>. If no <b>MemExtendedParameterNumaNode</b> extended parameter is provided, then the behavior is the same as for the <a href="/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc">VirtualAlloc</a>/<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffile">MapViewOfFile</a> functions (that is, the preferred NUMA node for the physical pages is determined based on the ideal processor of the thread that first accesses the memory).
 
 ### -param ParameterCount [in]
 
@@ -156,7 +156,7 @@ The number of extended parameters pointed to by <i>ExtendedParameters</i>.
 ## -returns
 
 Returns the base address of the mapped view, if successful. Otherwise, returns <b>NULL</b> and extended error status is available
-           using <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+           using <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -184,19 +184,19 @@ For a code example, see Scenario 1 in <a href="https://msdn.microsoft.com/en-us/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-createfilemappinga">CreateFileMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/creating-a-file-view">Creating a File View</a>
+<a href="/windows/desktop/Memory/creating-a-file-view">Creating a File View</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-duplicatehandle">DuplicateHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsysteminfo">GetSystemInfo</a>
 
 
 
@@ -204,21 +204,20 @@ For a code example, see Scenario 1 in <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openfilemappinga">OpenFileMapping</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-openfilemappinga">OpenFileMapping</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a>
+<a href="/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>
-
+<a href="/windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile">UnmapViewOfFile</a>

@@ -56,29 +56,28 @@ Identifies the locations where events associated with a Ribbon control can origi
 
 ### -field UI_EVENTLOCATION_Ribbon
 
-The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a>.
+The <a href="/windows/desktop/windowsribbon/windowsribbon-element-ribbon">Ribbon</a>.
 
 ### -field UI_EVENTLOCATION_QAT
 
-The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-quickaccesstoolbar">QuickAccessToolbar</a>.
+The <a href="/windows/desktop/windowsribbon/windowsribbon-element-quickaccesstoolbar">QuickAccessToolbar</a>.
 
 ### -field UI_EVENTLOCATION_ApplicationMenu
 
-The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-applicationmenu">ApplicationMenu</a>.
+The <a href="/windows/desktop/windowsribbon/windowsribbon-element-applicationmenu">ApplicationMenu</a>.
 
 ### -field UI_EVENTLOCATION_ContextPopup
 
-The <a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
+The <a href="/windows/desktop/windowsribbon/windowsribbon-element-contextpopup">ContextPopup</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
+<a href="/windows/desktop/windowsribbon/windowsribbon-reference-enumerations">Constants and Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/nf-uiribbon-iuieventlogger-onuievent">OnUIEvent</a>
+<a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuieventlogger-onuievent">OnUIEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventtype">UI_EVENTTYPE</a>
-
+<a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventtype">UI_EVENTTYPE</a>

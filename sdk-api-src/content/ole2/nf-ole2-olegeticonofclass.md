@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
  - OleGetIconOfClass
+req.apiset: ext-ms-win-com-ole32-l1-1-3 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # OleGetIconOfClass function
@@ -74,9 +75,8 @@ If the function succeeds, the return value is a handle to a metafile that contai
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegeticonoffile">OleGetIconOfFile</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-olegeticonoffile">OleGetIconOfFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olemetafilepictfromiconandlabel">OleMetafilePictFromIconAndLabel</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-olemetafilepictfromiconandlabel">OleMetafilePictFromIconAndLabel</a>

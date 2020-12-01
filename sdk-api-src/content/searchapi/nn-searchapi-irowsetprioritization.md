@@ -54,7 +54,7 @@ Sets or retrieves the current indexer prioritization level for the scope specifi
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRowsetPrioritization</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRowsetPrioritization</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRowsetPrioritization</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRowsetPrioritization</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRowsetPrioritization</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-irowsetprioritization-getscopepriority">GetScopePriority</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-irowsetprioritization-getscopepriority">GetScopePriority</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current indexer prioritization level for the scope specified by this query.
@@ -80,7 +80,7 @@ Retrieves the current indexer prioritization level for the scope specified by th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-irowsetprioritization-getscopestatistics">GetScopeStatistics</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-irowsetprioritization-getscopestatistics">GetScopeStatistics</a>
 </td>
 <td align="left" width="63%">
 Gets information describing the scope specified by this query.
@@ -90,7 +90,7 @@ Gets information describing the scope specified by this query.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-irowsetprioritization-setscopepriority">SetScopePriority</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-irowsetprioritization-setscopepriority">SetScopePriority</a>
 </td>
 <td align="left" width="63%">
 Sets the current indexer prioritization level for the scope specified by this query.
@@ -102,13 +102,13 @@ Sets the current indexer prioritization level for the scope specified by this qu
 
 ## -remarks
 
-This interface is acquired with <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface Method</a> on an indexer rowset. <b>DBPROP_ENABLEROWSETEVENTS</b> must be set to <b>TRUE</b> with the OLE DB <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ms711497(v=vs.85)">ICommandProperties::SetProperties</a> method prior to executing the query in order to use rowset prioritization.
+This interface is acquired with <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface Method</a> on an indexer rowset. <b>DBPROP_ENABLEROWSETEVENTS</b> must be set to <b>TRUE</b> with the OLE DB <a href="/previous-versions/windows/desktop/ms711497(v=vs.85)">ICommandProperties::SetProperties</a> method prior to executing the query in order to use rowset prioritization.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-irowsetprioritization-setscopepriority">IRowsetPrioritization::SetScopePriority</a> sets the prioritization for the scopes belonging to the query, and the interval the scope statistics event is raised when there are outstanding documents to be indexed within the query scopes. This event is raised if the priority level is set to default.
+<a href="/windows/desktop/api/searchapi/nf-searchapi-irowsetprioritization-setscopepriority">IRowsetPrioritization::SetScopePriority</a> sets the prioritization for the scopes belonging to the query, and the interval the scope statistics event is raised when there are outstanding documents to be indexed within the query scopes. This event is raised if the priority level is set to default.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-irowsetprioritization-getscopestatistics">IRowsetPrioritization::GetScopeStatistics</a> can be used to get the number of indexed items in the scope, the number of outstanding documents to be added in the scope, and the number of documents that need to be re-indexed within this scope.
+<a href="/windows/desktop/api/searchapi/nf-searchapi-irowsetprioritization-getscopestatistics">IRowsetPrioritization::GetScopeStatistics</a> can be used to get the number of indexed items in the scope, the number of outstanding documents to be added in the scope, and the number of documents that need to be re-indexed within this scope.
 
 For a sample that demonstrates how to prioritize indexing events, see the [SearchEvents](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/SearchEvents) sample.
 
@@ -118,15 +118,15 @@ For a sample that demonstrates how to prioritize indexing events, see the [Searc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-irowsetevents">IRowsetEvents</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-irowsetevents">IRowsetEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/indexing-prioritization-and-rowset-events">Indexing Prioritization and Rowset Events in Windows 7</a>
+<a href="/windows/desktop/search/indexing-prioritization-and-rowset-events">Indexing Prioritization and Rowset Events in Windows 7</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-support">Notifications Process (Windows Search)</a>
+<a href="/windows/desktop/search/-search-3x-wds-support">Notifications Process (Windows Search)</a>
 
 
 
@@ -150,5 +150,4 @@ For a sample that demonstrates how to prioritize indexing events, see the [Searc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>
-
+<a href="/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>

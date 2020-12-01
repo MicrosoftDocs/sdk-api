@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>DRAWTEXTPARAMS</b> structure contains extended formatting options for the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx</a> function.
+The <b>DRAWTEXTPARAMS</b> structure contains extended formatting options for the <a href="/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx</a> function.
 
 ## -struct-fields
 
@@ -76,17 +76,16 @@ The right margin, in units equal to the average character width.
 
 ### -field uiLengthDrawn
 
-Receives the number of characters processed by <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx</a>, including white-space characters. The number can be the <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> or the index of the first line that falls below the drawing area. Note that <b>DrawTextEx</b> always processes the entire string if the DT_NOCLIP formatting flag is specified.
+Receives the number of characters processed by <a href="/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx</a>, including white-space characters. The number can be the <a href="/windows/desktop/gdi/specifying-length-of-text-output-string">length of the string</a> or the index of the first line that falls below the drawing area. Note that <b>DrawTextEx</b> always processes the entire string if the DT_NOCLIP formatting flag is specified.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawtextexa">DrawTextEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
-
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>

@@ -46,6 +46,7 @@ api_location:
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
  - GetUpdateRgn
+req.apiset: ext-ms-win-ntuser-draw-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetUpdateRgn function
@@ -98,13 +99,12 @@ The return value indicates the complexity of the resulting region; it can be one
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function automatically validates the update region, so any call to <b>GetUpdateRgn</b> made immediately after the call to <b>BeginPaint</b> retrieves an empty update region.
+The <a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function automatically validates the update region, so any call to <b>GetUpdateRgn</b> made immediately after the call to <b>BeginPaint</b> retrieves an empty update region.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
+<a href="/windows/desktop/gdi/painting-and-drawing-functions">Painting and Drawing Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
-
+<a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>

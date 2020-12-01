@@ -56,9 +56,9 @@ Describes the image and accompanying text for a drop object.
 
 ### -field type
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-dropimagetype">DROPIMAGETYPE</a></b>
+Type: <b><a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-dropimagetype">DROPIMAGETYPE</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-dropimagetype">DROPIMAGETYPE</a> indicating the stock image to use.
+A <a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-dropimagetype">DROPIMAGETYPE</a> indicating the stock image to use.
 
 ### -field szMessage
 
@@ -74,5 +74,4 @@ Text such as "Documents", inserted as specified by <b>szMessage</b>.
 
 ## -remarks
 
-Some UI coloring is applied to the text in <b>szInsert</b> if used by specifying %1 in <b>szMessage</b>. The characters %% and %1 are the subset of <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> markers that are processed here.
-
+Some UI coloring is applied to the text in <b>szInsert</b> if used by specifying %1 in <b>szMessage</b>. The characters %% and %1 are the subset of <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> markers that are processed here.

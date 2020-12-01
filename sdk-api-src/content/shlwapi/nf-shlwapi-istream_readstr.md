@@ -60,7 +60,7 @@ Reads from a stream and writes into a string.
 
 ### -param pstm [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>*</b>
 
 A pointer to the stream from which to read.
 
@@ -75,4 +75,3 @@ A pointer to the null-terminated, Unicode string into which the stream is writte
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

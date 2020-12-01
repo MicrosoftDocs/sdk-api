@@ -62,7 +62,7 @@ The name of the originator of the library.
 
 ### -field Flags
 
-A combination of <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dcompile-constants">D3DCOMPILE Constants</a> that are combined by using a bitwise OR operation. The resulting value specifies how the compiler compiles.
+A combination of <a href="/windows/desktop/direct3dhlsl/d3dcompile-constants">D3DCOMPILE Constants</a> that are combined by using a bitwise OR operation. The resulting value specifies how the compiler compiles.
 
 ### -field FunctionCount
 
@@ -70,13 +70,12 @@ The number of functions exported from the library.
 
 ## -remarks
 
-This structure is returned by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12libraryreflection-getdesc">ID3D12LibraryReflection::GetDesc</a>.
+This structure is returned by <a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12libraryreflection-getdesc">ID3D12LibraryReflection::GetDesc</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12libraryreflection-getdesc">ID3D12LibraryReflection::GetDesc</a>
+<a href="/windows/desktop/api/d3d12shader/nf-d3d12shader-id3d12libraryreflection-getdesc">ID3D12LibraryReflection::GetDesc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-shader-structures">Shader Structures</a>
-
+<a href="/windows/desktop/direct3d12/d3d12-graphics-reference-shader-structures">Shader Structures</a>

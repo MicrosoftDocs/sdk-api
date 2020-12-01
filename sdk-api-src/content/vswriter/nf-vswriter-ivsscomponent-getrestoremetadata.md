@@ -53,9 +53,9 @@ api_name:
 
 The <b>GetRestoreMetadata</b> method retrieves
     private, writer-specific restore metadata that might have been set during a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event by 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a> using 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setrestoremetadata">IVssComponent::SetRestoreMetadata</a>.
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prerestore">PreRestore</a> event by 
+    <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onprerestore">CVssWriter::OnPreRestore</a> using 
+    <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setrestoremetadata">IVssComponent::SetRestoreMetadata</a>.
    
 
 Only a writer can call this method.
@@ -128,7 +128,7 @@ The caller is out of memory or other system resources.
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more
         information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
        
 
 </td>
@@ -140,11 +140,11 @@ The XML document is not valid. Check the event log for details. For more
 This method can be called at any time depending on the logic of a given writer.
 
 The caller should free the memory held by the <i>pbstrRestoreMetadata</i> parameter by calling 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+    <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
    
 
 If no backup metadata has been set, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupmetadata">GetBackupMetadata</a> returns S_FALSE.
+    <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getbackupmetadata">GetBackupMetadata</a> returns S_FALSE.
    
 
 A writer setting the restore method to VSS_RME_RESTORE_TO_ALTERNATE_LOCATION without defining an alternate
@@ -152,5 +152,4 @@ A writer setting the restore method to VSS_RME_RESTORE_TO_ALTERNATE_LOCATION wit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>

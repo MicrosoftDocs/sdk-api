@@ -56,7 +56,7 @@ Gets the VARTYPE stored in the specified safe array.
 
 ### -param psa [in]
 
-An array descriptor created by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
+An array descriptor created by <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraycreate">SafeArrayCreate</a>.
 
 ### -param pvt [out]
 
@@ -103,5 +103,4 @@ If FADF_HAVEVARTYPE is set, <b>SafeArrayGetVartype</b> returns the VARTYPE store
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY Data Type</a>
-
+<a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY Data Type</a>

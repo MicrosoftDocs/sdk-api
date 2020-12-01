@@ -45,9 +45,6 @@ api_name:
  - FNFCIGETTEMPFILE
 ---
 
-# FNFCIGETTEMPFILE macro
-
-
 ## -description
 
 The <b>FNFCIGETTEMPFILE</b> macro provides the declaration for the application-defined callback function to obtain a temporary file name.
@@ -58,23 +55,11 @@ The <b>FNFCIGETTEMPFILE</b> macro provides the declaration for the application-d
 
 Pointer to a buffer to receive the complete temporary file name.
 
-
-#### - cbTempName [in]
-
- Size, in bytes, of the <i>pszTempName</i> buffer.
-
-
-#### - pv
-
-Pointer to an application-defined value.
-
 ## -remarks
 
 The function can return a filename that already exists by the time it is opened. For this reason, the caller should be prepared to make several attempts to create temporary files.
 
-
-#### Examples
-
+## Examples
 
 ```cpp
 FNFCIGETTEMPFILE(fnGetTempFileName)
@@ -97,10 +82,8 @@ FNFCIGETTEMPFILE(fnGetTempFileName)
 
     return bSucceeded;
 }
-
 ```
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>
-
+<a href="/windows/desktop/api/fci/nf-fci-fcicreate">FCICreate</a>

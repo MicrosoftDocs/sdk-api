@@ -51,17 +51,17 @@ api_name:
 
 ## -description
 
-The <b>IADsPropertyValue</b> interface is used to represent the value of an <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> object in a predefined data type. This interface exposes several properties for obtaining data values in the corresponding data format.
+The <b>IADsPropertyValue</b> interface is used to represent the value of an <a href="/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> object in a predefined data type. This interface exposes several properties for obtaining data values in the corresponding data format.
 
-The <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyentry-property-methods">IADsPropertyEntry.Values</a> property contains an array of <b>IADsPropertyValue</b> objects. Each of the <b>IADsPropertyValue</b> objects contains a single value of the <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> object. For more information and a code example for creating entirely new property entries and values, see <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertylist-putpropertyitem">IADsPropertyList.PutPropertyItem</a>.
+The <a href="/windows/desktop/ADSI/iadspropertyentry-property-methods">IADsPropertyEntry.Values</a> property contains an array of <b>IADsPropertyValue</b> objects. Each of the <b>IADsPropertyValue</b> objects contains a single value of the <a href="/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a> object. For more information and a code example for creating entirely new property entries and values, see <a href="/windows/desktop/api/iads/nf-iads-iadspropertylist-putpropertyitem">IADsPropertyList.PutPropertyItem</a>.
 
-When obtaining values in a format not provided by one of the properties of this interface, use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a> interface.
+When obtaining values in a format not provided by one of the properties of this interface, use the  <a href="/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a> interface.
 
-Before calling the methods of this interfaces, call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs.GetInfo</a> or  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">IADs.GetInfoEx</a> explicitly to load the assigned values of the object into the cache, if the cache has not been initialized. After modifying the properties of this interface, call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs.SetInfo</a> to save the changes to the persistent store of the underlying directory.
+Before calling the methods of this interfaces, call  <a href="/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs.GetInfo</a> or  <a href="/windows/desktop/api/iads/nf-iads-iads-getinfoex">IADs.GetInfoEx</a> explicitly to load the assigned values of the object into the cache, if the cache has not been initialized. After modifying the properties of this interface, call  <a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs.SetInfo</a> to save the changes to the persistent store of the underlying directory.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPropertyValue</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsPropertyValue</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPropertyValue</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsPropertyValue</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -77,7 +77,7 @@ The <b>IADsPropertyValue</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadspropertyvalue-clear">Clear</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadspropertyvalue-clear">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears the current value of the PropertyValue object.
@@ -95,7 +95,7 @@ Clears the current value of the PropertyValue object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">ADsType</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">ADsType</a>
 
 
 </td>
@@ -111,7 +111,7 @@ Gets and sets a property value's data type.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">Boolean</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">Boolean</a>
 
 
 </td>
@@ -127,7 +127,7 @@ Gets and sets a Boolean value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">CaseExactString</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">CaseExactString</a>
 
 
 </td>
@@ -143,7 +143,7 @@ Gets and sets the value of a case-sensitive string.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">CaseIgnoreString</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">CaseIgnoreString</a>
 
 
 </td>
@@ -159,7 +159,7 @@ Gets and sets the value of a case-insensitive string.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">DNString</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">DNString</a>
 
 
 </td>
@@ -175,7 +175,7 @@ Gets and sets an object's distinguished name (path).
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">Integer</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">Integer</a>
 
 
 </td>
@@ -191,7 +191,7 @@ Gets and sets an integer value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">LargeInteger</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">LargeInteger</a>
 
 
 </td>
@@ -207,7 +207,7 @@ Gets and sets a large-integer value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">NumericString</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">NumericString</a>
 
 
 </td>
@@ -223,7 +223,7 @@ Gets and sets the value of a string consisting of numeric characters.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">OctetString</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">OctetString</a>
 
 
 </td>
@@ -239,7 +239,7 @@ Gets and sets the value of a string of eight-bit characters.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">PrintableString</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">PrintableString</a>
 
 
 </td>
@@ -255,7 +255,7 @@ Gets and sets the value of a printable string.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">SecurityDescriptor</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">SecurityDescriptor</a>
 
 
 </td>
@@ -271,7 +271,7 @@ Gets and sets a security descriptor.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">UTCTime</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">UTCTime</a>
 
 
 </td>
@@ -288,29 +288,28 @@ Gets and sets a Coordinated Universal Time value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfo">IADs::GetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-getinfoex">IADs::GetInfoEx</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-getinfoex">IADs::GetInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a>
+<a href="/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadspropertyentry">IADsPropertyEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyvalue-property-methods">IADsPropertyValue Property Methods</a>
+<a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">IADsPropertyValue Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

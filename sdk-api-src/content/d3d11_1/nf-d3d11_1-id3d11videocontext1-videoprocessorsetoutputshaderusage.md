@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets a value indicating whether the output surface from a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">ID3D11VideoContext::VideoProcessorBlt</a> will be read by Direct3D shaders.
+Sets a value indicating whether the output surface from a call to <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">ID3D11VideoContext::VideoProcessorBlt</a> will be read by Direct3D shaders.
 
 ## -parameters
 
@@ -58,15 +58,14 @@ Sets a value indicating whether the output surface from a call to <a href="https
 
 Type: <b>ID3D11VideoProcessor*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface.
+A pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessor">ID3D11VideoProcessor</a> interface.
 
 ### -param ShaderUsage [in]
 
 Type: <b>BOOL</b>
 
-True if the surface rendered using <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">ID3D11VideoContext::VideoProcessorBlt</a> will be read by Direct3D shaders; otherwise, false. This may be set to false when multi-plane overlay hardware is supported.
+True if the surface rendered using <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videocontext-videoprocessorblt">ID3D11VideoContext::VideoProcessorBlt</a> will be read by Direct3D shaders; otherwise, false. This may be set to false when multi-plane overlay hardware is supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>

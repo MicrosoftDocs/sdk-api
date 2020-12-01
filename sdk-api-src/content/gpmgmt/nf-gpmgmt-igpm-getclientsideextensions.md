@@ -52,14 +52,14 @@ api_name:
 ## -description
 
 Creates and returns a 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmcsecollection">GPMCSECollection</a> object that allows you to enumerate Group Policy client-side extensions (CSEs) that are registered on the local computer.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmcsecollection">GPMCSECollection</a> object that allows you to enumerate Group Policy client-side extensions (CSEs) that are registered on the local computer.
 
 ## -parameters
 
 ### -param ppIGPMCSECollection [out]
 
 Address of a pointer to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmcsecollection">IGPMCSECollection</a> interface.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmcsecollection">IGPMCSECollection</a> interface.
 
 ## -returns
 
@@ -74,9 +74,8 @@ Returns a reference to a <b>GPMCSECollection</b> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmcsecollection">IGPMCSECollection</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmcsecollection">IGPMCSECollection</a>

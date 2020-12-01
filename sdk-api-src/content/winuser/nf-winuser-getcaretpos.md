@@ -46,6 +46,7 @@ api_location:
  - ie_stubs.dll
 api_name:
  - GetCaretPos
+req.apiset: ext-ms-win-ntuser-caret-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetCaretPos function
@@ -53,7 +54,7 @@ api_name:
 
 ## -description
 
-Copies the caret's position to the specified <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure.
+Copies the caret's position to the specified <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure.
 
 ## -parameters
 
@@ -61,7 +62,7 @@ Copies the caret's position to the specified <a href="https://docs.microsoft.com
 
 Type: <b>LPPOINT</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that is to receive the client coordinates of the caret.
+A pointer to the <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that is to receive the client coordinates of the caret.
 
 ## -returns
 
@@ -70,7 +71,7 @@ Type: <b>BOOL</b>
 If the function succeeds, the return value is nonzero.
                 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -81,7 +82,7 @@ This API does not participate in DPI virtualization. The returned values are int
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/carets">Carets</a>
+<a href="/windows/desktop/menurc/carets">Carets</a>
 
 
 
@@ -93,7 +94,7 @@ This API does not participate in DPI virtualization. The returned values are int
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
@@ -101,5 +102,4 @@ This API does not participate in DPI virtualization. The returned values are int
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcaretpos">SetCaretPos</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setcaretpos">SetCaretPos</a>

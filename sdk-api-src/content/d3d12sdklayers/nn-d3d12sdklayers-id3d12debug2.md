@@ -50,10 +50,9 @@ Adds configurable levels of GPU-based validation to the debug layer.
 
 ## -inheritance
 
-The **ID3D12Debug2** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
+The **ID3D12Debug2** interface inherits from the [IUnknown](../unknwn/nn-unknwn-iunknown.md) interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-sdklayers-interfaces">Debug Layer Interfaces</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-sdklayers-interfaces">Debug Layer Interfaces</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

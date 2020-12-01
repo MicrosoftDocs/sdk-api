@@ -62,7 +62,7 @@ The length of time, in milliseconds, that the method will wait before timing out
 ### -param dwEventFlags [in]
 
 A bitmask of 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/ne-vswriter-vss_subscribe_mask">VSS_SUBSCRIBE_MASK</a> values indicating the events that VSS should notify the writer about. 
+<a href="/windows/desktop/api/vswriter/ne-vswriter-vss_subscribe_mask">VSS_SUBSCRIBE_MASK</a> values indicating the events that VSS should notify the writer about. 
 
 
 
@@ -121,7 +121,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -142,9 +142,8 @@ The writer has previously called this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-subscribe">CVssWriter::Subscribe</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-subscribe">CVssWriter::Subscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>

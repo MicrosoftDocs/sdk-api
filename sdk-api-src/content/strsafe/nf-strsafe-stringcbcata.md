@@ -56,15 +56,15 @@ Concatenates one  string to another string. The size of the destination buffer i
 
 <b>StringCbCat</b> is a replacement for the following functions:
 <ul>
-<li><a href="https://msdn.microsoft.com/library/h1x0y282.aspx">strcat, wcscat, _tcsat</a></li>
+<li><a href="/cpp/c-runtime-library/reference/strcat-wcscat-mbscat">strcat, wcscat, _tcsat</a></li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcatw">StrCat</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strcatw">StrCat</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strcatbuffa">StrCatBuff</a>
+<a href="/windows/desktop/api/shlwapi/nf-shlwapi-strcatbuffa">StrCatBuff</a>
 </li>
 </ul>
 
@@ -92,7 +92,7 @@ The source string that is to be concatenated to the end of <i>pszDest</i>. This 
 
 Type: <b>HRESULT</b>
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -169,7 +169,7 @@ Note that this function returns an <b>HRESULT</b> value, unlike the functions th
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 
-Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatexa">StringCbCatEx</a> if you require the handling of null string pointer values.
+Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatexa">StringCbCatEx</a> if you require the handling of null string pointer values.
 
 
 
@@ -184,13 +184,12 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="htt
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatexa">StringCbCatEx</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatexa">StringCbCatEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatna">StringCbCatN</a>
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcbcatna">StringCbCatN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a>
-
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a>

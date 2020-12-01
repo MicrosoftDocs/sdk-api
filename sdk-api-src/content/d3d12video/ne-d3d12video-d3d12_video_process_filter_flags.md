@@ -2,7 +2,7 @@
 UID: NE:d3d12video.D3D12_VIDEO_PROCESS_FILTER_FLAGS
 title: D3D12_VIDEO_PROCESS_FILTER_FLAGS
 description: Specifies support for the image filters defined by the D3D12_VIDEO_PROCESS_FILTER enumeration.
-helpviewer_keywords: ["D3D12_VIDEO_PROCESS_FILTER_FLAGS","D3D12_VIDEO_PROCESS_FILTER_FLAGS",""]
+helpviewer_keywords: ["D3D12_VIDEO_PROCESS_FILTER_FLAGS","D3D12_VIDEO_PROCESS_FILTER_FLAGS"]
 tech.root: mf
 ms.assetid: 5ed6a952-6333-41d5-ab6e-73332cf2f590
 ms.date: 05/28/2019
@@ -39,7 +39,7 @@ api_name:
 
 ## -description
 
-Specifies support for the image filters defined by the [D3D12\_VIDEO\_PROCESS\_FILTER](ne-d3d12video-d3d12_video_process_filter.md) enumeration.
+Specifies support for the image filters.
 
 ## -enum-fields
 

@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <b>OnEnd</b> method is called by the SDK when a bulk operation that is started by <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-start">IPortableDevicePropertiesBulk::Start</a> is completed.
+The <b>OnEnd</b> method is called by the SDK when a bulk operation that is started by <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-start">IPortableDevicePropertiesBulk::Start</a> is completed.
 
 ## -parameters
 
 ### -param pContext [in]
 
-Pointer to a GUID that identifies which operation has finished. This value is produced by a <b>Queue</b>... method of the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulk">IPortableDevicePropertiesBulk</a> interface.
+Pointer to a GUID that identifies which operation has finished. This value is produced by a <b>Queue</b>... method of the <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulk">IPortableDevicePropertiesBulk</a> interface.
 
 ### -param hrStatus [out]
 
@@ -69,5 +69,4 @@ The method's return value is ignored.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback">IPortableDevicePropertiesBulkCallback Interface</a>
-
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback">IPortableDevicePropertiesBulkCallback Interface</a>

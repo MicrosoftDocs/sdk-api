@@ -64,5 +64,4 @@ Pointer to a null-terminated string that contains the fully qualified name of th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engmapfile">EngMapFile</a>

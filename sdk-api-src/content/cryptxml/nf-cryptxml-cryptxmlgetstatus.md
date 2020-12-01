@@ -50,22 +50,21 @@ api_name:
 
 ## -description
 
-The <b>CryptXmlGetStatus</b> function returns a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_status">CRYPT_XML_STATUS</a> structure that contains status information about the object specified by the supplied handle.
+The <b>CryptXmlGetStatus</b> function returns a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_status">CRYPT_XML_STATUS</a> structure that contains status information about the object specified by the supplied handle.
 
 ## -parameters
 
 ### -param hCryptXml
 
-A handle to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure, an array 
-of <b>CRYPT_XML_SIGNATURE</b> structures , a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_reference">CRYPT_XML_REFERENCE</a> structure, or a  Manifest object about which to get status information.
+A handle to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_signature">CRYPT_XML_SIGNATURE</a> structure, an array 
+of <b>CRYPT_XML_SIGNATURE</b> structures , a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_reference">CRYPT_XML_REFERENCE</a> structure, or a  Manifest object about which to get status information.
 
 ### -param pStatus
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_status">CRYPT_XML_STATUS</a> structure to receive the returned status information.
+A pointer to a <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_status">CRYPT_XML_STATUS</a> structure to receive the returned status information.
 
 ## -returns
 
 If the function succeeds, the function returns zero.
 
 If the function fails, it returns an <b>HRESULT</b> value that indicates the error.
-

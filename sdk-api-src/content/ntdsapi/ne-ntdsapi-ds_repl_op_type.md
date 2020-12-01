@@ -78,13 +78,12 @@ Indicates the addition, deletion, or update of outbound change notification data
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/enumerations-in-active-directory-domain-services">Active Directory Enumerations</a>
+<a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Active Directory Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a>
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfow">DsReplicaGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
-
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>

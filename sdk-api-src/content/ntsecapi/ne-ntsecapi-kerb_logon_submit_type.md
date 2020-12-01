@@ -80,7 +80,7 @@ Logon using a proxy server.
 
 ### -field KerbTicketLogon
 
-Logon using a valid <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">Kerberos</a> ticket as a credential.
+Logon using a valid <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a> ticket as a credential.
 
 ### -field KerbTicketUnlockLogon
 
@@ -105,4 +105,3 @@ Unlock a workstation using a certificate stored on a smart card.
 ### -field KerbNoElevationLogon
 
 ### -field KerbLuidLogon
-

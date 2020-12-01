@@ -78,5 +78,4 @@ When comparing records, DNS RRs that are stored using different character encodi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsrecordsetcompare">DnsRecordSetCompare</a>
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsrecordsetcompare">DnsRecordSetCompare</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Adds an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> to the asynchronous plug-in collection at the specified index.
+Adds an <a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> to the asynchronous plug-in collection at the specified index.
 
 ## -parameters
 
@@ -64,16 +64,16 @@ The plug-in to add to.
 
 ## -returns
 
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
-You cannot add asynchronous plug-ins if <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object has a child <b>RealTimeStylus Class</b> object.
+You cannot add asynchronous plug-ins if <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object has a child <b>RealTimeStylus Class</b> object.
 
 
 #### Examples
 
-The following C++ code example adds an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> to a <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object. The example code uses the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on a <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer</a> plug-in, <code>g_pGestureHandler</code>, to get the <b>IStylusAsyncPlugin</b> interface, then calls <b>IRealTimeStylus::AddStylusAsyncPlugin Method</b>.
+The following C++ code example adds an instance of an <a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a> to a <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus</a> object. The example code uses the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on a <a href="/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer</a> plug-in, <code>g_pGestureHandler</code>, to get the <b>IStylusAsyncPlugin</b> interface, then calls <b>IRealTimeStylus::AddStylusAsyncPlugin Method</b>.
 
 
 ```cpp
@@ -116,17 +116,16 @@ HRESULT CCOMRTSDlg::InitGestureHandler()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylusasyncplugin">IStylusAsyncPlugin</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
 
 
 
 <b>RealTimeStylus Class</b>
-

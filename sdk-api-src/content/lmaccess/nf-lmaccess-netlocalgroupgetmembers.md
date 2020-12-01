@@ -81,8 +81,8 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Return the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">security identifier</a> (SID) associated with the local group member. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a> structures.
+<a href="/windows/desktop/SecAuthZ/security-identifiers">security identifier</a> (SID) associated with the local group member. The <i>bufptr</i> parameter points to an array of 
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a> structures.
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ Return the
 </td>
 <td width="60%">
 Return the SID and account information associated with the local group member. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_1">LOCALGROUP_MEMBERS_INFO_1</a> structures.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_1">LOCALGROUP_MEMBERS_INFO_1</a> structures.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Return the SID and account information associated with the local group member. T
 </td>
 <td width="60%">
 Return the SID, account information, and the domain name associated with the local group member. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_2">LOCALGROUP_MEMBERS_INFO_2</a> structures.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_2">LOCALGROUP_MEMBERS_INFO_2</a> structures.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Return the SID, account information, and the domain name associated with the loc
 </td>
 <td width="60%">
 Return the account and domain names of the local group member. The <i>bufptr</i> parameter points to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_3">LOCALGROUP_MEMBERS_INFO_3</a> structures.
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_3">LOCALGROUP_MEMBERS_INFO_3</a> structures.
 
 </td>
 </tr>
@@ -124,13 +124,13 @@ Return the account and domain names of the local group member. The <i>bufptr</i>
 ### -param bufptr [out]
 
 Pointer to the address that receives the return information structure. The format of this data depends on the value of the <i>level</i> parameter. This buffer is allocated by the system and must be freed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with ERROR_MORE_DATA.
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function. Note that you must free the buffer even if the function fails with ERROR_MORE_DATA.
 
 ### -param prefmaxlen [in]
 
 Specifies the preferred maximum length of returned data, in bytes. If you specify MAX_PREFERRED_LENGTH, the function allocates the amount of memory required for the data. If you specify another value in this parameter, it can restrict the number of bytes that the function returns. If the buffer size is insufficient to hold all entries, the function returns ERROR_MORE_DATA. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
+<a href="/windows/desktop/NetMgmt/network-management-function-buffers">Network Management Function Buffers</a> and 
+<a href="/windows/desktop/NetMgmt/network-management-function-buffer-lengths">Network Management Function Buffer Lengths</a>.
 
 ### -param entriesread [out]
 
@@ -203,59 +203,58 @@ The specified local group does not exist.
 
 ## -remarks
 
-If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/allowing-anonymous-access">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
+If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="/windows/desktop/SecAuthZ/securable-objects">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="/windows/desktop/SecAuthZ/allowing-anonymous-access">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
+<a href="/windows/desktop/NetMgmt/security-requirements-for-the-network-management-functions">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
+<a href="/windows/desktop/SecAuthZ/access-control-model">Access Control Model</a>.
 
 The security descriptor of the LocalGroup object is used to perform the access check for this function. 
 
 User account names are limited to 20 characters and group names are limited to 256 characters. In addition, account names cannot be terminated by a period and they cannot include commas or any of the following printable characters: ", /, \, [, ], :, |, &lt;, &gt;, +, =, ;, ?, *. Names also cannot include characters in the range 1-31, which are nonprintable.
 
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management local group functions. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsgroup">IADsGroup</a>.
+<a href="/windows/desktop/api/iads/nn-iads-iadsgroup">IADsGroup</a>.
 
 If this function returns <b>ERROR_MORE_DATA</b>, then it must be repeatedly called until <b>ERROR_SUCCESS</b> or <b>NERR_success</b> is returned.  Failure to do so can result in an RPC connection leak.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_0">LOCALGROUP_MEMBERS_INFO_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_1">LOCALGROUP_MEMBERS_INFO_1</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_1">LOCALGROUP_MEMBERS_INFO_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_2">LOCALGROUP_MEMBERS_INFO_2</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_2">LOCALGROUP_MEMBERS_INFO_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_3">LOCALGROUP_MEMBERS_INFO_3</a>
+<a href="/windows/desktop/api/lmaccess/ns-lmaccess-localgroup_members_info_3">LOCALGROUP_MEMBERS_INFO_3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/local-group-functions">Local Group
+<a href="/windows/desktop/NetMgmt/local-group-functions">Local Group
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupenum">NetLocalGroupEnum</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupenum">NetLocalGroupEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupgetinfo">NetLocalGroupGetInfo</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupgetinfo">NetLocalGroupGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupsetmembers">NetLocalGroupSetMembers</a>
+<a href="/windows/desktop/api/lmaccess/nf-lmaccess-netlocalgroupsetmembers">NetLocalGroupSetMembers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
-

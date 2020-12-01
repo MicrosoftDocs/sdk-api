@@ -77,7 +77,7 @@ Array of bytes that contains information for this attribute.
 
 The 
 <b>RADIUS_VSA_FORMAT</b> structure is useful for interpreting the <b>lpValue</b> member of a 
-<a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> structure when the <b>dwAttrType</b> member has a value <b>ratVendorSpecific</b>.
+<a href="/windows/desktop/api/authif/ns-authif-radius_attribute">RADIUS_ATTRIBUTE</a> structure when the <b>dwAttrType</b> member has a value <b>ratVendorSpecific</b>.
 
 See 
 <a href="https://www.ietf.org/rfc/rfc2865.txt">RFC 2865</a> for a description of RADIUS vendor-specific attributes. See 
@@ -85,13 +85,12 @@ See
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
+<a href="/windows/desktop/Nps/ias-about-internet-authentication-service">About NPS Extensions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
+<a href="/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Nps/ias-internet-authentication-service-structures">NPS Extensions Structures</a>
-
+<a href="/windows/desktop/Nps/ias-internet-authentication-service-structures">NPS Extensions Structures</a>

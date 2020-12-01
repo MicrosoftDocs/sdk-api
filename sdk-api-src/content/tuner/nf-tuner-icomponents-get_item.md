@@ -60,7 +60,7 @@ Variable of type <b>VARIANT</b> specifying the zero-based index in the collectio
 
 ### -param ppComponent [out]
 
-Address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a> interface pointer that will receive the <b>Component</b> object at the specified index.
+Address of an <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent</a> interface pointer that will receive the <b>Component</b> object at the specified index.
 
 ## -returns
 
@@ -68,5 +68,4 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponents">IComponents Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponents">IComponents Interface</a>

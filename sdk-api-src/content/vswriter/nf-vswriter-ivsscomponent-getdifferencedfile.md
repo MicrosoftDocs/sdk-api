@@ -66,7 +66,7 @@ Index number of the differenced file to be examined. The value of this parameter
       to <i>n</i>–1 inclusive, where <i>n</i> is the total number of differenced files 
       associated with a given component (and its subcomponents if it defines a component set). The value of 
       <i>n</i> is returned by 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfilescount">IVssComponent::GetDifferencedFilesCount</a>.
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfilescount">IVssComponent::GetDifferencedFilesCount</a>.
 
 ### -param pbstrPath [out]
 
@@ -95,7 +95,7 @@ Reserved for future use.
 ### -param pftLastModifyTime [out]
 
 The address of a caller-allocated variable that receives the writer specification of the time of last modification for the difference files, expressed as a 
-      <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
+      <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 ## -returns
 
@@ -159,7 +159,7 @@ No differenced file corresponding to the supplied index was found.
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more 
         information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -170,16 +170,16 @@ The XML document is not valid. Check the event log for details. For more
 <b>GetDifferencedFile</b> can be called by 
     a requester or a writer during backup or restore operations.
 
-If the call to <b>GetDifferencedFile</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrPath</i> and  <i>pbstrFilespec</i> parameters by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
+If the call to <b>GetDifferencedFile</b> is successful, the caller is responsible for freeing the string that  is returned in the <i>pbstrPath</i> and  <i>pbstrFilespec</i> parameters by calling the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> function.
 
 As writers can indicate differenced files with calls to 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a> 
+    <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a> 
     at any time prior to the actual backing up of files, typically while handling a 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> event 
-    (<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>), during backups 
+    <a href="/windows/desktop/VSS/vssgloss-p">PostSnapshot</a> event 
+    (<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>), during backups 
     <b>GetDifferencedFile</b> is not usefully 
     called prior to the return of 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a> 
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a> 
     has successfully returned.
 
 The time stamp returned by 
@@ -203,12 +203,12 @@ Differenced files can be either of the following:
 <ul>
 <li>Members of the current component or, if the component defines a component set, members of its subcomponents 
       that were added to the component using 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup">IVssCreateWriterMetadata::AddFilesToFileGroup</a>, 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles">IVssCreateWriterMetadata::AddDatabaseFiles</a>, or 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">IVssCreateWriterMetadata::AddDatabaseLogFiles</a>
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup">IVssCreateWriterMetadata::AddFilesToFileGroup</a>, 
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabasefiles">IVssCreateWriterMetadata::AddDatabaseFiles</a>, or 
+      <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-adddatabaselogfiles">IVssCreateWriterMetadata::AddDatabaseLogFiles</a>
 </li>
 <li>New files added to the component by 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
+     <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
 </li>
 </ul>
 When referring to a file set that is already part of the component, the combination of path, file 
@@ -229,24 +229,23 @@ If any of these criteria are violated, they constitute an error on the part of t
     reported.
 
 There is no method in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface that allows for changing or adding 
+    <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a> interface that allows for changing or adding 
     an alternate location mapping for new files returned by 
     <b>GetDifferencedFilesByLastModifyTime</b>. If an alternate location mapping corresponds 
     to the new file, then that alternate location will be used.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime">IVssComponent::AddDifferencedFilesByLastModifyTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfilescount">IVssComponent::GetDifferencedFilesCount</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getdifferencedfilescount">IVssComponent::GetDifferencedFilesCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a>
-
+<a href="/windows/desktop/VSS/incremental-and-differential-backups">Incremental and Differential Backups</a>

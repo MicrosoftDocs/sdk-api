@@ -56,7 +56,7 @@ Fired before navigate occurs in the given host (window or frameset element).
 
 ### -param htmlWindow [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741505(v=vs.85)">IHTMLWindow2</a>*</b>
+Type: <b><a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa741505(v=vs.85)">IHTMLWindow2</a>*</b>
 
 The window or frame in which the navigation is about occur.
 
@@ -86,5 +86,4 @@ Ignored by the host. If this method succeeds, it returns <b>S_OK</b>. Otherwise,
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationnavigationevents">IWebApplicationNavigationEvents</a>
-
+<a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationnavigationevents">IWebApplicationNavigationEvents</a>

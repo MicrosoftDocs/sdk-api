@@ -56,47 +56,46 @@ api_name:
 
 The <b>HTTP_RESPONSE_V2</b> structure extends the HTTP version 1.0 response structure with more information for the response.
 
-Do not use <b>HTTP_RESPONSE_V2</b> directly in your code;  use <a href="https://docs.microsoft.com/windows/desktop/Http/http-response">HTTP_RESPONSE</a> instead to ensure that the proper version, based on the operating system the code is compiled under, is used.
+Do not use <b>HTTP_RESPONSE_V2</b> directly in your code;  use <a href="/windows/desktop/Http/http-response">HTTP_RESPONSE</a> instead to ensure that the proper version, based on the operating system the code is compiled under, is used.
 
 ## -struct-fields
 
 ### -field ResponseInfoCount
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structures in the array pointed to by <b>pResponseInfo</b>.
+The number of <a href="/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structures in the array pointed to by <b>pResponseInfo</b>.
 
 The count of the HTTP_RESPONSE_INFO elements in the array pointed to by <b>pResponseInfo</b>.
 
 ### -field pResponseInfo
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structures containing more information about the request.
+A pointer to an array of <a href="/windows/desktop/api/http/ns-http-http_response_info">HTTP_RESPONSE_INFO</a> structures containing more information about the request.
 
 ### -field _HTTP_RESPONSE_V1
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-structures">HTTP Server API Version 2.0 Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a>
+<a href="/windows/desktop/api/http/ns-http-http_data_chunk">HTTP_DATA_CHUNK</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
+<a href="/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-response">HTTP_RESPONSE</a>
+<a href="/windows/desktop/Http/http-response">HTTP_RESPONSE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a>
+<a href="/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/ns-http-http_response_v1">HTTP_RESPONSE_V1</a>
+<a href="/windows/desktop/api/http/ns-http-http_response_v1">HTTP_RESPONSE_V1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>

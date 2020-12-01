@@ -46,6 +46,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
 api_name:
  - DisplayConfigGetDeviceInfo
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DisplayConfigGetDeviceInfo function
@@ -59,7 +60,7 @@ The <b>DisplayConfigGetDeviceInfo</b> function retrieves display configuration i
 
 ### -param requestPacket [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure. This structure contains information about the request, which includes the packet type in the <b>type</b> member. The type and size of additional data that <b>DisplayConfigGetDeviceInfo</b> returns after the header structure depend on the packet type.
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure. This structure contains information about the request, which includes the packet type in the <b>type</b> member. The type and size of additional data that <b>DisplayConfigGetDeviceInfo</b> returns after the header structure depend on the packet type.
 
 ## -returns
 
@@ -99,7 +100,7 @@ The combination of parameters and flags specified are invalid.
 </dl>
 </td>
 <td width="60%">
-The system is not running a graphics driver that was written according to the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide">Windows Display Driver Model (WDDM)</a>. The function is only supported on a system with a WDDM driver running.
+The system is not running a graphics driver that was written according to the <a href="/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide">Windows Display Driver Model (WDDM)</a>. The function is only supported on a system with a WDDM driver running.
 
 </td>
 </tr>
@@ -146,17 +147,16 @@ The caller can call <b>DisplayConfigGetDeviceInfo</b>to obtain more friendly nam
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name">DISPLAYCONFIG_TARGET_DEVICE_NAME</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name">DISPLAYCONFIG_TARGET_DEVICE_NAME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name_flags">DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_target_device_name_flags">DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-displayconfigsetdeviceinfo">DisplayConfigSetDeviceInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-displayconfigsetdeviceinfo">DisplayConfigSetDeviceInfo</a>

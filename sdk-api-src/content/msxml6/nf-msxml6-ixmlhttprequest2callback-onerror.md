@@ -71,13 +71,12 @@ Returns<b> S_OK</b> on success.
 
 ## -remarks
 
-Unless the request completes successfully, indicated by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onresponsereceived">OnResponseReceived</a>, the call to <b>OnError</b> is the final callback. The client should perform any required cleanup including releasing references to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> object.
+Unless the request completes successfully, indicated by <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onresponsereceived">OnResponseReceived</a>, the call to <b>OnError</b> is the final callback. The client should perform any required cleanup including releasing references to the <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a> object.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream Interface</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-isequentialstream">ISequentialStream Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a>
-
+<a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a>

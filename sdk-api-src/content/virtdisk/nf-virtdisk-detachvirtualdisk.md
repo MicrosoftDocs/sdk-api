@@ -80,7 +80,7 @@ Status of the request.
 If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 If the function fails, the return value is an error code. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
+       <a href="/windows/desktop/Debug/system-error-codes">System Error Codes</a>.
 
 ## -remarks
 
@@ -109,16 +109,15 @@ If the virtual disk is attached and another handle that was used to attach it ha
 This function will fail if a provider cannot be found, if the image file is not valid, if the image is not 
     attached, or if the caller does not have <b>SE_MANAGE_VOLUME_PRIVILEGE</b> access rights on a 
     Windows Server operating system. For more information about file security, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+    <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 CD and DVD image files (ISO) are not supported before Windows 8 and 
     Windows Server 2012.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
+<a href="/previous-versions/windows/desktop/legacy/dd323654(v=vs.85)">About VHD</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>

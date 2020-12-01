@@ -64,7 +64,7 @@ Specifies the number of network binding elements listed in <i>Elements</i>.
 
 ### -field Elements
 
-Specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_bind_element">DHCP_BIND_ELEMENT</a> structures
+Specifies an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_bind_element">DHCP_BIND_ELEMENT</a> structures
 
 ### -field Elements.size_is
 
@@ -72,13 +72,12 @@ Specifies an array of <a href="https://docs.microsoft.com/windows/desktop/api/dh
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_bind_element">DHCP_BIND_ELEMENT</a>
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_bind_element">DHCP_BIND_ELEMENT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetserverbindinginfo">DhcpGetServerBindingInfo</a>
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetserverbindinginfo">DhcpGetServerBindingInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetserverbindinginfo">DhcpSetServerBindingInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetserverbindinginfo">DhcpSetServerBindingInfo</a>

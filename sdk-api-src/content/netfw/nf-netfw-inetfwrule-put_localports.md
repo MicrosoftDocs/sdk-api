@@ -62,11 +62,10 @@ This property is read/write.
 
 This property is optional.
 
-Also see the restrictions on changing properties described in the Remarks section of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
+Also see the restrictions on changing properties described in the Remarks section of the <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a> interface page.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_protocol">Protocol</a> property must be set before the <b>LocalPorts</b> property or an error will be returned.
+The <a href="/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_protocol">Protocol</a> property must be set before the <b>LocalPorts</b> property or an error will be returned.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>

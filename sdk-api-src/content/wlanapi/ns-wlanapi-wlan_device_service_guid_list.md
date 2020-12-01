@@ -61,11 +61,10 @@ The index of the current item. The index of the first item is 0. *dwIndex* must 
 
 ### -field DeviceService
 
-Type: **[GUID](/windows/win32/api/guiddef/ns-guiddef-guid)\[1\]**
+Type: **[GUID](../guiddef/ns-guiddef-guid.md)\[1\]**
 
 A pointer to an array containing **GUID**s; each corresponds to a WLAN device service that the driver supports.
 
 ## -remarks
 
 ## -see-also
-

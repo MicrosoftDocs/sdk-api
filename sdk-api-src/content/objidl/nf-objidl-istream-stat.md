@@ -51,20 +51,20 @@ api_name:
 ## -description
 
 The <b>Stat</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure for this stream.
+<a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure for this stream.
 
 ## -parameters
 
 ### -param pstatstg [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure where this method places information about this stream object.
+<a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure where this method places information about this stream object.
 
 ### -param grfStatFlag [in]
 
 Specifies that this method does not return some of the members in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure, thus saving a memory allocation operation. Values are taken from the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-statflag">STATFLAG</a> enumeration.
+<a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure, thus saving a memory allocation operation. Values are taken from the 
+<a href="/windows/desktop/api/wtypes/ne-wtypes-statflag">STATFLAG</a> enumeration.
 
 ## -returns
 
@@ -73,20 +73,19 @@ This method can return one of these values.
 ## -remarks
 
 <b>IStream::Stat</b> retrieves a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure that contains information about this open stream. When this stream is within a structured storage and 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-istorage-enumelements">IStorage::EnumElements</a> is called, it creates an enumerator object with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a> interface on it, which can be called to enumerate the storages and streams through the 
+<a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a> structure that contains information about this open stream. When this stream is within a structured storage and 
+<a href="/windows/desktop/api/objidl/nf-objidl-istorage-enumelements">IStorage::EnumElements</a> is called, it creates an enumerator object with the 
+<a href="/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a> interface on it, which can be called to enumerate the storages and streams through the 
 <b>STATSTG</b> structures associated with each of them.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
+<a href="/windows/desktop/Stg/istream-compound-file-implementation">IStream - Compound File Implementation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtypes/ne-wtypes-statflag">STATFLAG</a>
+<a href="/windows/desktop/api/wtypes/ne-wtypes-statflag">STATFLAG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a>
-
+<a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a>

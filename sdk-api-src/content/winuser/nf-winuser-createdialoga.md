@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Creates a modeless dialog box from a dialog box template resource. The <b>CreateDialog</b> macro uses the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialogparama">CreateDialogParam</a> function.
+Creates a modeless dialog box from a dialog box template resource. The <b>CreateDialog</b> macro uses the <a href="/windows/desktop/api/winuser/nf-winuser-createdialogparama">CreateDialogParam</a> function.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ A handle to the module which contains the dialog box template. If this parameter
 
 Type: <b>LPCTSTR</b>
 
-The dialog box template. This parameter is either the pointer to a null-terminated character string that specifies the name of the dialog box template or an integer value that specifies the resource identifier of the dialog box template. If the parameter specifies a resource identifier, its high-order word must be zero and its low-order word must contain the identifier. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro to create this value.
+The dialog box template. This parameter is either the pointer to a null-terminated character string that specifies the name of the dialog box template or an integer value that specifies the resource identifier of the dialog box template. If the parameter specifies a resource identifier, its high-order word must be zero and its low-order word must contain the identifier. You can use the <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a> macro to create this value.
 
 ### -param hWndParent [in, optional]
 
@@ -78,18 +78,18 @@ A handle to the window that owns the dialog box.
 
 Type: <b>DLGPROC</b>
 
-A pointer to the dialog box procedure. For more information about the dialog box procedure, see <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>.
+A pointer to the dialog box procedure. For more information about the dialog box procedure, see <a href="/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>.
 
 ## -remarks
 
-The <b>CreateDialog</b> function uses the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function to create the dialog box. <b>CreateDialog</b> then sends a <a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message (and a <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a> message if the template specifies the <a href="https://docs.microsoft.com/windows/desktop/dlgbox/about-dialog-boxes">DS_SETFONT</a> or <b>DS_SHELLFONT</b> style) to the dialog box procedure. The function displays the dialog box if the template specifies the <b>WS_VISIBLE</b> style. Finally, <b>CreateDialog</b> returns the window handle to the dialog box. 
+The <b>CreateDialog</b> function uses the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function to create the dialog box. <b>CreateDialog</b> then sends a <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a> message (and a <a href="/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a> message if the template specifies the <a href="/windows/desktop/dlgbox/about-dialog-boxes">DS_SETFONT</a> or <b>DS_SHELLFONT</b> style) to the dialog box procedure. The function displays the dialog box if the template specifies the <b>WS_VISIBLE</b> style. Finally, <b>CreateDialog</b> returns the window handle to the dialog box. 
 
-After <b>CreateDialog</b> returns, the application displays the dialog box (if it is not already displayed) by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function. The application destroys the dialog box by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a> function. To support keyboard navigation and other dialog box functionality, the message loop for the dialog box must call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isdialogmessagea">IsDialogMessage</a> function.
+After <b>CreateDialog</b> returns, the application displays the dialog box (if it is not already displayed) by using the <a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function. The application destroys the dialog box by using the <a href="/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a> function. To support keyboard navigation and other dialog box functionality, the message loop for the dialog box must call the <a href="/windows/desktop/api/winuser/nf-winuser-isdialogmessagea">IsDialogMessage</a> function.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Creating a Modeless Dialog Box</a>.
+For an example, see <a href="/windows/desktop/dlgbox/using-dialog-boxes">Creating a Modeless Dialog Box</a>.
 
 <div class="code"></div>
 
@@ -105,39 +105,39 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialogindirecta">CreateDialogIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createdialogindirecta">CreateDialogIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialogindirectparama">CreateDialogIndirectParam</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createdialogindirectparama">CreateDialogIndirectParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createdialogparama">CreateDialogParam</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createdialogparama">CreateDialogParam</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-destroywindow">DestroyWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-dialogboxa">DialogBox</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>
+<a href="/windows/desktop/api/winuser/nc-winuser-dlgproc">DialogProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-isdialogmessagea">IsDialogMessage</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-isdialogmessagea">IsDialogMessage</a>
 
 
 
@@ -145,13 +145,12 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>
+<a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a>
-
+<a href="/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a>

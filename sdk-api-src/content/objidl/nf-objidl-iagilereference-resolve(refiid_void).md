@@ -54,25 +54,15 @@ Gets the interface ID of an agile reference to an object.
 
 ## -parameters
 
-### -param riid
+### -param  [in]
 
-TBD
+The interface ID of the interface to be retrieved from the agile reference. It is not required to be the same as the registered interface.
 
-### -param ppvObjectReference
-
-TBD
-
-
-
-
-#### - arg2 [out, retval]
+### -param ppvObjectReference [out, retval]
 
 On successful completion, *<i>ppvObjectReference</i> is a pointer to the interface specified by <i>riid</i>.
 
 
-#### - pp [in]
-
-The interface ID of the interface to be retrieved from the agile reference. It is not required to be the same as the registered interface.
 
 ## -returns
 
@@ -109,13 +99,12 @@ The requested interface isn't implemented on the registered object.
 
 ## -remarks
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a> function to create an agile reference to an object. Call the <b>Resolve</b> method to localize the object into the apartment in which <b>Resolve</b> is called.
+Call the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a> function to create an agile reference to an object. Call the <b>Resolve</b> method to localize the object into the apartment in which <b>Resolve</b> is called.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iagilereference">IAgileReference</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iagilereference">IAgileReference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a>

@@ -49,6 +49,7 @@ api_location:
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
  - SetScrollPos
+req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # SetScrollPos function
@@ -59,13 +60,13 @@ api_name:
 The <b>SetScrollPos</b> function sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box.
 
         
-<div class="alert"><b>Note</b>  The <b>SetScrollPos</b> function is provided for backward compatibility. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>SetScrollPos</b> function is provided for backward compatibility. New applications should use the <a href="/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a> function.</div><div> </div>
 
 ## -parameters
 
 ### -param hWnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to a scroll bar control or a window with a standard scroll bar, depending on the value of the <i>nBar</i> parameter.
 
@@ -116,11 +117,11 @@ Sets the position of the scroll box in a window's standard vertical scroll bar.
 
 Type: <b>int</b>
 
-Specifies the new position of the scroll box. The position must be within the scrolling range. For more information about the scrolling range, see the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a> function.
+Specifies the new position of the scroll box. The position must be within the scrolling range. For more information about the scrolling range, see the <a href="/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a> function.
 
 ### -param bRedraw [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Specifies whether the scroll bar is redrawn to reflect the new scroll box position. If this parameter is <b>TRUE</b>, the scroll bar is redrawn. If it is <b>FALSE</b>, the scroll bar is not redrawn.
 
@@ -132,29 +133,29 @@ If the function succeeds, the return value is the previous position of the scrol
                     
                     
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If the scroll bar is redrawn by a subsequent call to another function, setting the <i>bRedraw</i> parameter to <b>FALSE</b> is useful. 
 
-Because the messages that indicate scroll bar position, <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-hscroll">WM_HSCROLL</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-vscroll">WM_VSCROLL</a>, are limited to 16 bits of position data, applications that rely solely on those messages for position data have a practical maximum value of 65,535 for the <b>SetScrollPos</b> function's <i>nPos</i> parameter. 
+Because the messages that indicate scroll bar position, <a href="/windows/desktop/Controls/wm-hscroll">WM_HSCROLL</a> and <a href="/windows/desktop/Controls/wm-vscroll">WM_VSCROLL</a>, are limited to 16 bits of position data, applications that rely solely on those messages for position data have a practical maximum value of 65,535 for the <b>SetScrollPos</b> function's <i>nPos</i> parameter. 
 
-However, because the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a>, <b>SetScrollPos</b>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollpos">GetScrollPos</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollrange">GetScrollRange</a> functions support 32-bit scroll bar position data, there is a way to circumvent the 16-bit barrier of the <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-hscroll">WM_HSCROLL</a> and <a href="https://docs.microsoft.com/windows/desktop/Controls/wm-vscroll">WM_VSCROLL</a> messages. See <b>GetScrollInfo</b> for a description of the technique. 
+However, because the <a href="/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a>, <b>SetScrollPos</b>, <a href="/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getscrollpos">GetScrollPos</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-getscrollrange">GetScrollRange</a> functions support 32-bit scroll bar position data, there is a way to circumvent the 16-bit barrier of the <a href="/windows/desktop/Controls/wm-hscroll">WM_HSCROLL</a> and <a href="/windows/desktop/Controls/wm-vscroll">WM_VSCROLL</a> messages. See <b>GetScrollInfo</b> for a description of the technique. 
 
-If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://docs.microsoft.com/windows/desktop/Controls/sbm-setpos">SBM_SETPOS</a> message to the window to set scroll bar information.  This allows <b>SetScrollPos</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle the <b>SBM_SETPOS</b> message, the <b>SetScrollPos</b> function fails.
+If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</i> parameter is not a system scroll bar control, the system sends the <a href="/windows/desktop/Controls/sbm-setpos">SBM_SETPOS</a> message to the window to set scroll bar information.  This allows <b>SetScrollPos</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle the <b>SBM_SETPOS</b> message, the <b>SetScrollPos</b> function fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getscrollinfo">GetScrollInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollpos">GetScrollPos</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getscrollpos">GetScrollPos</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getscrollrange">GetScrollRange</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getscrollrange">GetScrollRange</a>
 
 
 
@@ -162,9 +163,8 @@ If the <i>nBar</i> parameter is SB_CTL and the window specified by the <i>hWnd</
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setscrollinfo">SetScrollInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setscrollrange">SetScrollRange</a>

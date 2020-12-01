@@ -74,7 +74,7 @@ Velocity vector in user-defined world units per second, used only for doppler ca
 
 ### -field pCone
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_cone">X3DAUDIO_CONE</a> structure for this listener. Providing a listener cone will specify that additional calculations are performed when determining the volume and filter DSP parameters for individual sound sources. A NULL <b>pCone</b> value specifies an omnidirectional sound and no cone processing is applied. <b>pCone</b> is only used for matrix, LPF (both direct and reverb paths), and reverb calculations.
+Pointer to an <a href="/windows/desktop/api/x3daudio/ns-x3daudio-x3daudio_cone">X3DAUDIO_CONE</a> structure for this listener. Providing a listener cone will specify that additional calculations are performed when determining the volume and filter DSP parameters for individual sound sources. A NULL <b>pCone</b> value specifies an omnidirectional sound and no cone processing is applied. <b>pCone</b> is only used for matrix, LPF (both direct and reverb paths), and reverb calculations.
 
 ## -remarks
 
@@ -92,4 +92,3 @@ A listener's front and top vectors must be orthonormal. To be considered orthono
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
-

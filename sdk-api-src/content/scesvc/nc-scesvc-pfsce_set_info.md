@@ -59,7 +59,7 @@ The <i>PFSCE_SET_INFO</i> callback function sets or overwrites service-specific 
 Type: <b>SCE_HANDLE</b>
 
 Specifies the opaque SCE handle passed to the attachment by the Security Configuration tool set during the call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-initialize">ISceSvcAttachmentData::Initialize</a>. This handle is used to set or overwrite the information.
+<a href="/windows/desktop/api/scesvc/nf-scesvc-iscesvcattachmentdata-initialize">ISceSvcAttachmentData::Initialize</a>. This handle is used to set or overwrite the information.
 
 ### -param sceType [in]
 
@@ -260,7 +260,7 @@ The specified record was not found in the security database.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a>
+<a href="/windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info">PFSCE_QUERY_INFO</a>
 
 
 
@@ -269,4 +269,3 @@ The specified record was not found in the security database.
 
 
 <a href="/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info">SCESVC_CONFIGURATION_INFO</a>
-

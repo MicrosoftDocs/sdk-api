@@ -63,7 +63,7 @@ Set to NULL if parameter restrictions apply regardless of the negotiated applica
 
 The bit string that represents the disabled protocols. 
 
-Set to 0 to use system defaults. Schannel protocol flags are [documented here.](https://msdn.microsoft.com/library/windows/desktop/aa379810(v=vs.85).aspx)
+Set to 0 to use system defaults. Schannel protocol flags are [documented here.](./ns-schannel-schannel_cred.md)
 
 ### -field cDisabledCrypto
 
@@ -91,4 +91,3 @@ Otherwise, schannel may fail TLS handshakes in order to honor the TLS_PARAMETERS
 [SCH_CREDENTIALS](ns-schannel-sch_credentials.md)
 
 [CRYPTO_SETTINGS](ns-schannel-crypto_settings.md)
-

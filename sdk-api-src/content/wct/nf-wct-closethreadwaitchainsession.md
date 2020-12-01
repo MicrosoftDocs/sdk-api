@@ -58,7 +58,7 @@ Closes the specified WCT session and cancels any outstanding asynchronous operat
 
 ### -param WctHandle [in]
 
-A handle to the WCT session created by the <a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a> function.
+A handle to the WCT session created by the <a href="/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a> function.
 
 ## -remarks
 
@@ -68,15 +68,14 @@ If the WCT session was opened in asynchronous mode (with WCT_ASYNC_OPEN_FLAG), t
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/using-wct">Using WCT</a>.
+<a href="/windows/desktop/Debug/using-wct">Using WCT</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a>
+<a href="/windows/desktop/api/wct/nf-wct-openthreadwaitchainsession">OpenThreadWaitChainSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/wait-chain-traversal">Wait Chain Traversal</a>
-
+<a href="/windows/desktop/Debug/wait-chain-traversal">Wait Chain Traversal</a>

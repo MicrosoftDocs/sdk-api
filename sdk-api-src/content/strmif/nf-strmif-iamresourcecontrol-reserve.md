@@ -57,7 +57,7 @@ The <code>Reserve</code> method reserves or unreserves a device resource.
 
 ### -param dwFlags [in]
 
-Flag indicating whether to reserve or unreserve this device. The value must be a member of the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_amresctl_reserveflags">AMRESCTL_RESERVEFLAGS</a> enumeration.
+Flag indicating whether to reserve or unreserve this device. The value must be a member of the <a href="/windows/desktop/api/strmif/ne-strmif-_amresctl_reserveflags">AMRESCTL_RESERVEFLAGS</a> enumeration.
 
 ### -param pvReserved [in]
 
@@ -73,9 +73,8 @@ A resource can be reserved multiple times. If the method returns S_OK, the filte
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamresourcecontrol">IAMResourceControl Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamresourcecontrol">IAMResourceControl Interface</a>

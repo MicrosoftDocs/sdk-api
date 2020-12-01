@@ -57,9 +57,9 @@ api_name:
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>HashAlgID</b> property sets or retrieves the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash algorithm</a> used when signing a PKCS #10 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a>.
+The <b>HashAlgID</b> property sets or retrieves the <a href="/windows/desktop/SecGloss/h-gly">hash algorithm</a> used when signing a PKCS #10 <a href="/windows/desktop/SecGloss/c-gly">certificate request</a>.
 
-This property was first introduced in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
+This property was first introduced in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
 
 This property is read/write.
 
@@ -67,19 +67,18 @@ This property is read/write.
 
 ## -remarks
 
-The values for this property are <a href="https://docs.microsoft.com/windows/desktop/SecGloss/h-gly">hash algorithm</a> IDs, such as those returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll2-enumalgs">EnumAlgs</a> method. If both the <b>HashAlgID</b> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_hashalgorithmwstr">HashAlgorithmWStr</a> properties are set, whichever has been updated most recently determines the hash algorithm used to sign the PKCS #10 request.
+The values for this property are <a href="/windows/desktop/SecGloss/h-gly">hash algorithm</a> IDs, such as those returned by the 
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll2-enumalgs">EnumAlgs</a> method. If both the <b>HashAlgID</b> and 
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_hashalgorithmwstr">HashAlgorithmWStr</a> properties are set, whichever has been updated most recently determines the hash algorithm used to sign the PKCS #10 request.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
+<a href="/windows/desktop/SecCrypto/alg-id">ALG_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>

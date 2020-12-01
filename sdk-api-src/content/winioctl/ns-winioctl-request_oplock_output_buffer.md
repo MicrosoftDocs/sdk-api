@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Contains the opportunistic lock (oplock) information returned by the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a> control code.
+    <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a> control code.
 
 ## -struct-fields
 
@@ -74,7 +74,7 @@ One or more <b>OPLOCK_LEVEL_CACHE_</b><i>XXX</i> values that indicate
        the level of the oplock that was broken.
 
 For possible values, see the <b>RequestedOplockLevel</b> member of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
+       <a href="/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
 
 ### -field NewOplockLevel
 
@@ -83,7 +83,7 @@ One or more <b>OPLOCK_LEVEL_CACHE_</b><i>XXX</i> values that indicate
        on the operation returning this buffer.
 
 For possible values, see the <b>RequestedOplockLevel</b> member of the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
+       <a href="/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a> structure.
 
 ### -field Flags
 
@@ -147,13 +147,12 @@ The <b>REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED</b> flag indicates that the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>
+<a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_request_oplock">FSCTL_REQUEST_OPLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
+<a href="/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a>
-
+<a href="/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a>

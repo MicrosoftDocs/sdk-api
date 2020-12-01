@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>AGENTHANDLER_EVENT</b> enum describes agent handler events. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandlerevent-get_event">ITAgentHandlerEvent::get_Event</a> method returns a member of this enum to indicate the type of agent handler event that occurred.
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagenthandlerevent-get_event">ITAgentHandlerEvent::get_Event</a> method returns a member of this enum to indicate the type of agent handler event that occurred.
 
 ## -enum-fields
 
@@ -66,9 +66,8 @@ An AgentHandler object has been removed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itagenthandlerevent-get_event">ITAgentHandlerEvent::get_Event</a>
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itagenthandlerevent-get_event">ITAgentHandlerEvent::get_Event</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent">ITCallNotificationEvent</a>

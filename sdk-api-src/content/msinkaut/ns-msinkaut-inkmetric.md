@@ -126,13 +126,12 @@ Applying italics to a text ink object slants the ink to the right.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getformat">GetFormat Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getformat">GetFormat Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent">GetInkExtent Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-getinkextent">GetInkExtent Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat">SetFormat Method</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat">SetFormat Method</a>

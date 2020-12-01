@@ -76,7 +76,7 @@ A running total of the number of pages that have been processed by the print job
 
 ### -field completion
 
-The <a href="/windows/win32/api/xpsprint/ne-xpsprint-xps_job_completion">XPS_JOB_COMPLETION</a> value that indicates the completion status of the job.  This value will change when the event passed in the <b>completionEvent</b> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob">StartXpsPrintJob</a> is signaled at the end of a job. If the print job fails, this value will be <b>XPS_JOB_FAILED</b>,  with <i>jobStatus</i> containing the error code of the failure.
+The <a href="/windows/win32/api/xpsprint/ne-xpsprint-xps_job_completion">XPS_JOB_COMPLETION</a> value that indicates the completion status of the job.  This value will change when the event passed in the <b>completionEvent</b> parameter of <a href="/windows/desktop/api/xpsprint/nf-xpsprint-startxpsprintjob">StartXpsPrintJob</a> is signaled at the end of a job. If the print job fails, this value will be <b>XPS_JOB_FAILED</b>,  with <i>jobStatus</i> containing the error code of the failure.
 
 ### -field jobStatus
 
@@ -84,17 +84,16 @@ The error state of the job.  If the job finishes without an error, this value wi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
+<a href="/previous-versions/windows/desktop/dd316975(v=vs.85)">Documents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-getjobstatus">IXpsPrintJob::GetJobStatus</a>
+<a href="/windows/desktop/api/xpsprint/nf-xpsprint-ixpsprintjob-getjobstatus">IXpsPrintJob::GetJobStatus</a>
 
 
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
 <a href="/windows/win32/api/xpsprint/ne-xpsprint-xps_job_completion">XPS_JOB_COMPLETION</a>
-

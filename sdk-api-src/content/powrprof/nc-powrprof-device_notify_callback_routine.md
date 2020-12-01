@@ -78,5 +78,4 @@ This function returns a Windows error code.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a>
-
+<a href="/windows/desktop/api/powerbase/nf-powerbase-powerregistersuspendresumenotification">PowerRegisterSuspendResumeNotification</a>

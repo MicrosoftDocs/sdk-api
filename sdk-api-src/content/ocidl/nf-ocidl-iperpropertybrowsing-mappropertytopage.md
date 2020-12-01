@@ -108,9 +108,8 @@ The address in <i>pClsid</i> is not valid. For example, it may be <b>NULL</b>.
 
 ## -remarks
 
-The CLSID returned from this method can be passed to <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframeindirect">OleCreatePropertyFrameIndirect</a> to specify the initial page to display in the property sheet.
+The CLSID returned from this method can be passed to <a href="/windows/desktop/api/olectl/nf-olectl-olecreatepropertyframeindirect">OleCreatePropertyFrameIndirect</a> to specify the initial page to display in the property sheet.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>

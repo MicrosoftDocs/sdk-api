@@ -72,7 +72,7 @@ Describes the exponent applied to the quotient. This parameter must be a number 
 
 ## -returns
 
-Returns an <a href="https://docs.microsoft.com/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> with identical floating-point components. Each component is a constant
+Returns an <a href="/windows/desktop/dxmath/xmvector-data-type">XMVECTOR</a> with identical floating-point components. Each component is a constant
        divided by two raised to an integer exponent.
 
 ## -remarks
@@ -82,17 +82,16 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-initialization">Vector Initialization Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-vector-initialization">Vector Initialization Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorsetbinaryconstant">XMVectorSetBinaryConstant</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorsetbinaryconstant">XMVectorSetBinaryConstant</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorsetint">XMVectorSetInt</a>
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorsetint">XMVectorSetInt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmvectorsplatconstantint">XMVectorSplatConstantInt</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmvectorsplatconstantint">XMVectorSplatConstantInt</a>

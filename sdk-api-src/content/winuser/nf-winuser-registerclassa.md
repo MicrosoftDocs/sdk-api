@@ -53,6 +53,7 @@ api_name:
  - RegisterClass
  - RegisterClassA
  - RegisterClassW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # RegisterClassA function
@@ -60,8 +61,8 @@ api_name:
 
 ## -description
 
-Registers a window class for subsequent use in calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function.
-<div class="alert"><b>Note</b>  The <b>RegisterClass</b> function has been superseded by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. You can still use <b>RegisterClass</b>, however, if you do not need to set the class small icon.</div><div> </div>
+Registers a window class for subsequent use in calls to the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> or <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a> function.
+<div class="alert"><b>Note</b>  The <b>RegisterClass</b> function has been superseded by the <a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a> function. You can still use <b>RegisterClass</b>, however, if you do not need to set the class small icon.</div><div> </div>
 
 ## -parameters
 
@@ -69,21 +70,21 @@ Registers a window class for subsequent use in calls to the <a href="https://doc
 
 Type: <b>const WNDCLASS*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure. You must fill the structure with the appropriate class attributes before passing it to the function.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a> structure. You must fill the structure with the appropriate class attributes before passing it to the function.
 
 ## -returns
 
 Type: <b>ATOM</b>
 
-If the function succeeds, the return value is a class atom that uniquely identifies the class being registered. This atom can only be used by the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoa">GetClassInfo</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoexa">GetClassInfoEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-findwindowa">FindWindow</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-findwindowexa">FindWindowEx</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterclassa">UnregisterClass</a> functions and the <b>IActiveIMMap::FilterClientWindows</b> method. 
+If the function succeeds, the return value is a class atom that uniquely identifies the class being registered. This atom can only be used by the <a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>, <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa">GetClassInfo</a>, <a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoexa">GetClassInfoEx</a>, <a href="/windows/desktop/api/winuser/nf-winuser-findwindowa">FindWindow</a>, <a href="/windows/desktop/api/winuser/nf-winuser-findwindowexa">FindWindowEx</a>, and <a href="/windows/desktop/api/winuser/nf-winuser-unregisterclassa">UnregisterClass</a> functions and the <b>IActiveIMMap::FilterClientWindows</b> method. 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If you register the window class by using 
 				<b>RegisterClassA</b>, the application tells the system that the windows of the created class expect messages with text or character parameters to use the ANSI character set; if you register it by using 
-				<b>RegisterClassW</b>, the application requests that the system pass text parameters of messages as Unicode. The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindowunicode">IsWindowUnicode</a> function enables applications to query the nature of each window. For more information on ANSI and Unicode functions, see <a href="https://docs.microsoft.com/windows/desktop/Intl/conventions-for-function-prototypes">Conventions for Function Prototypes</a>.
+				<b>RegisterClassW</b>, the application requests that the system pass text parameters of messages as Unicode. The <a href="/windows/desktop/api/winuser/nf-winuser-iswindowunicode">IsWindowUnicode</a> function enables applications to query the nature of each window. For more information on ANSI and Unicode functions, see <a href="/windows/desktop/Intl/conventions-for-function-prototypes">Conventions for Function Prototypes</a>.
 
 All window classes that an application registers are unregistered when it terminates. 
 
@@ -92,7 +93,7 @@ No window classes registered by a DLL are unregistered when the DLL is unloaded.
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/using-window-procedures">Associating a Window Procedure with a Window Class</a>.
+For an example, see <a href="/windows/desktop/winmsg/using-window-procedures">Associating a Window Procedure with a Window Class</a>.
 
 <div class="code"></div>
 
@@ -108,31 +109,31 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa">CreateWindowEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-findwindowa">FindWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-findwindowa">FindWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-findwindowexa">FindWindowEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-findwindowexa">FindWindowEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoa">GetClassInfo</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoa">GetClassInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassinfoexa">GetClassInfoEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclassinfoexa">GetClassInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getclassname">GetClassName</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getclassname">GetClassName</a>
 
 
 
@@ -140,21 +141,20 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclassexa">RegisterClassEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-unregisterclassa">UnregisterClass</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-unregisterclassa">UnregisterClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/window-classes">Window Classes</a>
+<a href="/windows/desktop/winmsg/window-classes">Window Classes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>

@@ -236,17 +236,17 @@ The
 
 
 The application did not properly ensure that the feature was installed by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> and, if necessary, 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a>.
+<a href="/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> and, if necessary, 
+<a href="/windows/desktop/api/msi/nf-msi-msiconfigurefeaturea">MsiConfigureFeature</a>.
 
 </li>
 <li>INSTALLSTATE_UNKNOWN 
 
 
 The feature is not published. The application should have determined this earlier by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea">MsiQueryFeatureState</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msienumfeaturesa">MsiEnumFeatures</a>. The application makes these calls while it initializes. An application should only use features that are known to be published. Since INSTALLSTATE_UNKNOWN should have been returned by 
-<a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> as well, either 
+<a href="/windows/desktop/api/msi/nf-msi-msiqueryfeaturestatea">MsiQueryFeatureState</a> or 
+<a href="/windows/desktop/api/msi/nf-msi-msienumfeaturesa">MsiEnumFeatures</a>. The application makes these calls while it initializes. An application should only use features that are known to be published. Since INSTALLSTATE_UNKNOWN should have been returned by 
+<a href="/windows/desktop/api/msi/nf-msi-msiusefeaturea">MsiUseFeature</a> as well, either 
 <b>MsiUseFeature</b> was not called, or its return value was not properly checked.
 
 </li>
@@ -260,5 +260,4 @@ The feature is not published. The application should have determined this earlie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>
-
+<a href="/windows/desktop/Msi/installer-function-reference">Component-Specific Functions</a>

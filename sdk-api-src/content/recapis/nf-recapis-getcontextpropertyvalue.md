@@ -60,7 +60,7 @@ The handle to the recognizer context.
 
 ### -param pGuid
 
-The property to retrieve. Specify a predefined property globally unique identifier (GUID) or application-defined GUID. For a list of predefined properties, see the recognition <a href="https://docs.microsoft.com/windows/desktop/tablet/property-guids">Property GUIDs</a>.
+The property to retrieve. Specify a predefined property globally unique identifier (GUID) or application-defined GUID. For a list of predefined properties, see the recognition <a href="/windows/desktop/tablet/property-guids">Property GUIDs</a>.
 
 ### -param pcbSize
 
@@ -168,9 +168,8 @@ In the Microsoft recognizers, calling the <b>GetContextPropertyValue</b> functio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-getcontextpropertylist">GetContextPropertyList Function</a>
+<a href="/windows/desktop/api/recapis/nf-recapis-getcontextpropertylist">GetContextPropertyList Function</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-setcontextpropertyvalue">SetContextPropertyValue Function</a>
-
+<a href="/windows/desktop/api/recapis/nf-recapis-setcontextpropertyvalue">SetContextPropertyValue Function</a>

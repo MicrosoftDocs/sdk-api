@@ -52,11 +52,11 @@ api_name:
 
 The <b>ITfLangBarItemBitmapButton</b> interface is implemented by a language bar bitmap button provider and is used by the language bar manager to obtain information specific to a bitmap button item on the language bar.
 
-The language bar manager obtains an instance of this interface by calling QueryInterface on the <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> passed to <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-additem">ITfLangBarItemMgr::AddItem</a> with IID_ITfLangBarItemBitmapButton.
+The language bar manager obtains an instance of this interface by calling QueryInterface on the <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem</a> passed to <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-additem">ITfLangBarItemMgr::AddItem</a> with IID_ITfLangBarItemBitmapButton.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarItemBitmapButton</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarItemBitmapButton</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarItemBitmapButton</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfLangBarItemBitmapButton</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ITfLangBarItemBitmapButton</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-drawbitmap">DrawBitmap</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-drawbitmap">DrawBitmap</a>
 </td>
 <td align="left" width="63%">
 Obtains the bitmap and mask for the bitmap button item.
@@ -80,7 +80,7 @@ Obtains the bitmap and mask for the bitmap button item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-getpreferredsize">GetPreferredSize</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-getpreferredsize">GetPreferredSize</a>
 </td>
 <td align="left" width="63%">
 Obtains the preferred size, in pixels, of the bitmap.
@@ -89,7 +89,7 @@ Obtains the preferred size, in pixels, of the bitmap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-gettext">GetText</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-gettext">GetText</a>
 </td>
 <td align="left" width="63%">
 Obtains the text to be displayed for the bitmap button in the language bar.
@@ -98,7 +98,7 @@ Obtains the text to be displayed for the bitmap button in the language bar.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-initmenu">InitMenu</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-initmenu">InitMenu</a>
 </td>
 <td align="left" width="63%">
 Called to enable a language bar bitmap button, that has the TF_LBI_STYLE_BTN_MENU style, to add items to the menu that the language bar will display for the button.
@@ -107,7 +107,7 @@ Called to enable a language bar bitmap button, that has the TF_LBI_STYLE_BTN_MEN
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-onclick">OnClick</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-onclick">OnClick</a>
 </td>
 <td align="left" width="63%">
 Called when the user clicks a language bar bitmap button that has the TF_LBI_STYLE_BTN_BUTTON or TF_LBI_STYLE_BTN_TOGGLE style.
@@ -116,7 +116,7 @@ Called when the user clicks a language bar bitmap button that has the TF_LBI_STY
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-onmenuselect">OnMenuSelect</a>
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritembitmapbutton-onmenuselect">OnMenuSelect</a>
 </td>
 <td align="left" width="63%">
 Called when the user selects an item in the menu that the language bar displays for the button.
@@ -127,23 +127,22 @@ Called when the user selects an item in the menu that the language bar displays 
 
 ## -remarks
 
-A language bar bitmap button functions as a button item on the language bar that displays text and a small bitmap. The bitmap displayed for the item should not be larger than the size of a small icon. Obtain these dimensions by calling <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with SM_CXSMICON for the width and SM_CYSMICON for the height.
+A language bar bitmap button functions as a button item on the language bar that displays text and a small bitmap. The bitmap displayed for the item should not be larger than the size of a small icon. Obtain these dimensions by calling <a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> with SM_CXSMICON for the width and SM_CYSMICON for the height.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritem">ITfLangBarItem
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-additem">ITfLangBarItemMgr::AddItem
+<a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-additem">ITfLangBarItemMgr::AddItem
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

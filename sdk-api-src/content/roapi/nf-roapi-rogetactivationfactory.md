@@ -58,7 +58,7 @@ Gets the activation factory for the specified runtime class.
 
 ### -param activatableClassId [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: <b><a href="/windows/desktop/WinRT/hstring">HSTRING</a></b>
 
 The ID of the activatable class.
 
@@ -79,4 +79,3 @@ The activation factory.
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -299,7 +299,7 @@ Dialog box initialization failed.
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -310,7 +310,7 @@ A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-win
 </dl>
 </td>
 <td width="60%">
-A call to <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to <a href="/windows/desktop/api/winbase/nf-winbase-globalalloc">GlobalAlloc</a> or the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -332,7 +332,7 @@ Unable to call LoadString for localized resources from the library.
 </dl>
 </td>
 <td width="60%">
-A call to the standard <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
+A call to the standard <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a> allocator failed.
 
 </td>
 </tr>
@@ -376,4 +376,3 @@ IDD_SERVERNOTFOUND </code></pre>
 
 > [!NOTE]
 > The oledlg.h header defines OleUIPromptUser as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

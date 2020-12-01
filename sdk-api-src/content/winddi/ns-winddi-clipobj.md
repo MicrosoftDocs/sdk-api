@@ -62,7 +62,7 @@ Specifies a value that uniquely identifies the clip region. If <b>iUniq</b> is n
 
 ### -field rclBounds
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that bounds the part of the region that intersects the drawing. If <b>iDComplexity</b> is DC_RECT, then this is the clipping rectangle to be considered.
+Specifies a <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that bounds the part of the region that intersects the drawing. If <b>iDComplexity</b> is DC_RECT, then this is the clipping rectangle to be considered.
 
 ### -field iDComplexity
 
@@ -107,7 +107,7 @@ Clipping need not be considered; draw the whole figure.
 
 ### -field iFComplexity
 
-Specifies the complexity of the whole region. This value is used by the driver in deciding whether to cache the region. <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a> can be called to determine the exact number of rectangles in the region. This member can be one of the following values:
+Specifies the complexity of the whole region. This value is used by the driver in deciding whether to cache the region. <a href="/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a> can be called to determine the exact number of rectangles in the region. This member can be one of the following values:
 
 <table>
 <tr>
@@ -204,13 +204,12 @@ The region, described by CLIPOBJ, can be enumerated as a series of rectangles.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_benum">CLIPOBJ_bEnum</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-clipobj_benum">CLIPOBJ_bEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-clipobj_cenumstart">CLIPOBJ_cEnumStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a>
-
+<a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a>

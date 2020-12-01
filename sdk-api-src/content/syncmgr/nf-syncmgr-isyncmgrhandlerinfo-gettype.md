@@ -56,19 +56,19 @@ Gets the handler type for Sync Center.
 
 ### -param pnType [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HANDLER_TYPE</a>*</b>
+Type: <b><a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HANDLER_TYPE</a>*</b>
 
-When this method returns, points to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HANDLER_TYPE</a> enumeration that specifies the handler type. If the method fails, this parameter points to <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HT_UNSPECIFIED</a>.
+When this method returns, points to a value from the <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HANDLER_TYPE</a> enumeration that specifies the handler type. If the method fails, this parameter points to <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HT_UNSPECIFIED</a>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-Returns S_OK if successful, or an error value otherwise. If the method fails, <i>pnType</i> is set to <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HT_UNSPECIFIED</a>.
+Returns S_OK if successful, or an error value otherwise. If the method fails, <i>pnType</i> is set to <a href="/windows/desktop/api/syncmgr/ne-syncmgr-syncmgr_handler_type">SYNCMGR_HT_UNSPECIFIED</a>.
 
 ## -remarks
 
-Typically, this value does not change. However, Sync Center calls this method whenever the <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandler">UpdateHandler</a> method is called.
+Typically, this value does not change. However, Sync Center calls this method whenever the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandler">UpdateHandler</a> method is called.
 
 
 #### Examples
@@ -85,4 +85,3 @@ STDMETHODIMP CMyDeviceHandler::GetType(__out SYNCMGR_HANDLER_TYPE *pnType)
     return S_OK;
 
 ```
-

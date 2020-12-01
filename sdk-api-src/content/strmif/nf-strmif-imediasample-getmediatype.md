@@ -57,7 +57,7 @@ The <code>GetMediaType</code> method retrieves the media type, if the media type
 
 ### -param ppMediaType
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. If the media type has not changed from the previous sample, <i>*ppMediaType</i> is set to <b>NULL</b>.
+Address of a variable that receives a pointer to an <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure. If the media type has not changed from the previous sample, <i>*ppMediaType</i> is set to <b>NULL</b>.
 
 ## -returns
 
@@ -107,13 +107,12 @@ Insufficient memory.
 
 This method enables a filter to make limited changes to the media type, such as changing the palette. To make a significant change to the media type, the pins might need to reconnect and renegotiate the media type.
 
-If the method returns S_OK, the caller must free the memory for the media type, including the format block. You can use the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/deletemediatype">DeleteMediaType</a> function in the DirectShow base class library.
+If the method returns S_OK, the caller must free the memory for the media type, including the format block. You can use the <a href="/windows/desktop/DirectShow/deletemediatype">DeleteMediaType</a> function in the DirectShow base class library.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>

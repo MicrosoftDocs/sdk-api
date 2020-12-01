@@ -60,7 +60,7 @@ Pointer to the surface to erase.
 
 ### -param prcl
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines which pixels to erase on the surface. This rectangle is exclusive of the bottom and right edges.
+Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structure that defines which pixels to erase on the surface. This rectangle is exclusive of the bottom and right edges.
 
 ### -param iColor [in]
 
@@ -69,4 +69,3 @@ Specifies a color index. This is an index to the value that will be written into
 ## -returns
 
 The return value is <b>TRUE</b> if the function is successful. Otherwise, it is <b>FALSE</b>, and an error code is reported.
-

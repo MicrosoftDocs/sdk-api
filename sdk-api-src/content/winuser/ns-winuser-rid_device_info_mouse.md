@@ -95,13 +95,12 @@ For the mouse, the Usage Page is 1 and the Usage is 2.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
+<a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 
 
 <b>Reference</b>
-

@@ -68,9 +68,8 @@ The number of textures in the array.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
+<a href="/windows/desktop/medfound/direct3d-11-video-structures">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessoroutputview">ID3D11VideoDevice::CreateVideoProcessorOutputView</a>
-
+<a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-createvideoprocessoroutputview">ID3D11VideoDevice::CreateVideoProcessorOutputView</a>

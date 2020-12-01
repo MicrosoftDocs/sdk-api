@@ -57,7 +57,7 @@ Retrieves the console-provided result-view image list. This image list should be
 ### -param ppImageList [out]
 
 Address of a variable that receives the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a> interface pointer.
+<a href="/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a> interface pointer.
 
 ## -returns
 
@@ -65,9 +65,8 @@ This method can return one of these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a>
-
+<a href="/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a>

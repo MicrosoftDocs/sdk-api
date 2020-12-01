@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Takes the index of a property sheet page and returns its HPROPSHEETPAGE handle. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-indextopage">PSM_INDEXTOPAGE</a> message explicitly.
+Takes the index of a property sheet page and returns its HPROPSHEETPAGE handle. You can use this macro or send the <a href="/windows/desktop/Controls/psm-indextopage">PSM_INDEXTOPAGE</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet window.
 
@@ -68,5 +68,4 @@ Zero-based index of the page.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/prsht/nf-prsht-propsheet_pagetoindex">PropSheet_PageToIndex</a>
-
+<a href="/windows/desktop/api/prsht/nf-prsht-propsheet_pagetoindex">PropSheet_PageToIndex</a>

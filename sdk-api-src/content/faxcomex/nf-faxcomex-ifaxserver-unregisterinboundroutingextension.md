@@ -46,9 +46,6 @@ api_name:
  - IFaxServer.UnregisterInboundRoutingExtension
 ---
 
-# IFaxServer::UnregisterInboundRoutingExtension
-
-
 ## -description
 
 The <b>IFaxServer::UnregisterInboundRoutingExtension</b> method unregisters an existing inbound routing extension. Unregistration will take place only after the fax server is restarted.
@@ -56,13 +53,6 @@ The <b>IFaxServer::UnregisterInboundRoutingExtension</b> method unregisters an e
 ## -parameters
 
 ### -param bstrExtensionUniqueName
-
-TBD
-
-
-
-
-#### - bstrExtensionName
 
 Type: <b>BSTR</b>
 
@@ -78,13 +68,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Only an administrator can unregister a routing extension. Also, this method works only on the local fax server.
 
-To use this method, a user must have the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farMANAGE_CONFIG</a> access right.
+To use this method, a user must have the <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_access_rights_enum">farMANAGE_CONFIG</a> access right.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
-
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>

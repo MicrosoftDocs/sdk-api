@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>OBJECT_TYPE_LIST</b> structure identifies an object type element in a hierarchy of object types. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytype">AccessCheckByType</a> functions use an array of <b>OBJECT_TYPE_LIST</b> structures to define a hierarchy of an object and its subobjects, such as property sets and properties.
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytype">AccessCheckByType</a> functions use an array of <b>OBJECT_TYPE_LIST</b> structures to define a hierarchy of an object and its subobjects, such as property sets and properties.
 
 ## -struct-fields
 
@@ -115,17 +115,16 @@ A pointer to the GUID for the object or subobject.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytype">AccessCheckByType</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytype">AccessCheckByType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-accesscheckbytypeandauditalarma">AccessCheckByTypeAndAuditAlarm</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-accesscheckbytypeandauditalarma">AccessCheckByTypeAndAuditAlarm</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytyperesultlist">AccessCheckByTypeResultList</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheckbytyperesultlist">AccessCheckByTypeResultList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-accesscheckbytyperesultlistandauditalarma">AccessCheckByTypeResultListAndAuditAlarm</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-accesscheckbytyperesultlistandauditalarma">AccessCheckByTypeResultListAndAuditAlarm</a>

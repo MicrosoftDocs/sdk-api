@@ -58,7 +58,7 @@ The <b>IPsecKeyManagerGetSecurityInfoByKey0</b> function retrieves a copy of the
 
 Type: <b>HANDLE</b>
 
-A handle to an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
+A handle to an open session to the filter engine. Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 ### -param reserved
 
@@ -68,37 +68,37 @@ Reserved. Must be set to NULL.
 
 ### -param securityInfo [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a></b>
+Type: <b><a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a></b>
 
 The type of security information to retrieve.
 
 ### -param sidOwner [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">PSID</a>*</b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-sid">PSID</a>*</b>
 
 The owner security identifier (SID) in the returned security descriptor.
 
 ### -param sidGroup [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">PSID</a>*</b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-sid">PSID</a>*</b>
 
 The primary group security identifier (SID) in the returned security descriptor.
 
 ### -param dacl [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">PACL</a>*</b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-acl">PACL</a>*</b>
 
 The discretionary access control list (DACL) in the returned security descriptor.
 
 ### -param sacl [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">PACL</a>*</b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-acl">PACL</a>*</b>
 
 The system access control list (SACL) in the returned security descriptor.
 
 ### -param securityDescriptor [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">PSECURITY_DESCRIPTOR</a>*</b>
+Type: <b><a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">PSECURITY_DESCRIPTOR</a>*</b>
 
 The returned security descriptor.
 
@@ -131,7 +131,7 @@ The security descriptor was successfully retrieved.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -151,5 +151,4 @@ Failure to communicate with the remote or local firewall engine.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-functions">WFP  Functions</a>
-
+<a href="/windows/desktop/FWP/fwp-functions">WFP  Functions</a>

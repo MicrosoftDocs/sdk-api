@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
  - GetClipboardSequenceNumber
+req.apiset: ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetClipboardSequenceNumber function
@@ -67,5 +68,4 @@ The system keeps a serial number for the clipboard for each window station. This
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>
-
+<a href="/windows/desktop/dataxchg/clipboard">Clipboard</a>

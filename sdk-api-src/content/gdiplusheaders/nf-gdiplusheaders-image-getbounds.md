@@ -57,25 +57,25 @@ The <b>Image::GetBounds</b> method gets the bounding rectangle for this image.
 
 ### -param srcRect [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>*</b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object that receives the bounding rectangle.
+Pointer to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a> object that receives the bounding rectangle.
 
 ### -param srcUnit [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a>*</b>
+Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a>*</b>
 
-Pointer to a variable that receives an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a> enumeration that indicates the unit of measure for the bounding rectangle.
+Pointer to a variable that receives an element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a> enumeration that indicates the unit of measure for the bounding rectangle.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
 If the method succeeds, it returns Ok, which is an element of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 
@@ -89,7 +89,7 @@ Then the bounding rectangle for the metafile will enclose that one ellipse. The 
 #### Examples
 
 The following example creates an 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object based on a metafile and then draws the image. Next, the code calls the <b>Image::GetBounds</b> method to get the bounding rectangle for the image. The code makes two attempts to display 75 percent of the image. The first attempt fails because it specifies (0, 0) for the upper-left corner of the source rectangle. The second attempt succeeds because it uses the 
+						<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object based on a metafile and then draws the image. Next, the code calls the <b>Image::GetBounds</b> method to get the bounding rectangle for the image. The code makes two attempts to display 75 percent of the image. The first attempt fails because it specifies (0, 0) for the upper-left corner of the source rectangle. The second attempt succeeds because it uses the 
 						<b>X</b> and 
 						<b>Y</b> data members returned by <b>Image::GetBounds</b> to specify the upper-left corner of the source rectangle.
 
@@ -140,29 +140,28 @@ The preceding code, along with a particular file, SampleMetafile2.emf, produced 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getheight">Image::GetHeight</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getheight">Image::GetHeight</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getwidth">Image::GetWidth</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getwidth">Image::GetWidth</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-images-bitmaps-and-metafiles-about">Images, Bitmaps, and Metafiles</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-images-bitmaps-and-metafiles-about">Images, Bitmaps, and Metafiles</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
+<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a>
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>

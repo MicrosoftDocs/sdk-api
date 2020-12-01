@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Gets the array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> objects that is stored in the current <a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
+Gets the array of pointers to <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> objects that is stored in the current <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a> object.
 
 ## -parameters
 
@@ -64,9 +64,9 @@ The number of values in the array.
 
 Type: <b>IInspectable**</b>
 
-The array of pointers to <a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> objects.
+The array of pointers to <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a> objects.
 
-The returned pointer must be freed using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+The returned pointer must be freed using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -76,9 +76,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
+<a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvalue">IPropertyValue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createinspectablearray">IPropertyValueStatics::CreateInspectableArray</a>
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createinspectablearray">IPropertyValueStatics::CreateInspectableArray</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Value</b> property retrieves a string that contains the dotted decimal <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). This property is web enabled.
+The <b>Value</b> property retrieves a string that contains the dotted decimal <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID). This property is web enabled.
 
 This property is read-only.
 
@@ -63,27 +63,26 @@ The dotted decimal format is discussed in the ASN.1 X.208 specification. For exa
 
 You must call any of the following methods before you can retrieve this property value:<ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromalgorithmname">InitializeFromAlgorithmName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromname">InitializeFromName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromname">InitializeFromName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromvalue">InitializeFromValue</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-initializefromvalue">InitializeFromValue</a>
 </li>
 </ul>
 
 
 You can also retrieve the following property values:<ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-get_friendlyname">FriendlyName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-get_friendlyname">FriendlyName</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-iobjectid-get_name">Name</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-iobjectid-get_name">Name</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectID</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectID</a>

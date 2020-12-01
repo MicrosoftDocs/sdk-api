@@ -56,7 +56,7 @@ Specifies whether to rotate the video to the correct orientation.
 
 ### -param eRotation
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ne-mfidl-mf_video_processor_rotation">MF_VIDEO_PROCESSOR_ROTATION</a> value that specifies whether to rotate the image.
+A <a href="/windows/desktop/api/mfidl/ne-mfidl-mf_video_processor_rotation">MF_VIDEO_PROCESSOR_ROTATION</a> value that specifies whether to rotate the image.
 
 ## -returns
 
@@ -64,11 +64,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The original orientation of the video is specified by the <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-mt-video-rotation">MF_MT_VIDEO_ROTATION</a> attribute of the input media type.
+The original orientation of the video is specified by the <a href="/windows/desktop/medfound/mf-mt-video-rotation">MF_MT_VIDEO_ROTATION</a> attribute of the input media type.
 
  If <i>eRotation</i> is <b>ROTATION_NONE</b>, the video processor does not correct the orientation of the output video. If the original video is rotated, and <i>eRotation</i> is <b>ROTATION_NORMAL</b>, the video processor corrects the orientation, so that the ouput video is not rotated. The video processor letterboxes the output as needed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol">IMFVideoProcessorControl</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol">IMFVideoProcessorControl</a>

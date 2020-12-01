@@ -47,48 +47,40 @@ api_name:
  - MI_OperationFT
 ---
 
-# MI_OperationFT structure
-
-
 ## -description
 
-A support structure used in the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operation">MI_Operation</a> 
+A support structure used in the <a href="/windows/desktop/api/mi/ns-mi-mi_operation">MI_Operation</a> 
      structure.  Use the functions with the name prefix "MI_Operation_" to manipulate these 
      structures.
 
 ## -struct-fields
 
-### -field MI_Result
-
-TBD
-
 ### -field Cancel
 
 Cancels a running operation. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>.
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>.
 
 ### -field Close
 
 Closes an operation handle. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>.
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>.
 
 ### -field GetClass
 
 Closes an operation handle. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>.
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>.
 
 ### -field GetIndication
 
 Get the synchronous results from a subscription. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getindication">MI_Operation_GetIndication</a>.
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getindication">MI_Operation_GetIndication</a>.
 
 ### -field GetInstance
 
 Gets a synchronous result for an instance operation. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a>.
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getinstance">MI_Operation_GetInstance</a>.
 
 ### -field GetSession
 
 Gets the session associated with an operation. See 
-       <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getsession">MI_Operation_GetSession</a>.
-
+       <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getsession">MI_Operation_GetSession</a>.

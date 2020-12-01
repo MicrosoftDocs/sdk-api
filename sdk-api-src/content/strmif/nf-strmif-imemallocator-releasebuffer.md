@@ -57,7 +57,7 @@ The <code>ReleaseBuffer</code> method releases a media sample.
 
 ### -param pBuffer [in]
 
-Pointer to the media sample's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface.
+Pointer to the media sample's <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample</a> interface.
 
 ## -returns
 
@@ -69,9 +69,8 @@ When a media sample's reference count reaches zero, it calls this method with it
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator Interface</a>

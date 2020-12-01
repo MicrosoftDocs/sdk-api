@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Tests whether the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum) is contained by the specified frustum.
+Tests whether the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md) is contained by the specified frustum.
 
 ## -parameters
 
@@ -80,7 +80,7 @@ A plane describing the frustum.
 
 ## -returns
 
-A <a href="https://msdn.microsoft.com/edc456b5-2d68-4d4e-953b-6081ad7f663c">ContainmentType</a> value indicating whether the frustum contains the [BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum).
+A <a href="/windows/win32/api/directxcollision/ne-directxcollision-containmenttype">ContainmentType</a> value indicating whether the frustum contains the [BoundingFrustum](./ns-directxcollision-boundingfrustum.md).
 
 ## -remarks
 
@@ -89,7 +89,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-[BoundingFrustum](/windows/win32/api/directxcollision/ns-directxcollision-boundingfrustum)
+[BoundingFrustum](./ns-directxcollision-boundingfrustum.md)
 
 
 
@@ -98,4 +98,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

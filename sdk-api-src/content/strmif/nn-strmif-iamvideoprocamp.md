@@ -53,11 +53,11 @@ api_name:
 
 The <b>IAMVideoProcAmp</b> interface adjusts the qualities of an incoming video signal, such as brightness, contrast, hue, saturation, gamma, and sharpness.
 
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture</a> filter exposes this interface if the hardware supports image adjustment.
+The <a href="/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture</a> filter exposes this interface if the hardware supports image adjustment.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoProcAmp</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoProcAmp</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMVideoProcAmp</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMVideoProcAmp</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IAMVideoProcAmp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-get">Get</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-get">Get</a>
 </td>
 <td align="left" width="63%">
 Gets video quality for a specified property.
@@ -81,7 +81,7 @@ Gets video quality for a specified property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-getrange">GetRange</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-getrange">GetRange</a>
 </td>
 <td align="left" width="63%">
 Gets the minimum, maximum, and default values for setting properties.
@@ -90,7 +90,7 @@ Gets the minimum, maximum, and default values for setting properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-set">Set</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-set">Set</a>
 </td>
 <td align="left" width="63%">
 Sets video quality for a specified property.
@@ -101,13 +101,12 @@ Sets video quality for a specified property.
 
 ## -remarks
 
-For Windows Driver Model (WDM) devices, the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-videoprocamp">PROPSETID_VIDCAP_VIDEOPROCAMP</a> property set. For more information, see the <a href="https://msdn.microsoft.com/library/ff554690(VS.85).aspx">Windows Driver Kit (WDK)</a> documentation.
+For Windows Driver Model (WDM) devices, the <a href="/windows/desktop/DirectShow/wdm-video-capture-filter">WDM Video Capture Filter</a> automatically exposes this interface if the WDM driver supports the <a href="/windows-hardware/drivers/stream/propsetid-vidcap-videoprocamp">PROPSETID_VIDCAP_VIDEOPROCAMP</a> property set. For more information, see the <a href="/windows-hardware/drivers/gettingstarted/">Windows Driver Kit (WDK)</a> documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
+<a href="/windows/desktop/DirectShow/configure-the-video-quality">Configure the Video Quality</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/interfaces">Interfaces</a>

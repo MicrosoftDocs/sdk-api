@@ -62,12 +62,12 @@ The phone device to be queried.
 ### -param dwTSPIVersion
 
 Specifies an interface version number that is negotiated for this device using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion">TSPI_phoneNegotiateTSPIVersion</a>. This function operates according to the interface specification at this version level.
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion">TSPI_phoneNegotiateTSPIVersion</a>. This function operates according to the interface specification at this version level.
 
 ### -param lpExtensionID
 
 A pointer to a structure of type 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneextensionid">PHONEEXTENSIONID</a>. If the service provider supports provider-specific extensions, it fills this structure with the extension identifier of these extensions. If the service provider does not support extensions, it fills this structure with all zeros. An extension identifier of all zeros is not a legal extension identifier, since the all-zeros value is used to indicate that the service provider does not support extensions.
+<a href="/windows/desktop/api/tapi/ns-tapi-phoneextensionid">PHONEEXTENSIONID</a>. If the service provider supports provider-specific extensions, it fills this structure with the extension identifier of these extensions. If the service provider does not support extensions, it fills this structure with all zeros. An extension identifier of all zeros is not a legal extension identifier, since the all-zeros value is used to indicate that the service provider does not support extensions.
 
 ## -returns
 
@@ -78,18 +78,17 @@ PHONEERR_INCOMPATIBLEAPIVERSION, PHONEERR_RESOURCEUNAVAIL, PHONEERR_NODRIVER, PH
 ## -remarks
 
 This function is typically called by TAPI in response to an application calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-phonenegotiateapiversion">phoneNegotiateAPIVersion</a> function. The result returned by the service provider should be appropriate for use in a subsequent call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-phonenegotiateapiversion">phoneNegotiateAPIVersion</a> function. The result returned by the service provider should be appropriate for use in a subsequent call to 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phoneextensionid">PHONEEXTENSIONID</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phoneextensionid">PHONEEXTENSIONID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiateextversion">TSPI_phoneNegotiateExtVersion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion">TSPI_phoneNegotiateTSPIVersion</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion">TSPI_phoneNegotiateTSPIVersion</a>

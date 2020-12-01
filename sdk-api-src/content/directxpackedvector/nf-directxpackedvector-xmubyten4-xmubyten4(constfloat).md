@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a new instance of <a href="https://msdn.microsoft.com/552002c1-0000-44a6-9f43-9c958a8d1aa3">XMUBYTEN4</a> from a four element <code>float</code> array argument.
+Initializes a new instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a> from a four element <code>float</code> array argument.
 
 This constructor initializes a new instance of **XMUBYTEN4** from a from a four element <code>float</code> array argument.
 
@@ -91,7 +91,6 @@ instance.w = (uint8_t)_w1;
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten4">XMUBYTEN4</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/xmubyten4-ctor">XMUBYTEN4 Constructors</a>
-
+<a href="/windows/desktop/dxmath/xmubyten4-ctor">XMUBYTEN4 Constructors</a>

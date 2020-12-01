@@ -43,6 +43,7 @@ api_location:
  - ComCtl32.dll
 api_name:
  - DPA_Search
+req.apiset: ext-ms-win-shell-comctl32-da-l1-1-0 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # DPA_Search function
@@ -76,19 +77,19 @@ The index at which to start search.
 
 ### -param pfnCompare
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a></b>
+Type: <b><a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a></b>
 
-A comparison function pointer. See <a href="https://docs.microsoft.com/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a> for the comparison function prototype.
+A comparison function pointer. See <a href="/windows/desktop/api/dpa_dsa/nc-dpa_dsa-pfndacompare">PFNDPACOMPARE</a> for the comparison function prototype.
 
 ### -param lParam
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 An additional parameter to be passed to <i>pfnCmp</i>.
 
 ### -param options
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 This parameter may be one or more of the following.
 
@@ -134,4 +135,3 @@ This value is only valid in conjunction with DPAS_SORTED. If the item is not fou
 Type: <b>int</b>
 
 Returns the index where the item was found in the DPA or <code>-1</code> if the item was not found.
-

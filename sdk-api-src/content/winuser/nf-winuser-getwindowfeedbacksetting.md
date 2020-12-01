@@ -67,11 +67,11 @@ The window to check for feedback configuration.
 
 ### -param feedback [in]
 
-One of the values from the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ne-winuser-feedback_type">FEEDBACK_TYPE</a> enumeration.
+One of the values from the <a href="/windows/desktop/api/winuser/ne-winuser-feedback_type">FEEDBACK_TYPE</a> enumeration.
 
 ### -param dwFlags [in]
 
-Specify <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_feedback/constants">GWFS_INCLUDE_ANCESTORS</a> to check the parent window chain until a value is found. The default is 0 and indicates that only the specified window will be checked.
+Specify <a href="/previous-versions/windows/desktop/input_feedback/constants">GWFS_INCLUDE_ANCESTORS</a> to check the parent window chain until a value is found. The default is 0 and indicates that only the specified window will be checked.
 
 ### -param pSize [in, out]
 
@@ -91,9 +91,8 @@ Returns TRUE if the specified feedback setting is configured on the specified wi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_feedback/functions">Functions</a>
+<a href="/previous-versions/windows/desktop/input_feedback/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>

@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>NotifyRelease</code> method notifies the resource manager that <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer</a> has released a resource.
+The <code>NotifyRelease</code> method notifies the resource manager that <a href="/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer</a> has released a resource.
 
 ## -parameters
 
@@ -135,13 +135,12 @@ Success.
 
 ## -remarks
 
-Use this method in response to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourceconsumer-releaseresource">IResourceConsumer::ReleaseResource</a> method, or when you have finished using the resource.
+Use this method in response to an <a href="/windows/desktop/api/strmif/nf-strmif-iresourceconsumer-releaseresource">IResourceConsumer::ReleaseResource</a> method, or when you have finished using the resource.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>

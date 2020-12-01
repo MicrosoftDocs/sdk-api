@@ -60,11 +60,10 @@ This property is read/write.
 
 ## -remarks
 
-The value of this property must be greater than the value of the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-imaintenancesettings-get_period">Period</a> property.
+The value of this property must be greater than the value of the <a href="/windows/desktop/api/taskschd/nf-taskschd-imaintenancesettings-get_period">Period</a> property.
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-deadline-element">Deadline</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-deadline-element">Deadline</a> element of the Task Scheduler schema.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a>
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a>

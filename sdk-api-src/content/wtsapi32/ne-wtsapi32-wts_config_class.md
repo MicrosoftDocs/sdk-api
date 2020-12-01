@@ -54,8 +54,8 @@ api_name:
 
 Contains 
     values that indicate the type of user configuration information to set or retrieve in a call to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> functions.
+    <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a> and 
+    <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> functions.
 
 ## -enum-fields
 
@@ -440,7 +440,7 @@ Enable no input, no notify
 
 A null-terminated string that contains the path of the user's profile for RD Session Host server logon. The directory 
       the path identifies must be created manually, and must exist prior to the logon. 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> will not create the directory 
+      <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a> will not create the directory 
       if it does not already exist.
 
 ### -field WTSUserConfigTerminalServerHomeDir
@@ -459,7 +459,7 @@ A null-terminated string that contains a drive name (a drive letter followed by 
 
 A value that indicates whether the user's root directory for RD Session Host server logon is a local path or a 
       mapped drive letter. Note that this value cannot be used with 
-      <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>.
+      <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>.
 
 <table>
 <tr>
@@ -494,15 +494,14 @@ The <b>WTSUserConfigTerminalServerHomeDir</b> string contains the UNC path of th
 
 ### -field WTSUserConfigUser
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsuserconfiga">WTSUSERCONFIG</a> structure that contains configuration data for the session. 
+A <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wtsuserconfiga">WTSUSERCONFIG</a> structure that contains configuration data for the session. 
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a>
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsqueryuserconfiga">WTSQueryUserConfig</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>
-
+<a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtssetuserconfiga">WTSSetUserConfig</a>

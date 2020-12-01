@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-The <b>StringFormat::GetHotkeyPrefix</b> method gets an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hotkeyprefix">HotkeyPrefix</a> enumeration that indicates the type of processing that is performed on a string when a hot key prefix, an ampersand (&amp;), is encountered.
+The <b>StringFormat::GetHotkeyPrefix</b> method gets an element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hotkeyprefix">HotkeyPrefix</a> enumeration that indicates the type of processing that is performed on a string when a hot key prefix, an ampersand (&amp;), is encountered.
 
 ## -parameters
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hotkeyprefix">HotkeyPrefix</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hotkeyprefix">HotkeyPrefix</a></b>
 
-This method returns an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hotkeyprefix">HotkeyPrefix</a> enumeration that indicates the type of hot key prefix processing that is performed on a string.
+This method returns an element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hotkeyprefix">HotkeyPrefix</a> enumeration that indicates the type of hot key prefix processing that is performed on a string.
 
 ## -remarks
 
@@ -68,7 +68,7 @@ Hot keys, also called access keys, are keys that are programmed to provide an en
 				<b>File</b> menu.
 
 A client programmer designates a hot key in an application by using the hot key prefix, an ampersand (&amp;), in a string that typically is displayed as the name of a menu or an item in a menu and by using the 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-sethotkeyprefix">StringFormat::SetHotkeyPrefix</a> method to set the appropriate type of processing. When a character in a string is preceded with an ampersand, the key that corresponds to the character becomes a hot key during the processing that occurs when the string is drawn on the display device. The ampersand is called a hot key prefix because it precedes the character to be activated. If HotkeyPrefixNone is passed to 
+				<a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-sethotkeyprefix">StringFormat::SetHotkeyPrefix</a> method to set the appropriate type of processing. When a character in a string is preceded with an ampersand, the key that corresponds to the character becomes a hot key during the processing that occurs when the string is drawn on the display device. The ampersand is called a hot key prefix because it precedes the character to be activated. If HotkeyPrefixNone is passed to 
 				<b>StringFormat::SetHotkeyPrefix</b>, no processing of hot key prefixes occurs.
 
 <div class="alert"><b>Note</b>  The term 
@@ -82,7 +82,7 @@ A client programmer designates a hot key in an application by using the hot key 
 
 
 The following example creates a 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object, sets the type of hot key prefix processing to be performed on the string, and then gets the type of processing and stores it in a variable. The code then creates a second 
+						<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object, sets the type of hot key prefix processing to be performed on the string, and then gets the type of processing and stores it in a variable. The code then creates a second 
 						<b>StringFormat</b> object and uses the stored value to set the type of hot key prefix processing for the second 
 						<b>StringFormat</b> object. The code uses the second 
 						<b>StringFormat</b> object to draw a string that contains the hot key prefix character. The code also draws the string's layout rectangle.
@@ -125,9 +125,8 @@ VOID Example_GetHotkeyPrefix(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hotkeyprefix">HotkeyPrefix</a>
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hotkeyprefix">HotkeyPrefix</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>
-
+<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>

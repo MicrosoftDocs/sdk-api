@@ -68,9 +68,8 @@ Specifies the size in bytes of each vertex entry.
 
 ## -remarks
 
-Use this structure with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers">IASetVertexBuffers</a> method.
+Use this structure with the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers">IASetVertexBuffers</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

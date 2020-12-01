@@ -88,15 +88,15 @@ A union of different IPv6 prefix element types. The value of this union is depen
 
 ### -field Element.IpRange
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_range_v6">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 range for this IPv6 prefix.
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_range_v6">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 range for this IPv6 prefix.
 
 ### -field Element.ReservedIp
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v6">DHCP_IP_RESERVATION_V6</a> structure that contains the IPv6 reservation information.
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v6">DHCP_IP_RESERVATION_V6</a> structure that contains the IPv6 reservation information.
 
 ### -field Element.ExcludeIpRange
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_range_v6">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 exclusion range information.
+Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_range_v6">DHCP_IP_RANGE_V6</a> structure that contains the IPv6 exclusion range information.
 
 ### -field _DHCP_SUBNET_ELEMENT_UNION_V6
 
@@ -106,9 +106,8 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v6">DHCP_IP_RESERVATION_V6</a>
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v6">DHCP_IP_RESERVATION_V6</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a>
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_subnet_element_data_v6">DHCP_SUBNET_ELEMENT_DATA_V6</a>

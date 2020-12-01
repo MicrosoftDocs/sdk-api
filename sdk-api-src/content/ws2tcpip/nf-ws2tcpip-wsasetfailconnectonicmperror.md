@@ -60,11 +60,10 @@ A non-zero value if [**TCP_FAIL_CONNECT_ON_ICMP_ERROR**](/windows/win32/winsock/
 
 ## -returns
 
-On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/windows/win32/winsock/return-values-on-function-failure-2) is returned, and you can retrieve a specific error code by calling [WSAGetLastError](/windows/win32/api/winsock/nf-winsock-wsagetlasterror).
+On success, the function returns 0. Otherwise, a value of [SOCKET_ERROR](/windows/win32/winsock/return-values-on-function-failure-2) is returned, and you can retrieve a specific error code by calling [WSAGetLastError](../winsock/nf-winsock-wsagetlasterror.md).
 
 ## -remarks
 
-This functionality is supported through the [**TCP_FAIL_CONNECT_ON_ICMP_ERROR**](/windows/win32/winsock/ipproto-tcp-socket-options) socket option. **WSASetFailConnectOnIcmpError** is a type-safe wrapper for setting this socket option, and we recommend it over [setsockopt](/windows/win32/api/winsock/nf-winsock-setsockopt).
+This functionality is supported through the [**TCP_FAIL_CONNECT_ON_ICMP_ERROR**](/windows/win32/winsock/ipproto-tcp-socket-options) socket option. **WSASetFailConnectOnIcmpError** is a type-safe wrapper for setting this socket option, and we recommend it over [setsockopt](../winsock/nf-winsock-setsockopt.md).
 
 ## -see-also
-

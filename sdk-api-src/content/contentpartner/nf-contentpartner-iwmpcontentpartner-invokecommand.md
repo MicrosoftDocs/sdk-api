@@ -58,7 +58,7 @@ The <b>InvokeCommand</b> method invokes a context menu command.
 
 ### -param dwCommandID [in]
 
-ID of the command to invoke. Windows Media Player previously obtained this command ID from the content partner plug-in by calling <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcommands">IWMPContentPartner::GetCommands</a>.
+ID of the command to invoke. Windows Media Player previously obtained this command ID from the content partner plug-in by calling <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcommands">IWMPContentPartner::GetCommands</a>.
 
 ### -param location [in]
 
@@ -104,5 +104,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>

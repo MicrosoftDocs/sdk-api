@@ -53,6 +53,7 @@ api_location:
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
  - IsClipboardFormatAvailable
+req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # IsClipboardFormatAvailable function
@@ -68,7 +69,7 @@ Determines whether the clipboard contains data in the specified format.
 
 Type: <b>UINT</b>
 
-A standard or registered clipboard format. For a description of the standard clipboard formats, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/standard-clipboard-formats">Standard Clipboard Formats</a> .
+A standard or registered clipboard format. For a description of the standard clipboard formats, see <a href="/windows/desktop/dataxchg/standard-clipboard-formats">Standard Clipboard Formats</a> .
 
 ## -returns
 
@@ -76,22 +77,22 @@ Type: <b>BOOL</b>
 
 If the clipboard format is available, the return value is nonzero.
 
-If the clipboard format is not available, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the clipboard format is not available, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-Typically, an application that recognizes only one clipboard format would call this function when processing the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-initmenu">WM_INITMENU</a> or <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-initmenupopup">WM_INITMENUPOPUP</a> message. The application would then enable or disable the Paste menu item, depending on the return value. Applications that recognize more than one clipboard format should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpriorityclipboardformat">GetPriorityClipboardFormat</a> function for this purpose. 
+Typically, an application that recognizes only one clipboard format would call this function when processing the <a href="/windows/desktop/menurc/wm-initmenu">WM_INITMENU</a> or <a href="/windows/desktop/menurc/wm-initmenupopup">WM_INITMENUPOPUP</a> message. The application would then enable or disable the Paste menu item, depending on the return value. Applications that recognize more than one clipboard format should use the <a href="/windows/desktop/api/winuser/nf-winuser-getpriorityclipboardformat">GetPriorityClipboardFormat</a> function for this purpose. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg/using-the-clipboard">Pasting Information from the Clipboard</a>.
+For an example, see <a href="/windows/desktop/dataxchg/using-the-clipboard">Pasting Information from the Clipboard</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dataxchg/clipboard">Clipboard</a>
+<a href="/windows/desktop/dataxchg/clipboard">Clipboard</a>
 
 
 
@@ -99,15 +100,15 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-countclipboardformats">CountClipboardFormats</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-countclipboardformats">CountClipboardFormats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enumclipboardformats">EnumClipboardFormats</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enumclipboardformats">EnumClipboardFormats</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpriorityclipboardformat">GetPriorityClipboardFormat</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getpriorityclipboardformat">GetPriorityClipboardFormat</a>
 
 
 
@@ -115,13 +116,12 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registerclipboardformata">RegisterClipboardFormat</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registerclipboardformata">RegisterClipboardFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-initmenu">WM_INITMENU</a>
+<a href="/windows/desktop/menurc/wm-initmenu">WM_INITMENU</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/wm-initmenupopup">WM_INITMENUPOPUP</a>
-
+<a href="/windows/desktop/menurc/wm-initmenupopup">WM_INITMENUPOPUP</a>

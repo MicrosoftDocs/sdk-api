@@ -110,10 +110,10 @@ Contains a set of flags that cannot be changed at run time. This member can cont
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS</a> structure contains document status data.
+The <a href="/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS</a> structure contains document status data.
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS</a> is an alias for <b>TS_STATUS</b>.
+<a href="/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS</a> is an alias for <b>TS_STATUS</b>.
 
 <b>dwDynamicFlags</b> contains a set of flags that can be changed by an app at run time. For example, an app can enable a check box for the user to reset the status of documentation. This member can contain zero, or one or more of the following values.
 
@@ -179,21 +179,20 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getstatus">ITextStoreACP::GetStatus
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-getstatus">ITextStoreACP::GetStatus
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onstatuschange">ITextStoreACPSink::OnStatusChange
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacpsink-onstatuschange">ITextStoreACPSink::OnStatusChange
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getstatus">ITextStoreAnchor::GetStatus
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-getstatus">ITextStoreAnchor::GetStatus
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstatuschange">ITextStoreAnchorSink::OnStatusChange
+<a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onstatuschange">ITextStoreAnchorSink::OnStatusChange
       </a>
-

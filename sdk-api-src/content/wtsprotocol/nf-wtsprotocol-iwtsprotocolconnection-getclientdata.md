@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[<b>IWTSProtocolConnection::GetClientData</b> 
     is no longer available for use as of Windows Server 2012. Instead, use 
-    <a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-getclientdata">IWRdsProtocolConnection::GetClientData</a>.]
+    <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-getclientdata">IWRdsProtocolConnection::GetClientData</a>.]
 
 Requests client settings from the protocol.
 
@@ -60,9 +60,8 @@ Requests client settings from the protocol.
 
 ### -param pClientData [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_client_data">WTS_CLIENT_DATA</a> structure that contains the client settings.
+A pointer to a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_client_data">WTS_CLIENT_DATA</a> structure that contains the client settings.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
-
+<a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>

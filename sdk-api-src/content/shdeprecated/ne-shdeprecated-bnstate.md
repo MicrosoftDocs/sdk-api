@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Deprecated. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-setnavigatestate">IBrowserService::SetNavigateState</a> and <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-getnavigatestate">IBrowserService::GetNavigateState</a> to specify navigation states.
+Deprecated. Used by <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-setnavigatestate">IBrowserService::SetNavigateState</a> and <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-getnavigatestate">IBrowserService::GetNavigateState</a> to specify navigation states.
 
 ## -enum-fields
 
@@ -68,4 +68,3 @@ A begin navigation event has occurred.
 ### -field BNS_NAVIGATE
 
 The navigation event has occurred.
-

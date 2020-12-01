@@ -78,25 +78,24 @@ The application type is defined by the following enum.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nf-callobj-cogetinterceptor">CoGetInterceptor</a>
+<a href="/windows/desktop/api/callobj/nf-callobj-cogetinterceptor">CoGetInterceptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallframeevents">ICallFrameEvents</a>
+<a href="/windows/desktop/api/callobj/nn-callobj-icallframeevents">ICallFrameEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallinterceptor">ICallInterceptor</a>
+<a href="/windows/desktop/api/callobj/nn-callobj-icallinterceptor">ICallInterceptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/callobj/nn-callobj-icallunmarshal">ICallUnmarshal</a>
+<a href="/windows/desktop/api/callobj/nn-callobj-icallunmarshal">ICallUnmarshal</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurrogateService</a>
-
+<a href="/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurrogateService</a>

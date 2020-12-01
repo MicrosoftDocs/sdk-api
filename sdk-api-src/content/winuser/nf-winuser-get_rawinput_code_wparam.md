@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Retrieves the input code from <i>wParam</i> in [WM_INPUT](https://docs.microsoft.com/windows/desktop/inputdev/wm-input) message.
+Retrieves the input code from <i>wParam</i> in [WM_INPUT](/windows/desktop/inputdev/wm-input) message.
 
 ## -parameters
 
 ### -param wParam
 
-<i>wParam</i> from [WM_INPUT](https://docs.microsoft.com/windows/desktop/inputdev/wm-input) message.
+<i>wParam</i> from [WM_INPUT](/windows/desktop/inputdev/wm-input) message.
 
 ## -returns
 
@@ -73,9 +73,8 @@ Input code value. Can be one of the following:
 
 [RAWINPUT](ns-winuser-rawinput.md)
 
-[Raw Input](https://docs.microsoft.com/windows/desktop/inputdev/raw-input)
+[Raw Input](/windows/desktop/inputdev/raw-input)
 
 **Reference**
 
-[WM_INPUT](https://docs.microsoft.com/windows/desktop/inputdev/wm-input)
-
+[WM_INPUT](/windows/desktop/inputdev/wm-input)

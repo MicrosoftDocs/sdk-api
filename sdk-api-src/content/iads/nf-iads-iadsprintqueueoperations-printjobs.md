@@ -50,43 +50,42 @@ api_name:
 
 ## -description
 
-The <b>IADsPrintQueueOperations::PrintJobs</b> method gets an  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> interface pointer on the collection of the print jobs processed in this print queue. This collection can be enumerated using the standard Automation enumeration methods on  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>. To delete a print job, use the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-remove">IADsCollection::Remove</a> method on the retrieved interface pointer.
+The <b>IADsPrintQueueOperations::PrintJobs</b> method gets an  <a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> interface pointer on the collection of the print jobs processed in this print queue. This collection can be enumerated using the standard Automation enumeration methods on  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>. To delete a print job, use the  <a href="/windows/desktop/api/iads/nf-iads-iadscollection-remove">IADsCollection::Remove</a> method on the retrieved interface pointer.
 
 ## -parameters
 
 ### -param pObject [out]
 
-Pointer to a pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> interface on the collection of objects added to this print queue. Objects in the collection implement the  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsprintjob">IADsPrintJob</a> interface.
+Pointer to a pointer to the  <a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a> interface on the collection of objects added to this print queue. Objects in the collection implement the  <a href="/windows/desktop/api/iads/nn-iads-iadsprintjob">IADsPrintJob</a> interface.
 
 ## -returns
 
-This method supports the standard return values. For more information about other return values, see the  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard return values. For more information about other return values, see the  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsenumeratenext">ADsEnumerateNext</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsenumeratenext">ADsEnumerateNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscollection">IADsCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscollection-remove">IADsCollection::Remove</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadscollection-remove">IADsCollection::Remove</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsprintjob">IADsPrintJob</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsprintjob">IADsPrintJob</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsprintjob-property-methods">IADsPrintJob Property Methods</a>
+<a href="/windows/desktop/ADSI/iadsprintjob-property-methods">IADsPrintJob Property Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsprintqueueoperations">IADsPrintQueueOperations</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsprintqueueoperations">IADsPrintQueueOperations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>

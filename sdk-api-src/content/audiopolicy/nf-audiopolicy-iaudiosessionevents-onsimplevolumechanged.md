@@ -64,7 +64,7 @@ The new muting state. If <b>TRUE</b>, muting is enabled. If <b>FALSE</b>, muting
 
 ### -param EventContext [in]
 
-The event context value. This is the same value that the caller passed to <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume">ISimpleAudioVolume::SetMasterVolume</a> or <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmute">ISimpleAudioVolume::SetMute</a> in the call that changed the volume level or muting state of the session. For more information, see Remarks.
+The event context value. This is the same value that the caller passed to <a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume">ISimpleAudioVolume::SetMasterVolume</a> or <a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmute">ISimpleAudioVolume::SetMute</a> in the call that changed the volume level or muting state of the session. For more information, see Remarks.
 
 ## -returns
 
@@ -72,21 +72,20 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -remarks
 
-The session manager calls this method each time a call to the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume">ISimpleAudioVolume::SetMasterVolume</a> or <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmute">ISimpleAudioVolume::SetMute</a> method changes the volume level or muting state of the session.
+The session manager calls this method each time a call to the <a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume">ISimpleAudioVolume::SetMasterVolume</a> or <a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmute">ISimpleAudioVolume::SetMute</a> method changes the volume level or muting state of the session.
 
-The <i>EventContext</i> parameter provides a means for a client to distinguish between a volume or mute change that it initiated and one that some other client initiated. When calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume">ISimpleAudioVolume::SetMasterVolume</a> or <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmute">ISimpleAudioVolume::SetMute</a> method, a client passes in an <i>EventContext</i> parameter value that its implementation of the <b>OnSimpleVolumeChanged</b> method can recognize.
+The <i>EventContext</i> parameter provides a means for a client to distinguish between a volume or mute change that it initiated and one that some other client initiated. When calling the <a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume">ISimpleAudioVolume::SetMasterVolume</a> or <a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmute">ISimpleAudioVolume::SetMute</a> method, a client passes in an <i>EventContext</i> parameter value that its implementation of the <b>OnSimpleVolumeChanged</b> method can recognize.
 
-For a code example that implements the methods in the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents</a> interface, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-session-events">Audio Session Events</a>.
+For a code example that implements the methods in the <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents</a> interface, see <a href="/windows/desktop/CoreAudio/audio-session-events">Audio Session Events</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents Interface</a>
+<a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume">ISimpleAudioVolume::SetMasterVolume</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume">ISimpleAudioVolume::SetMasterVolume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmute">ISimpleAudioVolume::SetMute</a>
-
+<a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmute">ISimpleAudioVolume::SetMute</a>

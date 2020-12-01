@@ -65,11 +65,11 @@ Receives the result of the operation for the item.  Contains S_OK if the operati
 
 ### -param pErrorInfo [in]
 
-Receives a pointer to an instance of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncerrorinfo">IOfflineFilesSyncErrorInfo</a> interface that provides detailed information about the result of the sync operation.
+Receives a pointer to an instance of the <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncerrorinfo">IOfflineFilesSyncErrorInfo</a> interface that provides detailed information about the result of the sync operation.
 
 ### -param pResponse [out]
 
-Set this parameter to a value from the <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_op_response">OFFLINEFILES_OP_RESPONSE</a> enumeration that indicates how the operation is to proceed.
+Set this parameter to a value from the <a href="/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_op_response">OFFLINEFILES_OP_RESPONSE</a> enumeration that indicates how the operation is to proceed.
 
 ## -returns
 
@@ -77,5 +77,4 @@ The return value is ignored.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncprogress">IOfflineFilesSyncProgress</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessyncprogress">IOfflineFilesSyncProgress</a>

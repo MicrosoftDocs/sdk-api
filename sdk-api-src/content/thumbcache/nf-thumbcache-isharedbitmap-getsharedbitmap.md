@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the bitmap contained in an <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> object.
+Retrieves the bitmap contained in an <a href="/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> object.
 
 ## -parameters
 
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The bitmap retrieved might reside in shared memory.
-

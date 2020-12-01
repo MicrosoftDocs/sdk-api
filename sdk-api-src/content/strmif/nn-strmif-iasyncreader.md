@@ -53,27 +53,27 @@ api_name:
 
 The <code>IAsyncReader</code> interface performs an asynchronous data request on a filter.
 
-This interface is exposed by output pins that perform asynchronous read operations. The interface is used by the input pin on the downstream filter. Applications do not use this interface. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/file-source--async--filter">Async File Source</a> filter exposes this interface on its output pin.
+This interface is exposed by output pins that perform asynchronous read operations. The interface is used by the input pin on the downstream filter. Applications do not use this interface. The <a href="/windows/desktop/DirectShow/file-source--async--filter">Async File Source</a> filter exposes this interface on its output pin.
 
-<b>Filter developers</b>: Implement this interface if your output pin delivers data in the form of a byte stream (MEDIATYPE_Stream) and supports the pull model. During the connection process, check whether the downstream pin queries for the <code>IAsyncReader</code> interface. If it does not, your pin should either fail the connection or establish some other transport. (If your pin derives from <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepin">CBasePin</a>, perform this check in the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepin-checkconnect">CBasePin::CheckConnect</a> method.)
+<b>Filter developers</b>: Implement this interface if your output pin delivers data in the form of a byte stream (MEDIATYPE_Stream) and supports the pull model. During the connection process, check whether the downstream pin queries for the <code>IAsyncReader</code> interface. If it does not, your pin should either fail the connection or establish some other transport. (If your pin derives from <a href="/windows/desktop/DirectShow/cbasepin">CBasePin</a>, perform this check in the <a href="/windows/desktop/DirectShow/cbasepin-checkconnect">CBasePin::CheckConnect</a> method.)
 
 For more information about using this interface, see the following topics:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/negotiating-allocators">Negotiating Allocators</a>
+<a href="/windows/desktop/DirectShow/negotiating-allocators">Negotiating Allocators</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-for-filter-developers">Data Flow for Filter Developers</a>
+<a href="/windows/desktop/DirectShow/data-flow-for-filter-developers">Data Flow for Filter Developers</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/cpullpin">CPullPin Class</a>
+<a href="/windows/desktop/DirectShow/cpullpin">CPullPin Class</a>
 </li>
 </ul>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAsyncReader</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAsyncReader</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAsyncReader</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAsyncReader</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -88,7 +88,7 @@ The <b>IAsyncReader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-beginflush">BeginFlush</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-beginflush">BeginFlush</a>
 </td>
 <td align="left" width="63%">
 Causes all outstanding reads to return.
@@ -97,7 +97,7 @@ Causes all outstanding reads to return.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-endflush">EndFlush</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-endflush">EndFlush</a>
 </td>
 <td align="left" width="63%">
 Ends the flushing operation.
@@ -106,7 +106,7 @@ Ends the flushing operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-length">Length</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-length">Length</a>
 </td>
 <td align="left" width="63%">
 Retrieves the total length of the stream, and the currently available length.
@@ -115,7 +115,7 @@ Retrieves the total length of the stream, and the currently available length.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-request">Request</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-request">Request</a>
 </td>
 <td align="left" width="63%">
 Queues a request for data.
@@ -124,7 +124,7 @@ Queues a request for data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-requestallocator">RequestAllocator</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-requestallocator">RequestAllocator</a>
 </td>
 <td align="left" width="63%">
 Retrieves the actual allocator to be used.
@@ -133,7 +133,7 @@ Retrieves the actual allocator to be used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-syncread">SyncRead</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-syncread">SyncRead</a>
 </td>
 <td align="left" width="63%">
 Performs a synchronized read.
@@ -142,7 +142,7 @@ Performs a synchronized read.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-syncreadaligned">SyncReadAligned</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-syncreadaligned">SyncReadAligned</a>
 </td>
 <td align="left" width="63%">
 Performs an aligned synchronized read.
@@ -151,7 +151,7 @@ Performs an aligned synchronized read.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iasyncreader-waitfornext">WaitForNext</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-waitfornext">WaitForNext</a>
 </td>
 <td align="left" width="63%">
 Blocks until the next sample is completed or the time-out occurs.
@@ -159,4 +159,3 @@ Blocks until the next sample is completed or the time-out occurs.
 </td>
 </tr>
 </table>
-

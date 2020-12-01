@@ -55,13 +55,13 @@ api_name:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated and should not be used.]
 
-The <b>CM_Get_HW_Prof_Flags</b> function retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/">hardware profile</a>-specific configuration flags for a <a href="https://docs.microsoft.com/windows-hardware/drivers/">device instance</a> on a local machine.
+The <b>CM_Get_HW_Prof_Flags</b> function retrieves the <a href="/windows-hardware/drivers/">hardware profile</a>-specific configuration flags for a <a href="/windows-hardware/drivers/">device instance</a> on a local machine.
 
 ## -parameters
 
 ### -param pDeviceID [in]
 
-Pointer to a NULL-terminated string that contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> of the device for which to retrieve hardware profile-specific configuration flags.
+Pointer to a NULL-terminated string that contains the <a href="/windows-hardware/drivers/install/device-instance-ids">device instance ID</a> of the device for which to retrieve hardware profile-specific configuration flags.
 
 ### -param ulHardwareProfile [in]
 
@@ -107,9 +107,9 @@ If the operation succeeds, <b>CM_Get_HW_Prof_Flags</b> returns CR_SUCCESS. Other
 
 ## -remarks
 
-To retrieve a list of hardware profile IDs that are currently defined on a local machine, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelist">SetupDiGetHwProfileList</a>.
+To retrieve a list of hardware profile IDs that are currently defined on a local machine, call <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelist">SetupDiGetHwProfileList</a>.
 
-To retrieve configuration flags for a device instance on a remote machine, call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flags_exa">CM_Get_HW_Prof_Flags_Ex</a>.
+To retrieve configuration flags for a device instance on a remote machine, call <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flags_exa">CM_Get_HW_Prof_Flags_Ex</a>.
 
 
 
@@ -120,13 +120,12 @@ To retrieve configuration flags for a device instance on a remote machine, call 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flags_exa">CM_Get_HW_Prof_Flags_Ex</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flags_exa">CM_Get_HW_Prof_Flags_Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilefriendlynamea">SetupDiGetHwProfileFriendlyName</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilefriendlynamea">SetupDiGetHwProfileFriendlyName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelist">SetupDiGetHwProfileList</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelist">SetupDiGetHwProfileList</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains values that specify a type of <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacondition">UiaCondition</a>.
+Contains values that specify a type of <a href="/windows/desktop/api/uiautomationcoreapi/ns-uiautomationcoreapi-uiacondition">UiaCondition</a>.
 
 ## -enum-fields
 
@@ -77,4 +77,3 @@ A complex condition where at least one of the contained conditions must be true.
 ### -field ConditionType_Not
 
 A condition that is true if the specified conditions are not met.
-

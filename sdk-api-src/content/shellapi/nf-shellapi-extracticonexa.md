@@ -47,6 +47,7 @@ api_name:
  - ExtractIconEx
  - ExtractIconExA
  - ExtractIconExW
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ExtractIconExA function
@@ -103,11 +104,11 @@ If the *nIconIndex* parameter is -1 and both the *phiconLarge* and *phiconSmall*
 If the *nIconIndex* parameter is any value other than -1 and either *phiconLarge* or *phiconSmall* is not **NULL**, the return value is the number of icons successfully extracted from the file.
 
 > [!NOTE]
-> If the function encounters an error, it returns **UINT_MAX**. In this case, you can call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to retrieve the error code. For example, this function returns **UINT_MAX** if the file specified by *lpszFile* cannot be found while the *nIconIndex* parameter is any value other than -1 and either *phiconLarge* or *phiconSmall* is not **NULL**. In this case, **GetLastError** returns **ERROR_FILE_NOT_FOUND** (2).
+> If the function encounters an error, it returns **UINT_MAX**. In this case, you can call [GetLastError](../errhandlingapi/nf-errhandlingapi-getlasterror.md) to retrieve the error code. For example, this function returns **UINT_MAX** if the file specified by *lpszFile* cannot be found while the *nIconIndex* parameter is any value other than -1 and either *phiconLarge* or *phiconSmall* is not **NULL**. In this case, **GetLastError** returns **ERROR_FILE_NOT_FOUND** (2).
 
 ## -remarks
 
-When they are no longer needed, you must destroy all icons extracted by <b>ExtractIconEx</b> by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
+When they are no longer needed, you must destroy all icons extracted by <b>ExtractIconEx</b> by calling the <a href="/windows/desktop/api/winuser/nf-winuser-destroyicon">DestroyIcon</a> function.
 
 To retrieve the dimensions of the large and small icons, use this function with the SM_CXICON, SM_CYICON, SM_CXSMICON, and SM_CYSMICON flags.
 
@@ -120,13 +121,12 @@ To retrieve the dimensions of the large and small icons, use this function with 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extractassociatedicona">ExtractAssociatedIcon</a>
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extractassociatedicona">ExtractAssociatedIcon</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extractassociatediconexa">ExtractAssociatedIconEx</a>
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extractassociatediconexa">ExtractAssociatedIconEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a>
-
+<a href="/windows/desktop/api/shellapi/nf-shellapi-extracticona">ExtractIcon</a>

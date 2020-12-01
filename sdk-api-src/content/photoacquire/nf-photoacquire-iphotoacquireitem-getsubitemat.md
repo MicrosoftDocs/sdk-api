@@ -61,7 +61,7 @@ Integer containing the index of the item.
 
 ### -param ppPhotoAcquireItem [out]
 
-Returns the <a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object at the given index.
+Returns the <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem</a> object at the given index.
 
 ## -returns
 
@@ -91,5 +91,4 @@ If no item is found at the given index, <i>ppPhotoAcquireItem</i> is set to <b>N
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
-
+<a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>

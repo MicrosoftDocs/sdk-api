@@ -62,7 +62,7 @@ Indicates the outcome of the data extraction. Set this value to S_OK if successf
 
 ### -param pbcReserved [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
+Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>*</b>
 
 Reserved. Set to <b>nullptr</b>.
 
@@ -70,7 +70,7 @@ Reserved. Set to <b>nullptr</b>.
 
 Type: <b>DWORD</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/com/dropeffect-constants">DROPEFFECT</a> value that indicates the result of an optimized move. This should be the same value that would be passed to the data object as a CFSTR_PERFORMEDDROPEFFECT format with a normal data extraction operation.
+A <a href="/windows/desktop/com/dropeffect-constants">DROPEFFECT</a> value that indicates the result of an optimized move. This should be the same value that would be passed to the data object as a CFSTR_PERFORMEDDROPEFFECT format with a normal data extraction operation.
 
 ## -returns
 
@@ -80,11 +80,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-<b>EndOperation</b> retrieves the <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-idataobjectasynccapability">IDataObjectAsyncCapability</a> pointer stored by <a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nf-shldisp-idataobjectasynccapability-setasyncmode">IDataObjectAsyncCapability::SetAsyncMode</a> and passes its parameter values to that interface's <b>IDataObjectAsyncCapability::EndOperation</b> method. <b>EndOperation</b> then releases the <b>IDataObjectAsyncCapability</b> pointer.
+<b>EndOperation</b> retrieves the <a href="/windows/desktop/api/shldisp/nn-shldisp-idataobjectasynccapability">IDataObjectAsyncCapability</a> pointer stored by <a href="/windows/desktop/api/shldisp/nf-shldisp-idataobjectasynccapability-setasyncmode">IDataObjectAsyncCapability::SetAsyncMode</a> and passes its parameter values to that interface's <b>IDataObjectAsyncCapability::EndOperation</b> method. <b>EndOperation</b> then releases the <b>IDataObjectAsyncCapability</b> pointer.
 
 <b>EndOperation</b> is also responsible for any associated clean-up operations. When finished, <b>EndOperation</b> should notify the drop source through a private interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shldisp/nn-shldisp-idataobjectasynccapability">IDataObjectAsyncCapability</a>
-
+<a href="/windows/desktop/api/shldisp/nn-shldisp-idataobjectasynccapability">IDataObjectAsyncCapability</a>

@@ -54,17 +54,16 @@ An interface from which many other core interfaces inherit from. It indicates th
 
 ## -remarks
 
-For more details, refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/memory-management">Memory Management in Direct3D 12</a> and the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-makeresident">MakeResident</a> method reference.
+For more details, refer to <a href="/windows/desktop/direct3d12/memory-management">Memory Management in Direct3D 12</a> and the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-makeresident">MakeResident</a> method reference.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
+<a href="/windows/desktop/direct3d12/direct3d-12-interfaces">Core Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/creating-descriptor-heaps">Creating Descriptor Heaps</a>
+<a href="/windows/desktop/direct3d12/creating-descriptor-heaps">Creating Descriptor Heaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12devicechild">ID3D12DeviceChild</a>

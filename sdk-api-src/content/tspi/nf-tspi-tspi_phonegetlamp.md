@@ -66,7 +66,7 @@ The identifier of the lamp to be queried.
 ### -param lpdwLampMode
 
 A pointer to a memory location into which the service provider writes the lamp mode status of the given lamp. This parameter can have at most one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonelampmode--constants">PHONELAMPMODE_ constants</a>.
+<a href="/windows/desktop/Tapi/phonelampmode--constants">PHONELAMPMODE_ constants</a>.
 
 ## -returns
 
@@ -80,17 +80,16 @@ Phone sets that have multiple lamps per button should be modeled using multiple 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/phonelampmode--constants">PHONELAMPMODE_ Constants</a>
+<a href="/windows/desktop/Tapi/phonelampmode--constants">PHONELAMPMODE_ Constants</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonegetdevcaps">TSPI_phoneGetDevCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_phonesetlamp">TSPI_phoneSetLamp</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_phonesetlamp">TSPI_phoneSetLamp</a>

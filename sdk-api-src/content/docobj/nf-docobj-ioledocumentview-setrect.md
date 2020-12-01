@@ -85,12 +85,12 @@ The operation failed.
 For a single document interface (SDI) application, the viewport is the client area of the frame window minus the space allocated for toolbars, status bar, and such. For a multiple document interface (MDI) window, the viewport is the client area of the MDI document window minus any other frame-level user-interface elements.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Calling <b>IOleDocumentView::SetRect</b> or <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrectcomplex">IOleDocumentView::SetRectComplex</a> is part of the normal activation sequece for document objects, usually following a call to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-uiactivate">IOleDocumentView::UIActivate</a> and preceding a call to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">IOleDocumentView::Show</a>.
+Calling <b>IOleDocumentView::SetRect</b> or <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrectcomplex">IOleDocumentView::SetRectComplex</a> is part of the normal activation sequece for document objects, usually following a call to <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-uiactivate">IOleDocumentView::UIActivate</a> and preceding a call to <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">IOleDocumentView::Show</a>.
 
-Whenever the window used to display a document object is resized, the container should call <b>IOleDocumentView::SetRect</b> (or <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrectcomplex">IOleDocumentView::SetRectComplex</a>) to tell the document view object to resize itself to the new window dimensions.
+Whenever the window used to display a document object is resized, the container should call <b>IOleDocumentView::SetRect</b> (or <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrectcomplex">IOleDocumentView::SetRectComplex</a>) to tell the document view object to resize itself to the new window dimensions.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-The coordinates of the viewport are within the coordinates of the view window, which is obtained through <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">IOleWindow::GetWindow</a>. The view must resize itself to fit the new coordinates passed in <i>prcView</i>.
+The coordinates of the viewport are within the coordinates of the view window, which is obtained through <a href="/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">IOleWindow::GetWindow</a>. The view must resize itself to fit the new coordinates passed in <i>prcView</i>.
 
 This method is defined with the [input_sync] attribute, which means that the view object cannot yield or make another, non input_sync RPC call while executing this method.
 
@@ -98,5 +98,4 @@ A document view must implement this method completely; E_NOTIMPL is not an accep
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
-
+<a href="/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>

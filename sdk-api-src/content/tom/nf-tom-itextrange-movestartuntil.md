@@ -58,7 +58,7 @@ Moves the start position of the range the position of the first character found 
 
 Type: <b>VARIANT*</b>
 
-The character set to use in the match. This could be an explicit string of characters or a character-set index. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">Character Match Sets</a>.
+The character set to use in the match. This could be an explicit string of characters or a character-set index. For more information, see <a href="/windows/desktop/Controls/about-text-object-model">Character Match Sets</a>.
 
 ### -param Count
 
@@ -76,7 +76,7 @@ The actual number of characters the start of the range is moved, plus 1 for a ma
 
 Type: <b>HRESULT</b>
 
-The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -117,7 +117,7 @@ If the new start follows the old end, the new end is set equal to the new start.
 
 The motion described by <b>ITextRange::MoveStartUntil</b> is logical rather than geometric. That is, motion is toward the end or toward the start of a story. Depending on the language, moving to the end of the story could be moving left or moving right. 
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> and <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-move">ITextRange::Move</a>.
+For more information, see <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> and <a href="/windows/desktop/api/tom/nf-tom-itextrange-move">ITextRange::Move</a>.
 
 ## -see-also
 
@@ -125,15 +125,15 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-move">Move</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-moveuntil">MoveUntil</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-moveuntil">MoveUntil</a>
 
 
 
@@ -141,5 +141,4 @@ For more information, see <a href="https://docs.microsoft.com/windows/desktop/ap
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

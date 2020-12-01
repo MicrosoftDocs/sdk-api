@@ -57,8 +57,8 @@ api_name:
 <p class="CCE_Message">[The  <b>WINTRUST_CERT_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
 The <b>WINTRUST_CERT_INFO</b> structure is used when calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to verify a 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
+<a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a> to verify a 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a>.
 
 ## -struct-fields
 
@@ -69,12 +69,12 @@ Count of bytes in this structure.
 ### -field pcwszDisplayName
 
 String with the name of the memory object pointed to by the <b>pbMem</b> member of the 
-[WINTRUST_BLOB_INFO](https://docs.microsoft.com/windows/desktop/api/wintrust/ns-wintrust-wintrust_blob_info) structure.
+[WINTRUST_BLOB_INFO](/windows/desktop/api/wintrust/ns-wintrust-wintrust_blob_info) structure.
 
 ### -field psCertContext
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> to be verified.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> to be verified.
 
 ### -field chStores
 
@@ -82,9 +82,8 @@ The number of store handles in <b>pahStores</b>.
 
 ### -field pahStores
 
-An array of open <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate stores</a> to add to the list of stores that the policy provider looks in to find certificates while building a trust chain.
+An array of open <a href="/windows/desktop/SecGloss/c-gly">certificate stores</a> to add to the list of stores that the policy provider looks in to find certificates while building a trust chain.
 
 ### -field dwFlags
 
 ### -field psftVerifyAsOf
-

@@ -64,13 +64,12 @@ Use this event to determine when buffering or downloading starts or stops. You c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_bufferingprogress">IWMPNetwork::get_bufferingProgress</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_bufferingprogress">IWMPNetwork::get_bufferingProgress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_downloadprogress">IWMPNetwork::get_downloadProgress</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_downloadprogress">IWMPNetwork::get_downloadProgress</a>

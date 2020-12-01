@@ -45,6 +45,7 @@ api_name:
  - OemToCharBuff
  - OemToCharBuffA
  - OemToCharBuffW
+req.apiset: ext-ms-win-ntuser-chartranslation-l1-1-0 (introduced in Windows 8)
 ---
 
 # OemToCharBuffW function
@@ -85,11 +86,11 @@ Type: <b>BOOL</b>
 The return value is always nonzero except when you pass the same address to 
 						<i>lpszSrc</i> and 
 						<i>lpszDst</i> in the wide-character version of the function. In this case the function returns zero and 
-						<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_ADDRESS</b>.
+						<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INVALID_ADDRESS</b>.
 
 ## -remarks
 
-Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-oemtochara">OemToChar</a> function, the <b>OemToCharBuff</b> function does not stop converting characters when it encounters a null character in the buffer pointed to by 
+Unlike the <a href="/windows/desktop/api/winuser/nf-winuser-oemtochara">OemToChar</a> function, the <b>OemToCharBuff</b> function does not stop converting characters when it encounters a null character in the buffer pointed to by 
 				<i>lpszSrc</i>. The <b>OemToCharBuff</b> function converts all 
 				<i>cchDstLength</i> characters.
 
@@ -102,11 +103,11 @@ Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-wi
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-chartooema">CharToOem</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-chartooema">CharToOem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-chartooembuffa">CharToOemBuff</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-chartooembuffa">CharToOemBuff</a>
 
 
 
@@ -114,7 +115,7 @@ Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-oemtochara">OemToChar</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-oemtochara">OemToChar</a>
 
 
 
@@ -122,5 +123,4 @@ Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-wi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
-
+<a href="/windows/desktop/menurc/strings">Strings</a>

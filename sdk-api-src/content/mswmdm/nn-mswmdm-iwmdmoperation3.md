@@ -54,7 +54,7 @@ The optional, application-implemented <b>IWMDMOperation3</b> interface extends <
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMOperation3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation</a>. <b>IWMDMOperation3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMOperation3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation</a>. <b>IWMDMOperation3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IWMDMOperation3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation3-transferobjectdataonclearchannel">TransferObjectDataOnClearChannel</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation3-transferobjectdataonclearchannel">TransferObjectDataOnClearChannel</a>
 </td>
 <td align="left" width="63%">
-Transfers a block of data to or from the device more efficiently than <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>.
+Transfers a block of data to or from the device more efficiently than <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-transferobjectdata">IWMDMOperation::TransferObjectData</a>.
 
 </td>
 </tr>
@@ -80,17 +80,16 @@ Transfers a block of data to or from the device more efficiently than <a href="h
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
+<a href="/windows/desktop/WMDM/handling-file-transfers-manually">Handling File Transfers Manually</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation">IWMDMOperation Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation2">IWMDMOperation2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation2">IWMDMOperation2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

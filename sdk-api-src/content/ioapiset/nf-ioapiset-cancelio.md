@@ -56,7 +56,7 @@ api_name:
 
 Cancels all pending input and output (I/O) operations that are issued by the calling thread for the specified file. The function does not cancel I/O operations that other threads issue for a file handle.
 
-To cancel I/O operations from another thread, use the <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a> function.
+To cancel I/O operations from another thread, use the <a href="/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a> function.
 
 ## -parameters
 
@@ -68,10 +68,10 @@ The function cancels all pending I/O operations for this file handle.
 
 ## -returns
 
-If the function succeeds, the return value is nonzero. The cancel operation for all pending I/O operations issued by the calling thread for the specified file handle was successfully requested. The thread can use the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function to determine when the I/O operations themselves have been completed.
+If the function succeeds, the return value is nonzero. The cancel operation for all pending I/O operations issued by the calling thread for the specified file handle was successfully requested. The thread can use the <a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> function to determine when the I/O operations themselves have been completed.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
 
 ## -remarks
 
@@ -144,49 +144,48 @@ Yes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a>
+<a href="/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelsynchronousio-func">CancelSynchronousIo</a>
+<a href="/windows/desktop/FileIO/cancelsynchronousio-func">CancelSynchronousIo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-lockfileex">LockFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-readdirectorychangesw">ReadDirectoryChangesW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-readfileex">ReadFileEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>
+<a href="/windows/desktop/FileIO/synchronous-and-asynchronous-i-o">Synchronous and Asynchronous I/O</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>

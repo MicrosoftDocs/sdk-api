@@ -50,9 +50,6 @@ api_name:
  - MIB_IPMCAST_OIF_STATS
 ---
 
-# MIB_IPMCAST_OIF_STATS_LH structure
-
-
 ## -description
 
 The 
@@ -72,12 +69,11 @@ Type: <b>DWORD</b>
 
 Specifies the address of the next hop that corresponds to <b>dwOutIfIndex</b>. The <b>dwOutIfIndex</b> and <b>dwIfNextHopIPAddr</b> members uniquely identify a next hop on point-to-multipoint interfaces, where one interface connects to multiple networks. Examples of point-to-multipoint interfaces include non-broadcast multiple-access (NBMA) interfaces, and the internal interface on which all dial-up clients connect. 
 
-
-
-
 For Ethernet and other broadcast interfaces, specify zero. Also specify zero for point-to-point interfaces, which are identified by only <b>dwOutIfIndex</b>.
 
 ### -field dwDialContext
+
+TBD
 
 ### -field ulTtlTooLow
 
@@ -103,18 +99,10 @@ Type: <b>ULONG</b>
 
 Specifies the number of packets that were discarded on this interface.
 
-
-#### - pvDialContext
-
-Type: <b>PVOID</b>
-
-Reserved. This member should be <b>NULL</b>.
-
 ## -remarks
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Server 2008and later, the organization of header files has changed. This  structure is defined in the <i>Ipmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Ipmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Ipmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a>
-
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a>

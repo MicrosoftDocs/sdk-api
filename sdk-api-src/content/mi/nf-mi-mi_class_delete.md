@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Deletes an <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> object.
+Deletes an <a href="/windows/desktop/api/mi/ns-mi-mi_class">MI_Class</a> object.
 
 ## -parameters
 
@@ -61,4 +61,3 @@ A pointer to the class to be deleted.
 ## -returns
 
 This function returns MI_INLINE MI_Result.
-

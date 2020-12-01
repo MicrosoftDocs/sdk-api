@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Called when the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a> method completes.
+Called when the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a> method completes.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ The zero-based index of the stream that delivered the sample.
 
 ### -param dwStreamFlags [in]
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/ne-mfreadwrite-mf_source_reader_flag">MF_SOURCE_READER_FLAG</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="/windows/desktop/api/mfreadwrite/ne-mfreadwrite-mf_source_reader_flag">MF_SOURCE_READER_FLAG</a> enumeration.
 
 ### -param llTimestamp [in]
 
@@ -72,7 +72,7 @@ The time stamp of the sample, or the time of the stream event indicated in <i>dw
 
 ### -param pSample [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of a media sample. This parameter might be <b>NULL</b>.
+A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> interface of a media sample. This parameter might be <b>NULL</b>.
 
 ## -returns
 
@@ -92,9 +92,8 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback">IMFSourceReaderCallback</a>
+<a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback">IMFSourceReaderCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
-
+<a href="/windows/desktop/medfound/source-reader">Source Reader</a>

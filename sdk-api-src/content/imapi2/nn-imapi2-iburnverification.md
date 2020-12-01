@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Use  this interface with  <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a> or <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a> to get or set the Burn Verification Level property which dictates how burned media is verified for integrity after the write operation.
+Use  this interface with  <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a> or <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a> to get or set the Burn Verification Level property which dictates how burned media is verified for integrity after the write operation.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBurnVerification</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBurnVerification</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBurnVerification</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBurnVerification</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBurnVerification</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iburnverification-get_burnverificationlevel">get_BurnVerificationLevel</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iburnverification-get_burnverificationlevel">get_BurnVerificationLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current Burn Verification Level.
@@ -78,7 +78,7 @@ Retrieves the current Burn Verification Level.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-iburnverification-put_burnverificationlevel">put_BurnVerificationLevel</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-iburnverification-put_burnverificationlevel">put_BurnVerificationLevel</a>
 </td>
 <td align="left" width="63%">
 Sets the  Burn Verification Level.
@@ -89,7 +89,7 @@ Sets the  Burn Verification Level.
 
 ## -remarks
 
-The following example function demonstrates how the burn verification level defined by <a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_burn_verification_level">IMAPI_BURN_VERIFICATION_LEVEL</a>, can be implemented. Burn verification level should be set prior to a burn operation.
+The following example function demonstrates how the burn verification level defined by <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_burn_verification_level">IMAPI_BURN_VERIFICATION_LEVEL</a>, can be implemented. Burn verification level should be set prior to a burn operation.
 
 
 ```cpp
@@ -127,13 +127,12 @@ This interface is supported in Windows Server 2003 with Service Pack 1 (SP1), 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2trackatonce">IDiscFormat2TrackAtOnce</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/ne-imapi2-imapi_burn_verification_level">IMAPI_BURN_VERIFICATION_LEVEL</a>
-
+<a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_burn_verification_level">IMAPI_BURN_VERIFICATION_LEVEL</a>

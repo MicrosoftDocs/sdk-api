@@ -56,9 +56,8 @@ The <b>CertAddRefServerOcspResponse</b> function increments the reference count 
 
 ### -param hServerOcspResponse [in]
 
-A handle to an <b>HCERT_SERVER_OCSP_RESPONSE</b> returned by <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse">CertOpenServerOcspResponse</a>.
+A handle to an <b>HCERT_SERVER_OCSP_RESPONSE</b> returned by <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse">CertOpenServerOcspResponse</a>.
 
 ## -remarks
 
-Each <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse">CertOpenServerOcspResponse</a> and <b>CertAddRefServerOcspResponse</b> requires a corresponding <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcloseserverocspresponse">CertCloseServerOcspResponse</a>.
-
+Each <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenserverocspresponse">CertOpenServerOcspResponse</a> and <b>CertAddRefServerOcspResponse</b> requires a corresponding <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcloseserverocspresponse">CertCloseServerOcspResponse</a>.

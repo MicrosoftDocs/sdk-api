@@ -57,7 +57,7 @@ The <b>CreateObjectWithPropertiesOnly</b> method creates an object with only pro
 
 ### -param pValues
 
-An IPortableDeviceValues collection of properties to assign to the object. For a list of required and optional properties for an object, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/requirements-for-objects">Requirements for Objects</a>.
+An IPortableDeviceValues collection of properties to assign to the object. For a list of required and optional properties for an object, see <a href="/windows/desktop/wpd_sdk/requirements-for-objects">Requirements for Objects</a>.
 
 ### -param ppszObjectID [in, out]
 
@@ -99,13 +99,13 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 ## -remarks
 
-Some objects are only a collection of properties—such as a folder, which is only a collection of pointers to other objects—while other objects are both properties and data—such as an audio file, which contains all the properties and the actual music bits. This method is used to create an object that contains only properties. To create an object with both properties and data, use <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata">CreateObjectWithPropertiesAndData</a>.
+Some objects are only a collection of properties—such as a folder, which is only a collection of pointers to other objects—while other objects are both properties and data—such as an audio file, which contains all the properties and the actual music bits. This method is used to create an object that contains only properties. To create an object with both properties and data, use <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata">CreateObjectWithPropertiesAndData</a>.
       
 
 This method is synchronous; when it returns, the new object should be present on the device.
       
 
-The object that the driver actually creates might be a properties-and-data object, depending on what type of object is most convenient for the driver. To check what kind of object the driver has created, request the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/object-properties">WPD_OBJECT_FORMAT</a> property of the new object.
+The object that the driver actually creates might be a properties-and-data object, depending on what type of object is most convenient for the driver. To check what kind of object the driver has created, request the <a href="/windows/desktop/wpd_sdk/object-properties">WPD_OBJECT_FORMAT</a> property of the new object.
       
 
 The object will be created on the device when this method returns.
@@ -114,15 +114,14 @@ The object will be created on the device when this method returns.
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/transferring-a-properties-only-object-to-the-device">Transferring a Properties-Only Object to the Device</a>.
+For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/transferring-a-properties-only-object-to-the-device">Transferring a Properties-Only Object to the Device</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent">IPortableDeviceContent Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/transferring-a-properties-only-object-to-the-device">Transferring a Properties-Only Object to the Device</a>
-
+<a href="/windows/desktop/wpd_sdk/transferring-a-properties-only-object-to-the-device">Transferring a Properties-Only Object to the Device</a>

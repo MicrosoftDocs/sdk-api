@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>get_Event</b> method returns a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callhub_event">CALLHUB_EVENT</a> enum description of the event that occurred.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-callhub_event">CALLHUB_EVENT</a> enum description of the event that occurred.
 
 ## -parameters
 
 ### -param pEvent [out]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callhub_event">CALLHUB_EVENT</a> enum description of the event.
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-callhub_event">CALLHUB_EVENT</a> enum description of the event.
 
 ## -returns
 
@@ -107,13 +107,12 @@ The <i>pEvent</i> parameter is not a valid pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/ne-tapi3if-callhub_event">CALLHUB_EVENT</a>
+<a href="/windows/desktop/api/tapi3if/ne-tapi3if-callhub_event">CALLHUB_EVENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/callhub-object">CallHub Object</a>
+<a href="/windows/desktop/Tapi/callhub-object">CallHub Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent">ITCallHubEvent</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent">ITCallHubEvent</a>

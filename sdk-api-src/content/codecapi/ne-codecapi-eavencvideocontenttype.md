@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the type of video content. This enumeration is used with the <a href="https://docs.microsoft.com/windows/desktop/medfound/codecapi-avencvideocontenttype">CODECAPI_AVEncVideoContentType</a> property.
+Specifies the type of video content. This enumeration is used with the <a href="/windows/desktop/medfound/codecapi-avencvideocontenttype">CODECAPI_AVEncVideoContentType</a> property.
 
 ## -enum-fields
 
@@ -64,5 +64,4 @@ The content was captured with a fixed camera, such as a webcam.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

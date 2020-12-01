@@ -85,5 +85,4 @@ You can extend the short name mapping by adding to  the following registry key:
             <b>...</b></pre>
 
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled Codec</a>.
-
+For more information, see <a href="/windows/desktop/wic/-wic-howtowriteacodec">How to Write a WIC-Enabled Codec</a>.

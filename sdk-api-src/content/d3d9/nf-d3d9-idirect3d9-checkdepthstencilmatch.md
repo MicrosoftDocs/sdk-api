@@ -57,33 +57,33 @@ Determines whether a depth-stencil format is compatible with a render-target for
 
 ### -param Adapter [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Ordinal number denoting the display adapter to query. D3DADAPTER_DEFAULT is always the primary display adapter.
 
 ### -param DeviceType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a></b>
+Type: <b><a href="/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a></b>
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a> enumerated type, identifying the device type.
+Member of the <a href="/windows/desktop/direct3d9/d3ddevtype">D3DDEVTYPE</a> enumerated type, identifying the device type.
 
 ### -param AdapterFormat [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type, identifying the format of the display mode into which the adapter will be placed.
+Member of the <a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type, identifying the format of the display mode into which the adapter will be placed.
 
 ### -param RenderTargetFormat [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type, identifying the format of the render-target surface to be tested.
+Member of the <a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type, identifying the format of the render-target surface to be tested.
 
 ### -param DepthStencilFormat [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
+Type: <b><a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a></b>
 
-Member of the <a href="https://docs.microsoft.com/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type, identifying the format of the depth-stencil surface to be tested.
+Member of the <a href="/windows/desktop/direct3d9/d3dformat">D3DFORMAT</a> enumerated type, identifying the format of the depth-stencil surface to be tested.
 
 ## -returns
 
@@ -97,7 +97,7 @@ This method is provided to enable applications to work with hardware requiring t
 
 The behavior of this method has been changed for DirectX 8.1.  This method now pays attention to the D24x8 and D32 depth-stencil formats. The previous version assumed that these formats would always be usable with 32- or 16-bit render targets. This method will now return D3D_OK for these formats only if the device is capable of mixed-depth operations.
 
-The following code fragment shows how you could use <a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat">CheckDeviceFormat</a> to validate a depth stencil format.
+The following code fragment shows how you could use <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat">CheckDeviceFormat</a> to validate a depth stencil format.
 
 
 ```
@@ -135,5 +135,4 @@ The preceding call will return <b>FALSE</b> if DepthFormat cannot be used in con
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
-
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>

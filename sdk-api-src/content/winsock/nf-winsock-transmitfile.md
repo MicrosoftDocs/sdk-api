@@ -88,21 +88,21 @@ The <i>nNumberOfBytesPerSend</i> parameter is useful for protocols that have lim
 ### -param lpOverlapped
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. If the socket handle has been opened as overlapped, specify this parameter in order to achieve an overlapped (asynchronous) I/O operation. By default, socket handles are opened as overlapped. 
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. If the socket handle has been opened as overlapped, specify this parameter in order to achieve an overlapped (asynchronous) I/O operation. By default, socket handles are opened as overlapped. 
 
 
 
 
-You can use the <i>lpOverlapped</i> parameter to specify a 64-bit offset within the file at which to start the file data transfer by setting the <b>Offset</b> and <b>OffsetHigh</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. If <i>lpOverlapped</i> is a <b>NULL</b> pointer, the transmission of data always starts at the current byte offset in the file.
+You can use the <i>lpOverlapped</i> parameter to specify a 64-bit offset within the file at which to start the file data transfer by setting the <b>Offset</b> and <b>OffsetHigh</b> member of the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. If <i>lpOverlapped</i> is a <b>NULL</b> pointer, the transmission of data always starts at the current byte offset in the file.
 
 When the <i>lpOverlapped</i> is not <b>NULL</b>, the overlapped I/O might not finish before 
 <b>TransmitFile</b> returns. In that case, the 
-<b>TransmitFile</b> function returns <b>FALSE</b>, and <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> returns ERROR_IO_PENDING or <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_IO_PENDING</a>. This enables the caller to continue processing while the file transmission operation completes. Windows will set the event specified by the <b>hEvent</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, or the socket specified by <i>hSocket</i>, to the signaled state upon completion of the data transmission request.
+<b>TransmitFile</b> function returns <b>FALSE</b>, and <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a> returns ERROR_IO_PENDING or <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_IO_PENDING</a>. This enables the caller to continue processing while the file transmission operation completes. Windows will set the event specified by the <b>hEvent</b> member of the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure, or the socket specified by <i>hSocket</i>, to the signaled state upon completion of the data transmission request.
 
 ### -param lpTransmitBuffers
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers">TRANSMIT_FILE_BUFFERS</a> data structure that contains pointers to data to send before and after the file data is sent. This parameter should be set to a <b>NULL</b> pointer if you want to transmit only the file data.
+<a href="/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers">TRANSMIT_FILE_BUFFERS</a> data structure that contains pointers to data to send before and after the file data is sent. This parameter should be set to a <b>NULL</b> pointer if you want to transmit only the file data.
 
 ### -param dwReserved
 
@@ -134,7 +134,7 @@ Start a transport-level disconnect after all the file data has been queued for t
 Prepare the socket handle to be reused. This flag is valid only if <b>TF_DISCONNECT</b> is also specified.
 
 When the <b>TransmitFile</b> request completes, the socket handle can be passed to the 
-function call previously used to establish the connection, such as <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>  or <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a>. Such reuse is mutually exclusive; for example, if the <b>AcceptEx</b> function was called for the socket, reuse is allowed only for subsequent calls to the <b>AcceptEx</b>  function, and not allowed for a subsequent call to <b>ConnectEx</b>. 
+function call previously used to establish the connection, such as <a href="/windows/desktop/api/mswsock/nf-mswsock-acceptex">AcceptEx</a>  or <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_connectex">ConnectEx</a>. Such reuse is mutually exclusive; for example, if the <b>AcceptEx</b> function was called for the socket, reuse is allowed only for subsequent calls to the <b>AcceptEx</b>  function, and not allowed for a subsequent call to <b>ConnectEx</b>. 
 
 <div class="alert"><b>Note</b>  The socket level file transmit is subject to the behavior of the underlying transport. For example, a TCP socket may be subject to the TCP TIME_WAIT state, causing  the <b>TransmitFile</b> call to be delayed.</div>
 <div> </div>
@@ -200,8 +200,8 @@ Complete the
 
 If the 
 <b>TransmitFile</b> function succeeds, the return value is <b>TRUE</b>. Otherwise, the return value is <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>. An error code 
-of <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_IO_PENDING</a> or ERROR_IO_PENDING indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that the overlapped operation was not successfully initiated and no completion indication will occur. Applications should handle either ERROR_IO_PENDING or WSA_IO_PENDING in this case.
+<a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>. An error code 
+of <a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_IO_PENDING</a> or ERROR_IO_PENDING indicates that the overlapped operation has been successfully initiated and that completion will be indicated at a later time. Any other error code indicates that the overlapped operation was not successfully initiated and no completion indication will occur. Applications should handle either ERROR_IO_PENDING or WSA_IO_PENDING in this case.
 
 <table>
 <tr>
@@ -211,7 +211,7 @@ of <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-e
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNABORTED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNABORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -222,7 +222,7 @@ An established connection was aborted by the software in your host machine. This
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNRESET</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAECONNRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -233,7 +233,7 @@ An existing connection was forcibly closed by the remote host. This error is ret
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -244,18 +244,18 @@ The system detected an invalid pointer address in attempting to use a pointer ar
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-An invalid argument was supplied. This error is returned if the <i>hSocket</i> parameter specified a socket of type <b>SOCK_DGRAM</b> or <b>SOCK_RAW</b>. This error is returned if the <i>dwFlags</i> parameter has the  <b>TF_REUSE_SOCKET</b> flag set, but the <b>TF_DISCONNECT</b> flag was not set. This error is also returned if the offset specified in the <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure pointed to by the <i>lpOverlapped</i> is not within the file. This error is also returned if the <i>nNumberOfBytesToWrite</i> parameter is set to a value greater than  2,147,483,646, the maximum value for a 32-bit integer minus 1.
+An invalid argument was supplied. This error is returned if the <i>hSocket</i> parameter specified a socket of type <b>SOCK_DGRAM</b> or <b>SOCK_RAW</b>. This error is returned if the <i>dwFlags</i> parameter has the  <b>TF_REUSE_SOCKET</b> flag set, but the <b>TF_DISCONNECT</b> flag was not set. This error is also returned if the offset specified in the <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure pointed to by the <i>lpOverlapped</i> is not within the file. This error is also returned if the <i>nNumberOfBytesToWrite</i> parameter is set to a value greater than  2,147,483,646, the maximum value for a 32-bit integer minus 1.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -266,7 +266,7 @@ A socket operation encountered a dead network.This error is returned if the netw
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETRESET</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENETRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -277,7 +277,7 @@ The connection has been broken due to keep-alive activity detecting a failure wh
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -288,7 +288,7 @@ An operation on a socket could not be performed because the system lacked suffic
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTCONN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -299,7 +299,7 @@ A request to send or receive data was disallowed because the socket is not conne
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -310,32 +310,32 @@ An operation was attempted on something that is not a socket. This error is retu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAESHUTDOWN</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAESHUTDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous shutdown call. This error is returned if the socket has been shut down for sending. It is not possible to 
-call <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a> on a socket after 
-the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-shutdown">shutdown</a> function has been called on the socket with the <i>how</i> parameter set to <b>SD_SEND</b> or <b>SD_BOTH</b>.
+call <a href="/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a> on a socket after 
+the <a href="/windows/desktop/api/winsock/nf-winsock-shutdown">shutdown</a> function has been called on the socket with the <i>how</i> parameter set to <b>SD_SEND</b> or <b>SD_BOTH</b>.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
-Either the application has not called the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> function, or <b>WSAStartup</b> failed. A successful 
-<b>WSAStartup</b> call must occur before using the <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a> function.
+Either the application has not called the <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup">WSAStartup</a> function, or <b>WSAStartup</b> failed. A successful 
+<b>WSAStartup</b> call must occur before using the <a href="/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a> function.
 
 </td>
 </tr>
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_IO_PENDING</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_IO_PENDING</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -346,14 +346,14 @@ An overlapped I/O operation is in progress. This value is returned if an overlap
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_OPERATION_ABORTED</a></b></dt>
+<dt><b><a href="/windows/desktop/WinSock/windows-sockets-error-codes-2">WSA_OPERATION_ABORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
 The I/O operation has been aborted because of either a thread exit or an application request. This error is returned if the overlapped operation has been canceled due to the closure of the socket, the execution of the "SIO_FLUSH" command in 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>, or the thread that initiated the overlapped request exited before the operation completed.
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a>, or the thread that initiated the overlapped request exited before the operation completed.
 
-<div class="alert"><b>Note</b>  All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the  asynchronous operations complete. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>.</div>
+<div class="alert"><b>Note</b>  All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the  asynchronous operations complete. For more information, see <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>.</div>
 <div> </div>
 </td>
 </tr>
@@ -363,14 +363,14 @@ The I/O operation has been aborted because of either a thread exit or an applica
 
 The <b>TransmitFile</b> function uses the operating system's cache manager to retrieve the file data, and provide high-performance file data transfer over sockets.
 
-The <b>TransmitFile</b> function only supports connection-oriented sockets of type <b>SOCK_STREAM</b>, <b>SOCK_SEQPACKET</b>, and <b>SOCK_RDM</b>. Sockets of type <b>SOCK_DGRAM</b> and <b>SOCK_RAW</b> are not supported. The <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nc-mswsock-lpfn_transmitpackets">TransmitPackets</a> function can be used with sockets of type <b>SOCK_DGRAM</b>. 
+The <b>TransmitFile</b> function only supports connection-oriented sockets of type <b>SOCK_STREAM</b>, <b>SOCK_SEQPACKET</b>, and <b>SOCK_RDM</b>. Sockets of type <b>SOCK_DGRAM</b> and <b>SOCK_RAW</b> are not supported. The <a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_transmitpackets">TransmitPackets</a> function can be used with sockets of type <b>SOCK_DGRAM</b>. 
 
 The maximum number of bytes that can be transmitted using a single call to the <b>TransmitFile</b> function is 2,147,483,646, the maximum value for a 32-bit integer minus 1. The maximum number of bytes to send in a single call includes any  data sent before or after the file data pointed to by the <i>lpTransmitBuffers</i> parameter plus the value specified in the <i>nNumberOfBytesToWrite</i> parameter for the length of file data to send. If an application needs to transmit a file larger than 2,147,483,646 bytes, then multiple calls to the <b>TransmitFile</b> function can be used with each call transferring no more than 2,147,483,646 bytes. Setting the <i>nNumberOfBytesToWrite</i> parameter to zero for a file larger than 2,147,483,646 bytes will also fail since in this case the <b>TransmitFile</b> function will use the size of the file as the value for the number of bytes to transmit.
 
 
 <div class="alert"><b>Note</b>  The function pointer for the 
 <b>TransmitFile</b> function must be obtained at run time by making a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> function with the <b>SIO_GET_EXTENSION_FUNCTION_POINTER</b> opcode specified. The input buffer passed to the <b>WSAIoctl</b> function must contain <b>WSAID_TRANSMITFILE</b>, a globally unique identifier (GUID) whose value identifies the <b>TransmitFile</b> extension function. On success, the output returned by the <b>WSAIoctl</b> function contains a pointer to the <b>TransmitFile</b> function. The <b>WSAID_TRANSMITFILE</b> GUID is defined in the <i>Mswsock.h</i> header file.</div>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsaioctl">WSAIoctl</a> function with the <b>SIO_GET_EXTENSION_FUNCTION_POINTER</b> opcode specified. The input buffer passed to the <b>WSAIoctl</b> function must contain <b>WSAID_TRANSMITFILE</b>, a globally unique identifier (GUID) whose value identifies the <b>TransmitFile</b> extension function. On success, the output returned by the <b>WSAIoctl</b> function contains a pointer to the <b>TransmitFile</b> function. The <b>WSAID_TRANSMITFILE</b> GUID is defined in the <i>Mswsock.h</i> header file.</div>
 <div> </div>
 
 
@@ -410,29 +410,28 @@ If the <b>TransmitFile</b> function is called with the <i>lpOverlapped</i> param
 <h3><a id="Notes_for_QoS"></a><a id="notes_for_qos"></a><a id="NOTES_FOR_QOS"></a>Notes for QoS</h3>
 The 
 <b>TransmitFile</b> function allows the setting of two flags, TF_DISCONNECT or TF_REUSE_SOCKET, that return the socket to a "disconnected, reusable" state after the file has been transmitted. These flags should not be used on a socket where quality of service has been requested, since the service provider may immediately delete any quality of service associated with the socket before the file transfer has completed. The best approach for a QoS-enabled socket is to simply call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a> function when the file transfer has completed, rather than relying on these flags.
+<a href="/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a> function when the file transfer has completed, rather than relying on these flags.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers">TRANSMIT_FILE_BUFFERS</a>
+<a href="/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers">TRANSMIT_FILE_BUFFERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nc-mswsock-lpfn_transmitpackets">TransmitPackets</a>
+<a href="/windows/desktop/api/mswsock/nc-mswsock-lpfn_transmitpackets">TransmitPackets</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a>
+<a href="/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a>
-
+<a href="/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a>

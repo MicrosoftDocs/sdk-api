@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The NET_IF_MEDIA_DUPLEX_STATE enumeration type specifies the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-network-interfaces2">NDIS network interface</a> duplex
+  <a href="/windows-hardware/drivers/network/ndis-network-interfaces2">NDIS network interface</a> duplex
   state.
 
 ## -enum-fields
@@ -81,4 +81,3 @@ The NDIS_MEDIA_DUPLEX_STATE, enumeration type, used to describe NDIS interface p
 ```
 typedef NET_IF_MEDIA_DUPLEX_STATE NDIS_MEDIA_DUPLEX_STATE, *PNDIS_MEDIA_DUPLEX_STATE;
 ```
-

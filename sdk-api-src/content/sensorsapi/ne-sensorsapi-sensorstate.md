@@ -78,7 +78,7 @@ The sensor is available, but performing initialization. Try again later.
 
 ### -field SENSOR_STATE_ACCESS_DENIED
 
-The sensor is available, but the user account does not have permission to access the sensor data. For more information about permissions, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/managing-user-permissions">Managing User Permissions</a>.
+The sensor is available, but the user account does not have permission to access the sensor data. For more information about permissions, see <a href="/windows/desktop/SensorsAPI/managing-user-permissions">Managing User Permissions</a>.
 
 ### -field SENSOR_STATE_ERROR
 
@@ -87,4 +87,3 @@ The sensor has raised an error.
 ### -field SENSOR_STATE_MAX
 
 Maximum enumerated sensor state. Not a valid value.
-

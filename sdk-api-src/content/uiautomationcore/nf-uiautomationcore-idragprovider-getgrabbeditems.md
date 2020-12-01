@@ -56,7 +56,7 @@ Retrieves the collection of elements that are being dragged as part of a drag op
 
 ### -param pRetVal [out, retval, optional]
 
-An array of VT_UNKNOWN pointers to the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a> interfaces
+An array of VT_UNKNOWN pointers to the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a> interfaces
 				of the elements that are being dragged. This parameter is <b>NULL</b> if only a single item is being dragged.
 
 ## -returns
@@ -69,5 +69,4 @@ If the user is dragging multiple items, the items are represented by a single ma
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idragprovider">IDragProvider</a>
-
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idragprovider">IDragProvider</a>

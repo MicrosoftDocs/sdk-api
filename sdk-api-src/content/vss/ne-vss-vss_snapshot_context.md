@@ -56,7 +56,7 @@ api_name:
 
 The <b>_VSS_SNAPSHOT_CONTEXT</b> enumeration 
     enables a requester using 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setcontext">IVssBackupComponents::SetContext</a> to 
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setcontext">IVssBackupComponents::SetContext</a> to 
     specify how a shadow copy is to be created, queried, or deleted and the degree of writer 
     involvement.
 
@@ -110,11 +110,11 @@ Most requesters will want to use the <b>VSS_CTX_APP_ROLLBACK</b> context for per
 ### -field VSS_CTX_ALL
 
 All types of currently live shadow copies are available for administrative operations, such as shadow copy 
-      queries (see <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a>). 
+      queries (see <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-query">IVssBackupComponents::Query</a>). 
       <b>VSS_CTX_ALL</b> is a valid context for all VSS interfaces except 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">IVssBackupComponents::StartSnapshotSet</a> 
+      <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">IVssBackupComponents::StartSnapshotSet</a> 
       and 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a>.
+      <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a>.
 
 ## -remarks
 
@@ -125,17 +125,17 @@ The data type to be used with values of
 The default context for VSS shadow copies is <b>VSS_CTX_BACKUP</b>.
 
 <b>Windows XP:  </b>The only supported context is the default, <b>VSS_CTX_BACKUP</b>. Calling 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setcontext">IVssBackupComponents::SetContext</a> will 
+     <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setcontext">IVssBackupComponents::SetContext</a> will 
      return <b>E_NOTIMPL</b>.
 
 For details on how to use VSS shadow copies contexts, see 
-    <a href="https://docs.microsoft.com/windows/desktop/VSS/implementation-details-for-creating-shadow-copies">Implementation Details for 
+    <a href="/windows/desktop/VSS/implementation-details-for-creating-shadow-copies">Implementation Details for 
     Creating Shadow Copies</a>.
 
 Shadow copy behavior can be further controlled by using a bitwise OR to combine a supported 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> with valid 
+    <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> with valid 
     <b>_VSS_SNAPSHOT_CONTEXT</b> values as an argument to the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setcontext">IVssBackupComponents::SetContext</a> 
+    <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setcontext">IVssBackupComponents::SetContext</a> 
     method.
 
 Currently, the only supported modifications are the bitwise OR of a 
@@ -143,7 +143,7 @@ Currently, the only supported modifications are the bitwise OR of a
      <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b> and either the 
      <b>VSS_VOLSNAP_ATTR_DIFFERENTIAL</b> or the <b>VSS_VOLSNAP_ATTR_PLEX</b> 
      value of the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> 
+     <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a> 
      enumeration.
 
 However, these values cannot be used to modify <b>VSS_CTX_CLIENT_ACCESSIBLE</b> 
@@ -154,25 +154,24 @@ The use of <b>VSS_VOLSNAP_ATTR_TRANSPORTABLE</b> is limited to systems running
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset">IVssBackupComponents::DoSnapshotSet</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">IVssBackupComponents::ExposeSnapshot</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-exposesnapshot">IVssBackupComponents::ExposeSnapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setcontext">IVssBackupComponents::SetContext</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setcontext">IVssBackupComponents::SetContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a>
+<a href="/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
+<a href="/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
-
+<a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>

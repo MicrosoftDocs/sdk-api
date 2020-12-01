@@ -58,7 +58,7 @@ The
 ### -param pArpEntry [in]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a> structure. The information in this structure specifies the entry to modify and the new information for the entry. The caller must specify values for all members of this structure.
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a> structure. The information in this structure specifies the entry to modify and the new information for the entry. The caller must specify values for all members of this structure.
 
 ## -returns
 
@@ -90,7 +90,7 @@ Access is denied. This error is returned on Windows Vista and Windows Server 2
 </td>
 <td width="60%">
 The <i>pArpEntry</i> parameter is <b>NULL</b>, or <b>SetIpNetEntry</b> is unable to read from the memory pointed to by <i>pArpEntry</i>, or one of the members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a> structure is invalid.
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a> structure is invalid.
 
 </td>
 </tr>
@@ -113,7 +113,7 @@ The IPv4 transport is not configured on the local computer.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to obtain the message string for the returned error.
 
 </td>
 </tr>
@@ -132,21 +132,20 @@ The <b>SetIpNetEntry</b> function can also fail because of user account control 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-createipnetentry">CreateIpNetEntry</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-createipnetentry">CreateIpNetEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipnetentry">DeleteIpNetEntry</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-deleteipnetentry">DeleteIpNetEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
+<a href="/windows/desktop/IpHlp/ip-helper-function-reference">IP Helper Function Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a>
-
+<a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipnetrow_lh">MIB_IPNETROW</a>

@@ -56,7 +56,7 @@ The DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure contains information on t
 
 ### -field header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure that holds information on the type, size, adapterID, and ID of the target the monitor is connected to.
+A <a href="/windows/desktop/api/wingdi/ns-wingdi-displayconfig_device_info_header">DISPLAYCONFIG_DEVICE_INFO_HEADER</a> structure that holds information on the type, size, adapterID, and ID of the target the monitor is connected to.
 
 ### -field DUMMYSTRUCTNAME
 
@@ -73,4 +73,3 @@ Reserved for system use. Do not use in your driver.
 ### -field DUMMYSTRUCTNAME.value
 
 Reflects the value of <b>disableMonitorVirtualResolution</b> in cases where debugging is utilized.
-

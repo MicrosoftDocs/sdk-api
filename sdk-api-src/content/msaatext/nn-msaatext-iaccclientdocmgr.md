@@ -51,14 +51,14 @@ api_name:
 ## -description
 
 <p class="CCE_Message">[Active Accessibility Text Services is deprecated. Please see     
-<a href="https://msdn.microsoft.com/library/ms629032(VS.85).aspx">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
+<a href="/windows/win32/tsf/text-services-framework">Microsoft Windows Text Services Framework</a>for more information on advanced text input and natural language technologies.
 		]
 
 Exposes methods for client applications to retrieve documents.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccClientDocMgr</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccClientDocMgr</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccClientDocMgr</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccClientDocMgr</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IAccClientDocMgr</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-getdocuments">GetDocuments</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-getdocuments">GetDocuments</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of documents that have been registered with the Microsoft Active Accessibility run time. 
@@ -82,7 +82,7 @@ Retrieves a list of documents that have been registered with the Microsoft Activ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-getfocused">GetFocused</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-getfocused">GetFocused</a>
 </td>
 <td align="left" width="63%">
 Retrieves the document that has focus.
@@ -91,7 +91,7 @@ Retrieves the document that has focus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-lookupbyhwnd">LookupByHWND</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-lookupbyhwnd">LookupByHWND</a>
 </td>
 <td align="left" width="63%">
 Retrieves a document from an HWND.
@@ -100,7 +100,7 @@ Retrieves a document from an HWND.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-lookupbypoint">LookupByPoint</a>
+<a href="/windows/desktop/api/msaatext/nf-msaatext-iaccclientdocmgr-lookupbypoint">LookupByPoint</a>
 </td>
 <td align="left" width="63%">
 Retrieves a document from a point on the screen.
@@ -108,4 +108,3 @@ Retrieves a document from a point on the screen.
 </td>
 </tr>
 </table>
-

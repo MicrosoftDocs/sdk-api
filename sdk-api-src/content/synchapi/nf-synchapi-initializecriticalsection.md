@@ -81,44 +81,43 @@ The threads of a single process can use a critical section object for mutual-exc
 The process is responsible for allocating the memory used by a critical section object, which it can do by declaring a variable of type <b>CRITICAL_SECTION</b>. Before using a critical section, some thread of the process must initialize the object.
 
 After a critical section object has been initialized, the threads of the process can specify the object in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-entercriticalsection">EnterCriticalSection</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-tryentercriticalsection">TryEnterCriticalSection</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-leavecriticalsection">LeaveCriticalSection</a> function to provide mutually exclusive access to a shared resource. For similar synchronization between the threads of different processes, use a mutex object.
+<a href="/windows/desktop/api/synchapi/nf-synchapi-entercriticalsection">EnterCriticalSection</a>, 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-tryentercriticalsection">TryEnterCriticalSection</a>, or 
+<a href="/windows/desktop/api/synchapi/nf-synchapi-leavecriticalsection">LeaveCriticalSection</a> function to provide mutually exclusive access to a shared resource. For similar synchronization between the threads of different processes, use a mutex object.
 
 A critical section object cannot be moved or copied. The process must also not modify the object, but must treat it as logically opaque. Use only the critical section functions to manage critical section objects. When you have finished using the critical section, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-deletecriticalsection">DeleteCriticalSection</a> function.
+<a href="/windows/desktop/api/synchapi/nf-synchapi-deletecriticalsection">DeleteCriticalSection</a> function.
 
 A critical section object must be deleted before it can be reinitialized. Initializing a critical section that has already been initialized results in undefined behavior.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/critical-section-objects">Critical Section Objects</a>
+<a href="/windows/desktop/Sync/critical-section-objects">Critical Section Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-deletecriticalsection">DeleteCriticalSection</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-deletecriticalsection">DeleteCriticalSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-entercriticalsection">EnterCriticalSection</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-entercriticalsection">EnterCriticalSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsectionandspincount">InitializeCriticalSectionAndSpinCount</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-initializecriticalsectionandspincount">InitializeCriticalSectionAndSpinCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-leavecriticalsection">LeaveCriticalSection</a>
+<a href="/windows/desktop/api/synchapi/nf-synchapi-leavecriticalsection">LeaveCriticalSection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-tryentercriticalsection">TryEnterCriticalSection</a>
-
+<a href="/windows/desktop/api/synchapi/nf-synchapi-tryentercriticalsection">TryEnterCriticalSection</a>

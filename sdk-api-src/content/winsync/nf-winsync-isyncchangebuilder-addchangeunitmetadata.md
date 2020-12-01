@@ -127,9 +127,8 @@ The item change to which to add this change unit to has <b>SYNC_CHANGE_FLAG_DELE
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebuilder">ISyncChangeBuilder Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebuilder">ISyncChangeBuilder Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>
-
+<a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>

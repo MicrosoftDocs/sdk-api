@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Flags that specify the current redirection capabilities of a known folder. Used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getredirectioncapabilities">IKnownFolder::GetRedirectionCapabilities</a>.
+Flags that specify the current redirection capabilities of a known folder. Used by <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getredirectioncapabilities">IKnownFolder::GetRedirectionCapabilities</a>.
 
 ## -enum-fields
 
@@ -80,5 +80,4 @@ The folder cannot be redirected because the calling application does not have su
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>

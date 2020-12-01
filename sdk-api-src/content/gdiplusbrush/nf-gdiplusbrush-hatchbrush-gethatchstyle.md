@@ -57,27 +57,26 @@ The <b>HatchBrush::GetHatchStyle</b> method gets the hatch style of this hatch b
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hatchstyle">HatchStyle</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hatchstyle">HatchStyle</a></b>
 
-This method returns the hatch style, which is one of the elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hatchstyle">HatchStyle</a> enumeration.
+This method returns the hatch style, which is one of the elements of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hatchstyle">HatchStyle</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-brushes-and-filled-shapes-about">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
+<a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color">Color</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-filling-a-shape-with-a-hatch-pattern-use">Filling a Shape with a Hatch Pattern</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-filling-a-shape-with-a-hatch-pattern-use">Filling a Shape with a Hatch Pattern</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush">HatchBrush</a>
+<a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-hatchbrush">HatchBrush</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hatchstyle">HatchStyle</a>
-
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hatchstyle">HatchStyle</a>

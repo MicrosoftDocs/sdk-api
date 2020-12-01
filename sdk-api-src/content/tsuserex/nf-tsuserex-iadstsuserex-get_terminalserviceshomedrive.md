@@ -60,7 +60,7 @@ This property is read/write.
 
 ## -remarks
 
-To set a root directory in a network environment, you must first set this property and then set the <a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nf-tsuserex-iadstsuserex-get_terminalserviceshomedirectory">TerminalServicesHomeDirectory</a> property.
+To set a root directory in a network environment, you must first set this property and then set the <a href="/windows/desktop/api/tsuserex/nf-tsuserex-iadstsuserex-get_terminalserviceshomedirectory">TerminalServicesHomeDirectory</a> property.
 
 
 #### Examples
@@ -85,5 +85,4 @@ WScript.echo usr.TerminalServicesHomeDirectory
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
-
+<a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>

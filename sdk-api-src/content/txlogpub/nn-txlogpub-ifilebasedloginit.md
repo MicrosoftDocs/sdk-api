@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Initializes an instance of a file based implementation of <a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>.
+Initializes an instance of a file based implementation of <a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileBasedLogInit</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFileBasedLogInit</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileBasedLogInit</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFileBasedLogInit</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFileBasedLogInit</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nf-txlogpub-ifilebasedloginit-initnew">InitNew</a>
+<a href="/windows/desktop/api/txlogpub/nf-txlogpub-ifilebasedloginit-initnew">InitNew</a>
 </td>
 <td align="left" width="63%">
 Create a new log instance on the specified file.
@@ -80,5 +80,4 @@ Create a new log instance on the specified file.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
-
+<a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>

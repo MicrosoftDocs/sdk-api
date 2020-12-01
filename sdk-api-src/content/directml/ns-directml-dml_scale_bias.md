@@ -45,9 +45,6 @@ api_name:
  - DML_SCALE_BIAS
 ---
 
-# DML_SCALE_BIAS structure
-
-
 ## -description
 
 Contains the values of scale and bias terms supplied to a DirectML operator. Scale and bias have the effect of applying the function g(x) = x * <i>Scale</i> + <i>Bias</i>.
@@ -56,13 +53,12 @@ Contains the values of scale and bias terms supplied to a DirectML operator. Sca
 
 ### -field Scale
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The scale term in g(x) = x * <i>Scale</i> + <i>Bias</i>.
 
 ### -field Bias
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
 
 The bias term in g(x) = x * <i>Scale</i> + <i>Bias</i>.
-

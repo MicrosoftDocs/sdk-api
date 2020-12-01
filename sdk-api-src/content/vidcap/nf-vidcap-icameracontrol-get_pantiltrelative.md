@@ -57,15 +57,15 @@ The <code>get_PanTiltRelative</code> method returns the camera's relative pan an
 
 ### -param pPanValue [out]
 
-Receives the relative pan. See <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-get_panrelative">ICameraControl::get_PanRelative</a>.
+Receives the relative pan. See <a href="/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-get_panrelative">ICameraControl::get_PanRelative</a>.
 
 ### -param pTiltValue [out]
 
-Receives the relative tilt. See <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-get_tiltrelative">ICameraControl::get_TiltRelative</a>.
+Receives the relative tilt. See <a href="/windows/desktop/api/vidcap/nf-vidcap-icameracontrol-get_tiltrelative">ICameraControl::get_TiltRelative</a>.
 
 ### -param pFlags [out]
 
-Receives one or more flags. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
+Receives one or more flags. See <a href="/previous-versions/windows/desktop/api/strmif/ne-strmif-cameracontrolflags">CameraControlFlags</a>.
 
 ## -returns
 
@@ -73,9 +73,8 @@ Returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>
-
+<a href="/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>

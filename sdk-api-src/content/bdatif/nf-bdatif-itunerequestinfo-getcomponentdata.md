@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>GetComponentData</b> method fills in all network-specific component data for the existing <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/components-object">Components</a> collection on the specified tune request.
+The <b>GetComponentData</b> method fills in all network-specific component data for the existing <a href="/previous-versions/windows/desktop/mstv/components-object">Components</a> collection on the specified tune request.
 
 ## -parameters
 
 ### -param CurrentRequest [in]
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface on the tune request.
+Pointer to the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest</a> interface on the tune request.
 
 ## -returns
 
@@ -97,9 +97,8 @@ The Network Provider calls this method after the tuner has tuned to the specifie
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequestInfo Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequestInfo Interface</a>

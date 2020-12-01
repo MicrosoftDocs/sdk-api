@@ -101,7 +101,7 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 ## -remarks
 
 When you create a job, the job is initially suspended. Calling <b>Resume</b> moves the job from the suspended state to the queued state. The job stays in the queued state until the scheduler determines it is the job's turn to transfer files. Note that the job must contain one or more files before calling this method. If the job is of type BG_JOB_TYPE_UPLOAD_REPLY and you want to specify the name of the reply file, you should call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setreplyfilename">IBackgroundCopyJob2::SetReplyFileName</a> method before calling 
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setreplyfilename">IBackgroundCopyJob2::SetReplyFileName</a> method before calling 
 <b>Resume</b>.
 
 If a job that is in the BG_JOB_STATE_TRANSIENT_ERROR or BG_JOB_STATE_ERROR state, call the 
@@ -109,9 +109,8 @@ If a job that is in the BG_JOB_STATE_TRANSIENT_ERROR or BG_JOB_STATE_ERROR state
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-cancel">IBackgroundCopyJob::Cancel</a>
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-cancel">IBackgroundCopyJob::Cancel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-suspend">IBackgroundCopyJob::Suspend</a>
-
+<a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-suspend">IBackgroundCopyJob::Suspend</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Adds an <a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> to the synchronous plug-in collection at the specified index.
+Adds an <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a> to the synchronous plug-in collection at the specified index.
 
 ## -parameters
 
@@ -64,13 +64,13 @@ The plug-in that is added.
 
 ## -returns
 
-For a description of the return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of the return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
 Use this to dynamically add a plug-in to the synchronous plug-in collection.
 
-The synchronous and asynchronous plug-in collections on the <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object can be modified without disabling and then re-enabling the <b>RealTimeStylus Class</b> object.
+The synchronous and asynchronous plug-in collections on the <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a> object can be modified without disabling and then re-enabling the <b>RealTimeStylus Class</b> object.
 
 Plugins must aggregate the free threaded marshaler and must not be single threaded apartment objects.
 
@@ -109,13 +109,12 @@ void CCOMRTSDlg::OnBnClickedCheckPacketFilter()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-irealtimestylus">IRealTimeStylus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-addstylusasyncplugin">IRealTimeStylus::AddStylusAsyncPlugin Method</a>
+<a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-addstylusasyncplugin">IRealTimeStylus::AddStylusAsyncPlugin Method</a>
 
 
 
 <b>RealTimeStylus Class</b>
-

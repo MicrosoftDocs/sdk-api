@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> containing the samples of multiplexed substreams.
+Creates an <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> containing the samples of multiplexed substreams.
 
 ## -parameters
 
 ### -param pSamplesToMux [in]
 
-The collection containing the  <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> for each multiplexed substream.
+The collection containing the  <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> for each multiplexed substream.
 
 ### -param ppMuxSample [out]
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> containing the samples for the multiplexed substreams.
+The <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfsample">IMFSample</a> containing the samples for the multiplexed substreams.
 
 ## -returns
 
@@ -94,4 +94,3 @@ The <i>pSamplesToMux</i> parameter in null.
 </td>
 </tr>
 </table>
-

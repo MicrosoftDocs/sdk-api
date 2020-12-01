@@ -54,7 +54,7 @@ api_name:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkWordList</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkWordList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInkWordList</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInkWordList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,30 +69,29 @@ The <b>IInkWordList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword">AddWord</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-addword">AddWord</a>
 </td>
 <td align="left" width="63%">
-Adds a single word to the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object.
+Adds a single word to the <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-merge">Merge</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-merge">Merge</a>
 </td>
 <td align="left" width="63%">
-Merges the specified <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object into this word list.
+Merges the specified <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a> object into this word list.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-removeword">RemoveWord</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-removeword">RemoveWord</a>
 </td>
 <td align="left" width="63%">
-Removes a single word from an <a href="https://docs.microsoft.com/windows/desktop/tablet/inkwordlist-class">InkWordList</a>.
+Removes a single word from an <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList</a>.
 
 </td>
 </tr>
 </table>
-

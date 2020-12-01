@@ -54,7 +54,7 @@ Exposes methods that allow an application to be notified of events that are rela
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileDialogControlEvents</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFileDialogControlEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileDialogControlEvents</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFileDialogControlEvents</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IFileDialogControlEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifiledialogcontrolevents-onbuttonclicked">OnButtonClicked</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifiledialogcontrolevents-onbuttonclicked">OnButtonClicked</a>
 </td>
 <td align="left" width="63%">
 Called when the user clicks a command button.
@@ -78,7 +78,7 @@ Called when the user clicks a command button.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifiledialogcontrolevents-oncheckbuttontoggled">OnCheckButtonToggled</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifiledialogcontrolevents-oncheckbuttontoggled">OnCheckButtonToggled</a>
 </td>
 <td align="left" width="63%">
 Called when the user changes the state of a check button (check box).
@@ -87,16 +87,16 @@ Called when the user changes the state of a check button (check box).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifiledialogcontrolevents-oncontrolactivating">OnControlActivating</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifiledialogcontrolevents-oncontrolactivating">OnControlActivating</a>
 </td>
 <td align="left" width="63%">
-Called when an <b>Open</b> button drop-down list customized through <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-enableopendropdown">IFileDialogCustomize::EnableOpenDropDown</a> or a <b>Tools</b> menu is about to display its contents.
+Called when an <b>Open</b> button drop-down list customized through <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-enableopendropdown">IFileDialogCustomize::EnableOpenDropDown</a> or a <b>Tools</b> menu is about to display its contents.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-ifiledialogcontrolevents-onitemselected">OnItemSelected</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-ifiledialogcontrolevents-onitemselected">OnItemSelected</a>
 </td>
 <td align="left" width="63%">
 Called when an item is selected in a combo box, when a user clicks an option button (also known as a radio button), or an item is chosen from the <b>Tools</b> menu.
@@ -108,7 +108,6 @@ Called when an item is selected in a combo box, when a user clicks an option but
 ## -remarks
 
 <h3><a id="When_to_Implement"></a><a id="when_to_implement"></a><a id="WHEN_TO_IMPLEMENT"></a>When to Implement</h3>
-<b>IFileDialogControlEvents</b> is implemented by an application on the same object that it implements <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents">IFileDialogEvents</a> in.
+<b>IFileDialogControlEvents</b> is implemented by an application on the same object that it implements <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents">IFileDialogEvents</a> in.
 
 The dialog does not check the return values of this interface's methods.
-

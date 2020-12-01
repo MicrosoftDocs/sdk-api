@@ -54,7 +54,7 @@ Provides methods for processing an individual item in a content source whose URL
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUrlAccessor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUrlAccessor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUrlAccessor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUrlAccessor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IUrlAccessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-addrequestparameter">AddRequestParameter</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-addrequestparameter">AddRequestParameter</a>
 </td>
 <td align="left" width="63%">
 Requests a property-value set. 
@@ -79,37 +79,37 @@ Requests a property-value set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtofilter">BindToFilter</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtofilter">BindToFilter</a>
 </td>
 <td align="left" width="63%">
-Binds the item being processed to the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>and retrieves a pointer to the <b>IFilter</b>.
+Binds the item being processed to the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>and retrieves a pointer to the <b>IFilter</b>.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtostream">BindToStream</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtostream">BindToStream</a>
 </td>
 <td align="left" width="63%">
-Binds the item being processed to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
+Binds the item being processed to an <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream interface [Structured Storage]</a> data stream and retrieves a pointer to that stream.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getclsid">GetCLSID</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getclsid">GetCLSID</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/desktop/com/clsid">CLSID</a> for the document type of the URL item being processed.
+Gets the <a href="/windows/desktop/com/clsid">CLSID</a> for the document type of the URL item being processed.
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getdocformat">GetDocFormat</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getdocformat">GetDocFormat</a>
 </td>
 <td align="left" width="63%">
 Gets the document format, represented as a Multipurpose Internet Mail Extensions (MIME) string.
@@ -119,17 +119,17 @@ Gets the document format, represented as a Multipurpose Internet Mail Extensions
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getfilename">GetFileName</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getfilename">GetFileName</a>
 </td>
 <td align="left" width="63%">
-Retrieves the file name of the item, which the filter host uses for indexing. If the item does not exist in a file system and the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtostream">IUrlAccessor::BindToStream</a> method is implemented, this method returns the shell's System.ParsingPath property for the item. 
+Retrieves the file name of the item, which the filter host uses for indexing. If the item does not exist in a file system and the <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtostream">IUrlAccessor::BindToStream</a> method is implemented, this method returns the shell's System.ParsingPath property for the item. 
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-gethost">GetHost</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-gethost">GetHost</a>
 </td>
 <td align="left" width="63%">
 Gets the host name for the content source, if applicable.
@@ -139,7 +139,7 @@ Gets the host name for the content source, if applicable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getlastmodified">GetLastModified</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getlastmodified">GetLastModified</a>
 </td>
 <td align="left" width="63%">
 Gets the time stamp identifying when the URL was last modified.
@@ -149,7 +149,7 @@ Gets the time stamp identifying when the URL was last modified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getredirectedurl">GetRedirectedURL</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getredirectedurl">GetRedirectedURL</a>
 </td>
 <td align="left" width="63%">
 Gets the redirected URL for the current item.
@@ -159,7 +159,7 @@ Gets the redirected URL for the current item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getsecuritydescriptor">GetSecurityDescriptor</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getsecuritydescriptor">GetSecurityDescriptor</a>
 </td>
 <td align="left" width="63%">
 Gets the security descriptor for the URL item. Security is applied at query time, so this descriptor identifies security for read access.
@@ -169,7 +169,7 @@ Gets the security descriptor for the URL item. Security is applied at query time
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getsecurityprovider">GetSecurityProvider</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getsecurityprovider">GetSecurityProvider</a>
 </td>
 <td align="left" width="63%">
 Gets the security provider for the URL. 
@@ -179,7 +179,7 @@ Gets the security provider for the URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getsize">GetSize</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Gets the size of the content designated by the URL.
@@ -189,7 +189,7 @@ Gets the size of the content designated by the URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-isdirectory">IsDirectory</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-isdirectory">IsDirectory</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether the item URL points to a directory.
@@ -213,11 +213,11 @@ Although the protocol handler runs in the protocol host's multithreaded environm
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor2">IUrlAccessor2</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor2">IUrlAccessor2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor3">IUrlAccessor3</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor3">IUrlAccessor3</a>
 
 
 
@@ -225,9 +225,8 @@ Although the protocol handler runs in the protocol host's multithreaded environm
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-prth-error-constants">Search Protocol Handler Error Messages</a>
+<a href="/windows/desktop/search/-search-prth-error-constants">Search Protocol Handler Error Messages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
-
+<a href="/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>

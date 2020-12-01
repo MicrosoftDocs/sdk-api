@@ -72,21 +72,20 @@ The location of the icon within the file named by <i>lpszSourceFile</i>, express
 
 ## -returns
 
-A global handle to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-metafilepict">METAFILEPICT</a> structure containing the icon and label. The metafile uses the MM_ANISOTROPIC mapping mode.
+A global handle to a <a href="/windows/desktop/api/wingdi/ns-wingdi-metafilepict">METAFILEPICT</a> structure containing the icon and label. The metafile uses the MM_ANISOTROPIC mapping mode.
 
-If an error occurs, the returned handle is <b>NULL</b>. In this case, the caller can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to obtain further information.
+If an error occurs, the returned handle is <b>NULL</b>. In this case, the caller can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to obtain further information.
 
 ## -remarks
 
-This function is called by <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegeticonoffile">OleGetIconOfFile</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegeticonofclass">OleGetIconOfClass</a>.
+This function is called by <a href="/windows/desktop/api/ole2/nf-ole2-olegeticonoffile">OleGetIconOfFile</a> and <a href="/windows/desktop/api/ole2/nf-ole2-olegeticonofclass">OleGetIconOfClass</a>.
 
 If <i>lpszSourceFile</i> is not <b>NULL</b> and <i>iIconIndex</i> is not 0, the name of the source file passed in <i>lpszSourceFile</i> and the index passed by <i>iIconIndex</i> are added to the created metafile as a comment record.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegeticonofclass">OleGetIconOfClass</a>
+<a href="/windows/desktop/api/ole2/nf-ole2-olegeticonofclass">OleGetIconOfClass</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olegeticonoffile">OleGetIconOfFile</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-olegeticonoffile">OleGetIconOfFile</a>

@@ -56,11 +56,11 @@ The <b>DrvNextBand</b> function is called by GDI when it has finished drawing a 
 
 ### -param pso [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure, which identifies the banding surface.
+Caller-supplied pointer to a <a href="/windows/desktop/api/winddi/ns-winddi-surfobj">SURFOBJ</a> structure, which identifies the banding surface.
 
 ### -param pptl [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure to receive the function-supplied origin of the next band.
+Caller-supplied pointer to a <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> structure to receive the function-supplied origin of the next band.
 
 ## -returns
 
@@ -68,23 +68,22 @@ If the operation succeeds, the function should return <b>TRUE</b>. Otherwise, it
 
 ## -remarks
 
-If a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-graphics-dll">printer graphics DLL</a> uses GDI-managed surfaces, and if it supports surface banding, it must provide a <b>DrvNextBand</b> function. GDI calls <b>DrvNextBand</b> each time it has finished drawing the portion of the page's image that can be contained on the band's surface. The surface used by GDI for drawing is one that the driver previously specified by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmarkbandingsurface">EngMarkBandingSurface</a>. The function should send the image to the printer by calling <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a>, and it should return the indices of the next band's origin in the POINTL structure pointed to by <i>pptl</i>.
+If a <a href="/windows-hardware/drivers/print/printer-graphics-dll">printer graphics DLL</a> uses GDI-managed surfaces, and if it supports surface banding, it must provide a <b>DrvNextBand</b> function. GDI calls <b>DrvNextBand</b> each time it has finished drawing the portion of the page's image that can be contained on the band's surface. The surface used by GDI for drawing is one that the driver previously specified by calling <a href="/windows/desktop/api/winddi/nf-winddi-engmarkbandingsurface">EngMarkBandingSurface</a>. The function should send the image to the printer by calling <a href="/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a>, and it should return the indices of the next band's origin in the POINTL structure pointed to by <i>pptl</i>.
 
 After all of a physical page's bands have been drawn, the function should set both members of the POINTL structure pointed to by <i>pptl</i> to -1.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablesurface">DrvEnableSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvstartbanding">DrvStartBanding</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvstartbanding">DrvStartBanding</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engmarkbandingsurface">EngMarkBandingSurface</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-engmarkbandingsurface">EngMarkBandingSurface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engwriteprinter">EngWritePrinter</a>

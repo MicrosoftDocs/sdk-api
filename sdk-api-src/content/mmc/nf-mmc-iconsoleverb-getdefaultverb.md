@@ -66,17 +66,16 @@ This method can return one of these values.
 ## -remarks
 
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_console_verb">MMC_CONSOLE_VERB</a> enumeration defines the set of default verbs.
+<a href="/windows/desktop/api/mmc/ne-mmc-mmc_console_verb">MMC_CONSOLE_VERB</a> enumeration defines the set of default verbs.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nn-mmc-iconsoleverb">IConsoleVerb</a>
+<a href="/windows/desktop/api/mmc/nn-mmc-iconsoleverb">IConsoleVerb</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iconsoleverb-setdefaultverb">IConsoleVerb::SetDefaultVerb</a>
+<a href="/windows/desktop/api/mmc/nf-mmc-iconsoleverb-setdefaultverb">IConsoleVerb::SetDefaultVerb</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ne-mmc-mmc_console_verb">MMC_CONSOLE_VERB</a>
-
+<a href="/windows/desktop/api/mmc/ne-mmc-mmc_console_verb">MMC_CONSOLE_VERB</a>

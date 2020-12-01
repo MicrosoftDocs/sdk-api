@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The PERBANDINFO structure is used as input to a printer graphics DLL's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryperbandinfo">DrvQueryPerBandInfo</a> function.
+The PERBANDINFO structure is used as input to a printer graphics DLL's <a href="/windows/desktop/api/winddi/nf-winddi-drvqueryperbandinfo">DrvQueryPerBandInfo</a> function.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ If <b>TRUE</b>, GDI redraws the previous band. If <b>FALSE</b>, GDI draws the ne
 
 ### -field szlBand
 
-Specifies a SIZEL structure that contains the width and height, in pixels, of the rectangle in which GDI can draw the band. A SIZEL structure is identical to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
+Specifies a SIZEL structure that contains the width and height, in pixels, of the rectangle in which GDI can draw the band. A SIZEL structure is identical to a <a href="/windows/desktop/api/windef/ns-windef-size">SIZE</a> structure.
 
 ### -field ulHorzRes
 
@@ -76,15 +76,14 @@ Specifies the vertical resolution GDI should use when scaling the band.
 
 ## -remarks
 
-If the result of <b>ulHorzRes</b> divided by <b>ulVertRes</b> is smaller than the result obtained by dividing the same members of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure, the band is rendered smaller by the graphics engine. If the values are the same, no scaling is done. The resultant scale factor obtained from this structure cannot be larger than the one stored in GDIINFO.
+If the result of <b>ulHorzRes</b> divided by <b>ulVertRes</b> is smaller than the result obtained by dividing the same members of the <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure, the band is rendered smaller by the graphics engine. If the values are the same, no scaling is done. The resultant scale factor obtained from this structure cannot be larger than the one stored in GDIINFO.
 
 When the band is scaled, the graphics engine anchors the smaller band to the upper-left corner of the original band.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvqueryperbandinfo">DrvQueryPerBandInfo</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvqueryperbandinfo">DrvQueryPerBandInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
-
+<a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>

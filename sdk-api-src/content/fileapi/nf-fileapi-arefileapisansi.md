@@ -66,9 +66,9 @@ If the set of file I/O functions is using the OEM code page, the return value is
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a> function causes a set of file 
+The <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a> function causes a set of file 
     I/O functions to use the OEM code page. The 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi">SetFileApisToANSI</a> function causes the same set of file 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi">SetFileApisToANSI</a> function causes the same set of file 
     I/O functions to use the ANSI code page. Use the <b>AreFileApisANSI</b> function to 
     determine which code page the set of file I/O functions is currently using. For a discussion of these functions' 
     usage, please see the Remarks sections of 
@@ -78,8 +78,8 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-s
 The file I/O functions whose code page is ascertained by <b>AreFileApisANSI</b> are 
     those functions exported by KERNEL32.DLL that accept or return a file name.
 
-The functions <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi">SetFileApisToANSI</a> set the code page for a process, so 
+The functions <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a> and 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi">SetFileApisToANSI</a> set the code page for a process, so 
     <b>AreFileApisANSI</b> returns a value indicating the code page of an entire 
     process.
 
@@ -144,13 +144,12 @@ Yes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi">SetFileApisToANSI</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi">SetFileApisToANSI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-setfileapistooem">SetFileApisToOEM</a>

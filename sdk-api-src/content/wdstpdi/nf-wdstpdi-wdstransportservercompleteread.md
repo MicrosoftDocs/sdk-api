@@ -56,7 +56,7 @@ Provides status of read operation.
 
 ### -param hProvider [in]
 
-Handle to the provider. This handle was given to the provider in the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderinitialize">WdsTransportProviderInitialize</a> function.
+Handle to the provider. This handle was given to the provider in the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderinitialize">WdsTransportProviderInitialize</a> function.
 
 ### -param ulBytesRead [in]
 
@@ -64,7 +64,7 @@ The number of bytes read.
 
 ### -param pvUserData [in]
 
-User data specified by <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderreadcontent">WdsTransportProviderReadContent</a>.
+User data specified by <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportproviderreadcontent">WdsTransportProviderReadContent</a>.
 
 ### -param hReadResult [in]
 
@@ -73,4 +73,3 @@ The status of this read operation.
 ## -returns
 
 If the function succeeds, the return is <b>S_OK</b>.
-

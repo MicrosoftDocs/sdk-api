@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-The <code>IVMRImagePresenterConfig</code> interface provides methods for setting the renderering preferences on the allocator-presenter used by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7).
+The <code>IVMRImagePresenterConfig</code> interface provides methods for setting the renderering preferences on the allocator-presenter used by the <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7).
 
 Applications should not use this interface directly. The VMR-7 filter's <b>IVMRFilterConfig</b> interface calls methods on this interface. The default allocator-presenter implements this interface. Custom allocator-presenters can also expose this interface.
 
-For the VMR-9, use the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenterconfig9">IVMRImagePresenterConfig9</a> interface.
+For the VMR-9, use the <a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenterconfig9">IVMRImagePresenterConfig9</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImagePresenterConfig</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRImagePresenterConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVMRImagePresenterConfig</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVMRImagePresenterConfig</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IVMRImagePresenterConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenterconfig-getrenderingprefs">GetRenderingPrefs</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenterconfig-getrenderingprefs">GetRenderingPrefs</a>
 </td>
 <td align="left" width="63%">
 Gets the rendering preferences.
@@ -83,7 +83,7 @@ Gets the rendering preferences.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenterconfig-setrenderingprefs">SetRenderingPrefs</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrimagepresenterconfig-setrenderingprefs">SetRenderingPrefs</a>
 </td>
 <td align="left" width="63%">
 Sets the rendering preferences.
@@ -94,5 +94,4 @@ Sets the rendering preferences.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

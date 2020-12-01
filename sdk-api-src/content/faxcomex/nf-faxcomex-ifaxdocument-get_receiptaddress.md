@@ -62,17 +62,16 @@ This property is read/write.
 
 ## -remarks
 
-This property has meaning only if the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument-receipttype-vb">ReceiptType</a> property for the document is set to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_receipt_type_enum">frtMail</a>, indicating that the delivery receipt will be sent by email.
+This property has meaning only if the <a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument-receipttype-vb">ReceiptType</a> property for the document is set to <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fax_receipt_type_enum">frtMail</a>, indicating that the delivery receipt will be sent by email.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument">IFaxDocument</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>

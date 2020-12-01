@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Enables a client to query an object proxy, or handler, for multiple interfaces by using a single RPC call. By using this interface, instead of relying on separate calls to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>, clients can reduce the number of RPC calls that have to cross thread, process, or machine boundaries and, therefore, the amount of time required to obtain the requested interface pointers.
+Enables a client to query an object proxy, or handler, for multiple interfaces by using a single RPC call. By using this interface, instead of relying on separate calls to <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>, clients can reduce the number of RPC calls that have to cross thread, process, or machine boundaries and, therefore, the amount of time required to obtain the requested interface pointers.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiQI</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiQI</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMultiQI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMultiQI</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMultiQI</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imultiqi-querymultipleinterfaces">QueryMultipleInterfaces</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-imultiqi-querymultipleinterfaces">QueryMultipleInterfaces</a>
 </td>
 <td align="left" width="63%">
 Retrieves pointers to multiple supported interfaces on an object.
@@ -77,4 +77,3 @@ Retrieves pointers to multiple supported interfaces on an object.
 </td>
 </tr>
 </table>
-

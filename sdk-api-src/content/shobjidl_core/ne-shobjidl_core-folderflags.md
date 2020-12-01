@@ -60,7 +60,7 @@ A set of flags that specify folder view options. The flags are independent of ea
 
 ### -field FWF_AUTOARRANGE
 
-0x00000001. Automatically arrange the elements in the view. This implies <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_AUTOARRANGE</a> if the list-view control is used to implement the view.
+0x00000001. Automatically arrange the elements in the view. This implies <a href="/windows/desktop/Controls/list-view-window-styles">LVS_AUTOARRANGE</a> if the list-view control is used to implement the view.
 
 ### -field FWF_ABBREVIATEDNAMES
 
@@ -104,7 +104,7 @@ A set of flags that specify folder view options. The flags are independent of ea
 
 ### -field FWF_ALIGNLEFT
 
-0x00000800. The view should be left-aligned. This implies <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_ALIGNLEFT</a> if the list-view control is used to implement the view.
+0x00000800. The view should be left-aligned. This implies <a href="/windows/desktop/Controls/list-view-window-styles">LVS_ALIGNLEFT</a> if the list-view control is used to implement the view.
 
 ### -field FWF_NOICONS
 
@@ -176,7 +176,7 @@ A set of flags that specify folder view options. The flags are independent of ea
 
 ### -field FWF_SUBSETGROUPS
 
-0x20000000. <b>Windows Vista and later</b>. The view should list the number of items displayed in each group.  To be used with <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-setgroupsubsetcount">IFolderView2::SetGroupSubsetCount</a>.
+0x20000000. <b>Windows Vista and later</b>. The view should list the number of items displayed in each group.  To be used with <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview2-setgroupsubsetcount">IFolderView2::SetGroupSubsetCount</a>.
 
 ### -field FWF_USESEARCHFOLDER
 
@@ -185,4 +185,3 @@ A set of flags that specify folder view options. The flags are independent of ea
 ### -field FWF_ALLOWRTLREADING
 
 (int)0x80000000. <b>Windows Vista and later</b>. Ensure right-to-left reading layout in a right-to-left system. Without this flag, the view displays strings from left-to-right both on systems set to left-to-right and right-to-left reading layout, which ensures that file names display correctly.
-

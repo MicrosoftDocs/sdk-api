@@ -69,8 +69,7 @@ Partition not formatted in either of the recognized formats—MBR or GPT.
 
 ## -see-also
 
-* [File System Recognition](https://docs.microsoft.com/windows/desktop/FileIO/file-system-recognition)
+* [File System Recognition](/windows/desktop/FileIO/file-system-recognition)
 * [IOCTL_DISK_GET_PARTITION_INFO_EX](ni-winioctl-ioctl_disk_get_partition_info_ex.md)
 * [IOCTL_DISK_SET_PARTITION_INFO_EX](ni-winioctl-ioctl_disk_set_partition_info_ex.md)
 * [PARTITION_INFORMATION_EX](ns-winioctl-partition_information_ex.md)
-

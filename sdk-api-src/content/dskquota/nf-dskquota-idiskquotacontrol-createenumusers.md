@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Creates an enumerator object for enumerating quota users on the volume. The newly created object implements the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a> interface.
+<a href="/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a> interface.
 
 ## -parameters
 
@@ -80,8 +80,8 @@ Indicates how the user account information is to be obtained. The volume's quota
 </td>
 <td width="60%">
 Resolve user account information asynchronously. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next">IEnumDiskQuotaUsers::Next</a> method returns immediately. The caller must implement the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents">IDiskQuotaEvents</a> interface to receive notification when the information is available. If the information was cached during a previous request, notification occurs as soon as the object is serviced. Otherwise, the method obtains the information from the network domain controller, then notifies 
+<a href="/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next">IEnumDiskQuotaUsers::Next</a> method returns immediately. The caller must implement the 
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotaevents">IDiskQuotaEvents</a> interface to receive notification when the information is available. If the information was cached during a previous request, notification occurs as soon as the object is serviced. Otherwise, the method obtains the information from the network domain controller, then notifies 
 <b>IDiskQuotaEvents</b>.
 
 </td>
@@ -105,7 +105,7 @@ Do not resolve user account information.
 </td>
 <td width="60%">
 Resolve user account information synchronously. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next">IEnumDiskQuotaUsers::Next</a> method returns when the information is resolved. If the information exists in the disk quota SID cache, it is returned immediately. Otherwise, the method must locate the information. This can take several seconds.
+<a href="/windows/desktop/api/dskquota/nf-dskquota-ienumdiskquotausers-next">IEnumDiskQuotaUsers::Next</a> method returns when the information is resolved. If the information exists in the disk quota SID cache, it is returned immediately. Otherwise, the method must locate the information. This can take several seconds.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ Resolve user account information synchronously. The
 ### -param ppEnum [out]
 
 A pointer to a pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a> enumerator.
+<a href="/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a> enumerator.
 
 ## -returns
 
@@ -195,13 +195,12 @@ An unexpected exception occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
+<a href="/windows/desktop/FileIO/disk-management-interfaces">Disk Management Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
+<a href="/windows/desktop/FileIO/managing-disk-quotas">Disk Quotas</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
-
+<a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>

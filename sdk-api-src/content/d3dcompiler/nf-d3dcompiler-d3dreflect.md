@@ -56,13 +56,13 @@ Gets a pointer to a reflection interface.
 
 ### -param pSrcData [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCVOID</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPCVOID</a></b>
 
 A pointer to source data as compiled HLSL code.
 
 ### -param SrcDataSize [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SIZE_T</a></b>
 
 Length of <i>pSrcData</i>.
 
@@ -80,15 +80,15 @@ A pointer to a reflection interface.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
-Returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
+Returns one of the <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-returnvalues">Direct3D 11 return codes</a>.
 
 ## -remarks
 
 Shader code contains metadata that can be inspected using the reflection APIs.
 
-The following code illustrates retrieving a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection">ID3D11ShaderReflection</a> Interface from a shader.
+The following code illustrates retrieving a <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection">ID3D11ShaderReflection</a> Interface from a shader.
 
 
 ```cpp
@@ -104,5 +104,4 @@ D3DReflect( pPixelShaderBuffer->GetBufferPointer(), pPixelShaderBuffer->GetBuffe
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>
-
+<a href="/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>

@@ -75,21 +75,20 @@ TBD
 
 #### - ContextType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11_3/ne-d3d11_3-d3d11_context_type">D3D11_CONTEXT_TYPE</a>-typed value that specifies the context for the query.
+A <a href="/windows/desktop/api/d3d11_3/ne-d3d11_3-d3d11_context_type">D3D11_CONTEXT_TYPE</a>-typed value that specifies the context for the query.
 
 
 #### - MiscFlags
 
-A combination of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_query_misc_flag">D3D11_QUERY_MISC_FLAG</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies query behavior.
+A combination of <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_query_misc_flag">D3D11_QUERY_MISC_FLAG</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies query behavior.
 
 
 
 
 #### - Query
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11_QUERY</a>-typed value that specifies the type of query.
+A <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11_QUERY</a>-typed value that specifies the type of query.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>

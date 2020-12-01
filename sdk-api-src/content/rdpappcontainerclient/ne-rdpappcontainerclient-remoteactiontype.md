@@ -78,5 +78,4 @@ Causes the application switch window to be displayed in the remote session. This
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-executeremoteaction">ExecuteRemoteAction</a>
-
+<a href="/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-executeremoteaction">ExecuteRemoteAction</a>

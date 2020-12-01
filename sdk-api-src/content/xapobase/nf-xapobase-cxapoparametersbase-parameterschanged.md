@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Indicates if <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">IXAPOParameters::SetParameters</a> has been called since the last processing pass.
+Indicates if <a href="/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">IXAPOParameters::SetParameters</a> has been called since the last processing pass.
 
 ## -parameters
 
 ## -returns
 
-Returns TRUE if <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">IXAPOParameters::SetParameters</a> has been called since the last processing pass. May only be used within the XAPO's <a href="https://docs.microsoft.com/windows/desktop/api/xapo/nf-xapo-ixapo-process">IXAPO::Process</a> implementation, before <a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-beginprocess">CXAPOParametersBase::BeginProcess</a> is called.
+Returns TRUE if <a href="/windows/desktop/api/xapo/nf-xapo-ixapoparameters-setparameters">IXAPOParameters::SetParameters</a> has been called since the last processing pass. May only be used within the XAPO's <a href="/windows/desktop/api/xapo/nf-xapo-ixapo-process">IXAPO::Process</a> implementation, before <a href="/windows/desktop/api/xapobase/nf-xapobase-cxapoparametersbase-beginprocess">CXAPOParametersBase::BeginProcess</a> is called.
 
 ## -remarks
 
@@ -66,5 +66,4 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xapobase/nl-xapobase-cxapoparametersbase">CXAPOParametersBase</a>
-
+<a href="/windows/desktop/api/xapobase/nl-xapobase-cxapoparametersbase">CXAPOParametersBase</a>

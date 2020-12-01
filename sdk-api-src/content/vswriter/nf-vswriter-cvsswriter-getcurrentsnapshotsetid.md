@@ -55,45 +55,44 @@ The
 <b>GetCurrentSnapshotSetId</b> method returns the unique identifier of the shadow copy set.
 
 <b>GetCurrentSnapshotSetId</b> is a protected method implemented by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a> base class.
 
 ## -parameters
 
 ## -returns
 
 This method returns the 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> value of the current shadow copy set.
+<a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> value of the current shadow copy set.
 
 The shadow copy set ID returned by <b>GetCurrentSnapshotSetId</b> is the shadow copy set ID of the backup operation a writer is currently participating in.
 
 Note that a writer could be involved in more than one backup operation at a given time. Therefore, if this method is not called as part of a backup sequence—that is, not called from an event handler—which shadow copy set ID is returned is unpredictable.
 
 If <b>GetCurrentSnapshotSetId</b> is called as part of a backup sequence—for example, from within 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>, <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onthaw">CVssWriter::OnThaw</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>—the VSS infrastructure guarantees that the <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> value returned is that of the shadow copy supporting the current backup operation.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>, <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onthaw">CVssWriter::OnThaw</a>, or <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a>—the VSS infrastructure guarantees that the <a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> value returned is that of the shadow copy supporting the current backup operation.
 
 However, this cannot be said for calls to <b>GetCurrentSnapshotSetId</b> from within the 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/vssgloss-b">BackupShutdown</a> event handler 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupshutdown">CVssWriter::OnBackupShutdown</a>. If a <i>BackupShutdown</i> event is called because of an abrupt shutdown of a requester, the <a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> returned could be that of another backup operation the writer was participating in.
+<a href="/windows/desktop/VSS/vssgloss-b">BackupShutdown</a> event handler 
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onbackupshutdown">CVssWriter::OnBackupShutdown</a>. If a <i>BackupShutdown</i> event is called because of an abrupt shutdown of a requester, the <a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a> returned could be that of another backup operation the writer was participating in.
 
-<b>GetCurrentSnapshotSetId</b> cannot be called after <a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a> returns.
+<b>GetCurrentSnapshotSetId</b> cannot be called after <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpostsnapshot">CVssWriter::OnPostSnapshot</a> returns.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
+<a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onfreeze">CVssWriter::OnFreeze</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparesnapshot">CVssWriter::OnPrepareSnapshot</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparesnapshot">CVssWriter::OnPrepareSnapshot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onthaw">CVssWriter::OnThaw</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onthaw">CVssWriter::OnThaw</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a>
-
+<a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a>

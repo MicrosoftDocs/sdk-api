@@ -56,11 +56,11 @@ Called by the Windows Biometric Framework to determine the capabilities and limi
 
 ### -param Pipeline [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
+Pointer to the <a href="/windows/desktop/api/winbio_adapter/ns-winbio_adapter-winbio_pipeline">WINBIO_PIPELINE</a> structure associated with the biometric unit performing the operation.
 
 ### -param SensorInfo [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecBioMet/winbio-extended-sensor-info">WINBIO_EXTENDED_SENSOR_INFO</a> structure that contains the sensor information returned by this function.
+Pointer to the <a href="/windows/desktop/SecBioMet/winbio-extended-sensor-info">WINBIO_EXTENDED_SENSOR_INFO</a> structure that contains the sensor information returned by this function.
 
 ### -param SensorInfoSize [in]
 
@@ -103,5 +103,4 @@ The <i>SensorInfoSize</i> value is less than the size needed to return the senso
 
 This method is called once during configuration of the biometric unit. 
 
-It will also be called if a client application uses the <a href="https://docs.microsoft.com/windows/desktop/api/winbio/nf-winbio-winbiogetproperty">WinBioGetProperty</a> function to query the value of the <b>WINBIO_PROPERTY_EXTENDED_SENSOR_INFO</b> property.
-
+It will also be called if a client application uses the <a href="/windows/desktop/api/winbio/nf-winbio-winbiogetproperty">WinBioGetProperty</a> function to query the value of the <b>WINBIO_PROPERTY_EXTENDED_SENSOR_INFO</b> property.

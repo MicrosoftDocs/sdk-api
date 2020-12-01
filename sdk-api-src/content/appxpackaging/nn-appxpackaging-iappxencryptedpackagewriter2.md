@@ -54,7 +54,7 @@ Provides a write-only object model for encrypted app packages.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptedPackageWriter2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptedPackageWriter2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxEncryptedPackageWriter2</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxEncryptedPackageWriter2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxEncryptedPackageWriter2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptedpackagewriter2-addpayloadfilesencrypted">AddPayloadFilesEncrypted</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxencryptedpackagewriter2-addpayloadfilesencrypted">AddPayloadFilesEncrypted</a>
 </td>
 <td align="left" width="63%">
 Adds one or more payload files to an encrypted app package.
@@ -77,4 +77,3 @@ Adds one or more payload files to an encrypted app package.
 </td>
 </tr>
 </table>
-

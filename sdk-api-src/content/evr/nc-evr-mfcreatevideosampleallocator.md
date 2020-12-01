@@ -79,7 +79,7 @@ Retrieve an <b>IUnknown</b> pointer.
 </dl>
 </td>
 <td width="60%">
-Retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a> pointer.
+Retrieve an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a> pointer.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ Retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfi
 </dl>
 </td>
 <td width="60%">
-Retrieve an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorcallback">IMFVideoSampleAllocatorCallback</a> pointer.
+Retrieve an <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorcallback">IMFVideoSampleAllocatorCallback</a> pointer.
 
 </td>
 </tr>
@@ -105,5 +105,4 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Functions</a>

@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Extracts the field 3 value from a packed IP address retrieved with the <a href="https://docs.microsoft.com/windows/desktop/Controls/ipm-getaddress">IPM_GETADDRESS</a> message.
+Extracts the field 3 value from a packed IP address retrieved with the <a href="/windows/desktop/Controls/ipm-getaddress">IPM_GETADDRESS</a> message.
 
 ## -parameters
 
 ### -param x
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 The packed IP address value.
-

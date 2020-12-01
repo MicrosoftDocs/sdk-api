@@ -60,11 +60,11 @@ The method to invoke.
 
 ### -param pParameters [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that contains the parameters of the invoked method, or <b>NULL</b> to indicate that the method has no parameters.
+A pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicevalues">IPortableDeviceValues</a> interface that contains the parameters of the invoked method, or <b>NULL</b> to indicate that the method has no parameters.
 
 ### -param pCallback [in]
 
-A pointer to an application-supplied <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethodcallback">IPortableDeviceServiceMethodCallback</a> callback object that  receives the method results, or <b>NULL</b> to ignore the method results.
+A pointer to an application-supplied <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethodcallback">IPortableDeviceServiceMethodCallback</a> callback object that  receives the method results, or <b>NULL</b> to ignore the method results.
 
 ## -returns
 
@@ -72,21 +72,20 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 ## -remarks
 
-When invoking multiple methods, clients can create a separate instance of the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethodcallback">IPortableDeviceServiceMethodCallback</a> interface for each invocation, saving a context with that instance object before passing it to the <b>InvokeAsync</b> method. This way, the method operation can be identified when the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethodcallback-oncomplete">OnComplete</a>  method is called. Use of a unique object for each invocation also allows targeted cancellation of an operation by the <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethods-cancel">Cancel</a> method.
+When invoking multiple methods, clients can create a separate instance of the <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethodcallback">IPortableDeviceServiceMethodCallback</a> interface for each invocation, saving a context with that instance object before passing it to the <b>InvokeAsync</b> method. This way, the method operation can be identified when the <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethodcallback-oncomplete">OnComplete</a>  method is called. Use of a unique object for each invocation also allows targeted cancellation of an operation by the <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicemethods-cancel">Cancel</a> method.
   
 
 
 #### Examples
 
-For an example of how to use this method, see <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/invoking-methods-asynchronously">Invoking Service Methods Asynchronously</a>.
+For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/invoking-methods-asynchronously">Invoking Service Methods Asynchronously</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethods">IPortableDeviceServiceMethods Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicemethods">IPortableDeviceServiceMethods Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/invoking-methods-asynchronously">Invoking Service Methods Asynchronously</a>
-
+<a href="/windows/desktop/wpd_sdk/invoking-methods-asynchronously">Invoking Service Methods Asynchronously</a>

@@ -58,7 +58,7 @@ The <b>FWPM_FILTER_SUBSCRIPTION0</b> structure is used to subscribe for change n
 
 ### -field enumTemplate
 
-A  [FWPM_FILTER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_enum_template0) structure used to limit the subscription.
+A  [FWPM_FILTER_ENUM_TEMPLATE0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_enum_template0) structure used to limit the subscription.
 
 ### -field flags
 
@@ -102,13 +102,12 @@ Notifications are only dispatched for filters that match the template.
 If
    the template is <b>NULL</b>, it matches all filters.
 
-<b>FWPM_FILTER_SUBSCRIPTION0</b> is a specific implementation of FWPM_FILTER_SUBSCRIPTION. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>FWPM_FILTER_SUBSCRIPTION0</b> is a specific implementation of FWPM_FILTER_SUBSCRIPTION. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[FWPM_FILTER_ENUM_TEMPLATE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_enum_template0)
+[FWPM_FILTER_ENUM_TEMPLATE0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_filter_enum_template0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

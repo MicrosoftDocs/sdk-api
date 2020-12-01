@@ -101,11 +101,11 @@ The return value is <b>S_OK</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextdocument-getsaved">GetSaved</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextdocument-getsaved">GetSaved</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextdocument">ITextDocument</a>
 
 
 
@@ -113,5 +113,4 @@ The return value is <b>S_OK</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

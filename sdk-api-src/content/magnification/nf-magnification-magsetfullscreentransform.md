@@ -175,5 +175,4 @@ BOOL SetFullscreenMagnification(BOOL fPositionRelativeToVirtualScreen)
 
 ## -see-also
 
-[MagGetFullscreenTransform](/windows/win32/api/magnification/nf-magnification-maggetfullscreentransform)
-
+[MagGetFullscreenTransform](./nf-magnification-maggetfullscreentransform.md)

@@ -49,6 +49,7 @@ api_name:
  - CallMsgFilter
  - CallMsgFilterA
  - CallMsgFilterW
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # CallMsgFilterW function
@@ -56,7 +57,7 @@ api_name:
 
 ## -description
 
-Passes the specified message and hook code to the hook procedures associated with the <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-hooks">WH_SYSMSGFILTER and WH_MSGFILTER</a> hooks. A <b>WH_SYSMSGFILTER</b> or <b>WH_MSGFILTER</b> hook procedure is an application-defined callback function that examines and, optionally, modifies messages for a dialog box, message box, menu, or scroll bar.
+Passes the specified message and hook code to the hook procedures associated with the <a href="/windows/desktop/winmsg/about-hooks">WH_SYSMSGFILTER and WH_MSGFILTER</a> hooks. A <b>WH_SYSMSGFILTER</b> or <b>WH_MSGFILTER</b> hook procedure is an application-defined callback function that examines and, optionally, modifies messages for a dialog box, message box, menu, or scroll bar.
 
 ## -parameters
 
@@ -64,13 +65,13 @@ Passes the specified message and hook code to the hook procedures associated wit
 
 Type: <b>LPMSG</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the message to be passed to the hook procedures.
+A pointer to an <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> structure that contains the message to be passed to the hook procedures.
 
 ### -param nCode [in]
 
 Type: <b>int</b>
 
-An application-defined code used by the hook procedure to determine how to process the message. The code must not have the same value as system-defined hook codes (MSGF_ and HC_) associated with the <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-hooks">WH_SYSMSGFILTER</a> and <b>WH_MSGFILTER</b> hooks.
+An application-defined code used by the hook procedure to determine how to process the message. The code must not have the same value as system-defined hook codes (MSGF_ and HC_) associated with the <a href="/windows/desktop/winmsg/about-hooks">WH_SYSMSGFILTER</a> and <b>WH_MSGFILTER</b> hooks.
 
 ## -returns
 
@@ -84,12 +85,12 @@ If the application should not process the message further, the return value is n
 
 The system calls <b>CallMsgFilter</b> to enable applications to examine and control the flow of messages during internal processing of dialog boxes, message boxes, menus, and scroll bars, or when the user activates a different window by pressing the ALT+TAB key combination. 
 
-Install this hook procedure by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a> function. 
+Install this hook procedure by using the <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a> function. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/about-hooks">WH_MSGFILTER and WH_SYSMSGFILTER Hooks</a>.
+For an example, see <a href="/windows/desktop/winmsg/about-hooks">WH_MSGFILTER and WH_SYSMSGFILTER Hooks</a>.
 
 <div class="code"></div>
 
@@ -105,15 +106,15 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/hooks">Hooks</a>
+<a href="/windows/desktop/winmsg/hooks">Hooks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
+<a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644987(v=vs.85)">MessageProc</a>
+<a href="/previous-versions/windows/desktop/legacy/ms644987(v=vs.85)">MessageProc</a>
 
 
 
@@ -121,9 +122,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms644992(v=vs.85)">SysMsgProc</a>
-
+<a href="/previous-versions/windows/desktop/legacy/ms644992(v=vs.85)">SysMsgProc</a>

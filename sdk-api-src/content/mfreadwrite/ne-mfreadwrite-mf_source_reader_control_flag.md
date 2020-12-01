@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Contains flags for the <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a> method.
+Contains flags for the <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">IMFSourceReader::ReadSample</a> method.
 
 ## -enum-fields
 
 ### -field MF_SOURCE_READER_CONTROLF_DRAIN
 
-Retrieve any pending samples, but do not request any more samples from the media source. To get all of the pending samples, call <a href="https://docs.microsoft.com/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">ReadSample</a> with this flag until the method returns a <b>NULL</b> media sample pointer.
+Retrieve any pending samples, but do not request any more samples from the media source. To get all of the pending samples, call <a href="/windows/desktop/api/mfreadwrite/nf-mfreadwrite-imfsourcereader-readsample">ReadSample</a> with this flag until the method returns a <b>NULL</b> media sample pointer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/source-reader">Source Reader</a>
-
+<a href="/windows/desktop/medfound/source-reader">Source Reader</a>

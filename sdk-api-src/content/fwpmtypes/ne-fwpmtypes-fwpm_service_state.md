@@ -78,5 +78,4 @@ Maximum value for testing purposes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>
-
+<a href="/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>

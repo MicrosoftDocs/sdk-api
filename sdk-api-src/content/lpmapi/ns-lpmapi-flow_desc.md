@@ -63,11 +63,11 @@ Union of Tspec and flowspec information.
 
 ### -field u1.stspec
 
-Sender Tspec, expressed as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-sender_tspec">SENDER_TSPEC</a> structure.
+Sender Tspec, expressed as a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-sender_tspec">SENDER_TSPEC</a> structure.
 
 ### -field u1.isflow
 
-Integrated Services flowspec information, expressed as an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-is_flowspec">IS_FLOWSPEC</a> structure.
+Integrated Services flowspec information, expressed as an <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-is_flowspec">IS_FLOWSPEC</a> structure.
 
 ### -field u2
 
@@ -75,21 +75,20 @@ Union of sender and filterspec information.
 
 ### -field u2.stemp
 
-Sender template for the flow, expressed as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec">FILTER_SPEC</a> structure.
+Sender template for the flow, expressed as a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec">FILTER_SPEC</a> structure.
 
 ### -field u2.fspec
 
-Filter spec for the flow, expressed as a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec">FILTER_SPEC</a> structure.
+Filter spec for the flow, expressed as a <a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec">FILTER_SPEC</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec">FILTER_SPEC</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-filter_spec">FILTER_SPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-is_flowspec">IS_FLOWSPEC</a>
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-is_flowspec">IS_FLOWSPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-sender_tspec">SENDER_TSPEC</a>
-
+<a href="/previous-versions/windows/desktop/api/lpmapi/ns-lpmapi-sender_tspec">SENDER_TSPEC</a>

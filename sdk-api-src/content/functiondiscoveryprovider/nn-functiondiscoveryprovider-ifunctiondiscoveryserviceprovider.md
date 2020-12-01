@@ -52,11 +52,11 @@ api_name:
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-This interface is implemented to create and initialize objects to provide a specified access interface to a resource represented by the function instance. After the object is created, the <a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryserviceprovider-initialize">Initialize</a> method is called to initialize the object.
+This interface is implemented to create and initialize objects to provide a specified access interface to a resource represented by the function instance. After the object is created, the <a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryserviceprovider-initialize">Initialize</a> method is called to initialize the object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFunctionDiscoveryServiceProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFunctionDiscoveryServiceProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFunctionDiscoveryServiceProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFunctionDiscoveryServiceProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IFunctionDiscoveryServiceProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryserviceprovider-initialize">Initialize</a>
+<a href="/windows/desktop/api/functiondiscoveryprovider/nf-functiondiscoveryprovider-ifunctiondiscoveryserviceprovider-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an object that provides a specific interface that has been bound to the resource represented by the function instance.
@@ -79,4 +79,3 @@ Initializes an object that provides a specific interface that has been bound to 
 </td>
 </tr>
 </table>
-

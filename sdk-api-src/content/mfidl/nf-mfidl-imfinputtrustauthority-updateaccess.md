@@ -57,7 +57,7 @@ Notifies the input trust authority (ITA) when the number of output trust authori
 
 ### -param pParam [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/ns-mfidl-mfinputtrustauthority_access_params">MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS</a> structure that contains parameters for the <b>UpdateAccess</b> action.
+Pointer to an <a href="/windows/desktop/api/mfidl/ns-mfidl-mfinputtrustauthority_access_params">MFINPUTTRUSTAUTHORITY_ACCESS_PARAMS</a> structure that contains parameters for the <b>UpdateAccess</b> action.
 
 ## -returns
 
@@ -87,5 +87,4 @@ The ITA can update its internal state if needed. If the method returns a failure
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>

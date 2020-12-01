@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_PKCS12_PBE_PARAMS</b> structure contains parameters used to create an encryption key, <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">initialization vector</a> (IV), or <a href="https://docs.microsoft.com/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC) key for a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #12</a> password based encryption algorithm.
+The <b>CRYPT_PKCS12_PBE_PARAMS</b> structure contains parameters used to create an encryption key, <a href="/windows/desktop/SecGloss/i-gly">initialization vector</a> (IV), or <a href="/windows/desktop/SecGloss/m-gly">Message Authentication Code</a> (MAC) key for a <a href="/windows/desktop/SecGloss/p-gly">PKCS #12</a> password based encryption algorithm.
 
 ## -struct-fields
 
@@ -68,7 +68,6 @@ An integer that specifies the size, in bytes, of the salt used to create the key
 
 The buffer that contains the salt immediately follows the <b>CRYPT_PKCS12_PBE_PARAMS</b> structure.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptimportkey">NCryptImportKey</a> functions consume the <b>CRYPT_PKCS12_PBE_PARAMS</b> structure as an <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCryptBuffer</a> structure in the <i>pParameterList</i> parameter.
+The <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a> and <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptimportkey">NCryptImportKey</a> functions consume the <b>CRYPT_PKCS12_PBE_PARAMS</b> structure as an <a href="/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCryptBuffer</a> structure in the <i>pParameterList</i> parameter.
 
-The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">PKCS #12</a> standard recommends a value of 1024 or greater for the <b>iIterations</b> member.
-
+The <a href="/windows/desktop/SecGloss/p-gly">PKCS #12</a> standard recommends a value of 1024 or greater for the <b>iIterations</b> member.

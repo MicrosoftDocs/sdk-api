@@ -53,13 +53,13 @@ api_name:
 
 ## -description
 
-Invoked by Microsoft Media Foundation to complete the asynchronous operation started by <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginreceiveresponse">BeginReceiveResponse</a>.
+Invoked by Microsoft Media Foundation to complete the asynchronous operation started by <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-beginreceiveresponse">BeginReceiveResponse</a>.
 
 ## -parameters
 
 ### -param pResult [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. Microsoft Media Foundation will pass in the same pointer that its callback object received in the <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
+Pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasyncresult">IMFAsyncResult</a> interface. Microsoft Media Foundation will pass in the same pointer that its callback object received in the <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfasynccallback-invoke">IMFAsyncCallback::Invoke</a> method.
 
 ## -returns
 
@@ -86,9 +86,8 @@ Successfully received the HTTP response and associated headers.
 
 ## -remarks
 
-If the server failed the request but responded with a specific HTTP status code, the <b>EndReceiveResponse</b> should still return S_OK. Media Foundation will invoke the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-gethttpstatus">GetHttpStatus</a> method to retrieve the HTTP status code.
+If the server failed the request but responded with a specific HTTP status code, the <b>EndReceiveResponse</b> should still return S_OK. Media Foundation will invoke the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhttpdownloadrequest-gethttpstatus">GetHttpStatus</a> method to retrieve the HTTP status code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>

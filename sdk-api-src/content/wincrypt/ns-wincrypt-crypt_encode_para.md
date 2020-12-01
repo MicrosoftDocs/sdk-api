@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_ENCODE_PARA</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex">CryptEncodeObjectEx</a> function to provide access to memory allocation and memory freeing callback functions.
+The <b>CRYPT_ENCODE_PARA</b> structure is used by the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex">CryptEncodeObjectEx</a> function to provide access to memory allocation and memory freeing callback functions.
 
 ## -struct-fields
 
@@ -69,4 +69,3 @@ This member is an optional pointer to a callback function used to allocate memor
 ### -field pfnFree
 
 This member is an optional pointer to a callback function used to free memory allocated by the allocate callback function.
-

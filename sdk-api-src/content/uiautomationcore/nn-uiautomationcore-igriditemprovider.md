@@ -51,11 +51,11 @@ api_name:
 ## -description
 
 Provides access 
-        to individual child controls of containers that implement <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a>.
+        to individual child controls of containers that implement <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-igridprovider">IGridProvider</a>.
 
 ## -remarks
 
-Implemented on a UI Automation provider that must support the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementinggriditem">GridItem</a> <i>control pattern</i>.
+Implemented on a UI Automation provider that must support the <a href="/windows/desktop/WinAuto/uiauto-implementinggriditem">GridItem</a> <i>control pattern</i>.
    			
 
 Controls that implement <b>IGridItemProvider</b> can typically be traversed 
@@ -63,5 +63,4 @@ Controls that implement <b>IGridItemProvider</b> can typically be traversed
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>

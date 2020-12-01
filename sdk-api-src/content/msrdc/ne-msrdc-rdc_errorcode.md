@@ -105,5 +105,4 @@ The failure of the function is not RDC-specific and the <b>HRESULT</b> returned 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/rdc/remote-differential-compression-enumerations">Remote Differential Compression Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/rdc/remote-differential-compression-enumerations">Remote Differential Compression Enumerations</a>

@@ -61,7 +61,7 @@ The value to be converted.
 
 ## -remarks
 
-This macro is identical to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646252(v=vs.85)">GET_MOUSEORKEY_LPARAM</a> macro.
+This macro is identical to the <a href="/previous-versions/windows/desktop/legacy/ms646252(v=vs.85)">GET_MOUSEORKEY_LPARAM</a> macro.
 
 ## -see-also
 
@@ -69,13 +69,12 @@ This macro is identical to the <a href="https://docs.microsoft.com/previous-vers
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646252(v=vs.85)">GET_MOUSEORKEY_LPARAM</a>
+<a href="/previous-versions/windows/desktop/legacy/ms646252(v=vs.85)">GET_MOUSEORKEY_LPARAM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/mouse-input">Mouse Input</a>
+<a href="/windows/desktop/inputdev/mouse-input">Mouse Input</a>
 
 
 
 <b>Reference</b>
-

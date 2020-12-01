@@ -58,7 +58,7 @@ The
 ### -param ppusServices [out]
 
 Receives a reference to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a> collection that enumerates the services provided by the device. This reference must be released when it is no longer required.
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a> collection that enumerates the services provided by the device. This reference must be released when it is no longer required.
 
 ## -returns
 
@@ -66,9 +66,8 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>
-
+<a href="/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>

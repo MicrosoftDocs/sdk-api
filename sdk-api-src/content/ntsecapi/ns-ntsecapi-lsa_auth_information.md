@@ -61,8 +61,8 @@ The <b>LSA_AUTH_INFORMATION</b> structure contains authentication information fo
 ### -field LastUpdateTime
 
 A 
-<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that uses the Coordinated Universal Time (Greenwich Mean Time) format to indicate the time that this value was set. For more information about Coordinated Universal Time, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a> structure that uses the Coordinated Universal Time (Greenwich Mean Time) format to indicate the time that this value was set. For more information about Coordinated Universal Time, see the 
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 ### -field AuthType
 
@@ -132,4 +132,3 @@ Specifies the size, in bytes, of the <b>AuthInfo</b> member.
 ### -field AuthInfo
 
 Pointer to an array of bytes that contains the type of authentication information indicated by the <b>AuthType</b> member.
-

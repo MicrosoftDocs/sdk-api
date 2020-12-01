@@ -52,13 +52,13 @@ api_name:
 
 The
     <b>IGPEInformation</b> interface provides methods for Microsoft Management Console (MMC) extension snap-ins to communicate with the Group Policy Object Editor. For more information about MMC, see the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/mmc-programmer-s-guide">Microsoft Management Console</a>.
+<a href="/previous-versions/windows/desktop/mmc/mmc-programmer-s-guide">Microsoft Management Console</a>.
 
 Note that this interface does not support multithreaded object concurrency.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPEInformation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGPEInformation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPEInformation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IGPEInformation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IGPEInformation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getdisplayname">GetDisplayName</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getdisplayname">GetDisplayName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display name for a GPO.
@@ -82,7 +82,7 @@ Retrieves the display name for a GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getdspath">GetDSPath</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getdspath">GetDSPath</a>
 </td>
 <td align="left" width="63%">
 Retrieves the Active Directory path for a section of the GPO.
@@ -91,7 +91,7 @@ Retrieves the Active Directory path for a section of the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getfilesyspath">GetFileSysPath</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getfilesyspath">GetFileSysPath</a>
 </td>
 <td align="left" width="63%">
 Returns the file system path for a section of the GPO.
@@ -100,7 +100,7 @@ Returns the file system path for a section of the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-gethint">GetHint</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-gethint">GetHint</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of Active Directory object to which a GPO can be linked.
@@ -109,7 +109,7 @@ Retrieves the type of Active Directory object to which a GPO can be linked.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getname">GetName</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getname">GetName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the unique name for a GPO, usually a GUID.
@@ -118,7 +118,7 @@ Retrieves the unique name for a GPO, usually a GUID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getoptions">GetOptions</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getoptions">GetOptions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the options the user has selected for the Group Policy Object Editor.
@@ -127,7 +127,7 @@ Retrieves the options the user has selected for the Group Policy Object Editor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getregistrykey">GetRegistryKey</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-getregistrykey">GetRegistryKey</a>
 </td>
 <td align="left" width="63%">
 Retrieves a handle to the root of the registry key for a section of the GPO.
@@ -136,7 +136,7 @@ Retrieves a handle to the root of the registry key for a section of the GPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-gettype">GetType</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Retrieves type information for the GPO being edited.
@@ -145,7 +145,7 @@ Retrieves type information for the GPO being edited.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-policychanged">PolicyChanged</a>
+<a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igpeinformation-policychanged">PolicyChanged</a>
 </td>
 <td align="left" width="63%">
 Informs the Group Policy Object Editor that policy settings have changed.
@@ -157,13 +157,12 @@ Informs the Group Policy Object Editor that policy settings have changed.
 ## -remarks
 
 To create and modify a GPO directly, without using the Group Policy Object Editor, see the methods of the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a> interface.
+<a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy Interfaces</a>
+<a href="/previous-versions/windows/desktop/Policy/group-policy-interfaces">Group Policy Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>
-
+<a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy Overview</a>

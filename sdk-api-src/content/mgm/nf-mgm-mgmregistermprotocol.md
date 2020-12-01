@@ -58,7 +58,7 @@ The
 ### -param prpiInfo [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-routing_protocol_config">ROUTING_PROTOCOL_CONFIG</a> structure that contains pointers to callbacks into the client.
+<a href="/windows/desktop/api/mgm/ns-mgm-routing_protocol_config">ROUTING_PROTOCOL_CONFIG</a> structure that contains pointers to callbacks into the client.
 
 ### -param dwProtocolId [in]
 
@@ -135,13 +135,12 @@ Only one routing protocol may take ownership of an interface at any given time. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmderegistermprotocol">MgmDeRegisterMProtocol</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmderegistermprotocol">MgmDeRegisterMProtocol</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/nf-mgm-mgmtakeinterfaceownership">MgmTakeInterfaceOwnership</a>
+<a href="/windows/desktop/api/mgm/nf-mgm-mgmtakeinterfaceownership">MgmTakeInterfaceOwnership</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mgm/ns-mgm-routing_protocol_config">ROUTING_PROTOCOL_CONFIG</a>
-
+<a href="/windows/desktop/api/mgm/ns-mgm-routing_protocol_config">ROUTING_PROTOCOL_CONFIG</a>

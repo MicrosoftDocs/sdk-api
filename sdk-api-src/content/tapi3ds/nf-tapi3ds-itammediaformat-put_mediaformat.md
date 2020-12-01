@@ -98,17 +98,16 @@ Insufficient memory exists to perform the operation.
 On addresses where a variety of formats are supported (such as Wave MSP addresses, which are used on most modems and voice boards), this call is mandatory or the terminal will not be able to connect.
 
 For other addresses, such as those implemented over IP, the format may be fixed/predetermined. In that case, this call will fail if the format is not the same as the predetermined format. To retrieve such a predetermined format, an application can use 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itammediaformat-get_mediaformat">get_MediaFormat</a>.
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itammediaformat-get_mediaformat">get_MediaFormat</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itammediaformat">ITAMMediaFormat</a>
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itammediaformat">ITAMMediaFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/terminal-object">Terminal Object</a>
+<a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nf-tapi3-itammediaformat-get_mediaformat">get_MediaFormat</a>
-
+<a href="/windows/desktop/api/tapi3/nf-tapi3-itammediaformat-get_mediaformat">get_MediaFormat</a>

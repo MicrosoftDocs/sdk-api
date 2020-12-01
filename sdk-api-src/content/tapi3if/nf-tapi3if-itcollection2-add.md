@@ -120,9 +120,8 @@ There is not enough memory to reallocate the collection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection2">ITCollection2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itcollection2-remove">Remove</a>
-
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcollection2-remove">Remove</a>

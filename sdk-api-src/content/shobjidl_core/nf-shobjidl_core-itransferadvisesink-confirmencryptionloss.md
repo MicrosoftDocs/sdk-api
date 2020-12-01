@@ -56,9 +56,9 @@ Displays a message to the user confirming that loss of encryption is acceptable 
 
 ### -param psiSource
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> of the file in which encryption information will be lost.
+A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> of the file in which encryption information will be lost.
 
 ## -returns
 
@@ -105,4 +105,3 @@ Error has been queued and will display later. Operation on this file will be ski
 </td>
 </tr>
 </table>
-

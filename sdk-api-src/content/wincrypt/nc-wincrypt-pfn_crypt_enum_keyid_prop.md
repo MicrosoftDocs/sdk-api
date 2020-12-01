@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_ENUM_KEYID_PROP</b> callback function  is used with the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties">CryptEnumKeyIdentifierProperties</a> function.
+The <b>CRYPT_ENUM_KEYID_PROP</b> callback function  is used with the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties">CryptEnumKeyIdentifierProperties</a> function.
 
 ## -parameters
 
 ### -param *pKeyIdentifier [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> that contains the key identifier.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> that contains the key identifier.
 
 ### -param dwFlags [in]
 
@@ -76,7 +76,7 @@ Count of elements in the array of <i>rgdwPropId</i>
 
 ### -param *rgdwPropId [in]
 
-A pointer to an array of property identifiers. Each entry in the array will be one of the value types listed for in the table for <i>dwPropId</i> in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty">CryptSetKeyIdentifierProperty</a> function.
+A pointer to an array of property identifiers. Each entry in the array will be one of the value types listed for in the table for <i>dwPropId</i> in the <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty">CryptSetKeyIdentifierProperty</a> function.
 
 
 #### - **rgpvData [in]
@@ -86,7 +86,7 @@ A pointer to an array that contains pointers to <i>pvData</i> elements correspon
 
 
 
-For CERT_KEY_PROV_INFO_PROP_ID the <i>rgpvData</i> element points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure. For all other properties, the <i>rgpvData</i> element points to an array of bytes.
+For CERT_KEY_PROV_INFO_PROP_ID the <i>rgpvData</i> element points to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure. For all other properties, the <i>rgpvData</i> element points to an array of bytes.
 
 ### -param *rgcbData [in]
 
@@ -99,7 +99,7 @@ A pointer to an array that contains pointers to <i>pvData</i> elements correspon
 
 
 
-For CERT_KEY_PROV_INFO_PROP_ID the <i>rgpvData</i> element points to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure. For all other properties, the <i>rgpvData</i> element points to an array of bytes.
+For CERT_KEY_PROV_INFO_PROP_ID the <i>rgpvData</i> element points to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure. For all other properties, the <i>rgpvData</i> element points to an array of bytes.
 
 ## -returns
 
@@ -107,17 +107,16 @@ Returns <b>TRUE</b> if the function succeeds, <b>FALSE</b> if it fails.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
+<a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties">CryptEnumKeyIdentifierProperties</a>
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties">CryptEnumKeyIdentifierProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty">CryptSetKeyIdentifierProperty</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty">CryptSetKeyIdentifierProperty</a>

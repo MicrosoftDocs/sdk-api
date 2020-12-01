@@ -86,7 +86,7 @@ A pointer to a variable that receives a set of bit flags that specify properties
 </td>
 <td width="60%">
 If this flag is set, a child process created with the <i>bInheritHandles</i> parameter of 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> set to <b>TRUE</b> will inherit the object handle.
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> set to <b>TRUE</b> will inherit the object handle.
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ If this flag is set, a child process created with the <i>bInheritHandles</i> par
 </td>
 <td width="60%">
 If this flag is set, calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function will not close the object handle.
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> function will not close the object handle.
 
 </td>
 </tr>
@@ -109,22 +109,21 @@ If this flag is set, calling the
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
+<a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/handle-and-object-functions">Handle and
+<a href="/windows/desktop/SysInfo/handle-and-object-functions">Handle and
 		  Object Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/handleapi/nf-handleapi-sethandleinformation">SetHandleInformation</a>
-
+<a href="/windows/desktop/api/handleapi/nf-handleapi-sethandleinformation">SetHandleInformation</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Allocates an array of <b>DOUBLE</b> values then extracts data from a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure into that array.
+Allocates an array of <b>DOUBLE</b> values then extracts data from a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure into that array.
 
 ## -parameters
 
@@ -58,19 +58,19 @@ Allocates an array of <b>DOUBLE</b> values then extracts data from a <a href="ht
 
 Type: <b>REFVARIANT</b>
 
-Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
+Reference to a source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ### -param pprgn [out]
 
 Type: <b>DOUBLE**</b>
 
-When this function returns, contains a pointer to an array of <b>DOUBLE</b> values extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
+When this function returns, contains a pointer to an array of <b>DOUBLE</b> values extracted from the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ### -param pcElem [out]
 
 Type: <b>ULONG*</b>
 
-When this function returns, contains a pointer to the count of elements extracted from the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
+When this function returns, contains a pointer to the count of elements extracted from the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure.
 
 ## -returns
 
@@ -80,14 +80,14 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-This helper function is used when the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to hold an array of <b>DOUBLE</b> values.
+This helper function is used when the calling application expects a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> to hold an array of <b>DOUBLE</b> values.
 
-If the source <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> is of type VT_ARRAY | VT_R8, this function extracts an array of <b>DOUBLE</b> values into a newly allocated array. The calling application is responsible for using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release the array pointed to by <i>pprgn</i> when it is no longer needed.
+If the source <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> is of type VT_ARRAY | VT_R8, this function extracts an array of <b>DOUBLE</b> values into a newly allocated array. The calling application is responsible for using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> to release the array pointed to by <i>pprgn</i> when it is no longer needed.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttodoublearrayalloc">VariantToDoubleArrayAlloc</a> to access a <b>DOUBLE</b> array value in a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttodoublearrayalloc">VariantToDoubleArrayAlloc</a> to access a <b>DOUBLE</b> array value in a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>.
 
 
 ```cpp
@@ -108,17 +108,16 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromdoublearray">InitVariantFromDoubleArray</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initvariantfromdoublearray">InitVariantFromDoubleArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvariantchangetype">PropVariantChangeType</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttodoublevectoralloc">PropVariantToDoubleVectorAlloc</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttodoublevectoralloc">PropVariantToDoubleVectorAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttodoublearray">VariantToDoubleArray</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttodoublearray">VariantToDoubleArray</a>

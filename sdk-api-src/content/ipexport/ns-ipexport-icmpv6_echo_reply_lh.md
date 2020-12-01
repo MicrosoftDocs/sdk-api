@@ -63,7 +63,7 @@ The
 
 Type: <b>IPV6_ADDRESS_EX</b>
 
-The replying IPv6 address, in the form of an <a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ipv6_address_ex">IPV6_ADDRESS_EX</a> structure.
+The replying IPv6 address, in the form of an <a href="/windows/desktop/api/ipexport/ns-ipexport-ipv6_address_ex">IPV6_ADDRESS_EX</a> structure.
 
 ### -field Status
 
@@ -372,15 +372,15 @@ The round trip time, in milliseconds.
 
 ## -remarks
 
-The <b>ICMPV6_ECHO_REPLY</b> structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmp6parsereplies">Icmp6ParseReplies</a> function to return the response to an IPv6 echo request. The reply data that contains the message body from the ICMPV6 response follows the <b>ICMPV6_ECHO_REPLY</b> structure in memory.
+The <b>ICMPV6_ECHO_REPLY</b> structure is used by the <a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmp6parsereplies">Icmp6ParseReplies</a> function to return the response to an IPv6 echo request. The reply data that contains the message body from the ICMPV6 response follows the <b>ICMPV6_ECHO_REPLY</b> structure in memory.
 
 
 For IPv6, some of the possible values for the <b>Status</b> member are specified in 
 RFC 2163. For more information, see <a href="http://tools.ietf.org/html/rfc2463">www.ietf.org/rfc/rfc2463.txt</a>.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getiperrorstring">GetIpErrorString</a> function can be used to retrieve the IP helper error string for the <b>IP_STATUS</b> error code in the <b>Status</b> member.
+The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getiperrorstring">GetIpErrorString</a> function can be used to retrieve the IP helper error string for the <b>IP_STATUS</b> error code in the <b>Status</b> member.
 
-The <b>ICMPV6_ECHO_REPLY</b> structure is defined in public header files included in the Microsoft Windows Software Development Kit (SDK), but this structure is used by the <a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmp6parsereplies">Icmp6ParseReplies</a> function on Windows XP and later.  
+The <b>ICMPV6_ECHO_REPLY</b> structure is defined in public header files included in the Microsoft Windows Software Development Kit (SDK), but this structure is used by the <a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmp6parsereplies">Icmp6ParseReplies</a> function on Windows XP and later.  
 
 In the Windows SDK, the <b>ICMPV6_ECHO_REPLY_LH</b> structure is defined  when compiling an 
      application if the target platform is Windows XP and later 
@@ -394,37 +394,36 @@ This structure is defined in the <i>Ipexport.h</i> header file which is automati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iphlpapi/nf-iphlpapi-getiperrorstring">GetIpErrorString</a>
+<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getiperrorstring">GetIpErrorString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
+<a href="/windows/desktop/IpHlp/ip-helper-start-page">IP Helper Start Page</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
+<a href="/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ipv6_address_ex">IPV6_ADDRESS_EX</a>
+<a href="/windows/desktop/api/ipexport/ns-ipexport-ipv6_address_ex">IPV6_ADDRESS_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ipexport/ns-ipexport-ip_option_information">IP_OPTION_INFORMATION</a>
+<a href="/windows/desktop/api/ipexport/ns-ipexport-ip_option_information">IP_OPTION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmp6createfile">Icmp6CreateFile</a>
+<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmp6createfile">Icmp6CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmp6parsereplies">Icmp6ParseReplies</a>
+<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmp6parsereplies">Icmp6ParseReplies</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmp6sendecho2">Icmp6SendEcho2</a>
+<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmp6sendecho2">Icmp6SendEcho2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/icmpapi/nf-icmpapi-icmpclosehandle">IcmpCloseHandle</a>
-
+<a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpclosehandle">IcmpCloseHandle</a>

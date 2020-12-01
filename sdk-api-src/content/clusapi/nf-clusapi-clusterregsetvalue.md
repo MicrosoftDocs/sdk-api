@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Sets a value for a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
+    <a href="/previous-versions/windows/desktop/mscs/cluster-database">cluster database</a> key.
 
 ## -parameters
 
@@ -65,12 +65,12 @@ Handle to a cluster database key.
 ### -param lpszValueName [in]
 
 Pointer to a null-terminated Unicode string containing the name of the value to set. If a value with this 
-       name is not already present in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a>, 
+       name is not already present in the <a href="/previous-versions/windows/desktop/mscs/resources">resource</a>, 
        <b>ClusterRegSetValue</b> adds it to the resource.
 
 ### -param dwType [in]
 
-Type of information to be stored as the value's data. This parameter can be one of the following values. For more information see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>.
+Type of information to be stored as the value's data. This parameter can be one of the following values. For more information see <a href="/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>.
 
 
 
@@ -145,7 +145,7 @@ Count of bytes in the data pointed to by the <i>lpbData</i> parameter. If the da
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-      <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+      <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
@@ -155,32 +155,31 @@ Do not call <b>ClusterRegSetValue</b> from the
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pclose_routine">Close</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-poffline_routine">Offline</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-ponline_routine">Online</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-popen_routine">Open</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
+<a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
 </li>
 </ul>
 
 
 <b>ClusterRegSetValue</b> can be safely called from any 
      other resource DLL entry point function or from a worker thread. For more information, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="/previous-versions/windows/desktop/mscs/function-calls-to-avoid-in-resource-dlls">Function Calls to Avoid in Resource DLLs</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregopenkey">ClusterRegOpenKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>
-
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>

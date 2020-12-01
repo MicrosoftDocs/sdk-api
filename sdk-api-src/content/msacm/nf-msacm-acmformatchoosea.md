@@ -59,7 +59,7 @@ The <b>acmFormatChoose</b> function creates an ACM-defined dialog box that enabl
 
 ### -param pafmtc
 
-Pointer to an [ACMFORMATCHOOSE](/windows/win32/api/msacm/nf-msacm-acmformatchoose) structure that contains information used to initialize the dialog box. When this function returns, this structure contains information about the user's format selection.
+Pointer to an [ACMFORMATCHOOSE](./nf-msacm-acmformatchoose.md) structure that contains information used to initialize the dialog box. When this function returns, this structure contains information about the user's format selection.
 
 The <b>pwfx</b> member of this structure must contain a valid pointer to a memory location that will contain the returned format header structure. Moreover, the <b>cbwfx</b> member must be filled in with the size, in bytes, of this memory buffer.
 
@@ -142,14 +142,13 @@ A suitable driver is not available to provide valid format selections.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
 
 ## -remarks
 
 > [!NOTE]
 > The msacm.h header defines ACMFORMATCHOOSE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

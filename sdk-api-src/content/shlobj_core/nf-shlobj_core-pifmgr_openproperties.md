@@ -104,7 +104,7 @@ Returns a handle to the application's properties. Use this handle when you call 
 You should not think of <b>PifMgr_OpenProperties</b> as a function that opens a file somewhere. The .pif file does not remain open after this call. It is more useful to think of the function as a property structure allocator that you can initialize using disk data. 
 The primary reason why this function fails is because of low memory or inability to open the specified .pif file.
 
-If no .pif file exists, the function still allocates a data block in memory and initializes it with data from _Default.pif or its internal defaults.  If the function looks for a .pif file name but does not find it, it constructs a name and saves it in its internal .pif data structure. This guarantees that if <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_setproperties">PifMgr_SetProperties</a> is called, the data is saved to disk.
+If no .pif file exists, the function still allocates a data block in memory and initializes it with data from _Default.pif or its internal defaults.  If the function looks for a .pif file name but does not find it, it constructs a name and saves it in its internal .pif data structure. This guarantees that if <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_setproperties">PifMgr_SetProperties</a> is called, the data is saved to disk.
 
 If the function does not find the .pif file, it searches for it in the following order. 
 
@@ -119,9 +119,8 @@ If the function does not find the .pif file, it searches for it in the following
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_closeproperties">PifMgr_CloseProperties</a>
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_closeproperties">PifMgr_CloseProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_getproperties">PifMgr_GetProperties</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-pifmgr_getproperties">PifMgr_GetProperties</a>

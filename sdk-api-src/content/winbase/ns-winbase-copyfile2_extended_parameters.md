@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Contains extended parameters for the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a> 
+Contains extended parameters for the <a href="/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a> 
     function.
 
 ## -struct-fields
@@ -100,7 +100,7 @@ If the source file is a symbolic link, the destination file is also a symbolic l
 </td>
 <td width="60%">
 If the destination file exists the copy operation fails immediately. If a file or directory exists with 
-        the destination name then the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a> function call will 
+        the destination name then the <a href="/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a> function call will 
         fail with either <code>HRESULT_FROM_WIN32(ERROR_ALREADY_EXISTS)</code> 
         or <code>HRESULT_FROM_WIN32(ERROR_FILE_EXISTS)</code>. If 
         <b>COPY_FILE_RESUME_FROM_PAUSE</b> is also specified then a failure is only triggered if 
@@ -166,8 +166,8 @@ The copy is attempted, specifying
          <code>ACCESS_SYSTEM_SECURITY | WRITE_DAC | WRITE_OWNER</code> for the 
          destination file. If these requests are denied the access request will be reduced to the highest privilege 
          level for which access is granted. For more information see 
-         <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/sacl-access-right">SACL Access Right</a>. This can be used to allow the 
-         <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a> callback to 
+         <a href="/windows/desktop/SecAuthZ/sacl-access-right">SACL Access Right</a>. This can be used to allow the 
+         <a href="/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a> callback to 
          perform operations requiring higher privileges, such as copying the security attributes for the file.
 
 </td>
@@ -197,28 +197,27 @@ If this flag is set to <b>TRUE</b> during the copy operation then the copy opera
 The optional address of a callback function of type <b>PCOPYFILE2_PROGRESS_ROUTINE</b> that is 
       called each time another portion of the file has been copied. This parameter can be 
       <b>NULL</b>. For more information on the progress callback function, see the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a> callback function.
+      <a href="/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a> callback function.
 
 ### -field pvCallbackContext
 
 A pointer to application-specific context information to be passed to the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a>.
+      <a href="/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a>.
 
 ## -remarks
 
 To compile an application that uses this structure, define the <b>_WIN32_WINNT</b> 
     macro as <b>_WIN32_WINNT_WIN8</b> or later. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+    <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-copyfile2">CopyFile2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a>
+<a href="/windows/desktop/api/winbase/nc-winbase-pcopyfile2_progress_routine">CopyFile2ProgressRoutine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
-
+<a href="/windows/desktop/FileIO/file-management-structures">File Management Structures</a>

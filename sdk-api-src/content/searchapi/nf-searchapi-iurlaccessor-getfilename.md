@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the file name of the item, which the filter host uses for indexing. If the item does not exist in a file system and the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtostream">IUrlAccessor::BindToStream</a> method is implemented, this method returns the shell's System.ParsingPath property for the item.
+Retrieves the file name of the item, which the filter host uses for indexing. If the item does not exist in a file system and the <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtostream">IUrlAccessor::BindToStream</a> method is implemented, this method returns the shell's System.ParsingPath property for the item.
 
 ## -parameters
 
@@ -84,5 +84,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-If this method is implemented, the filter host uses the file name to determine the correct <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> to use to parse the content of the stream returned by <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtostream">IUrlAccessor::BindToStream</a>.
-
+If this method is implemented, the filter host uses the file name to determine the correct <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> to use to parse the content of the stream returned by <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtostream">IUrlAccessor::BindToStream</a>.

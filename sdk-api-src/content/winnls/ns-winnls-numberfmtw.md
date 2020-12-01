@@ -54,17 +54,17 @@ api_name:
 
 ## -description
 
-Contains information that defines the format of a number string. The <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnumberformata">GetNumberFormat</a> function uses this information to customize a number string for a specified locale.
+Contains information that defines the format of a number string. The <a href="/windows/desktop/api/winnls/nf-winnls-getnumberformata">GetNumberFormat</a> function uses this information to customize a number string for a specified locale.
 
 ## -struct-fields
 
 ### -field NumDigits
 
-Number of fractional digits. This value is equivalent to the locale information specified by the value <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-idigits">LOCALE_IDIGITS</a>.
+Number of fractional digits. This value is equivalent to the locale information specified by the value <a href="/windows/desktop/Intl/locale-idigits">LOCALE_IDIGITS</a>.
 
 ### -field LeadingZero
 
-A value indicating if leading zeros should be used in decimal fields. This value is equivalent to the locale information specified by the value <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-ilzero">LOCALE_ILZERO</a>.
+A value indicating if leading zeros should be used in decimal fields. This value is equivalent to the locale information specified by the value <a href="/windows/desktop/Intl/locale-ilzero">LOCALE_ILZERO</a>.
 
 ### -field Grouping
 
@@ -83,18 +83,17 @@ Pointer to a null-terminated thousand separator string.
 
 ### -field NegativeOrder
 
-Negative number mode. This mode is equivalent to the locale information specified by the value <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-ineg-constants">LOCALE_INEGNUMBER</a>.
+Negative number mode. This mode is equivalent to the locale information specified by the value <a href="/windows/desktop/Intl/locale-ineg-constants">LOCALE_INEGNUMBER</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getnumberformata">GetNumberFormat</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getnumberformata">GetNumberFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-structures">National Language Support Structures</a>
+<a href="/windows/desktop/Intl/national-language-support-structures">National Language Support Structures</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winnls.h header defines NUMBERFMT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

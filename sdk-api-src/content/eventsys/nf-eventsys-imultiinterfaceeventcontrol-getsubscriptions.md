@@ -64,7 +64,7 @@ The event method associated with the subscription collection.
 
 ### -param optionalCriteria [in]
 
-A string specifying the query criteria. If this parameter is <b>NULL</b>, the default query specified by the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-setdefaultquery">SetDefaultQuery</a> method is used. For details on forming a valid expression for this parameter, see the Remarks section below.
+A string specifying the query criteria. If this parameter is <b>NULL</b>, the default query specified by the <a href="/windows/desktop/api/eventsys/nf-eventsys-imultiinterfaceeventcontrol-setdefaultquery">SetDefaultQuery</a> method is used. For details on forming a valid expression for this parameter, see the Remarks section below.
 
 ### -param optionalErrorIndex [in]
 
@@ -72,7 +72,7 @@ The location, expressed as an offset, of an error in the <i>optionalCriteria</i>
 
 ### -param ppCollection [out, retval]
 
-The address of a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a> interface on a collection object that enumerates the subscriptions associated with the event object.
+The address of a pointer to an <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a> interface on a collection object that enumerates the subscriptions associated with the event object.
 
 ## -returns
 
@@ -142,7 +142,7 @@ An unexpected internal error was detected.
 
 ## -remarks
 
-This method is a more specialized form of the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-query">IEventSystem::Query</a> method. In addition to obtaining only subscription objects, a collection obtained by calling <b>GetSubscriptions</b> is automatically updated whenever the subscription collection changes.
+This method is a more specialized form of the <a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsystem-query">IEventSystem::Query</a> method. In addition to obtaining only subscription objects, a collection obtained by calling <b>GetSubscriptions</b> is automatically updated whenever the subscription collection changes.
 
 The query criteria specified by the <i>optionalCriteria</i> parameter can be "ALL", to specify a request for all subscription objects, or a Boolean expression denoting one or more conditions a subscription object must meet to be included in the query result. Valid expressions are of the following form:
 
@@ -160,5 +160,4 @@ Following are some examples of valid query criteria:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a>

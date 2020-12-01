@@ -58,5 +58,4 @@ Used to indicate that an error has occurred with the  source buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffernotify">IMFSourceBufferNotify</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffernotify">IMFSourceBufferNotify</a>

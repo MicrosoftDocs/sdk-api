@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>SecBuffer</b> structure describes a buffer allocated by a transport application to pass to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a>.
+The <b>SecBuffer</b> structure describes a buffer allocated by a transport application to pass to a <a href="/windows/desktop/SecGloss/s-gly">security package</a>.
 
 ## -struct-fields
 
@@ -111,7 +111,7 @@ The buffer contains channel binding information.
 </dl>
 </td>
 <td width="60%">
-The buffer contains a <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-domain_password_information">DOMAIN_PASSWORD_INFORMATION</a> structure.
+The buffer contains a <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-domain_password_information">DOMAIN_PASSWORD_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ The buffer contains the setting for the maximum transmission unit (MTU) size for
 </td>
 <td width="60%">
 This is a placeholder in the buffer array. The caller can supply several such entries in the array, and the security package can return information in them. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/sspi-context-semantics">SSPI Context Semantics</a>.
+<a href="/windows/desktop/SecAuthN/sspi-context-semantics">SSPI Context Semantics</a>.
 
 </td>
 </tr>
@@ -167,7 +167,7 @@ The security package uses this value to indicate the number of extra or unproces
 </dl>
 </td>
 <td width="60%">
-The buffer contains a protocol-specific list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs). It is not usually of interest to callers.
+The buffer contains a protocol-specific list of <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs). It is not usually of interest to callers.
 
 </td>
 </tr>
@@ -200,7 +200,7 @@ The security package uses this value to indicate the number of missing bytes in 
 </dl>
 </td>
 <td width="60%">
-These are transport-to-package–specific parameters. For example, the NetWare redirector may supply the server <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a>, while DCE RPC can supply an association <b>UUID</b>, and so on.
+These are transport-to-package–specific parameters. For example, the NetWare redirector may supply the server <a href="/windows/desktop/SecGloss/o-gly">object identifier</a>, while DCE RPC can supply an association <b>UUID</b>, and so on.
 
 </td>
 </tr>
@@ -288,7 +288,7 @@ This flag is reserved. Do not use it.
 </dl>
 </td>
 <td width="60%">
-The buffer specifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">service principal name</a> (SPN) of the target.
+The buffer specifies the <a href="/windows/desktop/SecGloss/s-gly">service principal name</a> (SPN) of the target.
 
 This value is supported by the Digest security package when used with channel bindings.
 
@@ -376,5 +376,4 @@ A pointer to a buffer.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a>
-
+<a href="/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a>

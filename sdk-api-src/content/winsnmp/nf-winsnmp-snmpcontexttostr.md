@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
+<p class="CCE_Message">[SNMP is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/WinRM/portal">Windows Remote Management</a>, which is the Microsoft implementation of WS-Man.]
 
 The WinSNMP 
 <b>SnmpContextToStr</b> function returns a string that identifies an SNMP context, which is a set of managed object resources. The function returns the string in an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a> structure.
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a> structure.
 
 ## -parameters
 
@@ -65,14 +65,14 @@ Handle to the SNMP context of interest.
 ### -param string [out]
 
 Pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a> structure to receive the string that identifies the context of interest. The string can have a null-terminating byte.
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a> structure to receive the string that identifies the context of interest. The string can have a null-terminating byte.
 
 ## -returns
 
 If the function succeeds, the return value is SNMPAPI_SUCCESS.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpgetlasterror">SnmpGetLastError</a>. The 
 <b>SnmpGetLastError</b> function can return one of the following errors.
 
 <table>
@@ -88,7 +88,7 @@ If the function fails, the return value is SNMPAPI_FAILURE. To get extended erro
 </td>
 <td width="60%">
 The 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpstartup">SnmpStartup</a> function did not complete successfully.
 
 </td>
 </tr>
@@ -131,12 +131,12 @@ An unknown or undefined error occurred.
 
 The current setting of the entity and context translation mode determines the type of output string 
 <b>SnmpContextToStr</b> returns. For additional information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/setting-the-entity-and-context-translation-mode">Setting the Entity and Context Translation Mode</a>.
+<a href="/windows/desktop/SNMP/setting-the-entity-and-context-translation-mode">Setting the Entity and Context Translation Mode</a>.
 
 The WinSNMP application must provide the address of a valid 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a> structure for the <i>string</i> parameter. If the 
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a> structure for the <i>string</i> parameter. If the 
 <b>SnmpContextToStr</b> function completes successfully, the Microsoft WinSNMP implementation initializes the <b>len</b> and <b>ptr</b> members of the structure. The WinSNMP application must call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a> function to enable the implementation to free the resources for these members.
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a> function to enable the implementation to free the resources for these members.
 
 When the entity and context translation mode is SNMPAPI_TRANSLATED, and the entry exists in the implementation's database, the implementation returns the associated user-friendly name of the context. If an entry does not exist for the context name, 
 <b>SnmpContextToStr</b> returns the SNMP community string.
@@ -145,18 +145,17 @@ When the entity and context translation mode is SNMPAPI_UNTRANSLATED_V1 or SNMPA
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a>
+<a href="/windows/desktop/api/winsnmp/nf-winsnmp-snmpfreedescriptor">SnmpFreeDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-functions">WinSNMP
+<a href="/windows/desktop/SNMP/winsnmp-functions">WinSNMP
 		  Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
+<a href="/windows/desktop/SNMP/winsnmp-api">WinSNMP API Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a>
-
+<a href="/windows/desktop/api/winsnmp/ns-winsnmp-smioctets">smiOCTETS</a>

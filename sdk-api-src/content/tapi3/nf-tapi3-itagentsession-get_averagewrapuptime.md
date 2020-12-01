@@ -109,7 +109,7 @@ The <i>plWrapUpTime</i> parameter is not a valid pointer.
 </td>
 <td width="60%">
 See 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a> for error codes returned from this TAPI 2.1 function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a> for error codes returned from this TAPI 2.1 function.
 
 </td>
 </tr>
@@ -129,9 +129,8 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 ## -remarks
 
 This method wraps the TAPI 2.1 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a> function.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>
-
+<a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>

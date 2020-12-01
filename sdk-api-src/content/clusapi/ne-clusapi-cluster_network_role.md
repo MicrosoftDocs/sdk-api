@@ -51,10 +51,10 @@ api_name:
 
 ## -description
 
-Describes the role a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">network</a> plays in the 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks-role">network role</a> and  
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusters-defaultnetworkrole">DefaultNetworkRole</a> common properties use 
+Describes the role a <a href="/previous-versions/windows/desktop/mscs/networks">network</a> plays in the 
+    <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a>. The 
+    <a href="/previous-versions/windows/desktop/mscs/networks-role">network role</a> and  
+    <a href="/previous-versions/windows/desktop/mscs/clusters-defaultnetworkrole">DefaultNetworkRole</a> common properties use 
     this enumeration. This is a bitmask.
 
 ## -enum-fields
@@ -77,13 +77,12 @@ The network is used to connect client systems and to carry internal cluster comm
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusters-defaultnetworkrole">DefaultNetworkRole</a>
+<a href="/previous-versions/windows/desktop/mscs/clusters-defaultnetworkrole">DefaultNetworkRole</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks-role">Network Role</a>
-
+<a href="/previous-versions/windows/desktop/mscs/networks-role">Network Role</a>

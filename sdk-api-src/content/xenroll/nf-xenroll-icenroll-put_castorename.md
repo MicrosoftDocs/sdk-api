@@ -66,7 +66,7 @@ api_name:
 
 The <b>CAStoreName</b> property sets or retrieves the name of the store where all non-"ROOT" and non-"MY" certificates are kept.
 
-The default value for this property is "CA". This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+The default value for this property is "CA". This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 This property is read/write.
 
@@ -78,10 +78,10 @@ The <b>CAStoreName</b> property affects the behavior of the following methods:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
 </li>
 </ul>
 
@@ -116,4 +116,3 @@ if ( FAILED ( hr ) )
 else
     printf( "CAStoreName was set to : %ws\n", bstrNewName );
 ```
-

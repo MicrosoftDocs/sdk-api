@@ -81,17 +81,16 @@ There is no running assessment to cancel.
 
 ## -remarks
 
-This method sends WinSAT a request to cancel the assessment. To determine if the cancel request succeeded, implement the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatcomplete">IWinSATInitiateEvents::WinSATComplete</a> method and check the <i>hresult</i> parameter for a value of WINSAT_ERROR_WINSAT_CANCELED.
+This method sends WinSAT a request to cancel the assessment. To determine if the cancel request succeeded, implement the <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatcomplete">IWinSATInitiateEvents::WinSATComplete</a> method and check the <i>hresult</i> parameter for a value of WINSAT_ERROR_WINSAT_CANCELED.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
+<a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iinitiatewinsatassessment">IInitiateWinSATAssessment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateassessment">IInitiateWinSATAssessment::InitiateAssessment</a>
+<a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateassessment">IInitiateWinSATAssessment::InitiateAssessment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment">IInitiateWinSATAssessment::InitiateFormalAssessment</a>
-
+<a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment">IInitiateWinSATAssessment::InitiateFormalAssessment</a>

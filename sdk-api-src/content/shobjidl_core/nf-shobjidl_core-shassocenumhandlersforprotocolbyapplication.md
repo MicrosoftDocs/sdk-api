@@ -70,7 +70,7 @@ A reference to the IID of the interface to retrieve through <i>enumHandlers</i>,
 
 Type: <b>void**</b>
 
-When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumassochandlers">IEnumAssocHandlers</a>.
+When this method returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumassochandlers">IEnumAssocHandlers</a>.
 
 ## -returns
 
@@ -81,4 +81,3 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ## -remarks
 
 It is recommended that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, to package the <i>riid</i> and <i>enumHandlers</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>enumHandlers</i>, which eliminates the possibility of a coding error.
-

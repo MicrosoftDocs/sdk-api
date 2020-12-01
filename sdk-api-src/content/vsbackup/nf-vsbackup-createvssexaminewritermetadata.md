@@ -53,7 +53,7 @@ api_name:
 
 The <b>CreateVssExamineWriterMetadata</b> 
     function creates an 
-    <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> object. <div class="alert"><b>Note</b>  This function is exported as <b>CreateVssExamineWriterMetadataInternal</b>, but you should call <b>CreateVssExamineWriterMetadata</b>, not <b>CreateVssExamineWriterMetadataInternal</b>.</div>
+    <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> object. <div class="alert"><b>Note</b>  This function is exported as <b>CreateVssExamineWriterMetadataInternal</b>, but you should call <b>CreateVssExamineWriterMetadata</b>, not <b>CreateVssExamineWriterMetadataInternal</b>.</div>
 <div> </div>
 
 ## -parameters
@@ -61,12 +61,12 @@ The <b>CreateVssExamineWriterMetadata</b>
 ### -param bstrXML [in]
 
 An XML string containing a Writer Metadata Document with which to initialize the returned 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> object.
+      <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> object.
 
 ### -param ppMetadata [out]
 
 A variable that receives an 
-      <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> 
+      <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> 
       interface pointer to the object.
 
 ## -returns
@@ -87,7 +87,7 @@ The return values listed here are in addition to the normal COM HRESULTs that ma
 </td>
 <td width="60%">
 Successfully returned a pointer to an 
-        <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> interface.
+        <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> interface.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ The XML document passed in the <i>bstrXML</i> parameter is not
 </td>
 <td width="60%">
 Unexpected error. The error code is logged in the error log file. For more information, see 
-        <a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+        <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported until Windows Server 2008 R2 and Windows 7. E_UNEXPECTED is used instead.
 
@@ -155,20 +155,19 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 ## -remarks
 
-To save a copy of a writer’s Writer Metadata Document into an XML string to pass in the <i>bstrXML</i> parameter, use the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml">IVssExamineWriterMetadata::SaveAsXML</a> method.
+To save a copy of a writer’s Writer Metadata Document into an XML string to pass in the <i>bstrXML</i> parameter, use the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-saveasxml">IVssExamineWriterMetadata::SaveAsXML</a> method.
 
-To retrieve the latest version of a writer’s Writer Metadata Document, use the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata">IVssBackupComponents::GetWriterMetadata</a> method.
+To retrieve the latest version of a writer’s Writer Metadata Document, use the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata">IVssBackupComponents::GetWriterMetadata</a> method.
 
-To load a writer metadata document into an existing <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> object, use the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-loadfromxml">IVssExamineWriterMetadata::LoadFromXML</a> method.
+To load a writer metadata document into an existing <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> object, use the <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-loadfromxml">IVssExamineWriterMetadata::LoadFromXML</a> method.
 
 Users should not attempt to modify the contents of the Writer Metadata Document.
 
-The calling application is responsible for calling <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the 
+The calling application is responsible for calling <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> to release the 
     resources held by 
-    the <a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> object when the object 
+    the <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a> object when the object 
     is no longer needed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
-
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>

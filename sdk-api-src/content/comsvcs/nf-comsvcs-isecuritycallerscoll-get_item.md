@@ -70,9 +70,8 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 The security callers collection represents a chain of callers that cross security boundaries. These callers are also known as upstream callers.
 
-Each item in this collection is a <a href="https://docs.microsoft.com/windows/desktop/cossdk/securityidentity">SecurityIdentity</a> object. To obtain an item in this collection, use the Item property of the <a href="https://docs.microsoft.com/windows/desktop/cossdk/securitycallers">SecurityCallers</a> collection object, specifying an integer index value between 0 and the number of callers, minus 1, in the collection. To retrieve the direct caller, this index value should be 0, and to retrieve the original caller, the index can be either -1 or the number of callers minus 1.
+Each item in this collection is a <a href="/windows/desktop/cossdk/securityidentity">SecurityIdentity</a> object. To obtain an item in this collection, use the Item property of the <a href="/windows/desktop/cossdk/securitycallers">SecurityCallers</a> collection object, specifying an integer index value between 0 and the number of callers, minus 1, in the collection. To retrieve the direct caller, this index value should be 0, and to retrieve the original caller, the index can be either -1 or the number of callers minus 1.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallerscoll">ISecurityCallersColl</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallerscoll">ISecurityCallersColl</a>

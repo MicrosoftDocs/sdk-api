@@ -67,25 +67,24 @@ This method always returns S_OK.
 
 ## -remarks
 
-When you call this method to enable manual stream selection, all streams in the file are selected. To select specific streams, pass an array of the desired stream numbers to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setstreamsselected">IWMReaderAdvanced::SetStreamsSelected</a> method.
+When you call this method to enable manual stream selection, all streams in the file are selected. To select specific streams, pass an array of the desired stream numbers to the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setstreamsselected">IWMReaderAdvanced::SetStreamsSelected</a> method.
 
-When manual stream selection is enabled, you can manage the selected streams using <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstreamselected">GetStreamSelected</a> and <b>SetStreamsSelected</b>.
+When manual stream selection is enabled, you can manage the selected streams using <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstreamselected">GetStreamSelected</a> and <b>SetStreamsSelected</b>.
 
 Stream numbers are in the range of 1 through 63.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
+<a href="/windows/desktop/wmformat/iwmprofile">IWMProfile Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getmanualstreamselection">IWMReaderAdvanced::GetManualStreamSelection</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getmanualstreamselection">IWMReaderAdvanced::GetManualStreamSelection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/to-use-manual-stream-selection">To Use Manual Stream Selection</a>
-
+<a href="/windows/desktop/wmformat/to-use-manual-stream-selection">To Use Manual Stream Selection</a>

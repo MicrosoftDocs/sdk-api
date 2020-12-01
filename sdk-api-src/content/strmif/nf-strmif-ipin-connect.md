@@ -55,17 +55,17 @@ The <code>Connect</code> method connects the pin to another pin.
 
 
 
-Applications should not call this method. Use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> methods instead. This method is called by the Filter Graph Manager to connect pins.
+Applications should not call this method. Use <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder</a> methods instead. This method is called by the Filter Graph Manager to connect pins.
 
 ## -parameters
 
 ### -param pReceivePin [in]
 
-Pointer to the receiving pin's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface.
+Pointer to the receiving pin's <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface.
 
 ### -param pmt [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type for the connection. Can be <b>NULL</b>.
+Pointer to an <a href="/windows/desktop/api/strmif/ns-strmif-am_media_type">AM_MEDIA_TYPE</a> structure that specifies the media type for the connection. Can be <b>NULL</b>.
 
 ## -returns
 
@@ -148,17 +148,16 @@ The specified media type is not acceptable.
 
 The <i>pmt</i> parameter can be <b>NULL</b>. It can also specify a partial media type, with a value of GUID_NULL for the major type, subtype, or format.
 
-This method verifies that the connection is possible. If the pin rejects the connection, the method fails. The connecting pin proposes media types by calling <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-receiveconnection">IPin::ReceiveConnection</a> on the receiving pin.
+This method verifies that the connection is possible. If the pin rejects the connection, the method fails. The connecting pin proposes media types by calling <a href="/windows/desktop/api/strmif/nf-strmif-ipin-receiveconnection">IPin::ReceiveConnection</a> on the receiving pin.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
+<a href="/windows/desktop/DirectShow/data-flow-in-the-filter-graph">Data Flow in the Filter Graph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>

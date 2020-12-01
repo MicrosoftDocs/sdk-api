@@ -56,7 +56,7 @@ Sets the formatted text of this range text to the formatted text of the specifie
 
 ### -param pRange [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>*</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>*</b>
 
 The formatted text to replace this range's text.
 
@@ -64,7 +64,7 @@ The formatted text to replace this range's text.
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -108,9 +108,9 @@ Out of memory.
 
 ## -remarks
 
-If the <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> does not belong to the same Text Object Model (TOM) engine, call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> for an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface.
+If the <a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a> does not belong to the same Text Object Model (TOM) engine, call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> for an <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> interface.
 
-Among the formats typically supported by the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> are CF_TEXT and CF_RTF. In addition, private formats can be used to reference a text solution's own internal rich-text formats. The following Microsoft Visual Basic example uses the <b>FormattedText</b> property to replace the text in range2 with the formatted text in range1.
+Among the formats typically supported by the <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a> are CF_TEXT and CF_RTF. In addition, private formats can be used to reference a text solution's own internal rich-text formats. The following Microsoft Visual Basic example uses the <b>FormattedText</b> property to replace the text in range2 with the formatted text in range1.
 
 <code>range2.FormattedText = range1.FormattedText</code>
 
@@ -120,15 +120,15 @@ Among the formats typically supported by the <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getduplicate">GetDuplicate</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getduplicate">GetDuplicate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getformattedtext">GetFormattedText</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getformattedtext">GetFormattedText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -136,5 +136,4 @@ Among the formats typically supported by the <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

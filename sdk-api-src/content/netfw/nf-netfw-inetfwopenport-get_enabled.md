@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
+<p class="CCE_Message">[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the <a href="/previous-versions/windows/desktop/ics/windows-firewall-advanced-security-start-page">Windows Firewall with Advanced Security</a> API is recommended.]
 
 Indicates whether the settings for this port are currently enabled.
 
@@ -63,15 +63,14 @@ This property is read/write.
 
 ## -remarks
 
-This property can be set to false (<b>VARIANT_FALSE</b>) to allow port settings to be stored in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFWOpenPorts</a> collection without actually opening the port. 
+This property can be set to false (<b>VARIANT_FALSE</b>) to allow port settings to be stored in the <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFWOpenPorts</a> collection without actually opening the port. 
 
 The default value is true (<b>VARIANT_TRUE</b>) for new ports.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFWOpenPorts</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFWOpenPorts</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort</a>
-
+<a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort</a>

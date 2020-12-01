@@ -64,5 +64,4 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-idigitalcabletuningspace">IDigitalCableTuningSpace Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idigitalcabletuningspace">IDigitalCableTuningSpace Interface</a>

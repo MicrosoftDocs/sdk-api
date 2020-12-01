@@ -57,7 +57,7 @@ The <code>SetColorKey</code> method sets the source color key that the VMR will 
 
 ### -param lpClrKey [in]
 
-Specifies the source color key as a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-ddcolorkey">DDCOLORKEY</a> type.
+Specifies the source color key as a <a href="/windows/desktop/api/strmif/ns-strmif-ddcolorkey">DDCOLORKEY</a> type.
 
 ## -returns
 
@@ -65,13 +65,12 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrvideostreamcontrol">IVMRVideoStreamControl Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-ivmrvideostreamcontrol">IVMRVideoStreamControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrvideostreamcontrol-getcolorkey">IVMRVideoStreamControl::GetColorKey</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ivmrvideostreamcontrol-getcolorkey">IVMRVideoStreamControl::GetColorKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

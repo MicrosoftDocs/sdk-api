@@ -61,7 +61,7 @@ Creates a new wait object.
 
 ### -param pfnwa [in]
 
-The callback function to call when the wait completes or times out. For details, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms687017(v=vs.85)">WaitCallback</a>.
+The callback function to call when the wait completes or times out. For details, see <a href="/previous-versions/windows/desktop/legacy/ms687017(v=vs.85)">WaitCallback</a>.
 
 ### -param pv [in, out, optional]
 
@@ -69,43 +69,42 @@ Optional application-defined data to pass to the callback function.
 
 ### -param pcbe [in, optional]
 
-A <b>TP_CALLBACK_ENVIRON</b> structure that defines the environment in which to execute the callback. The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a> function returns this structure.
+A <b>TP_CALLBACK_ENVIRON</b> structure that defines the environment in which to execute the callback. The <a href="/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a> function returns this structure.
 
-If this parameter is NULL, the callback executes in the default callback environment. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a>.
+If this parameter is NULL, the callback executes in the default callback environment. For more information, see <a href="/windows/desktop/api/winbase/nf-winbase-initializethreadpoolenvironment">InitializeThreadpoolEnvironment</a>.
 
 ## -returns
 
 If the function succeeds, it returns a pointer to a <b>TP_WAIT</b> structure that defines the wait object. Applications do not modify the members of this structure.
 
-If the function fails, it returns NULL. To retrieve extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, it returns NULL. To retrieve extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-To set the wait object, call the <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait">SetThreadpoolWait</a> or <a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwaitex">SetThreadpoolWaitEx</a> function.
+To set the wait object, call the <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait">SetThreadpoolWait</a> or <a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwaitex">SetThreadpoolWaitEx</a> function.
 
 The work item and all functions it calls must not rely on the thread after they have returned. Therefore, you cannot call an asynchronous call that requires a persistent thread, such as the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regnotifychangekeyvalue">RegNotifyChangeKeyValue</a> function without the <b>REG_NOTIFY_THREAD_AGNOSTIC</b> flag, from the default callback environment. Instead, use a thread whose lifetime you control.
+<a href="/windows/desktop/api/winreg/nf-winreg-regnotifychangekeyvalue">RegNotifyChangeKeyValue</a> function without the <b>REG_NOTIFY_THREAD_AGNOSTIC</b> flag, from the default callback environment. Instead, use a thread whose lifetime you control.
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or higher.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/using-the-thread-pool-functions">Using the Thread Pool Functions</a>.
+For an example, see <a href="/windows/desktop/ProcThread/using-the-thread-pool-functions">Using the Thread Pool Functions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait">CloseThreadpoolWait</a>
+<a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpoolwait">CloseThreadpoolWait</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait">SetThreadpoolWait</a>
+<a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-setthreadpoolwait">SetThreadpoolWait</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/thread-pools">Thread Pools</a>
+<a href="/windows/desktop/ProcThread/thread-pools">Thread Pools</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpoolwaitcallbacks">WaitForThreadpoolWaitCallbacks</a>
-
+<a href="/windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-waitforthreadpoolwaitcallbacks">WaitForThreadpoolWaitCallbacks</a>

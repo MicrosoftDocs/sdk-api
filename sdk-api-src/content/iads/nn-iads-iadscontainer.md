@@ -63,7 +63,7 @@ You can use the <b>IADsContainer</b> interface to either
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsContainer</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsContainer</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IADsContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -79,7 +79,7 @@ The <b>IADsContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-copyhere">CopyHere</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadscontainer-copyhere">CopyHere</a>
 </td>
 <td align="left" width="63%">
 Copies an object to the container.
@@ -88,7 +88,7 @@ Copies an object to the container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-create">Create</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadscontainer-create">Create</a>
 </td>
 <td align="left" width="63%">
 Creates an object in the container.
@@ -97,7 +97,7 @@ Creates an object in the container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-delete">Delete</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadscontainer-delete">Delete</a>
 </td>
 <td align="left" width="63%">
 Deletes an object in the container.
@@ -106,7 +106,7 @@ Deletes an object in the container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-get__newenum">get__NewEnum</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadscontainer-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator object for the container.
@@ -115,7 +115,7 @@ Retrieves an enumerator object for the container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-getobject">GetObject</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadscontainer-getobject">GetObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves an interface for a directory object in the container.
@@ -124,7 +124,7 @@ Retrieves an interface for a directory object in the container.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iadscontainer-movehere">MoveHere</a>
+<a href="/windows/desktop/api/iads/nf-iads-iadscontainer-movehere">MoveHere</a>
 </td>
 <td align="left" width="63%">
 Moves an object to the container.
@@ -142,7 +142,7 @@ Moves an object to the container.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscontainer-property-methods">Count</a>
+<a href="/windows/desktop/ADSI/iadscontainer-property-methods">Count</a>
 
 
 </td>
@@ -158,7 +158,7 @@ Contains the number of directory objects in the container.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscontainer-property-methods">Filter</a>
+<a href="/windows/desktop/ADSI/iadscontainer-property-methods">Filter</a>
 
 
 </td>
@@ -174,7 +174,7 @@ Contains the filter on the schema classes to use for an enumeration.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadscontainer-property-methods">Hints</a>
+<a href="/windows/desktop/ADSI/iadscontainer-property-methods">Hints</a>
 
 
 </td>
@@ -191,7 +191,7 @@ Contains the properties to retrieve for each object that is enumerated by the co
 
 ## -remarks
 
-To determine if an object is a container, use the <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">IADsClass.Container</a> property of the object.
+To determine if an object is a container, use the <a href="/windows/desktop/ADSI/iadsclass-property-methods">IADsClass.Container</a> property of the object.
 
 When you bind to a container object using its GUID (or SID), you can only perform specific operations on the container object. These operations include examination of the object attributes and enumeration of the object's immediate children. These operations are shown in the following code example.
 
@@ -232,7 +232,7 @@ Set obj = conDN.GetObject("user", "CN=Jeff Smith")
 ```
 
 
-For more information about object GUID representation, see <a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">IADs.GUID</a>.
+For more information about object GUID representation, see <a href="/windows/desktop/ADSI/iads-property-methods">IADs.GUID</a>.
 
 
 #### Examples
@@ -295,21 +295,20 @@ pCls->Release();
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/creating-and-deleting-objects">Creating and Deleting Objects</a>
+<a href="/windows/desktop/ADSI/creating-and-deleting-objects">Creating and Deleting Objects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iads-property-methods">IADs::get_GUID</a>
+<a href="/windows/desktop/ADSI/iads-property-methods">IADs::get_GUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ADSI/iadsclass-property-methods">IADsClass::get_Container</a>
+<a href="/windows/desktop/ADSI/iadsclass-property-methods">IADsClass::get_Container</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadsnamespaces">IADsNamespaces</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadsnamespaces">IADsNamespaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

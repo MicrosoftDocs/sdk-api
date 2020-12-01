@@ -56,9 +56,9 @@ Retrieves the metadata query reader from the decoder.
 
 ### -param ppIMetadataQueryReader [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicmetadataqueryreader">IWICMetadataQueryReader</a>**</b>
+Type: <b><a href="/windows/desktop/api/wincodec/nn-wincodec-iwicmetadataqueryreader">IWICMetadataQueryReader</a>**</b>
 
-Receives a pointer to the decoder's <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicmetadataqueryreader">IWICMetadataQueryReader</a>.
+Receives a pointer to the decoder's <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicmetadataqueryreader">IWICMetadataQueryReader</a>.
 
 ## -returns
 
@@ -68,7 +68,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-If an image format does not support container-level metadata, this will return <a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-error-codes">WINCODEC_ERR_UNSUPPORTEDOPERATION</a>. The only Windows provided image format that supports container-level metadata is GIF. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframedecode-getmetadataqueryreader">IWICBitmapFrameDecode::GetMetadataQueryReader</a>.
+If an image format does not support container-level metadata, this will return <a href="/windows/desktop/wic/-wic-codec-error-codes">WINCODEC_ERR_UNSUPPORTEDOPERATION</a>. The only Windows provided image format that supports container-level metadata is GIF. Instead, use <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframedecode-getmetadataqueryreader">IWICBitmapFrameDecode::GetMetadataQueryReader</a>.
 
 ## -see-also
 
@@ -76,17 +76,16 @@ If an image format does not support container-level metadata, this will return <
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a>
+<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapdecoder">IWICBitmapDecoder</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
+<a href="/windows/desktop/wic/-wic-codec-metadataquerylanguage">Metadata Query Language Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
+<a href="/windows/desktop/wic/-wic-codec-readingwritingmetadata">Overview of Reading and Writing Image Metadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
-
+<a href="/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>

@@ -53,10 +53,10 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[The <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
+<p class="CCE_Message">[The <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
+    <a href="/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure">MI APIs</a> should be used for all new 
     development.]
 
 The <b>ValidatePutInstanceFlags</b> method determines whether a set of flags is valid for an instance update operation.
@@ -73,13 +73,12 @@ Returns <b>WBEM_S_NO_ERROR</b> if the flags are valid and <b>WBEM_E_UNSUPPORTED_
 
 ## -remarks
 
-Framework providers can override this method to validate flags that are unknown to the base <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class.
+Framework providers can override this method to validate flags that are unknown to the base <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class.
 
-At present, the <a href="https://docs.microsoft.com/windows/desktop/api/provider/nl-provider-provider">Provider</a> class supports the following update flags:
+At present, the <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class supports the following update flags:
 
 <ul>
 <li><b>WBEM_FLAG_CREATE_ONLY</b></li>
 <li><b>WBEM_FLAG_CREATE_OR_UPDATE</b></li>
 <li><b>WBEM_FLAG_UPDATE_ONLY</b></li>
 </ul>
-

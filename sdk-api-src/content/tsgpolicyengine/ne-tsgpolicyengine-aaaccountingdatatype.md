@@ -53,7 +53,7 @@ api_name:
 
 ## -description
 
-Specifies the type of event that the <a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgaccountingengine-doaccounting">ITSGAccountingEngine::DoAccounting</a> method is being notified of.
+Specifies the type of event that the <a href="/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgaccountingengine-doaccounting">ITSGAccountingEngine::DoAccounting</a> method is being notified of.
 
 ## -enum-fields
 
@@ -110,5 +110,4 @@ The following fields in the <a href="/windows/win32/api/tsgpolicyengine/ns-tsgpo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgaccountingengine-doaccounting">ITSGAccountingEngine::DoAccounting</a>
-
+<a href="/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgaccountingengine-doaccounting">ITSGAccountingEngine::DoAccounting</a>

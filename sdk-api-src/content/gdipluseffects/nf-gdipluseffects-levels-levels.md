@@ -51,19 +51,18 @@ api_name:
 
 ## -description
 
-Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-levels">Levels</a> object.
+Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-levels">Levels</a> object.
 
 ## -parameters
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-levels">Levels</a>
+<a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-levels">Levels</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-levels-setparameters">Levels::SetParameters</a>
+<a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-levels-setparameters">Levels::SetParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/ns-gdipluseffects-levelsparams">LevelsParams</a>
-
+<a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-levelsparams">LevelsParams</a>

@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>IBDA_AutoDemodulateEx</b> interface extends <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_autodemodulate">IBDA_AutoDemodulate</a>. If a BDA device filter, specifically a demodulator, exposes this interface, it indicates that the filter can automatically detect signal characteristics. With this information, the Network Provider can be more efficient in managing the tuning process. For more information, see <b>KSPROPSETID_BdaAutodemodulate</b> in the Windows DDK.
+The <b>IBDA_AutoDemodulateEx</b> interface extends <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_autodemodulate">IBDA_AutoDemodulate</a>. If a BDA device filter, specifically a demodulator, exposes this interface, it indicates that the filter can automatically detect signal characteristics. With this information, the Network Provider can be more efficient in managing the tuning process. For more information, see <b>KSPROPSETID_BdaAutodemodulate</b> in the Windows DDK.
 
-<b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
+<b>OCUR Devices: </b>This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_AutoDemodulateEx</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_autodemodulate">IBDA_AutoDemodulate</a>. <b>IBDA_AutoDemodulateEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_AutoDemodulateEx</b> interface inherits from <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_autodemodulate">IBDA_AutoDemodulate</a>. <b>IBDA_AutoDemodulateEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IBDA_AutoDemodulateEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_autodemodulateex-get_auxinputcount">get_AuxInputCount</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_autodemodulateex-get_auxinputcount">get_AuxInputCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves a count of the number of auxiliary inputs on the demodulator.
@@ -80,7 +80,7 @@ Retrieves a count of the number of auxiliary inputs on the demodulator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_autodemodulateex-get_supporteddevicenodetypes">get_SupportedDeviceNodeTypes</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_autodemodulateex-get_supporteddevicenodetypes">get_SupportedDeviceNodeTypes</a>
 </td>
 <td align="left" width="63%">
 Retrieves a list of the device node types that the demodulator supports.
@@ -89,7 +89,7 @@ Retrieves a list of the device node types that the demodulator supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nf-bdaiface-ibda_autodemodulateex-get_supportedvideoformats">get_SupportedVideoFormats</a>
+<a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_autodemodulateex-get_supportedvideoformats">get_SupportedVideoFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the video formats that are supported by the demodulator.
@@ -104,9 +104,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
+<a href="/previous-versions/windows/desktop/mstv/bda-interfaces">BDA Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bdaiface/nn-bdaiface-ibda_autodemodulate">IBDA_AutoDemodulate</a>
-
+<a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_autodemodulate">IBDA_AutoDemodulate</a>

@@ -59,13 +59,12 @@ This property is read-only.
 
 ## -remarks
 
-The user name is set using the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setcredentials">IDataCollectorSet::SetCredentials</a> method.
+The user name is set using the <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setcredentials">IDataCollectorSet::SetCredentials</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setcredentials">IDataCollectorSet::SetCredentials</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setcredentials">IDataCollectorSet::SetCredentials</a>

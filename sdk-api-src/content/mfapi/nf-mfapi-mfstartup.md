@@ -164,10 +164,10 @@ Media Foundation is not implemented on the system.  This error can occur if the 
 
 ## -remarks
 
-An application must call this function before using Media Foundation. Before your application quits, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> once for every previous call to <b>MFStartup</b>.
+An application must call this function before using Media Foundation. Before your application quits, call <a href="/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> once for every previous call to <b>MFStartup</b>.
       
 
-Do not call <b>MFStartup</b> or <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> from work queue threads. For more information about work queues, see <a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>.
+Do not call <b>MFStartup</b> or <a href="/windows/desktop/api/mfapi/nf-mfapi-mfshutdown">MFShutdown</a> from work queue threads. For more information about work queues, see <a href="/windows/desktop/medfound/work-queues">Work Queues</a>.
       
 
 This function is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
@@ -187,9 +187,8 @@ This function is available on the following platforms if the Windows Media Forma
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/initializing-media-foundation">Initializing Media Foundation</a>
+<a href="/windows/desktop/medfound/initializing-media-foundation">Initializing Media Foundation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>

@@ -59,7 +59,7 @@ Retrieves the value of a particular Offline Files setting.
 
 Receives the value associated with the setting.  This value is determined based on system policy, preferences and system defaults.
 
-The method initializes the <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> prior to storing the setting value in it.
+The method initializes the <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> prior to storing the setting value in it.
 
 ### -param pbSetByPolicy [out]
 
@@ -86,5 +86,4 @@ It is important to note that policy cannot be set through the Offline Files API.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessetting">IOfflineFilesSetting</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessetting">IOfflineFilesSetting</a>

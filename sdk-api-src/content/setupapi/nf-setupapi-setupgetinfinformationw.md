@@ -55,7 +55,7 @@ api_name:
 <p class="CCE_Message">[This function is available for use in the operating systems indicated in the Requirements section. It may be altered or unavailable in subsequent versions.   SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.]
 
 The <b>SetUpGetInfInformation</b> function returns the 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure for the specified INF file to a buffer.
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure for the specified INF file to a buffer.
 
 ## -parameters
 
@@ -103,7 +103,7 @@ Search for the INF in each of the directories listed in the <i>DevicePath</i> va
 
 ### -param ReturnBuffer [in, out]
 
-If not <b>NULL</b>, points to a buffer in which this function returns the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure. 
+If not <b>NULL</b>, points to a buffer in which this function returns the <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_inf_information">SP_INF_INFORMATION</a> structure. 
 
 You can call the function one time to get the required buffer size, allocate the necessary memory, and then call the function a second time to retrieve the data. Using this technique, you can avoid errors due to an insufficient buffer size. For more information, see the Remarks section of this topic.
 
@@ -115,7 +115,7 @@ Size of  <i>ReturnBuffer</i>, in bytes.
 
 If not <b>NULL</b>, points to a variable in which this function returns the required size, in bytes, for the buffer pointed to by <i>ReturnBuffer</i>. 
 
-If <i>ReturnBuffer</i> is specified and the size needed is larger than <i>ReturnBufferSize</i>, the function fails and a call to <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER.
+If <i>ReturnBuffer</i> is specified and the size needed is larger than <i>ReturnBufferSize</i>, the function fails and a call to <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER.
 
 
 
@@ -148,14 +148,14 @@ Same as INFINFO_DEFAULT_SEARCH, except the default locations are searched in rev
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the INF file cannot be located, the function returns <b>FALSE</b> and a subsequent call to 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_FILE_NOT_FOUND.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_FILE_NOT_FOUND.
 
 ## -remarks
 
-If this function is called with a ReturnBuffer of <b>NULL</b> and a ReturnBufferSize of 0 (zero), the function puts the buffer size needed to hold the specified data into the variable pointed to by RequiredSize. If the function succeeds, the return value is a nonzero value. Otherwise, the return value is 0 (zero), and extended error information can be obtained by calling <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If this function is called with a ReturnBuffer of <b>NULL</b> and a ReturnBufferSize of 0 (zero), the function puts the buffer size needed to hold the specified data into the variable pointed to by RequiredSize. If the function succeeds, the return value is a nonzero value. Otherwise, the return value is 0 (zero), and extended error information can be obtained by calling <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -166,17 +166,16 @@ If this function is called with a ReturnBuffer of <b>NULL</b> and a ReturnBuffer
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueryinffileinformationa">SetupQueryInfFileInformation</a>
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueryinffileinformationa">SetupQueryInfFileInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupqueryinfversioninformationa">SetupQueryInfVersionInformation</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueryinfversioninformationa">SetupQueryInfVersionInformation</a>

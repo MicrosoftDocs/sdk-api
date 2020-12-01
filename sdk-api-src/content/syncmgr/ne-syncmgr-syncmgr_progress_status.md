@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the current progress status of a synchronization process. Used by <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportprogress">ISyncMgrSyncCallback::ReportProgress</a>.
+Specifies the current progress status of a synchronization process. Used by <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportprogress">ISyncMgrSyncCallback::ReportProgress</a>.
 
 ## -enum-fields
 
@@ -80,5 +80,4 @@ The device being synchronized was disconnected before the sync completed..
 
 ### -field SYNCMGR_PS_MAX
 
-Used only to declare the largest valid value in this enumeration. Do not use with <a href="https://docs.microsoft.com/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportprogress">ISyncMgrSyncCallback::ReportProgress</a>.
-
+Used only to declare the largest valid value in this enumeration. Do not use with <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrsynccallback-reportprogress">ISyncMgrSyncCallback::ReportProgress</a>.

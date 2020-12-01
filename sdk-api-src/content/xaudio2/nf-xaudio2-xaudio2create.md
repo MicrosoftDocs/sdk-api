@@ -50,26 +50,26 @@ api_name:
 
 ## -description
 
-Creates a new <b>XAudio2</b> object and returns a pointer to its <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a> interface.
+Creates a new <b>XAudio2</b> object and returns a pointer to its <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a> interface.
 
 ## -parameters
 
 ### -param ppXAudio2 [out]
 
-If the operation is successful, returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a> object.
+If the operation is successful, returns a pointer to an <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a> object.
 
 ### -param Flags [in]
 
-Flags that specify the behavior of the <a href="https://docs.microsoft.com/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a> object. The value of this parameter must be 0.
+Flags that specify the behavior of the <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a> object. The value of this parameter must be 0.
 
 ### -param XAudio2Processor [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_PROCESSOR</a>-typed value that specifies which CPU to use. If multiple bits are specified, the system will create a separate worker thread for each processor.
+An <a href="/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_PROCESSOR</a>-typed value that specifies which CPU to use. If multiple bits are specified, the system will create a separate worker thread for each processor.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_PROCESSOR</a> default value is XAUDIO2_DEFAULT_PROCESSOR.
+<a href="/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_PROCESSOR</a> default value is XAUDIO2_DEFAULT_PROCESSOR.
 
-<div class="alert"><b>Warning</b> If you specify <a href="https://docs.microsoft.com/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_ANY_PROCESSOR</a>, the system will use all of the device's processors and, as noted above, create a worker thread for each processor.
+<div class="alert"><b>Warning</b> If you specify <a href="/windows/desktop/xaudio2/uint32-xaudio2-processor">XAUDIO2_ANY_PROCESSOR</a>, the system will use all of the device's processors and, as noted above, create a worker thread for each processor.
 <div> </div>
 
 
@@ -79,7 +79,7 @@ The special XAUDIO2_DEFAULT_PROCESSOR value causes XAudio2 to use its default pr
 
 ## -returns
 
-Returns S_OK if successful, an error code otherwise. See <a href="https://docs.microsoft.com/windows/desktop/xaudio2/xaudio2-error-codes">XAudio2 Error Codes</a> for descriptions of XAudio2 specific error codes.
+Returns S_OK if successful, an error code otherwise. See <a href="/windows/desktop/xaudio2/xaudio2-error-codes">XAudio2 Error Codes</a> for descriptions of XAudio2 specific error codes.
 
 ## -remarks
 
@@ -97,9 +97,8 @@ Windows 10 (XAudio2.9);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/how-to--build-a-basic-audio-processing-graph">How to: Build a Basic Audio Processing Graph</a>
+<a href="/windows/desktop/xaudio2/how-to--build-a-basic-audio-processing-graph">How to: Build a Basic Audio Processing Graph</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/functions">XAudio2 Functions</a>
-
+<a href="/windows/desktop/xaudio2/functions">XAudio2 Functions</a>

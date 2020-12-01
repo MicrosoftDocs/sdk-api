@@ -58,19 +58,18 @@ Gets  whether this row should appear on the same page as the row that follows it
 
 Type: <b>long*</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value that indicates whether this row should be kept on the same page as the following row.
+A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value that indicates whether this row should be kept on the same page as the following row.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrow-setkeepwithnext">ITextRow::SetKeepWithNext</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextrow-setkeepwithnext">ITextRow::SetKeepWithNext</a>

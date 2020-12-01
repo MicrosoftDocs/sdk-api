@@ -57,7 +57,7 @@ The <b>NPAddConnection</b> function connects a local device to a network resourc
 ### -param lpNetResource [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure which specifies the network resource to connect to. The following fields must be set in the <b>NETRESOURCE</b> structure you pass in. The <b>NPAddConnection</b> function ignores the other fields.
+<a href="/windows/desktop/api/winnetwk/ns-winnetwk-netresourcea">NETRESOURCE</a> structure which specifies the network resource to connect to. The following fields must be set in the <b>NETRESOURCE</b> structure you pass in. The <b>NPAddConnection</b> function ignores the other fields.
 
 <table>
 <tr>
@@ -98,7 +98,7 @@ Specifies the type of resource to connect to. This can be RESOURCETYPE_DISK, RES
 
 ### -param lpPassword [in]
 
-Pointer to the password to be used in making the connection, normally the password associated with <i>lpUserName</i>. The <b>NULL</b> value may be passed in to cause the function to use the default password. An empty string may be used to indicate no password. When you have finished using the password, clear it from memory by calling the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting the password, see <a href="https://docs.microsoft.com/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
+Pointer to the password to be used in making the connection, normally the password associated with <i>lpUserName</i>. The <b>NULL</b> value may be passed in to cause the function to use the default password. An empty string may be used to indicate no password. When you have finished using the password, clear it from memory by calling the <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> function. For more information about protecting the password, see <a href="/windows/desktop/SecBP/handling-passwords">Handling Passwords</a>.
 
 ### -param lpUserName [in]
 
@@ -182,4 +182,3 @@ The network is not present.
 </td>
 </tr>
 </table>
-

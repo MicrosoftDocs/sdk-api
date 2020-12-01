@@ -61,25 +61,24 @@ api_name:
 Retrieves information about the current system.
 
 To retrieve accurate information for an application running on WOW64, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo">GetNativeSystemInfo</a> function.
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo">GetNativeSystemInfo</a> function.
 
 ## -parameters
 
 ### -param lpSystemInfo [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a> structure that receives the information.
+<a href="/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a> structure that receives the information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo">GetNativeSystemInfo</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo">GetNativeSystemInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a>
+<a href="/windows/desktop/api/sysinfoapi/ns-sysinfoapi-system_info">SYSTEM_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System
+<a href="/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
-

@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
  - CheckMenuItem
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # CheckMenuItem function
@@ -54,7 +55,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>CheckMenuItem</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>.
+<p class="CCE_Message">[<b>CheckMenuItem</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>.
 ]
 
 Sets the state of the specified menu item's check-mark attribute to either selected or clear.
@@ -145,7 +146,7 @@ The <i>uIDCheckItem</i> parameter identifies a item that opens a submenu or a co
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/using-menus">Simulating Check Boxes in a Menu</a>.
+For an example, see <a href="/windows/desktop/menurc/using-menus">Simulating Check Boxes in a Menu</a>.
 
 <div class="code"></div>
 
@@ -155,15 +156,15 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablemenuitem">EnableMenuItem</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enablemenuitem">EnableMenuItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmenuitemid">GetMenuItemID</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getmenuitemid">GetMenuItemID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
+<a href="/windows/desktop/menurc/menus">Menus</a>
 
 
 
@@ -171,9 +172,8 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>

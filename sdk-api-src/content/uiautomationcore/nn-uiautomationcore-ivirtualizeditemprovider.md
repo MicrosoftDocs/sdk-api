@@ -54,7 +54,7 @@ Provides access to virtualized items, which are items that are represented by pl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVirtualizedItemProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVirtualizedItemProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVirtualizedItemProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVirtualizedItemProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IVirtualizedItemProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ivirtualizeditemprovider-realize">Realize</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ivirtualizeditemprovider-realize">Realize</a>
 </td>
 <td align="left" width="63%">
 Makes the virtual item fully accessible as a UI Automation element.
@@ -80,7 +80,7 @@ Makes the virtual item fully accessible as a UI Automation element.
 
 ## -remarks
 
-A virtualized item is typically an item in a virtual list; that is, a list that does not manage its own data. When an application retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> for a virtualized item by using <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationitemcontainerpattern-finditembyproperty">FindItemByProperty</a>, UI Automation calls the provider's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iitemcontainerprovider-finditembyproperty">FindItemByProperty</a>, where the provider may return a placeholder element that also implements <b>IVirtualizedItemProvider</b>. On a call to <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationvirtualizeditempattern-realize">Realize</a>, the provider's implementation of <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ivirtualizeditemprovider-realize">Realize</a> returns a full UI Automation element reference and may also scroll the item into view.
+A virtualized item is typically an item in a virtual list; that is, a list that does not manage its own data. When an application retrieves an <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement">IUIAutomationElement</a> for a virtualized item by using <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationitemcontainerpattern-finditembyproperty">FindItemByProperty</a>, UI Automation calls the provider's implementation of <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-iitemcontainerprovider-finditembyproperty">FindItemByProperty</a>, where the provider may return a placeholder element that also implements <b>IVirtualizedItemProvider</b>. On a call to <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationvirtualizeditempattern-realize">Realize</a>, the provider's implementation of <a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ivirtualizeditemprovider-realize">Realize</a> returns a full UI Automation element reference and may also scroll the item into view.
 
 ## -see-also
 
@@ -88,9 +88,8 @@ A virtualized item is typically an item in a virtual list; that is, a list that 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-implementingvirtualizeditem">VirtualizedItem Control Pattern</a>
+<a href="/windows/desktop/WinAuto/uiauto-implementingvirtualizeditem">VirtualizedItem Control Pattern</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-workingwithvirtualizeditems">Working with Virtualized Items</a>
-
+<a href="/windows/desktop/WinAuto/uiauto-workingwithvirtualizeditems">Working with Virtualized Items</a>

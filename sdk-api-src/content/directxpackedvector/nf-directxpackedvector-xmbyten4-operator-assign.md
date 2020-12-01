@@ -52,7 +52,7 @@ api_name:
 
 Assigns the vector component data from one instance of <code>XMBYTEN4</code> to the current instance of <code>XMBYTEN4</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/62d61a35-8674-4855-b09c-f351363cd50b">XMBYTEN4</a> to the current instance of <code>XMBYTEN4</code>.
+This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmbyten4">XMBYTEN4</a> to the current instance of <code>XMBYTEN4</code>.
 
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div>
 
@@ -68,7 +68,7 @@ The current instance of <code>XMBYTEN4</code> whose vector component data has be
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/62d61a35-8674-4855-b09c-f351363cd50b">XMBYTEN4</a>
+<a href="/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmbyten4">XMBYTEN4</a>
 
 <a href="https://msdn.microsoft.com/3083dd93-301d-4b57-8ad2-bfafc8576063">XMBYTEN4 Operators</a>
 

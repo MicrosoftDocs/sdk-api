@@ -56,7 +56,7 @@ Gets a cached thumbnail for a given Shell item.
 
 ### -param pShellItem [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
 A pointer to the Shell item for which to retrieve a thumbnail.
 
@@ -68,15 +68,15 @@ The requested thumbnail size in pixels. The maximum value is 1024.
 
 ### -param flags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/ne-thumbcache-wts_flags">WTS_FLAGS</a></b>
+Type: <b><a href="/windows/desktop/api/thumbcache/ne-thumbcache-wts_flags">WTS_FLAGS</a></b>
 
-A combination of values from the <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/ne-thumbcache-wts_flags">WTS_FLAGS</a> enumeration. See the Remarks section for rules and a list of possible combinations.
+A combination of values from the <a href="/windows/desktop/api/thumbcache/ne-thumbcache-wts_flags">WTS_FLAGS</a> enumeration. See the Remarks section for rules and a list of possible combinations.
 
 ### -param ppvThumb [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a>**</b>
+Type: <b><a href="/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a>**</b>
 
-The address of an <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> pointer that, when this method returns successfully, receives the object used to access the thumbnail. This parameter may be <b>NULL</b>.
+The address of an <a href="/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> pointer that, when this method returns successfully, receives the object used to access the thumbnail. This parameter may be <b>NULL</b>.
 
 ### -param pOutFlags [out, optional]
 
@@ -104,7 +104,7 @@ A pointer to a value that, when this method returns successfully, receives a com
 
 ### -param pThumbnailID [out, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/ns-thumbcache-wts_thumbnailid">WTS_THUMBNAILID</a>*</b>
+Type: <b><a href="/windows/desktop/api/thumbcache/ns-thumbcache-wts_thumbnailid">WTS_THUMBNAILID</a>*</b>
 
 A pointer to a value that, when this method returns successfully, receives a unique ID for the returned thumbnail. This parameter may be <b>NULL</b>, in which case the thumbnail ID is discarded.
 
@@ -208,13 +208,12 @@ The following combinations are valid for the flags parameter.
  
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemimagefactory-getimage">GetImage</a> also uses this cache and can provide an easier way to retrieve the thumbnail. However, <b>GetImage</b> is more general and will retrieve an icon as a fallback.
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemimagefactory-getimage">GetImage</a> also uses this cache and can provide an easier way to retrieve the thumbnail. However, <b>GetImage</b> is more general and will retrieve an icon as a fallback.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemimagefactory-getimage">IShellItemImageFactory::GetImage</a>
+<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemimagefactory-getimage">IShellItemImageFactory::GetImage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailcache">IThumbnailCache</a>
-
+<a href="/windows/desktop/api/thumbcache/nn-thumbcache-ithumbnailcache">IThumbnailCache</a>

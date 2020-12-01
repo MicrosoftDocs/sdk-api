@@ -18,5 +18,5 @@ To develop Tiles, badges, and notifications for Classic desktop applications, yo
  * [notificationactivationcallback.h](../notificationactivationcallback/index.md)
 
 For programming guidance for this technology, see:
-* [Tiles, badges, and notifications for Classic desktop applications](/windows/desktop/win32_tile_badge_notif)
+* [Tiles, badges, and notifications for Classic desktop applications](/previous-versions/windows/desktop/win32_tile_badge_notif/tiles--badges--and-notifications-for-classic-desktop-applications-portal)
 

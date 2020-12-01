@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Initializes a view with view state previously saved in call to <a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-saveviewstate">IOleDocumentView::SaveViewState</a>.
+Initializes a view with view state previously saved in call to <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-saveviewstate">IOleDocumentView::SaveViewState</a>.
 
 ## -parameters
 
@@ -97,13 +97,12 @@ Typically, this function is called after an existing view has been created in th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocument-createview">IOleDocument::CreateView</a>
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocument-createview">IOleDocument::CreateView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
+<a href="/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/docobj/nf-docobj-ioledocumentview-saveviewstate">IOleDocumentView::SaveViewState</a>
-
+<a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-saveviewstate">IOleDocumentView::SaveViewState</a>

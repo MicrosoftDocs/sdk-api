@@ -101,7 +101,7 @@ For example, suppose the caller is pushing data from an output pin called "A" on
 <ol>
 <li>The caller blocks the data flow at pin A.</li>
 <li>It calls <code>NotifyEndOfStream</code> on pin B.</li>
-<li>It calls <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-endofstream">IPin::EndOfStream</a> on the input pin connected to pin A.</li>
+<li>It calls <a href="/windows/desktop/api/strmif/nf-strmif-ipin-endofstream">IPin::EndOfStream</a> on the input pin connected to pin A.</li>
 <li>As the remaining data travels downstream through any intermediate filters, those filters propagate the end-of-stream notification.</li>
 <li>When pin B receives the end-of-stream notification, it signals the event given in the <i>hNotifyEvent</i> parameter. At that point, the caller can safely reconfigure the graph between pin A and pin B.</li>
 </ol>
@@ -109,17 +109,16 @@ Because the purpose of this method is to enable the caller to rebuild the graph 
 
 It is the caller's responsibility to cancel notification by calling this method again with a <b>NULL</b> event handle.
 
-The filter graph calls this method inside the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconnect">IGraphConfig::Reconnect</a> method. If an application or filter does any specialized dynamic reconfiguration to the graph (using the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconfigure">IGraphConfig::Reconfigure</a> method), it might call this method first in order to push data through the portion of the graph that is being reconfigured.
+The filter graph calls this method inside the <a href="/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconnect">IGraphConfig::Reconnect</a> method. If an application or filter does any specialized dynamic reconfiguration to the graph (using the <a href="/windows/desktop/api/strmif/nf-strmif-igraphconfig-reconfigure">IGraphConfig::Reconfigure</a> method), it might call this method first in order to push data through the portion of the graph that is being reconfigured.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>
+<a href="/windows/desktop/DirectShow/dynamic-reconnection">Dynamic Reconnection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection Interface</a>

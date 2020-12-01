@@ -47,9 +47,6 @@ api_name:
  - InputScope
 ---
 
-# InputScope enumeration
-
-
 ## -description
 
 The <a href="/windows/win32/api/inputscope/ne-inputscope-inputscope">InputScope</a> enumeration contains values that specify which input scopes are applied to a given field.
@@ -472,7 +469,11 @@ Indicates Hanja characters.
 
 ### -field IS_HANGUL_HALFWIDTH
 
+Indicates half-width Hangul characters.
+
 ### -field IS_HANGUL_FULLWIDTH
+
+Indicates full-width Hangul characters.
 
 ### -field IS_SEARCH
 
@@ -568,17 +569,7 @@ Indicates a custom xml string.
 
 ### -field IS_ENUMSTRING
 
-The scope contains the IEnumString interface pointer. The Text Input Processor (TIP) can call <a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-itfinputscope2-enumwordlist">ITfInputScope2::EnumWordList</a> to retrieve it.
-
-
-#### - IS_HANJA_FULLWIDTH
-
-Indicates Hanja characters.
-
-
-#### - IS_HANJA_HALFWIDTH
-
-Indicates Hanja characters.
+The scope contains the IEnumString interface pointer. The Text Input Processor (TIP) can call <a href="/windows/desktop/api/inputscope/nf-inputscope-itfinputscope2-enumwordlist">ITfInputScope2::EnumWordList</a> to retrieve it.
 
 ## -remarks
 
@@ -586,18 +577,10 @@ Whether a given input scope value is supported can vary across technologies.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nn-inputscope-itfinputscope">ITfInputScope
-      </a>
+<a href="/windows/desktop/api/inputscope/nn-inputscope-itfinputscope">ITfInputScope</a>
 
+<a href="/windows/desktop/api/inputscope/nf-inputscope-setinputscope">SetInputScope</a>
 
+<a href="/windows/desktop/api/inputscope/nf-inputscope-setinputscopexml">SetInputScopeXML</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscope">SetInputScope</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscopexml">SetInputScopeXML</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/inputscope/nf-inputscope-setinputscopes">SetInputScopes</a>
-
+<a href="/windows/desktop/api/inputscope/nf-inputscope-setinputscopes">SetInputScopes</a>

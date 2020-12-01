@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Defines the attributes of an image to be inserted by the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-insertimage">EM_INSERTIMAGE</a> message.
+Defines the attributes of an image to be inserted by the <a href="/windows/desktop/Controls/em-insertimage">EM_INSERTIMAGE</a> message.
 
 ## -struct-fields
 
@@ -122,5 +122,4 @@ The height, in HIMETRIC units, of the image.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/em-insertimage">EM_INSERTIMAGE</a>
-
+<a href="/windows/desktop/Controls/em-insertimage">EM_INSERTIMAGE</a>

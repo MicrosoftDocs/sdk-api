@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Extracts class identifier (CLSID) property value of a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Extracts class identifier (CLSID) property value of a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Extracts class identifier (CLSID) property value of a <a href="https://docs.micr
 
 Type: <b>REFPROPVARIANT</b>
 
-Reference to a source <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
+Reference to a source <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> structure.
 
 ### -param pclsid [out]
 
@@ -74,7 +74,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -remarks
 
-This helper function works for<a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>structures of the following types:             
+This helper function works for<a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>structures of the following types:             
 
                 
 
@@ -87,12 +87,12 @@ This helper function works for<a href="https://docs.microsoft.com/windows/deskto
 This is an inline function, with its source code provided in the header. It is not included in any .dll or .lib file.
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoclsid">PropVariantToCLSID</a> is used in places where the calling application expects a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a single CLSID or GUID value. For instance, an application obtaining values from a property store can use this to safely extract the CLSID value for GUID properties.
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoclsid">PropVariantToCLSID</a> is used in places where the calling application expects a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a> to hold a single CLSID or GUID value. For instance, an application obtaining values from a property store can use this to safely extract the CLSID value for GUID properties.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoclsid">PropVariantToCLSID</a> to access a CLSID value in a <a href="https://docs.microsoft.com/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoclsid">PropVariantToCLSID</a> to access a CLSID value in a <a href="/windows/desktop/api/propidl/ns-propidl-propvariant">PROPVARIANT</a>.
 
 
 ```cpp
@@ -122,13 +122,12 @@ if (SUCCEEDED(hr))
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromclsid">InitPropVariantFromCLSID</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-initpropvariantfromclsid">InitPropVariantFromCLSID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoguid">PropVariantToGUID</a>
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-propvarianttoguid">PropVariantToGUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/propvarutil/nf-propvarutil-varianttoguid">VariantToGUID</a>
-
+<a href="/windows/desktop/api/propvarutil/nf-propvarutil-varianttoguid">VariantToGUID</a>

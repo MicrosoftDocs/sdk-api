@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Takes the index of a property sheet page and returns its resource identifier (ID). You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-indextoid">PSM_INDEXTOID</a> message explicitly.
+Takes the index of a property sheet page and returns its resource identifier (ID). You can use this macro or send the <a href="/windows/desktop/Controls/psm-indextoid">PSM_INDEXTOID</a> message explicitly.
 
 ## -parameters
 
 ### -param hDlg
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the property sheet.
 
@@ -68,5 +68,4 @@ Zero-based index of the page.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/psm-indextoid">PSM_INDEXTOID</a>
-
+<a href="/windows/desktop/Controls/psm-indextoid">PSM_INDEXTOID</a>

@@ -81,17 +81,16 @@ Returns zero if the function succeeds, or an error number if an error occurs. Po
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/about-the-media-service-provider-msp-">About The Media Service Provider (MSP)</a>
+<a href="/windows/desktop/Tapi/about-the-media-service-provider-msp-">About The Media Service Provider (MSP)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_lineclosemspinstance">TSPI_lineCloseMSPInstance</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineclosemspinstance">TSPI_lineCloseMSPInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linecreatemspinstance">TSPI_lineCreateMSPInstance</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linecreatemspinstance">TSPI_lineCreateMSPInstance</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linemspidentify">TSPI_lineMSPIdentify</a>
-
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linemspidentify">TSPI_lineMSPIdentify</a>

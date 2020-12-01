@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-Sets a <a href="https://docs.microsoft.com/windows/desktop/direct3d9/vertex-declaration">Vertex Declaration (Direct3D 9)</a>.
+Sets a <a href="/windows/desktop/direct3d9/vertex-declaration">Vertex Declaration (Direct3D 9)</a>.
 
 ## -parameters
 
 ### -param pDecl [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexdeclaration9">IDirect3DVertexDeclaration9</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexdeclaration9">IDirect3DVertexDeclaration9</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexdeclaration9">IDirect3DVertexDeclaration9</a> object, which contains the vertex declaration.
+Pointer to an <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexdeclaration9">IDirect3DVertexDeclaration9</a> object, which contains the vertex declaration.
 
 ## -returns
 
@@ -70,13 +70,12 @@ If the method succeeds, the return value is D3D_OK.
 
 ## -remarks
 
-A vertex declaration is an IDirect3DVertexDeclaration9 object that defines the data members of a vertex (i.e. texture coordinates, colors, normals, etc.). This data can be useful for implementing <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-hlsl-pguide">vertex shaders and pixel shaders</a>.
+A vertex declaration is an IDirect3DVertexDeclaration9 object that defines the data members of a vertex (i.e. texture coordinates, colors, normals, etc.). This data can be useful for implementing <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl-pguide">vertex shaders and pixel shaders</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
+<a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexdeclaration">IDirect3DDevice9::GetVertexDeclaration</a>
-
+<a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexdeclaration">IDirect3DDevice9::GetVertexDeclaration</a>

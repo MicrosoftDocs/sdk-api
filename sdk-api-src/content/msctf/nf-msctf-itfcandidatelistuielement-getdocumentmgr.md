@@ -56,7 +56,7 @@ The <b>ITfCandidateListUIElement::GetDocumentMgr</b> method returns the target d
 
 ### -param ppdim [out]
 
-[out] A pointer to receive <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface pointer.
+[out] A pointer to receive <a href="/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a> interface pointer.
 
 ## -returns
 
@@ -101,4 +101,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

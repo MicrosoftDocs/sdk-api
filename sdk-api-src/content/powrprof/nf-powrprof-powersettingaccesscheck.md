@@ -174,9 +174,8 @@ Only Administrators can remotely access power settings.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/powrprof/ne-powrprof-power_data_accessor">POWER_DATA_ACCESSOR</a>
+<a href="/windows/desktop/api/powrprof/ne-powrprof-power_data_accessor">POWER_DATA_ACCESSOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Power/power-management-functions">Power Management Functions</a>
-
+<a href="/windows/desktop/Power/power-management-functions">Power Management Functions</a>

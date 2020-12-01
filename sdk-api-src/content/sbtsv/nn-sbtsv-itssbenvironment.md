@@ -55,5 +55,4 @@ computer. This interface can be used to store information about a physical serve
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>
-
+<a href="/windows/desktop/TermServ/remote-desktop-virtualization-interfaces">Remote Desktop Virtualization Interfaces</a>

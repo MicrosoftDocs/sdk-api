@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Defines the threading behavior for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setinputmode">SetInputMode</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setupdatemode">SetUpdateMode</a>. The exact meaning of each constant depends on the method called.
+Defines the threading behavior for <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setinputmode">SetInputMode</a> or <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationviewport-setupdatemode">SetUpdateMode</a>. The exact meaning of each constant depends on the method called.
 
 ## -enum-fields
 
@@ -60,9 +60,8 @@ Input is automatically passed to the viewport in an independent thread.
 
 ### -field DIRECTMANIPULATION_INPUT_MODE_MANUAL
 
-Input is manually passed by   the app on its thread via the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationmanager-processinput">ProcessInput</a> method.
+Input is manually passed by   the app on its thread via the <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationmanager-processinput">ProcessInput</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/directmanipulation/direct-manipulation-enumerations">Direct Manipulation Enumerations</a>
-
+<a href="/previous-versions/windows/desktop/directmanipulation/direct-manipulation-enumerations">Direct Manipulation Enumerations</a>

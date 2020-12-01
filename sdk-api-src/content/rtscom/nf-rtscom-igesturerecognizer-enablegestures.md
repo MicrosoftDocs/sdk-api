@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Sets a value that indicates to which application gestures the <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a> object responds.
+Sets a value that indicates to which application gestures the <a href="/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a> object responds.
 
 ## -parameters
 
@@ -60,11 +60,11 @@ Sets a value that indicates to which application gestures the <a href="https://d
 
 ### -param pGestures [in]
 
-An array of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a> values that indicates to which application gestures the <a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a> object responds.
+An array of the <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkapplicationgesture">InkApplicationGesture Enumeration</a> values that indicates to which application gestures the <a href="/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a> object responds.
 
 ## -returns
 
-For a description of return values, see <a href="https://docs.microsoft.com/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
+For a description of return values, see <a href="/windows/desktop/tablet/realtimestylus-classes-and-interfaces">RealTimeStylus Classes and Interfaces</a>.
 
 ## -remarks
 
@@ -72,17 +72,16 @@ You cannot enable <b>AllGestures</b> in conjunction with any other gestures.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
+<a href="/previous-versions/windows/desktop/legacy/ms701168(v=vs.85)">DynamicRenderer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a>
+<a href="/windows/desktop/tablet/gesturerecognizer-class">GestureRecognizer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nn-rtscom-igesturerecognizer">IGestureRecognizer</a>
+<a href="/windows/desktop/api/rtscom/nn-rtscom-igesturerecognizer">IGestureRecognizer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rtscom/nf-rtscom-igesturerecognizer-get_enabled">IGestureRecognizer::Enabled Property</a>
-
+<a href="/windows/desktop/api/rtscom/nf-rtscom-igesturerecognizer-get_enabled">IGestureRecognizer::Enabled Property</a>

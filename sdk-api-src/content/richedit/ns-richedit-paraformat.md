@@ -55,19 +55,19 @@ api_name:
 Contains information about paragraph formatting attributes in a rich edit control. This structure is used with the <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a> messages.
         
 
-In Microsoft Rich Edit 2.0, the <a href="https://msdn.microsoft.com/96c8ec3e-3d4c-4233-993b-201f4c62e653">PARAFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>PARAFORMAT</b> structure. Microsoft Rich Edit 2.0 allows you to use either structure with <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a>.
+In Microsoft Rich Edit 2.0, the <a href="/windows/win32/api/richedit/ns-richedit-paraformat2">PARAFORMAT2</a> structure is a Microsoft Rich Edit 2.0 extension of the <b>PARAFORMAT</b> structure. Microsoft Rich Edit 2.0 allows you to use either structure with <a href="https://msdn.microsoft.com/79a7d34f-5da1-452d-b31f-b2eec913f5cb">EM_GETPARAFORMAT</a> and <a href="https://msdn.microsoft.com/2d612e1b-1489-4055-929b-e0b2719f6ec2">EM_SETPARAFORMAT</a>.
 
 ## -struct-fields
 
 ### -field cbSize
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Structure size, in bytes. The member must be filled before passing to the rich edit control.
 
 ### -field dwMask
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 Members containing valid information or attributes to set. This parameter can be none or a combination of the following values. If both PFM_STARTINDENT and PFM_OFFSETINDENT are specified, PFM_STARTINDENT takes precedence. 
 
@@ -165,13 +165,13 @@ The <i>cTabStobs</i> and <i>rgxTabStops</i> members are valid.
 
 ### -field wNumbering
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Value specifying numbering options. This member can be zero or PFN_BULLET.
 
 ### -field wReserved
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 <b>Rich Edit 1.0:</b>: This member is named <b>wReserved</b>. Reserved; the value must be zero. 
                 
@@ -209,25 +209,25 @@ Displays text using right-to-left reading order.
 
 ### -field dxStartIndent
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Indentation of the first line in the paragraph, in twips. If the paragraph formatting is being set and PFM_OFFSETINDENT is specified, this member is treated as a relative value that is added to the starting indentation of each affected paragraph.
 
 ### -field dxRightIndent
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Size, of the right indentation relative to the right margin, in twips.
 
 ### -field dxOffset
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Indentation of the second and subsequent lines of a paragraph relative to the starting indentation, in twips. The first line is indented if this member is negative or outdented if this member is positive.
 
 ### -field wAlignment
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Value specifying the paragraph alignment. This member can be one of the following values. 
 
@@ -270,13 +270,13 @@ Paragraphs are aligned with the right margin.
 
 ### -field cTabCount
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">SHORT</a></b>
 
 Number of tab stops.
 
 ### -field rgxTabs
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
 Array of absolute tab stop positions. Each element in the array specifies information about a tab stop. The 24 low-order bits specify the absolute offset, in twips. To use this member, set the PFM_TABSTOPS flag in the 
 					<b>dwMask</b> member.
@@ -429,9 +429,8 @@ Double line leader
 
 
 
-<a href="https://msdn.microsoft.com/96c8ec3e-3d4c-4233-993b-201f4c62e653">PARAFORMAT2</a>
+<a href="/windows/win32/api/richedit/ns-richedit-paraformat2">PARAFORMAT2</a>
 
 
 
 <b>Reference</b>
-

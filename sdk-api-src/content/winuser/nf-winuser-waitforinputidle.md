@@ -50,6 +50,7 @@ api_location:
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
  - WaitForInputIdle
+req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ---
 
 # WaitForInputIdle function
@@ -122,19 +123,18 @@ The
 <b>WaitForInputIdle</b>  can be used at any time, not just during application startup. However, <b>WaitForInputIdle</b> waits only once for a process to become idle; subsequent <b>WaitForInputIdle</b> calls return immediately, whether the process is idle or busy. 
 
 <b>WaitForInputIdle</b> can be useful for synchronizing a parent process and a newly created child process. When a parent process creates a child process, the 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function returns without waiting for the child process to finish its initialization. Before trying to communicate with the child process, the parent process can use 
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> function returns without waiting for the child process to finish its initialization. Before trying to communicate with the child process, the parent process can use 
 the <b>WaitForInputIdle</b> function to determine when the child's initialization has been completed. For example, the parent process should use 
 the <b>WaitForInputIdle</b> function before trying to find a window associated with the child process.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/synchronizing-execution-of-multiple-threads">Synchronizing Execution of Multiple Threads</a>
-
+<a href="/windows/desktop/ProcThread/synchronizing-execution-of-multiple-threads">Synchronizing Execution of Multiple Threads</a>

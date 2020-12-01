@@ -55,7 +55,7 @@ The <b>IVssSnapshotMgmt</b> interface provides a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssSnapshotMgmt</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssSnapshotMgmt</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVssSnapshotMgmt</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IVssSnapshotMgmt</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,21 +70,21 @@ The <b>IVssSnapshotMgmt</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivsssnapshotmgmt-getprovidermgmtinterface">GetProviderMgmtInterface</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivsssnapshotmgmt-getprovidermgmtinterface">GetProviderMgmtInterface</a>
 </td>
 <td align="left" width="63%">
 Returns an interface to further configure a shadow copy provider.</p> (Inherited from <b>IVssSnapshotMgmt</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivsssnapshotmgmt-querysnapshotsbyvolume">QuerySnapshotsByVolume</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivsssnapshotmgmt-querysnapshotsbyvolume">QuerySnapshotsByVolume</a>
 </td>
 <td align="left" width="63%">
 Reserved for system use.</p> (Inherited from <b>IVssSnapshotMgmt</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vsmgmt/nf-vsmgmt-ivsssnapshotmgmt-queryvolumessupportedforsnapshots">QueryVolumesSupportedForSnapshots</a>
+<a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivsssnapshotmgmt-queryvolumessupportedforsnapshots">QueryVolumesSupportedForSnapshots</a>
 </td>
 <td align="left" width="63%">
 Reserved for system use.</p> (Inherited from <b>IVssSnapshotMgmt</b>)</td>
@@ -144,9 +144,8 @@ void main()
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>
-
+<a href="/windows/desktop/VSS/volume-shadow-copy-api-interfaces">Volume Shadow Copy API Interfaces</a>

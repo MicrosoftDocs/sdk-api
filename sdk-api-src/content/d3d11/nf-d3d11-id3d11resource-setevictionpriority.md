@@ -57,7 +57,7 @@ Set the eviction priority of a resource.
 
 ### -param EvictionPriority [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Eviction priority for the resource, which is one of the following values:
 
@@ -79,5 +79,4 @@ Changing the priorities of resources should be done carefully. The wrong evictio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>
-
+<a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>

@@ -57,7 +57,7 @@ The <code>FindUpstreamInterface</code> method searches the filter graph for a sp
 
 ### -param pPin [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of a pin. The pin must belong to a filter in the filter graph.
+Pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin</a> interface of a pin. The pin must belong to a filter in the filter graph.
 
 ### -param riid [in]
 
@@ -69,7 +69,7 @@ Address of a void pointer. If the method succeeds, this variable receives a poin
 
 ### -param dwFlags [in]
 
-Combination of flags from the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-_am_intf_search_flags">AM_INTF_SEARCH_FLAGS</a> enumeration, specifying what to search (pins or filters).
+Combination of flags from the <a href="/windows/desktop/api/strmif/ne-strmif-_am_intf_search_flags">AM_INTF_SEARCH_FLAGS</a> enumeration, specifying what to search (pins or filters).
 
 ## -returns
 
@@ -129,21 +129,20 @@ If <i>pPin</i> is an output pin, it queries the filter that owns <i>pPin</i>. Th
 To create a list of input pins with internal connections, the method does the following:
 
 <ul>
-<li>Calls <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-queryinternalconnections">IPin::QueryInternalConnections</a>.</li>
-<li>If that fails, calls <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ibasefilter-enumpins">IBaseFilter::EnumPins</a> and looks for input pins.</li>
+<li>Calls <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryinternalconnections">IPin::QueryInternalConnections</a>.</li>
+<li>If that fails, calls <a href="/windows/desktop/api/strmif/nf-strmif-ibasefilter-enumpins">IBaseFilter::EnumPins</a> and looks for input pins.</li>
 </ul>
 </li>
 </ol>
 It stops at the first object it finds that supports the interface. You can limit the objects that are searched (filters, input pin, or output pins) by setting <i>dwFlags</i> to a non-zero value.
 
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-findinterface">ICaptureGraphBuilder2::FindInterface</a> method implements a more general approach to this problem, and in most situations is preferred.</div>
+<div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/strmif/nf-strmif-icapturegraphbuilder2-findinterface">ICaptureGraphBuilder2::FindInterface</a> method implements a more general approach to this problem, and in most situations is preferred.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamgraphstreams">IAMGraphStreams Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamgraphstreams">IAMGraphStreams Interface</a>

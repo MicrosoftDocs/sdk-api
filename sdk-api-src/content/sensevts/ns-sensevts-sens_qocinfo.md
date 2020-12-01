@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>SENS_QOCINFO</b> structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensnetwork-connectionmade">ISensNetwork::ConnectionMade</a> method. This structure contains Quality of Connection information to the sink object in an application that subscribes to SENS.
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isensnetwork-connectionmade">ISensNetwork::ConnectionMade</a> method. This structure contains Quality of Connection information to the sink object in an application that subscribes to SENS.
 
 ## -struct-fields
 
@@ -74,17 +74,16 @@ Speed of data coming in from the destination in bits per second.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
+<a href="/windows/desktop/Sens/about-system-event-notification-service">About System Event Notification Service</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
+<a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-putpublisherproperty">IEventSubscription::PutPublisherProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensevts/nf-sensevts-isensnetwork-connectionmade">ISensNetwork::ConnectionMade</a>
-
+<a href="/windows/desktop/api/sensevts/nf-sensevts-isensnetwork-connectionmade">ISensNetwork::ConnectionMade</a>

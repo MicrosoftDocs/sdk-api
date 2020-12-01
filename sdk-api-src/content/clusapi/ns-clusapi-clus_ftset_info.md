@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains information about an FT (fault tolerant) set. This structure is used by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_ftset_info">CLUSPROP_FTSET_INFO</a> structure to create an entry in a value list.
+Contains information about an FT (fault tolerant) set. This structure is used by the <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_ftset_info">CLUSPROP_FTSET_INFO</a> structure to create an entry in a value list.
 
 ## -struct-fields
 
@@ -66,9 +66,8 @@ The type of fault tolerance that is supported by the FT set.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_ftset_info">CLUSPROP_FTSET_INFO</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_ftset_info">CLUSPROP_FTSET_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>

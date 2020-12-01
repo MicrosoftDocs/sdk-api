@@ -56,13 +56,13 @@ Retrieves the item that a given point is in, if any.
 
 ### -param ppt [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to the point to be tested.
 
 ### -param ppsiOut [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>**</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>**</b>
 
 The address of a pointer to the item in which the point exists, or <b>NULL</b> if the point does not exist in an item.
 
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This function returns <b>S_FALSE</b> with a <b>NULL</b> item if the point does not exist in an item.
-

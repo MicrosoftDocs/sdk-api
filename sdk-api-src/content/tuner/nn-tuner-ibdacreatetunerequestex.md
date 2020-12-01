@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Implements the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacreatetunerequestex-createtunerequestex">CreateTuneRequestEx</a> method, which creates a new tuning request for a tuning space.
+Implements the <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacreatetunerequestex-createtunerequestex">CreateTuneRequestEx</a> method, which creates a new tuning request for a tuning space.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDACreateTuneRequestEx</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDACreateTuneRequestEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDACreateTuneRequestEx</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBDACreateTuneRequestEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IBDACreateTuneRequestEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacreatetunerequestex-createtunerequestex">CreateTuneRequestEx</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ibdacreatetunerequestex-createtunerequestex">CreateTuneRequestEx</a>
 </td>
 <td align="left" width="63%">
 Creates a new tuning request.
@@ -82,4 +82,3 @@ Creates a new tuning request.
 ## -remarks
 
 To declare the interface identifier (IID) for this interface, use the <b>__uuidof</b> operator: <code>__uuidof(IBDACreateTuneRequestEx)</code>.
-

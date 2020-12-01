@@ -68,7 +68,7 @@ Unregisters a specified Shell window that is registered to receive Shell
 Type: <b>HWND</b>
 
 A handle to the window to be unregistered. The window was registered with a call to the
-		<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registershellhookwindow">RegisterShellHookWindow</a> function.
+		<a href="/windows/desktop/api/winuser/nf-winuser-registershellhookwindow">RegisterShellHookWindow</a> function.
 
 ## -returns
 
@@ -79,7 +79,7 @@ Type: <b>BOOL</b>
 
 ## -remarks
 
-This function was not included in the SDK headers and libraries until Windows XP with Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
+This function was not included in the SDK headers and libraries until Windows XP with Service Pack 1 (SP1) and Windows Server 2003. If you do not have a header file and import library for this function, you can call the function using <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>.
 
 ## -see-also
 
@@ -91,9 +91,8 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-registershellhookwindow">RegisterShellHookWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-registershellhookwindow">RegisterShellHookWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

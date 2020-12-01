@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the focus to a specified item in a header control. Use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-setfocuseditem">HDM_SETFOCUSEDITEM</a> message explicitly.
+Sets the focus to a specified item in a header control. Use this macro or send the <a href="/windows/desktop/Controls/hdm-setfocuseditem">HDM_SETFOCUSEDITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the header control.
 
@@ -68,5 +68,4 @@ The index of item.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/header-controls">About Header Controls</a>
-
+<a href="/windows/desktop/Controls/header-controls">About Header Controls</a>

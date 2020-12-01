@@ -64,7 +64,7 @@ A variable that is <b>tomTrue</b> if the font can be changed or <b>tomFalse</b> 
 
 Type: <b>HRESULT</b>
 
-If the font can change, the method returns <b>S_OK</b>. If the method fails, it returns the following COM error code. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the font can change, the method returns <b>S_OK</b>. If the method fails, it returns the following COM error code. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -86,7 +86,7 @@ The font cannot change.
 
 ## -remarks
 
-The *<i>pbCanChange</i> returns <b>tomTrue</b> only if the font can be changed. That is, no part of an associated range is protected and an associated document is not read-only. If this <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> object is a duplicate, no protection rules apply.
+The *<i>pbCanChange</i> returns <b>tomTrue</b> only if the font can be changed. That is, no part of an associated range is protected and an associated document is not read-only. If this <a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a> object is a duplicate, no protection rules apply.
 
 ## -see-also
 
@@ -94,7 +94,7 @@ The *<i>pbCanChange</i> returns <b>tomTrue</b> only if the font can be changed. 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextfont">ITextFont</a>
 
 
 
@@ -102,5 +102,4 @@ The *<i>pbCanChange</i> returns <b>tomTrue</b> only if the font can be changed. 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

@@ -70,7 +70,7 @@ Returns the palette if successful; otherwise 0.
 
 ## -remarks
 
-This function behaves the same as <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createhalftonepalette">CreateHalftonePalette</a>. The palette that is returned depends on the device context in the following way:
+This function behaves the same as <a href="/windows/desktop/api/wingdi/nf-wingdi-createhalftonepalette">CreateHalftonePalette</a>. The palette that is returned depends on the device context in the following way:
 
 				
 
@@ -79,4 +79,3 @@ This function behaves the same as <a href="https://docs.microsoft.com/windows/de
 <li>If the device context is indexed, a full palette is returned.</li>
 <li>If the device context is not indexed, a default palette (VGA colors) is returned.</li>
 </ul>
-

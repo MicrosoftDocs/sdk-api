@@ -50,19 +50,18 @@ api_name:
 
 ## -description
 
-Callback function for the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
+Callback function for the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
 
 ## -parameters
 
 ### -param *pContext [in]
 
-Pointer to the <b>IUnknown</b> interface, or <b>NULL</b>. This pointer is specified by the caller in the <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
+Pointer to the <b>IUnknown</b> interface, or <b>NULL</b>. This pointer is specified by the caller in the <a href="/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback">MFAddPeriodicCallback</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
+<a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/work-queues">Work Queues</a>
-
+<a href="/windows/desktop/medfound/work-queues">Work Queues</a>

@@ -215,7 +215,7 @@ The combined size of the following items, rounded to a multiple of the value spe
 <ul>
 <li><b>e_lfanew</b> member of <b>IMAGE_DOS_HEADER</b></li>
 <li>4 byte signature</li>
-<li>size of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_file_header">IMAGE_FILE_HEADER</a>
+<li>size of <a href="/windows/desktop/api/winnt/ns-winnt-image_file_header">IMAGE_FILE_HEADER</a>
 </li>
 <li>size of optional header</li>
 <li>size of all section headers</li>
@@ -434,6 +434,17 @@ Reserved.
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="IMAGE_DLL_CHARACTERISTICS_HIGH_ENTROPY_VA"></a><a id="image_dll_characteristics_high_entropy_va"></a><dl>
+<dt><b>IMAGE_DLL_CHARACTERISTICS_HIGH_ENTROPY_VA</b></dt>
+<dt>0x0020</dt>
+</dl>
+</td>
+<td width="60%">
+ASLR with 64 bit address space.
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE"></a><a id="image_dllcharacteristics_dynamic_base"></a><dl>
 <dt><b>IMAGE_DLLCHARACTERISTICS_DYNAMIC_BASE</b></dt>
 <dt>0x0040</dt>
@@ -453,7 +464,7 @@ The DLL can be relocated at load time.
 <td width="60%">
 Code integrity checks are forced. If you set this flag and a section contains only uninitialized data, 
         set the <b>PointerToRawData</b> member of 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> for that section to 
+        <a href="/windows/desktop/api/winnt/ns-winnt-image_section_header">IMAGE_SECTION_HEADER</a> for that section to 
         zero; otherwise, the image will fail to load because the digital signature cannot be verified.
 
 </td>
@@ -504,13 +515,13 @@ Do not bind the image.
 </td>
 </tr>
 <tr>
-<td width="40%">
-<dl>
+<td width="40%"><a id="IMAGE_DLL_CHARACTERISTICS_APPCONTAINER"></a><a id="image_dll_characteristics_appcontainer"></a><dl>
+<dt><b>IMAGE_DLL_CHARACTERISTICS_APPCONTAINER</b></dt>
 <dt>0x1000</dt>
 </dl>
 </td>
 <td width="60%">
-Reserved.
+Image should execute in an AppContainer.
 
 </td>
 </tr>
@@ -526,13 +537,13 @@ A WDM driver.
 </td>
 </tr>
 <tr>
-<td width="40%">
-<dl>
+<td width="40%"><a id="IMAGE_DLL_CHARACTERISTICS_GUARD_CF"></a><a id="image_dll_characteristics_guard_cf"></a><dl>
+<dt><b>IMAGE_DLL_CHARACTERISTICS_GUARD_CF</b></dt>
 <dt>0x4000</dt>
 </dl>
 </td>
 <td width="60%">
-Reserved.
+Image supports Control Flow Guard.
 
 </td>
 </tr>
@@ -581,7 +592,7 @@ The number of directory entries in the remainder of the optional header. Each en
 ### -field DataDirectory
 
 A pointer to the first 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_data_directory">IMAGE_DATA_DIRECTORY</a> structure in the data 
+<a href="/windows/desktop/api/winnt/ns-winnt-image_data_directory">IMAGE_DATA_DIRECTORY</a> structure in the data 
  directory.
 
 The index number of the desired directory entry. This parameter can be one of the following values. 
@@ -808,9 +819,8 @@ typedef struct _IMAGE_OPTIONAL_HEADER64 {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-image_data_directory">IMAGE_DATA_DIRECTORY</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-image_data_directory">IMAGE_DATA_DIRECTORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
-
+<a href="/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>

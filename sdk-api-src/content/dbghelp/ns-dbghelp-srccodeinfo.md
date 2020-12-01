@@ -90,5 +90,4 @@ The virtual address of the first instruction of the line.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumlines_callback">SymEnumLinesProc</a>
-
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumlines_callback">SymEnumLinesProc</a>

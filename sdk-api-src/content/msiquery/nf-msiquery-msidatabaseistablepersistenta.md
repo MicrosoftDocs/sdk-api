@@ -60,7 +60,7 @@ The
 
 ### -param hDatabase [in]
 
-Handle to the database that belongs to the relevant table. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Msi/obtaining-a-database-handle">Obtaining a Database Handle</a>.
+Handle to the database that belongs to the relevant table. For more information, see <a href="/windows/desktop/Msi/obtaining-a-database-handle">Obtaining a Database Handle</a>.
 
 ### -param szTableName [in]
 
@@ -72,10 +72,9 @@ This function returns MSICONDITION.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/database-functions">General Database Access Functions</a>
+<a href="/windows/desktop/Msi/database-functions">General Database Access Functions</a>
 
 ## -remarks
 
 > [!NOTE]
 > The msiquery.h header defines MsiDatabaseIsTablePersistent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

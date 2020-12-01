@@ -65,5 +65,4 @@ The credentials handle of a specific account.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windns/nf-windns-dnsacquirecontexthandle_a">DnsAcquireContextHandle</a>
-
+<a href="/windows/desktop/api/windns/nf-windns-dnsacquirecontexthandle_a">DnsAcquireContextHandle</a>

@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Retrieves the amount, in pixels, that child items are indented relative to their parent items. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tvm-getindent">TVM_GETINDENT</a> message explicitly.
+Retrieves the amount, in pixels, that child items are indented relative to their parent items. You can use this macro or send the <a href="/windows/desktop/Controls/tvm-getindent">TVM_GETINDENT</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tree-view control.
-

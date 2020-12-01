@@ -72,11 +72,11 @@ The chromaticity coordinates of the white point in the CIE1931 color space. Inde
 
 ### -field MaxMasteringLuminance
 
-The maximum number of nits of the display used to master the content. Values are normalized to 10,000.
+The maximum number of nits of the display used to master the content. Values are in whole nits.
 
 ### -field MinMasteringLuminance
 
-The minimum number of nits of the display used to master the content. Values are normalized to 10,000.
+The minimum number of nits of the display used to master the content. Values are 1/10000th of a nit (0.0001 nit).
 
 ### -field MaxContentLightLevel
 
@@ -109,13 +109,12 @@ MaxFrameAverageLightLevel = 500;
 ```
 
 
-This structure is used in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgiswapchain4-sethdrmetadata">SetHDRMetaData</a> method.
+This structure is used in conjunction with the <a href="/windows/desktop/api/dxgi1_5/nf-dxgi1_5-idxgiswapchain4-sethdrmetadata">SetHDRMetaData</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/dxgi-1-5-improvements">DXGI 1.5 Improvements</a>
+<a href="/windows/desktop/direct3ddxgi/dxgi-1-5-improvements">DXGI 1.5 Improvements</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
-
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>

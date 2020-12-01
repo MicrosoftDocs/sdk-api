@@ -45,6 +45,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - DAD_DragLeave
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # DAD_DragLeave function
@@ -52,9 +53,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>DAD_DragLeave</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="https://docs.microsoft.com/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragleave">ImageList_DragLeave</a> instead.]
+<p class="CCE_Message">[<b>DAD_DragLeave</b> is available in Windows 2000 and Windows XP. It might be altered or unavailable in subsequent versions. Use <a href="/windows/desktop/api/commctrl/nf-commctrl-imagelist_dragleave">ImageList_DragLeave</a> instead.]
 
-Unlocks the window locked by the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex">DAD_DragEnterEx</a> function.
+Unlocks the window locked by the <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-dad_dragenterex">DAD_DragEnterEx</a> function.
 
 ## -parameters
 
@@ -63,4 +64,3 @@ Unlocks the window locked by the <a href="https://docs.microsoft.com/windows/des
 Type: <b>BOOL</b>
 
 Returns <b>SUCCEEDED</b> if successful, or <b>FALSE</b> otherwise.
-

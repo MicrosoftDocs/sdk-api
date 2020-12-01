@@ -57,15 +57,15 @@ DirectShow currently does not provide any filters that implement this interface.
 
 SMPTE timecode is a frame addressing system that identifies video and audio sources, makes automatic track synchronization possible, and provides a container for additional data related to the production. SMPTE timecode's main purpose is to provide a machine-readable address for video and audio. It is displayed in hh:mm:ss:ff format and is thoroughly defined in ANSI/SMPTE 12-1986.
 
-Optionally, you can enable applications to convert timecode to reference time by supporting the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-imediaseeking-converttimeformat">IMediaSeeking::ConvertTimeFormat</a> method on the filter.
+Optionally, you can enable applications to convert timecode to reference time by supporting the <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-converttimeformat">IMediaSeeking::ConvertTimeFormat</a> method on the filter.
 
 <b>Hardware Requirements</b>
 
-For hardware requirements, see the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport</a> interface.
+For hardware requirements, see the <a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport</a> interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTimecodeGenerator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTimecodeGenerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMTimecodeGenerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMTimecodeGenerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -80,7 +80,7 @@ The <b>IAMTimecodeGenerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-get_vitcline">get_VITCLine</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-get_vitcline">get_VITCLine</a>
 </td>
 <td align="left" width="63%">
 Retrieves which line(s) the vertical interval timecode information has been inserted into.
@@ -89,7 +89,7 @@ Retrieves which line(s) the vertical interval timecode information has been inse
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettcgmode">GetTCGMode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettcgmode">GetTCGMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the SMPTE timecode generator properties.
@@ -98,7 +98,7 @@ Retrieves the SMPTE timecode generator properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettimecode">GetTimecode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettimecode">GetTimecode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the most recent timecode and/or userbit value available in the stream.
@@ -107,7 +107,7 @@ Retrieves the most recent timecode and/or userbit value available in the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-put_vitcline">put_VITCLine</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-put_vitcline">put_VITCLine</a>
 </td>
 <td align="left" width="63%">
 Specifies which line(s) to insert the vertical interval timecode information into.
@@ -116,7 +116,7 @@ Specifies which line(s) to insert the vertical interval timecode information int
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-settcgmode">SetTCGMode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-settcgmode">SetTCGMode</a>
 </td>
 <td align="left" width="63%">
 Sets the SMPTE timecode generator properties.
@@ -125,7 +125,7 @@ Sets the SMPTE timecode generator properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-settimecode">SetTimecode</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-settimecode">SetTimecode</a>
 </td>
 <td align="left" width="63%">
 Sets the timecode, userbit value, or both.
@@ -136,5 +136,4 @@ Sets the timecode, userbit value, or both.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtimecodereader">IAMTimecodeReader Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtimecodereader">IAMTimecodeReader Interface</a>

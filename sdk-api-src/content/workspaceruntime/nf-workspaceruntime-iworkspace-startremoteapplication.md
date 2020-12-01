@@ -84,13 +84,12 @@ When a custom client calls the <b>StartRemoteApplication</b> method, the workspa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace">IWorkspace</a>
+<a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace">IWorkspace</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace2">IWorkspace2</a>
+<a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace2">IWorkspace2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace3">IWorkspace3</a>
-
+<a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace3">IWorkspace3</a>

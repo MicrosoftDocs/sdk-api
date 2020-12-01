@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>IFaxServer::CreateDocument</b> method creates a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object for a specified <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver-client">FaxServer</a> object. The FaxDoc object allows a user to create and transmit a document to one or more fax recipients.
+The <b>IFaxServer::CreateDocument</b> method creates a <a href="/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object for a specified <a href="/previous-versions/windows/desktop/fax/-mfax-faxserver-client">FaxServer</a> object. The FaxDoc object allows a user to create and transmit a document to one or more fax recipients.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ This parameter can contain any valid local or remote file name. The file must be
 
 Type: <b>VARIANT*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure that receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object. The method returns a pdispVal member with a VT_DISPATCH data type.
+Pointer to a <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a> structure that receives an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer to a <a href="/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object. The method returns a pdispVal member with a VT_DISPATCH data type.
 
 ## -returns
 
@@ -77,31 +77,30 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-The <b>IFaxServer::CreateDocument</b> method retrieves an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object. A fax client application can also access the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxdoc">IFaxDoc</a> interface directly by calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to retrieve an interface pointer. The <b>IFaxDoc</b> interface allows a user to set the properties for a fax document, and then transmit the document.
+The <b>IFaxServer::CreateDocument</b> method retrieves an <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface pointer to a <a href="/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a> object. A fax client application can also access the <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxdoc">IFaxDoc</a> interface directly by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a> method to retrieve an interface pointer. The <b>IFaxDoc</b> interface allows a user to set the properties for a fax document, and then transmit the document.
 
-A fax client application should not call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function to retrieve an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxdoc">IFaxDoc</a> interface pointer because it will not be instantiated correctly.
+A fax client application should not call the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> function to retrieve an <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxdoc">IFaxDoc</a> interface pointer because it will not be instantiated correctly.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-interfaces">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-fax-service-client-api-for-windows-2000">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxdoc">FaxDoc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver-client">FaxServer</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxserver-client">FaxServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxserver">IFaxServer</a>
+<a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxserver">IFaxServer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
-
+<a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>

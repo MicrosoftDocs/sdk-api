@@ -97,5 +97,4 @@ The maximum length of a network name can be 128 characters and cannot contain sp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
-
+<a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>

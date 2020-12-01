@@ -74,9 +74,8 @@ Reserved for system use; should not be examined or modified by an application.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
+<a href="/windows/desktop/Multimedia/waveform-audio">Waveform Audio</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
-
+<a href="/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>

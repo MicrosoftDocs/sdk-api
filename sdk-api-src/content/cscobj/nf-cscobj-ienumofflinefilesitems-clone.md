@@ -57,7 +57,7 @@ Creates a new instance of the enumerator with the same enumeration state as the 
 
 ### -param ppenum [out]
 
-Address of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-ienumofflinefilesitems">IEnumOfflineFilesItems</a> pointer variable that receives the interface pointer of the new enumeration object.
+Address of an <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-ienumofflinefilesitems">IEnumOfflineFilesItems</a> pointer variable that receives the interface pointer of the new enumeration object.
 
 ## -returns
 
@@ -65,5 +65,4 @@ Returns <b>S_OK</b> if the enumerator is created successfully, or an error value
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-ienumofflinefilesitems">IEnumOfflineFilesItems</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-ienumofflinefilesitems">IEnumOfflineFilesItems</a>

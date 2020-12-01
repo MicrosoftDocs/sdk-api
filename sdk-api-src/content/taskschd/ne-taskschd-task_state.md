@@ -78,9 +78,8 @@ One or more instances of the task is running.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>

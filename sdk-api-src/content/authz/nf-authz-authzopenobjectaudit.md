@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>AuthzOpenObjectAudit</b> function reads the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) of the specified security descriptor and generates any appropriate audits specified by that SACL.
+The <b>AuthzOpenObjectAudit</b> function reads the <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL) of the specified security descriptor and generates any appropriate audits specified by that SACL.
 
 ## -parameters
 
@@ -65,7 +65,7 @@ A handle to the client context of the object to open.
 ### -param pRequest [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_access_request">AUTHZ_ACCESS_REQUEST</a> structure.
+<a href="/windows/desktop/api/authz/ns-authz-authz_access_request">AUTHZ_ACCESS_REQUEST</a> structure.
 
 ### -param hAuditEvent [in]
 
@@ -74,11 +74,11 @@ A handle to the audit event to use.
 ### -param pSecurityDescriptor [in]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure for the object.
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure for the object.
 
 ### -param OptionalSecurityDescriptorArray [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structures.
+A pointer to an array of <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structures.
 
 ### -param OptionalSecurityDescriptorCount [in]
 
@@ -87,15 +87,14 @@ The number of elements in <i>SecurityDescriptorArray</i>.
 ### -param pReply [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/authz/ns-authz-authz_access_reply">AUTHZ_ACCESS_REPLY</a> structure.
+<a href="/windows/desktop/api/authz/ns-authz-authz_access_reply">AUTHZ_ACCESS_REPLY</a> structure.
 
 ## -returns
 
 If the function succeeds, it returns a nonzero value. 
 
-If the function fails, it returns a zero value. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, it returns a zero value. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
-
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>

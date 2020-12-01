@@ -65,9 +65,8 @@ A <b>BOOL</b> that specifies the state of the static filters. Set to <b>TRUE</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigfiltergetinfo">MprConfigFilterGetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigfiltergetinfo">MprConfigFilterGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigfiltersetinfo">MprConfigFilterSetInfo</a>
-
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigfiltersetinfo">MprConfigFilterSetInfo</a>

@@ -54,7 +54,7 @@ Represents a session in which the caller can perform operations that involve upd
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateSession3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession2">IUpdateSession2</a>. <b>IUpdateSession3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUpdateSession3</b> interface inherits from <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession2">IUpdateSession2</a>. <b>IUpdateSession3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,19 +69,19 @@ The <b>IUpdateSession3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession3-createupdateservicemanager">CreateUpdateServiceManager</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesession3-createupdateservicemanager">CreateUpdateServiceManager</a>
 </td>
 <td align="left" width="63%">
-Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager2">IUpdateServiceManager2</a> interface for the session.
+Returns a pointer to an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager2">IUpdateServiceManager2</a> interface for the session.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession3-queryhistory">QueryHistory</a>
+<a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesession3-queryhistory">QueryHistory</a>
 </td>
 <td align="left" width="63%">
-Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentrycollection">IUpdateHistoryEntryCollection</a> interface. The interface contains matching event records on the computer. This causes the <a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nf-wuapi-iupdatesession3-queryhistory">QueryHistory</a> method to synchronously query the computer for the history of update events.
+Returns a pointer to an <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentrycollection">IUpdateHistoryEntryCollection</a> interface. The interface contains matching event records on the computer. This causes the <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdatesession3-queryhistory">QueryHistory</a> method to synchronously query the computer for the history of update events.
 
 </td>
 </tr>
@@ -89,5 +89,4 @@ Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wuapi/nn-wuapi-iupdatesession2">IUpdateSession2</a>
-
+<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession2">IUpdateSession2</a>

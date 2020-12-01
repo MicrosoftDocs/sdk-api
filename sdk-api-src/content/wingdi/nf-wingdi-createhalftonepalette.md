@@ -68,39 +68,38 @@ If the function fails, the return value is zero.
 
 ## -remarks
 
-An application should create a halftone palette when the stretching mode of a device context is set to HALFTONE. The logical halftone palette returned by <b>CreateHalftonePalette</b> should then be selected and realized into the device context before the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a> function is called.
+An application should create a halftone palette when the stretching mode of a device context is set to HALFTONE. The logical halftone palette returned by <b>CreateHalftonePalette</b> should then be selected and realized into the device context before the <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a> or <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a> function is called.
 
-When you no longer need the palette, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
+When you no longer need the palette, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete it.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
+<a href="/windows/desktop/gdi/color-functions">Color Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
+<a href="/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-realizepalette">RealizePalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setstretchbltmode">SetStretchBltMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>

@@ -60,7 +60,7 @@ Unicode string that specifies the IP address or hostname of the DHCP server.
 
 ### -param FieldsToSet [in]
 
-Specifies a set of bit flags that indicate which fields in <i>ConfigInfo</i> are set. If a flag is present, the corresponding field must also be populated in the <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a> structure referenced by <i>ConfigInfo</i>, and will be used to set the same value on the DHCP server,
+Specifies a set of bit flags that indicate which fields in <i>ConfigInfo</i> are set. If a flag is present, the corresponding field must also be populated in the <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a> structure referenced by <i>ConfigInfo</i>, and will be used to set the same value on the DHCP server,
 
 <table>
 <tr>
@@ -203,11 +203,11 @@ The <b>AuditLogState</b> field is populated.
 
 ### -param ConfigInfo [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a> structure that contains the specific DHCP server configuration settings as indicated by the bit flags set in <i>FieldsToSet</i>.
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a> structure that contains the specific DHCP server configuration settings as indicated by the bit flags set in <i>FieldsToSet</i>.
 
 ## -returns
 
-This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
+This function returns <b>ERROR_SUCCESS</b> upon a successful call. Otherwise, it returns one of the <a href="/previous-versions/windows/desktop/dhcp/dhcp-server-management-api-error-codes">DHCP Server Management API Error Codes</a>.
 
 <table>
 <tr>
@@ -251,9 +251,8 @@ One of the parameters provides an invalid value.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a>
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_server_config_info_v4">DHCP_SERVER_CONFIG_INFO_V4</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpservergetconfigv4">DhcpServerGetConfigV4</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpservergetconfigv4">DhcpServerGetConfigV4</a>

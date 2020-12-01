@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>CM_Add_Empty_Log_Conf</b> function creates an empty <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>, for a specified configuration type and a specified device instance, on the local machine.
+The <b>CM_Add_Empty_Log_Conf</b> function creates an empty <a href="/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>, for a specified configuration type and a specified device instance, on the local machine.
 
 ## -parameters
 
@@ -77,7 +77,7 @@ LCPRI_FORCECONFIG
 
 </td>
 <td>
-Result of a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">forced configuration</a>.
+Result of a <a href="/windows-hardware/drivers/kernel/hardware-resources">forced configuration</a>.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ LCPRI_BOOTCONFIG
 
 </td>
 <td>
-Result of a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">boot configuration</a>.
+Result of a <a href="/windows-hardware/drivers/kernel/hardware-resources">boot configuration</a>.
 
 </td>
 </tr>
@@ -228,7 +228,7 @@ BASIC_LOG_CONF
 
 </td>
 <td>
-Resource descriptors added to this configuration will describe a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">basic configuration</a>.
+Resource descriptors added to this configuration will describe a <a href="/windows-hardware/drivers/kernel/hardware-resources">basic configuration</a>.
 
 </td>
 </tr>
@@ -238,7 +238,7 @@ FILTERED_LOG_CONF
 
 </td>
 <td>
-<i>Do not use.</i> (Only the PnP manager can create a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">filtered configuration</a>.)
+<i>Do not use.</i> (Only the PnP manager can create a <a href="/windows-hardware/drivers/kernel/hardware-resources">filtered configuration</a>.)
 
 </td>
 </tr>
@@ -248,7 +248,7 @@ ALLOC_LOG_CONF
 
 </td>
 <td>
-<i>Do not use.</i> (Only the PnP manager can create an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">allocated configuration</a>.)
+<i>Do not use.</i> (Only the PnP manager can create an <a href="/windows-hardware/drivers/kernel/hardware-resources">allocated configuration</a>.)
 
 </td>
 </tr>
@@ -258,7 +258,7 @@ BOOT_LOG_CONF
 
 </td>
 <td>
-Resource descriptors added to this configuration will describe a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">boot configuration</a>.
+Resource descriptors added to this configuration will describe a <a href="/windows-hardware/drivers/kernel/hardware-resources">boot configuration</a>.
 
 </td>
 </tr>
@@ -268,7 +268,7 @@ FORCED_LOG_CONF
 
 </td>
 <td>
-Resource descriptors added to this configuration will describe a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">forced configuration</a>.
+Resource descriptors added to this configuration will describe a <a href="/windows-hardware/drivers/kernel/hardware-resources">forced configuration</a>.
 
 </td>
 </tr>
@@ -278,7 +278,7 @@ OVERRIDE_LOG_CONF
 
 </td>
 <td>
-Resource descriptors added to this configuration will describe an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">override configuration</a>.
+Resource descriptors added to this configuration will describe an <a href="/windows-hardware/drivers/kernel/hardware-resources">override configuration</a>.
 
 </td>
 </tr>
@@ -323,37 +323,36 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 ## -remarks
 
-Calling <b>CM_Add_Empty_Log_Conf</b> can cause the handles returned by <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf">CM_Get_First_Log_Conf</a> and <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf">CM_Get_Next_Log_Conf</a> to become invalid. Thus if you want to obtain logical configurations after calling <b>CM_Add_Empty_Log_Conf</b>, your code must call <b>CM_Get_First_Log_Conf</b> again and start at the first configuration.
+Calling <b>CM_Add_Empty_Log_Conf</b> can cause the handles returned by <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf">CM_Get_First_Log_Conf</a> and <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf">CM_Get_Next_Log_Conf</a> to become invalid. Thus if you want to obtain logical configurations after calling <b>CM_Add_Empty_Log_Conf</b>, your code must call <b>CM_Get_First_Log_Conf</b> again and start at the first configuration.
 
-To remove a logical configuration created by <b>CM_Add_Empty_Log_Conf</b>, call <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf">CM_Free_Log_Conf</a>.
+To remove a logical configuration created by <b>CM_Add_Empty_Log_Conf</b>, call <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf">CM_Free_Log_Conf</a>.
 
-The handle received in <i>plcLogConf</i> must be explicitly freed by calling <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf_handle">CM_Free_Log_Conf_Handle</a>.
+The handle received in <i>plcLogConf</i> must be explicitly freed by calling <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf_handle">CM_Free_Log_Conf_Handle</a>.
 
 Callers of this function must have <b>SeLoadDriverPrivilege</b>. (Privileges are described in the Microsoft Windows SDK documentation.)
 
-For information about using device instance handles that are bound to the local machine, see <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>.
+For information about using device instance handles that are bound to the local machine, see <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf_ex">CM_Add_Empty_Log_Conf_Ex</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf_ex">CM_Add_Empty_Log_Conf_Ex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf">CM_Free_Log_Conf</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf">CM_Free_Log_Conf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf_handle">CM_Free_Log_Conf_Handle</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_free_log_conf_handle">CM_Free_Log_Conf_Handle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf">CM_Get_First_Log_Conf</a>
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf">CM_Get_First_Log_Conf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf">CM_Get_Next_Log_Conf</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf">CM_Get_Next_Log_Conf</a>

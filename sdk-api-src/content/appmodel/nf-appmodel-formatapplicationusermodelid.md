@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Constructs an <a href="https://docs.microsoft.com/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> from the <i>package family name</i> and the <i>package relative application ID</i> (PRAID).
+Constructs an <a href="/windows/desktop/appxpkg/appx-packaging-glossary">application user model ID</a> from the <i>package family name</i> and the <i>package relative application ID</i> (PRAID).
 
 ## -parameters
 
@@ -119,4 +119,3 @@ The buffer specified by <i>applicationUserModelId</i> is not large enough to hol
 </td>
 </tr>
 </table>
-

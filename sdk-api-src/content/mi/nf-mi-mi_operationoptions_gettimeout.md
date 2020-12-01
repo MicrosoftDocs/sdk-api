@@ -56,7 +56,7 @@ Gets the operation timeout value.
 
 ### -param options [in]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
+<a href="/windows/desktop/api/mi/ns-mi-mi_operationoptions">MI_OperationOptions</a> structure.
 
 ### -param timeout [out]
 
@@ -64,9 +64,8 @@ The operation's timeout value.
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_settimeout">MI_OperationOptions_SetTimeout</a>
-
+<a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operationoptions_settimeout">MI_OperationOptions_SetTimeout</a>

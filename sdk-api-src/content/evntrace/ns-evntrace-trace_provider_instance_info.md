@@ -64,7 +64,7 @@ Offset, in bytes, from the beginning of this structure to the next <b>TRACE_PROV
 
 ### -field EnableCount
 
-Number of <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-enable-info">TRACE_ENABLE_INFO</a> structures in this block. Each structure represents a session that enabled the provider.
+Number of <a href="/windows/desktop/ETW/trace-enable-info">TRACE_ENABLE_INFO</a> structures in this block. Each structure represents a session that enabled the provider.
 
 ### -field Pid
 
@@ -85,7 +85,7 @@ Can be one of the following flags.
 </dl>
 </td>
 <td width="60%">
-The provider used <a href="https://docs.microsoft.com/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> instead of <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a> to register itself. 
+The provider used <a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a> instead of <a href="/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a> to register itself. 
 
 </td>
 </tr>
@@ -103,13 +103,12 @@ The provider is not registered; however, one or more sessions have enabled the p
 
 ## -remarks
 
- If more than one provider uses the same GUID, the <a href="https://docs.microsoft.com/windows/desktop/ETW/trace-guid-info">TRACE_GUID_INFO</a> block contains more than one <b>TRACE_PROVIDER_INSTANCE_INFO</b> structure.
+ If more than one provider uses the same GUID, the <a href="/windows/desktop/ETW/trace-guid-info">TRACE_GUID_INFO</a> block contains more than one <b>TRACE_PROVIDER_INSTANCE_INFO</b> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/trace-enable-info">TRACE_ENABLE_INFO</a>
+<a href="/windows/desktop/ETW/trace-enable-info">TRACE_ENABLE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ETW/trace-guid-info">TRACE_GUID_INFO</a>
-
+<a href="/windows/desktop/ETW/trace-guid-info">TRACE_GUID_INFO</a>

@@ -81,7 +81,7 @@ The following table lists the flags that can be associated with a target and the
 </dl>
 </td>
 <td width="60%">
-The target is added to the list of static targets. However, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportiscsitargetsa">ReportIscsiTargets</a> does not report the target, unless it was also discovered dynamically by the iSCSI initiator, the Internet Storage Name Service (iSNS), or a <b>SendTargets</b> request.
+The target is added to the list of static targets. However, <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportiscsitargetsa">ReportIscsiTargets</a> does not report the target, unless it was also discovered dynamically by the iSCSI initiator, the Internet Storage Name Service (iSNS), or a <b>SendTargets</b> request.
 
 </td>
 </tr>
@@ -105,16 +105,16 @@ If <b>true</b>, the target information persists across restarts of the iSCSI ini
 
 ### -param Mappings [in, optional]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a> that contains a set of mappings that the initiator uses when assigning values for the bus, target, and LUN numbers to the iSCSI LUNs associated with the target. 
+A pointer to a structure of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a> that contains a set of mappings that the initiator uses when assigning values for the bus, target, and LUN numbers to the iSCSI LUNs associated with the target. 
 If <i>Mappings</i> is <b>null</b>, the initiator will select the bus, target, and LUN numbers.
 
 ### -param LoginOptions [in, optional]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> that contains the options that specify the default login parameters that an initiator uses to login to a target.
+A pointer to a structure of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a> that contains the options that specify the default login parameters that an initiator uses to login to a target.
 
 ### -param PortalGroup [in, optional]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portal_groupa">ISCSI_TARGET_PORTAL_GROUP</a> that indicates the group of portals that an initiator can use login to the target.
+A pointer to a structure of type <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portal_groupa">ISCSI_TARGET_PORTAL_GROUP</a> that indicates the group of portals that an initiator can use login to the target.
 
 ## -returns
 
@@ -135,17 +135,16 @@ By setting the <b>ISCSI_TARGET_FLAG_HIDE_STATIC_TARGET</b> flag, callers can con
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portal_groupa">ISCSI_TARGET_PORTAL_GROUP</a>
+<a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portal_groupa">ISCSI_TARGET_PORTAL_GROUP</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-removeiscsistatictargeta">RemoveIscsiStaticTarget</a>
-
+<a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-removeiscsistatictargeta">RemoveIscsiStaticTarget</a>

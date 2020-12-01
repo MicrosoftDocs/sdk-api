@@ -111,13 +111,12 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9 Interface</a>
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrmonitorconfig9">IVMRMonitorConfig9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-setdefaultmonitor">IVMRMonitorConfig9::SetDefaultMonitor</a>
+<a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmonitorconfig9-setdefaultmonitor">IVMRMonitorConfig9::SetDefaultMonitor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

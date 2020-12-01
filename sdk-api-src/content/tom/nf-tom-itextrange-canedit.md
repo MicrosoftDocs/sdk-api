@@ -58,13 +58,13 @@ Determines whether the specified range can be edited.
 
 Type: <b>long*</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/Controls/about-text-object-model">tomBool</a> value indicating whether the range can be edited. It is <b>tomTrue</b> only if the specified range can be edited. The pointer can be null.
+A <a href="/windows/desktop/Controls/about-text-object-model">tomBool</a> value indicating whether the range can be edited. It is <b>tomTrue</b> only if the specified range can be edited. The pointer can be null.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If the range can be edited, the method succeeds and returns <b>S_OK</b>. If the range cannot be edited, the method fails and returns <b>S_FALSE</b>. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the range can be edited, the method succeeds and returns <b>S_OK</b>. If the range cannot be edited, the method fails and returns <b>S_FALSE</b>. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 ## -remarks
 
@@ -76,7 +76,7 @@ The range cannot be edited if any part of it is protected or if the document is 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -84,5 +84,4 @@ The range cannot be edited if any part of it is protected or if the document is 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

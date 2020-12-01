@@ -6,7 +6,7 @@ helpviewer_keywords: ["*PRPC_BINDING_HANDLE_TEMPLATE_V1_W","RPC_BHT_OBJECT_UUID_
 old-location: rpc\rpc_binding_handle_template_v1.htm
 tech.root: Rpc
 ms.assetid: b5712e0b-1751-4e5f-8000-da2a330da202
-ms.date: 12/05/2018
+ms.date: 11/19/2020
 ms.keywords: '*PRPC_BINDING_HANDLE_TEMPLATE_V1_W, RPC_BHT_OBJECT_UUID_VALID, RPC_BINDING_HANDLE_TEMPLATE, RPC_BINDING_HANDLE_TEMPLATE structure [RPC], RPC_BINDING_HANDLE_TEMPLATE_V1, RPC_BINDING_HANDLE_TEMPLATE_V1 structure [RPC], RPC_BINDING_HANDLE_TEMPLATE_V1_A, RPC_BINDING_HANDLE_TEMPLATE_V1_W, _RPC_BINDING_HANDLE_TEMPLATE_V1_A, _RPC_BINDING_HANDLE_TEMPLATE_V1_W, ncacn_http, ncacn_ip_tcp, ncacn_np, ncalrpc, rpc.rpc_binding_handle_template_v1, rpcdce/RPC_BINDING_HANDLE_TEMPLATE, rpcdce/RPC_BINDING_HANDLE_TEMPLATE_V1'
 req.header: rpcdce.h
 req.include-header: Rpc.h
@@ -87,23 +87,12 @@ The <b>ObjectUuid</b> member contains a valid value. If this flag is not set, th
 
 ### -field ProtocolSequence
 
-A <a href="https://docs.microsoft.com/windows/desktop/Rpc/protocol-sequence-constants">protocol sequence string literal</a> associated with this binding handle.  It can be one of the following values.
+A <a href="/windows/desktop/Rpc/protocol-sequence-constants">protocol sequence string literal</a> associated with this binding handle.  It can be one of the following values.
 
-
-
-##### )
-
-
-
-##### )
-
-
-
-##### )
-
-
-
-##### )
+**ncalrpc** - Specifies local RPC.
+**ncacn_ip_tcp** - Specifies RPC over TCP/IP.
+**ncacn_np** - Specifies RPC over named pipes.
+**ncacn_http** - Specifies RPC over HTTP.
 
 ### -field NetworkAddress
 
@@ -111,7 +100,7 @@ Pointer to a string representation of the network address to bind to.
 
 ### -field StringEndpoint
 
-Pointer to a string representation of the endpoint to bind to. If a dynamic endpoint is used, set this member to <b>NULL</b>. After the endpoint is resolved, use <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingtostringbinding">RpcBindingToStringBinding</a> to obtain it.
+Pointer to a string representation of the endpoint to bind to. If a dynamic endpoint is used, set this member to <b>NULL</b>. After the endpoint is resolved, use <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingtostringbinding">RpcBindingToStringBinding</a> to obtain it.
 
 ### -field u1
 
@@ -121,7 +110,7 @@ Reserved. This member must be set to <b>NULL</b>.
 
 ### -field ObjectUuid
 
-The UUID of the remote object. The semantics for this UUID are the same as those for a string binding. After the binding handle is created, call <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetobject">RpcBindingSetObject</a> to change the UUID as needed.
+The UUID of the remote object. The semantics for this UUID are the same as those for a string binding. After the binding handle is created, call <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetobject">RpcBindingSetObject</a> to change the UUID as needed.
 
 
 ###### - ProtocolSequence.ncacn_http (Specifies RPC over HTTP.)
@@ -137,9 +126,9 @@ The UUID of the remote object. The semantics for this UUID are the same as those
 
 ## -remarks
 
-Fast binding handles are slightly different from "classic" binding handles in the way they are handled during calls to <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingreset">RpcBindingReset</a>. <b>RpcBindingReset</b> is a no-op call for static fast binding handles. For classic binding handles, however, <b>RpcBindingReset</b> converts a static binding handle into a dynamic one to preserve backwards compatibility.
+Fast binding handles are slightly different from "classic" binding handles in the way they are handled during calls to <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingreset">RpcBindingReset</a>. <b>RpcBindingReset</b> is a no-op call for static fast binding handles. For classic binding handles, however, <b>RpcBindingReset</b> converts a static binding handle into a dynamic one to preserve backwards compatibility.
 
-The following table demonstrates the behavior of static and dynamic binding handles with regards to <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingreset">RpcBindingReset</a> and <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepresolvebinding">RpcEpResolveBinding</a>.
+The following table demonstrates the behavior of static and dynamic binding handles with regards to <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingreset">RpcBindingReset</a> and <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcepresolvebinding">RpcEpResolveBinding</a>.
   <table>
 <tr>
 <th>Endpoint Type</th>
@@ -155,7 +144,7 @@ The following table demonstrates the behavior of static and dynamic binding hand
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingreset">RpcBindingReset</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingreset">RpcBindingReset</a>
 </td>
 <td>No-op</td>
 <td>Converts to dynamic</td>
@@ -164,7 +153,7 @@ The following table demonstrates the behavior of static and dynamic binding hand
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcepresolvebinding">RpcEpResolveBinding</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcepresolvebinding">RpcEpResolveBinding</a>
 </td>
 <td>No-op</td>
 <td>No-op</td>
@@ -175,13 +164,12 @@ The following table demonstrates the behavior of static and dynamic binding hand
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-binding-handle">RPC_BINDING_HANDLE</a>
+<a href="/windows/desktop/Rpc/rpc-binding-handle">RPC_BINDING_HANDLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcasync/nf-rpcasync-rpcbindingbind">RpcBindingBind</a>
+<a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcbindingbind">RpcBindingBind</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>
-
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingcreatea">RpcBindingCreate</a>

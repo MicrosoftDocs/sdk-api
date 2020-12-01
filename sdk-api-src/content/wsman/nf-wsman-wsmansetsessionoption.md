@@ -56,15 +56,15 @@ Sets an extended set of options for the session.
 
 ### -param session [in]
 
-Specifies the session handle returned by a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nf-wsman-wsmancreatesession">WSManCreateSession</a> call.  This parameter cannot be <b>NULL</b>.
+Specifies the session handle returned by a <a href="/windows/desktop/api/wsman/nf-wsman-wsmancreatesession">WSManCreateSession</a> call.  This parameter cannot be <b>NULL</b>.
 
 ### -param option
 
-Specifies the option to be set. This parameter must be set to one of the values in the <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ne-wsman-wsmansessionoption">WSManSessionOption</a> enumeration.
+Specifies the option to be set. This parameter must be set to one of the values in the <a href="/windows/desktop/api/wsman/ne-wsman-wsmansessionoption">WSManSessionOption</a> enumeration.
 
 ### -param data [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that defines the option value.
+A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_data">WSMAN_DATA</a> structure that defines the option value.
 
 ## -returns
 
@@ -81,4 +81,3 @@ For example, the second method call will fail if the methods are called in the f
 <li><code>WSManSetSessionOption(WSMAN_OPTION_ALLOW_NEGOTIATE_IMPLICIT_CREDENTIALS)</code></li>
 </ul>
 The first method call sets the transport to HTTP because the <i>option</i> parameter is set to <b>WSMAN_OPTION_UNENCRYPTED_MESSAGES</b>.  The second call fails because the option that was passed is applicable for HTTPS and the transport was set to HTTP by the first message.
-

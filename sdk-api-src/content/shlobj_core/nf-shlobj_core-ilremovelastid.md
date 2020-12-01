@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Removes the last <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure from an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
+Removes the last <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a> structure from an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure.
 
 ## -parameters
 
@@ -62,11 +62,10 @@ Removes the last <a href="https://docs.microsoft.com/windows/desktop/api/shtypes
 
 Type: <b>PUIDLIST_RELATIVE</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to be shortened. When the function returns, this variable points to the shortened structure.
+A pointer to the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure to be shortened. When the function returns, this variable points to the shortened structure.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
 Returns <b>TRUE</b> if successful, <b>FALSE</b> otherwise.
-

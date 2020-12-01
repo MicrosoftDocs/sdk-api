@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 This identifies a type of extension within the extensions field of the 
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.
+                <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.
 
 ## -enum-fields
 
@@ -60,5 +60,4 @@ This identifies a type of extension within the extensions field of the
 The address that metadata can be downloaded from the endpoint.
                 
 
-The type of the extension value is <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.
-
+The type of the extension value is <a href="/windows/desktop/api/webservices/ns-webservices-ws_endpoint_address">WS_ENDPOINT_ADDRESS</a>.

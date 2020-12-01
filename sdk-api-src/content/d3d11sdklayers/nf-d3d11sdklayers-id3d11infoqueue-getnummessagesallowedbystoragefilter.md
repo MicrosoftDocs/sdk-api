@@ -57,11 +57,10 @@ Get the number of messages that were allowed to pass through a storage filter.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT64</a></b>
 
 Number of messages allowed by a storage filter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11infoqueue">ID3D11InfoQueue Interface</a>
-
+<a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11infoqueue">ID3D11InfoQueue Interface</a>

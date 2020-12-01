@@ -64,7 +64,7 @@ The ordinal position of the Type parameter in the parent constructor or method.
 
 ### -param pdwParamFlags [out]
 
- A value of the <a href="https://docs.microsoft.com/dotnet/framework/unmanaged-api/metadata/corgenericparamattr-enumeration">CorGenericParamAttr</a> enumeration that describes the Type for the generic parameter.
+ A value of the <a href="/dotnet/framework/unmanaged-api/metadata/corgenericparamattr-enumeration">CorGenericParamAttr</a> enumeration that describes the Type for the generic parameter.
 
 ### -param ptOwner [out]
 
@@ -92,5 +92,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport2">IMetaDataImport2</a>
-
+<a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport2">IMetaDataImport2</a>

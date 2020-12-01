@@ -77,15 +77,15 @@ The number of scan lines found in the array containing device-independent color 
 
 ### -param lpBits [in]
 
-A pointer to the DIB color data, stored as an array of bytes. The format of the bitmap values depends on the <b>biBitCount</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure pointed to by the <i>lpbmi</i> parameter.
+A pointer to the DIB color data, stored as an array of bytes. The format of the bitmap values depends on the <b>biBitCount</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure pointed to by the <i>lpbmi</i> parameter.
 
 ### -param lpbmi [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure that contains information about the DIB.
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure that contains information about the DIB.
 
 ### -param ColorUse [in]
 
-Indicates whether the <b>bmiColors</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure was provided and, if so, whether <b>bmiColors</b> contains explicit red, green, blue (RGB) values or palette indexes. The <i>fuColorUse</i> parameter must be one of the following values.
+Indicates whether the <b>bmiColors</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a> structure was provided and, if so, whether <b>bmiColors</b> contains explicit red, green, blue (RGB) values or palette indexes. The <i>fuColorUse</i> parameter must be one of the following values.
 
 <table>
 <tr>
@@ -144,7 +144,7 @@ One or more of the input parameters is invalid.
 
 Optimal bitmap drawing speed is obtained when the bitmap bits are indexes into the system palette.
 
-Applications can retrieve the system palette colors and indexes by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getsystempaletteentries">GetSystemPaletteEntries</a> function. After the colors and indexes are retrieved, the application can create the DIB. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/system-palette">System Palette</a>.
+Applications can retrieve the system palette colors and indexes by calling the <a href="/windows/desktop/api/wingdi/nf-wingdi-getsystempaletteentries">GetSystemPaletteEntries</a> function. After the colors and indexes are retrieved, the application can create the DIB. For more information, see <a href="/windows/desktop/gdi/system-palette">System Palette</a>.
 
 The device context identified by the <i>hdc</i> parameter is used only if the DIB_PAL_COLORS constant is set for the <i>fuColorUse</i> parameter; otherwise it is ignored.
 
@@ -154,25 +154,24 @@ The scan lines must be aligned on a <b>DWORD</b> except for RLE-compressed bitma
 
 The origin for bottom-up DIBs is the lower-left corner of the bitmap; the origin for top-down DIBs is the upper-left corner of the bitmap.
 
-<b>ICM:</b> Color management is performed if color management has been enabled with a call to <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-seticmmode">SetICMMode</a> with the <i>iEnableICM</i> parameter set to ICM_ON. If the bitmap specified by <i>lpbmi</i> has a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapv4header">BITMAPV4HEADER</a> that specifies the gamma and endpoints members, or a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header">BITMAPV5HEADER</a> that specifies either the gamma and endpoints members or the profileData and profileSize members, then the call treats the bitmap's pixels as being expressed in the color space described by those members, rather than in the device context's source color space.
+<b>ICM:</b> Color management is performed if color management has been enabled with a call to <a href="/windows/desktop/api/wingdi/nf-wingdi-seticmmode">SetICMMode</a> with the <i>iEnableICM</i> parameter set to ICM_ON. If the bitmap specified by <i>lpbmi</i> has a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapv4header">BITMAPV4HEADER</a> that specifies the gamma and endpoints members, or a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header">BITMAPV5HEADER</a> that specifies either the gamma and endpoints members or the profileData and profileSize members, then the call treats the bitmap's pixels as being expressed in the color space described by those members, rather than in the device context's source color space.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfo">BITMAPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getsystempaletteentries">GetSystemPaletteEntries</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getsystempaletteentries">GetSystemPaletteEntries</a>

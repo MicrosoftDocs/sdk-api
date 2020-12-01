@@ -57,14 +57,14 @@ api_name:
 The 
 <b>RAS_CONNECTION_EX</b> structure contains specific information for the connection that includes: the user name, domain, and  Globally Unique Identifier (GUID) associated with the connection, its Network Access Protection (NAP) quarantine state, its packet statistics, as well as its Point-to-Point(PPP) and Internet Key Exchange version 2 (IKEv2) related information.
 
-The <b>RAS_CONNECTION_EX</b> structure contains most of the same information as the <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_0">RAS_CONNECTION_0</a>,
-			 <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_1">RAS_CONNECTION_1</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_2">RAS_CONNECTION_2</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_3">RAS_CONNECTION_3</a> combined structures.
+The <b>RAS_CONNECTION_EX</b> structure contains most of the same information as the <a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_0">RAS_CONNECTION_0</a>,
+			 <a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_1">RAS_CONNECTION_1</a>, <a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_2">RAS_CONNECTION_2</a>, and <a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_3">RAS_CONNECTION_3</a> combined structures.
 
 ## -struct-fields
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure that specifies the version of the <b>RAS_CONNECTION_EX</b> structure. 
+A <a href="/windows/desktop/api/mprapi/ns-mprapi-mprapi_object_header">MPRAPI_OBJECT_HEADER</a> structure that specifies the version of the <b>RAS_CONNECTION_EX</b> structure. 
 
 <div class="alert"><b>Note</b>  The <b>revision</b> member  of  <b>Header</b> must be <b>MPRAPI_RAS_CONNECTION_OBJECT_REVISION_1</b> and <b>type</b> must be <b>MPRAPI_OBJECT_TYPE_RAS_CONNECTION_OBJECT</b>.</div>
 <div> </div>
@@ -75,7 +75,7 @@ A value that represent the duration of the connection, in seconds.
 
 ### -field dwInterfaceType
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">ROUTER_INTERFACE_TYPE</a> enumeration that identifies the type of connection interface.
+A <a href="/windows/desktop/api/mprapi/ne-mprapi-router_interface_type">ROUTER_INTERFACE_TYPE</a> enumeration that identifies the type of connection interface.
 
 ### -field dwConnectionFlags
 
@@ -104,7 +104,7 @@ The connection is using Point-to-Point Protocol (PPP).
 </dl>
 </td>
 <td width="60%">
-The messenger service is active on the client and messages can be sent to the client using <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminsendusermessage">MprAdminSendUserMessage</a>.
+The messenger service is active on the client and messages can be sent to the client using <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminsendusermessage">MprAdminSendUserMessage</a>.
 
 
 
@@ -117,7 +117,7 @@ The messenger service is active on the client and messages can be sent to the cl
 </dl>
 </td>
 <td width="60%">
-The connection is currently in quarantine. For information on how to remove the connection from quarantine, please see <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionremovequarantine">MprAdminConnectionRemoveQuarantine</a>.
+The connection is currently in quarantine. For information on how to remove the connection from quarantine, please see <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionremovequarantine">MprAdminConnectionRemoveQuarantine</a>.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ A GUID  that identifies the connection. For incoming connections, this GUID is v
 
 ### -field rasQuarState
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ne-mprapi-ras_quarantine_state">RAS_QUARANTINE_STATE</a> structure that specifies the NAP quarantine state of the connection.
+A <a href="/windows/desktop/api/mprapi/ne-mprapi-ras_quarantine_state">RAS_QUARANTINE_STATE</a> structure that specifies the NAP quarantine state of the connection.
 
 ### -field probationTime
 
@@ -246,7 +246,7 @@ A null-terminated Unicode string that contains the IP address of the local compu
 
 ### -field ProjectionInfo
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-projection_info">PROJECTION_INFO</a> structure that contains either a <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info">PPP_PROJECTION_INFO</a>  or <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info">IKEV2_PROJECTION_INFO</a> structure.
+A <a href="/windows/desktop/api/mprapi/ns-mprapi-projection_info">PROJECTION_INFO</a> structure that contains either a <a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_projection_info">PPP_PROJECTION_INFO</a>  or <a href="/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info">IKEV2_PROJECTION_INFO</a> structure.
 
 ### -field hConnection
 
@@ -258,29 +258,28 @@ A handle to the RAS connection interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionenum">MprAdminConnectionEnum</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradminconnectionenum">MprAdminConnectionEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-structures">RAS Administration Structures</a>
+<a href="/windows/desktop/RRAS/ras-administration-structures">RAS Administration Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_0">RAS_CONNECTION_0</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_0">RAS_CONNECTION_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_1">RAS_CONNECTION_1</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_1">RAS_CONNECTION_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_2">RAS_CONNECTION_2</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_2">RAS_CONNECTION_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-ras_connection_3">RAS_CONNECTION_3</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-ras_connection_3">RAS_CONNECTION_3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

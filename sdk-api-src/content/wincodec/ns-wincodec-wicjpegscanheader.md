@@ -68,7 +68,7 @@ The component identifiers.
 
 ### -field HuffmanTableIndices
 
-The format of the quantization table indices. Use one of the following constants, described in <a href="https://docs.microsoft.com/windows/desktop/wic/iwicjpegframedecode-constants">IWICJpegFrameDecode Constants</a>.
+The format of the quantization table indices. Use one of the following constants, described in <a href="/windows/desktop/wic/iwicjpegframedecode-constants">IWICJpegFrameDecode Constants</a>.
 
 <ul>
 <li>WIC_JPEG_HUFFMAN_BASELINE_ONE</li>
@@ -93,5 +93,4 @@ The successive approximation low.
 
 ## -remarks
 
-Get the scan header for an image by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getscanheader">IWICJpegFrameDecode::GetScanHeader</a>.
-
+Get the scan header for an image by calling <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-getscanheader">IWICJpegFrameDecode::GetScanHeader</a>.

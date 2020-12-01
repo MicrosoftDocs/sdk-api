@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 The <b>LSA_ENUMERATION_INFORMATION</b> structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountswithuserright">LsaEnumerateAccountsWithUserRight</a> function to return a pointer to a SID.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountswithuserright">LsaEnumerateAccountsWithUserRight</a> function to return a pointer to a SID.
 
 ## -struct-fields
 
@@ -65,5 +65,4 @@ Pointer to a SID.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountswithuserright">LsaEnumerateAccountsWithUserRight</a>
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaenumerateaccountswithuserright">LsaEnumerateAccountsWithUserRight</a>

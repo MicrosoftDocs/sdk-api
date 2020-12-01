@@ -57,20 +57,20 @@ The <b>HttpWaitForDemandStart</b> function waits for the arrival of a new reques
 ### -param RequestQueueHandle [in]
 
 A handle to the request queue on which demand start is registered. A request queue is created and its handle returned by a call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
+<a href="/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a> function.
 
 ### -param Overlapped [in, optional]
 
 For asynchronous calls, set <i>pOverlapped</i> to point to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>. 
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure; for synchronous calls, set it to <b>NULL</b>. 
 
 
 
 
 A synchronous call blocks until a request has arrived in the specified queue, whereas an asynchronous call immediately returns <b>ERROR_IO_PENDING</b> and the calling application then uses 
-<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structures for synchronization, see  
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
+<a href="/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult">GetOverlappedResult</a> or I/O completion ports to determine when the operation is completed. For more information about using 
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structures for synchronization, see  
+<a href="/windows/desktop/Sync/synchronization-and-overlapped-input-and-output">Synchronization and Overlapped Input and Output</a>.
 
 ## -returns
 
@@ -137,29 +137,28 @@ Only the controller process can call <b>HttpWaitForDemandStart</b> to register a
 
 The HTTP Server API allows only one outstanding notification registered on a request queue at any time. The HTTP Server API does not enforce limitations on the number of times that <b>HttpWaitForDemandStart</b> can be called on the same request queue consecutively. There is no limit on the number of outstanding processes that are working on the same request queue.
 
-The HTTP Server API supports canceling asynchronous <b>HttpWaitForDemandStart</b> calls. Applications can use <a href="https://docs.microsoft.com/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a> with the overlapped structure supplied in the <i>pOverlapped</i> parameter, to cancel an outstanding <b>HttpWaitForDemandStart</b> call.
+The HTTP Server API supports canceling asynchronous <b>HttpWaitForDemandStart</b> calls. Applications can use <a href="/windows/desktop/FileIO/cancelioex-func">CancelIoEx</a> with the overlapped structure supplied in the <i>pOverlapped</i> parameter, to cancel an outstanding <b>HttpWaitForDemandStart</b> call.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
+<a href="/windows/desktop/Http/http-server-api-version-2-0-functions">HTTP Server API Version 2.0 Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcloserequestqueue">HttpCloseRequestQueue</a>
+<a href="/windows/desktop/api/http/nf-http-httpcloserequestqueue">HttpCloseRequestQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>
+<a href="/windows/desktop/api/http/nf-http-httpcreaterequestqueue">HttpCreateRequestQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpqueryrequestqueueproperty">HttpQueryRequestQueueProperty</a>
+<a href="/windows/desktop/api/http/nf-http-httpqueryrequestqueueproperty">HttpQueryRequestQueueProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>
+<a href="/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpshutdownrequestqueue">HttpShutdownRequestQueue</a>
-
+<a href="/windows/desktop/api/http/nf-http-httpshutdownrequestqueue">HttpShutdownRequestQueue</a>

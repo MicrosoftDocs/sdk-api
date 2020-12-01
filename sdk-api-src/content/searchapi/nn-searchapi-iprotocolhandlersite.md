@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Provides methods for a protocol handler's <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object to query the Filter Daemon for the appropriate filter for the URL item.
+Provides methods for a protocol handler's <a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a> object to query the Filter Daemon for the appropriate filter for the URL item.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProtocolHandlerSite</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProtocolHandlerSite</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProtocolHandlerSite</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IProtocolHandlerSite</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IProtocolHandlerSite</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iprotocolhandlersite-getfilter">GetFilter</a>
+<a href="/windows/desktop/api/searchapi/nf-searchapi-iprotocolhandlersite-getfilter">GetFilter</a>
 </td>
 <td align="left" width="63%">
-Retrieves the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>according to the supplied parameters.     
+Retrieves the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>according to the supplied parameters.     
         
 
 </td>
@@ -81,9 +81,8 @@ Retrieves the appropriate <a href="https://docs.microsoft.com/windows/desktop/ap
 
 ## -remarks
 
-When a protocol handler encounters items with embedded documents, the protocol handler requests additional filters from the Filter Daemon by calling the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-iprotocolhandlersite-getfilter">IProtocolHandlerSite::GetFilter</a> method.
+When a protocol handler encounters items with embedded documents, the protocol handler requests additional filters from the Filter Daemon by calling the <a href="/windows/desktop/api/searchapi/nf-searchapi-iprotocolhandlersite-getfilter">IProtocolHandlerSite::GetFilter</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>
-
+<a href="/windows/desktop/search/-search-indexing-process-overview">The Indexing Process</a>

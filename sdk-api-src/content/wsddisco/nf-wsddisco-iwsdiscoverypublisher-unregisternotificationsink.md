@@ -56,7 +56,7 @@ Detaches a callback notification sink from the discovery publisher.
 
 ### -param pSink [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublishernotify">IWSDiscoveryPublisherNotify</a> interface that will stop receiving callback notifications.
+Pointer to the <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublishernotify">IWSDiscoveryPublisherNotify</a> interface that will stop receiving callback notifications.
 
 ## -returns
 
@@ -109,5 +109,4 @@ The method failed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>

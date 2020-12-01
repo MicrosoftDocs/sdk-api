@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Gets or sets the starting point of the text that is selected in the <a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control">InkEdit</a> control (run time only).
+Gets or sets the starting point of the text that is selected in the <a href="/windows/desktop/tablet/inkedit-control">InkEdit</a> control (run time only).
 
 This property is read/write.
 
@@ -63,7 +63,7 @@ This property is read/write.
 
 ## -remarks
 
-Setting <b>SelStart</b> greater than the text length sets the property to the existing text length; changing <b>SelStart</b> changes the selection to an insertion point and sets <a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_sellength">SelLength</a> to 0.
+Setting <b>SelStart</b> greater than the text length sets the property to the existing text length; changing <b>SelStart</b> changes the selection to an insertion point and sets <a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_sellength">SelLength</a> to 0.
 
 ## -see-also
 
@@ -71,5 +71,4 @@ Setting <b>SelStart</b> greater than the text length sets the property to the ex
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>

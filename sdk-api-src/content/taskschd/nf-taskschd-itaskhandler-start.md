@@ -60,7 +60,7 @@ An <b>IUnkown</b> interface that is used to communicate back with the Task Sched
 
 ### -param data [in]
 
-The arguments that are required by the handler.  These arguments are defined in the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_data">Data</a> property of the COM handler action.
+The arguments that are required by the handler.  These arguments are defined in the <a href="/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_data">Data</a> property of the COM handler action.
 
 ## -returns
 
@@ -70,29 +70,28 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 When implementing this method, the handler should return control immediately to the Task Scheduler (starting its own thread if inproc).
 
-After  the handler starts its processing, it can call the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-updatestatus">UpdateStatus</a> method to indicate  its percentage of completion or call the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-taskcompleted">TaskCompleted</a> method to indicate when the handler has completed its processing. These methods are provided by the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskhandlerstatus">ITaskHandlerStatus</a> interface.
+After  the handler starts its processing, it can call the <a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-updatestatus">UpdateStatus</a> method to indicate  its percentage of completion or call the <a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-taskcompleted">TaskCompleted</a> method to indicate when the handler has completed its processing. These methods are provided by the <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskhandlerstatus">ITaskHandlerStatus</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_data">Data</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-icomhandleraction-get_data">Data</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskhandler">ITaskHandler</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itaskhandler">ITaskHandler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itaskhandlerstatus">ITaskHandlerStatus</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itaskhandlerstatus">ITaskHandlerStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-taskcompleted">TaskCompleted</a>
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-taskcompleted">TaskCompleted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-updatestatus">UpdateStatus</a>
-
+<a href="/windows/desktop/api/taskschd/nf-taskschd-itaskhandlerstatus-updatestatus">UpdateStatus</a>

@@ -64,17 +64,16 @@ A call to this method must be made at the beginning of the code that updates the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential2">ICredentialProviderCredential2</a>
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredential2">ICredentialProviderCredential2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents2-endfieldupdates">ICredentialProviderCredential2::EndFieldUpdates</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents2-endfieldupdates">ICredentialProviderCredential2::EndFieldUpdates</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents2-setfieldoptions">ICredentialProviderCredential2::SetFieldOptions</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovidercredentialevents2-setfieldoptions">ICredentialProviderCredential2::SetFieldOptions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents2">ICredentialProviderCredentialEvents2</a>
-
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents2">ICredentialProviderCredentialEvents2</a>

@@ -66,5 +66,4 @@ Number of bytes transferred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplyprogress">IBackgroundCopyJob2::GetReplyProgress</a>
-
+<a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplyprogress">IBackgroundCopyJob2::GetReplyProgress</a>

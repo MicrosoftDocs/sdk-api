@@ -111,5 +111,4 @@ The function supports the following mnemonic formats.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a>

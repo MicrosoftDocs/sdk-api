@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/dtm-setmccolor">DTM_SETMCCOLOR</a> message explicitly.
+Sets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the <a href="/windows/desktop/Controls/dtm-setmccolor">DTM_SETMCCOLOR</a> message explicitly.
 
 ## -parameters
 
 ### -param hdp
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to a DTP control.
 
@@ -135,11 +135,10 @@ Set the color used to display header day and trailing day text. Header and trail
 
 ### -param clr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/gdi/colorref">COLORREF</a> value that represents the color that will be set for the specified area of the month calendar.
+A <a href="/windows/desktop/gdi/colorref">COLORREF</a> value that represents the color that will be set for the specified area of the month calendar.
 
 ## -remarks
 
 When visual styles are enabled, this macro has no effect except when <i>iColor</i> is MCSC_BACKGROUND.
-

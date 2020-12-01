@@ -57,7 +57,7 @@ The <code>Clone</code> method makes a copy of the enumerator with the same enume
 
 ### -param ppEnum [out]
 
-Receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins</a> interface of the new enumerator. The caller must release the interface.
+Receives a pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins</a> interface of the new enumerator. The caller must release the interface.
 
 ## -returns
 
@@ -116,13 +116,12 @@ The filter's state has changed and is now inconsistent with the enumerator.
 
 ## -remarks
 
-If the number of pins changes, the enumerator is no longer consistent with the filter, and the method returns VFW_E_ENUM_OUT_OF_SYNC. Discard any data obtained from previous calls to the enumerator, because it might be invalid. Update the enumerator by calling the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienumpins-reset">IEnumPins::Reset</a> method. You can then call the <code>Clone</code> method safely.
+If the number of pins changes, the enumerator is no longer consistent with the filter, and the method returns VFW_E_ENUM_OUT_OF_SYNC. Discard any data obtained from previous calls to the enumerator, because it might be invalid. Update the enumerator by calling the <a href="/windows/desktop/api/strmif/nf-strmif-ienumpins-reset">IEnumPins::Reset</a> method. You can then call the <code>Clone</code> method safely.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ienumpins">IEnumPins Interface</a>

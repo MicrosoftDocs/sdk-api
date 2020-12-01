@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Sets the end of line character used for the content of the edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/controls/em-setendofline">EM_SETENDOFLINE</a> message explicitly.
+Sets the end of line character used for the content of the edit control. You can use this macro or send the <a href="/windows/desktop/controls/em-setendofline">EM_SETENDOFLINE</a> message explicitly.
 
 ## -parameters
 
@@ -63,4 +63,3 @@ A handle to the edit control.
 ### -param eolType
 
 The end of line character to use.
-

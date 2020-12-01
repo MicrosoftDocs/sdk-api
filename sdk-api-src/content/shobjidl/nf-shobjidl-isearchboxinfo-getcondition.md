@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the contents of the search box as an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> object.
+Retrieves the contents of the search box as an <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> object.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>, typicall
 
 Type: <b>void**</b>
 
-When this method returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>.
+When this method returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>.
 
 ## -returns
 
@@ -74,11 +74,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-As opposed to the text string retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-isearchboxinfo-gettext">ISearchBoxInfo::GetText</a>, <b>GetCondition</b> retrieves the same information as a structured object, the methods of which can be used to parse and manipulate the search string.
+As opposed to the text string retrieved by <a href="/windows/desktop/api/shobjidl/nf-shobjidl-isearchboxinfo-gettext">ISearchBoxInfo::GetText</a>, <b>GetCondition</b> retrieves the same information as a structured object, the methods of which can be used to parse and manipulate the search string.
 
 We recommend that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error in <i>riid</i> that could lead to unexpected results.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nn-shobjidl-isearchboxinfo">ISearchBoxInfo</a>
-
+<a href="/windows/desktop/api/shobjidl/nn-shobjidl-isearchboxinfo">ISearchBoxInfo</a>

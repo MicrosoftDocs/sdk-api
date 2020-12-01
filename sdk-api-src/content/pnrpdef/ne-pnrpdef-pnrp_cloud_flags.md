@@ -74,9 +74,8 @@ This machine is a full participant in the cloud, and can publish and resolve nam
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/P2PSdk/pnrp-and-wsalookupservicenext">PNRP and WSALookupServiceNext</a>
+<a href="/windows/desktop/P2PSdk/pnrp-and-wsalookupservicenext">PNRP and WSALookupServiceNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pnrpns/ns-pnrpns-pnrpcloudinfo">PNRPCLOUDINFO</a>
-
+<a href="/windows/desktop/api/pnrpns/ns-pnrpns-pnrpcloudinfo">PNRPCLOUDINFO</a>

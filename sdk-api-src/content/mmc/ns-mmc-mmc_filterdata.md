@@ -57,8 +57,8 @@ MMC_FILTERDATA structure is introduced in MMC 1.2.
 
 The 
 MMC_FILTERDATA structure is used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-getcolumnfilter">IHeaderCtrl2::GetColumnFilter</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-setcolumnfilter">IHeaderCtrl2::SetColumnFilter</a> methods to retrieve and set the filter value of a column in a filtered list view.
+<a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-getcolumnfilter">IHeaderCtrl2::GetColumnFilter</a> and 
+<a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-setcolumnfilter">IHeaderCtrl2::SetColumnFilter</a> methods to retrieve and set the filter value of a column in a filtered list view.
 
 ## -struct-fields
 
@@ -82,4 +82,3 @@ When handling a text filter, lValue is ignored. Similarly, when handling a numer
 
 For both setting and reading filter values, the snap-in owns the 
 MMC_FILTERDATA structure and any text buffer.
-

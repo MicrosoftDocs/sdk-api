@@ -51,15 +51,15 @@ api_name:
 
 ## -description
 
-The <b>IEnumMediaTypes</b> interface enumerates a pin's preferred media types. To obtain this interface, call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ipin-enummediatypes">IPin::EnumMediaTypes</a> method on the pin. Filters use this interface when they connect to other filters. Applications can also use it to examine a pin's preferred media types. For more information, see <a href="https://docs.microsoft.com/windows/desktop/DirectShow/enumerating-objects-in-a-filter-graph">Enumerating Objects in a Filter Graph</a>.
+The <b>IEnumMediaTypes</b> interface enumerates a pin's preferred media types. To obtain this interface, call the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-enummediatypes">IPin::EnumMediaTypes</a> method on the pin. Filters use this interface when they connect to other filters. Applications can also use it to examine a pin's preferred media types. For more information, see <a href="/windows/desktop/DirectShow/enumerating-objects-in-a-filter-graph">Enumerating Objects in a Filter Graph</a>.
 
 This interface implements a standard Component Object Model (COM) collection object. 
 
-If a pin's set of preferred media types changes, some methods on this interface return <b>VFW_E_ENUM_OUT_OF_SYNC</b>. Call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienummediatypes-reset">IEnumMediaTypes::Reset</a> method to resynchronize the enumerator.
+If a pin's set of preferred media types changes, some methods on this interface return <b>VFW_E_ENUM_OUT_OF_SYNC</b>. Call the <a href="/windows/desktop/api/strmif/nf-strmif-ienummediatypes-reset">IEnumMediaTypes::Reset</a> method to resynchronize the enumerator.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumMediaTypes</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumMediaTypes</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumMediaTypes</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumMediaTypes</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IEnumMediaTypes</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienummediatypes-clone">Clone</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ienummediatypes-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Makes a copy of the enumerator.
@@ -83,7 +83,7 @@ Makes a copy of the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienummediatypes-next">Next</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ienummediatypes-next">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of media types.
@@ -92,7 +92,7 @@ Retrieves a specified number of media types.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienummediatypes-reset">Reset</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ienummediatypes-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the enumeration sequence to the beginning.
@@ -101,7 +101,7 @@ Resets the enumeration sequence to the beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ienummediatypes-skip">Skip</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ienummediatypes-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over a specified number of media types.
@@ -112,9 +112,8 @@ Skips over a specified number of media types.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/enumerating-media-types">Enumerating Media Types</a>
+<a href="/windows/desktop/DirectShow/enumerating-media-types">Enumerating Media Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/interfaces">Interfaces</a>

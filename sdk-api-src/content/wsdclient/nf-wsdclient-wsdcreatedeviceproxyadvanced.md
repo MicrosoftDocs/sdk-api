@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Creates a device proxy and returns a pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a> interface.
+Creates a device proxy and returns a pointer to the  <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a> interface.
 
 ## -parameters
 
@@ -64,23 +64,23 @@ The device address may be prefixed with the @ character. When <i>pszDeviceId</i>
 
 ### -param pDeviceAddress
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface that defines the device transport address. When <i>pDeviceAddress</i> is specified, a device proxy can be created without requiring the resolution of a logical address passed to <i>pszDeviceId</i>. This parameter may be <b>NULL</b>.
+An <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface that defines the device transport address. When <i>pDeviceAddress</i> is specified, a device proxy can be created without requiring the resolution of a logical address passed to <i>pszDeviceId</i>. This parameter may be <b>NULL</b>.
 
 ### -param pszLocalId [in]
 
 The logical or physical address of the client, which is used to identify the proxy and to act as an event sink endpoint. A logical address is of the form <code>urn:uuid:{guid}</code>. 
 
-If the client uses a secure channel to receive events, then the address is a URI prefixed by https. This URI should specify port 5358, as this port is reserved for secure connections with WSDAPI. The port must be configured with an SSL server certificate before calling <b>WSDCreateDeviceProxyAdvanced</b>. For more information about port configuration, see <a href="https://docs.microsoft.com/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>.
+If the client uses a secure channel to receive events, then the address is a URI prefixed by https. This URI should specify port 5358, as this port is reserved for secure connections with WSDAPI. The port must be configured with an SSL server certificate before calling <b>WSDCreateDeviceProxyAdvanced</b>. For more information about port configuration, see <a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>.
 
 ### -param pContext [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> interface that defines custom message types or namespaces. 
+An <a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a> interface that defines custom message types or namespaces. 
 
 If <b>NULL</b>, a default context representing the built-in message types and namespaces is used.
 
 ### -param ppDeviceProxy [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a> interface that you use to represent a remote WSD device for client applications and middleware.
+Pointer to the <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a> interface that you use to represent a remote WSD device for client applications and middleware.
 
 ## -returns
 
@@ -139,15 +139,14 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-The <b>WSDCreateDeviceProxyAdvanced</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-init">IWSDDeviceProxy::Init</a> method, which initializes an instance of an <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a> object.
+The <b>WSDCreateDeviceProxyAdvanced</b> function calls the <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-init">IWSDDeviceProxy::Init</a> method, which initializes an instance of an <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a> object.
 
 
 
-This function will also retrieve the device metadata, unless the <i>pszDeviceId</i> parameter begins with the @ character. To retrieve device metadata after the device proxy has been created, call <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-begingetmetadata">IWSDDeviceProxy::BeginGetMetadata</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-endgetmetadata">IWSDDeviceProxy::EndGetMetadata</a> on the returned <a href="https://docs.microsoft.com/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a> object.
+This function will also retrieve the device metadata, unless the <i>pszDeviceId</i> parameter begins with the @ character. To retrieve device metadata after the device proxy has been created, call <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-begingetmetadata">IWSDDeviceProxy::BeginGetMetadata</a> and <a href="/windows/desktop/api/wsdclient/nf-wsdclient-iwsddeviceproxy-endgetmetadata">IWSDDeviceProxy::EndGetMetadata</a> on the returned <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a> object.
 
-For information about troubleshooting <b>WSDCreateDeviceProxyAdvanced</b> function calls, see <a href="https://docs.microsoft.com/windows/desktop/WsdApi/troubleshooting-wsdapi-applications">Troubleshooting WSDAPI Applications</a>.
+For information about troubleshooting <b>WSDCreateDeviceProxyAdvanced</b> function calls, see <a href="/windows/desktop/WsdApi/troubleshooting-wsdapi-applications">Troubleshooting WSDAPI Applications</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WsdApi/troubleshooting-wsdapi-applications">Troubleshooting WSDAPI Applications</a>
-
+<a href="/windows/desktop/WsdApi/troubleshooting-wsdapi-applications">Troubleshooting WSDAPI Applications</a>

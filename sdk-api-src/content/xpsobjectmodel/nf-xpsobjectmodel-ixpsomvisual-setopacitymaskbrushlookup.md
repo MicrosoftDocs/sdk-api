@@ -60,7 +60,7 @@ The lookup key name of the opacity mask brush in the dictionary.  A <b>NULL</b> 
 
 ## -returns
 
-The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the table that follows. For information about  XPS document API return values that are not listed in this table, see <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>.
 
 <table>
 <tr>
@@ -85,7 +85,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-According to the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
+According to the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>, the value of <i>lookup</i> is not a valid lookup key string.
 
 </td>
 </tr>
@@ -115,32 +115,32 @@ No object could be found with a key name that matched the value passed in <i>key
 
 ## -remarks
 
-After you call <b>SetOpacityMaskBrushLookup</b>, the local opacity mask brush is released and <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-getopacitymaskbrushlocal">GetOpacityMaskBrushLocal</a> returns a <b>NULL</b> pointer in the <i>opacityMaskBrush</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
+After you call <b>SetOpacityMaskBrushLookup</b>, the local opacity mask brush is released and <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-getopacitymaskbrushlocal">GetOpacityMaskBrushLocal</a> returns a <b>NULL</b> pointer in the <i>opacityMaskBrush</i> parameter. The table that follows explains the relationship between the local and lookup values of this property.
 
 
 <table>
 <tr>
 <th>Most recent method called</th>
-<th>Object that is returned in <i>opacityMaskBrush</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-getopacitymaskbrush">GetOpacityMaskBrush</a>
+<th>Object that is returned in <i>opacityMaskBrush</i> by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-getopacitymaskbrush">GetOpacityMaskBrush</a>
 </th>
-<th>Object that is returned in <i>opacityMaskBrush</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-getopacitymaskbrushlocal">GetOpacityMaskBrushLocal</a>
+<th>Object that is returned in <i>opacityMaskBrush</i> by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-getopacitymaskbrushlocal">GetOpacityMaskBrushLocal</a>
 </th>
-<th>String that is  returned in <i>key</i> by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-getopacitymaskbrushlookup">GetOpacityMaskBrushLookup</a>
+<th>String that is  returned in <i>key</i> by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-getopacitymaskbrushlookup">GetOpacityMaskBrushLookup</a>
 </th>
 </tr>
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-setopacitymaskbrushlocal">SetOpacityMaskBrushLocal</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-setopacitymaskbrushlocal">SetOpacityMaskBrushLocal</a>
 
 
 </td>
 <td>
-The local opacity mask brush that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-setopacitymaskbrushlocal">SetOpacityMaskBrushLocal</a>.
+The local opacity mask brush that is set by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-setopacitymaskbrushlocal">SetOpacityMaskBrushLocal</a>.
 
 </td>
 <td>
-The local opacity mask brush that is set by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-setopacitymaskbrushlocal">SetOpacityMaskBrushLocal</a>.
+The local opacity mask brush that is set by <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-setopacitymaskbrushlocal">SetOpacityMaskBrushLocal</a>.
 
 </td>
 <td>
@@ -168,7 +168,7 @@ The lookup key that is set by <b>SetOpacityMaskBrushLookup</b>.
 </tr>
 <tr>
 <td>
-Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-setopacitymaskbrushlocal">SetOpacityMaskBrushLocal</a> nor <b>SetOpacityMaskBrushLookup</b> has been called yet.
+Neither <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisual-setopacitymaskbrushlocal">SetOpacityMaskBrushLocal</a> nor <b>SetOpacityMaskBrushLookup</b> has been called yet.
 
 </td>
 <td>
@@ -188,13 +188,12 @@ Neither <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/n
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
+<a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisual">IXpsOMVisual</a>
 
 
 
-<a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>
+<a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-
+<a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>

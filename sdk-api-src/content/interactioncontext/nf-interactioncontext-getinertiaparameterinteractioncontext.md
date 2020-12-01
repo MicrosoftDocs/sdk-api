@@ -62,7 +62,7 @@ The handle of the interaction context.
 
 ### -param inertiaParameter [in]
 
-One of the constants from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-inertia_parameter">INERTIA_PARAMETER</a>.
+One of the constants from <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-inertia_parameter">INERTIA_PARAMETER</a>.
 
 ### -param value [out]
 
@@ -83,13 +83,12 @@ Otherwise, it returns an HRESULT error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/hinteractioncontext">HINTERACTIONCONTEXT</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/functions">Interaction Context Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setinertiaparameterinteractioncontext">SetInertiaParameterInteractionContext</a>
-
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setinertiaparameterinteractioncontext">SetInertiaParameterInteractionContext</a>

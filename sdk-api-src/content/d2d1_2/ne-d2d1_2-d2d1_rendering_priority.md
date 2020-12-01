@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The rendering priority affects the extent to which <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> will throttle its rendering workload.
+The rendering priority affects the extent to which <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> will throttle its rendering workload.
 
 ## -enum-fields
 
@@ -63,4 +63,3 @@ No change in rendering workload priority.
 The device and its associated device contexts are given a lower priority than others.
 
 ### -field D2D1_RENDERING_PRIORITY_FORCE_DWORD
-

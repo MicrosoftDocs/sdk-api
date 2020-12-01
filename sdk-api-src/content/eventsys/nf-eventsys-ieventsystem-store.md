@@ -60,7 +60,7 @@ The ProgID of the event object to be added. This must be a valid event object cl
 
 ### -param pInterface [in]
 
-A pointer to the object to be added. Depending on the object specified by the <i>ProgID</i> parameter, this is a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a> or <a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventclass">IEventClass</a> interface.
+A pointer to the object to be added. Depending on the object specified by the <i>ProgID</i> parameter, this is a pointer to the <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a> or <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventclass">IEventClass</a> interface.
 
 ## -returns
 
@@ -97,5 +97,4 @@ The owner SID on a per-user subscription does not exist.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>

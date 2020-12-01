@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="/windows/desktop/VDS/virtual-disk-service-portal">Virtual Disk Service</a> COM interface is superseded by the <a href="/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal">Windows Storage Management API</a>.]
 
 Returns the free extents on the disk and aligns them to the specified alignment size.
 
@@ -67,17 +67,17 @@ If this registry key is not set, the default alignment is 1 MB if the disk is 4 
 ### -param ppFreeExtentArray [out]
 
 The address of a pointer variable that receives an  
-      array of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_free_extent">VDS_DISK_FREE_EXTENT</a> structures, one for each free extent. 
+      array of <a href="/windows/desktop/api/vds/ns-vds-vds_disk_free_extent">VDS_DISK_FREE_EXTENT</a> structures, one for each free extent. 
       Callers must free this array by using the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function. If there are no free extents, the pointer is set to <b>NULL</b> on output and does not need to be freed.
+      <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function. If there are no free extents, the pointer is set to <b>NULL</b> on output and does not need to be freed.
 
 ### -param plNumberOfFreeExtents [out]
 
-A pointer to a variable  that receives the total number of <a href="https://docs.microsoft.com/windows/desktop/api/vds/ns-vds-vds_disk_free_extent">VDS_DISK_FREE_EXTENT</a> structures. If there are no free extents, the pointer is set to <b>NULL</b> on output and does not need to be freed.
+A pointer to a variable  that receives the total number of <a href="/windows/desktop/api/vds/ns-vds-vds_disk_free_extent">VDS_DISK_FREE_EXTENT</a> structures. If there are no free extents, the pointer is set to <b>NULL</b> on output and does not need to be freed.
 
 ## -returns
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://docs.microsoft.com/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://docs.microsoft.com/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="/windows/desktop/VDS/virtual-disk-service-common-return-codes">VDS-specific return values</a>. It can also return converted <a href="/windows/desktop/Debug/system-error-codes">system error codes</a>  using the <a href="/windows/desktop/api/winerror/nf-winerror-hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="/windows/desktop/VDS/about-vds">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>
@@ -123,5 +123,4 @@ The alignment value that is specified in the <i>ulAlign</i> parameter is not a m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vds/nn-vds-ivdsdisk3">IVdsDisk3</a>
-
+<a href="/windows/desktop/api/vds/nn-vds-ivdsdisk3">IVdsDisk3</a>

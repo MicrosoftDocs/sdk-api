@@ -71,7 +71,7 @@ The number of color table entries to set.
 
 ### -param prgbq [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a> structures containing new color information for the DIB's color table.
+A pointer to an array of <a href="/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD</a> structures containing new color information for the DIB's color table.
 
 ## -returns
 
@@ -84,48 +84,47 @@ If the function fails, the return value is zero.
 This function should be called to set the color table for DIBs that use 1, 4, or 8 bpp. The <b>BitCount</b> member of a bitmap's associated bitmap information header structure.
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER
+<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER
         </a> structure specifies the number of bits-per-pixel. Device-independent bitmaps with a <b>biBitCount</b> value greater than 8 do not have a color table.
 
-The <b>bV5BitCount</b> member of a bitmap's associated <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header">BITMAPV5HEADER</a> structure specifies the number of bits-per-pixel. Device-independent bitmaps with a <b>bV5BitCount</b> value greater than 8 do not have a color table.
+The <b>bV5BitCount</b> member of a bitmap's associated <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapv5header">BITMAPV5HEADER</a> structure specifies the number of bits-per-pixel. Device-independent bitmaps with a <b>bV5BitCount</b> value greater than 8 do not have a color table.
 
 <b>ICM:</b> No color management is performed.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER
+<a href="/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createdibsection">CreateDIBSection
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION
+<a href="/windows/desktop/api/wingdi/ns-wingdi-dibsection">DIBSECTION
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibcolortable">GetDIBColorTable
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdibcolortable">GetDIBColorTable
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD
+<a href="/windows/desktop/api/wingdi/ns-wingdi-rgbquad">RGBQUAD
       </a>
-

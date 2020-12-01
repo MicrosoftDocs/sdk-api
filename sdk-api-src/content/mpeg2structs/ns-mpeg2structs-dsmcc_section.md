@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>DSMCC_SECTION</b> structure represents a DSM-CC section header. If a section contains a DSM-CC header, you can cast a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-section">SECTION</a> pointer to a <b>DSMCC_SECTION</b> pointer. For more information, see the Remarks section in the <b>SECTION</b> reference.
+The <b>DSMCC_SECTION</b> structure represents a DSM-CC section header. If a section contains a DSM-CC header, you can cast a <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-section">SECTION</a> pointer to a <b>DSMCC_SECTION</b> pointer. For more information, see the Remarks section in the <b>SECTION</b> reference.
 
 ## -struct-fields
 
@@ -72,7 +72,7 @@ Contains packed header bits, as an <b>MPEG_HEADER_BITS_MIDL</b> structure. Appli
 
 ### -field Header.W
 
-Contains the header bits as a <b>WORD</b> type. To get the individual bitfields, coerce this member to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2bits/ns-mpeg2bits-mpeg_header_bits">MPEG_HEADER_BITS</a> structure.
+Contains the header bits as a <b>WORD</b> type. To get the individual bitfields, coerce this member to an <a href="/previous-versions/windows/desktop/api/mpeg2bits/ns-mpeg2bits-mpeg_header_bits">MPEG_HEADER_BITS</a> structure.
 
 ### -field TableIdExtension
 
@@ -88,7 +88,7 @@ Contains the version number and current/next indicator bit as an <b>MPEG_HEADER_
 
 ### -field Version.B
 
-Contains the version number and current/next indicator bit as a <b>BYTE</b> type. To get the individual bit fields, coerce this member to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2bits/ns-mpeg2bits-mpeg_header_version_bits">MPEG_HEADER_VERSION_BITS</a> structure.
+Contains the version number and current/next indicator bit as a <b>BYTE</b> type. To get the individual bit fields, coerce this member to an <a href="/previous-versions/windows/desktop/api/mpeg2bits/ns-mpeg2bits-mpeg_header_version_bits">MPEG_HEADER_VERSION_BITS</a> structure.
 
 ### -field SectionNumber
 
@@ -132,9 +132,8 @@ Contains the remaining section data, as a byte array. The length of the array is
 
 ## -remarks
 
-This structure extends the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-long_section">LONG_SECTION</a> structure.
+This structure extends the <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-long_section">LONG_SECTION</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
-
+<a href="/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>

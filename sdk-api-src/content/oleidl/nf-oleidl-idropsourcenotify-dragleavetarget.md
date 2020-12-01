@@ -60,5 +60,4 @@ This method returns S_OK on success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>
-
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>

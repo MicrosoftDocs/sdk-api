@@ -60,15 +60,15 @@ A <b>BSTR</b> that contains the certificate enrollment policy server URL.
 
 ### -param strTemplateName [in]
 
-A  <b>BSTR</b> variable that contains the Common Name (CN) of the template as it appears in Active Directory or the dotted decimal <a href="https://docs.microsoft.com/windows/desktop/SecGloss/o-gly">object identifier</a>.
+A  <b>BSTR</b> variable that contains the Common Name (CN) of the template as it appears in Active Directory or the dotted decimal <a href="/windows/desktop/SecGloss/o-gly">object identifier</a>.
 
 ### -param Encoding [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of encoding applied to a byte array for display purposes.
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-encodingtype">EncodingType</a> enumeration value that specifies the type of encoding applied to a byte array for display purposes.
 
 ### -param enrollFlags [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-webenrollmentflags">WebEnrollmentFlags</a> enumeration value that specifies web enrollment behavior. This can be the following value.
+A <a href="/windows/desktop/api/certenroll/ne-certenroll-webenrollmentflags">WebEnrollmentFlags</a> enumeration value that specifies web enrollment behavior. This can be the following value.
 
 <table>
 <tr>
@@ -95,7 +95,7 @@ A <b>BSTR</b> that contains the issued certificate.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -128,11 +128,10 @@ The <i>strEnrollmentPolicyServerURI</i> and <i>strTemplateName</i> parameters ex
 
 ## -remarks
 
-The <b>Enroll</b> method retrieves the appropriate template, calls <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment2-initializefromtemplate">InitializeFromTemplate</a>, and then calls <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-enroll">Enroll</a> on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> object.
+The <b>Enroll</b> method retrieves the appropriate template, calls <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment2-initializefromtemplate">InitializeFromTemplate</a>, and then calls <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollment-enroll">Enroll</a> on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a> object.
 
 This method does not installed the issued certificate.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a>

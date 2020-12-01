@@ -62,5 +62,4 @@ Returns the length of the text content value.  The returned string length does n
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgelement">ID2D1SvgElement</a>
-
+<a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgelement">ID2D1SvgElement</a>

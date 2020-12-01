@@ -60,5 +60,4 @@ Returns <b>S_OK</b> if the call completes successfully. Returns <b>E_FAIL</b> if
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsplugin">IWTSPlugin</a>
-
+<a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsplugin">IWTSPlugin</a>

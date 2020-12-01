@@ -76,7 +76,7 @@ The position of drop cap. It can be one of the following. <dl>
 
 Type: <b>HRESULT</b>
 
-If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -102,9 +102,8 @@ The current range can be degenerate, or you can select up to the complete drop-c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange2-getdropcap">ITextRange2::GetDropCap</a>
-
+<a href="/windows/desktop/api/tom/nf-tom-itextrange2-getdropcap">ITextRange2::GetDropCap</a>

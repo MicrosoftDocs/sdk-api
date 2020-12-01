@@ -54,7 +54,7 @@ The <b>IAnalogLocator</b> interface provides tuning information for an analog te
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAnalogLocator</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>. <b>IAnalogLocator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAnalogLocator</b> interface inherits from <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>. <b>IAnalogLocator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAnalogLocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ianaloglocator-get_videostandard">get_VideoStandard</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianaloglocator-get_videostandard">get_VideoStandard</a>
 </td>
 <td align="left" width="63%">
 Retrieves the format of the analog television signal.
@@ -78,7 +78,7 @@ Retrieves the format of the analog television signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nf-tuner-ianaloglocator-put_videostandard">put_VideoStandard</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianaloglocator-put_videostandard">put_VideoStandard</a>
 </td>
 <td align="left" width="63%">
 Specifies the format of the analog television signal.
@@ -93,9 +93,8 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
+<a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ilocator">ILocator</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mstv/tuning-model-interfaces">Tuning Model Interfaces</a>

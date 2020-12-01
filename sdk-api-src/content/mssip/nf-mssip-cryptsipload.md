@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The [SIP_DISPATCH_INFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info) structure. The exported functions must have been previously registered by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider">CryptSIPAddProvider</a> function.
+The [SIP_DISPATCH_INFO](/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info) structure. The exported functions must have been previously registered by calling the <a href="/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider">CryptSIPAddProvider</a> function.
 
 ## -parameters
 
 ### -param pgSubject [in]
 
-A pointer to a GUID returned by calling the <a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipretrievesubjectguid">CryptSIPRetrieveSubjectGuid</a> function.
+A pointer to a GUID returned by calling the <a href="/windows/desktop/api/mssip/nf-mssip-cryptsipretrievesubjectguid">CryptSIPRetrieveSubjectGuid</a> function.
 
 ### -param dwFlags [in]
 
@@ -64,11 +64,10 @@ This parameter is reserved and must be set to zero.
 
 ### -param pSipDispatch [in, out]
 
-A pointer to a [SIP_DISPATCH_INFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info) structure that contains pointers to SIP provider functions that are specific to the subject type. The caller must initialize this structure to binary zeros, and set the <b>cbSize</b> member to <code>sizeof(SIP_DISPATCH_INFO)</code> before calling the <b>CryptSIPLoad</b> function.
+A pointer to a [SIP_DISPATCH_INFO](/windows/desktop/api/mssip/ns-mssip-sip_dispatch_info) structure that contains pointers to SIP provider functions that are specific to the subject type. The caller must initialize this structure to binary zeros, and set the <b>cbSize</b> member to <code>sizeof(SIP_DISPATCH_INFO)</code> before calling the <b>CryptSIPLoad</b> function.
 
 ## -returns
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns  <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+If the function fails, it returns  <b>FALSE</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.

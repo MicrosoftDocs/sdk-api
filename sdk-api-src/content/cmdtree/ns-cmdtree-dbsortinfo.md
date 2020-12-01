@@ -52,7 +52,8 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+> [!Note]  
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 The <b>DBSORTINFO</b> structure stores the order in which a column will be sorted (that is, ascending or descending). This information is stored inside a DBOP_sort_list_element node.
 
@@ -70,5 +71,4 @@ locale identifier
 
 The locale identifier (LCID) specifies a set of user preference information related to the user's language. It determines how times are formatted, how items are alphabetically sorted, and how strings are compared.
 
-For additional information on LCIDs see <a href="https://docs.microsoft.com/previous-versions/ms776264(v=vs.85)">Locales</a>.
-
+For additional information on LCIDs see <a href="/previous-versions/ms776264(v=vs.85)">Locales</a>.

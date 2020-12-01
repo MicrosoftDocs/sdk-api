@@ -56,7 +56,7 @@ Gets the client certificate.
 
 ### -param ppCertContext [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the client SSL certificate.  Upon completion, the caller should free this memory by calling <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.
+A pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure that contains the client SSL certificate.  Upon completion, the caller should free this memory by calling <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfreecertificatecontext">CertFreeCertificateContext</a>.
 
 ## -returns
 
@@ -93,5 +93,4 @@ A certificate is not available.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsslclientcertificate">IWSDSSLClientCertificate</a>
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsslclientcertificate">IWSDSSLClientCertificate</a>

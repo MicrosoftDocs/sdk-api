@@ -62,7 +62,7 @@ The <b>RPC_HTTP_TRANSPORT_CREDENTIALS</b> structure defines additional credentia
 
 ### -field TransportCredentials
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the user name, domain, and password for the user.
+A pointer to a <a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure that contains the user name, domain, and password for the user.
 
 ### -field Flags
 
@@ -138,7 +138,7 @@ The number of elements in the <b>AuthnScheme</b> array.
 
 ### -field ServerCertificateSubject
 
-Contains an optional string with the expected server principal name. The principal name is in the same format as that generated for <a href="https://docs.microsoft.com/windows/desktop/api/rpcssl/nf-rpcssl-rpccertgenerateprincipalname">RpcCertGeneratePrincipalName</a> (see <a href="https://docs.microsoft.com/windows/desktop/Rpc/principal-names">Principal Names</a> for more information). This member is used only when SSL is used. In such cases, the server certificate is checked against the generated principal name. If they do not match, an error is returned. This member enables clients to authenticate the RPC Proxy.
+Contains an optional string with the expected server principal name. The principal name is in the same format as that generated for <a href="/windows/desktop/api/rpcssl/nf-rpcssl-rpccertgenerateprincipalname">RpcCertGeneratePrincipalName</a> (see <a href="/windows/desktop/Rpc/principal-names">Principal Names</a> for more information). This member is used only when SSL is used. In such cases, the server certificate is checked against the generated principal name. If they do not match, an error is returned. This member enables clients to authenticate the RPC Proxy.
 
 
 #### - AuthnScheme
@@ -189,46 +189,45 @@ If the <b>TransportCredentials</b> member is <b>NULL</b> and the authentication 
 <li>Caller requested use of SSL and used the <b>ServerCertificateSubject</b> member. This scenario guarantees credentials are protected both in transit and at the final destination, even if a weak hash is used.</li>
 <li>The lncompatibilitylevel key is set to 2 or higher. This  causes the NTLM security provider to emit or respond to only the strong NT hash, not the weak LM hash. In addition, customers are encouraged to use level 3 or higher, which will attempt NTLMv2.</li>
 </ul>
-If the Unicode version of the <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a> function is used,  Unicode versions of the <b>RPC_HTTP_TRANSPORT_CREDENTIALS</b> and <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structures must also be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_UNICODE. 
+If the Unicode version of the <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a> function is used,  Unicode versions of the <b>RPC_HTTP_TRANSPORT_CREDENTIALS</b> and <a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structures must also be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_UNICODE. 
 If the ANSI version of the <b>RpcBindingSetAuthInfoEx</b> function is used,  ANSI versions of <b>RPC_HTTP_TRANSPORT_CREDENTIALS</b> and <b>SEC_WINNT_AUTH_IDENTITY</b> structures must be provided, and the <b>Flags</b> member in <b>TransportCredentials</b> must be set to SEC_WINNT_AUTH_IDENTITY_ANSI.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/principal-names">Principal Names</a>
+<a href="/windows/desktop/Rpc/principal-names">Principal Names</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_v2_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V2</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_v2_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_v3_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V3</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_v3_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos">RPC_SECURITY_QOS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v2_a">RPC_SECURITY_QOS_V2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_security_qos_v3_a">RPC_SECURITY_QOS_V3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/remote-procedure-calls-using-rpc-over-http">Remote Procedure Calls Using RPC over HTTP</a>
+<a href="/windows/desktop/Rpc/remote-procedure-calls-using-rpc-over-http">Remote Procedure Calls Using RPC over HTTP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>
+<a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa">RpcBindingSetAuthInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcssl/nf-rpcssl-rpccertgenerateprincipalname">RpcCertGeneratePrincipalName</a>
+<a href="/windows/desktop/api/rpcssl/nf-rpcssl-rpccertgenerateprincipalname">RpcCertGeneratePrincipalName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
-
+<a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>

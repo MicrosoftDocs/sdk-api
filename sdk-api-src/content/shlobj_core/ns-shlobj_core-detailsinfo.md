@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains detail information for a Shell folder item. Used with the <a href="https://docs.microsoft.com/windows/desktop/shell/sfvm-getdetailsof">SFVM_GETDETAILSOF</a> notification.
+Contains detail information for a Shell folder item. Used with the <a href="/windows/desktop/shell/sfvm-getdetailsof">SFVM_GETDETAILSOF</a> notification.
 
 ## -struct-fields
 
@@ -100,13 +100,12 @@ The number of average-sized characters in the heading.
 
 ### -field str
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a></b>
+Type: <b><a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a></b>
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure that includes a string containing the requested detail. To convert this structure to a string, use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettobufa">StrRetToBuf</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>.
+An <a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure that includes a string containing the requested detail. To convert this structure to a string, use <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strrettobufa">StrRetToBuf</a> or <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strrettostra">StrRetToStr</a>.
 
 ### -field iImage
 
 Type: <b>int</b>
 
 The index of an icon in the Shell image list that is displayed in the view.
-

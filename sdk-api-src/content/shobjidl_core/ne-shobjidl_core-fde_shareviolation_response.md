@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Specifies the values used by the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogevents-onshareviolation">IFileDialogEvents::OnShareViolation</a> method to indicate an application's response to a sharing violation that occurs when a file is opened or saved.
+Specifies the values used by the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogevents-onshareviolation">IFileDialogEvents::OnShareViolation</a> method to indicate an application's response to a sharing violation that occurs when a file is opened or saved.
 
 ## -enum-fields
 
@@ -65,4 +65,3 @@ The application has determined that the file should be returned from the dialog.
 ### -field FDESVR_REFUSE
 
 The application has determined that the file should not be returned from the dialog.
-

@@ -50,6 +50,7 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
 api_name:
  - ChangeWindowMessageFilterEx
+req.apiset: ext-ms-win-ntuser-gui-l1-3-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ChangeWindowMessageFilterEx function
@@ -106,7 +107,7 @@ Allows the message through the filter. This enables the message to be received b
 </td>
 <td width="60%">
 Blocks the message to be delivered to <i>hWnd</i> if it comes from a lower privileged process, 
-					unless the message is allowed process-wide by using the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a> function 
+					unless the message is allowed process-wide by using the <a href="/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a> function 
 					or globally.
 					
 
@@ -132,23 +133,23 @@ Resets the window message filter for <i>hWnd</i> to the default.   Any message a
 
 Type: <b>PCHANGEFILTERSTRUCT</b>
 
-Optional pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-changefilterstruct">CHANGEFILTERSTRUCT</a> structure.
+Optional pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-changefilterstruct">CHANGEFILTERSTRUCT</a> structure.
 
 ## -returns
 
 Type: <b>BOOL</b>
 
-If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 UIPI is a security feature that prevents messages from being received from a lower-integrity-level sender.
 		You can use this function to allow specific messages to be delivered to a window even 
-		if the message originates from a process at a lower integrity level. Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a> function, 
+		if the message originates from a process at a lower integrity level. Unlike the <a href="/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a> function, 
 		which controls the process message filter, the <b>ChangeWindowMessageFilterEx</b> function controls the window message filter. 
 		
 
-An application may use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a> function to 
+An application may use the <a href="/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a> function to 
 		allow or block a message in a process-wide manner. 
 		If the message is allowed by either the process message filter 
 		or the window message filter, it will be delivered to the window.
@@ -164,7 +165,7 @@ Certain messages whose value is smaller than <b>WM_USER</b> are required to be p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilter">ChangeWindowMessageFilter</a>
 
 
 
@@ -176,5 +177,4 @@ Certain messages whose value is smaller than <b>WM_USER</b> are required to be p
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
-
+<a href="/windows/desktop/winmsg/windows">Windows</a>

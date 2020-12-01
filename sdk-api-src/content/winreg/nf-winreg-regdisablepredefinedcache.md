@@ -55,7 +55,7 @@ api_name:
 
 Disables handle caching of the predefined registry handle for <b>HKEY_CURRENT_USER</b> for the current process. This function does not work on a remote computer.
 
-To disables handle caching of all predefined registry handles, use the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdisablepredefinedcacheex">RegDisablePredefinedCacheEx</a> function.
+To disables handle caching of all predefined registry handles, use the <a href="/windows/desktop/api/winreg/nf-winreg-regdisablepredefinedcacheex">RegDisablePredefinedCacheEx</a> function.
 
 ## -parameters
 
@@ -64,26 +64,25 @@ To disables handle caching of all predefined registry handles, use the <a href="
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -remarks
 
 Any access of <b>HKEY_CURRENT_USER</b> after this function is called will result in operations being performed on <b>HKEY_USERS</b>&#92;<b>SID_of_current_user</b>,  or on <b>HKEY_USERS\.DEFAULT</b> if the current user's hive is not loaded. For more information on SIDs, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-identifiers">Security Identifiers</a>.
+<a href="/windows/desktop/SecAuthZ/security-identifiers">Security Identifiers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/predefined-keys">Predefined Keys</a>
+<a href="/windows/desktop/SysInfo/predefined-keys">Predefined Keys</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdisablepredefinedcacheex">RegDisablePredefinedCacheEx</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regdisablepredefinedcacheex">RegDisablePredefinedCacheEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
-
+<a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>

@@ -114,7 +114,7 @@ Partial response cache entry.
 <td width="60%">
 Sticky cache entry that is exempt from scavenging for the amount of time specified by 
 <b>dwExemptDelta</b>. The default value set by 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-commiturlcacheentrya">CommitUrlCacheEntryA</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-commiturlcacheentryw">CommitUrlCacheEntryW</a> is one day. 
+<a href="/windows/desktop/api/wininet/nf-wininet-commiturlcacheentrya">CommitUrlCacheEntryA</a> and <a href="/windows/desktop/api/wininet/nf-wininet-commiturlcacheentryw">CommitUrlCacheEntryW</a> is one day. 
 
 </td>
 </tr>
@@ -201,19 +201,19 @@ High-order portion of the file size, in <b>bytes</b>.
 
 ### -field LastModifiedTime
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the last modified time of this URL, in Greenwich mean time format.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the last modified time of this URL, in Greenwich mean time format.
 
 ### -field ExpireTime
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the expiration time of this file, in Greenwich mean time format.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the expiration time of this file, in Greenwich mean time format.
 
 ### -field LastAccessTime
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the last accessed time, in Greenwich mean time format.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the last accessed time, in Greenwich mean time format.
 
 ### -field LastSyncTime
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the last time the cache was synchronized.
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure that contains the last time the cache was synchronized.
 
 ### -field lpHeaderInfo
 
@@ -237,9 +237,9 @@ Exemption time from the last accessed time, in seconds.
 ## -remarks
 
 There is no cache entry size limit, so applications that need to enumerate the cache must be prepared to allocate variable-sized buffers. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinInet/appendix-b-using-buffers">Using Buffers</a>.
+<a href="/windows/desktop/WinInet/appendix-b-using-buffers">Using Buffers</a>.
 
-<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="https://docs.microsoft.com/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
+<div class="alert"><b>Note</b>  WinINet does not support server implementations. In addition, it should not be used from a service.  For server implementations or services use <a href="/windows/desktop/WinHttp/winhttp-start-page">Microsoft Windows HTTP Services (WinHTTP)</a>.</div>
 <div> </div>
 
 
@@ -250,29 +250,28 @@ There is no cache entry size limit, so applications that need to enumerate the c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findfirsturlcacheentrya">FindFirstUrlCacheEntry</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-findfirsturlcacheentrya">FindFirstUrlCacheEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findfirsturlcacheentryexa">FindFirstUrlCacheEntryEx</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-findfirsturlcacheentryexa">FindFirstUrlCacheEntryEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentrya">FindNextUrlCacheEntry</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentrya">FindNextUrlCacheEntry</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentryexa">FindNextUrlCacheEntryEx</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-findnexturlcacheentryexa">FindNextUrlCacheEntryEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-geturlcacheentryinfoa">GetUrlCacheEntryInfo</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-geturlcacheentryinfoa">GetUrlCacheEntryInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-geturlcacheentryinfoexa">GetUrlCacheEntryInfoEx</a>
+<a href="/windows/desktop/api/wininet/nf-wininet-geturlcacheentryinfoexa">GetUrlCacheEntryInfoEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wininet/nf-wininet-seturlcacheentryinfoa">SetUrlCacheEntryInfo</a>
-
+<a href="/windows/desktop/api/wininet/nf-wininet-seturlcacheentryinfoa">SetUrlCacheEntryInfo</a>

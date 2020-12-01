@@ -52,11 +52,10 @@ api_name:
 
 Defines the release shell callback for the plug-in. This function is called to delete the plug-in shell context.
 
-The DLL entry point name must be <a href="https://docs.microsoft.com/windows/desktop/api/wsman/nc-wsman-wsman_plugin_release_command_context">WSManPluginReleaseCommandContext</a>.
+The DLL entry point name must be <a href="/windows/desktop/api/wsman/nc-wsman-wsman_plugin_release_command_context">WSManPluginReleaseCommandContext</a>.
 
 ## -parameters
 
 ### -param shellContext [in]
 
 Specifies the context that was received when the shell was created.
-

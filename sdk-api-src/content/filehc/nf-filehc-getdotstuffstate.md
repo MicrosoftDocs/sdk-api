@@ -56,7 +56,7 @@ Determines whether dots are added to the file when any dot stuffing mechanisms a
 
 ### -param pContext [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a> structure.
+A pointer to the <a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a> structure.
 
 ### -param fReads [in]
 
@@ -83,5 +83,4 @@ The information about dot stuffing is provided by DOT_STUFF_MANAGER objects.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/ms528326.aspx">FIO_CONTEXT</a>
-
+<a href="/previous-versions/exchange-server/exchange-10/ms528326(v=exchg.10)">FIO_CONTEXT</a>

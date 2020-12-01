@@ -60,7 +60,7 @@ The new muting state. If <i>bMuted</i> is <b>TRUE</b> (nonzero), the method enab
 
 ### -param pguidEventContext [in]
 
-Context value for the <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-icontrolchangenotify-onnotify">IControlChangeNotify::OnNotify</a> method. This parameter points to an event-context GUID. If the <b>SetMute</b> call changes the state of the mute control, all clients that have registered <a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-icontrolchangenotify">IControlChangeNotify</a> interfaces with that control receive notifications. In its implementation of the <b>OnNotify</b> method, a client can inspect the event-context GUID to discover whether it or another client is the source of the control-change event. If the caller supplies a <b>NULL</b> pointer for this parameter, the client's notification method receives a <b>NULL</b> context pointer.
+Context value for the <a href="/windows/desktop/api/devicetopology/nf-devicetopology-icontrolchangenotify-onnotify">IControlChangeNotify::OnNotify</a> method. This parameter points to an event-context GUID. If the <b>SetMute</b> call changes the state of the mute control, all clients that have registered <a href="/windows/desktop/api/devicetopology/nn-devicetopology-icontrolchangenotify">IControlChangeNotify</a> interfaces with that control receive notifications. In its implementation of the <b>OnNotify</b> method, a client can inspect the event-context GUID to discover whether it or another client is the source of the control-change event. If the caller supplies a <b>NULL</b> pointer for this parameter, the client's notification method receives a <b>NULL</b> context pointer.
 
 ## -returns
 
@@ -86,5 +86,4 @@ Out of memory.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomute">IAudioMute Interface</a>
-
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiomute">IAudioMute Interface</a>

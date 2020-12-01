@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>AddPolicyAdministrator</b> method adds the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form  to the list of principals that act as policy administrators.
+The <b>AddPolicyAdministrator</b> method adds the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) in text form  to the list of principals that act as policy administrators.
 
 ## -parameters
 
@@ -76,7 +76,6 @@ Policy administrators for an object can perform the following tasks:
 <li>Delete child objects of the object</li>
 <li>Create child objects of the object</li>
 </ul>
-To view the list of policy administrators, use the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyadministrators">PolicyAdministrators</a> property.
+To view the list of policy administrators, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyadministrators">PolicyAdministrators</a> property.
 
-You must call the <a href="https://docs.microsoft.com/windows/desktop/api/azroles/nf-azroles-iazscope-submit">Submit</a> method to persist any changes made by this method.
-
+You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-submit">Submit</a> method to persist any changes made by this method.

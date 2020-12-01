@@ -66,7 +66,7 @@ Pointer to the location to contain the current volume setting. The low-order wor
 
 If a device does not support both left and right volume control, the low-order word of the specified location contains the mono volume level.
 
-Any value set by using the <a href="https://docs.microsoft.com/previous-versions/dd798480(v=vs.85)">midiOutSetVolume</a> function is returned, regardless of whether the device supports that value.
+Any value set by using the <a href="/previous-versions/dd798480(v=vs.85)">midiOutSetVolume</a> function is returned, regardless of whether the device supports that value.
 
 ## -returns
 
@@ -127,11 +127,10 @@ The function is not supported.
 
 If a device identifier is used, then the result of the <b>midiOutGetVolume</b> call and the information returned in <i>lpdwVolume</i> applies to all instances of the device. If a device handle is used, then the result and information returned applies only to the instance of the device referenced by the device handle.
 
-Not all devices support volume control. You can determine whether a device supports volume control by querying the device by using the <a href="https://docs.microsoft.com/previous-versions/dd798469(v=vs.85)">midiOutGetDevCaps</a> function and specifying the MIDICAPS_VOLUME flag.
+Not all devices support volume control. You can determine whether a device supports volume control by querying the device by using the <a href="/previous-versions/dd798469(v=vs.85)">midiOutGetDevCaps</a> function and specifying the MIDICAPS_VOLUME flag.
 
-You can also determine whether the device supports volume control on both the left and right channels by querying the device by using the <a href="https://docs.microsoft.com/previous-versions/dd798469(v=vs.85)">midiOutGetDevCaps</a> function and specifying the MIDICAPS_LRVOLUME flag.
+You can also determine whether the device supports volume control on both the left and right channels by querying the device by using the <a href="/previous-versions/dd798469(v=vs.85)">midiOutGetDevCaps</a> function and specifying the MIDICAPS_LRVOLUME flag.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

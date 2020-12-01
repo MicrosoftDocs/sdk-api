@@ -62,15 +62,15 @@ Determines the size of the bitmap that this method returns. For possible values,
 
 ### -param state [in]
 
-The state of the assessment. To get this value, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_assessmentstate">IProvideWinSATResultsInfo::get_AssessmentState</a> method.
+The state of the assessment. To get this value, call the <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_assessmentstate">IProvideWinSATResultsInfo::get_AssessmentState</a> method.
 
 ### -param rating [in]
 
-The base score for the computer. To get this value, call the <a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_systemrating">IProvideWinSATResultsInfo::get_SystemRating</a> method.
+The base score for the computer. To get this value, call the <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-get_systemrating">IProvideWinSATResultsInfo::get_SystemRating</a> method.
 
 ### -param pBitmap [out]
 
-The handle to the bitmap. To free the handle when finished, call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function.
+The handle to the bitmap. To free the handle when finished, call the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function.
 
 ## -returns
 
@@ -120,7 +120,7 @@ The bitmap is returned only for the WINSAT_ASSESSMENT_STATE_VALID and WINSAT_ASS
 
 #### Examples
 
-The following example shows how to retrieve a bitmap that represents the base score of the assessment. The example uses the <a href="https://docs.microsoft.com/windows/desktop/WinSAT/win32-winsat">Win32_WinSAT</a> WMI MOF class to get the state and base score that you pass to this method.
+The following example shows how to retrieve a bitmap that represents the base score of the assessment. The example uses the <a href="/windows/desktop/WinSAT/win32-winsat">Win32_WinSAT</a> WMI MOF class to get the state and base score that you pass to this method.
 
 
 ```cpp
@@ -422,5 +422,4 @@ cleanup:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatvisuals">IProvideWinSATVisuals</a>
-
+<a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatvisuals">IProvideWinSATVisuals</a>

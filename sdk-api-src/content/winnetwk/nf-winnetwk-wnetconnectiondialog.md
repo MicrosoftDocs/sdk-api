@@ -88,7 +88,7 @@ Connections to disk resources.
 If the function succeeds, the return value is NO_ERROR. If the user cancels the dialog box, the function returns –1.
 
 If the function fails, the return value is a 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
+<a href="/windows/desktop/Debug/system-error-codes">system error code</a>, such as one of the following values.
 
 <table>
 <tr>
@@ -103,7 +103,7 @@ If the function fails, the return value is a
 </td>
 <td width="60%">
 A network-specific error occurred. To obtain a description of the error, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetlasterrora">WNetGetLastError</a> function.
 
 </td>
 </tr>
@@ -151,23 +151,22 @@ If the function attempts to make a connection and the network provider returns t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection3a">WNetAddConnection3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetcancelconnection2a">WNetCancelConnection2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog">WNetDisconnectDialog</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetdisconnectdialog">WNetDisconnectDialog</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows
 		  Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-functions">Windows
+<a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
-

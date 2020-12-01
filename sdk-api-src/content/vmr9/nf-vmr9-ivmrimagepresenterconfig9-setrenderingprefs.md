@@ -55,13 +55,13 @@ The <code>SetRenderingPrefs</code> method sets the rendering preferences on the 
 
 
 
-The VMR-9 filter's <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingprefs">IVMRFilterConfig9::SetRenderingPrefs</a> method calls through to this method.
+The VMR-9 filter's <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingprefs">IVMRFilterConfig9::SetRenderingPrefs</a> method calls through to this method.
 
 ## -parameters
 
 ### -param dwRenderFlags [in]
 
-A bitwise OR combination of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9renderprefs">VMR9RenderPrefs</a> flags that will be used to configure the allocator-presenter.
+A bitwise OR combination of <a href="/previous-versions/windows/desktop/api/vmr9/ne-vmr9-vmr9renderprefs">VMR9RenderPrefs</a> flags that will be used to configure the allocator-presenter.
 
 ## -returns
 
@@ -91,9 +91,8 @@ Include DShow.h and D3d9.h before Vmr9.h.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenterconfig9">IVMRImagePresenterConfig9 Interface</a>
+<a href="/previous-versions/windows/desktop/api/vmr9/nn-vmr9-ivmrimagepresenterconfig9">IVMRImagePresenterConfig9 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-
+<a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>

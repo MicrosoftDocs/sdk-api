@@ -50,15 +50,14 @@ api_name:
 
 ## -description
 
-Used only for its <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> functionality. It has no methods of its own.
+Used only for its <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> functionality. It has no methods of its own.
 
 ## -remarks
 
 <div class="alert"><b>Note</b>  This interface is supported through Windows XP Service Pack 3 (SP3) and Windows Server 2003. It is not supported in Windows Vista and later versions of Windows.</div>
 <div> </div>
-The IID for this interface is IID_IDefViewFrame. Use the service ID SID_DefView (defined in shlguid.h) in a call to <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">QueryService</a> as shown in this example.
+The IID for this interface is IID_IDefViewFrame. Use the service ID SID_DefView (defined in shlguid.h) in a call to <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)">QueryService</a> as shown in this example.
 
                 
 
 <pre class="syntax" xml:space="preserve"><code>HRESULT hr = isp-&gt;QueryService(punkSite, SID_DefView, IID_IDefViewFrame, (void**)&amp;pdvf);</code></pre>
-

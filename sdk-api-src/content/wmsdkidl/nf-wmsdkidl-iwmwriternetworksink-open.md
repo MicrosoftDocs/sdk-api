@@ -118,11 +118,10 @@ The port number specified is already in use.
 
 ## -remarks
 
-This method binds the port. To release the port, call <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-close">IWMWriterNetworkSink::Close</a>.
+This method binds the port. To release the port, call <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-close">IWMWriterNetworkSink::Close</a>.
 
-See the Remarks and Example Code sections for <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a>.
+See the Remarks and Example Code sections for <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>

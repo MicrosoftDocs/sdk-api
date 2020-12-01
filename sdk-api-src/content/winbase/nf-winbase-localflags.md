@@ -54,22 +54,22 @@ api_name:
 ## -description
 
 Retrieves information about the specified local memory object.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a>. For more information, see Remarks.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with 16-bit versions of Windows. New applications should use the <a href="/windows/desktop/Memory/heap-functions">heap functions</a>. For more information, see Remarks.</div><div> </div>
 
 ## -parameters
 
 ### -param hMem [in]
 
 A handle to the local memory object. This handle is returned by either the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function.
+<a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a> or 
+<a href="/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a> function.
 
 ## -returns
 
 If the function succeeds, the return value specifies the allocation values and the lock count for the memory object.
 
 If the function fails, the return value is <b>LMEM_INVALID_HANDLE</b>, indicating that the local handle is not valid. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -77,38 +77,37 @@ The low-order byte of the low-order word of the return value contains the lock c
 
 The high-order byte of the low-order word of the return value indicates the allocation values of the memory object. It can be zero or <b>LMEM_DISCARDABLE</b>.
 
-The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.
+The local functions have greater overhead and provide fewer features than other memory management functions. New applications should use the <a href="/windows/desktop/Memory/heap-functions">heap functions</a> unless documentation states that a local function should be used. For more information, see <a href="/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
+<a href="/windows/desktop/Memory/global-and-local-functions">Global and Local Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-globalflags">GlobalFlags</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-globalflags">GlobalFlags</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localalloc">LocalAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/nf-minwinbase-localdiscard">LocalDiscard</a>
+<a href="/windows/desktop/api/minwinbase/nf-minwinbase-localdiscard">LocalDiscard</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-locallock">LocalLock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localrealloc">LocalReAlloc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localunlock">LocalUnlock</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-localunlock">LocalUnlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory
+<a href="/windows/desktop/Memory/memory-management-functions">Memory
     Management Functions</a>
-

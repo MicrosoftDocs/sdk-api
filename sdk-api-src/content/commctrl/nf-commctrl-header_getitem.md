@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Gets information about an item in a header control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/hdm-getitem">HDM_GETITEM</a> message explicitly.
+Gets information about an item in a header control. You can use this macro or send the <a href="/windows/desktop/Controls/hdm-getitem">HDM_GETITEM</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndHD
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the header control.
 
@@ -86,4 +86,3 @@ The <b>Header_GetItem</b> macro is defined as follows:
     (BOOL)SendMessage((hwndHD), HDM_GETITEM,   \
 
     (WPARAM)(int)(index), (LPARAM)(LPHDITEM)(phdi))</code></pre>
-

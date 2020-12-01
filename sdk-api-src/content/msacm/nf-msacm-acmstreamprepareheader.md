@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The [ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader) structure for an ACM stream conversion. This function must be called for every stream header before it can be used in a conversion stream. An application needs to prepare a stream header only once for the life of a given stream. The stream header can be reused as long as the sizes of the source and destination buffers do not exceed the sizes used when the stream header was originally prepared.
+The [ACMSTREAMHEADER](./ns-msacm-acmstreamheader.md) structure for an ACM stream conversion. This function must be called for every stream header before it can be used in a conversion stream. An application needs to prepare a stream header only once for the life of a given stream. The stream header can be reused as long as the sizes of the source and destination buffers do not exceed the sizes used when the stream header was originally prepared.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ Handle to the conversion steam.
 
 ### -param pash
 
-Pointer to an [ACMSTREAMHEADER](/windows/win32/api/msacm/ns-msacm-acmstreamheader) structure that identifies the source and destination buffers to be prepared.
+Pointer to an [ACMSTREAMHEADER](./ns-msacm-acmstreamheader.md) structure that identifies the source and destination buffers to be prepared.
 
 ### -param fdwPrepare
 
@@ -128,9 +128,8 @@ Preparing a stream header that has already been prepared has no effect, and the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
+<a href="/windows/desktop/Multimedia/audio-compression-functions">Audio Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>

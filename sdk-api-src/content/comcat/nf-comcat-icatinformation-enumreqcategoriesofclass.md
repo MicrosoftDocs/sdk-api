@@ -60,7 +60,7 @@ The class identifier.
 
 ### -param ppenumCatid [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-ienumguid">IEnumCATID</a> interface pointer. This can be used to enumerate the CATIDs that are required by <i>rclsid</i>.
+A pointer to an <a href="/windows/desktop/api/comcat/nn-comcat-ienumguid">IEnumCATID</a> interface pointer. This can be used to enumerate the CATIDs that are required by <i>rclsid</i>.
 
 ## -returns
 
@@ -68,5 +68,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, a
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>
-
+<a href="/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>

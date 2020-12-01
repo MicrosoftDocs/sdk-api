@@ -108,9 +108,8 @@ The authenticode policy return code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DevNotes/downloadjavaex">DownloadJavaEX</a>
+<a href="/windows/desktop/DevNotes/downloadjavaex">DownloadJavaEX</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb432350(v=vs.85)">JAVA_POLICY_PROVIDER</a>
-
+<a href="/previous-versions/bb432350(v=vs.85)">JAVA_POLICY_PROVIDER</a>

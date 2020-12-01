@@ -58,9 +58,9 @@ api_name:
 
 <p class="CCE_Message">[This property is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>LimitExchangeKeyToEncipherment</b> property sets or retrieves a Boolean value that determines whether an AT_KEYEXCHANGE request contains <a href="https://docs.microsoft.com/windows/desktop/SecGloss/d-gly">digital signature</a> and nonrepudiation key usages.
+The <b>LimitExchangeKeyToEncipherment</b> property sets or retrieves a Boolean value that determines whether an AT_KEYEXCHANGE request contains <a href="/windows/desktop/SecGloss/d-gly">digital signature</a> and nonrepudiation key usages.
 
-This property was first introduced in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a> interface.
+This property was first introduced in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a> interface.
 
 This property is read/write.
 
@@ -116,17 +116,16 @@ else
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
+<a href="/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)">CEnroll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll3">ICEnroll3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
+<a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_keyspec">KeySpec</a>
-
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_keyspec">KeySpec</a>

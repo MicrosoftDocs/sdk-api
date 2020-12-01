@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 A security binding constraint that corresponds to the
-                <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_tcp_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>.
+                <a href="/windows/desktop/api/webservices/ns-webservices-ws_tcp_sspi_transport_security_binding">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>.
 
 ## -struct-fields
 
@@ -63,4 +63,3 @@ The base binding constraint that this binding constraint derives from.
                 
 
 There are currently no binding-specific properties defined for this binding constraint.
-

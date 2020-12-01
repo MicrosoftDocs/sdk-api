@@ -93,9 +93,8 @@ This function deregisters SRV and CNAME records only. It leaves type A records i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcsitecoveragea">DsGetDcSiteCoverage</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetdcsitecoveragea">DsGetDcSiteCoverage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetsitenamea">DsGetSiteName</a>
-
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetsitenamea">DsGetSiteName</a>

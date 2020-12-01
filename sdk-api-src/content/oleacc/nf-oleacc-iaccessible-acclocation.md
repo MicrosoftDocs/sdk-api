@@ -82,15 +82,15 @@ Address, in pixels, of the variable that receives the object's height.
 
 Type: <b>VARIANT</b>
 
-Specifies whether the location that the server returns should be that of the object or that of one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT structure</a>, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
+Specifies whether the location that the server returns should be that of the object or that of one of the object's child elements. This parameter is either CHILDID_SELF (to obtain information about the object) or a child ID (to obtain information about the object's child element). For more information about initializing the <a href="/windows/desktop/WinAuto/variant-structure">VARIANT structure</a>, see <a href="/windows/desktop/WinAuto/how-child-ids-are-used-in-parameters">How Child IDs Are Used in Parameters</a>.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK. Clients must always check that output parameters contain valid values.
 
-If not successful, returns one of the values in the table that follows, or another standard <a href="https://docs.microsoft.com/windows/desktop/WinAuto/return-values">COM error code</a>. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
+If not successful, returns one of the values in the table that follows, or another standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>. For more information, see <a href="/windows/desktop/WinAuto/checking-iaccessible-return-values">Checking IAccessible Return Values</a>.
 
 <table>
 <tr>
@@ -123,7 +123,7 @@ An argument is not valid.
 
 ## -remarks
 
-This method retrieves the object's bounding rectangle. If the object has a non-rectangular shape, then this method returns the smallest rectangle that completely encompasses the entire object region. For non-rectangular objects, the coordinates of the object's bounding rectangle could fail if tested with <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-acchittest">IAccessible::accHitTest</a>. Examples of such non-rectangular objects are list view items in large-icon mode where a single item has a rectangle for the icon and another rectangle for the text of the icon. Because <b>accLocation</b> returns a bounding rectangle, not all points in that rectangle will be within the actual bounds of the object. Some points within the bounding rectangle may not be on the object. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/navigation-through-hit-testing-and-screen-location">Navigation Through Hit Testing and Screen Location</a>.
+This method retrieves the object's bounding rectangle. If the object has a non-rectangular shape, then this method returns the smallest rectangle that completely encompasses the entire object region. For non-rectangular objects, the coordinates of the object's bounding rectangle could fail if tested with <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-acchittest">IAccessible::accHitTest</a>. Examples of such non-rectangular objects are list view items in large-icon mode where a single item has a rectangle for the icon and another rectangle for the text of the icon. Because <b>accLocation</b> returns a bounding rectangle, not all points in that rectangle will be within the actual bounds of the object. Some points within the bounding rectangle may not be on the object. For more information, see <a href="/windows/desktop/WinAuto/navigation-through-hit-testing-and-screen-location">Navigation Through Hit Testing and Screen Location</a>.
 
 <b>Note:  </b>This method returns width and height. If you want the right and bottom coordinates, calculate them using right = left + width, and bottom = top + height.
 
@@ -180,21 +180,20 @@ HRESULT STDMETHODCALLTYPE AccServer::accLocation(
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/active-accessibility-and-windows-vista-screen-scaling">Active Accessibility and Windows Vista Screen Scaling</a>
+<a href="/windows/desktop/WinAuto/active-accessibility-and-windows-vista-screen-scaling">Active Accessibility and Windows Vista Screen Scaling</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
+<a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-acchittest">IAccessible::accHitTest</a>
+<a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-acchittest">IAccessible::accHitTest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/navigation-through-hit-testing-and-screen-location">Navigation Through Hit Testing and Screen Location</a>
+<a href="/windows/desktop/WinAuto/navigation-through-hit-testing-and-screen-location">Navigation Through Hit Testing and Screen Location</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WinAuto/variant-structure">VARIANT</a>
-
+<a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>

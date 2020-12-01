@@ -56,7 +56,7 @@ api_name:
 
 Increments (increases by one) the value of the specified 32-bit variable as an atomic operation.
 
-To operate on 64-bit values, use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedincrement64">InterlockedIncrement64</a> function.
+To operate on 64-bit values, use the <a href="/windows/desktop/api/winnt/nf-winnt-interlockedincrement64">InterlockedIncrement64</a> function.
 
 ## -parameters
 
@@ -74,18 +74,18 @@ The variable pointed to by the <i>Addend</i> parameter must be aligned on a 32-b
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://docs.microsoft.com/previous-versions/2ddez55b(v=vs.85)">_InterlockedIncrement</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="/previous-versions/2ddez55b(v=vs.85)">_InterlockedIncrement</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
-<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683618(v=vs.85)">InterlockedIncrementAcquire</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683622(v=vs.85)">InterlockedIncrementRelease</a> instead.
+<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="/previous-versions/windows/desktop/legacy/ms683618(v=vs.85)">InterlockedIncrementAcquire</a> or <a href="/previous-versions/windows/desktop/legacy/ms683622(v=vs.85)">InterlockedIncrementRelease</a> instead.
 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
+<a href="/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
 
 
@@ -93,49 +93,48 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedincrement16">InterlockedIncrement16</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-interlockedincrement16">InterlockedIncrement16</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972663(v=vs.85)">InterlockedIncrement16Acquire</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972663(v=vs.85)">InterlockedIncrement16Acquire</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972664(v=vs.85)">InterlockedIncrement16NoFence</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972664(v=vs.85)">InterlockedIncrement16NoFence</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972665(v=vs.85)">InterlockedIncrement16Release</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972665(v=vs.85)">InterlockedIncrement16Release</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedincrement64">InterlockedIncrement64</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-interlockedincrement64">InterlockedIncrement64</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683618(v=vs.85)">InterlockedIncrementAcquire</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683618(v=vs.85)">InterlockedIncrementAcquire</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683620(v=vs.85)">InterlockedIncrementAcquire64</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683620(v=vs.85)">InterlockedIncrementAcquire64</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972667(v=vs.85)">InterlockedIncrementNoFence</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972667(v=vs.85)">InterlockedIncrementNoFence</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972668(v=vs.85)">InterlockedIncrementNoFence64</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972668(v=vs.85)">InterlockedIncrementNoFence64</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683622(v=vs.85)">InterlockedIncrementRelease</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683622(v=vs.85)">InterlockedIncrementRelease</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683624(v=vs.85)">InterlockedIncrementRelease64</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683624(v=vs.85)">InterlockedIncrementRelease64</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

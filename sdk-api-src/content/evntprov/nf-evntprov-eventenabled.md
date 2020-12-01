@@ -63,7 +63,7 @@ Determines if the event is enabled for any session.
 ### -param RegHandle [in]
 
 Registration handle of the provider. The handle comes from 
-      <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
+      <a href="/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a>.
 
 <div class="alert"><b>Note</b>  A valid registration handle 
       must be used.</div>
@@ -71,7 +71,7 @@ Registration handle of the provider. The handle comes from
 
 ### -param EventDescriptor [in]
 
-Describes the event. For details, see <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
+Describes the event. For details, see <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a>.
 
 ## -returns
 
@@ -86,11 +86,10 @@ Providers may want to call this function if they need to perform extra work to g
     this function first to determine if a session is expecting this event or not, may save resources and time.
 
 The provider would call this function if the provider generated an 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure for the event from the 
+    <a href="/windows/desktop/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure for the event from the 
     manifest. If the event descriptor is not available, call the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventproviderenabled">EventProviderEnabled</a> function.
+    <a href="/windows/desktop/api/evntprov/nf-evntprov-eventproviderenabled">EventProviderEnabled</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventproviderenabled">EventProviderEnabled</a>
-
+<a href="/windows/desktop/api/evntprov/nf-evntprov-eventproviderenabled">EventProviderEnabled</a>

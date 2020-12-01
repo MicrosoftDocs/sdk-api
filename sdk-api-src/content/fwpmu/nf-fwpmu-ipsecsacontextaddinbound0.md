@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 The <b>IPsecSaContextAddInbound0</b> function adds an inbound IPsec security association (SA) bundle to an existing SA context.
-<div class="alert"><b>Note</b>  <b>IPsecSaContextAddInbound0</b> is the specific implementation of IPsecSaContextAddInbound used in Windows Vista. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextaddinbound1">IPsecSaContextAddInbound1</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IPsecSaContextAddInbound0</b> is the specific implementation of IPsecSaContextAddInbound used in Windows Vista. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextaddinbound1">IPsecSaContextAddInbound1</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -59,17 +59,17 @@ The <b>IPsecSaContextAddInbound0</b> function adds an inbound IPsec security ass
 
 Type: <b>HANDLE</b>
 
-Handle for an open session to the filter engine. Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
+Handle for an open session to the filter engine. Call <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmengineopen0">FwpmEngineOpen0</a> to open a session to the filter engine.
 
 ### -param id [in]
 
 Type: <b>UINT64</b>
 
-Identifier for the existing IPsec SA context. This is the value returned in the <i>id</i> parameter by the call to  <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextcreate0">IPsecSaContextCreate0</a>.
+Identifier for the existing IPsec SA context. This is the value returned in the <i>id</i> parameter by the call to  <a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextcreate0">IPsecSaContextCreate0</a>.
 
 ### -param inboundBundle [in]
 
-Type: [IPSEC_SA_BUNDLE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0)*</b>
+Type: [IPSEC_SA_BUNDLE0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0)*</b>
 
 The inbound IPsec SA bundle to be added to the SA context.
 
@@ -102,7 +102,7 @@ The IPsec SA bundle was successfully added to the SA context.
 </dl>
 </td>
 <td width="60%">
-A Windows Filtering Platform (WFP) specific error. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
+A Windows Filtering Platform (WFP) specific error. See <a href="/windows/desktop/FWP/wfp-error-codes">WFP Error Codes</a> for details.
 
 </td>
 </tr>
@@ -122,9 +122,8 @@ Failure to communicate with the remote or local firewall engine.
 
 ## -see-also
 
-[IPSEC_SA_BUNDLE0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0)
+[IPSEC_SA_BUNDLE0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_bundle0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextcreate0">IPsecSaContextCreate0</a>
-
+<a href="/windows/desktop/api/fwpmu/nf-fwpmu-ipsecsacontextcreate0">IPsecSaContextCreate0</a>

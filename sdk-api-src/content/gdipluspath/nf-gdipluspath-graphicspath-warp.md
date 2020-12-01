@@ -57,7 +57,7 @@ The <b>GraphicsPath::Warp</b> method applies a warp transformation to this path.
 
 ### -param destPoints [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>*</b>
 
 Pointer to an array of points that, along with the <i>srcRect</i> parameter, defines the warp transformation.
 
@@ -70,21 +70,21 @@ Integer that specifies the number of points in the
 
 ### -param srcRect [in, ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a></b>
+Type: <b>const <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rectf">RectF</a></b>
 
 Reference to a rectangle that, along with the <i>destPoints</i> parameter, defines the warp transformation.
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>*</b>
 
-Optional. Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that represents a transformation to be applied along with the warp. If this parameter is <b>NULL</b>, no transformation is applied. The default value is <b>NULL</b>.
+Optional. Pointer to a <a href="/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that represents a transformation to be applied along with the warp. If this parameter is <b>NULL</b>, no transformation is applied. The default value is <b>NULL</b>.
 
 ### -param warpMode [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-warpmode">WarpMode</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-warpmode">WarpMode</a></b>
 
-Optional. Element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-warpmode">WarpMode</a> enumeration that specifies the kind of warp to be applied. The default value is WarpModePerspective.
+Optional. Element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-warpmode">WarpMode</a> enumeration that specifies the kind of warp to be applied. The default value is WarpModePerspective.
 
 ### -param flatness [in]
 
@@ -94,16 +94,16 @@ Optional. Real number that influences the number of line segments that are used 
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
+Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object stores a collection of data points that represent lines and curves. The <b>GraphicsPath::Warp</b> method converts those data points so that they represent only lines. The <i>flatness</i> parameter influences the number of lines that are stored. The original data points that represented curves are lost.
+A <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object stores a collection of data points that represent lines and curves. The <b>GraphicsPath::Warp</b> method converts those data points so that they represent only lines. The <i>flatness</i> parameter influences the number of lines that are stored. The original data points that represented curves are lost.
 
 If the 
 				<i>count</i> parameter has a value of 4, the warp transformation is defined as shown in the following table.
@@ -166,7 +166,7 @@ A transformation specified by a source rectangle and three destination points ma
 
 
 
-The following example creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object and adds a closed figure to the path. The code defines a warp transformation by specifying a source rectangle and an array of four destination points. The source rectangle and destination points are passed to the <b>Warp</b> method. The code draws the path twice: once before it has been warped and once after it has been warped.
+The following example creates a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a> object and adds a closed figure to the path. The code defines a warp transformation by specifying a source rectangle and an array of four destination points. The source rectangle and destination points are passed to the <b>Warp</b> method. The code draws the path twice: once before it has been warped and once after it has been warped.
 
 
 ```cpp
@@ -221,45 +221,44 @@ VOID WarpExample(HDC hdc)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-clipping-with-a-region-use">Clipping with a Region</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-clipping-with-a-region-use">Clipping with a Region</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use">Constructing and Drawing Paths</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-creating-a-path-gradient-use">Creating a Path Gradient</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-creating-a-path-gradient-use">Creating a Path Gradient</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-flattening-paths-about">Flattening Paths</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-flattening-paths-about">Flattening Paths</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
+<a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-flatten">GraphicsPath::Flatten</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-flatten">GraphicsPath::Flatten</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-outline">GraphicsPath::Outline</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-outline">GraphicsPath::Outline</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-widen">GraphicsPath::Widen</a>
+<a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-widen">GraphicsPath::Widen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>
+<a href="/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
+<a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-warpmode">WarpMode</a>
-
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-warpmode">WarpMode</a>

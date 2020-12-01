@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Returns an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfiguiinfo">ISyncProviderConfigUIInfo</a> object for the specified synchronization provider instance ID.
+Returns an <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfiguiinfo">ISyncProviderConfigUIInfo</a> object for the specified synchronization provider instance ID.
 
 ## -parameters
 
@@ -132,17 +132,16 @@ The specified instance ID does not match a registered synchronization provider, 
 
 This method is used to get and set the configuration UI properties for the specified  synchronization provider and to obtain the <b>ISyncProviderConfigUI</b> instance.
 
-This method is used to obtain an <b>ISyncProviderConfigUIInfo</b> object when the instance ID is not known, but the instance ID of the  synchronization provider is known. The <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderregistration-getsyncproviderconfiguifrominstanceid">GetSyncProviderConfigUIFromInstanceId</a> method should be used if you want to access an <b>ISyncProviderConfigUIInfo</b> object directly using the instance ID of an <b>ISyncProviderConfigUI</b>.
+This method is used to obtain an <b>ISyncProviderConfigUIInfo</b> object when the instance ID is not known, but the instance ID of the  synchronization provider is known. The <a href="/previous-versions/windows/desktop/api/syncregistration/nf-syncregistration-isyncproviderregistration-getsyncproviderconfiguifrominstanceid">GetSyncProviderConfigUIFromInstanceId</a> method should be used if you want to access an <b>ISyncProviderConfigUIInfo</b> object directly using the instance ID of an <b>ISyncProviderConfigUI</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfiguiinfo">ISyncProviderConfigUIInfo Interface</a>
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfiguiinfo">ISyncProviderConfigUIInfo Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>

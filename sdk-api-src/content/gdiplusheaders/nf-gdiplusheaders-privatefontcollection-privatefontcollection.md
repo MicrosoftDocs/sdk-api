@@ -51,7 +51,6 @@ api_name:
 
 ## -description
 
-Creates an empty <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection">PrivateFontCollection</a> object.
+Creates an empty <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-privatefontcollection">PrivateFontCollection</a> object.
 
 ## -parameters
-

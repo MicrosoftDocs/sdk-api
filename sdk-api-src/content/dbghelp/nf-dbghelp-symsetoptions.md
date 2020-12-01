@@ -120,7 +120,7 @@ All symbol searches are insensitive to case.
 </dl>
 </td>
 <td width="60%">
-Pass debug output through <a href="https://docs.microsoft.com/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a> or the  <a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a> callback function.
+Pass debug output through <a href="/windows/desktop/api/debugapi/nf-debugapi-outputdebugstringw">OutputDebugString</a> or the  <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a> callback function.
 
 </td>
 </tr>
@@ -226,7 +226,7 @@ Ignore the image directory.
 </td>
 <td width="60%">
 Do not use the path specified by <b>_NT_SYMBOL_PATH</b> if the user calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a> without a valid path.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a> without a valid path.
 
 <b>DbgHelp 5.1:  </b>This value is not supported.
 
@@ -392,7 +392,7 @@ The function returns the current options mask.
 The options value can be changed any number of times while the library is in use by an application. The option change affects all future calls to the symbol handler.
 
 To get the current options mask, call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetoptions">SymGetOptions</a> function.
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetoptions">SymGetOptions</a> function.
 
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
@@ -400,15 +400,14 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/initializing-the-symbol-handler">Initializing the Symbol Handler</a>.
+<a href="/windows/desktop/Debug/initializing-the-symbol-handler">Initializing the Symbol Handler</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
+<a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nf-dbghelp-symgetoptions">SymGetOptions</a>
-
+<a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetoptions">SymGetOptions</a>

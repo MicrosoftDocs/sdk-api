@@ -68,9 +68,8 @@ Returns one of the <a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPE
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
+<a href="/windows/desktop/AD/display-interfaces-in-active-directory-domain-services">Display Interfaces in Active Directory Domain Services</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
-
+<a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>

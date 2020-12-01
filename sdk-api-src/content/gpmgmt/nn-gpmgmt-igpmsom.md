@@ -56,7 +56,7 @@ The
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSOM</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMSOM</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSOM</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IGPMSOM</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IGPMSOM</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsom-creategpolink">CreateGPOLink</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsom-creategpolink">CreateGPOLink</a>
 </td>
 <td align="left" width="63%">
 Links a GPO to the specified position and sets various link-specific properties.
@@ -81,7 +81,7 @@ Links a GPO to the specified position and sets various link-specific properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsom-getgpolinks">GetGPOLinks</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsom-getgpolinks">GetGPOLinks</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of GPO links for the SOM.
@@ -90,7 +90,7 @@ Returns a collection of GPO links for the SOM.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsom-getinheritedgpolinks">GetInheritedGPOLinks</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsom-getinheritedgpolinks">GetInheritedGPOLinks</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of GPO links that are applied to the SOM, including links inherited from parent containers.
@@ -99,17 +99,17 @@ Returns a collection of GPO links that are applied to the SOM, including links i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsom-getsecurityinfo">GetSecurityInfo</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsom-getsecurityinfo">GetSecurityInfo</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">GPMPermission</a> objects for the SOM.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">GPMPermission</a> objects for the SOM.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsom-setsecurityinfo">SetSecurityInfo</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmsom-setsecurityinfo">SetSecurityInfo</a>
 </td>
 <td align="left" width="63%">
 Sets the list of permissions for the SOM.
@@ -127,7 +127,7 @@ Sets the list of permissions for the SOM.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmsom-property-methods">GPOInheritanceBlocked</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmsom-property-methods">GPOInheritanceBlocked</a>
 
 
 </td>
@@ -143,7 +143,7 @@ Value that specifies whether GPO inheritance is blocked for the SOM.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmsom-property-methods">Name</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmsom-property-methods">Name</a>
 
 
 </td>
@@ -161,7 +161,7 @@ If IGPMSOM points to an OU, as in "Ou=testou,dc=example,dc=Microsoft,dc=com", th
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmsom-property-methods">Path</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmsom-property-methods">Path</a>
 
 
 </td>
@@ -177,7 +177,7 @@ Distinguished name of the SOM; for example, "ou=MyOU,dc=coname,dc=com".
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/gpmc/igpmsom-property-methods">Type</a>
+<a href="/previous-versions/windows/desktop/gpmc/igpmsom-property-methods">Type</a>
 
 
 </td>
@@ -199,13 +199,12 @@ Type of the SOM. The following types are defined:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmpermission">IGPMPermission</a>

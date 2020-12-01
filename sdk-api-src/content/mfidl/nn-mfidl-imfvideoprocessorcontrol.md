@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Configures the <a href="https://docs.microsoft.com/windows/desktop/medfound/video-processor-mft">Video Processor MFT</a>.
+Configures the <a href="/windows/desktop/medfound/video-processor-mft">Video Processor MFT</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoProcessorControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoProcessorControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFVideoProcessorControl</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFVideoProcessorControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFVideoProcessorControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setbordercolor">SetBorderColor</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setbordercolor">SetBorderColor</a>
 </td>
 <td align="left" width="63%">
 Sets the border color.
@@ -78,7 +78,7 @@ Sets the border color.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setconstrictionsize">SetConstrictionSize</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setconstrictionsize">SetConstrictionSize</a>
 </td>
 <td align="left" width="63%">
 Specifies the amount of downsampling to perform on the output.
@@ -87,7 +87,7 @@ Specifies the amount of downsampling to perform on the output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setdestinationrectangle">SetDestinationRectangle</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setdestinationrectangle">SetDestinationRectangle</a>
 </td>
 <td align="left" width="63%">
 Sets the destination rectangle.
@@ -96,7 +96,7 @@ Sets the destination rectangle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setmirror">SetMirror</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setmirror">SetMirror</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to flip the video image.
@@ -105,7 +105,7 @@ Specifies whether to flip the video image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setrotation">SetRotation</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setrotation">SetRotation</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to rotate the video to the correct orientation.
@@ -114,7 +114,7 @@ Specifies whether to rotate the video to the correct orientation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setsourcerectangle">SetSourceRectangle</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imfvideoprocessorcontrol-setsourcerectangle">SetSourceRectangle</a>
 </td>
 <td align="left" width="63%">
 Sets the source rectangle.
@@ -125,9 +125,8 @@ Sets the source rectangle.
 
 ## -remarks
 
-This interface controls how the <a href="https://docs.microsoft.com/windows/desktop/medfound/video-processor-mft">Video Processor MFT</a> generates output frames.
+This interface controls how the <a href="/windows/desktop/medfound/video-processor-mft">Video Processor MFT</a> generates output frames.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

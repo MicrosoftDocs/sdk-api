@@ -54,7 +54,7 @@ api_name:
 ## -description
 
 Contains disk, volume, or partition length information used by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a> control code.
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a> control code.
 
 ## -struct-fields
 
@@ -64,5 +64,4 @@ The length of the disk, volume, or partition, in bytes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a>
-
+<a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_get_length_info">IOCTL_DISK_GET_LENGTH_INFO</a>

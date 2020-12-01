@@ -59,11 +59,11 @@ Applications will typically not use this interface.
 
 An object can use this interface to resolve possible contentions between existing resources. The object registers the resource with the interface and then requests it whenever needed. The object should notify the filter graph manager whenever the user focus changes. The filter graph manager can then switch contended resources to the objects that have the focus of the user.
 
-An object that uses this interface must implement the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer</a> interface. <b>IResourceConsumer</b> provides a callback mechanism for the filter graph manager to notify the object when a resource becomes available, or when the object should release a resource that it acquired.
+An object that uses this interface must implement the <a href="/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer</a> interface. <b>IResourceConsumer</b> provides a callback mechanism for the filter graph manager to notify the object when a resource becomes available, or when the object should release a resource that it acquired.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResourceManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResourceManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IResourceManager</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IResourceManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IResourceManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-cancelrequest">CancelRequest</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iresourcemanager-cancelrequest">CancelRequest</a>
 </td>
 <td align="left" width="63%">
 Cancels the request for a resource.
@@ -87,7 +87,7 @@ Cancels the request for a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-notifyacquire">NotifyAcquire</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iresourcemanager-notifyacquire">NotifyAcquire</a>
 </td>
 <td align="left" width="63%">
 Notifies the resource manager that an attempt to acquire a resource has completed.
@@ -96,7 +96,7 @@ Notifies the resource manager that an attempt to acquire a resource has complete
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-notifyrelease">NotifyRelease</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iresourcemanager-notifyrelease">NotifyRelease</a>
 </td>
 <td align="left" width="63%">
 Notifies the resource manager that a resource consumer has released a resource.
@@ -105,7 +105,7 @@ Notifies the resource manager that a resource consumer has released a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-register">Register</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iresourcemanager-register">Register</a>
 </td>
 <td align="left" width="63%">
 Registers a single named resource with the resource manager.
@@ -114,7 +114,7 @@ Registers a single named resource with the resource manager.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-registergroup">RegisterGroup</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iresourcemanager-registergroup">RegisterGroup</a>
 </td>
 <td align="left" width="63%">
 Registers a named resource group with the resource manager.
@@ -123,7 +123,7 @@ Registers a named resource group with the resource manager.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-releasefocus">ReleaseFocus</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iresourcemanager-releasefocus">ReleaseFocus</a>
 </td>
 <td align="left" width="63%">
 Sets the focus object to <b>NULL</b> in the resource manager if the object of the current focus object is the one specified in this method.
@@ -132,7 +132,7 @@ Sets the focus object to <b>NULL</b> in the resource manager if the object of th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-requestresource">RequestResource</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iresourcemanager-requestresource">RequestResource</a>
 </td>
 <td align="left" width="63%">
 Requests the use of a given registered resource.
@@ -141,7 +141,7 @@ Requests the use of a given registered resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iresourcemanager-setfocus">SetFocus</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iresourcemanager-setfocus">SetFocus</a>
 </td>
 <td align="left" width="63%">
 Notifies the resource manager that a specified object has been given the focus of the user.
@@ -149,4 +149,3 @@ Notifies the resource manager that a specified object has been given the focus o
 </td>
 </tr>
 </table>
-

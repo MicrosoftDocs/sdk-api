@@ -72,9 +72,8 @@ The rectangle dimensions stored in this structure can correspond to viewport ext
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rect">RECT</a>
+<a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-rectl">RECTL</a>
-
+<a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a>

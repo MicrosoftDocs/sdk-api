@@ -54,7 +54,7 @@ When implemented by a derived class, represents a destination provider that can 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRequestFilteredSync</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRequestFilteredSync</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRequestFilteredSync</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRequestFilteredSync</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IRequestFilteredSync</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-irequestfilteredsync-specifyfilter">SpecifyFilter</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-irequestfilteredsync-specifyfilter">SpecifyFilter</a>
 </td>
 <td align="left" width="63%">
 Negotiates which filter is used by the source provider during change enumeration.
@@ -85,5 +85,4 @@ Typically, <b>IRequestFilteredSync</b> is implemented by a destination provider.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/winsync/windows-sync-interfaces">Windows Sync Interfaces</a>

@@ -55,8 +55,8 @@ api_name:
 ## -description
 
 The <b>MSV1_0_PROTOCOL_MESSAGE_TYPE</b> enumeration lists the types of messages that can be sent to the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/msv1-0-authentication-package">MSV1_0 Authentication Package</a> by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
+<a href="/windows/desktop/SecAuthN/msv1-0-authentication-package">MSV1_0 Authentication Package</a> by calling the 
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function.
 
  Each message corresponds to a dispatch routine and causes the MSV1_0 authentication package to perform a different task.
 
@@ -65,8 +65,8 @@ The <b>MSV1_0_PROTOCOL_MESSAGE_TYPE</b> enumeration lists the types of messages 
 ### -field MsV1_0Lm20ChallengeRequest
 
 This dispatch routine serves as the first half of an NTLM version 2.0 protocol logon. The challenge returned by this call may be delivered to the initiating NTLM 2.0 node. When that node responds with a challenge response, a <b>MsV1_0Lm20Logon</b> message to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function is used to complete the logon. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_logon_submit_type">MSV1_0_LOGON_SUBMIT_TYPE</a>.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a> function is used to complete the logon. For more information, see 
+<a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_logon_submit_type">MSV1_0_LOGON_SUBMIT_TYPE</a>.
 
 ### -field MsV1_0Lm20GetChallengeResponse
 
@@ -75,9 +75,9 @@ This dispatch routine is used by the NTLM redirector to determine the challenge 
 
 
 
-This routine is passed a challenge from the server. It then encrypts the challenge with either the specified password or with the password implied by the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon identifier</a>. Two challenge responses are returned. One is based on the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">Unicode</a> password as given to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">authentication package</a>. The other is based on that password converted to a multiple-byte character set (for example, ASCII) and uppercase. The redirector should use either (or both) formats of challenge responses as it needs them. The redirector should use the returned challenge responses exactly as returned. No zero byte should be added. A challenge response is binary data and might contain zero bytes within the string.
+This routine is passed a challenge from the server. It then encrypts the challenge with either the specified password or with the password implied by the specified <a href="/windows/desktop/SecGloss/l-gly">logon identifier</a>. Two challenge responses are returned. One is based on the <a href="/windows/desktop/SecGloss/u-gly">Unicode</a> password as given to the <a href="/windows/desktop/SecGloss/a-gly">authentication package</a>. The other is based on that password converted to a multiple-byte character set (for example, ASCII) and uppercase. The redirector should use either (or both) formats of challenge responses as it needs them. The redirector should use the returned challenge responses exactly as returned. No zero byte should be added. A challenge response is binary data and might contain zero bytes within the string.
 
-This routine may indicate that a <b>NULL</b> session is to be used. If the redirector specifies all the RETURN_PRIMARY_DOMAINNAME, RETURN_PRIMARY_USERNAME, and USE_PRIMARY_PASSWORD flags, and the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon ID</a> does not correspond to any interactive <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">logon session</a>, this function returns an empty string for the user name and both challenge responses.
+This routine may indicate that a <b>NULL</b> session is to be used. If the redirector specifies all the RETURN_PRIMARY_DOMAINNAME, RETURN_PRIMARY_USERNAME, and USE_PRIMARY_PASSWORD flags, and the <a href="/windows/desktop/SecGloss/l-gly">logon ID</a> does not correspond to any interactive <a href="/windows/desktop/SecGloss/l-gly">logon session</a>, this function returns an empty string for the user name and both challenge responses.
 
 ### -field MsV1_0EnumerateUsers
 
@@ -109,9 +109,9 @@ This dispatch routine changes the password of an account.
 
 ### -field MsV1_0SubAuth
 
- This dispatch routine is called to submit a buffer to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">subauthentication package</a>. If the subauthentication is local, use this dispatch routine. If the subauthentication needs to be processed on the domain controller, use the <b>MsV1_0GenericPassthrough</b> dispatch routine with 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_request">MSV1_0_SUBAUTH_REQUEST</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_response">MSV1_0_SUBAUTH_RESPONSE</a> buffers.
+ This dispatch routine is called to submit a buffer to a <a href="/windows/desktop/SecGloss/s-gly">subauthentication package</a>. If the subauthentication is local, use this dispatch routine. If the subauthentication needs to be processed on the domain controller, use the <b>MsV1_0GenericPassthrough</b> dispatch routine with 
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_request">MSV1_0_SUBAUTH_REQUEST</a> and 
+<a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-msv1_0_subauth_response">MSV1_0_SUBAUTH_RESPONSE</a> buffers.
 
 ### -field MsV1_0DeriveCredential
 
@@ -176,4 +176,3 @@ This dispatch routine sets the features and permissions on  the calling thread. 
 ### -field MsV1_0ProvisionTbal
 
 ### -field MsV1_0DeleteTbalSecrets
-

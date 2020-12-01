@@ -54,7 +54,7 @@ The <b>IHardwareAudioEngineBase</b> interface is implemented by audio endpoints 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHardwareAudioEngineBase</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHardwareAudioEngineBase</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHardwareAudioEngineBase</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHardwareAudioEngineBase</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IHardwareAudioEngineBase</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getavailableoffloadconnectorcount">GetAvailableOffloadConnectorCount</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getavailableoffloadconnectorcount">GetAvailableOffloadConnectorCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of available endpoints for handling offloaded audio streams.
@@ -78,7 +78,7 @@ Retrieves the number of available endpoints for handling offloaded audio streams
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getengineformat">GetEngineFormat</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getengineformat">GetEngineFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current data format for the hardware audio engine.
@@ -87,7 +87,7 @@ Retrieves the current data format for the hardware audio engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getgfxstate">GetGfxState</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-getgfxstate">GetGfxState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the state of the global effects  that are currently applied to the offloaded audio stream.
@@ -96,7 +96,7 @@ Retrieves the state of the global effects  that are currently applied to the off
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-setenginedeviceformat">SetEngineDeviceFormat</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-setenginedeviceformat">SetEngineDeviceFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the data format for the hardware audio engine.
@@ -105,7 +105,7 @@ Sets the data format for the hardware audio engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-setgfxstate">SetGfxState</a>
+<a href="/windows/desktop/api/audioengineendpoint/nf-audioengineendpoint-ihardwareaudioenginebase-setgfxstate">SetGfxState</a>
 </td>
 <td align="left" width="63%">
 Sets the state of the global effects (GFX) that are applied to the offloaded audio stream.
@@ -116,5 +116,4 @@ Sets the state of the global effects (GFX) that are applied to the offloaded aud
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
-
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>

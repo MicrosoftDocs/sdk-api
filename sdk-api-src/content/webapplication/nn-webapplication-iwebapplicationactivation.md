@@ -55,7 +55,7 @@ Enables debugging applications to manage activations.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebApplicationActivation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWebApplicationActivation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWebApplicationActivation</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWebApplicationActivation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IWebApplicationActivation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationactivation-cancelpendingactivation">CancelPendingActivation</a>
+<a href="/previous-versions/windows/desktop/api/webapplication/nf-webapplication-iwebapplicationactivation-cancelpendingactivation">CancelPendingActivation</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending activation.
@@ -78,4 +78,3 @@ Cancels a pending activation.
 </td>
 </tr>
 </table>
-

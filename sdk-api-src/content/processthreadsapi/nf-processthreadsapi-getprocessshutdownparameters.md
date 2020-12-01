@@ -152,17 +152,16 @@ If this process takes longer than the specified timeout to shut down, do not dis
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/child-processes">Processes</a>
+<a href="/windows/desktop/ProcThread/child-processes">Processes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters">SetProcessShutdownParameters</a>
-
+<a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters">SetProcessShutdownParameters</a>

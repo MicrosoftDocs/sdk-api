@@ -69,13 +69,12 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xnamath-reference-functions-conversion">DirectXMath Library Conversion Functions</a>
+<a href="/windows/desktop/dxmath/ovw-xnamath-reference-functions-conversion">DirectXMath Library Conversion Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmconvertfloattohalfstream">XMConvertFloatToHalfStream</a>
+<a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmconvertfloattohalfstream">XMConvertFloatToHalfStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmconverthalftofloat">XMConvertHalfToFloat</a>
-
+<a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmconverthalftofloat">XMConvertHalfToFloat</a>

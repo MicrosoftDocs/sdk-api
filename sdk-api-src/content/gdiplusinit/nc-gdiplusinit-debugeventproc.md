@@ -4,7 +4,7 @@ title: DebugEventProc
 ms.date: 05/07/2020
 ms.topic: language-reference
 targetos: Windows
-description: \**DebugEventProc** is the signature of a callback function that you implement in your application, and pass to the constructor of [**GdiplusStartupInput**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinput).
+description: \**DebugEventProc** is the signature of a callback function that you implement in your application, and pass to the constructor of [**GdiplusStartupInput**](./nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinput.md).
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-**DebugEventProc** is the signature of a callback function that you implement in your application, and pass to the constructor of [**GdiplusStartupInput**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinput).
+**DebugEventProc** is the signature of a callback function that you implement in your application, and pass to the constructor of [**GdiplusStartupInput**](./nf-gdiplusinit-gdiplusstartupinput-gdiplusstartupinput.md).
 
 ## -parameters
 
 ### -param level
 
-A [**DebugEventLevel**](/windows/win32/api/gdiplusinit/ne-gdiplusinit-debugeventlevel) object representing the level of the debug event.
+A [**DebugEventLevel**](./ne-gdiplusinit-debugeventlevel.md) object representing the level of the debug event.
 
 ### -param message
 
@@ -57,4 +57,3 @@ A pointer to a narrow string containing the debug event message.
 ## -remarks
 
 ## -see-also
-

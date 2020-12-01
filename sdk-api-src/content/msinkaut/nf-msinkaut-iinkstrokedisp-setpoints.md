@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Sets the points of the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> using an array of X, Y values.
+Sets the points of the <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp</a> using an array of X, Y values.
 
 ## -parameters
 
@@ -59,15 +59,15 @@ Sets the points of the <a href="https://docs.microsoft.com/windows/desktop/api/m
 
 The array of new points to replace the points in the stroke beginning at <i>index</i>. This is a VARIANT containing an array of Long with the points represented by alternating values of the form x0, y0, x1, y1, x2, y2, and so on.
 
-For more information about the VARIANT structure, see <a href="https://docs.microsoft.com/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
+For more information about the VARIANT structure, see <a href="/windows/desktop/tablet/using-the-com-library">Using the COM Library</a>.
 
 ### -param Index [in, optional]
 
-Optional. The zero-based index of the first point in the stroke to be modified. The default value <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ISC_FirstElement</a>, defined in the <b>ItemSelectionConstants</b> enumeration type, specifies that the first point in the stroke is modified.
+Optional. The zero-based index of the first point in the stroke to be modified. The default value <a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">ISC_FirstElement</a>, defined in the <b>ItemSelectionConstants</b> enumeration type, specifies that the first point in the stroke is modified.
 
 ### -param Count [in, optional]
 
-Optional. The count of points in the stroke to be modified. The default value <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ISC_AllElements</a>, defined in the <b>ItemSelectionConstants</b> enumeration type, specifies that all points in the stroke are modified.
+Optional. The count of points in the stroke to be modified. The default value <a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">ISC_AllElements</a>, defined in the <b>ItemSelectionConstants</b> enumeration type, specifies that all points in the stroke are modified.
 
 ### -param NumberOfPointsSet [out, retval]
 
@@ -136,13 +136,12 @@ This method does not provide for truncating the stroke. If the points array cont
 
 This method does not provide for extending the stroke. If the points array contains more points than the stroke, the extra points are not used. If the count exceeds the number of points in the array, only the number of points in the array are modified.
 
-In order to draw the stroke after calling <b>SetPoints</b>, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a> function.
+In order to draw the stroke after calling <b>SetPoints</b>, call the <a href="/windows/desktop/api/winuser/nf-winuser-invalidaterect">InvalidateRect</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ItemSelectionConstants Enumeration</a>
-
+<a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">ItemSelectionConstants Enumeration</a>

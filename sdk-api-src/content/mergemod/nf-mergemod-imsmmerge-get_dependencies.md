@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>get_Dependencies</b> method retrieves the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-dependencies">Dependencies</a> property of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object.
+<a href="/windows/desktop/Msi/merge-dependencies">Dependencies</a> property of the 
+<a href="/windows/desktop/Msi/merge-object">Merge</a> object.
 
 <b>IMsmMerge2::get_Dependencies</b>    Mergemod.dll version 2.0 or later.<div> </div><b>IMsmMerge::get_Dependencies</b>      All Mergemod.dll versions.
 
@@ -136,5 +136,4 @@ A module does not need to be open to retrieve dependency information. The client
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

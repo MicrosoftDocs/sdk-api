@@ -68,9 +68,8 @@ Any optional constraints to be put on the profile.
 
 ### -param ppProfile [out]
 
-On success, returns a double pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofile">IMFSensorProfile</a> containing the sensor profile.
+On success, returns a double pointer to the <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofile">IMFSensorProfile</a> containing the sensor profile.
 
 ## -returns
 
 This function does not return a value.
-

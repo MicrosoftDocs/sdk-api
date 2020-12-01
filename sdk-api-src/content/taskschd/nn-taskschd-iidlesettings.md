@@ -50,30 +50,29 @@ api_name:
 
 ## -description
 
-Specifies how the Task Scheduler performs tasks when the computer is in an idle condition. For information about idle conditions, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-idle-conditions">Task Idle Conditions</a>.
+Specifies how the Task Scheduler performs tasks when the computer is in an idle condition. For information about idle conditions, see <a href="/windows/desktop/TaskSchd/task-idle-conditions">Task Idle Conditions</a>.
 
 ## -remarks
 
-When reading or writing XML for a task, this setting is specified in the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/taskschedulerschema-idlesettings-settingstype-element">IdleSettings</a> element of the Task Scheduler schema.
+When reading or writing XML for a task, this setting is specified in the <a href="/windows/desktop/TaskSchd/taskschedulerschema-idlesettings-settingstype-element">IdleSettings</a> element of the Task Scheduler schema.
 
-If a task is triggered by an idle trigger, then the <a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_waittimeout">WaitTimeout</a> property of the <b>IIdleSettings</b> interface is ignored.
+If a task is triggered by an idle trigger, then the <a href="/windows/desktop/api/taskschd/nf-taskschd-iidlesettings-get_waittimeout">WaitTimeout</a> property of the <b>IIdleSettings</b> interface is ignored.
 
 
 #### Examples
 
-For more information and example code for this interface, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/time-trigger-example--c---">Time Trigger Example (C++)</a>.
+For more information and example code for this interface, see <a href="/windows/desktop/TaskSchd/time-trigger-example--c---">Time Trigger Example (C++)</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
+<a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
+<a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>
-
+<a href="/windows/desktop/TaskSchd/task-scheduler-interfaces">Task Scheduler Interfaces</a>

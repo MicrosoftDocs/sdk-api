@@ -58,7 +58,7 @@ The
 ### -param hMprConfig [in]
 
 Handle to the router configuration. Obtain this handle by calling 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>.
 
 ### -param dwLevel [in]
 
@@ -71,17 +71,17 @@ A DWORD value that describes the format in which the information is returned in 
 </tr>
 <tr>
 <td>0</td>
-<td>Windows 2000 Server or later: <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_0">MPR_SERVER_0</a>
+<td>Windows 2000 Server or later: <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_0">MPR_SERVER_0</a>
 </td>
 </tr>
 <tr>
 <td>1</td>
-<td>Windows Server 2003 or later: <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>
+<td>Windows Server 2003 or later: <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>
 </td>
 </tr>
 <tr>
 <td>2</td>
-<td>Windows Server 2008 or later: <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a>
+<td>Windows Server 2008 or later: <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a>
 </td>
 </tr>
 </table>
@@ -89,11 +89,11 @@ A DWORD value that describes the format in which the information is returned in 
 ### -param lplpbBuffer [out]
 
 On successful completion, a pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_0">MPR_SERVER_0</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>,  
-or   <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_0">MPR_SERVER_0</a>, 
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>,  
+or   <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a> structure. The <i>dwLevel</i> parameter indicates the type of structure.
 					Free the memory for this buffer using 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>.
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>.
 
 ## -returns
 
@@ -144,7 +144,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -152,37 +152,36 @@ Use
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_0">MPR_SERVER_0</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_0">MPR_SERVER_0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_1">MPR_SERVER_1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a>
+<a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_server_2">MPR_SERVER_2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigbufferfree">MprConfigBufferFree</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserverconnect">MprConfigServerConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfo">MprConfigServerSetInfo</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigserversetinfo">MprConfigServerSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
+<a href="/windows/desktop/RRAS/router-configuration-functions">Router Configuration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-
+<a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>

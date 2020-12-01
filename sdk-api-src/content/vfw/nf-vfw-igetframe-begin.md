@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Begin</b> method prepares to extract and decompress copies of frames from a stream. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreamgetframeopen">AVIStreamGetFrameOpen</a> function.
+The <b>Begin</b> method prepares to extract and decompress copies of frames from a stream. Called when an application uses the <a href="/windows/desktop/api/vfw/nf-vfw-avistreamgetframeopen">AVIStreamGetFrameOpen</a> function.
 
 ## -parameters
 
@@ -90,9 +90,8 @@ HRESULT Begin(LONG lStart, LONG lEnd, LONG lRate);
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>

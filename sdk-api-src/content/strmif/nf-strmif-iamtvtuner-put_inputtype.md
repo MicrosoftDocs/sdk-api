@@ -61,7 +61,7 @@ Index value that specifies the input pin to be set.
 
 ### -param InputType [in]
 
-Value indicating the connection type, as specified in the [TunerInputType](https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-tunerinputtype) enumeration.
+Value indicating the connection type, as specified in the [TunerInputType](/windows/desktop/api/strmif/ne-strmif-tunerinputtype) enumeration.
 
 ## -returns
 
@@ -69,13 +69,12 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner Interface</a>
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtvtuner">IAMTVTuner Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>

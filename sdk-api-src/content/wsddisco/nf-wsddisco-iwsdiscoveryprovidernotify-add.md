@@ -56,7 +56,7 @@ Provides information on either a newly announced discovery host (from a Hello me
 
 ### -param pService [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> interface that represents a remote discovery host.
+A pointer to an <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a> interface that represents a remote discovery host.
 
 ## -returns
 
@@ -71,5 +71,4 @@ The return value is not meaningful. An implementer should return S_OK.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovidernotify">IWSDiscoveryProviderNotify</a>
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovidernotify">IWSDiscoveryProviderNotify</a>

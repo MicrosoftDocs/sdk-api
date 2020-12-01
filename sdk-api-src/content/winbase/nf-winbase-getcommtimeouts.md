@@ -61,42 +61,41 @@ Retrieves the time-out parameters for all read and write operations on a specifi
 ### -param hFile [in]
 
 A handle to the communications device. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> function returns this handle.
 
 ### -param lpCommTimeouts [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a> structure in which the time-out information is returned.
+<a href="/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a> structure in which the time-out information is returned.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 For more information about time-out values for communications devices, see the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>function.
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a>
+<a href="/windows/desktop/api/winbase/ns-winbase-commtimeouts">COMMTIMEOUTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-functions">Communications Functions</a>
+<a href="/windows/desktop/DevIO/communications-functions">Communications Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DevIO/communications-resources">Communications Resources</a>
+<a href="/windows/desktop/DevIO/communications-resources">Communications Resources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>

@@ -56,17 +56,16 @@ Multiplies the two matrices and stores the result in this matrix.
 
 ### -param a [ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
+Type: <b>const <a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
 
 The first matrix to multiply.
 
 ### -param b [ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
+Type: <b>const <a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a></b>
 
 The second matrix to multiply.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
-
+<a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>

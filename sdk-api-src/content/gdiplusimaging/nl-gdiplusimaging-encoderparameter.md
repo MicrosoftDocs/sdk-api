@@ -58,21 +58,20 @@ An <b>EncoderParameter</b> object holds a parameter that can be passed to an ima
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-encoderparametervaluetype">EncoderParameterValueType</a>
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-encoderparametervaluetype">EncoderParameterValueType</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a>
+<a href="/previous-versions/ms534435(v=vs.85)">EncoderParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlist">Image::GetEncoderParameterList</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlist">Image::GetEncoderParameterList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlistsize">Image::GetEncoderParameterListSize</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlistsize">Image::GetEncoderParameterListSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use">Using Image Encoders and Decoders</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use">Using Image Encoders and Decoders</a>

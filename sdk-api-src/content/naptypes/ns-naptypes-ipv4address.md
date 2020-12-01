@@ -62,9 +62,8 @@ An array that contains an IPv4 network address in network byte order.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-reference">NAP Reference</a>
+<a href="/windows/desktop/NAP/nap-reference">NAP Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NAP/nap-structures">NAP Structures</a>
-
+<a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>

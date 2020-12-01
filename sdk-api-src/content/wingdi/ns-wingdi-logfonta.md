@@ -447,7 +447,7 @@ Font families describe the look of a font in a general way. They are intended fo
 
 ### -field lfFaceName
 
-A null-terminated string that specifies the typeface name of the font. The length of this string must not exceed 32 <b>TCHAR</b> values, including the terminating <b>NULL</b>. The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a> function can be used to enumerate the typeface names of all currently available fonts. If <b>lfFaceName</b> is an empty string, GDI uses the first font that matches the other specified attributes.
+A null-terminated string that specifies the typeface name of the font. The length of this string must not exceed 32 <b>TCHAR</b> values, including the terminating <b>NULL</b>. The <a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a> function can be used to enumerate the typeface names of all currently available fonts. If <b>lfFaceName</b> is an empty string, GDI uses the first font that matches the other specified attributes.
 
 ## -remarks
 
@@ -469,21 +469,20 @@ The following situations do not support ClearType antialiasing:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createfonta">CreateFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-createfontindirecta">CreateFontIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-enumfontfamiliesexa">EnumFontFamiliesEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
+<a href="/windows/desktop/gdi/font-and-text-structures">Font and Text Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
-
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>

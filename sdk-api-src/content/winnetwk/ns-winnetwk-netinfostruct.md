@@ -56,7 +56,7 @@ api_name:
 
 The
 				<b>NETINFOSTRUCT</b> structure contains information describing the network provider returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a> function.
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a> function.
 
 ## -struct-fields
 
@@ -206,13 +206,12 @@ The <b>NETINFOSTRUCT</b> structure contains information describing the network, 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a>
+<a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetnetworkinformationa">WNetGetNetworkInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-wnet-">Windows Networking (WNet) Overview</a>
+<a href="/windows/desktop/WNet/windows-networking-wnet-">Windows Networking (WNet) Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>
-
+<a href="/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>

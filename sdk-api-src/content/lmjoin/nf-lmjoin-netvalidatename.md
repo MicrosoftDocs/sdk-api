@@ -466,35 +466,34 @@ int wmain(int argc, wchar_t * argv[])
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/directory-service-functions">Directory Service Functions</a>
+<a href="/windows/desktop/NetMgmt/directory-service-functions">Directory Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netgetjoininformation">NetGetJoinInformation</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netgetjoininformation">NetGetJoinInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netgetjoinableous">NetGetJoinableOUs</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netgetjoinableous">NetGetJoinableOUs</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netjoindomain">NetJoinDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netrenamemachineindomain">NetRenameMachineInDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
+<a href="/windows/desktop/api/lmjoin/nf-lmjoin-netunjoindomain">NetUnjoinDomain</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-functions">Network
+<a href="/windows/desktop/NetMgmt/network-management-functions">Network
 		  Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management
+<a href="/windows/desktop/NetMgmt/network-management">Network Management
 		  Overview</a>
-

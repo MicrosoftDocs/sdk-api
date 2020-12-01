@@ -123,13 +123,12 @@ OLE could not find an implementation of one or more required interfaces.
 </table>
  
 
-Additional errors may be returned from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-getactiveobject">GetActiveObject</a> or <b>CoCreateInstance</b>.
+Additional errors may be returned from <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-getactiveobject">GetActiveObject</a> or <b>CoCreateInstance</b>.
 
 ## -remarks
 
-For types that describe a component object class (coclass), <b>CreateInstance</b> creates a new instance of the class. Normally, <b>CreateInstance</b> calls <b>CoCreateInstance</b> with the type description's GUID. For an Application object, it first calls <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-getactiveobject">GetActiveObject</a>. If the application is active, <b>GetActiveObject</b> returns the active object; otherwise, if <b>GetActiveObject</b> fails, <b>CreateInstance</b> calls <b>CoCreateInstance</b>.
+For types that describe a component object class (coclass), <b>CreateInstance</b> creates a new instance of the class. Normally, <b>CreateInstance</b> calls <b>CoCreateInstance</b> with the type description's GUID. For an Application object, it first calls <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-getactiveobject">GetActiveObject</a>. If the application is active, <b>GetActiveObject</b> returns the active object; otherwise, if <b>GetActiveObject</b> fails, <b>CreateInstance</b> calls <b>CoCreateInstance</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>

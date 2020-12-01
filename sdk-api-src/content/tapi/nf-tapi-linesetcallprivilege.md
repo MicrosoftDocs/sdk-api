@@ -62,7 +62,7 @@ Handle to the call whose privilege is to be set. The call state of <i>hCall</i> 
 ### -param dwCallPrivilege
 
 Required privilege for the specified call. This parameter uses one and only one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linecallprivilege--constants">LINECALLPRIVILEGE_ Constants</a>.
+<a href="/windows/desktop/Tapi/linecallprivilege--constants">LINECALLPRIVILEGE_ Constants</a>.
 
 ## -returns
 
@@ -73,17 +73,16 @@ LINEERR_INVALCALLHANDLE, LINEERR_OPERATIONFAILED, LINEERR_INVALCALLSTATE, LINEER
 ## -remarks
 
 If the application is the sole owner of a non-idle call and can change its privilege to monitor, a LINEERR_INVALCALLSTATE error is returned. The application can also first drop the call using 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a> to make the call transition to the <i>idle</i> state and then change its privilege.
+<a href="/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a> to make the call transition to the <i>idle</i> state and then change its privilege.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/basic-telephony-services-reference">Basic Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linedrop">lineDrop</a>

@@ -54,7 +54,7 @@ Used exclusively in lightweight client-side handlers that require access to some
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInternalUnknown</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInternalUnknown</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInternalUnknown</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInternalUnknown</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IInternalUnknown</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iinternalunknown-queryinternalinterface">QueryInternalInterface</a>
+<a href="/windows/desktop/api/objidl/nf-objidl-iinternalunknown-queryinternalinterface">QueryInternalInterface</a>
 </td>
 <td align="left" width="63%">
 Retrieves pointers to the supported internal interfaces on an object.
@@ -80,23 +80,22 @@ Retrieves pointers to the supported internal interfaces on an object.
 
 ## -remarks
 
-Handlers that need access to some of the internal interfaces on the proxy manager have to go through the <b>IInternalUnknown</b> interface. This prevents the handlers from blindly delegating and exposing the aggregatee's internal interfaces outside of the aggregate. These interfaces include <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a> and <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imultiqi">IMultiQI</a>. If the handler wants to expose <b>IClientSecurity</b> or <b>IMultiQI</b>, the handler should implement these interfaces itself and delegate to the proxy manager's implementation of these interfaces when appropriate.
+Handlers that need access to some of the internal interfaces on the proxy manager have to go through the <b>IInternalUnknown</b> interface. This prevents the handlers from blindly delegating and exposing the aggregatee's internal interfaces outside of the aggregate. These interfaces include <a href="/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a> and <a href="/windows/desktop/api/objidl/nn-objidl-imultiqi">IMultiQI</a>. If the handler wants to expose <b>IClientSecurity</b> or <b>IMultiQI</b>, the handler should implement these interfaces itself and delegate to the proxy manager's implementation of these interfaces when appropriate.
 
-For the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a> interface, if the client tries to set the security on an interface that the handler has exposed, the handler should set the security on the underlying network interface proxy.
+For the <a href="/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a> interface, if the client tries to set the security on an interface that the handler has exposed, the handler should set the security on the underlying network interface proxy.
 
 
 
-For the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imultiqi">IMultiQI</a> interface, the handler should fill in the interfaces it knows about and then forward the call to the proxy manager to fill in the rest of the interfaces.
+For the <a href="/windows/desktop/api/objidl/nn-objidl-imultiqi">IMultiQI</a> interface, the handler should fill in the interfaces it knows about and then forward the call to the proxy manager to fill in the rest of the interfaces.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imultiqi">IMultiQI</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-imultiqi">IMultiQI</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/the-lightweight-client-side-handler">Lightweight Client-Side Handler</a>
-
+<a href="/windows/desktop/com/the-lightweight-client-side-handler">Lightweight Client-Side Handler</a>

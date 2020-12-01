@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Returns the index of the item that has the focus in a tab control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/tcm-getcurfocus">TCM_GETCURFOCUS</a> message explicitly.
+Returns the index of the item that has the focus in a tab control. You can use this macro or send the <a href="/windows/desktop/Controls/tcm-getcurfocus">TCM_GETCURFOCUS</a> message explicitly.
 
 ## -parameters
 
 ### -param hwnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the tab control.
 
 ## -remarks
 
 The item that has the focus may be different than the selected item.
-

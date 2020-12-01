@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>VMRALPHABITMAP</b> structure is used in the VMR-7 filter's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> methods when the application is providing a static alpha-blended bitmap to be displayed on the composited video frame.
+The <b>VMRALPHABITMAP</b> structure is used in the VMR-7 filter's <a href="/windows/win32/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRMixerBitmap</a> methods when the application is providing a static alpha-blended bitmap to be displayed on the composited video frame.
 
 ## -struct-fields
 
@@ -123,7 +123,7 @@ The <b>clrSrcKey</b> value is valid and should be used when blending.
 <td width="60%">
 Indicates that the <b>rSrc</b> rectangle is valid and specifies a sub-rectangle of the original app image to be blended. 
 
-This flag is only valid for the  <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixerbitmap-updatealphabitmapparameters">IVMRMixerBitmap::UpdateAlphaBitmapParameters</a> method. For the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ivmrmixerbitmap-setalphabitmap">IVMRMixerBitmap::SetAlphaBitmap</a> method, the <b>rSrc</b> member must refer to the entire bitmap.
+This flag is only valid for the  <a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixerbitmap-updatealphabitmapparameters">IVMRMixerBitmap::UpdateAlphaBitmapParameters</a> method. For the <a href="/windows/desktop/api/strmif/nf-strmif-ivmrmixerbitmap-setalphabitmap">IVMRMixerBitmap::SetAlphaBitmap</a> method, the <b>rSrc</b> member must refer to the entire bitmap.
 
 </td>
 </tr>
@@ -156,5 +156,4 @@ Specifies the source color key.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-
+<a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>

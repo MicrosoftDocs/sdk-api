@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href=" http://www.microsoft.com/en-us/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href=" http://www.microsoft.com/en-us/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Flags that control the filtering process.
 
@@ -87,11 +87,11 @@ Indicates that the client wants text split into chunks representing properties d
 
 ### -field IFILTER_INIT_INDEXING_ONLY
 
-Optimizes <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> for indexing because the client calls the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-init">IFilter::Init</a> method only once and does not call <a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-bindregion">IFilter::BindRegion</a>. This eliminates the possibility of accessing a chunk both before and after accessing another chunk.
+Optimizes <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> for indexing because the client calls the <a href="/windows/desktop/api/filter/nf-filter-ifilter-init">IFilter::Init</a> method only once and does not call <a href="/windows/desktop/api/filter/nf-filter-ifilter-bindregion">IFilter::BindRegion</a>. This eliminates the possibility of accessing a chunk both before and after accessing another chunk.
 
 ### -field IFILTER_INIT_SEARCH_LINKS
 
-The text extraction process must recursively search all linked objects within the document. If a link is unavailable, the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-getchunk">IFilter::GetChunk</a> call that would have obtained the first chunk of the link should return FILTER_E_LINK_UNAVAILABLE.
+The text extraction process must recursively search all linked objects within the document. If a link is unavailable, the <a href="/windows/desktop/api/filter/nf-filter-ifilter-getchunk">IFilter::GetChunk</a> call that would have obtained the first chunk of the link should return FILTER_E_LINK_UNAVAILABLE.
 
 ### -field IFILTER_INIT_FILTER_OWNED_VALUE_OK
 
@@ -111,22 +111,21 @@ TBD
 
 ## -remarks
 
-Generally, text output by the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-gettext">IFilter::GetText</a> method should match exactly the actual text of the document. However, in order to achieve maximum interoperability, some standardization of common features is desirable. These features include paragraph breaks, line breaks, hyphens and spaces. <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface servers can also embed null characters in text, which are nearly ignored by clients. That is, Unicode character 0x0000 is completely ignored and 0x0001 is treated as a word break.
+Generally, text output by the <a href="/windows/desktop/api/filter/nf-filter-ifilter-gettext">IFilter::GetText</a> method should match exactly the actual text of the document. However, in order to achieve maximum interoperability, some standardization of common features is desirable. These features include paragraph breaks, line breaks, hyphens and spaces. <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface servers can also embed null characters in text, which are nearly ignored by clients. That is, Unicode character 0x0000 is completely ignored and 0x0001 is treated as a word break.
 
 Four flags control text standardization: IFILTER_INIT_CANON_PARAGRAPHS, IFILTER_INIT_HARD_LINE_BREAKS, IFILTER_INIT_CANON_HYPHENS, and IFILTER_INIT_CANON_SPACES.
 
-Different clients of the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface want different views of an object. Three flags, IFILTER_INIT_APPLY_INDEX_ATTRIBUTES, IFILTER_INIT_APPLY_CRAWL_ATTRIBUTES, and IFILTER_INIT_APPLY_OTHER_ATTRIBUTES, control the set of properties that should be applied to chunks. In addition, specific properties can be requested in calls to the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nf-filter-ifilter-init">IFilter::Init</a> method as an array of size cAttributes, stored in aAttributes.
+Different clients of the <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface want different views of an object. Three flags, IFILTER_INIT_APPLY_INDEX_ATTRIBUTES, IFILTER_INIT_APPLY_CRAWL_ATTRIBUTES, and IFILTER_INIT_APPLY_OTHER_ATTRIBUTES, control the set of properties that should be applied to chunks. In addition, specific properties can be requested in calls to the <a href="/windows/desktop/api/filter/nf-filter-ifilter-init">IFilter::Init</a> method as an array of size cAttributes, stored in aAttributes.
 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface implementations need to store some chunk information when operations other than content indexing occur. IFILTER_INIT_INDEXING_ONLY optimizes the filter for indexing.
+<a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface implementations need to store some chunk information when operations other than content indexing occur. IFILTER_INIT_INDEXING_ONLY optimizes the filter for indexing.
 
 For viewing purposes, it can be desirable to search across links as well as in the document and any objects it embeds. IFILTER_INIT_SEARCH_LINKS specifies recursively searching all links.
 
-Certain <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface implementations might generate property values during the content indexing process, and IFILTER_INIT_FILTER_OWNED_VALUE_OK indicates that it is OK to return these values.
+Certain <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> interface implementations might generate property values during the content indexing process, and IFILTER_INIT_FILTER_OWNED_VALUE_OK indicates that it is OK to return these values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>
-
+<a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>

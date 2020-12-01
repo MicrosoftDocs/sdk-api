@@ -75,15 +75,14 @@ This method can return the following error codes.
 
 ## -remarks
 
-The file screen template name is specified when you call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-createtemplate">IFsrmFileScreenTemplateManager::CreateTemplate</a> method. To enumerate the templates, call the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-enumtemplates">IFsrmFileScreenTemplateManager::EnumTemplates</a> method.
+The file screen template name is specified when you call the <a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-createtemplate">IFsrmFileScreenTemplateManager::CreateTemplate</a> method. To enumerate the templates, call the <a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-enumtemplates">IFsrmFileScreenTemplateManager::EnumTemplates</a> method.
 
-You can also use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-exporttemplates">IFsrmFileScreenTemplateManager::ExportTemplates</a> method to export the templates.
+You can also use the <a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreentemplatemanager-exporttemplates">IFsrmFileScreenTemplateManager::ExportTemplates</a> method to export the templates.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/fsrmexportimport">FsrmExportImport</a>
+<a href="/previous-versions/windows/desktop/fsrm/fsrmexportimport">FsrmExportImport</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmexportimport">IFsrmExportImport</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmexportimport">IFsrmExportImport</a>

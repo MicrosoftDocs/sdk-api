@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Deprecated. Reverts to the current entry, dropping the result of <a href="https://docs.microsoft.com/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-addentry">ITravelLog::AddEntry</a> in the case of a failed navigation.
+Deprecated. Reverts to the current entry, dropping the result of <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-itravellog-addentry">ITravelLog::AddEntry</a> in the case of a failed navigation.
 
 ## -parameters
 
@@ -60,4 +60,3 @@ Deprecated. Reverts to the current entry, dropping the result of <a href="https:
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -53,15 +53,15 @@ api_name:
 
 The 
 <b>IWbemObjectSink::SetStatus</b> method is called by sources  to indicate the end of a notification sequence, or to send other status codes to the sink. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> method may or may not have been called before the call to 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a> method may or may not have been called before the call to 
 <b>SetStatus</b>.
 
 Typically, a client implements the 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> interface, and executes 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> methods that return their results using the 
+<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> interface, and executes 
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a> methods that return their results using the 
 <b>IWbemObjectSink</b> interface. During this operation, WMI calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a> as many times as required, followed by a final call to 
-<b>SetStatus</b>, and in many cases, <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>.
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">Indicate</a> as many times as required, followed by a final call to 
+<b>SetStatus</b>, and in many cases, <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>.
 
 ## -parameters
 
@@ -94,13 +94,13 @@ This parameter is set to the <b>HRESULT</b> of the asynchronous operation or not
 ### -param strParam [in]
 
 Receives a pointer to a read-only <b>BSTR</b>, if the original asynchronous operation returns a string. For example, when using 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstanceasync">PutInstanceAsync</a>, 
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstanceasync">PutInstanceAsync</a>, 
 <b>SetStatus</b> is called with this parameter set to the object path of the newly created instance.
 
 ### -param pObjParam [in]
 
 In cases where a complex error or status object is returned, this contains a pointer to the error object. If the object is required after 
-<b>SetStatus</b> returns, the called object must use the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the pointer before the called object returns.
+<b>SetStatus</b> returns, the called object must use the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the pointer before the called object returns.
 
 ## -returns
 
@@ -108,7 +108,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 ## -remarks
 
-When implementing an event subscription sink (<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> or <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemeventsink">IWbemEventSink</a>), do  not call into WMI from within the <b>SetStatus</b>  method on the sink object.  For example, calling <a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-cancelasynccall">IWbemServices::CancelAsyncCall</a>  from within an implementation of <b>SetStatus</b> can interfere with the WMI state. To cancel an event subscription, set a flag and call <b>IWbemServices::CancelAsyncCall</b> from another thread or object. For implementations that are not related to an event sink, such as object, enum, and query retrievals, you can call back into WMI.
+When implementing an event subscription sink (<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a> or <a href="/windows/desktop/WmiSdk/iwbemeventsink">IWbemEventSink</a>), do  not call into WMI from within the <b>SetStatus</b>  method on the sink object.  For example, calling <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-cancelasynccall">IWbemServices::CancelAsyncCall</a>  from within an implementation of <b>SetStatus</b> can interfere with the WMI state. To cancel an event subscription, set a flag and call <b>IWbemServices::CancelAsyncCall</b> from another thread or object. For implementations that are not related to an event sink, such as object, enum, and query retrievals, you can call back into WMI.
 
 Sink implementations should process the event notification within 100 MSEC because the WMI thread that delivers the event notification cannot do other work until the sink object has completed processing. If the notification requires a large amount of processing, the sink can use an internal queue for another thread to handle the processing. For implementations that are not related to an event sink, such as object, enum, and query retrievals, you can call back into WMI.
 
@@ -119,21 +119,20 @@ If you do not specify <b>WBEM_FLAG_SEND_STATUS</b> when calling your provider or
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>
+<a href="/windows/desktop/WmiSdk/iwbemobjectsink">IWbemObjectSink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemobjectsink-indicate">IWbemObjectSink::Indicate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectsinkex">IWbemObjectSinkEx</a>
+<a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectsinkex">IWbemObjectSinkEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execqueryasync">IWbemServices::ExecQueryAsync</a>
+<a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execqueryasync">IWbemServices::ExecQueryAsync</a>
 
 
 
 <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_status_type">WBEM_STATUS_TYPE</a>
-

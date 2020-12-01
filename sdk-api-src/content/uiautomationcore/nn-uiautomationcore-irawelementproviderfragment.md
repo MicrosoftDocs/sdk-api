@@ -55,7 +55,7 @@ Exposes methods and properties on UI elements that are part of a structure more 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderFragment</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRawElementProviderFragment</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRawElementProviderFragment</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IRawElementProviderFragment</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -71,7 +71,7 @@ The <b>IRawElementProviderFragment</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-getembeddedfragmentroots">GetEmbeddedFragmentRoots</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-getembeddedfragmentroots">GetEmbeddedFragmentRoots</a>
 </td>
 <td align="left" width="63%">
 Retrieves an array of root fragments that are embedded in the UI Automation tree rooted at the current element. 
@@ -80,7 +80,7 @@ Retrieves an array of root fragments that are embedded in the UI Automation tree
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-getruntimeid">GetRuntimeId</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-getruntimeid">GetRuntimeId</a>
 </td>
 <td align="left" width="63%">
 Retrieves the runtime identifier of an element.
@@ -89,7 +89,7 @@ Retrieves the runtime identifier of an element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-navigate">Navigate</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-navigate">Navigate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the UI Automation element in a specified direction within the UI Automation tree.
@@ -98,7 +98,7 @@ Retrieves the UI Automation element in a specified direction within the UI Autom
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-setfocus">SetFocus</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-setfocus">SetFocus</a>
 </td>
 <td align="left" width="63%">
 Sets the focus to this element.
@@ -116,7 +116,7 @@ Sets the focus to this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-get_boundingrectangle">BoundingRectangle</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-get_boundingrectangle">BoundingRectangle</a>
 
 
 </td>
@@ -132,7 +132,7 @@ Specifies the bounding rectangle of this element.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-get_fragmentroot">FragmentRoot</a>
+<a href="/windows/desktop/api/uiautomationcore/nf-uiautomationcore-irawelementproviderfragment-get_fragmentroot">FragmentRoot</a>
 
 
 </td>
@@ -149,17 +149,16 @@ Specifies the root node of the fragment.
 
 ## -remarks
 
-The root node of the fragment must also support the <a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a> interface.
+The root node of the fragment must also support the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragmentroot">IRawElementProviderFragmentRoot</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>
+<a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>
 
 
 
 <b>Reference</b>
-

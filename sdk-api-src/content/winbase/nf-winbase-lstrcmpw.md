@@ -61,7 +61,7 @@ api_name:
 
 Compares two character strings. The comparison is case-sensitive.
 
-To perform a comparison that is not case-sensitive, use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a> function.
+To perform a comparison that is not case-sensitive, use the <a href="/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a> function.
 
 ## -parameters
 
@@ -93,16 +93,16 @@ The <b>lstrcmp</b> function compares two strings by checking the first character
 
  Note that the <i>lpString1</i> and <i>lpString2</i> parameters must be null-terminated, otherwise the string comparison can be incorrect. 
 
-The function calls <a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>, using the current thread locale, and subtracts 2 from the result, to maintain the C run-time conventions for comparing strings. 
+The function calls <a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>, using the current thread locale, and subtracts 2 from the result, to maintain the C run-time conventions for comparing strings. 
 
 The language (user locale) selected by the user at setup time, or through Control Panel, determines which string is greater (or whether the strings are the same). If no language (user locale) is selected, the system performs the comparison by using default values.
 
 With a double-byte character set (DBCS) version of the system, this function can compare two DBCS strings. 
 
-The <b>lstrcmp</b> function uses a word sort, rather than a string sort. A word sort treats hyphens and apostrophes differently than it treats other symbols that are not alphanumeric, in order to ensure that words such as "coop" and "co-op" stay together within a sorted list. For a detailed discussion of word sorts and string sorts, see <a href="https://docs.microsoft.com/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>. 
+The <b>lstrcmp</b> function uses a word sort, rather than a string sort. A word sort treats hyphens and apostrophes differently than it treats other symbols that are not alphanumeric, in order to ensure that words such as "coop" and "co-op" stay together within a sorted list. For a detailed discussion of word sorts and string sorts, see <a href="/windows/desktop/Intl/handling-sorting-in-your-applications">Handling Sorting in Your Applications</a>. 
 
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
-See <a href="https://docs.microsoft.com/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a> for security considerations regarding 
+See <a href="/windows/desktop/Intl/security-considerations--international-features">Security Considerations: International Features</a> for security considerations regarding 
 
 choice of comparison functions.
 
@@ -115,15 +115,15 @@ choice of comparison functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringw">CompareString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringex">CompareStringEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/stringapiset/nf-stringapiset-comparestringordinal">CompareStringOrdinal</a>
+<a href="/windows/desktop/api/stringapiset/nf-stringapiset-comparestringordinal">CompareStringOrdinal</a>
 
 
 
@@ -139,21 +139,20 @@ choice of comparison functions.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/strings">Strings</a>
+<a href="/windows/desktop/menurc/strings">Strings</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcata">lstrcat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcmpia">lstrcmpi</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrcpya">lstrcpy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>

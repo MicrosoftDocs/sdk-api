@@ -84,7 +84,7 @@ Returns S_OK if successful, <b>HRESULT_FROM_WIN32(ERROR_PATH_NOT_FOUND)</b> if t
 
 The <b>GetScopeStatistics</b> event can be used to get the number of indexed items in the scope, the number of outstanding docs to be added in the scope, and the number of docs that need to be re-indexed within this scope.
 
-Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-searchevents">SearchEvents code sample</a>.
+Check out the <a href="/windows/win32/search/-search-sample-searchevents">SearchEvents code sample</a>.
 
 ## -see-also
 
@@ -92,15 +92,15 @@ Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-irowsetevents">IRowsetEvents</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-irowsetevents">IRowsetEvents</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-irowsetprioritization">IRowsetPrioritization</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-irowsetprioritization">IRowsetPrioritization</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/indexing-prioritization-and-rowset-events">Indexing Prioritization and Rowset Events in Windows 7</a>
+<a href="/windows/desktop/search/indexing-prioritization-and-rowset-events">Indexing Prioritization and Rowset Events in Windows 7</a>
 
 
 
@@ -124,5 +124,4 @@ Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-s
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>
-
+<a href="/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>

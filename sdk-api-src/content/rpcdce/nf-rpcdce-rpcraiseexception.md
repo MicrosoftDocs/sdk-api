@@ -64,23 +64,22 @@ Exception code for the exception.
 This function does not return a value.
 
 <div class="alert"><b>Note</b>  For a list of valid error codes, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
+<a href="/windows/desktop/Rpc/rpc-return-values">RPC Return Values</a>.</div>
 <div> </div>
 
 ## -remarks
 
 <b>RpcRaiseException</b> raises an exception. The exception handler can then handle the exception. For more information about handling exceptions, see 
-<a href="https://docs.microsoft.com/windows/desktop/Rpc/making-rpc-function-calls">Making RPC Function Calls</a>.
+<a href="/windows/desktop/Rpc/making-rpc-function-calls">Making RPC Function Calls</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/">RpcAbnormalTermination</a>
+<a href="/previous-versions/">RpcAbnormalTermination</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/rpc/nf-rpc-rpcexcept">RpcExcept</a>
+<a href="/windows/desktop/api/rpc/nf-rpc-rpcexcept">RpcExcept</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa375699(v=vs.80)">RpcFinally</a>
-
+<a href="/previous-versions/aa375699(v=vs.80)">RpcFinally</a>

@@ -68,11 +68,10 @@ The name is used in the report.  If email notification is sent, the subject cont
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fsrm/adding-a-report-to-a-job">Adding a Report to a Job</a>.
+     <a href="/previous-versions/windows/desktop/fsrm/adding-a-report-to-a-job">Adding a Report to a Job</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreport">IFsrmReport</a>
-
+<a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreport">IFsrmReport</a>

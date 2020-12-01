@@ -50,26 +50,25 @@ api_name:
 
 ## -description
 
-The callback function parameter used with the <a href="https://docs.microsoft.com/windows/desktop/wsw/asynchronous-model">asynchronous model</a>.
+The callback function parameter used with the <a href="/windows/desktop/wsw/asynchronous-model">asynchronous model</a>.
 
 ## -parameters
 
 ### -param errorCode [in]
 
 The result of the operation.   If the operation fails
-                    and a <a href="https://docs.microsoft.com/windows/desktop/wsw/ws-error">WS_ERROR</a> object is supplied, the object is filled with rich error information 
+                    and a <a href="/windows/desktop/wsw/ws-error">WS_ERROR</a> object is supplied, the object is filled with rich error information 
                     before the callback is invoked.
 
 ### -param callbackModel [in]
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_callback_model">WS_CALLBACK_MODEL</a> value that determines whether the callback is being invoked as a long or short term callback.
+A <a href="/windows/desktop/api/webservices/ne-webservices-ws_callback_model">WS_CALLBACK_MODEL</a> value that determines whether the callback is being invoked as a long or short term callback.
 
 ### -param *callbackState [in]
 
 A void pointer that corresponds to the value of the <b>callbackState</b> field of 
-                    the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure. This parameter is used to pass user-defined data to the callback function if the operation completes asynchronously.
+                    the <a href="/windows/desktop/api/webservices/ns-webservices-ws_async_context">WS_ASYNC_CONTEXT</a> structure. This parameter is used to pass user-defined data to the callback function if the operation completes asynchronously.
 
 ## -remarks
 
 All error return codes of an operation are represented as HRESULTs. This API defines a set of HRESULTs in the FACILITY_WS range, but also returns errors defined elsewhere in the Windows API.
-

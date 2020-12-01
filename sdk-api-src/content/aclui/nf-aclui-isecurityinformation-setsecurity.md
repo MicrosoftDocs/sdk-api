@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-The <b>SetSecurity</b> method provides a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a> containing the security information the user wants to apply to the securable object. The access control editor calls this method when the user clicks <b>Okay</b> or <b>Apply</b>.
+The <b>SetSecurity</b> method provides a <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a> containing the security information the user wants to apply to the securable object. The access control editor calls this method when the user clicks <b>Okay</b> or <b>Apply</b>.
 
 ## -parameters
 
 ### -param SecurityInformation [in]
 
 A set of 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags that indicate the parts of the security descriptor to set. This parameter can be a combination of the following values. 
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> bit flags that indicate the parts of the security descriptor to set. This parameter can be a combination of the following values. 
 
 
 
@@ -113,8 +113,8 @@ The security descriptor contains the object's SACL.
 
 ### -param pSecurityDescriptor [in]
 
-A pointer to a security descriptor containing the new security information. Do not assume the security descriptor is in <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">self-relative</a> form; it  can be either 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/absolute-and-self-relative-security-descriptors">absolute or self-relative</a>.
+A pointer to a security descriptor containing the new security information. Do not assume the security descriptor is in <a href="/windows/desktop/SecGloss/s-gly">self-relative</a> form; it  can be either 
+<a href="/windows/desktop/SecAuthZ/absolute-and-self-relative-security-descriptors">absolute or self-relative</a>.
 
 ## -returns
 
@@ -128,17 +128,16 @@ To build a complete security descriptor for the object, the application must mer
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
+<a href="/windows/desktop/SecAuthZ/access-control-editor">Access Control Editor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Access Control Editor Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
+<a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation">ISecurityInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
-
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>

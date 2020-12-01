@@ -58,7 +58,7 @@ The <b>ListContentsComplete</b> method notifies Windows Media Player that the co
 
 ### -param dwListCookie [in]
 
-A cookie that identifies a list retrieval session. Windows Media Player previously supplied this cookie to the content partner plug-in by calling <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents">IWMPContentPartner::GetListContents</a>.
+A cookie that identifies a list retrieval session. Windows Media Player previously supplied this cookie to the content partner plug-in by calling <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents">IWMPContentPartner::GetListContents</a>.
 
 ### -param hrSuccess [in]
 
@@ -88,9 +88,8 @@ The method succeeded.
 
 ## -remarks
 
-Windows Media Player starts retrieving list contents by calling <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents">IWMPContentPartner::GetListContents</a>. This starts an asynchronous operation in which the online store plug-in must call <a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-addlistcontents">IWMPContentPartnerCallback::AddListContents</a> one or more times to give the Player the requested data. The plug-in must finally call <b>ListContentsComplete</b> to notify the Player that all the data has been provided.
+Windows Media Player starts retrieving list contents by calling <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getlistcontents">IWMPContentPartner::GetListContents</a>. This starts an asynchronous operation in which the online store plug-in must call <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-addlistcontents">IWMPContentPartnerCallback::AddListContents</a> one or more times to give the Player the requested data. The plug-in must finally call <b>ListContentsComplete</b> to notify the Player that all the data has been provided.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
-
+<a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>

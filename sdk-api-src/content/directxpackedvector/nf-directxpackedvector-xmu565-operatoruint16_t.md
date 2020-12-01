@@ -53,7 +53,7 @@ api_name:
 Returns an instance of <code>uint16_t</code> containing the components of the <code>XMU555</code>instance in a packed format.
     
 
-This operator returns an instance of <code>uint16_t</code> containing the components of the <a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555 </a> instance in a packed format.
+This operator returns an instance of <code>uint16_t</code> containing the components of the <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu555">XMU555 </a> instance in a packed format.
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>
 
@@ -93,9 +93,8 @@ The third 5 bits (bits 11-15) of the return value are to the <b>z</b>component o
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>
+<a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dxmath/ovw-xmu565-operators">XMU565 Operators</a>
-
+<a href="/windows/desktop/dxmath/ovw-xmu565-operators">XMU565 Operators</a>

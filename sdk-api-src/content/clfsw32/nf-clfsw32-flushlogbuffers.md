@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Forces all records appended to this marshaling area to be flushed to  disk.  This service is a special case of <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-flushlogtolsn">FlushLogToLsn</a> with the target log sequence number (LSN) set to <b>CLFS_LSN_NULL</b>.
+Forces all records appended to this marshaling area to be flushed to  disk.  This service is a special case of <a href="/windows/desktop/api/clfsw32/nf-clfsw32-flushlogtolsn">FlushLogToLsn</a> with the target log sequence number (LSN) set to <b>CLFS_LSN_NULL</b>.
 
 ## -parameters
 
 ### -param pvMarshal [in]
 
-A pointer to the  marshaling context that is allocated by using the <a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> function.
+A pointer to the  marshaling context that is allocated by using the <a href="/windows/desktop/api/clfsw32/nf-clfsw32-createlogmarshallingarea">CreateLogMarshallingArea</a> function.
 
 ### -param pOverlapped [in, out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that  is required for asynchronous operation. 
+A pointer to an <a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure that  is required for asynchronous operation. 
 
 This parameter can be <b>NULL</b> if asynchronous operation is not used.
 
@@ -70,17 +70,16 @@ If the function succeeds, the return value is nonzero.
 						
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the  possible error codes:
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. The following list identifies the  possible error codes:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
+<a href="/previous-versions/windows/desktop/clfs/common-log-file-system-functions">Common Log File System Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clfsw32/nf-clfsw32-flushlogtolsn">FlushLogToLsn</a>
+<a href="/windows/desktop/api/clfsw32/nf-clfsw32-flushlogtolsn">FlushLogToLsn</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>
-
+<a href="/windows/desktop/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a>

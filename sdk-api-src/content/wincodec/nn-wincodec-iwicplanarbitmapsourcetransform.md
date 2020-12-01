@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Provides access to planar Y’CbCr pixel formats where pixel components are stored in separate component planes.  This interface also allows access to other codec optimizations for flip/rotate, scale, and format conversion to other Y’CbCr planar formats; this is similar to the pre-existing <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a> interface.
+Provides access to planar Y’CbCr pixel formats where pixel components are stored in separate component planes.  This interface also allows access to other codec optimizations for flip/rotate, scale, and format conversion to other Y’CbCr planar formats; this is similar to the pre-existing <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsourcetransform">IWICBitmapSourceTransform</a> interface.
 
-QueryInterface can be used to obtain this interface from the Windows provided implementations of <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a> for the JPEG decoder, <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapscaler">IWICBitmapScaler</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapfliprotator">IWICBitmapFlipRotator</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwiccolortransform">IWICColorTransform</a>.
+QueryInterface can be used to obtain this interface from the Windows provided implementations of <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode">IWICBitmapFrameDecode</a> for the JPEG decoder, <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapscaler">IWICBitmapScaler</a>, <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapfliprotator">IWICBitmapFlipRotator</a>, and <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccolortransform">IWICColorTransform</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPlanarBitmapSourceTransform</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICPlanarBitmapSourceTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICPlanarBitmapSourceTransform</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWICPlanarBitmapSourceTransform</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IWICPlanarBitmapSourceTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-copypixels">CopyPixels</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-copypixels">CopyPixels</a>
 </td>
 <td align="left" width="63%">
 Copies pixels into the destination planes.  Configured by the supplied input parameters.  
@@ -80,7 +80,7 @@ Copies pixels into the destination planes.  Configured by the supplied input par
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-doessupporttransform">DoesSupportTransform</a>
+<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapsourcetransform-doessupporttransform">DoesSupportTransform</a>
 </td>
 <td align="left" width="63%">
 Use this method to determine if a desired planar output is supported and allow the caller to choose an optimized code path if it is.  
@@ -91,5 +91,4 @@ Use this method to determine if a desired planar output is supported and allow t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/wic/jpeg-ycbcr-support">JPEG YCbCr Support</a>
-
+<a href="/windows/desktop/wic/jpeg-ycbcr-support">JPEG YCbCr Support</a>

@@ -53,7 +53,7 @@ The <i>DdBlt</i> callback function performs a bit-block transfer.
 
 ### -param Arg1
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_bltdata">DD_BLTDATA</a> structure that contains the information required for the driver to perform the blit.
+Points to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_bltdata">DD_BLTDATA</a> structure that contains the information required for the driver to perform the blit.
 
 ## -returns
 
@@ -71,5 +71,4 @@ When performing transparent (color keyed) blts, drivers should ignore any unused
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_bltdata">DD_BLTDATA</a>
-
+<a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_bltdata">DD_BLTDATA</a>

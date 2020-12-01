@@ -54,7 +54,7 @@ The <b>INetFwRules</b> interface provides a collection of firewall rules.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwRules</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwRules</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INetFwRules</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>INetFwRules</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,7 +70,7 @@ The <b>INetFwRules</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-add">Add</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a new rule to the collection.
@@ -79,7 +79,7 @@ Adds a new rule to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-get__newenum">get__NewEnum</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Returns an object that can be used to enumerate the rules in the collection.
@@ -88,7 +88,7 @@ Returns an object that can be used to enumerate the rules in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-get_count">get_Count</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-get_count">get_Count</a>
 </td>
 <td align="left" width="63%">
 Returns the number of rules in the collection.
@@ -97,7 +97,7 @@ Returns the number of rules in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/netfw/nf-netfw-inetfwrules-item">Item</a>
+<a href="/windows/desktop/api/netfw/nf-netfw-inetfwrules-item">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves a rule from the collection.
@@ -106,7 +106,7 @@ Retrieves a rule from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-remove">Remove</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a specified rule from the collection.
@@ -123,7 +123,7 @@ Removes a specified rule from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-get__newenum">_NewEnum</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -135,7 +135,7 @@ Gives access to a new enumerator for the rules.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-get_count">Count</a>
+<a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwrules-get_count">Count</a>
 
 
 </td>
@@ -148,9 +148,8 @@ Access to the number of rules in the collection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

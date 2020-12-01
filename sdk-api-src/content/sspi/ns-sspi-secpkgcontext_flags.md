@@ -54,11 +54,10 @@ api_name:
 
 ## -description
 
-The <b>SecPkgContext_Flags</b> structure contains information about the flags in the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. This structure is returned by <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>.
+The <b>SecPkgContext_Flags</b> structure contains information about the flags in the current <a href="/windows/desktop/SecGloss/s-gly">security context</a>. This structure is returned by <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>.
 
 ## -struct-fields
 
 ### -field Flags
 
-Flag values for the current security context. These values correspond to the flags negotiated by the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> and <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> functions.
-
+Flag values for the current security context. These values correspond to the flags negotiated by the <a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext (General)</a> and <a href="/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (General)</a> functions.

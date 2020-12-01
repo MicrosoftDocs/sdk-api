@@ -123,7 +123,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -131,9 +131,9 @@ The XML document is not valid. Check the event log for details. For more informa
 
 ## -remarks
 
-For more information about backup stamps, see <a href="https://docs.microsoft.com/windows/desktop/VSS/writer-role-in-backing-up-complex-stores">Writer Role in Backing Up Complex Stores</a> and <a href="https://docs.microsoft.com/windows/desktop/VSS/requestor-role-in-backing-up-complex-stores">Requester Role in Backing Up Complex Stores</a>.
+For more information about backup stamps, see <a href="/windows/desktop/VSS/writer-role-in-backing-up-complex-stores">Writer Role in Backing Up Complex Stores</a> and <a href="/windows/desktop/VSS/requestor-role-in-backing-up-complex-stores">Requester Role in Backing Up Complex Stores</a>.
 
-The caller should free the memory held by the <i>pbstrBackupStamp</i> parameter by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
+The caller should free the memory held by the <i>pbstrBackupStamp</i> parameter by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>.
 
 If there is no previous backup time stamp, 
 <b>GetPreviousBackupStamp</b> returns S_FALSE.
@@ -142,16 +142,15 @@ The string returned refers to all files in the component and any nonselectable s
 
 The backup stamp retrieved by 
 <b>GetPreviousBackupStamp</b> is set by a requester using 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a>.
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a>.
 
 Typically, the string used to set the value found by 
 <b>GetPreviousBackupStamp</b> was retrieved from a stored Backup Components Document or was stored by the requester as part of its own internal records.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a>
+<a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setpreviousbackupstamp">IVssBackupComponents::SetPreviousBackupStamp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
-
+<a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>

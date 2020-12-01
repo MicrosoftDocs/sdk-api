@@ -57,19 +57,19 @@ Modifies the packet values for a particular property.
 
 ### -param bstrPropertyName [in]
 
-The globally unique identifier (GUID) identifier from the <a href="https://docs.microsoft.com/windows/desktop/tablet/packetpropertyguids-constants">PacketProperty</a> constants that is used to select which packet data is set. Use <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetdescription">PacketDescription</a> to determine the defined properties for this stroke.
+The globally unique identifier (GUID) identifier from the <a href="/windows/desktop/tablet/packetpropertyguids-constants">PacketProperty</a> constants that is used to select which packet data is set. Use <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-get_packetdescription">PacketDescription</a> to determine the defined properties for this stroke.
 
 ### -param PacketValues [in]
 
-The array of packet data values. The method fails if any of the values in the array are outside the minimum or maximum value of the property. To determine the range of values in the property, call the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdescriptionpropertymetrics">GetPacketDescriptionPropertyMetrics</a> method.
+The array of packet data values. The method fails if any of the values in the array are outside the minimum or maximum value of the property. To determine the range of values in the property, call the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdescriptionpropertymetrics">GetPacketDescriptionPropertyMetrics</a> method.
 
 ### -param Index [in, optional]
 
-Optional. The starting index of the packet to be modified. The default value <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ISC_FirstElement</a>, defined in the <b>ItemSelectionConstants</b> enumeration type, specifies the first packet.
+Optional. The starting index of the packet to be modified. The default value <a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">ISC_FirstElement</a>, defined in the <b>ItemSelectionConstants</b> enumeration type, specifies the first packet.
 
 ### -param Count [in, optional]
 
-Optional. Specifies the number of packets in the stroke to modify and the number of values in <i>PacketValues</i>. The default value <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ISC_AllElements</a>, defined in the <b>ItemSelectionConstants</b> enumeration type, specifies that all packets are modified.
+Optional. Specifies the number of packets in the stroke to modify and the number of values in <i>PacketValues</i>. The default value <a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">ISC_AllElements</a>, defined in the <b>ItemSelectionConstants</b> enumeration type, specifies that all packets are modified.
 
 ### -param NumberOfPacketsSet [out, retval]
 
@@ -143,17 +143,16 @@ An exception occurred inside method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdescriptionpropertymetrics">GetPacketDescriptionPropertyMetrics Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-getpacketdescriptionpropertymetrics">GetPacketDescriptionPropertyMetrics Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
+<a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/ne-msinkaut-itemselectionconstants">ItemSelectionConstants Enumeration</a>
+<a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">ItemSelectionConstants Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>
-
+<a href="/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>

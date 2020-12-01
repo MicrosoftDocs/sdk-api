@@ -70,5 +70,4 @@ Specifies a triangular cap that points both ends of each dash.
 ## -remarks
 
 If you set the alignment of a 
-				<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to <b>PenAlignmentInset</b>, you cannot use that pen to draw triangular dash caps.
-
+				<a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object to <b>PenAlignmentInset</b>, you cannot use that pen to draw triangular dash caps.

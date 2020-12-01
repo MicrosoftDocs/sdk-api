@@ -50,17 +50,17 @@ Allows an original equipment manufacturer (OEM) or independent hardware vendor (
 
 Type: **[HANDLE](/windows/win32/winprog/windows-data-types)**
 
-The client's session handle, obtained by a previous call to the [WlanOpenHandle](/windows/win32/api/wlanapi/nf-wlanapi-wlanopenhandle) function.
+The client's session handle, obtained by a previous call to the [WlanOpenHandle](./nf-wlanapi-wlanopenhandle.md) function.
 
 ### -param pInterfaceGuid [in]
 
-Type: **CONST [GUID](/windows/win32/api/guiddef/ns-guiddef-guid)\***
+Type: **CONST [GUID](../guiddef/ns-guiddef-guid.md)\***
 
-A pointer to the **GUID** of the wireless LAN interface to be queried. You can determine the **GUID** of each wireless LAN interface enabled on a local computer by using the [WlanEnumInterfaces](/windows/win32/api/wlanapi/nf-wlanapi-wlanenuminterfaces) function.
+A pointer to the **GUID** of the wireless LAN interface to be queried. You can determine the **GUID** of each wireless LAN interface enabled on a local computer by using the [WlanEnumInterfaces](./nf-wlanapi-wlanenuminterfaces.md) function.
 
 ### -param pDeviceServiceGuid [in]
 
-Type: **[GUID](/windows/win32/api/guiddef/ns-guiddef-guid)\***
+Type: **[GUID](../guiddef/ns-guiddef-guid.md)\***
 
 The **GUID** identifying the device service for this command.
 
@@ -109,4 +109,3 @@ If the function succeeds, the return value is **ERROR_SUCCESS**. If the function
 ## -remarks
 
 ## -see-also
-

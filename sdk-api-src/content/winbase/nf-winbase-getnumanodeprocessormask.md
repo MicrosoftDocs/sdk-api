@@ -58,7 +58,7 @@ api_name:
 
 Retrieves the processor mask for the specified node. 
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumanodeprocessormaskex">GetNumaNodeProcessorMaskEx</a> function to retrieve the processor mask for a node in any processor group.
+Use the <a href="/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumanodeprocessormaskex">GetNumaNodeProcessorMaskEx</a> function to retrieve the processor mask for a node in any processor group.
 
 ## -parameters
 
@@ -72,40 +72,39 @@ The processor mask for the node. A processor mask is a bit vector in which each 
 
 If the node has no processors configured, the processor mask is zero.
 
-On systems with more than 64 processors, this parameter is set to the processor mask for the node only if the node is in the same <a href="https://docs.microsoft.com/windows/desktop/ProcThread/processor-groups">processor group</a> as the calling thread. Otherwise, the parameter is set to zero.
+On systems with more than 64 processors, this parameter is set to the processor mask for the node only if the node is in the same <a href="/windows/desktop/ProcThread/processor-groups">processor group</a> as the calling thread. Otherwise, the parameter is set to zero.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 To retrieve the highest numbered node in the system, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumahighestnodenumber">GetNumaHighestNodeNumber</a> function. Note that this number is not guaranteed to equal the total number of nodes in the system.
+<a href="/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumahighestnodenumber">GetNumaHighestNodeNumber</a> function. Note that this number is not guaranteed to equal the total number of nodes in the system.
 
 To ensure that all threads for your process run on the same node, use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessaffinitymask">SetProcessAffinityMask</a> function with a process affinity mask that specifies processors in the same node.
+<a href="/windows/desktop/api/winbase/nf-winbase-setprocessaffinitymask">SetProcessAffinityMask</a> function with a process affinity mask that specifies processors in the same node.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumanodeprocessormaskex">GetNumaNodeProcessorMaskEx</a>
+<a href="/windows/desktop/api/systemtopologyapi/nf-systemtopologyapi-getnumanodeprocessormaskex">GetNumaNodeProcessorMaskEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getnumaprocessornode">GetNumaProcessorNode</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getnumaprocessornode">GetNumaProcessorNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/numa-support">NUMA Support</a>
+<a href="/windows/desktop/ProcThread/numa-support">NUMA Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
+<a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setprocessaffinitymask">SetProcessAffinityMask</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-setprocessaffinitymask">SetProcessAffinityMask</a>

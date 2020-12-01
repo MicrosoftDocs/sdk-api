@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Restores access to resources that were previously offered by calling <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-offerresources">OfferResources</a>.
+Restores access to resources that were previously offered by calling <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-offerresources">OfferResources</a>.
 
 ## -parameters
 
@@ -78,12 +78,11 @@ Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></
 
 ## -remarks
 
-After you call <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-offerresources">OfferResources</a> to offer one or more resources, 
+After you call <a href="/windows/desktop/api/d2d1_3/nf-d2d1_3-id2d1imagesource-offerresources">OfferResources</a> to offer one or more resources, 
 you must call <b>TryReclaimResources</b> before you can use those resources again. 
 You must check the value in the <b>resourcesDiscarded</b> to determine whether the resource’s content was discarded. 
 If a resource’s content was discarded while it was offered, its current content is undefined. Therefore, you must overwrite the resource’s content before you use the resource.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>
-
+<a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>

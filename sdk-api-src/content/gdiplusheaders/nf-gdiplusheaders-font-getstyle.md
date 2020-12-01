@@ -59,34 +59,33 @@ The <b>Font::GetStyle</b> method gets the style of this font's typeface.
 
 Type: <b>INT</b>
 
-This method returns a value that is an element of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-fontstyle">FontStyle</a> enumeration or the result of a bitwise 
+This method returns a value that is an element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-fontstyle">FontStyle</a> enumeration or the result of a bitwise 
 						<b>OR</b> applied to two or more elements of the <b>FontStyle</b> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
+<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font">Font</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getfamily">Font::GetFamily</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getfamily">Font::GetFamily</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getheight(inreal)">Font::GetHeight</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getheight(inreal)">Font::GetHeight</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getsize">Font::GetSize</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getsize">Font::GetSize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getunit">Font::GetUnit</a>
+<a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-getunit">Font::GetUnit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-fontstyle">FontStyle</a>
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-fontstyle">FontStyle</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-
+<a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>

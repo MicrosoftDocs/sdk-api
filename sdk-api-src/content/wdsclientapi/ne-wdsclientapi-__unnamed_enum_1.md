@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclilog">WdsCliLog</a> function.
+This enumeration is used by the <a href="/windows/desktop/api/wdsclientapi/nf-wdsclientapi-wdsclilog">WdsCliLog</a> function.
 
 ## -enum-fields
 
@@ -117,4 +117,3 @@ A generic message.
 ### -field WDS_LOG_TYPE_CLIENT_MAX_CODE
 
 Used to determine an out-of-range index. Values greater than or equal to WDS_LOG_TYPE_CLIENT_MAX_CODE are not valid.
-

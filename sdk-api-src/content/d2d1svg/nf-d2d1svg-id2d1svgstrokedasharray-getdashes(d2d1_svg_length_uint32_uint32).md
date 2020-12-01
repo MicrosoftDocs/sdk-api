@@ -56,7 +56,7 @@ Gets dashes from the array.
 
 ### -param dashes [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/ns-d2d1svg-d2d1_svg_length">D2D1_SVG_LENGTH</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1svg/ns-d2d1svg-d2d1_svg_length">D2D1_SVG_LENGTH</a>*</b>
 
 Buffer to contain the dashes.
 
@@ -80,5 +80,4 @@ This method returns an HRESULT success or error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgstrokedasharray">ID2D1SvgStrokeDashArray</a>
-
+<a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgstrokedasharray">ID2D1SvgStrokeDashArray</a>

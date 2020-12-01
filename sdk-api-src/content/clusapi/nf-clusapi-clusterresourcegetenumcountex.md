@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-Returns the number of  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a>  that are associated with a  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resources">resource</a> enumeration handle.
+Returns the number of  <a href="/previous-versions/windows/desktop/mscs/cluster-objects">cluster objects</a>  that are associated with a  <a href="/previous-versions/windows/desktop/mscs/resources">resource</a> enumeration handle.
 
 ## -parameters
 
 ### -param hResourceEnumEx [in]
 
 The handle to a resource enumeration. This handle is obtained from 
-the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceopenenumex">ClusterResourceOpenEnumEx</a> function. A valid handle is required. This parameter cannot be <b>NULL</b>.
+the <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceopenenumex">ClusterResourceOpenEnumEx</a> function. A valid handle is required. This parameter cannot be <b>NULL</b>.
 
 ## -returns
 
@@ -65,9 +65,8 @@ The number of objects that are associated with the enumeration handle.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterresourceopenenumex">ClusterResourceOpenEnumEx</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceopenenumex">ClusterResourceOpenEnumEx</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/resource-management-functions">Failover Cluster Resource Management Functions</a>

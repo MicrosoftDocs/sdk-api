@@ -54,17 +54,17 @@ api_name:
 
 ## -description
 
-Contains information that defines the format of a currency string. The <a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcurrencyformata">GetCurrencyFormat</a> function uses this information to customize a currency string for a specified locale.
+Contains information that defines the format of a currency string. The <a href="/windows/desktop/api/winnls/nf-winnls-getcurrencyformata">GetCurrencyFormat</a> function uses this information to customize a currency string for a specified locale.
 
 ## -struct-fields
 
 ### -field NumDigits
 
-Number of fractional digits. This number is equivalent to <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-icurrdigits">LOCALE_ICURRDIGITS</a>.
+Number of fractional digits. This number is equivalent to <a href="/windows/desktop/Intl/locale-icurrdigits">LOCALE_ICURRDIGITS</a>.
 
 ### -field LeadingZero
 
-Value indicating if leading zeros should be used in decimal fields. This value is equivalent to <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-ilzero">LOCALE_ILZERO</a>.
+Value indicating if leading zeros should be used in decimal fields. This value is equivalent to <a href="/windows/desktop/Intl/locale-ilzero">LOCALE_ILZERO</a>.
 
 ### -field Grouping
 
@@ -83,11 +83,11 @@ Pointer to a null-terminated thousand separator string.
 
 ### -field NegativeOrder
 
-Negative currency mode. This mode is equivalent to <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-ineg-constants">LOCALE_INEGCURR</a>.
+Negative currency mode. This mode is equivalent to <a href="/windows/desktop/Intl/locale-ineg-constants">LOCALE_INEGCURR</a>.
 
 ### -field PositiveOrder
 
-Positive currency mode. This mode is equivalent to <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-icurrency">LOCALE_ICURRENCY</a>.
+Positive currency mode. This mode is equivalent to <a href="/windows/desktop/Intl/locale-icurrency">LOCALE_ICURRENCY</a>.
 
 ### -field lpCurrencySymbol
 
@@ -95,14 +95,13 @@ Pointer to a null-terminated currency symbol string.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-getcurrencyformata">GetCurrencyFormat</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-getcurrencyformata">GetCurrencyFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-structures">National Language Support Structures</a>
+<a href="/windows/desktop/Intl/national-language-support-structures">National Language Support Structures</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winnls.h header defines CURRENCYFMT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

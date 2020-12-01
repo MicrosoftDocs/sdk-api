@@ -56,11 +56,11 @@ Returns a list of alternate strings for a given text range.
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that covers the text to return alternates for.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that covers the text to return alternates for.
 
 ### -param ppCandidateList [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a> pointer that receives the list object containing alternate strings.
+Pointer to an <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a> pointer that receives the list object containing alternate strings.
 
 ## -returns
 
@@ -119,5 +119,4 @@ One or more parameters are invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffngetlinguisticalternates">ITfFnGetLinguisticAlternates</a>
-
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffngetlinguisticalternates">ITfFnGetLinguisticAlternates</a>

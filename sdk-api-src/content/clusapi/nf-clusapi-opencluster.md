@@ -55,7 +55,7 @@ api_name:
 ## -description
 
 Opens a connection to a 
-    <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and returns a handle to 
+    <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a> and returns a handle to 
     it.
 
 ## -parameters
@@ -66,7 +66,7 @@ Specifies one of the following values:
 
 <ul>
 <li>Pointer to a null-terminated Unicode string containing the name of the cluster or one of the cluster 
-        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a> expressed as a NetBIOS name, a fully qualified DNS name, or 
+        <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a> expressed as a NetBIOS name, a fully qualified DNS name, or 
         an IP address. This produces an RPC cluster handle.</li>
 <li><b>NULL</b>, which produces an LPC handle to the cluster to which the local computer 
         belongs.</li>
@@ -91,7 +91,7 @@ If the operation was successful, <b>OpenCluster</b> returns
 </td>
 <td width="60%">
 The operation was not successful. For more information about the error, call the function 
-         <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+         <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 </td>
 </tr>
@@ -103,33 +103,32 @@ A cluster handle is a pointer to an internally defined structure which stores in
      connection to the cluster. Any object handles obtained from the cluster handle will be associated with the RPC or 
      LPC session data stored in the cluster structure. Combining RPC and LPC handles or using handles obtained from 
      different contexts can cause exceptions or other unpredictable results. For more information, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/lpc-and-rpc-handles">LPC and RPC Handles</a>.
+     <a href="/previous-versions/windows/desktop/mscs/lpc-and-rpc-handles">LPC and RPC Handles</a>.
 
 When finished with a cluster handle, it is important to call 
-     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closecluster">CloseCluster</a> to ensure that all memory is freed and the 
+     <a href="/windows/desktop/api/clusapi/nf-clusapi-closecluster">CloseCluster</a> to ensure that all memory is freed and the 
      connection is shut down cleanly.
 
 If the cluster is remote, the client must be running a compatible operating system. For example computers running 
      Windows Server 2008 cannot call <b>OpenCluster</b> against a 
      cluster running Windows Server 2016. To remotely manage these clusters, use 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/failover-cluster-apis-portal">the Failover Cluster WMI Provider</a>.
+     <a href="/previous-versions/windows/desktop/mscs/failover-cluster-apis-portal">the Failover Cluster WMI Provider</a>.
 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a>.
+See <a href="/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-closecluster">CloseCluster</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-closecluster">CloseCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Functions</a>
+<a href="/previous-versions/windows/desktop/mscs/cluster-management-functions">Failover Cluster Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusterex">OpenClusterEx</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusterex">OpenClusterEx</a>

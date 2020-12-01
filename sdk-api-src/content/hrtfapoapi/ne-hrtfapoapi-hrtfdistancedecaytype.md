@@ -64,9 +64,8 @@ Used to set up a custom gain curve, within the maximum and minimum gain limit.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/xaudio2/enumerations">Enumerations</a>
+<a href="/windows/desktop/xaudio2/enumerations">Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/hrtfapoapi/ns-hrtfapoapi-hrtfdistancedecay">HrtfDistanceDecay</a>
-
+<a href="/windows/desktop/api/hrtfapoapi/ns-hrtfapoapi-hrtfdistancedecay">HrtfDistanceDecay</a>

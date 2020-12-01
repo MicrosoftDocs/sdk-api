@@ -57,7 +57,7 @@ A callback function that is called by the time provider manager to send commands
 ### -param hTimeProv [in]
 
 A handle to the time provider. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a> function receives this handle.
+<a href="/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a> function receives this handle.
 
 ### -param eCmd [in]
 
@@ -82,7 +82,7 @@ The time provider should return the time samples it has collected. If there is n
 
 
 The <i>pvArgs</i> parameter is pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-tpcgetsamplesargs">TpcGetSamplesArgs</a> structure. The time provider manager provides the buffer for the samples. If the <i>pvArgs</i> buffer if too small, the provider should provide as many samples as is can and return ERROR_INSUFFICIENT_BUFFER. Any other error codes returned by the provider are ignored.
+<a href="/windows/desktop/api/timeprov/ns-timeprov-tpcgetsamplesargs">TpcGetSamplesArgs</a> structure. The time provider manager provides the buffer for the samples. If the <i>pvArgs</i> buffer if too small, the provider should provide as many samples as is can and return ERROR_INSUFFICIENT_BUFFER. Any other error codes returned by the provider are ignored.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ Reserved for future use.
 </td>
 <td width="60%">
 The polling interval has changed. The time provider should call the 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfo</a> function to retrieve the new value. 
+<a href="/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfo</a> function to retrieve the new value. 
 
 
 
@@ -191,19 +191,18 @@ When processing the TPC_GetSamples command, the provider should return one sampl
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/sample-time-provider">Sample Time Provider</a>.
+For an example, see <a href="/windows/desktop/SysInfo/sample-time-provider">Sample Time Provider</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a>
+<a href="/windows/desktop/api/timeprov/nc-timeprov-gettimesysinfofunc">GetTimeSysInfoFunc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a>
+<a href="/windows/desktop/api/timeprov/nf-timeprov-timeprovopen">TimeProvOpen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/timeprov/ns-timeprov-tpcgetsamplesargs">TpcGetSamplesArgs</a>
-
+<a href="/windows/desktop/api/timeprov/ns-timeprov-tpcgetsamplesargs">TpcGetSamplesArgs</a>

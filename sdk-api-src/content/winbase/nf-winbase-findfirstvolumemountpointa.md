@@ -80,29 +80,29 @@ The length of the buffer that receives the path to the mounted folder, in
 ## -returns
 
 If the function succeeds, the return value is a search handle used in a subsequent call to the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findnextvolumemountpointa">FindNextVolumeMountPoint</a> and 
-       <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findvolumemountpointclose">FindVolumeMountPointClose</a> functions.
+       <a href="/windows/desktop/api/winbase/nf-winbase-findnextvolumemountpointa">FindNextVolumeMountPoint</a> and 
+       <a href="/windows/desktop/api/winbase/nf-winbase-findvolumemountpointclose">FindVolumeMountPointClose</a> functions.
 
 If the function fails to find a mounted folder on the volume, the return value is the 
        <b>INVALID_HANDLE_VALUE</b> error code. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The <b>FindFirstVolumeMountPoint</b> function 
     opens a mounted folder search handle and returns information about the first mounted folder that is found on the 
     specified volume. After the search handle is established, you can use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findnextvolumemountpointa">FindNextVolumeMountPoint</a> function to search for 
+    <a href="/windows/desktop/api/winbase/nf-winbase-findnextvolumemountpointa">FindNextVolumeMountPoint</a> function to search for 
     other mounted folders. When the search handle is no longer needed, close it with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findvolumemountpointclose">FindVolumeMountPointClose</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-findvolumemountpointclose">FindVolumeMountPointClose</a> function.
 
 The <b>FindFirstVolumeMountPoint</b>, 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findnextvolumemountpointa">FindNextVolumeMountPoint</a>, and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findvolumemountpointclose">FindVolumeMountPointClose</a> functions return 
+    <a href="/windows/desktop/api/winbase/nf-winbase-findnextvolumemountpointa">FindNextVolumeMountPoint</a>, and 
+    <a href="/windows/desktop/api/winbase/nf-winbase-findvolumemountpointclose">FindVolumeMountPointClose</a> functions return 
     paths to mounted folders for a specified volume. They do not return drive letters or volume 
     <b>GUID</b> paths. For information about enumerating the volume 
     <b>GUID</b> paths for a volume, see 
-    <a href="https://docs.microsoft.com/windows/desktop/FileIO/enumerating-unique-volume-names">Enumerating Volume GUID Paths</a>.
+    <a href="/windows/desktop/FileIO/enumerating-unique-volume-names">Enumerating Volume GUID Paths</a>.
 
 You should not assume any correlation between the order of the mounted folders that are returned by these 
     functions and the order of the mounted folders that are returned by other functions or tools.
@@ -179,17 +179,16 @@ SMB does not support volume management functions. CsvFS does not support adding 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findnextvolumemountpointa">FindNextVolumeMountPoint</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-findnextvolumemountpointa">FindNextVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-findvolumemountpointclose">FindVolumeMountPointClose</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-findvolumemountpointclose">FindVolumeMountPointClose</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
+<a href="/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

@@ -52,11 +52,11 @@ api_name:
 
 <p class="CCE_Message">[This interface is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>IEnroll</b> interface represents the Certificate Enrollment Control and is used primarily to generate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate requests</a>.
+The <b>IEnroll</b> interface represents the Certificate Enrollment Control and is used primarily to generate <a href="/windows/desktop/SecGloss/c-gly">certificate requests</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnroll</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnroll</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnroll</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnroll</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -72,7 +72,7 @@ The <b>IEnroll</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-acceptfilepkcs7wstr">acceptFilePKCS7WStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-acceptfilepkcs7wstr">acceptFilePKCS7WStr</a>
 </td>
 <td align="left" width="63%">
 Accepts and processes a PKCS #7 message containing a certificate, then stores the message to a file.
@@ -81,7 +81,7 @@ Accepts and processes a PKCS #7 message containing a certificate, then stores th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-acceptpkcs7blob">acceptPKCS7Blob</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-acceptpkcs7blob">acceptPKCS7Blob</a>
 </td>
 <td align="left" width="63%">
 Accepts and processes a PKCS #7 message containing a certificate. The PKCS #7 is input as a parameter.
@@ -90,7 +90,7 @@ Accepts and processes a PKCS #7 message containing a certificate. The PKCS #7 is
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-addauthenticatedattributestopkcs7request">AddAuthenticatedAttributesToPKCS7Request</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-addauthenticatedattributestopkcs7request">AddAuthenticatedAttributesToPKCS7Request</a>
 </td>
 <td align="left" width="63%">
 Adds authenticated attributes to a PKCS #7 certificate request.
@@ -99,16 +99,16 @@ Adds authenticated attributes to a PKCS #7 certificate request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-addcerttypetorequestwstr">AddCertTypeToRequestWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-addcerttypetorequestwstr">AddCertTypeToRequestWStr</a>
 </td>
 <td align="left" width="63%">
-Adds a certificate template to a request (used to support the enterprise <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> (CA)).
+Adds a certificate template to a request (used to support the enterprise <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> (CA)).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-addextensionstorequest">AddExtensionsToRequest</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-addextensionstorequest">AddExtensionsToRequest</a>
 </td>
 <td align="left" width="63%">
 Adds extensions to the certificate request.
@@ -117,25 +117,25 @@ Adds extensions to the certificate request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-addnamevaluepairtosignaturewstr">AddNameValuePairToSignatureWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-addnamevaluepairtosignaturewstr">AddNameValuePairToSignatureWStr</a>
 </td>
 <td align="left" width="63%">
-Adds the name and value pair of an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">attribute</a> to the request. It is up to the CA to interpret the meaning of the name-value pair.
+Adds the name and value pair of an <a href="/windows/desktop/SecGloss/a-gly">attribute</a> to the request. It is up to the CA to interpret the meaning of the name-value pair.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-createfilepkcs10wstr">createFilePKCS10WStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-createfilepkcs10wstr">createFilePKCS10WStr</a>
 </td>
 <td align="left" width="63%">
-Creates a base64-encoded PKCS #10 <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate request</a> and saves it in a file.
+Creates a base64-encoded PKCS #10 <a href="/windows/desktop/SecGloss/c-gly">certificate request</a> and saves it in a file.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-createpkcs10wstr">createPKCS10WStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-createpkcs10wstr">createPKCS10WStr</a>
 </td>
 <td align="left" width="63%">
 Creates a base64-encoded PKCS #10 certificate request.
@@ -144,7 +144,7 @@ Creates a base64-encoded PKCS #10 certificate request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-createpkcs7requestfromrequest">CreatePKCS7RequestFromRequest</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-createpkcs7requestfromrequest">CreatePKCS7RequestFromRequest</a>
 </td>
 <td align="left" width="63%">
 Creates a PKCS #7 request from an existing certificate request.
@@ -153,27 +153,27 @@ Creates a PKCS #7 request from an existing certificate request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-enumcontainerswstr">enumContainersWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-enumcontainerswstr">enumContainersWStr</a>
 </td>
 <td align="left" width="63%">
 Retrieves the names of the containers for the CSP specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">ProviderNameWStr</a> property.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">ProviderNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-enumproviderswstr">enumProvidersWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-enumproviderswstr">enumProvidersWStr</a>
 </td>
 <td align="left" width="63%">
-Retrieves the names of the available <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs) specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">ProviderType</a> property.
+Retrieves the names of the available <a href="/windows/desktop/SecGloss/c-gly">cryptographic service providers</a> (CSPs) specified by the 
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">ProviderType</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-freerequestinfoblob">freeRequestInfoBlob</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-freerequestinfoblob">freeRequestInfoBlob</a>
 </td>
 <td align="left" width="63%">
 Deletes a certificate context.
@@ -182,250 +182,250 @@ Deletes a certificate context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoreflags">get_CAStoreFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoreflags">get_CAStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoreflags">CAStoreFlags</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoreflags">CAStoreFlags</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castorenamewstr">get_CAStoreNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castorenamewstr">get_CAStoreNameWStr</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castorenamewstr">CAStoreNameWStr</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castorenamewstr">CAStoreNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoretypewstr">get_CAStoreTypeWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoretypewstr">get_CAStoreTypeWStr</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoretypewstr">CAStoreTypeWStr</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoretypewstr">CAStoreTypeWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_containernamewstr">get_ContainerNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_containernamewstr">get_ContainerNameWStr</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_containernamewstr">ContainerNameWStr</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_containernamewstr">ContainerNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_deleterequestcert">get_DeleteRequestCert</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_deleterequestcert">get_DeleteRequestCert</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_deleterequestcert">DeleteRequestCert</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_deleterequestcert">DeleteRequestCert</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_enablet61dnencoding">get_EnableT61DNEncoding</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_enablet61dnencoding">get_EnableT61DNEncoding</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_enablet61dnencoding">EnableT61DNEncoding</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_enablet61dnencoding">EnableT61DNEncoding</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_genkeyflags">get_GenKeyFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_genkeyflags">get_GenKeyFlags</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_genkeyflags">GenKeyFlags</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_genkeyflags">GenKeyFlags</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_hashalgorithmwstr">get_HashAlgorithmWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_hashalgorithmwstr">get_HashAlgorithmWStr</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_hashalgorithmwstr">HashAlgorithmWStr</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_hashalgorithmwstr">HashAlgorithmWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_keyspec">get_KeySpec</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_keyspec">get_KeySpec</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_keyspec">KeySpec</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_keyspec">KeySpec</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoreflags">get_MyStoreFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoreflags">get_MyStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoreflags">MyStoreFlags</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoreflags">MyStoreFlags</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystorenamewstr">get_MyStoreNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystorenamewstr">get_MyStoreNameWStr</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystorenamewstr">MyStoreNameWStr</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystorenamewstr">MyStoreNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoretypewstr">get_MyStoreTypeWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoretypewstr">get_MyStoreTypeWStr</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoretypewstr">MyStoreTypeWStr</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoretypewstr">MyStoreTypeWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providerflags">get_ProviderFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providerflags">get_ProviderFlags</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providerflags">ProviderFlags</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providerflags">ProviderFlags</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">get_ProviderNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">get_ProviderNameWStr</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">ProviderNameWStr</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">ProviderNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">get_ProviderType</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">get_ProviderType</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">ProviderType</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">ProviderType</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_pvkfilenamewstr">get_PVKFileNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_pvkfilenamewstr">get_PVKFileNameWStr</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_pvkfilenamewstr">PVKFileNameWStr</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_pvkfilenamewstr">PVKFileNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_renewalcertificate">get_RenewalCertificate</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_renewalcertificate">get_RenewalCertificate</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_renewalcertificate">RenewalCertificate</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_renewalcertificate">RenewalCertificate</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoreflags">get_RequestStoreFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoreflags">get_RequestStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoreflags">RequestStoreFlags</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoreflags">RequestStoreFlags</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststorenamewstr">get_RequestStoreNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststorenamewstr">get_RequestStoreNameWStr</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststorenamewstr">RequestStoreNameWStr</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststorenamewstr">RequestStoreNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoretypewstr">get_RequestStoreTypeWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoretypewstr">get_RequestStoreTypeWStr</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoretypewstr">RequestStoreTypeWStr</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoretypewstr">RequestStoreTypeWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoreflags">get_RootStoreFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoreflags">get_RootStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoreflags">RootStoreFlags</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoreflags">RootStoreFlags</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstorenamewstr">get_RootStoreNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstorenamewstr">get_RootStoreNameWStr</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstorenamewstr">RootStoreNameWStr</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstorenamewstr">RootStoreNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoretypewstr">get_RootStoreTypeWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoretypewstr">get_RootStoreTypeWStr</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoretypewstr">RootStoreTypeWStr</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoretypewstr">RootStoreTypeWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_spcfilenamewstr">get_SPCFileNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_spcfilenamewstr">get_SPCFileNameWStr</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_spcfilenamewstr">SPCFileNameWStr</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_spcfilenamewstr">SPCFileNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_useexistingkeyset">get_UseExistingKeySet</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_useexistingkeyset">get_UseExistingKeySet</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_useexistingkeyset">UseExistingKeySet</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_useexistingkeyset">UseExistingKeySet</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttocsp">get_WriteCertToCSP</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttocsp">get_WriteCertToCSP</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttocsp">WriteCertToCSP</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttocsp">WriteCertToCSP</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttouserds">get_WriteCertToUserDS</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttouserds">get_WriteCertToUserDS</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttouserds">WriteCertToUserDS</a> property.
+Retrieves the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttouserds">WriteCertToUserDS</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-getcastore">getCAStore</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-getcastore">getCAStore</a>
 </td>
 <td align="left" width="63%">
 Reserved for future use.
@@ -434,7 +434,7 @@ Reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-getcertcontextfrompkcs7">getCertContextFromPKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-getcertcontextfrompkcs7">getCertContextFromPKCS7</a>
 </td>
 <td align="left" width="63%">
 Retrieves the certificate, contained in a PKCS #7 message, that was  issued in response to a PKCS #10 certificate request.
@@ -443,7 +443,7 @@ Retrieves the certificate, contained in a PKCS #7 message, that was  issued in r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-getmystore">getMyStore</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-getmystore">getMyStore</a>
 </td>
 <td align="left" width="63%">
 Reserved for future use.
@@ -452,7 +452,7 @@ Reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-getroothstore">getROOTHStore</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-getroothstore">getROOTHStore</a>
 </td>
 <td align="left" width="63%">
 Reserved for future use.
@@ -461,244 +461,244 @@ Reserved for future use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoreflags">put_CAStoreFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoreflags">put_CAStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoreflags">CAStoreFlags</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoreflags">CAStoreFlags</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castorenamewstr">put_CAStoreNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castorenamewstr">put_CAStoreNameWStr</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castorenamewstr">CAStoreNameWStr</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castorenamewstr">CAStoreNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoretypewstr">put_CAStoreTypeWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoretypewstr">put_CAStoreTypeWStr</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoretypewstr">CAStoreTypeWStr</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoretypewstr">CAStoreTypeWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_containernamewstr">put_ContainerNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_containernamewstr">put_ContainerNameWStr</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_containernamewstr">ContainerNameWStr</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_containernamewstr">ContainerNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_deleterequestcert">put_DeleteRequestCert</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_deleterequestcert">put_DeleteRequestCert</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_deleterequestcert">DeleteRequestCert</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_deleterequestcert">DeleteRequestCert</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_enablet61dnencoding">put_EnableT61DNEncoding</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_enablet61dnencoding">put_EnableT61DNEncoding</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_enablet61dnencoding">EnableT61DNEncoding</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_enablet61dnencoding">EnableT61DNEncoding</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_genkeyflags">put_GenKeyFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_genkeyflags">put_GenKeyFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_genkeyflags">GenKeyFlags</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_genkeyflags">GenKeyFlags</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_hashalgorithmwstr">put_HashAlgorithmWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_hashalgorithmwstr">put_HashAlgorithmWStr</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_hashalgorithmwstr">HashAlgorithmWStr</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_hashalgorithmwstr">HashAlgorithmWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_keyspec">put_KeySpec</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_keyspec">put_KeySpec</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_keyspec">KeySpec</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_keyspec">KeySpec</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoreflags">put_MyStoreFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoreflags">put_MyStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoreflags">MyStoreFlags</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoreflags">MyStoreFlags</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystorenamewstr">put_MyStoreNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystorenamewstr">put_MyStoreNameWStr</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystorenamewstr">MyStoreNameWStr</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystorenamewstr">MyStoreNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoretypewstr">put_MyStoreTypeWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoretypewstr">put_MyStoreTypeWStr</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoretypewstr">MyStoreTypeWStr</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoretypewstr">MyStoreTypeWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providerflags">put_ProviderFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providerflags">put_ProviderFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providerflags">ProviderFlags</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providerflags">ProviderFlags</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">put_ProviderNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">put_ProviderNameWStr</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">ProviderNameWStr</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">ProviderNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">put_ProviderType</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">put_ProviderType</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">ProviderType</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">ProviderType</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_pvkfilenamewstr">put_PVKFileNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_pvkfilenamewstr">put_PVKFileNameWStr</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_pvkfilenamewstr">PVKFileNameWStr</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_pvkfilenamewstr">PVKFileNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_renewalcertificate">put_RenewalCertificate</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_renewalcertificate">put_RenewalCertificate</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_renewalcertificate">RenewalCertificate</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_renewalcertificate">RenewalCertificate</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoreflags">put_RequestStoreFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoreflags">put_RequestStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoreflags">RequestStoreFlags</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoreflags">RequestStoreFlags</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststorenamewstr">put_RequestStoreNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststorenamewstr">put_RequestStoreNameWStr</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststorenamewstr">RequestStoreNameWStr</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststorenamewstr">RequestStoreNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoretypewstr">put_RequestStoreTypeWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoretypewstr">put_RequestStoreTypeWStr</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoretypewstr">RequestStoreTypeWStr</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoretypewstr">RequestStoreTypeWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoreflags">put_RootStoreFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoreflags">put_RootStoreFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoreflags">RootStoreFlags</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoreflags">RootStoreFlags</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstorenamewstr">put_RootStoreNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstorenamewstr">put_RootStoreNameWStr</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstorenamewstr">RootStoreNameWStr</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstorenamewstr">RootStoreNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoretypewstr">put_RootStoreTypeWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoretypewstr">put_RootStoreTypeWStr</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoretypewstr">RootStoreTypeWStr</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoretypewstr">RootStoreTypeWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_spcfilenamewstr">put_SPCFileNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_spcfilenamewstr">put_SPCFileNameWStr</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_spcfilenamewstr">SPCFileNameWStr</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_spcfilenamewstr">SPCFileNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_useexistingkeyset">put_UseExistingKeySet</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_useexistingkeyset">put_UseExistingKeySet</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_useexistingkeyset">UseExistingKeySet</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_useexistingkeyset">UseExistingKeySet</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttocsp">put_WriteCertToCSP</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttocsp">put_WriteCertToCSP</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttocsp">WriteCertToCSP</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttocsp">WriteCertToCSP</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttouserds">put_WriteCertToUserDS</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttouserds">put_WriteCertToUserDS</a>
 </td>
 <td align="left" width="63%">
-Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttouserds">WriteCertToUserDS</a> property.
+Sets the value of the <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttouserds">WriteCertToUserDS</a> property.
 
 </td>
 </tr>
@@ -712,7 +712,7 @@ Sets the value of the <a href="https://docs.microsoft.com/windows/desktop/api/xe
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoreflags">CAStoreFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoreflags">CAStoreFlags</a>
 
 
 </td>
@@ -724,7 +724,7 @@ Sets or retrieves a flag that controls the certificate store when it is opened.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castorenamewstr">CAStoreNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castorenamewstr">CAStoreNameWStr</a>
 
 
 </td>
@@ -736,32 +736,32 @@ Sets or retrieves a flag that controls the certificate store when it is opened.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoretypewstr">CAStoreTypeWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castoretypewstr">CAStoreTypeWStr</a>
 
 
 </td>
 <td align="left" width="63%">
 Sets or retrieves the type of store to use for the store specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castorenamewstr">CAStoreNameWStr</a> property.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_castorenamewstr">CAStoreNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_containernamewstr">ContainerNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_containernamewstr">ContainerNameWStr</a>
 
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the  name of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> to use.
+Sets or retrieves the  name of the <a href="/windows/desktop/SecGloss/k-gly">key container</a> to use.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_deleterequestcert">DeleteRequestCert</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_deleterequestcert">DeleteRequestCert</a>
 
 
 </td>
@@ -773,31 +773,31 @@ Sets or retrieves a Boolean indicator that controls whether dummy certificates i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_enablet61dnencoding">EnableT61DNEncoding</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_enablet61dnencoding">EnableT61DNEncoding</a>
 
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves a Boolean value that controls whether the distinguished name in the request is encoded as a T61 string instead of as a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">UNICODE</a> string.
+Sets or retrieves a Boolean value that controls whether the distinguished name in the request is encoded as a T61 string instead of as a <a href="/windows/desktop/SecGloss/u-gly">UNICODE</a> string.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_genkeyflags">GenKeyFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_genkeyflags">GenKeyFlags</a>
 
 
 </td>
 <td align="left" width="63%">
-Sets or retrieves the values passed to <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a> when the certificate request is generated.
+Sets or retrieves the values passed to <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptgenkey">CryptGenKey</a> when the certificate request is generated.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_hashalgorithmwstr">HashAlgorithmWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_hashalgorithmwstr">HashAlgorithmWStr</a>
 
 
 </td>
@@ -809,7 +809,7 @@ Sets or retrieves only the signature hash algorithm used to sign the PKCS #10.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_keyspec">KeySpec</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_keyspec">KeySpec</a>
 
 
 </td>
@@ -821,7 +821,7 @@ Sets or retrieves the  type of key generated.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoreflags">MyStoreFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoreflags">MyStoreFlags</a>
 
 
 </td>
@@ -833,7 +833,7 @@ Sets or retrieves the registry location used for the MY store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystorenamewstr">MyStoreNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystorenamewstr">MyStoreNameWStr</a>
 
 
 </td>
@@ -845,20 +845,20 @@ Sets or retrieves the registry location used for the MY store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoretypewstr">MyStoreTypeWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystoretypewstr">MyStoreTypeWStr</a>
 
 
 </td>
 <td align="left" width="63%">
 Sets or retrieves the type of store  specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystorenamewstr">MyStoreNameWStr</a> property.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_mystorenamewstr">MyStoreNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providerflags">ProviderFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providerflags">ProviderFlags</a>
 
 
 </td>
@@ -870,7 +870,7 @@ Sets or retrieves the type of store  specified by the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">ProviderNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providernamewstr">ProviderNameWStr</a>
 
 
 </td>
@@ -882,7 +882,7 @@ Sets or retrieves the type of store  specified by the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">ProviderType</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_providertype">ProviderType</a>
 
 
 </td>
@@ -894,7 +894,7 @@ Sets or retrieves the type of store  specified by the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_pvkfilenamewstr">PVKFileNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_pvkfilenamewstr">PVKFileNameWStr</a>
 
 
 </td>
@@ -906,7 +906,7 @@ Sets or retrieves the type of store  specified by the
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_renewalcertificate">RenewalCertificate</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_renewalcertificate">RenewalCertificate</a>
 
 
 </td>
@@ -918,7 +918,7 @@ Specifies the certificate context for the renewal certificate.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoreflags">RequestStoreFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoreflags">RequestStoreFlags</a>
 
 
 </td>
@@ -930,7 +930,7 @@ Sets or retrieves the registry location used for the REQUEST store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststorenamewstr">RequestStoreNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststorenamewstr">RequestStoreNameWStr</a>
 
 
 </td>
@@ -942,20 +942,20 @@ Sets or retrieves the name of the store that contains the dummy certificate. Thi
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoretypewstr">RequestStoreTypeWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststoretypewstr">RequestStoreTypeWStr</a>
 
 
 </td>
 <td align="left" width="63%">
  Sets or retrieves the type of store to use for the store specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststorenamewstr">RequestStoreNameWStr</a> property.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_requeststorenamewstr">RequestStoreNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoreflags">RootStoreFlags</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoreflags">RootStoreFlags</a>
 
 
 </td>
@@ -967,7 +967,7 @@ Sets or retrieves the registry location used for the ROOT store.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstorenamewstr">RootStoreNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstorenamewstr">RootStoreNameWStr</a>
 
 
 </td>
@@ -979,20 +979,20 @@ Sets or retrieves the name of the root store where all intrinsically trusted sel
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoretypewstr">RootStoreTypeWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstoretypewstr">RootStoreTypeWStr</a>
 
 
 </td>
 <td align="left" width="63%">
 Sets or retrieves the type of store to use for the store specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstorenamewstr">RootStoreNameWStr</a> property.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_rootstorenamewstr">RootStoreNameWStr</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_spcfilenamewstr">SPCFileNameWStr</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_spcfilenamewstr">SPCFileNameWStr</a>
 
 
 </td>
@@ -1004,7 +1004,7 @@ Sets or retrieves the name of the file to write the resulting base64-encoded PKC
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_useexistingkeyset">UseExistingKeySet</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_useexistingkeyset">UseExistingKeySet</a>
 
 
 </td>
@@ -1016,7 +1016,7 @@ Sets or retrieves the name of the file to write the resulting base64-encoded PKC
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttocsp">WriteCertToCSP</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttocsp">WriteCertToCSP</a>
 
 
 </td>
@@ -1028,7 +1028,7 @@ Sets or retrieves a Boolean value that indicates whether a certificate should be
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttouserds">WriteCertToUserDS</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-get_writecerttouserds">WriteCertToUserDS</a>
 
 
 </td>
@@ -1038,4 +1038,3 @@ Sets or retrieves a Boolean value that controls whether the certificate is writt
 </td>
 </tr>
 </table>
-

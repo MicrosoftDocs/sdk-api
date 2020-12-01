@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the name of the package in which the instance of the object that implements the <a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtsevents">IMtsEvents</a> interface is running.
+Retrieves the name of the package in which the instance of the object that implements the <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtsevents">IMtsEvents</a> interface is running.
 
 ## -parameters
 
@@ -64,5 +64,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtsevents">IMtsEvents</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtsevents">IMtsEvents</a>

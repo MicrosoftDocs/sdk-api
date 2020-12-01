@@ -51,17 +51,17 @@ api_name:
 ## -description
 
 The <b>IADsContainer::get__NewEnum</b> method Retrieves an enumerator object for the container. The 
-  enumerator object implements the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface to enumerate the children of the container object.
+  enumerator object implements the  <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a> interface to enumerate the children of the container object.
 
 ## -parameters
 
 ### -param retval [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
+Pointer to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
 
 ## -returns
 
-This method supports the standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="https://docs.microsoft.com/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
+This method supports the standard return values, including S_OK for a successful operation. For more information about error codes, see  <a href="/windows/desktop/ADSI/adsi-error-codes">ADSI Error Codes</a>.
 
 ## -remarks
 
@@ -69,7 +69,7 @@ There are two underscore characters ("__") in the function name between "get" an
 
 In Visual Basic, use the <b>For</b><b>Each</b>… statement to invoke the <b>IADsContainer::get__NewEnum</b> method implicitly.
 
-In C/C++, use the  <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsbuildenumerator">ADsBuildEnumerator</a>,  <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsenumeratenext">ADsEnumerateNext</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsfreeenumerator">AdsFreeEnumerator</a> helper functions.
+In C/C++, use the  <a href="/windows/desktop/api/adshlp/nf-adshlp-adsbuildenumerator">ADsBuildEnumerator</a>,  <a href="/windows/desktop/api/adshlp/nf-adshlp-adsenumeratenext">ADsEnumerateNext</a>, and <a href="/windows/desktop/api/adshlp/nf-adshlp-adsfreeenumerator">AdsFreeEnumerator</a> helper functions.
 
 
 #### Examples
@@ -145,25 +145,24 @@ pEnum->Release();
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsbuildenumerator">ADsBuildEnumerator</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsbuildenumerator">ADsBuildEnumerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsenumeratenext">ADsEnumerateNext</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsenumeratenext">ADsEnumerateNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsfreeenumerator">AdsFreeEnumerator</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsfreeenumerator">AdsFreeEnumerator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
+<a href="/windows/desktop/api/iads/nn-iads-iadscontainer">IADsContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

@@ -67,9 +67,9 @@ api_name:
 The <b>DeleteRequestCert</b> property sets or retrieves a Boolean value that  determines whether dummy certificates in the request store are deleted.
 
 Dummy certificates are created for the purpose of persisting the keys generated for the PKCS #10 request during the enrollment process. The store specified by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename">RequestStoreName</a> property is where the dummy certificate is created. The newly generated keys are added as properties to the dummy certificate to persist them until a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> processes the request and responds with a PKCS #7. On acceptance of the PKCS #7, the dummy certificate is removed and the keys are added as properties of the issued certificate returned by the certification authority. For debugging and testing, it is often desirable to not delete the dummy certificate. Setting the <b>DeleteRequestCert</b> property to <b>FALSE</b> prevents its deletion.
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_requeststorename">RequestStoreName</a> property is where the dummy certificate is created. The newly generated keys are added as properties to the dummy certificate to persist them until a <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> processes the request and responds with a PKCS #7. On acceptance of the PKCS #7, the dummy certificate is removed and the keys are added as properties of the issued certificate returned by the certification authority. For debugging and testing, it is often desirable to not delete the dummy certificate. Setting the <b>DeleteRequestCert</b> property to <b>FALSE</b> prevents its deletion.
 
-The default value for this property is  <b>TRUE</b>. This property was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
+The default value for this property is  <b>TRUE</b>. This property was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll">ICEnroll</a> interface.
 
 This property is read/write.
 
@@ -81,10 +81,10 @@ The <b>DeleteRequestCert</b> property affects the behavior of the following meth
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
+<a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
 </li>
 </ul>
 
@@ -116,4 +116,3 @@ if ( FAILED ( hr ) )
 else
     printf( "DeleteRequestCert was set to FALSE\n" );
 ```
-

@@ -54,7 +54,7 @@ The <b>IPortableDeviceConnector</b> interface defines methods used for connectio
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceConnector</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceConnector</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceConnector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceConnector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IPortableDeviceConnector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-cancel">Cancel</a>
+<a href="/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a pending request to connect or disconnect an MTP Bluetooth device.
@@ -78,7 +78,7 @@ Cancels a pending request to connect or disconnect an MTP Bluetooth device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect">Connect</a>
+<a href="/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect">Connect</a>
 </td>
 <td align="left" width="63%">
 Sends an asynchronous connection request to the MTP Bluetooth device.
@@ -87,7 +87,7 @@ Sends an asynchronous connection request to the MTP Bluetooth device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect">Disconnect</a>
+<a href="/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Sends an asynchronous disconnect request to the MTP Bluetooth device.
@@ -96,7 +96,7 @@ Sends an asynchronous disconnect request to the MTP Bluetooth device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-getpnpid">GetPnPID</a>
+<a href="/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-getpnpid">GetPnPID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the connector's Plug and Play (PnP) device identifier.
@@ -105,7 +105,7 @@ Retrieves the connector's Plug and Play (PnP) device identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-getproperty">GetProperty</a>
+<a href="/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-getproperty">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a bus-level property for the given MTP Bluetooth device.
@@ -114,7 +114,7 @@ Retrieves a bus-level property for the given MTP Bluetooth device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-setproperty">SetProperty</a>
+<a href="/windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-setproperty">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets a property for the given MTP Bluetooth Bus Enumerator device.
@@ -122,4 +122,3 @@ Sets a property for the given MTP Bluetooth Bus Enumerator device.
 </td>
 </tr>
 </table>
-

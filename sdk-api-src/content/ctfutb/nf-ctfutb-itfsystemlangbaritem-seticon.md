@@ -93,5 +93,4 @@ The system language bar menu does not allow its icon to be modified.
 
 ## -remarks
 
-In response to this method, the system language bar menu should call <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemsink-onupdate">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_ICON to force the language bar to obtain the new icon.
-
+In response to this method, the system language bar menu should call <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemsink-onupdate">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_ICON to force the language bar to obtain the new icon.

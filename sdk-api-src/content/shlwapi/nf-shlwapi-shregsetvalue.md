@@ -54,7 +54,7 @@ Not supported.
 
 Sets a registry value.
 
-Use <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetvaluea">RegSetValue</a> in its place.
+Use <a href="/windows/desktop/api/winreg/nf-winreg-regsetvaluea">RegSetValue</a> in its place.
 
 ## -parameters
 
@@ -114,15 +114,15 @@ A pointer to a null-terminated string that contains the name of the value. This 
 
 ### -param srrfFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/shell/srrf">SRRF</a></b>
+Type: <b><a href="/windows/desktop/shell/srrf">SRRF</a></b>
 
-One or more of the <a href="https://docs.microsoft.com/windows/desktop/shell/srrf">SRRF</a> flags that restricts the data to be set. At least one type restriction (SRRF_RT) value must be specified.
+One or more of the <a href="/windows/desktop/shell/srrf">SRRF</a> flags that restricts the data to be set. At least one type restriction (SRRF_RT) value must be specified.
 
 ### -param dwType [in]
 
 Type: <b>DWORD</b>
 
-The <b>DWORD</b> that indicates the type of data stored in the value to be set. When using default values, the input <i>dwType</i> is the type of the default value. For possible values, see <a href="https://docs.microsoft.com/windows/desktop/shell/schemas">Registry Data Types</a>. If the SRRF_NOEXPAND flag is not set, REG_EXPAND_SZ types are automatically expanded and returned as REG_SZ. If type information is not required, this parameter can be <b>NULL</b>.
+The <b>DWORD</b> that indicates the type of data stored in the value to be set. When using default values, the input <i>dwType</i> is the type of the default value. For possible values, see <a href="/windows/desktop/shell/hkey-type">Registry Data Types</a>. If the SRRF_NOEXPAND flag is not set, REG_EXPAND_SZ types are automatically expanded and returned as REG_SZ. If type information is not required, this parameter can be <b>NULL</b>.
 
 ### -param pvData [in]
 
@@ -140,9 +140,8 @@ The size of the source data buffer <i>pvData</i>, in bytes. This value can be <b
 
 Type: <b>LONG</b>
 
-Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to retrieve a generic description of the error.
+Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the <b>FORMAT_MESSAGE_FROM_SYSTEM</b> flag to retrieve a generic description of the error.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetkeyvaluea">RegSetKeyValue</a>
-
+<a href="/windows/desktop/api/winreg/nf-winreg-regsetkeyvaluea">RegSetKeyValue</a>

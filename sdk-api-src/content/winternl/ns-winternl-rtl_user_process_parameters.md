@@ -78,5 +78,4 @@ The command-line string passed to the process.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winternl/ns-winternl-peb">PEB</a>
-
+<a href="/windows/desktop/api/winternl/ns-winternl-peb">PEB</a>

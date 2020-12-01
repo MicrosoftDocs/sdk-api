@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-Represents additional capabilities of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a> object.
+Represents additional capabilities of an <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a> object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVisualTreeService3</b> interface inherits from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a>. <b>IVisualTreeService3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IVisualTreeService3</b> interface inherits from <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a>. <b>IVisualTreeService3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,34 +69,34 @@ The <b>IVisualTreeService3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-adddictionaryitem">AddDictionaryItem</a>
+<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-adddictionaryitem">AddDictionaryItem</a>
 </td>
 <td align="left" width="63%">
-	Adds an item to a <a href="https://docs.microsoft.com/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
+	Adds an item to a <a href="/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-getdictionaryitem">GetDictionaryItem</a>
+<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-getdictionaryitem">GetDictionaryItem</a>
 </td>
 <td align="left" width="63%">
-Gets an item from a <a href="https://docs.microsoft.com/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>.
+Gets an item from a <a href="/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-removedictionaryitem">RemoveDictionaryItem</a>
+<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-removedictionaryitem">RemoveDictionaryItem</a>
 </td>
 <td align="left" width="63%">
-	Removes an item from a <a href="https://docs.microsoft.com/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
+	Removes an item from a <a href="/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-resolveresource">ResolveResource</a>
+<a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-resolveresource">ResolveResource</a>
 </td>
 <td align="left" width="63%">
 Resolves a resource for an element in the tree and applies the resource to the property provided by the specified property index.
@@ -107,5 +107,4 @@ Resolves a resource for an element in the tree and applies the resource to the p
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a>
-
+<a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice">IVisualTreeService2</a>

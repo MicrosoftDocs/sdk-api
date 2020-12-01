@@ -75,17 +75,16 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-A window is granted a cookie when it is registered as a Shell window. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-register">IShellWindows::Register</a>.
+A window is granted a cookie when it is registered as a Shell window. For more information, see <a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-register">IShellWindows::Register</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nn-exdisp-ishellwindows">IShellWindows</a>
+<a href="/windows/desktop/api/exdisp/nn-exdisp-ishellwindows">IShellWindows</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-oncreated">IShellWindows::OnCreated</a>
+<a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-oncreated">IShellWindows::OnCreated</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-onnavigate">IShellWindows::OnNavigate</a>
-
+<a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-onnavigate">IShellWindows::OnNavigate</a>

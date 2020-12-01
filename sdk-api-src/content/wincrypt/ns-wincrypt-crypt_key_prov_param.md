@@ -54,20 +54,20 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_KEY_PROV_PARAM</b> structure contains information about a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key container</a> parameter. This structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
+The <b>CRYPT_KEY_PROV_PARAM</b> structure contains information about a <a href="/windows/desktop/SecGloss/k-gly">key container</a> parameter. This structure is used with the 
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a> structure.
 
 ## -struct-fields
 
 ### -field dwParam
 
 Identifies the parameter. For possible values, see the <i>dwParam</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a> function.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a> function.
 
 ### -field pbData
 
 The address of a buffer that contains the parameter data. For more information, see the <i>pbData</i> parameter of the 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a> function.
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a> function.
 
 ### -field cbData
 
@@ -79,9 +79,8 @@ This member is reserved for future use and is zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_key_prov_info">CRYPT_KEY_PROV_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>

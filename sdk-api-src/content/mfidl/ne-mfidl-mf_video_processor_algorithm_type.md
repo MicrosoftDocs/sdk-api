@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Defines algorithms for the video processor which is use by <a href="https://docs.microsoft.com/windows/desktop/medfound/mf-video-processor-algorithm">MF_VIDEO_PROCESSOR_ALGORITHM</a>.
+Defines algorithms for the video processor which is use by <a href="/windows/desktop/medfound/mf-video-processor-algorithm">MF_VIDEO_PROCESSOR_ALGORITHM</a>.
 
 ## -enum-fields
 
@@ -66,5 +66,4 @@ The video processor will always internally process in AYUV and use high quality 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

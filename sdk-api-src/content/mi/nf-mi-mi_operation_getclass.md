@@ -60,11 +60,11 @@ Operation handle returned from an instance session operation.
 
 ### -param classResult
 
-Returned class. If the operation fails, this value may be <b>Null</b>. The returned class is valid until the next call to <b>MI_Operation_GetClass</b> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>. If the class needs to be stay active across these calls, then the class needs to be cloned via <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_clone">MI_Class_Clone</a>.
+Returned class. If the operation fails, this value may be <b>Null</b>. The returned class is valid until the next call to <b>MI_Operation_GetClass</b> or <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a>. If the class needs to be stay active across these calls, then the class needs to be cloned via <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_class_clone">MI_Class_Clone</a>.
 
 ### -param moreResults [out, optional]
 
-Returned Boolean value indicating if more results are available. A value of <b>MI_TRUE</b> means that more results can be retrieved. This is accomplished by calling this function until <b>moreResults</b> has a value of <b>MI_FALSE</b> (even if the operation is canceled via <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>. Calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a> before retrieving the last result where <b>moreResults</b> is set to <b>MI_FALSE</b> will cause the <b>MI_Operation_Close</b> function to stop responding.
+Returned Boolean value indicating if more results are available. A value of <b>MI_TRUE</b> means that more results can be retrieved. This is accomplished by calling this function until <b>moreResults</b> has a value of <b>MI_FALSE</b> (even if the operation is canceled via <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_cancel">MI_Operation_Cancel</a>. Calling <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_close">MI_Operation_Close</a> before retrieving the last result where <b>moreResults</b> is set to <b>MI_FALSE</b> will cause the <b>MI_Operation_Close</b> function to stop responding.
 
 ### -param result [out, optional]
 
@@ -76,13 +76,12 @@ In the case of an error, this returned value provides additional debugging infor
 
 ### -param completionDetails
 
-In the case of an error, this returned value provides additional error information - typically in the form of a CIM_Error object (or a derived class). This returned instance has the same lifetime as the <b>classResult</b> value. If this value is needs to stay active longer, then the value needs to be cloned via <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_clone">MI_Instance_Clone</a>.
+In the case of an error, this returned value provides additional error information - typically in the form of a CIM_Error object (or a derived class). This returned instance has the same lifetime as the <b>classResult</b> value. If this value is needs to stay active longer, then the value needs to be cloned via <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_clone">MI_Instance_Clone</a>.
 
 ## -returns
 
-A value of the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
+A value of the <a href="/windows/desktop/api/mi/ne-mi-mi_result">MI_Result</a> enumeration that specifies the function return code. This can be one of the following codes.
 
 ## -remarks
 
 This function will block until a result is available. It must be called until the <b>moreResults</b> parameter is returned with a value of <b>MI_FALSE</b>. It is an error to call this function if a class callback is registered.
-

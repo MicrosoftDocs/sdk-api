@@ -80,13 +80,12 @@ Width of the shortest continuous kashida glyph in the font, indicated by the <b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptgetfontproperties">ScriptGetFontProperties</a>
+<a href="/windows/desktop/api/usp10/nf-usp10-scriptgetfontproperties">ScriptGetFontProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe">Uniscribe</a>
+<a href="/windows/desktop/Intl/uniscribe">Uniscribe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
-
+<a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>

@@ -58,11 +58,11 @@ The <b>IKEEXT_PROPOSAL0</b> structure is used to store an IKE/AuthIP main mode p
 
 ### -field cipherAlgorithm
 
-Parameters for the encryption algorithm specified by [IKEEXT_CIPHER_ALGORITHM0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cipher_algorithm0).
+Parameters for the encryption algorithm specified by [IKEEXT_CIPHER_ALGORITHM0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_cipher_algorithm0).
 
 ### -field integrityAlgorithm
 
-Parameters for the hash algorithm specified by [IKEEXT_INTEGRITY_ALGORITHM0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_integrity_algorithm0).
+Parameters for the hash algorithm specified by [IKEEXT_INTEGRITY_ALGORITHM0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_integrity_algorithm0).
 
 ### -field maxLifetimeSeconds
 
@@ -70,7 +70,7 @@ Main mode security association (SA) lifetime in seconds.
 
 ### -field dhGroup
 
-The Diffie Hellman group specified by [IKEEXT_DH_GROUP](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_dh_group).
+The Diffie Hellman group specified by [IKEEXT_DH_GROUP](/windows/desktop/api/iketypes/ne-iketypes-ikeext_dh_group).
 
 ### -field quickModeLimit
 
@@ -83,21 +83,20 @@ The proposal describes the
 various parameters of the IKE/AuthIP main mode SA that is potentially generated
 from this proposal.
 
-<b>IKEEXT_PROPOSAL0</b> is a specific implementation of IKEEXT_PROPOSAL. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
+<b>IKEEXT_PROPOSAL0</b> is a specific implementation of IKEEXT_PROPOSAL. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
 
 ## -see-also
 
-[IKEEXT_CIPHER_ALGORITHM0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_cipher_algorithm0)
+[IKEEXT_CIPHER_ALGORITHM0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_cipher_algorithm0)
 
 
 
-[IKEEXT_DH_GROUP](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_dh_group)
+[IKEEXT_DH_GROUP](/windows/desktop/api/iketypes/ne-iketypes-ikeext_dh_group)
 
 
 
-[IKEEXT_INTEGRITY_ALGORITHM0](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_integrity_algorithm0)
+[IKEEXT_INTEGRITY_ALGORITHM0](/windows/desktop/api/iketypes/ns-iketypes-ikeext_integrity_algorithm0)
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-
+<a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>

@@ -55,7 +55,7 @@ This interface enables a single method that enumerates graphics adapters based o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory6</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgifactory5">IDXGIFactory5</a>. <b>IDXGIFactory6</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIFactory6</b> interface inherits from <a href="/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgifactory5">IDXGIFactory5</a>. <b>IDXGIFactory6</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDXGIFactory6</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgifactory6-enumadapterbygpupreference">EnumAdapterByGpuPreference</a>
+<a href="/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgifactory6-enumadapterbygpupreference">EnumAdapterByGpuPreference</a>
 </td>
 <td align="left" width="63%">
 Enumerates graphics adapters based on a given GPU preference.
@@ -81,31 +81,31 @@ Enumerates graphics adapters based on a given GPU preference.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
+<a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-interfaces">DXGI Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1">IDXGIFactory1</a>
+<a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1">IDXGIFactory1</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>
+<a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactory3">IDXGIFactory3</a>
+<a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactory3">IDXGIFactory3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgifactory4">IDXGIFactory4</a>
+<a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgifactory4">IDXGIFactory4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgifactory5">IDXGIFactory5</a>
+<a href="/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgifactory5">IDXGIFactory5</a>
 
 
 
@@ -114,4 +114,3 @@ Enumerates graphics adapters based on a given GPU preference.
 
 
 <a href="https://github.com/Microsoft/DirectX-Graphics-Samples/tree/develop/Samples/Desktop/D3D12xGPU">xGPU desktop sample</a>
-

@@ -101,7 +101,7 @@ The <a href="/windows/win32/api/credentialprovider/ne-credentialprovider-credent
 </tr>
 <tr>
 <td><b>CPUS_LOGON</b>, <b>CPUS_UNLOCK_WORKSTATION</b></td>
-<td>The credential information should be packed into a binary stream and transmitted to <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/winlogon">Winlogon</a> and eventually LSA.</td>
+<td>The credential information should be packed into a binary stream and transmitted to <a href="/windows/desktop/SecAuthN/winlogon">Winlogon</a> and eventually LSA.</td>
 </tr>
 </table>
  
@@ -112,8 +112,7 @@ Credential providers handle extremely sensitive user secrets in order to complet
                 
 
 <ul>
-<li>Always securely discard secrets. To do this, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> before freeing the memory used to hold any secret.</li>
+<li>Always securely discard secrets. To do this, call <a href="/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)">SecureZeroMemory</a> before freeing the memory used to hold any secret.</li>
 <li>Securely discard secrets promptly after they are used.</li>
 <li>Securely discard secrets if they are not used for their intended purpose within an expected amount of time.</li>
 </ul>
-

@@ -80,9 +80,8 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 To enumerate the local machine's device enumerators, call <b>CM_Enumerate_Enumerators</b> repeatedly, starting with a <i>ulEnumIndex</i> index value of zero. and incrementing the index value with each subsequent call until the function returns CR_NO_SUCH_VALUE.
 
-After enumerator names have been obtained, the names can be used as input to <a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista">CM_Get_Device_ID_List</a>.
+After enumerator names have been obtained, the names can be used as input to <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista">CM_Get_Device_ID_List</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enumerate_enumerators_exw">CM_Enumerate_Enumerators_Ex</a>
-
+<a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_enumerate_enumerators_exw">CM_Enumerate_Enumerators_Ex</a>

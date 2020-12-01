@@ -64,17 +64,16 @@ An array of handles.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a>
+<a href="/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162630(v=vs.85)">EnumMetaFileProc</a>
+<a href="/previous-versions/dd162630(v=vs.85)">EnumMetaFileProc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

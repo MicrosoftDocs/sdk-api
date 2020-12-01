@@ -71,9 +71,8 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig3">IWMStreamConfig3 Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig3">IWMStreamConfig3 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig3-setlanguage">IWMStreamConfig3::SetLanguage</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig3-setlanguage">IWMStreamConfig3::SetLanguage</a>

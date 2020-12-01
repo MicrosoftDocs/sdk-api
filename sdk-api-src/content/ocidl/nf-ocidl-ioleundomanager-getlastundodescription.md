@@ -97,9 +97,8 @@ This method provides a convenient shortcut for the host application to add a des
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-getlastredodescription">IOleUndoManager::GetLastRedoDescription</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-getlastredodescription">IOleUndoManager::GetLastRedoDescription</a>

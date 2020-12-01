@@ -54,8 +54,8 @@ api_name:
 
 The 
 <b>STGOPTIONS</b> structure specifies features of the storage object, such as sector size, in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex">StgCreateStorageEx</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex">StgOpenStorageEx</a> functions.
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex">StgCreateStorageEx</a> and 
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex">StgOpenStorageEx</a> functions.
 
 ## -struct-fields
 
@@ -83,7 +83,7 @@ Specifies the sector size of the storage object. The default is 512 bytes.
 
 ### -field pwcsTemplateFile
 
-Specifies the name of a file whose Encrypted File System (EFS) metadata will be transferred to a newly created Structured Storage file. This member is valid only when <b>STGFMT_DOCFILE</b> is used with <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex">StgCreateStorageEx</a>.
+Specifies the name of a file whose Encrypted File System (EFS) metadata will be transferred to a newly created Structured Storage file. This member is valid only when <b>STGFMT_DOCFILE</b> is used with <a href="/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex">StgCreateStorageEx</a>.
 
 <b>In Windows XP and later:  </b>The <b>pwcsTemplateFile</b> member is only valid if version 2 or later is specified in the <b>usVersion</b> member.
 
@@ -93,13 +93,12 @@ Specifies the name of a file whose Encrypted File System (EFS) metadata will be 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Stg/structured-storage-interfaces">Compound File Implementation Limits</a>
+<a href="/windows/desktop/Stg/structured-storage-interfaces">Compound File Implementation Limits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex">StgCreateStorageEx</a>
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex">StgCreateStorageEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex">StgOpenStorageEx</a>
-
+<a href="/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex">StgOpenStorageEx</a>

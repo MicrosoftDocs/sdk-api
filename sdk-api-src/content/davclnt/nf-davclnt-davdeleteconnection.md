@@ -52,21 +52,20 @@ api_name:
 
 ## -description
 
-Closes a connection that was created by using the <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davaddconnection">DavAddConnection</a> function.
+Closes a connection that was created by using the <a href="/windows/desktop/api/davclnt/nf-davclnt-davaddconnection">DavAddConnection</a> function.
 
 ## -parameters
 
 ### -param ConnectionHandle [in]
 
-A handle to an open connection that was  created by using the  <a href="https://docs.microsoft.com/windows/desktop/api/davclnt/nf-davclnt-davaddconnection">DavAddConnection</a> function.
+A handle to an open connection that was  created by using the  <a href="/windows/desktop/api/davclnt/nf-davclnt-davaddconnection">DavAddConnection</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
-If the function fails, the return value is a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+If the function fails, the return value is a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certclosestore">CertCloseStore</a>

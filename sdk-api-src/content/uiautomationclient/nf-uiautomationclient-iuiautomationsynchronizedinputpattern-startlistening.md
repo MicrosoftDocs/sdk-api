@@ -56,19 +56,19 @@ Causes the Microsoft UI Automation provider to start listening for mouse or keyb
 
 #### - inputType [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/uiautomationcore/ne-uiautomationcore-synchronizedinputtype">SynchronizedInputType</a></b>
+Type: <b><a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-synchronizedinputtype">SynchronizedInputType</a></b>
 
 A combination of values specifying the type of input to listen for.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
-When matching input is found, the provider checks whether the target element matches the current element. If they match, the provider raises the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_InputReachedTargetEventId</a> event; otherwise it raises the <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_InputReachedOtherElementEventId</a> or <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-event-ids">UIA_InputDiscardedEventId</a> event.
+When matching input is found, the provider checks whether the target element matches the current element. If they match, the provider raises the <a href="/windows/desktop/WinAuto/uiauto-event-ids">UIA_InputReachedTargetEventId</a> event; otherwise it raises the <a href="/windows/desktop/WinAuto/uiauto-event-ids">UIA_InputReachedOtherElementEventId</a> or <a href="/windows/desktop/WinAuto/uiauto-event-ids">UIA_InputDiscardedEventId</a> event.
 
 After receiving input of the specified type, the provider stops checking for input and continues as normal.
 
@@ -76,5 +76,4 @@ If the provider is already listening for input, this method returns <b>E_INVALID
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationsynchronizedinputpattern">IUIAutomationSynchronizedInputPattern</a>
-
+<a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationsynchronizedinputpattern">IUIAutomationSynchronizedInputPattern</a>

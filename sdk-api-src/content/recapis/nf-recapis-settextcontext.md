@@ -52,7 +52,7 @@ api_name:
 
 Provides the text strings that come before and after the text contained in the recognizer context.
 
-You call this function before processing the ink for the first time. Therefore, call the <b>SetTextContext</b> function before calling the <a href="https://docs.microsoft.com/windows/desktop/api/recapis/nf-recapis-process">Process</a> function.
+You call this function before processing the ink for the first time. Therefore, call the <b>SetTextContext</b> function before calling the <a href="/windows/desktop/api/recapis/nf-recapis-process">Process</a> function.
 
 ## -parameters
 
@@ -160,4 +160,3 @@ The <b>SetTextContext</b> function provides context for a phrase or a word, incr
 However, if the <i>pwcAfter</i> string is "Hel" and the <i>pwcBefore</i> string is "o", the lack of space between the strings indicates the recognizer should recognize one or more letters inside a word that begins with "Hel" and ends with "o".
 
 It is recommended that you limit the length of the text context to no more than 1024 characters each for the left and right contexts.
-

@@ -96,9 +96,8 @@ Invoking
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/assisted-telephony-services-reference">Assisted Telephony Services Reference</a>
+<a href="/windows/desktop/Tapi/assisted-telephony-services-reference">Assisted Telephony Services Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-
+<a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>

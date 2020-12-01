@@ -51,7 +51,7 @@ api_name:
 ## -description
 
 Passes the results of processing the client request asynchronously. This function should be called 
-    only if the <a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> function 
+    only if the <a href="/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a> function 
     returns <b>ERROR_IO_PENDING</b>.
 
 ## -parameters
@@ -79,7 +79,7 @@ Specifies the action that the system should take for this client request. The fo
 <td width="60%">
 The provider replied to the client with a standard DHCP response packet that contains the path to the 
         Network Boot Program. Returning this action means that the provider successfully completed the client request 
-        by calling the <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a> function at least 
+        by calling the <a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a> function at least 
         once.
 
 </td>
@@ -93,7 +93,7 @@ The provider replied to the client with a standard DHCP response packet that con
 <td width="60%">
 The provider replied to the client by using a custom response that does not conform to DHCP 
         specifications. Returning this action means that the provider successfully completed the client request by 
-        calling the <a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a> function at least once.
+        calling the <a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a> function at least once.
 
 </td>
 </tr>
@@ -131,13 +131,12 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
+<a href="/windows/desktop/Wds/pxeproviderrecvrequest">PxeProviderRecvRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a>
+<a href="/windows/desktop/api/wdspxe/nf-wdspxe-pxesendreply">PxeSendReply</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>
-
+<a href="/windows/desktop/Wds/windows-deployment-services-server-functions">Windows Deployment Services Server Functions</a>

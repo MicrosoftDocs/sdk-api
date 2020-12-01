@@ -76,9 +76,8 @@ An internal error occurred.
 
 ## -remarks
 
-This enumeration is used to return error information  from the <a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtexttrack-geterrorcode">IMFTimedTextTrack::GetErrorCode</a> method.
+This enumeration is used to return error information  from the <a href="/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imftimedtexttrack-geterrorcode">IMFTimedTextTrack::GetErrorCode</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-
+<a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>

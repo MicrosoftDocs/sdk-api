@@ -56,15 +56,15 @@ The <b>SetupDiGetSelectedDevice</b> function retrieves the selected device infor
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-information-sets">device information set</a> for which to retrieve the selected device information element.
+A handle to the <a href="/windows-hardware/drivers/install/device-information-sets">device information set</a> for which to retrieve the selected device information element.
 
 ### -param DeviceInfoData [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that receives information about the selected device information element for <i>DeviceInfoSet</i>. The caller must set <i>DeviceInfoData.</i><b>cbSize</b> to <b>sizeof</b>(SP_DEVINFO_DATA). If a device is currently not selected, the function fails and a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a> returns ERROR_NO_DEVICE_SELECTED.
+A pointer to an <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a> structure that receives information about the selected device information element for <i>DeviceInfoSet</i>. The caller must set <i>DeviceInfoData.</i><b>cbSize</b> to <b>sizeof</b>(SP_DEVINFO_DATA). If a device is currently not selected, the function fails and a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_NO_DEVICE_SELECTED.
 
 ## -returns
 
-The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="https://msdn.microsoft.com/library/ms679360(VS.85).aspx">GetLastError</a>.
+The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>FALSE</b> and the logged error can be retrieved with a call to <a href="/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -72,9 +72,8 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a>
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdisetselecteddevice">SetupDiSetSelectedDevice</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetselecteddevice">SetupDiSetSelectedDevice</a>

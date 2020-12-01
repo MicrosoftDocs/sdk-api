@@ -56,11 +56,11 @@ Creates a property store object from serialized property store data.
 
 ### -param guidProp [in]
 
-Contains the type identifier of the property. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfpropertystore-gettype">ITfPropertyStore::GetType</a>.
+Contains the type identifier of the property. For more information, see <a href="/windows/desktop/api/msctf/nf-msctf-itfpropertystore-gettype">ITfPropertyStore::GetType</a>.
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that contains the text to be covered by the property store.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a> object that contains the text to be covered by the property store.
 
 ### -param cb [in]
 
@@ -72,7 +72,7 @@ Pointer to an <b>IStream</b> object that contains the property store data.
 
 ### -param ppStore [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a> interface pointer that receives the property store object created by this method.
+Pointer to an <a href="/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore</a> interface pointer that receives the property store object created by this method.
 
 ## -returns
 
@@ -99,4 +99,3 @@ The method was successful.
 ## -see-also
 
 [ITfCreatePropertyStore interface](nn-msctf-itfcreatepropertystore.md), [ITfPropertyStore interface](nn-msctf-itfpropertystore.md), [ITfPropertyStore::GetType](nf-msctf-itfpropertystore-gettype.md), [ITfRange interface](nn-msctf-itfrange.md)
-

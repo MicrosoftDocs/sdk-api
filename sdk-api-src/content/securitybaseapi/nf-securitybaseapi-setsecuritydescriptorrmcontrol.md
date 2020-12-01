@@ -57,19 +57,19 @@ api_name:
 
 ## -description
 
-The <b>SetSecurityDescriptorRMControl</b> function sets the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager</a> control bits in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+The <b>SetSecurityDescriptorRMControl</b> function sets the <a href="/windows/desktop/SecGloss/r-gly">resource manager</a> control bits in the 
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure.
 
 ## -parameters
 
 ### -param SecurityDescriptor [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager</a> control bits.
+A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure that contains the <a href="/windows/desktop/SecGloss/r-gly">resource manager</a> control bits.
 
 ### -param RMControl [in, optional]
 
 A pointer to the bitfield value that the resource manager control bits in the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure will be set to. If the value of this parameter is <b>NULL</b>, the resource manager control bits will be cleared.
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure will be set to. If the value of this parameter is <b>NULL</b>, the resource manager control bits will be cleared.
 
 ## -returns
 
@@ -78,26 +78,25 @@ The return value is ERROR_SUCCESS.
 ## -remarks
 
 The resource manager control bits are eight bits in the <b>Sbz1</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> structure that contains information specific to the resource manager accessing the structure. These bits should be accessed only through the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorrmcontrol">GetSecurityDescriptorRMControl</a> and <b>SetSecurityDescriptorRMControl</b> functions.
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a> structure that contains information specific to the resource manager accessing the structure. These bits should be accessed only through the 
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorrmcontrol">GetSecurityDescriptorRMControl</a> and <b>SetSecurityDescriptorRMControl</b> functions.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorrmcontrol">GetSecurityDescriptorRMControl</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorrmcontrol">GetSecurityDescriptorRMControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
-
+<a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>

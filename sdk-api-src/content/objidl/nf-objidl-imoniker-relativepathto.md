@@ -56,11 +56,11 @@ Creates a relative moniker between this moniker and the specified moniker.
 
 ### -param pmkOther [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker to which a relative path should be taken.
+A pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> interface on the moniker to which a relative path should be taken.
 
 ### -param ppmkRelPath [out]
 
-A pointer to an  <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer variable that receives the interface pointer to the relative moniker. When successful, the implementation must call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the new moniker; it is the caller's responsibility to call <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs, the implementation sets *<i>ppmkRelPath</i> to <b>NULL</b>.
+A pointer to an  <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a> pointer variable that receives the interface pointer to the relative moniker. When successful, the implementation must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> on the new moniker; it is the caller's responsibility to call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a>. If an error occurs, the implementation sets *<i>ppmkRelPath</i> to <b>NULL</b>.
 
 ## -returns
 
@@ -116,7 +116,7 @@ Moniker clients typically do not need to call <b>RelativePathTo</b>. This method
 If you do call <b>RelativePathTo</b>, call it only on absolute monikersâ€”for example, a file moniker or a composite moniker whose leftmost component is a file moniker, where the file moniker represents an absolute path. Do not call this method on relative monikers.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-Your implementation of <b>RelativePathTo</b> should first determine whether <i>pmkOther</i> is a moniker of a class that you recognize and for which you can provide special handling (for example, if it is of the same class as this moniker). If so, your implementation should determine the relative path. Otherwise, it should pass both monikers in a call to the <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-monikerrelativepathto">MonikerRelativePathTo</a> function, which correctly handles the generic case.
+Your implementation of <b>RelativePathTo</b> should first determine whether <i>pmkOther</i> is a moniker of a class that you recognize and for which you can provide special handling (for example, if it is of the same class as this moniker). If so, your implementation should determine the relative path. Otherwise, it should pass both monikers in a call to the <a href="/windows/desktop/api/objbase/nf-objbase-monikerrelativepathto">MonikerRelativePathTo</a> function, which correctly handles the generic case.
 
 The first step in determining a relative path is determining the common prefix of this moniker and <i>pmkOther</i>. The next step is to break this moniker and <i>pmkOther</i> into two parts each, say (P, myTail) and (P, otherTail) respectively, where P is the common prefix. The correct relative path is then the inverse of myTail composed with otherTail:
 
@@ -124,7 +124,7 @@ Comp( Inv( myTail ), otherTail )
 
 where Comp() represents the composition operation and Inv() represents the inverse operation.
 
-For certain types of monikers, you cannot use your <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-imoniker-inverse">IMoniker::Inverse</a> method to construct the inverse of myTail. For example, a file moniker returns an anti-moniker as an inverse, while its <b>RelativePathTo</b> method must use one or more file monikers that each represent the path ".." to construct the inverse of myTail.
+For certain types of monikers, you cannot use your <a href="/windows/desktop/api/objidl/nf-objidl-imoniker-inverse">IMoniker::Inverse</a> method to construct the inverse of myTail. For example, a file moniker returns an anti-moniker as an inverse, while its <b>RelativePathTo</b> method must use one or more file monikers that each represent the path ".." to construct the inverse of myTail.
 
 <h3><a id="Implementation-specific_Notes"></a><a id="implementation-specific_notes"></a><a id="IMPLEMENTATION-SPECIFIC_NOTES"></a>Implementation-specific Notes</h3>
 <table>
@@ -138,7 +138,7 @@ For certain types of monikers, you cannot use your <a href="https://docs.microso
 </tr>
 <tr>
 <td>Class moniker</td>
-<td>This method returns the result of calling <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-monikerrelativepathto">MonikerRelativePathTo</a> with <i>pmkSrc</i> equal to this moniker, <i>pmkOther</i>, <i>ppmkRelPath</i>, and <b>TRUE</b> as <i>dwReserved</i>.</td>
+<td>This method returns the result of calling <a href="/windows/desktop/api/objbase/nf-objbase-monikerrelativepathto">MonikerRelativePathTo</a> with <i>pmkSrc</i> equal to this moniker, <i>pmkOther</i>, <i>ppmkRelPath</i>, and <b>TRUE</b> as <i>dwReserved</i>.</td>
 </tr>
 <tr>
 <td>File moniker</td>
@@ -168,9 +168,8 @@ For certain types of monikers, you cannot use your <a href="https://docs.microso
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-monikerrelativepathto">MonikerRelativePathTo</a>
-
+<a href="/windows/desktop/api/objbase/nf-objbase-monikerrelativepathto">MonikerRelativePathTo</a>

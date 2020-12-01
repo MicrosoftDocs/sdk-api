@@ -68,25 +68,24 @@ The number of palette entries.
 
 ### -field offPalEntries
 
-The offset, in bytes, to an array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures.
+The offset, in bytes, to an array of <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures.
 
 ### -field nSizeLast
 
-The same size as the <b>nSize</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a> structure. This member must be the last double word of the record. If palette entries exist, they precede this member.
+The same size as the <b>nSize</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a> structure. This member must be the last double word of the record. If palette entries exist, they precede this member.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-emr">EMR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
-
+<a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>

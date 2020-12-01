@@ -68,13 +68,13 @@ api_name:
 
 Moves an existing file or directory, including its children, with various move options.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a> function is equivalent 
+The <a href="/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a> function is equivalent 
     to the <b>MoveFileEx</b> function, except that 
     <b>MoveFileWithProgress</b> allows you to provide a 
     callback function that receives progress notifications.
 
 To perform this operation as a transacted operation, use the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a> function.
+    <a href="/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a> function.
 
 ## -parameters
 
@@ -89,10 +89,10 @@ If <i>dwFlags</i> specifies <b>MOVEFILE_DELAY_UNTIL_REBOOT</b>, the
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>
 
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>MoveFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>MoveFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
 
 ### -param lpNewFileName [in, optional]
@@ -115,10 +115,10 @@ If <i>dwFlags</i> specifies <b>MOVEFILE_DELAY_UNTIL_REBOOT</b> and
 In the ANSI version of this function, the name is limited to <b>MAX_PATH</b> characters. 
        To extend this limit to 32,767 wide characters, call the Unicode version of the function and prepend 
        "\\?\" to the path. For more information, see 
-       <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming a File</a>
+       <a href="/windows/desktop/FileIO/naming-a-file">Naming a File</a>
 
 
-<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>MoveFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="https://docs.microsoft.com/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
+<div class="alert"><b>Tip</b>  Starting with Windows 10, version 1607, for the unicode version of this function (<b>MoveFileExW</b>), you can opt-in to remove the <b>MAX_PATH</b> limitation without prepending "\\?\". See the "Maximum Path Length Limitation" section of <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a> for details.</div>
 <div> </div>
 
 ### -param dwFlags [in]
@@ -138,8 +138,8 @@ This parameter can be one or more of the following values.
 </td>
 <td width="60%">
 If the file is to be moved to a different volume, the function simulates the move by using the 
-        <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile">CopyFile</a> and 
-        <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a> functions.
+        <a href="/windows/desktop/api/winbase/nf-winbase-copyfile">CopyFile</a> and 
+        <a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a> functions.
 
 If the  file is successfully copied to a different volume and the original file is unable to be deleted, 
          the function succeeds leaving the source file intact.
@@ -230,7 +230,7 @@ This value has no effect if <b>MOVEFILE_DELAY_UNTIL_REBOOT</b> is set.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero (0). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -294,7 +294,7 @@ If a file is moved across volumes, <b>MoveFileEx</b> does not
      destination directory.
 
 The <b>MoveFileEx</b> function coordinates its operation with 
-     the <a href="https://docs.microsoft.com/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers">link tracking</a> service, 
+     the <a href="/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers">link tracking</a> service, 
      so link sources can be tracked as they are moved.
 
 To delete or rename a file, you must have either delete permission on the file or delete child permission in 
@@ -303,7 +303,7 @@ To delete or rename a file, you must have either delete permission on the file o
      can then create a file, and get all the access you request on the handle that is returned to you at the time that 
      you create the file. If you request delete permission at the time you create the file, you can delete or rename 
      the file with that handle but not with any other handle.  For more information, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+     <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -369,39 +369,38 @@ Yes
 #### Examples
 
 For an example, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/creating-and-using-a-temporary-file">Creating and Using a Temporary File</a>.
+      <a href="/windows/desktop/FileIO/creating-and-using-a-temporary-file">Creating and Using a Temporary File</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-copyfile">CopyFile</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-copyfile">CopyFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-deletefilea">DeleteFile</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>
+<a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
+<a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya">GetWindowsDirectory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>
-
+<a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>

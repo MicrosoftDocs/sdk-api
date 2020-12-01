@@ -59,7 +59,7 @@ api_name:
 
 Retrieves the product type for the operating system on the local computer, and maps the type to the product types supported by the specified operating system.
 
-To retrieve product type information on versions of Windows prior to the minimum supported operating systems specified in the Requirements section, use the <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> function. You can also use the <b>OperatingSystemSKU</b> property of the <a href="https://docs.microsoft.com/windows/desktop/CIMWin32Prov/win32-operatingsystem">Win32_OperatingSystem</a> WMI class.
+To retrieve product type information on versions of Windows prior to the minimum supported operating systems specified in the Requirements section, use the <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getversionexa">GetVersionEx</a> function. You can also use the <b>OperatingSystemSKU</b> property of the <a href="/windows/desktop/CIMWin32Prov/win32-operatingsystem">Win32_OperatingSystem</a> WMI class.
 
 ## -parameters
 
@@ -223,7 +223,7 @@ Server Standard, Semi-Annual Channel (core installation)
 </dl>
 </td>
 <td width="60%">
-Server Datacenter (full installation. For Server Core installations of Windows Server 2012 and later, use the method, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh846315(v=vs.85)">Determining whether Server Core is running</a>.)
+Server Datacenter (full installation. For Server Core installations of Windows Server 2012 and later, use the method, <a href="/previous-versions/windows/desktop/legacy/hh846315(v=vs.85)">Determining whether Server Core is running</a>.)
 
 </td>
 </tr>
@@ -883,7 +883,7 @@ Server Standard (evaluation installation)
 </dl>
 </td>
 <td width="60%">
-Server Standard (full installation. For Server Core installations of Windows Server 2012 and later, use the method, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh846315(v=vs.85)">Determining whether Server Core is running</a>.)
+Server Standard (full installation. For Server Core installations of Windows Server 2012 and later, use the method, <a href="/previous-versions/windows/desktop/legacy/hh846315(v=vs.85)">Determining whether Server Core is running</a>.)
 
 </td>
 </tr>
@@ -1161,11 +1161,11 @@ If the function fails, the return value is zero. This function fails if one of t
 
 ## -remarks
 
-To detect whether a server role or feature is installed, use the  <a href="https://docs.microsoft.com/windows/desktop/WmiSdk/win32-serverfeature">Server Feature</a> WMI provider.
+To detect whether a server role or feature is installed, use the  <a href="/windows/desktop/WmiSdk/win32-serverfeature">Server Feature</a> WMI provider.
 
 Subsequent releases of Windows will map the product types it supports to the set of product types supported by each supported previous release of Windows, back to version 6.0.0.0. Therefore, an application that does an equality test for any of these values will continue to work on future releases, even when new product types are added.
 
-PRODUCT_*_SERVER_CORE values are not returned in Windows Server 2012, and later. For  example, the base server edition, Server Datacenter, is used to build the two different installation options: "full server" and "core server". With Windows Server 2012,  <b>GetProductInfo</b> will return PRODUCT_DATACENTER regardless of the option used during product installation. As noted above, for Server Core installations of Windows Server 2012 and later, use the method <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh846315(v=vs.85)">Determining whether Server Core is running</a>.
+PRODUCT_*_SERVER_CORE values are not returned in Windows Server 2012, and later. For  example, the base server edition, Server Datacenter, is used to build the two different installation options: "full server" and "core server". With Windows Server 2012,  <b>GetProductInfo</b> will return PRODUCT_DATACENTER regardless of the option used during product installation. As noted above, for Server Core installations of Windows Server 2012 and later, use the method <a href="/previous-versions/windows/desktop/legacy/hh846315(v=vs.85)">Determining whether Server Core is running</a>.
 
 The following table indicates the product types that were introduced in 6.1.0.0, and what they will map to if <b>GetProductInfo</b> is called with version 6.0.0.0 on a 6.1.0.0 system.
 
@@ -1190,16 +1190,15 @@ The following table indicates the product types that were introduced in 6.1.0.0,
  
 
 To compile an application that uses this function, define _WIN32_WINNT as 0x0600 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+<a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/getting-the-system-version">Getting the System Version</a>.
+For an example, see <a href="/windows/desktop/SysInfo/getting-the-system-version">Getting the System Version</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
-
+<a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>

@@ -46,6 +46,7 @@ api_location:
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
  - IsDlgButtonChecked
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 ---
 
 # IsDlgButtonChecked function
@@ -59,7 +60,7 @@ The <b>IsDlgButtonChecked</b> function determines whether a button control is ch
 
 ### -param hDlg [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the dialog box that contains the button control.
 
@@ -71,9 +72,9 @@ The identifier of the button control.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The return value from a button created with the <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_AUTOCHECKBOX</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_AUTORADIOBUTTON</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_AUTO3STATE</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_CHECKBOX</a>, <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_RADIOBUTTON</a>, or <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_3STATE</a> styles can be one of the values in the following table. If the button has any other style, the return value is zero. 
+The return value from a button created with the <a href="/windows/desktop/Controls/button-styles">BS_AUTOCHECKBOX</a>, <a href="/windows/desktop/Controls/button-styles">BS_AUTORADIOBUTTON</a>, <a href="/windows/desktop/Controls/button-styles">BS_AUTO3STATE</a>, <a href="/windows/desktop/Controls/button-styles">BS_CHECKBOX</a>, <a href="/windows/desktop/Controls/button-styles">BS_RADIOBUTTON</a>, or <a href="/windows/desktop/Controls/button-styles">BS_3STATE</a> styles can be one of the values in the following table. If the button has any other style, the return value is zero. 
 				
 
 <table>
@@ -99,7 +100,7 @@ The button is checked.
 </dl>
 </td>
 <td width="60%">
-The button is in an indeterminate state (applies only if the button has the <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_3STATE</a> or <a href="https://docs.microsoft.com/windows/desktop/Controls/button-styles">BS_AUTO3STATE</a> style).
+The button is in an indeterminate state (applies only if the button has the <a href="/windows/desktop/Controls/button-styles">BS_3STATE</a> or <a href="/windows/desktop/Controls/button-styles">BS_AUTO3STATE</a> style).
 
 </td>
 </tr>
@@ -118,16 +119,15 @@ The button is not checked.
 
 ## -remarks
 
-The <b>IsDlgButtonChecked</b> function sends a <a href="https://docs.microsoft.com/windows/desktop/Controls/bm-getcheck">BM_GETCHECK</a> message to the specified button control. 
+The <b>IsDlgButtonChecked</b> function sends a <a href="/windows/desktop/Controls/bm-getcheck">BM_GETCHECK</a> message to the specified button control. 
 
 
 #### Examples
 
-For an example, see the section titled "Creating a Modeless Dialog Box" in <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Using Dialog Boxes</a>.
+For an example, see the section titled "Creating a Modeless Dialog Box" in <a href="/windows/desktop/dlgbox/using-dialog-boxes">Using Dialog Boxes</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-checkdlgbutton">CheckDlgButton</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-checkdlgbutton">CheckDlgButton</a>

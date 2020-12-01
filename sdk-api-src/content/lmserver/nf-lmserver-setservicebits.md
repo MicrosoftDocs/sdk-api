@@ -51,15 +51,15 @@ api_name:
 ## -description
 
 Registers a service type with the service control manager and the Server service. The Server service can then announce the registered service type as one it currently supports. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a> functions obtain a specified machine's supported service types.
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a> and 
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a> functions obtain a specified machine's supported service types.
 
 ## -parameters
 
 ### -param hServiceStatus [in]
 
 A handle to the status information structure for the service. A service obtains the handle by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a> function.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a> function.
 
 ### -param dwServiceBits [in]
 
@@ -200,25 +200,24 @@ If this value is TRUE, the Server service is to perform an immediate update. If 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netserverenum">NetServerEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-registerservicectrlhandlerexa">RegisterServiceCtrlHandlerEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
+<a href="/windows/desktop/Services/service-functions">Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
-
+<a href="/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>

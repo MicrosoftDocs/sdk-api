@@ -55,7 +55,7 @@ api_name:
 
 the client in Msdrm.dll is available for use in Windows Server 2008, Windows Vista, Windows Server 2008 R2, Windows 7, Windows Server 2012, and Windows 8. It may be altered or 
 
-unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
+unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/msipc/microsoft-information-protection-and-control-client-portal">Active Directory Rights Management Services SDK 2.1</a>, 
 
 which leverages functionality exposed by the client in Msipc.dll.]
 
@@ -87,20 +87,19 @@ An optional license description, in the language specified by this locale.
 
 If the function succeeds, the function returns S_OK.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following list. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -remarks
 
 This function allows a license to be distributed internationally. A consuming application can display the localized name and description of the license.
 
-<div class="alert"><b>Note</b>  To set a default language for Name and Description, you can set the locale ID to 0. Take note that this is supported only for templates and licenses created programmatically on the client. AD RMS server administration does not support setting a default language for Name and Description.  For more information about creating an issuance license programmatically, see   <a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/creating-an-issuance-license">Creating an Issuance License</a>.</div>
+<div class="alert"><b>Note</b>  To set a default language for Name and Description, you can set the locale ID to 0. Take note that this is supported only for templates and licenses created programmatically on the client. AD RMS server administration does not support setting a default language for Name and Description.  For more information about creating an issuance license programmatically, see   <a href="/previous-versions/windows/desktop/adrms_sdk/creating-an-issuance-license">Creating an Issuance License</a>.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
+<a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-functions">AD RMS Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetnameanddescription">DRMGetNameAndDescription</a>
-
+<a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetnameanddescription">DRMGetNameAndDescription</a>

@@ -50,9 +50,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
+<p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="/windows/desktop/TaskSchd/task-scheduler-2-0-interfaces">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method ends the execution of the <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/w">work item</a>.
+This method ends the execution of the <a href="/windows/desktop/TaskSchd/w">work item</a>.
 
 ## -parameters
 
@@ -111,15 +111,14 @@ If the WM_CLOSE message cannot be sent (for example, the application has no wind
 
 #### Examples
 
-For an example of how to retrieve the task status and terminate a task, see <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/terminating-a-task-example">Terminating a Task Example</a>.
+For an example of how to retrieve the task status and terminate a task, see <a href="/windows/desktop/TaskSchd/terminating-a-task-example">Terminating a Task Example</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
+<a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
-
+<a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>

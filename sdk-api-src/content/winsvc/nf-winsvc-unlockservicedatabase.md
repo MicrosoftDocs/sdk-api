@@ -59,14 +59,14 @@ Unlocks a service control manager database by releasing the specified lock.
 ### -param ScLock [in]
 
 The lock, which is obtained from a previous call to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-lockservicedatabase">LockServiceDatabase</a> function.
+<a href="/windows/desktop/api/winsvc/nf-winsvc-lockservicedatabase">LockServiceDatabase</a> function.
 
 ## -returns
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 The following error codes can be set by the service control manager. Other error codes can be set by the registry functions that are called by the service control manager.
 
@@ -90,17 +90,16 @@ The specified lock is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-lockservicedatabase">LockServiceDatabase</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-lockservicedatabase">LockServiceDatabase</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-queryservicelockstatusa">QueryServiceLockStatus</a>
+<a href="/windows/desktop/api/winsvc/nf-winsvc-queryservicelockstatusa">QueryServiceLockStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-configuration">Service Configuration</a>
+<a href="/windows/desktop/Services/service-configuration">Service Configuration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Services/service-functions">Service Functions</a>
-
+<a href="/windows/desktop/Services/service-functions">Service Functions</a>

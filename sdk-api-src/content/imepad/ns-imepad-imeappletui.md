@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-Used by <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepadapplet-createui">IImePadApplet::CreateUI</a> to specify applet window style.
+Used by <a href="/windows/desktop/api/imepad/nf-imepad-iimepadapplet-createui">IImePadApplet::CreateUI</a> to specify applet window style.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ Window handle created by applet window.
 
 ### -field dwStyle
 
-Applet window style. The style is a combination of <b>IPAWS_*</b> flags; see the Remarks of <a href="https://docs.microsoft.com/windows/desktop/api/imepad/nf-imepad-iimepad-request">IImePad::Request</a> for the possible <b>IPAWS_*</b> flags.
+Applet window style. The style is a combination of <b>IPAWS_*</b> flags; see the Remarks of <a href="/windows/desktop/api/imepad/nf-imepad-iimepad-request">IImePad::Request</a> for the possible <b>IPAWS_*</b> flags.
 
 ### -field width
 
@@ -97,4 +97,3 @@ Reserved.
 ### -field lReserved2
 
 Reserved.
-

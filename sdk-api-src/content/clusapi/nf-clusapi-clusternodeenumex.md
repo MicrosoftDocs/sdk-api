@@ -50,17 +50,17 @@ api_name:
 
 ## -description
 
-Retrieves the specified cluster node from a <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_enum_item">CLUSTER_ENUM_ITEM</a> enumeration.
+Retrieves the specified cluster node from a <a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_enum_item">CLUSTER_ENUM_ITEM</a> enumeration.
 
 ## -parameters
 
 ### -param hNodeEnum [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_enum_item">CLUSTER_ENUM_ITEM</a> enumeration that contains the cluster node to retrieve.
+A handle to the <a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_enum_item">CLUSTER_ENUM_ITEM</a> enumeration that contains the cluster node to retrieve.
 
 ### -param dwIndex [in]
 
-The index that identifies the next object to enumerate. This parameter should be zero for the first call to the  <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterenumex">ClusterEnumEx</a>  function and then be incremented for subsequent calls.
+The index that identifies the next object to enumerate. This parameter should be zero for the first call to the  <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterenumex">ClusterEnumEx</a>  function and then be incremented for subsequent calls.
 
 ### -param pItem [in, out]
 
@@ -116,9 +116,8 @@ The buffer was filled successfully.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ns-clusapi-cluster_enum_item">CLUSTER_ENUM_ITEM</a>
+<a href="/windows/desktop/api/clusapi/ns-clusapi-cluster_enum_item">CLUSTER_ENUM_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>

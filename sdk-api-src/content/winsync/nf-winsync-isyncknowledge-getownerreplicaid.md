@@ -105,9 +105,8 @@ The method succeeded.
 
 ## -remarks
 
-Knowledge is valid only to the replica that owns it. To use knowledge from a replica that differs from the owning replica, the knowledge must first be converted by using <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-mapremotetolocal">ISyncKnowledge::MapRemoteToLocal</a>.
+Knowledge is valid only to the replica that owns it. To use knowledge from a replica that differs from the owning replica, the knowledge must first be converted by using <a href="/previous-versions/windows/desktop/api/winsync/nf-winsync-isyncknowledge-mapremotetolocal">ISyncKnowledge::MapRemoteToLocal</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>

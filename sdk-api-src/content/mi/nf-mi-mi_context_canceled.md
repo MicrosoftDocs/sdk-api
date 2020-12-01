@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Determines whether the operation has been canceled. This function is reserved; instead, use the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_registercancel">MI_Context_RegisterCancel</a> function.
+Determines whether the operation has been canceled. This function is reserved; instead, use the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_registercancel">MI_Context_RegisterCancel</a> function.
 
 ## -parameters
 
@@ -70,4 +70,3 @@ This function returns MI_INLINE MI_Result MI_INLINE_CALL.
 ## -remarks
 
 A canceled operation on the client does not always signal to the server that the operation should be canceled. It depends on both the type of operation and the support from the underlying protocol handler.
-

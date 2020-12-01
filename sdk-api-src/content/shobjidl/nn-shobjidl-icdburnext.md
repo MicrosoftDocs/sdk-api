@@ -56,7 +56,7 @@ Exposes a single method that determines content types supported by a CD writing 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICDBurnExt</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICDBurnExt</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICDBurnExt</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICDBurnExt</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>ICDBurnExt</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-icdburnext-getsupportedactiontypes">GetSupportedActionTypes</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-icdburnext-getsupportedactiontypes">GetSupportedActionTypes</a>
 </td>
 <td align="left" width="63%">
 Determines the supported data type for a CD writing extension.
@@ -79,4 +79,3 @@ Determines the supported data type for a CD writing extension.
 </td>
 </tr>
 </table>
-

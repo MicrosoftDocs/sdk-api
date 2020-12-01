@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Releases the policy context handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slloadapplicationpolicies">SLLoadApplicationPolicies</a> function.
+Releases the policy context handle returned by the <a href="/windows/desktop/api/slpublic/nf-slpublic-slloadapplicationpolicies">SLLoadApplicationPolicies</a> function.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ Releases the policy context handle returned by the <a href="https://docs.microso
 
 Type: <b>HSLP</b>
 
-The context handle returned by the <a href="https://docs.microsoft.com/windows/desktop/api/slpublic/nf-slpublic-slloadapplicationpolicies">SLLoadApplicationPolicies</a> function.
+The context handle returned by the <a href="/windows/desktop/api/slpublic/nf-slpublic-slloadapplicationpolicies">SLLoadApplicationPolicies</a> function.
 
 ### -param dwFlags [in]
 
@@ -102,4 +102,3 @@ The policy context was not found.
 </td>
 </tr>
 </table>
-

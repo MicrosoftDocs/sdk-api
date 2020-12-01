@@ -52,7 +52,7 @@ Sets the color-control options for an overlay or a primary surface.
 
 ### -param arg1 [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549237(v=vs.85)">DDCOLORCONTROL</a> structure that contains the new control settings to apply.
+A pointer to a <a href="/previous-versions/windows/hardware/drivers/ff549237(v=vs.85)">DDCOLORCONTROL</a> structure that contains the new control settings to apply.
 
 ## -returns
 
@@ -68,8 +68,8 @@ If it fails, the method can return one of the following error values:
 
 ## -remarks
 
-You must use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetColorControls</b> method.
+You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the  <b>SetColorControls</b> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddraw/nn-ddraw-idirectdrawcolorcontrol">IDirectDrawColorControl</a>
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawcolorcontrol">IDirectDrawColorControl</a>

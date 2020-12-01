@@ -97,13 +97,12 @@ Value: 0xC0AA0602
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
+<a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedsectortypes">IDiscFormat2RawCD::get_SupportedSectorTypes</a>
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedsectortypes">IDiscFormat2RawCD::get_SupportedSectorTypes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_requestedsectortype">IDiscFormat2RawCD::put_RequestedSectorType</a>
-
+<a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-put_requestedsectortype">IDiscFormat2RawCD::put_RequestedSectorType</a>

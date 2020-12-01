@@ -86,28 +86,27 @@ One column in the column set is sorted. Be aware that only single-column sorting
 ### -field pSortData
 
 A pointer to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_sort_data">MMC_SORT_DATA</a> structures that hold the actual sort data. Should be set to <b>NULL</b> if nNumItems is set to 0.
+<a href="/windows/desktop/api/mmc/ns-mmc-mmc_sort_data">MMC_SORT_DATA</a> structures that hold the actual sort data. Should be set to <b>NULL</b> if nNumItems is set to 0.
 
 ## -remarks
 
 MMC 1.2 only supports single-column sorting, so the nNumItems member of the 
 MMC_SORT_SET_DATA structure cannot be greater than 1. Otherwise, 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icolumndata-setcolumnsortdata">IColumnData::SetColumnSortData</a> will return S_FALSE.
+<a href="/windows/desktop/api/mmc/nf-mmc-icolumndata-setcolumnsortdata">IColumnData::SetColumnSortData</a> will return S_FALSE.
 
 Sorting is disabled on hidden columns. Columns can be hidden or displayed using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/nf-mmc-icolumndata-setcolumnconfigdata">IColumnData::SetColumnConfigData</a> method.
+<a href="/windows/desktop/api/mmc/nf-mmc-icolumndata-setcolumnconfigdata">IColumnData::SetColumnConfigData</a> method.
 
 The user can hide columns using the Choose Columns dialog.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/ccf-column-set-id">CCF_COLUMN_SET_ID</a>
+<a href="/previous-versions/windows/desktop/mmc/ccf-column-set-id">CCF_COLUMN_SET_ID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mmc/ns-mmc-mmc_sort_data">MMC_SORT_DATA</a>
+<a href="/windows/desktop/api/mmc/ns-mmc-mmc_sort_data">MMC_SORT_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>
-
+<a href="/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>

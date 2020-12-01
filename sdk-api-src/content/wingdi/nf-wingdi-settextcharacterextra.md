@@ -76,25 +76,24 @@ If the function fails, the return value is 0x80000000.
 
 This function is supported mainly for compatibility with existing applications. New applications should generally avoid calling this function, because it is incompatible with complex scripts (scripts that require text shaping; Arabic script is an example of this).
 
-The recommended approach is that instead of calling this function and then <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>, applications should call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> and use its <i>lpDx</i> parameter to supply widths.
+The recommended approach is that instead of calling this function and then <a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>, applications should call <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a> and use its <i>lpDx</i> parameter to supply widths.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
+<a href="/windows/desktop/gdi/font-and-text-functions">Font and Text Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
+<a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-gettextcharacterextra">GetTextCharacterExtra</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-gettextcharacterextra">GetTextCharacterExtra</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>

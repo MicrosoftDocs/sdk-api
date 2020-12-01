@@ -53,7 +53,7 @@ api_name:
 Initializes a new instance of <code>XMUINT4</code> from four <code>uint32_t</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a> from four
+This constructor initializes a new instance of <a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a> from four
 	<code>uint32_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -104,9 +104,8 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a>
+<a href="/windows/desktop/api/directxmath/ns-directxmath-xmuint4">XMUINT4</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/directxmath/nf-directxmath-xmuint4-xmuint4(constuint32_t)">XMUINT4 Constructors</a>
-
+<a href="/windows/desktop/api/directxmath/nf-directxmath-xmuint4-xmuint4(constuint32_t)">XMUINT4 Constructors</a>

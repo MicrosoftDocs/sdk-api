@@ -66,11 +66,11 @@ Retrieves the size of the specified file.
 A handle to the file. The handle must have been created with the 
       <b>FILE_READ_ATTRIBUTES</b> access right or equivalent, or the caller must have sufficient permission on the directory that contains the file. 
       For more information, see 
-      <a href="https://docs.microsoft.com/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
+      <a href="/windows/desktop/FileIO/file-security-and-access-rights">File Security and Access Rights</a>.
 
 ### -param lpFileSize [out]
 
-A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that 
+A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a> structure that 
       receives the file size, in bytes.
 
 ## -returns
@@ -78,7 +78,7 @@ A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARG
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -86,7 +86,7 @@ If the function fails, the return value is zero. To get extended error informati
       file view.
 
 <b>Windows Store apps:  </b><b>GetFileSizeEx</b> is not supported. Use 
-      <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>.
+      <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -149,9 +149,8 @@ Yes
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
+<a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
 
 
 
-<a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a>
-
+<a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>

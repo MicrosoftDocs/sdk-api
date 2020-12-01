@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-A battery miniclass driver receives a BATTERY_NOTIFY structure when its <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a> routine is called.
+A battery miniclass driver receives a BATTERY_NOTIFY structure when its <a href="/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a> routine is called.
 
 ## -struct-fields
 
@@ -70,5 +70,4 @@ Specifies a ULONG value indicating the battery capacity above which the class dr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a>
-
+<a href="/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a>

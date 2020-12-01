@@ -52,19 +52,19 @@ api_name:
 
 ## -description
 
-The <b>SCardListReaderGroups</b> function provides the list of <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader groups</a> that have previously been introduced to the system.
+The <b>SCardListReaderGroups</b> function provides the list of <a href="/windows/desktop/SecGloss/r-gly">reader groups</a> that have previously been introduced to the system.
 
 ## -parameters
 
 ### -param hContext [in]
 
-Handle that identifies the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">resource manager context</a> for the query. The resource manager context can be set by a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. 
+Handle that identifies the <a href="/windows/desktop/SecGloss/r-gly">resource manager context</a> for the query. The resource manager context can be set by a previous call to <a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>. 
 
 If this parameter is set to <b>NULL</b>, the search for reader groups is not limited to any context.
 
 ### -param mszGroups [out]
 
-Multi-string that lists the reader groups defined to the system and available to the current user on the current <a href="https://docs.microsoft.com/windows/desktop/SecGloss/t-gly">terminal</a>. If this value is <b>NULL</b>, <b>SCardListReaderGroups</b> ignores the buffer length supplied in <i>pcchGroups</i>, writes the length of the buffer that would have been returned if this parameter had not been <b>NULL</b> to <i>pcchGroups</i>, and returns a success code.
+Multi-string that lists the reader groups defined to the system and available to the current user on the current <a href="/windows/desktop/SecGloss/t-gly">terminal</a>. If this value is <b>NULL</b>, <b>SCardListReaderGroups</b> ignores the buffer length supplied in <i>pcchGroups</i>, writes the length of the buffer that would have been returned if this parameter had not been <b>NULL</b> to <i>pcchGroups</i>, and returns a success code.
 
 <table>
 <tr>
@@ -120,7 +120,7 @@ Unused legacy value. This is an internally managed group that cannot be modified
 ### -param pcchGroups [in, out]
 
 Length of the <i>mszGroups</i> buffer in characters, and receives the actual length of the multi-string structure, including all trailing <b>null</b> characters. If the buffer length is specified as SCARD_AUTOALLOCATE, then <i>mszGroups</i> is converted to a pointer to a byte pointer, and receives the address of a block of memory containing the multi-string structure. This block of memory must be deallocated with 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a>.
+<a href="/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a>.
 
 ## -returns
 
@@ -150,7 +150,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
+<a href="/windows/desktop/SecAuthN/authentication-return-values">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -158,10 +158,10 @@ An error code. For more information, see
 
 ## -remarks
 
-A group is returned only if it contains at least one <a href="https://docs.microsoft.com/windows/desktop/SecGloss/r-gly">reader</a>. This includes the group <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">SCard$DefaultReaders</a>. The group <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">SCard$AllReaders</a> cannot be returned, since it only exists implicitly.
+A group is returned only if it contains at least one <a href="/windows/desktop/SecGloss/r-gly">reader</a>. This includes the group <a href="/windows/desktop/SecGloss/s-gly">SCard$DefaultReaders</a>. The group <a href="/windows/desktop/SecGloss/s-gly">SCard$AllReaders</a> cannot be returned, since it only exists implicitly.
 
 The <b>SCardListReaderGroups</b> function is a database query function. For more information on other database query functions, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthN/smart-card-database-query-functions">Smart Card Database Query Functions</a>.
+<a href="/windows/desktop/SecAuthN/smart-card-database-query-functions">Smart Card Database Query Functions</a>.
 
 
 #### Examples
@@ -212,25 +212,24 @@ else
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardestablishcontext">SCardEstablishContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardfreememory">SCardFreeMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardgetproviderida">SCardGetProviderId</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardgetproviderida">SCardGetProviderId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlistcardsa">SCardListCards</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardlistcardsa">SCardListCards</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlistinterfacesa">SCardListInterfaces</a>
+<a href="/windows/desktop/api/winscard/nf-winscard-scardlistinterfacesa">SCardListInterfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winscard/nf-winscard-scardlistreadersa">SCardListReaders</a>
-
+<a href="/windows/desktop/api/winscard/nf-winscard-scardlistreadersa">SCardListReaders</a>

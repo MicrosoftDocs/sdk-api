@@ -70,17 +70,16 @@ Calls to this method return almost immediately. NPS (IAS) takes several minutes 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getservicesdo">ISdoMachineGetServiceSDO</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getservicesdo">ISdoMachineGetServiceSDO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nn-sdoias-isdoservicecontrol">ISdoServiceControl</a>
+<a href="/windows/desktop/api/sdoias/nn-sdoias-isdoservicecontrol">ISdoServiceControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdoservicecontrol-getservicestatus">ISdoServiceControl::GetServiceStatus</a>
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdoservicecontrol-getservicestatus">ISdoServiceControl::GetServiceStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sdoias/nf-sdoias-isdoservicecontrol-stopservice">ISdoServiceControl::StopService</a>
-
+<a href="/windows/desktop/api/sdoias/nf-sdoias-isdoservicecontrol-stopservice">ISdoServiceControl::StopService</a>

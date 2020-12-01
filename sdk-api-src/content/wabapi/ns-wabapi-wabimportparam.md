@@ -55,7 +55,7 @@ api_name:
 
 ## -description
 
-Do not use. Structure passed to <a href="https://docs.microsoft.com/windows/desktop/api/wabapi/nf-wabapi-iwabobject-import">Import</a> that gives information about importing .wab files.
+Do not use. Structure passed to <a href="/windows/desktop/api/wabapi/nf-wabapi-iwabobject-import">Import</a> that gives information about importing .wab files.
 
 ## -struct-fields
 
@@ -67,9 +67,9 @@ Value of type <b>ULONG</b> that specifies the size of the structure in bytes.
 
 ### -field lpAdrBook
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
+Type: <b><a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface that specifies the address book object to import to.
+Pointer to an <a href="/windows/desktop/api/wabiab/nn-wabiab-iaddrbook">IAddrBook</a> interface that specifies the address book object to import to.
 
 ### -field hWnd
 
@@ -83,7 +83,7 @@ Value of type <b>ULONG</b> that specifies flags affecting behavior.
 
 #### MAPI_DIALOG
 
-Causes <a href="https://docs.microsoft.com/windows/desktop/api/wabapi/nf-wabapi-iwabobject-import">Import</a> to show a dialog box with a progress bar indicating the progress of the import process.
+Causes <a href="/windows/desktop/api/wabapi/nf-wabapi-iwabobject-import">Import</a> to show a dialog box with a progress bar indicating the progress of the import process.
 
 ### -field lpszFileName
 
@@ -96,4 +96,3 @@ Value of type <b>LPSTR</b> that specifies the filename to import, or <b>NULL</b>
 Type: <b>HWND</b>
 
 Value of type <b>HWND</b> that specifies the parent window handle for any dialog boxes.
-

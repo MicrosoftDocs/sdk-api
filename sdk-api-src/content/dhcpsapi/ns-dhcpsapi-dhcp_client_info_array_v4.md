@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>DHCP_CLIENT_INFO_ARRAY_V4</b> structure defines an array of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a> structures for use with enumeration functions.
+The <b>DHCP_CLIENT_INFO_ARRAY_V4</b> structure defines an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a> structures for use with enumeration functions.
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ Specifies the number of elements present in <b>Clients</b>.
 
 ### -field Clients
 
-Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a> structures that contain information on specific DHCP subnet clients, including the dynamic address type (DHCP and/or BOOTP).
+Pointer to a list of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a> structures that contain information on specific DHCP subnet clients, including the dynamic address type (DHCP and/or BOOTP).
 
 ### -field Clients.size_is
 
@@ -72,5 +72,4 @@ Pointer to a list of <a href="https://docs.microsoft.com/windows/desktop/api/dhc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a>
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_client_info_v4">DHCP_CLIENT_INFO_V4</a>

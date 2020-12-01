@@ -52,6 +52,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - MapWindowPoints
+req.apiset: ext-ms-win-ntuser-window-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # MapWindowPoints function
@@ -73,17 +74,17 @@ A handle to the window to which points are converted. If this parameter is <b>NU
 
 ### -param lpPoints [in, out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contain the set of points to be converted. The points are in device units. This parameter can also point to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure, in which case the <i>cPoints</i> parameter should be set to 2.
+A pointer to an array of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contain the set of points to be converted. The points are in device units. This parameter can also point to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure, in which case the <i>cPoints</i> parameter should be set to 2.
 
 ### -param cPoints [in]
 
-The number of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures in the array pointed to by the <i>lpPoints</i> parameter.
+The number of <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structures in the array pointed to by the <i>lpPoints</i> parameter.
 
 ## -returns
 
 If the function succeeds, the low-order word of the return value is the number of pixels added to the horizontal coordinate of each source point in order to compute the horizontal coordinate of each destination point. (In addition to that, if precisely one of <i>hWndFrom</i> and <i>hWndTo</i> is mirrored, then each resulting horizontal coordinate is multiplied by -1.) The high-order word is the number of pixels added to the vertical coordinate of each source point in order to compute the vertical coordinate of each destination point.
 
-If the function fails, the return value is zero. Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> prior to calling this method to differentiate an error return value from a legitimate "0" return value.
+If the function fails, the return value is zero. Call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror">SetLastError</a> prior to calling this method to differentiate an error return value from a legitimate "0" return value.
 
 ## -remarks
 
@@ -102,7 +103,7 @@ If <i>hWndFrom</i> or <i>hWndTo</i> (or both) are mirrored windows (that is, hav
 ```
 
 
-Also, if you need to map precisely two independent points and don't want the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> logic applied to them by <b>MapWindowPoints</b>, to guarantee the correct result you must call <b>MapWindowPoints</b> with one <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> pointer at a time, as shown in the following example:
+Also, if you need to map precisely two independent points and don't want the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> logic applied to them by <b>MapWindowPoints</b>, to guarantee the correct result you must call <b>MapWindowPoints</b> with one <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> pointer at a time, as shown in the following example:
 
 
 ```cpp
@@ -116,19 +117,19 @@ Also, if you need to map precisely two independent points and don't want the <a 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-clienttoscreen">ClientToScreen</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-clienttoscreen">ClientToScreen</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
+<a href="/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
+<a href="/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
+<a href="/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
@@ -136,5 +137,4 @@ Also, if you need to map precisely two independent points and don't want the <a 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-screentoclient">ScreenToClient</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-screentoclient">ScreenToClient</a>

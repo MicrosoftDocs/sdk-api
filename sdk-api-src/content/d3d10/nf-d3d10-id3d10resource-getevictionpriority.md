@@ -57,7 +57,7 @@ Get the eviction priority of a resource.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 One of the following values, which specifies the eviction priority for the resource:
 
@@ -71,9 +71,8 @@ One of the following values, which specifies the eviction priority for the resou
 
 ## -remarks
 
-This method is a wrapper for <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiresource-getevictionpriority">GetEvictionPriority</a> and is provided in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a> interface for convenience.
+This method is a wrapper for <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiresource-getevictionpriority">GetEvictionPriority</a> and is provided in the <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a> interface for convenience.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a>
-
+<a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a>

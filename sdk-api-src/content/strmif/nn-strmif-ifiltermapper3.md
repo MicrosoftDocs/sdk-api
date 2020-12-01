@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>IFilterMapper3</code> interface extends the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2</a> interface. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/filter-mapper">Filter Mapper</a> object implements this interface.
+The <code>IFilterMapper3</code> interface extends the <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2</a> interface. The <a href="/windows/desktop/DirectShow/filter-mapper">Filter Mapper</a> object implements this interface.
 
 <div class="alert"><b>Note</b>  This interface is deprecated.</div>
 <div> </div>
@@ -73,12 +73,11 @@ The <b>IFilterMapper3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper3-geticreatedevenum">GetICreateDevEnum</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper3-geticreatedevenum">GetICreateDevEnum</a>
 </td>
 <td align="left" width="63%">
-Returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-icreatedevenum">ICreateDevEnum</a> interface.
+Returns a pointer to the <a href="/windows/desktop/api/strmif/nn-strmif-icreatedevenum">ICreateDevEnum</a> interface.
 
 </td>
 </tr>
 </table>
-

@@ -47,6 +47,7 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - SHGetSpecialFolderLocation
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SHGetSpecialFolderLocation function
@@ -54,9 +55,9 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>SHGetSpecialFolderLocation</b> is not supported and may be altered or unavailable in the future. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation">SHGetFolderLocation</a>.]
+<p class="CCE_Message">[<b>SHGetSpecialFolderLocation</b> is not supported and may be altered or unavailable in the future. Instead, use <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation">SHGetFolderLocation</a>.]
 
-Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure of a special folder.
+Retrieves a pointer to the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> structure of a special folder.
 
 ## -parameters
 
@@ -70,13 +71,13 @@ Reserved.
 
 Type: <b>int</b>
 
-A <a href="https://docs.microsoft.com/windows/desktop/shell/csidl">CSIDL</a> value that identifies the folder of interest.
+A <a href="/windows/desktop/shell/csidl">CSIDL</a> value that identifies the folder of interest.
 
 ### -param ppidl [out]
 
 Type: <b>PIDLIST_ABSOLUTE*</b>
 
-A PIDL specifying the folder's location relative to the root of the namespace (the desktop). It is the responsibility of the calling application to free the returned IDList by using <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
+A PIDL specifying the folder's location relative to the root of the namespace (the desktop). It is the responsibility of the calling application to free the returned IDList by using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
 
 ## -returns
 
@@ -86,5 +87,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderpatha">SHGetSpecialFolderPath</a>
-
+<a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderpatha">SHGetSpecialFolderPath</a>

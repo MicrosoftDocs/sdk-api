@@ -82,13 +82,12 @@ Pointer <i>pdwConfig</i> is <b>NULL</b>.
 
 ## -remarks
 
-For information about channel-configuration masks, see the discussion of the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-channel-config">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a> property in the Windows DDK documentation.
+For information about channel-configuration masks, see the discussion of the <a href="/windows-hardware/drivers/audio/ksproperty-audio-channel-config">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a> property in the Windows DDK documentation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nn-devicetopology-iaudiochannelconfig">IAudioChannelConfig Interface</a>
+<a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudiochannelconfig">IAudioChannelConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/devicetopology/nf-devicetopology-iaudiochannelconfig-setchannelconfig">IAudioChannelConfig::SetChannelConfig</a>
-
+<a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiochannelconfig-setchannelconfig">IAudioChannelConfig::SetChannelConfig</a>

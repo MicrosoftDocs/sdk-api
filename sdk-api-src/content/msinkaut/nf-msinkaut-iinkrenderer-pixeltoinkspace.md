@@ -132,17 +132,16 @@ An exception occurred inside the method.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
+<a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixel">InkSpaceToPixel Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixel">InkSpaceToPixel Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixelfrompoints">InkSpaceToPixelFromPoints Method</a>
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-inkspacetopixelfrompoints">InkSpaceToPixelFromPoints Method</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspacefrompoints">PixelToInkSpaceFromPoints Method</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspacefrompoints">PixelToInkSpaceFromPoints Method</a>

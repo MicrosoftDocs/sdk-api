@@ -71,7 +71,7 @@ Type: <b>HCURSOR</b>
 
 If the function is successful, the return value is a handle to the new cursor.
 
-If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
+If the function fails, the return value is <b>NULL</b>. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>. 
 						<b>GetLastError</b> may return the following value.
 
 <table>
@@ -110,11 +110,11 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/cursors">Cursors</a>
+<a href="/windows/desktop/menurc/cursors">Cursors</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadcursora">LoadCursor</a>
 
 
 
@@ -122,9 +122,8 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-setcursor">SetCursor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setsystemcursor">SetSystemCursor</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setsystemcursor">SetSystemCursor</a>

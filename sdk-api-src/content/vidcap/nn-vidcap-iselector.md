@@ -54,7 +54,7 @@ The <code>ISelector</code> interface is used to select source nodes in a stream 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISelector</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISelector</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISelector</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISelector</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ISelector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-iselector-get_numsources">get_NumSources</a>
+<a href="/windows/desktop/api/vidcap/nf-vidcap-iselector-get_numsources">get_NumSources</a>
 </td>
 <td align="left" width="63%">
 Returns the number of source nodes connected to the selector node.
@@ -78,7 +78,7 @@ Returns the number of source nodes connected to the selector node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-iselector-get_sourcenodeid">get_SourceNodeId</a>
+<a href="/windows/desktop/api/vidcap/nf-vidcap-iselector-get_sourcenodeid">get_SourceNodeId</a>
 </td>
 <td align="left" width="63%">
 Returns the index of the active source node.
@@ -87,7 +87,7 @@ Returns the index of the active source node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-iselector-put_sourcenodeid">put_SourceNodeId</a>
+<a href="/windows/desktop/api/vidcap/nf-vidcap-iselector-put_sourcenodeid">put_SourceNodeId</a>
 </td>
 <td align="left" width="63%">
 Activates a source node.
@@ -105,9 +105,8 @@ A kernel-streaming (KS) filter contains one or more <i>nodes</i>. Each node enca
 The source nodes represent input streams—for example, a camera or a tape transport. The selector node controls which stream is sent to the filter's output pin. To switch between inputs, an application would do the following:
 
 <ol>
-<li>Use the <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo</a> interface to enumerate the nodes and discover the node types, identifiers, and names.</li>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-createnodeinstance">IKsTopologyInfo::CreateNodeInstance</a> to create the selector node, passing in the node identifier and the interface identifier IID_ISelector. The method returns an <code>ISelector</code> interface pointer.</li>
+<li>Use the <a href="/windows/previous-versions/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo</a> interface to enumerate the nodes and discover the node types, identifiers, and names.</li>
+<li>Call <a href="/windows/desktop/api/vidcap/nf-vidcap-ikstopologyinfo-createnodeinstance">IKsTopologyInfo::CreateNodeInstance</a> to create the selector node, passing in the node identifier and the interface identifier IID_ISelector. The method returns an <code>ISelector</code> interface pointer.</li>
 <li>Use the <code>ISelector</code> interface to select the source node.</li>
 </ol>
 The <code>ISelector</code> interface is available if the selector node supports the PROPSETID_VIDCAP_SELECTOR property set. For more information, see the Windows DDK documentation.
-

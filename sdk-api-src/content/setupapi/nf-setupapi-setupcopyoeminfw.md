@@ -46,6 +46,7 @@ api_name:
  - SetupCopyOEMInf
  - SetupCopyOEMInfA
  - SetupCopyOEMInfW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupCopyOEMInfW function
@@ -145,7 +146,7 @@ Copy only if this file already exists in the Inf directory. This flag could be u
 </dl>
 </td>
 <td width="60%">
-Copy only if the specified files do not currently exist in the Inf directory. If the .inf does currently exist, this API fails and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_FILE_EXISTS. In this case, the existing .inf file's filename is placed into the appropriate field in the destination .inf file's information output buffers.
+Copy only if the specified files do not currently exist in the Inf directory. If the .inf does currently exist, this API fails and <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_FILE_EXISTS. In this case, the existing .inf file's filename is placed into the appropriate field in the destination .inf file's information output buffers.
 
 </td>
 </tr>
@@ -167,7 +168,7 @@ Pointer to a buffer to receive the .inf file name assigned to it at the time it 
 
 ### -param DestinationInfFileNameSize [in]
 
-Size of the <i>DestinationInfFileName</i> buffer, in characters, or zero if the buffer is not specified. If <i>DestinationInfFileName</i> is specified and this buffer size is less than the size required to return the destination .inf filename (including full path), this function fails. In this case <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER.
+Size of the <i>DestinationInfFileName</i> buffer, in characters, or zero if the buffer is not specified. If <i>DestinationInfFileName</i> is specified and this buffer size is less than the size required to return the destination .inf filename (including full path), this function fails. In this case <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns ERROR_INSUFFICIENT_BUFFER.
 
 ### -param RequiredSize [out, optional]
 
@@ -211,13 +212,12 @@ If the .inf and .cat files already exist, these existing filenames are used and 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/functions">Functions</a>
+<a href="/windows/desktop/SetupApi/functions">Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SetupApi/overview">Overview</a>
+<a href="/windows/desktop/SetupApi/overview">Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupuninstalloeminfa">SetupUninstallOEMInf</a>
-
+<a href="/windows/desktop/api/setupapi/nf-setupapi-setupuninstalloeminfa">SetupUninstallOEMInf</a>

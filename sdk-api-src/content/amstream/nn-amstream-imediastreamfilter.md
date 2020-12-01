@@ -56,7 +56,7 @@ The <code>IMediaStreamFilter</code> interface is supported by the Media Stream f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaStreamFilter</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a>. <b>IMediaStreamFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMediaStreamFilter</b> interface inherits from <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a>. <b>IMediaStreamFilter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IMediaStreamFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-addmediastream">AddMediaStream</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-addmediastream">AddMediaStream</a>
 </td>
 <td align="left" width="63%">
 Connects a media stream object to the underlying filter graph.
@@ -80,7 +80,7 @@ Connects a media stream object to the underlying filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-endofstream">EndOfStream</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-endofstream">EndOfStream</a>
 </td>
 <td align="left" width="63%">
 Signals the end of a stream.
@@ -89,7 +89,7 @@ Signals the end of a stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-enummediastreams">EnumMediaStreams</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-enummediastreams">EnumMediaStreams</a>
 </td>
 <td align="left" width="63%">
 Retrieves a media stream, specified by index.
@@ -98,7 +98,7 @@ Retrieves a media stream, specified by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-flush">Flush</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-flush">Flush</a>
 </td>
 <td align="left" width="63%">
 Notifies the filter that one of its pins has flushed data.
@@ -107,7 +107,7 @@ Notifies the filter that one of its pins has flushed data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-getcurrentstreamtime">GetCurrentStreamTime</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-getcurrentstreamtime">GetCurrentStreamTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current stream time.
@@ -116,7 +116,7 @@ Retrieves the current stream time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-getmediastream">GetMediaStream</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-getmediastream">GetMediaStream</a>
 </td>
 <td align="left" width="63%">
 Retrieves a media stream, specified by purpose ID.
@@ -125,7 +125,7 @@ Retrieves a media stream, specified by purpose ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-referencetimetostreamtime">ReferenceTimeToStreamTime</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-referencetimetostreamtime">ReferenceTimeToStreamTime</a>
 </td>
 <td align="left" width="63%">
 Converts a reference time to stream time.
@@ -134,7 +134,7 @@ Converts a reference time to stream time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-supportseeking">SupportSeeking</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-supportseeking">SupportSeeking</a>
 </td>
 <td align="left" width="63%">
 Initializes the filter to support seeking.
@@ -143,7 +143,7 @@ Initializes the filter to support seeking.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-waituntil">WaitUntil</a>
+<a href="/windows/desktop/api/amstream/nf-amstream-imediastreamfilter-waituntil">WaitUntil</a>
 </td>
 <td align="left" width="63%">
 Causes the filter to block until a specified stream time.
@@ -154,5 +154,4 @@ Causes the filter to block until a specified stream time.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter</a>

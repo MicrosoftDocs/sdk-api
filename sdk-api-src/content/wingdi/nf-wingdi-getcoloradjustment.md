@@ -62,7 +62,7 @@ A handle to the device context.
 
 ### -param lpca [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-coloradjustment">COLORADJUSTMENT</a> structure that receives the color adjustment values.
+A pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-coloradjustment">COLORADJUSTMENT</a> structure that receives the color adjustment values.
 
 ## -returns
 
@@ -72,17 +72,16 @@ If the function fails, the return value is zero.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-coloradjustment">COLORADJUSTMENT</a>
+<a href="/windows/desktop/api/wingdi/ns-wingdi-coloradjustment">COLORADJUSTMENT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/color-functions">Color Functions</a>
+<a href="/windows/desktop/gdi/color-functions">Color Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/colors">Colors Overview</a>
+<a href="/windows/desktop/gdi/colors">Colors Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setcoloradjustment">SetColorAdjustment</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setcoloradjustment">SetColorAdjustment</a>

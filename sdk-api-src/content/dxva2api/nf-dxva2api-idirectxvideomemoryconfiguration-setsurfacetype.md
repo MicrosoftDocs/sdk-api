@@ -95,15 +95,14 @@ The renderer does not support the specified surface type.
 
 By calling this method, the caller agrees to create surfaces of the type specified in the <i>dwType</i> parameter.
 
-In DirectShow, during pin connection, a video decoder that supports DVXA 2.0 should call <b>SetSurface</b> with the value DXVA2_SurfaceType_DecoderRenderTarget. This notifies the video renderer that the decoder will provide the allocator and will create the Direct3D surfaces for decoding. For more information, see <a href="https://docs.microsoft.com/windows/desktop/medfound/supporting-dxva-2-0-in-directshow">Supporting DXVA 2.0 in DirectShow</a>.
+In DirectShow, during pin connection, a video decoder that supports DVXA 2.0 should call <b>SetSurface</b> with the value DXVA2_SurfaceType_DecoderRenderTarget. This notifies the video renderer that the decoder will provide the allocator and will create the Direct3D surfaces for decoding. For more information, see <a href="/windows/desktop/medfound/supporting-dxva-2-0-in-directshow">Supporting DXVA 2.0 in DirectShow</a>.
 
 The only way to undo the setting is to break the pin connection.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration">IDirectXVideoMemoryConfiguration</a>
+<a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration">IDirectXVideoMemoryConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/supporting-dxva-2-0-in-directshow">Supporting DXVA 2.0 in DirectShow</a>
-
+<a href="/windows/desktop/medfound/supporting-dxva-2-0-in-directshow">Supporting DXVA 2.0 in DirectShow</a>

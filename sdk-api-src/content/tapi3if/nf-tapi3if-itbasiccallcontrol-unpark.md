@@ -124,7 +124,7 @@ Insufficient memory exists to perform the operation.
 ## -remarks
 
 To unpark a call, 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">CreateCall</a> must be called using as the destination address the current parked location of the call. See the example below.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">CreateCall</a> must be called using as the destination address the current parked location of the call. See the example below.
 
 
 #### Examples
@@ -143,29 +143,28 @@ pBasicCall -&gt;Unpark();</code></pre>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/park-ovr">Park overview</a>
+<a href="/windows/desktop/Tapi/park-ovr">Park overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkdirect">ParkDirect</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkdirect">ParkDirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkindirect">ParkIndirect</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkindirect">ParkIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-lineunpark">lineUnpark</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-lineunpark">lineUnpark</a>

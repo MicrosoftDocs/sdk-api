@@ -59,14 +59,14 @@ Opens a handle for shared resources, shared heaps, and shared fences, by using N
 Type: <b>LPCWSTR</b>
 
 The name that was optionally passed as the <i>Name</i> parameter in the call to 
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createsharedhandle">ID3D12Device::CreateSharedHandle</a>.
+            <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createsharedhandle">ID3D12Device::CreateSharedHandle</a>.
 
 ### -param Access
 
 Type: <b>DWORD</b>
 
 The access level that was specified in the <i>Access</i> parameter in the call to 
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createsharedhandle">ID3D12Device::CreateSharedHandle</a>.
+            <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createsharedhandle">ID3D12Device::CreateSharedHandle</a>.
 
 ### -param pNTHandle [out]
 
@@ -78,9 +78,8 @@ Pointer to the shared handle.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>

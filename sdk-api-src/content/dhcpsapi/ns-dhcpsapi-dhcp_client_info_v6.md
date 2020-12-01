@@ -60,7 +60,7 @@ The <b>DHCP_CLIENT_INFO_V6</b> structure contains information on DHCPv6 clients.
 
 ### -field ClientIpAddress
 
-This is of type <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> (section 2.2.1.2.28), containing the DHCPv6 client's IPv6 address.
+This is of type <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a> (section 2.2.1.2.28), containing the DHCPv6 client's IPv6 address.
 
 ### -field ClientDUID
 
@@ -113,21 +113,20 @@ A pointer to a null-terminated Unicode string containing a comment relating to t
 
 ### -field ClientValidLeaseExpires
 
-This is of type <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> (section 2.2.1.2.11), containing the valid lifetime of the DHCPv6 IPv6 client lease.
+This is of type <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a> (section 2.2.1.2.11), containing the valid lifetime of the DHCPv6 IPv6 client lease.
 
 ### -field ClientPrefLeaseExpires
 
-This is of type <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a>, containing the preferred lifetime of the DHCPv6 client lease.
+This is of type <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-date_time">DATE_TIME</a>, containing the preferred lifetime of the DHCPv6 client lease.
 
 ### -field OwnerHost
 
-This of type <a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info_v6">DHCP_HOST_INFO_V6</a> (section 2.2.1.2.63), containing information about the host machine (DHCPv6 server machine) that has given this IPv6 lease to this DHCPv6 client.
+This of type <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info_v6">DHCP_HOST_INFO_V6</a> (section 2.2.1.2.63), containing information about the host machine (DHCPv6 server machine) that has given this IPv6 lease to this DHCPv6 client.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info_v6">DHCP_HOST_INFO_V6</a>
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info_v6">DHCP_HOST_INFO_V6</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a>
-
+<a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a>

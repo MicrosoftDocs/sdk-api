@@ -53,11 +53,11 @@ api_name:
 
 The <code>IBasicAudio</code> interface controls the volume and balance of the audio stream.
 
-This interface is implemented on the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/audio-renderer--waveout--filter">Audio Renderer (WaveOut)</a> filter and the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/directsound-renderer-filter">DirectSound Renderer</a> filter, but is exposed to applications through the Filter Graph Manager. Applications should always retrieve this interface from the Filter Graph Manager.
+This interface is implemented on the <a href="/windows/desktop/DirectShow/audio-renderer--waveout--filter">Audio Renderer (WaveOut)</a> filter and the <a href="/windows/desktop/DirectShow/directsound-renderer-filter">DirectSound Renderer</a> filter, but is exposed to applications through the Filter Graph Manager. Applications should always retrieve this interface from the Filter Graph Manager.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicAudio</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBasicAudio</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicAudio</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IBasicAudio</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IBasicAudio</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicaudio-get_balance">get_Balance</a>
+<a href="/windows/desktop/api/control/nf-control-ibasicaudio-get_balance">get_Balance</a>
 </td>
 <td align="left" width="63%">
 Retrieves the balance for the audio signal.
@@ -81,7 +81,7 @@ Retrieves the balance for the audio signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicaudio-get_volume">get_Volume</a>
+<a href="/windows/desktop/api/control/nf-control-ibasicaudio-get_volume">get_Volume</a>
 </td>
 <td align="left" width="63%">
 Retrieves the volume (amplitude) of the audio signal.
@@ -90,7 +90,7 @@ Retrieves the volume (amplitude) of the audio signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicaudio-put_balance">put_Balance</a>
+<a href="/windows/desktop/api/control/nf-control-ibasicaudio-put_balance">put_Balance</a>
 </td>
 <td align="left" width="63%">
 Sets the balance for the audio signal.
@@ -99,7 +99,7 @@ Sets the balance for the audio signal.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-ibasicaudio-put_volume">put_Volume</a>
+<a href="/windows/desktop/api/control/nf-control-ibasicaudio-put_volume">put_Volume</a>
 </td>
 <td align="left" width="63%">
 Sets the volume (amplitude) of the audio signal.
@@ -110,5 +110,4 @@ Sets the volume (amplitude) of the audio signal.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>

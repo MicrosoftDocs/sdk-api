@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-The <code>IConfigAviMux</code> interface configures the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter. Applications can use this interface to set the master stream and to create an AVI 1.0 index.
+The <code>IConfigAviMux</code> interface configures the <a href="/windows/desktop/DirectShow/avi-mux-filter">AVI Mux</a> filter. Applications can use this interface to set the master stream and to create an AVI 1.0 index.
 
-[IConfigAviMux::GetOutputCompatibilityIndex](https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfigavimux-getoutputcompatibilityindex) methods.
+[IConfigAviMux::GetOutputCompatibilityIndex](/windows/desktop/api/strmif/nf-strmif-iconfigavimux-getoutputcompatibilityindex) methods.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigAviMux</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConfigAviMux</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConfigAviMux</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IConfigAviMux</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IConfigAviMux</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfigavimux-getmasterstream">GetMasterStream</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iconfigavimux-getmasterstream">GetMasterStream</a>
 </td>
 <td align="left" width="63%">
 Queries which stream will be used to synchronize the other streams in the file.
@@ -81,7 +81,7 @@ Queries which stream will be used to synchronize the other streams in the file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-iconfigavimux-getoutputcompatibilityindex">GetOutputCompatibilityIndex</a>
+<a href="/previous-versions/windows/desktop/api/strmif/nf-strmif-iconfigavimux-getoutputcompatibilityindex">GetOutputCompatibilityIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the setting for the AVI index format.
@@ -90,7 +90,7 @@ Retrieves the setting for the AVI index format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setmasterstream">SetMasterStream</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setmasterstream">SetMasterStream</a>
 </td>
 <td align="left" width="63%">
 Specifies a stream that will be used to synchronize the other streams in the file.
@@ -99,7 +99,7 @@ Specifies a stream that will be used to synchronize the other streams in the fil
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setoutputcompatibilityindex">SetOutputCompatibilityIndex</a>
+<a href="/previous-versions/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setoutputcompatibilityindex">SetOutputCompatibilityIndex</a>
 </td>
 <td align="left" width="63%">
 Sets the AVI index format.
@@ -107,4 +107,3 @@ Sets the AVI index format.
 </td>
 </tr>
 </table>
-

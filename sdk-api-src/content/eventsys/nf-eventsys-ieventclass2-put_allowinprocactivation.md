@@ -60,5 +60,4 @@ This property is read/write.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/eventsys/nn-eventsys-ieventclass2">IEventClass2</a>
-
+<a href="/windows/desktop/api/eventsys/nn-eventsys-ieventclass2">IEventClass2</a>

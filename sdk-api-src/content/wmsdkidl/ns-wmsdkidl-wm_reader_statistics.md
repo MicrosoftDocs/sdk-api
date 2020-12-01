@@ -86,9 +86,8 @@ You must set the <b>cbSize</b> member manually before using this structure. It s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstatistics">IWMReaderAdvanced::GetStatistics</a>
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getstatistics">IWMReaderAdvanced::GetStatistics</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wmformat/structures">Structures</a>
-
+<a href="/windows/desktop/wmformat/structures">Structures</a>

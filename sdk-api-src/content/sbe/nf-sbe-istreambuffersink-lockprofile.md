@@ -123,12 +123,11 @@ The stub file is automatically deleted when the last process closes the file han
 
 After the first successful call to this method, further calls with the same value of <i>pszFileName</i> return S_FALSE. Further calls with a different value for <i>pszFileName</i> fail and return E_UNEXPECTED.
 
-The name of the stub file can be given to the Stream Buffer Source filter through that filter's <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifilesourcefilter-load">IFileSourceFilter::Load</a> method.
+The name of the stub file can be given to the Stream Buffer Source filter through that filter's <a href="/windows/desktop/api/strmif/nf-strmif-ifilesourcefilter-load">IFileSourceFilter::Load</a> method.
 
 <h3><a id="Windows_Vista_or_later"></a><a id="windows_vista_or_later"></a><a id="WINDOWS_VISTA_OR_LATER"></a>Windows Vista or later</h3>
-This method requires administrator privileges, unless you first call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure3-setnamespace">IStreamBufferConfigure3::SetNamespace</a> with the value <b>NULL</b>.
+This method requires administrator privileges, unless you first call <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-istreambufferconfigure3-setnamespace">IStreamBufferConfigure3::SetNamespace</a> with the value <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink">IStreamBufferSink Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink">IStreamBufferSink Interface</a>

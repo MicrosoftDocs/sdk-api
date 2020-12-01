@@ -119,13 +119,12 @@ Every OLE object class listed in the <b>Insert Object</b> dialog box must have a
 
 The ProgID string must be different than the class name of any OLE 1 application, including the OLE 1 version of the same application, if there is one. In addition, a ProgID string must not contain more than 39 characters, start with a digit, or, except for a single period, contain any punctuation (including underscores).
 
-The ProgID must never be shown to the user in the user interface. If you need a short displayable string for an object, call <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olereggetusertype">IOleObject::GetUserType</a>.
+The ProgID must never be shown to the user in the user interface. If you need a short displayable string for an object, call <a href="/windows/desktop/api/ole2/nf-ole2-olereggetusertype">IOleObject::GetUserType</a>.
 
 
 
-Call the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromprogid">CLSIDFromProgID</a> function to find the CLSID associated with a given ProgID. Be sure to free the returned ProgID  when you are finished with it by calling the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
+Call the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromprogid">CLSIDFromProgID</a> function to find the CLSID associated with a given ProgID. Be sure to free the returned ProgID  when you are finished with it by calling the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromprogid">CLSIDFromProgID</a>
-
+<a href="/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromprogid">CLSIDFromProgID</a>

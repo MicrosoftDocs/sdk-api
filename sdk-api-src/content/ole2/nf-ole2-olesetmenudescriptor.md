@@ -43,6 +43,7 @@ api_location:
  - Ole32.dll
 api_name:
  - OleSetMenuDescriptor
+req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)
 ---
 
 # OleSetMenuDescriptor function
@@ -56,7 +57,7 @@ Installs or removes OLE dispatching code from the container's frame window.
 
 ### -param holemenu [in]
 
-Handle to the composite menu descriptor returned by the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatemenudescriptor">OleCreateMenuDescriptor</a> function. If <b>NULL</b>, the dispatching code is unhooked.
+Handle to the composite menu descriptor returned by the <a href="/windows/desktop/api/ole2/nf-ole2-olecreatemenudescriptor">OleCreateMenuDescriptor</a> function. If <b>NULL</b>, the dispatching code is unhooked.
 
 ### -param hwndFrame [in]
 
@@ -68,11 +69,11 @@ Handle to the object's in-place activation window. OLE dispatches menu messages 
 
 ### -param lpFrame [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a> interface on the container's frame window.
+Pointer to the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a> interface on the container's frame window.
 
 ### -param lpActiveObj [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a> interface on the active in-place object.
+Pointer to the <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a> interface on the active in-place object.
 
 ## -returns
 
@@ -80,19 +81,18 @@ This function returns S_OK on success.
 
 ## -remarks
 
-The container should call <b>OleSetMenuDescriptor</b> to install the dispatching code on <i>hwndFrame</i> when the object calls the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setmenu">IOleInPlaceFrame::SetMenu</a> method, or to remove the dispatching code by passing <b>NULL</b> as the value for <i>holemenu</i> to <b>OleSetMenuDescriptor</b>.
+The container should call <b>OleSetMenuDescriptor</b> to install the dispatching code on <i>hwndFrame</i> when the object calls the <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setmenu">IOleInPlaceFrame::SetMenu</a> method, or to remove the dispatching code by passing <b>NULL</b> as the value for <i>holemenu</i> to <b>OleSetMenuDescriptor</b>.
 
 If both the <i>lpFrame</i> and <i>lpActiveObj</i> parameters are non-<b>NULL</b>, OLE installs the context-sensitive help F1 message filter for the application. Otherwise, the application must supply its own message filter.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceactiveobject">IOleInPlaceActiveObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setmenu">IOleInPlaceFrame::SetMenu</a>
+<a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceframe-setmenu">IOleInPlaceFrame::SetMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatemenudescriptor">OleCreateMenuDescriptor</a>
-
+<a href="/windows/desktop/api/ole2/nf-ole2-olecreatemenudescriptor">OleCreateMenuDescriptor</a>

@@ -53,17 +53,17 @@ api_name:
 
 The <code>IOverlayNotify</code> interface provides an upstream filter, such as a decoder, with notifications of changes to the rendering window. This includes notifications of changes to the palette, color key, and window position, and visible region (clipping) changes.
 
-Most software video decoders let the video renderer draw the decompressed images they produce by passing the media samples to the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin</a> interface on the renderer's input pin.
+Most software video decoders let the video renderer draw the decompressed images they produce by passing the media samples to the <a href="/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin</a> interface on the renderer's input pin.
 
-However, some video decoding filters (typically hardware decompression boards) handle the drawing of the images themselves, perhaps by using a VGA connector. These filters do not need to use <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin</a>, but can instead use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> interface provided by the renderer input pin. Through this interface, the decoder can be notified when the window position or size changes, or when the current system palette changes in order to install and change color keys and palettes.
+However, some video decoding filters (typically hardware decompression boards) handle the drawing of the images themselves, perhaps by using a VGA connector. These filters do not need to use <a href="/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin</a>, but can instead use the <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> interface provided by the renderer input pin. Through this interface, the decoder can be notified when the window position or size changes, or when the current system palette changes in order to install and change color keys and palettes.
 
-Decoders that do their own drawing should implement the <code>IOverlayNotify</code> and <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ioverlaynotify2">IOverlayNotify2</a> interfaces. The renderer uses this interface to notify the decoder whenever the window size or position changes, the system palette changes, or a different color key is used. The decoder should call the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlay-advise">IOverlay::Advise</a> method on the renderer's input pin, to set up the callback. Once the callback is established, the renderer calls the decoder's <code>IOverlayNotify</code> methods when the appropriate events occur. To cancel the callback, use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlay-unadvise">IOverlay::Unadvise</a> method.
+Decoders that do their own drawing should implement the <code>IOverlayNotify</code> and <a href="/windows/desktop/api/strmif/nn-strmif-ioverlaynotify2">IOverlayNotify2</a> interfaces. The renderer uses this interface to notify the decoder whenever the window size or position changes, the system palette changes, or a different color key is used. The decoder should call the <a href="/windows/desktop/api/strmif/nf-strmif-ioverlay-advise">IOverlay::Advise</a> method on the renderer's input pin, to set up the callback. Once the callback is established, the renderer calls the decoder's <code>IOverlayNotify</code> methods when the appropriate events occur. To cancel the callback, use the <a href="/windows/desktop/api/strmif/nf-strmif-ioverlay-unadvise">IOverlay::Unadvise</a> method.
 
-The video renderer is the only filter that calls the methods on this interface. This is done automatically by the default video renderer. If you are writing a replacement video renderer, you will need to use the methods on this interface if your filter supports <b>IOverlay</b> and this interface is passed to your filter in an <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlay-advise">IOverlay::Advise</a> call.
+The video renderer is the only filter that calls the methods on this interface. This is done automatically by the default video renderer. If you are writing a replacement video renderer, you will need to use the methods on this interface if your filter supports <b>IOverlay</b> and this interface is passed to your filter in an <a href="/windows/desktop/api/strmif/nf-strmif-ioverlay-advise">IOverlay::Advise</a> call.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOverlayNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOverlayNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOverlayNotify</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IOverlayNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -78,7 +78,7 @@ The <b>IOverlayNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onclipchange">OnClipChange</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onclipchange">OnClipChange</a>
 </td>
 <td align="left" width="63%">
 Provides notification that the window's visible region has changed.
@@ -87,7 +87,7 @@ Provides notification that the window's visible region has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-oncolorkeychange">OnColorKeyChange</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-oncolorkeychange">OnColorKeyChange</a>
 </td>
 <td align="left" width="63%">
 Provides notification that the chroma key has changed.
@@ -96,7 +96,7 @@ Provides notification that the chroma key has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onpalettechange">OnPaletteChange</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onpalettechange">OnPaletteChange</a>
 </td>
 <td align="left" width="63%">
 Provides notification that the palette of the window has changed.
@@ -105,7 +105,7 @@ Provides notification that the palette of the window has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onpositionchange">OnPositionChange</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onpositionchange">OnPositionChange</a>
 </td>
 <td align="left" width="63%">
 Provides notification that the position has changed.
@@ -113,4 +113,3 @@ Provides notification that the position has changed.
 </td>
 </tr>
 </table>
-

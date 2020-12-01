@@ -109,7 +109,7 @@ Version 2 of the DHCP Client API provides only event-based notification. With ev
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/dhcp/dhcp-functions">DHCP Functions</a>
+<a href="/previous-versions/windows/desktop/dhcp/dhcp-functions">DHCP Functions</a>
 
 
 
@@ -117,9 +117,8 @@ Version 2 of the DHCP Client API provides only event-based notification. With ev
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpcapiinitialize">DhcpCApiInitialize</a>
+<a href="/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpcapiinitialize">DhcpCApiInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpderegisterparamchange">DhcpDeRegisterParamChange</a>
-
+<a href="/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpderegisterparamchange">DhcpDeRegisterParamChange</a>

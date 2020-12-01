@@ -68,5 +68,4 @@ The maximum enumeration value for this enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-hardware_counter_data">HARDWARE_COUNTER_DATA</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-hardware_counter_data">HARDWARE_COUNTER_DATA</a>

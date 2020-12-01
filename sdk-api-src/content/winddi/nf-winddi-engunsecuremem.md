@@ -56,7 +56,7 @@ The <b>EngUnsecureMem</b> function unlocks an address range that is locked down 
 
 ### -param hSecure [in]
 
-Handle to the address range that is locked down. This handle is returned by <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engsecuremem">EngSecureMem</a>.
+Handle to the address range that is locked down. This handle is returned by <a href="/windows/desktop/api/winddi/nf-winddi-engsecuremem">EngSecureMem</a>.
 
 ## -returns
 
@@ -64,5 +64,4 @@ None
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engsecuremem">EngSecureMem</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-engsecuremem">EngSecureMem</a>

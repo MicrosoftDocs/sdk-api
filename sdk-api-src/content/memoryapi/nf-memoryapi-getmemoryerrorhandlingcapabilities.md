@@ -87,11 +87,10 @@ The hardware can detect and report failed memory.
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 To compile an application that calls this function, define <b>_WIN32_WINNT</b> as 
     <b>_WIN32_WINNT_WIN8</b> or higher. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
-
+    <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.

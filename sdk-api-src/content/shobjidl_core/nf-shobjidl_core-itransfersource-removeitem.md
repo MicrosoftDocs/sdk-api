@@ -56,9 +56,9 @@ Removes the item without moving the item to the Recycle Bin.
 
 ### -param psiSource [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
+Type: <b><a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>*</b>
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to be removed.
+A pointer to the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> to be removed.
 
 ### -param flags [in]
 
@@ -177,4 +177,3 @@ Operation requires elevated privileges.
 </td>
 </tr>
 </table>
-

@@ -52,8 +52,8 @@ api_name:
 
 Converts the scaling factor for this font between logical units and <b>HIMETRIC</b> units. 
     <b>HIMETRIC</b> units are used to express the point size in the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_size">IFont::get_Size</a> and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_size">IFont::put_Size</a> methods. The values passed to 
+    <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_size">IFont::get_Size</a> and 
+    <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_size">IFont::put_Size</a> methods. The values passed to 
     <b>IFont::SetRatio</b> are used to compute the display size of 
     the font in logical units from the value in the <b>Size</b> property:
 
@@ -75,13 +75,12 @@ The method supports the standard return values E_UNEXPECTED, E_INVALIDARG, and S
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-get_size">IFont::get_Size</a>
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_size">IFont::get_Size</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nf-ocidl-ifont-put_size">IFont::put_Size</a>
-
+<a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_size">IFont::put_Size</a>

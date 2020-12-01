@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>GetTable</b> is no longer available for use as of Windows 7. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
+<p class="CCE_Message">[<b>GetTable</b> is no longer available for use as of Windows 7. Instead, use the <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipsitables">IPSITables</a> interface to get program specific information (PSI) tables from an MPEG-2 transport stream.]
 
 Retrieves a complete MPEG-2 PSI table. This method blocks until the filter receives all of the sections that make up the requested table, or until the specified time out elapses.
 
@@ -66,7 +66,7 @@ Specifies the table identifier (TID) of the section to retrieve.
 
 ### -param pFilter [in]
 
-Optional pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg2_filter">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
+Optional pointer to an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg2_filter">MPEG2_FILTER</a> structure. The caller can use this parameter to exclude packets based on additional MPEG-2 header fields. This parameter can be <b>NULL</b>.
 
 ### -param dwTimeout [in]
 
@@ -74,7 +74,7 @@ Specifies a time-out value, in milliseconds. If the filter does not receive a ma
 
 ### -param ppSectionList [out]
 
-Receives an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList</a> interface pointer. Use this interface to retrieve the section data. The caller must release the interface.
+Receives an <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList</a> interface pointer. Use this interface to retrieve the section data. The caller must release the interface.
 
 ## -returns
 
@@ -115,5 +115,4 @@ You can use the <i>pFilter</i> parameter to specify the Table_ID_extension field
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data Interface</a>

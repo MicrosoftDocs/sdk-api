@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>GetCspStatusesFromOperations</b> method retrieves an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection by supported key operations and optional provider information. This method is web enabled.
+The <b>GetCspStatusesFromOperations</b> method retrieves an <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> collection by supported key operations and optional provider information. This method is web enabled.
 
 ## -parameters
 
 ### -param Operations [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-algorithmoperationflags">AlgorithmOperationFlags</a> enumeration value that  specifies the supported operations. This can be a bitwise combination of the following flags:
+An <a href="/windows/desktop/api/certenroll/ne-certenroll-algorithmoperationflags">AlgorithmOperationFlags</a> enumeration value that  specifies the supported operations. This can be a bitwise combination of the following flags:
 
 <ul>
 <li>XCN_NCRYPT_NO_OPERATION</li>
@@ -75,23 +75,22 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenr
 
 ### -param pCspInformation [in, optional]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> interface that represents information for a specific provider.
+Pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a> interface that represents information for a specific provider.
 
 ### -param ppValue [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> interface that contains the collection.
+Address of a variable that receives a pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a> interface that contains the collection.
 
 ## -returns
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>

@@ -57,8 +57,8 @@ The
 
 ### -param pStreamControl [in]
 
-Pointer to <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the call's 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a>.
+Pointer to <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface for the call's 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a>.
 
 ## -returns
 
@@ -99,7 +99,7 @@ The <i>pStreamControl</i> parameter is not a valid pointer.
 </td>
 <td width="60%">
 The <i>pStreamControl</i> parameter does not point to a valid 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a> interface.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstreamcontrol">ITStreamControl</a> interface.
 
 </td>
 </tr>
@@ -111,9 +111,8 @@ This method is not automatically invoked when a call enters the disconnect state
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a>
+<a href="/windows/desktop/api/msp/nn-msp-itmspaddress">ITMSPAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

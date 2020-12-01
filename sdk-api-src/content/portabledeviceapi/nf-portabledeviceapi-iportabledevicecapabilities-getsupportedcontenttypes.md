@@ -57,11 +57,11 @@ The <b>GetSupportedContentTypes</b> method retrieves all supported content types
 
 ### -param Category [in]
 
-A <b>REFGUID</b> that specifies a functional object category. To get a list of functional categories on the device, call <a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecapabilities-getfunctionalcategories">IPortableDeviceCapabilities::GetFunctionalCategories</a>.
+A <b>REFGUID</b> that specifies a functional object category. To get a list of functional categories on the device, call <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecapabilities-getfunctionalcategories">IPortableDeviceCapabilities::GetFunctionalCategories</a>.
 
 ### -param ppContentTypes [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that lists all the supported object types for the specified functional object category. These object types will be <b>GUID</b> values of type VT_CLSID in the retrieved <b>PROPVARIANT</b> items. See <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/requirements-for-objects">Requirements for Objects</a> for a list of object types defined by Windows Portable Devices. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="/windows/desktop/wpd_sdk/iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a> interface that lists all the supported object types for the specified functional object category. These object types will be <b>GUID</b> values of type VT_CLSID in the retrieved <b>PROPVARIANT</b> items. See <a href="/windows/desktop/wpd_sdk/requirements-for-objects">Requirements for Objects</a> for a list of object types defined by Windows Portable Devices. The caller must release this interface when it is done with it.
 
 ## -returns
 
@@ -88,9 +88,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
+<a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/retrieving-the-content-types-supported-by-a-device">Retrieving the Content Types Supported by a Device</a>
-
+<a href="/windows/desktop/wpd_sdk/retrieving-the-content-types-supported-by-a-device">Retrieving the Content Types Supported by a Device</a>

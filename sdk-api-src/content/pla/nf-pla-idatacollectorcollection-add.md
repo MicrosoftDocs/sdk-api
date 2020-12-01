@@ -56,7 +56,7 @@ Adds a data collector to the collection.
 
 ### -param collector [in]
 
-An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a> interface of the data collector to add to this collection.
+An <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a> interface of the data collector to add to this collection.
 
 ## -returns
 
@@ -83,13 +83,12 @@ The current configuration for the data collector set requires that it contain ex
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorcollection">IDataCollectorCollection</a>
+<a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorcollection">IDataCollectorCollection</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-addrange">IDataCollectorCollection::AddRange</a>
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-addrange">IDataCollectorCollection::AddRange</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-remove">IDataCollectorCollection::Remove</a>
-
+<a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-remove">IDataCollectorCollection::Remove</a>

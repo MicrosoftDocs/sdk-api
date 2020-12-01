@@ -56,7 +56,7 @@ Retrieves the current type of the picture contained in the picture object.
 
 ### -param pType [out]
 
-Pointer to a variable that receives the picture type. The Type property can have any one of the values contained in the <a href="https://docs.microsoft.com/windows/desktop/com/pictype-constants">PICTYPE</a> enumeration.
+Pointer to a variable that receives the picture type. The Type property can have any one of the values contained in the <a href="/windows/desktop/com/pictype-constants">PICTYPE</a> enumeration.
 
 ## -returns
 
@@ -93,13 +93,12 @@ The value of <i>pType</i> is not valid. For example, it may be <b>NULL</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
+<a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a>
+<a href="/windows/desktop/api/olectl/nf-olectl-olecreatepictureindirect">OleCreatePictureIndirect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/com/pictype-constants">PICTYPE</a>
-
+<a href="/windows/desktop/com/pictype-constants">PICTYPE</a>

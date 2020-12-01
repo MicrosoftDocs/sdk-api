@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Indicates the type of credential that a credential provider should return to associate with the "Other user" tile. Used by <a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruserarray-getaccountoptions">ICredentialProviderUserArray_GetAccountOptions</a>.
+Indicates the type of credential that a credential provider should return to associate with the "Other user" tile. Used by <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruserarray-getaccountoptions">ICredentialProviderUserArray_GetAccountOptions</a>.
 
 ## -enum-fields
 
@@ -68,5 +68,4 @@ Return a credential to associate with the "Other user" tile. This credential can
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruserarray-getaccountoptions">ICredentialProviderUserArray_GetAccountOptions</a>
-
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruserarray-getaccountoptions">ICredentialProviderUserArray_GetAccountOptions</a>

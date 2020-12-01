@@ -54,7 +54,7 @@ Converts between Society of Motion Picture and Television Engineers (SMPTE) time
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimecodeTranslate</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimecodeTranslate</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFTimecodeTranslate</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFTimecodeTranslate</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IMFTimecodeTranslate</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftimecodetranslate-beginconverthnstotimecode">BeginConvertHNSToTimecode</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftimecodetranslate-beginconverthnstotimecode">BeginConvertHNSToTimecode</a>
 </td>
 <td align="left" width="63%">
 Starts an asynchronous call to convert time in 100-nanosecond units to SMPTE time code.
@@ -78,7 +78,7 @@ Starts an asynchronous call to convert time in 100-nanosecond units to SMPTE tim
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftimecodetranslate-beginconverttimecodetohns">BeginConvertTimecodeToHNS</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftimecodetranslate-beginconverttimecodetohns">BeginConvertTimecodeToHNS</a>
 </td>
 <td align="left" width="63%">
 Starts an asynchronous call to convert SMPTE time code to 100-nanosecond units.
@@ -87,7 +87,7 @@ Starts an asynchronous call to convert SMPTE time code to 100-nanosecond units.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftimecodetranslate-endconverthnstotimecode">EndConvertHNSToTimecode</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftimecodetranslate-endconverthnstotimecode">EndConvertHNSToTimecode</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous request to convert time in 100-nanosecond units to SMPTE time code.
@@ -96,7 +96,7 @@ Completes an asynchronous request to convert time in 100-nanosecond units to SMP
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imftimecodetranslate-endconverttimecodetohns">EndConvertTimecodeToHNS</a>
+<a href="/windows/desktop/api/mfidl/nf-mfidl-imftimecodetranslate-endconverttimecodetohns">EndConvertTimecodeToHNS</a>
 </td>
 <td align="left" width="63%">
 Completes an asynchronous request to convert time in SMPTE time code to 100-nanosecond units.
@@ -107,15 +107,14 @@ Completes an asynchronous request to convert time in SMPTE time code to 100-nano
 
 ## -remarks
 
-If an object supports this interface, it must expose the interface as a service. To get a pointer to the interface, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier <b>MF_TIMECODE_SERVICE</b>.
+If an object supports this interface, it must expose the interface as a service. To get a pointer to the interface, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice">IMFGetService::GetService</a> with the service identifier <b>MF_TIMECODE_SERVICE</b>.
 
 The Advanced Streaming Format (ASF) media source exposes this interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/service-interfaces">Service Interfaces</a>
-
+<a href="/windows/desktop/medfound/service-interfaces">Service Interfaces</a>

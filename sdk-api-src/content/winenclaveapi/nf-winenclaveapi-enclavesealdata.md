@@ -123,9 +123,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntenclv/ne-ntenclv-enclave_sealing_identity_policy">ENCLAVE_SEALING_IDENTITY_POLICY</a>
+<a href="/windows/desktop/api/ntenclv/ne-ntenclv-enclave_sealing_identity_policy">ENCLAVE_SEALING_IDENTITY_POLICY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclaveunsealdata">EnclaveUnsealData</a>
-
+<a href="/windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclaveunsealdata">EnclaveUnsealData</a>

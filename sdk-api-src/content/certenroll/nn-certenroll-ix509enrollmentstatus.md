@@ -54,7 +54,7 @@ The <b>IX509EnrollmentStatus</b> interface can be used to specify or retrieve de
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509EnrollmentStatus</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509EnrollmentStatus</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509EnrollmentStatus</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IX509EnrollmentStatus</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -70,10 +70,10 @@ The <b>IX509EnrollmentStatus</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-appendtext">AppendText</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-appendtext">AppendText</a>
 </td>
 <td align="left" width="63%">
-Appends a string to the status information contained in the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_text">Text</a> property.
+Appends a string to the status information contained in the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_text">Text</a> property.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ Appends a string to the status information contained in the <a href="https://doc
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_display">Display</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_display">Display</a>
 
 
 </td>
@@ -99,7 +99,7 @@ Specifies or retrieves a value that indicates whether to display the status info
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_error">Error</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_error">Error</a>
 
 
 </td>
@@ -111,19 +111,19 @@ Specifies and retrieves a value that identifies the error status of the certific
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_errortext">ErrorText</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_errortext">ErrorText</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves a string that contains the message associated with the error result code returned by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_error">Error</a> property.
+Retrieves a string that contains the message associated with the error result code returned by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_error">Error</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_selected">Selected</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_selected">Selected</a>
 
 
 </td>
@@ -135,7 +135,7 @@ Specifies or retrieves a value that indicates whether an item can be used during
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_status">Status</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_status">Status</a>
 
 
 </td>
@@ -147,7 +147,7 @@ Specifies or retrieves a value that indicates the status of the enrollment proce
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_text">Text</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentstatus-get_text">Text</a>
 
 
 </td>
@@ -160,13 +160,12 @@ Specifies or retrieves a string that contains a message associated with the stat
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
+<a href="/windows/desktop/SecCertEnroll/certificate-enrollment-api-reference">Certificate Enrollment API</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>

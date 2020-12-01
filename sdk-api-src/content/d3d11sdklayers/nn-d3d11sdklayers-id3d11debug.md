@@ -55,7 +55,7 @@ A debug interface controls debug settings, validates pipeline state and can only
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Debug</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11Debug</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11Debug</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ID3D11Debug</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>ID3D11Debug</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-getfeaturemask">GetFeatureMask</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-getfeaturemask">GetFeatureMask</a>
 </td>
 <td align="left" width="63%">
 Get a bitfield of flags that indicates which debug features are on or off.
@@ -79,25 +79,25 @@ Get a bitfield of flags that indicates which debug features are on or off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-getpresentperrenderopdelay">GetPresentPerRenderOpDelay</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-getpresentperrenderopdelay">GetPresentPerRenderOpDelay</a>
 </td>
 <td align="left" width="63%">
-Get the number of milliseconds to sleep after <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a> is called.
+Get the number of milliseconds to sleep after <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a> is called.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-getswapchain">GetSwapChain</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-getswapchain">GetSwapChain</a>
 </td>
 <td align="left" width="63%">
-Get the swap chain that the runtime will use for automatically calling <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a>.
+Get the swap chain that the runtime will use for automatically calling <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-reportlivedeviceobjects">ReportLiveDeviceObjects</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-reportlivedeviceobjects">ReportLiveDeviceObjects</a>
 </td>
 <td align="left" width="63%">
 Report information about a device object's lifetime.
@@ -106,7 +106,7 @@ Report information about a device object's lifetime.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-setfeaturemask">SetFeatureMask</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-setfeaturemask">SetFeatureMask</a>
 </td>
 <td align="left" width="63%">
 Set a bit field of flags that will turn debug features on and off.
@@ -115,25 +115,25 @@ Set a bit field of flags that will turn debug features on and off.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-setpresentperrenderopdelay">SetPresentPerRenderOpDelay</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-setpresentperrenderopdelay">SetPresentPerRenderOpDelay</a>
 </td>
 <td align="left" width="63%">
-Set the number of milliseconds to sleep after <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a> is called.
+Set the number of milliseconds to sleep after <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a> is called.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-setswapchain">SetSwapChain</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-setswapchain">SetSwapChain</a>
 </td>
 <td align="left" width="63%">
-Sets a swap chain that the runtime will use for automatically calling <a href="https://docs.microsoft.com/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a>.
+Sets a swap chain that the runtime will use for automatically calling <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-present">IDXGISwapChain::Present</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-validatecontext">ValidateContext</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-validatecontext">ValidateContext</a>
 </td>
 <td align="left" width="63%">
 Check to see if the draw pipeline state is valid.
@@ -142,7 +142,7 @@ Check to see if the draw pipeline state is valid.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-validatecontextfordispatch">ValidateContextForDispatch</a>
+<a href="/windows/desktop/api/d3d11sdklayers/nf-d3d11sdklayers-id3d11debug-validatecontextfordispatch">ValidateContextForDispatch</a>
 </td>
 <td align="left" width="63%">
 Verifies whether the dispatch pipeline state is valid.
@@ -153,10 +153,10 @@ Verifies whether the dispatch pipeline state is valid.
 
 ## -remarks
 
-This interface is obtained by querying it from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a> using <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>.
+This interface is obtained by querying it from the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a> using <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>.
           
 
-For more information about the debug layer, see <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">Debug Layer</a>.
+For more information about the debug layer, see <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">Debug Layer</a>.
           
 
 <b>Windows Phone 8:
@@ -164,9 +164,8 @@ For more information about the debug layer, see <a href="https://docs.microsoft.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-layer-interfaces">Layer Interfaces</a>
-
+<a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-layer-interfaces">Layer Interfaces</a>

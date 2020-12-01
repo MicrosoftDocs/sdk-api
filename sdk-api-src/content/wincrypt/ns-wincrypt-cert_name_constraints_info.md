@@ -65,7 +65,7 @@ The <b>CERT_NAME_CONSTRAINTS_INFO</b> structure contains information about certi
 ### -field rgPermittedSubtree
 
 Array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_general_subtree">CERT_GENERAL_SUBTREE</a> structures, each identifying a permitted certificate name.
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_general_subtree">CERT_GENERAL_SUBTREE</a> structures, each identifying a permitted certificate name.
 
 ### -field cExcludedSubtree
 
@@ -73,5 +73,4 @@ Array of
 
 ### -field rgExcludedSubtree
 
-Array of <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_general_subtree">CERT_GENERAL_SUBTREE</a> structures, each identifying an excluded certificate name.
-
+Array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_general_subtree">CERT_GENERAL_SUBTREE</a> structures, each identifying an excluded certificate name.

@@ -56,37 +56,37 @@ api_name:
 
 ## -description
 
-Converts a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">locale identifier</a> to a <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-names">locale name</a>. <div class="alert"><b>Note</b>  For custom locales, including those created by Microsoft, your applications should prefer locale names over locale identifiers.</div>
+Converts a <a href="/windows/desktop/Intl/locale-identifiers">locale identifier</a> to a <a href="/windows/desktop/Intl/locale-names">locale name</a>. <div class="alert"><b>Note</b>  For custom locales, including those created by Microsoft, your applications should prefer locale names over locale identifiers.</div>
 <div> </div>
 
 ## -parameters
 
 ### -param Locale [in]
 
-Locale identifier to translate. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
+Locale identifier to translate. You can use the <a href="/windows/desktop/api/winnt/nf-winnt-makelcid">MAKELCID</a> macro to create a locale identifier or use one of the following predefined values. 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
+<a href="/windows/desktop/Intl/locale-invariant">LOCALE_INVARIANT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-system-default">LOCALE_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-user-default">LOCALE_USER_DEFAULT</a>
 </li>
 </ul>
 <b>Windows Vista:</b> The following custom locale identifiers are also supported.
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UI_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
+<a href="/windows/desktop/Intl/locale-custom-constants">LOCALE_CUSTOM_UNSPECIFIED</a>
 </li>
 </ul>
 
@@ -96,19 +96,19 @@ Pointer to a buffer in which this function retrieves the locale name, or one of 
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_INVARIANT</a>
+<a href="/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_INVARIANT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_SYSTEM_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_SYSTEM_DEFAULT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_USER_DEFAULT</a>
+<a href="/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_USER_DEFAULT</a>
 </li>
 </ul>
 
 ### -param cchName [in]
 
-Size, in characters, of the locale name buffer. The maximum possible length of a locale name, including a terminating null character, is <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_MAX_LENGTH</a>. This is the recommended size to supply for this parameter.
+Size, in characters, of the locale name buffer. The maximum possible length of a locale name, including a terminating null character, is <a href="/windows/desktop/Intl/locale-name-constants">LOCALE_NAME_MAX_LENGTH</a>. This is the recommended size to supply for this parameter.
 
 Alternatively, the application can set this parameter to 0. In this case, the function returns the required size for the locale name buffer.
 
@@ -116,13 +116,13 @@ Alternatively, the application can set this parameter to 0. In this case, the fu
 
 <b>Before Windows 7:</b> Reserved; should always be 0.
 
-<b>Starting with Windows 7:</b> Can be set to <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-allow-neutral-names">LOCALE_ALLOW_NEUTRAL_NAMES</a> to allow the return of a neutral name.
+<b>Starting with Windows 7:</b> Can be set to <a href="/windows/desktop/Intl/locale-allow-neutral-names">LOCALE_ALLOW_NEUTRAL_NAMES</a> to allow the return of a neutral name.
 
 ## -returns
 
 Returns the count of characters, including the terminating null character, in the locale name if successful. If the function succeeds and the value of <i>cchName</i> is 0, the return value is the required size, in characters (including nulls), for the locale name buffer.
 
-The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
+The function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
 <ul>
 <li>ERROR_INSUFFICIENT_BUFFER. A supplied buffer size was not large enough, or it was incorrectly set to <b>NULL</b>.</li>
@@ -131,13 +131,12 @@ The function returns 0 if it does not succeed. To get extended error information
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnls/nf-winnls-localenametolcid">LocaleNameToLCID</a>
+<a href="/windows/desktop/api/winnls/nf-winnls-localenametolcid">LocaleNameToLCID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support">National Language Support</a>
+<a href="/windows/desktop/Intl/national-language-support">National Language Support</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-
+<a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>

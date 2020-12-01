@@ -50,16 +50,16 @@ api_name:
 
 ## -description
 
-The <b>ISimpleAudioVolume</b> interface enables a client to control the master volume level of an <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/audio-sessions">audio session</a>. The <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method initializes a stream object and assigns the stream to an audio session. The client obtains a reference to the <b>ISimpleAudioVolume</b> interface on a stream object by calling the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> method with parameter <i>riid</i> set to <b>REFIID</b> IID_ISimpleAudioVolume.
+The <b>ISimpleAudioVolume</b> interface enables a client to control the master volume level of an <a href="/windows/desktop/CoreAudio/audio-sessions">audio session</a>. The <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a> method initializes a stream object and assigns the stream to an audio session. The client obtains a reference to the <b>ISimpleAudioVolume</b> interface on a stream object by calling the <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a> method with parameter <i>riid</i> set to <b>REFIID</b> IID_ISimpleAudioVolume.
 
-Alternatively, a client can obtain the <b>ISimpleAudioVolume</b> interface of an existing session without having to first create a stream object and add the stream to the session. Instead, the client calls the <a href="https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager-getsimpleaudiovolume">IAudioSessionManager::GetSimpleAudioVolume</a> method with the session GUID.
+Alternatively, a client can obtain the <b>ISimpleAudioVolume</b> interface of an existing session without having to first create a stream object and add the stream to the session. Instead, the client calls the <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionmanager-getsimpleaudiovolume">IAudioSessionManager::GetSimpleAudioVolume</a> method with the session GUID.
 
 The effective volume level of any channel in the session submix, as heard at the speakers, is the product of the following four volume-level factors:
 
 <ul>
-<li>The per-channel volume levels of the streams in the session, which clients can control through the methods in the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume</a> interface.</li>
+<li>The per-channel volume levels of the streams in the session, which clients can control through the methods in the <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume</a> interface.</li>
 <li>The master volume level of the session, which clients can control through the methods in the <b>ISimpleAudioVolume</b> interface.</li>
-<li>The per-channel volume level of the session, which clients can control through the methods in the <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-ichannelaudiovolume">IChannelAudioVolume</a> interface.</li>
+<li>The per-channel volume level of the session, which clients can control through the methods in the <a href="/windows/desktop/api/audioclient/nn-audioclient-ichannelaudiovolume">IChannelAudioVolume</a> interface.</li>
 <li>The policy-based volume level of the session, which the system dynamically assigns to the session as the global mix changes.</li>
 </ul>
 Each of the four volume-level factors in the preceding list is a value in the range 0.0 to 1.0, where 0.0 indicates silence and 1.0 indicates full volume (no attenuation). The effective volume level is also a value in the range 0.0 to 1.0.
@@ -68,11 +68,11 @@ Typical audio applications do not modify the volume levels of sessions. Instead,
 
 When releasing an <b>ISimpleAudioVolume</b> interface instance, the client must call the interface's <b>Release</b> method from the same thread as the call to <b>IAudioClient::GetService</b> that created the object.
 
-The <b>ISimpleAudioVolume</b> interface controls the volume of an audio session. An audio session is a collection of shared-mode streams. This interface does not work with exclusive-mode streams. For information about volume controls for exclusive-mode streams, see <a href="https://docs.microsoft.com/windows/desktop/CoreAudio/endpointvolume-api">EndpointVolume API</a>.
+The <b>ISimpleAudioVolume</b> interface controls the volume of an audio session. An audio session is a collection of shared-mode streams. This interface does not work with exclusive-mode streams. For information about volume controls for exclusive-mode streams, see <a href="/windows/desktop/CoreAudio/endpointvolume-api">EndpointVolume API</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimpleAudioVolume</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISimpleAudioVolume</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISimpleAudioVolume</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISimpleAudioVolume</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -87,7 +87,7 @@ The <b>ISimpleAudioVolume</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-getmastervolume">GetMasterVolume</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-getmastervolume">GetMasterVolume</a>
 </td>
 <td align="left" width="63%">
 Retrieves the client volume level for the audio session.
@@ -96,7 +96,7 @@ Retrieves the client volume level for the audio session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-getmute">GetMute</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-getmute">GetMute</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current muting state for the audio session.
@@ -105,7 +105,7 @@ Retrieves the current muting state for the audio session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume">SetMasterVolume</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmastervolume">SetMasterVolume</a>
 </td>
 <td align="left" width="63%">
 Sets the master volume level for the audio session.
@@ -114,7 +114,7 @@ Sets the master volume level for the audio session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmute">SetMute</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmute">SetMute</a>
 </td>
 <td align="left" width="63%">
 Sets the muting state for the audio session.
@@ -125,25 +125,24 @@ Sets the muting state for the audio session.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
+<a href="/windows/desktop/CoreAudio/core-audio-interfaces">Core Audio Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getservice">IAudioClient::GetService</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
+<a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume Interface</a>
+<a href="/windows/desktop/api/audioclient/nn-audioclient-iaudiostreamvolume">IAudioStreamVolume Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nn-audioclient-ichannelaudiovolume">IChannelAudioVolume Interface</a>
+<a href="/windows/desktop/api/audioclient/nn-audioclient-ichannelaudiovolume">IChannelAudioVolume Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/CoreAudio/wasapi">WASAPI</a>
-
+<a href="/windows/desktop/CoreAudio/wasapi">WASAPI</a>

@@ -72,5 +72,4 @@ Value that indicates whether the client-side extension can be configured in the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmclientsideextension">IGPMClientSideExtension</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmclientsideextension">IGPMClientSideExtension</a>

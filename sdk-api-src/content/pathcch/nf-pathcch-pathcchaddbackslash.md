@@ -56,9 +56,9 @@ Adds a backslash to the end of a string to create the correct syntax for a path.
 
 This function differs from <b>PathCchAddBackslash</b> in that you are restricted to a final path of length MAX_PATH.
 
-This function differs from <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddbackslasha">PathAddBackslash</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
+This function differs from <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathaddbackslasha">PathAddBackslash</a> in that it accepts paths with "\\", "\\?\" and "\\?\UNC\" prefixes.
 
-<div class="alert"><b>Note</b>  This function, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslashex">PathCchAddBackslashEx</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathaddbackslasha">PathAddBackslash</a> to prevent the possibility of a buffer overrun.</div>
+<div class="alert"><b>Note</b>  This function, or <a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslashex">PathCchAddBackslashEx</a>, should be used in place of <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathaddbackslasha">PathAddBackslash</a> to prevent the possibility of a buffer overrun.</div>
 
 ## -parameters
 
@@ -76,5 +76,4 @@ This function returns <b>S_OK</b> if the function was successful, <b>S_FALSE</b>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslashex">PathCchAddBackslashEx</a>
-
+<a href="/windows/desktop/api/pathcch/nf-pathcch-pathcchaddbackslashex">PathCchAddBackslashEx</a>

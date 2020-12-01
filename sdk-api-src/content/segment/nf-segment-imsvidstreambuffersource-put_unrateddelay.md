@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>put_UnratedDelay</b> method specifies how long the Video Control will play unrated content before blocking it. The value is ignored until the <a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_blockunrated">put_BlockUnrated</a> method is called with the value VARIANT_TRUE.
+The <b>put_UnratedDelay</b> method specifies how long the Video Control will play unrated content before blocking it. The value is ignored until the <a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_blockunrated">put_BlockUnrated</a> method is called with the value VARIANT_TRUE.
 
 ## -parameters
 
@@ -82,9 +82,8 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>
+<a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_blockunrated">IMSVidStreamBufferSource::put_BlockUnrated</a>
-
+<a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersource-put_blockunrated">IMSVidStreamBufferSource::put_BlockUnrated</a>

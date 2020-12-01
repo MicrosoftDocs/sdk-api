@@ -60,7 +60,7 @@ An SP_NEWDEVICEWIZARD_DATA structure is used by installers to extend the operati
 
 ### -field ClassInstallHeader
 
-An install request header that contains the header size and the DIF code for the request. See <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>.
+An install request header that contains the header size and the DIF code for the request. See <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>.
 
 ### -field Flags
 
@@ -82,25 +82,24 @@ The handle to the top-level window of the hardware installation wizard .
 
 ## -remarks
 
-<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-sp_newdevicewizard_data">SP_ADDPROPERTYPAGE_DATA</a> is an alias for this structure.
+<a href="/windows/desktop/api/setupapi/ns-setupapi-sp_newdevicewizard_data">SP_ADDPROPERTYPAGE_DATA</a> is an alias for this structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-newdevicewizard-finishinstall">DIF_NEWDEVICEWIZARD_FINISHINSTALL</a>
+<a href="/windows-hardware/drivers/install/dif-newdevicewizard-finishinstall">DIF_NEWDEVICEWIZARD_FINISHINSTALL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-newdevicewizard-postanalyze">DIF_NEWDEVICEWIZARD_POSTANALYZE</a>
+<a href="/windows-hardware/drivers/install/dif-newdevicewizard-postanalyze">DIF_NEWDEVICEWIZARD_POSTANALYZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-newdevicewizard-preanalyze">DIF_NEWDEVICEWIZARD_PREANALYZE</a>
+<a href="/windows-hardware/drivers/install/dif-newdevicewizard-preanalyze">DIF_NEWDEVICEWIZARD_PREANALYZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-newdevicewizard-preselect">DIF_NEWDEVICEWIZARD_PRESELECT</a>
+<a href="/windows-hardware/drivers/install/dif-newdevicewizard-preselect">DIF_NEWDEVICEWIZARD_PRESELECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/install/dif-newdevicewizard-select">DIF_NEWDEVICEWIZARD_SELECT</a>
-
+<a href="/windows-hardware/drivers/install/dif-newdevicewizard-select">DIF_NEWDEVICEWIZARD_SELECT</a>

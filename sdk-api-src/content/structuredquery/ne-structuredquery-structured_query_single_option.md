@@ -52,21 +52,21 @@ api_name:
 
 ## -description
 
-A set of flags to be used with <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-setoption">IQueryParser::SetOption</a> and <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-getoption">IQueryParser::GetOption</a> to indicate individual options.
+A set of flags to be used with <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-setoption">IQueryParser::SetOption</a> and <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-getoption">IQueryParser::GetOption</a> to indicate individual options.
 
 ## -enum-fields
 
 ### -field SQSO_SCHEMA
 
-The option value should be a <b>VT_LPWSTR</b> that is the path to a file containing a schema binary. It is set automatically when obtaining a query parser through <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-createloadedparser">IQueryParserManager::CreateLoadedParser</a>.
+The option value should be a <b>VT_LPWSTR</b> that is the path to a file containing a schema binary. It is set automatically when obtaining a query parser through <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-createloadedparser">IQueryParserManager::CreateLoadedParser</a>.
 
 ### -field SQSO_LOCALE_WORD_BREAKING
 
-The option value must be <b>VT_EMPTY</b> to use the default word breaker (current keyboard locale) or a <b>VT_UI4</b> that is a valid LCID. The LCID indicates the expected locale of content words in queries to be parsed and is used to choose a suitable word breaker for the query. <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-parse">IQueryParser::Parse</a> will return an error unless you set either this option or <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-structured_query_single_option">SQSO_WORD_BREAKER</a>  before calling it.
+The option value must be <b>VT_EMPTY</b> to use the default word breaker (current keyboard locale) or a <b>VT_UI4</b> that is a valid LCID. The LCID indicates the expected locale of content words in queries to be parsed and is used to choose a suitable word breaker for the query. <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-parse">IQueryParser::Parse</a> will return an error unless you set either this option or <a href="/windows/desktop/api/structuredquery/ne-structuredquery-structured_query_single_option">SQSO_WORD_BREAKER</a>  before calling it.
 
 ### -field SQSO_WORD_BREAKER
 
-When setting this option, the value should be a <b>VT_EMPTY</b> for using the default word breaker for the chosen locale, or a <b>VT_UNKNOWN</b> with an object supporting the <a href="https://docs.microsoft.com/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a> interface. Retrieving the option always returns a <b>VT_UNKNOWN</b> with an object supporting the <b>IWordBreaker</b> interface, unless there is no suitable word breaker for the chosen locale, in which case <b>VT_EMPTY</b> is returned.
+When setting this option, the value should be a <b>VT_EMPTY</b> for using the default word breaker for the chosen locale, or a <b>VT_UNKNOWN</b> with an object supporting the <a href="/windows/desktop/api/indexsrv/nn-indexsrv-iwordbreaker">IWordBreaker</a> interface. Retrieving the option always returns a <b>VT_UNKNOWN</b> with an object supporting the <b>IWordBreaker</b> interface, unless there is no suitable word breaker for the chosen locale, in which case <b>VT_EMPTY</b> is returned.
 
 ### -field SQSO_NATURAL_SYNTAX
 
@@ -82,11 +82,11 @@ Reserved. The value should be <b>VT_EMPTY</b> (the default) or a <b>VT_I4</b>. R
 
 ### -field SQSO_LANGUAGE_KEYWORDS
 
-The option value must be a <b>VT_I4</b> that is a valid LANGID. The LANGID indicates the expected language of Structured Query keywords in queries to be parsed. It is set automatically when obtaining a query parser through <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-createloadedparser">IQueryParserManager::CreateLoadedParser</a>.
+The option value must be a <b>VT_I4</b> that is a valid LANGID. The LANGID indicates the expected language of Structured Query keywords in queries to be parsed. It is set automatically when obtaining a query parser through <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparsermanager-createloadedparser">IQueryParserManager::CreateLoadedParser</a>.
 
 ### -field SQSO_SYNTAX
 
-<b>Windows 7 and later.</b> The option value must be a <b>VT_UI4</b> that is a <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-search_query_syntax">SEARCH_QUERY_SYNTAX</a> value. The default is SQS_NATURAL_QUERY_SYNTAX.
+<b>Windows 7 and later.</b> The option value must be a <b>VT_UI4</b> that is a <a href="/windows/desktop/api/searchapi/ne-searchapi-search_query_syntax">SEARCH_QUERY_SYNTAX</a> value. The default is SQS_NATURAL_QUERY_SYNTAX.
 
 ### -field SQSO_TIME_ZONE
 
@@ -102,5 +102,4 @@ The option value must be a <b>VT_I4</b> that is a valid LANGID. The LANGID indic
 
 ## -remarks
 
-Windows 7 adds new constants that help refine query condition trees parsed by the <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparser">IQueryParser</a> interface.
-
+Windows 7 adds new constants that help refine query condition trees parsed by the <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparser">IQueryParser</a> interface.

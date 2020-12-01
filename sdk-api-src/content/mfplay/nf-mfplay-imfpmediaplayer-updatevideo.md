@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="https://docs.microsoft.com/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
+<div class="alert"><b>Important</b>  Deprecated. This API may be removed from future releases of Windows. Applications should use the <a href="/windows/desktop/medfound/media-session">Media Session</a> for playback.</div>
 <div> </div>
 
 
@@ -96,7 +96,7 @@ The current media item does not contain video.
 </dl>
 </td>
 <td width="60%">
-The object's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">Shutdown</a> method was called.
+The object's <a href="/windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown">Shutdown</a> method was called.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ The object's <a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nf-m
 
 ## -remarks
 
-Call this method when your application's video playback window receives either a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> or <a href="https://docs.microsoft.com/windows/desktop/winmsg/wm-size">WM_SIZE</a> message. This method performs two functions:
+Call this method when your application's video playback window receives either a <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> or <a href="/windows/desktop/winmsg/wm-size">WM_SIZE</a> message. This method performs two functions:
         
         
 
@@ -112,7 +112,7 @@ Call this method when your application's video playback window receives either a
 <li>Ensures that the video frame is repainted while playback is paused or stopped.  </li>
 <li>Adjusts the displayed video to match the current size of the video window.</li>
 </ul>
-<div class="alert"><b>Important</b>  Call the GDI <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function before calling  <b>UpdateVideo</b>.</div>
+<div class="alert"><b>Important</b>  Call the GDI <a href="/windows/desktop/api/winuser/nf-winuser-beginpaint">BeginPaint</a> function before calling  <b>UpdateVideo</b>.</div>
 <div> </div>
 
 #### Examples
@@ -157,9 +157,8 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
+<a href="/windows/desktop/api/mfplay/nn-mfplay-imfpmediaplayer">IMFPMediaPlayer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
-
+<a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>

@@ -50,20 +50,20 @@ api_name:
 
 ## -description
 
-Defines  the configuration of an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object that enables, disables, or modifies the behavior of an interaction.
+Defines  the configuration of an <a href="/previous-versions/windows/desktop/input_intcontext/interaction-context-portal">Interaction Context</a> object that enables, disables, or modifies the behavior of an interaction.
 
 ## -struct-fields
 
 ### -field interactionId
 
-One of the constants from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_id">INTERACTION_ID</a>.
+One of the constants from <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_id">INTERACTION_ID</a>.
 
 <div class="alert"><b>Note</b>  INTERACTION_FLAG_NONE is not a valid value.</div>
 <div> </div>
 
 ### -field enable
 
-The value of this property is a bitmask, which can be set to one or more of the values from <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_configuration_flags">INTERACTION_CONFIGURATION_FLAGS</a>.
+The value of this property is a bitmask, which can be set to one or more of the values from <a href="/previous-versions/windows/desktop/api/interactioncontext/ne-interactioncontext-interaction_configuration_flags">INTERACTION_CONFIGURATION_FLAGS</a>.
 
 This example shows the default setting for <b>INTERACTION_CONTEXT_CONFIGURATION</b>.
 
@@ -95,9 +95,8 @@ This example shows the default setting for <b>INTERACTION_CONTEXT_CONFIGURATION<
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
+<a href="/previous-versions/windows/desktop/input_intcontext/structures">Interaction Context Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setinteractionconfigurationinteractioncontext">SetInteractionConfigurationInteractionContext</a>
-
+<a href="/previous-versions/windows/desktop/api/interactioncontext/nf-interactioncontext-setinteractionconfigurationinteractioncontext">SetInteractionConfigurationInteractionContext</a>

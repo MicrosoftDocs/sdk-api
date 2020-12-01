@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Sets the paragraph attributes of this range to those of the specified <a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> object.
+Sets the paragraph attributes of this range to those of the specified <a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a> object.
 
 ## -parameters
 
 ### -param pPara [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>*</b>
+Type: <b><a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>*</b>
 
 The paragraph object with the desired paragraph format.
 
@@ -64,7 +64,7 @@ The paragraph object with the desired paragraph format.
 
 Type: <b>HRESULT</b>
 
-The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -112,11 +112,11 @@ Out of memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextrange-getpara">GetPara</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextrange-getpara">GetPara</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextrange">ITextRange</a>
 
 
 
@@ -124,5 +124,4 @@ Out of memory.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

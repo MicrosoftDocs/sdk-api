@@ -58,13 +58,13 @@ Sets the list level index used for paragraphs.
 
 Type: <b>long</b>
 
-New list level index value. For possible values, see <a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlistlevelindex">ITextPara::GetListLevelIndex</a>.
+New list level index value. For possible values, see <a href="/windows/desktop/api/tom/nf-tom-itextpara-getlistlevelindex">ITextPara::GetListLevelIndex</a>.
 
 ## -returns
 
 Type: <b>HRESULT</b>
 
-If <b>ITextPara::SetListLevelIndex</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
+If <b>ITextPara::SetListLevelIndex</b> succeeds, it returns <b>S_OK</b>. If the method fails, it returns one of the following COM error codes. For more information about COM error codes, see <a href="/windows/desktop/com/error-handling-in-com">Error Handling in COM</a>.
 
 <table>
 <tr>
@@ -138,11 +138,11 @@ Setting the list level index does not automatically change a list's indentation 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nf-tom-itextpara-getlistlevelindex">GetListLevelIndex</a>
+<a href="/windows/desktop/api/tom/nf-tom-itextpara-getlistlevelindex">GetListLevelIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
+<a href="/windows/desktop/api/tom/nn-tom-itextpara">ITextPara</a>
 
 
 
@@ -150,5 +150,4 @@ Setting the list level index does not automatically change a list's indentation 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Controls/text-object-model">Text Object Model</a>
-
+<a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>

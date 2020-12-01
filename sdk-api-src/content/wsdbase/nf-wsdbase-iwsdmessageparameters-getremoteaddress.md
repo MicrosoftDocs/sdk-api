@@ -56,7 +56,7 @@ Retrieves the generic address object representing the remote address from which 
 
 ### -param ppAddress [out]
 
-An <a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface that represents the remote address from which the message was sent.
+An <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdaddress">IWSDAddress</a> interface that represents the remote address from which the message was sent.
 
 ## -returns
 
@@ -102,5 +102,4 @@ The caller is responsible for releasing memory allocated to <i>ppAddress</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>
-
+<a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>

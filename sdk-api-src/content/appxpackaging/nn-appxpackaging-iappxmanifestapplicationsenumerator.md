@@ -54,7 +54,7 @@ Enumerates the applications defined in the package manifest.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestApplicationsEnumerator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestApplicationsEnumerator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAppxManifestApplicationsEnumerator</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAppxManifestApplicationsEnumerator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAppxManifestApplicationsEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestapplicationsenumerator-getcurrent">GetCurrent</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestapplicationsenumerator-getcurrent">GetCurrent</a>
 </td>
 <td align="left" width="63%">
 Gets the application at the current position of the enumerator.
@@ -78,7 +78,7 @@ Gets the application at the current position of the enumerator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestapplicationsenumerator-gethascurrent">GetHasCurrent</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestapplicationsenumerator-gethascurrent">GetHasCurrent</a>
 </td>
 <td align="left" width="63%">
 Determines whether there is an application at the current position of the enumerator.
@@ -87,7 +87,7 @@ Determines whether there is an application at the current position of the enumer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestapplicationsenumerator-movenext">MoveNext</a>
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestapplicationsenumerator-movenext">MoveNext</a>
 </td>
 <td align="left" width="63%">
 Advances the position of the enumerator to the next application.
@@ -98,22 +98,21 @@ Advances the position of the enumerator to the next application.
 
 ## -remarks
 
-Applications are specified using the <a href="https://docs.microsoft.com/uwp/schemas/appxpackage/appxmanifestschema/element-applications">Applications</a> element in the package manifest.
+Applications are specified using the <a href="/uwp/schemas/appxpackage/appxmanifestschema/element-applications">Applications</a> element in the package manifest.
 
-This object can be retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getapplications">IAppxManifestReader::GetApplications</a> method.
+This object can be retrieved using the <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getapplications">IAppxManifestReader::GetApplications</a> method.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/how-to-query-package-identity-information">Quickstart: Read app package manifest info</a>.
+For an example, see <a href="/windows/desktop/appxpkg/how-to-query-package-identity-information">Quickstart: Read app package manifest info</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestapplication">IAppxManifestApplication</a>
+<a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestapplication">IAppxManifestApplication</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getapplications">IAppxManifestReader::GetApplications</a>
-
+<a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxmanifestreader-getapplications">IAppxManifestReader::GetApplications</a>

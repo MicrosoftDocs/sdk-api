@@ -51,37 +51,37 @@ api_name:
 ## -description
 
 The properties available on the Context. Not all properties may be available
-                at a given point on a context. All context properties are available through <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nf-webservices-wsgetoperationcontextproperty">WsGetOperationContextProperty</a>.
+                at a given point on a context. All context properties are available through <a href="/windows/desktop/api/webservices/nf-webservices-wsgetoperationcontextproperty">WsGetOperationContextProperty</a>.
 
 ## -enum-fields
 
 ### -field WS_OPERATION_CONTEXT_PROPERTY_CHANNEL
 
 This value is a handle to the underlying channel. This property is available to service operations ,
-                    to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> and 
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_close_channel_callback">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a>.
+                    to the <a href="/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>, <a href="/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> and 
+                    <a href="/windows/desktop/api/webservices/nc-webservices-ws_service_close_channel_callback">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a>.
 
 ### -field WS_OPERATION_CONTEXT_PROPERTY_CONTRACT_DESCRIPTION
 
 The value represents the contract description. This property is available to service operations ,
-                    to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>, <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> and 
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_close_channel_callback">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a>.
+                    to the <a href="/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>, <a href="/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a> and 
+                    <a href="/windows/desktop/api/webservices/nc-webservices-ws_service_close_channel_callback">WS_SERVICE_CLOSE_CHANNEL_CALLBACK</a>.
 
 ### -field WS_OPERATION_CONTEXT_PROPERTY_HOST_USER_STATE
 
-The value is a pointer to the host state specified on the <a href="https://docs.microsoft.com/windows/desktop/wsw/service-host">service host</a> as the 
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_service_property_id">WS_SERVICE_PROPERTY_HOST_USER_STATE</a> service property. This property is available to 
-                     service operations  and to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>.
+The value is a pointer to the host state specified on the <a href="/windows/desktop/wsw/service-host">service host</a> as the 
+                    <a href="/windows/desktop/api/webservices/ne-webservices-ws_service_property_id">WS_SERVICE_PROPERTY_HOST_USER_STATE</a> service property. This property is available to 
+                     service operations  and to the <a href="/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>.
 
 ### -field WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE
 
-The value is a pointer to the channel state specified through <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a>. This property is 
-                    available to  service operations and to the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>.
+The value is a pointer to the channel state specified through <a href="/windows/desktop/api/webservices/nc-webservices-ws_service_accept_channel_callback">WS_SERVICE_ACCEPT_CHANNEL_CALLBACK</a>. This property is 
+                    available to  service operations and to the <a href="/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>.
 
 ### -field WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE
 
 The value is a pointer to the underlying input message. This property is available to service operations and to the 
-                    <a href="https://docs.microsoft.com/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>.
+                    <a href="/windows/desktop/api/webservices/nc-webservices-ws_service_message_receive_callback">WS_SERVICE_MESSAGE_RECEIVE_CALLBACK</a>.
 
 ### -field WS_OPERATION_CONTEXT_PROPERTY_OUTPUT_MESSAGE
 
@@ -95,4 +95,3 @@ The value is a pointer to the WS_HEAP. This property is available to a service o
 ### -field WS_OPERATION_CONTEXT_PROPERTY_LISTENER
 
 ### -field WS_OPERATION_CONTEXT_PROPERTY_ENDPOINT_ADDRESS
-

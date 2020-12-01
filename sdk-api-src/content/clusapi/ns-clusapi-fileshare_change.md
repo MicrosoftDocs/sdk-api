@@ -61,7 +61,7 @@ Describes the format for an entry in an event notification list.
 ### -field Change
 
 Describes a change event. This value is taken from the 
-       <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-fileshare_change_enum">FILESHARE_CHANGE_ENUM</a>enumeration. The following 
+       <a href="/windows/desktop/api/clusapi/ne-clusapi-fileshare_change_enum">FILESHARE_CHANGE_ENUM</a>enumeration. The following 
        are the possible values for this member.
 
 
@@ -90,9 +90,8 @@ The name of the file share resource specific to this entry in the event notifica
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/ne-clusapi-fileshare_change_enum">FILESHARE_CHANGE_ENUM</a>
+<a href="/windows/desktop/api/clusapi/ne-clusapi-fileshare_change_enum">FILESHARE_CHANGE_ENUM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>

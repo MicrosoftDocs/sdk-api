@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 The <b>StringFormat::GetFormatFlags</b> method gets the string format flags for this 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.
+			<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.
 
 ## -parameters
 
@@ -61,18 +61,17 @@ The <b>StringFormat::GetFormatFlags</b> method gets the string format flags for 
 Type: <b>INT</b>
 
 This method returns a value that indicates which string format flags are set for this 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object. This value can be any combination (the result of a bitwise 
-						<b>OR</b> applied to two or more elements) of elements of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringformatflags">StringFormatFlags</a> enumeration.
+						<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object. This value can be any combination (the result of a bitwise 
+						<b>OR</b> applied to two or more elements) of elements of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringformatflags">StringFormatFlags</a> enumeration.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
+<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>
+<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringformatflags">StringFormatFlags</a>
-
+<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringformatflags">StringFormatFlags</a>

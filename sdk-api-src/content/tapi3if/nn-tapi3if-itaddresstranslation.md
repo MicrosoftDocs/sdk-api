@@ -54,20 +54,20 @@ The
 <b>ITAddressTranslation</b> interface provides methods that allow translation of a calling address into a different format. For example, an application may need to translate an address from canonical to dialable prior to making a call.
 
 The most common use of this interface is to obtain the <i>pDestAddress</i> string needed for 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>. The addresses to be translated are mainly phone numbers in canonical format.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>. The addresses to be translated are mainly phone numbers in canonical format.
 
 The 
 <b>ITAddressTranslation</b> interface is exposed on the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>. A pointer can be obtained by calling <b>QueryInterface</b> on 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>.
+<a href="/windows/desktop/Tapi/address-object">Address Object</a>. A pointer can be obtained by calling <b>QueryInterface</b> on 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>.
 
 For additional information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/initiate-a-session-ovr">Address Translation</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-ovr">Dialable Addresses</a>.
+<a href="/windows/desktop/Tapi/initiate-a-session-ovr">Address Translation</a> and 
+<a href="/windows/desktop/Tapi/address-ovr">Dialable Addresses</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressTranslation</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAddressTranslation</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITAddressTranslation</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>ITAddressTranslation</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -82,7 +82,7 @@ The <b>ITAddressTranslation</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-enumeratecallingcards">EnumerateCallingCards</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-enumeratecallingcards">EnumerateCallingCards</a>
 </td>
 <td align="left" width="63%">
 Enumerates calling cards associated with the address.
@@ -91,7 +91,7 @@ Enumerates calling cards associated with the address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-enumeratelocations">EnumerateLocations</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-enumeratelocations">EnumerateLocations</a>
 </td>
 <td align="left" width="63%">
 Enumerates the currently available address locations.
@@ -100,7 +100,7 @@ Enumerates the currently available address locations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-get_callingcards">get_CallingCards</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-get_callingcards">get_CallingCards</a>
 </td>
 <td align="left" width="63%">
 Creates a collection of calling cards associated with the address. This method is provided for Automation client applications, such as those written in Visual Basic.
@@ -109,7 +109,7 @@ Creates a collection of calling cards associated with the address. This method i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-get_locations">get_Locations</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-get_locations">get_Locations</a>
 </td>
 <td align="left" width="63%">
 Creates a collection of currently available address locations. This method is provided for Automation client applications, such as those written in Visual Basic.
@@ -118,7 +118,7 @@ Creates a collection of currently available address locations. This method is pr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-translateaddress">TranslateAddress</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-translateaddress">TranslateAddress</a>
 </td>
 <td align="left" width="63%">
 Creates the address translation information interface.
@@ -127,7 +127,7 @@ Creates the address translation information interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-translatedialog">TranslateDialog</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddresstranslation-translatedialog">TranslateDialog</a>
 </td>
 <td align="left" width="63%">
 Invokes the control panel's telephony applet.
@@ -138,33 +138,32 @@ Invokes the control panel's telephony applet.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-object">Address Object</a>
+<a href="/windows/desktop/Tapi/address-object">Address Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/initiate-a-session-ovr">Address Translation</a>
+<a href="/windows/desktop/Tapi/initiate-a-session-ovr">Address Translation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-ovr">Dialable Addresses</a>
+<a href="/windows/desktop/Tapi/address-ovr">Dialable Addresses</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>

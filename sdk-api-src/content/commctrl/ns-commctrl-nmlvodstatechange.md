@@ -54,16 +54,16 @@ api_name:
 
 ## -description
 
-Structure that contains information for use in processing the <a href="https://docs.microsoft.com/windows/desktop/Controls/lvn-odstatechanged">LVN_ODSTATECHANGED</a> notification code.
+Structure that contains information for use in processing the <a href="/windows/desktop/Controls/lvn-odstatechanged">LVN_ODSTATECHANGED</a> notification code.
 
 ## -struct-fields
 
 ### -field hdr
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
+Type: <b><a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
+<a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure that contains additional information about the notification.
 
 ### -field iFrom
 
@@ -79,13 +79,12 @@ Zero-based index of the last item in the range of items.
 
 ### -field uNewState
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Value indicating the new state for the item or items. This member can be any valid combination of the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">list-view item states</a>.
+Value indicating the new state for the item or items. This member can be any valid combination of the <a href="/windows/desktop/Controls/list-view-item-states">list-view item states</a>.
 
 ### -field uOldState
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-Value indicating the old state for the item or items. This member can be any valid combination of the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-item-states">list-view item states</a>.
-
+Value indicating the old state for the item or items. This member can be any valid combination of the <a href="/windows/desktop/Controls/list-view-item-states">list-view item states</a>.

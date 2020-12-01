@@ -107,9 +107,8 @@ Insufficient memory to complete the operation.
 
 ## -remarks
 
-After the call, the caller needs to release memory used to hold the custom data item by calling <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-clearcustdata">ClearCustData</a>.
+After the call, the caller needs to release memory used to hold the custom data item by calling <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-clearcustdata">ClearCustData</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib2">ITypeLib2</a>
-
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib2">ITypeLib2</a>

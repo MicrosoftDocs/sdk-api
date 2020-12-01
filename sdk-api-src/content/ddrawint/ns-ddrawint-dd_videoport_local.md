@@ -54,29 +54,29 @@ api_name:
 
 ## -description
 
-The DD_VIDEOPORT_LOCAL structure contains <a href="https://docs.microsoft.com/windows-hardware/drivers/">video port extensions (VPE)</a>-related data that is unique to an individual Microsoft DirectDraw VPE object.
+The DD_VIDEOPORT_LOCAL structure contains <a href="/windows-hardware/drivers/">video port extensions (VPE)</a>-related data that is unique to an individual Microsoft DirectDraw VPE object.
 
 ## -struct-fields
 
 ### -field lpDD
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current DirectDraw process only.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a> structure that is relevant to the current DirectDraw process only.
 
 ### -field ddvpDesc
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportdesc">DDVIDEOPORTDESC</a> structure that describes the VPE object.
+Specifies a <a href="/windows/desktop/api/dvp/ns-dvp-ddvideoportdesc">DDVIDEOPORTDESC</a> structure that describes the VPE object.
 
 ### -field ddvpInfo
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/dvp/ns-dvp-ddvideoportinfo">DDVIDEOPORTINFO</a> structure that describes the transfer of video data to a surface.
+Specifies a <a href="/windows/desktop/api/dvp/ns-dvp-ddvideoportinfo">DDVIDEOPORTINFO</a> structure that describes the transfer of video data to a surface.
 
 ### -field lpSurface
 
-Points to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_int">DD_SURFACE_INT</a> structure for the surface receiving the video data.
+Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_int">DD_SURFACE_INT</a> structure for the surface receiving the video data.
 
 ### -field lpVBISurface
 
-Points to a DD_SURFACE_INT structure for the surface receiving the <a href="https://docs.microsoft.com/windows-hardware/drivers/">VBI</a> data.
+Points to a DD_SURFACE_INT structure for the surface receiving the <a href="/windows-hardware/drivers/">VBI</a> data.
 
 ### -field dwNumAutoflip
 
@@ -101,4 +101,3 @@ Reserved for use by the display driver.
 ## -remarks
 
 This structure is initialized and filled in by DirectDraw. Except for the <b>dwReserved1</b>, <b>dwReserved2</b>, and <b>dwReserved3</b> members, the driver must not modify any other members of the DD_VIDEOPORT_LOCAL structure.
-

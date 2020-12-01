@@ -43,6 +43,7 @@ api_location:
  - User32.dll
 api_name:
  - GetMenuInfo
+req.apiset: ext-ms-win-ntuser-menu-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetMenuInfo function
@@ -64,7 +65,7 @@ A handle on a menu.
 
 Type: <b>LPMENUINFO</b>
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-menuinfo">MENUINFO</a> structure containing information for the menu. Note that you must set the <b>cbSize</b> member to <code>sizeof(MENUINFO)</code> before calling this function.
+A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-menuinfo">MENUINFO</a> structure containing information for the menu. Note that you must set the <b>cbSize</b> member to <code>sizeof(MENUINFO)</code> before calling this function.
 
 ## -returns
 
@@ -72,9 +73,8 @@ Type: <b>BOOL</b>
 
 If the function succeeds, the return value is nonzero. 
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
-
+<a href="/windows/desktop/menurc/menus">Menus</a>

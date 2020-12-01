@@ -96,7 +96,7 @@ Invalid pointer.
 </dl>
 </td>
 <td width="60%">
-The change batch object is not an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchangebatch">ISyncFullEnumerationChangeBatch</a> object.
+The change batch object is not an <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchangebatch">ISyncFullEnumerationChangeBatch</a> object.
 
 </td>
 </tr>
@@ -108,9 +108,8 @@ The knowledge returned in <i>ppLearnedForgottenKnowledge</i> is the source forgo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-iforgottenknowledge">IForgottenKnowledge Interface</a>
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iforgottenknowledge">IForgottenKnowledge Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchwithprerequisite">ISyncChangeBatchWithPrerequisite Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchwithprerequisite">ISyncChangeBatchWithPrerequisite Interface</a>

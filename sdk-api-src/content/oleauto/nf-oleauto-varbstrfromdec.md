@@ -87,7 +87,7 @@ Uses the system default locale settings, rather than custom locale settings.
 </dl>
 </td>
 <td width="60%">
-Omits the date portion of a VT_DATE and returns only the time. Applies to conversions to or from dates. Not used for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantchangetype">VariantChangeType</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantchangetypeex">VariantChangeTypeEx</a>.
+Omits the date portion of a VT_DATE and returns only the time. Applies to conversions to or from dates. Not used for <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantchangetype">VariantChangeType</a> and <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantchangetypeex">VariantChangeTypeEx</a>.
 
 
 </td>
@@ -98,7 +98,7 @@ Omits the date portion of a VT_DATE and returns only the time. Applies to conver
 </dl>
 </td>
 <td width="60%">
-Omits the time portion of a VT_DATE and returns only the date. Applies to conversions to or from dates. Not used for <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantchangetype">VariantChangeType</a> and <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantchangetypeex">VariantChangeTypeEx</a>.
+Omits the time portion of a VT_DATE and returns only the date. Applies to conversions to or from dates. Not used for <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantchangetype">VariantChangeType</a> and <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantchangetypeex">VariantChangeTypeEx</a>.
 
 
 </td>
@@ -187,4 +187,3 @@ Insufficient memory to complete the operation.
 </td>
 </tr>
 </table>
-

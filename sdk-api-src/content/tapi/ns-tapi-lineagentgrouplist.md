@@ -56,13 +56,13 @@ api_name:
 
 The 
 <b>LINEAGENTGROUPLIST</b> structure describes a list of ACD agent groups. This structure can contain an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgroupentry">LINEAGENTGROUPENTRY</a> structures.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentgroupentry">LINEAGENTGROUPENTRY</a> structures.
 
 Multiple functions use the 
 <b>LINEAGENTGROUPLIST</b> structure; these include the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentgrouplista">lineGetAgentGroupList</a>, 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetgrouplista">lineGetGroupList</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentgroup">lineSetAgentGroup</a> functions.
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentgrouplista">lineGetAgentGroupList</a>, 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetgrouplista">lineGetGroupList</a> and 
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetagentgroup">lineSetAgentGroup</a> functions.
 
 ## -struct-fields
 
@@ -81,7 +81,7 @@ Size of the portion of this data structure that contains useful information, in 
 ### -field dwNumEntries
 
 Number of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgroupentry">LINEAGENTGROUPENTRY</a> structures that appear in the <i>List</i> array. The value is 0 if no agent is to be logged in on the address.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentgroupentry">LINEAGENTGROUPENTRY</a> structures that appear in the <i>List</i> array. The value is 0 if no agent is to be logged in on the address.
 
 ### -field dwListSize
 
@@ -90,21 +90,20 @@ Size of the group list array, in bytes.
 ### -field dwListOffset
 
 Offset from the beginning of this structure to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgroupentry">LINEAGENTGROUPENTRY</a> structures that specify information about each group into which the current agent is to be logged in at the address. This is <b>dwNumEntries</b> times SIZEOF(LINEAGENTGROUPENTRY). The size of the field is specified by <b>dwListSize</b>.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentgroupentry">LINEAGENTGROUPENTRY</a> structures that specify information about each group into which the current agent is to be logged in at the address. This is <b>dwNumEntries</b> times SIZEOF(LINEAGENTGROUPENTRY). The size of the field is specified by <b>dwListSize</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineagentgroupentry">LINEAGENTGROUPENTRY</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineagentgroupentry">LINEAGENTGROUPENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetagentgrouplista">lineGetAgentGroupList</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetagentgrouplista">lineGetAgentGroupList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetgrouplista">lineGetGroupList</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetgrouplista">lineGetGroupList</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetagentgroup">lineSetAgentGroup</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetagentgroup">lineSetAgentGroup</a>

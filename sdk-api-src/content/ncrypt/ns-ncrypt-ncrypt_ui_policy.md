@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-The <b>NCRYPT_UI_POLICY</b> structure is used with the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/key-storage-property-identifiers">NCRYPT_UI_POLICY_PROPERTY</a> property to contain strong key user interface information for a key. This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsetproperty">NCryptSetProperty</a> and <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptgetproperty">NCryptGetProperty</a> functions with the <a href="https://docs.microsoft.com/windows/desktop/SecCNG/key-storage-property-identifiers">NCRYPT_UI_POLICY_PROPERTY</a> property.
+The <b>NCRYPT_UI_POLICY</b> structure is used with the <a href="/windows/desktop/SecCNG/key-storage-property-identifiers">NCRYPT_UI_POLICY_PROPERTY</a> property to contain strong key user interface information for a key. This structure is used with the <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptsetproperty">NCryptSetProperty</a> and <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptgetproperty">NCryptGetProperty</a> functions with the <a href="/windows/desktop/SecCNG/key-storage-property-identifiers">NCRYPT_UI_POLICY_PROPERTY</a> property.
 
 ## -struct-fields
 
@@ -115,4 +115,3 @@ A pointer to a null-terminated Unicode string that contains the text that will b
 ### -field pszDescription
 
 A pointer to a null-terminated Unicode string that contains the text that will be displayed in the strong key dialog box as the description of the key. If this member is <b>NULL</b>, a default description will be used in the strong key dialog box.  This member is used both when the key is completed and when the key is used.
-

@@ -54,7 +54,7 @@ Provides methods used to retrieve certain properties of an individual user inclu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderUser</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderUser</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICredentialProviderUser</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ICredentialProviderUser</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ICredentialProviderUser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getproviderid">GetProviderID</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getproviderid">GetProviderID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the ID of the account provider for this user.
@@ -78,7 +78,7 @@ Retrieves the ID of the account provider for this user.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getsid">GetSid</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getsid">GetSid</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user's SID.
@@ -87,7 +87,7 @@ Retrieves the user's SID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getstringvalue">GetStringValue</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getstringvalue">GetStringValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves string properties from the <b>ICredentialProviderUser</b> object based on the input value.
@@ -96,7 +96,7 @@ Retrieves string properties from the <b>ICredentialProviderUser</b> object based
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getvalue">GetValue</a>
+<a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified property value set for the user.
@@ -114,13 +114,12 @@ Third-parties do not implement this interface. An implementation is included wit
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidersetuserarray">ICredentialProviderSetUserArray</a>
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidersetuserarray">ICredentialProviderSetUserArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a>
+<a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>

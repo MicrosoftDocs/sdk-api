@@ -52,8 +52,8 @@ api_name:
 
 The 
 <b>CloseLog</b> function method closes the current log. For more information, see the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-closelog">CloseLog</a> method of the 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-object">Merge</a> object. 
+<a href="/windows/desktop/Msi/merge-closelog">CloseLog</a> method of the 
+<a href="/windows/desktop/Msi/merge-object">Merge</a> object. 
 
 <b>IMsmMerge2::CloseLog</b>    Mergemod.dll version 2.0 or later.
 			<div> </div><b>IMsmMerge::CloseLog</b>      All Mergemod.dll versions.
@@ -106,5 +106,4 @@ The function succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-
+<a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>

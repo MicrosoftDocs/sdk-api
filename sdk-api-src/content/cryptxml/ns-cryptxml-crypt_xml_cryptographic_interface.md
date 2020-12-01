@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>CRYPT_XML_CRYPTOGRAPHIC_INTERFACE</b> structure is passed to the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a> function pointer to expose the implemented CryptXML functions.
+The <b>CRYPT_XML_CRYPTOGRAPHIC_INTERFACE</b> structure is passed to the <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetinterface">CryptXmlDllGetInterface</a> function pointer to expose the implemented CryptXML functions.
 
 ## -struct-fields
 
@@ -64,33 +64,32 @@ The size, in bytes, of this structure.
 
 ### -field fpCryptXmlEncodeAlgorithm
 
-A pointer to the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllencodealgorithm">CryptXmlDllEncodeAlgorithm</a> function.
+A pointer to the implementation of the <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllencodealgorithm">CryptXmlDllEncodeAlgorithm</a> function.
 
 ### -field fpCryptXmlCreateDigest
 
-A pointer to the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllcreatedigest">CryptXmlDllCreateDigest</a> function.
+A pointer to the implementation of the <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllcreatedigest">CryptXmlDllCreateDigest</a> function.
 
 ### -field fpCryptXmlDigestData
 
-A pointer to the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldlldigestdata">CryptXmlDllDigestData</a> function.
+A pointer to the implementation of the <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldlldigestdata">CryptXmlDllDigestData</a> function.
 
 ### -field fpCryptXmlFinalizeDigest
 
-A pointer to the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllfinalizedigest">CryptXmlDllFinalizeDigest</a> function.
+A pointer to the implementation of the <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllfinalizedigest">CryptXmlDllFinalizeDigest</a> function.
 
 ### -field fpCryptXmlCloseDigest
 
-A pointer to the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllclosedigest">CryptXmlDllCloseDigest</a> function.
+A pointer to the implementation of the <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllclosedigest">CryptXmlDllCloseDigest</a> function.
 
 ### -field fpCryptXmlSignData
 
-A pointer to the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllsigndata">CryptXmlDllSignData</a> function.
+A pointer to the implementation of the <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllsigndata">CryptXmlDllSignData</a> function.
 
 ### -field fpCryptXmlVerifySignature
 
-A pointer to the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllverifysignature">CryptXmlDllVerifySignature</a> function.
+A pointer to the implementation of the <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllverifysignature">CryptXmlDllVerifySignature</a> function.
 
 ### -field fpCryptXmlGetAlgorithmInfo
 
-A pointer to the implementation of the <a href="https://docs.microsoft.com/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetalgorithminfo">CryptXmlDllGetAlgorithmInfo</a> function.
-
+A pointer to the implementation of the <a href="/windows/desktop/api/cryptxml/nc-cryptxml-cryptxmldllgetalgorithminfo">CryptXmlDllGetAlgorithmInfo</a> function.

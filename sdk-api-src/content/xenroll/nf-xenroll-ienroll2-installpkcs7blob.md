@@ -52,13 +52,13 @@ api_name:
 
 <p class="CCE_Message">[This method is no longer available for use as of Windows Server 2008 and Windows Vista.]
 
-The <b>InstallPKCS7Blob</b> method processes a certificate or chain of certificates, placing them into the appropriate <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate stores</a>. This method differs from the  <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nf-xenroll-ienroll-acceptpkcs7blob">acceptPKCS7Blob</a> method in that  <b>InstallPKCS7Blob</b> does not receive a request certificate. This method was first defined in the <a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
+The <b>InstallPKCS7Blob</b> method processes a certificate or chain of certificates, placing them into the appropriate <a href="/windows/desktop/SecGloss/c-gly">certificate stores</a>. This method differs from the  <a href="/windows/desktop/api/xenroll/nf-xenroll-ienroll-acceptpkcs7blob">acceptPKCS7Blob</a> method in that  <b>InstallPKCS7Blob</b> does not receive a request certificate. This method was first defined in the <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll2">IEnroll2</a> interface.
 
 ## -parameters
 
 ### -param pBlobPKCS7 [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains a certificate or chain of certificates.
+A pointer to a <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structure that contains a certificate or chain of certificates.
 
 ## -returns
 
@@ -66,5 +66,4 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>
-
+<a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>

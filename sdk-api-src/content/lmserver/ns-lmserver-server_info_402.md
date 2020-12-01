@@ -276,21 +276,20 @@ A pointer to a Unicode string containing flags that control operations on a serv
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netservergetinfo">NetServerGetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmserver/nf-lmserver-netserversetinfo">NetServerSetInfo</a>
+<a href="/windows/desktop/api/lmserver/nf-lmserver-netserversetinfo">NetServerSetInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
+<a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
+<a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-
+<a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>

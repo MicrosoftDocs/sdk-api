@@ -47,6 +47,7 @@ api_location:
  - windows.storage.dll
 api_name:
  - SHCreateItemInKnownFolder
+req.apiset: ext-ms-win-shell-shell32-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # SHCreateItemInKnownFolder function
@@ -62,19 +63,19 @@ Creates a Shell item object for a single file that exists inside a known folder.
 
 Type: <b>REFKNOWNFOLDERID</b>
 
-A reference to the <a href="https://docs.microsoft.com/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>, a <b>GUID</b> that identifies the folder that contains the item.
+A reference to the <a href="/windows/desktop/shell/knownfolderid">KNOWNFOLDERID</a>, a <b>GUID</b> that identifies the folder that contains the item.
 
 ### -param dwKFFlags
 
 Type: <b>DWORD</b>
 
-Flags that specify special options in the object retrieval. This value can be 0; otherwise, one or more of the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/ne-shlobj_core-known_folder_flag">KNOWN_FOLDER_FLAG</a> values.
+Flags that specify special options in the object retrieval. This value can be 0; otherwise, one or more of the <a href="/windows/desktop/api/shlobj_core/ne-shlobj_core-known_folder_flag">KNOWN_FOLDER_FLAG</a> values.
 
 ### -param pszItem [in, optional]
 
 Type: <b>PCWSTR</b>
 
-A pointer to a null-terminated buffer that contains the file name of the new item as a Unicode string. This parameter can also be <b>NULL</b>. In this case, an <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that represents the known folder itself is created.
+A pointer to a null-terminated buffer that contains the file name of the new item as a Unicode string. This parameter can also be <b>NULL</b>. In this case, an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> that represents the known folder itself is created.
 
 ### -param riid [in]
 
@@ -86,7 +87,7 @@ A reference to the IID of the interface that represents the item, retrieved thro
 
 Type: <b>void**</b>
 
-When this function returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2">IShellItem2</a>.
+When this function returns successfully, contains the interface pointer requested in <i>riid</i>. This is typically <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a> or <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem2">IShellItem2</a>.
 
 ## -returns
 
@@ -96,5 +97,4 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>

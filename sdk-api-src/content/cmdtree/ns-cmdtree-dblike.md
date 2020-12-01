@@ -52,7 +52,8 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href="https://www.microsoft.com/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
+> [!Note]  
+> Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use [Windows Search](/windows/desktop/search/-search-3x-wds-overview) for client side search and [Microsoft Search Server Express](https://www.microsoft.com/download/details.aspx?id=18914) for server side search.
 
 The <b>DBLIKE</b> structure represents specific information required by the DBOP_like operator.
 
@@ -68,5 +69,4 @@ system to use for "likeness". E.g. Reg. Ex.
 
 ## -remarks
 
-For more information about the DBOP_like operator, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/indexsrv/operators-for-scalars">Operators for Scalars</a>.
-
+For more information about the DBOP_like operator, see <a href="/previous-versions/windows/desktop/indexsrv/operators-for-scalars">Operators for Scalars</a>.

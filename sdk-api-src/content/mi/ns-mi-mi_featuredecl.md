@@ -52,8 +52,8 @@ api_name:
 
 ## -description
 
-Contains properties that are common to the <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_propertydecl">MI_PropertyDecl</a>
-<a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_parameterdecl">MI_ParameterDecl</a>and <a href="https://docs.microsoft.com/windows/desktop/api/mi/ns-mi-mi_methoddecl">MI_MethodDecl</a> structures.
+Contains properties that are common to the <a href="/windows/desktop/api/mi/ns-mi-mi_propertydecl">MI_PropertyDecl</a>
+<a href="/windows/desktop/api/mi/ns-mi-mi_parameterdecl">MI_ParameterDecl</a>and <a href="/windows/desktop/api/mi/ns-mi-mi_methoddecl">MI_MethodDecl</a> structures.
 
 ## -struct-fields
 
@@ -76,4 +76,3 @@ Describes metadata for classes, properties, methods, and parameters.
 ### -field numQualifiers
 
 Length of <b>qualifiers</b> array.
-

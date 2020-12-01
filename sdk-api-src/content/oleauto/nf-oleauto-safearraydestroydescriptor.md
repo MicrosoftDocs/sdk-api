@@ -104,5 +104,4 @@ The array is locked.
 
 ## -remarks
 
-This function is typically used to destroy the descriptor of a safe array that contains elements with data types other than variants. Destroying the array descriptor does not destroy the elements in the array. Before destroying the array descriptor, call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraydestroydata">SafeArrayDestroyData</a> to free the elements.
-
+This function is typically used to destroy the descriptor of a safe array that contains elements with data types other than variants. Destroying the array descriptor does not destroy the elements in the array. Before destroying the array descriptor, call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraydestroydata">SafeArrayDestroyData</a> to free the elements.

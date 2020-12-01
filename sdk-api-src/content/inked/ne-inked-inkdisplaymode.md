@@ -64,9 +64,8 @@ The selection appears as text.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inked/nf-inked-iinkedit-get_selinksdisplaymode">SelInksDisplayMode Property</a>
-
+<a href="/windows/desktop/api/inked/nf-inked-iinkedit-get_selinksdisplaymode">SelInksDisplayMode Property</a>

@@ -62,11 +62,13 @@ A directory service handle.
 
 ### -param pszFromSite
 
-TBD
+Pointer to a null-terminated string that contains the relative distinguished name of the site the costs are measured from.
+
+
 
 ### -param rgszToSites
 
-TBD
+Contains an array of null-terminated string pointers that contain the relative distinguished names of the sites the costs are measured to.
 
 ### -param cToSites [in]
 
@@ -78,19 +80,11 @@ Reserved.
 
 ### -param prgSiteInfo [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_site_cost_info">DS_SITE_COST_INFO</a> structures that receives the cost data. Each element in this array contains the cost data between the site identified by the <i>pwszFromSite</i> parameter and the site identified by the corresponding <i>rgwszToSites</i> element.
+Pointer to an array of <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_site_cost_info">DS_SITE_COST_INFO</a> structures that receives the cost data. Each element in this array contains the cost data between the site identified by the <i>pwszFromSite</i> parameter and the site identified by the corresponding <i>rgwszToSites</i> element.
 
-The caller must free this memory when it is no longer required by calling <a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesfree">DsQuerySitesFree</a>.
-
-
-#### - pwszFromSite [in]
-
-Pointer to a null-terminated string that contains the relative distinguished name of the site the costs are measured from.
+The caller must free this memory when it is no longer required by calling <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesfree">DsQuerySitesFree</a>.
 
 
-#### - rgwszToSites [in]
-
-Contains an array of null-terminated string pointers that contain the relative distinguished names of the sites the costs are measured to.
 
 ## -returns
 
@@ -110,13 +104,12 @@ The cost values obtained by this function are only used to compare and have no m
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_site_cost_info">DS_SITE_COST_INFO</a>
+<a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_site_cost_info">DS_SITE_COST_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
+<a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesfree">DsQuerySitesFree</a>
-
+<a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsquerysitesfree">DsQuerySitesFree</a>

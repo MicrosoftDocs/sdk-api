@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>Create</b> method initializes a stream handler that is not associated with any file. Called when an application uses the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-avistreamcreate">AVIStreamCreate</a> function.
+The <b>Create</b> method initializes a stream handler that is not associated with any file. Called when an application uses the <a href="/windows/desktop/api/vfw/nf-vfw-avistreamcreate">AVIStreamCreate</a> function.
 
 ## -parameters
 
@@ -86,9 +86,8 @@ HRESULT Create(LONG lParam1, LONG lParam2)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handler-interfaces">Custom File and Stream Handler Interfaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-
+<a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>

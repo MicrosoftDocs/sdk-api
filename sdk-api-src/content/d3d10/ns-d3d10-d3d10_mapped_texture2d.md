@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Provides access to <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource</a> data in a 2D texture.
+Provides access to <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">subresource</a> data in a 2D texture.
 
 ## -struct-fields
 
@@ -62,13 +62,13 @@ Pointer to the data.
 
 ### -field RowPitch
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
-The pitch, or width, or physical size (in bytes), of one row of an uncompressed texture. A block-compressed texture is encoded in 4x4 blocks (see <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">virtual size vs physical size</a>) ; therefore, <b>RowPitch</b> is the number of bytes in a block of 4x4 texels.
+The pitch, or width, or physical size (in bytes), of one row of an uncompressed texture. A block-compressed texture is encoded in 4x4 blocks (see <a href="/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression">virtual size vs physical size</a>) ; therefore, <b>RowPitch</b> is the number of bytes in a block of 4x4 texels.
 
 ## -remarks
 
-This structure is used in a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/nf-d3d10-id3d10texture2d-map">Map</a>.
+This structure is used in a call to <a href="/windows/desktop/api/d3d10/nf-d3d10-id3d10texture2d-map">Map</a>.
 
 To illustrate the row pitch, assume an uncompressed 2D texture with mipmap levels, as shown in the following illustration.
 
@@ -122,5 +122,4 @@ if( SUCCEEDED( pTexture->Map( D3D10CalcSubresource(2, 0, 3), D3D10_MAP_WRITE_DIS
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures">Resource Structures</a>
-
+<a href="/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures">Resource Structures</a>

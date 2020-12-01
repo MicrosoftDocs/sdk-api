@@ -54,7 +54,7 @@ Used by the application's custom text entry code to insert the text into both th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHandWrittenTextInsertion</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHandWrittenTextInsertion</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHandWrittenTextInsertion</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IHandWrittenTextInsertion</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IHandWrittenTextInsertion</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ihandwrittentextinsertion-insertinkrecognitionresult">InsertInkRecognitionResult</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ihandwrittentextinsertion-insertinkrecognitionresult">InsertInkRecognitionResult</a>
 </td>
 <td align="left" width="63%">
 Insert recognition results.
@@ -78,7 +78,7 @@ Insert recognition results.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/peninputpanel/nf-peninputpanel-ihandwrittentextinsertion-insertrecognitionresultsarray">InsertRecognitionResultsArray</a>
+<a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ihandwrittentextinsertion-insertrecognitionresultsarray">InsertRecognitionResultsArray</a>
 </td>
 <td align="left" width="63%">
 Insert recognition results array.
@@ -90,4 +90,3 @@ Insert recognition results array.
 ## -remarks
 
 This element is declared in Peninputpanel.h.
-

@@ -50,25 +50,25 @@ api_name:
 
 ## -description
 
-The <b>LsaSetForestTrustInformation</b> function sets the forest trust information for a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object.
+The <b>LsaSetForestTrustInformation</b> function sets the forest trust information for a specified <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> <a href="/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object.
 
 ## -parameters
 
 ### -param PolicyHandle [in]
 
-A handle to the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object for the system.
+A handle to the <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object for the system.
 
 ### -param TrustedDomainName [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object to which to set the forest trust information specified by the <i>ForestTrustInfo</i> parameter.
+Pointer to an <a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the name of the <a href="/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object to which to set the forest trust information specified by the <i>ForestTrustInfo</i> parameter.
 
 ### -param ForestTrustInfo [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_information">LSA_FOREST_TRUST_INFORMATION</a> structure that contains the forest trust information to set to the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object specified by the <i>TrustedDomainName</i> parameter.
+Pointer to an <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_information">LSA_FOREST_TRUST_INFORMATION</a> structure that contains the forest trust information to set to the <a href="/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object specified by the <i>TrustedDomainName</i> parameter.
 
 ### -param CheckOnly [in]
 
-Boolean value that specifies whether changes to the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object are persisted. If this value is <b>TRUE</b>, this function will check for collisions with the specified parameters but will not set the  forest trust information specified by the <i>ForestTrustInfo</i> parameter to the <b>TrustedDomain</b> object specified by the <i>TrustedDomainName</i> parameter. If this value is <b>FALSE</b>, the forest trust information will be set to the  <b>TrustedDomain</b> object.
+Boolean value that specifies whether changes to the <a href="/windows/desktop/SecMgmt/trusteddomain-object">TrustedDomain</a> object are persisted. If this value is <b>TRUE</b>, this function will check for collisions with the specified parameters but will not set the  forest trust information specified by the <i>ForestTrustInfo</i> parameter to the <b>TrustedDomain</b> object specified by the <i>TrustedDomainName</i> parameter. If this value is <b>FALSE</b>, the forest trust information will be set to the  <b>TrustedDomain</b> object.
 
 ### -param CollisionInfo [out]
 
@@ -78,7 +78,7 @@ Pointer to a pointer to an <a href="/windows/win32/api/ntsecapi/ns-ntsecapi-lsa_
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
-If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the <a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -112,4 +112,3 @@ The operation is legal only on the primary
 </td>
 </tr>
 </table>
-

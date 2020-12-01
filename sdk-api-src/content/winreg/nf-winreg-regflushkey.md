@@ -64,15 +64,15 @@ Writes all the attributes of the specified open registry key into the registry.
 ### -param hKey [in]
 
 A handle to an open registry key. The key must have been opened with the KEY_QUERY_VALUE access right. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>. 
+<a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>. 
 
 
 
 
 This handle is returned by the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function. It can also be one of the following 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<dl>
+<a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
+<a href="/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function. It can also be one of the following 
+<a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<dl>
 <dd><b>HKEY_CLASSES_ROOT</b></dd>
 <dd><b>HKEY_CURRENT_CONFIG</b></dd>
 <dd><b>HKEY_CURRENT_USER</b></dd>
@@ -86,7 +86,7 @@ This handle is returned by the
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
+<a href="/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
 ## -remarks
 
@@ -100,21 +100,20 @@ The
 The 
 <b>RegFlushKey</b> function writes out the data for other keys in the hive that have been modified since the last lazy flush or system start.
 
- After <b>RegFlushKey</b> returns, use <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a> to close the handle to the registry key.
+ After <b>RegFlushKey</b> returns, use <a href="/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a> to close the handle to the registry key.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regclosekey">RegCloseKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regdeletekeya">RegDeleteKey</a>
+<a href="/windows/desktop/api/winreg/nf-winreg-regdeletekeya">RegDeleteKey</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
+<a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
-
+<a href="/windows/desktop/SysInfo/registry">Registry Overview</a>

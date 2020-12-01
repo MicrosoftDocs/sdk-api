@@ -59,7 +59,7 @@ The
 ### -param pdwSchemaMask
 
 The types of backup operations that a given writer supports, expressed as a bit mask (or bitwise OR) of 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a> enumeration values.
+<a href="/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a> enumeration values.
 
 ## -returns
 
@@ -111,7 +111,7 @@ The caller is out of memory or other system resources.
 </td>
 <td width="60%">
 The XML document is not valid. Check the event log for details. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
+<a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
 
 </td>
 </tr>
@@ -122,17 +122,16 @@ The XML document is not valid. Check the event log for details. For more informa
 The default backup schema is VSS_BS_UNDEFINED: the writer supports only simple full backup and restoration of entire files (as defined by VSS_BT_FULL), there is no support for incremental or differential backups, and partial files are not supported.
 
 The writer calls 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema">IVssCreateWriterMetadata::SetBackupSchema</a> to indicate its supported schema in its Writer Metadata Document.
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema">IVssCreateWriterMetadata::SetBackupSchema</a> to indicate its supported schema in its Writer Metadata Document.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema">IVssCreateWriterMetadata::SetBackupSchema</a>
+<a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscreatewritermetadata-setbackupschema">IVssCreateWriterMetadata::SetBackupSchema</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
+<a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a>
-
+<a href="/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a>

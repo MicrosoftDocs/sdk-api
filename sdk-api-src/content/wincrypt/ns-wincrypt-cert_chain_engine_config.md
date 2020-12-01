@@ -72,7 +72,7 @@ Store handle. If used, restricts the stores searched to find CTLs.
 
 ### -field hRestrictedOther
 
-Store handle. If used, restricts the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">stores</a> searched for certificates and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">CRLs</a>.
+Store handle. If used, restricts the <a href="/windows/desktop/SecGloss/c-gly">stores</a> searched for certificates and <a href="/windows/desktop/SecGloss/c-gly">CRLs</a>.
 
 ### -field cAdditionalStore
 
@@ -210,7 +210,7 @@ Indicates that a non-self-signed intermediate CA certificate in the <b>hExclusiv
 
 By default, if this flag is not set, only self-signed certificates in the <b>hExclusiveRoot</b> store are treated as trust anchors.
 
-See also the <b>CERT_TRUST_IS_CA_TRUSTED</b> value in the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a> structure.
+See also the <b>CERT_TRUST_IS_CA_TRUSTED</b> value in the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a> structure.
 
 </td>
 </tr>
@@ -232,9 +232,8 @@ Exclusive trust mode allows applications to specify trust anchors and peer-trust
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a>
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatechainengine">CertCreateCertificateChainEngine</a>
-
+<a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatechainengine">CertCreateCertificateChainEngine</a>

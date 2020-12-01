@@ -52,12 +52,12 @@ api_name:
 
 The <b>ICertPropertyFriendlyName</b> interface enables you to specify and retrieve a string that contains the display name of a certificate.
 
-This property is initialized during the enrollment process and associated with the dummy certificate that is temporarily copied to the request store. If the CA denies the certificate request, the dummy certificate in the request store and all properties associated with it are deleted. If the CA issues the certificate and it is installed in the certificate store, this property is associated with the new certificate in the personal store and the dummy certificate is deleted.<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-certenroll_propertyid">CERTENROLL_PROPERTYID</a> value is XCN_CERT_FRIENDLY_NAME_PROP_ID.</div>
+This property is initialized during the enrollment process and associated with the dummy certificate that is temporarily copied to the request store. If the CA denies the certificate request, the dummy certificate in the request store and all properties associated with it are deleted. If the CA issues the certificate and it is installed in the certificate store, this property is associated with the new certificate in the personal store and the dummy certificate is deleted.<div class="alert"><b>Note</b>  The <a href="/windows/desktop/api/certenroll/ne-certenroll-certenroll_propertyid">CERTENROLL_PROPERTYID</a> value is XCN_CERT_FRIENDLY_NAME_PROP_ID.</div>
 <div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyFriendlyName</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyFriendlyName</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyFriendlyName</b> interface inherits from <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>. <b>ICertPropertyFriendlyName</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -73,7 +73,7 @@ The <b>ICertPropertyFriendlyName</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyfriendlyname-initialize">Initialize</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyfriendlyname-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from the certificate display name.
@@ -92,7 +92,7 @@ Initializes the object from the certificate display name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-icertpropertyfriendlyname-get_friendlyname">FriendlyName</a>
+<a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyfriendlyname-get_friendlyname">FriendlyName</a>
 
 
 </td>
@@ -105,13 +105,12 @@ Retrieves the display name of the certificate.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperties">ICertProperties</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperties">ICertProperties</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-icertpropertydescription">ICertPropertyDescription</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertydescription">ICertPropertyDescription</a>

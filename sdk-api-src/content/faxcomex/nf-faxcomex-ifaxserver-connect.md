@@ -68,19 +68,18 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-Before accessing most of the objects of the fax extended Component Object Model (COM), the application must call this method to initiate a connection with an active fax server. A fax server connection is not required for you to access a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a> object. The method fails if the client is not connected to an active fax server. 
+Before accessing most of the objects of the fax extended Component Object Model (COM), the application must call this method to initiate a connection with an active fax server. A fax server connection is not required for you to access a <a href="/previous-versions/windows/desktop/fax/-mfax-faxdocument">FaxDocument</a> object. The method fails if the client is not connected to an active fax server. 
 
-To connect to the local server, set the <i>bstrServerName</i> parameter to <b>NULL</b> or an empty string. For usage examples, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-connecting-to-the-fax-server">Connecting to the Fax Server</a>.
+To connect to the local server, set the <i>bstrServerName</i> parameter to <b>NULL</b> or an empty string. For usage examples, see <a href="/previous-versions/windows/desktop/fax/-mfax-connecting-to-the-fax-server">Connecting to the Fax Server</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>
+<a href="/previous-versions/windows/desktop/fax/-mfax-faxserver">FaxServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
+<a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-retrieving-server-properties">Visual Basic Example</a>
-
+<a href="/previous-versions/windows/desktop/fax/-mfax-retrieving-server-properties">Visual Basic Example</a>

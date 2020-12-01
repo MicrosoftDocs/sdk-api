@@ -101,5 +101,4 @@ The argument <i>psa</i> was not valid.
 
 ## -remarks
 
-Because <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdescriptor">SafeArrayAllocDescriptor</a> does not take a VARTYPE, it is not possible to use it to create the safe array descriptor for an array of records. The <b>SafeArrayAllocDescriptorEx</b> is used to allocate a safe array descriptor for an array of records of the given dimensions.
-
+Because <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayallocdescriptor">SafeArrayAllocDescriptor</a> does not take a VARTYPE, it is not possible to use it to create the safe array descriptor for an array of records. The <b>SafeArrayAllocDescriptorEx</b> is used to allocate a safe array descriptor for an array of records of the given dimensions.

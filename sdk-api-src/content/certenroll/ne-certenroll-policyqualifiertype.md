@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>PolicyQualifierType</b> enumeration type specifies the type of qualifier applied to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate policy</a>. This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ipolicyqualifier-initializeencode">InitializeEncode</a> method and the  <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ipolicyqualifier-get_type">Type</a> property on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a> interface.
+The <b>PolicyQualifierType</b> enumeration type specifies the type of qualifier applied to a <a href="/windows/desktop/SecGloss/c-gly">certificate policy</a>. This enumeration is used by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ipolicyqualifier-initializeencode">InitializeEncode</a> method and the  <a href="/windows/desktop/api/certenroll/nf-certenroll-ipolicyqualifier-get_type">Type</a> property on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a> interface.
 
 ## -enum-fields
 
@@ -60,7 +60,7 @@ The qualifier type is not specified.
 
 ### -field PolicyQualifierTypeUrl
 
-The qualifier is a URL that points to a Certification Practice Statement (CPS) that has been defined by the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authority</a> to outline the policies under which the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate</a> was issued and the purposes for which the certificate can be used.
+The qualifier is a URL that points to a Certification Practice Statement (CPS) that has been defined by the <a href="/windows/desktop/SecGloss/c-gly">certification authority</a> to outline the policies under which the <a href="/windows/desktop/SecGloss/c-gly">certificate</a> was issued and the purposes for which the certificate can be used.
 
 ### -field PolicyQualifierTypeUserNotice
 
@@ -70,17 +70,16 @@ The qualifier is a text statement to be displayed by the application to any user
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
+<a href="/windows/desktop/SecCertEnroll/certenroll-enumerations">CertEnroll Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifiers">IPolicyQualifiers</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifiers">IPolicyQualifiers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509extensioncertificatepolicies">IX509ExtensionCertificatePolicies</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensioncertificatepolicies">IX509ExtensionCertificatePolicies</a>

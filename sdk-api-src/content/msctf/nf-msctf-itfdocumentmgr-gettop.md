@@ -56,7 +56,7 @@ Obtains the context at the top of the context stack.
 
 ### -param ppic [out]
 
-Address of an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> pointer that receives the context.
+Address of an <a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a> pointer that receives the context.
 
 ## -returns
 
@@ -104,20 +104,19 @@ A memory allocation error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-getbase">ITfDocumentMgr::GetBase
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-getbase">ITfDocumentMgr::GetBase
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-push">ITfDocumentMgr::Push
+<a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-push">ITfDocumentMgr::Push
       </a>
-

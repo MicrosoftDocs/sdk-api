@@ -56,8 +56,8 @@ The <b>LsaOpenTrustedDomainByName</b> function opens the LSA policy handle of a 
 
 ### -param PolicyHandle [in]
 
-A handle to a <a href="https://docs.microsoft.com/windows/desktop/SecMgmt/policy-object">Policy</a> object. This is the policy handle of the local machine. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
+A handle to a <a href="/windows/desktop/SecMgmt/policy-object">Policy</a> object. This is the policy handle of the local machine. For more information, see 
+<a href="/windows/desktop/SecMgmt/opening-a-policy-object-handle">Opening a Policy Object Handle</a>.
 
 ### -param TrustedDomainName [in]
 
@@ -66,7 +66,7 @@ Name of the trusted domain. This name can be either the flat name, or the Domain
 ### -param DesiredAccess [in]
 
 An 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> structure that specifies the access permissions requested on the remote trusted domain object.
+<a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> structure that specifies the access permissions requested on the remote trusted domain object.
 
 ### -param TrustedDomainHandle [out]
 
@@ -76,14 +76,14 @@ Pointer that receives the address of the LSA policy handle of the remote trusted
 
 
 When your application no longer needs this handle, it should call 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaclose">LsaClose</a> to delete the handle.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaclose">LsaClose</a> to delete the handle.
 
 ## -returns
 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code, which can be one of the following values or one of the 
-<a href="https://docs.microsoft.com/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
+<a href="/windows/desktop/SecMgmt/management-return-values">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>
@@ -116,9 +116,8 @@ There is no Trusted Domain object in the target system's LSA Database having the
  
 
 You can use the 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsantstatustowinerror">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaclose">LsaClose</a>
-
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaclose">LsaClose</a>

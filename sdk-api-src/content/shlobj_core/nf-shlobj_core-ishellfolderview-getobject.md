@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>GetObject</b> is no longer available for use as of Windows Vista. Instead, use <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-item">IFolderView::Item</a>.]
+<p class="CCE_Message">[<b>GetObject</b> is no longer available for use as of Windows Vista. Instead, use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifolderview-item">IFolderView::Item</a>.]
 
 Gets an item from the view.
 
@@ -73,4 +73,3 @@ The index of the item in the view to get.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

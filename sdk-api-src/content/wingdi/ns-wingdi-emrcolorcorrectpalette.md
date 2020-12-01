@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>EMRCOLORCORRECTPALETTE</b> structure contains members for the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-colorcorrectpalette">ColorCorrectPalette</a> enhanced metafile record.
+The <b>EMRCOLORCORRECTPALETTE</b> structure contains members for the <a href="/windows/desktop/api/wingdi/nf-wingdi-colorcorrectpalette">ColorCorrectPalette</a> enhanced metafile record.
 
 ## -struct-fields
 
@@ -80,13 +80,12 @@ Reserved.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-colorcorrectpalette">ColorCorrectPalette</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-colorcorrectpalette">ColorCorrectPalette</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
+<a href="/windows/desktop/gdi/metafile-structures">Metafile Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-
+<a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>

@@ -61,11 +61,11 @@ Returns the current apartment type and type qualifier.
 
 ### -param pAptType [out]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-apttype">APTTYPE</a> enumeration value that specifies the type of the current apartment.
+<a href="/windows/desktop/api/objidl/ne-objidl-apttype">APTTYPE</a> enumeration value that specifies the type of the current apartment.
 
 ### -param pAptQualifier [out]
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-apttypequalifier">APTTYPEQUALIFIER</a> enumeration value that specifies the type qualifier of the current apartment.
+<a href="/windows/desktop/api/objidl/ne-objidl-apttypequalifier">APTTYPEQUALIFIER</a> enumeration value that specifies the type qualifier of the current apartment.
 
 ## -returns
 
@@ -106,7 +106,7 @@ An invalid parameter value was supplied to the function. Specifically, one or bo
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> was not called on this thread prior to calling <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetapartmenttype">CoGetApartmentType</a>.
+<a href="/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> or <a href="/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex">CoInitializeEx</a> was not called on this thread prior to calling <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetapartmenttype">CoGetApartmentType</a>.
 
 </td>
 </tr>
@@ -115,10 +115,10 @@ An invalid parameter value was supplied to the function. Specifically, one or bo
 ## -remarks
 
 On Windows platforms prior to Windows 7, the following actions must be taken on a thread to query the apartment type:<ul>
-<li>Call <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cogetcontexttoken">CoGetContextToken</a> to obtain the current context token.</li>
-<li>Cast the context token to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>* pointer.</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on that pointer to obtain the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a> interface.</li>
-<li>Call the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentapartmenttype">GetCurrentApartmentType</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a> interface to obtain the current apartment type.</li>
+<li>Call <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cogetcontexttoken">CoGetContextToken</a> to obtain the current context token.</li>
+<li>Cast the context token to an <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>* pointer.</li>
+<li>Call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">QueryInterface</a> method on that pointer to obtain the <a href="/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a> interface.</li>
+<li>Call the <a href="/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentapartmenttype">GetCurrentApartmentType</a> method of the <a href="/windows/desktop/api/objidl/nn-objidl-icomthreadinginfo">IComThreadingInfo</a> interface to obtain the current apartment type.</li>
 </ul>
 
 
@@ -126,9 +126,8 @@ In multithreaded scenarios, there is a race condition which can potentially caus
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-apttype">APTTYPE</a>
+<a href="/windows/desktop/api/objidl/ne-objidl-apttype">APTTYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-apttypequalifier">APTTYPEQUALIFIER</a>
-
+<a href="/windows/desktop/api/objidl/ne-objidl-apttypequalifier">APTTYPEQUALIFIER</a>

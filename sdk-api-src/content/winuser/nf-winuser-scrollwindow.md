@@ -43,6 +43,7 @@ api_location:
  - User32.dll
 api_name:
  - ScrollWindow
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ScrollWindow function
@@ -51,13 +52,13 @@ api_name:
 ## -description
 
 The <b>ScrollWindow</b> function scrolls the contents of the specified window's client area.  
-<div class="alert"><b>Note</b>  The <b>ScrollWindow</b> function is provided for backward compatibility. New applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-scrollwindowex">ScrollWindowEx</a> function.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>ScrollWindow</b> function is provided for backward compatibility. New applications should use the <a href="/windows/desktop/api/winuser/nf-winuser-scrollwindowex">ScrollWindowEx</a> function.</div><div> </div>
 
 ## -parameters
 
 ### -param hWnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 Handle to the window where the client area is to be scrolled.
 
@@ -65,13 +66,13 @@ Handle to the window where the client area is to be scrolled.
 
 Type: <b>int</b>
 
-Specifies the amount, in device units, of horizontal scrolling. If the window being scrolled has the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-class-styles">CS_OWNDC</a> or <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-class-styles">CS_CLASSDC</a> style, then this parameter uses logical units rather than device units. This parameter must be a negative value to scroll the content of the window to the left.
+Specifies the amount, in device units, of horizontal scrolling. If the window being scrolled has the <a href="/windows/desktop/winmsg/window-class-styles">CS_OWNDC</a> or <a href="/windows/desktop/winmsg/window-class-styles">CS_CLASSDC</a> style, then this parameter uses logical units rather than device units. This parameter must be a negative value to scroll the content of the window to the left.
 
 ### -param YAmount [in]
 
 Type: <b>int</b>
 
-Specifies the amount, in device units, of vertical scrolling. If the window being scrolled has the <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-class-styles">CS_OWNDC</a> or <a href="https://docs.microsoft.com/windows/desktop/winmsg/window-class-styles">CS_CLASSDC</a> style, then this parameter uses logical units rather than device units. This parameter must be a negative value to scroll the content of the window up.
+Specifies the amount, in device units, of vertical scrolling. If the window being scrolled has the <a href="/windows/desktop/winmsg/window-class-styles">CS_OWNDC</a> or <a href="/windows/desktop/winmsg/window-class-styles">CS_CLASSDC</a> style, then this parameter uses logical units rather than device units. This parameter must be a negative value to scroll the content of the window up.
 
 ### -param lpRect [in]
 
@@ -88,17 +89,17 @@ Pointer to the
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 If the caret is in the window being scrolled, <b>ScrollWindow</b> automatically hides the caret to prevent it from being erased and then restores the caret after the scrolling is finished. The caret position is adjusted accordingly. 
 
-The area uncovered by <b>ScrollWindow</b> is not repainted, but it is combined into the window's update region. The application eventually receives a <a href="https://docs.microsoft.com/windows/desktop/gdi/wm-paint">WM_PAINT</a> message notifying it that the region must be repainted. To repaint the uncovered area at the same time the scrolling is in action, call the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a> function immediately after calling <b>ScrollWindow</b>. 
+The area uncovered by <b>ScrollWindow</b> is not repainted, but it is combined into the window's update region. The application eventually receives a <a href="/windows/desktop/gdi/wm-paint">WM_PAINT</a> message notifying it that the region must be repainted. To repaint the uncovered area at the same time the scrolling is in action, call the <a href="/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a> function immediately after calling <b>ScrollWindow</b>. 
 
 If the 
 				<i>lpRect</i> parameter is <b>NULL</b>, the positions of any child windows in the window are offset by the amount specified by the 
@@ -109,12 +110,12 @@ If the
 If 
 				<i>lpRect</i> is not <b>NULL</b>, the positions of child windows are not changed and invalid areas in the window are not offset. To prevent updating problems when 
 				<i>lpRect</i> is not <b>NULL</b>, call 
-				<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a> to repaint the window before calling <b>ScrollWindow</b>. 
+				<a href="/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a> to repaint the window before calling <b>ScrollWindow</b>. 
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls/using-scroll-bars">Scrolling Text with the WM_PAINT Message</a>.
+For an example, see <a href="/windows/desktop/Controls/using-scroll-bars">Scrolling Text with the WM_PAINT Message</a>.
 
 <div class="code"></div>
 
@@ -132,13 +133,12 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/Controls
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-scrolldc">ScrollDC</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-scrolldc">ScrollDC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-scrollwindowex">ScrollWindowEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-scrollwindowex">ScrollWindowEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-updatewindow">UpdateWindow</a>

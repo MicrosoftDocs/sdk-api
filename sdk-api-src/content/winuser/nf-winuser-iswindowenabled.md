@@ -54,6 +54,7 @@ api_location:
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
  - IsWindowEnabled
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # IsWindowEnabled function
@@ -89,17 +90,16 @@ A child window receives input only if it is both enabled and visible.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-enablewindow">EnableWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-enablewindow">EnableWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-iswindowvisible">IsWindowVisible</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-iswindowvisible">IsWindowVisible</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
 <b>Reference</b>
-

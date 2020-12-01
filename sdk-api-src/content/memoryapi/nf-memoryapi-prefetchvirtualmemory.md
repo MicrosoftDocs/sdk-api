@@ -64,7 +64,7 @@ Provides an efficient mechanism to bring into memory potentially discontiguous v
 ### -param hProcess [in]
 
 Handle to the process whose virtual address ranges are to be prefetched. Use the 
-      <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> function to use the current 
+      <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> function to use the current 
       process.
 
 ### -param NumberOfEntries [in]
@@ -75,7 +75,7 @@ Number of entries in the array pointed to by the <i>VirtualAddresses</i>
 ### -param VirtualAddresses [in]
 
 Pointer to an array of 
-      <a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/ns-memoryapi-win32_memory_range_entry">WIN32_MEMORY_RANGE_ENTRY</a> structures which 
+      <a href="/windows/desktop/api/memoryapi/ns-memoryapi-win32_memory_range_entry">WIN32_MEMORY_RANGE_ENTRY</a> structures which 
       each specify a virtual address range to be prefetched. The virtual address ranges may cover any part of the 
       process address space accessible by the target process.
 
@@ -88,7 +88,7 @@ Reserved. Must be 0.
 If the function succeeds, the return value is a nonzero value.
 
 If the function fails, the return value is 0 (zero). To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -120,13 +120,12 @@ Since the <b>PrefetchVirtualMemory</b> function can
 
 To compile an application that calls this function, define <b>_WIN32_WINNT</b> as 
     <b>_WIN32_WINNT_WIN8</b> or higher. For more information, see 
-    <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+    <a href="/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
+<a href="/windows/desktop/Memory/memory-management-functions">Memory Management Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/memoryapi/ns-memoryapi-win32_memory_range_entry">WIN32_MEMORY_RANGE_ENTRY</a>
-
+<a href="/windows/desktop/api/memoryapi/ns-memoryapi-win32_memory_range_entry">WIN32_MEMORY_RANGE_ENTRY</a>

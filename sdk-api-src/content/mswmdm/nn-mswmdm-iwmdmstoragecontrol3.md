@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <b>IWMDMStorageControl3</b> interface extends <b>IWMDMStorageControl2</b> by providing an <b>Insert</b> method that accepts an <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData</a> interface pointer.
+The <b>IWMDMStorageControl3</b> interface extends <b>IWMDMStorageControl2</b> by providing an <b>Insert</b> method that accepts an <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData</a> interface pointer.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorageControl3</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol2">IWMDMStorageControl2</a>. <b>IWMDMStorageControl3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMDMStorageControl3</b> interface inherits from <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol2">IWMDMStorageControl2</a>. <b>IWMDMStorageControl3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,10 +69,10 @@ The <b>IWMDMStorageControl3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3">Insert3</a>
+<a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3">Insert3</a>
 </td>
 <td align="left" width="63%">
-Puts content into/next to the storage. Extends <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol2-insert2">IWMDMStorageControl2::Insert2</a> method by allowing the application to pass in an <b>IWMDMMetaData</b> interface pointer.
+Puts content into/next to the storage. Extends <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol2-insert2">IWMDMStorageControl2::Insert2</a> method by allowing the application to pass in an <b>IWMDMMetaData</b> interface pointer.
 
 </td>
 </tr>
@@ -80,13 +80,12 @@ Puts content into/next to the storage. Extends <a href="https://docs.microsoft.c
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol2">IWMDMStorageControl2 Interface</a>
+<a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol2">IWMDMStorageControl2 Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>
-
+<a href="/windows/desktop/WMDM/interfaces-for-applications">Interfaces for Applications</a>

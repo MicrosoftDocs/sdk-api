@@ -64,7 +64,7 @@ Contains a <b>LANGID</b> that specifies the identifier of the language currently
 
 ### -param rguidProfile [in]
 
-Contains a GUID that specifies the language profile identifier that the text service is under. This is the value specified in <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile</a> when the profile was added.
+Contains a GUID that specifies the language profile identifier that the text service is under. This is the value specified in <a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile</a> when the profile was added.
 
 ### -param bstrRegistered [in]
 
@@ -105,10 +105,9 @@ The text service does not implement this method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctffunc/nn-ctffunc-itffnconfigureregisterword">ITfFnConfigureRegisterWord</a>
+<a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnconfigureregisterword">ITfFnConfigureRegisterWord</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile
+<a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile
       </a>
-

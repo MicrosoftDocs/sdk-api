@@ -54,7 +54,7 @@ Exposes a method that can be used by an accessibility application.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibleObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccessibleObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAccessibleObject</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAccessibleObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,13 +69,12 @@ The <b>IAccessibleObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibleobject-setaccessiblename">SetAccessibleName</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-iaccessibleobject-setaccessiblename">SetAccessibleName</a>
 </td>
 <td align="left" width="63%">
-Sets text that is retrieved by <a href="https://docs.microsoft.com/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname">IAccessible::get_accName</a> which accessibility tools use to obtain the Name Property of an object.
+Sets text that is retrieved by <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessible-get_accname">IAccessible::get_accName</a> which accessibility tools use to obtain the Name Property of an object.
 
 
 </td>
 </tr>
 </table>
-

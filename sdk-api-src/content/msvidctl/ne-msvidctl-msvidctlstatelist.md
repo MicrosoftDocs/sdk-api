@@ -77,13 +77,12 @@ Indicates that the Video Control is playing.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/segment/nf-segment-imsviddeviceevent-statechange">IMSVidDeviceEvent::StateChange</a>
+<a href="/windows/desktop/api/segment/nf-segment-imsviddeviceevent-statechange">IMSVidDeviceEvent::StateChange</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mstv/video-control-enumerations">Video Control Enumerations</a>
+<a href="/previous-versions/windows/desktop/mstv/video-control-enumerations">Video Control Enumerations</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dd695367(v=vs.85)">_IMSVidCtlEvents::StateChange</a>
-
+<a href="/previous-versions/windows/desktop/legacy/dd695367(v=vs.85)">_IMSVidCtlEvents::StateChange</a>

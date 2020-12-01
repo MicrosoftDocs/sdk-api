@@ -73,5 +73,4 @@ When <b>CF_HYDRATION_POLICY_FULL</b> is selected, the platform will allow a plac
 
 ### -field CF_HYDRATION_POLICY_ALWAYS_FULL
 
-When <b>CF_HYDRATION_POLICY_ALWAYS_FULL</b> is selected, the platform will block any placeholder operation that could result in a not fully hydrated placeholder, which includes <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfcreateplaceholders">CfCreatePlaceholders</a>, <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfupdateplaceholder">CfUpdatePlaceholder</a> with the dehydrate option, and <a href="https://docs.microsoft.com/windows/desktop/api/cfapi/nf-cfapi-cfconverttoplaceholder">CfConvertToPlaceholder</a> with the dehydrate option.
-
+When <b>CF_HYDRATION_POLICY_ALWAYS_FULL</b> is selected, the platform will block any placeholder operation that could result in a not fully hydrated placeholder, which includes <a href="/windows/desktop/api/cfapi/nf-cfapi-cfcreateplaceholders">CfCreatePlaceholders</a>, <a href="/windows/desktop/api/cfapi/nf-cfapi-cfupdateplaceholder">CfUpdatePlaceholder</a> with the dehydrate option, and <a href="/windows/desktop/api/cfapi/nf-cfapi-cfconverttoplaceholder">CfConvertToPlaceholder</a> with the dehydrate option.

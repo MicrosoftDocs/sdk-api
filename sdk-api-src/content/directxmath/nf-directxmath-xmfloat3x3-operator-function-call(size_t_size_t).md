@@ -53,7 +53,7 @@ Returns a <code>reference</code> to a matrix element of an instance <code>XMFLOA
 	specified by row and column arguments.
     
 
-This operator returns a <code>reference</code> to a matrix element of an instance <a href="https://msdn.microsoft.com/6067d4b2-8609-4172-8228-5e3d43638015">XMFLOAT3X3 </a> as specified by row and column arguments.
+This operator returns a <code>reference</code> to a matrix element of an instance <a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3 </a> as specified by row and column arguments.
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>
 
@@ -103,7 +103,7 @@ will set the value of the <i>mat.m[1,2]</i> (or equivalently mat._23) to 42.0.
 
 
 
-<a href="https://msdn.microsoft.com/6067d4b2-8609-4172-8228-5e3d43638015">XMFLOAT3X3</a>
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat3x3">XMFLOAT3X3</a>
 
 
 

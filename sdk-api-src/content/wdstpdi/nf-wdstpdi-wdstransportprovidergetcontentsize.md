@@ -56,7 +56,7 @@ Retrieves the size of an open content stream.
 
 ### -param hContent [in]
 
-Handle to an open content stream, opened with the <a href="https://docs.microsoft.com/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovideropencontent">WdsTransportProviderOpenContent</a> callback.
+Handle to an open content stream, opened with the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprovideropencontent">WdsTransportProviderOpenContent</a> callback.
 
 ### -param pContentSize [out]
 
@@ -69,4 +69,3 @@ If the function succeeds, the return is <b>S_OK</b>.
 ## -remarks
 
 This callback is required.
-

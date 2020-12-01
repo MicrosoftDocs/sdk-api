@@ -57,7 +57,7 @@ Specifies the Direct3D device manager for the video media sink to use.
 
 ### -param pManager [in]
 
-Pointer to the <b>IUnknown</b> interface of the Direct3D device manager. The media sink queries this pointer for the <a href="https://docs.microsoft.com/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a> interface.
+Pointer to the <b>IUnknown</b> interface of the Direct3D device manager. The media sink queries this pointer for the <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9">IDirect3DDeviceManager9</a> interface.
 
 ## -returns
 
@@ -87,5 +87,4 @@ The media sink uses the Direct3D device manager to obtain a pointer to the Direc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a>
-
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocator">IMFVideoSampleAllocator</a>

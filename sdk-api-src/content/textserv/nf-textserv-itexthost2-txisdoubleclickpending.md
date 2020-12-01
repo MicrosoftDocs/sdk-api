@@ -50,17 +50,16 @@ api_name:
 
 ## -description
 
-Discovers whether the message queue contains a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondblclk">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
+Discovers whether the message queue contains a <a href="/windows/desktop/inputdev/wm-lbuttondblclk">WM_LBUTTONDBLCLK</a>  message that is pending for the text host window.
 
 ## -parameters
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
-Returns <b>TRUE</b> if a <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondblclk">WM_LBUTTONDBLCLK</a> message is pending, or <b>FALSE</b> if not.
+Returns <b>TRUE</b> if a <a href="/windows/desktop/inputdev/wm-lbuttondblclk">WM_LBUTTONDBLCLK</a> message is pending, or <b>FALSE</b> if not.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
-
+<a href="/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>

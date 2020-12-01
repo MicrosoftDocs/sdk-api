@@ -48,6 +48,7 @@ api_name:
  - MessageBox
  - MessageBoxA
  - MessageBoxW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 ---
 
 # MessageBoxA function
@@ -122,7 +123,7 @@ The message box contains three push buttons: <b>Abort</b>, <b>Retry</b>, and <b>
 </dl>
 </td>
 <td width="60%">
- Adds a <b>Help</b> button to the message box. When the user clicks the <b>Help</b> button or presses F1, the system sends a <a href="https://docs.microsoft.com/windows/desktop/shell/wm-help">WM_HELP</a> message to the owner.
+ Adds a <b>Help</b> button to the message box. When the user clicks the <b>Help</b> button or presses F1, the system sends a <a href="/windows/desktop/shell/wm-help">WM_HELP</a> message to the owner.
 
 </td>
 </tr>
@@ -413,7 +414,7 @@ To specify other options, use one or more of the following values.
 </dl>
 </td>
 <td width="60%">
- Same as desktop of the interactive window station. For more information, see <a href="https://docs.microsoft.com/windows/desktop/winstation/window-stations">Window Stations</a>.
+ Same as desktop of the interactive window station. For more information, see <a href="/windows/desktop/winstation/window-stations">Window Stations</a>.
 					
                     		
 					
@@ -452,7 +453,7 @@ Displays message and caption text using right-to-left reading order on Hebrew an
 </dl>
 </td>
 <td width="60%">
-The message box becomes the foreground window. Internally, the system calls the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> function for the message box.
+The message box becomes the foreground window. Internally, the system calls the <a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a> function for the message box.
 
 </td>
 </tr>
@@ -480,7 +481,7 @@ The caller is a service notifying the user of an event. The function displays a 
 
 If this flag is set, the <i>hWnd</i> parameter must be <b>NULL</b>. This is so that the message box can appear on a desktop other than the desktop corresponding to the <i>hWnd</i>.
 
-For information on security considerations in regard to using this flag, see <a href="https://docs.microsoft.com/windows/desktop/Services/interactive-services">Interactive Services</a>. In particular, be aware that this flag can produce interactive content on a locked desktop and should therefore be used for only a very limited set of scenarios, such as resource exhaustion.
+For information on security considerations in regard to using this flag, see <a href="/windows/desktop/Services/interactive-services">Interactive Services</a>. In particular, be aware that this flag can produce interactive content on a locked desktop and should therefore be used for only a very limited set of scenarios, such as resource exhaustion.
 
 </td>
 </tr>
@@ -492,7 +493,7 @@ Type: <b>int</b>
 
 If a message box has a <b>Cancel</b> button, the function returns the <b>IDCANCEL</b> value if either the ESC key is pressed or the <b>Cancel</b> button is selected. If the message box has no <b>Cancel</b> button, pressing ESC will no effect - unless an MB_OK button is present. If an MB_OK button is displayed and the user presses ESC, the return value will be <b>IDOK</b>.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 If the function succeeds, the return value is one of the following menu-item values.
 
@@ -683,7 +684,7 @@ The following image shows the output from the preceding code example:
 
 <img alt="Message box" src="./images/messagebox_02.png"/>
 
-For another message box example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/using-dialog-boxes">Displaying a Message Box</a>.
+For another message box example, see <a href="/windows/desktop/dlgbox/using-dialog-boxes">Displaying a Message Box</a>.
 
 
 
@@ -698,23 +699,23 @@ For another message box example, see <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
+<a href="/windows/desktop/dlgbox/dialog-boxes">Dialog Boxes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-flashwindow">FlashWindow</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-flashwindow">FlashWindow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messagebeep">MessageBeep</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-messagebeep">MessageBeep</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messageboxexa">MessageBoxEx</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-messageboxexa">MessageBoxEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-messageboxindirecta">MessageBoxIndirect</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-messageboxindirecta">MessageBoxIndirect</a>
 
 
 
@@ -726,5 +727,4 @@ For another message box example, see <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>
-
+<a href="/windows/desktop/api/winuser/nf-winuser-setforegroundwindow">SetForegroundWindow</a>

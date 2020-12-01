@@ -56,7 +56,7 @@ Gets the path for the item.
 
 ### -param Path [out]
 
-The path to the current setting. This path should be handled as opaque, and should be used only for invocations of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-createsettingbypath">CreateSettingByPath</a>, <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getsettingbypath">GetSettingByPath</a>, or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-removesettingbypath">RemoveSettingByPath</a>.
+The path to the current setting. This path should be handled as opaque, and should be used only for invocations of <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-createsettingbypath">CreateSettingByPath</a>, <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-getsettingbypath">GetSettingByPath</a>, or <a href="/previous-versions/windows/desktop/api/wcmconfig/nf-wcmconfig-isettingsitem-removesettingbypath">RemoveSettingByPath</a>.
 
 ## -returns
 
@@ -64,5 +64,4 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. It may retu
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
-
+<a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>

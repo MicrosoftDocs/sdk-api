@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Unregisters an event handler for the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/connectionstatuschanged">ConnectionStatusChanged</a> event.
+Unregisters an event handler for the <a href="/windows/desktop/mediastreaming/connectionstatuschanged">ConnectionStatusChanged</a> event.
 
 ## -parameters
 
 ### -param token [in]
 
-A reference to a token obtained from the <a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice-add-connectionstatuschanged">add_ConnectionStatusChanged</a> method when the event handler was registered.
+A reference to a token obtained from the <a href="/windows/desktop/mediastreaming/ibasicdevice-add-connectionstatuschanged">add_ConnectionStatusChanged</a> method when the event handler was registered.
 
 ## -returns
 
@@ -82,5 +82,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>
-
+<a href="/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>

@@ -51,7 +51,7 @@ api_name:
 
 Assigns the vector component data from one instance of <code>XMFLOAT2</code> to the current instance of <code>XMFLOAT2</code>.
 
-This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a> to the current instance of <code>XMFLOAT2</code>.
+This operator assigns the vector component data from one instance of <a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat2">XMFLOAT2</a> to the current instance of <code>XMFLOAT2</code>.
 
 <div class="alert"><b>Note</b>  This operator is only available under C++.</div>
 
@@ -67,7 +67,7 @@ The current instance of <code>XMFLOAT2</code> whose vector component data has be
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/7F53D7CC-CE2C-4F1F-AA24-C11DD537F8EB">XMFLOAT2</a>
+<a href="/windows/win32/api/directxmath/ns-directxmath-xmfloat2">XMFLOAT2</a>
 
 <a href="https://msdn.microsoft.com/91b6d6e3-7953-461c-8b64-c50f394caa63">XMFLOAT2 Operators</a>
 

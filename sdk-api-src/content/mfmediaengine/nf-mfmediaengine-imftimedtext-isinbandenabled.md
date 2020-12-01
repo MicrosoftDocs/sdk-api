@@ -62,5 +62,4 @@ Returns whether inband mode is enabled. If <b>TRUE</b>, inband mode is enabled. 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtext">IMFTimedText</a>
-
+<a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtext">IMFTimedText</a>

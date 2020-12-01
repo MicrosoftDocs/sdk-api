@@ -73,11 +73,11 @@ The size of the certificate data in bytes.
 
 ### -param SerialNumber [in]
 
-128-bit device identifier, stored in a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_val16">DRM_VAL16</a> structure.
+128-bit device identifier, stored in a <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_val16">DRM_VAL16</a> structure.
 
 ### -param ppDevice [out]
 
-Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice</a> interface of the newly registered device.
+Address of a variable that receives a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice</a> interface of the newly registered device.
 
 ## -returns
 
@@ -129,7 +129,7 @@ The method could not allocate memory for an internal variable.
 
 ## -remarks
 
-Registration is triggered by a registration request message sent to your application by the device. When you receive this message, you must first extract the certificate and device identifier from it by calling <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmmessageparser-parseregistrationreqmsg">IWMDRMMessageParser::ParseRegistrationReqMsg</a>. After parsing the message, pass the certificate and device identifier to this method.
+Registration is triggered by a registration request message sent to your application by the device. When you receive this message, you must first extract the certificate and device identifier from it by calling <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmmessageparser-parseregistrationreqmsg">IWMDRMMessageParser::ParseRegistrationReqMsg</a>. After parsing the message, pass the certificate and device identifier to this method.
 
 After you register a device, you must perform proximity detection before sending any protected media data to it.
 
@@ -137,9 +137,8 @@ The DRM_DEVICE_REGISTER_TYPE_STORAGE register type is defined, but is not used i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration">IWMDeviceRegistration Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdeviceregistration">IWMDeviceRegistration Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection">IWMProximityDetection Interface</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection">IWMProximityDetection Interface</a>

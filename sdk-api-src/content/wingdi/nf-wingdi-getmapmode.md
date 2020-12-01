@@ -79,7 +79,7 @@ The following are the various mapping modes.
 </tr>
 <tr>
 <td>MM_ANISOTROPIC</td>
-<td>Logical units are mapped to arbitrary units with arbitrarily scaled axes. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwindowextex">SetWindowExtEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a> functions to specify the units, orientation, and scaling required.</td>
+<td>Logical units are mapped to arbitrary units with arbitrarily scaled axes. Use the <a href="/windows/desktop/api/wingdi/nf-wingdi-setwindowextex">SetWindowExtEx</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a> functions to specify the units, orientation, and scaling required.</td>
 </tr>
 <tr>
 <td>MM_HIENGLISH</td>
@@ -91,7 +91,7 @@ The following are the various mapping modes.
 </tr>
 <tr>
 <td>MM_ISOTROPIC</td>
-<td>Logical units are mapped to arbitrary units with equally scaled axes; that is, one unit along the x-axis is equal to one unit along the y-axis. Use the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwindowextex">SetWindowExtEx</a> and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a> functions to specify the units and the orientation of the axes. Graphics device interface makes adjustments as necessary to ensure the x and y units remain the same size. (When the windows extent is set, the viewport will be adjusted to keep the units isotropic).</td>
+<td>Logical units are mapped to arbitrary units with equally scaled axes; that is, one unit along the x-axis is equal to one unit along the y-axis. Use the <a href="/windows/desktop/api/wingdi/nf-wingdi-setwindowextex">SetWindowExtEx</a> and <a href="/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a> functions to specify the units and the orientation of the axes. Graphics device interface makes adjustments as necessary to ensure the x and y units remain the same size. (When the windows extent is set, the viewport will be adjusted to keep the units isotropic).</td>
 </tr>
 <tr>
 <td>MM_LOENGLISH</td>
@@ -113,21 +113,20 @@ The following are the various mapping modes.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
+<a href="/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
+<a href="/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmapmode">SetMapMode</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setmapmode">SetMapMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwindowextex">SetWindowExtEx</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setwindowextex">SetWindowExtEx</a>

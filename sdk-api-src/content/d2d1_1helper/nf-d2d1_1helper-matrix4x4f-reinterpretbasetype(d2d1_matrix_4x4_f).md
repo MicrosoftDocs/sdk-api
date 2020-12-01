@@ -50,23 +50,22 @@ api_name:
 
 ## -description
 
-Converts the specified <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a> without making a copy.
+Converts the specified <a href="/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_4X4_F</a> matrix to a <a href="/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a> without making a copy.
 
 ## -parameters
 
 ### -param pMatrix
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh848012(v=vs.85)">D2D1_MATRIX_4X4_F</a>*</b>
+Type: <b><a href="/previous-versions/windows/desktop/legacy/hh848012(v=vs.85)">D2D1_MATRIX_4X4_F</a>*</b>
 
 The matrix to convert.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a>*</b>
+Type: <b><a href="/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a>*</b>
 
 The converted matrix.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a>
-
+<a href="/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a>

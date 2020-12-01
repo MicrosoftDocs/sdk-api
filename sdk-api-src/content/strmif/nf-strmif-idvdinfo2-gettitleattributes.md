@@ -61,11 +61,11 @@ Variable of type ULONG, from 1 through 99, specifying the requested title number
 
 ### -param pMenu [out]
 
-Pointer to a [DVD_MenuAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_menuattributes) structure that receives the attributes of the menu associated with the specified title.
+Pointer to a [DVD_MenuAttributes](/windows/desktop/api/strmif/ns-strmif-dvd_menuattributes) structure that receives the attributes of the menu associated with the specified title.
 
 ### -param pTitle [out]
 
-Pointer to a [DVD_TitleAttributes](https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-dvd_titleattributes) structure that receives the attributes of the specified title.
+Pointer to a [DVD_TitleAttributes](/windows/desktop/api/strmif/ns-strmif-dvd_titleattributes) structure that receives the attributes of the specified title.
 
 ## -returns
 
@@ -105,7 +105,7 @@ The <i>nTitle</i> parameter is invalid.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not in the title domain.
+The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> is not in the title domain.
 
 </td>
 </tr>
@@ -135,13 +135,12 @@ DVD Navigator is not initialized or some other internal error occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>

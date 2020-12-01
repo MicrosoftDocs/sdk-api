@@ -107,5 +107,4 @@ The caller must ensure that all image resources in the package are supported by 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsompackage1">IXpsOMPackage1</a>
-
+<a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsompackage1">IXpsOMPackage1</a>

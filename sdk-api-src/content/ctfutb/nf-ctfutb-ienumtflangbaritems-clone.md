@@ -56,7 +56,7 @@ Creates a copy of the enumerator object.
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-ienumtflangbaritems">IEnumTfLangBarItems</a> interface pointer that receives the new enumerator.
+Pointer to an <a href="/windows/desktop/api/ctfutb/nn-ctfutb-ienumtflangbaritems">IEnumTfLangBarItems</a> interface pointer that receives the new enumerator.
 
 ## -returns
 
@@ -93,6 +93,5 @@ A memory allocation failure occurred.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/nn-ctfutb-ienumtflangbaritems">IEnumTfLangBarItems
+<a href="/windows/desktop/api/ctfutb/nn-ctfutb-ienumtflangbaritems">IEnumTfLangBarItems
       </a>
-

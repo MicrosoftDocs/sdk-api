@@ -55,13 +55,13 @@ api_name:
 ## -description
 
 The <b>DSBROWSEINFO</b> structure is used with the 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-dsbrowseforcontainera">DsBrowseForContainer</a> function to supply and return data about the Active Directory container browser dialog box.
+<a href="/windows/desktop/api/dsclient/nf-dsclient-dsbrowseforcontainera">DsBrowseForContainer</a> function to supply and return data about the Active Directory container browser dialog box.
 
 ## -struct-fields
 
 ### -field cbStruct
 
-Contains the size, in bytes, of the <b>DSBROWSEINFO</b> structure. This is used by the <a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-dsbrowseforcontainera">DsBrowseForContainer</a> function for versioning purposes.
+Contains the size, in bytes, of the <b>DSBROWSEINFO</b> structure. This is used by the <a href="/windows/desktop/api/dsclient/nf-dsclient-dsbrowseforcontainera">DsBrowseForContainer</a> function for versioning purposes.
 
 ### -field hwndOwner
 
@@ -161,7 +161,7 @@ When determining if the object is displayed in the dialog box, the <b>treatAsLea
 
 #### DSBI_SIMPLEAUTHENTICATE (8388608 (0x800000))
 
-Indicates that secure authentication is not required when calling <a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>.
+Indicates that secure authentication is not required when calling <a href="/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>.
 
 
 
@@ -177,7 +177,7 @@ Indicates that signing and sealing will not be used when communicating with the 
 
 ### -field pfnCallback
 
-Pointer to an application-defined  <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nc-shlobj_core-bffcallback">BFFCallBack</a> callback function that receives notifications from the container browser dialog box. Set this member to <b>NULL</b> if it is not used.
+Pointer to an application-defined  <a href="/windows/desktop/api/shlobj_core/nc-shlobj_core-bffcallback">BFFCallBack</a> callback function that receives notifications from the container browser dialog box. Set this member to <b>NULL</b> if it is not used.
 
 ### -field lParam
 
@@ -209,18 +209,17 @@ Contains the size, in <b>WCHAR</b> characters, of the <b>pszObjectClass</b> buff
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
+<a href="/windows/desktop/api/adshlp/nf-adshlp-adsopenobject">ADsOpenObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nc-shlobj_core-bffcallback">BFFCallBack</a>
+<a href="/windows/desktop/api/shlobj_core/nc-shlobj_core-bffcallback">BFFCallBack</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsclient/nf-dsclient-dsbrowseforcontainera">DsBrowseForContainer</a>
+<a href="/windows/desktop/api/dsclient/nf-dsclient-dsbrowseforcontainera">DsBrowseForContainer</a>
 
 ## -remarks
 
 > [!NOTE]
 > The dsclient.h header defines DSBROWSEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

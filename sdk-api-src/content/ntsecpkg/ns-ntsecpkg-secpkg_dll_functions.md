@@ -54,22 +54,21 @@ api_name:
 
 ## -description
 
-The <b>SECPKG_DLL_FUNCTIONS</b> structure contains pointers to the LSA functions that a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> can call while executing in-process with a client/server application. The <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) provides this structure during user-mode initialization using each security package's 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinstanceinitfn">SpInstanceInit</a> function.
+The <b>SECPKG_DLL_FUNCTIONS</b> structure contains pointers to the LSA functions that a <a href="/windows/desktop/SecGloss/s-gly">security package</a> can call while executing in-process with a client/server application. The <a href="/windows/desktop/SecGloss/l-gly">Local Security Authority</a> (LSA) provides this structure during user-mode initialization using each security package's 
+<a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinstanceinitfn">SpInstanceInit</a> function.
 
 ## -struct-fields
 
 ### -field AllocateHeap
 
-Pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa374721(v=vs.85)">AllocateHeap</a> function.
+Pointer to the  <a href="/previous-versions/windows/desktop/legacy/aa374721(v=vs.85)">AllocateHeap</a> function.
 
 ### -field FreeHeap
 
-Pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa375418(v=vs.85)">FreeHeap</a> function.
+Pointer to the  <a href="/previous-versions/windows/desktop/legacy/aa375418(v=vs.85)">FreeHeap</a> function.
 
 ### -field RegisterCallback
 
-Pointer to the  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa379372(v=vs.85)">RegisterCallback</a> function.
+Pointer to the  <a href="/previous-versions/windows/desktop/legacy/aa379372(v=vs.85)">RegisterCallback</a> function.
 
 ### -field LocatePackageById
-

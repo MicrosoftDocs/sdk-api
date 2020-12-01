@@ -57,7 +57,7 @@ Deselects a stream in the presentation.
 
 ### -param dwDescriptorIndex [in]
 
-The stream number to deselect, indexed from zero. To find the number of streams in the presentation, call the <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorcount">IMFPresentationDescriptor::GetStreamDescriptorCount</a> method.
+The stream number to deselect, indexed from zero. To find the number of streams in the presentation, call the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorcount">IMFPresentationDescriptor::GetStreamDescriptorCount</a> method.
 
 ## -returns
 
@@ -96,10 +96,10 @@ The method succeeded.
 
 ## -remarks
 
-If a stream is deselected, no data is generated for that stream. To select the stream again, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-selectstream">IMFPresentationDescriptor::SelectStream</a>.
+If a stream is deselected, no data is generated for that stream. To select the stream again, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-selectstream">IMFPresentationDescriptor::SelectStream</a>.
       
 
-To query whether a stream is selected, call <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorbyindex">IMFPresentationDescriptor::GetStreamDescriptorByIndex</a>.
+To query whether a stream is selected, call <a href="/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorbyindex">IMFPresentationDescriptor::GetStreamDescriptorByIndex</a>.
       
 
 This interface is available on the following platforms if the Windows Media Format 11 SDK redistributable components are installed:
@@ -111,9 +111,8 @@ This interface is available on the following platforms if the Windows Media Form
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a>
+<a href="/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor">IMFPresentationDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/presentation-descriptors">Presentation Descriptors</a>
-
+<a href="/windows/desktop/medfound/presentation-descriptors">Presentation Descriptors</a>

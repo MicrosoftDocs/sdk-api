@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
 api_name:
  - OleLoadFromStream
+req.apiset: ext-ms-win-com-ole32-l1-1-5 (introduced in Windows 10, version 10.0.15063)
 ---
 
 # OleLoadFromStream function
@@ -57,7 +58,7 @@ Loads an object from the stream.
 
 ### -param pStm [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface on the stream from which the object is to be loaded.
+Pointer to the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface on the stream from which the object is to be loaded.
 
 ### -param iidInterface [in]
 
@@ -101,7 +102,7 @@ The object does not support the specified interface.
 </table>
  
 
-This function can also return any of the error values returned by the <a href="https://docs.microsoft.com/windows/desktop/api/coml2api/nf-coml2api-readclassstm">ReadClassStm</a> and <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> functions, and the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststream-load">IPersistStream::Load</a> method.
+This function can also return any of the error values returned by the <a href="/windows/desktop/api/coml2api/nf-coml2api-readclassstm">ReadClassStm</a> and <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance">CoCreateInstance</a> functions, and the <a href="/windows/desktop/api/objidl/nf-objidl-ipersiststream-load">IPersistStream::Load</a> method.
 
 ## -remarks
 
@@ -109,7 +110,7 @@ This function can also return any of the error values returned by the <a href="h
 
 </div>
 <div> </div>
-This function can be used to load an object that supports the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface. The CLSID of the object must immediately precede the object's data in the stream, which is accomplished by the companion function <a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olesavetostream">OleSaveToStream</a> (or the operations it wraps, which are described under that topic).
+This function can be used to load an object that supports the <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a> interface. The CLSID of the object must immediately precede the object's data in the stream, which is accomplished by the companion function <a href="/windows/desktop/api/ole/nf-ole-olesavetostream">OleSaveToStream</a> (or the operations it wraps, which are described under that topic).
 
 
 
@@ -117,5 +118,4 @@ If the CLSID for the stream is CLSID_NULL, the <i>ppvObj</i> parameter is set to
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ole/nf-ole-olesavetostream">OleSaveToStream</a>
-
+<a href="/windows/desktop/api/ole/nf-ole-olesavetostream">OleSaveToStream</a>

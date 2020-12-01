@@ -52,14 +52,14 @@ api_name:
 
 The 
 <b>MonitorMedia</b> method sets monitoring for a given media type on the current call. This method enables and disables the detection of media types (modes) on the specified call. When a media type is detected, a message is sent to the application. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linemonitormedia">lineMonitorMedia</a>.
+<a href="/windows/desktop/api/tapi/nf-tapi-linemonitormedia">lineMonitorMedia</a>.
 
 ## -parameters
 
 ### -param lMediaType [in]
 
 Indicator of 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/tapimediatype--constants">media type</a>.
+<a href="/windows/desktop/Tapi/tapimediatype--constants">media type</a>.
 
 ## -returns
 
@@ -118,9 +118,8 @@ Insufficient memory exists to perform the operation.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol">ITLegacyAddressMediaControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol">ITLegacyAddressMediaControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol">ITLegacyCallMediaControl</a>
-
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol">ITLegacyCallMediaControl</a>

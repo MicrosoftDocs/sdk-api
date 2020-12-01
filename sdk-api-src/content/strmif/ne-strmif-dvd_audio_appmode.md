@@ -52,13 +52,13 @@ api_name:
 
 ## -description
 
-Indicates the current audio mode as retrieved in a call to <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">IDvdInfo2::GetAudioAttributes</a>.
+Indicates the current audio mode as retrieved in a call to <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">IDvdInfo2::GetAudioAttributes</a>.
 
 ## -enum-fields
 
 ### -field DVD_AudioMode_None
 
-No special audio mode. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator Filter</a> will send the audio to the decoder with no special processing.
+No special audio mode. The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator Filter</a> will send the audio to the decoder with no special processing.
 
 ### -field DVD_AudioMode_Karaoke
 
@@ -74,9 +74,8 @@ Unrecognized audio mode.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
+<a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">IDvdInfo2::GetAudioAttributes</a>
-
+<a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getaudioattributes">IDvdInfo2::GetAudioAttributes</a>

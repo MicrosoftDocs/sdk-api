@@ -66,9 +66,8 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 ## -remarks
 
 This method does not delete GPO links. To delete GPO links, call the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpolink-delete">IGPMGPOLink::Delete</a> method.
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nf-gpmgmt-igpmgpolink-delete">IGPMGPOLink::Delete</a> method.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
-
+<a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>

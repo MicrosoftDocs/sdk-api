@@ -86,7 +86,7 @@ This method allows custom mappings between users registered to a content source 
 If the URL contains a user security identifier (SID), then the protocol handler is invoked in the security context of that user, and this method must return E_NOTIMPL. 
             
 
-If the URL does not contain a user SID, then the protocol handler is invoked in the security context of the system service. In that case, this method can return either an access control list (ACL) to restrict read access, or <a href="https://docs.microsoft.com/windows/desktop/search/-search-prth-error-constants">PRTH_S_ACL_IS_READ_EVERYONE</a> to allow anyone read access during querying.
+If the URL does not contain a user SID, then the protocol handler is invoked in the security context of the system service. In that case, this method can return either an access control list (ACL) to restrict read access, or <a href="/windows/desktop/search/-search-prth-error-constants">PRTH_S_ACL_IS_READ_EVERYONE</a> to allow anyone read access during querying.
             
 
 <div class="alert"><b>Note</b>  If this method returns E_NOTIMPL and the URL does NOT contain a user SID, then the item is retrievable by all user queries.</div>
@@ -94,9 +94,8 @@ If the URL does not contain a user SID, then the protocol handler is invoked in 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a>
+<a href="/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor">IUrlAccessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/search/-search-prth-error-constants">Search Protocol Handler Error Messages</a>
-
+<a href="/windows/desktop/search/-search-prth-error-constants">Search Protocol Handler Error Messages</a>

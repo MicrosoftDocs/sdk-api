@@ -95,7 +95,7 @@ The name of the XML file associated with the theme specified by <i>hTheme</i>.
 
 ### -param pszStringBuff [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPWSTR</a></b>
 
 Pointer to the buffer that receives the string value from this function.
 
@@ -107,11 +107,10 @@ Value of type <b>int</b> that specifies the maximum number of characters the str
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 ## -remarks
 
 If the theme data handle is not a <b>NULL</b> handle, this function returns the desired string from the SysMetrics section of the visual style. If the theme data handle is <b>NULL</b>, this function returns the value of the global system metric of the same type.
-

@@ -278,7 +278,7 @@ Fills the destination rectangle using the color associated with index 1 in the p
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -290,52 +290,51 @@ If the color formats of the source and destination device contexts do not match,
 
 When an enhanced metafile is being recorded, an error occurs if the source device context identifies an enhanced-metafile device context.
 
-Not all devices support the <b>BitBlt</b> function. For more information, see the RC_BITBLT raster capability entry in the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function as well as the following functions: <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a>, <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-plgblt">PlgBlt</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>.
+Not all devices support the <b>BitBlt</b> function. For more information, see the RC_BITBLT raster capability entry in the <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a> function as well as the following functions: <a href="/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a>, <a href="/windows/desktop/api/wingdi/nf-wingdi-plgblt">PlgBlt</a>, and <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>.
 
-<b>BitBlt</b> returns an error if the source and destination device contexts represent different devices. To transfer data between DCs for different devices, convert the memory bitmap to a DIB by calling <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>. To display the DIB to the second device, call <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>.
+<b>BitBlt</b> returns an error if the source and destination device contexts represent different devices. To transfer data between DCs for different devices, convert the memory bitmap to a DIB by calling <a href="/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>. To display the DIB to the second device, call <a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a> or <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>.
 
 <b>ICM:</b> No color management is performed when blits occur.
 
 
 #### Examples
 
-For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/capturing-an-image">Capturing an Image</a>.
+For an example, see <a href="/windows/desktop/gdi/capturing-an-image">Capturing an Image</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
+<a href="/windows/desktop/gdi/bitmap-functions">Bitmap Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
+<a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdibits">GetDIBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-maskblt">MaskBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-plgblt">PlgBlt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-plgblt">PlgBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-setdibits">SetDIBits</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchblt">StretchBlt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
-
+<a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>

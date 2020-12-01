@@ -4,7 +4,7 @@ title: NotificationUnhookProc
 ms.date: 05/07/2020
 ms.topic: language-reference
 targetos: Windows
-description: \**NotificationUnhookProc** is the signature of the notification unhook function that [**GdiplusStartup**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) returns in a [**GdiplusStartupOutput**](/windows/win32/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput) structure.
+description: \**NotificationUnhookProc** is the signature of the notification unhook function that [**GdiplusStartup**](./nf-gdiplusinit-gdiplusstartup.md) returns in a [**GdiplusStartupOutput**](./ns-gdiplusinit-gdiplusstartupoutput.md) structure.
 tech.root: gdiplus
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-**NotificationUnhookProc** is the signature of the notification unhook function that [**GdiplusStartup**](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup) returns in a [**GdiplusStartupOutput**](/windows/win32/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput) structure.
+**NotificationUnhookProc** is the signature of the notification unhook function that [**GdiplusStartup**](./nf-gdiplusinit-gdiplusstartup.md) returns in a [**GdiplusStartupOutput**](./ns-gdiplusinit-gdiplusstartupoutput.md) structure.
 
 ## -parameters
 
@@ -53,4 +53,3 @@ A pointer to the **ULONG** that contains the token.
 ## -remarks
 
 ## -see-also
-

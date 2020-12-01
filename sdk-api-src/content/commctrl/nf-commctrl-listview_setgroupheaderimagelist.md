@@ -56,7 +56,7 @@ Assigns an image list to the group header of a list-view control.
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -68,5 +68,4 @@ A handle to the image list.
 
 ## -remarks
 
-The current image list will be destroyed when the list-view control is destroyed unless the <a href="https://docs.microsoft.com/windows/desktop/Controls/list-view-window-styles">LVS_SHAREIMAGELISTS</a> style is set. If you use this message to replace one image list with another, your application must explicitly destroy all image lists other than the current one.
-
+The current image list will be destroyed when the list-view control is destroyed unless the <a href="/windows/desktop/Controls/list-view-window-styles">LVS_SHAREIMAGELISTS</a> style is set. If you use this message to replace one image list with another, your application must explicitly destroy all image lists other than the current one.

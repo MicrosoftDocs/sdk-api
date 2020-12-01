@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 Returns the unique, unsigned 32-bit ID of the spatial audio object represented by the buffer.
-    If <a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-setid">SetID</a> method was not previously called, this method returns the invalid object ID, -1 
+    If <a href="/windows/desktop/api/mfspatialaudio/nf-mfspatialaudio-imfspatialaudioobjectbuffer-setid">SetID</a> method was not previously called, this method returns the invalid object ID, -1 
     (0xffffffff).  The invalid ID indicates that the object buffer is unused and
     contains invalid data.
 
@@ -97,5 +97,4 @@ The supplied pointer is invalid.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a>
-
+<a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a>

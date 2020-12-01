@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Values for the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_rgbtohue_prop">D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE</a> property of the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/rgb-to-hue-effect">RGB to Hue effect</a>.
+Values for the <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_rgbtohue_prop">D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE</a> property of the <a href="/windows/desktop/Direct2D/rgb-to-hue-effect">RGB to Hue effect</a>.
 
 ## -enum-fields
 
@@ -66,13 +66,12 @@ The effect converts from RGB to Hue Saturation Lightness (HSL).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/built-in-effects">Built-in Effects</a>
+<a href="/windows/desktop/Direct2D/built-in-effects">Built-in Effects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">CreateEffect</a>
+<a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createeffect">CreateEffect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/rgb-to-hue-effect">RGB to Hue effect</a>
-
+<a href="/windows/desktop/Direct2D/rgb-to-hue-effect">RGB to Hue effect</a>

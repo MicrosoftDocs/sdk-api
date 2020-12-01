@@ -58,7 +58,7 @@ In earlier versions of Windows <b>EngSetPrinterData </b>sets the configuration d
 
 ### -param hPrinter [in]
 
-Handle to the printer for which configuration data should be set. This is the handle that is passed as the <i>hDriver</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>. See <b>Remarks</b>.
+Handle to the printer for which configuration data should be set. This is the handle that is passed as the <i>hDriver</i> parameter of <a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>. See <b>Remarks</b>.
 
 ### -param pType [in]
 
@@ -195,9 +195,8 @@ For more information about printer access rights, see the PRINTER_DEFAULTS struc
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
+<a href="/windows/desktop/api/winddi/nf-winddi-drvenablepdev">DrvEnablePDEV</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-enggetprinterdata">EngGetPrinterData</a>
-
+<a href="/windows/desktop/api/winddi/nf-winddi-enggetprinterdata">EngGetPrinterData</a>

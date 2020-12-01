@@ -57,9 +57,9 @@ Creates a query heap.
 
 ### -param pDesc [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_query_heap_desc">D3D12_QUERY_HEAP_DESC</a>*</b>
+Type: <b>const <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_query_heap_desc">D3D12_QUERY_HEAP_DESC</a>*</b>
 
-Specifies the query heap in a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_query_heap_desc">D3D12_QUERY_HEAP_DESC</a> structure.
+Specifies the query heap in a <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_query_heap_desc">D3D12_QUERY_HEAP_DESC</a> structure.
 
 ### -param riid
 
@@ -79,17 +79,17 @@ Specifies a pointer to the heap, that will be returned on successful completion 
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-This method returns one of the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-returnvalues">Direct3D 12 Return Codes</a>.
 
 ## -remarks
 
-Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/queries">Queries</a> for more information.
+Refer to <a href="/windows/desktop/direct3d12/queries">Queries</a> for more information.
         
 
 
 #### Examples
 
-The <a href="https://docs.microsoft.com/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses <b>ID3D12Device::CreateQueryHeap</b> as follows:
+The <a href="/windows/desktop/direct3d12/working-samples">D3D12PredicationQueries</a> sample uses <b>ID3D12Device::CreateQueryHeap</b> as follows:
         
 
 Create a query heap and a query result buffer.
@@ -140,12 +140,11 @@ ThrowIfFailed(m_device->CreateQueryHeap(&queryHeapDesc, IID_PPV_ARGS(&m_queryHea
 ```
 
 
-Refer to the <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in the D3D12 Reference</a>.
           
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
-
+<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>

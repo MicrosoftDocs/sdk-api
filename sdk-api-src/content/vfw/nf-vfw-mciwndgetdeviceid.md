@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>MCIWndGetDeviceID</b> macro retrieves the identifier of the current MCI device to use with the <a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getdeviceid">MCIWNDM_GETDEVICEID</a> message.
+The <b>MCIWndGetDeviceID</b> macro retrieves the identifier of the current MCI device to use with the <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/mciwndm-getdeviceid">MCIWNDM_GETDEVICEID</a> message.
 
 ## -parameters
 
@@ -60,9 +60,8 @@ Handle of the MCIWnd window.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getdeviceid">MCIWNDM_GETDEVICEID</a>
+<a href="/windows/desktop/Multimedia/mciwndm-getdeviceid">MCIWNDM_GETDEVICEID</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
-
+<a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>

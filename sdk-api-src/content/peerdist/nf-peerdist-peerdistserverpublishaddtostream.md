@@ -56,11 +56,11 @@ The <b>PeerDistServerPublishAddToStream</b> function adds data to the publishing
 
 ### -param hPeerDist [in]
 
-A PEERDIST_INSTANCE_HANDLE returned by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
+A PEERDIST_INSTANCE_HANDLE returned by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>.
 
 ### -param hStream [in]
 
-A PEERDIST_STREAM_HANDLE created by <a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>.
+A PEERDIST_STREAM_HANDLE created by <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>.
 
 ### -param cbNumberOfBytes [in]
 
@@ -72,7 +72,7 @@ Pointer to the buffer that contains the data to be published. This buffer must r
 
 ### -param lpOverlapped [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/ms684342.aspx">OVERLAPPED</a> structure. The <b>Offset</b> and <b>OffsetHigh</b> members are reserved and must be zero.
+Pointer to an <a href="/windows/win32/api/minwinbase/ns-minwinbase-overlapped">OVERLAPPED</a> structure. The <b>Offset</b> and <b>OffsetHigh</b> members are reserved and must be zero.
 
 ## -returns
 
@@ -146,9 +146,8 @@ When calling this function multiple times on a single stream handle, the caller 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserverpublishstream">PeerDistServerPublishStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>
-
+<a href="/windows/desktop/api/peerdist/nf-peerdist-peerdiststartup">PeerDistStartup</a>

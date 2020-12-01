@@ -64,13 +64,14 @@ The size, in bytes, of the shader data that the <b>pShaderBytecode</b> member po
 
 ## -remarks
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc">D3D12_COMPUTE_PIPELINE_STATE_DESC</a> objects contain <b>D3D12_SHADER_BYTECODE</b> structures that describe various shader types.
+The <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc">D3D12_GRAPHICS_PIPELINE_STATE_DESC</a> and <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc">D3D12_COMPUTE_PIPELINE_STATE_DESC</a> objects contain <b>D3D12_SHADER_BYTECODE</b> structures that describe various shader types.
+
+When loading a shader from FXC/DXC, this may be the entire compiled blob as is loaded from disk.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/commandlistcast">CD3DX12_SHADER_BYTECODE</a>
+<a href="/windows/desktop/direct3d12/commandlistcast">CD3DX12_SHADER_BYTECODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>
-
+<a href="/windows/desktop/direct3d12/direct3d-12-structures">Core Structures</a>

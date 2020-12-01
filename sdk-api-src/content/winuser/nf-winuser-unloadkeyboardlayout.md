@@ -73,7 +73,7 @@ If the function fails, the return value is zero. The function can fail for the f
 <li>The input locale identifier was preloaded.</li>
 <li>The input locale identifier is in use.</li>
 </ul>
-To get extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -83,7 +83,7 @@ The input locale identifier is a broader concept than a keyboard layout, since i
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-activatekeyboardlayout">ActivateKeyboardLayout</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-activatekeyboardlayout">ActivateKeyboardLayout</a>
 
 
 
@@ -91,17 +91,16 @@ The input locale identifier is a broader concept than a keyboard layout, since i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getkeyboardlayoutnamea">GetKeyboardLayoutName</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-getkeyboardlayoutnamea">GetKeyboardLayoutName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
+<a href="/windows/desktop/inputdev/keyboard-input">Keyboard Input</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
+<a href="/windows/desktop/api/winuser/nf-winuser-loadkeyboardlayouta">LoadKeyboardLayout</a>
 
 
 
 <b>Reference</b>
-

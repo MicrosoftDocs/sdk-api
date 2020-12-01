@@ -66,11 +66,10 @@ Specifies that the anchor will be moved to the region immediately following the 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-shiftendregion">ITfRange::ShiftEndRegion
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-shiftendregion">ITfRange::ShiftEndRegion
       </a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfrange-shiftstartregion">ITfRange::ShiftStartRegion
+<a href="/windows/desktop/api/msctf/nf-msctf-itfrange-shiftstartregion">ITfRange::ShiftStartRegion
       </a>
-

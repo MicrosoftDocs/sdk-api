@@ -52,7 +52,7 @@ Specifies that subsequent commands should not be performed if the predicate valu
 
 ### -param pBuffer
 
-A pointer to an [ID3D12Resource](https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) representing the buffer from which to read the 64-bit predication value.
+A pointer to an [ID3D12Resource](/windows/desktop/api/d3d12/nn-d3d12-id3d12resource) representing the buffer from which to read the 64-bit predication value.
 
 ### -param AlignedBufferOffset
 
@@ -60,9 +60,8 @@ The UINT64-aligned buffer offset.
 
 ### -param Operation
 
-A member of the [D3D12_PREDICATION_OP](https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op) enumeration specifying the predicate operation.
+A member of the [D3D12_PREDICATION_OP](/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op) enumeration specifying the predicate operation.
 
 ## -remarks
 
 ## -see-also
-

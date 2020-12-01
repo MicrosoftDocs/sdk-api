@@ -65,5 +65,4 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents3">IOfflineFilesEvents3</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents3">IOfflineFilesEvents3</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>LineDDAProc</b> function is an application-defined callback function used with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-linedda">LineDDA</a> function. It is used to process coordinates. The <b>LINEDDAPROC</b> type defines a pointer to this callback function. <b>LineDDAProc</b> is a placeholder for the application-defined function name.
+The <b>LineDDAProc</b> function is an application-defined callback function used with the <a href="/windows/desktop/api/wingdi/nf-wingdi-linedda">LineDDA</a> function. It is used to process coordinates. The <b>LINEDDAPROC</b> type defines a pointer to this callback function. <b>LineDDAProc</b> is a placeholder for the application-defined function name.
 
 ## -parameters
 
@@ -76,17 +76,16 @@ Pointer to the application-defined data.
 
 ## -remarks
 
-An application registers a <b>LineDDAProc</b> function by passing its address to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-linedda">LineDDA</a> function.
+An application registers a <b>LineDDAProc</b> function by passing its address to the <a href="/windows/desktop/api/wingdi/nf-wingdi-linedda">LineDDA</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
+<a href="/windows/desktop/gdi/line-and-curve-functions">Line and Curve Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-linedda">LineDDA</a>
+<a href="/windows/desktop/api/wingdi/nf-wingdi-linedda">LineDDA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>
-
+<a href="/windows/desktop/gdi/lines-and-curves">Lines and Curves Overview</a>

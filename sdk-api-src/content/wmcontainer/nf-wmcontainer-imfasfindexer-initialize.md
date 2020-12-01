@@ -51,13 +51,13 @@ api_name:
 
 ## -description
 
-Initializes the indexer object. This method reads information in a ContentInfo object about the configuration of the content and the properties of the existing index, if present. Use this method before using the indexer for either writing or reading an index. You must make this call before using any of the other methods of the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a> interface.
+Initializes the indexer object. This method reads information in a ContentInfo object about the configuration of the content and the properties of the existing index, if present. Use this method before using the indexer for either writing or reading an index. You must make this call before using any of the other methods of the <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a> interface.
 
 ## -parameters
 
 ### -param pIContentInfo [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface of the ContentInfo object describing the content with which to use the indexer.
+Pointer to the <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface of the ContentInfo object describing the content with which to use the indexer.
 
 ## -returns
 
@@ -106,15 +106,14 @@ Unexpected error.
 
 ## -remarks
 
-The indexer needs to examine the data in the ContentInfo object to properly write or read the index for the content. The indexer will not make changes to the content information and will not hold any references to the <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface.
+The indexer needs to examine the data in the ContentInfo object to properly write or read the index for the content. The indexer will not make changes to the content information and will not hold any references to the <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfcontentinfo">IMFASFContentInfo</a> interface.
 
 In the ASF header, the maximum data-packet size must equal the minimum data-packet size. Otherwise, the method returns <b>MF_E_UNEXPECTED</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
+<a href="/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
-
+<a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>

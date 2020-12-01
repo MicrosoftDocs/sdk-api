@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Receives a pointer to the object of the <a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransporttftpmanager">IWdsTransportTftpManager</a> interface used to manage the WDS TFTP server. This property is available beginning with Windows Server 2012.
+Receives a pointer to the object of the <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransporttftpmanager">IWdsTransportTftpManager</a> interface used to manage the WDS TFTP server. This property is available beginning with Windows Server 2012.
 
 This property is read-only.
 
@@ -59,5 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver2">IWdsTransportServer2</a>
-
+<a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportserver2">IWdsTransportServer2</a>

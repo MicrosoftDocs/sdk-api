@@ -65,9 +65,8 @@ Returns S_OK if successful. Otherwise, returns an <b>HRESULT</b> value indicatin
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mediaobj/nn-mediaobj-imediabuffer">IMediaBuffer Interface</a>
+<a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediabuffer">IMediaBuffer Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/implementing-imediabuffer">Implementing IMediaBuffer</a>
-
+<a href="/windows/desktop/DirectShow/implementing-imediabuffer">Implementing IMediaBuffer</a>

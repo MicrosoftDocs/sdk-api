@@ -62,7 +62,7 @@ The identifier of the event interface.
 
 ### -param callback [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
+Type: <b><a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>*</b>
 
 The caller's event interface.
 
@@ -80,9 +80,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationhost">IWebApplicationHost</a>
+<a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationhost">IWebApplicationHost</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-unadvise">IWebApplicationHost::Unadvise</a>
-
+<a href="/previous-versions/windows/desktop/debug_wwahost/iwebapplicationhost-unadvise">IWebApplicationHost::Unadvise</a>

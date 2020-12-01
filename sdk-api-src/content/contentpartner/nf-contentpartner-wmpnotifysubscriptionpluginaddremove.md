@@ -61,9 +61,8 @@ The return value indicates whether the function call succeeded.
 
 ## -remarks
 
-This function is typically called by a plug-in in its <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a> and <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-dllunregisterserver">DllUnregisterServer</a> methods. It alerts Windows Media Player to enumerate registered online store objects.
+This function is typically called by a plug-in in its <a href="/windows/desktop/api/olectl/nf-olectl-dllregisterserver">DllRegisterServer</a> and <a href="/windows/desktop/api/olectl/nf-olectl-dllunregisterserver">DllUnregisterServer</a> methods. It alerts Windows Media Player to enumerate registered online store objects.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/WMP/reference-for-type-2-online-stores">Reference for Type 2 Online Stores</a>
-
+<a href="/windows/desktop/WMP/reference-for-type-2-online-stores">Reference for Type 2 Online Stores</a>

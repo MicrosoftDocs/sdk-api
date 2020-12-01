@@ -52,7 +52,7 @@ api_name:
 
 The 
 <b>GetDynamicTerminalClasses</b> method is called by our wrapper methods to get an array of dynamic terminal classes that can be used on this address. The semantics of the arguments are the same as for 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nf-mspaddr-cmspaddress-getstaticterminals">GetStaticTerminals</a>. This method simply asks the Terminal Manager for the terminal classes. MSPs that implement additional, custom types of dynamic terminals, or that want to disallow the use of certain dynamic terminal classes from the Terminal Manager, would want to override this method.
+<a href="/windows/desktop/api/mspaddr/nf-mspaddr-cmspaddress-getstaticterminals">GetStaticTerminals</a>. This method simply asks the Terminal Manager for the terminal classes. MSPs that implement additional, custom types of dynamic terminals, or that want to disallow the use of certain dynamic terminal classes from the Terminal Manager, would want to override this method.
 
 ## -parameters
 
@@ -63,9 +63,8 @@ Pointer to number of dynamic terminals.
 ### -param pTerminalClasses [out]
 
 Pointer to array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interfaces.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a> interfaces.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>
-
+<a href="/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>

@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Represents a header for an <a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>.
+Represents a header for an <a href="/windows/desktop/WinRT/hstring">HSTRING</a>.
 
 ## -struct-fields
 
@@ -74,5 +74,4 @@ Reserved for future use in a non 64-bit environment.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowscreatestringreference">WindowsCreateStringReference</a>
-
+<a href="/windows/desktop/api/winstring/nf-winstring-windowscreatestringreference">WindowsCreateStringReference</a>

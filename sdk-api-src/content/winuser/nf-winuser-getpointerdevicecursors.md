@@ -64,13 +64,12 @@ The number of cursors associated with the pointer device.
 
 ### -param deviceCursors [out, optional]
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-pointer_device_cursor_info">POINTER_DEVICE_CURSOR_INFO</a> structures that contain info about the cursors. If NULL, <i>cursorCount</i> returns the number of cursors associated with the pointer device.
+An array of <a href="/windows/desktop/api/winuser/ns-winuser-pointer_device_cursor_info">POINTER_DEVICE_CURSOR_INFO</a> structures that contain info about the cursors. If NULL, <i>cursorCount</i> returns the number of cursors associated with the pointer device.
 
 ## -returns
 
-TRUE if the function succeeds; otherwise, FALSE. If the function fails, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function for more information.
+TRUE if the function succeeds; otherwise, FALSE. If the function fails, call the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function for more information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_pointerdevice/functions">Functions</a>
-
+<a href="/previous-versions/windows/desktop/input_pointerdevice/functions">Functions</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Flags used to specify the kind of information requested from an object in the <a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo2">IProvideClassInfo2</a>.
+Flags used to specify the kind of information requested from an object in the <a href="/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo2">IProvideClassInfo2</a>.
 
 ## -enum-fields
 
@@ -62,5 +62,4 @@ The interface identifier (IID) of the object's outgoing dispinterface, labeled [
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo2">IProvideClassInfo2</a>
-
+<a href="/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo2">IProvideClassInfo2</a>

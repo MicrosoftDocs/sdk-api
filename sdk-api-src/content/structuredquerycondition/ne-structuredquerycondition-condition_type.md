@@ -53,10 +53,10 @@ api_name:
 ## -description
 
 Provides a set of flags to be used with the following methods to indicate the type of condition tree node: 
-        <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-getconditiontype">ICondition::GetConditionType</a>, 
-        <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory-makeandor">IConditionFactory::MakeAndOr</a>, 
-        <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createcompoundfromarray">IConditionFactory2::CreateCompoundFromArray</a>, and 
-        <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createcompoundfromobjectarray">IConditionFactory2::CreateCompoundFromObjectArray</a>.
+        <a href="/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-getconditiontype">ICondition::GetConditionType</a>, 
+        <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory-makeandor">IConditionFactory::MakeAndOr</a>, 
+        <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createcompoundfromarray">IConditionFactory2::CreateCompoundFromArray</a>, and 
+        <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iconditionfactory2-createcompoundfromobjectarray">IConditionFactory2::CreateCompoundFromObjectArray</a>.
 
 ## -enum-fields
 
@@ -84,7 +84,7 @@ The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Sa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/ne-structuredquery-condition_creation_options">CONDITION_CREATION_OPTIONS</a>
+<a href="/windows/desktop/api/structuredquery/ne-structuredquery-condition_creation_options">CONDITION_CREATION_OPTIONS</a>
 
 
 
@@ -92,25 +92,24 @@ The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Sa
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>
+<a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
+<a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition2">ICondition2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>
+<a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory">IConditionFactory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory2">IConditionFactory2</a>
+<a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditionfactory2">IConditionFactory2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a>
+<a href="/windows/desktop/api/structuredquery/nn-structuredquery-iconditiongenerator">IConditionGenerator</a>
 
 
 
 <b>Reference</b>
-

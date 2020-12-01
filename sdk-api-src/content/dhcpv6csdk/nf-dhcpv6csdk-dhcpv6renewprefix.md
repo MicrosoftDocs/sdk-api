@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>Dhcpv6RenewPrefix</b> function renews a prefix previously acquired with the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6requestprefix">Dhcpv6RequestPrefix</a> function.
+The <b>Dhcpv6RenewPrefix</b> function renews a prefix previously acquired with the <a href="/previous-versions/windows/desktop/api/dhcpv6csdk/nf-dhcpv6csdk-dhcpv6requestprefix">Dhcpv6RequestPrefix</a> function.
 
 ## -parameters
 
@@ -60,14 +60,14 @@ GUID of the adapter on which the prefix renewal must be sent.
 
 ### -param pclassId [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to send on the wire. This parameter is can be <b>NULL</b>.
+Pointer to a <a href="/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_classid">DHCPV6CAPI_CLASSID</a> structure that contains the binary ClassId information to send on the wire. This parameter is can be <b>NULL</b>.
 
 <div class="alert"><b>Note</b>  DHCPv6 Option Code 15 (0x000F) is not supported by this API. Typically, the User Class option is used by a client to identify the type or category of user or application it represents. A server selects the configuration information for the client based on the classes identified in this option.</div>
 <div> </div>
 
 ### -param prefixleaseInfo [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure that contains the prefix lease information.
+Pointer to a <a href="/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6prefixleaseinformation">DHCPV6PrefixLeaseInformation</a> structure that contains the prefix lease information.
 
 ### -param pdwTimeToWait [out]
 
@@ -127,4 +127,3 @@ The <i>AdapterName</i> is not in the correct format. It should be in this format
 </tr>
 
 </table>
-

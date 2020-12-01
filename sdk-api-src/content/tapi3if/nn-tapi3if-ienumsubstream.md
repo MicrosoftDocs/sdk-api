@@ -52,13 +52,13 @@ api_name:
 
 The 
 <b>IEnumSubStream</b> interface provides COM-standard enumeration methods for the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a> interface. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-enumeratesubstreams">ITSubStreamControl::EnumerateSubStreams</a> method returns a pointer to 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a> interface. The 
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itsubstreamcontrol-enumeratesubstreams">ITSubStreamControl::EnumerateSubStreams</a> method returns a pointer to 
 <b>IEnumSubStream</b>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSubStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSubStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumSubStream</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEnumSubStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IEnumSubStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumsubstream-clone">Clone</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumsubstream-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates another enumerator that contains the same enumeration state as the current one.
@@ -82,7 +82,7 @@ Creates another enumerator that contains the same enumeration state as the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumsubstream-next">Next</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumsubstream-next">Next</a>
 </td>
 <td align="left" width="63%">
 Gets the next specified number of elements in the enumeration sequence.
@@ -91,7 +91,7 @@ Gets the next specified number of elements in the enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumsubstream-reset">Reset</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumsubstream-reset">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets to beginning of enumeration sequence.
@@ -100,7 +100,7 @@ Resets to beginning of enumeration sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-ienumsubstream-skip">Skip</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-ienumsubstream-skip">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips over the next specified number of elements in the enumeration sequence.
@@ -111,9 +111,8 @@ Skips over the next specified number of elements in the enumeration sequence.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itsubstream">ITSubStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-
+<a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>

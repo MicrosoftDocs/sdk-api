@@ -91,15 +91,14 @@ Each sensor event is represented by a <b>GUID</b>. This method takes, as an arra
 
 #### Examples
 
-For an example of how to set event interest, see <a href="https://docs.microsoft.com/windows/desktop/SensorsAPI/using-sensor-api-events">Using Sensor API Events</a>.
+For an example of how to set event interest, see <a href="/windows/desktop/SensorsAPI/using-sensor-api-events">Using Sensor API Events</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-geteventinterest">GetEventInterest</a>
+<a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-geteventinterest">GetEventInterest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
-
+<a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>

@@ -75,7 +75,7 @@ The drive letter or mounted folder to be deleted. A trailing backslash is requir
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero. To get extended error information, call 
-       <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+       <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
@@ -151,27 +151,26 @@ SMB does not support volume management functions. For CsvFs, a new mount point w
 #### Examples
 
 For an example, see 
-     <a href="https://docs.microsoft.com/windows/desktop/FileIO/unmounting-a-volume-at-a-mount-point">Unmounting a Volume at a Mount Point</a>.
+     <a href="/windows/desktop/FileIO/unmounting-a-volume-at-a-mount-point">Unmounting a Volume at a Mount Point</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw">GetVolumeNameForVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
+<a href="/windows/desktop/api/fileapi/nf-fileapi-getvolumepathnamew">GetVolumePathName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
+<a href="/windows/desktop/FileIO/volume-mount-points">Mounted Folders</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
-
+<a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>

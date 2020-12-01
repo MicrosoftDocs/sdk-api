@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-The <b>CryptSIPRemoveSignedDataMsg</b> function removes a specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">Authenticode</a> signature.
+The <b>CryptSIPRemoveSignedDataMsg</b> function removes a specified <a href="/windows/desktop/SecGloss/a-gly">Authenticode</a> signature.
 
 ## -parameters
 
 ### -param pSubjectInfo [in]
 
-A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that contains information about the message subject.
+A pointer to a [SIP_SUBJECTINFO](/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that contains information about the message subject.
 
 ### -param dwIndex [in]
 
@@ -66,13 +66,12 @@ This parameter is reserved and should be set to zero.
 
 If the function succeeds, the function returns <b>TRUE</b>.
 
-If the function fails, it returns  <b>FALSE</b>. For extended error information, call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails, it returns  <b>FALSE</b>. For extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg">CryptSIPGetSignedDataMsg</a>
+<a href="/windows/desktop/api/mssip/nf-mssip-cryptsipgetsigneddatamsg">CryptSIPGetSignedDataMsg</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mssip/nf-mssip-cryptsipputsigneddatamsg">CryptSIPPutSignedDataMsg</a>
-
+<a href="/windows/desktop/api/mssip/nf-mssip-cryptsipputsigneddatamsg">CryptSIPPutSignedDataMsg</a>

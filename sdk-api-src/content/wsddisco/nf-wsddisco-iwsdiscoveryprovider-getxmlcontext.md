@@ -96,7 +96,7 @@ Method completed successfully.
 </dl>
 </td>
 <td width="60%">
-The discovery provider has not been created. Call <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-wsdcreatediscoveryprovider">WSDCreateDiscoveryProvider</a> to create a provider.
+The discovery provider has not been created. Call <a href="/windows/desktop/api/wsddisco/nf-wsddisco-wsdcreatediscoveryprovider">WSDCreateDiscoveryProvider</a> to create a provider.
 
 </td>
 </tr>
@@ -106,14 +106,13 @@ The discovery provider has not been created. Call <a href="https://docs.microsof
 
 Returns an optional context for the XML state of the transaction. If the service layer is used then this should be the context the XML namespaces and types were registered with.
 
-<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a> must be called before any other <a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>method is used.</div>
+<div class="alert"><b>Note</b>  <a href="/windows/desktop/api/wsddisco/nf-wsddisco-iwsdiscoveryprovider-attach">Attach</a> must be called before any other <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>method is used.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a>
+<a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
-
+<a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>

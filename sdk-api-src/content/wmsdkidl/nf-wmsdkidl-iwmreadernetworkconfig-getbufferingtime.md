@@ -96,13 +96,12 @@ NULL passed in to <i>pcnsBufferingTime</i>
 
 ## -remarks
 
-See the Remarks for <a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setbufferingtime">SetBufferingTime</a>.
+See the Remarks for <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setbufferingtime">SetBufferingTime</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
+<a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setbufferingtime">IWMReaderNetworkConfig::SetBufferingTime</a>
-
+<a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setbufferingtime">IWMReaderNetworkConfig::SetBufferingTime</a>

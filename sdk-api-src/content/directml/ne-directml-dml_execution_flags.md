@@ -45,9 +45,6 @@ api_name:
  - DML_EXECUTION_FLAGS
 ---
 
-# DML_EXECUTION_FLAGS enumeration
-
-
 ## -description
 
 Supplies options to DirectML to control execution of operators. These flags can be bitwise OR'd together to specify multiple flags at once.

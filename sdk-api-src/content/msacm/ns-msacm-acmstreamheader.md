@@ -64,7 +64,7 @@ Size, in bytes, of the <b>ACMSTREAMHEADER</b> structure. This member must be ini
 
 ### -field fdwStatus
 
-Flags giving information about the conversion buffers. This member must be initialized to zero before the application calls the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a> function and should not be modified by the application while the stream header remains prepared.
+Flags giving information about the conversion buffers. This member must be initialized to zero before the application calls the <a href="/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a> function and should not be modified by the application while the stream header remains prepared.
 
 <table>
 <tr>
@@ -97,7 +97,7 @@ Set by the ACM or driver to indicate that the buffers are queued for conversion.
 </dl>
 </td>
 <td width="60%">
-Set by the ACM to indicate that the buffers have been prepared by using the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a> function.
+Set by the ACM to indicate that the buffers have been prepared by using the <a href="/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a> function.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ Reserved; do not use. This member requires no initialization by the application 
 
 ## -remarks
 
-Before an <b>ACMSTREAMHEADER</b> structure can be used for a conversion, it must be prepared by using the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a> function. When an application is finished with an <b>ACMSTREAMHEADER</b> structure, it must call the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmstreamunprepareheader">acmStreamUnprepareHeader</a> function before freeing the source and destination buffers.
+Before an <b>ACMSTREAMHEADER</b> structure can be used for a conversion, it must be prepared by using the <a href="/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a> function. When an application is finished with an <b>ACMSTREAMHEADER</b> structure, it must call the <a href="/windows/desktop/api/msacm/nf-msacm-acmstreamunprepareheader">acmStreamUnprepareHeader</a> function before freeing the source and destination buffers.
 
 ## -see-also
 
@@ -153,13 +153,12 @@ Audio Compression Manager
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/audio-compression-structures">Audio Compression Structures</a>
+<a href="/windows/desktop/Multimedia/audio-compression-structures">Audio Compression Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a>
+<a href="/windows/desktop/api/msacm/nf-msacm-acmstreamprepareheader">acmStreamPrepareHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmstreamunprepareheader">acmStreamUnprepareHeader</a>
-
+<a href="/windows/desktop/api/msacm/nf-msacm-acmstreamunprepareheader">acmStreamUnprepareHeader</a>

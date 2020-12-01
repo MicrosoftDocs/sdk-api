@@ -62,11 +62,11 @@ Handle to the MIDI output device. This parameter can also be the handle of a MID
 
 ### -param pmh
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure that identifies the MIDI buffer.
+Pointer to a <a href="/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure that identifies the MIDI buffer.
 
 ### -param cbmh
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
+Size, in bytes, of the <a href="/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
 
 ## -returns
 
@@ -125,9 +125,8 @@ The specified pointer or structure is invalid.
 
 ## -remarks
 
-Before the buffer is passed to <b>midiOutLongMsg</b>, it must be prepared by using the <a href="https://docs.microsoft.com/previous-versions/dd798477(v=vs.85)">midiOutPrepareHeader</a> function. The MIDI output device driver determines whether the data is sent synchronously or asynchronously.
+Before the buffer is passed to <b>midiOutLongMsg</b>, it must be prepared by using the <a href="/previous-versions/dd798477(v=vs.85)">midiOutPrepareHeader</a> function. The MIDI output device driver determines whether the data is sent synchronously or asynchronously.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-
+<a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>

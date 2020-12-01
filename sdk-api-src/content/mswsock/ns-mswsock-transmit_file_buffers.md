@@ -56,7 +56,7 @@ api_name:
 
 The 
 <b>TRANSMIT_FILE_BUFFERS</b> structure specifies data to be transmitted before and after file data during a 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a> function file transfer operation.
+<a href="/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a> function file transfer operation.
 
 ## -struct-fields
 
@@ -78,5 +78,4 @@ Size of the buffer pointed to <b>Tail</b>, in bytes, to be transmitted.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a>
-
+<a href="/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a>

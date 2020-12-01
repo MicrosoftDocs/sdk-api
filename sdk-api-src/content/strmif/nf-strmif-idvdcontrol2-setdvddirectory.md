@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <code>SetDVDDirectory</code> method sets the DVD drive that the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter will read from.
+The <code>SetDVDDirectory</code> method sets the DVD drive that the <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a> filter will read from.
 
 ## -parameters
 
@@ -144,7 +144,7 @@ SetDVDDirectory(L"d:\\webdvd\\hidden");
 </td>
 </tr>
 </table></span></div>
-If the filter graph is running and the DVD Navigator finds a DVD in the directory specified by <i>pszwPath</i>, the DVD Navigator automatically begins playing the disc. This conforms with the DVD specification and ensures that the new disc is initialized properly. If you do not want the new disc to play automatically after <code>SetDVDDirectory</code> returns, you must set the DVD_ResetOnStop flag in <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">IDvdControl2::SetOption</a> to <b>TRUE</b> and stop the filter graph through a call to <a href="https://docs.microsoft.com/windows/desktop/api/control/nf-control-imediacontrol-stop">IMediaControl::Stop</a> on the Filter Graph Manager. If DVD_ResetOnStop is set to <b>FALSE</b>, then <code>SetDVDDirectory</code> returns VFW_E_DVD_INVALIDDOMAIN.
+If the filter graph is running and the DVD Navigator finds a DVD in the directory specified by <i>pszwPath</i>, the DVD Navigator automatically begins playing the disc. This conforms with the DVD specification and ensures that the new disc is initialized properly. If you do not want the new disc to play automatically after <code>SetDVDDirectory</code> returns, you must set the DVD_ResetOnStop flag in <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-setoption">IDvdControl2::SetOption</a> to <b>TRUE</b> and stop the filter graph through a call to <a href="/windows/desktop/api/control/nf-control-imediacontrol-stop">IMediaControl::Stop</a> on the Filter Graph Manager. If DVD_ResetOnStop is set to <b>FALSE</b>, then <code>SetDVDDirectory</code> returns VFW_E_DVD_INVALIDDOMAIN.
 
 This method is demonstrated in the DVDSample application in <b>CDvdCore::SetDirectory</b>.
 
@@ -165,13 +165,12 @@ The following table shows the Annex J command name to which this method name cor
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
+<a href="/windows/desktop/DirectShow/dvd-applications">DVD Applications</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
-
+<a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>

@@ -54,7 +54,7 @@ Exposes handler methods for drag-and-drop. Used by the namespace tree control to
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControlDropHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INameSpaceTreeControlDropHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INameSpaceTreeControlDropHandler</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>INameSpaceTreeControlDropHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>INameSpaceTreeControlDropHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondragenter">OnDragEnter</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondragenter">OnDragEnter</a>
 </td>
 <td align="left" width="63%">
 Called on drag enter to set drag effect, as specified.
@@ -78,7 +78,7 @@ Called on drag enter to set drag effect, as specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondragleave">OnDragLeave</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondragleave">OnDragLeave</a>
 </td>
 <td align="left" width="63%">
 Called on drag leave for a specified item.
@@ -87,7 +87,7 @@ Called on drag leave for a specified item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondragover">OnDragOver</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondragover">OnDragOver</a>
 </td>
 <td align="left" width="63%">
 Called on drag over to set drag effect, as specified.
@@ -96,7 +96,7 @@ Called on drag over to set drag effect, as specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondragposition">OnDragPosition</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondragposition">OnDragPosition</a>
 </td>
 <td align="left" width="63%">
 Called when the item is being dragged within the same level (within the same parent folder) in the tree.
@@ -105,7 +105,7 @@ Called when the item is being dragged within the same level (within the same par
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondrop">OnDrop</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondrop">OnDrop</a>
 </td>
 <td align="left" width="63%">
 Called on drop to set drop effect, as specified.
@@ -114,7 +114,7 @@ Called on drop to set drop effect, as specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondropposition">OnDropPosition</a>
+<a href="/windows/desktop/api/shobjidl/nf-shobjidl-inamespacetreecontroldrophandler-ondropposition">OnDropPosition</a>
 </td>
 <td align="left" width="63%">
 Called when the item is being dropped within the same level (within the same parent folder) in the tree.
@@ -125,13 +125,12 @@ Called when the item is being dropped within the same level (within the same par
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
+<a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
+<a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-inamespacetreecontrol">INameSpaceTreeControl</a>

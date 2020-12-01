@@ -60,13 +60,12 @@ The <b>LSA_FOREST_TRUST_DOMAIN_INFO</b> structure contains identifying informati
 
 ### -field Sid
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> of the domain.
+Pointer to the <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> of the domain.
 
 ### -field DnsName
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the DNS name of the domain.
+<a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the DNS name of the domain.
 
 ### -field NetbiosName
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the NetBIOS name of the domain.
-
+<a href="/windows/desktop/api/lsalookup/ns-lsalookup-lsa_unicode_string">LSA_UNICODE_STRING</a> structure that contains the NetBIOS name of the domain.

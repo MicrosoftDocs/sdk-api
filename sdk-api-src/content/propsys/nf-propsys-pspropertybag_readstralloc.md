@@ -56,9 +56,9 @@ Reads a string data value from a property in a property bag and allocates memory
 
 ### -param propBag [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
+Type: <b><a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
+A pointer to an <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)">IPropertyBag</a> object that represents the property bag in which the property is stored.
 
 ### -param propName [in]
 
@@ -70,7 +70,7 @@ A pointer to a null-terminated property name string.
 
 Type: <b>PWSTR*</b>
 
-When this function returns, contains a pointer to a string data value from a property in a property bag and allocates memory for the string that is read. The caller of the <a href="https://docs.microsoft.com/windows/desktop/api/propsys/nf-propsys-pspropertybag_readstralloc">PSPropertyBag_ReadStrAlloc</a> function needs to call a <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function on this parameter.
+When this function returns, contains a pointer to a string data value from a property in a property bag and allocates memory for the string that is read. The caller of the <a href="/windows/desktop/api/propsys/nf-propsys-pspropertybag_readstralloc">PSPropertyBag_ReadStrAlloc</a> function needs to call a <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function on this parameter.
 
 ## -returns
 
@@ -81,4 +81,3 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ## -remarks
 
 The property bag property function API converts between window types and the <b>VARIANT</b> type that is used to express values in a property bag. Doing so eases property bag usage, simplifies applications, and avoids common coding errors.
-

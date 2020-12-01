@@ -58,9 +58,9 @@ api_name:
 
 ## -description
 
-The <b>LookupAccountName</b> function accepts the name of a system and an account as input. It retrieves a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) for the account and the name of the domain on which the account was found.
+The <b>LookupAccountName</b> function accepts the name of a system and an account as input. It retrieves a <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID) for the account and the name of the domain on which the account was found.
 
-The <a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames">LsaLookupNames</a> function can also retrieve computer accounts.
+The <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames">LsaLookupNames</a> function can also retrieve computer accounts.
 
 ## -parameters
 
@@ -77,7 +77,7 @@ Use a fully qualified string in the domain_name\user_name format to ensure that 
 ### -param Sid [out, optional]
 
 A pointer to a buffer that receives the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that corresponds to the account name pointed to by the <i>lpAccountName</i> parameter. If this parameter is <b>NULL</b>, <i>cbSid</i> must be zero.
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structure that corresponds to the account name pointed to by the <i>lpAccountName</i> parameter. If this parameter is <b>NULL</b>, <i>cbSid</i> must be zero.
 
 ### -param cbSid [in, out]
 
@@ -94,20 +94,20 @@ A pointer to a variable. On input, this value specifies the size, in <b>TCHAR</b
 ### -param peUse [out]
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumerated type that indicates the type of the account when the function returns.
+<a href="/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumerated type that indicates the type of the account when the function returns.
 
 ## -returns
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. For extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
 The <b>LookupAccountName</b> function attempts to find a SID for the specified name by first checking a list of well-known SIDs. If the name does not correspond to a well-known SID, the function checks built-in and administratively defined local accounts. Next, the function checks the primary domain. If the name is not found there, trusted domains are checked.
 
-Use fully qualified account names (for example, domain_name\user_name) instead of isolated names (for example, user_name). Fully qualified names are unambiguous and provide better performance when the lookup is performed. This function also supports fully qualified DNS names (for example, example.example.com\user_name) and <a href="https://docs.microsoft.com/windows/desktop/SecGloss/u-gly">user principal names</a> (UPN) (for example, someone@example.com).
+Use fully qualified account names (for example, domain_name\user_name) instead of isolated names (for example, user_name). Fully qualified names are unambiguous and provide better performance when the lookup is performed. This function also supports fully qualified DNS names (for example, example.example.com\user_name) and <a href="/windows/desktop/SecGloss/u-gly">user principal names</a> (UPN) (for example, someone@example.com).
 
 In addition to looking up local accounts, local domain accounts, and explicitly trusted domain accounts, <b>LookupAccountName</b> can look up the name for any account in any domain in the forest.
 
@@ -120,33 +120,32 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/access-control">Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Basic Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalprefixsid">EqualPrefixSid</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-equalprefixsid">EqualPrefixSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getusernamea">GetUserName</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-getusernamea">GetUserName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a>
+<a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames2">LsaLookupNames2</a>
+<a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalookupnames2">LsaLookupNames2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>
-
+<a href="/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>

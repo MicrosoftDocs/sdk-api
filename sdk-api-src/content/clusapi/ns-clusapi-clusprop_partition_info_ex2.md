@@ -50,20 +50,19 @@ api_name:
 
 ## -description
 
-A value list entry that contains partition information for a storage class resource. This structure is as a input, and a as a return value for the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/clusctl-resource-storage-get-disk-info-ex2">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO_EX2</a> control code.
+A value list entry that contains partition information for a storage class resource. This structure is as a input, and a as a return value for the <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-storage-get-disk-info-ex2">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO_EX2</a> control code.
 
 ## -struct-fields
 
 ### -field CLUSPROP_PARTITION_INFO_EX
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info_ex">CLUSPROP_PARTITION_INFO_EX</a> structure that describes the format, 
+A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_partition_info_ex">CLUSPROP_PARTITION_INFO_EX</a> structure that describes the format, 
      type, and length of the partition information.
 
 ### -field CLUS_PARTITION_INFO_EX2
 
-A <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info_ex2">CLUS_PARTITION_INFO_EX2</a> structure that contains the values of the partition information.
+A <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clus_partition_info_ex2">CLUS_PARTITION_INFO_EX2</a> structure that contains the values of the partition information.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>

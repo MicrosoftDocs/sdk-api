@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Description of a state object. Pass a value of this structure type to [ID3D12Device5::CreateStateObject](/windows/win32/api/d3d12/nf-d3d12-id3d12device5-createstateobject).
+Description of a state object. Pass a value of this structure type to [ID3D12Device5::CreateStateObject](./nf-d3d12-id3d12device5-createstateobject.md).
 
 ## -struct-fields
 
@@ -65,4 +65,3 @@ Size of the <i>pSubobjects</i> array.
 ### -field pSubobjects
 
 An array of subobject definitions.
-

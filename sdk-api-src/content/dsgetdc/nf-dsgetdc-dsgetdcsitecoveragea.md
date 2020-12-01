@@ -66,7 +66,7 @@ Pointer to a <b>ULONG</b> value that receives  the number of sites covered by th
 
 ### -param SiteNames [out]
 
-Pointer to an array of pointers to null-terminated strings that receives the site names. To free the returned buffer, call the <a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
+Pointer to an array of pointers to null-terminated strings that receives the site names. To free the returned buffer, call the <a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a> function.
 
 ## -returns
 
@@ -74,18 +74,17 @@ This function returns DSGETDCAPI DWORD.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
+<a href="/windows/desktop/AD/directory-service-functions">Directory Service Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetsitenamea">DsGetSiteName</a>
+<a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetsitenamea">DsGetSiteName</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
+<a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
 
 ## -remarks
 
 > [!NOTE]
 > The dsgetdc.h header defines DsGetDcSiteCoverage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

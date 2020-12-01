@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-Selects a range of characters in an edit or rich edit control. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setsel">EM_SETSEL</a> message explicitly.
+Selects a range of characters in an edit or rich edit control. You can use this macro or send the <a href="/windows/desktop/Controls/em-setsel">EM_SETSEL</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the control.
 
@@ -74,5 +74,4 @@ The ending character position of the selection.
 
 ## -remarks
 
-For more information, see <a href="https://docs.microsoft.com/windows/desktop/Controls/em-setsel">EM_SETSEL</a>.
-
+For more information, see <a href="/windows/desktop/Controls/em-setsel">EM_SETSEL</a>.

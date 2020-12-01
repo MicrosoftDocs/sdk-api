@@ -54,7 +54,7 @@ The <b>ITfUIElementSink</b> interface is implemented by an application to receiv
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfUIElementSink</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfUIElementSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfUIElementSink</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ITfUIElementSink</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ITfUIElementSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielementsink-beginuielement">BeginUIElement</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfuielementsink-beginuielement">BeginUIElement</a>
 </td>
 <td align="left" width="63%">
 This is called when the UIElement started. This sink can let the textservice to draw or not to draw the UI element.
@@ -78,7 +78,7 @@ This is called when the UIElement started. This sink can let the textservice to 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielementsink-enduielement">EndUIElement</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfuielementsink-enduielement">EndUIElement</a>
 </td>
 <td align="left" width="63%">
 This is called when the UIElement is finished.
@@ -87,7 +87,7 @@ This is called when the UIElement is finished.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfuielementsink-updateuielement">UpdateUIElement</a>
+<a href="/windows/desktop/api/msctf/nf-msctf-itfuielementsink-updateuielement">UpdateUIElement</a>
 </td>
 <td align="left" width="63%">
 This is called when the contents of the UIElement is updated.
@@ -98,5 +98,4 @@ This is called when the contents of the UIElement is updated.
 
 ## -remarks
 
-To install this advise sink, obtain an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> object from an <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">ITfUIElementMgr</a> object by calling <b>ITfUIElementMgr::QueryInterface</b> with IID_ ITfSource. Then call <a href="https://docs.microsoft.com/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ ITfUIElementSink.
-
+To install this advise sink, obtain an <a href="/windows/desktop/api/msctf/nn-msctf-itfsource">ITfSource</a> object from an <a href="/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">ITfUIElementMgr</a> object by calling <b>ITfUIElementMgr::QueryInterface</b> with IID_ ITfSource. Then call <a href="/windows/desktop/api/msctf/nf-msctf-itfsource-advisesink">ITfSource::AdviseSink</a> with IID_ ITfUIElementSink.

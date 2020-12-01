@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>NameFromSid</b> method gets the display name that corresponds to the specified <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
+The <b>NameFromSid</b> method gets the display name that corresponds to the specified <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID).
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The string representation of the SID to translate.
 
 ### -param pSidType [out]
 
-An element of the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumeration that specifies the type of SID being translated.
+An element of the <a href="/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a> enumeration that specifies the type of SID being translated.
 
 ### -param pbstrName [out]
 
@@ -70,5 +70,4 @@ A pointer to the display name of the principal that corresponds to the SID speci
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. In particular, if the method cannot find the display name of the principal, it returns <b>CO_E_NOMATCHINGNAMEFOUND</b>. For a list of other common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-
+If the method fails, it returns an error code. In particular, if the method cannot find the display name of the principal, it returns <b>CO_E_NOMATCHINGNAMEFOUND</b>. For a list of other common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.

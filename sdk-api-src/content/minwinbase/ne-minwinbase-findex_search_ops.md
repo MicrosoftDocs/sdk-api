@@ -53,7 +53,7 @@ api_name:
 ## -description
 
 Defines values that are used with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> function to specify the type of 
+    <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> function to specify the type of 
     filtering to perform.
 
 ## -enum-fields
@@ -64,7 +64,7 @@ The search for a file that matches a specified file name.
       
 
 The <i>lpSearchFilter</i> parameter of 
-       <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> must be 
+       <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> must be 
        <b>NULL</b> when this search operation is used.
 
 ### -field FindExSearchLimitToDirectories
@@ -74,9 +74,9 @@ If the file system supports directory filtering, the function searches for a fil
 If the file system does not support directory filtering, this flag is silently ignored.
 
 
-The <i>lpSearchFilter</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> function must be <b>NULL</b> when this search value is used.
+The <i>lpSearchFilter</i> parameter of the <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> function must be <b>NULL</b> when this search value is used.
 
-If directory filtering is desired, this flag can be used on all file systems, but because it is  an advisory flag and  only affects file systems that support it, the application must examine the file attribute data stored in the <i>lpFindFileData</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> function to determine whether the function has  returned a handle to a directory.
+If directory filtering is desired, this flag can be used on all file systems, but because it is  an advisory flag and  only affects file systems that support it, the application must examine the file attribute data stored in the <i>lpFindFileData</i> parameter of the <a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a> function to determine whether the function has  returned a handle to a directory.
 
 ### -field FindExSearchLimitToDevices
 
@@ -84,11 +84,10 @@ This filtering type is not available.
       
 
 For more information, see 
-       <a href="https://msdn.microsoft.com/library/ff541339.aspx">Device Interface Classes</a>.
+       <a href="/windows-hardware/drivers/install/overview-of-device-interface-classes">Device Interface Classes</a>.
 
 ### -field FindExSearchMaxSearchOp
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>
-
+<a href="/windows/desktop/api/fileapi/nf-fileapi-findfirstfileexa">FindFirstFileEx</a>

@@ -56,7 +56,7 @@ The <b>GetData</b> method returns performance data for the Stream Buffer Engine.
 
 ### -param pPinData [in]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/ns-sbe-sbe_pin_data">SBE_PIN_DATA</a> structure. The method fills the structure with the current performance data.
+Pointer to an <a href="/previous-versions/windows/desktop/api/sbe/ns-sbe-sbe_pin_data">SBE_PIN_DATA</a> structure. The method fills the structure with the current performance data.
 
 ## -returns
 
@@ -82,5 +82,4 @@ The method succeeded.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferdatacounters">IStreamBufferDataCounters Interface</a>
-
+<a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferdatacounters">IStreamBufferDataCounters Interface</a>

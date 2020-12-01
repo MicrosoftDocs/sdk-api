@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>capCaptureSingleFrameOpen</b> macro opens the capture file for single-frame capturing. Any previous information in the capture file is overwritten. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/wm-cap-single-frame-open">WM_CAP_SINGLE_FRAME_OPEN</a> message.
+The <b>capCaptureSingleFrameOpen</b> macro opens the capture file for single-frame capturing. Any previous information in the capture file is overwritten. You can use this macro or explicitly send the <a href="/windows/desktop/Multimedia/wm-cap-single-frame-open">WM_CAP_SINGLE_FRAME_OPEN</a> message.
 
 ## -parameters
 
@@ -60,13 +60,12 @@ Handle to a capture window.
 
 ## -remarks
 
-For information about installing callback functions, see the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonerror">capSetCallbackOnError</a> and <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-capsetcallbackonframe">capSetCallbackOnFrame</a> macros.
+For information about installing callback functions, see the <a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackonerror">capSetCallbackOnError</a> and <a href="/windows/desktop/api/vfw/nf-vfw-capsetcallbackonframe">capSetCallbackOnFrame</a> macros.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture">Video Capture</a>
+<a href="/windows/desktop/Multimedia/video-capture">Video Capture</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>
-
+<a href="/windows/desktop/Multimedia/video-capture-macros">Video Capture Macros</a>

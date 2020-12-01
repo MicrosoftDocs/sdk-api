@@ -70,5 +70,4 @@ A byte array that contains the address of the NetName.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-
+<a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>

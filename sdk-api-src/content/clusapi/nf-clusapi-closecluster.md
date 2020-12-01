@@ -74,15 +74,14 @@ Do not close a cluster handle if there are any object handles still in use that 
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a>.
+See <a href="/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a>.
 
 <div class="code"></div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-createcluster">CreateCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>

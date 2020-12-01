@@ -50,11 +50,11 @@ api_name:
 
 ## -description
 
-The <code>IAMExtendedSeeking</code> interface seeks to a marker in a Windows Media stream or changes the playback rate for a Windows Media file. This interface is implemented by the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter and the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/wm-asf-reader-filter">WM ASF Reader</a> filter.
+The <code>IAMExtendedSeeking</code> interface seeks to a marker in a Windows Media stream or changes the playback rate for a Windows Media file. This interface is implemented by the <a href="/windows/desktop/DirectShow/windows-media-source-filter">Windows Media Source</a> filter and the <a href="/windows/desktop/DirectShow/wm-asf-reader-filter">WM ASF Reader</a> filter.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMExtendedSeeking</b> interface inherits from the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMExtendedSeeking</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMExtendedSeeking</b> interface inherits from the <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a> interface. <b>IAMExtendedSeeking</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IAMExtendedSeeking</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_currentmarker">get_CurrentMarker</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_currentmarker">get_CurrentMarker</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current marker.
@@ -78,7 +78,7 @@ Retrieves the current marker.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_exseekcapabilities">get_ExSeekCapabilities</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_exseekcapabilities">get_ExSeekCapabilities</a>
 </td>
 <td align="left" width="63%">
 Retrieves the extended seeking capabilities of the filter.
@@ -87,7 +87,7 @@ Retrieves the extended seeking capabilities of the filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_markercount">get_MarkerCount</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_markercount">get_MarkerCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of markers in the current stream.
@@ -96,7 +96,7 @@ Retrieves the number of markers in the current stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_playbackspeed">get_PlaybackSpeed</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-get_playbackspeed">get_PlaybackSpeed</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current playback speed.
@@ -105,7 +105,7 @@ Retrieves the current playback speed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-getmarkername">GetMarkerName</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-getmarkername">GetMarkerName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name associated with the specified marker.
@@ -114,7 +114,7 @@ Retrieves the name associated with the specified marker.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-getmarkertime">GetMarkerTime</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-getmarkertime">GetMarkerTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the presentation time associated with the specified marker.
@@ -123,7 +123,7 @@ Retrieves the presentation time associated with the specified marker.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-put_playbackspeed">put_PlaybackSpeed</a>
+<a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-put_playbackspeed">put_PlaybackSpeed</a>
 </td>
 <td align="left" width="63%">
 Sets the playback speed.
@@ -145,9 +145,8 @@ To define the interface identifier, include the header file Initguid.h before Qn
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
+<a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/interfaces">Interfaces</a>

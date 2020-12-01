@@ -109,35 +109,34 @@ The <b>PeerGetNextItem</b> function returns  the following:
 </ul>
 <div class="alert"><b>Note</b>  For example, when the inbound value of <i>pCount</i> is 10 and the remainder of the enumeration is 5 items, only 5 items are returned and the value pointed to by <i>pCount</i> is set to 5.</div>
 <div> </div>
-All items returned must be freed by passing a pointer to the array of pointers  to the <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a> function.
+All items returned must be freed by passing a pointer to the array of pointers  to the <a href="/windows/desktop/api/p2p/nf-p2p-peerfreedata">PeerFreeData</a> function.
 
 The end of an enumeration is indicated when the function returns with the <i>pCount</i> parameter set to zero (0).
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerenumgroups">PeerEnumGroups</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peerenumgroups">PeerEnumGroups</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerenumidentities">PeerEnumIdentities</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peerenumidentities">PeerEnumIdentities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerGetEndEnumeration</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peerendenumeration">PeerGetEndEnumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergetitemcount">PeerGetItemCount</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergetitemcount">PeerGetItemCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenumconnections">PeerGroupEnumConnections</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupenumconnections">PeerGroupEnumConnections</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a>
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupenummembers">PeerGroupEnumMembers</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupenumrecords">PeerGroupEnumRecords</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupenumrecords">PeerGroupEnumRecords</a>

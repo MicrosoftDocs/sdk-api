@@ -53,17 +53,17 @@ api_name:
 
 ## -description
 
-The <b>timeGetSystemTime</b> function retrieves the system time, in milliseconds. The system time is the time elapsed since Windows was started. This function works very much like the <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timegettime">timeGetTime</a> function. See <b>timeGetTime</b> for details of these functions' operation.
+The <b>timeGetSystemTime</b> function retrieves the system time, in milliseconds. The system time is the time elapsed since Windows was started. This function works very much like the <a href="/windows/desktop/api/timeapi/nf-timeapi-timegettime">timeGetTime</a> function. See <b>timeGetTime</b> for details of these functions' operation.
 
 ## -parameters
 
 ### -param pmmt
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
+Pointer to an <a href="/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
 
 ### -param cbmmt
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
+Size, in bytes, of the <a href="/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
 
 ## -returns
 
@@ -71,13 +71,12 @@ If successful, returns <b>TIMERR_NOERROR</b>. Otherwise, returns an error code.
 
 ## -remarks
 
-The system time is returned in the <b>ms</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
+The system time is returned in the <b>ms</b> member of the <a href="/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timer-functions">Multimedia Timer Functions</a>
+<a href="/windows/desktop/Multimedia/multimedia-timer-functions">Multimedia Timer Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>
-
+<a href="/windows/desktop/Multimedia/multimedia-timers">Multimedia Timers</a>

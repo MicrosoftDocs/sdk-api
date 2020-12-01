@@ -56,7 +56,7 @@ The interface ID is IID_IAnchor.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAnchor</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAnchor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAnchor</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAnchor</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IAnchor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-clearchangehistory">ClearChangeHistory</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-clearchangehistory">ClearChangeHistory</a>
 </td>
 <td align="left" width="63%">
 Clears the change history flags.
@@ -80,7 +80,7 @@ Clears the change history flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-clone">Clone</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-clone">Clone</a>
 </td>
 <td align="left" width="63%">
 Produces a new anchor object positioned at the same location, and with the same gravity, as the current anchor.
@@ -89,7 +89,7 @@ Produces a new anchor object positioned at the same location, and with the same 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-compare">Compare</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-compare">Compare</a>
 </td>
 <td align="left" width="63%">
 Compares the relative position of two anchors within a text stream.
@@ -98,7 +98,7 @@ Compares the relative position of two anchors within a text stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-getchangehistory">GetChangeHistory</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-getchangehistory">GetChangeHistory</a>
 </td>
 <td align="left" width="63%">
 Gets the change history of deletions that have occurred immediately preceding or following the anchor.
@@ -107,7 +107,7 @@ Gets the change history of deletions that have occurred immediately preceding or
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-getgravity">GetGravity</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-getgravity">GetGravity</a>
 </td>
 <td align="left" width="63%">
 Retrieves the gravity of the anchor.
@@ -116,7 +116,7 @@ Retrieves the gravity of the anchor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-isequal">IsEqual</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-isequal">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Specifies the equality or inequality of the positions of two anchors.
@@ -125,7 +125,7 @@ Specifies the equality or inequality of the positions of two anchors.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-setchangehistorymask">SetChangeHistoryMask</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-setchangehistorymask">SetChangeHistoryMask</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -134,7 +134,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-setgravity">SetGravity</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-setgravity">SetGravity</a>
 </td>
 <td align="left" width="63%">
 Sets the gravity of the anchor.
@@ -143,7 +143,7 @@ Sets the gravity of the anchor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shift">Shift</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-shift">Shift</a>
 </td>
 <td align="left" width="63%">
 Shifts the anchor forward or backward.
@@ -152,7 +152,7 @@ Shifts the anchor forward or backward.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shiftregion">ShiftRegion</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-shiftregion">ShiftRegion</a>
 </td>
 <td align="left" width="63%">
 Shifts the anchor into an adjacent region in the text stream.
@@ -161,7 +161,7 @@ Shifts the anchor into an adjacent region in the text stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/textstor/nf-textstor-ianchor-shiftto">ShiftTo</a>
+<a href="/windows/desktop/api/textstor/nf-textstor-ianchor-shiftto">ShiftTo</a>
 </td>
 <td align="left" width="63%">
 Shifts the current anchor to the same position as another anchor.
@@ -172,9 +172,8 @@ Shifts the current anchor to the same position as another anchor.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
+<a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
 
 
 <a href="/previous-versions/ms971350(v=msdn.10)">Microsoft Active Accessibility</a>
-

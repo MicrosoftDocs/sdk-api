@@ -56,8 +56,8 @@ api_name:
 
 The 
 <b>LINEDEVSTATUS</b> structure describes the current status of a line device. The 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetlinedevstatus">lineGetLineDevStatus</a> function and the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetlinedevstatus">TSPI_lineGetLineDevStatus</a> function return the 
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetlinedevstatus">lineGetLineDevStatus</a> function and the 
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetlinedevstatus">TSPI_lineGetLineDevStatus</a> function return the 
 <b>LINEDEVSTATUS</b> structure.
 
 ## -struct-fields
@@ -97,7 +97,7 @@ Number of calls on the line in the <i>onholdpendingtransfer</i> or <i>onholdpend
 ### -field dwLineFeatures
 
 Line-related functions that are currently available on this line. This member uses one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linefeature--constants">LINEFEATURE_ Constants</a>.
+<a href="/windows/desktop/Tapi/linefeature--constants">LINEFEATURE_ Constants</a>.
 
 ### -field dwNumCallCompletions
 
@@ -118,12 +118,12 @@ Current battery level of the line device hardware. This is a value in the range 
 ### -field dwRoamMode
 
 Current roam mode of the line device. This member uses one of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/lineroammode--constants">LINEROAMMODE_ Constants</a>.
+<a href="/windows/desktop/Tapi/lineroammode--constants">LINEROAMMODE_ Constants</a>.
 
 ### -field dwDevStatusFlags
 
 Flags that indicate status information, such as whether the device is locked. It consists of one or more members of 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linedevstatusflags--constants">LINEDEVSTATUSFLAGS_ Constants</a>.
+<a href="/windows/desktop/Tapi/linedevstatusflags--constants">LINEDEVSTATUSFLAGS_ Constants</a>.
 
 ### -field dwTerminalModesSize
 
@@ -132,8 +132,8 @@ Size of the variably-sized device field containing an array of current terminal 
 ### -field dwTerminalModesOffset
 
 Offset from the beginning of the structure to an array of current terminal modes, in bytes. This array is indexed by terminal IDs, in the range from zero to <b>dwNumTerminals</b> minus one. Each entry in the array specifies the current terminal modes for the corresponding terminal set using the 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a> function for this line. Each entry is a <b>DWORD</b> that specifies one or more of the 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/linetermmode--constants">LINETERMMODE_ Constants</a>. The size of the array is specified by <b>dwTerminalModesSize</b>.
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a> function for this line. Each entry is a <b>DWORD</b> that specifies one or more of the 
+<a href="/windows/desktop/Tapi/linetermmode--constants">LINETERMMODE_ Constants</a>. The size of the array is specified by <b>dwTerminalModesSize</b>.
 
 ### -field dwDevSpecificSize
 
@@ -146,7 +146,7 @@ Offset from the beginning of the structure to the device-specific field, in byte
 ### -field dwAvailableMediaModes
 
 Indicates the media types that can be invoked on new calls created on this line device, when the <b>dwLineFeatures</b> member indicates that new calls are possible. If this member is zero, it indicates that the service provider either does not know or cannot indicate which media types are available, in which case any or all of the media types indicated in the <b>dwMediaModes</b> member in 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> may be available.
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a> may be available.
 
 ### -field dwAppInfoSize
 
@@ -155,7 +155,7 @@ Size of the array that identifies the applications that have the line open, in b
 ### -field dwAppInfoOffset
 
 Offset from the beginning of the structure to an array of 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineappinfo">LINEAPPINFO</a> structures. The <b>dwNumOpens</b> member indicates the number of elements in the array. Each element in the array identifies an application that has the line open. The size of the array is specified by <b>dwAppInfoSize</b>.
+<a href="/windows/desktop/api/tapi/ns-tapi-lineappinfo">LINEAPPINFO</a> structures. The <b>dwNumOpens</b> member indicates the number of elements in the array. Each element in the array identifies an application that has the line open. The size of the array is specified by <b>dwAppInfoSize</b>.
 
 ## -remarks
 
@@ -165,21 +165,20 @@ The members <b>dwAvailableMediaModes</b> through <b>dwAppInfoOffset</b> are avai
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-lineappinfo">LINEAPPINFO</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-lineappinfo">LINEAPPINFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
+<a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tspi/nf-tspi-tspi_linegetlinedevstatus">TSPI_lineGetLineDevStatus</a>
+<a href="/windows/desktop/api/tspi/nf-tspi-tspi_linegetlinedevstatus">TSPI_lineGetLineDevStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linegetlinedevstatus">lineGetLineDevStatus</a>
+<a href="/windows/desktop/api/tapi/nf-tapi-linegetlinedevstatus">lineGetLineDevStatus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linesetterminal">lineSetTerminal</a>

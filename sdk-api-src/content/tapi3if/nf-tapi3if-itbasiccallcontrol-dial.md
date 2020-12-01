@@ -58,7 +58,7 @@ The
 ### -param pDestAddress [in]
 
 Pointer to <b>BSTR</b> representation of address to be dialed. The format must conform to a standard 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-ovr">dialable address</a>.
+<a href="/windows/desktop/Tapi/address-ovr">dialable address</a>.
 
 ## -returns
 
@@ -118,46 +118,45 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 ## -remarks
 
 The application must use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pDestAddress</i> parameter and use 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a> to allocate memory for the <i>pDestAddress</i> parameter and use 
+<a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory when the variable is no longer needed.
 
 In some cases, the application may need to use the address translation interfaces (
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation">ITAddressTranslation</a> and 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a>) to obtain a <i>pDestAddress</i> string in the proper format.
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation">ITAddressTranslation</a> and 
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a>) to obtain a <i>pDestAddress</i> string in the proper format.
 
 The 
 <b>Dial</b> method differs from 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a> in that the call already exists. An example use is dialing an extension.
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a> in that the call already exists. An example use is dialing an extension.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/call-object">Call Object</a>
+<a href="/windows/desktop/Tapi/call-object">Call Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/dial-ovr">Dial overview</a>
+<a href="/windows/desktop/Tapi/dial-ovr">Dial overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Tapi/address-ovr">Dialable Addresses</a>
+<a href="/windows/desktop/Tapi/address-ovr">Dialable Addresses</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>
+<a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation">ITAddressTranslation</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation">ITAddressTranslation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
+<a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/tapi/nf-tapi-linedial">lineDial</a>
-
+<a href="/windows/desktop/api/tapi/nf-tapi-linedial">lineDial</a>

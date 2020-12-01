@@ -54,7 +54,7 @@ Provides a schema repository that can be browsed.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISchemaProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISchemaProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISchemaProvider</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>ISchemaProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,17 +69,17 @@ The <b>ISchemaProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-entities">Entities</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-entities">Entities</a>
 </td>
 <td align="left" width="63%">
-Retrieves an enumeration of <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> objects with one entry for each entity in the loaded schema.
+Retrieves an enumeration of <a href="/windows/desktop/api/structuredquery/nn-structuredquery-ientity">IEntity</a> objects with one entry for each entity in the loaded schema.
       
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-getentity">GetEntity</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-getentity">GetEntity</a>
 </td>
 <td align="left" width="63%">
 Retrieves an entity by name from the loaded schema. 
@@ -88,7 +88,7 @@ Retrieves an entity by name from the loaded schema.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-localize">Localize</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-localize">Localize</a>
 </td>
 <td align="left" width="63%">
 Localizes the currently loaded schema for a specified locale.
@@ -97,7 +97,7 @@ Localizes the currently loaded schema for a specified locale.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-lookupauthorednamedentity">LookupAuthoredNamedEntity</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-lookupauthorednamedentity">LookupAuthoredNamedEntity</a>
 </td>
 <td align="left" width="63%">
 Finds named entities of a specified type in a tokenized string, and returns the value of the entity and the number of tokens the entity value occupies. 
@@ -106,17 +106,17 @@ Finds named entities of a specified type in a tokenized string, and returns the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-metadata">MetaData</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-metadata">MetaData</a>
 </td>
 <td align="left" width="63%">
-Retrieves an enumeration of global <a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nn-structuredquery-imetadata">IMetaData</a> objects for the loaded schema.
+Retrieves an enumeration of global <a href="/windows/desktop/api/structuredquery/nn-structuredquery-imetadata">IMetaData</a> objects for the loaded schema.
       
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-rootentity">RootEntity</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-rootentity">RootEntity</a>
 </td>
 <td align="left" width="63%">
 Retrieves the root entity of the loaded schema.
@@ -126,7 +126,7 @@ Retrieves the root entity of the loaded schema.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-savebinary">SaveBinary</a>
+<a href="/windows/desktop/api/structuredquery/nf-structuredquery-ischemaprovider-savebinary">SaveBinary</a>
 </td>
 <td align="left" width="63%">
 Saves the loaded schema as a schema binary at a specified path.
@@ -134,4 +134,3 @@ Saves the loaded schema as a schema binary at a specified path.
 </td>
 </tr>
 </table>
-

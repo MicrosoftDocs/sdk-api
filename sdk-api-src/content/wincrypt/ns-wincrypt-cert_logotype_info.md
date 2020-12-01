@@ -93,13 +93,12 @@ The logotype data is available through a reference. The <b>pLogotypeIndirectInfo
 
 ### -field DUMMYUNIONNAME.pLogotypeDirectInfo
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_data">CERT_LOGOTYPE_DATA</a> structure that contains the actual logotype data. This member is only used if the <b>dwLogotypeInfoChoice</b> member contains <b>CERT_LOGOTYPE_DIRECT_INFO_CHOICE</b>.
+The address of a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_data">CERT_LOGOTYPE_DATA</a> structure that contains the actual logotype data. This member is only used if the <b>dwLogotypeInfoChoice</b> member contains <b>CERT_LOGOTYPE_DIRECT_INFO_CHOICE</b>.
 
 ### -field DUMMYUNIONNAME.pLogotypeIndirectInfo
 
-The address of a <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_reference">CERT_LOGOTYPE_REFERENCE</a> structure that contains references to the logotype data. This member is only used if the <b>dwLogotypeInfoChoice</b> member contains <b>CERT_LOGOTYPE_INDIRECT_INFO_CHOICE</b>.
+The address of a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_reference">CERT_LOGOTYPE_REFERENCE</a> structure that contains references to the logotype data. This member is only used if the <b>dwLogotypeInfoChoice</b> member contains <b>CERT_LOGOTYPE_INDIRECT_INFO_CHOICE</b>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_ext_info">CERT_LOGOTYPE_EXT_INFO</a>
-
+<a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_ext_info">CERT_LOGOTYPE_EXT_INFO</a>

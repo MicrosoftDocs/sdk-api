@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[The <b>CryptCATGetMemberInfo</b> function is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CryptCATGetMemberInfo</b> function retrieves member information from the catalog's PKCS #7. In addition to retrieving the member information for a specified reference tag, this function opens a member context. This function has no associated import library. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
+The <b>CryptCATGetMemberInfo</b> function retrieves member information from the catalog's PKCS #7. In addition to retrieving the member information for a specified reference tag, this function opens a member context. This function has no associated import library. You must use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to dynamically link to Wintrust.dll.
 
 ## -parameters
 
@@ -66,9 +66,8 @@ A pointer to a <b>null</b>-terminated string that represents the reference tag f
 
 ## -returns
 
-A pointer to the [CRYPTCATMEMBER](https://docs.microsoft.com/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that contains the member information or <b>NULL</b>, if no information can be found.
+A pointer to the [CRYPTCATMEMBER](/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that contains the member information or <b>NULL</b>, if no information can be found.
 
 ## -remarks
 
 Do not free the returned pointer nor any of the members pointed to by the returned pointer.
-

@@ -50,13 +50,12 @@ api_name:
 
 ## -description
 
-Ascertains whether the drop list in a combo box control is visible. You can use this macro or send the <a href="https://docs.microsoft.com/windows/desktop/Controls/cb-getdroppedstate">CB_GETDROPPEDSTATE</a> message explicitly.
+Ascertains whether the drop list in a combo box control is visible. You can use this macro or send the <a href="/windows/desktop/Controls/cb-getdroppedstate">CB_GETDROPPEDSTATE</a> message explicitly.
 
 ## -parameters
 
 ### -param hwndCtl
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">HWND</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HWND</a></b>
 
 A handle to the combo box control.
-

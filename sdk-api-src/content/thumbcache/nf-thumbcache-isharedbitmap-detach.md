@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves the bitmap contained in an <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> object, and returns a copy if the contained bitmap resides in shared memory. After calling this method the bitmap is no longer associated with this <b>ISharedBitmap</b> and you cannot call <a href="https://docs.microsoft.com/windows/desktop/api/thumbcache/nf-thumbcache-isharedbitmap-getsharedbitmap">ISharedBitmap::GetSharedBitmap</a> or <b>ISharedBitmap::Detach</b> on it again.
+Retrieves the bitmap contained in an <a href="/windows/desktop/api/thumbcache/nn-thumbcache-isharedbitmap">ISharedBitmap</a> object, and returns a copy if the contained bitmap resides in shared memory. After calling this method the bitmap is no longer associated with this <b>ISharedBitmap</b> and you cannot call <a href="/windows/desktop/api/thumbcache/nf-thumbcache-isharedbitmap-getsharedbitmap">ISharedBitmap::GetSharedBitmap</a> or <b>ISharedBitmap::Detach</b> on it again.
 
 ## -parameters
 
@@ -71,4 +71,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 If the bitmap being retrieved resides in shared memory, a copy of the bitmap is returned.  The <b>Detach</b> method does not release any references to the underlying shared memory.
 
 If the bitmap being retrieved does not reside in shared memory, the bitmap itself is returned and no copy is made.
-

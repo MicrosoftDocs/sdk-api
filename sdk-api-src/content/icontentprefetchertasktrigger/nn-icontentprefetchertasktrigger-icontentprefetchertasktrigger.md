@@ -55,9 +55,8 @@ The <b>IContentPrefetcherTaskTrigger</b> interface supports content prefetching 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/uwp/api/windows.networking.backgroundtransfer.contentprefetcher">ContentPrefetcher</a>
+<a href="/uwp/api/windows.networking.backgroundtransfer.contentprefetcher">ContentPrefetcher</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
-
+<a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>

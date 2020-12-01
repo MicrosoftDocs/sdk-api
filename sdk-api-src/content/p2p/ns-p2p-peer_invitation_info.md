@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>PEER_INVITATION_INFO</b> structure defines information about an invitation to join a peer group. Invitations are represented as Unicode strings. To obtain this structure, pass the XML invitation string  created by <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupcreateinvitation">PeerGroupCreateInvitation</a> to <a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>.
+The <b>PEER_INVITATION_INFO</b> structure defines information about an invitation to join a peer group. Invitations are represented as Unicode strings. To obtain this structure, pass the XML invitation string  created by <a href="/windows/desktop/api/p2p/nf-p2p-peergroupcreateinvitation">PeerGroupCreateInvitation</a> to <a href="/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>.
 
 ## -struct-fields
 
@@ -225,9 +225,8 @@ Pointer to a <b>CERT_PUBLIC_KEY_INFO</b> structure that contains the recipient's
 
 ### -field authScheme
 
-<b>Windows Vista or later.</b>           The <a href="https://docs.microsoft.com/windows/desktop/api/p2p/ne-p2p-peer_group_authentication_scheme">PEER_GROUP_AUTHENTICATION_SCHEME</a> enumeration value that indicates the type of authentication used to validate the peer group invitee.
+<b>Windows Vista or later.</b>           The <a href="/windows/desktop/api/p2p/ne-p2p-peer_group_authentication_scheme">PEER_GROUP_AUTHENTICATION_SCHEME</a> enumeration value that indicates the type of authentication used to validate the peer group invitee.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>
-
+<a href="/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>

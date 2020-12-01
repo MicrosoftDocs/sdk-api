@@ -54,14 +54,14 @@ api_name:
     section. Support for this method was removed in Windows Server 2008 and this function does nothing and returns 
     <b>ERROR_CALL_NOT_IMPLEMENTED</b>.]
 
-Sets the priority order for the set of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/networks">networks</a> used for 
-    internal communication between cluster <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/nodes">nodes</a>. The <b>PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER</b> type defines a pointer to this function.
+Sets the priority order for the set of <a href="/previous-versions/windows/desktop/mscs/networks">networks</a> used for 
+    internal communication between cluster <a href="/previous-versions/windows/desktop/mscs/nodes">nodes</a>. The <b>PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER</b> type defines a pointer to this function.
 
 ## -parameters
 
 ### -param hCluster [in]
 
-Handle to the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/c-gly">cluster</a> to be affected.
+Handle to the <a href="/previous-versions/windows/desktop/mscs/c-gly">cluster</a> to be affected.
 
 ### -param NetworkCount [in]
 
@@ -78,7 +78,7 @@ Prioritized array of handles to network objects. The first handle in the array h
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
 If the operation fails, the function returns a 
-       <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error 
+       <a href="/windows/desktop/Debug/system-error-codes">system error code</a>. The following are possible error 
        codes.
 
 <table>
@@ -104,18 +104,17 @@ There was a duplicate network in <i>NetworkList</i>.
 
 Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and 
      can have additional destructive effects. For information on how LPC and RPC handles are created, see 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a> and 
-     <a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
+     <a href="/previous-versions/windows/desktop/mscs/using-object-handles">Using Object Handles</a> and 
+     <a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-clusterenum">ClusterEnum</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-clusterenum">ClusterEnum</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
+<a href="/windows/desktop/api/clusapi/nf-clusapi-opencluster">OpenCluster</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>
-
+<a href="/windows/desktop/api/clusapi/nf-clusapi-openclusternetwork">OpenClusterNetwork</a>

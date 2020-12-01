@@ -50,13 +50,13 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Note</b>  This interface has been deprecated. It will continue to be supported for backward compatibility with existing applications, but new applications should use the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2</a> interface.</div>
+<div class="alert"><b>Note</b>  This interface has been deprecated. It will continue to be supported for backward compatibility with existing applications, but new applications should use the <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2</a> interface.</div>
 <div> </div>
 This interface provides methods for registering and unregistering filters, and for looking up filters based on their characteristics.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterMapper</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterMapper</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFilterMapper</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFilterMapper</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IFilterMapper</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper-enummatchingfilters">EnumMatchingFilters</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper-enummatchingfilters">EnumMatchingFilters</a>
 </td>
 <td align="left" width="63%">
 Finds all filters matching specific requirements.
@@ -80,7 +80,7 @@ Finds all filters matching specific requirements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper-registerfilter">RegisterFilter</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper-registerfilter">RegisterFilter</a>
 </td>
 <td align="left" width="63%">
 Records the details of a filter in the registry.
@@ -89,7 +89,7 @@ Records the details of a filter in the registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper-registerfilterinstance">RegisterFilterInstance</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper-registerfilterinstance">RegisterFilterInstance</a>
 </td>
 <td align="left" width="63%">
 Registers an identifiable instance of a filter.
@@ -98,7 +98,7 @@ Registers an identifiable instance of a filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper-registerpin">RegisterPin</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper-registerpin">RegisterPin</a>
 </td>
 <td align="left" width="63%">
 Records the details of a pin in the registry.
@@ -107,7 +107,7 @@ Records the details of a pin in the registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper-registerpintype">RegisterPinType</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper-registerpintype">RegisterPinType</a>
 </td>
 <td align="left" width="63%">
 Adds a type for the pin to the registry.
@@ -116,7 +116,7 @@ Adds a type for the pin to the registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper-unregisterfilter">UnregisterFilter</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper-unregisterfilter">UnregisterFilter</a>
 </td>
 <td align="left" width="63%">
 Deletes a filter from the registry.
@@ -125,7 +125,7 @@ Deletes a filter from the registry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper-unregisterfilterinstance">UnregisterFilterInstance</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper-unregisterfilterinstance">UnregisterFilterInstance</a>
 </td>
 <td align="left" width="63%">
 Deletes an identifiable instance of a filter.
@@ -134,7 +134,7 @@ Deletes an identifiable instance of a filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-ifiltermapper-unregisterpin">UnregisterPin</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-ifiltermapper-unregisterpin">UnregisterPin</a>
 </td>
 <td align="left" width="63%">
 Deletes a pin from the registry.
@@ -145,5 +145,4 @@ Deletes a pin from the registry.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/deprecated-interfaces">Deprecated Interfaces</a>

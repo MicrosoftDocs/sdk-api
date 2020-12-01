@@ -57,25 +57,25 @@ Sets the constant buffers that the pixel shader pipeline stage uses, and enables
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Index into the device's zero-based array to begin setting constant buffers to (ranges from 0 to D3D11_COMMONSHADER_CONSTANT_BUFFER_API_SLOT_COUNT - 1).
 
 ### -param NumBuffers [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Number of buffers to set (ranges from 0 to D3D11_COMMONSHADER_CONSTANT_BUFFER_API_SLOT_COUNT - <i>StartSlot</i>).
 
 ### -param ppConstantBuffers [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>*</b>
+Type: <b><a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11buffer">ID3D11Buffer</a>*</b>
 
 Array of constant buffers being given to the device.
 
 ### -param pFirstConstant [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: <b>const <a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 An array that holds the offsets into the buffers that  <i>ppConstantBuffers</i> specifies.
             Each offset specifies where, from the shader's point of view, each constant buffer starts.
@@ -85,7 +85,7 @@ An array that holds the offsets into the buffers that  <i>ppConstantBuffers</i> 
 
 ### -param pNumConstants [in, optional]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
+Type: <b>const <a href="/windows/desktop/WinProg/windows-data-types">UINT</a>*</b>
 
 An array that holds the numbers of constants in the buffers that  <i>ppConstantBuffers</i> specifies.
             Each number specifies the number of constants that are contained in the constant buffer that the shader uses.
@@ -95,7 +95,7 @@ An array that holds the numbers of constants in the buffers that  <i>ppConstantB
 ## -remarks
 
 To enable the shader to access other parts of the buffer, call
-          <b>PSSetConstantBuffers1</b> instead of <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-pssetconstantbuffers">PSSetConstantBuffers</a>.
+          <b>PSSetConstantBuffers1</b> instead of <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-pssetconstantbuffers">PSSetConstantBuffers</a>.
           <b>PSSetConstantBuffers1</b> has additional parameters <i>pFirstConstant</i> and <i>pNumConstants</i>.
         
 
@@ -118,7 +118,7 @@ That is, the window is the range is from (value in an element of <i>pFirstConsta
 The runtime also drops the call to <b>PSSetConstantBuffers1</b> on existing drivers that do not support this offsetting.
         
 
-The runtime will emulate this feature for <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.
+The runtime will emulate this feature for <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.
           This feature is always available on new drivers for feature level 10 and higher.
         
 
@@ -129,7 +129,7 @@ Out of bounds access to the constant buffers from the shader to the range that i
         
 
 If <i>pFirstConstant</i> and <i>pNumConstants</i> arrays are <b>NULL</b>, you get the same result as if you were binding the entire buffer into view.
-          You get this same result if you call the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-pssetconstantbuffers">PSSetConstantBuffers</a> method.
+          You get this same result if you call the <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-pssetconstantbuffers">PSSetConstantBuffers</a> method.
           If the buffer is larger than the maximum constant buffer size that is supported by shaders (4096 elements), the shader can access only the first 4096 constants.
         
 
@@ -137,7 +137,7 @@ If either <i>pFirstConstant</i> or <i>pNumConstants</i> is <b>NULL</b>, the othe
         
 
 <h3><a id="Calling_PSSetConstantBuffers1_with_command_list_emulation"></a><a id="calling_pssetconstantbuffers1_with_command_list_emulation"></a><a id="CALLING_PSSETCONSTANTBUFFERS1_WITH_COMMAND_LIST_EMULATION"></a>Calling PSSetConstantBuffers1 with command list emulation</h3>
-The runtime's <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-command-list">command list</a> emulation of
+The runtime's <a href="/windows/desktop/direct3d11/overviews-direct3d-11-render-multi-thread-command-list">command list</a> emulation of
             <b>PSSetConstantBuffers1</b> sometimes doesn't actually change the offsets or sizes for the arrays of constant buffers.
             This behavior occurs when <b>PSSetConstantBuffers1</b> doesn't effectively change the constant buffers at the beginning and end of the range of slots that you set to update.
             This section shows how to work around this behavior.
@@ -206,5 +206,4 @@ If you change multiple constant buffers, set the first and last constant buffers
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>
-
+<a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>

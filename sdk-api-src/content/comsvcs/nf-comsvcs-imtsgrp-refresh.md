@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-Updates the list of <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers that was populated upon the creation of the object.
+Updates the list of <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> pointers that was populated upon the creation of the object.
 
 ## -parameters
 
@@ -60,5 +60,4 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/comsvcs/nn-comsvcs-imtsgrp">IMtsGrp</a>
-
+<a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtsgrp">IMtsGrp</a>

@@ -52,7 +52,7 @@ api_name:
 
 ## -description
 
-Contains a 128-bit random number for use with <a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM).
+Contains a 128-bit random number for use with <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a> (OPM).
 
 ## -struct-fields
 
@@ -66,9 +66,8 @@ Always use a cryptographically secure random-number generator to fill in this st
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/opm-structures">OPM Structures</a>
+<a href="/windows/desktop/medfound/opm-structures">OPM Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-
+<a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>

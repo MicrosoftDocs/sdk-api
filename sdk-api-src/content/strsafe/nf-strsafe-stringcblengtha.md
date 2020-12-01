@@ -56,7 +56,7 @@ Determines whether a  string exceeds the specified length, in bytes.
 
 <b>StringCbLength</b> is a replacement for the following functions:
 <ul>
-<li><a href="https://msdn.microsoft.com/library/78zh94ax.aspx">strlen, wcslen, _tcslen</a></li>
+<li><a href="/cpp/c-runtime-library/reference/strlen-wcslen-mbslen-mbslen-l-mbstrlen-mbstrlen-l">strlen, wcslen, _tcslen</a></li>
 </ul>
 
 ## -parameters
@@ -83,7 +83,7 @@ The number of bytes in <i>psz</i>, excluding those used for the terminating null
 
 Type: <b>HRESULT</b>
 
-This function can return one of the following values. It is strongly recommended that you use the <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
+This function can return one of the following values. It is strongly recommended that you use the <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a> and <a href="/windows/desktop/api/winerror/nf-winerror-failed">FAILED</a> macros to test the return value of this function.
 
 <table>
 <tr>
@@ -148,7 +148,7 @@ Compared to  the functions it replaces, <b>StringCbLength</b> is an additional t
  
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh305643(v=vs.85)">UnalignedStringCbLength</a> is an alias for this function.
+<a href="/previous-versions/windows/desktop/legacy/hh305643(v=vs.85)">UnalignedStringCbLength</a> is an alias for this function.
 
 
 
@@ -159,5 +159,4 @@ Compared to  the functions it replaces, <b>StringCbLength</b> is an additional t
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchlengtha">StringCchLength</a>
-
+<a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchlengtha">StringCchLength</a>

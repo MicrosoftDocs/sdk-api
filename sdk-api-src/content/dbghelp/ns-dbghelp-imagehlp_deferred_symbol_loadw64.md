@@ -96,7 +96,7 @@ This member can be one of the following values.
 ## -remarks
 
 This structure supersedes the <b>IMAGEHLP_DEFERRED_SYMBOL_LOAD</b> structure. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>IMAGEHLP_DEFERRED_SYMBOL_LOAD</b> is defined as follows in DbgHelp.h. 
+<a href="/windows/desktop/Debug/updated-platform-support">Updated Platform Support</a>. <b>IMAGEHLP_DEFERRED_SYMBOL_LOAD</b> is defined as follows in DbgHelp.h. 
 
 
 ```cpp
@@ -118,5 +118,4 @@ typedef struct _IMAGEHLP_DEFERRED_SYMBOL_LOAD {
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a>
-
+<a href="/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a>

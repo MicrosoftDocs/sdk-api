@@ -64,7 +64,7 @@ The <b>PointF</b> class encapsulates a point in a 2-D coordinate system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inconstpointf_)">PointF::PointF()</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inconstpointf_)">PointF::PointF()</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>PointF</b> object and initializes the 
@@ -75,7 +75,7 @@ Creates a <b>PointF</b> object and initializes the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inconstpointf_)">PointF::PointF(PointF&)</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inconstpointf_)">PointF::PointF(PointF&)</a>
 </td>
 <td align="left" width="63%">
 Creates a new <b>PointF</b> object and copies the data from another <b>PointF</b> object.
@@ -84,7 +84,7 @@ Creates a new <b>PointF</b> object and copies the data from another <b>PointF</b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inreal_inreal)">PointF::PointF(REAL,REAL)</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inreal_inreal)">PointF::PointF(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>PointF</b> object using two real numbers to specify the 
@@ -95,11 +95,11 @@ Creates a <b>PointF</b> object using two real numbers to specify the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inconstsizef_)">PointF::PointF(SizeF&)</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-pointf(inconstsizef_)">PointF::PointF(SizeF&)</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>PointF</b> object using a 
-			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object to specify the 
+			<a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a> object to specify the 
 			<b>X</b> and 
 			<b>Y</b> data members.
 
@@ -114,10 +114,10 @@ Creates a <b>PointF</b> object using a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-equals">PointF::Equals</a>
+<a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-equals">PointF::Equals</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-equals">PointF::Equals</a> method determines whether two 
+The <a href="/windows/desktop/api/gdiplustypes/nf-gdiplustypes-pointf-equals">PointF::Equals</a> method determines whether two 
 			<b>PointF</b> objects are equal. Two points are considered equal if they have the same 
 			<b>X</b> and 
 			<b>Y</b>  data members.
@@ -126,21 +126,20 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdip
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms534998(v=vs.85)">PointF::operator-(PointF&)</a>
+<a href="/previous-versions/ms534998(v=vs.85)">PointF::operator-(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/ms534998(v=vs.85)">PointF::operator-</a> method subtracts the <b>X</b> and <b>Y</b> data members of two <b>PointF</b> objects.
+The <a href="/previous-versions/ms534998(v=vs.85)">PointF::operator-</a> method subtracts the <b>X</b> and <b>Y</b> data members of two <b>PointF</b> objects.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms534997(v=vs.85)">PointF::operator+(PointF&)</a>
+<a href="/previous-versions/ms534997(v=vs.85)">PointF::operator+(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions/ms534997(v=vs.85)">PointF::operator+</a> method adds the <b>X</b> and <b>Y</b> data members of two <b>PointF</b> objects.
+The <a href="/previous-versions/ms534997(v=vs.85)">PointF::operator+</a> method adds the <b>X</b> and <b>Y</b> data members of two <b>PointF</b> objects.
 
 </td>
 </tr>
 </table>
-

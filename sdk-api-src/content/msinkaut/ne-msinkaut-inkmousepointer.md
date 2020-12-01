@@ -116,21 +116,20 @@ The hand mouse pointer.
 
 ### -field IMP_Custom
 
-The custom mouse pointer that the <a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mouseicon">MouseIcon</a> property specifies.
+The custom mouse pointer that the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mouseicon">MouseIcon</a> property specifies.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
+<a href="/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
+<a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit Control Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/tablet/inkpicture-control-reference">InkPicture Control Reference</a>
+<a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture Control Reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mousepointer">MousePointer Property</a>
-
+<a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mousepointer">MousePointer Property</a>

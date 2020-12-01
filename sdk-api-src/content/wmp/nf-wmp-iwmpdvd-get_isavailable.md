@@ -127,21 +127,20 @@ Every DVD is authored differently. The methods available during DVD playback and
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>
+<a href="/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpdvd-back">IWMPDVD::back</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-back">IWMPDVD::back</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpdvd-resume">IWMPDVD::resume</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-resume">IWMPDVD::resume</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpdvd-titlemenu">IWMPDVD::titleMenu</a>
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-titlemenu">IWMPDVD::titleMenu</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmp/nf-wmp-iwmpdvd-topmenu">IWMPDVD::topMenu</a>
-
+<a href="/windows/desktop/api/wmp/nf-wmp-iwmpdvd-topmenu">IWMPDVD::topMenu</a>

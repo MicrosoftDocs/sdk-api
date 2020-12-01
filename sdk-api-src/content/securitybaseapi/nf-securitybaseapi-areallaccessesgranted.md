@@ -57,7 +57,7 @@ api_name:
 
 ## -description
 
-The <b>AreAllAccessesGranted</b> function checks whether a set of requested access rights has been granted. The access rights are represented as bit flags in an <a href="https://docs.microsoft.com/windows/desktop/SecGloss/a-gly">access mask</a>.
+The <b>AreAllAccessesGranted</b> function checks whether a set of requested access rights has been granted. The access rights are represented as bit flags in an <a href="/windows/desktop/SecGloss/a-gly">access mask</a>.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ An access mask that specifies the access rights that have been granted.
 ### -param DesiredAccess [in]
 
 An access mask that specifies the access rights that have been requested. This mask must have been mapped from generic to specific and standard access rights, usually by calling the 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-mapgenericmask">MapGenericMask</a> function.
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-mapgenericmask">MapGenericMask</a> function.
 
 ## -returns
 
@@ -82,21 +82,20 @@ The <b>AreAllAccessesGranted</b> function is commonly used by a server applicati
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-areanyaccessesgranted">AreAnyAccessesGranted</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-areanyaccessesgranted">AreAnyAccessesGranted</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Client/Server Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
+<a href="/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-mapgenericmask">MapGenericMask</a>
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-mapgenericmask">MapGenericMask</a>

@@ -72,17 +72,16 @@ The vertical position of the point.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createpoint">CreatePoint</a>
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createpoint">CreatePoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createpointarray">CreatePointArray</a>
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createpointarray">CreatePointArray</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getpoint">IPropertyValue::GetPoint</a>
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getpoint">IPropertyValue::GetPoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getpointarray">IPropertyValue::GetPointArray</a>
-
+<a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getpointarray">IPropertyValue::GetPointArray</a>

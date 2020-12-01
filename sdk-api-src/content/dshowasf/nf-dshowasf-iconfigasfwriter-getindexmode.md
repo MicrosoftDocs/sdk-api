@@ -64,17 +64,16 @@ Returns S_OK if successful, or an <b>HRESULT</b> error code otherwise.
 
 ## -remarks
 
-Use this method to determine whether the WM ASF Writer is currently configured to write indexed ASF files. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-setindexmode">IConfigAsfWriter::SetIndexMode</a>.
+Use this method to determine whether the WM ASF Writer is currently configured to write indexed ASF files. For more information, see <a href="/windows/desktop/api/dshowasf/nf-dshowasf-iconfigasfwriter-setindexmode">IConfigAsfWriter::SetIndexMode</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
+<a href="/windows/desktop/DirectShow/creating-asf-files-in-directshow">Creating ASF Files in DirectShow</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
+<a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
-
+<a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>

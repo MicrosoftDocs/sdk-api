@@ -56,17 +56,17 @@ The <b>GetInnerRequest</b> method retrieves a nested request object.
 
 ### -param Level [in]
 
- A value of an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/ne-certenroll-innerrequestlevel">InnerRequestLevel</a> enumeration that specifies the envelopment level of the data to retrieve. You can use the <i>LevelNext</i> value to iterate through the nested levels or the <i>LevelInnermost</i> value to retrieve the most deeply nested request object. You cannot specify <i>LevelNext</i> for a PKCS #10 request.
+ A value of an <a href="/windows/desktop/api/certenroll/ne-certenroll-innerrequestlevel">InnerRequestLevel</a> enumeration that specifies the envelopment level of the data to retrieve. You can use the <i>LevelNext</i> value to iterate through the nested levels or the <i>LevelInnermost</i> value to retrieve the most deeply nested request object. You cannot specify <i>LevelNext</i> for a PKCS #10 request.
 
 ### -param ppValue [out]
 
-Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a> interface that contains the nested request. Call the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_type">Type</a> property to determine whether the inner request object is a PKCS #10 or a CMC request. Then call <b>QueryInterface</b> to retrieve the appropriate pointer.
+Address of a variable that receives a pointer to an <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a> interface that contains the nested request. Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequest-get_type">Type</a> property to determine whether the inner request object is a PKCS #10 or a CMC request. Then call <b>QueryInterface</b> to retrieve the appropriate pointer.
 
 ## -returns
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -97,25 +97,24 @@ A top-level request object can be a PKCS #10, PKCS #7, or CMC request. The follo
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequest">IX509CertificateRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
-
+<a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>

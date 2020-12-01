@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Retrieves an array of <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_events">OFFLINEFILES_EVENTS</a> enumeration values describing which events should not be received by the event sink. If a particular event is specified both in <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getincludedevents">IOfflineFilesEventsFilter::GetIncludedEvents</a> and <b>IOfflineFilesEventsFilter::GetExcludedEvents</b>, the event is excluded from this event sink.
+Retrieves an array of <a href="/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_events">OFFLINEFILES_EVENTS</a> enumeration values describing which events should not be received by the event sink. If a particular event is specified both in <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getincludedevents">IOfflineFilesEventsFilter::GetIncludedEvents</a> and <b>IOfflineFilesEventsFilter::GetExcludedEvents</b>, the event is excluded from this event sink.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ Specifies the maximum number of elements that can be stored in the array referen
 
 ### -param prgEvents [out]
 
-Contains the address of an array of <a href="https://docs.microsoft.com/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_events">OFFLINEFILES_EVENTS</a> enumeration values.  Place the <b>OFFLINEFILES_EVENT_XXXXXX</b> identifier in an array entry to specify that the corresponding event is not desired by this event sink.
+Contains the address of an array of <a href="/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_events">OFFLINEFILES_EVENTS</a> enumeration values.  Place the <b>OFFLINEFILES_EVENT_XXXXXX</b> identifier in an array entry to specify that the corresponding event is not desired by this event sink.
 
 ### -param pcEvents [out]
 
@@ -73,9 +73,8 @@ Return <b>S_OK</b> if implemented, <b>E_NOTIMPL</b> if not implemented.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileseventsfilter">IOfflineFilesEventsFilter</a>
+<a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileseventsfilter">IOfflineFilesEventsFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getincludedevents">IOfflineFilesEventsFilter::GetIncludedEvents</a>
-
+<a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefileseventsfilter-getincludedevents">IOfflineFilesEventsFilter::GetIncludedEvents</a>

@@ -60,7 +60,7 @@ The  handle to the paused node.
 
 ### -param eResumeFailbackType [in]
 
-The type of failback operation to use when cluster activity resumes. The available failback types are specified in the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_node_resume_failback_type">CLUSTER_NODE_RESUME_FAILBACK_TYPE</a> enumeration.
+The type of failback operation to use when cluster activity resumes. The available failback types are specified in the <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_node_resume_failback_type">CLUSTER_NODE_RESUME_FAILBACK_TYPE</a> enumeration.
 
 ### -param dwResumeFlagsReserved [in]
 
@@ -71,13 +71,12 @@ This parameter is reserved for future use.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://docs.microsoft.com/windows/desktop/Debug/system-error-codes">system error code</a>.
+the function returns a <a href="/windows/desktop/Debug/system-error-codes">system error code</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_node_resume_failback_type">CLUSTER_NODE_RESUME_FAILBACK_TYPE</a>
+<a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_node_resume_failback_type">CLUSTER_NODE_RESUME_FAILBACK_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>
-
+<a href="/previous-versions/windows/desktop/mscs/node-management-functions">Node Management Functions</a>

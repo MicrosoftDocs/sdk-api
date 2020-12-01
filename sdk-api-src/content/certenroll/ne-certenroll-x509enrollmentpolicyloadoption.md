@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The <b>X509EnrollmentPolicyLoadOption</b> enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-loadpolicy">LoadPolicy</a> method on the <a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> interface to specify how to retrieve policy from the policy server.
+The <b>X509EnrollmentPolicyLoadOption</b> enumeration is used by the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-loadpolicy">LoadPolicy</a> method on the <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a> interface to specify how to retrieve policy from the policy server.
 
 ## -enum-fields
 
@@ -72,5 +72,4 @@ Registers a thread to update a sequence number if there are changes to the templ
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-loadpolicy">LoadPolicy</a>
-
+<a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enrollmentpolicyserver-loadpolicy">LoadPolicy</a>

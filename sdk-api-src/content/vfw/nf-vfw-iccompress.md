@@ -71,7 +71,7 @@ Compressor should make this frame a key frame.
 
 ### -param lpbiOutput
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the output format.
 
 ### -param lpData
 
@@ -79,7 +79,7 @@ Pointer to an output buffer large enough to contain a compressed frame.
 
 ### -param lpbiInput
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the input format.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the input format.
 
 ### -param lpBits
 
@@ -106,17 +106,17 @@ Frame number.
 
 ### -param dwFrameSize
 
-Requested frame size, in bytes. Specify a nonzero value if the compressor supports a suggested frame size, as indicated by the presence of the <b>VIDCF_CRUNCH</b> flag returned by the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icgetinfo">ICGetInfo</a> function. If this flag is not set or a data rate for the frame is not specified, specify zero for this parameter.
+Requested frame size, in bytes. Specify a nonzero value if the compressor supports a suggested frame size, as indicated by the presence of the <b>VIDCF_CRUNCH</b> flag returned by the <a href="/windows/desktop/api/vfw/nf-vfw-icgetinfo">ICGetInfo</a> function. If this flag is not set or a data rate for the frame is not specified, specify zero for this parameter.
 
 A compressor might have to sacrifice image quality or make some other trade-off to obtain the size goal specified in this parameter.
 
 ### -param dwQuality
 
-Requested quality value for the frame. Specify a nonzero value if the compressor supports a suggested quality value, as indicated by the presence of the <b>VIDCF_QUALITY</b> flag returned by <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icgetinfo">ICGetInfo</a>. Otherwise, specify zero for this parameter.
+Requested quality value for the frame. Specify a nonzero value if the compressor supports a suggested quality value, as indicated by the presence of the <b>VIDCF_QUALITY</b> flag returned by <a href="/windows/desktop/api/vfw/nf-vfw-icgetinfo">ICGetInfo</a>. Otherwise, specify zero for this parameter.
 
 ### -param lpbiPrev
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the format of the previous frame.
+Pointer to a <a href="/windows/desktop/api/wingdi/ns-wingdi-bitmapinfoheader">BITMAPINFOHEADER</a> structure containing the format of the previous frame.
 
 ### -param lpPrev
 
@@ -128,17 +128,16 @@ Returns <b>ICERR_OK</b> if successful or an error otherwise.
 
 ## -remarks
 
-You can obtain the required by size of the output buffer by sending the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/icm-compress-get-size">ICM_COMPRESS_GET_SIZE</a> message (or by using the <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-iccompressgetsize">ICCompressGetSize</a> macro).
+You can obtain the required by size of the output buffer by sending the <a href="/windows/desktop/Multimedia/icm-compress-get-size">ICM_COMPRESS_GET_SIZE</a> message (or by using the <a href="/windows/desktop/api/vfw/nf-vfw-iccompressgetsize">ICCompressGetSize</a> macro).
 
 The compressor sets the contents of <i>lpdwFlags</i> to <b>AVIIF_KEYFRAME</b> when it creates a key frame. If your application creates AVI files, it should save the information returned for <i>lpckid</i> and <i>lpdwFlags</i> in the file.
 
-Compressors use <i>lpbiPrev</i> and <i>lpPrev</i> to perform temporal compression and require an external buffer to store the format and data of the previous frame. Specify <b>NULL</b> for <i>lpbiPrev</i> and <i>lpPrev</i> when compressing a key frame, when performing fast compression, or if the compressor has its own buffer to store the format and data of the previous image. Specify non-<b>NULL</b> values for these parameters if <a href="https://docs.microsoft.com/windows/desktop/api/vfw/nf-vfw-icgetinfo">ICGetInfo</a> returns the <b>VIDCF_TEMPORAL</b> flag, the compressor is performing normal compression, and the frame to compress is not a key frame.
+Compressors use <i>lpbiPrev</i> and <i>lpPrev</i> to perform temporal compression and require an external buffer to store the format and data of the previous frame. Specify <b>NULL</b> for <i>lpbiPrev</i> and <i>lpPrev</i> when compressing a key frame, when performing fast compression, or if the compressor has its own buffer to store the format and data of the previous image. Specify non-<b>NULL</b> values for these parameters if <a href="/windows/desktop/api/vfw/nf-vfw-icgetinfo">ICGetInfo</a> returns the <b>VIDCF_TEMPORAL</b> flag, the compressor is performing normal compression, and the frame to compress is not a key frame.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
+<a href="/windows/desktop/Multimedia/video-compression-functions">Video Compression Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-
+<a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>

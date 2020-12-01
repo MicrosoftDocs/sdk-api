@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-The <code>IAMClockAdjust</code> interface adjusts the reference clock. The <a href="https://docs.microsoft.com/windows/desktop/DirectShow/system-reference-clock">System Reference Clock</a> exposes this interface.
+The <code>IAMClockAdjust</code> interface adjusts the reference clock. The <a href="/windows/desktop/DirectShow/system-reference-clock">System Reference Clock</a> exposes this interface.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMClockAdjust</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMClockAdjust</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAMClockAdjust</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAMClockAdjust</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IAMClockAdjust</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamclockadjust-setclockdelta">SetClockDelta</a>
+<a href="/windows/desktop/api/strmif/nf-strmif-iamclockadjust-setclockdelta">SetClockDelta</a>
 </td>
 <td align="left" width="63%">
 Adjusts the clock time.
@@ -81,5 +81,4 @@ Adjusts the clock time.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/DirectShow/interfaces">Interfaces</a>
-
+<a href="/windows/desktop/DirectShow/interfaces">Interfaces</a>

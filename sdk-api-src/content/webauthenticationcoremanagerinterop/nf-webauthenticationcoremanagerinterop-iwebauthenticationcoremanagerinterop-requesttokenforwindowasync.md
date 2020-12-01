@@ -55,11 +55,11 @@ The window to be used as the owner for the window prompting the user for credent
 
 ### -param request
 
-Type: **[IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)\***
+Type: **[IInspectable](../inspectable/nn-inspectable-iinspectable.md)\***
 
 The web token request, given as an instance of the
 [WebTokenRequest](/uwp/api/windows.security.authentication.web.core.webtokenrequest)
-class type-casted to the [IInspectable](/windows/win32/api/inspectable/nn-inspectable-iinspectable)
+class type-casted to the [IInspectable](../inspectable/nn-inspectable-iinspectable.md)
 interface.
 
 ### -param riid
@@ -96,6 +96,5 @@ This method is the equivalent for desktop apps of
 
 ## -see-also
 
-[Web account management sample app](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement), [RequestTokenWithWebAccountForWindowAsync](/windows/win32/api/webauthenticationcoremanagerinterop/nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenwithwebaccountforwindowasync)
+[Web account management sample app](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement), [RequestTokenWithWebAccountForWindowAsync](./nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenwithwebaccountforwindowasync.md)
 >>>>>>> d00ded5462c7b66ea93a6693c8bb1ca4a5028557
-

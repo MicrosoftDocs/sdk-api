@@ -50,14 +50,14 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[<b>MAPISendMail</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>.
+<p class="CCE_Message">[<b>MAPISendMail</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>.
 ]
 
 Sends an ANSI message.
 
-<b>On Windows 8 and later:  </b>Call <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> to send a message.
+<b>On Windows 8 and later:  </b>Call <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> to send a message.
 
-<b>On Windows 7 and earlier:  </b>Use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapiunicodehelp/nf-mapiunicodehelp-mapisendmailhelper">MAPISendMailHelper</a> to send a message.
+<b>On Windows 7 and earlier:  </b>Use <a href="/previous-versions/windows/desktop/api/mapiunicodehelp/nf-mapiunicodehelp-mapisendmailhelper">MAPISendMailHelper</a> to send a message.
 
 ## -parameters
 
@@ -65,63 +65,62 @@ Sends an ANSI message.
 
 Type: <b>LHANDLE</b>
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> function.
+For more information, see the <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> function.
 
 ### -param ulUIParam [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG_PTR</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">ULONG_PTR</a></b>
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> function.
+For more information, see the <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> function.
 
 ### -param lpMessage [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">lpMapiMessage</a></b>
+Type: <b><a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">lpMapiMessage</a></b>
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> function.
+For more information, see the <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> function.
 
 ### -param flFlags [in]
 
 Type: <b>FLAGS</b>
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> function.
+For more information, see the <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> function.
 
 ### -param ulReserved
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> function.
+For more information, see the <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> function.
 
 ## -returns
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
+Type: <b><a href="/windows/desktop/WinProg/windows-data-types">ULONG</a></b>
 
-For more information, see the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> function.
+For more information, see the <a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a> function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapilogon">MAPILogon</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisenddocuments">MAPISendDocuments</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisenddocuments">MAPISendDocuments</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapiunicodehelp/nf-mapiunicodehelp-mapisendmailhelper">MAPISendMailHelper</a>
+<a href="/previous-versions/windows/desktop/api/mapiunicodehelp/nf-mapiunicodehelp-mapisendmailhelper">MAPISendMailHelper</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>
+<a href="/previous-versions/windows/desktop/api/mapi/nc-mapi-mapisendmailw">MAPISendMailW</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a>
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessage">MapiMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a>
+<a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
-
+<a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>

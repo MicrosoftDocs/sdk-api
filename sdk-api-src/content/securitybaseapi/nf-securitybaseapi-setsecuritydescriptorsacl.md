@@ -57,77 +57,76 @@ api_name:
 
 ## -description
 
-The <b>SetSecurityDescriptorSacl</b> function sets information in a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). If there is already a SACL present in the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security descriptor</a>, it is replaced.
+The <b>SetSecurityDescriptorSacl</b> function sets information in a <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (SACL). If there is already a SACL present in the <a href="/windows/desktop/SecGloss/s-gly">security descriptor</a>, it is replaced.
 
 ## -parameters
 
 ### -param pSecurityDescriptor [in, out]
 
 A pointer to the 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure to which the function adds the SACL. This security descriptor must be in absolute format, meaning that its members must be pointers to other structures, rather than offsets to contiguous data.
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a> structure to which the function adds the SACL. This security descriptor must be in absolute format, meaning that its members must be pointers to other structures, rather than offsets to contiguous data.
 
 ### -param bSaclPresent [in]
 
 Indicates the presence of a SACL in the security descriptor. If this parameter is <b>TRUE</b>, the function sets the SE_SACL_PRESENT flag in the 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a> structure and uses the values in the <i>pSacl</i> and <i>bSaclDefaulted</i> parameters. If it is <b>FALSE</b>, the function does not set the SE_SACL_PRESENT flag, and <i>pSacl</i> and <i>bSaclDefaulted</i> are ignored.
+<a href="/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a> structure and uses the values in the <i>pSacl</i> and <i>bSaclDefaulted</i> parameters. If it is <b>FALSE</b>, the function does not set the SE_SACL_PRESENT flag, and <i>pSacl</i> and <i>bSaclDefaulted</i> are ignored.
 
 ### -param pSacl [in, optional]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure that specifies the SACL for the security descriptor. If this parameter is <b>NULL</b>, a <b>NULL</b> SACL is assigned to the security descriptor. The SACL is referenced by, not copied into, the security descriptor.
+<a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a> structure that specifies the SACL for the security descriptor. If this parameter is <b>NULL</b>, a <b>NULL</b> SACL is assigned to the security descriptor. The SACL is referenced by, not copied into, the security descriptor.
 
 ### -param bSaclDefaulted [in]
 
-Indicates the source of the SACL. If this flag is <b>TRUE</b>, the SACL has been retrieved by some default mechanism. If it is <b>FALSE</b>, the SACL has been explicitly specified by a user. The function stores this value in the SE_SACL_DEFAULTED flag of the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a> structure. If this parameter is not specified, the SE_SACL_DEFAULTED flag is cleared.
+Indicates the source of the SACL. If this flag is <b>TRUE</b>, the SACL has been retrieved by some default mechanism. If it is <b>FALSE</b>, the SACL has been explicitly specified by a user. The function stores this value in the SE_SACL_DEFAULTED flag of the <a href="/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a> structure. If this parameter is not specified, the SE_SACL_DEFAULTED flag is cleared.
 
 ## -returns
 
 If the function succeeds, the function returns nonzero.
 
 If the function fails, it returns zero. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorsacl">GetSecurityDescriptorSacl</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-getsecuritydescriptorsacl">GetSecurityDescriptorSacl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesecuritydescriptor">InitializeSecurityDescriptor</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-initializesecuritydescriptor">InitializeSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsecuritydescriptor">IsValidSecurityDescriptor</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-isvalidsecuritydescriptor">IsValidSecurityDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
+<a href="/windows/desktop/SecAuthZ/low-level-access-control">Low-level Access Control</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
+<a href="/windows/desktop/SecAuthZ/authorization-functions">Low-level Access Control Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>
+<a href="/windows/desktop/SecAuthZ/security-descriptor-control">SECURITY_DESCRIPTOR_CONTROL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptordacl">SetSecurityDescriptorDacl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorgroup">SetSecurityDescriptorGroup</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorgroup">SetSecurityDescriptorGroup</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorowner">SetSecurityDescriptorOwner</a>
-
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorowner">SetSecurityDescriptorOwner</a>

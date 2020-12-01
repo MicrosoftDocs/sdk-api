@@ -51,11 +51,11 @@ api_name:
 
 ## -description
 
-Provides methods to work with indexes in Systems Format (ASF) files. The ASF indexer object exposes this interface. To create the ASF indexer, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfindexer">MFCreateASFIndexer</a>.
+Provides methods to work with indexes in Systems Format (ASF) files. The ASF indexer object exposes this interface. To create the ASF indexer, call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfindexer">MFCreateASFIndexer</a>.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFIndexer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFASFIndexer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMFASFIndexer</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMFASFIndexer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,16 +70,16 @@ The <b>IMFASFIndexer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-commitindex">CommitIndex</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-commitindex">CommitIndex</a>
 </td>
 <td align="left" width="63%">
-Adds information about  new index entries to the <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-contentinfo-object">ContentInfo</a> object of the output file.
+Adds information about  new index entries to the <a href="/windows/desktop/medfound/asf-contentinfo-object">ContentInfo</a> object of the output file.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-generateindexentries">GenerateIndexEntries</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-generateindexentries">GenerateIndexEntries</a>
 </td>
 <td align="left" width="63%">
 Creates index entries for the specified ASF data packet.
@@ -88,7 +88,7 @@ Creates index entries for the specified ASF data packet.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getcompletedindex">GetCompletedIndex</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getcompletedindex">GetCompletedIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the completed index from the ASF indexer object.
@@ -97,7 +97,7 @@ Retrieves the completed index from the ASF indexer object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getflags">GetFlags</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the flags that indicate the selected indexer options.
@@ -106,7 +106,7 @@ Retrieves the flags that indicate the selected indexer options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexbytestreamcount">GetIndexByteStreamCount</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexbytestreamcount">GetIndexByteStreamCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of byte streams that are included in the index. This method currently only retrieves 1.
@@ -115,7 +115,7 @@ Retrieves the number of byte streams that are included in the index. This method
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexposition">GetIndexPosition</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexposition">GetIndexPosition</a>
 </td>
 <td align="left" width="63%">
 Retrieves the offset of the ASF Index Object relative to start of the ASF file.
@@ -124,7 +124,7 @@ Retrieves the offset of the ASF Index Object relative to start of the ASF file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexstatus">GetIndexStatus</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexstatus">GetIndexStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the index settings for a specified stream and index type.
@@ -133,7 +133,7 @@ Retrieves the index settings for a specified stream and index type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexwritespace">GetIndexWriteSpace</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexwritespace">GetIndexWriteSpace</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the buffer required to store the completed index.
@@ -142,7 +142,7 @@ Retrieves the size of the buffer required to store the completed index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getseekpositionforvalue">GetSeekPositionForValue</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getseekpositionforvalue">GetSeekPositionForValue</a>
 </td>
 <td align="left" width="63%">
 Given a desired seek time, retrieves the offset from which the client should start reading data.
@@ -151,16 +151,16 @@ Given a desired seek time, retrieves the offset from which the client should sta
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize">Initialize</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize">Initialize</a>
 </td>
 <td align="left" width="63%">
-Initializes the indexer with the <a href="https://docs.microsoft.com/windows/desktop/medfound/asf-contentinfo-object">ContentInfo</a> object of the ASF file to be read or encoded.
+Initializes the indexer with the <a href="/windows/desktop/medfound/asf-contentinfo-object">ContentInfo</a> object of the ASF file to be read or encoded.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setflags">SetFlags</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Specifies the read or the write mode.
@@ -169,7 +169,7 @@ Specifies the read or the write mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setindexbytestreams">SetIndexByteStreams</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setindexbytestreams">SetIndexByteStreams</a>
 </td>
 <td align="left" width="63%">
 Sets the byte stream that contains the index entries.
@@ -178,7 +178,7 @@ Sets the byte stream that contains the index entries.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setindexstatus">SetIndexStatus</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setindexstatus">SetIndexStatus</a>
 </td>
 <td align="left" width="63%">
 Specifies the type of index entries that the indexer must generate for the ASF file.
@@ -190,69 +190,68 @@ Specifies the type of index entries that the indexer must generate for the ASF f
 
 ## -remarks
 
-You can use the indexer object to read an existing ASF index or write a new index. The index object has two mutually exclusive modes: read mode and write mode. To set the mode, call <a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setflags">SetFlags</a>. 
+You can use the indexer object to read an existing ASF index or write a new index. The index object has two mutually exclusive modes: read mode and write mode. To set the mode, call <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setflags">SetFlags</a>. 
 
 Use the following methods to configure the indexer object  (both modes):
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize">Initialize</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-initialize">Initialize</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setflags">SetFlags</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setflags">SetFlags</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setindexbytestreams">SetIndexByteStreams</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setindexbytestreams">SetIndexByteStreams</a>
 </li>
 </ul>
 Use the following methods to read an existing index:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getflags">GetFlags</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getflags">GetFlags</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexbytestreamcount">GetIndexByteStreamCount</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexbytestreamcount">GetIndexByteStreamCount</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexposition">GetIndexPosition</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexposition">GetIndexPosition</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexstatus">GetIndexStatus</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexstatus">GetIndexStatus</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getseekpositionforvalue">GetSeekPositionForValue</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getseekpositionforvalue">GetSeekPositionForValue</a>
 </li>
 </ul>
 Use the following methods to write an index:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-commitindex">CommitIndex</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-commitindex">CommitIndex</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-generateindexentries">GenerateIndexEntries</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-generateindexentries">GenerateIndexEntries</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getcompletedindex">GetCompletedIndex</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getcompletedindex">GetCompletedIndex</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexwritespace">GetIndexWriteSpace</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexwritespace">GetIndexWriteSpace</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setindexstatus">SetIndexStatus</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-setindexstatus">SetIndexStatus</a>
 </li>
 </ul>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
+<a href="/windows/desktop/medfound/asf-index-object">ASF Index Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfindexer">MFCreateASFIndexer</a>
+<a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfindexer">MFCreateASFIndexer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>
-
+<a href="/windows/desktop/medfound/media-foundation-interfaces">Media Foundation Interfaces</a>

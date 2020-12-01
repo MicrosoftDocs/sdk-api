@@ -50,15 +50,15 @@ api_name:
 
 ## -description
 
-Sets the  <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> of the search.  When this method is not called, the resulting search will have no filters applied.
+Sets the  <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> of the search.  When this method is not called, the resulting search will have no filters applied.
 
 ## -parameters
 
 ### -param pCondition [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>*</b>
+Type: <b><a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a>*</b>
 
-A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> interface.
+A pointer to an <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-icondition">ICondition</a> interface.
 
 ## -returns
 
@@ -68,9 +68,8 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-clone">ICondition::Clone</a>
+<a href="/windows/desktop/api/structuredquerycondition/nf-structuredquerycondition-icondition-clone">ICondition::Clone</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory">ISearchFolderItemFactory</a>
-
+<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory">ISearchFolderItemFactory</a>

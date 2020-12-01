@@ -61,22 +61,21 @@ If the function succeeds, the return value is <b>NO_ERROR</b>.
 
 ## -remarks
 
-RAS supports multiple Administration DLLs. RAS calls the multiple implementations of <a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedll">MprAdminInitializeDll</a> in the order in which the DLLs are listed in the 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-dll-registry-setup">registry</a>.
+RAS supports multiple Administration DLLs. RAS calls the multiple implementations of <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedll">MprAdminInitializeDll</a> in the order in which the DLLs are listed in the 
+<a href="/windows/desktop/RRAS/ras-administration-dll-registry-setup">registry</a>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedll">MprAdminInitializeDll</a>
+<a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininitializedll">MprAdminInitializeDll</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-dll">RAS Administration DLL</a>
+<a href="/windows/desktop/RRAS/ras-administration-dll">RAS Administration DLL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
+<a href="/windows/desktop/RRAS/ras-administration-functions">RAS Administration Functions</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-
+<a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>

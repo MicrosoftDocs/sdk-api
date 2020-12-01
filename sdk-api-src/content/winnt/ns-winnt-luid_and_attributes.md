@@ -54,13 +54,13 @@ api_name:
 
 ## -description
 
-The <b>LUID_AND_ATTRIBUTES</b> structure represents a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (LUID) and its attributes.
+The <b>LUID_AND_ATTRIBUTES</b> structure represents a <a href="/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (LUID) and its attributes.
 
 ## -struct-fields
 
 ### -field Luid
 
-Specifies an <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> value.
+Specifies an <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> value.
 
 ### -field Attributes
 
@@ -68,21 +68,20 @@ Specifies attributes of the LUID. This value contains up to 32 one-bit flags. It
 
 ## -remarks
 
-An <b>LUID_AND_ATTRIBUTES</b> structure can represent an LUID whose attributes change frequently, such as when the LUID is used to represent privileges in the <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-privilege_set">PRIVILEGE_SET</a> structure. Privileges are represented by LUIDs and have attributes indicating whether they are currently enabled or disabled.
+An <b>LUID_AND_ATTRIBUTES</b> structure can represent an LUID whose attributes change frequently, such as when the LUID is used to represent privileges in the <a href="/windows/desktop/api/winnt/ns-winnt-privilege_set">PRIVILEGE_SET</a> structure. Privileges are represented by LUIDs and have attributes indicating whether they are currently enabled or disabled.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocatelocallyuniqueid">AllocateLocallyUniqueId</a>
+<a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-allocatelocallyuniqueid">AllocateLocallyUniqueId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-privilege_set">PRIVILEGE_SET</a>
+<a href="/windows/desktop/api/winnt/ns-winnt-privilege_set">PRIVILEGE_SET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a>
-
+<a href="/windows/desktop/api/winnt/ns-winnt-token_privileges">TOKEN_PRIVILEGES</a>

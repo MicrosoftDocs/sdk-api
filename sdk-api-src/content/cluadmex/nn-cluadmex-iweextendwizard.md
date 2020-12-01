@@ -54,12 +54,12 @@ api_name:
     section. Support for this interface was removed in Windows Server 2008.]
 
 Implement the <b>IWEExtendWizard</b> interface to 
-    add wizard pages to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator's</a> 
+    add wizard pages to <a href="/previous-versions/windows/desktop/mscs/cluster-administrator">Failover Cluster Administrator's</a> 
     New Resource Wizard or Cluster Application Wizard.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWEExtendWizard</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWEExtendWizard</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWEExtendWizard</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWEExtendWizard</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWEExtendWizard</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendwizard-createwizardpages">CreateWizardPages</a>
+<a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendwizard-createwizardpages">CreateWizardPages</a>
 </td>
 <td align="left" width="63%">
 Allows you to create wizard pages and add them to Failover Cluster Administrator's New Resource Wizard or 
@@ -87,9 +87,8 @@ Allows you to create wizard pages and add them to Failover Cluster Administrator
 ## -remarks
 
 To support Wizard97 wizards and wizard pages, implement the 
-     <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iweextendwizard97">IWEExtendWizard97</a> interface.
+     <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iweextendwizard97">IWEExtendWizard97</a> interface.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/mscs/cluster-administrator-extension-interfaces">Failover Cluster Administrator Extension Interfaces</a>
-
+<a href="/previous-versions/windows/desktop/mscs/cluster-administrator-extension-interfaces">Failover Cluster Administrator Extension Interfaces</a>

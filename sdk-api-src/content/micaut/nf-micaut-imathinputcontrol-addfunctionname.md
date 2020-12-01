@@ -97,9 +97,8 @@ This function is used to add custom math functions that do not exist in the defa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
+<a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-removefunctionname">RemoveFunctionName</a>
-
+<a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-removefunctionname">RemoveFunctionName</a>
